@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Staves</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Staves",globalNavPath=[{ href: '/pathfinderRPG/prd/magicItems.html', name: 'Magic Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="staves">Staves</h1><div class="right"><table id="table-15-16-staves"><caption>Table: Staves</caption>
+<thead><tr><th>Medium</th><th>Major</th><th>Staff</th><th>Market Price</th></tr></thead>
+<tbody>
+<tr class="odd"><td>01&ndash;15</td><td>01&ndash;03</td><td><i><a href="#staff-of-charming" >Charming</a></i></td><td>17,600 gp</td></tr>
+<tr class="even"><td>16&ndash;30</td><td>04&ndash;09</td><td><i><a href="#staff-of-fire" >Fire</a></i></td><td>18,950 gp</td></tr>
+<tr class="odd"><td>31&ndash;40</td><td>10&ndash;11</td><td><i><a href="#staff-of-swarming-insects" >Swarming insects</a></i></td><td>22,800 gp</td></tr>
+<tr class="even"><td>41&ndash;55</td><td>12&ndash;13</td><td><i><a href="#staff-of-size-alteration" >Size alteration</a></i></td><td>26,150 gp</td></tr>
+<tr class="odd"><td>56&ndash;75</td><td>14&ndash;19</td><td><i><a href="#staff-of-healing" >Healing</a></i></td><td>29,600 gp</td></tr>
+<tr class="even"><td>76&ndash;90</td><td>20&ndash;24</td><td><i><a href="#staff-of-frost" >Frost</a></i></td><td>41,400 gp</td></tr>
+<tr class="odd"><td>91&ndash;95</td><td>25&ndash;31</td><td><i><a href="#staff-of-illumination" >Illumination</a></i></td><td>51,500 gp</td></tr>
+<tr class="even"><td>96&ndash;100</td><td>32&ndash;38</td><td><i><a href="#staff-of-defense" >Defense</a></i></td><td>62,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>39&ndash;45</td><td><i><a href="#staff-of-abjuration" >Abjuration</a></i></td><td>82,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>46&ndash;50</td><td><i><a href="#staff-of-conjuration" >Conjuration</a></i></td><td>82,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>51&ndash;55</td><td><i><a href="#staff-of-divination" >Divination</a></i></td><td>82,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>56&ndash;60</td><td><i><a href="#staff-of-enchantment" >Enchantment</a></i></td><td>82,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>61&ndash;65</td><td><i><a href="#staff-of-evocation" >Evocation</a></i></td><td>82,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>66&ndash;70</td><td><i><a href="#staff-of-illusion" >Illusion</a></i></td><td>82,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>71&ndash;75</td><td><i><a href="#staff-of-necromancy" >Necromancy</a></i></td><td>82,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>76&ndash;80</td><td><i><a href="#staff-of-transmutation" >Transmutation</a></i></td><td>82,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>81&ndash;85</td><td><i><a href="#staff-of-earth-and-stone" >Earth and stone</a></i></td><td>85,800 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>86&ndash;90</td><td><i><a href="#staff-of-the-woodlands" >Woodlands</a></i></td><td>100,400 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>91&ndash;95</td><td><i><a href="#staff-of-life" >Life</a></i></td><td>109,400 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>96&ndash;98</td><td><i><a href="#staff-of-passage" >Passage</a></i></td><td>206,900 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>99&ndash;100</td><td><i><a href="#staff-of-power" >Power</a></i></td><td>235,000 gp</td></tr></tbody></table></div>
+				<p>A staff is a long shaft that stores several spells. Unlike wands, which can contain a wide variety of spells, each staff is of a certain kind and holds specific spells. A staff has 10 charges when created.</p>
+				<p><b>Physical Description</b>: A typical staff measures anywhere from 4 feet to 7 feet long and is 2 inches to 3 inches thick, weighing about 5 pounds. Most staves are wood, but an exotic few are bone, metal, or even glass. A staff often has a gem or some device at its tip or is shod in metal at one or both ends. Staves are often decorated with carvings or runes. A typical staff is like a walking stick, quarterstaff, or cudgel. It has <a href="../combat.html#_armor-class" >AC</a> 7, 10 hit points, hardness 5, and a break DC of 24.</p>
+				<p><b>Activation</b>: Staves use the spell trigger activation method, so casting a spell from a staff is usually a standard action that doesn't provoke attacks of opportunity. (If the spell being cast has a longer casting time than 1 standard action, however, it takes that long to cast the spell from a staff.) To activate a staff, a character must hold it forth in at least one hand (or whatever passes for a hand, for nonhumanoid creatures).</p>
+				<p><b>Special Qualities</b>: Roll d%. A 01&ndash;30 result indicates that something (a design, inscription, or the like) provides some clue to the staff 's function, and 31&ndash;100 indicates no special qualities.</p>
+				<p><b>Using Staves</b>: Staves use the wielder's ability score and relevant feats to set the DC for saves against their spells. Unlike with other sorts of magic items, the wielder can use his caster level when activating the power of a staff if it's higher than the caster level of the staff. </p>
+				<p>This means that staves are far more potent in the hands of a powerful spellcaster. Because they use the wielder's ability score to set the save DC for the spell, spells from a staff are often harder to resist than those from other magic items, which use the minimum ability score required to cast the spell. Not only are aspects of the spell dependent on caster level (range, duration, and so on) potentially higher, but spells from a staff are also harder to dispel and have a better chance of overcoming a target's <a href="../glossary.html#_spell-resistance" >spell resistance</a>.</p>
+				<p>Staves hold a maximum of 10 charges. Each spell cast from a staff consumes one or more charges. When a staff runs out of charges, it cannot be used until it is recharged. Each morning, when a spellcaster prepares spells or regains spell slots, he can also imbue one staff with a portion of his power so long as one or more of the spells cast by the staff is on his spell list and he is capable of casting at least one of the spells. Imbuing a staff with this power restores one charge to the staff, but the caster must forgo one prepared spell or spell slot of a level equal to the highest-level spell cast by the staff. For example, a 9th-level wizard with a <i>staff of fire</i> could imbue the staff with one charge per day by using up one of his 4th-level spells. A staff cannot gain more than one charge per day and a caster cannot imbue more than one staff per day.</p>
+				<p>Furthermore, a staff can hold a spell of any level, unlike a wand, which is limited to spells of 4th level or lower. The minimum caster level of a staff is 8th.</p>
+				<p id="staff-of-abjuration" class="stat-block-title"><b>Staff of Abjuration</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong abjuration; <b>CL</b> 13th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 82,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Usually carved from the heartwood of an ancient oak or other large tree, this staff allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/dispelMagic.html#_dispel-magic" >Dispel magic</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/resistEnergy.html#_resist-energy" >Resist energy</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/shield.html#_shield" >Shield</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/dismissal.html#_dismissal" >Dismissal</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/globeOfInvulnerability.html#_globe-of-invulnerability-lesser" >Lesser globe of invulnerability</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/repulsion.html#_repulsion" >Repulsion</a></i> (3 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/dismissal.html#_dismissal" >dismissal</a>, <a href="../spells/dispelMagic.html#_dispel-magic" >dispel magic</a>, <a href="../spells/globeOfInvulnerability.html#_globe-of-invulnerability-lesser" >lesser globe of invulnerability</a>, <a href="../spells/repulsion.html#_repulsion" >repulsion</a>, <a href="../spells/resistEnergy.html#_resist-energy" >resist energy</a>, shield</i>; <b>Cost </b>41,000 gp</p>
+				<p id="staff-of-charming" class="stat-block-title"><b>Staff of Charming</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate enchantment;<b> CL </b>8th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 17,600 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Made of twisting wood ornately shaped and carved, this staff allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/charmPerson.html#_charm-person" >Charm person</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/charmMonster.html#_charm-monster" >Charm monster</a></i> (2 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/charmPerson.html#_charm-person" >charm person</a>, <a href="../spells/charmMonster.html#_charm-monster" >charm monster</a></i>; <b>Cost </b>8,800 gp</p>
+				<p id="staff-of-conjuration" class="stat-block-title"><b>Staff of Conjuration</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong conjuration; <b>CL</b> 13th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 82,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This staff is usually made of ash or walnut and bears ornate carvings of many different kinds of creatures. It allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/stinkingCloud.html#_stinking-cloud" >Stinking cloud</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/summonSwarm.html#_summon-swarm" >Summon swarm</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/unseenServant.html#_unseen-servant" >Unseen servant</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/cloudkill.html#_cloudkill" >Cloudkill</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/minorCreation.html#_minor-creation" >Minor creation</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/summonMonster.html#_summon-monster-vi" >Summon monster VI</a></i> (3 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/cloudkill.html#_cloudkill" >cloudkill</a>, <a href="../spells/minorCreation.html#_minor-creation" >minor creation</a>, <a href="../spells/stinkingCloud.html#_stinking-cloud" >stinking cloud</a>, <a href="../spells/summonMonster.html#_summon-monster-vi" >summon monster VI</a>, <a href="../spells/summonSwarm.html#_summon-swarm" >summon swarm</a>, <a href="../spells/unseenServant.html#_unseen-servant" >unseen servant</a></i>; <b>Cost </b>41,000 gp</p>
+				<p id="staff-of-defense" class="stat-block-title"><b>Staff of Defense</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong abjuration;<b> CL </b>15th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 62,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The <i>staff of defense </i>is a simple-looking polished wooden staff that throbs with power when held defensively. It allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/shield.html#_shield" >Shield</a></i> (1 charge)</li>
+				<li> S<i><a href="../spells/shieldOfFaith.html#_shield-of-faith" >hield of Faith</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/shieldOther.html#_shield-other" >Shield other</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/shieldOfLaw.html#_shield-of-law" >Shield of law</a></i> (3 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/shield.html#_shield" >shield</a>, <a href="../spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a>, <a href="../spells/shieldOfLaw.html#_shield-of-law" >shield of law</a>, <a href="../spells/shieldOther.html#_shield-other" >shield other</a></i>, creator must be lawful; <b>Cost </b>31,000 gp</p>
+				<p id="staff-of-earth-and-stone" class="stat-block-title"><b>Staff of Earth and Stone</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation;<b> CL </b>11th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 85,800 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This staff is topped with a fist-sized emerald that gleams with smoldering power. It allows the use of the following spells: </p>
+				<ul><li> <i><a href="../spells/moveEarth.html#_move-earth" >Move earth</a></i> (1 charge) </li>
+				<li> <i><a href="../spells/passwall.html#_passwall" >Passwall</a></i> (1 charge)</li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/moveEarth.html#_move-earth" >move earth</a>, <a href="../spells/passwall.html#_passwall" >passwall</a></i>; <b>Cost </b>42,900 gp</p>
+				<p id="staff-of-divination" class="stat-block-title"><b>Staff of Divination</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong divination; <b>CL</b> 13th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 82,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Made from a supple length of willow, often with a forked tip, this staff allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/detectSecretDoors.html#_detect-secret-doors" >Detect secret doors</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/locateObject.html#_locate-object" >Locate object</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/tongues.html#_tongues" >Tongues</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/locateCreature.html#_locate-creature" >Locate creature</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/pryingEyes.html#_prying-eyes" >Prying eyes</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/trueSeeing.html#_true-seeing" >True seeing</a></i> (3 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/detectSecretDoors.html#_detect-secret-doors" >detect secret doors</a></i>, <i><a href="../spells/locateCreature.html#_locate-creature" >locate creature</a>, <a href="../spells/locateObject.html#_locate-object" >locate object</a>, <a href="../spells/pryingEyes.html#_prying-eyes" >prying eyes</a>, <a href="../spells/tongues.html#_tongues" >tongues</a></i>, <i><a href="../spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <b>Cost </b>41,000 gp</p>
+				<p id="staff-of-enchantment" class="stat-block-title"><b>Staff of Enchantment</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong enchantment; <b>CL</b> 13th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 82,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Often made from applewood and topped with a clear crystal, this staff allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/hideousLaughter.html#_hideous-laughter" >Hideous laughter</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/sleep.html#_sleep" >Sleep</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/suggestion.html#_suggestion" >Suggestion</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/crushingDespair.html#_crushing-despair" >Crushing despair</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/mindFog.html#_mind-fog" >Mind fog</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/suggestion.html#_suggestion-mass" >Mass suggestion</a></i> (3 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <a href="../spells/crushingDespair.html#_crushing-despair" >c</a><i><a href="../spells/crushingDespair.html#_crushing-despair" >rushing despair</a>, <a href="../spells/hideousLaughter.html#_hideous-laughter" >hideous laughter</a>, <a href="../spells/suggestion.html#_suggestion-mass" >mass suggestion</a>, <a href="../spells/mindFog.html#_mind-fog" >mind fog</a>, <a href="../spells/sleep.html#_sleep" >sleep</a>, <a href="../spells/suggestion.html#_suggestion" >suggestion</a></i>; <b>Cost </b>41,000 gp</p>
+				<p id="staff-of-evocation" class="stat-block-title"><b>Staff of Evocation</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong evocation; <b>CL</b> 13th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 82,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This smooth hickory or yew staff allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/fireball.html#_fireball" >Fireball</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/magicMissile.html#_magic-missile" >Magic missile</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/shatter.html#_shatter" >Shatter</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/iceStorm.html#_ice-storm" >Ice storm</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/wallOfForce.html#_wall-of-force" >Wall of force</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/chainLightning.html#_chain-lightning" >Chain lightning</a></i> (3 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a><i>, <a href="../spells/chainLightning.html#_chain-lightning" >chain lightning</a>, <a href="../spells/fireball.html#_fireball" >fireball</a>, <a href="../spells/iceStorm.html#_ice-storm" >ice storm</a>, <a href="../spells/magicMissile.html#_magic-missile" >magic missile</a>, <a href="../spells/shatter.html#_shatter" >shatter</a>, <a href="../spells/wallOfForce.html#_wall-of-force" >wall of force</a></i>;<b> Cost </b>41,000 gp</p>
+				<p id="staff-of-fire" class="stat-block-title"><b>Staff of Fire</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate evocation; <b>CL</b> 8th</p>
+				<p class="stat-block-1"><b>Slot </b>none; <b>Price</b> 18,950 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Crafted from bronzewood with brass bindings, this staff allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/burningHands.html#_burning-hands" >Burning hands</a> </i>(1 charge)</li>
+				<li> <i><a href="../spells/fireball.html#_fireball" >Fireball</a> </i>(2 charges)</li>
+				<li> <i><a href="../spells/wallOfFire.html#_wall-of-fire" >Wall of fire</a> </i>(3 charges)</li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements </b><a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/burningHands.html#_burning-hands" >burning hands</a>, <a href="../spells/fireball.html#_fireball" >fireball</a>, <a href="../spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i>; <b>Cost</b> 9,475 gp</p>
+				<p id="staff-of-frost" class="stat-block-title"><b>Staff of Frost</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate evocation; <b>CL</b> 10th</p>
+				<p class="stat-block-1"><b>Slot </b>none; <b>Price</b> 41,400 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Tipped on either end with a glistening diamond, this rune-covered staff allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/iceStorm.html#_ice-storm" >Ice storm</a> </i>(1 charge)</li>
+				<li> <i><a href="../spells/wallOfIce.html#_wall-of-ice" >Wall of ice</a> </i>(2 charges)</li>
+				<li> <i><a href="../spells/coneOfCold.html#_cone-of-cold" >Cone of cold</a> </i>(3 charges)</li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements </b><a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/coneOfCold.html#_cone-of-cold" >cone of cold</a></i>, <i><a href="../spells/iceStorm.html#_ice-storm" >ice storm</a>, <a href="../spells/wallOfIce.html#_wall-of-ice" >wall of ice</a></i>; <b>Cost</b> 20,700 gp</p>
+				<p id="staff-of-healing" class="stat-block-title"><b>Staff of Healing</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate conjuration;<b> CL </b>8th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 29,600 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This white ash staff is decorated with inlaid silver runes. It allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/cureSeriousWounds.html#_cure-serious-wounds" >Cure serious wounds</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/restoration.html#_restoration-lesser" >Lesser restoration</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/removeBlindnessDeafness.html#_remove-blindness-deafness" >Remove blindness/deafness</a></i> (2 charges)</li>
+				<li> <a href="../spells/removeDisease.html#_remove-disease" ><i>Remove disease</i></a> (3 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a>, <a href="../spells/restoration.html#_restoration-lesser" >lesser restoration</a>, <a href="../spells/removeBlindnessDeafness.html#_remove-blindness-deafness" >remove blindness/deafness</a>, <a href="../spells/removeDisease.html#_remove-disease" >remove disease</a></i>;<b> Cost </b>14,800 gp</p>
+				<p id="staff-of-illumination" class="stat-block-title"><b>Staff of Illumination</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong evocation;<b> CL </b>15th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 51,500 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This staff is usually sheathed in silver and decorated with <a href="../spells/sunburst.html#_sunburst" >sunburst</a>s. It allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/dancingLights.html#_dancing-lights" >Dancing lights</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/flare.html#_flare" >Flare</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/daylight.html#_daylight" >Daylight</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/sunburst.html#_sunburst" >Sunburst</a></i> (3 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/dancingLights.html#_dancing-lights" >dancing lights</a>, <a href="../spells/daylight.html#_daylight" >daylight</a>, <a href="../spells/flare.html#_flare" >flare</a>, <a href="../spells/sunburst.html#_sunburst" >sunburst</a></i>; <b>Cost </b>20,750 gp</p>
+				<p id="staff-of-illusion" class="stat-block-title"><b>Staff of Illusion</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong illusion; <b>CL</b> 13th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 82,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This staff is made from ebony or other dark wood and carved into an intricately twisted, fluted, or spiral shape. It allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/disguiseSelf.html#_disguise-self" >Disguise self</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/majorImage.html#_major-image" >Major image</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/mirrorImage.html#_mirror-image" >Mirror image</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/persistentImage.html#_persistent-image" >Persistent image</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/rainbowPattern.html#_rainbow-pattern" >Rainbow pattern</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/mislead.html#_mislead" >Mislead</a></i> (3 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/disguiseSelf.html#_disguise-self" >disguise self</a>, <a href="../spells/majorImage.html#_major-image" >major image</a>, <a href="../spells/mirrorImage.html#_mirror-image" >mirror image</a>, <a href="../spells/persistentImage.html#_persistent-image" >persistent image</a>, <a href="../spells/mislead.html#_mislead" >mislead</a>, <a href="../spells/rainbowPattern.html#_rainbow-pattern" >rainbow pattern</a></i>; <b>Cost </b>41,000 gp</p>
+				<p id="staff-of-life" class="stat-block-title"><b>Staff of Life</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate conjuration;<b> CL </b>11th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 109,400 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>A <i>staff of life is</i> made of thick polished oak shod in gold and decorated with sinuous runes. This staff allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/heal.html#_heal" >Heal</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/raiseDead.html#_raise-dead" >Raise dead</a></i> (5 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/heal.html#_heal" >heal</a>, <a href="../spells/raiseDead.html#_raise-dead" >raise dead</a></i>; <b>Cost </b>79,700 gp</p>
+				<p id="staff-of-necromancy" class="stat-block-title"><b>Staff of Necromancy</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong necromancy; <b>CL</b> 13th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 82,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This staff is made from ebony or other dark wood and carved with images of bones and skulls mingled with strange spidery runes. It allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/causeFear.html#_cause-fear" >Cause fear</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/ghoulTouch.html#_ghoul-touch" >Ghoul touch</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/spells/haltUndead.html#_halt-undead-copy">Halt undead</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/enervation.html#_enervation" >Enervation</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/wavesOfFatigue.html#_waves-of-fatigue" >Waves of fatigue</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/circleOfDeath.html#_circle-of-death" >Circle of death</a></i> (3 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/causeFear.html#_cause-fear" >cause fear</a>, <a href="../spells/circleOfDeath.html#_circle-of-death" >circle of death</a>, <a href="../spells/enervation.html#_enervation" >enervation</a>, <a href="../spells/ghoulTouch.html#_ghoul-touch" >ghoul touch</a>, <a href="../spells/haltUndead.html#_halt-undead-copy">halt undead</a>, <a href="../spells/wavesOfFatigue.html#_waves-of-fatigue" >waves of fatigue</a></i>; <b>Cost </b>41,000 gp</p>
+				<p id="staff-of-passage" class="stat-block-title"><b>Staff of Passage</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong varied;<b> CL </b>17th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 206,900 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This potent item allows use of the following spells: </p>
+				<ul><li> <i><a href="../spells/dimensionDoor.html#_dimension-door" >Dimension door</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/passwall.html#_passwall" >Passwall</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/teleport.html#_teleport-greater" >Greater teleport</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/phaseDoor.html#_phase-door" >Phase door</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/astralProjection.html#_astral-projection" >Astral projection</a></i> (2 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/astralProjection.html#_astral-projection" >astral projection</a>, <a href="../spells/dimensionDoor.html#_dimension-door" >dimension door</a>, <a href="../spells/teleport.html#_teleport-greater" >greater teleport</a>, <a href="../spells/passwall.html#_passwall" >passwall</a>, <a href="../spells/phaseDoor.html#_phase-door" >phase door</a></i>; <b>Cost </b>115,950 gp</p>
+				<p id="staff-of-power" class="stat-block-title"><b>Staff of Power</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong varied; <b>CL</b> 15th</p>
+				<p class="stat-block-1"><b>Slot </b>none; <b>Price</b> 235,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The <i>staff of power </i>is a very potent magic item with offensive and defensive abilities. It is usually topped with a glistening gem that often burns from within with a flickering red light. The staff allows the use of the following spells:</p>
+				<ul><li> <i><a href="../spells/continualFlame.html#_continual-flame" >Continual flame</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/fireball.html#_fireball" >Fireball</a></i> (heightened to 5th level) (1 charge)</li>
+				<li> <i><a href="../spells/levitate.html#_levitate" >Levitate</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/lightningBolt.html#_lightning-bolt" >Lightning bolt</a></i> (heightened to 5th level) (1 charge)</li>
+				<li> <i><a href="../spells/magicMissile.html#_magic-missile" >Magic missile</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/rayOfEnfeeblement.html#_ray-of-enfeeblement" >Ray of enfeeblement</a></i> (heightened to 5th level) (1 charge)</li>
+				<li> <i><a href="../spells/coneOfCold.html#_cone-of-cold" >Cone of cold</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/globeOfInvulnerability.html#_globe-of-invulnerability" >Globe of invulnerability</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/holdMonster.html#_hold-monster" >Hold monster</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/wallOfForce.html#_wall-of-force" >Wall of force</a></i> (in a 10-ft.-diameter hemisphere around the caster only) (2 charges)</li></ul>
+				<p>The wielder of a <i>staff of power </i>gains a +2 luck bonus to <a href="../combat.html#_armor-class" >AC</a> and on saving throws. The staff is also a <i>+2 quarterstaff, </i>and its wielder may use it to smite opponents. If 1 charge is expended (as a free action), the staff causes double damage (&times;3 on a critical hit) for 1 round.</p>
+				<p>A <i>staff of power </i>can be used for a retributive strike, requiring it to be broken by its wielder. (If this breaking of the staff is purposeful and declared by the wielder, it can be performed as a standard action that does not require the wielder to make a Strength check.) All charges currently in the staff are instantly released in a 30-foot spread. All within 2 squares of the broken staff take points of damage equal to 20 &times; the number of charges in the staff, those 3 or 4 squares away take 15 &times; the number of charges in damage, and those 5 or 6 squares distant take 10 &times; the number of charges in damage. All those affected can make DC 17 <a href="../combat.html#_reflex" >Reflex</a> saves to reduce the damage by half.</p>
+				<p>The character breaking the staff has a 50% chance of traveling to another plane of existence, but if he does not, the explosive release of spell energy destroys him. Only certain items, including the <i>staff of the magi</i> and the <i>staff of power, </i>are capable of being used for a retributive strike.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements </b><a href="../feats.html#_craft-staff" >Craft Staff</a>, <a href="../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../spells/coneOfCold.html#_cone-of-cold" >cone of cold</a>, <a href="../spells/continualFlame.html#_continual-flame" >continual flame</a>, </i>heightened <i><a href="../spells/fireball.html#_fireball" >fireball</a>, <a href="../spells/globeOfInvulnerability.html#_globe-of-invulnerability" >globe of invulnerability</a>, <a href="../spells/holdMonster.html#_hold-monster" >hold monster</a>, <a href="../spells/levitate.html#_levitate" >levitate</a>, </i>heightened <i><a href="../spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a>, <a href="../spells/magicMissile.html#_magic-missile" >magic missile</a>, </i>heightened <i><a href="../spells/rayOfEnfeeblement.html#_ray-of-enfeeblement" >ray of enfeeblement</a>, <a href="../spells/wallOfForce.html#_wall-of-force" >wall of force</a></i>; <b>Cost</b> 117,500 gp</p>
+				<p id="staff-of-size-alteration" class="stat-block-title"><b>Staff of Size Alteration</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 8th</p>
+				<p class="stat-block-1"><b>Slot </b>none; <b>Price</b> 26,150 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This staff of dark wood is relatively more stout and sturdy than most magical staves, with a gnarled and twisted knot of wood at the top end. It allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/enlargePerson.html#_enlarge-person" >Enlarge person</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/reducePerson.html#_reduce-person" >Reduce person</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/shrinkItem.html#_shrink-item" >Shrink item</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/enlargePerson.html#_enlarge-person-mass" >Mass enlarge person</a></i> (3 charges)</li>
+				<li> <i><a href="../spells/reducePerson.html#_reduce-person-mass" >Mass reduce person</a></i> (3 charges)</li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements </b><a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/enlargePerson.html#_enlarge-person" >enlarge person</a>, <a href="../spells/enlargePerson.html#_enlarge-person-mass" >mass enlarge person</a>, <a href="../spells/reducePerson.html#_reduce-person-mass" >mass reduce person</a>, <a href="../spells/reducePerson.html#_reduce-person" >reduce person</a>, <a href="../spells/shrinkItem.html#_shrink-item" >shrink item</a></i>; <b>Cost</b> 13,075 gp</p>
+				<p id="staff-of-swarming-insects" class="stat-block-title"><b>Staff of Swarming Insects</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate conjuration;<b> CL </b>9th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 22,800 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Made of twisted darkwood covered with knots and nodules resembling crawling insects (which occasionally seem to move), this staff allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/summonSwarm.html#_summon-swarm" >Summon swarm</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/insectPlague.html#_insect-plague" >Insect plague</a></i> (3 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/insectPlague.html#_insect-plague" >insect plague</a>, <a href="../spells/summonSwarm.html#_summon-swarm" >summon swarm</a></i>; <b>Cost </b>11,400 gp</p>
+				<p id="staff-of-transmutation" class="stat-block-title"><b>Staff of Transmutation</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong transmutation; <b>CL</b> 13th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 82,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This staff is generally carved from or decorated with petrified wood or fossilized bone, each etched with tiny but complex runes. It allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/alterSelf.html#_alter-self" >Alter self</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/blink.html#_blink" >Blink</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/expeditiousRetreat.html#_expeditious-retreat" >Expeditious retreat</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/balefulPolymorph.html#_baleful-polymorph" >Baleful polymorph</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/polymorph.html#_polymorph" >Polymorph</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/disintegrate.html#_disintegrate" >Disintegrate</a></i> (3 charges) </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/alterSelf.html#_alter-self" >alter self</a>, <a href="../spells/balefulPolymorph.html#_baleful-polymorph" >baleful polymorph</a>, <a href="../spells/blink.html#_blink" >blink</a>, <a href="../spells/disintegrate.html#_disintegrate" >disintegrate</a>, <a href="../spells/expeditiousRetreat.html#_expeditious-retreat" >expeditious retreat</a>, <a href="../spells/polymorph.html#_polymorph" >polymorph</a></i>; <b>Cost </b>41,000 gp</p>
+				<p id="staff-of-the-woodlands" class="stat-block-title"><b>Staff of the Woodlands</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong varied; <b>CL</b> 13th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 100,400 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Appearing to have grown naturally into its shape, this oak, ash, or yew staff allows use of the following spells:</p>
+				<ul><li> <i><a href="../spells/charmAnimal.html#_charm-animal" >Charm animal</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/speakWithAnimals.html#_speak-with-animals" >Speak with animals</a></i> (1 charge)</li>
+				<li> <i><a href="../spells/barkskin.html#_barkskin" >Barkskin</a></i> (2 charges)</li>
+				<li> <i><a href="../spells/summonNatureSAlly.html#_summon-nature-s-ally-vi" >Summon nature's ally VI</a></i> (3 charges)</li>
+				<li> <i><a href="../spells/wallOfThorns.html#_wall-of-thorns" >Wall of thorns</a></i> (3 charges)</li>
+				<li> <i><a href="../spells/animatePlants.html#_animate-plants" >Animate plants</a></i> (4 charges)</li></ul>
+				<p>The staff may be used as a weapon, functioning as a <i>+2 quarterstaff</i>. The <i>staff of the woodlands</i> also allows its wielder to cast <i><a href="../spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i> at will, with no charge cost. These two attributes continue to function after all the charges are expended. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i><a href="../spells/animatePlants.html#_animate-plants" >animate plants</a>, <a href="../spells/barkskin.html#_barkskin" >barkskin</a>, <a href="../spells/charmAnimal.html#_charm-animal" >charm animal</a>, <a href="../spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a>, <a href="../spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a>, <a href="../spells/summonNatureSAlly.html#_summon-nature-s-ally-vi" >summon nature's ally VI</a>, <a href="../spells/wallOfThorns.html#_wall-of-thorns" >wall of thorns</a></i>; <b>Cost </b>50,500 gp</p>
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

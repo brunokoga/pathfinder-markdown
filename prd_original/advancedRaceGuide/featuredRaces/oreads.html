@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Oreads</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Oreads",globalNavPath=[{ href: '/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html', name: 'Featured Races'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body">
+
+<h1 id="oreads">Oreads</h1>
+<p>Oreads are humans whose ancestry includes the touch of an elemental being of earth somewhere along the line, often that of a shaitan genie. Stoic and contemplative, oreads are a race not easily moved, yet almost unstoppable when spurred to action. They remain a mystery to most of the world thanks to their reclusive nature, but those who seek them out in their secluded mountain hideaways find oreads to be quiet, dependable, and protective of their friends. </p>
+<p><b>Physical Description</b>: Oreads are strong and solidly built, with skin and hair colored stony shades of black, brown, gray, or white. While all oreads appear vaguely earthy, a few bear more pronounced signs of their elemental heritage&mdash;skin that shines like polished onyx, rocky outcroppings protruding from their flesh, glowing gemstones for eyes, or hair like crystalline spikes. They often dress in earthy tones, wearing practical clothing well suited to vigorous physical activity and preferring fresh flowers, simple gemstones, and other natural accents to complex manufactured jewelry.</p>
+<p><b>Society</b>: As a minor offshoot of the human race, oreads have no real established society of their own. Instead, most oreads grow up in human communities learning the customs of their parents. Adult oreads have a well-deserved reputation among other races for being hermits and loners. Few take well to the bustle of city life, preferring instead to spend their days in quiet contemplation atop some remote mountain peak or deep below the earth in a secluded cavern. Oreads with a greater tolerance for life among humans often join the city watch, or find some other way to serve their community in a position of responsibility. </p>
+<p><b>Relations</b>: Oreads feel comfortable in the company of dwarves, with whom they have much in common. They find gnomes too strange and many halflings far too brash, and so avoid these races in general. Oreads gladly associate with half-orcs and half-elves, feeling a sense of kinship with the other part-human races despite inevitable personality conflicts. Among the elemental-touched races, oreads have few friends but no true enemies.</p>
+<p><b>Alignment and Religion</b>: Oreads are, perhaps above all else, set in their ways, and any disruption of their routine is met with quiet disapproval. Oreads are fiercely protective of their friends, but don't seem particularly concerned with the well-being of those outside their small circle of acquaintances. As such, most oreads are lawful neutral. Religious life comes easily to the earth-touched. They appreciate the quiet, contemplative life of the monastic order, and most dedicate themselves to the worship of earth- or nature-related deities.</p>
+<p><b>Adventurers</b>: Oreads are initially hesitant adventurers. They dislike leaving their homes and don't handle the shock of new experiences well. Usually it takes some outside force to rouse oreads into action, often by threatening their homes, lives, or friends. Once the initial threat is dealt with, however, oreads often find they've grown accustomed to the adventuring life, and continue to pursue it through the rest of their days. Oreads make good monks and fighters thanks to their prodigious strength and self-discipline.</p>
+<p><b>Male Names</b>: Andanan, Jeydavu, Mentys, Oret, Sithundan, Urtar.</p>
+<p><b>Female Names</b>: Besthana, Echane, Ghatiyara, Irice, Nysene, Pashe.</p>
+
+<h1 id="oread-racial-traits">Oread Racial Traits</h1>
+<p id="+2-strength,-+2-wisdom,--2-charisma"><b>+2 Strength, +2 Wisdom, &ndash;2 Charisma</b>: Oreads are strong, solid, stable, and stoic.</p>
+<p id="native-outsider"><b>Native Outsider</b>: Oreads are outsiders with the native subtype.</p>
+<p id="medium"><b>Medium</b>: Oreads are Medium creatures and have no bonuses or penalties due to their size.</p>
+<p id="slow-speed"><b>Slow Speed</b>: Oreads have a base speed of 20 feet.</p>
+<p id="darkvision"><b>Darkvision</b>: Oreads can see in the dark up to 60 feet.</p>
+<p id="spell-like-ability"><b>Spell-Like Ability</b>: <i><a href="/pathfinderRPG/prd/spells/magicStone.html#_magic-stone" >Magic stone</a></i> 1/day (caster level equals the oread's total level).</p>
+<p id="energy-resistance"><b>Energy Resistance</b>: Oreads have acid resistance 5.</p>
+<p id="earth-affinity"><b>Earth Affinity</b>: Oread sorcerers with the elemental (earth) bloodline treat their Charisma score as 2 points higher for all sorcerer spells and class abilities. Oread clerics with the Earth domain use their domain powers and spells at +1 caster level.</p>
+<p id="languages"><b>Languages</b>: Oreads begin play speaking Common and Terran. Oreads with high Intelligence scores can choose from the following: Aquan, Auran, Dwarven, Elven, Gnome, Halfling, Ignan, and Undercommon.</p>
+
+<h1 id="alternate-racial-traits">Alternate Racial Traits</h1>
+<p>The following racial traits may be selected instead of existing oread racial traits. Consult your GM before selecting any of these new options.</p>
+<p id="crystalline-form"><b>Crystalline Form</b>: Oreads with this trait gain a +2 racial bonus to AC against rays thanks to their reflective crystalline skin. In addition, once per day, they can deflect a single ray attack targeted at them as if they were using the Deflect Arrows feat. This racial trait replaces earth affinity.</p>
+<p id="earth-insight"><b>Earth Insight</b>: Oread spellcasters sometimes find that their elemental heritage makes creatures of earth more willing to serve them. <i>Summon monster</i> and <i>summon nature's ally</i> spells that such oreads cast last 2 rounds longer than normal when used to summon creatures with the earth subtype. This racial trait replaces earth affinity.</p>
+<p id="ferrous-growth"><b>Ferrous Growth</b>: Oreads with this racial trait learn how to mimic the magic of their shaitan ancestors. Once per day, such an oread can cause a touched piece of nonmagical iron or steel to grow into an object up to 10 pounds in weight, such as a sword, crowbar, or light steel shield. This object remains in this form for 10 minutes or until broken or destroyed, at which point it shrinks back to its original size and shape. This racial trait replaces the spell-like ability racial trait.</p>
+<p id="fertile-soil"><b>Fertile Soil</b>: Oread sorcerers with the verdant bloodline treat their Charisma score as 2 points higher for all sorcerer spells and class abilities. Oread clerics with the Plant domain use their domain powers and spells at +1 caster level. This racial trait replaces earth affinity.</p>
+<p id="granite-skin"><b>Granite Skin</b>: Rocky growths cover the skin of oreads with this racial trait. They gain a +1 racial bonus to natural armor. This racial trait replaces energy resistance.  </p>
+<p id="mountain-born"><b>Mountain-Born</b>: Oreads are drawn to mountains and other high places, and after many generations they've grown well suited to their environment. Oreads with this racial trait gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks made to cross narrow ledges and on saves against altitude fatigue and sickness. This racial trait replaces the spell-like ability racial trait.</p>
+<p id="stone-in-the-blood"><b>Stone in the Blood</b>: Oreads with this racial trait mimic the healing abilities of the mephits, gaining fast healing 2 for 1 round anytime they are subject to acid damage (the acid damage does not need to overcome the oread's resistances or immunities to activate this ability). The oread can heal up to 2 hit points per level per day with this ability, after which it ceases to function. This racial trait replaces earth affinity.</p>
+<p id="treacherous-earth"><b>Treacherous Earth</b>: Once per day, an oread with this racial trait can will the earth to rumble and shift, transforming a 10-foot-radius patch of earth, unworked stone, or sand into an area of difficult terrain, centered on an area the oread touches. This lasts for a number of minutes equal to the oread's level, after which the ground returns to normal. This racial trait replaces the spell-like ability racial trait.</p>
+
+<h1 id="favored-class-options">Favored Class Options</h1>
+<p>The following options are available to all oreads who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the class reward.</p>
+<p id="bard"><b>Bard</b>: Add +5 feet to the range of one of the bard's bardic performances (max +30 feet to any one performance).</p>
+<p id="cleric"><b>Cleric</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) checks relating to the Plane of Earth and creatures with the earth subtype.</p>
+<p id="druid"><b>Druid</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) checks relating to plants and burrowing animals.</p>
+<p id="fighter"><b>Fighter</b>: Add +1 to the fighter's CMD when resisting a bull rush or drag attempt.</p>
+<p id="monk"><b>Monk</b>: Add +1/3 on critical hit confirmation rolls made with unarmed strikes (maximum bonus of +5). This bonus does not stack with <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>.</p>
+<p id="paladin"><b>Paladin</b>: Add +1/4 to the bonus the paladin grants her allies with her aura of courage and aura of resolve special abilities.</p>
+<p id="ranger"><b>Ranger</b>: Add +1/4 to the natural armor bonus of the ranger's animal companion. If the ranger ever replaces his animal companion, the new animal companion gains this bonus.</p>
+<p id="summoner"><b>Summoner</b>: Add a +1/4 natural armor bonus to the AC of the summoner's eidolon.</p>
+
+<h1 id="racial-archetypes">Racial Archetypes</h1>
+<p>The following racial archetypes are available to oreads.</p>
+
+<h2 id="shaitan-binder-(summoner)">Shaitan Binder (Summoner)</h2>
+<p>Shaitan binders call upon a reflection of their genie ancestors to serve as their eidolons. A shaitan binder has the following class features.</p>
+<p id="base-form"><b>Base Form</b>: At 1st level, if a shaitan binder's eidolon has the biped base form, it gains a +2 bonus to one ability score. The shaitan binder must make this choice at 1st level. If at any time the shaitan binder's eidolon has another base form, it loses this bonus until it returns to biped form. A shaitan binder's eidolon does not gain the share spells ability.</p>
+<p id="shaitan-magic"><b>Shaitan Magic (Su)</b>: At 4th level, a shaitan binder's eidolon gains the basic magic evolution  as a free evolution. At 6th level, it gains the minor magic evolution.</p>
+<p>At 8th level, it gains the major magic evolution  as a free evolution, and adds the following to the list of available spells for that evolution: <i><a href="/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust" >glitterdust</a></i> and <i><a href="/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone" >soften earth and stone</a></i>.</p>
+<p>At 12th level, it gains the ultimate magic evolution  as a free evolution, and adds the following to the list of available spells for that evolution: <i><a href="/pathfinderRPG/prd/spells/meldIntoStone.html#_meld-into-stone" >meld into stone</a></i> and <i><a href="/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape" >stone shape</a></i>.</p>
+<p>Although the shaitan binder gains the standard versions of these evolutions for free, he must pay the normal cost to upgrade them to the improved versions. This ability replaces shield ally and greater shield ally. </p>
+<p id="earth-glide"><b>Earth Glide (Su)</b>: At 10th level, if a shaitan binder's eidolon has the burrow evolution, it gains the earth glide universal monster ability and can use this ability to travel at its full base speed. This ability replaces aspect.</p>
+<p id="stone-curse"><b>Stone Curse (Su)</b>: At 18th level, a shaitan binder may select stone curse as a 4-point evolution. This allows the eidolon to trap creatures in stone like the shaitan stone curse ability. The DC to resist or break free of the stone curse is 10 + 1/2 the eidolon's Hit Dice + the eidolon's Strength score. This ability replaces greater aspect.</p>
+<p id="noble-eidolon"><b>Noble Eidolon (Sp)</b>: At 20th level, a shaitan binder's eidolon gains the ability to grant its summoner's wishes. Once per day, the eidolon can cast <i><a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a></i> as a spell-like ability. The eidolon's caster level is equal to its level. The wish must be spoken aloud by the shaitan binder, beginning with the words "I wish," and cannot duplicate a wish the eidolon has granted within the past 24 hours. If the eidolon uses this ability to duplicate a spell with a costly material component, the shaitan binder must provide that component. This ability replaces twin eidolon.</p>
+
+<h2 id="student-of-stone-(monk)">Student of Stone (Monk)</h2>
+<p>By following the path of the stone, students of stone give up much of monks' mobility in favor of sheer resilience. A student of stone has the following class features.</p>
+<p id="hard-as-stone"><b>Hard as Stone (Ex)</b>: At 2nd level, whenever an opponent rolls to confirm a critical hit against a student of stone, treat the student of stone's AC as +4 higher than normal. This ability replaces evasion.</p>
+<p id="strength-of-stone"><b>Strength of Stone (Ex)</b>: At 3rd level, a student of stone learns to draw strength from the earth. So long as both he and his opponent are touching the ground, the student of stone gains a +1 bonus on attack rolls, damage rolls, bull rush and trip combat maneuver rolls, and to his CMD when resisting a bull rush or trip attempt. This ability replaces fast movement. </p>
+<p id="bonus-feat"><b>Bonus Feat</b>: At 6th level, a student of stone adds <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elemental-fist" >Elemental Fist</a>  to his list of available bonus feats. If the student of stone selects <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elemental-fist" >Elemental Fist</a> as a bonus feat, he may only deal acid damage when using the feat. At 10th level, the student of stone adds Shaitan Style  to his list of bonus feats, at 14th level, he adds <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_shaitan-skin" >Shaitan Skin</a> , and at 18th level, he adds <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_shaitan-earthblast" >Shaitan Earthblast</a>. This otherwise functions as and alters the bonus feat ability.</p>
+<p id="bones-of-stone"><b>Bones of Stone (Su)</b>: At 7th level, as a swift action, a student of stone can spend 1 <i>ki</i> point to gain DR 2/magic until the beginning of his next turn. At 10th level, he can spend 1 <i>ki</i> point to gain DR 2/chaotic until his next turn. At 15th level, he can spend 1 <i>ki</i> point to gain DR 5/chaotic until his next turn. This ability replaces high jump.</p>
+<p id="body-of-stone"><b>Body of Stone (Ex)</b>: At 9th level, a student of stone gains the benefits of the <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i> armor property . This ability replaces improved evasion. </p>
+<p id="soul-of-stone"><b>Soul of Stone (Su)</b>: At 12th level, as a swift action, a student of stone can spend 1 <i>ki</i> point to gain tremorsense 15 feet until his next turn. At 16th level, the range of this tremorsense increases to 30 feet. This ability replaces abundant step.</p>
+<p id="stone-self"><b>Stone Self</b>: At 20th level, a student of stone becomes an earth outsider. He gains the earth subtype, as well as DR 5/chaotic, burrow speed 20 feet, and tremorsense 20 feet.</p>
+
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The following options are available to oreads. At the GM's discretion, other appropriate races may make use of some of these new rules.</p>
+
+<h2 id="oread-equipment">Oread Equipment</h2>
+<p>Oreads have access to the following equipment.</p>
+<p id="camouflage-lichen"><b>Camouflage Lichen</b>: Though oreads with obviously stony features are rare, almost all oreads have an essentially earthen quality to their skin that makes it perfect for cultivating plant life. Where other races would be appalled at the thought of plants taking root in their flesh, oreads see it as a natural and healthy extension of their elemental nature. For this reason, oread herbalists developed several strains of moss and lichen specifically adapted to grow on their bodies. Camouflage lichen is the most common variety of these oread plants. It takes 1 minute to apply a paste of camouflage lichen spores to the skin, and an additional 24 hours for the fungus to sprout. After this time, the oread is covered in a thin green layer of living plant matter, granting her a +4 bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks made in green forest and jungle environments. Red-orange and white varieties exist, providing bonuses in appropriately colored environments (red-orange among autumn leaves or in red deserts, white in snow, and so on). Camouflage lichen has a short lifespan; it withers and dies 3 days after being applied, crumbling away into harmless powder. This item only works on oreads and other creatures with rocklike bodies.</p>
+<p id="fleshgem"><b>Fleshgem</b>: An oread adventurer discovered these small green gemstones when, after suffering a wound from falling on some jagged stones while exploring a cavern, she noticed pieces of beautiful green crystal growing from her skin. Oread jewelers found that these crystals, dubbed fleshgems, seemed to feed on the elemental energy that permeates an oread's flesh, growing from tiny chips of stone into large, elaborate gemstones. Essentially harmless, implanting fleshgems became a unique racial method of body alteration among oreads, equivalent to tattoos and piercings among other humanoids. Decorative fleshgems cost 1 gp and are merely ornamental. Fleshgem spikes, on the other hand, grow into elaborate crystalline shards that function as armor spikes, but the oread wearing them cannot wear armor over the spikes and even normal clothing requires special holes or seams to allow the spikes to stick out. Implanting a set of fleshgem spikes takes 10 minutes, and the resulting shard takes about a week to grow to full size. Removing a fleshgem takes 1 minute; the person removing the gem must make a successful DC 15 <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> check to avoid dealing 1d4 points of damage to the oread. The fleshgem spikes can be sundered or destroyed as if the growths were a worn object (hardness 1, 5 hp), but unless the embedded root of the fleshgem is removed, the shards grow back 1 week later.</p>
+<p id="stonechipper-salve"><b>Stonechipper Salve</b>: This gritty, gray ointment weakens rocky materials. When applied to an object made of stone, it reduces the object's hardness by 3 for 10 minutes. As a standard action, a creature can apply the paste to affect one 5-foot-square or a Medium or smaller creature. The paste only affects hardness, not damage reduction or similar defenses.</p>
+
+<table><caption>Oread Equipment</caption>
+<thead><tr><th>Item</th><th>Cost</th><th>Weight</th><th>Craft DC</th></tr></thead>
+<tr class="odd"><td>Camouflage lichen</td><td>100 gp</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>Fleshgem (decorative)</td><td>1 gp</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>Fleshgem (spikes)</td><td>50 gp</td><td>5 lbs.</td><td>&mdash;</td></tr>
+<tr class="even"><td>Stonechipper salve</td><td>150 gp</td><td>1 lb.</td><td>20</td></tr></table>
+
+
+<h2 id="oread-feats">Oread Feats</h2>
+<p>Oreads have access to the Elemental Jaunt feat and the following feats.</p>
+<div class="feats-text">
+<h3 id="dwarf-blooded">Dwarf Blooded</h3>
+<p>You have dwarven blood coursing through your veins. </p>
+<p class="stat-block-1"><b>Prerequisite</b>: Oread.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your dwarven heritage manifests in two ways. First, your speed is never modified by armor or encumbrance, as the dwarf slow and steady racial trait. Second, you gain the stonecunning dwarf racial trait. </p>
+
+<h3 id="echoes-of-stone">Echoes of Stone</h3>
+<p>Your senses are keener among the rocks and stones.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Oread.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a +4 racial bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks underground, and on <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks to avoid becoming lost in caverns and rocky areas.</p>
+
+<h3 id="murmurs-of-earth">Murmurs of Earth</h3>
+<p>The earth opens up her secrets to your perceptions.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Echoes of Stone, character level 9th, oread.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a limited form of tremorsense. As a move action, you become aware of all creatures within 15 feet that are in contact with the ground at that moment.</p>
+
+<h3 id="oread-burrower">Oread Burrower</h3>
+<p>The ground parts for you at the slightest touch, allowing you to dig with great speed.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Stony Step, character level 9th, oread.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a burrow speed equal to 1/2 your base speed. You can burrow through sand, dirt, clay, gravel, or similar materials, but not solid stone. You do not leave a hole behind, nor is your passage marked on the surface.</p>
+
+<h3 id="oread-earth-glider">Oread Earth Glider</h3>
+<p>The earth welcomes you, showing you the secret paths through sand and soil.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Oread Burrower, Stony Step, character level 13th, oread.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain the earth glide universal monster ability and can use it to travel at your full base speed through sand, dirt, clay, gravel, or similar materials. If protected against fire damage, you can even burrow through lava. You can burrow through solid stone at 1/2 your base speed.</p>
+
+<h3 id="stony-step">Stony Step</h3>
+<p>The earth recognizes its kinship with you and does not impede your movement.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Oread.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you move, you may move through 5 feet of earth- or stone-based difficult terrain (rubble, stone stairs, and so on) each round as if it were normal terrain. The effects of this feat stack with similar feats such as <a href="/pathfinderRPG/prd/feats.html#_acrobatic" >Acrobatic</a> Steps and <a href="/pathfinderRPG/prd/feats.html#_nimble-moves" >Nimble Moves</a>. This feat allows you to take a 5-foot step into this kind of difficult terrain.</p>
+</div>
+
+<h2 id="oread-magic-items">Oread Magic Items</h2>
+<p>Oreads have access to the following shield special abilities.</p>
+<p id="guarding-(shield-special-ability)"><b>Guarding (shield special ability)</b>: A <i>guarding</i> shield allows the wearer to transfer some or all of the shield's enhancement bonus to an adjacent creature's AC (this bonus stacks with all others). As a free action at the start of her turn before using any of the shield's other abilities, the wearer may choose an adjacent target and how much of the shield's enhancement bonus to allocate at the start of her turn. The target's AC bonus lasts until the wearer's next turn or until the wearer and the target are ever more than 5 feet apart, at which point the target's bonus ends and the shield's enhancement bonus works normally for the wearer. This ability only affects a shield's enhancement bonus to Armor Class, not its enhancement bonus on attack rolls (if any) or any other shield abilities.</p>
+<p><span class="body-copy-char">Moderate abjuration; CL 8th; <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <span class="body-copy-char italics">shield other<span class="body-copy-char">; Price +1 bonus.</p>
+<p id="guarding,-greater-(shield-special-ability)"><b>Guarding, Greater (shield special ability)</b>: As the <i>guarding</i> property, except as a free action, the wearer selects any number of adjacent allies to receive the shield's bonus. All selected allies receive the same bonus. If a shielded target is ever more than 5 feet from the wearer, the effect ends for that target but not for any other targets.</p>
+<p><span class="body-copy-char">Strong abjuration; CL 12th; <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <span class="body-copy-char italics">shield other<span class="body-copy-char">; Price +2 bonus.</p>
+<p id="belt-of-stoneskin" class="stat-block-title">Belt of Stoneskin</p>
+<p class="stat-block-1"><b>Aura</b> moderate abjuration; <b>CL</b> 10th</p>
+<p class="stat-block-1"><b>Slot</b> belt; <b>Price</b> 60,000 gp; <b>Weight</b> 10 lbs.</p>
+<p class="stat-block-breaker">Description </p>
+<p>This belt is made of specially treated stone plates held together by thick iron chain. Every 24 hours, the belt's wearer gains DR 10/adamantine until the belt absorbs 100 points of damage, at which point the belt becomes useless for the remainder of the 24-hour period. When first worn, or after each time this belt is taken off, it must worn for 24 consecutive hours in order for its magic to take effect again.</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, creator must be an oread or a creature with the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a> subtype; <b>Cost</b> 30,000 gp</p>
+<p id="earthbind-rod" class="stat-block-title">Earthbind Rod</p>
+<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 6th</p>
+<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 26,500 gp; <b>Weight</b> 5 lbs. </p>
+<p class="stat-block-breaker">Description </p>
+<p>This rod looks like nothing more than a large, strange sliver of rough granite. This rod's magic interacts with stone or earth to both steady its wielder and anchor creatures the rod touches. An <i>earthbind rod </i>functions like a <i>+1 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> mace</i>, and it grants its wielder a +4 circumstance bonus to its CMD against bull rush, grapple, overrun, reposition, and trip combat maneuvers, but only if the wielder is an oread, has the earth subtype, or is standing on earth or stone. Three times per day, when the wielder hits a creature with this rod, as long as the target of this attack is standing on stone or earth, the wielder can attempt to entangle that creature (Fortitude DC 18 negates) for 1d4 rounds. </p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-rod" >Craft Rod</a>, <i><a href="/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape" >stone shape</a></i>; <b>Cost</b> 13,250 gp</p>
+<p id="mask-of-stony-demeanor-" class="stat-block-title">Mask of Stony Demeanor </p>
+<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 6th</p>
+<p class="stat-block-1"><b>Slot</b> head; <b>Price</b> 500 gp; <b>Weight</b> 4 lbs.</p>
+<p class="stat-block-breaker">Description </p>
+<p>When worn, this mask transforms the wearer's face into a stone statue and its voice into an emotionless monotone. Though it allows the wearer to speak, its facial expressions and voice betray little emotion, granting a +10 competence bonus on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> checks made to lie and a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> checks made to feint, but also imposes a &ndash;5 penalty on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> checks made to pass a hidden message. </p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/advanced/spells/innocence.html#_innocence" >innocence</a></i> , <i><a href="/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape" >stone shape</a></i>; <b>Cost</b> 250 gp</p>
+
+<h2 id="oread-spells">Oread Spells</h2>
+<p>Oreads have access to the following spells.</p>
+<p id="binding-earth" class="stat-block-title">Binding Earth</p>
+<p class="stat-block-1"><b>School</b> transmutation [earth]; <b>Level</b> druid 2, witch 2</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S, DF</p>
+<p class="stat-block-1"><b>Range</b> close (25 ft. + 5 ft./2 levels)</p>
+<p class="stat-block-1"><b>Target</b> one creature or unattended object (see text)</p>
+<p class="stat-block-1"><b>Duration</b> 1 round/level</p>
+<p class="stat-block-1"><b>Saving Throw</b> Fortitude negates; <b>Spell Resistance</b> yes</p>
+<p>If the target of this spell fails its Fortitude save, areas of earth and stone floor act as a snapping quagmire that pulls the target down and damages it if it attempts to move through such terrain.</p>
+<p>If the target is a creature, it treats all areas of earth and stone it moves through as difficult terrain. Furthermore, for each 5 feet a creature moves through such areas, it takes 1d6 points of damage. Creatures with a burrow speed or the earth glide ability are unaffected by <i><a href="/pathfinderRPG/prd/spells/binding.html#_binding" >binding</a> earth</i>.</p>
+<p>If cast on an unattended object resting on an area of stone or earth, the stone or earth warps and wraps around it, pulling it firmly to the ground. A DC 15 Strength check is required to pull the object free from snapping earth or stone.</p>
+<p id="binding-earth,-mass" class="stat-block-title">Binding Earth, Mass</p>
+<p class="stat-block-1"><b>School</b> transmutation [earth]; <b>Level</b> druid 6, witch 6</p>
+<p class="stat-block-1"><b>Target</b> one creature or object/level, no two of which can be more than 30 ft. apart</p>
+<p>This spell functions as <i><a href="/pathfinderRPG/prd/spells/binding.html#_binding" >binding</a> earth</i>, except as noted above.</p>
+<p id="mighty-fist-of-the-earth" class="stat-block-title">Mighty Fist of the Earth</p>
+<p class="stat-block-1"><b>School</b> conjuration (creation) [earth]; <b>Level</b> cleric 1, druid 1</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S, DF</p>
+<p class="stat-block-1"><b>Range</b> close (25 ft. + 5 ft./2 levels)</p>
+<p class="stat-block-1"><b>Target</b> one creature</p>
+<p class="stat-block-1"><b>Duration</b> instantaneous</p>
+<p class="stat-block-1"><b>Saving Throw</b> none; <b>Spell Resistance</b> yes</p>
+<p>You create a fist-sized rock that flies toward one enemy. Make an unarmed strike attack roll against the target as if it were in your threatened area. If the attack is successful, the rock deals bludgeoning damage to the target as if you had hit the target with your unarmed strike. If you have a <i>ki</i> pool, as long as you have at least 1 point in your <i>ki</i> pool, the rock counts as a <i>ki</i> strike.</p>
+<p>At 4th level, a qinggong monk  may select this spell as a <i>ki</i> power costing 1 <i>ki</i> point to activate (if the monk has 0 <i>ki</i> points after activating this <i>ki</i> power, the rock does not count as a <i>ki</i> strike).</p>
+<p id="raging-rubble" class="stat-block-title">Raging Rubble</p>
+<p class="stat-block-1"><b>School</b> transmutation [earth]; <b>Level</b> bard 3, cleric 3, druid 3, sorcerer/wizard 3, witch 3</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 round </p>
+<p class="stat-block-1"><b>Components</b> V, S, DF</p>
+<p class="stat-block-1"><b>Range</b> close (25 ft. + 5 ft./2 levels)</p>
+<p class="stat-block-1"><b>Effect</b> one <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype" >swarm</a> of stones</p>
+<p class="stat-block-1"><b>Duration</b> concentration + 2 rounds</p>
+<p class="stat-block-1"><b>Saving Throw</b> none; <b>Spell Resistance</b> yes</p>
+<p>You animate an area of rubble, gravel, or other small stones, creating a dangerous, rolling area of debris. The animated rubble has a space of 10 feet and acts like a swarm, damaging (1d6 hit points) and distracting (DC 12) anything within it. As a move action, you can direct the rubble to move up to 10 feet. If the rubble is attacked, treat it as a Medium animated object with the young creature simple template and the swarm subtype. </p>
+<p id="stone-shield" class="stat-block-title">Stone Shield</p>
+<p class="stat-block-1"><b>School</b> conjuration (creation) [earth]; <b>Level</b> cleric 1, druid 1, magus 2, sorcerer/wizard 1, summoner 1</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 immediate action </p>
+<p class="stat-block-1"><b>Components</b> V, S, DF</p>
+<p class="stat-block-1"><b>Range</b> 0 ft.</p>
+<p class="stat-block-1"><b>Effect</b> stone wall whose area is one 5-ft. square</p>
+<p class="stat-block-1"><b>Duration</b> 1 round</p>
+<p class="stat-block-1"><b>Saving Throw</b> none; <b>Spell Resistance</b> no</p>
+<p>A 1-inch-thick slab of stone springs up from the ground, interposing itself between you and an opponent of your choice. The <i>stone <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i> provides you with cover from that enemy  until the beginning of your next turn, granting you a +4 bonus to Armor Class and a +2 bonus on Reflex saving throws. If the opponent's attack misses you by 4 or less, the attack strikes the shield instead. The <i>stone <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i> has hardness 8 and 15 hit points. If the shield is destroyed, the spell ends and the shield crumbles away into nothingness. Spells and effects that damage an area deal damage to the shield.</p>
+<p>You cannot use this spell if you are not adjacent to a large area of earth or stone such as the ground or a wall. A qinggong monk  may select this spell as a <i>ki</i> power at 4th level.</p>
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

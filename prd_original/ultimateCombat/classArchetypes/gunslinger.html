@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Gunslinger</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Gunslinger",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateCombat/classArchetypes.html', name: 'Class Archetypes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="gunslinger" class="monster-header">G<span class="char-style-override-5">unslinger</span></h1>
+				
+				
+				<p>While firearms are still rather new additions to the adventurers' arsenal in most campaigns, their chief adherents&mdash;gunslingers&mdash;have wasted no time in experimenting with these weapons in exciting new ways. The gunslinger is already a versatile adventurer, yet the following archetypes add new specialties and strategies for the class, by either specializing in a form of firearm, using personality instead of willpower to fuel their grit, or fusing firearms with heavy armor to create a seemingly unstoppable juggernaut on the battlefield. </p>
+				<p>Each of these archetypes has its roots in both fantasy and history, with the gun tank representing those first armored knights to adopt the way of the gun, the classic musket master harkening back to the days of the noble musketeer, and the pistolero simulating countless banditos and quick-draw artists from the dusty streets of the Old West and beyond.</p>
+				<h1 id="gun-tank-(archetype)">Gun Tank (Archetype)</h1>
+				<p>Gunslingers usually don't use heavy armor, but there are a few who use and modify their armor to protect themselves from both traditional weapons and gunfire. These gun tanks trundle into battle with barrels blazing, dealing out punishment with their firearms while knowing few can penetrate their hard protective shells.</p>
+				<p id="armor-proficiency"><b>Armor Proficiency</b>: A gun tank is proficient with all armors and shields, including tower shields. </p>
+				<p id="deeds"><b>Deeds</b>: A gun tank swaps a pair of deeds for the following. The new deed descriptions include information on which deeds from the gunslinger class feature these new deeds replace.</p>
+				<p id="gun-tank's-resolve" class="stat-block-2"><i>Gun Tank's Resolve (Ex)</i>: At 1st level, the gun tank can shrug off the most serious of attacks. When the gun tank is wearing medium or heavy armor and is subject to a critical hit or sneak attack, she can spend 1 grit point as an immediate action to attempt to negate the critical hit or sneak attack damage. At 1st level, she has a 25% chance of doing so. At 10th level, the chance increases to 50%. At 15th level, the chance increases to 75%. While a gun tank's resolve does not stack with the <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i> armor special ability, it does work in concert with that armor special ability or similar effects, so a gun tank can use this ability even after the <i>armor of <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i> has failed to negate the critical hit or sneak attack damage. This deed replaces the gunslinger's dodge deed.</p>
+				<br><p id="gun-tank's-resilience" class="stat-block-2"><i>Gun Tank's Resilience (Ex)</i>: At 15th level, when the gun tank has at least 1 grit point and makes a successful Fortitude saving throw against an attack that would deal half damage or have a partial effect, she takes no damage or other effects from that attack. Furthermore, she gains a +2 bonus on all saving throws against fear and mind-affecting effects. This deed replaces the evasive deed.</p>
+				<p id="bullet-defection"><b>Bullet Defection (Ex)</b>: A gun tank is adept at modifying and using her armor to stop firearm attacks. Starting at 2nd level, a gun tank wearing medium or heavy armor gains half the armor's bonus plus the armor's enhancement bonus (if any) as a deflection bonus against any non-siege firearm or splash weapon attack (including the alchemist's bomb class ability). This ability has no affect on spells, spell-like abilities, or supernatural abilities that make a touch attack. This ability replaces nimble.</p>
+				<p id="armor-training"><b>Armor Training (Ex)</b>: At 4th level, a gun tank learns to be more maneuverable while wearing armor. Whenever she is wearing armor, the armor check penalty is reduced by 1 (to a minimum of 0) and the maximum Dexterity bonus allowed by her armor increases by 1. Every four levels thereafter (8th, 12th, and 16th), the bonus increases by 1, to a maximum of a &ndash;4 reduction of the armor check penalty and a +4 increase to the maximum Dexterity bonus allowed. This ability stacks with the fighter class ability of the same name. If the gun tank has both class features, she takes the most advantageous benefit of the two class features. This ability replaces the bonus feats the gunslinger gains at 4th level and every four levels thereafter.</p>
+				<h2 id="musket-master-(archetype)">Musket Master (Archetype)</h2>
+				<p class="body-copy-indent para-style-override-4">Pistols and other one-handed firearms are often easy to conceal and faster to load than other firearms, and do sufficient damage for most situations. But some gunslingers want a little more firepower and range. These are the musket masters; the best of these gunslingers can reload a musket with dazzling speed, potentially putting even their pistol-wielding brethren to shame.</p>
+				<p id="weapon-proficiency"><b>Weapon Proficiency</b>: Instead of proficiency with all firearms, a musket master only gains proficiency with two-handed firearms. She must take the <a href="/pathfinderRPG/prd/feats.html#_exotic-weapon-proficiency" >Exotic Weapon Proficiency</a> (firearm) feat to gain proficiency with one-handed firearms and firearm siege engines. </p>
+				<p id="gunsmith"><b>Gunsmith</b>: A musket master must take a musket when she chooses a battered firearm at 1st level. </p>
+				<p id="deeds"><b>Deeds</b>: A musket master swaps a pair of deeds for the following.</p>
+				<p id="steady-aim" class="stat-block-2"><i>Steady Aim (Ex)</i>: At 1st level, as long as a musket master has at least 1 grit point, she can take a move-equivalent action to increase the accuracy of a two-handed firearm. When she does, she increases the range increment of the firearm she is firing by 10 feet. This stacks with other abilities that increase her range increment. This deed replaces the gunslinger's dodge deed. </p>
+				<br><p id="fast-musket" class="stat-block-2"><i>Fast Musket (Ex)</i>: At 3rd level, as long as the musket master has 1 grit point, she can reload any two-handed firearm as if it were a one-handed firearm. This deed replaces the utility shot deed. </p>
+				<p id="rapid-reloader"><b>Rapid Reloader</b>: At 1st level, a musket master gains <a href="../ultimateCombatFeats.html#_rapid-reload-(combat)" >Rapid Reload</a> (muskets) as a bonus feat.</p>
+				<p id="musket-training"><b>Musket Training (Ex)</b>: Starting at 5th level, a musket master increases her skill with two-handed firearms. She gains a bonus on damage rolls equal to her Dexterity modifier, and when she misfires with a two-handed firearm, the misfire value increases by 2 instead of 4. Every four levels thereafter (9th, 13th, and 17th), the bonus on damage rolls increases by +1. At 13th level, a musket master never misfires with a two-handed firearm. This replaces firearm training 1, 2, 3, and 4.</p>
+				<h2 id="mysterious-stranger-(archetype)">Mysterious Stranger (Archetype)</h2>
+				<p>Gunslingers use a potent mixture of common sense and manual dexterity in order to control the fickle power of their weapons. But a few rare gunslingers seem to accomplish their chosen tasks purely through willpower and an unwillingness to ever give up. These mysterious strangers use their force of personality to keep going when the chips are down, often moving on from a region as soon as they accomplish their goals&mdash;hence the name. </p>
+				<p id="grit"><b>Grit (Ex)</b>: A mysterious stranger is a force to be reckoned with. Instead of using her Wisdom to determine the number of grit points she gains at the start of each day, she uses Charisma. This ability works in all other ways like the gunslinger's grit class feature. </p>
+				<p id="deeds"><b>Deeds</b>: A mysterious stranger swaps a pair of deeds for the following.</p>
+				<p id="focused-aim" class="stat-block-2"><i>Focused Aim (Ex)</i>: At 1st level, as a swift action, the mysterious stranger can spend 1 grit point to gain a bonus on all firearm damage rolls equal to her Charisma modifier (minimum 1) with all firearm attacks she makes until the end of her turn. At 7th level, when she uses the dead shot deed, she multiplies this bonus by the number of hits she made while rolling the Dead Shot attack. This deed replaces the quick clear deed.</p>
+				<br><p id="clipping-shot" class="stat-block-2"><i>Clipping Shot (Ex)</i>: At 11th level, when the mysterious stranger misses with a firearm attack, she can spend 1 grit point to deal half the damage that attack would have dealt if it were a hit (roll damage normally). She can decide to use this deed and spend the grit point after making the attack. This deed has no effect if the attack used the dead shot deed. The cost of using this deed cannot be reduced with the <a href="../ultimateCombatFeats.html#_signature-deed-(grit)" >Signature Deed</a> feat, the true grit class feature, or any similar effect. This replaces the bleeding wound deed.</p>
+				<p id="lucky"><b>Lucky (Ex)</b>: Starting at 2nd level, a mysterious stranger gains a +1 luck bonus on Will saving throws. This bonus increases by +1 for every four levels beyond 2nd level (to a maximum of +5 at 20th level). This ability replaces nimble. </p>
+				<p id="stranger's-fortune"><b>Stranger's Fortune (Ex)</b>: Starting at 5th level, a mysterious stranger can ignore a firearm misfire a number of times per day equal to her Charisma bonus. She can use this ability as a free action. This ability replaces gun training 1.</p>
+				<h2 id="pistolero-(archetype)">Pistolero (Archetype)</h2>
+				<p>While most gunslingers have favorite firearms, there are those rare ones who choose to specialize in one-handed firearms exclusively. These gunslingers are called pistoleros. While they lack the flexibility of being able to pick up any kind of firearm and use it with reasonable proficiency, they are crackerjack shots with pistols and similar firearms. Their skill and aim with these firearms at close range is second to none, and they rarely misfire with these weapons.</p>
+				<p id="weapon-proficiency"><b>Weapon Proficiency</b>: Instead of proficiency with all firearms, a pistolero only gains proficiency with one-handed firearms. She must take <a href="/pathfinderRPG/prd/feats.html#_exotic-weapon-proficiency" >Exotic Weapon Proficiency</a> (firearm) to gain proficiency with two-handed firearms and firearm siege engines. </p>
+				<p id="gunsmith"><b>Gunsmith</b>: A pistolero must take a pistol when she chooses a battered firearm at 1st level. </p>
+				<p id="deeds"><b>Deeds</b>: A pistolero swaps a trio of deeds for the following.</p>
+				<p id="up-close-and-deadly" class="stat-block-2"><i>Up Close and Deadly (Ex)</i>: At 1st level, when the pistolero hits a target with a one-handed firearm that is not making a scatter shot, she can spend 1 grit point to deal 1d6 points of extra damage on a hit. If she misses with the attack, she grazes the target, dealing half the extra damage anyway. This is precision damage and is not multiplied if the attack is a critical hit. This precision damage increases to 2d6 at 5th level, to 3d6 at 10th level, to 4d6 at 15th level, and to 5d6 at 20th level. This precision damage stacks with sneak attack and other forms of precision damage. This deed replaces the deadeye deed.</p>
+				<br><p id="deadeye" class="stat-block-2"><i>Deadeye (Ex)</i>: At 7th level, the pistolero gains the deadeye deed, which is normally a 1st-level gunslinger deed. This deed replaces the startling shot deed. </p>
+				<br><p id="twin-shot-knockdown" class="stat-block-2"><i>Twin Shot Knockdown (Ex)</i>: At 11th level, when the pistolero hits a single target with two or more one-handed firearm attacks during her turn, she can spend 1 grit point to knock the target prone. She can choose to spend the grit point after the attacks are made. This deed replaces the bleeding wound deed. </p>
+				<p id="pistol-training"><b>Pistol Training (Ex)</b>: Starting at 5th level, a pistolero increases her skill with one-handed firearms. She gains a bonus on damage rolls equal to her Dexterity modifier, and when she misfires with a one-handed firearm, the misfire value increases by 2 instead of 4. Every four levels thereafter (9th, 13th, and 17th), the bonus on damage rolls increases by +1. At 13th level, a pistolero never misfires with a one-handed firearm. This ability replaces gun training 1 to 4.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

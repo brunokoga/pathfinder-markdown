@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Introduction</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Introduction",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1>Introduction</h1>
+				<p>
+				<p>While each monster is a unique creature, many possess similar special attacks, defenses, and qualities. Unique abilities are described below the monster's stat block. Many abilities common to several monsters appear in the <a href="universalMonsterRules.html">universal monster rules</a>. If a monster's listed special ability does not appear in its description, you'll find it there.</p>
+				<p>Each monster description on the following pages is presented in the same format, split into three specific areas: Introduction, Stat Block, and Description.</p>
+				<h2>Introduction</h2>
+				<p>Each monster is presented alphabetically. In the case of a group of monsters sharing similar traits (such as outsider races and some animals or vermin), the monster's basic name is listed first.</p>
+				<h2>Stat Block</h2>
+				<p>This is where you'll find all of the information you need to run the monster in an encounter. A stat block is organized as follows. Note that in cases where a line in a stat block has no value, that line is omitted.</p>
+				<p><b>Name and CR</b>: The monster's name is presented first, along with its challenge rating (CR) and three icons you can use to quickly identify the creature's role in the game. Challenge rating is a numerical indication of how dangerous a monster is&mdash;the higher the number, the deadlier the creature.</p>
+				<p><b>XP</b>: Listed here are the total experience points that PCs earn for defeating the monster.</p>
+				<p><b>Race, Class, and Level</b>: Some monsters do not possess racial Hit Dice and are instead defined by their class levels. For these monsters, their race, class, and level appear here. Unless otherwise noted, the first class listed is the class chosen by the monster as its favored class.</p>
+				<p><b>Alignment, Size, and Type</b>: While a monster's size and type remain constant (unless changed by the application of templates or other unusual modifiers), alignment is far more fluid. The alignments listed for each monster in this book represent the norm for those monsters&mdash;they can vary as you require them to in order to serve the needs of your campaign. Only in the case of relatively unintelligent monsters (creatures with an Intelligence of 2 or lower are almost never anything other than neutral) and planar monsters (outsiders with alignments other than those listed are unusual and typically outcasts from their kind) is the listed alignment relatively unchangeable.</p>
+				<p><b>Init and Senses</b>: The creature's initiative modifier followed by any special senses and its <a href="../skills/perception.html#_perception" >Perception</a> check modifier.</p>
+				<p><b>Aura</b>: If the creature has a particular magical or exceptional aura, it is listed here along with its radius from the creature and, as applicable, a save DC to resist the aura's effects.</p>
+				<p><b>AC</b>: The creature's Armor Class, touch Armor Class, and flat-footed Armor Class. The modifiers that generate its AC are listed parenthetically at the end of this entry.</p>
+				<p><b>hp</b>: The creature's hit points, followed by its Hit Dice (including modifiers from Constitution, favored class levels, creature type modifiers, and the <a href="../feats.html#_toughness" >Toughness</a> feat). Creatures with PC class levels receive maximum hit points for their first HD, but all other HD rolls are assumed to be average. Fast healing and regeneration values, if any, follow the creature's HD.</p>
+				<p><b>Saving Throws</b>: The creature's Fortitude, Reflex, and Will saves, followed by situational modifiers to those rolls.</p>
+				<p><b>Defensive Abilities/DR/Immune/Resist/SR</b>: All of the creature's unusual defensive abilities. Damage reduction, immunities, resistances, and spell resistance are called out separately as necessary.</p>
+				<p><b>Weaknesses</b>: All of the creature's unusual weaknesses are listed here.</p>
+				<p><b>Speed</b>: The creature's land speed, and additional speeds as necessary for the creature.</p>
+				<p><b>Melee</b>: The creature's melee attacks are listed here, with its attack roll modifier listed after the attack's name followed by the damage in parentheses.</p>
+				<p><b>Ranged</b>: As Melee above, but for ranged attacks.</p>
+				<p><b>Space/Reach</b>: The creature's space and reach&mdash;if the creature's space and reach are standard (one 5-foot square and a reach of 5 feet), this line is omitted.</p>
+				<p><b>Special Attacks</b>: The creature's special attacks. Full details for these attacks are given at the end of the stat block or in the universal monster rules section.</p>
+				<p><b>Spell-Like Abilities</b>: After listing the caster level of the creature's spell-like abilities, this section lists all of the creature's spell-like abilities, organized by how many times per day it can use the abilities. Constant spell-like abilities function at all times but can be dispelled. A creature can reactivate a constant spell-like ability as a swift action.</p>
+				<p><b>Spells Known/Prepared</b>: If the creature can actually cast spells, its caster level is indicated here followed by the spells it knows or typically has prepared. Unless otherwise indicated, a spellcasting creature does not receive any of a spellcasting class's other abilities, such as a cleric's ability to spontaneously convert prepared spells to cure or inflict spells.</p>
+				<p><b>Ability Scores</b>: The creature's ability scores are listed here. Unless otherwise indicated, a creature's ability scores represent the baseline of its racial modifiers applied to scores of 10 or 11. Creatures with NPC class levels have stats in the standard array (13, 12, 11, 10, 9, 8), while creatures with character class levels have the elite array (15, 14, 13, 12, 10, 8); in both cases, the creature's ability score modifiers are listed at the end of its description.</p>
+				<p><b>Base Atk/CMB/CMD</b>: These values give the creature's base attack, its Combat Maneuver Bonus, and its Combat Maneuver Defense score.</p>
+				<p><b>Feats</b>: The creature's feats are listed here. A bonus feat is indicated with a superscript “B.”</p>
+				<p><b>Skills</b>: The creature's skills are listed here. Racial modifiers to skills are indicated at the end of this entry.</p>
+				<p><b>Languages</b>: The languages most commonly spoken by the creature are listed here. For unusual creatures, you can swap out the languages known for other choices as needed. A creature with a higher-than-normal Intelligence score receives the appropriate number of bonus languages.</p>
+				<p><b>SQ</b>: Any special qualities possessed by the creature.</p>
+				<p><b>Environment</b>: The regions and climates in which the creature is typically encountered are listed here; these often present wider ranges than the icons at the top of the stat block indicate. In this case, the icon listed at the top of the stat block indicates the creature's preferred terrain.</p>
+				<p><b>Organization</b>: This lists how the creature is organized, including number ranges as appropriate.</p>
+				<p><b>Treasure</b>: The exact value of the creature's treasure depends on if you're running a slow, medium, or fast game, as summarized on <a href="../gamemastering.html#_table-12-5-treasure-values-per-encounter">Table: Treasure Values per Encounter</a>. In cases where a creature has specific magical gear assigned to it, the assumption is a medium game&mdash;if you play a fast or slow game, you'll want to adjust the monster's gear as appropriate. “Standard” treasure indicates the total value of the creature's treasure is that of a CR equal to the average party level, as listed on Table: Treasure Values per Encounter. “Double” or “triple” treasure indicates the creature has double or triple this standard value. “Incidental” indicates the creature has half this standard value, and then only within the confines of its lair. “None” indicates that the creature normally has no treasure (as is typical for an unintelligent creature that has no real lair, although such creatures are often used to guard treasures of varying amounts). “NPC gear” indicates the monster has treasure as normal for an NPC of a level equal to the monster's CR.</p>
+				<p><b>Special Abilities</b>: Finally, any of the creature's more unique special abilities are detailed in full here.</p>
+				<h2>Description</h2>
+				<p>Here you'll find information on how the monster fits into the world, notes on its ecology and society, and other bits of useful lore and flavor that will help you breathe life into the creature when your PCs encounter it. Some monsters have additional sections that cover variant creatures, notes on using the monsters as PCs, methods of constructing the creature, and so on.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Ranger</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Ranger",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html', name: 'Spellcasting Class Options' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="ranger" class="monster-header">Ranger</h1>
+				
+				
+				<p>Rangers are the masters of the borderlands, staunch and adaptable keepers of their chosen domains. Where druids seek solace in nature, rangers occupy the blurred lines between society and the wild, learning from their favored environments and hardening themselves into apex predators within their domains, whether they be scouts, trackers, bounty hunters, or other fringe-dwellers. Though most people think of rangers as physical warriors, in fact they possess many important spellcasting abilities as well.</p>
+				<p>The following section introduces ranger traps (simple improvised traps that sometimes incorporate the ranger's magical abilities) and a new ranger archetype&mdash;the trapper, who is an expert with all kinds of traps.</p>
+				<h1 id="ranger-traps">Ranger Traps</h1>
+				<p>Rangers are legendary for their ability to hunt down and capture their prey. Some rangers can create elaborate traps out of scraps, vines, and perhaps a little bit of specialized magic. Characters can learn how to set these traps by taking the <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_learn-ranger-trap" >Learn Ranger Trap</a> feat or by having the trapper ranger archetype.</p>
+				<p>Setting a trap is a full-round action that provokes attacks of opportunity. A trap fills a single 5-foot square, and cannot be placed in the same area as another ranger trap or a magical trap such as a glyph of warding. The ranger only needs simple materials to create the trap, such as a piece of cloth, a small amount of metal (such as a dagger, iron spike, or a few nails), a foot of rope or vine, and so on. The DCs for <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks to notice the trap, <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> checks to disable it, and for saving throws to avoid it are equal to 10 + 1/2 the character's level + the character's Wisdom bonus. All ranger traps are <b>Trigger</b>: location, and <b>Reset</b>: none.</p>
+				<p>Ranger traps are either extraordinary or supernatural; extraordinary traps are <b>Type</b>: mechanical, and supernatural traps are <b>Type</b>: magic. Some of the traps listed below may be set as extraordinary traps or as magical (supernatural) traps; learning such a trap lets a ranger set it either way. An extraordinary trap has a &ndash;2 penalty to its DC. An extraordinary trap lasts 1 day per ranger level or until it is triggered, whichever comes first. A magical trap lasts only 1 hour per level or until triggered, whichever comes first. A trap's DC decreases by 1 for each full day (or hour, for a magical trap) that passes after it is set. Traps marked with an asterisk (*) add to or modify the effects of another trap; a ranger can add one of these trap types to any standard ranger trap (this costs 1 additional use of the trap ability).</p>
+				<p id="alarm-trap*-(ex-or-su)" class="stat-block-title">Alarm Trap* (Ex or Su)</p>
+				<p class="stat-block-breaker">Effects</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> When the trap is triggered, it also creates a momentary loud noise equivalent to the audible alarm version of <i><a href="/pathfinderRPG/prd/spells/alarm.html#_alarm" >alarm</a></i>.</p>
+				<p id="burning-trap*-(ex-or-su)" class="stat-block-title">Burning Trap* (Ex or Su)</p>
+				<p class="stat-block-breaker">Effects</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> A ranger can only add this to a fire trap. If the triggering creature fails its Reflex save, it catches on fire, taking 1d6 points of fire damage at the start of its turn for 1d4 rounds. The burning creature can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save.</p>
+				<p id="exploding-trap*-(ex-or-su)" class="stat-block-title">Exploding Trap* (Ex or Su)</p>
+				<p class="stat-block-breaker">Effects</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> A ranger can only add this to a fire trap. The trap explodes in fire, filling all squares adjacent to the trap and dealing a number of points of fire damage equal to 1d6 + 1/2 the ranger's level (Reflex negates). If it is an extraordinary trap, the ranger must use an explosive material such as alchemist's fire when setting the trap.</p>
+				<p id="fire-trap-(ex-or-su)" class="stat-block-title">Fire Trap (Ex or Su)</p>
+				<p class="stat-block-breaker">Effects</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> The trap explodes in flames, dealing a number of points of fire damage equal to 1d6 + 1/2 the ranger's level to the triggering creature (Reflex negates). If it is an extraordinary trap, the ranger must use an explosive material such as alchemist's fire when setting the trap.</p>
+				<p id="freezing-trap-(su)" class="stat-block-title">Freezing Trap (Su)</p>
+				<p class="stat-block-breaker">Effects</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> The trap creates a burst of ice that damages and encases the triggering creature. The creature takes 1d3 points of cold damage + 1/4 the ranger's level and is entangled and stuck to the ground, similar to the effect of a tanglefoot bag. A successful Reflex save halves the damage and means the creature is not stuck to the floor by the ice. The ice is 1 inch thick per 2 Hit Dice of the ranger (minimum 1), has hardness 0 and 3 hit points per inch of thickness, and melts in 2d4 rounds.</p>
+				<p id="marking-trap*-(ex-or-su)" class="stat-block-title">Marking Trap* (Ex or Su)</p>
+				<p class="stat-block-breaker">Effects</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> If the triggering creature fails its save against the trap, it is marked with a dye and/or scent of the ranger's choosing. A scent mark decreases the DC of tracking the marked creature by scent by 4. The mark can be washed off with vigorous scrubbing, but fades on its own over several days. </p>
+				<p id="poison-trap-(ex-or-su)" class="stat-block-title">Poison Trap (Ex or Su)</p>
+				<p class="stat-block-breaker">Effects</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> The trap poisons the creature that triggers it. If it is a supernatural trap, the poison deals 1d2 Con damage per round for 6 rounds. If it is an extraordinary trap, the ranger must provide 1 dose of contact, inhaled, or injury poison when setting the trap, and the trap uses that poison's effects and DC.</p>
+				<p id="sleet-trap-(su)" class="stat-block-title">Sleet Trap (Su)</p>
+				<p class="stat-block-breaker">Effects</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> The detonating trap creates a 20-foot-radius burst of sleet with the effects of a <i><a href="/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm" >sleet storm</a></i>. The driving sleet lasts for 1 round, but the icy ground persists for 1 round per ranger level.</p>
+				<p id="snare-trap-(ex-or-su)" class="stat-block-title">Snare Trap (Ex or Su)</p>
+				<p class="stat-block-breaker">Effects</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> The trap constricts around a limb or other part of the triggering creature's body (Reflex avoids). The creature cannot move from the location of the trap, unless the ranger included a “leash” when setting the trap, in which case the creature is limited to the length of the leash. The trapped creature can escape with an <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> check (DC equal to the trap's DC) as a full-round action. The trap or its leash has a number of hit points equal to 1/2 the ranger's level, or can be burst as a full-round action with a DC 25 Strength check. The trap can hold up to a Medium creature; each extra daily use of the ranger's trap ability spent when the trap is set increases the maximum size of creature the trap can hold. At the ranger's option, if there is a tall object or structure nearby, she can have the trap lift the creature.</p>
+				<p id="swarm-trap-(ex-or-su)" class="stat-block-title">Swarm Trap (Ex or Su)</p>
+				<p class="stat-block-breaker">Effects</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> The trap releases a bat swarm, rat swarm, or spider swarm that attacks all creatures in the area. The swarm remains in the general area for no longer than 1 round per ranger level, after which it disperses. If the trap is an extraordinary trap, the ranger must provide the creatures of the swarm (typically in a small box, cage, or crate); these creatures may die of starvation before the trap is triggered (an extraordinary trap lasts 1 day per level).</p>
+				<h1 id="trapper-(archetype)">Trapper (Archetype)</h1>
+				<p>A trapper is a ranger who focuses exclusively on traps, rather than learning conventional magic. A trapper has the following class features.</p>
+				<p id="class-skills"><b>Class Skills</b>: A trapper adds <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> to her list of class skills in addition to the normal ranger class skills.</p>
+				<p id="trapfinding"><b>Trapfinding</b>: A trapper adds 1/2 her ranger level on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> skill checks made to locate traps and on <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> skill checks (minimum +1). A trapper can use <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> to disarm magic traps.</p>
+				<p id="trap"><b>Trap</b>: At 5th level, a trapper learns how to create a snare trap and one other ranger trap of her choice. At 7th level and every two levels thereafter, she learns another trap. The trapper can use these traps a total number of times per day equal to 1/2 her ranger level + her Wisdom modifier. Once a trap is learned, it can't be unlearned and replaced with a different type of trap. The trapper cannot select an individual trap more than once. This ability replaces the ranger's spells class feature. Trappers do not gain any spells or spellcasting ability, do not have a caster level, and cannot use spell trigger and spell completion magic items.</p>
+				<p id="launch-trap"><b>Launch Trap</b>: At 10th level, a trapper can affix a magical ranger trap to an arrow, crossbow bolt, or thrown weapon, allowing her to set the trap remotely or use it as a direct attack. Attaching the trap to the projectile is part of the full-round action of creating a new trap. The trapped projectile is fired or thrown in the normal manner. If fired at a square, the trap is treated as if the ranger had set the trap in that square, except the DC is 5 lower than normal. If fired at a creature, the target takes damage from the ranged weapon and is treated as if it had triggered the trap (saving throw applies, if any). The attack has a maximum range of 60 feet, and range increments apply to the attack roll. The duration of the trapped projectile starts from when it is created, not from when it is used.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

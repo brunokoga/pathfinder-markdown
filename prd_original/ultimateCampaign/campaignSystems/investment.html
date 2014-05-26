@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Investment</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Investment",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/campaignSystems.html', name: 'Campaign Systems' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="investment">Investment</h1>
+<p>From the lowly copper piece to treasure chests bulging with precious gemstones, the anchor of most parties is treasure. But what is the purpose of a PC collecting this money if not to better her life? Once she's acquired it, shouldn't she put it to work for her? After all, adventuring is not a certain prospect&mdash;investments are a much safer bet, and the return they offer on the money invested comes without all the dangers involved in adventuring.</p>
+<p>But an investment is still a wager, and sometimes these wagers go bad. This section provides a sample of monetary investments a PC might make, and offers the GM suggestions for potential adventure hooks that utilize those investments in the broader campaign. If the PC makes an investment, it should be more interesting than calculating compound interest&mdash;give the PC the opportunity to interact with monetary decisions.</p>
+<p>The rate of return shouldn't be more than 5% per year for low-risk investments, though particularly risky investments might see as much as 15&mdash;20%. This upper end should be incredibly rare, and situations where the investors' profit exceeds 25% are almost unheard of. A GM should ration out those high-yield investments carefully. Keep in mind that unscrupulous people are always happy to get between the players and their investment income. Whether these people are legitimate (such as the tax collectors) or not (such as bandits, swindlers, or thugs wanting protection money), the net profit on an investment is frequently less than anticipated.</p>
+
+<h2 id="investment-mechanics">Investment Mechanics</h2>
+<p>When a PC decides to invest, ask the player how much money the PC provides for the investment. This is the seed money, and has a direct effect on how much money the investment earns each year (see below).</p>
+<p>A GM can use the <a href="#_table-investment-rewards">Investment Rewards table</a> as a general guideline for how much an investment is likely to return. The GM can modify these percentages to reflect particulars of the campaign. Players and GMs should use this guide only for investments in a fantasy world, not reality.</p>
+<p>To use this table, roll d% to check the investment's success or failure.</p>
+<p><b>Failed Year</b>: The investment does not provide a return this year. Three failed years in a row indicate that the investment is ruined, and the operation ends unless the character continues to invest at 2 to 3 times the amount of the original investment.</p>
+<p><b>Normal Year</b>: The investment is successful and earns its Normal Return <span class="char-style-override-86">×</span> the seed money. For example, if the seed money is 1,000 gp and the Normal Return is 3%, the investment earns the PC 30 gp as profit that year. She can choose to reinvest this profit (automatically increasing the seed money by this amount for the next year), pocket the Normal Return, or cash out the entire investment (seed money plus the Normal Return) as money or goods appropriate to the investment. For example, the PC could add the 30 gp to her 1,000 gp of seed money for next year's roll; pocket the 30 gp, and remain invested with 1,000 gp of seed money; or take the 1,030 gp (1,000 gp of seed money + 30 gp profit) and walk away from the investment.</p>
+<p><b>Breakout Year</b>: The investment has a good year and earns far more than expected. Make the die roll indicated in the Breakout Return column and multiply the result by the percentage listed in the Normal Return column. For example, if the PC invests in banking and has a breakout year, she multiplies the Breakout Return for banking (1d4+1) <span class="char-style-override-86">×</span> the Normal Return for banking (2%) to determine that year's return. If the roll results in a 5, that year's return is 10% of her investment. As with a normal year, the PC can reinvest this profit, pocket the Breakout Return, or cash out her seed money plus the Breakout Return.</p>
+<p>If a PC needs money quickly or wants to end her association with a particular investment, she can withdraw her seed money from the investment at any time, which normally takes 1d6 days and requires direct contact with the person running the investment (such as the manager of an inn, master of a guild, or head of an exploratory group). The PC receives only half of the invested seed money; the rest is lost as the involved parties quickly sell off assets (generally at half their actual value) to refund the PC her seed money. This sort of behavior tends to sour relationships between the PC and the others, making future investments with that group unlikely.<span class="char-style-override-87"></span></p>
+
+<h2 id="example-investments-and-problems">Example Investments and Problems</h2>
+<p>This list of investments is not meant to be exhaustive; NPC ingenuity could open up all sorts of investments. Some research on medieval and Renaissance technology reveals many ideas the people of those times used to make their lives easier, and some of those ideas can easily become an investment opportunity for the PCs. This section details how particular investments might serve as plot hooks for the PCs involved.</p>
+<p><b>Arts</b>: The entertainers are more volatile or political than the investor had imagined.</p>
+<p><b>Banking</b>: The investor's theoretically impenetrable vault is cracked and the valuables stolen.</p>
+<p><b>Crafting</b>: A labor strike, bandit activity, or an unscrupulous rival blocks access to needed materials.</p>
+<p><b>Exploration</b>: An explorer ends up being unreliable, greedy, or incautious, accidentally releasing ancient evils on an unsuspecting populace.</p>
+<p><b>Granary/Mill</b>: The building catches on fire, either from a simple accident or deliberate arson, and the aerosolized grain causes a massive explosion.</p>
+<p><b>Guild</b>: A rival guild targets the investor's employees, friends, family, or buildings.</p>
+<p><b>Imports</b>: Enemies of the client see a shipment as an opportunity to humiliate or kill the PC and acquire valuable goods.</p>
+<p><b>Invention</b>: The invention fails spectacularly and dangerously, putting the surrounding populace at risk.</p>
+<p><b>Protection</b>: A client you're protecting betrays an assassin's guild, is branded as a heretic by an influential church, or insults a prominent member of the ruling elite.</p>
+<p><b>Quarry</b>: Miners discover a strange hazard such as mutation-inducing crystals or a cave complex full of dangerous monsters.</p>
+<p><b>Research</b>: The research goes awry, or falls into the hands of blackmailers, criminals intent on using it for evil, or rival researchers.</p>
+<p><b>Stable</b>: Sabotage or a deadly accident occurs, or a rustler steals the most valuable mounts.</p>
+<p><b>Tavern</b>: Overheard plans for an ambush spark rumors and property damage.</p>
+
+
+<div class="table">
+<table id="table-investment-rewards"><caption>Investment Rewards</caption>
+<thead><tr><th>Investment</th><th>Normal Return</th><th>Failed Year</th><th>Normal Year</th><th>Breakout Year</th><th>Breakout Return</th></tr></thead>
+<tr class="odd"><td colspan="6"><i>Arts</i></td></tr>
+<tr class="even"><td>Creative</td><td>4%</td><td>01&mdash;30</td><td>31&mdash;95</td><td>96&mdash;00</td><td>2d4+1</td></tr>
+<tr class="odd"><td>Performing</td><td>2%</td><td>01&mdash;35</td><td>36&mdash;95</td><td>96&mdash;00</td><td>2d6+1</td></tr>
+<tr class="even"><td>Banking</td><td>2%</td><td>01&mdash;10</td><td>11&mdash;98</td><td>99&mdash;00</td><td>1d4+1</td></tr>
+<tr class="odd"><td colspan="6"><i>Crafting</i></td></tr>
+<tr class="even"><td>Common</td><td>1%</td><td>01&mdash;05</td><td>06&mdash;95</td><td>96&mdash;00</td><td>1d3+1</td></tr>
+<tr class="odd"><td>Magical</td><td>5%</td><td>01&mdash;30</td><td>31&mdash;95</td><td>96&mdash;00</td><td>1d8+1</td></tr>
+<tr class="even"><td>Military</td><td>5%</td><td>01&mdash;15</td><td>16&mdash;90</td><td>91&mdash;00</td><td>1d6+1</td></tr>
+<tr class="odd"><td>Exploration</td><td>2%</td><td>01&mdash;40</td><td>41&mdash;85</td><td>86&mdash;00</td><td>2d8+1</td></tr>
+<tr class="even"><td>Granary/Mill</td><td>3%</td><td>01&mdash;10</td><td>11&mdash;98</td><td>99&mdash;00</td><td>1d3+1</td></tr>
+<tr class="odd"><td colspan="6"><i>Guild</i></td></tr>
+<tr class="even"><td>Assassins'</td><td>5%</td><td>01&mdash;30</td><td>31&mdash;95</td><td>96&mdash;00</td><td>2d4+1</td></tr>
+<tr class="odd"><td>Crafting</td><td>2%</td><td>01&mdash;05</td><td>06&mdash;98</td><td>99&mdash;00</td><td>1d3+1</td></tr>
+<tr class="even"><td>Merchant</td><td>3%</td><td>01&mdash;10</td><td>11&mdash;98</td><td>99&mdash;00</td><td>1d4+1</td></tr>
+<tr class="odd"><td>Thieves'</td><td>4%</td><td>01&mdash;15</td><td>16&mdash;90</td><td>91&mdash;00</td><td>1d8+1</td></tr>
+<tr class="even"><td colspan="6"><i>Imports</i></td></tr>
+<tr class="odd"><td>Exotic</td><td>5%</td><td>01&mdash;30</td><td>31&mdash;90</td><td>91&mdash;00</td><td>1d10+1</td></tr>
+<tr class="even"><td>Ordinary</td><td>2%</td><td>01&mdash;15</td><td>16&mdash;95</td><td>96&mdash;00</td><td>1d4+1</td></tr>
+<tr class="odd"><td>Invention</td><td>3%</td><td>01&mdash;40</td><td>41&mdash;90</td><td>91&mdash;00</td><td>2d6+1</td></tr>
+<tr class="even"><td>Protection</td><td>3%</td><td>01&mdash;30</td><td>31&mdash;95</td><td>96&mdash;00</td><td>1d8+1</td></tr>
+<tr class="odd"><td>Quarry</td><td>3%</td><td>01&mdash;20</td><td>21&mdash;90</td><td>91&mdash;00</td><td>1d6+1</td></tr>
+<tr class="even"><td colspan="6"><i>Research</i></td></tr>
+<tr class="odd"><td>Magical</td><td>5%</td><td>01&mdash;50</td><td>51&mdash;75</td><td>76&mdash;00</td><td>2d6+1</td></tr>
+<tr class="even"><td>Mundane</td><td>3%</td><td>01&mdash;20</td><td>21&mdash;85</td><td>86&mdash;00</td><td>1d8+1</td></tr>
+<tr class="odd"><td>Stable</td><td>1%</td><td>01&mdash;05</td><td>06&mdash;98</td><td>99&mdash;00</td><td>1d3+1</td></tr>
+<tr class="even"><td>Tavern</td><td>2%</td><td>01&mdash;10</td><td>11&mdash;98</td><td>99&mdash;00</td><td>1d4+1</td></tr></table>
+</div>
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

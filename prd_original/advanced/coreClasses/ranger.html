@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Ranger</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Ranger",globalNavPath=[{ href: '/pathfinderRPG/prd/advanced/advancedCoreClasses.html', name: 'Advanced Core Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="ranger" class="monster-header">Ranger</h1>
+				<p>Where the average druid eschews settlements entirely, seeking solace in the wilds, rangers are the border riders, living on civilization's tattered edge. They are the scouts and the bounty hunters, the trackers and woodsmen, and in their chosen environments they are unmatchable. Self-sufficient and keenly aware of their surroundings, rangers surive through strength, wit, and adaptability, stalking their prey and melting into the woods or wastes without a trace. It is this very adapabtibility and staunch, pioneering sense of independence that leads rangers out of more formal society or schooling and into a number of different specializations and combat styles, from two-handed fighting and breathtaking feats of archery to mastery of particular terrains or communication with the beasts around them.</p>
+				<p>Presented below are a number of alternate class features and archetypes to help customize your ranger, whether he's a bold master of beasts or a shifty forest scout adept at tracking the enemy and picking off the unwary.</p>
+				<h1 id="new-combat-styles">New Combat Styles</h1>
+				<p>At 2nd level, a ranger must select one of the two core <a href="../../classes/ranger.html#_combat-style-feat">combat styles</a> or one of the following new combat styles: crossbow, mounted combat, natural weapon, two-handed weapon, or weapon and shield style. The ranger can choose feats from his selected combat style even if he does not have the normal prerequisites.</p>
+				<p id="crossbow"><b>Crossbow</b>: If the ranger selects crossbow style, he can choose from the following list whenever he gains a combat style feat: <a href="../../feats.html#_deadly-aim" >Deadly Aim</a>, <a href="../advancedFeats.html#_focused-shot-(combat)" >Focused Shot</a>, <a href="../../feats.html#_precise-shot" >Precise Shot</a>, and <a href="../../feats.html#_rapid-reload" >Rapid Reload</a>. At 6th level, he adds <a href="../advancedFeats.html#_crossbow-mastery-(combat)" >Crossbow Mastery</a> and <a href="../../feats.html#_improved-precise-shot" >Improved Precise Shot</a> to the list. At 10th level, he adds<a href="../../feats.html#_pinpoint-targeting" > Pinpoint Targeting</a> and <a href="../../feats.html#_shot-on-the-run" >Shot on the Run</a> to the list.</p>
+				<p id="mounted-combat"><b><a href="../../feats.html#_mounted-combat" >Mounted Combat</a></b>: If the ranger selects mounted combat, he can choose from the following list whenever he gains a combat style feat: <a href="../../feats.html#_mounted-combat" >Mounted Combat</a>, <a href="../../feats.html#_mounted-archery" >Mounted Archery</a>, <a href="../../feats.html#_ride-by-attack" >Ride-By Attack</a>, and <a href="../advancedFeats.html#_trick-riding-(combat)" >Trick Riding</a>. At 6th level, he adds <a href="../advancedFeats.html#_mounted-shield-(combat)" >Mounted Shield</a> and <a href="../../feats.html#_spirited-charge" >Spirited Charge</a> to the list. At 10th level, he adds <a href="../advancedFeats.html#_mounted-skirmisher-(combat)" >Mounted Skirmisher</a> and <a href="../../feats.html#_unseat" >Unseat</a> to the list.</p>
+				<p id="natural-weapon"><b>Natural Weapon</b>: If the ranger selects natural weapon style, he can choose from the following list whenever he gains a combat style feat: <a href="../advancedFeats.html#_aspect-of-the-beast" >Aspect of the Beast</a>, <a href="../../monsters/monsterFeats.html#_improved-natural-attack">Improved Natural Weapon</a>, <a href="../advancedFeats.html#_rending-claws-(combat)" >Rending Claws</a>, and <a href="../../feats.html#_weapon-focus" >Weapon Focus</a>. At 6th level, he adds Eldritch Fangs and <a href="../../feats.html#_vital-strike" >Vital Strike</a> to the list. At 10th level, he adds <a href="../../monsters/monsterFeats.html#_multiattack">Multiattack and <a href="../../feats.html#_improved-vital-strike" >Improved Vital Strike</a> to the list.</p>
+				<p id="two-handed-weapon"><b>Two-Handed Weapon</b>: If the ranger selects two-handed weapon style, he can choose from the following list whenever he gains a combat style feat: <a href="../../feats.html#_cleave" >Cleave</a>, <a href="../../feats.html#_power-attack" >Power Attack</a>, <a href="../advancedFeats.html#_pushing-assault-(combat)" >Pushing Assault</a>, and <a href="../advancedFeats.html#_shield-of-swings-(combat)" >Shield of Swings</a>. At 6th level, he adds <a href="../advancedFeats.html#_furious-focus-(combat)" >Furious Focus</a> and <a href="../../feats.html#_great-cleave" >Great Cleave</a> to the list. At 10th level, he adds <a href="../advancedFeats.html#_dreadful-carnage-(combat)" >Dreadful Carnage</a> and <a href="../../feats.html#_improved-sunder" >Improved Sunder</a> to the list.</p>
+				<p id="weapon-and-shield"><b>Weapon and Shield</b>: If the ranger selects weapon and shield style, he can choose from the following list whenever he gains a combat style feat: <a href="../../feats.html#_improved-shield-bash" >Improved Shield Bash</a>, <a href="../../feats.html#_shield-focus" >Shield Focus</a>, <a href="../../feats.html#_shield-slam" >Shield Slam</a>, and <a href="../../feats.html#_two-weapon-fighting">Two-Weapon Fighting</a>. At 6th level, he adds <a href="../advancedFeats.html#_saving-shield-(combat)" >Saving Shield</a> and <a href="../../feats.html#_shield-master" >Shield Master</a> to the list. At 10th level, he adds <a href="../advancedFeats.html#_bashing-finish-(combat)" >Bashing Finish</a> and <a href="../../feats.html#_greater-shield-focus" >Greater Shield Focus</a> to the list.</p>
+				<h1 id="beast-master">Beast Master</h1>
+				<p>Some rangers, particularly those in primitive lands or who were raised by animals, have unusually strong bonds with animals. Unique among rangers, they can bond with multiple animals of any kind, creating a menagerie of wild yet loyal creatures, like a strange family. A beast master has the following class features.</p>
+				<p id="class-skills"><b>Class Skills</b>: A beast master's class skills are <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> (Dex), <a href="../../skills/climb.html#_climb" >Climb</a> (Str), <a href="../../skills/craft.html#_craft" >Craft</a> (Int), <a href="../../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> (Dex), <a href="../../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> (Cha), <a href="../../skills/heal.html#_heal" >Heal</a> (Wis), <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> (Cha), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (nature) (Int), <a href="../../skills/perception.html#_perception" >Perception</a> (Wis), <a href="../../skills/ride.html#_ride" >Ride</a> (Dex), <a href="../../skills/stealth.html#_stealth" >Stealth</a> (Dex), <a href="../../skills/survival.html#_survival" >Survival</a> (Wis), and <a href="../../skills/swim.html#_swim" >Swim</a> (Wis). These replace the standard ranger class skills.</p>
+				<p id="animal-companion"><b>Animal Companion (Ex)</b>: A beast master forms a close bond with an animal companion. This ability functions like the druid animal companion ability except that the ranger's effective druid level is equal to his ranger level &ndash; 3. The ranger gains a +2 bonus on wild empathy and <a href="../../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> checks made regarding his animal companion. Unlike a normal ranger, a beast master's choice of animal companion is not limited to a subset of all possibile animal companion choices&mdash;he may choose freely among all animal companion choices, just as a druid can.</p>
+				<p>The beast master may have more than one animal companion, but he must divide up his effective druid level between his companions to determine the abilities of each companion. For example, a beast master with an effective druid level of 4 can have one 4th-level companion, two 2nd-level companions, or one 1st-level and one 3rd-level companion. Each time a beast master's effective druid level increases, he must decide how to allocate the increase among his animal companions (including the option of adding a new 1st-level companion). Once an effective druid level is allocated to a particular companion, it cannot be redistributed while that companion is in the ranger's service (he must release a companion or wait until a companion dies to allocate its levels to another companion). The share spells animal companion ability does not give the ranger the ability to cast a single spell so that it affects all of his animal companions. This ability replaces hunter's bond.</p>
+				<p id="improved-empathic-link"><b>Improved Empathic Link (Su)</b>: The beast master gains an empathic link with all of his animal companions. This functions like an empathic link with a familiar, except the ranger can also see through a companion's eyes as a swift action, maintaining this connection as long as he likes (as long as the companion is within 1 mile) and ending it as a free action. The ranger can only see through the eyes of one companion at a time, and is blinded while maintaining this connection. This replaces the 6th-level combat style feat.</p>
+				<p id="strong-bond"><b>Strong Bond (Ex)</b>: At 12th level, the ranger strengthens his bond with his animal companions. The ranger's effective druid level for his animal companions is now equal to his ranger level; he may immediately allocate these additional levels to his companions as he sees fit. This ability replaces camouflage.</p>
+				<h1 id="guide">Guide</h1>
+				<p>Many rangers are loners, but some choose to use their familiarity with the land to guide others safely through the wilderness. The guide forgoes a favored enemy to focus on the task or foe at hand, and can pass his knowledge and luck on to his charges. A guide has the following class features.</p>
+				<p id="ranger's-focus"><b>Ranger's Focus (Ex)</b>: At 1st level, once per day, the guide can focus on a single enemy within line of sight as a swift action. That creature remains the ranger's focus until it is reduced to 0 or fewer hit points or surrenders, or until the ranger designates a new focus, whichever occurs first. The ranger gains a +2 bonus on attack and damage rolls against the target of his focus. At 5th level, and every five levels thereafter, this bonus increases by +2.</p>
+				<p>At 4th level, and every 3 levels thereafter, the ranger can use this ability one additional time per day. This ability replaces favored enemy.</p>
+				<p id="terrain-bond"><b>Terrain Bond (Ex)</b>: At 4th level, the guide forms a bond with the land itself, enabling him to direct others in such terrain. When in his favored terrain, the ranger grants all allies within line of sight and that can hear him a +2 bonus on initiative checks and <a href="../../skills/perception.html#_perception" >Perception</a>, <a href="../../skills/stealth.html#_stealth" >Stealth</a>, and <a href="../../skills/survival.html#_survival" >Survival</a> skill checks. Also, as long as they travel with him, the ranger's allies leave no trail and can't be tracked. The ranger can choose for the group to leave a trail, or even specific members of the group to leave a trail if he so desires. This ability replaces hunter's bond.</p>
+				<p id="ranger's-luck"><b>Ranger's Luck (Ex)</b>: Upon reaching 9th level, once per day the guide can either reroll one of his attack rolls or force an enemy who just hit him with an attack to reroll the attack roll. The ranger must take the result of the second roll even if it is worse. A ranger can use this ability once per day at 9th level, plus one additional time per day at 14th and 19th levels. This ability replaces evasion.</p>
+				<p id="inspired-moment"><b>Inspired Moment (Ex)</b>: At 11th level, the guide can have an inspired moment once per day as a free action. The ranger gains the following benefits until the end of his next turn. His speed increases by 10 feet. He can take an extra move or swift action on his turn. He gains a +4 bonus to AC and on attack rolls, skill checks, or ability checks. Finally, he automatically confirms any critical threat he scores. He can use this ability one additional time per day at 19th level. This ability replaces quarry and improved quarry.</p>
+				<p id="improved-ranger's-luck"><b>Improved Ranger's Luck (Ex)</b>: Upon reaching 16th level, the ranger's luck increases. He gains a +4 bonus on his rerolls made with the ranger's luck ability, or if he forces an enemy to reroll an attack, that enemy takes a &ndash;4 penalty on the roll. This bonus or penalty is also applied on any roll to confirm critical hits. This ability replaces improved evasion.</p>
+				<h1 id="horse-lord">Horse Lord</h1>
+				<p>Rangers of the plains use horses or other riding beasts to hunt their lands, forging a near-mystical relationship with their mounts. Horse lords are unparalleled mounted combatants, the envy of even the most dedicated cavalier. Though called “horse lords” as a generic term, these rangers are not restricted to horses for their animal companions&mdash;any creature the ranger can ride is included in these abilities. A horse lord has the following class features.</p>
+				<p id="combat-style-feat"><b>Combat Style Feat (Ex)</b>: At 2nd level, a horse lord must choose the mounted combat style. </p>
+				<p id="mounted-bond"><b>Mounted Bond (Ex)</b>: At 4th level, the horse lord forms a bond with an animal he can use as a mount, which becomes his animal companion. A Medium ranger can select a camel or a horse. A small ranger can select a pony or wolf, but can also select a boar or dog if he is at least 7th level. This ability functions like the druid animal companion ability except that the ranger's effective druid level is equal to his ranger level &ndash; 3. The ranger gains a +2 bonus on <a href="../../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> and <a href="../../skills/ride.html#_ride" >Ride</a> checks with his animal companion mount. This ability replaces hunter's bond.</p>
+				<p id="strong-bond"><b>Strong Bond (Ex)</b>: At 12th level, the horse lord strengthens his bond with his mount. The ranger's effective druid level for his mount is now equal to his ranger level. This ability replaces camouflage.</p>
+				<p id="spiritual-bond"><b>Spiritual Bond (Su)</b>: At 17th level, the horse lord can grant his animal companion temporary hit points equal to his ranger level once per day. While these temporary hit points last, when his mount is within 30 feet of the him, he can choose to share the damage taken by his mount as if using <i><a href="../../spells/shieldOther.html#_shield-other" >shield other</a></i>. This ability replaces hide in plain sight.</p>
+				<h1 id="infiltrator">Infiltrator</h1>
+				<p>Some rangers study their favored enemies and learn their ways, applying this knowledge to their own abilities and using their foes' strengths against them. Infiltrators are willing to walk a mile in an enemy's shoes so as to learn eveything there is to know about their foes in order to more effectively hunt and kill them.</p>
+				<p id="adaptation"><b>Adaptation (Ex)</b>: At 3rd level, an infiltrator learns how to copy the unusual abilities of his prey. He chooses one type of creature he has selected as a favored enemy, such as “aberrations.” The ranger selects one ability or feat from the adaptation list for that type (see below). A ranger can use adaptations for 10 minutes per day per ranger level he possesses. This duration does not need to be consecutive, but it must be used in 10-minute increments. If the adaptation requires the ranger to make a more specific choice (such as what skill to use with <a href="../../feats.html#_skill-focus" >Skill Focus</a>), this choice is permanent and cannot be changed.</p>
+				<p>At 8th, 13th, and 15th-level, the ranger chooses another one of his favored enemy types and selects one adaptation from that type's list, as well as an additional adaptation from any one list of a creature type he's selected (including the one just chosen, if so desired). The infiltrator can only use one adaptation at a time. This class ability replaces favored terrain.</p>
+				<p id="aberration"><i>Aberration</i>: amphibious, darkvision 60 ft., <a href="../../feats.html#_iron-will" >Iron Will</a>, natural armor +2.</p>
+				<p id="animal"><i>Animal</i>: climb 15 ft., darkvision 60 ft., <a href="../../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, low-light vision, natural armor (+2), swim 15 ft.</p>
+				<p id="construct"><i>Construct</i>: darkvision 60 ft., <a href="../../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, low-light vision.</p>
+				<p id="dragon"><i>Dragon</i>: darkvision 60 ft., <a href="../../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../../feats.html#_iron-will" >Iron Will</a>, <a href="../../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, low-light vision, <a href="../../feats.html#_lunge" >Lunge</a>.</p>
+				<p id="fey"><i>Fey</i>: <a href="../../feats.html#_iron-will" >Iron Will</a>, <a href="../../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, low-light vision.</p>
+				<p id="humanoid-(aquatic)"><i>Humanoid (aquatic)</i>: low-light vision, natural armor +2, darkvision, swim 15 ft.</p>
+				<p id="humanoid-(dwarf)"><i>Humanoid (dwarf)</i>: darkvision 60 ft., defensive training, greed, hatred, hardy, slow and steady, stability, stonecunning, weapon familiarity.</p>
+				<p id="humanoid-(elf)"><i>Humanoid (elf)</i>: elf blood, low-light vision, elven immunities, elven magic, keen senses, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (choose one skill), weapon familiarity.</p>
+				<p id="humanoid-(giant)"><i>Humanoid (giant)</i>: low-light vision, <a href="../../feats.html#_lunge" >Lunge</a>, natural armor +2, resist energy 10 (choose cold, electricity, or fire), <a href="../../feats.html#_throw-anything" >Throw Anything</a>.</p>
+				<p id="humanoid-(gnoll)"><i>Humanoid (gnoll)</i>: darkvision 60 ft., <a href="../../feats.html#_exotic-weapon-proficiency" >Exotic Weapon Proficiency</a> (dire flail), natural armor +2.</p>
+				<p id="humanoid-(gnome)"><i>Humanoid (gnome)</i>: defensive training, gnome magic, hatred, illusion resistance, keen senses, low-light vision, obsessive, weapon familiarity.</p>
+				<p id="humanoid-(goblinoid)"><i>Humanoid (goblinoid)</i>: darkvision 60 ft., goblin fast, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/stealth.html#_stealth" >Stealth</a>), natural armor (+2).</p>
+				<p id="humanoid-(halfling)"><i>Humanoid (halfling)</i>: fearless, halfling luck, keen senses, sure-footed, weapon familiarity.</p>
+				<p id="humanoid-(human)"><i>Humanoid (human)</i>: <a href="../../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../../feats.html#_iron-will" >Iron Will</a>, <a href="../../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (choose one skill).</p>
+				<p id="humanoid-(orc)"><i>Humanoid (orc)</i>: darkvision 60 ft., ferocity, intimidating, orc blood, weapon familiarity.</p>
+				<p id="humanoid-(reptilian)"><i>Humanoid (reptilian)</i>: darkvision 60 ft., kobold fast (as goblin fast), lizardfolk hold breath, natural armor +2, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (choose <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a>, <a href="../../skills/perception.html#_perception" >Perception</a>, or <a href="../../skills/stealth.html#_stealth" >Stealth</a>).</p>
+				<p id="magical-beast"><i>Magical Beast</i>: darkvision 60 ft., <a href="../../feats.html#_great-fortitude" >Great Fortitude</a>, low-light vision, natural armor +2.</p>
+				<p id="monstrous-humanoid"><i>Monstrous Humanoid</i>: darkvision 60 ft., <a href="../../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, low-light vision, natural armor +2.</p>
+				<p id="ooze"><i>Ooze</i>: acid resistance 10, <a href="../../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../../feats.html#_iron-will" >Iron Will</a>, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (choose <a href="../../skills/climb.html#_climb" >Climb</a>, <a href="../../skills/escapeArtist.html#_escape-artist" >Escape Artist</a>, or <a href="../../skills/perception.html#_perception" >Perception</a>).</p>
+				<p id="outsider"><i>Outsider</i>: darkvision 60 ft., energy resistance 5 (choose one type of energy from acid, cold, electricity, or fire), <a href="../../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../../feats.html#_iron-will" >Iron Will</a>, <a href="../../feats.html#_lightning-reflexes" >Lightning Reflexes</a>.</p>
+				<p id="plant"><i>Plant</i>: low-light vision, <a href="../../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../../feats.html#_iron-will" >Iron Will</a>.</p>
+				<p id="undead"><i>Undead</i>: darkvision 60 ft., <a href="../../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../../feats.html#_iron-will" >Iron Will</a>, natural armor (+2). <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/stealth.html#_stealth" >Stealth</a>).</p>
+				<p id="vermin"><i>Vermin</i>: climb 15 ft., darkvision 60 ft., <a href="../../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../../feats.html#_iron-will" >Iron Will</a>, swim 15 ft.</p>
+				<h1 id="shapeshifter">Shapeshifter</h1>
+				<p>Most rangers venture into the wilderness, but there are some who let the wilderness seep into them. Whether by curse, disease, ancient rite, a slight lycanthropic influence in the blood, or the corrupting influence of chaos, these rangers embrace the wild to transform themselves into something untamed and feral. Shapeshifters are often held in awe, but are even more often feared. A shapeshifter has the following class features. </p>
+				<p id="combat-style-feat"><b>Combat Style Feat (Ex)</b>: At 2nd level, a shapeshifter ranger must choose the natural weapon combat style.</p>
+				<p id="shifter's-blessing"><b>Shifter's Blessing (Su)</b>: At 3rd level, the shapeshifter can take on the aspects of a wild creature once per day as a swift action. He can remain in this form for a number of rounds equal to his ranger level + his Wisdom modifier. While in one of his shifter's blessing forms, the ranger gains the shapeshifter subtype. </p>
+				<p>The shapeshifter must choose one of the following forms. Once this choice is made, it cannot be changed.</p>
+				<p id="form-of-the-bear"><i>Form of the Bear</i>: The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this form, the ranger gains a +4 enhancement bonus to Strength, but his base speed becomes 20 feet.</p>
+				<p id="form-of-the-cat"><i>Form of the Cat</i>: The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 10 feet, and he gains a +4 bonus on <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> and <a href="../../skills/climb.html#_climb" >Climb</a> checks.</p>
+				<p id="form-of-the-dragon"><i>Form of the Dragon</i>: The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +2 natural armor bonus to AC. </p>
+				<p id="form-of-the-eagle"><i>Form of the Eagle</i>: The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on <a href="../../skills/perception.html#_perception" >Perception</a> checks.</p>
+				<p id="form-of-the-jackal"><i>Form of the Jackal</i>: The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this form, the ranger can spend a move action to move up to 1/2 his speed without provoking attacks of opportunity. </p>
+				<p id="form-of-the-otter"><i>Form of the Otter</i>: The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 30 feet and a +8 bonus on <a href="../../skills/swim.html#_swim" >Swim</a> checks. </p>
+				<p>At 8th level and again every five levels thereafter, the ranger may select an additional form for his shifter's blessing and may use this ability one additional time per day. This is not a polymorph ability; a ranger with shifter's blessing in one of his shifted forms can be affected by a polymorph ability and retain his bonus and traits gained by the class feature. This ability replaces favored terrain.</p>
+				<p id="dual-form-shifter"><b>Dual Form Shifter (Ex)</b>: At 12th level, when the shapeshifter takes on a shifter's blessing form, he can take on a hybrid of two of his forms. He gains the bonuses for both forms. This ability replaces camouflage.</p>
+				<p id="master-shifter"><b>Master Shifter (Su)</b>: At 20th level, the ranger's shifter's blessing forms improve, and he can take on true forms of beasts. The ranger can use dual form shifter with this ability, although he cannot use more than one polymorph effect at any one time. This ability replaces master hunter. The ranger's forms from shifter's blessing improve to the following:</p>
+				<p id="form-of-the-bear"><i>Form of the Bear</i>: The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this form, the ranger gains a +8 enhancement bonus to Strength and he does not suffer any reduction of speed. Alternatively, the ranger can polymorph into the form of a bear as if the caster of <i><a href="../../spells/beastShape.html#_beast-shape-iv" >beast shape IV</a></i>.</p>
+				<p id="form-of-the-cat"><i>Form of the Cat</i>: The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 20 feet and he gains a +10 bonus on <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> and <a href="../../skills/climb.html#_climb" >Climb</a> checks. Alternatively, the ranger can polymorph into the form of a cat of any size as if the caster of <i><a href="../../spells/beastShape.html#_beast-shape-iv" >beast shape IV</a></i>.</p>
+				<p id="form-of-the-dragon"><i>Form of the Dragon</i>: The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +4 natural armor bonus to AC and a fly speed of 30 feet with average maneuverability. Alternately, the ranger can polymorph into the form of a dragon as if the caster of <i><a href="../../spells/formOfTheDragon.html#_form-of-the-dragon-i" >form of the dragon I</a></i>.</p>
+				<p id="form-of-the-eagle"><i>Form of the Eagle</i>: The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on <a href="../../skills/perception.html#_perception" >Perception</a> checks and a fly speed of 40 feet with good maneuverability. Alternatively, the ranger can polymorph into the form of an eagle or similar raptor as if the caster of <i><a href="../../spells/beastShape.html#_beast-shape-iv" >beast shape IV</a></i>.</p>
+				<p id="form-of-the-jackal"><i>Form of the Jackal</i>: The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this form, the ranger does not provoke attacks of opportunity due to movement. Alternatively, the ranger can polymorph into the form of a jackal or other canine creature as if the caster of <i><a href="../../spells/beastShape.html#_beast-shape-iv" >beast shape IV</a></i>.</p>
+				<p id="form-of-the-otter"><i>Form of the Otter</i>: The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 60 feet and a +5 bonus on <a href="../../skills/swim.html#_swim" >Swim</a> checks. Alternatively, the ranger can polymorph into the form of an otter or similar river mammal as if the caster of <i><a href="../../spells/beastShape.html#_beast-shape-iv" >beast shape IV</a></i>. </p>
+				<h1 id="skirmisher">Skirmisher</h1>
+				<p>Many rangers rely on spells, but there are some who eschew aid from divine powers for their own reasons. Skirmishers rely on their wits, their wisdom, and sometimes even instinct to aid in their quests. A skirmisher has the following class features.</p>
+				<p id="hunter's-tricks"><b>Hunter's Tricks</b>: At 5th level, a skirmisher ranger learns the use of hunter's tricks, which typically grant a boon or bonus to the ranger or a nearby ally. At 5th level, the ranger learns one trick, selected from the list below. At 7th level, and every two levels thereafter, he learns another trick. A ranger can use these tricks a total number of times per day equal to 1/2 his ranger level + his Wisdom modifier. Tricks are usually swift actions, but sometimes move or free actions that modify a standard action, usually an attack action. Once a trick is chosen, it can't be retrained. A ranger cannot select an individual trick more than once. This ability replaces the ranger's spells class feature. Skirmishers do not gain any spells or spellcasting ability, do not have a caster level, and cannot use spell trigger and spell completion magic items.</p>
+				<p>The following is a list of hunter tricks and their effects.</p>
+				<p id="aiding-attack"><i>Aiding Attack (Ex)</i>: The ranger can use this trick as a free action when he hits a creature with an attack. The next ally who makes an attack against the target creature before the start of the ranger's next turn gains a +2 circumstance bonus on that attack roll. </p>
+				<p id="bolster-companion"><i>Bolster Companion (Ex)</i>: The ranger can use this trick as an immediate action when his animal companion is hit with an attack or a combat maneuver. The companion's AC and combat maneuver defense increase by +4 for the purposes of that attack. If the attack still hits, the animal companion only takes half damage (if any). The animal companion must be able to see and hear the ranger to benefit from this trick. </p>
+				<p id="catfall"><i>Catfall (Ex)</i>: The ranger can use this trick as an immediate action when he falls 20 or more feet, ignoring the first 20 feet of the fall when calculating the falling damage. If the ranger takes no damage from the fall, he does not fall prone.</p>
+				<p id="chameleon-step"><i>Chameleon Step (Ex)</i>: The ranger can move up to twice his speed as a move action. The ranger does not take any penalty on <a href="../../skills/stealth.html#_stealth" >Stealth</a> checks for movement during this move. This move provokes attacks of opportunity as normal.</p>
+				<p id="cunning-pantomime"><i>Cunning Pantomime (Ex)</i>: As a standard action, the ranger can communicate with a single creature as if using the <i><a href="../../spells/tongues.html#_tongues" >tongues</a></i> spell for 10 minutes. Because the communication is slow and lacks subtlety, the ranger suffers a &ndash;4 penalty on all <a href="../../skills/bluff.html#_bluff" >Bluff</a> and <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks relating to the creature he is communicating with when using this trick. </p>
+				<p id="defensive-bow-stance"><i>Defensive Bow Stance (Ex)</i>: The ranger can use this trick as a swift action. Until the start of his next turn, his ranged attacks do not provoke attacks of opportunity.</p>
+				<p id="deft-stand"><i>Deft Stand (Ex)</i>: The ranger can spend a move action to stand up without provoking attacks of opportunity.</p>
+				<p id="distracting-attack"><i>Distracting Attack (Ex)</i>: The ranger can use this trick as a free action before he makes an attack. If the attack hits, the target takes a &ndash;2 penalty on all attack rolls for 1 round.</p>
+				<p id="hateful-attack"><i>Hateful Attack (Ex)</i>: The ranger can use this trick as a free action when he makes an attack against one of his favored enemies. The ranger doubles the threat range of his weapon for this attack. This does not stack with other abilities that increase a weapon's threat range.</p>
+				<p id="heel"><i>Heel (Ex)</i>: The ranger can use this trick as an immediate action when his animal companion moves. When the companion moves, the square it starts out in is not considered threatened by any opponent it can see, and therefore visible enemies do not get attacks of opportunity against it when it moves from that square. The companion must end this movement in a square adjacent to the ranger. The animal companion must be able to see and hear the ranger to take this movement. </p>
+				<p id="hobbling-attack"><i>Hobbling Attack (Ex)</i>: The ranger can use this trick as a free action when he hits with an attack. The target of the attack's land speed is reduced by 1/2 for 1d4 rounds.</p>
+				<p id="quick-climb"><i>Quick <a href="../../skills/climb.html#_climb" >Climb</a> (Ex)</i>: The ranger can climb at his full speed as a move action without penalty.</p>
+				<p id="quick-healing"><i>Quick Healing (Ex)</i>: As a swift action, the ranger can make a <a href="../../skills/heal.html#_heal" >Heal</a> check to administer first aid on an adjacent dying character. Alternatively, the ranger can administer a potion to an unconscious character as a move action. </p>
+				<p id="quick-swim"><i>Quick <a href="../../skills/swim.html#_swim" >Swim</a> (Ex)</i>: The ranger can swim at his full speed as a move action without penalty.</p>
+				<p id="ranger's-counsel"><i>Ranger's Counsel (Ex)</i>: As a swift action, the ranger can grant all allies within 30 feet that are within line of sight and can hear him a +2 bonus on skill checks with a single skill of his choice. The ranger must have at least one rank in the chosen skill. This bonus lasts for 1 round.</p>
+				<p id="rattling-strike"><i>Rattling Strike (Ex)</i>: The ranger can use this trick as a free action before he makes a melee attack. If the attack hits, the target is shaken for 1d4 rounds. </p>
+				<p id="second-chance-strike"><i><a href="../advancedFeats.html#_second-chance-(combat)" >Second Chance</a> Strike (Ex)</i>: When he misses with a melee attack, the ranger may reroll his attack at a &ndash;5 penalty. Using this ability is an immediate action.</p>
+				<p id="sic-'em"><i>Sic 'Em (Ex)</i>: The ranger can use this trick as a swift action. His animal companion makes one melee attack against an adjacent creature. The animal companion must be able to see and hear the ranger to make this attack.</p>
+				<p id="skill-sage"><i>Skill Sage (Ex)</i>: As a free action, the ranger can roll twice on any one skill check and take the better result. He must have at least 1 rank in that skill to use this ability. </p>
+				<p id="stag's-leap"><i>Stag's Leap (Ex)</i>: As a free action, the ranger can attempt a running jump without moving 10 feet before the jump.</p>
+				<p id="surprise-shift"><i>Surprise Shift (Ex)</i>: The ranger can move 5 feet as a swift action. This movement does not provoke attacks of opportunity and does not count as a 5-foot step.</p>
+				<p id="tangling-attack"><i>Tangling Attack (Ex)</i>: The ranger can use this attack as a free action when he makes an attack. If the attack hits, the target is entangled for 1 round.</p>
+				<p id="trick-shot"><i>Trick Shot (Ex)</i>: As a standard action, the ranger can make a ranged attack that ignores concealment (but not total concealment), soft cover, and partial cover.</p>
+				<p id="uncanny-senses"><i>Uncanny Senses (Ex)</i>: As an immediate action, the ranger gains a +10 insight bonus on <a href="../../skills/perception.html#_perception" >Perception</a> checks for 1 round.</p>
+				<p id="upending-strike"><i>Upending Strike (Ex)</i>: The ranger can use this trick as a free action just before he makes a melee attack. If the attack hits, he may make a free trip combat maneuver against the target.</p>
+				<p id="vengeance-strike"><i>Vengeance Strike (Ex)</i>: The ranger can use this trick as an immediate action when an enemy adjacent to him hits an ally with a melee or ranged attack. The ranger can make a single melee attack at his highest base attack bonus against the creature who attacked his ally.</p>
+				<h1 id="spirit-ranger">Spirit Ranger</h1>
+				<p>Some rangers nurture a connection with the spirits that reside in all things. By communing with these spirits, the spirit ranger can gain glimpses of things to come. A spirit ranger has the following class features.</p>
+				<p id="spirit-bond"><b>Spirit Bond (Ex)</b>: At 4th level, instead of forming a bond with his hunting companions or an animal companion, the spirit ranger forms a bond with the spirits of nature themselves. Each day, as long as he is within one of his favored terrains, the ranger can cast <i><a href="../../spells/augury.html#_augury" >augury</a></i> as a spell-like ability with a caster level equal to his ranger level. In addition, he can call upon these spirits to cast any one ranger spell that he is capable of casting, without having to prepare the spell. At 8th level, and every four levels thereafter, he can cast an additional spell in this way. This replaces hunter's bond.</p>
+				<p id="wisdom-of-the-spirits"><b>Wisdom of the Spirits (Sp)</b>: At 12th level, the spirit ranger can use his <i><a href="../../spells/augury.html#_augury" >augury</a></i> spell-like ability even when he is not in one of his favored terrains. If he is within one of his favored terrains, the ranger can cast <i><a href="../../spells/divination.html#_divination" >divination</a></i> instead. Like <i><a href="../../spells/augury.html#_augury" >augury</a></i>, the caster level of the <i><a href="../../spells/divination.html#_divination" >divination</a></i> is equal to the ranger's level. This ability replaces camouflage.</p>
+				<h1 id="urban-ranger">Urban Ranger</h1>
+				<p>For the urban ranger, the streets and sewers of the city are just as dangerous as the barren wastelands or the deep forests. An urban ranger has the following class features.</p>
+				<p id="urban-ranger"><b>Urban Ranger</b>: At 1st level, an urban ranger adds <a href="../../skills/disableDevice.html#_disable-device" >Disable Device</a> and <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (local) to his list of class skills and removes <a href="../../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> and <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (nature) from his list of class skills.</p>
+				<p id="favored-community"><b>Favored Community (Ex)</b>: At 3rd level, the urban ranger forms a bond with a community. While inside the limits of this community, he gains a +2 bonus on initiative checks and <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (local), <a href="../../skills/perception.html#_perception" >Perception</a>, <a href="../../skills/stealth.html#_stealth" >Stealth</a>, and <a href="../../skills/survival.html#_survival" >Survival</a> skill checks. An urban ranger traveling through his favored community leaves no trail and cannot be tracked (although he may leave a trail if he so desires).</p>
+				<p>At 8th level, and every five levels thereafter, an urban ranger may select an additional favored community. In addition, at each such interval, the skill bonus and initiative bonus in any one favored community (including the one just selected, if so desired) increases by +2. </p>
+				<p>For the purposes of this ability, a community is any settlement consisting of 100 or more individuals. The community may be larger than this minimum. Outlying farms, fields, and houses are not considered part of a community. This ability replaces favored terrain.</p>
+				<p id="trapfinding"><b>Trapfinding (Ex)</b>: At 3rd level, an urban ranger can find and disable traps, as the rogue class feature of the same name. This ability replaces endurance.</p>
+				<p id="push-through"><b>Push Through (Ex)</b>: At 7th level, an urban ranger is never slowed by difficult terrain in his favored communities. In addition, he can move through the space occupied by local citizens as if they were allies. This does not apply to creatures intent on harming the ranger. Areas that are enchanted or magically manipulated to impede motion, however, still affect him. This replaces woodland stride.</p>
+				<p id="blend-in"><b>Blend In (Ex)</b>: An urban ranger of 12th level or higher can use his <a href="../../skills/stealth.html#_stealth" >Stealth</a> bonus in place of a <a href="../../skills/disguise.html#_disguise" >Disguise</a> skill check in any of his favored communities. This disguise does not take an action to don. He must make a check whenever someone attempts to pick him out from the local citizens. If his check is successful, he blends into the crowd. While not invisible, enemies do not notice his presence and take no actions against him unless they are taking actions against the local citizens in general. This replaces camouflage.</p>
+				<p id="invisibility-trick"><b>Invisibility Trick (Sp)</b>: At 17th level, the urban ranger can cast <i><a href="../../spells/invisibility.html#_invisibility-greater" >greater invisibility</a></i> on himself as a wizard of his ranger level as a swift action. He can use this spell-like ability a number of times per day equal to his Wisdom modifier (minimum 1). This ability replaces hide in plain sight.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

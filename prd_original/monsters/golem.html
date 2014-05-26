@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Golem</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Golem",globalNavPath=[{ href: '/pathfinderRPG/prd/monsters/monsterIndex.html', name: 'Monster Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+			
+			<div>
+				<h1 id="golem" class="monster-header">Golem </h1>
+				<p>Golems are magically created automatons of great power. They stand apart from other constructs in the nature of their animating force&mdash;golems are granted their magical life via an elemental spirit, typically that of an earth elemental. The process of creating a golem binds the spirit to the artificial body, merging it with this specially prepared vessel and subjecting it to the will of the golem's creator.</p>
+				<p>Being mindless, golems do nothing without orders from their creators. They follow instructions explicitly and are incapable of complex strategy or tactics. A golem's creator can command it if the golem is within 60 feet and can see and hear its creator. If uncommanded, a golem usually follows its last instruction to the best of its ability, though if attacked it returns the attack. The creator can give the golem a simple command to govern its actions in his absence, or can order the golem to obey the commands of another, but the golem's creator can always resume control by commanding the golem to obey him alone.</p>
+				<h2>Constructing a Golem</h2>
+				<p>The cost to create a golem includes the cost of the physical body and all the materials and spell components used in its creation. Each golem entry gives specific details on the materials required and the total cost for its creation.</p>
+				<p><i>Note</i>: The market price of a golem with more Hit Dice than the typical golem described in each entry is increased by 5,000 gp for each additional Hit Die it possesses beyond the standard for its kind, and increases by an additional 50,000 gp if the golem's size increases. Building a golem with the advanced simple template increases its cost by 15,000 gp.</p>
+				<h2>Shield Guardians</h2>
+				<p>A spellcaster with enough talent, resources, and inspiration can create a special variant of a golem known as a shield guardian. Any true golem can be created as a shield guardian, but the choice to do so must be made during the golem's construction&mdash;a completed golem cannot later be “upgraded” to function as a shield guardian. </p>
+				<p>Shield guardians are designed to serve as bodyguards. When created, a shield guardian is keyed to a magical amulet that is constructed at the same time as (and as part of the cost of) the guardian. Henceforth, it regards the wearer of that amulet as its master, protecting and following that individual everywhere (unless specifically commanded not to do so). If a shield guardian's amulet is destroyed, the guardian ceases to function until a new one is created. If the wearer dies but the amulet is intact, the shield guardian carries out the last command it was given.</p>
+				<p>A shield guardian obeys its master's verbal commands to the best of its ability, although it is not good for much beyond combat, protection, and simple manual labor. It can also be keyed to perform specific tasks at specific times or when certain conditions are met. The wearer of the amulet can call the shield guardian from any distance, and it will come as long as it is on the same plane.</p>
+				<p>Shield guardians have the same statistics as the base golem, but with the following additional special qualities. A shield guardian's CR is equal to the base golem's CR + 2.</p>
+				<p><b>Controlled (Ex)</b> A shield guardian that has the berserk special attack cannot go berserk as long as the wearer of its amulet is within 30 feet. </p>
+				<p><b>Fast Healing (Ex)</b> A shield guardian has fast healing 5.</p>
+				<p><b>Find Master (Su)</b> As long as a shield guardian and its amulet are on the same plane, the shield guardian can locate the amulet's wearer (or just the amulet, if it is removed after the guardian is called).</p>
+				<p><b>Guard (Ex)</b> If ordered to do so, a shield guardian moves to defend the wearer of its amulet. All attacks against the amulet wearer take a &ndash;2 penalty when the shield guardian is adjacent to its master.</p>
+				<p><b>Shield Other (Sp)</b> The wearer of a shield guardian's amulet can activate this defensive ability as a standard action if within 100 feet of the shield guardian. Just as the spell of the same name, this ability transfers to the shield guardian half the damage that would be dealt to the amulet wearer (note that this ability does not provide the spell's AC or save bonuses). Damage transferred in this manner bypasses any defensive abilities (such as immunity or damage reduction) the golem possesses.</p>
+				<p><b>Spell Storing (Sp)</b> A shield guardian can store one spell of 4th level or lower that is cast into it by another creature. It “casts” this spell when commanded to do so or when a predefined situation arises. Once this spell is used, the shield guardian can store another spell (or the same spell again).</p>
+				<p><b>Construction</b>: A shield guardian's base materials cost an additional 25,000 gp above the base golem's cost. The creature's master may assemble the body or hire someone else to do the job. The <a href="../skills/craft.html#_craft" >Craft</a> check required to make the body is 4 higher than normal for the base golem's kind. The keyed amulet is fashioned at the same time&mdash;it costs 20,000 gp above and beyond the shield guardian's total cost. After the body is sculpted, the shield guardian is animated through an extended magical ritual that requires a specially prepared laboratory or workroom, similar to an alchemist's laboratory and costing 500 gp to establish. If the creator is personally constructing the creature's body, the building and the ritual can be performed together. The creator must have a minimum caster level of 2 higher than the base golem's minimum required caster level. In addition, the following spells are added to the base golem's requirements: <i><a href="../spells/discernLocation.html#_discern-location" >discern location</a></i> and either <i><a href="../spells/shield.html#_shield" >shield</a></i> or <i><a href="../spells/shieldOther.html#_shield-other" >shield other</a></i>.</p>
+			
+				<h1 id="golem-clay" class="monster-header">Golem, Clay</h1>
+			
+				<p class="flavor-text"><i>This lumbering figure is sculpted from soft clay. It wears filthy rags and crude jewelry, and its face is only vaguely humanoid.</i></p>
+			
+				<p class="stat-block-title"><b>Clay Golem <span class=stat-block-cr>CR 10</span></b></p>
+				<p class="stat-block-xp"><b>XP 9,600</b></p>
+				<p class="stat-block-1">N Large <a href="creatureTypes.html#_construct" >construct</a></p>
+				<p class="stat-block-1"><b>Init</b> &ndash;1; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="../skills/perception.html#_perception" >Perception</a> +0</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 24, touch 8, flat-footed 24 (&ndash;1 Dex, +16 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 101 (13d10+30)</p>
+				<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +3, <b>Will</b> +4</p>
+				<p class="stat-block-1"><b>DR</b> 10/adamantine and bludgeoning; <b>Immune</b> <a href="universalMonsterRules.html#_construct-traits" >construct traits</a>, magic</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +19 (2d10+7 plus cursed wound)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> berserk, haste</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 24, <b>Dex</b> 9, <b>Con</b> &mdash;, <b>Int</b> &mdash;, <b>Wis</b> 11, <b>Cha</b> 1</p>
+				<p class="stat-block-1"><b>Base</b> <b>Atk</b> +13; <b>CMB</b> +21; <b>CMD </b>30</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment </b>any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or gang (2&ndash;4)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Berserk (Ex)</b> When a clay golem enters combat, there is a cumulative 1% chance each round that its elemental spirit breaks free and the golem goes berserk. This chance resets to 0% after one minute of inactivity. A berserk golem attacks the nearest living creature or smashes some object smaller than itself if no creature is within reach. Once it goes berserk, no known method can reestablish control.</p>
+				<p class="stat-block-1"><b>Cursed Wound (Ex) </b>The damage a clay golem deals doesn't heal naturally and resists magical healing. A character attempting to use magical healing on a creature damaged by a clay golem must succeed on a DC 26 caster level check, or the healing has no effect on the injured creature.</p>
+				<p class="stat-block-1"><b>Haste (Su)</b> After it has engaged in at least 1 round of combat, a clay golem can haste itself once per day as a free action. The effect lasts 3 rounds and is otherwise the same as the spell.</p>
+				<p class="stat-block-1"><b>Immunity to Magic (Ex)</b> A clay golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</p>
+				<p class="stat-block-2">• A <i><a href="../spells/moveEarth.html#_move-earth" >move earth</a> </i>spell drives the golem back 120 feet and deals 3d12 points of damage to it (no save).</p>
+				<p class="stat-block-2">• A <i><a href="../spells/disintegrate.html#_disintegrate" >disintegrate</a> </i>spell slows the golem (as the <i><a href="../spells/slow.html#_slow" >slow</a> </i>spell) for 1d6 rounds and deals 1d12 points of damage (no save).</p>
+				<p class="stat-block-2">• An <i><a href="../spells/earthquake.html#_earthquake" >earthquake</a> </i>spell cast directly at a clay golem stops it from moving on its next turn and deals 5d10 points of damage (no save).</p>
+				<p class="stat-block-2">• Any magical attack against a clay golem that deals acid damage heals 1 point of damage for every 3 points of damage it would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. A clay golem gets no saving throw against magical attacks that deal acid damage.</p>
+				<p>A clay golem wears no clothing except for a metal or stiff leather garment around its hips. It stands over 8 feet tall and weighs 600 pounds.</p>
+				<h2>Construction</h2>
+				<p>A clay golem's body must be sculpted from a single block of clay weighing at least 1,000 pounds, treated with rare oils and powders worth 1,500 gp.</p>
+				<p class="stat-block-title"><b>Clay Golem</b></p>
+				<p><b>CL</b> 11th; <b>Price</b> 41,500 gp</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p><b>Requirements</b> <a href="monsterFeats.html#_craft-construct" >Craft Construct</a>, <i><a href="../spells/animateObjects.html#_animate-objects" >animate objects</a>, <a href="../spells/bless.html#_bless" >bless</a>, <a href="../spells/commune.html#_commune" >commune</a>, <a href="../spells/prayer.html#_prayer" >prayer</a>, <a href="../spells/resurrection.html#_resurrection" >resurrection</a></i>, creator must be caster level 11th; <b>Skill</b> <a href="../skills/craft.html#_craft" >Craft</a> (sculptures) or <a href="../skills/craft.html#_craft" >Craft</a> (pottery) DC 16; <b>Cost</b> 21,500 gp</p>
+			
+				<h1 id="golem-flesh" class="monster-header">Golem, Flesh</h1>
+			
+				<p class="flavor-text"><i>A hideous monstrosity crafted from body parts stitched together with thick string, wire, and metal staples lurches to horrific life.</i></p>
+			
+				<p class="stat-block-title"><b>Flesh Golem <span class=stat-block-cr>CR 7</span></b></p>
+				<p class="stat-block-xp"><b>XP 3,200</b></p>
+				<p class="stat-block-1">N Large <a href="creatureTypes.html#_construct" >construct</a></p>
+				<p class="stat-block-1"><b>Init</b> &ndash;1; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="../skills/perception.html#_perception" >Perception</a> +0</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 20, touch 8, flat-footed 20; (&ndash;1 Dex, +12 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 79 (9d10+30)</p>
+				<p class="stat-block-1"><b>Fort</b> +3, <b>Ref</b> +2, <b>Will</b> +3</p>
+				<p class="stat-block-1"><b>DR</b> 5/adamantine; <b>Immune</b> <a href="universalMonsterRules.html#_construct-traits" >construct traits</a>, magic</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +13 (2d8+5)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> berserk</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 9, <b>Con</b> &mdash;, <b>Int</b> &mdash;, <b>Wis</b> 11, <b>Cha</b> 1</p>
+				<p class="stat-block-1"><b>Base</b> <b>Atk</b> +9; <b>CMB</b> +15; <b>CMD </b>24</p>
+				<p class="stat-block-1"><b>Languages</b> none</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment </b>any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or gang (2&ndash;4)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Berserk (Ex)</b> When a flesh golem enters combat, there is a cumulative 1% chance each round that its elemental spirit breaks free and the golem goes berserk. The uncontrolled golem goes on a rampage, attacking the nearest living creature or smashing some object smaller than itself if no creature is within reach, then moving on to spread more destruction. The golem's creator, if within 60 feet, can try to regain control by speaking firmly and persuasively to the golem, which requires a DC 19 Charisma check. It takes 1 minute of inactivity by the golem to reset the golem's berserk chance to 0%.</p>
+				<p class="stat-block-1"><b>Immunity to Magic (Ex)</b> A flesh golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</p>
+				<p class="stat-block-2">• A magical attack that deals cold or fire damage slows a flesh golem (as the <i><a href="../spells/slow.html#_slow" >slow</a> </i>spell) for 2d6 rounds (no save).</p>
+				<p class="stat-block-2">• A magical attack that deals electricity damage breaks any <i><a href="../spells/slow.html#_slow" >slow</a> </i>effect on the golem and heals 1 point of damage for every 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. A flesh golem gets no saving throw against attacks that deal electricity damage.</p>
+				<p>A flesh golem is a ghoulish collection of stolen humanoid body parts, stitched together into a single composite form. Its cadaverous flesh has a sickly green or yellowish tint. A flesh golem wears whatever clothing its creator desires, usually just a ragged pair of trousers. It has no possessions and no weapons. A flesh golem stands 8 feet tall and weighs 500 pounds.</p>
+				<p>A flesh golem cannot speak, although it can emit a hoarse roar of sorts. It walks and moves with a stiff-jointed gait, as if not in complete control of its body.</p>
+				<p>Although most flesh golems are mindless, there are persistent rumors of unusual golems who somehow retain the memories of a previous life. The head (and thus brain) of such flesh golems must be just the right combination of fresh and (in its previous life) strong-willed, and even then luck and chance during the golem's creation seem just as important in retaining the creature's mind. Certainly most who construct flesh golems prefer mindless slaves over free-willed creations, and as a result intelligent flesh golems are rare indeed.</p>
+				<h2>Construction</h2>
+				<p>The pieces of a flesh golem must come from normal humanoid corpses that have not decayed significantly. Assembly requires a minimum of six different bodies&mdash;one for each limb, the torso (including head), and the brain. In some cases, more bodies may be necessary. Special unguents and bindings worth 500 gp are also required. Note that creating a flesh golem requires casting a spell with the evil descriptor.</p>
+				<p class="stat-block-title"><b>Flesh Golem</b></p>
+				<p class="stat-block-1"><b>CL</b> 8th; <b>Price</b> 20,500 gp</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="monsterFeats.html#_craft-construct" >Craft Construct</a>, <i><a href="../spells/animateDead.html#_animate-dead" >animate dead</a>, <a href="../spells/bullSStrength.html#_bull-s-strength" >bull's strength</a>, <a href="../spells/geasQuest.html#_geas-quest" >geas/quest</a>, <a href="../spells/limitedWish.html#_limited-wish" >limited wish</a></i>, creator must be caster level 8th; <b>Skill</b> <a href="../skills/craft.html#_craft" >Craft</a> (leather) or <a href="../skills/heal.html#_heal" >Heal</a> DC 13; <b>Cost</b> 10,500 gp</p>
+			
+				<h1 id="golem-ice" class="monster-header">Golem, Ice</h1>
+			
+				<p class="flavor-text"><i>This icy <a href="../spells/statue.html#_statue" >statue</a> stands a head taller than a normal human. A rime of frost coats it, and razor-sharp shards of ice adorn its limbs.</i></p>
+			
+				<p class="stat-block-title"><b>Ice Golem <span class=stat-block-cr>CR 5</span></b></p>
+				<p class="stat-block-xp"><b>XP 1,600</b></p>
+				<p class="stat-block-1">N Medium <a href="creatureTypes.html#_construct" >construct</a> (<a href="creatureTypes.html#_cold-subtype" >cold</a>)</p>
+				<p class="stat-block-1"><b>Init</b> &ndash;1; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="../skills/perception.html#_perception" >Perception</a> +0</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 17, touch 9, flat-footed 17 (&ndash;1 Dex, +8 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 53 (6d10+20)</p>
+				<p class="stat-block-1"><b>Fort</b> +2, <b>Ref</b> +1, <b>Will</b> +2</p>
+				<p class="stat-block-1"><b>DR</b> 5/adamantine; <b>Immune</b> <a href="universalMonsterRules.html#_construct-traits" >construct traits</a>, cold, magic</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerability to fire</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +9 (1d6+3 plus 1d6 cold)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="universalMonsterRules.html#_breath-weapon" >breath weapon</a> (20-ft. cone, 3d6 cold damage, Reflex DC 13 half, usable once every 1d4 rounds), cold (1d6), icy destruction</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 9, <b>Con</b> &mdash;, <b>Int</b> &mdash;, <b>Wis</b> 11, <b>Cha</b> 1</p>
+				<p class="stat-block-1"><b>Base</b> <b>Atk</b> +6; <b>CMB</b> +9; <b>CMD </b>18</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment </b>any cold</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or gang (2&ndash;4)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Cold (Ex)</b> An ice golem's body generates intense cold, dealing 1d6 points of damage with its touch. Creatures attacking an ice golem with unarmed strikes or natural weapons take this same cold damage each time one of their attacks hits.</p>
+				<p class="stat-block-1"><b>Icy Destruction (Ex)</b> When reduced to 0 hit points, an ice golem shatters in an explosion of jagged shards of ice. All creatures within a 10-foot burst take 3d6 points of slashing damage and 2d6 points of cold damage; a DC 13 Reflex save halves the damage. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Immunity to Magic (Ex)</b> An ice golem is immune to any spell or spell-like ability that allows spell resistance, with the exception of spells and spell-like abilities that have the Fire descriptor, which affect it normally. In addition, certain spells and effects function differently against the creature, as noted below.</p>
+				<p class="stat-block-2">• A magical attack that deals electricity damage slows an ice golem (as the <i><a href="../spells/slow.html#_slow" >slow</a> </i>spell) for 2d6 rounds, with no saving throw.</p>
+				<p class="stat-block-2">• A magical attack that deals cold damage breaks any <i><a href="../spells/slow.html#_slow" >slow</a> </i>effect on the golem and heals 1 point of damage for every 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. An ice golem gets no saving throw against cold effects.</p>
+				<p>Ice golems are humanoid automatons formed of carved ice. Their appearance can range from roughly chiseled figures of ice and snow to elaborately detailed ice sculptures and beautiful crystalline statues.</p>
+				<p>Ice golems cannot speak, and move with the sound of cracking and popping ice. An ice golem stands 7 feet tall and weighs 500 pounds.</p>
+				<h2>Construction</h2>
+				<p>An ice golem's body must be constructed from a single block of ice weighing at least 1,000 pounds. The ice is treated with magical powders and unguents worth at least 500 gp.</p>
+				<p class="stat-block-title"><b>Ice Golem</b></p>
+				<p><b>CL</b> 12th; <b>Price</b> 18,500 gp</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="monsterFeats.html#_craft-construct" >Craft Construct</a>, <i><a href="../spells/chillTouch.html#_chill-touch" >chill touch</a>, <a href="../spells/coneOfCold.html#_cone-of-cold" >cone of cold</a>, <a href="../spells/geasQuest.html#_geas-quest" >geas/quest</a>, <a href="../spells/iceStorm.html#_ice-storm" >ice storm</a>, <a href="../spells/resistEnergy.html#_resist-energy" >resist energy</a> (cold)</i>, creator must be caster level 12th; <b>Skill</b> <a href="../skills/craft.html#_craft" >Craft</a> (sculptures) DC 17; <b>Cost</b> 9,500 gp</p>
+			
+				<h1 id="golem-iron" class="monster-header">Golem, Iron</h1>
+			
+				<p class="flavor-text"><i>This iron automaton stands twice as tall as a normal human. Its heavy footfalls shake the ground with bone-jarring force.</i></p>
+			
+				<p class="stat-block-title"><b>Iron Golem <span class=stat-block-cr>CR 13</span></b></p>
+				<p class="stat-block-xp"><b>XP 25,600</b></p>
+				<p class="stat-block-1">N Large <a href="creatureTypes.html#_construct" >construct</a></p>
+				<p class="stat-block-1"><b>Init</b> &ndash;1; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="../skills/perception.html#_perception" >Perception</a> +0</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 28, touch 8, flat-footed 28 (&ndash;1 Dex, +20 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 129 (18d10+30)</p>
+				<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +5, <b>Will</b> +6</p>
+				<p class="stat-block-1"><b>DR</b> 15/adamantine; <b>Immune</b> <a href="universalMonsterRules.html#_construct-traits" >construct traits</a>, magic</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +28 (2d10+16/19&ndash;20)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="universalMonsterRules.html#_breath-weapon" >breath weapon</a>, powerful blows</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 32, <b>Dex</b> 9, <b>Con</b> &mdash;, <b>Int </b>&mdash;, <b>Wis</b> 11, <b>Cha</b> 1</p>
+				<p class="stat-block-1"><b>Base</b> <b>Atk</b> +18; <b>CMB</b> +30; <b>CMD </b>39</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment </b>any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or gang (2&ndash;4)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Breath Weapon (Su) </b>As a free action once every 1d4+1 rounds, an iron golem can exhale a 10-foot cube of poisonous gas. This gas cloud persists for 1 round; any creature within the area when the golem creates it (as well as any creature that passes through the cloud during the remainder of that round) is exposed to the cloud's poisonous effects. This poison is magically created each time the golem uses this power.<i>Breath weapon</i>&mdash;inhaled; <i>save</i> Fort 19; <i>frequency</i> 1/round for 4 rounds; <i>effect</i> 1d4 Constitution damage; <i>cure</i> 2 saves. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Immunity to Magic (Ex)</b> An iron golem is immune to spells or spell-like abilities that allow spell resistance. Certain spells and effects function differently against it, as noted below.</p>
+				<p class="stat-block-2">A magical attack that deals electricity damage slows an iron golem (as the <i><a href="../spells/slow.html#_slow" >slow</a> </i>spell) for 3 rounds, with no saving throw.</p>
+				<p class="stat-block-2"> A magical attack that deals fire damage breaks any <i><a href="../spells/slow.html#_slow" >slow</a> </i>effect on the golem and heals 1 point of damage for each 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. An iron golem gets no saving throw against fire effects.</p>
+				<p class="stat-block-2"> An iron golem is affected normally by rust attacks, such as those of a rust monster or a <i><a href="../spells/rustingGrasp.html#_rusting-grasp" >rusting grasp</a> </i>spell.</p>
+				<p class="stat-block-1"><b>Powerful Blows (Ex)</b> An iron golem inflicts one and a half times its Strength modifier and threatens a critical hit on a 19&ndash;20 with its slam attacks.</p>
+				<p>An iron golem has a humanoid body made from iron. It can be sculpted into any shape its creator desires, but it almost always displays armor of some sort, from simple and utilitarian to ceremonial and ornate. Its features are much smoother than those of a stone golem. Iron golems sometimes carry a weapon in one hand, though they rarely use these, relying instead on their slam attacks. </p>
+				<p>An iron golem is 12 feet tall and weighs about 5,000 pounds. An iron golem cannot speak or make any vocal noise, nor does it have any distinguishable odor.</p>
+				<p>Although the practice has fallen out of favor in modern times, the ancients of certain powerful civilizations once took great pride in crafting iron golems of tremendous size and strength. These golems, which are never smaller than Huge, still exist in remote parts of the world, mindlessly following the orders of a long-dead empire.</p>
+				<h2>Construction</h2>
+				<p>An iron golem's body is sculpted from 5,000 pounds of iron, smelted with rare tinctures costing at least 10,000 gp. </p>
+				<p class="stat-block-title"><b>Iron Golem</b></p>
+				<p><b>CL</b> 16th; <b>Price</b> 150,000 gp</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="monsterFeats.html#_craft-construct" >Craft Construct</a>, <i><a href="../spells/cloudkill.html#_cloudkill" >cloudkill</a>, <a href="../spells/geasQuest.html#_geas-quest" >geas/quest</a>, <a href="../spells/limitedWish.html#_limited-wish" >limited wish</a></i>, <i><a href="../spells/polymorphAnyObject.html#_polymorph-any-object" >polymorph any object</a></i>, creator must be caster level 16th; <b>Skill</b> <a href="../skills/craft.html#_craft" >Craft</a> (armor) or <a href="../skills/craft.html#_craft" >Craft</a> (weapons) DC 21; <b>Cost</b> 80,000 gp</p>
+			
+				<h1 id="golem-stone" class="monster-header">Golem, Stone</h1>
+			
+				<p class="flavor-text"><i>This towering stone automaton bears the likeness of an archaic, armored warrior. It moves with ponderous but inexorable steps.</i></p>
+			
+				<p class="stat-block-title"><b>Stone Golem <span class=stat-block-cr>CR 11</span></b></p>
+				<p class="stat-block-xp"><b>XP 12,800</b></p>
+				<p class="stat-block-1">N Large <a href="creatureTypes.html#_construct" >construct</a></p>
+				<p class="stat-block-1"><b>Init</b> &ndash;1; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="../skills/perception.html#_perception" >Perception</a> +0</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 26, touch 8, flat-footed 26 (&ndash;1 Dex, +18 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 107 (14d10+30)</p>
+				<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +3, <b>Will</b> +4</p>
+				<p class="stat-block-1"><b>DR</b> 10/adamantine; <b>Immune</b> <a href="universalMonsterRules.html#_construct-traits" >construct traits</a>, magic</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +22 (2d10+9)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> slow</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 28, <b>Dex</b> 9, <b>Con</b> &mdash;, <b>Int</b> &mdash;, <b>Wis</b> 11, <b>Cha</b> 1</p>
+				<p class="stat-block-1"><b>Base</b> <b>Atk</b> +14; <b>CMB</b> +24; <b>CMD </b>33</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment </b>any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or gang (2&ndash;4)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Immunity to Magic (Ex)</b> A stone golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</p>
+				<p class="stat-block-2">A <i><a href="../spells/transmuteRockToMud.html#_transmute-rock-to-mud" >transmute rock to mud</a> </i>spell slows a stone golem (as the <i><a href="../spells/slow.html#_slow" >slow</a> </i>spell) for 2d6 rounds, with no saving throw, while <i><a href="../spells/transmuteMudToRock.html#_transmute-mud-to-rock" >transmute mud to rock</a> </i>heals all of its lost hit points.</p>
+				<p class="stat-block-2"> A <i><a href="../spells/stoneToFlesh.html#_stone-to-flesh" >stone to flesh</a> </i>spell does not actually change the golem's structure but negates its damage reduction and immunity to magic for 1 full round.</p>
+				<p class="stat-block-1"><b>Slow (Su) </b>A stone golem can use a slow effect, as the spell, as a free action once every 2 rounds. The effect has a range of 10 feet in a burst centered on the golem and a duration of 7 rounds, requiring a DC 17 Will save to negate. The save DC is Constitution-based.</p>
+				<p>A stone golem has a humanoid body made from stone, frequently stylized to suit its creator. For example, it might look like it is wearing armor, with a particular symbol carved on the breastplate, or have designs worked into the stone of its limbs. Its head is often carved to resemble a helmet or the head of some beast. While it may be sculpted to carry a stone shield or stone weapon such as a sword, these aesthetic choices do not affect its combat abilities.</p>
+				<p>Like most golems, a stone golem cannot speak and makes no sound other than the grinding of stone against stone when it moves. A stone golem is 9 feet tall and weighs around 2,000 pounds.</p>
+				<h2>Construction</h2>
+				<p>A stone golem's body is chiseled from a single block of hard stone, such as granite, weighing at least 3,000 pounds. The stone must be of exceptional quality, and costs 5,000 gp.</p>
+				<p class="stat-block-title"><b>Stone Golem</b></p>
+				<p><b>CL</b> 14th; <b>Price</b> 105,000 gp</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="monsterFeats.html#_craft-construct" >Craft Construct</a>, <i><a href="../spells/antimagicField.html#_antimagic-field" >antimagic field</a>, <a href="../spells/geasQuest.html#_geas-quest" >geas/quest</a>, <a href="../spells/limitedWish.html#_limited-wish" >limited wish</a>, <a href="../spells/symbolOfStunning.html#_symbol-of-stunning" >symbol of stunning</a></i>, creator must be caster level 14th; <b>Skill</b> <a href="../skills/craft.html#_craft" >Craft</a> (sculpture) or <a href="../skills/craft.html#_craft" >Craft</a> (stonemasonry) DC 19; <b>Cost</b> 55,000 gp</p>
+			
+				<h1 id="golem-wood" class="monster-header">Golem, Wood</h1>
+			
+				<p class="flavor-text"><i>This human-sized automaton resembles a crude humanoid figure made of cast-off pieces of wood.</i></p>
+			
+				<p class="stat-block-title"><b>Wood Golem <span class=stat-block-cr>CR 6</span></b></p>
+				<p class="stat-block-xp"><b>XP 2,400</b></p>
+				<p class="stat-block-1">N Medium <a href="creatureTypes.html#_construct" >construct</a></p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="../skills/perception.html#_perception" >Perception</a> +0</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 19, touch 13, flat-footed 16 (+3 Dex, +6 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 64 (8d10+20)</p>
+				<p class="stat-block-1"><b>Fort</b> +2, <b>Ref</b> +5, <b>Will</b> +5</p>
+				<p class="stat-block-1"><b>DR</b> 5/adamantine; <b>Immune</b> <a href="universalMonsterRules.html#_construct-traits" >construct traits</a>, magic</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to fire</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +12 (2d6+4)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> splintering</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 17, <b>Con</b> &mdash;, <b>Int</b> &mdash;, <b>Wis</b> 17, <b>Cha</b> 1</p>
+				<p class="stat-block-1"><b>Base</b> <b>Atk</b> +8; <b>CMB</b> +12; <b>CMD </b>25</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment </b>any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or gang (2&ndash;4)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Immunity to Magic (Ex)</b> A wood golem is immune to any spell or spell-like ability that allows spell resistance, with the exception of spells and spell-like abilities that have the Fire descriptor, which affect it normally. In addition, certain spells and effects function differently against the creature, as noted below.</p>
+				<p class="stat-block-2"><i>Warp wood</i> or <i><a href="../spells/woodShape.html#_wood-shape" >wood shape</a></i> slows a wood golem (as the <i><a href="../spells/slow.html#_slow" >slow</a> </i>spell) for 2d6 rounds (no save).</p>
+				<p class="stat-block-2"> <i>Repel wood </i>drives the golem back 60 feet and deals 2d12 points of damage to it (no save).</p>
+				<p class="stat-block-2"> A magical attack that deals cold damage breaks any <i><a href="../spells/slow.html#_slow" >slow</a> </i>effect on the golem and heals 1 point of damage for every 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. A wood golem gets no saving throw against attacks that deal cold damage.</p>
+				<p class="stat-block-1"><b>Splintering (Su)</b> As a free action once every 1d4+1 rounds, a wood golem can launch a barrage of razor-sharp wooden splinters from its body in a 20-foot-radius burst. All creatures caught within this area take 6d6 points of slashing damage (Reflex DC 14 halves). The save DC is Constitution-based.</p>
+				<p>A wood golem is carved from rare woods, assembled into a roughly humanoid body with articulated limbs. Their creators usually leave their bodies almost unfinished, with individual pieces of lumber and unworked wood apparent and obvious as part of their construction. A wood golem stands 6-1/2 feet tall and weighs 400 pounds.</p>
+				<h2>Construction</h2>
+				<p>The pieces of a wood golem are assembled from blocks of fine wood and sprinkled with rare powders and crushed herbs worth at least 300 gp.</p>
+				<p class="stat-block-title"><b>Wood Golem</b></p>
+				<p><b>CL</b> 7th; <b>Price</b> 19,300 gp</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="monsterFeats.html#_craft-construct" >Craft Construct</a>, <i><a href="../spells/alarm.html#_alarm" >alarm</a>, <a href="../spells/animateObjects.html#_animate-objects" >animate objects</a>, <a href="../spells/catSGrace.html#_cat-s-grace" >cat's grace</a>, <a href="../spells/geasQuest.html#_geas-quest" >geas/quest</a>, <a href="../spells/limitedWish.html#_limited-wish" >limited wish</a></i>, creator must be caster level 12th; <b>Skill</b> <a href="../skills/craft.html#_craft" >Craft</a> (carpentry) DC 17; <b>Cost</b> 8,800 gp</p>
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>City Watch</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="City Watch",globalNavPath=[{ href: '/pathfinderRPG/prd/mastery/nPCGallery.html', name: 'NPC Gallery' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<div><h1 id="city-watch">City Watch</h1>
+				<p>Whether a lone constable minding a sleepy burg or officers of a highly trained force in a vast metropolis, members of the city watch patrol their beats, staving off the criminal elements and keeping innocents safe from harm. The best-organized city watches employ members with a variety of skills, from expert combatants to spell-casters, and often organize them in ranks similar to military orders. Yet as often as guards serve as welcome allies, crooked watchmen abound, and even the best only serve those who prove they're on the right side of the law. </p>
+			
+				<p id="guard" class="stat-block-title"><b>Guard CR 1</b></p>
+				<p id="xp-400" class="stat-block-xp"><b>XP 400</b></p>
+				<p class="stat-block-1">Human warrior 3</p>
+				<p class="stat-block-1">LN Medium humanoid </p>
+				<p class="stat-block-1"><b>Init</b> +0; <b>Senses </b><a href="../../skills/perception.html#_perception" >Perception</a> +3</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 18, touch 10, flat-footed 18 (+8 armor)</p>
+				<p class="stat-block-1"><b>hp</b> 19 (3d10+3)</p>
+				<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +1, <b>Will</b> +1</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> halberd +5 (1d10+3/&times;3) or heavy flail +5 (1d10+3/19&ndash;20) or sap +5 (1d6+2 nonlethal) </p>
+				<p class="stat-block-1"><b>Ranged</b> heavy crossbow +3 (1d10/19&ndash;20) </p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 11, <b>Con</b> 13, <b>Int</b> 9, <b>Wis</b> 10, <b>Cha</b> 8</p>
+				<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +5 (+7 sunder); <b>CMD</b> 15 (17 vs. sunder)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../../feats.html#_alertness" >Alertness</a>, <a href="../../feats.html#_improved-sunder" >Improved Sunder</a>, <a href="../../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> +5, <a href="../../skills/perception.html#_perception" >Perception</a> +3, <a href="../../skills/ride.html#_ride" >Ride</a> &ndash;3, <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +2</p>
+				<p class="stat-block-1"><b>Languages</b> Common</p>
+				<p class="stat-block-1"><b>Combat Gear</b> <i>potions of <a href="../../spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a> </i>(2); <b>Other Gear</b> half-plate, heavy crossbow with 10 bolts, halberd, heavy flail, sap, 5 gp</p>
+				<p class="stat-block-1"><b>Boon</b> A guard can give accurate directions to any non-secret location in the city and can allow a PC to enter or leave through a gate after hours or without paying a gate tax.</p>
+				<p>Guards of the city watch are vigilant soldiers, dedicated to keeping the peace and maintaining order. They defend the city walls and gates against external threats, but they also stand ready to break up fights and brawls, disarming or sundering weapons drawn in anger, forcing unruly citizens apart, and tending the wounded. </p>
+				<p>Different types of guards may be created with lighter armor (breastplates and heavy shields) and one-handed weapons (battle axes or longswords). Replacing guards' halberds with glaives, guisarmes, or ranseurs gives them a reach attack. Outfitting guards with pikes makes a group of pikemen, while giving them tower shields and short swords creates crossbowmen for a siege. Temple guards can replace <a href="../../feats.html#_improved-sunder" >Improved Sunder</a> with <a href="../../feats.html#_exotic-weapon-proficiency" >Exotic Weapon Proficiency</a> (two-bladed sword). Prison guards might replace <a href="../../feats.html#_improved-sunder" >Improved Sunder</a> with <a href="../../feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a> and <a href="../../feats.html#_power-attack" >Power Attack</a> with <a href="../../feats.html#_exotic-weapon-proficiency" >Exotic Weapon Proficiency</a> (whip). Four guards and a turnkey (CR 6) or a torturer (CR 7) can provide security for a small prison or dungeon.</p>
+				<p>Guards may be encountered alone, in pairs (CR 3), in groups of four (CR 5), or as a patrol of six accompanied by a guard officer (CR 7), depending on how dangerous their city or neighborhood is. </p>
+			
+				<p id="guard-officer" class="stat-block-title"><b>Guard Officer CR 3</b></p>
+				<p id="xp-800" class="stat-block-xp"><b>XP 800</b></p>
+				<p class="stat-block-1">Human fighter 4 </p>
+				<p class="stat-block-1">LN Medium humanoid </p>
+				<p class="stat-block-1"><b>Init</b> +1; <b>Senses </b><a href="../../skills/perception.html#_perception" >Perception</a> +3</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 20, touch 11, flat-footed 19 (+9 armor, +1 Dex)</p>
+				<p class="stat-block-1"><b>hp</b> 34 (4d10+12)</p>
+				<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +2, <b>Will</b> +1; +1 vs. fear</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> bravery +1</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> mwk guisarme +9 (2d4+5/&times;3) or sap +7 (1d6+3 nonlethal) </p>
+				<p class="stat-block-1"><b>Ranged</b> net +5 ranged touch (entangle) or javelin +5 (1d6+2) </p>
+				<p id="space-" class="stat-block-1"><b>Space </b>5 ft.; <b>Reach </b>5 ft. (10 ft. with guisarme)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 13, <b>Con</b> 14, <b>Int</b> 10, <b>Wis</b> 10, <b>Cha</b> 12</p>
+				<p class="stat-block-1"><b>Base Atk</b> +4; <b>CMB</b> +7; <b>CMD</b> 18</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../../feats.html#_dazzling-display" >Dazzling Display</a>, <a href="../../feats.html#_exotic-weapon-proficiency" >Exotic Weapon Proficiency</a> (net), <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/intimidate.html#_intimidate" >Intimidate</a>), <a href="../../feats.html#_weapon-focus" >Weapon Focus</a> (guisarme), <a href="../../feats.html#_weapon-specialization" >Weapon Specialization</a> (guisarme)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> +11, <a href="../../skills/perception.html#_perception" >Perception</a> +3, <a href="../../skills/ride.html#_ride" >Ride</a> +2, <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +2</p>
+				<p class="stat-block-1"><b>Languages</b> Common</p>
+				<p id="sq" class="stat-block-1"><b>SQ</b> armor training 1 </p>
+				<p class="stat-block-1"><b>Combat Gear</b> <i>potion of <a href="../../spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>; <b>Other Gear</b> full plate, masterwork guisarme, javelin, nets (2), sap</p>
+				<p class="stat-block-1"><b>Boon</b> A guard officer can alert the PCs to local customs, traditions, tricks, and suspicious activity, granting a +2 bonus for 24 hours on opposed <a href="../../skills/perception.html#_perception" >Perception</a> and <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks within the city. She can also arrange a meeting with a watch captain for the PCs.</p>
+				<p>Guard officers supervise guards in their duties and respond to major disturbances, using their grim demeanors and skill at arms to quell conflict. They coordinate well in battle with the guards under their command, rounding up troublemakers and preventing their escape. </p>
+				<p>Guard officers can also be used as highly skilled gladiators or flamboyant bounty hunters. They might even be found as royal guardsmen in a king's throne room. In an evil society, guard officers may wear spiked armor and be outfitted with scythes or spiked chains instead of guisarmes and poisoned hand crossbows instead of nets.</p>
+				<p>Guard officers usually patrol with four guards (CR 6), or three guard officers may serve as adjutants to a watch captain (CR 8). Two guard officers can escort a battle mage (CR 7) to respond to magical threats. Four guard officers and a champion (CR 10) form an elite arena fighting team, while two guard officers and two slavers (CR 7) might guard a valuable shipment of slaves.</p>
+			
+				<p id="watch-captain" class="stat-block-title"><b>Watch Captain CR 6 </b></p>
+				<p id="xp-2,400"><b>XP 2,400</b></p>
+				<p class="stat-block-1">Human fighter 7 </p>
+				<p class="stat-block-1">LN Medium humanoid </p>
+				<p class="stat-block-1"><b>Init</b> +1; <b>Senses </b><a href="../../skills/perception.html#_perception" >Perception</a> +6</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 20, touch 11, flat-footed 19 (+9 armor, +1 Dex)</p>
+				<p class="stat-block-1"><b>hp</b> 57 (7d10+19)</p>
+				<p class="stat-block-1"><b>Fort</b> +8, <b>Ref</b> +4, <b>Will</b> +4; +2 vs. fear</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> bravery +2</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+1 halberd</i> +14/+9 (1d10+10/&times;3) or sap +11/+6 (1d6+4 nonlethal) </p>
+				<p class="stat-block-1"><b>Ranged</b> composite longbow +8/+3 (1d8+4/&times;3) </p>
+				<p class="stat-block-1"><b>Special Attacks</b> weapon training (pole arms +1)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p id="str-" class="stat-block-1"><b>Str </b>18, <b>Dex</b> 12, <b>Con</b> 14, <b>Int</b> 13, <b>Wis</b> 8, <b>Cha</b> 10</p>
+				<p class="stat-block-1"><b>Base Atk</b> +7; <b>CMB</b> +11 (+15 trip); <b>CMD</b> 22 (24 vs. trip)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../../feats.html#_alertness" >Alertness</a>, <a href="../../feats.html#_combat-expertise" >Combat Expertise</a>, <a href="../../feats.html#_dazzling-display" >Dazzling Display</a>, <a href="../../feats.html#_greater-trip" >Greater Trip</a>, <a href="../../feats.html#_improved-trip" >Improved Trip</a>, <a href="../../feats.html#_iron-will" >Iron Will</a>, <a href="../../feats.html#_persuasive" >Persuasive</a>, <a href="../../feats.html#_weapon-focus" >Weapon Focus</a> (halberd), <a href="../../feats.html#_weapon-specialization" >Weapon Specialization</a> (halberd)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +5, <a href="../../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +4, <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> +12, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (engineering) +5, <a href="../../skills/perception.html#_perception" >Perception</a> +6, <a href="../../skills/profession.html#_profession" >Profession</a> (soldier) +5, <a href="../../skills/ride.html#_ride" >Ride</a> +2, <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +8</p>
+				<p class="stat-block-1"><b>Languages</b> Common, Halfling</p>
+				<p id="sq" class="stat-block-1"><b>SQ</b> armor training 2</p>
+				<p class="stat-block-1"><b>Combat Gear</b> <i>potions of <a href="../../spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (2), tanglefoot bags (2); <b>Other Gear</b> masterwork full plate, <i>+1 halberd</i>, composite longbow (+4 Str) with 20 arrows, sap,<i> <a href="../../magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, 35 gp</p>
+				<p class="stat-block-1"><b>Boon</b> A watch captain may detain an NPC of up to 9th level for 24 hours and allow a single PC access for questioning, or he could assign one patrol of guards to assist the PCs inside the city for up to 1 hour.</p>
+				<p>Watch captains are stern and canny veterans, experienced soldiers who have seen it all on the battlefield and lived to tell the tale. Quick of mind and naturally suspicious, they are thorough and professional in leading investigations yet also tactful when dealing with highborn and lowborn alike. </p>
+				<p>Watch captains might also be used as high-ranking officers or low-ranking generals in an army, while a single watch captain can serve as the castellan of a fortress. Replacing the halberd and <a href="../../feats.html#_improved-trip" >Improved Trip</a> feat with a ranseur and <a href="../../feats.html#_improved-disarm" >Improved Disarm</a> creates a watch captain who disarms opponents instead of tripping them.</p>
+				<p>Watch captains may be encountered leading an investigative team of a guard officer and a battle mage (CR 8) or leading larger patrols in force (CR 8 for one patrol of an officer and four guards; +1 CR per additional patrol). A watch captain might also be encountered as the non-noble companion of a holy warrior or knight (CR 8).</p>
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

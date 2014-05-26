@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Titan</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Titan",globalNavPath=[{ href: '/pathfinderRPG/prd/bestiary3/monsterIndex.html', name: 'Bestiary 3 Index'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+			
+			<div>
+				<h1 id="titan,-hekatonkheires" class="monster-header">Titan, Hekatonkheires</h1>
+				<p class="flavor-text">This behemoth looks like a towering humanoid with fifty heads and twice as many hands, each wielding a different weapon.</p>
+				<p class="stat-block-title">Hekatonkheires <span class="stat-block-cr">CR 24</span></p>
+				<p class="stat-block-xp">XP 1,228,800</p>
+				<p class="stat-block-1">CE Colossal outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_all-around-vision" >all-around vision</a>, darkvision 120 ft., <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +35</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 42, touch 4, flat-footed 40 (+8 armor, +2 Dex, +30 natural, &ndash;8 size)</p>
+				<p class="stat-block-1"><b>hp</b> 516 (24d10+384); regeneration 10 (epic)</p>
+				<p class="stat-block-1"><b>Fort</b> +30, <b>Ref</b> +12, <b>Will</b> +18</p>
+				<p class="stat-block-1"><b>DR</b> 20/epic and <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >lawful</a>; <b>Immune</b> aging, death effects, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)" >disease</a>, mind-affecting effects; <b>SR</b> 35</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 60 ft.; <i><a href="/pathfinderRPG/prd/spells/airWalk.html#_air-walk" >air walk</a></i></p>
+				<p class="stat-block-1"><b>Melee</b> <i>+3 weapon</i> +38/+33/+28/+23 (6d6+22 plus hundred-handed whirlwind) or slam +37 (4d8+21 plus stun)</p>
+				<p class="stat-block-1"><b>Ranged</b> rock +19/+14/+9/+4 (4d8+31/18&ndash;20)</p>
+				<p class="stat-block-1"><b>Space</b> 30 ft.; <b>Reach</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> rock throwing (200 ft.), stunning slam</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 20th; concentration +27)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/airWalk.html#_air-walk" >air walk</a>, <a href="/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning" >spell turning</a></i>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i> (DC 21), <i><a href="/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment" >break enchantment</a></i>, <i><a href="/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning" >chain lightning</a></i> (DC 23), <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/findThePath.html#_find-the-path" >find the path</a></i>, <i><a href="/pathfinderRPG/prd/spells/sending.html#_sending" >sending</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/spells/scrying.html#_scrying-greater" >greater scrying</a></i> (DC 24), <i><a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a></i>, <i><a href="/pathfinderRPG/prd/spells/suggestion.html#_suggestion-mass" >mass suggestion</a></i> (DC 23)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/dominateMonster.html#_dominate-monster" >dominate monster</a></i> (DC 26), <i><a href="/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity-greater" >greater spell immunity</a></i>, <i><a href="/pathfinderRPG/prd/spells/imprisonment.html#_imprisonment" >imprisonment</a></i> (DC 26), <i><a href="/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance" >storm of vengeance</a></i> (DC 26)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 48, <b>Dex</b> 15, <b>Con</b> 43, <b>Int</b> 22, <b>Wis</b> 19, <b>Cha</b> 24</p>
+				<p class="stat-block-1"><b>Base Atk</b> +24; <b>CMB</b> +51; <b>CMD</b> 71</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a>, <a href="/pathfinderRPG/prd/feats.html#_cleave">Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/feats.html#_great-cleave">Great Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_greater-vital-strike">Greater Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-bull-rush">Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-vital-strike">Improved Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +29 (+41 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +34, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +46, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (any) +33, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +31, <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +29, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +34, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +30, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +33, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +35, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +35, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +28</p>
+				<p class="stat-block-1"><b>Languages</b> Abyssal, Celestial, Common; telepathy 300 ft.</p>
+				<p class="stat-block-1"><b>SQ </b>hands of war, planar leap</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary</p>
+				<p class="stat-block-1"><b>Treasure</b> triple (50&ndash;100 various weapons, other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Hands of War (Su)</b> Any weapon a hekatonkheires wields gains a +3 enhancement bonus while the titan holds it. A hekatonkheires's attacks are treated as epic and <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a> for the purposes of overcoming <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_damage-reduction-(ex-or-su)" >damage reduction</a>. In addition, a hekatonkheires's multitude of arms allows it to effectively block attacks, granting it a +8 armor bonus to its AC.</p>
+				<p class="stat-block-1"><b>Hundred-Handed Whirlwind (Ex)</b> A hekatonkheires carries several dozen weapons of various types in its hundred hands, but when it attacks in melee, you don't have to resolve each of these as a separate attack. Instead, when the titan attacks with its weapons, it rolls its attacks normally (either one attack for a standard action, or four as a full-round action) and hits every creature in its reach each time an attack roll exceeds that creature's AC. If any such attack roll results in a possible critical hit, the critical is applied to one creature of the hekatonkheires's choosing. The hekatonkheires can choose to deal bludgeoning, piercing, or slashing damage as a free action on each separate hit.</p>
+				<p class="stat-block-1"><b>Planar Leap (Su)</b> A hekatonkheires traverses the planes by physically smashing through planar boundaries and crashing devastatingly into the target plane itself. Once per year as a full-round action, a hekatonkheires can, as part of a jump, <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> to any other plane (as per the spell of the same name). It can only bring itself and its gear when it travels in this manner. When the hekatonkheires reaches its destination plane, it falls from the sky and crashes to the ground, creating a devastating explosion of thunder and <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>. Any creature within 300 feet of the point where the hekatonkheires lands (including the titan itself) takes 20d6 points of bludgeoning damage and 20d6 points of sonic damage (Reflex DC 38 for half). The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Stunning Slam (Ex) </b>As a standard action, a hekatonkheires may forgo any weapon attacks to make a single slam attack against any creature in reach. If it hits, the target takes damage and must succeed at a DC 41 Fortitude save to avoid being stunned for 1d6 rounds. The save DC is Strength-based.</p>
+				
+				<p>Horrifying abominations shunned by the gods immediately upon their creation, the hekatonkheires are perhaps the most powerful and devastating race of titans in existence. When the titans&mdash;envious of the gods' divine strength&mdash;rebelled against the deities, the hekatonkheires were among the first to pick up arms, weary of the scorn their own creators felt for them. The betrayal of the Elysian titans led to the hekatonkheires' swift capture by the gods, who found the hekatonkheires' power to be so immense that they were not banished to the Abyss with their Thanatotic brethren. Instead, the gods cast the hekatonkheires into the furthest reaches of the multiverse they could find. There, the hekatonkheires drifted in expanses of nothingness for unknown eons, and the madness wrought upon them by isolation destroyed their memories. Yet from their madness these shattered monstrosities spawned progeny to replace them in their pursuit to destroy, and some of these monstrous offspring discovered ways to break through planar boundaries and wander the multiverse freely.</p>
+				<p>The gods initially created only three hekatonkheires, seeking to make the ultimate warriors in order to guard the gates to the Abyss. These three ancient titans still drift in the unknown expanses between planes&mdash;the hekatonkheires that now walk the worlds are their lesser spawn. But these so-called “lesser” titans remain almost unimaginably powerful themselves. They have no knowledge of why their forgotten ancestors were originally banished, and so they wander in search of answers, all the while destroying entire worlds. They are warped engines of mayhem, their existence based wholly on the devastation of life and anything that might remind them of their age-old war against the gods, having inherited only the haunting ghosts of such memories from their ancestors.</p>
+				<p>Those hekatonkheires who have emerged back into the multiverse have done so in different realms, and to date, no record of any two of these spawn meeting one another exists. It is fortunate that only one hekatonkheires is encountered on a world at any given time, as even scholars cannot fathom the power that would arise out of two or more of the titans' collective strength. They traverse the planes alone, caring not for allies of any sort until they can remember what their purpose was when they were born eons ago.</p>
+				<p>Though hekatonkheires are as intelligent as the rest of their titan relatives, they wander with such destructive and seemingly mindless intentions that they spare no time in communicating with other creatures, especially those that would beg for mercy. The hekatonkheires were created to destroy, and so that is all they desire to do; the crushing blows of their fists and the goring slashes of their weapons speak for themselves. They serve no master, and halt their otherwise endless rampage only if called by their true names, which few&mdash;if any&mdash;mortals know. Those that do know these names speak them only in whispers, for their mere utterance seems to carry with it immeasurable power.</p>
+				<p>A hekatonkheires can only be called via mighty spells such as <i><a href="/pathfinderRPG/prd/spells/gate.html#_gate" >gate</a></i> if a conjurer knows the plane the titan is currently on, and only if the conjurer knows the true name of the hekatonkheires it is seeking to call. Only the mad or depraved would dare such a feat, however, as the might of one of these unique goliaths is so massive that the being cannot be controlled, and even if it is banished back to the realm from whence it came, it is never long before the hekatonkheires sets its sights on the world it visited so briefly, if only to sate its lust for destroying it.</p>
+				<p>Each hekatonkheires has 50 heads and 100 arms so that one is never caught off guard. The stones that it hurls with its 100 hands are as big as boulders, and those who have seen a hekatonkheires hurl such rocks and lived to tell the tale have said that it is as though an entire mountain is falling from the sky. In addition to their unworldly strength, hekatonkheires are known for their awesome control over the powers of lightning and thunder, and an individual hekatonkheires's arrival is often prefaced by an abrupt and tumultuous storm in the area. Like all titans, hekatonkheires are immortal, and do not die unless they are slain.</p>
+				<p>A hekatonkheires is 50 feet tall and weighs 25 tons.</p>
+			</div>
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

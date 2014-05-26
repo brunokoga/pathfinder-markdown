@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Aeon</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Aeon",globalNavPath=[{ href: '/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html', name: 'Additional Monster Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+			<div>
+				<h1 id="aeon" class="monster-header">Aeon</h1>
+				<p>Beyond passion, beyond mercy, beyond reason, the faceless caretakers of reality toil without end, silently struggling to preserve the tenuous balance upon which all existence depends. These voiceless forces are the aeons, inscrutable shapers and eliminators of the multiverse. They exist beyond the understanding of most mortals, endlessly striving toward goals unfathomable even to many of the planes' eldest inhabitants. Aeons build order from the chaos of the Maelstrom, seed new life upon barren worlds, and halt the rampages of forces grown overbold. They rend nations to vapor, dismantle planets into cosmic dust, and pave the way for calamities. Their ways are at one moment beneficent and in the next utterly devastating, but always without ardor, compassion, or malice. Every aeon dispassionately but determinedly strives toward the same objective&mdash;an ever changing, amending, and readjusting pursuit of multiplanar equilibrium. United in this eternal and perhaps impossible pursuit, aeons embody the planes-spanning hand of a metaphorical omnipotent clockmaker, endlessly tuning and adjusting the myriad gears of reality in pursuit of ultimate perfection.</p>
+				<p>The balance aeons seek in all things begins with themselves. Most aeons embody a powerful dichotomy sustained in equilibrium. From the potency of birth and death meeting in akhanas to the philosophies of fate and freedom embodied by theletos, the workings of existence take on form and will within their living manifestations. Even the lesser paracletus unite diverse elements of creation in their intricate orbits. Such stability reaches beyond the shapes of aeons to inspire and direct their minds, imbuing each with a singular purpose and area of control. Thus, each embodies the realm of reality it would seek to balance, attempting to enforce a harmony as perfect as that of its physical form upon all things. The forms of various types directly suggest their abilities and objectives, with pleroma aeons, for example, exhibiting the power to create or annihilate, and using such influence to alter that which has grown either too abundant or sterile.</p>
+				<p>While aeons are not malicious creatures, they care nothing for individual beings or the struggles and emotions central to most life. The ruin of an entire city or burning of a vast forest means equally little in their manipulation of symmetry. By the same right, creating new life or constructing defenses against impending calamities are equally characteristic acts. For aeons, only the final tally matters, and a land overpopulated by humanoids is just as much in need of culling as a land overrun by ravenous fungi. Just as a body's natural defenses have neither mercy nor malice for invading parasites, aeons don't muddy their objectives with emotion. Such impartiality extends to the interactions between aeons as well. Without culture, society, or even memory beyond the immediate needs of the multiverse, they build no relationships and, in general, have no personalities beyond an automaton-like directness. A vague caste system exists, with aeons that hold influence over greater multiversal principles acknowledged as superior by their lesser brethren. This caste system rarely translates to actual direction and obedience, though. Should the acts of a greater aeon jeopardize the works or even lives of a multitude of lesser aeons, the efforts of the more potent aeon proceed without hesitation. Only in matters of great existential concern do multiple aeons cooperate, directed into doing so by the united consciousness of their race and the multiverse itself, and even then rarely for long.</p>
+				<p>Many mistake aeons for friends or allies of nature and its creatures. While this might be true at times&mdash;and is definitely true if reality as a whole is considered a vast, united organism&mdash;aeons care no more for the trees of the forest than for the towers of civilization. For them, all life is life and all death is death, to be preserved or scoured regardless of its arbitrary shape. </p>
+				<p>In rare cases, aeons have been known to deviate from the whims of the multiverse. Such rogue aeons typically arise from interacting with other races excessively, living beyond their intended times, being exposed to unusual ideas, or being forced to perform acts they otherwise wouldn't contemplate. These aeons typically take on extreme personalities, coming to favor one aspect of their being over the other&mdash;an akhana is just as likely to become an artist of life as a mass murderer. Normal aeons perceive their rogue brethren as high-priority disturbances in the balance of the multiverse and seek the destruction of such rarities with all haste.</p>
+				<h2>Monad, the Condition of All</h2>
+				<p>All aeons are bound in a state they know as “the condition of all” or “monad,” a supreme oneness with all members of their race and the multiverse itself. Therefore, aeons exist as an extension of the multiverse; in a fashion similar to the way bones, muscle, and the various humors create a mortal, they exist as part of a greater being. When destroyed or upon accomplishing specific goals, their energies simply dissipate and become reabsorbed into the monad. They do not die, but are instead recycled. They have no discernible memories and seem to exist only in the present, arriving to repair balance. Relationships with non-aeons are generally nonexistent, and they feel no sense of affection, remorse, vengeance, or similar emotions. Aeons deal with each task as its own action, independent from all other tasks. Thus, an individual once at violent odds with an aeon may, upon their next encounter, have the aeon's full and undaunted support. </p>
+			</div>
+			<div>
+				<h1 id="aeon,-akhana" class="monster-header">Aeon, Akhana</h1>
+				<p class="flavor-text">Four gray arms project from a swirling mass resembling a giant eye, from which a tail-like appendage dangles. </p>
+				<p class="stat-block-title"><b>Akhana	<span class="stat-block-cr">CR 12</span></b></p>
+				<p class="stat-block-xp"><b>XP 19,200</b></p>
+				<p class="stat-block-1">N Medium <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_aeon-subtype" >aeon</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +10; <b>Senses</b> darkvision 60 ft., <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/deathwatch.html#_deathwatch" >deathwatch</a></i>; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +19</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 27, touch 18, flat-footed 21 (+2 deflection, +6 Dex, +9 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 148 (11d10+88); fast healing 5</p>
+				<p class="stat-block-1"><b>Fort</b> +17, <b>Ref</b> +11, <b>Will</b> +14</p>
+				<p class="stat-block-1"><b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, critical hits, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>; <b>Resist</b> electricity 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10; <b>SR</b> 23</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., fly 40 ft. (poor)</p>
+				<p class="stat-block-1"><b>Melee</b> 4 claws +16 (1d4+5 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a>)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> soul siphoning</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 11th; concentration +15)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/deathwatch.html#_deathwatch" >deathwatch</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/gentleRepose.html#_gentle-repose" >gentle repose</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/inflictSeriousWounds.html#_inflict-serious-wounds" >inflict serious wounds</a></i> (DC 17), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/sanctuary.html#_sanctuary" >sanctuary</a></i> (DC 15)</p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/restoration.html#_restoration" >restoration</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../spells/slayLiving.html#_slay-living" >slay living</a> </i>(DC 19)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/raiseDead.html#_raise-dead" >raise dead</a></i></p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 21, <b>Dex</b> 23, <b>Con</b> 26, <b>Int</b> 16, <b>Wis</b> 21, <b>Cha</b> 18</p>
+				<p class="stat-block-1"><b>Base Atk</b> +11; <b>CMB</b> +16 (+20 grapple); <b>CMD</b> 34 (38 vs. trip)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_hover" >Hover</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes" >Lightning Reflexes</a></p>
+				<p class="stat-block-1"><b>Skills </b><a href="/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff" >Bluff</a> +18, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +2, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/heal.html#_heal" >Heal</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +18, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +22, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +22, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +17, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +20</p>
+				<p class="stat-block-1"><b>Languages</b> envisaging</p>
+				<p class="stat-block-1"><b>SQ</b> extension of all, void form</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Outer Planes)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or collective (3&ndash;6)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Soul Siphoning (Su)</b> As a swift action, an akhana can use its tail to siphon life essence from a grappled foe. At the start of the <a href="/creatureTypes.html#_aeon-subtype" >aeon</a>'s turn, the victim gains 1d4 negative levels (a DC 23 Fortitude save negates and grants <a href="/universalMonsterRules.html#_immunity-(ex-or-su)" >immunity</a> to this akhana's soul siphoning ability for 24 hours). When the number of negative levels equals the target's Hit Dice, the target's soul tears free from its mortal body and gets stored within the body of the akhana as a <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/trapTheSoul.html#_trap-the-soul" >trap the soul</a> </i>spell. The victim's body remains preserved as if via a <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/gentleRepose.html#_gentle-repose" >gentle repose</a></i> spell for as long as the soul is held by the akhana. The akhana can keep the soul indefinitely, or can release it as a full-round action. Upon doing so, the released soul immediately returns to its body if the body is within 300 feet, at which point the body returns to life and any negative levels imparted to it by the akhana are removed. If the body is not within 300 feet (or if it has been destroyed), then the creature dies when its soul is released. A <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/miracle.html#_miracle" >miracle</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../spells/limitedWish.html#_limited-wish" >limited wish</a>,</i> or <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/wish.html#_wish" >wish</a></i> can force a displaced soul to return to its proper body. If an akhana is slain, any soul it contains is released automatically. An akhana can only hold one soul at a time. The save DC is Constitution-based.</p>
+				
+				<p>Akhanas bear charge over the duality of birth and death. They perceive the existence of living things as crucial to maintaining cosmic balance. They also understand the profound influence living things have on the cosmos, and if left untended, its ability to create terrible consequences. In this circumstance, life must give way to death.</p>
+				<p>Akhanas wander the byways of the multiverse, constantly on the hunt for imbalances in life. How they judge these imbalances is not well-understood by non-aeons, and the aeons are singularly unmotivated to justify akhanas' decisions when inquired about them. As a result, the focus of akhanas' attacks and attentions usually seems arbitrary or even random to most creatures&mdash;they do not always focus their attentions on the strongest or the weakest members of a group.</p>
+				<p>An akhana stands 5 feet in height and weighs 120 pounds. Its strange central body seems vaporous, but is weirdly solid (and slimy) to the touch.</p>
+			</div>
+			
+			
+			<div>
+				<h1 id="aeon,-bythos-" class="monster-header">Aeon, Bythos </h1>
+				<p class="flavor-text">A shimmering, colorless mass congeals to form a four-armed humanoid shape with an eye-like pattern in its torso.</p>
+				<p class="stat-block-title"><b>Bythos <span class="stat-block-cr">CR 16</span></b></p>
+				<p class="stat-block-xp"><b>XP 76,800</b></p>
+				<p class="stat-block-1">N Large <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_aeon-subtype" >aeon</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense" >blindsense</a> 60 ft., darkvision 90 ft., low-light vision; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +30</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 31, touch 18, flat-footed 26 (+4 deflection, +4 Dex, +1 dodge, +13 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 207 (18d10+108); fast healing 10</p>
+				<p class="stat-block-1"><b>Fort</b> +18, <b>Ref</b> +12, <b>Will</b> +20</p>
+				<p class="stat-block-1"><b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, critical hits, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>; <b>Resist</b> electricity 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10; <b>SR</b> 27</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> fly 40 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> 4 slams +23 (1d6+6 plus 1d6 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> and aging strike)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> confusion <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_gaze" >gaze</a>, temporal strike</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 18th; concentration +23)</p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/augury.html#_augury" >augury</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/teleport.html#_teleport-greater" >greater teleport</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/slow.html#_slow" >slow</a></i> (DC 18)</p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/haste.html#_haste" >haste</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift" >plane shift</a></i> (DC 20)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dimensionalLock.html#_dimensional-lock" >dimensional lock</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/momentOfPrescience.html#_moment-of-prescience" >moment of prescience</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/temporalStasis.html#_temporal-stasis" >temporal stasis</a></i> (DC 23)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 19, <b>Con</b> 21, <b>Int</b> 24, <b>Wis</b> 28, <b>Cha</b> 21</p>
+				<p class="stat-block-1"><b>Base Atk</b> +18; <b>CMB</b> +25; <b>CMD</b> 44 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_hover" >Hover</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility" >Mobility</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness" >Toughness</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff" >Bluff</a> +26, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +6, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/heal.html#_heal" >Heal</a> +30, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +26, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana, nature, religion) +33, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (history, planes) +36, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +30, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +30, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +28, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +21, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +23</p>
+				<p class="stat-block-1"><b>Languages</b> envisaging</p>
+				<p class="stat-block-1"><b>SQ</b> extension of all, void form</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Outer Planes)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or tribunal (3 bythos)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Aging Strike (Su)</b> If a bythos strikes a living target with two slam attacks in a single round, the bythos ages the creature, causing it to advance to the next age category (<i>Pathfinder RPG Core Rulebook</i> 169) if it fails a DC 24 Fortitude save. The victim gains all of the penalties from this aging and none of the bonuses. A venerable victim targeted by this ability dies if it fails a DC 24 Fortitude save. This process is reversible with <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/restoration.html#_restoration-greater" >greater restoration</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/limitedWish.html#_limited-wish" >limited wish</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/miracle.html#_miracle" >miracle</a></i>, or <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/wish.html#_wish" >wish</a></i>. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Confusion <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_gaze" >Gaze</a> (Su) </b>Confusion for 1d4 rounds, 30 feet, Fortitude DC 24 negates. The save DC is Charisma-based.</p>
+				<p class="stat-block-1"><b>Temporal Strike (Su)</b> As a standard action, a bythos can touch a creature or object to displace it from time. If the target fails a DC 24 Fortitude save, it disappears from the present moment and reappears in the same location 1d4 rounds later as if no time had passed. If an object occupies that space, the creature appears in the closest available space to its original location&mdash;this displacement does not cause the creature any additional harm. The save DC is Charisma-based.</p>
+				
+				<p>The bythos are guardians of time and planar travel&mdash;indeed, to bythos, the act of aging is nothing more than a highly specialized method of travel. Although bythos themselves have no additional method of traveling through time, they scour the multiverse, hunting for creatures that do have the ability to time-travel and may have abused this ability.</p>
+				<p>Far more often, though, bythos seek out abuses of planar travel, such as tears in reality, regions where planes overlap, or creatures that abuse the use of planar travel. In some cases, such distortions are ignored, but in others, a bythos or even a full tribunal comes to assess and repair the damage. In most cases, “repair” is analogous to the death of the creature responsible for the distortions, but placing such creatures in temporal stasis can also solve the problem.</p>
+				<p>While a bythos's body may seem to be made of smoke and vapor, it is strangely solid to the touch, feeling not dissimilar to dry stone. A bythos is 13 feet tall and weighs 600 pounds.</p>
+			</div><div>
+				<h1 id="aeon,-paracletus" class="monster-header">Aeon, Paracletus</h1>
+				<p>A small cluster of shimmering lights floats in the air, orbited by multiple vibrant crystals and gemstones.</p>
+				<p class="stat-block-title"><b>Paracletus	<span class="stat-block-cr">CR 2</span></b></p>
+				<p class="stat-block-xp"><b>XP 600</b></p>
+				<p class="stat-block-1">N Small <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_aeon-subtype" >aeon</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +7</p>
+				<p class="stat-block-1"><b>Aura</b> emotion aura (DC 12, 30 ft.)</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 14, touch 13, flat-footed 12 (+2 Dex, +1 natural, +1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 13 (3d10&ndash;3)</p>
+				<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +3, <b>Will</b> +6</p>
+				<p class="stat-block-1"><b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, critical hits, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>; <b>Resist</b> electricity 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10; <b>SR</b> 7</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> fly 40 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> slam +3 (1d3&ndash;1 plus <br/>1d6 electricity)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 3rd; concentration +4)</p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/sanctuary.html#_sanctuary" >sanctuary</a></i> (DC 12)</p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/calmEmotions.html#_calm-emotions" >calm emotions</a></i> (DC 13)</p>
+				<p class="stat-block-2">1/week&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/commune.html#_commune" >commune</a></i> (6 questions, CL 12th)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 8, <b>Dex</b> 14, <b>Con</b> 9, <b>Int</b> 11, <b>Wis</b> 13, <b>Cha</b> 12</p>
+				<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +1; <b>CMD</b> 13 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will" >Iron Will</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +8, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +7, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +7, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +7, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +7, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +7, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +12</p>
+				<p class="stat-block-1"><b>Languages</b> envisaging</p>
+				<p class="stat-block-1"><b>SQ</b> extension of all, void form</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Outer Planes)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or commune (3&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Emotion Aura (Sp)</b> Each paracletus exists as the embodiment of a specific emotive duality. Three times per day, a paracletus can create an aura representing one of its two programmed emotions. Creatures in the area must make a DC 12 Will save to resist the aura. A creature that makes its save against the aura is unaffected by that <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_aeon-subtype" >aeon</a>'s aura for the next 24 hours. The paracletus can choose one creature in the area to ignore its effects. The effect of the aura lasts for 10 minutes, and ends if a creature moves more than 30 feet from the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_aeon-subtype" >aeon</a>. The aura is a mind-affecting compulsion effect. The save DC is Charisma-based. Specific emotive dualities and their powers follow&mdash;any single paracletus can only use one of these three dualistic options and cannot change to a different one.</p>
+				<p><i>Courage/Fear</i>: The aura acts as <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/bless.html#_bless" >bless</a></i> or <i><a href="/pathfinderRPG/prd/additionalMonsters/../magicItems/weapons.html#_weapons-bane" >bane</a></i>.</p>
+				<p><i>Empathy/Apathy</i>: The aura gives creatures a +2 bonus or a &ndash;2 penalty on <a href="/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff" >Bluff</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy" >Diplomacy</a>, and <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> checks.</p>
+				<p><i>Hope/Despair</i>: The aura gives creatures a +2 morale bonus on Will saving throws or a &ndash;2 penalty on Will saving throws.</p>
+				
+				<p>While mortals possess the gift of free will, both logic and emotion influence their decisions. The paracletus serve the aeons as agents who connect with mortals and study the influence of emotions (particularly the dualistic nature of raw emotion) upon mortal behavior. They wander the planes seeking mortals with particularly strong emotional or logical capabilities (characters with high Charisma or Intelligence scores). Once a paracletus locates such a creature, the paracletus remains nearby, studying the target's relationship with emotional and logical input and choices. Often, the paracletus will use its emotion aura on the target in order to study how outside influences affect the subject. Unfortunately for the target creature, whether or not the paracletus uses a helpful or harmful effect is, for all intents and purposes, a matter of random chance&mdash;even though to the paracletus's complex reasoning, nothing is left to actual random chance.</p>
+				<p>If presented the option, a paracletus avoids direct combat, and uses its emotion aura to influence situations. If pressed to defend itself, it flies at opponents, slamming into them and discharging an electrical jolt of energy in addition to buffeting with its crystalline components. The crystals that orbit a paracletus are solidified aspects of logic, while the swirling vapors and lights that make up its central mass are manifestations of raw emotion&mdash;when a paracletus is slain, both the crystals and vapors fade away into nothingness.</p>
+				<p>A paracletus can be chosen as a familiar by a 7th-level neutral spellcaster who has the <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-familiar" >Improved Familiar</a> feat. A paracletus familiar does not abandon its mission to observe emotions and logic at play, but it does follow its master's orders&mdash;this is one situation where the application of a paracletus's emotion aura need not be random.</p>
+				<p>Although the central mass of a paracletus's body appears to be made of light and energy, it is in fact solid, and feels strangely like electrified flesh to the touch.</p>
+			</div>
+			
+			<div>
+				<h1 id="aeon,-pleroma" class="monster-header">Aeon, Pleroma</h1>
+				<p>Within the shadows of this vaguely humanoid figure stir swirling colors and spheres, as if it encompassed all the night sky. </p>
+				<p class="stat-block-title"><b>Pleroma	<span class="stat-block-cr">CR 20</span></b></p>
+				<p class="stat-block-xp"><b>XP 307,200</b></p>
+				<p class="stat-block-1">N Large <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_aeon-subtype" >aeon</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +12; <b>Senses</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsight" >blindsight</a> 120 ft., darkvision 120 ft., <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +41</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 36, touch 24, flat-footed 27 (+6 deflection, +8 Dex, +1 dodge, +12 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 324 (24d10+192); fast healing 10</p>
+				<p class="stat-block-1"><b>Fort</b> +24, <b>Ref</b> +18, <b>Will</b> +26</p>
+				<p class="stat-block-1"><b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, critical hits, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>; <b>Resist</b> electricity 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10; <b>SR</b> 31</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 0 ft., fly 60 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee</b> touch +30 (20d8 energy)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> sphere of creation, sphere of oblivion</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 20th; concentration +27)</p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/createFoodAndWater.html#_create-food-and-water" >create food and water</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/mending.html#_mending" >mending</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/rustingGrasp.html#_rusting-grasp" >rusting grasp</a></i> (DC 21), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/stoneShape.html#_stone-shape" >stone shape</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/woodShape.html#_wood-shape" >wood shape</a></i> (DC 19)</p>
+				<p class="stat-block-2">7/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/fabricate.html#_fabricate" >fabricate</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/plantGrowth.html#_plant-growth" >plant growth</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/sculptSound.html#_sculpt-sound" >sculpt sound</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/shout.html#_shout" >shout</a></i> (DC 21)</p>
+				<p class="stat-block-2">5/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/breakEnchantment.html#_break-enchantment" >break enchantment</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/daylight.html#_daylight" >daylight</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/majorCreation.html#_major-creation" >major creation</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/disintegrate.html#_disintegrate" >disintegrate</a></i> (DC 23), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/horridWilting.html#_horrid-wilting" >horrid wilting</a></i> (DC 25)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/mageSDisjunction.html#_mage-s-disjunction" >mage's disjunction</a></i> (DC 26), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/wish.html#_wish" >wish</a></i> (DC 26)</p>
+				<p class="stat-block-1"><b>Cleric Spells Prepared</b> (CL 20th; concentration +27)</p>
+				<p class="stat-block-2">9th&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/astralProjection.html#_astral-projection" >astral projection</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/gate.html#_gate" >gate</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/implosion.html#_implosion" >implosion</a></i> (3, DC 29)</p>
+				<p class="stat-block-2">8th&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/cloakOfChaos.html#_cloak-of-chaos" >cloak of chaos</a></i> (DC 28), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/holyAura.html#_holy-aura" >holy aura</a></i> (DC 28), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/shieldOfLaw.html#_shield-of-law" >shield of law</a></i> (DC 28), <i>summon monster VIII</i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/unholyAura.html#_unholy-aura" >unholy aura</a></i> (DC 28)</p>
+				<p class="stat-block-2">7th&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/blasphemy.html#_blasphemy" >blasphemy</a></i> (DC 27), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/destruction.html#_destruction" >destruction</a></i> (DC 27), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dictum.html#_dictum" >dictum</a></i> (DC 27), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/holyWord.html#_holy-word" >holy word</a></i> (DC 27), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/wordOfChaos.html#_word-of-chaos" >word of chaos</a></i> (DC 27)</p>
+				<p class="stat-block-2">6th&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/banishment.html#_banishment" >banishment</a></i> (DC 26), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/forbiddance.html#_forbiddance" >forbiddance</a></i> (DC 26), <i>geas</i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/legendLore.html#_legend-lore" >legend lore</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/repulsion.html#_repulsion" >repulsion</a></i> (DC 26), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/veil.html#_veil" >veil</a></i> (DC 26)</p>
+				<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/contactOtherPlane.html#_contact-other-plane" >contact other plane</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dispelChaos.html#_dispel-chaos" >dispel chaos</a></i> (DC 25), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dispelEvil.html#_dispel-evil" >dispel evil</a></i> (DC 25), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dispelGood.html#_dispel-good" >dispel good</a></i> (DC 25), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dispelLaw.html#_dispel-law" >dispel law</a></i> (DC 25), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/teleport.html#_teleport" >teleport</a></i></p>
+				<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/chaosHammer.html#_chaos-hammer" >chaos hammer</a></i> (DC 24), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/holySmite.html#_holy-smite" >holy smite</a></i> (DC 24), <i>order's wraith</i> (DC 21), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/restoration.html#_restoration" >restoration</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/scrying.html#_scrying" >scrying</a></i> (DC 24), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/unholyBlight.html#_unholy-blight" >unholy blight</a></i> (DC 24)</p>
+				<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance" >clairaudience/clairvoyance</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/magicCircleAgainstChaos.html#_magic-circle-against-chaos" >magic circle against chaos</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil" >magic circle against evil</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/magicCircleAgainstGood.html#_magic-circle-against-good" >magic circle against good</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/magicCircleAgainstLaw.html#_magic-circle-against-law" >magic circle against law</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/suggestion.html#_suggestion" >suggestion</a></i> (DC 23)</p>
+				<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/alignWeapon.html#_align-weapon" >align weapon</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i> (DC 22), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/enthrall.html#_enthrall" >enthrall</a></i> (DC 22), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/makeWhole.html#_make-whole" >make whole</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/undetectableAlignment.html#_undetectable-alignment" >undetectable alignment</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/zoneOfTruth.html#_zone-of-truth" >zone of truth</a></i> (DC 22)</p>
+				<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectChaos.html#_detect-chaos" >detect chaos</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectGood.html#_detect-good" >detect good</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectLaw.html#_detect-law" >detect law</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/identify.html#_identify" >identify</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/magicAura.html#_magic-aura" >magic aura</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/trueStrike.html#_true-strike" >true strike</a></i></p>
+				<p class="stat-block-2">0&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/createWater.html#_create-water" >create water</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/guidance.html#_guidance" >guidance</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/readMagic.html#_read-magic" >read magic</a></i></p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 24, <b>Dex</b> 27, <b>Con</b> 26, <b>Int</b> 26, <b>Wis</b> 31, <b>Cha</b> 25</p>
+				<p class="stat-block-1"><b>Base Atk</b> +24; <b>CMB</b> +32; <b>CMD</b> 57 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_alertness" >Alertness</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-iron-will" >Improved Iron Will</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-stance" >Lightning Stance</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility" >Mobility</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_wind-stance" >Wind Stance</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/appraise.html#_appraise" >Appraise</a> +30, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff" >Bluff</a> +32, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/heal.html#_heal" >Heal</a> +30, <br/><a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +27, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +47, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +44, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (engineering) +44, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +47, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +47, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +47, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +41, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +39, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +30, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +27, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +27</p>
+				<p class="stat-block-1"><b>Languages</b> envisaging</p>
+				<p class="stat-block-1"><b>SQ</b> extension of all, void form</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Outer Planes)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or tribunal (1 pleroma, 3 akhanas, and 2&ndash;5 theletos)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Energy Touch (Su)</b> A pleroma's touch deals 20d8 points of damage from positive or negative energy, depending upon which type of energy would harm the creature touched. A pleroma's touch never heals damage.</p>
+				<p class="stat-block-1"><b>Spells</b> A pleroma casts spells as a 20th-level cleric, but does not have access to domains. A pleroma can cast certain sorcerer/wizard spells as divine spells.</p>
+				<p class="stat-block-1"><b>Sphere of Creation (Su)</b> Three times per day, the pleroma can manifest a 2-foot-diameter sphere of white energy that hovers above its left hand. By concentrating, the pleroma can control this sphere, causing it to fly slowly at a speed of 10 feet per round. The sphere can travel in any direction, but must remain within 300 feet of the pleroma or it immediately dissipates. Wherever the sphere travels, it leaves behind a 5-foot-wide path of new matter, creating either new terrain (such as swamp, tundra, desert, or forest) or a 10-foot-square wall composed of a single natural substance (such as clay, wood, or stone). Any existing matter, either living or nonliving that comes in contact with the sphere must make a DC 30 Fortitude save or be absorbed and incorporated into the new substance (only <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/freedom.html#_freedom" >freedom</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/miracle.html#_miracle" >miracle</a></i>, or <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/wish.html#_wish" >wish</a></i> can rescue creatures so trapped). Creatures that save are pushed to the nearest unoccupied location adjacent to the newly created substance. The sphere is highly unstable and only lasts 1d4 minutes before exploding with a blinding flash. All creatures within 30 feet of the flash must make a DC 30 Fortitude save or be permanently blinded. The save DCs are Constitution-based.</p>
+				<p class="stat-block-1"><b>Sphere of Oblivion (Su)</b> Three times per day, the pleroma can manifest a 2-foot-diameter sphere of complete and utter darkness that hovers above its right hand. The sphere is an empty void similar to a <i>sphere of annihilation</i>. Any matter (living or nonliving) that touches the sphere must succeed on a DC 30 Fortitude save or be sucked into the sphere and destroyed. Larger objects (such as ships or buildings) are destroyed at a rate of one 10-foot cube per round of contact with the sphere. By concentrating, the pleroma can control this sphere, causing it to fly slowly at a speed of 10 feet per round. The sphere can travel in any direction, but must remain within 300 feet of the pleroma or it immediately dissipates. The sphere is highly unstable and only lasts 1d4 minutes before harmlessly imploding upon itself. Alternatively, the pleroma may hurl the sphere as a ranged touch attack (with a 10-foot range increment) against a single creature. When thrown in this manner, the sphere implodes immediately after the attack is resolved. The save DCs are Constitution-based.	</p>
+				
+				<p>The pleroma is the most powerful of all the aeons. As a manifestation of the opposing acts of creation and destruction, a pleroma exists in a state of flux, its very form shifting between creation and oblivion within the ebon folds of its vaporous cloak. One who gazes upon a pleroma could spend days studying the continual changes of its form, which most resemble the shifting of celestial bodies within the universe sped up to a pace at which the swirling of galaxies and the tumble of planets form a strange dance.</p>
+				<p> Pleromas view the concepts of creation and oblivion not so much as separate processes, but rather as two parts of a cyclical passage that everything in existence must explore. Pleromas guide this progression, ensuring everything remains balanced, such that whatever is created can be destroyed, and that nothing becomes so static that these two processes slow to a halt. For everything that attains a state of semi-permanence, there must be many more things that do not, or rather that cannot ever be reformed into a state of permanence. While pleromas believe in eternity, they understand that eternity is cyclical and infinity is something that repeats itself. Therefore, eternity and infinity are states that can be changed, or altered, if only slightly. Pleromas maintain such changes are necessary to keep the cosmos from becoming static and unbalanced, a state they refer to as apocalypse, or the end of everything.</p>
+				<p>Of all the aeons, pleromas possess the strongest connection to the entity or concept they refer to as Monad. All aeons believe themselves to be extensions of this entity, and while they act freely and independently of the entity, they always act within the constricts of its will or needs. This behavior is not so much a state of servitude as a symbiosis in which the actions of the pleromas are universally beneficial to both themselves and the entity they are part of. Pleromas describe Monad as the sentience of the multiverse, from which all things are created through the recycling of everything that ever existed. </p>
+				<p>Pleromas typically travel alone. Their arrival in a region almost always heralds some sort of dramatic change. They pay little mind to the wants and needs of other creatures, and remain entirely focused upon their primary task. They avoid conflicts of ethics, wars, and similar pursuits, save when manipulating such events would help to restore the balance between creation and oblivion. Should any be so foolish as to attempt to interfere with or sway their work, pleromas immediately retaliate by bringing all of their significant powers and devastating abilities to bear until the intervention is destroyed.</p>
+			</div>
+			
+			<div>
+				<h1 id="aeon,-theletos" class="monster-header">Aeon, Theletos</h1>
+				<p>Four bandy limbs, each splitting at the elbow into two three-fingered forearms, emerge from this creature's crystalline body. </p>
+				<p class="stat-block-title"><b>Theletos	<span class="stat-block-cr">CR 7</span></b></p>
+				<p class="stat-block-xp"><b>XP 3,200</b></p>
+				<p class="stat-block-1">N Medium <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_aeon-subtype" >aeon</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +16</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 20, touch 15, flat-footed 17 (+2 deflection, +2 Dex, +1 dodge, +5 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 76 (9d10+27); fast healing 5</p>
+				<p class="stat-block-1"><b>Fort</b> +9, <b>Ref</b> +5, <b>Will</b> +12</p>
+				<p class="stat-block-1"><b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, critical hits, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>; <b>Resist</b> electricity 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10; <b>SR</b> 18</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., fly 30 ft. (poor)</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +13 (1d6+4), 2 tentacles +8 (1d4+2 plus fate drain)</p>
+				<p class="stat-block-1"><b>Space</b> 5 ft.; <b>Reach</b> 5 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> wreath of fate</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 9th; concentration +10)</p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/augury.html#_augury" >augury</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/command.html#_command" >command</a></i> (DC 12), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/doom.html#_doom" >doom</a></i> (DC 12), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/sanctuary.html#_sanctuary" >sanctuary</a></i> (DC 12)</p>
+				<p class="stat-block-2">3/day&mdash; <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i> (DC 14), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/enthrall.html#_enthrall" >enthrall</a></i> (DC 13), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/touchOfIdiocy.html#_touch-of-idiocy" >touch of idiocy</a></i> (DC 13), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/removeCurse.html#_remove-curse" >remove curse</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/suggestion.html#_suggestion" >suggestion</a></i> (DC 14)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/charmMonster.html#_charm-monster" >charm monster</a></i> (DC 15), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/geasQuest.html#_geas-lesser" >lesser geas</a></i> (DC 15)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 14, <b>Con</b> 17, <b>Int</b> 11, <b>Wis</b> 19, <b>Cha</b> 12</p>
+				<p class="stat-block-1"><b>Base Atk</b> +9; <b>CMB</b> +13; <b>CMD</b> 28 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_hover" >Hover</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-iron-will" >Improved Iron Will</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will" >Iron Will</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> &ndash;2, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +13, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +12, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +14</p>
+				<p class="stat-block-1"><b>Languages</b> envisaging</p>
+				<p class="stat-block-1"><b>SQ</b> extension of all, void form</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Outer Planes)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or collective (3&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Fate Drain (Su)</b> A theletos possesses a pair of flexible crystalline tentacles with which it can drain a creature's sense of fate and destiny. Whenever it strikes a foe with these tentacles, the creature struck must make a DC 17 Will save or take 1d4 points of Charisma damage. Until a creature's Charisma damage from this ability is healed, the victim takes a &ndash;2 penalty on all saving throws (regardless of the actual total amount of Charisma damage it takes). The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Wreath of Fate (Su)</b> As a full-round-action every 1d4 rounds, a theletos can release a 60-foot cone of energy from its chest. Any intelligent creature struck by this cone must make a DC 15 Will save or become nearly overwhelmed with the knowledge of various fates that destiny has in store for him&mdash;there is no way to make sense of these myriad dooms and boons, and as a result, the victim is staggered. As long as this condition persists, the victim may choose to make two rolls when attempting an attack roll, a saving throw, or a skill check&mdash;he must accept the worse of the two rolls, but in so doing the wreath of fate passes from his soul and he is no longer staggered by this ability. Wreath of fate is a <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse" >curse</a> effect, and as such can be affected by <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/removeCurse.html#_remove-curse" >remove curse</a></i> or <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/breakEnchantment.html#_break-enchantment" >break enchantment</a></i>&mdash;the effective caster level of this <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse" >curse</a> is equal to the theletos's HD (CL 9th in most cases). The save DC is Charisma-based.</p>
+				
+				<p>The strange theletos is the guardian of the duality between freedom and fate. Slavery is no more of an issue to a theletos than is true freedom, but without one, the other cannot exist. In areas where slavery is rife, a theletos might aid in freeing some slaves, while in regions where slavery has been abolished, this strange being works to subjugate many creatures with its own mind-controlling spell-like abilities&mdash;often encouraging them to further undertake acts of slavery themselves. The theletos is also a guardian of fate and prophecy, and while for some creatures it might allow glimpses of futures, others who peer into the future almost seem to cause the aeon physical pain. The theletos cannot explain why one seer might be allowed to divine futures while another should not&mdash;it knows only that some prophets should be denied this pursuit.</p>
+				<p>A theletos is 5 feet tall and weighs 100 pounds.</p>
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

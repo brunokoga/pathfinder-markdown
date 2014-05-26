@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Drugs and Addiction</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Drugs and Addiction",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="drugs-and-addiction" class="monster-header">Drugs and Addiction</h1>
+				<p>Hard-drinking heroes, deities of wine and celebration, and the hazy halls of oracles and wise men stand alongside the most memorable tropes of myth and classic fantasy literature. Thus it's no surprise that the adventures of fantasy roleplaying games are filled with similar characters and locales. After all, countless campaigns have been launched around a tavern table and all adventurers know the infamous potency of stout dwarven ale.</p>
+				<p>For better or worse, all things that one might find in the real world multiply and take on wondrous and lethal qualities in fantasy settings, and the vices of alcohol and chemical abuse are no different. While many games have no place for realistic bouts of drunkenness or the soul-scouring depths of addiction, such elements hold great potential for adventure. Whether one seeks to reenact a feat of fortitude like the drinking contest between Hercules and Dionysus, have an encounter with lotus-eater-like decadents, or recreate the entheogens of religious mysteries, these rules cover the highs and lows.</p>
+				<h1 id="drugs">Drugs</h1>
+				<div class="right"><table id="drunkenness"><caption>Drunkenness</caption><tr><td style="white-space:normal;">Just like drugs, alcohol can be abused and have significant negative effects. In general, a character can consume a number of alcoholic beverages equal to 1 plus double his Constitution modifier. Drinks consumed in excess of this total cause the character to become sickened for 1 hour per drink above this maximum. Particularly exotic or strong forms of alcohol might be treated as normal drugs. Those who regularly abuse alcohol might eventually develop a moderate addiction.</td></tr></table></div>
+				<p>Drugs are alchemical items that grant effects to those who make use of them. What sets them apart from similar items is that a drug's effects manifest as both a short term (usually beneficial) effect and an amount of ability damage. In addition, those who take drugs also risk addiction, a type of disease of varying severity depending on the type of drug used.</p>
+				<p>When a character takes a drug, he immediately gains the effects, an amount of ability damage, and must make a Fortitude save to resist becoming addicted to that drug (see Addiction). While the initial effect represents the physical or mind altering effects of the drug, the drain represents both its side effects and the amount of time a dose remains active in a character's body. As ability score damage heals at a rate of 1 point per day, a drug that causes 1 point of ability score damage remains in a character's system for 1 day, though some might cause greater damage and thus remain active for longer. While taking multiple doses of a drug at once rarely has any benefit, taking additional doses as the effects wear off renew those effects but increase the ability damage and potential for addiction.</p>
+				<p>Drugs can be manufactured using <a href="../skills/craft.html#_craft" >Craft</a> (alchemy). The DC to make a drug is equal to its addiction DC. Rolling a natural 1 on a <a href="../skills/craft.html#_craft" >Craft</a> skill check while making a drug exposes the crafter to the drug.</p>
+				<h1 id="addiction">Addiction</h1>
+				<p>Anytime a character takes a drug he must make a saving throw, noted in the drug's description, to resist becoming addicted. If a character makes the save, he is not addicted and the effects of the drug persist as normal. If he fails the save, he contracts the noted form of addiction (see below). Should a character take multiple doses of the same drug in a short period of time addiction becomes more difficult to resist. The DC of a drug's saving throw increases by +2 every time a character takes a another dose of that drug while still suffering from ability damage caused by a previous dose. Keep track of how high this DC rises, even for characters already addicted to a drug, as it determines the DC necessary to overcome the disease.</p>
+				<p>Addiction manifests in three different degrees of severity: minor, moderate, and severe. Each drug notes what type of addiction failing a save against it results in. Each addiction causes a persistent penalty to ability scores, lasting for as long as the character has the disease. In the case of moderate and severe addictions, the character also cannot naturally heal ability damage dealt by the drug that caused the addiction. </p>
+				<p>Each form of addiction encourages sufferers to continue making use of the drug they are addicted to. While a character is benefiting from the effects of the drug he is addicted to, he does not suffer the penalties of his addiction disease. While he still receives the benefits of the drug and takes ability damage as normal, the disease's effects are mitigated. As soon as the drug's benefits expire, the disease's effects return.</p>
+				<p id="minor-addiction" class="stat-block-title"><b>Minor Addiction</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> disease, variable; <b>Save</b> variable</p>
+				<p id="onset" class="stat-block-1"><b>Onset</b> 1 day; <b>Frequency</b> 1/day</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> &ndash;2 penalty to Con; <b>Cure</b> 2 consecutive saves</p>
+				<p id="moderate-addiction" class="stat-block-title"><b>Moderate Addiction</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> disease, variable; <b>Save</b> variable</p>
+				<p id="onset" class="stat-block-1"><b>Onset</b> 1 day; <b>Frequency</b> 1/day</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> &ndash;2 penalty to Con and Str, target cannot naturally heal ability damage caused by the drug that caused this addiction; <b>Cure</b> 3 consecutive saves</p>
+				<p id="severe-addiction" class="stat-block-title"><b>Severe Addiction</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> disease, variable; <b>Save</b> variable</p>
+				<p id="onset" class="stat-block-1"><b>Onset</b> 1 day; <b>Frequency</b> 1/day</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> &ndash;2 penalty to Dex, Con, Str, and Wis; target cannot naturally heal ability damage caused by the drug that caused this addiction; <b>Cure</b> 3 consecutive saves</p>
+				<h2 id="curing-addiction">Curing Addiction</h2>
+				<p>As addictions are diseases, they can be cured as such, through the use of spells like <i><a href="../spells/removeDisease.html#_remove-disease" >remove disease</a> </i>or by succeeding at Fortitude saves over time. Unlike with other diseases, an addicted character can only make a Fortitude save to overcome his addiction after a day of not taking the drug he is addicted to. The DC of this Fortitude save is equal to the highest addiction DC his drug use has reached (not necessarily the DC that addicted him if he has continued to make use of the drug while addicted). This DC decreases by &ndash;2 for everyday the character does not make use of the drug, to a minimum of the drug's base addiction DC. Depending on the severity of the character's addiction, it might take two or three consecutive successful Fortitude saves to overcome the disease. Should a character take a dose of the drug he's addicted to, he immediately relapses, causing the addiction DC to instantly return to its highest DC and negating any successful past saves.</p>
+				<h1 id="sample-drugs">Sample Drugs</h1>
+				<p>Numerous types of drugs exist, both in the real world and fantasy worlds. Presented here are several samples with a variety of effects. All drugs have the following features.</p>
+				<p id="type"><b>Type</b>: This notes how the drug is introduced into the system. These types equate to the types most common to poisons: contact, ingestion, inhalation, injury.</p>
+				<p id="addiction"><b>Addiction</b>: This is the severity of the addiction disease the drug causes, followed by the base DC of the save a character must succeed at to resist an addiction and potentially overcome an addiction. This DC can increase through multiple uses of the drug. </p>
+				<p id="price"><b>Price</b>: The common price of 1 dose of this drug.</p>
+				<p id="effect"><b>Effect</b>: The duration and effect of the drug.</p>
+				<p id="damage"><b>Damage</b>: The amount and type of ability damage caused.</p>
+				<p id="aether" class="stat-block-title"><b>AEther</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> inhaled; <b>Addiction </b>moderate, Fortitude DC 16</p>
+				<p id="price" class="stat-block-1"><b>Price</b> 20 gp</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> 1 hour; +1 caster level </p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> 1d4 hours; user must make a caster check to cast spells, DC 15 + spell level</p>
+				<p id="damage" class="stat-block-1"><b>Damage</b> 1d2 Con damage</p>
+				<p id="dwarven-fire-ale" class="stat-block-title"><b>Dwarven Fire Ale</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> ingested; <b>Addiction </b>moderate, Fortitude DC 20</p>
+				<p id="price" class="stat-block-1"><b>Price</b> 50 gp</p>
+				<p id="effect-" class="stat-block-1"><b>Effect </b>1d4 rounds; <i><a href="../spells/rage.html#_rage" >rage</a> </i>as per the spell</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> 1 hour; cold resistance 5</p>
+				<p id="damage" class="stat-block-1"><b>Damage</b> 1d2 Con damage</p>
+				<p id="elven-absinthe" class="stat-block-title"><b>Elven Absinthe</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> ingested; <b>Addiction </b>moderate, Fortitude DC 16</p>
+				<p id="price" class="stat-block-1"><b>Price</b> 500 gp</p>
+				<p id="effects" class="stat-block-1"><b>Effects</b> 1 hour; +1d4 Cha</p>
+				<p id="damage" class="stat-block-1"><b>Damage</b> 1d4 Con damage</p>
+				<p id="flayleaf" class="stat-block-title"><b>Flayleaf</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> inhaled or ingested; <b>Addiction </b>minor, Fortitude DC 12</p>
+				<p id="price" class="stat-block-1"><b>Price</b> 10 gp</p>
+				<p id="effects" class="stat-block-1"><b>Effects</b> 1 hour; +2 alchemical bonus on saves against mind-affecting effects, fatigue</p>
+				<p id="damage" class="stat-block-1"><b>Damage</b> 1 Wis damage</p>
+				<p id="opium" class="stat-block-title"><b>Opium</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> inhaled, ingested, or injury; <b>Addiction </b>major, Fortitude DC 20</p>
+				<p id="price" class="stat-block-1"><b>Price</b> 25 gp</p>
+				<p id="effects" class="stat-block-1"><b>Effects</b> 1 hour; +1d8 temporary hit points, +2 alchemical bonus on Fortitude saves, fatigue</p>
+				<p id="damage" class="stat-block-1"><b>Damage</b> 1d4 Con and 1d4 Wis damage</p>
+				<p id="pesh" class="stat-block-title"><b>Pesh</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> ingested or inhaled; <b>Addiction </b>moderate, Fortitude DC 20</p>
+				<p id="price" class="stat-block-1"><b>Price</b> 15 gp</p>
+				<p id="effects" class="stat-block-1"><b>Effects</b> 1 hour; +1d2 alchemical bonus to Strength, &ndash;2 penalty on saves against illusions and mind-affecting effects</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> after 1 hour; 1d2 hours of fatigue</p>
+				<p id="damage" class="stat-block-1"><b>Damage</b> 1d2 Con and 1d2 Wis damage</p>
+				<p id="scour" class="stat-block-title"><b>Scour</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> ingested or inhaled; <b>Addiction </b>major, Fortitude DC 24</p>
+				<p id="price" class="stat-block-1"><b>Price</b> 45 gp</p>
+				<p id="effects-" class="stat-block-1"><b>Effects </b>3 hours; +1d4 alchemical bonus to Dexterity, &ndash;1d4 penalty to Wisdom</p>
+				<p id="damage-" class="stat-block-1"><b>Damage </b>1d6 Con damage</p>
+				<p id="shiver" class="stat-block-title"><b>Shiver</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> injury or ingested; <b>Addiction </b>major, Fortitude DC 18</p>
+				<p id="price" class="stat-block-1"><b>Price</b> 500 gp</p>
+				<p id="effects" class="stat-block-1"><b>Effects</b> variable; 50% chance to sleep for 1d4 hours or gain immunity to fear for 1d4 minutes</p>
+				<p id="damage" class="stat-block-1"><b>Damage</b> 1d2 Con damage</p>
+				<p id="zerk" class="stat-block-title"><b>Zerk</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> injury; <b>Addiction </b>minor, Fortitude DC 18</p>
+				<p id="price" class="stat-block-1"><b>Price</b> 50 gp</p>
+				<p id="effects-" class="stat-block-1"><b>Effects </b>1 hour; +1 alchemical bonus to initiative. If addicted, the user also gains a +1d4 alchemical bonus to Strength for as long as he is addicted </p>
+				<p id="damage-" class="stat-block-1"><b>Damage </b>1d2 Con damage</p>
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

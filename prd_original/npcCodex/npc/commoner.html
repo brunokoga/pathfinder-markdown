@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Commoners</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Commoners",globalNavPath=[{ href: '/pathfinderRPG/prd/npcCodex/npc/index.html', name: 'NPC Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="commoners">Commoners</h1>
+
+<p id="beggar" class="stat-block-title">Beggar <span class="stat-block-cr">CR 1/3</span></p>
+<p class="stat-block-1"><b>XP</b> 135</p>
+<p class="stat-block-1"><b>Half-elf commoner</b> 1</p>
+<p class="stat-block-1">CN Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> low-light vision; Perception +5</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 12, touch 12, flat-footed 10 (+2 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 4 (1d6+1)</p>
+<p class="stat-block-1"><b>Fort</b> +1, <b>Ref</b> +2, <b>Will</b> –1; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Immune</b> sleep</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> dagger –1 (1d4–1/19–20)</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>During Combat</b> The commoner offers his pitiful handful of copper pieces to buy his life. If refused, he lashes out with his dagger while screaming for help.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 8, <b>Dex</b> 14, <b>Con</b> 13, <b>Int</b> 11, <b>Wis</b> 9, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> –1; <b>CMD</b> 11</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +4, <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> +2, Perception +5, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (wind)</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven</p>
+<p class="stat-block-1"><b>SQ</b> elf blood</p>
+<p class="stat-block-1"><b>Gear</b> dagger, disguise kit, wooden flute, 203 gp<b></b></p>
+
+<p>A beggar has had a hard life. He might be honest in his begging, or he might pretend to be something he's not&mdash;such as disfigured or a war hero&mdash;to evoke sympathy.</p>
+		
+<p id="pig-farmer" class="stat-block-title">Pig Farmer <span class="stat-block-cr">CR 1/2</span></p>
+<p class="stat-block-1"><b>XP</b> 200</p>
+<p class="stat-block-1"><b>Human commoner</b> 2</p>
+<p class="stat-block-1">CN Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> –1; <b>Senses</b> Perception +0</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 9, touch 9, flat-footed 9 (–1 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 9 (2d6+2)</p>
+<p class="stat-block-1"><b>Fort</b> +1, <b>Ref</b> –1, <b>Will</b> +0</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> scythe –2 (2d4+1/×4) or</p>
+<p class="stat-block-2">club +2 (1d6+1)</p>
+<p class="stat-block-1"><b>Ranged</b> club +0 (1d6+1)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The commoner threatens aggressors with her scythe, but switches to her club if she actually has to attack.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 13, <b>Dex</b> 9, <b>Con</b> 12, <b>Int</b> 10, <b>Wis</b> 11, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +1; <b>CMB</b> +2; <b>CMD</b> 11</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a>, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a>)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (carpentry) +6, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +7, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +1, <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (farmer) +5</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>Gear</b> club, scythe, artisan's tools, pigs (8), bit and bridle, light horse, pack saddle, 251 gp</p>
+<p>Despite her muddy appearance, a pig farmer has many useful skills.</p>
+		
+<p id="miner" class="stat-block-title">Miner <span class="stat-block-cr">CR 1</span></p>
+<p class="stat-block-1"><b>XP</b> 400</p>
+<p class="stat-block-1"><b>Dwarf commoner</b> 3</p>
+<p class="stat-block-1">CN Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> –1; <b>Senses</b> darkvision 60 ft.; Perception +5</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 11, touch 9, flat-footed 11 (+2 armor, –1 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 16 (3d6+6)</p>
+<p class="stat-block-1"><b>Fort</b> +3, <b>Ref</b> +0, <b>Will</b> +2; +2 vs. poison, spells, and spell-like abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants)</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> miner's pick –2 (1d6+1) or heavy mace +2 (1d8+1)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The commoner uses whatever materials are available to avoid melee combat, such as a lantern he can smash to create a fire.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 13, <b>Dex</b> 8, <b>Con</b> 14, <b>Int</b> 9, <b>Wis</b> 13, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +1; <b>CMB</b> +2; <b>CMD</b> 11 (15 vs. bull rush or trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a>, <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> [miner])</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> +3 (+5 to assess nonmagical metals or gemstones), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +0, Perception +5 (+7 to notice unusual stonework), <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (miner) +9</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven</p>
+<p class="stat-block-1"><b>Gear</b> leather armor, heavy mace, miner's pick, pitons (10), rope (50 ft.), 753 gp</p>
+
+<p>A miner labors long hours in the dark, and spends his earnings freely during rare visits to the surface.</p>
+		
+<p id="accomplished-angler" class="stat-block-title">Accomplished Angler <span class="stat-block-cr">CR 2</span></p>
+<p class="stat-block-1"><b>XP</b> 600</p>
+<p class="stat-block-1"><b>Halfling commoner</b> 4</p>
+<p class="stat-block-1">CN Small humanoid (halfling)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> Perception +10</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 14, touch 14, flat-footed 11 (+3 Dex, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 10 (4d6–4)</p>
+<p class="stat-block-1"><b>Fort</b> +1, <b>Ref</b> +5, <b>Will</b> +3; +2 vs. fear</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> fishing pole –3 (1d4–2)</p>
+<p class="stat-block-1"><b>Ranged</b> sling +6 (1d3–2)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The commoner uses her sling and retreats to a safe location.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 6, <b>Dex</b> 16, <b>Con</b> 9, <b>Int</b> 10, <b>Wis</b> 12, <b>Cha</b> 13</p>
+<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> –1; <b>CMD</b> 12</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (Perception)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +5 (+1 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +0, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (cook) +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography, local, nature) +2, Perception +10, <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (fisherman) +6, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +2, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +2</p>
+<p class="stat-block-1"><b>Languages</b> Common, Halfling</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>; <b>Other Gear</b> sling with 10 bullets, fishing net, everburning torch, masterwork artisan's tools (fishing), 1,480 gp</p>
+
+<p>An accomplished angler prides herself on handling life's trials with aplomb.</p>
+		
+<p id="barmaid" class="stat-block-title">Barmaid <span class="stat-block-cr">CR 3</span></p>
+<p class="stat-block-1"><b>XP</b> 800</p>
+<p class="stat-block-1"><b>Human commoner</b> 5</p>
+<p class="stat-block-1">CN Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +6</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 12, touch 12, flat-footed 10 (+1 Dex, +1 dodge)</p>
+<p class="stat-block-1"><b>hp</b> 17 (5d6)</p>
+<p class="stat-block-1"><b>Fort</b> +1, <b>Ref</b> +2, <b>Will</b> +1</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 35 ft.</p>
+<p class="stat-block-1"><b>Melee</b> dagger +1 (1d4–1/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b> dagger +3 (1d4–1/19–20)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The commoner tries to talk her way out of a fight, and uses her dagger if that fails.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 8, <b>Dex</b> 13, <b>Con</b> 11, <b>Int</b> 9, <b>Wis</b> 10, <b>Cha</b> 13</p>
+<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> +1; <b>CMD</b> 13</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_fleet" >Fleet</a>, <a href="/pathfinderRPG/prd/feats.html#_nimble-moves" >Nimble Moves</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +4, Perception +6, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +6</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>Gear</b> dagger, antitoxin, 2,298 gp</p>
+
+<p>A barmaid isn't above passing messages or slipping a dose of sleeping poison into a drink if the price is right.</p>
+		
+<p id="shopkeeper" class="stat-block-title">Shopkeeper <span class="stat-block-cr">CR 4</span></p>
+<p class="stat-block-1"><b>XP</b> 1,200</p>
+<p class="stat-block-1"><b>Elf commoner</b> 6</p>
+<p class="stat-block-1">CN Medium humanoid (elf)</p>
+<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> low-light vision; Perception +11</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 13, touch 10, flat-footed 13 (+3 armor)</p>
+<p class="stat-block-1"><b>hp</b> 15 (6d6–6)</p>
+<p class="stat-block-1"><b>Fort</b> +1, <b>Ref</b> +2, <b>Will</b> +5; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Immune</b> sleep</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk rapier +3 (1d6–1/18–20)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The commoner calls for help, and uses alchemical items to delay attackers.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 9, <b>Dex</b> 10, <b>Con</b> 8, <b>Int</b> 14, <b>Wis</b> 12, <b>Cha</b> 13</p>
+<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +2; <b>CMD</b> 12</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a>)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> +11, <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +5, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history, local) +4, Perception +11, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +9, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +5 (+7 to identify magic item properties)</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven, Gnome, Halfling</p>
+<p class="stat-block-1"><b>SQ</b> elven magic, weapon familiarity</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, acid (2), alchemist's fire (2), tanglefoot bag, thunderstone; <b>Other Gear</b> masterwork studded leather, masterwork rapier, magnifying glass, merchant's scale, silver holy symbol, 638 gp</p>
+
+<p>A shopkeeper stocks a mix of useful supplies and gear for townsfolk and adventurers alike. The stat block above can be used for any typical merchant in a cosmopolitan settlement.</p>
+
+
+		
+<p id="ruffian" class="stat-block-title">Ruffian <span class="stat-block-cr">CR 5</span></p>
+<p class="stat-block-1"><b>XP</b> 1,600</p>
+<p class="stat-block-1"><b>Human commoner</b> 7</p>
+<p class="stat-block-1">N Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> Perception +4</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 11, touch 9, flat-footed 11 (+2 armor, –1 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 45 (7d6+21)</p>
+<p class="stat-block-1"><b>Fort</b> +3, <b>Ref</b> +1, <b>Will</b> +1</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk dagger +7 (1d4+3/19–20) or club +6 (1d6+4)</p>
+<p class="stat-block-1"><b>Ranged</b> dagger +2 (1d4+3/19–20)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The commoner fights with a dagger in his main hand, and holds another dagger in his off hand in case he wants to throw it.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 8, <b>Con</b> 12, <b>Int</b> 11, <b>Wis</b> 9, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +6; <b>CMD</b> 15</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a>, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a>), <a href="/pathfinderRPG/prd/feats.html#_step-up" >Step Up</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +5, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +8, Perception +4, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +1, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +9</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_feather-token" >feather token</a></i> (whip), <i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i>; <b>Other Gear</b> leather armor, club, daggers (4), masterwork dagger, manacles, rope (50 ft.), sunrods (4), 3,656 gp</p>
+
+<p>A ruffian makes a living by petty theft and robbery when he isn't working with a larger gang. Lacking the motivation to learn a profitable trade, a ruffian has spent a lifetime at hard unskilled labor, and isn't afraid to throw his weight around to get what he wants.</p>
+<p>Ruffians are employed anywhere brute strength is more important than skill or finesse and getting it done cheaply is better than getting it done well. Miners use ruffians to push carts; farmers hire them to load wagons; merchants, thieves' guilds, and cults use them as enforcers and guards; and street gangs enlist them to bolster their numbers.</p>
+
+
+<p id="village-elder" class="stat-block-title">Village Elder <span class="stat-block-cr">CR 6</span></p>
+<p class="stat-block-1"><b>XP</b> 2,400</p>
+<p class="stat-block-1"><b>Half-orc commoner</b> 8</p>
+<p class="stat-block-1">CN Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> darkvision 60 ft.; Perception +4</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 15, touch 11, flat-footed 14 (+4 armor, +1 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 28 (8d6)</p>
+<p class="stat-block-1"><b>Fort</b> +1, <b>Ref</b> +3, <b>Will</b> +6</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> orc ferocity</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk spear +4 (1d8–1/×3)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The commoner calls for help, then fights defensively or uses total defense until allies arrive.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 9, <b>Dex</b> 12, <b>Con</b> 8, <b>Int</b> 12, <b>Wis</b> 14, <b>Cha</b> 12</p>
+<p class="stat-block-1"><b>Base Atk</b> +4; <b>CMB</b> +3; <b>CMD</b> 14</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_persuasive" >Persuasive</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +5, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +7, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +9, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +9, Perception +4, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (oratory) +5, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +12</p>
+<p class="stat-block-1"><b>Languages</b> Common, Giant, Orc</p>
+<p class="stat-block-1"><b>SQ</b> orc blood, weapon familiarity</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a>, potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>; <b>Other Gear</b> masterwork chain shirt, masterwork spear, courtier's outfit, bit and bridle, light horse, riding saddle, 4,731 gp</p>
+
+<p>As a respected person in her community, an elder takes it upon herself to stand up to any troublemakers in her village despite her advancing years. She maintains a fine political balance between the clergy, merchants, and commoners in her town, using diplomacy and information to defuse arguments.</p>
+<p>If anyone attacks the elder, she calls for guards (warriors 3) and recruits (warriors 1) to protect her, and most other townsfolk call for additional help if they can not or dare not assist her directly.</p>
+
+
+<p id="constable" class="stat-block-title">Constable <span class="stat-block-cr">CR 7</span></p>
+<p class="stat-block-1"><b>XP</b> 3,200</p>
+<p class="stat-block-1"><b>Human commoner</b> 9</p>
+<p class="stat-block-1">NE Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> Perception +14</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 14, touch 10, flat-footed 14 (+4 armor)</p>
+<p class="stat-block-1"><b>hp</b> 49 (9d6+18)</p>
+<p class="stat-block-1"><b>Fort</b> +5, <b>Ref</b> +4, <b>Will</b> +6</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> <i>+1 spear</i> +8 (1d8+4/×3) or</p>
+<p class="stat-block-2">mwk sap +7 (1d6+2 nonlethal)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk light crossbow +5 (1d8/19–20)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The commoner calls for backup, and pursues an enemy who flees or fights defensively against one who stays to fight it out.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 11, <b>Con</b> 13, <b>Int</b> 10, <b>Wis</b> 10, <b>Cha</b> 9</p>
+<p class="stat-block-1"><b>Base Atk</b> +4; <b>CMB</b> +6; <b>CMD</b> 16</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, Light Armor Proficiency, <a href="/pathfinderRPG/prd/feats.html#_martial-weapon-proficiency" >Martial Weapon Proficiency</a> (sap), <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (spear)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +6, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +4, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +3, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +6, Perception +14, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +5, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +11, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>potion of <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), tanglefoot bags (4); <b>Other Gear</b> masterwork chain shirt, <i>+1 spear</i>, masterwork light crossbow with 10 bolts, masterwork sap, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, everburning torch, sunrods (5), bit and bridle, heavy horse (combat trained), military saddle, 2,568 gp</p>
+
+<p>A gruff, no-nonsense sort, a constable prefers a stern warning to violence, but doesn't hesitate to crack a belligerent nuisance over the head.</p>
+<p>Depending on the size of the town she protects, the constable's minions may include guards (warriors 3), a larger number of recruits (warriors 1), and perhaps a tavern champion (warrior 5). In a smaller community, she may only be able to gather a group of pig farmers (commoners 2) and perhaps some miners (commoners 4) to serve as a militia. Unless dealing with monsters, the constable's job is to arrest and detain, not kill.</p>
+
+
+<p id="traitor" class="stat-block-title">Traitor <span class="stat-block-cr">CR 8</span></p>
+<p class="stat-block-1"><b>XP</b> 4,800</p>
+<p class="stat-block-1"><b>Human commoner</b> 10</p>
+<p class="stat-block-1">CE Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> –1; <b>Senses</b> Perception +14</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 11, touch 9, flat-footed 11 (+2 armor, –1 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 55 (10d6+20)</p>
+<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +4, <b>Will</b> +6</p>
+<p class="stat-block-1"><b>Immune</b> <i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i>, <i><a href="/pathfinderRPG/prd/spells/discernLies.html#_discern-lies" >discern lies</a></i>, alignment detection</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> light mace +4 (1d6–1)</p>
+<p class="stat-block-1"><b>Ranged</b> splash weapon +4 (varies)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The traitor hides behind any available allies and throws alchemical items, fighting in melee only as a last resort.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 9, <b>Dex</b> 8, <b>Con</b> 12, <b>Int</b> 12, <b>Wis</b> 12, <b>Cha</b> 14</p>
+<p class="stat-block-1"><b>Base Atk</b> +5; <b>CMB</b> +4; <b>CMD</b> 13</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a>), <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +18, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +3, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +6, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +3, Perception +14, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +5, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +12</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven, Elven, Halfling</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a>,</i> acid (2), alchemist's fire (2); <b>Other Gear</b> leather armor, light mace, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-mind-shielding" >ring of mind shielding</a></i>, 875 gp</p>
+
+<p>A trusted and respected pillar of his community, a traitor keeps a kind face and speaks honeyed words, all the while betraying his people for his own selfish gain. In the long run, he doesn't care who gets hurt or killed by his devious plans, as long as he is able to profit from it in terms of status or wealth.</p>
+<p>The traitor may have the village elder (commoner 8) under his thumb, or may keep several ruffians (commoners 7) at his beck and call. If allied with an evil cult, he may be able to get help from enforcers (adepts 5) or initiates (adepts 3) to enact his plans and keep a cultist (adept 10) on a short leash or at a safe distance.</p>
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

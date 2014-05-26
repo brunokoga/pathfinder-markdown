@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Wounds and Vigor</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Wounds and Vigor",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateCombat/variants/introduction.html', name: 'Mastering Combat' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="wounds-and-vigor">Wounds and Vigor</h1>
+				
+				<p>Hit points are an abstraction. When a fighter gains a level, his body does not suddenly become more resistant to damage. A sword's strike does not suddenly do proportionately less damage. Rather, hit points suggest that the fighter has undergone more training, and while he may have improved his ability to deal with wounds to a small degree, the hit points gained at higher levels reflect less his capacity for physical punishment and more his skill at avoiding hits, his ability to dodge and twist and turn. Each loss of hit points, in this case, suggests that he is becoming progressively less nimble over the course of combat&mdash;in other words, that the decreasing hit points are a marker for his <i>overall</i> endurance and condition. It's not quite as satisfying, however, to roll a critical hit and then tell a player that his opponent ducked out of the way, but that the sword's slash made the enemy a little less lucky.</p>
+				<p>This variant system for tracking wounds and vigor should help to remedy that. As with the other systems in this chapter, this system is entirely optional. </p>
+				
+				<h1 id="determining-wound-points-and-vigor-points">Determining Wound Points and Vigor Points</h1>
+				
+				<p>Instead of hit points, creatures using this system have a number of wound points and vigor points. These two replacement scores are kept track of separately, and represent different ways a character handles the damage inflicted on him. The following are descriptions of these scores and how they work within the variant system of damage tracking.</p>
+				<h2 id="wound-points">Wound Points</h2>
+				<p>Typically a creature has a number of wound points equal to twice its Constitution score. It also has a wound threshold equal to its Constitution score. </p>
+				<p>Wound points represent the amount of physical punishment a creature can take before it dies. When a creature's wound points drop to or below its wound threshold, that creature becomes wounded. When a creature is wounded, it gains the staggered condition until it is no longer wounded. Furthermore, when a creature is wounded, if that creature takes any standard or move action on its turn, its remaining wound points are reduced by 1 and it must make a DC 10 Constitution check. If the creature fails that check, it falls unconscious.</p>
+				<p>When a creature reaches 0 or fewer wound points, it is dead.</p>
+				<p id="wound-points-and-constitution-damage,-drain,-and-penalties"><b>Wound Points and Constitution Damage, Drain, and Penalties</b>: A creature's wound points and Constitution score are intrinsically linked. For each point of Constitution damage a creature takes, it loses 2 wound points, but this damage does not affect the creature's wound threshold. When a creature takes a penalty to its Constitution score or its Constitution is drained, it loses 1 wound point per point of drain or per penalty for the duration of the penalty or drain. A penalty to Constitution or Constitution drain has no effect on the creature's wound threshold.</p>
+				
+				<h2 id="vigor-points">Vigor Points</h2>
+				<p>Vigor represents a creature's ability to avoid the majority of actual physical damage it might take from an attack. When a creature takes damage, the damage typically reduces its vigor points first. Some special attacks either deal wound point damage directly or deal both vigor and wound point damage (see Critical Hits).</p>
+				<p>Creatures with one or more full Hit Dice or levels gain vigor points. With each level gained or each Hit Die a creature has, it gains a number of vigor points based on its Hit Die type. Use the creature's Hit Dice to generate its vigor points, just like you would hit points, but without adding the creature's Constitution modifier. A creature gains maximum vigor points on its first Hit Die if it comes from a character class level. Creatures whose first full Hit Die comes from an NPC class or from their race roll their Hit Dice to determine their starting vigor points. A creature with less than one Hit Die has no vigor points; it only has wound points.</p>
+				<p>When a creature no longer has any vigor points, any additional damage it takes reduces its wound point total.</p>
+				<h1 id="regaining-wound-points-and-vigor-points">Regaining Wound Points and Vigor Points</h1>
+				<p>A creature can regain wound and vigor points in a number of ways, but in general it is easier to regain vigor points. </p>
+				<p id="healing-spells-and-effects"><b>Healing Spells and Effects</b>: When casting healing spells or using an ability with a healing effect (such as channeling holy energy on living creatures or the paladin's lay on hands ability), the creature casting the spell or using the effect must choose whether it wants to heal wound points or vigor points. The creature decides this before casting the spell or using the ability. When that creature decides to heal vigor points, the healing spell or effect acts normally, replenishing a number of vigor points equal to the number of hit points the spell or effect would normally heal. If the creature decides to heal wound points, it heals a number of wound points equal to the number of dice it would normally roll for the healing spell or effect. In the case of effects like the <i><a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a></i> spell, where a spell or effect heals 10 hit points per caster level, the creature heals its caster level in wound points. </p>
+				<p>For instance, if a 12th-level cleric uses her channel positive energy power to replenish wound points to living creatures, she would typically heal 6 wound points for all living creatures with her channel energy burst. If she casts the <i><a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a></i> spell, she would restore 12 wound points to the creature touched. </p>
+				<p id="rest"><b>Rest</b>: When a creature has a full night's rest (8 hours of sleep or more), that creature regains all its vigor points and 1 wound point. If there is a significant interruption during a rest, the creature regains neither wound points nor vigor points. If a creature undergoes complete bed rest for an entire day, it regains half its level in wound points and all its vigor points. </p>
+				<p id="restoration-and-similar-effects"><b>Restoration and Similar Effects</b>: When a creature regains Constitution points by way of the <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration" >restoration</a></i> spell or a similar effect, that creature regains 2 wound points for every Constitution point regained. Relieving a Constitution penalty or Constitution drain regains any wound points that were lost from that penalty or drain. </p>
+				
+				<h1 id="attacks-that-deal-wound-point-damage">Attacks that Deal Wound point Damage</h1>
+				<p>Some attacks can be used to deal wound points damage directly.</p>
+				<p id="critical-hits"><b>Critical Hits</b>: When a creature is subject to a critical hit, the critical hit deals the damage normally, reducing vigor points first, and then reducing wound points when vigor points are gone. It also deals an amount of wound point damage equal to its critical multiplier (for example, 3 wound points for a weapon with a &times;3 modifier), on top of any wound point damage the creature might take from the critical hit. </p>
+				<p id="negative-energy-damage"><b>Negative Energy Damage</b>: When a creature deals negative energy damage to a creature with a spell or effect, it can choose to deal wound point or vigor point damage (but not both) with the spell or effect. If that creature chooses to deal vigor point damage, the spell or effect deals negative energy damage normally, and that damage reduces vigor points only, even if it deals more damage than the target has vigor points. If the spell or effect deals negative energy damage to wound points directly, it deals an amount of wound point damage equal to the number of dice the creature would roll for that effect; if the effect deals a number of points per caster level (such as the <i><a href="/pathfinderRPG/prd/spells/harm.html#_harm" >harm</a></i> spell), it deals a number of wound points equal to the caster level of the spell. </p>
+				
+				<h1 id="other-considerations">Other Considerations</h1>
+				<p>The following are a few other considerations to take into account when using the wounds and vigor system.</p>
+				<p id="temporary-hit-points"><b>Temporary Hit Points</b>: When a creature would normally gain temporary hit points, it gains temporary vigor points instead. When that creature takes damage, it loses these temporary vigor points first. If an attack deals damage to wound points only, these temporary vigor points are not lost. </p>
+				<p id="nonlethal-damage"><b>Nonlethal Damage</b>: When a creature takes nonlethal damage, it takes that damage in vigor points only, even if the attack deals more damage than the creature has vigor points. If the creature has no vigor points (and no temporary vigor points), each time that creature takes damage from an attack that deals nonlethal damage, it takes either 1 wound point of damage, or a number of wound points in damage equal to the attack's critical hit modifier if the attack is a critical hit.</p>
+				<p id="spells-or-effects-with-hit-point-triggers"><b>Spells or Effects with Hit Point Triggers</b>: When using this system, if a spell or an ability has an effect that occurs when you reduce a creature to 0 or fewer hit points (such as the <i><a href="/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate" >disintegrate</a> </i>spell), that effect is instead triggered when a creature is wounded. In the case of the <i><a href="/pathfinderRPG/prd/spells/harm.html#_harm" >harm</a></i> spell or a similar effect where a creature cannot be reduced below 1 hit point by the spell or effect, a creature's wound points cannot be reduced to or below that creature's wound threshold. </p>
+				<h1 id="wounds-and-vigor-variant-feats">Wounds and Vigor Variant Feats</h1>
+				<p>The following feats are either new for the wounds and vigor system or work differently in that system.</p>
+				<h2 id="deathless-initiate-(combat)">Deathless Initiate (Combat)</h2>
+				<p>For you, impending death is a call to wrath.</p>
+				<p id="prerequisites" class="stat-block-2"><b>Prerequisites</b>: Str 13, Con 13, <a href="/pathfinderRPG/prd/feats.html#_diehard" >Diehard</a>, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, base attack bonus +6, orc or half-orc.</p>
+				<p id="benefit" class="stat-block-2"><b>Benefit</b>: You are not staggered when your wound points reach your wound threshold, but you lose 1 wound point if you take any action during your turn. You only take 1 wound point each round when you take actions. Furthermore, you gain a +2 bonus on melee attacks and damage rolls when your wound points are at or below your wound threshold.</p>
+				<h2 id="deathless-master-(combat)">Deathless Master (Combat)</h2>
+				<p>Even if you suffer a grievous wound, you can shrug off the damage and continue your relentless assault.</p>
+				<p id="prerequisites" class="stat-block-2"><b>Prerequisites</b>: Str 13, Con 15, <a href="../ultimateCombatFeats.html#_deathless-initiate-(combat)" >Deathless Initiate</a>, <a href="/pathfinderRPG/prd/feats.html#_diehard" >Diehard</a>, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_ironhide" >Ironhide</a>, base attack bonus +9, orc or half-orc.</p>
+				<p id="benefit" class="stat-block-2"><b>Benefit</b>: When your wound points reach your wound threshold, you do not take 1 wound point when you take an action. </p>
+				<h2 id="diehard">Diehard</h2>
+				<p>You keep on going, even when your wound points are lower than your wound threshold. </p>
+				<p id="benefit" class="stat-block-2"><b>Benefit</b>: When your current wound point total is below your wound threshold, you do not need to succeed at the DC 10 Constitution check to stay conscious. </p>
+				<h2 id="toughness">Toughness</h2>
+				<p>You have enhanced physical stamina.</p>
+				<p id="benefit" class="stat-block-2"><b>Benefit</b>: You gain 1 wound point for every level or Hit Die your character has. </p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

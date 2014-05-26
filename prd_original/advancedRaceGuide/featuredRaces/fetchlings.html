@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Fetchlings</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Fetchlings",globalNavPath=[{ href: '/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html', name: 'Featured Races'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body">
+
+<h1 id="fetchlings">Fetchlings </h1>
+<p>Descended from humans trapped on the Shadow Plane, fetchlings are creatures of darkness and light intertwined. Generations of contact with that strange plane and its denizens have made fetchlings a race apart from humanity. While fetchlings acknowledge their origins, they exhibit little physical or cultural resemblance to their ancestors on the Material Plane, and are often insulted when compared to humans. Some members of the race also take offense at the name fetchling, as it was given to them by humans who saw them as little more than fetchers of rare materials from the Shadow Plane. Most fetchlings instead prefer to be called <i>kayal</i>, a word borrowed from Aklo that roughly translates to "shadow people" or "dusk dwellers."  </p>
+<p>Infused with the essence of the Shadow Plane and possessing human blood commingled with that of the Shadow Plane's natives, fetchlings have developed traits and abilities that complement their native plane's bleak and colorless terrain. Though most fetchlings treat the Shadow Plane as home, they often trade and deal with creatures of the Material Plane. Some fetchlings go so far as to create enclaves on the Material Plane in order to establish alliances and trade routes in areas where the boundary between the two planes is less distinct. These fetchlings often serve as merchants, middlemen, and guides for races on both sides of the planar boundary. </p>
+<p><b>Physical Description</b>: Superficially, fetchlings resemble unnaturally lithe&mdash;bordering on fragile&mdash;humans. Their adopted home has drained their skin and hair of bright colors. Their complexion ranges from stark white to deep black, and includes all the various shades of gray between those two extremes. Their eyes are pupilless and pronounced, and they typically glow a luminescent shade of yellow or greenish yellow, though rare individuals possess blue-green eyes. While their hair tends to be stark white or pale gray, many fetchlings dye their hair black. Some members of higher station or those who dwell on the Material Plane dye their hair with more striking colors, often favoring deep shades of violet, blue, and crimson.</p>
+<p><b>Society</b>: Fetchling are adaptable creatures, and as such display no singular preference for moral philosophy or the rule of law. Most mimic the cultural norms and governmental structures of those they live near or the creatures they serve. While fetchlings are arguably the most populous race on the Shadow Plane, they rarely rule over their own kind; most serve as vassals or subjects to the great umbral dragons of their homeland, or the bizarre nihiloi who dwell in the deeper darkness. Above all, fetchlings are survivors. Their tenacity, versatility, and devious pragmatism have helped them survive the harsh environs of the Shadow Plane and plots of the powerful creatures dwelling within it. On the Material Plane, especially if unable to return to their home plane at will, fetchlings tend to cluster in small, insular communities of their own kind, mimicking the cultural norms and political structures of those they trade with.</p>
+<p><b>Relations</b>: Because of their shared ancestry, fetchlings interact most easily with humans, though they also find kinship with gnomes and other races that were cut off from their home planes or are not native to the Material Plane. Their pragmatism and adaptable nature put them at odds with warlike or destructive races, and when they do have to deal with orcs, goblinoids, or other savage cultures, fetchlings will often play the part of the fawning sycophant, a tactic learned from serving umbral dragons and one they see as key to their race's survival. Strangely, their relationship with dwarves and elves are rather strained. Dwarves find fetchlings duplicitous and creepy, while the tension with elves is so subtle and inexplicable that both races find it difficult to explain. </p>
+<p><b>Alignment and Religion</b>: Fetchlings&mdash;especially those living outside the Shadow Plane&mdash;worship a wide variety of gods. A smaller number of evil fetchlings worship demon lords of darkness and lust.</p>
+<p><b>Adventurers</b>: The Shadow Plane's ever-present hazards pose great danger to fetchling adventurers, but also great opportunity. Because of their servile status on their home plane, however, most fetchlings prefer to adventure on the Material Plane, which often offers more freedom and trading opportunities between the two planes. Fetchlings make excellent ninjas, oracles, rangers, rogues, and summoners.</p>
+<p><b>Male Names</b>: Arim, Drosil, Jegan, Somar, Yetar, Zoka.</p>
+<p><b>Female Names</b>: Acera, Amelisce, Inva, Renza, Zaitherin.</p>
+
+<h1 id="fetchling-racial-traits">Fetchling Racial Traits</h1>
+<p id="+2-dexterity,-+2-charisma,--2-wisdom"><b>+2 Dexterity, +2 Charisma, &ndash;2 Wisdom</b>: Fetchlings are quick and forceful, but often strange and easily distracted by errant thoughts.</p>
+<p id="native-outsider"><b>Native Outsider</b>: Fetchlings are outsiders with the native subtype.</p>
+<p id="medium"><b>Medium</b>: Fetchlings are Medium creatures and receive no bonuses or penalties due to their size.</p>
+<p id="normal-speed"><b>Normal Speed</b>: Fetchlings have a base speed of 30 feet.</p>
+<p id="darkvision"><b>Darkvision</b>: Fetchlings can see in the dark up to 60 feet.</p>
+<p id="low-light-vision"><b>Low-Light Vision</b>: Fetchlings can see twice as far as humans in conditions of dim light.</p>
+<p id="skilled"><b>Skilled</b>: Fetchlings have a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) and <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks.</p>
+<p id="shadow-blending"><b>Shadow Blending (Su)</b>: Attacks against a fetchling in dim light have a 50% miss chance instead of the normal 20% miss chance. This ability does not grant total concealment; it just increases the miss chance.</p>
+<p id="shadowy-resistance"><b>Shadowy Resistance</b>: Fetchlings have cold resistance 5 and electricity resistance 5.</p>
+<p id="spell-like-abilities"><b>Spell-Like Abilities (Sp)</b>: A fetchling can use <i><a href="/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self" >disguise self</a></i> once per day as a spell-like ability. He can assume the form of any humanoid creature using this spell-like ability. When a fetchling reaches 9th level in any combination of classes, he gains <i><a href="/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk" >shadow walk</a></i> (self only) as a spell-like ability usable once per day, and at 13th level, he gains <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> (self only, to the Shadow Plane or the Material Plane only) usable once per day. A fetchling's caster level is equal to his total Hit Dice.</p>
+<p id="languages"><b>Languages</b>: Fetchlings begin play speaking Common. Fetchlings with a high Intelligence scores can choose from the following: Aklo, Aquan, Auran, Draconic, D'ziriak (understanding only, cannot speak), Ignan, Terran, and any regional human tongue.</p>
+
+
+<h1 id="shadow-creature-(cr-+1)">Shadow Creature (CR +1)</h1>
+<p>Creatures with the shadow creature template dwell on the Shadow Plane, only rarely venturing onto other, brighter planes, and can be summoned by shadow callers. A shadow creature's CR increases by +1. A shadow creature's quick and rebuild rules are the same.</p>
+<p id="rebuild-rules"><b>Rebuild Rules</b>: <b>Senses</b> gains darkvision and low-light vision 60 ft.; <b>Defensive Abilities</b> gains energy resistance and DR as noted on the table below; <b>SR</b> gains SR equal to new CR + 5; <b>Special Abilities</b> <i>Shadow Blend (Su)</i> In any condition of illumination other than bright light, a shadow creature blends into the shadows, giving it concealment (20% miss chance). A shadow creature can suspend or resume this ability as a free action.</p>
+
+<table><caption>Shadow Creature Defenses</caption>
+<thead><tr><th>Hit Dice</th><th>Resist Cold and Electricity</th><th>DR</th></tr></thead>
+<tr class="odd"><td>1&ndash;4</td><td>5</td><td>&mdash;</td></tr>
+<tr class="even"><td>5&ndash;10</td><td>10</td><td>5/magic</td></tr>
+<tr class="odd"><td>11+</td><td>15</td><td>10/magic</td></tr></table>
+
+<h1 id="alternate-racial-traits">Alternate Racial Traits</h1>
+<p>The following racial traits may be selected instead of existing fetchling racial traits. Consult your GM before selecting any of these new options.</p>
+<p id="emissary"><b>Emissary</b>: Rare fetchlings excel in the role of emissary between the Shadow Plane and the Material Plane. Once per day, such a fetchling can roll twice when making a <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> or <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check and take the better roll. This racial trait replaces shadow blending. </p>
+<p id="gloom-shimmer"><b>Gloom Shimmer</b>: Some fetchlings can manipulate shadowy energy in order to displace their location instead of transporting between shadows. Upon reaching 9th level, instead of gaining <i><a href="/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk" >shadow walk</a></i> as a spell-like ability, these fetchlings gain <i><a href="/pathfinderRPG/prd/spells/displacement.html#_displacement" >displacement</a></i> as a spell-like ability usable twice per day. For this ability, a fetchling's caster level is equal to his total Hit Dice. This racial trait modifies the spell-like ability racial trait.  </p>
+<p id="shadow-magic"><b>Shadow Magic</b>: Fetchlings who spend their time studying the subtle magic of their adopted plane gain arcane insights on the use of shadow spells. These fetchlings gain a +1 racial bonus to the DC of any illusion (shadow) spells they cast. This racial trait replaces the skilled racial trait. </p>
+<p id="subtle-manipulator"><b>Subtle Manipulator</b>: Rather than taking on the forms of others, some fetchling are adept at destroying the memories of other creatures. Instead of gaining <i><a href="/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self" >disguise self</a></i> as a spell-like ability, such fetchlings can use <i><a href="/pathfinderRPG/prd/advanced/spells/memoryLapse.html#_memory-lapse" >memory lapse</a> </i> once per day as a spell-like ability. For this ability, a fetchling's caster level is equal to his total Hit Dice. This racial trait modifies the spell-like ability racial trait.</p>
+<p id="world-walker"><b>World Walker</b>: Fetchlings who have spent most of their lives on the Material Plane can become more acclimated to their new environments. Instead of gaining a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) checks, these fetchlings gain a +1 racial bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) and <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) checks. This racial trait modifies the skilled racial trait. </p>
+
+<h1 id="favored-class-options">Favored Class Options</h1>
+<p>The following options are available to all fetchlings who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.</p>
+<p id="oracle"><b>Oracle</b>: Treat the oracle's level as +1/3 higher for the purposes of determining which of its racial spell-like abilities it can use.</p>
+<p id="ranger"><b>Ranger</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks made on the Plane of Shadow.</p>
+<p id="rogue"><b>Rogue</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> and <a href="/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> checks made while in dim light or darkness. </p>
+<p id="sorcerer"><b>Sorcerer</b>: Add +1/2 to either cold or electricity resistance (maximum resistance 10 for either type).</p>
+<p id="summoner"><b>Summoner</b>: The summoner's eidolon gains resistance 1 against either cold or electricity. Each time the summoner selects this reward, he increases his eidolon's resistance to one of those energy types by 1 (maximum 10 for any one energy type).</p>
+<p id="wizard"><b>Wizard</b>: Add one spell from the wizard spell list to wizard's spellbook. The spell must be at or below the highest level he can cast and be of the illusion (shadow) subschool or have the darkness descriptor.</p>
+
+<h1 id="racial-archetypes">Racial Archetypes</h1>
+<p>The following racial archetypes are available to fetchlings.</p>
+
+<h2 id="dusk-stalker-(ranger)">Dusk Stalker (Ranger)</h2>
+<p>Hunters and guides through the Shadow Plane, dusk stalkers are rangers that thrive in shadow. Adept at hunting in dusk, darkness, and twilight, these rangers excel at manipulating shadows. </p>
+<p id="class-skills"><b>Class Skills</b>: The dusk stalker adds <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) to his list of class skills and removes <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) from his list of class skills.</p>
+<p id="shadow-guide"><b>Shadow Guide</b>: When a dusk stalker gains the favored terrain ability, that ability is modified in the following ways. At 3rd level, a dusk stalker picks his primary terrain normally, but only gains a +1 bonus on those checks while on a plane other than the Shadow Plane, and gains a +3 bonus on those checks while on the Shadow Plane. Each time he chooses to add a bonus in a favored terrain, he gains a +1 bonus on those checks while on a plane other than the Shadow Plane, and gains a +3 bonus on those checks while on the Shadow Plane. This ability modifies favored terrain. </p>
+<p id="shadow-bond"><b>Shadow Bond (Su)</b>: At 4th level, a dusk stalker creates a mystical bond with shadows. The shadows around a dusk stalker weave and swirl, confusing his enemies. When a dusk stalker is fighting in dim light or darkness (magical or otherwise), he gains a +4 insight bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks made to move through an enemy's threatened area or through its space. Furthermore, a number of times per day equal to his Wisdom modifier, the dusk stalker can manipulate shadows in a 5-foot square within 30 feet. That square must be in an area of dim light or darkness (magical or otherwise). Enemies with an Intelligence score within or adjacent to that 5-foot square take a &ndash;2 penalty to AC and on Reflex saving throws. The harassing shadows last for 1 round. This is a mind-affecting fear effect. This ability replaces hunter's bond. </p>
+<p id="dark-sight"><b>Dark Sight (Su)</b>: At 12th level, a dusk stalker gains the see in darkness ability. This ability replaces camouflage. </p>
+
+<h2 id="shadow-caller-(summoner)">Shadow Caller (Summoner)</h2>
+<p>While most summoners can call any manner of creature from across the planes to serve them in combat, supplementing the skills of their eidolon with a diverse range of creatures, others eschew this broad utility and instead concentrate upon calling forth entities from the Shadow Plane. A shadow caller has the following class features.</p>
+<p id="class-skills"><b>Class Skills</b>: The shadow caller adds <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> to his list of class skills and removes <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> from his list of class skills.</p>
+<p id="shadow-summoning"><b>Shadow Summoning (Sp)</b>: When a shadow caller uses his <i>summon monster</i> ability or casts the <i>summon monster</i> spell, he typically summons creatures from the Shadow Plane or creatures closely associated with shadow. When a creature on the <i>summon monster</i> spell list indicates that it is summoned with either the celestial or the fiendish template based on the alignment of the caster, the creature summoned by the shadow caller has the shadow creature template instead . Furthermore, the <i>summon monster</i> lists are modified in the following ways (these changes also apply to using a higher-level summon spell to summon multiple creatures from a lower-level list).</p>
+<blockquote>
+<p id="summon-monster-i"><i>Summon Monster I</i>: No changes.</p>
+<p id="summon-monster-ii"><i>Summon Monster II</i>: A shadow caller cannot summon Small elementals or lemures, but instead can summon zoogs. </p>
+<p id="summon-monster-iii"><i>Summon Monster III</i>: A shadow caller cannot summon dretches or lantern archons, but can summon augur kytons. </p>
+<p id="summon-monster-iv"><i>Summon Monster IV</i>: A shadow caller cannot summon Medium elementals, hell hounds, hound archons, or mephits, but can summon allips , gloomwings , and shadows. </p>
+<p id="summon-monster-v"><i>Summon Monster V</i>: A shadow caller cannot summon babau, bearded devils, bralani azatas, Large elementals, salamanders, or xills, but can summon shadow mastiffs  and shae.</p>
+<p id="summon-monster-vi"><i>Summon Monster VI</i>: A shadow caller cannot summon Huge elementals, erinyes, lillend azatas, or succubi, but can summon cloakers. </p>
+<p id="summon-monster-vii"><i>Summon Monster VII</i>: A shadow caller cannot summon bebiliths, bone devils, greater elementals, or vrocks, but can summon greater shadows. </p>
+<p id="summon-monster-viii"><i>Summon Monster VIII</i>: A shadow caller can only summon derghodaemons  and young umbral dragons.</p>
+<p id="summon-monster-ix"><i>Summon Monster IX</i>: A shadow caller can only summon interlocutor kytons  and nightwings.</p>
+</blockquote>
+<p>This ability otherwise functions as and replaces the summoner's normal <i>summon monster </i>spell-like abilities.</p>
+<p id="shadow-eidolon"><b>Shadow Eidolon</b>: A shadow caller's eidolon is at once a thing of shadow called from the deep of the Shadow Plane and his own shadow; the two are inseparable. When his eidolon manifests, his shadow lengthens and finally detaches from him as a creature unto itself. For as long as the shadow caller's eidolon is manifested, he and the eidolon do not have distinct shadows, regardless of the presence or absence of light. This lack of a shadow replaces the magical symbol that identifies the summoner and his eidolon.</p>
+<p>This ability alters the summoner's eidolon ability. </p>
+
+<h2 id="new-evolutions">New Evolutions</h2>
+<p>The following evolutions are available to all summoners.</p>
+
+<h3>2-Point Evolutions</h3><p id="shadow-blend"><b>Shadow Blend (Su)</b>: In any condition of illumination other than bright light, the eidolon disappears into the shadows, giving it concealment (20% miss chance). If it has the shadow form evolution, it instead gains total concealment (50% miss chance). The eidolon can suspend or resume this ability as a free action.</p>
+<p id="shadow-form"><b>Shadow Form (Su)</b>: The eidolon's body becomes shadowy and more indistinct. This shadow form grants the eidolon constant concealment (20% miss chance), and its melee attacks affect incorporeal creatures as if it had the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a></i> weapon property. The eidolon's melee attacks deal only half damage to corporeal creatures.</p>
+
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The following options are available to fetchlings. At the GM's discretion, other appropriate races may make use of some of these new rules.</p>
+
+<h2 id="fetchling-equipment">Fetchling Equipment</h2>
+<p>The following alchemical items either boost the strange physiology of fetchlings or augment their abilities to manipulate shadow and darkness.</p>
+<p id="darklight-lantern"><b>Darklight Lantern</b>: This lantern does not burn oil, but instead burns shadowcloy (see below). When shadowcloy is used as its fuel, this lantern creates a strange, hazy darkness that decreases the light level for 30 feet around it by one step . Unlike when shadowcloy is thrown at a single target, this haze does not decrease natural  darkness to supernatural darkness. One flask of shadowcloy fuels a darklight lantern for 1 minute. </p>
+<p id="gloom-sight-goggles"><b>Gloom Sight Goggles</b>: These nonmagical goggles are set with a piece of alchemically treated, black, obsidianlike stone found in the mountainous regions of the Shadow Plane. Gloom sight goggles interact with the unique eyes of fetchlings in such a way that when the goggles are worn over both eyes, they expand the range of a fetchling's darkvision to 90 feet, but the fetchling also gains the light sensitivity weakness. Other races cannot see through the lenses of these goggles, and they have no affect on fetchlings whose eyes have been modified by the Gloom Sight feat. Though they are alchemical rather than magical in nature, these goggles take up the magic item eye slot.</p>
+<p id="shadowcloy"><b>Shadowcloy</b>: This thin black liquid is stored in airtight flasks because it evaporates quickly when exposed to air. Its cloying vapors cling to a target, obscuring vision for a short period of time. You can throw a shadowcloy flask as a splash weapon with a range increment of 10 feet. A direct hit means the target treats the ambient light as one category darker than normal , with a creature already in natural darkness treating it as supernatural darkness. This effect lasts for 1 round. A thrown shadowcloy flask has no effect on adjacent creatures or if it misses.</p>
+
+<table><caption>Fetchling Equipment</caption>
+<thead><tr><th>Item</th><th>Cost</th><th>Weight</th><th>Craft DC</th></tr></thead>
+<tr class="odd"><td>Darklight lantern </td><td>20 gp</td><td>3 lbs.</td><td>&mdash;</td></tr>
+<tr class="even"><td>Gloom sight goggles</td><td>200 gp</td><td>&mdash;</td><td>25</td></tr>
+<tr class="odd"><td>Shadowcloy flask</td><td>25 gp</td><td>1 lb.</td><td>20</td></tr></table>
+
+
+<h2 id="fetchling-feats">Fetchling Feats</h2>
+<p>Fetchlings have access to the following feats.</p>
+<div class="feats-text">
+<h3 id="dark-sight">Dark Sight</h3>
+<p>With further modification, your eyes can pierce the gloom of even magical darkness.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Gloom Sight, fetchling. </p>
+<p class="stat-block-1"><b>Benefit</b>: You gain the ability to see up to 15 feet clearly in magical darkness, such as that created by the <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i> spell.</p>
+
+<h3 id="gloom-sight">Gloom Sight</h3>
+<p>With a combination of strange shadow magic and chirurgery, your eyes are permanently modified to see farther in darkness.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Fetchling.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain darkvision 90 ft., but gain the light sensitivity weakness. </p>
+
+<h3 id="gloom-strike-(combat)">Gloom Strike (Combat)</h3>
+<p>Few creatures are as accustomed to fighting in the shadows as you. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, fetchling.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you are within an area of dim light or darkness, you gain a +1 bonus on attack rolls against enemies that are also within dim light or darkness.</p>
+
+<h3 id="improved-dark-sight">Improved Dark Sight</h3>
+<p>With further modification, your eyes see clearly in not only normal darkness, but in magical darkness as well.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Dark Sight, Gloom Sight, fetchling.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain the see in darkness ability  and lose the light sensitivity weakness, but gain the light blindness weakness. </p>
+
+<h3 id="shadow-ghost">Shadow Ghost</h3>
+<p>You can move between the Shadow Plane and the Material Plane more often. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Fetchling, <i><a href="/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk" >shadow walk</a></i> spell-like ability.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain the ability to use <i><a href="/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk" >shadow walk</a></i> an additional time each day.</p>
+<p class="stat-block-1"><b>Special</b>: You may select this feat multiple times. Its effects stack.</p>
+
+<h3 id="shadow-walker">Shadow Walker</h3>
+<p>You can pierce the veil between the Shadow Plane and the Material Plane more often, and to greater effect.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Fetchling, <i><a href="/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk" >shadow walk</a></i> spell-like ability.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can expend one use of your shadow walk spell-like ability to use <i><a href="/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door" >dimension door</a></i> as a spell-like ability. Your start and end locations for this ability must be in dim light or darkness.</p>
+</div>
+
+<h2 id="fetchling-magic-items">Fetchling Magic Items</h2>
+<p>Fetchlings have access to the following magic items.</p>
+<p id="amulet-of-hidden-light" class="stat-block-title">Amulet of Hidden Light</p>
+<p class="stat-block-1"><b>Aura</b> faint illusion; <b>CL</b> 3rd</p>
+<p class="stat-block-1"><b>Slot</b> neck; <b>Price</b> 9,000 gp; <b>Weight</b> &mdash;</p>
+<p class="stat-block-breaker">Description</p>
+<p>This large amulet crafted of rough-cut glass can, on command, shed light as a sunrod. Unlike a normal light source, creatures outside this area cannot see the amulet's light.</p>
+<p class="stat-block-breaker">Construction</p>
+<p id="requirements"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>; <b>Cost</b> 4,500 gp</p>
+<p id="lambent-window" class="stat-block-title">Lambent Window</p>
+<p class="stat-block-1"><b>Aura</b> moderate divination; <b>CL</b> 7th</p>
+<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 20,000 gp; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block-breaker">Description</p>
+<p>This small pane of glass in a frame made of black metal looks like a small hand mirror at first glance, but when a creature spends at least 1 minute staring into its reflection, the image shifts and changes, showing the landscape of another plane. If the <i>lambent window</i> is activated on the Material Plane, it shows the corresponding location on the Shadow Plane, along with any creatures at that location. Likewise, when used on the Shadow Plane, it shows the corresponding location on the Material Plane. This item only allows those staring into it to see the corresponding location on the other plane; they cannot hear through or gain other sensual information about the other side by way of the window. This effect can be used for up to 10 minutes per day. Those minutes need not be consecutive, and the 1 minute it takes to activate the <i>lambent window </i>does not count against this limit.</p>
+<p>A person holding an active <i>lambent window</i> can use it as a special focus when casting <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> or using <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> as a spell-like ability to reach the specific location shown in the mirror, rather than 5&ndash;500 miles from the bearer's intended destination.</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i>, <i><a href="/pathfinderRPG/prd/spells/scrying.html#_scrying" >scrying</a></i>; <b>Cost</b> 10,000 gp</p>
+<p id="lantern-of-dancing-shadows" class="stat-block-title">Lantern of Dancing Shadows</p>
+<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 6th</p>
+<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 41,000 gp; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block-breaker">Description</p>
+<p>This small lantern is made of thin, nearly transparent paper and black iron. The lantern burns for 6 hours on 1 pint of oil. The lantern's light causes the illumination level in a 30-foot radius to move one step toward dim light, from bright light to normal light, from normal light to dim light, or from darkness to dim light. The lantern has no effect in an area that is already in dim light. Nonmagical sources of light, such as torches and lanterns, do not increase the light level in the lantern's area. Magical light or darkness only change the light level in the lantern's area if they have a higher caster level than the lantern.</p>
+<p>Once per day, the lit <i>lantern of <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-dancing" >dancing</a> shadows</i> can be commanded to create quasi-real illusions from the shadows cast by its light, as the <i><a href="/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration" >shadow conjuration</a></i> spell. In addition, once per day, the lantern can be commanded to solidify shadows for a short period of time. These solidified shadows cause incorporeal creatures within the lantern's illumination radius (30 feet) to coalesce into semi-physical forms, as the <i><a href="/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge,-mass" >mass ghostbane dirge</a></i> spell.</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/darkness.html#_darkness" >darkness</a></i>, <i><a href="/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge,-mass" >mass ghostbane dirge</a></i>, <i><a href="/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration" >shadow conjuration</a></i>; <b>Cost</b> 20,500 gp</p>
+
+<h2 id="fetchling-spells">Fetchling Spells</h2>
+<p>Fetchlings have access to the following spells.</p>
+<p id="gloomblind-bolts" class="stat-block-title">Gloomblind Bolts</p>
+<p class="stat-block-1"><b>School</b> conjuration (creation) [shadow]; <b>Level</b> magus 3, sorcerer/wizard 3, witch 3</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> medium (100 ft. + 10 ft./level)</p>
+<p class="stat-block-1"><b>Effect</b> one or more bolts of energy</p>
+<p class="stat-block-1"><b>Duration</b> instantaneous</p>
+<p class="stat-block-1"><b>Saving Throw</b> Reflex negates; see text; <b>Spell Resistance</b> yes</p>
+<p>You create one or more bolts of negative energy infused with shadow pulled from the Shadow Plane. You can fire one bolt, plus one for every four levels beyond 5th (to a maximum of three bolts at 13th level) at the same or different targets, but all bolts must be aimed at targets within 30 feet of each other and require a ranged touch attack to hit. Each bolt deals 4d6 points of damage to a living creature or heals 4d6 points of damage to an undead creature. Furthermore, the bolt's energy spreads over the skin of creature, possibly blinding it for a short time. Any creature struck by a bolt must succeed at a Reflex saving throw or become blinded for 1 round.</p>
+<p id="shadowy-haven" class="stat-block-title">Shadowy Haven</p>
+<p class="stat-block-1"><b>School</b> transmutation; <b>Level</b> sorcerer/wizard 4</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S, M (a small black silk bag)</p>
+<p class="stat-block-1"><b>Range</b> touch</p>
+<p class="stat-block-1"><b>Target</b> one 5-foot square of floor touched</p>
+<p class="stat-block-1"><b>Duration</b> 2 hours/level (D)</p>
+<p class="stat-block-1"><b>Saving Throw</b> none; <b>Spell Resistance</b> no</p>
+<p>This spell functions like <i><a href="/pathfinderRPG/prd/spells/ropeTrick.html#_rope-trick" >rope trick</a></i>, except the point of entry is through a 5-foot-square instead of a rope. The space holds as many as 10 creatures of any size.</p>
+<p>When this spell is cast upon a 5-foot-square part of a wall, it creates an extradimensional space adjacent to the Plane of Shadow. Creatures in the extradimensional space are hidden beyond the reach of spells (including divinations) unless those spells work across planes. The space holds as many as 10 creatures (of any size). The entrance to the extradimensional space remains visible as an area that is darker than the ambient illumination.</p>
+<p>Spells cannot be cast across the extradimensional interface, nor can area effects cross it. Those in the extradimensional space can see out of it as if a 5-foot-by-5-foot door or window were centered on the affected surface. The window is invisible (though it is within the shadowed entrance to the spell, which is visible), and even creatures that can see the window from the outside can't see through it. Anything inside the extradimensional space is ejected when the spell ends. Only one creature may enter or exit the extradimensional space at a time.</p>
+<p>The entrance is only open when the area around it is in dim light. Any other level of light (brighter or darker) closes the entrance, trapping creatures inside the extradimensional space. If the entrance is closed when the spell expires, there is a 50% chance that creatures in it are ejected into the Shadow Plane instead of the location of the entrance. If this occurs, the creatures appear on the Shadow Plane 1d10 miles in a random direction from their corresponding location on the Material Plane. The spell has no effect if cast on a plane that is not adjacent to the Shadow Plane.</p>
+<p>Because the extradimensional space is adjacent to the Shadow Plane, any <i><a href="/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk" >shadow walk</a></i> spell or similar effect that allows travel to the Shadow Plane is more accurate, reducing the distance creatures arrive off-target by half.</p>
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Asura</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Asura",globalNavPath=[{ href: '/pathfinderRPG/prd/bestiary3/monsterIndex.html', name: 'Bestiary 3 Index'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body"><div>
+				<h1 id="asura" class="monster-header">Asura</h1>
+				<p>Asuras are immortal beings whose origins are rooted in rejection and destruction. They are manifestations of divine accident, living blasphemies risen from mistakes made by the gods themselves. Given horrible life through these unspeakable divine errors, the asuras seek to sow doubt among mortals and ultimately revenge themselves upon the gods for their accursed existences. </p>
+				<p>Most asuras share a cohesive philosophy that culminates in nothing less than the systematic destruction of everything the gods have had a hand in creating. To this end, asuras study and meditate on the nature of creation so that they might better know how the cosmos can be unmade. The simplest among these fiends seek out the pious to torment, as well as holy places and relics to pollute with the taint of loathing and faithlessness. Once the destruction or corruption of a holy place is complete, asuras might take up residence in the area to contemplate what they have wrought and consider future misdeeds. The precise records and histories some temples keep can end up being the undoing of other bastions of faith. Thus, asuras spread.</p>
+				<p>Asuras have reason to seek places to dwell and brood, for unlike many other outsiders, the asuras have no realm to call their own. While the largest population of them dwells in the vast wildernesses of Hell, these fiends can be found throughout the Great Beyond, living anywhere they can make room for themselves. Asuras spend time plotting and nurturing their vast abhorrence of all things. They perfect arts of war and ruin. Even devils are unsafe in asura domains, because although asuras share the alignment of their hellspawned neighbors, devils are proper creatures of the extant multiverse. So consuming is asura antipathy that devils too must eventually fall for asuras to accomplish their ultimate goal.</p>
+				<p>Despite their warlike and devastating actions, most asuras have an ascetic quality and great insight into reality. They know a great deal about the cosmos. Further, little in the way of material wealth or comfort can sway them from their goals. An asura might possess treasure, probably pillaged from temples lost to asura raids, and it might have servants to see to its wants and needs. However, it values such aspects of existence only insofar as they help the asura move toward its ends.</p>
+				<p>Other asuras perfect modes of fighting or act as guardians or even extraplanar mercenaries. Such asuras become instruments of ruin, their presence antithetical to the lives of their enemies, whomever those foes might be. They rarely care whom or what they are hired to battle, so long as they can end the existence of a deity's work. </p>
+				<p>Asuras often collect and guard treasuries of looted religious relics, letting such objects serve as bait for pious heroes powerful enough to locate such treasures despite the asuras' elusive aura. The fiends know the loss of such holy objects often grieves and undermines the beliefs of common members of a faith, and so do all they can to draw out such spiritual suffering. </p>
+				<p>While an asura's individual incarnations can be slain, these fiends are nearly impossible to destroy permanently. The divine spark in them returns to the presence of mighty asura lords, the asura ranas, in Hell or elsewhere. Within a variable amount of time, usually some multiple of 7 years, a slain asura reincarnates as a weaker asura. A truly devoted asura that died in service to the asura cause might be given its old form at the cost of some of the asura rana's essence. Reincarnated asuras remember their past lives, their origins, and any enemy who has wronged them, and while their appearances and resources change, their thirst for revenge is eternal.</p>
+				<p>Rarely, however, contemplation on the nature of the multiverse or a desire for something more than eternal strife causes an asura to choose a different course. Such asuras meditate to become closer to that which they once sought to destroy, purifying themselves of their soul-burning hatred. Redeemed asuras are seldom good or religious, but they do wander the planes, dispensing wisdom and working against wanton destruction. Evil asuras loathe these traitors, and seek them out to destroy them with teeming fervor.</p>
+
+<h2 id="known-asura-ranas">Known Asura Ranas</h2>
+<p>Asuras can grow mighty indeed in their endless cycle of reincarnation. The most powerful among them are the asura ranas who dwell in ruined holy places, abandoned deific domains, or in the wilds of Hell. These potent fiends have unique forms, and can demand anything of lesser members of their race, as they are revered as sages and profane bodhisattvas. They usually dwell in places that allow them to deny devotees of the deities access to holy objects or sites. The following list includes several asura ranas named in myth and tales of woe.</p>
+<ul><li>Andak the Dismembered</li>
+<li>Bohga the Treasurer</li>
+<li>Chugarra the Guru of Butchers</li>
+<li>Chupurvagasti, Lady of Poison Mist </li>
+<li>Gavidya the Numberless</li>
+<li>Hydim of the Eternal Fast</li>
+<li>Ioramvol with the Mouth Full of Boulders</li>
+<li>Maeha, Father of False Worlds</li>
+<li>Onamahli the Twice Pure</li>
+<li>Rahu the Sun Eater</li>
+<li>Rytara, Serpent of the Eastern Eye</li>
+<li>Taraksun, Awakener of Wrath</li>
+<li>Zurapadyn, the Beast Who Waits in Smoke</ul>
+
+				<h1 id="asura,-adhukait" class="monster-header">Asura, Adhukait</h1>
+				<p class="flavor-text">A pair of spiked fiends, interwoven through bodily cavities and impaling limbs, spin in a dance with their twin curved knives.</p>
+				<p class="stat-block-title">Adhukait <span class="stat-block-cr">CR 7</span></p>
+				<p class="stat-block-xp">XP 3,200</p>
+				<p class="stat-block-1">LE Medium outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_asura-subtype" >asura</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_all-around-vision" >all-around vision</a>, darkvision 60 ft.; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +19</p>
+				<p class="stat-block-1"><b>Aura</b> elusive (30 ft.) </p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 20, touch 14, flat-footed 16 (+3 Dex, +1 dodge, +6 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 76 (9d10+27); regeneration 5 (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> weapons, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> spells)</p>
+				<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +11, <b>Will</b> +9; dual mind, +2 vs. enchantments</p>
+				<p class="stat-block-1"><b>DR</b> 5/good; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse" >curse</a> effects, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)" >disease</a>, flanking, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>; <b>Resist</b> acid 10, electricity 10; <b>SR</b> 18</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+				<p class="stat-block-1"><b>Melee </b>2 mwk kukris +15/+10 (1d4+5/18&ndash;20), 2 claws +9 (1d4+2)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> dance of disaster</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 6th; concentration +9)</p>
+				<p class="stat-block-2">At will&mdash; <i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall" >feather fall</a>, <a href="/pathfinderRPG/prd/spells/teleport.html#_teleport-greater" >greater teleport</a></i> (self plus 50 lbs. of objects only), <i><a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/spells/blink.html#_blink" >blink</a>, <a href="/pathfinderRPG/prd/spells/blur.html#_blur" >blur</a>, <a href="/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image" >mirror image</a>, <a href="/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth" >spike growth</a></i></p>
+				<p class="stat-block-2">1/day&mdash;summon (level 4, 1 adhukait 35%)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 17, <b>Con</b> 17, <b>Int</b> 13, <b>Wis</b> 16, <b>Cha</b> 16</p>
+				<p class="stat-block-1"><b>Base Atk</b> +9; C<b>MB</b> +14; <b>CMD </b>28</p>
+				<p class="stat-block-1"><b>Feats </b><a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_mobility">Mobility</a>, <a href="/pathfinderRPG/prd/feats.html#_nimble-moves" >Nimble Moves</a></p>
+				<p class="stat-block-1"><b>Skills </b><a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +15 (+19 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +15, <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +21, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +11, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +9, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +19, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (dance) +14, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +15; <b>Racial Modifiers</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> (+4 when jumping), +6 <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a>, +4 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a></p>
+				<p class="stat-block-1"><b>Languages</b> Common, Infernal; telepathy 100 ft.</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Hell)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or band (3&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure </b>standard (2 masterwork kukris, other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Dance of Disaster (Su)</b> Whenever an adhukait hits with a melee attack during a full-attack action, it can move 10 feet before making its next attack. The adhukait's normal speed does not limit this movement&mdash;it can move 10 feet after any successful hit among its four attacks, as long as it has another attack to make.</p>
+				<p class="stat-block-1"><b>Dual Mind (Su)</b> An adhukait is a single creature with two distinct minds, so it can attempt two saving throws against mind-affecting effects. If either saving throw succeeds, the mind-affecting effect fails to affect the adhukait.</p>
+				<p>Known also as the twinned ones, adhukaits are warrior asuras, specialized at quick raids designed for theft, assassination, or kidnapping. An adhukait is adept at infiltration and escape. In killing, the fiend is brutally efficient unless it wishes to prolong pain to demoralize or enrage its enemies.</p>
+				<p>Although an adhukait appears to be two connected creatures, it is one entity with two minds. The creature's personality and purpose is as unified as its bizarre form. An adhukait is 6 feet tall. It weighs 330 pounds.</p>
+				<p>Adhukaits prefer desolate spots as lairs, especially those that recall past terror or sorrow. In such dens, they keep trophies from their engagements as focuses for meditation and objects of study. Adhukaits also keep treasures stolen from temples and holy places. While at rest, adhukaits remain near any ill-gotten items to ensure no meddling magician can locate the lost objects.</p>
+				<p>Legend holds that the first adhukaits emerged from the shattered remains of two godlike brigands. These burglars, their names long since lost to history, attempted to raid a celestial hall. The resident deity and his or her servants slew the thieves, crushed their bodies together into one, and hurled their remains to the earth. As their crumbling, entwined bodies struck the world, they caused terrible earthquakes and tsunamis that slew thousands of innocents&mdash;including many worshipers of the headstrong deity who accidentally caused the devastation. The first adhukaits grew from the shattered, mingled remains of these brigands, rising from the blasted crater to serve the asuras as elite soldiers.</p>
+
+				<h1 id="asura,-aghasura" class="monster-header">Asura, Aghasura</h1>
+				<p class="flavor-text">This immense creature looks like a horned rattlesnake, save for its two muscular arms, each of which wields a scimitar.</p>
+				<p class="stat-block-title">Aghasura <span class="stat-block-cr">CR 11</span></p>
+				<p class="stat-block-xp">XP 12,800</p>
+				<p class="stat-block-1">LE Huge outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_asura-subtype" >asura</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft., <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent" >scent</a>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +19</p>
+				<p class="stat-block-1"><b>Aura </b>attraction (50 ft.), elusive (75 ft.)</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 23, touch 11, flat-footed 20 (+6 armor, +3 Dex, +6 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 161 (14d10+84); regeneration 5 (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> weapons, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> spells)</p>
+				<p class="stat-block-1"><b>Fort</b> +15, <b>Ref </b>+9, <b>Will</b> +11; +2 vs. enchantment spells </p>
+				<p class="stat-block-1"><b>DR </b>10/good; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse" >curse</a> effects, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)" >disease</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>; <b>Resist</b> acid 10, electricity 10; <b>SR</b> 22</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 35 ft., swim 20 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 mwk scimitars +26 (2d6+12/15&ndash;20 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>), bite +19 (2d8+6 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a> and <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> dual wielder, infused weapons, swallow whole (2d6+12 acid damage, AC 13, 16 hp)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 11th; concentration +15)</p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/teleport.html#_teleport-greater" >greater teleport</a></i> (self plus 50 lbs. of objects only)</p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill" >cloudkill</a> </i>(DC 19), summon (level 4, 1d4+1 adhukaits, 45%, or 1 aghasura, 20%)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 34, <b>Dex</b> 17, <b>Con</b> 23, <b>Int </b>11, <b>Wis</b> 14, <b>Cha</b> 18</p>
+				<p class="stat-block-1"><b>Base Atk</b> +14; <b>CMB</b> +28 (+32 grapple); <b>CMD</b> 41 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats </b> <a href="/pathfinderRPG/prd/feats.html#_cleave">Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/feats.html#_great-cleave">Great Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (scimitar), <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (scimitar)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +17, <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +19, <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +6, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +17, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +13, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +19, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +19, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +9, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +17; <b>Racial Modifiers</b> +6 <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a>, +4 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> </p>
+				<p class="stat-block-1"><b>Languages</b> Common, Infernal; telepathy 100 ft.</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Hell)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or troop (2&ndash;9)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (masterwork breastplate, <br/>2 masterwork scimitars, other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Attraction Aura (Su)</b> An aghasura exudes a 50-foot aura whenever it remains motionless for at least 1 round. All nonevil creatures that enter this area must make a DC 21 Will save to avoid being compelled to move toward the aghasura's location. If the aghasura moves, the effect ends for all currently affected creatures. This is a mind-affecting compulsion. The save DC is Charisma-based.</p>
+				<p class="stat-block-1"><b>Dual Wielder (Ex)</b> An aghasura does not take a penalty on attack or damage rolls when attacking with two weapons.</p>
+				<p class="stat-block-1"><b>Infused Weapons (Su)</b> Weapons an aghasura wields are considered to be magic for the purposes of overcoming <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_damage-reduction-(ex-or-su)" >damage reduction</a>. In addition, such weapons gain the ability to deliver the aghasura's <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a> on a successful attack.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >Poison</a> (Ex)</b> Bite or weapon&mdash;injury; <i>save</i> Fort DC 23; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1d4 Con damage; <i>cure </i>2 consecutive saves.</p>
+				
+				<p>Aghasuras, or the poison ones, are massive fiends who have perfected the art of ambush and hold to duties of guardianship and butchery. It is said that these frightful ophidian monsters came into being when a deity granted free will to her favorite serpent pets, but when these pets were left to their own devices, they slipped into the deity's favored temple and slew all of her greatest priests. The serpents who survived the deity's wrath became the first aghasuras.</p>
+				<p>An aghasura is 30 feet long and weighs nearly 7 tons.</p>
+
+				<h1 id="asura,-asurendra" class="monster-header">Asura, Asurendra</h1>
+				<p class="flavor-text">This four-armed humanoid horror is garbed in golden armor and surrounded by a nimbus of floating, glowing weaponry.</p>
+				<p class="stat-block-title">Asurendra <span class="stat-block-cr">CR 20</span></p>
+				<p class="stat-block-xp">XP 307,200</p>
+				<p class="stat-block-1">LE Huge outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_asura-subtype" >asura</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +12; <b>Senses</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_all-around-vision" >all-around vision</a>, darkvision 60 ft., low-light vision, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent" >scent</a>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a>;</i> <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +34</p>
+				<p class="stat-block-1"><b>Aura </b><i><a href="/pathfinderRPG/prd/spells/dimensionalLock.html#_dimensional-lock" >dimensional lock</a></i> (20 ft., enemies only), elusive (100 ft.)</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 35, touch 25, flat-footed 26 (+5 deflection, +8 Dex, +1 dodge, +3 insight, +10 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 385 (22d10+264); regeneration 10 (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> weapons, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> spells)</p>
+				<p class="stat-block-1"><b>Fort</b> +25, <b>Ref </b>+17, <b>Will</b> +20; +2 vs. enchantment spells, </p>
+				<p class="stat-block-1"><b>DR</b> 15/chaotic and <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a>; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse" >curse</a> effects, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)" >disease</a>, flanking, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, polymorph; <b>Resist</b> acid 10, electricity 10; <b>SR</b> 31</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed </b>50 ft., climb 50 ft., fly 50 ft. (perfect), swim 50 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> bite +28 (2d6+6 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a> and <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>), 6 claws +33 (2d6+13 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse" >curse</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse" >curse</a> of false wisdom, spirit blades (+27, 3d6+7/19&ndash;20), swallow whole (4d6+19 bludgeoning plus 4d8+12 acid damage, AC 15, 34 hp)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 20th; concentration +30)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/dimensionalLock.html#_dimensional-lock" >dimensional lock</a></i> (enemies only), <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a>, <a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a>, <a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/deathKnell.html#_death-knell" >death knell</a></i> (DC 22), <i>greater <a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >dispel magic, greater</a> <a href="/pathfinderRPG/prd/spells/scrying.html#_scrying" >scrying</a>, <a href="/pathfinderRPG/prd/spells/teleport.html#_teleport-greater" >greater teleport</a></i> (self plus 50 lbs. of objects only)</p>
+				<p class="stat-block-2">3/day&mdash;quickened<i> <a href="/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph" >baleful polymorph</a> </i>(DC 25), quickened<i> <a href="/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier" >blade barrier</a></i> (DC 26), <i><a href="/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy" >blasphemy</a></i> (DC 27), quickened <i><a href="/pathfinderRPG/prd/spells/deathKnell.html#_death-knell" >death knell</a></i> (DC 22), <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a>, <a href="/pathfinderRPG/prd/spells/demand.html#_demand" >demand</a></i> (DC 28)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/powerWordStun.html#_power-word-stun" >power word stun</a></i>, summon (level 9, any 1 CR 19 or lower asura 100%), <i><a href="/pathfinderRPG/prd/spells/timeStop.html#_time-stop" >time stop</a></i></p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 36, <b>Dex</b> 26, <b>Con</b> 34, <b>Int</b> 25, <b>Wis</b> 25, <b>Cha</b> 31</p>
+				<p class="stat-block-1"><b>Base Atk</b> +22; <b>CMB</b> +37 (+41 grapple); <b>CMD</b> 61</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow" >Awesome Blow</a>, Cleave, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a><span class="char-style-override-27">B</span>, <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, Deflect Arrows<span class="char-style-override-27">B</span>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a><span class="char-style-override-27">B</span>, Great Cleave, Improved Bull Rush, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, Mobility<span class="char-style-override-27">B</span>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_quicken-spell-like-ability" >Quicken Spell-Like Ability</a> (<i><a href="/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph" >baleful polymorph</a>, <a href="/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier" >blade barrier</a>, <a href="/pathfinderRPG/prd/spells/deathKnell.html#_death-knell" >death knell</a></i>), <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_snatch" >Snatch</a> Arrows<span class="char-style-override-27">B</span>, Spring Attack<span class="char-style-override-27">B</span></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +31 (+39 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +33, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +21, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +30, <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +14, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +35, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +33,<br/> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +27, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +13, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +30, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +27, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +34, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (dance) +33, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +30, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +27, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +23, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +21, <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +30; <b>Racial Modifiers</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> (+8 when jumping), +6 <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a>, +4 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a></p>
+				<p class="stat-block-1"><b>Languages</b> Common, Infernal; <i><a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a>,</i> telepathy 100 ft.</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Hell)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or pair</p>
+				<p class="stat-block-1"><b>Treasure</b> double</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse" >Curse</a> of False Wisdom (Su)</b> Claw&mdash;contact; <i>save</i> Will DC 31; <i>frequency</i> 1 day; <i>effect</i> 1d6 Wis drain.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >Poison</a> (Ex)</b> Bite&mdash;injury; <i>save</i> Fort DC 33; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1d6 Con; <i>cure</i> 2 consecutive saves.</p>
+				<p class="stat-block-1"><b>Spirit Blades (Su)</b> As a swift action, an asurendra can call forth up to six longsword-shaped force effects that float near the asurendra until directed. The asurendra can use a standard action to direct one blade to attack a target up to a distance of 50 feet away, or use a full-attack action to cause all six blades to attack up to six different targets up to a distance of 50 feet away, each to a different location if desired. Once an asurendra directs a spirit blade to attack a foe, the blade continues to make a single attack against that foe each round on the asurendra's turn until directed otherwise by the asurendra and as long as the foe remains within 50 feet of the asurendra. As a move action, the asurendra can direct all currently attacking blades to switch targets to new foes within 50 feet. These weapons attack using the asurendra's base attack bonus modified by its Wisdom modifier (+29 for most asurendras), and deal 3d6 points of damage plus an amount of force damage equal to the asurendra's Wisdom modifier (3d6+7 for most asurendras). Physical attacks do no affect these blades, but <i><a href="/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate" >disintegrate</a>,</i> a <i>sphere of annihilation,</i> or a <i><a href="/pathfinderRPG/prd/magicItems/rods.html#_rod-of-cancellation" >rod of cancellation</a></i> (touch AC 25) causes them to vanish. If a spirit blade's target dies or moves beyond a 50-foot range and the asurendra does not retarget that blade by the end of its turn, the blade vanishes. Likewise, any blades that are not within 50 feet of the asurendra at the end of its turn also vanish.</p>
+				
+				<p>With the notable exception of the unique asura ranas, asurendras are the mightiest of their kind. Although few asurendras possess anything resembling an extended realm, in Hell or elsewhere, these asuras are the “wise ones” of asura kind. Most dwell within shrinelike fortresses in which they can practice their ruinous mysticism and command lesser asuras who seek their teachings. To most asuras, an asurendra's order is something akin to a deific edict.</p>
+				<p>Each asurendra is a humanoid creature of immense proportions. Their exact appearance varies just as the appearances of humanoids vary, but all asurendras have six arms and multiple eyes and heads. An asurendra's body is an example of physical perfection, athletically and gracefully built, but its face has monstrous or inhuman features, such as tusks or bizarrely placed features. Most asurendras are 19 feet tall and weigh 8,000 pounds.</p>
+				<p>Few asurendras were born to their might&mdash;they achieve their power only over the course of countless lifetimes spent as lesser asuras. Throughout each incarnation, these tenacious asuras sought unity with some concept of destruction. Eventually, through dark meditation and vile action, the asuras ascended to a state of being united with some aspect of unmaking. They also gained power over their own being and slowly reshaped themselves into a vision of their perfect selves, instruments of annihilation ideally suited to fell gods and their divine works.</p>
+				<p>In battle, an asurendra does its best to destroy all enemies, taking a moment to ensure death when any foe falls. Asurendras enjoy eating the bodies of fallen foes, and some can even use the flesh and bone of those they consume to create new asuras to serve them.</p>
+				<h1 id="blasphemous-sages">Blasphemous Sages</h1>
+				<p>Each asurendra follows its own bliss toward a specific method of vengeance against the divine. Like philosophers dispensing wisdom, they teach their ways to others so that more asuras might ascend into perfection. Listed here are some ideas of the vile ways asurendras might use their “enlightened” hatred.</p>
+				<p class="stat-block-2"><b>Death</b>: All living things can die. Instead of war, an asurendra can focus on the aftermath of war. Such an asurendra replaces quickened <i><a href="/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph" >baleful polymorph</a></i> with quickened <i><a href="/pathfinderRPG/prd/spells/slayLiving.html#_slay-living" >slay living</a></i> and quickened <i><a href="/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier" >blade barrier</a></i> with quickened <i><a href="/pathfinderRPG/prd/spells/circleOfDeath.html#_circle-of-death" >circle of death</a></i>. Its spirit blades deal negative energy damage, not force damage, and can thus be used to heal allied undead creatures as easily as they can serve as weapons against the living.</p>
+				<p class="stat-block-2"><b>Sacrilege</b>: Blasphemy is joy to any asura, but truly impious asurendras learn talents that mimic divine miracles. Cults to these asurendras, which almost always seem benevolent on first glance, turn people from the worship of real deities. These asurendras do not possess a spirit blade special attack, but can use <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i> as a spell-like ability once per day as long as the miracle granted is in keeping with their blasphemous design.</p>
+				<p class="stat-block-2"><b>Shaping</b>: Some asurendras like to remake what the gods have created. Nothing escapes a shaper's vision, and its enemies find their bodies, minds, and souls are like clay in a shaper's hands.  An asurendra sage of shaping lacks a spirit blade special attack, but gains the following special ability.</p>
+				<p class="stat-block-2"><i>Create Asura (Su)</i>: As a full-round action, an asurendra can turn a creature that it has eaten within the last 24 hours into a tripurasura (see page 26) that it then excretes into existence. Such tripurasuras remain loyal to the asurendra that created them as long as they remain tripurasuras. If an asurendra has enough tripurasuras at hand, it can consume them as well and transform them into more powerful asuras using this ability. An asurendra can  transform any tripurasuras it has eaten within the last 24 hours into a number of Hit Dice worth of other asuras equal to the number of tripurasuras it has consumed. An asurendra can create as many tripurasuras as it wishes with this ability, but can only create more powerful asuras by combining multiple tripurasuras once per day. An asurendra cannot create another asurendra with this ability. A newly formed asura considers the asurendra to be its master. Not all of a creature's soul is consumed when it is used to create a tripurasura&mdash;beings swallowed and used to create asuras in this manner are dead, but can be restored to life as normal.</p>
+
+				<h1 id="asura,-tripurasura" class="monster-header">Asura, Tripurasura</h1>
+				<p class="flavor-text">This tiny monstrosity has the body of a well-muscled man, a crown of frilled horns, and eyes that glow like rubies.</p>
+				<p class="stat-block-title">Tripurasura <span class="stat-block-cr">CR 2</span></p>
+				<p class="stat-block-xp">XP 600</p>
+				<p class="stat-block-1">LE Tiny outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_asura-subtype" >asura</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> darkvision 60 ft., <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +10</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 16, touch 16, flat-footed 13 (+2 Dex, +1 dodge, +1 insight, +2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 19 (3d10+3); fast healing 2</p>
+				<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +3, <b>Will</b> +5, +2 vs. enchantments</p>
+				<p class="stat-block-1"><b>DR</b> 5/cold iron or <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a>; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse" >curse</a> effects, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)" >disease</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>; <b>Resist</b> acid 10, electricity 10</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> sting +8 (1d4&ndash;1 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 6th; concentration +7)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall" >feather fall</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/spells/levitate.html#_levitate" >levitate</a>, <a href="/pathfinderRPG/prd/spells/locateObject.html#_locate-object" >locate object</a>, <a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i></p>
+				<p class="stat-block-2">1/week&mdash;<i><a href="/pathfinderRPG/prd/spells/commune.html#_commune" >commune</a></i> (6 questions, CL 12th)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str </b>8, <b>Dex </b>14,<b> Con</b> 12, <b>Int</b> 13, <b>Wis</b> 15, <b>Cha</b> 13</p>
+				<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +3; <b>CMD</b> 13</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p class="stat-block-1"><b>Skills </b><a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +8 (+4 when jumping), <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> +4, <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +7, <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +4, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +7, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +10, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (dance) +5, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +4, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +14; <b>Racial Modifiers </b>&ndash;4 <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> when jumping, +6 <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a>, +4 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a></p>
+				<p class="stat-block-1"><b>Languages</b> Common, Infernal</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >change shape</a> (any Small humanoid; <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i>), elusive</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Hell)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or gang (3&ndash;10)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >Change Shape</a> (Su)</b> The tripurasura has only one alternative form&mdash;when it uses <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >change shape</a>, it always appears as the same Small humanoid. Most take the form of gnomes or <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_human-subtype" >human</a> children.</p>
+				<p class="stat-block-1"><b>Elusive (Su)</b> The tripurasura and items it carries are considered to be under the effects of a <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i> spell. A caster must succeed at a DC 14 caster level check to overcome this effect.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >Poison</a> (Ex)</b> Tongue&mdash;injury; <i>save</i> Fort DC 12; <i>frequency </i>1/round for 6 rounds; <i>effect</i> 1d2 Wis damage; <i>cure</i> 1 save.</p>
+				<p>Tripurasuras, or sly ones, are among the weakest asuras, manifestations not of divine mistakes but instead creations of the most powerful of asuras exhibiting their loathing of the gods by creating blasphemous mockeries of their creations. A newly created tripurasura most commonly exists for one of two reasons: to give an asurendra sage the raw materials it needs to create more powerful asuras, or to seek out mortals&mdash;especially mortal spellcasters&mdash;to recruit into the asura cause.</p>
+				<p>Using its power to assume a pleasing or innocuous form, a tripurasura wanders the world, seeking pious mortals to corrupt. When it encounters a promising spellcaster (typically one who has some sort of link to a church or religion, but not necessarily a divine spellcaster), the tripurasura presents itself as an apprentice, pilgrim, or other type of curious student eager to learn from the spellcaster. The tripurasura keeps its true nature and its powers hidden, and seeks opportunities to steer its “master” away from decisions it might have made in good conscience to acts that promote the collapse of religious belief, faith, and society. When, as it inevitably does, the wayward spellcaster runs afoul of justice or is confronted by those seeking revenge, the tripurasura fades away to watch the final stage of the spellcaster's fall from grace, then seeks a new victim in another city or region.</p>
+				<p>Some spellcasters, on the other hand, actually seek out these tiny fiends to employ as familiars. A tripurasura greatly values these opportunities, since it need not abandon its master once its work is done and can continue to spread its agenda for as long as its master survives. A spellcaster must be lawful evil, at least 7th level, and have the <a href="/pathfinderRPG/prd/feats.html#_improved-familiar" >Improved Familiar</a> feat to gain a tripurasura as a familiar.</p>
+
+				<h1 id="asura,-upasunda" class="monster-header">Asura, Upasunda</h1>
+				<p class="flavor-text">This six-armed woman has three fanged faces on her head. She wears colorful robes, and her hands wield several exotic weapons.</p>
+				<p class="stat-block-title">Upasunda <span class="stat-block-cr">CR 9</span></p>
+				<p class="stat-block-xp">XP 6,400</p>
+				<p class="stat-block-1">LE Medium outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_asura-subtype" >asura</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init </b>+7; <b>Senses</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_all-around-vision" >all-around vision</a>, darkvision 60 ft.; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +23</p>
+				<p class="stat-block-1"><b>Aura</b> elusive (50 ft.)</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC </b>24, touch 21, flat-footed 16 (+7 Dex, +1 dodge, +3 insight, +3 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 114 (12d10+48); regeneration 5 (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> weapons, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> spells)</p>
+				<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +11, <b>Will</b> +15</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> improved evasion; <b>DR</b> 10/good; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse" >curse</a> effects, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)" >disease</a>, flanking, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>; <b>Resist</b> acid 10, electricity 10; <b>SR</b> 20</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 50 ft.</p>
+				<p id="melee" class="stat-block-1 para-style-override"><b>Melee</b> mwk longsword +20/+15/+10 (1d8+6/19&ndash;20), mwk spear 	+19 (1d8+6/&times;3), mwk kukri +19 (1d4+6/18&ndash;20) or 6 slams +18 (1d4+6)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> infused weapons, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_multiweapon-mastery" >multiweapon mastery</a></p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 9th; concentration +13)</p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self" >disguise self</a>, <a href="/pathfinderRPG/prd/spells/teleport.html#_teleport-greater" >greater teleport</a></i> (self plus 50 lbs. of objects only), <i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall" >feather fall</a>, <a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a>, <a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i>, <i><a href="/pathfinderRPG/prd/spells/levitate.html#_levitate" >levitate</a>, <a href="/pathfinderRPG/prd/spells/rainbowPattern.html#_rainbow-pattern" >rainbow pattern</a></i> (DC 18)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>, <i><a href="/pathfinderRPG/prd/spells/holdMonster.html#_hold-monster" >hold monster</a></i> (DC 18), summon (level 4, <br/>2 adhukaits 45% or 1 upasunda 20%)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 24, <b>Con </b>19, <b>Int</b> 15, <b>Wis</b> 24, <b>Cha</b> 19</p>
+				<p class="stat-block-1"><b>Base Atk</b> +12; <b>CMB</b> +18 (+20 grapple); <b>CMD</b> 36 (38 grapple)</p>
+				<p class="stat-block-1"><b>Feats </b>Cleave, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a><span class="char-style-override-27">B</span>, Deflect Arrows<span class="char-style-override-27">B</span>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Great Cleave, Improved Grapple<span class="char-style-override-27">B</span>, Mobility, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Spring Attack</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +19 (+27 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +16, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +13, <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +25, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +16, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +14, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +23, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (dance) +16, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +19, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +19; <b>Racial Modifiers</b> +8 <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> when jumping, +6 <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a>, +4 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a></p>
+				<p class="stat-block-1"><b>Languages</b> Common, Infernal; telepathy 100 ft.</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment </b>any (Hell)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or squad (3&ndash;6)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (weapons listed above plus other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Infused Weapons (Su)</b> In addition to being <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a> and <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >lawful</a>, weapons an upasunda wields are considered to be magic for the purposes of overcoming <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_damage-reduction-(ex-or-su)" >damage reduction</a>.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_multiweapon-mastery" >Multiweapon Mastery</a> (Ex)</b> An upasunda takes no penalties when fighting with multiple weapons.</p>
+				<p>Upasundas, also called beatific ones, are asuras who devote themselves to martial meditations and physical perfection. Upasundas seek monklike poise and skill, and through it, the ability to deal flawless destruction wherever they go. Their nickname suggests purity, and indeed, each beatific one is an expression of asura purity through devotion to the ideal of annihilation. It is believed that the first upasundas were created from the jealous followers of a man who achieved divinity through his own force of will. Those of his followers who felt abandoned when this new deity ascended to the Great Beyond sought other ways to achieve immortality, and fell pray to one of the asura ranas, who granted them their desire by transforming them into beatific ones.</p>
+				<p>Upasundas never surrender to foes in combat and rarely flee from battle. They hope to increase in skill and wisdom or to die in battle. On either path lies evolution toward a greater understanding of destruction in its countless forms.</p>
+				<p>An upasunda is 7 feet tall and weighs 240 pounds.</p>
+</div>
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

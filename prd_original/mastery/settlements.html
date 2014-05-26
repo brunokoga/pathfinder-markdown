@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Settlements</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Settlements",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="settlements-in-play">Settlements in Play</h1>
+				<div class="right"><table id="settlement-population-ranges"><caption>Settlement Population Ranges</caption><tr class="odd"><td style="white-space:normal;" colspan="2">A settlement's population is left to the GM to assign, but you can use a settlement's type to help you determine just how many folks live in the city. Since the actual number of people who dwell in a settlement has no impact on game play, the number you choose is largely cosmetic&mdash;feel free to adjust the suggested values below to fit your campaign.</td></tr>
+<thead><tr id="settlement-type-population-range" class="odd"><th>Settlement Type</th><th>Population Range</b></th></tr></thead>
+<tr class="even"><td>Thorp</td><td>Fewer than 20</td></tr>
+<tr class="odd"><td>Hamlet</td><td>21&ndash;60</td></tr>
+<tr class="even"><td>Village</td><td>61&ndash;200</td></tr>
+<tr class="odd"><td>Small town</td><td>201&ndash;2,000</td></tr>
+<tr class="even"><td>Large town</td><td>2,001&ndash;5,000</td></tr>
+<tr class="odd"><td>Small city</td><td>5,001&ndash;10,000</td></tr>
+<tr class="even"><td>Large city</td><td>10,001&ndash;25,000</td></tr>
+<tr class="odd"><td>Metropolis</td><td>More than 25,000</td></tr></table></div>
+				<p>The best way to handle a settlement in your game, of course, is to plan it out, placing every shop and every home, naming every NPC, and mapping every building. Yet settlements are the most complicated locations you're likely to ever feature in your game, and the prospect of fully detailing one is daunting, especially if your PCs are likely to visit multiple settlements.</p>
+				<p>Presented below are basic rules for a more streamlined method of handling settlements in your game. Essentially, these rules treat settlements almost as characters of their own, complete with stat blocks. Using these rules, you can generate the vital data for a settlement quickly and efficiently, and with this data you can handle the majority of your players' interactions with the settlement.</p>
+				<p>Note that for particularly large cities, you can use multiple settlement stat blocks to represent different districts within a city. This allows you to have neighborhoods with distinct characteristics inside one city's walls. GMs should feel free to add other new elements to create the cities they desire. A Settlement Sheet is included in the back of this book to record the details of your own settlements.</p>
+				<h2 id="the-settlement-stat-block">The Settlement Stat Block</h2>
+				<p>A settlement stat block is organized as follows.</p>
+				<p id="name"><b>Name</b>: The settlement's name is presented first.</p>
+				<p id="alignment-and-type"><b>Alignment and Type</b>: A settlement's alignment is the general alignment of its citizens and government&mdash;individuals who dwell therein can still be of any alignment, but the majority of its citizens should be within one step of the settlement's overall alignment. Alignment influences a city's modifiers. The type is the size category the settlement falls into, be it thorp, hamlet, village, town (small or large), city (small or large), or metropolis. In most cases, rules play off of a settlement's type rather than its exact population total. A settlement's type determines many of its statistics (see Table 7&ndash;36: Settlement Statistics).</p>
+				<p id="modifiers"><b>Modifiers</b>: Settlements possess six modifiers that apply to specific skill checks made in the settlement. A settlement's starting modifier values are determined by its type. This value is further adjusted by the settlement's alignment, government, qualities, and disadvantages. Note that introducing settlement modifiers to your game will somewhat increase the complexity of skill checks by adding a variable modifier each time the PCs visit a new town or city&mdash;consider the use of these modifiers an optional rule.</p>
+				<p id="qualities"><b>Qualities</b>: All settlements have a certain number of qualities that further adjust their statistics&mdash;think of qualities as feats for settlements. A settlement's type determines how many qualities it can have.</p>
+				<p id="danger"><b>Danger</b>: A settlement's danger value is a number that gives a general idea of how dangerous it is to live in the settlement. If you use wandering monster chart that uses percentile dice and ranks its encounters from lowest CR to highest CR, use the modifier associated with the settlement's danger value to adjust rolls on the encounter chart. A settlement's base danger value depends on its type.</p>
+				<p id="disadvantages"><b>Disadvantages</b>: Any disadvantages a settlement might be suffering from are listed on this line. A settlement can have any number of disadvantages you wish to inflict on it, although most settlements have no disadvantages.</p>
+				<p id="government"><b>Government</b>: This entry lists how the settlement is governed and ruled. The type of government a settlement follows affects its statistics.</p>
+				<p id="population"><b>Population</b>: This number represents the settlement's population. Note that the exact number is flexible; a settlement's actual population can swell on market days or dwindle during winter&mdash;this number lists the average population of the settlement. Note that this number is generally used for little more than flavor&mdash;since actual population totals fluctuate, it's pointless to tether rules to this number. After the settlement's total population, a breakdown of its racial mix is listed in parentheses.</p>
+				<p id="notable-npcs"><b>Notable NPCs</b>: This section lists any notable NPCs who live in the city, sorted by their role in the community, followed by their name and then their alignment, gender, race, class, and level in parentheses.</p>
+				<p id="base-value-and-purchase-limit"><b>Base Value and Purchase Limit</b>: This section lists the community's base value for available magic items in gp. There is a 75% chance that any item of this value or lower can be found for sale in the community with little effort. If an item is not available, a new check to determine if the item has become available can be made in 1 week. A settlement's purchase limit is the most money a shop in the settlement can spend to purchase any single item from the PCs. If the PCs wish to sell an item worth more than a settlement's purchase limit, they'll either need to settle for a lower price, travel to a larger city, or (with the GM's permission) search for a specific buyer in the city with deeper pockets. A settlement's type sets its purchase limit.</p>
+				<p id="spellcasting"><b>Spellcasting</b>: Unlike magic items, spellcasting for hire is listed separately from the town's base value, since spellcasting is limited by the level of the available spellcasters in town. This line lists the highest-level spell available for purchase from spellcasters in town. A town's base spellcasting level depends on its type.</p>
+				<p id="minor-items/medium-items/major-items"><b>Minor Items/Medium Items/Major Items</b>: This line lists the number of magic items above a settlement's base value that are available for purchase. In some city stat blocks, the actual items are listed in parentheses after the die range of items available&mdash;in this case, you can use these pre-rolled resources when the PCs first visit the city as the magic items available for sale on that visit. If the PCs return to that city at a later date, you can roll up new items as you see fit.</p>
+				<table id="table-7-36:-settlement-statistics"><caption>Table:  Settlement Statistics</caption>
+<thead><tr><th>Type</th><th>Modifiers</th><th>Qualities</th><th>Danger</th><th>Base Limit</th><th>Purchase Limit</th><th>Spellcasting</th></tr></thead>
+<tbody>
+<tr class="odd"><td>Thorp</td><td>&ndash;4</td><td>1</td><td>&ndash;10</td><td>50 gp</td><td>500 gp</td><td>1st</td></tr>
+<tr class="even"><td>Hamlet</td><td>&ndash;2</td><td>1</td><td>&ndash;5</td><td>200 gp</td><td>1,000 gp</td><td>2nd</td></tr>
+<tr class="odd"><td>Village</td><td>&ndash;1</td><td>2</td><td>0</td><td>500 gp</td><td>2,500 gp</td><td>3rd</td></tr>
+<tr class="even"><td>Small town</td><td>0</td><td>2</td><td>0</td><td>1,000 gp</td><td>5,000 gp</td><td>4th</td></tr>
+<tr class="odd"><td>Large town</td><td>0</td><td>3</td><td>5</td><td>2,000 gp</td><td>10,000 gp</td><td>5th</td></tr>
+<tr class="even"><td>Small city</td><td>+1</td><td>4</td><td>5</td><td>4,000 gp</td><td>25,000 gp</td><td>6th</td></tr>
+<tr class="odd"><td>Large city</td><td>+2</td><td>5</td><td>10</td><td>8,000 gp</td><td>50,000 gp</td><td>7th</td></tr>
+<tr class="even"><td>Metropolis</td><td>+4</td><td>6</td><td>10</td><td>16,000 gp</td><td>100,000 gp</td><td>8th</td></tr></tbody></table>
+<table id="table-7-37:-available-magic-items"><caption>Table:  Available Magic Items</caption>
+<thead><tr><th>Community Size</th><th>Base Value</th><th>Minor</th><th>Medium</th><th>Major</th></tr></thead>
+<tbody>
+<tr class="odd"><td>Thorp</td><td>50 gp</td><td>1d4 items</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>Hamlet</td><td>200 gp</td><td>1d6 items</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>Village</td><td>500 gp</td><td>2d4 items</td><td>1d4 items</td><td>&mdash;</td></tr>
+<tr class="even"><td>Small town</td><td>1,000 gp</td><td>3d4 items</td><td>1d6 items</td><td>&mdash;</td></tr>
+<tr class="odd"><td>Large town</td><td>2,000 gp</td><td>3d4 items</td><td>2d4 items</td><td>1d4 items</td></tr>
+<tr class="even"><td>Small city</td><td>4,000 gp</td><td>4d4 items</td><td>3d4 items</td><td>1d6 items</td></tr>
+<tr class="odd"><td>Large city</td><td>8,000 gp</td><td>4d4 items</td><td>3d4 items</td><td>2d4 items</td></tr>
+<tr class="even"><td>Metropolis</td><td>16,000 gp</td><td>*</td><td>4d4 items</td><td>3d4 items</td></tr></tbody>
+<tfoot><tr><td colspan="5">* In a metropolis, nearly all minor magic items are available.</td></tr>
+</tfoot></table>
+				<h2 id="settlement-modifiers">Settlement Modifiers</h2>
+				<p>Life in a settlement is represented by six modifiers, each of which adjusts the use of specific skills within the city.</p>
+				<p id="corruption"><b>Corruption</b>: Corruption measures how open a settlement's officials are to bribes, how honest its citizens are, and how likely anyone in town is to report a crime. Low corruption indicates a high level of civic honesty. A settlement's corruption modifies all <a href="../skills/bluff.html#_bluff" >Bluff</a> checks made against city officials or guards and all <a href="../skills/stealth.html#_stealth" >Stealth</a> checks made outside (but not inside buildings or underground).</p>
+				<p id="crime"><b>Crime</b>: Crime is a measure of a settlement's lawlessness. A settlement with a low crime modifier is relatively safe, with violent crimes being rare or even unknown, while a settlement with a high crime modifier is likely to have a powerful thieves' guild and a significant problem with violence. The atmosphere generated by a settlement's crime level applies as a modifier on <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks to avoid being bluffed and to <a href="../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> checks made to pick pockets.</p>
+				<p id="economy"><b>Economy</b>: A settlement's economy modifier indicates the health of its trade and the wealth of its successful citizens. A low economy modifier doesn't automatically mean the town is beset with poverty&mdash;it could merely indicate a town with little trade or one that is relatively self-sufficient. Towns with high economy modifiers always have large markets and many shops. A settlement's economy helps its citizens make money, and thus it applies as a modifier on all <a href="../skills/craft.html#_craft" >Craft</a>, <a href="../skills/perform.html#_perform" >Perform</a>, and <a href="../skills/profession.html#_profession" >Profession</a> checks made to generate income.</p><div class="right"><table id="guards!-guards!"><caption>Guards! Guards!</caption><tr><td style="white-space:normal;">It's inevitable&mdash;sooner or later, the PCs will want to call upon the town guard or cause a situation where citizens do so instead. Calling for the guard requires a <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> check modified by the settlement's law modifier. It's only a DC 5 check to call for the guard&mdash;with a success, the guards generally arrive on the scene in 1d6 minutes. Every 5 points by which the <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> check exceeds DC 5 (rounding down) reduces the arrival time by 1 minute&mdash;if this reduces their arrival time below 1 minute, the increments of reduction instead change to 1 round. For example, the party wizard is being mugged and calls for the guard. The result of his <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> check is a 23, and the GM rolls a 2 on 1d6 to determine how long it'll be before the guards arrive. Since the wizard rolled three thimes the amount he needed, the 2-minute wait time is reduced to 8 rounds.</td></tr></table></div>
+				<p id="law"><b>Law</b>: Law measures how strict a settlement's laws and edicts are. A settlement with a low law modifier isn't necessarily crime-ridden&mdash;in fact, a low law modifier usually indicates that the town simply has little need for protection since crime is so rare. A high law modifier means the settlement's guards are particularly alert, vigilant, and well-organized. The more lawful a town is, the more timidly its citizens tend to respond to shows of force. A settlement's law modifier applies on <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> checks made to force an opponent to act friendly, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks against government officials, or <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks made to call on the city guard (see sidebar).</p>
+				<p id="lore"><b>Lore</b>: A settlement's lore modifier measures not only how willing the citizens are to chat and talk with visitors, but also how available and accessible its libraries and sages are. A low lore modifier doesn't mean the settlement's citizens are idiots, just that they're close-mouthed or simply lack knowledge resources. A settlement's lore modifier applies on <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks made to gather information and <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> checks made using the city's resources to do research when using a library.</p>
+				<p id="society"><b>Society</b>: Society measures how open-minded and civilized a settlement's citizens are. A low society modifier might mean many of the citizens harbor prejudices or are overly suspicious of out-of-towners. A high society modifier means that citizens are used to diversity and unusual visitors and that they respond better to well-spoken attempts at conversation. A settlement's society modifier applies on all <a href="../skills/disguise.html#_disguise" >Disguise</a> checks, as well as on <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks made to alter the attitude of any non-government official.</p>
+				<h2 id="settlement-alignment">Settlement Alignment</h2>
+				<p>A settlement's alignment not only describes the community's general personality and attitude, but also influences its modifiers. A lawful component to a settlement's alignment increases its law modifier by 1. A good component increases its society modifier by 1. A chaotic component increases its crime modifier by 1. An evil component increases its corruption modifier by 1. A neutral component increases its lore modifier by 1 (a truly neutral city gains an increase of 2 to its lore modifier). Alignment never modifies a settlement's economy modifier.</p>
+				<h2 id="settlement-government">Settlement Government</h2>
+				<p>Just like nations, towns and cities are ruled by governments. A settlement's government not only helps to establish the flavor and feel of the community but also adjusts its modifiers. Choose one of the following as the settlement's government.</p>
+				<p id="autocracy"><b>Autocracy</b>: A single individual chosen by the people rules the community. This leader's actual title can vary&mdash;mayor, burgomaster, lord, or even royal titles like duke or prince are common. (<i>No modifiers</i>)</p>
+				<p id="council"><b>Council</b>: A group of councilors, often composed of guild masters or members of the aristocracy, leads the settlement. (<i>Society +4; Law and Lore &ndash;2</i>)</p>
+				<p id="magical"><b>Magical</b>: An individual or group with potent magical power, such as a high priest, an archwizard, or even a magical monster, leads the community. (<i>Lore +2; Corruption and Society &ndash;2; increase spellcasting by 1 level</i>)</p>
+				<p id="overlord"><b>Overlord</b>: The community's ruler is a single individual who either seized control or inherited command of the settlement. (<i>Corruption and Law +2; Crime and Society &ndash;2</i>)</p>
+				<p id="secret-syndicate"><b>Secret Syndicate</b>: An unofficial or illegal group like a thieves' guild rules the settlement&mdash;they may use a puppet leader to maintain secrecy, but the group members pull the strings in town. (<i>Corruption, Economy, and Crime +2; Law &ndash;6</i>)</p>
+				<h2 id="settlement-qualities">Settlement Qualities</h2>
+				<p>Settlements often have unusual qualities that make them unique. Listed below are several different qualities that can further modify a community's statistics. A settlement's type determines how many qualities it can have&mdash;once a quality is chosen, it cannot be changed.</p>
+				<p>Note that many of the following qualities adjust a town's base value or purchase limit by a percentage of the town's standard values. If a town has multiple qualities of this sort, add together the percentages from modifiers and then increase the base value by that aggregated total&mdash;do not apply the increases one at a time.</p>
+				<p id="academic"><b>Academic</b>: The settlement possesses a school, training facility, or university of great renown. (<i>Lore +1, increase spellcasting by 1 level</i>)</p>
+				<p id="holy-site"><b>Holy Site</b>: The settlement hosts a shrine, temple, or landmark with great significance to one or more religions. The settlement has a higher percentage of divine spellcasters in its population. (<i>Corruption &ndash;2; increase spellcasting by 2 levels</i>)</p>
+				<p id="insular"><b>Insular</b>: The settlement is isolated, perhaps physically or even spiritually. Its citizens are fiercely loyal to one another. (<i>Law +1; Crime &ndash;1</i>)</p>
+				<p id="magically-attuned"><b>Magically Attuned</b>: The settlement is a haven for spellcasters due to its location; for example, it may lie at the convergence of multiple ley lines or near a well-known magical site. (<i>Increase base value by 20%; increase purchase limit by 20%; increase spellcasting by 2 levels</i>)</p>
+				<p id="notorious"><b>Notorious</b>: The settlement has a reputation (deserved or not) for being a den of iniquity. Thieves, rogues, and cutthroats are much more common here. (<i>Crime +1; Law &ndash;1; Danger +10; increase base value by 30%; increase purchase limit by 50%</i>)</p>
+				<p id="pious"><b>Pious</b>: The settlement is known for its inhabitants' good manners, friendly spirit, and deep devotion to a deity (this deity must be of the same alignment as the community). (<i>Increase spellcasting by 1 level</i>; <i>any faith more than one alignment step different than the community's official religion is at best unwelcome and at worst outlawed&mdash;obvious worshipers of an outlawed deity must pay 150% of the normal price for goods and services and may face mockery, insult, or even violence</i>)</p>
+				<p id="prosperous"><b>Prosperous</b>: The settlement is a popular hub for trade. Merchants are wealthy and the citizens live well. (<i>Economy +1; increase base value by 30%; increase purchase limit by 50%</i>)</p>
+				<p id="racially-intolerant"><b>Racially Intolerant</b>: The community is prejudiced against one or more races, which are listed in parentheses. (<i>Members of the unwelcome race or races must pay 150% of the normal price for goods and services and may face mockery, insult, or even violence</i>)</p>
+				<p id="rumormongering-citizens"><b>Rumormongering Citizens</b>: The settlement's citizens are nosy and gossipy to a fault&mdash;very little happens in the settlement that no one knows about. (<i>Lore +1; Society &ndash;1</i>)</p>
+				<p id="strategic-location"><b>Strategic Location</b>: The settlement sits at an important crossroads or alongside a deepwater port, or it serves as a barrier to a pass or bridge. (<i>Economy +1; increase base value by 10%</i>)</p>
+				<p id="superstitious"><b>Superstitious</b>: The community has a deep and abiding fear of magic and the unexplained, but this fear has caused its citizens to become more supportive and loyal to each other and their settlement. (<i>Crime &ndash;4; Law and Society +2; reduce spellcasting by 2 levels</i>)</p>
+				<p id="tourist-attraction"><b>Tourist Attraction</b>: The settlement possesses some sort of landmark or event that draws visitors from far and wide. (<i>Economy +1; increase base value by 20%</i>)</p>
+				<h2 id="settlement-disadvantages">Settlement Disadvantages</h2>
+				<p>Just as a settlement can have unusual qualities to enhance its statistics, it can also suffer from disadvantages. There's no limit to the number of disadvantages a community can suffer, but most do not have disadvantages, since a settlement plagued by disadvantages for too long eventually collapses. A disadvantage can arise as the result of an event or action taken by a powerful or influential NPC or PC. Likewise, by going on a quest or accomplishing a noteworthy deed, a group of heroes can remove a settlement's disadvantage. Several disadvantages are listed below.</p>
+				<p id="anarchy"><b>Anarchy</b>: The settlement has no leaders&mdash;this type of community is often short-lived and dangerous. (<i>Replaces settlement's Government and removes Government adjustments to modifiers</i>; <i>Corruption and Crime +4; Economy and Society &ndash;4; Law &ndash;6; Danger +20</i>)</p>
+				<p id="cursed"><b>Cursed</b>: Some form of curse afflicts the city. Its citizens might be prone to violence or suffer ill luck, or they could be plagued by an infestation of pests. (<i>Choose one modifier and reduce its value by 4</i>)</p>
+				<p id="hunted"><b>Hunted</b>: A powerful group or monster uses the city as its hunting ground. Citizens live in fear and avoid going out on the streets unless necessary. <i>(Economy, Law, and Society &ndash;4; Danger +20; reduce base value by 20%)</i></p>
+				<p id="impoverished"><b>Impoverished</b>: Because of any number of factors, the settlement is destitute. Poverty, famine, and disease run rampant. (<i>Corruption and Crime +1; decrease base value and purchase limit by 50%; halve magic item availability</i>)</p>
+				<p id="plagued"><b>Plagued</b>: The community is suffering from a protracted contagion or malady. (<i>&ndash;2 to all modifiers; reduce base value by 20%; select a communicable disease&mdash;there's a 5% chance each day that a PC is exposed to the disease and must make a Fortitude save to avoid contracting the illness</i>)</p>
+				<h2 id="sample-settlements">Sample Settlements</h2>
+				<p>While it's nice to be prepared, and planning out cities can be fun in and of itself, it's not always possible to generate specific settlement stat blocks for every town and city that the PCs might visit. Sometimes the PCs decide to venture off in search of supplies instead of heading straight for the next dungeon, other times they make selling their newly acquired loot their highest priority. The following sample settlements are designed for precisely such occasions. Rather than a specific name, each of these sample settlements bears a generic title that indicates what kind of settlement it is or where it might be located.</p>
+				<p id="capital-city" class="stat-block-title"><b>Capital City</b></p>
+				<p class="stat-block-1">N large city</p>
+				<p id="corruption" class="stat-block-1"><b>Corruption</b> +0; <b>Crime</b> +2; <b>Economy</b> +5; <b>Law</b> +2; <b>Lore</b> +5; <b>Society</b> +2</p>
+				<p id="qualities" class="stat-block-1"><b>Qualities</b> academic, holy site, prosperous, strategic location, tourist attraction</p>
+				<p id="danger" class="stat-block-1"><b>Danger</b> +10</p>
+				<p id="demographics" class="stat-block-breaker"><b>Demographics</b></p>
+				<p id="government" class="stat-block-1"><b>Government</b> autocracy</p>
+				<p id="population" class="stat-block-1"><b>Population</b> 18,000 (14,000 humans; 1,000 dwarves; 1,000 halflings; 500 elves; 1,500 other)</p>
+				<p id="notable-npcs" class="stat-block-1"><b>Notable NPCs</b></p>
+				<p id="captain-of-the-guard-jiranda-hollis"><b>Captain of the Guard Jiranda Hollis</b> (LN female human fighter 5)</p>
+				<p id="high-priest-fallor-pollux"><b>High Priest Fallor Pollux</b> (LG male human cleric 10)</p>
+				<p id="lord-mayor-alton-ralderac-"><b>Lord Mayor Alton Ralderac </b>(N male human aristocrat 4)</p>
+				<p id="marketplace" class="stat-block-breaker"><b>Marketplace</b></p>
+				<p id="base-value" class="stat-block-1"><b>Base Value</b> 12,800 gp; <b>Purchase Limit</b> 75,000 gp; <b>Spellcasting</b> 9th</p>
+				<p id="minor-items" class="stat-block-1"><b>Minor Items</b> 4d4; <b>Medium Items</b> 3d4; <b>Major Items</b> 2d4</p>
+				<p id="city-of-thieves" class="stat-block-title"><b>City of Thieves</b></p>
+				<p class="stat-block-1">CN small city</p>
+				<p id="corruption" class="stat-block-1"><b>Corruption</b> +3; <b>Crime</b> +5; <b>Economy</b> +4; <b>Law</b> &ndash;6; <b>Lore</b> +3; <b>Society</b> +1</p>
+				<p id="qualities" class="stat-block-1"><b>Qualities</b> academic, notorious, racially intolerant (halflings), tourist attraction</p>
+				<p id="danger" class="stat-block-1"><b>Danger</b> +15</p>
+				<p id="demographics" class="stat-block-breaker"><b>Demographics</b></p>
+				<p id="government" class="stat-block-1"><b>Government</b> secret syndicate</p>
+				<p id="population" class="stat-block-1"><b>Population</b> 10,000 (6,000 humans; 1,500 halflings; 1,000 half-orcs; 750 dwarves; 750 other)</p>
+				<p id="notable-npcs" class="stat-block-1"><b>Notable NPCs</b></p>
+				<p id="crimelord-kamus-rix"><b>Crimelord Kamus Rix</b> (NE male half-orc fighter 2/rogue 6)</p>
+				<p id="headmistress-of-the-wizards'-academy-alamandra-talais"><b>Headmistress of the Wizards' Academy Alamandra Talais</b> (N female human wizard 13)</p>
+				<p id="puppet-mayor-pavo-tumbor"><b>Puppet Mayor Pavo Tumbor</b> (LE male human aristocrat 2)</p>
+				<p id="marketplace" class="stat-block-breaker"><b>Marketplace</b></p>
+				<p id="base-value" class="stat-block-1"><b>Base Value</b> 6,000 gp; <b>Purchase Limit</b> 37,500 gp; <b>Spellcasting</b> 7th</p>
+				<p id="minor-items" class="stat-block-1"><b>Minor Items</b> 4d4; <b>Medium Items</b> 3d4; <b>Major Items</b> 1d6</p>
+				<p id="city-state-of-intrigue" class="stat-block-title"><b>City-State of Intrigue</b></p>
+				<p class="stat-block-1">LE metropolis</p>
+				<p id="corruption" class="stat-block-1"><b>Corruption</b> +7; <b>Crime</b> +5; <b>Economy</b> +2; <b>Law</b> +0; <b>Lore</b> +5; <b>Society</b> +1</p>
+				<p id="qualities" class="stat-block-1"><b>Qualities</b> holy site, notorious, prosperous, rumormongering citizens, strategic location, superstitious</p>
+				<p id="danger" class="stat-block-1"><b>Danger</b> +20; <b>Disadvantages</b> anarchy</p>
+				<p id="demographics" class="stat-block-breaker"><b>Demographics</b></p>
+				<p id="government" class="stat-block-1"><b>Government</b> anarchy</p>
+				<p id="population" class="stat-block-1"><b>Population</b> 55,000 (31,000 humans; 10,000 halflings; 8,000 elves; 2,000 half-elves; 1,000 gnomes; 3,000 other)</p>
+				<p id="notable-npcs" class="stat-block-1"><b>Notable NPCs</b></p>
+				<p id="backbiting-socialite-viviana-dartmoor"><b>Backbiting Socialite Viviana Dartmoor</b> (LE female human aristocrat 4/sorcerer 3)</p>
+				<p id="powerless-queen-regent-cordella-i-"><b>Powerless Queen-Regent Cordella I </b>(NG female human aristocrat 3)</p>
+				<p id="social-critic-narcil-sharptongue-"><b>Social Critic Narcil Sharptongue </b> (CN male half-elf bard 6)</p>
+				<p id="marketplace" class="stat-block-breaker"><b>Marketplace</b></p>
+				<p id="base-value" class="stat-block-1"><b>Base Value</b> 27,200 gp; <b>Purchase Limit</b> 200,000 gp; <b>Spellcasting</b> 8th</p>
+				<p id="minor-items" class="stat-block-1"><b>Minor Items</b> all available; <b>Medium Items</b> 4d4; <b>Major Items</b> 3d4</p>
+				<p id="creepy-backwoods-hamlet" class="stat-block-title"><b>Creepy Backwoods Hamlet</b></p>
+				<p class="stat-block-1">NE hamlet</p>
+				<p id="corruption" class="stat-block-1"><b>Corruption</b> +1; <b>Crime</b> &ndash;5; <b>Economy</b> &ndash;2; <b>Law</b> +1; <b>Lore</b> &ndash;1; <b>Society</b> &ndash;8</p>
+				<p id="qualities" class="stat-block-1"><b>Qualities</b> insular</p>
+				<p id="danger" class="stat-block-1"><b>Danger</b> &ndash;5; <b>Disadvantages</b> cursed</p>
+				<p id="demographics" class="stat-block-breaker"><b>Demographics</b></p>
+				<p id="government" class="stat-block-1"><b>Government</b> overlord</p>
+				<p id="population" class="stat-block-1"><b>Population</b> 23 (23 humans)</p>
+				<p id="notable-npcs" class="stat-block-1"><b>Notable NPCs</b></p>
+				<p id="patriarch-father-humms"><b>Patriarch Father Humms</b> (CE male human ranger 3)</p>
+				<p id="village-idiot-junior-humms"><b>Village Idiot Junior Humms</b> (CN male human barbarian 1)</p>
+				<p id="witch-mother-twixt"><b>Witch Mother Twixt</b> (NE female human adept 4)</p>
+				<p id="marketplace" class="stat-block-breaker"><b>Marketplace</b></p>
+				<p id="base-value" class="stat-block-1"><b>Base Value</b> 200 gp; <b>Purchase Limit</b> 1,000 gp; <b>Spellcasting</b> 2nd</p>
+				<p id="minor-items" class="stat-block-1"><b>Minor Items</b> 1d6; <b>Medium Items</b> &mdash;; <b>Major Items</b> &mdash;</p>
+				<p id="dwarven-trade-town" class="stat-block-title"><b>Dwarven Trade Town</b></p>
+				<p class="stat-block-1">LG large town</p>
+				<p id="corruption" class="stat-block-1"><b>Corruption</b> +0; <b>Crime</b> +0; <b>Economy</b> +2; <b>Law</b> &ndash;1; <b>Lore</b> &ndash;2; <b>Society</b> +5</p>
+				<p id="qualities" class="stat-block-1"><b>Qualities</b> pious, prosperous, strategic location</p>
+				<p id="danger" class="stat-block-1"><b>Danger</b> +5</p>
+				<p id="demographics" class="stat-block-breaker"><b>Demographics</b></p>
+				<p id="government" class="stat-block-1"><b>Government</b> council</p>
+				<p id="population" class="stat-block-1"><b>Population</b> 2,500 (2,000 dwarves; 400 humans; 100 other)</p>
+				<p id="notable-npcs" class="stat-block-1"><b>Notable NPCs</b></p>
+				<p id="forgefather-gundar-dorgrun-"><b>Forgefather Gundar Dorgrun </b>(LG male dwarf cleric 12)</p>
+				<p id="guildsmistress-bilda-keldam-"><b>Guildsmistress Bilda Keldam </b>(LN female dwarf aristocrat 3/expert 3)</p>
+				<p id="militia-captain-karnag-thosk"><b>Militia Captain Karnag Thosk</b> (NG male dwarf fighter 4)</p>
+				<p id="marketplace" class="stat-block-breaker"><b>Marketplace</b></p>
+				<p id="base-value" class="stat-block-1"><b>Base Value</b> 2,800 gp; <b>Purchase Limit</b> 15,000 gp; <b>Spellcasting</b> 6th</p>
+				<p id="minor-items" class="stat-block-1"><b>Minor Items</b> 3d4; <b>Medium Items</b> 2d4; <b>Major Items</b> 1d4</p>
+				<p id="elven-town" class="stat-block-title"><b>Elven Town</b></p>
+				<p class="stat-block-1">CG small town</p>
+				<p id="corruption" class="stat-block-1"><b>Corruption</b> &ndash;2; <b>Crime</b> +1; <b>Economy</b> +0; <b>Law</b> +0; <b>Lore</b> +2; <b>Society</b> &ndash;1</p>
+				<p id="qualities" class="stat-block-1"><b>Qualities</b> magically attuned, racially intolerant (dwarves, half-orcs, humans)</p>
+				<p id="danger" class="stat-block-1"><b>Danger</b> +0</p>
+				<p id="demographics" class="stat-block-breaker"><b>Demographics</b></p>
+				<p id="government" class="stat-block-1"><b>Government</b> magical</p>
+				<p id="population" class="stat-block-1"><b>Population</b> 1,300 (1,000 elves; 100 gnomes; 100 half-elves; 100 other)</p>
+				<p id="notable-npcs" class="stat-block-1"><b>Notable NPCs</b></p>
+				<p id="archwizard-talandrel-illarion"><b>Archwizard Talandrel Illarion</b> (NG male elf wizard 14)</p>
+				<p id="dungsweeper-hrak"><b>Dungsweeper Hrak</b> (CG male half-orc druid 4)</p>
+				<p id="famous-thief-the-crimson-rose"><b>Famous Thief The Crimson Rose</b> (CN female half-elf rogue 7)</p>
+				<p id="marketplace" class="stat-block-breaker"><b>Marketplace</b></p>
+				<p id="base-value" class="stat-block-1"><b>Base Value</b> 1,200 gp; <b>Purchase Limit</b> 6,000 gp; <b>Spellcasting</b> 7th</p>
+				<p id="minor-items" class="stat-block-1"><b>Minor Items</b> 3d4; <b>Medium Items</b> 1d6; <b>Major Items</b> &mdash;</p>
+				<p id="failing-fishing-village" class="stat-block-title"><b>Failing Fishing Village</b></p>
+				<p class="stat-block-1">LN village</p>
+				<p id="corruption" class="stat-block-1"><b>Corruption</b> +0; <b>Crime</b> &ndash;4; <b>Economy</b> &ndash;1; <b>Law</b> +2; <b>Lore</b> +1; <b>Society</b> +0</p>
+				<p id="qualities" class="stat-block-1"><b>Qualities</b> rumormongering citizens, superstitious</p>
+				<p id="danger" class="stat-block-1"><b>Danger</b> +0; <b>Disadvantages</b> impoverished</p>
+				<p id="demographics" class="stat-block-breaker"><b>Demographics</b></p>
+				<p id="government" class="stat-block-1"><b>Government</b> autocracy</p>
+				<p id="population" class="stat-block-1"><b>Population</b> 70 (63 humans, 6 halflings, 1 half-elf)</p>
+				<p id="notable-npcs" class="stat-block-1"><b>Notable NPCs</b></p>
+				<p id="mayor-tanner-basken"><b>Mayor Tanner Basken</b> (LG male human expert 3)</p>
+				<p id="sheriff-ira-skeen"><b>Sheriff Ira Skeen</b> (LN female human fighter 1/ranger 3)</p>
+				<p id="soothsayer-the-beachcomber"><b>Soothsayer the Beachcomber</b> (N male human druid 2)</p>
+				<p id="marketplace" class="stat-block-breaker"><b>Marketplace</b></p>
+				<p id="base-value" class="stat-block-1"><b>Base Value</b> 250 gp; <b>Purchase Limit</b> 1,250 gp; <b>Spellcasting</b> 1st</p>
+				<p id="minor-items" class="stat-block-1"><b>Minor Items</b> 1d4; <b>Medium Items</b> 1d2; <b>Major Items</b> &mdash;</p>
+				<p id="-sleepy-crossroads-thorp" class="stat-block-title"><b> SLEEPY CROSSROADS THORP</b></p>
+				<p class="stat-block-1">NG thorp</p>
+				<p id="corruption" class="stat-block-1"><b>Corruption</b> &ndash;4; <b>Crime</b> &ndash;4; <b>Economy</b> &ndash;4; <b>Law</b> &ndash;6; <b>Lore</b> &ndash;5; <b>Society</b> 1</p>
+				<p id="qualities" class="stat-block-1"><b>Qualities</b> strategic location</p>
+				<p id="danger" class="stat-block-1"><b>Danger</b> &ndash;10</p>
+				<p id="demographics" class="stat-block-breaker"><b>DEMOGRAPHICS</b></p>
+				<p id="government" class="stat-block-1"><b>Government</b> council</p>
+				<p id="population" class="stat-block-1"><b>Population</b> 16 (13 humans, 2 halflings, 1 dwarf)</p>
+				<p id="notable-npcs" class="stat-block-1"><b>Notable NPCs</b></p>
+				<p id="landlord-and-innkeeper-jaycen-halls-"><b>Landlord and Innkeeper Jaycen Halls </b>(NG female human bard 4)</p>
+				<p id="smith-erlan-urnst-"><b>Smith Erlan Urnst </b> (LN male dwarf expert 4/warrior 1)</p>
+				<p id="trading-post-owner-mr.-harlen-gnoat-"><b>Trading Post Owner Mr. Harlen Gnoat </b>(NE male human expert 2)</p>
+				<p id="marketplace" class="stat-block-breaker"><b>MARKETPLACE</b></p>
+				<p id="base-value" class="stat-block-1"><b>Base Value</b> 55 gp; <b>Purchase Limit</b> 500 gp; <b>Spellcasting</b> 1st</p>
+				<p id="minor-items" class="stat-block-1"><b>Minor Items</b> 1d4; <b>Medium Items</b> &mdash;; <b>Major Items</b> &mdash;</p>
+
+
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

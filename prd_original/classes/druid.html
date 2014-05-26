@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Druid</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Druid",globalNavPath=[{ href: '/pathfinderRPG/prd/classes.html', name: 'Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="druid">Druid</h1>
+				<p>Within the purity of the elements and the order of the wilds lingers a power beyond the marvels of civilization. Furtive yet undeniable, these primal magics are guarded over by servants of philosophical balance known as druids. Allies to beasts and manipulators of nature, these often misunderstood protectors of the wild strive to shield their lands from all who would threaten them and prove the might of the wilds to those who lock themselves behind city walls. Rewarded for their devotion with incredible powers, druids gain unparalleled shape-shifting abilities, the companionship of mighty beasts, and the power to call upon nature's wrath. The mightiest temper powers akin to storms, earthquakes, and volcanoes with primeval wisdom long abandoned and forgotten by civilization. </p>
+				<p><b>Role</b>: While some druids might keep to the fringe of battle, allowing companions and summoned creatures to fight while they confound foes with the powers of nature, others transform into deadly beasts and savagely wade into combat. Druids worship personifications of elemental forces, natural powers, or nature itself. Typically this means devotion to a nature deity, though druids are just as likely to revere vague spirits, animalistic demigods, or even specific awe-inspiring natural wonders.</p>
+				<p><b>Alignment</b>: Any neutral.</p>
+				<p><b>Hit Die</b>: d8.</p>
+				<h2>Class Skills</h2>
+				<p>The druid's class skills are <a href="../skills/climb.html#_climb" >Climb</a> (<a href="../gettingStarted.html#_strength" >Str</a>), <a href="../skills/craft.html#_craft" >Craft</a> (<a href="../gettingStarted.html#_intelligence" >Int</a>), <a href="../skills/fly.html#_fly" >Fly</a> (<a href="../gettingStarted.html#_dexterity" >Dex</a>), <a href="../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> (<a href="../gettingStarted.html#_charisma-new" >Cha</a>), Heal (<a href="../gettingStarted.html#_wisdom" >Wis</a>), <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (geography) (<a href="../gettingStarted.html#_intelligence" >Int</a>), <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (nature) (<a href="../gettingStarted.html#_intelligence" >Int</a>), <a href="../skills/perception.html#_perception" >Perception</a> (<a href="../gettingStarted.html#_wisdom" >Wis</a>), <a href="../skills/profession.html#_profession" >Profession</a> (<a href="../gettingStarted.html#_wisdom" >Wis</a>), <a href="../skills/ride.html#_ride" >Ride</a> (<a href="../gettingStarted.html#_dexterity" >Dex</a>), <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> (<a href="../gettingStarted.html#_intelligence" >Int</a>), <a href="../skills/survival.html#_survival" >Survival</a> (<a href="../gettingStarted.html#_wisdom" >Wis</a>), and <a href="../skills/swim.html#_swim" >Swim</a> (<a href="../gettingStarted.html#_strength" >Str</a>).</p>
+				<p><b>Skill Ranks per Level</b>: 4 + <a href="../gettingStarted.html#_intelligence" >Int</a> modifier.</p>
+				<table id="table-3-7-druid"><caption>Table: Druid</caption>
+<thead><tr><th rowspan="2">Level</th><th rowspan="2">Base Attack Bonus</th><th rowspan="2">Fort Save</th><th rowspan="2">Ref Save</th><th rowspan="2">Will Save</th><th rowspan="2">Special</th><th colspan="10">Spells per Day</th></tr>
+<tr><th>0</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th></tr></thead>
+<tr class="odd"><td>1st</td><td>+0</td><td>+2</td><td>+0</td><td>+2</td><td style="white-space: normal;"><a href="#nature-bond" >Nature bond</a>, <a href="#nature-sense" >nature sense</a>, <a href="#orisons-druid" >orisons</a>, <a href="#wild-empathy-druid" >wild empathy</a></td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>2nd</td><td>+1</td><td>+3</td><td>+0</td><td>+3</td><td style="white-space: normal;"><a href="#woodland-stride-druid" >Woodland stride</a></td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>3rd</td><td>+2</td><td>+3</td><td>+1</td><td>+3</td><td style="white-space: normal;"><a href="#trackless-step" >Trackless step</a></td><td>4</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>4th</td><td>+3</td><td>+4</td><td>+1</td><td>+4</td><td style="white-space: normal;"><a href="#resist-nature-s-lure" >Resist nature's lure</a>,<a href="#wild-shape" >Wild shape</a> (1/day)</td><td>4</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>5th</td><td>+3</td><td>+4</td><td>+1</td><td>+4</td><td style="white-space: normal;"></td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>6th</td><td>+4</td><td>+5</td><td>+2</td><td>+5</td><td style="white-space: normal;"><a href="#wild-shape" >Wild shape</a> (2/day)</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>7th</td><td>+5</td><td>+5</td><td>+2</td><td>+5</td><td style="white-space: normal;"></td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>8th</td><td>+6/+1</td><td>+6</td><td>+2</td><td>+6</td><td style="white-space: normal;"><a href="#wild-shape" >Wild shape</a> (3/day)</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>9th</td><td>+6/+1</td><td>+6</td><td>+3</td><td>+6</td><td style="white-space: normal;"><a href="#venom-immunity" >Venom immunity</a></td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>10th</td><td>+7/+2</td><td>+7</td><td>+3</td><td>+7</td><td style="white-space: normal;"><a href="#wild-shape" >Wild shape</a> (4/day)</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>11th</td><td>+8/+3</td><td>+7</td><td>+3</td><td>+7</td><td style="white-space: normal;"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>12th</td><td>+9/+4</td><td>+8</td><td>+4</td><td>+8</td><td style="white-space: normal;"><a href="#wild-shape" >Wild shape</a> (5/day)</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>13th</td><td>+9/+4</td><td>+8</td><td>+4</td><td>+8</td><td style="white-space: normal;"><a href="#a-thousand-faces" >A thousand faces</a></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>14th</td><td>+10/+5</td><td>+9</td><td>+4</td><td>+9</td><td style="white-space: normal;"><a href="#wild-shape" >Wild shape</a> (6/day)</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>15th</td><td>+11/+6/+1</td><td>+9</td><td>+5</td><td>+9</td><td style="white-space: normal;"><a href="#timeless-body" >Timeless body</a></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td></tr>
+<tr class="even"><td>16th</td><td>+12/+7/+2</td><td>+10</td><td>+5</td><td>+10</td><td style="white-space: normal;"><a href="#wild-shape" >Wild shape</a> (7/day)</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td></tr>
+<tr class="odd"><td>17th</td><td>+12/+7/+2</td><td>+10</td><td>+5</td><td>+10</td><td style="white-space: normal;"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td></tr>
+<tr class="even"><td>18th</td><td>+13/+8/+3</td><td>+11</td><td>+6</td><td>+11</td><td style="white-space: normal;"><a href="#wild-shape" >Wild shape</a> (8/day)</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td></tr>
+<tr class="odd"><td>19th</td><td>+14/+9/+4</td><td>+11</td><td>+6</td><td>+11</td><td style="white-space: normal;"></td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td></tr>
+<tr class="even"><td>20th</td><td>+15/+10/+5</td><td>+12</td><td>+6</td><td>+12</td><td style="white-space: normal;"><a href="#wild-shape" >Wild shape</a> (at will)</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td></tr></table>
+				<h2>Class Features</h2>
+				<p>All of the following are class features of the druid.</p>
+				<p><b>Weapon and Armor Proficiency</b>: Druids are proficient with the following weapons: club, dagger, dart, quarterstaff, scimitar, scythe, sickle, shortspear, sling, and spear. They are also proficient with all natural attacks (claw, bite, and so forth) of any form they assume with wild shape (see below).</p>
+				<p>Druids are proficient with light and medium armor but are prohibited from wearing metal armor; thus, they may wear only padded, leather, or hide armor. A druid may also wear wooden armor that has been altered by the <i>ironwood</i> spell so that it functions as though it were steel. Druids are proficient with shields (except tower shields) but must use only those crafted from wood.</p>
+				<p>A druid who wears prohibited armor or uses a prohibited shield is unable to cast druid spells or use any of her supernatural or spell-like class abilities while doing so and for 24 hours thereafter.</p>
+				<p id="spells-druid"><b>Spells</b>: A druid casts divine spells which are drawn from the druid spell list presented in <a href="../spellLists.html">Spell Lists</a>. Her <a href="../additionalRules.html#_alignment" >alignment</a> may restrict her from casting certain spells opposed to her moral or ethical beliefs; see Chaotic, Evil, Good, and Lawful Spells. A druid must choose and prepare her spells in advance.</p>
+				<p>To prepare or cast a spell, the druid must have a <a href="../gettingStarted.html#_wisdom" >Wisdom</a> score equal to at least 10 + the spell level. The Difficulty Class for a <a href="../magic.html#_saving-throw" >saving throw</a> against a druid's spell is 10 + the spell level + the druid's <a href="../gettingStarted.html#_wisdom" >Wisdom</a> modifier.</p>
+				<p>Like other spellcasters, a druid can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: Druid. In addition, she receives bonus spells per day if she has a high <a href="../gettingStarted.html#_wisdom" >Wisdom</a> score (see <a href="../gettingStarted.html#_table-1-3-ability-modifiers-and-bonus-spells" >Table: Ability Modifiers and Bonus Spells</a>).</p>
+				<p>A druid must spend 1 hour each day in a trance-like meditation on the mysteries of nature to regain her daily allotment of spells. A druid may prepare and cast any spell on the druid spell list, provided that she can cast spells of that level, but she must choose which spells to prepare during her daily meditation.</p>
+				<p id="spontaneous-casting-druid"><b>Spontaneous Casting</b>: A druid can channel stored spell energy into summoning spells that she hasn't prepared ahead of time. She can “lose” a prepared spell in order to cast any <i>summon nature's ally</i> spell of the same level or lower. </p>
+				<p id="chaotic-evil-good-and-lawful-spells-druid"><b>Chaotic, Evil, Good, and Lawful Spells</b>: A druid can't cast spells of an <a href="../additionalRules.html#_alignment" >alignment</a> opposed to her own or her deity's (if she has one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.</p>
+				<p id="orisons-druid"><b>Orisons</b>: Druids can prepare a number of orisons, or 0-level spells, each day, as noted on Table: Druid under “Spells per Day.” These spells are cast like any other spell, but they are not expended when cast and may be used again.</p>
+				<p id="bonus-languages-druid"><b>Bonus Languages</b>: A druid's bonus language options include Sylvan, the language of woodland creatures. This choice is in addition to the bonus languages available to the character because of her race.</p>
+				<p>A druid also knows Druidic, a secret language known only to druids, which she learns upon becoming a 1st-level druid. Druidic is a free language for a druid; that is, she knows it in addition to her regular allotment of languages and it doesn't take up a language slot. Druids are forbidden to teach this language to nondruids.</p>
+				<p>Druidic has its own alphabet.</p>
+				<p id="nature-bond"><b>Nature Bond <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 1st level, a druid forms a bond with nature. This bond can take one of two forms. The first is a close tie to the natural world, granting the druid one of the following cleric domains: Air, Animal, Earth, Fire, Plant, Water, or Weather. When determining the powers and bonus spells granted by this domain, the druid's effective cleric level is equal to her druid level. A druid that selects this option also receives additional domain spell slots, just like a cleric. She must prepare the spell from her domain in this slot and this spell cannot be used to cast a spell spontaneously.</p>
+				<p>The second option is to form a close bond with an animal companion. A druid may begin play with any of the animals listed in <a href="#animal-companions-animal-choices">Animal Choices</a>. This animal is a loyal companion that accompanies the druid on her adventures.</p>
+				<p>Unlike normal animals of its kind, an animal companion's Hit Dice, abilities, skills, and feats advance as the druid advances in level. If a character receives an animal companion from more than one source, her effective druid levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in size when their druid reaches 4th or 7th level, depending on the companion. If a druid releases her companion from service, she may gain a new one by performing a ceremony requiring 24 uninterrupted hours of prayer in the environment where the new companion typically lives. This ceremony can also replace an animal companion that has perished.</p>
+				<p id="nature-sense"><b>Nature Sense <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: A druid gains a +2 bonus on <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (nature) and <a href="../skills/survival.html#_survival" >Survival</a> checks.</p>
+				<p id="wild-empathy-druid"><b>Wild Empathy <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: A druid can improve the attitude of an animal. This ability functions just like a <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> check made to improve the attitude of a person (see <a href="../usingSkills.html">Using Skills</a>). The druid rolls 1d20 and adds her druid level and her <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.</p>
+				<p>To use wild empathy, the druid and the animal must be within 30 feet of one another under normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with influencing people, it might take more or less time.</p>
+				<p>A druid can also use this ability to influence a magical beast with an <a href="../gettingStarted.html#_intelligence" >Intelligence</a> score of 1 or 2, but she takes a &ndash;4 penalty on the check.</p>
+				<p id="woodland-stride-druid"><b>Woodland Stride <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: Starting at 2nd level, a druid may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at her normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect her.</p>
+				<p id="trackless-step"><b>Trackless Step <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: Starting at 3rd level, a druid leaves no trail in natural surroundings and cannot be tracked. She may choose to leave a trail if so desired.</p>
+				<p id="resist-nature-s-lure"><b>Resist Nature's Lure <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: Starting at 4th level, a druid gains a +4 bonus on <a href="../combat.html#_saving-throws" >saving throws</a> against the spell-like and supernatural abilities of fey. This bonus also applies to spells and effects that utilize or target plants, such as <i><a href="../spells/blight.html#_blight" >blight</a>, <a href="../spells/entangle.html#_entangle" >entangle</a>, <a href="../spells/spikeGrowth.html#_spike-growth" >spike growth</a>, </i>and <i><a href="../spells/warpWood.html#_warp-wood" >warp wood</a>.</i></p>
+				<p id="wild-shape"><b>Wild Shape <a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></b>: At 4th level, a druid gains the ability to turn herself into any Small or Medium animal and back again once per day. Her options for new forms include all creatures with the animal type. This ability functions like the <i><a href="../spells/beastShape.html#_beast-shape-i" >beast shape I</a></i> spell, except as noted here. The effect lasts for 1 hour per druid level, or until she changes back. Changing form (to animal or back) is a standard action and doesn't provoke an <a href="../combat.html#_attacks-of-opportunity" >attack of opportunity</a>. The form chosen must be that of an animal with which the druid is familiar. </p>
+				<p>A druid loses her ability to speak while in animal form because she is limited to the sounds that a normal, untrained animal can make, but she can communicate normally with other animals of the same general grouping as her new form. (The normal sound a wild parrot makes is a squawk, so changing to this form does not permit speech.)</p>
+				<p>A druid can use this ability an additional time per day at 6th level and every two levels thereafter, for a total of eight times at 18th level. At 20th level, a druid can use wild shape at will. As a druid gains levels, this ability allows the druid to take on the form of larger and smaller animals, elementals, and plants. Each form expends one daily use of this ability, regardless of the form taken. </p>
+				<p>At 6th level, a druid can also use wild shape to change into a Large or Tiny animal or a Small elemental. When taking the form of an animal, a druid's wild shape now functions as <i><a href="../spells/beastShape.html#_beast-shape-ii" >beast shape II</a></i>. When taking the form of an elemental, the druid's wild shape functions as <i><a href="../spells/elementalBody.html#_elemental-body-i" >elemental body I</a></i>.</p>
+				<p>At 8th level, a druid can also use wild shape to change into a Huge or Diminutive animal, a Medium elemental, or a Small or Medium plant creature. When taking the form of animals, a druid's wild shape now functions as <i><a href="../spells/beastShape.html#_beast-shape-iii" >beast shape III</a></i>. When taking the form of an elemental, the druid's wild shape now functions as <i><a href="../spells/elementalBody.html#_elemental-body-ii" >elemental body II</a></i>. When taking the form of a plant creature, the druid's wild shape functions as <i><a href="../spells/plantShape.html#_plant-shape-i" >plant shape I</a></i>.</p>
+				<p>At 10th level, a druid can also use wild shape to change into a Large elemental or a Large plant creature. When taking the form of an elemental, the druid's wild shape now functions as <i><a href="../spells/elementalBody.html#_elemental-body-iii" >elemental body III</a></i>. When taking the form of a plant, the druid's wild shape now functions as <i><a href="../spells/plantShape.html#_plant-shape-ii" >plant shape II</a></i>.</p>
+				<p>At 12th level, a druid can also use wild shape to change into a Huge elemental or a Huge plant creature. When taking the form of an elemental, the druid's wild shape now functions as <i><a href="../spells/elementalBody.html#_elemental-body-iv" >elemental body IV</a></i>. When taking the form of a plant, the druid's wild shape now functions as <i><a href="../spells/plantShape.html#_plant-shape-iii" >plant shape III</a></i>.</p>
+				<p id="venom-immunity"><b>Venom Immunity <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 9th level, a druid gains immunity to all poisons. </p>
+				<p id="a-thousand-faces"><b>A Thousand Faces <a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></b>: At 13th level, a druid gains the ability to change her appearance at will, as if using the <i><a href="../spells/alterSelf.html#_alter-self" >alter self</a></i> spell, but only while in her normal form.</p>
+				<p id="timeless-body"><b>Timeless Body <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: After attaining 15th level, a druid no longer takes ability score penalties for aging and cannot be magically aged. Any penalties she may have already incurred, however, remain in place. Bonuses still accrue, and the druid still dies of old age when her time is up.</p>
+				<h2 id="ex-druids">Ex-Druids</h2>
+				<p>A druid who ceases to revere nature, changes to a prohibited <a href="../additionalRules.html#_alignment" >alignment</a>, or teaches the Druidic language to a nondruid loses all spells and druid abilities (including her animal companion, but not including weapon, armor, and shield proficiencies). She cannot thereafter gain levels as a druid until she atones (see the <i><a href="../spells/atonement.html#_atonement" >atonement</a></i> spell description).</p>
+				<h2 id="animal-companions-184">Animal Companions</h2>
+				<p>An animal companion's abilities are determined by the druid's level and its animal racial traits. Table: Animal Companion Base Statistics determines many of the base statistics of the animal companion. They remain creatures of the animal type for purposes of determining which spells can affect them.</p>
+				<table id="table-3-8-animal-companion-base-statistics"><caption>Table: Animal Companion Base Statistics</caption>
+<thead><tr><th>Class Level</th><th>HD</th><th>BAB</th><th>Fort</th><th>Ref</th><th>Will</th><th>Skills</th><th>Feats</th><th>Natural Armor Bonus</th><th>Str/Dex Bonus</th><th>Bonus Tricks</th><th>Special</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1st</td><td>2</td><td>+1</td><td>+3</td><td>+3</td><td>+0</td><td>2</td><td>1</td><td>+0</td><td>+0</td><td>1</td><td><a href="#companions-link" >Link</a>, <a href="#companions-share-spells" >share spells</a></td></tr>
+<tr class="even"><td>2nd</td><td>3</td><td>+2</td><td>+3</td><td>+3</td><td>+1</td><td>3</td><td>2</td><td>+0</td><td>+0</td><td>1</td><td>&mdash;</td></tr>
+<tr class="odd"><td>3rd</td><td>3</td><td>+2</td><td>+3</td><td>+3</td><td>+1</td><td>3</td><td>2</td><td>+2</td><td>+1</td><td>2</td><td><a href="#companions-evasion" >Evasion</a></td></tr>
+<tr class="even"><td>4th</td><td>4</td><td>+3</td><td>+4</td><td>+4</td><td>+1</td><td>4</td><td>2</td><td>+2</td><td>+1</td><td>2</td><td><a href="#companions-ability-score-increase" >Ability score increase</a></td></tr>
+<tr class="odd"><td>5th</td><td>5</td><td>+3</td><td>+4</td><td>+4</td><td>+1</td><td>5</td><td>3</td><td>+2</td><td>+1</td><td>2</td><td>&mdash;</td></tr>
+<tr class="even"><td>6th</td><td>6</td><td>+4</td><td>+5</td><td>+5</td><td>+2</td><td>6</td><td>3</td><td>+4</td><td>+2</td><td>3</td><td><a href="#companions-devotion" >Devotion</a></td></tr>
+<tr class="odd"><td>7th</td><td>6</td><td>+4</td><td>+5</td><td>+5</td><td>+2</td><td>6</td><td>3</td><td>+4</td><td>+2</td><td>3</td><td>&mdash;</td></tr>
+<tr class="even"><td>8th</td><td>7</td><td>+5</td><td>+5</td><td>+5</td><td>+2</td><td>7</td><td>4</td><td>+4</td><td>+2</td><td>3</td><td>&mdash;</td></tr>
+<tr class="odd"><td>9th</td><td>8</td><td>+6</td><td>+6</td><td>+6</td><td>+2</td><td>8</td><td>4</td><td>+6</td><td>+3</td><td>4</td><td><a href="#companions-ability-score-increase" >Ability score increase</a>, <a href="#companions-multiattack" >Multiattack</a></td></tr>
+<tr class="even"><td>10th</td><td>9</td><td>+6</td><td>+6</td><td>+6</td><td>+3</td><td>9</td><td>5</td><td>+6</td><td>+3</td><td>4</td><td>&mdash;</td></tr>
+<tr class="odd"><td>11th</td><td>9</td><td>+6</td><td>+6</td><td>+6</td><td>+3</td><td>9</td><td>5</td><td>+6</td><td>+3</td><td>4</td><td>&mdash;</td></tr>
+<tr class="even"><td>12th</td><td>10</td><td>+7</td><td>+7</td><td>+7</td><td>+3</td><td>10</td><td>5</td><td>+8</td><td>+4</td><td>5</td><td>&mdash;</td></tr>
+<tr class="odd"><td>13th</td><td>11</td><td>+8</td><td>+7</td><td>+7</td><td>+3</td><td>11</td><td>6</td><td>+8</td><td>+4</td><td>5</td><td>&mdash;</td></tr>
+<tr class="even"><td>14th</td><td>12</td><td>+9</td><td>+8</td><td>+8</td><td>+4</td><td>12</td><td>6</td><td>+8</td><td>+4</td><td>5</td><td><a href="#companions-ability-score-increase" >Ability score increase</a></td></tr>
+<tr class="odd"><td>15th</td><td>12</td><td>+9</td><td>+8</td><td>+8</td><td>+4</td><td>12</td><td>6</td><td>+10</td><td>+5</td><td>6</td><td><a href="#companions-improved-evasion" >Improved evasion</a></td></tr>
+<tr class="even"><td>16th</td><td>13</td><td>+9</td><td>+8</td><td>+8</td><td>+4</td><td>13</td><td>7</td><td>+10</td><td>+5</td><td>6</td><td>&mdash;</td></tr>
+<tr class="odd"><td>17th</td><td>14</td><td>+10</td><td>+9</td><td>+9</td><td>+4</td><td>14</td><td>7</td><td>+10</td><td>+5</td><td>6</td><td>&mdash;</td></tr>
+<tr class="even"><td>18th</td><td>15</td><td>+11</td><td>+9</td><td>+9</td><td>+5</td><td>15</td><td>8</td><td>+12</td><td>+6</td><td>7</td><td>&mdash;</td></tr>
+<tr class="odd"><td>19th</td><td>15</td><td>+11</td><td>+9</td><td>+9</td><td>+5</td><td>15</td><td>8</td><td>+12</td><td>+6</td><td>7</td><td>&mdash;</td></tr>
+<tr class="even"><td>20th</td><td>16</td><td>+12</td><td>+10</td><td>+10</td><td>+5</td><td>16</td><td>8</td><td>+12</td><td>+6</td><td>7</td><td><a href="#companions-ability-score-increase" >Ability score increase</a></td></tr></tbody></table>
+				<p><b>Class Level</b>: This is the character's druid level. The druid's class levels stack with levels of any other classes that are entitled to an animal companion for the purpose of determining the companion's statistics.</p>
+				<p><b>HD</b>: This is the total number of eight-sided (d8) Hit Dice the animal companion possesses, each of which gains a <a href="../gettingStarted.html#_constitution" >Constitution</a> modifier, as normal. </p>
+				<p><b>BAB</b>: This is the animal companion's base attack bonus. An animal companion's base attack bonus is the same as that of a druid of a level equal to the animal's HD. Animal companions do not gain additional attacks using their natural weapons for a high base attack bonus.</p>
+				<p><b>Fort/<a href="../combat.html#_reflex" >Ref</a>/Will</b>: These are the animal companion's base <a href="../combat.html#_saving-throws" >saving throw</a> bonuses. An animal companion has good <a href="../combat.html#_fortitude" >Fortitude</a> and <a href="../combat.html#_reflex" >Reflex saves</a>.</p>
+				<p><b>Skills</b>: This lists the animal's total skill ranks. Animal companions can assign skill ranks to any skill listed under Animal Skills. If an animal companion increases its <a href="../gettingStarted.html#_intelligence" >Intelligence</a> to 10 or higher, it gains bonus skill ranks as normal. Animal companions with an <a href="../gettingStarted.html#_intelligence" >Intelligence</a> of 3 or higher can purchase ranks in any skill. An animal companion cannot have more ranks in a skill than it has Hit Dice.</p>
+				<p><b>Feats</b>: This is the total number of feats possessed by an animal companion. Animal companions should select their feats from those listed under Animal Feats. Animal companions can select other feats, although they are unable to utilize some feats (such as Martial Weapon Proficiency). Note that animal companions cannot select a feat with a requirement of base attack bonus +1 until they gain their second feat at 3 Hit Dice.</p>
+				<p><b>Natural Armor Bonus</b>: The number noted here is an improvement to the animal companion's existing natural armor bonus.</p>
+				<p><b>Str/Dex Bonus</b>: Add this modifier to the animal companion's <a href="../gettingStarted.html#_strength" >Strength</a> and <a href="../gettingStarted.html#_dexterity" >Dexterity</a> scores.</p>
+				<p><b>Bonus Tricks</b>: The value given in this column is the total number of “bonus” tricks that the animal knows in addition to any that the druid might choose to teach it (see the <a href="../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> skill for more details on how to teach an animal tricks). These bonus tricks don't require any training time or <a href="../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> checks, and they don't count against the normal limit of tricks known by the animal. The druid selects these bonus tricks, and once selected, they can't be changed. </p>
+				<p><b>Special</b>: This includes a number of abilities gained by animal companions as they increase in power. Each of these bonuses is described below.</p>
+				<p id="companions-link"><i>Link <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a>:</i> A druid can handle her animal companion as a free action, or push it as a move action, even if she doesn't have any ranks in the <a href="../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> skill. The druid gains a +4 circumstance bonus on all wild empathy checks and <a href="../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> checks made regarding an animal companion.</p>
+				<p id="companions-share-spells"><i>Share Spells <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a>:</i> The druid may cast a spell with a target of “You” on her animal companion (as a spell with a range of touch) instead of on herself. A druid may cast spells on her animal companion even if the spells normally do not affect creatures of the companion's type (animal). Spells cast in this way must come from a class that grants an animal companion. This ability does not allow the animal to share abilities that are not spells, even if they function like spells.</p>
+				<p id="companions-evasion"><i>Evasion <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a>:</i> If an animal companion is subjected to an attack that normally allows a <a href="../combat.html#_reflex" >Reflex</a> save for half damage, it takes no damage if it makes a successful <a href="../combat.html#_saving-throws" >saving throw</a>.</p>
+				<p id="companions-ability-score-increase"><i>Ability Score Increase <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a>:</i> The animal companion adds +1 to one of its ability scores.</p>
+				<p id="companions-devotion"><i>Devotion <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a>:</i> An animal companion gains a +4 morale bonus on <a href="../combat.html#_will" >Will saves</a> against enchantment spells and effects.</p>
+				<p id="companions-multiattack"><i>Multiattack: </i>An animal companion gains Multiattack as a bonus feat if it has three or more natural attacks and does not already have that feat. If it does not have the requisite three or more natural attacks, the animal companion instead gains a second attack with one of its natural weapons, albeit at a &ndash;5 penalty.</p>
+				<p id="companions-improved-evasion"><i>Improved Evasion <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a>:</i> When subjected to an attack that allows a <a href="../combat.html#_reflex" >Reflex</a> <a href="../combat.html#_saving-throws" >saving throw</a> for half damage, an animal companion takes no damage if it makes a successful <a href="../combat.html#_saving-throws" >saving throw</a> and only half damage if the <a href="../combat.html#_saving-throws" >saving throw</a> fails.</p>
+				<h2 id="animal-companions-animal-skills">Animal Skills</h2>
+				<p>Animal companions can have ranks in any of the following skills: <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a>* (<a href="../gettingStarted.html#_dexterity" >Dex</a>), <a href="../skills/climb.html#_climb" >Climb</a>* (<a href="../gettingStarted.html#_strength" >Str</a>), <a href="../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> (<a href="../gettingStarted.html#_dexterity" >Dex</a>), <a href="../skills/fly.html#_fly" >Fly</a>* (<a href="../gettingStarted.html#_dexterity" >Dex</a>), <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> (<a href="../gettingStarted.html#_charisma-new" >Cha</a>), <a href="../skills/perception.html#_perception" >Perception</a>* (<a href="../gettingStarted.html#_wisdom" >Wis</a>), <a href="../skills/stealth.html#_stealth" >Stealth</a>* (<a href="../gettingStarted.html#_dexterity" >Dex</a>), <a href="../skills/survival.html#_survival" >Survival</a> (<a href="../gettingStarted.html#_wisdom" >Wis</a>), and <a href="../skills/swim.html#_swim" >Swim</a>* (<a href="../gettingStarted.html#_strength" >Str</a>). All of the skills marked with an (*) are class skills for animal companions. Animal companions with an <a href="../gettingStarted.html#_intelligence" >Intelligence</a> of 3 or higher can put ranks into any skill. </p>
+				<h2 id="animal-companions-animal-feats">Animal Feats</h2>
+				<p>Animal companions can select from the following feats: <a href="../feats.html#_acrobatic" >Acrobatic</a>, <a href="../feats.html#_agile-maneuvers" >Agile Maneuvers</a>, <a href="../feats.html#_armor-proficiency-light" >Armor Proficiency</a> (light, medium, and heavy), <a href="../feats.html#_athletic" >Athletic</a>, <a href="../feats.html#_blind-fight" >Blind-Fight</a>, <a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../feats.html#_diehard" >Diehard</a>, <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_endurance" >Endurance</a>, <a href="../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, Improved Natural Armor, Improved Natural Attack, <a href="../feats.html#_improved-overrun" >Improved Overrun</a>, <a href="../feats.html#_intimidating-prowess" >Intimidating Prowess</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="../feats.html#_mobility" >Mobility</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="../feats.html#_run" >Run</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a>, <a href="../feats.html#_spring-attack" >Spring Attack</a>, <a href="../feats.html#_stealthy" >Stealthy</a>, <a href="../feats.html#_toughness" >Toughness</a>, <a href="../feats.html#_weapon-finesse" >Weapon Finesse</a>, and <a href="../feats.html#_weapon-focus" >Weapon Focus</a>. Animal companions with an <a href="../gettingStarted.html#_intelligence" >Intelligence</a> of 3 or higher can select any feat they are physically capable of using. GMs might expand this list to include feats from other sources. </p>
+				<h2 id="animal-companions-animal-choices">Animal Choices</h2>
+				<p>Each animal companion has different starting sizes, speed, attacks, ability scores, and special qualities. All animal attacks are made using the creature's full base attack bonus unless otherwise noted. Animal attacks add the animal's <a href="../gettingStarted.html#_strength" >Strength</a> modifier to the damage roll, unless it is its only attack, in which case it adds 1-1/2 its <a href="../gettingStarted.html#_strength" >Strength</a> modifier. Some have special abilities, such as <a href="../glossary.html#_scent" >scent</a>. See <a href="../glossary.html#_appendix-1-special-abilities">Special Abilities</a> for more information on these abilities. As you gain levels, your animal companion improves as well, usually at 4th or 7th level, in addition to the standard bonuses noted on Table: Animal Companion Base Statistics. Instead of taking the listed benefit at 4th or 7th level, you can instead choose to increase the companion's <a href="../gettingStarted.html#_dexterity" >Dexterity</a> and <a href="../gettingStarted.html#_constitution" >Constitution</a> by 2.</p>
+				
+				<h3 id="animal-companions-ape">Ape</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Medium; <b>Speed</b> 30 ft., Climb 30 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +1 natural armor; <b>Attack</b> bite (1d4), 2 claws (1d4); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 13, <a href="../gettingStarted.html#_dexterity" >Dex</a> 17, <a href="../gettingStarted.html#_constitution" >Con</a> 10, <a href="../gettingStarted.html#_intelligence" >Int</a> 2, <a href="../gettingStarted.html#_wisdom" >Wis</a> 12, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 7; <b>Special Qualities</b> <a href="../glossary.html#_low-light-vision" >low-light vision</a>, <a href="../glossary.html#_scent" >scent</a>.</p>
+				<p><b>4th-Level Advancement</b>: <b>Size </b>Large; <b><a href="../combat.html#_armor-class" >AC</a> </b>+2 natural armor; <b>Attack</b> bite (1d6), 2 claws (1d6); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +8, <a href="../gettingStarted.html#_dexterity" >Dex</a> &ndash;2, <a href="../gettingStarted.html#_constitution" >Con</a> +4.</p>
+				<h3 id="animal-companions-badger-wolverine">Badger (Wolverine)</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Small; <b>Speed</b> 30 ft., burrow 10 ft., climb 10 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +2 natural armor; <b>Attack</b> bite (1d4), 2 claws (1d3); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 10, <a href="../gettingStarted.html#_dexterity" >Dex</a> 17, <a href="../gettingStarted.html#_constitution" >Con</a> 15, <a href="../gettingStarted.html#_intelligence" >Int</a> 2, <a href="../gettingStarted.html#_wisdom" >Wis</a> 12, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 10; <b>Special Attacks </b>rage (as a barbarian for 6 rounds per day); <b>Special Qualities</b> low-light vision, <a href="../glossary.html#_scent" >scent</a>.</p>
+				<p><b>4th-Level Advancement</b>: <b>Size </b>Medium; <b>Attack </b>bite (1d6), 2 claws (1d4); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +4, <a href="../gettingStarted.html#_dexterity" >Dex</a> &ndash;2, <a href="../gettingStarted.html#_constitution" >Con</a> +2. </p>
+				<h3 id="animal-companions-bear">Bear</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Small; <b>Speed</b> 40 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +2 natural armor; <b>Attack</b> bite (1d4), 2 claws (1d3); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 15, <a href="../gettingStarted.html#_dexterity" >Dex</a> 15, <a href="../gettingStarted.html#_constitution" >Con</a> 13, <a href="../gettingStarted.html#_intelligence" >Int</a> 2, <a href="../gettingStarted.html#_wisdom" >Wis</a> 12, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 6; <b>Special Qualities</b> <a href="../glossary.html#_low-light-vision" >low-light vision</a>, <a href="../glossary.html#_scent" >scent</a>.</p>
+				<p><b>4th-Level Advancement</b>: <b>Size </b>Medium; <b>Attack</b> bite (1d6), 2 claws (1d4); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +4, <a href="../gettingStarted.html#_dexterity" >Dex</a> &ndash;2, <a href="../gettingStarted.html#_constitution" >Con</a> +2. </p>
+				<h3 id="animal-companions-bird-eagle-hawk-owl">Bird (Eagle/Hawk/Owl)</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Small; <b>Speed</b> 10 ft., fly 80 ft. (average); <b><a href="../combat.html#_armor-class" >AC</a></b> +1 natural armor; <b>Attack</b> bite (1d4), 2 talons (1d4); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 10, <a href="../gettingStarted.html#_dexterity" >Dex</a> 15, <a href="../gettingStarted.html#_constitution" >Con</a> 12, <a href="../gettingStarted.html#_intelligence" >Int</a> 2, <a href="../gettingStarted.html#_wisdom" >Wis</a> 14, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 6; <b>Special Qualities</b> <a href="../glossary.html#_low-light-vision" >low-light vision</a>.</p>
+				<p><b>4th-Level Advancement</b>: <b>Ability Scores</b> <a href="../gettingStarted.html#_strength" >Str</a> +2, <a href="../gettingStarted.html#_constitution" >Con</a> +2.</p>
+				<h3 id="animal-companions-boar">Boar</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Small; <b>Speed</b> 40 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +6 natural armor; <b>Attack</b> gore (1d6); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 13, <a href="../gettingStarted.html#_dexterity" >Dex</a> 12, <a href="../gettingStarted.html#_constitution" >Con</a> 15, <a href="../gettingStarted.html#_intelligence" >Int</a> 2, <a href="../gettingStarted.html#_wisdom" >Wis</a> 13, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 4; <b>Special Qualities</b> <a href="../glossary.html#_low-light-vision" >low-light vision</a>, <a href="../glossary.html#_scent" >scent</a>.</p>
+				<p><b>4th-Level Advancement</b>: <b>Size </b>Medium; <b>Attack</b> gore (1d8); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +4, <a href="../gettingStarted.html#_dexterity" >Dex</a> &ndash;2, <a href="../gettingStarted.html#_constitution" >Con</a> +2; <b>Special Attacks</b> ferocity. </p>
+				<h3 id="animal-companions-camel">Camel</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Large; <b>Speed</b> 50 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +1 natural armor; <b>Attack</b> bite (1d4) or spit (ranged touch attack, target is <a href="../glossary.html#_sickened" >sickened</a> for 1d4 rounds, range 10 feet); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 18, <a href="../gettingStarted.html#_dexterity" >Dex</a> 16, <a href="../gettingStarted.html#_constitution" >Con</a> 14, <a href="../gettingStarted.html#_intelligence" >Int</a> 2, <a href="../gettingStarted.html#_wisdom" >Wis</a> 11, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 4; <b>Special Qualities</b> <a href="../glossary.html#_low-light-vision" >low-light vision</a>, <a href="../glossary.html#_scent" >scent</a>.</p>
+				<p><b>4th-Level Advancement</b>: <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +2, <a href="../gettingStarted.html#_constitution" >Con</a> +2.</p>
+				<h3 id="animal-companions-cat-big-lion-tiger">Cat, Big (Lion, Tiger)</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Medium; <b>Speed</b> 40 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +1 natural armor; <b>Attack</b> bite (1d6), 2 claws (1d4); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 13, <a href="../gettingStarted.html#_dexterity" >Dex</a> 17, <a href="../gettingStarted.html#_constitution" >Con</a> 13, <a href="../gettingStarted.html#_intelligence" >Int</a> 2, <a href="../gettingStarted.html#_wisdom" >Wis</a> 15, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 10; <b>Special Attacks </b>rake (1d4); <b>Special Qualities</b> <a href="../glossary.html#_low-light-vision" >low-light vision</a>, <a href="../glossary.html#_scent" >scent</a>.</p>
+				<p><b>7th-Level Advancement</b>: <b>Size </b>Large; <b><a href="../combat.html#_armor-class" >AC</a> </b>+2 natural armor; <b>Attack</b> bite (1d8), 2 claws (1d6); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +8, <a href="../gettingStarted.html#_dexterity" >Dex</a> &ndash;2, <a href="../gettingStarted.html#_constitution" >Con</a> +4; <b>Special Attacks</b> grab, pounce, rake (1d6)  .</p>
+				<h3 id="animal-companions-cat-small-cheetah-leopard">Cat, Small (Cheetah, Leopard)</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Small; <b>Speed</b> 50 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +1 natural armor; <b>Attack</b> bite (1d4 plus trip), 2 claws (1d2); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 12, <a href="../gettingStarted.html#_dexterity" >Dex</a> 21, <a href="../gettingStarted.html#_constitution" >Con</a> 13, <a href="../gettingStarted.html#_intelligence" >Int</a> 2, <a href="../gettingStarted.html#_wisdom" >Wis</a> 12, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 6; <b>Special Qualities</b> <a href="../glossary.html#_low-light-vision" >low-light vision</a>, <a href="../glossary.html#_scent" >scent</a>.</p>
+				<p><b>4th-Level Advancement</b>: <b>Size </b>Medium; <b>Attack</b> bite (1d6 plus trip), 2 claws (1d3); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +4, <a href="../gettingStarted.html#_dexterity" >Dex</a> &ndash;2, <a href="../gettingStarted.html#_constitution" >Con</a> +2; <b>Special Qualities</b> sprint. </p>
+				<h3 id="animal-companions-crocodile-alligator">Crocodile (Alligator)</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Small; <b>Speed</b> 20 ft., swim 30 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +4 natural armor; <b>Attack</b> bite (1d6); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 15, <a href="../gettingStarted.html#_dexterity" >Dex</a> 14, <a href="../gettingStarted.html#_constitution" >Con</a> 15, <a href="../gettingStarted.html#_intelligence" >Int</a> 1, <a href="../gettingStarted.html#_wisdom" >Wis</a> 12, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 2; <b>Special Qualities</b> hold breath, <a href="../glossary.html#_low-light-vision" >low-light vision</a>.</p>
+				<p><b>4th-Level Advancement</b>: <b>Size </b>Medium; <b>Attack</b> bite (1d8) or tail slap (1d12); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +4, <a href="../gettingStarted.html#_dexterity" >Dex</a> &ndash;2, <a href="../gettingStarted.html#_constitution" >Con</a> +2; <b>Special Attacks </b>death roll, grab, sprint. </p>
+				<h3 id="animal-companions-dinosaur-deinonychus-velociraptor">Dinosaur (Deinonychus, Velociraptor)</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Small; <b>Speed</b> 60 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +1 natural armor; <b>Attack</b> 2 talons (1d6), bite (1d4); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 11, <a href="../gettingStarted.html#_dexterity" >Dex</a> 17, <a href="../gettingStarted.html#_constitution" >Con</a> 17, <a href="../gettingStarted.html#_intelligence" >Int</a> 2, <a href="../gettingStarted.html#_wisdom" >Wis</a> 12, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 14; <b>Special Qualities</b> <a href="../glossary.html#_low-light-vision" >low-light vision</a>, <a href="../glossary.html#_scent" >scent</a>.</p>
+				<p><b>7th-Level Advancement</b>: <b>Size </b>Medium; <b><a href="../combat.html#_armor-class" >AC</a> </b>+2 natural armor; <b>Attack</b> 2 talons (1d8), bite (1d6), 2 claws (1d4) <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +4, <a href="../gettingStarted.html#_dexterity" >Dex</a> &ndash;2, <a href="../gettingStarted.html#_constitution" >Con</a> +2; <b>Special Attacks</b> pounce. </p>
+				<h3 id="animal-companions-dog">Dog</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Small; <b>Speed</b> 40 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +2 natural armor; <b>Attack</b> bite (1d4); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 13, <a href="../gettingStarted.html#_dexterity" >Dex</a> 17, <a href="../gettingStarted.html#_constitution" >Con</a> 15, <a href="../gettingStarted.html#_intelligence" >Int</a> 2, <a href="../gettingStarted.html#_wisdom" >Wis</a> 12, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 6; <b>Special Qualities</b> <a href="../glossary.html#_low-light-vision" >low-light vision</a>, <a href="../glossary.html#_scent" >scent</a>.</p>
+				<p><b>4th-Level Advancement</b>: <b>Size </b>Medium; <b>Attack</b> bite (1d6); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +4, <a href="../gettingStarted.html#_dexterity" >Dex</a> &ndash;2, <a href="../gettingStarted.html#_constitution" >Con</a> +2. </p>
+				<h3 id="animal-companions-horse">Horse</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Large; <b>Speed</b> 50 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +4 natural armor; <b>Attack</b> bite (1d4), 2 hooves* (1d6); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 16, <a href="../gettingStarted.html#_dexterity" >Dex</a> 13, <a href="../gettingStarted.html#_constitution" >Con</a> 15, <a href="../gettingStarted.html#_intelligence" >Int</a> 2, <a href="../gettingStarted.html#_wisdom" >Wis</a> 12, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 6; <b>Special Qualities</b> <a href="../glossary.html#_low-light-vision" >low-light vision</a>, <a href="../glossary.html#_scent" >scent</a>. *This is a secondary natural attack, see <a href="../combat.html">Combat</a> for more information on how secondary attacks work.</p>
+				<p><b>4th-Level Advancement</b>: <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +2, <a href="../gettingStarted.html#_constitution" >Con</a> +2; <b>Special Qualities </b>combat trained (see the Handle Animal skill). </p>
+				<h3 id="animal-companions-pony">Pony</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Medium; <b>Speed</b> 40 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +2 natural armor; <b>Attack</b> 2 hooves (1d3); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 13, <a href="../gettingStarted.html#_dexterity" >Dex</a> 13, <a href="../gettingStarted.html#_constitution" >Con</a> 12, <a href="../gettingStarted.html#_intelligence" >Int</a> 2, <a href="../gettingStarted.html#_wisdom" >Wis</a> 11, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 4; <b>Special Qualities</b> <a href="../glossary.html#_low-light-vision" >low-light vision</a>, <a href="../glossary.html#_scent" >scent</a>.</p>
+				<p><b>4th-Level Advancement</b>: <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +2, <a href="../gettingStarted.html#_constitution" >Con</a> +2; <b>Special Qualities </b>combat trained (see the Handle Animal skill). </p>
+				<h3 id="animal-companions-shark">Shark</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Small; <b>Speed</b> swim 60 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +4 natural armor; <b>Attack</b> bite (1d4); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 13, <a href="../gettingStarted.html#_dexterity" >Dex</a> 15, <a href="../gettingStarted.html#_constitution" >Con</a> 15, <a href="../gettingStarted.html#_intelligence" >Int</a> 1, <a href="../gettingStarted.html#_wisdom" >Wis</a> 12, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 2; <b>Special Qualities</b> <a href="../glossary.html#_low-light-vision" >low-light vision</a>, <a href="../glossary.html#_scent" >scent</a>.</p>
+				<p><b>4th-Level Advancement</b>: <b>Size </b>Medium; <b>Attack</b> bite (1d6); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +4, <a href="../gettingStarted.html#_dexterity" >Dex</a> &ndash;2, <a href="../gettingStarted.html#_constitution" >Con</a> +2; <b>Special Qualities</b> blindsense. </p>
+				<h3 id="animal-companions-snake-constrictor">Snake, Constrictor</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Medium; <b>Speed</b> 20 ft., climb 20 ft., swim 20 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +2 natural armor; <b>Attack</b> bite (1d3); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 15, <a href="../gettingStarted.html#_dexterity" >Dex</a> 17, <a href="../gettingStarted.html#_constitution" >Con</a> 13, <a href="../gettingStarted.html#_intelligence" >Int</a> 1, <a href="../gettingStarted.html#_wisdom" >Wis</a> 12, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 2; <b>Special Attacks </b>grab; <b>Special Qualities</b> <a href="../glossary.html#_low-light-vision" >low-light vision</a>, <a href="../glossary.html#_scent" >scent</a>.</p>
+				<p><b>4th-Level Advancement</b>: <b>Size </b>Large; <b><a href="../combat.html#_armor-class" >AC</a></b> +1 natural armor; <b>Attack</b> bite (1d4); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +8, <a href="../gettingStarted.html#_dexterity" >Dex</a> &ndash;2, <a href="../gettingStarted.html#_constitution" >Con</a> +4; <b>Special Attacks</b> constrict 1d4. </p>
+				<h3 id="animal-companions-snake-viper">Snake, Viper</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Small; <b>Speed</b> 20 ft., climb 20 ft., swim 20 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +2 natural armor; <b>Attack</b> bite (1d3 plus poison); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 8, <a href="../gettingStarted.html#_dexterity" >Dex</a> 17, <a href="../gettingStarted.html#_constitution" >Con</a> 11, <a href="../gettingStarted.html#_intelligence" >Int</a> 1, <a href="../gettingStarted.html#_wisdom" >Wis</a> 12, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 2; <b>Special Attacks </b>poison (<i>Frequency</i> 1 round (6), <i>Effect</i> 1 <a href="../gettingStarted.html#_constitution" >Con</a> damage, <i>Cure</i> 1 save, Con-based DC); <b>Special Qualities</b> <a href="../glossary.html#_low-light-vision" >low-light vision</a>, <a href="../glossary.html#_scent" >scent</a>.</p>
+				<p><b>4th-Level Advancement</b>: <b>Size </b>Medium; <b>Attack</b> bite (1d4 plus poison); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +4, <a href="../gettingStarted.html#_dexterity" >Dex</a> &ndash;2, Con +2. </p>
+				<h3 id="animal-companions-wolf">Wolf</h3>
+				<p><b>Starting Statistics</b>:<b> Size</b> Medium; <b>Speed</b> 50 ft.; <b><a href="../combat.html#_armor-class" >AC</a></b> +2 natural armor; <b>Attack</b> bite (1d6 plus trip); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> 13, <a href="../gettingStarted.html#_dexterity" >Dex</a> 15, Con 15, <a href="../gettingStarted.html#_intelligence" >Int</a> 2, <a href="../gettingStarted.html#_wisdom" >Wis</a> 12, <a href="../gettingStarted.html#_charisma-new" >Cha</a> 6; <b>Special Qualities</b> low-light vision, <a href="../glossary.html#_scent" >scent</a>.</p>
+				<p><b>7th-Level Advancement</b>: <b>Size </b>Large; <b><a href="../combat.html#_armor-class" >AC</a> </b>+2 natural armor; <b>Attack</b> bite (1d8 plus trip); <b>Ability Scores </b><a href="../gettingStarted.html#_strength" >Str</a> +8, <a href="../gettingStarted.html#_dexterity" >Dex</a> &ndash;2, Con +4. </p>
+
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

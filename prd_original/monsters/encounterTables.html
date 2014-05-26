@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Encounter Tables</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Encounter Tables",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="appendix-14-encounter-tables">Encounter Tables</h1>
+				<p>At times during a game when you're looking to liven things up (perhaps during a long overland journey, or maybe when the party's decided to camp in a dangerous dungeon), you can use the following encounter tables to randomly generate monster encounters. These tables do not include all of the monsters in this book&mdash;likewise, they don't cover all possible locations the PCs might find themselves in during the course of a game, but you can use these tables as models for generating additional encounter tables of your own design. Note that each of the following tables has been assigned a CR score&mdash;this indicates the average difficulty of the encounters that can be rolled up on the table. A <span class=stat-block-cr>CR 4</span> encounter table works well when challenging a group of 4th level PCs, for example.</p>
+				<h2>Desert CR 6</h2><table>
+<thead><tr><th>d%</th><th>Encounter</th><th>Avg. CR</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;8</td><td>1 <a href="spider.html#_spider-giant" >giant spider</a></td><td>1</td>
+<tr class="even"><td>9&ndash;12</td><td>1 <a href="skeletalChampion.html#_skeletal-champion" >skeletal champion</a></td><td>2</td>
+<tr class="odd"><td>13&ndash;18</td><td>1d8 <a href="skeleton.html#_skeleton" >skeleton</a>s</td><td>2</td>
+<tr class="even"><td>19&ndash;22</td><td>1 <a href="bat.html#_bat-swarm" >bat swarm</a></td><td>2</td>
+<tr class="odd"><td>23&ndash;30</td><td>1 <a href="scorpion.html#_scorpion-giant" >giant scorpion</a></td><td>3</td>
+<tr class="even"><td>31&ndash;34</td><td>1d3 <a href="bat.html#_bat-dire" >dire bat</a>s</td><td>4</td>
+<tr class="odd"><td>35&ndash;42</td><td>1d6 <a href="snake.html#_snake-venomous" >venomous snake</a>s</td><td>4</td>
+<tr class="even"><td>43&ndash;46</td><td>1 <a href="basilisk.html#_basilisk" >basilisk</a></td><td>5</td>
+<tr class="odd"><td>47&ndash;52</td><td>1 <a href="mummy.html#_mummy" >mummy</a></td><td>5</td>
+<tr class="even"><td>53&ndash;56</td><td>1d4 <a href="genie.html#_genie-janni" >jann</a></td><td>6</td>
+<tr class="odd"><td>57&ndash;60</td><td>1 <a href="lamia.html#_lamia" >lamia</a></td><td>6</td>
+<tr class="even"><td>61&ndash;68</td><td>2d6 <a href="ant.html#_ant-giant" >giant ant</a>s</td><td>6</td>
+<tr class="odd"><td>69&ndash;72</td><td>1 <a href="dragon.html#_metallic-dragon-brass" >brass dragon</a> (young)</td><td>7</td>
+<tr class="even"><td>73&ndash;80</td><td>2d6 <a href="gnoll.html#_gnoll" >gnoll</a>s and 1d4 <a href="hyena.html#_hyena" >hyena</a>s</td><td>7</td>
+<tr class="odd"><td>81&ndash;84</td><td>1 <a href="remorhaz.html#_remorhaz" >remorhaz</a> (cold desert only)</td><td>7</td>
+<tr class="even"><td>85&ndash;88</td><td>1 <a href="behir.html#_behir" >behir</a></td><td>8</td>
+<tr class="odd"><td>89&ndash;92</td><td>1 <a href="sphinx.html#_sphinx" >sphinx</a></td><td>8</td>
+<tr class="even"><td>93&ndash;96</td><td>1 <a href="dragon.html#_chromatic-dragon-blue" >blue dragon</a> (young)</td><td>9</td>
+<tr class="odd"><td>97&ndash;98</td><td>1 <a href="dragon.html#_metallic-dragon-brass" >brass dragon</a> (adult)</td><td>11</td>
+<tr class="even"><td>99&ndash;100</td><td>1 <a href="dragon.html#_chromatic-dragon-blue" >blue dragon</a> (adult)</td><td>13</td></tbody></table>
+
+				<h2>Dungeon (Low-Level) CR 2</h2><table>
+<thead><tr><th>d%</th><th>Encounter</th><th>Avg. CR</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;6</td><td>1d6 <a href="rat.html#_rat-dire" >dire rat</a>s</td><td>1</td>
+<tr class="even"><td>7&ndash;12</td><td>1d6 <a href="beetle.html#_beetle-fire" >fire beetle</a>s</td><td>1</td>
+<tr class="odd"><td>13&ndash;20</td><td>1d6 <a href="skeleton.html#_skeleton" >human skeleton</a>s</td><td>1</td>
+<tr class="even"><td>21&ndash;24</td><td>1d4 <a href="centipede.html#_centipede-giant" >giant centipede</a>s</td><td>1</td>
+<tr class="odd"><td>25&ndash;26</td><td>1 <a href="spider.html#_spider-swarm" >spider swarm</a></td><td>1</td>
+<tr class="even"><td>27&ndash;32</td><td>1d6 <a href="zombie.html#_zombie" >human zombie</a>s</td><td>2</td>
+<tr class="odd"><td>33&ndash;34</td><td>1 <a href="choker.html#_choker" >choker</a></td><td>2</td>
+<tr class="even"><td>35&ndash;36</td><td>1 <a href="skeletalChampion.html#_skeletal-champion" >skeletal champion</a></td><td>2</td>
+<tr class="odd"><td>37&ndash;44</td><td>2d6 <a href="goblin.html#_goblin" >goblin</a>s</td><td>3</td>
+<tr class="even"><td>45&ndash;48</td><td>1d4 <a href="ghoul.html#_ghoul" >ghoul</a>s</td><td>3</td>
+<tr class="odd"><td>49&ndash;54</td><td>1d4 <a href="spider.html#_spider-giant" >giant spider</a>s</td><td>3</td>
+<tr class="even"><td>55&ndash;56</td><td>1 <a href="cockatrice.html#_cockatrice" >cockatrice</a></td><td>3</td>
+<tr class="odd"><td>57&ndash;60</td><td>1 <a href="gelatinousCube.html#_gelatinous-cube" >gelatinous cube</a></td><td>3</td>
+<tr class="even"><td>61&ndash;64</td><td>1 <a href="rustMonster.html#_rust-monster" >rust monster</a></td><td>3</td>
+<tr class="odd"><td>65&ndash;68</td><td>1 <a href="shadow.html#_shadow" >shadow</a></td><td>3</td>
+<tr class="even"><td>69&ndash;70</td><td>1 <a href="wight.html#_wight" >wight</a></td><td>3</td>
+<tr class="odd"><td>71&ndash;76</td><td>2d4 <a href="stirge.html#_stirge" >stirge</a>s</td><td>4</td>
+<tr class="even"><td>77&ndash;82</td><td>1d6 <a href="darkmantle.html#_darkmantle" >darkmantle</a>s</td><td>4</td>
+<tr class="odd"><td>83&ndash;86</td><td>1d6 <a href="troglodyte.html#_troglodyte" >troglodyte</a>s</td><td>4</td>
+<tr class="even"><td>87&ndash;90</td><td>1d4 <a href="bugbear.html#_bugbear" >bugbear</a>s</td><td>4</td>
+<tr class="odd"><td>91&ndash;92</td><td>1d4 <a href="vargouille.html#_vargouille" >vargouille</a>s</td><td>4</td>
+<tr class="even"><td>93&ndash;94</td><td>1 <a href="grayOoze.html#_gray-ooze" >gray ooze</a></td><td>4</td>
+<tr class="odd"><td>95&ndash;96</td><td>1 <a href="mimic.html#_mimic" >mimic</a></td><td>4</td>
+<tr class="even"><td>97&ndash;100</td><td>1 <a href="ogre.html#_ogre" >ogre</a></td><td>4</td></tbody></table>
+
+				<h2>Dungeon (Mid-Level) CR 5</h2><table>
+<thead><tr><th>d%</th><th>Encounter</th><th>Avg. CR</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;4</td><td>1 <a href="gelatinousCube.html#_gelatinous-cube" >gelatinous cube</a></td><td>3</td>
+<tr class="even"><td>5&ndash;8</td><td>1 <a href="rustMonster.html#_rust-monster" >rust monster</a></td><td>3</td>
+<tr class="odd"><td>9&ndash;16</td><td>2d4 <a href="stirge.html#_stirge" >stirge</a>s</td><td>4</td>
+<tr class="even"><td>17&ndash;22</td><td>1 <a href="grayOoze.html#_gray-ooze" >gray ooze</a></td><td>4</td>
+<tr class="odd"><td>23&ndash;26</td><td>1 <a href="mimic.html#_mimic" >mimic</a></td><td>4</td>
+<tr class="even"><td>27&ndash;30</td><td>1 <a href="basilisk.html#_basilisk" >basilisk</a></td><td>5</td>
+<tr class="odd"><td>31&ndash;34</td><td>1 <a href="cloaker.html#_cloaker" >cloaker</a></td><td>5</td>
+<tr class="even"><td>35&ndash;38</td><td>1 <a href="gibberingMouther.html#_gibbering-mouther" >gibbering mouther</a></td><td>5</td>
+<tr class="odd"><td>39&ndash;42</td><td>1 <a href="ochreJelly.html#_ochre-jelly" >ochre jelly</a></td><td>5</td>
+<tr class="even"><td>43&ndash;46</td><td>1 <a href="wraith.html#_wraith" >wraith</a></td><td>5</td>
+<tr class="odd"><td>47&ndash;48</td><td>1 <a href="devil.html#_devil-bearded" >bearded devil</a></td><td>5</td>
+<tr class="even"><td>49&ndash;52</td><td>1d4 <a href="shadow.html#_shadow" >shadow</a>s</td><td>5</td>
+<tr class="odd"><td>53&ndash;56</td><td>1d4 <a href="wight.html#_wight" >wight</a>s</td><td>5</td>
+<tr class="even"><td>57&ndash;62</td><td>1d8 <a href="skeletalChampion.html#_skeletal-champion" >skeletal champion</a>s</td><td>6</td>
+<tr class="odd"><td>63&ndash;68</td><td>2d4 <a href="ghoul.html#_ghoul" >ghoul</a>s plus 1 <a href="ghoul.html#_ghoul" >ghast</a></td><td>6</td>
+<tr class="even"><td>69&ndash;72</td><td>1 <a href="ettin.html#_ettin" >ettin</a></td><td>6</td>
+<tr class="odd"><td>73&ndash;78</td><td>1 <a href="minotaur.html#_minotaur" >minotaur</a></td><td>4</td>
+<tr class="even"><td>79&ndash;84</td><td>1d4 <a href="ogre.html#_ogre" >ogre</a>s</td><td>6</td>
+<tr class="odd"><td>85&ndash;88</td><td>1d4 <a href="troll.html#_troll" >troll</a>s</td><td>7</td>
+<tr class="even"><td>89&ndash;90</td><td>1 <a href="demon.html#_demon-babau" >babau</a></td><td>7</td>
+<tr class="odd"><td>91&ndash;94</td><td>1 <a href="blackPudding.html#_black-pudding" >black pudding</a></td><td>7</td>
+<tr class="even"><td>95&ndash;96</td><td>1 <a href="medusa.html#_medusa" >medusa</a></td><td>7</td>
+<tr class="odd"><td>97&ndash;98</td><td>1 <a href="demon.html#_demon-shadow" >shadow demon</a></td><td>7</td>
+<tr class="even"><td>99&ndash;100</td><td>1d4 <a href="xill.html#_xill" >xill</a>s</td><td>8</td></tbody></table>
+
+				<h2>Dungeon (High-Level) CR 10</h2><table>
+<thead><tr><th>d%</th><th>Encounter</th><th>Avg. CR</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;4</td><td>1 <a href="blackPudding.html#_black-pudding" >black pudding</a></td><td>7</td>
+<tr class="even"><td>5&ndash;8</td><td>1 <a href="naga.html#_naga-dark" >dark naga</a></td><td>8</td>
+<tr class="odd"><td>9&ndash;14</td><td>1 <a href="mohrg.html#_mohrg" >mohrg</a></td><td>8</td>
+<tr class="even"><td>15&ndash;18</td><td>1 <a href="demon.html#_demon-nabasu" >nabasu</a></td><td>8</td>
+<tr class="odd"><td>19&ndash;22</td><td>1d6 <a href="cloaker.html#_cloaker" >cloaker</a>s</td><td>8</td>
+<tr class="even"><td>23&ndash;28</td><td>1d6 <a href="wraith.html#_wraith" >wraith</a>s</td><td>8</td>
+<tr class="odd"><td>29&ndash;36</td><td>1d4 <a href="ettin.html#_ettin" >ettin</a>s</td><td>8</td>
+<tr class="even"><td>37&ndash;40</td><td>1 <a href="devil.html#_devil-bone" >bone devil</a></td><td>9</td>
+<tr class="odd"><td>41&ndash;44</td><td>1 <a href="nightHag.html#_night-hag" >night hag</a></td><td>9</td>
+<tr class="even"><td>45&ndash;48</td><td>1 <a href="naga.html#_naga-spirit" >spirit naga</a></td><td>9</td>
+<tr class="odd"><td>49&ndash;54</td><td>1 <a href="vampire.html#_vampire" >vampire</a></td><td>9</td>
+<tr class="even"><td>55&ndash;58</td><td>1 <a href="demon.html#_demon-vrock" >vrock</a></td><td>9</td>
+<tr class="odd"><td>59&ndash;66</td><td>1d6 <a href="minotaur.html#_minotaur" >minotaur</a>s</td><td>9</td>
+<tr class="even"><td>67&ndash;72</td><td>2d4 <a href="troll.html#_troll" >troll</a>s</td><td>9</td>
+<tr class="odd"><td>73&ndash;76</td><td>1d4 <a href="shadow.html#_shadow-greater" >greater shadow</a>s</td><td>10</td>
+<tr class="even"><td>77&ndash;78</td><td>1 <a href="bebilith.html#_bebilith" >bebilith</a></td><td>10</td>
+<tr class="odd"><td>79&ndash;82</td><td>1 <a href="devil.html#_devil-barbed" >barbed devil</a></td><td>11</td>
+<tr class="even"><td>83&ndash;86</td><td>1 <a href="devourer.html#_devourer" >devourer</a></td><td>11</td>
+<tr class="odd"><td>87&ndash;88</td><td>1 <a href="demon.html#_demon-hezrou" >hezrou</a></td><td>11</td>
+<tr class="even"><td>89&ndash;92</td><td>1d4 <a href="rakshasa.html#_rakshasa" >rakshasa</a>s</td><td>12</td>
+<tr class="odd"><td>93&ndash;94</td><td>1 <a href="ironCobra.html#_iron-cobra" >lich</a></td><td>12</td>
+<tr class="even"><td>95&ndash;96</td><td>1 <a href="demon.html#_demon-glabrezu" >glabrezu</a></td><td>13</td>
+<tr class="odd"><td>97&ndash;98</td><td>1 <a href="devil.html#_devil-ice" >ice devil</a></td><td>13</td>
+<tr class="even"><td>99&ndash;100</td><td>1 <a href="demon.html#_demon-nalfeshnee" >nalfeshnee</a></td><td>14</td></tbody></table>
+
+				<h2>Forest (Temperate Forest) CR 5</h2><table>
+<thead><tr><th>d%</th><th>Encounter</th><th>Avg. CR</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;6</td><td>1 <a href="bat.html#_bat-swarm" >bat swarm</a></td><td>2</td>
+<tr class="even"><td>7&ndash;8</td><td>1 <a href="yellowMuskCreeper.html#_yellow-musk-creeper" >yellow musk creeper</a></td><td>2</td>
+<tr class="odd"><td>9&ndash;12</td><td>1d4 <a href="spider.html#_spider-giant" >giant spider</a>s</td><td>3</td>
+<tr class="even"><td>13&ndash;16</td><td>1 <a href="assassinVine.html#_assassin-vine" >assassin vine</a></td><td>3</td>
+<tr class="odd"><td>17&ndash;20</td><td>1 <a href="mantis.html#_mantis-giant" >giant mantis</a></td><td>3</td>
+<tr class="even"><td>21&ndash;22</td><td>1 <a href="unicorn.html#_unicorn" >unicorn</a></td><td>3</td>
+<tr class="odd"><td>23&ndash;26</td><td>1d4 <a href="bat.html#_bat-dire" >dire bat</a>s</td><td>4</td>
+<tr class="even"><td>27&ndash;32</td><td>1d4 <a href="boar.html#_boar" >boar</a>s</td><td>4</td>
+<tr class="odd"><td>33&ndash;34</td><td>1 <a href="boar.html#_boar-dire" >dire boar</a></td><td>4</td>
+<tr class="even"><td>35&ndash;38</td><td>1 <a href="beetle.html#_beetle-giant" >giant stag beetle</a></td><td>4</td>
+<tr class="odd"><td>39&ndash;42</td><td>1 <a href="owlbear.html#_owlbear" >owlbear</a></td><td>4</td>
+<tr class="even"><td>43&ndash;46</td><td>1 <a href="tiger.html#_tiger" >tiger</a></td><td>4</td>
+<tr class="odd"><td>47&ndash;52</td><td>1d6 <a href="lycanthrope.html#_lycanthrope-werewolf" >werewolves</a></td><td>5</td>
+<tr class="even"><td>53&ndash;56</td><td>1d4 <a href="wolf.html#_wolf-dire" >dire wolves</a></td><td>5</td>
+<tr class="odd"><td>57&ndash;60</td><td>1 <a href="ettercap.html#_ettercap" >ettercap</a> and 1d6 <a href="spider.html#_spider-giant" >giant spider</a>s</td><td>5</td>
+<tr class="even"><td>61&ndash;70</td><td>2d6 <a href="goblin.html#_goblin" >goblin</a>s and 1d4 <a href="goblinDog.html#_goblin-dog" >goblin dog</a>s</td><td>5</td></tr>
+<tr class="odd"><td>71&ndash;74</td><td>1 <a href="barghest.html#_barghest" >barghest</a> and 2d6 <a href="goblin.html#_goblin" >goblin</a>s</td><td>6</td>
+<tr class="even"><td>75&ndash;78</td><td>1d6 <a href="centaur.html#_centaur" >centaur</a>s</td><td>6</td>
+<tr class="odd"><td>79&ndash;86</td><td>2d6 <a href="wolf.html#_wolf" >wolves</a></td><td>6</td>
+<tr class="even"><td>87&ndash;88</td><td>1 <a href="nymph.html#_nymph" >nymph</a></td><td>7</td>
+<tr class="odd"><td>89&ndash;92</td><td>1 <a href="tiger.html#_tiger-dire" >dire tiger</a></td><td>8</td>
+<tr class="even"><td>93&ndash;94</td><td>1 <a href="dragon.html#_chromatic-dragon-green" >green dragon</a> (young)</td><td>8</td>
+<tr class="odd"><td>95&ndash;98</td><td>1d4 <a href="shamblingMound.html#_shambling-mound" >shambling mound</a>s</td><td>8</td>
+<tr class="even"><td>99&ndash;100</td><td>1 <a href="treant.html#_treant" >treant</a></td><td>8</td></tbody>
+</table>
+
+				<h2>Hill/Mountain CR 8</h2><table>
+<thead><tr><th>d%</th><th>Encounter</th><th>Avg. CR</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;6</td><td>1d6 <a href="eagle.html#_eagle" >eagle</a>s</td><td>2</td>
+<tr class="even"><td>7&ndash;14</td><td>2d6 <a href="orc.html#_orc" >orc</a>s</td><td>3</td>
+<tr class="odd"><td>15&ndash;22</td><td>2d6 <a href="tengu.html#_tengu" >tengu</a>s</td><td>4</td>
+<tr class="even"><td>23&ndash;30</td><td>2d6 <a href="hobgoblin.html#_hobgoblin" >hobgoblin</a>s</td><td>4</td>
+<tr class="odd"><td>31&ndash;36</td><td>1d4 <a href="eagle.html#_eagle-giant" >giant eagle</a>s</td><td>5</td>
+<tr class="even"><td>37&ndash;42</td><td>1d6 <a href="ogre.html#_ogre" >ogre</a>s</td><td>6</td>
+<tr class="odd"><td>43&ndash;44</td><td>1 <a href="dragon.html#_chromatic-dragon-white" >white dragon</a> (young)</td><td>6</td>
+<tr class="even"><td>45&ndash;48</td><td>1 <a href="bulette.html#_bulette" >bulette</a></td><td>7</td>
+<tr class="odd"><td>49&ndash;52</td><td>1 <a href="chimera.html#_chimera" >chimera</a></td><td>7</td>
+<tr class="even"><td>53&ndash;58</td><td>1d6 <a href="griffon.html#_griffon" >griffon</a>s</td><td>7</td>
+<tr class="odd"><td>59&ndash;64</td><td>2d4 <a href="bugbear.html#_bugbear" >bugbear</a>s</td><td>7</td>
+<tr class="even"><td>65&ndash;66</td><td>1d6 <a href="cyclops.html#_cyclops" >cyclopes</a></td><td>8</td>
+<tr class="odd"><td>67&ndash;68</td><td>1 <a href="gorgon.html#_gorgon" >gorgon</a></td><td>8</td>
+<tr class="even"><td>69&ndash;72</td><td>1d4 <a href="wyvern.html#_wyvern" >wyvern</a>s</td><td>8</td>
+<tr class="odd"><td>73&ndash;78</td><td>1d6 <a href="troll.html#_troll" >troll</a>s</td><td>8</td>
+<tr class="even"><td>79&ndash;80</td><td>1 <a href="oni.html#_oni-ogre-mage" >ogre mage</a></td><td>8</td>
+<tr class="odd"><td>81&ndash;82</td><td>1 <a href="roc.html#_roc" >roc</a></td><td>9</td>
+<tr class="even"><td>83&ndash;86</td><td>1d6 <a href="giant.html#_giant-hill" >hill giant</a>s</td><td>10</td>
+<tr class="odd"><td>87&ndash;88</td><td>1 <a href="dragon.html#_metallic-dragon-silver" >silver dragon</a> (young)</td><td>10</td>
+<tr class="even"><td>89&ndash;90</td><td>1 <a href="dragon.html#_chromatic-dragon-red" >red dragon</a> (young)</td><td>10</td>
+<tr class="odd"><td>91&ndash;92</td><td>1d4 <a href="giant.html#_giant-frost" >frost giant</a>s</td><td>11</td>
+<tr class="even"><td>93&ndash;96</td><td>1d6 <a href="giant.html#_giant-stone" >stone giant</a>s</td><td>11</td>
+<tr class="odd"><td>97&ndash;98</td><td>1 <a href="giant.html#_giant-cloud" >cloud giant</a></td><td>11</td>
+<tr class="even"><td>99&ndash;100</td><td>1d4 <a href="giant.html#_giant-fire" >fire giant</a>s</td><td>12</td></tbody></table>
+
+				<h2>Jungle (Warm Forest) <span class=stat-block-cr>CR 5</span></h2><table>
+<thead><tr><th>d%</th><th>Encounter</th><th>Avg. CR</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;4</td><td>1 <a href="bat.html#_bat-swarm" >bat swarm</a></td><td>2</td>
+<tr class="even"><td>5&ndash;8</td><td>1 <a href="yellowMuskCreeper.html#_yellow-musk-creeper" >yellow musk creeper</a></td><td>2</td>
+<tr class="odd"><td>9&ndash;14</td><td>1 <a href="snake.html#_snake-constrictor" >constrictor snake</a></td><td>2</td>
+<tr class="even"><td>15&ndash;18</td><td>1d6 <a href="centipede.html#_centipede-giant" >giant centipede</a>s</td><td>2</td>
+<tr class="odd"><td>19&ndash;26</td><td>1 <a href="cat.html#_cat-leopard" >leopard</a></td><td>2</td>
+<tr class="even"><td>27&ndash;30</td><td>1d4 <a href="spider.html#_spider-giant" >giant spider</a>s</td><td>3</td>
+<tr class="odd"><td>31&ndash;34</td><td>1d6 <a href="snake.html#_snake-venomous" >venomous snake</a>s</td><td>4</td>
+<tr class="even"><td>35&ndash;40</td><td>1d4 <a href="boar.html#_boar" >boars</a></td><td>4</td>
+<tr class="odd"><td>41&ndash;44</td><td>1 <a href="boar.html#_boar-dire" >dire boar</a></td><td>4</td>
+<tr class="even"><td>45&ndash;50</td><td>1 <a href="tiger.html#_tiger" >tiger</a></td><td>4</td>
+<tr class="odd"><td>51&ndash;54</td><td>1 <a href="lizard.html#_lizard-giant-frilled" >giant frilled lizard</a></td><td>5</td>
+<tr class="even"><td>55&ndash;60</td><td>1d6 <a href="lizard.html#_lizard-monitor" >monitor lizard</a>s</td><td>5</td>
+<tr class="odd"><td>61&ndash;62</td><td>1 <a href="ant.html#_army-ant-swarm" >army ant swarm</a></td><td>5</td>
+<tr class="even"><td>63&ndash;64</td><td>1 <a href="dinosaur.html#_dinosaur-ankylosaurus" >ankylosaurus</a></td><td>6</td>
+<tr class="odd"><td>65&ndash;70</td><td>1d6 <a href="ape.html#_ape-dire" >dire ape</a>s</td><td>6</td>
+<tr class="even"><td>71&ndash;78</td><td>2d4 <a href="ape.html#_ape-gorilla" >gorilla</a>s</td><td>6</td>
+<tr class="odd"><td>79&ndash;82</td><td>2d4 <a href="dinosaur.html#_dinosaur-deinonychus" >deinonychus</a>es</td><td>7</td>
+<tr class="even"><td>83&ndash;84</td><td>1 <a href="nymph.html#_nymph" >nymph</a></td><td>7</td>
+<tr class="odd"><td>85&ndash;86</td><td>1d4 <a href="girallon.html#_girallon" >girallon</a>s</td><td>8</td>
+<tr class="even"><td>87&ndash;90</td><td>1 <a href="tiger.html#_tiger-dire" >dire tiger</a></td><td>8</td>
+<tr class="odd"><td>91&ndash;94</td><td>1d4 <a href="shamblingMound.html#_shambling-mound" >shambling mound</a>s</td><td>8</td>
+<tr class="even"><td>95&ndash;96</td><td>1 <a href="treant.html#_treant" >treant</a></td><td>8</td>
+<tr class="odd"><td>97&ndash;98</td><td>1 <a href="dinosaur.html#_dinosaur-tyrannosaurus" >tyrannosaurus</a></td><td>9</td>
+<tr class="even"><td>99&ndash;100</td><td>1 <a href="dinosaur.html#_dinosaur-brachiosaurus" >brachiosaurus</a></td><td>10</td></tbody></table>
+
+				<h2>Ocean CR 8</h2><table>
+<thead><tr><th>d%</th><th>Encounter</th><th>Avg. CR</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;4</td><td>1 <a href="octopus.html#_octopus" >octopus</a></td><td>1</td>
+<tr class="even"><td>5&ndash;14</td><td>2d6 <a href="dolphin.html#_dolphin" >dolphin</a>s</td><td>4</td>
+<tr class="odd"><td>15&ndash;19</td><td>2d6 <a href="merfolk.html#_merfolk" >merfolk</a></td><td>4</td>
+<tr class="even"><td>20&ndash;23</td><td>1 <a href="seaHag.html#_sea-hag" >sea hag</a></td><td>4</td>
+<tr class="odd"><td>24&ndash;31</td><td>1d6 <a href="squid.html#_squid" >squid</a></td><td>4</td>
+<tr class="even"><td>32&ndash;36</td><td>1d6 <a href="mephit.html#_mephit" >water mephit</a>s</td><td>6</td>
+<tr class="odd"><td>37&ndash;38</td><td>1 <a href="aboleth.html#_aboleth" >aboleth</a></td><td>7</td>
+<tr class="even"><td>39&ndash;42</td><td>1 <a href="octopus.html#_octopus-giant" >giant octopus</a></td><td>8</td>
+<tr class="odd"><td>43&ndash;50</td><td>2d6 <a href="sahuagin.html#_sahuagin" >sahuagin</a></td><td>8</td>
+<tr class="even"><td>51&ndash;60</td><td>2d6 <a href="shark.html#_shark" >shark</a>s</td><td>8</td>
+<tr class="odd"><td>61&ndash;66</td><td>2d6 <a href="skum.html#_skum" >skum</a></td><td>8</td>
+<tr class="even"><td>67&ndash;71</td><td>1d6 <a href="eel.html#_eel-giant-moray" >giant moray eel</a>s</td><td>8</td>
+<tr class="odd"><td>72&ndash;77</td><td>1d6 Large <a href="elemental.html#_elemental-water" >water elemental</a>s</td><td>8</td>
+<tr class="even"><td>78&ndash;79</td><td>1 <a href="shark.html#_shark-dire" >dire shark</a></td><td>9</td>
+<tr class="odd"><td>80&ndash;81</td><td>1 <a href="dragonTurtle.html#_dragon-turtle" >dragon turtle</a></td><td>9</td>
+<tr class="even"><td>82&ndash;83</td><td>1 <a href="spider.html#_spider-giant" >giant squid</a></td><td>9</td>
+<tr class="odd"><td>84&ndash;85</td><td>1d4 <a href="dinosaur.html#_dinosaur-elasmosaurus" >elasmosaurus</a>es</td><td>9</td>
+<tr class="even"><td>86&ndash;91</td><td>2d4 <a href="dolphin.html#_dolphin-orca" >orca</a>s</td><td>9</td>
+<tr class="odd"><td>92&ndash;93</td><td>1 <a href="dragon.html#_metallic-dragon-bronze" >bronze dragon</a> (young)</td><td>9</td>
+<tr class="even"><td>94&ndash;95</td><td>1 <a href="genie.html#_genie-marid" >marid</a></td><td>9</td>
+<tr class="odd"><td>96&ndash;97</td><td>1 elder <a href="elemental.html#_elemental-water" >water elemental</a></td><td>11</td>
+<tr class="even"><td>98</td><td>1 <a href="seaSerpent.html#_sea-serpent" >sea serpent</a></td><td>12</td>
+<tr class="odd"><td>99</td><td>1 <a href="kraken.html#_kraken" >kraken</a></td><td>18</td>
+<tr class="even"><td>100</td><td>1 <a href="shoggoth.html#_shoggoth" >shoggoth</a></td><td>19</td></tbody></table>
+
+				<h2>Ruined City CR 6</h2><table>
+<thead><tr><th>d%</th><th>Encounter</th><th>Avg. CR</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;4</td><td>1 <a href="spider.html#_spider-swarm" >spider swarm</a></td><td>1</td>
+<tr class="even"><td>5&ndash;8</td><td>1 <a href="rat.html#_rat-swarm" >rat swarm</a></td><td>1</td>
+<tr class="odd"><td>9&ndash;16</td><td>2d6 <a href="skeleton.html#_skeleton" >human skeleton</a>s</td><td>3</td>
+<tr class="even"><td>17&ndash;24</td><td>1d6 <a href="stirge.html#_stirge" >stirge</a>s</td><td>3</td>
+<tr class="odd"><td>25&ndash;28</td><td>1 <a href="assassinVine.html#_assassin-vine" >assassin vine</a></td><td>3</td>
+<tr class="even"><td>29&ndash;36</td><td>1d6 <a href="ghoul.html#_ghoul" >ghoul</a>s</td><td>4</td>
+<tr class="odd"><td>37&ndash;38</td><td>1 <a href="barghest.html#_barghest" >barghest</a></td><td>4</td>
+<tr class="even"><td>39&ndash;44</td><td>1d6 <a href="skeletalChampion.html#_skeletal-champion" >skeletal champion</a>s</td><td>5</td>
+<tr class="odd"><td>45&ndash;48</td><td>1d4 <a href="yethHound.html#_yeth-hound" >yeth hound</a>s</td><td>5</td>
+<tr class="even"><td>49&ndash;54</td><td>1d6 <a href="ogre.html#_ogre" >ogre</a>s</td><td>6</td>
+<tr class="odd"><td>55&ndash;58</td><td>1d6 <a href="shadow.html#_shadow" >shadow</a>s</td><td>6</td>
+<tr class="even"><td>59&ndash;62</td><td>1d6 <a href="wight.html#_wight" >wight</a>s</td><td>6</td>
+<tr class="odd"><td>63&ndash;64</td><td>1 <a href="lamia.html#_lamia" >lamia</a></td><td>6</td>
+<tr class="even"><td>65&ndash;70</td><td>1d6 <a href="harpy.html#_harpy" >harpies</a></td><td>7</td>
+<tr class="odd"><td>71&ndash;72</td><td>1 <a href="medusa.html#_medusa" >medusa</a></td><td>7</td>
+<tr class="even"><td>73&ndash;74</td><td>1 <a href="demon.html#_demon-nabasu" >nabasu</a></td><td>8</td>
+<tr class="odd"><td>75&ndash;76</td><td>1 <a href="naga.html#_naga-dark" >dark naga</a></td><td>8</td>
+<tr class="even"><td>77&ndash;84</td><td>1d8 <a href="gargoyle.html#_gargoyle" >gargoyle</a>s</td><td>8</td>
+<tr class="odd"><td>85&ndash;88</td><td>1d6 <a href="cyclops.html#_cyclops" >cyclopes</a></td><td>8</td>
+<tr class="even"><td>89&ndash;92</td><td>1d6 <a href="wraith.html#_wraith" >wraith</a>s</td><td>8</td>
+<tr class="odd"><td>93&ndash;94</td><td>1 <a href="behir.html#_behir" >behir</a></td><td>8</td>
+<tr class="even"><td>95&ndash;96</td><td>1 <a href="sphinx.html#_sphinx" >sphinx</a></td><td>8</td>
+<tr class="odd"><td>97&ndash;98</td><td>1 <a href="naga.html#_naga-spirit" >spirit naga</a></td><td>9</td>
+<tr class="even"><td>99&ndash;100</td><td>1d4 <a href="spectre.html#_spectre" >spectre</a>s</td><td>9</td></tbody></table>
+
+				<h2>Savannah (Warm Plains) CR 7</h2><table>
+<thead><tr><th>d%</th><th>Encounter</th><th>Avg. CR</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;6</td><td>1 <a href="cat.html#_cat-cheetah" >cheetah</a></td><td>2</td>
+<tr class="even"><td>7&ndash;10</td><td>1 <a href="cockatrice.html#_cockatrice" >cockatrice</a></td><td>3</td>
+<tr class="odd"><td>11&ndash;16</td><td>1 <a href="scorpion.html#_scorpion-giant" >giant scorpion</a></td><td>3</td>
+<tr class="even"><td>17&ndash;20</td><td>1 <a href="lion.html#_lion-dire" >dire lion</a></td><td>5</td>
+<tr class="odd"><td>21&ndash;26</td><td>1 <a href="lizard.html#_lizard-giant-frilled" >giant frilled lizard</a></td><td>5</td>
+<tr class="even"><td>27&ndash;30</td><td>1d6 <a href="ankheg.html#_ankheg" >ankheg</a>s</td><td>6</td>
+<tr class="odd"><td>31&ndash;34</td><td>1d6 <a href="dinosaur.html#_dinosaur-pteranodon" >pteranodon</a>s</td><td>6</td>
+<tr class="even"><td>35&ndash;40</td><td>1d8 <a href="lizard.html#_lizard-monitor" >monitor lizard</a>s</td><td>6</td>
+<tr class="odd"><td>41&ndash;44</td><td>1d6 <a href="hyena.html#_hyena-dire" >dire hyena</a>s</td><td>6</td>
+<tr class="even"><td>45&ndash;52</td><td>2d6 <a href="hyena.html#_hyena" >hyena</a>s</td><td>6</td>
+<tr class="odd"><td>53&ndash;60</td><td>2d6 <a href="gnoll.html#_gnoll" >gnoll</a>s</td><td>6</td>
+<tr class="even"><td>61&ndash;66</td><td>1d6 <a href="lion.html#_lion" >lion</a>s</td><td>6</td>
+<tr class="odd"><td>67&ndash;70</td><td>2d6 <a href="ant.html#_ant-giant" >giant ant</a>s</td><td>7</td>
+<tr class="even"><td>71&ndash;74</td><td>2d4 <a href="pegasus.html#_pegasus" >pegasi</a></td><td>7</td>
+<tr class="odd"><td>75&ndash;78</td><td>2d6 <a href="centaur.html#_centaur" >centaur</a>s</td><td>8</td>
+<tr class="even"><td>79&ndash;80</td><td>1 <a href="tiger.html#_tiger-dire" >dire tiger</a></td><td>8</td>
+<tr class="odd"><td>81&ndash;82</td><td>1d6 <a href="dinosaur.html#_dinosaur-ankylosaurus" >ankylosaurus</a>es</td><td>9</td>
+<tr class="even"><td>83&ndash;84</td><td>1d6 <a href="dinosaur.html#_dinosaur-stegosaurus" >stegosaurus</a>es</td><td>10</td>
+<tr class="odd"><td>85&ndash;88</td><td>2d4 <a href="rhinoceros.html#_rhinoceros" >rhinoceros</a>es</td><td>10</td>
+<tr class="even"><td>89&ndash;90</td><td>1 <a href="dragon.html#_metallic-dragon-gold" >gold dragon</a> (young)</td><td>11</td>
+<tr class="odd"><td>91&ndash;94</td><td>2d4 <a href="elephant.html#_elephant" >elephant</a>s</td><td>11</td>
+<tr class="even"><td>95&ndash;96</td><td>1d6 <a href="dinosaur.html#_dinosaur-tyrannosaurus" >tyrannosaurus</a>es</td><td>12</td>
+<tr class="odd"><td>97&ndash;98</td><td>1d8 <a href="dinosaur.html#_dinosaur-triceratops" >triceratops</a></td><td>12</td>
+<tr class="even"><td>99&ndash;100</td><td>1d6 <a href="dinosaur.html#_dinosaur-brachiosaurus" >brachiosaurus</a>es</td><td>13</td></tbody></table>
+
+				<h2>Swamp CR 7</h2><table>
+<thead><tr><th>d%</th><th>Encounter</th><th>Avg. CR</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;6</td><td>1 <a href="snake.html#_snake-constrictor" >constrictor snake</a></td><td>2</td>
+<tr class="even"><td>7&ndash;10</td><td>1 <a href="hydra.html#_hydra" >hydra</a></td><td>4</td>
+<tr class="odd"><td>11&ndash;14</td><td>1 <a href="leech.html#_leech-swarm" >leech swarm</a></td><td>4</td>
+<tr class="even"><td>15&ndash;18</td><td>1 <a href="grayOoze.html#_gray-ooze" >gray ooze</a></td><td>4</td>
+<tr class="odd"><td>19&ndash;22</td><td>1 <a href="greenHag.html#_green-hag" >green hag</a></td><td>5</td>
+<tr class="even"><td>23&ndash;26</td><td>1 <a href="ochreJelly.html#_ochre-jelly" >ochre jelly</a></td><td>5</td>
+<tr class="odd"><td>27&ndash;32</td><td>2d6 <a href="stirge.html#_stirge" >stirge</a>s</td><td>5</td>
+<tr class="even"><td>33&ndash;38</td><td>1d6 <a href="crocodile.html#_crocodile" >crocodile</a>s</td><td>5</td>
+<tr class="odd"><td>39&ndash;46</td><td>2d6 <a href="frog.html#_frog-giant" >giant frog</a>s</td><td>6</td>
+<tr class="even"><td>47&ndash;52</td><td>2d6 <a href="goblinDog.html#_goblin-dog" >goblin dog</a>s</td><td>6</td>
+<tr class="odd"><td>53&ndash;56</td><td>1d4 <a href="harpy.html#_harpy" >harpies</a></td><td>6</td>
+<tr class="even"><td>57&ndash;64</td><td>2d6 <a href="lizardfolk.html#_lizardfolk" >lizardfolk</a></td><td>6</td>
+<tr class="odd"><td>65&ndash;72</td><td>2d6 <a href="boggard.html#_boggard" >boggard</a>s</td><td>7</td>
+<tr class="even"><td>73&ndash;74</td><td>1 <a href="chuul.html#_chuul" >chuul</a></td><td>7</td>
+<tr class="odd"><td>75&ndash;76</td><td>1 <a href="halfDragon.html#_half-dragon" >dracolisk</a></td><td>7</td>
+<tr class="even"><td>77&ndash;80</td><td>2d6 <a href="leech.html#_leech-giant" >giant leech</a>es</td><td>7</td>
+<tr class="odd"><td>81&ndash;82</td><td>1 <a href="dragon.html#_chromatic-dragon-black" >black dragon</a> (young)</td><td>7</td>
+<tr class="even"><td>83&ndash;84</td><td>1 <a href="slug.html#_slug-giant" >giant slug</a></td><td>8</td>
+<tr class="odd"><td>85&ndash;88</td><td>1d6 <a href="shamblingMound.html#_shambling-mound" >shambling mound</a>s</td><td>9</td>
+<tr class="even"><td>89&ndash;90</td><td>1 <a href="naga.html#_naga-spirit" >spirit naga</a></td><td>9</td>
+<tr class="odd"><td>91&ndash;94</td><td>1d6 <a href="willOWisp.html#_will-o-wisp" >will-o'-wisp</a>s</td><td>9</td>
+<tr class="even"><td>95&ndash;96</td><td>1 <a href="crocodile.html#_crocodile-dire" >dire crocodile</a></td><td>9</td>
+<tr class="odd"><td>97&ndash;98</td><td>1 <a href="flytrap.html#_flytrap-giant" >giant flytrap</a></td><td>10</td>
+<tr class="even"><td>99&ndash;100</td><td>1 <a href="froghemoth.html#_froghemoth" >froghemoth</a></td><td>13</td></tbody></table>
+
+				<h2>Underground CR 9</h2><table>
+<thead><tr><th>d%</th><th>Encounter</th><th>Avg. CR</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;10</td><td>2d6 <a href="duergar.html#_duergar" >duergar</a></td><td>4</td>
+<tr class="even"><td>11&ndash;16</td><td>1d6 <a href="caveFisher.html#_cave-fisher" >cave fisher</a>s</td><td>5</td>
+<tr class="odd"><td>17&ndash;22</td><td>1 <a href="basidirond.html#_basidirond" >basidirond</a></td><td>5</td>
+<tr class="even"><td>23&ndash;32</td><td>2d6 <a href="drow.html#_drow" >drow</a> and 1 drow noble</td><td>5</td>
+<tr class="odd"><td>33&ndash;40</td><td>2d6 <a href="spider.html#_spider-giant" >giant spider</a>s</td><td>6</td>
+<tr class="even"><td>41&ndash;46</td><td>1d6 <a href="violetFungus.html#_violet-fungus" >violet fungi</a></td><td>6</td>
+<tr class="odd"><td>47&ndash;52</td><td>1d8 <a href="derro.html#_derro" >derro</a>s</td><td>7</td>
+<tr class="even"><td>53&ndash;60</td><td>2d6 <a href="morlock.html#_morlock" >morlock</a>s</td><td>7</td>
+<tr class="odd"><td>61&ndash;64</td><td>1 <a href="blackPudding.html#_black-pudding" >black pudding</a></td><td>7</td>
+<tr class="even"><td>65&ndash;68</td><td>1 <a href="slug.html#_slug-giant" >giant slug</a></td><td>8</td>
+<tr class="odd"><td>69&ndash;72</td><td>1d6 <a href="cloaker.html#_cloaker" >cloaker</a>s</td><td>8</td>
+<tr class="even"><td>73&ndash;82</td><td>2d6 <a href="darkCreeper.html#_dark-creeper" >dark creeper</a>s, 1 <a href="darkStalker.html#_dark-stalker" >dark stalker</a></td><td>8</td>
+<tr class="odd"><td>83&ndash;86</td><td>1d6 <a href="drider.html#_drider" >drider</a>s</td><td>10</td>
+<tr class="even"><td>87&ndash;90</td><td>1d6 <a href="intellectDevourer.html#_intellect-devourer" >intellect devourer</a>s</td><td>11</td>
+<tr class="odd"><td>91&ndash;92</td><td>1 <a href="purpleWorm.html#_purple-worm" >purple worm</a></td><td>12</td>
+<tr class="even"><td>93&ndash;96</td><td>1d4 <a href="roper.html#_roper" >roper</a>s</td><td>14</td>
+<tr class="odd"><td>97&ndash;98</td><td>1 <a href="neothelid.html#_neothelid" >neothelid</a></td><td>15</td>
+<tr class="even"><td>99&ndash;100</td><td>1 <a href="shoggoth.html#_shoggoth" >shoggoth</a></td><td>19</td></tbody></table>
+
+				<h2>Urban (Dangerous City) CR 6</h2><table>
+<thead><tr><th>d%</th><th>Encounter</th><th>Avg. CR</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;12</td><td>1d6 <a href="dog.html#_dog" >dog</a>s</td><td>1</td>
+<tr class="even"><td>13&ndash;20</td><td>1 <a href="rat.html#_rat-swarm" >rat swarm</a></td><td>2</td>
+<tr class="odd"><td>21&ndash;30</td><td>1d6 <a href="dog.html#_dog-riding" >riding dog</a>s</td><td>2</td>
+<tr class="even"><td>31&ndash;32</td><td>1 <a href="lycanthrope.html#_lycanthrope-werewolf" >werewolf</a></td><td>2</td>
+<tr class="odd"><td>33&ndash;40</td><td>3d6 <a href="rat.html#_rat-dire" >dire rat</a>s</td><td>4</td>
+<tr class="even"><td>41&ndash;48</td><td>2d6 <a href="tengu.html#_tengu" >tengu</a>s</td><td>4</td>
+<tr class="odd"><td>49&ndash;56</td><td>2d6 <a href="tiefling.html#_tiefling" >tiefling</a>s</td><td>4</td>
+<tr class="even"><td>57&ndash;62</td><td>1d6 <a href="ghoul.html#_ghoul" >ghoul</a>s</td><td>4</td>
+<tr class="odd"><td>63&ndash;68</td><td>1d6 <a href="doppelganger.html#_doppelganger" >doppelganger</a>s</td><td>5</td>
+<tr class="even"><td>69&ndash;78</td><td>2d6 <a href="lycanthrope.html#_lycanthrope-wererat" >wererat</a>s</td><td>7</td>
+<tr class="odd"><td>79&ndash;82</td><td>1 <a href="demon.html#_demon-succubus" >succubus</a></td><td>7</td>
+<tr class="even"><td>83&ndash;86</td><td>1d6 <a href="genie.html#_genie-janni" >jann</a></td><td>7</td>
+<tr class="odd"><td>87&ndash;90</td><td>1d8 <a href="gargoyle.html#_gargoyle" >gargoyle</a>s</td><td>8</td>
+<tr class="even"><td>91&ndash;92</td><td>1 <a href="mohrg.html#_mohrg" >mohrg</a></td><td>8</td>
+<tr class="odd"><td>93&ndash;94</td><td>1 <a href="intellectDevourer.html#_intellect-devourer" >intellect devourer</a> (body theft)</td><td>8</td>
+<tr class="even"><td>95&ndash;96</td><td>1 <a href="vampire.html#_vampire" >vampire</a></td><td>9</td>
+<tr class="odd"><td>97&ndash;98</td><td>1 <a href="nightHag.html#_night-hag" >night hag</a></td><td>9</td>
+<tr class="even"><td>99&ndash;100</td><td>1 <a href="rakshasa.html#_rakshasa" >rakshasa</a></td><td>10</td></tbody></table>
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

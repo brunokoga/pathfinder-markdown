@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Elementals</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Elementals",globalNavPath=[{ href: '/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html', name: 'Mythic Monsters' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="elemental-air">Elemental, Air</h1>
+<p><i>This living tornado draws in all the air that surrounds it, hurling unrestrained objects as it moves.</i></p>
+			
+
+<p id="mythic-elder-air-elemental" class="stat-block-title">Mythic Elder Air Elemental <span class="stat-block-cr">CR 14/MR 5</span></p>
+<p class="stat-block-1">XP 38,400</p>
+<p class="stat-block-1">N Huge outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype">mythic</a>)</p>
+<p class="stat-block-1"><b>Init</b> +15; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +20</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 33, touch 20, flat-footed 21 (+11 Dex, +1 dodge, +13 natural, &ndash;2 size)</p>
+<p class="stat-block-1"><b>hp</b> 202 (16d10+114)</p>
+<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +21, <b>Will</b> +8</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a> mastery; <b>DR</b> 10/&mdash;; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> fly 100 ft. (perfect)</p>
+<p class="stat-block-1"><b>Melee</b> 2 slams +25 (4d8+11 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a>)</p>
+<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+<p class="stat-block-1"><b>Special Attacks</b> create vacuum, elevated ejection, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fast-swallow" >fast swallow</a>, mythic power (5/day, surge +1d8), swallow whole (2d8+9 bludgeoning damage, AC 14, 20 hp, DR 10/&mdash;), <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_whirlwind" >whirlwind</a> (at will, 10&ndash;60 ft. high, 2d8+9 damage, DC 27)</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 28, <b>Dex</b> 33, <b>Con</b> 18, <b>Int</b> 12, <b>Wis</b> 13, <b>Cha</b> 11</p>
+<p class="stat-block-1"><b>Base Atk</b> +16; <b>CMB</b> +27 (+31 grapple); <b>CMD</b> 49</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_cleave-mythic">Cleave</a><sup>M</sup>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack" >Flyby Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a><sup>B</sup>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic">Iron Will</a><sup>M</sup>, <a href="/pathfinderRPG/prd/feats.html#_mobility">Mobility</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a><sup>B, M</sup></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +30, <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +30, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +34, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +20, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +20, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +20, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +22</p>
+<p class="stat-block-1"><b>Languages</b> Auran</p>
+<p class="stat-block-breaker">Ecology</p>
+<p class="stat-block-1"><b>Environment</b> any (Plane of Air)</p>
+<p class="stat-block-1"><b>Organization</b> solitary, pair, or gang (3&ndash;8)</p>
+<p class="stat-block-1"><b>Treasure</b> none</p>
+<p class="stat-block-breaker">Special Abilities</p>
+<p class="stat-block-1"><b>Air Mastery (Ex)</b> Airborne creatures take a &ndash;1 penalty on attack and damage rolls against a mythic air elemental.</p>
+<p class="stat-block-1"><b>Create Vacuum (Ex)</b> As a standard action, a mythic elder air elemental can suck the air out of the lungs of creatures it has swallowed or that are trapped in its whirlwind (Fortitude DC 27 negates). Creatures that fail the save take 2d6 points of damage and must attempt Constitution checks each round as if they had run out of breath. An affected character can't speak, use breath weapons, cast spells with verbal components, or do anything else that requires breathing. A trapped creature that succeeds at its save must succeed at a concentration check to cast spells. The air elemental can maintain this vacuum as a move action. If it stops, the trapped or swallowed creatures can breathe again. The save DC is Strength-based.</p>
+<p class="stat-block-1"><b>Elevated Ejection (Ex)</b> When a mythic air elemental in whirlwind form ejects a trapped creature, it can do so from any point up to the whirlwind's current height, dropping the creature into the whirlwind's space or within the elemental's normal reach. The creature takes falling damage as normal. If the elemental expends one use of mythic power, it can instead throw a trapped creature as if using the <a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes/champion.html#_uncanny-grapple">uncanny grapple path ability</a> with no grapple check needed.</p>
+<p class="stat-block-1"><b>Swallow Whole (Ex)</b> A mythic air elemental can use this ability on a creature it has grabbed. If a trapped creature cuts itself free, the hole heals itself closed at the start of the elemental's next turn, allowing it to use swallow whole again.</p>
+
+<p>A mythic elder air elemental is pure fury and strength, capable of throwing wooden splinters through stone walls and tearing creatures apart with fists of solid wind. Its greatest speed is within its empty core, able to suffocate enemies in moments.</p>
+
+
+<h1 id="elemental-earth">Elemental, Earth</h1>
+<p><i>This humanoid mountain of stone and earth strides forward on legs like pillars, a vast grove covering its back.</i></p>
+			
+
+<p id="mythic-elder-earth-elemental" class="stat-block-title">Mythic Elder Earth Elemental <span class="stat-block-cr">CR 14/MR 5</span></p>
+<p class="stat-block-1">XP 38,400</p>
+<p class="stat-block-1">N Huge outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype">mythic</a>)</p>
+<p class="stat-block-1"><b>Init</b> &ndash;1; <b>Senses</b> darkvision 60 ft., tremorsense 60 ft.; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +20</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 29, touch 7, flat-footed 29 (&ndash;1 Dex, +22 natural, &ndash;2 size)</p>
+<p class="stat-block-1"><b>hp</b> 218 (16d10+130)</p>
+<p class="stat-block-1"><b>Fort</b> +15, <b>Ref</b> +4, <b>Will</b> +11</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> trap weapon; <b>DR</b> 10/&mdash;; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft., burrow 20 ft., <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >earth glide</a></p>
+<p class="stat-block-1"><b>Melee</b> 2 slams +26 (4d6+18/18&ndash;20)</p>
+<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a> mastery, mythic power (5/day, surge +1d8), petrify, stun, trample (4d6+18, DC 30)</p>
+<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 16th; concentration +16)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape" >stone shape</a></i></p>
+<p class="stat-block-2">5/day&mdash;<i><a href="/pathfinderRPG/prd/spells/transmuteMudToRock.html#_transmute-mud-to-rock" >transmute mud to rock</a></i> (DC 15)</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 34, <b>Dex</b> 8, <b>Con</b> 21, <b>Int</b> 12, <b>Wis</b> 13, <b>Cha</b> 11</p>
+<p class="stat-block-1"><b>Base Atk</b> +16; <b>CMB</b> +30 (+34 bull rush or overrun, +32 sunder); <b>CMD</b> 41 (43 vs. bull rush, overrun, or sunder)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow" >Awesome Blow</a>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_cleave-mythic">Cleave</a><sup>M</sup>, <a href="/pathfinderRPG/prd/feats.html#_greater-bull-rush">Greater Bull Rush</a>, <a href="/pathfinderRPG/prd/feats.html#_greater-overrun">Greater Overrun</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-bull-rush">Improved Bull Rush</a><sup>B</sup>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-critical-mythic" >Improved Critical</a> (slam)<sup>M</sup>, <a href="/pathfinderRPG/prd/feats.html#_improved-overrun">Improved Overrun</a>, <a href="/pathfinderRPG/prd/feats.html#_improved_sunder">Improved Sunder</a>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic">Power Attack</a><sup>M</sup></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> +20, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +31, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +20, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +20, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +20, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +20, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Terran</p>
+<p class="stat-block-1"><b>SQ</b> powerful blows (slam)</p>
+<p class="stat-block-breaker">Ecology</p>
+<p class="stat-block-1"><b>Environment</b> any (Plane of Earth)</p>
+<p class="stat-block-1"><b>Organization</b> solitary, pair, or gang (3&ndash;8)</p>
+<p class="stat-block-1"><b>Treasure</b> none</p>
+<p class="stat-block-breaker">Special Abilities</p>
+<p class="stat-block-1"><b>Earth Mastery (Ex)</b> A earth elemental gains a +1 bonus on attack and damage rolls if both it and its foe are touching the ground. If an opponent is airborne or waterborne, the elemental takes a &ndash;4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks.</p>
+<p class="stat-block-1"><b>Petrify (Su)</b> If it hits a target with a slam attack, a mythic earth elemental can expend two uses of mythic power to permanently turn that target to stone. If the target succeeds at a DC 23 Fortitude save, it is slowed (as the spell) for 1d6 rounds instead of petrified. The save DC is Constitution-based.</p>
+<p class="stat-block-1"><b>Stun (Ex)</b> If a mythic earth elemental strikes an opponent with two slams in 1 round, that creature must succeed at a DC 30 Fortitude save or be stunned for 1d6 rounds. The save DC is Strength-based.</p>
+<p class="stat-block-1"><b>Trap Weapon (Ex)</b> A mythic earth elemental's body traps manufactured weapons that damage it. A manufactured weapon that deals hit point damage to the elemental (after subtracting its DR) is stuck fast unless the wielder succeeds at a DC 30 Reflex save. A creature can spend a standard action to attempt a DC 30 Strength check to remove a stuck weapon. Weapons that deal only bludgeoning damage are immune to this ability. The elemental can release any number of stuck weapons as a free action. The save DC is Strength-based.</p>
+
+<p>Infused with the power and wisdom of the deepest, oldest stone, a mythic elder earth elemental is a rocky bulwark against progress and change. They use innate magic and their very bodies to block enemy advances and preserve treasures of the earth.</p>
+
+
+<h1 id="elemental-fire">Elemental, Fire</h1>
+<p><i>This blazing conflagration is vaguely humanoid in shape, its horned visage almost too bright to look upon.</i></p>
+			
+
+<p id="mythic-elder-fire-elemental" class="stat-block-title">Mythic Elder Fire Elemental <span class="stat-block-cr">CR 14/MR 5</span></p>
+<p class="stat-block-1">XP 38,400</p>
+<p class="stat-block-1">N Huge outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype">mythic</a>)</p>
+<p class="stat-block-1"><b>Init</b> +13; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +20</p>
+<p class="stat-block-1"><b>Aura</b> frightful presence (60 ft., DC 18), shroud of flame (15 ft., 2d6 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, DC 22), smoke cloud (10 ft., DC 22)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 32, touch 19, flat-footed 21 (+9 Dex, +2 dodge, +13 natural, &ndash;2 size)</p>
+<p class="stat-block-1"><b>hp</b> 202 (16d10+114)</p>
+<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +19, <b>Will</b> +8</p>
+<p class="stat-block-1"><b>DR</b> 10/&mdash;; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a></p>
+<p class="stat-block-1"><b>Weaknesses</b> vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a></p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 60 ft.</p>
+<p class="stat-block-1"><b>Melee</b> 2 slams +23 (2d8+8 plus burn)</p>
+<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+<p class="stat-block-1"><b>Special Attacks</b> blinding blaze, burn (2d10, DC 22), inferno, mythic power (5/day, surge +1d8)</p>
+<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 16th; concentration +16)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/produceFlame.html#_produce-flame" >produce flame</a></i></p>
+<p class="stat-block-2">5/day&mdash;<i><a href="/pathfinderRPG/prd/spells/flameArrow.html#_flame-arrow" >flame arrow</a></i>, <i><a href="/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i></p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 26, <b>Dex</b> 29, <b>Con</b> 18, <b>Int</b> 12, <b>Wis</b> 13, <b>Cha</b> 11</p>
+<p class="stat-block-1"><b>Base Atk</b> +16; <b>CMB</b> +26; <b>CMD</b> 47</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_combat-reflexes-mythic">Combat Reflexes</a><sup>M</sup>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_dodge-mythic">Dodge</a><sup>M</sup>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a><sup>B</sup>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic">Iron Will</a><sup>M</sup>, <a href="/pathfinderRPG/prd/feats.html#_lightning-stance">Lightning Stance</a>, <a href="/pathfinderRPG/prd/feats.html#_mobility">Mobility</a>, <a href="/pathfinderRPG/prd/feats.html#_spring-attack">Spring Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a><sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_wind-stance">Wind Stance</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +28 (+40 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +27, <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +28, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +19, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +20, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +20, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +20</p>
+<p class="stat-block-1"><b>Languages</b> Ignan</p>
+<p class="stat-block-breaker">Ecology</p>
+<p class="stat-block-1"><b>Environment</b> any (Plane of Fire)</p>
+<p class="stat-block-1"><b>Organization</b> solitary, pair, or gang (3&ndash;8)</p>
+<p class="stat-block-1"><b>Treasure</b> none</p>
+<p class="stat-block-breaker">Special Abilities</p>
+<p class="stat-block-1"><b>Blinding Blaze (Su)</b> A mythic fire elemental can expend one use of mythic power as a swift action to burn brightly, granting it a blinding gaze attack. This gaze causes permanent blindness and has a range of 60 feet. A creature that succeeds at a DC 22 Fortitude save is instead dazzled for 1 round. Fire elementals are immune to this blindness. The save DC is Constitution-based.</p>
+<p class="stat-block-1"><b>Inferno (Ex)</b> A mythic fire elemental can expend one use of mythic power as an immediate action to lose its vulnerability to cold for 1 round. During this time, any fire damage it deals ignores fire resistance and fire immunity.</p>
+<p class="stat-block-1"><b>Shroud of Flame (Ex)</b> Any creature within a mythic fire elemental's reach must succeed at a DC 22 Reflex save at the start of its turn or take 2d6 points of fire damage. The elemental can suppress or reactivate this ability at will as a free action. The save DC is Constitution-based.</p>
+<p class="stat-block-1"><b>Smoke Cloud (Ex)</b> As a swift action, a mythic fire elemental can create a choking cloud of smoke. This cloud is equivalent to that of <i><a href="/pathfinderRPG/prd/spells/pyrotechnics.html#_pyrotechnics" >pyrotechnics</a></i> and lasts 1 minute. Fire elementals are immune to the effects of this ability.</p>
+
+<p>A mythic elder fire elemental is a living fragment of the original fires at the heart of its home plane. Having learned the patience of a slow burn, it lacks both the recklessness of younger fire elementals and the urge to inspire fear in the hearts of flammable mortals. It enjoys using smoke to scatter opponents so it can chase them down and set them alight.</p>
+
+
+<h1 id="elemental-water">Elemental, Water</h1>
+<p><i>Thousands of gallons of water rise up to become a tentacled face, a bulbous body, and four long tentacular appendages. </i></p>
+			
+
+<p id="mythic-elder-water-elemental" class="stat-block-title">Mythic Elder Water Elemental <span class="stat-block-cr">CR 14/MR 5</span></p>
+<p class="stat-block-1">XP 38,400</p>
+<p class="stat-block-1">N Huge outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype">mythic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a>)</p>
+<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +20</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 30, touch 16, flat-footed 22 (+6 Dex, +2 dodge, +14 natural, &ndash;2 size)</p>
+<p class="stat-block-1"><b>hp</b> 202 (16d10+114)</p>
+<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +18, <b>Will</b> +6</p>
+<p class="stat-block-1"><b>DR</b> 10/&mdash;; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft., swim 90 ft.</p>
+<p class="stat-block-1"><b>Melee</b> 4 slams +24 (2d10+10/18&ndash;20 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a>)</p>
+<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+<p class="stat-block-1"><b>Special Attacks</b> drench, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fast-swallow" >fast swallow</a>, mythic power (5/day, surge +1d8), pressure wave, smother, swallow whole (2d10+10 bludgeoning damage, AC 14, 20 hp, DR 10/&mdash;), vortex (at will, 10&ndash;60 ft., 2d10+10 damage, DC 28), water mastery</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 30, <b>Dex</b> 22, <b>Con</b> 19, <b>Int</b> 12, <b>Wis</b> 13, <b>Cha</b> 11</p>
+<p class="stat-block-1"><b>Base Atk</b> +16; <b>CMB</b> +28 (+30 bull rush or sunder, +32 grapple); <b>CMD</b> 48 (50 vs. bull rush or sunder)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_cleave">Cleave</a>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_dodge-mythic">Dodge</a><sup>M</sup>, <a href="/pathfinderRPG/prd/feats.html#_great-cleave">Great Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-bull-rush"><a href="/pathfinderRPG/prd/feats.html#_improved-bull-rush">Improved Bull Rush</a></a>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-critical-mythic" >Improved Critical</a> (slam)<sup>M</sup>, <a href="/pathfinderRPG/prd/feats.html#_improved_sunder">Improved Sunder</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic">Power Attack</a><sup>M</sup></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +25, <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +25, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +20, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +20, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +20, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +17, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +37.</p>
+<p class="stat-block-1"><b>Languages</b> Aquan</p>
+<p class="stat-block-breaker">Ecology</p>
+<p class="stat-block-1"><b>Environment</b> any (Plane of Water)</p>
+<p class="stat-block-1"><b>Organization</b> solitary, pair, or gang (3&ndash;8)</p>
+<p class="stat-block-1"><b>Treasure</b> none</p>
+<p class="stat-block-breaker">Special Abilities</p>
+<p class="stat-block-1"><b>Drench (Ex)</b> The elemental's touch puts out nonmagical flames of Large size or smaller. The creature can dispel magical fire it touches as <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i> (caster level 16th).</p>
+<p class="stat-block-1"><b>Pressure Wave (Su)</b> A mythic water elemental can expend one use of mythic power to create a 60-foot-radius bust of pressurized water. Creatures in the area must attempt a DC 22 Fort save. Success means the creature is sickened for 1d4 rounds; failure means the creature is nauseated for 1d4 rounds and sickened for 1d4 rounds after that. If the elemental expends two uses of mythic power, creatures nauseated by this ability also take slam damage. Creatures with the aquatic or water subtypes are immune to this ability. The save DC is Constitution-based.</p>
+<p class="stat-block-1"><b>Swallow Whole (Ex)</b> The elemental can use this ability on a creature it has grabbed. If a trapped creature cuts itself free, the hole heals itself closed at the start of the elemental's next turn, allowing it to use swallow whole again.</p>
+<p class="stat-block-1"><b>Vortex (Su)</b> A water elemental can create a whirlpool as a standard action, at will (as a whirlwind, but only underwater and cannot leave the water).</p>
+<p class="stat-block-1"><b>Water Mastery (Ex)</b> If a water elemental and its opponent are touching water, the elemental gains a +1 bonus on attack rolls, damage rolls, and bull rush and overrun combat maneuver checks. If it or the opponent are touching the ground, the elemental takes a &ndash;4 penalty on attack rolls, on damage rolls, and to its CMD to resist bull rush and overrun attempts. </p>
+
+<p>A mythic water elemental comes from the unknowable depths of its home plane, predating the current civilizations and gods. A witness to ancient and bizarre acts of life-creation, it is unconcerned about the interests of mortal creatures.</p>
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Race Builder</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Race Builder",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+
+<div id="body">
+
+
+<h1 id="race-builder">Race Builder</h1>
+<p>There comes a point in nearly every campaign when someone&mdash;either one of the players or the GM&mdash;wants to create a new race. Sometimes the GM needs a new race to fill a story or ecological niche in her campaign world. Such races may be as simple as elves who dwell in an arctic climate or as complex as clockwork giants from another plane of existence. Perhaps a player wants to play a monstrous race, or has been inspired by some piece of fiction or flight of creative fancy and wants to create a race for a new character concept not yet seen in Pathfinder. The following rules allow GMs, or even players with GM oversight, to create new races that are balanced and mesh with the core races.</p>
+<p>In addition, these rules allow you to create powerful races meant to take on more challenging encounters than those typically faced by the core races. You can create new races, model a race after an existing monster, or even "power up" core races in order to play those races side-by-side with more powerful new races.</p>
+
+<h1 id="race-examples">Race Examples</h1>
+<p>This section features numerous examples of races designed with the race builder. This section also features examples of races that would normally have racial Hit Dice, skills, and other abilities. PC members of such races, however, calculate these benefits based solely on their class. Note that these races are only an approximation of their monstrous counterparts and may not match exactly. Later in the chapter, sidebars detail entirely new races created using the race builder rules. Lastly, the final section of the chapter breaks down the points and abilities of core races and many of the featured and uncommon races. </p>
+
+<h1 id="creating-a-new-race">Creating a New Race</h1>
+<p>This race builder allows you to create a new race by buying racial qualities and racial traits with Race Points (RP). There are a number of differences between racial qualities and racial traits. The main difference is that racial qualities are mandatory (you must make a choice for each category of racial qualities provided in these rules), whereas racial traits are optional. There are six categories of racial qualities, including type, subtypes (if any), size, base speed, ability score modifiers, and languages. Racial traits present a number of interesting options for the race you are creating, from expanded modes of movement and bonuses on skill checks to even stranger powers, like a frightening croak attack or the ability to change shape. Racial traits are split up into a number of different categories, such as defense, offense, and magical traits.</p>
+<p>Before you buy racial qualities and traits, you must determine the power level of your race. The GM decides this based on the needs of her campaign. The power level of the race determines the number of RP you get to build the race, as well as the maximum number of racial traits you can choose from each racial trait category and what kinds of traits you can take from those categories.</p>
+<p>Sometimes racial qualities and traits cost 0 RP or a negative number of RP, which means they can be taken for free or gain back RP, respectively. In the case of racial qualities, choosing a 0-point option still counts toward your choice for that racial quality category, and in the case of racial traits, such choices still count toward the maximum number of traits per racial trait category.</p>
+<p>There are three power levels: standard, advanced, and monstrous. Standard races can only take standard racial traits, while advanced races can take both standard and advanced racial traits, and monstrous races can take standard, advanced, and monstrous racial traits. Table 4&ndash;1 summarizes the number of RP you can spend as well as the maximum number of traits per racial trait category you can take based on your power level.</p>
+
+<table id="racial-points-and-trait-minimums-by-power-level"><caption>Racial Points and Trait Maximums by Power Level</caption>
+<thead><tr><th>Power Level</th><th>RP Range</th><th>Traits per Category</th></tr></thead>
+<tr class="odd"><td>Standard</td><td>1&ndash;10</td><td>3</td></tr>
+<tr class="even"><td>Advanced</td><td>11&ndash;20</td><td>4</td></tr>
+<tr class="odd"><td>Monstrous</td><td>20+</td><td>5</td></tr></table>
+
+				
+<p>Once you have determined the race's power level, follow each of the steps below to create your race.</p>
+
+<h1 id="concept">Step 1: Concept</h1>
+<p>A race is more than just a group of individuals with similar qualities and traits. A race is a collection of people with a shared history and cultural identity. While the race builder presents many options for creating new races, and it may be tempting to treat each section as a buffet of options to help you ferret out the most optimal choices for your character, it is generally more beneficial for your campaign world to conceptualize your race first. Before choosing options, consider answering some questions about your race and its culture. Answering these questions can aid you in making reasonable choices about the qualities and traits of your race so that it can better fit in the game world&mdash;rather than just being a collection of seemingly random options. Such questions might include the following.</p>
+
+<ul><li>Where does your race tend to live and why? </li>
+<li>What does your race look like? How does the members' appearance help them adapt to their typical environment? </li>
+<li>What is your race's history? Does it have a creation myth? Were there pivotal events in the race's history?</li>
+<li>What kinds of relationships does your race have with other races? Does it have allies? Competitors? Enemies? Hated foes? </li>
+<li>What classes does your race tend to favor? </li></ul>
+<p>If you are using these rules and you are not the GM, make sure you work closely with your GM to create a race that fills a definite niche and need in her campaign world.</p>
+
+<h2 id="races-without-constitution">Races without Constitution</h2>
+<p>Generating ability scores for most of the races you create with these rules&mdash;even advanced and monstrous races&mdash;uses the standard methods for character building. Races without Constitution scores are the exception, and require some slight changes to the ability score generation methods. The changes are as follows.</p>
+<p id="standard"><b>Standard</b>: Roll 4d6, discarding the lowest result as normal, and sum the results, but only do this five times, and assign them as you see fit, skipping Constitution.</p>
+<p id="classic"><b>Classic</b>: Roll 3d6 and sum the results five times, and assign them as you see fit, skipping Constitution. </p>
+<p id="heroic"><b>Heroic</b>: Roll 2d6 and add 6 to the sum of each. Do this five times and assign them as you see fit, skipping Constitution.</p>
+<p id="dice-pool"><b>Dice Pool</b>: Instead of a pool of 24d6, races without Constitution get a pool of 20d6 to assign to the ability scores, except for Constitution. These characters still must assign a minimum of 3d6 in each of the other ability scores. Increase the number for high-powered games. </p>
+<p id="purchase"><b>Purchase</b>: When using the purchase method for ability scores, assume members of races without Constitution have a Constitution score of 10 and buy the rest of the abilities normally using the points allocated for the campaign's power level.</p>
+
+<h2 id="challenging-advanced-and-monstrous-races">Challenging Advanced and Monstrous Races</h2>
+<p>Because they have powerful racial traits and abilities, advanced and monstrous races require greater challenges, especially at lower levels. The basic guideline for accomplishing this is to treat a group of characters with advanced and monstrous races as a level or more higher for a number of levels based on their total RP spent, using the following chart. Calculate the party's adjusted average party level, and use that number, rather than the actual APL, when creating encounters and adventures for the group. For groups with mixed power levels, average the RP and round the result to the nearest multiple of 10.</p>
+
+<table><thead><tr><th></th><th colspan="4"><center>Average Party Level</center></th></tr>
+<tr><th>Average RP</th><th>1&ndash;5</th><th>6&ndash;10</th><th>11&ndash;15</th><th>16&ndash;20</th></tr></thead>
+<tr class="odd"><td>20</td><td>+1 level</td><td>+0 level</td><td>+0 level</td><td>+0 level</td></tr>
+<tr class="even"><td>30</td><td>+2 level</td><td>+1 level</td><td>+0 level</td><td>+0 level</td></tr>
+<tr class="odd"><td>40</td><td>+3 level</td><td>+2 level</td><td>+1 level</td><td>+0 level</td></tr></table>
+
+<h1 id="racial-qualities"><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialQualities.html">Step 2: Racial Qualities</a></h1>
+<p>The next step is to choose your race's qualities. You must select an option from each of the following quality categories. Qualities or aspects of qualities often serve as prerequisites for racial traits.</p>
+
+<p class="shortcutBar" style="border: 0;"><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialQualities.html#_type-quality">Type</a>&nbsp;&nbsp; <a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialQualities.html#_size-quality">Size</a>&nbsp;&nbsp; <a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialQualities.html#_base-speed-quality">Base Speed</a>&nbsp;&nbsp; <a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialQualities.html#_ability-score-modifier-quality">Ability Score Modifier</a>&nbsp;&nbsp; <a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialQualities.html#_language-quality">Language</a></p>
+
+<h1 id="racial-traits"><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialTraits.html">Step 3: Racial Traits</a></h1>
+<p>Once you have chosen all your racial qualities, you may then choose your racial traits with your remaining RP.</p>
+<p>Racial traits are divided into several categories: ability score, defense, feat and skill, magical, movement, offense, senses, weakness, and other racial traits. The number of racial traits you can buy from each category depends on the power level of the race you are creating&mdash;standard races can pick no more than three traits from each category, advanced races can pick no more than four traits from each category, and monstrous races can pick no more than five traits from each category. Furthermore, traits in each category are organized by type&mdash;standard, advanced, and monstrous. Standard races can only select traits from the standard section of each category, advanced races can select traits from the standard or advanced sections, and monstrous races can select from any section.</p>
+<p>Unless stated otherwise, all racial traits are extraordinary abilities, and each racial trait can only be taken once.</p>
+<p>The following format is used for all racial traits.</p>
+<p><b>Name (RP Cost)</b>: Each racial trait begins with its name. The number of RP each trait costs is listed in parentheses directly after the name. For racial traits you can take more than once, this is the number of RP you pay each time you take the traits, unless stated otherwise in the Special line of the trait description.</p>
+<blockquote>
+<p><i>Prerequisites</i>: Some racial traits have prerequisites. Your race must meet any prerequisites listed in this entry before you can take the trait. Some traits require a specific type or subtype, while others require that you take other racial traits or qualities before you take it. </p>
+<p><i>Benefit</i>: This is the benefit the racial trait grants the members of the race you are creating. </p>
+<p><i>Special</i>: This includes additional facts about the racial trait.</p>
+</blockquote>
+
+<p class="shortcutBar" style="border: 0;"><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialTraits.html#_ability-score-racial-traits">Ability Score</a>&nbsp;&nbsp; <a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialTraits.html#_defense-racial-traits">Defense</a>&nbsp;&nbsp; <a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialTraits.html#_feat-and-skill-racial-traits">Feats and Skills</a>&nbsp;&nbsp; <a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialTraits.html#_magical-racial-traits">Magic</a>&nbsp;&nbsp; <a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialTraits.html#_movement-racial-traits">Movement</a>&nbsp;&nbsp; <a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialTraits.html#_offense-racial-traits">Offense</a>&nbsp;&nbsp; <a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialTraits.html#_senses-racial-traits">Senses</a>&nbsp;&nbsp; <a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialTraits.html#_weakness-racial-traits">Weakness</a>&nbsp;&nbsp; <a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/racialTraits.html#_other-racial-traits">Other</a></p>
+
+<h1 id="sample-races"><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/exampleRaces.html">Example Races</a></h1>
+
+<p class="shortcutBar" style="border: 0;"><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/exampleRaces.html#_core-race-examples">Core Races</a>&nbsp;&nbsp; <a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/exampleRaces.html#_expanded-race-examples">Expanded Races</a>&nbsp;&nbsp; <a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder/exampleRaces.html#_other-race-examples">Other Races</a></p>
+
+</div>
+
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

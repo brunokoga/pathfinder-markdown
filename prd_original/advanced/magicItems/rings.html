@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Rings</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Rings",globalNavPath=[{ href: '/pathfinderRPG/prd/advanced/advancedMagicItems.html', name: 'Advanced Magic Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="rings" class="monster-header">Rings</h1>
+				<table id="table-7-7:-rings"><caption>Table:  Rings</caption>
+<thead><tr><th>Minor</th><th>Medium</th><th>Major</th><th>Ring</th><th>Market Price</th></tr></thead>
+<tbody>
+<tr class="odd"><td>01&ndash;10</td><td>&mdash;</td><td>&mdash;</td><td><i><a href="#dungeon-ring" >Dungeon</a> ring, prisoner's</i></td><td>250 gp</td></tr>
+<tr class="even"><td>11&ndash;40</td><td>&mdash;</td><td>&mdash;</td><td><i><a href="#ring-of-arcane-signets-" >Arcane signets</a></i></td><td>1,000 gp</td></tr>
+<tr class="odd"><td>41&ndash;80</td><td>01&ndash;25</td><td>&mdash;</td><td><i>Maniacal Devices</i></td><td>5,000 gp</td></tr>
+<tr class="even"><td>81&ndash;95</td><td>26&ndash;46</td><td>&mdash;</td><td><i><a href="#ring-of-delayed-doom" >Delayed doom</a> (1 stone)</i></td><td>5,000 gp</td></tr>
+<tr class="odd"><td>96&ndash;100</td><td>47&ndash;52</td><td>&mdash;</td><td><i><a href="#ring-of-forcefangs-" >Forcefangs</a></i></td><td>8,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>53&ndash;59</td><td>&mdash;</td><td><i><a href="#ring-of-revelation" >Revelation</a>, lesser</i></td><td>10,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>60&ndash;70</td><td>01&ndash;02</td><td><i><a href="#ring-of-delayed-doom" >Delayed doom</a> (2 stones)</i></td><td>10,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>71&ndash;80</td><td>03&ndash;11</td><td><i><a href="#ring-of-delayed-doom" >Delayed doom</a> (3 stones)</i></td><td>15,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>81&ndash;85</td><td>12&ndash;29</td><td><i><a href="#ring-of-retribution-" >Retribution</a></i></td><td>15,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>86&ndash;90</td><td>30&ndash;35</td><td><i><a href="#dungeon-ring" >Dungeon</a> ring, jailer's</i></td><td>16,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>91&ndash;96</td><td>36&ndash;38</td><td><i><a href="#ring-of-revelation" >Revelation</a>, greater</i></td><td>16,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>97&ndash;98</td><td>39&ndash;68</td><td><i><a href="#ring-of-delayed-doom" >Delayed doom</a> (4 stones)</i></td><td>20,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>99</td><td>69</td><td><i><a href="#ring-of-revelation" >Revelation</a>, superior</i></td><td>24,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>100</td><td>70&ndash;85</td><td><i><a href="#ring-of-delayed-doom" >Delayed doom</a> (5 stones)</i></td><td>25,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>&mdash;</td><td>86&ndash;93</td><td><i><a href="#ring-of-delayed-doom" >Delayed doom</a> (6 stones)</i></td><td>30,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>&mdash;</td><td>94&ndash;97</td><td><i><a href="#ring-of-delayed-doom" >Delayed doom</a> (7 stones)</i></td><td>35,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>&mdash;</td><td>98&ndash;99</td><td><i><a href="#ring-of-delayed-doom" >Delayed doom</a> (8 stones)</i></td><td>40,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>&mdash;</td><td>100</td><td><i><a href="#ring-of-delayed-doom" >Delayed doom</a> (9 stones)</i></td><td>45,000 gp</td></tr></tbody>
+</table>
+				<p>These rings follow the normal rules for magic rings as described in the <i>Pathfinder RPG Core Rulebook</i>.</p>
+				<p id="dungeon-ring" class="stat-block-title"><b>Dungeon Ring</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate divination; <b>CL</b> 8th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 16,000 gp (<i>jailer's ring</i>), 250 gp (<i>prisoner's ring</i>); <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>A <i>jailer's <a href="#dungeon-ring" >dungeon ring</a></i> is worked gold, set with a carnelian. The ring is magically attuned to one or more iron <i>prisoner's dungeon rings</i>. When the wearer of a <i>jailer's ring</i> places a <i>prisoner's ring</i> on a subject, the prisoner cannot remove the ring without the use of a <i><a href="../../spells/removeCurse.html#_remove-curse" >remove curse</a></i>, <i><a href="../../spells/limitedWish.html#_limited-wish" >limited wish</a></i>, <i><a href="../../spells/miracle.html#_miracle" >miracle</a></i>, or <i><a href="../../spells/wish.html#_wish" >wish</a></i> spell. The wearer of the <i>jailer's ring</i> can also remove a linked <i>prisoner's ring</i> at any time.</p>
+				<p>The jailer is aware of any wearer of a linked <i>prisoner's ring</i> like a constant <i><a href="../../spells/status.html#_status" >status</a></i> spell. Additionally, all wearers of linked <i>prisoner's rings</i> count as familiar to the jailer for purposes of spells such as <i><a href="../../spells/scrying.html#_scrying" >scrying</a></i> and <i><a href="../../spells/teleport.html#_teleport" >teleport</a></i>.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../../spells/scrying.html#_scrying" >scrying</a></i>, <i><a href="../../spells/status.html#_status" >status</a></i>; <b>Cost</b> 8,000 gp (<i>jailer's ring</i>), 125 gp (<i>prisoner's ring</i>)</p>
+				<p id="ring-of-arcane-signets-" class="stat-block-title"><b>Ring of Arcane Signets </b></p>
+				<p class="stat-block-1"><b>Aura</b> faint universal; <b>CL</b> 1st</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 1,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The amorphous, approximately 1-inch-square chunk of rosy crystal that dominates this otherwise plain copper ring forms itself into a specific rune, sigil, or similar identifying marker each time a person first puts it on. If the wearer expects this to occur, he can cause the crystal to adopt any shape he wishes. If the wearer does not expect this to occur, the crystal instead molds itself into an image that symbolizes the wearer or some dominant facet of his personality. Once the crystal assumes this initial form, it always does so whenever the wearer puts on the ring. The wearer can, as a standard action, embed this image on any object (as if using <i><a href="../../spells/arcaneMark.html#_arcane-mark" >arcane mark</a></i>) simply by pressing the ring against it. The wearer may choose the color and other cosmetic features of the image each time he uses the ring. The brand is otherwise permanent unless removed by <i><a href="../../spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="../../spells/erase.html#_erase" >erase</a></i>, or a more powerful spell. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../../spells/arcaneMark.html#_arcane-mark" >arcane mark</a></i>; <b>Cost</b> 500 gp</p>
+				<p id="ring-of-delayed-doom" class="stat-block-title"><b>Ring of Delayed Doom</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate conjuration; <b>CL</b> 9th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 45,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This band has nine garnets embedded along its exterior. Whenever the wearer's mind or body first becomes subject to any harmful effect that allows a saving throw to resist or mitigate it, he may, as an immediate action, choose to delay the onset of that effect for 1 minute, after he fails the saving throw but before its effects occur. This activation causes one of the garnets to turn to powder. When that minute passes, the wearer may continue to delay the onset of this harmful effect an additional minute as an immediate action by willing the ring to do so, which destroys another garnet, thus repeating the cycle for another minute. The delayed harmful effect occurs when the wearer falls unconscious, when the ring is removed, or 1 minute after the last time the ring's power activated; rounds spent delaying the effect do not count toward the effect's duration (for example, a curse that lasts 5 rounds takes effect for a full 5 rounds, even if the wearer delayed its effect several minutes). Effects that protect against or negate the harmful effect work normally while it is delayed, for example, <i><a href="../../spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i> cast on the wearer while he delays the effect of a poisonous bite removes the poison effect.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../../spells/heal.html#_heal" >heal</a></i>, <i><a href="../../spells/timeStop.html#_time-stop" >time stop</a></i>; <b>Cost</b> 22,500 gp</p>
+				<p id="ring-of-forcefangs-" class="stat-block-title"><b>Ring of Forcefangs </b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate evocation; <b>CL</b> 9th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 8,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This band negates any force spell or spell-like ability targeted at the wearer. Doing so gives the ring a number of charges equal to the spell level of the incoming force effect. The ring can hold a maximum of nine charges. If an incoming force attack would charge the ring beyond this limit, the ring does not negate the attack or gain charges, and the attack affects the wearer normally. On command, the wearer can use the ring's charges to cast <i><a href="../../spells/magicMissile.html#_magic-missile" >magic missile</a></i>, unleashing one missile (1d4+1 force damage) per charge but no more than five missiles per round.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_forge-ring" >Forge Ring</a>, <a href="../../feats.html#_heighten-spell" >Heighten Spell</a>, <i><a href="../../spells/magicMissile.html#_magic-missile" >magic missile</a></i>; <b>Cost</b> 4,000 gp</p>
+				<p id="ring-of-maniacal-devices" class="stat-block-title"><b>Ring of Maniacal Devices</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint transmutation; <b>CL</b> 3rd</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 5,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This deceptively precious looking ring grants the wearer a +5 competence bonus on all <a href="../../skills/craft.html#_craft" >Craft</a> (traps) and <a href="../../skills/disableDevice.html#_disable-device" >Disable Device</a> checks. Even if he has no ranks in these skills, the wearer may make <a href="../../skills/craft.html#_craft" >Craft</a> (traps) and <a href="../../skills/disableDevice.html#_disable-device" >Disable Device</a> checks as if he were trained in them.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../../spells/foxSCunning.html#_fox-s-cunning" >fox's cunning</a></i>, creator must have 5 ranks in the relevant skill; <b>Cost</b> 2,500 gp</p>
+				<p id="ring-of-retribution-" class="stat-block-title"><b>Ring of Retribution </b></p>
+				<p class="stat-block-1"><b>Aura</b> strong evocation; <b>CL</b> 13th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 15,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Once per day, the wearer of this charred bone ring may, as an immediate action, cause it to detonate in a 30-foot-radius burst that deals 10d6 points of fire damage (Reflex DC 14 half). If the wearer is killed by the detonation, all magical equipment he carries must also save or take fire damage, and all nonmagical equipment takes this damage with no saving throw. This explosion never destroys the ring.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_forge-ring" >Forge Ring</a>, <a href="../../feats.html#_quicken-spell" >Quicken Spell</a>, <i><a href="../../spells/fireball.html#_fireball" >fireball</a></i>; <b>Cost</b> 7,500 gp</p>
+				<p id="ring-of-revelation" class="stat-block-title"><b>Ring of Revelation</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint or moderate varied; <b>CL</b> 5th (lesser), 7th (greater), or 11th (superior)</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 10,000 gp (lesser), 16,000 gp (greater), 24,000 gp (superior); <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>A <i><a href="#ring-of-revelation" >ring of revelation</a></i> is a divine item attuned to a particular oracular mystery and containing a revelation associated with that mystery (see the oracle class description). While wearing the ring, an oracle has access to that revelation and may use it as if she had it as a normal class feature. The oracle must have the appropriate mystery to use the ring, and must meet the level requirements (if any) of the revelation itself; for example, a <i><a href="#ring-of-revelation" >ring of revelation</a> </i>(combat healer) is only usable by an oracle of at least 7th level with the battle mystery. If the oracle already has that revelation and the revelation gives an ability with a limited number of uses per day, the oracle can use that ability one additional time per day. The ring has no effect if worn by a non-oracle.</p>
+				<p>A <i>lesser <a href="#ring-of-revelation" >ring of revelation</a></i> contains a revelation that has no level prerequisite or a prerequisite that is less than 6th level. A <i>greater <a href="#ring-of-revelation" >ring of revelation</a></i> contains a revelation that requires the oracle to be 7th level or higher. A <i>superior <a href="#ring-of-revelation" >ring of revelation</a></i> contains a revelation that requires the oracle to be 11th level or higher.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_forge-ring" >Forge Ring</a>, creator must be an oracle with the desired revelation; <b>Cost</b> 5,000 gp (lesser), 8,000 gp (greater), 12,000 gp (superior)</p>
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Genie</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Genie",globalNavPath=[{ href: '/pathfinderRPG/prd/monsters/monsterIndex.html', name: 'Monster Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body"><div>
+				<h1 id="genie-djinni">Genie, Djinni</h1>
+			
+				<p class="flavor-text"><i>This creature stands nearly twice as tall as a human, although its lower torso trails away into a vortex of mist and wind.</i></p>
+			
+				<p class="stat-block-title"><b>Djinni <span class=stat-block-cr>CR 5</span></b></p>
+				<p class="stat-block-xp"><b>XP 1,600</b></p>
+				<p class="stat-block-1">CG Large <a href="creatureTypes.html#_outsider" >outsider</a> (<a href="creatureTypes.html#_air-subtype" >air</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> darkvision 60 ft.; <a href="../skills/perception.html#_perception" >Perception</a> +12</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 19, touch 14, flat-footed 14 (+4 Dex, +1 dodge, +5 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 52 (7d10+14)</p>
+				<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +9, <b>Will</b> +7</p>
+				<p class="stat-block-1"><b>Immune</b> acid</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., fly 60 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +10 (1d8+4) or mwk scimitar +11/+6 (1d8+4/18&ndash;20)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> air mastery, <a href="universalMonsterRules.html#_whirlwind" >whirlwind</a> (1/10 minutes, 10&ndash;50 ft. tall, 1d8+4 damage, DC 17)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 9th)</p>
+				<p class="stat-block-2">At will&mdash;<i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i> (self only), <i><a href="../spells/planeShift.html#_plane-shift" >plane shift</a></i> (willing targets to elemental planes, Astral Plane, or Material Plane only)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="../spells/createFoodAndWater.html#_create-food-and-water" >create food and water</a></i>,<i> create wine</i> (as <i><a href="../spells/createWater.html#_create-water" >create water</a></i>, but wine instead), <i><a href="../spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i> (for up to 1 hour), <i><a href="../spells/majorCreation.html#_major-creation" >major creation</a></i> (created vegetable matter is permanent), <i><a href="../spells/persistentImage.html#_persistent-image" >persistent image</a></i> (DC 17), <i><a href="../spells/windWalk.html#_wind-walk" >wind walk</a></i></p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 19, <b>Con</b> 14, <b>Int</b> 14, <b>Wis</b> 15, <b>Cha</b> 15</p>
+				<p class="stat-block-1"><b>Base Atk</b> +7; <b>CMB</b> +12; <b>CMD</b> 27</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_combat-casting" >Combat Casting</a>, <a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a><sup>B</sup>, <a href="../feats.html#_wind-stance" >Wind Stance</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/appraise.html#_appraise" >Appraise</a> +12, <a href="../skills/craft.html#_craft" >Craft</a> (any one) +12, <a href="../skills/fly.html#_fly" >Fly</a> +20, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +12, <a href="../skills/perception.html#_perception" >Perception</a> +12, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +12, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +12, <a href="../skills/stealth.html#_stealth" >Stealth</a> +10</p>
+				<p class="stat-block-1"><b>Languages</b> Aquan, Auran, Common, Ignan, Terran; telepathy 100 ft.</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Plane of Air)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, company (3&ndash;6), or band (7&ndash;10)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (masterwork scimitar, other gear)</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Air Mastery (Ex)</b> Airborne creatures take a &ndash;1 penalty on attack and damage rolls against a djinni.</p>
+				<p>The djinn (singular djinni) are genies from the Plane of Air. They are said to be made of the stuff of clouds, with the strength of the mightiest storms. A djinni is about 10 feet tall and weighs about 1,000 pounds. </p>
+				<p>Djinn disdain physical combat, preferring to use their magical powers and aerial abilities against foes. A djinni overmatched in combat usually takes flight and becomes a whirlwind to harass those who follow. When faced with no other option than melee combat, most djinn prefer to wield masterwork scimitars two-handed.</p>
+				<p>Among other genies, djinn get along well with jann and marids. They are frequently at odds with the shaitans, and are sworn enemies of the efreet, despising these fiery genies more than any other genie race. So legendary is the conflict between the efreet and the djinn that many spellcasters attempt (to varying degrees of success) to secure a djinni's servitude by promising to aid the cause against their hated enemies.</p>
+				<p>A small percentage of djinn are noble. Noble djinn, often called viziers, have 10 Hit Dice, Strength 23, and Charisma 17, and can grant three <i>wishes </i>to any being (nongenies only) who captures them. Djinn nobles are CR 8.</p>
+			
+				<h1 id="genie-efreeti">Genie, Efreeti</h1>
+			
+				<p class="flavor-text"><i>This muscular giant has crimson skin, smoldering eyes, and small black horns. Smoke rises in curls from its flesh.</i></p>
+			
+				<p class="stat-block-title"><b>Efreeti <span class=stat-block-cr>CR 8</span></b></p>
+				<p class="stat-block-xp"><b>XP 4,800</b></p>
+				<p class="stat-block-1">LE Large <a href="creatureTypes.html#_outsider" >outsider</a> (<a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_fire-subtype" >fire</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> darkvision 60 ft., detect magic; <a href="../skills/perception.html#_perception" >Perception</a> +15</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 21, touch 13, flat-footed 17 (+3 Dex, +1 dodge, +8 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 95 (10d10+40)</p>
+				<p class="stat-block-1"><b>Fort</b> +7, <b>Ref</b> +10, <b>Will</b> +9</p>
+				<p class="stat-block-1"><b>Immune</b> fire; <b>Vulnerability</b> cold</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., fly 40 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +15 (1d8+6 plus 1d6 fire) or mwk falchion +16/+11 (2d6+9/18&ndash;20)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> change size, heat</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 11th)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="../spells/detectMagic.html#_detect-magic" >detect magic</a></i></p>
+				<p class="stat-block-2">At Will&mdash;<i><a href="../spells/planeShift.html#_plane-shift" >plane shift</a></i> (willing targets to elemental planes, Astral Plane, or Material Plane only), <i><a href="../spells/produceFlame.html#_produce-flame" >produce flame</a></i>, <i><a href="../spells/pyrotechnics.html#_pyrotechnics" >pyrotechnics</a></i> (DC 14), <i><a href="../spells/scorchingRay.html#_scorching-ray" >scorching ray</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="../spells/invisibility.html#_invisibility" >invisibility</a>,</i> quickened <i><a href="../spells/scorchingRay.html#_scorching-ray" >scorching ray</a>, <a href="../spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i> (DC 16)</p>
+				<p class="stat-block-2">1/day&mdash;grant up to 3 <i>wishes</i> (to nongenies only), <i><a href="../spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i>, <i><a href="../spells/permanentImage.html#_permanent-image" >permanent image</a></i> (DC 18)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 23, <b>Dex</b> 17, <b>Con</b> 18, <b>Int</b> 12, <b>Wis</b> 14, <b>Cha</b> 15</p>
+				<p class="stat-block-1"><b>Base Atk</b> +10; <b>CMB</b> +17; <b>CMD</b> 31</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_combat-casting" >Combat Casting</a>, <a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../feats.html#_deceitful" >Deceitful</a>, <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a><sup>B</sup>, <a href="monsterFeats.html#_quicken-spell-like-ability" >Quicken Spell-Like Ability</a> (<i><a href="../spells/scorchingRay.html#_scorching-ray" >scorching ray</a></i>)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/bluff.html#_bluff" >Bluff</a> +19, <a href="../skills/craft.html#_craft" >Craft</a> (any one) +14, <a href="../skills/disguise.html#_disguise" >Disguise</a> +10, <a href="../skills/fly.html#_fly" >Fly</a> +13, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> +15, <a href="../skills/perception.html#_perception" >Perception</a> +15, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +15, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +14, <a href="../skills/stealth.html#_stealth" >Stealth</a> +8</p>
+				<p class="stat-block-1"><b>Languages</b> Auran, Aquan, Common, Ignan, Terran; telepathy 100 ft.</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="universalMonsterRules.html#_change-shape" >change shape</a> (humanoid or giant, <i><a href="../spells/alterSelf.html#_alter-self" >alter self</a></i> or <i><a href="../spells/giantForm.html#_giant-form-i" >giant form I</a></i>)</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Plane of Fire)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, company (3&ndash;6), or band (7&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (mwk falchion, other gear)</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Change Size</b> <b>(Sp) </b>Twice per day, an efreeti can magically change a creature's size. This works just like an <i><a href="../spells/enlargePerson.html#_enlarge-person" >enlarge person</a> </i>or <i><a href="../spells/reducePerson.html#_reduce-person" >reduce person</a> </i>spell (the efreeti chooses when using the ability), except that the ability can work on the efreeti. A DC 13 Fortitude save negates the effect. The save DC is Charisma-based. This is the equivalent of a 2nd-level spell.</p>
+				<p class="stat-block-1"><b>Heat (Ex)</b> An efreeti's body deals 1d6 points of fire damage whenever it hits in melee, or in each round it grapples.</p>
+				<p>The efreet (singular efreeti) are genies from the Plane of Fire. An efreeti stands about 12 feet tall and weighs about 2,000 pounds. </p>
+				<p>Efreet have few allies among geniekind. They certainly hate djinn, and attack them on sight. They hold an equally strong enmity for marids, and view the jann as frail and weak. Efreet often work closely with shaitans, yet even then alliances are temporary at best.</p>
+				<p>A small percentage of efreet are noble. Noble efreet, often called maliks, have 13 Hit Dice and gain the following spell-like abilities: 3/day&mdash;<i><a href="../spells/fireball.html#_fireball" >fireball</a>, <a href="../spells/heatMetal.html#_heat-metal" >heat metal</a></i>; 1/day&mdash;<i><a href="../spells/invisibility.html#_invisibility-greater" >greater invisibility</a></i>, <i>pyroclastic storm</i> (as <i><a href="../spells/iceStorm.html#_ice-storm" >ice storm</a></i>, with fire instead of cold damage). A noble efreeti's caster level for its spell-like abilities is 15th. Noble efreet are CR 10.</p>
+			
+				<h1 id="genie-janni">Genie, Janni</h1>
+			
+				<p class="flavor-text"><i>This regal figure looks like a tall, well-proportioned human, save that its eyes sparkle with strange light.</i></p>
+			
+				<p class="stat-block-title"><b>Janni <span class=stat-block-cr>CR 4</span></b></p>
+				<p class="stat-block-xp"><b>XP 1,200</b></p>
+				<p class="stat-block-1">N Medium <a href="creatureTypes.html#_outsider" >outsider</a> (<a href="creatureTypes.html#_native-subtype" >native</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft.; <a href="../skills/perception.html#_perception" >Perception</a> +11</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 20, touch 13, flat-footed 17 (+6 armor, +2 Dex, +1 dodge, +1 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 39 (6d10+6)</p>
+				<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +7, <b>Will</b> +4</p>
+				<p class="stat-block-1"><b>Resist</b> fire 10</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., fly 20 ft. (perfect); 20 ft., fly 15 ft. (perfect) in chainmail</p>
+				<p class="stat-block-1"><b>Melee</b> scimitar +9/+4 (1d6+4/18&ndash;20)</p>
+				<p class="stat-block-2"><b>Ranged</b> composite longbow +8/+3 (1d8+3/&times;3)</p>
+				<p class="stat-block-2"><b>Special Attacks</b> change size</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 8th)</p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i> (self only)<i>,</i> <i><a href="../spells/planeShift.html#_plane-shift" >plane shift</a></i> (willing targets to elemental planes, Astral Plane, or Material Plane only), <i><a href="../spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="../spells/createFoodAndWater.html#_create-food-and-water" >create food and water</a></i>, <i><a href="../spells/etherealJaunt.html#_ethereal-jaunt" >ethereal jaunt</a></i> (for 1 hour)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 15, <b>Con</b> 12, <b>Int</b> 14, <b>Wis</b> 15, <b>Cha</b> 13</p>
+				<p class="stat-block-1"><b>Base Atk</b> +6; <b>CMB</b> +9; <b>CMD</b> 22</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a><sup>B</sup>, <a href="../feats.html#_mobility" >Mobility</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/appraise.html#_appraise" >Appraise</a> +11, <a href="../skills/craft.html#_craft" >Craft</a> (any one&mdash;usually weaponsmith) +11, <a href="../skills/fly.html#_fly" >Fly</a> +14, <a href="../skills/perception.html#_perception" >Perception</a> +11, <a href="../skills/ride.html#_ride" >Ride</a> +6, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +11, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +11, <a href="../skills/stealth.html#_stealth" >Stealth</a> +6</p>
+				<p class="stat-block-1"><b>Languages</b> Common, one elemental language (Aquan, Auran, Ignan, or Terran), one planar language (Abyssal, Celestial, or Infernal); telepathy 100 ft.</p>
+				<p class="stat-block-1"><b>SQ</b> elemental endurance</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> warm deserts</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, company (3&ndash;6), or band (7&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (chainmail, composite longbow [+3 Str], scimitar, other gear)</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Change Size</b> <b>(Sp) </b>Twice per day, a janni can magically change a creature's size. This works just like an <i><a href="../spells/enlargePerson.html#_enlarge-person" >enlarge person</a> </i>or <i><a href="../spells/reducePerson.html#_reduce-person" >reduce person</a> </i>spell (the janni chooses when using the ability), except that the ability can work on the janni. A DC 13 Fortitude save negates the effect. The save DC is Charisma-based. This is the equivalent of a 2nd-level spell.</p>
+				<p class="stat-block-1"><b>Elemental <a href="../feats.html#_endurance" >Endurance</a> (Ex)</b> Jann can remain on the Planes of Air, Earth, Fire, or Water for up to 48 hours at a time. Failure to return to the Material Plane before that time expires causes a janni to take 1 point of damage per additional hour spent on the elemental plane, until it dies or returns to the Material Plane.</p>
+				<p>The jann (singular janni) are the weakest of the genies. Jann are formed out of all four elements and must therefore spend most of their time on the Material Plane. Some lore even casts the janni as the most “human” of the genie races, although most jann are quick to correct this insult, usually with the edge of a sword. A janni is human-sized, standing about 6 feet tall and weighing about 180 pounds.</p>
+				<p>Jann are physically strong and courageous, and do not take kindly to insult or injury. Most are quite prone to seeing insult even when none is intended by the speaker. If overwhelmed in battle, they escape using flight and <i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i>, returning later with reinforcements.</p>
+				<p>Jann enjoy their privacy, preferring the solitude of the deep desert and isolated oases. They are usually suspicious of humans, but are often willing to give them the benefit of the doubt. Jann have a strong cultural tradition of hospitality, and will never turn away someone in need of food, water, or shelter, though they might expect payment in the form of a favor at some later date. </p>
+				<p>Among the other genie races, jann generally have good relations with both djinn and shaitans. While not actively enemies, jann dislike the proud and aloof marids. Jann have a distinct aversion to the efreet, who often try to enslave them or conscript them into their armies.</p>
+				<p>A small percentage of jann are noble. Noble jann, often called sheikhs or amirs, have 9 Hit Dice, Strength 19, and Intelligence 18, and gain the following spell-like abilities: 3/day&mdash;<i><a href="../spells/augury.html#_augury" >augury</a></i>, <i><a href="../spells/detectMagic.html#_detect-magic" >detect magic</a></i>, and <i><a href="../spells/divination.html#_divination" >divination</a></i>. A noble janni's caster level for its spell-like abilities is 12th. Noble jann are CR 7.</p>
+			
+				<h1 id="genie-marid">Genie, Marid</h1>
+			
+				<p class="flavor-text"><i>This being resembles a powerful giant with hairless blue-green skin, deep blue eyes, flamboyant eyebrows, and pearlescent teeth.</i></p>
+			
+				<p class="stat-block-title"><b>Marid <span class=stat-block-cr>CR 9</span></b></p>
+				<p class="stat-block-xp"><b>XP 6,400</b></p>
+				<p class="stat-block-1">CN Large <a href="creatureTypes.html#_outsider" >outsider</a> (<a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_water-subtype" >water</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> darkvision 60 ft.; <a href="../skills/perception.html#_perception" >Perception</a> +17</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 23, touch 14, flat-footed 18 (+4 Dex, +1 dodge, +9 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 114 (12d10+48)</p>
+				<p class="stat-block-1"><b>Fort</b> +10, <b>Ref</b> +12, <b>Will</b> +10</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., swim 60 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +17 (2d6+6) or mwk trident +18/+13/+8 (2d6+9)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> vortex (1/10 minutes, 10&ndash;50 ft. tall, 1d8+4 damage, DC 22), water mastery, water's fury</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 12th)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="../spells/detectEvil.html#_detect-evil" >detect evil</a>, <a href="../spells/detectGood.html#_detect-good" >detect good</a>, <a href="../spells/detectMagic.html#_detect-magic" >detect magic</a>, <a href="../spells/waterWalk.html#_water-walk" >water walk</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="../spells/createWater.html#_create-water" >create water</a>, <a href="../spells/invisibility.html#_invisibility" >invisibility</a>,</i> <i><a href="../spells/planeShift.html#_plane-shift" >plane shift</a></i> (willing targets to elemental planes, Astral Plane, or Material Plane only), <i><a href="../spells/purifyFoodAndDrink.html#_purify-food-and-drink" >purify food and drink</a></i> (liquids only), <i><a href="../spells/quench.html#_quench" >quench</a></i></p>
+				<p class="stat-block-2">5/day&mdash;<i><a href="../spells/controlWater.html#_control-water" >control water</a>, <a href="../spells/gaseousForm.html#_gaseous-form" >gaseous form</a>, <a href="../spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a>, <a href="../spells/waterBreathing.html#_water-breathing" >water breathing</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="../spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="../spells/persistentImage.html#_persistent-image" >persistent image</a></i> (DC 18)</p>
+				<p class="stat-block-2">1/year&mdash;grant 1 <i><a href="../spells/wish.html#_wish" >wish</a></i> (to nongenies only)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 23, <b>Dex</b> 19, <b>Con</b> 18, <b>Int</b> 14, <b>Wis</b> 15, <b>Cha</b> 16</p>
+				<p class="stat-block-1"><b>Base Atk</b> +12; <b>CMB</b> +19; <b>CMD</b> 34</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_combat-casting" >Combat Casting</a>, <a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a><sup>B</sup>, <a href="monsterFeats.html#_improved-natural-attack" >Improved Natural Attack</a>, <a href="../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/craft.html#_craft" >Craft</a> (any one) +17, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +18, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +17, <a href="../skills/perception.html#_perception" >Perception</a> +17, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +17, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +17, <a href="../skills/stealth.html#_stealth" >Stealth</a> +15, <a href="../skills/swim.html#_swim" >Swim</a> +29</p>
+				<p class="stat-block-1"><b>Languages</b> Aquan, Auran, Common, Ignan, Terran; telepathy 100 ft.</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="universalMonsterRules.html#_change-shape" >change shape</a> (water elemental, humanoid or giant, <i><a href="../spells/alterSelf.html#_alter-self" >alter self</a></i>, <i><a href="../spells/elementalBody.html#_elemental-body-iii" >elemental body III</a></i>, or <i><a href="../spells/giantForm.html#_giant-form-i" >giant form I</a></i>)</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Plane of Water)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, company (3&ndash;6), or band (7&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (masterwork trident, other gear)</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Water Mastery (Ex)</b> A marid gains a +1 bonus on attack and damage rolls if both it and its opponent are touching water. If the opponent or the marid is touching the ground, the marid takes a &ndash;4 penalty on attack and damage rolls.</p>
+				<p class="stat-block-1"><b>Water's Fury (Su)</b> As a standard action, a marid can release a jet of water in a 60-foot line that deals 1d6 points of damage and blinds the target struck for 1d6 rounds. A DC 20 Reflex save reduces the damage by half and negates the blinding effect. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Vortex (Su) </b>A marid can transform into a vortex of swirling, churning water once every 10 mintues. This ability functions identically to the <a href="universalMonsterRules.html#_whirlwind">whirlwind</a> ability, save that it can only be used while the marid is underwater; a marid cannot leave a body of water while in vortex form.</p>
+				<p>Marids are genies from the Plane of Water. The most powerful of all the genie races, they are said to possess the strength of the ocean's currents and teeth made of pearl. A marid stands about 16 feet tall and weighs nearly 2,500 pounds.</p>
+				<p>The marids are perhaps the most unpredictable and capricious of the genies, a quality that the others (particularly shaitans) find to be both aggravating and embarrassing to the entire genie culture. Many marids become dancers, storytellers, performers, or other types of artists, and often travel to the Material Plane in disguise to seek out new audiences.</p>
+				<p>A small percentage of marids can lay claim to nobility. Noble marids, often called shahzadas, have 14 Hit Dice and gain the following spell-like abilities: 3/day&mdash;<i><a href="../spells/coneOfCold.html#_cone-of-cold" >cone of cold</a>, <a href="../spells/iceStorm.html#_ice-storm" >ice storm</a></i>; 1/day&mdash;<i><a href="../spells/elementalSwarm.html#_elemental-swarm" >elemental swarm</a></i> (water elementals only), <i><a href="../spells/permanentImage.html#_permanent-image" >permanent image</a></i>. A noble marid's caster level for its spell-like abilities is 20th. Noble marids are CR 11.</p>
+			
+				<h1 id="genie-shaitan">Genie, Shaitan</h1>
+			
+				<p class="flavor-text"><i>This being resembles a towering human with skin of polished stone and glittering agate eyes.</i></p>
+			
+				<p class="stat-block-title"><b>Shaitan <span class=stat-block-cr>CR 7</span></b></p>
+				<p class="stat-block-xp"><b>XP 3,200</b></p>
+				<p class="stat-block-1">LN Large <a href="creatureTypes.html#_outsider" >outsider</a> (<a href="creatureTypes.html#_earth-subtype" >earth</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> darkvision 60 ft., <a href="universalMonsterRules.html#_tremorsense" >tremorsense</a> 60 ft.; <a href="../skills/perception.html#_perception" >Perception</a> +14</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 20, touch 10, flat-footed 19 (+1 Dex, +10 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 85 (9d10+36)</p>
+				<p class="stat-block-1"><b>Fort</b> +10, <b>Ref</b> +4, <b>Will</b> +8</p>
+				<p class="stat-block-1"><b>Immune</b> electricity</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow 60 ft., climb 20 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +13 (2d6+5) or mwk scimitar +14/+9 (1d8+7/18&ndash;20)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> earth mastery, metalmorph, stone curse</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 9th)</p>
+				<p class="stat-block-2">At will&mdash;<i><a href="../spells/meldIntoStone.html#_meld-into-stone" >meld into stone</a>, <a href="../spells/planeShift.html#_plane-shift" >plane shift</a></i> (willing targets to elemental planes, Astral Plane, or Material Plane only), <i><a href="../spells/softenEarthAndStone.html#_soften-earth-and-stone" >soften earth and stone</a>, <a href="../spells/stoneShape.html#_stone-shape" >stone shape</a>, <a href="../spells/veil.html#_veil" >veil</a> </i>(self only)</p>
+				<p class="stat-block-2">3/day&mdash;quickened <i><a href="../spells/glitterdust.html#_glitterdust" >glitterdust</a></i> (DC 14), <i><a href="../spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, <i><a href="../spells/rustingGrasp.html#_rusting-grasp" >rusting grasp</a>, <a href="../spells/stoneTell.html#_stone-tell" >stone tell</a>, <a href="../spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i>trans. mud to rock, trans. rock to mud</i></p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 13, <b>Con</b> 19, <b>Int</b> 14, <b>Wis</b> 14, <b>Cha</b> 15</p>
+				<p class="stat-block-1"><b>Base Atk</b> +9; <b>CMB</b> +15; <b>CMD</b> 26</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_combat-casting" >Combat Casting</a>, <a href="../feats.html#_greater-bull-rush" >Greater Bull Rush</a>, <a href="../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a><sup>B</sup>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="monsterFeats.html#_quicken-spell-like-ability" >Quicken Spell-Like Ability</a> (<i><a href="../spells/glitterdust.html#_glitterdust" >glitterdust</a></i>)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/appraise.html#_appraise" >Appraise</a> +14, <a href="../skills/bluff.html#_bluff" >Bluff</a> +14, <a href="../skills/climb.html#_climb" >Climb</a> +25, <a href="../skills/craft.html#_craft" >Craft</a> (gemcutting) +14, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (engineering) +14, <a href="../skills/perception.html#_perception" >Perception</a> +14, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +14, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +14</p>
+				<p class="stat-block-1"><b>Languages</b> Aquan, Auran, Common, Ignan, Terran; telepathy 100 ft.</p>
+				<p class="stat-block-1"><b>SQ</b> stone glide</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Plane of Earth)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, company (3&ndash;6), or band (7&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (masterwork scimitar, other treasure)</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Earth Mastery (Ex)</b> A shaitan gains a +1 bonus on attack and damage rolls and a +2 bonus on opposed Strength-based checks if both it and its foe are touching the ground. It takes a &ndash;4 penalty on attack and damage rolls against airborne or waterborne opponents. </p>
+				<p class="stat-block-1"><b>Metalmorph (Su)</b> As a standard action, a shaitan may touch a single metal object of no more than 10 pounds and transform it into any other metal for 1 day. </p>
+				<p class="stat-block-1"><b>Stone Curse (Su)</b> If a shaitan wins a bull rush check by 5 or more and pushes its target into a stone barrier, the target must make a DC 19 Reflex save or be forced into the barrier as if the target had cast <i><a href="../spells/meldIntoStone.html#_meld-into-stone" >meld into stone</a></i> until the victim makes a successful DC 19 Fortitude save as a full-round action to exit the stone. The save DCs are Strength-based.</p>
+				<p class="stat-block-1"><b>Stone Glide (Su) </b>This functions as the earth elemental's earth glide ability, except the shaitan can move through stone, dirt, crystal, or metal.</p>
+				<p>Shaitans are boastful and proud genies from the Plane of Earth with flesh of metal, gems, or stone. A shaitan stands about 11 feet tall and weighs roughly 5,000 pounds.</p>
+				<p>Some shaitans are noble. Often called pashas, they have 18 Hit Dice and gain the spell-like ability <i><a href="../spells/earthquake.html#_earthquake" >earthquake</a></i>, usable once per day<i>, </i>as well as the ability to grant up to three <i>wishes </i>per day (nongenies only). A noble shaitan's caster level for its spell-like abilities is 18th. Noble shaitans are CR 13.</p>
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

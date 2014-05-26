@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Bestiary 3 Monster Index</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Bestiary 3 Monster Index",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1>Bestiary 3 Monster Index</h1>
+
+<p class="shortcutBar"><a href="#_index-monsters-A">A</a> <a href="#_index-monsters-B">B</a> <a href="#_index-monsters-C">C</a> <a href="#_index-monsters-D">D</a> <a href="#_index-monsters-E">E</a> <a href="#_index-monsters-F">F</a> <a href="#_index-monsters-G">G</a> <a href="#_index-monsters-H">H</a> <a href="#_index-monsters-I">I</a> <a href="#_index-monsters-J">J</a> <a href="#_index-monsters-K">K</a> <a href="#_index-monsters-L">L</a> <a href="#_index-monsters-M">M</a> <a href="#_index-monsters-N">N</a> <a href="#_index-monsters-O">O</a> <a href="#_index-monsters-P">P</a> <a href="#_index-monsters-R">R</a> <a href="#_index-monsters-S">S</a> <a href="#_index-monsters-T">T</a> <a href="#_index-monsters-V">V</a> <a href="#_index-monsters-W">W</a> <a href="#_index-monsters-Y">Y</a> <a href="#_index-monsters-Z">Z</a></p>
+<div id="monster-index-wrapper" class="index">
+
+<ul id="index-monsters-A" title="A Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/adaro.html#_adaro">Adaro</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/adherer.html#_adherer">Adherer</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/adlet.html#_adlet">Adlet</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/ahuizotl.html#_ahuizotl">Ahuizotl</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/akhlut.html#_akhlut">Akhlut</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/allip.html#_allip">Allip</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/alraune.html#_alraune">Alraune</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/animalLord.html#_animal-lord">Animal Lord</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/annisHag.html#_annis-hag">Annis Hag</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/antLion.html#_ant-lion,-giant">Ant Lion, Giant</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/archon.html#_archon,-harbinger">Archon, Harbinger</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/archon.html#_archon,-legion">Archon, Legion</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/ascomoid.html#_ascomoid">Ascomoid</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/asura.html#_asura">Asura</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/asura.html#_asura,-adhukait">Asura, Adhukait</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/asura.html#_asura,-aghasura">Asura, Aghasura</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/asura.html#_asura,-asurendra">Asura, Asurendra</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/asura.html#_asura,-tripurasura">Asura, Tripurasura</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/asura.html#_asura,-upasunda">Asura, Upasunda</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/atomie.html#_atomie">Atomie</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/axeBeak.html#_axe-beak">Axe Beak</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/azruverda.html#_azruverda">Azruverda</a></li></ul>
+
+<ul id="index-monsters-B" title="B Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/baku.html#_baku">Baku</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/bandersnatch.html#_bandersnatch">Bandersnatch</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/baregara.html#_baregara">Baregara</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/baykok.html#_baykok">Baykok</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/behemoth.html#_behemoth">Behemoth</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/behemoth.html#_behemoth,-tempest">Behemoth, Tempest</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/behemoth.html#_behemoth,-thalassic">Behemoth, Thalassic</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/behemoth.html#_behemoth,-thunder">Behemoth, Thunder</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/berbalang.html#_berbalang">Berbalang</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/bhuta.html#_bhuta">Bhuta</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/bogeyman.html#_bogeyman">Bogeyman</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/brainOoze.html#_brain-ooze">Brain Ooze</a></li></ul>
+
+<ul id="index-monsters-C" title="C Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/carbuncle.html#_carbuncle">Carbuncle</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/carnivorousCrystal.html#_carnivorous-crystal">Carnivorous Crystal</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/caryatidColumn.html#_caryatid-column">Caryatid Column</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/catfolk.html#_catfolk">Catfolk</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/caulborn.html#_caulborn">Caulborn</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/cecaelia.html#_cecaelia">Cecaelia</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/ceratioidi.html#_ceratioidi">Ceratioidi</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/cerberi.html#_cerberi">Cerberi</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/cerebricFungus.html#_cerebric-fungus">Cerebric Fungus</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/clockwork.html#_clockwork">Clockwork</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/clockwork.html#_clockwork-goliath">Clockwork Goliath</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/clockwork.html#_clockwork-leviathan">Clockwork Leviathan</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/clockwork.html#_clockwork-servant">Clockwork Servant</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/clockwork.html#_clockwork-soldier">Clockwork Soldier</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/clockwork.html#_clockwork-spy">Clockwork Spy</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/coldRider.html#_cold-rider">Cold Rider</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/crab.html#_crab,-shark-eating">Crab, Shark-Eating</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/crab.html#_crab,-shipwrecker">Crab, Shipwrecker</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/cyclops.html#_cyclops,-great">Cyclops, Great</a></li></ul>
+
+<ul id="index-monsters-D" title="D Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/daemon.html#_daemon,-crucidaemon">Daemon, Crucidaemon</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/daemon.html#_daemon,-vulnudaemon">Daemon, Vulnudaemon</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/deathtrapOoze.html#_deathtrap-ooze">Deathtrap Ooze</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/deathweb.html#_deathweb">Deathweb</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/demilich.html#_demilich">Demilich</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/demodand.html#_demodand">Demodand</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/demodand.html#_demodand,-shaggy">Demodand, Shaggy</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/demodand.html#_demodand,-slimy">Demodand, Slimy</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/demodand.html#_demodand,-tarry">Demodand, Tarry</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/demon.html#_demon,-coloxus">Demon, Coloxus</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/demon.html#_demon,-incubus">Demon, Incubus</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/demon.html#_demon,-schir">Demon, Schir</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/derhii.html#_derhii">Derhii</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/devil.html#_devil,-contract">Devil, Contract</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/dinosaur.html#_dinosaur,-dimetrodon">Dinosaur, Dimetrodon</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/dinosaur.html#_dinosaur,-iguanodon">Dinosaur, Iguanodon</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/dinosaur.html#_dinosaur,-pachycephalosaurus">Dinosaur, Pachycephalosaurus</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/dinosaur.html#_dinosaur,-spinosaurus">Dinosaur, Spinosaurus</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/direCorby.html#_dire-corby">Dire Corby</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/disenchanter.html#_disenchanter">Disenchanter</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/div.html#_div">Div</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/div.html#_div,-aghash">Div, Aghash</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/div.html#_div,-akvan">Div, Akvan</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/div.html#_div,-doru">Div, Doru</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/div.html#_div,-ghawwas">Div, Ghawwas</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/div.html#_div,-pairaka">Div, Pairaka</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/div.html#_div,-sepid">Div, Sepid</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/div.html#_div,-shira">Div, Shira</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/dragonFaerie.html#_dragon,-faerie">Dragon, Faerie</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/dragon.html#_dragon,-imperial">Dragon, Imperial</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/dragon.html#_imperial-dragon,-forest">Imperial Dragon, Forest</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/dragon.html#_imperial-dragon,-sea">Imperial Dragon, Sea</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/dragon.html#_imperial-dragon,-sky">Imperial Dragon, Sky</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/dragon.html#_imperial-dragon,-sovereign">Imperial Dragon, Sovereign</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/dragon.html#_imperial-dragon,-underworld">Imperial Dragon, Underworld</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/dragonne.html#_dragonne">Dragonne</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/drake.html#_drake,-desert">Drake, Desert</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/drake.html#_drake,-rift">Drake, Rift</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/drake.html#_drake,-river">Drake, River</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/dybbuk.html#_dybbuk">Dybbuk</a></li></ul>
+
+<ul id="index-monsters-E" title="E Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/ecorche.html#_ecorche">Ecorche</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/eidolon.html#_eidolon,-unfettered">Eidolon, Unfettered</a></li></ul>
+
+<ul id="index-monsters-F" title="F Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/familiar.html#_familiar">Familiar</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/faun.html#_faun">Faun</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/festrog.html#_festrog">Festrog</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/feyCreature.html#_fey-creature">Fey Creature</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/flailSnail.html#_flail-snail">Flail Snail</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/flumph.html#_flumph">Flumph</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/fooCreature.html#_foo-creature">Foo Creature</a></li></ul>
+
+<ul id="index-monsters-G" title="G Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/gardenOoze.html#_garden-ooze">Garden Ooze</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/garuda.html#_garuda">Garuda</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/ghorazagh.html#_ghorazagh">Ghorazagh</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/ghul.html#_ghul">Ghul</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/giant.html#_giant,-ash">Giant, Ash</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/giant.html#_giant,-cave">Giant, Cave</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/giant.html#_giant,-desert">Giant, Desert</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/giant.html#_giant,-jungle">Giant, Jungle</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/girtablilu.html#_girtablilu">Girtablilu</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/globster.html#_globster">Globster</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/goblinSnake.html#_goblin-snake">Goblin Snake</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/golem.html#_golem,-bone">Golem, Bone</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/golem.html#_golem,-brass">Golem, Brass</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/golem.html#_golem,-cannon">Golem, Cannon</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/golem.html#_golem,-fossil">Golem, Fossil</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/gorynych.html#_gorynych">Gorynych</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/graveknight.html#_graveknight">Graveknight</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/gravenGuardian.html#_graven-guardian">Graven Guardian</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/gremlin.html#_gremlin,-fuath">Gremlin, Fuath</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/grodair.html#_grodair">Grodair</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/grootslang.html#_grootslang">Grootslang</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/guecubu.html#_guecubu">Guecubu</a></li></ul>
+
+<ul id="index-monsters-H" title="H Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/hellwaspSwarm.html#_hellwasp-swarm">Hellwasp Swarm</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/herdAnimal.html#_herd-animal,-antelope">Herd Animal, Antelope</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/herdAnimal.html#_herd-animal,-elk">Herd Animal, Elk</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/hodag.html#_hodag">Hodag</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/hollowSerpent.html#_hollow-serpent">Hollow Serpent</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/huecuva.html#_huecuva">Huecuva</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/humbaba.html#_humbaba">Humbaba</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/hungryFog.html#_hungry-fog">Hungry Fog</a></li></ul>
+
+<ul id="index-monsters-I" title="I Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/ikuTurso.html#_iku-turso">Iku-Turso</a></li></ul>
+
+<ul id="index-monsters-J" title="J Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/jackalwere.html#_jackalwere">Jackalwere</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/jellyfish.html#_jellyfish,-death's-head">Jellyfish, Death's Head</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/jellyfish.html#_jellyfish,-sapphire">Jellyfish, Sapphire</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/jorogumo.html#_jorogumo">Jorogumo</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/jubjubBird.html#_jubjub-bird">Jubjub Bird</a></li></ul>
+
+<ul id="index-monsters-K" title="K Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/kamadan.html#_kamadan">Kamadan</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/kami.html#_kami">Kami</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/kami.html#_kami,-jinushigami">Kami, Jinushigami</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/kami.html#_kami,-kodama">Kami, Kodama</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/kami.html#_kami,-shikigami">Kami, Shikigami</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/kami.html#_kami,-toshigami">Kami, Toshigami</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/kami.html#_kami,-zuishin">Kami, Zuishin</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/kappa.html#_kappa">Kappa</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/kech.html#_kech">Kech</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/kirin.html#_kirin">Kirin</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/kongamato.html#_kongamato">Kongamato</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/kyton.html#_kyton">Kyton</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/kyton.html#_kyton,-augur">Kyton, Augur</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/kyton.html#_kyton,-eremite">Kyton, Eremite</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/kyton.html#_kyton,-interlocutor">Kyton, Interlocutor</a></li></ul>
+
+<ul id="index-monsters-L" title="L Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/lammasu.html#_lammasu">Lammasu</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/leshy.html#_leshy">Leshy</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/leshy.html#_leshy,-fungus">Leshy, Fungus</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/leshy.html#_leshy,-gourd">Leshy, Gourd</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/leshy.html#_leshy,-leaf">Leshy, Leaf</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/leshy.html#_leshy,-seaweed">Leshy, Seaweed</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/linnorm.html#_linnorm">Linnorm</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/linnorm.html#_linnorm,-cairn">Linnorm, Cairn</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/linnorm.html#_linnorm,-fjord">Linnorm, Fjord</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/linnorm.html#_linnorm,-taiga">Linnorm, Taiga</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/linnorm.html#_linnorm,-tor">Linnorm, Tor</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/lizard.html#_lizard,-giant-chameleon">Lizard, Giant Chameleon</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/lizard.html#_lizard,-giant-gecko">Lizard, Giant Gecko</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/lukwata.html#_lukwata">Lukwata</a></li></ul>
+
+<ul id="index-monsters-M" title="M Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/maftet.html#_maftet">Maftet</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/magmin.html#_magmin">Magmin</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/manananggal.html#_manananggal">Manananggal</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/marsupial.html#_marsupial,-kangaroo">Marsupial, Kangaroo</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/marsupial.html#_marsupial,-thylacine">Marsupial, Thylacine</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/megafauna.html#_megafauna,-archelon">Megafauna, Archelon</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/megafauna.html#_megafauna,-baluchitherium">Megafauna, Baluchitherium</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/megafauna.html#_megafauna,-basilosaurus">Megafauna, Basilosaurus</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/megafauna.html#_megafauna,-megalania">Megafauna, Megalania</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/mobogo.html#_mobogo">Mobogo</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/moonBeast.html#_moon-beast">Moon-Beast</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/myceloid.html#_myceloid">Myceloid</a></li></ul>
+
+<ul id="index-monsters-N" title="N Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/naga.html#_naga,-lunar">Naga, Lunar</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/naga.html#_naga,-royal">Naga, Royal</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/naga.html#_naga,-water">Naga, Water</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/nephilim.html#_nephilim">Nephilim</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/nixie.html#_nixie">Nixie</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/norn.html#_norn">Norn</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/nuckelavee.html#_nuckelavee">Nuckelavee</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/nue.html#_nue">Nue</a></li></ul>
+
+<ul id="index-monsters-O" title="O Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/oni.html#_oni">Oni</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/oni.html#_oni,-fire-yai">Oni, Fire Yai</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/oni.html#_oni,-ice-yai">Oni, Ice Yai</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/oni.html#_oni,-kuwa">Oni, Kuwa</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/oni.html#_oni,-spirit">Oni, Spirit</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/oni.html#_oni,-void-yai">Oni, Void Yai</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/oni.html#_oni,-water-yai">Oni, Water Yai</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/owl.html#_owl,-giant">Owl, Giant</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/owl.html#_owl,-great-horned">Owl, Great Horned</a></li></ul>
+
+<ul id="index-monsters-P" title="P Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/paleStranger.html#_pale-stranger">Pale Stranger</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/parasite.html#_parasite,-giant-rot-grub">Parasite, Giant Rot Grub</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/parasite.html#_parasite,-rot-grub-swarm">Parasite, Rot Grub Swarm</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/penanggalen.html#_penanggalen">Penanggalen</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/peri.html#_peri">Peri</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/phantomFungus.html#_phantom-fungus">Phantom Fungus</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/plasmaOoze.html#_plasma-ooze">Plasma Ooze</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/popobala.html#_popobala">Popobala</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/porcupine.html#_porcupine">Porcupine</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/porcupine.html#_porcupine,-giant">Porcupine, Giant</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/pukwudgie.html#_pukwudgie">Pukwudgie</a></li></ul>
+
+<ul id="index-monsters-R" title="R Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/rakshasa.html#_rakshasa">Rakshasa</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/rakshasa.html#_rakshasa,-dandasuka">Rakshasa, Dandasuka</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/rakshasa.html#_rakshasa,-maharaja">Rakshasa, Maharaja</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/rakshasa.html#_rakshasa,-marai">Rakshasa, Marai</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/rakshasa.html#_rakshasa,-raktavarna">Rakshasa, Raktavarna</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/rakshasa.html#_rakshasa,-tataka">Rakshasa, Tataka</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/ratfolk.html#_ratfolk">Ratfolk</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/rusalka.html#_rusalka-">Rusalka</a></li></ul>
+
+<ul id="index-monsters-S" title="S Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/sabosan.html#_sabosan">Sabosan</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/sagari.html#_sagari">Sagari</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/sargassumFiend.html#_sargassum-fiend">Sargassum Fiend</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/sasquatch.html#_sasquatch">Sasquatch</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/scorpion.html#_scorpion,-deadfall">Scorpion, Deadfall</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/scorpion.html#_scorpion,-ghost">Scorpion, Ghost</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/seaAnemone.html#_sea-anemone,-giant">Sea Anemone, Giant</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/seaBonze.html#_sea-bonze">Sea Bonze</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/seaSerpent.html#_sea-serpent,-deep">Sea Serpent, Deep</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/shadowMastiff.html#_shadow-mastiff">Shadow Mastiff</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/shae.html#_shae">Shae</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/shedu.html#_shedu">Shedu</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/shinigami.html#_shinigami">Shinigami</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/simurgh.html#_simurgh">Simurgh</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/siyokoy.html#_siyokoy">Siyokoy</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/skunk.html#_skunk">Skunk</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/skunk.html#_skunk,-giant">Skunk, Giant</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/sleipnir.html#_sleipnir">Sleipnir</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/snakeSwarm.html#_snake-swarm">Snake Swarm</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/sphinx.html#_sphinx">Sphinx</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/sphinx.html#_sphinx,-androsphinx">Sphinx, Androsphinx</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/sphinx.html#_sphinx,-criosphinx">Sphinx, Criosphinx</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/sphinx.html#_sphinx,-hieracosphinx">Sphinx, Hieracosphinx</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/spider.html#_spider,-giant-crab">Spider, Giant Crab</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/spider.html#_spider,-ogre">Spider, Ogre</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/spiderEater.html#_spider-eater">Spider Eater</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/sprite.html#_sprite">Sprite</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/stymphalidies.html#_stymphalidies">Stymphalidies</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/suli.html#_suli">Suli</a></li></ul>
+
+<ul id="index-monsters-T" title="T Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/tanuki.html#_tanuki">Tanuki</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/taotieh.html#_taotieh">Taotieh</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/tatzlwyrm.html#_tatzlwyrm">Tatzlwyrm</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/terraCottaSoldier.html#_terra-cotta-soldier">Terra-Cotta Soldier</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/thriae.html#_thriae">Thriae</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/thriae.html#_thriae-queen">Thriae Queen</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/thriae.html#_thriae-seer">Thriae Seer</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/thriae.html#_thriae-soldier">Thriae Soldier</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/titan.html#_titan,-hekatonkheires">Titan, Hekatonkheires</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/tojanida.html#_tojanida">Tojanida</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/tophet.html#_tophet">Tophet</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/troll.html#_troll,-jotund">Troll, Jotund</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/troll.html#_troll,-moss">Troll, Moss</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/trollhound.html#_trollhound">Trollhound</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/tupilaq.html#_tupilaq">Tupilaq</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/tzitzimitl.html#_tzitzimitl">Tzitzimitl</a></li></ul>
+
+<ul id="index-monsters-V" title="V Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/valkyrie.html#_valkyrie">Valkyrie</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/vampire.html#_vampire,-jiang-shi">Vampire, Jiang-Shi</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/vanara.html#_vanara">Vanara</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/vishkanya.html#_vishkanya">Vishkanya</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/vodyanoi.html#_vodyanoi">Vodyanoi</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/voonith.html#_voonith">Voonith</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/vulture.html#_vulture">Vulture</a></li>
+<li>&nbsp;&nbsp;<a href="/pathfinderRPG/prd/bestiary3/vulture.html#_vulture,-giant">Vulture, Giant</a></li></ul>
+
+<ul id="index-monsters-W" title="W Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/wolfInSheepSClothing.html#_wolf-in-sheep's-clothing">Wolf-in-Sheep's-Clothing</a></li></ul>
+
+<ul id="index-monsters-Y" title="Y Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/yithian.html#_yithian">Yithian</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/yukiOnna.html#_yuki-onna">Yuki-Onna</a></li></ul>
+
+<ul id="index-monsters-Z" title="Z Monsters">
+<li><a href="/pathfinderRPG/prd/bestiary3/zoog.html#_zoog">Zoog</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/zuvembie.html#_zuvembie">Zuvembie</a></li></ul>
+</div>
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

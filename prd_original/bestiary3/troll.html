@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Troll</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Troll",globalNavPath=[{ href: '/pathfinderRPG/prd/bestiary3/monsterIndex.html', name: 'Bestiary 3 Index'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+			
+			<div>
+				<h1 id="troll,-jotund" class="monster-header">Troll, Jotund</h1>
+				<p class="flavor-text">This immense green-skinned brute wields a tree branch for a club and has nine heads, each filled with jutting teeth and tusks. </p>
+				<p class="stat-block-title">Jotund Troll <span class="stat-block-cr">CR 15</span></p>
+				<p class="stat-block-xp">XP 51,200</p>
+				<p class="stat-block-1">CE Huge humanoid (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype" >giant</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_all-around-vision" >all-around vision</a>, low-light vision, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent" >scent</a>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +26</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 30, touch 7, flat-footed 30 (&ndash;1 Dex, +23 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 216 (16d8+144); regeneration 10 (acid or <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>)</p>
+				<p class="stat-block-1"><b>Fort</b> +16, <b>Ref</b> +6, <b>Will</b> +13 (+17 vs. mind-affecting effects)</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> multiple minds; <b>Immune</b> confusion and insanity effects</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> club +20/+15/+10 (2d6+10/19&ndash;20), bite +15 (2d6+5 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a>), claw +15 (1d8+5 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a>)</p>
+				<p class="stat-block-1"><b>Ranged</b> rock +10 (2d8+15)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> all-seeing attacks, cacophonous roar, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fast-swallow" >fast swallow</a>, rock throwing (120 ft.), swallow whole (4d6+15 bludgeoning, AC 21, 21 hp)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 31, <b>Dex</b> 8, <b>Con</b> 29, <b>Int</b> 10, <b>Wis</b> 17, <b>Cha</b> 6</p>
+				<p class="stat-block-1"><b>Base Atk</b> +12; <b>CMB</b> +24 (+28 grapple); <b>CMD</b> 33</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow" >Awesome Blow</a>, <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>, Improved Bull Rush, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (club), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +29, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +26; <b>Racial Modifiers</b> <br/>+4 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a></p>
+				<p class="stat-block-1"><b>Languages</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype" >Giant</a></p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> hills or mountains</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or war party (1 jotund troll plus 2&ndash;5 hill giants or 3&ndash;12 ogres)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (club, other treasure)</p>
+				<p class="stat-block-breaker">SPECIAL ABILITIES</p>
+				<p class="stat-block-1"><b>All-Seeing Attacks (Ex)</b> A jotund troll can make nine additional attacks of opportunity in a round, one for each head, although no more than a single attack for any given opportunity.</p>
+				<p class="stat-block-1"><b>Cacophonous Roar (Su)</b> Once every 1d4 rounds as a standard action, a jotund troll can emit a cacophonous roar from its nine heads. All creatures within a 60-foot spread of the troll must make a DC 19 Will save or become confused for 1d4 rounds. This is a mind-affecting effect. The save DC is Charisma-based.</p>
+				<p class="stat-block-1"><b>Multiple Minds (Ex) </b>A jotund troll has nine different minds that are in constant communication with each other. The resulting jumble of tangled thoughts grants the troll a <br/>+4 racial bonus on all Will saving throws against mind-affecting effects. In addition, whenever a jotund troll must make a Will save, it can roll the saving throw twice and take the better of the two results as its actual saving throw.</p>
+				
+				<p>Jotund trolls are gigantic, nine-headed horrors. Prowling frigid moors and marshes, these rapacious creatures have the same insatiable appetites of common trolls but require much more sustenance because of their excessive size. Jotund trolls stand 30 feet tall and weigh roughly 25,000 pounds. They can live for up to 100 years.</p>
+				<p>The jotund troll's nine heads each have their own brains and senses, but they share, after a fashion, the same mind. Despite this, a jotund troll's heads often argue and bicker, particularly over which head gets to eat. The fact that all nine maws lead to the same shared stomach makes little difference in such culinary disagreements. </p>
+				<p>Jotund trolls spawn with either their own kind or with other trolls. In the latter case, there is only a 5% chance the offspring will be a jotund troll. Apart from brief mating periods, jotund trolls are solitary, although some cull together bands of other giants into devastating war parties that can lay waste to entire regions. </p>
+
+				<h1 id="troll,-moss" class="monster-header">Troll, Moss</h1>
+				<p class="flavor-text">This large and lanky moss-colored humanoid has an elongated, toothy snout and appears to be covered in bits of foliage. </p>
+				<p class="stat-block-title">Moss Troll <span class="stat-block-cr">CR 3</span></p>
+				<p class="stat-block-xp">XP 800</p>
+				<p class="stat-block-1">CE Large humanoid (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype" >giant</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype" >shapechanger</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +4 (+8 when climbing trees); <b>Senses</b> darkvision 60 ft., low-light vision, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent" >scent</a>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +5</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 15, touch 13, flat-footed 11 (+4 Dex, +2 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 30 (4d8+12); regeneration 5 (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>)</p>
+				<p class="stat-block-1"><b>Fort</b> +7, <b>Ref</b> +5, <b>Will</b> +4</p>
+				<p class="stat-block-1"><b>Weaknesses</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear-(su-or-sp)" >fear</a> of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a></p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., climb 10 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> bite +5 (1d4+3), 2 claws +5 (1d4+3)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft. (15 ft. with claws)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 19, <b>Con</b> 16, <b>Int</b> 9, <b>Wis </b>12, <b>Cha</b> 7</p>
+				<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +8; <b>CMD</b> 22</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_intimidating-prowess" >Intimidating Prowess</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +7, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +11, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +5, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +5, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +5 (+9 in vegetation); <b>Racial Modifiers </b>+2 <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a>, +4 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> (+8 in vegetation)</p>
+				<p class="stat-block-1"><b>Languages</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype" >Giant</a></p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >change shape</a> (mossy tree; <i><a href="/pathfinderRPG/prd/spells/treeShape.html#_tree-shape" >tree shape</a></i>), tree climber</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> or temperate forests</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, gang (2&ndash;3), or troop (4&ndash;8)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear-(su-or-sp)" >Fear</a> of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >Fire</a> (Ex)</b> A moss troll is shaken as long as it is within 30 feet of a visible <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> or an open flame of at least torch size. </p>
+				<p class="stat-block-1"><b>Tree Climber (Ex)</b> When climbing trees and other foliage, a moss troll's climb speed increases to 30 feet. If a moss troll falls while climbing in trees, it ignores the first 30 feet it falls for the purposes of calculating total damage from the fall. While climbing in trees, a moss troll gains a +4 racial bonus on initiative checks. </p>
+				
+				<p>Moss trolls are bent and gangly creatures. They are smaller and thinner than normal trolls, yet their arms are unusually long and spindly for the creatures' size. Their flesh supports the growth of moss and mold as surely as  tree bark.</p>
+				<p>Although their appetites are notoriously powerful, moss trolls are sly killers rather than simple brutes. They travel in the trees, singing, climbing, and jumping with unnerving ease. When a moss troll spots prey, it reaches or leaps down from above, heedless of dropping great distances in its eagerness to sate its ravenous appetite.</p>
+				<p>Moss trolls are fearless except in the face of fire, which does not stop a hungry moss troll from attacking, but can often cause a wounded one to retreat. However, those who fight moss trolls may be unpleasantly surprised to learn that acid has no special effect on a moss troll's regeneration.</p>
+				<p>Moss trolls not only hunt from the trees, but also live, breed, and hide their treasure among the branches. Their weirdly long arms allow them to attack foes on the ground without ever needing to set foot on the earth themselves. Young moss trolls are adept at climbing and acrobatics, as much as they are at eating and killing. Like other trolls, adult moss trolls often drive juveniles away after training them to hunt and fight. Gangs and troops of moss trolls exist only where food is plentiful. While moss trolls can digest almost any organic material, they prefer fresh meat&mdash;particularly when said meat is served still alive and squirming after a particularly invigorating session of stalking and torture.</p>
+				<p>A moss troll is 9 feet tall and weighs 550 pounds.</p>
+			</div>
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

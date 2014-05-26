@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Mephit</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Mephit",globalNavPath=[{ href: '/pathfinderRPG/prd/monsters/monsterIndex.html', name: 'Monster Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body"><div>
+				<h1 id="mephit" class="monster-header">Mephit</h1>
+			
+				<p class="flavor-text"><i>This small humanoid creature has thin, leathery wings, small horns, and a mischievous smile. </i></p>
+			
+				<p class="stat-block-title"><b>Mephit <span class=stat-block-cr>CR 3</span></b></p>
+				<p class="stat-block-xp"><b>XP 800</b></p>
+				<p class="stat-block-1">N Small <a href="creatureTypes.html#_outsider" >outsider</a> (varies)</p>
+				<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft.; <a href="../skills/perception.html#_perception" >Perception</a> +6</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 17, touch 14, flat-footed 14 (+2 Dex, +1 dodge, +3 natural, +1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 19 (3d10+3); <a href="universalMonsterRules.html#_fast-healing" >fast healing</a> 2</p>
+				<p class="stat-block-1"><b>Fort</b> +2, <b>Ref</b> +5, <b>Will</b> +3</p>
+				<p class="stat-block-1"><b>DR</b> 5/magic</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., fly 40 ft. (average)</p>
+				<p class="stat-block-1"><b>Melee</b> 2 claws +5 (1d3+1)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="universalMonsterRules.html#_breath-weapon" >breath weapon</a> (15-foot cone, effect based on type, Reflex DC 13 for half)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 6th)</p>
+				<p class="stat-block-2">1/day&mdash;summon (level 2, 1 mephit of the same type 25%), additional abilities based on mephit type</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 13, <b>Dex</b> 15, <b>Con</b> 12, <b>Int</b> 6, <b>Wis</b> 11, <b>Cha</b> 14</p>
+				<p class="stat-block-1"><b>Base</b> <b>Atk</b> +3; <b>CMB</b> +3; <b>CMD </b>15</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/bluff.html#_bluff" >Bluff</a> +8, <a href="../skills/fly.html#_fly" >Fly</a> +10, <a href="../skills/perception.html#_perception" >Perception</a> +6, <a href="../skills/stealth.html#_stealth" >Stealth</a> +12</p>
+				<p class="stat-block-1"><b>Languages</b> Common, one appropriate elemental language (Aquan, Auran, Ignan, or Terran)</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment </b>any (elemental planes)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, gang (3&ndash;6), mob (7&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Breath Weapon (Su)</b> Each type of mephit can unleash a particular breath weapon every 4 rounds as a standard action. The DC is Constitution-based and includes a +1 racial bonus.</p>
+				<p>Mephits are the servants of powerful elemental creatures. Key sites and locations on the elemental planes are full of mephits scurrying about on important errands or duties. Each mephit is associated with one element that defines its spells and abilities. The mephit types are listed below.</p>
+				<h2>Air Mephit (Air)</h2>
+				<p>Air mephits are commonly found on the Plane of Air. These mephits are whimsical and prone to distraction.</p>
+				<p class="stat-block-1"><b>Fast Healing</b>: Works only in gusty and windy areas.</p>
+				<p class="stat-block-1"><b>Speed</b>: <a href="../skills/fly.html#_fly" >Fly</a> 60 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Breath Weapon</b>: A cone of sand and grit that deals 1d8 slashing damage.</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b>: <i><a href="../spells/blur.html#_blur" >blur</a></i> 1/hour, <i><a href="../spells/gustOfWind.html#_gust-of-wind" >gust of wind</a></i> 1/day.</p>
+				<h2>Dust Mephit (Air)</h2>
+				<p>Dust mephits are commonly found on the Plane of Air. These mephits are irritating and persistent.</p>
+				<p class="stat-block-1"><b>Fast Healing</b>: Works only in dusty environments.</p>
+				<p class="stat-block-1"><b>Speed</b>: <a href="../skills/fly.html#_fly" >Fly</a> 50 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Breath Weapon</b>: A cone of dust that deals 1d4 slashing damage. The dust also causes living creatures to be sickened for 3 rounds. A Reflex save halves the damage and negates the sickened effect.</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b>: <i><a href="../spells/blur.html#_blur" >blur</a></i> 1/hour, <i><a href="../spells/windWall.html#_wind-wall" >wind wall</a></i> 1/day</p>
+				<h2>Earth Mephit (Earth)</h2>
+				<p>Earth mephits are commonly found on the Plane of Earth. These mephits are plodding and humorless.</p>
+				<p class="stat-block-1"><b>Fast Healing</b>: Works only while underground.</p>
+				<p class="stat-block-1"><b>Breath Weapon</b>: A cone of rocks that deals 1d8 bludgeoning damage.</p>
+				<p class="stat-block-1"><b>Change Size</b>: Once per day, an earth mephit can enlarge one size category, as <i><a href="../spells/enlargePerson.html#_enlarge-person" >enlarge person</a></i>, except that it only works on the earth mephit. This power acts as a 2nd-level spell.</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b>: <i><a href="../spells/softenEarthAndStone.html#_soften-earth-and-stone" >soften earth and stone</a></i> 1/day</p>
+				<h2>Fire Mephit (Fire)</h2>
+				<p>Fire mephits are commonly found on the Plane of Fire. Fire mephits are vengeful and quick to anger.</p>
+				<p class="stat-block-1"><b>Fast Healing</b>: Works only while in contact with fire.</p>
+				<p class="stat-block-1"><b>Immune</b>: Fire</p>
+				<p class="stat-block-1"><b>Weaknesses</b>: Vulnerability to cold</p>
+				<p class="stat-block-1"><b>Breath Weapon</b>: A cone of flames that deals 1d8 fire damage.</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b>: <i><a href="../spells/scorchingRay.html#_scorching-ray" >scorching ray</a></i> 1/hour, <i><a href="../spells/heatMetal.html#_heat-metal" >heat metal</a></i> 1/day (DC 14)</p>
+				<h2>Ice Mephit (Cold)</h2>
+				<p>Ice mephits are commonly found on the Plane of Air. These mephits are cruel and aloof.</p>
+				<p class="stat-block-1"><b>Fast Healing</b>: Works only in areas below freezing.</p>
+				<p class="stat-block-1"><b>Immune</b>: Cold</p>
+				<p class="stat-block-1"><b>Weaknesses</b>: Vulnerability to fire</p>
+				<p class="stat-block-1"><b>Breath Weapon</b>: A cone of ice that deals 1d4 cold damage. The cold also causes living creatures to be sickened for 3 rounds. A Reflex save halves the damage and negates the sickened effect.</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b>: <i><a href="../spells/magicMissile.html#_magic-missile" >magic missile</a></i> 1/hour, <i><a href="../spells/chillMetal.html#_chill-metal" >chill metal</a></i> 1/day (DC 14)</p>
+				<h2>Magma Mephit (Fire)</h2>
+				<p>Magma mephits are commonly found on the Plane of Fire. These mephits are dim-witted brutes.</p>
+				<p class="stat-block-1"><b>Fast Healing</b>: Works only in contact with magma or lava.</p>
+				<p class="stat-block-1"><b>Immune</b>: Fire</p>
+				<p class="stat-block-1"><b>Weaknesses</b>: Vulnerability to cold</p>
+				<p class="stat-block-1"><b>Breath Weapon</b>: A cone of fire that deals 1d8 fire damage.</p>
+				<p class="stat-block-1"><b>Magma Form (Su)</b>: Once per hour, a magma mephit can assume the form of a pool of lava, 3 feet in diameter and 6 inches deep. While in this form, its DR increases to 20/magic and it cannot attack. It can move at a speed of 10 feet per round and can pass through small openings and cracks. Anything touching this pool takes 1d6 fire damage. A magma mephit may remain in this form for up to 10 minutes.</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b>: <i><a href="../spells/pyrotechnics.html#_pyrotechnics" >pyrotechnics</a></i> 1/day</p>
+				<h2>Ooze Mephit (Water)</h2>
+				<p>Ooze mephits are commonly found on the Plane of Water. These mephits are disgusting and slow to act.</p>
+				<p class="stat-block-1"><b>Fast Healing</b>: Works only in wet or muddy environments.</p>
+				<p class="stat-block-1"><b>Speed</b>: <a href="../skills/swim.html#_swim" >Swim</a> 30 ft.</p>
+				<p class="stat-block-1"><b>Breath Weapon</b>: A cone of slime that deals 1d4 acid damage. The slime also causes living creatures to be sickened for 3 rounds. A Reflex save halves the damage and negates the sickened effect.</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b>: <i><a href="../spells/acidArrow.html#_acid-arrow" >acid arrow</a></i> 1/hour, <i><a href="../spells/stinkingCloud.html#_stinking-cloud" >stinking cloud</a></i> 1/day (DC 15)</p>
+				<h2>Salt Mephit (Earth)</h2>
+				<p>Salt mephits are commonly found on the Plane of Earth. These mephits are cruel and aloof.</p>
+				<p class="stat-block-1"><b>Fast Healing</b>: Works only in arid environments.</p>
+				<p class="stat-block-1"><b>Breath Weapon</b>: A cone of salt crystals that deals 1d4 slashing damage. The salt also causes living creatures to be sickened for 3 rounds. A Reflex save halves the damage and negates the sickened effect.</p>
+				<p class="stat-block-1"><b>Dehydrate (Su)</b>: Once per day a salt mephit can draw the moisture from an area in a 20-foot radius centered on itself. Living creatures within range take 2d8 points of damage (Fortitude DC 14 half; caster level 6th). This effect is especially devastating to plant and aquatic creatures, which take a &ndash;2 penalty on their saving throws. This ability is the equivalent of a 2nd-level spell.</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b>: <i><a href="../spells/glitterdust.html#_glitterdust" >glitterdust</a></i> 1/hour.</p>
+				<h2>Steam Mephit (Fire)</h2>
+				<p>Steam mephits are commonly found on the Plane of Fire. These mephits are overconfident and brash.</p>
+				<p class="stat-block-1"><b>Fast Healing</b>: Works only in boiling water or steam.</p>
+				<p class="stat-block-1"><b>Immune</b>: Fire</p>
+				<p class="stat-block-1"><b>Weaknesses</b>: Vulnerability to cold</p>
+				<p class="stat-block-1"><b>Breath weapon</b>: A cone of steam that deals 1d4 fire damage. The scalding water also causes living creatures to be sickened for 3 rounds. A Reflex save halves the damage and negates the sickened effect.</p>
+				<p class="stat-block-1"><b>Boiling Rain (Su)</b>: Once per day a steam mephit can create a rainstorm of boiling water in a 20-foot-square area. Living creatures within the area take 2d6 points of fire damage (Fortitude DC 14 half; caster level 6th). This ability is the equivalent of a 2nd-level spell.</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b>: <i><a href="../spells/blur.html#_blur" >blur</a></i> 1/hour</p>
+				<h2>Water Mephit (Water)</h2>
+				<p>Water mephits are commonly found on the Plane of Water. These mephits are constant jokesters.</p>
+				<p class="stat-block-1"><b>Fast Healing</b>: Works only while the mephit is underwater.</p>
+				<p class="stat-block-1"><b>Speed</b>: <a href="../skills/swim.html#_swim" >Swim</a> 30 ft.</p>
+				<p class="stat-block-1"><b>Breath Weapon</b>: A cone of acid that deals 1d8 acid damage.</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b>: <i><a href="../spells/acidArrow.html#_acid-arrow" >acid arrow</a></i> 1/hour, <i><a href="../spells/stinkingCloud.html#_stinking-cloud" >stinking cloud</a></i> 1/day (DC 15)</p>
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

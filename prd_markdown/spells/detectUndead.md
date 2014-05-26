@@ -1,0 +1,57 @@
+ **Detect Undead**
+
+**School** divination; **Level** cleric 1, paladin 1, sorcerer/wizard 1
+
+**Casting Time** 1 standard action
+
+**Components** V, S, M/DF (earth from a grave)
+
+**Range** 60 ft.
+
+**Area** cone-shaped emanation
+
+**Duration** concentration, up to 1 minute/ level (D)
+
+**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** no
+
+You can detect the aura that surrounds undead creatures. The amount of information revealed depends on how long you study a particular area.
+
+_1st Round_: Presence or absence of undead auras.
+
+_2nd Round_: Number of undead auras in the area and the strength of the strongest undead aura present. If you are of good alignment, and the strongest undead aura's strength is overwhelming (see below), and the creature has HD of at least twice your character level, you are [stunned](../glossary.html#_stunned) for 1 round and the spell ends.
+
+_3rd Round_: The strength and location of each undead aura. If an aura is outside your line of sight, then you discern its direction but not its exact location.
+
+_Aura Strength_: The strength of an undead aura is determined by the HD of the undead creature, as given on the table below.
+
+_Lingering Aura_: An undead aura lingers after its original source is destroyed. If _detect undead _is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power, as given on the table below.
+
+<thead><tr>
+<th>HD</th>
+<th>Strength</th>
+<th>Lingering Aura Duration</th>
+</tr></thead><tbody>
+<tr class="odd">
+<td>1 or lower</td>
+<td>Faint</td>
+<td>1d6 rounds</td>
+</tr>
+<tr class="even">
+<td>2–4</td>
+<td>Moderate</td>
+<td>1d6 minutes</td>
+</tr>
+<tr class="odd">
+<td>5–10</td>
+<td>Strong</td>
+<td>1d6 × 10 minutes</td>
+</tr>
+<tr class="even">
+<td>11 or higher</td>
+<td>Overwhelming</td>
+<td>1d6 days</td>
+</tr>
+</tbody>
+
+Each round, you can turn to detect undead in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+

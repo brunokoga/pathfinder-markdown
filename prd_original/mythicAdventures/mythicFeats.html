@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Mythic Feats</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Mythic Feats",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="mythic-feats">Mythic Feats</h1>
+<p>Mythic characters and monsters gain mythic feats as they gain tiers or ranks. These feats can be selected only as part of mythic advancement, not as part of a character's normal advancement or in place of any other bonus feat.</p>
+<p>Most mythic feats require a non-mythic feat as a prerequisite. These mythic feats enhance the benefits of their prerequisite feats, making them truly awe-inspiring. If a character doesn't possess any of the necessary prerequisite feats when she gains a mythic feat, she can wait to select a mythic feat until the next time she gains a tier or level.</p>
+<p>A value in a mythic feat based on a fraction of your tier (such as a +1 bonus for every 3 tiers you possess) always has a minimum of 1.</p>
+<p>This section includes some non-mythic feats. These grant a character who hasn't had a moment of ascension a measure of mythic might, and remain relevant if that character later becomes mythic.</p>
+
+<h2>Types of Feats</h2>
+<p>Many feats belong to a category that has special rules associated to it. This category is listed after the feat name. The following types of feats can be found in this section.</p>
+
+<h3>Metamagic Feats</h3>
+<p>Metamagic feats allow spellcasters to modify and change their spells, granting the spells new powers and effects. Such spells generally take up a higher-level spell slot than the normal spell.</p>
+
+<h3>Mythic Feats</h3>
+<p>Only characters with mythic tiers or creatures with mythic ranks can take these feats. If a creature becomes non-mythic, it no longer gains the benefit of these feats, but it doesn't lose them permanently. If the creature becomes mythic again, it regains the use of all the mythic feats it once had.</p>
+<p>Many mythic feats enhance non-mythic feats with the same name. When a creature has a mythic version of a feat, that feat is denoted with a superscript "M" in the feat line of its stat block.</p>
+
+<h3 id="mythic-and-metamagic-feats">Mythic and Metamagic Feats</h3>
+<p>You'll notice there are no mythic metamagic feats. Because mythic versions of spells are, in a way, metamagic of their own, and there are many mythic abilities that empower such spellcasting, there is no need for mythic metamagic feats. If you desire more potent spellcasting power, select the <a href="#_mythic-spell-lore-mythic">Mythic Spell Lore</a> feat multiple times.</p>
+<p>There is also a non-mythic metamagic feat for casting spells as their mythic versions: <a href="#_ascendant-spell-metamagic">Ascendant Spell</a>.</p>
+
+<div class="table">
+<table><thead><th>Feats</th><th>Prerequisites</th><th>Benefits</th></tr></thead>
+<tr class="odd"><td><a href="#_marked-for-glory-mythic">Marked for Glory (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, or <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a></td><td style="white-space: normal;">Gain extra surge use</td></tr>
+<tr class="even"><td><a href="#_mythic-companion-mythic">Mythic Companion (Mythic)</a></td><td>You must not be mythic</td><td style="white-space: normal;">You are considered a mythic creature</td></tr>
+<thead><tr><th>Mythic Feats</th><th>Prerequisites</th><th>Benefits</th></tr></thead>
+<tr class="odd"><td><a href="#_ascendant-spell-metamagic">Ascendant Spell (Metamagic)</a></td><td>&mdash;</td><td style="white-space: normal;">Imitate mythic version of a spell</td></tr>
+<tr class="even"><td><a href="#_drink-is-life-mythic">Drink Is Life (Mythic)</a></td><td>Con 19, 3rd mythic tier</td><td style="white-space: normal;">Gain benefits from alcohol consumption</td></tr>
+<tr class="odd"><td><a href="#_dual-path-mythic">Dual Path (Mythic)</a></td><td>1st mythic tier</td><td style="white-space: normal;">Gain abilities from a second mythic path</td></tr>
+<tr class="even"><td><a href="#_extra-mythic-power-mythic">Extra Mythic Power (Mythic)</a></td><td>&mdash;</td><td style="white-space: normal;">Gain two extra uses of mythic power</td></tr>
+<tr class="odd"><td><a href="#_extra-path-ability-mythic">Extra Path Ability (Mythic)</a></td><td>3rd mythic tier</td><td style="white-space: normal;">Gain an extra path ability</td></tr>
+<tr class="even"><td><a href="#_fabulous-figments-mythic">Fabulous Figments (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (illusion)</td><td style="white-space: normal;">Non-mythic creatures can't identify your illusions</td></tr>
+<tr class="odd"><td><a href="#_legendary-teamwork-mythic">Legendary Teamwork (Mythic)</a></td><td>Any two teamwork feats</td><td style="white-space: normal;">Increase any fixed numeric bonuses to teamwork feats by 1</td></tr>
+<tr class="even"><td><a href="#_lucky-surge-mythic">Lucky Surge (Mythic)</a></td><td><a href="#_potent-surge-mythic">Potent Surge</a>, 3rd mythic tier</td><td style="white-space: normal;">Roll surge twice and take the highest result</td></tr>
+<tr class="odd"><td><a href="#_maximize-surge-mythic">Maximize Surge (Mythic)</a></td><td>6th mythic tier</td><td style="white-space: normal;">Expend use of mythic power to maximize surge</td></tr>
+<tr class="even"><td><a href="#_mythic-paragon-mythic">Mythic Paragon (Mythic)</a></td><td>&mdash;</td><td style="white-space: normal;">Your mythic tier is considered 2 higher when determining the potency of your mythic abilities</td></tr>
+<tr class="odd"><td><a href="#_mythic-spell-lore-mythic">Mythic Spell Lore (Mythic)</a></td><td>Ability to cast spells</td><td style="white-space: normal;">Gain mythic spells equal to your mythic tier</td></tr>
+<tr class="even"><td><a href="#_potent-surge-mythic">Potent Surge (Mythic)</a></td><td>&mdash;</td><td style="white-space: normal;">Add 1 to surge result</td></tr>
+<tr class="odd"><td><a href="#_titan-strike-mythic">Titan Strike (Mythic)</a></td><td><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-unarmed-strike">Improved Unarmed Strike</a></td><td style="white-space: normal;">Your unarmed strike deals damage as if you were one size category larger</td></tr>
+<tr class="even"><td><a href="#_two-fisted-drinker-mythic">Two-Fisted Drinker (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_quick-draw" >Quick Draw</a></td><td style="white-space: normal;">Draw two potions or drinks as a move action and drink both as a standard action</td></tr>
+<tr class="odd"><td><a href="#_valiant-vault-mythic">Valiant Vault (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, <a href="/pathfinderRPG/prd/feats.html#_ride-by-attack">Ride-By Attack</a>, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> 5 ranks</td><td style="white-space: normal;">When mount leaps over foes attack as you pass</td></tr>
+<thead><tr><th>Mythic Enhancement Feats</th><th>Prerequisites</th><th>Benefits</th></tr></thead>
+<tr class="even"><td><a href="#_accursed-hex-mythic">Accursed Hex (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_accursed-hex" >Accursed Hex</a></td><td style="white-space: normal;">Target <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_accursed-hex" >Accursed Hex</a> must roll second save twice and take lower result</td></tr>
+<tr class="odd"><td><a href="#_acrobatic-mythic">Acrobatic (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_acrobatic" >Acrobatic</a></td><td style="white-space: normal;">Gain an additional +2 bonus on <a href="/pathfinderRPG/prd/feats.html#_acrobatic" >Acrobatic</a> and <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a>, and expend mythic power to treat one of these checks as if you rolled a 20</td></tr>
+<tr class="even"><td><a href="#_alertness-mythic">Alertness (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a></td><td style="white-space: normal;">Gain an additional +2 bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks, and expend mythic power to treat one of these checks as if you rolled a 20</td></tr>
+<tr class="odd"><td><a href="#_alignment-channel-mythic">Alignment Channel (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_alignment-channel" >Alignment Channel</a></td><td style="white-space: normal;">Channeled energy effects creatures with the alignment you choose, not just the subtype</td></tr>
+<tr class="even"><td><a href="#_animal-affinity-mythic">Animal Affinity (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_animal-affinity" >Animal Affinity</a></td><td style="white-space: normal;">Gain an additional +2 bonus on <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> and <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> checks, and expend mythic power to use <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></td></tr>
+<tr class="odd"><td><a href="#_arcane-armor-training-mythic">Arcane Armor Training (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_arcane-armor-training" >Arcane Armor Training</a></td><td style="white-space: normal;">Gain the benefits of this feat without taking a swift action</td></tr>
+<tr class="even"><td><a href="#_arcane-blast-mythic">Arcane Blast (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_arcane-blast" >Arcane Blast</a></td><td style="white-space: normal;">Halve the damage to perform trip or bull rush</td></tr>
+<tr class="odd"><td><a href="#_arcane-shield-mythic">Arcane Shield (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_arcane-shield" >Arcane Shield</a></td><td style="white-space: normal;">Add 1/2 your mythic tier to the bonus granted by <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_arcane-shield" >Arcane Shield</a>, and expend mythic power to extend the shield's duration</td></tr>
+<tr class="even"><td><a href="#_arcane-strike-mythic">Arcane Strike (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_arcane-strike" >Arcane Strike</a></td><td style="white-space: normal;">Arcane strike lasts 1 minute, and expend mythic power to grant magic weapon special abilities</td></tr>
+<tr class="odd"><td><a href="#_aspect-of-the-beast-mythic">Aspect of the Beast (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_aspect-of-the-beast" >Aspect of the Beast</a></td><td style="white-space: normal;">Aspect manifests itself in new and powerful ways</td></tr>
+<tr class="even"><td><a href="#_athletic-mythic">Athletic (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_athletic" >Athletic</a></td><td style="white-space: normal;">Gain an additional +2 bonus on <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> and <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> checks, and expend mythic power to treat one of these checks as if you rolled a 20</td></tr>
+<tr class="odd"><td><a href="#_augment-summoning-mythic">Augment Summoning (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_augment-summoning" >Augment Summoning</a></td><td style="white-space: normal;">Summoned creatures are considered mythic</td></tr>
+<tr class="even"><td><a href="#_bleeding-critical-mythic">Bleeding Critical (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_bleeding-critical">Bleeding Critical</a>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_critical-focus">Critical Focus</a></td><td style="white-space: normal;">Bleed damage and the DC to staunch it increases by mythic tier</td></tr>
+<tr class="odd"><td><a href="#_blind-fight-mythic">Blind-Fight (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_blind-fight">Blind Fight</a></td><td style="white-space: normal;">Expend mythic power to ignore concealment miss chance</td></tr>
+<tr class="even"><td><a href="#_catch-off-guard-mythic">Catch Off-Guard (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_catch-off-guard" >Catch Off-Guard</a></td><td style="white-space: normal;">Add mythic tier to damage with improvised weapons</td></tr>
+<tr class="odd"><td><a href="#_channel-smite-mythic">Channel Smite (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_channel-smite" >Channel Smite</a></td><td style="white-space: normal;">Gain a bonus on attacks based on power of channel</td></tr>
+<tr class="even"><td><a href="#_charge-through-mythic">Charge Through (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_charge-through" >Charge Through</a></td><td style="white-space: normal;">Ignore allies and make overruns when you charge through</td></tr>
+<tr class="odd"><td><a href="#_cleave-mythic">Cleave (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_cleave">Cleave</a></td><td style="white-space: normal;">Make additional cleaves to any foes in reach regardless of position</td></tr>
+<tr class="even"><td><a href="#_combat-expertise-mythic">Combat Expertise (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a></td><td style="white-space: normal;">Gain an additional +2 dodge bonus and expend mythic power to reduce penalties</td></tr>
+<tr class="odd"><td><a href="#_combat-reflexes-mythic">Combat Reflexes (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a></td><td style="white-space: normal;">You can make any number of attacks of opportunity</td></tr>
+<tr class="even"><td><a href="#_command-undead-mythic">Command Undead (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_command-undead" >Command Undead</a></td><td style="white-space: normal;">Increase Will save by mythic tier when commanding undead</td></tr>
+<tr class="odd"><td><a href="#_critical-focus-mythic">Critical Focus (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a></td><td style="white-space: normal;">Automatically confirm critical hits against non-mythic foes and increased chance to bypass <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i></td></tr>
+<tr class="even"><td><a href="#_critical-mastery-mythic">Critical Mastery (Mythic)</a></td><td><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_critical-focus">Critical Focus</a>, <a href="/pathfinderRPG/prd/feats.html#_critical-mastery">Critical Mastery</a></td><td style="white-space: normal;">Deal additional critical feats based on mythic tier</td></tr>
+<tr class="odd"><td><a href="#_dastardly-finish-mythic">Dastardly Finish (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_dastardly-finish" >Dastardly Finish</a></td><td style="white-space: normal;">Coup de grace dazed and staggered non-mythic foes</td></tr>
+<tr class="even"><td><a href="#_dazzling-display-mythic">Dazzling Display (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_dazzling-display">Dazzling Display</a></td><td style="white-space: normal;">Use Dazzling Display faster and expend mythic power to frighten opponents</td></tr>
+<tr class="odd"><td><a href="#_deadly-aim-mythic">Deadly Aim (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a></td><td style="white-space: normal;">Increase damage bonus</td></tr>
+<tr class="even"><td><a href="#_deadly-stroke-mythic">Deadly Stroke (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_deadly-stroke">Deadly Stroke</a></td><td style="white-space: normal;">Expend mythic power to instantly kill non-mythic targets</td></tr>
+<tr class="odd"><td><a href="#_death-from-above-mythic">Death from Above (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_death-from-above" >Death from Above</a></td><td style="white-space: normal;">Increase critical threat modifier and make a trip combat maneuver when charging from above</td></tr>
+<tr class="even"><td><a href="#_deceitful-mythic">Deceitful (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_deceitful" >Deceitful</a></td><td style="white-space: normal;">Gain an additional +2 bonus on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> and <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a>, and expend mythic power to treat one of these checks as if you rolled a 20</td></tr>
+<tr class="odd"><td><a href="#_deepsight-mythic">Deepsight (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_deepsight" >Deepsight</a></td><td style="white-space: normal;">Darkvision increases by 10 ft. per mythic tier</td></tr>
+<tr class="even"><td><a href="#_defensive-combat-training-mythic">Defensive Combat Training (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_defensive-combat-training" >Defensive Combat Training</a>, 4th mythic tier</td><td style="white-space: normal;">Add 1/2 mythic tier to CMD</td></tr>
+<tr class="odd"><td><a href="#_deflect-arrows-mythic">Deflect Arrows (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_deflect-arrows">Deflect Arrows</a></td><td style="white-space: normal;">Deflect additional attacks, and expend mythic power to deflect rays</td></tr>
+<tr class="even"><td><a href="#_deft-hands-mythic">Deft Hands (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_deft-hand">Deft Hand</a></td><td style="white-space: normal;">Gain an additional +2 bonus on <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> and <a href="/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a>, and expend mythic power to treat one of these checks as if you rolled a 20</td></tr>
+<tr class="odd"><td><a href="#_detect-expertise-mythic">Detect Expertise (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_detect-expertise" >Detect Expertise</a></td><td style="white-space: normal;">Gain the benefit of <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_detect-expertise" >Detect Expertise</a> immediately</td></tr>
+<tr class="even"><td><a href="#_distruptive-mythic">Disruptive (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_disruptive" >Disruptive</a></td><td style="white-space: normal;">Increase the DC to cast spells defensively within your threatened area</td></tr>
+<tr class="odd"><td><a href="#_distance-thrower-mythic">Distance Thrower (Mythic)</a></td><td>Str 17, <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_distance-thrower" >Distance Thrower</a></td><td style="white-space: normal;">Throw weapons twice the normal range</td></tr>
+<tr class="even"><td><a href="#_divine-interference-mythic">Divine Interference (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_divine-interference" >Divine Interference</a></td><td style="white-space: normal;">Double or triple the penalty on your opponent's attack roll</td></tr>
+<tr class="odd"><td><a href="#_dodge-mythic">Dodge (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a></td><td style="white-space: normal;">Gain a +1 dodge bonus and expend mythic power to gain a +10 dodge bonus against one attack</td></tr>
+<tr class="even"><td><a href="#_dreadful-charge-mythic">Dreadful Carnage  (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_dreadful-carnage" >Dreadful Carnage</a></td><td style="white-space: normal;">Your carnage has a greater effect against non-mythic foes and expend mythic power to frighten foes</td></tr>
+<tr class="odd"><td><a href="#_eagle-eyes-mythic">Eagle Eyes (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_eagle-eyes" >Eagle Eyes</a></td><td style="white-space: normal;">Ignore <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> distance penalties</td></tr>
+<tr class="even"><td><a href="#_eldritch-heritage-mythic">Eldritch Heritage (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_eldritch-heritage" >Eldritch Heritage</a></td><td style="white-space: normal;">Gain increased bloodline powers</td></tr>
+<tr class="odd"><td><a href="#_elemental-channel-mythic">Elemental Channel (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_elemental-channel" >Elemental Channel</a></td><td style="white-space: normal;">Affect any elemental subtype</td></tr>
+<tr class="even"><td><a href="#_elemental-fist-mythic">Elemental Fist (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elemental-fist" >Elemental Fist</a></td><td style="white-space: normal;">Increase damage and frequency of <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elemental-fist" >Elemental Fist</a></td></tr>
+<tr class="odd"><td><a href="#_elemental-focus-mythic">Elemental Focus (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elemental-focus" >Elemental Focus</a></td><td style="white-space: normal;">Increase the DCs and expend mythic power to force opponents to roll twice and take the lowest result when saving against focus spells</td></tr>
+<tr class="even"><td><a href="#_elven-accuracy-mythic">Elven Accuracy (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elven-accuracy" >Elven Accuracy</a></td><td style="white-space: normal;">Ignore concealment with bows</td></tr>
+<tr class="odd"><td><a href="#_endurance-mythic">Endurance (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a></td><td style="white-space: normal;">Increase bonus on checks and saves based on mythic tier</td></tr>
+<tr class="even"><td><a href="#_eschew-materials-mythic">Eschew Materials (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_eschew-materials" >Eschew Materials</a></td><td style="white-space: normal;">Cast spells without need for costly material components</td></tr>
+<tr class="odd"><td><a href="#_far-shot-mythic">Far Shot (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_far-shot">Far Shot</a></td><td style="white-space: normal;">Expend mythic power to ignore range increments</td></tr>
+<tr class="even"><td><a href="#_fast-empathy-mythic">Fast Empathy (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_fast-empathy" >Fast Empathy</a></td><td style="white-space: normal;">Use wild empathy as a swift action</td></tr>
+<tr class="odd"><td><a href="#_fire-music-mythic">Fire Music (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_fire-music" >Fire Music</a></td><td style="white-space: normal;"><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_fire-music" >Fire Music</a> ignores fire resistance based on tier</td></tr>
+<tr class="even"><td><a href="#_fleet-mythic">Fleet (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_fleet" >Fleet</a></td><td style="white-space: normal;">Land speed increases by 5 feet regardless of armor or encumbrance</td></tr>
+<tr class="odd"><td><a href="#_furious-focus-mythic">Furious Focus (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_furious-focus" >Furious Focus</a></td><td style="white-space: normal;">Ignore <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a> penalties when using <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_furious-focus" >Furious Focus</a></td></tr>
+<tr class="even"><td><a href="#_gnome-trickster-mythic">Gnome Trickster (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_gnome-trickster" >Gnome Trickster</a></td><td style="white-space: normal;">Gain more spell-like abilities and use your gnome spell-like abilities more often</td></tr>
+<tr class="odd"><td><a href="#_gorgon's-fist-mythic">Gorgon's Fist (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_gorgon's-fist">Gorgon's Fist</a></td><td style="white-space: normal;">Daze target of your Gorgon's Fist attack</td></tr>
+<tr class="even"><td><a href="#_great-fortitude-mythic">Great Fortitude (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a></td><td style="white-space: normal;">Roll twice and take the higher result on Fort saves against a non-mythic source</td></tr>
+<tr class="odd"><td><a href="#_guided-hand-mythic">Guided Hand (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_guided-hand" >Guided Hand</a></td><td style="white-space: normal;">Apply Wisdom bonus instead of Strength or Dexterity bonus on favored weapon damage</td></tr>
+<tr class="even"><td><a href="#_heroic-defiance-mythic">Heroic Defiance (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_heroic-defiance" >Heroic Defiance</a></td><td style="white-space: normal;">Once per day, attempt to negate the onset of a harmful condition or affliction</td></tr>
+<tr class="odd"><td><a href="#_heroic-recovery-mythic">Heroic Recovery (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_heroic-recovery" >Heroic Recovery</a></td><td style="white-space: normal;">Expend mythic power to save again against a condition or affliction</td></tr>
+<tr class="even"><td><a href="#_improved-bull-rush-mythic">Improved Bull Rush (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_improved-bull-rush">Improved Bull Rush</a></td><td style="white-space: normal;">Gain a bonus on bull rush based on mythic tier</td></tr>
+<tr class="odd"><td><a href="#_improved-channel-mythic">Improved Channel (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_improved-channel" >Improved Channel</a></td><td style="white-space: normal;">Non-mythic creatures that take damage from your channel roll twice on their saves and take the lower result</td></tr>
+<tr class="even"><td><a href="#_improved-counterspell-mythic">Improved Counterspell (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_improved-counterspell" >Improved Counterspell</a></td><td style="white-space: normal;">Spells of the same school and equal or higher level can counterspell</td></tr>
+<tr class="odd"><td><a href="#_improved-critical-mythic">Improved Critical (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a>, base attack bonus +8</td><td style="white-space: normal;">Increase the critical multiplier by 1</td></tr>
+<tr class="even"><td><a href="#_improved-dirty-trick-mythic">Improved Dirty Trick (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_improved-dirty-trick" >Improved Dirty Trick</a></td><td style="white-space: normal;">Gain a bonus on dirty tricks based on mythic tier</td></tr>
+<tr class="odd"><td><a href="#_improved-disarm-mythic">Improved Disarm (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_improved-disarm">Improved Disarm</a></td><td style="white-space: normal;">Gain a bonus on disarms based on mythic tier</td></tr>
+<tr class="even"><td><a href="#_improved-drag-mythic">Improved Drag (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_improved-drag" >Improved Drag</a></td><td style="white-space: normal;">Gain a bonus on drags based on mythic tier</td></tr>
+<tr class="odd"><td><a href="#_improved-familiar-mythic">Improved Familiar (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_improved-familiar" >Improved Familiar</a></td><td style="white-space: normal;">Familiar's abilities improve based on mythic tier</td></tr>
+<tr class="even"><td><a href="#_improved-grapple-mythic">Improved Grapple (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_improved-grapple">Improved Grapple</a></td><td style="white-space: normal;">Gain a bonus on grapples based on mythic tier</td></tr>
+<tr class="odd"><td><a href="#_improved-initiative-mythic">Improved Initiative (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a></td><td style="white-space: normal;">Increase bonus by mythic tier</td></tr>
+<tr class="even"><td><a href="#_improved-overrun-mythic">Improved Overrun (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_improved-overrun">Improved Overrun</a></td><td style="white-space: normal;">Gain a bonus on overruns based on mythic tier</td></tr>
+<tr class="odd"><td><a href="#_improved-reposition-mythic">Improved Reposition (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_improved-reposition" >Improved Reposition</a></td><td style="white-space: normal;">Gain a bonus on repositions based on mythic tier</td></tr>
+<tr class="even"><td><a href="#_improved-steal-mythic">Improved Steal (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_improved-steal" >Improved Steal</a></td><td style="white-space: normal;">Gain a bonus on steals based on mythic tier</td></tr>
+<tr class="odd"><td><a href="#_improved-stonecunning-mythic">Improved Stonecunning (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_improved-stonecunnin" >Improved Stonecunning</a></td><td style="white-space: normal;">Gain <i><a href="/pathfinderRPG/prd/spells/stoneTell.html#_stone-tell" >stone tell</a></i> as a spell-like ability</td></tr>
+<tr class="even"><td><a href="#_improved-sunder-mythic">Improved Sunder (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_improved-sunder">Improved Sunder</a></td><td style="white-space: normal;">Gain a bonus on sunders based on mythic tier</td></tr>
+<tr class="odd"><td><a href="#_improved-trip-mythic">Improved Trip (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_improved-trip">Improved Trip</a></td><td style="white-space: normal;">Gain a bonus on trips based on mythic tier</td></tr>
+<tr class="even"><td><a href="#_improved-unarmed-strike-mythic">Improved Unarmed Strike (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a></td><td style="white-space: normal;">Gain a bonus to damage based on mythic tier and expend mythic power to overcome hardness</td></tr>
+<tr class="odd"><td><a href="#_intimidating-prowess-mythic">Intimidating Prowess (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_intimidating-prowess" >Intimidating Prowess</a></td><td style="white-space: normal;">Gain a bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> against non-mythic creatures based on mythic tier</td></tr>
+<tr class="even"><td><a href="#_iron-will-mythic">Iron Will (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a></td><td style="white-space: normal;">When you make a Will save from a non-mythic source, roll twice and take the higher result</td></tr>
+<tr class="odd"><td><a href="#_knockout-artist-mythic">Knockout Artist (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_knockout-artist" >Knockout Artist</a></td><td style="white-space: normal;">Use d8s for sneak attacks with unarmed strike nonlethal damage</td></tr>
+<tr class="even"><td><a href="#_lightning-reflexes-mythic">Lightning Reflexes (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a></td><td style="white-space: normal;">When making a Reflex save from a non-mythic source, roll twice and take the higher result</td></tr>
+<tr class="odd"><td><a href="#_lucky-halfling-mythic">Lucky Halfling (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_lucky-halflin" >Lucky Halfling</a></td><td style="white-space: normal;">Increase the bonus based on tier and expend mythic power to negate the effects of a successful save</td></tr>
+<tr class="even"><td><a href="#_lunge-mythic">Lunge (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a></td><td style="white-space: normal;">When you hit with lunge, don't take an AC penalty against that creature</td></tr>
+<tr class="odd"><td><a href="#_magical-aptitude-mythic">Magical Aptitude (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_magical-aptitude" >Magical Aptitude</a></td><td style="white-space: normal;">Gain an additional +2 bonus on <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> and <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a>, and expend mythic power to treat one of these checks as if you rolled a 20</td></tr>
+<tr class="even"><td><a href="#_manyshot-mythic">Manyshot (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_manyshot">Manyshot</a></td><td style="white-space: normal;">Fire two arrows with your first and second attack</td></tr>
+<tr class="odd"><td><a href="#_medusa's-wrath-mythic">Medusa's Wrath (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_medusa's-wrath">Medusa's Wrath</a></td><td style="white-space: normal;">Make a single attack to stagger your foe</td></tr>
+<tr class="even"><td><a href="#_missle-shield-mythic">Missile Shield (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_missile-shield" >Missile Shield</a></td><td style="white-space: normal;">Deflect a number of ranged attacks equal to 1/2 your mythic tier</td></tr>
+<tr class="odd"><td><a href="#_mobility-mythic">Mobility (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_mobility">Mobility</a></td><td style="white-space: normal;">Gain a +6 bonus instead of +4 and when an attack misses move 5 feet</td></tr>
+<tr class="even"><td><a href="#_monastic-legacy-mythic">Monastic Legacy (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_monastic-legacy" >Monastic Legacy</a></td><td style="white-space: normal;">Add 1/2 your non-monk class levels to determine AC bonus, and expend mythic power to increase your unarmed strike damage and AC bonus</td></tr>
+<tr class="odd"><td><a href="#_mounted-archery-mythic">Mounted Archery (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_mounted-archery">Mounted Archery</a></td><td style="white-space: normal;">When using your mount as cover, make a ranged weapon attack as a standard action</td></tr>
+<tr class="even"><td><a href="#_mounted-combat-mythic">Mounted Combat (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a></td><td style="white-space: normal;">Negate additional number of hits against your mount based on mythic tier</td></tr>
+<tr class="odd"><td><a href="#_mythic-crafter-mythic">Mythic Crafter (Mythic)</a></td><td>Any item creation feat</td><td style="white-space: normal;">Create mythic magic items</td></tr>
+<tr class="even"><td><a href="#_natural-spell-mythic">Natural Spell (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a></td><td style="white-space: normal;">Use spell completion and spell trigger items while in wild shape</td></tr>
+<tr class="odd"><td><a href="#_nimble-moves-mythic">Nimble Moves (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_nimble-moves" >Nimble Moves</a></td><td style="white-space: normal;">Ignore an amount of difficult terrain based on your tier</td></tr>
+<tr class="even"><td><a href="#_penetrating-strike-mythic">Penetrating Strike (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_penetrating-strike">Penetrating Strike</a></td><td style="white-space: normal;">Ignore additional DR based on mythic tier</td></tr>
+<tr class="odd"><td><a href="#_persuasive-mythic">Persuasive (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_persuasive" >Persuasive</a></td><td style="white-space: normal;">Gain an additional +2 bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> and <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a>, and expend mythic power to treat one of these checks as if you rolled a 20</td></tr>
+<tr class="even"><td><a href="#_pinpoint-targeting-mythic">Pinpoint Targeting (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_pinpoint-targeting">Pinpoint Targeting</a></td><td style="white-space: normal;">Use Pinpoint Targeting even when you move</td></tr>
+<tr class="odd"><td><a href="#_point-blank-shot-mythic">Point-Blank Shot (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a></td><td style="white-space: normal;">Gain greater bonuses with <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a></td></tr>
+<tr class="even"><td><a href="#_power-attack-mythic">Power Attack (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a></td><td style="white-space: normal;"><a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a> damage increases based on tier</td></tr>
+<tr class="odd"><td><a href="#_powerful-shape-mythic">Powerful Shape (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_powerful-shape" >Powerful Shape</a></td><td style="white-space: normal;">Apply the giant simple template to wild shape</td></tr>
+<tr class="even"><td><a href="#_prophetic-visionary-mythic">Prophetic Visionary (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_prophetic-visionary" >Prophetic Visionary</a></td><td style="white-space: normal;">Use <i><a href="/pathfinderRPG/prd/spells/augury.html#_augury" >augury</a></i> at will</td></tr>
+<tr class="odd"><td><a href="#_quick-draw-mythic">Quick Draw (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_quick-draw" >Quick Draw</a></td><td style="white-space: normal;">Draw any item as a free action, expend mythic power to draw two items</td></tr>
+<tr class="even"><td><a href="#_racial-heritage-mythic">Racial Heritage (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_racial-heritage" >Racial Heritage</a></td><td style="white-space: normal;">Gain a single racial trait of your choice</td></tr>
+<tr class="odd"><td><a href="#_rapid-reload-mythic">Rapid Reload (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_rapid-reload" >Rapid Reload</a></td><td style="white-space: normal;">Reload all weapons faster</td></tr>
+<tr class="even"><td><a href="#_rapid-shot-mythic">Rapid Shot (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_rapid-shot">Rapid Shot</a></td><td style="white-space: normal;">Ignore the &ndash;2 penalty or make two additional attacks</td></tr>
+<tr class="odd"><td><a href="#_rhetorical-flourish-mythic">Rhetorical Flourish (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_rhetorical-flourish" >Rhetorical Flourish</a></td><td style="white-space: normal;">Increase the bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks based on mythic tier</td></tr>
+<tr class="even"><td><a href="#_ride-by-attack-mythic">Ride-By Attack (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_ride-by-attack">Ride-By Attack</a></td><td style="white-space: normal;">Make additional attacks against successive targets after you hit</td></tr>
+<tr class="odd"><td><a href="#_run-mythic">Run (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_run" >Run</a></td><td style="white-space: normal;"><a href="/pathfinderRPG/prd/feats.html#_run" >Run</a> faster and for longer</td></tr>
+<tr class="even"><td><a href="#_saving-shield-mythic">Saving Shield (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_saving-shield" >Saving Shield</a></td><td style="white-space: normal;">When you negate an attack, make attack of opportunity against attacker</td></tr>
+<tr class="odd"><td><a href="#_scorpion-style-mythic">Scorpion Style (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_scorpion-style">Scorpion Style</a></td><td style="white-space: normal;">Add mythic tier to duration or <i><a href="/pathfinderRPG/prd/spells/slow.html#_slow" >slow</a></i> your target</td></tr>
+<tr class="even"><td><a href="#_selective-channeling-mythic">Selective Channeling (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_selective-channeling" >Selective Channeling</a></td><td style="white-space: normal;">Increase the power of your channel based on the number of creatures excluded</td></tr>
+<tr class="odd"><td><a href="#_self-sufficient-mythic">Self-Sufficient (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_self-sufficient" >Self-Sufficient</a></td><td style="white-space: normal;">Gain an additional +2 bonus on <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> and <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a>, and expend mythic power to treat one of these checks as if you rolled a 20</td></tr>
+<tr class="even"><td><a href="#_shatter-defenses-mythic">Shatter Defenses (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_shatter-defenses">Shatter Defenses</a></td><td style="white-space: normal;">Target is flat-footed to all attacks</td></tr>
+<tr class="odd"><td><a href="#_shield-focus-mythic">Shield Focus (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_shield-focus">Shield Focus</a></td><td style="white-space: normal;">Add shield bonus and shield's enhancement's bonus to touch AC</td></tr>
+<tr class="even"><td><a href="#_shield-slam-mythic">Shield Slam (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_shield-slam">Shield Slam</a></td><td style="white-space: normal;">Those knocked into walls or other barriers take additional damage</td></tr>
+<tr class="odd"><td><a href="#_shot-on-the-run-mythic">Shot on the Run (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_shot-on-the-run">Shot on the Run</a></td><td style="white-space: normal;">Make two attacks during a move instead of one</td></tr>
+<tr class="even"><td><a href="#_skill-focus-mythic">Skill Focus (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a></td><td style="white-space: normal;">Always take 10 or 20 even when rushed or threatened</td></tr>
+<tr class="odd"><td><a href="#_snatch-arrows-mythic">Snatch Arrows (Mythic)</a></td><td><a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_snatch" >Snatch</a> Arrows</td><td style="white-space: normal;">Use snatched thrown weapons as immediate attack melee weapons</td></tr>
+<tr class="even"><td><a href="#_sociable-mythic">Sociable (Mythic)</a></td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_sociable" >Sociable</a></td><td style="white-space: normal;">Increase the bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or gain the normal bonus without an action</td></tr>
+<tr class="odd"><td><a href="#_spell-focus-mythic">Spell Focus (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a></td><td style="white-space: normal;">Increase the DC of <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> and Greater <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a></td></tr>
+<tr class="even"><td><a href="#_spell-mastery-mythic">Spell Mastery (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_spell-mastery" >Spell Mastery</a></td><td style="white-space: normal;">Prepare selected spells as a full-round action</td></tr>
+<tr class="odd"><td><a href="#_spell-penetration-mythic">Spell Penetration (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_spell-penetration" >Spell Penetration</a></td><td style="white-space: normal;">Add 1/2 mythic tier to level checks to overcome spell resistance</td></tr>
+<tr class="even"><td><a href="#_spellbreaker-mythic">Spellbreaker (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_spellbreaker">Spellbreaker</a></td><td style="white-space: normal;">Non-mythic casters provoke attacks of opportunity when casting defensively</td></tr>
+<tr class="odd"><td><a href="#_spirited-charge-mythic">Spirited Charge (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_spirited-charge">Spirited Charge</a></td><td style="white-space: normal;">Stagger those your mount charges</td></tr>
+<tr class="even"><td><a href="#_spontaneous-metafocus-mythic">Spontaneous Metafocus (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_spontaneous-metafocus" >Spontaneous Metafocus</a></td><td style="white-space: normal;">Change the spells of your metafocus each morning</td></tr>
+<tr class="odd"><td><a href="#_spring-attack-mythic">Spring Attack (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_spring-attack">Spring Attack</a>, base attack bonus +6</td><td style="white-space: normal;">Make first attack before moving</td></tr>
+<tr class="even"><td><a href="#_stealthy-mythic">Stealthy (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_stealthy" >Stealthy</a></td><td style="white-space: normal;">Gain an additional +2 bonus on <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> and <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a>, and expend mythic power to treat one of these checks as if you rolled a 20</td></tr>
+<tr class="odd"><td><a href="#_strike-back-mythic">Strike Back (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_strike-back" >Strike Back</a></td><td style="white-space: normal;">Move toward the subject of your readied action attack</td></tr>
+<tr class="even"><td><a href="#_strong-comeback-mythic">Strong Comeback (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_strong-comeback" >Strong Comeback</a></td><td style="white-space: normal;">When rerolling, roll twice and take the higher result</td></tr>
+<tr class="odd"><td><a href="#_stunning-fist-mythic">Stunning Fist (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_stunning-fist">Stunning Fist</a></td><td style="white-space: normal;">Increase the DC of Stunning Fist based on mythic tier</td></tr>
+<tr class="even"><td><a href="#_throw-anything-mythic">Throw Anything (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_throw-anything" >Throw Anything</a></td><td style="white-space: normal;">Gain a +2 bonus on attack and damage rolls with improvised thrown weapons and splash weapons</td></tr>
+<tr class="odd"><td><a href="#_toughness-mythic">Toughness (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a></td><td style="white-space: normal;">Gain twice as many hit points, and gain DR 10/epic below 0 hit points</td></tr>
+<tr class="even"><td><a href="#_trample-mythic">Trample (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_trample">Trample</a></td><td style="white-space: normal;">Mount can make two hoof attacks instead of one</td></tr>
+<tr class="odd"><td><a href="#_tripping-staff-mythic">Tripping Staff (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_tripping-staff" >Tripping Staff</a></td><td style="white-space: normal;">Your CMD against trips is increased based on tier and those who trip you and fail provoke an attack of opportunity from you</td></tr>
+<tr class="even"><td><a href="#_turn-undead-mythic">Turn Undead (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_turn-undead" >Turn Undead</a></td><td style="white-space: normal;">Turning range increases by tier, and you can use <a href="/pathfinderRPG/prd/feats.html#_turn-undead" >Turn Undead</a> to destroy undead</td></tr>
+<tr class="odd"><td><a href="#_two-weapon-defense-mythic">Two-Weapon Defense (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_two-weapon-defense">Two-Weapon Defense</a></td><td style="white-space: normal;">Apply the enhancement bonus from your weapons to your shield bonus</td></tr>
+<tr class="even"><td><a href="#_two-weapon-fighting-mythic">Two-Weapon Fighting (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a></td><td style="white-space: normal;">Expend mythic power to negate penalties</td></tr>
+<tr class="odd"><td><a href="#_two-weapon-rend-mythic">Two-Weapon Rend (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_two-weapon-rend">Two-Weapon Rend</a></td><td style="white-space: normal;">Rend damage increases to 2d8 plus twice Strength modifier</td></tr>
+<tr class="even"><td><a href="#_undead-master-mythic">Undead Master (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_undead-master" >Undead Master</a></td><td style="white-space: normal;">Add your mythic tier to your caster level to determine number of undead animated</td></tr>
+<tr class="odd"><td><a href="#_unseat-mythic">Unseat (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_unseat">Unseat</a></td><td style="white-space: normal;">When unseated, your target takes falling damage based on tier</td></tr>
+<tr class="even"><td><a href="#_vital-strike-mythic">Vital Strike (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></td><td style="white-space: normal;">Multiply all damage when you <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></td></tr>
+<tr class="odd"><td><a href="#_voice-of-the-sibyl-mythic">Voice of the Sibyl (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_voice-of-the-sibyl" >Voice of the Sibyl</a></td><td style="white-space: normal;">Increase <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, and <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (oratory) skill bonus based on mythic tier</td></tr>
+<tr class="even"><td><a href="#_warrior-priest-mythic">Warrior Priest (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_warrior-priest" >Warrior Priest</a></td><td style="white-space: normal;">Increase bonus on initiative and concentration checks based on mythic tier</td></tr>
+<tr class="odd"><td><a href="#_weapon-finesse-mythic">Weapon Finesse (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></td><td style="white-space: normal;">Use Dexterity modifier on both attack and damage rolls</td></tr>
+<tr class="even"><td><a href="#_weapon-focus-mythic">Weapon Focus (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a></td><td style="white-space: normal;">Double the bonuses on attack rolls and expend mythic power to gain a higher bonus</td></tr>
+<tr class="odd"><td><a href="#_weapon-specialization-mythic">Weapon Specialization (Mythic)</a></td><td><a href="/pathfinderRPG/prd/feats.html#_weapon-specialization">Weapon Specialization</a></td><td style="white-space: normal;">Increase bonus to damage rolls based on mythic tier</td></tr>
+<tr class="even"><td><a href="#_witch-knife-mythic">Witch Knife (Mythic)</a></td><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_witch-knife" >Witch Knife</a></td><td style="white-space: normal;">Use your witch knife as a focus for all spells, not just patron spells</td></tr>
+</table></div>
+
+<h2 id="feat-descriptions">Feat Descriptions</h2>
+<p>Mythic feats are summarized in the table below. Note that the prerequisites and benefits of the feats on this table are abbreviated for ease of reference. See the feat descriptions for full details.</p>
+<p>The following format is used for all feat descriptions.</p>
+<p><b>Feat Name</b>: The feat's name also indicates what category, if any, the feat belongs to, and is followed by a basic description of what the feat does.</p>
+<p><b>Prerequisite</b>: A minimum ability score, another feat or feats, a minimum base attack bonus, a minimum number of ranks in one or more skills, or anything else required in order to take the feat. This entry is absent if a feat has no prerequisite. A feat may have more than one prerequisite. Being a mythic character or monster is always a prerequisite for a mythic feat.</p>
+<p><b>Benefit</b>: What the feat enables the character ("you" in the feat description) to do. If a character has the same feat more than once, its benefits do not stack unless indicated otherwise in the description.</p>
+<p><b>Normal</b>: What a character who does not have this feat is limited to or restricted from doing. If not having the feat causes no particular drawback, this entry is absent.</p>
+<p><b>Special</b>: Additional unusual facts about the feat.</p>
+
+<p class="stat-block-title" id="accursed-hex-mythic">Accursed Hex (Mythic)</p>
+<p class="stat-block-1">Your hexes flare with persistent potency.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_accursed-hex" >Accursed Hex</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you use <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_accursed-hex" >Accursed Hex</a> to target a creature with one of your hexes a second time, that creature must roll its saving throw twice and take the lower result.</p>
+
+<p class="stat-block-title" id="acrobatic-mythic">Acrobatic (Mythic)</p>
+<p class="stat-block-1">Your grace and fluidity are beyond compare.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_acrobatic" >Acrobatic</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> and <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> skill checks from <a href="/pathfinderRPG/prd/feats.html#_acrobatic" >Acrobatic</a> increases by 2. In addition, you can expend one use of mythic power to treat an <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> or <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> check as if you had rolled a natural 20. You must decide to use this ability before making the roll.</p>
+
+<p class="stat-block-title" id="alertness-mythic">Alertness (Mythic)</p>
+<p class="stat-block-1">Your powers of perception surpass everyone's, whether used to observe your surroundings or the intentions of others.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> skill checks from <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a> increases by 2. In addition, you can expend one use of mythic power to treat a <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> or <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> check as if you had rolled a natural 20. You must decide to use this ability before making the roll.</p>
+
+<p class="stat-block-title" id="alignment-channel-mythic">Alignment Channel (Mythic)</p>
+<p class="stat-block-1">The power of your faith harms all creatures that follow the alignment you abhor.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_alignment-channel" >Alignment Channel</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your channeled energy affects any creatures with the alignment chosen when you took <a href="/pathfinderRPG/prd/feats.html#_alignment-channel" >Alignment Channel</a> (not just outsiders, and not just those with the alignment subtype), but grants only half healing or deals only half damage to these targets. Alternatively, you can expend two uses of mythic power when using <a href="/pathfinderRPG/prd/feats.html#_alignment-channel" >Alignment Channel</a> to affect all targets of the chosen alignment as if they had that alignment subtype.</p>
+
+<p class="stat-block-title" id="animal-affinity-mythic">Animal Affinity (Mythic)</p>
+<p class="stat-block-1">You have a greater affinity with wild animals, and can speak with them.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_animal-affinity" >Animal Affinity</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The bonus on <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> and <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> skill checks from <a href="/pathfinderRPG/prd/feats.html#_animal-affinity" >Animal Affinity</a> increases by 2. In addition, you can expend one use of mythic power to <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a> </i>as the spell. Your caster level for this effect is equal to twice your tier.</p>
+
+<p class="stat-block-title" id="arcane-armor-training-mythic">Arcane Armor Training (Mythic)</p>
+<p class="stat-block-1">You've adapted your spellcasting to overcome limitations of wearing armor.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_arcane-armor-training" >Arcane Armor Training</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You don't have to spend a swift action to gain the reduction to arcane spell failure chance from <a href="/pathfinderRPG/prd/feats.html#_arcane-armor-training" >Arcane Armor Training</a>. Furthermore, if you're wearing light armor, reduce your arcane spell failure chance by 20%.</p>
+
+<p class="stat-block-title" id="arcane-blast-mythic">Arcane Blast (Mythic)</p>
+<p class="stat-block-1">You can manipulate raw eldritch energies to do more than just deal damage.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_arcane-blast" >Arcane Blast</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you use <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_arcane-blast" >Arcane Blast</a>, you may halve the damage dice to also perform your choice of either a trip or bull rush combat maneuver against the target of the blast. You can't move with an opponent you bull rush with this feat. You gain a bonus on your combat maneuver check for this attempt equal to half the spell level of the spell you sacrificed when using <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_arcane-blast" >Arcane Blast</a>, and you can substitute your Intelligence or Charisma modifier in place of your Strength modifier when determining your combat maneuver bonus.</p>
+<p class="stat-block-1">In addition, you can expend one use of mythic power to change the damage dice of your <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_arcane-blast" >Arcane Blast</a> to d8s instead of d6s.</p>
+
+<p class="stat-block-title" id="arcane-shield-mythic">Arcane Shield (Mythic)</p>
+<p class="stat-block-1">You sculpt spells into a powerful, enduring arcane barriers.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_arcane-shield" >Arcane Shield</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You add half your tier to the deflection bonus granted to your AC when you use your <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_arcane-shield" >Arcane Shield</a>. You can expend one use of mythic power when using this feat to extend the duration to a number of rounds equal to your tier.</p>
+
+<p class="stat-block-title" id="arcane-strike-mythic">Arcane Strike (Mythic)</p>
+<p class="stat-block-1">Using your amazing arcane talents, you can deliver devastating blows infused with magical energy.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_arcane-strike" >Arcane Strike</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you use <a href="/pathfinderRPG/prd/feats.html#_arcane-strike" >Arcane Strike</a> to enhance your weapons, the effect lasts for 1 minute instead of 1 round. If you expend one use of mythic power when using <a href="/pathfinderRPG/prd/feats.html#_arcane-strike" >Arcane Strike</a>, you can also add any one magic weapon special ability with a base price modifier of +1 to your weapons. This base price modifier increases to +2 at 4th tier, +3 at 7th tier, and +4 at 10th tier.</p>
+
+<p class="stat-block-title" id="ascendant-spell-metamagic">Ascendant Spell (Metamagic)</p>
+<p class="stat-block-1">You have learned how to emulate mythic spells using non-mythic forces.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can modify a spell to imitate the mythic version of that spell. An ascendant spell uses the mythic version of the spell, but doesn't count as a mythic spell for the purposes of effects that interact with the spell, unless you are a mythic creature. You can't use the augmented version of the mythic spell, or use spells effects that require you to expend uses of mythic power (even if you have uses of mythic power available).</p>
+<p class="stat-block-1">An ascendant spell uses up a spell slot 5 levels higher than the spell's actual level.</p>
+
+<p class="stat-block-title" id="aspect-of-the-beast-mythic">Aspect of the Beast (Mythic)</p>
+<p class="stat-block-1">Your blood burns with savage fury, giving you bestial powers and abilities.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_aspect-of-the-beast" >Aspect of the Beast</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your bestial nature manifests itself in one of the following ways. You choose the manifestation when you choose the feat, and you can't change it.</p>
+<p class="stat-block-2" id="mythic-senses"><i>Mythic Senses (Ex)</i>: If you have normal vision, you gain darkvision 30 feet. If you have low-light vision, you gain darkvision 60 feet. If you have darkvision, the range of your darkvision increases by 30 feet plus 10 feet per tier.</p>
+<p class="stat-block-2" id="mythic-claws"><i>Mythic Claws (Ex)</i>: You grow a pair of powerful claws. These claws are primary attacks that deal 1d4 points of damage (1d3 if you're Small). If you already have claws, the damage they deal increases by one die type (d4s become d6s, d3s become d4s, and so on). You can expend one use of mythic power when you hit with both claws during the same round to rend with those claws, dealing extra damage equal to one claw's damage plus 1-1/2 times your Strength bonus.</p>
+<p class="stat-block-2" id="mythic-leap"><i>Mythic Leap (Ex)</i>: You can make a running jump without needing to run 10 feet beforehand. In addition, you gain a +5 bonus on your <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks to determine the success of that jump and the distance covered. If you already have the predator's leap manifestation of <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_aspect-of-the-beast" >Aspect of the Beast</a>, the bonus on your <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks increases to +10.</p>
+<p class="stat-block-2" id="mythic-instinct"><i>Mythic Instinct (Ex)</i>: You gain a +2 bonus on initiative checks and a +2 bonus on <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks. These bonuses stack with those gained from the wild instinct manifestation of <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_aspect-of-the-beast" >Aspect of the Beast</a>.</p>
+
+<p class="stat-block-title" id="athletic-mythic">Athletic (Mythic)</p>
+<p class="stat-block-1">You excel far beyond others at acts of physical prowess.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_athletic" >Athletic</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The bonus on <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> and <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> skill checks from <a href="/pathfinderRPG/prd/feats.html#_athletic" >Athletic</a> increases by 2. In addition, you can expend one use of mythic power to treat a <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> or <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> check as if you had rolled a natural 20. You must decide to use this ability before making the roll.</p>
+
+<p class="stat-block-title" id="augment-summoning-mythic">Augment Summoning (Mythic)</p>
+<p class="stat-block-1">Your summoning spells bring not mere ordinary beasts, but instead mythic creatures.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_augment-summoning" >Augment Summoning</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Any creature you summon using a summon spell is considered mythic for the purpose of interacting with other mythic creatures. It doesn't gain any mythic abilities or power, but is affected by mythic spells and abilities as if it were a 1st-tier mythic creature. Additionally, if the creature summoned has damage reduction, its damage reduction becomes DR/epic.<span class="hyperlink char-style-override-18"></span></p>
+
+<p class="stat-block-title" id="bleeding-critical-mythic">Bleeding Critical (Mythic)</p>
+<p class="stat-block-1">Your deadliest blows unleash rivers of blood.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_bleeding-critical">Bleeding Critical</a>, <a href="#_critical-focus-mythic" >Critical Focus</a> (mythic).</p>
+<p class="stat-block-1"><b>Benefit</b>: The bleed damage dealt with Bleeding Critical increases by your tier. Stopping this bleed damage requires a <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> check with a DC equal to 15 + 1/2 your tier. Any magical healing ends the bleed damage normally.</p>
+<p class="stat-block-1">You can expend one use of mythic power to deal 1 Con bleed, in addition to the hit point bleed damage you deal with this feat. This effect increases by 1 for each additional use of mythic power you expend.</p>
+
+<p class="stat-block-title" id="blind-fight-mythic">Blind-Fight (Mythic)</p>
+<p class="stat-block-1">No creature can avoid your preternatural senses.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: As a swift action, you can expend one use of mythic power to ignore all miss chances due to concealment or total concealment for a number of rounds equal to your tier.</p>
+
+<p class="stat-block-title" id="catch-off-guard-mythic">Catch Off-Guard (Mythic)</p>
+<p class="stat-block-1">In your hands, anything is a deadly weapon.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_catch-off-guard" >Catch Off-Guard</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The damage dealt when you use improvised weapons increases by your tier. You also gain a bonus to CMD equal to your tier when an opponent attempts to sunder or disarm an improvised weapon you're wielding.</p>
+
+<p class="stat-block-title" id="channel-smite-mythic">Channel Smite (Mythic)</p>
+<p class="stat-block-1">Your weapon a conduit of divine energy.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_channel-smite" >Channel Smite</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When using <a href="/pathfinderRPG/prd/feats.html#_channel-smite" >Channel Smite</a>, you gain a bonus on your attack roll equal to the number of d6s granted by your channel energy class feature. This is either a sacred bonus (if channeling positive energy) or a profane bonus (if channeling negative energy). If your attack misses the target, you can expend one use of mythic power as a free action to release the channeled energy, producing the normal effects of your channel energy class feature centered on the creature you were attempting to smite.</p>
+
+<p class="stat-block-title" id="charge-through-mythic">Charge Through (Mythic)</p>
+<p class="stat-block-1">You can plow through those who stand between you and the target of your charge.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_charge-through" >Charge Through</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When charging, you can ignore allies in your path when determining whether or not you can charge your target. Furthermore, after you have attempted at least one overrun with <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_charge-through" >Charge Through</a>, you can expend one use of mythic power as a free action to attempt another overrun against a different opponent in the path of the same charge.</p>
+
+<p class="stat-block-title" id="cleave-mythic">Cleave (Mythic)</p>
+<p class="stat-block-1">You can cleave any foe within your reach.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_cleave">Cleave</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you use Cleave or <a href="/pathfinderRPG/prd/feats.html#_great-cleave">Great Cleave</a>, one of your attacks can be made against a foe that is within your reach, but not adjacent to the foe you attacked. You can expend one use of mythic power when you use Cleave or Great Cleave to continue making attacks against foes within your reach, regardless of their position, as long as you continue to hit each foe. You can't use this ability to attack a foe more than once per round.</p>
+
+<p class="stat-block-title" id="combat-expertise-mythic">Combat Expertise (Mythic)</p>
+<p class="stat-block-1">You can dart out of the way of attacks with skill and defiance.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you use <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, you gain an additional +2 dodge bonus to your Armor Class. You can expend one use of mythic power to negate the penalties on melee attack rolls and combat maneuver checks caused by using <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a> for 1 minute.</p>
+
+<p class="stat-block-title" id="combat-reflexes-mythic">Combat Reflexes (Mythic)</p>
+<p class="stat-block-1">You strike viciously whenever your foe gives you an opening.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can make any number of additional attacks of opportunity per round. As a swift action, you can expend one use of mythic power to, until the start of your next turn, make attacks of opportunity against foes you've already made attacks of opportunity against this round if they provoke attacks of opportunity from you by moving.</p>
+
+<p class="stat-block-title" id="command-undead-mythic">Command Undead (Mythic)</p>
+<p class="stat-block-1">Your control of the undead is nearly absolute.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_command-undead" >Command Undead</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you command undead, the DC of the Will save increases by half your tier, and intelligent undead get no additional saves beyond their first to resist your commands. Any attempts by non-mythic creatures to control undead you command automatically fail, and you gain a +4 bonus on Charisma checks to prevent mythic creatures from stealing control of your undead.</p>
+
+<p class="stat-block-title" id="critical-focus-mythic">Critical Focus (Mythic)</p>
+<p class="stat-block-1">Your blows unerringly find your target's vital spots.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You automatically confirm critical threats against non-mythic opponents. In addition, when you threaten a critical hit against a creature wearing armor with the <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i> special ability or similar effect, that creature must roll twice and take the worse result when determining critical hit negation.</p>
+
+<p class="stat-block-title" id="critical-mastery-mythic">Critical Mastery (Mythic)</p>
+<p class="stat-block-1">Your critical hits are versatile and devastating.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="#_critical-focus-mythic" >Critical Focus</a> (mythic), <a href="/pathfinderRPG/prd/feats.html#_critical-mastery">Critical Mastery</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When using Critical Mastery, increase the number of critical feats you may apply by every 3 tiers that you possess.</p>
+
+<p class="stat-block-title" id="dastardly-finish-mythic">Dastardly Finish (Mythic)</p>
+<p class="stat-block-1">You strike downed, dazed, and staggered opponents with deadly efficiency.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_dastardly-finish" >Dastardly Finish</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can deliver a coup de grace to dazed and staggered non-mythic opponents. In addition, when any creature makes a Fortitude saving throw to survive one of your coup de grace attempts, it takes a penalty to that saving throw equal to your tier.</p>
+
+<p class="stat-block-title" id="dazzling-display-mythic">Dazzling Display (Mythic)</p>
+<p class="stat-block-1">You can quickly deter others with your martial mastery.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_dazzling-display">Dazzling Display</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: While wielding the weapon with which you have <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a>, you can use Dazzling Display as a standard action with a &ndash;5 penalty on your <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> check, as a move action with a &ndash;10 penalty, or as a swift action with a &ndash;20 penalty. You can expend one use of mythic power when you make a Dazzling Display to make those affected by the display frightened rather than shaken.</p>
+
+<p class="stat-block-title" id="deadly-aim-mythic">Deadly Aim (Mythic)</p>
+<p class="stat-block-1">Your aim is truly devastating.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you use <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, you gain a +3 bonus on ranged damage rolls instead of +2. When your base attack bonus reaches +4, and every +4 thereafter, the bonus on ranged damage rolls increases by +3 rather than +2.</p>
+
+<p class="stat-block-title" id="deadly-stroke-mythic">Deadly Stroke (Mythic)</p>
+<p class="stat-block-1">You can kill with a single stroke.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_deadly-stroke">Deadly Stroke</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When making a Deadly Stroke attack, you can expend one use of mythic power to instantly kill a non-mythic living creature. A Fortitude save (DC 10 + your base attack bonus + your tier) negates this effect, though the attack still deals double damage and Con bleed as Deadly Stroke. Constructs, oozes, and creatures immune to critical hits or precision-based damage can't be killed with this feat.</p>
+
+<p class="stat-block-title" id="death-from-above-mythic">Death from Above (Mythic)</p>
+<p class="stat-block-1">When attacking from the air or higher ground, you bear down on your enemy to deadly effect.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_death-from-above" >Death from Above</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you charge an opponent from higher ground, or from above while flying, the critical multiplier of your weapon increases by 2 (to a maximum of &times;6). This doesn't stack with other abilities that increase a weapon's critical multiplier. If your charge attack hits, you can perform a trip combat maneuver against the attack's target as a free action without provoking attacks of opportunity.</p>
+
+<p class="stat-block-title" id="deceitful-mythic">Deceitful (Mythic)</p>
+<p class="stat-block-1">Your power to mislead is beyond compare.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_deceitful" >Deceitful</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The bonus on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> and <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> skill checks from <a href="/pathfinderRPG/prd/feats.html#_deceitful" >Deceitful</a> increases by 2. In addition, you can expend one use of mythic power to treat a <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> or <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> check as if you had rolled a natural 20. You must decide to use this ability before making the roll.</p>
+
+<p class="stat-block-title" id="deepsight-mythic">Deepsight (Mythic)</p>
+<p class="stat-block-1">Your sharp eyes can penetrate deeper into the darkness, revealing more to you.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_deepsight" >Deepsight</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The range of your darkvision increases by 10 feet per tier.</p>
+
+<p class="stat-block-title" id="defensive-combat-training-mythic">Defensive Combat Training (Mythic)</p>
+<p class="stat-block-1">Your defensive capabilities in combat are unmatched.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_defensive-combat-training" >Defensive Combat Training</a>, 4th mythic tier.</p>
+<p class="stat-block-1"><b>Benefit</b>: Add half your tier to your CMD.</p>
+
+<p class="stat-block-title" id="deflect-arrows-mythic">Deflect Arrows (Mythic)</p>
+<p class="stat-block-1">You deflect projectiles and ray spells with uncanny skill.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_deflect-arrows">Deflect Arrows</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When using Deflect Arrows, you can deflect an additional number of ranged attacks per round equal to half your tier. You can expend one use of mythic power as an immediate action to deflect a single ray from a ray spell or effect targeting you.</p>
+
+<p class="stat-block-title" id="deft-hands-mythic">Deft Hands (Mythic)</p>
+<p class="stat-block-1">Your hands are astonishingly nimble.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_deft-hands" >Deft Hands</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The bonus on <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> and <a href="/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> skill checks from <a href="/pathfinderRPG/prd/feats.html#_deft-hands" >Deft Hands</a> increases by 2. In addition, you can expend one use of mythic power to treat a <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> or <a href="/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> check as if you had rolled a natural 20. You must decide to use this ability before making the roll.</p>
+
+<p class="stat-block-title" id="detect-expertise-mythic">Detect Expertise (Mythic)</p>
+<p class="stat-block-1">You can sense a creature's magical abilities with just a mere glance.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_detect-expertise" >Detect Expertise</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain the benefit of <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_detect-expertise" >Detect Expertise</a> immediately (without needing to observe a creature for 3 rounds) when using the divinations listed in <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_detect-expertise" >Detect Expertise</a>. Non-mythic creatures cannot attempt a Will save to resist this effect.</p>
+
+<p class="stat-block-title" id="disruptive-mythic">Disruptive (Mythic)</p>
+<p class="stat-block-1">You're a master at disrupting nearby spellcasters.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_disruptive" >Disruptive</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The DC to cast spells defensively within your threatened area increases by half your tier. This stacks with the increase granted by <a href="/pathfinderRPG/prd/feats.html#_disruptive" >Disruptive</a>. In addition, even if you can't make attacks of opportunity, non-mythic spellcasters are still wary of you and continue to suffer from the effects of <a href="/pathfinderRPG/prd/feats.html#_disruptive" >Disruptive</a>.</p>
+
+<p class="stat-block-title" id="distance-thrower-mythic">Distance Thrower (Mythic)</p>
+<p class="stat-block-1">There's virtually no limit to your powerful throwing arm.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Str 17, <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_distance-thrower" >Distance Thrower</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Thrown weapons wielded by you have twice their normal range.</p>
+
+<p class="stat-block-title" id="divine-interference-mythic">Divine Interference (Mythic)</p>
+<p class="stat-block-1">Your divine power thwarts enemies of your faith.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_divine-interference" >Divine Interference</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you use <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_divine-interference" >Divine Interference</a>, the penalty on your opponent's attack roll is equal to twice the level of the spell sacrificed. You can expend one use of mythic power when you sacrifice the spell to increase the penalty to triple the level of the spell sacrificed.</p>
+
+<p class="stat-block-title" id="dodge-mythic">Dodge (Mythic)</p>
+<p class="stat-block-1">When focused, you become nearly impossible to strike.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The bonus to AC from <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a> increases by 1. As an immediate action, you can expend one use of mythic power to grant yourself an additional +10 dodge bonus to AC against one attack.</p>
+
+<p class="stat-block-title" id="dreadful-carnage-mythic">Dreadful Carnage (Mythic)</p>
+<p class="stat-block-1">Your kills are truly frightening to behold.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_dreadful-carnage" >Dreadful Carnage</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you use <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_dreadful-carnage" >Dreadful Carnage</a>, you affect non-mythic enemies within 60 feet in addition to all enemies within 30 feet. You can expend one use of mythic power before making the <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> check to cause enemies demoralized by <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_dreadful-carnage" >Dreadful Carnage</a> to become frightened instead of shaken, for the same duration as the normal shaken effect. While frightened by this ability, an enemy takes a penalty equal to your tier on attack rolls, saving throws, skill checks, and ability checks.</p>
+
+<p class="stat-block-title" id="drink-is-life-mythic">Drink Is Life (Mythic)</p>
+<p class="stat-block-1">Strong drink fuels the mythic fires within you.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Con 19, 3rd mythic tier.</p>
+<p class="stat-block-1"><b>Benefit</b>: You never take penalties for consuming nonmagical alcohol, and you can consume an alcoholic beverage as a swift action instead of a move action. Each time you consume an alcoholic beverage, you may gain one of the benefits of <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/polypurposePanacea.html#_polypurpose-panacea" >polypurpose panacea</a> </i>(<i>Pathfinder RPG Ultimate Magic </i>232). You can have only one of these benefits active at a time. If you expend one use of mythic power while drinking an alcoholic beverage, you can heal 2 points of ability damage, negate a temporary penalty to one ability score, or remove one of the following conditions: confused, diseased, exhausted, fatigued, frightened, nauseated, poisoned, shaken, sickened, or staggered.</p>
+
+<p class="stat-block-title" id="dual-path-mythic">Dual Path (Mythic)</p>
+<p class="stat-block-1">You follow two mythic paths.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: 1st mythic tier.</p>
+<p class="stat-block-1"><b>Benefit</b>: Select a mythic path other than the path you selected at your moment of ascension. You gain that path's 1st-tier ability (either archmage arcana, champion's strike, divine surge, guardian's call, marshal's order, or trickster attack). Each time you gain a path ability, you can select that path ability from either path's list or the list of universal path abilities.</p>
+
+<p class="stat-block-title" id="eagle-eyes-mythic">Eagle Eyes (Mythic)</p>
+<p class="stat-block-1">You eyesight rivals that of the most far-seeing raptors.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_eagle-eyes" >Eagle Eyes</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You ignore up to &ndash;10 in penalties due to distance on visual <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks, instead of the normal &ndash;5. As a swift action, you can expend one use of mythic power to ignore all penalties due to distance on visual <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks for 1 round.</p>
+
+<p class="stat-block-title" id="eldritch-heritage-mythic">Eldritch Heritage (Mythic)</p>
+<p class="stat-block-1">The blood of your sorcerous ancestor mingles with your mythic power to great effect.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_eldritch-heritage" >Eldritch Heritage</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain sorcerer bloodline powers of the bloodline tied to <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_eldritch-heritage" >Eldritch Heritage</a> as if your sorcerer level were your character level &ndash; 2. For that bloodline's 1st-level bloodline power, use your full character level to determine its effect; for all other bloodline powers, treat your sorcerer level as your character level &ndash; 2.</p>
+
+<p class="stat-block-title" id="elemental-channel-mythic">Elemental Channel (Mythic)</p>
+<p class="stat-block-1">Your power over elemental beings is nearly absolute.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_elemental-channel" >Elemental Channel</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your <a href="/pathfinderRPG/prd/feats.html#_elemental-channel" >Elemental Channel</a> can affect any elemental subtype, not just the one you chose when you took <a href="/pathfinderRPG/prd/feats.html#_elemental-channel" >Elemental Channel</a>. Each time you use <a href="/pathfinderRPG/prd/feats.html#_elemental-channel" >Elemental Channel</a>, you must pick one elemental subtype before using the feat. You can expend one use of mythic power when you use <a href="/pathfinderRPG/prd/feats.html#_elemental-channel" >Elemental Channel</a> to choose a second elemental subtype to affect.</p>
+
+<p class="stat-block-title" id="elemental-fist-mythic">Elemental Fist (Mythic)</p>
+<p class="stat-block-1">Your ability to channel elemental power through your unarmed attacks is ferociously potent.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elemental-fist" >Elemental Fist</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The extra energy damage dealt by <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elemental-fist" >Elemental Fist</a> increases to 1d8 points, and you gain additional uses of <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elemental-fist" >Elemental Fist</a> per day equal to your tier. You can expend one use of mythic power as an immediate action to add the extra damage from your <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elemental-fist" >Elemental Fist</a> to all of the unarmed strikes you make until the beginning of your next turn. This counts as only one use of <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elemental-fist" >Elemental Fist</a>, regardless of the number of attacks that you make in this fashion.</p>
+
+<p class="stat-block-title" id="elemental-focus-mythic">Elemental Focus (Mythic)</p>
+<p class="stat-block-1">Your elemental spells are potent and effective.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elemental-focus" >Elemental Focus</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Choose an energy type in which you already have <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elemental-focus" >Elemental Focus</a>. The increase to save DC provided by <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elemental-focus" >Elemental Focus</a> and <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_greater-elemental-focus" >Greater Elemental Focus</a> for spells of the selected energy type is 1 higher. When casting a spell with this energy type's descriptor, you can expend one use of mythic power as part of the casting to force the spell's targets to roll their saving throws twice, taking the lower result.</p>
+
+<p class="stat-block-title" id="elven-accuracy-mythic">Elven Accuracy (Mythic)</p>
+<p class="stat-block-1">Your elven eyesight cuts though concealment.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elven-accuracy" >Elven Accuracy</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you make an attack with a longbow or short bow (including composite bows), you can ignore concealment, but not total concealment. You still suffer a miss chance for total concealment, but if you miss due to total concealment, you may reroll your miss chance as per <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_elven-accuracy" >Elven Accuracy</a>.</p>
+
+<p class="stat-block-title" id="endurance-mythic">Endurance (Mythic)</p>
+<p class="stat-block-1">Your endurance is truly beyond the pale.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The bonus on checks and saves from <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a> increases by half your tier. You take half the damage when you fail a check to avoid nonlethal damage from a forced march, starvation and thirst, hot or cold environments, or slow suffocation.</p>
+<p class="stat-block-1">You can sleep in heavy armor without becoming fatigued.</p>
+
+<p class="stat-block-title" id="eschew-materials-mythic">Eschew Materials (Mythic)</p>
+<p class="stat-block-1">You can cast even the most powerful spells without using material components.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_eschew-materials" >Eschew Materials</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can cast any spell with a material component costing 10 gp per tier or less without providing that component. If you expend one use of mythic power while casting a spell that requires a material component costing 50 gp per tier or less, you can cast it without providing that component. Expending two uses of mythic power instead allows you to cast a spell that requires a material component costing 100 gp per tier or less without providing that component.</p>
+
+<p class="stat-block-title" id="extra-mythic-power-mythic">Extra Mythic Power (Mythic)</p>
+<p class="stat-block-1">You can store more mythic power than your tier would normally allow.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain two extra uses of mythic power each day.</p>
+
+<p class="stat-block-title" id="extra-path-ability-mythic">Extra Path Ability (Mythic)</p>
+<p class="stat-block-1">You can call upon mythic powers beyond those already invested in you.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: 3rd mythic tier.</p>
+<p class="stat-block-1"><b>Benefit</b>: Choose one mythic ability from your path or from the universal path abilities that you meet the prerequisites for. You gain that path ability.</p>
+
+<p class="stat-block-title" id="fabulous-figments-mythic">Fabulous Figments (Mythic)</p>
+<p class="stat-block-1">Your illusions are astonishingly realistic.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (illusion).</p>
+<p class="stat-block-1"><b>Benefit</b>: Non-mythic creatures can't identify your illusion spells with <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a>, including checks attempted as part of <i><a href="/pathfinderRPG/prd/spells/arcaneSight.html#_arcane-sight" >arcane sight</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, or similar effects. When mythic creatures attempt to identify your illusions, add your tier to the DC of those <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> checks. Mythic creatures informed by their allies that one of your illusions isn't real gain only a +2 bonus on their Will saves to disbelieve. Non-mythic creatures gain no bonus to disbelieve.</p>
+
+<p class="stat-block-title" id="far-shot-mythic">Far Shot (Mythic)</p>
+<p class="stat-block-1">You make long-ranged attacks with remarkable accuracy.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_far-shot">Far Shot</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: As a swift action, you can expend one use of mythic power to ignore all range increment penalties for your ranged attacks until the end of your turn.</p>
+
+<p class="stat-block-title" id="fast-empathy-mythic">Fast Empathy (Mythic)</p>
+<p class="stat-block-1">You can soothe the emotions of wild beasts with nearly supernatural quickness.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_fast-empathy" >Fast Empathy</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can use wild empathy as a swift action.</p>
+
+<p class="stat-block-title" id="fire-music-mythic">Fire Music (Mythic)</p>
+<p class="stat-block-1">You masterfully weave the ancient melodies of fire into your spells.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_fire-music" >Fire Music</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you use <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_fire-music" >Fire Music</a> to change any of the damage dealt by a bard spell to fire damage, that damage ignores fire resistance up to your tier.</p>
+<p class="stat-block-1">If you cast <i>summon monster</i> as a bard spell and choose to give the summoned creature a fiery appearance, increase its fire resistance by 5 (adding to the resistance already granted by <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_fire-music" >Fire Music</a>) and add 1d4 points of fire damage to all of its natural attacks instead of the +1 fire damage normally granted by <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_fire-music" >Fire Music</a>. Creatures with the fire subtype also gain these benefits.</p>
+
+<p class="stat-block-title" id="fleet-mythic">Fleet (Mythic)</p>
+<p class="stat-block-1">You're fantastically light on your feet.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_fleet" >Fleet</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your base land speed increases by 5 feet, regardless of what armor you wear or whether you're encumbered. This bonus stacks with the bonus gained from <a href="/pathfinderRPG/prd/feats.html#_fleet" >Fleet</a>.</p>
+<p class="stat-block-1"><b>Special</b>: You can take this feat multiple times, but no more than the number of times you've taken non-mythic <a href="/pathfinderRPG/prd/feats.html#_fleet" >Fleet</a>. The effects stack.</p>
+
+<p class="stat-block-title" id="furious-focus-mythic">Furious Focus (Mythic)</p>
+<p class="stat-block-1">Your attacks create a rhythmic barrage that doesn't sacrifice precision for force.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_furious-focus" >Furious Focus</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you are using <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_furious-focus" >Furious Focus</a>, you don't take <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>'s penalty on attack rolls that are made as attacks of opportunity. As a free action, you can expend one use of mythic power to negate <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>'s penalty on all melee attacks you make for 1 round while using this feat.</p>
+
+<p class="stat-block-title" id="gnome-trickster-mythic">Gnome Trickster (Mythic)</p>
+<p class="stat-block-1">Thanks to your mythic power, the magic in your blood has grown more potent and diverse.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_gnome-trickster" >Gnome Trickster</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain the following spell-like abilities: 1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/blur.html#_blur" >blur</a></i> and <i><a href="/pathfinderRPG/prd/advanced/spells/vanish.html#_vanish" >vanish</a></i>.</p>
+<p class="stat-block-1">You can use your gnome spell-like abilities an additional number of times per day equal to half your tier. You can spend these additional uses to use any of your gnome spell-like abilities you wish. Your caster level for your gnome spell-like abilities becomes your character level plus your tier.</p>
+
+<p class="stat-block-title" id="gorgon's-fist-mythic">Gorgon's Fist (Mythic)</p>
+<p class="stat-block-1">Your strikes debilitate and disorient your foes.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="pathfinderRPG/prd/feats.html#_gorgon-s-fist">Gorgon's Fist</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you hit a creature while using Gorgon's Fist, if the target fails its Fortitude saving throw, it is dazed for 1 round instead of staggered. You can expend one use of mythic power when you hit with a Gorgon's Fist attack, but before the saving throw is attempted, to increase its DC by half your tier.</p>
+
+<p class="stat-block-title" id="great-fortitude-mythic">Great Fortitude (Mythic)</p>
+<p class="stat-block-1">Your fortitude is unmatched.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you roll a Fortitude saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result.</p>
+
+<p class="stat-block-title" id="guided-hand-mythic">Guided Hand (Mythic)</p>
+<p class="stat-block-1">Attacks made with your deity's favored weapon are divinely inspired.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_guided-hand" >Guided Hand</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When making attacks with your deity's favored weapon, you can add your Wisdom modifier instead of your Strength or Dexterity modifier on damage rolls.</p>
+
+<p class="stat-block-title" id="heroic-defiance-mythic">Heroic Defiance (Mythic)</p>
+<p class="stat-block-1">You ignore harmful effects that would bring others down.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_heroic-defiance" >Heroic Defiance</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Once per day as an immediate action, you can attempt to negate the onset of one harmful condition or affliction (such as panicked, paralyzed, stunned, and so on) that allowed a saving throw for its onset, not including permanent and instantaneous conditions. When you do so, attempt a Will saving throw with a bonus equal to your tier against the original DC of the effect. If you succeed, the condition is negated. If you fail, the onset is delayed until the end of your next turn, after which it takes its normal effect. This feat has no effect on hit point damage or ability damage.</p>
+<p class="stat-block-1">This effect is separate from the use of non-mythic <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_heroic-defiance" >Heroic Defiance</a>.</p>
+
+<p class="stat-block-title" id="heroic-recovery-mythic">Heroic Recovery (Mythic)</p>
+<p class="stat-block-1">You can shrug off the effects of harmful conditions after they've taken effect.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_heroic-recovery" >Heroic Recovery</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: As a swift action, you can expend one use of mythic power to use <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_heroic-recovery" >Heroic Recovery</a> additional times. Whenever you do, add your tier to the result of the Fortitude save.</p>
+
+<p class="stat-block-title" id="improved-bull-rush-mythic">Improved Bull Rush (Mythic)</p>
+<p class="stat-block-1">You push foes around with amazing ease.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_improved-bull-rush">Improved Bull Rush</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a bonus equal to half your tier on checks to bull rush, and to your CMD when an opponent bull rushes you. These bonuses stack with those granted by non-mythic <a href="/pathfinderRPG/prd/feats.html#_improved-bull-rush">Improved Bull Rush</a>.</p>
+<p class="stat-block-1">Furthermore, you can make an attack of opportunity against any creature that attempts to bull rush you, unless it also has this feat.</p>
+
+<p class="stat-block-title" id="improved-channel-mythic">Improved Channel (Mythic)</p>
+<p class="stat-block-1">As a divine conduit for energy, you're unmatched.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_improved-channel" >Improved Channel</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Non-mythic creatures that take damage from your channel energy must roll their saving throws twice and take the lower result.</p>
+
+<p class="stat-block-title" id="improved-counterspell-mythic">Improved Counterspell (Mythic)</p>
+<p class="stat-block-1">Your innate understanding of magical mechanics allows you to unravel spells with pure magical energy.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_improved-counterspell" >Improved Counterspell</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When counterspelling, you can use a spell of the same school that is the same or higher spell level as the target spell.</p>
+
+<p class="stat-block-title" id="improved-critical-mythic">Improved Critical (Mythic)</p>
+<p class="stat-block-1">Your critical strikes with your chosen weapon are deadlier than most.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a>, base attack bonus +8.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your critical multiplier with your chosen weapon is increased by 1 (to a maximum of &times;6).</p>
+<p class="stat-block-1"><b>Special</b>: You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> feat.</p>
+
+<p class="stat-block-title" id="improved-dirty-trick-mythic">Improved Dirty Trick (Mythic)</p>
+<p class="stat-block-1">You're a paragon of down-and-dirty fighting.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_improved-dirty-trick" >Improved Dirty Trick</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a bonus equal to half your tier on checks to attempt a dirty trick, and to your CMD when an opponent attempts to perform a dirty trick on you. These bonuses stack with those granted by <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_improved-dirty-trick" >Improved Dirty Trick</a>.</p>
+<p class="stat-block-1">Furthermore, you can make an attack of opportunity against any creature that attempts a dirty trick maneuver against you, unless it also has this feat.</p>
+
+<p class="stat-block-title" id="improved-disarm-mythic">Improved Disarm (Mythic)</p>
+<p class="stat-block-1">You're expert at knocking your enemies' weapons away.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_improved-disarm">Improved Disarm</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a bonus equal to half your tier on checks to disarm, and to your CMD when an opponent tries to disarm you. These bonuses stack with those granted by <a href="/pathfinderRPG/prd/feats.html#_improved-disarm">Improved Disarm</a>.</p>
+<p class="stat-block-1">Furthermore, you can make an attack of opportunity against any creature that attempts to disarm you, unless it also has this feat.</p>
+
+<p class="stat-block-title" id="improved-drag-mythic">Improved Drag (Mythic)</p>
+<p class="stat-block-1">You pull your enemies around the battlefield with great ease.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_improved-drag" >Improved Drag</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a bonus equal to half your tier on checks to attempt a drag combat maneuver, and to your CMD when an opponent attempts a drag combat maneuver against you. These bonuses stack with those granted by <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_improved-drag" >Improved Drag</a>.</p>
+<p class="stat-block-1">Furthermore, you can make an attack of opportunity against any creature that attempts a drag maneuver against you, unless it also has this feat.</p>
+
+<p class="stat-block-title" id="improved-familiar-mythic">Improved Familiar (Mythic)</p>
+<p class="stat-block-1">Your familiar gains some of your incredible resiliency and insight.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_improved-familiar" >Improved Familiar</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: For every 3 tiers you possess, your familiar gains a +2 bonus to an ability score of your choice. These bonuses stack. Your familiar adds your tier to its natural armor bonus and to its spell resistance (if it has spell resistance).</p>
+
+<p class="stat-block-title" id="improved-grapple-mythic">Improved Grapple (Mythic)</p>
+<p class="stat-block-1">Your wrestling moves are difficult to counter.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_improved-grapple">Improved Grapple</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a bonus equal to half your tier on checks to grapple, and to your CMD when an opponent tries to grapple you. These bonuses stack with those granted by Improved Grapple.</p>
+<p class="stat-block-1">Furthermore, you can make an attack of opportunity against any creature that attempts to grapple you, unless it also has this feat.</p>
+
+<p class="stat-block-title" id="improved-initiative-mythic">Improved Initiative (Mythic)</p>
+<p class="stat-block-1">You leap into the fray with speed and confidence.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The bonus on initiative checks granted by <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a> increases by an amount equal to your tier. This bonus stacks with the bonus from <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>. In addition, instead of rolling initiative, you can expend one use of mythic power to treat your roll as a natural 20.</p>
+
+<p class="stat-block-title" id="improved-overrun-mythic">Improved Overrun (Mythic)</p>
+<p class="stat-block-1">You're an unstoppable force on the battlefield, able to run down lesser foes with ease.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_improved-overrun">Improved Overrun</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a bonus equal to half your tier on checks to overrun, and to your CMD when an opponent tries to overrun you. These bonuses stack with those granted by <a href="/pathfinderRPG/prd/feats.html#_improved-overrun">Improved Overrun</a>.</p>
+<p class="stat-block-1">Furthermore, you can make an attack of opportunity against any creature that attempts to overrun you, unless it also has this feat.</p>
+
+<p class="stat-block-title" id="improved-reposition-mythic">Improved Reposition (Mythic)</p>
+<p class="stat-block-1">You put your foes right where you want them.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_improved-reposition" >Improved Reposition</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a bonus equal to half your tier on checks to attempt a reposition combat maneuver, and to your CMD when an opponent attempts to perform a reposition combat maneuver against you. These bonuses stack with those granted by <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_improved-reposition" >Improved Reposition</a>.</p>
+<p class="stat-block-1">Furthermore, you can make an attack of opportunity against any creature that attempts to reposition you, unless it also has this feat.</p>
+
+<p class="stat-block-title" id="improved-steal-mythic">Improved Steal (Mythic)</p>
+<p class="stat-block-1">Your light fingers can lift even the most closely held item off an enemy.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_improved-steal" >Improved Steal</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a bonus equal to half your tier on checks to attempt a steal combat maneuver, and to your CMD when an opponent attempts a steal combat maneuver on you. These bonuses stack with those granted by <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_improved-steal" >Improved Steal</a>.</p>
+<p class="stat-block-1">Furthermore, you can make an attack of opportunity against any creature that attempts a steal maneuver against, you unless it also has this feat.</p>
+
+<p class="stat-block-title" id="improved-stonecunning-mythic">Improved Stonecunning (Mythic)</p>
+<p class="stat-block-1">If you listen close, you can hear the secrets of stone.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_improved-stonecunnin" >Improved Stonecunning</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain <i><a href="/pathfinderRPG/prd/spells/stoneTell.html#_stone-tell" >stone tell</a></i> as a spell-like ability usable once per day with a caster level equal to twice your tier.</p>
+
+<p class="stat-block-title" id="improved-sunder-mythic">Improved Sunder (Mythic)</p>
+<p class="stat-block-1">Your mighty smashing blows demolish objects.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_improved-sunder">Improved Sunder</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a bonus equal to half your tier on checks to sunder, and to your CMD when an opponent tries to sunder an object used by you. These bonuses stack with those granted by Improved Sunder.</p>
+<p class="stat-block-1">Furthermore, you can make an attack of opportunity against any creature that attempts to sunder an object used by you, unless it also has this feat.</p>
+
+<p class="stat-block-title" id="improved-trip-mythic">Improved Trip (Mythic)</p>
+<p class="stat-block-1">You're expert at knocking your foes down.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_improved-trip">Improved Trip</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a bonus equal to half your tier on checks to trip, and to your CMD when an opponent tries to trip you. These bonuses stack with those granted by Improved Trip.</p>
+<p class="stat-block-1">Furthermore, you can make an attack of opportunity against any creature that attempts to trip you, unless it also has this feat.</p>
+
+<p class="stat-block-title" id="improved-unarmed-strike-mythic">Improved Unarmed Strike (Mythic)</p>
+<p class="stat-block-1">Your unarmed strikes are more powerful than others.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can add half your tier to your damage with unarmed strikes. As a swift action, you can expend one use of mythic power to overcome the hardness of objects with your unarmed strikes. This effect last for a number of rounds equal to your tier. If an object's hardness is greater than 15, you don't ignore any of its hardness.</p>
+
+<p class="stat-block-title" id="intimidating-prowess-mythic">Intimidating Prowess (Mythic)</p>
+<p class="stat-block-1">Your mythic stature makes others uneasy.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_intimidating-prowess" >Intimidating Prowess</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks equal to your tier against non-mythic creatures, or half your tier against mythic creatures. If you also have the <a href="/pathfinderRPG/prd/feats.html#_persuasive" >Persuasive</a> (mythic) feat, you can expend one use of mythic power to treat the <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> check as if you had rolled a natural 20. You must decide to use this ability before the roll is made.</p>
+
+<p class="stat-block-title" id="iron-will-mythic">Iron Will (Mythic)</p>
+<p class="stat-block-1">Your will is incorruptible.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you roll a Will saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result.</p>
+
+<p class="stat-block-title" id="knockout-artist-mythic">Knockout Artist (Mythic)</p>
+<p class="stat-block-1">Your knockout punches are truly mighty.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_knockout-artist" >Knockout Artist</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you use your unarmed strike to deal nonlethal damage and sneak attack damage to an opponent, roll d8s for each sneak attack die instead of d6s.</p>
+
+<p class="stat-block-title" id="legendary-teamwork-mythic">Legendary Teamwork (Mythic)</p>
+<p class="stat-block-1">You and your allies fight with great coordination.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Any two teamwork feats.</p>
+<p class="stat-block-1"><b>Benefit</b>: Any fixed numeric bonuses you gain from teamwork feats are increased by 1. This doesn't apply to variable numeric bonuses or to effects that are not numeric bonuses, such as additional attacks of opportunity, movement, or other extra actions.<span class="hyperlink char-style-override-15"></span></p>
+
+<p class="stat-block-title" id="lightning-reflexes-mythic">Lightning Reflexes (Mythic)</p>
+<p class="stat-block-1">Your reflexes are superhuman.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you roll a Reflex saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result.</p>
+
+<p class="stat-block-title" id="lucky-halfling-mythic">Lucky Halfling (Mythic)</p>
+<p class="stat-block-1">You share your mythic luck with those around you.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_lucky-halflin" >Lucky Halfling</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you use <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_lucky-halflin" >Lucky Halfling</a>, add your tier as a bonus on the saving throw. You can expend one use of mythic power when an ally uses your save but still suffers an effect on a successful saving throw. If you do, that ally suffers no effect on the successful saving throw.</p>
+
+<p class="stat-block-title" id="lucky-surge-mythic">Lucky Surge (Mythic)</p>
+<p class="stat-block-1">Your surges defy the odds.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="#_potent-surge-mythic">Potent Surge</a>, 3rd mythic tier.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you use your surge ability, you can roll your surge dice twice and take the higher result. If you can already roll your surge dice twice and take the higher result, you roll your surge dice three times and take the highest result.</p>
+
+<p class="stat-block-title" id="lunge-mythic">Lunge (Mythic)</p>
+<p class="stat-block-1">Your reaching strikes aid your defenses against those you hit.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you use <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a> and hit a creature with the melee attack, you no longer take a &ndash;2 penalty to AC against that creature. You can expend one use of mythic power when you use <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a> to negate the &ndash;2 penalty to AC whether you hit or miss, and gain a +2 bonus on attacks of opportunity you make while <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a> is in effect.</p>
+
+<p class="stat-block-title" id="magical-aptitude-mythic">Magical Aptitude (Mythic)</p>
+<p class="stat-block-1">Your understanding of the principles and intricacies of magic goes far beyond your training.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_magical-aptitude" >Magical Aptitude</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The bonus on <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> and <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> skill checks from <a href="/pathfinderRPG/prd/feats.html#_magical-aptitude" >Magical Aptitude</a> increases by 2. In addition, you can expend one use of mythic power to treat a <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> or <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> check as if you had rolled a natural 20. You must decide to use this ability before making the roll.</p>
+
+<p class="stat-block-title" id="manyshot-mythic">Manyshot (Mythic)</p>
+<p class="stat-block-1">You can fire a barrage of arrows at your target with very little effort.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_manyshot">Manyshot</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When making a full-attack action with a bow and using Manyshot, you fire two arrows with both your first and second attacks, instead of just your first attack.</p>
+
+<p class="stat-block-title" id="marked-for-glory">Marked for Glory</p>
+<p class="stat-block-1">You're destined for glory beyond the ken of ordinary adventurers and mere mortals.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, or <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can use the <a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html#_surge-ability">surge ability</a> once per day (adding 1d6). If you are or become mythic, you can use your surge one additional time per day.</p>
+
+<p class="stat-block-title" id="maximize-surge-mythic">Maximize Surge (Mythic)</p>
+<p class="stat-block-1">In times of dire need, you can burn your mythic power to ensure success.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: 6th mythic tier.</p>
+<p class="stat-block-1"><b>Benefit</b>: Once per day when you surge, you can expend two uses of mythic power to treat your surge die as though it rolled the maximum result.</p>
+<p class="stat-block-1"><b>Special</b>: You can take this feat multiple times. Each time you do, you gain an extra use of this feat per day.</p>
+
+<p class="stat-block-title" id="medusa's-wrath-mythic">Medusa's Wrath (Mythic)</p>
+<p class="stat-block-1">Your barrage of unarmed attacks builds to a single, staggering strike.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_medusa-s-wrath">Medusa's Wrath</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You may forgo the two additional unarmed strikes of Medusa's Wrath to instead make a single unarmed strike at your highest base attack bonus. If you successfully hit your opponent, it must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Wisdom modifier) or be staggered for 1 round. You can expend one use of mythic power when you stagger a target with Medusa's Wrath to extend the duration of the staggered condition by a number of rounds equal to half your tier.</p>
+
+<p class="stat-block-title" id="missile-shield-mythic">Missile Shield (Mythic)</p>
+<p class="stat-block-1">Your remarkable awareness allows you to deflect multiple ranged attacks and even ray spells.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_missile-shield" >Missile Shield</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When using <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_missile-shield" >Missile Shield</a>, you can deflect an additional number of ranged attacks per round equal to half your tier. You can expend one use of mythic power as an immediate action to deflect a single ray from a ray spell or effect targeting you.</p>
+
+<p class="stat-block-title" id="mobility-mythic">Mobility (Mythic)</p>
+<p class="stat-block-1">You have perfected your ability to weave through the battlefield, using your momentum to propel yourself far.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_mobility">Mobility</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you use <a href="/pathfinderRPG/prd/feats.html#_mobility">Mobility</a>, you gain a +6 dodge bonus to AC instead of the normal +4. In addition, once per round when an attack of opportunity provoked by your movement misses you, you may move 5 feet as a free action. This movement doesn't count against your total overall movement for the round, but it does provoke attacks of opportunity.</p>
+
+<p class="stat-block-title" id="monastic-legacy-mythic">Monastic Legacy (Mythic)</p>
+<p class="stat-block-1">Every new experience carries you another step further along your path to enlightenment.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_monastic-legacy" >Monastic Legacy</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Add half the levels you have in classes other than monk to your monk level to determine your effective monk level for your AC bonus. As a free action, you can expend one use of mythic power to add half your tier to your effective monk level to determine your base unarmed strike damage and AC bonus until the start of your next turn.</p>
+
+<p class="stat-block-title" id="mounted-archery-mythic">Mounted Archery (Mythic)</p>
+<p class="stat-block-1">Your skill as a rider allows you to take cover and shoot with amazing accuracy.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_mounted-archery">Mounted Archery</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When using the <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> skill to use your mount as cover, you can still make a single ranged weapon attack as a standard action. While your mount is moving, you can expend one use of mythic power to negate the penalties for making ranged weapon attacks while mounted until the beginning of your next turn.</p>
+
+<p class="stat-block-title" id="mounted-combat-mythic">Mounted Combat (Mythic)</p>
+<p class="stat-block-1">Your ability to maneuver a mount through the rigors of combat is nearly unparalleled.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can negate an additional number of hits against your mount per round equal to your tier. Once per round as an immediate action, you can expend one use of mythic power to substitute a <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> check for a single Reflex saving throw your mount must make.</p>
+
+<p class="stat-block-title" id="mythic-companion">Mythic Companion</p>
+<p class="stat-block-1">Despite your non-mythic nature, you're a vital part of the greater mythic world.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: You must be non-mythic.</p>
+<p class="stat-block-1"><b>Benefit</b>: You're considered a mythic creature for the purposes of determining how mythic spells and effects affect you. If you ever become mythic, you gain a +1 bonus on all saves against mythic spells and effects.</p>
+
+<p class="stat-block-title" id="mythic-crafter-mythic">Mythic Crafter (Mythic)</p>
+<p class="stat-block-1">You can craft mythic magic items.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Any item creation feat.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can create any mythic magic item for which you have the appropriate item creation feat. In addition, you gain a +5 bonus on skill checks when creating non-mythic magic items.</p>
+
+<p class="stat-block-title" id="mythic-paragon-mythic">Mythic Paragon (Mythic)</p>
+<p class="stat-block-1">Your mythic power is even more potent than that of most other mythic beings.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your tier is considered 2 higher for determining the potency of mythic abilities, feats, and spells. This doesn't grant you access to mythic abilities or greater versions of mythic spells at a lower tier than you would normally need to be to get them, nor does it grant you additional uses of mythic power or adjust the dice you roll for your surge.</p>
+
+<p class="stat-block-title" id="mythic-spell-lore-mythic">Mythic Spell Lore (Mythic)</p>
+<p class="stat-block-1">You have learned how to unlock the power of your spells, combining them with your mythic power.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Ability to cast spells.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can learn a number of mythic spells equal to your tier and can expend mythic power when casting them to enhance the results. To select a mythic spell, you must be able to cast the non-mythic version or have it on your list of spells known. Every time you gain a new tier, you can select an additional mythic spell.</p>
+<p class="stat-block-1"><b>Special</b>: You can select this feat multiple times. Each time you select this feat, you must select different spells.</p>
+
+<p class="stat-block-title" id="natural-spell-mythic">Natural Spell (Mythic)</p>
+<p class="stat-block-1">You can speak and use some magic items when you use wild shape.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you're using wild shape, you can use spell completion and spell trigger magic items that were on your person when you changed form. You don't need to physically manipulate the items when you use them while using wild shape. Furthermore, you can speak normally when using wild shape.</p>
+
+<p class="stat-block-title" id="nimble-moves-mythic">Nimble Moves (Mythic)</p>
+<p class="stat-block-1">You dance across obstacles with ease, as though they weren't even there.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_nimble-moves" >Nimble Moves</a>. </p>
+<p class="stat-block-1"><b>Benefit</b>: For every 2 tiers you possess, you can move through up to 5 feet of difficult terrain each round as if it were normal terrain (minimum 5 feet). This effect stacks with those provided by <a href="/pathfinderRPG/prd/feats.html#_nimble-moves" >Nimble Moves</a> and <a href="/pathfinderRPG/prd/feats.html#_acrobatic" >Acrobatic</a> Steps.</p>
+
+<p class="stat-block-title" id="penetrating-strike-mythic">Penetrating Strike (Mythic)</p>
+<p class="stat-block-1">You know just how to strike to bypass even the most heavily armored foe's defenses.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_penetrating-strike">Penetrating Strike</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When using Penetrating Strike or Greater Penetrating Strike, you can ignore an additional point of damage reduction for every 3 tiers you posses. Additionally, the effects apply to damage reduction without a type (such as DR 10/&mdash;).</p>
+
+<p class="stat-block-title" id="persuasive-mythic">Persuasive (Mythic)</p>
+<p class="stat-block-1">You're a master of persuasion, be it with soothing words or harsh barking commands.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_persuasive" >Persuasive</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> and <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> skill checks granted by <a href="/pathfinderRPG/prd/feats.html#_persuasive" >Persuasive</a> increases by 2. In addition, you can expend one use of mythic power to treat a <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> check as if you had rolled a natural 20. You must decide to use this ability before making the roll.</p>
+
+<p class="stat-block-title" id="pinpoint-targeting-mythic">Pinpoint Targeting (Mythic)</p>
+<p class="stat-block-1">Your attacks can home in on your opponent's weak spot and ignore many defenses.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/feats.html#_pinpoint-targeting">Pinpoint Targeting</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can use this feat even if you move this round, but only if the distance you move is equal to or less than 5 feet per tier.</p>
+
+<p class="stat-block-title" id="point-blank-shot-mythic">Point-Blank Shot (Mythic)</p>
+<p class="stat-block-1">Your accuracy with ranged attacks is unmatched at point-blank range.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The bonus on attack and damage rolls granted by <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a> increases to +2. As a swift action, you can expend one use of mythic power to gain an additional bonus on these rolls equal to half your tier.</p>
+
+<p class="stat-block-title" id="potent-surge-mythic">Potent Surge (Mythic)</p>
+<p class="stat-block-1">Your surge is more potent.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you use your surge ability, add 1 to your surge result.</p>
+
+<p class="stat-block-title" id="power-attack-mythic">Power Attack (Mythic)</p>
+<p class="stat-block-1">Your attacks are truly devastating.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you use <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, you gain a +3 bonus on melee damage rolls instead of +2. When your base attack bonus reaches +4 and every 4 points thereafter, the amount of bonus damage increases by +3 instead of +2. In addition, the bonus damage from this feat is doubled on a critical hit, before it's multiplied by the weapon's critical multiplier.</p>
+<p class="stat-block-1">You can expend one use of mythic power when you activate <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a> to ignore the penalties on melee attack rolls and combat maneuver checks for 1 minute.</p>
+
+<p class="stat-block-title" id="powerful-shape-mythic">Powerful Shape (Mythic)</p>
+<p class="stat-block-1">The forms you take in wild shape tower over their natural counterparts.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_powerful-shape" >Powerful Shape</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can apply the giant simple template (quick rules version, from <i>Pathfinder RPG Bestiary</i> 295) to any form you take with wild shape. This replaces the benefit from <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_powerful-shape" >Powerful Shape</a>.</p>
+<p class="stat-block-1">As a free action, you can expend one use of mythic power to combine the benefit from this feat with the benefit from non-mythic <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_powerful-shape" >Powerful Shape</a> for a number of rounds equal to your tier.<span class="hyperlink char-style-override-15"></span></p>
+
+<p class="stat-block-title" id="prophetic-visionary-mythic">Prophetic Visionary (Mythic)</p>
+<p class="stat-block-1">Your precognitive powers aid you further.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_prophetic-visionary" >Prophetic Visionary</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can use <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_prophetic-visionary" >Prophetic Visionary</a>'s <i><a href="/pathfinderRPG/prd/spells/augury.html#_augury" >augury</a></i> ability at will, spending 10 minutes in a deep trance each time. Your chance of a successful <i><a href="/pathfinderRPG/prd/spells/augury.html#_augury" >augury</a></i> increases by 1% per tier. A successful <i><a href="/pathfinderRPG/prd/spells/augury.html#_augury" >augury</a> </i>made by using this feat also grants you the benefits of <i><a href="/pathfinderRPG/prd/spells/guidance.html#_guidance" >guidance</a></i>, but the bonus is equal to your tier and is an insight bonus instead of a competence bonus.</p>
+
+<p class="stat-block-title" id="quick-draw-mythic">Quick Draw (Mythic)</p>
+<p class="stat-block-1">You can retrieve any item quickly, not just weapons.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_quick-draw" >Quick Draw</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can use <a href="/pathfinderRPG/prd/feats.html#_quick-draw" >Quick Draw</a> to draw items of any kind, not just weapons, provided they are stored or concealed on your person. As a move action, you can expend one use of mythic power to retrieve up to two hidden items. You must have two hands free to do so.</p>
+
+<p class="stat-block-title" id="racial-heritage-mythic">Racial Heritage (Mythic)</p>
+<p class="stat-block-1">Your racial heritage mingles with your mythic power to become more pronounced.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_racial-heritage" >Racial Heritage</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a single racial trait of your choice from the race you picked when you took non-mythic <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_racial-heritage" >Racial Heritage</a>. That racial trait can't modify your size or ability scores. You also gain the racial language of the race (if any) if you don't already know it. For races with multiple racial languages, you gain all of them.</p>
+
+<p class="stat-block-title" id="rapid-reload-mythic">Rapid Reload (Mythic)</p>
+<p class="stat-block-1">You can reload any type of weapon with astounding speed.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_rapid-reload" >Rapid Reload</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain the benefits of <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_rapid-reload" >Rapid Reload</a> with all crossbows and firearms, not just the one you originally chose when you gained that feat. As a swift action, you can expend one use of mythic power to gain the ability to reload crossbows and firearms without provoking attacks of opportunity for 1 minute.</p>
+
+<p class="stat-block-title" id="rapid-shot-mythic">Rapid Shot (Mythic)</p>
+<p class="stat-block-1">You can fire many times each round with amazing precision.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_rapid-shot">Rapid Shot</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When using Rapid Shot, you can either ignore the feat's &ndash;2 penalty on attack rolls or make two additional attacks instead of one.</p>
+
+<p class="stat-block-title" id="rhetorical-flourish-mythic">Rhetorical Flourish (Mythic)</p>
+<p class="stat-block-1">You're supremely skilled at using verbal misdirection and finesse to influence others.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_rhetorical-flourish" >Rhetorical Flourish</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you successfully use <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_rhetorical-flourish" >Rhetorical Flourish</a> against a non-mythic creature, the bonus on your <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check increases by your tier. If the target is a mythic creature, you instead increase the bonus by half your tier.</p>
+<p class="stat-block-1">You can expend one use of mythic power to reroll a single failed <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> check. You must take the new result even if it is lower.</p>
+
+<p class="stat-block-title" id="ride-by-attack-mythic">Ride-By Attack (Mythic)</p>
+<p class="stat-block-1">You can make multiple attacks as you ride past your enemies.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_ride-by-attack">Ride-By Attack</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you successfully strike an opponent as part of a Ride-By Attack, you can continue to make attacks against successive targets. You can make one additional attack per 3 tiers you possess, but you can't make more attacks than you could if you were making a full attack. Successive attacks use the lower bonus for multiple attacks, as when making a full attack. You must move at least 10 feet between each attack.</p>
+
+<p class="stat-block-title" id="run-mythic">Run (Mythic)</p>
+<p class="stat-block-1">You run with preternatural speed and endurance.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/feats.html#_run" >Run</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When running, you move seven times your normal speed if wearing medium, light, or no armor and carrying no more than a medium load, or six times your speed if wearing heavy armor or carrying a heavy load. When making a jump after a running start, you gain an additional bonus equal to your tier + 4 on your <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> check.</p>
+<p class="stat-block-1">You can run normally for a number of rounds equal to your Constitution score plus your tier, but after that you must succeed at Constitution checks to continue running.</p>
+
+<p class="stat-block-title" id="saving-shield-mythic">Saving Shield (Mythic)</p>
+<p class="stat-block-1">Shielding a comrade from harm gives you a chance to strike back.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_saving-shield" >Saving Shield</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The shield bonus you grant an ally with <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_saving-shield" >Saving Shield</a> increases to +3. If you use <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_saving-shield" >Saving Shield</a> to successfully negate an attack against an adjacent ally, you can immediately make an attack of opportunity against the attacker so long as it is within your melee reach.</p>
+
+<p class="stat-block-title" id="scorpion-style-mythic">Scorpion Style (Mythic)</p>
+<p class="stat-block-1">Your unarmed strikes can induce a near-crippling lethargy in your enemies.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_scorpion-style">Scorpion Style</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you are using Scorpion Style, you add your tier to the number of rounds the target's base land speed is reduced. You can expend one use of mythic power when making your attack to slow your target, as the spell <i><a href="/pathfinderRPG/prd/spells/slow.html#_slow" >slow</a></i>, unless it succeeds at a Fortitude save (DC 10 + 1/2 your character level + your Wisdom modifier). The slowing effect supersedes the normal speed penalty of your Scorpion Strike, but lasts for an equal number of rounds.</p>
+
+<p class="stat-block-title" id="selective-channeling-mythic">Selective Channeling (Mythic)</p>
+<p class="stat-block-1">When you exclude creatures from your channel, you empower those you do affect.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_selective-channeling" >Selective Channeling</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you channel energy, the damage you heal or deal increases by a number of points equal to twice the number of targets you excluded from your channeled energy. You can expend one use of mythic power to increase the number of targets you exclude from your channeled energy by half your tier.</p>
+
+<p class="stat-block-title" id="self-sufficient-mythic ">Self-sufficient (mythic) </p>
+<p class="stat-block-1">Independence comes naturally to you, and you have mastered taking care of yourself.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_self-sufficient" >Self-Sufficient</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The bonus on <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> and <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> skill checks from <a href="/pathfinderRPG/prd/feats.html#_self-sufficient" >Self-Sufficient</a> increases by 2. In addition, you can expend one use of mythic power to treat a <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> or <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> check as if you had rolled a natural 20. You must decide to use this ability before making the roll.</p>
+
+<p class="stat-block-title" id="shatter-defenses-mythic">Shatter Defenses (Mythic)</p>
+<p class="stat-block-1">Your dazzling attacks leave your opponents flummoxed and bewildered, unable to attack you or to defend themselves effectively.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_shatter-defenses">Shatter Defenses</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: An opponent you affect with Shatter Defenses is flat-footed to all attacks, not just yours.</p>
+
+<p class="stat-block-title" id="shield-focus-mythic">Shield Focus (Mythic)</p>
+<p class="stat-block-1">You're a master of using your shield for protection.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_shield-focus">Shield Focus</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Add your shield bonus and your shield's enhancement bonus to your touch AC. As an immediate action, you can expend one use of mythic power to add your shield bonus and your shield's enhancement bonus on a Fortitude or Reflex save just before you roll it.</p>
+
+<p class="stat-block-title" id="shield-slam-mythic">Shield Slam (Mythic)</p>
+<p class="stat-block-1">Your shield bash produces a powerful kick.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_shield-slam">Shield Slam</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When using Shield Slam to bull rush, an opponent knocked prone because of an intervening wall or other surface also takes damage from the collision. The damage dealt is equal to 1d6 points per 2 tiers you possess. As an immediate action, you can expend one use of mythic power to add your tier to your combat maneuver checks when resolving a bull rush made due to Shield Slam.</p>
+
+<p class="stat-block-title" id="shot-on-the-run-mythic">Shot on the <a href="/pathfinderRPG/prd/feats.html#_run" >Run</a> (Mythic)</p>
+<p class="stat-block-1">With ease, you can snap off two shots while dashing across the battlefield.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Shot on the <a href="/pathfinderRPG/prd/feats.html#_run" >Run</a>, base attack bonus +6.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you use Shot on the <a href="/pathfinderRPG/prd/feats.html#_run" >Run</a>, you can make two ranged attacks at your highest base attack bonus at any point during your movement, instead of just one.</p>
+
+<p class="stat-block-title" id="skill-focus-mythic">Skill Focus (Mythic)</p>
+<p class="stat-block-1">You mastery with this skill is unmatched, even in difficult situations.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can always take 10 or 20 on checks with your choice of skill for <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a>, even when you are rushed or threatened.</p>
+<p class="stat-block-1"><b>Special</b>: You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> feat.</p>
+
+<p class="stat-block-title" id="snatch-arrows-mythic">Snatch Arrows (Mythic)</p>
+<p class="stat-block-1">You can use the weapons you pluck from the air to immediately make melee attacks.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_snatch-arrows">Snatch Arrows</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you use <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_snatch" >Snatch</a> Arrows to catch a thrown weapon that can also be used as a melee weapon, you can make a melee attack with it as an immediate action against a foe within the weapon's melee reach. You can expend one use of mythic power to make this attack without spending an immediate action.</p>
+
+<p class="stat-block-title" id="sociable-mythic">Sociable (Mythic)</p>
+<p class="stat-block-1">Your easy nature flows from you without effort, putting others at ease.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_sociable" >Sociable</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You grant and benefit from the +2 bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks from <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_sociable" >Sociable</a> constantly without having to spend a move action. You can spend a move action to increase the bonus to +4 for a number of rounds equal to your tier.</p>
+
+<p class="stat-block-title" id="spell-focus-mythic">Spell Focus (Mythic)</p>
+<p class="stat-block-1">Your magical specialties are particularly effective.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Choose a school of magic you already have <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> in. The bonus to save DCs provided by <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> and Greater <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> for that school increases by 1. You can expend one use of mythic power as part of casting a spell from your chosen school to force any of the spell's targets to roll their saving throws twice, taking the lower result.</p>
+<p class="stat-block-1"><b>Special</b>: You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> feat.</p>
+
+<p class="stat-block-title" id="spell-mastery-mythic">Spell Mastery (Mythic)</p>
+<p class="stat-block-1">You're so familiar with certain spells you can prepare them with the greatest of ease.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_spell-mastery" >Spell Mastery</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can prepare spells you have selected with <a href="/pathfinderRPG/prd/feats.html#_spell-mastery" >Spell Mastery</a> as a full-round action. You must spend the appropriate amount of time preparing other spells you have not mastered. As a full-round action, you can expend one use of mythic power to prepare all your spells that you have selected with <a href="/pathfinderRPG/prd/feats.html#_spell-mastery" >Spell Mastery</a>.</p>
+
+<p class="stat-block-title" id="spell-penetration-mythic">Spell Penetration (Mythic)</p>
+<p class="stat-block-1">Your mythic power breaches your enemies' defenses.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_spell-penetration" >Spell Penetration</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Add half your tier to caster level checks to overcome spell resistance. If you have Greater <a href="/pathfinderRPG/prd/feats.html#_spell-penetration" >Spell Penetration</a>, add your full tier instead.</p>
+
+<p class="stat-block-title" id="spellbreaker-mythic">Spellbreaker (Mythic)</p>
+<p class="stat-block-1">You're a spellcaster's worst nightmare.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_spellbreaker">Spellbreaker</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Any non-mythic creature you threaten provokes an attack of opportunity from you whenever it uses a spell or spell-like ability, even when casting defensively or casting a quickened spell.</p>
+<p class="stat-block-1">If a non-mythic creature within 30 feet of you uses a spell or spell-like ability, you can expend one use of mythic power to make a ranged attack against that creature as an attack of opportunity (even if the creature wouldn't normally provoke attacks of opportunity). You must have a ranged weapon in hand or have a free hand and the non-mythic <a href="/pathfinderRPG/prd/feats.html#_quick-draw" >Quick Draw</a> feat to use this ability. You can use this ability against a mythic creature by expending two uses of mythic power.</p>
+
+<p class="stat-block-title" id="spirited-charge-mythic">Spirited Charge (Mythic)</p>
+<p class="stat-block-1">Your mounted charge knocks the wind and wits from those foolish enough to stand against you.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_spirited-charge">Spirited Charge</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you hit an opponent with a mounted charge, that opponent must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Str modifier) or be staggered for a number of rounds equal to your tier. If you use a lance with this attack, increase the saving throw DC by 2. As a free action before you make the attack, you can expend one use of mythic power to daze your opponent on a failed saving throw instead of staggering it.</p>
+
+<p class="stat-block-title" id="spontaneous-metafocus-mythic">Spontaneous Metafocus (Mythic)</p>
+<p class="stat-block-1">You apply metamagic to your spells with greater ease than do other spontaneous casters.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_spontaneous-metafocus" >Spontaneous Metafocus</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can change which spell your <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_spontaneous-metafocus" >Spontaneous Metafocus</a> feat applies to each morning when you restore your expended spell slots. The spell it applies to can be of any level, but it must be a legal selection for the <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_spontaneous-metafocus" >Spontaneous Metafocus</a> feat.</p>
+<p class="stat-block-1"><b>Special</b>: You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_spontaneous-metafocus" >Spontaneous Metafocus</a> feat.</p>
+
+<p class="stat-block-title" id="spring-attack-mythic">Spring Attack (Mythic)</p>
+<p class="stat-block-1">You move across the battlefield in a blur of whirling blades.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/feats.html#_spring-attack">Spring Attack</a>, base attack bonus +6.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you use <a href="/pathfinderRPG/prd/feats.html#_spring-attack">Spring Attack</a>, you don't need to move at least 10 feet before making the first attack. If you expend one use of mythic power when you start a <a href="/pathfinderRPG/prd/feats.html#_spring-attack">Spring Attack</a>, the movement you make during the <a href="/pathfinderRPG/prd/feats.html#_spring-attack">Spring Attack</a> doesn't provoke attacks of opportunity.</p>
+
+<p class="stat-block-title" id="stealthy-mythic">Stealthy (Mythic)</p>
+<p class="stat-block-1">Your grace and fluidity are beyond compare.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_stealthy" >Stealthy</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The bonus on <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> and <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> skill checks from <a href="/pathfinderRPG/prd/feats.html#_stealthy" >Stealthy</a> increases by 2. In addition, you can expend one use of mythic power to treat an <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> or <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> check as if you had rolled a natural 20. You must decide to use this ability before making the roll.</p>
+
+<p class="stat-block-title" id="strike-back-mythic">Strike Back (Mythic)</p>
+<p class="stat-block-1">Your precise counterattacks degrade your foes' advantages in combat.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_strike-back" >Strike Back</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you make a melee attack as a readied action against a foe outside your melee reach, you can take a 5-foot step toward that foe. If you expend one use of mythic power, you can move your speed toward the foe instead. Neither of these counts toward the movement made during your turn.</p>
+
+<p class="stat-block-title" id="strong-comeback-mythic">Strong Comeback (Mythic)</p>
+<p class="stat-block-1">You never make the same mistake twice.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_strong-comeback" >Strong Comeback</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you're allowed to reroll an ability check, a skill check, or a saving throw, roll two dice and take the higher result, before adding the bonus from <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_strong-comeback" >Strong Comeback</a>.</p>
+
+<p class="stat-block-title" id="stunning-fist-mythic">Stunning Fist (Mythic)</p>
+<p class="stat-block-1">With greater potency and frequency, your fists stun those who stand against you.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_stunning-fist">Stunning Fist</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The DC of your Stunning Fist increases by half your tier, and you can use Stunning Fist multiple times during the same round. As a free action, you can expend one use of your mythic power to use Stunning Fist without spending one of your daily uses of the feat.</p>
+
+<p class="stat-block-title" id="throw-anything-mythic">Throw Anything (Mythic)</p>
+<p class="stat-block-1">You're so skilled at throwing weapons that it hardly matters what you throw.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_throw-anything" >Throw Anything</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a +2 bonus on attack rolls and damage rolls made using an improvised thrown weapon or splash weapon. This bonus stacks with the bonus from the non-mythic <a href="/pathfinderRPG/prd/feats.html#_throw-anything" >Throw Anything</a> feat. If you miss with a thrown splash weapon, it always lands adjacent to its target regardless of how many range increments it was thrown.</p>
+
+<p class="stat-block-title" id="titan-strike-mythic">Titan Strike (Mythic)</p>
+<p class="stat-block-1">Your fists can fell titanic foes.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a> (mythic).</p>
+<p class="stat-block-1"><b>Benefit</b>: Your unarmed strike deals damage as if you were one size category larger. You also gain a +1 bonus for each size category that your target is larger than you on the following: bull rush, drag, grapple, overrun, sunder, and trip combat maneuver checks and the DC of your Stunning Fist.</p>
+
+<p class="stat-block-title" id="toughness-mythic">Toughness (Mythic)</p>
+<p class="stat-block-1">You have legendary resilience and durability.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a> provides you twice as many hit points. In addition, when you're below 0 hit points, you gain DR 10/epic. This DR stacks with any other DR/epic you might possess.</p>
+
+<p class="stat-block-title" id="trample-mythic">Trample (Mythic)</p>
+<p class="stat-block-1">Your rearing mount can stomp foes into the ground, barely breaking stride.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_trample">Trample</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your mount can make two hoof attacks against an opponent you knock down with an overrun, instead of one. You can expend one use of mythic power when you score a critical hit with one or more of those hoof attacks. When you do, the critical is automatically confirmed. If both scored critical hits, expending one use of mythic power automatically confirms both.</p>
+
+<p class="stat-block-title" id="tripping-staff-mythic">Tripping Staff (Mythic)</p>
+<p class="stat-block-1">Your staff is valuable for attack and defensive balance.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_tripping-staff" >Tripping Staff</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You add half your tier to CMD against trip maneuvers and on combat maneuver checks to trip with a quarterstaff. When you're wielding a quarterstaff and an opponent you threaten attempts to trip you and fails, it provokes an attack of opportunity from you. You must use your staff for this attack of opportunity.</p>
+
+<p class="stat-block-title" id="turn-undead-mythic">Turn Undead (Mythic)</p>
+<p class="stat-block-1">The power of your divine energy can not only cause undead to flee but also destroy them where they stand.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/feats.html#_turn-undead" >Turn Undead</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you use <a href="/pathfinderRPG/prd/feats.html#_turn-undead" >Turn Undead</a>, the range increases by 10 feet per tier, and non-mythic undead take a penalty on their saving throws equal to your tier.</p>
+<p class="stat-block-1">You can expend one use of mythic power when using <a href="/pathfinderRPG/prd/feats.html#_turn-undead" >Turn Undead</a> to destroy undead. Instead of fleeing, undead that fail their saves might be destroyed. You destroy 2d4 Hit Dice worth of undead per tier. Undead with the fewest HD are affected first; among undead with equal HD, those that are closest to the burst's point of origin are affected first. No undead of 9 or more HD can be affected, and HD that aren't sufficient to affect an undead are wasted.</p>
+
+<p class="stat-block-title" id="two-fisted-drinker-mythic">Two-Fisted Drinker (Mythic)</p>
+<p class="stat-block-1">You can pound down drinks with amazing verve.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_quick-draw" >Quick Draw</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can draw two potions or other beverages&mdash;mundane or magical&mdash;from a pouch, bandolier, or similar holder (but not from a backpack) as a move action. As a standard action, you can drink two potions or other beverages. You must have two free hands to use this feat.</p>
+
+<p class="stat-block-title" id="two-weapon-defense-mythic">Two-Weapon Defense (Mythic)</p>
+<p class="stat-block-1">Your graceful flow between attack and defense makes you difficult to hit.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_two-weapon-defense">Two-Weapon Defense</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When using Two-Weapon Defense, you apply the highest enhancement bonus from your two weapons to the shield bonus granted by that feat.</p>
+
+<p class="stat-block-title" id="two-weapon-fighting-mythic">Two-Weapon Fighting (Mythic)</p>
+<p class="stat-block-1">With deft strikes, you gain an advantage over your foes beyond mere damage.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: As an immediate action, you can expend one use of mythic power to negate the penalties on attack rolls for two-weapon fighting for a number of rounds equal to your tier.</p>
+
+<p class="stat-block-title" id="two-weapon-rend-mythic">Two-Weapon Rend (Mythic)</p>
+<p class="stat-block-1">Your synchronized dual attacks are even more dangerous, and can leave lasting wounds.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_two-weapon-rend">Two-Weapon Rend</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: The damage of your Two-Weapon Rend increases to 2d8 points plus twice your Strength modifier. You can expend one use of mythic power to gain a bonus on this damage equal to twice your tier.<span class="hyperlink char-style-override-15"></span></p>
+
+<p class="stat-block-title" id="undead-master-mythic">Undead Master (Mythic)</p>
+<p class="stat-block-1">Through your fearsome mythic nature, you have matchless power over the undead.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_undead-master" >Undead Master</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you cast <i><a href="/pathfinderRPG/prd/spells/animateDead.html#_animate-dead" >animate dead</a> </i>or use the <a href="/pathfinderRPG/prd/feats.html#_command-undead" >Command Undead</a> feat, add your tier to your caster level when determining the number of Hit Dice of undead you animate. This stacks with the increased caster level of <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_undead-master" >Undead Master</a>. When you cast <i><a href="/pathfinderRPG/prd/spells/commandUndead.html#_command-undead" >command undead</a></i>, your duration is tripled rather than doubled.</p>
+
+<p class="stat-block-title" id="unseat-mythic">Unseat (Mythic)</p>
+<p class="stat-block-1">You knock your opponents down from their mounts with frightening concussive force.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_unseat">Unseat</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you successfully bull rush an opponent off his mount with Unseat, your opponent takes 1d6 points of falling damage per 2 tiers you possess. Items or abilities that reduce falling damage, such as a successful <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> check, can reduce the damage dealt by the impact.</p>
+
+<p class="stat-block-title" id="valiant-vault-mythic">Valiant Vault (Mythic)</p>
+<p class="stat-block-1">Your mount can make heroic leaps.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, Ride-By Attack, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> 5 ranks.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your mount is always considered to have a running start when using <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> to jump. You can expend one use of mythic power to grant your mount a +10 bonus on an <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> check, or a +20 bonus if the check is made to jump.</p>
+<p class="stat-block-1">When making a mounted charge, you can guide your mount to leap over a foe between your starting position and the target of your charge. You make a <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> check or your mount makes an <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> check (whichever is lower) during the charge, using the rules for the leap task under the <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> skill. If the height you clear with that check exceeds the creature's height, you jump over it and continue your charge on the opposite side. This movement provokes attacks of opportunity. Alternatively, you can vault over your target while making a Ride-By Attack, allowing you to move over or through its space and continue moving on the opposite side of it. If your jump exceeds the target's height, you gain a +1 bonus on the attack roll for higher ground, and if any of your allies threatens the target, you treat the target as flanked for purposes of your Ride-By Attack.</p>
+
+<p class="stat-block-title" id="vital-strike-mythic">Vital Strike (Mythic)</p>
+<p class="stat-block-1">You can strike your foes with incredible force.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Whenever you use <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-vital-strike">Improved Vital Strike</a>, or Greater <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, multiply the Strength bonus, magic bonus, and other bonuses that would normally be multiplied on a critical hit by the number of weapon damage dice you roll for that feat.</p>
+<p class="stat-block-1">Extra damage from sources that wouldn't normally be multiplied on a critical hit isn't multiplied by this feat.</p>
+
+<p class="stat-block-title" id="voice-of-the-sibyl-mythic">Voice of the Sibyl (Mythic)</p>
+<p class="stat-block-1">You overpower weaker and more vulnerable minds with your voice alone.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_voice-of-the-sibyl" >Voice of the Sibyl</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a +1 bonus on all <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, and <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (oratory) skill checks for every 3 tiers you possess. This bonus stacks with the bonus from <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_voice-of-the-sibyl" >Voice of the Sibyl</a>. If you have 10 or more ranks in at least two of these skills, gain a +2 bonus to the DC of any language-dependent spell you cast.</p>
+
+<p class="stat-block-title" id="warrior-priest-mythic">Warrior Priest (Mythic)</p>
+<p class="stat-block-1">Your faith speeds you in battle and further strengthens your mind and confidence.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_warrior-priest" >Warrior Priest</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a bonus equal to half your tier both on initiative checks and on concentration checks to cast a spell or use a spell-like ability when casting defensively or while grappled. These bonuses stack with the bonuses from <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_warrior-priest" >Warrior Priest</a>.</p>
+
+<p class="stat-block-title" id="weapon-finesse-mythic">Weapon Finesse (Mythic)</p>
+<p class="stat-block-1">You're an expert with weapons that rely on your agility.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When using <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a>, you may also use your Dexterity modifier instead of your Strength modifier on your damage rolls. If you carry a shield, its armor check penalty doesn't apply to either the attack rolls or the damage rolls.</p>
+
+<p class="stat-block-title" id="weapon-focus-mythic">Weapon Focus (Mythic)</p>
+<p class="stat-block-1">You're a master of one type of weapon.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: Double the bonuses on your attack rolls from <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> and Greater <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a>. As a swift action, you can expend one use of mythic power to gain a bonus on attack rolls with your selected weapon equal to half your tier until the end of your turn.</p>
+<p class="stat-block-1"><b>Special</b>: If you have taken non-mythic <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> multiple times, you must choose which of those feats this enhances. You can take this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> feat you have.</p>
+
+<p class="stat-block-title" id="weapon-specialization-mythic">Weapon Specialization (Mythic)</p>
+<p class="stat-block-1">The damage you deal with your chosen weapon is truly awesome to behold.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/feats.html#_weapon-specialization">Weapon Specialization</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: When using your chosen weapon, you gain a bonus equal to half your tier on damage rolls. This stacks with the bonus from Weapon Specialization and Greater Weapon Specialization.</p>
+<p class="stat-block-1"><b>Special</b>: If you have taken non-mythic Weapon Specialization multiple times, you must choose which of those feats this enhances. You can take this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Weapon Specialization feat you have.</p>
+
+<p class="stat-block-title" id="witch-knife-mythic">Witch Knife (Mythic)</p>
+<p class="stat-block-1">Your witch knife is as much an extension of your body as it is an extension of your power.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_witch-knife" >Witch Knife</a>.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can use your witch knife as an additional focus component for all your witch spells, not just your patron spells, adding 1 to their DC. This bonus stacks with the bonus to patron spells granted by <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_witch-knife" >Witch Knife</a>, granting your patron spells a total +2 bonus to their DC. Additionally, the hand holding the witch knife is still considered free for the purpose of casting spells and delivering touch attacks.</p>
+
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

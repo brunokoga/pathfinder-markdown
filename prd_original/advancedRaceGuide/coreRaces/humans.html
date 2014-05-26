@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Humans</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Humans",globalNavPath=[{ href: '/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html', name: 'Core Races'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body">
+
+<h1 id="humans">Humans</h1>
+<p>Humans possess exceptional drive and a great capacity to endure and expand, and as such are currently the dominant race in the world. Their empires and nations are vast, sprawling things, and the citizens of these societies carve names for themselves with the strength of their sword arms and the power of their spells. Humanity is best characterized by its tumultuousness and diversity, and human cultures run the gamut from savage but honorable tribes to decadent, devil-worshiping noble families in the most cosmopolitan cities. Humans' curiosity and ambition often triumph over their predilection for a sedentary lifestyle, and many leave their homes to explore the innumerable forgotten corners of the world or lead mighty armies to conquer their neighbors, simply because they can.</p>
+<p>Human society is a strange amalgam of nostalgia and futurism, being enamored of past glories and wistfully remembered "golden ages," yet at the same time quick to discard tradition and history and strike off into new ventures. Relics of the past are kept as prized antiques and museum pieces, as humans love to collect things&mdash;not only inanimate relics but also living creatures&mdash;to display for their amusement or to serve by their side. Other races suggest this behavior is due to a deep-rooted urge to dominate and assert power in the human psyche, an urge to take, till, or tame the wild things and places of the world. Those with a more charitable view believe humans are simply collectors of experiences, and the things they take and keep, whether living, dead, or never alive, are just tokens to remind themselves of the places they have gone, the things they have seen, and the deeds they have accomplished. Their present and future value is just a bonus; their real value is as an ongoing reminder of the inevitable progress of humanity.</p>
+<p>Humans in many places are fascinated by older races and cultures, though at times they grow frustrated or even contemptuous of ancient and (to their mind) outmoded traditions. Their attitudes toward other races are thus a curious mix of exoticism and even fetishism, though usually with a very superficial level of understanding and appreciation of those cultures, alongside a deeply rooted arrogance that means most humans have a hard time regarding themselves as anything other than the default standard of society. Human scholars engaged in the study of other races&mdash;who might be assumed to be the most cosmopolitan and well versed in their nature and culture&mdash;have often proved no better than the less-learned members of their race when it comes to genuine closing of the social distance. Humans are gregarious, often friendly, and willing to mix and interact with others, but their sheer obliviousness to their offhanded marginalization of others is what so chagrins other races when dealing with them.</p>
+<p>Of course, well-meaning, blundering ignorance and numerical superiority are not the only things that make other races suspicious of humans. Entirely too many examples can be found throughout history wherein human xenophobia and intolerance has led to social isolationism, civil oppression, bloody purges, inquisitions, mob violence, and open war. Humans are not the only race to hate what is different among them, but they seem to have a susceptibility to fear-mongering and suspicion, whether about race, language, religion, class, gender, or another difference. More moderate human citizens often sit idly by while their more extreme compatriots dominate the political and cultural conversation, yet there are also many who stand in opposition to extremists and embody a spirit of unity across the bounds of difference, transcending barriers and forming alliances and relationships both large and small across every color, creed, country, or species.</p>
+<p><b>Physical Description</b>: The physical characteristics of humans are as varied as the world's climes. From the dark-skinned tribesmen of the southern continents to the pale and barbaric raiders of the northern lands, humans possess a wide variety of skin colors, body types, and facial features. Generally speaking, humans' skin color assumes a darker hue the closer to the equator they live. At the same time, bone structure, hair color and texture, eye color, and a host of facial and bodily phenotypic characteristics vary immensely from one locale to another. Cheekbones may be high or broad, noses aquiline or flat, and lips full or thin; eyes range wildly in hue, some deep set in their sockets, and others with full epicanthic folds. Appearance is hardly random, of course, and familial, tribal, or national commonalities often allow the knowledgeable to identify a human's place of origin on sight, or at least to hazard a good guess. Humans' origins are also indicated through their traditional styles of bodily decoration, not only in the clothing or jewelry worn, but also in elaborate hairstyles, piercing, tattooing, and even scarification. </p>
+<p><b>Society</b>: Human society comprises a multitude of governments, attitudes, and lifestyles. Though the oldest human cultures trace their histories thousands of years into the past, when compared to the societies of other races like elves and dwarves, human society seems to be in a state of constant flux as empires fragment and new kingdoms subsume the old. In general, humans are known for their flexibility, ingenuity, and ambition. Other races sometimes envy humans their seemingly limitless adaptability, not so much biologically speaking but in their willingness to step beyond the known and press on to whatever might await them. While many or even most humans as individuals are content to stay within their comfortable routine, there is a dauntless spirit of discovery endemic to humans as a species that drives them in striving toward possibilities beyond every horizon.</p>
+<p><b>Relations</b>: Humans are fecund, and their drive and numbers often spur them into contact with other races during bouts of territorial expansion and colonization. In many cases, this tendency leads to violence and war, yet humans are also swift to forgive and forge alliances with races who do not try to match or exceed them in violence. Proud, sometimes to the point of arrogance, humans might look upon dwarves as miserly drunkards, elves as flighty fops, halflings as craven thieves, gnomes as twisted maniacs, and half-elves and half-orcs as embarrassments&mdash;but the race's diversity among its own members also makes many humans quite adept at accepting others for what they are. Humans may become so absorbed in their own affairs that they remain ignorant of the language and culture of others, and some take this ignorance to a hateful extreme of intolerance, oppression, and rarely even extermination of others they perceive as dangerous, strange, or "impure." Thankfully, while such incidents and movements may taint all of humanity in the eyes of some, they are more often the exception than the rule. </p>
+<p><b>Alignment and Religion</b>: Humanity is perhaps the most diverse of all the common races, with a capacity for both great evil and boundless good. Some humans assemble into vast barbaric hordes, while others build sprawling cities that cover miles. Taken as a whole, most humans are neutral, yet they generally tend to congregate in nations and civilizations with specific alignments. Humans also have the widest range of gods and religions, lacking other races' ties to tradition and eager to turn to anyone offering them glory or protection.</p>
+<p><b>Adventurers</b>: Ambition alone drives countless humans, and for many, adventuring serves as a means to an end, whether it be wealth, acclaim, social status, or arcane knowledge. A few pursue adventuring careers simply for the thrill of danger. Humans hail from myriad regions and backgrounds, and as such can fill any role within an adventuring party.</p>
+<p><b>Names</b>: Unlike other races, which generally cleave to specific traditions and shared histories, humanity's diversity has resulted in a nearly infinite set of names. The humans of a northern barbarian tribe have much different names than those hailing from a subtropical nation of sailors and traders. Even humans who speak the same language may have names that are as varied as their beliefs and appearances, depending on their origins.</p>
+
+<h1 id="human-racial-traits">Human Racial Traits</h1>
+<p><b>+2 to One Ability Score</b>: Human characters gain a +2 racial bonus to one ability score of their choice at creation to represent their varied nature.</p>
+<p><b>Medium</b>: Humans are Medium creatures and receive no bonuses or penalties due to their size.</p>
+<p><b>Normal Speed</b>: Humans have a base speed of 30 feet.</p>
+<p><b>Bonus Feat</b>: Humans select one extra feat at 1st level.</p>
+<p><b>Skilled</b>: Humans gain an additional skill rank at first level and one additional rank whenever they gain a level.</p>
+<p><b>Languages</b>: Humans begin play speaking Common. Humans with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic).</p>
+
+<h1 id="alternate-racial-rules">Alternate Racial Rules</h1>
+<p>Humans are as adaptable as they are varied. The following rules reflect this flexibility and can exhibit themselves in any human character.</p>
+
+<h2 id="alternate-racial-traits">Alternate Racial Traits</h2>
+<p>The following racial traits may be selected instead of existing human racial traits. Consult your GM before selecting any of these new options.</p>
+<p id="adoptive-parentage"><b>Adoptive Parentage</b>: Humans are sometimes orphaned and adopted by other races. Choose one humanoid race without the human subtype. You start play with that race's languages and gain that race's weapon familiarity racial trait (if any). If the race does not have weapon familiarity, you gain either <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> or <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> as a bonus feat that is appropriate for that race instead. This racial trait replaces the bonus feat trait.</p>
+<p id="dual-talent"><b>Dual Talent</b>: Some humans are uniquely skilled at maximizing their natural gifts. These humans pick two ability scores and gain a +2 racial bonus in each of those scores. This racial trait replaces the +2 bonus to any one ability score, the bonus feat, and the skilled traits.</p>
+<p id="eye-for-talent"><b>Eye for Talent</b>: Humans have great intuition for hidden potential. They gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks. In addition, when they acquire an animal companion, bonded mount, cohort, or familiar, that creature gains a +2 bonus to one ability score of the character's choice. This racial trait replaces the bonus feat trait.</p>
+<p id="focused-study"><b>Focused Study</b>: All humans are skillful, but some, rather than being generalists, tend to specialize in a handful of skills. At 1st, 8th, and 16th level, such humans gain <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> in a skill of their choice as a bonus feat. This racial trait replaces the bonus feat trait.</p>
+<p id="heart-of-the-fields"><b>Heart of the Fields</b>: Humans born in rural areas are used to hard labor. They gain a racial bonus equal to half their character level to any one <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> skill, and once per day they may ignore an effect that would cause them to become fatigued or exhausted. This racial trait replaces skilled.</p>
+<p id="heart-of-the-mountains"><b>Heart of the Mountains</b>: Humans born in the mountains are skilled at negotiating heights and precipices. They gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> checks and <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks to move on narrow surfaces and uneven ground. Furthermore, they are considered acclimated to the effects of high altitude. This racial trait replaces skilled. </p>
+<p id="heart-of-the-sea"><b>Heart of the Sea</b>: Humans born near the sea are always drawn to it. They gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (sailor) and <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> checks, and these are always class skills for them. They can hold their breath twice as long as normal, and spellcasters gain a +4 racial bonus on concentration checks when attempting to cast spells underwater. This racial trait replaces skilled.</p>
+<p id="heart-of-the-slums"><b>Heart of the Slums</b>: Humans who eke out a life in a city's teeming slums must be quick and clever. They gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> and <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks, and a +4 racial bonus on <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks in urban and underground settings. In addition, they may roll twice when saving against disease, taking the better roll. This racial trait replaces skilled.</p>
+<p id="heart-of-the-snows"><b>Heart of the Snows</b>: Humans born in chilly climes treat cold climates as one category less severe. They gain a +2 racial bonus on Fortitude saving throws against the effects of cold climates, on any check or saving throw to avoid slipping and falling, and to CMD against trip combat maneuvers. This bonus applies on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> and <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> checks made in slippery conditions. This racial trait replaces skilled.</p>
+<p id="heart-of-the-streets"><b>Heart of the Streets</b>: Humans from bustling cities are skilled with crowds. They gain a +1 racial bonus on Reflex saves and a +1 dodge bonus to Armor Class when adjacent to at least two other allies. Crowds do not count as difficult terrain for them. This racial trait replaces skilled.</p>
+<p id="heart-of-the-sun"><b>Heart of the Sun</b>: Humans born in tropical climates treat hot climates as one category less severe. They also gain a +2 racial bonus on Fortitude saving throws against the effects of a hot climate, as well as against the poison and distraction ability of swarms and vermin. This racial trait replaces skilled.</p>
+<p id="heart-of-the-wilderness"><b>Heart of the Wilderness</b>: Humans raised in the wild learn the hard way that only the strong survive. They gain a racial bonus equal to half their character level on <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks. They also gain a +5 racial bonus on Constitution checks to stabilize when dying and add half their character level to their Constitution score when determining the negative hit point total necessary to kill them. This racial trait replaces skilled.</p>
+<p id="heroic"><b>Heroic</b>: Some humans are born heroes. In campaigns that use the optional hero point system, each time these humans gain a level, they gain 2 hero points instead of 1. If they take the Blood of Heroes feat, they gain 3 hero points each level instead of 2. This racial trait replaces the bonus feat trait.</p>
+<p id="mixed-heritage"><b>Mixed Heritage</b>: Often human civilization is defined by more than one characteristic. A human with this trait may select a second "Heart of the" racial trait. This replaces the bonus feat racial trait.</p>
+<p id="silver-tongued"><b>Silver Tongued</b>: Human are often adept at subtle manipulation and putting even sworn foes at ease. Humans with this trait gain a +2 bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> and <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> checks. In addition, when they use <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> to shift a creature's attitude, they can shift up to three steps up rather than just two. This racial trait replaces skilled. </p>
+
+<h2 id="racial-subtypes">Racial Subtypes</h2>
+<p>You can combine various alternate racial traits to create human subraces or variant races, such as the following.</p>
+<p id="cosmopolitan"><b>Cosmopolitan</b>: Adept as city living, these humans can navigate crowds and fulfill the need for skilled labor in such settlements. Replace the skilled racial trait with heart of the streets and the bonus feat racial trait with focused study.</p>
+<p id="country-folk"><b>Country Folk</b>: These humans are suited to life in the countryside. Replace the skilled racial trait with heart of the fields and the bonus feat racial trait with focused study.</p>
+<p id="gutter-rat"><b>Gutter Rat</b>: Often second-class citizens living in sprawling ghettos and slums, these humans work hard to eke out an existence in a city. Replace the skilled racial trait with heart of the slums and the bonus feat racial trait with mixed heritage (heart of the streets). </p>
+<p id="imperious-human"><b>Imperious Human</b>: Hailing from either an empire, an emerging nation, or a controlling city-state, these humans are arrogant expansionists, absorbing others to their causes and culture. Replace the skilled racial trait with silver tongued and the bonus feat racial trait with eye for talent.</p>
+<p id="trailblazer"><b>Trailblazer</b>: Adaptive and inventive, these humans must have quick wits and a dose of heroic luck to survive in the lands they settle. Replace the skilled racial trait with heart of the wilderness and the bonus feat racial trait with heroic. At the GM's discretion, you can swap out the heart of the wilderness racial trait for either heart of the mountains, heart of the sea, heart of the snows, or heart of the sun, depending on the type of terrain these humans are settling.</p>
+<p id="versatile-human"><b>Versatile Human</b>: While they lack some of the training of other humans, the natural talents of versatile humans more than make up for this lack. Replace the +2 bonus to any ability score, the skilled racial trait, and the bonus feat racial trait with dual talent. </p>
+
+<h2 id="favored-class-options">Favored Class Options</h2>
+<p>The following options are available to all humans who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the class reward.</p>
+<p><b>Alchemist</b>: Add one extract formula from the alchemist formula list to the character's formula book. This formula must be at least one level below the highest formula level the alchemist can create.</p>
+<p><b>Barbarian</b>: Add a +1/2 bonus to trap sense or +1/3 to the bonus from the superstitious rage power.</p>
+<p><b>Bard</b>: Add one spell known from the bard spell list. This spell must be at least one level below the highest spell level the bard can cast.</p>
+<p><b>Cavalier</b>: Add +1/4 to the cavalier's banner bonus.</p>
+<p><b>Cleric</b>: Add a +1 bonus on caster level checks made to overcome the spell resistance of outsiders.</p>
+<p><b>Druid</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> and <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks to change a creature's attitude.</p>
+<p><b>Fighter</b>: Add +1 to the fighter's CMD when resisting two combat maneuvers of the character's choice.</p>
+<p><b>Gunslinger</b>: Add +1/4 point to the gunslinger's grit points. </p>
+<p><b>Inquisitor</b>: Add one spell known from the inquisitor spell list. This spell must be at least one level below the highest spell level the inquisitor can cast.</p>
+<p><b>Magus</b>: Add +1/4 point to the magus' arcane pool.</p>
+<p><b>Monk</b>: Add +1/4 point to the monk's <i>ki</i> pool.</p>
+<p><b>Oracle</b>: Add one spell known from the oracle spell list. This spell must be at least one level below the highest spell level the oracle can cast.</p>
+<p><b>Paladin</b>: Add +1 to the paladin's energy resistance to one kind of energy (maximum +10).</p>
+<p><b>Ranger</b>: Add +1 hit point or +1 skill rank to the ranger's animal companion. If the ranger ever replaces his companion, the new companion gains these bonus hit points or skill ranks.</p>
+<p><b>Rogue</b>: The rogue gains +1/6 of a new rogue talent.</p>
+<p><b>Sorcerer</b>: Add one spell known from the sorcerer spell list. This spell must be at least one level below the highest spell level the sorcerer can cast.</p>
+<p><b>Summoner</b>: Add +1 hit point or +1 skill rank to the summoner's eidolon.</p>
+<p><b>Witch</b>: Add one spell from the witch spell list to the witch's familiar. This spell must be at least one level below the highest spell level she can cast. If the witch ever replaces her familiar, the new familiar knows these bonus spells.</p>
+<p><b>Wizard</b>: Add one spell from the wizard spell list to the wizard's spellbook. This spell must be at least one level below the highest spell level the wizard can cast.</p>
+
+<h1 id="racial-archetypes-&-bloodlines">Racial Archetypes &amp; Bloodlines</h1>
+<p>The following racial bloodline and racial archetypes are available to humans.</p>
+<h2 id="buccaneer-(gunslinger)">Buccaneer (Gunslinger)</h2>
+<p>Freebooters who cling to the convoluted codes that rule independent ships, the buccaneer is a gunslinger of the high seas. Their exploits are fueled by the thrill of danger and often by the temporary courage provided by grog. A buccaneer has the following class features.</p>
+<p id="deeds"><b>Deeds</b>: A buccaneer swaps four of the normal gunslinger deeds for the following deeds.</p>
+<blockquote>
+<p id="seadog's-gait"><i>Seadog's Gait (Ex)</i>: At 1st level, the buccaneer gains <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_sea-legs" >Sea Legs</a> as a bonus feat. If she spends 1 grit point, she can ignore difficult terrain until the end of her turn. This replaces the quick clear deed.</p>
+<p id="pirate's-jargon"><i>Pirate's Jargon (Ex)</i>: At 3rd level, the buccaneer's baffling palaver of nautical jargon and piratical cant provides a +2 bonus on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> and <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks. Furthermore, she can spend a swift action and 1 grit point to cause a single living creature within 30 feet to make a Will saving throw (DC = 10 + 1/2 her buccaneer level + her Charisma modifier) or become confused for 1 round. This is a mind-affecting language-dependent effect. This replaces the pistol whip deed. </p>
+<p id="rope-swing-(ex):-"><i>Rope Swing (Ex): </i>At 7th level, as long as the buccaneer has at least 1 grit point, she gains a bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> and <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> checks equal to her gunslinger level when climbing or swinging on a rope. If she spends 1 grit point, her move while climbing or swinging on a rope does not provoke attacks of opportunity. This replaces the dead shot deed. </p>
+<p id="captain's-curse-(sp):-"><i>Captain's Curse (Sp): </i>At 11th level, a buccaneer can spend 2 grit points to use <i>old salt's curse </i>as a spell-like ability. At 15th level, she may use <i>black mark </i>instead. The caster level for these spell-like abilities is equal to the buccaneer's class level, and the save DC is equal to 10 + her buccaneer level + her Charisma modifier. This replaces the lightning reload deed.</p>
+</blockquote>
+<p id="grit"><b>Grit (Ex)</b>: Like the sea itself, a buccaneer is a force of nature. Instead of using her Wisdom modifier to determine the number of grit points she gains at the start of each day, she uses her Charisma modifier. This ability works in all other ways like the gunslinger's grit class feature. </p>
+<p id="liquid-courage"><b>Liquid Courage (Ex)</b>: At 2nd level, a buccaneer gains the ability to fortify her grit with strong drink. The act of drinking is a standard action that provokes attacks of opportunity, and each drink provides 1 grog point. Grog points can be used in place of grit points to fuel deeds or grit feats (including those requiring a minimum of 1 grit point to use). The buccaneer can gain a maximum number of grog points each day equal to her Constitution modifier (minimum 1), and they last for 1 hour or until used, whichever comes first. She gains a morale bonus on saves against fear and a dodge bonus to AC against attacks of opportunity equal to her current grog point total. This ability replaces the nimble ability. </p>
+<p id="bonus-feat"><b>Bonus Feat</b>: In addition to combat and grit feats, a buccaneer can select from the following feats as her bonus feats: <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_expert-driver" >Expert Driver</a> (water vehicles only), <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_master-siege-engineer" >Master Siege Engineer</a>, <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_siege-engineer" >Siege Engineer</a>, <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_siege-gunner" >Siege Gunner</a>, <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_skilled-driver" >Skilled Driver</a> (water vehicles only).</p>
+<p id="exotic-pet"><b>Exotic Pet (Ex)</b>: At 5th level, a buccaneer gains a familiar as a wizard of half the buccaneer's class level (though the exotic pet never gains the ability to deliver touch spells or share spells). This pet is typically a monkey or parrot (use the stats for a raven familiar). Such animals are useful scouts, even in the thick of combat. As long as the pet is within 30 feet of the buccaneer, the buccaneer also gains the benefit of evasion. This ability replaces gun training 1.</p>
+<p id="sword-and-pistol"><b>Sword and Pistol</b>: At 9th level, a buccaneer gains <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_sword-and-pistol" >Sword and Pistol</a> as a bonus feat even if she does not meet the prerequisites. This ability replaces gun training 2.</p>
+<p id="gun-training"><b>Gun Training (Ex)</b>: A buccaneer gains this ability only at 13th level with a single type of firearm. </p>
+<p id="raider's-riposte"><b>Raider's Riposte (Ex)</b>: At 17th level, whenever an enemy misses a buccaneer with an attack of opportunity, it provokes an attack of opportunity from the buccaneer. This ability replaces gun training 4.</p>
+
+<h2 id="feral-child-(druid)">Feral Child (Druid)</h2>
+<p>Some youths, abandoned in the wilderness and then raised by animals, are so connected with their adoptive home and family that they become feral. Suspicious of civilized society, these foundlings often choose allegiance to the wild over their human forebears. A feral child has the following class features.</p>
+<p id="weapon-and-armor-proficiency"><b>Weapon and Armor Proficiency</b>: A feral child loses proficiency with the scimitar, scythe, and sickle and with shields. </p>
+<p id="class-skills"><b>Class Skills</b>: A feral child adds <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> to her list of class skills and removes <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> and <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> from her list of class skills. </p>
+<p id="illiteracy:-"><b>Illiteracy: </b>At 1st level, a feral child is unable to read and write, though she may learn by taking 1 rank of <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a>. She does not gain Druidic as a free language and cannot select Sylvan as a bonus language.</p>
+<p id="improved-unarmed-strike"><b>Improved Unarmed Strike</b>: At 1st level, a feral child gains <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a> as a bonus feat.</p>
+<p id="beast-family"><b>Beast Family (Ex)</b>: At 1st level, a feral child may choose one specific type of animal as the type that raised her. She gains a +2 circumstance bonus on <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> and wild empathy checks with animals of that type, and she can communicate with them as if using a continual <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a> </i>spell-like ability, but this ability is nonmagical. </p>
+<p id="nature-bond"><b>Nature Bond (Ex)</b>: At 1st level, a feral child must select an animal companion as her nature bond. </p>
+<p id="favored-terrain"><b>Favored Terrain (Ex)</b>: At 3rd level, a feral child gains the favored terrain ability as a ranger of her class level. A feral child may not choose urban as a favored terrain. This ability replaces trackless step and a thousand faces. </p>
+<p id="native-cunning"><b>Native Cunning (Ex)</b>: At 3rd level, a feral child gains trap sense as a barbarian of equal level, and in her favored terrain, she immediately receives a <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> check to notice traps within 10 feet, as the trap spotter rogue talent. In addition, at 3rd level and every three levels thereafter, she may choose one combat maneuver, and gains a bonus equal to her trap sense bonus to her CMD against that maneuver. This ability replaces wild shape.</p>
+<p id="native-fortitude"><b>Native Fortitude (Ex)</b>: At 4th level, a feral child gains a +1 bonus on saving throws against disease, exhaustion, fatigue, fear, and poison. When she is in her favored terrain, she instead applies her favored terrain bonus on such saving throws. She also recovers from ability damage, exhaustion, and fatigue at twice the normal rate. This ability replaces resist nature's lure.</p>
+<p id="native-call"><b>Native Call (Su)</b>: At 9th level, when in her favored terrain, for any <i>summon nature's ally </i>spells a feral child uses to summon animals that are native to that terrain, she treats the duration of the spell as if she were 2 levels higher. </p>
+<p>At 17th level, when the feral child uses <i>summon nature's ally</i> spells to summon such animals, those animals gain a +2 bonus to both their Strength and Constitution ability scores. This stacks with the effects of the Augmented Summoning feat. </p>
+<p>This ability replaces venom immunity and timeless body. </p>
+
+<h2 id="imperious-bloodline-(sorcerer)">Imperious Bloodline (Sorcerer)</h2>
+<p>A scion of forgotten kings, with a lineage rich with the dust of ancient empires spanning every golden age of humanity's history, an imperious embodies the apex of human potential, as well as human temerity and uninhibited hubris.</p>
+<p id="class-skill"><b>Class Skill</b>: <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (oratory).</p>
+<p id="bonus-spells"><b>Bonus Spells</b>: <i><a href="/pathfinderRPG/prd/ultimateCombat/spells/momentOfGreatness.html#_moment-of-greatness" >moment of greatness</a> </i>, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i> (5th), <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a> </i>(7th), <i><a href="/pathfinderRPG/prd/advanced/spells/threefoldAspect.html#_threefold-aspect" >threefold aspect</a> </i>(9th), <i><a href="/pathfinderRPG/prd/spells/command.html#_command-greater" >greater command</a> </i>(11th), <i>pure strain </i>(13th), <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-greater" >greater age resistance</a></i>, <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/predictionOfFailure.html#_prediction-of-failure" >prediction of failure</a> </i>, <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/overwhelmingPresence.html#_overwhelming-presence" >overwhelming presence</a> </i>(19th).</p>
+<p id="bonus-feats"><b>Bonus Feats</b>: Diehard, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_heroic-defiance" >Heroic Defiance</a>, <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_heroic-recovery" >Heroic Recovery</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_lingering-spell" >Lingering Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_magical-aptitude" >Magical Aptitude</a>, <a href="/pathfinderRPG/prd/feats.html#_persuasive" >Persuasive</a>.</p>
+<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a harmful spell, you gain a bonus equal to the spell's level on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks made against any creature adversely effected by that spell until the end of your next turn. Adversely effected typically means damage, but it can also mean debilitating effects or conditions. </p>
+<p id="bloodline-powers"><b>Bloodline Powers</b>: You draw upon ancestors both legendary and forgotten. </p>
+<blockquote>
+<p id="student-of-humanity"><i>Student of Humanity (Ex)</i>: At 1st level, you gain <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history), <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local), <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility), and <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> as class skills. In addition, when using these skills to learn, study, or gather information about humans, you add an insight bonus equal to your Charisma bonus on such checks.</p>
+<p id="heroic-echo"><i>Heroic Echo (Su)</i>: At 3rd level, when you receive a morale bonus from any spell, spell-like ability, or magic item, including those you cast on yourself, that bonus increases by +1. At 9th level, this ability also applies to competence bonuses. If you receive a morale effect (or a competence effect at 9th level) that affects an area or multiple targets, as an immediate action you can share your increased bonus with all other recipients. This increase to other participants lasts a number of rounds equal to your Charisma bonus. You can use this ability once per day, plus one time per three levels after 3rd.</p>
+<p id="take-your-best-shot"><i>Take Your Best Shot (Su)</i>: At 9th level, if you are targeted by a harmful spell, spell-like ability, or supernatural ability and suffer no harm from it, whether because of a successful saving throw, spell resistance, the attack missing, or some other protection, as an immediate action you can make an <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> check to demoralize the creature that produced the effect, but only if the creature that used the harmful effect is within 30 feet and can clearly see and hear you. </p>
+<p>At 13th level, you can use this ability after succeeding at a saving throw to reduce the effects of an attack (if no save is allowed, you cannot use this ability).</p>
+<p id="heroic-legends"><i>Heroic Legends (Su)</i>: At 15th level, you may inspire greatness or inspire heroics as a bard of your sorcerer level by sacrificing a spell slot as a swift or move action. The effect lasts a number of rounds equal to the sacrificed spell's level; this duration is doubled for human recipients. </p>
+<p id="immortal-legend"><i>Immortal Legend (Ex)</i>: At 20th level, you cease aging; no longer need to eat, drink, or sleep; and gain immunity to death effects and energy drain. </p>
+</blockquote>
+
+<h2 id="wanderer-(monk)">Wanderer (Monk)</h2>
+<p>Some monks wander the world in humility to learn and to share wisdom and philosophy from their teachers with those they meet, often aiding those who are in need. A wanderer has the following class features.</p>
+<p id="class-skills"><b>Class Skills</b>: The wanderer adds <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography), <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local), <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a>, and <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> to his list of class skills. </p>
+<p id="far-traveler"><b>Far Traveler (Ex)</b>: At 1st level, the wanderer gains either one additional language known or proficiency in one exotic or martial weapon. At 4th level and every four levels thereafter, the wanderer may gain an additional language known or may retrain her weapon proficiency from this ability to a different exotic or martial weapon. This ability replaces the bonus feat gained at 1st level. </p>
+<p id="long-walk"><b>Long Walk (Ex)</b>: At 3rd level, the wanderer gains <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a> as a bonus feat, and the feat bonus doubles when he makes Constitution checks because of a forced march. In addition, a wanderer gains a +2 bonus on saving throws against  spells and effects that cause exhaustion and fatigue. This ability replaces still mind.</p>
+<p id="light-step"><b>Light Step (Su)</b>: At 5th level, a wanderer leaves no trail and cannot be tracked, though he can leave a trail if desired. By spending 1 point from his <i>ki </i>pool, he can use <i><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >ant haul</a></i>, <i><a href="/pathfinderRPG/prd/advanced/spells/featherStep.html#_feather-step" >feather step</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>,<i> <a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>, or <i><a href="/pathfinderRPG/prd/advanced/spells/tirelessPursuit.html#_tireless-pursuit" >tireless pursuit</a> </i> as a spell-like ability (with a caster level equal to his monk level). This ability replaces slow fall.</p>
+<p id="inscrutable"><b>Inscrutable (Su)</b>: At 5th level, the wanderer gains a supernatural air of mystery. The DC to gain information or insight into the wanderer with <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> skills, or <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> increases by 5. In addition, by spending 1 point from his <i>ki </i>pool, the wanderer gains <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i> for 24 hours with a caster level equal to his monk level. This ability replaces high jump.</p>
+<p id="wanderer's-wisdom"><b>Wanderer's Wisdom (Ex)</b>: At 7th level, the wanderer can dispense excellent advice in the form of philosophical proverbs and parables. As a swift action, the wanderer can inspire courage or inspire competence as a bard of his monk level by spending 2 points from his <i>ki </i>pool. This affects one creature within 30 feet and lasts a number of rounds equal to the wanderer's Wisdom modifier (minimum 1 round). This ability is language-dependent. This ability replaces wholeness of body.</p>
+<p id="disappear-unnoticed"><b>Disappear Unnoticed (Ex)</b>: At 12th level, the wanderer may use <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> to hide even while being directly observed or when no cover or concealment is available, as long as he is adjacent to at least one creature of his size or larger, by spending 1 point from his <i>ki </i>pool. This effect lasts until the beginning of the wanderer's next turn and may be continued in consecutive rounds by spending 1 <i>ki</i> point each round. This ability replaces abundant step. </p>
+<p id="free-step"><b>Free Step (Su)</b>: At 13th level, the wanderer gains continuous <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i> as a continuous spell-like ability<i>.</i> This ability replaces diamond soul. </p>
+
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The following options are available to humans. At the GM's discretion, other appropriate races may also make use of some of these.</p>
+<h2 id="human-equipment">Human Equipment</h2>
+<p>Humans have access to the following equipment.</p>
+<p id="training-harness"><b>Training Harness</b>: This specialized gear must be tailored to a specific type of animal. A training harness provides a +2 bonus on <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> checks made with an animal wearing it. </p>
+<p id="whip,-training"><b>Whip, Training</b>: This short lash has a reach of only 10 feet, but is otherwise identical to a normal whip. The wielder gains a +2 circumstance bonus on <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> checks to push a trained animal and on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks made to demoralize any animal as long as the animal is within the whip's reach. When using the whip to demoralize a trained animal, the wielder may choose to fascinate the animal rather than causing it to become shaken for the same duration as the shaken condition, but the fascinate effect ends if line of sight between the wielder and the animal is broken.</p>
+
+<table id="human-equipment"><caption>Human Equipment</caption>
+<thead><tr><th>Item</th><th>Cost</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Training harness</td><td>10 gp</td><td>10 lbs.</td></tr>
+<tr class="even"><td>Whip, training</td><td>5 gp</td><td>2 lbs.</td></tr></table>
+
+<h2 id="human-feats">Human Feats</h2>
+<p>Humans have access to the following feats. </p>
+<div class="feats-text">
+<h3 id="bestow-luck">Bestow Luck</h3>
+<p class="stat-block-1">You are extremely lucky and sometimes your allies are as well. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Defiant Luck, Inexplicable Luck, human.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain an extra use per day of your Defiant Luck ability. You can also use your Inexplicable Luck ability to grant an ally that can see and hear its benefit as an immediate action.</p>
+<h3 class="critical-vesatility-(combat)">Critical Versatility (Combat)</h3>
+<p class="stat-block-1">An open mind and combat training grant versatility to your critical hits. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Fighter level 11th, human. </p>
+<p class="stat-block-1"><b>Benefit</b>: Once per day, you can spend 1 hour practicing maneuvers to gain one single critical feat that you meet the prerequisites for. You gain the benefits of the chosen critical feat until you choose to practice a different critical feat.</p>
+<h3 id="dauntless-destiny">Dauntless Destiny</h3>
+<p class="stat-block-1">Your ability to avert disaster is impressive. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Cha 13, Fearless Curiosity, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> 10 ranks, human. </p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a +1 bonus on saving throws against effects with the emotion descriptor; this bonus stacks with those granted by Fearless Curiosity and Intimidating Confidence. In addition, once per day you may reroll a natural 1 on a saving throw or an attack roll. If your reroll results in a successful saving throw or attack roll, as a free action you can make an <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> check to demoralize the target of your attack or the creature that forced you to make a saving throw, as long as the creature is within 30 feet and can see and hear you. This effect does not apply on saving throws against traps or other objects. This does not stack with other effects that allow you to reroll a saving throw or an attack roll. You may only make one reroll. </p>
+<h3 id="defiant-luck">Defiant Luck</h3>
+<p class="stat-block-1">You can sometimes defiantly shrug off spells and attacks that would kill a lesser creature. </p>
+<p class="stat-block-1"><b>Prerequisite</b>: Human. </p>
+<p class="stat-block-1"><b>Benefit</b>: Once per day, after you roll a natural 1 on a saving throw or a critical hit is confirmed against you, you can either reroll that saving throw, or force the creature that confirmed the critical hit against you to reroll the critical confirmation roll. This does not stack with other effects that allow you to reroll a saving throw or an attack roll. You may only make one reroll.</p>
+<p class="stat-block-1"><b>Special</b>: If you are using the optional hero point system, you can also spend 1 hero point when a critical hit is confirmed against you to have the opponent reroll the critical hit confirmation roll.</p>
+<h3 id="fast-learner">Fast Learner</h3>
+<p class="stat-block-1">You progress gain extra versatility. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Int 13, human. </p>
+<p class="stat-block-1"><b>Benefit</b>: When you gain a level in a favored class, you gain both +1 hit point and +1 skill rank instead of choosing either one or the other benefit or you can choose an alternate class reward. </p>
+<h3 id="fearless-curiosity">Fearless Curiosity</h3>
+<p class="stat-block-1">Your desire to see and experience the world overrides healthy caution. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Cha 13, human. </p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a +1 bonus on saving throws against effects with the emotion descriptor. In addition, for any round in which you begin your turn affected by a fear effect, you gain a new save at the beginning of your turn to reduce the severity of the fear effect, from panicked to frightened, frightened to shaken, and shaken to unaffected. </p>
+<h3 id="heroic-will">Heroic Will</h3>
+<p class="stat-block-1">Your indomitable will breaks free from mental shackles. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, base Will save +4, human. </p>
+<p class="stat-block-1"><b>Benefit</b>: Once per day as a standard action, you may attempt a new saving throw against a harmful condition requiring a Will save that is affecting you. If you are dominated, controlled, or cannot take an action because of the effect against which you are trying to make a new saving throw, you can make this saving throw at the start of the turn as no action, but on a success, your turn ends. You cannot use this feat to remove instantaneous effects, effects that do not require a Will save, or effects that do not allow a saving throw. </p>
+<h3 id="huntmaster">Huntmaster</h3>
+<p class="stat-block-1">You are an expert trainer of horses, hounds, falcons, or hunting cats.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> 1 rank; either the animal companion, divine bond (mount), or mount class feature; human. </p>
+<p class="stat-block-1"><b>Benefit</b>: If you have the animal companion class feature, pick one of the following types of animal companions that this feat affects: bird, dog, small cat, or horse. If you have the divine bond (mount) or mount class feature, this feat always affects horses. </p>
+<p>You gain a +2 bonus on <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> and <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) checks with creatures of that type of animal. Furthermore, you are treated as one level higher when determining the abilities of your animal companion or mount, as long as it is of the chosen type.</p>
+<h3 id="improved-improvisation">Improved Improvisation</h3>
+<p class="stat-block-1">You are masterful in your improvisation. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Int 13, Fast Learner, Improvisation, human.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your nonproficiency penalty with weapons, armor, and shields is halved. In addition, the bonus on all skill checks for skills you have no ranks in increases to +4 instead of +2.</p>
+<h3>Improvisation</h3>
+<p class="stat-block-1">You can figure out how to do almost anything.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Int 13, Fast Learner, human.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a +2 bonus on all skill checks for skills you have no ranks in. Furthermore, you can use all trained skills untrained.</p>
+<h3 id="inexplicable-luck">Inexplicable Luck</h3>
+<p class="stat-block-1">Others are often dumfounded by your luck. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Defiant Luck, human. </p>
+<p class="stat-block-1"><b>Benefit</b>: Once per day, as a free action before a roll is made, you gain a +8 bonus on any single d20 roll. You can also use this ability after the roll is made, but if you do, this bonus is reduced to +4.  </p>
+<h3 id="intimidating-confidence">Intimidating Confidence</h3>
+<p class="stat-block-1">You have boundless faith in your success. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Cha 13, Fearless Curiosity, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> 5 ranks, human.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a +1 bonus on saving throws against effects with the emotion descriptor; this bonus stacks with the bonus granted by Fearless Curiosity. When you confirm a critical hit, as a free action you can make an <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> check to demoralize one creature you threaten. If you have the Dazzling Display feat, you can make <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks to demoralize all creatures you threaten instead. You gain a +2 bonus on this check if your weapon has a &times;3 critical modifier, or +4 if it has a &times;4 critical modifier.</p>
+<h3 id="martial-mastery-(combat)">Martial Mastery (Combat)</h3>
+<p class="stat-block-1">You broaden your study of weapons to encompass multiple similar weapons. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Martial Versatility, fighter level 16th, human.</p>
+<p class="stat-block-1"><b>Benefit</b>: Each combat feat you have that applies to a specific weapon (e.g., <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a>) can be used with all weapons in the same weapon group. </p>
+<h3 id="martial-versatility-(combat)">Martial Versatility (Combat)</h3>
+<p class="stat-block-1">You further broaden your study of weapons to encompass multiple similar weapons. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Fighter level 4th, human.</p>
+<p class="stat-block-1"><b>Benefit</b>: Choose one combat feat you know that applies to a specific weapon (e.g., <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a>). You can use that feat with any weapon within the same weapon group.</p>
+<p class="stat-block-1"><b>Special</b>: You may take this feat more than once. Each time it applies to a different feat. </p>
+<h3 id="surge-of-success">Surge of Success</h3>
+<p class="stat-block-1">Your success drives your further actions.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Human. </p>
+<p class="stat-block-1"><b>Benefit</b>: When you confirm a critical hit or roll a natural 20 on a saving throw, you gain a +2 circumstance bonus on a single attack roll, saving throw, skill check, or ability check of your choice before the end of your next turn. You must choose to use this bonus before you make the attack roll, saving throw, skill check, or ability check.</p>
+</div>
+
+<h2 id="human-magic-items">Human Magic Items</h2>
+<p>Humans have access to the following magic items.</p>
+<p id="belt-of-foraging" class="stat-block-title">Belt of Foraging</p>
+<p class="stat-block-1"><b>Aura</b> faint divination; <b>CL</b> 3rd</p>
+<p class="stat-block-1"><b>Slot</b> belt; <b>Price</b> 6,000 gp; <b>Weight</b> 1 lb. </p>
+<p class="stat-block-breaker">Description</p>
+<p>This belt allows its wearer to easily forage while in the wilderness. As long as the wearer of this belt has at least 1 rank in <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a>, he need not make a check to get along in the wild; he always succeeds at that <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> check as long as he moves at half his overland speed. He can still choose to make that check to provide food and water for one other creature for every 2 points by which his result exceeds DC 10. Furthermore, he can instead make a DC 20 <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> check to get along in the wild while moving at full speed instead of half speed. While doing so, he can provide food and water for one other creature for every 2 points by which his check result exceeds 20. </p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i>detect animals and plants</i>, creator must have at least 1 rank in <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a>; <b>Cost</b> 3,000 gp</p>
+<p id="crown-of-conquest" class="stat-block-title">Crown of Conquest</p>
+<p class="stat-block-1"><b>Aura</b> moderate enchantment; <b>CL</b> 7th</p>
+<p class="stat-block-1"><b>Slot</b> head; <b>Price</b> 24,600 gp; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block-breaker">Description</p>
+<p>This crown of steel and gold projects an aura of menacing power. The wearer gains a +4 competence bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks, and whenever he confirms a critical hit, the crown creates a <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i> effect centered on the crown's wearer (caster level 5th). </p>
+<p>If the wearer of the crown has the <a href="/pathfinderRPG/prd/feats.html#_leadership" >Leadership</a> feat, he gains a +1 bonus to his <a href="/pathfinderRPG/prd/feats.html#_leadership" >Leadership</a> score and any follower or cohort of the wearer gains a +1 bonus on attack rolls and saving throws against fear effects while within line of sight of the wearer.</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a></i>, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i>, <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i>; <b>Cost</b> 12,300 gp</p>
+<p id="crown-of-swords" class="stat-block-title">Crown of Swords</p>
+<p class="stat-block-1"><b>Aura</b> faint evocation; <b>CL</b> 3rd</p>
+<p class="stat-block-1"><b>Slot</b> head; <b>Price</b> 6,000 gp; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block-breaker">Description</p>
+<p>This radiant crown of steel is bedecked with miniature mithral swords. A <i>crown of swords </i>can be used up to 10 times per day. When struck in combat, the wearer may spend one use as an immediate action to create a longsword-shaped <i><a href="/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon" >spiritual weapon</a> </i>that then attacks her attacker. On the wearer's next turn, she may spend one additional use each round to continue attacking that target with the <i><a href="/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon" >spiritual weapon</a></i>; the <i><a href="/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon" >spiritual weapon</a></i> cannot be redirected and disappears if the target is killed or moves out of range. Multiple <i>spiritual weapons </i>may be created (even attacking the same target) if the wearer is attacked in subsequent rounds. </p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon" >spiritual weapon</a></i>; <b>Cost</b> 3,000 gp </p>
+<p id="rod-of-steadfast-resolve" class="stat-block-title">Rod of Steadfast Resolve</p>
+<p class="stat-block-1"><b>Aura</b> moderate abjuration; <b>CL</b> 9th</p>
+<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 38,305 gp; <b>Weight</b> 5 lbs. </p>
+<p class="stat-block-breaker">Description </p>
+<p>This rod functions as a <i>+2 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> mace</i>. It takes the form of a light mace with a head in the shape of a clenched fist. While a creature wields this rod, it grants all its allies within a 20-foot-radius burst a +2 morale bonus on saving throws against fear and emotion effects, or a +4 morale bonus on such saves if the ally has the human subtype. </p>
+<p>Also, once per day as an immediate action, the wielder can activate the rod to allow himself or a single ally within the rod's aura to reroll a failed saving throw against a spell or effect with the fear or emotion descriptor. The affected creature must take the result of the reroll, even if it is worse. </p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-rod" >Craft Rod</a>, <i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a></i>, <i>calm emotion</i>, the creator must have the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_human-subtype" >human</a> subtype; <b>Cost</b> 19,305 gp</p>
+<h2 id="human-spells">Human Spells</h2>
+<p>Humans have access to the following spells.</p>
+<p id="bestow-insight" class="stat-block-title">Bestow Insight</p>
+<p class="stat-block-1"><b>School</b> enchantment (compulsion); <b>Level</b> bard 2, cleric 3, inquisitor 2, sorcerer/wizard 2, witch 2</p>
+<p class="stat-block-1"><b>Casting Time </b>1 standard action</p>
+<p class="stat-block-1"><b>Component</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> touch</p>
+<p class="stat-block-1"><b>Target</b> one creature touched</p>
+<p class="stat-block-1"><b>Duration</b> 1 minute/level</p>
+<p>When casting this spell, choose a single skill that you have at least one rank in. The target gains a +2 insight bonus on skill checks with this skill and is considered trained in that skill. The insight bonus increases by 1 for every four levels of the caster (maximum +6). Furthermore, once before the spell's duration, the target can choose to roll two checks and take the greater result. Doing so ends the spell's other effects.</p>
+<p id="black-mark" class="stat-block-title">Black Mark</p>
+<p class="stat-block-1"><b>School</b> necromancy [<a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse" >curse</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear-(su-or-sp)" >fear</a>]; <b>Level</b> druid 7, witch 7</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S, M (a flask of seawater)</p>
+<p class="stat-block-1"><b>Range</b> touch</p>
+<p class="stat-block-1"><b>Target </b>one creature</p>
+<p class="stat-block-1"><b>Duration</b> permanent</p>
+<p class="stat-block-1"><b>Saving Throw</b> Will negates; <b>Spell Resistance</b> yes</p>
+<p>You mark the target with a black marking on its skin; the mark's exact appearance determined by you, but can be no larger than your hand. The <i>black mark </i>functions as a <i><a href="/pathfinderRPG/prd/spells/markOfJustice.html#_mark-of-justice" >mark of justice</a></i>, and when the mark is activated, the target becomes shaken anytime it is on or in the water more than a 5 feet from shore. In addition, as long as the <i>black mark </i>is active, the target is affected as if subject to <i><a href="/pathfinderRPG/prd/advanced/spells/natureSExile.html#_nature's-exile" >nature's exile</a> </i>, but all creatures with the aquatic or water subtype or with a swim speed are made hostile, even those not of the animal type, though non-aquatic animals are not. </p>
+<p id="old-salt's-curse" class="stat-block-title">Old Salt's Curse</p>
+<p class="stat-block-1"><b>School</b> necromancy [<a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse" >curse</a>]; <b>Level</b> druid 5, witch 5</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S, M (a flask of seawater)</p>
+<p class="stat-block-1"><b>Range</b> touch</p>
+<p class="stat-block-1"><b>Target </b>one creature</p>
+<p class="stat-block-1"><b>Duration</b> permanent</p>
+<p class="stat-block-1"><b>Saving Throw</b> Will negates; <b>Spell Resistance</b> yes</p>
+<p>You inflict a curse of the roiling sea upon the target, making it permanently sickened. Anytime the target is on or in the water more than a mile from shore, it also becomes staggered with seasickness. This curse cannot be dispelled, though <i><a href="/pathfinderRPG/prd/spells/removeCurse.html#_remove-curse" >remove curse</a> </i>or <i><a href="/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment" >break enchantment</a> </i>can negate it. </p>
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

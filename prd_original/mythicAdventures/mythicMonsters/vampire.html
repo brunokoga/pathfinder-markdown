@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Vampire</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Vampire",globalNavPath=[{ href: '/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html', name: 'Mythic Monsters' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="vampire">Vampire</h1>
+<p><i>This aristocratic figure could easily pass for human if not for the grave-pale skin, red eyes, and long fangs. </i></p>
+			
+
+<p id="mythic-vampire" class="stat-block-title">Mythic Vampire <span class="stat-block-cr">CR 10/MR 4</span></p>
+<p class="stat-block-1">XP 9,600</p>
+<p class="stat-block-1">Human vampire fighter 7</p>
+<p class="stat-block-1">NE Medium undead (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_augmented-subtype" >augmented</a> humanoid, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_human-subtype" >human</a>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype">mythic</a>)</p>
+<p class="stat-block-1"><b>Init</b> +12<sup>M</sup>; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +17</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 29, touch 16, flat-footed 24 (+3 armor, +1 deflection, +4 Dex, +1 dodge, +10 natural)</p>
+<p class="stat-block-1"><b>hp</b> 117 (7d10+74); fast healing 5</p>
+<p class="stat-block-1"><b>Fort</b> +11, <b>Ref</b> +10, <b>Will</b> +4 (+2 vs. <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear" >fear</a>)</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> bravery +2; channel <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance" >resistance</a> +8; <b>DR</b> 10/epic and magic and silver; <b>Immune</b> undead traits; <b>Resist</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> 10, electricity 10</p>
+<p class="stat-block-1"><b>Weaknesses</b> vampire weaknesses</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> <i>+1 longsword</i> +19/+14 (1d8+12/19&ndash;20 plus energy drain), slam +15 (1d4+4 plus energy drain)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk light crossbow +12 (1d8/19&ndash;20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blood-drain" >blood drain</a>, children of the night (ghouls or shadows), create spawn, dominate (DC 17), energy drain (2 levels, DC 17), mythic power (4/day, surge +1d8), negative energy focus, scabrous claws, weapon training (heavy blades +1)</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 26, <b>Dex</b> 18, <b>Con</b> &mdash;, <b>Int</b> 14, <b>Wis</b> 10, <b>Cha</b> 19</p>
+<p class="stat-block-1"><b>Base Atk</b> +7; <b>CMB</b> +15; <b>CMD</b> 31</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a><sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a><sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_deceitful" >Deceitful</a>, <a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_disruptive-mythic">Disruptive</a><sup>M</sup>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a><sup>B</sup>, Greater <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (longsword), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a><sup>B, M</sup>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a><sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_mobility">Mobility</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_quick-draw" >Quick Draw</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a><sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (longsword), Weapon Specialization (longsword)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +21, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +14, <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> +6, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +14, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +17, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +8, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +17, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +15; <b>Racial Modifiers</b> +8 <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>, +8 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>, +8 <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a>, +8 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a></p>
+<p class="stat-block-1"><b>Languages</b> Common, Draconic, Undercommon</p>
+<p class="stat-block-1"><b>SQ</b> armor training 2, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >change shape</a> (dire bat or wolf, <i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii" >beast shape II</a></i>), gaseous form, overcome weakness (garlic, sunlight), shadowless, <i><a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i></p>
+<p class="stat-block-breaker">Ecology</p>
+<p class="stat-block-1"><b>Environment </b>any</p>
+<p class="stat-block-1"><b>Organization</b> solitary or family (vampire plus 2&ndash;8 spawn)</p>
+<p class="stat-block-1"><b>Treasure</b> NPC gear (<i>potion of <a href="/pathfinderRPG/prd/spells/inflictSeriousWounds.html#_inflict-serious-wounds" >inflict serious wounds</a></i>, <i>+1 bolts</i> (10), <i>+1 leather armor</i>, <i>+1 longsword</i>, mwk light crossbow, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, other treasure)</p>
+
+<p>A mythic vampire has ties to the earliest of its kind, being either one of the first vampires or the offspring of such ancient creatures.</p>
+
+<h1 id="creating-a-mythic-vampire">Creating a Mythic Vampire</h1>
+<p>"Mythic vampire" is an acquired template that can be added to any creature with the vampire template (referred to hereafter as the base vampire). A mythic vampire uses the base vampire's stats and abilities except as noted here.</p>
+<p><b>Mythic Subtype</b>: A mythic vampire gains the mythic subtype, with a rank equal to half the CR of the base vampire. A mythic vampire gains additional abilities depending on the base vampire's CR instead of the mythic abilities it would get for having a rank. The mythic vampire gains all other benefits of having the mythic subtype: ability score bonuses, bonus hit points, mythic feats, mythic power, natural armor bonus, and spell resistance increase (if any).</p>
+<p><b>CR</b>: Adjust the base vampire's CR according to its mythic rank (this template doesn't increase the base vampire's CR other than from the mythic rank). Note that a mythic vampire's abilities on Table 6&ndash;2 depend on the base vampire's CR, not the final CR of the mythic vampire.</p>
+<p><b>Tier</b>: A vampire with mythic tiers that becomes a mythic vampire loses its tiers (and all abilities from those tiers) and gains abilities from the mythic vampire template, according to the base vampire's CR.</p>
+<p><b>Negative Energy Focus (Su)</b>: A mythic vampire's energy drain ability triggers once per successful melee attack with melee weapons or natural attacks, up to a maximum of once per round for every 2 mythic ranks the vampire has.</p>
+<p><b>Overcome Weakness</b>: If a mythic vampire begins its turn in an area of direct sunlight, it is nauseated (rather than staggered), takes 10 points of damage, and loses its fast healing ability for that round. The vampire is still destroyed on the second round. At higher ranks, it can overcome or ignore other vampire weaknesses or aversions, as follows: garlic (4th rank), mirrors and holy symbols (6th rank), invitation (8th rank), running water (10th rank).</p>
+<p><b>Scabrous Claws (Su)</b>: As an immediate action, a mythic vampire can expend one use of mythic power to grow claws on its hands, allowing it to make claw attacks or slam attacks. The claw attacks deal the same damage as its slams (including energy drain) plus 1d6 points of bleed damage. The claws last for 1 hour or until dismissed by the vampire as a free action.</p>
+<p><b>Channel Resistance (Su)</b>: At 3rd rank, a mythic vampire's channel resistance increases to +8. At 6th rank, it increases to +12. At 9th rank, it increases to +16.</p>
+<p><b>Children of the Eclipse (Su)</b>: At 4th rank, a mythic vampire can use its children of the night ability to call forth bat swarms, rat swarms, or wolves once per hour instead of once per day. Once per day, the mythic vampire can use children of the night to call forth 2d6 ghouls or 1d6+1 shadows. At 7th rank, once per day the mythic vampire can use children of the night to call forth 1d6 wraiths or mohrgs.</p>
+<p><b>Mist Shapes (Su)</b>: At 5th rank, a mythic vampire can summon and sculpt mist into realistic shapes as the <i><a href="/pathfinderRPG/prd/spells/majorImage.html#_major-image" >major image</a></i> spell. A shape created in this way lasts for as long as the mythic vampire can see and concentrate upon it. In areas of particularly dense mist, this ability functions as <i><a href="/pathfinderRPG/prd/spells/mirageArcana.html#_mirage-arcana" >mirage arcana</a></i> instead of <i><a href="/pathfinderRPG/prd/spells/majorImage.html#_major-image" >major image</a></i>.</p>
+<p><b>Mastermind (Su)</b>: At 6th rank, as a standard action a mythic vampire can see, hear, and speak through the body of a creature it has dominated. The mythic vampire can use this ability indefinitely on one creature at a time, as long as it and the creature under its control remain on the same plane. A mythic vampire using this ability can't move, but is still aware of its surroundings and can end this ability as a free action.</p>
+<p><b>Telekinesis (Sp)</b>: At 6th rank, a mythic vampire can expend one use of mythic power to use the spell <i><a href="/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis" >telekinesis</a></i> with a caster level equal to the mythic vampire's CR.</p>
+<p><b>Flight (Su)</b>: At 7th rank, a mythic vampire can expend one use of mythic power as an immediate action to gain a fly speed equal to double its base speed (perfect maneuverability) for 1 hour. When it activates this ability, the vampire chooses whether to manifest bat-like wings or to float unnaturally. If it manifests wings, it gains a bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks equal to its rank. If it chooses to float, it gains a bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks equal to its rank.</p>
+<p><b>Create Mythic Spawn</b>: At 8th rank, a mythic vampire can expend one use of mythic power when using create spawn to cause the victim to rise as undead in 1 hour instead of 1d4 days. The mythic vampire can expend two uses of mythic power when using create spawn to create a mythic vampire instead of a vampire spawn or non-mythic vampire.</p>
+<p><b>Blood Omen (Su)</b>: At 9th rank, a mythic vampire can expend two uses of mythic power as a standard action to drain blood from all creatures within 30 feet. Each creature must succeed at a Fortitude saving throw (DC 10 + 1/2 the vampire's HD + the vampire's Cha modifier) or be affected by the vampire's blood drain ability. The mythic vampire gains the normal benefits of all blood drained in this manner.</p>
+<p><b>Eclipse (Su)</b>: At 10th rank, a mythic vampire can expend one use of its mythic power to blot out the power of the sun in a 1-mile radius. This entire area is affected by the spell <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i> for 1 hour. The mythic vampire's can see through this darkness.</p>
+
+<div class="table">
+<table><caption>Mythic Vampire Abilities</caption>
+<thead><tr><th>Base Vampire's CR</th><th>Mythic Rank</th><th>Mythic Abilities</th></tr></thead>
+<tbody><tr class="odd"><td>4&ndash;5</td><td>2nd</td><td>Negative energy focus, overcome weakness (sunlight), scabrous claws</td></tr>
+<tr class="even"><td>6&ndash;7</td><td>3rd</td><td>Channel resistance +8</td></tr>
+<tr class="odd"><td>8&ndash;9</td><td>4th</td><td>Children of the eclipse (ghouls or shadows), overcome weakness (garlic)</td></tr>
+<tr class="even"><td>10&ndash;11</td><td>5th</td><td>Mist shapes</td></tr>
+<tr class="odd"><td>12&ndash;13</td><td>6th</td><td>Channel resistance +12, mastermind, overcome weakness (mirrors and holy	symbols), telekinesis</td></tr>
+<tr class="even"><td>14&ndash;15</td><td>7th</td><td>Children of the eclipse (wraiths or mohrgs), flight</td></tr>
+<tr class="odd"><td>16&ndash;17</td><td>8th</td><td>Create mythic spawn, overcome weakness (invitation)</td></tr>
+<tr class="even"><td>18&ndash;19</td><td>9th</td><td>Blood omen, channel resistance +16</td></tr>
+<tr class="odd"><td>20+</td><td>10th</td><td>Eclipse, overcome weakness (running water)</td></tr></tbody></table>
+</div>
+			
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

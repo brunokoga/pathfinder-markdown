@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Goblins</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Goblins",globalNavPath=[{ href: '/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html', name: 'Featured Races'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body">
+
+<h1 id="goblins">Goblins</h1>
+<p>Goblins are a race of childlike creatures with a destructive and voracious nature that makes them almost universally despised. Weak and cowardly, goblins are frequently manipulated or enslaved by stronger creatures that need destructive, disposable foot soldiers. Those goblins that rely on their own wits to survive live on the fringes of society and feed on refuse and the weaker members of more civilized races. Most other races view them as virulent parasites that have proved impossible to exterminate.</p>
+<p>Goblins can eat nearly anything, but prefer a diet of meat and consider the flesh of humans and gnomes a rare and difficult-to-obtain delicacy. While they fear the bigger races, goblins' short memories and bottomless appetites mean they frequently go to war or execute raids against other races to sate their pernicious urges and fill their vast larders. </p>
+<p><b>Physical Description</b>: Goblins are short, ugly humanoids that stand just over 3 feet tall. Their scrawny bodies are topped with oversized and usually hairless heads with massive ears and beady red or occasionally yellow eyes. Goblins' skin tone varies based on the surrounding environment; common skin tones include green, gray, and blue, though black and even pale white goblins have been sighted. Their voracious appetites are served well by their huge mouths filled with jagged teeth.</p>
+<p><b>Society</b>: Violent but fecund, goblins exist in primitive tribal structures with constant shifts in power. Rarely able to sustain their own needs through farming or hunting and gathering, goblin tribes live where food is abundant or near places that they can steal it from. Since they are incapable of building significant fortifications and have been driven out of most easily accessible locations, goblins tend to live in unpleasant and remote locations, and their poor building and planning skills ensure that they dwell primarily in crude caves, ramshackle villages, and abandoned structures. Few goblins are good with tools or skilled at farming, and the rare items of any value that they possess are usually cast-off implements from humans or other civilized cultures. </p>
+<p>Goblins' appetites and poor planning lead to small tribes dominated by the strongest warriors. Even the hardiest goblin leaders quickly find out that their survival depends on conducting frequent raids to secure sources of food and kill off the more aggressive youth of the tribe. Both goblin men and women are ugly and vicious, and both sexes are just as likely to rise to positions of power in a tribe. </p>
+<p>Goblin babies are almost completely self-sufficient not long after birth, and such infants are treated almost like pets. Many tribes raise their children communally in cages or pens where adults can largely ignore them. Mortality is high among young goblins, and when the adults fail to feed them or food runs low, youths learn at an early age that cannibalism is sometimes the best means of survival in a goblin tribe.</p>
+<p><b>Relations</b>: Goblins tend to view other beings as sources of food, which makes for poor relations with most civilized races. Goblins often survive on the fringes of human civilization, preying on weak or lost travelers and occasionally raiding small settlements to fuel their voracious appetites. They have a special animosity toward gnomes, and celebrate the capturing or killing of such victims with a feast. Of the most common races, half-orcs are the most tolerant of goblins, sharing a similar ancestry and experiencing the same hatred within many societies. Goblins are mostly unaware of half-orcs' sympathy, however, and avoid them because they are larger, meaner, and less flavorful than other humanoids.</p>
+<p><b>Alignment and Religion</b>: Goblins are greedy, capricious, and destructive by nature, and thus most are neutral or chaotic evil.</p>
+<p><b>Adventurers</b>: Goblin adventurers are usually curious and inclined to explore the world, though they are often killed off by their own foolish misdeeds or hunted down for their random acts of destruction. Their pernicious nature makes interacting with civilized races almost impossible, so goblins tend to adventure on the fringes of civilization or in the wilds. Adventurous individuals who survive long enough often ride goblin dogs or other exotic mounts, and focus on archery to avoid close confrontation with larger enemies. Goblin spellcasters prefer fire magic and bombs over almost all other methods of spreading mayhem. </p>
+<p><b>Male Names</b>: Boorgub, Gogmurch, Rotfoot, Zobmaggle.</p>
+<p><b>Female Names</b>: Geedra, Goomluga, Hoglob, Luckums.</p>
+
+<h1 id="goblin-racial-traits">Goblin Racial Traits</h1>
+<p id="+4-dexterity,--2-strength,--2-charisma"><b>+4 Dexterity, &ndash;2 Strength, &ndash;2 Charisma</b>: Goblins are fast, but weak and unpleasant to be around.</p>
+<p id="goblinoid"><b>Goblinoid</b>: Goblins are humanoids with the goblinoid subtype.</p>
+<p id="small"><b>Small</b>: Goblins are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a &ndash;1 penalty to their CMB and CMD, and a +4 size bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks.</p>
+<p id="fast"><b>Fast</b>: Goblins are fast for their size, and have a base speed of 30 feet.</p>
+<p id="darkvision"><b>Darkvision</b>: Goblins can see in the dark up to 60 feet.</p>
+<p id="skilled"><b>Skilled</b>: +4 racial bonus on <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> and <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks.</p>
+<p id="languages"><b>Languages</b>: Goblins begin play speaking Goblin. Goblins with high Intelligence scores can choose from the following: Common, Draconic, Dwarven, Gnoll, Gnome, Halfling, and Orc. </p>
+
+<h1 id="alternate-racial-traits">Alternate Racial Traits</h1>
+<p>The following racial traits may be selected instead of existing goblin racial traits. Consult your GM before selecting any of these new options.</p>
+<p id="cave-crawler"><b>Cave Crawler</b>: Some goblins are born and raised in caves and rarely see the light of day. Goblins with this trait gain a climb speed of 10 feet and the +8 racial bonus on <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> checks associated with having a climb speed. Goblins with this racial trait have a base speed of 20 feet and lose the fast movement racial trait.</p>
+<p id="city-scavenger"><b>City Scavenger</b>: Goblins who live within the boundaries of human cities survive by scavenging for refuse and hunting stray animals. Goblins with this trait gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks, and can use <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> to forage for food while in a city. This racial trait replaces skilled.</p>
+<p id="eat-anything"><b>Eat Anything</b>: Raised with little or no proper food, many goblins have learned to survive by eating whatever they happen across and can digest nearly anything without getting sick. Goblins with this trait gain a +4 on <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks to forage for food and a +4 racial bonus on saves versus effects that cause the nauseated or sickened conditions. This racial trait replaces skilled.</p>
+<p id="hard-head,-big-teeth"><b>Hard Head, Big Teeth</b>: Goblins are known for their balloonlike heads and enormous maws, but some have even more exaggeratedly large heads filled with razor-sharp teeth. Goblins with this trait gain a bite attack as a primary natural attack that deals 1d4 points of damage. This racial trait replaces skilled.</p>
+<p id="over-sized-ears"><b>Over-Sized Ears</b>: While goblins' ears are never dainty, these goblins have freakishly large ears capable of picking up even the smallest sounds. Goblins with this racial trait gain a +4 bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks. This racial trait replaces skilled. </p>
+<p id="tree-runner"><b>Tree Runner</b>: In trackless rain forests and marshes, it can be difficult to find dry ground to build on. Goblin tribes living in such areas have learned to live in the treetops. These goblins gain a +4 racial bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> and <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> checks. This racial trait replaces skilled.</p>
+<p id="weapon-familiarity"><b>Weapon Familiarity</b>: Goblins' traditional weapons are the dogslicer and the horsechopper, weapons designed specifically to bring down their most hated foes. Goblins with this trait are proficient with the dogslicer and the horsechopper, and treat any weapon with the word "goblin" in it as martial weapons. This racial trait replaces skilled.</p>
+
+<h1 id="favored-class-options">Favored Class Options</h1>
+<p>The following options are available to any goblins that have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.</p>
+<p id="alchemist"><b>Alchemist</b>: The alchemist gains fire resistance 1. Each time this reward is selected, increase fire resistance by +1. This fire resistance does not stack with fire resistance gained from other sources.</p>
+<p id="barbarian"><b>Barbarian</b>: Add +1/2 on critical hit confirmation rolls for attacks made with unarmed strikes or natural weapons (maximum bonus of +4). This bonus does not stack with <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>.</p>
+<p id="bard"><b>Bard</b>: Add +1 to the bard's total number of bardic performance rounds per day.</p>
+<p id="cavalier"><b>Cavalier</b>: Add +1 hit points to the cavalier's mount companion. If the cavalier ever replaces his mount, the new mount gains these bonus hit points.</p>
+<p id="druid"><b>Druid</b>: Add +1 hit points to the druid's animal companion. If the druid ever replaces her animal companion, the new animal companion gains these bonus hit points.</p>
+<p id="gunslinger"><b>Gunslinger</b>: Add +1/3 on critical hit confirmation rolls made with firearms (maximum bonus of +5). This bonus does not stack with <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>.</p>
+<p id="oracle"><b>Oracle</b>: Add +1 on concentration checks made when casting spells with the fire descriptor.</p>
+<p id="ranger"><b>Ranger</b>: Gain a +1/2 bonus on damage dealt to dogs (and doglike creatures) and horses (and horselike creatures). </p>
+<p id="rogue"><b>Rogue</b>: Add a +1 bonus on the rogue's sneak attack damage rolls during the surprise round or before the target has acted in combat.</p>
+<p id="sorcerer"><b>Sorcerer</b>: Add +1 spell known from the sorcerer spell list. This spell must be at least one level below the highest spell level the sorcerer can cast, and must have the fire descriptor.</p>
+<p id="summoner"><b>Summoner</b>: Add +1/4 evolution point to the eidolon's evolution pool. These bonus evolution points must be spent on evolutions that deal fire damage or protect the eidolon from fire (for example, resistance, energy attacks, immunity, breath weapon, and so on). </p>
+<p id="witch"><b>Witch</b>: Add +1 spell from the witch spell list to the witch's familiar. This spell must be at least one level below the highest spell level she can cast. If the witch ever replaces her familiar, the new familiar knows these bonus spells.</p>
+
+<h1 id="racial-archetypes">Racial Archetypes</h1>
+<p>The following racial archetypes are available to goblins.</p>
+
+<h2 id="feral-gnasher-(barbarian)">Feral Gnasher (Barbarian)</h2>
+<p>Feral gnashers grow up in the wild, either raised by animals or scraping by on their own, and soon learn to fend for themselves. These barbarians often utilize pieced-together armor and fight with their sharp teeth and whatever improvised weapons are within reach. A feral gnasher has the following class features.</p>
+<p><b id="Anchor-10" >Weapon and Armor Proficiency</b>: A feral gnasher loses all martial weapon proficiencies except for greatclub and loses proficiency with medium armor.</p>
+<p id="savage-bite"><b>Savage Bite (Ex)</b>: At 1st level, a feral gnasher gains a savage bite attack. This is a primary natural attack that deals 1d4 points of damage. If the goblin already has the hard head, big teeth racial trait, the damage increases to 1d6. At 10th level, the damage from a feral gnasher's bite increases to 1d6 (or 1d8 if the goblin has the hard head, big teeth racial trait) and deals &times;3 damage on a critical hit. This ability replaces fast movement.</p>
+<p id="impromptu-armament"><b>Impromptu Armament (Ex)</b>: At 2nd level, a feral gnasher gains <a href="/pathfinderRPG/prd/feats.html#_throw-anything" >Throw Anything</a> as a bonus feat and can pick up an unattended object that can be wielded in one hand as a free action. Additionally, the feral gnasher can take <a href="/pathfinderRPG/prd/feats.html#_catch-off-guard" >Catch Off-Guard</a> in place of a rage power. This replaces the rage power gained at second level.</p>
+<p id="lockjaw"><b>Lockjaw (Ex)</b>: At 3rd level, a feral gnasher gains the grab ability with her bite attack. A feral gnasher can use this ability on a creature up to one size category larger than she is. This replaces trap sense +1.</p>
+<p id="improvised-weapon-mastery"><b><a href="/pathfinderRPG/prd/feats.html#_improvised-weapon-mastery" >Improvised Weapon Mastery</a> (Ex)</b>: At 5th level, a feral gnasher gains <a href="/pathfinderRPG/prd/feats.html#_improvised-weapon-mastery" >Improvised Weapon Mastery</a> as a bonus feat. This replaces improved uncanny dodge.</p>
+<p id="improved-lockjaw"><b>Improved Lockjaw (Ex)</b>: At 6th level, as long as a feral gnasher is controlling the grapple with her lockjaw attack, she does not gain the grappled condition, but is unable to move or use her mouth for anything other than grappling. This ability replaces trap sense +2.</p>
+<p id="greater-lockjaw"><b>Greater Lockjaw (Ex)</b>: At 9th level and again at 15th level, the size of a creature a feral gnasher is able to use her lockjaw's grab ability on increases by one size increment. This ability replaces trap sense +3 and trap sense +5.</p>
+<p id="wicked-improvisation"><b>Wicked Improvisation (Ex)</b>: At 12th level, a feral gnasher becomes more capable with improvised weapons and natural attacks. The feral gnasher gains a +1 competence bonus on damage rolls when using natural attacks or improvised weapons while raging. At 14th level and every two levels thereafter, the damage bonus increases by +1. This increase is not precision damage and is thus multiplied on a critical hit. This ability replaces trap sense +4.</p>
+<p id="rage-powers"><b>Rage Powers</b>: The following rage powers complement the feral gnasher archetype: increased damage reduction, scent, superstition ; beast totem, beast totem (greater), beast totem (lesser)  eater of magic, ghost rager.</p>
+
+<h2 id="fire-bomber-(alchemist)">Fire Bomber (Alchemist)</h2>
+<p>Fire bombers are exceptionally good at using bombs to burn creatures and blow things up, but are not quite as good at creating other types of bombs or extracts. A fire bomber has the following class features.</p>
+<p id="weapon-and-armor-proficiency"><b>Weapon and Armor Proficiency</b>: A fire bomber treats torches as a simple weapon.</p>
+<p id="fire-bombardier-(su-or-ex)"><b>Fire Bombardier (Su or Ex)</b>: At 1st level, when a fire bomber throws a bomb that deals fire damage, all creatures in the splash radius take an additional point of damage per die of fire damage dealt. Fire bombers only add their Intelligence bonus to damage from bombs or alchemical substances that deal fire damage. This otherwise works like the alchemist's bomb and throw anything abilities. This ability alters bomb and throw anything.</p>
+<p id="bonus-feats"><b>Bonus Feats</b>: A fire bomber can select the Burn! Burn! Burn!, Fire Tamer, or Flame Heart feat in place of a discovery.</p>
+<p id="fiery-cocktail"><b>Fiery Cocktail (Su)</b>: At 4th level, whenever a fire bomber uses a discovery that deals damage other than fire damage, he can split the damage dice evenly between the bomb's primary damage type and 1d6 points of fire damage; when there is an odd number of damage dice, the odd die of damage comes from the primary damage type. For example, an 8th-level fire bomber could throw a concussive bomb that deals 2d6 points of fire damage and 3d4 points of sonic damage. Additional effects from the bomb still apply, but the save DC for admixture bombs is reduced by 2. This replaces the alchemist's 4th-level discovery.</p>
+<p id="fire-body"><b>Fire Body (Ex)</b>: At 8th level, a fire bomber adds <i><a href="/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i" >elemental body I</a></i> to his extract list as a 3rd-level extract. <i>Elemental body</i> extracts prepared using fire body are limited to fire elementals only. This ability replaces poison resistance +6. </p>
+<p id="improved-fire-body"><b>Improved Fire Body (Ex)</b>: At 10th level, fire bombers add <i><a href="/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-ii" >elemental body II</a></i> to their spell list as a 4th-level extract. <i>Elemental body</i> extracts prepared using improved fire body are limited to fire elementals only. This ability replaces poison immunity.</p>
+<p id="greater-fire-body"><b>Greater Fire Body (Ex)</b>: At 14th level, fire bombers add <i><a href="/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-iv" >elemental body IV</a></i> to their spell list as a 5th-level extract.<i> Elemental body</i> extracts prepared using greater fire body are limited to fire elementals only. This ability replaces persistent mutagen.</p>
+<p id="discoveries"><b>Discoveries</b>: The following discoveries complement the fire bomber archetype: fire brand, rocket bomb ; explosive bombs, fast bombs, inferno bomb, precise bombs  breath weapon bomb, explosive missile, immolation bomb ; bottled ooze, confusion bomb, strafe bomb .</p>
+
+<h1 id="goblin-discoveries">Goblin Discoveries</h1>
+<p>The following discoveries are available to goblin alchemists.</p>
+<p id="fire-brand"><i>Fire <a href="/pathfinderRPG/prd/advanced/spells/brand.html#_brand" >Brand</a> (Su)</i>: An alchemist with this discovery can expend one daily bomb use to apply the bomb reagents to his weapon as a swift action. A weapon treated this way deals fire damage as if it had the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a></i> weapon special ability. At 10th level, the weapon is treated as if it had the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming-burst" >flaming burst</a></i> weapon special ability. The bomb reagents continue burning for 1 minute or until extinguished by dousing the weapon in water. An alchemist can use this ability with natural weapons, but he takes 1d6 points of fire damage per round for each natural weapon treated. </p>
+<p id="rag-doll-mutagen"><i>Rag Doll Mutagen (Su)</i>: When the alchemist imbibes a mutagen, his body and bones become rubbery and easy to contort. The alchemist gains a bonus equal to his class level on <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> checks, can squeeze through places as if he were one size category smaller, and can make a Reflex save (DC equal to 15 + 1 for every 10 feet fallen) to take half damage from falling. At 10th level, all falling damage is considered nonlethal damage, and the alchemist can squeeze through places as if he were two size categories smaller than his size while under the effects of this mutagen.</p>
+<p id="rocket-bomb"><i>Rocket Bomb (Su)</i>: Alchemists with this discovery can prepare special rockets to deliver their bombs. Rocket bombs travel farther and explode bigger than normal bombs, but cannot target individual creatures. Rocket bombs explode in a 20-foot radius, and all creatures in that area take the alchemist's normal splash damage. The range increment on a rocket bomb is 50 feet. Rocket bombs cannot be used with the precise bomb or fast bomb discoveries. An alchemist must be at least 6th level before selecting this discovery.</p>
+<p id="scrap-bomb"><i>Scrap Bomb (Su)</i>: When the alchemist creates a bomb, he can choose to have it explode into shards of shrapnel that deal piercing damage. A creature that takes a direct hit from a scrap bomb takes 1 point of bleed damage per die of bomb damage unless it succeeds at a Reflex save.</p>
+
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The following options are available to goblins. At the GM's discretion, other appropriate races may make use of some of these new rules.</p>
+
+<h2 id="goblin-equipment">Goblin Equipment</h2>
+<p>The following items are just some of the pieces of equipment used by goblins. </p>
+<p><b id="Anchor-15" >Bomb Launcher</b>: These odd looking, egg-shaped contraptions have cleverly placed fins that improve bombs' accuracy. Goblin alchemists use these special containers to make their bombs more accurate when thrown long distances. Using a bomb launcher when throwing a bomb increases the bomb's range increment to 30 feet (or increases the range increment of a bomb with the rocket bomb discovery to 70 feet). Bomb launchers are destroyed when used.</p>
+<p id="dogslicer"><b>Dogslicer</b>: This short, curved sword is a favorite weapon of goblins, who show unusual cunning by drilling numerous holes in the blade to reduce the weapon's weight. Masterwork versions of a dogslicer lose the fragile special weapon ability.</p>
+<p id="horsechopper"><b>Horsechopper</b>: Crafted by goblins to give themselves an advantage against horses, this weapon is essentially a halberd with an enlarged hook opposite the blade.</p>
+<p id="mellowroot"><b>Mellowroot</b>: Sneaky goblin chieftains give this orange paste to the tribe's warriors before proposing a particularly bold raid. Consuming mellowroot causes a euphoric feeling that makes you feel invulnerable. For 1 hour after consuming mellowroot, you gain a +5 alchemical bonus versus fear effects. However, while under the effects of mellowroot, you must make a DC 15 Will saving throw when you try to leave the threatened area of an opponent. If you fail the saving throw, you cannot leave the threatened area with that action but do not lose the action. </p>
+<p id="stillgut"><b>Stillgut</b>: Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to avoid nausea or sickness for 1 hour. If you are already nauseated, you can drink stillgut as a move action. Drinking it in this fashion grants you a second saving throw (without the +5 bonus). Goblins often use stillgut so they can choke down meat or other foods in advanced stages of rot or decay.</p>
+
+<table><caption>Goblin Equipment</caption>
+<thead><tr><th>Items</th><th>Cost</th><th>Weight</th><th>Craft DC</th></tr></thead>
+<tr class="odd"><td>Bomb launcher</td><td>10 gp</td><td>1/2 lb.</td><td>25</td></tr>
+<tr class="even"><td>Mellowroot (vial)</td><td>25 gp</td><td>&mdash;</td><td>20</td></tr>
+<tr class="odd"><td>Stillgut (vial)</td><td>50 gp</td><td>&mdash;</td><td>25</td></tr></table>
+
+<h2 id="goblin-feats">Goblin Feats</h2>
+<p>Goblins have access to the following feats. </p>
+<div class="feats-text">
+<h3 id="burn-burn-burn">Burn! Burn! Burn!</h3>
+<p>You take the goblin love of arson and fire play to a whole new level.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> 1 rank, goblin. </p>
+<p class="stat-block-1"><b>Benefit</b>: You deal an extra 1d4 points of fire damage when you attack with fire from an alchemical or nonmagical source (such as with alchemical fire or torches) and gain a +4 competence bonus on Reflex saving throws made to avoid catching on fire or to put yourself out when on fire. Additional damage caused by this feat does not apply to magical attacks (such as an alchemist's bomb) or to splash damage.</p>
+
+<h3 id="fire-hand-(combat)">Fire Hand (Combat)</h3>
+<p>Born with a torch in your hand, you have a gift with anything that burns.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Goblin.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can wield a torch as a weapon without taking the nonproficient penalty and gain a +1 bonus on attack rolls with melee weapons that deal fire damage.</p>
+
+<h3 id="fire-tamer">Fire Tamer</h3>
+<p>You know your way around even magical fire. </p>
+<p class="stat-block-1"><b>Prerequisite</b>: Goblin.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a +2 bonus on saves against spells with the fire descriptor. Additionally, your scars mark you as a talented fire tamer, granting you a +2 circumstance bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> and <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks when dealing with other goblins. </p>
+
+<h3 id="flame-heart">Flame Heart</h3>
+<p>You have mastered fire magic and alchemy.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Fire Tamer, character level 5th, goblin.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain fire resistance 5. When casting spells with the fire descriptor or throwing alchemist bombs that deal fire damage, treat your caster level or alchemist level as if you were 1 level higher.</p>
+
+<h3 id="goblin-gunslinger-(combat)">Goblin Gunslinger (Combat)</h3>
+<p>You have learned how to fire the big guns.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Goblin.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can wield Medium firearms without taking the penalty for an inappropriately sized weapon.</p>
+<p class="stat-block-1"><b>Normal</b>: You take a &ndash;2 penalty when using an inappropriately sized weapon.</p>
+
+<h3 id="tangle-feet-(combat)">Tangle Feet (Combat)</h3>
+<p>Creatures who cross your path find themselves tripping over their own feet.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Mobility, <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_underfoot" >Underfoot</a> , goblin, Small size or smaller.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you successfully make an <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> check to avoid provoking an attack of opportunity from a larger opponent when you move through its threatened area or its space, you can make that opponent lose its balance until the end of its next turn as a free action. While that creature's balance is lost, if it attempts to move, it must make a successful DC 15 <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> check or fall prone, wasting the move action. You can only affect one creature with this effect each round.</p>
+</div>
+
+<h2 id="goblin-magic-items">Goblin Magic Items</h2>
+<p>Goblins have access to the following magic item.</p>
+<p id="cloak-of-fangs" class="stat-block-title">Cloak of Fangs</p>
+<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 9th</p>
+<p class="stat-block-1"><b>Slot</b> shoulders; <b>Price</b> 2,800 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-breaker">Description</p>
+<p>This rough-looking cloak covered in coarse animal hair is greatly prized by goblins. Wearing the cloak grants a +1 resistance bonus on saving throws. Furthermore, the wearer can force its teeth to grow rapidly up to five times per day as a swift action. The oversized teeth last for 1 round, during which time the wearer can make a bite attack. Treat this attack as a primary natural attack that deals 1d4 points of damage (or 1d6 if the wearer is Medium). If the wearer already has a bite attack, the damage of that bite attack increases by one step. </p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a></i>; <b>Cost</b> 1,250 gp</p>
+
+<h2 id="goblin-spells">Goblin Spells</h2>
+<p>Goblins have access to the following spells.</p>
+<p id="fire-trail" class="stat-block-title">Fire Trail</p>
+<p class="stat-block-1"><b>School</b> transmutation [fire]; <b>Level</b> alchemist 3, magus 3, sorcerer/wizard 3</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> personal</p>
+<p class="stat-block-1"><b>Effect</b> trail of flame that follows the caster's movements; see text</p>
+<p class="stat-block-1"><b>Duration</b> 1 round/level</p>
+<p class="stat-block-1"><b>Saving Throw</b> none; <b>Spell Resistance</b> yes</p>
+<p>When you cast this spell, flammable liquid oozes from your pores, dripping onto the ground and spontaneously combusting. The flame does not harm you. During this spell's duration, each time you leave your space, you create a trail of fire that burns within the spaces you move through for 1 round before it burns out. You can leave up to 60 feet of flame trail each round, assuming you are Small or Medium. If you are larger than Medium, the maximum trail length is reduced based on your size. If you are Large, you can leave a trail up to 30 feet long (and 10 feet wide), and if you are Huge, you can leave a trail up to 15 feet long (and 15 feet wide); even larger casters can only leave a trail up to 10 feet long (and as wide as your space) each round. You choose where to leave a flame trail. </p>
+<p>Creatures that start their turn adjacent to the flame trail take 1d6 points of fire damage. Creatures that start their turn within the flame trail or that enter an area of flame take a number of points of fire damage equal to 1d6 + 1 per caster level (maximum +10). If a creature moves into an area of the flame trail multiple times in a round, it takes this damage each time it enters the area of the flame trail. Flammable objects in or adjacent to the fire trail catch fire.</p>
+<p id="mudball" class="stat-block-title">Mudball</p>
+<p class="stat-block-1"><b>School</b> conjuration [earth]; <b>Level</b> druid 1, magus 1, sorcerer/wizard 1, witch 1</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> close (25 ft. + 5 ft./2 levels)</p>
+<p class="stat-block-1"><b>Effect</b> single fist-sized blob of sticky mud</p>
+<p class="stat-block-1"><b>Duration</b> instantaneous</p>
+<p class="stat-block-1"><b>Saving Throw</b> Reflex negates; see text; <b>Spell Resistance</b> no</p>
+<p>When you cast this spell, you conjure a single ball of sticky mud and launch it at an enemy's face as a ranged touch attack. If the mudball hits, the target is blinded. Each round at the beginning of its turn, a creature blinded by this spell can attempt a Reflex saving throw to shake off the mud, ending the effect. The mudball can also be wiped off by the creature affected by it or by a creature adjacent to the creature affected by it as a standard action. </p>
+<p id="vomit-twin" class="stat-block-title">Vomit Twin</p>
+<p class="stat-block-1"><b>School</b> conjuration (creation, teleportation); <b>Level</b> alchemist 3, magus 3, sorcerer/wizard 4, summoner 3</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> personal</p>
+<p class="stat-block-1"><b>Effect</b> creates one ooze duplicate of the caster</p>
+<p class="stat-block-1"><b>Duration</b> 1 round/level</p>
+<p>Upon casting this spell, you vomit forth a disgusting ooze copy of yourself into a single adjacent square. As long as the twin exists, whenever you take a move action to move, the twin can move as well, although it does not need to follow you and cannot take any other actions. On subsequent rounds, at the start of your turn, you can instantaneously exchange places with your twin, as if using <i><a href="/pathfinderRPG/prd/spells/teleport.html#_teleport" >teleport</a></i>. This is not an action and does not provoke an attack of opportunity.</p>
+<p>The twin has a speed of 30 feet and provokes attacks of opportunity from movement as normal. It has an AC equal to 10 + 1/2 your caster level and a number of hit points equal to your caster level. If the twin is reduced to 0 hit points, it is destroyed, although you can create a new one on your turn as a standard action as long as the duration persists. You cannot have more than one vomit twin at a time.</p>
+
+<table><caption>Goblin Weapons</caption>
+<thead><tr><th>Martial Weapons</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Weight</th><th>Type</th><th>Special</th></tr></thead>
+<tr class="odd"><td colspan="9"><i>Light Melee Weapons</i></td></tr>
+<tr class="even"><td>Dogslicer</td><td>8 gp</td><td>1d4</td><td>1d6</td><td>19&ndash;20/&times;2</td><td>&mdash;</td><td>1 lb.</td><td>S</td><td>fragile*</td></tr>
+<tr class="odd"><td colspan="9"><i>Two-Handed Melee Weapons</i></td></tr>
+<tr class="odd"><td>Horsechopper</td><td>10 gp</td><td>1d8</td><td>1d10</td><td>&times;3</td><td>&mdash;</td><td>12 lbs.</td><td>P or S</td><td>reach, trip</td></tr>
+<tfoot><tr><td colspan="9">*<b>Fragile Weapons</b>: A fragile weapon gains the broken condition if the wielder rolls a natural 1 on an attack roll with the weapon. If a fragile weapon is already broken, rolling a natural 1 destroys it instead.</tr></td></tfoot></table>
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Magus</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Magus",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateCombat/classArchetypes.html', name: 'Class Archetypes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="magus">Magus</h1>
+				
+				
+				<p>A master of arcane magic fused with more conventional weapon attacks, the magus typically seeks balance in both approaches. Many of the archetypes and new magus arcana presented in this section supplement those magi who favor their feats of arms over raw spellcasting power. More so than other magi, these combat-oriented arcanists use their magical arts to empower their weapon attacks and defenses. </p>
+				<h2 id="magus-arcana">Magus Arcana</h2>
+				<p>As he gains levels, a magus masters arcane secrets that supplement his magical and martial attacks. Any magus who meets the prerequisites listed in a magus arcana's description can select that arcana. Unless specifically noted in a magus arcana's description, a magus cannot select a particular magus arcana more than once. Magus arcana that affect spells can only be used to modify spells from the magus spell list unless otherwise noted in their descriptions. </p>
+				<p id="accurate-strike"><i>Accurate Strike (Ex)</i>: The magus can expend 2 points from his arcane pool as a swift action to resolve all of his melee weapon attacks until the end of his turn as melee touch attacks. The magus must be at least 9th level before selecting this arcana.</p>
+				<p id="arcane-cloak"><i>Arcane Cloak (Su)</i>: The magus can expend 1 point from his arcane pool to add his Intelligence bonus to <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks and <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> checks to create a diversion in order to hide. This bonus lasts for 1 minute.</p>
+				<p id="arcane-edge"><i>Arcane Edge (Su)</i>: The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a slashing or piercing weapon in order to deal an amount of bleed damage equal to his Intelligence modifier (minimum 0). The magus must be at least 9th level before he selects this arcana.</p>
+				<p id="arcane-redoubt"><i>Arcane Redoubt (Su)</i>: As a swift action, the magus can expend 1 point from his arcane pool to treat his shield bonus to AC (including any enhancement bonus) as a bonus to touch AC until the beginning of his next turn.</p>
+				<p id="arcane-redoubt,-greater"><i>Arcane Redoubt, Greater (Su)</i>: Whenever the magus uses his arcane redoubt magus arcana, he may spend an additional point from his arcane pool in order to apply his shield bonus to AC (including any enhancement bonus) as a bonus on Reflex saves until the beginning of his next turn. If he is targeted with an effect requiring a Reflex save while using this power, he may spend 2 points from his arcane pool as an immediate action to grant himself evasion, or 4 points to grant himself improved evasion. The magus must have the arcane redoubt magus arcana and be at least 12th level to select this magus arcana.</p>
+				<p id="bane-blade"><i>Bane Blade (Su)</i>: Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane" >bane</a></i> special ability to the weapon. The magus must be at least 15th level before selecting this arcana.</p>
+				<p id="devoted-blade"><i>Devoted Blade (Su)</i>: Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add either the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-anarchic" >anarchic</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-axiomatic" >axiomatic</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a></i>, or <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_unholy" >unholy</a></i> special ability to the list of available options. A magus may only add one of these abilities if it matches his own alignment. The magus must be at least 12th level before selecting this arcana.</p>
+				<p id="disruptive"><i>Disruptive (Ex)</i>: The magus gains <a href="/pathfinderRPG/prd/feats.html#_disruptive" >Disruptive</a> as a bonus feat. The magus must be at least 6th level before selecting this arcana.</p>
+				<p id="enduring-blade"><i>Enduring Blade (Su)</i>: Whenever the magus enchants his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to increase the duration to 1 minute per magus level. The magus must be at least 6th level before selecting this arcana.</p>
+				<p id="ghost-blade"><i>Ghost Blade (Su)</i>: Whenever the magus enchants his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-brilliant-energy" >brilliant energy</a></i> and <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a></i> special abilities to the list of available options. The magus must be at least 9th level before selecting this arcana.</p>
+				<p id="lingering-pain"><i>Lingering Pain (Su)</i>: The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a weapon attack. All damage from that attack (including damage from a spell cast using the spellstrike ability) is considered continuous damage for the purposes of any concentration checks made by the target prior to the beginning of the magus's next turn.</p>
+				<p id="pool-strike,-arcing"><i>Pool Strike, Arcing (Su)</i>: The magus can expend 1 additional point from his arcane pool when using the pool strike arcana. If his attack hits, the magus can target a number of enemies within 15 feet equal to his Intelligence modifier (minimum 0) with a ranged touch attack as a free action. Those struck take the same energy damage as the primary target of the pool strike, including increased damage on a critical hit. The magus must be at least 12th level and must have the pool strike magus arcana before selecting this magus arcana.</p>
+				<p id="pool-strike,-clinging"><i>Pool Strike, Clinging (Su)</i>: The magus can expend 1 additional point from his arcane pool when making a pool strike. A single target of his pool strike takes energy damage as normal from the pool strike and also takes half this amount of damage at the beginning of its turn on the following round. The magus must be at least 9th level and must have the pool strike magus arcana before selecting this magus arcana.</p>
+				<p id="pool-strike,-thunderous"><i>Pool Strike, Thunderous (Su)</i>: The magus can expend 1 additional point from his arcane pool when making a pool strike. His pool strike deals sonic damage and deafens a single target for 1 round (DC 10 + 1/2 magus level + Intelligence modifier). The magus must be at least 6th level and must have the pool strike magus arcana before selecting this magus arcana.</p>
+				<p id="prescient-attack"><i>Prescient Attack (Su)</i>: The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a weapon attack, allowing him to anticipate his opponent's defenses. The target is denied its Dexterity bonus against the magus's attacks until the end of the magus's next turn. The magus must be at least 6th level before selecting this arcana.</p>
+				<p id="prescient-defense"><i>Prescient Defense (Su)</i>: The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a weapon attack, granting him a premonition of his enemy's intentions. The magus gains a bonus to his AC and on Reflex saves equal to his Intelligence modifier (minimum 0) against attacks by that opponent until the beginning of his next turn. The magus must be at least 9th level before selecting this arcana. </p>
+				<p id="rod-mastery"><i>Rod Mastery (Su)</i>: Whenever the magus uses a rod, he calculates the DC for any spell it contains using his Intelligence modifier (minimum 0) instead of the minimum modifier needed to cast a spell of that level.</p>
+				<p id="rod-wielder"><i>Rod Wielder (Su)</i>: The magus adds his Intelligence bonus (minimum 0) on caster level checks made to overcome spell resistance when using a spell contained within a rod or when making a spellstrike attack channeled through a rod. </p>
+				<p id="spellbreaker"><i>Spellbreaker (Ex)</i>: The magus gains <a href="/pathfinderRPG/prd/feats.html#_spellbreaker" >Spellbreaker</a> as a bonus feat. The magus must be at least 9th level before selecting this arcana.</p>
+				<h2 id="kensai-(archetype)">Kensai (Archetype)</h2>
+				<p>A kensai spends his life focusing his training and meditation into a rapturous perfection of the use of a single weapon, which is usually but not always a sword, channeling his arcane might through it in a dizzying and deadly dance beyond the abilities of even the greatest of mundane warriors. </p>
+				<p id="weapon-and-armor-proficiency"><b>Weapon and Armor Proficiency</b>: A kensai is proficient in simple weapons and in a single martial or exotic melee weapon of his choice. A kensai is not proficient with armor or shields and suffers normal arcane spell failure chance when casting magus spells while armored.</p>
+				<p id="diminished-spellcasting"><b>Diminished Spellcasting</b>: A kensai may cast one fewer spell of each level than normal. If this reduces the number to 0, he may cast spells of that level only if his Intelligence allows bonus spells of that level. </p>
+				<p id="canny-defense"><b>Canny Defense (Ex)</b>: At 1st level, when a kensai is wielding his chosen weapon, he gains the canny defense ability. This is identical to the duelist prestige class ability of the same name (<i>Core Rulebook</i> 382), save that his chosen weapon may be of any type. </p>
+				<p id="weapon-focus"><b>Weapon Focus (Ex)</b>: At 1st level, a kensai gains <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> with his chosen weapon as a bonus feat.</p>
+				<p id="perfect-strike">Perfect Strike (Ex)</b>: At 4th level, when a kensai hits with his chosen weapon, he can spend 1 point from his arcane pool in order to maximize his weapon damage. Don't roll for damage&mdash;the weapon deals maximum damage. This affects only the weapon's base damage dice, not additional damage from sneak attack, magical weapon properties, spellstrike, or critical hits. </p>
+				<p>If the kensai confirms a critical hit, he can instead spend 2 points from his arcane pool to increase his weapon's critical multiplier by 1. This ability replaces spell recall.</p>
+				<p id="fighter-training"><b>Fighter Training (Ex)</b>: Starting at 7th level, a kensai counts his magus level &ndash;3 as his fighter level for the purpose of qualifying for feats (if he has levels in fighter, these levels stack), but forfeits the benefit of such feats with weapons other than his favored weapon. This ability replaces knowledge pool.</p>
+				<p id="iaijutsu"><b>Iaijutsu (Ex)</b>: At 7th level, a kensai applies his Intelligence modifier as well as his Dexterity modifier on initiative rolls (minimum 0). A kensai may make attacks of opportunity when flat-footed, and may draw his favored weapon as a free action as part of taking an attack of opportunity. This ability replaces the medium armor ability.</p>
+				<p id="critical-perfection"><b>Critical Perfection (Ex)</b>: At 9th level, a kensai adds his Intelligence bonus (minimum 0) on critical hit confirmation rolls with his favored weapon. In addition, the kensai may use his magus levels in place of his base attack bonuses to qualify for <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a> and any feat for which it is a prerequisite; these feats apply only with a kensai's favored weapon. This ability replaces the magus arcana normally gained at 9th level.</p>
+				<p id="superior-reflexes"><b>Superior Reflexes (Ex)</b>: At 11th level, kensai can make a number of attacks of opportunity in a round equal to his Intelligence modifier (minimum 1). This effect stacks with the <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a> feat. This ability replaces improved spell recall. </p>
+				<p id="iaijutsu-focus"><b>Iaijutsu Focus (Ex)</b>: At 13th level, a kensai may always act and may draw his weapon as a swift action during a surprise round, though he is considered flat-footed until he acts. During a surprise round or when attacking a flat-footed opponent, he adds his Intelligence modifier on damage with his chosen weapon (minimum 0). This ability replaces heavy armor.</p>
+				<p id="iaijutsu-master"><b>Iaijutsu Master (Ex)</b>: At 19th level, a kensai's initiative roll is automatically a natural 20 and he is never surprised. This ability replaces greater spell access.</p>
+				<p id="weapon-mastery"><b>Weapon Mastery (Ex)</b>: At 20th level, a kensai gains weapon mastery with his favored weapon, as the fighter class ability. This ability replaces true magus.</p>
+				<p id="magus-arcana"><b>Magus Arcana</b>: The following magus arcana complement the kensai archetype: concentrate, critical strike, deadly follow-up, precise prowess, prescient attack, prescient defense, spell shield. </p>
+				<h2 id="myrmidarch-(archetype)">Myrmidarch (Archetype)</h2>
+				<p>The myrmidarch is a skilled specialist, using magic to supplement and augment his martial mastery. Less inclined to mix the two than a typical magus, the myrmidarch seeks supremacy with blade, bow, and armor.</p>
+				<p id="diminished-spellcasting"><b>Diminished Spellcasting</b>: Myrmidarchs cast one fewer spell of each level than normal. If this reduces the number to 0, he may cast spells of that level only if his Intelligence allows bonus spells of that level. </p>
+				<p id="ranged-spellstrike"><b>Ranged Spellstrike (Su)</b>: At 4th level, a myrmidarch can use spellstrike to cast a single-target touch attack ranged spell and deliver it through a ranged weapon attack. Even if the spell can normally affect multiple targets, only a single missile, ray, or effect accompanies the attack. </p>
+				<p>At 11th level, a myrmidarch using a multiple-target spell with this ability may deliver one ray or line of effect with each attack when using a full-attack action, up to the maximum allowed by the spell (in the case of ray effects). Any effects not used in the round the spell is cast are lost. This ability replaces spell recall and improved <br/>spell recall.</p>
+				<p id="weapon-training"><b>Weapon Training (Ex)</b>: At 6th level, a myrmidarch gains weapon training, as the fighter ability, adding an additional weapon group every six levels after 6th (to a maximum of three groups at 18th level) and increasing the bonus on attack and damage rolls for weapon groups already chosen by +1. This ability replaces the magus arcana normally gained at 6th, 12th, and 18th levels.</p>
+				<p id="fighter-training"><b>Fighter Training (Ex)</b>: At 7th level, a myrmidarch counts his magus level &ndash;3 as his fighter level for the purpose of qualifying for feats (if he has levels in fighter, these levels stack). At 10th level, the myrmidarch treats his magus levels as fighter levels for the purposes of fighter training. This ability replaces both knowledge pool and the fighter training the magus gains at 10th level..</p>
+				<p id="armor-training"><b>Armor Training (Ex)</b>: At 8th level, a myrmidarch gains armor training, as the fighter ability. At 14th level, he gains armor training 2. This ability replaces improved spell combat and greater spell combat.</p>
+				<p id="armor-mastery"><b>Armor Mastery (Ex)</b>: At 20th level, a myrmidarch gains DR 5/&ndash; when wearing armor. This ability replaces true magus. </p>
+				<p id="magus-arcana"><b>Magus Arcana</b>: The following magus arcana complement the myrmidarch archetype: accurate strike, arcane edge, lingering pain, prescient attack, prescient defense, spell shield, spellbreaker. </p>
+				<h2 id="skirnir-(archetype)">Skirnir (Archetype)</h2>
+				<p>Sometimes called a shield-vassal or shieldmaiden, the skirnir has learned to infuse his power into his shield.</p>
+				<p id="diminished-spellcasting"><b>Diminished Spellcasting</b>: A skirnir casts one fewer spell of each level than normal. If this reduces the number to 0, he may cast spells of that level only if his Intelligence allows bonus spells of that level. </p>
+				<p id="arcane-bond"><b>Arcane Bond (Su)</b>: At 1st level, a skirnir gains a shield (except for a tower shield) as an arcane bond item. This is identical to the wizard class ability, but the skirnir may only bond with a shield, not a familiar or other item. </p>
+				<p id="arcane-pool"><b>Arcane Pool</b>: At 1st level, a skirnir can use his arcane pool to grant an enhancement bonus to a weapon as normal, as well as to his shield, paying the arcane pool cost separately for each. At 5th level and above, he can also add the following shield special abilities: <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-animated" >animated</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-arrow-catching" >arrow catching</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-arrow-deflection" >arrow deflection</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-bashing" >bashing</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-blinding" >blinding</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i> (any), <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-reflecting" >reflecting</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance" >spell resistance</a></i> (any). </p>
+				<p id="sorcerous-shield"><b>Sorcerous Shield (Ex)</b>: At 1st level, skirnirs are proficient with all types of shields, including tower shields, and do not suffer an arcane spell failure chance when casting magus spells while using a shield. They treat their magus levels as their fighter levels for the purpose of qualifying for shield-related feats. This ability replaces spell combat.</p>
+				<p id="spellstrike"><b>Spellstrike (Su)</b>: At 1st level, a skirnir may use this ability with a weapon or shield bash attack.</p>
+				<p id="shield-pool"><b>Shield Pool (Ex)</b>: At 4th level, as a free action, a skirnir may spend 1 point from his arcane pool to add his shield bonus to AC (not including enhancement bonuses) on a concentration check to cast defensively. He may also use a touch attack or shield bash with his shield in conjunction with any pool strike magus arcana. This ability replaces spell recall.</p>
+				<p id="spellshield"><b>Spellshield (Su)</b>: At 7th level, as a standard action, a skirnir may store a magus spell in his shield by spending 1 point from his arcane pool per level of the spell. This functions as the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_spell-storing" >spell storing</a></i> weapon special ability, but activates only on a successful shield bash by the skirnir and is not limited to spells of 3rd level or less. This ability replaces knowledge pool.</p>
+				<p id="shielded-spell-combat"><b>Shielded Spell Combat (Su)</b>: At 8th level, a skirnir gains the spell combat ability, but only when wielding his bonded shield. A skirnir may use his shield hand to perform somatic components for magus spells, forfeiting the shield's bonus to AC until the beginning of his next turn; if the bonded shield is a buckler, he retains its bonus to AC. At 14th level, he gains the benefits of improved spell combat.</p>
+				<p>At 19th level, he retains his shield's bonus to AC when using any type of shield with spell combat. This ability replaces improved spell combat, greater spell combat, and greater spell access.</p>
+				<p id="greater-spellshield"><b>Greater Spellshield (Su)</b>: At 16th level, a skirnir may activate a stored spell as an immediate action after being struck in combat. He may choose to have the spell affect himself or the creature that struck him. This ability replaces counterstrike.</p>
+				<p id="magus-arcana"><b>Magus Arcana</b>: The following magus arcana complement the skirnir archetype: arcane redoubt, arcane redoubt (greater), enduring blade (may use on weapon or shield), pool strike, pool strike (arcing, clinging, thundering), prescient defense, reflection. </p>
+				<h2 id="soul-forger-(archetype)">Soul Forger (Archetype)</h2>
+				<p>The soul forger has learned the skill of infusing the raw magical essence of his soul into armaments of surpassing power, combining the mystic arts with the arts of war in a unity of steely perfection. </p>
+				<p id="diminished-spellcasting"><b>Diminished Spellcasting</b>: A soul forger casts one fewer spell of each level than normal. If this reduces the number to 0, he may cast spells of that level only if his Intelligence allows bonus spells of that level. </p>
+				<p id="arcane-bond"><b>Arcane Bond (Su)</b>: At 1st level, a soul forger gains a weapon as an arcane bond item. This is identical to the wizard class ability, but the soul forger must select a weapon.</p>
+				<p id="spell-combat"><b>Spell Combat (Su)</b>: A soul forger may use this ability only when wielding his bonded weapon.</p>
+				<p id="spellstrike"><b>Spellstrike (Su)</b>: A soul forger may use this ability only when wielding his bonded weapon.</p>
+				<p id="master-smith"><b>Master Smith (Ex)</b>: A soul forger adds his magus class level on <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> checks to manufacture armor, shields, and weapons. This bonus applies on skill checks required when using <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>.</p>
+				<p>At 7th level, a soul forger uses the 1/10 gp value of armor, shields, and weapons to determine how much time it takes to craft mundane items, and he requires only half the normal amount of time to enchant magical arms and armor. This ability replaces knowledge pool.</p>
+				<p id="fortify-bond"><b>Fortify Bond (Su)</b>: At 4th level, a soul forger may spend 1 point from his arcane pool to increase the hardness and hit points of his bonded item by an amount equal to his magus level. These hit points last until expended or until the soul forger next prepares spells. Multiple uses of this ability overlap and do not stack. This ability replaces spell recall.</p>
+				<p id="reforge"><b>Reforge (Su)</b>: At 11th level, as a standard action, a soul forger can restore a number of hit points equal to his magus level to a damaged object by touching it and spending 1 point from his arcane pool. Repairing a destroyed object takes 1 minute and materials equal to 1/4 the item's sale value, and restores the object to 1 hit point.</p>
+				<p>Restoring the enchantments of a destroyed magical item requires additional points from the soul forger's arcane pool equal to the item's caster level. The soul forger gains one temporary negative level if the item's caster level is lower than his own, two negative levels if equal or greater (or none if the item is his bonded weapon); the save DC to remove these negative levels is equal to 10 + the item's caster level. This ability replaces improved spell recall.</p>
+				<p id="destructive-counterstrike"><b>Destructive Counterstrike (Su)</b>: At 16th level, an opponent who activates a magical item while threatened by a soul forger provokes an attack of opportunity, either against the target or to sunder the item. If the item is destroyed, its effects are negated. This ability replaces counterstrike.</p>
+				<p id="instantaneous-reconstruction"><b>Instantaneous Reconstruction (Su)</b>: At 19th level, a soul forger can reforge a destroyed item by touch as a standard action that does not provoke attacks of opportunity. This ability replaces greater spell access.</p>
+				<p id="magus-arcana"><b>Magus Arcana</b>: The following magus arcana complement the soul forger archetype: arcane accuracy, bane blade, devoted blade, dispelling strike, enduring blade, and ghost blade. </p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

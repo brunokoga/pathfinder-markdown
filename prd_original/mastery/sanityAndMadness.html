@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Sanity and Madness</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Sanity and Madness",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="sanity-and-madness" class="monster-header">Sanity and Madness</h1>
+				<p>Insanity is an affliction inflicted upon those who suffer from extraordinary physical, mental, or spiritual anguishes and trials. Insanity can also be caused by exposure to particularly potent sources of unhinging horror, madness, or alien natures, such that the mind simply cannot withstand them. Insanity is a mind-affecting effect.</p>
+				<h1 id="going-insane">Going Insane</h1>
+				<p>In-game, a person has a chance of going insane every time he suffers a tremendous shock to one of his mental ability scores&mdash;Intelligence, Wisdom, or Charisma. Every time a creature is reduced to a score of 0 in one of these scores, there's a chance he goes insane. (Note: Wisdom damage is particularly likely to cause insanity, since a 0 Wisdom score imparts a &ndash;5 penalty on all Will saves.) Either roll on the table on this page or select an insanity appropriate to the cause of what reduced the victim's score to 0. You should make the victim's saving throw in secret&mdash;he should not know the result, nor the type of insanity that might afflict him. These effects should play out naturally&mdash;some insanities (like phobias) take days or even months to trigger or have effects, while others (such as paranoia) are immediately obvious.</p>
+				<p>At your option, a creature can run the risk of going insane under extremely unusual situations, even when his mental ability scores are unharmed. A character suffering from long imprisonment might have to make a save against developing agoraphobia or claustrophobia. Someone repeatedly betrayed by allies might have to make a save against developing paranoia. And a poor soul whose mind is possessed by a powerful demon might have to make a save upon being exorcized to keep from becoming psychotic. The causes of such insanities are left to you as the GM to determine.</p>
+				<p>Insanity can also be inflicted via magic. Consider allowing the spell <i><a href="../spells/insanity.html#_insanity" >insanity</a></i> to merely inflict 1 randomly determined insanity per 5 caster levels on its victim rather than causing permanent confusion. <i><a href="../spells/bestowCurse.html#_bestow-curse" >Bestow curse</a></i> can also inflict a single insanity on a foe, although in this case the insanity is also a curse.</p>
+				<p>It's possible to suffer from multiple forms of insanity. If you become afflicted with a form of insanity you are already suffering from, the current DC of that insanity increases by +5.</p>
+				<h1 id="curing-insanity">Curing Insanity</h1>
+				<p>All insanities have a DC that represents the insanity's strength. An insanity's DC indicates the Will save you need to roll in order to resist contracting the insanity when you are initially exposed to it, but also the DC you need to make to recover. Recovering from an insanity naturally is a lengthy process&mdash;once per week, you make a Will save against the insanity's current DC. If you succeed on this save, the insanity's DC is reduced by a number of points equal to your Charisma bonus (minimum of 1). You continue to suffer the full effects of the insanity until its DC is reduced to 0, at which point you are cured and the insanity vanishes completely.</p>
+				<p id="lesser-restoration"><i><a href="../spells/restoration.html#_restoration-lesser" >Lesser restoration</a></i> has no effect on insanity, but <i><a href="../spells/restoration.html#_restoration" >restoration</a></i> reduces the current DC of one insanity currently affecting a target by an amount equal to the caster's level. <i><a href="../spells/restoration.html#_restoration-greater" >Greater restoration</a></i>, <i><a href="../spells/heal.html#_heal" >heal</a></i>, <i><a href="../spells/limitedWish.html#_limited-wish" >limited wish</a></i>, <i><a href="../spells/miracle.html#_miracle" >miracle</a></i>, or <i><a href="../spells/wish.html#_wish" >wish</a></i> immediately cures a target of all insanity.</p>
+				<h1 id="types-of-insanity">Types of Insanity</h1>
+				<p>When a creature goes insane, roll on the following table to determine what form of insanity strikes. Alternatively, you can assign the insanity to match the cause.</p><table>
+<thead><tr><th>d%</th><th>Insanity</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;11</td><td>Amnesia</td></tr>
+<tr class="even"><td>12&ndash;48</td><td>Mania/Phobia</td></tr>
+<tr class="odd"><td>49&ndash;68</td><td>Multiple Personality Disorder</td></tr>
+<tr class="even"><td>69&ndash;78</td><td>Paranoia</td></tr>
+<tr class="odd"><td>79&ndash;84</td><td>Psychosis</td></tr>
+<tr class="even"><td>85&ndash;100</td><td>Schizophrenia</td></tr></tbody></table>
+
+				<p id="amnesia" class="stat-block-title"><b>Amnesia</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> insanity; <b>Save</b> Will DC 20</p>
+				<p id="onset" class="stat-block-1"><b>Onset</b> immediate</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> &ndash;4 penalty on Will saving throws and all skill checks; loss of memory (see below)</p>
+				<p id="description" class="stat-block-breaker"><b>Description</b></p>
+				<p>A character suffering from amnesia cannot remember things; his name, his skills, and his past are all equal mysteries. He can build new memories, but any memories that existed before he became an amnesiac are suppressed.</p>
+				<p>Worse, the amnesiac loses all class abilities, feats, and skill ranks for as long as his amnesia lasts. He retains his base attack bonus, base saving throw bonuses, combat maneuver bonus, combat maneuver defense, total experience points, and hit dice (and hit points), but everything else is gone until the amnesia is cured. If a character gains a class level while suffering from amnesia, he may use any abilities gained by that class level normally. If the class level he gained was of a class he already possess levels in, he gains the abilities of a 1st-level character of that class, even though he is technically of a higher level in that class. If his amnesia is later cured, he regains all the full abilities of this class, including those gained from any levels taken while he was suffering from amnesia.</p>
+				<p id="mania/phobia" class="stat-block-title"><b>Mania/Phobia</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> insanity; <b>Save</b> Will DC 14</p>
+				<p id="onset" class="stat-block-1"><b>Onset</b> 1 day</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> target is sickened (if manic) or shaken (if phobic) as long as the source of the mania or phobia is obvious; chance of becoming fascinated or frightened (see below)</p>
+				<p id="description" class="stat-block-breaker"><b>Description</b></p>
+				<p>A mania is an irrational obsession with a (usually inappropriate) particular object or situation, while a phobia is an irrational fear of a (usually commonplace) object or situation. Additionally, if a manic or phobic character is directly confronted by his obsession (requiring a standard action), he must make a Will save against the insanity or become fascinated (if manic) or frightened (if phobic) by the object for 1d6 rounds.</p>
+				<p id="multiple-personality-disorder" class="stat-block-title"><b>Multiple Personality Disorder</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> insanity; <b>Save</b> Will DC 19</p>
+				<p id="onset" class="stat-block-1"><b>Onset</b> 2d6 days</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> &ndash;6 penalty on Will saving throws and Wisdom-based skill checks; multiple personalities (see below)</p>
+				<p id="description" class="stat-block-breaker"><b>Description</b></p>
+				<p>This is a complicated disorder that manifests as 1 or more distinct and different personalities within the same body and mind. The number of additional personalities the victim manifests equals the DC of the insanity divided by 10 (round down, minimum of 1 additional personality). Should the insanity worsen in some way (such as by the save DC increasing), the number of additional personalities increases as well. Likewise, the number of additional personalities decreases as the sufferer recovers and the insanity's DC decreases. The GM should develop these additional personalities.</p>
+				<p>Every morning, and each time the afflicted character is rendered unconscious, he must make a Will save against his insanity's DC. Failure indicates that a different personality takes over. A character's memories and skills remain unchanged, but the various personalities have no knowledge of each other and will deny, often violently, that these other personalities exist.</p>
+				<p id="paranoia" class="stat-block-title"><b>Paranoia</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> insanity; <b>Save</b> Will DC 17</p>
+				<p id="onset" class="stat-block-1"><b>Onset</b> 2d6 days</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> &ndash;4 penalty on Will saves and Charisma-based skill checks; cannot receive benefit from or attempt the Aid Another action; cannot willingly accept aid (including healing) from another creature unless he makes a Will save against his insanity's DC</p>
+				<p id="description" class="stat-block-breaker"><b>Description</b></p>
+				<p>The paranoid character is convinced that the world and all that dwell within it are out to get him. Paranoid characters are typically argumentative or introverted.</p>
+				<p id="psychosis" class="stat-block-title"><b>Psychosis</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> insanity; <b>Save</b> Will DC 20</p>
+				<p id="onset" class="stat-block-1"><b>Onset</b> 3d6 days</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> character becomes chaotic evil; gains +10 competence bonus on <a href="../skills/bluff.html#_bluff" >Bluff</a> checks to hide insanity</p>
+				<p id="description" class="stat-block-breaker"><b>Description</b></p>
+				<p>This complex insanity fills the victim with hate for the world. He may suppress his psychosis for a period of 1 day by making a Will save against the DC of his insanity, otherwise he cannot help but plot and plan the death and destruction of his friends and enemies alike. For the most part, the impact of psychosis must be roleplayed, although not all players find entertainment in roleplaying a lunatic who's trying to do in his friends. In such cases, the GM should assume control of the character whenever his psychosis is in control.</p>
+				<p id="-schizophrenia" class="stat-block-title"><b> Schizophrenia</b></p>
+				<p id="type" class="stat-block-1"><b>Type</b> insanity; <b>Save</b> Will DC 16</p>
+				<p id="onset" class="stat-block-1"><b>Onset</b> 1d6 days</p>
+				<p id="effect" class="stat-block-1"><b>Effect</b> &ndash;4 penalty on all Wisdom and Charisma-based skill checks; cannot take 10 or take 20; chance of becoming confused (see below)</p>
+				<p id="description"><b>Description</b> A schizophrenic character has lost his grip on reality, and can no longer tell the difference between what is real and what is not. These constant hallucinations cause the schizophrenic to appear erratic, chaotic, and unpredictable to others. Each time a schizophrenic character finds himself in a stressful situation (such as combat) he must make a Will save against his insanity's DC. Failure indicates that the character becomes confused for 1d6 rounds.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

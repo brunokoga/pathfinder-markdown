@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Alchemical Tools</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Alchemical Tools",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/gear/index.html', name: 'Gear' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="alchemical-tools">Alchemical Tools</h1>
+<p>Alchemical tools are adventuring items that can prove extremely useful in a variety of situations, including battles, dungeon-delving, or crafting other alchemical items. All of these tools can be made by a character with the <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy) skill.</p>
+
+<table id="alchemical-tools-table"><caption>Alchemical Tools</caption>
+<thead><tr><th>Item</th><th>Price</th><th>Weight</th><th>Craft DC</th></tr></thead>
+<tr class="odd"><td>Alchemical cement</td><td>5 gp</td><td>2 lbs.</td><td>15</td></tr>
+<tr class="even"><td>Alchemical glue</td><td>20 gp</td><td>1/2 lb.</td><td>20</td></tr>
+<tr class="odd"><td>Alchemical glue accelerant</td><td>25 gp</td><td>&mdash;</td><td>25</td></tr>
+<tr class="even"><td>Alchemical solvent</td><td>20 gp</td><td>1/2 lb.</td><td>20</td></tr>
+<tr class="odd"><td>Armor ointment</td><td>30 gp</td><td>1 lb.</td><td>15</td></tr>
+<tr class="even"><td>Blackfire clay</td><td>20 gp</td><td>10 lbs.</td><td>20</td></tr>
+<tr class="odd"><td>Bloodblock</td><td>25 gp</td><td>&mdash;</td><td>25</td></tr>
+<tr class="even"><td>Buoyant balloon</td><td>10 gp</td><td>1 lb.</td><td>15</td></tr>
+<tr class="odd"><td>Candlerod</td><td>1 gp</td><td>1 lb.</td><td>20</td></tr>
+<tr class="even"><td>Casting plaster</td><td>5 sp</td><td>5 lbs.</td><td>&mdash;</td></tr>
+<tr class="odd"><td>Chill cream</td><td>15 gp</td><td>1 lb.</td><td>15</td></tr>
+<tr class="even"><td>Defoliant</td><td>30 gp</td><td>&mdash;</td><td>25</td></tr>
+<tr class="odd"><td>Embalming fluid</td><td>50 gp</td><td>10 lbs.</td><td>25</td></tr>
+<tr class="even"><td>Foaming powder</td><td>10 gp</td><td>1 lb.</td><td>20</td></tr>
+<tr class="odd"><td>Glowing ink</td><td>5 gp</td><td>&mdash;</td><td>15</td></tr>
+<tr class="even"><td>Impact foam</td><td>25 gp</td><td>1 lb.</td><td>20</td></tr>
+<tr class="odd"><td>Invisible ink (simple)</td><td>2 gp</td><td>&mdash;</td><td>15</td></tr>
+<tr class="even"><td>Invisible ink (average)</td><td>10 gp</td><td>&mdash;</td><td>20</td></tr>
+<tr class="odd"><td>Invisible ink (good)</td><td>25 gp</td><td>&mdash;</td><td>20</td></tr>
+<tr class="even"><td>Invisible ink (superior)</td><td>75 gp</td><td>&mdash;</td><td>25</td></tr>
+<tr class="odd"><td>Light detector</td><td>1 gp</td><td>&mdash;</td><td>10</td></tr>
+<tr class="even"><td>Marker dye</td><td>15 gp</td><td>1 lb.</td><td>15</td></tr>
+<tr class="odd"><td>Mending paste</td><td>25 gp</td><td>1/2 lb.</td><td>25</td></tr>
+<tr class="even"><td>Nushadir</td><td>10 gp</td><td>1 lb.</td><td>20</td></tr>
+<tr class="odd"><td>Rusting powder</td><td>60 gp</td><td>&mdash;</td><td>30</td></tr>
+<tr class="even"><td>Scent cloak</td><td>20 gp</td><td>2 lbs.</td><td>20</td></tr>
+<tr class="odd"><td>Smoke pellet</td><td>25 gp</td><td>&mdash;</td><td>20</td></tr>
+<tr class="even"><td>Smokestick</td><td>20 gp</td><td>1/2 lb.</td><td>20</td></tr>
+<tr class="odd"><td>Sunrod</td><td>2 gp</td><td>1 lb.</td><td>25</td></tr>
+<tr class="even"><td>Tindertwig</td><td>1 gp</td><td>&mdash;</td><td>25</td></tr>
+<tr class="odd"><td>Water purification sponge</td><td>25 gp</td><td>1 lb.</td><td>15</td></tr>
+<tr class="even"><td>Weapon blanch (adamantine)</td><td>100 gp</td><td>1/2 lb.</td><td>25</td></tr>
+<tr class="odd"><td>Weapon blanch (cold iron)</td><td>20 gp</td><td>1/2 lb.</td><td>20</td></tr>
+<tr class="even"><td>Weapon blanch (silver)</td><td>5 gp</td><td>1/2 lb.</td><td>20</td></tr></table>
+				
+<p id="alchemical-cement" class="stat-block-title">Alchemical Cement</p>
+<p class="stat-block-1"><b>Price</b> 5 gp; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">You mix this fine gray powder with water and a cubic foot of sand or gravel to form a durable stone-like material. Until it cures, it has the consistency of thick mud, and you must hold it in place (typically with a frame of earth or wood) if you want it to harden in a specific shape. It takes 1d10+10 minutes for the cement to partially cure, gaining hardness 2 and 5 hit points per inch of thickness. After 1d6 hours the cement is fully cured and as hard as true stone.</p>
+				
+<p id="alchemical-glue" class="stat-block-title">Alchemical Glue</p>
+<p class="stat-block-1"><b>Price</b> 20 gp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">This glue is stored as two flasks of syrupy liquid. When mixed together and allowed to cure, they form a strong bond. The glue is sufficient to coat 1 square foot of surface, or (because of waste, spills, and inaccurate mixing) up to 20 smaller applications of approximately 2 square inches each. The glue is tacky after 1 minute and fully cured after 1 hour. Pulling apart a large glued surface (at least 1 square foot) requires a DC 20 Strength check for tacky glue or DC 25 for cured glue. Pulling apart a small glued surface (anything less than 1 square foot) is a DC 15 Strength check for tacky glue or DC 20 for cured glue.</p>
+				
+<p id="alchemical-glue-accelerant" class="stat-block-title">Alchemical glue accelerant</p>
+<p class="stat-block-1"><b>Price</b> 25 gp; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This tiny dropper contains a liquid that speeds up the cure time of alchemical glue. Applying the accelerant is a standard action. Accelerated glue is tacky after 1 round and fully cured in 1 minute. The dropper contains 20 doses; each dose is sufficient to cure one small application of alchemical glue. The entire dropper must be used to cure a full square foot of glue.</p>
+				
+<p id="alchemical-solvent" class="stat-block-title">Alchemical Solvent </p>
+<p class="stat-block-1"><b>Price</b> 20 gp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block"> This bubbling purple gel eats through adhesives. Each vial can cover a single 5-foot square. It destroys most normal adhesives (such as tar, tree sap, or glue) in a single round but takes 1d4+1 rounds to deal with more powerful adhesives (alchemical glue, tanglefoot bags, spider webbing, and so on). It has no affect on fully magical adhesives, such as <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_sovereign-glue" >sovereign glue</a></i>. </p>
+				
+<p id="armor-ointment" class="stat-block-title">Armor Ointment</p>
+<p class="stat-block-1"><b>Price</b> 30 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This thick lubricant makes the joints of armor move more freely. Applying the ointment takes 1 minute and reduces your armor's armor check penalty by 1 (to a minimum of &ndash;1) for 8 hours.</p>
+				
+<p id="blackfire-clay" class="stat-block-title">Blackfire Clay</p>
+<p class="stat-block-1"><b>Price</b> 20 gp; <b>Weight</b> 10 lbs.</p>
+<p class="stat-block">This pliant black clay is always pleasantly warm to the touch. Working blackfire clay in your hands for a full round causes the clay to grow much warmer, granting you a +4 alchemical bonus on saving throws made to resist cold weather. You can combine five blocks of clay over the course of a minute to produce a source of warmth equivalent to a small campfire, allowing you to heat a campsite and cook food.</p>
+<p class="stat-block">Blackfire clay only produces heat, never light, smoke, or odor. The clay emits warmth for 1 hour before hardening into an unusable lump. A newly created brick of blackfire clay is composed of 10 blocks.</p>
+				
+<p id="bloodblock" class="stat-block-title">Bloodblock</p>
+<p class="stat-block-1"><b>Price</b> 25 gp; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This gooey, pinkish substance helps treat wounds. Using a dose gives you a +5 alchemical bonus on <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> checks for providing first aid, treating wounds made by caltrops or similar objects, or treating deadly wounds. A dose of bloodblock ends a bleed effect as if you had made a DC 15 <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> check. When treating deadly wounds, using a dose of bloodblock counts as one use of a healer's kit (and grants the +5 bonus stated above). </p>
+				
+<p id="buoyant-balloon" class="stat-block-title">Buoyant Balloon</p>
+<p class="stat-block-1"><b>Price</b> 10 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This fist-sized alchemically treated animal bladder is tightly sealed around a small wooden grip. By giving the handle a sharp twist you break a tiny glass ampoule just inside the bladder, filling the bag with buoyant gas and causing it to swell into a 3-foot-diameter sphere. Inflating the balloon is a move action. Once filled, the balloon floats upward at a speed of 60 feet per round. The balloon can lift up to 20 pounds of weight as it rises, though carrying more than 10 pounds reduces its speed to 30 feet per round. Multiple balloons attached to a single object add their carrying capacities together when determining how much weight they can lift. If a balloon is not held or bound in place in some manner, it continues to rise until it reaches a height of 600 feet, or until 10 minutes have passed, after which it pops or deflates and is destroyed.</p>
+				
+<p id="candlerod-" class="stat-block-title">Candlerod </p>
+<p class="stat-block-1"><b>Price</b> 1 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Similar to but weaker than a sunrod, this stick glows like a candle when struck and lasts for 12 hours.</p>
+				
+<p id="casting-plaster" class="stat-block-title">Casting Plaster</p>
+<p class="stat-block-1"><b>Price</b> 5 sp; <b>Weight</b> 5 lbs.</p>
+<p class="stat-block">This white, dry powder mixes with water to form a paste, which hardens over the course of an hour to create a solid material. It can be used to make casts of footprints or carvings, fill in gaps or cracks in walls, or (if applied over a cloth wrapping) create a cast for a broken bone. Hardened plaster has hardness 1 and 5 hit points per inch of thickness. A 5-pound clay pot of plaster can cover about 5 square feet of flat space to a depth of 1 inch, five Medium forearm or lower-leg casts, two Medium full-arm or full-leg casts, or twice as many casts for a Small creature. </p>
+				
+<p id="chill-cream" class="stat-block-title">Chill Cream</p>
+<p class="stat-block-1"><b>Price</b> 15 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This sticky light blue paste grows pleasantly cool to the touch whenever it is exposed to light. Spreading a dose on your face and hands takes a full-round action and grants you a +2 alchemical bonus on saves to resist hot weather. In areas of bright light this bonus increases to +4, while in areas of dim light or darkness it is negated. A dose of chill cream lasts for 1 hour after being applied. A newly crafted bottle of chill cream holds 5 doses.</p>
+				
+<p id="defoliant" class="stat-block-title">Defoliant</p>
+<p class="stat-block-1"><b>Price</b> 30 gp; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This milky fluid can be mixed with water to quickly kill light and medium vegetation. One flask of defoliant kills light brush and small trees in 50 5-foot squares. Light vegetation (anything but trees) dies within 1 hour and can be cleared at a rate of 10 minutes per 5-foot square (representing uprooting dead plants and breaking stumps into gravel-sized pieces), leaving barren ground. Medium vegetation (anything but massive trees) dies in 2 hours and can be cleared at a rate of 1 hour per 5-foot square. Massive trees can usually survive a single dose of defoliant, and using defoliant doesn't make clearing them any easier. Defoliant can be used as a splash weapon against plant creatures. A direct hit with the undiluted fluid deals 1d6 hit points of damage, 1 point of Strength damage, and 1 point of Constitution damage (Fortitude DC 20 negates the Strength and Constitution damage); plant creatures within 5 feet of the target take 1 hit point of damage.</p>
+				
+<p id="embalming-fluid" class="stat-block-title">Embalming Fluid</p>
+<p class="stat-block-1"><b>Price</b> 50 gp; <b>Weight</b> 10 lbs.</p>
+<p class="stat-block">This fluid is used to preserve corpses, whether for later dissection, taxidermy, necromancy, or magic such as <i><a href="/pathfinderRPG/prd/spells/raiseDead.html#_raise-dead" >raise dead</a></i>. Embalming fluid is technically a poison, and using it makes a corpse unpalatable to most animals and vermin, though corpse-eating undead don't mind the taste. Treating a corpse with embalming fluid takes 1 hour and a successful DC 25 <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> check. The embalmed corpse decays at half the normal rate (each day dead counts as half a day for the purpose of <i><a href="/pathfinderRPG/prd/spells/raiseDead.html#_raise-dead" >raise dead</a></i>).</p>
+				
+<p id="foaming-powder" class="stat-block-title">Foaming Powder</p>
+<p class="stat-block-1"><b>Price</b> 10 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">When you add this 1-pound bag of green powder to a gallon of water, the two combine to form 50 cubic feet of thick green foam. Unless contained, in 1 round the foam fills a 5-foot-square to a depth of 2 feet. When multiple pounds of powder are used, the foam expands at a rate of one 5-foot square per round. Ground covered with the foam is treated as difficult terrain, but is otherwise harmless. After 1 hour, the foam hardens to form a buoyant material roughly the density of honeycomb. The cured foam is easy to cut, with hardness 0 and 5 hit points per foot of thickness. The cured foam breaks down over a few days, and even faster if exposed to water. Casting <i><a href="/pathfinderRPG/prd/spells/transmuteMudToRock.html#_transmute-mud-to-rock" >transmute mud to rock</a></i> on uncured foam converts it into a soft, pumice-like stone (hardness 2, 5 hit points per inch of thickness).</p>
+				
+<p id="glowing-ink" class="stat-block-title">Glowing Ink</p>
+<p class="stat-block-1"><b>Price</b> 5 gp; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Often extracted from phosphorescent insects, tiny marine plants, or subterranean fungi, glowing ink emits a faint but steady light (typically red or green) that allows you to read it in normal darkness&mdash;this includes darkness created by spells like <i><a href="/pathfinderRPG/prd/spells/darkness.html#_darkness" >darkness</a></i>, but not the supernatural darkness created by <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i>. If there is glowing ink on an object, you have a +2 bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks to locate it. Mixing glowing ink with marker dye makes the dye glow in the dark until it fades. </p>
+				
+<p id="impact-foam" class="stat-block-title">Impact Foam</p>
+<p class="stat-block-1"><b>Price</b> 25 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This milky white liquid bubbles into a 1-foot-thick semisolid sheet of foam when splashed across the ground. You can spend a minute to apply a flask of impact foam to a 10-foot-radius area, or you can throw the flask as a splash weapon. The foam does not interfere with movement, but reacts strongly to sudden force. A creature that falls onto a sheet of impact foam ignores the first 1d6 points of falling damage and converts the second 1d6 points of falling damage into nonlethal damage. A sheet of impact foam dissolves after 10 minutes or when exposed to at least a gallon of water.</p>
+				
+<p id="invisible-ink" class="stat-block-title">Invisible Ink</p>
+<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Simple</td><td>2 gp</td><td>&mdash;</td></tr>
+<tr class="even"><td>Average</td><td>10 gp</td><td>&mdash;</td></tr>
+<tr class="odd"><td>Good</td><td>25 gp</td><td>&mdash;</td></tr>
+<tr class="even"><td>Superior</td><td>75 gp</td><td>&mdash;</td></tr></table>
+<p class="stat-block">Invisible ink is a staple of spies, rebels, and secret societies everywhere. Messages written with invisible ink only become visible under specific circumstances. Revealing the secret message with the proper triggering agent is a full-round action per page of text. A successful <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy) check reveals the message without the proper trigger and takes 1 hour (the DC varies by ink quality).</p>
+<p class="stat-block"><i>Simple</i>: This ink is keyed to a single, fairly common trigger, such as heat or vinegar (DC 20 to reveal without the trigger). </p>
+<p class="stat-block"><i>Average</i>: This ink is keyed to either two common triggers or one uncommon trigger, such as blood or acid (DC 25 to reveal without the trigger).</p>
+<p class="stat-block"><i>Good</i>: This ink is keyed to either two uncommon triggers or one rare trigger, such as a specific vintage of wine or a specific kind of monster's blood (DC 30 to reveal without the trigger).</p>
+<p class="stat-block"><i>Superior</i>: This ink is keyed to either two rare triggers or one unique trigger, such as the blood of a specific person (DC 35 to reveal without the trigger).</p>
+				
+<p id="light-detector" class="stat-block-title">Light Detector</p>
+<p class="stat-block-1"><b>Price</b> 1 gp; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This hand-sized metal plate is covered with a thin layer of light-sensitive transparent paste. If exposed to light, the paste darkens and becomes opaque, depending on the amount of light. Bright light causes it to fully darken in 1 round, normal light in 3 rounds, and dim light in 10 rounds. It is mainly used by creatures with darkvision to determine whether creatures carrying light have recently passed through an area. The plate is sold wrapped in a thick black cloth to prevent accidental light exposure from ruining the plate. </p>
+				
+<p id="marker-dye" class="stat-block-title">Marker Dye</p>
+<p class="stat-block-1"><b>Price</b> 15 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This dye (available in several colors) creates an obvious stain wherever it is splashed. Washing has no effect for the first 72 hours (though magic can erase it), but it fades completely after 2 weeks. You can throw it as a splash weapon. </p>
+				
+<p id="mending-paste" class="stat-block-title">Mending Paste</p>
+<p class="stat-block-1"><b>Price</b> 25 gp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">You can use this smelly, silvery paste to temporarily repair metal objects. It is sold in a sealed flask and reacts with air, turning solid in 1d6+4 minutes. You must make an appropriate DC 20 <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> check to repair a metal item with the broken condition; success means the object loses the broken condition but gains the fragile condition (see page 22). Increase the DC by +5 if the broken object is a magic item or by +5 if it is a firearm (add both modifiers if the item is a magical firearm). If the check fails, the mending paste is consumed but you may try again with another flask or conventional repair methods.</p>
+				
+<p id="nushadir" class="stat-block-title">Nushadir</p>
+<p class="stat-block-1"><b>Price</b> 10 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This reagent is often stored in the form of small, salty pellets in a dry container, though it can also be mixed with a flask of water and carried that way. Nushadir neutralizes acid; a vial of pellets or a flask of nushadir-water is enough to render a cubic foot of acid safe to touch in 1 minute, though this is usually too slow to prevent damage from a thrown vial of acid or the contents of a large monster's gullet. Nushadir vapors are slightly irritating to the eyes, nose, and mouth, causing nausea for 1d4 rounds after close exposure (Fortitude DC 10 negates). </p>
+				
+<p id="rusting-powder" class="stat-block-title">Rusting Powder</p>
+<p class="stat-block-1"><b>Price</b> 60 gp; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This flaky brown powder derived from rust monster fluids causes iron and similar metals to corrode and fall apart. If you apply a dose of rusting powder to a metal lock or trap as part of using the <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> skill, you gain a +5 alchemical bonus to open the lock or disable the trap, but there is a 75% chance that the mechanism is destroyed and cannot be used afterward. If the check fails, the mechanism is destroyed. A destroyed lock cannot be unlocked (but still counts as locked for the purpose opening the locked object). A destroyed trap mechanism immediately triggers the trap. If you fail the DC by 5 or more, the powder also lands on an object in your square (including possibly your armor or weapon), dealing 5 hit points of damage to the object.</p>
+<p class="stat-block">Rusting powder is sold in a paper tube; you apply it by tearing the ends off the tube and blowing the flakes into the target device. Rusting powder does not affect gold, silver, copper, bronze, brass, or mithral, but easily affects iron, steel, and adamantine.</p>
+				
+<p id="scent-cloak" class="stat-block-title">Scent Cloak</p>
+<p class="stat-block-1"><b>Price</b> 20 gp; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">This collection of coarsely ground spices, seeds, musk, and alchemical reagents are meant to be rubbed into your skin and clothes in order to override your scent, increasing the DC of tracking you by scent by +10 for 24 hours. Because you still have a smell, creatures with scent can still detect and pinpoint you if you are cloaked; they just can't identify your smell as something unique. Washing for 1 full round removes the scent cloak. </p>
+				
+<p id="smoke-pellet" class="stat-block-title">Smoke Pellet</p>
+<p class="stat-block-1"><b>Price</b> 25 gp; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This small clay sphere contains two alchemical substances separated by a thin barrier. When you break the sphere, the substances mingle and fill a 5-foot square with a cloud of foul but harmless yellow smoke. The smoke pellet acts as a smokestick, except the smoke only lasts for 1 round before dispersing. You may throw a smoke pellet as a ranged touch attack with a range increment of 10 feet. </p>
+				
+<p id="smokestick" class="stat-block-title">Smokestick</p>
+<p class="stat-block-1"><b>Price</b> 20 gp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">This alchemically treated wooden stick instantly creates thick, opaque smoke when burned. The smoke fills a 10-foot cube (treat the effect as a <i><a href="/pathfinderRPG/prd/spells/fogCloud.html" >fog cloud</a></i> spell, except that a moderate or stronger wind dissipates the smoke in 1 round). The stick is consumed after 1 round, and the smoke dissipates naturally after 1 minute. </p>
+				
+<p id="sunrod" class="stat-block-title">Sunrod</p>
+<p class="stat-block-1"><b>Price</b> 2 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This 1-foot-long, gold-tipped iron rod glows brightly when struck (a standard action). It sheds normal light in a 30-foot radius and increases the light level by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A sunrod does not increase the light level in normal light or bright light. It glows for 6 hours, after which the gold tip is burned out and worthless. </p>
+				
+<p id="tindertwig" class="stat-block-title">Tindertwig</p>
+<p class="stat-block-1"><b>Price</b> 1 gp; <b>Weight</b> &mdash;</p>
+<p class="stat-block">The alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface (a move action). Creating a flame with a tindertwig is much faster than creating a flame with tinder and a flint and steel or magnifying glass. Lighting a torch with a tindertwig is a standard action rather than a full-round action, and lighting any other fire with one is at least a standard action. A tindertwig burns for 1d2 rounds and sheds light as a candle. Tindertwigs are waterproof, but must be dried before you can strike them.</p>
+				
+<p id="water-purification-sponge" class="stat-block-title">Water Purification sponge</p>
+<p class="stat-block-1"><b>Price</b> 25 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This fist-sized blue sponge absorbs up to 1 pint of water; squeezing the water out of the sponge filters and purifies it, making it safe for drinking, washing, and similar activities. Filling and emptying the sponge is a full-round action. The filtration is enough to remove mundane impurities and common diseases, but does nothing to protect against poisons, magic, and other exotic threats. Each sponge can cleanse 25 pints of water before deteriorating and becoming useless. </p>
+				
+<p id="weapon-blanch" class="stat-block-title">Weapon Blanch</p>
+<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Adamantine</td><td>100 gp</td><td>1/2 lb.</td></tr>
+<tr class="even"><td>Cold iron</td><td>20 gp</td><td>1/2 lb.</td></tr>
+<tr class="odd"><td>Silver</td><td>5 gp</td><td>1/2 lb.</td></tr></table>
+<p class="stat-block">These silver, alchemical powders have a gritty consistency, appearing at first glance to be simple metal shavings. When poured on a weapon and placed over a hot flame for a full round, however, they melt and form a temporary coating on the weapon. The blanching gives the weapon the ability to bypass one kind of material-based damage reduction, such as adamantine, cold iron, or silver. The blanching remains effective until you make a successful attack with the weapon. Each dose of blanching can coat one weapon or up to 10 pieces of ammunition. Only one kind of weapon blanch can be on a weapon at one time, though a weapon made of one special material (such as adamantine) can have a different material blanch (such as silver), and counts as both materials for the first successful hit. </p>
+
+	
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

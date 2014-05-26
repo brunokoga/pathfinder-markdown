@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>New Familiars</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="New Familiars",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateMagic/magic/introduction.html', name: 'Mastering Magic' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="new-familiars" class="monster-header">New Familiars</h1>
+				
+				<p>The following are statistics for several new animals that can serve as familiars, in addition to a number of familiars <a href="/pathfinderRPG/prd/advanced/baseClasses/witch.html#_witch's-familiar"> for the Witch Class</a>. These familiars can be taken by anyone gaining a familiar, and utilize all the standard rules for familiars <a href="/pathfinderRPG/prd/classes/wizard.html#_familiars">for Wizard familiars</a>. Tiny or smaller familiars in this section use Dexterity to modify <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> and <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> skill checks.</p>
+				
+				<h2>Small and Vermin Familiars</h2>
+				<p>Small-sized familiars threaten the areas around them like Small creatures, and can be used to flank enemies, though both familiars and their masters are often loath to use such tactics, as the result is often a dead familiar. Small-sized familiars are also harder to keep on a master's person than Tiny or smaller familiars. Often they require some form of magic item, like a <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bag-of-holding" >bag of holding</a></i>, for such a feat to work. The process of making a vermin into a familiar grants it an Intelligence score and removes the mindless trait. Vermin familiars communicate with their masters and other vermin of their kind (greensting scorpions with other scorpions, house centipedes with other centipedes, and scarlet spiders with other spiders) by way of a strange combination of behaviors, slight changes in coloration, and even the excretion of scents, subtle and otherwise. As with other types of familiars, other creatures cannot understand this communication without magical aid. </p>
+				
+				<div class="table"><table><caption>Table: Familiars</caption><thead><tr><th>Familiar</th><th>Special Ability</th></tr></thead>
+				<tr class="odd"><td>Blue-ringed octopus</td><td>Master gains a +3 bonus on <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> checks</td></tr>
+				<tr class="even"><td>Donkey rat</td><td>Master gains a +2 bonus on <a href="/pathfinderRPG/prd/combat.html#_fortitude">Fortitude</a> saves</td></tr>
+				<tr class="odd"><td>Fox</td><td>Master gains a +2 bonus on <a href="/pathfinderRPG/prd/combat.html#_reflex">Reflex</a> saves</td></tr>
+				<tr class="even"><td>Goat</td><td>Master gains a +3 bonus on <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks</td></tr>
+				<tr class="odd"><td>Greensting scorpion</td><td>Master gains a +4 bonus on <a href="/pathfinderRPG/prd/combat.html#_initiative">Initiative</a> checks</td></tr>
+				<tr class="even"><td>Hedgehog</td><td>Master gains a +2 bonus on <a href="/pathfinderRPG/prd/combat.html#_will">Will</a> saves</td></tr>
+				<tr class="odd"><td>House centipede</td><td>Master gains a +3 bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks</td></tr>
+				<tr class="even"><td>King Crab</td><td>Master gains a +2 bonus on <a href="/pathfinderRPG/prd/gettingStarted.html#_cmb">CMB</a> checks to start and maintain a grapple</td></tr>
+				<tr class="odd"><td>Pig</td><td>Master gains a +3 bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks</td></tr>
+				<tr class="even"><td>Scarlet</td><td>spider	Master gains a +3 bonus on <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> checks</td></tr>
+				<tr class="odd"><td>Thrush*</td><td>Master gains a +3 bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks</td></tr>
+				<tr class="even"><td>Turtle</td><td>Master gains a +1 natural armor bonus to <a href="/pathfinderRPG/prd/combat.html#_armor-class">AC</a></td></tr>
+				<tfoot><tr><td colspan="2">*	A thrush familiar can speak one language of its master's choice as a supernatural ability.</td></tr></tfoot></table></div><p></p>
+				<p id="blue-ringed-octopus-cr-1/2" class="stat-block-title">Blue-Ringed Octopus	CR 1/2</p>
+				<p class="stat-block-xp">XP 200</p>
+				<p class="stat-block-1">N Tiny animal (aquatic)</p>
+				<p id="init" class="stat-block-1"><b>Init</b> +5; <b>Senses</b> low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +1</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p id="ac" class="stat-block-1"><b>AC</b> 17, touch 17, flat-footed 12 (+5 Dex, +2 size)</p>
+				<p id="hp" class="stat-block-1"><b>hp</b> 4 (1d8)</p>
+				<p id="fort" class="stat-block-1"><b>Fort</b> +2, <b>Ref</b> +7, <b>Will</b> +1</p>
+				<p id="defensive-abilities" class="stat-block-1"><b>Defensive Abilities</b> ink cloud</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p id="speed" class="stat-block-1"><b>Speed</b> 20 ft., swim 30 ft., jet 60 ft.</p>
+				<p id="melee" class="stat-block-1"><b>Melee</b> bite +7 (1d2&ndash;1 plus poison), tentacles +5 (grab)</p>
+				<p id="space" class="stat-block-1"><b>Space</b> 2-1/2 ft.; <b>Reach</b> 0 ft.</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p id="str" class="stat-block-1"><b>Str</b> 8, <b>Dex</b> 21, <b>Con</b> 10, <b>Int</b> 2, <b>Wis</b> 13, <b>Cha</b> 3</p>
+				<p id="base-atk" class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> +3 (+7 grapple); <b>CMD</b> 12 (can<i>'</i>t be tripped)</p>
+				<p id="feats" class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack" >Multiattack</a><sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p id="skills" class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +15, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +25, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +13; <b>Racial Modifiers</b> +10 <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a>, +8 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a></p>
+				<p id="special-attacks" class="stat-block-1"><b>Special Attacks</b> poison</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p id="environment" class="stat-block-1"><b>Environment</b> temperate or cold aquatic</p>
+				<p id="organization" class="stat-block-1"><b>Organization</b> solitary</p>
+				<p id="treasure" class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p id="ink-cloud" class="stat-block-1"><b>Ink Cloud (Ex)</b> While within water, an octopus can emit a 5-foot-radius sphere of ink once per minute as a swift action. This ink provides total concealment and persists for 1 minute.</p>
+				<p id="jet" class="stat-block-1"><b>Jet (Ex)</b> The octopus can jet 60 feet in a straight line as a full-round action. This does not provoke attacks of opportunity.</p>
+				<p id="poison" class="stat-block-1"><b>Poison (Ex)</b> Bite&mdash;injury; <i>save</i> Fort DC 10; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1 Str; <i>cure</i> 1 save.</p>
+				
+				<p>Blue-ringed octopuses are aquatic animals capable of a surprising amount of cunning. They cannot survive out of water.</p>
+				<p id="donkey-rat-cr-1/4" class="stat-block-title">Donkey Rat	CR 1/4</p>
+				<p class="stat-block-xp">XP 100</p>
+				<p class="stat-block-1">N Small animal</p>
+				<p id="init" class="stat-block-1"><b>Init</b> +3; <b>Senses</b> low-light vision, scent; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +4</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p id="ac" class="stat-block-1"><b>AC</b> 14, touch 14, flat-footed 11 (+3 Dex, +1 size)</p>
+				<p id="hp" class="stat-block-1"><b>hp</b> 5 (1d8+1)</p>
+				<p id="fort" class="stat-block-1"><b>Fort</b> +3, <b>Ref</b> +5, <b>Will</b> +1</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p id="speed" class="stat-block-1"><b>Speed</b> 30 ft., swim 20 ft.</p>
+				<p id="melee" class="stat-block-1"><b>Melee</b> bite +0 (1d3&ndash;2)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p id="str" class="stat-block-1"><b>Str</b> 6, <b>Dex</b> 17, <b>Con</b> 13, <b>Int</b> 2, <b>Wis</b> 13, <b>Cha</b> 4</p>
+				<p id="base-atk" class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> +1; <b>CMD</b> 9 (13 vs. trip)</p>
+				<p id="feats" class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>)</p>
+				<p id="skills" class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +4, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +15, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +11</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p id="environment" class="stat-block-1"><b>Environment</b> temperate coast or forest</p>
+				<p id="organization" class="stat-block-1"><b>Organization</b> solitary, pair, or nest (3&ndash;12)</p>
+				<p id="treasure" class="stat-block-1"><b>Treasure</b> none</p>
+				
+				<p>Donkey rats are brown or snowy white rodents the size of small dogs, with long legs and short, furry tails. These statistics can also be used for capybaras.</p>
+				<p id="fox-cr-1/4" class="stat-block-title">Fox	CR 1/4</p>
+				<p class="stat-block-xp">XP 100</p>
+				<p class="stat-block-1">N Tiny animal</p>
+				<p id="init" class="stat-block-1"><b>Init</b> +2; <b>Senses</b> low-light vision, scent; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +8</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p id="ac" class="stat-block-1"><b>AC</b> 14, touch 14, flat-footed 12 (+2 Dex, +2 size)</p>
+				<p id="hp" class="stat-block-1"><b>hp</b> 5 (1d8+1)</p>
+				<p id="fort" class="stat-block-1"><b>Fort</b> +3, <b>Ref</b> +4, <b>Will</b> +1</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p id="speed" class="stat-block-1"><b>Speed</b> 40 ft.</p>
+				<p id="melee" class="stat-block-1"><b>Melee</b> bite +1 (1d3&ndash;1)</p>
+				<p id="space" class="stat-block-1"><b>Space</b> 2-1/2 ft.; <b>Reach</b> 0 ft.</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p id="str" class="stat-block-1"><b>Str</b> 9, <b>Dex</b> 15, <b>Con</b> 13, <b>Int</b> 2, <b>Wis</b> 12, <b>Cha</b> 6</p>
+				<p id="base-atk" class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> +0; <b>CMD</b> 9 (13 vs. trip)</p>
+				<p id="feats" class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>)</p>
+				<p id="skills" class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +2 (+10 jumping), <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +8, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +10, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +1 (+5 scent tracking); <b>Racial Modifiers</b> +4 <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> when jumping, +4 <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> when tracking by scent</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p id="environment" class="stat-block-1"><b>Environment</b> any</p>
+				<p id="organization" class="stat-block-1"><b>Organization</b> solitary, pair, or skulk (3&ndash;12)</p>
+				<p id="treasure" class="stat-block-1"><b>Treasure</b> none</p>
+				
+				<p>Foxes are small, doglike carnivores with narrow snouts and bushy tails.</p>
+				<p id="goat-cr-1/3" class="stat-block-title">Goat	CR 1/3</p>
+				<p class="stat-block-xp">XP 135</p>
+				<p class="stat-block-1">N Small animal</p>
+				<p id="init" class="stat-block-1"><b>Init</b> +1; <b>Senses</b> low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +0</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p id="ac" class="stat-block-1"><b>AC</b> 13, touch 12, flat-footed 12 (+1 Dex, +1 natural, +1 size)</p>
+				<p id="hp" class="stat-block-1"><b>hp</b> 5 (1d8+1)</p>
+				<p id="fort" class="stat-block-1"><b>Fort</b> +3, <b>Ref</b> +3, <b>Will</b> +0</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p id="speed" class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p id="melee" class="stat-block-1"><b>Melee</b> gore +2 (1d4+1)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p id="str" class="stat-block-1"><b>Str</b> 12, <b>Dex</b> 13, <b>Con</b> 12, <b>Int</b> 2, <b>Wis</b> 11, <b>Cha</b> 5</p>
+				<p id="base-atk" class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> +0; <b>CMD</b> 11 (15 vs. trip)</p>
+				<p id="feats" class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_nimble-moves" >Nimble Moves</a></p>
+				<p id="skills" class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +1 (+5 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +5, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +0 <br/>(+4 to find food); <b>Racial Modifiers</b> +4 <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> when jumping, +4 <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> to find food</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p id="environment" class="stat-block-1"><b>Environment</b> any</p>
+				<p id="organization" class="stat-block-1"><b>Organization</b> solitary, pair, or herd (3&ndash;12)</p>
+				<p id="treasure" class="stat-block-1"><b>Treasure</b> none</p>
+				
+				<p>Goats eat almost anything that can be digested, and are determined in their pursuit of tempting foodstuffs  such as leather armor and rope. They can provide milk and wool.</p>
+				<p id="greensting-scorpion-cr-1/4" class="stat-block-title">Greensting Scorpion	CR 1/4</p>
+				<p class="stat-block-xp">XP 100</p>
+				<p class="stat-block-1">N Tiny vermin </p>
+				<p id="init" class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +4</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p id="ac" class="stat-block-1"><b>AC</b> 18, touch 15, flat-footed 15 (+3 Dex, +3 natural, +2 size)</p>
+				<p id="hp" class="stat-block-1"><b>hp</b> 4 (1d8)</p>
+				<p id="fort" class="stat-block-1"><b>Fort</b> +2, <b>Ref</b> +3, <b>Will</b> +0</p>
+				<p id="immune" class="stat-block-1"><b>Immune</b> mind-affecting effects</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p id="speed" class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p id="melee" class="stat-block-1"><b>Melee</b> sting +5 (1d2&ndash;4 plus poison)</p>
+				<p id="space" class="stat-block-1"><b>Space</b> 2-1/2 ft.; <b>Reach</b> 0 ft.</p>
+				<p id="special-attacks" class="stat-block-1"><b>Special Attacks</b> poison</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p id="str" class="stat-block-1"><b>Str</b> 3, <b>Dex</b> 16, <b>Con</b> 10, <b>Int</b> &mdash;, <b>Wis</b> 10, <b>Cha</b> 2</p>
+				<p id="base-atk" class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> +1; <b>CMD</b> 7 (19 vs. trip)</p>
+				<p id="feats" class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a><sup>B</sup></p>
+				<p id="skills" class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +7, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +4, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +15; <b>Racial Modifiers</b> +4 <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a>, +4 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>, +4 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a></p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p id="environment" class="stat-block-1"><b>Environment</b> warm or temperate deserts, forests, plains, or underground</p>
+				<p id="organization" class="stat-block-1"><b>Organization</b> solitary or colony (3&ndash;6)</p>
+				<p id="treasure" class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p id="poison" class="stat-block-1"><b>Poison (Ex)</b> Sting&mdash;injury; <i>save</i> Fort DC 10; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> sickened for 1 round; <i>cure</i> 1 save.</p>
+				
+				<p>Greensting scorpions normally live in forests, but can be found almost anywhere. Their pincers are too small to be dangerous to anything but other insects, but they have a poisonous sting that sickens even larger creatures.</p>
+				<p id="hedgehog-cr-1/8" class="stat-block-title">Hedgehog	CR 1/8</p>
+				<p class="stat-block-xp">XP 50</p>
+				<p class="stat-block-1">N Diminutive animal </p>
+				<p id="init" class="stat-block-1"><b>Init</b> +3; <b>Senses</b> low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +1</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p id="ac" class="stat-block-1"><b>AC</b> 18, touch 17, flat-footed 15 (+3 Dex, +1 natural, +4 size)</p>
+				<p id="hp" class="stat-block-1"><b>hp</b> 2 (1d8&ndash;2)</p>
+				<p id="fort" class="stat-block-1"><b>Fort</b> +0, <b>Ref</b> +5, <b>Will</b> +1</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p id="speed" class="stat-block-1"><b>Speed</b> 20 ft.</p>
+				<p id="space" class="stat-block-1"><b>Space</b> 1 ft.; <b>Reach</b> 0 ft.</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p id="str" class="stat-block-1"><b>Str</b> 1, <b>Dex</b> 16, <b>Con</b> 6, <b>Int</b> 2, <b>Wis</b> 12, <b>Cha</b> 7</p>
+				<p id="base-atk" class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> &ndash;1; <b>CMD</b> 4 (8 vs. trip)</p>
+				<p id="feats" class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_athletic" >Athletic</a></p>
+				<p id="skills" class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +5, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +19, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p id="environment" class="stat-block-1"><b>Environment</b> tropical or temperate forests</p>
+				<p id="organization" class="stat-block-1"><b>Organization</b> solitary or pair</p>
+				<p id="treasure" class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p id="spiny-defense" class="stat-block-1"><b>Spiny Defense (Ex)</b> As a move action, a hedgehog can roll itself up into a spiny ball. While rolled up, it gains a +1 enhancement bonus to its existing natural armor, and any creature attempting to grapple the hedgehog takes 1d3 damage on making a grapple check. While rolled up, a hedgehog cannot take any action other than leaving this state. The hedgehog can leave this state as a move action.</p>
+				
+				<p>Hedgehogs are spiny, insectivorous mammals. When threatened, a hedgehog rolls up into a spiny ball as a defense mechanism.</p>
+				<p id="house-centipede-cr-1/8" class="stat-block-title">House Centipede	CR 1/8</p>
+				<p class="stat-block-xp">XP 50</p>
+				<p class="stat-block-1">N Tiny vermin </p>
+				<p id="init" class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +4</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p id="ac" class="stat-block-1"><b>AC</b> 17, touch 15, flat-footed 14 (+3 Dex, +2 natural, +2 size)</p>
+				<p id="hp" class="stat-block-1"><b>hp</b> 4 (1d8)</p>
+				<p id="fort" class="stat-block-1"><b>Fort</b> +2, <b>Ref</b> +3, <b>Will</b> +0</p>
+				<p id="immune" class="stat-block-1"><b>Immune</b> mind-affecting effects</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p id="speed" class="stat-block-1"><b>Speed</b> 40 ft., climb 40 ft.</p>
+				<p id="melee" class="stat-block-1"><b>Melee</b> bite +5 (1d3&ndash;5 plus poison)</p>
+				<p id="space" class="stat-block-1"><b>Space</b> 2-1/2 ft.; <b>Reach</b> 0 ft.</p>
+				<p id="special-attacks" class="stat-block-1"><b>Special Attacks</b> poison</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p id="str" class="stat-block-1"><b>Str</b> 1, <b>Dex</b> 17, <b>Con</b> 10, <b>Int</b> &mdash;, <b>Wis</b> 10, <b>Cha</b> 2</p>
+				<p id="base-atk" class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> +1; <b>CMD</b> 6 (can't be tripped)</p>
+				<p id="feats" class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a><sup>B</sup></p>
+				<p id="skills" class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +11, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +4, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +19; <b>Racial Modifiers</b> +4 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>, +8 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a></p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p id="environment" class="stat-block-1"><b>Environment</b> temperate or warm forest or underground</p>
+				<p id="organization" class="stat-block-1"><b>Organization</b> solitary, pair, or colony (3&ndash;6)</p>
+				<p id="treasure" class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p id="poison" class="stat-block-1"><b>Poison (Ex)</b> Bite&mdash;injury; <i>save</i> Fort DC 10; <i>frequency</i> 1/round for 2 rounds; <i>effect</i> daze 1 round; <i>cure</i> 1 save. </p>
+				
+				<p>Multi-legged house centipedes can be found almost anywhere, and can have from 20 to more than 300 legs. Their bites are poisonous, and can daze the unwary.  </p>
+				<p id="king-crab-cr-1/4" class="stat-block-title">King Crab	CR 1/4</p>
+				<p class="stat-block-xp">XP 100</p>
+				<p class="stat-block-1">N Tiny vermin (aquatic)</p>
+				<p id="init" class="stat-block-1"><b>Init</b> +2; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +4</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p id="ac" class="stat-block-1"><b>AC</b> 18, touch 14, flat-footed 16 (+2 Dex, +4 natural, +2 size)</p>
+				<p id="hp" class="stat-block-1"><b>hp</b> 5 (1d8+1)</p>
+				<p id="fort" class="stat-block-1"><b>Fort</b> +3, <b>Ref</b> +2, <b>Will</b> +0</p>
+				<p id="immune" class="stat-block-1"><b>Immune</b> mind-affecting effects</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p id="speed" class="stat-block-1"><b>Speed</b> 30 ft., swim 20 ft.</p>
+				<p id="melee" class="stat-block-1"><b>Melee</b> 2 claws +0 (1d2&ndash;2 plus grab)</p>
+				<p id="space" class="stat-block-1"><b>Space</b> 2-1/2 ft.; <b>Reach</b> 0 ft.</p>
+				<p id="special-attacks" class="stat-block-1"><b>Special Attacks</b> constrict (1d2&ndash;2)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p id="str" class="stat-block-1"><b>Str</b> 7, <b>Dex</b> 15, <b>Con</b> 12, <b>Int</b> &mdash;, <b>Wis</b> 10, <b>Cha</b> 2</p>
+				<p id="base-atk" class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> +0 (+4 grapple); <b>CMD</b> 8 (20 vs. trip)</p>
+				<p id="skills" class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +4, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +10; <b>Racial Modifiers</b> +4 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a></p>
+				<p id="sq" class="stat-block-1"><b>SQ</b> water dependency</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p id="environment" class="stat-block-1"><b>Environment</b> any aquatic</p>
+				<p id="organization" class="stat-block-1"><b>Organization</b> solitary or cast (2&ndash;12)</p>
+				<p id="treasure" class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p id="water-dependency" class="stat-block-1"><b>Water Dependency (Ex)</b> Crabs can survive out of the water for 1 hour per point of Constitution. Beyond this limit, a crab runs the risk of suffocation, as if it were drowning.</p>
+				
+				<p>King crabs are small crustaceans with eight legs and two pincers or claws. Aquatic scavengers, crabs can also survive on land for some time, but must return to the water or suffocate.</p>
+				<p id="pig-cr-1/3" class="stat-block-title">Pig	CR 1/3</p>
+				<p class="stat-block-xp">XP 100</p>
+				<p class="stat-block-1">N Small animal </p>
+				<p id="init" class="stat-block-1"><b>Init</b> +1; <b>Senses</b> low-light vision, scent; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +5</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p id="ac" class="stat-block-1"><b>AC</b> 13, touch 12, flat-footed 12 (+1 Dex, +1 natural, +1 size)</p>
+				<p id="hp" class="stat-block-1"><b>hp</b> 6 (1d8+2)</p>
+				<p id="fort" class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +3, <b>Will</b> +1</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p id="speed" class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p id="melee" class="stat-block-1"><b>Melee</b> bite +1 (1d4)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p id="str" class="stat-block-1"><b>Str</b> 11, <b>Dex</b> 12, <b>Con</b> 15, <b>Int</b> 2, <b>Wis</b> 13, <b>Cha</b> 4</p>
+				<p id="base-atk" class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> &ndash;1; <b>CMD</b> 10 (14 vs. trip)</p>
+				<p id="feats" class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a></p>
+				<p id="skills" class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +5</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p id="environment" class="stat-block-1"><b>Environment</b> any</p>
+				<p id="organization" class="stat-block-1"><b>Organization</b> solitary, pair, or herd (3&ndash;12)</p>
+				<p id="treasure" class="stat-block-1"><b>Treasure</b> none</p>
+				
+				<p>Smaller than wild boars, domestic pigs are omnivorous.</p>
+				<p id="scarlet-spider-cr-1/4" class="stat-block-title">Scarlet Spider	CR 1/4</p>
+				<p class="stat-block-xp">XP 100</p>
+				<p class="stat-block-1">N Tiny vermin </p>
+				<p id="init" class="stat-block-1"><b>Init</b> +5; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +4</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p id="ac" class="stat-block-1"><b>AC</b> 18, touch 17, flat-footed 13 (+5 Dex, +1 natural, +2 size)</p>
+				<p id="hp" class="stat-block-1"><b>hp</b> 4 (1d8)</p>
+				<p id="fort" class="stat-block-1"><b>Fort</b> +2, <b>Ref</b> +5, <b>Will</b> +0</p>
+				<p id="immune" class="stat-block-1"><b>Immune</b> mind-affecting effects</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p id="speed" class="stat-block-1"><b>Speed</b> 30 ft., climb 30 ft.</p>
+				<p id="melee" class="stat-block-1"><b>Melee</b> bite +7 (1d3&ndash;4 plus poison)</p>
+				<p id="space" class="stat-block-1"><b>Space</b> 2-1/2 ft.; <b>Reach</b> 0 ft.</p>
+				<p id="special-attacks" class="stat-block-1"><b>Special Attacks</b> poison</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p id="str" class="stat-block-1"><b>Str</b> 3, <b>Dex</b> 21, <b>Con</b> 10, <b>Int</b> &mdash;, <b>Wis</b> 10, <b>Cha</b> 2</p>
+				<p id="base-atk" class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> +3; <b>CMD</b> 9 (21 vs. trip)</p>
+				<p id="feats" class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a><sup>B</sup></p>
+				<p id="skills" class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +13, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +21, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +4, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +17; <b>Racial Modifiers</b> +8 <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a>, +8 <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a>, +4 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>, +4 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a></p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p id="environment" class="stat-block-1"><b>Environment</b> any</p>
+				<p id="organization" class="stat-block-1"><b>Organization</b> solitary, pair, or colony (3&ndash;8)</p>
+				<p id="treasure" class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p id="poison" class="stat-block-1"><b>Poison (Ex)</b> Bite&mdash;injury; <i>save</i> Fort DC 10; <i>frequency</i> 1/round for 4 rounds; <i>effect</i> 1 Str; <i>cure</i> 1 save.</p>
+				
+				<p>Scarlet spiders are small arachnids with bright red bodies and black legs. Because they are hunting spiders, scarlet spiders don't have a web attack.</p>
+				<p id="thrush-cr-1/3" class="stat-block-title">Thrush	CR 1/3</p>
+				<p class="stat-block-xp">XP 135</p>
+				<p class="stat-block-1">N Diminutive animal </p>
+				<p id="init" class="stat-block-1"><b>Init</b> +2; <b>Senses</b> low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +5</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p id="ac" class="stat-block-1"><b>AC</b> 16, touch 16, flat-footed 14 (+2 Dex, +4 size)</p>
+				<p id="hp" class="stat-block-1"><b>hp</b> 2 (1d8&ndash;2)</p>
+				<p id="fort" class="stat-block-1"><b>Fort</b> +0, <b>Ref</b> +4, <b>Will</b> +2</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p id="speed" class="stat-block-1"><b>Speed</b> 10 ft., fly 40 ft. (average)</p>
+				<p id="melee" class="stat-block-1"><b>Melee</b> bite &ndash;1 (1d2&ndash;5)</p>
+				<p id="space" class="stat-block-1"><b>Space</b> 1 ft.; <b>Reach</b> 0 ft.</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p id="str" class="stat-block-1"><b>Str</b> 1, <b>Dex</b> 15, <b>Con</b> 6, <b>Int</b> 2, <b>Wis</b> 15, <b>Cha</b> 6</p>
+				<p id="base-atk" class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> &ndash;2; <b>CMD</b> 3</p>
+				<p id="feats" class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>)</p>
+				<p id="skills" class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +12, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +5</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p id="environment" class="stat-block-1"><b>Environment</b> temperate forests</p>
+				<p id="organization" class="stat-block-1"><b>Organization</b> solitary, pair, or flock (3&ndash;12)</p>
+				<p id="treasure" class="stat-block-1"><b>Treasure</b> none</p>
+				
+				<p>Thrushes are small, plump birds that eat fruit and insects. All thrushes are known for their beautiful songs, but thrush familiars are also capable of actual speech.</p>
+				<p id="turtle-cr-1/6" class="stat-block-title">Turtle	CR 1/6</p>
+				<p class="stat-block-xp">XP 65</p>
+				<p class="stat-block-1">N Tiny animal </p>
+				<p id="init" class="stat-block-1"><b>Init</b> &ndash;2; <b>Senses</b> low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +4</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p id="ac" class="stat-block-1"><b>AC</b> 16, touch 10, flat-footed 16 (&ndash;2 Dex, +6 natural, +2 size)</p>
+				<p id="hp" class="stat-block-1"><b>hp</b> 3 (1d8&ndash;1)</p>
+				<p id="fort" class="stat-block-1"><b>Fort</b> +1, <b>Ref</b> +0, <b>Will</b> +1</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p id="speed" class="stat-block-1"><b>Speed</b> 5 ft., swim 20 ft.</p>
+				<p id="melee" class="stat-block-1"><b>Melee</b> bite &ndash;2 (1d3&ndash;4)</p>
+				<p id="space" class="stat-block-1"><b>Space</b> 2-1/2 ft.; <b>Reach</b> 0 ft.</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p id="str" class="stat-block-1"><b>Str</b> 3, <b>Dex</b> 6, <b>Con</b> 8, <b>Int</b> 2, <b>Wis</b> 12, <b>Cha</b> 3</p>
+				<p id="base-atk" class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> &ndash;4; <b>CMD</b> 2 (6 vs. trip)</p>
+				<p id="feats" class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>)</p>
+				<p id="skills" class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +4, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +10</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p id="environment" class="stat-block-1"><b>Environment</b> temperate or tropical forests, oceans, and rivers</p>
+				<p id="organization" class="stat-block-1"><b>Organization</b> solitary</p>
+				<p id="treasure" class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p id="shell-retreat" class="stat-block-1"><b>Shell Retreat (Ex)</b> A turtle can retreat within its shell as a swift action, gaining a +2 enhancement bonus to its existing natural armor. While in its shell, a turtle cannot take any action except to end the retreat. The turtle can end its retreat with a free action on its turn.</p>
+				
+				<p>Turtles are slow-moving reptiles with hard shells that they can retreat into when threatened. Many turtles have flippers and are better suited for swimming than walking. These statistics can also be used for tortoises, which have feet instead of flippers and live in arid regions.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

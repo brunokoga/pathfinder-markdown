@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Inquisitor</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Inquisitor",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html', name: 'Spellcasting Class Options' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="inquisitor" class="monster-header">Inquisitor</h1>
+				
+				
+				<p>Almost everyone has a vision of the inquisitor&mdash;garbed in a mix of regalia and the rough-and-tumble tools of the adventurer, her word is often treated as divine law. But this is merely the most dramatic aspect of the inquisitor. Her world is filled with secret knowledge, constant danger, and strange mortal and outsider politics. The inquisitor's path has many branches and specializations, each with its own methods for rooting out and vanquishing enemies of the faith.</p>
+				<p>An inquisitor has a class ability that gives her access to one of her deity's domains; this access is one way to tune an inquisitor's abilities to fit the deity's interests. However, because an inquisitor only gets the granted powers of a domain and not its spells, some domains are poor choices for an inquisitor because they rely on cleric class abilities that inquisitors don't get. For example, the Sun domain's 1st-level granted power augments the effects of channel energy, but inquisitors don't have the channel energy ability, so they gain no benefit from their domain selection until 8th level, when they get a second granted power.</p>
+				<p>To remedy that problem, this section introduces inquisitions&mdash;new, specialized domainlike class features for inquisitors that grant abilities appropriate to their deity's portfolio. Following the inquisitions are new inquisitor archetypes.</p>
+				<h1 id="inquisitions">Inquisitions</h1>
+				<p>While inquisitors often take on the domains permitted to the clerics of the faith, they are privy to special lore not open to priests and other agents of their religion. These divine pursuits, called inquisitions, grant inquisitors the tools necessary for the fight against enemies of the faith. An inquisitor may select an inquisition in place of a domain.</p>
+				<p>If an inquisition's granted power calls for a saving throw, the DC of the save is equal to 10 + 1/2 the character's inquisitor level + her Wisdom modifier. Unless otherwise stated, the caster level for granted power spell-like abilities is equal to the inquisitor's class level.</p>
+				<p>Inquisitions are intended for inquisitors, not for other classes that give access to domains. While a cleric or other domain-using class can select an inquisition in place of a domain (if appropriate to the character's deity), inquisitions do not grant domain spell slots or domain spells, and therefore are much weaker choices for those classes. These other classes use the appropriate class level as their inquisitor level for the purpose of inquisition granted powers (clerics use their cleric level as their inquisitor level, and so on).</p>
+								<h2 id="anger-inquisition">Anger Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: Holy (or unholy) rage, granted by your patron deity, ensures that when you fight, the battle ends with a bloody victory.</p>
+				<p id="hateful-retort"><i>Hateful Retort (Ex)</i>: Once per day, as an immediate action after you have been hit with a melee attack, you can make a melee attack against the creature that hit you. This melee attack is at your highest attack bonus, even if you've already attacked in the round.</p>
+				<p id="divine-anger"><i>Divine Anger (Ex)</i>: At 6th level, you gain the ability to rage like a barbarian. Your effective barbarian level for this ability is your inquisitor level &ndash; 3. If you have levels in barbarian, these levels stack when determining the effect of your rage. You do not gain any rage powers from this granted power, though if you have rage powers from another class, you may use them with these rages. You can rage a number of rounds per day equal to your Wisdom bonus, plus 1 round for every inquisitor level above 4th.</p>
+				<h2 id="conversion-inquisition">Conversion Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: You are a powerful persuader. A honeyed tongue empowered by divine argumentation sways the indifferent and adversarial to your side.</p>
+				<p id="charm-of-wisdom"><i>Charm of Wisdom (Ex)</i>: You use your Wisdom modifier instead of your Charisma modifier when making <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, and <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks.</p>
+				<p id="swaying-word"><i>Swaying Word (Sp)</i>: At 8th level, once per day you may speak a word of divinely inspired wisdom that causes a single creature to switch its alliance to you. The target must be within line of sight and able to hear you. If he fails his Will save, he is affected by <i><a href="/pathfinderRPG/prd/spells/dominatePerson.html#_dominate-person" >dominate person</a></i>, except the duration is only 1 minute.</p>
+				<h2 id="fate-inquisition">Fate Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: Fate is a powerful tool for those who dole out justice for their deity. You can read the strands of fate, and those strands guide your endeavors.</p>
+				<p id="augury"><i>Augury (Sp)</i>: Once per day, you can use <i><a href="/pathfinderRPG/prd/spells/augury.html#_augury" >augury</a></i> as a spell-like ability.</p>
+				<p id="agent-of-fate"><i>Agent of Fate (Su)</i>: At 8th level, when you use your <i><a href="/pathfinderRPG/prd/spells/augury.html#_augury" >augury</a></i> spell-like ability, you gain a benefit that lasts until the end of your next combat. If the result was “weal,” all curing effects used on you cure an additional +1d10 hit points. If the result was “woe,” your melee attacks deal an additional +1d6 points of damage. If the result is “weal and woe” or “nothing,” you gain a +2 insight bonus to your Armor Class.</p>
+				<h2 id="fervor-inquisition">Fervor Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: Only a passionate and righteous will such as yours can ensure that justice will be properly done.</p>
+				<p id="fire-of-belief"><i>Fire of Belief (Sp)</i>: You can unleash a gout of holy or unholy flame that sears one target within 30 feet as a ranged touch attack. The target takes 1d6 points of fire damage plus half your inquisitor level (minimum +1). If you are good, the flames only harm nongood targets. If you are evil, the flames only harm nonevil targets. If you are neither good nor evil, when you gain this ability you must decide whether the flames harm only nongood or nonevil targets; once you make this decision, it cannot be changed (though if your alignment changes, the effect of the flames changes appropriately). You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>
+				<p id="fervent-action"><i>Fervent Action (Ex)</i>: At 8th level, once per day as a swift action, you can make a single melee attack at your highest attack bonus, move up to your speed, or cast a prepared inquisitor spell (of a spell level up to one lower than the highest level spell you can cast) as per Quickened Spell.</p>
+				<h2 id="heresy-inquisition">Heresy Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: Often it is hard to tell heretics from the faithful. You use duplicity, stealth, and the heretics' own arguments to root them out and bring them to justice.</p>
+				<p id="righteous-infiltration"><i>Righteous Infiltration (Ex)</i>: You use your Wisdom modifier instead of your Charisma modifier when making <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> and <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks.</p>
+				<p id="blessed-infiltration"><i>Blessed Infiltration (Ex)</i>: At 4th level, when you make a <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, or <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> check, you may roll twice and take the more favorable result. You can use this ability a number of times per day equal to your Wisdom bonus.</p>
+				<p id="word-of-anathema"><i>Word of Anathema (Sp)</i>: At 8th level, once per day, you can speak a word of anathema against a single creature within 60 feet (Will negates). This acts as <i><a href="/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i> and lasts for 1 minute, giving the target a &ndash;4 penalty on attack rolls, saves, ability checks, and skill checks.</p>
+				<h2 id="imprisonment-inquisition">Imprisonment Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: Sometimes it is better to capture foes than to kill them&mdash;whether your intention is to punish them for their crimes or to torture them for information.</p>
+				<p id="caging-strike"><i>Caging Strike (Su)</i>: With a devastating weapon strike, spectral chains wrap around your target for a short period of time. Whenever you confirm a critical hit with a melee or ranged weapon attack (including spells that require attack rolls), you can choose to also entangle that target for 1d4 rounds (Fortitude negates). You may use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>
+				<p id="divine-prison"><i>Divine Prison</i>: At 8th level, once per day upon making a successful melee attack, you can affect your target with <i><a href="/pathfinderRPG/prd/spells/holdMonster.html#_hold-monster" >hold monster</a></i> (Will negates).</p>
+				<h2 id="illumination-inquisition">Illumination Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: Many times an inquisitor's greatest weapon is pure and unflinching illumination; errors are often illuminated by light and wisdom.</p>
+				<p id="illuminating-touch"><i>Illuminating Touch (Sp)</i>: You cause your hand to shimmer with divine radiance, allowing you to touch a creature as a standard action and give it a bonus equal to 1/2 your inquisitor level on a single Will saving throw, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> check, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> check, or <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> check. This ability lasts for 1 hour or until the creature chooses to apply the bonus to a roll. You can use this ability to grant the bonus a number of times per day equal to 3 + your Wisdom modifier.</p>
+				<p id="aura-of-enlightenment"><i>Aura of Enlightenment (Su)</i>: At 4th level, you can create a 30-foot-radius aura of normal light. Allies in this aura gain a +2 insight bonus on skill checks. This counts as a 2nd-level light effect for the purpose of countering or dispelling darkness effects. You can use this aura for a number of rounds per day equal to your inquisitor level. These rounds do not need to be consecutive.</p>
+				<h2 id="justice-inquisition">Justice Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: Some must learn that to submit to one's fate often means submitting to your form of justice.</p>
+				<p id="judicious-force"><i>Judicious Force (Su)</i>: If you or an ally within 10 feet makes a critical threat with a melee or ranged attack, as an immediate action you may add +4 to the confirmation roll. This does not stack with the <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a> feat. You may use this ability a number of times per day equal to your Wisdom bonus.</p>
+				<p id="chains-of-justice"><i>Chains of Justice (Su)</i>: At 6th level, once per day, you can bind an opponent within 60 feet to you with spectral chains (Will negates). When you take damage from an enemy, the bound target takes this damage as well. Whenever the bound target takes damage from you or one of your allies, you take this damage as well. You and the target are not physically bound to each other, and either can end the connection by breaking the line of effect or exceeding the ability's <br/>range. You may dismiss the chains as a standard action.</p>
+				<h2 id="oblivion-inquisition">Oblivion Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: Some inquisitors believe that without faith there is only oblivion. But there are some divine servants who know enough about the darkness that lies beyond faith to use it as a tool… and a weapon.</p>
+				<p id="life"><i>Life Anchor (Su)</i>: You gain a 10-foot-radius aura that helps dying creatures cling to life. Within this aura, a dying creature (including yourself) adds your Wisdom bonus to it stabilization checks (in addition to any other modifiers to stabilization checks).</p>
+				<p id="stare-of-oblivion"><i>Stare of Oblivion (Sp)</i>: At 8th level, you can use <i><a href="/pathfinderRPG/prd/spells/feeblemind.html#_feeblemind" >feeblemind</a></i> as a gaze attack against one creature (Will negates). This effect lasts 1d4 rounds. You can use this ability once per day at 8th level, and one additional time per day for every four levels beyond 8th.</p>
+				<h2 id="order-inquisition">Order Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: Most inquisitors fight insane aberrations and demonic creatures as well as the chaos of heresy. They use the dictum and the mantles of law in order to aid their struggle.</p>
+				<p id="mantle-against-chaos"><i>Mantle against Chaos (Sp)</i>: You can use <i><a href="/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos" >protection from chaos</a></i> on yourself or another creature as a spell-like ability. You can use this ability for a number of minutes per day equal to your inquisitor level (minimum 1). This duration does not need to be consecutive, but it must be used in 1 minute increments.</p>
+				<p id="commanding-order"><i>Commanding Order (Sp)</i>: At 8th level, you can use <i><a href="/pathfinderRPG/prd/spells/command.html#_command-greater" >greater command</a></i>, except it only affects a single target. You can use this ability a number of times per day equal to 3 + your Wisdom bonus.</p>
+				<h2 id="persistence-inquisition">Persistence Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: Your deity chose you for your persistence. You have vowed to pursue the enemies of the faith to the world's end if necessary. You receive <a href="/pathfinderRPG/prd/feats.html#_step-up" >Step Up</a> as a bonus feat.</p>
+				<p id="relentless-footing"><i>Relentless Footing (Ex)</i>: As a swift action, you can add 10 feet to your land speed. This increase counts as an enhancement bonus, and it affects your jumping distance as normal for increased speed. You can use this ability a number of times per day equal to 3 + your Wisdom bonus (minimum 1).</p>
+				<p id="inner-strength"><i>Inner Strength (Su)</i>: At 6th level, once per day, you may heal yourself as a swift action, healing 1d6 hit points for every two inquisitor levels you possess. When you use this ability, you can also remove one of the following conditions from yourself: blinded, confused, dazzled, deafened, frightened, nauseated, shaken, sickened, or staggered.</p>
+				<h2 id="tactics-inquisition">Tactics Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: It is the cold and tactical mind that often wins the day. A proper, carefully considered sacrifice can inspire one's allies to serve your cause.</p>
+				<p id="inquisitor's-direction"><i>Inquisitor's Direction (Su)</i>: At the start of your turn, you can choose to enter a tranquil, reflective state and forgo all actions (standard, move, swift, immediate, and free actions, including attacks of opportunity) for that round; one ally of your choice within 30 feet gains the benefit of <i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i> for 1 round. You can use this ability a number of times per day equal to your 3 + Wisdom bonus (minimum 1).</p>
+				<p id="grant-the-initiative"><i>Grant the Initiative (Ex)</i>: At 8th level, you and all allies within 30 feet may add your Wisdom bonus to your initiative checks.</p>
+				<h2 id="torture-inquisition">Torture Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: Only through pain can truth and justice come to the surface. And if that doesn't work, at least you've enacted divine vengeance.</p>
+				<p id="torturer's-presence"><i>Torturer's Presence (Ex)</i>: You gain a +2 bonus when using the <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> skill. This is in addition to your bonus for Stern Gaze.</p>
+				<p id="torturer's-touch"><i>Torturer's Touch (Sp)</i>: You may use <i><a href="/pathfinderRPG/prd/spells/touchOfFatigue.html#_touch-of-fatigue" >touch of fatigue</a></i> as a spell-like ability. Creatures that are immune to pain effects are immune to this touch. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>
+				<p id="critical-precision"><i>Critical Precision (Ex)</i>: At 8th level, when you roll a critical threat, you may expend one use of your torturer's touch ability to add +4 on your critical confirmation roll. This does not stack with <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>.</p>
+				<h2 id="truth-inquisition">Truth Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: To find truth, one has to wring honesty from others&mdash;whether in a friendly or hostile manner.</p>
+				<p id="justice's-true-path"><i>Justice's True Path (Sp)</i>: As a standard action, you can touch a creature, granting an insight bonus on one attack roll, skill check, ability check, or saving throw before your next turn; this bonus is equal to half your inquisitor level (minimum 1) and lasts for 1 round. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>
+				<p id="grasp-of-honesty"><i>Grasp of Honesty (Su)</i>: At 8th level, any creature you are grappling or pinning is affected by <i><a href="/pathfinderRPG/prd/spells/zoneOfTruth.html#_zone-of-truth" >zone of truth</a></i> (Will negates). Outside of combat, you may use this ability by touching a target with both hands. You can use this ability a number of rounds per day equal to your inquisitor level. These rounds do not need to be consecutive. The effect ends if you stop grappling, pinning, or touching the target.</p>
+				<h2 id="valor-inquisition">Valor Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: It takes courage to confront the enemies of your faith.</p>
+				<p id="touch-of-resolve"><i>Touch of Resolve (Sp)</i>: You may use <i><a href="/pathfinderRPG/prd/spells/removeFear.html#_remove-fear" >remove fear</a></i> on a single creature a number of times per day equal to your 3 + your Wisdom bonus.</p>
+				<p id="fearless"><i>Fearless (Su)</i>: At 8th level, you become immune to fear.</p>
+				<h2 id="vengeance-inquisition">Vengeance Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: Vengeance is justice naked of pretense. On your oath, you will deliver justice so unbounded.</p>
+				<p id="divine-retribution"><i>Divine <a href="/pathfinderRPG/prd/advanced/spells/retribution.html#_retribution" >Retribution</a> (Sp)</i>: As a standard action, you can point at one creature within 30 feet to indicate that it is the target of divine wrath. A mishap or an accident appropriate to the environment occurs, such as a branch falling on the creature, rocks falling from the ceiling, or some other nonmagical misfortune; regardless of the cause, the mishap deals 1d6 points of damage + 1 point for every two inquisitor levels you possess (Reflex half). The GM decides whether this damage is bludgeoning, piercing, or slashing damage. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>
+				<p id="final-vengeance"><i>Final Vengeance (Su)</i>: At 8th level, once per day, you can make one melee attack against an opponent within reach in response to an attack that would reduce you to negative hit points. Once your attack is resolved, you suffer the normal effect of the attack that provoked this ability. Effects that kill you or do not reduce you to negative hit points (such as ability damage or drain, negative levels, and <i><a href="/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate" >disintegrate</a></i>) do not trigger this ability.</p>
+				<h2 id="zeal-inquisition">Zeal Inquisition</h2>
+				
+				<p><b>Granted Powers</b>: An inquisitor needs unyielding zeal in order to make sure her deity's work is done.</p>
+				<p id="zealous-surge"><i>Zealous Surge (Sp)</i>: Once per day, when you are reduced to 0 or fewer hit points, you heal a number of hit points equal to your inquisitor level + your Wisdom modifier.</p>
+				<p id="scourge-of-the-enemy"><i>Scourge of the Enemy (Ex)</i>: At 8th level, select one religion that is a rival or opponent of your religion. You treat members of this religion as if they were your favored enemy (as the ranger class ability), gaining a +2 bonus on the appropriate rolls. At 13th level, these bonuses increase to +4, and at 18th level, the bonuses increase to +6. These bonuses do not stack with other favored enemy bonuses (use the highest bonus that applies).</p>
+				<h1 id="exorcist-(archetype)">Exorcist (Archetype)</h1>
+				<p>Some inquisitors, as they learn more about the threat of possession and the machinations of the planes, task themselves to expel possessing spirits and conniving outsiders from the world whenever possible. Eventually they learn the secret of the verdicts of exorcism, exile, and anathema.</p>
+				<p id="verdict-of-exorcism"><b>Verdict of Exorcism (Su)</b>: At 8th level, an inquisitor using judgment can unleash the verdict of exorcism on a creature. When she does, her judgment ends, but the creature is dazed for 1 round (Will negates); if the creature is possessed, the possessing entity must succeed at a Will saving throw (DC 10 + 1/2 inquisitor level + inquisitor's Wisdom bonus), or be exorcised and never again allowed in that same body. This ability replaces second judgment.</p>
+				<p id="verdict-of-exile"><b>Verdict of Exile (Su)</b>: At 16th level, an inquisitor using judgment can unleash the verdict of exile on a creature. When she does, her judgment ends, but the creature subject to that judgment is dazed for 1 round (Will negates, DC of 10 + 1/2 inquisitor level + Wisdom bonus). If the creature is possessed or an outsider, the possessing entity or the outsider is affected by <i><a href="/pathfinderRPG/prd/spells/dismissal.html#_dismissal" >dismissal</a></i> (Will negates). This ability replaces third judgment.</p>
+				<p id="closed-mind"><b>Closed Mind (Su)</b>: An exorcist inquisitor must close off her mind to deny her enemies even a foothold. At 17th level, the inquisitor becomes immune to compulsion effects and possession attempts (including <i><a href="/pathfinderRPG/prd/spells/magicJar.html#_magic-jar" >magic jar</a></i>). This ability replaces slayer.</p>
+				<p id="verdict-of-anathema"><b>Verdict of Anathema (Su)</b>: At 20th level, an inquisitor using judgment can unleash the verdict of anathema on her enemies. When she does, her judgment ends, and all enemy creatures within 10 feet are affected by her verdict of exorcism. This ability replaces true judgement.</p>
+				<h1 id="heretic-(archetype)">Heretic (Archetype)</h1>
+				<p>While all inquisitors hunt the enemies of the faith, sometimes, either through political maneuvering by her enemies or an unyielding tenacity that breaks her faith's basic tenets, an inquisitor can find herself a heretic. Still unyielding in her cause, these heretics are accustomed to using guile and deception to hide themselves and their activities while they continue to hunt their enemies.</p>
+				<p id="judgment"><b>Judgment (Su)</b>: A heretic gains the following judgment in addition to the normal list of inquisitor judgments.</p>
+				<p id="escape"><i>Escape (Su)</i>: Each time the inquisitor using this judgment hits an opponent with a melee or ranged attack, she can use a move action attempt to create a diversion to hide (see the <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> skill).</p>
+				<p id="lore-of-escape"><b>Lore of Escape (Ex)</b>: At 1st level, the heretic uses every trick she knows to escape those now pursuing her. She adds her Wisdom modifier on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> and <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> skill checks in addition to the normal ability score modifiers. This ability replaces monster lore.</p>
+				<p id="hide-tracks"><b>Hide Tracks (Ex)</b>: At 1st level, a heretical inquisitor is adept at hiding her tracks. Creatures attempting to track her take a &ndash;5 penalty on rolls to find or follow her tracks.</p>
+				<h2 id="ex-inquisitors">Ex-Inquisitors</h2>
+				<p>An inquisitor who becomes an ex-inquisitor can, with the GM's permission, take the heretic archetype, replacing her class abilities with the appropriate archetype abilities. If the character atones or joins a different faith, she loses her heretic abilities and regains her previous inquisitor class abilities.</p>
+				<h1 id="infiltrator-(archetype)">Infiltrator (Archetype)</h1>
+				<p>This inquisitor uses guile and deception to blend in among the enemies of the faith rather than confronting them head-on.</p>
+				<p id="misdirection"><b>Misdirection (Sp)</b>: At 1st level, each day when the infiltrator prepares spells, she may choose an alignment. She detects as that alignment as if she had used <i><a href="/pathfinderRPG/prd/spells/misdirection.html#_misdirection" >misdirection</a></i> on a creature with that alignment (this does not change any divination results about her other than her alignment). This power replaces stern gaze.</p>
+				<p id="guileful-lore"><b>Guileful Lore (Ex)</b>: At 1st level, the infiltrator's will is bent toward subterfuge and deception. She adds her Wisdom modifier on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> and <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> skill checks in addition to the normal ability score modifiers. This ability replaces monster lore.</p>
+				<p id="forbidden-lore"><b>Forbidden Lore (Ex)</b>: While other inquisitors learned to track unbelievers, an infiltrator learns how to cast their spells. An infiltrator can cast spells of an alignment opposed to her or her deity (ignoring the restriction in the Chaotic, Evil, Good, and Lawful Spells class ability). This ability replaces track.</p>
+				<p id="necessary-lies"><b>Necessary Lies (Su)</b>: An infiltrator adds her class level on saving throws against abilities that detect lies or reveal or force the truth, such as <i>detect lies</i> and <i><a href="/pathfinderRPG/prd/spells/zoneOfTruth.html#_zone-of-truth" >zone of truth</a></i>. This power replaces discern lies.</p>
+				<h1 id="preacher-(archetype)">Preacher (Archetype)</h1>
+				<p>Some inquisitors wander the land to spread the true word of their faith. Often they come into conflict with those hostile to their teachings or to the preacher's need to help those who cannot help themselves. The leaders of evil or aggressive religions send these preachers into new territories to win converts and hopefully allies. Often, they start uprisings against powers hostile to their religion, or defend a group of honest believers from the depredations of the unfaithful.</p>
+				<p id="determination"><b>Determination (Ex)</b>: At 3rd level, the preacher is a person of few words on the battlefield, but those words hold great power and authority. Once per day, the inquisitor can use this ability to create one of the following effects. Each is a free action to use.</p>
+				<p id="aggression"><i>Aggression</i>: The preacher may reroll an attack roll that she just made before the results of the roll are revealed. She must take the result of the reroll, even if it's worse than the original roll.</p>
+				<p id="defense"><i>Defense</i>: When the inquisitor would be hit by a melee or ranged attack, as an immediate action she may add a +4 insight bonus to her Armor Class against that attack, and if this makes the inquisitor's AC higher than the opponent's attack roll, the attack misses.</p>
+				<p id="warning"><i>Warning</i>: When a preacher's ally within line of sight would be hit by a melee or ranged attack, she may call out a warning to that ally, and the attacker must reroll the attack and use the results of the second roll. The ally must be able to hear the preacher and must not be helpless for this ability to have any effect.</p>
+				<p>Whenever the preacher could select a bonus teamwork feat (at 3rd, 6th, 9th, 12th, 15th, and 18th level), she can instead choose to increase her number of uses per day of this ability by one. This ability replaces solo tactics.</p>
+				<h1 id="sin-eater-(archetype)">Sin Eater (Archetype)</h1>
+				<p>There is a sect of inquisitors in some religions that believes it is not enough to hunt the enemies of the church&mdash;one must also devour those enemies' sins. More benign versions of the practice believe that sin, or evil, is taken out of the world when a sin is devoured, denying the enemy's soul to the enemy's god and purifying the world of its taint. Followers of malevolent churches believe that consuming the sins of good folk not only corrupts the enemy soul to keep it from the celestial planes, but also taints the souls of those who witness the sin-eating or the corpse of its victim. Consuming sins empowers the sin eater, at least for a time.</p>
+				<p id="eat-sin"><b>Eat Sin (Sp)</b>: At 1st level, as a free action, when the sin eater inquisitor kills an enemy, she may eat the sins of that enemy by spending 1 minute adjacent to its corpse. This provokes attacks of opportunity. The inquisitor can rush this ritual, performing it as a full-round action that provokes attacks of opportunity, but she only gains half the normal benefit (see below).</p>
+				<p>Eating the enemy's sins heals the inquisitor of a number of hit points of damage equal to 1d8 + her inquisitor level (maximum +5). The enemy must have been killed by the sin eater within the last hour, and it must have had at least as many Hit Dice as half the inquisitor's level. The inquisitor can use this ability once for each enemy she kills. This ability has no effect on mindless creatures or those with Intelligence 2 or less.</p>
+				<p>At 5th level, the healing increases to 2d8 plus her inquisitor level (maximum +10); it increases to 3d8 + her inquisitor level (maximum +15) at 9th level and to 4d8 + her inquisitor level (maximum +20) at 13th level.</p>
+				<p>In some faiths, this “eating” is a purely symbolic act, while in others, the inquisitor must eat a small amount of food and water as part of the ritual. A few extreme faiths actually require the inquisitor to eat some of the body of the slain enemy.</p>
+				<p>At 8th level, when a sin eater eats the sins of a creature that would rise as an undead (such as someone slain by a shadow, spectre, or vampire), the sin eater may choose to accept 1 temporary negative level to absorb the taint in the corpse, preventing it from rising as an undead. This negative level can be removed with the appropriate magic, though it automatically expires after 24 hours, and never becomes a permanent negative level. At the GM's discretion, this ability may prevent a ghost from using its rejuvenation ability.</p>
+				<p>This ability replaces an inquisitor's domain.</p>
+				<p id="speak-with-dead"><b>Speak with Dead (Sp)</b>: At 6th level, when the inquisitor eats an enemy's sins, within 10 minutes of doing so, she can ask the remnants of the enemy's soul questions as if using <i><a href="/pathfinderRPG/prd/spells/speakWithDead.html#_speak-with-dead" >speak with dead</a></i>, with a caster level equal to her inquisitor level. She does not need the enemy's corpse to use this ability (she can eat sin, move away from the corpse, then use <i><a href="/pathfinderRPG/prd/spells/speakWithDead.html#_speak-with-dead" >speak with dead</a></i>), though the soul gets a saving throw just as a corpse would. This ability replaces the bonus teamwork feat gained at 6th level.</p>
+				<p id="burden-of-sin"><b>Burden of Sin (Sp)</b>: At 14th level, a sin eater may spend a full-round action to transfer one harmful affliction, condition, or spell effect from another creature to herself (this includes curses, possessions, and permanent effects such as petrification, or any condition that <i><a href="/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment" >break enchantment</a></i> can end or reverse). The effect to be transferred is chosen by the sin eater and affects her as if she were the original target, continuing its duration (if any) and preventing any further effect on the original bearer. For example, the inquisitor could transfer a lethal disease to herself, or petrify herself to restore a petrified comrade. The sin eater can use this ability as often as desired, even using it multiple times on the same creature. This ability replaces exploit weakness.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

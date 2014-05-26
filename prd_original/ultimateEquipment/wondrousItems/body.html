@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Body Slot</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Body Slot",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html', name: 'Wondrous Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="body-slot-wondrous-items">Body Slot Wondrous Items</h1>
+<p>The body slot consists of robes, vestments, and items that can be worn on or around the body.</p>
+<p>Anyone can use a body slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.</p>
+
+<table id="body-slot-wondrous-items"><caption>Body Slot Wondrous Items</caption>
+<thead><tr><th>d%</th><th>Lesser Minor Body Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;20</td><td><i>Robe of infinite twine</td><td></i>1,000 gp</td></tr>
+<tr class="even"><td>21&ndash;35</td><td><i>Robe of needles </i></td><td>1,000 gp</td></tr>
+<tr class="odd"><td>36&ndash;60</td><td><i>Robe of bones</i></td><td>2,400 gp</td></tr>
+<tr class="even"><td>61&ndash;70</td><td><i>Bodywrap of mighty strikes +1</i></td><td>3,000 gp</td></tr>
+<tr class="odd"><td>71&ndash;80</td><td><i>Corset of the vishkanya</i></td><td>3,000 gp</td></tr>
+<tr class="even"><td>81&ndash;100</td><td><i>Druid's vestment</i></td><td>3,750 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Minor Body Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;15</td><td><i>Cassock of the clergy</i></td><td>4,600 gp</td></tr>
+<tr class="even"><td>16&ndash;30</td><td><i>Mnemonic vestments</i></td><td>5,000 gp</td></tr>
+<tr class="odd"><td>31&ndash;45</td><td><i>Robe of components</i></td><td>5,000 gp</td></tr>
+<tr class="even"><td>46&ndash;60</td><td><i>Sorcerer's robe</i></td><td>5,000 gp</td></tr>
+<tr class="odd"><td>61&ndash;75</td><td><i>Eidolon anchoring harness</td><td></i>6,000 gp</td></tr>
+<tr class="even"><td>76&ndash;100</td><td><i>Robe of useful items</i></td><td>7,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Medium Body Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;15</td><td><i>Robe of blending</i></td><td>8,400 gp</td></tr>
+<tr class="even"><td>16&ndash;26</td><td><i>Blazing robes</i></td><td>11,000 gp</td></tr>
+<tr class="odd"><td>27&ndash;37</td><td><i>Shocking robe</i></td><td>11,000 gp</td></tr>
+<tr class="even"><td>38&ndash;48</td><td><i>Voidfrost robes</i></td><td>11,000 gp</td></tr>
+<tr class="odd"><td>49&ndash;59</td><td><i>Bodywrap of mighty strikes +2</i></td><td>12,000 gp</td></tr>
+<tr class="even"><td>60&ndash;75</td><td><i>Monk's robe</i></td><td>13,000 gp</td></tr>
+<tr class="odd"><td>76&ndash;100</td><td><i>Robe of arcane heritage</i></td><td>16,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Medium Body Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;25</td><td><i>Xorn robe</i></td><td>20,000 gp</td></tr>
+<tr class="even"><td>26&ndash;52</td><td><i>Corset of dire witchcraft</i></td><td>22,000 gp</td></tr>
+<tr class="odd"><td>53&ndash;76</td><td><i>Bodywrap of mighty strikes +3</i></td><td>27,000 gp</td></tr>
+<tr class="even"><td>77&ndash;100</td><td><i>Robe of scintillating colors</i></td><td>27,000 gp</p>
+<thead><tr><th>d%</th><th>Lesser Major Body Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;40</td><td><i>Gunman's duster</i></td><td>36,000 gp</td></tr>
+<tr class="even"><td>41&ndash;80</td><td><i>Bodywrap of mighty strikes +4</i></td><td>48,000 gp</td></tr>
+<tr class="odd"><td>81&ndash;100</td><td><i>Smuggler's collapsible robe</i></td><td>48,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Major Body Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;10</td><td><i>Robe of stars</i></td><td>58,000 gp</td></tr>
+<tr class="even"><td>11&ndash;15</td><td><i>Robe of gates</i></td><td>64,000 gp</td></tr>
+<tr class="odd"><td>16&ndash;20</td><td><i>Otherworldly kimono</i></td><td>67,000 gp</td></tr>
+<tr class="even"><td>21&ndash;40</td><td><i>Bodywrap of mighty strikes +5</i></td><td>75,000 gp</td></tr>
+<tr class="odd"><td>41&ndash;51</td><td><i>Resplendent robe of the thespian</i></td><td>75,000 gp</td></tr>
+<tr class="even"><td>52&ndash;67</td><td><i>Robe of the archmagi</i></td><td>75,000 gp</td></tr>
+<tr class="odd"><td>68&ndash;77</td><td><i>Bodywrap of mighty strikes +6</i></td><td>108,000 gp</td></tr>
+<tr class="even"><td>78&ndash;97</td><td><i>Robe of eyes</i></td><td>120,000 gp</td></tr>
+<tr class="odd"><td>98&ndash;100</td><td><i>Bodywrap of mighty strikes +7</i></td><td>147,000 gp</td></tr></table>
+			
+
+<p id="blazing-robe" class="stat-block-title">Blazing Robe</p>
+<p class="stat-block-1"><b>Price</b> 11,000 gp; <b>Aura</b> moderate evocation; <b>CL</b> 8th; <b>Weight</b>  1 lb.
+<p class="stat-block">This red and orange silk robe gives viewers the impression of a flame roiling just below the fabric's slick surface. The robe grants the wearer fire resistance 5 and increases the wearer's caster level for all spells with the fire descriptor by +1. Once per day on command, the wearer of the robe can emit a 20-foot-radius burst of fire. Creatures other than the wearer within the area take 2d6 points of fire damage (Reflex DC 16 half).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,500 gp
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_heighten-spell" >Heighten Spell</a>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i></p>
+
+<p id="bodywrap-of-mighty-strikes" class="stat-block-title">Bodywrap of Mighty Strikes</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> faint evocation; <b>CL</b> 5th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block-1"><b>+1 bonus</b> 3,000 gp; <b>+2 bonus</b> 12,000 gp; <b>+3 bonus</b> 27,000 gp; <b>+4 bonus</b> 48,000 gp; <b>+5 bonus</b> 75,000 gp; <b>+6 bonus</b> 108,000 gp; <b> +7 bonus</b> 147,000 gp
+<p class="stat-block">This long cloth is wrapped around the chest multiple times like a bandage. Once per round, the wearer may add an enhancement bonus of +1 to +5 on one attack and damage roll for an unarmed strike or natural attack (for one specific attack, not all attacks made with an unarmed strike that round). The wearer may use this item an additional time per round when his BAB reaches +6, +11, and +16.
+<p class="stat-block">Choosing to enhance an unarmed strike is not an action and may occur when it is not the wearer's turn (such as when making an attack of opportunity). The wearer must decide to use the item before the attack roll is made, but does not have to expend all uses at the same time. For example, if the wearer can use the item twice per round, he can use it once on his turn when making an attack and save the second for the possibility of making an attack of opportunity.
+<p class="stat-block">Additionally, the bodywrap can grant melee weapon special abilities to a creature's unarmed attacks, so long as those special abilities to be added apply to unarmed attacks. Special abilities count as additional bonuses for determining the market value of the item, but do not modify attack or damage bonuses. Any special abilities are set at the time of creation. A <i>bodywrap of mighty strikes</i> cannot have a modified bonus (enhancement bonus plus special ability bonus equivalents) higher than +7. Unlike an <i>amulet of mighty fists</i>, a bodywrap needs to have a +1 enhancement bonus to grant a melee weapon special ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> varies</p>
+<p class="stat-block-1"><b>+1 bonus</b> 1,500 gp; <b>+2 bonus</b> 6,000 gp; <b>+3 bonus</b> 13,500 gp; <b>+4 bonus</b> 24,000 gp; <b>+5 bonus</b> 37,500 gp; <b>+6 bonus</b> 54,000 gp; <b>+7 bonus</b> 73,500 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i>, creator's caster level must be at least three times the bodywrap's bonus, plus any requirements of the melee weapon special abilities</p>
+				
+<p id="cassock-of-the-clergy" class="stat-block-title">Cassock of the Clergy</p>
+<p class="stat-block-1"><b>Price</b> 4,600 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 1st; <b>Weight</b>  1 lb.
+<p class="stat-block">The cut and color of this solemn vestment varies from religion to religion, but its properties are the same. The wearer may command the <i>cassock of the clergy </i>to display the holy symbol of her deity or hide this symbol. At the most basic level, the garment functions as a divine focus. Additionally, the wearer gains a +3 competence bonus on Charisma-based checks to influence creatures that match her alignment or that of her patron deity. Also, the wearer may use <i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a> </i>and <i><a href="/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary" >sanctuary</a> </i>(DC 11) each once per day, and may prepare one additional orison each day. If the wearer is a spontaneous divine caster, once per day she may spend 1 hour in prayer to gain an orison of her choice as a spell known for the next 24 hours.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,300 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a>, <a href="/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary" >sanctuary</a>, </i>creator must be a divine spellcaster</p>
+				
+<p id="corset-of-dire-witchcraft" class="stat-block-title">Corset of Dire Witchcraft</p>
+<p class="stat-block-1"><b>Price</b> 22,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b>6th; <b>Weight</b> 1 lb.
+<p class="stat-block">This slimming garment is fastened with laces, buckles, and buttons and reinforced with ribs of leather or bone. A <i>corset of dire witchcraft </i>grants a +4 armor bonus to AC. If the wearer is a witch, each day when she communes with her familiar to prepare spells, she may enhance one hex she knows, increasing its caster level by +2 for 24 hours. This enhancement ends if the corset is removed or if she uses it to enhance a different hex.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 11,000 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a>, </i>creator must be a witch</p>
+				
+<p id="corset-of-the-vishkanya" class="stat-block-title">Corset of the Vishkanya</p>
+<p class="stat-block-1"><b>Price</b> 3,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b>  1 lb.
+<p class="stat-block">This black corset fits neatly beneath armor. As a free action, the wearer can compress herself to fit through tight spaces as though affected by a <i>squeeze</i> spell (<i>Advanced Race Guide</i>) for up to 10 rounds per day. While using the corset's magic, she gains a +5 bonus on <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> checks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,500 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/grease.html#_grease" >grease</a></i>, <i>squeeze</i></p>
+				
+				
+<p id="Druid's-Vestment" class="stat-block-title">Druid's Vestment</p>
+<p class="stat-block-1"><b>Price</b> 3,750 gp; <b>Aura</b> moderate transmutation; <b>CL</b>10th; <b>Weight</b> &mdash;
+<p class="stat-block">This light garment is worn over normal clothing or armor. Most such vestments are green, embroidered with elaborate plant or animal motifs. When this item is worn by a character with the wild shape ability, the character can use that ability one additional time each day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,375 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/polymorph.html#_polymorph" >polymorph</a></i> or wild shape ability</p>
+				
+<p id="eidolon-anchoring-harness" class="stat-block-title">Eidolon Anchoring Harness</p>
+<p class="stat-block-1"><b>Price</b> 6,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 7th; <b>Weight</b>  1 lb.
+<p class="stat-block">Loadstone studs line the straps of this ornate leather harness. When worn by an eidolon, the bindings act as a dimensional safety harness, anchoring the outsider to its current plane. Any time the eidolon would be forced to return to its home plane (such as when it's reduced to negative hit points equal to its Constitution score or when its master is rendered unconscious), it can expend one use of its summoner's <i>summon monster</i> spell-like ability as a free action to remain on the Material Plane for 1 round. The summoner does not need to be conscious for the eidolon to use this ability, but he must be within 100 feet. If the summoner is conscious, he can refuse to allow this expenditure (which means the eidolon is forced back to its home plane).
+<p class="stat-block">If the condition that would have sent the eidolon back to its home plane is still in effect after 1 round has passed, the eidolon may expend another use of its master's <i>summon monster</i> spell-like ability; otherwise it immediately returns to its home plane.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,000 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a></i></p>
+<p id="Gunman's Duster" class="stat-block-title">Gunman's Duster</p>
+<p class="stat-block-1"><b>Price</b> 36,000 gp; <b>Aura</b> strong abjuration; <b>CL</b>12th; <b>Weight</b> 5 lbs.</p>
+<p class="stat-block">This long, loose-fitting coat grants a +4 armor bonus to AC and a +2 luck bonus to the wearer's touch AC against firearm attacks. If the wearer is a gunslinger or has the <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_amateur-gunslinger" >Amateur Gunslinger</a> feat (see <i>Ultimate Combat</i>), she begins each day with 1 additional grit point. This extra point does not increase her maximum grit total. When the wearer uses the gunslinger's dodge deed, the deed's dodge bonuses to AC increase by +1. If the wearer is not a gunslinger, she may use the gunslinger's dodge deed once per day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 18,000 gp
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_amateur-gunslinger" >Amateur Gunslinger</a> or creator must be a gunslinger, <i><a href="/pathfinderRPG/prd/ultimateCombat/spells/bulletShield.html#_bullet-shield" >bullet shield</a></i></p>
+				
+				
+<p id="mnemonic-vestment" class="stat-block-title">Mnemonic Vestment</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> strong transmutation; <b>CL</b> 17th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">The surface of this delicate-looking blue silk robe is adorned with tiny embossed runes across its entire surface. If the wearer is a spontaneous caster, once per day she may use a spell slot to cast a spell from a written source (such as a scroll or spellbook) as if she knew that spell. The spell must be on her spell list, the same spell level or lower than the expended spell slot, and the same type of spell (arcane or divine) as the spell slot expended. The caster must also understand the written source (such as using Decipher Script or <i><a href="/pathfinderRPG/prd/spells/readMagic.html#_read-magic" >read magic</a></i>) and be carrying it. Activating the robe is not an action, but casting the spell otherwise works as normal, including casting time, providing components or foci, and so on. Using a <i>mnemonic vestment</i>'s properties does not consume the written source.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,500 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/mnemonicEnhancer.html#_mnemonic-enhancer" >mnemonic enhancer</a></i>, creator must be able to spontaneously cast spells</p>
+				
+<p id="Monk's-Robe" class="stat-block-title">Monk's Robe</p>
+<p class="stat-block-1"><b>Price</b> 13,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 10th; <b>Weight</b>  1 lb.
+<p class="stat-block">When worn, this simple brown robe confers great ability in unarmed combat. If the wearer has levels in monk, her AC and unarmed damage are treated as a monk of 5 levels higher. If donned by a character with the Stunning Fist feat, the robe lets her make one additional stunning attack per day. If the character is not a monk, she gains the AC and unarmed damage of a 5th-level monk (although she does not add her Wisdom bonus to her AC). This AC bonus functions just like the monk's AC bonus.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 6,500 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i> or <i><a href="/pathfinderRPG/prd/spells/transformation.html#_transformation" >transformation</a></i></p>
+				
+<p id="otherworldly-kimono" class="stat-block-title">Otherworldly Kimono</p>
+<p class="stat-block-1"><b>Price</b> 67,000 gp; <b>Aura</b> strong conjuration; <b>CL</b> 15th; <b>Weight</b>  1 lb.
+<p class="stat-block">Embroidered images of cherry blossoms and cranes in flight adorn this blue silk kimono. The wearer can move and reposition these images on the kimono at will. The kimono grants its wearer a +4 resistance bonus on all saving throws and a +4 bonus on all caster level checks.
+<p class="stat-block">Once per day, the wearer can capture a single creature within 60 feet within the kimono (no save), shunting the victim into an extradimensional space similar to that created by a <i><a href="/pathfinderRPG/prd/spells/maze.html#_maze" >maze</a></i> spell. Inside this otherworldly prison, the maze appears as an endless cherry orchard filled with “walls” of windblown cherry blossoms and cranes flying overhead. Each round on its turn, the victim inside the kimono may attempt a DC 20 Intelligence check to escape the kimono as a full-round action. If the victim doesn't escape, it is released after 10 minutes, returning to where it had been before the kimono drew it in. If this location is occupied by another creature or a solid object, the subject appears in the nearest open space.
+<p class="stat-block">Whenever a creature is drawn inside the kimono, the victim's image temporarily manifests as another embroidered design among the kimono's other images. While a victim is trapped inside, the kimono's bonuses on saving throws and caster level checks are increased by 2 (to +6). The kimono's increased bonuses return to normal when the victim is freed or released.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 33,500 gp
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_heighten-spell" >Heighten Spell</a>, <i><a href="/pathfinderRPG/prd/spells/maze.html#_maze" >maze</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a></i></p>
+				
+				
+<p id="resplendent-robe-of-the-thespian" class="stat-block-title">Resplendent Robe of the Thespian</p>
+<p class="stat-block-1"><b>Price</b> 75,000 gp; <b>Aura</b> strong varied; <b>CL</b>16th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These magnificent vestments disguise the presence of armor as normal clothing (as the <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-glamered" >glamered</a></i> armor property). When worn by a bard, the robe grants the wearer the following powers:</p>
+<ul><li>Spell resistance 18</li>
+<li>+4 resistance bonus on all saving throws</li>
+<li>+2 enhancement bonus on caster level checks made to overcome spell resistance
+<p class="stat-block">Bards and those who fancy themselves actors or performers commission versions of these robes using only the finest fabric.</li></ul>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 37,500 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field" >antimagic field</a></i>, <i><a href="/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment" >break enchantment</a>, <a href="/pathfinderRPG/prd/spells/heroism.html#_heroism-greater" >greater heroism</a></i>, <i><a href="/pathfinderRPG/prd/spells/veil.html#_veil" >veil</a></i></p>
+
+<p id="robe-of-arcane-heritage" class="stat-block-title">Robe of Arcane Heritage</p>
+<p class="stat-block-1"><b>Price</b> 16,000 gp; <b>Aura</b> moderate necromancy; <b>CL</b>9th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These elegant, dark purple robes are usually decorated with gold stitching suggesting a particular sorcerer bloodline, though some might indicate a family tree. When a sorcerer dons a robe of arcane heritage, the stitching pulls itself apart and reweaves to match her particular sorcerer bloodline. The wearer treats her sorcerer level as 4 higher than normal for the purpose of determining what bloodline powers she can use and their effects.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 8,000 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/speakWithDead.html#_speak-with-dead" >speak with dead</a></i>, creator must be a sorcerer</p>
+				
+<p id="robe-of-blending" class="stat-block-title">Robe of Blending</p>
+<p class="stat-block-1"><b>Price</b> 8,400 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 10th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">Once per day this simple woolen robe allows you to assume the form of another humanoid creature, as if using <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i>. This change lasts for 1 hour, although you can end it prematurely as a free action. While in this form, you also gain the ability to speak and understand the basic racial languages of your chosen form. For example, if you take the form of an orc, you can speak and understand Orc.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,200 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i>, <i><a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a></i></p>
+<p id="robe-of-bones" class="stat-block-title">Robe of Bones</p>
+<p class="stat-block-1"><b>Price</b> 2,400 gp; <b>Aura</b> moderate necromancy; <b>CL</b>6th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This sinister item functions much like a <i>robe of useful items</i>, but specifically for the serious necromancer. It appears to be an unremarkable robe, but a character who dons it notes that it is adorned with small embroidered figures representing undead creatures. Only the wearer of the robe can see the embroidery, recognize them as the creatures they become, and detach them. One figure can be detached each round. Detaching a figure causes it to become an actual undead creature (see the list below). The skeleton or zombie is not under the control of the wearer of the robe, but may be subsequently commanded, rebuked, turned, or destroyed. A newly created <i>robe of bones</i> always has two embroidered figures of each of the following undead:</p>
+<ul><li>Human skeleton</li>
+<li>Fast goblin zombie</li>
+<li>Wolf skeleton</li>
+<li>Tough human zombie</li>
+<li>Heavy horse skeleton</li>
+<li>Plague ogre zombie</li></ul>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,200 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/animateDead.html#_animate-dead" >animate dead</a></i></p>
+				
+				
+<p id="robe-of-components" class="stat-block-title">Robe of Components</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b>7th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">The pockets of this simple blue robe always seem to carry just what the wearer needs whenever she casts a spell. The robe functions as a spell component pouch, providing any spell components or focuses that are necessary for the wearer's spellcasting. The robe can even produce spell components or focuses with a specific cost, though it provides no more than 50 gp worth of such materials in any single day. The materials supplied by the robe are suitable only for spellcasting, and disappear if they leave the wearer's person or when the spell requiring them is cast.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,500 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation" >minor creation</a></i></p>
+				
+				
+<p id="robe-of-eyes" class="stat-block-title">Robe of Eyes</p>
+<p class="stat-block-1"><b>Price</b> 120,000 gp; <b>Aura</b> moderate divination; <b>CL</b>11th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This valuable garment appears to be a normal robe until it is put on. Its wearer is able to see in all directions at the same moment due to scores of visible, magical eye-like patterns that adorn the robe. She also gains 120-foot darkvision.
+<p class="stat-block">The <i>robe of eyes</i> sees all forms of invisible or ethereal creatures or objects within 120 feet. The wearer of a <i>robe of eyes</i> gains a +10 competence bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks. She retains her Dexterity bonus to AC even when flat-footed, and can't be flanked. She is not able to avert or close her eyes when confronted by a creature with a gaze attack.
+<p class="stat-block">A <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i> or <i><a href="/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame" >continual flame</a></i> spell cast directly on a <i>robe of eyes</i> causes the wearer to be blinded for 1d3 minutes. A <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i> spell blinds the wearer for 2d4 minutes.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 60,000 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+				
+<p id="robe-of-gates" class="stat-block-title">Robe of Gates</p>
+<p class="stat-block-1"><b>Price</b> 64,000 gp; <b>Aura</b> strong conjuration; <b>CL</b> 17th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">Silver circles and conjuring runes decorate this black robe. Three times per day when the wearer uses a summoning spell or spell-like ability to summon a variable number of creatures, he can choose to summon the maximum number of creatures possible. Creatures summoned in this way step from the shadowy folds of the robe, and appear adjacent to the wearer. If there isn't sufficient room for all the creatures to appear, the extra creatures are wasted and do not appear.
+<p class="stat-block">If the wearer is a summoner, he can call upon the robe to summon his eidolon as a standard action once per day. It must appear adjacent to the summoner when called this way.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 32,000 gp
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_maximize-spell" >Maximize Spell</a>, <i><a href="/pathfinderRPG/prd/spells/gate.html#_gate" >gate</a>, <a href="/pathfinderRPG/prd/advanced/spells/summonEidolon.html#_summon-eidolon" >summon eidolon</a></i></p>
+				
+<p id="robe-of-infinite-twine" class="stat-block-title">Robe of Infinite Twine</p>
+<p class="stat-block-1"><b>Price</b> 1,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 7th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">This coarse hempen robe seems made from a single strand of twine. The wearer can draw up to 30 feet of twine or up to 10 feet of hemp rope per round from the robe without harming it.  As an immediate action, the wearer can draw up to 150 feet of twine or 50 feet of rope from the robe, but this gives the robe the broken condition and suppresses its powers until it is repaired. Twine or rope drawn from the robe remains connected until cut or torn, but is treated as common material rather than part of a magic item. Pieces removed become normal twine or rope.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 500 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation" >minor creation</a></i></p>
+				
+<p id="robe-of-needles" class="stat-block-title">Robe of Needles</p>
+<p class="stat-block-1"><b>Price</b> 1,000 gp; <b>Aura</b> faint evocation; <b>CL</b>5th; <b>Weight</b> 4 lbs.</p>
+<p class="stat-block">This dark, hooded robe has six long, silvery, razor-sharp needles protruding from the bottom of its loose sleeves, three on each side. The wearer can launch one needle as a ranged touch attack. The needle counts as a thrown weapon with a range increment of 10 feet. If the needle hits, it embeds itself in the target's flesh, dealing 1 point of piercing damage and 1 point of bleed damage. A creature can pull out the needle as a full-round action, which ends the bleed effect. The needle is destroyed if an attack with it misses or when it is removed from a creature it was embedded in. The robe regrows all spent needles each morning.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 500 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bleed.html#_bleed" >bleed</a></i></p>
+				
+<p id="robe-of-scintillating-colors" class="stat-block-title">Robe of Scintillating Colors</p>
+<p class="stat-block-1"><b>Price</b> 27,000 gp; <b>Aura</b> moderate illusion; <b>CL</b>11th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">The wearer of this robe can cause the garment to display a shifting pattern of incredible hues, color after color cascading from the upper part of the robe to the hem in sparkling rainbows of dazzling light. The colors daze those near the wearer, conceal the wearer, and illuminate the surroundings. It takes 1 full round after the wearer speaks the command word for the colors to start flowing on the robe. The colors create the equivalent of a gaze attack with a 30-foot range. Those who look at the wearer are dazed for 1d4+1 rounds (Will DC 16 negates). This is a mind-affecting pattern effect.
+<p class="stat-block">Every round of continuous scintillation of the robe gives the wearer better concealment. The miss chance on attacks against the wearer starts at 10% and increases by 10% each round until it reaches 50% (total concealment). Additionally the robe continuously illuminates a 30-foot radius. The effect can be used no more than a total of 10 rounds per day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 13,500 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/blur.html#_blur" >blur</a></i>, <i><a href="/pathfinderRPG/prd/spells/rainbowPattern.html#_rainbow-pattern" >rainbow pattern</a></i></p>
+				
+				
+<p id="robe-of-stars" class="stat-block-title">Robe of Stars</p>
+<p class="stat-block-1"><b>Price</b> 58,000 gp; <b>Aura</b> strong varied; <b>CL</b>15th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This garment is typically black or dark blue and embroidered with small white or silver stars. The robe has three magical powers.
+<p class="stat-block">It enables the wearer to travel physically to the Astral Plane, at will and on command as if using the <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> spell. Once he has done so, the wearer can also return to his plane of origin on command, also as per the <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> spell.
+<p class="stat-block">This robe also grants its wearer a +1 luck bonus on all saving throws.
+<p class="stat-block">Finally, the wearer can use up to six of the embroidered stars on the chest portion of the robe as <i>+5 shuriken</i>. The robe grants its wearer proficiency with such weapons. Each shuriken disappears after it is used. The stars are replenished once per month.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 29,000 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile" >magic missile</a></i>, <i><a href="/pathfinderRPG/prd/spells/astralProjection.html#_astral-projection" >astral projection</a></i> or <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i></p>
+				
+<p id="robe-of-the-archmagi" class="stat-block-title">Robe of the Archmagi</p>
+<p class="stat-block-1"><b>Price</b> 75,000 gp; <b>Aura</b> strong varied; <b>CL</b>14th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This normal-appearing garment is attuned to one of three types of alignment. It can be white (01&ndash;45 on d%, good alignment), gray (46&ndash;75, neither good nor evil alignment), or black (76&ndash;100, evil alignment). To most wearers, the robe offers no powers or has no effects unless the wearer's alignment doesn't match that of the robe (see below). Only an arcane spellcaster can fully realize this potent magic item's powers once the robe is donned. These powers are as follows.</p>
+<ul><li>+5 armor bonus to AC</li>
+<li>Spell resistance 18</li>
+<li>+4 resistance bonus on all saving throws</li>
+<li>+2 enhancement bonus on caster level checks made to overcome spell resistance</li></ul>
+<p class="stat-block">If a white robe is donned by an evil character, she immediately gains three permanent negative levels. The same is true with respect to a black robe donned by a good character. An evil or good character who puts on a gray robe, or a neutral character who dons either a white or black robe, gains two permanent negative levels. These negative levels remain as long as the garment is worn and cannot be overcome in any way (including through <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration" >restoration</a></i> spells). Negative levels are immediately removed if the robe is removed from the wearer.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 37,500 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field" >antimagic field</a></i>, <i><a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i> or <i><a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i>, creator must be of same alignment as robe</p>
+				
+<p id="robe-of-useful-items" class="stat-block-title">Robe of Useful Items</p>
+<p class="stat-block-1"><b>Price</b> 7,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b>9th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">A character who dons this battered robe notes that its patches rearrange into the shapes of various helpful but mundane items. Only the wearer of the robe can see the true shapes of these patches, recognize them for what items they become, and detach them. One patch can be detached each round. Detaching a patch causes it to become an actual item, as indicated below. A newly created robe of useful items always has two each of the following patches:</p>
+<ul><li>Dagger</li>
+<li>Bullseye lantern (full and lit)</li>
+<li>Mirror (a highly polished 2-foot-by-4-foot steel mirror)</li>
+<li>Pole (10-foot length)</li>
+<li>Hempen rope (50-foot coil)</li>
+<li>Sack</li></ul>
+<p class="stat-block">In addition, the robe has several other patches. Roll 4d4 for the number of other patches and then roll for each patch on the table below to determine its nature.</p>
+<table><thead><tr><th>d%</th><th>Result</th></tr></thead>
+<tr class="odd"><td>01&ndash;08</td><td>Bag of 100 gold pieces</td></tr>
+<tr class="even"><td>09&ndash;15</td><td>Coffer, silver (6 in. by 6 in. by 1 ft.), 500 gp value</td></tr>
+<tr class="odd"><td>16&ndash;22</td><td>Door, iron (up to 10 ft. wide and 10 ft. high and barred on one side&mdash;must be placed upright, attaches and hinges itself)</td></tr>
+<tr class="even"><td>23&ndash;30</td><td>Gems, 10 (100 gp value each)</td></tr>
+<tr class="odd"><td>31&ndash;44</td><td>Ladder, wooden (24 ft. long)</td></tr>
+<tr class="even"><td>45&ndash;51</td><td>Mule (with saddlebags)</td></tr>
+<tr class="odd"><td>52&ndash;59</td><td>Pit, open (10 ft. by 10 ft. by 10 ft.)</td></tr>
+<tr class="even"><td>60&ndash;68</td><td><i>Potion of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i></td></tr>
+<tr class="odd"><td>69&ndash;75</td><td>Rowboat (12 ft. long)</td></tr>
+<tr class="even"><td>76&ndash;83</td><td>Minor scroll of one randomly determined spell</td></tr>
+<tr class="odd"><td>84&ndash;90</td><td>War dogs, pair (treat as riding dogs)</td></tr>
+<tr class="even"><td>91&ndash;96</td><td>Window (2 ft. by 4 ft., up to 2 ft. deep)</td></tr>
+<tr class="odd"><td>97&ndash;100</td><td>Portable ram</td></tr></table>
+<p class="stat-block">Multiple items of the same kind are permissible. Once removed, a patch cannot be replaced.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,500 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/fabricate.html#_fabricate" >fabricate</a></i></p>
+				
+<p id="shocking-robe" class="stat-block-title">Shocking Robe</p>
+<p class="stat-block-1"><b>Price</b> 11,000 gp; <b>Aura</b> moderate abjuration and evocation; <b>CL</b> 10th; <b>Weight</b>  1 lb.
+<p class="stat-block">This violet and yellow silk robe gives the impression of electricity crackling over its surface. The robe grants the wearer electricity resistance 5 and increases the wearer's caster level for all spells with the electricity descriptor by +1. Once per day on command, the wearer of the robe can emit a 20-foot-radius burst of electricity. Creatures other than the wearer within the area take 2d6 points of electricity damage (Reflex DC 16 half).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,500 gp
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_heighten-spell" >Heighten Spell</a>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a></i></p>
+				
+<p id="Smuggler's-Collapsible-Robe" class="stat-block-title">Smuggler's Collapsible Robe</p>
+<p class="stat-block-1"><b>Price</b> 48,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 9th; <b>Weight</b>  1 lb.
+<p class="stat-block">While inside the extradimensional space, the wearer cannot take most actions, but can breathe comfortably for up to 24 hours. The wearer can see the area around the robe, though special senses such as darkvision or blindsense do not function. The wearer may leave the extradimensional space with a thought as a free action&mdash;the only action he can make while inside the extradimensional space. He reappears wearing the robe once more. However, if there is not enough room for the wearer to reappear (for example, if the robe was placed inside a small box) then the wearer cannot leave the extradimensional space.
+<p class="stat-block">If the robe is destroyed or its magic suppressed while the wearer is within the extradimensional space, or if he spends 24 hours within it, he and all objects inside reappear instantaneously in the robe's space, and the wearer is dazed for one round.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 24,000 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/secretChest.html#_secret-chest" >secret chest</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicAura.html#_magic-aura" >magic aura</a></i>, <i><a href="/pathfinderRPG/prd/spells/arcaneEye.html#_arcane-eye" >arcane eye</a></i></p>
+				
+				
+				
+<p id="Sorcerer's-Robe" class="stat-block-title">Sorcerer's Robe</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> moderate evocation; <b>CL</b> 10th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">This dapper robe enables a sorcerer to add the effects of her 1st-level bloodline power to spells she casts. As a swift action before casting a spell, the wearer expends one use of her 1st-level bloodline power and selects one target of the spell to be affected by that bloodline power. If the spell allows a saving throw, a successful save against the spell means the bloodline power deals half damage (if it normally deals hit point damage) or is negated (if it does not). The robe can be used up to three times per day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,500 gp
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_quicken-spell-like-ability" >Quicken Spell-Like Ability</a>, creator must be a sorcerer</p>
+				
+<p id="voidfrost-robe" class="stat-block-title">Voidfrost Robe</p>
+<p class="stat-block-1"><b>Price</b> 11,000 gp; <b>Aura</b> moderate abjuration and evocation; <b>CL</b> 10th; <b>Weight</b>  1 lb.
+<p class="stat-block">This blue and white silk robe gives the impression of ice and frozen fog forming over its surface. The robe grants the wearer cold resistance 5 and increases the wearer's caster level for all spells with the cold descriptor by +1. Once per day on command, the wearer of the robe can emit a 20-foot-radius burst of cold. Creatures other than the wearer within the area take 2d6 points of cold damage (Reflex DC 16 half).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,500 gp
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_heighten-spell" >Heighten Spell</a>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold" >cone of cold</a></i></p>
+				
+<p id="xorn-robe" class="stat-block-title">Xorn Robe</p>
+<p class="stat-block-1"><b>Price</b> 20,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 9th; <b>Weight</b>  1 lb.
+<p class="stat-block">This brown and gray robe is always dirty, and the chest and the back of each shoulder is decorated with a gem-like eye pattern. The wearer gains a +5 bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks, and can use earth glide to pass through up to 20 feet of natural or worked stone per day. The distance traveled with earth glide does not need to be consecutive, but it must be used in 5-foot increments. The wearer is able to safely chew, swallow, digest, and derive nutrition from gems, precious metals, and metallic ore, with 100 gp worth of these materials sustaining him for 1 full day. If the wearer removes the robe after such a meal, he is sickened until 24 hours have passed since the last meal of this kind. Wearing the robe again immediately negates this penalty.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 10,000 gp
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/passwall.html#_passwall" >passwall</a></i>, <i><a href="/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink" >purify food and drink</a></i></p>
+	
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Neck Slot</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Neck Slot",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html', name: 'Wondrous Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="neck-slot-wondrous-items">Neck Slot Wondrous Items</h1>
+<p>The neck slot consists of amulets, brooches, medallions, necklaces, periapts, scarabs, and other items that can be worn around the neck or fastened to a cloak.</p>
+<p>Anyone can use a neck slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.</p>
+
+<table id="neck-slot-wondrous-items-table"><caption>Neck Slot Wondrous Items</caption>
+<thead><tr><th>d%</th><th>Lesser Minor Neck Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;10</td><td><i>Hand of the mage</td><td></i>900 gp</td></tr>
+<tr class="even"><td>11&ndash;18</td><td><i>Aegis of recovery</td><td></i>1,500 gp</td></tr>
+<tr class="odd"><td>19&ndash;25</td><td><i>Amulet of bullet protection +1</td><td></i>1,500 gp</td></tr>
+<tr class="even"><td>26&ndash;37</td><td><i>Brooch of shielding</td><td></i>1,500 gp</td></tr>
+<tr class="odd"><td>38&ndash;49</td><td><i>Necklace of fireballs (type I)</td><td></i>1,650 gp</td></tr>
+<tr class="even"><td>50&ndash;63</td><td><i>Amulet of natural armor +1</td><td></i>2,000 gp</td></tr>
+<tr class="odd"><td>64&ndash;72</td><td><i>Golembane scarab</td><td></i>2,500 gp</td></tr>
+<tr class="even"><td>73&ndash;82</td><td><i>Necklace of fireballs (type II)</td><td></i>2,700 gp</td></tr>
+<tr class="odd"><td>83&ndash;89</td><td><i>Swarmbane clasp</td><td></i>3,000 gp</td></tr>
+<tr class="even"><td>90&ndash;95</td><td><i>Mind sentinel medallion</td><td></i>3,500 gp</td></tr>
+<tr class="odd"><td>96&ndash;100</td><td><i>Mummer's ruff</td><td></i>3,500 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Minor Neck Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;08</td><td><i>Amulet of elemental strife</td><td></i>4,000 gp</td></tr>
+<tr class="even"><td>09&ndash;15</td><td><i>Righteous fist amulet</td><td></i>4,000 gp</td></tr>
+<tr class="odd"><td>16&ndash;26</td><td><i>Necklace of fireballs (type III)</td><td></i>4,350 gp</td></tr>
+<tr class="even"><td>27&ndash;36</td><td><i>Amulet of mighty fists +1</td><td></i>5,000 gp</td></tr>
+<tr class="odd"><td>37&ndash;47</td><td><i>Necklace of fireballs (type IV)</td><td></i>5,400 gp</td></tr>
+<tr class="even"><td>48&ndash;55</td><td><i>Stormlure</td><td></i>5,400 gp</td></tr>
+<tr class="odd"><td>56&ndash;66</td><td><i>Necklace of fireballs (type V)</td><td></i>5,850 gp</td></tr>
+<tr class="even"><td>67&ndash;73</td><td><i>Amulet of bullet protection +2</td><td></i>6,000 gp</td></tr>
+<tr class="odd"><td>74&ndash;81</td><td><i>Feychild necklace</td><td></i>6,000 gp</td></tr>
+<tr class="even"><td>82&ndash;89</td><td><i>Carcanet of detention</td><td></i>7,200 gp</td></tr>
+<tr class="odd"><td>90&ndash;100</td><td><i>Periapt of health</td><td></i>7,500 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Medium Neck Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;08</td><td><i>Amulet of natural armor +2</td><td></i>8,000 gp</td></tr>
+<tr class="even"><td>09&ndash;12</td><td><i>Amulet of proof against petrification</i></td><td>8,000 gp</td></tr>
+<tr class="odd"><td>13&ndash;15</td><td><i>Everwake amulet</td><td></i>8,000 gp</td></tr>
+<tr class="even"><td>16&ndash;18</td><td><i>Gravewatch pendant</td><td></i>8,000 gp</td></tr>
+<tr class="odd"><td>19&ndash;23</td><td><i>Hand of glory</td><td></i>8,000 gp</td></tr>
+<tr class="even"><td>24&ndash;26</td><td><i>Torc of lionheart fury</td><td></i>8,000 gp</td></tr>
+<tr class="odd"><td>27&ndash;33</td><td><i>Necklace of fireballs (type VI)</td><td></i>8,100 gp</td></tr>
+<tr class="even"><td>34&ndash;40</td><td><i>Necklace of fireballs (type VII)</td><td></i>8,700 gp</td></tr>
+<tr class="odd"><td>41&ndash;43</td><td><i>Amulet of hidden strength</td><td></i>9,000 gp</td></tr>
+<tr class="even"><td>44&ndash;47</td><td><i>Necklace of adaptation</td><td></i>9,000 gp</td></tr>
+<tr class="odd"><td>48&ndash;51</td><td><i>Amulet of spell cunning</td><td></i>10,000 gp</td></tr>
+<tr class="even"><td>52&ndash;54</td><td><i>Collar of the true companion</td><td></i>10,000 gp</td></tr>
+<tr class="odd"><td>55&ndash;58</td><td><i>Frost fist amulet</td><td></i>10,000 gp</td></tr>
+<tr class="even"><td>59&ndash;63</td><td><i>Crystal of healing hands</td><td></i>12,000 gp</td></tr>
+<tr class="odd"><td>64&ndash;66</td><td><i>Guardian gorget</td><td></i>12,000 gp</td></tr>
+<tr class="even"><td>67&ndash;73</td><td><i>Medallion of thoughts</td><td></i>12,000 gp</td></tr>
+<tr class="odd"><td>74&ndash;77</td><td><i>Periapt of protection from curses</td><td></i>12,000 gp</td></tr>
+<tr class="even"><td>78&ndash;81</td><td><i>Forge fist amulet</td><td></i>13,000 gp</td></tr>
+<tr class="odd"><td>82&ndash;85</td><td><i>Amulet of bullet protection +3</td><td></i>13,500 gp</td></tr>
+<tr class="even"><td>86&ndash;92</td><td><i>Periapt of wound closure</td><td></i>15,000 gp</td></tr>
+<tr class="odd"><td>93&ndash;95</td><td><i>Necklace of ki serenity</td><td></i>16,000 gp</td></tr>
+<tr class="even"><td>96&ndash;98</td><td><i>Brooch of amber sparks</i></td><td>16,800 gp</td></tr>
+<tr class="odd"><td>99&ndash;100</td><td><i>Symbol of sanguine protection</td><td></i>17,500 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Medium Neck Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;15</td><td><i>Amulet of natural armor +3</td><td></i>18,000 gp</td></tr>
+<tr class="even"><td>16&ndash;24</td><td><i>Ampoule of false blood</td><td></i>20,000 gp</td></tr>
+<tr class="odd"><td>25&ndash;35</td><td><i>Amulet of magecraft</td><td></i>20,000 gp</td></tr>
+<tr class="even"><td>36&ndash;50</td><td><i>Amulet of mighty fists +2</td><td></i>20,000 gp</td></tr>
+<tr class="odd"><td>51&ndash;62</td><td><i>Dragonfoe amulet</td><td></i>20,000 gp</td></tr>
+<tr class="even"><td>63&ndash;67</td><td><i>Amulet of spell mastery</i></td><td>22,000 gp</td></tr>
+<tr class="odd"><td>68&ndash;72</td><td><i>Amulet of bullet protection +4</td><td></i>24,000 gp</td></tr>
+<tr class="even"><td>73&ndash;85</td><td><i>Hand of stone</td><td></i>27,000 gp</td></tr>
+<tr class="odd"><td>86&ndash;100</td><td><i>Periapt of proof against poison</td><td></i>27,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Major Neck Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;18</td><td><i>Amulet of natural armor +4</td><td></i>32,000 gp</td></tr>
+<tr class="even"><td>19&ndash;35</td><td><i>Amulet of proof against detection and location</td><td></i>35,000 gp</td></tr>
+<tr class="odd"><td>36&ndash;49</td><td><i>Amulet of bullet protection +5</td><td></i>37,500 gp</td></tr>
+<tr class="even"><td>50&ndash;67</td><td><i>Scarab of protection</td><td></i>38,000 gp</td></tr>
+<tr class="odd"><td>68&ndash;82</td><td><i>Necklace of netted stars</td><td></i>42,000 gp</td></tr>
+<tr class="even"><td>83&ndash;100</td><td><i>Amulet of mighty fists +3</td><td></i>45,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Major Neck Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;35</td><td><i>Amulet of natural armor +5</td><td></i>50,000 gp</td></tr>
+<tr class="even"><td>36&ndash;60</td><td><i>Amulet of mighty fists +4</td><td></i>80,000 gp</td></tr>
+<tr class="odd"><td>61&ndash;85</td><td><i>Amulet of the planes</td><td></i>120,000 gp</td></tr>
+<tr class="even"><td>86&ndash;100</td><td><i>Amulet of mighty fists +5</td><td></i>125,000 gp</td></tr></table>
+
+<p id="aegis-of-recovery" class="stat-block-title">Aegis of Recovery</p>
+<p class="stat-block-1"><b>Price</b> 1,500 gp; <b>Aura</b>  faint abjuration and conjuration; <b>CL</b> 3rd; <b>Weight</b> &mdash;</p>
+<p class="stat-block">An <i>aegis of recovery</i> grants its wearer a +2 resistance bonus on all saving throws made to recover from a continuing effect, such as ongoing poison damage, daily saving throws against a disease, a <i><a href="/pathfinderRPG/prd/spells/holdPerson.html#_hold-person" >hold person</a></i> spell, or lingering damage from an attack. This bonus does not help against initial saving throws against such effects. Should the wearer ever drop below 0 hit points, the aegis heals the wearer for 2d8+3 points of damage and then crumbles to dust.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i></p>
+				
+<p id="ampoule-of-false-blood" class="stat-block-title">Ampoule of False Blood</p>
+<p class="stat-block-1"><b>Price</b> 20,000 gp; <b>Aura</b>  strong transmutation; <b>CL</b> 15th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This necklace consists of a fine gold chain from which hangs a small sealed crystal vial containing preserved liquid blood. Each ampoule is attuned to a specific sorcerer bloodline. If a sorcerer (or other creature with sorcerer bloodline powers, such as from the <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_eldritch-heritage" >Eldritch Heritage</a> feat) wears the ampoule for at least one day, she loses her existing bloodline powers and gains the bloodline powers of the ampoule's bloodline, using her sorcerer level to determine the powers gained. The ampoule has no effect on the sorcerer's bonus spells, bloodline arcana, or bonus feats from her original bloodline (which remain unchanged).</p>
+<p class="stat-block">The sorcerer can only use these bloodline powers as long as she wears the necklace. Removing the necklace leaves the sorcerer unable to access any bloodline power, either her own or those of the ampoule, until one hour has passed.</p>
+<p class="stat-block">As a full round action that provokes an attack of opportunity, the wearer can break open the ampoule and drink the blood within. This destroys the item, and gives her the sickened condition for 1d4 hours. If the drinker is a sorcerer, her bloodline permanently changes to match that of the ampoule. In this case, the sorcerer's bonus spells, bloodline arcana, and bloodline powers all permanently change to match those of the ampoule's bloodline. Bonus feats previously selected due to the sorcerer's bloodline are unaffected, but new feats must be selected from the new bloodline's bonus feat list.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 10,000 gp</p>
+<p class="stat-block">Craft Wondrous item, <i><a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a>, <a href="/pathfinderRPG/prd/spells/polymorph.html#_polymorph" >polymorph</a>, </i>creator must be a sorcerer of the appropriate bloodline</p>
+
+<p id="amulet-of-bullet-protection" class="stat-block-title">Amulet of Bullet Protection</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> faint abjuration; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block-1"><b>+1 luck bonus</b> 1,500 gp; <b>+2 luck bonus</b> 6,000 gp; <b>+3 luck bonus</b> 13,500 gp; <b>+4 luck bonus</b> 24,000 gp; <b>+5 luck bonus</b> 37,500 gp</p>
+<p class="stat-block">This amulet, usually crafted from the splintered remains of spent firearm bullets shaped into a rough holy symbol or clover, grants the wearer a luck bonus to AC against firearm attacks that target touch AC.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>+1 luck bonus</b> 750 gp; <b>+2 luck bonus</b> 3,000 gp; <b>+3 luck bonus</b> 6,750 gp; <b>+4 luck bonus</b> 12,000 gp; <b>+5 luck bonus</b> 18,750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i>, creator's caster level must be at least three times the amulet's bonus</p>
+				
+<p id="amulet-of-elemental-strife" class="stat-block-title">Amulet of Elemental Strife</p>
+<p class="stat-block-1"><b>Price</b> 4,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This amulet shines brightly when brought within 60 feet of an outsider with the elemental subtype, shedding light as a torch. The amulet glows a different color depending on the subtype of the elemental or elementals present (white for air, yellow for earth, red for fire, and blue for water). If more than one subtype is present, the gem flickers back and forth between the appropriate colors.</p>
+<p class="stat-block">The wearer gains resistance 5 against a single energy type determined by the subtype of the closest elemental present (air grants electricity resistance, earth grants acid resistance, fire grants fire resistance, and water grants cold resistance). If the closest elemental possesses multiple subtypes, the wearer may choose which type of resistance she gains. This energy resistance only applies against attacks from elementals. The amulet also allows any attacks made by the wearer to bypass the damage reduction of such creatures.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, creator must be at least 8th level</p>
+				
+<p id="amulet-of-hidden-strength" class="stat-block-title">Amulet of Hidden Strength</p>
+<p class="stat-block-1"><b>Price</b> 9,000 gp; <b>Aura</b>  faint transmutation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This glass teardrop hangs on a platinum chain and can be used once per day to grant a surge of power. This surge can be used in one of two ways. As a swift action, the wearer of the amulet can make one melee or ranged attack at his highest attack bonus. Alternatively, if the wearer of the amulet has a <i>ki</i> pool, he can instead focus on the power of the amulet as a full-round action and regain two <i>ki</i> points.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, creator must have a <i>ki</i> pool</p>
+				
+<p id="amulet-of-magecraft" class="stat-block-title">Amulet of Magecraft</p>
+<p class="stat-block-1"><b>Price</b> 20,000 gp; <b>Aura</b>  moderate universal; <b>CL</b> 9th; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">A universalist wizard who selects the amulet as his bonded object may choose one school of spells each day when he prepares spells. He then can use the necklace to spontaneously convert any prepared wizard spell of that school into any other wizard spell of that school he knows&mdash;though the desired spell must be of the same level or lower than the prepared spell. For example, if the wizard chooses evocation when he prepares his spells that morning, until the next time he prepares spells, he can spontaneously convert a prepared <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i> into any other evocation wizard spell of 3rd level or lower that he knows.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 10,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/permanency.html#_permanency" >permanency</a></i>, creator must be a universalist</p>
+				
+<p id="amulet-of-mighty-fists" class="stat-block-title">Amulet of Mighty Fists</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> faint evocation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block-1"><b>+1 bonus</b> 5,000 gp; <b>+2 bonus</b> 20,000 gp; <b>+3 bonus</b> 45,000 gp; <b>+4 bonus</b> 80,000 gp; <b>+5 bonus</b> 125,000 gp</p>
+<p class="stat-block">This amulet grants an enhancement bonus of +1 to +5 on attack and damage rolls with unarmed attacks and natural weapons.</p>
+<p class="stat-block">Alternatively, this amulet can grant melee weapon special abilities, so long as they can be applied to unarmed attacks. See Table: Melee Weapon Special Abilities for a list of abilities. Special abilities count as additional bonuses for determining the market value of the item, but do not modify attack or damage bonuses. An <i>amulet of mighty fists</i> cannot have a modified bonus (enhancement bonus plus special ability bonus equivalents) higher than +5. An amulet of mighty fists does not need to have a +1 enhancement bonus to grant a melee weapon special ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>+1 bonus</b> 2,500 gp; <b>+2 bonus</b> 10,000 gp; <b>+3 bonus</b> 22,500 gp; <b>+4 bonus</b> 40,000 gp; <b>+5 bonus</b> 62,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i>, creator's caster level must be at least three times the amulet's bonus, plus any requirements of the melee weapon special abilities</p>
+
+<p id="amulet-of-natural-armor" class="stat-block-title">Amulet of Natural Armor</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block-1"><b>+1 bonus</b> 2,000 gp; <b>+2 bonus</b> 8,000 gp; <b>+3 bonus</b> 18,000 gp; <b>+4 bonus</b> 32,000 gp; <b>+5 bonus</b> 50,000 gp</p>
+<p class="stat-block">This amulet, usually containing some type of magically preserved monster hide or other natural armor&mdash;such as bone, horn, carapace, or beast scales&mdash;toughens the wearer's body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>+1 bonus</b> 1,000 gp; <b>+2 bonus</b> 4,000 gp; <b>+3 bonus</b> 9,000 gp; <b>+4 bonus</b> 16,000 gp; <b>+5 bonus</b> 25,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, creator's caster level must be at least three times the amulet's bonus</p>
+				
+<p id="amulet-of-proof-against-detection-and-location" class="stat-block-title">Amulet of Proof against Detection and Location</p>
+<p class="stat-block-1"><b>Price</b> 35,000 gp; <b>Aura</b>  moderate abjuration; <b>CL</b> 8th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This silver amulet protects the wearer from scrying and magical location just as a <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i> spell does. If a divination spell is attempted against the wearer, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 19 (as if the wearer had cast <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i> on herself).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 17,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i></p>
+
+<p id="amulet-of-proof-against-petrification" class="stat-block-title">Amulet of Proof Against Petrification</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b>  moderate abjuration; <b>CL</b> 8th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This finely polished wooden amulet has the image of a blindfolded medusa carved upon its surface. Whenever the wearer fails a saving throw that would result in him being turned to stone, he is instead staggered for 1d6 rounds. If a spell or effect turns him to stone without allowing a saving throw, he is instead staggered for 1 minute. These abilities do not function while the wearer is staggered.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/stoneToFlesh.html#_stone-to-flesh" >stone to flesh</a></i></p>
+				
+<p id="amulet-of-spell-cunning" class="stat-block-title">Amulet of Spell Cunning</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Aura</b>  moderate transmutation; <b>CL</b> 7th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This silver locket only has power when used as a wizard's bonded object. It allows a wizard to prepare an additional 3 levels of spells per day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/mnemonicEnhancer.html#_mnemonic-enhancer" >mnemonic enhancer</a></i></p>
+				
+<p id="amulet-of-spell-mastery" class="stat-block-title">Amulet of Spell Mastery</p>
+<p class="stat-block-1"><b>Price</b> 22,000 gp; <b>Aura</b>  strong transmutation; <b>CL</b> 11th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This platinum locket only has power when used as a wizard's bonded object. It allows the wizard to prepare an additional 6 levels of spells per day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 11,000 gp</p>
+<p class="stat-block">Craft Wondrous Items, <i><a href="/pathfinderRPG/prd/spells/mnemonicEnhancer.html#_mnemonic-enhancer" >mnemonic enhancer</a></i></p>
+				
+				
+<p id="amulet-of-the-planes" class="stat-block-title">Amulet of the Planes</p>
+<p class="stat-block-1"><b>Price</b> 120,000 gp; <b>Aura</b>  strong conjuration; <b>CL</b> 15th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This device usually appears to be a black circular amulet, although any character looking closely at it sees a dark, moving swirl of color. The amulet allows its wearer to utilize the spell <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i>. However, this is a difficult item to master. The user must make a DC 15 Intelligence check in order to get the amulet to take her to the plane (and the specific location on that plane) that she desires. If she fails, the amulet transports her and all those traveling with her to a random location on that plane (01&ndash;60 on d%) or to a random plane (61&ndash;100).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 60,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i></p>
+				
+<p id="brooch-of-amber-sparks" class="stat-block-title">Brooch of Amber Sparks</p>
+<p class="stat-block-1"><b>Price</b> 16,800 gp; <b>Aura</b>  faint abjuration and evocation; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This copper clasp adorned with a piece of amber is used to fasten a cloak or cape. When its wearer takes electricity damage, this brooch absorbs up to 20 points of electrical damage and holds that electrical charged until it is released by its wielder or harmlessly at the end of 10 minutes, whichever occurs first. The brooch can absorb up to 50 points of electricity damage per day. The wielder can release the charge on command, unleashing any electricity in the brooch as if casting a <i><a href="/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp" >shocking grasp</a></i> spell (dealing 1d6 points of electricity damage per 5 points of damage held).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 8,400 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp" >shocking grasp</a></i></p>
+				
+<p id="brooch-of-shielding" class="stat-block-title">Brooch of Shielding</p>
+<p class="stat-block-1"><b>Price</b> 1,500 gp; <b>Aura</b> faint abjuration; <b>CL</b> 1st; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This appears to be a piece of silver or gold jewelry used to fasten a cloak or cape. In addition to this mundane task, it can absorb <i>magic missiles</i> of the sort generated by the spell or spell-like ability. A brooch can absorb up to 101 points of damage from <i>magic missiles</i> before it melts and becomes useless.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i></p>
+				
+				
+<p id="carcanet-of-detention" class="stat-block-title">Carcanet of Detention</p>
+<p class="stat-block-1"><b>Price</b>  7,200 gp; <b>Aura</b>  faint conjuration; <b>CL</b> 4th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Comprised of thick iron links, the <i>carcanet of detention</i> is commonly worn by prison guards and elite members of the city watch. Once per day, the wearer of the carcanet may command it to animate and attempt to wrap around one Medium or smaller creature within 15 feet. The target receives a DC 15 Reflex saving throw to avoid the chain. If the saving throw fails, the target is entangled and cannot move from its current location. As a full-round action, the target can attempt a new saving throw to end the effect; otherwise it persists for 10 minutes or until ended by the wearer as a swift action, at which point it returns to its carcanet form. The chain has a hardness of 10 and 15 hit points.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,600 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/animateRope.html#_animate-rope" >animate rope</a></i></p>
+				
+<p id="collar-of-the-true-companion" class="stat-block-title">Collar of the True Companion</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Aura</b>  moderate transmutation; <b>CL</b> 9th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Although it appears to be a simple thong of leather, this collar was initially conceived by druids who believed that there were animals who possessed spirits worthy of elevation to true sentience. If worn by a creature of the animal type with an Intelligence less than 3, a <i>collar of the true companion</i> grants a +2 enhancement bonus to Intelligence. This does not give the animal the ability to speak, but it does allow it to understand one spoken language (chosen by the item's creator).</p>
+<p class="stat-block">If the collar is worn for at least 1 week by a creature of the animal type, the creature is raised to humanlike sentience, as though by the <i><a href="/pathfinderRPG/prd/spells/awaken.html#_awaken" >awaken</a> </i>spell. Once this occurs, the collar loses its magical properties.</p>
+<p class="stat-block">If a <i>collar of the true companion</i> is worn for more than 1 week by a creature not of the animal type, the wearer is <i>feebleminded</i> until the collar is removed.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 6,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/awaken.html#_awaken" >awaken</a></i>, <i><a href="/pathfinderRPG/prd/spells/foxSCunning.html#_fox-s-cunning" >fox's cunning</a></i></p>
+				
+<p id="crystal-of-healing-hands" class="stat-block-title">Crystal of Healing Hands</p>
+<p class="stat-block-1"><b>Price</b> 12,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 10th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">A cloth cord marked with esoteric religious symbols typically holds this  roughly cut, glittering prism in place. A person with the lay on hands class feature can direct one use of this energy into the crystal, which stores it until the wearer speaks a command word to release it. Releasing the energy targets the wearer with the stored lay on hands effect, as if touched by the person who infused the crystal with its power. The crystal can contain a single use of the lay on hands class feature. When filled with this magic, it begins to glow with a pearly white light. The wearer of the crystal can order it to release its energy as a standard action. This acts identically to receiving the effect of lay on hands directly from the person who channeled it into the crystal, including any mercies they had at the time.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 6,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, creator must be a paladin</p>
+
+<p id="dragonfoe-amulet" class="stat-block-title">Dragonfoe Amulet</p>
+<p class="stat-block-1"><b>Price</b> 20,000 gp; <b>Aura</b>  moderate transmutation; <b>CL</b> 9th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This amulet consists of a cracked dragon scale set in a disk of gold. Most are slightly damaged, bearing the scars of draconic breath weapons. The <i>dragonfoe amulet</i> is a powerful, specialized tool for those who oppose dragons, improving the protection and attacks of the wearer in a number of ways.</p>
+<p class="stat-block">The wearer of a <i>dragonfoe amulet</i> ignores the damage reduction of dragons. This only affects actual dragons, not all creatures of the dragon type. In addition, if the wearer casts a spell against a dragon, she can roll twice to overcome any spell resistance the dragon might possess, taking the higher result. Lastly, the wearer takes no damage instead of half damage on a successful Reflex save against a dragon's breath weapon (as the evasion ability).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 10,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_spell-penetration" >Spell Penetration</a>, <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a>, <a href="/pathfinderRPG/prd/spells/jump.html#_jump" >jump</a></i></p>
+				
+<p id="everwake-amulet" class="stat-block-title">Everwake Amulet</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> faint conjuration; <b>CL</b> 2nd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Cast in the image of the sun and often ornamented with an open eye, this amulet defends the wearer against the need for sleep. The wearer of this amulet does not need to sleep, but must remain at ease for the normal amount of time to regain spells and other abilities that require rest (although the wearer could perform light activity, such as reading or keeping watch). Once the wearer has used the power of this amulet for a total of seven nights, the amulet loses its power for one day and the wearer is exhausted for this duration. If the wearer removes the amulet for any reason after having used its ability, she becomes exhausted for four hours for every night of sleep skipped.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i></p>
+				
+<p id="feychild-necklace" class="stat-block-title">Feychild Necklace</p>
+<p class="stat-block-1"><b>Price</b> 6,000 gp; <b>Aura</b>  moderate divination; <b>CL</b> 8th; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">This necklace is set with a bloodstone sculpted to look like a scintillating green eye. It gives the wearer a +4 competence bonus on Charisma checks and Charisma-based checks made to interact with gnomes, a +2 competence bonus on similar checks when dealing with beings of the fey creature type, and a &ndash;2 penalty on similar checks when interacting with anyone else. The wearer can read, speak, and understand the Gnome language. If the wearer is not a gnome, she gains low-light vision, and may cast <i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights" >dancing lights</a>, <a href="/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound" >ghost sound</a>, <a href="/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation" >prestidigitation</a></i>, and <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i> each once per day as a spell-like ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, creator must be a gnome</p>
+				
+<p id="forge-fist-amulet" class="stat-block-title">Forge Fist Amulet</p>
+<p class="stat-block-1"><b>Price</b> 13,000 gp; <b>Aura</b>  faint evocation; <b>CL</b> 6th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This fist-shaped stone amulet glows with a fiery light. On command, this amulet causes the wearer's fists to transform into red-hot flaming adamantine. The wearer is protected from the searing heat and can make savage blows with his hands. Unarmed strikes and natural attacks the wearer make with his hands gain the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a></i> weapon special ability and are treated as adamantine for the purpose of bypassing damage reduction (but not hardness). The wearer's hands become rigid while using this amulet and cannot be use to hold or manipulate objects (unless that manipulation could be accomplished with a club and is not damaged by fire). The transformation can be ended as a swift action.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 6,500 gp</p>
+<p class="stat-block">Craft Wondrous Item; <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i>; and <i><a href="/pathfinderRPG/prd/spells/flameBlade.html#_flame-blade" >flame blade</a></i>, <i><a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i>, or <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i></p>
+				
+<p id="frost-fist-amulet" class="stat-block-title">Frost Fist Amulet</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Aura</b>  faint evocation; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Shaped like a fist, this iron amulet is surrounded by a frigid fog. On command, this amulet causes the wearer's hands to become encased in a layer of freezing iron. The wearer is protected from the frigid cold and can make savage blows with his hands. Unarmed strikes and natural attacks the wearer makes with hands gain the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-frost" >frost</a></i> weapon special ability and are treated as cold iron for the purpose of bypassing damage reduction. The wearer's hands become rigid while using this amulet and cannot be use to hold or manipulate objects (unless that manipulation could be accomplished with a club and is not damaged by cold). The transformation can be ended as a swift action.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,000 gp</p>
+<p class="stat-block">Craft Wondrous Item; <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i>; and <i><a href="/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold" >cone of cold</a></i> or <i><a href="/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm" >ice storm</a></i></p>
+				
+<p id="golembane-scarab" class="stat-block-title">Golembane Scarab</p>
+<p class="stat-block-1"><b>Price</b> 2,500 gp; <b>Aura</b> moderate divination; <b>CL</b> 8th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This beetle-shaped pin enables its wearer to detect any golem within 60 feet, although he must concentrate (a standard action) in order for the detection to take place. A scarab enables its bearer to combat golems with weapons, unarmed attacks, or natural weapons as if those golems had no damage reduction.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,250 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, creator must be at least 10th level</p>
+
+<p id="gravewatch-pendant" class="stat-block-title">Gravewatch Pendant</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> faint abjuration; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Favored by the grave-wardens of sites known to be infested with the spirits of the dead, this pendant is an iron ring strung on a necklace made from polished and discolored bones, nails, and teeth. A faint blue light limns the wearer, protecting him from attack. Undead creatures are repulsed by this light and take a &ndash;2 penalty on all attack rolls against the wearer of a <i>gravewatch pendant</i>. Incorporeal undead creatures are further repulsed and instead take a &ndash;4 penalty on all attack rolls against the wearer. Undead creatures can sense this light easily, however, and receive a +4 circumstance bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks to detect a creature wearing this pendant.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil" >protection from evil</a></i></p>
+				
+				
+<p id="guardian-gorget" class="stat-block-title">Guardian Gorget</p>
+<p class="stat-block-1"><b>Price</b> 12,000 gp; <b>Aura</b> strong abjuration and conjuration; <b>CL</b> 13th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This flanged collar of mithral and steel protects the wearer's neck and shoulders. It provides a +2 armor bonus to AC (this does not stack with other armor bonuses) and grants the <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i> property to the wearer. In addition, the wearer may engrave a <i><a href="/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding" >glyph of warding</a></i> directly onto the <i>guardian gorget</i>. When the wearer is struck in melee, she can trigger the glyph as an immediate action, causing the glyph to discharge against the creature making the attack (and other creatures within 5 feet, if a blast glyph was placed, though the wearer is not harmed by the glyph‘s effects). The glyph can be triggered even if the attack would normally leave the wearer incapable of taking actions (such as killed, stunned, dazed, or knocked unconscious).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 6,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding" >glyph of warding</a>, <a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a> </i>or<i> <a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a>, <a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a> </i>or <i><a href="/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment" >magic vestment</a></i></p>
+
+<p id="hand-of-glory" class="stat-block-title">Hand of Glory</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> faint varied; <b>CL</b> 5th; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">This mummified human hand hangs around a character's neck by a leather cord (taking up space as a magic necklace would). If a magic ring is placed on one of the fingers of the hand, the wearer benefits from the ring as if wearing it herself, and it does not count against her two-ring limit. The hand can wear only one ring at a time. Even without a ring, the hand itself allows its wearer to use <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i> and <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i> each once per day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/animateDead.html#_animate-dead" >animate dead</a></i>, <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i>, <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i></p>
+				
+<p id="hand-of-stone" class="stat-block-title">Hand of Stone</p>
+<p class="stat-block-1"><b>Price</b> 27,000 gp; <b>Aura</b>  moderate divination; <b>CL</b> 7th; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">This mummified dwarf hand hangs on a steel chain around a character's neck, bringing the wearer more in tune with the earth beneath her feet. If the wearer spends a standard action concentrating on the hand, she gains tremorsense out to a range of 30 feet until the start of her next turn. This ability only allows her to sense creatures and objects that are in contact with earth or stone.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 13,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i>clairvoyance/clairaudience</i></p>
+				
+<p id="hand-of-the-mage" class="stat-block-title">Hand of the Mage</p>
+<p class="stat-block-1"><b>Price</b> 900 gp; <b>Aura</b>  faint transmutation; <b>CL</b> 2nd; <b>Weight</b>  2 lbs.</p>
+<p class="stat-block">This mummified elf hand hangs by a golden chain around a character's neck (taking up space as a magic necklace would). It allows the wearer to utilize the spell <i><a href="/pathfinderRPG/prd/spells/mageHand.html#_mage-hand" >mage hand</a></i> at will.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 450 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/mageHand.html#_mage-hand" >mage hand</a></i></p>
+				
+<p id="medallion-of-thoughts" class="stat-block-title">Medallion of Thoughts</p>
+<p class="stat-block-1"><b>Price</b> 12,000 gp; <b>Aura</b>  faint divination; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This appears to be a normal pendant disk hung from a neck chain. Usually fashioned from bronze, copper, or silver, the medallion allows the wearer to read the thoughts of others, as with the spell <i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i>.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 6,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i></p>
+				
+<p id="mind-sentinel-medallion" class="stat-block-title">Mind Sentinel Medallion</p>
+<p class="stat-block-1"><b>Price</b> 3,500 gp; <b>Aura</b>  faint abjuration; <b>CL</b> 1st; <b>Weight</b>  &mdash;</p>
+<p class="stat-block">The surface of this silver medallion is covered in angular geometric shapes that refract light randomly. The medallion grants a continuous +2 resistance bonus on saves versus mind-affecting spells, spell-like abilities, and supernatural abilities. If the wearer fails a save to avoid becoming dominated or confused, the amulet immediately grants the wearer a second saving throw to resist the effect. If this second save is successful, the medallion's power fades away entirely and it becomes a simple piece of silver jewelry.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil" >protection from evil</a></i></p>
+				
+<p id="Mummer's-Ruff" class="stat-block-title">Mummer's Ruff</p>
+<p class="stat-block-1"><b>Price</b> 3,500 gp; <b>Aura</b>  faint illusion; <b>CL</b> 5th; <b>Weight</b>  &mdash;</p>
+<p class="stat-block">Usually fashioned from brightly colored silk, a <i>mummer's ruff</i> is a favored accoutrement of performers and con artists alike. The wearer of a <i>mummer's ruff</i> gains a +10 bonus on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> skill checks when attempting to imitate another's voice. In addition, once per day, the wearer of the <i>mummer's ruff</i> can throw his voice as if using <i><a href="/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism" >ventriloquism</a> </i>for up to 5 minutes.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/sculptSound.html#_sculpt-sound" >sculpt sound</a>, <a href="/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism" >ventriloquism</a></i></p>
+				
+				
+<p id="necklace-of-adaptation" class="stat-block-title">Necklace of Adaptation</p>
+<p class="stat-block-1"><b>Price</b> 9,000 gp; <b>Aura</b>  moderate transmutation; <b>CL</b> 7th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">This necklace is a heavy chain with a platinum medallion. The magic of the necklace wraps the wearer in a shell of fresh air, making him immune to all harmful vapors and gases (such as cloudkill and stinking cloud effects, as well as inhaled poisons) and allowing him to breathe, even underwater or in a vacuum.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i></p>
+
+<p id="necklace-of-fireballs" class="stat-block-title">Necklace of Fireballs</p>
+<p class="stat-block-1"><b>Price</b> See Table; <b>Aura</b> moderate evocation; <b>CL</b> 10th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This item appears to be a string or cluster of spherical beads, sometimes with the ends tied together to form a necklace. (It does not count as an item worn around the neck for the purpose of determining which of a character's worn magic items is effective.) If a character holds it, however, all can see the strand as it really is&mdash;a golden chain from which hang a number of golden spheres. The spheres are detachable by the wearer (and only by the wearer), who can easily hurl one of them up to 70 feet. When a sphere arrives at the end of its trajectory, it detonates as a <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i> spell (Reflex DC 14 half).</p>
+<p class="stat-block">Spheres come in different strengths, ranging from those that deal 2d6 points of fire damage to those that deal 10d6. The price of a sphere is 150 gp for each die of damage it deals.</p>
+<p class="stat-block">Each necklace of fireballs contains a combination of spheres of various strengths. Some traditional combinations, designated types I through VII, are detailed above.</p>
+<p class="stat-block">If the necklace is being worn or carried by a character who fails her saving throw against a magical fire attack, the item must make a saving throw as well (with a save bonus of +7). If the necklace fails to save, all its remaining spheres detonate simultaneously, often with regrettable consequences for the wearer.</p>
+
+<table><thead><tr><th>Necklace</th><th>10d6</th><th>9d6</th><th>8d6</th><th>7d6</th><th>6d6</th><th>5d6</th><th>4d6</th><th>3d6</th><th>2d6</th><th>Price</th></tr></thead>
+<tr class="odd"><td>Type I</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>1</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>1,650 gp</td></tr>
+<tr class="even"><td>Type II</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>1</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>2</td><td>2,700 gp</td></tr>
+<tr class="odd"><td>Type III</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>1</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>4</td><td>&mdash;</td><td>4,350 gp</td></tr>
+<tr class="even"><td>Type IV</td><td>&mdash;</td><td>&mdash;</td><td>1</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>4</td><td>5,400 gp</td></tr>
+<tr class="odd"><td>Type V</td><td>&mdash;</td><td>1</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>5,850 gp</td></tr>
+<tr class="even"><td>Type VI</td><td>1</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>8,100 gp</td></tr>
+<tr class="odd"><td>Type VII</td><td>1</td><td>2</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>2</td><td>&mdash;</td><td>8,700 gp</td></tr></table>
+
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Type I</b> 825 gp; <b>Type II</b> 1,350 gp; <b>Type III</b> 2,175 gp; <b>Type IV</b> 2,700 gp; <b>Type V</b> 2,925 gp; <b>Type VI</b> 4,050 gp; <b>Type VII</b> 4,350 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i></p>
+				
+<p id="necklace-of-ki-serenity" class="stat-block-title">Necklace of Ki Serenity</p>
+<p class="stat-block-1"><b>Price</b> 16,000 gp; <b>Aura</b>  moderate enchantment; <b>CL</b> 9th; <b>Weight</b>  &mdash;</p>
+<p class="stat-block">This simple leather cord is tightly knotted at even intervals and gives its wearer a sense of inner calmness and connection with the larger world. The wearer gains a +4 bonus to his effective level when determining the size of his <i>ki</i> pool and the level-based effects of his <i>ki</i> pool ability (such as bypassing damage reduction).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 8,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/calmEmotions.html#_calm-emotions" >calm emotions</a></i>, <i><a href="/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom" >owl's wisdom</a></i></p>
+				
+<p id="necklace-of-netted-stars" class="stat-block-title">Necklace of Netted Stars</p>
+<p class="stat-block-1"><b>Price</b> 42,000 gp; <b>Aura</b>  strong illusion and transmutation; <b>CL</b> 12th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">This marvelous mithral necklace forms a broad, draping lacework of threadlike chains set with a multitude of tiny jewels. Seven of these jewels are larger than the rest. While wearing a <i>necklace of netted stars</i>, the wearer can create <i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights" >dancing lights</a></i> at will and <i><a href="/pathfinderRPG/prd/advanced/spells/wanderingStarMotes.html#_wandering-star-motes" >wandering star motes</a></i> once per day. In addition, each of the seven jewels of the necklace can recall a previously cast 1st-level or 0-level spell, as a <i>pearl of power</i>.</p>
+<p class="stat-block">Once per day, the wearer may use the necklace to catch a spell targeted at him, as if readying an action to counterspell using <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, with a bonus on the check equal to 12 + the number of jewels not yet used to recall spells that day. If all jewels have been used, this ability cannot be used that day. The level of the spell to be countered must be less than or equal to the number of unused jewels. If the counterspell succeeds, the spell is negated and the wearer can use its magical energy to recall a previously cast spell of the same level or lower as an immediate action. Whether or not the attempt succeeds, this action exhausts the power of all of the necklace's jewels for that day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 21,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights" >dancing lights</a>, <a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a>, <a href="/pathfinderRPG/prd/advanced/spells/wanderingStarMotes.html#_wandering-star-motes" >wandering star motes</a>, </i>creator must be able to cast 7th-level spells</p>
+				
+				
+<p id="periapt-of-health" class="stat-block-title">Periapt of Health</p>
+<p class="stat-block-1"><b>Price</b> 7,500 gp; <b>Aura</b> faint conjuration; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This simple periapt usually appears as a blue gemstone fastened to a silver chain designed to be worn about the neck. The wearer is immune to all disease, including supernatural diseases.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease" >remove disease</a></i></p>
+				
+<p id="periapt-of-proof-against-poison" class="stat-block-title">Periapt of Proof against Poison</p>
+<p class="stat-block-1"><b>Price</b> 27,000 gp; <b>Aura</b>  faint conjuration; <b>CL</b> 5th; <b>Weight</b>  &mdash;</p>
+<p class="stat-block">This item is a brilliant-cut black gem on a delicate silver chain meant to be worn about the neck. The wearer is immune to poison, although poisons active when the periapt is first donned still run their course.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 13,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i></p>
+				
+				
+<p id="periapt-of-protection-from-curses" class="stat-block-title">Periapt of Protection from Curses</p>
+<p class="stat-block-1"><b>Price</b> 12,000 gp; <b>Aura</b>  faint abjuration; <b>CL</b> 5th; <b>Weight</b>  &mdash;</p>
+<p class="stat-block">This amethyst stone strung on a coarse iron chain protects the wearer from curses. Three times per day, whenever the wearer rolls a saving throw against a curse (such as a witch's hex, or a <i><a href="/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i> spell), he may reroll the saving throw as an immediate action. The wearer must decide to use this ability before the results of the saving throw are revealed. He must take the second roll, even if it is worse.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 6,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/removeCurse.html#_remove-curse" >remove curse</a></i></p>
+
+<p id="periapt-of-wound-closure" class="stat-block-title">Periapt of Wound Closure</p>
+<p class="stat-block-1"><b>Price</b> 15,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 10th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This stone is bright blue and dangles on a silver chain meant to be worn on the neck. The wearer of this periapt automatically becomes stable if his hit points drop below 0 (but not if the damage is enough to kill the wearer). The periapt doubles the wearer's normal rate of healing or allows normal healing of wounds that would not do so normally. Hit point damage caused by bleeding is negated for the wearer of the periapt, but he is still susceptible to damage from bleeding that causes ability damage or drain.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 7,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a></i></p>
+
+<p id="righteous-fist-amulet" class="stat-block-title">Righteous Fist Amulet</p>
+<p class="stat-block-1"><b>Price</b> 4,000 gp; <b>Aura</b>  faint transmutation; <b>CL</b> 4th; <b>Weight</b>  1/2 lb.</p>
+<p class="stat-block">This golden amulet is used by religious sects as a way to help the faithful capture fugitives or defend themselves without doing undue harm to potential converts. While the wearer is using her divine powers of retribution (such as a cleric's smite, an inquisitor's smiting judgment, or a paladin's smite), the amulet grants her the ability to make unarmed strikes in melee combat as if she had the <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a> feat.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <i><a href="/pathfinderRPG/prd/advanced/spells/stoneFist.html#_stone-fist" >stone fist</a></i></p>
+				
+<p id="scarab-of-protection" class="stat-block-title">Scarab of Protection</p>
+<p class="stat-block-1"><b>Price</b> 38,000 gp; <b>Aura</b> strong abjuration and necromancy; <b>CL</b> 18th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This device appears to be a jade medallion in the shape of a beetle. If it is held for 1 round, an inscription appears on its surface letting the holder know that it is a protective device.</p>
+<p class="stat-block">The scarab's possessor gains spell resistance 20. The scarab can also absorb energy-draining attacks, death effects, and negative energy effects. Upon absorbing 12 such attacks, the scarab turns to powder and is destroyed.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 19,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/deathWard.html#_death-ward" >death ward</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance" >spell resistance</a></i></p>
+				
+<p id="stormlure" class="stat-block-title">Stormlure</p>
+<p class="stat-block-1"><b>Price</b> 5,400 gp; <b>Aura</b>  faint evocation; <b>CL</b> 5th; <b>Weight</b>  &mdash;</p>
+<p class="stat-block">A stormlure is usually fashioned from pieces of creatures known for their affinity to air&mdash;the feathers of birds, the shells of flying insects, and the scales of a dragon. When activated, stormlures call to the wind, causing a tempestuous gale. Once per day on command, the wearer of a stormlure is surrounding by swirling winds for 1 minute, granting a 50% miss chance against all ranged attacks, including rays and other ranged spells that require a roll to hit. This wind does not hinder the wearer of the <i>stormlure</i> in any way. At any one time during this duration, as a swift action, the wearer can cause the air around her to fill with crackling lightning, dealing 4d6 points of electricity damage to all creatures adjacent to her. A DC 14 Reflex save halves this damage.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,700 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a>, <a href="/pathfinderRPG/prd/spells/windWall.html#_wind-wall" >wind wall</a></i></p>
+				
+<p id="swarmbane-clasp" class="stat-block-title">Swarmbane Clasp</p>
+<p class="stat-block-1"><b>Price</b> 3,000 gp; <b>Aura</b>  moderate abjuration; <b>CL</b> 8th; <b>Weight</b>  1/2 lb.</p>
+<p class="stat-block">An ancient fossilized insect lies trapped within this ornate amber clasp, impaled by the long golden pin that fastens the wearer's cloak. The wearer's weapons, unarmed attacks, and natural attacks deal full damage to swarms, regardless of the swarm's immunity to weapon damage (if any, although damage reduction applies as normal). If the wearer is damaged by a swarm, she automatically succeeds on her saving throw against the swarm's distraction ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/repelVermin.html#_repel-vermin" >repel vermin</a></i></p>
+				
+<p id="symbol-of-sanguine-protection" class="stat-block-title">Symbol of Sanguine Protection</p>
+<p class="stat-block-1"><b>Price</b> 17,500 gp; <b>Aura</b>  faint transmutation; <b>CL</b> 6th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">This silver holy symbol rests just over the wearer's heart, imbuing his blood with divine power. After wearing the amulet for 24 hours, the wearer can shed his own blood as a standard action, dealing 1d6 points of damage to himself, to collect an amount of divinely empowered blood that functions as a flask of holy water. The wearer can collect his blood this way once per day, but the individual vials lose their potency after just 1 week.</p>
+<p class="stat-block">Undead creatures and evil outsiders that successfully use a blood drain attack on the wearer take 4d6 points of positive energy damage and are sickened for 1d4 rounds unless they make a DC 16 Will save. Any benefit the creature might gain from drinking the wearer's blood is negated due to the power of this symbol.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 8,750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/blessWater.html#_bless-water" >bless water</a></i></p>
+				
+<p id="torc-of-lionheart-fury" class="stat-block-title">Torc of Lionheart Fury</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b>  faint abjuration; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Each end of this heavy copper neckwear bears the image of a snarling lion. The wearer gains a +2 morale bonus on saving throws against fear. If the wearer is a barbarian of at least 12th level, she gains fearless rage as a bonus rage power. If she already has this power, she also becomes immune to the panicked condition while raging, and any panic-causing attack against her while she rages instead causes her to regain 1 round of rage.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/removeFear.html#_remove-fear" >remove fear</a></i></p>
+
+	
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

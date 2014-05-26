@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Rods</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Rods",globalNavPath=[{ href: '/pathfinderRPG/prd/magicItems.html', name: 'Magic Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="rods">Rods</h1><div class="right"><table id="table-15-14-rods"><caption>Table: Rods</caption>
+<thead><tr><th>Medium</th><th>Major</th><th>Rod</th><th>Market Price</th></tr></thead>
+<tbody>
+<tr class="odd"><td>01&ndash;07</td><td>&mdash;</td><td><a href="#metamagic-enlarge" >Metamagic, </a><i><a href="#metamagic-enlarge" >Enlarge</a>, lesser</i></td><td>3,000 gp</td></tr>
+<tr class="even"><td>08&ndash;14</td><td>&mdash;</td><td><a href="#metamagic-extend" >Metamagic, </a><i><a href="#metamagic-extend" >Extend</a>, lesser</i></td><td>3,000 gp</td></tr>
+<tr class="odd"><td>15&ndash;21</td><td>&mdash;</td><td><a href="#metamagic-silent" >Metamagic, </a><i><a href="#metamagic-silent" >Silent</a>, lesser</i></td><td>3,000 gp</td></tr>
+<tr class="even"><td>22&ndash;28</td><td>&mdash;</td><td><i><a href="#immovable-rod" >Immovable</a></i></td><td>5,000 gp</td></tr>
+<tr class="odd"><td>29&ndash;35</td><td>&mdash;</td><td><a href="#metamagic-empower" >Metamagic, </a><i><a href="#metamagic-empower" >Empower</a>, lesser</i></td><td>9,000 gp</td></tr>
+<tr class="even"><td>36&ndash;42</td><td>&mdash;</td><td><i><a href="#rod-of-metal-and-mineral-detection" >Metal and mineral detection</a></i></td><td>10,500 gp</td></tr>
+<tr class="odd"><td>43&ndash;53</td><td>01&ndash;04</td><td><i><a href="#rod-of-cancellation" >Cancellation</a></i></td><td>11,000 gp</td></tr>
+<tr class="even"><td>54&ndash;57</td><td>05&ndash;06</td><td><a href="#metamagic-enlarge" >Metamagic, </a><i><a href="#metamagic-enlarge" >Enlarge</a></i></td><td>11,000 gp</td></tr>
+<tr class="odd"><td>58&ndash;61</td><td>07&ndash;08</td><td><a href="#metamagic-extend" >Metamagic, </a><i><a href="#metamagic-extend" >Extend</a></i></td><td>11,000 gp</td></tr>
+<tr class="even"><td>62&ndash;65</td><td>09&ndash;10</td><td><a href="#metamagic-silent" >Metamagic, </a><i><a href="#metamagic-silent" >Silent</a></i></td><td>11,000 gp</td></tr>
+<tr class="odd"><td>66&ndash;71</td><td>11&ndash;14</td><td><i><a href="#rod-of-wonder" >Wonder</a></i></td><td>12,000 gp</td></tr>
+<tr class="even"><td>72&ndash;79</td><td>15&ndash;19</td><td><i><a href="#rod-of-the-python" >Python</a></i></td><td>13,000 gp</td></tr>
+<tr class="odd"><td>80&ndash;83</td><td>&mdash;</td><td><a href="#metamagic-maximize" >Metamagic, </a><i><a href="#metamagic-maximize" >Maximize</a>, lesser</i></td><td>14,000 gp</td></tr>
+<tr class="even"><td>84&ndash;89</td><td>20&ndash;21</td><td><i><a href="#rod-of-flame-extinguishing" >Flame extinguishing</a></i></td><td>15,000 gp</td></tr>
+<tr class="odd"><td>90&ndash;97</td><td>22&ndash;25</td><td><i><a href="#rod-of-the-viper" >Viper</a></i></td><td>19,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>26&ndash;30</td><td><i><a href="#rod-of-enemy-detection" >Enemy detection</a></i></td><td>23,500 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>31&ndash;36</td><td><a href="#metamagic-enlarge" >Metamagic, </a><i><a href="#metamagic-enlarge" >Enlarge</a>, greater</i></td><td>24,500 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>37&ndash;42</td><td><a href="#metamagic-extend" >Metamagic, </a><i><a href="#metamagic-extend" >Extend</a>, greater</i></td><td>24,500 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>43&ndash;48</td><td><a href="#metamagic-silent" >Metamagic, </a><i><a href="#metamagic-silent" >Silent</a>, greater</i></td><td>24,500 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>49&ndash;53</td><td><i><a href="#rod-of-splendor" >Splendor</a></i></td><td>25,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>54&ndash;58</td><td><i><a href="#rod-of-withering" >Withering</a></i></td><td>25,000 gp</td></tr>
+<tr class="even"><td>98&ndash;99</td><td>59&ndash;64</td><td><a href="#metamagic-empower" >Metamagic, </a><i><a href="#metamagic-empower" >Empower</a></i></td><td>32,500 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>65&ndash;69</td><td><i><a href="#rod-of-thunder-and-lightning" >Thunder and lightning</a></i></td><td>33,000 gp</td></tr>
+<tr class="even"><td>100</td><td>70&ndash;73</td><td><a href="#metamagic-quicken" >Metamagic, </a><i><a href="#metamagic-quicken" >Quicken</a>, lesser</i></td><td>35,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>74&ndash;77</td><td><i><a href="#rod-of-negation" >Negation</a></i></td><td>37,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>78&ndash;80</td><td><i><a href="#rod-of-absorption" >Absorption</a></i></td><td>50,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>81&ndash;84</td><td><i><a href="#rod-of-flailing" >Flailing</a></i></td><td>50,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>85&ndash;86</td><td><a href="#metamagic-maximize" >Metamagic, </a><i><a href="#metamagic-maximize" >Maximize</a></i></td><td>54,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>87&ndash;88</td><td><i><a href="#rod-of-rulership" >Rulership</a></i></td><td>60,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>89&ndash;90</td><td><i><a href="#rod-of-security" >Security</a></i></td><td>61,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>91&ndash;92</td><td><i><a href="#rod-of-lordly-might" >Lordly might</a></i></td><td>70,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>93&ndash;94</td><td><a href="#metamagic-empower" >Metamagic, </a><i><a href="#metamagic-empower" >Empower</a>, greater</i></td><td>73,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>95&ndash;96</td><td><a href="#metamagic-quicken" >Metamagic, </a><i><a href="#metamagic-quicken" >Quicken</a></i></td><td>75,500 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>97&ndash;98</td><td><i><a href="#rod-of-alertness" >Alertness</a></i></td><td>85,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>99</td><td><a href="#metamagic-maximize" >Metamagic, </a><i><a href="#metamagic-maximize" >Maximize</a>, greater</i></td><td>121,500 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>100</td><td><a href="#metamagic-quicken" >Metamagic, </a><i><a href="#metamagic-quicken" >Quicken</a>, greater</i></td><td>170,000 gp</td></tr></tbody></table></div>
+
+				<p>Rods are scepter-like devices that have unique magical powers and do not usually have charges. Anyone can use a rod.</p>
+				<p><b>Physical Description</b>: Rods weigh approximately 5 pounds. They range from 2 feet to 3 feet long and are usually made of iron or some other metal. (Many, as noted in their descriptions, can function as light maces or clubs due to their hardy construction.) These sturdy items have <a href="../combat.html#_armor-class" >AC</a> 9, 10 hit points, hardness 10, and a break DC of 27.</p>
+				<p><b>Activation</b>: Details relating to rod use vary from item to item. Unless noted otherwise, you must be holding a rod to use its abilities. See the individual descriptions for specifics.</p>
+				<p><b>Special Qualities</b>: Roll d%. A 01 result indicates the rod is intelligent, 02&ndash;31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32&ndash;100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see <a href="intelligentItems.html">Intelligent Items</a>).</p>
+				<p>Rods with charges can never be intelligent.</p>
+				<p id="immovable-rod" class="stat-block-title"><b>Immovable Rod</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation;<b> CL </b>10th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 5,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This rod looks like a flat iron bar with a small button on one end. When the button is pushed (a move action), the rod does not move from where it is, even if staying in place defies gravity. Thus, the owner can lift or place the rod wherever he wishes, push the button, and let go. Several <i>immovable rods </i>can even make a ladder when used together (although only two <span class="grame">are needed</span>). An <i>immovable rod </i>can support up to 8,000 pounds before falling to the ground. If a creature pushes against an <i>immovable rod, </i>it must make a DC 30 Strength check to move the rod up to 10 feet in a single round. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <i><a href="../spells/levitate.html#_levitate" >levitate</a></i>; <b>Cost </b>2,500 gp</p>
+				<p id="metamagic-rods" class="stat-block-title"><b>Metamagic Rods</b></p>
+				<p>Metamagic rods hold the essence of a metamagic feat, allowing the user to apply metamagic effects to spells (but not spell-like abilities) as they are cast. This does not change the spell slot of the altered spell. All the rods described here are use-activated (but casting spells in a threatened area still draws an attack of opportunity). A caster may only use one metamagic rod on any given spell, but it is permissible to combine a rod with metamagic feats possessed by the rod's wielder. In this case, only the feats possessed by the wielder adjust the spell slot of the spell <span class="grame">being cast</span>.</p>
+				<p>Possession of a metamagic rod does not confer the associated feat on the owner, only the ability to use the given feat a specified number of times per day. A sorcerer still must take a full-round action when using a metamagic rod, just as if using a metamagic feat he possesses (except for <i>quicken metamagic rods,</i> which can be used as a swift action).</p>
+				<p><b>Lesser and Greater Metamagic Rods</b>: Normal metamagic rods can be used with spells of 6th level or lower. Lesser rods can be used with spells of 3rd level or lower, while greater rods can be used with spells of 9th level or lower. </p>
+				<p id="metamagic-empower" class="stat-block-title"><b>Metamagic, Empower</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong (no school);<b> CL </b>17th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The wielder can cast up to three spells per day that are empowered as though using the <a href="../feats.html#_empower-spell" >Empower Spell</a> feat. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <a href="../feats.html#_empower-spell" >Empower Spell</a>; <b>Cost </b>4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)</p>
+				<p id="metamagic-enlarge" class="stat-block-title"><b>Metamagic, Enlarge</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong (no school);<b> CL </b>17th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The wielder can cast up to three spells per day that <span class="grame">are enlarged</span> as though using the <a href="../feats.html#_enlarge-spell" >Enlarge Spell</a> feat. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <a href="../feats.html#_enlarge-spell" >Enlarge Spell</a>; <b>Cost </b>1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)</p>
+				<p id="metamagic-extend" class="stat-block-title"><b>Metamagic, Extend</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong (no school);<b> CL </b>17th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The wielder can cast up to three spells per day that <span class="grame">are extended</span> as though using the <a href="../feats.html#_extend-spell" >Extend Spell</a> feat. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <a href="../feats.html#_extend-spell" >Extend Spell</a>; <b>Cost </b>1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)</p>
+				<p id="metamagic-maximize" class="stat-block-title"><b>Metamagic, Maximize</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong (no school);<b> CL </b>17th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 14,000 gp (lesser), 54,000 gp (normal), 121,500 gp (greater); <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The wielder can cast up to three spells per day that <span class="grame">are maximized</span> as though using the <a href="../feats.html#_maximize-spell" >Maximize Spell</a> feat. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <a href="../feats.html#_maximize-spell" >Maximize Spell</a> feat; <b>Cost </b>7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)</p>
+				<p id="metamagic-quicken" class="stat-block-title"><b>Metamagic, Quicken</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong (no school);<b> CL </b>17th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 35,000 gp (lesser), 75,500 gp (normal), 170,000 gp (greater); <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The wielder can cast up to three spells per day that <span class="grame">are quickened</span> as though using the <a href="../feats.html#_quicken-spell" >Quicken Spell</a> feat. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <a href="../feats.html#_quicken-spell" >Quicken Spell</a>; <b>Cost </b>17,500 gp (lesser), 37,750 gp (normal), 85,000 gp (greater)</p>
+				<p id="metamagic-silent" class="stat-block-title"><b>Metamagic, Silent</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong (no school);<b> CL </b>17th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The wielder can cast up to three spells per day without verbal components as though using the <a href="../feats.html#_silent-spell" >Silent Spell</a> feat. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <a href="../feats.html#_silent-spell" >Silent Spell</a>; <b>Cost </b>1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)</p>
+				<p id="rod-of-absorption" class="stat-block-title"><b>Rod of Absorption</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong abjuration;<b> CL </b>15th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 50,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This rod absorbs spells or spell-like abilities into itself. The magic absorbed must be a single-target spell or a ray directed at either the character holding the rod or her gear. The rod then nullifies the spell's effect and stores its potential until the wielder releases this energy in the form of spells of her own. She can instantly detect a spell's level as the rod absorbs that spell's energy. Absorption requires no action on the part of the user if the rod is in hand at the time.</p>
+				<p>A running total of absorbed (and used) spell levels should be kept. The wielder of the rod can use captured spell energy to cast any spell she has prepared, without expending the preparation itself. The only restrictions are that the levels of spell energy stored in the rod must be equal to or greater than the level of the spell the wielder wants to cast, that any material components required for the spell be present, and that the rod be in hand when casting. For casters such as bards or sorcerers who do not prepare spells, the rod's energy can be used to cast any spell of the appropriate level or levels that they know.</p>
+				<p>A <i>rod of absorption</i> absorbs a maximum of 50 spell levels and can thereafter only discharge any remaining potential it might have. The rod cannot be recharged. The wielder knows the rod's remaining absorbing potential and current amount of stored energy.</p>
+				<p>To determine the absorption potential remaining in a newly found rod, roll d% and divide the result by 2. Then roll d% again: on a result of 71&ndash;100, half the levels already absorbed by the rod are still stored within. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <i><a href="../spells/spellTurning.html#_spell-turning" >spell turning</a></i>; <b>Cost </b>25,000 gp</p>
+				<p id="rod-of-alertness" class="stat-block-title"><b>Rod of Alertness</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate abjuration, divination, enchantment, and evocation;<b> CL </b>11th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 85,000 gp; <b>Weight</b> 4 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This rod is indistinguishable from a <i>+1 light mace. </i>It has eight flanges on its mace-like head. The rod bestows a +1 insight bonus on initiative checks. If grasped firmly, the rod enables the holder to use <i><a href="../spells/detectEvil.html#_detect-evil" >detect evil</a>, <a href="../spells/detectGood.html#_detect-good" >detect good</a>, <a href="../spells/detectChaos.html#_detect-chaos" >detect chaos</a>, <a href="../spells/detectLaw.html#_detect-law" >detect law</a></i>, <i><a href="../spells/detectMagic.html#_detect-magic" >detect magic</a>, <a href="../spells/discernLies.html#_discern-lies" >discern lies</a>, <a href="../spells/light.html#_light" >light</a>, </i>or <i><a href="../spells/seeInvisibility.html#_see-invisibility" >see invisibility</a>. </i>Each different use is a standard action.</p>
+				<p>If the head of a <i>rod of alertness</i> is planted in the ground and the possessor wills it to alertness (a standard action), the rod senses any creatures within 120 feet who intend to harm the possessor. At the same time, the rod creates the effect of a <i><a href="../spells/prayer.html#_prayer" >prayer</a></i> spell upon all creatures friendly to the possessor in a 20-foot radius. Immediately thereafter, the rod sends forth a mental alert to these friendly creatures, warning them of any unfriendly creatures within the 120-foot radius. These effects last for 10 minutes, and the rod can perform this function once per day. Last, the rod can be used to simulate the casting of an <i><a href="../spells/animateObjects.html#_animate-objects" >animate objects</a></i> spell, utilizing any 11 (or fewer) Small objects located roughly around the perimeter of a 5-foot-radius circle centered on the rod when planted in the ground. Objects remain animated for 11 rounds. The rod can perform this function once per day. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <i><a href="../spells/alarm.html#_alarm" >alarm</a>, <a href="../spells/animateObjects.html#_animate-objects" >animate objects</a>, <a href="../spells/detectChaos.html#_detect-chaos" >detect chaos</a>, <a href="../spells/detectEvil.html#_detect-evil" >detect evil</a>, <a href="../spells/detectGood.html#_detect-good" >detect good</a>, <a href="../spells/detectLaw.html#_detect-law" >detect law</a>, <a href="../spells/detectMagic.html#_detect-magic" >detect magic</a>, <a href="../spells/discernLies.html#_discern-lies" >discern lies</a>, <a href="../spells/light.html#_light" >light</a>, <a href="../spells/prayer.html#_prayer" >prayer</a>, <a href="../spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i>; <b>Cost </b>42,500 gp</p>
+				<p id="rod-of-cancellation" class="stat-block-title"><b>Rod of Cancellation</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong abjuration;<b> CL </b>17th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 11,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This dreaded rod is a bane to magic items, for its touch drains an item of all magical properties. The item touched must make a DC 23 <a href="../combat.html#_will" >Will</a> save to prevent the rod from draining it. If a creature is holding it at the time, then the item can use the holder's <a href="../combat.html#_will" >Will</a> save bonus in place of its own if the holder's is better. In such cases, contact <span class="grame">is made</span> by making a melee touch attack roll. Upon draining an item, the rod itself becomes brittle and <span class="grame">cannot be used</span> again. Drained items are only restorable by <i><a href="../spells/wish.html#_wish" >wis</a></i><a href="../spells/wish.html#_wish" >h</a> or <i><a href="../spells/miracle.html#_miracle" >miracle</a>. </i>If a <i>sphere of annihilation </i>and a <i>rod of cancellation </i>negate each other, nothing can restore either of them.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <i><a href="../spells/mageSDisjunction.html#_mage-s-disjunction" >mage's disjunction</a></i>; <b>Cost </b>5,500 gp</p>
+				<p id="rod-of-enemy-detection" class="stat-block-title"><b>Rod of Enemy Detection</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate divination;<b> CL </b>10th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 23,500 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This device pulses in the wielder's hand and points in the direction of any creature or creatures hostile to the bearer of the device (nearest ones first). These creatures can be invisible, ethereal, hidden, disguised, or in plain sight. Detection range is 60 feet. If the bearer of the rod concentrates for a full round, the rod pinpoints the location of the nearest enemy and indicates how many enemies are within range. The rod <span class="grame">can be used</span> to pinpoint three times each day, each use lasting up to 10 minutes. Activating the rod is a standard action. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <i><a href="../spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <b>Cost </b>11,750 gp</p>
+				<p id="rod-of-flailing" class="stat-block-title"><b>Rod of Flailing</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate enchantment;<b> CL </b>9th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 50,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Upon the command of its possessor, the rod activates, changing from a normal-seeming rod to a <i>+3/+3 dire flail</i>. The dire flail is a double weapon, which means that each of the weapon's heads <span class="grame">can be used</span> to attack. The wielder can gain an extra attack (with the second head) at the cost of making all attacks at a &ndash;2 penalty (as if she had the <a href="../feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a> feat).</p>
+				<p>Once per day, the wielder can use a free action to cause the rod to grant her a +4 deflection bonus to <a href="../combat.html#_armor-class" >Armor Class</a> and a +4 resistance bonus on saving throws for 10 minutes. The rod need not be in weapon form to grant this benefit.</p>
+				<p>Transforming it into a weapon or back into a rod is a move action. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <a href="../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../spells/bless.html#_bless" >bless</a></i>; <b>Cost </b>25,000 gp</p>
+				<p id="rod-of-flame-extinguishing" class="stat-block-title"><b>Rod of Flame Extinguishing</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong transmutation;<b> CL </b>12th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 15,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This rod can extinguish Medium or smaller nonmagical fires with simply a touch (a standard action). For the rod to be effective against other sorts of fires, the wielder must expend 1 or more of the rod's charges.</p>
+				<p>Extinguishing a Large or larger nonmagical fire, or a magic fire of Medium or smaller (such as that of a <i>flaming</i> weapon or a <i><a href="../spells/burningHands.html#_burning-hands" >burning hands</a></i> spell), expends 1 charge. Continual magic flames, such as those of a weapon or a fire creature, are suppressed for 6 rounds and flare up again after that time. To extinguish an instantaneous fire spell, the rod must be within the area of the effect and the wielder must have used a ready action, effectively countering the entire spell.</p>
+				<p>When applied to Large or larger magic fires, such as those caused by <i><a href="../spells/fireball.html#_fireball" >fireball</a>, <a href="../spells/flameStrike.html#_flame-strike" >flame strike</a>, </i>or <i><a href="../spells/wallOfFire.html#_wall-of-fire" >wall of fire</a>, </i>extinguishing the flames expends 2 charges from the rod.</p>
+				<p>If a <i>rod of flame extinguishing</i> is touched to a creature with the fire subtype by making a successful melee touch attack, the rod deals 6d6 points of damage to the creature. This use requires 3 charges.</p>
+				<p>A <i>rod of flame extinguishing</i> has 10 charges when found. Spent charges are renewed every day, so that a wielder can expend up to 10 charges in any 24-hour period. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <i><a href="../spells/pyrotechnics.html#_pyrotechnics" >pyrotechnics</a></i>; <b>Cost </b>7,500 gp</p>
+				<p id="rod-of-lordly-might" class="stat-block-title"><b>Rod of Lordly Might</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong enchantment, evocation, necromancy, and transmutation;<b> CL </b>19th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 70,000 gp; <b>Weight</b> 10 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This rod has functions that are spell-like, and it can also be used as a magic weapon of various sorts. In addition, it has several more mundane uses. The <i>rod of lordly might </i>is metal, thicker than other rods, with a flanged ball at one end and six stud-like buttons along its length. Pushing any of the rod's buttons is an action equivalent to drawing a weapon, and the rod weighs 10 pounds.</p>
+				<p>The following spell-like functions of the rod can each be used once per day.</p>
+				<ul><li> <i><a href="../spells/holdPerson.html#_hold-person" >Hold person</a></i> upon a touched creature, if the wielder so commands (<a href="../combat.html#_will" >Will</a> DC 14 negates). The wielder must choose to use this power (a free action) and then succeed on a melee touch attack to activate the power. If the attack fails, the effect is lost.</li>
+				<li> <i><a href="../spells/fear.html#_fear" >Fear</a></i> upon all enemies viewing it, if the wielder so desires (10-foot maximum range, <a href="../combat.html#_will" >Will</a> DC 16 partial). Invoking this power is a standard action.</li>
+				<li> Deal 2d4 hit points of damage to an opponent on a successful touch attack (<a href="../combat.html#_will" >Will</a> DC 17 half) and cure the wielder of the same amount of damage. The wielder must choose to use this power before attacking, as with <i><a href="../spells/holdPerson.html#_hold-person" >hold person</a></i>.</li></ul>
+				<p>The following functions of the rod have no limit on the number of times they can be employed.</p>
+				<ul><li> In its normal form, the rod can be used as a <i>+2 light mace.</i></li>
+				<li> When button 1 is pushed, the rod becomes a <i>+1 flaming longsword.</i> A blade springs from the ball, with the ball itself becoming the sword's hilt. The weapon stretches to an overall length of 4 feet.</li>
+				<li> When button 2 is pushed, the rod becomes a <i>+4 battleaxe.</i> A wide blade springs forth at the ball, and the whole lengthens to 4 feet.</li>
+				<li> When button 3 is pushed, the rod becomes a <i>+3 shortspear</i> or <i>+3 longspear.</i> The spear blade springs forth, and the handle can be lengthened up to 12 feet (wielder's choice) for an overall length ranging from 6 feet to 15 feet. At its 15-foot length, the rod is suitable for use as a lance.</li></ul>
+				<p>The following other functions of the rod also have no limit on the number of times they can be employed.</p>
+				<ul><li> Climbing pole/ladder. When button 4 is pushed, a spike that can anchor in stone is extruded from the ball, while the other end sprouts three sharp hooks. The rod lengthens to anywhere between 5 and 50 feet in a single round, stopping when button 4 is pushed again. Horizontal bars 3 inches long fold out from the sides, 1 foot apart, in staggered progression. The rod is firmly held by the spike and hooks and can bear up to 4,000 pounds. The wielder can retract the pole by pushing button 5.</li>
+				<li> The ladder function can be used to force open doors. The wielder plants the rod's base 30 feet or less from the portal to be forced and in line with it, then pushes button 4. The force exerted has a Strength modifier of +12.</li>
+				<li> When button 6 is pushed, the rod indicates magnetic north and gives the wielder knowledge of his approximate depth beneath the surface or height above it. </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <a href="../feats.html#_craft-rod" >Craft Rod</a><i>, <a href="../spells/bullSStrength.html#_bull-s-strength" >bull's strength</a>, <a href="../spells/fear.html#_fear" >fear</a>, <a href="../spells/flameBlade.html#_flame-blade" >flame blade</a>, <a href="../spells/holdPerson.html#_hold-person" >hold person</a></i>, <i><a href="../spells/inflictLightWounds.html#_inflict-light-wounds" >inflict light wounds</a></i>; <b>Cost </b>35,000 gp</p>
+				<p id="rod-of-metal-and-mineral-detection" class="stat-block-title"><b>Rod of Metal and Mineral Detection</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate divination;<b> CL </b>9th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 10,500 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This rod is valued by treasure hunters and miners alike, for it pulses and hums in the wielder's hand in the proximity of metal. As the wearer aims the rod, the pulsations grow more noticeable as it points to the largest mass of metal within 30 feet. However, the wielder can concentrate on a specific metal or mineral. If the specific mineral is within 30 feet, the rod points to any places it is located, and the rod wielder knows the approximate quantity as well. If more than one deposit of the specified metal or mineral is within range, the rod points to the largest cache first. Each operation requires a full-round action. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <i><a href="../spells/locateObject.html#_locate-object" >locate object</a></i>; <b>Cost </b>5,250 gp</p>
+				<p id="rod-of-negation" class="stat-block-title"><b>Rod of Negation</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong varied;<b> CL </b>15th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 37,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This device negates the spell or spell-like function or functions of magic items. The wielder points the rod at the magic item, and a pale gray beam shoots forth to touch the target device, attacking as a ray (a ranged touch attack). The ray functions as a <i><a href="../spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a> </i>spell, except it only affects magic items. To negate instantaneous effects from an item, the rod wielder needs to have a readied action. The dispel check uses the rod's caster level (15th). The target item gets no saving throw, although the rod <span class="grame">can't</span> negate artifacts (even minor artifacts). The rod can function three times per day. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <i><a href="../spells/dispelMagic.html#_dispel-magic" >dispel magic</a>,</i> and <i><a href="../spells/limitedWish.html#_limited-wish" >limited wish</a></i> or <i><a href="../spells/miracle.html#_miracle" >miracle</a></i>; <b>Cost </b>18,500 gp</p>
+				<p id="rod-of-the-python" class="stat-block-title"><b>Rod of the Python</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation;<b> CL </b>10th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 13,000 gp; <b>Weight</b> 10w lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Unlike most rods, one end of this rod curls and twists back on itself in a crook&mdash;the tip of this crook sometimes looks like the head of a snake. The rod itself is about 4 feet long and weighs 10 pounds. It strikes as a <i>+1/+1 quarterstaff</i>. If the user throws the rod to the ground (a standard action), it grows to become a constrictor snake by the end of the round. The python obeys all commands of the owner. (In animal form, it retains the +1 enhancement bonus on attacks and damage possessed by the rod form.) The serpent returns to rod form (a full-round action) whenever the wielder desires, or whenever it moves farther than 100 feet from the owner. If the snake form <span class="grame">is slain</span>, it returns to rod form and cannot be activated again for three days. A <i>rod of the</i> <i>python </i>only functions if the possessor is good. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <a href="../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../spells/balefulPolymorph.html#_baleful-polymorph" >baleful polymorph</a>,</i> creator must be good; <b>Cost </b>6,500 gp</p>
+				<p id="rod-of-rulership" class="stat-block-title"><b>Rod of Rulership</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong enchantment;<b> CL </b>20th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 60,000 gp; <b>Weight</b> 8 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This rod looks like a royal scepter worth at least 5,000 gp in materials and workmanship alone. The wielder can command the obedience and fealty of creatures within 120 feet when she activates the device (a standard action). Creatures totaling 300 Hit Dice <span class="grame">can be ruled</span>, but creatures with <a href="../gettingStarted.html#_intelligence" >Intelligence</a> scores of 12 or higher are each entitled to a DC 16 <a href="../combat.html#_will" >Will</a> save to negate the effect. Ruled creatures obey the wielder as if she were their absolute sovereign. Still, if the wielder gives a command that is contrary to the nature of the creatures commanded, the magic is broken. The rod <span class="grame">can be used</span> for 500 total minutes before crumbling to dust. This duration need not be continuous. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <i><a href="../spells/charmMonster.html#_charm-monster-mass" >mass charm monster</a></i>; <b>Cost </b>32,500 gp</p>
+				<p id="rod-of-security" class="stat-block-title"><b>Rod of Security</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong conjuration;<b> CL </b>20th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 61,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This item creates a nondimensional space, a pocket paradise. There the rod's possessor and as many as 199 other creatures can stay in complete safety for a period of time, up to 200 days divided by the number of creatures affected. All fractions are rounded down. In this pocket paradise, creatures don't age, and natural healing takes place at twice the normal rate. Fresh water and food (fruits and vegetables only) are in abundance. The climate is comfortable for all creatures involved.</p>
+				<p>Activating the rod (a standard action) causes the wielder and all creatures touching the rod to be transported instantaneously to the paradise. Members of large groups can hold hands or otherwise maintain physical contact, allowing all connected creatures in a circle or a chain to be affected by the rod. Unwilling creatures get a DC 17 <a href="../combat.html#_will" >Will</a> save to negate the effect. If such a creature succeeds on its save, other creatures beyond that point in a chain can still be affected by the rod.</p>
+				<p>When the rod's effect expires, is dismissed, or is dispelled, all the affected creatures instantly reappear in the location they occupied when the rod was activated. If something else occupies the space that a traveler would be returning to, then his body is displaced a sufficient distance to provide the space required for reentry. The rod's possessor can dismiss the effect whenever he wishes before the maximum time period expires, but the rod can only be activated once per week. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <i><a href="../spells/gate.html#_gate" >gate</a></i>; <b>Cost </b>30,500 gp</p>
+				<p id="rod-of-splendor" class="stat-block-title"><b>Rod of Splendor</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong conjuration and transmutation;<b> CL </b>12th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 25,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The possessor of this fantastically bejeweled rod gains a +4 enhancement bonus to her <a href="../gettingStarted.html#_charisma-new" >Charisma</a> score for as long as she holds or carries the item. Once per day, the rod garbs her in magically created clothing of the finest fabrics, plus adornments of furs and jewels. </p>
+				<p>Apparel created by the magic of the rod remains in existence for 12 hours. However, if the possessor attempts to sell or give away any part of it, use it for a spell component, or the like, all the apparel immediately disappears. The same applies if any of it is forcibly taken from her.</p>
+				<p>The value of noble garb created by the rod ranges from 7,000 to 10,000 gp (1d4+6 &times; 1,000 gp)&mdash;1,000 gp for the fabric alone, 5,000 gp for the furs, and the rest for the jewel trim (maximum of twenty gems, maximum value 200 gp each).</p>
+				<p>In addition, the rod has a second special power, usable once per week. Upon command, it creates a palatial tent&mdash;a huge pavilion of silk 60 feet across. Inside the tent are temporary furnishings and food suitable to the splendor of the pavilion and sufficient to entertain as many as 100 people. The tent and its trappings last for 1 day. At the end of that time, the tent and all objects associated with it (including any items that were taken out of the tent) disappear. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <i><a href="../spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a>, <a href="../spells/fabricate.html#_fabricate" >fabricate</a>, <a href="../spells/majorCreation.html#_major-creation" >major creation</a></i>; <b>Cost </b>12,500 gp</p>
+				<p id="rod-of-thunder-and-lightning" class="stat-block-title"><b>Rod of Thunder and Lightning</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate evocation;<b> CL </b>9th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 33,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Constructed of iron set with silver rivets, this rod has the properties of a <i>+2 light mace</i>. Its other powers are as follows.</p>
+				<ul><li> <b>Thunder</b>: Once per day, the rod can strike as a <i>+3 light mace,</i> and the opponent struck is <a href="../glossary.html#_stunned" >stunned</a> from the noise of the rod's impact (<a href="../combat.html#_fortitude" >Fortitude</a> DC 16 negates). Activating this sonic power counts as a free action, and it works if the wielder strikes an opponent within 1 round.</li>
+				<li> <b>Lightning</b>: Once per day, when the wielder desires, a short spark of electricity can leap forth when the rod strikes an opponent to deal the normal damage for a <i>+2 light mace</i> (1d6+2) and an extra 2d6 points of electricity damage. Even when the rod might not score a normal hit in combat, if the roll was good enough to count as a successful melee touch attack, then the 2d6 points of electricity damage still apply. The wielder activates this power as a free action, and it works if he strikes an opponent within 1 round.</li>
+				<li> <b>Thunderclap</b>: Once per day as a standard action, the wielder can cause the rod to give out a deafening noise, just as a <i><a href="../spells/shout.html#_shout" >shout</a></i> spell (<a href="../combat.html#_fortitude" >Fortitude</a> DC 16 partial, 2d6 points of sonic damage, target <a href="../glossary.html#_deafened" >deafened</a> for 2d6 rounds).</li>
+				<li> <b>Lightning Stroke</b>: Once per day as a standard action, the wielder can cause the rod to shoot out a 5-foot-wide <i><a href="../spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a></i> (9d6 points of electricity damage, <a href="../combat.html#_reflex" >Reflex</a> DC 16 half) to a range of 200 feet.</li>
+				<li> <b>Thunder and Lightning</b>: Once per week as a standard action, the wielder of the rod can combine the thunderclap described above with a <i><a href="../spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a>,</i> as in the lightning stroke. The thunderclap affects all within 10 feet of the bolt. The lightning stroke deals 9d6 points of electricity damage (count rolls of 1 or 2 as rolls of 3, for a range of 27 to 54 points), and the thunderclap deals 2d6 points of sonic damage. A single DC 16 <a href="../combat.html#_reflex" >Reflex</a> save applies for both effects. </li></ul>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <a href="../feats.html#_craft-rod" >Craft Rod</a>, <i><a href="../spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a></i>, <i><a href="../spells/shout.html#_shout" >shout</a></i>; <b>Cost </b>16,500 gp</p>
+				<p id="rod-of-the-viper" class="stat-block-title"><b>Rod of the Viper</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate necromancy;<b> CL </b>10th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 19,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This rod strikes as a <i>+2 heavy mace</i>. Once per day, upon command, the head of the rod becomes that of an actual serpent for 10 minutes. During this period, any successful strike with the rod deals its usual damage <span class="grame">and also</span> poisons the creature hit. This poison deals 1d3 <a href="../gettingStarted.html#_constitution" >Constitution</a> damage per round for 6 rounds. Poisoned creatures can make a DC 16 <a href="../combat.html#_fortitude" >Fortitude</a> save each round to negate the damage and end the affliction. Multiple hits extend the duration by 3 rounds and increase the DC by +2 for each hit. The rod only functions if its possessor is evil. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <a href="../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../spells/poison.html#_poison" >poison</a></i>, creator must be evil; <b>Cost </b>9,500 gp</p>
+				<p id="rod-of-withering" class="stat-block-title"><b>Rod of Withering</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong necromancy;<b> CL </b>13th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 25,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>A <i>rod of withering </i>acts as a <i>+1 light mace </i>that deals no hit point damage. Instead, the wielder deals 1d4 points of Strength damage and 1d4 points of <a href="../gettingStarted.html#_constitution" >Constitution</a> damage to any creature she touches with the rod (by making a melee touch attack). If she scores a critical hit, the damage from that hit is permanent ability drain. In either case, the defender negates the effect with a DC 17 <a href="../combat.html#_fortitude" >Fortitude</a> save. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <a href="../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../spells/contagion.html#_contagion" >contagion</a></i>; <b>Cost </b>12,500 gp</p>
+				<p id="rod-of-wonder" class="stat-block-title"><b>Rod of Wonder</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate enchantment;<b> CL </b>10th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 12,000 gp; <b>Weight</b> 5 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>A <i>rod of wonder </i>is a strange and unpredictable device that randomly generates any number of weird effects each time it is used. Activating the rod is a standard action. Typical powers of the rod include the following.</p><table>
+<thead><tr><th>d%</th><th>Wondrous Effect</th></tr></thead>
+<tbody>
+<tr class="odd"><td>01&ndash;05</td><td style="white-space:normal;"><i>Slow </i>target for 10 rounds (<a href="../combat.html#_will" >Will</a> DC 15 negates).</td></tr>
+<tr class="even"><td>06&ndash;10</td><td style="white-space:normal;"><i><a href="../spells/faerieFire.html#_faerie-fire" >Faerie fire</a> </i>surrounds the target.</td></tr>
+<tr class="odd"><td>11&ndash;15</td><td style="white-space:normal;"><span class="grame">Deludes wielder for 1 round into believing the rod functions as indicated by a second die roll (no save).</span></td></tr>
+<tr class="even"><td>16&ndash;20</td><td style="white-space:normal;"><i><a href="../spells/gustOfWind.html#_gust-of-wind" >Gust of wind</a>, </i>but at windstorm force (<a href="../combat.html#_fortitude" >Fortitude</a> DC 14 negates).</td></tr>
+<tr class="odd"><td>21&ndash;25</td><td style="white-space:normal;">Wielder learns target's surface thoughts (as with <i><a href="../spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a>) </i>for 1d4 rounds (no save).</td></tr>
+<tr class="even"><td>26&ndash;30</td><td style="white-space:normal;"><i><a href="../spells/stinkingCloud.html#_stinking-cloud" >Stinking cloud</a></i> appears at 30-ft. range (<a href="../combat.html#_fortitude" >Fortitude</a> DC 15 negates).</td></tr>
+<tr class="odd"><td>31&ndash;33</td><td style="white-space:normal;">Heavy rain falls for 1 round in 60-ft. radius centered on rod wielder.</td></tr>
+<tr class="even"><td>34&ndash;36</td><td style="white-space:normal;">Summon an animal&mdash;a rhino (01&ndash;25 on <span class="grame">d%</span>), elephant (26&ndash;50), or mouse (51&ndash;100).</td></tr>
+<tr class="odd"><td>37&ndash;46</td><td style="white-space:normal;"><i><a href="../spells/lightningBolt.html#_lightning-bolt" >Lightning bolt</a></i><span class="grame"> (70 ft. long, 5 ft. wide), 6d6 damage (</span><a href="../combat.html#_reflex" >Reflex</a><span class="grame"> DC 15 half).</span></td></tr>
+<tr class="even"><td>47&ndash;49</td><td style="white-space:normal;">A stream of 600 large butterflies pours forth and flutters around for 2 rounds, blinding everyone within 25 ft. (<a href="../combat.html#_reflex" >Reflex</a> DC 14 negates).</td></tr>
+<tr class="odd"><td>50&ndash;53</td><td style="white-space:normal;"><i><a href="../spells/enlargePerson.html#_enlarge-person" >Enlarge person</a></i> on target if within 60 ft. of rod (<a href="../combat.html#_fortitude" >Fortitude</a> DC 13 negates).</td></tr>
+<tr class="even"><td>54&ndash;58</td><td style="white-space:normal;"><i><a href="../spells/darkness.html#_darkness" >Darkness</a></i>, 30-ft.-diameter hemisphere, centered 30 ft. away from rod.</td></tr>
+<tr class="odd"><td>59&ndash;62</td><td style="white-space:normal;">Grass grows in 160-square-ft. area before the rod, or grass existing there grows to 10 <span class="grame">times</span> normal size.</td></tr>
+<tr class="even"><td>63&ndash;65</td><td style="white-space:normal;">Turn ethereal any nonliving object of up to 1,000 lbs. mass and up to 30 cubic ft. in size.</td></tr>
+<tr class="odd"><td>66&ndash;69</td><td style="white-space:normal;">Reduce wielder two size categories (no save) for 1 day.</td></tr>
+<tr class="even"><td>70&ndash;79</td><td style="white-space:normal;"><i><a href="../spells/fireball.html#_fireball" >Fireball</a></i><span class="grame"> at target or 100 ft. straight ahead, 6d6 damage (</span><a href="../combat.html#_reflex" >Reflex</a><span class="grame"> DC 15 half).</span></td></tr>
+<tr class="odd"><td>80&ndash;84</td><td style="white-space:normal;"><i><a href="../spells/invisibility.html#_invisibility" >Invisibility</a> </i>covers rod wielder.</td></tr>
+<tr class="even"><td>85&ndash;87</td><td style="white-space:normal;">Leaves grow from target if within 60 ft. of rod. <span class="grame">These last 24 hours.</span></td></tr>
+<tr class="odd"><td>88&ndash;90</td><td style="white-space:normal;">10&ndash;40 gems, value 1 gp each, shoot forth in a 30-ft.-long stream. Each gem deals 1 point of damage to any creature in its path: roll 5d4 for the number of hits and divide them among the available targets.</td></tr>
+<tr class="even"><td>91&ndash;95</td><td style="white-space:normal;">Shimmering colors dance and play over a 40-ft.-by-30-ft. area in front of rod. Creatures therein <span class="grame">are </span><a href="../glossary.html#_blinded" >blinded</a> for 1d6 rounds (<a href="../combat.html#_fortitude" >Fortitude</a> DC 15 negates).</td></tr>
+<tr class="odd"><td>96&ndash;97</td><td style="white-space:normal;">Wielder (50% chance) or target (50% chance) turns permanently blue, green, or purple (no save).</td></tr>
+<tr class="even"><td>98&ndash;100</td><td style="white-space:normal;"><i><a href="../spells/fleshToStone.html#_flesh-to-stone" >Flesh to stone</a> </i>(or <i><a href="../spells/stoneToFlesh.html#_stone-to-flesh" >stone to flesh</a> </i>if target is stone already) if target is within 60 ft. (<a href="../combat.html#_fortitude" >Fortitude</a> DC 18 negates). </td></tr></tbody></table>
+
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-rod" >Craft Rod</a>, <i><a href="../spells/confusion.html#_confusion" >confusion</a></i>, creator must be chaotic; <b>Cost </b>6,000 gp</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

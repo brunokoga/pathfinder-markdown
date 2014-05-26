@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Dhampirs</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Dhampirs",globalNavPath=[{ href: '/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html', name: 'Featured Races'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body">
+
+<h1 id="dhampirs">Dhampirs</h1>
+<p>The half-living children of vampires birthed by human females, dhampirs are progenies of both horror and tragedy. The circumstances of a dhampir's conception are often called into question but scarcely understood, as few mortal mothers survive the childbirth. Those who do often abandon their monstrous children and refuse to speak of the matter. While some speculate that dhampirs result when mortal women couple with vampires, others claim that they form when a pregnant woman suffers a vampire bite. Some particularly zealous scholars even contest dhampirs' status as a unique race, instead viewing them as humans suffering from an unholy affliction. Indeed, this hypothesis is strengthened by dhampirs' seeming inability to reproduce, their offspring inevitably humans (usually sorcerers with the undead bloodline). Regardless, they live and die just like any other mortal creatures, despite possessing a supernatural longevity akin to that of elves. </p>
+<p>Hardship and suffering fill a dhampir's formative years. Most grow up as orphans, and despite their exquisite features and innate charm, they face a lifetime of prejudice, mistrust, fear, and persecution. Humans who witness the seemingly sinister nature of a dhampir child's supernatural powers or sensitivity to daylight display an array of reactions ranging from awe to terror to outright hatred. Eventually, a dhampir must learn to cope with these difficulties in order to find his place in the world. While most dhampirs succumb to the innate evil of their undead heritage and devolve into the monstrous fiends depicted by society, a few reject their unholy conceptions, instead vowing to avenge their mothers by hunting the very creatures that sired them. </p>
+<p>Dhampirs keep few, if any, close companions. Ultimately, the majority of evil dhampirs regard their allies as little more than tools or fodder. Those whom they deem useful are judged by their merits as individuals, not by their race. However, even with those they feel attached to, most dhampirs are sullen and reserved. Some fear the persecution heaped upon them may be transferred to their companions, whereas others worry their own bloodlust will one day overwhelm them and they'll inadvertently turn upon their friends. In any case, an alliance with a dhampir almost always leads to an ill-fated conclusion.</p>
+<p><b>Physical Description</b>: Tall and slender and with well-defined musculature, dhampirs look like statuesque humans of unearthly beauty. Their hair, eye, and skin colors resemble unnerving versions of their mothers'; many possess a ghastly pallor, particularly in the sunlight, while those with dark complexions often possess skin the color of a bruise.</p>
+<p>While many dhampirs can pass as humans in ideal conditions, their features are inevitably more pronounced and they move with an unnaturally fluid grace. All dhampirs have elongated incisors. While not true fangs, these teeth are sharp enough to draw blood, and many suffer a reprehensible desire to indulge in sanguinary delights, despite the fact that the act provides most no physical benefit. </p>
+<p><b>Society</b>: Dhampirs have no culture of their own, nor do they have any known lands or even communities. Often born in secret and abandoned at orphanages or left to die on the outskirts of town, they tend to live solitary lives as exiles and outcasts. Individuals acquire the cultural beliefs and teachings of the regions in which they grew up, and adopt additional philosophies over the course of their complex lives. This ability to adapt to a verity of circumstances provides dhampirs with a social camouflage that hides them from both predators and prey. </p>
+<p>In rare instances, dhampirs might gather to form small groups or cabals dedicated to resolving their joint issues. Even so, the philosophies of such groups reflect the interests of the individuals involved, not any common dhampir culture. </p>
+<p><b>Relations</b>: As dhampirs are scions of evil, few races view them favorably. They share an affinity for those half-breeds whose sinister ancestry also sets them apart from human society, particularly tieflings and half-orcs. Humans view them with a combination of fear and pity, though such feelings often devolve into hatred and violence. Other humanoid races, such as dwarves, elves, and halflings, simply shun them. Similarly, dhampirs bear a deep-seeded loathing for living creatures, their hatred planted by jealousy and fed by frustration.</p>
+<p><b>Alignment and Religion</b>: Most dhampirs succumb to the evil within their blood. They are unnatural creatures, and the foul influence of their undead heritage makes an evil outlook difficult to overcome. Those who struggle against their wicked natures rarely progress beyond a neutral outlook. </p>
+<p><b>Adventurers</b>: The life of an adventurer comes naturally to most dhampirs, since constant persecution condemns many to spend their days wandering. Evil dhampirs keep moving to maintain their secrecy and evade lynch mobs, while those who follow the path of vengeance venture forth in search of their despised fathers. Regardless of their reasons, most dhampirs simply feel more at home on the road than in a settlement. Having little formal training, a great many of these journeyers become fighters and rogues.</p>
+<p>Almost universally, those inclined toward magic pursue the field of necromancy, though dhampir alchemists have been known to obsess over transforming their own bodies. Those who feel the call of the hunt often become inquisitors. </p>
+<p><b>Names</b>: Lacking a culture and unified traditions, dhampirs share humans' predilection for a diversity of names, and most keep their human birth names. Many dhampirs take their mother's surname, while others take the surname of the towns or regions in which they were born, or use a surname derived from a significant event.  </p>
+
+<h1 id="dhampir-racial-traits">Dhampir Racial Traits</h1>
+<p id="+2-dexterity,-+2-charisma,--2-constitution"><b>+2 Dexterity, +2 Charisma, &ndash;2 Constitution</b>: Dhampirs are fast and seductive, but their racial bond to the undead impedes their mortal vigor.</p>
+<p id="dhampir"><b>Dhampir</b>: Dhampirs are humanoids with the dhampir subtype.</p>
+<p id="medium"><b>Medium</b>: Dhampirs are Medium creatures and have no bonuses or penalties due to their size.</p>
+<p id="normal-speed"><b>Normal Speed</b>: Dhampirs have a base speed of 30 feet.</p>
+<p id="senses"><b>Senses</b>: Low-light vision and darkvision 60 feet. </p>
+<p id="manipulative"><b>Manipulative</b>: +2 racial bonus on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> and <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>. </p>
+<p id="undead-resistance"><b>Undead Resistance</b>: Dhampirs gain a +2 racial bonus on saving throws against disease and mind-affecting effects. </p>
+<p id="light-sensitivity"><b>Light Sensitivity</b>: Dhampirs are dazzled in areas of bright sunlight or within the radius of a <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a> </i>spell.</p>
+<p id="negative-energy-affinity"><b>Negative Energy Affinity</b>: Though a living creature, a dhampir reacts to positive and negative energy as if it were undead&mdash;positive energy harms it, while negative energy heals it.</p>
+<p id="spell-like-ability"><b>Spell-Like Ability</b>: A dhampir can use <i><a href="/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead" >detect undead</a></i> three times per day as a spell-like ability. The caster level for this ability equals the dhampir's class level. </p>
+<p id="resist-level-drain"><b>Resist Level Drain (Ex)</b>: A dhampir takes no penalties from energy drain effects, though he can still be killed if he accrues more negative levels then he has Hit Dice. After 24 hours, any negative levels a dhampir takes are removed without the need for an additional saving throw. </p>
+<p id="languages"><b>Languages</b>: Dhampirs begin play speaking Common. Those with high Intelligence scores can choose any language it wants (except secret languages, such as Druidic).</p>
+
+<h1 id="alternate-racial-traits">Alternate Racial Traits</h1>
+<p>The following racial traits may be selected instead of existing dhampir racial traits. Consult your GM before selecting any of these new options.</p>
+<p id="dayborn"><b>Dayborn</b>: A few fortunate dhampirs were born during the day under the blessings of priests, and their blood has weaker ties to their undead bloodline than others of their kind. Such dhampirs are unhindered by daylight and lose the light sensitivity racial trait. This racial trait replaces the spell-like ability racial trait. </p>
+<p id="fangs"><b>Fangs</b>: On occasion, a dhampir may inherit his father's lengthy canines. Whenever the dhampir makes a grapple combat maneuver check to damage an opponent, he can choose to bite his opponent, dealing 1d3 points of damage as if using a natural bite attack. As a standard action, the dhampir can bite a creature that is bound, helpless, paralyzed, or similarly unable to defend itself. This racial trait replaces the spell-like ability racial trait. </p>
+<p id="vampiric-empathy"><b>Vampiric Empathy</b>: Though dhampirs often relate poorly to humanoids, some share an affinity with baser creatures. These dhampirs gain the ability to communicate with bats, rats, and wolves as if under the effects of a <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a> </i>spell (caster level equal to 1/2 the dhampir's Hit Dice). In addition, they gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks when dealing with these animals. Whenever these dhampirs initiate an exchange, animals begin with a starting attitude of indifferent. This is a supernatural ability. This racial trait replaces manipulative.</p>
+
+<h1 id="favored-class-options">Favored Class Options</h1>
+<p>The following options are available to all dhampirs who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.</p>
+<p id="alchemist"><b>Alchemist</b>: Add +10 minutes to the duration of the alchemist's mutagens.</p>
+<p id="cleric"><b>Cleric</b>: Add +1 to the caster level of any channeling feat used to affect undead.</p>
+<p id="fighter"><b>Fighter</b>: Add a +2 bonus on rolls to stabilize when dying.</p>
+<p id="inquisitor"><b>Inquisitor</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks to demoralize humanoids.</p>
+<p id="rogue"><b>Rogue</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks and <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks made in dim light or darkness.</p>
+<p id="sorcerer"><b>Sorcerer</b>: Add +1/2 point of negative energy damage to spells that deal negative energy damage.</p>
+<p id="wizard"><b>Wizard</b>: Add +1/4 to the wizard's caster level when casting spells of the necromancy school.</p>
+
+<h1 id="racial-archetypes">Racial Archetypes</h1>
+<p>The following racial archetypes are available to dhampirs.</p>
+
+<h2 id="cruoromancer-(wizard)">Cruoromancer (Wizard)</h2>
+<p>To those who know how to manipulate it, the blood of a dhampir can be a powerful component to magic. A cruoromancer infuses his necromantic magic with the power of his unique mixture of living blood and undead ichor. As his power increases in this strange arcane art, a cruoromancer finds potent ways to infuse his unique blood with necromancy spells. A cruoromancer has the following class features.</p>
+<p id="blood-infusion"><b>Blood Infusion (Su)</b>: When a cruoromancer casts a spell of the necromancy school, he can opt to infuse that spell with his undead-tainted blood as a swift action. As he increases in level, the power and effects of such infusions become more potent. Each time a cruoromancer uses blood infusion, he drains a portion of his own blood either by cutting himself with a blade or by opening a scab from a previous wound. When he does this, he takes an amount of damage equal to 1d4 + the level of the spell being infused. A cruoromancer can only affect a spell with a single type of blood infusion. At 1st level, he can infuse his necromancy spells in either of the following ways. </p>
+<blockquote>
+<p id="focused-infusion:"><i>Focused Infusion:</i> When the cruoromancer uses this infusion, he adds +1 to the DC of the infused necromancy spell. </p>
+<p id="sickening-infusion"><i>Sickening Infusion</i>: When the cruoromancer uses this infusion, any creature damaged by the infused necromancy spell becomes sickened for 1 round. </p>
+<p>This ability replaces arcane bond.</p>
+</blockquote>
+<p id="blood-command"><b>Blood Command (Su)</b>: At 5th level, a cruoromancer can control up to 5 Hit Dice worth of undead creatures per caster level instead of the normal 4 Hit Dice of undead when casting the <i><a href="/pathfinderRPG/prd/spells/animateDead.html#_animate-dead" >animate dead</a></i> spell. He also gains the following blood infusion ability.</p>
+<blockquote>
+<p id="commanding-infusion"><i>Commanding Infusion</i>: When using this infusion with <i><a href="/pathfinderRPG/prd/spells/animateDead.html#_animate-dead" >animate dead</a></i>, the cruoromancer can create a number of Hit Dice of undead equal to three times his caster level instead of twice his caster level.</p>
+<p>This ability replaces the 5th-level wizard bonus feat. </p>
+</blockquote>
+<p id="blood-desecration"><b>Blood Desecration (Su)</b>: At 10th level, a cruoromancer gains the following blood infusion. </p>
+<blockquote>
+<p id="desecrating-infusion"><i>Desecrating Infusion</i>: When the cruoromancer uses this infusion, he can choose to center a <i><a href="/pathfinderRPG/prd/spells/desecrate.html#_desecrate" >desecrate</a></i> effect on himself or a single target of the spell modified by this infusion (he chooses upon casting). This effect is like the <i><a href="/pathfinderRPG/prd/spells/desecrate.html#_desecrate" >desecrate</a></i> spell, but lasts for 1 minute per caster level of the cruoromancer, and does not interact with altars, shrines, or permanent fixtures that boost the <i><a href="/pathfinderRPG/prd/spells/desecrate.html#_desecrate" >desecrate</a></i> effect. This ability replaces the 10th-level wizard bonus feat.</p>
+</blockquote>
+<p id="blood-ability"><b>Blood Ability (Su)</b>: At 15th level, a cruoromancer can choose to scry through a single undead creature he created with a spell modified by a commanding infusion. The undead creature is treated as if imbued with an <i><a href="/pathfinderRPG/prd/spells/arcaneEye.html#_arcane-eye" >arcane eye</a></i> spell (caster level equal to the cruoromancer's wizard level). This ability replaces the 15th-level wizard bonus feat.</p>
+<p id="perfect-infusion"><b>Perfect Infusion (Su)</b>: At 20th level, a cruoromancer can use his blood infusions without taking damage. This ability replaces the 20th-level wizard bonus spell. </p>
+
+<h2 id="kinslayer-(inquisitor)">Kinslayer (Inquisitor)</h2>
+<p>Appalled and guilt-ridden by the horrific circumstances of her birth, a kinslayer dedicates herself to eradicating the very creatures whose blood flows within her veins. She spends her life hunting and slaying those vampiric monsters for whom humans have become prey. A kinslayer has the following class features.</p>
+<p id="judgment"><b>Judgment (Su)</b>: At 1st level, a kinslayer gains the following judgment.</p>
+<blockquote>
+<p id="slayer's-brand"><i>Slayer's Brand (Su)</i>: When using this judgment, the kinslayer gains the ability to brand undead creatures with positive energy. To do so, she must make a successful melee touch attack against the undead creature. This attack deals an amount of positive energy damage equal to 1d6 + the kinslayer's Charisma score, and burns her personal symbol into the undead creature's flesh, bone, or even its incorporeal form. From that point onward, the kinslayer can sense the existence of the branded creature as if it were the target of a <i><a href="/pathfinderRPG/prd/spells/locateCreature.html#_locate-creature" >locate creature</a></i> spell (caster level equal to 1/2 the kinslayer's inquisitor level). A slayer's brand lasts until the undead creature is destroyed or until the kinslayer uses this ability on another creature. This ability replaces the destruction judgment.</p>
+</blockquote>
+<p id="greater-brand"><b>Greater Brand (Su)</b>: A 1st level, a kinslayer learns to modify her slayer's brand judgment as she gains levels. Whenever she gains the ability to learn a teamwork feat, she can instead opt to learn one of the following modifications to her slayer's brand judgment.</p>
+<blockquote>
+<p id="branding-ray"><i>Branding Ray</i>: The slayer's brand judgment can be used as a ranged touch attack with a range of 20 feet. A kinslayer can take this modification more than once. Whenever she does, she increases the range of her brand by 20 feet.</p>
+<p id="debilitating-brand"><i>Debilitating <a href="/pathfinderRPG/prd/advanced/spells/brand.html#_brand" >Brand</a></i>: A creature currently affected by the slayer's brand judgment takes a &ndash;2 penalty on attack rolls against the kinslayer who placed the brand. </p>
+<p id="devastating-brand"><i>Devastating <a href="/pathfinderRPG/prd/advanced/spells/brand.html#_brand" >Brand</a></i>: When the kinslayer attacks a creature that she has branded with her slayer's brand, she threatens a critical hit on a roll of 19&ndash;20. If the kinslayer is good, she also gains a +2 sacred bonus on all rolls to confirm critical hits on a branded creature. </p>
+<p id="dual-brand"><i>Dual <a href="/pathfinderRPG/prd/advanced/spells/brand.html#_brand" >Brand</a></i>: The kinslayer can have up to two creatures branded at a time. </p>
+<p id="holy-brand"><i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >Holy</a> <a href="/pathfinderRPG/prd/advanced/spells/brand.html#_brand" >Brand</a></i>: The kinslayer can use her brand on creatures with the evil subtype as well as undead.</p>
+<p id="searing-brand:"><i>Searing <a href="/pathfinderRPG/prd/advanced/spells/brand.html#_brand" >Brand</a>:</i> The kinslayer's slayer's brand deals an additional 1d6 points of damage for every five inquisitor levels she has. If the creature hit with the slayer's brand is particularly vulnerable to bright light, the damage dice of her slayer's brand increases to d8s. A kinslayer must be at least 6th level to take this modification. </p>
+<p id="silver-brand"><i>Silver <a href="/pathfinderRPG/prd/advanced/spells/brand.html#_brand" >Brand</a></i>: The kinslayer can use her brand on lycanthropes and creatures with vulnerability to silver as well as undead. </p>
+</blockquote>
+<p>Each time the kinslayer opts to take a greater brand, it replaces her ability to gain a teamwork feat at that level.</p>
+<p id="undead-sense"><b>Undead Sense (Sp)</b>: At 2nd level, a kinslayer gains the ability to use <i><a href="/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead" >detect undead</a></i> as a spell-like ability (caster level equal to the kinslayer's inquisitor level) at will. If she detects the presence of undead, she can use her monster lore ability to attempt to determine the type of undead detected as well as to reveal any strengths or weaknesses the undead might have. If any of the detected undead are vampires, she gains a bonus on the check equal to her inquisitor level to immediately identify them as such.</p>
+<p> This ability replaces <i>detect alignment</i>.</p>
+
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The following options are available to dhampirs. At the GM's discretion, other appropriate races may make use of some of these new rules.</p>
+
+<h2 id="dhampir-equipment">Dhampir Equipment</h2>
+<p>The following equipment is used or made by dhampirs. </p>
+<p id="heartstake-bolts"><b>Heartstake Bolts</b>: Specially crafted from solid darkwood, heartstake bolts are specifically designed to slay vampires. A heartstake bolt can be fired from any crossbow, but it imposes a &ndash;2 penalty on the attack roll and halves the range increment of the weapon. A vampire struck with a heartstake bolt takes the normal damage but must also succeed at a DC 20 Fortitude saving throw or fall to the ground helpless for 1 round. While the vampire is helpless in this manner, a creature can attempt to use the heartstake bolt to finish off the vampire by driving it through the vampire's heart as a full-round action. Once the debilitating effect of the heartstake bolt has ended, the vampire can pull out the bolt as a move action. A vampire slain with a heartstake bolt is subject to the rules and limitations of slaying a vampire with a wooden stake as described under vampire weaknesses .</p>
+<p>A heartstake bolt deals normal damage for the crossbow of its type.</p>
+<p id="neck-guard"><b>Neck Guard</b>: Made from hardened leather reinforced with a band of metal, this collar protects the wearer against vampire bites when worn around the throat. It provides a +1 armor bonus to AC against vampire bites or similar attacks that specifically target the wearer's throat. Unlike most armor bonuses, the neck guard's +1 bonus stacks with the armor bonus of light or medium armor, but it provides no additional bonus when worn with heavy armor.</p>
+<p id="vampire-slayer's-kit"><b>Vampire Slayer's Kit</b>: This small, latched wooden case contains numerous tools and devices used in hunting and slaying vampires. It contains 10 cloves of garlic, four masterwork wooden stakes, a hammer, a silvered mirror, 4 vials of holy water, 1 application of <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_silversheen" >silversheen</a></i>, and a masterwork holy symbol. It also contains numerous regents and powders used for treating wounds and making wards, salves, and other concoctions. In addition to its general usefulness, when displayed, a vampire slayer's kit grants its owner a +2 bonus on all Charisma-based skill checks made to investigate or seek out vampires.</p>
+
+<table><caption>Dhampir Equipment</caption>
+<thead><tr><th>Item</th><th>Cost</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Heartstake bolts (5)</td><td>100 gp</td><td>3 lbs.</td></tr>
+<tr class="even"><td>Neck guard</td><td>10 gp</td><td>1/4 lb.</td></tr>
+<tr class="odd"><td>Vampire slayer's kit </td><td>500 gp </td><td>8 lbs.</td></tr></table>
+
+
+<h2 id="dhampir-feats">Dhampir Feats</h2>
+<p>Dhampirs have access to the following feats.</p>
+<div class="feats-text">
+<h3 id="blood-drinker">Blood Drinker</h3>
+<p>Consuming blood reinvigorates you.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Dhampir. </p>
+<p class="stat-block-1"><b>Benefit</b>: Choose one humanoid subtype, such as "goblinoid" (this subtype cannot be "dhampir"). You have acquired a taste for the blood of creatures with this subtype. Whenever you drink fresh blood from such a creature, you gain 5 temporary hit points and a +1 bonus on checks and saves based on Constitution. The effects last 1 hour. If you feed multiple times, you continue to gain hit points to a maximum of 5 temporary hit points for every three Hit Dice you have, but the +1 bonus on Constitution-based skill checks and saving throws does not stack.</p>
+<p>Normally, you can only drink blood from an opponent who is helpless, grappled, paralyzed, pinned, unconscious, or similarly disabled. If you have a bite attack, you can drink blood automatically as part of your bite attack; otherwise, you must first cut your target by dealing 1 hit point of damage with a slashing or piercing weapon (though you may feed upon a creature with severe wounds or a bleed effect without cutting it first). Once you cut the target, you can drink from its wound as a standard action. Drinking blood deals 2 points of Constitution damage to the creature you feed upon. </p>
+<p>The blood must come from a living creature of the specified humanoid subtype. It cannot come from a dead or summoned creature. Feeding on unwilling intelligent creatures is an evil act.</p>
+
+<h3 id="blood-feaster">Blood Feaster</h3>
+<p>Consuming blood gives you superhuman strength.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Blood Drinker, base attack bonus +6, dhampir.</p>
+<p class="stat-block-1"><b>Benefit</b>: If you use your Blood Drinker feat to drain 4 or more points of Constitution from a living creature, you gain a +2 bonus on damage rolls and a +1 bonus on Strength-based skill checks. This bonus lasts for a number of rounds equal to 1/2 your Hit Dice.</p>
+
+<h3 id="blood-salvage">Blood Salvage</h3>
+<p>You do not need to drink blood from a living creature to gain healing benefits.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Blood Drinker, dhampir.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can use your Blood Drinker feat on a dead creature of the appropriate humanoid subtype. The creature must have died less than 6 hours beforehand.</p>
+<p class="stat-block-1"><b>Normal</b>: You only benefit from the Blood Drinker feat if you consume fresh blood from a living creature.</p>
+
+<h3 id="diverse-palate">Diverse Palate</h3>
+<p>Your taste for blood is broader than that of other dhampirs.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Blood Drinker, dhampir.</p>
+<p class="stat-block-1"><b>Benefit</b>: Choose a humanoid subtype or the monstrous humanoid type. You may use your Blood Drinker feat on creatures of this subtype or type.</p>
+<p class="stat-block-1"><b>Special</b>: You can take this feat multiple times. Each time you select it, choose a new humanoid subtype or the monstrous humanoid. </p>
+
+<h3 id="natural-charmer">Natural Charmer</h3>
+<p>You possess some of the dominating powers of your vampire progenitor.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Cha 17, dhampir. </p>
+<p class="stat-block-1"><b>Benefit</b>: You can take 20 on any Charisma-based skills to charm, convince, persuade, or seduce humanoids whose attitude is at least friendly to you. Taking 20 still requires 20 times the normal time to perform the skill.</p>
+<p class="stat-block-1"><b>Normal</b>: You cannot take 20 on any check where you incur penalties for failure.</p>
+</div>
+
+<h2 id="dhampir-magic-items">Dhampir Magic Items</h2>
+<p>Dhampirs have access to the following magic items.</p>
+<p id="amulet-of-channeled-life-" class="stat-block-title">Amulet of Channeled Life </p>
+<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 10th</p>
+<p class="stat-block-1"><b>Slot</b> neck; <b>Price</b> 12,000 gp; <b>Weight </b>1/2 lb.</p>
+<p class="stat-block-breaker">Description</p>
+<p>This amulet consists of a pale translucent gem in a dull gray metal setting etched with ancient runes. When worn by an individual with the negative energy affinity racial trait, it alters the effects of positive energy on his body. When targeted by positive energy that heals living creatures, the wearer instead gains half the hit points the positive energy heals as temporary hit points. These temporary hit points go away after 10 minutes. This effect does not stack with <i>life channel</i> (see below) or other effects that convert healing positive energy to temporary hit points. </p>
+<p>This item does not actually transpose positive energy into negative energy, it just affects the way the wearer's body reacts to positive energy. Only a living creature can benefit from this amulet; it provides no benefit to undead.</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i>life channel</i>; <b>Cost</b> 6,000 gp</p>
+<p id="lenses-of-darkness" class="stat-block-title">Lenses of Darkness</p>
+<p class="stat-block-1"><b>Aura</b> faint transmutation; <b>CL</b> 3rd</p>
+<p class="stat-block-1"><b>Slot</b> eyes; <b>Price</b> 12,000 gp; <b>Weight </b>&mdash;</p>
+<p class="stat-block-breaker">Description</p>
+<p>Crafted from a dark-colored crystalline material and infused with magical darkness, these lenses fit over the wearer's eyes. When worn by a creature with light sensitivity or light blindness, these lenses protect the wearer against the effect of sunlight, the <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i> spell, or similar light effects. Both lenses must be worn for the magic to be effective. </p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/darkness.html#_darkness" >darkness</a></i>; <b>Cost</b> 6,000 gp</p>
+<p id="symbol-of-unholy-command" class="stat-block-title">Symbol of Unholy Command</p>
+<p class="stat-block-1"><b>Aura</b> faint necromancy; <b>CL</b> 3rd</p>
+<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 8,000 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-breaker">Description</p>
+<p>This unholy symbol is carved entirely from human bone. When the wielder uses this unholy symbol as a focus for the <a href="/pathfinderRPG/prd/feats.html#_command-undead" >Command Undead</a> feat, he gains a +1 profane bonus to the DC of that feat. </p>
+<p>Good creatures of 5 Hit Dice or less that attempt to touch the symbol must make a DC 15 Will save or be shaken for 1 round. Deliberate use of a <i>symbol of <a href="/pathfinderRPG/prd/magicItems/weapons.html#_unholy" >unholy</a> <a href="/pathfinderRPG/prd/spells/command.html#_command" >command</a></i> is an evil act.</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <a href="/pathfinderRPG/prd/feats.html#_command-undead" >Command Undead</a> or <i><a href="/pathfinderRPG/prd/spells/commandUndead.html#_command-undead" >command undead</a></i>; <b>Cost</b> 4,000 gp</p>
+
+<h2 id="dhampir-spells">Dhampir Spells</h2>
+<p>Dhampirs have access to the following spells.</p>
+<p id="blinding-ray" class="stat-block-title">Blinding Ray</p>
+<p class="stat-block-1"><b>School</b> evocation [<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a>, light]; <b>Level</b> cleric 2, inquisitor 3, paladin 2</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action </p>
+<p class="stat-block-1"><b>Components</b> V, S, DF</p>
+<p class="stat-block-1"><b>Range</b> close (25 ft. + 5 ft./2 levels)</p>
+<p class="stat-block-1"><b>Effect</b> one or more rays of light</p>
+<p class="stat-block-1"><b>Duration</b> instantaneous (see text)</p>
+<p class="stat-block-1"><b>Saving Throw</b> Fortitude negates; <b>Spell Resistance</b> yes </p>
+<p>You blast your enemies with blinding rays of sunlight. You may fire one ray, plus one additional ray for every four levels beyond 3rd (to a maximum of three rays at 11th level). Each ray requires a ranged touch attack to hit. If a ray hits, it explodes into powerful motes of light, and the target must save or be blinded for 1 round. If the target has light blindness, light sensitivity, or is otherwise vulnerable to bright light, it instead must save or be blinded for 1d4 rounds and take 1d4 points of damage per two caster levels (maximum 5d4). Any creature blinded by a ray sheds light as a sunrod for the duration of its blindness. The rays may be fired at the same or different targets, but all rays must be aimed at targets within 30 feet of each other and fired simultaneously.</p>
+<p id="life-channel" class="stat-block-title">Life Channel</p>
+<p class="stat-block-1"><b>School</b> transmutation; <b>Level</b> cleric 2 </p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Component</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> touch</p>
+<p class="stat-block-1"><b>Target</b> one touched creature with <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_negative-energy-affinity" >negative energy affinity</a> </p>
+<p class="stat-block-1"><b>Duration</b> 1 minute/level</p>
+<p class="stat-block-1"><b>Saving Throw</b> Fortitude negates (harmless); <b>Spell Resistance </b>yes (harmless)</p>
+<p>When cast on a creature with negative energy affinity, the target is able to convert channeled positive energy into temporary hit points. When subject to an effect that heals hit points only to living creatures (such as <i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> or channel positive energy), the target gains a number of temporary hit points equal to half the number of hit points that the positive energy would normally heal. These temporary hit points go away at the end of this spell's duration.</p>
+<p id="spawn-ward" class="stat-block-title">Spawn Ward</p>
+<p class="stat-block-1"><b>School</b> necromancy; <b>Level</b> cleric 5, inquisitor 5</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action </p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> touch</p>
+<p class="stat-block-1"><b>Target</b> creature touched</p>
+<p class="stat-block-1"><b>Duration</b> 10 minutes/level</p>
+<p class="stat-block-1"><b>Save</b> Fortitude negates (harmless); <b>Spell Resistance</b> yes (harmless)</p>
+<p>The target becomes resistant to the effects of energy drain and blood drain attacks made by undead creatures, and cannot be made into undead spawn if killed while the spell is in effect.</p>
+<p>If the attacking undead's Hit Dice is less than or equal to your caster level, the blood drain or energy drain has no effect. If the attacking undead's Hit Dice are greater than your caster level, the undead must make a Fortitude save (against the DC of the spell) with each attack for those special abilities to have any effect. The spell only prevents the Constitution damage from blood drain and negative levels from energy drain, but not any other effects of these attacks.</p>
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

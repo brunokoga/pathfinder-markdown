@@ -1,0 +1,30 @@
+ **Hallow**
+
+**School** evocation [good]; **Level** cleric 5, druid 5
+
+**Casting Time** 24 hours
+
+**Components** V, S, M (herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of the spell to be included in the _hallowed _area), DF
+
+**Range** touch
+
+**Area** 40-ft. radius emanating from the touched point
+
+**Duration** instantaneous
+
+**Saving Throw** see text; **[Spell Resistance](../glossary.html#_spell-resistance)** see text
+
+_Hallow _makes a particular site, building, or structure a holy site. This has four major effects.
+
+First, the site is warded by a _ [magic circle against evil](magicCircleAgainstEvil.html#_magic-circle-against-evil) _effect.
+
+Second, the DC to resist positive channeled energy within this area gains a +4 sacred bonus and the DC to resist negative energy is reduced by 4. [Spell resistance](../glossary.html#_spell-resistance) does not apply to this effect. This provision does not apply to the druid version of the spell.
+
+Third, any dead body interred in a _hallowed _site cannot be turned into an undead creature.
+
+Finally, you can fix a single spell effect to the _hallowed _site. The spell effect lasts for 1 year and functions throughout the entire site, regardless of the normal duration and area or effect. You may designate whether the effect applies to all creatures, creatures who share your faith or alignment, or creatures who adhere to another faith or alignment. At the end of the year, the chosen effect lapses, but it can be renewed or replaced simply by casting _hallow _again.
+
+Spell effects that may be tied to a _hallowed _site include _ [aid](aid.html#_aid), [bane](bane.html#_bane), [bless](bless.html#_bless), [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear), [darkness](darkness.html#_darkness), [daylight](daylight.html#_daylight), [death ward](deathWard.html#_death-ward), [deeper darkness](deeperDarkness.html#_deeper-darkness), [detect evil](detectEvil.html#_detect-evil), [detect magic](detectMagic.html#_detect-magic), [dimensional anchor](dimensionalAnchor.html#_dimensional-anchor), [discern lies](discernLies.html#_discern-lies), [dispel magic](dispelMagic.html#_dispel-magic), [endure elements](endureElements.html#_endure-elements), [freedom of movement](freedomOfMovement.html#_freedom-of-movement), [invisibility purge](invisibilityPurge.html#_invisibility-purge), [protection from energy](protectionFromEnergy.html#_protection-from-energy), [remove fear](/pathfinderRPG/prd/spells/removeFear.html#_remove-fear), [resist energy](resistEnergy.html#_resist-energy), [silence](silence.html#_silence), [tongues](tongues.html#_tongues), _and _ [zone of truth](zoneOfTruth.html#_zone-of-truth)_. Saving throws and [spell resistance](../glossary.html#_spell-resistance) might apply to these spells' effects. (See the individual spell descriptions for details.)
+
+An area can receive only one _hallow _spell (and its associated spell effect) at a time. _Hallow _counters but does not dispel _ [unhallow](unhallow.html#_unhallow)_.
+

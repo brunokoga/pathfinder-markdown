@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Devil</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Devil",globalNavPath=[{ href: '/pathfinderRPG/prd/monsters/monsterIndex.html', name: 'Monster Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body"><div>
+				<h1 id="devil">Devil</h1>
+				<p>Masters of corruption and despoilers of purity, devils seek to destroy all things good and drag mortal souls back with them to the depths of Hell.</p>
+				<p>As the most numerous fiendish occupants of Hell, the various forms of devils are well catalogued by diabolists. Most are known by two names: an evocative title given to the fiends by commoners and folklore, and an obscure, ancient designation spoken by the servants of Hell and those who would seek to deal with the damned.</p>
+				<p>Born from the foulest of mortal souls&mdash;their personalities and memories long since scoured by millennia of torment&mdash;would-be devils rise from the masses of suffering souls as lemures, revolting beings of mindless evil potentiality. Only through continued centuries of torture or by the edicts of more powerful devils do these least of devilkind rise to become deadlier fiends, graduating through a pain-wracked metamorphosis dictated by their masters or the infernal whims of Hell's semi-sentient layers. While fiendish lords wield transformation into greater or lesser forms as both prize and punishment, some devils spontaneously rise from particularly evil souls long trapped upon an infernal layer. Thus, although the various diabolical breeds possess recognizable abilities and hold generalized rankings in the great infernal hierarchy, a devil's type alone does not always correspond to a specific tenure of torment or place in the infernal chain of command.</p>
+				<p>Devils fill the nine layers of Hell, though certain fiends are more common on specific layers than others, their specialized duties or fealty to individual archdevils drawing them to one torturous domain more than others. Although the various types of devils tend to specialize in unique forms of depravity or temptation, the hierarchies of Hell are not without flexibility for uncommon individual talents. Thus, particularly watchful hamatulas might join the ranks of Phlegethon's bone devil inquisitors, while veteran barbazus might serve among the pit fiends of Nessus. </p>
+				<p>Beyond the pits of Hell, devils often travel to the Material Plane at the summons of evil spellcasters. Quick to bargain and willing to serve mortals to assure their damnation, devils ever obey the letter of their agreements, but serve the whims of Hell foremost. Thus, even the least of devilkind might come to the Material Plane intent on further corrupting souls, cleverly escaping the bonds of their contracts to indulge their own plots, or to further the unspeakable goals of the archdevils of Hell.</p>
+				<h2>The Ranks of Devilkind</h2>
+				<p>Diabolists speak often of the rankings of Hell, the distinctions made between devils that distinguish the foot soldiers from the commanders of Hell's armies. While such divisions mean little to most mortals&mdash;a devil being a deadly foe in any incarnation&mdash;the hierarchies and nuances of Hell's society carry distinctions vital to the survival of any who would commune with devils. What distinguishes a breed of devils above or below others is more than a matter of brawn, with several cunning types of fiend holding priority over their fundamentally stronger brethren. While a devil's station does not mean it can instantly command every other devil of inferior standing, it does imply which fiends might serve their brethren or hold influence over others.</p>
+				<p> Below these are the devil races themselves, from the lordly and malevolent pit fiends all the way down to the lowly, malformed lemure.</p>
+				<h2>The Infernal Hierarchy</h2>
+				<p>Listed here, from the absolute weakest devils to the lords of Hell, is the most basic hierarchy of the infernal realm's best-known denizens.</p>
+				<p><b>Least Devils</b>: imps, lemures</p>
+				<p><b>Lesser Devils</b>: bearded devils (barbazus), erinyes, barbed devils (hamatulas), bone devils (osyluths)</p>
+				<p><b>Greater Devils</b>: horned devils (cornugons), ice devils (gelugons), pit fiends</p>
+				
+			
+				<h1 id="devil-barbed">Devil, Barbed</h1>
+			
+				<p class="flavor-text"><i>From the tip of its lashing tail to the serrated features of its fang-filled visage, this fiery-eyed sentinel bristles with barbs.</i></p>
+			
+				<p class="stat-block-title"><b>Barbed Devil (Hamatula) <span class=stat-block-cr>CR 11</span></b></p>
+				<p class="stat-block-xp"><b>XP 12,800</b></p>
+				<p class="stat-block-1">LE Medium <a href="creatureTypes.html#_outsider">outsider</a> (<a href="creatureTypes.html#_devil-subtype" >devil</a>, <a href="creatureTypes.html#_evil-subtype" >evil</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft., see in darkness; <a href="../skills/perception.html#_perception" >Perception</a> +21</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 26, touch 16, flat-footed 20 (+6 Dex, +10 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 138 (12d10+72)</p>
+				<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +14, <b>Will</b> +8</p>
+				<p class="stat-block-1"><b>Defensive Abilities </b>barbed defense; <b>DR</b> 10/good; <b>Immune</b> fire, poison; <b>Resist</b> acid 10, cold 10; <b>SR</b> 22</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 claws +18 (2d8+6/19&ndash;20 plus fear and <a href="universalMonsterRules.html#_grab" >grab</a>)</p>
+				<p class="stat-block-1"><b>Special Attacks </b>fear, impale 3d8+9</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities </b>(CL 12th)</p>
+				<p class="stat-block-2">At will&mdash;<i><a href="../spells/teleport.html#_teleport-greater" >greater teleport</a> </i>(self plus 50 lbs. of objects only), <i><a href="../spells/holdPerson.html#_hold-person" >hold person</a> </i>(DC 17), <i><a href="../spells/majorImage.html#_major-image" >major image</a></i> (DC 17), <i><a href="../spells/produceFlame.html#_produce-flame" >produce flame</a>, <a href="../spells/pyrotechnics.html#_pyrotechnics" >pyrotechnics</a> </i>(DC 16), <i><a href="../spells/scorchingRay.html#_scorching-ray" >scorching ray</a></i> (2 rays only)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="../spells/orderSWrath.html#_order-s-wrath" >order's wrath</a> </i>(DC 18), summon (level 4, 1 barbed devil 35%), <i><a href="../spells/unholyBlight.html#_unholy-blight" >unholy blight</a></i> (DC 18)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 23, <b>Dex</b> 23, <b>Con</b> 22, <b>Int</b> 12, <b>Wis</b> 15, <b>Cha</b> 18</p>
+				<p class="stat-block-1"><b>Base Atk </b>+12; <b>CMB</b> +18 (+22 grapple); <b>CMD</b> 34</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_alertness" >Alertness</a>, <a href="../feats.html#_cleave" >Cleave</a>, <a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../feats.html#_improved-critical" >Improved Critical</a> (claws), <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +15, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +13, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> +19, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +16, <a href="../skills/perception.html#_perception" >Perception</a> +21, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +21,<a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +12, <a href="../skills/stealth.html#_stealth" >Stealth</a> +13, <a href="../skills/survival.html#_survival" >Survival</a> +14</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Common, Draconic, Infernal; <a href="universalMonsterRules.html#_telepathy" >telepathy</a> 100 ft.</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Hell)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, team (3&ndash;5), or squad (6&ndash;11)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Barbed Defense (Su) </b>A creature that strikes a hamatula with a melee weapon, an unarmed strike, or a natural weapon takes 1d8+6 points of piercing damage from the devil's barbs. Melee weapons with reach do not endanger a user in this way.</p>
+				<p class="stat-block-1"><b>Fear (Su) </b>A barbed devil's fear attack affects any creature it damages with its claws. A DC 20 Will save resists this effect, otherwise the victim becomes frightened for 1d4 rounds. This is a mind-affecting fear effect. The save DC is Charisma-based.</p>
+				<p class="stat-block-1"><b>Grab (Ex)</b>A barbed devil can use its grab attack against a foe of up to Medium size.</p>
+				<p class="stat-block-1"><b>Impale (Ex)</b> A barbed devil deals 3d8+9 points of piercing damage to a grabbed opponent with a successful grapple check.</p>
+				<p>Sentinels of the vaults of Hell, jailers of the darkest souls, and living weapons of the infernal forges, barbed devils&mdash;known as hamatulas to diabolists&mdash;enforce the strictures of the damned and safeguard the nefarious works of greater devils. A hamatula enjoys the feel of warm blood on its spines, and prefers to leap into melee when presented with an opportunity for battle.</p>
+				<p>Hamatulas are collectors and organizers, and are favorite allies of greedy summoners as they often bring with them tempting treasures from Hell's vaults or know the paths to deadly riches. Left to their own devices, the lairs of these devils often bear the pierced trophies of their past victims, hung like perverse bug collections on bloodied walls. Most barbed devils stand upward of 7 feet tall and weigh 300 pounds, though their leanly muscled bodies appear much larger due to the constantly growing and adjusting spines that protrude from their razor-sharp bodies.</p>
+			
+				<h1 id="devil-bearded">Devil, Bearded</h1>
+			
+				<p class="flavor-text"><i>This seething devil deftly wields a vicious, saw-toothed glaive, while below its toothy maw writhes a hideous, twitching beard.</i></p>
+			
+				<p class="stat-block-title"><b>Bearded Devil (Barbazu) <span class=stat-block-cr>CR 5</span></b></p>
+				<p class="stat-block-xp"><b>XP 1,600</b></p>
+				<p class="stat-block-1">LE Medium <a href="creatureTypes.html#_outsider">outsider</a> (<a href="creatureTypes.html#_devil-subtype" >devil</a>, <a href="creatureTypes.html#_evil-subtype" >evil</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft., see in darkness; <a href="../skills/perception.html#_perception" >Perception</a> +10</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 19, touch 12, flat-footed 17 (+2 Dex, +7 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 57 (6d10+24)</p>
+				<p class="stat-block-1"><b>Fort</b> +9, <b>Ref</b> +7, <b>Will</b> +3</p>
+				<p class="stat-block-1"><b>DR</b> 5/good or silver; <b>Immune</b> fire, poison; <b>Resist</b> acid 10, cold 10; <b>SR</b> 16</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> glaive +11/+6 melee (1d10+6 plus infernal wound) or 2 claws +10 melee (1d6+4)</p>
+				<p class="stat-block-1"><b>Space</b> 5 ft.; <b>Reach</b> 5 ft. (10 ft. with glaive)</p>
+				<p class="stat-block-1"><b>Special Attacks </b>beard</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities </b>(CL 12th)</p>
+				<p class="stat-block-2">At will&mdash;<i><a href="../spells/teleport.html#_teleport-greater" >greater teleport</a> </i>(self plus 50 lbs. of objects only)</p>
+				<p class="stat-block-2">1/day&mdash;<a href="universalMonsterRules.html#_summon" >summon</a> (level 3, 1 bearded devil or 6 lemures, 50%)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 19, <b>Dex</b> 15, <b>Con</b> 19, <b>Int</b> 6, <b>Wis</b> 12, <b>Cha</b> 10</p>
+				<p class="stat-block-1"><b>Base Atk </b>+6; <b>CMB</b> +10; <b>CMD</b> 22</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="../feats.html#_weapon-focus" >Weapon Focus</a> (glaive)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/climb.html#_climb" >Climb</a> +13, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> +7, <a href="../skills/perception.html#_perception" >Perception</a> +10, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +6, <a href="../skills/stealth.html#_stealth" >Stealth</a> +11</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Common, Draconic, Infernal; <a href="universalMonsterRules.html#_telepathy" >telepathy</a> 100 ft.</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Hell)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, squad (3&ndash;10), or troop (10&ndash;40)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (glaive, other treasure)</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Beard (Ex) </b>If a bearded devil hits a single opponent with both claw attacks, it also lashes at the same target with its spiky, filthy beard. The victim takes 1d8+2 points of damage and must succeed on a DC 17 Fortitude save or contract devil chills. The save DC is Constitution-based.<i>Devil Chills</i>: Disease&mdash;injury; <i>save</i> Fort DC 17; <i>onset</i> 1d4 days; <i>frequency</i> 1/day; <i>effect</i> 1d4 Str <a href="universalMonsterRules.html#_ability-damage-and-drain" >damage</a>; <i>cure</i> 3 consecutive saves.</p>
+				<p class="stat-block-1"><b>Infernal Wound (Su)</b> The damage a bearded devil deals with its glaive inflicts persistent wounds that cause 2 points of <a href="universalMonsterRules.html#_bleed" >bleed</a> damage. <a href="universalMonsterRules.html#_bleed" >Bleed</a> caused from an infernal wound is particularly difficult to stanch&mdash;a DC 17 <a href="../skills/heal.html#_heal" >Heal</a> check stops the damage, and any attempt to heal a creature suffering from an infernal wound must succeed on a DC 16 caster level check or the spell does not function. Success indicates the healing works normally and stops all <a href="universalMonsterRules.html#_bleed" >bleed</a> effects on the victim. The infernal wounds caused by a bearded devil are a supernatural ability of the devil, not of the weapon.</p>
+				<p>Elite warriors in Hell's legions, bearded devils&mdash;or barbazus&mdash;fight savagely in the name of their infernal lords and command mindless hordes of the damned into battle. They collect and train with their infernally forged glaives among the vaults of Hell's third layer, Erebus, but inevitably return to the first layer, Avernus, to serve at the side of the dread lord Barbatos.</p>
+				<p>Barbazus are fond of making charge attacks with their glaives, and try to maintain a 10-foot gap between themselves and their foes so they can use their signature polearms to great effect. Against a foe that has greater reach (or one able to otherwise avoid the devil's favored tactic), they drop their glaives and resort to their claws and hideous beards.</p>
+				<p>At attention, bearded devils stand over 6 feet tall (though their squatting battle stances often make them appear shorter) and weigh upward of 200 pounds.</p>
+			
+				<h1 id="devil-bone">Devil, Bone</h1>
+			
+				<p class="flavor-text"><i>Merging the most horrifying features of carrion-fed insect and withered cadaver, this bony devil moves in unsettling lurches.</i></p>
+			
+				<p class="stat-block-title"><b>Bone Devil (Osyluth) <span class=stat-block-cr>CR 9</span></b></p>
+				<p class="stat-block-xp"><b>XP 6,400</b></p>
+				<p class="stat-block-1">LE Large <a href="creatureTypes.html#_outsider">outsider</a> (<a href="creatureTypes.html#_devil-subtype" >devil</a>, <a href="creatureTypes.html#_evil-subtype" >evil</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +9; <b>Senses</b> darkvision 60 ft., see in darkness; <a href="../skills/perception.html#_perception" >Perception</a> +19</p>
+				<p class="stat-block-1"><b>Aura </b>fear aura (5 ft., DC 19, 1d6 rounds)</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 25, touch 14, flat-footed 20 (+5 Dex, +11 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 105 (10d10+50)</p>
+				<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +12, <b>Will</b> +7</p>
+				<p class="stat-block-1"><b>DR</b> 10/good; <b>Immune</b> fire, poison; <b>Resist</b> acid 10, cold 10; <b>SR</b> 20</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., fly 60 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> bite +14 melee (1d8+5), 2 claws +14 melee (1d6+5), sting +14 melee (3d4+5 plus <a href="universalMonsterRules.html#_poison" >poison</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities </b>(CL 12th)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="../spells/fly.html" >fly</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="../spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a>, <a href="../spells/teleport.html#_teleport-greater" >greater teleport</a></i> (self plus 50 lbs. of objects only),<i> <a href="../spells/invisibility.html#_invisibility" >invisibility</a> </i>(self only),<i> <a href="../spells/majorImage.html#_major-image" >major image</a></i> (DC 17)<i>, <a href="../spells/wallOfIce.html#_wall-of-ice" >wall of ice</a></i></p>
+				<p class="stat-block-2">3/day&mdash;quickened <i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i> (self only)</p>
+				<p class="stat-block-2">1/day&mdash;<a href="universalMonsterRules.html#_summon" >summon</a> (level 4, 1 bone devil, 35%)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 21, <b>Dex</b> 21, <b>Con</b> 20, <b>Int</b> 16, <b>Wis</b> 15, <b>Cha</b> 18</p>
+				<p class="stat-block-1"><b>Base Atk </b>+10; <b>CMB</b> +16; <b>CMD</b> 31</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_alertness" >Alertness</a>, <a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="monsterFeats.html#_quicken-spell-like-ability" >Quicken Spell-Like Ability</a> (<i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i>)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/bluff.html#_bluff" >Bluff</a> +17, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +17, <a href="../skills/fly.html#_fly" >Fly</a> +21, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> +17, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +16, <a href="../skills/perception.html#_perception" >Perception</a> +19, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +19, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +16, <a href="../skills/stealth.html#_stealth" >Stealth</a> +14</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Common, Draconic, Infernal; <a href="universalMonsterRules.html#_telepathy" >telepathy</a> 100 ft.</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Hell)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or inquisition (3&ndash;10)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Poison (Ex)</b> Sting&mdash;injury; <i>save</i> Fort DC 20; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1d3 Str <a href="universalMonsterRules.html#_ability-damage-and-drain" >damage</a>; <i>cure</i> 2 consecutive saves. The save DC is Constitution-based.</p>
+				<p>The interrogators and inquisitors of devilkind, bone devils delight in torturing those weaker than themselves&mdash;mortals, souls, and other devils alike. Born of ancient heresies mired amid the Styx-fed swamps of Stygia, Hell's fifth layer, bone devils&mdash;also known as osyluths&mdash;enforce infernal order and the will of the archdevils. Powerful fiends favor these terrifying sadists for their unwavering devotion to Hell's laws and the commands of their masters, as osyluths eagerly report the disobedience of other devils&mdash;regardless of standing&mdash;and take to the craft of torture like morbid artists. Diabolists risk much to bargain with them, as bone devils glean many infernal secrets amid their nightmarish calcified torture hives. These devils especially delight in journeying to the mortal plane, as their cruel talents and service to evil spellcasters often mean gaining much valuable information, which they might hold in their perfect memories for centuries before reporting back to their diabolical masters.</p>
+				<p>In battle, an osyluth uses quickened <i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i> after each attack to confuse foes. Many osyluths carry twisted and eerie bone weapons, but these tools are more for torture and intimidation than actual combat. </p>
+				<p>Osyluths tower over lesser devils at 9 feet tall&mdash;though their tails and fearsome but useless wings make them appear much larger&mdash;and weigh upward of 400 pounds.</p>
+			
+				<h1 id="devil-erinyes">Devil, Erinyes</h1>
+			
+				<p class="flavor-text"><i>Some calamity has befallen this angelic warrior. Wings stained black shear the air as her merciless eyes search for a target.</i></p>
+			
+				<p class="stat-block-title"><b>Erinyes <span class=stat-block-cr>CR 8</span></b></p>
+				<p class="stat-block-xp"><b>XP 4,800</b></p>
+				<p class="stat-block-1">LE Medium <a href="creatureTypes.html#_outsider">outsider</a> (<a href="creatureTypes.html#_devil-subtype" >devil</a>, <a href="creatureTypes.html#_evil-subtype" >evil</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft., see in darkness, <i><a href="../spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <a href="../skills/perception.html#_perception" >Perception</a> +16</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 23, touch 17, flat-footed 16 (+6 Dex, +1 dodge, +6 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 94 (9d10+45)</p>
+				<p class="stat-block-1"><b>Fort</b> +11, <b>Ref</b> +12, <b>Will</b> +7</p>
+				<p class="stat-block-1"><b>DR</b> 5/good; <b>Immune</b> fire, poison; <b>Resist</b> acid 10, cold 10; <b>SR</b> 19</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., fly 50 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+1 longsword</i> +15/+10 (1d8+8/19&ndash;20)</p>
+				<p class="stat-block-1"><b>Ranged</b> <i>+1 <a href="../magicItems/weapons.html#_weapons-flaming" >flaming</a> composite longbow</i> +14/+14/+9 (1d8+6/&times;3 plus 1d6 fire) or rope +15 touch (entangle)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities </b>(CL 12th)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="../spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="../spells/fear.html#_fear" >fear</a></i> (single target, DC 19), <i><a href="../spells/teleport.html#_teleport-greater" >greater teleport</a></i> (self plus 50 lbs. of objects only), <i><a href="../spells/minorImage.html#_minor-image" >minor image</a></i> (DC 17), <i><a href="../spells/unholyBlight.html#_unholy-blight" >unholy blight</a></i> (DC 19)</p>
+				<p class="stat-block-2">1/day&mdash;<a href="universalMonsterRules.html#_summon" >summon</a> (level 3, 2 bearded devils, 50%)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 23, <b>Con</b> 21, <b>Int</b> 14, <b>Wis</b> 18, <b>Cha</b> 21</p>
+				<p class="stat-block-1"><b>Base</b> <b>Atk</b> +9; <b>CMB</b> +14; <b>CMD</b> 31</p>
+				<p class="stat-block-1"><b>Feats </b><a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../feats.html#_dodge" >Dodge</a><sup>B</sup>, <a href="../feats.html#_mobility" >Mobility</a><sup>B</sup>, <a href="../feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="../feats.html#_precise-shot" >Precise Shot</a>, <a href="../feats.html#_rapid-shot" >Rapid Shot</a>, <a href="../feats.html#_shot-on-the-run" >Shot on the Run</a></p>
+				<p class="stat-block-1"><b>Skills </b><a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +18, <a href="../skills/bluff.html#_bluff" >Bluff</a> +17, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +14, <a href="../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +12, <a href="../skills/fly.html#_fly" >Fly</a> +19, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> +17, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +8, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +8, <a href="../skills/perception.html#_perception" >Perception</a> +16, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +10, <a href="../skills/stealth.html#_stealth" >Stealth</a> +15</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Common, Draconic, Infernal; <a href="universalMonsterRules.html#_telepathy" >telepathy</a> 100 ft.</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Hell)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or trio</p>
+				<p class="stat-block-1"><b>Treasure</b> triple (<i>+1 longsword, +1 <a href="../magicItems/weapons.html#_weapons-flaming" >flaming</a> composite longbow</i> [+5 Str bonus], rope)</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Entangle (Su)</b> Each erinyes carries a 50-foot-long rope that entangles opponents of any size as an <i><a href="../spells/animateRope.html#_animate-rope" >animate rope</a></i> spell (CL 16th, DC 20). An erinyes can hurl its rope 30 feet with no range penalty. An erinyes's rope functions only for the erinyes who made it and no other. The save DC is Dexterity-based.</p>
+				<p>Known by many names&mdash;the Fallen, the Ash Wings, and the Furies&mdash;the devils called erinyes mock the form of the angelic hosts in their exaction of vengeance and bloody justice. Executioners, not judges, erinyes alight upon the bladed eaves of Dis, Hell's cosmopolitan second layer, ever attentive for chances to soar into battle, whether in defense of Hell, on the whims of diabolical masters, or at the impassioned summons of jilted mortal summoners. All erinyes weave deadly living ropes from their own hair, which they use in battle to lift their foes into the air, mocking and condemning their victims for their transgressions before dropping them from great heights. </p>
+				<p>Erinyes appear as darkly beautiful angels, augmenting their sensuality with deliberate bruises and scars. Yet despite their beauty, erinyes are not seducers&mdash;they lack the subtlety and patience required for such fine emotional manipulations, and instead vastly prefer to solve their problems with swift and excruciating violence. Often, an erinyes will stay her hand before attempting to slay a foe simply so she can draw out the victim's suffering. Death is usually the only way to escape an erinyes's not-so-tender attentions, and the most powerful of these devils excel at keeping their enemies alive but helpless so as to extend their torment&mdash;many going as far as to keep their victims alive with magic. Rumors hold that the most powerful erinyes torturers have skills that allow their torment to continue even after their subject has died from their attentions.</p>
+				<p>Most erinyes stand just under 6 feet tall and weigh approximately 140 pounds, even with their black- feathered wings that stretch over 10 feet wide.</p>
+			
+				<h1 id="devil-horned">Devil, Horned</h1>
+			
+				<p class="flavor-text"><i>Bristling with terrible spines and a crown of deadly horns, this leering winged terror wields a whirling barbed chain.</i></p>
+			
+				<p class="stat-block-title"><b>Horned Devil (Cornugon) <span class=stat-block-cr>CR 16</span></b></p>
+				<p class="stat-block-1"><b>XP 76,800</b></p>
+				<p class="stat-block-1">LE Large <a href="creatureTypes.html#_outsider">outsider</a> (<a href="creatureTypes.html#_devil-subtype" >devil</a>, <a href="creatureTypes.html#_evil-subtype" >evil</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> darkvision 60 ft., see in darkness; <a href="../skills/perception.html#_perception" >Perception</a> +24</p>
+				<p class="stat-block-1"><b>Aura</b> fear aura (5 ft., DC 23)</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 35, touch 17, flat-footed 27 (+8 Dex, +18 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 217 (15d10+135); <a href="universalMonsterRules.html#_regeneration" >regeneration</a> 5 (good weapons, good spells)</p>
+				<p class="stat-block-1"><b>Fort</b> +18, <b>Ref</b> +17, <b>Will</b> +13</p>
+				<p class="stat-block-1"><b>DR</b> 10/good and silver; <b>Immune</b> fire, poison; <b>Resist</b> acid 10, cold 10; <b>SR</b> 27</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., fly 50 ft. (average)</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+1 <a href="../magicItems/weapons.html#_unholy" >unholy</a> spiked chain</i> +26/+21/+16 (2d6+11 plus stun), bite +22 (2d8+5), tail +22 (2d6+5 plus infernal wound) or 2 claws +24 (2d6+10), bite +24 (2d8+10), tail +22 (2d6+5 plus infernal wound)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities </b>(CL 16th)</p>
+				<p class="stat-block-2">At will&mdash;<i><a href="../spells/dispelChaos.html#_dispel-chaos" >dispel chaos</a></i> (DC 21), <i><a href="../spells/dispelGood.html#_dispel-good" >dispel good</a></i> (DC 21), <i><a href="../spells/magicCircleAgainstGood.html#_magic-circle-against-good" >magic circle against good</a>, <a href="../spells/teleport.html#_teleport-greater" >greater teleport</a></i> (self plus 50 lbs. of objects only), <i><a href="../spells/persistentImage.html#_persistent-image" >persistent image</a></i> (DC 21)</p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="../spells/fireball.html#_fireball" >fireball</a></i> (DC 19), <i><a href="../spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a></i> (DC 19)</p>
+				<p class="stat-block-2">1/day&mdash;<a href="universalMonsterRules.html#_summon" >summon</a> (level 6, 3 barbed devils, 35%)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 31, <b>Dex</b> 27, <b>Con</b> 28, <b>Int</b> 14, <b>Wis</b> 22, <b>Cha</b> 23</p>
+				<p class="stat-block-1"><b>Base Atk </b>+15; <b>CMB</b> +26; <b>CMD</b> 44</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="../feats.html#_improved-sunder" >Improved Sunder</a>, <a href="../feats.html#_improved-vital-strike" >Improved Vital Strike</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="monsterFeats.html#_multiattack" >Multiattack</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="../feats.html#_vital-strike" >Vital Strike</a>, <a href="../feats.html#_weapon-focus" >Weapon Focus</a> (spiked chain)</p>
+				<p class="stat-block-1"><b>Skills </b><a href="../skills/bluff.html#_bluff" >Bluff</a> +24, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +21, <a href="../skills/fly.html#_fly" >Fly</a> +15, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> +24, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +20, <a href="../skills/perception.html#_perception" >Perception</a> +24, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +21, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +20, <a href="../skills/stealth.html#_stealth" >Stealth</a> +22</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Common, Draconic, Infernal; <a href="universalMonsterRules.html#_telepathy" >telepathy</a> 100 ft.</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Hell)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or wing (3&ndash;10)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (<i>+1 <a href="../magicItems/weapons.html#_unholy" >unholy</a> spiked chain</i>, other treasure)</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Infernal Wound (Su)</b> The damage a horned devil deals with its tail causes persistent wounds that deal 2d6 points of <a href="universalMonsterRules.html#_bleed" >bleed</a> damage. Bleeding caused in this way is difficult to staunch&mdash;a DC 26 <a href="../skills/heal.html#_heal" >Heal</a> check stops the damage, and any attempt to heal a creature suffering from an infernal wound must succeed on a DC 26 caster level check or the spell does not function. Success indicates the healing works normally and stops all <a href="universalMonsterRules.html#_bleed" >bleed</a> effects.</p>
+				<p class="stat-block-1"><b>Stun (Su) </b>Whenever a horned devil hits with a spiked chain attack, the opponent must succeed on a DC 27 Fortitude save or be stunned for 1d4 rounds. This ability is a function of the horned devil, not of the spiked chain. The save DC is Strength-based.</p>
+				<p>Among the deadliest of the archdevils' warriors and able commanders of lesser fiends, horned devils spread the rule of Hell wherever they tread. These greater devils are trained, forged, and reforged to be among the most lethal, merciless, and obedient warriors in the multiverse. While rank-and-file horned devils are called cornugons, the greatest of their kind are known as malebranche.</p>
+				<p>A typical horned devil rises to a hulking 9 feet tall, bears 14-foot-wide wings, and weighs 700 pounds.</p>
+			
+				<h1 id="devil-ice">Devil, Ice</h1>
+			
+				<p class="flavor-text"><i>A pair of frozen, multifaceted eyes coldly judge all before this towering, insectile monstrosity.</i></p>
+			
+				<p class="stat-block-title"><b>Ice Devil (Gelugon) <span class=stat-block-cr>CR 13</span></b></p>
+				<p class="stat-block-1"><b>XP 25,600</b></p>
+				<p class="stat-block-1">LE Large <a href="creatureTypes.html#_outsider">outsider</a> (<a href="creatureTypes.html#_devil-subtype" >devil</a>, <a href="creatureTypes.html#_evil-subtype" >evil</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +9; <b>Senses</b> darkvision 60 ft., see in darkness; <a href="../skills/perception.html#_perception" >Perception</a> +27</p>
+				<p class="stat-block-1"><b>Aura</b> fear (10 ft., DC 22)</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 32, touch 14, flat-footed 27 (+5 Dex, +18 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 161 (14d10+84); regeneration 5 (good weapons, good spells)</p>
+				<p class="stat-block-1"><b>Fort</b> +15, <b>Ref</b> +14, <b>Will</b> +12</p>
+				<p class="stat-block-1"><b>DR</b> 10/good; <b>Immune</b> fire, cold, poison; <b>Resist</b> acid 10; <b>SR</b> 24</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., fly 60 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+1 <a href="../magicItems/weapons.html#_weapons-frost" >frost</a> spear</i> +21/+16/+11 (2d6+10/&times;3 plus 1d6 cold plus slow), bite +14 (2d6+6), tail +14 (3d6+3 plus slow)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities </b>(CL 13th)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="../spells/fly.html" >fly</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="../spells/coneOfCold.html#_cone-of-cold" >cone of cold</a> </i>(DC 20), <i><a href="../spells/iceStorm.html#_ice-storm" >ice storm</a></i>, <i><a href="../spells/teleport.html#_teleport-greater" >greater teleport</a></i> (self plus 50 lbs. of objects only), <i><a href="../spells/persistentImage.html#_persistent-image" >persistent image</a></i> (DC 20), <i><a href="../spells/wallOfIce.html#_wall-of-ice" >wall of ice</a></i> (DC 19)</p>
+				<p class="stat-block-2">1/day&mdash;<a href="universalMonsterRules.html#_summon" >summon</a> (level 4, 2 bone devils, 50%)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 23, <b>Dex</b> 21, <b>Con</b> 22, <b>Int</b> 25, <b>Wis</b> 22, <b>Cha</b> 20</p>
+				<p class="stat-block-1"><b>Base Atk </b>+14; <b>CMB</b> +21; <b>CMD</b> 36</p>
+				<p class="stat-block-1"><b>Feats </b><a href="../feats.html#_alertness" >Alertness</a>, <a href="../feats.html#_cleave" >Cleave</a>, <a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="../feats.html#_weapon-focus" >Weapon Focus</a> (spear)</p>
+				<p class="stat-block-1"><b>Skills </b><a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +22, <a href="../skills/bluff.html#_bluff" >Bluff</a> +22, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +22, <a href="../skills/fly.html#_fly" >Fly</a> +13, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> +19, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +24, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (any three others) +21, <a href="../skills/perception.html#_perception" >Perception</a> +27, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +27, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +21, <a href="../skills/stealth.html#_stealth" >Stealth</a> +18, <a href="../skills/survival.html#_survival" >Survival</a> +23</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Common, Draconic, Infernal; <a href="universalMonsterRules.html#_telepathy" >telepathy</a> 100 ft.</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Hell)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, team (2&ndash;3), council (4&ndash;10), or contingent (1&ndash;3 ice devils, 2&ndash;6 horned devils, and 1&ndash;4 bone devils)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (<i>+1 <a href="../magicItems/weapons.html#_weapons-frost" >frost</a> spear</i>, other treasure)</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Slow (Su)</b> A hit from an ice devil's tail or spear induces numbing cold. The opponent must succeed on a DC 23 Fortitude save or be affected as though by a <i><a href="../spells/slow.html#_slow" >slow</a></i> spell for 1d6 rounds. This effect comes from the devil in the case of its weapon; it is not a quality possessed by the spear itself. The save DC is Constitution-based.</p>
+				<p> It is said that each ice devil&mdash;known as gelugons among the ranks of devilkind&mdash;bears within its chest a stolen, frozen mortal heart, which allows it to make decisions free of all emotion. Born on the icy layer of Cocytus, Hell's seventh layer, most ice devils migrate to Caina, the eighth layer, where they plot world-damning machinations from courts of freezing steel. Although they are perhaps the most alien and monstrous in appearance of all devils, few breeds are accorded greater respect. </p>
+				<p>In combat, a gelugon prefers to let its minions engage foes in melee so that it can hang back and appraise the foe's tactics, strengths, and weaknesses. The ice devil supports its minions with its spell-like abilities, always taking care to avoid impacting its minions in the area of effect of its spells&mdash;this not from any sense of camaraderie, only a cold and logical truth that its allies can survive longer in a fight if they are not exposed to friendly fire.</p>
+				<p>Gelugons stand at 12 feet tall, and weigh approximately 700 pounds.</p>
+			
+				<h1 id="devil-imp">Devil, Imp</h1>
+			
+				<p class="flavor-text"><i>Fiendish wings and a whipping scorpion-like tail lash behind this diminutive, red-skinned nuisance.</i></p>
+			
+				<p class="stat-block-title"><b>Imp <span class=stat-block-cr>CR 2</span></b></p>
+				<p class="stat-block-xp"><b>XP 600</b></p>
+				<p class="stat-block-1">LE Tiny <a href="creatureTypes.html#_outsider">outsider</a> (<a href="creatureTypes.html#_devil-subtype" >devil</a>, <a href="creatureTypes.html#_evil-subtype" >evil</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft., <i><a href="../spells/detectGood.html#_detect-good" >detect good</a>, <a href="../spells/detectMagic.html#_detect-magic" >detect magic</a>, </i>see in darkness; <a href="../skills/perception.html#_perception" >Perception</a> +7</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 17, touch 16, flat-footed 13 (+3 Dex, +1 dodge, +1 natural, +2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 16 (3d10); <a href="universalMonsterRules.html#_fast-healing" >fast healing</a> 2</p>
+				<p class="stat-block-1"><b>Fort</b> +1, <b>Ref</b> +6, <b>Will</b> +4</p>
+				<p class="stat-block-1"><b>DR</b> 5/good or silver; <b>Immune</b> fire, poison; <b>Resist</b> acid 10, cold 10</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., fly 50 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee</b> sting +8 (1d4 plus <a href="universalMonsterRules.html#_poison" >poison</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 2-1/2 ft.; <b>Reach</b> 0 ft.</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities </b>(CL 6th)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="../spells/detectGood.html#_detect-good" >detect good</a>, <a href="../spells/detectMagic.html#_detect-magic" >detect magic</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i> (self only)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="../spells/augury.html#_augury" >augury</a>,</i> <i><a href="../spells/suggestion.html#_suggestion" >suggestion</a></i> (DC 15)</p>
+				<p class="stat-block-2">1/week&mdash;<i><a href="../spells/commune.html#_commune" >commune</a></i> (6 questions, CL 12th)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 17, <b>Con</b> 10, <b>Int</b> 13, <b>Wis</b> 12, <b>Cha</b> 14</p>
+				<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +1; <b>CMD</b> 15</p>
+				<p class="stat-block-1"><b>Feats </b><a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p class="stat-block-1"><b>Skills </b><a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +9, <a href="../skills/bluff.html#_bluff" >Bluff</a> +8, <a href="../skills/fly.html#_fly" >Fly</a> +21, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +7, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +7, <a href="../skills/perception.html#_perception" >Perception</a> +7, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +7</p>
+				<p class="stat-block-1"><b>Languages</b> Common, Infernal</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="universalMonsterRules.html#_change-shape" >change shape</a> (boar, giant spider, rat, or raven, <i><a href="../spells/beastShape.html#_beast-shape-i" >beast shape I</a></i>)</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Hell)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or flock (3&ndash;10)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Poison (Ex)</b> Sting&mdash;injury; <i>save</i> Fort DC 13; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1d2 Dex; <i>cure</i> 1 save. The save DC is Constitution-based, and includes a +2 racial bonus.</p>
+				<p>Born directly from the pits of Hell, imps are among the least of the true devils; these vicious, manipulative fiends, however, hold an important role in the corruption of mortal souls. Unfettered from the ranks and duties of diabolical armies, imps delight in any opportunity to travel to the Material Plane and subtly tempt mortals toward acts of ever-greater depravity. Willingly serving spellcasters as familiars, imps play the role of dutiful servants, often granting their masters cunning advice and infernal insights. In truth, though, an imp works to deliver souls to Hell, assuring that its master's soul&mdash;and as many collateral souls as possible&mdash;faces damnation upon death.</p>
+				<p>Imps vary widely in appearance, ranging through a spectrum of bestial traits and grotesque body shapes, though most take the forms of red-skinned, winged humanoids with bulbous features. Such a typical imp stands a mere 2 feet tall, has a 3-foot wingspan, and weighs 10 pounds.</p>
+				<p>One in every thousand imps possesses the ability to communicate telepathically with creatures within 50 feet and the power to change its form into that of any Small or Tiny animal, as per the spell <i><a href="../spells/beastShape.html#_beast-shape-ii" >beast shape II</a></i>. These imp consulars are highly prized by powerful devils, who send them to serve their favored minions or to corrupt mortals with great destinies. An imp consular can be summoned via the <a href="../feats.html#_improved-familiar" >Improved Familiar</a> feat, but only by a spellcaster of 8th level or higher. Diabolists tell of other breeds of imps with similarly specialized abilities, but if such creatures truly exist they are an especially rare lot.</p>
+				<p>Unlike most devils, imps often find themselves free and alone on the Material Plane, particularly after they've been summoned to serve as familiars and their masters have perished (often indirectly due to the machinations of the imp itself). With no way to return home, these imps, freed of their bonds to arcane masters, can become dangerous pests or even leaders of small tribes of savage humanoids like goblins or kobolds.</p>
+			
+				<h1 id="devil-lemure">Devil, Lemure</h1>
+			
+				<p class="flavor-text"><i>A roiling wave of flesh gushes forward. Amid the fatty surge wriggle half-formed limbs and a dripping tumorous face.</i></p>
+			
+				<p class="stat-block-title"><b>Lemure <span class=stat-block-cr>CR 1</span></b></p>
+				<p class="stat-block-1"><b>XP 400</b></p>
+				<p class="stat-block-1">LE Medium <a href="creatureTypes.html#_outsider">outsider</a> (<a href="creatureTypes.html#_devil-subtype" >devil</a>, <a href="creatureTypes.html#_evil-subtype" >evil</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> darkvision 60 ft., see in darkness; <a href="../skills/perception.html#_perception" >Perception</a> +0</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 14, touch 10, flat-footed 14 (+4 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 13 (2d10+2)</p>
+				<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +3, <b>Will</b> +0</p>
+				<p class="stat-block-1"><b>DR</b> 5/good or silver; <b>Immune</b> fire, mind-affecting effects, poison; <b>Resist</b> acid 10, cold 10</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 claws +2 (1d4)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 11, <b>Dex</b> 10, <b>Con</b> 12, <b>Int</b> &mdash;, <b>Wis</b> 11, <b>Cha</b> 5</p>
+				<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> +2; <b>CMD</b> 12</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Hell)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, gang (3&ndash;5), swarm (6&ndash;17), or mob (10&ndash;40 or more)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p>The least of devilkind, lemures roil forth from the ranks of souls damned to Hell, shapeless masses of quivering flesh. What spark of instinct or memory lingers on within a lemure's semi-consciousness regularly shapes its features to mimic those of its tormentors or the tortured souls around it. Grotesque and useless, a lemure's features speak nothing of what it once was. Many exhibit multiple terrible visages or are nothing more than churning pillars of cancerous flesh. Only their knobby, flailing limbs work as they should, and those they merely use to destroy any non-infernal life that draws too near. Moving lemures typically congeal in forms over 4 feet tall and weigh upward of 200 pounds, though when at rest these disgusting fiends often appear to be little more than lumps of melted flesh and malformed features.</p>
+				<p>Although among the most loathsome creatures in existence, lemures serve a vital role in Hell's perverse ecology. When at the end of a mortal life a creature's soul is damned&mdash;whether because it revered diabolical forces or failed in the worship of another deity&mdash;it joins the masses of suffering souls filling the plains of Avernus, Hell's first layer. Here a soul's torments begin as lesser devils marshal it along with similar spirits in preparation for a long, perilous journey to one of Hell's deeper layers&mdash;typically one suited to the punishments appropriate to the soul's crimes, or merely the domain of a devil who has need for slaves. Upon reaching the realm of their damnation, souls face untold lifetimes of torment at the hands of devils, other fiendish beings, and the deadly machinations of Hell itself. As the formerly mortal essences slowly go mad, they forget their lives, grow bestial, and eventually become little more than automatons of fear and hatred. After ages of such existence, the cruel processes of Hell either utterly annihilate the soul or&mdash;in the cases of the most profane spirits&mdash;reconsecrate such forsaken beings into lemures, the building blocks of devils, unthinking waves of filth and diabolical flesh. Such repulsive beings assemble in vast mobs, waves of putrescence thousands upon thousands strong. Greater devils can spot the most corrupt of these fiends and, either through mysterious tortures or the powers of Hell itself, reshape them into true devils, newly born and ready to obediently serve in the legions of the damned.</p>
+			
+				<h1 id="devil-pit-fiend">Devil, Pit Fiend</h1>
+			
+				<p class="flavor-text"><i>A pair of gigantic, flame-seared wings and eyes smoldering like embers give this towering devil a truly horrific appearance.</i></p>
+			
+				<p class="stat-block-title"><b>Pit Fiend <span class=stat-block-cr>CR 20</span></b></p>
+				<p class="stat-block-xp"><b>XP 307,200</b></p>
+				<p class="stat-block-1">LE Large <a href="creatureTypes.html#_outsider">outsider</a> (<a href="creatureTypes.html#_devil-subtype" >devil</a>, <a href="creatureTypes.html#_evil-subtype" >evil</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +13; <b>Senses</b> darkvision 60 ft., see in darkness; <a href="../skills/perception.html#_perception" >Perception</a> +33</p>
+				<p class="stat-block-1"><b>Aura</b> fear (20 ft., DC 23)</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 38, touch 18, flat-footed 29 (+9 Dex, +20 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 350 (20d10+240); <a href="universalMonsterRules.html#_regeneration" >regeneration</a> 5 (good weapons, good spells)</p>
+				<p class="stat-block-1"><b>Fort</b> +24, <b>Ref</b> +21, <b>Will</b> +18</p>
+				<p class="stat-block-1"><b>DR</b> 15/good and silver; <b>Immune</b> fire, poison; <b>Resist</b> acid 10, cold 10; <b>SR</b> 31</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., fly 60 ft. (average)</p>
+				<p class="stat-block-1"><b>Melee</b> 2 claws +32 (2d8+13), 2 wings +30 (2d6+6), bite +32 (4d6+13 plus poison and disease), tail slap +30 (2d8+6 plus <a href="universalMonsterRules.html#_grab" >grab</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft., <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="universalMonsterRules.html#_constrict" >constrict</a> 2d8+19, devil shaping</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities </b>(CL 18th)</p>
+				<p class="stat-block-2">At will&mdash;<i><a href="../spells/blasphemy.html#_blasphemy" >blasphemy</a></i> (DC 25), <i><a href="../spells/createUndead.html#_create-undead" >create undead</a>, <a href="../spells/fireball.html#_fireball" >fireball</a></i> (DC 21), <i><a href="../spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a>, <a href="../spells/teleport.html#_teleport-greater" >greater teleport</a> </i>(self plus 50 lbs. of objects only), <i><a href="../spells/scrying.html#_scrying-greater" >greater scrying</a></i> (DC 25), <i><a href="../spells/invisibility.html#_invisibility" >invisibility</a>, <a href="../spells/magicCircleAgainstGood.html#_magic-circle-against-good" >magic circle against good</a>, <a href="../spells/holdMonster.html#_hold-monster-mass" >mass hold monster</a> </i>(DC 27), <i><a href="../spells/persistentImage.html#_persistent-image" >persistent image</a> </i>(DC 23), <i><a href="../spells/powerWordStun.html#_power-word-stun" >power word stun</a>, <a href="../spells/scorchingRay.html#_scorching-ray" >scorching ray</a></i>, <i><a href="../spells/trapTheSoul.html#_trap-the-soul" >trap the soul</a></i> (DC 26), <i><a href="../spells/unholyAura.html#_unholy-aura" >unholy aura</a></i> (DC 26), <i><a href="../spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i></p>
+				<p class="stat-block-2">3/day&mdash;quickened<i> <a href="../spells/fireball.html#_fireball" >fireball</a></i> (DC 21)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="../spells/meteorSwarm.html#_meteor-swarm" >meteor swarm</a>, </i><a href="universalMonsterRules.html#_summon" >summon</a> (level 9, any 1 <span class=stat-block-cr>CR 19</span> or lower devil, 100%)</p>
+				<p class="stat-block-2">1/year&mdash;<i><a href="../spells/wish.html#_wish" >wish</a></i></p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 37, <b>Dex</b> 29, <b>Con</b> 35, <b>Int</b> 26, <b>Wis</b> 30, <b>Cha</b> 26</p>
+				<p class="stat-block-1"><b>Base Atk </b>+20; <b>CMB</b> +34 (+38 grapple); <b>CMD</b> 53</p>
+				<p class="stat-block-1"><b>Feats </b><a href="../feats.html#_cleave" >Cleave</a>, <a href="../feats.html#_great-cleave" >Great Cleave</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_improved-iron-will" >Improved Iron Will</a>, <a href="../feats.html#_improved-vital-strike" >Improved Vital Strike</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="monsterFeats.html#_multiattack" >Multiattack</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="monsterFeats.html#_quicken-spell-like-ability" >Quicken Spell-Like Ability</a> (<i><a href="../spells/fireball.html#_fireball" >fireball</a></i>), <a href="../feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills </b><a href="../skills/appraise.html#_appraise" >Appraise</a> +17, <a href="../skills/bluff.html#_bluff" >Bluff</a> +31, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +31, <a href="../skills/disguise.html#_disguise" >Disguise</a> +27, <a href="../skills/fly.html#_fly" >Fly</a> +30, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> +31, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +28, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +31, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +31, <a href="../skills/perception.html#_perception" >Perception</a> +33, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +33, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +31, <a href="../skills/stealth.html#_stealth" >Stealth</a> +28, <a href="../skills/survival.html#_survival" >Survival</a> +22, <a href="../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +28</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Common, Draconic, Infernal; <a href="universalMonsterRules.html#_telepathy" >telepathy</a> 100 ft.</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Hell)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or council (3&ndash;9)</p>
+				<p class="stat-block-1"><b>Treasure</b> double</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Devil Shaping (Su) </b>Three times per day, a pit fiend can spend a minute to transform nearby lemures into other lesser devils. A pit fiend can transform one lemure for every Hit Die the pit fiend possesses. It can then reshape these lemures into a number of Hit Dice's worth of lesser devils equal to the number of lemures affected. For example, a typical 20 Hit Dice pit fiend could transform 20 lemures into two bone devils (10 HD each), or three bearded devils (6 HD each, leaving two lemures unchanged), or any other combination of lesser devils. Lemures to be reshaped must be within 50 feet of the pit fiend, becoming stationary and unable to move once the shaping begins. After a minute passes, the lemures reform into the shape of a new lesser devil ready to follow the orders of the pit fiend. Although pit fiends can, technically, elevate a mass of 20 lemures into a new pit fiend, most are hesitant to do so since they have no special control over a devil created in this manner.</p>
+				<p class="stat-block-1"><b>Disease (Su)</b> <i>Devil Chills</i>: Bite&mdash;injury; <i>save</i> Fort DC 32; <i>onset</i> immediate; <i>frequency</i> 1/day; <i>effect</i> 1d4 Str <a href="universalMonsterRules.html#_ability-damage-and-drain" >damage</a>; <i>cure</i> 3 consecutive saves. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Poison (Ex) </b>Bite&mdash;injury; <i>save</i> Fort DC 32; <i>frequency</i> 1/round for 10 rounds; <i>effect</i> 1d6 Con <a href="universalMonsterRules.html#_ability-damage-and-drain" >damage</a>; <i>cure</i> 3 consecutive saves. The save DC is Constitution-based.</p>
+				<p>Rulers of infernal realms, generals of Hell's armies, and advisors to the archfiends, pit fiends embody the awesome and terrible pinnacle of devilkind. Massive, physically indomitable, and possessed of ingenious evil intellects, these diabolical tyrants hold great autonomy whether in their service to the archfiends, in their rule of vast infernal fiefdoms, or in subjugation of mortal worlds. Thick muscles cling to their gigantic frames, armored over by dense, bladed scales capable of deflecting all but the most potent assaults. Fangs as thick as daggers fill their maws, bestial visages disguising some of the most insidious minds in Hell. Born within the depths of Nessus, the ninth and deepest layer of Hell, pit fiends are raised from the ranks of cornugons and gelugons by the archdevils and their dukes alone. While many travel to higher layers and far from Hell to command infernal legions, most remain in Nessus serving in the courts of Hell's elite or in dark councils with unknowable purposes. Pit fiends always stand over 14 feet tall, with wingspans in excess of 20 feet and weights over 1,000 pounds.</p>
+				<p>Pit fiends are masters of fire and prefer lands bathed in flame. In Hell, this predisposes them to Avernus, Dis, Malebolge, Nessus, and Phlegethon the layers most likely to harbor their burning temple-citadels. Fanatics obsessed with diabolical superiority and ironclad obedience, pit fiends left to their own devices raise massive armies, scouring the pits of Hell for the most depraved lemures to transform into true fiends. When convinced they've formed the perfect legions, they turn their attentions to vulnerable demiplanes and mortal worlds, eyeing them for infernal domination and the glory of conquest. While obedient to the hierarchies of their kind, they are also strict in their enforcement, and should a pit fiend find itself subservient to a master unfit to rule, it holds itself duty bound to cast down such an incompetent lord. Thus, whether as masters or servants, pit fiends embody the will of Hell's merciless law and assure that only the strongest of devilkind flourish (or dare to). </p>
+				<p>Only the most powerful of mortal spellcasters can or dare summon a pit fiend. These devils' reactions to summoning are deliberate and swift, usually typified by overwhelming rage that such insignificant beings would waste their immortal time. Those that cannot weather the devils' burning rage are slain&mdash;their souls typically racing the pit fiends back to Hell. Those who manage to keep control of the greater devils, though, intrigue them. A pit fiend might dutifully serve a mortal master for centuries, but its goal is always the same: to further corrupt the mortal soul, assure its absolute damnation, and when the mortal inevitably dies, claim its soul and begin the process of creating a perfectly corrupt lemure servant. Pit fiends know they are immortal and are intelligent enough to indulge in impossibly disciplined patience. As such, the eldest pit fiends see in their legions the faces of countless fools who once presumed themselves the devils' masters.</p>
+				<h2>Infernal Dukes</h2>
+				<p>The most powerful of pit fiends are lords in their own right&mdash;members of the elite caste of infernal politics and leadership known as the Dukes of Hell. While not all of the Dukes of Hell are pit fiends, the majority of them are. As a general rule, a pit fiend Duke of Hell has several levels of a particular character class, the advanced simple template, or in some cases unusual spell-like abilities or unique powers over and above those of most pit fiends. Listed here are three sample unique pit fiend duke abilities, but these examples are by no means the entirety of what strange powers an infernal duke might wield.</p>
+				<p><b>Deathmastery (Su)</b>: The pit fiend duke's ability to manipulate the souls of the damned extends beyond the standard devil shaping power. Whenever a pit fiend slays a humanoid, it can attempt to transform the slain creature's soul into a ghost under the pit fiend's control. The pit fiend may control a number of ghosts in this manner equal to its Charisma modifier.</p>
+				<p><b>Master of Magic (Su)</b>: The pit fiend duke has additional spell-like abilities (20 spell levels' worth of 1st&ndash;4th level spells usable at will and 20 spell levels' worth of 5th&ndash;8th level spells usable 3 times a day).</p>
+				<p><b>Hellfire Breath (Su)</b>: The pit fiend gains a devastating breath weapon that it can use once every 1d4 rounds. This breath weapon is a 60-foot cone of fire (10d10 fire damage and 10d10 unholy damage as per <i><a href="../spells/flameStrike.html#_flame-strike" >flame strike</a></i>, successful Reflex save [DC 10 + 1/2 the pit fiend's racial HD + the pit fiend's Constitution modifier] half).</p>
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Head Slot</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Head Slot",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html', name: 'Wondrous Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="head-slot-wondrous-items">Head Slot Wondrous Items</h1>
+<p>The head slot consists of caps, circlets, crowns, halos, hats, helms, hoods, laurels, masks, veils, wigs, and other non-headband slot items that can be worn on the head.</p>
+<p>Anyone can use a head slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.</p>
+
+<table id="head-slot-wondrous-items"><caption>Head Slot Wondrous Items</caption>
+<thead><tr><th>d%</th><th>Lesser Minor Head Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;10</td><td><i>Mask of stony demeanor</td><td></i>500 gp</td></tr>
+<tr class="even"><td>11&ndash;22</td><td><i>Cap of human guise</td><td></i>800 gp</td></tr>
+<tr class="odd"><td>23&ndash;36</td><td><i>Cap of light</td><td></i>900 gp</td></tr>
+<tr class="even"><td>37&ndash;56</td><td><i>Hat of disguise</td><td></i>1,800 gp</td></tr>
+<tr class="odd"><td>57&ndash;71</td><td><i>Buffering cap</td><td></i>2,000 gp</td></tr>
+<tr class="even"><td>72&ndash;85</td><td><i>Miser's mask</td><td></i>3,000 gp</td></tr>
+<tr class="odd"><td>86&ndash;100</td><td><i>Stalker's mask</td><td></i>3,500 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Minor Head Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;12</td><td><i>Circlet of persuasion</td><td></i>4,500 gp</td></tr>
+<tr class="even"><td>13&ndash;21</td><td><i>Grappler's mask</td><td></i>5,000 gp</td></tr>
+<tr class="odd"><td>22&ndash;31</td><td><i>Helm of fearsome mien</td><td></i>5,000 gp</td></tr>
+<tr class="even"><td>32&ndash;40</td><td><i>Jingasa of the fortunate soldier</td><td></i>5,000 gp</td></tr>
+<tr class="odd"><td>41&ndash;54</td><td><i>Helm of comprehend languages and read magic</i></td><td>5,200 gp</td></tr>
+<tr class="even"><td>55&ndash;67</td><td><i>Crown of swords</td><td></i>6,000 gp</td></tr>
+<tr class="odd"><td>68&ndash;87</td><td><i>Crown of blasting, minor</td><td></i>6,480 gp</td></tr>
+<tr class="even"><td>88&ndash;100</td><td><i>Mask of the krenshar</td><td></i>7,200 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Medium Head Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;16</td><td><i>Helm of the mammoth lord</td><td></i>8,500 gp</td></tr>
+<tr class="even"><td>17&ndash;30</td><td><i>Veil of fleeting glances</td><td></i>9,000 gp</td></tr>
+<tr class="odd"><td>31&ndash;46</td><td><i>Mask of a thousand tomes</td><td></i>10,000 gp</td></tr>
+<tr class="even"><td>47&ndash;63</td><td><i>Medusa mask</td><td></i>10,000 gp</td></tr>
+<tr class="odd"><td>64&ndash;80</td><td><i>Cap of the free thinker</td><td></i>12,000 gp</td></tr>
+<tr class="even"><td>81&ndash;100</td><td><i>Halo of inner calm</td><td></i>16,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Medium Head Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;06</td><td><i>Cat's eye crown</td><td></i>18,000 gp</td></tr>
+<tr class="even"><td>07&ndash;12</td><td><i>Maw of the wyrm</td><td></i>18,000 gp</td></tr>
+<tr class="odd"><td>13&ndash;19</td><td><i>Mitre of the hierophant</td><td></i>18,000 gp</td></tr>
+<tr class="even"><td>20&ndash;27</td><td><i>Magician's hat</td><td></i>20,000 gp</td></tr>
+<tr class="odd"><td>28&ndash;34</td><td><i>Circlet of mindsight</td><td></i>22,000 gp</td></tr>
+<tr class="even"><td>35&ndash;42</td><td><i>Mask of the skull</td><td></i>22,000 gp</td></tr>
+<tr class="odd"><td>43&ndash;50</td><td><i>Howling helm</td><td></i>22,600 gp</td></tr>
+<tr class="even"><td>51&ndash;62</td><td><i>Crown of blasting, major</td><td></i>23,760 gp</td></tr>
+<tr class="odd"><td>63&ndash;72</td><td><i>Helm of underwater action</td><td></i>24,000 gp</td></tr>
+<tr class="even"><td>73&ndash;79</td><td><i>Crown of conquest</td><td></i>24,600 gp</td></tr>
+<tr class="odd"><td>80&ndash;85</td><td><i>Batrachian helm</td><td></i>26,000 gp</td></tr>
+<tr class="even"><td>86&ndash;94</td><td><i>Helm of telepathy</td><td></i>27,000 gp</td></tr>
+<tr class="odd"><td>95&ndash;100</td><td><i>Plague mask</td><td></i>27,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Major Head Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;14</td><td><i>Iron circlet of guarded souls</td><td></i>30,000 gp</td></tr>
+<tr class="even"><td>15&ndash;29</td><td><i>Laurel of command</td><td></i>30,000 gp</td></tr>
+<tr class="odd"><td>30&ndash;45</td><td><i>Mask of giants, lesser</td><td></i>30,000 gp</td></tr>
+<tr class="even"><td>46&ndash;61</td><td><i>Steel-mind cap</td><td></i>33,600 gp</td></tr>
+<tr class="odd"><td>62&ndash;78</td><td><i>Stormlord's helm</td><td></i>35,000 gp</td></tr>
+<tr class="even"><td>79&ndash;100</td><td><i>Helm of brilliance, lesser</td><td></i>36,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Major Head Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;14</td><td><i>Judge's wig</td><td></i>59,200 gp</td></tr>
+<tr class="even"><td>15&ndash;39</td><td><i>Helm of teleportation</td><td></i>73,500 gp</td></tr>
+<tr class="odd"><td>40&ndash;55</td><td><i>Halo of menace</td><td></i>84,000 gp</td></tr>
+<tr class="even"><td>56&ndash;68</td><td><i>Mask of giants, greater</td><td></i>90,000 gp</td></tr>
+<tr class="odd"><td>69&ndash;83</td><td><i>Helm of brilliance</td><td></i>125,000 gp</td></tr>
+<tr class="even"><td>84&ndash;92</td><td><i>Helm of electric radiance</td><td></i>125,000 gp</td></tr>
+<tr class="odd"><td>93&ndash;100</td><td><i>Crown of heaven</td><td></i>150,000 gp</td></tr></table>
+				
+<p id="batrachian-helm" class="stat-block-title">Batrachian Helm</p>
+<p class="stat-block-1"><b>Price</b>26,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 10th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">This oily bronze helm is fashioned in the shape of a frog's head. Three times per day as a swift action, the helm fires an unerring tongue of force at a visible target within 20 feet.</p>
+<p class="stat-block">If the target is an unattended object weighing 250 pounds or less, it is pulled 20 feet toward the wearer. If the target is a creature of the wearer's size or smaller, the wearer may make a combat maneuver check as a free action to pull the target 20 feet toward him.</p>
+<p class="stat-block">If the target is a creature larger than the wearer, an unattended object weighing more than 250 pounds, or an immobile structure such as a wall, the wearer is pulled 20 feet toward the target. This movement does not provoke attacks of opportunity, and the object or creature stops if the movement would move it into a solid object or creature.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 13,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis" >telekinesis</a></i></p>
+				
+<p id="buffering-cap" class="stat-block-title">Buffering Cap</p>
+<p class="stat-block-1"><b>Price</b>2,000 gp; <b>Aura</b> faint conjuration; <b>CL</b> 1st; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This cloth hat is floppy and shapeless. It offers its wearer an unusual amount of protection against particularly devastating blows. Once per day when struck by a critical hit, the wearer can spend an immediate action to convert the bonus damage of the critical hit into nonlethal damage. The cap has no effect if the wearer is immune to nonlethal damage.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i></p>
+				
+<p id="cap-of-human-guise" class="stat-block-title">Cap of Human Guise</p>
+<p class="stat-block-1"><b>Price</b>800 gp; <b>Aura</b> faint illusion; <b>CL</b> 3rd; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This threadbare hat allows its wearer to alter her appearance at will as with a <i><a href="/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self" >disguise self</a></i> spell, except she can only appear as a plainly dressed Small human child, adult halfling, or adult gnome, such as a peasant, blacksmith, or shopkeeper. The wearer can slightly alter the cap's appearance as part of the disguise, but otherwise must match the overall unremarkable look of the illusory form.</p>
+<p class="stat-block">Though invented and primarily used by Small humanoids, it can be used by any Small or Medium humanoid creature.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 400 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self" >disguise self</a></i></p>
+				
+<p id="cap-of-light" class="stat-block-title">Cap of Light</p>
+<p class="stat-block-1"><b>Price</b> 900 gp; <b>Aura</b> faint evocation; <b>CL</b>1st; <b>Weight</b>&mdash;</p>
+<p class="stat-block">This small cloth skullcap resembles those some priests wear, but is topped with a small silver statue in the shape of a lit candle. The wearer can command the statue to radiate <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i> (as the spell). The <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i> can also be turned off on command.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 450 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i></p>
+				
+<p id="cap-of-the-free-thinker" class="stat-block-title">Cap of the Free Thinker</p>
+<p class="stat-block-1"><b>Price</b>12,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 10th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This soft cap helps the wearer free herself from outside influences. When the wearer makes a saving throw against a mind-affecting effect, she can roll twice and take the better roll.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 6,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank" >mind blank</a></i></p>
+				
+				
+<p id="Cat's-Eye-Crown" class="stat-block-title">Cat's Eye Crown</p>
+<p class="stat-block-1"><b>Price</b> 18,000 gp; <b>Aura</b> moderate divination; <b>CL</b>10th; <b>Weight</b>1 lb.</p>
+<p class="stat-block">This slender silver crown is decorated with a single cat's eye gemstone as a centerpiece. When the gem is attached to the crown, its wearer gains darkvision 60 feet, or increases her darkvision by 60 feet if she already possesses that sense. The gemstone is detachable, and can be rolled into rooms, dropped into holes, thrown through windows, or planted on a creature. Once per day, on command, the crown's wearer gains the benefit of the <i><a href="/pathfinderRPG/prd/spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance" >clairaudience/clairvoyance</a></i> spell, but uses the cat's eye gemstone as that spell's sensor and gains darkvision when viewing through that sensor. If the stone is held or carried by a creature, even within a sack or some other container, the creature wearing the crown uses the senses of the creature carrying the gemstone as the sensor instead, whether or not the creature carrying the gemstone is aware of the stone's true purpose or even its existence. Destroying the gem (hardness 8, hp 5) severs the link, but a new cat's eye gemstone worth at least 100 gp can be fashioned and attuned to the crown. The attunement process takes 24 hours.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 9,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance" >clairaudience/clairvoyance</a></i>, <i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a></i>, creator must be a catfolk</p>
+				
+<p id="circlet-of-mindsight" class="stat-block-title">Circlet of Mindsight</p>
+<p class="stat-block-1"><b>Price</b> 22,000 gp; <b>Aura</b> moderate divination; <b>CL</b> 9th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This elaborate circlet of gold-and-platinum filigree bears tiny gems in settings that look disturbingly like human eyes. When worn, the circlet lets the wearer sense the presence of other thinking creatures in her immediate area. The wearer gains the benefits of blindsense 30 feet, but only against creatures with an Intelligence score that are susceptible to mind-affecting effects.</p>
+<p class="stat-block">Undead, constructs, and mindless creatures like most oozes and vermin cannot be perceived when using the circlet, nor can creatures under the effects of <i><a href="/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank" >mind blank</a></i> or a <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-mind-shielding" >ring of mind shielding</a></i>.</p>
+<p class="stat-block">The circlet does not interfere with the wearer's ability to see normally. If the wearer has blindsense or blindsight, he is able to differentiate creatures detected with those senses from creatures detected with the <i>circlet of mindsight</i>.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 11,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance" >clairaudience/clairvoyance</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i></p>
+
+<p id="circlet-of-persuasion" class="stat-block-title">Circlet of Persuasion</p>
+<p class="stat-block-1"><b>Price</b> 4,500 gp; <b>Aura</b> faint transmutation; <b>CL</b>5th; <b>Weight</b>&mdash;</p>
+<p class="stat-block">This delicately engraved silver headband grants its wearer a +3 competence bonus on Charisma-based checks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,250 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i></p>
+
+<p id="Crown-of-Blasting-major" class="stat-block-title">Crown of Blasting, major</p>
+<p class="stat-block-1"><b>Price</b>23,760 gp; <b>Aura</b> strong evocation; <b>CL</b> 17th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">On command, this elaborate golden crown projects a blast of <i><a href="/pathfinderRPG/prd/spells/searingLight.html#_searing-light" >searing light</a></i> (5d8 maximized for 40 points of damage) once per day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 11,880 gp</p>
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_maximize-spell" >Maximize Spell</a>, <i><a href="/pathfinderRPG/prd/spells/searingLight.html#_searing-light" >searing light</a></i></p>
+				
+<p id="Crown-of-Blasting-Minor" class="stat-block-title">Crown of Blasting, Minor</p>
+<p class="stat-block-1"><b>Price</b>6,480 gp; <b>Aura</b> moderate evocation; <b>CL</b> 6th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">On command, this simple golden crown projects a blast of <i><a href="/pathfinderRPG/prd/spells/searingLight.html#_searing-light" >searing light</a></i> (3d8 points of damage) once per day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,240 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/searingLight.html#_searing-light" >searing light</a></i></p>
+				
+<p id="crown-of-conquest" class="stat-block-title">Crown of Conquest</p>
+<p class="stat-block-1"><b>Price</b>24,600 gp; <b>Aura</b> moderate enchantment; <b>CL</b> 7th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">This crown of steel and gold projects an aura of menacing power. The wearer gains a +4 competence bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks, and whenever he confirms a critical hit, the crown creates a <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i> effect centered on the crown's wearer (caster level 5th).</p>
+<p class="stat-block">If the wearer of the crown has the <a href="/pathfinderRPG/prd/feats.html#_leadership" >Leadership</a> feat, he gains a +1 bonus to his <a href="/pathfinderRPG/prd/feats.html#_leadership" >Leadership</a> score and any follower or cohort of the wearer gains a +1 bonus on attack rolls and saving throws against fear effects while within line of sight of the wearer.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 12,300 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a></i>, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i>, <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i></p>
+				
+				
+<p id="crown-of-heaven" class="stat-block-title">Crown of Heaven</p>
+<p class="stat-block-1"><b>Price</b> 150,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b>10th; <b>Weight</b>5 lbs.</p>
+<p class="stat-block">This slim golden diadem, bejeweled with diamonds and sapphires, grants its wearer fluency in Celestial and allows her to <i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a> </i>at will and use <i><a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a> </i>once per day, both on command. She also gains a +5 sacred bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) checks regarding outsiders with the good or evil subtypes, and any effect she creates with the good descriptor takes effect at +1 caster level.</p>
+<p class="stat-block">A <i>crown</i>, an <i>orb</i>, and a <i>scepter of heaven</i>&mdash;collectively known as a <i>regalia of heaven</i>&mdash;increase in power when used together. If the wearer of a <i>crown of heaven </i>wields an <i>orb</i> or <i>scepter of heaven</i>, effects she creates with the good descriptor gain an additional +1 caster level, and she gains a +1 sacred bonus to AC and on saves against attacks or effects created by evil creatures. She also radiates an <i>aura of menace</i> in a 20-foot radius. Any evil creature within this aura takes a &ndash;2 penalty on attack rolls, on saving throws, and to AC until it successfully hits the wearer of the regalia (DC 20 Will negates). A creature that saves is immune to this effect for 24 hours. If the aura is dispelled, the wearer can restore it as a standard action.</p>
+<p class="stat-block">If the crown is worn while the wearer is wielding both an <i>orb</i> and <i>scepter of heaven</i>, the crown's caster level increases to 15th, effects the wearer creates with the good descriptor gain an additional +1 caster level increase, and her sacred bonus to AC and saves increases to +2. In addition, as a full-round action, the wearer can create an <i>aura of sanctity </i>for as long as she concentrates. This aura provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws against attacks made or effects created by evil creatures, as well as the benefits of a <i><a href="/pathfinderRPG/prd/spells/magicCircleAgainstEvil.html#_magic-circle-against-evil" >magic circle against evil</a> </i>and a <i><a href="/pathfinderRPG/prd/spells/globeOfInvulnerability.html#_globe-of-invulnerability-lesser" >lesser globe of invulnerability</a>. </i></p>
+<p class="stat-block">A <i>crown of heaven </i>bestows one negative level on any evil creature bearing it, which cannot be removed or overcome while carrying the crown. If the same creature carries an <i>orb </i>or <i>scepter of heaven, </i>it gains one additional negative level per object. An evil creature intentionally donning a <i>crown of heaven </i>gains an additional negative level and is affected as <i><a href="/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse" >bestow curse</a> </i>(DC 17) immediately and every 24 hours that the crown is worn. A neutral character can attempt a DC 17 Fortitude save to avoid gaining these negative levels.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 75,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/auraOfDoom.html#_aura-of-doom" >aura of doom</a> , <a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a>, <a href="/pathfinderRPG/prd/spells/dispelEvil.html#_dispel-evil" >dispel evil</a>, <a href="/pathfinderRPG/prd/spells/magicCircleAgainstEvil.html#_magic-circle-against-evil" >magic circle against evil</a>, <a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a></i></p>
+
+<p id="crown-of-swords" class="stat-block-title">Crown of Swords</p>
+<p class="stat-block-1"><b>Price</b>6,000 gp; <b>Aura</b> faint evocation; <b>CL</b> 3rd; <b>Weight</b>  3 lbs.</p>
+<p class="stat-block">This radiant crown of steel is bedecked with miniature mithral swords. A <i>crown of swords</i> can be used up to 10 times per day. When struck in combat, the wearer may spend one use as an immediate action to create a longsword-shaped <i><a href="/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon" >spiritual weapon</a></i> that then attacks her attacker. On the wearer's next turn, she may spend one additional use each round to continue attacking that target with the <i><a href="/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon" >spiritual weapon</a></i>; the <i><a href="/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon" >spiritual weapon</a></i> cannot be redirected and disappears if the target is killed or moves out of range. Multiple <i>spiritual weapons</i> may be created (even attacking the same target) if the wearer is attacked in subsequent rounds.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon" >spiritual weapon</a></i></p>
+				
+<p id="Grappler's-Mask" class="stat-block-title">Grappler's Mask</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> faint transmutation; <b>CL</b>1st; <b>Weight</b>2 lbs.</p>
+<p class="stat-block">This mask is fashioned from dark leather decorated with geometrical patterns that emphasize the wearer's fearsomeness. It covers the wearer's face, but leaves his mouth and eyes uncovered. The wearer may attempt to bull rush and grapple without provoking attacks of opportunity.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat" >expeditious retreat</a></i></p>
+				
+<p id="halo-of-inner-calm" class="stat-block-title">Halo of Inner Calm</p>
+<p class="stat-block-1"><b>Price</b>16,000 gp; <b>Aura</b> strong abjuration; <b>CL</b> 15th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This silvery ring looks like a halo. When worn by a tiefling it hovers just above his head, though it still uses the head magic item slot. It helps to calm the baser emotions and the dark whispers that plague tieflings, granting the wearer a +4 resistance bonus on saving throws against all spells with the emotion descriptor. When worn by a tiefling of a good alignment, it provides spell resistance 13 against spells with the evil descriptor and a +2 sacred bonus on saving throws.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 8,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/holyAura.html#_holy-aura" >holy aura</a>, </i>creator must be a tiefling of good alignment</p>
+				
+<p id="halo-of-menace" class="stat-block-title">Halo of Menace</p>
+<p class="stat-block-1"><b>Price</b>84,000 gp; <b>Aura</b> strong enchantment; <b>CL</b> 9th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">When placed over the head, this halo of shimmering polished steel floats above it, though it still takes up the head slot. The halo constantly radiates a 20-foot-radius aura from its wearer. Any hostile creature within the aura must succeed at a DC 20 Will save or take a &ndash;2 penalty on attack rolls, on saving throws, and to AC for the next 24 hours or until it hits the wearer with an attack or damages it with a spell, spell-like ability, or supernatural ability. Chaotic creatures take a &ndash;2 penalty on this saving throw. A creature that has resisted or broken the effect of the <i>halo of menace</i> cannot be affected by the same wearer's aura for 24 hours. The aura is a mind-affecting effect.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 42,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/orderSWrath.html#_order-s-wrath" >order's wrath</a></i>, creator must be an aasimar or an archon</p>
+
+<p id="Hat-of-Disguise" class="stat-block-title">Hat of Disguise</p>
+<p class="stat-block-1"><b>Price</b> 1,800 gp; <b>Aura</b> faint illusion; <b>CL</b>1st; <b>Weight</b>&mdash;</p>
+<p class="stat-block">This apparently normal hat allows its wearer to alter her appearance as with a <i><a href="/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self" >disguise self</a></i> spell. As part of the disguise, the hat can be changed to appear as a comb, ribbon, headband, cap, coif, hood, helmet, or other headwear.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 900 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self" >disguise self</a></i></p>
+				
+<p id="helm-of-brilliance" class="stat-block-title">Helm of Brilliance</p>
+<p class="stat-block-1"><b>Price</b> 125,000 gp; <b>Aura</b> strong varied; <b>CL</b>13th; <b>Weight</b>3 lbs.</p>
+<p class="stat-block">This normal-looking helm takes its true form and manifests its powers when the user dons it and speaks the command word. Made of brilliant silver and polished steel, a newly created helm is set with large magic gems: 10 diamonds, 20 rubies, 30 fire opals, and 40 opals. When struck by bright light, the helm scintillates and sends forth reflective rays in all directions from its crown-like, gem-tipped spikes. The jewels' functions are as follows:</p>
+<ul><li>Diamond: <i><a href="/pathfinderRPG/prd/spells/prismaticSpray.html#_prismatic-spray" >Prismatic spray</a></i> (save DC 20)</li>
+<li>Ruby: <i><a href="/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire" >Wall of fire</a></i></li>
+<li>Fire opal: <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >Fireball</a></i> (10d6, Reflex DC 20 half)</li>
+<li>Opal: <a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >Daylight</a></li></ul>
+<p class="stat-block">The helm may be used once per round, but each gem can perform its spell-like power just once. Until all its jewels are depleted, a <i>helm of brilliance</i> also has the following magical properties when activated.</p>
+<p class="stat-block">It emanates a bluish light when undead are within 30 feet. This light causes 1d6 points of damage per round to all such creatures within that range.</p>
+<p class="stat-block">The wearer may command any weapon he wields to become a <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a></i> weapon. This is in addition to whatever abilities the weapon may already have (unless the weapon already is a <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a></i> weapon). The command takes 1 round to take effect.</p>
+<p class="stat-block">The helm provides fire resistance 30. This protection does not stack with similar protection from other sources.</p>
+<p class="stat-block">Once all its jewels have lost their magic, the helm loses its powers and the gems turn to worthless powder. Removing a jewel destroys it.</p>
+<p class="stat-block">If a creature wearing the helm is damaged by magical fire (after the fire protection is taken into account) and fails an additional DC 15 Will save, the remaining gems on the helm overload and detonate. Remaining diamonds become <i>prismatic sprays</i> that each randomly target a creature within range (possibly the wearer), rubies become straight-line <i>walls of fire</i> extending outward in a random direction from the helm wearer, and fire opals become <i>fireballs</i> centered on the helm wearer. The opals and the helm itself are destroyed.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 62,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead" >detect undead</a></i>, <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i>, <i><a href="/pathfinderRPG/prd/spells/flameBlade.html#_flame-blade" >flame blade</a></i>, <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i>, <i><a href="/pathfinderRPG/prd/spells/prismaticSpray.html#_prismatic-spray" >prismatic spray</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i></p>
+				
+<p id="Helm-of-Brilliance-Lesser" class="stat-block-title">Helm of Brilliance, Lesser</p>
+<p class="stat-block-1"><b>Price</b> 36,000 gp; <b>Aura</b> moderate varied; <b>CL</b> 5th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">This helm functions like a <i>helm of brilliance</i> but is lower-powered. Instead of the standard helm's allotment of gems, the lesser helm has 10 diamonds (<i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i>, 10d6 damage, Reflex DC 20 half), 20 corals (<i><a href="/pathfinderRPG/prd/spells/flamingSphere.html#_flaming-sphere" >flaming sphere</a></i>), 30 garnets (<i><a href="/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray" >scorching ray</a></i>), and 40 agates (<i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>). It still glows near and harms undead, has the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a></i> weapon special ability, and provides fire resistance (though only 20 instead of 30).</p>
+<p class="stat-block">Just like the standard helm, the wearer risks detonation if damaged by magical fire; diamonds become <i>fireballs</i> centered on the wearer, corals become <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a> spheres</i> in and adjacent to the wearer's space, garnets become <i>scorching rays</i> that fire randomly at creatures in range, and the agates and the helm itself are destroyed.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 18,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead" >detect undead</a></i>, <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i>, <i><a href="/pathfinderRPG/prd/spells/flameBlade.html#_flame-blade" >flame blade</a></i>, <i><a href="/pathfinderRPG/prd/spells/flamingSphere.html#_flaming-sphere" >flaming sphere</a></i>, <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray" >scorching ray</a></i></p>
+				
+<p id="helm-of-comprehend-languages-and-read-magic" class="stat-block-title">helm of comprehend languages and read Magic</p>
+<p class="stat-block-1"><b>Price</b>5,200 gp; <b>Aura</b> faint divination; <b>CL</b> 4th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">Appearing as a normal helmet, a <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_helm-of-comprehend-languages-and-read-magic" >helm of <a href="/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages" >comprehend languages</a> and read magic</a></i> grants its wearer the ability to understand the spoken words of any creature and to read text in any language and any magical writing. The wearer gains a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> checks to understand messages written in incomplete, archaic, or exotic forms. Note that understanding a magical text does not necessarily imply ability to use its spells.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,600 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages" >comprehend languages</a></i>, <i><a href="/pathfinderRPG/prd/spells/readMagic.html#_read-magic" >read magic</a></i></p>
+				
+<p id="helm-of-electric-radiance" class="stat-block-title">Helm of Electric Radiance</p>
+<p class="stat-block-1"><b>Price</b> 125,000 gp; <b>Aura</b> strong varied; <b>CL</b> 13th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">The <i>helm of electric radiance</i> is similar to a <i>helm of brilliance</i>, except its spells focus on electricity rather than fire. Other aspects of the helm, such as detecting and damaging undead, remain unchanged. The helm has 10 sapphires that can be used for <i><a href="/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning" >chain lightning</a></i>, 20 pieces of amber that can be used for <i><a href="/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a></i>, 30 pieces of petrified wood that can be used for <i>shocking sphere</i> (as <i><a href="/pathfinderRPG/prd/spells/flamingSphere.html#_flaming-sphere" >flaming sphere</a></i> but dealing electricity damage), and 40 opals that can be used for <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i>. In addition, the wearer gains resistance to electricity 30 and his weapons become <i>shocking</i> weapons instead of <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a></i> weapons.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 62,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning" >chain lightning</a></i>, <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead" >detect undead</a></i>, <i><a href="/pathfinderRPG/prd/spells/flamingSphere.html#_flaming-sphere" >flaming sphere</a></i>, <i><a href="/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp" >shocking grasp</a></i></p>
+				
+<p id="helm-of-fearsome-mien" class="stat-block-title">Helm of Fearsome Mien</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> faint necromancy; <b>CL</b>1st; <b>Weight</b>4 lbs.</p>
+<p class="stat-block">This metal helm is made to look like the wearer has large fangs and other features resembling those of a fearsome predator. If the wearer is a barbarian, she can use the intimidating glare rage power whenever she rages. The helm has no effect if the wearer is not a barbarian (or another class with the rage class feature).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/causeFear.html#_cause-fear" >cause fear</a></i></p>
+				
+				
+<p id="helm-of-telepathy" class="stat-block-title">Helm of Telepathy</p>
+<p class="stat-block-1"><b>Price</b> 27,000 gp; <b>Aura</b> faint divination and enchantment; <b>CL</b>5th; <b>Weight</b>3 lbs.</p>
+<p class="stat-block">This pale metal or ivory helm covers much of the head when worn. The wearer can use <i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i> at will. Furthermore, he can send a telepathic message to anyone whose surface thoughts he is reading (allowing two-way communication). Once per day, the wearer of the helm can implant a <i><a href="/pathfinderRPG/prd/spells/suggestion.html#_suggestion" >suggestion</a></i> (as the spell, Will DC 14 negates) along with his telepathic message.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 13,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i>, <i><a href="/pathfinderRPG/prd/spells/suggestion.html#_suggestion" >suggestion</a></i></p>
+
+<p id="helm-of-teleportation" class="stat-block-title">Helm of Teleportation</p>
+<p class="stat-block-1"><b>Price</b> 73,500 gp; <b>Aura</b> moderate conjuration; <b>CL</b>9th; <b>Weight</b>3 lbs.</p>
+<p class="stat-block">A character wearing this helm may <i><a href="/pathfinderRPG/prd/spells/teleport.html#_teleport" >teleport</a></i> three times per day, instantly transporting himself and objects he might be carrying on his person to a designated destination, exactly as if he had cast the spell of the same name.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 36,750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/teleport.html#_teleport" >teleport</a></i></p>
+				
+<p id="helm-of-the-mammoth-lord" class="stat-block-title">Helm of the Mammoth Lord</p>
+<p class="stat-block-1"><b>Price</b>8,500 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">This hide helm is set with plates of ivory carved with primitive runes, with a pair of tusks curving down on either side of the wearer's face for cheek guards. The tusks of the helm provide a gore attack dealing 1d6 points of damage for a Medium wearers (or 1d4 points of damage for Small wearers) and counts as a magic weapon for the purposes of overcoming damage reduction.</p>
+<p class="stat-block">The <i>helm of the mammoth lord </i>also protects the wearer from cold environments as the <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i> spell. Furthermore<i>, </i>it provides a +5 competence bonus to <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a>, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a>, and wild empathy checks with elephants, mammoths, mastodons, and other similar elephant-like creatures.</p>
+<p class="stat-block">On command, the wearer may use <i><a href="/pathfinderRPG/prd/spells/detectAnimalsOrPlants.html#_detect-animals-or-plants" >detect animals or plants</a></i>, but can only detect elephant-like creatures. On command, the wearer may use <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i>, but only to communicate with elephant-like creatures.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,250 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-i" >beast shape I</a>, <a href="/pathfinderRPG/prd/spells/charmAnimal.html#_charm-animal" >charm animal</a>, <a href="/pathfinderRPG/prd/spells/detectAnimalsOrPlants.html#_detect-animals-or-plants" >detect animals or plants</a>, <a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i>, creator must have 5 ranks in <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> and <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a></p>
+				
+<p id="helm-of-underwater-action" class="stat-block-title">Helm of Underwater Action</p>
+<p class="stat-block-1"><b>Price</b> 24,000 gp; <b>Aura</b> faint transmutation; <b>CL</b>5th; <b>Weight</b>3 lbs.</p>
+<p class="stat-block">The wearer of this helmet can see underwater. Drawing the small lenses in compartments on either side into position before the wearer's eyes activates the visual properties of the helm, allowing her to see five times farther than water and light conditions would allow for normal human vision. (Weeds, obstructions, and the like block vision in the usual manner.) If the command word is spoken, the helm of underwater action gives the wearer a 30-foot swim speed and creates a globe of air around the wearer's head and maintains it until the command word is spoken again, enabling her to breathe freely.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 12,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing" >water breathing</a></i></p>
+				
+<p id="howling-helm" class="stat-block-title">Howling Helm</p>
+<p class="stat-block-1"><b>Price</b> 22,600 gp; <b>Aura</b> faint conjuration; <b>CL</b>5th; <b>Weight</b>2 lbs.</p>
+<p class="stat-block">The wearer of this helm, crafted from a beast's skull, gains the ability to communicate with dogs, wolves, dire wolves, foxes, jackals, coyotes, and similar canine animals as the <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i> spell. The wearer gains a +2 competence bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks and Charisma checks to influence wolf-like magical beasts such as blink dogs, winter wolves, and worgs.</p>
+<p class="stat-block">On command three times per day, the wearer can unleash a terrifying howl. When he does so, he makes a single <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> check to demoralize all opponents within 30 feet that can hear the howl. At the start of the wearer's following turn, 1d3 wolves appear as if summoned by the spell <i><a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-iii" >summon nature's ally III</a></i>. They act on the wearer's initiative and follow her instructions (or attacking her opponents, if she cannot communicate with them) for 5 rounds before vanishing in a swirl of pine needles and snow.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 11,300 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i>, <i><a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-iii" >summon nature's ally III</a></i></p>
+				
+<p id="iron-circlet-of-guarded-souls" class="stat-block-title">Iron Circlet of Guarded Souls</p>
+<p class="stat-block-1"><b>Price</b> 30,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b>11th; <b>Weight</b>1 lb.</p>
+<p class="stat-block">This simple cold iron circle has no markings or ornamentation upon it, and is always slightly cool to the touch. The circle shields both the wearer's soul and his identity from mystic intrusion. The wearer is immune to effects that target souls (such as <i><a href="/pathfinderRPG/prd/spells/trapTheSoul.html#_trap-the-soul" >trap the soul</a></i>) or that would be foiled by a <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i> spell (unlike <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i>, the diviner's caster cannot attempt a spell resistance check to overcome this effect). If the wearer is slain, he cannot be restored to life by magic (save by a <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i>, <i><a href="/pathfinderRPG/prd/spells/wish.html#_wish" >wish</a></i>, or divine intervention) until the circlet is removed.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 15,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a>, <a href="/pathfinderRPG/prd/spells/trapTheSoul.html#_trap-the-soul" >trap the soul</a></i></p>
+				
+<p id="jingasa-of-the-fortunate-soldier" class="stat-block-title">Jingasa of the Fortunate Soldier</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> strong divination; <b>CL</b> 15th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">This conical iron jingasa, or war hat, grants the wearer a +1 luck bonus to AC. Once per day when struck by a critical hit or sneak attack, the wearer can spend an immediate action to negate the critical hit or sneak attack (similar to the <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i> armor special ability, but without requiring a roll). The damage is instead rolled normally.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i>, <i><a href="/pathfinderRPG/prd/spells/momentOfPrescience.html#_moment-of-prescience" >moment of prescience</a></i></p>
+				
+				
+<p id="Judge's-Wig" class="stat-block-title">Judge's Wig</p>
+<p class="stat-block-1"><b>Price</b> 59,200 gp; <b>Aura</b> moderate divination; <b>CL</b> 7th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This flowing wig of white ringlets grants its wearer an unmistakable impression of dignity and gravitas. This grants a +4 competence bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> and <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks.</p>
+<p class="stat-block">At will, the wearer can concentrate on a creature within 30 feet to scrutinize it with <i><a href="/pathfinderRPG/prd/spells/discernLies.html#_discern-lies" >discern lies</a></i>.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 29,600 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/discernLies.html#_discern-lies" >discern lies</a></i></p>
+				
+<p id="laurel-of-command" class="stat-block-title">Laurel of Command</p>
+<p class="stat-block-1"><b>Price</b> 30,000 gp; <b>Aura</b> faint enchantment; <b>CL</b> 3rd; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Laurel leaves crafted from fine gold decorate this circlet that imparts powers of persuasion and leadership. The wearer's voice carries great authority and can inspire others to victory. As a swift action, the wearer can speak words of encouragement or advice to an ally within 30 feet. That ally gains a +2 morale bonus on attack rolls, saving throws, skill checks, and ability checks until the start of the wearer's next turn. The wearer can use the laurel to grant this bonus to himself. A creature cannot gain this bonus more than once per day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 15,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i></p>
+				
+<p id="Magician's-Hat" class="stat-block-title">Magician's Hat</p>
+<p class="stat-block-1"><b>Price</b> 20,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b>10th; <b>Weight</b>&mdash;</p>
+<p class="stat-block">Mystic symbols embroidered in gold thread decorate this conical hat. Three times per day as a free action when casting a spell, the wearer can shift metamagic feats on prepared spells. The wearer can either move a metamagic feat from another prepared spell to a spell being cast or from the spell being cast to another prepared spell. In either case, the spell that gains the metamagic feat can't exceed the spell slot of the spell that originally had the metamagic feat. For example, a wizard with <i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i>, <i>silent <a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, and <i><a href="/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door" >dimension door</a></i> prepared could cast a <i>silent <a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i> (and would now have <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i> prepared), but could not cast <i>silent <a href="/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door" >dimension door</a></i>. Moving metamagic feats does not increase spell casting time, even for quickened spells. The hat provides no benefit to spontaneous casting or spell-like abilities.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 10,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/mnemonicEnhancer.html#_mnemonic-enhancer" >mnemonic enhancer</a></i></p>
+				
+				
+<p id="mask-of-a-thousand-tomes" class="stat-block-title">Mask Of A Thousand Tomes</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Aura</b> faint divination; <b>CL</b>5th; <b>Weight</b>1 lb.</p>
+<p class="stat-block">The random snippets of script that write across the surface of this parchment-colored eyeless mask hint at the knowledge of the many tomes stored within. The mask grants its wearer a +10 competence bonus on all <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> skill checks, but the wearer is blinded while wearing the mask. The mask must be worn for 10 minutes before the wearer gains its bonus.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance" >clairaudience/clairvoyance</a></i></p>
+				
+				
+<p id="Mask-of-Giants-greater" class="stat-block-title">Mask of Giants, greater</p>
+<p class="stat-block-1"><b>Price</b> 90,000 gp; <b>Aura</b> strong transmutation; <b>CL</b> 13th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">A <i>greater mask of giants</i> has all the powers of a <i>lesser mask of giants</i>, plus it grants additional abilities in giant form. If the form has any of the following abilities, the wearer gains the listed ability: rend (2d6 damage), regeneration 5 (acid or fire), rock catching, rock throwing (range 60 feet, 2d6 damage). If the chosen giant form has immunity or resistance to any energy type, the wearer gains resistance 20 to that energy type when in giant form. If the giant form has vulnerability to an energy type, the wearer gains that vulnerability when in giant form. In giant form, the wearer gains a +6 size bonus to Strength, a &ndash;2 penalty to Dexterity, a +4 size bonus to Constitution, and a +4 natural armor bonus.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 45,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/giantForm.html#_giant-form-i" >giant form I</a></i></p>
+				
+<p id="Mask-of-Giants-lesser" class="stat-block-title">Mask of Giants, lesser</p>
+<p class="stat-block-1"><b>Price</b> 30,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 6th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This wooden mask depicts a leering humanoid with an oversized nose and ears. If the wearer has the wild shape class feature, the mask allows her to use wild shape to take the form of a humanoid with the giant subtype. The forms allowed by a l<i>esser mask of giants</i> are ogre, troll, fire giant, frost giant, and stone giant. If the form has any of the following abilities, the wearer gains the listed ability: darkvision 60 feet, low-light vision, scent. In giant form, the wearer gains a +4 size bonus to Strength, a &ndash;2 penalty to Dexterity, and a +1 natural armor bonus.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 15,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/giantForm.html#_giant-form-i" >giant form I</a></i></p>
+				
+<p id="mask-of-stony-demeanor" class="stat-block-title">Mask of Stony Demeanor</p>
+<p class="stat-block-1"><b>Price</b> 500 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 6th; <b>Weight</b> 4 lbs.</p>
+<p class="stat-block">When worn, this mask transforms the wearer's face into a stone statue and its voice into an emotionless monotone. Though it allows the wearer to speak, its facial expressions and voice betray little emotion, granting a +10 competence bonus on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> checks made to lie and a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> checks made to feint, but also imposing a &ndash;5 penalty on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> checks made to pass a hidden message.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 250 gp</p>
+<p class="stat-block">Craft Rod, <i><a href="/pathfinderRPG/prd/advanced/spells/innocence.html#_innocence" >innocence</a></i> , <i><a href="/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape" >stone shape</a></i></p>
+				
+<p id="mask-of-the-krenshar" class="stat-block-title">Mask of the Krenshar</p>
+<p class="stat-block-1"><b>Price</b> 7,200 gp; <b>Aura</b> faint illusion; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This simple leather mask depicts an earless catlike creature. When worn, it melds into its wearer's face and vanishes, leaving the wearer's face just as it looked before. Three times per day the wearer can command the mask to appear to retract the wearer's skin, revealing an illusion of the wearer's glistening skull and musculature. Creatures within 100 feet who see this display must succeed at a DC 13 Will save or become frightened (if the target has 6 or fewer Hit Dice) or shaken (if the target has more than 6 HD) for 1d4 rounds. This is a mind-affecting fear effect and a glamer. Anyone who can see through illusions (such as by <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i>) is unaffected.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,600 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self" >disguise self</a></i>, <i><a href="/pathfinderRPG/prd/spells/scare.html#_scare" >scare</a></i></p>
+				
+<p id="mask-of-the-skull" class="stat-block-title">Mask of the Skull</p>
+<p class="stat-block-1"><b>Price</b>22,000 gp; <b>Aura</b> strong necromancy and transmutation; <b>CL</b> 13th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">This fearsome-looking mask of ivory, beaten copper, or pale wood is typically fashioned into the likeness of a human skull with a missing lower jaw, allowing the bottom half of the wearer's face to remain visible when the mask is worn.</p>
+<p class="stat-block">Once per day, after it has been worn for at least 1 hour, the mask can be loosed to fly from the wearer's face. It travels up to 50 feet away from the wearer and attacks a target assigned to it. The grinning skull mask makes a touch attack against the target based on the wearer's base attack bonus. If the attack succeeds, the target must make a successful DC 20 Fortitude save or take 130 points of damage, as if affected by a <i><a href="/pathfinderRPG/prd/spells/fingerOfDeath.html#_finger-of-death" >finger of death</a></i> spell. If the target succeeds at its saving throw, it nevertheless takes 3d6+13 points of damage. After attacking (whether successful or not), the mask flies back to its user. The mask has AC 16, 10 hit points, and hardness 6.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 11,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects" >animate objects</a></i>, <i><a href="/pathfinderRPG/prd/spells/fingerOfDeath.html#_finger-of-death" >finger of death</a></i>, <i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i></p>
+				
+<p id="maw-of-the-wyrm" class="stat-block-title">Maw of the Wyrm</p>
+<p class="stat-block-1"><b>Price</b> 18,000 gp; <b>Aura</b> moderate evocation; <b>CL</b> 7th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">This fearsome helm, wrought into the shape of a roaring dragon's maw, has dozens of glittering dragon scales across its surface. The helm's wearer gains a +4 competence bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks and a +4 insight bonus on saves to resist a dragon's frightful presence aura.</p>
+<p class="stat-block">Each helm is modeled after a particular type of chromatic or metallic dragon. Once per day on command, the wearer can breathe out a blast of energy, as the <i><a href="/pathfinderRPG/prd/advanced/spells/dragonSBreath.html#_dragon's-breath" >dragon's breath</a></i> spell  to mimic the breath weapon of the dragon the helm is modeled after (7d6 points of damage, Reflex DC 16 half).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 9,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/advanced/spells/dragonSBreath.html#_dragon's-breath" >dragon's breath</a></i></p>
+				
+<p id="medusa-mask" class="stat-block-title">Medusa Mask</p>
+<p class="stat-block-1"><b>Price</b>10,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 11th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This intricate mask is made of gold-plated iron. Writhing snake tails radiate from a gemstone upon the brow, almost as if they were medusa-like hair. The mask grants a +4 bonus on all saving throws against visual effects, including gaze attacks and sight-based illusions. Once per day as a standard action, the wearer can cause the central gemstone to glow with pale green light, at which point she may target any one creature within 30 feet. The targeted creature must succeed at a DC 15 Fortitude save or be petrified for 1 minute, as if by <i><a href="/pathfinderRPG/prd/spells/fleshToStone.html#_flesh-to-stone" >flesh to stone</a></i>.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/fleshToStone.html#_flesh-to-stone" >flesh to stone</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a></i></p>
+				
+<p id="Miser's-mask" class="stat-block-title">Miser's mask</p>
+<p class="stat-block-1"><b>Price</b> 3,000 gp; <b>Aura</b> faint divination; <b>CL</b> 1st; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This wooden mask depicts the sunken face of a miser with an upturned nose. The mask grants the wearer the scent ability (<i>Bestiary</i> 304), but she can use it only to sense coins and gems. Each type and quality of gem has its own unique aura to the wearer, granting her a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> checks made to ascertain the value of gems. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/advanced/spells/bloodhound.html#_bloodhound" >bloodhound</a> </i>, the creator must have 4 ranks in <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a></p>
+				
+<p id="mitre-of-the-hierophant" class="stat-block-title">Mitre of the Hierophant</p>
+<p class="stat-block-1"><b>Price</b> 18,000 gp; <b>Aura</b> moderate divination; <b>CL</b>9th; <b>Weight</b>2 lbs.</p>
+<p class="stat-block">This ostentatious hat functions only for a wearer who can cast divine spells. The wearer gains a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> and <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) checks. Once per day on command, the wearer can ask a single question of her patron deity, as if by using <i><a href="/pathfinderRPG/prd/spells/commune.html#_commune" >commune</a></i>. Once per week on command, the wearer can touch a creature, atoning it for past misdeeds as if using an <i><a href="/pathfinderRPG/prd/spells/atonement.html#_atonement" >atonement</a></i> spell.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 9,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/atonement.html#_atonement" >atonement</a>, <a href="/pathfinderRPG/prd/spells/commune.html#_commune" >commune</a>, <a href="/pathfinderRPG/prd/spells/guidance.html#_guidance" >guidance</a></i></p>
+				
+				
+<p id="plague-mask" class="stat-block-title">Plague Mask</p>
+<p class="stat-block-1"><b>Price</b> 27,000 gp; <b>Aura</b> faint necromancy; <b>CL</b>5th; <b>Weight</b>2 lbs.</p>
+<p class="stat-block">This stylized bird mask consists of a pair of goggles attached to a ceramic beak that covers the nose and mouth. The goggles are not magic and can be replaced with other goggles or eye slot items. It grants the wearer a +4 resistance bonus on saving throws against disease. Once per day on command, the user can <i><a href="/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease" >remove disease</a></i> (as the spell) on a single creature touched.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 13,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease" >remove disease</a></i></p>
+				
+<p id="Stalker's-Mask" class="stat-block-title">Stalker's Mask</p>
+<p class="stat-block-1"><b>Price</b> 3,500 gp; <b>Aura</b> faint illusion; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Preserved sections harvested from several different human faces cover this mask. When worn, the mask desaturates the wearer's color, making him appear shadowy and granting a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks. Once per day as a full-round action, the wearer can cause the mask's features to take on the appearance of any creature of the wearer's basic size and shape within 60 feet that he observes, allowing the wearer to adopt that creature's appearance for 1 hour. This grants him a +10 bonus on <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> checks made to appear as the creature. The mask also grants the wearer a +1 bonus on attack rolls and weapon damage rolls made against the creature he is disguised as, as the mask builds upon the wearer's rage and jealousy of the target's appearance.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self" >disguise self</a></i>, <i><a href="/pathfinderRPG/prd/spells/rage.html#_rage" >rage</a></i></p>
+				
+<p id="steel-mind-cap" class="stat-block-title">Steel-mind Cap</p>
+<p class="stat-block-1"><b>Price</b> 33,600 gp; <b>Aura</b> moderate abjuration; <b>CL</b>9th; <b>Weight</b>3 lbs.</p>
+<p class="stat-block">Ruined scraps of various constructs were repurposed and combined to form this ornate iron helmet. Though the helmet is not intelligent, it has a brute mechanical cunning that allows it to assert control whenever the wearer's mind is overwhelmed. The helmet takes control of the wearer's body anytime he is dazed or stunned. Whenever the wearer would be dazed, he is instead confused. Whenever the wearer would be stunned, he is instead confused and staggered.</p>
+<p class="stat-block">Time spent under the cap's influence counts against the duration of the daze or stun effect. The cap functions for up to 5 rounds per day. These rounds do not need to be consecutive. The cap stops asserting control over its wearer when the duration of the daze or stun effect ends, or when the cap's 5 rounds of duration are expended.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 16,800 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/surmountAffliction.html#_surmount-affliction" >surmount affliction</a> </i>(<i>Ultimate Magic</i>)</p>
+				
+<p id="Stormlord's-Helm" class="stat-block-title">Stormlord's Helm</p>
+<p class="stat-block-1"><b>Price</b>35,000 gp; <b>Aura</b> strong transmutation; <b>CL</b> 10th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">Two large horns jut from the sides of this iron helm, each of them carved with runes representing storms, thunder, and lightning. The runes give the wearer the ability to control the elements and bring forth a great storm. Once per day, the wearer can call upon the magic of the helm to call a thunderstorm, as if casting the <i><a href="/pathfinderRPG/prd/spells/controlWeather.html#_control-weather" >control weather</a></i> spell. Like that spell, it takes 10 minutes to call the weather and an additional 10 minutes for the thunderstorm to manifest. Once it does, the wearer can <i>call lighting</i> (as the spell) for 10 minutes or until the wearer dismisses the thunderstorm with a standard action.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 17,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/callLightning.html#_call-lightning" >call lightning</a>, <a href="/pathfinderRPG/prd/spells/controlWeather.html#_control-weather" >control weather</a></i></p>
+				
+<p id="veil-of-fleeting-glances" class="stat-block-title">Veil of Fleeting Glances</p>
+<p class="stat-block-1"><b>Price</b>9,000 gp; <b>Aura</b> faint divination; <b>CL</b> 3rd; <b>Weight</b> &mdash;</p>
+<p class="stat-block">In addition to hiding the face, this fine lace veil protects the wearer against gaze attacks. The wearer has a 50% chance to avoid making a saving throw against a gaze attack even when not averting her eyes. If the wearer averts her eyes, she rolls twice (once for the veil, once for averting her eyes) and uses the more favorable result.</p>
+<p class="stat-block">Against patterns, visual figments, and other vision-based effects and attacks that cannot affect blind creatures, the veil grants the wearer a +4 circumstance bonus on saving throws. The veil does not otherwise impede the wearer's vision in any way.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness" >blindness/deafness</a></i>, <i><a href="/pathfinderRPG/prd/spells/trueStrike.html#_true-strike" >true strike</a></i></p>
+	
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

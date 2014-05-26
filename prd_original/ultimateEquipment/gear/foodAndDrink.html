@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Food and Drink</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Food and Drink",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/gear/index.html', name: 'Gear' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="food-and-drink">Food and Drink</h1>
+<p>These prices are for meals and beverages in an average city or town. Unless otherwise specified, the amount received for the listed price is presumed to be a standard meal serving for a single person.</p>
+
+
+
+<table id="food-and-drink-table"><caption>Food and Drink</caption>
+<thead><tr><th>Item</th><th>Price</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Absinthe (glass)</td><td>3 gp</td><td>&mdash;</td></tr>
+<tr class="even"><td>Absinthe (bottle)</td><td>30 gp</td><td>1-1/2 lbs.</td></tr>
+<tr class="odd"><td>Ale (mug)</td><td>4 cp</td><td>1 lb.</td></tr>
+<tr class="even"><td>Ale (gallon)</td><td>2 sp</td><td>8 lbs.</td></tr>
+<tr class="odd"><td>Applejack (mug)</td><td>8 cp</td><td>1 lb.</td></tr>
+<tr class="even"><td>Applejack (gallon)</td><td>4 sp</td><td>8 lbs.</td></tr>
+<tr class="odd"><td>Baijiu (bottle)</td><td>10 gp</td><td>2 lbs.</td></tr>
+<tr class="even"><td>Banquet (per person)</td><td>10 gp</td><td>&mdash;</td></tr>
+<tr class="odd"><td>Bread</td><td>2 cp</td><td>1/2 lb.</td></tr>
+<tr class="even"><td>Bufo (jug)</td><td>1 gp</td><td>2 lbs.</td></tr>
+<tr class="odd"><td>Cauim (gourd)</td><td>1 gp</td><td>2 lbs.</td></tr>
+<tr class="even"><td>Caviar</td><td>50 gp</td><td>&mdash;</td></tr>
+<tr class="odd"><td>Cheese</td><td>1 sp</td><td>1/2 lb.</td></tr>
+<tr class="even"><td>Chocolate (bar)</td><td>5 gp</td><td>1/2 lb.</td></tr>
+<tr class="odd"><td>Coffee (cup)</td><td>1 cp</td><td>1/2 lb.</td></tr>
+<tr class="even"><td>Dwarven stout (mug)</td><td>4 cp</td><td>1/2 lb.</td></tr>
+<tr class="odd"><td>Dwarven trail rations</td><td>2 gp</td><td>1-1/2 lbs.*</td></tr>
+<tr class="even"><td>Elven trail rations</td><td>2 gp</td><td>1 lb.*</td></tr>
+<tr class="odd"><td>Fortune cookie</td><td>1 cp</td><td>&mdash;</td></tr>
+<tr class="even"><td>Gnome trail rations</td><td>2 gp</td><td>1 lb. *</td></tr>
+<tr class="odd"><td>Grog (mug)</td><td>2 cp</td><td>1/2 lb.</td></tr>
+<tr class="even"><td>Haggis</td><td>1 sp</td><td>1-1/2 lbs.</td></tr>
+<tr class="odd"><td>Halfling trail rations</td><td>2 gp</td><td>1/2 lb.*</td></tr>
+<tr class="even"><td>Honey (jar)</td><td>1 gp</td><td>1/2 lb.</td></tr>
+<tr class="odd"><td>Ice cream</td><td>1 sp</td><td>&mdash;</td></tr>
+<tr class="even"><td>Jungle coffee (cup)</td><td>3 cp</td><td>1/2 lb.</td></tr>
+<tr class="odd"><td>Kahve (cup)</td><td>2 cp</td><td>1/2 lb.</td></tr>
+<tr class="even"><td>Kumis (wineskin) </td><td>5 sp</td><td>1-1/2 lbs.</td></tr>
+<tr class="odd"><td>Maple syrup (jar)</td><td>1 gp</td><td>1/2 lb.</td></tr>
+<tr class="even"><td>Mead (mug)</td><td>5 cp</td><td>1/2 lb.</td></tr>
+<tr class="odd"><td>Mead (gallon)</td><td>2 gp</td><td>8 lbs.</td></tr>
+<tr class="even"><td>Meal, poor (per day)</td><td>1 sp</td><td>&mdash;</td></tr>
+<tr class="odd"><td>Meal, common (per day)</td><td>3 sp</td><td>&mdash;</td></tr>
+<tr class="even"><td>Meal, good (per day)</td><td>5 sp</td><td>&mdash;</td></tr>
+<tr class="odd"><td>Meat</td><td>3 sp</td><td>1/2 lb.</td></tr>
+<tr class="even"><td>Milk</td><td>5 cp</td><td>1/2 lb.</td></tr>
+<tr class="odd"><td>Oldlaw whiskey (bottle)</td><td>20 gp</td><td>1 lb.</td></tr>
+<tr class="even"><td>Orc trail rations</td><td>1 gp</td><td>1 lb.*</td></tr>
+<tr class="odd"><td>Powdered milk</td><td>1 sp</td><td>1 lb.</td></tr>
+<tr class="even"><td>Pulque (cup)</td><td>1 sp</td><td>1/2 lb.</td></tr>
+<tr class="odd"><td>Pulque (wineskin)</td><td>4 sp</td><td>2 lbs.</td></tr>
+<tr class="even"><td>Rumboozle (cup)</td><td>1 sp</td><td>1/2 lb.</td></tr>
+<tr class="odd"><td>Sealord wine (bottle)</td><td>15 gp</td><td>1/2 lb.</td></tr>
+<tr class="even"><td>Street meat</td><td>1 cp</td><td>1/2 lb.</td></tr>
+<tr class="odd"><td>Tea (cup)</td><td>2 cp</td><td>1/2 lb.</td></tr>
+<tr class="even"><td>Tea, ceremonial (cup)</td><td>4 cp</td><td>1/2 lb.</td></tr>
+<tr class="odd"><td>Tea ceremony set</td><td>25 gp</td><td>5 lbs.</td></tr>
+<tr class="even"><td>Tepache (cup)</td><td>5 cp</td><td>1/2 lb.</td></tr>
+<tr class="odd"><td>Trail rations</td><td>5 sp</td><td>1 lb.*</td></tr>
+<tr class="even"><td>Travel cake mix</td><td>1 sp</td><td>1 lb.</td></tr>
+<tr class="odd"><td>Wandermeal (per day)</td><td>1 cp</td><td>1/2 lb.*</td></tr>
+<tr class="even"><td>Whiskey (cup)</td><td>1 sp</td><td>1/2 lb.</td></tr>
+<tr class="odd"><td>Wine, common (pitcher)</td><td>2 sp</td><td>6 lbs.</td></tr>
+<tr class="even"><td>Wine, fine (bottle)</td><td>10 gp</td><td>1-1/2 lbs.</td></tr>
+<tr class="odd"><td>Yogurt</td><td>1 sp</td><td>1/2 lb.</td></tr>
+<tfoot><tr><td colspan="3">* These items weigh one-quarter this amount when made for Small characters.</td></tr></tfoot></table>
+
+<p id="absinthe" class="stat-block-title">Absinthe</p>
+<p class="stat-block-1"><b>Price</b> 3 GP&ndash;30 gp; <b>Weight</b> varies</p>
+<p class="stat-block">This green alcoholic drink, made from wormwood, is rumored to enhance creativity, which makes it a favored beverage of artists and eccentrics.</p>
+				
+<p id="ale" class="stat-block-title">Ale</p>
+<p class="stat-block-1"><b>Price</b> 4 cp&ndash;2 Sp; <b>Weight</b> 1 lb.&ndash;8 lbs.</p>
+<p class="stat-block">Ale is a type of beer brewed from malted barley. It has a sweet, full-bodied, and sometimes fruity taste.</p>
+				
+<p id="applejack" class="stat-block-title">Applejack</p>
+<p class="stat-block-1"><b>Price</b> 8 cp&ndash;4 Gp; <b>Weight</b> 1 lb.&ndash;8 lbs.</p>
+<p class="stat-block">This even stronger version of hard cider is typically made by allowing hard cider to freeze during the winter cold, then removing the ice to extract much of the water from the cider and concentrate the alcohol.</p>
+				
+<p id="baijiu" class="stat-block-title">Baijiu</p>
+<p class="stat-block-1"><b>Price</b> 10 gp; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">This clear alcoholic beverage, distilled from sorghum, is extremely potent, and is often regarded as an acquired taste due to its corrosive flavor.</p>
+				
+<p id="banquet" class="stat-block-title">Banquet</p>
+<p class="stat-block-1"><b>Price</b> 10 gp; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A banquet includes several food courses, good drinks, and servants to bring the food and take away empty plates. The listed price is for having a banquet at a restaurant (though some restaurant owners can be hired to serve a banquet at a private location). The price listed above is per person.</p>
+				
+<p id="bread" class="stat-block-title">Bread</p>
+<p class="stat-block-1"><b>Price</b> 2 cP; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">This is a loaf of bread with a crust that ranges from crisp to soft, depending on the local ingredients and baking methods. Bread may be leavened or unleavened, depending on whether yeast is used to make it rise. Unleavened bread is also known as flatbread, and ranges in thickness from that of a cracker to half an inch thick. Both leavened and unleavened bread may be stuffed with cheese, fruit, olives, meat, or other rich ingredients when prepared for festive occasions. Bread that is left exposed to air become dry and stale in about a day. </p>
+				
+<p id="bufo" class="stat-block-title">BUFO</p>
+<p class="stat-block-1"><b>Price</b> 1 gp; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">This drink is a favorite of goblins, boggards, and other primitive humanoids. It is made by soaking a poisonous toad or frog (or its eggs) in weak beer, or by “milking” these animals for their poison and mixing it with the beer (which allows the animal to be used over and over again). Some tribes use wide-mouthed jugs and leave the dead animal inside as a crunchy treat for eating once the drink is gone. A creature drunk on bufo has the dazzled condition in addition to the normal intoxication effect.</p>
+				
+<p id="cauim" class="stat-block-title">Cauim</p>
+<p class="stat-block-1"><b>Price</b> 1 gp; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">This beerlike drink, made from manioc root or corn, requires extensive chewing as part of its production.</p>
+				
+<p id="caviar" class="stat-block-title">Caviar</p>
+<p class="stat-block-1"><b>Price</b> 50 gp; <b>Weight</b> &mdash;</p>
+<p class="stat-block">These translucent, salty fish eggs are a delicacy. They are usually eaten as a spread on crackers, boiled eggs, bread, pastries, or vegetables. They tend to spoil quickly and are rare outside of the coastal areas where they are harvested. Purists only consider sturgeon eggs to be true caviar, but others are more relaxed about the definition and include salmon, trout, and whitefish eggs as caviar. In some countries, the roe of larger exotic fish and sea creatures (such as chuul, giant gar, and reefclaws) are eaten as caviar, though at much higher prices.</p>
+				
+<p id="cheese" class="stat-block-title">Cheese</p>
+<p class="stat-block-1"><b>Price</b> 1 sp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">The listed price is for a hunk of cheese from a wheel. A 5- or 10-pound wheel of aged cheese is encased in a tough rind, which keeps the interior fresh. </p>
+				
+<p id="chocolate" class="stat-block-title">Chocolate</p>
+<p class="stat-block-1"><b>Price</b> 5 gp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">This dark, bitter treat can be consumed as a solid or melted and added to a beverage such as milk. In some lands it is mixed with sugar or chilies.</p>
+				
+<p id="coffee" class="stat-block-title">Coffee</p>
+<p class="stat-block-1"><b>Price</b> 1 cP; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">This drink is brewed by pouring boiling water through crushed, roasted coffee beans. Two cups is potent enough to reduce the penalties from the fatigued condition from &ndash;2 to &ndash;1 for 1 hour.  </p>
+<p class="stat-block">Brewing your own coffee requires ground coffee beans (5 cp for 1 pound of coffee beans, or 8 cp for 1 pound of ground beans) and a cooking device. You can boil the grounds in a pot, then pour the liquid after allowing the solids to settle, or filter the drink by pouring it through a sieve or cloth. Many travelers prefer the convenience of using a coffee pot (see page 62).</p>
+				
+<p id="dwarven-stout" class="stat-block-title">Dwarven Stout</p>
+<p class="stat-block-1"><b>Price</b> 2 cP; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">More a family of beers than one single drink, dwarven stout is known by different names in human lands. Dwarven stouts are dark beers characterized by a slightly burnt flavor and a foamy head; they are said to be as filling as a meal. Most dwarven clans use a recipe unique to that clan, and family rivalries over the best brew may date back for hundreds of years.</p>
+				
+<p id="dwarven-trail-rations" class="stat-block-title">Dwarven Trail Rations</p>
+<p class="stat-block-1"><b>Price</b> 2 gp; <b>Weight</b> 1-1/2 lbs.</p>
+<p class="stat-block">Dwarven trail rations consist of smoked sausages and salted meat, rounded out with hard biscuits and dried vegetables. If you are a dwarf who subsists on nothing but these rations for at least 1 week, you can hustle or make a forced march for an additional hour without ill effects, but cannot do both in the same day. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
+				
+<p id="elven-trail-rations" class="stat-block-title">Elven Trail Rations</p>
+<p class="stat-block-1"><b>Price</b> 2 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an elf who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a> feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
+				
+<p id="fortune-cookie" class="stat-block-title">Fortune Cookie</p>
+<p class="stat-block-1"><b>Price</b> 1 cP; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This twist of hard, baked pastry surrounds a slip of paper that contains cryptic advice.</p>
+				
+<p id="gnome-trail-rations" class="stat-block-title">Gnome Trail Rations</p>
+<p class="stat-block-1"><b>Price</b> 2 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Almost any preserved food can be found in gnome trail rations, which are designed to keep a wandering gnome from needing to dine on the same meal twice in a week. If you are a gnome who subsists on nothing but these rations for at least 1 week, you are treated as being 1 Hit Die higher for the purposes of spells and supernatural abilities that have variable effects based on Hit Dice, such as <i><a href="/pathfinderRPG/prd/spells/colorSpray.html#_color-spray" >color spray</a></i> and <i><a href="/pathfinderRPG/prd/spells/sleep.html#_sleep" >sleep</a></i>. This does not actually improve your caster level, character level, or Hit Dice in any other way. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
+				
+<p id="grog" class="stat-block-title">Grog</p>
+<p class="stat-block-1"><b>Price</b> 2 cP; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">A foul mix of different alcohols and whatever's handy, grog was invented by pirates and sailors and never managed to crawl far onto land. Grog is no one's first choice of drink, but anyone who's spent enough time on a ship has had at least a taste.</p>
+				
+<p id="haggis" class="stat-block-title">Haggis</p>
+<p class="stat-block-1"><b>Price</b> 1 sp; <b>Weight</b> 1-1/2 lbs.</p>
+<p class="stat-block">This dish is a meaty pudding made of sheep organs (mainly heart, liver, and lungs) minced with onion, oats, fat, spices, and salt, wrapped in a sheep stomach and slow-cooked. Though its ingredients discourage cautious eaters, fans of haggis consider it a hearty meal with a wonderful texture. It is usually served with turnips, potatoes, and whiskey.</p>
+				
+<p id="halfling-trail-rations" class="stat-block-title">Halfling Trail Rations</p>
+<p class="stat-block-1"><b>Price</b> 1 sp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">A day's worth of halfling trail rations is actually more than what a typical adventuring halfling eats in a day&mdash;a full belly strengthens a halfling's resolve. Common foods include sweetened dried fruit, aged sausage, hard sharp cheese, honey cakes, and a mixture of roasted grains, nuts, and molasses. If you are a halfling who subsists on nothing but these rations for at least 1 week, you reduce the penalty for the shaken condition from &ndash;2 to &ndash;1. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
+				
+<p id="honey" class="stat-block-title">Honey</p>
+<p class="stat-block-1"><b>Price</b> 1 gp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">This golden liquid is used as a sweetener. It naturally resists spoilage, and if stored in a sealed wooden, glass, or ceramic container it can be used to preserve fruit, nuts, meat, or even leather for decades.</p>
+				
+<p id="ice-cream" class="stat-block-title">Ice Cream</p>
+<p class="stat-block-1"><b>Price</b> 1 sp; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This exotic dessert is made with milk and cream, often flavored with fruit or mint. Because it quickly melts at room temperature, it must be made fresh from snow or ice, or maintained at a low temperature, such as in a cold cellar or with alchemy or magic. This limitation means it is expensive and in most lands it is only available during certain seasons. The listed price is for a large scoop (1 cup).</p>
+				
+<p id="jungle-coffee" class="stat-block-title">Jungle Coffee</p>
+<p class="stat-block-1"><b>Price</b> 3 cP; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">Coffee brewed “jungle style” has a winelike acidic taste that is too strong for a novice palate.</p>
+				
+<p id="kahve" class="stat-block-title">Kahve</p>
+<p class="stat-block-1"><b>Price</b> 2 cp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">This style of coffee is served with generous helpings of milk, sugar, and spices to counteract its natural bitterness. Kahve is drunk throughout the day, both at home and at coffeehouses around town. The grounds left in the bottom of a cup are sometimes used for fortune-telling.</p>
+				
+<p id="kumis" class="stat-block-title">Kumis</p>
+<p class="stat-block-1"><b>Price</b> 5 sp; <b>Weight</b> 1-1/2 lbs.</p>
+<p class="stat-block">This alcoholic beverage, made from fermented horse milk, has approximately the same potency as typical beer. It is served cold.</p>
+<p id="maple-syrup" class="stat-block-title">Maple Syrup</p>
+<p class="stat-block-1"><b>Price</b> 1 gp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">This sweet liquid comes from tapping, and partially draining, the sap of maple trees during the early spring. The sap is then boiled down into a syrup, though it is sometimes thickened further and then poured over snow to create a taffylike candy, known as snow candy.</p>
+				
+<p id="mead" class="stat-block-title">Mead</p>
+<p class="stat-block-1"><b>Price</b> 5 CP&ndash;2 gp; <b>Weight</b> 1/2 lb.&ndash;8 lbs.</p>
+<p class="stat-block">This alcoholic beverage is made by fermenting honey and water. It may be flavored with spices, fruit, or hops.</p>
+				
+<p id="meals" class="stat-block-title">Meals</p>
+<p class="stat-block-1"><b>Price</b> varies; <b>Weight</b> &mdash;</p>
+<p class="stat-block">The listed price is for a day's worth of meals. Poor meals might consist of bread, baked turnips, onions, and water. Common meals might consist of bread, chicken stew, carrots, and watered-down ale or wine. Good meals might consist of bread and pastries, beef, peas, and ale or wine. </p>
+
+<p id="meat" class="stat-block-title">Meat</p>
+<p class="stat-block-1"><b>Price</b> 3 sp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">This is a chunk of meat big enough to be a meal. In most temperate locations, it is meat from a fish (or other seafood), pig (bacon, ham, or pork), sheep (lamb or mutton), chicken, quail, duck, goose, goat (chevon), rabbit, deer (venison), cow (beef), or horse. In other climates and cultures it may instead be meat from a moose, seal, whale, walrus, caribou, reindeer, dog, cat, alpaca, snake, rat, guinea pig, lizard, frog, or insect.</p>
+<p class="stat-block">Inns with frequent adventurer clientele may have more exotic meats on the menu such as the meat of basilisks, dinosaurs, dire animals, giant scorpions, girallons, hydras, or shocker lizards, costing anywhere from 1&ndash;100 gp per meal depending on the danger and rarity of the creature.</p>
+
+<p id="milk" class="stat-block-title">Milk</p>
+<p class="stat-block-1"><b>Price</b> 5 cP; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">Milk is a nutritious liquid created by mammals, in particular cows, goats, sheep, and horses. Fresh milk is thick and tends to separate. Often, the cream is allowed to rise to the top and then skimmed off, with the remainder served as a beverage.</p>
+				
+<p id="oldlaw-whiskey" class="stat-block-title">Oldlaw Whiskey</p>
+<p class="stat-block-1"><b>Price</b> 20 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This single-malt whiskey is made with a recipe that's nearly 200 years old, and is a favorite alcoholic beverage of old soldiers everywhere.</p>
+				
+<p id="orc-trail-rations" class="stat-block-title">Orc Trail Rations</p>
+<p class="stat-block-1"><b>Price</b> 1 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">A typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers. If you are an orc or half-orc who subsists on nothing but these rations for at least 1 week, you add +2 to the DC to resist any <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks you make. This bonus lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.</p>
+				
+<p id="powdered-milk" class="stat-block-title">Powdered Milk</p>
+<p class="stat-block-1"><b>Price</b> 1 sp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This dry powder can be mixed with water to produce skim milk. It is dried by slowly adding millet flour to milk while heating it, cooking it down until it becomes thick, then allowing it to dry. Powdered milk is sold in sealed pots or jars. One pound makes approximately 1 gallon of milk.</p>
+				
+<p id="pulque" class="stat-block-title">Pulque</p>
+<p class="stat-block-1"><b>Price</b> 1 SP&ndash;4 Sp; <b>Weight</b> 1/2 lb.&ndash;2 lbs.</p>
+<p class="stat-block">This nutritious milk-colored alcoholic beverage is fermented from the heart of the agave or century plant.</p>
+				
+<p id="rumboozle" class="stat-block-title">Rumboozle</p>
+<p class="stat-block-1"><b>Price</b> 1 sp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">A potent drink featuring rum, wine, ale, eggs, sugar, and spices, rumboozle is served warm in finer taverns.</p>
+				
+<p id="sealord-wine" class="stat-block-title">Sealord Wine</p>
+<p class="stat-block-1"><b>Price</b> 15 gp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">These red and white wines grown in certain coastal vineyards have a sweet&ndash;tart flavor valued by nobles in many lands.</p>
+				
+<p id="street-meat" class="stat-block-title">Street Meat</p>
+<p class="stat-block-1"><b>Price</b> 1 cP; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">Usually sold by vendors on a thin wooden stick, these small chunks of cooked meat often come from many different sorts of creatures&mdash;rats and pigeons are the most common.</p>
+
+<p id="tea" class="stat-block-title">tea</p>
+<p class="stat-block-1"><b>Price</b> 2 CP&ndash;4 Cp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">A popular beverage in many regions, tea may be green or black, depending on when the leaves are picked and how they are prepared. It may be served unadorned, or with milk, sugar, lemon, or spices.  </p>
+				
+<p id="tea-ceremony-set" class="stat-block-title">Tea Ceremony Set</p>
+<p class="stat-block-1"><b>Price</b> 25 gp; <b>Weight</b> 5 lbs.</p>
+<p class="stat-block">This includes a tray, a teapot, a whisk, a bowl to mix the tea in, four tiny cups, and a decorative box in which to store all of these items. The ceremonial brewing of tea is part of the classical tea ceremony. Knowing the proper steps for preparing and participating in a tea ceremony requires a successful DC 15 <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) skill check.</p>
+				
+<p id="tepache" class="stat-block-title">Tepache</p>
+<p class="stat-block-1"><b>Price</b> 1 sp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">This mildly alcoholic beverage is made of beer, pineapple (or other tropical fruit), sugar, and cinnamon, then fermented a few days and served cold with chili powder. It is sweet and pleasant but common only in warmer climates.</p>
+
+<p id="trail-rations" class="stat-block-title">Trail Rations</p>
+<p class="stat-block-1"><b>Price</b> 5 sp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">The listed price is for a day's worth of food. This bland food is usually some kind of hard tack, jerky, and dried fruit, though the contents vary from region to region and the race of those creating it. As long as it stays dry, it can go for months without spoiling.</p>
+				
+<p id="travel-cake-mix" class="stat-block-title">Travel Cake Mix</p>
+<p class="stat-block-1"><b>Price</b> 1 sp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This mixture of flour, powdered milk, natron, sugar, and salt lasts for months in a sealed container. When mixed with water (eggs are optional), it creates a batter you can use to make biscuits (or other quickbreads such as pancakes, waffles, scones, or muffins) or a cake. One pound of travel cake mix makes a dozen biscuits.</p>
+				
+<p id="wandermeal" class="stat-block-title">Wandermeal</p>
+<p class="stat-block-1"><b>Price</b> 1 cP; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">This tough, dried cake is a halfling invention made from flour, water, and spices. Wandermeal keeps for months without spoiling, travels well, and fills the belly. However, eating it for over a week without other nutrients requires the eater to make a daily Fortitude saving throw (DC 15 + 1 for each additional day) or be sickened. The effect ends 1 day after more nutritious food is eaten. The listed price is for a day's worth of food. </p>
+				
+<p id="whiskey" class="stat-block-title">Whiskey</p>
+<p class="stat-block-1"><b>Price</b> 1 sp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">Whiskey is a distilled beverage made from fermented grain mash (typically barley, corn, malt, rye, or wheat) aged in a wooden cask. The longer the drink ages in the cask, the smoother the final product.</p>
+				
+<p id="wine" class="stat-block-title">Wine</p>
+<p class="stat-block-1"><b>Price</b> 2 SP&ndash;10 Gp; <b>Weight</b> 1-1/2 lb.&ndash;6 lbs.</p>
+<p class="stat-block">Wine is made from fermented fruit juice, usually grapes, but also sometimes berries, apples, or even rice (sake). The lower listed price is for unremarkable common wine and the higher is for significantly finer wine, though wine from certain vintners (and specific years) may fetch much higher prices. In colder climates, wine is often mulled with fruit, spices, honey, and almonds and served as a warming beverage during the winter.</p>
+				
+<p id="yogurt" class="stat-block-title">Yogurt</p>
+<p class="stat-block-1"><b>Price</b> 1 sp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">This thick, fermented milk has a tangier taste than unprocessed milk. It may be sweetened with fruit, honey, or jam; blended with chopped herbs and oil to create a sauce; or mixed with water and salt, sugar, fruit, or mint as a drink.</p>
+	
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

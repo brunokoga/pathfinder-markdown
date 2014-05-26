@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Monks</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Monks",globalNavPath=[{ href: '/pathfinderRPG/prd/npcCodex/core/index.html', name: 'Core Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="monks">Monks</h1>
+
+<p id="careful-initiate" class="stat-block-title">Careful Initiate <span class="stat-block-cr">CR 1/2</span></p>
+<p class="stat-block-1"><b>XP</b> 200</p>
+<p class="stat-block-1"><b>Human monk</b> 1</p>
+<p class="stat-block-1">LN Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> Perception +6</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 16, touch 16, flat-footed 12 (+3 Dex, +1 dodge, +2 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 9 (1d8+1)</p>
+<p class="stat-block-1"><b>Fort</b> +2, <b>Ref</b> +5, <b>Will</b> +4</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee </b>unarmed strike +3 (1d6+1) or kama +3 (1d6+1) or unarmed strike flurry of blows +2/+2 (1d6+1)<b></b></p>
+<p class="stat-block-1"><b>Ranged </b>light crossbow +3 (1d8/19–20) or shuriken +3 (1d2+1) or shuriken flurry of blows +2/2 (1d2+1)</p>
+<p class="stat-block-1"><b>Special Attacks</b> flurry of blows, stunning fist (1/day, DC 12)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat </b>The monk uses <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> to catch enemies off-guard, starting any surprise round with Stunning Fist.</p>
+<p class="stat-block-1"><b>During Combat </b>The monk never fights multiple opponents if she can help it, and prefers to use her shuriken with a flurry of blows before entering melee.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 12, <b>Dex</b> 16, <b>Con</b> 10, <b>Int</b> 13, <b>Wis</b> 15, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk </b>+0; <b>CMB</b> +1; <b>CMD</b> 17</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, Stunning Fist, <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +7, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history, religion) +5,Perception +6, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +6, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +7</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i> (2); <b>Other Gear</b> kama, light crossbow with 10 bolts, shuriken (20), 50 gp</p>
+
+<p>Neophyte monks are often eager to prove their mettle in battle, but just as often their strict training means they tend to act tentatively when deprived of their master's guidance.</p>
+
+		
+<p id="bullying-brawler" class="stat-block-title">Bullying Brawler <span class="stat-block-cr">CR 1</span></p>
+<p class="stat-block-1"><b>XP</b> 400</p>
+<p class="stat-block-1"><b>Human monk</b> 2</p>
+<p class="stat-block-1">LE Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> Perception +7</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 14, touch 14, flat-footed 12 (+1 Dex, +1 dodge, +2 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 17 (2d8+5)</p>
+<p class="stat-block-1"><b>Fort</b> +5, <b>Ref</b> +4, <b>Will</b> +5</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> evasion</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee </b>unarmed strike +5 (1d6+4) or mwk nunchaku +6 (1d6+4) or mwk nunchaku flurry of blows +4/+4 (1d6+4)</p>
+<p class="stat-block-1"><b>Ranged</b> light crossbow +2 (1d8/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> flurry of blows, stunning fist (2/day, DC 13)</p>
+<p class="stat-block-breaker">  Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk drinks his <i>potion of <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i> if facing more than two opponents.</p>
+<p class="stat-block-1"><b>During Combat</b> The monk uses flurry of blows whenever possible, especially against opponents successfully affected by his stunning fist. If reduced to 5 hit points or fewer, he withdraws to drink one of his <i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a> </i>before returning to the fray.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without<i> <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, the monk's statistics are <b>Melee</b> unarmed strike +3 (1d6+2) or mwk nunchaku +4 (1d6+2) or flurry of blows (nunchaku) +2/+2 (1d6+2); <b>Str</b> 15; <b>CMB</b> +3; <b>CMD</b> 17.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 19, <b>Dex</b> 12, <b>Con</b> 15, <b>Int</b> 8, <b>Wis</b> 14, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +1; <b>CMB</b> +5; <b>CMD</b> 19</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, Scorpion Style, Stunning Fist</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +5, <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +1, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +5, Perception +7, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +7, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), acid (2); <b>Other Gear</b> light crossbow with 20 bolts, masterwork nunchaku, 23 gp</p>
+
+<p>Bullying brawlers are often sent to confront those who cross an order of monks. They are relentless in their pursuit of vengeance.</p>
+		
+<p id="vigilant-bodyguard" class="stat-block-title">Vigilant <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#bodyguard" >Bodyguard</a> <span class="stat-block-cr">CR 2</span></p>
+<p class="stat-block-1"><b>XP</b> 600</p>
+<p class="stat-block-1"><b>Human monk</b> 3</p>
+<p class="stat-block-1">LN Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> Perception +10</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 20, touch 16, flat-footed 18 (+4 armor, +1 Dex, +1 dodge, +4 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 20 (3d8+3)</p>
+<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +4, <b>Will</b> +7; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> evasion</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee </b>unarmed strike +5 (1d6+2) or nunchaku +4 (1d6+2) or unarmed strike flurry of blows +3/+3 (1d6+2)</p>
+<p class="stat-block-1"><b>Ranged</b> shuriken +3 (1d2+2) </p>
+<p class="stat-block-1"><b>Special Attacks</b> flurry of blows, stunning fist (3/day, DC 15)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk drinks her <i>potion of <a href="/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom" >owl's wisdom</a></i> to enhance her AC and Perception, as well as a <i>potion of <a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The monk uses a flurry of blows to make disarm attempts with her nunchaku. If protecting someone, she uses Stunning Fist before withdrawing with her charge.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without<i> <a href="/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom" >owl's wisdom</a></i> and <i><a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i>, the monk's statistics are <b>Senses </b>Perception +8; <b>AC</b> 15, touch 14, flat-footed 13; <b>Wis</b> 15; <b>CMD</b> 18; <b>Skills </b>Perception +8, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +8, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +3.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 13,<b> Con</b> 12, <b>Int</b> 10, <b>Wis</b> 19, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> +5; <b>CMD</b> 20</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, Stunning Fist, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (unarmed strike)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +7 (+11 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +6, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +5, Perception +10, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +10, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +7, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +5, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +6</p>
+<p class="stat-block-1"><b>SQ</b> fast movement, maneuver training</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a> </i>(3), <i>potion of <a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom" >owl's wisdom</a></i>, smokesticks (3); <b>Other Gear</b> dagger, nunchaku, shuriken (20), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor" >bracers of armor</a> +1</i>, 30 gp</p>
+
+<p>Some monk orders hire out vigilant bodyguards to princelings, merchants, and priests with compatible interests and philosophies.</p>
+
+		
+<p id="spry-ambusher" class="stat-block-title">Spry Ambusher <span class="stat-block-cr">CR 3</span></p>
+<p class="stat-block-1"><b>XP</b> 800</p>
+<p class="stat-block-1"><b>Gnome monk</b> 4</p>
+<p class="stat-block-1">LN Small humanoid (gnome)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> low-light vision; Perception +12</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 21, touch 17, flat-footed 19 (+4 armor, +1 Dex, +1 dodge, +1 monk, +1 size, +3 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 25 (4d8+4)</p>
+<p class="stat-block-1"><b>Fort</b> +5, <b>Ref</b> +6, <b>Will</b> +8; +2 vs. enchantments and illusions</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants), evasion</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee </b>unarmed strike +6 (1d6+1) or <i>+1 kama</i> +6 (1d4+2) or unarmed strike flurry of blows +5/+5 (1d6+1)</p>
+<p class="stat-block-1"><b>Ranged</b> shuriken +5 (1d1+1) or shuriken flurry of blows +4/+4 (1d1+1)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and reptilian humanoids, flurry of blows, stunning fist (4/day, DC 15)</p>
+<p class="stat-block-1"><b>Gnome Spell-Like Abilities </b>(CL 4th; concentration +5)</p>
+<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights" >dancing lights</a></i>, <i><a href="/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound" >ghost sound</a></i>, <i><a href="/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation" >prestidigitation</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk drinks her <i>potion of <a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i> and applies her <i>oil of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The rogue uses <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> skill to move through combat, helping allies flank.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without<i> <a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a> </i>and <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i>, the monk's statistics are <b>AC</b> 18, touch 17, flat-footed 16; <b>Melee </b>kama +5 (1d4+1).</p>
+<p class="stat-block-breaker">  Statistics</p>
+<p class="stat-block-1"><b>Str</b> 12, <b>Dex</b> 13, <b>Con</b> 10, <b>Int</b> 12, <b>Wis</b> 16, <b>Cha</b> 12</p>
+<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +4; <b>CMD</b> 19</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, Scorpion Style, Stunning Fist, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (unarmed strike)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +8, <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +5, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +6, Perception +12, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +12</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven, Gnome, Sylvan</p>
+<p class="stat-block-1"><b>SQ</b> fast movement, <i>ki</i> pool (5 points, magic), maneuver training, slow fall 20 ft.</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i>, <i>oil of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i>, smokestick, tanglefoot bag; <b>Other Gear</b> kama, shuriken (20), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor" >bracers of armor</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, 124 gp</p>
+
+<p>These gnomes often protect gnome communities in groups that skirmish in the name of their lawful lord.</p>
+
+		
+<p id="cruel-devotee" class="stat-block-title">Cruel Devotee <span class="stat-block-cr">CR 4</span></p>
+<p class="stat-block-1"><b>XP</b> 1,200</p>
+<p class="stat-block-1"><b>Human monk</b> 5</p>
+<p class="stat-block-1">LE Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> Perception +11</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 17, touch 17, flat-footed 15 (+1 deflection, +1 Dex, +1 dodge, +1 monk, +3 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 31 (5d8+5)</p>
+<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +6, <b>Will</b> +8; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> evasion; <b>Immune</b> disease</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee </b>unarmed strike +6 (1d8+3) or mwk siangham +7 (1d6+3) or unarmed strike flurry of blows +6/+6 (1d8+3)</p>
+<p class="stat-block-1"><b>Ranged</b> javelin +4 (1d6+3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> flurry of blows, stunning fist (5/day, DC 15)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The monk uses Stunning Fist to make opponents drop weapons, attacking if foes try to retrieve them.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 13, <b>Con</b> 12, <b>Int</b> 10<span class="Stat-Block-Breaker-Char char-style-override-20" xml:lang="en-US">,<b> Wis</b> 16, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +8 (+10 grapple); <b>CMD</b> 23 (25 vs. grapple)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Improved Grapple, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Scorpion Style, Stunning Fist</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +7 (+12 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +7, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +8, Perception +11, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +11, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +9</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> fast movement, high jump, <i>ki</i> pool (5 points, magic), maneuver training, purity of body, slow fall 20 ft.</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2); <b>Other Gear</b> javelin, masterwork siangham,<i> <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1, 3</i>47 gp</p>
+
+<p>Cruel devotees serve as the guardians and agents of monastic orders, taking on secret missions and even assassinations in order to protect the orders' interests.</p>
+
+		
+<p id="nimble-shuriken thrower" class="stat-block-title">Nimble Shuriken Thrower <span class="stat-block-cr">CR 5</span></p>
+<p class="stat-block-1"><b>XP</b> 1,600</p>
+<p class="stat-block-1"><b>Halfling monk</b> 6</p>
+<p class="stat-block-1">LN Small humanoid (halfling)</p>
+<p class="stat-block-1"><b>Init </b>+3; <b>Senses</b> Perception +11</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 18, touch 18, flat-footed 14 (+3 Dex, +1 dodge, +1 monk, +1 size, +2 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 40 (6d8+10)</p>
+<p class="stat-block-1"><b>Fort</b> +7, <b>Ref </b>+9, <b>Will</b> +8; +2 vs. enchantments, +2 vs. fear</p>
+<p class="stat-block-1"><b>Defensive Abilities </b>evasion; <b>Immune</b> disease</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee </b>unarmed strike +7 (1d6+2) or unarmed strike flurry of blows +7/+7/+2 (1d6+2)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk shuriken +9 (1d1+2) or mwk shuriken flurry of blows +9/+9/+4 (1d1+2)</p>
+<p class="stat-block-1"><b>Special Attacks </b>flurry of blows, stunning fist (6/day, DC 15)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat </b>The monk relies on her shuriken, using Shot on the <a href="/pathfinderRPG/prd/feats.html#_run" >Run</a> to begin and end behind cover. If cornered, she uses Stunning Fist and then escapes to a safe distance.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 17, <b>Con</b> 12, <b>Int </b>10, <b>Wis</b> 14, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk </b>+4;<b> CMB </b>+7; <b>CMD</b> 22</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, Deflect Arrows, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, Mobility, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, Shot on the <a href="/pathfinderRPG/prd/feats.html#_run" >Run</a>, Stunning Fist</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +14 (+24 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +12, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +4, Perception +11, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +8, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +13, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +6</p>
+<p class="stat-block-1"><b>Languages</b> Common, Halfling</p>
+<p class="stat-block-1"><b>SQ</b> fast movement, high jump, <i>ki</i> pool (5 points, magic), maneuver training, purity of body, slow fall 30 ft.</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>; <b>Other Gear</b> masterwork shuriken (20), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-incredible-dexterity" >belt of incredible dexterity</a> +2</i>, 130 gp</p>
+
+<p>These short-statured monks do their best to stay out of close combat, backing up their companions with well-placed shuriken.</p>
+		
+<p id="harrying-brute" class="stat-block-title">Harrying Brute<span class="stat-block-cr">CR 6</span></p>
+<p class="stat-block-1"><b>XP</b> 2,400</p>
+<p class="stat-block-1"><b>Human monk</b> 7</p>
+<p class="stat-block-1">LN Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> Perception +11</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 20, touch 16, flat-footed 18 (+4 armor, +1 Dex, +1 dodge, +1 monk, +3 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 45 (7d8+10)</p>
+<p class="stat-block-1"><b>Fort</b> +7, <b>Ref</b> +7, <b>Will</b> +9; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> evasion; <b>Immune</b> disease</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 50 ft.</p>
+<p class="stat-block-1"><b>Melee </b>unarmed strike +10 (1d8+4) or mwk sai +10 (1d4+4) or unarmed strike flurry of blows +10/+10/+5 (1d8+4)</p>
+<p class="stat-block-1"><b>Ranged</b> dagger +6 (1d4+4/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> flurry of blows, stunning fist (7/day, DC 16)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk drinks his <i>potion of <a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The monk uses his sai to disarm opponents, then uses Scorpion Style. If an enemy succumbs, he performs a flurry of blows, augmented with a point from his <i>ki</i> pool, and attempts to stun the opponent.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without<i> <a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i>, the monk's statistics are <b>AC</b> 16, touch 16, flat-footed 14.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 13, <b>Con</b> 12, <b>Int</b> 10, <b>Wis</b> 16, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +5<span class="Stat-Block-Breaker-Char char-style-override-20" xml:lang="en-US">;<b> CMB</b> +11; <b>CMD</b> 25</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Improved Disarm, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Scorpion Style, <a href="/pathfinderRPG/prd/feats.html#_step-up" >Step Up</a>, Stunning Fist, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (unarmed strike)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +10 (+25 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +9, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +3, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +6, Perception +11, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (percussion) +6, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +13, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> fast movement, high jump, <i>ki</i> pool (6 points, magic), maneuver training, purity of body, slow fall 30 ft., wholeness of body</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i> (2); <b>Other Gear</b> dagger, masterwork sai, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, 395 gp</p>
+		
+<p id="axe-dancer" class="stat-block-title">Axe Dancer <span class="stat-block-cr">CR 7</span></p>
+<p class="stat-block-1"><b>XP</b> 3,200</p>
+<p class="stat-block-1"><b>Half-orc monk</b> 8</p>
+<p class="stat-block-1">LE Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> darkvision 60 ft.; Perception +13</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 18, touch 17, flat-footed 16 (+1 Dex, +1 dodge, +2 monk, +1 natural, +3 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 60 (8d8+21)</p>
+<p class="stat-block-1"><b>Fort</b> +9, <b>Ref</b> +8, <b>Will</b> +10; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> evasion, orc ferocity; <b>Immune</b> disease</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 50 ft.</p>
+<p class="stat-block-1"><b>Melee </b>unarmed strike +10/+5 (1d10+4) or mwk greataxe +11/+6 (1d12+6/×3) or unarmed strike flurry of blows +10/+10/+5/+5 (1d10+4)</p>
+<p class="stat-block-1"><b>Ranged</b> shuriken flurry of blows +7/+7/+2/+2 (1d4+4)</p>
+<p class="stat-block-1"><b>Special Attacks</b> flurry of blows, stunning fist (8/day, DC 17)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat </b>The monk uses Stunning Fist, Scorpion Style, and Greater Grapple.</p>
+<p class="stat-block-breaker">  Statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 12, <b>Con</b> 14,</p>
+<p class="stat-block-1"><b>Int</b> 10, <b>Wis</b> 16, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +6; <b>CMB</b> +12 (+16 grapple); <b>CMD</b> 29 (31 vs. grapple)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_defensive-combat-training" >Defensive Combat Training</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Greater Grapple, Imp. Grapple, Imp. Initiative, Imp.  Unarmed Strike, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Scorpion Style, Stunning Fist</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +9 (+25 when jumping), <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +12, Perception +13, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +14, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +11</p>
+<p class="stat-block-1"><b>Languages</b> Common, Orc</p>
+<p class="stat-block-1"><b>SQ</b> fast movement, high jump, <i>ki </i>pool (7 points, magic), maneuver training, orc blood, purity of body, slow fall 40 ft., weapon familiarity, wholeness of body</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>; <b>Other Gear</b> masterwork greataxe, shuriken (20), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +2</i>, 119 gp</p>
+
+<p>Augmenting a monk's grace with the power of a greataxe, these half-orcs hack and crush their way to victory.</p>
+
+		
+<p id="steadfast-defender" class="stat-block-title">Steadfast Defender <span class="stat-block-cr">CR 8</span></p>
+<p class="stat-block-1"><b>XP</b> 4,800</p>
+<p class="stat-block-1"><b>Dwarf monk</b> 9</p>
+<p class="stat-block-1">LN Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +16</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 22, touch 18, flat-footed 21 (+4 armor, +1 deflection, +1 Dex, +2 monk, +4 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 93 (9d8+49)</p>
+<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +8, <b>Will</b> +11; +2 vs. poison, spells, and spell-like abilities; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants), improved evasion; <b>Immune</b> disease</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 50 ft.</p>
+<p class="stat-block-1"><b>Melee </b>unarmed strike +9/+4 (1d10+3) or mwk heavy pick +10/+5 (1d6+4/×4) or unarmed strike flurry of blows +10/+10/+5/+5 (1d10+3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk shuriken +8/+3 (1d2+3) or mwk shuriken flurry of blows +8/+8/+3/+3 (1d2+3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids, flurry of blows, stunning fist (9/day, DC 18)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk drinks his <i>potions of <a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i> and <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i> and tries to find a choke point where he can stand fast and hold off his enemies.</p>
+<p class="stat-block-1"><b>During Combat</b> If he can control an opening such as a doorway, the monk does his best not to move or let others past. He uses <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a> whenever he cannot use flurry of blows. He uses Improved Bull Rush on any opponent that has failed its saving throw versus Scorpion Style, trying to remove it from direct combat. He trips those adjacent to him so he can make attacks of opportunity when they stand up from prone. Against a single opponent, the steadfast defender uses his <i>ki</i> pool to add extra attacks to his flurry of blows; against multiple opponents he uses it to improve his Armor Class.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not under the effects of <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a> </i>and <i><a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i>, the monk's statistics are <b>AC</b> 19, touch 18, flat-footed 18; <b>hp</b> 75; <b>Fort</b> +10; <b>Con</b> 16.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 12, <b>Con</b> 20, <b>Int</b> 10, <b>Wis</b> 18, <b>Cha</b> 6</p>
+<p class="stat-block-1"><b>Base Atk</b> +6; <b>CMB</b> +12 (+14 bull rush or trip); <b>CMD</b> 30 (36 vs. bull rush or trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_defensive-combat-training" >Defensive Combat Training</a>, Improved Bull Rush, Improved Trip, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Scorpion Style, Stand Still, Stunning Fist, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +11 (+28 when jumping), <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> +3 (+5 to assess nonmagical metals or gemstones), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering, engineering) +5, Perception +16 (+18 to notice unusual stonework), <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +12, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +9</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven</p>
+<p class="stat-block-1"><b>SQ</b> fast movement, high jump, <i>ki</i> pool (8 points, magic), maneuver training, purity of body, slow fall 40 ft., wholeness of body</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i> (2), antitoxin, holy water (2); <b>Other Gear</b> masterwork heavy pick, masterwork shuriken (50), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor" >bracers of armor</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, 141 gp</p>
+
+<p>Steadfast defenders often serve as guards in monasteries and as bodyguards for important dignitaries.</p>
+<h3>Branock Ulgrehn</h3>
+<p>Branock's friends and surviving enemies call him "The Immovable." Mixing dwarven stubbornness with his monk's training, Branock excels when he is guarding a single chokepoint. He was born the son of a minor dwarven thane, but chose to betray his family in exchange for the hand of the daughter of his father's rival. His betrayal was for naught, however, as he was double-crossed by his family's enemies and cast out from his childhood home. Now he hires himself out to this group or that, always searching for a way to erase his shame and win his way back into the warm embrace of his homeland, though he knows that this feat will prove to be nearly impossible&mdash;for dwarves do not easily forgive treachery.</p>
+<p><b>Combat Encounters:</b> Branock is typically employed to limit the escape routes on a battlefield. Other times he is hired on as a bodyguard or a bouncer, and could even be found guarding the vault in a bank or royal treasury.</p>
+<p><b>Roleplaying Suggestions:</b> While Branock often seems talkative and friendly, he rarely speaks of his shameful past to strangers. When he does, he tends to gloss over the details of his treachery and subsequent exile.</p>
+		
+<p id="cautious-hunter" class="stat-block-title">Cautious Hunter <span class="stat-block-cr">CR 9</span></p>
+<p class="stat-block-1"><b>XP</b> 6,400</p>
+<p class="stat-block-1"><b>Half-orc monk</b> 10</p>
+<p class="stat-block-1">LE Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> darkvision 60 ft., <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i>; Perception +12</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 21, touch 17, flat-footed 19 (+2 armor, +1 Dex, +1 dodge, +2 monk, +2 natural, +3 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 73 (10d8+25)</p>
+<p class="stat-block-1"><b>Fort</b> +9, <b>Ref</b> +8, <b>Will</b> +10; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved evasion, orc ferocity; <b>Immune</b> disease</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 60 ft.</p>
+<p class="stat-block-1"><b>Melee</b> unarmed strike +11/+6 (1d10+4) or mwk falchion +12/+7 (2d4+6/18–20) or unarmed strike flurry of blows +12/+12/+7/+7 (1d10+4)</p>
+<p class="stat-block-1"><b>Ranged</b> heavy crossbow +8 (1d10/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> flurry of blows, stunning fist (10/day, DC 18)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk drinks <i>potions of <a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i> and ambushes foes whenever possible.</p>
+<p class="stat-block-1"><b>During Combat</b> The monk charges, using <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a> in conjunction with Stunning Fist. Against stunned opponents, she employs her falchion and <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>. If surrounded or adjacent to a particularly powerful combatant, she uses Improved Bull Rush and then <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, pushing her enemies away and then forcing them to close again.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i>, the monk's statistics are <b>Senses</b> no <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i>; <b>AC</b> 19, touch 17, flat-footed 17.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 12, <b>Con</b> 14, <b>Int</b> 10, <b>Wis</b> 16, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +7; <b>CMB</b> +14 (+17 bull rush); <b>CMD</b> 28 (30 vs. bull rush)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Extra <i>Ki</i>, Improved Bull Rush, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, Medusa's Wrath, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Scorpion Style, Stunning Fist, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +6 (+28 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +12, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +9, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +4, Perception +12, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +16, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +19, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +8, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +8</p>
+<p class="stat-block-1"><b>Languages</b> Common, Orc</p>
+<p class="stat-block-1"><b>SQ</b> fast movement, high jump, <i>ki</i> pool (10 points, lawful, magic), maneuver training, orc blood, purity of body, slow fall 50 ft., weapon familiarity, wholeness of body</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i>; <b>Other Gear</b> heavy crossbow with 20 bolts, masterwork falchion, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i>bracers  of armor +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-elvenkind" >cloak of elvenkind</a></i>, masterwork manacles, 195 gp</p>
+
+<p>These monks often serve as enforcers and bounty hunters for monastic orders or lawful lords, tracking down those in need of punishment.</p>
+<h3>Tiaret the Huntress</h3>
+<p>Tiaret hunts violent criminals. She was once an initiate among a peaceful order of monks, but then her monastery was destroyed by brigands. Tiaret was the only survivor, and her firststint as a bounty hunter involved hunting down each of the attackers and bringing them to justice. Since then, Tiaret has continued to use her talents to capture lawbreakers. Though she prefers jobs where the bounty is wanted dead or alive, if she thinks an opponent might have value, she attacks with nonlethal force and renders the foe unconscious.</p>
+<p><b>Combat Encounters:</b> Tiaretprefers to work alone, as tracking an enemy requires a level of stealth and precision sellswords and spellcasters often lack. When forced to seek allies against a particularly powerful foe, she prefers the company of rogues and rangers.</p>
+<p><b>Roleplaying Suggestions:</b> Often sullen and stern, Tiaret is ever observant, always searching for those wanted by the law and trying to overhear conversations of people she believes are plotting to break the law. She has no tolerance for those who harass monks, cleric, inquisitors, or oracles. She believes in following the letter of the law, and cares little about the spirit.</p>
+
+		
+<p id="poisonous-performer" class="stat-block-title">Poisonous Performer <span class="stat-block-cr">CR 10</span></p>
+<p class="stat-block-1"><b>XP</b> 9,600</p>
+<p class="stat-block-1"><b>Human monk</b> 11</p>
+<p class="stat-block-1">LE Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> Perception +14</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 23, touch 21, flat-footed 18 (+2 armor, +1 deflection, +4 Dex, +1 dodge, +2 monk, +3 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 60 (11d8+7)</p>
+<p class="stat-block-1"><b>Fort</b> +8, <b>Ref</b> +12, <b>Will</b> +11; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved evasion; <b>Immune</b> disease, poison</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 60 ft.</p>
+<p class="stat-block-1"><b>Melee </b>unarmed strike +12/+7 (1d10+1/19–20) or unarmed strike flurry of blows +13/+13/+8/+8/+3 (1d10+1/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b> shuriken +12/+7 (1d2+1 plus poison) or shuriken flurry of blows +13/+13/+8/+8/+3 (1d2+1 plus poison)</p>
+<p class="stat-block-1"><b>Special Attacks</b> flurry of blows, stunning fist (11/day, DC 18)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk conceals her shuriken as the metal cymbals inside her tambourine, applying 2 doses of black adder venom or drow poison to the weapons before combat. She performs, bluffs, or connives her way to her target.</p>
+<p class="stat-block-1"><b>During Combat</b> If the monk finds herself outnumbered, she uses flurry of blows with her poisoned shuriken. She shifts and feints through a melee. If her feint is successful, she trips that foe. Once the foe is on the ground, she slams down with a Stunning Fist. A poisonous performer does not hesitate to abandon combat if outmatched or seriously injured, drinking her <i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> and fleeing the field to a place where she can drink a <i>potion of <a href="/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self" >disguise self</a></i>, blend in, and disappear.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 12, <b>Dex</b> 18, <b>Con</b> 10, <b>Int</b> 13, <b>Wis</b> 17, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +8; <b>CMB</b> +12 (+14 trip); <b>CMD</b> 30 (32 vs. trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (unarmed strike), Improved Feint, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, Improved Trip, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>), Stunning Fist, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +17 (+40 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +16, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +9, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +3, Perception +14, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (dance, percussion) +8, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +17, <a href="/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> +9, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +15, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven, Elven, Gnome</p>
+<p class="stat-block-1"><b>SQ</b> diamond body, fast movement, high jump, <i>ki</i> pool (8 points, lawful, magic), maneuver training, purity of body, slow fall 50 ft., wholeness of body</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self" >disguise self</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, black adder venom (4), drow poison (4), oil of taggit; <b>Other Gear</b> shuriken (20), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-incredible-dexterity" >belt of incredible dexterity</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor" >bracers of armor</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, tambourine, 71 gp</p>
+
+<p>The poisonous performer is a member of a monastery that seeks enlightenment in the perfection of murder and assassination. Such monks are poison users and masters of disguise, and often greatly feared in the lands around their monasteries. They are sometimes hunted by monks from other monasteries who believe their grim rites are a perversion of proper monastic practices.</p>
+<h3>Natessa the Angel of Death</h3>
+<p>Natessa came to the monastery on the far island when she was a young woman. She told the monks she had accidently killed a man with her horse, and wondered why it made her feel complete, at one with all being. The monks ushered her in, and though she was older than the other pupils, they trained her in the discipline of holy killing. Since that day, she has risen in the ranks, and is now one the monastery's prized slayers. Few expect the pretty but forgettable girl with the youthful gait to be a seasoned and a brutal killer.</p>
+<p><b>Combat Encounters:</b> Most people don't know they are in combat with Natessa until they have poisoned shuriken sticking out of them. Natessa usually works alone, but has been known to bring support for a particularly well-guarded target. She has also been associated with a small number of adventuring parties, but typically under a false identity.</p>
+<p><b>Roleplaying Suggestions:</b> While she's hunting a mark, Natessa takes on the persona of a traveling tambourine player or a prostitute.</p>
+
+		
+<p id="swift-brawler" class="stat-block-title">Swift Brawler <span class="stat-block-cr">CR 11</span></p>
+<p class="stat-block-1"><b>XP</b> 12,800</p>
+<p class="stat-block-1"><b>Human monk</b> 12</p>
+<p class="stat-block-1">LN Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> Perception +20</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 23, touch 21, flat-footed 21 (+2 armor, +1 deflection, +2 Dex, +3 monk, +5 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 75 (12d8+18)</p>
+<p class="stat-block-1"><b>Fort</b> +10, <b>Ref</b> +11, <b>Will</b> +14; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved evasion; <b>Immune</b> disease, poison</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 70 ft.</p>
+<p class="stat-block-1"><b>Melee </b>mwk quarterstaff +13/+8 (1d6+3) or <i>+1 unarmed strike</i> +13/+8 (2d6+4) or <i>+1 unarmed strike </i>flurry of blows +14/+14/+9/+9/+4 (2d6+3)</p>
+<p class="stat-block-1"><b>Ranged</b> shuriken +11/+6 (1d2+3) or shuriken flurry of blows +12/+12/+7/+7/+2 (1d2+3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> flurry of blows, stunning fist (12/day, DC 21)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk uses <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> to find a hiding spot in an effort to gain the element of surprise.</p>
+<p class="stat-block-1"><b>During Combat</b> The monk uses Deflect Arrows to close in on ranged combatants. He uses <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a> to keep enemies at bay and flurry of blows to trip multiple opponents if surrounded, allowing him the full benefit of his <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a> when tripped opponents try to stand. A swift brawler uses <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a> against enemies he has tripped or stunned, only risking the penalty on his attack rolls when his target's AC has been compromised in some way.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 15, <b>Con</b> 12, <b>Int</b> 10, <b>Wis</b> 20, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +9; <b>CMB</b> +15 (+17 trip); <b>CMD</b> 33 (35 vs. trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_acrobatic" >Acrobatic</a> Steps, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, Deflect Arrows, Extra <i>Ki</i>, Gorgon's Fist, Improved Trip, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, <a href="/pathfinderRPG/prd/feats.html#_nimble-moves" >Nimble Moves</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Scorpion Style, Spring Attack, Stunning Fist</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +15 (+43 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +11, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography, local) +4, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +7, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +3, Perception +20, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +18, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +15, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +7</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven, Elven, Gnome, Orc</p>
+<p class="stat-block-1"><b>SQ</b> abundant step, diamond body, fast movement, high jump, <i>ki</i> pool (13 points, lawful, magic), maneuver training, purity of body, slow fall 60 ft., wholeness of body</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image" >mirror image</a></i>; <b>Other Gear</b> masterwork quarterstaff, shuriken (20), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-mighty-fists" >amulet of mighty fists</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor" >bracers of armor</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, 46 gp</p>
+
+<p>Swift brawlers serve as the vanguard of many monasteries' forces. They use speed and agility to track down and neutralize enemy leaders and spellcasters.</p>
+
+<h3>Ryoto</h3>
+<p>Once Ryoto was a gambler, a killer, and a thief. And then one day he walked away from that life&mdash;a depraved and wine-hazed existence of vice and violence. He sat down before the gates of a monastery high up in the hills, and did not move for over a week, meditating without food or water. When he finally spoke, he looked up at the monks of the order and merely said, "I am now you." The monks, sensing the fundamental truth in this cryptic statement, silently opened their doors and accepted him as one of their own.</p>
+<p>When he came to the monastery, Ryoto was powerful and crafty, but undisciplined. The monks saw his potential, however, and did their best to break him down and remake him into a perfect warrior. After years of routine and training, he is now one of the greatest fighters in the school, and is revered and thought of as a great teacher, despite&mdash;or perhaps because of&mdash;the fact that he has not said a single word since entering the monastery.</p>
+<p><b>Combat Encounters:</b> Ryoto is the first one to come to the defense of his order, or to right some wrong he sees.</p>
+<p><b>Roleplaying Suggestions:</b> As someone who refuses to speak, or sometimes even to acknowledge the existence of others, Ryoto is difficult for others to communicate with. His companions often don't know his intent until he acts.</p>
+
+		
+<p id="monastic-sniper" class="stat-block-title">Monastic Sniper <span class="stat-block-cr">CR 12</span></p>
+<p class="stat-block-1"><b>XP</b> 19,200</p>
+<p class="stat-block-1"><b>Elf monk</b> 13</p>
+<p class="stat-block-1">LN Medium humanoid (elf)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> low-light vision; Perception +19</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 24, touch 22, flat-footed 20 (+2 armor, +1 deflection, +3 Dex, +1 dodge, +3 monk, +4 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 85 (13d8+23)</p>
+<p class="stat-block-1"><b>Fort</b> +11, <b>Ref</b> +13, <b>Will</b> +14; +4 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved evasion; <b>Immune</b> disease, poison, sleep; <b>SR</b> 23</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 70 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 rapier</i> +12/+7 (1d6+3/15–20) or unarmed strike +11/+6 (2d6+2) or unarmed strike flurry of blows +13/+13/+8/+8/+3 (2d6+2)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +13/+8 (1d8+2/×3) or mwk shuriken +13/+8 (1d2+2) or mwk shuriken flurry of blows +14/+14/+9/+9/+4 (1d2+2)</p>
+<p class="stat-block-1"><b>Special Attacks</b> flurry of blows, stunning fist (13/day, DC 20)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk tries to find cover from which to snipe at his enemies, using abundant step in conjunction with <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> to make enemies think they face multiple attackers.</p>
+<p class="stat-block-1"><b>During Combat</b> If the monk must enter melee, he uses Stunning Fist against flat-footed or disadvantaged opponents. If successful, he then uses his rapier in conjunction with <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a> and <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>. If he's outnumbered, the monk uses Spring Attack and <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a> to whittle down his foes.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 16, <b>Con</b> 12, <b>Int</b> 11, <b>Wis</b> 18, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +9; <b>CMB</b> +15 (+17 disarm); <b>CMD</b> 33 (35 vs. disarm)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (rapier), Improved Disarm, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Precise Shot, <a href="/pathfinderRPG/prd/feats.html#_quick-draw" >Quick Draw</a>, Spring Attack, Stunning Fist, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +15 (+44 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +5, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history, religion) +5, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +2, Perception +19, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +15, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +15</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven, Elven, Sylvan</p>
+<p class="stat-block-1"><b>SQ</b> abundant step, diamond body, diamond soul, elven magic, fast movement, high jump, <i>ki</i> pool (10 points, lawful, magic), maneuver training, purity of body, slow fall 60 ft., weapon familiarity, wholeness of body</p>
+<p class="stat-block-1"><b>Combat Gear</b><i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_elixir-of-truth" >elixir of truth</a></i>,<i> potion of <a href="/pathfinderRPG/prd/spells/blur.html#_blur" >blur</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages" >comprehend languages</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/glibness.html#_glibness" >glibness</a></i>; <b>Other Gear</b><i>+1 rapier</i>, masterwork composite longbow (+2 Str) with 20 arrows, masterwork shuriken (50), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-incredible-dexterity" >belt of incredible dexterity</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-elvenkind" >boots of elvenkind</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor" >bracers of armor</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, 179 gp</p>
+
+<p>Both archers and diplomats, monastic snipers consider a well-placed warning shot the ideal method to open the channels of diplomacy from a position of power.</p>
+<h3>Tourindall Andarael</h3>
+<p>Many elves defend their enclaves with both well-placed arrows and honeyed words. Tourindall uses those same tactics to defend his fellow monks and their home. When strangers enter his order's lands, Tourindall is sent to spy on them and possibly warn them away.</p>
+<p><b>Combat Encounters:</b> Tourindall negotiates his way out of a fight if he can. If battle breaks out but negotiation still seems feasible, he disarms a single foe then offers to parley, or gets away to drink his potion of glibnessbefore returning to talk.</p>
+<p><b>Roleplaying Suggestions:</b> Tourindall is proud of his knowledge of both history and religion, and comes off as overly academic. He often weaves into his negotiations proverbs and myths from a variety of religions.</p>
+		
+<p id="little-fist" class="stat-block-title">Little Fist <span class="stat-block-cr">CR 13</span></p>
+<p class="stat-block-1"><b>XP</b> 25,600</p>
+<p class="stat-block-1"><b>Halfling monk</b> 14</p>
+<p class="stat-block-1">LN Small humanoid (halfling)</p>
+<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> Perception +20</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 29, touch 25, flat-footed 24 (+2 armor, +1 deflection, +4 Dex, +1 dodge, +3 monk, +2 natural, +1 size, +5 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 80 (14d8+14)</p>
+<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +15, <b>Will</b> +16; +2 vs. enchantments, +2 vs. fear</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved evasion; <b>Immune</b> disease, poison; <b>SR</b> 24</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 60 ft.</p>
+<p class="stat-block-1"><b>Melee </b><i>+1 unarmed strike</i> +16/+11 (1d10+4) or <i>+1 unarmed strike </i>flurry of blows +18/+18/+13/+13/+8 (1d10+4)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk shortbow +16/+11 (1d4/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> flurry of blows, stunning fist (14/day, DC 22)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk often tries to reason or treat with potential foes in an effort to avoid unnecessary combat, or to quietly study enemies and discern each one's strengths and weaknesses. Once combat is unavoidable, he drinks <i>potions of <a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The monk trusts his improved evasion, high saves, and spell resistance to safeguard him against spellcasters, and focuses on martial opponents, combining Spring Attack and Stunning Fist. He uses <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a> against Small or Medium opponents, often using <i>ki</i> points to grant himself a bonus to AC and negate the penalty from using <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>. When making a flurry of blows, he attempts a Stunning Fist on the first strike. He uses <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#snatch" >Snatch</a> Arrows to return thrown weapons and <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a> whenever he catches a weapon he is proficient with. </p>
+<p class="stat-block-1"><b>Base Statistics </b>Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, the monk's statistics are <b>AC</b> 27, touch 25, flat-footed 22; <b>Melee </b><i>+1 unarmed strike</i> +16/+11 (1d10+2) or <i>+1 unarmed strike </i>flurry of blows +18/+18/+13/+13/+8 (1d10+1); <b>Str</b> 12; <b>CMB</b> +14; <b>CMD</b> 34; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +10, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 18, <b>Con</b> 12, <b>Int</b> 11, <b>Wis</b> 20, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +10; <b>CMB</b> +16; <b>CMD</b> 36</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, Deflect Arrows, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Gorgon's Fist, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, Scorpion Style, <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#snatch" >Snatch</a> Arrows, Spring Attack, Stunning Fist, <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +20 (+48 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +12, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +16, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +8, Perception +20, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (wind) +7, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +20, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +21, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +7</p>
+<p class="stat-block-1"><b>SQ</b> abundant step, diamond body, diamond soul, fast movement, high jump, <i>ki</i> pool (12 points, lawful, magic), maneuver training, purity of body, slow fall 70 ft., wholeness of body</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a> </i>(2), <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a> </i>(2), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_universal-solvent" >universal solvent</a></i> (2), tanglefoot bag; <b>Other Gear</b> masterwork shortbow with 20 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-mighty-fists" >amulet of mighty fists</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-incredible-dexterity" >belt of incredible dexterity</a> +2, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor" >bracers of armor</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +4, <a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1,</i> masterwork wooden flute, 419 gp</p>
+
+<p>These monks are small, but powerful and well trained. Those who underestimate one of these halflings do so at their own peril.</p>
+<h3>Laoshi</h3>
+<p>Laoshi listens to the wind, and always does its bidding. Sometimes it tells him to help those in need. Other times it tells him to play his flute while a city burns. It's also led him on a number of adventures.</p>
+<p><b>Combat Encounters:</b> Though lawful, Laoshi is a servant of the wind. This can sometimes lead him to seemingly random acts, including outbursts of violence. In the end, however, it usually works out for the common good.</p>
+<p><b>Roleplaying Suggestions:</b> Laoshi makes his way through the land, playing his flute for the occasional coin. He hears much and often passes on that information to those the wind suggests.</p>
+
+		
+<p id="improvised-hurler" class="stat-block-title">Improvised Hurler <span class="stat-block-cr">CR 14</span></p>
+<p class="stat-block-1"><b>XP</b> 38,400</p>
+<p class="stat-block-1"><b>Dwarf monk</b> 15</p>
+<p class="stat-block-1">LN Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> Perception +22</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 28, touch 22, flat-footed 24 (+4 armor, +1 deflection, +3 Dex, +1 dodge, +3 monk, +2 natural, +4 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 91 (15d8+20)</p>
+<p class="stat-block-1"><b>Fort</b> +13, <b>Ref</b> +15, <b>Will</b> +16; +2 vs. enchantments, +2 vs. poison, spells, and spell-like abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants), improved evasion; <b>Immune</b> disease, poison; <b>SR</b> 25</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 70 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 unarmed strike</i> +16/+11/+6 (2d6+5/19–20)</p>
+<p class="stat-block-1"><b>Ranged </b>improvised thrown weapon +15 (1d8+4/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids, flurry of blows, quivering palm (1/day, DC 21), stunning fist (15/day, DC 21)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk drinks <i>potions of <a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> This monk prefers to use improvised weapons like ladders, tankards, and chisels. If he happens upon a particularly effective and sturdy improvised weapon, he applies <i>oil of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i> before rejoining the fray. In familiar terrain, he tries to stun or trip a foe as a standard action and then uses his abundant step ability to seek cover where he can hide. The dwarf then pelts his adversaries with anything on hand.</p>
+<p class="stat-block-1"><b>Base Statistics </b>Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, the monk's statistics are <b>Init</b> +5; <b>AC</b> 24, touch 20, flat-footed 22; <b>Ref</b> +13; <b>Ranged </b>improvised thrown weapon +13 (1d8+4/19–20); <b>Dex</b> 13; <b>CMD</b> 35 (39 vs. bull rush, 41 vs. trip); <b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +14 (+45 when jumping), <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +9.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 17, <b>Con</b> 12, <b>Int</b> 12, <b>Wis</b> 18, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +11; <b>CMB</b> +19 (+21 trip); <b>CMD</b> 37 (41 vs. bull rush, 43 vs. trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_catch-off-guard" >Catch Off-Guard</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Extra <i>Ki</i>, Gorgon's Fist, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, Improved Trip, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_improvised-weapon-mastery" >Improvised Weapon Mastery</a>, Medusa's Wrath, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Scorpion Style, <a href="/pathfinderRPG/prd/feats.html#_step-up" >Step Up</a>, Stunning Fist, <a href="/pathfinderRPG/prd/feats.html#_throw-anything" >Throw Anything</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +16 (+47 when jumping), <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> +11 (+13 to assess nonmagical metals or gemstones), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +11, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (carpentry) +21, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering, engineering) +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +8, Perception +22 (+24 to notice unusual stonework), <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +19, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +11</p>
+<p class="stat-block-1"><b>SQ</b> abundant step, diamond body, diamond soul, fast movement, high jump, <i>ki</i> pool (13 points, lawful, magic), maneuver training, purity of body, slow fall 70 ft., wholeness of body</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>oil of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a> </i>(3), <i>oil of <a href="/pathfinderRPG/prd/spells/mending.html#_mending" >mending</a></i> (5), <i>potion of <a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a>, potions of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a> </i>(2); <b>Other Gear</b><i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-mighty-fists" >amulet of mighty fists</a> +1, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor" >bracers of armor</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +3, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +2, <a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1, </i>masterwork artisan's tools, 470 gp</p>
+
+<p>Typically found among tavern brawlers, an improvised hurler turns ordinary objects into devastating weapons.</p>
+<h3>Creighton Flintfinger</h3>
+<p>As a child, Creighton hurled his cup at an older boy and knocked him out cold. From that point on, the world was his weapon. Each foe the dwarf faces is a puzzle&mdash;how can he win using only what is provided by nature and luck? He has been on this path for 20 years now, and is considered by many to be a living saint.</p>
+<p><b>Combat Encounters:</b> Creighton is friendly with many adventuring parties and city governments. He often travels as a group member, friend of a dignitary, or emissary, and comes to the aid of those who seem worthy.</p>
+<p><b>Roleplaying Suggestions:</b> Creighton is not like other dwarves. Tranquil in conversation, he is a riot of emotion in battle, as he tries to fuse with the world's primal nature.</p>
+
+		
+<p id="horse-monk" class="stat-block-title">Horse Monk <span class="stat-block-cr">CR 15</span></p>
+<p class="stat-block-1"><b>XP</b> 51,200</p>
+<p class="stat-block-1"><b>Human monk</b> 16</p>
+<p class="stat-block-1">LN Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> Perception +21</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 26, touch 22, flat-footed 23 (+4 armor, +2 deflection, +2 Dex, +1 dodge, +4 monk, +3 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 91 (16d8+16)</p>
+<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +15, <b>Will</b> +16; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities </b>improved evasion; <b>Immune</b> disease, poison; <b>SR</b> 26</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 80 ft.</p>
+<p class="stat-block-1"><b>Melee </b><i>+1 unarmed strike </i>+17/+12/+7 (2d8+5) or <i>+1 spear</i> +17/+12/+7 (1d8+7/×3) or <i>+1 unarmed strike </i>flurry of blows +19/+19/+14/+14/+9/+9/+5 (2d8+5)</p>
+<p class="stat-block-1"><b>Ranged </b>blowgun +15/+10/+5 (1d2)</p>
+<p class="stat-block-1"><b>Special Attacks </b>flurry of blows, quivering palm (1/day, DC 21), stunning fist (16/day, DC 21)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat </b>The monk prefers to ambush foes, and uses his diamond body ability to poison either his spear or at least two javelins without risk to himself.</p>
+<p class="stat-block-1"><b>During Combat</b> The monk prefers to fight from horseback, and uses Ride-By Attack and <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a> to hit foes so he faces little risk of retaliation. He often uses Stunning Fist on the first pass, and if successful follows with a Spirited Charge. Against other mounted foes, he uses Improved Trip to unhorse his opponents if possible.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 14, <b>Con</b> 12, <b>Int</b> 10, <b>Wis</b> 16, <b>Cha</b> 12</p>
+<p class="stat-block-1"><b>Base Atk </b>+12; <b>CMB</b> +20 (+22 trip); <b>CMD</b> 38 (40 vs. trip)</p>
+<p class="stat-block-1"><b>Feats </b><a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, Deflect Arrows, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Improved Trip, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Precise Shot, <a href="/pathfinderRPG/prd/feats.html#_quick-draw" >Quick Draw</a>, Ride-By Attack, <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#snatch" >Snatch</a> Arrows, Spirited Charge, Stunning Fist</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +15 (+51 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +11, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +12, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +5, <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> +3, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +5, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +12, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana, geography) +1, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +5, Perception +21, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +15, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +13, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +17, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +8, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +9</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> abundant step, diamond body, diamond soul, fast movement, high jump, <i>ki</i> pool (11 points, adamantine, lawful, magic), maneuver training, purity of body, slow fall 80 ft., wholeness of body</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages" >comprehend languages</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a> </i>(2), <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/glibness.html#_glibness" >glibness</a></i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, drow poison (2), giant wasp poison (2), medium spider venom (3); <b>Other Gear</b><i>+1 spear,</i> blowgun with 20 blowgun darts, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-mighty-fists" >amulet of mighty fists</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bag-of-holding" >bag of holding</a> </i>(type I)<i>, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-elvenkind" >boots of elvenkind</a>, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor" >bracers of armor</a> +4, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +3, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_eyes-of-the-eagle" >eyes of the eagle</a>, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_hat-of-disguise" >hat of disguise</a>, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +2, <a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +2, </i>light horse (combat trained), 15 gp</p>
+
+<p>These warriors are dangerous on or off their mounts. </p>
+<h3>Asim the Crimson Bandit</h3>
+<p>Asim's family had a long tradition of robbing travelers, but he was determined to end that life, seeking out a monastery to remake himself. His riches went to the temple to fund good works, and he gave his expensive clothes to the poor. Yet when territorial changes found the monastery's lands full of invaders, he found himself leading the resistance. Often this war requires robbing the supply trains of his enemies, and what Asim steals he splits between the poor and the war effort.</p>
+<p><b>Combat Encounters:</b> Asim is rarely without several fellow monks. He is always wary, and would rather question an incapacitated foe than fall for an enemy's trap.</p>
+<p><b>Roleplaying Suggestions:</b> More than anything, Asim wants to return to the peaceful life of an ascetic.</p>
+
+		
+<p id="warren-chief" class="stat-block-title">Warren Chief <span class="stat-block-cr">CR 16</span></p>
+<p class="stat-block-1"><b>XP</b> 76,800</p>
+<p class="stat-block-1"><b>Gnome monk</b> 17</p>
+<p class="stat-block-1">LN Small humanoid (gnome)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> Perception +23</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 30, touch 24, flat-footed 27 (+4 armor, +2 deflection, +2 Dex, +1 dodge, +4 monk, +2 natural, +1 size, +4 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 104 (17d8+24)</p>
+<p class="stat-block-1"><b>Fort</b> +13, <b>Ref</b> +14, <b>Will</b> +16; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved evasion; <b>Immune</b> disease, fire (60 points), poison; <b>SR</b> 27</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 70 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 unarmed strike </i>+18/+13/+8 (2d6+4) or <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ki-focus" >ki focus</a> kama </i>+17/+12/+7 (1d4+4) or <i>+1 unarmed strike </i>flurry of blows +20/+20/+15/+15/+10/+10/+5 (2d6+4)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk shuriken +16/+11/+6 (1d1+3) or mwk shuriken flurry of blows +16/+16/+11/+11/+6/+6/+1 (1d1+3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and reptilian humanoids, flurry of blows, quivering palm (1/day, DC 22), stunning fist (17/day, DC 22)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk drinks his <i>potions of <a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (fire) if he has had time to study his foes' weaknesses. When fighting in cramped or narrow areas, he instead drinks his <i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> and coats an area of the floor with his <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_salve-of-slipperiness" >salve of slipperiness</a></i>. He then waits for foes to enter the greased area before attacking.</p>
+<p class="stat-block-1"><b>During Combat</b> The monk uses his kama in conjunction with Spring Attack and Improved Trip to knock foes prone, potentially using the kama's <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ki-focus" >ki focus</a></i> special ability to channel his Stunning Fist. If he has successfully tripped foes with his <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_salve-of-slipperiness" >salve of slipperiness</a></i>, he activates his <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_slippers-of-spider-climbing" >slippers of spider climbing</a> </i>so he doesn't have to cross the slippery floor, and uses flurry of blows with his shuriken. If outnumbered, he uses his <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_elemental-gem" >elemental gem</a></i> and flanks with the earth elemental.</p>
+<p class="stat-block-1"><b>Base Statistics </b>Without<i> <a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, the monk's statistics are <b>Immune</b> disease, poison; <b>AC</b> 28, touch 24, flat-footed 25.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 17, <b>Dex</b> 15, <b>Con</b> 12, <b>Int</b> 12, <b>Wis</b> 18, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +12; <b>CMB</b> +19 (+21 trip); <b>CMD</b> 37 (39 vs. trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_acrobatic" >Acrobatic</a> Steps, <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Improved Trip, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, Mobility, <a href="/pathfinderRPG/prd/feats.html#_nimble-moves" >Nimble Moves</a>, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Precise Shot, Scorpion Style, Spring Attack, Stunning Fist, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (unarmed strike)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +20 (+53 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +16, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (pottery) +8, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +4, <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> +7, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering, engineering) +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +7, Perception +23, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +15, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +24, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +8, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +7</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven, Gnome, Sylvan; tongue of the sun and moon</p>
+<p class="stat-block-1"><b>SQ</b> abundant step, diamond body, diamond soul, fast movement, high jump, <i>ki</i> pool (12 points, adamantine, lawful, magic), maneuver training, purity of body, slow fall 80 ft., timeless body, wholeness of body</p>
+<p class="stat-block-1"><b>Combat Gear</b><i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_elemental-gem" >elemental gem</a> </i>(earth)<i>, potion of <a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a> </i>(fire), <i>salve of  slipperiness</i>; <b>Other Gear</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ki-focus" >ki focus</a> kama,</i> masterwork shuriken (40), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-mighty-fists" >amulet of mighty fists</a> +1, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a>, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor" >bracers of armor</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +2, <a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +2, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_slippers-of-spider-climbing" >slippers of spider climbing</a></i>,<i> </i>200 gp</p>
+
+<p>Sometimes adventuring monks return home to serve their communities as chiefs, lawgivers, and protectors. Such towns and villages are thus far more dangerous to assault than one might expect.</p>
+
+		
+<p id="grove-guardian" class="stat-block-title">Grove Guardian <span class="stat-block-cr">CR 17</span></p>
+<p class="stat-block-1"><b>XP</b> 102,400</p>
+<p class="stat-block-1"><b>Half-elf monk</b> 18</p>
+<p class="stat-block-1">LN Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> low-light vision; Perception +24</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 31, touch 27, flat-footed 24 (+4 armor, +1 deflection, +6 Dex, +1 dodge, +4 monk, +5 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 148 (18d8+64)</p>
+<p class="stat-block-1"><b>Fort</b> +16, <b>Ref</b> +19, <b>Will</b> +18; +4 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved evasion; <b>Immune</b> disease, poison; <b>SR</b> 28</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 90 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+2 unarmed strike</i> +21/+16/+11 (2d8+4) or mwk cold iron dagger +20/+15/+10 (1d4+2/19–20) or <i>+2 unarmed strike </i>flurry of blows +24/+24/+19/+19/+14/+14/+9 (2d8+4)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk cold iron dagger +20/+15/+10 (1d4+2/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> flurry of blows, quivering palm (1/day, DC 24), stunning fist (18/day, DC 24)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk attempts to get close to an opponent through <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> or <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, then drinks her <i>potions of <a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i> and <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> Against a single foe, the monk opens with Stunning Fist augmented with Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, then tries to grapple the stunned foe. Against multiple opponents, she uses flurry of blows to attempt trip and disarm maneuvers, making as many foes prone or weaponless as possible, then strikes when those opponents provoke attacks of opportunity. Against foes too large to grapple or immune to stunning, she uses her <i>ki</i> pool to boost her movement, then Spring Attack with Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a> to make hit and run attacks. </p>
+<p class="stat-block-1"><b>Base Statistics </b>Without<i> <a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i> and <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, the monk's statistics are <b>hp</b> 112; <b>Fort</b> +14; <b>Melee</b><i>+2 unarmed strike</i> +21/+16/+11 (2d8+2) or mwk cold iron dagger +20/+15/+10 (1d4/19–20) or flurry of blows (<i>+2 unarmed strike</i>) +22/+22/+17/+17/+12/+12/+7 (2d8+2); <b>Ranged</b> mwk cold iron dagger +20/+15/+10 (1d4/19–20); <b>Str</b> 10, <b>Con</b> 12; <b>CMD</b> 45 (47 vs. trip); <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +4, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 22, <b>Con</b> 16, <b>Int</b> 13, <b>Wis</b> 20, <b>Cha</b> 11</p>
+<p class="stat-block-1"><b>Base Atk</b> +13; <b>CMB</b> +24 (+26 grapple, +28 trip); <b>CMD</b> 47 (49 vs. trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_agile-maneuvers" >Agile Maneuvers</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_defensive-combat-training" >Defensive Combat Training</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Greater Trip, Improved Bull Rush, Improved Disarm, Improved Grapple, Improved Trip, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a>), Spring Attack, <a href="/pathfinderRPG/prd/feats.html#_strike-back" >Strike Back</a>, Stunning Fist, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +33 (+75 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +8, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +4, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +7, Perception +24, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (dance) +6, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +26, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +23, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven, Gnome; tongue of the sun and moon</p>
+<p class="stat-block-1"><b>SQ</b> abundant step, diamond body, diamond soul, elf blood, fast movement, high jump, <i>ki</i> pool (14 points, adamantine, lawful, magic), maneuver training, purity of body, slow fall 90 ft., timeless body, wholeness of body</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a> </i>(2), <i>potions of <a href="/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield" >entropic shield</a></i> (2),<i>  <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_universal-solvent" >universal solvent</a> </i>(2); <b>Other Gear</b> masterwork cold iron dagger, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-mighty-fists" >amulet of mighty fists</a> +</i>2, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-incredible-dexterity" >belt of incredible dexterity</a> +6, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor" >bracers of armor</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1, </i>298 gp</p>
+
+<p>Devoted to the protection of druidic groves or other sacred places of power, grove guardians do anything necessary to protect what they guard.</p>
+<h3>Xexilia Aishinkai</h3>
+<p>Xexilia Aishinkai, the 834th of that name, guards one of the world trees. Like those who came before her, she left behind her old life when she was called to the tree.</p>
+
+		
+<p id="sword-savant" class="stat-block-title">Sword Savant <span class="stat-block-cr">CR 18</span></p>
+<p class="stat-block-1"><b>XP</b> 153,600</p>
+<p class="stat-block-1"><b>Elf monk</b> 19</p>
+<p class="stat-block-1">LN Medium humanoid (elf)</p>
+<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> Perception +19</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 31, touch 27, flat-footed 25 (+4 armor, +2 deflection, +5 Dex, +1 dodge, +4 monk, +5 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 108 (19d8+19)</p>
+<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +19, <b>Will</b> +19; +4 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved evasion; <b>Immune</b> disease, poison; <b>SR</b> 29</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 90 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+3 longsword</i> +23/+18/+13 (1d8+10/17–20/×2) or <i>+1 unarmed strike</i> +20/+15/+10 (2d8+6) or <i>+1 unarmed strike </i>flurry of blows +23/+23/+18/+18/+13/+13/+8 (2d8+6)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 shuriken</i> +20/+15/+10 (1d2+6) or <i>+1 shuriken </i>flurry of blows +23/+23/+18/+18/+13/+13/+8 (1d2+6)</p>
+<p class="stat-block-1"><b>Special Attacks</b> flurry of blows, quivering palm (1/day, DC 24), stunning fist (19/day, DC 24)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk prefers to challenge foes openly. He spends a point from his <i>ki</i> pool to increase his speed.</p>
+<p class="stat-block-1"><b>During Combat</b> The monk uses Great Cleave and <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a> in tandem, normally spending a point from his <i>ki</i> pool to offset the Armor Class penalty of these two feats. The monk makes unarmed strikes, attempting to stun or stagger with Stunning Fist and then use Improved Bull Rush to push the enemy away. If overwhelmed, the monk drinks a <i>potion of <a href="/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image" >mirror image</a></i> to confuse attackers, uses Spring Attack or Great Cleave to attack multiple opponents as a standard action, then moves away quickly. The monk always leaves 2 points in his <i>ki </i>pool so he can use abundant step if he's severely threatened.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 20, <b>Con</b> 10, <b>Int</b> 12, <b>Wis</b> 20, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +14; <b>CMB</b> +24 (+26 trip); <b>CMD</b> 46 (48 vs. trip)</p>
+<p class="stat-block-1"><b>Feats</b> Cleave, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Extra <i>Ki</i>, Great Cleave, Improved Bull Rush, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (longsword), Improved Trip, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, <a href="/pathfinderRPG/prd/feats.html#_martial-weapon-proficiency" >Martial Weapon Proficiency</a> (longsword), <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Spring Attack, Stand Still, Stunning Fist, Tiring Critical, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (longsword)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +27 (+70 when jumping), <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +12, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana, nobility) +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +14, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +9, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +5, Perception +19, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +26, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +16</p>
+<p class="stat-block-1"><b>Languages</b> Common, Draconic, Dwarven, Elven, Giant, Infernal, Undercommon; tongue of the sun and moon</p>
+<p class="stat-block-1"><b>SQ</b> abundant step, diamond body, diamond soul, empty body, fast movement, high jump, <i>ki </i>pool (16 points, adamantine, lawful, magic), maneuver training, purity of body, slow fall 90 ft., timeless body, wholeness of body</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image" >mirror image</a></i> (2), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_silversheen" >silversheen</a></i> (2); <b>Other Gear </b><i>+3 longsword, +1 shuriken </i>(50), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-mighty-fists" >amulet of mighty fists</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bag-of-holding" >bag of holding</a> </i>(type I), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-physical-might" >belt of physical might</a> </i>(Str, Dex)<i> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-elvenkind" >boots of elvenkind</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor" >bracers of armor</a> +4, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +3, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +4, <a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +2, </i>191 gp</p>
+
+<p>Some elven monks master the art of carnage with one chosen weapon. Sword savants are particularly adept at keeping their foes at a distance until it's time to land the killing blow.</p>
+<h3>Ehtyar Nasta</h3>
+<p>No one wields a sword the way that Ehtyar Nasta does. His movements are like the wind, his thrusts like fire, and his parries like stone. One of the rare weapon masters of the age, Ehtyar uses his art to protect the world from the horrors that live beyond reality. He is especially wary of the machinations of the creatures of the Shadow Plane, and travels that plane pursuing one conspiracy or another. When not on a mission, he does fighting form demonstrations for the enlightenment and entertainment of the young.</p>
+<p><b>Combat Encounters:</b> Ehtyar is at his most tense when chasing creatures of the Shadow Plane. He's often paranoid of strangers, who he believes his enemies use to get close to him.</p>
+<p><b>Roleplaying Suggestions:</b> Ifhe's in a place of safety, this elf is calm, helpful, and very generous with his time. When stressed, he is unyielding, overly cautious, and curt.</p>
+		
+<p id="ageless-master" class="stat-block-title">Ageless Master <span class="stat-block-cr">CR 19</span></p>
+<p class="stat-block-1"><b>XP</b> 204,800</p>
+<p class="stat-block-1"><b>Human monk</b> 20</p>
+<p class="stat-block-1">LN Medium outsider (human)</p>
+<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft.; Perception +28</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 34, touch 27, flat-footed 31 (+5 armor, +2 deflection, +2 Dex, +1 dodge, +5 monk, +2 natural, +7 Wis)</p>
+<p class="stat-block-1"><b>hp</b> 153 (20d8+60)</p>
+<p class="stat-block-1"><b>Fort</b> +18, <b>Ref</b> +18, <b>Will</b> +23; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved evasion; <b>DR</b> 10/chaotic; <b>Immune</b> disease, poison; <b>SR</b> 30</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 90 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+3 unarmed strike</i> +23/+18/+13 (2d10+7) or mwk alchemical sliver dagger +20/+15/+10 (1d4+4/19–20) or <i>+3 unarmed strike </i>flurry of blows +26/+26/+21/+21/+16/+16/+11 (2d10+7)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk shuriken +18/+13/+8 (1d2+4) or mwk shuriken flurry of blows +21/+21/+16/+16/+11/+11/+6 (1d2+4)</p>
+<p class="stat-block-1"><b>Special Attacks</b> flurry of blows, quivering palm (1/day, DC 27), stunning fist (20/day, DC 27)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The monk drinks his <i>potions of <a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a> </i>and <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The monk expends a point from his <i>ki</i> pool at the beginning of combat to increase his speed. He then closes with a single opponent to deliver an Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a> combined with Stunning Fist. If successful, he makes a full attack with his flurry of blows in the next round, attempting to finish the hampered opponent. He uses this tactic whenever possible, using flurry of blows or <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a> only against targets that have already had their AC compromised from being stunned or tripped. Otherwise, he uses his mobility and high <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> skill to move in and out of melee. When fighting four or more opponents, the monk activates his <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_feather-token" >feather token</a></i> (whip) and targets spellcasters first with Stunning Fist combined with Medusa's Wrath.</p>
+<p class="stat-block-1"><b>Base Statistics </b>Without<i> <a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, the monk's statistics are <b>AC</b> 32, touch 27, flat-footed 29; <b>hp</b> 113; <b>Fort</b> +16; <b>Con</b> 10.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 14, <b>Con</b> 14, <b>Int</b> 13, <b>Wis</b> 24, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +15; <b>CMB</b> +24 (+26 trip); <b>CMD</b> 46 (48 vs. trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, Deflect Arrows, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Gorgon's Fist, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, Improved Trip, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, Lightning Stance, Medusa's Wrath, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Scorpion Style, Spring Attack, Stunning Fist, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (unarmed strike), Wind Stance</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +20 (+64 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +5, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (origami) +14, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +5, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +19, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +14, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +9, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +3, Perception +28, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +30, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +18</p>
+<p class="stat-block-1"><b>Languages</b> Common, Draconic, Dwarven, Elven; tongue of the sun and moon</p>
+<p class="stat-block-1"><b>SQ</b> abundant step, diamond body, diamond soul, empty body, fast movement, high jump, <i>ki</i> pool (17 points, adamantine, lawful, magic), maneuver training, perfect self, purity of body, slow fall any distance, timeless body, wholeness of body</p>
+<p class="stat-block-1"><b>Combat Gear</b><i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_dust-of-appearance" >dust of appearance</a>, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_feather-token" >feather token</a> </i>(whip)<i>, potions of <a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> (3), <i>potions of <a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a> </i>(2), <i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a> </i>(2), <i>potions of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a> </i>(2), <i>potions of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a> </i>(3), <i>potions of <a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i> (2),<i> universal  solvent </i>(2); <b>Other Gear</b> masterwork alchemical silver dagger, shuriken (50), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-mighty-fists" >amulet of mighty fists</a> +3, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bag-of-holding" >bag of holding</a> </i>(type I)<i>,  <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-elvenkind" >boots of elvenkind</a>, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor" >bracers of armor</a> +</i>5, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +4, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +6</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +2</i>,<i> </i>healer's kit, 130 gp</p>
+
+<p>Ageless masters prefer to spread wisdom, but once roused they are dangerous opponents.</p>
+<h3>Oyonchol</h3>
+<p>Master Oyonchol spends most of his time on a high pillar on the side of a trade route in the middle of a desolate steppe. Pilgrims leave offerings at its base, and sometimes young monks camp under the pillar, hoping to gain wisdom. Most are disappointed, and at least one has died of exposure while Master Oyonchol sat silently pondering the changing seasons.</p>
+		
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

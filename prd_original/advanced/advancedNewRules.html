@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Advanced New Rules</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Advanced New Rules",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body"><div id="chapter-7"><h1 id="new-rules" class="monster-header">New Rules</h1>
+				<p>Although the <i>Pathfinder RPG Core Rulebook </i>provides a complete game, along with guidelines and examples to aid GMs in creation of any new rules components their adventures might require, the open-ended nature of the rules allows for endless expansion and refinement. While any rules subsystem beyond those in the core rules should be considered optional, GMs should feel free to adopt, even invent, additional elements if doing so helps make battle feel more cinematic, increases players' investments in their characters, or simply make the game more fun. This chapter presents three new rules subsystems designed explicitly to improve Pathfinder games in those three ways. Although the majority of this book is designed to provide new rules for players, any new content herein should be approved by their GM before it sees use. In the case of this chapter's content, these new features exist exclusively for GMs to consider and potentially adopt into their adventures. While most of these elements favor the players, there's no reason they need to remain solely options for PCs; many cunning monsters would be readily able to make use of new combat maneuvers, while significant villains might be able to rely on hero points as well. </p>
+				<p>Noted here are the three new rules subsystems presented in this chapter, along with reasons why GMs might choose to incorporate them into their games.</p>
+				<p><b><a href="#combat-maneuvers">Combat Maneuvers</a></b>: Expanding upon the combat maneuvers included in the <i>Core Rulebook</i>&mdash;such as disarm, grapple, trip, and others&mdash;these new options give all combatants new actions and opportunities in battle, regardless of their race or class. Intended to make melee more flexible and dynamic, these new tactics allow for greater control of opponents on the battlefield and open the door for additional uses of various debilitating conditions and colorful effects.</p>
+				<p><b><a href="#hero-points">Hero Points</a></b>: A common house rule standardized and expanded for the Pathfinder RPG, this system allows players a measure of control over fate and random dice rolls. Rather than having the outcome of an adventure's worth of effort come down to or be thwarted by simple bad luck, hero points grant the PCs a resource by which they can influence destiny, or at least have a second chance when they need it most.</p>
+				<p><a href="#traits"><b>Traits</b></a>: This system gives players a way to draw benefits from their characters' histories and backgrounds, giving players cause to invest more thought into their characters' lives while providing GMs with hooks to further link PCs to the greater campaign. </p>
+				<h1 id="combat-maneuvers" class="monster-header">Combat Maneuvers</h1>
+				<p>There's much more nuance to the ebb and flow of battle then merely charging into the fray and hacking away, or tumbling under an opponent's guard to attack from a more advantageous position. The Pathfinder RPG's combat rules, while both detailed and flexible, are meant to provide a simulation of battle, not necessarily an exacting blow by blow representation of combat's every moment. An attack roll that doesn't deal damage, for example, might mean the attacker's blade glanced off an opponent's armor, was deflected by magical force, or was merely dodged. By the same token, the game doesn't differentiate between a normal punch and a desperate clap to the ear. Without drawing away from the interpretive elements many GMs enjoy in their conflicts, the combat maneuvers here take a step away from vagaries, providing a variety of colorful new battle tactics. These maneuvers provide several exciting new options in battle and add a greater degree of cinematic detail to any conflict.</p>
+				<p>Combat maneuvers allow a character to perform special actions in combat, other than just attacking with a weapon or casting a spell. While the <i>Pathfinder RPG Core Rulebook</i> covers the most common sorts of combat maneuvers that a character might perform, the combat maneuver mechanics can be used for a wide variety of tricks and stunts.</p>
+				<p>The following four combat maneuvers can be made using the same rules for all other <a href="../combat.html#_combat-maneuvers">combat maneuvers</a>. Each one requires the attacking character to make an attack roll, adding in his Combat Maneuver Bonus (CMB) in place of his normal attack bonuses. If the result is equal to or greater than the target's Combat Maneuver Defense (CMD), the maneuver is a success. The drag and reposition maneuvers have varying levels of success depending on how much the attacker's roll exceeds the target's CMD.</p>
+				<h1 id="dirty-trick">Dirty Trick</h1>
+				<p>You can attempt to hinder a foe in melee as a standard action. This maneuver covers any sort of situational attack that imposes a penalty on a foe for a short period of time. Examples include kicking sand into an opponent's face to blind him for 1 round, pulling down an enemy's pants to halve his speed, or hitting a foe in a sensitive spot to make him sickened for a round. The GM is the arbiter of what can be accomplished with this maneuver, but it cannot be used to impose a permanent penalty, and the results can be undone if the target spends a move action. If you do not have the <a href="advancedFeats.html#_improved-dirty-trick" >Improved Dirty Trick</a> feat or a similar ability, attempting a dirty trick provokes an attack of opportunity from the target of your maneuver.</p>
+				<p>If your attack is successful, the target takes a penalty. The penalty is limited to one of the following conditions: blinded, dazzled, deafened, entangled, shaken, or sickened. This condition lasts for 1 round. For every 5 by which your attack exceeds your opponent's CMD, the penalty lasts 1 additional round. This penalty can usually be removed if the target spends a move action. If you possess the <a href="advancedFeats.html#_greater-dirty-trick" >Greater Dirty Trick</a> feat, the penalty lasts for 1d4 rounds, plus 1 round for every 5 by which your attack exceeds your opponent's CMD. In addition, removing the condition requires the target to spend a standard action.</p>
+				<h1 id="drag">Drag</h1>
+				<p>You can attempt to drag a foe as a standard action. You can only drag an opponent who is no more than one size category larger than you. The aim of this maneuver is to drag a foe in a straight line behind you without doing any harm. If you do not have the <a href="advancedFeats.html#_improved-drag" >Improved Drag</a> feat or a similar ability, initiating a drag provokes an attack of opportunity from the target of your maneuver.</p>
+				<p>If your attack is successful, both you and your target are moved 5 feet back, with your opponent occupying your original space and you in the space behind that in a straight line. For every 5 by which your attack exceeds your opponent's CMD, you can drag the target back an additional 5 feet. You must be able to move with the target to perform this maneuver. If you do not have enough movement, the drag goes to the maximum amount of movement available to you and ends.</p>
+				<p>An enemy being moved by a drag does not provoke an attack of opportunity because of the movement unless you possess the <a href="advancedFeats.html#_greater-drag" >Greater Drag</a> feat. You cannot move a creature into a square that is occupied by a solid object or obstacle. If there is another creature in the way of your movement, the drag ends adjacent to that creature.</p>
+				<p id="stability"><b>Stability</b>: Some characters or types of creatures prove particularly sure-footed, making them more difficult to overthrow and move around the battlefield. Any racial ability that grants a bonus to CMD versus bull rush attempts grants the same bonus against drag combat maneuvers.</p>
+				<h1 id="reposition">Reposition</h1>
+				<p>You can attempt to reposition a foe to a different location as a standard action. You can only reposition an opponent that is no more than one size category larger than you. A reposition attempts to force a foe to move to a different position in relation to your location without doing any harm. If you do not have the <a href="advancedFeats.html#_improved-reposition" >Improved Reposition</a> feat or a similar ability, attempting to reposition a foe provokes an attack of opportunity from the target of your maneuver. You cannot use this maneuver to move a foe into a space that is intrinsically dangerous, such as a pit or <i><a href="../spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i>.</p>
+				<p>If your attack is successful, you may move your target 5 feet to a new location. For every 5 by which your attack exceeds your opponent's CMD, you can move the target an additional 5 feet. The target must remain within your reach at all times during this movement, except for the final 5 feet of movement, which can be to a space adjacent to your reach.</p>
+				<p>An enemy being moved by a reposition does not provoke an attack of opportunity because of the movement unless you possess the Greater Reposition feat. You cannot move a creature into a square that is occupied by a solid object or obstacle.</p>
+				<h1 id="steal">Steal</h1>
+				<p>You can attempt to take an item from a foe as a standard action. This maneuver can be used in melee to take any item that is neither held nor hidden in a bag or pack. You must have at least one hand free (holding nothing) to attempt this maneuver. You must select the item to be taken before the check is made. Items that are simply tucked into a belt or loosely attached (such as brooches or necklaces) are the easiest to take. Items fastened to a foe (such as cloaks, sheathed weapons, or pouches) are more difficult to take, and give the opponent a +5 bonus (or greater) to his CMD. Items that are closely worn (such as armor, backpacks, boots, clothing, or rings) cannot be taken with this maneuver. Items held in the hands (such as wielded weapons or wands) also cannot be taken with the steal maneuver&mdash;you must use the disarm combat maneuver instead. The GM is the final arbiter of what items can be taken. If you do not have the <a href="advancedFeats.html#_improved-steal" >Improved Steal</a> feat or a similar ability, attempting to steal an object provokes an attack of opportunity from the target of your maneuver.</p>
+				<p>Although this maneuver can only be performed if the target is within your reach, you can use a whip to steal an object from a target within range with a &ndash;4 penalty on the attack roll. </p>
+				<p>If your attack is successful, you may take one item from your opponent. You must be able to reach the item to be taken (subject to GM discretion). Your enemy is immediately aware of this theft unless you possess the <a href="advancedFeats.html#_greater-steal" >Greater Steal</a> feat.</p>
+				<h1 id="hero-points" class="monster-header">Hero Points</h1>
+				<div class="right"><table id="antiheroes"><caption>Antiheroes</caption>
+<tr><td style="white-space:normal;">A PC can elect not to use the hero point system, instead relying more on his skills and abilities. Such characters do not receive hero points, regardless of the source, and can never benefit from their use. In exchange, such characters receive a bonus feat at 1st level. The option to allow such antiheroes in the game is subject to GM discretion.</td></tr></table></div><div class="right">
+<table id="hero-points-for-gms"><caption>Hero Points for GMs</caption>
+<tr><td style="white-space:normal;">Although all of the options presented in this book should be carefully considered before they are added to your game, hero points deserve closer inspection. Although hero points do not drastically increase the power of the PCs, they do grant the PCs the ability to greatly increase their chances of success during critical moments. While the game itself is set up to give the player characters an edge, hero points take that a bit further, possibly more so than you might be comfortable with.</td></tr>
+<tr><td style="white-space:normal;">The value to hero points is that they add dramatic tension to the climax of your game. Most uses of hero points do not guarantee success, making the moment they are used even more important to the players. Hero points are a very limited resource and their use should be described with additional detail and dramatic style. Used in this way, they can help create very memorable sessions for both you and your players.</td></tr>
+<tr><td style="white-space:normal;">Although NPCs do not generally receive hero points, there are ways that they can use these mechanics. A number of spells and magic items, as well as the Hero's Fortune feat, grant hero points to a character. Such hero points should be used sparingly, and should be reserved for major villains or truly important characters. If you use them too much, the players will begin to resent the system, making it more of a problem than an opportunity to enhance the game.</td></tr></table></div>
+				<p>There are moments in any struggle that influence the outcome. Does the brave warrior lay low the villain before he can finish casting a devastating spell? Does the sly rogue avoid detection as she sneaks into the giant chieftain's lair? Does the pious cleric finish casting her healing spell before the rain of arrows ends the life of her companions? Just a few die rolls decide each of these critical moments, and while failure is always a possibility, true heroes find a way to succeed, despite the odds. Hero points represent this potential for greatness. They give heroes the chance to succeed even when the dice turn against them.</p>
+				<p>Hero points are only awarded to player characters. NPCs, animal companions, familiars, cohorts, and mounts do not receive hero points. Unlike other points in the game, hero points do not renew over time or with rest. Once spent, they are gone forever. Hero points are awarded as a character gains levels or whenever a character accomplishes a truly heroic feat. The GM is the final arbiter on the award and use of hero points.</p>
+				<h1 id="awarding-hero-points">Awarding Hero Points</h1>
+				<p>Each character begins play with 1 hero point, regardless of her level. In addition, whenever a character gains a level, she earns an additional hero point. Aside from these basic rules, awarding additional hero points is up to the GM. The following options are just some of the ways that a GM might award additional hero points.</p>
+				<p id="character-story"><b>Character Story</b>: GMs can award a hero point for the completion of a written character backstory. This reward encourages players to take an active role in the history of the game. In addition, the GM can use this backstory to generate a pivotal moment for your character concerning his past. When this key event is resolved, the GM can reward another hero point. Alternatively, the GM might award a hero point for painting a miniature or drawing a character portrait in the likeness of your character, helping the rest of the group visualize your hero.</p>
+				<p id="completing-plot-arcs"><b>Completing Plot Arcs</b>: The GM might award a hero point to each of the PCs who were involved in completing a major chapter or arc in the campaign story. These hero points are awarded at the conclusion of the arc if the PCs were successful or advanced the story in a meaningful way.</p>
+				<p id="faith"><b>Faith</b>: In a campaign where the gods play an important role in every character's life, hero points might represent their favor. In such a setting, the GM can award hero points to characters whenever they uphold the tenets of their faith in a grand way, or whenever they take on one of the faith's major enemies. Such hero points might be temporary, and if not spent on the task at hand, they fade away.</p>
+				<p id="group-service"><b>Group Service</b>: The GM can award hero points for acts outside the game as well. Buying pizza for the group, helping to clean up afterwards, or even hosting the game for a night might be worth a hero point. This sort of hero point should be given out of generosity, not as a payment.</p>
+				<p id="heroic-acts"><b>Heroic Acts</b>: Whenever a character performs an exceptionally heroic act, she can be awarded a hero point. This might include anything from slaying an evil dragon when the rest of the group has fled to rescuing townsfolk from a burning building despite being terribly wounded. It does not have to be related to combat. Convincing the reticent king to send troops to help with a bandit problem or successfully jumping a wide chasm might earn a character a hero point, depending on the circumstances. Note that a hero point should only be awarded if the PC involved did not spend a hero point to accomplish the task.</p>
+				<p id="return-from-the-dead"><b>Return from the Dead</b>: When a character dies, she does not lose any hero points she has accumulated. If she died with no hero points remaining, she gains 1 hero point when she is brought back from the dead through powerful magic, such as <i><a href="../spells/raiseDead.html#_raise-dead" >raise dead</a></i> or <i><a href="../spells/resurrection.html#_resurrection" >resurrection</a></i>. </p>
+				<p id="maximum-hero-points"><b>Maximum Hero Points</b>: Characters can have no more than 3 hero points at any one time. Excess hero points are lost.</p>
+				<h2 id="using-hero-points">Using Hero Points</h2>
+				<p>Hero points can be spent at any time and do not require an action to use (although the actions they modify consume part of your character's turn as normal). You cannot spend more than 1 hero point during a single round of combat. Whenever a hero point is spent, it can have any one of the following effects.</p>
+				<p id="act-out-of-turn"><b>Act Out of Turn</b>: You can spend a hero point to take your turn immediately. Treat this as a readied action, moving your initiative to just before the currently acting creature. You may only take a move or a standard action on this turn.</p>
+				<p id="bonus"><b>Bonus</b>: If used before a roll is made, a hero point grants you a +8 luck bonus to any one d20 roll. If used after a roll is made, this bonus is reduced to +4. You can use a hero point to grant this bonus to another character, as long as you are in the same location and your character can reasonably affect the outcome of the roll (such as distracting a monster, shouting words of encouragement, or otherwise aiding another with the check). Hero points spent to aid another character grant only half the listed bonus (+4 before the roll, +2 after the roll).</p>
+				<p id="extra-action"><b>Extra Action</b>: You can spend a hero point on your turn to gain an additional standard or move action this turn.</p>
+				<p id="inspiration"><b>Inspiration</b>: If you feel stuck at one point in the adventure, you can spend a hero point and petition the GM for a hint about what to do next. If the GM feels that there is no information to be gained, the hero point is not spent.</p>
+				<p id="recall"><b>Recall</b>: You can spend a hero point to recall a spell you have already cast or to gain another use of a special ability that is otherwise limited. This should only be used on spells and abilities possessed by your character that recharge on a daily basis.</p>
+				<p id="reroll"><b>Reroll</b>: You may spend a hero point to reroll any one d20 roll you just made. You must take the results of the second roll, even if it is worse.</p>
+				<p><b>Special</b>: You can petition the GM to allow a hero point to be used to attempt nearly anything that would normally be almost impossible. Such uses are not guaranteed and should be considered carefully by the GM. Possibilities include casting a single spell that is one level higher than you could normally cast (or a 1st-level spell if you are not a spellcaster), making an attack that blinds a foe or bypasses its damage reduction entirely, or attempting to use <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> to convince a raging dragon to give up its attack. Regardless of the desired action, the attempt should be accompanied by a difficult check or penalty on the attack roll. No additional hero points may be spent on such an attempt, either by the character or her allies.</p>
+				<p id="cheat-death"><b>Cheat Death</b>: A character can spend 2 hero points to cheat death. How this plays out is up to the GM, but generally the character is left alive, with negative hit points but stable. For example, a character is about to be slain by a critical hit from an arrow. If the character spends 2 hero points, the GM decides that the arrow pierced the character's holy symbol, reducing the damage enough to prevent him from being killed, and that he made his stabilization roll at the end of his turn. Cheating death is the only way for a character to spend more than 1 hero point in a turn. The character can spend hero points in this way to prevent the death of a familiar, animal companion, eidolon, or special mount, but not another character or NPC.</p>
+				<h2 id="additional-hero-point-rules">Additional Hero Point Rules</h2>
+				<p>Since hero points themselves are an optional rules system, other mechanics that go along with hero points have been included here to avoid confusion in the rest of the book. The following feats, spells, and magic items all have to do with hero points in one way or another.</p>
+				<h1 id="hero-point-feats">Hero Point Feats</h1>
+				<p>The following feats enhance your ability to store and gain hero points.</p>
+				<h2 id="blood-of-heroes">Blood of Heroes</h2>
+				<p>You have a sense of destiny about you and always seem to succeed, even when the odds are against you.</p>
+				<p><b>Prerequisite</b>: Hero's Fortune.</p>
+				<p><b>Benefit</b>: Whenever you gain a level, you gain 2 hero points instead of 1.</p>
+				<p id="normal"><b>Normal</b>: Whenever you gain a level, you gain 1 hero point.</p>
+				<h2 id="hero's-fortune">Hero's Fortune</h2>
+				<p>Even at the start of your career, it was clear that you had a chance at greatness, and your legend continues to grow with every adventure.</p>
+				<p><b>Benefit</b>: You gain a hero point. The maximum number of hero points you can have at any one time is increased to 5.</p>
+				<p id="normal"><b>Normal</b>: You can have no more than 3 hero points at one time.</p>
+				<p><b>Special</b>: NPCs who take this feat receive 1 hero point and can have up to 3 (not 5).</p>
+				<h2 id="luck-of-heroes">Luck of Heroes</h2>
+				<p>To others, it seems that you always have a bit of luck around you.</p>
+				<p><b>Prerequisite</b>: Hero's Fortune.</p>
+				<p><b>Benefit</b>: Whenever you spend a hero point to reroll a die roll or to grant yourself a bonus before a die roll is made, there is a chance that the hero point is not spent. Whenever you spend a hero point, roll a d20. If the result is greater than 15, the hero point is not spent. You cannot use this feat when you cheat death.</p>
+				<h1 id="hero-point-spells">Hero Point Spells</h1>
+				<p>The following spells grant temporary hero points or prevent characters from using hero points.</p>
+				<p id="heroic-fortune" class="stat-block-title"><b>Heroic Fortune</b></p>
+				<p id="school" class="stat-block-1"><b>School</b> evocation; <b>Level</b> alchemist 2, bard 2, cleric 2, paladin 3</p>
+				<p id="casting-time" class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+				<p id="components" class="stat-block-1"><b>Components</b> V, S, DF, M (diamond dust worth 100 gp)</p>
+				<p id="range-" class="stat-block-1"><b>Range </b>touch</p>
+				<p id="target" class="stat-block-1"><b>Target</b> creature touched</p>
+				<p id="duration" class="stat-block-1"><b>Duration</b> 1 round/level</p>
+				<p id="saving-throw" class="stat-block-1"><b>Saving Throw</b> Will negates (harmless); <b>Spell Resistance</b> no</p>
+				<p>This spell grants 1 hero point to the target. This hero point must be spent before the duration expires, or it is lost. The bonus hero point is spent before any other hero points the target might possess.</p>
+				<p id="heroic-fortune,-mass" class="stat-block-title"><b>Heroic Fortune, Mass</b></p>
+				<p id="school" class="stat-block-1"><b>School</b> evocation; <b>Level</b> bard 4, cleric 5</p>
+				<p id="components-" class="stat-block-1"><b>Components </b>V, S, DF, M (diamond dust worth 1,000 gp)</p>
+				<p id="range-" class="stat-block-1"><b>Range </b>close (25 ft. + 5 ft./2 levels)</p>
+				<p id="targets" class="stat-block-1"><b>Targets</b> one or more creatures, no two of which can be more than 30 ft. apart</p>
+				<p>This spell functions like <i>heroic fortune</i>, except as noted above.</p>
+				<p id="malediction" class="stat-block-title"><b>Malediction</b></p>
+				<p id="school" class="stat-block-1"><b>School</b> necromancy [death, evil]; <b>Level</b> sorcerer/wizard 3, witch 3</p>
+				<p id="casting-time" class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+				<p id="components" class="stat-block-1"><b>Components</b> V, S, F (onyx dust worth 500 gp)</p>
+				<p id="range-" class="stat-block-1"><b>Range </b>touch</p>
+				<p id="target" class="stat-block-1"><b>Target</b> living creature touched</p>
+				<p id="duration" class="stat-block-1"><b>Duration</b> instantaneous/1 minute per HD of the target; see text</p>
+				<p id="saving-throw" class="stat-block-1"><b>Saving Throw</b> Will negates; <b>Spell Resistance</b> yes</p>
+				<p>You utter a dire curse over the body of a dying creature, allowing you to consume its waning life force. Upon casting this spell, you touch a living creature that has &ndash;1 or fewer hit points. If the target fails its saving throw, it dies and you gain 1 hero point for every 5 Hit Dice possessed by the target (minimum 1, maximum 3). These hero points last for a number of minutes equal to the target's Hit Dice. Any hero points remaining when this spell ends are lost.</p>
+				<p id="severed-fate" class="stat-block-title"><b>Severed Fate</b></p>
+				<p id="school" class="stat-block-1"><b>School</b> enchantment; <b>Level</b> cleric 3, witch 2</p>
+				<p id="casting-time" class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+				<p id="components" class="stat-block-1"><b>Components</b> V, S</p>
+				<p id="range" class="stat-block-1"><b>Range</b> close (25 ft. + 5 ft./2 levels)</p>
+				<p id="target" class="stat-block-1"><b>Target</b> one living creature</p>
+				<p id="duration" class="stat-block-1"><b>Duration</b> 10 minutes/level</p>
+				<p id="saving-throw" class="stat-block-1"><b>Saving Throw</b> Will negates; <b>Spell Resistance</b> yes</p>
+				<p>You curse the target, preventing it from drawing upon the powers of destiny. The target is shaken and cannot use hero points for the duration of the spell. This effect can be removed by <i><a href="../spells/dispelMagic.html#_dispel-magic" >dispel magic</a>, <a href="../spells/removeCurse.html#_remove-curse" >remove curse</a></i>, or other similar effects.</p>
+				<p id="unravel-destiny" class="stat-block-title"><b>Unravel Destiny</b></p>
+				<p id="school" class="stat-block-1"><b>School</b> divination; <b>Level</b> cleric 3, sorcerer/wizard 3, witch 3</p>
+				<p id="casting-time" class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+				<p id="components" class="stat-block-1"><b>Components</b> V, S, DF</p>
+				<p id="range-" class="stat-block-1"><b>Range </b>short (25 ft. + 5 ft./2 levels)</p>
+				<p id="target" class="stat-block-1"><b>Target</b> one creature</p>
+				<p id="duration" class="stat-block-1"><b>Duration</b> 1 round/level</p>
+				<p id="saving-throw" class="stat-block-1"><b>Saving Throw</b> Will negates; <b>Spell Resistance</b> yes</p>
+				<p>You utter a dire portent, causing destiny and fate to unravel around the target. This profoundly disturbing effect causes the target to suffer a cumulative &ndash;2 penalty on all ability checks, attack rolls, saving throws, and skill checks for every hero point it possesses. The target can reduce this penalty by spending hero points normally, but it takes 2d6 points of damage for each hero point spent while this spell is in effect.</p>
+				<h1 id="hero-point-magic-items">Hero Point Magic Items</h1>
+				<p>The following magic items grant characters additional hero points or allow them the possibility of recovering points as they are spent.</p>
+				<p id="elixir-of-luck" class="stat-block-title"><b>Elixir of Luck</b></p>
+				<p id="aura" class="stat-block-1"><b>Aura</b> moderate evocation; <b>CL </b>7th</p>
+				<p id="slot" class="stat-block-1"><b>Slot</b> none; <b>Price</b> 3,600 gp; <b>Weight</b> &mdash;</p>
+				<p id="description" class="stat-block-breaker"><b>Description</b></p>
+				<p>This golden elixir grants good luck to the imbiber. After drinking the elixir, the character gains 3 hero points that must be used within 1 hour. These hero points do not count against the imbiber's limit. They can only be used to aid the imbiber. They cannot be used to aid the rolls of others. A character cannot benefit from more than one <i>elixir of luck</i> in a 1-month period.</p>
+				<p id="construction" class="stat-block-breaker"><b>Construction</b></p>
+				<p id="requirements" class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i>heroic fortune</i>; <b>Cost</b> 1,800 gp</p>
+				<p id="hero's-blade" class="stat-block-title"><b>Hero's Blade</b></p>
+				<p id="aura"><b>Aura</b> moderate evocation; <b>CL </b>9th</p>
+				<p id="slot"><b>Slot</b> none; <b>Price</b> 17,315 gp; <b>Weight</b> 4 lbs.</p>
+				<p id="description" class="stat-block-breaker"><b>Description</b></p>
+				<p>The pommel of this ornate <i>+2 longsword</i> is made to look like a coiled golden dragon with six small diamond scales running down its back. When made, this sword holds 6 hero points. The wielder can use these points at any time, and they do not count against the wielder's maximum. As the hero points are used, the small diamonds on the dragon's back turn into coal. After the last hero point has been used, the <i>hero's blade</i> remains a <i>+2 longsword</i>.</p>
+				<p id="construction" class="stat-block-breaker"><b>Construction</b></p>
+				<p id="requirements" class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i>heroic fortune</i>; <b>Cost</b> 8,815 gp</p>
+				<p id="reaver's-scythe" class="stat-block-title"><b>Reaver's Scythe</b></p>
+				<p id="aura" class="stat-block-1"><b>Aura</b> moderate necromancy; <b>CL </b>12th</p>
+				<p id="slot" class="stat-block-1"><b>Slot</b> none; <b>Price</b> 80,318 gp; <b>Weight</b> 10 lbs.</p>
+				<p id="description" class="stat-block-breaker"><b>Description</b></p>
+				<p>The black blade of this <i>+2 <a href="../magicItems/weapons.html#_weapons-keen" >keen</a> <a href="../magicItems/weapons.html#_unholy" >unholy</a> scythe</i> reflects faint images of the souls of those it has claimed. Whenever the scythe is used to drop a creature to &ndash;1 hit points or less, the creature must immediately make a DC 14 Will save or be instantly slain. If the <i>reaver's scythe</i> kills a creature, either through damage or because the creature failed its Will save, the wielder immediately receives 1 hero point. This hero point must be used within 1 hour or it is lost. The wielder cannot gain another hero point from the scythe until the first is used or lost.</p>
+				<p id="construction" class="stat-block-breaker"><b>Construction</b></p>
+				<p id="requirements" class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../spells/keenEdge.html#_keen-edge" >keen edge</a>, malediction, <a href="../spells/unholyBlight.html#_unholy-blight" >unholy blight</a></i>; <b>Cost</b> 40,318 gp</p>
+				<p id="ring-of-heroes" class="stat-block-title"><b>Ring of Heroes</b></p>
+				<p id="aura" class="stat-block-1"><b>Aura</b> moderate (no school); <b>CL </b>7th</p>
+				<p id="slot" class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 8,000 gp; <b>Weight</b> &mdash;</p>
+				<p id="description" class="stat-block-breaker"><b>Description</b></p>
+				<p>Sculpted in the shape of two noble looking bronze lions charging toward a centrally placed garnet, this ring grants the wearer the Luck of Heroes feat. The ring must be worn for 24 hours before it takes effect. The wearer can also call upon the ring's power to gain a hero point that must be used immediately, although this causes the ring to lose its powers permanently.</p>
+				<p id="construction" class="stat-block-breaker"><b>Construction</b></p>
+				<p id="requirements" class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, Luck of Heroes; <b>Cost</b> 4,000 gp</p>
+				<p id="staff-of-fortune" class="stat-block-title"><b>Staff of Fortune</b></p>
+				<p id="aura" class="stat-block-1"><b>Aura</b> evocation (moderate); <b>CL </b>9th</p>
+				<p id="slot" class="stat-block-1"><b>Slot</b> none; <b>Price</b> 44,400 gp; <b>Weight</b> 3 lbs.</p>
+				<p id="description" class="stat-block-breaker"><b>Description</b></p>
+				<p>This staff is made of ivory and gold and is topped by a large, flawless piece of quartz. It allows the use of the following spells.</p>
+				<ul><li> <i>Heroic fortune </i>(1 charge)</li>
+				<li> <i>Mass heroic fortune </i>(2 charges)</li></ul>
+				<p id="construction" class="stat-block-breaker"><b>Construction</b></p>
+				<p id="requirements" class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_craft-staff" >Craft Staff</a>, <i>heroic fortune, mass heroic fortune</i>; <b>Cost</b> 37,200 gp</p>
+			
+				<h1 id="traits" class="monster-header">Traits</h1>
+				<p>Character traits are abilities that are not tied to your character's race or class. They can enhance your character's skills, racial abilities, class abilities, or other statistics, enabling you to further customize him. At its core, a character trait is approximately equal in power to half a feat, so two character traits are roughly equivalent to a bonus feat. Yet a character trait isn't just another kind of power you can add on to your character&mdash;it's a way to quantify (and encourage) building a character background that fits into your campaign world. Think of character traits as “story seeds” for your background; after you pick your two traits, you'll have a point of inspiration from which to build your character's personality and history. Alternatively, if you've already got a background in your head or written down for your character, you can view picking his traits as a way to quantify that background, just as picking race and class and ability scores quantifies his other strengths and weaknesses.</p>
+				<p>Many traits grant a new type of bonus: a “trait” bonus. Trait bonuses do not stack&mdash;they're intended to give player characters a slight edge, not a secret backdoor way to focus all of a character's traits on one type of bonus and thus gain an unseemly advantage. It's certainly possible, for example, that somewhere down the line, a “Courageous” trait might be on the list of dwarf race traits, but just because this trait is on both the dwarf race traits list and the basic combat traits list doesn't mean you're any more brave if you choose both versions than if you choose only one.</p>
+				<p>Character traits are only for player characters. If you want an NPC to have traits, that NPC must “buy” them with the <a href="advancedFeats.html#_additional-traits">Additional Traits feat</a>. Player characters are special; they're the stars of the game, after all, and it makes sense that they have an advantage over the NPCs of the world in this way.</p>
+				<h1 id="gaining-traits">Gaining Traits</h1>
+				<p>When you create your character for a campaign, ask your GM how many traits you can select. In most cases, a new PC should gain two traits, effectively gaining what amounts to a bonus feat at character creation. Some GMs may wish to adjust this number somewhat, depending upon their style of play; you may only be able to pick one trait, or your GM might allow three or more. Even if your GM normally doesn't allow bonus traits, you might still be able to pick up some with the <a href="advancedFeats.html#_additional-traits">Additional Traits feat</a>. </p>
+				<h1 id="types-of-traits">Types of Traits</h1>
+				<p>There are five types of character traits to choose from: basic (split among four categories: Combat, Faith, Magic, and Social), campaign, race, regional, and religion. Only a selection of character traits is listed here&mdash;more traits from all categories can be found in Pathfinder Player Companions, available at your local game store or from <b>paizo.com</b>.</p>
+				<p id="basic-traits"><b>Basic Traits</b>: There are a total of 40 basic traits, which are split evenly among the categories of Combat, Faith, Magic, and Social. Note that each of these four categories roughly equates to the four modes of adventuring, but aren't tied to specific classes. It's perfectly possible to have a religious rogue, for example, or a magic-obsessed fighter. Basic traits are “generic,” and should be able to fit into any campaign setting with a minimum of customization.</p>
+				<p id="campaign-traits"><b>Campaign Traits</b>: These traits are specifically tailored to give new characters an instant hook into a new campaign. Campaign traits tailored to a specific Pathfinder Adventure Path can always be found in that Adventure Path's Player's Guide, available at <b>paizo.com</b>.</p>
+				<p id="race-traits"><b>Race Traits</b>: Race traits are keyed to specific races or ethnicities, which your character must belong to in order to select the trait. If your race or ethnicity changes at some later point (perhaps as a result of polymorph magic or a <i>reincarnation</i> spell), the benefits gained by your race trait persist&mdash;only if your mind and memories change as well do you lose the benefits of a race trait.</p>
+				<p id="regional-traits"><b>Regional Traits</b>: Regional traits are keyed to specific regions, be they large (such as a nation or geographic region) or small (such as a city or a specific mountain). In order to select a regional trait, your PC must have spent at least a year living in that region. At 1st level, you can only select one regional trait (typically the one tied to your character's place of birth or homeland), despite the number of regions you might wish to write into your character's background.</p>
+				<p id="religion-traits"><b>Religion Traits</b>: Religion traits indicate that your character has an established faith in a specific deity; you need not be a member of a class that can wield divine magic to pick a religion trait, but you do have to have a patron deity and have some amount of religion in your background to justify this trait. Unlike the other categories of traits, religion traits can go away if you abandon your religion, as detailed below under Restrictions on Trait Selection.</p>
+				<h1 id="restrictions-on-trait-selection">Restrictions on Trait Selection</h1>
+				<p>There are a few rules governing trait selection. To begin with, your GM controls how many bonus traits a PC begins with; the default assumption is two traits. When selecting traits, you may not select more than one from the same list of traits (the four basic traits each count as a separate list for this purpose). Certain types of traits may have additional requirements, as detailed in the section above.</p>
+				<p>Remember also that traits are intended to model events that were formative in your character's development, either events from before he became an adventurer, or (in the case of additional traits gained via the Additional Traits feat) ones that happened while adventuring. Even if your character becomes a hermit and abandons society, he'll still retain his legacy of growing up an aristocrat if he took the relevant social trait. The one exception to this is religion traits&mdash;since these traits require continued faith in a specific deity, your character can indeed lose the benefits of these traits if he switches religions. In this case, consult your GM for your options. She may simply rule that your character loses that trait, or she might allow him to pick a new religion trait tied to his new deity. Another option is that if your character abandons a religion, he loses the associated religion trait until he gains an experience level, at which point he may replace a lost religion trait with a basic faith trait.</p>
+				<h1 id="basic-traits">Basic Traits</h1>
+				<p>Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your character's background. Faith traits focus on his religious and philosophical leanings. Magic traits focus on any magical events or training he may have had in his past. And Social traits focus on your character's social class or upbringing.</p>
+				<h2 id="combat-traits">Combat Traits</h2>
+				<p>These traits are associated with combat, battle, and physical prowess; they give characters minor bonuses in battle and represent conflicts and physical struggles in the character's backstory.</p>
+				<p id="anatomist"><b>Anatomist</b>: You have studied the workings of anatomy, either as a student at university or as an apprentice mortician or necromancer. You know where to aim your blows to strike vital organs, and you gain a +1 trait bonus on all rolls made to confirm critical hits.</p>
+				<p id="armor-expert"><b>Armor Expert</b>: You have worn armor as long as you can remember, either as part of your training to become a knight's squire or simply because you were seeking to emulate a hero. Your childhood armor wasn't the real thing as far as protection, but it did encumber you as much as real armor would have, and you've grown used to moving in such suits with relative grace. When you wear armor of any sort, reduce that suit's armor check penalty by 1, to a minimum check penalty of 0.</p>
+				<p id="bullied"><b>Bullied</b>: You were bullied often as a child, and you are now constantly ready to defend yourself with your fists when an enemy comes near. You gain a +1 trait bonus on attacks of opportunity attack rolls made with unarmed strikes. Note that this trait does not grant the ability to make attacks of opportunity with your unarmed strikes&mdash;you must have a level of monk, the <a href="../feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a> feat, or some other similar power to gain the use of this character trait. However, that doesn't prevent you from selecting this trait. You simply cannot make use of it until a later point if you do.</p>
+				<p id="courageous"><b>Courageous</b>: Your childhood was brutal, yet you persevered primarily through force of will and faith that no matter how hard things might get, as long as you kept a level head you'd make it through. You gain a +2 trait bonus on saving throws against fear effects.</p>
+				<p id="deft-dodger"><b>Deft Dodger</b>: Growing up in a rough neighborhood or a dangerous environment has honed your senses. You gain a +1 trait bonus on Reflex saves.</p>
+				<p id="dirty-fighter"><b>Dirty Fighter</b>: You wouldn't have lived to make it out of childhood without the aid of a sibling, friend, or companion on whom you could always count to distract your enemies long enough for you to do a little bit more damage than normal. That companion may be another PC or an NPC (who may even be recently departed from your side). When you hit a foe you are flanking, you deal an additional 1 point of damage (this damage is added to your base damage, and is multiplied on a critical hit). This additional damage is a trait bonus.</p>
+				<p id="fencer"><b>Fencer</b>: You trained with blades for long hours as a youth, either taking lessons in the genteel art of fencing from tutors paid for by your parents or by being taken under the wing of a disenfranchised fencer who may have turned to a life of crime. You gain a +1 trait bonus on attacks of opportunity made with daggers, swords, and similar bladed weapons.</p>
+				<p id="killer"><b>Killer</b>: You made your first kill at a very young age and found the task of war or murder to your liking. You either take particular pride in a well-placed blow, or find vile pleasure in such a strike as you twist the blade to maximize the pain. You deal additional damage equal to your weapon's critical hit modifier when you score a successful critical hit with a weapon; this additional damage is added to the final total, and is not multiplied by the critical hit multiple itself. This extra damage is a trait bonus.</p>
+				<p id="reactionary"><b>Reactionary</b>: You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on Initiative checks.</p>
+				<p id="resilient"><b>Resilient</b>: Growing up in a poor neighborhood or in the unforgiving wilds often forced you to subsist on food and water from doubtful sources. You've built up your mettle as a result, and gain a +1 trait bonus on Fortitude saves.</p>
+				<h2 id="faith-traits">Faith Traits</h2>
+				<p>These traits rely upon conviction of spirit, perception, and religion, but are not directly tied to the worship of a specific deity. You do not need a patron deity to gain a Faith Trait, as these traits can represent conviction in yourself or your philosophy just as easily as they can represent dedication to a deity.</p>
+				<p id="birthmark"><b>Birthmark</b>: You were born with a strange birthmark that looks very similar to the holy symbol of the god you chose to worship later in life. This birthmark can serve you as a divine focus for casting spells, and as a physical manifestation of your faith, it increases your devotion to your god&mdash;you gain a +2 trait bonus on all saving throws against charm and compulsion effects as a result.</p>
+				<p id="caretaker"><b>Caretaker</b>: As the child of an herbalist or an assistant in a temple infirmary, you often had to assist in tending to the sick and wounded. You gain a +1 trait bonus on <a href="../skills/heal.html#_heal" >Heal</a> checks, and <a href="../skills/heal.html#_heal" >Heal</a> is always a class skill for you.</p>
+				<p id="child-of-the-temple"><b>Child of the Temple</b>: You have long served at a temple in a city, and not only did you pick up on many of the nobility's customs, you spent much time in the temple libraries studying your faith. You gain a +1 trait bonus on <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) and <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) checks, and one of these skills (your choice) is always a class skill for you.</p>
+				<p id="devotee-of-the-green"><b>Devotee of the Green</b>: Your faith in the natural world or one of the gods of nature makes it easy for you to pick up on related concepts. You gain a +1 trait bonus on <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (geography) and <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (nature) checks, and one of these skills (your choice) is always a class skill for you.</p>
+				<p id="ease-of-faith"><b>Ease of Faith</b>: Your mentor, the person who invested your faith in you from an early age, took steps to ensure that you understood that what powers your divine magic is no different than that which powers the magic of other religions. This philosophy makes it easier for you to interact with others who may not share your views. You gain a +1 bonus on <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks, and <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> is always a class skill for you.</p>
+				<p id="history-of-heresy"><b>History of Heresy</b>: You were raised with heretical views that have made it difficult for you to accept most religious beliefs and often caused you or those you love to be treated as pariahs. As a result, you have turned your back on religious teachings, and as long as you do not possess any levels in a class that grants divine spellcasting power, you gain a +1 trait bonus on all saving throws made against divine spells.</p>
+				<p id="indomitable-faith"><b>Indomitable Faith</b>: You were born in a region where your faith was not popular, but you never abandoned it. Your constant struggle to maintain your own faith has bolstered your drive; you gain a +1 trait bonus on Will saves as a result.</p>
+				<p id="sacred-conduit"><b>Sacred Conduit</b>: Your birth was particularly painful and difficult for your mother, who needed potent divine magic to ensure that you survived (your mother may or may not have). In any event, that magic infused you from an early age, and you now channel divine energy with greater ease than most. Whenever you channel energy, you gain a +1 trait bonus to the save DC of your channeled energy.</p>
+				<p id="sacred-touch"><b>Sacred Touch</b>: You were exposed to a potent source of positive energy as a child, perhaps by being born under the right cosmic sign, or maybe because one of your parents was a gifted healer. As a standard action, you may automatically stabilize a dying creature merely by touching it.</p>
+				<p id="scholar-of-the-great-beyond"><b>Scholar of the Great Beyond</b>: Your great interests as a child did not lie with current events or the mundane&mdash;you have always felt out of place, as if you were born in the wrong era. You take to philosophical discussions of the Great Beyond and of historical events with ease. You gain a +1 trait bonus on <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (history) and <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) checks, and one of these skills (your choice) is always a class skill for you.</p>
+				<h2 id="magic-traits">Magic Traits</h2>
+				<p>These traits are associated with magic and focus on spellcasting and manipulating magic. You need not be a spellcaster to take a Magic Trait (although several of these traits aren't as useful to non-spellcasters). Magic Traits can represent a character's early exposure to magical effects or childhood studies of magic.</p>
+				<p id="classically-schooled"><b>Classically Schooled</b>: Your apprenticeship or early education was particularly focused on the direct application of magic. You gain a +1 trait bonus on <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> checks, and <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> is always a class skill for you.</p>
+				<p id="dangerously-curious"><b>Dangerously Curious</b>: You have always been intrigued by magic, possibly because you were the child of a magician or priest. You often snuck into your parent's laboratory or shrine to tinker with spell components and magic devices, and frequently caused quite a bit of damage and headaches for your parent as a result. You gain a +1 bonus on <a href="../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> checks, and <a href="../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> is always a class skill for you.</p>
+				<p id="focused-mind"><b>Focused Mind</b>: Your childhood was either dominated by lessons of some sort (whether musical, academic, or other) or by a horrible home life that encouraged your ability to block out distractions and focus on the immediate task at hand. You gain a +2 trait bonus on concentration checks.</p>
+				<p id="gifted-adept"><b>Gifted Adept</b>: Your interest in magic was inspired by witnessing a spell being cast in a particularly dramatic method, perhaps even one that affected you physically or spiritually. This early exposure to magic has made it easier for you to work similar magic on your own. Pick one spell when you choose this trait&mdash;from this point on, whenever you cast that spell, its effects manifest at +1 caster level.</p>
+				<p id="hedge-magician"><b>Hedge Magician</b>: You apprenticed for a time to a craftsman who often built magic items, and he taught you many handy shortcuts and cost-saving techniques. Whenever you craft a magic item, you reduce the required gp cost to make the item by 5%.</p>
+				<p id="magical-knack"><b>Magical Knack</b>: You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Pick a class when you gain this trait&mdash;your caster level in that class gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice.</p>
+				<p id="magical-lineage"><b>Magical Lineage</b>: One of your parents was a gifted spellcaster who not only used metamagic often, but also developed many magical items and perhaps even a new spell or two&mdash;and you have inherited a fragment of this greatness. Pick one spell when you choose this trait. When you apply metamagic feats to this spell, treat its actual level as 1 lower for determining the spell's final adjusted level.</p>
+				<p id="magical-talent"><b>Magical Talent</b>: Either from inborn talent, the whimsy of the gods, or obsessive study of strange tomes, you have mastered the use of a cantrip. Choose a 0-level spell. You may cast that spell once per day as a spell-like ability. This spell-like ability is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st. The spell-like ability's save DC is Charisma-based.</p>
+				<p id="mathematical-prodigy"><b>Mathematical Prodigy</b>: Mathematics has always come easily for you, and you have always been able to “see the math” in the physical and magical world. You gain a +1 bonus on <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) and <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (engineering) checks, and one of these skills (your choice) is always a class skill for you.</p>
+				<p id="skeptic"><b>Skeptic</b>: Growing up, you were always around magical effects to the extent that you realized much of it was mere smoke and mirrors. You gain a +2 trait bonus on all saving throws against illusions.</p>
+				<h2 id="social-traits">Social Traits</h2>
+				<p>Social Traits are a sort of catch-all category&mdash;these traits reflect the social upbringing of your character, your background in high society or lack thereof, and your history with parents, siblings, friends, competitors, and enemies.</p>
+				<p id="adopted"><b>Adopted</b>: You were adopted and raised by someone not of your actual race, and raised in a society not your own. As a result, you picked up a race trait from your adoptive parents and society, and may immediately select a race trait from your adoptive parents' race. </p>
+				<p id="bully"><b>Bully</b>: You grew up in an environment where the meek were ignored and you often had to resort to threats or violence to be heard. You gain a +1 trait bonus on <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> checks, and <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> is always a class skill for you.</p>
+				<p id="canter"><b>Canter</b>: You grew up among thieves and scoundrels, and their unusual speech patterns and turns of phrase don't faze you in the slightest today as a result. Anyone who attempts to use <a href="../skills/bluff.html#_bluff" >Bluff</a> to deliver a secret message to you gains a +5 bonus on his <a href="../skills/bluff.html#_bluff" >Bluff</a> check. When you attempt to intercept a secret message using <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a>, you gain a +5 trait bonus on the attempt.</p>
+				<p id="charming"><b>Charming</b>: Blessed with good looks, you've come to depend on the fact that others find you attractive. You gain a +1 trait bonus when you use <a href="../skills/bluff.html#_bluff" >Bluff</a> or <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> on a character that is (or could be) sexually attracted to you, and a +1 trait bonus to the save DC of any language-dependent spell you cast on such characters or creatures.</p>
+				<p id="child-of-the-streets"><b>Child of the Streets</b>: You grew up on the streets of a large city, and as a result you have developed a knack for picking pockets and hiding small objects on your person. You gain a +1 trait bonus on <a href="../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> checks, and <a href="../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> is always a class skill for you.</p>
+				<p id="fast-talker"><b>Fast-Talker</b>: You had a knack at getting yourself into trouble as a child, and as a result developed a silver tongue at an early age. You gain a +1 trait bonus on <a href="../skills/bluff.html#_bluff" >Bluff</a> checks, and <a href="../skills/bluff.html#_bluff" >Bluff</a> is always a class skill for you.</p>
+				<p id="natural-born-leader"><b>Natural-Born Leader</b>: You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not. All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the <a href="../feats.html#_leadership" >Leadership</a> feat, you gain a +1 trait bonus to your <a href="../feats.html#_leadership" >Leadership</a> score.</p>
+				<p id="poverty-stricken"><b>Poverty-Stricken</b>: Your childhood was tough, and your parents had to make every copper piece count. Hunger was your constant companion, and you often had to live off the land or sleep in the wild. You gain a +1 bonus on <a href="../skills/survival.html#_survival" >Survival</a> checks, and <a href="../skills/survival.html#_survival" >Survival</a> is always a class skill for you.</p>
+				<p id="rich-parents"><b>Rich Parents</b>: You were born into a rich family, perhaps even the nobility, and even though you turned to a life of adventure anyway, you enjoy a one-time benefit to your initial finances&mdash;your starting cash increases to 900 gp.</p>
+				<p id="suspicious"><b>Suspicious</b>: You discovered at an early age that someone you trusted, perhaps an older sibling or a parent, had lied to you, and lied often, about something you had taken for granted, leaving you quick to question the claims of others. You gain a +1 trait bonus on <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks, and <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> is always a class skill for you.</p>
+				<h1 id="campaign-traits">Campaign Traits</h1>
+				<p>Campaign traits are specifically designed to tie your character into a campaign's storyline, and often give you a built-in reason to begin the first adventure. For this reason, GMs usually create their own campaign traits for their PCs. If your GM uses campaign traits, one of your starting traits must be a campaign trait. Your other trait can be chosen from one of the other types of traits.</p>
+				
+				<h2 id="favored-son/daughter">Favored Son/Daughter</h2>
+				<p>You were born and raised in the town of Sandpoint or its surrounding farms. You know many of the region's secrets, and the locals already know who you are. You are well liked in town, and you'll have lots of friends in the region, but the town's tougher side sees you as a snitch or a pansy. You gain a +1 trait bonus on <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (local) checks, and <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (local) is always a class skill for you. In addition, you can choose any one law-abiding citizen of Sandpoint from below as an ally; depending on the person you pick, you'll get different benefits.</p>
+				<p><b>Tavern Owner</b>: One of the town’s most influential and beloved nobles. Her inn/tavern is the most popular in town, and as one of her friends, you're guaranteed a place to eat and sleep for free. She's got lots of great contacts with merchants as well, and she'll sell any of your loot for you&mdash;as a result, you gain an additional 10% over the amount of gp you normally would get from selling off treasure.</p>
+				<p><b>Sherrif</b>: The no nonsense arm of the law, is like the uncle you never had. The benefits of being close friends with the town sheriff are extensive, and you can call in favors from him once per game session. A favor can either get you out of a legal jam, hook you up with a town guard for help, or give you a one-time +10 bonus on a <a href="../skills/bluff.html#_bluff" >Bluff</a>, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a>, or <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> check made against any local person.</p>
+				<h2 id="black-sheep">Black Sheep</h2>
+				<p>You were born and raised in town. You know many of the region's secrets and the locals already know who you are. You aren't quite hated in town, but folk seem to think you're a troublemaker and a bastard and not to be trusted. The town's tougher folk respect you, but the law-abiding citizens don't.  You gain a +1 trait bonus on <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (local) checks, and <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (local) is a class skill for you. In addition, you can choose any one notorious citizen from below as an ally; depending on the person you pick, you'll get different benefits.</p>
+				<p><b>Apothecary</b>: Everyone suspects the sweaty, shifty-eyed apothecary sells poisons from his cluttered, acrid smelling wreck of a shop. You're one of the few in town who know this for a fact. You start the game with 400 gp worth of poison, and the apothecary will continue to sell you poison as long as you don't spread the word.</p>
+				<p><b>Bitter Nobleman</b>: A local unscrupulous family was hit hard recently, revealing criminal ties that damaged its reputation as well. One noble is eager to rebuild his presence in town, and you're one of the ones he's selected as an agent. Choose one of the following skills:  <a href="../skills/bluff.html#_bluff" >Bluff</a>, <a href="../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a>, or <a href="../skills/stealth.html#_stealth" >Stealth</a>. Your work for the family gives you a +1 trait bonus on that skill, and it is always a class skill for you.</p>
+				<h2 id="outlander">Outlander</h2>
+				<p>You are not from town; you've recently come from somewhere else and are hoping to make your fortune here. Pick one of the following reasons to be a newcomer to the area.</p>
+				<p><b>Lore Seeker</b>: The secrets of an ancient fallen civilization intrigue you, particularly the magical traditions of its highly mystical culture. You've studied magic intensely, and hope to increase that knowledge by adding ancient lore. You've come to the region to pursue that study, and chose the town as your base because it was out of the way of bigger cities&mdash;meaning less competition to study the ancient monuments in the region, you hope!  You gain a +1 trait bonus on <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) checks, and <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) is a class skill for you. If you cast arcane spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus.</p>
+				<p><b>Exile</b>: For whatever reason, you were forced to flee your homeland. Chance or fate has brought you to twon, and it's here that your money ran out, leaving you stranded in this small town. You are also being pursued by enemies from your homeland, and that has made you paranoid and quick to react to danger. You gain a +2 trait bonus on Initiative checks.</p>
+				<p><b>Missionary</b>: You have come to town to see about expanding the presence of your chosen faith after receiving visions that told you your faith is needed in the region&mdash;what that need is, though, you're not quite sure. You gain a +1 trait bonus on <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) checks, and <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) is a class skill for you. If you cast divine spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus.</p>
+				<h1 id="race-traits">Race Traits</h1>
+				<p>Race traits are tied to specific races or ethnicities. In order to select a race trait, your character must be of the specified race or ethnicity. Listed below are example traits for each different player character race.</p>
+				<h2 id="dwarf-race-traits">Dwarf Race Traits</h2>
+				<p>Only dwarves may select one of these traits.</p>
+				<p id="goldsniffer"><b>Goldsniffer</b>: Your keen senses lead you to hidden treasures. You gain a +2 trait bonus on <a href="../skills/perception.html#_perception" >Perception</a> checks related to metals, jewels, and gemstones.</p>
+				<p id="tunnel-fighter"><b>Tunnel Fighter</b>: Caves and tunnels are a second home to you. While underground, you receive a +2 trait bonus on initiative checks and a +1 trait bonus on weapon damage rolls for critical hits (this damage is multiplied on a critical hit).</p>
+				<h2 id="elf-race-traits">Elf Race Traits</h2>
+				<p>Only elves may select one of these traits.</p>
+				<p id="forlorn"><b>Forlorn</b>: Having lived outside of traditional elf society for much or all of your life, you know the world can be cruel, dangerous, and unforgiving of the weak. You gain a +1 trait bonus on Fortitude saving throws.</p>
+				<p id="warrior-of-old"><b>Warrior of Old</b>: As a child, you put in long hours in combat drills, and though time has made this training a dim memory, you still have a knack for quickly responding to trouble. You gain a +2 trait bonus on Initiative checks.</p>
+				<h2 id="gnome-race-traits">Gnome Race Traits</h2>
+				<p>Only gnomes may select one of these traits.</p>
+				<p id="animal-friend"><b>Animal Friend</b>: You've long been a friend to animals, and feel safer when there are animals nearby. You gain a +1 trait bonus on Will saving throws as long as an animal (Tiny or larger, must be at least indifferent toward you) is within 30 feet, and <a href="../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> is always a class skill for you.</p>
+				<p id="rapscallion"><b>Rapscallion</b>: You've spent your entire life thumbing your nose at the establishment and take pride in your run-ins with the law. Somehow, despite all the mischievous behavior in your life, you've never been caught. You gain a +1 trait bonus on <a href="../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> checks and a +1 trait bonus on Initiative checks.</p>
+				<h2 id="half-elf-race-traits">Half-Elf Race Traits</h2>
+				<p>Only half-elves may select one of these traits.</p>
+				<p id="elven-reflexes"><b>Elven Reflexes</b>: One of your parents was a member of a wild elven tribe, and you've inherited a portion of your elven parent's quick reflexes. You gain a +2 trait bonus on Initiative checks. </p>
+				<p id="failed-apprentice"><b>Failed Apprentice</b>: As a child, your parents sent you to a distant wizard's tower as an apprentice so that you might learn the arcane arts. Unfortunately, you had no arcane talent whatsoever, though you did learn a great deal about the workings of spells and how to resist them. You gain a +1 trait bonus on saves against arcane spells.</p>
+				<h2 id="half-orc-race-traits">Half-Orc Race Traits</h2>
+				<p>Only half-orcs may select one of these traits.</p>
+				<p id="brute"><b>Brute</b>: You have worked for a crime lord, either as a low-level enforcer or as a guard, and are adept at frightening away people. You gain a +1 trait bonus on <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> checks, and <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> is always a class skill for you.</p>
+				<p id="outcast"><b>Outcast</b>: Driven from town after town because of your heritage, you have become adept at living apart from others. You gain a +1 trait bonus on <a href="../skills/survival.html#_survival" >Survival</a> skill checks, and <a href="../skills/survival.html#_survival" >Survival</a> is always a class skill for you.</p>
+				<h2 id="halfling-race-traits">Halfling Race Traits</h2>
+				<p>Only halflings may select one of these traits.</p>
+				<p id="freedom-fighter"><b>Freedom Fighter</b>: Your parents allowed escaping slaves to hide in your home, and the stories you've heard from them instilled into you a deep loathing of slavery. You gain a +1 trait bonus on any skill check or attack roll made during the process of escaping capture or in helping a slave escape bondage, and <a href="../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> is always a class skill for you.</p>
+				<p id="well-informed"><b>Well-Informed</b>: You make it a point to know everyone and to be connected to everything around you. You frequent the best taverns, attend all of the right events, and graciously help anyone who needs it. Because of this, you gain a +1 trait bonus on <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks to gather information and <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (local) checks. One of these skills (your choice) is always a class skill for you.</p>
+				<h2 id="human-race-traits">Human Race Traits</h2>
+				<p>Only humans may select one of these traits.</p>
+				<p id="scholar-of-ruins"><b>Scholar of Ruins</b>: From the moment you could walk and talk, the ruins of ancient civilizations have fascinated you. Because of this, you have special insight into geography as well as expertise in exploring lost places. You gain a +1 trait bonus on <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (geography) and <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) checks. One of these skills (your choice) is always a class skill for you.</p>
+				<p id="world-traveler"><b>World Traveler</b>: Your family has taken the love of travel to an extreme, roaming the world extensively. You've seen dozens of cultures and have learned to appreciate the diversity of what the world has to offer. Select one of the following skills: <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (local), or <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</p>
+				<h1 id="regional-traits">Regional Traits</h1>
+				<p>Regional traits are tied to particular regions, often specific nations, territories, or cities in a campaign. The following regional traits present several “generic” regions that can be used in most campaign settings. </p>
+				<p id="desert-child-(desert)"><b>Desert Child (desert)</b>: You were born and raised in rocky deserts. You are accustomed to high temperatures, and gain a +4 trait bonus on any saving throws made to resist the effects of being in hot conditions and a +1 trait bonus on all saving throws against fire effects.</p>
+				<p id="highlander-(hills-or-mountains)"><b>Highlander (hills or mountains)</b>: You were born and raised in rugged badlands or hills, and you've become something of an expert at evading the predators, monsters, and worse that haunt the highlands. You gain a +1 trait bonus on <a href="../skills/stealth.html#_stealth" >Stealth</a> checks, and <a href="../skills/stealth.html#_stealth" >Stealth</a> is always a class skill for you. This trait bonus increases to +2 in hilly or rocky areas.</p>
+				<p id="log-roller-(forest)"><b>Log Roller (forest)</b>: The time you spent leaping between slippery logs as they whirled down the river to market taught you how to keep your footing. You gain a +1 trait bonus on <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks and a +1 trait bonus to your CMB when attempting to resist trip attacks.</p>
+				<p id="militia-veteran-(any-town-or-village)"><b>Militia Veteran (any town or village)</b>: Your first job was serving in a civilian militia in your home town. Skills learned through daily drilling and protecting your fellow townsfolk gave you special insight into military life. Select one of the following skills: <a href="../skills/profession.html#_profession" >Profession</a> (soldier), <a href="../skills/ride.html#_ride" >Ride</a>, or <a href="../skills/survival.html#_survival" >Survival</a>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</p>
+				<p id="river-rat-(marsh-or-river)"><b>River Rat (marsh or river)</b>: You learned to swim right after you learned to walk. As a youth, a gang of river pirates put you to work swimming in nighttime rivers and canals with a dagger in your teeth so you could sever the anchor ropes of merchant vessels. You gain a +1 trait bonus on damage dealt with a dagger and a +1 trait bonus on <a href="../skills/swim.html#_swim" >Swim</a> checks. <a href="../skills/swim.html#_swim" >Swim</a> is always a class skill for you.</p>
+				<p id="savanna-child-(plains)"><b>Savanna Child (plains)</b>: You were born and raised among rolling plains or savannas. You spent much of your youth exploring these vast reaches and know many of the savanna's secrets. Pick one of the following skills: <a href="../skills/handleAnimal.html#_handle-animal" >Handle Animal</a>, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (nature), or <a href="../skills/ride.html#_ride" >Ride</a>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</p>
+				<p id="vagabond-child-(urban)"><b>Vagabond Child (urban)</b>: You grew up among the outcasts and outlaws of your society, learning to forage and survive in an urban environment. Select one of the following skills: <a href="../skills/disableDevice.html#_disable-device" >Disable Device</a>, <a href="../skills/escapeArtist.html#_escape-artist" >Escape Artist</a>, or <a href="../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a>. You gain a +1 trait bonus on that skill, and it is always a class skill for you.</p>
+				<h1 id="religion-traits">Religion Traits</h1>
+				<p>Religion traits are tied to specific deities.</p>
+				
+				<p id="child-of-nature"><b>Child of Nature (N)</b> You have been blessed to be as comfortable in the wilderness as you are at home. You gain a +2 trait bonus on <a href="../skills/survival.html#_survival" >Survival</a> checks to find food and water, and a +1 trait bonus on <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (nature) checks. One of these skills (your choice) is always a class skill for you.</p>
+				
+				<p id="demon-hunter-("><b>Demon Hunter (LE):</b> Raised in the church (whether or not you are currently a follower), you’ve focused your indoctrinated fervor primarily on the elimination of demons.  You gain a +3 trait bonus on <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) checks about demons and a +2 trait bonus on Will saves against mind-affecting spells and effects from demons.</p>
+				<p id="divine-courtesan-("><b>Divine Courtesan (CN):</b> You worked in one of your goddess’s temples as a sacred courtesan, and you know how to flatter, please, and (most of all) listen.  You gain a +1 trait bonus on <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks and <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks to gather information, and one of these skills (your choice) is always a class skill for you.</p>
+				<p id="divine-warrior-("><b>Divine Warrior (LG):</b> From an early age, you were trained by a militaristic order of clerics. You are devoted both to the teachings of your goddess and to spreading those teachings by force. You gain a +1 trait bonus on melee weapon damage when you cast a divine spell that affect weapons.</p>
+				<p id="ear-for-music-("><b>Ear for Music (NG):</b> You spent countless hours of your youth in one of your goddess’s temples, listening to wonderful musicians and singers. You gain a +1 trait bonus on one category of <a href="../skills/perform.html#_perform" >Perform</a> checks and a +2 trait bonus on any <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (local) checks that deal with the local art or music scene.</p>
+				<p id="eyes-and-ears-of-the-city-("><b>Eyes and Ears of the City (LN):</b> Your religious training involved serving in the city watch of a large city, the primary duty of which was standing sentinel on a city wall. You gain a +1 trait bonus on <a href="../skills/perception.html#_perception" >Perception</a> checks, and <a href="../skills/perception.html#_perception" >Perception</a> is always a class skill for you.</p>
+				<p id="flame-of-the-dawnflower-("><b>Flame of the Dawnflower (NG):</b> You have been raised to view yourself as a blade in your goddess’s service, or you have taken that duty on for yourself. Whenever you score a critical hit with a scimitar, you deal an additional 2 points of fire damage to your target. </p>
+				<p id="fortified-drinker-("><b>Fortified Drinker (CG):</b> Your god’s holy brews invigorate your mind, making you less susceptible to mental attacks. Whenever you imbibe any alcoholic beverage, you gain a +2 trait bonus on saves against mind-affecting effects for 1 hour.</p>
+				<p id="guardian-of-the-forge-("><b>Guardian of the Forge (LG):</b> Your god’s sacred duties are to protect the faithful, take lessons from the great craftsmen and strategists of the past, and prepare against dark times.  You receive a +1 trait bonus on <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (engineering) and <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (history) checks. One of these skills (your choice) is a class skill for you.</p>
+				<p id="magic-is-life-("><b>Magic is Life (N):</b> Your faith in magic allows you to reflexively use the energy of any spell effect on you to save you from death. As long as you are under the effects of any spell, you gain a +2 trait bonus on saving throws against death effects. If you are reduced to negative hit points while you are under the effects of any spell, you automatically confirm stabilization checks to stop bleeding.</p>
+				<p id="patient-optimist-("><b>Patient Optimist (LG):</b> You know that all things pass in time, and are used to having to repeat arguments multiple times to convince even the most stubborn believer. You gain a +2 trait bonus on <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks to influence hostile or unfriendly creatures, and if you fail at such an attempt, you may retry it once.</p>
+				<p id="starchild-("><b>Starchild (CG):</b> Your goddess sensed your love of travel and promised you would always be able to find your way home. You can automatically determine where true north is. You gain a +4 trait bonus on <a href="../skills/survival.html#_survival" >Survival</a> checks to avoid becoming lost.</p>
+				<p id="undead-slayer-("><b>Undead Slayer (N):</b> Instructed at a young age in the tenets of your faith, you view the undead as abominations that must be destroyed, so their souls can journey beyond to be judged. You gain a +1 trait bonus on weapon damage against undead.</p>
+				<p id="veteran-of-battle-("><b>Veteran of Battle (CN):</b> You have fought in several battles, and each time felt the presence of your god guiding your sword-arm, making you ready to act at a moment’s notice. You gain a +1 trait bonus on Initiative checks, and if you are able to act during a surprise round, you may a draw a weapon (but not a potion or magic item) as a free action during that round.</p>
+				<p id="wisdom-in-the-flesh-("><b>Wisdom in the Flesh (LN):</b> Your hours of meditation on inner perfection and the nature of strength and speed allows you to focus your thoughts to achieve things your body might not normally be able to do on its own. Select any Strength, Constitution, or Dexterity-based skill. You make checks with that skill using your Wisdom modifier instead of the skill's normal ability score. That skill is always a class skill for you.</p>
+			</div>
+	
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Creature Types</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Creature Types",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+
+<div id="body">
+
+<h1 id="creature-types">Creature Types</h1>
+
+<p>Each creature has one type, which broadly defines its abilities. Some creatures also have one or more subtypes. A creature cannot violate the rules of its subtype without a special ability or quality to explain the difference&mdash;templates can often change a creature's type drastically.</p>
+
+<p id="aberration" class="stat-block-title"><b>Aberration</b></p>
+<p>An aberration has a bizarre anatomy, strange abilities, an alien mindset, or any combination of the three. An aberration has the following features.</p>
+
+<ul><li>d8 Hit Die.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (medium progression).</li>
+<li>Good Will saves.</li>
+<li>Skill points equal to 4 + Int modifier (minimum 1) per Hit Die. The following are class skills for aberrations: <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a>, <a href="../skills/climb.html#_climb" >Climb</a>, <a href="../skills/escapeArtist.html#_escape-artist" >Escape Artist</a>, <a href="../skills/fly.html#_fly" >Fly</a>, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a>, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (pick one), <a href="../skills/perception.html#_perception" >Perception</a>, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a>, <a href="../skills/stealth.html#_stealth" >Stealth</a>, <a href="../skills/survival.html#_survival" >Survival</a>, and <a href="../skills/swim.html#_swim" >Swim</a>.</li></ul>
+
+<p><b>Traits</b>: An aberration possesses the following traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>Darkvision 60 feet.</li>
+<li>Proficient with its natural weapons. If generally humanoid in form, proficient with all simple weapons and any weapon it is described as using.</li>
+<li>Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Aberrations not indicated as wearing armor are not proficient with armor. Aberrations are proficient with shields if they are proficient with any form of armor.</li>
+<li>Aberrations breathe, eat, and sleep.</li></ul>
+
+
+<p id="animal" class="stat-block-title"><b>Animal</b></p>
+<p>An animal is a living, nonhuman creature, usually a vertebrate with no magical abilities and no innate capacity for language or culture. Animals usually have additional information on how they can serve as companions. An animal has the following features (unless otherwise noted).</p>
+<ul><li>d8 Hit Die.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (medium progression).</li>
+<li>Good Fortitude and Reflex saves.</li>
+<li>Skill points equal to 2 + Int modifier (minimum 1) per Hit Die. The following are class skills for animals: <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a>, <a href="../skills/climb.html#_climb" >Climb</a>, <a href="../skills/fly.html#_fly" >Fly</a>, <a href="../skills/perception.html#_perception" >Perception</a>, <a href="../skills/stealth.html#_stealth" >Stealth</a>, and <a href="../skills/swim.html#_swim" >Swim</a>.</li></ul>
+
+<p><b>Traits</b>: An animal possesses the following traits (unless otherwise noted in a creature's entry).</p>
+
+<ul><li>Intelligence score of 1 or 2 (no creature with an Intelligence score of 3 or higher can be an animal).</li>
+<li>Low-light vision.</li>
+<li>Alignment: Always neutral.</li>
+<li>Treasure: None.</li>
+<li>Proficient with its natural weapons only. A noncombative herbivore treats its natural weapons as secondary attacks. Such attacks are made with a &ndash;5 penalty on the creature's attack rolls, and the animal receives only 1/2 its Strength modifier as a damage adjustment.</li>
+<li>Proficient with no armor unless trained for war.</li>
+<li>Animals breathe, eat, and sleep.</li></ul>
+
+<p id="construct" class="stat-block-title"><b>Construct</b></p>
+<p>A construct is an animated object or artificially created creature. A construct has the following features.</p>
+<ul><li>d10 Hit Die.</li>
+<li>Base attack bonus equal to total Hit Dice (fast progression).</li>
+<li>No good saving throws.</li>
+<li>Skill points equal to 2 + Int modifier (minimum 1) per Hit Die. However, most constructs are mindless and gain no skill points or feats. Constructs do not have any class skills, regardless of their Intelligence scores.</li></ul>
+				
+<p><b>Traits</b>: A construct possesses the following traits (unless otherwise noted in a creature's entry).</p>
+
+<ul><li>No Constitution score. Any DCs or other statistics that rely on a Constitution score treat a construct as having a score of 10 (no bonus or penalty).</li>
+<li>Low-light vision.</li>
+<li>Darkvision 60 feet.</li>
+<li>Immunity to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).</li>
+<li>Immunity to bleed, disease, death effects, necromancy effects, paralysis, poison, sleep effects, and stunning.</li>
+<li>Cannot heal damage on its own, but often can be repaired via exposure to a certain kind of effect (see the creature's description for details) or through the use of the <a href="monsterFeats.html#_craft-construct" >Craft Construct</a> feat. Constructs can also be healed through spells such as <i><a href="../spells/makeWhole.html#_make-whole" >make whole</a></i>. A construct with the fast healing special quality still benefits from that quality.</li>
+<li>Not subject to <a href="universalMonsterRules.html#_ability-damage-and-drain" >ability damage</a>, <a href="universalMonsterRules.html#_ability-damage-and-drain" >ability drain</a>, fatigue, exhaustion, energy drain, or nonlethal damage.</li>
+<li>Immunity to any effect that requires a Fortitude save (unless the effect also works on objects, or is harmless).</li>
+<li>Not at risk of death from massive damage. Immediately destroyed when reduced to 0 hit points or less.</li>
+<li>A construct cannot be raised or resurrected.</li>
+<li>A construct is hard to destroy, and gains bonus hit points based on size, as shown on the following table.</li></ul>
+
+<table><thead><tr><th>Construct Size</th><th>Bonus Hit Points</th></tr></thead>
+<tbody><tr class="odd"><td>Fine</td><td>&mdash;</td></tr>
+<tr class="even"><td>Diminutive</td><td>&mdash;</td></tr>
+<tr class="odd"><td>Tiny</td><td>&mdash;</td></tr>
+<tr class="even"><td>Small</td><td>10</td></tr>
+<tr class="odd"><td>Medium</td><td>20</td></tr>
+<tr class="even"><td>Large</td><td>30</td></tr>
+<tr class="odd"><td>Huge</td><td>40</td></tr>
+<tr class="even"><td>Gargantuan</td><td>60</td></tr>
+<tr class="odd"><td>Colossal</td><td>80</td></tr></tbody></table>
+
+<ul><li>Proficient with its natural weapons only, unless generally humanoid in form, in which case proficient with any weapon mentioned in its entry.</li>
+<li>Proficient with no armor.</li>
+<li>Constructs do not breathe, eat, or sleep.</li></ul>
+
+<p id="dragon" class="stat-block-title"><b>Dragon</b></p>
+<p>A dragon is a reptile-like creature, usually winged, with magical or unusual abilities. A dragon has the following features.</p>
+
+<ul><li>d12 Hit Die.</li>
+<li>Base attack bonus equal to total Hit Dice (fast progression).</li>
+<li>Good Fortitude, Reflex, and Will saves.</li>
+<li>Skill points equal to 6 + Int modifier (minimum 1) per Hit Die. The following are class skills for dragons: <a href="../skills/appraise.html#_appraise" >Appraise</a>, <a href="../skills/bluff.html#_bluff" >Bluff</a>, <a href="../skills/climb.html#_climb" >Climb</a>, <a href="../skills/craft.html#_craft" >Craft</a>, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="../skills/fly.html#_fly" >Fly</a>, <a href="../skills/heal.html#_heal" >Heal</a>, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a>, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (all), <a href="../skills/linguistics.html#_linguistics" >Linguistics</a>, <a href="../skills/perception.html#_perception" >Perception</a>, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a>, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a>, <a href="../skills/stealth.html#_stealth" >Stealth</a>, <a href="../skills/survival.html#_survival" >Survival</a>, <a href="../skills/swim.html#_swim" >Swim</a>, and <a href="../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a>.</li></ul>
+				
+<p><b>Traits</b>: A dragon possesses the following traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>Darkvision 60 feet and low-light vision.</li>
+<li>Immunity to magic sleep effects and paralysis effects.</li>
+<li>Proficient with its natural weapons only unless humanoid in form (or capable of assuming humanoid form), in which case proficient with all simple weapons and any weapons mentioned in its entry.</li>
+<li>Proficient with no armor.</li>
+<li>Dragons breathe, eat, and sleep.</li></ul>
+
+<p id="fey" class="stat-block-title"><b>Fey</b></p>
+<p>A fey is a creature with supernatural abilities and connections to nature or to some other force or place. Fey are usually human-shaped. A fey has the following features.</p>
+
+<ul><li>d6 Hit Die.</li>
+<li>Base attack bonus equal to 1/2 total Hit Dice (slow progression).</li>
+<li>Good Reflex and Will saves.</li>
+<li>Skill points equal to 6 + Int modifier (minimum 1) per Hit Die. The following are class skills for fey: <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a>, <a href="../skills/bluff.html#_bluff" >Bluff</a>, <a href="../skills/climb.html#_climb" >Climb</a>, <a href="../skills/craft.html#_craft" >Craft</a>, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="../skills/disguise.html#_disguise" >Disguise</a>, <a href="../skills/escapeArtist.html#_escape-artist" >Escape Artist</a>, <a href="../skills/fly.html#_fly" >Fly</a>, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (geography), <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (local), <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (nature), <a href="../skills/perception.html#_perception" >Perception</a>, <a href="../skills/perform.html#_perform" >Perform</a>, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a>, <a href="../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a>, <a href="../skills/stealth.html#_stealth" >Stealth</a>, <a href="../skills/swim.html#_swim" >Swim</a>, <a href="../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a>.</li></ul>
+
+<p><b>Traits</b>: A fey possesses the following traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>Low-light vision.</li>
+<li>Proficient with all simple weapons and any weapons mentioned in its entry.</li>
+<li>Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Fey not indicated as wearing armor are not proficient with armor. Fey are proficient with shields if they are proficient with any form of armor.</li>
+<li>Fey breathe, eat, and sleep.</li></ul>
+
+<p id="humanoid" class="stat-block-title"><b>Humanoid</b></p>
+<p>A humanoid usually has two arms, two legs, and one head, or a human-like torso, arms, and a head. Humanoids have few or no supernatural or extraordinary abilities, but most can speak and usually have well-developed societies. They are usually Small or Medium (with the exception of giants). Every humanoid creature also has a specific subtype to match its race, such as human, giant, goblinoid, reptilian, or tengu.</p>
+<p>Humanoids with 1 Hit Die exchange the features of their humanoid Hit Die for the class features of a PC or NPC class. Humanoids of this sort are typically presented as 1st-level warriors, which means they have average combat ability and poor saving throws. Humanoids with more than 1 Hit Die are the only humanoids who make use of the features of the humanoid type. A humanoid has the following features (unless otherwise noted in a creature's entry).</p>
+
+<ul><li>d8 Hit Die, or by character class.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (medium progression).</li>
+<li>One good save, usually Reflex.</li>
+<li>Skill points equal to 2 + Int modifier (minimum 1) per Hit Die or by character class. The following are class skills for humanoids without a character class: <a href="../skills/climb.html#_climb" >Climb</a>, <a href="../skills/craft.html#_craft" >Craft</a>, <a href="../skills/handleAnimal.html#_handle-animal" >Handle Animal</a>, <a href="../skills/heal.html#_heal" >Heal</a>, <a href="../skills/profession.html#_profession" >Profession</a>, <a href="../skills/ride.html#_ride" >Ride</a>, and <a href="../skills/survival.html#_survival" >Survival</a>. Humanoids with a character class use their class's skill list instead. Humanoids with both a character class and racial HD add these skill sto their list of class skills.</li></ul>
+
+<p><b>Traits</b>: A humanoid possesses the following traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>Proficient with all simple weapons, or by character class.</li>
+<li>Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, or by character class. If a humanoid does not have a class and wears armor, it is proficient with that type of armor and all lighter types. Humanoids not indicated as wearing armor are not proficient with armor. Humanoids are proficient with shields if they are proficient with any form of armor.</li>
+<li>Humanoids breathe, eat, and sleep.</li></ul>
+
+<p id="magical-beast" class="stat-block-title"><b>Magical Beast</b></p>
+<p>Magical beasts are similar to animals but can have Intelligence scores higher than 2 (in which case the magical beast knows at least one language, but can't necessarily speak). Magical beasts usually have supernatural or extraordinary abilities, but are sometimes merely bizarre in appearance or habits. A magical beast has the following features.</p>
+
+<ul><li>d10 Hit Die.</li>
+<li>Base attack bonus equal to total Hit Dice (fast progression).</li>
+<li>Good Fortitude and Reflex saves.</li>
+<li>Skill points equal to 2 + Int modifier (minimum 1) per Hit Die. The following are class skills for magical beasts: <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a>, <a href="../skills/climb.html#_climb" >Climb</a>, <a href="../skills/fly.html#_fly" >Fly</a>, <a href="../skills/perception.html#_perception" >Perception</a>, <a href="../skills/stealth.html#_stealth" >Stealth</a>, <a href="../skills/swim.html#_swim" >Swim</a>.</li></ul>
+
+<p><b>Traits</b>: A magical beast possesses the following traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>Darkvision 60 feet.</li>
+<li>Low-light vision.</li>
+<li>Proficient with its natural weapons only.</li>
+<li>Proficient with no armor.</li>
+<li>Magical beasts breathe, eat, and sleep.</li></ul>
+
+<p id="monstrous-humanoid" class="stat-block-title"><b>Monstrous Humanoid</b></p>
+<p>Monstrous humanoids are similar to humanoids, but with monstrous or animalistic features. They often have magical abilities as well. A monstrous humanoid has the following features.</p>
+<ul><li>d10 Hit Die.</li>
+<li>Base attack bonus equal to total Hit Dice (fast progression).</li>
+<li>Good Reflex and Will saves.</li>
+<li>Skill points equal to 4 + Int modifier (minimum 1) per Hit Die. The following are class skills for monstrous humanoids: <a href="../skills/climb.html#_climb" >Climb</a>, <a href="../skills/craft.html#_craft" >Craft</a>, <a href="../skills/fly.html#_fly" >Fly</a>, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a>, <a href="../skills/perception.html#_perception" >Perception</a>, <a href="../skills/ride.html#_ride" >Ride</a>, <a href="../skills/stealth.html#_stealth" >Stealth</a>, <a href="../skills/survival.html#_survival" >Survival</a>, and <a href="../skills/swim.html#_swim" >Swim</a>.</li></ul>
+				
+<p><b>Traits</b>: A monstrous humanoid possesses the following traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>Darkvision 60 feet.</li>
+<li>Proficient with all simple weapons and any weapons mentioned in its entry.</li>
+<li>Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Monstrous humanoids not indicated as wearing armor are not proficient with armor. Monstrous humanoids are proficient with shields if they are proficient with any form of armor.</li>
+<li>Monstrous humanoids breathe, eat, and sleep.</li></ul>
+
+<p id="ooze" class="stat-block-title"><b>Ooze</b></p>
+<p>An ooze is an amorphous or mutable creature, usually mindless. An ooze has the following features.</p>
+<ul><li>d8 Hit Die.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (medium progression).</li>
+<li>No good saving throws.</li>
+<li>Skill points equal to 2 + Int modifier (minimum 1) per Hit Die. However, most oozes are mindless and gain no skill points or feats. Oozes do not have any class skills.</li></ul>
+				
+<p><b>Traits</b>: An ooze possesses the following traits (unless otherwise noted in a creature's entry).</p>
+
+<ul><li>Mindless: No Intelligence score, and immunity to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects). An ooze with an Intelligence score loses this trait.</li>
+<li>Blind (but have the blindsight special quality), with immunity to gaze attacks, visual effects, illusions, and other attack forms that rely on sight.</li>
+<li>Immunity to poison, sleep effects, paralysis, polymorph, and stunning.</li>
+<li>Some oozes have the ability to deal acid damage to objects.</li>
+<li>Not subject to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.</li>
+<li>Proficient with its natural weapons only.</li>
+<li>Proficient with no armor.</li>
+<li>Oozes eat and breathe, but do not sleep.</li></ul>
+
+<p id="outsider" class="stat-block-title"><b>Outsider</b></p>
+<p>An outsider is at least partially composed of the essence (but not necessarily the material) of some plane other than the Material Plane. Some creatures start out as some other type and become outsiders when they attain a higher (or lower) state of spiritual existence. An outsider has the following features.</p>
+<ul><li>d10 Hit Dice.</li>
+<li>Base attack bonus equal to total Hit Dice (fast progression).</li>
+<li>Two good saving throws, usually Reflex and Will.</li>
+<li>Skill points equal to 6 + Int modifier (minimum 1) per Hit Die. The following are class skills for outsiders: <a href="../skills/bluff.html#_bluff" >Bluff</a>, <a href="../skills/craft.html#_craft" >Craft</a>, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes), <a href="../skills/perception.html#_perception" >Perception</a>, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a>, and <a href="../skills/stealth.html#_stealth" >Stealth</a>. Due to their varied nature, outsiders also receive 4 additional class skills determined by the creature's theme.</li></ul>
+				
+<p><b>Traits</b>: An outsider possesses the following traits (unless otherwise noted in a creature's entry).</p>
+
+<ul><li>Darkvision 60 feet.</li>
+<li>Unlike most living creatures, an outsider does not have a dual nature&mdash;its soul and body form one unit. When an outsider is slain, no soul is set loose. Spells that restore souls to their bodies, such as <i><a href="../spells/raiseDead.html#_raise-dead" >raise dead</a>, <a href="../spells/reincarnate.html#_reincarnate" >reincarnate</a>, </i>and <i><a href="../spells/resurrection.html#_resurrection" >resurrection</a>, </i>don't work on an outsider. It takes a different magical effect, such as <i><a href="../spells/limitedWish.html#_limited-wish" >limited wish</a>, <a href="../spells/wish.html#_wish" >wish</a>, <a href="../spells/miracle.html#_miracle" >miracle</a>, </i>or <i><a href="../spells/trueResurrection.html#_true-resurrection" >true resurrection</a> </i>to restore it to life. An outsider with the native subtype can be raised, reincarnated, or resurrected just as other living creatures can be.</li>
+<li>Proficient with all simple and martial weapons and any weapons mentioned in its entry.</li>
+<li>Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Outsiders not indicated as wearing armor are not proficient with armor. Outsiders are proficient with shields if they are proficient with any form of armor.</li>
+<li>Outsiders breathe, but do not need to eat or sleep (although they can do so if they wish). Native outsiders breathe, eat, and sleep. </li></ul>
+
+<p id="plant" class="stat-block-title"><b>Plant</b></p>
+<p>This type comprises vegetable creatures. Note that regular plants, such as one finds growing in gardens and fields, lack Wisdom and Charisma scores and are not creatures, but objects, even though they are alive. A plant creature has the following features. </p>
+<ul><li>d8 Hit Die.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (medium progression).</li>
+<li>Good Fortitude saves.</li>
+<li>Skill points equal to 2 + Int modifier (minimum 1) per Hit Die. Some plant creatures, however, are mindless and gain no skill points or feats. The following are class skills for plants: <a href="../skills/perception.html#_perception" >Perception</a> and <a href="../skills/stealth.html#_stealth" >Stealth</a>.</li></ul>
+				
+<p><b>Traits</b>: A plant creature possesses the following traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>Low-light vision.</li>
+<li>Immunity to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).</li>
+<li>Immunity to paralysis, poison, polymorph, sleep effects, and stunning.</li>
+<li>Proficient with its natural weapons only.</li>
+<li>Not proficient with armor.</li>
+<li>Plants breathe and eat, but do not sleep.</li></ul>
+
+<p id="undead" class="stat-block-title"><b>Undead</b></p>
+<p>Undead are once-living creatures animated by spiritual or supernatural forces. An undead creature has the following features.</p>
+<ul><li>d8 Hit Die.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (medium progression).</li>
+<li>Good Will saves.</li>
+<li>Skill points equal to 4 + Int modifier (minimum 1) per Hit Die. Many undead, however, are mindless and gain no skill points or feats. The following are class skills for undead: <a href="../skills/climb.html#_climb" >Climb</a>, <a href="../skills/disguise.html#_disguise" >Disguise</a>, <a href="../skills/fly.html#_fly" >Fly</a>, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a>, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana), <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (religion), <a href="../skills/perception.html#_perception" >Perception</a>, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a>, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a>, and <a href="../skills/stealth.html#_stealth" >Stealth</a>.</li></ul>
+				
+<p><b>Traits</b>: An undead creature possesses the following traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>No Constitution score. Undead use their Charisma score in place of their Constitution score when calculating hit points, Fortitude saves, and any special ability that relies on Constitution (such as when calculating a breath weapon's DC).</li>
+<li>Darkvision 60 feet.</li>
+<li>Immunity to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).</li>
+<li>Immunity to bleed, death effects, disease, paralysis, poison, sleep effects, and stunning.</li>
+<li>Not subject to nonlethal damage, <a href="universalMonsterRules.html#_ability-damage-and-drain" >ability drain</a>, or energy drain. Immune to <a href="universalMonsterRules.html#_ability-damage-and-drain" >damage</a> to its physical ability scores (Constitution, Dexterity, and Strength), as well as to exhaustion and fatigue effects.</li>
+<li>Cannot heal damage on its own if it has no Intelligence score, although it can be healed. Negative energy (such as an <i>inflict </i>spell) can heal undead creatures. The fast healing special quality works regardless of the creature's Intelligence score.</li>
+<li>Immunity to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).</li>
+<li>Not at risk of death from massive damage, but is immediately destroyed when reduced to 0 hit points.</li>
+<li>Not affected by <i><a href="../spells/raiseDead.html#_raise-dead" >raise dead</a> </i>and <i><a href="../spells/reincarnate.html#_reincarnate" >reincarnate</a> </i>spells or abilities. <i>Resurrection </i>and <i><a href="../spells/trueResurrection.html#_true-resurrection" >true resurrection</a> </i>can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.</li>
+<li>Proficient with its natural weapons, all simple weapons, and any weapons mentioned in its entry.</li>
+<li>Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Undead not indicated as wearing armor are not proficient with armor. Undead are proficient with shields if they are proficient with any form of armor.</li>
+<li>Undead do not breathe, eat, or sleep.</li></ul>
+
+<p id="vermin" class="stat-block-title"><b>Vermin</b></p>
+				
+<p>This type includes insects, arachnids, other arthropods, worms, and similar invertebrates. Vermin have the following features.</p>
+<ul><li>d8 Hit Die.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (medium progression).</li>
+<li>Good Fortitude saves.</li>
+<li>Skill points equal to 2 + Int modifier (minimum 1) per Hit Die. Most vermin, however, are mindless and gain no skill points or feats. Vermin have no class skills.</li></ul>			
+<p><b>Traits</b>: Vermin possess the following traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>Mindless: No Intelligence score, and immunity to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms). A vermin-like creature with an Intelligence score is usually either an animal or a magical beast, depending on its other abilities.</li>
+<li>Darkvision 60 feet.</li>
+<li>Proficient with its natural weapons only.</li>
+<li>Proficient with no armor.</li>
+<li>Vermin breathe, eat, and sleep.</li></ul>
+
+
+
+<h1 id="creature-subtypes">Creature SubTypes</h1>
+<p>Some creatures have one or more subtypes. Subtypes add additional abilities and qualities to a creature. </p>
+
+<p id="adlet-subtype"><b>Adlet Subtype</b>: This subtype is applied to the strange humanoid wolf creatures called adlets, and to creatures related to adlets. </p>
+
+<p id="aeon-subtype"><b>Aeon Subtype</b>:  Aeons are a race of neutral outsiders who roam the planes maintaining the balance of reality. Aeons possess the following traits.</p>
+<ul><li>Immunity to cold, poison, and critical hits.</li>
+<li>Resistance to electricity 10 and fire 10.</li></ul>
+<p id="envisaging"><i>Envisaging (Su)</i> Aeons communicate wordlessly, almost incomprehensibly. Caring little for the wants and desires of other creatures, they have no need to engage in exchanges of dialogue. Instead, aeons mentally scan beings for their thoughts and intentions, and then retaliate with flashes of psychic projections that emit a single concept in response to whatever the other being was thinking. The flash is usually a combination of a visual and aural stimulation, which displays how the aeon perceives future events might work out. For instance, an aeon seeking to raze a city communicates this concept to non-aeons by sending them a vivid image of the city crumbling to ash. An aeon's envisaging functions as a non-verbal form of telepathy. Aeons cannot read the thoughts of any creature immune to mind-affecting effects.</p>
+<p id="extension-of-all"><i>Extension of All (Ex)</i> Through an aeon's connection to the multiverse, it gains access to strange and abstruse knowledge that filters through all existence. Much of the knowledge is timeless, comprised of events long past, present, and potentially even those yet to come. Aeons gain a racial bonus equal to half their racial Hit Dice on all <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> skill checks. This same connection also binds them to other aeons. As a result, they can communicate with each other freely, over great distances as if using telepathy. This ability also works across planes, albeit less effectively, allowing the communication of vague impressions or feelings, not specific details or sights. Due to the vast scope of the aeon race's multiplanar concerns, though, even the most dire reports of a single aeon rarely inspire dramatic or immediate action.</p>
+<p id="void-form"><i>Void Form (Su)</i> Though aeons aren't incorporeal, their forms are only a semi-tangible manifestation of something greater. An aeon's void form grants it a deflection bonus equal to 1/4 its Hit Dice (rounded down).</p>
+<p id="agathion-subtype"><b>Agathion Subtype</b>: Agathions are beast-aspect outsiders native to Nirvana. They have the following traits.</p>
+<ul><li>Low-light vision</li>
+<li>Immunity to electricity and petrification.</li>
+<li>Resistance to cold 10 and sonic 10.</li>
+<li>Lay on hands as a paladin whose level equals the agathion's Hit Dice.</li>
+<li>+4 racial bonus on saving throws against poison.</li>
+<li>Except where otherwise noted, agathions speak Celestial, Infernal, and Draconic.</li>
+<li><i>Speak with Animals (Su)</i> This ability works like <i><a href="../spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i> (caster level equal to the agathion's Hit Dice) but is a free action and does not require sound.</li>
+<li><i>Truespeech (Su)</i> All agathions can speak with any creature that has a language, as though using a <i><a href="../spells/tongues.html#_tongues" >tongues</a></i> spell (caster level equal to angel's Hit Dice). This ability is always active.</li></ul>
+
+<p id="air-subtype"><b>Air Subtype</b>: This subtype is usually used for outsiders with a connection to the Elemental Plane of Air. Air creatures always have fly speeds and usually have perfect maneuverability. Air creatures treat <a href="../skills/fly.html#_fly" >Fly</a> as a class skill.</p>
+
+<p id="angel-subtype"><b>Angel Subtype</b>: Angels are a race of celestials, or good outsiders, native to the good-aligned outer planes. An angel possesses the following traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>Darkvision 60 feet and low-light vision.</li>
+<li>Immunity to acid, cold, and petrification.</li>
+<li>Resistance to electricity 10 and fire 10.</li>
+<li>+4 racial bonus on saves against poison.</li>
+<li><i>Protective Aura (Su)</i> Against attacks made or effects created by evil creatures, this ability provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws to anyone within 20 feet of the angel. Otherwise, it functions as a <i><a href="../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil" >magic circle against evil</a></i> effect and a <i><a href="../spells/globeOfInvulnerability.html#_globe-of-invulnerability-lesser" >lesser globe of invulnerability</a></i>, both with a radius of 20 feet (caster level equals angel's HD). The defensive benefits from the circle are not included in an angel's statistics block.</li>
+<li><i>Truespeech (Su)</i> All angels can speak with any creature that has a language, as though using a <i><a href="../spells/tongues.html#_tongues" >tongues</a></i> spell (caster level equal to angel's Hit Dice). This ability is always active.</li></ul>
+
+<p id="aquatic-subtype"><b>Aquatic Subtype</b>: These creatures always have swim speeds and can move in water without making <a href="../skills/swim.html#_swim" >Swim</a> checks. An aquatic creature can breathe water. It cannot breathe air unless it has the <a href="universalMonsterRules.html#_amphibious" >amphibious</a> special quality. Aquatic creatures always treat <a href="../skills/swim.html#_swim" >Swim</a> as a class skill.</p>
+
+<p id="archon-subtype"><b>Archon Subtype</b>: Archons are a race of celestials, or good outsiders, native to lawful good-aligned outer planes. An archon possesses the following traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>Darkvision 60 feet and low-light vision.</li>
+<li><i>Aura of Menace (Su)</i> A righteous aura surrounds archons that fight or get angry. Any hostile creature within a 20-foot radius of an archon must succeed on a Will save to resist its effects. The save DC varies with the type of archon, is Charisma-based, and includes a +2 racial bonus. Those who fail take a &ndash;2 penalty on attacks, AC, and saves for 24 hours or until they successfully hit the archon that generated the aura. A creature that has resisted or broken the effect cannot be affected again by the same archon's aura for 24 hours.</li>
+<li>Immunity to electricity and petrification.</li>
+<li>+4 racial bonus on saves against poison.</li>
+<li><i>Teleport (Sp) </i>Archons can use <i><a href="../spells/teleport.html#_teleport-greater" >greater teleport</a></i> at will, as the spell (caster level 14th), except that the creature can transport only itself and up to 50 pounds of carried objects.</li>
+<li><i>Truespeech (Su)</i> All archons can speak with any creature that has a language, as though using a <i><a href="../spells/tongues.html#_tongues" >tongues</a> </i>spell (caster level 14th). This ability is always active.</li></ul>
+
+<p id="asura-subtype"><b>Asura Subtype</b>: An asura has the following traits, unless otherwise noted in the creature's entry.</p>
+<ul><li>Immunity to curses, disease, and poison.</li>
+<li>Resistance to acid 10 and electricity 10.</li>
+<li>+2 racial bonus on saving throws against enchantment spells.</li>
+<li>Telepathy.</li>
+<li>Elusive Aura (Su)</i> Asuras exist within reality but apart from it. All but the least of asuras exude an aura that affects all creatures within the area as if by a <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i> spell. The size of the aura is proportional to the asura's power. The caster level check to attempt divination on creatures within the aura is 15 + the spell-like ability caster level of the asura creating the aura. </li>
+<li><i>Regeneration (Ex)</i> The divine spark at the core of their being allows asuras to regenerate at varying rates. Good weapons and spells can kill an asura.</li>
+<li><i>Spell <a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >Resistance</a> (Ex)</i> Most asuras are resistant to magic and have an SR equal to 11 + their CR. Only the weakest asuras lack this ability.</li>
+<li><i>Summon (Sp)</i> Asuras share the ability to summon others of their kind, typically another of their type or a small number of weaker asuras.</li>
+<li>An asura's natural weapons, as well as any weapons it wields, are treated as lawful and evil for the purpose of overcoming damage reduction.</li>
+<li>+6 racial bonus on <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> checks and a +4 racial bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks.</li></ul>
+
+<p id="augmented-subtype"><b>Augmented Subtype</b>: A creature receives this subtype when something (usually a template) changes its original type. Some creatures (those with an inherited template) are born with this subtype; others acquire it when they take on an acquired template. The augmented subtype is always paired with the creature's original type.</p>
+
+<p id="azata-subtype"><b>Azata Subtype</b>: Azatas are a race of celestials, or good outsiders, native to chaotic good-aligned outer planes. An azata possesses the following traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>Darkvision 60 feet and low-light vision.</li>
+<li>Immunity to electricity and petrification.</li>
+<li>Resistance to cold 10 and fire 10.</li>
+<li><i>Truespeech (Su)</i> All azatas can speak with any creature that has a language, as though using a <i><a href="../spells/tongues.html#_tongues" >tongues</a> </i>spell (caster level 14th). This ability is always active.</li></ul>
+
+<p id="behemoth-subtype"><b>Behemoth Subtype</b>: A behemoth is a neutral Colossal magical beast of great strength and power. Behemoths possess the following traits unless otherwise noted.</p>
+<ul><li>Blindsense 60 feet.</li>
+<li>Immunity to ability damage, aging, bleed, disease, energy drain, fire, mind-affecting effects, negative levels, paralysis, permanent wounds, petrification, poison, and polymorph. Some behemoths possess additional immunities.</li>
+<li><i>Regeneration (Ex)</i> No form of attack can suppress a behemoth's regeneration&mdash;it regenerates even if disintegrated or slain by a death effect. If a behemoth fails a save against an effect that would kill it instantly, it rises from death 3 rounds later with 1 hit point if no further damage is dealt to its remains. It can be banished or otherwise transported away as a means to save a region, but the only way to truly kill a behemoth is to use <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i> or <i><a href="/pathfinderRPG/prd/spells/wish.html#_wish" >wish</a></i> to negate its regeneration (see below).</li>
+<li>DR 15/epic.</li>
+<li>SR equal to 11 + the behemoth's CR.</li>
+<li>Behemoths understand Aklo, but cannot speak.</li>
+<li>Behemoths eat, but do not breathe or sleep.</li>
+<li>Ruinous (Su)</i> A behemoth's natural attacks penetrate damage reduction as if they were epic and magic, and ignore up to 20 points of hardness on objects struck. As a swift action, whenever it strikes a creature or object with a spell effect in place, it can attempt to dispel one randomly determined spell effect on that creature as if with a <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i> (CL 20th).</li>
+<li><i>Unstoppable (Ex)</i> If a behemoth starts its turn suffering from any or all of the following conditions, it recovers from them at the end of its turn: blind, confused, dazed, deafened, dazzled, exhausted, fatigued, nauseated, sickened, slowed, staggered, and stunned.</li>
+<li>Vulnerable to Miracles and Wishes (Su)</i> A spell effect created by a <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i> or <i><a href="/pathfinderRPG/prd/spells/wish.html#_wish" >wish</a></i> spell is particularly effective against a behemoth. A spellcaster gains a +6 bonus on its caster level check to penetrate a behemoth's SR with a <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i> or <i><a href="/pathfinderRPG/prd/spells/wish.html#_wish" >wish</a></i> spell, and the behemoth suffers a &ndash;6 penalty on saves against these spells. A <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i> or a <i><a href="/pathfinderRPG/prd/spells/wish.html#_wish" >wish</a></i> spell can negate a behemoth's regeneration, but only for 1d4 rounds per casting.</li></ul>
+
+<p id="catfolk-subtype"><b>Catfolk Subtype</b>: This subtype is applied to the humanoid felines called catfolk and creatures related to catfolk. </p>
+
+<p id="chaotic-subtype"><b>Chaotic Subtype</b>: This subtype is usually applied to outsiders native to the chaotically aligned outer planes. Most creatures that have this subtype also have chaotic alignments; however, if their alignments change they still retain the subtype. Any effect that depends on alignment affects a creature with this subtype as if the creature had a chaotic alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the chaotic subtype overcomes damage reduction as if its natural weapons and any weapons it wields are chaotically aligned (see Damage Reduction, page 299).</p>
+
+<p id="clockwork-subtype"><b>Clockwork Subtype</b>: Clockworks are constructs created through a fusion of magic and technology. They have the following traits unless otherwise noted. </p>
+<ul><li><i>Winding (Ex)</i> Clockwork constructs must be wound with special keys in order to function. As a general rule, a fully wound clockwork can remain active for 1 day per Hit Die, but shorter or longer durations are possible.</li>
+<li><i>Vulnerable to Electricity</i>: Clockwork constructs take 150% as much damage as normal from electricity attacks.</li>
+<li><i>Swift Reactions (Ex)</i> Clockwork constructs generally react much more swiftly than other constructs. They gain <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a> and <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a> as bonus feats, and gain a +2 dodge bonus to AC.</li>
+<li><i>Difficult to Create (Ex)</i> The time and gp cost required to create a clockwork is 150% of normal. Construction requirements in individual clockwork monster entries are already increased.</li></ul>
+
+<p id="cold-subtype"><b>Cold Subtype</b>: A creature with the cold subtype has immunity to cold and vulnerability to fire.</p>
+
+<p id="daemon-subtype"><b>Daemon Subtype</b>: Daemons are neutral evil outsiders that eat souls and thrive on disaster and ruin. They have the following traits unless otherwise noted.</p>
+<ul><li>Immunity to acid, death effects, disease, and poison.</li>
+<li>Resistance to cold 10, electricity 10, and fire 10.</li>
+<li><i>Summon (Sp)</i> Daemons share the ability to summon others of their kind, typically another of their type or a small number of less powerful daemons.</li>
+<li>Telepathy.</li>
+<li>Except where otherwise noted, daemons speak Abyssal, Draconic, and Infernal.</li></ul>
+				
+<p id="dark-folk-subtype"><b>Dark Folk Subtype</b>: Dark folk are reclusive subterranean humanoids with an aversion to light.</p>
+
+<p id="demodand-subtype"><b>Demodand Subtype</b>: Demodands are chaotic evil outsiders who stalk the Abyss. Unless otherwise noted in a creature's entry, demodands possess the following traits.</p>
+<ul><li>Immunity to acid and poison.</li>
+<li>Resistance to fire 10 and cold 10.</li>
+<li><i>Summon (Sp)</i> Demodands share the ability to summon others of their kind, typically another of their type or a small number of less powerful demodands.</li>
+<li><i>Faith-Stealing Strike (Su)</i> When a demodand's natural attack or melee weapon damages a creature capable of casting divine spells, that creature must make a Will saving throw or be unable to cast any divine spells for 1 round. Once a creature makes this save, it is immune to further faith-stealing strikes from that particular demodand for 24 hours. The save DC is Charisma-based.</li>
+<li><i>Heretical Soul (Ex)</i> All demodands gain a +4 bonus on saving throws against divine spells. In addition, any attempts to scry on a demodand using divine magic automatically fail. The caster can see the scryed area normally, but the demodand simply does not appear. </li>
+<li>Except when otherwise noted, demodands speak Abyssal, Celestial, and Common.</li>
+<li>A demodand's natural weapons, as well as any weapons it wields, are treated as chaotic and evil for the purpose of resolving damage reduction.</li></ul>
+
+<p id="demon-subtype"><b>Demon Subtype</b>: Demons are chaotic evil outsiders that call the Abyss their home. Demons possess a particular suite of traits (unless otherwise noted in a creature's entry) as summarized here.</p>
+<ul><li>Immunity to electricity and poison.</li>
+<li>Resistance to acid 10, cold 10, and fire 10.</li>
+<li><i>Summon (Sp)</i> Demons share the ability to summon others of their kind, typically another of their type or a small number of less powerful demons. </li>
+<li>Telepathy.</li>
+<li>Except where otherwise noted, demons speak Abyssal, Celestial, and Draconic.</li>
+<li>A demon's natural weapons, as well as any weapon it wields, is treated as chaotic and evil for the purpose of resolving damage reduction</li></ul>
+
+<p id="devil-subtype"><b>Devil Subtype</b>: Devils are lawful evil outsiders that hail from the plane of Hell. Devils possess a particular suite of traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>Immunity to fire and poison.</li>
+<li>Resistance to acid 10 and cold 10.</li>
+<li><i>See in Darkness (Su)</i> Some devils can see perfectly in darkness of any kind, even that created by a <i><a href="../spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i> spell.</li>
+<li><i>Summon (Sp) </i>Devils share the ability to summon others of their kind, typically another of their type or a small number of less-powerful devils.</li>
+<li>Telepathy.</li>
+<li>Except when otherwise noted, devils speak Celestial, Draconic, and Infernal.</li>
+<li>A devil's natural weapons, as well as any weapons it wields, are treated as lawful and evil for the purpose of resolving damage reduction.</li></ul>
+
+<p id="div-subtype"><b>Div Subtype</b>: Divs are neutral evil outsiders that sow misfortune and ruin. They have the following traits unless otherwise noted.</p>
+<ul><li>Immunity to fire and poison.</li>
+<li>Resistance to acid 10 and electricity 10.</li>
+<li><i>See in <a href="/pathfinderRPG/prd/spells/darkness.html#_darkness" >Darkness</a> (Su)</i> Some divs can see perfectly in darkness of any kind, even that created by a <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i> spell.</li>
+<li><i>Summon (Sp)</i> Some divs share the ability to summon others of their kind. Each entry describes the success chance and type of divs summoned.</li>
+<li>Telepathy.</li>
+<li>Except where otherwise noted, divs speak Abyssal, Celestial, and Infernal.</li></ul>
+
+<p id="dwarf-subtype"><b>Dwarf Subtype</b>: This subtype is applied to dwarves and creatures related to dwarves. Creatures with the dwarf subtype have darkvision 60 feet.</p>
+
+<p id="earth-subtype"><b>Earth Subtype</b>: This subtype is usually used for outsiders with a connection to the Elemental Plane of Earth. Earth creatures usually have burrow speeds, and most earth creatures can burrow through solid rock. Earth creatures with a burrow speed possess tremorsense.</p>
+
+<p id="elemental-subtype"><b>Elemental Subtype</b>: An elemental is a being composed entirely from one of the four classical elements: air, earth, fire, or water. An elemental has the following features.</p>
+<ul><li>Immunity to bleed, paralysis, poison, sleep effects, and stunning.</li>
+<li>Not subject to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.</li>
+<li>Proficient with natural weapons only, unless generally humanoid in form, in which case proficient with all simple weapons and any weapons mentioned in its entry.</li>
+<li>Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Elementals not indicated as wearing armor are not proficient with armor. Elementals are proficient with shields if they are proficient with any form of armor.</li>
+<li>Elementals do not breathe, eat, or sleep.</li></ul>
+
+<p id="elf-subtype"><b>Elf Subtype</b>: This subtype is applied to elves and creatures related to elves. Creatures with the elf subtype have low-light vision.</p>
+
+<p id="evil-subtype"><b>Evil Subtype</b>: This subtype is usually applied to outsiders native to the evil-aligned outer planes. Evil outsiders are also called fiends. Most creatures that have this subtype also have evil alignments; however, if their alignments change, they still retain the subtype. Any effect that depends on alignment affects a creature with this subtype as if the creature has an evil alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the evil subtype overcomes damage reduction as if its natural weapons and any weapons it wields are evil-aligned (see Damage Reduction, page 299).</p>
+
+<p id="extraplanar-subtype"><b>Extraplanar Subtype</b>: This subtype is applied to any creature when it is on a plane other than its native plane. A creature that travels the planes can gain or lose this subtype as it goes from plane to plane. Monster entries assume that encounters with creatures take place on the Material Plane, and every creature whose native plane is not the Material Plane has the extraplanar subtype (but would not have it when on its home plane). Every extraplanar creature in this book has a home plane mentioned in its description. Creatures not labeled as extraplanar are natives of the Material Plane, and they gain the extraplanar subtype if they leave the Material Plane. No creature has the extraplanar subtype when it is on a transitive plane, such as the Astral Plane, the Ethereal Plane, or the Plane of Shadow.</p>
+
+<p id="fire-subtype"><b>Fire Subtype</b>: A creature with the fire subtype has immunity to fire and vulnerability to cold.</p>
+
+<p id="giant-subtype"><b>Giant Subtype</b>: A giant is a <a href="#humanoid" >humanoid</a> creature of great strength, usually of at least Large size. Giants have a number of racial Hit Dice and never substitute such Hit Dice for class levels like some humanoids. Giants have low-light vision, and treat <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> and <a href="../skills/perception.html#_perception" >Perception</a> as class skills.</p>
+
+<p id="gnome-subtype"><b>Gnome Subtype</b>: This subtype is applied to gnomes and creatures related to gnomes. Creatures with the gnome subtype have low-light vision.</p>
+
+<p id="goblinoid-subtype"><b>Goblinoid Subtype</b>: Goblinoids are stealthy humanoids who live by hunting and raiding and who all speak Goblin. Goblinoids treat <a href="../skills/stealth.html#_stealth" >Stealth</a> as a class skill.</p>
+
+<p id="good-subtype"><b>Good Subtype</b>: This subtype is usually applied to outsiders native to the good-aligned outer planes. Most creatures that have this subtype also have good alignments; however, if their alignments change, they still retain the subtype. Any effect that depends on alignment affects a creature with this subtype as if the creature has a good alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the good subtype overcomes damage reduction as if its natural weapons and any weapons it wields are good-aligned (see Damage Reduction, page 299).</p>
+
+<p id="halfling-subtype"><b>Halfling Subtype</b>: This subtype is applied to halflings and creatures related to halflings.</p>
+
+<p id="human-subtype"><b>Human Subtype</b>: This subtype is applied to humans and creatures related to humans.</p>
+
+<p id="incorporeal-subtype"><b>Incorporeal Subtype</b>: An incorporeal creature has no physical body. An incorporeal creature is immune to critical hits and precision-based damage (such as sneak attack damage) unless the attacks are made using a weapon with the <i><a href="../magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a></i> special weapon quality. In addition, creatures with the incorporeal subtype gain the incorporeal special quality.</p>
+
+<p id="inevitable-subtype"><b>Inevitable Subtype</b>: Inevitables are construct-like outsiders built by the axiomites to enforce law. They have the following traits.</p>
+<ul><li>Low-light vision.</li>
+<li><i>Constructed (Ex)</i> Although inevitables are living outsiders, their bodies are constructed of physical components, and in many ways they function as constructs. For the purposes of effects targeting creatures by type (such as a ranger's favored enemy and <i><a href="../magicItems/weapons.html#_weapons-bane" >bane</a></i> weapons), inevitables count as both outsiders and constructs. They are immune to death effects, disease, mind-affecting effects, necromancy effects, paralysis, poison, sleep, stun, and any effect that requires a Fortitude save (unless the effect also works on objects, or is harmless). Inevitables are not subject to nonlethal damage, ability damage, ability drain, fatigue, exhaustion, or energy drain. They are not at risk of death from massive damage. They have bonus hit points as constructs of their size.</li>
+<li><i>Saves</i>: An inevitable's good saving throws are Fortitude and Will.</li>
+<li><i>Skills</i>: In addition to the class skills all outsiders have, inevitables have <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a>, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a>, and <a href="../skills/survival.html#_survival" >Survival</a> as class skills.</li>
+<li><i>Regeneration (Ex)</i> Inevitables have regeneration/chaotic. The regeneration amount varies by the type of inevitable.</li>
+<li><i>Truespeech (Su)</i> An inevitable can speak with any creature that has a language, as if using a <i><a href="../spells/tongues.html#_tongues" >tongues</a></i> spell (caster level 14th). This ability is always active.</li></ul>
+
+<p id="kami-subtype"><b>Kami Subtype</b>: Kami are a race of native outsiders who serve to protect what they refer to as “wards”&mdash;animals, plants, objects, and even locations&mdash;from being harmed or dishonored. All kami are outsiders with the native subtype. A kami possesses the following traits unless otherwise noted in a creature's entry.</p>
+<ul><li>Immune to bleed, mind-affecting effects, petrification, and polymorph effects.</li>
+<li>Resist acid 10, electricity 10, fire 10</li>
+<li>Although they are native outsiders, kami do not eat, drink, or breathe.</li>
+<li>Telepathy.</li>
+<li><i>Fast Healing (Ex)</i> As long as a kami is within 120 feet of its ward, it gains fast healing. The amount of fast healing it gains depends on the type of kami.</li>
+<li><i>Merge with Ward (Su)</i> As a standard action, a kami can merge its body and mind with its ward. When merged, the kami can observe the surrounding region with its senses as if it were using its own body, as well as via any senses its ward might have. It has no control over its ward, nor can it communicate or otherwise take any action other than to emerge from its ward as a standard action. A kami must be adjacent to its ward to merge with or emerge from it. If its ward is a creature, plant, or object, the kami can emerge mounted on the creature provided the kami's body is at least one size category smaller than the creature. If its ward is a location, the kami may emerge at any point within that location.</li>
+<li><i>Ward (Su)</i> A kami has a specific ward&mdash;a creature with a 2 or lower Intelligence (usually an animal or vermin), a plant (not a plant creature), an object, or a location. The type of ward is listed in parentheses in the kami's stat block. Several of a kami's abilities function only when it is either merged with its ward or within 120 feet of it. If a kami's ward is portable and travels with the kami to another plane, the kami does not gain the extraplanar subtype on that other plane as long as its ward remains within 120 feet. If a ward is destroyed while a kami is merged with it, the kami dies (no save). If a ward is destroyed while a kami is not merged with it, the kami loses its merge with ward ability and its fast healing, and becomes permanently sickened.</li></ul>
+
+<p id="kyton-subtype"><b>Kyton Subtype</b>: Kytons are a race of lawful evil outsiders native to the Plane of Shadow who feed on fear and pain. Kytons possess the following traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>Darkvision 60 feet.</li>
+<li><i>Regeneration (Ex)</i> The extent of a kyton's regeneration varies according to type, and can be neutralized by good weapons, good spells, and silver weapons.</p>
+<li>Immunity to cold.</li>
+<li><i>Unnerving Gaze (Su)</i> All kytons have a gaze attack that manipulates the perceptions of those who look upon them. An unnerving gaze has a range of 30 feet, and can be negated by a Will save&mdash;the exact effects caused by a particular kyton's unnerving gaze depend on the type of kyton. All kytons are immune to the unnerving gazes of other kytons. Unnerving gaze is always a mind-affecting fear effect. The save DC is Charisma-based.</li></ul>
+
+<p id="lawful-subtype"><b>Lawful Subtype</b>: This subtype is usually applied to outsiders native to the lawfully aligned outer planes. Most creatures that have this subtype also have lawful alignments; however, if their alignments change, they still retain the subtype. Any effect that depends on alignment affects a creature with this subtype as if the creature had a lawful alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the lawful subtype overcomes damage reduction as if its natural weapons and any weapons it wields are lawfully aligned (see Damage Reduction, page 299).</p>
+
+<p id="leshy-subtype"><b>Leshy Subtype</b>: A leshy is a nature spirit that inhabits the body of a specially grown plant. Regardless of their kind, all leshys share the following traits in addition to those granted by the plant type (unless otherwise noted in a creature's entry).</p>
+<ul><li>Darkvision 60 feet and low-light vision.</li>
+<li>Immunity to electricity and sonic.</li>
+<li><i>Spell-Like Abilities</i>: All leshys have <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i> as a constant spell-like ability (CL equal to twice the leshy's HD).</li>
+<li><i>Change Shape (Su)</i> All leshys can transform into plants, with results similar to the <i><a href="/pathfinderRPG/prd/spells/treeShape.html#_tree-shape" >tree shape</a></i> spell. Unlike that spell, this ability only allows transformation into Small plants of the same type of growth the leshy is related to. In this form, the leshy appears as a particularly healthy specimen of that particular plant. A leshy can assume plant form or revert to its true form as a swift action.</li>
+<li><i>Plantspeech (Ex)</i> All leshys can speak with plants as if subject to a continual <i><a href="/pathfinderRPG/prd/spells/speakWithPlants.html#_speak-with-plants" >speak with plants</a></i> spell, but only with species they are related to.</li>
+<li><i>Verdant Burst (Su)</i> When slain, a leshy explodes in a burst of fertile energies. All plant creatures within 30 feet of a slain leshy heal 1d8 points of damage plus 1 point per HD of the slain leshy, and plant life of the same type as the leshy itself quickly infests the area. If the terrain can support this type of plant, the undergrowth is dense enough to make the region into difficult terrain for 24 hours, after which the plant life diminishes to a normal level; otherwise, the plant life has no significant effect on movement and withers and dies within an hour.</li>
+<li>Except where otherwise noted, all leshys speak Druidic and Sylvan.</li></ul>
+
+<p id="native-subtype"><b>Native Subtype</b>: This subtype is applied only to outsiders. These creatures have mortal ancestors or a strong connection to the Material Plane and can be raised, reincarnated, or resurrected just as other living creatures can be. Creatures with this subtype are native to the Material Plane. Unlike true outsiders, native outsiders need to eat and sleep. </p>
+
+<p id="nightshade-subtype"><b>Nightshade Subtype</b>: Nightshades are monstrous undead composed of shadow and evil. They have the following traits.</p>
+<ul><li>Low-light vision.</li>
+<li><i>Desecrating Aura (Su)</i> All nightshades have a 30-foot- radius emanation equivalent to a <i><a href="../spells/desecrate.html#_desecrate" >desecrate</a></i> spell centered on a shrine of evil power. Undead within this radius (including the nightshade) gain a +2 profane bonus on attack and damage rolls and saving throws, as well as +2 hit points per die, and the save DC of channeled negative energy is increased by +6 (these adjustments are included for the nightshades in their entries). This aura can be negated by <i><a href="../spells/dispelEvil.html#_dispel-evil" >dispel evil</a></i>, but a nightshade can reactivate it on its turn as a free action. A desecrating aura suppresses and is suppressed by <i><a href="../spells/consecrate.html#_consecrate" >consecrate</a></i> or <i><a href="../spells/hallow.html#_hallow" >hallow</a></i>; both effects are negated within any overlapping area of effect.</li>
+<li><i>Channel Energy (Su)</i> A nightshade can channel negative energy as cleric of a level equal to its base CR. It can use this ability a number of times per day equal to 3 + its Charisma modifier.</li>
+<li><i>Darksense (Ex)</i> Nightshades gain <i><a href="../spells/trueSeeing.html#_true-seeing" >true seeing</a></i> in dim light and darkness. Regardless of light conditions, they can detect living creatures and their health within 60 feet, as blindsense with <i><a href="../spells/deathwatch.html#_deathwatch" >deathwatch</a></i> continuously active. <i><a href="../spells/mindBlank.html#_mind-blank" >Mind blank</a></i> and <i><a href="../spells/nondetection.html#_nondetection" >nondetection</a></i> prevent the latter effect but not the nightshade's <i><a href="../spells/trueSeeing.html#_true-seeing" >true seeing</a></i>.</li>
+<li><i><a href="../spells/light.html#_light" >Light</a> Aversion (Ex)</i> A nightshade in bright light becomes sickened&mdash;the penalties from this condition are doubled when the nightshade is in natural sunlight.</li>
+<li><i>Summon (Sp)</i> Nightshades can summon undead creatures. They can be summoned only within areas of darkness, and summoned undead cannot create spawn. The exact type and number of undead they can summon vary according to the nightshade in question, as detailed in each nightshade's entry.</li></ul>
+
+<p id="oni-subtype"><b>Oni Subtype</b>: An oni is an evil spirit who takes humanoid form to become a native outsider. All oni have the following traits, unless otherwise noted in a specific creature's entry.</p>
+<ul><li>Darkvision 60 feet and low-light vision.</li>
+<li><i>Change Shape (Su)</i> All oni are shapechangers with the shapechanger subtype, but an oni takes only other shapes similar to its normal humanoid form.</li>
+<li><i>Humanoid Shape</i>: As evil spirits clad in humanoid flesh, all oni possess a humanoid subtype.</li>
+<li><i>Regeneration (Ex)</i> The rate of regeneration and damage type that suspends it depends on the type of oni, but is typically acid or fire.</li></ul>
+
+<p id="orc-subtype"><b>Orc Subtype</b>: This subtype is applied to orcs and creatures related to orcs, such as half-orcs. Creatures with the orc subtype have darkvision 60 feet and light sensitivity (half-orcs do not have light sensitivity).</p>
+
+<p id="protean-subtype"><b>Protean Subtype</b>: Proteans are serpentine outsiders of pure chaos. They have the following traits.</p>
+<ul><li>Blindsense (distance varies by protean type).</li>
+<li>Immunity to acid.</li>
+<li>Resistance to electricity 10 and sonic 10.</li>
+<li>Constrict and grab as special attacks.</li>
+<li>Supernatural flight.</li>
+<li><i><a href="../spells/freedom.html#_freedom" >Freedom</a> of Movement (Su)</i> A protean has continuous <i><a href="../spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, as per the spell.</li>
+<li><i>Amorphous Anatomy (Ex)</i> A protean's vital organs shift and change shape and position constantly. This grants it a 50% chance to ignore additional damage caused by critical hits and sneak attacks, and grants it immunity to polymorph effects (unless the protean is a willing target). A protean automatically recovers from physical blindness or deafness after 1 round by growing new sensory organs to replace those that were compromised.</li>
+<li><i>Change Shape (Su)</i> A protean's form is not fixed. Once per day as a standard action, a protean may change shape into any Small, Medium, or Large animal, elemental, giant, humanoid, magical beast, monstrous humanoid, ooze, plant, or vermin. A protean can resume its true form as a free action, and when it does so, it gains the effects of a <i><a href="../spells/heal.html#_heal" >heal</a></i> spell (CL equal to the protean's HD).</li></ul>
+
+<p id="qlippoth-subtype"><b>Qlippoth Subtype</b>: Qlippoth are chaotic evil outsiders from the deepest reaches of the Abyss. They have the  following traits.</p>
+<ul><li>Immunity to cold, mind-affecting effects, and poison.</li>
+<li>Resistance to acid 10, electricity 10, and fire 10.</li>
+<li><i>Horrific Appearance (Su)</i> All qlippoth have such horrific and mind-rending shapes that those who gaze upon them suffer all manner of ill effects. A qlippoth can present itself as a standard action to assault the senses of all living creatures within 30 feet. The exact effects caused by a qlippoth's horrific appearance vary by the type of qlippoth. A successful Will save (DC 10 + 1/2 the qlippoth's Hit Dice + the qlippoth's Charisma modifier) reduces or negates the effect. This ability is a mind-affecting gaze attack.</li>
+<li>Telepathy.</li>
+<li>Except where otherwise noted, qlippoth speak Abyssal.</li></ul>
+
+<p id="rakshasa-subtype"><b>Rakshasa Subtype</b>: A rakshasa is a lawful evil spirit born into the Material Plane. A shapechanger that can walk with ease among humanoids, a rakshasa's true form has animalistic features and strangely jointed limbs. All rakshasas are native to the Material Plane, and have the following traits unless otherwise noted in a creature's entry.</p>
+<ul><li>Darkvision 60 feet.</li>
+<li><i>Change Shape (Su) </i>All rakshasas have the ability to change shape into any humanoid, as if using <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i>.</li>
+<li><i>Detect Thoughts (Su) </i>A rakshasa can detect thoughts as per the spell of the same name. This effect functions at CL 18th. A rakshasa can suppress or resume this ability as a free action. When a rakshasa uses this ability, it always functions as if it had spent 3 rounds concentrating and thus gains the maximum amount of information possible. The Will save DC to resist this effect is equal to 10 + 1/2 the rakshasa's HD + the rakshasa's Charisma modifier.</li>
+<li><i>Enhanced Defenses (Ex)</i> All rakshasas have DR that can be penetrated by good and piercing weapons only. The amount of damage reduction varies according to the specific rakshasa. In addition, rakshasas are exceptionally resistant to magic, and possess SR equal to their CR + 15.</li>
+<li><i>Master of Deception (Ex)</i> All rakshasas gain a +4 racial bonus on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> checks and a +8 racial bonus on <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> checks.</li>
+<li><i>Spellcasting:</i> All but the least of rakshasas have some level of spellcasting ability, and can cast spells as sorcerers. The rakshasa's effective caster level as a sorcerer depends on its type, but is generally equal to its CR &ndash; 3.</li></ul>
+
+<p id="ratfolk-subtype"><b>Ratfolk Subtype</b>: This subtype is applied to the humanoid rodents called ratfolk and creatures related to ratfolk. </p>
+
+<p id="reptilian-subtype"><b>Reptilian Subtype</b>: These creatures are scaly and usually cold-blooded. The reptilian subtype is only used to describe a set of <a href="#humanoid" >humanoid</a> races, not all animals and monsters that are true reptiles.</p>
+
+<p id="sasquatch-subtype"><b>Sasquatch Subtype</b>: This subtype is applied to the humanoid beings called sasquatches and creatures related to sasquatches. </p>
+
+<p id="shapechanger-subtype"><b>Shapechanger Subtype</b>: A shapechanger has the supernatural ability to assume one or more alternate forms. Many magical effects allow some kind of shapeshifting, and not every creature that can change shapes has the shapechanger subtype. A shapechanger possesses the following traits (unless otherwise noted in a creature's entry).</p>
+<ul><li>Proficient with its natural weapons, with simple weapons, and with any weapons mentioned in the creature's description.</li>
+<li>Proficient with any armor mentioned in the creature's description, as well as all lighter forms. If no form of armor is mentioned, the shapechanger is not proficient with armor. A shapechanger is proficient with shields if it is proficient with any type of armor.</li></ul>
+
+<p id="swarm-subtype"><b>Swarm Subtype</b>: A swarm is a collection of Fine, Diminutive, or Tiny creatures that acts as a single creature. A swarm has the characteristics of its type, except as noted here. A swarm has a single pool of Hit Dice and hit points, a single initiative modifier, a single speed, and a single Armor Class. A swarm makes saving throws as a single creature. A single swarm occupies a square (if it is made up of nonflying creatures) or a cube (of flying creatures) 10 feet on a side, but its reach is 0 feet, like its component creatures. In order to attack, it moves into an opponent's space, which provokes an attack of opportunity. It can occupy the same space as a creature of any size, since it crawls all over its prey. A swarm can move through squares occupied by enemies and vice versa without impediment, although the swarm provokes an attack of opportunity if it does so. A swarm can move through cracks or holes large enough for its component creatures.</p>
+<p>A swarm of Tiny creatures consists of 300 nonflying creatures or 1,000 flying creatures. A swarm of Diminutive creatures consists of 1,500 nonflying creatures or 5,000 flying creatures. A swarm of Fine creatures consists of 10,000 creatures, whether they are flying or not. Swarms of nonflying creatures include many more creatures than could normally fit in a 10-foot square based on their normal space, because creatures in a swarm are packed tightly together and generally crawl over each other and their prey when moving or attacking. Larger swarms are represented by multiples of single swarms. The area occupied by a large swarm is completely shapeable, though the swarm usually remains in contiguous squares.</p>
+<p><i>Swarm Traits</i>: A swarm has no clear front or back and no discernable anatomy, so it is not subject to critical hits or flanking. A swarm made up of Tiny creatures takes half damage from slashing and piercing weapons. A swarm composed of Fine or Diminutive creatures is immune to all weapon damage. Reducing a swarm to 0 hit points or less causes it to break up, though damage taken until that point does not degrade its ability to attack or resist attack. Swarms are never staggered or reduced to a dying state by damage. Also, they cannot be tripped, grappled, or bull rushed, and they cannot grapple an opponent.</p>
+<p>A swarm is immune to any spell or effect that targets a specific number of creatures (including single-target spells such as <i><a href="../spells/disintegrate.html#_disintegrate" >disintegrate</a></i>), with the exception of mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms) if the swarm has an Intelligence score and a hive mind. A swarm takes half again as much damage (+50%) from spells or effects that affect an area, such as splash weapons and many evocation spells.</p>
+<p>Swarms made up of Diminutive or Fine creatures are susceptible to high winds, such as those created by a <i><a href="../spells/gustOfWind.html#_gust-of-wind" >gust of wind</a> </i>spell. For purposes of determining the effects of wind on a swarm, treat the swarm as a creature of the same size as its constituent creatures. A swarm rendered unconscious by means of nonlethal damage becomes disorganized and dispersed, and does not reform until its hit points exceed its nonlethal damage.</p>
+<p><i>Swarm Attack</i>: Creatures with the swarm subtype don't make standard melee attacks. Instead, they deal automatic damage to any creature whose space they occupy at the end of their move, with no attack roll needed. Swarm attacks are not subject to a miss chance for concealment or cover. A swarm's statistics block has “swarm” in the Melee entry, with no attack bonus given. The amount of damage a swarm deals is based on its Hit Dice, as shown below.</p><table>
+<thead><tr><th>Swarm HD</th><th>Swarm Base Damage</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1&ndash;5</td><td>1d6</td></tr>
+<tr class="even"><td>6&ndash;10</td><td>2d6</td></tr>
+<tr class="odd"><td>11&ndash;15</td><td>3d6</td></tr>
+<tr class="even"><td>16&ndash;20</td><td>4d6</td></tr>
+<tr class="odd"><td>21 or more</td><td>5d6</td></tr></tbody></table>
+
+<p>A swarm's attacks are nonmagical, unless the swarm's description states otherwise. Damage reduction sufficient to reduce a swarm attack's damage to 0, being incorporeal, or other special abilities usually give a creature immunity (or at least resistance) to damage from a swarm. Some swarms also have acid, blood drain, poison, or other special attacks in addition to normal damage.</p>
+<p>Swarms do not threaten creatures, and do not make attacks of opportunity with their swarm attack. However, they distract foes whose squares they occupy, as described below.</p>
+<p>Swarms possess the distraction universal monster rule. Spellcasting or concentrating on spells within the area of a swarm requires a caster level check (DC 20 + spell level). Using skills that involve patience and concentration requires a DC 20 Will save.</p>
+
+<p id="vanara-subtype"><b>Vanara Subtype</b>: This subtype is applied to vanaras and creatures related to vanaras.</p>
+
+<p id="vishkanya-subtype"><b>Vishkanya Subtype</b>: This subtype is applied to vishkanyas and creatures related to vishkanyas.</p>
+
+<p id="water-subtype"><b>Water Subtype:</b> This subtype is usually used for outsiders with a connection to the Elemental Plane of Water. Creatures with the water subtype always have swim speeds and can move in water without making <a href="../skills/swim.html#_swim" >Swim</a> checks. A water creature can breathe underwater and can usually breathe air as well. Water creatures treat the <a href="../skills/swim.html#_swim" >Swim</a> skill as a class skill.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

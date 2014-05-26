@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Drake</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Drake",globalNavPath=[{ href: '/pathfinderRPG/prd/bestiary3/monsterIndex.html', name: 'Bestiary 3 Index'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body"><div>
+				<h1 id="drake,-desert" class="monster-header">Drake, Desert</h1>
+				<p class="flavor-text">This sleek dragon has scales mottled in desert colors, lacks forelimbs, and sports massive wings on its lissome back.</p>
+				<p class="stat-block-title">Desert Drake <span class="stat-block-cr">CR 8</span></p>
+				<p class="stat-block-xp">XP 4,800</p>
+				<p class="stat-block-1">NE Large dragon (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft., low-light vision, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent" >scent</a>, tremorsense 30 ft.; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +12</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 21, touch 11, flat-footed 19 (+2 Dex, +10 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 103 (9d12+45)</p>
+				<p class="stat-block-1"><b>Fort</b> +11, <b>Ref</b> +8, <b>Will</b> +8</p>
+				<p class="stat-block-1"><b>Immune</b> paralysis, sleep; <b>Resist</b> electricity 20</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., burrow 20 ft., fly 60 ft. (average)</p>
+				<p class="stat-block-1"><b>Melee</b> bite +15 (2d6+9/19&ndash;20 plus 1d10 electricity), tail slap +9 (1d8+3 plus push)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> dazzling emergence, push (tail slap, 10 ft.), sandstorm breath, savage bite</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 15, <b>Con</b> 21, <b>Int</b> 8, <b>Wis</b> 11, <b>Cha</b> 12</p>
+				<p class="stat-block-1"><b>Base Atk</b> +9; <b>CMB</b> +16; <b>CMD</b> 28</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_dazzling-display">Dazzling Display</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (bite)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +12, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +13, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +12, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +10, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +12</p>
+				<p class="stat-block-1"><b>Languages</b> Draconic</p>
+				<p class="stat-block-1"><b>SQ</b> speed surge</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> warm deserts</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or rampage (3&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Dazzling Emergence (Ex)</b> During a surprise round, a desert drake can use Dazzling Display as a standard action.</p>
+				<p class="stat-block-1"><b>Sandstorm Breath (Su)</b> As a standard action, a desert drake can spit a ball of electrically charged sand that bursts into a cloud. This attack has a range of 60 feet and deals 3d6 points of damage plus 4d8 points of electricity damage in a 15-foot-radius spread (Reflex DC 19 for half). The cloud remains for 1d4 rounds, dealing no damage but otherwise acting as <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i>. Once a desert drake uses its breath, it cannot do so again for 1d6 rounds. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Savage Bite (Ex)</b> A desert drake applies 1-1/2 times its Strength modifier to damage dealt with its bite attack, and it threatens a critical hit on a 19&ndash;20.</p>
+				<p class="stat-block-1"><b>Speed Surge (Ex)</b> Three times per day as a swift action, a desert drake can draw on its draconic heritage for a boost of strength and speed that allows it to take an additional move action that round.</p>
+				
+				<p>Among the fiercest of their kind, desert drakes exhibit a lust for destruction as merciless as any desert storm. These fierce, ambush predators hunt by finding high perches among rocky outcroppings and surveying their surroundings. When likely prey wanders into sight, a desert drake dives into the sand and burrows toward its quarry or flies low with cover from dunes or other outcroppings. Drawing near the likely path of its victims, it bursts from the sand or dives from above to catch foes off guard, preferring to attack targets that exhibit the most fear first. Before enemies can recover from the initial onslaught, a desert drake exhales a cloud of electrified dust, using its superior senses to press the attack. Mated pairs of desert drakes hunt larger prey and groups of victims, and rampages of the beasts might gather near overland trade routes to devour whole caravans.</p>
+				<p>A typical desert drake measures 15 feet long from nose to tail tip, has a supple, wormlike build, and weighs about 2,500 pounds.</p>
+
+				<h1 id="drake,-rift" class="monster-header">Drake, Rift</h1>
+				<p class="flavor-text">Horns jut from this muscular dragon's beaked head, and spikes cover the dragon's hide even in places on its winged arms. </p>
+				<p class="stat-block-title">Rift Drake <span class="stat-block-cr">CR 9</span></p>
+				<p class="stat-block-xp">XP 6,400</p>
+				<p class="stat-block-1">CE Large dragon (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> darkvision 60 ft., low-light vision, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent" >scent</a>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +14</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 23, touch 12, flat-footed 20 <br/>(+3 Dex, +11 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 126 (11d12+55)</p>
+				<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +10, <b>Will</b> +8</p>
+				<p class="stat-block-1"><b>Immune</b> paralysis, sleep; <b>Resist</b> acid 30</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., climb 20 ft., fly 60 ft. (average)</p>
+				<p class="stat-block-1"><b>Melee</b> bite +18 (2d8+10/19&ndash;20 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed" >bleed</a>), tail slap +12 (1d10+3 plus trip)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed" >bleed</a> (1d6), clinging corrosion, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce" >pounce</a>, savage bite</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 25, <b>Dex</b> 17, <b>Con</b> 20, <b>Int</b> 8, <br/><b>Wis</b> 12, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +11; <b>CMB</b> +19; <b>CMD</b> 32</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_bleeding-critical">Bleeding Critical</a>, <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack" >Flyby Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (bite)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +15, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +14, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +12, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +14, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +11, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +12, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +13</p>
+				<p class="stat-block-1"><b>Languages</b> Draconic</p>
+				<p class="stat-block-1"><b>SQ</b> speed surge</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> warm hills or mountains</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or rampage (3&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Clinging Corrosion (Su)</b> As a standard action, a rift drake can spit a ball of caustic gas that bursts into a cloud upon impact. This attack has a range of 60 feet and deals 5d10 points of acid damage to all creatures within the resulting 15-foot-radius spread. Additionally, any creature damaged by this attack is affected as though by the spell <i><a href="/pathfinderRPG/prd/spells/slow.html#_slow" >slow</a></i> for 1d4 rounds. A successful DC 20 Reflex save halves the damage and negates the slowing effect. Once a rift drake uses its <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon" >breath weapon</a>, it cannot do so again for 1d6 rounds. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Savage Bite (Ex)</b> A rift drake applies 1-1/2 times its Strength bonus to damage dealt with its bite attack, and it threatens a critical hit on a 19&ndash;20.</p>
+				<p class="stat-block-1"><b>Speed Surge (Ex)</b> Three times per day as a swift action, a rift drake can draw on its draconic heritage for a boost of strength and speed that allows it to take an additional move action that round.</p>
+				
+				<p>Creatures of the badlands and regions scarred by the gods, rift drakes are as savage and brutal as the lands they hunt. Their strength and savagery often make them seem like mere deadly beasts, but rift drakes simply delight in battle more than most drakes, frequently clashing even with other members of their own kind. They rarely deign to talk with other creatures, often doing so only as a cruel game in which they make more and more outrageous demands until their victims realize the drakes are toying with them or the manipulative drakes grow bored.</p>
+				<p>A rift drake rarely stays on land for long, preferring to circle high above near ominous peaks or spires and roosting in the crevices of the same. When a rift drake spies prey from such heights, it breaks from its flight to dive onto victims, scattering groups and sowing terror with its sudden emergence. With particularly agile foes, a rift drake will use its breath to slow victims first, then pick them off one by one. Rift drakes enjoy the taste of blood, and focus their attacks on the fleshiest-looking creatures. </p>
+				<p>A rift drake is around 14 feet long, end to end. Its burly, spiky body weighs about 2,500 pounds.</p>
+
+				<h1 id="drake,-river" class="monster-header">Drake, River</h1>
+				<p class="flavor-text">With graceful wings and wide fins, this sleek dragon looks equally well equipped to glide through sea and sky.</p>
+				<p class="stat-block-title">River Drake <span class="stat-block-cr">CR 3</span></p>
+				<p class="stat-block-xp">XP 800</p>
+				<p class="stat-block-1">NE Medium dragon (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype" >aquatic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> darkvision 60 ft., low-light vision, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent" >scent</a>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +7</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 16, touch 13, flat-footed 13 (+3 Dex, +3 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 34 (4d12+8)</p>
+				<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +7, <b>Will</b> +4</p>
+				<p class="stat-block-1"><b>Immune</b> paralysis, sleep; <b>Resist</b> acid 20</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., fly 60 ft. (average), swim 30 ft. </p>
+				<p class="stat-block-1"><b>Melee</b> bite +7 (2d4+3), tail slap +2 (1d4+1)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> caustic mucus, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce" >pounce</a></p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 17, <b>Dex</b> 16, <b>Con</b> 15, <b>Int</b> 8, <b>Wis</b> 10, <b>Cha</b> 9</p>
+				<p class="stat-block-1"><b>Base Atk</b> +4; <b>CMB</b> +7; <b>CMD</b> 20</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +10, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +6, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +7, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +10, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +7, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +11</p>
+				<p class="stat-block-1"><b>Languages</b> Draconic</p>
+				<p class="stat-block-1"><b>SQ</b> amphibious, speed surge</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> temperate rivers or lakes</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or rampage (3&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Caustic Mucus (Su)</b> As a standard action, a river drake can spit a ball of caustic mucus that explodes in a 5-foot-radius spread. This attack has a range of 50 feet, deals 2d8 points of acid damage, and entangles creatures in the area. A DC 14 Reflex save halves the damage and negates the entangle effect. An entangled creature takes 1d4 points of acid damage each round on its turn, and may attempt a new saving throw at the end of its turn every round to escape the entanglement and end the acid damage. Once a river drake spits mucus, it cannot do so again for 1d6 rounds. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Speed Surge (Ex)</b> Three times per day as a swift action, a river drake can draw on its draconic heritage for a boost of strength and speed that allows it to take an additional move action that round.</p>
+				
+				<p>Preying upon fish and fishermen with equal ease, river drakes are scourges of freshwater expanses. They are thought to be related to black dragons, as evidenced by their acidic spit, water affinity, viciousness, and preference for rotten meat. </p>
+				<p>Like other drakes, river drakes are cruel hunters, using a play-and-prey hunting style. When not hungry, they amuse themselves by stalking and harassing other creatures and travelers. An offering of treasure thrown into the water can distract a river drake, but such a bribe is unlikely to stave off a particularly hungry individual. River drakes often slay more than they can immediately eat because they favor aged meat, keeping underwater larders stuffed with kills in various stages of decay.</p>
+				<p>A river drake is a crafty, careful hunter that uses its watery home to provide concealment from creatures on the shore. If caught unawares while on land, it retreats to the water, or takes to flight if its enemies are prepared for aquatic combat, making constant use of its caustic mucus and great speed.</p>
+				<p>River drakes are much more likely to hunt in groups than most other drakes, threatening river traffic or assaulting lakefront or riverside towns if their numbers are large enough. However, these disorganized raids are quick to retreat from any hint of significant resistance.  </p>
+				<p>River drakes are 8 feet long and look much like small sea drakes. An adult river drake weighs about 700 pounds.</p>
+			</div>
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,859 @@
+/** BODY **/
+body { padding: 0 0 0 0;
+	background: url('/pathfinderRPG/prd/image/pageBackground.jpg');
+	background-repeat: repeat;
+	margin: 0;
+	border-width: 0px;
+    position: relative; }
+
+#body-scroller { margin: 0;
+	padding: 0;
+	width: 100%; }
+
+#body-wrapper { margin: 0;
+	padding: 0; }
+
+#body { position: relative;
+    padding-right: 30px;
+	padding-left: 255px;
+	display: block;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: .75em;
+    margin: 0;
+    z-index: 1;
+}
+#body.jsenabled {
+    padding-top: 105px;
+}
+
+#footer { position: relative;
+    padding-right: 30px;
+	padding-left: 255px;
+	display: block;
+	font-family: Helvetica, Verdana, Geneva, sans-serif;
+	font-size: .75em;
+    margin: 0;
+    z-index: 1;
+}
+
+/** HEADER **/
+#topNav { display: none; }
+
+#header { position: relative;
+	z-index: 5;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 90px;
+	padding: 0px 10px 0 0;
+	margin: 0;
+	clear: both;
+	background-image: url('/pathfinderRPG/prd/image/headerBackground.png');
+	background-repeat: repeat-x; }
+#header.jsenabled {
+    position: fixed;
+}
+
+#headerBackdrop { width: 0;
+	height: 0;
+	float: left; }
+
+#paizoLogo { float: left;
+	padding-top: 8px;
+	padding-left: 25px;
+	border: 0px; }
+
+#rpgLogo{ padding-top: 8px;
+	padding-left: 20px;
+	float: left;
+	border: 0px; }
+
+#prdLogo{ padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 40px;
+	z-index: 3;
+	float: left;
+	border: 0px; }
+
+#search { position: absolute;
+	top: 20px;
+	right: 80px;
+	text-align: right;
+	font-family: Helvetica, Verdana, Geneva, sans-serif;
+	font-size: .7em; }
+	
+#searchBox {
+    vertical-align: bottom;
+	z-index: 99;
+}
+
+#navPath { position: absolute;
+	top: 45px;
+	right: 80px;
+	width: 100%;
+	text-align: right;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 12px;
+	color: #ede2d0;
+	z-index: 4; }
+	
+#navPath a { color: #ede2d0; }
+
+#flourishTop { position: absolute;
+	top: -10px;
+	right: 0; }
+
+#flourishRight { position: absolute;
+	top: 76px;
+	right: 0; }
+
+
+/** SIDE NAV **/
+
+#sideNav { background-image: url('/pathfinderRPG/prd/image/sidenav.png');
+    position: relative;
+	top: 0px;
+	float: left;
+	margin-top: -20px;
+	padding: 20px 15px 30px 15px;
+	width: 225px;
+	height: 100%;
+	font-size: .7em;
+	font-family: Verdana, Geneva, sans-serif;
+	z-index: 4; }
+	
+#sideNav.jsenabled {
+    position: fixed;
+    margin: 0;
+    padding-top: 95px;
+}
+	
+#sideNav > img {top: -22px;
+	margin-bottom: -3px;}
+	
+#sidenavtext { font-size: .9em;
+	text-align: center;
+	width: 190px; }
+
+.sideContainer { position: relative;
+	left: 0;
+	border: 0;
+	background-image: url('/pathfinderRPG/prd/image/menubg.png');
+	background-repeat: repeat-y;
+	margin: 0;
+	padding-top: .5em;
+	padding-bottom: 0px;
+	padding-right: .7em; }
+
+.sideContainer ul { margin: 0px;
+	padding: 0; }
+	
+.affordance { border: 0px; }
+
+.menubottom { position: relative;
+	top: -20px;
+	z-index: -1; }
+
+/** TEXT AND LINKS **/
+p.body { line-height: 1.2em;
+	text-align: left; }
+
+h1 { font-size: 2.1em;
+	margin-bottom: 0.2em;
+	margin-top: 1.00em;
+	text-indent: 0.00em;
+	text-align: left;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: small-caps;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+	
+h2 { font-size: 1.5em;
+	margin-bottom: 0.2em;
+	margin-top: 1.00em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-style: normal;
+	font-weight: bold;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+h3 { font-size: 1.4em;
+	margin-bottom: 0.00em;
+	margin-top: 1.09em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: small-caps;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+	
+blockquote { margin: 0em 1em 0em 1.5em; }
+
+a:link { color: #33337C;
+	text-decoration: none; }
+
+a:visited { color: #33337C;
+	text-decoration: none; }
+
+a:active { color: #666697;
+	text-decoration: underline; }
+
+a:hover { color: #666697;
+	text-decoration: underline; }
+
+a.no-under { text-decoration: none;
+	color: black; }
+	
+span.nowrap { white-space: nowrap; }
+
+/** STAT BLOCKS **/
+
+div.stat-block { margin-top: .1em;
+	margin-bottom: .1em;
+	font-family: 'Droid Sans', Thonburi, TrebuchetMS, sans-serif;
+	font-size: 1.1em;
+	padding-left: 1em;
+	text-align: left; }
+
+div.stat-block li { margin-top: .1em;
+	margin-bottom: .1em;
+	padding: 0; }
+
+div.stat-block ul { margin-top: 0;
+	padding: 0 0 0 2.4em; }
+
+p.stat-block-indent { text-indent: 1em;
+	margin-top: .15em;
+	margin-bottom: .15em;
+	padding-left: 1em; }
+
+p.stat-block-1 { margin-top: .1em;
+	margin-bottom: .1em;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+	padding-left: 1em;
+	text-indent: -1em;
+   	text-align: left; }
+   	
+p.stat-block-2 { margin-top: .1em;
+	margin-bottom: .1em;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+	padding-left: 2em;
+	text-indent: -1em;
+	text-align: left; }
+
+p.stat-block-xp { font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.15em;
+	margin-top: 0.4em;
+	margin-bottom: .2em;
+	text-align: left; }
+	
+p.stat-block-breaker { font-size: 1.1em;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: 300;
+	margin-bottom: .2em;
+	margin-top: .5em;
+	text-transform: uppercase;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black; }
+
+p.stat-block-title { font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	background-color: black;
+	color: white;
+	padding: .25em .5em .25em .5em;
+	margin-bottom: .2em;
+	margin-top: 1.2em;
+	font-weight: bold; }
+	
+div.stat-block { width: 95%;
+	position: relative;
+	padding-bottom: 1.5em; }
+
+span.stat-block-cr { float: right; padding-right:1em; }
+
+span.stat-block-rp { padding-left: 2em;
+	font-weight: bold;
+	font-style: italic;
+	font-size: .9em; }
+
+#feats-text,.feats-text p { margin-top: .1em;
+	margin-bottom: .1em;
+	text-indent: 0; }
+
+#feats-text,.feats-text .stat-block-1 { font-size: 1em;
+	text-indent: 0;
+	padding-left: 0;
+	font-family: Helvetica, Verdana, Geneva, sans-serif; }
+		
+#feats-text,.feats-text .stat-block-2 { font-size: 1em;
+	padding-left: 0;
+	text-indent: 1em;
+	font-family: Helvetica, Verdana, Geneva, sans-serif; }
+		
+#feats-text,.feats-text h2 { margin-bottom: 0; padding-bottom: 0; }
+
+.feats-text h3 { margin-top: 1em; padding: 0;}
+
+div.feats-text { padding-bottom: 2em; }
+
+
+/** LEGAL **/
+
+.legal,.legal-small { color: gray;
+	padding: 10px 30px 0px 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: .7em;
+	text-align: center; }
+
+.legal { display: block; }
+
+.legal-small { display: none; }
+
+/** LISTS **/
+
+#sideNav ul, #spellIndex ul, #monsterIndex ul { list-style-type: none;
+	padding-left: .75em; }
+
+#spellIndex ul li ul, #monsterIndex ul li ul { padding-bottom: 15px; }
+
+li.tree {
+	padding-left: 13px; }
+	
+
+/** TABLES **/
+
+table { border: 1px solid #888888;
+	border-collapse: collapse;
+	font-size: 1em;
+	white-space: nowrap;
+	margin-bottom: 1em; }
+
+caption { font-size: 1.25em;
+	margin-bottom: 0.00em;
+	margin-top: 1.00em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+td { vertical-align: top; }
+
+td, th { border: 1px solid #888888;
+	padding: 1px 5px 1px 5px;	
+	margin: 0;	
+	text-align: left; }
+
+td:first-child { text-align: left; }
+
+td.indent { text-indent: 1em; }
+
+td.indent2 { text-indent: 2em; }
+
+td.indent3 { text-indent: 3em; }
+
+th { border-color:  #585858;
+	background-color: #999999;
+	color: #F4FAFF;
+	white-space: normal;
+	vertical-align: bottom;
+	padding: .25em .5em .25em .5em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: center;
+	font-size: 1.1em; }
+
+tr.odd { background-color: #F3F3F3;
+	font-family: Helvetica, Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	padding: .25em .5em .25em .5em; }
+
+tr.even { background-color: #D8D8D8;
+	font-family: Helvetica, Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	padding: .25em .5em .25em .5em; }
+
+tr.td { background-color: #585858;
+	font-family: Helvetica, Verdana, Geneva, sans-serif;
+	font-size: 1em; }
+
+tfoot td { border-style: none;
+	white-space: normal;
+	background-color: #F4FAFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: .8em;
+	padding: .3em;
+	text-align: left; }
+
+.diagram td { border-style: none; }
+
+table#homePageList td, table#homePageList { border: 0px; 
+	text-align: left; 
+	vertical-align: top; 
+	padding: 0 2em 0 0; 
+	font-size: .95em;
+	margin: 0px; }
+
+table#homePageList ul { list-style-type: none; 
+	padding: 0px;
+	margin: 0px; }
+	
+table.statBlocks td { border: 0px; 
+	text-align: left; 
+	vertical-align: top; 
+	padding: 0 4em 2em 0;
+	margin: 0px; }
+
+tr.th td { border-color:  #585858;
+	background-color: #999999;
+	color: #F4FAFF;
+	white-space: normal;
+	vertical-align: bottom;
+	padding-left: .5em;
+	padding-right: .5em;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1em; }
+
+
+/** INDICES **/
+
+.navlist { float: left;
+	padding-right: 1.5em; 
+	font-size: .9em; }
+	
+.shortcutBar { text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1em; 
+	line-height: 1.4em;
+	border-bottom: 1px solid #bfb0a2;
+	padding-bottom: 6px; }
+
+.shortcutBar a { padding-right: .3em;
+	font-weight: bold;
+	font-size: 1.3em; }
+	
+.shortcutBarSmlLink { text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.2em; 
+	font-weight: bold;
+	line-height: 1.4em;
+	border-bottom: 1px solid #bfb0a2;
+	border-top: 1px solid #bfb0a2;
+	padding-bottom: 4px;
+	padding-top: 4px; }
+
+#spell-index { display: none; }
+
+#feats-combined { display: none; }
+
+#magicitems-combined { display: none; }
+
+.index { display: block; 
+	width: 100%; }
+
+.spelllist-index { display: block; 
+	width: 100%; }
+
+.spelllist-index ul {
+	font-weight: 700;
+	font-size: 1.5em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-variant: small-caps;
+	display: block;
+	padding-left: 0px;
+}
+
+.spelllist-index li { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: 400;
+	font-size: .8em;
+	font-variant: normal;
+	list-style: none;
+	margin-left: 2em;
+	text-indent: -1em; }
+
+.spelllist-index ul:before {
+	display: block;
+	width: 100%;
+	content: attr(title);
+}
+.spelllist-index sup { font-size: .6em; line-height: 0; }
+
+.index ul { -moz-column-width: 200px;
+	-moz-column-gap: 5px;
+	-webkit-column-width: 200px;
+	-webkit-column-gap: 5px;
+	-o-column-width: 200px;
+	-o-column-gap: 5px;
+	column-gap: 10px;
+	column-width: 200px;
+	font-weight: 700;
+	font-size: 1.5em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-variant: small-caps;
+	display: block;
+	padding-left: 0px; }
+
+.index li { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: 400;
+	font-size: .8em;
+	font-variant: normal;
+	list-style: none;
+	margin-left: 2em;
+	text-indent: -1em; }
+
+.index a { column-break-inside: avoid;
+	break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	-moz-break-inside: avoid;
+	-webkit-column-break-inside: avoid;
+	-webkit--break-inside: avoid;
+	-o-column-break-inside: avoid;
+	-o-break-inside: avoid; }
+		
+.index ul:before {
+	-moz-column-span: all;
+	-webkit-column-span: all;
+	-o-column-span: all;
+	column-span: all;
+	display: block;
+	width: 100%;
+	content: attr(title); }
+
+
+/** AUTOCOMPLETE **/
+.autocomplete-w1 { position:absolute; 
+	top:0px;
+	left:0px;
+	margin:8px 0 0 6px;
+	/* IE6 fix: */ _background:none; _margin:0; }
+	
+.autocomplete { z-index: 99;
+	border:1px solid #999;
+	background:#FFF;
+	cursor:default;
+	text-align:left;
+	max-height:350px;
+	overflow:auto;
+    width: 350px;
+	margin:-6px 6px 6px -6px;
+	/* IE6 specific: */ _height:350px;  _margin:0; _overflow-x:hidden; }
+	
+.autocomplete .selected { background:#F0F0F0; }
+
+.autocomplete div { padding:2px 5px;
+	white-space:nowrap; }
+	
+.autocomplete strong { font-weight:normal;
+	color:#3399FF; }
+	
+.autocomplete ul { padding: 0;
+	margin: 0; }
+	
+.autocomplete li { padding: 2px 5px 0 0;
+	margin: 0;
+	white-space: nowrap; }
+	
+	
+/** MISC **/
+
+img { border-style: none; }
+
+div + h1, div + h2, div + h3, div + p,h1 + p, h2 + p, h3 + p, h1 + h2, :first-child, p:first-child { margin-top: 0; }
+
+hr { display: block;
+	height: 1px;
+	border-left: 0 none;
+	border-right: 0 none;
+	border-bottom: 0 none; }
+
+#phonenav { display: none; }
+
+#iphoneintro { display: none; }
+
+
+/** MAX DEVICE WIDTH 800PX **/
+@media all and (max-device-width: 800px) {
+	
+	body { -webkit-text-size-adjust: none; }
+	
+    #sideNav{ display: none; }
+    
+    .legal{ padding: 10px 25px 0 25px; }
+    #footer{ padding: 0; }
+
+    #body { padding-top: 90px;
+    	background: none; }
+    	
+    #body-scroller { z-index: 2;
+    	position: absolute;
+    	top: 0px; left: 0px; }
+
+    #body-wrapper { background: url('/pathfinderRPG/prd/image/pageBackground.jpg'); }
+}
+
+/** IPAD **/
+@media Screen and (min-device-width: 600px) and (max-device-width: 799px) {
+		
+	#body { padding-right: 25px; 
+			padding-left: 25px;
+			padding-top: 100px;
+			text-align: left; 
+			margin: 0 auto; }
+
+	#header { position: absolute;
+		padding: 0 8px 0 0;
+		background-image: url('/pathfinderRPG/prd/image/headerBackground_tablet.png');
+		height: 110px; }
+
+	#headerBackdrop { height: 65px; }
+	
+	#headerBackdrop img { height: 100%; }
+
+	#paizoLogo {
+		padding-top: 8px;
+		padding-left: 20px;
+		width: 35px; }
+		
+	#paizoLogo img { width: 100%; }
+
+	#rpgLogo{ padding-top: 8px;
+		padding-left: 20px;
+		height: 38px; }
+		
+	#rpgLogo img{ height: 100%; }
+
+	#prdLogo{ padding-top: 11px;
+		padding-left: 20px;
+		padding-right: 30px;
+		z-index: 2;
+		height: 38px; }
+		
+	#prdLogo img { height: 100%; }
+
+	#search { top: 14px; right: 50px; }
+	
+	#navPath { top: 37px; right: 50px; font-size: .75em; }
+
+	#flourishTop { position: absolute;
+		top: -7px;
+		right: 0;
+		height: 65px; }
+		
+	#flourishTop img { height: 100%; }
+
+	#flourishRight { position: absolute;
+		top: 38px;
+		right: 0;
+		width:  15px; }
+		
+	#flourishRight img { width: 100%; }
+	
+	p.stat-block-title { 
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 1.3em;
+		font-variant: small-caps;
+		background-color: black;
+		color: white;
+		padding-left: .5em;
+		margin-bottom: 0;
+		margin-top: .64em;
+		font-weight: bold;
+		width: 95%; }
+
+	p.stat-block-1 { font-size: 1.1em; }
+
+	p.stat-block-2 { font-size: 1.1em; }
+
+	p.stat-block-xp { font-size: 1.15em; }
+	
+	p.stat-block-breaker { font-size: 1.15em; }
+	
+	#topNav { z-index: 5;
+	   	top: 66px;
+		left: 0;
+		width: 100%;
+		text-align: center;
+	   	display: inline;
+	   	position: absolute;
+		margin: 0 auto; }
+		
+	table.topnav-book {
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 1em;
+		font-weight: bold;
+		line-height: .7em;
+		display: table;
+		margin: 0 auto;
+		border: 0;
+		text-align: center; }
+	
+	table.topnav-book td {
+		font-size: .70em;
+		font-weight: 700;
+		padding: 0 .8em 0 .8em;
+		text-align: center;
+		vertical-align: middle;
+		border: 0; }
+		
+	table.topnav-book a { z-index: -1; line-height: 85%;
+		color: #ede2d0; }
+
+	div.topnav-menu { z-index: 3;
+		display: none;
+		padding: 20px 10px 7px;
+		margin: 0;
+		position: absolute;
+		border-radius: 5px;
+		border: 1px outset #967a5a;
+		background: url('/pathfinderRPG/prd/image/topnavbg.jpg');
+		font-size: .9em;
+		font-family: "Trebuchet MS", Helvetica, sans-serif; }
+		
+	div.topnav-menu ul { margin: 0;
+		padding: 0px;
+		list-style-type: none; }
+		
+	div.topnav-menu li { white-space: nowrap; }
+	
+	label { text-decoration: underline;
+	color: #33337C; }
+}
+/** IPHONE **/
+
+@media Screen and (min-device-width: 320px) and (max-device-width: 599px) {
+	body { padding: 0;
+		text-align: left; 
+		margin: 0; }
+	
+	#body { background: url('/pathfinderRPG/prd/image/pageBackground.jpg');
+        padding-top: 90px;
+		font-size: .9em;
+		padding-left: 15px;
+		padding-right: 15px; }
+
+    #body-scroller { z-index: 2;
+    	position: absolute;
+    	top: 0;
+    	left: 0; }
+    
+	#header {
+        display: block;
+        position: absolute;
+        top: 0px;
+		min-width: 310px;
+		padding: 0px;
+        margin: 0px;
+		background: url('/pathfinderRPG/prd/image/headerBackground_phone.png');
+		background-repeat: repeat-x; }
+
+	#headerBackdrop { display: none;
+		height: 38px;
+		padding-top: 4px; }
+		
+	#headerBackdrop img { height: 100%; }
+	    
+	#paizoLogo { 
+		padding-top: 3px;
+		padding-left: 11px;
+		width: 25px; }
+		
+	#paizoLogo img { width: 100%; }
+
+	#rpgLogo { padding-top: 3px;
+		padding-left: 10px;
+		height: 27px; }
+		
+	#rpgLogo img { height: 100%; }
+
+	#prdLogo { padding-top: 5px;
+		padding-left: 11px;
+		padding-right: 20px;
+		z-index: 3;
+		height: 27px; }
+		
+	#prdLogo img { height: 100%; }
+		
+	#flourishTop{ position: absolute;
+		top: -5px;
+		right: 0;
+		height: 43px; }
+	
+	#flourishTop img { height: 100%; }
+
+	#flourishRight { position: absolute;
+		top: 38px;
+		right: 0;
+		width:  11px; }
+	
+	#flourishRight img { width: 100%; }
+	
+	#search { position: absolute;
+		top: 42px;
+		right: 15px;
+		text-align: right; }
+	
+	#navPath { font-size: .75em;
+		top: 68px;
+		text-align: right;
+		right: 20px;
+		color: #33337C;
+		padding-bottom: 3px; }
+	
+	#navPath a { color: #33337C;
+		text-decoration: none; }
+
+	#navPath a:active, #navPath a:hover { color: #666697;
+		text-decoration: underline; }
+		
+	#sideNav {
+        display: none;
+		margin: 0 auto;
+		float: none;
+		padding-bottom: 15px; }
+
+    .legal-small { display: block; 
+    padding: 5px 15px 5px 15px; 
+    margin: 0;
+    color: gray;
+	font-family: Helvetica, Verdana, Geneva, sans-serif;
+	font-size: .6em;
+	text-align: center; }
+	
+    .legal { display: none; }
+    
+    p.stat-block-title { margin-top: 10px; }
+    
+    #IndexTable { display: none; }
+    
+    #prdindex { display: none; }
+    
+    #phonenav { display: block; 
+    	position: absolute;
+		top: 42px;
+		left: 6px;}
+	
+	#iphoneintro { display: block; }
+    
+    h2 { font-size: 1.4em; }
+    
+    #topNav { display: none; }
+    
+    tfoot td { font-size: .95em; }
+    
+    #shortcutBar { font-size: 1.2em; }
+}
+
+#table-6-9-goods-and-services sup { font-size: 8px; }

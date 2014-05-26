@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Azata</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Azata",globalNavPath=[{ href: '/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html', name: 'Additional Monster Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body"><div>
+				<h1 id="azata,-brijidine" class="monster-header">Azata, Brijidine</h1>
+				<p>This beautiful woman has flesh made of lava. She soars through the sky on a trail of fire.</p>
+				<p class="stat-block-title"><b>Brijidine	<span class="stat-block-cr">CR 17</span></b></p>
+				<p class="stat-block-xp"><b>XP 102,400</b></p>
+				<p class="stat-block-1">CG Medium <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_azata-subtype" >azata</a>, chaotic, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, good)</p>
+				<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> darkvision 60 ft., low-light vision, tremorsense 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +26</p>
+				<p class="stat-block-1"><b>Aura</b> flaming body, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/holyAura.html#_holy-aura" >holy aura</a></i></p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 32, touch 19, flat-footed 27 (+4 deflection, +5 Dex, +13 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 256 (19d10+152)</p>
+				<p class="stat-block-1"><b>Fort</b> +22, <b>Ref</b> +15, <b>Will</b> +21</p>
+				<p class="stat-block-1"><b>DR</b> 10/cold iron and <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>; <b>Immune</b> electricity, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, petrification; <b>Resist</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> 10; <b>SR</b> 28</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> </p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., fly 60 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+1 <a href="/pathfinderRPG/prd/additionalMonsters/../magicItems/weapons.html#_weapons-flaming-burst" >flaming burst</a> <a href="/pathfinderRPG/prd/additionalMonsters/../magicItems/weapons.html#_weapons-keen" >keen</a> longsword</i> +25/+20/+15/+10 (1d8+8/17&ndash;20 plus 1d6 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> and burn)</p>
+				<p class="stat-block-1"><b>Ranged</b> lava blast +24 (16d6 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> plus burn and <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a>)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a> (DC 26, instantaneous, hardness 8, hp 30), burn (2d6, DC 26), trample (1d8+7, DC 24)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 19th; concentration +25)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/holyAura.html#_holy-aura" >holy aura</a></i> (DC 24)</p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/flamingSphere.html#_flaming-sphere" >flaming sphere</a></i> (DC 18), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/heatMetal.html#_heat-metal" >heat metal</a></i> (DC 18), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/meldIntoStone.html#_meld-into-stone" >meld into stone</a></i> (self only), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/softenEarthAndStone.html#_soften-earth-and-stone" >soften earth and stone</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/stoneShape.html#_stone-shape" >stone shape</a></i></p>
+				<p class="stat-block-2">5/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/flameStrike.html#_flame-strike" >flame strike</a></i> (DC 21), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/moveEarth.html#_move-earth" >move earth</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/spikeStones.html#_spike-stones" >spike stones</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/stoneTell.html#_stone-tell" >stone tell</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/summonNatureSAlly.html#_summon-nature-s-ally-v" >summon nature's ally V</a></i> (earth and fire elementals only), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i> (DC 22)</p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/earthquake.html#_earthquake" >earthquake</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/fireStorm.html#_fire-storm" >fire storm</a></i> (DC 23), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/heal.html#_heal" >heal</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i></p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 21, <b>Con</b> 24, <b>Int</b> 15, <b>Wis</b> 18, <b>Cha</b> 23</p>
+				<p class="stat-block-1"><b>Base Atk</b> +19; <b>CMB</b> +24; <b>CMD</b> 43</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_lunge" >Lunge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_staggering-critical" >Staggering Critical</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness" >Toughness</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft" >Craft</a> (any one) +24, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +27, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +9, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/heal.html#_heal" >Heal</a> +26, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +24, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +24, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +26, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perform.html#_perform" >Perform</a> (oratory) +25, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +26</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Draconic, Ignan, Infernal, Terran; truespeech</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_heat" >heat</a> stone, obsidian blade</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Elysium)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or team (2&ndash;5)</p>
+				<p class="stat-block-1"><b>Treasure</b> double (no flammable items)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Flaming Body (Su)</b> A brijidine's body is molten rock covered in dancing flames. Anyone striking a brijidine with a natural weapon or unarmed strike takes 1d6 points of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> damage. A creature that grapples a brijidine or is grappled by one takes 6d6 points of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> damage each round the grapple persists.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_heat" >Heat</a> Stone (Su)</b> Whenever a brijidine uses her <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/meldIntoStone.html#_meld-into-stone" >meld into stone</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/softenEarthAndStone.html#_soften-earth-and-stone" >soften <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a> and stone</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/spikeStones.html#_spike-stones" >spike stones</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/stoneShape.html#_stone-shape" >stone shape</a></i>, or <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i> spell-like abilities, she can have the affected stone radiate intense <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_heat" >heat</a> for 1 minute. Any creature within 5 feet of the stone takes 1d6 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> damage per round.</p>
+				<p class="stat-block-1"><b>Lava Blast (Su) </b>A brijidine can hurl a glob of lava at a target as a standard action. This attack has a range increment of 30 feet.</p>
+				<p class="stat-block-1"><b>Obsidian Blade (Ex)</b> At will as a free action, a brijidine can create a blade of jagged volcanic glass that functions as a<i> +1 <a href="/pathfinderRPG/prd/additionalMonsters/../magicItems/weapons.html#_weapons-flaming-burst" >flaming burst</a> <a href="/pathfinderRPG/prd/additionalMonsters/../magicItems/weapons.html#_weapons-keen" >keen</a> longsword.</i> One round after it leaves the brijidine's grasp, the weapon decays into useless powder.</p>
+				
+				<p>Brijidines are passionate, powerful azatas attuned to the powers of earth and fire. They love basking in volcanoes, writing poetry, tending to sick creatures, and pursuing spicy recipes. The quickest way to befriend a brijidine is to present her with a fireproof copy of an exotic poem or a bag of rare peppers. Though their power is tied to primal destruction, they are quick-witted and love clever wordplay, whether in a sonnet or a dirty limerick.</p>
+				<p>The brijidine sees fire as a form of purity, a marked difference from its classical association with devastation and destruction. To a brijidine, the existence of hellfire is the rankest blasphemy, and while many azatas look to the demons of the Abyss as their greatest enemies, it is among the devils of Hell that most brijidines find focus for their anger. The fact that devils are immune to fire, the brijidine's greatest strength, frustrates and angers these azatas all the more, forcing them to become far more imaginative and creative in their tactics when facing such foes. A brijidine stands 5-1/2 feet tall and weighs 150 pounds.</p>
+			</div>
+			
+			
+			<div>
+				<h1 id="azata,-lyrakien" class="monster-header">Azata, Lyrakien</h1>
+				<p>This tiny woman has a lithe form with delicate butterfly wings. She is surrounded by sparkling lights and gentle rainbow arcs.</p>
+				<p class="stat-block-title"><b>Lyrakien	<span class="stat-block-cr">CR 2</span></b></p>
+				<p class="stat-block-xp"><b>XP 600</b></p>
+				<p class="stat-block-1">CG Tiny <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_azata-subtype" >azata</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> darkvision 60 ft., <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic" >detect magic</a></i>, low-light vision; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +9</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 16, touch 16, flat-footed 12 (+4 Dex, +2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 19 (3d10+3)</p>
+				<p class="stat-block-1"><b>Fort</b> +2, <b>Ref</b> +7, <b>Will</b> +6</p>
+				<p class="stat-block-1"><b>DR</b> 5/evil; <b>Immune</b> electricity, petrification; <b>Resist</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., fly 80 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee</b> slam +2 (1d2&ndash;3)</p>
+				<p class="stat-block-1"><b>Space</b> 2-1/2 ft.; <b>Reach</b> 0 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> starlight blast</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 3rd; concentration +8)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic" >detect magic</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dancingLights.html#_dancing-lights" >dancing lights</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/daze.html#_daze" >daze</a></i> (DC 15), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/summonInstrument.html#_summon-instrument" >summon instrument</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/ventriloquism.html#_ventriloquism" >ventriloquism</a></i> (DC 16)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/confusion.html#_confusion-lesser" >lesser confusion</a></i> (DC 16), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/silentImage.html#_silent-image" >silent image</a></i> (DC 16)</p>
+				<p class="stat-block-2">1/week&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/commune.html#_commune" >commune</a></i> (6 questions, CL 12th)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 5, <b>Dex</b> 19, <b>Con</b> 12, <b>Int</b> 14, <b>Wis</b> 17, <b>Cha</b> 20</p>
+				<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +5; <b>CMD</b> 12</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_agile-maneuvers" >Agile Maneuvers</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +10, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff" >Bluff</a> +11, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +11, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (any one) +8, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +9, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perform.html#_perform" >Perform</a> (any one) +11, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +5, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +18</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Draconic, Infernal; truespeech</p>
+				<p class="stat-block-1"><b>SQ</b> traveler's friend</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Elysium)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, band (2&ndash;5), or company (6&ndash;24)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Starlight Blast (Su)</b> As a standard action once every 1d4 rounds, a lyrakien can tap into the divine power of Elysium, unleashing a blast of holy starlight in a 5-foot burst. All creatures in this area take 1d4 points of holy damage, plus 1 point for each step their alignment deviates from <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a>. For example, a <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a> neutral or neutral <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> creature would take 1d4+1 points of damage, a neutral creature would take 1d4+2 points of damage, and a <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >lawful</a> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a> creature would take 1d4+4 points of damage. A DC 12 Reflex save negates this damage. <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >Chaotic</a> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> creatures are unaffected by this ability. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Traveler's Friend (Su)</b> The performances and company of a lyrakien ease the burden of travel. Once per day, a creature may spend a minute listening to a lyrakien's performance&mdash;doing so removes the effects of exhaustion and fatigue from the listener.</p>
+				
+				<p>Lyrakien are divine musicians and messengers, mainly in the employ of deities of travel and natural wonders. They love to explore and visit beautiful places, especially locations with excellent views of rainbows, moonlight, and the stars. Whimsical and joyous, they love contests of song, dance, and knowledge, and keep journeys happy by distracting their companions from weary feet and stale food. Mortals who please them with excellent tales and new songs may be rewarded with elaborate maps, forgotten shortcuts, or rambling directions to hidden locations that hold lost magic.</p>
+				<p>Lyrakien are light-hearted creatures, but they are very protective of breathtaking natural locations. Often called “glistenwings” by gnomes and halflings, lyrakien are frequently mistaken for fey&mdash;while they are generally friendly with true fey, their origin is the plane of Elysium. Like other azatas, they grow restless if they stay in one place too long. A chaotic good 7th-level spellcaster can gain a lyrakien as a familiar if she has the <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-familiar" >Improved Familiar</a> feat.</p>
+				
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

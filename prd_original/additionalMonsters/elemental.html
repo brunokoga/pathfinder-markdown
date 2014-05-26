@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Elemental</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Elemental",globalNavPath=[{ href: '/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html', name: 'Additional Monster Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+			
+			
+			
+			<div>
+				<h1 id="elemental,-ice" class="monster-header">Elemental, Ice</h1>
+				<p>From the waist up, this icy creature's features are humanoid, but below its body is a snake-like, slithering tail.</p>
+				<p id="ice-elemental" class="stat-block-title">Ice Elemental</p>
+				<p class="stat-block-1"><b>Languages</b> Aquan</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any land or water (Plane of Water)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or gang (3&ndash;8)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Ice Glide (Su)</b> A burrowing ice <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> can pass through nonmagical ice and snow as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/controlWater.html#_control-water" >control water</a></i> spell cast on an area containing a burrowing ice <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> flings the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.</p>
+				<p class="stat-block-1"><b>Icewalking (Ex)</b> This ability works like the <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/spiderClimb.html#_spider-climb" >spider climb</a></i> spell, but the surfaces the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> climbs must be icy. The <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> can move across icy surfaces without penalty and does not need to make <a href="/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks to run or charge on ice.</p>
+				<p class="stat-block-1"><b>Numbing <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >Cold</a> (Su)</b> When an ice <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> deals <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> damage to a creature, that creature must succeed on a Fortitude save or be staggered for 1 round. The save DC is listed in the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>'s stat block and is Constitution-based.</p>
+				<p class="stat-block-1"><b>Snow Vision (Ex)</b> An ice <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> can see perfectly well in snowy conditions and does not take any penalties on <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> checks while in snow.</p>
+				
+				<p class="stat-block-title">Small Ice Elemental	CR 1</p>
+				<p class="stat-block-xp"><b>XP 400</b></p>
+				<p class="stat-block-1">N Small <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, water)</p>
+				<p class="stat-block-1"><b>Init</b> &ndash;1; <b>Senses</b> darkvision 60 ft., snow vision; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +5</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 16, touch 10, flat-footed 16 (&ndash;1 Dex, +6 natural, +1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 13 (2d10+2)</p>
+				<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +2, <b>Will</b> +0</p>
+				<p class="stat-block-1"><b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a></p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow (ice and snow only) 20 ft., swim 60 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> slam +4 (1d4+1 plus 1d3 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> numbing <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> (DC 12)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 12, <b>Dex</b> 8, <b>Con</b> 13, <b>Int</b> 4, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> +2; <b>CMD</b> 11 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +2, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +5, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +8, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim" >Swim</a> +9</p>
+				<p class="stat-block-1"><b>SQ</b> ice glide, icewalking</p>
+				
+				<p class="stat-block-title">Medium Ice Elemental	CR 3</p>
+				<p class="stat-block-xp"><b>XP 800</b></p>
+				<p class="stat-block-1">N Medium <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, water)</p>
+				<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> darkvision 60 ft., snow vision; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +7</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 16, touch 10, flat-footed 16 (+6 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 30 (4d10+8)</p>
+				<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +4, <b>Will</b> +1</p>
+				<p class="stat-block-1"><b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a></p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow (ice and snow only) 20 ft., swim 60 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> slam +7 (1d6+4 plus 1d4 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> numbing <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> (DC 14)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 10, <b>Con</b> 15, <b>Int</b> 4, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +4; <b>CMB</b> +7; <b>CMD</b> 17 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +4, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +7, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +7, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim" >Swim</a> +11</p>
+				<p class="stat-block-1"><b>SQ</b> ice glide, icewalking</p>
+				
+				<p class="stat-block-title">Large Ice Elemental	CR 5</p>
+				<p class="stat-block-xp"><b>XP 1,600</b></p>
+				<p class="stat-block-1">N Large <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, water)</p>
+				<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> darkvision 60 ft., snow vision; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +11</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 17, touch 10, flat-footed 16 (+1 Dex, +7 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 68 (8d10+24)</p>
+				<p class="stat-block-1"><b>Fort</b> +9, <b>Ref</b> +7, <b>Will</b> +2</p>
+				<p class="stat-block-1"><b>DR</b> 5/&mdash;; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a></p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow (ice and snow only) 20 ft., swim 60 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +12 (1d8+5 plus 1d6 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> numbing <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> (DC 17)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 12, <b>Con</b> 17, <b>Int</b> 6, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +8; <b>CMB</b> +14; <b>CMD</b> 25 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-cleave" >Great Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +11, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +9, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +11, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +8, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim" >Swim</a> +13</p>
+				<p class="stat-block-1"><b>SQ</b> ice glide, icewalking</p>
+				
+				<p class="stat-block-title">Huge Ice Elemental	CR 7</p>
+				<p class="stat-block-xp"><b>XP 3,200</b></p>
+				<p class="stat-block-1">N Huge <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, water)</p>
+				<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> darkvision 60 ft., snow vision; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +13</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 20, touch 12, flat-footed 16 (+3 Dex, +1 dodge, +8 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 95 (10d10+40)</p>
+				<p class="stat-block-1"><b>Fort</b> +11, <b>Ref</b> +10, <b>Will</b> +3</p>
+				<p class="stat-block-1"><b>DR</b> 5/&mdash;; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> </p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow (ice and snow only) 20 ft., swim 60 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +15 (2d6+7 plus 1d8 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> numbing <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> (DC 19)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 24, <b>Dex</b> 16, <b>Con</b> 19, <b>Int</b> 6, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +10; <b>CMB</b> +19; <b>CMD</b> 33 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-cleave" >Great Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +13, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +11, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +13, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +8, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim" >Swim</a> +15</p>
+				<p class="stat-block-1"><b>SQ</b> ice glide, icewalking</p>
+				
+				<p class="stat-block-title">Greater Ice Elemental	CR 9</p>
+				<p class="stat-block-xp"><b>XP 6,400</b></p>
+				<p class="stat-block-1">N Huge <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, water)</p>
+				<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> darkvision 60 ft., snow vision; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +16</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 23, touch 13, flat-footed 18 (+4 Dex, +1 dodge, +10 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 123 (13d10+52)</p>
+				<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +14, <b>Will</b> +4</p>
+				<p class="stat-block-1"><b>DR</b> 10/&mdash;; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a></p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow (ice and snow only) 20 ft., swim 60 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +20 (2d8+9 plus 2d6 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> numbing <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> (DC 20)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 28, <b>Dex</b> 18, <b>Con</b> 19, <b>Int</b> 8, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +13; <b>CMB</b> +24; <b>CMD</b> 39 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +20, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +15, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +12, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim" >Swim</a> +17</p>
+				<p class="stat-block-1"><b>SQ</b> ice glide, icewalking</p>
+				
+				<p class="stat-block-title">Elder Ice Elemental	CR 11</p>
+				<p class="stat-block-xp"><b>XP 12,800</b></p>
+				<p class="stat-block-1">N Huge <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, water)</p>
+				<p class="stat-block-1"><b>Init</b> +9; <b>Senses</b> darkvision 60 ft., snow vision; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +19</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 24, touch 14, flat-footed 18 (+5 Dex, +1 dodge, +10 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 152 (16d10+64)</p>
+				<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +17, <b>Will</b> +5</p>
+				<p class="stat-block-1"><b>DR</b> 10/&mdash;; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a></p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow (ice and snow only) 20 ft., swim 60 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +24 (2d10+10/19&ndash;20 plus 2d8 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> numbing <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> (DC 22)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 30, <b>Dex</b> 20, <b>Con</b> 19, <b>Int</b> 10, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +16; <b>CMB</b> +28; <b>CMD</b> 44 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical" >Improved Critical</a> (slam), <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +24, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim" >Swim</a> +37</p>
+				<p class="stat-block-1"><b>SQ</b> ice glide, icewalking</p>
+				
+				<p>Ice elementals are creatures made of animated snow and ice. They form in especially cold parts of the Plane of Water and along its border with the Plane of Air, where giant icebergs careen off of world-high waterfalls into the open sky. Ice elementals vary in their exact appearance.</p>
+			</div>
+			
+			
+			<div>
+				<h1 id="elemental,-lightning" class="monster-header">Elemental, Lightning</h1>
+				<p>This creature looks like a dark storm cloud, with sparks suggesting eyes and long sweeping arms charged with bolts of lightning.</p>
+				<p id="lightning-elemental" class="stat-block-title">Lightning Elemental</p>
+				<p class="stat-block-1"><b>Languages</b> Auran</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Plane of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >Air</a>)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or gang (3&ndash;8)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Metal Mastery (Ex)</b> A lightning <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> gains a +3 bonus on attack rolls if its opponent is wearing metal armor, is wielding a metal weapon, or is made of metal (such as an iron golem).</p>
+				<p class="stat-block-1"><b>Spark Leap (Ex)</b> A lightning <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> gains a +10 bonus on bull rush, disarm, overrun, and trip attacks when it charges a creature against whom its metal mastery ability applies.</p>
+				
+				<p class="stat-block-title">Small Lightning Elemental	CR 1</p>
+				<p class="stat-block-xp"><b>XP 400</b></p>
+				<p class="stat-block-1">N Small <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +5</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 14, touch 13, flat-footed 12 (+2 Dex, +1 natural, +1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 11 (2d10)</p>
+				<p class="stat-block-1"><b>Fort</b> +3, <b>Ref</b> +5, <b>Will</b> +0</p>
+				<p class="stat-block-1"><b>Immune</b> electricity, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> fly 100 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee</b> slam +5 (1d4 plus 1d3 electricity)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> metal mastery, spark leap</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 15, <b>Con</b> 10, <b>Int</b> 4, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> +1; <b>CMD</b> 13</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +7, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +6, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +12, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +1, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +5</p>
+				
+				<p class="stat-block-title">Medium Lightning Elemental	CR 3</p>
+				<p class="stat-block-xp"><b>XP 800</b></p>
+				<p class="stat-block-1">N Medium <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +7</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 16, touch 15, flat-footed 11 (+4 Dex, +1 dodge, +1 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 26 (4d10+4)</p>
+				<p class="stat-block-1"><b>Fort</b> +5, <b>Ref</b> +8, <b>Will</b> +1</p>
+				<p class="stat-block-1"><b>Immune</b> electricity, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> fly 100 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee</b> slam +8 (1d6+3 plus 1d4 electricity)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> metal mastery, spark leap</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 19, <b>Con</b> 12, <b>Int</b> 4, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +4; <b>CMB</b> +6; <b>CMD</b> 21</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +11, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +9, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +12, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +2, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +7</p>
+				
+				<p class="stat-block-title">Large Lightning Elemental	CR 5</p>
+				<p class="stat-block-xp"><b>XP 1,600</b></p>
+				<p class="stat-block-1">N Large <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +10; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +11</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 18, touch 16, flat-footed 11 (+6 Dex, +1 dodge, +2 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 60 (8d10+16)</p>
+				<p class="stat-block-1"><b>Fort</b> +8, <b>Ref</b> +12, <b>Will</b> +2</p>
+				<p class="stat-block-1"><b>DR</b> 5/&mdash;; <b>Immune</b> electricity, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> fly 100 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +13 (1d8+3 plus 1d6 electricity)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> metal mastery, spark leap</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 23, <b>Con</b> 14, <b>Int</b> 6, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +8; <b>CMB</b> +12; <b>CMD</b> 29</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_flyby-attack" >Flyby Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility" >Mobility</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +17, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +17, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +12, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +9, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +11</p>
+				
+				<p class="stat-block-title">Huge Lightning Elemental	CR 7</p>
+				<p class="stat-block-xp"><b>XP 3,200</b></p>
+				<p class="stat-block-1">N Huge <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +12; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +13</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 19, touch 17, flat-footed 10 (+8 Dex, +1 dodge, +2 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 85 (10d10+30)</p>
+				<p class="stat-block-1"><b>Fort</b> +10, <b>Ref</b> +15, <b>Will</b> +5</p>
+				<p class="stat-block-1"><b>DR</b> 5/&mdash;; <b>Immune</b> electricity, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> fly 100 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +16 (2d6+5 plus 1d8 electricity)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> metal mastery, spark leap</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 27, <b>Con</b> 16, <b>Int</b> 6, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +10; <b>CMB</b> +17; <b>CMD</b> 36</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_flyby-attack" >Flyby Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility" >Mobility</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +21, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +21, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +12, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +11, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +13</p>
+				
+				<p class="stat-block-title">Greater Lightning Elemental	CR 9</p>
+				<p class="stat-block-xp"><b>XP 6,400</b></p>
+				<p class="stat-block-1">N Huge <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +13; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +16</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 22, touch 18, flat-footed 12 (+9 Dex, +1 dodge, +4 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 110 (13d10+39)</p>
+				<p class="stat-block-1"><b>Fort</b> +11, <b>Ref</b> +17, <b>Will</b> +6</p>
+				<p class="stat-block-1"><b>DR</b> 10/&mdash;; <b>Immune</b> electricity, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> fly 100 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +20 (2d8+6 plus 2d6 electricity)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> metal mastery, spark leap</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 29, <b>Con</b> 16, <b>Int</b> 8, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +13; <b>CMB</b> +21; <b>CMD</b> 41</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_flyby-attack" >Flyby Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility" >Mobility</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +25, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +25, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +13, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +15, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +16</p>
+				
+				<p class="stat-block-title">Elder Lightning ElementalCR 11</p>
+				<p class="stat-block-xp"><b>XP 12,800</b></p>
+				<p class="stat-block-1">N Huge <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +14; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +19</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 25, touch 19, flat-footed 14 (+10 Dex, +1 dodge, +6 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 136 (16d10+48)</p>
+				<p class="stat-block-1"><b>Fort</b> +13, <b>Ref</b> +20, <b>Will</b> +7</p>
+				<p class="stat-block-1"><b>DR</b> 10/&mdash;; <b>Immune</b> electricity, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> fly 100 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +24 (2d8+8 plus 2d8 electricity)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> metal mastery, spark leap</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 26, <b>Dex</b> 31, <b>Con</b> 16, <b>Int</b> 10, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +16; <b>CMB</b> +26; <b>CMD</b> 47</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_flyby-attack" >Flyby Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility" >Mobility</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +29, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +29, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +14, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +21</p>
+				
+				<p>Though most think of the Plane of Air as a vast expanse of clear sky, that plane also holds the power of the storm, including monstrous hurricanes larger than entire worlds and thunderstorms whose peals and claps can shatter stone. Whether lightning elementals are the by-product of common air elementals spending too much time near these electrically charged storms or are merely calved off like forgotten flurries, they are aggressive and almost suicidal in their willingness to leap into battle. They particularly enjoy attacking creatures that are made of metal and creatures that wear metal armor or wield metal weapons.</p>
+				<p>Many lightning elementals have a roughly humanoid shape, but some prefer animalistic shapes (particularly birds and dragons), and a few appear to be nothing more than large disembodied heads made of dark clouds with flickering lightning tongues. Regardless of the shape a lightning elemental takes, the air around the creature hums and throbs with the promise of electrocution and the tangy stink of ozone.</p>
+				
+			</div>
+			
+			
+			<div>
+				<h1 id="elemental,-magma" class="monster-header">Elemental, Magma</h1>
+				<p>This rocky monster glows with an internal heat. Red light spills from its eyes and mouth, as well as fractures in its outer surface.</p>
+				<p id="magma-elemental" class="stat-block-title">Magma Elemental</p>
+				<p class="stat-block-1"><b>Languages</b> Ignan</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Plane of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >Fire</a>)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or gang (3&ndash;8)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Burn (Ex)</b> A magma <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>'s burn DC includes a &ndash;2 racial penalty, as their fires don't burn quite as hot as true <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> flames.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >Earth Glide</a> (Ex)</b> A burrowing magma <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> can pass through stone, dirt, lava, or almost any other sort of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a> except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple, though the area it passes through feels warm for 1 round afterward and often retains a strangely smooth texture, as if the stone had been polished. A<i> <a href="/pathfinderRPG/prd/additionalMonsters/../spells/moveEarth.html#_move-earth" >move earth</a></i> spell cast on an area containing a burrowing magma <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> flings the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.</p>
+				<p class="stat-block-1"><b>Lava Puddle (Su)</b> Once per day as a full-round action, a magma <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> can vomit forth a puddle of lava  that fills its space to a depth of 2&ndash;3 inches and counts as difficult terrain. Any creature that moves through this puddle of lava takes 2d6 points of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> damage. This damage continues for 1d3 rounds after the creature leaves the lava pool, although then it only inflicts 1d6 points of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> damage per round. The lava puddle solidifies and is safe to touch after a number of rounds equal to the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>'s Hit Dice. At the GM's discretion, this puddle of lava could start secondary fires. </p>
+				
+				<p class="stat-block-title">Small Magma Elemental	CR 1</p>
+				<p class="stat-block-xp"><b>XP 400</b></p>
+				<p class="stat-block-1">N Small <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +5</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 15, touch 10, flat-footed 15 (&ndash;1 Dex, +5 natural, +1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 11 (2d10)</p>
+				<p class="stat-block-1"><b>Fort</b> +3, <b>Ref</b> +2, <b>Will</b> +0</p>
+				<p class="stat-block-1"><b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a></p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow 20 ft.; <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >earth glide</a></p>
+				<p class="stat-block-1"><b>Melee</b> slam +3 (1d3 plus burn)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> burn (1d4, DC 9), lava puddle</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 8, <b>Con</b> 11, <b>Int</b> 4, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> +1; <b>CMD</b> 10</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +2, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +5, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +8</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >earth glide</a></p>
+				
+				<p class="stat-block-title">Medium Magma Elemental	CR 3</p>
+				<p class="stat-block-xp"><b>XP 800</b></p>
+				<p class="stat-block-1">N Medium <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +7</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 16, touch 9, flat-footed 16 (&ndash;1 Dex, +7 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 30 (4d10+8)</p>
+				<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +3, <b>Will</b> +1</p>
+				<p class="stat-block-1"><b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a></p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow 20 ft.; <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >earth glide</a></p>
+				<p class="stat-block-1"><b>Melee</b> slam +6 (1d6+3 plus burn)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> burn (1d4, DC 12), lava puddle</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 8, <b>Con</b> 15, <b>Int</b> 4, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +4; <b>CMB</b> +6; <b>CMD</b> 15</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +4, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +7, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +6</p>
+				
+				<p class="stat-block-title">Large Magma Elemental	CR 5</p>
+				<p class="stat-block-xp"><b>XP 1,600</b></p>
+				<p class="stat-block-1">N Large <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +11</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 16, touch 8, flat-footed 16 (&ndash;1 Dex, +8 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 60 (8d10+16)</p>
+				<p class="stat-block-1"><b>Fort</b> +8, <b>Ref</b> +5, <b>Will</b> +2</p>
+				<p class="stat-block-1"><b>DR</b> 5/&mdash;; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a></p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow 20 ft.; <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >earth glide</a></p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +11 (1d8+4 plus burn)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> burn (1d6, DC 14), lava puddle</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 8, <b>Con</b> 15, <b>Int</b> 6, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +8; <b>CMB</b> +13; <b>CMD</b> 22</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb" >Climb</a> +15, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +9, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +11, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +6</p>
+				
+				<p class="stat-block-title">Huge Magma Elemental	CR 7</p>
+				<p class="stat-block-xp"><b>XP 3,200</b></p>
+				<p class="stat-block-1">N Huge <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +13</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 17, touch 7, flat-footed 17 (&ndash;1 Dex, +10 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 85 (10d10+30)</p>
+				<p class="stat-block-1"><b>Fort</b> +10, <b>Ref</b> +6, <b>Will</b> +3</p>
+				<p class="stat-block-1"><b>DR</b> 5/&shy;&mdash;; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a></p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow 20 ft.; <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >earth glide</a></p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +14 (2d6+6 plus burn)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> burn (1d8, DC 16), lava puddle</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 8, <b>Con</b> 17, <b>Int</b> 6, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +10; <b>CMB</b> +18; <b>CMD</b> 27</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-bull-rush" >Greater Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb" >Climb</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +11, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +13, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +4</p>
+				
+				<p class="stat-block-title">Greater Magma Elemental	CR 9</p>
+				<p class="stat-block-xp"><b>XP 6,400</b></p>
+				<p class="stat-block-1">N Huge <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +16</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 19, touch 7, flat-footed 19 (&ndash;1 Dex, +12 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 123 (13d10+52)</p>
+				<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +7, <b>Will</b> +4</p>
+				<p class="stat-block-1"><b>DR</b> 10/&mdash;; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a></p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow 20 ft.; <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >earth glide</a></p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +18 (2d8+7 plus burn)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> burn (2d6, DC 18), lava puddle</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 24, <b>Dex</b> 8, <b>Con</b> 19, <b>Int</b> 8, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +13; <b>CMB</b> +22; <b>CMD</b> 31</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-bull-rush" >Greater Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-overrun" >Greater Overrun</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-overrun" >Improved Overrun</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb" >Climb</a> +23, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +15, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +7</p>
+				
+				<p class="stat-block-title">Elder Magma Elemental	CR 11</p>
+				<p class="stat-block-xp"><b>XP 12,800</b></p>
+				<p class="stat-block-1">N Huge <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +19</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 25, touch 7, flat-footed 25 (&ndash;1 Dex, +18 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 152 (16d10+64)</p>
+				<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +9, <b>Will</b> +5</p>
+				<p class="stat-block-1"><b>DR</b> 10/&mdash;; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a></p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow 20 ft.; <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >earth glide</a></p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +22 (3d6+8 plus burn)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> burn (3d6, DC 20), lava puddle</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 26, <b>Dex</b> 8, <b>Con</b> 19, <b>Int</b> 10, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +16; <b>CMB</b> +26; <b>CMD</b> 35</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-bull-rush" >Greater Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-overrun" >Greater Overrun</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-overrun" >Improved Overrun</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb" >Climb</a> +27, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +10</p>
+				
+				<p>In the border areas between the Plane of Earth and Plane of Fire, volcanoes and continent-sized lava flows are commonplace. Elementals in this area tend to have aspects of both planes, and the typical sort is the magma elemental, an earth elemental with a core of liquid fire. Magma elementals generally have a somewhat feral or bestial appearance.</p>
+			</div>
+			
+			<div>
+				<h1 id="elemental,-mud" class="monster-header">Elemental, Mud</h1>
+				<p>This animate pile of mud seems barely able to maintain the semblance of a humanoid form made of dripping sludge.</p>
+				<p id="mud-elemental" class="stat-block-title">Mud Elemental</p>
+				<p class="stat-block-1"><b>Languages</b> Terran</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any land or water (Plane of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >Earth</a>)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or gang (3&ndash;8)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >Earth Glide</a> (Ex)</b> A burrowing mud <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> can pass through dirt, gravel, or other loose or porous solid matter as easily as a fish swims through water. It cannot use this ability to pass through a solid barrier such as a stone or brick wall. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/moveEarth.html#_move-earth" >move earth</a></i> spell cast on an area containing a burrowing mud <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> flings the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >Entrap</a> (Ex)</b> The mud from an <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>'s <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a> ability can be washed away in 1d3 rounds of immersion in water.</p>
+				
+				<p class="stat-block-title">Small Mud Elemental	CR 1</p>
+				<p class="stat-block-xp"><b>XP 400</b></p>
+				<p class="stat-block-1">N Small <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, water)</p>
+				<p class="stat-block-1"><b>Init</b> &ndash;1; <b>Senses</b> darkvision 60 ft., tremorsense 30 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +5</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 16, touch 10, flat-footed 16 (&ndash;1 Dex, +6 natural, +1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 13 (2d10+2)</p>
+				<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +2, <b>Will</b> +0</p>
+				<p class="stat-block-1"><b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow 10 ft., swim 30 ft.; <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >earth glide</a></p>
+				<p class="stat-block-1"><b>Melee</b> slam +5 (1d4+3 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a>)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a> (DC 12, 10 minutes, hardness 5, hp 5)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 8, <b>Con</b> 13, <b>Int</b> 4, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> +3; <b>CMD</b> 12</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb" >Climb</a> +6, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +3, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +1, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +5, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +7, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim" >Swim</a> +10</p>
+				
+				<p class="stat-block-title">Medium Mud Elemental	CR 3</p>
+				<p class="stat-block-xp"><b>XP 800</b></p>
+				<p class="stat-block-1">N Medium <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, water)</p>
+				<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> darkvision 60 ft., tremorsense 30 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +7</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 16, touch 10, flat-footed 16 (+6 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 30 (4d10+8)</p>
+				<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +4, <b>Will</b> +1</p>
+				<p class="stat-block-1"><b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow 10 ft., swim 30 ft.; <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >earth glide</a></p>
+				<p class="stat-block-1"><b>Melee</b> slam +7 (1d6+4 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a>)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a> (DC 14, 10 minutes, hardness 5, hp 5)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 10, <b>Con</b> 15, <b>Int</b> 4, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +4; <b>CMB</b> +7; <b>CMD</b> 17</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb" >Climb</a> +8, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +5, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +2, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +7, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +5, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim" >Swim</a> +11</p>
+				
+				<p class="stat-block-title">Large Mud Elemental	CR 5</p>
+				<p class="stat-block-xp"><b>XP 1,600</b></p>
+				<p class="stat-block-1">N Large <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, water)</p>
+				<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> darkvision 60 ft., tremorsense 30 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +11</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 17, touch 10, flat-footed 16 (+1 Dex, +7 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 68 (8d10+24)</p>
+				<p class="stat-block-1"><b>Fort</b> +9, <b>Ref</b> +7, <b>Will</b> +2</p>
+				<p class="stat-block-1"><b>DR</b> 5/&mdash;; <b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow 10 ft., swim 30 ft.; <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >earth glide</a></p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +12 (1d8+5 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a> (DC 17, 10 minutes, hardness 10, hp 10)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 12, <b>Con</b> 17, <b>Int</b> 4, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +8; <b>CMB</b> +14; <b>CMD</b> 25</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-cleave" >Great Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-bull-rush" >Greater Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb" >Climb</a> +12, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +8, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +4, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +11, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +4, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim" >Swim</a> +13</p>
+				
+				<p class="stat-block-title">Huge Mud Elemental	CR 7</p>
+				<p class="stat-block-xp"><b>XP 3,200</b></p>
+				<p class="stat-block-1">N Huge <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, water)</p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft., tremorsense 30 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +13</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 20, touch 12, flat-footed 16 (+3 Dex, +1 dodge, +8 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 95 (10d10+40)</p>
+				<p class="stat-block-1"><b>Fort</b> +11, <b>Ref</b> +10, <b>Will</b> +3</p>
+				<p class="stat-block-1"><b>DR</b> 5/&mdash;; <b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow 10 ft., swim 30 ft.; <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >earth glide</a></p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +15 (2d6+7 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a> (DC 19, 10 minutes, hardness 5, hp 15)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 24, <b>Dex</b> 16, <b>Con</b> 19, <b>Int</b> 6, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +10; <b>CMB</b> +19; <b>CMD</b> 33</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-cleave" >Great Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-bull-rush" >Greater Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb" >Climb</a> +17, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +13, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +7, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +13, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +8, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim" >Swim</a> +15</p>
+				
+				<p class="stat-block-title">Greater Mud Elemental	CR 9</p>
+				<p class="stat-block-xp"><b>XP 6,400</b></p>
+				<p class="stat-block-1">N Huge <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, water)</p>
+				<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> darkvision 60 ft., tremorsense 30 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +16</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 22, touch 13, flat-footed 17 (+4 Dex, +1 dodge, +9 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 123 (13d10+52)</p>
+				<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +14, <b>Will</b> +4</p>
+				<p class="stat-block-1"><b>DR</b> 10/&mdash;; <b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow 10 ft., swim 30 ft.; <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >earth glide</a></p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +20 (2d8+9 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a> (DC 20, 10 minutes, hardness 10, hp 15)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 28, <b>Dex</b> 18, <b>Con</b> 19, <b>Int</b> 8, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +13; <b>CMB</b> +24; <b>CMD</b> 39</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_awesome-blow" >Awesome Blow</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-cleave" >Great Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-bull-rush" >Greater Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb" >Climb</a> +25, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +20, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +15, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +12, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim" >Swim</a> +17</p>
+				
+				<p class="stat-block-title">Elder Mud Elemental	CR 11</p>
+				<p class="stat-block-xp"><b>XP 12,800</b></p>
+				<p class="stat-block-1">N Huge <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, water)</p>
+				<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> darkvision 60 ft., tremorsense 30 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +19</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 23, touch 14, flat-footed 17 (+5 Dex, +1 dodge, +9 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 152 (16d10+64)</p>
+				<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +17, <b>Will</b> +5</p>
+				<p class="stat-block-1"><b>DR</b> 10/&mdash;; <b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype" >elemental</a> traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., burrow 10 ft., swim 30 ft.; <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_earth-glide" >earth glide</a></p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +24 (2d10+10/19&ndash;20 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)" >entrap</a> (DC 22, 10 minutes, hardness 5, hp 15)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 30, <b>Dex</b> 20, <b>Con</b> 19, <b>Int</b> 10, <b>Wis</b> 11, <b>Cha</b> 11</p>
+				<p class="stat-block-1"><b>Base Atk</b> +16; <b>CMB</b> +28; <b>CMD</b> 44</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_awesome-blow" >Awesome Blow</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-cleave" >Great Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-bull-rush" >Greater Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical" >Improved Critical</a> (slams), <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb" >Climb</a> +29, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +24, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim" >Swim</a> +18</p>
+				
+				<p>Where the Plane of Earth borders the Plane of Water, a mixing of the fundamental elements occurs&mdash;it is in this borderland that the mud elementals dwell. Scorned by earth and water elementals, mud elementals usually look like vaguely recognizable blobs of mud in the shape of a Material Plane creature, whether a humanoid, an animal, or even an immense insect. The exact density of their muddy bodies varies&mdash;some might be composed of silty water, while others are thick, like river clay. Large and powerful mud elementals tend to have worm-like, reptilian, or frog-like forms. </p>
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

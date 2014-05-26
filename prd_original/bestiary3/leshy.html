@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Leshy</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Leshy",globalNavPath=[{ href: '/pathfinderRPG/prd/bestiary3/monsterIndex.html', name: 'Bestiary 3 Index'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+			
+			<div>
+				<h1 id="leshy" class="monster-header">Leshy</h1>
+				<p>Originally grown as servants for more powerful fey and intelligent plant life such as elder treants, leshys are sentient plants who look after their unintelligent brethren and serve as nature's verdant watchers. Several breeds of leshy exist, each being kindred to a broad group of plants or fungi. Among the best known are superstitious gourd leshys, wise seaweed leshys, strange fungus leshys, and wary leaf leshys, though others are rumored to exist, such as the surly cactus leshy, the sinister flytrap leshy, the garrulous snapdragon leshy, and the enigmatic lotus leshy. </p>
+				<p>Leshys begin their existence as sentient though bodiless spirits of nature of the sort contacted by spells such as <i><a href="/pathfinderRPG/prd/spells/communeWithNature.html#_commune-with-nature" >commune with nature</a></i>. These spirits normally have no way to directly manipulate the physical world, but a skilled spellcaster (typically a druid) can grow a special plant body for one of these spirits, giving the spirit a home to animate.</p>
+				<p>Once accepted into a body, a leshy's spirit remains within unless the body is destroyed. Leshys do not fear death as many other creatures do, knowing that should they fall, their spirits merely return to the natural world and can be called to inhabit a new leshy body at some point in the future. As a leshy's body dies, the magic animating it unravels in a burst of life energy that infuses its surrounding and quickens the growth of any plants in the vicinity. Some leshys even voluntarily discorporate to save the lives of ailing plants, knowing that their sacrifice may mean the continuation of countless otherwise helpless flora. Regardless of how a leshy dies, leaving the body traumatizes the spirit, and the leshy retains only faint memories of past corporeal existences. Leshy spirits need not return to the same form if bound again to a body. During the course of its existence a single spirit can inhabit any number of different types of leshys. A leshy without a body has no power to affect or contact the material world.</p>
+				<p>The rites and special materials required to create a leshy's physical form vary between individual leshys. Once the creator assembles the necessary materials, a leshy must typically be grown in an area of natural power, such as a treant's grove, a druidic circle, or a site of pristine natural wonder. A newly born leshy is a free-willed, neutral being, under no obligation to serve its creator.</p>
+				<p>As a group, leshys share certain common attributes. They resemble plants but with vaguely humanoid appearances, and are always Small. While leshys of the same species share the same general shape, leshys have all the diversity of the plant world in appearance. For example, one fungus leshy may have a classic red, white-dotted mushroom cap, while another might have the spongier and darker contours of a morel, while a third might have the coloration of a pale gray cave mushroom. </p>
+				<h1 id="growing-a-leshy">Growing a Leshy</h1>
+				<p>The process of growing a leshy has some similarities to making a construct, but doesn't require the <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct" >Craft Construct</a> feat. Typically, the creator of a leshy must be a powerful druid, but anyone capable of making the required <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> checks and casting the required spells may attempt the process.</p>
+				<p>Growing a leshy body takes 2 weeks per Hit Die, during which the nascent form must be well fertilized, watered as needed, and kept safe from harm. During this period of growth, certain rare nutrients and fertilizer must be used to prime the leshy's transformation from a normal plant into a sentient one&mdash;the cost of these components varies according to the leshy, but is never less than 1,000 gp. The cultivator must make a successful <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> check at this time (usually a <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> [nature] check) in order for the plant body to be properly formed&mdash;the exact check as well as the required DC varies according to the leshy. If the check fails, the plant withers and dies and the cultivator must begin anew.</p>
+				<p>If, on the other hand, the skill check is successful, the cultivator must then step in and perform a 24-hour ritual within a day of the leshy's cultivation. During this ritual, the cultivator must cast a number of spells (see each individual leshy for a list). At the ritual's climax, there's a flat 50% chance that the attempt to create a leshy succeeds&mdash;if this final check fails, no appropriate spirit is close enough to answer the call. The plant body rots and the creator must begin anew with fresh materials if he wishes to try again. At the GM's discretion, this final chance for success might increase to 75% or even 100% for particularly magical areas where leshy spirits are much more common than normal. Discovering such a rare and magical site should be the focus of its own adventure.</p>
+				<p>If the ritual is successful, the leshy awakens fully formed and able to serve as a minion. A freshly created leshy is under no particular compulsion to obey its creator, but most regard their makers as friends and allies.</p>
+				<p>Plant creatures are particularly adept at growing leshys. Such creators gain a +5 racial bonus on their <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> checks, halve the time required to grow the leshy, and reduce the cost to create the creature by 25%. A plant creature is always successful in luring a spirit into the body, and need not make the final percentile roll for success.</p>
+				<p>Leshys with more Hit Dice than normal can be created. Each additional Hit Die adds 2,250 gp to the cost of creating the leshy (and thus 4,500 gp to the overall price), increases the DC of the <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> check by +2, and requires an additional 2 weeks of growth. Attempts to create leshys larger than Small always fail&mdash;the strange spiritual energies that animate these creatures are only capable of doing so to a body no larger than that of a human child.</p>
+
+				<h1 id="leshy,-fungus" class="monster-header">Leshy, Fungus</h1>
+				<p class="flavor-text">Mismatched eyes dot this plant creature's thick mushroom cap, while below works an overlarge maw set with pale fungal teeth.</p>
+				<p class="stat-block-title">Fungus Leshy <span class="stat-block-cr">CR 2</span></p>
+				<p class="stat-block-xp">XP 600</p>
+				<p class="stat-block-1">N Small plant (leshy, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype" >shapechanger</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +2</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 13, touch 13, flat-footed 11 (+2 Dex, +1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 15 (2d8+6)</p>
+				<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +2, <b>Will</b> +2</p>
+				<p class="stat-block-1"><b>Immune</b> electricity, sonic, plant traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> bite +2 (1d6), 2 claws +2 (1d3)</p>
+				<p class="stat-block-1"><b>Ranged</b> puffball +4 (1 plus spores)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> spores</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 4th; concentration +6)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i></p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 15, <b>Con</b> 16, <b>Int</b> 7, <b>Wis</b> 14, <b>Cha</b> 15</p>
+				<p class="stat-block-1"><b>Base Atk</b> +1; <b>CMB</b> +0; <b>CMD</b> 12</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +10 (+14 in swamps and underground), <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +3 (+7 in swamps and underground); <b>Racial Modifiers</b> +4 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> and <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> in swamps and underground</p>
+				<p class="stat-block-1"><b>Languages</b> Druidic, Sylvan; plantspeech (fungi)</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >change shape</a> (Small fungus; <i><a href="/pathfinderRPG/prd/spells/treeShape.html#_tree-shape" >tree shape</a></i>), verdant burst</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any swamp or underground</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or cluster (2&ndash;16)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Puffball (Ex)</b> A fungus leshy can spit a puffball as a standard action. If it hits, this attack deals 1 point of damage (this damage is not modified by Strength) and affects the target struck (but not adjacent targets) with the fungus leshy's spores. The puffball has a range increment of 20 feet.</p>
+				<p class="stat-block-1"><b>Spores (Ex)</b> A fungus leshy is riddled with molds and spores. Anytime a fungus leshy takes damage, a cloud of spores bursts from its body, forcing all adjacent creatures to make a DC 14 Fortitude save or have their vision reduced to 10 feet for 1 minute. Spending a full-round action to wash one's eyes with <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a> ends this effect. The save DC is Constitution-based.</p>
+				
+				<p>Keepers of cavernous mushroom forests and rotting compost pits deep within the swamp, fungus leshys preside over subterranean growth and the rot that fertilizes new life. Among the most alien and monstrous-looking of all leshys, these tiny rot farmers' frightening appearance has more to do with the asymmetrical eeriness intrinsic to molds and fungi than an outward expression of evil. Like all their kin, fungus leshys vary widely in form, often adopting the colors and shapes of the mushrooms and other large fungi common to the areas they tend.</p>
+				<p>Fungus leshys are spawned from realms of underground wonder or the rotting places of the natural world. They perform an important service in the lands they keep, encouraging the growth of fungi, transporting rotting material to fertilize other plants, and making the most use of growth that has died off. Fungus leshys are most active at night and spend the day in the forms of plump fungi amid their ripest compost heaps or fungal glens.</p>
+				<p>Fungus leshys are 2 feet tall and weigh 25 pounds, their spongy interiors full of hollows and fluffy spores.</p>
+				<h1 id="growing-a-fungus-leshy">Growing a Fungus Leshy</h1>
+				<p>A fungus leshy is usually grown amid the compost of a treant's groves, in dens of mold deep underground, or in eerie hillocks at the heart of dense swamplands. </p>
+				<p class="stat-block-title">Fungus Leshy</p>
+				<p class="stat-block-1"><b>CL</b> 8th; <b>Price</b> 2,500 gp</p>
+				<p class="stat-block-breaker">Ritual</p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) 5 ranks, <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i>, <i><a href="/pathfinderRPG/prd/spells/plantGrowth.html#_plant-growth" >plant growth</a></i>, <i><a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-ii" >summon nature's ally II</a></i>; <b>Skill</b> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering or nature) DC 14; <b>Cost</b> 1,250 gp</p>
+
+				<h1 id="leshy,-gourd" class="monster-header">Leshy, Gourd</h1>
+				<p class="flavor-text">This little plant man walks on legs like tangled vines and has a pumpkin carved with eyes and a mouth for a head.</p>
+				<p class="stat-block-title">Gourd Leshy <span class="stat-block-cr">CR 1</span></p>
+				<p class="stat-block-xp">XP 400</p>
+				<p class="stat-block-1">N Small plant (leshy, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype" >shapechanger</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +4</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 13, touch 13, flat-footed 11 (+2 Dex, +1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 9 (1d8+5)</p>
+				<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +2, <b>Will</b> +0</p>
+				<p class="stat-block-1"><b>Immune</b> electricity, sonic, plant traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> slam &ndash;1 (1d3&ndash;2 plus ensnare)</p>
+				<p class="stat-block-1"><b>Ranged</b> seed +3 (1 plus ensnare)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> sneak attack +1d6</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 2nd; concentration +4)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i></p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 6, <b>Dex</b> 15, <b>Con</b> 14, <b>Int</b> 6, <b>Wis</b> 11, <b>Cha</b> 15</p>
+				<p class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> &ndash;3; <b>CMD</b> 9</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +4, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +6 (+10 in plains and undergrowth), <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +0 (+4 in plains and undergrowth); <b>Racial Modifiers</b> +4 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> <br/>and <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> in plains and undergrowth</p>
+				<p class="stat-block-1"><b>Languages</b> Druidic, Sylvan; plantspeech (gourds)</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >change shape</a> (Small gourd; <i><a href="/pathfinderRPG/prd/spells/treeShape.html#_tree-shape" >tree shape</a></i>), keepsake, verdant burst</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any hills or plains</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or patch (2&ndash;16)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Ensnare (Ex)</b> The seeds and slam attack of a gourd leshy entangle the target in vines for 2d4 rounds unless the target makes a DC 12 Reflex save. The target can attempt to burst these entangling vines before the duration expires with a DC 12 Strength check as a full-round action. The save and burst DCs are Constitution-based.</p>
+				<p class="stat-block-1"><b>Keepsake (Su)</b> Gourd leshys can pop off the top of their heads and store a single Fine-sized object such as a dagger or potion inside. <br/>While within the leshy's head, the item is warded by <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i>. In addition, after 24 hours, the item within is cleaned and polished, and, if damaged, repaired as if by a <i><a href="/pathfinderRPG/prd/spells/mending.html#_mending" >mending</a></i> spell. Both spell effects have a caster level equal to twice the leshy's Hit Dice (CL 2nd for most gourd leshys).</p>
+				<p class="stat-block-1"><b>Seed (Ex)</b> A gourd leshy can hurl its seeds as a ranged attack. If it hits, this attack deals 1 point of damage (this damage is not modified by Strength) and affects the target with the gourd leshy's ensnare ability. This attack has a 10-foot range increment. </p>
+				
+				<p>With tangles of leafy vines for limbs and a carved gourd for a head, gourd leshys present a rather comical appearance. Intimately connected with the harvest season, gourd leshys see to the health and sustainable harvest of crops, especially vegetables and grains.</p>
+				<p>Superstition and love of rituals run deep in gourd leshys. They do their best to exactly reproduce what worked before with every trivial activity, and change seemingly random details when attempting tasks they previously failed. Gourd leshys collect random odds and ends as good luck charms, ranging from polished stones to bird feathers to tarnished coins. Credulous to a fault, gourd leshys believe nearly anything they hear from those they trust. However, their admittedly hollow heads still hold memories, and a gourd leshy betrayed rarely forgets.</p>
+				<p>As gourd leshys aren't particularly strong, they often fight dirty. One favorite trick is to wait for an enemy to come within striking distance while in gourd form so that they can assume their true form and make a sneak attack in the same round. </p>
+				<h1 id="growing-a-gourd-leshy">Growing a Gourd Leshy</h1>
+				<p>Gourd leshys grow best in small vegetable patches or in sunny meadows. Carving eyes and a mouth into a growing gourd leshy's “face” is an important part of the growth ritual, for neglecting to do this robs the gourd leshy of its ability to see or speak. The exact nature and appearance of a gourd leshy's features can vary wildly between individuals. </p>
+				<p class="stat-block-title">Gourd Leshy</p>
+				<p class="stat-block-1"><b>CL</b> 6th; <b>Price</b> 1,500 gp</p>
+				<p class="stat-block-breaker">Ritual</p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) 5 ranks, <i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i>, <i><a href="/pathfinderRPG/prd/spells/plantGrowth.html#_plant-growth" >plant growth</a></i>, <i><a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-i" >summon nature's ally I</a></i>; <b>Skill</b> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) DC 13; <b>Cost</b> 750 gp</p>
+
+				<h1 id="leshy,-leaf" class="monster-header">Leshy, Leaf</h1>
+				<p class="flavor-text">This little plant person is clad in a winglike leaf cloak and pinecone armor, wielding a twig as a makeshift spear.</p>
+				<p class="stat-block-title">Leaf Leshy <span class="stat-block-cr">CR 1/2</span></p>
+				<p class="stat-block-xp">XP 200</p>
+				<p class="stat-block-1">N Small plant (leshy, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype" >shapechanger</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +1</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 13, touch 12, flat-footed 12 (+1 armor, +1 Dex, +1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 5 (1d8+1)</p>
+				<p class="stat-block-1"><b>Fort</b> +3, <b>Ref</b> +1, <b>Will</b> +1</p>
+				<p class="stat-block-1"><b>Immune</b> electricity, sonic, plant traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., climb 10 ft., fly 10 ft. (clumsy); glide</p>
+				<p class="stat-block-1"><b>Melee</b> shortspear +2 (1d4&ndash;2/19&ndash;20)</p>
+				<p class="stat-block-1"><b>Ranged</b> seedpods +2 touch (1 plus deafen)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 2nd; concentration +3)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i></p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 6, <b>Dex</b> 13, <b>Con</b> 12, <b>Int</b> 5, <b>Wis</b> 12, <b>Cha</b> 13</p>
+				<p class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> &ndash;3; <b>CMD</b> 8</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> &ndash;1, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +5 (+9 in forests and jungles), <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +1 (+5 in forests and jungles); <b>Racial Modifiers</b> +4 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> and <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> in forests and jungles</p>
+				<p class="stat-block-1"><b>Languages</b> Druidic, Sylvan; plantspeech (trees)</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >change shape</a> (Small tree; <i><a href="/pathfinderRPG/prd/spells/treeShape.html#_tree-shape" >tree shape</a></i>), verdant burst</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any forest or hill</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or grove (2&ndash;16)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Glide (Ex)</b> A leaf leshy cannot use its fly speed to hover. When flying, a leaf leshy must end its movement at least 5 feet lower in elevation than it started.</p>
+				<p class="stat-block-1"><b>Seedpods (Ex)</b> Leaf leshys sprout explosive acorns, pine cones, or other seedpods, and can hurl these as ranged attacks. A seedpod has a range increment of 10 feet and detonates on contact to deal 1 point of bludgeoning damage (this damage is not modified by Strength). Anyone struck by a seedpod must succeed at a DC 11 Fortitude save or be deafened for 1 round. The save DC is Constitution-based.</p>
+				
+				<p>Leaf leshys tend to the well-being of trees, whether natural stands or cultivated orchards. In appearance, they have soft, pulpy-looking bodies and wear clothing made of dozens of leaves. Larger leaves cover their shoulders, often giving them the appearance of wearing cloaks, and most adorn their relatively featureless heads with helmets made from pine cones, nuts, or fruit rinds. This leafy layer of clothing functions as masterwork padded armor for a leaf leshy, but not for any other creature.</p>
+				<p>Leaf leshys love to play at war. When not laboring on their trees, they wheedle any companions to engage in mock duels with their twig spears, resorting to private weapon drills when they must. In actual battle, they are much more cautious, sticking to cover and harrying their foes with hit-and-run tactics, as they have a strongly developed sense of self-preservation.</p>
+				<h1 id="growing-a-leaf-leshy">Growing a Leaf Leshy</h1>
+				<p>Leaf leshys are usually grown under the shade of fruit or nut trees. To grow a leaf leshy, the maker plants an acorn and pine cone together, then mounds up leaves, sticks, and needles around them. When first born, a leaf leshy has no armor, leafy cape, or weapon, but can construct them from available materials given a day and left to its own devices (no <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> check required).</p>
+				<p class="stat-block-title">Leaf Leshy</p>
+				<p class="stat-block-1"><b>CL</b> 5th; <b>Price</b> 1,000 gp</p>
+				<p class="stat-block-breaker">Ritual</p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) 5 ranks, <i><a href="/pathfinderRPG/prd/spells/magicStone.html#_magic-stone" >magic stone</a></i>, <i><a href="/pathfinderRPG/prd/spells/plantGrowth.html#_plant-growth" >plant growth</a></i>, <i><a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-i" >summon nature's ally I</a></i>; <b>Skill</b> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) DC 12; <b>Cost</b> 500 gp</p>
+
+				<h1 id="leshy,-seaweed" class="monster-header">Leshy, Seaweed</h1>
+				<p class="flavor-text">This vaguely humanoid plant creature has a body formed of soggy green seaweed and wears crude armor made from seashells.</p>
+				<p class="stat-block-title">Seaweed Leshy <span class="stat-block-cr">CR 3</span></p>
+				<p class="stat-block-xp">XP 800</p>
+				<p class="stat-block-1">N Small plant (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype" >aquatic</a>, leshy, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype" >shapechanger</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +7</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 15, touch 12, flat-footed 14 (+1 armor, +1 Dex, +2 natural, +1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 30 (4d8+12)</p>
+				<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +2, <b>Will</b> +3</p>
+				<p class="stat-block-1"><b>Immune</b> electricity, sonic, plant traits</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., swim 20 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> slam +4 (1d6)</p>
+				<p class="stat-block-1"><b>Ranged</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_jet" >jet</a> +5 (1 plus blind)</p>
+				<p class="stat-block-1"><b>Special Attack</b> sneak attack +1d6</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 8th; concentration +9)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i> (in water only, DC 12)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 13, <b>Con</b> 14, <b>Int</b> 9, <b>Wis</b> 15, <b>Cha</b> 12</p>
+				<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +2; <b>CMD</b> 13</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_ability-focus" >Ability Focus</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_jet" >jet</a>), <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +7, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +9 (+13 in <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a>), <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +3 (+7 in <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a>), <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +8; <b>Racial Modifiers</b> +4 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> and <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> in <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a></p>
+				<p class="stat-block-1"><b>Languages</b> Druidic, Sylvan; plantspeech (seaweed)</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a> cyst, amphibious, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >change shape</a> (Small seaweed; <i><a href="/pathfinderRPG/prd/spells/treeShape.html#_tree-shape" >tree shape</a></i>), verdant burst</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any ocean or coastline</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or patch (2&ndash;16)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >Air</a> Cyst (Su)</b> Seaweed leshys constantly grow small bulbs filled with <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>. As a move action, they can detach a bulb and give it to another creature. If consumed as a standard action, this <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a> cyst grants <i><a href="/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing" >water breathing</a></i> (as the spell) for 10 minutes. Seaweed leshys can have a maximum of four usable <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a> cysts at any one time, and <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a> cysts regrow at a rate of one per 24 hours.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >Water</a> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_jet" >Jet</a> (Ex)</b> A seaweed leshy can expel a high-pressure <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_jet" >jet</a> of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a> from its mouth to a range of 30 feet. It must make a ranged touch attack to strike a target&mdash;if it hits, the blast deals 1 point of bludgeoning damage (this damage is not modified by Strength). In addition, the creature hit must make a DC 15 Fortitude save or be blinded by the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a> for 1 round. The save DC is Dexterity-based.</p>
+				
+				<p>Seaweed leshys usually dwell along coastlines, happily splashing and playing in tide pools, but they are equally at home at sea, floating among large kelp beds. Although perfectly capable of existing out of water indefinitely, seaweed leshys prefer to limit their time away from the sea almost out of a sense of pride. Most seaweed leshys take a dim view of freshwater plant life, to the point of mocking such plants in the same way an urbanite might talk down to folk who live in more rural areas. Rumors of freshwater leshys are a sure way to bring peals of mocking laughter from a seaweed leshy.</p>
+				<p>Seaweed leshys resemble miniature, waterlogged green humans grown from leafy green seaweed, with skinny arms and legs, webbed hands and feet, and long strands of brown, green, or red seaweed for hair. They wear armor made from a pair of large clam shells or from several smaller shells tied together. This armor functions as a suit of masterwork padded armor for a seaweed leshy, but not for any other creature.</p>
+				<p>Patient and thoughtful by inclination (save for matters associated with those silly freshwater leshys), seaweed leshys believe that in time nature brings what is needed by the ebb and flow of the tide or the steady flow of the river. They counsel against hasty decisions and rash actions, always preferring to wait and see what another day might bring. </p>
+				<h1 id="growing-a-seaweed-leshy">Growing a Seaweed Leshy</h1>
+				<p>Seaweed leshys must be grown in seawater. The leshy's maker plants a strand of kelp or other seaweed in the water and treats it daily with bone ash to encourage algal growth. When first created, a seaweed leshy has no armor, but can construct it from available materials given a day and left to its own devices (no <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> check required).</p>
+				<p class="stat-block-title">Seaweed Leshy</p>
+				<p class="stat-block-1"><b>CL</b> 10th; <b>Price</b> 4,500 gp</p>
+				<p class="stat-block-breaker">Ritual</p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) 5 ranks, <i><a href="/pathfinderRPG/prd/spells/plantGrowth.html#_plant-growth" >plant growth</a></i>, <i><a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-iii" >summon nature's ally III</a></i>, <i><a href="/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing" >water breathing</a></i>; <b>Skill</b> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) DC 16; <b>Cost</b> 2,250 gp</p>
+			</div>
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

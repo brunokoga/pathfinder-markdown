@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Vishkanyas</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Vishkanyas",globalNavPath=[{ href: '/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html', name: 'Uncommon Races'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body">
+
+<h1 id="vishkanyas">Vishkanyas</h1>
+<p>Vishkanyas are a race of exotic humanoids with poisonous blood. Possessed of an alien beauty, these graceful humanoids see the world through serpentine eyes of burnished gold. Their supple skin is covered with tiny scales, often of a light green, which are sometimes arrayed in patterns not unlike those of a serpent. They cannot be generalized as good or evil, but since they truly speak with forked tongues, they are content to accept the gold they're offered and leave questions of morality to others.</p>
+
+<h1 id="vishkanya-racial-traits">Vishkanya Racial Traits</h1>
+<p id="+2-dexterity,-+2-charisma,--2-wisdom"><b>+2 Dexterity, +2 Charisma, &ndash;2 Wisdom</b>: Vishkanyas are graceful and elegant, but they are often irrational.</p>
+<p id="vishkanya"><b>Vishkanya</b>: Vishkanyas are humanoids with the vishkanya subtype.</p>
+<p id="medium"><b>Medium</b>: Vishkanyas are Medium creatures and have no bonuses or penalties due to their size.</p>
+<p id="normal-speed"><b>Normal Speed</b>: Vishkanyas have a base speed of 30 feet.</p>
+<p id="low-light-vision"><b>Low-Light Vision</b>: Vishkanyas can see twice as far as humans in conditions of dim light.</p>
+<p id="keen-senses"><b>Keen Senses</b>: Vishkanyas receive a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks.</p>
+<p id="limber"><b>Limber</b>: Vishkanyas receive a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> and <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks.</p>
+<p id="poison-resistance"><b>Poison Resistance</b>: A vishkanya has a racial bonus on saving throws against poison equal to its Hit Dice.</p>
+<p id="poison-use"><b>Poison Use</b>: Vishkanyas are skilled in the use of poison and never accidentally poison themselves when using or applying poison.</p>
+<p id="toxic"><b>Toxic</b>: A number of times per day equal to his Constitution modifier (minimum 1/day), a vishkanya can envenom a weapon that he wields with his toxic saliva or blood (using blood requires the vishkanya to be injured when he uses this ability). Applying venom in this way is a swift action.</p>
+<blockquote>
+<p id="vishkanya-venom"><i>Vishkanya Venom</i>: Injury; <i>save</i> Fort DC 10 + 1/2 the vishkanya's Hit Dice + the vishkanya's Constitution modifier; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1d2 Dex; <i>cure</i> 1 save.</p>
+</blockquote>
+<p id="weapon-familiarity"><b>Weapon Familiarity</b>: Vishkanyas are always proficient with blowguns, kukri, and shuriken.</p>
+<p id="languages"><b>Languages</b>: Vishkanyas begin play speaking Common and Vishkanya. Vishkanyas with high Intelligence scores can choose from the following: Aklo, Draconic, Elven, Goblin, Sylvan, <br/>and Undercommon.</p>
+				
+<h1 id="alternate-racial-traits">Alternate Racial Traits</h1>
+<p>The following racial traits may be selected instead of existing vishkanya racial traits. Consult your GM before selecting any of these new options.</p>
+<p id="sensual"><b>Sensual</b>: You are trained in drawing attention to yourself. You gain a +2 bonus on any one <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> skill. This racial trait replaces keen senses. </p>
+<p id="subtle-appearance"><b>Subtle Appearance</b>: You have normal (humanlike) eyes, and your beauty is more conventional. You gain a +4 bonus on <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> checks to look fully human. This racial trait replaces low-light vision.</p>
+				
+<h1 id="favored-class-options">Favored Class Options</h1>
+<p>The following options are available to all vishkanyas who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.</p>
+<p id="bard"><b>Bard</b>: Add +1 to the bard's total number of bardic performance rounds per day.</p>
+<p id="rogue"><b>Rogue</b>: Add +1 to the rogue's CMD when resisting a grapple or reposition attempt.</p>
+<p id="sorcerer"><b>Sorcerer</b>: Select one bloodline power at 1st level that is normally usable a number of times per day equal to 3 + the sorcerer's Charisma modifier. The sorcerer adds +1/2 to the number of uses per day of that bloodline power.</p>
+				
+<h1 id="racial-archetypes">Racial Archetypes</h1>
+<p>The following racial archetype is available to vishkanyas.</p>
+				
+<h2 id="deadly-courtesan-(rogue)">Deadly Courtesan (Rogue)</h2>
+<p>Skilled at manipulation and diversion, the deadly courtesan builds up those around her and periodically takes them down. She can be a spy, entertainer, assassin, bodyguard, or just an intimate to someone who needs it most. A deadly courtesan has the following class features.</p>
+<p id="class-skills"><b>Class Skills</b>: At 1st level, a deadly courtesan adds <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) and <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) to her list of class skills and removes <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) from her list of class skills.</p>
+<p id="bardic-performance"><b>Bardic Performance (Su)</b>: At 2nd level, a deadly courtesan gains the bardic performance ability and the fascinate bardic performance. Her fascinate DC is 10 + 1/2 her rogue level + her Charisma modifier. She can use this bardic performance for a number of rounds per day equal to 1 + her Charisma modifier. At each level after 2nd, she can use bardic performance for 1 additional round per day. If the courtesan also has bard levels, she may use these rounds for either class's fascinate bardic performance, and her bard and rogue levels stack for determining her fascinate DC. This ability replaces the rogue trick gained at 2nd level.</p>
+<p id="inspire-competence"><b>Inspire Competence (Su)</b>: At 3rd level, a deadly courtesan can use her bardic performance to inspire competence. The bonus begins at +2 and increases by +1 for every six levels the courtesan has attained beyond 3rd (+3 at 9th and +4 at 15th). This ability replaces all levels of trap sense.</p>
+<p id="performance-strike"><b>Performance Strike (Sp)</b>: At 8th level, as a swift action, a deadly courtesan may expend rounds of bardic performance to gain a morale bonus on one attack roll. The amount of the bonus is equal to the number of bardic performance rounds expended (maximum bonus equal to 1/2 her deadly courtesan level). This ability replaces improved uncanny dodge.</p>
+<p id="rogue-talents"><b>Rogue Talents</b>: The following rogue talents complement the deadly courtesan archetype: finesse rogue, stand up (<i>Core Rulebook</i>); charmer, coax information, fast fingers, honeyed words ; convincing lie, deft palm.</p>
+<p id="advanced-talents"><b>Advanced Talents</b>: The following advanced rogue talents complement the deadly courtesan archetype: slippery mind (<i>Core Rulebook</i>); master of disguise ; rumormonger, unwitting ally.</p>
+				
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The following options are available to vishkanyas. At the GM's discretion, other appropriate races may also make use of some of these.</p>
+				
+<h2 id="vishkanya-equipment">Vishkanya Equipment</h2>
+<p>Vishkanyas have access to the following equipment.</p>
+<p id="poison-tattoo"><b>Poison Tattoo</b>: This henna-like paste creates a dark brown tattoo on the hands or feet that fades over the next 2d6 days. The tattoo temporarily boosts the strength of a vishkanya's natural poison, increasing the DC of the next weapon envenomed with the vishkanya's blood or saliva by +2 (once used, the tattoo is merely decorative and does not affect the creature's poison). A typical tattoo consists of intricate whorls and spiritual symbols on the hands or feet.</p>
+
+<table><caption>Vishkanya Equipment</caption>
+<thead><tr><th>Item</th><th>Cost</th><th>Weight</th><th>Craft DC</th></tr></thead>
+<tr class="odd"><td>Poison tattoo</td><td>50 gp</td><td>&mdash;</td><td>20</td></tr></table>
+
+				
+<h2 id="vishkanya-feats">Vishkanya Feats</h2>
+<p>Vishkanyas have access to the following feat.</p>
+<div class="feats-text">
+<h3 id="sleep-venom">Sleep Venom</h3>
+<p>You can change the nature of your toxic spittle to put your enemies to sleep.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Vishkanya.</p>
+<p class="stat-block-1"><b>Benefit</b>: As a swift action, you may alter the effects of your venom so the target falls unconscious. This changes the initial and secondary effect of your venom to the following: <i>initial effect</i> staggered for 1d4 rounds; <i>secondary effect</i> unconsciousness for 1 minute. You must make the decision to alter your venom before you apply it to a weapon.</p>
+<p id="normal"><b>Normal</b>: Vishkanya venom deals Dexterity damage.</p>
+</div>
+				
+<h2 id="vishkanya-magic-items">Vishkanya Magic Items</h2>
+<p>Vishkanyas have access to the following magic item.</p>
+<p id="corset-of-the-vishkanya" class="stat-block-title">Corset of the Vishkanya</p>
+<p class="stat-block-1"><b>Aura</b> faint transmutation; <b>CL</b> 3rd</p>
+<p class="stat-block-1"><b>Slot</b> chest; <b>Price</b> 3,000 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-breaker">Description</p>
+<p>This black corset fits neatly beneath armor. As a free action, the wearer can compress herself to fit through tight spaces as though affected by a <i>squeeze</i> spell for up to 10 rounds per day. While using the corset's magic, she gains a +5 bonus on <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> checks.</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/grease.html#_grease" >grease</a></i>, <i>squeeze</i> (see below); <b>Cost</b> 1,500 gp</p>
+				
+<h2 id="vishkanya-spells">Vishkanya Spells</h2>
+<p>Vishkanyas have access to the following spell.</p>
+<p id="squeeze" class="stat-block-title">Squeeze</p>
+<p class="stat-block-1"><b>School</b> transmutation (polymorph); <b>Level</b> alchemist 2, sorcerer/wizard 2, witch 2</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> touch</p>
+<p class="stat-block-1"><b>Target</b> creature touched</p>
+<p class="stat-block-1"><b>Duration</b> 1 minute/level</p>
+<p class="stat-block-1"><b>Save</b> Fortitude negates (harmless); <b>Spell Resistance</b> yes (harmless)</p>
+<p>The target becomes flexible regardless of its actual size and mass. It can move through areas at least half its size with no penalty for squeezing. It can move through a space at least one-quarter its width using the penalties for squeezing through a space at least half its width. </p>
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

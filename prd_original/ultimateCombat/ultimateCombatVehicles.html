@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Ultimate Combat Vehicles</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Ultimate Combat Vehicles",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+			
+			<div>
+				<h1 id="vehicles" class="monster-header">V<span class="char-style-override-5">ehicles</span></h1>
+				
+				
+				<p>In the Pathfinder Roleplaying Game, low-level characters do most of their traveling on their own two feet. At higher levels, magical travel becomes a common occurrence, as does travel by horseback, atop animal companions, or via more exotic mounts. Every so often, travel may involve a vehicle of some sort&mdash;the wagons of a caravan, a wind-tossed galley, some fantastic form of aerial transport, or even a planes-hopping device. If you like your games with a dose of weird, such vehicles may be as strange as a crashed space vessel. Whatever the case, vehicles in the Pathfinder RPG are often treated as either mobile terrain or adventure sites in their own right.</p>
+				<p>Many of the iconic motifs that inspire roleplaying games touch on vehicular adventures, from the voyages of Jason and the Argonauts to pirate tales, from charioteers in blood-soaked arenas under a drone of cheers to those who would chase and tame dragons. History and fiction are full of interesting vehicles performing death-defying actions. The rules in this chapter allow you to run combats with vehicles in the Pathfinder RPG, rather than just treating them as objects or terrain. </p>
+				<p>The following rules attempt to strike a balance between verisimilitude and ease and speed of play during combat. In areas where those two balancing points are conflicted, ease of use should always prevail. </p>
+				<h1 id="vehicle-basics">Vehicle Basics</h1>
+				<p>What follow are the basic rules for using vehicles in the Pathfinder Roleplaying Game. They give an overview of the rules that all vehicles use. </p>
+				<p><b>Drivers</b>: Drivers control vehicles. A driver is a creature with an Intelligence score of at least 3 who is physically able to manipulate a vehicle's driving device and who is both within the driving spaces of a vehicle and actively manipulating the driving device.</p>
+				<p><b>Occupants</b>: Any creature riding, driving, serving as crew on, or providing propulsion for a vehicle is considered its occupant.</p>
+				<p><b>Facing</b>: Unlike characters, vehicles have a forward facing. A vehicle moves best when it moves in the direction of its forward facing.</p>
+				<p><b>Acceleration/Deceleration</b>: Vehicles must accelerate to reach their maximum speed. Each round, with the proper driving action and a successful check, the driver can increase the vehicle's movement by its rate of acceleration, as long that value is no greater than the vehicle's maximum speed. Vehicles must decelerate to slow down and are hard to stop at an exact point. </p>
+				<p><b>Initiative</b>: A vehicle moves at the start of its driver's turn. If a vehicle has no driver, it moves on the turn of the last creature that was its driver, or on a turn determined by the GM. </p>
+				<p><b>Controlling a Vehicle</b>: If a vehicle has a driver, before the driver does anything else on her turn, she must determine what drive action she is taking, and take that action. If the driver takes no action, takes some other action instead of driving the vehicle, or delays or readies an action&mdash;or if there is no driver&mdash;the vehicle takes the “uncontrolled” action. A driver can only take one action each turn to control a vehicle. Once the driver has selected the action, or takes some other action forcing the vehicle to become uncontrolled, the vehicle moves. </p>
+				<p><b>Driving Check</b>: When a driver takes a driving action, she must make a driving check to determine the maneuverability and speed of the vehicle that round. The vehicle's propulsion determines what skill is used for the driving check. A driver can always make a Wisdom check in place of a driving check. The base DCs for all driving checks are DC 5 and DC 20. Use the lower DC when the driver is not in combat and the higher DC when the driver is in combat. </p>
+				<p><b>In Combat</b>: Vehicles, creatures used as propulsion, and crew members do not threaten any area around them, but their drivers and their non-crew occupants do. Vehicles can enter the spaces of objects and creatures smaller than themselves. Vehicles do not have attacks, but they can&mdash;and may be required to&mdash;make vehicular bull rush, vehicular overrun, and ramming combat maneuv<span class="char-style-override-9">ers.</span></p>
+				<h1 id="full-vehicle-rules">Full Vehicle Rules</h1>
+				<p>The basic rules give a general idea of how vehicles act in the structure of the combat round, and how they are different than creatures. The following sections go into greater depth about running vehicles in combat. </p>
+				<h2 id="drivers">Drivers</h2>
+				<p>A vehicle is a special movable object that requires two things to keep it moving&mdash;a driver and a method of propulsion. A driver is a creature with an Intelligence score of 3 or more who is physically able to use the vehicle's driving mechanism. In other words, the creature needs to be the correct size and have the correct anatomy to use whatever tool is used to drive the vehicle. Sometimes a driving mechanism may have its own requirements for use. The driver uses that mechanism and her skill (or her Wisdom)  to control the vehicle. Without a driver, a vehicle will not move or will continue moving in a straight line, depending on the vehicle's state when it becomes driverless. </p>
+				<p>A creature must be the size of a vehicle or smaller in order to drive it.</p>
+				<h2 id="occupants">Occupants</h2>
+				<p>Drivers, riders, any crew, and creatures that serve as propulsion for a vehicle are all considered occupants. All occupants except for crew members and creatures used for propulsion can take actions and threaten areas as regular creatures. Crew members can take no actions nor threaten areas&mdash;their actions and concentration are all consumed by the act of providing propulsion or upkeep for the vehicle.  </p>
+				<h2 id="propulsion-and-driving-checks">Propulsion and Driving Checks</h2>
+				<p>Every vehicle has a method of propulsion. Creatures pull chariots and wagons. Boats and ships are propelled by water currents, wind, muscle, or all three forces. Fantastical airships are held aloft by a variety of propulsion sources, both magical and mundane. The method of propulsion typically affects the speed and maneuverability of a vehicle, but more importantly, a vehicle's propulsion determines the required skill needed to control a vehicle. The following are the general methods of vehicle propulsion, along with what skills are typically needed to drive such vehicles. </p>
+				<p id="alchemical"><b>Alchemical</b>: Rarely, an alchemical engine may propel a vehicle. Powered by steam or more volatile gases and reagents, a vehicle with an alchemical engine requires either a <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) or <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy) check to be driven. The base DC to drive an alchemical vehicle is 10 higher than normal. Alchemical engines can be extremely powerful, with the ability to propel vehicles hundreds of times their size. They can also be very fickle when driven by creatures uninitiated in the secrets of alchemy. </p>
+				<p>When a driver makes a driving check to control an alchemically propelled vehicle with a Wisdom check or a skill she is not trained in and rolls a natural 1, the vehicle's alchemical engine gains the broken condition. When it gains the broken condition, the vehicle's maximum speed and acceleration are both halved, and if the vehicle is currently moving at a rate faster than its new maximum speed, it immediately slows to that speed. </p>
+				<p id="current"><b>Current</b>: From canoes and large ships to winged gliders, vehicles propelled by currents typically manipulate an already existing power source within or outside of nature&mdash;an air current, a water current, or more exotic currents, like conduits of magical energy. Usually, manipulating a current-propelled vehicle requires a skill like <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature), <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (sailor), <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a>, or even <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> or <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana), depending on the nature or makeup of the vehicle and the current the vehicle is manipulating.</p>
+				<p id="water-current" class="stat-block-2"><i>Water Current</i>: Vehicles that only rely on currents of water for their propulsion are somewhat limited. These vehicles can only move in the direction and at the speed of a current unless they also employ some other means of propulsion or manipulation, and thus often have an additional form of propulsion, such as muscle in the case of a canoe, and wind in the case of a galley. A current-driven ship such as a river barge with a crew of two or more creatures requires either a <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (sailor) or <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) check for the driving check, as ships require precision, discipline, and knowledge of the natural world. Smaller water-current vehicles, like canoes, use the <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> skill as the drive skill, as reading the terrain is a very important aspect of maintaining control over those types of vehicles.<br>If it moves with the current, a water-current vehicle's maximum speed depends on the speed of the current (often as high as 120 feet). The acceleration of a water-current vehicle is 30 feet.</p>
+				<br><p id="air-current" class="stat-block-2"><i>Air Current</i>: Air-current vehicles are rather diverse. They can be sailing ships, airships, land ships, or even gliders. A vehicle propelled by air with a crew of two or more creatures requires a <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (sailor) or <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) check as its driving check. Because of their complexity, air-current vehicles always have their driving check DCs increased by 10. Smaller air-current vehicles, such as gliders and wind sleds, use <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> or <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> instead. Much of their control depends on knowledge of flight or proper movements of the body to control the vehicle. <br>Smaller vehicles (size Large or smaller) can move at a speed of 60 feet, can move at twice that amount when they are moving with the air current, and have an acceleration of 30 feet. Larger vehicles can move at a speed of 90 feet, or twice that amount when they are moving with the air current, and have an acceleration of 30 feet.</p>
+				<br><p id="weird-current" class="stat-block-2"><i>Weird Current</i>: Navigating currents of magical energy, burning magma, or the murky rivers of the Shadow Plane could use a number of skills, but likely use skills similar to those needed to operate water-current and air-current vehicles. Weird-current vehicles always have their driving check DCs increased by 10, and sometimes by 15 in more exotic locales and conditions.<br>Weird-current vehicles typically move at the speed of water or air currents, depending on their nature, but have been known to move twice or even triple those speeds.</p>
+				<p id="magic"><b>Magic</b>: Magic provides some of the most powerful and easy-to-use methods of propelling a vehicle, such as an elemental-powered juggernaut or an airship with an arcane device at its heart. Often simply identifying the properties of the magic item providing propulsion gives a creature the ability to use it, but sometimes more complicated magical devices require <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> or <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> to drive properly. </p>
+				<p id="muscle"><b>Muscle</b>: From a chariot to a slave ship filled with captive rowers, moving a vehicle powered by muscle is all about getting a creature or creatures to push, pull, or otherwise propel the vehicle. Based on the type and intelligence of the creatures moving the vehicle, checks for driving muscle-propelled vehicles can use a diverse number of skills, including, but not limited to, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a>, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a>, and <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (driver).</p>
+				<p>Muscle-propelled vehicles come in two forms: pulled and pushed.</p>
+				<p id="pulled" class="stat-block-2"><i>Pulled</i>: This type of propulsion involves one or more creature pulling a vehicle. Unless the creature pulling the vehicle is intelligent (Intelligence score of 3 or higher), either <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (driver) is used for the driving check (driver's choice). Intelligent creatures must be convinced with a <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check (decrease the driving check by 5 if the creature or creatures have the helpful attitude), or forced with an <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> check. Forcing an intelligent creature to pull a vehicle increases the DC by 20.<br>A creature can pull a number of vehicle squares equal to the number of squares in the creature's space to a top speed equal to twice the creature's speed. It can accelerate its space in vehicle squares up to its speed. For instance, a single horse takes up 4 squares, and can pull a 4-square cart 100 feet each round with an acceleration of 50 feet. </p><br>
+				<p id="pushed" class="stat-block-2"><i>Pushed</i>: Pushed vehicles are the exact opposite of pulled vehicles&mdash;vehicles that are pushed by muscle, usually using some form of device manipulated by crew members. Aquatic vehicles are the most likely to be pushed. Lines of rowers use their oars to push the vehicle forward, or a pair of cloud giants may churn a propeller at the aft end of a dirigible. Driving checks for pushed vehicles tend to be <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a>, or <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a>, depending on the intelligence and attitude of the creatures supplying the muscle for the propulsion.<br>For intelligent creatures, use <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> if the creatures providing the propulsion have an attitude of indifferent, friendly, or helpful. Decrease the <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> driving check by 5 if the creatures providing the propulsion are friendly. <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> is used for intelligent creatures with an attitude of unfriendly or hostile. <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> is used if the creatures providing the propulsion are not intelligent.<br>A creature that is pushing a vehicle with the proper mechanical help can push between 5 times to 20 times its space in vehicle squares.<br>The maximum speed and acceleration of a muscle-propelled vehicle depends on the mechanism used to assist the pushing&mdash;see the sample vehicle statistics for examples.</p>
+				<p id="mixed-methods-of-propulsion"><b>Mixed Methods of Propulsion</b>: Large and complicated vehicles, such as large sailing ships, often use multiple forms of propulsion. Sometimes multiple methods add flexibility, but often they work in concert to create faster movement. A vehicle with multiple methods of propulsion often requires a large crew to get it going and keep it moving. If a vehicle has two methods of propulsion, it uses its fastest speed and acceleration and then adds half the speed and acceleration of the second-fastest propulsion. Nothing is added for a third form of propulsion, except for the flexibility of having a back-up form of propulsion.</p>
+				<h2 id="vehicle-size-and-space">Vehicle Size and Space</h2>
+				<p>Vehicles have sizes and spaces different from creature sizes and spaces. Many vehicles are long and thin rather than taking up a space of an equal number of squares per side like creatures do. A wagon, for instance, may take up a 10-by-10-foot square, or may be 10 feet wide and 15 feet or more long. Often one of the shorter sides of the vehicle serves as a vehicle's forward facing.</p>
+				<p id="size-conversion"><b>Size Conversion</b>: Often it is important to know the size category of a vehicle. Use Table 4&ndash;1 to determine the size of a vehicle or its propulsion based on the number of squares it occupies. </p>
+				<p id="driving-space"><b>Driving Space</b>: At least one 5-foot-by-5-foot square on each vehicle must be designated as its driving space&mdash;often such an area encompasses multiple squares. In order to drive a vehicle, an intelligent creature must be within at least one square of the driving space and able to manipulate its driving device. The typical sizes and locations of driving spaces are detailed in the individual vehicle descriptions.</p>
+				
+				<table><caption>Table: Vehicle Size by Squares</caption>
+				<thead><tr><th>Vehicle Squares</th><th>Vehicle Size</th></tr></thead>
+<tr class="odd"><td>2&ndash;6 squares</td><td>Large vehicle</td></tr>
+<tr class="even"><td>7&ndash;12 squares</td><td>Huge vehicle</td></tr>
+<tr class="odd"><td>13&ndash;20 squares</td><td>Gargantuan vehicle</td></tr>
+<tr class="even"><td>21+</td><td>Colossal vehicle</td></tr></table>
+
+				<h2 id="vehicle-facing-and-movement">Vehicle Facing and Movement</h2>
+				<p>Vehicles do not move like creatures, even when they use creatures as propulsion. They tend to move in the direction of their forward facing, and do so quickly. </p>
+				<p id="facing"><b>Facing</b>: Unlike creatures, most vehicles have a forward facing. The facing of the vehicle determines its best path of propulsion. Vehicles are very good at moving in the direction of their forward facing, but it takes time and skill to move them in other directions. A horse-pulled wagon moves forward quickly and with ease, but turning a corner requires proper timing and a crack of the whip. A ship propelled by an air current can take a great deal of effort to stop, especially once it has reached top speed. Vehicle facing represents the effect of inertia on vehicles. </p>
+				<p>When driven correctly, vehicles can move straight ahead, diagonally, or a mix of both within the same movement. Skilled drivers can make a vehicle zigzag in a forward direction with ease. </p>
+				<p id="movement"><b>Movement</b>: Vehicles have a maximum speed and an acceleration listing. The speed is the fastest rate the vehicle can travel. When a creature or creatures pull a vehicle, the vehicle's maximum speed is equal to twice the speed of the creature providing the propulsion, and its acceleration is the creature's speed. (Teams of mixed creature types use the slowest creature's speed.) A vehicle cannot start at its maximum speed, unless it has some form of high-level magic propulsion. Each round, the driver can attempt to accelerate the vehicle or decelerate it by a rate equal to its acceleration (see Driving Vehicles below). The rate at which a vehicle is currently moving is called its current speed.</p>
+				<h2 id="driving-vehicles">Driving Vehicles</h2>
+				<p>Controlling a vehicle takes common sense, awareness, intuition, and often some amount of skill in its method of propulsion. In the case of muscle propulsion, it is about guiding the creatures to move the vehicle. In the case of current propulsion, it is about using the current and tools like sails, oars, or a rudder to move the vehicle. With magic, it is typically about understanding the magic device that powers the propulsion and using the device properly.</p>
+				<p id="driving-actions"><b>Driving Actions</b>: A driver can, at the start of her turn, before taking any other action, take any of the following actions (except the “uncontrolled” action) to control a vehicle. If the driver does not take an action, takes another action, or delays or readies an action, she loses control of the vehicle and the vehicle takes the “uncontrolled” action.</p>
+				<p id="accelerate-(standard-action)" class="stat-block-2"><i>Accelerate (standard action)</i>: With a successful driving check, the vehicle's current speed increases up to its acceleration (in 5-foot increments; minimum 5 feet), but no higher than its maximum speed. The vehicle can move forward or forward diagonally. In other words, each time a vehicle enters a new 5-foot square, it can choose any of its forward-facing squares&mdash;the ones directly in front or either of the squares directly forward and diagonal. This allows the vehicle to swerve. A driver who fails her driving check can only move into squares directly in front of the vehicle's forward facing.</p>
+				<br><p id="decelerate-(standard-action)" class="stat-block-2"><i>Decelerate (standard action)</i>: With a successful driving check, the vehicle's current speed decreases by a rate up to its acceleration (in 5-foot increments; minimum 5 feet). On a failed check, the vehicle does not decelerate. Either way, the vehicle can move forward diagonally. If deceleration reduces a vehicle's speed to 0, some amount of inertia will continue to move the vehicle forward. The vehicle moves forward (either directly forward or forward diagonally) 1d4 <span class="char-style-override-9">&times;</span> 5 feet before coming to a complete stop. Having the <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_expert-driver" >Expert Driver</a> feat reduces this distance by 10 feet (minimum 0 feet). </p>
+				<br><p id="keep-it-going-(move-action)" class="stat-block-2"><i>Keep It Going (move action)</i>: With a successful driving check, the driver can move the vehicle forward on its current facing at its current speed, and it can move forward diagonally. Failing the check keeps the speed constant, but you cannot move the vehicle forward diagonally. </p>
+				<br><p id="reverse-(standard-action)" class="stat-block-2"><i>Reverse (standard action)</i>: A vehicle may only be moved in reverse if it is at a full stop (movement of 0 feet). On a successful driving check, a vehicle can move backward at half its acceleration, moving either directly backward (the reverse of its forward facing) or backward diagonally. On a failed check, it does not move backward. </p>
+				<br><p id="turn-(standard-action)" class="stat-block-2"><i>Turn (standard action)</i>: The driver takes this action to turn a vehicle's forward facing 90 degrees. The vehicle moves its current speed. If a vehicle's current speed is twice its acceleration, the driving check DC increases by 5. If a vehicle's movement is three times its acceleration, the driving check DC increases by 10. If it is four or more times its acceleration, the DC increases by 20. With a successful driving check, the vehicle changes its facing either left or right by 90 degrees at any point during its movement. Do this by pivoting the vehicle so that the left rear or right rear side of the vehicle takes the place of the vehicle's former forward facing side. On a failed check, the vehicle does not turn, but can be moved forward diagonally during its movement.</p>
+				<br><p id="uncontrolled-(no-action)" class="stat-block-2"><i>Uncontrolled (no action)</i>: When the driver does nothing or there is no driver, the vehicle is uncontrolled. An uncontrolled vehicle moves forward only (it cannot move forward diagonally). If a vehicle has muscle propulsion, it decelerates a rate equal to its acceleration. If a vehicle is powered by an air current, water current, or some form of weird current, it slows by 10 feet. These decelerations are cumulative. If a vehicle does nothing, it cannot perform vehicular bull rushes, but can still perform a vehicular overrun or a ramming maneuver.</p>
+				<p id="driving-a-vehicle-outside-of-combat"><b>Driving a Vehicle Outside of Combat</b>: Since driving a vehicle outside of combat is easily accomplished by taking 10 on the skill check, driving checks are not normally needed. Almost every character can do it with relative ease; the DCs are given only to adjudicate special situations that may come up in your game.</p>
+				<p id="driving-a-vehicle-with-magic-propulsion"><b>Driving a Vehicle with Magic Propulsion</b>: Typically, a vehicle with magic propulsion requires actions but no driving checks in order to drive it. When driving a vehicle with magic propulsion, treat every action as though the driver succeeded at the driving check.</p>
+				<p id="driving-a-vehicle-without-the-proper-skill"><b>Driving a Vehicle without the Proper Skill</b>: If a driver lacks the proper skill to drive a vehicle, the driver can always make a Wisdom ability check instead of the appropriate skill check. The driver can even take 10 or gain the benefits of aid another when using Wisdom instead of the vehicle's normal driving skill. </p>
+				<p id="vehicle-crews"><b>Vehicle Crews</b>: Some vehicles require a crew. A vehicle with a full crew complement is as easy to control as any other vehicle. A vehicle without a full crew complement, but with at least half its crew, increases all driving check DCs by 10. A vehicle needs at least half its crew complement in order to be driven at all. Crew members can take no action while the vehicle is in motion except to aid in that vehicle's movement. A crew member does not threaten an area.</p>
+				<h2 id="vehicles-in-combat">Vehicles in Combat</h2>
+				<p>A vehicle in combat can become a target for attacks and can affect combatants with special vehicular maneuvers. The following are the rules for how a vehicle acts in the combat round.</p>
+				<p id="initiative"><b>Initiative</b>: A vehicle moves on its driver's initiative. If a driver delays or readies an action, the vehicle goes out of control, and does nothing except take the uncontrolled action until it stops or someone becomes its new driver.</p>
+				<p id="movement"><b>Movement</b>: At the start of the driver's turn, she makes a driving check to control the vehicle as detailed in the Driving Vehicles section. When doing so, she takes whatever action is required before doing anything else that turn. </p>
+				<p>Vehicles usually ignore difficult terrain due to rubble and foliage, but treat steep inclines as difficult terrain, and depending on the vehicle type and GM judgment, they may be affected by other difficult terrain types as well.</p>
+				<p>Vehicles and creatures that occupy vehicles can enter the spaces of other vehicles and creatures, though doing so usually provokes a vehicular overrun or ramming maneuver. A vehicle can even end its turn in the space of a creature or another vehicle. </p>
+				<p id="threatening"><b>Threatening</b>: Vehicles cannot threaten areas, but their non-crew occupants can. A character driving a vehicle still threatens the squares around her, though she may have limited options for attack depending on the requirements of the device used to drive the vehicle. Creatures used as propulsion do not threaten areas, and are treated as part of the vehicle for purposes of vehicular combat maneuvers. </p>
+				<p id="line-of-sight-and-cover"><b>Line of Sight and Cover</b>: Vehicles typically grant their occupants partial cover (+2 to AC and +1 on Reflex saving throws) against those outside the vehicle, and may grant partial cover against opponents within the vehicles as well. Vehicles with more protection or internal chambers can offer greater cover and can even block line of sight.</p>
+				<p id="jumping-on-or-off-a-vehicle"><b>Jumping On or Off a Vehicle</b>: Jumping on a vehicle is a normal jump of its distance assuming the vehicle has a deck or handholds within the character's height from the ground. Increase the DC of the <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> check by 5 for every 30 feet of the vehicle's current speed. If the jumping creature is on a moving vehicle, calculate the increase in  the <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> skill check DC by calculating the difference between the current speeds of the two vehicles. For every difference of 30 feet (round up), the DC increases by 5.</p>
+				<p>For example, jumping onto a vehicle with a current speed of 90 feet increases the DC by 15 if the jumper is not also on a moving vehicle. If the jumper is on a moving vehicle, and that vehicle is moving at the same current speed as the vehicle the jumper wants to jump to, there is no increase to the DC. If the difference between their speeds is less than 30 feet, the DC of the <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> check increases by 5. If it's between 30 and 60, it increases by 10, and so on. </p>
+				<p>Jumping off a vehicle onto the ground is considered a fall, and treated as if the fall were an additional 10 feet farther for every 30 feet of the vehicle's movement for the purposes of determining damage. <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> can be used to soften this fall, and magic abilities such as <i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall" >feather fall</a></i> can be used to negate the effects of jumping off a vehicle.</p>
+				<p id="taking-control-of-a-vehicle"><b>Taking Control of a Vehicle</b>: If a vehicle has no driver, any creature can take control of the vehicle as long as the creature is within the driving space of the vehicle and makes a driving check as a free action. The vehicle's driver can always give over control to another adjacent creature that is within the driving space of the vehicle as a free action. When a new creature becomes the driver, the vehicle moves on the new driver's turn, but not on the new driver's first turn after taking control of the vehicle. </p>
+				<p>If a creature wants to take control of a vehicle from another forcefully, it must pull the driver off the controls as part of a grapple and take over the driving device as part of a pin. When a creature successfully pins a vehicle's driver, it can choose to end the grapple immediately. When it does, the creature moves the current driver 5 feet to any unoccupied space within the vehicle (this movement does not provoke attacks of opportunity) and becomes the vehicle's new driver. </p>
+				<p id="attacks-against-vehicles"><b>Attacks against Vehicles</b>: A vehicle has a base Armor Class based on its size and other defenses the vehicle has. To calculate the vehicle's actual AC, add the current driver's driving skill modifier (or Wisdom modifier, if it is using that ability to drive the vehicle) to the vehicle's base AC. Touch attacks against a vehicle ignore its driver's driving skill or ability modifier; thus a vehicle's base AC is its touch AC. A vehicle is never considered flat-footed.</p>
+				<p>A vehicle has a base saving throw listed in its stat block. This determines its base Fortitude and Reflex saving throw. A vehicle is immune to effects that require a Will saving throw (though drivers, crew members, passengers, and creatures providing muscle propulsion typically are not). To determine the vehicle's actual Fortitude and Reflex saving throws, add half the driver's driving skill modifier (or half the driver's Wisdom modifier) to the vehicle's base saving throw.</p>
+				<p>Vehicles have hit points, but do not have ability scores, and are immune to ability score damage or drain. They are also immune to bleed damage. A vehicle that takes damage in excess of half its total hit points gains the broken condition. When a vehicle reaches 0 or fewer hit points, but has not yet reached negative hit points equal to the number of squares of its space, it is wrecked. When a vehicle reaches a negative number of hit points equal to the number of squares it takes up, it is destroyed.</p>
+				<p>Unlike other objects, vehicles do not take half damage from energy attacks, but do take half damage from all ranged weapons except siege weapons. </p>
+				<p>When attacking a vehicle, you can attack the vehicle's structure, occupant, propulsion, driving device, or conveyance (if any).</p>
+				<p id="attacking-the-structure" class="stat-block-2"><i>Attacking the Structure</i>: This is an attack against the vehicle itself. If successful, the vehicle takes damage normally. </p>
+				<br><p id="attacking-an-occupant" class="stat-block-2"><i>Attacking an Occupant</i>: This is a normal attack against an occupant creature. Occupants get partial cover or greater if the attack is coming from outside of the vehicle. Grappling the driver is one method for taking control of the vehicle.</p>
+				<br><p id="attacking-propulsion" class="stat-block-2"><i>Attacking Propulsion</i>: Propulsion often has its own set of statistics, while creatures propelling a vehicle use their own statistics. Other types of propulsion have hit points and hardness determined by multiplying the values listed in the Propulsion Devices sidebar by the vehicle's total number of squares of that type. Individual vehicle stat blocks also detail their propulsion.<br>If a vehicle is being pulled by creatures, and any of those creatures is killed, dazed, stunned, or becomes unconscious, the vehicle comes to a sudden stop. If a vehicle has a crew, and half or more of that crew is killed, dazed, stunned, or rendered unconscious, the vehicle can no longer be controlled.</p>
+				<br><p id="attacking-the-driving-device" class="stat-block-2"><i>Attacking the Driving Device</i>: A driving device is its own object with its own statistics. When a driving device gains the broken condition or is disabled, all driving checks are increased by 10. When a driving device is destroyed, the vehicle can no longer be driven. Driving devices are typically objects with object immunities and resistances.</p>
+				<br><p id="attacking-conveyance" class="stat-block-2"><i>Attacking Conveyance</i>: An attack against wheels, rudders, or similar forms of conveyance takes a &ndash;10 penalty on the attack roll, but does maximum damage to the vehicle (no roll necessary). If the attack is a critical hit, multiply this maximum damage by the critical multiplier of the attack. Conveyances are typically objects with object immunities and resistances.</p>
+				<br><p id="vehicle-combat-maneuvers"><b>Vehicle Combat Maneuvers</b>: Vehicles typically don't have attacks, though some can be fitted with siege weapons. A vehicle can make, and is often required to make, a vehicular bull rush, vehicular overrun, or ramming maneuver as part of its movement. Unlike creatures, a vehicle can enter the space of creatures or objects smaller than it, and when it does, it makes either a vehicular overrun or vehicular bull rush. When a vehicle hits a creature or a vehicle that is its size or larger, or it hits a solid object (a wall or structure that is immobile and has a hardness of 5 or more), it makes a ramming maneuver. </p>
+				<br><p id="vehicular-overrun" class="stat-block-2"><i>Vehicular Overrun</i>: Any time any part of a vehicle (including any creatures used as propulsion) enters the space of a creature or vehicle smaller than it, the driver must make a vehicular overrun combat maneuver against the creature or vehicle. This may require the driver to make vehicular overrun checks against the same creature numerous times as new parts of the vehicle enter its square.
+				<br>When performing a vehicular overrun, the driver uses the base CMB of the vehicle plus her driving skill modifier (or Wisdom skill modifier if she is using that ability to drive the vehicle) as the CMB of the vehicular overrun. If the driver has feats that improve her CMB when overrunning, like the <a href="/pathfinderRPG/prd/feats.html#_improved-overrun" >Improved Overrun</a> feat, she may also add those modifiers and benefits to the vehicular overrun. Like a normal overrun, this action provokes an attack of opportunity from the creature being overrun, unless the driver has the <a href="/pathfinderRPG/prd/feats.html#_improved-overrun" >Improved Overrun</a> feat. The creature being overrun can make this attack of opportunity on any part of the vehicle that is within reach.
+				<br>When a vehicular overrun is attempted, the target of the overrun may choose to avoid the vehicle, allowing the vehicle to pass through its space without requiring a vehicular overrun maneuver check. The creature or vehicle cannot avoid a maneuver check if the driver has the <a href="/pathfinderRPG/prd/feats.html#_improved-overrun" >Improved Overrun</a> feat, the vehicle is two or more size categories larger than the target, or the target creature is confused, dazed, entangled, flat-footed, helpless, paralyzed, prone, or stunned. If the target does not avoid the vehicle, make the combat maneuver check as normal. If the maneuver is successful, the vehicle moves through the target's space, and the target of the overrun takes the vehicle's ramming damage. If the driver's combat maneuver check exceeds the target's CMD by 5 or more, the target takes twice the vehicle's ramming damage. If the target is a creature, it is also knocked prone. If the target has more than two legs, it gets a +2 bonus to its CMD for each additional leg it has. Vehicles that are overrun are knocked prone if the opposing driver's combat maneuver check result exceeds the vehicle's CMD by 10 or more. A vehicle that is knocked prone makes a sudden stop.
+				<br>It takes at least 5 full-round actions and a DC 25 Strength check from creatures adjacent to the vehicle to push a Large land or water vehicle up from being prone. For every size category that the vehicle is larger than size Large, increase the number of full-round actions by three and the Strength check DC by 5. The driver of a prone air vehicle must succeed at a DC 25 <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> check immediately to avoid falling. A vehicle equipped with a ram deals +2d8 points of damage with a vehicular overrun.</p>
+				<br><p id="vehicular-bull-rush" class="stat-block-2"><i>Vehicular Bull Rush</i>: As a swift action, taken when the driver takes all but the “uncontrolled” action while driving the vehicle, a driver can choose to substitute all or some of her vehicular overruns with vehicular bull rush maneuvers until the end of the vehicle's movement that turn. A vehicular bull rush pushes a creature or a vehicle away without doing harm. If the driver does not have the <a href="/pathfinderRPG/prd/feats.html#_improved-bull-rush" >Improved Bull Rush</a> feat or a similar ability, initiating a vehicular bull rush provokes an attack of opportunity from the creature being bull rushed with the vehicle.<br>If the bull rush is successful, the target of the bull rush is pushed 5 feet away from the vehicle. If you succeed at the check for the vehicular bull rush by 5 or more, you can deal the vehicle's ramming damage to the creature. For every 5 by which your attack exceeds your opponent's CMD, you push the target an additional 5 feet away. A creature being moved by a vehicular bull rush does not provoke attacks of opportunity, unless the driver possesses the <a href="/pathfinderRPG/prd/feats.html#_greater-bull-rush" >Greater Bull Rush</a> feat. You cannot bull rush a creature or vehicle into a square that is occupied by an object (including a vehicle). If there is another creature in the way of a bull rush, the driver must immediately make a combat maneuver check to bull rush that creature, taking a &ndash;4 penalty on this check for each creature being pushed beyond the first. If successful, the driver can continue to push the creature or vehicle a distance equal to the lesser result.  </p>
+				<br><p id="ramming" class="stat-block-2"><i>Ramming</i>: Any time any part of a vehicle (including any creatures used as propulsion) enters the space of a creature or vehicle of its size or larger, or the space of a solid sturdy object (like a wall or a building) no matter the size of that object, it makes a ramming maneuver against that creature or object. There is no maneuver check for a ramming maneuver; its effects happen automatically. When a vehicle makes a ramming maneuver against a creature or an object, the vehicle deals its ramming damage to the creature or object, and the vehicle takes half that damage. The base amount of damage that a ramming vehicle does and takes is determined by its size. <br>When a vehicle makes a ramming maneuver against a solid object, to determine how much damage both the solid object and the vehicle take, allow the vehicle to enter the solid object's space. The vehicle will only travel through that space if the damage is enough to destroy the solid object; in all other cases the vehicle takes the damage and then comes to a sudden stop directly in front of the solid object.<br>When a vehicle makes a ramming maneuver against a creature, a nonsolid object, or another vehicle, it can enter the space of the object or the creature, and even end its move within that space.<br>A vehicle can have a ram or similar ramming device on its forward facing. If it does, it ignores the damage for the first square it enters of a solid object, and all squares for other objects and creatures. A ram can be added to a Large vehicle for 50 gp, a Huge vehicle for 100 gp, a Gargantuan vehicle for 200 gp, and a Colossal vehicle for 400 gp. A vehicle cannot have a ram if it uses muscle propulsion (pulled).<br>If a vehicle is being pulled by a creature or creatures when the vehicle takes damage due to a ramming maneuver, the creatures that are pulling it are damaged as well, and are knocked prone. A successful Reflex saving throw (DC 10 + 1 for every 10 feet of the speed the vehicle was moving when it hit the vehicle, structure, or creature) halves the damage and the creatures pulling it are not knocked prone. <br>If the vehicle making the ramming maneuver is a muscle-propelled (pulled) vehicle, the creatures pulling the vehicle attempt to avoid making a ramming maneuver. If a ramming maneuver is imminent, those creatures decelerate at a rate of up to twice their acceleration as an immediate action or attempt to swerve out of the way (automatically moving diagonally to avoid the vehicle or structure even if they were not driven to do so), avoiding the vehicle or structure if possible. The driver chooses which of these options occurs. A skilled driver can attempt to force the creature to continue the ramming maneuver, but doing so requires a DC 30 <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a>, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> check, depending on the type and intelligence of the creature. The driver makes this check as an immediate action when the creature tries to decelerate or swerve out of the way.</p><br>
+				
+				<table><caption>Table: Ramming Damage by Size</caption>
+				<thead><tr><th>Vehicle Size</th><th>Damage</th></tr></thead>
+<tr class="odd"><td>Large vehicle</td><td>1d8 </td></tr>
+<tr class="even"><td>Huge vehicle</td><td>2d8</td></tr>
+<tr class="odd"><td>Gargantuan vehicle</td><td>4d8</td></tr>
+<tr class="even"><td>Colossal vehicle</td><td>8d8</td></tr></table>
+
+				
+				<p id="damaging-a-vehicle"><b>Damaging a Vehicle</b>: Vehicles have hit points and hardness based on their primary components. Most vehicles are made of wood. Heavier construction materials are possible, but they at least double the number of squares of propulsion a vehicle requires. Materials like stone or heavy metals quadruple the number of squares of propulsion needed. </p>
+				<p>A vehicle has a total number of hit points equal to its base material hit point value times its vehicle's number of squares. When it is reduced to below half hit points, it becomes broken. When it reaches 0 hit points, it becomes wrecked. When it reaches negative hit points equal to its number of squares, it is destroyed&mdash;it is so damaged it cannot even be used for scrap material.</p>
+				
+				<table><caption>Table: Vehicle Hit Points by Material</caption>
+				<thead><tr><th>Material</th><th>Hit Points per Square</th><th>Hardness</th></tr></thead>
+<tr class="odd"><td>Leather</td><td>10</td><td>0</td></tr>
+<tr class="even"><td>Wood</td><td>15</td><td>5</td></tr>
+<tr class="odd"><td>Stone</td><td>20</td><td>8</td></tr>
+<tr class="even"><td>Metal</td><td>20</td><td>10</td></tr>
+<tr class="odd"><td>Magically treated</td><td>&times;2</td><td>&times;2</td></tr></table><br>
+
+				
+				<p id="broken-condition" class="stat-block-2"><i>Broken Condition</i>: Vehicles, and sometimes their methods of propulsion, are objects, and like any other object, when they take damage in excess of half their hit points, they gain the broken condition. When a vehicle gains the broken condition, it takes a &ndash;2 penalty to AC, on saving throws, and on combat maneuver checks, and the DC to drive the vehicle increases by 2. If a vehicle or its means of propulsion becomes broken, both the maximum speed and the acceleration of the vehicle are halved until repaired. If the vehicle is in motion, and is traveling faster than its new maximum speed, it automatically decelerates to its new maximum speed.</p>
+				<br><p id="wrecked-condition" class="stat-block-2"><i>Wrecked Condition</i>: A vehicle gains the wrecked condition if its hit points are reduced to 0 or fewer. A wrecked vehicle cannot be driven and gains the sinking condition (if in the water) or falls (if in the air). An air vehicle that begins to fall does so at a rate of half its maximum speed each round.<br>If a means of propulsion is reduced to 0 or fewer hit points, it does not gain the wrecked condition. It is instead destroyed. </p><br>
+				<p id="sinking" class="stat-block-2"><i>Sinking</i>: A water vehicle that is reduced to 0 or fewer hit points or a vehicle that is not seaworthy that is plunged into water gains the sinking condition. For a water vehicle, this condition ends when a vehicle is brought to 1 or more hit points, but other vehicles must be removed from the water. A sinking ship fully sinks and is destroyed 10 rounds after gaining the sinking condition. Each additional hit on a sinking ship reduces the remaining time for it to sink by 1 round. Alternatively, when a water vehicle is reduced to a negative number of hit points equal to its number of squares, it sinks immediately. </p>
+				<br><p id="destroyed" class="stat-block-2"><i>Destroyed</i>: A vehicle is destroyed when it is reduced to a number of negative hit points equal to its number of squares. A destroyed vehicle cannot be repaired, and is nothing more than junk.<br>If a vehicle's means of propulsion is an object, it is destroyed when it reaches 0 hit points.<br>If either the means of propulsion or the vehicle is destroyed, it comes to a sudden stop if it is not stopped already. Water vehicles sink and drop to the bottom of the body of water. Air vehicles fall. </p>
+				<p id="sudden-stops"><b>Sudden Stops</b>: When a vehicle comes to a sudden stop&mdash;its movement is reduced to 0 in some way other than the driver using a drive action to slow the vehicle&mdash;both creatures and items on the vehicle are violently pushed toward the vehicle's forward facing a number of squares equal to 1/2 the vehicle's current speed before it came to the sudden stop. This movement does not provoke attacks of opportunity. At the end of this movement, creatures and objects take 1d6 points of damage, and creatures must succeed at a DC 20 Reflex saving throw or be knocked prone. If the movement pushes creatures or objects into solid objects, that creature or object takes an additional 1d6 points of damage for each 5-foot square the push was reduced by the solid object. </p>
+				<p>For instance, if a vehicle with a movement of 60 feet makes a sudden stop due to hitting a brick wall, its driver is thrown 30 feet toward the brick wall. If the brick wall was only 5 feet away from the driver at the point of impact, the driver moves forward 5 feet, hits the wall, and takes 5d6 points of damage. She then takes the original 1d6 points of damage, after which she makes a Reflex saving throw to see if she falls prone for the sudden stop. </p>
+				<p id="repairing-a-vehicle"><b>Repairing a Vehicle</b>: The fastest and easiest way to repair a vehicle is with the <i><a href="/pathfinderRPG/prd/spells/mending.html#_mending" >mending</a></i> and <i><a href="/pathfinderRPG/prd/spells/makeWhole.html#_make-whole" >make whole</a> </i>spells, but more mundane methods can also be used. <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (carpentry) can be used to repair most vehicles made of wood; because of their specialized construction, water vehicles require <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (ships) to repair. Depending on the nature of the damage, such skills like <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (cloth), <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy), <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (engineering), and even various professions can be used to repair vehicles, if the GM approves. In general, a day's worth of work by a single person using the appropriate skill to repair a vehicle requires 10 gp of raw material and a DC 10 skill check, and repairs 10 points of damage on a success, or 5 hit points on a failure.</p>
+				<h1 id="vehicle-statistics">Vehicle Statistics</h1>
+				<p>Below are explanations of some of the traits noted in vehicle statistics. If information for a given category is not listed in a given stat block, it is not applicable.</p>
+				<p id="name"><b>Name</b>: The name of the vehicle.</p>
+				<p id="size-and-type"><b>Size and Type</b>: Divided into land, sea, and air.</p>
+				<p id="squares"><b>Squares</b>: The typical size of the vehicle is measured in a number of squares, followed by the standard configuration of those squares. </p>
+				<p id="cost"><b>Cost</b>: The vehicle's cost in gp. Sometimes the description or the weapons section provides possible modifications for the vehicles. These are not included in the cost of the vehicle, nor are additions like rams or siege engines.</p>
+				<p id="ac-and-hardness"><b>AC and Hardness</b>: This is the AC and harness of the vehicle. The AC assumes the vehicle is in motion and the driver has not modified the AC with his driving skill. If the vehicle is not in motion, it has an effective Dexterity of 0 (&ndash;5 penalty to AC), and an additional &ndash;2 penalty to its AC. </p>
+				<p id="hp"><b>hp</b>: While a vehicle can be attacked in combat, it is often hard to significantly damage large vehicles. When a vehicle reaches the hit point total in the parentheses, it is broken. A vehicle's hit points not factor in its method of propulsion or the driving device. They have their own statistics.</p>
+				<p id="base-save"><b>Base Save</b>: Each vehicle has a base save modifier. All of the vehicle's saving throws (Fortitude, Reflex, and Will) have the same value.  This is the vehicle's save before the  driver modifies it with his driving check. </p>
+				<p id="maximum-speed"><b>Maximum Speed</b>: This is the fastest that a vehicle can move. When a vehicle has more than one method of propulsion, it may also have more than one maximum speed. </p>
+				<p id="cmb-and-cmd"><b>CMB and CMD</b>: The CMB an CMD before the driver modifies it with his driving check modifier.</p>
+				
+				<table><caption>Table: Vehicle AC and CMB Modifier by Size</caption>
+<thead><tr><th>Number of Vehicle Squares</th><th>AC</th><th>CMB Modifier</th></tr></thead>
+				<tr class="odd"><td>Large vehicle</td><td>9</td><td>+1</td></tr>
+				<tr class="even"><td>Huge vehicle</td><td>8</td><td>+2</td></tr>
+				<tr class="odd"><td>Gargantuan vehicle</td><td>6</td><td>+4</td></tr>
+				<tr class="even"><td>Colossal vehicle</td><td>2</td><td>+8</td></tr></table>
+				<p id="acceleration"><b>Acceleration</b>: This is how fast a vehicle can increase its speed each round. It also determines the maximum amount a vehicle can safely decelerate each round. </p>
+				<p id="propulsion"><b>Propulsion</b>: The type and amount of propulsion required.</p>
+				<p id="driving-check:"><b>Driving Check:</b> The skills typically used to make a vehicle driving check with this vehicle.</p>
+				<p id="forward-facing"><b>Forward Facing</b>: The direction of the vehicle's forward facing.</p>
+				<p id="driving-device"><b>Driving Device</b>: The typical driving device the driver manipulates when driving the vehicle. </p>
+				<p id="driving-space"><b>Driving Space</b>: The size and the location of the vehicle's driving space.</p>
+				<p id="crew"><b>Crew</b>: This is the number of crew members, in addition to the driver, needed to move the vehicle.</p>
+				<p id="decks"><b>Decks</b>: The number of decks and any important information about those decks is given in this section.</p>
+				<p id="weapons"><b>Weapons</b>: Some vehicles can be equipped with siege weapons. This is the number of siege or vehicle weapons that a vehicle can have.</p>
+				<h1 id="land-vehicles">Land Vehicles</h1>
+				<p>Land vehicles carry occupants and cargo over hard earth or similar terrain. They are typically propelled by muscle, but can be moved by a variety of propulsion methods. The following are the most common types of land vehicles, including all land vehicles that characters can purchase in the <i>Core Rulebook</i>. </p>
+				<p id="carriage" class="stat-block-title">Carriage</p>
+				<p class="stat-block-1">Large land vehicle</p>
+				<p class="stat-block-1"><b>Squares</b> 6 (10 ft. by 15 ft.; 6 feet high); <b>Cost</b> 100 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 9; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 90 (44)</p>
+				<p class="stat-block-1"><b>Base Save</b> +1</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> twice the speed of the pulling creature(s); <b>Acceleration</b> the speed of the pulling creature(s) </p>
+				<p class="stat-block-1"><b>CMB</b> +1; <b>CMD</b> 11</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>1d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This four-wheeled vehicle can transport as many as four people within an enclosed cab, in addition to one driver and one other person seated next to the driver (often armed).  The carriage's roof can carry 200 pounds of cargo.</p>
+				<p class="stat-block-1"><b>Propulsion</b> muscle (pulled; 6 Medium creatures or 2 Large creatures)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (driver) (in the case of creatures with <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_animal" >animal</a> intelligence pulling the vehicle), <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> (in the case of intelligent creatures pulling the vehicle)</p>
+				<p class="stat-block-1"><b>Forward Facing</b> toward the creatures pulling the vehicle</p>
+				<p class="stat-block-1"><b>Driving Device</b> reins</p>
+				<p class="stat-block-1"><b>Driving Space</b> the most forward squares if the carriage's upper deck.</p>
+				<p class="stat-block-1"><b>Decks</b> 2; a lower cab with enough room for four passengers, and an upper deck with room for a driver and another passenger.</p>
+				<p id="cart" class="stat-block-title">Cart</p>
+				<p class="stat-block-1">Large land vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>2 (5 ft. by 10 ft.; 4 feet high); <b>Cost</b> 15 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 9; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 30 (14)</p>
+				<p class="stat-block-1"><b>Base Save</b> +0</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> twice the speed of the pulling creature(s) &ndash;10 ft.; <b>Acceleration</b> the speed of the pulling creature(s) &ndash;5 ft.</p>
+				<p class="stat-block-1"><b>CMB</b> +1; <b>CMD</b> 11</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>1d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This two-wheeled vehicle is often used to transport small loads of up to 300 pounds of cargo from one settlement to another. </p>
+				<p class="stat-block-1"><b>Propulsion</b> muscle (pulled; 2 Medium creatures or 1 Large creature)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (driver) (in the case of creatures with <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_animal" >animal</a> intelligence pulling the vehicle), <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> (in the case of intelligent creatures pulling the vehicle)</p>
+				<p class="stat-block-1"><b>Forward Facing</b> toward the creatures pulling the vehicle</p>
+				<p class="stat-block-1"><b>Driving Device</b> reins</p>
+				<p class="stat-block-1"><b>Driving Space</b> the most forward square of the cart</p>
+				<p class="stat-block-1"><b>Decks</b> 1</p>
+				<p id="chariot,-light" class="stat-block-title">Chariot, Light</p>
+				<p class="stat-block-1">Large land vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>2 (5 ft. by 10 ft.; 5 feet high); <b>Cost</b> 50 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 9; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 30 (14)</p>
+				<p class="stat-block-1"><b>Base Save</b> +0</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> twice the speed of the pulling creature(s); <b>Acceleration</b> the speed of the pulling creature(s) </p>
+				<p class="stat-block-1"><b>CMB</b> +1; <b>CMD</b> 11</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>1d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">These two-wheeled vehicles are often used for racing or as the platform for a single archer racing though the battlefield at high speeds. </p>
+				<p class="stat-block-1"><b>Propulsion</b> Muscle (pulled; 2 Medium creatures or 1 Large creature)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (driver) (in the case of creatures with <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_animal" >animal</a> intelligence pulling the vehicle), <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> (in the case of intelligent creatures pulling the vehicle)</p>
+				<p class="stat-block-1"><b>Forward Facing</b> toward the creatures pulling the vehicle</p>
+				<p class="stat-block-1"><b>Driving Device</b> reins</p>
+				<p class="stat-block-1"><b>Driving Space</b> the most forward square of the chariot</p>
+				<p class="stat-block-1"><b>Decks</b> 1</p>
+				<p id="chariot,-medium" class="stat-block-title">Chariot, Medium</p>
+				<p class="stat-block-1">Large land vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>4 (10 ft. by 10 ft.; 5 feet high); <b>Cost</b> 100 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 9; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 60 (29)</p>
+				<p class="stat-block-1"><b>Base Save</b> +1</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> twice the speed of the pulling creature(s); <b>Acceleration</b> half the speed of the pulling creature(s) </p>
+				<p class="stat-block-1"><b>CMB</b> +1; <b>CMD</b> 11</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>1d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This two-wheeled vehicle is often used on the battlefield to break apart infantry formations or as a fast-moving fighting platform.</p>
+				<p class="stat-block-1"><b>Propulsion</b> muscle (pulled; 4 Medium creatures or 1 Large creature)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (driver) (in the case of creatures with <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_animal" >animal</a> intelligence pulling the vehicle), <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> (in the case of intelligent creatures pulling the vehicle)</p>
+				<p class="stat-block-1"><b>Forward Facing</b> toward the creatures pulling the vehicle</p>
+				<p class="stat-block-1"><b>Driving Device</b> reins</p>
+				<p class="stat-block-1"><b>Driving Space</b> the two most forward squares of the chariot</p>
+				<p class="stat-block-1"><b>Decks</b> 1</p>
+				<p id="chariot,-heavy" class="stat-block-title">Chariot, Heavy</p>
+				<p class="stat-block-1">Large land vehicle</p>
+				<p class="stat-block-1"><b>Squares</b> 6 (10 ft. by 15 ft.; 5 feet high); <b>Cost</b> 200 gp </p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 8; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 80 (44)</p>
+				<p class="stat-block-1"><b>Base Save</b> +1</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> twice the speed of the pulling creature(s); <b>Acceleration</b> half the speed of the pulling creature(s)</p>
+				<p class="stat-block-1"><b>CMB</b> +2; <b>CMD</b> 12</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>1d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This two-wheeled vehicle is sometimes used as a fighting platform or for transporting a light ballista onto the battlefield. </p>
+				<p id="propulsion" class="stat-block-1-1 para-style-override"><b>Propulsion</b> muscle (pulled; 6 Medium creatures or 2 Large creatures) </p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (driver) (in the case of creatures with <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_animal" >animal</a> intelligence pulling the vehicle), <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> (in the case of intelligent creatures)</p>
+				<p class="stat-block-1"><b>Forward Facing</b> toward the creatures pulling the vehicle</p>
+				<p class="stat-block-1"><b>Driving Device</b> reins</p>
+				<p class="stat-block-1"><b>Driving Space</b> the two most forward squares of the chariot</p>
+				<p class="stat-block-1"><b>Decks</b> 1</p>
+				<p class="stat-block-1"><b>Weapons</b> light ballista</p>
+				<p id="sleigh" class="stat-block-title">Sleigh</p>
+				<p class="stat-block-1">Large land vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>4 (10 ft. by 10 ft.; 3 feet high or 13 feet high with sail); <b>Cost </b>100 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 9; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 60 (29)</p>
+				<p class="stat-block-1"><b>Base Save</b> +1</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> twice the speed of the pulling creature(s) (muscle), or 100 ft. (current); <b>Acceleration</b> half the speed of the pulling creature(s) (muscle), or 30 ft. (current)</p>
+				<p class="stat-block-1"><b>CMB</b> +1; <b>CMD</b> 11</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>1d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This open carriage uses a pair of runners instead of wheels. It is used to travel across snow and ice, and only moves at half speed when used on other surfaces. Sleighs are usually pulled by horses or other suitable creatures, but some are propelled by Huge (8-square) sail mechanisms. If the sleigh uses wind propulsion, it has no space for passengers or cargo.</p>
+				<p class="stat-block-1"><b>Propulsion</b> muscle (pulled; 4 Medium creatures or 1 Large creature; on ice, the creatures must be clawed rather than hoofed) or current (air; 8-square sail; hp 40)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (driver) (in the case of creatures with <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_animal" >animal</a> intelligence), <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> (in the case of intelligent creatures pulling the vehicle), or <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> (in the case of air current; +10 to the DC)</p>
+				<p class="stat-block-1"><b>Forward Facing</b> toward the creatures pulling the vehicle or the front of the sleigh in the case of air current propulsion </p>
+				<p class="stat-block-1"><b>Driving Device</b> reins (muscle propulsion) or rigging (air current propulsion)</p>
+				<p class="stat-block-1"><b>Driving Space</b> the two most forward squares of the sleigh</p>
+				<p class="stat-block-1"><b>Decks</b> 1</p>
+				<p id="steam-giant" class="stat-block-title">Steam Giant</p>
+				<p class="stat-block-1">Gargantuan land vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>16 (20 ft. by 20 ft.; 26 feet high); <b>Cost</b> 80,000 gp </p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 6; <b>Hardness</b> 10</p>
+				<p class="stat-block-1"><b>hp</b> 320 (159)</p>
+				<p class="stat-block-1"><b>Base Save</b> +3</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> 60 ft.; <b>Acceleration</b> 30 ft. </p>
+				<p class="stat-block-1"><b>CMB</b> +4; <b>CMD</b> 14</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>4d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This thankfully rare and expensive walking monstrosity is one of the more bizarre land vehicles in existence. A giant cauldron of iron atop stubby but effective legs, it hobbles its way across the battlefield at a grinding pace. It costs 100 gp in alchemical reagents to fuel 1 hour of activity. Creatures inside the steam giant gain either total cover (in the lower decks) or improved cover (in the upper viewing and control deck). Only the upper deck has view ports, allowing those inside the steam giant to look out. </p>
+				<p class="stat-block-1"><b>Propulsion</b> alchemical (10 squares of alchemical engines; hardness 8, hp 200)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) or <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy) +10 to the DC</p>
+				<p class="stat-block-1"><b>Forward Facing</b> one side of the square vehicle space</p>
+				<p class="stat-block-1"><b>Driving Device</b> two levers used to move the legs</p>
+				<p class="stat-block-1"><b>Driving Space</b> a single 5-ft.-by-5-ft. square that contains the two levers that serve as the steam giant's driving device; these levers are located on the third (top) deck of the vehicle</p>
+				<p class="stat-block-1"><b>Crew</b> 4</p>
+				<p class="stat-block-1"><b>Passengers</b> 6</p>
+				<p class="stat-block-1"><b>Decks</b> 3; The two lower decks give access to the alchemical engine that powers the steam giant. These lower decks have no windows or other way to see outside of the vehicle.  The upper deck is an observation deck that contains the alchemical giant's driving device and driving square.</p>
+				<p class="stat-block-1"><b>Weapons</b> 2 Large direct-fire ranged siege engines on the arms</p>
+				<p id="wagon,-light" class="stat-block-title">Wagon, Light</p>
+				<p class="stat-block-1">Large land vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>4 (10 ft. by 10 ft.; 5 feet high); <b>Cost</b> 50 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 9; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 60 (29)</p>
+				<p class="stat-block-1"><b>Base Save</b> +1</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> twice the speed of the pulling creature(s); <b>Acceleration</b> half the speed of the pulling creature(s)</p>
+				<p class="stat-block-1"><b>CMB</b> +1; <b>CMD</b> 11</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>1d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This four-wheeled vehicle is ideal for transporting decent quantities of goods between communities. It can carry up to 1,00o p0unds of cargo.</p>
+				<p class="stat-block-1"><b>Propulsion</b> muscle (pulled; 4 Medium creatures or 1 Large creature)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (driver) (in the case of creatures with <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_animal" >animal</a> intelligence), <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> (in the case of intelligent creatures pulling the vehicle)</p>
+				<p class="stat-block-1"><b>Forward Facing</b> toward the creatures pulling the vehicle</p>
+				<p class="stat-block-1"><b>Driving Device</b> reins</p>
+				<p class="stat-block-1"><b>Driving Space</b> the two most forward squares of the wagon</p>
+				<p class="stat-block-1"><b>Decks</b> 1</p>
+				<p id="wagon,-medium" class="stat-block-title">Wagon, Medium</p>
+				<p class="stat-block-1">Large land vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>6 (10 ft. by 15 ft.; 5 feet high); <b>Cost</b> 75 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 9; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 90 (44)</p>
+				<p class="stat-block-1"><b>Base Save</b> +1</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> twice the speed of the pulling creature(s); <b>Acceleration</b> half the speed of the pulling creature(s)</p>
+				<p class="stat-block-1"><b>CMB</b> +1; <b>CMD</b> 11</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>1d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This four-wheeled vehicle is used to transport large amounts of goods between communities, and is sometimes used by caravans. It can carry up to 2,000 pounds of cargo. </p>
+				<p class="stat-block-1"><b>Propulsion</b> muscle (pulled; 4 Medium creatures or 1 Large creature)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (driver) (in the case of creatures with <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_animal" >animal</a> intelligence pulling the vehicle), <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> (in the case of intelligent creatures pulling the vehicle)</p>
+				<p class="stat-block-1"><b>Forward Facing</b> toward the creatures pulling the vehicle</p>
+				<p class="stat-block-1"><b>Driving Device</b> reins</p>
+				<p class="stat-block-1"><b>Driving Space</b> the most forward square of the wagon</p>
+				<p class="stat-block-1"><b>Deck</b> 1</p>
+				<p id="wagon,-heavy" class="stat-block-title">Wagon, Heavy</p>
+				<p class="stat-block-1">Huge land vehicle</p>
+				<p class="stat-block-1"><b>Squares</b> 8 (10 ft. by 20 ft.; 5 feet high); <b>Cost</b> 100 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 9; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 120 (59)</p>
+				<p class="stat-block-1"><b>Base Save</b> +2</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> twice the speed of the pulling creature(s); <b>Acceleration</b> half the speed of the pulling creature(s)</p>
+				<p class="stat-block-1"><b>CMB</b> +2; <b>CMD</b> 12</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>2d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This large, four-wheeled vehicle is primarily used in caravans to transport goods over long stretches of territory. These wagons can carry up to 4,000 pounds of cargo. </p>
+				<p class="stat-block-1"><b>Propulsion</b> muscle (pulled; 4 Medium creatures or 1 Large creature)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (driver) (in the case of creatures with <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_animal" >animal</a> intelligence pulling the vehicle), <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> (in the case of intelligent creatures pulling the vehicle)</p>
+				<p class="stat-block-1"><b>Forward Facing</b> toward the creatures pulling the vehicle</p>
+				<p class="stat-block-1"><b>Driving Device</b> reins</p>
+				<p class="stat-block-1"><b>Driving Space</b> the most forward square of the wagon</p>
+				<p class="stat-block-1"><b>Decks</b> 1 </p>
+				<h1 id="water-vehicles">Water Vehicles</h1>
+				<p>Water vehicles move across bodies of water, whether as small as a river or as large as an ocean. They are typically propelled by muscle or sail, but can be moved by a variety of propulsion methods. The following are the most common types of water vehicles, including all water vehicles that characters can purchase in the <i>Core Rulebook</i>.</p>
+				<p id="galley" class="stat-block-title">Galley</p>
+				<p class="stat-block-1">Colossal water vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>104 (20 ft. by 130 ft.); <b>Cost</b> 10,000 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 2; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 1,560 (779)</p>
+				<p class="stat-block-1"><b>Base Save</b> +0</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> 180 ft. (current) or 60 ft. (muscle); <b>Acceleration</b> 30 ft. (current) or 15 ft. (muscle)</p>
+				<p class="stat-block-1"><b>CMB</b> +8; <b>CMD</b> 18</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>8d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">One of the largest sailing ships on the sea, this massive vessel cannot make ocean voyages, and typically sticks to the coast. It can carry 150 tons of cargo or 250 soldiers. </p>
+				<p class="stat-block-1"><b>Propulsion</b> current (air; three masts, 60 squares of sails, hp 300), current (water), or muscle (pushed; 140 Medium rowers)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (sailor) or <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +10 to the DC</p>
+				<p class="stat-block-1"><b>Forward Facing</b> the ship's forward</p>
+				<p class="stat-block-1"><b>Driving Device</b> steering wheel</p>
+				<p class="stat-block-1"><b>Driving Space</b> the nine squares around the steering wheel, typically located in the aft of the ship</p>
+				<p class="stat-block-1"><b>Crew</b> 20 or 160 (if the boat is rowed)</p>
+				<p class="stat-block-1"><b>Decks</b> 3</p>
+				<p class="stat-block-1"><b>Weapons</b> Up to 40 Large direct-fire siege engines in banks of 20 positioned on the port and starboard sides of the galley, or up to 12 Huge direct-fire siege engines in banks of six on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship that they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship. These siege engines cannot be used while the galley is being rowed. For 8,000 gp more, the galley can be fitted with a battering ram and castles with firing platforms fore, aft, and amidships. Each of these firing platforms can hold a single Large direct-fire siege engine that can fire either out the sides of the ship or in the direction of its location. An amidships platform can fire out either the port or starboard sides of the galley. </p>
+				<p id="keelboat" class="stat-block-title">Keelboat</p>
+				<p class="stat-block-1">Colossal water vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>40 (20 ft. by 50 ft.); <b>Cost</b> 13,000 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 2; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 600 (299)</p>
+				<p class="stat-block-1"><b>Base Save</b> +4</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> 60 ft. (current) or 30 ft. (muscle); <b>Acceleration</b> 15 ft. (muscle) or 30 ft. (current)</p>
+				<p class="stat-block-1"><b>CMB</b> +8; <b>CMD</b> 18</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>8d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This long, flat-bottomed ship has a few oars to supplement its single mast with a square sail. It can make both sea and river voyages. The keelboat can carry 50 tons of cargo or 100 soldiers.</p>
+				<p class="stat-block-1"><b>Propulsion</b> current (air; 20 squares of sails, hp 100), current (water), or muscle (pushed; 8 Medium rowers) </p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> while rowed, or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (sailor) or <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +10 to the DC when sail is used</p>
+				<p class="stat-block-1"><b>Forward Facing</b> ship's forward</p>
+				<p class="stat-block-1"><b>Driving Device</b> rudder</p>
+				<p class="stat-block-1"><b>Driving Space</b> the two middle rear squares of the keelboat </p>
+				<p class="stat-block-1"><b>Crew</b> 8 </p>
+				<p class="stat-block-1"><b>Decks</b> 1</p>
+				<p id="longship" class="stat-block-title">Longship</p>
+				<p class="stat-block-1">Colossal water vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>45 (15 ft. by 75 ft.); <b>Cost</b> 10,000 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 2; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 675 (337)</p>
+				<p class="stat-block-1"><b>Base Save</b> +5</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> 120 ft. (current and muscle) or 30 ft. (muscle only); <b>Acceleration</b> 30 ft. (current and muscle) or 15 ft. (muscle only)</p>
+				<p class="stat-block-1"><b>CMB</b> +8; <b>CMD</b> 18</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>8d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This long and relatively thin boat has a single mast with a square sail. It can traverse lakes, oceans, and deep rivers. It can carry 50 tons of cargo or 100 soldiers.</p>
+				<p class="stat-block-1"><b>Propulsion</b> current (air; 10 squares of sails, hp 50), current (water), or muscle (pushed; 40 Medium rowers)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> while rowed, or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (sailor) or <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +10 to the DC when sail is used </p>
+				<p class="stat-block-1"><b>Forward Facing</b> the ship's forward</p>
+				<p class="stat-block-1"><b>Driving Device</b> rudder</p>
+				<p class="stat-block-1"><b>Driving Space</b> the two middle rear squares of the longship</p>
+				<p class="stat-block-1"><b>Crew</b> 40</p>
+				<p class="stat-block-1"><b>Decks</b> 1 (with small cargo area under the deck)</p>
+				<p id="rowboat" class="stat-block-title">Rowboat</p>
+				<p class="stat-block-1">Large water vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>3 (5 ft. by 15 ft.); <b>Cost</b> 50 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 9; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 60 (29)</p>
+				<p class="stat-block-1"><b>Base Save</b> +0</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> 30 ft.; <b>Acceleration</b> 10 ft. </p>
+				<p class="stat-block-1"><b>CMB</b> +1; <b>CMD</b> 11</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>1d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This small water vehicle is primarily used to disembark from larger ships or to traverse small areas of water&mdash;perhaps ferrying a few passengers across a stream or small lake. A rowboat can carry 1,000 pounds of cargo or 2 passengers. </p>
+				<p class="stat-block-1"><b>Propulsion</b> current (water) or muscle (pushed; 1 or 2 Medium rowers; one is the driver)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a></p>
+				<p class="stat-block-1"><b>Forward Facing</b> boat's forward</p>
+				<p class="stat-block-1"><b>Driving Device</b> oars</p>
+				<p class="stat-block-1"><b>Driving Space</b> the center square of the rowboat</p>
+				<p class="stat-block-1"><b>Decks</b> 1</p>
+				<p id="sailing-ship" class="stat-block-title">Sailing Ship</p>
+				<p class="stat-block-1">Colossal water vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>60 (20 ft. by 75 ft.); <b>Cost</b> 10,000 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 2; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 900 (449)</p>
+				<p class="stat-block-1"><b>Base Save</b> +0</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> 180 ft. (current) or 60 ft. (muscle); <b>Acceleration</b> 30 ft. (current) or 15 ft. (muscle)</p>
+				<p class="stat-block-1"><b>CMB</b> +8; <b>CMD</b> 18</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>8d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This massive sailing ship is used for ocean travel. It can carry 150 tons of cargo on top of a full crew and passenger complement. A sailing ship can carry 150 tons of cargo or 200 passengers. </p>
+				<p class="stat-block-1"><b>Propulsion</b> current (air; two masts, 30 squares of sails, hp 150) or current (water)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (sailor) or <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +10 to the DC</p>
+				<p class="stat-block-1"><b>Forward Facing</b> the ship's forward</p>
+				<p class="stat-block-1"><b>Driving Device</b> steering wheel</p>
+				<p class="stat-block-1"><b>Driving Space</b> the nine squares around the steering wheel, typically located in the aft of the ship</p>
+				<p class="stat-block-1"><b>Crew</b> 20</p>
+				<p class="stat-block-1"><b>Decks</b> 2</p>
+				<p class="stat-block-1"><b>Weapons</b> Up to 20 Large direct-fire siege engines in banks of 10 positioned on the port and starboard sides of the ship, or up to 6 Huge direct-fire siege engines in banks of 3 on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship.</p>
+				<p id="warship" class="stat-block-title">Warship</p>
+				<p class="stat-block-1">Colossal water vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>80 (20 ft. by 100 ft.); <b>Cost</b> 25,000 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 2; <b>Hardness</b> 10</p>
+				<p class="stat-block-1"><b>hp</b> 1,200 (599)</p>
+				<p class="stat-block-1"><b>Base Save</b> +0</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> 150 ft. (current) or 60 ft. (muscle); <b>Acceleration</b> 30 ft. (current) or 15 ft. (muscle)</p>
+				<p class="stat-block-1"><b>CMB</b> +8; <b>CMD</b> 18</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>8d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This ship is treated with reinforced wood, and is used for short-distance forays and troop deployment.  A warship can carry 50 tons of cargo or 160 soldiers.</p>
+				<p class="stat-block-1"><b>Propulsion</b> current (air and water; one mast, 160 squares of sails, hp 800) or muscle (pushed; 80 Medium rowers)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (sailor) or <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +10 to the DC</p>
+				<p class="stat-block-1"><b>Forward Facing</b> the ship's forward</p>
+				<p class="stat-block-1"><b>Driving Device</b> steering wheel</p>
+				<p class="stat-block-1"><b>Driving Space</b> the nine squares around the steering wheel, typically located in the aft of the ship</p>
+				<p class="stat-block-1"><b>Crew</b> 60</p>
+				<p class="stat-block-1"><b>Decks</b> 2</p>
+				<p class="stat-block-1"><b>Weapons</b> Up to 20 Large direct-fire siege engines in banks of 10 positioned on the port and starboard sides of the ship, or up to six Huge direct-fire siege engines in banks of three on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship. These weapons cannot be used while the warship is being rowed.</p>
+				<h1 id="air-vehicles">Air Vehicles</h1>
+				<p>Air vehicles fly through the air. They are usually propelled by air currents, alchemical engines, magic, or in the case of larger air vehicles, a mix of air currents and alchemical engines or magic. Airships, because of their nature, travel though all three dimensions instead of two. When they ascend, they must do so at half their current speed. When air vehicles descend, they can (but do not have to) move at double their current speed. After the ascent or descent, treat the vehicle's current speed as it was before making the ascent or descent. </p>
+				<p id="airship" class="stat-block-title">Airship</p>
+				<p class="stat-block-1">Colossal air vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>48 (20 ft. by 60 ft.); <b>Cost</b> 50,000 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 2; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 720 (359)</p>
+				<p class="stat-block-1"><b>Base Save</b> +0</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> 100 ft.; <b>Acceleration</b> 30 ft.</p>
+				<p class="stat-block-1"><b>CMB</b> +8; <b>CMD</b> 18</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>8d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This exotic and expensive vehicle is held aloft by a massive balloon connected by chain to a ship that hangs below. This ship is similar to a sailing ship, complete with an open top, and is propelled by an easily controlled magical engine. Passengers and cargo are carried in the ship. An airship can carry 30 tons of cargo or 100 passengers.</p>
+				<p class="stat-block-1"><b>Propulsion</b> current (air; 90 squares of dirigible, hp 450) and magic</p>
+				<p class="stat-block-1"><b>Driving Check</b> none (magic)</p>
+				<p class="stat-block-1"><b>Forward Facing</b> the ship's forward</p>
+				<p class="stat-block-1"><b>Driving Device</b> magic item</p>
+				<p class="stat-block-1"><b>Driving Space</b> the nine squares around the controlling magic item that sits at the front of the ship</p>
+				<p class="stat-block-1"><b>Crew</b> 0</p>
+				<p class="stat-block-1"><b>Decks</b> 2</p>
+				<p class="stat-block-1"><b>Weapons</b> Up to 6 Large direct-fire siege engines in banks of 3 positioned on the port and starboard sides of the airship, or up to 4 Huge direct-fire siege engines in banks of two on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship.</p>
+				<p id="alchemical-dragon" class="stat-block-title">Alchemical Dragon</p>
+				<p class="stat-block-1">Colossal air vehicle </p>
+				<p class="stat-block-1"><b>Squares </b>60 (20 ft. by 75 ft.); <b>Cost</b> 100,000 gp </p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 2; <b>Hardness</b> 5</p>
+				<p class="stat-block-1"><b>hp</b> 900 (449)</p>
+				<p class="stat-block-1"><b>Base Save</b> +0</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> 100 ft.; <b>Acceleration</b> 30 ft.</p>
+				<p class="stat-block-1"><b>CMB</b> +8; <b>CMD</b> 18</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>8d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">This ship is made of wood and is usually crafted in the shape of a dragon. It is held aloft purely by its alchemical engine, a complicated and dangerous device that has a tendency to explode when the vehicle becomes wrecked. When this happens, if the alchemical dragon has a driver, that driver can make a DC 30 driving check as an immediate action. If the check fails, the alchemical engine explodes, dealing 10d10 points of fire damage to all objects and creatures within a 60-foot radius of the alchemical engine. A DC 20 Reflex save halves the damage. An alchemical dragon can carry up to 20 tons of cargo or 70 passengers.</p>
+				<p class="stat-block-1"><b>Propulsion</b> alchemical (6 squares of alchemical engines in the middle of the ship; hardness 8, hp 120)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy) or <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +10 to the DC</p>
+				<p class="stat-block-1"><b>Forward Facing</b> the ship's forward</p>
+				<p class="stat-block-1"><b>Driving Device</b> steering wheel</p>
+				<p class="stat-block-1"><b>Driving Space</b> the nine squares around the steering wheel that sits at the front of the ship</p>
+				<p class="stat-block-1"><b>Crew</b> 10</p>
+				<p class="stat-block-1"><b>Decks</b> 1</p>
+				<p class="stat-block-1"><b>Weapons</b> Up to 6 Large direct-fire siege engines in banks of 3 positioned on the port and starboard sides of the alchemical <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon" >dragon</a>, or up to 4 Huge direct-fire siege engines in banks of two on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship.</p>
+				<p id="glider" class="stat-block-title">Glider</p>
+				<p class="stat-block-1">Large air vehicle</p>
+				<p class="stat-block-1"><b>Squares </b>4 (10 ft. by 10 ft.); <b>Cost</b> 500 gp</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 9; <b>Hardness</b> 0 (takes double damage from acid and fire attacks)</p>
+				<p class="stat-block-1"><b>hp</b> 20 (9)</p>
+				<p class="stat-block-1"><b>Base Save</b> +0</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Maximum Speed</b> 80 ft.; <b>Acceleration</b> 10 ft. (30 ft. when it first pushes off)</p>
+				<p class="stat-block-1"><b>CMB</b> +1; <b>CMD</b> 11</p>
+				<p class="stat-block-1"><b>Ramming Damage </b>1d8</p>
+				<p class="stat-block-breaker">Description</p>
+				<p class="stat-description-1">A glider is basically a large piece of sail stretched out with a frame and connected to a handhold and straps. The only way to get a glider flying is to jump off a steep incline, allowing the glider to pick up the air current.</p>
+				<p class="stat-block-1"><b>Propulsion</b> current (air; four squares of sail, which serve as the majority of the vehicle, hp 20)</p>
+				<p class="stat-block-1"><b>Driving Check</b> <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> or <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +10 to the DC</p>
+		<h1 id="maneuvering-a-vehicle">Maneuvering a Vehicle</h1>
+				<p>The wagon in this diagram may move in the forward direction if it succeeds at or fails a driving check when the driver “accelerates,” “decelerates,” “keeps it going,” or “turns” the vehicle. It must move in this direction if it is “uncontrolled.” The wagon may move forward diagonally (either left or right) if the driver succeeds at an &quot;accelerate&quot; or “keep it going” driving check, or if the driver succeeds at or fails a &quot;decelerate&quot; or &quot;turn&quot; driving check. It cannot move forward diagonally if it fails an &quot;accelerate&quot; or “keep it going” driving check or if the vehicle is “uncontrolled.”</p>
+				<p>If a vehicle can move forward diagonally, it can move directly forward and any direction forward diagonally, and can even mix its diagonal movement in any direction, allowing it to swerve and even zigzag if the driver so desires.</p>
+				
+							<h1 id="turning-a-vechicle">Turning a Vehicle </h1>
+				<p>The wagon in this diagram is performing a left turn after moving forward. When the vehicle makes the turn, pick up the vehicle and place it in the new space, making vehicular maneuvers only once, as if this repositioning was the vehicle's only movement into its new space.</p>
+				<p>In order to accomplish this maneuver the driver must succeed at a driving check when making a “turn” action. If she does not succeed at the check, the vehicle can only move forward or forward diagonally.</p>
+			
+			<h1 id="optional-rule-wide-turns">Optional Rule: Wide Turns</h1>
+			
+			<p>The rules for turning a vehicle are a simple way of getting vehicles to turn on a grid, but when a vehicle turns, it doesn't do so sharply, even when powered by magic; vehicles rarely make turns evenly. If this simple system involves too much abstraction, you can have vehicles make wide turns.</p>
+
+				<p>Have the driver make a driving check as usual. If she succeeds at the check, she can turn the vehicle. When a vehicle makes a turn, it has a chance to make a vehicular overrun or ramming maneuver on any creature within the turning area, which is a square with sides equal to the vehicle's length, with one vertex touching the front facing of the vehicle on the side opposite to the direction of the turn. In other words, put the square with one side running along the vehicle's front, perpendicular to its forward facing, and another running the direction of its current forward facing. Place the square so its far corner is within the desired destination of the vehicle. If the turn is successful, the vehicle ends this movement in that area, facing toward the direction of the turn. </p>
+				
+				<p>The vehicle then makes either vehicular overruns or vehicular bull rushes (if the driver makes the required swift action) on all creatures and objects within the square that are smaller than it, and makes ramming maneuvers on all creatures and objects that are larger than it, including solid objects. It takes a &ndash;10 penalty on the vehicular bull rush and vehicular overrun maneuvers. The driver can choose to make these in any order she likes. She makes them one at a time (even after the vehicle is wrecked or comes to a sudden stop), and all effects are cumulative. If the vehicle is wrecked or comes to a sudden stop, the GM decides the final resting location within the turning area, picking the most plausible location given the effects.</p>
+				<p>For instance, if the square has two objects larger than the vehicle and three creatures smaller than it, and the driver decides to make the ramming maneuver on the objects first, and then is wrecked during the ramming maneuver on the second object, the vehicle still makes the vehicular overruns on the other two creatures. It ends in a location of the GM's choosing.</p>
+
+				<h1 id="propulsion devices">Propulsion Devices</h1>
+				<p>Squares of propulsion devices have their own statistics, separate from the vehicle's. Use the following rules to determine those statistics.</p>
+				<p id="alchemical-engine"><b>Alchemical Engine</b>: Harvesting the power of steam or some other alchemical reaction, these engines are typically reinforced and difficult to destroy. They can be disabled, and are considered either difficult or extreme devices (<i>Core Rulebook</i> 94) based on the complexity of the device.</p>
+				<p id="creature"><b>Creature</b>: A creature used as propulsion uses its own statistics. During movement and the effects of any combat maneuver, pulling creatures' spaces are considered vehicle spaces to determine the effects of vehicle maneuvers. Creatures pulling a vehicle can be arranged in teams. This means two creatures of the same type and same size can occupy the same space to pull a vehicle.</p>
+				<p id="dirigible"><b>Dirigible</b>: Lighter-than-air alchemical gases can be harnessed to give a vehicle flight. Dirigibles are often easier to destroy than the vehicle they convey. Dirigibles have 5 hit points per square and no hardness. They take double the normal damage from acid, electricity, and fire attacks (multiply the damage roll by 2).</p>
+				<p id="magic-item"><b>Magic Item</b>: Like a creature, a magic item uses its own item statistics.</p>
+				<p id="sails"><b>Sails</b>: Used on magically or alchemically powered airships and on any fast-moving water vehicle, sails are often weaker than the vessels they propel, though they are relatively easy to repair. Taking out the sails is a good way to capture a vessel. Sails have 5 hit points per square and no hardness. They take double the normal damage from acid and fire attacks (multiply the damage roll by 2). While the sails have rigging, such rigging manipulated by the crew, and as such are not considered not driving devices. </p>
+				
+				<table><thead><tr><th>Material</th><th>Hit Points per Square</th><th>Hardness</th></tr></thead>
+				<tr class="odd"><td>Sails</td><td>5</td><td>0</td></tr>
+				<tr class="even"><td>Dirigible</td><td>5</td><td>0</td></tr>
+				<tr class="odd"><td>Alchemical Engine</td><td>20</td><td>8</td></tr>
+				<tr class="even"><td>Magically Treated</td><td>&times;2</td><td>&times;2</td></tr></table>
+
+				<h1 id="driving-devices">Driving Devices</h1>
+				<p>The following are some of the typical driving devices for vehicles, plus their usual Armor Class, hit points, and hardness. A broken driving device increases the driving check of the vehicle by 10. When a driving device is destroyed, a vehicle cannot be driven until the driving device is repaired. </p>
+
+				<table><thead><tr><th>Driving Device</th><th>AC</th><th>Hit Points</th><th>Hardness</th></tr></thead>
+				<tr class="odd"><td>Reins</td><td>14</td><td>10</td><td>0</td></tr>
+				<tr class="even"><td>Rigging</td><td>9</td><td>5 per square of sail</td><td>0</td></tr>
+				<tr class="odd"><td>Steering Wheel</td><td>10</td><td>25</td><td>5</td></tr>
+				<tr class="even"><td>Throttle</td><td>12</td><td>15</td><td>5</td></tr>
+				<tr class="odd"><td>Rudder</td><td>10</td><td>25</td><td>5</td></tr>
+				<tr class="even"><td>Magically Treated</td><td>&mdash;</td><td>&times;2</td><td>&times;2</td></tr></table>
+	
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

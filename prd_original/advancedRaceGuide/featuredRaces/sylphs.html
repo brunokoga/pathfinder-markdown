@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Sylphs</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Sylphs",globalNavPath=[{ href: '/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html', name: 'Featured Races'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body">
+
+<h1 id="sylphs">Sylphs</h1>
+<p>Born from the descendants of humans and beings of elemental air such as djinn, sylphs are a shy and reclusive race consumed by intense curiosity. Sylphs spend their lives blending into the crowd, remaining unnoticed as they spy and eavesdrop on the people around them. They call this hobby "listening to the wind," and for many sylphs it becomes an obsession. Sylphs rely on their capable, calculating intellects and on knowledge gleaned from eavesdropping to deliver them from danger.</p>
+<p><b>Physical Description</b>: Sylphs tend to be pale and thin to the point of appearing delicate, but their skinny bodies are often more resilient than they look. Many sylphs can easily pass for humans with some effort, though the complex blue markings that swirl across their skin reveal their elemental ancestry. Sylphs also bear more subtle signs of their heritage, such as a slight breeze following them wherever they go. These signs become more pronounced as a sylph experiences intense passion or anger, spontaneous gusts of wind tousling the sylph's hair or hot blusters knocking small items off of shelves.</p>
+<p><b>Society</b>: Sylphs are usually born to human parents, and so are raised according to human customs. Most sylphs dislike the attention they receive growing up in human society, so it's common for them to leave home soon after coming of age. They rarely abandon civilization altogether, however, preferring instead to find some new city or settlement where they can go unnoticed among (and spy upon) the masses. A sylph who happens upon another sylph unnoticed instantly becomes obsessed with her kin, spying on and learning as much about the other as she possibly can. Only after weighing all the pros and cons and formulating plans for every potential outcome will the sylph introduce herself to the other. Rarely, two sylphs will discover each other's presence in a community at the same time. What ensues thereafter is a sort of cat-and-mouse game, a convoluted dance in which each sylph spies on the other as both attempt to gain the upper hand. Sylphs who meet this way always become either inseparable friends or intractable enemies. </p>
+<p><b>Relations</b>: Sylphs enjoy prying into the affairs of most other races, but have little taste for actually associating with most of them. Sylphs can relate on some level with elves, who share their tendency toward aloofness, but often spoil any possible relationship by violating the elven sense of privacy. Dwarves distrust sylphs intensely, considering them flighty and unreliable. They form excellent partnerships with halflings, relying on the short folk's courage and people skills to cover their own shortcomings. Sylphs are amused by the annoyed reactions they provoke in ifrits, and find oreads too boring to give them much attention. </p>
+<p><b>Alignment and Religion</b>: Sylphs have little regard for laws and traditions, for such strictures often prohibit the very things sylphs love&mdash;subterfuge and secrecy. This doesn't mean sylphs are opposed to law, merely that they use the most expedient means available to accomplish their goals, legal or not. Most sylphs are thus neutrally aligned. Sylphs are naturally drawn to mystery cults, and to deities who focus on secrets, travel, or knowledge.</p>
+<p><b>Adventurers</b>: An inborn urge to get to the bottom of things drives many sylphs to the adventuring life. A sylph who runs across the trail of a mystery will never be satisfied until she has uncovered every thread of evidence, followed up on every lead, and found the very heart of the trouble. Such sylphs make plenty of enemies by poking around into other peoples' affairs, and usually turn to their roguish talents or wizardry to defend themselves. </p>
+<p><b>Male Names</b>: Akaash, Eydan, Hanuun, Siival, Vasaam.</p>
+<p><b>Female Names</b>: Inam, Keeya, Lissi, Nava, Radaya, Tena.</p>
+
+<h1 id="sylph-racial-traits">Sylph Racial Traits</h1>
+<p id="+2-dexterity,-+2-intelligence,--2-constitution"><b>+2 Dexterity, +2 Intelligence, &ndash;2 Constitution</b>: Sylphs are quick and insightful, but slight and delicate.</p>
+<p id="native-outsider"><b>Native Outsider</b>: Sylphs are outsiders with the native subtype.</p>
+<p id="medium"><b>Medium</b>: Sylphs are Medium creatures and have no bonuses or penalties due to their size.</p>
+<p id="normal-speed"><b>Normal Speed</b>: Sylphs have a base speed of 30 feet.</p>
+<p id="darkvision"><b>Darkvision</b>: Sylphs can see in the dark up to 60 feet.</p>
+<p id="spell-like-ability"><b>Spell-Like Ability</b>: <i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall" >Feather fall</a></i> 1/day (caster level equals the sylph's total level).</p>
+<p id="energy-resistance"><b>Energy Resistance</b>: Sylphs have electricity resistance 5.</p>
+<p id="air-affinity"><b>Air Affinity</b>: Sylph sorcerers with the elemental (air) bloodline treat their Charisma score as 2 points higher for all sorcerer spells and class abilities. Sylph spellcasters with the Air domain use their domain powers and spells at +1 caster level.</p>
+<p id="languages"><b>Languages</b>: Sylphs begin play speaking Common and Auran. Sylphs with high Intelligence scores can choose from the following: Aquan, Dwarven, Elven, Gnome, Halfling, Ignan, and Terran.</p>
+
+<h1 id="alternate-racial-traits">Alternate Racial Traits</h1>
+<p>The following racial traits may be selected instead of existing sylph racial traits. Consult your GM before selecting any of these new options.</p>
+<p id="air-insight"><b>Air Insight</b>: Sylph spellcasters sometimes find that their elemental heritage makes creatures of air more willing to serve them. <i>Summon monster</i> and <i>summon nature's ally</i> spells that the sylph casts last 2 rounds longer than normal when used to summon creatures with the air subtype. This racial trait replaces air affinity.</p>
+<p id="breeze-kissed"><b>Breeze-Kissed</b>: Breezes seem to follow most sylphs wherever they go, but some sylphs are better able to control these winds than others. A sylph with this racial trait surrounds herself with swirling winds, gaining a +2 racial bonus to AC against nonmagical ranged attacks. The sylph can calm or renew these winds as a swift action. Once per day, the sylph can channel this wind into a single gust, making a bull rush or trip combat maneuver attempt against one creature within 30 feet. Whether or not the attempt succeeds, the winds are exhausted and no longer provide a bonus to the sylph's AC for 24 hours. This is a supernatural ability. This racial trait replaces air affinity.</p>
+<p id="like-the-wind"><b>Like the Wind</b>: A sylph with this racial trait gains a +5 foot bonus to her base speed. This racial trait replaces energy resistance.</p>
+<p id="sky-speaker"><b>Sky Speaker</b>: Sylphs with this racial trait feel kinship toward the creatures of the air, and can use <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i> once per day to speak to birds or other flying animals. Her caster level for these effects is equal to her level. This racial trait replaces the sylph's spell-like ability racial trait.</p>
+<p id="storm-in-the-blood"><b>Storm in the Blood</b>: A sylph with this racial trait gains fast healing 2 for 1 round anytime she takes electricity damage (whether or not this electricity damage gets through her electricity resistance). The sylph can heal up to 2 hit points per level per day with this ability, after which it ceases to function. This racial trait replaces air affinity.</p>
+<p id="thunderous-resilience"><b>Thunderous Resilience</b>: Sylphs with this racial trait gain sonic resistance 5. This racial trait replaces energy resistance.</p>
+<p id="weather-savvy"><b>Weather Savvy</b>: Some sylphs are so in tune with the air and sky that they can sense the slightest change in atmospheric conditions. Sylphs with this trait can spend a full-round action to predict the weather in an area for the next 24 hours. The sylph's prediction is always accurate, but cannot account for spells or supernatural effects that might alter the forecast. This racial trait replaces the sylph's spell-like ability racial trait.</p>
+<p id="whispering-wind"><b>Whispering Wind</b>: Some sylphs are especially thin and wispy, as though they were made more of air than flesh. Sylphs with this racial trait gain a +4 racial bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks. This racial trait replaces the sylph's spell-like ability racial trait.</p>
+
+<h1 id="favored-class-options">Favored Class Options</h1>
+<p>The following options are available to all sylphs who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the class reward.</p>
+<p id="cleric"><b>Cleric</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) checks relating to the Plane of Air and creatures with the air subtype.</p>
+<p id="druid"><b>Druid</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) checks relating to weather and flying animals.</p>
+<p id="inquisitor"><b>Inquisitor</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks while motionless and on opposed <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks.</p>
+<p id="oracle"><b>Oracle</b>: Add +1/2 to the oracle's level for the purpose of determining the effects of one revelation.</p>
+<p id="rogue"><b>Rogue</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks to jump and a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks.</p>
+<p id="sorcerer"><b>Sorcerer</b>: Choose a bloodline power from the djinni or elemental (air) bloodline that the sorcerer can use. The sorcerer treats her class level as though it were +1/2 higher (to a maximum of +4) when determining the effects of that power.</p>
+<p id="witch"><b>Witch</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks and  <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks made by the witch's familiar. If the sylph ever replaces her familiar, the new familiar gains these bonus skill ranks.</p>
+<p id="wizard"><b>Wizard</b>: Select one arcane school power from the air or wood elemental schools that the wizard can currently use. The wizard treats her class level as though it were +1/2 higher (to a maximum of +4) when determining the effects of that power.</p>
+
+<h1 id="racial-archetypes">Racial Archetypes</h1>
+<p>The following racial archetypes are available to sylphs. </p>
+
+<h2 id="sky-druid-(druid)">Sky Druid (Druid)</h2>
+<p>Some druids develop ties not to a particular landscape, but instead to the endless blue expanse of the skies. Such are the sky druids, who are more at home soaring through air than standing on the ground. A sky druid has the following class features.</p>
+<p id="weapon-and-armor-proficiency"><b>Weapon and Armor Proficiency</b>: A sky druid loses medium armor proficiency.</p>
+<p id="nature-bond"><b>Nature Bond (Ex)</b>: At 1st level, a sky druid who chooses an animal companion must select one with a fly speed. If choosing a domain, the sky druid must choose from the Air, Animals, Liberation, and Weather domains, or subdomains appropriate to those domains. </p>
+<p id="sky's-embrace"><b>Sky's Embrace (Su)</b>: At 2nd level, a sky druid no longer takes falling damage, as though she were constantly under the effect of <i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall" >feather fall</a></i>. Additionally, she may take ranks in the <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> skill regardless of whether she has a natural fly speed, and may use her <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> skill in place of <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> when making jump checks. This ability replaces woodland stride.</p>
+<p id="resist-storm"><b>Resist Storm (Ex)</b>: At 4th level, a sky druid gains a +4 bonus on saving throws against spells with the air or electricity descriptors and against effects that control or modify the weather (such as <i><a href="/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm" >sleet storm</a></i>). This ability replaces resist nature's lure.</p>
+<p id="skymaster"><b>Skymaster (Su)</b>: At 5th level, a sky druid can use the <i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i> spell (self only) for a number of minutes per day equal to her druid level. These minutes do not need to be consecutive. This ability replaces trackless step.</p>
+<p id="wild-shape"><b>Wild Shape (Su)</b>: At 6th level, a sky druid gains the ability to use wild shape. When a sky druid takes the form of a creature with a fly speed, this ability functions at her class level + 1. For all other forms, her effective druid level for the ability is equal to her actual sky druid level. This ability otherwise functions as and replaces wild shape.</p>
+<p id="soaring-form"><b>Soaring Form (Ex)</b>: At 9th level, a sky druid is no longer affected by altitude sickness or natural or magical wind. This ability replaces venom immunity.</p>
+<p id="into-the-wild-blue"><b>Into the Wild Blue (Su)</b>: At 13th level, a sky druid gains a fly speed equal to twice her base land speed (good maneuverability). This ability replaces a thousand faces.</p>
+
+<h2 id="wind-listener-(wizard)">Wind Listener (Wizard)</h2>
+<p>The wind listener takes a sylph's natural curiosity to the extreme, enhancing his natural skill at subterfuge and eavesdropping with potent arcane magic. A wind listener has the following class features.</p>
+<p id="class-skills"><b>Class Skills</b>: A wind listener adds <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> to his list of class skills.</p>
+<p id="arcane-school"><b>Arcane School</b>: A wind listener cannot select divination or illusion as a prohibited school.</p>
+<p id="spontaneous-divination"><b>Spontaneous Divination (Su)</b>: At 1st level, a wind listener can reshape stored spell energy into divination spells he did not prepare ahead of time. The wind listener can "lose" any prepared spell that is not a cantrip in order to cast a divination spell of the same spell level or lower. The new spell must be one the wind listener knows and is capable of casting. Spells cast with this ability increase their casting time to a full-round action (if the spell's normal casting time is longer than a full-round action, it remains unchanged). This ability replaces arcane bond. </p>
+<p id="abjuration-sense"><b>Abjuration Sense (Ex)</b>: At 5th level, a wind listener develops a sixth sense for spotting spells designed to guard against his investigations. He gains a bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks equal to 1/2 his level to notice spells of the abjuration school and on <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> checks to identify abjuration effects, spells, and magic items. This ability replaces the bonus feat gained at 5th level.</p>
+<p id="wispy-form"><b>Wispy Form (Ex)</b>: At 10th level, the wind listener gains the ability to become airy and translucent as a standard action, gaining DR 10/magic and the effects of <i>improved <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> for a number of rounds per day equal to his level. These rounds need not be consecutive. Like the natural invisibility universal monster ability , this ability is not subject to <i><a href="/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge" >invisibility purge</a></i>. This ability replaces the bonus feat gained at 10th level.</p>
+<p id="listening-to-the-wind"><b>Listening to the Wind (Sp)</b>: At 15th level, the wind listener can call upon spirits of the air to uncover lost lore about a legendary person, place, or thing. Invoking the spirits takes 10 minutes, during which time the wind listener must be free of distractions and able to concentrate. Once called, the spirits seek out information on the subject of the wind listener's inquiries. This functions as the spell <i><a href="/pathfinderRPG/prd/spells/legendLore.html#_legend-lore" >legend lore</a></i> (caster level equal to the wind listener's level), except that the wind listener is free to engage in other activities while spirits investigate on his behalf. The time required for the air spirits to return with this information is equal to what the casting time of the spell <i><a href="/pathfinderRPG/prd/spells/legendLore.html#_legend-lore" >legend lore</a></i> would have been if the wind listener had cast it. The wind listener can use this ability once per week, and only if he does not currently have air spirits searching for information. If the air spirits are currently searching for information, the wind listener can end their task early as a standard action, dismissing the magical effect and not returning any information. This ability replaces the bonus feat gained at 15th level.</p>
+
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The following equipment, feats, magic items, and spells are available to sylphs. At the GM's discretion, other appropriate races may make use of some of these new rules.</p>
+
+<h2 id="sylph-equipment">Sylph Equipment</h2>
+<p>Sylphs have access to the following equipment.</p>
+<p id="elemental-breath"><b>Elemental Breath</b>: This vial at first seems to be empty, but when it's opened, a rush of wind issues forth from within. When elemental breath is inhaled (as drinking a potion) by an air-breathing creature, that creature does not need to breath air for 10 rounds. A vial of elemental breath must be inhaled on the round it was opened to gain this effect. If it is not, the item is wasted. </p>
+<p id="wing-cloak"><b>Wing Cloak</b>: This strange piece of equipment only works for sylphs and similar creatures, whose light, airy bodies can be borne upon the winds. Looking like a fine silk traveler's cloak, a wing cloak is secretly reinforced with a series of wooden struts that, when locked into place, stretch the cloak's fabric into a rudimentary wing. Arranging the struts into a wing or reversing the change is a move action. When the cloak is shaped into a wing, the wearer can make a DC 15 <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> check to fall safely from any height without taking falling damage, as if using <i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall" >feather fall</a></i>. When falling, the wearer may make an additional DC 15 <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> check to glide, moving 5 feet laterally for every 20 feet she falls. Readying and using a wing cloak requires two hands and provokes an attack of opportunity. A wing cloak has hardness 0 and 5 hit points. If the wing cloak is broken, the <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> DCs to use it increase by +10.</p>
+
+<table><caption>Sylph Equipment</caption>
+<thead><tr><th>Item</th><th>Cost</th><th>Weight</th><th>Craft DC</th></tr></thead>
+<tr class="odd"><td>Elemental breath</td><td>80 gp</td><td>1/2 lb.</td><td>20</td></tr>
+<tr class="even"><td>Wing cloak</td><td>1,200 gp</td><td>1 lb.</td><td>&mdash;</td></tr></table>
+
+
+<h2 id="sylph-feats">Sylph Feats</h2>
+<p>Sylphs have access to the Elemental Jaunt feat  and the following feats.</p>
+<div class="feats-text">
+<h3 id="airy-step">Airy Step</h3>
+<p>The air responds to your innate elemental nature, protecting you from harm and cushioning your falls.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Sylph.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a +2 bonus on saving throws against effects with the air or electricity descriptors and effects that deal electricity damage. You may ignore the first 30 feet of any fall when determining falling damage.</p>
+
+<h3 id="cloud-gazer">Cloud Gazer</h3>
+<p>Your insight into your elemental heritage gives you a clarity of sight few humans possess. </p>
+<p class="stat-block-1"><b>Prerequisite</b>: Sylph.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can see through fog, mist, and clouds, without penalty, ignoring any cover or concealment bonuses from such effects. If the effect is created by magic, this feat instead triples the distance you can see without penalty.</p>
+
+<h3 id="inner-breath">Inner Breath</h3>
+<p>Your body is suffused with elemental air that provides for all your respiratory needs. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Character level 11th, sylph.</p>
+<p class="stat-block-1"><b>Benefit</b>: You no longer need to breathe. You are immune to effects that require breathing (such as inhaled poison). This does not give you immunity to cloud or gas attacks that do not require breathing, such as <i><a href="/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill" >cloudkill</a></i>.</p>
+
+<h3 id="wings-of-air">Wings of Air</h3>
+<p>The winds lift you, carrying you where you want to go.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Airy Step, character level 9th, sylph.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your bonus on saves against effects with the air or electricity descriptors and effects that deal electricity damage increases to +4. In addition, you gain a supernatural fly speed equal to your base speed (good maneuverability). You may only fly with this ability when wearing light armor or no armor.</p>
+</div>
+
+<h2 id="sylph-magic-items">Sylph Magic Items</h2>
+<p>Sylphs have access to the following armor special ability and magic item.</p>
+<p id="cloudburst-(armor-special-ability)"><b>Cloudburst (armor special ability)</b>: This armor is usually decorated with engravings of storm clouds and lightning bolts. If an attack strikes the wearer and deals at least 10 points of electricity damage, the armor becomes visibly charged with electricity for 1 round. As a swift action on the wearer's next turn that does not provoke an attack of opportunity, she may use <i><a href="/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp" >shocking grasp</a> </i>as a spell-like ability, dealing 1d6 points of electricity damage for every 10 points of damage dealt to the wearer since her last turn (maximum 5d6 for 50 or more points of electrical damage taken). Determine the effect of the <i><a href="/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp" >shocking grasp</a></i> based on how much damage the triggering electrical attack would have dealt the wearer before any applicable resistances or immunities.</p>
+<p>Faint abjuration and evocation; CL 5th; <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>; resist energy, shocking grasp; Price +5,000 gp.    </p>
+<p id="elixir-of-forceful-exhalation" class="stat-block-title">Elixir of Forceful Exhalation</p>
+<p class="stat-block-1"><b>Aura</b> faint evocation; <b>CL</b> 3rd</p>
+<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 900 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-breaker">Description</p>
+<p>This fizzy, sky-blue liquid leaves its drinker feeling buoyant, yet bloated. The drinker gains a +4 competence bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks made to make high or long jumps and on <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> checks for up to 1 hour after consuming the elixir. As a standard action, the drinker can exhale a 15-foot-long <i><a href="/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind" >gust of wind</a></i>. The drinker can exhale up to three gusts, after which the elixir's effect is discharged and the skill bonuses end. Unused gusts dissipate after 1 hour.</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind" >gust of wind</a></i>; <b>Cost</b> 450 gp</p>
+
+<h2 id="sylph-spells">Sylph Spells</h2>
+<p>Sylphs have access to the following spells.</p>
+<p id="absorbing-inhalation" class="stat-block-title">Absorbing Inhalation</p>
+<p class="stat-block-1"><b>School</b> transmutation [air]; <b>Level</b> alchemist 4, druid 4, sorcerer/wizard 4</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> close (25 ft. + 5 ft./2 levels)</p>
+<p class="stat-block-1"><b>Target</b> one cloud-like effect, up to one 10-ft. cube/level</p>
+<p class="stat-block-1"><b>Duration</b> 1 round/level; see text</p>
+<p class="stat-block-1"><b>Saving Throw</b> see text; <b>Spell Resistance</b> no</p>
+<p>You grant your lungs inhuman strength and capacity, allowing you to harmlessly and completely inhale one gas, fog, smoke, mist, or similar cloud-like effect. If the targeted cloud is a magical effect, you must succeed at a caster level check (DC 11 + the effect's caster level) to inhale it. Inhaling the cloud removes it from the area, leaving normal air in its place. If the cloud is too large for you to affect with a single casting of this spell, you may instead inhale a portion of the cloud, but you must inhale the portion of the cloud closest to you. This spell has no effect on gaseous creatures. It can only affect an instantaneous-duration cloud (such as a breath weapon) if you ready an action to cast the spell in response.</p>
+<p>While inhaled, the cloud does not harm you. You may keep the cloud harmlessly contained within you for up to 1 round per level, but you must hold your breath to do so (even if you do not normally have to breathe). If the cloud has a duration, the time the cloud is contained within you counts toward that duration. As a standard action, you may release the stored cloud as a breath weapon, filling a 60-foot cone (or the cloud's original area, if smaller than a 60-foot cone). Any creature in the breath's area is subject to its normal effects, making saving throws and spell resistance checks as appropriate against the cloud's original DC. The exhaled cloud resumes its duration, if any. Exhaling the stored cloud ends this spell. If you do not exhale the cloud before this spell's duration expires, you suffer the cloud's effects and automatically fail any saving throw to resist it.</p>
+<p id="cloud-shape" class="stat-block-title">Cloud Shape</p>
+<p class="stat-block-1"><b>School</b> transmutation [air]; <b>Level</b> druid 4, ranger 4, sorcerer/wizard 4</p>
+<p class="stat-block-1"><b>Range</b> personal</p>
+<p class="stat-block-1"><b>Target</b> you</p>
+<p class="stat-block-1"><b>Duration</b> 10 minutes/level (D)</p>
+<p>This spell functions like <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i>, except you assume the shape of a Colossal cloud with a space of 30 feet. You choose the general appearance of the cloud (white, stormy, fluffy, flat, and so on), after which your appearance cannot be changed. Even the closest inspection cannot reveal that the cloud in question is actually a magically concealed creature. To all normal tests you are, in fact, a cloud, although a <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i> spell reveals a moderate transmutation aura on the cloud. Your fly speed in cloud form is 30 feet.</p>
+<p id="gusting-sphere" class="stat-block-title">Gusting Sphere</p>
+<p class="stat-block-1"><b>School</b> evocation [air]; <b>Level</b> druid 2, magus 2, sorcerer/wizard 2</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action </p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> medium (100 ft. + 10 ft./level)</p>
+<p class="stat-block-1"><b>Effect</b> 5-ft.-diameter sphere of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a></p>
+<p class="stat-block-1"><b>Duration</b> 1 round/level</p>
+<p class="stat-block-1"><b>Saving Throw</b> Fortitude negates (object) or Reflex negates; see text; <b>Spell Resistance</b> yes</p>
+<p>A swirling ball of wind rolls in whichever direction you point, hurling those it strikes with great force. The sphere is treated in all ways as an area of severe wind , applying a &ndash;4 penalty on ranged weapon attacks that pass through it. The sphere moves 30 feet per round. As part of this movement, it can ascend or jump up to 30 feet to strike a target. If it enters a space containing a Medium or smaller creature, it stops moving for that round and generates a sharp thrust of wind to bull rush the creature. The sphere's CMB for bull rush combat maneuvers uses your caster level in place of its base attack bonus, with a +2 bonus for its Strength score (14). Whether or not the bull rush is successful, the creature takes 1d6 points of nonlethal bludgeoning damage from the attack. If the bull rush fails, the creature is still subject to the severe winds from the sphere as long as they remain in the same square as it. A <i>gusting sphere</i> rolls over objects or barriers that are less than 4 feet tall.</p>
+<p>The sphere moves as long as you actively direct it (a move action for you); otherwise, it merely stays at rest. A <i>gusting sphere</i> immediately dissipates if it exceeds the spell's range.</p>
+<p id="miasmatic-form" class="stat-block-title">Miasmatic Form</p>
+<p class="stat-block-1"><b>School</b> transmutation [<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype" >air</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>]; <b>Level</b> alchemist 4, sorcerer/wizard 4</p>
+<p class="stat-block-1"><b>Components</b> S, M (contact or inhaled <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a> worth 100 gp)</p>
+<p class="stat-block-1"><b>Duration</b> 1 minute/level</p>
+<p class="stat-block-1"><b>Saving Throw</b> none; see text; <b>Spell Resistance</b> no</p>
+<p>This spell functions like <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i>, except the target's vaporous body is dangerous to creatures that touch it. A creature can make a Fortitude save (DC 14 + your Intelligence modifier) on its turn to resist the vapors. When you cast this spell, you select one of the following options.</p>
+<p id="stinking-cloud"><i><a href="/pathfinderRPG/prd/spells/stinkingCloud.html#_stinking-cloud" >Stinking cloud</a></i>: The target's body nauseates creatures that fail their saving throws, as <i><a href="/pathfinderRPG/prd/spells/stinkingCloud.html#_stinking-cloud" >stinking cloud</a></i> (Fortitude negates, see text). This form of the spell does not require a material component.</p>
+<p id="poisonous-cloud"><i>Poisonous cloud</i>: The target's body is deadly poison, dealing 1d2 points of Constitution damage to creatures that fail their saves (Fortitude halves). This form of the spell requires a material component.</p>
+<p id="path-of-the-winds" class="stat-block-title">Path of the Winds</p>
+<p class="stat-block-1"><b>School</b> evocation [air]; <b>Level</b> druid 6, sorcerer/wizard 6</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action </p>
+<p class="stat-block-1"><b>Components</b> V, S, </p>
+<p class="stat-block-1"><b>Range</b> 100 ft.</p>
+<p class="stat-block-1"><b>Effect</b> 40-ft.-high downdraft of wind in a 100-foot line</p>
+<p class="stat-block-1"><b>Duration</b> concentration + 1 round</p>
+<p class="stat-block-1"><b>Saving Throw</b> Fortitude negates; <b>Spell Resistance</b> yes</p>
+<p>With a sweeping gesture, you call forth mighty winds to clear a path ahead of you. The winds are the equivalent of a windstorm . During the first round of the spell, the winds sweep the designated area clear of anything of Small or smaller size, blowing it outward to the sides of the spell's effect (50% chance of landing on either side). You may move within the effect without penalty, though all other creatures are subject to the wind's effects. On the second and all later rounds of the spell, the edges of the effect are treated as a wind wall. If the effect includes a body of water or other liquid, the winds create a channel up to 40 feet deep into the surface of the liquid. On your turn as a move action, you can move the effect of this spell, either rotating it at one of its ends up to 45 degrees, or moving it up to 50 feet in line with its current orientation (toward you or away from you). </p>
+<p id="wind-blades" class="stat-block-title">Wind Blades</p>
+<p class="stat-block-1"><b>School</b> transmutation [air]; <b>Level</b> druid 5, magus 5, sorcerer/wizard 5, witch 5</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action </p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> touch</p>
+<p class="stat-block-1"><b>Target</b> creature touched</p>
+<p class="stat-block-1"><b>Duration</b> 1 round/level</p>
+<p class="stat-block-1"><b>Saving Throw</b> Will negates; <b>Spell Resistance</b> yes</p>
+<p>You harden the air around the target into jagged invisible blades that deal damage based on how fast the target moves. On its turn, the target takes 1d6 points of slashing damage if it moves at least 5 feet, plus 1d6 points of slashing damage for each additional 10 feet of movement. Movement that doesn't pass through air (such as burrowing, swimming, or teleportation) doesn't cause this damage. </p>
+<p>In areas of strong wind , the target takes damage on its turn, even if it doesn't move. The wind deals 1d8 points of slashing damage for strong wind, plus 1d8 for every wind category above strong. This extra damage does not occur from instantaneous wind effects (such as <i><a href="/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind" >gust of wind</a></i>), only from wind effects that last at least 1 round.</p>
+<p id="windy-escape" class="stat-block-title">Windy Escape</p>
+<p class="stat-block-1"><b>School</b> transmutation [air]; <b>Level</b> bard 1, druid 1, magus 1, sorcerer/wizard 1</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 immediate action </p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> personal</p>
+<p class="stat-block-1"><b>Target</b> you</p>
+<p class="stat-block-1"><b>Duration</b> instantaneous</p>
+<p>You respond to an attack by briefly becoming vaporous and insubstantial, allowing the attack to pass harmlessly through you. You gain DR 10/magic against this attack and are immune to any poison, sneak attacks, or critical hit effect from that attack.</p>
+<p>You cannot use <i>windy escape</i> against an attack of opportunity you provoked by casting a spell, using a spell-like ability, or using any other magical ability that provokes an attack of opportunity when used.</p>
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

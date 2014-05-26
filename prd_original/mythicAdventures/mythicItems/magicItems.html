@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Magic Items</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Magic Items",globalNavPath=[{ href: '/pathfinderRPG/prd/mythicAdventures/mythicItems.html', name: 'Mythic Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="magic-items">Magic Items</h1>
+<p>Though most items associated with mythic characters and monsters are artifacts in their own right, lesser magic items still help mythic creatures with their powers or aid normal creatures in resisting the power of mythic foes.</p>
+
+<p class="shortcutBarSmlLink"><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems/magicItems.html#_armor-and-shield-special-abilities" style="padding-right: 1em;">Armor and Shield Special Abilities</a> <a href="/pathfinderRPG/prd/mythicAdventures/mythicItems/magicItems.html#_specific-armor-and-shields" style="padding-right: 1em;">Specific Armor and Shields</a> <a href="/pathfinderRPG/prd/mythicAdventures/mythicItems/magicItems.html#_weapon-special-abilities" style="padding-right: 1em;">Weapon Special Abilities</a> <a href="/pathfinderRPG/prd/mythicAdventures/mythicItems/magicItems.html#_specific-weapons" style="padding-right: 1em;">Specific Weapons</a> <a href="/pathfinderRPG/prd/mythicAdventures/mythicItems/magicItems.html#_other-magic-items">Other Magic Items</a></p>
+
+<h2 id="armor-and-shield-special-abilities">Armor and Shield Special Abilities</h2>
+<p>The following armor special abilities feature additional effects that triggers on the use of mythic power.</p>
+
+<p id="deflecting" class="stat-block-title">Deflecting</p>
+<p class="stat-block-1"><b>Price</b> +3 bonus; <b>Aura</b> strong abjuration; <b>CL</b> 13th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Three times per day, the wearer of a shield with this ability can cause a group of two dozen small, shiny metal plates to dislodge from the shield and orbit his immediate area. These metal plates protect the wearer and his allies from attacks, granting him and all allies within 10 feet a deflection bonus to AC. This bonus is equal to the shield's enhancement bonus. This ability lasts for 1 minute or until dismissed as a free action. A mythic wearer can expend one use of mythic power when using this ability to increase the deflection bonus granted by the shield by half his mythic tier (minimum 1). This ability can be applied only to steel shields.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +3 bonus</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/advanced/spells/deflection.html#_deflection-" >deflection</a></i></p>
+
+
+<p id="denying" class="stat-block-title">Denying</p>
+<p class="stat-block-1"><b>Price</b> +4 bonus; <b>Aura</b> strong abjuration; <b>CL</b> 13th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Once per day, when this armor's wearer is subject to either a critical hit or a sneak attack made with a melee weapon, she can automatically negate that critical or sneak attack and make it a normal attack. If the attack is both a sneak attack and a critical hit, the wearer must decide which of those she wants to negate before the damage is rolled. One use of this special ability doesn't negate both. A mythic wearer can expend two uses of mythic power to use this ability an additional time per day, and can even expend two more uses of mythic power to negate both a critical hit and sneak attack from the same attack. This ability can be applied only to heavy armors.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +4 bonus</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a></i> or <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i><span class="hyperlink char-style-override-34"></span></p>
+
+<p id="resonating" class="stat-block-title">Resonating</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> moderate abjuration; <b>CL</b> 7th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Three times per day, when the wearer expends at least one use of mythic power on his turn, this armor surges with sympathetic power. Its enhancement bonus increases by 2, and any damage reduction the wearer has increases by 5. This lasts for a number of rounds equal to the wearer's tier, and doesn't stack with itself.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i>lend power</i></p>
+
+<h2 id="specific-armors-and-shields">Specific Armors and Shields</h2>
+<p>These armors can be used by anyone, but have greater function when worn by a mythic creature.</p>
+
+
+<p id="bastion-of-the-inheritor" class="stat-block-title">Bastion of the Inheritor</p>
+<p class="stat-block-1"><b>Price</b> 22,170 gp; <b>Slot</b> shield; <b>CL</b> 5th; <b>Weight</b> 15 lbs.; <b>Aura</b> faint abjuration</p>
+<p class="stat-block">This <i>+1 rallying</i> <i>heavy steel shield</i> When using this shield, the wearer reduces the extra damage she takes from <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-anarchic" >anarchic</a></i> weapons, smite good, smite law, and <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_unholy" >unholy</a> </i>weapons by her tier, to a minimum of 0. When its wearer uses the smite evil class feature, she can expend one use of mythic power to extend the deflection bonus to AC she gains against her target to all allies in a 10-foot-radius burst centered on her. This bonus lasts for 1 minute or until the smite evil ends, whichever comes first.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 11,170 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/magicCircleAgainstEvil.html#_magic-circle-against-evil" >magic circle against evil</a></i>, <i><a href="/pathfinderRPG/prd/spells/removeFear.html#_remove-fear" >remove fear</a></i>, <i><a href="/pathfinderRPG/prd/advanced/spells/sanctifyArmor.html#_sanctify-armor" >sanctify armor</a></i></p>
+
+
+<p id="spiritwalk-armor" class="stat-block-title">Spiritwalk Armor</p>
+<p class="stat-block-1"><b>Price</b> 25,160 gp; <b>Slot</b> armor; <b>CL</b> 11th; <b>Weight</b> 15 lbs.; <b>Aura</b> strong illusion and transmutation</p>
+<p class="stat-block">This <i>+2 improved <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow" >shadow</a> leather armor</i> is attractive, yet eerie. It grants its wearer the ability to use <i><a href="/pathfinderRPG/prd/advanced/spells/vanish.html#_vanish" >vanish</a></i> as a quickened spell-like ability five times per day. If a mythic wearer uses the <i><a href="/pathfinderRPG/prd/advanced/spells/vanish.html#_vanish" >vanish</a></i> ability, he can expend one use of mythic power to also make himself incorporeal for 1 round.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 12,660 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/advanced/spells/vanish.html#_vanish" >vanish</a></i>, <i><a href="/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt" >ethereal jaunt</a></i></p>
+
+<p id="stalwart-breastplate" class="stat-block-title">Stalwart Breastplate</p>
+<p class="stat-block-1"><b>Price</b> 22,350 gp; <b>Slot</b> armor; <b>CL</b> 13th; <b>Weight</b> 40 lbs.; <b>Aura</b> strong abjuration</p>
+<p class="stat-block">The burden of this weighty <i>+1 light <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a> breastplate</i> gives it an armor check penalty of &ndash;5. As an immediate action, the wearer can negate the effects of a successful combat maneuver made to bull rush, overrun, or trip her. As a swift action, the wearer can expend one use of mythic power to gain immunity to ability damage, ability drain, critical hits, and sneak attacks. This effect lasts for 1 round per mythic tier the wearer possesses.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 11,350 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/ironBody.html#_iron-body" >iron body</a></i>, either <i><a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a></i> or <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i></p>
+
+
+
+<h2 id="weapon-special-abilities">Weapon Special Abilities</h2>
+<p>These weapon special abilities either enhance or interact with mythic creatures. Some can steal mythic power or block the ability to use it.</p>
+
+
+<p id="disjoining" class="stat-block-title">Disjoining</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> moderate necromancy; <b>CL</b> 7th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">These weapons were first created by deities and given to mortals so that they could combat mythic foes. When the wielder confirms a critical hit against a mythic creature with a <i>disjoining</i> weapon, the target loses the ability to expend its mythic power for 1d4 rounds. A mythic creature wielding a <i>disjoining</i> weapon loses the ability to expend uses of mythic power for as long as he wields the weapon. Only melee weapons can have this ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i>mythic severance</i></p>
+
+
+<p id="harvesting" class="stat-block-title">Harvesting</p>
+<p class="stat-block-1"><b>Price</b> +2 bonus; <b>Aura</b> moderate necromancy; <b>CL</b> 9th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A <i>harvesting</i> weapon siphons away mythic power from one mythic creature to empower another. Whenever a mythic wielder confirms a critical hit against another mythic creature, the weapon leeches away one use of the target's mythic power and transfers it to the wielder. If the wielder already has her maximum number of uses of mythic power, the target's use of mythic power is still leeched, but the wielder doesn't gain it. The weapon can do this a number of times per day equal to the enhancement bonus of the weapon.</p>
+<p class="stat-block">If the <i>harvesting</i> weapon is a <a href="/pathfinderRPG/prd/mythicAdventures/mythicItems/legendaryItems.html#_legendaryItems.html">legendary item</a>, the wielder can have the mythic power that is leeched replenish one of that weapon's uses of legendary power. Only melee weapons can have this ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +2 bonus</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i>steal power</i><span class="hyperlink char-style-override-34"></span></p>
+
+<p id="mythic-bane" class="stat-block-title">Mythic Bane</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> moderate evocation; <b>CL</b> 8th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A <i>mythic bane</i> weapon works exactly like a <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane" >bane</a></i> weapon, except it has a higher bonus and deals extra damage against any creature with the mythic subtype. This ability stacks with the <i>bane</i> weapon special ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i></p>
+
+
+<p id="potent" class="stat-block-title">Potent</p>
+<p class="stat-block-1"><b>Price</b> +2 bonus; <b>Aura</b> strong transmutation; <b>CL</b> 12th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">As a swift action, the wielder can expend one use of mythic power to increase the weapon's enhancement bonus by half his mythic tier (minimum 1, to a maximum of a +6 enhancement bonus) and give it the ability to bypass damage reduction. These benefits last for 1 round. Melee and ranged weapons can have this ability, but not ammunition.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +2 bonus</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism-greater" >greater heroism</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i></p>
+
+
+<p id="sacrosanct" class="stat-block-title">Sacrosanct</p>
+<p class="stat-block-1"><b>Price</b> +5,000 gp; <b>Aura</b> moderate evocation; <b>CL</b> 8th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Taking the form of a deity's favored weapon, a <i>sacrosanct</i> weapon serves as both a martial implement and the corresponding deity's holy (or unholy) symbol. Once per day when the wielder uses the <i>sacrosanct</i> weapon to channel energy, she can increase the radius of the channel energy to 40 feet. They wielder must be able to channel positive or negative energy to use this ability.</p>
+<p class="stat-block">Alternatively, the wielder can expend one use of mythic power to use this ability instead of expending its daily use. When using mythic power to activate this ability, it can be done at will.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +5,000 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, the crafter must be able to channel energy</p>
+
+<h2 id="specific-weapons">Specific Weapons</h2>
+<p>These majestic weapons are fit for mythic creatures.</p>
+
+
+<p id="bow-of-erastil" class="stat-block-title">Bow of Erastil</p>
+<p class="stat-block-1"><b>Price</b> 38,000 gp; <b>Slot</b> none; <b>CL</b> 15th; <b>Weight</b> 5 lbs.; <b>Aura</b> strong transmutation</p>
+<p class="stat-block">This golden <i>+1 endless ammunition <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-distance" >distance</a> composite longbow</i> (+6 Str) produces a golden arrow whenever it's drawn. By expending one use of mythic power, the bow's wielder can make a single attack and compare the result against every enemy within 60 feet of her. The wielder rolls damage only once, and applies it to all foes hit by the attack. If the attack is a critical threat, the wielder chooses only one enemy hit and attempts to confirm the critical against that enemy.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 19,500 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance" >clairaudience/clairvoyance</a></i>, <i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i></p>
+
+
+<p id="brutal-axe" class="stat-block-title">Brutal Axe</p>
+<p class="stat-block-1"><b>Price</b> 21,320 gp; <b>Slot</b> none; <b>CL</b> 11th; <b>Weight</b> 12 lbs.; <b>Aura</b> moderate transmutation</p>
+<p class="stat-block">The haft of this <i>+1 adamantine greataxe</i> is carved from the limb of a treant slain by fire. While wielding this axe, a creature is considered to have the Improved Sunder feat. It also deals an additional 1d12 points of damage when used to sunder. If the wielder already has <a href="/pathfinderRPG/prd/feats.html#_improved_sunder">Improved Sunder</a>, the axe grants Greater Sunder; and if the wielder already has Greater Sunder, it instead provides a further +2 bonus on sunder combat maneuver checks.</p>
+<p class="stat-block">As an immediate action after making a successful attack with the axe, the wielder can expend one use of mythic power to make a combat maneuver check to sunder a single item being used by the creature he just successfully attacked. This sunder attempt deals double damage and uses the wielder's full base attack bonus. If the item is destroyed by this sunder attempt, no excess damage is applied to the item's wielder or other items.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 12,320 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/spells/ironwood.html#_ironwood" >ironwood</a></i></p>
+
+
+<p id="chaos-hammer" class="stat-block-title">Chaos Hammer</p>
+<p class="stat-block-1"><b>Price</b> 38,312 gp; <b>Slot</b> none; <b>CL</b> 9th; <b>Weight</b> 10 lbs.; <b>Aura</b> moderate evocation [<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a>]</p>
+<p class="stat-block">This oversized hammer crackles with chaotic energy. Once per day as a standard action, the wielder of this <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-anarchic" >anarchic</a> warhammer</i> can strike the ground to create the effects of the <i><a href="/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer" >chaos hammer</a></i> spell (Will DC 16, CL 9th) that bursts out from the warhammer's wielder. A mythic creature wielding this weapon can expend one use of mythic power to activate this ability without using up its daily use.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 19,312 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon" >align weapon</a></i>, <i><a href="/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer" >chaos hammer</a></i>, creator must be <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a></p>
+
+
+<p id="dagger-of-a-thousand-bites" class="stat-block-title">Dagger of a Thousand Bites</p>
+<p class="stat-block-1"><b>Price</b> 24,502 gp; <b>Slot</b> none; <b>CL</b> 18th; <b>Weight</b> 1/2 lb.; <b>Aura</b> strong conjuration</p>
+<p class="stat-block">This <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-keen" >keen</a> <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning" >returning</a> mithral dagger</i> is bleached pale white like some sort of giant tooth. The wielder can expend one use of mythic power when throwing the dagger. When the dagger is thrown in this fashion and hits its target, it can be directed to strike a different target within 30 feet of the first. The new target must still be within the attacker's line of sight. This additional attack is made using the same attack bonus as the first, though range penalties apply based on the total distance the dagger flies.</p>
+<p class="stat-block">The dagger's wielder can continue selecting additional targets within his line of sight until the dagger misses, though no creature can be targeted by the dagger more than once in the same round.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 12,502 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i>, <i><a href="/pathfinderRPG/prd/spells/keenEdge.html#_keen-edge" >keen edge</a></i>, <i><a href="/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis" >telekinesis</a></i></p>
+
+
+<p id="dragonbreath-bow" class="stat-block-title">Dragonbreath Bow</p>
+<p class="stat-block-1"><b>Price</b> 50,375 gp; <b>Slot</b> none; <b>CL</b> 14th; <b>Weight</b> 3 lbs.; <b>Aura</b> strong evocation</p>
+<p class="stat-block">This <i>+2 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming-burst" >flaming burst</a> longbow</i>'s arrow rest is shaped like a dragon's head with its mouth agape&mdash;as if about to unleash its breath weapon. A mythic wielder can expend one use of mythic power when drawing back the bow to create an arrow of pure flame. This flame arrow acts as a ranged touch attack that can target only creatures within the first range increment of the bow. When it hits its target, this flame arrow deals 3d10+2 points of fire damage. This damage stacks with the bow's <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming-burst" >flaming burst</a></i> special ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 25,375 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i>, <i><a href="/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray" >scorching ray</a></i></p>
+
+
+<p id="fire-goddess's-blade" class="stat-block-title">Fire Goddess's Blade</p>
+<p class="stat-block-1"><b>Price</b> 33,315 gp; <b>Slot</b> none; <b>CL</b> 18th; <b>Weight</b> 4 lbs.; <b>Aura</b> strong conjuration and transmutation</p>
+<p class="stat-block">This <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a> scimitar</i> has golden flames embossed along the blade, which flicker and glow even when the sword's flames are extinguished. Three times per day as a swift action, its wielder can transform the sword into a blade of pure flame. In this form, the blade deals 1d8+9 points of fire damage (as the <i><a href="/pathfinderRPG/prd/spells/flameBlade.html#_flame-blade" >flame blade</a></i> spell).</p>
+<p class="stat-block">Once per day, the sword's wielder can expend one use of mythic power to transform the blade into a Large fire elemental for 10 minutes. When the duration ends or the fire elemental is defeated, the blade reappears in its owner's hands.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 16,815 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/flameBlade.html#_flame-blade" >flame blade</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i></p>
+
+
+<p id="gun-with-no-name" class="stat-block-title">Gun With No Name</p>
+<p class="stat-block-1"><b>Price</b> 98,300 gp; <b>Slot</b> none; <b>CL</b> 9th; <b>Weight</b> 5 lbs.; <b>Aura</b> moderate abjuration and conjuration</p>
+<p class="stat-block">Though the green, glowing runes on this firearm denote it as magical, otherwise this <i>+2 mythic <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane" >bane</a> greater lucky</i> <i>pepperbox</i> appears beat up and nearly useless. This weapon can be reloaded normally, but if its wielder expends either one use of mythic power or 1 grit point as a swift action, each of the firearm's empty barrels magically reloads with either black powder and a bullet or with a flare alchemical cartridge (the wielder chooses, and she can mix and match the ammunition type with each barrel). While carrying this firearm, the wielder is immune to scrying and any form of divination that attempts to ascertain her location, thoughts, or alignment. The firearm itself is immune to <i><a href="/pathfinderRPG/prd/spells/locateObject.html#_locate-object" >locate object</a></i> and similar effects.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 50,800 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i>, <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i></p>
+
+
+<p id="pick-of-stonecleaving" class="stat-block-title">Pick of Stonecleaving</p>
+<p class="stat-block-1"><b>Price</b> 11,308 gp; <b>Slot</b> none; <b>CL</b> 5th; <b>Weight</b> 6 lbs.; <b>Aura</b> faint evocation</p>
+<p class="stat-block">When this <i>+1 adamantine heavy pick</i> is used to damage unattended objects, it deals an additional 2d6 points of damage. If the wielder expends one use of mythic power when making such an attack, the pick bypasses the object's hardness and deals 4d6 additional damage instead of 2d6.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 7,308 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/shatter.html#_shatter" >shatter</a></i></p>
+
+
+<p id="sacred-avenger" class="stat-block-title">Sacred Avenger</p>
+<p class="stat-block-1"><b>Price</b> 202,630 gp; <b>Slot</b> none; <b>CL</b> 20th; <b>Weight</b> 4 lbs.; <b>Aura</b> strong abjuration</p>
+<p class="stat-block">This <i>+3 cold iron longsword</i> becomes a <i>+5 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a> defiant</i> <i>cold iron longsword</i> in the hands of a paladin or a lawful good mythic creature. If the creature wielding this weapon is a paladin with mythic tiers, she can also grant the weapon the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-brilliant-energy" >brilliant energy</a></i> special ability on command. Dismissing the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-brilliant-energy" >brilliant energy</a></i> ability is a free action.</p>
+<p class="stat-block">When wielded by a paladin or a lawful good mythic creature, this weapon provides spell resistance equal to 5 + the character's paladin class level (if any) + the character's mythic tier (if any) to the wielder and anyone within 10 feet of her. It also enables the wielder to use <i>mythic <a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i> once per round as a standard action, with a caster level equal to either the wielder's paladin class level or double her mythic tier, whichever is higher. <i>Mythic <a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i> functions as <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i> including the benefits of the <i>mythic <a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i> spell, but when the wielder dispels a spell, she heals 1d6 points of damage for every spell level of the dispelled spell instead of healing 1d4 points of damage.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 102,630 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i>, <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/holyAura.html#_holy-aura" >holy aura</a></i>, creator must be <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a></p>
+
+
+<p id="shadow-spike" class="stat-block-title">Shadow Spike</p>
+<p class="stat-block-1"><b>Price</b> 96,600 gp; <b>Slot</b> none; <b>CL</b> 12th; <b>Weight</b> 4 lbs.; <b>Aura</b> strong conjuration</p>
+<p class="stat-block">This <i>+2/+2 cruel quarterstaff</i> is made of polished ebony, and features a blackened metal spike on its bottom end. As a standard action, the wielder can drive the spike into the ground on either the Material Plane or the Shadow Plane, creating a rift merging those two planes. This rift is 30 feet in diameter, lasts for 1 minute, and can be created once per day. If the creature that drives the <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow" >shadow</a> spike</i> into the ground expends one use of mythic power when doing so, the effect lasts until the <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow" >shadow</a> spike</i> is pulled out of the ground (which takes a standard action).</p>
+<p class="stat-block">The rift's area acts as the <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i> spell. Spells with the darkness or shadow descriptors cast within the rift have +1 caster level, and are affected as if cast with the <a href="/pathfinderRPG/prd/feats.html#_extend-spell" >Extend Spell</a> feat. As a standard action, any mythic creature within the area can expend three uses of mythic power to <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> to the Shadow Plane (if on the Material Plane) or to the Material Plane (if on the Shadow Plane). If a mythic creature <i>plane shifts</i> while holding the <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow" >shadow</a> spike</i>, the weapon teleports with that creature, ending the effect.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 48,600 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/causeFear.html#_cause-fear" >cause fear</a>, <a href="/pathfinderRPG/prd/spells/deathKnell.html#_death-knell" >death knell</a></i>, <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i>, <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i></p>
+
+
+<p id="shadow's-touch" class="stat-block-title">Shadow's Touch</p>
+<p class="stat-block-1"><b>Price</b> 102,962 gp; <b>Slot</b> none; <b>CL</b> 13th; <b>Weight</b> 1/2 lb.; <b>Aura</b> strong illusion</p>
+<p class="stat-block">Amazingly light, this ebon <i>+2 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-keen" >keen</a> dagger</i> fades into near intangibility at its tip. It ignores bonuses to AC provided by deflection and force effects, and deals 2 points of Strength damage on a confirmed critical hit. By expending one use of mythic power while attacking, the wielder can strike a force effect and <i><a href="/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate" >disintegrate</a></i> it as a touch attack. This effect also automatically dispels force effects that can be dispelled whether or not they're subject to <i><a href="/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate" >disintegrate</a></i>.</p>
+<p class="stat-block">As a standard action, the wielder can expend a use of mythic power while slashing at the air to open up a rift to the Shadow Plane. This functions as <i><a href="/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk" >shadow walk</a></i>, except that a maximum number of creatures equal to double the wielder's tier can pass through before the rift closes.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 51,632 gp</p>
+<p class="stat-block=">Craft Magic Arms and Armor, Mythic Creator, <i><a href="/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk" >shadow walk</a></i>, <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/shadowWeapon.html#_shadow-weapon" >shadow weapon</a></i></p>
+
+
+<p id="skirmishing-spear" class="stat-block-title">Skirmishing Spear</p>
+<p class="stat-block-1"><b>Price</b> 19,502 gp; <b>Slot</b> none; <b>CL</b> 7th; <b>Weight</b> 6 lbs.; <b>Aura</b> moderate conjuration</p>
+<p class="stat-block">When thrown, this <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning" >returning</a> spear</i> is considered a one-handed weapon and gains a +2 bonus on the attack roll. If the spear hits when thrown, the wielder can, as an immediate action, expend one use of mythic power to teleport to an unoccupied space adjacent to the creature struck. This effect is treated as <i><a href="/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door" >dimension door</a></i>, except the wielder can act after teleporting. The spear comes back to its wielder's hand when he appears. If he hadn't taken a move action prior to throwing the spear, he can continue a full attack with the spear.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 9,902 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door" >dimension door</a></i>, <i><a href="/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis" >telekinesis</a></i></p>
+
+
+<p id="spellbreaker" class="stat-block-title">Spellbreaker</p>
+<p class="stat-block-1"><b>Price</b> 71,600 gp; <b>Slot</b> none; <b>CL</b> 12th; <b>Weight</b> 4 lbs.; <b>Aura</b> strong abjuration</p>
+<p class="stat-block">Only one end of this iron-shod <i>+3 quarterstaff</i> has an enhancement bonus. The enhanced end acts as a <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane" >bane</a></i> weapon against any creature with the ability to cast spells or use spell-like abilities. As a standard action, the wielder can strike the unenhanced end against the ground while expending one use of mythic power to produce an <i><a href="/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field" >antimagic field</a></i> centered on the staff. This effect has a duration of 2 hours. Anyone striking the staff against the ground a second time dismisses the effect. The <i><a href="/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field" >antimagic field</a></i> remains in effect if the staff is dropped or disarmed. The staff retains its enhancement bonus and extra damage against spellcasters inside any <i><a href="/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field" >antimagic field</a></i>.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 36,100 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field" >antimagic field</a></i></p>
+
+
+<p id="stormcaller" class="stat-block-title">Stormcaller</p>
+<p class="stat-block-1"><b>Price</b> 98,302 gp; <b>Slot</b> none; <b>CL</b> 13th; <b>Weight</b> 6 lbs.; <b>Aura</b> strong evocation [electricity]</p>
+<p class="stat-block">This <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-keen" >keen</a> <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock" >shock</a> spear</i> constantly flickers and sparks with power. When casting spells with the electricity descriptor, the spear's wielder adds 1 to her effective caster level. (This doesn't stack with other effects or feats that increase caster level.) Once per week, the wielder can cast <i><a href="/pathfinderRPG/prd/spells/controlWeather.html#_control-weather" >control weather</a></i> for the purposes of summoning a storm or increasing the severity of an existing storm.</p>
+<p class="stat-block">As a full-round action, the wielder can expend one use of mythic power to call lightning down on foes he hits. This works like the <i><a href="/pathfinderRPG/prd/spells/callLightning.html#_call-lightning" >call lightning</a></i> spell (CL 13th), with the following differences. Rather than being directed as a move action, for 13 rounds the lightning is called down on the first opponent hit by the spear each round. This effect bypasses lightning resistance and treats lightning immunity as lightning resistance 10. If the wielder confirms a critical hit on an attack that calls down a lightning bolt, the lightning also deals double damage.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 49,302 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/callLightning.html#_call-lightning" >call lightning</a></i>, <i><a href="/pathfinderRPG/prd/spells/controlWeather.html#_control-weather" >control weather</a></i></p>
+
+
+<p id="sword-of-inner-fire" class="stat-block-title">Sword of Inner Fire</p>
+<p class="stat-block-1"><b>Price</b> 151,315 gp; <b>Slot</b> none; <b>CL</b> 16th; <b>Weight</b> 4 lbs.; <b>Aura</b> strong transmutation [<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>]</p>
+<p class="stat-block">This <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming-burst" >flaming burst</a> <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-brilliant-energy" >brilliant energy</a> longsword</i> has a burnished copper hilt and burns with blue and white flame. In the hands of a mythic wielder, the sword's fire damage bypasses fire resistance and fire immunity. As a swift action, the wielder can expend one use of mythic power to enable the <i>sword of inner fire</i> to damage nonliving creatures (such as constructs and undead) for 1 round, though the sword still can't damage inanimate objects.</p>
+<p class="stat-block">A wielder of at least 3rd tier can absorb the <i>sword of inner fire</i> into her body as a swift action, and call it back to hand with another swift action. While the sword is stored in this way, her eyes burn with orange flame and she gains a +5 deflection bonus to AC and a +2 luck bonus on all saving throws.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 75,815 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i>, <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i>, <i><a href="/pathfinderRPG/prd/spells/instantSummons.html#_instant-summons" >instant summons</a></i>, <i><a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i></p>
+
+<h2 id="other-magic-items">Other Magic Items</h2>
+<p>The following items' abilities interact with mythic creatures. </p>
+
+
+<p id="ambrosia" class="stat-block-title">Ambrosia</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Slot</b> none; <b>CL</b> 18th; <b>Weight</b> 1 lb.; <b>Aura</b> strong conjuration</p>
+<p class="stat-block">This divine food comes in many forms, from a light and airy honeyed cake to a deep, rich chocolate. A mythic creature that eats this food is restored and replenished. Eating this food takes 1 minute, and when the meal is done, the consumer regains all her uses of mythic power for the day. If a non-mythic creature consumes <i>ambrosia</i>, that creature is subject to <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/removeCurse.html#_remove-curse" >remove curse</a></i>, and <i><a href="/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease" >remove disease</a></i>, each at caster level 10th. A mythic creature can choose to either gain this effect instead of regaining mythic power.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 5,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism-greater" >greater heroism</a></i>, <i><a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a></i></p>
+
+
+<p id="anchoring-belt" class="stat-block-title">Anchoring Belt</p>
+<p class="stat-block-1"><b>Price</b> 60,000 gp; <b>Slot</b> belt; <b>CL</b> 9th; <b>Weight</b> 10 lbs.; <b>Aura</b> moderate abjuration</p>
+<p class="stat-block">This belt looks like nothing more than iron chains connecting large pieces of slate. It grants its wearer a +5 inherent bonus to combat maneuver defense against bull rush, drag, grapple, overrun, reposition, and trip combat maneuvers and a +5 inherent bonus on saving throws against any effect that attempts to move the wearer with physical force or energy. Furthermore, if the wearer is a mythic creature and targeted by an effect that would teleport her, she can choose whether or not she wishes to be teleported.</p>
+<p class="stat-block">As a standard action, the wearer can expend one use of mythic power to create a 30-foot-radius aura that affects all enemy creatures within it as though they were subject to a <i><a href="/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a></i> spell. This aura lasts for a number of rounds equal to the wearer's mythic tier.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 30,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a></i></p>
+
+
+<p id="blind-helm" class="stat-block-title">Blind Helm</p>
+<p class="stat-block-1"><b>Price</b> 85,000 gp; <b>Slot</b> head; <b>CL</b> 13th; <b>Weight</b> 3 lbs.; <b>Aura</b> strong divination</p>
+<p class="stat-block">This plain steel helm completely covers the face, lacking even eyeholes or a slit to peer out of. Its wearer is blinded by the helm, but gains blindsense with a range of 60 feet. As a swift action, the wearer can expend one use of mythic power to gain blindsight with a range of 60 feet for 1 minute, or instead expend two uses of mythic power to gain blindsight with a range of 120 feet for 1 minute. The wearer can expend three uses of mythic power to gain the effects of <i>truesight</i> for 1 minute.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 42,500 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/echolocation.html#_echolocation" >echolocation</a></i>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+
+
+<p id="book-of-banishing" class="stat-block-title">Book of Banishing</p>
+<p class="stat-block-1"><b>Price</b> 50,000 gp; <b>Slot</b> none; <b>CL</b> 18th; <b>Weight</b> 2 lbs.; <b>Aura</b> strong abjuration</p>
+<p class="stat-block">This immense tome contains dozens of banishing rituals, each written in an ever-changing mix of languages. It can be read only by way of <i><a href="/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages" >comprehend languages</a></i> or a similar translating effect. As a full-round action, a mythic creature can flip to and read an appropriate ritual of <i><a href="/pathfinderRPG/prd/spells/banishment.html#_banishment" >banishment</a></i> for a particular category of extraplanar creatures, such as angels or devils. Creatures not of that category are unaffected. The reader's caster level for this ritual is double her mythic tier.</p>
+<p class="stat-block">Once the ritual is read, the book counts as an object that the chosen creatures hate and fear, granting a +2 bonus on the reader's caster level check to overcome the chosen creatures' spell resistance. If other objects and substances that can affect the caster level check to overcome spell resistance are available, the book's user can apply those objects and substances when using the <i><a href="/pathfinderRPG/prd/spells/banishment.html#_banishment" >banishment</a></i> ritual, further increasing her bonus.</p>
+<p class="stat-block">A <i>book of banishing</i> can be safely read once per day. If read additional times during that period (regardless of who reads it), the reader must succeed at a DC 20 Will save or suffer the effects of a <i><a href="/pathfinderRPG/prd/spells/feeblemind.html#_feeblemind" >feeblemind</a></i> spell. This save DC increases by 5 each additional time the book is read that day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 25,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Creator, <i><a href="/pathfinderRPG/prd/spells/banishment.html#_banishment" >banishment</a></i>, any one of <i><a href="/pathfinderRPG/prd/spells/cloakOfChaos.html#_cloak-of-chaos" >cloak of chaos</a></i>, <i><a href="/pathfinderRPG/prd/spells/holyAura.html#_holy-aura" >holy aura</a></i>, <i><a href="/pathfinderRPG/prd/spells/shieldOfLaw.html#_shield-of-law" >shield of law</a></i>, or <i><a href="/pathfinderRPG/prd/spells/unholyAura.html#_unholy-aura" >unholy aura</a></i></p>
+
+
+<p id="book-of-perfect-jokes" class="stat-block-title">Book of Perfect Jokes</p>
+<p class="stat-block-1"><b>Price</b> 27,000 gp; <b>Slot</b> none; <b>CL</b> 8th; <b>Weight</b> 1 lb.; <b>Aura</b> moderate enchantment</p>
+<p class="stat-block">This small, weathered journal contains 10,000 jokes that change to be perfectly suited for particular audiences. The book grants its owner a +5 bonus on any <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check to influence the attitude of a creature. Additionally, up to three times per day the book can be used to cast <i><a href="/pathfinderRPG/prd/spells/hideousLaughter.html#_hideous-laughter" >hideous laughter</a></i> (Will DC 13 negates).</p>
+<p class="stat-block">By expending one use of mythic power as a standard action, the book's reader can make a brutal verbal tirade mocking a creature. The target creature is enraged per the <i><a href="/pathfinderRPG/prd/spells/rage.html#_rage" >rage</a></i> spell, and all other enemies within 30 feet of the target begin laughing uncontrollably, as <i><a href="/pathfinderRPG/prd/spells/hideousLaughter.html#_hideous-laughter" >hideous laughter</a></i> (Will DC 14 negates either effect). The book contains only one perfect joke for any given creature, so attempting to use the book on a creature a second time yields no effect.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 13,500 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/hideousLaughter.html#_hideous-laughter" >hideous laughter</a></i>, <i><a href="/pathfinderRPG/prd/spells/rage.html#_rage" >rage</a></i></p>
+
+
+<p id="boots-of-earth-and-wind" class="stat-block-title">Boots of Earth and Wind</p>
+<p class="stat-block-1"><b>Price</b> 20,000 gp; <b>Slot</b> feet; <b>CL</b> 9th; <b>Weight</b> 3 lbs.; <b>Aura</b> moderate transmutation</p>
+<p class="stat-block">These strange, heavy, leather-and-steel boots feature a pair of ever-fluttering wings on each side. These boots function like <i>winged boots</i>, but also grant a +5 bonus to CMD against bull rush, overrun, and reposition combat maneuvers as long as the wearer is standing on solid ground. A mythic creature can expend one use of mythic power when commanding the boots to fly to gain the bonus to CMD for as long as she uses the boots to fly.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 10,000 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i>, <i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i></p>
+
+<p id="bountiful-bottle" class="stat-block-title">Bountiful Bottle</p>
+<p class="stat-block-1"><b>Price</b> 4,000 gp; <b>Slot</b> none; <b>CL</b> 6th; <b>Weight</b> 1 lb.; <b>Aura</b> moderate transmutation</p>
+<p class="stat-block">This oddly shaped, transparent bottle has one chamber nested inside the other and two separate spouts, one leading into the smaller inner bottle, and the other into the outer bottle. To use the bottle, the inner chamber is filled with a potion and the outer chamber filled with water. When left alone for 24 hours, the water in the outer chamber slowly takes on the properties of the potion in the inner chamber, creating a second dose of the potion (though the bottle is unable to replicate potions with expensive material components). The second dose of created potion must be quaffed from the <i>bountiful bottle</i> to be effective, and loses its potency if transferred to another container. By expending one use of mythic power, the time it takes to transform a potion is shortened to a full-round action.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 2,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/advanced/spells/universalFormula.html#_universal-formula" >universal formula</a></i></p>
+
+
+<p id="bracers-of-might" class="stat-block-title">Bracers of Might</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Slot</b> wrists; <b>CL</b> 10th; <b>Weight</b> 1/2 lb.; <b>Aura</b> moderate transmutation</p>
+<p class="stat-block">These golden bracers are sculpted to depict a pair of mighty stags rearing up in triumph. They grant a +4 bonus on all Strength ability checks and Strength-based skill checks. As a swift action up to three times per day, the wearer can call upon the power of these bracers to gain a +4 sacred bonus to Strength for 1 round. The wearer can expend one use of mythic power to treat one Strength ability check or Strength-based skill check as if he rolled a natural 20.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 5,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i></p>
+
+
+<p id="bracers-of-the-shield-mates" class="stat-block-title">Bracers of the Shield Mates</p>
+<p class="stat-block-1"><b>Price</b> 40,000 gp; <b>Slot</b> wrists; <b>CL</b> 7th; <b>Weight</b> 2 lbs.; <b>Aura</b> moderate conjuration</p>
+<p class="stat-block">These heavy, bronze bracers depict scenes of epic battle and heroic sacrifice. When worn together, they provide no benefit. When two individuals each wear a single bracer, each wearer gains a +2 shield bonus to AC as long as the two remain within 100 feet of each other.</p>
+<p class="stat-block">By expending one use of mythic power as a swift action, the wearer of one of the bracers can teleport up to 100 feet per mythic tier to any unoccupied space adjacent to the other wearer. The wearer acts normally for the remainder of her turn, then immediately teleports back to her original space when her turn ends. Effects that prevent dimensional travel either from the wearer's space or to her destination block this ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">20,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Creator, <i><a href="/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door" >dimension door</a></i>, <i><a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i></p>
+
+
+<p id="canopic-jar" class="stat-block-title">Canopic Jar</p>
+<p class="stat-block-1"><b>Price</b> 24,000 gp; <b>Slot</b> none; <b>CL</b> 13th; <b>Weight</b> 2 lbs.; <b>Aura</b> strong necromancy</p>
+<p class="stat-block">This clay burial jar is designed to hold viscera from a corpse. A creature can spend 10 minutes and make a DC 15 <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> check to harvest the intact intestine, liver, lungs, or stomach from a Tiny to Large corpse and preserve it inside the jar. The corpse must be fresh (dead for no longer than 1 hour) and of the animal, dragon, or humanoid type. A full jar weighs 5 pounds.</p>
+<p class="stat-block">Up to three times per day, the bearer can gain any one of the following abilities that the creature possessed in life for 10 minutes at a value no greater than the creature had: climb speed, darkvision (up to 60 feet), resist energy, fly speed, low-light vision, scent, or swim speed. Movement abilities are limited to a speed of no more than 60 feet, and flight can be of no greater than good maneuverability. Energy resistance can be gained in any single energy type the creature was resistant or immune to, to a maximum of 20 points (if the creature had immunity, the user gains resistance 20 to that energy type).</p>
+<p class="stat-block">By expending one use of mythic power, the bearer can instead take the form of the creature for 10 minutes, as if using <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i>, <i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii" >beast shape II</a></i>, <i><a href="/pathfinderRPG/prd/spells/formOfTheDragon.html#_form-of-the-dragon-ii" >form of the dragon II</a></i>, or <i><a href="/pathfinderRPG/prd/spells/giantForm.html#_giant-form-i" >giant form I</a></i>, as appropriate. The bearer resembles the original creature as it appeared in life, as though he were impersonating that creature with a <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> check result of 20. To use the jar's abilities, it only has to be carried on the bearer's person. In addition to these properties, the <i>canopic jar</i> preserves its contents for an indefinite period, similar to <i><a href="/pathfinderRPG/prd/spells/gentleRepose.html#_gentle-repose" >gentle repose</a></i>. The organs are suitable remains for <i><a href="/pathfinderRPG/prd/spells/resurrection.html#_resurrection" >resurrection</a></i>, but insufficient for <i><a href="/pathfinderRPG/prd/spells/raiseDead.html#_raise-dead" >raise dead</a></i>.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 12,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/gentleRepose.html#_gentle-repose" >gentle repose</a></i>, <i><a href="/pathfinderRPG/prd/spells/polymorph.html#_polymorph" >polymorph</a></i></p>
+
+
+<p id="cape-of-free-will" class="stat-block-title">Cape of Free Will</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Slot</b> shoulders; <b>CL</b> 7th; <b>Weight</b> 1 lb.; <b>Aura</b> moderate abjuration</p>
+<p class="stat-block-1"><b>+1 bonus/+2 Will</b> 1,500 gp; <b>+2 bonus/+3 Will</b> 6,000 gp; +3 bonus/+4 Will</b> 13,500 gp; <b>+4 bonus/+5 Will</b> 24,000 gp; +5 bonus/+6 Will</b> 37,500 gp</p>
+<p class="stat-block">The wearer of this brightly colored patchwork cape gains a bonus on all saving throws, as with a <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a></i>, but the resistance bonus on Will saves is one greater. Furthermore, if the wearer fails a Will saving throw, he can expend one use of mythic power as an immediate action to reroll that saving throw. If the wearer fails the saving throw on the reroll, he can't use this ability again for 24 hours.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost Varies</p>
+<p class="stat-block-1"><b>+1 bonus/+2 Will</b> 750 gp; <b>+2 bonus/+3 Will</b> 3,000 gp; <b>+3 bonus/+4 Will</b> 6,750 gp; <b>+4 bonus/+5 Will</b> 12,000 gp; <b>+5 bonus/+6 Will</b> 18,750 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a></i>, the creator must have the mythic saves ability</p>
+
+
+<p id="cayden's-cup" class="stat-block-title">Cayden's Cup</p>
+<p class="stat-block-1"><b>Price</b> 16,500 gp; <b>Slot</b> none; <b>CL</b> 5th; <b>Weight</b> 1 lb.; <b>Aura</b> faint conjuration</p>
+<p class="stat-block">On command, this battered pewter tankard fills with ale perfectly matched to the bearer's taste and desire. Ale poured out the tankard quickly loses its flavor and virtue, becoming common swill within minutes. The tankard prevents most of the ill effects of excessive drinking, such as hangovers and blackouts, as long as it remains in its owner's possession. It also provides a +4 bonus on saving throws against poison.</p>
+<p class="stat-block">Once per hour as a move action, by drinking the contents of the tankard and voicing a toast the imbiber gains a +2 morale bonus to Strength and Constitution, but takes a &ndash;2 penalty on Dexterity- and Intelligence-based ability and skill checks. These effects last for 10 minutes. If the tankard is empty, it must be filled prior to drinking. If the imbiber expends one use of mythic power while drinking from the cup, the morale bonus increase to +4, the penalties to &ndash;4, and the duration of the tankard's effects to 1 hour.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 8,250 gp</p>
+<p class="stat-block-1">Craft wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/createFoodAndWater.html#_create-food-and-water" >create food and water</a></i>, <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i>, <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i></p>
+
+
+<p id="censer-of-sanctuary" class="stat-block-title">Censer of Sanctuary</p>
+<p class="stat-block-1"><b>Price</b> 18,000 gp; <b>Slot</b> none; <b>CL</b> 3rd; <b>Weight</b> 2 lbs.; <b>Aura</b> faint abjuration</p>
+<p class="stat-block">When a block of incense is placed inside this censer and ignited, the bearer gains the benefits of a heightened 2nd-level <i><a href="/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary" >sanctuary</a></i> spell for as long as the incense burns (1 hour per stick of incense) or until the bearer breaks the effect by attacking. Placing the incense is a move action, and igniting it is a standard action. If <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_incense-of-meditation" >incense of meditation</a></i> is burned instead of normal incense, the <i><a href="/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary" >sanctuary</a></i> effect is heightened to 7th level.</p>
+<p class="stat-block">While lighting the censer, the bearer can expend one use of mythic power to grant the benefits of the censer's <i><a href="/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary" >sanctuary</a></i> to all allies within a 20-foot-radius emanation of the censer for 10 minutes. Allies who attack break the <i><a href="/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary" >sanctuary</a></i> effect only for themselves. The incense extinguishes 1 round after the bearer ceases to use. If <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_incense-of-meditation" >incense of meditation</a></i> is extinguished before 8 hours of burning, the remainder becomes normal incense.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 9,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_heighten-spell" >Heighten Spell</a>, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary" >sanctuary</a></i></p>
+
+
+<p id="chime-of-disillusionment" class="stat-block-title">Chime of Disillusionment</p>
+<p class="stat-block-1"><b>Price</b> 35,000 gp; <b>Slot</b> none; <b>CL</b> 9th; <b>Weight</b> 2 lbs.; <b>Aura</b> moderate enchantment</p>
+<p class="stat-block">When struck, this heavy iron tube produces a discordant tone and draws the surrounding light in on itself. Within a 60-foot-radius burst centered on the point where the chime was struck, the illumination level drops one step, to a minimum of dim light. The echoes of the chime resonate for 1 minute, during which creatures in the area can't benefit from morale bonuses and gain a +4 bonus on Will saves made to disbelieve. After this period, the suppression of morale bonuses ends and the ambient light level returns to normal. If the bearer expends one use of mythic power while striking the chime, the area increases to a 120-foot-radius burst, and each mythic enemy within it loses one use of mythic power, in addition to the chime's normal effects. The chime can be struck three times per day. Additional strikes produce no sound or effect.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 17,500 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/calmEmotions.html#_calm-emotions" >calm emotions</a></i>, <i><a href="/pathfinderRPG/prd/spells/darkness.html#_darkness" >darkness</a></i></p>
+
+
+<p id="cloak-of-quick-reflexes" class="stat-block-title">Cloak of Quick Reflexes</p>
+<p class="stat-block-1"><b>Price</b> Varies</p>; +1 bonus/+2 Reflex</b> 1,500 gp; <b>+2 bonus/+3 Reflex</b> 6,000 gp; +3 bonus/+4 Reflex</b> 13,500 gp; <b>+4 bonus/+5 Reflex</b> 24,000 gp; +5 bonus/+6 Reflex</b> 37,500 gp</span>; <b>Slot</b> shoulders; <b>CL</b> 7th; <b>Weight</b> 1 lb.; <b>Aura</b> moderate abjuration</p>
+<p class="stat-block">The wearer of this light, short cloak gains a bonus on all saving throws, as with a <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a></i>, but the resistance bonus on Reflex saves is one greater. Furthermore, if the wearer fails a Reflex saving throw, she can expend one use of mythic power as an immediate action to reroll that saving throw. If the wearer fails the saving throw on the reroll, she can't use this ability again for 24 hours.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost Varies</p>
+<p class="stat-block-1"><b>+1 bonus/+2 Reflex</b> 750 gp; <b>+2 bonus/+3 Reflex</b> 3,000 gp; <b>+3 bonus/+4 Reflex</b> 6,750 gp; <b>+4 bonus/+5 Reflex</b> 12,000 gp; <b>+5 bonus/+6 Reflex</b> 18,750 gp
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a></i>, the creator must have the mythic saves ability</p>
+
+<p id="cloak-of-the-hunt" class="stat-block-title">Cloak of the Hunt</p>
+<p class="stat-block-1"><b>Price</b> 12,000 gp; <b>Slot</b> shoulders; <b>CL</b> 12th; <b>Weight</b> 1 lb.; <b>Aura</b> strong illusion</p>
+<p class="stat-block">This rough-spun green cloak is trimmed in wolf fur and fastened with a silver clasp. With the cloak drawn over his shoulders and the hood pulled up, the wearer becomes one with his surroundings, gaining a +5 bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks and on <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> skill checks made to follow tracks. The cloak also renders the wearer immune to the scent ability.</p>
+<p class="stat-block">If the wearer expends one use of mythic power, the cloak turns him invisible for 1 hour, as <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater" >greater invisibility</a></i>. If the wearer makes an attack, the effects last for 1 minute after the attack, then end. A character made invisible by this cloak can't be detected with <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i> or other spells or effects that detect magical auras. The <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater" >greater invisibility</a></i> can't be penetrated, revealed, or dispelled by spells of 2nd level or lower (such as <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i> or <i><a href="/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust" >glitterdust</a></i>), though <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a> </i>and dust of <i>appearance</i> can reveal the wearer's presence.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 6,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater" >greater invisibility</a></i></p>
+
+
+<p id="cornucopia-of-plenty" class="stat-block-title">Cornucopia of Plenty</p>
+<p class="stat-block-1"><b>Price</b> 35,000 gp; <b>Slot</b> none; <b>CL</b> 11th; <b>Weight</b> 5 lbs.; <b>Aura</b> moderate conjuration</p>
+<p class="stat-block">This large container, crafted from an animal horn or woven of wicker, overflows with fruits, nuts, and vegetables. Up to three times per day, it can be inverted to pour forth delicious food equal to a casting of <i><a href="/pathfinderRPG/prd/spells/createFoodAndWater.html#_create-food-and-water" >create food and water</a> </i>for up to six people. Though the cornucopia produces no water, the succulent fruits slake normal thirst.</p>
+<p class="stat-block">If the user expends one use of mythic power when inverting the horn, it instead produces a <i><a href="/pathfinderRPG/prd/spells/heroesFeast.html#_heroes-feast" >heroes' feast</a></i> that also refreshes the partakers as though they had rested for a full 8 hours sleep. Creatures with the <a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html#_recuperation">recuperation ability</a> who dine on this feast recover as though they had rested for the hour required by the recuperation ability, with no need to expend additional uses of mythic power. Eating more than one such feast within a single day provides no additional benefit.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 17,500 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/createFoodAndWater.html#_create-food-and-water" >create food and water</a></i>, <i><a href="/pathfinderRPG/prd/spells/heroesFeast.html#_heroes-feast" >heroes' feast</a></i></p>
+
+
+<p id="death-warden's-bandolier" class="stat-block-title">Death Warden's Bandolier</p>
+<p class="stat-block-1"><b>Price</b> 15,000 gp; <b>Slot</b> chest; <b>CL</b> 11th; <b>Weight</b> 3 lbs.; <b>Aura</b> moderate necromancy [<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a>]</p>
+<p class="stat-block">This black leather bandolier is adorned with three brass bells of various sizes and shapes. Each bell can be rung to produce its own effect, or all can be rung at once to create a <i><a href="/pathfinderRPG/prd/spells/deathWard.html#_death-ward" >death ward</a></i>. The <i>death warden's bandolier</i> can be used three times per day. A mythic creature can expend one use mythic power to use the bandolier without expending one of the item's daily uses.</p>
+<p class="stat-block"><i>Undead Ward Bell</i>: This long, thin bell produces a high-pitched, piercing ring. When it is rung as a standard action, it creates a 30-foot-burst aura that keeps out undead creatures. An undead creature can't enter the aura unless it succeeds at a DC 16 Will save. Undead within the aura take a &ndash;2 penalty on all attack rolls, combat maneuver checks, skill checks, and ability checks. The aura lasts for 5 rounds, but can be extended to 1 minute by expending one use of mythic power.</p>
+<p class="stat-block"><i>Channeling Bell</i>: This large, bulbous bell creates a rich, reverberating tone. When it's rung as part of the action to channel positive energy to harm undead, it can take the place of the holy symbol needed for channeling. When it's used in such a manner, undead creatures within the area take an additional 2 points of damage per each die of the channelled energy. The undead take this extra damage even if they succeed at their Will saving throws.</p>
+<p class="stat-block"><i>Dirge Bell</i>: The final, largest bell is cone-shaped. It creates a deep, bass chime. When rung, this bell creates an aura in a 30-foot-radius burst that causes incorporeal undead within it to become semi-physical for a period of time. While within the aura, undead take half damage from nonmagical attacks and full damage from magical attacks. The aura last for 5 rounds, but can be extended to 1 minute by expending one use of mythic power.<span class="hyperlink char-style-override-15"></span></p>
+<p class="stat-block"><i>All Bells At Once</i>: When all the bells are rung at once, the wearer and all of her allies within 30 feet are protected as if they were subject to a <i><a href="/pathfinderRPG/prd/spells/deathWard.html#_death-ward" >death ward</a></i> spell (CL 11th). By expending one use of mythic power, the wearer can increase the duration of this effect to 24 hours.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 7,500 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/deathWard.html#_death-ward" >death ward</a></i>, <i><a href="/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge" >ghostbane dirge</a></i>, <i><a href="/pathfinderRPG/prd/spells/holySmite.html#_holy-smite" >holy smite</a></i></p>
+
+
+<p id="dolorous-rod" class="stat-block-title">Dolorous Rod</p>
+<p class="stat-block-1"><b>Price</b> 120,000 gp; <b>Slot</b> none; <b>CL</b> 10th; <b>Weight</b> 5 lbs.; <b>Aura</b> moderate enchantment and necromancy</p>
+<p class="stat-block">On command, this rod beats with a slow, steady pulse, sending a deep, almost inaudible thrum through the air. At the start of each successive round of holding the rod, its bearer takes 1d10 points of damage that can't be reduced in any way, and must succeed at a DC 20 Fortitude save or gain a permanent negative level. While the rod is held, creatures within 120 feet take a &ndash;2 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls. This is a mind-affecting emotion effect. While held by a mythic creature, the rod prevents all creatures of an equal or lower mythic tier within its radius from expending mythic power. Mythic abilities that don't require expending uses of mythic power are unaffected.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 60,000 gp</p>
+<p class="stat-block-1">Craft Rod, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i>, <i><a href="/pathfinderRPG/prd/spells/crushingDespair.html#_crushing-despair" >crushing despair</a></i></p>
+
+<p id="everburning-lantern" class="stat-block-title">Everburning Lantern</p>
+<p class="stat-block-1"><b>Price</b> 3,000 gp; <b>Slot</b> none; <b>CL</b> 6th; <b>Weight</b> 2 lbs.; <b>Aura</b> moderate evocation</p>
+<p class="stat-block">This small, brass hooded lantern gives off light as a <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i> spell. If the bearer expends one use of mythic power, the lantern gives off light as a <i>mythic <a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i> spell for 1 hour. While giving off light as <i>mythic <a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i>, the lantern automatically dispels all non-mythic <i><a href="/pathfinderRPG/prd/spells/darkness.html#_darkness" >darkness</a></i> spells or effects that come within its light.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 1,500 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i>mythic <a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i></p>
+
+
+<p id="eye-orb" class="stat-block-title">Eye Orb</p>
+<p class="stat-block-1"><b>Price</b> 80,000 gp; <b>Slot</b> none; <b>CL</b> 9th; <b>Weight</b> 1 lb.; <b>Aura</b> moderate divination</p>
+<p class="stat-block">If a blind creature holds this orb, that creature can see with darkvision with a range of 120 feet, but also gains light sensitivity (<i>Pathfinder RPG Bestiary</i> 301). If a sighted creature holds this orb and holds his eyes shut for 1 minute, he gains the blinded condition until he opens his eyes (as a free action), but can see through the orb as if he were a blind creature.</p>
+<p class="stat-block">By expending one use of mythic power, a creature using the <i>eye orb</i> can see as though using <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i>, and loses light sensitivity. These effects last for 1 minute or until he stops using the orb to see, whichever comes first.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 40,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a>, <a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+
+<p id="figurine-of-wondrous-power,-basalt-dragon" class="stat-block-title">Figurine of Wondrous Power, Basalt Dragon</p>
+<p class="stat-block-1"><b>Price</b> 60,000 gp; <b>Slot</b> none; <b>CL</b> 20th; <b>Weight</b> 1 lb.; <b>Aura</b> strong transmutation</p>
+<p class="stat-block">This fist-sized, carved dragon is sculpted from volcanic rock. It becomes either a pseudodragon or a flame drake (<i>Pathfinder RPG Bestiary 2</i> 106), depending on the command word used. The transformation can take place twice per day, with a maximum duration of 2 continuous hours. The pseudodragon can use its telepathy to communicate with its owner over any distance, but not across planes.</p>
+<p class="stat-block">By expending one use of mythic power, the user of the figurine can instead transform the figurine into a young red dragon. If the user is at least 5th tier, she can instead expend two uses of mythic power to transform the figurine into an adult red dragon. If the user is at least 9th tier, she can instead expend four uses of mythic power to transform the figurine into an ancient red dragon. Transforming the figurine into a true dragon renders the figurine powerless for 1 week after the transformation ends.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 30,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects" >animate objects</a></i>, <i><a href="/pathfinderRPG/prd/spells/formOfTheDragon.html#_form-of-the-dragon-iii" >form of the dragon III</a></i>, <i><a href="/pathfinderRPG/prd/spells/telepathicBond.html#_telepathic-bond" >telepathic bond</a></i></p>
+
+<p id="gallows-rope" class="stat-block-title">Gallows Rope</p>
+<p class="stat-block-1"><b>Price</b> 18,000 gp; <b>Slot</b> neck; <b>CL</b> 9th; <b>Weight</b> 4 lbs.; <b>Aura</b> moderate necromancy</p>
+<p class="stat-block">This grisly, knotted rope is tied into a noose, and at first glance appears to be nothing more than a gruesome memento of a hanging. While the noose is worn tightly around the neck, any time the wearer is reduced below 0 hit points he gains DR 10/&mdash; and fast healing 5 until he regains consciousness. While the wearer is unconscious, his breathing stops and he appears dead. If the wearer would be killed due to hit point loss while wearing the noose, he can expend any number of uses of mythic power to heal 10 hit points per use spent. This doesn't require an action. If that healing would bring him above the threshold for death, the wearer doesn't die.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 9,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i>mythic <a href="/pathfinderRPG/prd/spells/regenerate.html#_regenerate" >regenerate</a></i></p>
+
+
+<p id="gloves-of-distant-action" class="stat-block-title">Gloves of Distant Action</p>
+<p class="stat-block-1"><b>Price</b> 20,000 gp; <b>Slot</b> hands; <b>CL</b> 9th; <b>Weight</b> &mdash;; <b>Aura</b> moderate transmutation</p>
+<p class="stat-block">As a move action, the wearer of these fine leather gloves can pick up an unattended object (weighing no more than 20 pounds) that is up to 30 feet away, and move it up to 30 feet. The object falls to the ground at the end of the movement unless the wearer of the gloves moves it into his hand. This action doesn't provoke attacks of opportunity.</p>
+<p class="stat-block">By expending one use of mythic power as a free action on his turn, the wearer can focus the power of the gloves, allowing him to make unarmed strikes and combat maneuvers to bull rush, disarm, or trip against foes up to 30 feet away until the end of his turn. Treat these attacks as though the wearer had 30 feet of reach. When attacking a non-adjacent target in this manner, the wearer can't be affected by feats and abilities like <a href="/pathfinderRPG/prd/feats.html#_strike-back" >Strike Back</a> or <i><a href="/pathfinderRPG/prd/spells/fireShield.html#_fire-shield" >fire shield</a></i> that require touching or coming near the target. The gloves don't increase the wearer's threatened area.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 10,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/mageHand.html#_mage-hand" >mage hand</a></i>, <i><a href="/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis" >telekinesis</a></i></p>
+
+
+<p id="gloves-of-spell-snaring" class="stat-block-title">Gloves of Spell Snaring</p>
+<p class="stat-block-1"><b>Price</b> 9,000 gp; <b>Slot</b> hands; <b>CL</b> 13th; <b>Weight</b> &mdash;; <b>Aura</b> strong abjuration</p>
+<p class="stat-block">These thin gloves are covered in reflective glyphs and sigils, and the palms are slightly tacky. Like <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_gloves-of-arrow-snaring" >gloves of arrow snaring</a></i>, twice per day the wearer can act as if she had the <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_snatch" >Snatch</a> Arrow feat, even if she doesn't meet the prerequisites for that feat. In addition, the wearer can expend one of this item's uses per day to use the <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_snatch" >Snatch</a> Arrows feat on a projectile targeting an ally in a space adjacent to her.</p>
+<p class="stat-block">As an immediate action, the wearer can expend one use of mythic power and one of this item's uses per day to block a spell targeting her or an adjacent ally, as the <a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes/guardian.html#_parry-spell">parry spell guardian path ability</a>.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 4,500 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i><a href="/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning" >spell turning</a></i>, creator must have the parry spell path ability</p>
+
+
+<p id="golden-holy-symbol" class="stat-block-title">Golden Holy Symbol</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Slot</b> neck; <b>CL</b> 10th; <b>Weight</b> 1 lb.; <b>Aura</b> moderate conjuration</p>
+<p class="stat-block">This holy symbol is always warm to the touch, and whenever it strikes metal it rings out with the sound of a choir of angels. When used as a divine focus for a divine spell, the symbol emits a bright light that heals its wearer of a number of points of damage equal to the spell's level.</p>
+<p class="stat-block">If the wearer expends one use of mythic power when casting a divine spell that uses this holy symbol as its divine focus, the emblem glows for a number of rounds equal to the wearer's mythic tier, shedding light like a torch. Instead of this item's normal effect, at the start of each of the wearer's turns, she and all her allies within 30 feet heal a number of points of damage equal to 1d6 + the wearer's tier. This effect lasts as long as the light persists.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 5,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds" >cure critical wounds</a></i></p>
+
+
+<p id="headband-of-sealed-thoughts" class="stat-block-title">Headband of Sealed Thoughts</p>
+<p class="stat-block-1"><b>Price</b> 150,000 gp; <b>Slot</b> headband; <b>CL</b> 15th; <b>Weight</b> 1 lb.; <b>Aura</b> strong abjuration</p>
+<p class="stat-block">Uncomfortably sharp protrusions bristle on the inner edge of this heavy, bronze headband. It grants its wearer a +4 enhancement bonus to Intelligence. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. It also grants skill ranks as a <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-vast-intelligence" >headband of vast intelligence</a> +4</i>. The wearer is protected from all effects that gather information about her via divination, and gains a bonus equal to her mythic tier on saving throws against mind-affecting effects. This protection otherwise functions as <i><a href="/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank" >mind blank</a></i>, except the headband provides no protection against <i><a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a></i>, <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i>, and <i><a href="/pathfinderRPG/prd/spells/wish.html#_wish" >wish</a></i>, and it doesn't grant a resistance bonus on saving throws.</p>
+<p class="stat-block">When the wearer succeeds at a saving throw against a mind-affecting effect, she can rebound the effect onto the caster as an immediate action by expending one use of mythic power. Treat this as the original spell or effect, except the wearer is treated as the caster and the original caster as the target. The rebounded spell affects only the original caster, and rebounding doesn't prevent the original spell from affecting targets other than the wearer of the <i>headband of sealed thoughts</i>.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 75,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/foxSCunning.html#_fox-s-cunning" >fox's cunning</a></i>, <i><a href="/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank" >mind blank</a></i>, <i><a href="/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning" >spell turning</a></i></p>
+
+
+<p id="helm-of-the-serpent-king" class="stat-block-title">Helm of the Serpent King</p>
+<p class="stat-block-1"><b>Price</b> 96,000 gp; <b>Slot</b> head; <b>CL</b> 5th; <b>Weight</b> 3 lbs.; <b>Aura</b> faint transmutation</p>
+<p class="stat-block">This helm is made of large, alchemically hardened snake scales, and is crafted in the shape of a stylized serpent mouth. Its wearer stares out through the serpent's eyes, and sees all things cast in a yellow tint. When worn, it grants the following spell-like abilities to the wearer:</p>
+<ul><li><i><a href="/pathfinderRPG/prd/spells/hypnotism.html#_hypnotism" >Hypnotism</a></i> (3/day)</li>
+<li><i><a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-iii" >Summon nature's ally III</a></i> (constrictor snake only, 3/day)</li>
+<li><i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-iii" >Beast shape III</a></i> (snake form only, 1/day)</li>
+<li><i><a href="/pathfinderRPG/prd/spells/poison.html#_poison" >Poison</a></i> (1/day)</ul>
+<p class="stat-block">A mythic creature can expend one use of mythic power when using the <i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-iii" >beast shape III</a></i> spell-like ability to instead cast it as <i>mythic <a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-iii" >beast shape III</a></i>. Alternatively, he can expend two uses of mythic power to instead cast the augmented version of <i>mythic <a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-iii" >beast shape III</a></i>.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 48,000 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-iii" >beast shape III</a></i>, <i><a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-iii" >summon nature's ally III</a></i></p>
+
+
+<p id="herbs-of-the-primal-beast" class="stat-block-title">Herbs of the Primal Beast</p>
+<p class="stat-block-1"><b>Price</b> 1,400 gp; <b>Slot</b> none; <b>CL</b> 7th; <b>Weight</b> 1/2 lb.; <b>Aura</b> moderate transmutation</p>
+<p class="stat-block">When a humanoid consumes these bitter herbs, they awaken the animal within him, no matter how civilized the consumer believes himself to be. They grant the partaker low-light vision and the scent ability for 1 hour. If the consumer has the rage class feature, he can expend one use of mythic power as part of entering a rage to take the form of an animal (as <i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii" >beast shape II</a></i>) while gaining the usual benefits of rage. When the rage ends, any remaining duration of the herbs is lost.</p>
+<p class="stat-block">A creature without the humanoid type, including a monstrous humanoid, gains no benefits from the herbs. It instead becomes nauseated for 1 round, then sickened for 1d4 rounds. A successful DC 13 Fortitude save leaves the creature sickened for 1 round and negates the nausea.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 700 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii" >beast shape II</a></i></p>
+
+<p id="immolation-cloak" class="stat-block-title">Immolation Cloak</p>
+<p class="stat-block-1"><b>Price</b> 65,000 gp; <b>Slot</b> shoulders; <b>CL</b> 6th; <b>Weight</b> 1 lb.; <b>Aura</b> moderate evocation</p>
+<p class="stat-block">An <i>immolation cloak</i> grants its wearer resist fire 20. As a swift action, the wearer can command the cloak to burst into flame, providing the benefits of a <i><a href="/pathfinderRPG/prd/spells/fireShield.html#_fire-shield" >fire shield</a></i> (warm flames only). The wearer can dismiss the flames as a free action. The cloak can be used for a maximum of 10 rounds per day, which don't have to be consecutive.</p>
+<p class="stat-block">By expending one use of mythic power, the cloak's wearer can recharge its immolation abilities. In addition, the wearer can expend one use of mythic power to detonate in a fiery explosion, dealing 1d8 points of fire damage per character level in a 30-foot-radius spread. A successful Reflex save (DC 10 + the wearer's mythic tier + the wearer's Charisma modifier) halves this damage. Though apparently destroyed in the explosion, the wearer reforms just prior to the start of his next turn in the space he exploded in (or the nearest open space if that space is unavailable).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 32,500 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/advanced/spells/detonate.html#_detonate" >detonate</a></i>, <i><a href="/pathfinderRPG/prd/spells/fireShield.html#_fire-shield" >fire shield</a></i>, <i>resist <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a></i></p>
+
+
+<p id="inescapable-gloves" class="stat-block-title">Inescapable Gloves</p>
+<p class="stat-block-1"><b>Price</b> 9,000 gp; <b>Slot</b> hands; <b>CL</b> 7th; <b>Weight</b> 1 lb.; <b>Aura</b> moderate abjuration</p>
+<p class="stat-block">The palms of these light doeskin gloves are covered with supple ripples to augment the wearer's grip. The wearer gains a +4 competence bonus on combat maneuver checks to grapple. The wearer can expend one use of mythic power when a creature subject to <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i> or a similar effect attempts to escape the wearer's grapple with a combat maneuver check or <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> check. That creature must attempt the check as normal instead of automatically succeeding at it. If a creature attempts use a non-mythic teleportation effect to escape the grapple, the wearer can expend two uses of mythic power to negate that effect.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 4,500 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a></i>, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i></p>
+
+
+<p id="laurel-wreath" class="stat-block-title">Laurel Wreath</p>
+<p class="stat-block-1"><b>Price</b> 19,000 gp; <b>Slot</b> head; <b>CL</b> 5th; <b>Weight</b> 1 lb.; <b>Aura</b> faint enchantment</p>
+<p class="stat-block">This crown of laurel leaves inspires its wearer to achieve mighty deeds. She gains a +4 morale bonus on saving throws against mind-affecting effects. If she succeeds at a saving throw against a harmful mind-affecting effect, the surge of confidence gives her a +2 morale bonus on attack rolls, skill checks, and weapon damage rolls for 1 minute. If she fails such a saving throw, she is instead shaken for 1 minute, though this condition doesn't stack with other fear effects to make her frightened or panicked.</p>
+<p class="stat-block">A mythic creature wearing the wreath gains 2 temporary hit points per tier at the start of each day. These temporary hit points are restored whenever the wearer rests 8 hours or otherwise gains the equivalent of doing so.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 9,500 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i>false hope</i>, <i><a href="/pathfinderRPG/prd/spells/goodHope.html#_good-hope" >good hope</a></i></p>
+
+
+<p id="lyre-of-storms" class="stat-block-title">Lyre of Storms</p>
+<p class="stat-block-1"><b>Price</b> 65,000 gp; <b>Slot</b> none; <b>CL</b> 7th; <b>Weight</b> 5 lbs.; <b>Aura</b> moderate transmutation</p>
+<p class="stat-block">This finely made instrument is crafted of lovingly polished wood inlaid with mystic runes. When the lyre is played, sparks dance along its strings.</p>
+<p class="stat-block">By succeeding at a DC 15 <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (string instruments) check, the bearer can produce the following spells.</p>
+<ul><li><i><a href="/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind" >Gust of wind</a></i> (3/day)</li>
+<li><i><a href="/pathfinderRPG/prd/spells/callLightning.html#_call-lightning" >Call lightning</a></i> (1/day)</li></ul>
+<p class="stat-block">By succeeding at a DC 25 <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (string instruments) check and then expending one use of mythic power, the bearer can produce the mythic version of the spell instead. If the bearer fails her <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> check, her action is wasted, but she doesn't expend one of the item's uses per day or any mythic power.</p>
+<p class="stat-block">If bearer has the appropriate mythic tier and the bardic performance ability, she can bring forth one of the following magical effects for as long as she uses the instrument as part of a bardic performance; she also gains the usual benefits of that performance. She must end the performance and start a new one to choose a new effect.</p>
+<ul><li>3rd tier or higher: <i><a href="/pathfinderRPG/prd/spells/waterWalk.html#_water-walk" >water walk</a></i>, shared with all the player's allies within 20 feet</li>
+<li>4th tier or higher: <i>control wind</i>s centered on the player, used only to decrease wind strength</li>
+<li>5th tier or higher: <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/fickleWinds.html#_fickle-winds" >fickle winds</a></i>, affecting the player only</li></ul>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 32,500 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/callLightning.html#_call-lightning" >call lightning</a></i>, <i><a href="/pathfinderRPG/prd/spells/controlWeather.html#_control-weather" >control weather</a></i>, <i><a href="/pathfinderRPG/prd/spells/waterWalk.html#_water-walk" >water walk</a></i></p>
+
+
+<p id="mantle-of-the-faithful-vessel" class="stat-block-title">Mantle of the Faithful Vessel</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Slot</b> chest; <b>CL</b> 3rd; <b>Weight</b> 2 lbs.; <b>Aura</b> faint enchantment and necromancy</p>
+<p class="stat-block">This simple robe automatically shifts color and style to match the signature colors, fabrics, and symbols of the wearer's faith (if any) when she dons it.</p>
+<p class="stat-block">When the wearer channels energy, any creatures healed by the energy gain the benefits of <i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a></i> for 1 minute, and any creatures harmed by the energy are subjected to <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane" >bane</a> </i>(Will DC 11 negates) for 1 minute. The wearer adds her mythic tier to the damage dealt or healed when she channels energy.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 5,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i>, <i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a></i>, channel energy class feature</p>
+
+
+<p id="mirroring-belt" class="stat-block-title">Mirroring Belt</p>
+<p class="stat-block-1"><b>Price</b> 36,000 gp; <b>Slot</b> belt; <b>CL</b> 6th; <b>Weight</b> 2 lbs.; <b>Aura</b> moderate illusion</p>
+<p class="stat-block">This broad belt is constructed of steel plates polished to a gleaming finish. The belt grants its wearer a +2 enhancement bonus to Dexterity. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.</p>
+<p class="stat-block">Three times per day, the wearer can use <i><a href="/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image" >mirror image</a></i> to bring forth illusory duplicates that persist for 6 minutes or until destroyed. These function as normal images from that spell, except any ranged attack (including ranged touch spells) that strikes and destroys an image rebounds onto the attacker, using the attacker's original result to determine whether the attack hits.</p>
+<p class="stat-block">If the wearer expends one use of mythic power to activate the belt, the mirror images replenish when the wearer is hit. This functions as above, except each time an attack hits the wearer instead of an image, the belt creates a new image, up to the spell's limit of eight images. Unlike <i><a href="/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image" >mirror image</a></i>, the effect doesn't end when the images are gone. If there are no more images, the belt continues to create new images for the effect's full duration.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 18,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image" >mirror image</a></i></p>
+
+
+<p id="mithral-rose" class="stat-block-title">Mithral Rose</p>
+<p class="stat-block-1"><b>Price</b> 9,000 gp; <b>Slot</b> none; <b>CL</b> 5th; <b>Weight</b> &mdash;; <b>Aura</b> faint transmutation</p>
+<p class="stat-block">This seemingly delicate silver rose is rigid and nearly unbreakable. When wearing the rose openly on his chest, the wearer treats all of his natural attacks, unarmed attacks, and weapon attacks as if they were made using silver weapons. The wearer can expend one use of mythic power when making a melee attack against an enemy that possesses DR/silver to negate that DR for a number of rounds equal to the wearer's mythic tier.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 4,500 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i></p>
+
+<p id="monocle-of-unveiled-auras" class="stat-block-title">Monocle of Unveiled Auras</p>
+<p class="stat-block-1"><b>Price</b> 12,700 gp; <b>Slot</b> eyes; <b>CL</b> 5th; <b>Weight</b> &mdash;; <b>Aura</b> faint divination</p>
+<p class="stat-block">The wearer of this crystal monocle gains the ability to use <i><a href="/pathfinderRPG/prd/spells/detectChaos.html#_detect-chaos" >detect chaos</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectGood.html#_detect-good" >detect good</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, or <i><a href="/pathfinderRPG/prd/spells/detectLaw.html#_detect-law" >detect law</a></i>, each at will for as long as he concentrates, but only one at a time. Any caster level checks to penetrate magical protections receive a +5 bonus, and use the higher of the item's caster level or the wearer's character level. The wearer can expend one use of mythic power to gain the benefits of <i><a href="/pathfinderRPG/prd/spells/arcaneSight.html#_arcane-sight" >arcane sight</a></i> and <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i> for 1 hour, or until the monocle is removed.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 6,350 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/arcaneSight.html#_arcane-sight" >arcane sight</a></i>, <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i>, and any one of the following: <i><a href="/pathfinderRPG/prd/spells/detectChaos.html#_detect-chaos" >detect chaos</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectGood.html#_detect-good" >detect good</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectLaw.html#_detect-law" >detect law</a></i>, or <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i></p>
+
+
+<p id="moonstone-cat" class="stat-block-title">Moonstone Cat</p>
+<p class="stat-block-1"><b>Price</b> 12,000 gp; <b>Slot</b> none; <b>CL</b> 7th; <b>Weight</b> 1 lb.; <b>Aura</b> moderate enchantment</p>
+<p class="stat-block">This fist-sized statue of a curled-up cat is crafted from gleaming moonstone. When the statue is placed upon the chest of a helpless creature, it briefly animates and stretches like a real cat waking up from a fitful sleep, then curls up again. When this happens, the helpless creature is lulled into a deep sleep, and doesn't awaken until the cat is removed from its chest.</p>
+<p class="stat-block">If the creature placing the cat expends three uses of mythic power while doing so, the helpless creature can't be awoken for a week, even if the cat is removed. If the user instead expends six uses of mythic power, the helpless creature can't be awoken for a month. If the user expends 10 uses, the helpless creature can't be awoken for a year. If the user expends 20 uses, the helpless creature can't be awoken for an entire century.</p>
+<p class="stat-block">While in this sleep, the helpless creature's heart rate and breathing slow to a barely perceptible rate. It doesn't need to eat or drink, though it must still breathe and it ages normally while in this magical sleep. A <i><a href="/pathfinderRPG/prd/spells/wish.html#_wish" >wish</a></i>, <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i>, or <i>mythic <a href="/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment" >break enchantment</a></i> can end this magical sleep.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 6,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i>mythic <a href="/pathfinderRPG/prd/spells/deepSlumber.html#_deep-slumber" >deep slumber</a></i></p>
+
+
+<p id="necklace-of-spectral-strikes" class="stat-block-title">Necklace of Spectral Strikes</p>
+<p class="stat-block-1"><b>Price</b> 35,500 gp; <b>Slot</b> neck; <b>CL</b> 9th; <b>Weight</b> &mdash;; <b>Aura</b> moderate evocation</p>
+<p class="stat-block">When worn, this silver-and-turquoise necklace melds with the skin, turning into an intricately patterned tattoo on the wearer's chest. It ignores any wearer with an Intelligence score lower than 3, failing to meld or function. The necklace can be removed as a full-round action by concentrating on the tattoo to call the necklace back into existence. While in tattoo form, the amulet grants a +1 bonus on attack and damage rolls with unarmed strikes (but not natural weapons) and provides the benefits of the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a></i> weapon special ability on unarmed strikes. As a swift action, the wearer can spend a ki point to make one unarmed strike&mdash;whether as a single attack or part of a full attack&mdash;an incorporeal touch attack.</p>
+<p class="stat-block">As an immediate action, the wearer can expend one use of mythic power to become incorporeal for 1 round. This lasts until either just before his next turn (if used during his turn) or at the end of his next turn (if used outside his turn). While incorporeal, the wearer has no Strength score, so his Dexterity modifier applies to his melee attacks, ranged attacks, and combat maneuver checks. Since the necklace provides the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a></i> ability, the wearer can make unarmed strikes against corporeal creatures while incorporeal. The wearer can remain inside solid objects as long as he continues expending mythic power to remain incorporeal. If he fails to do so, he materializes inside the object and instantly dies.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 17,750 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i>, <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i></p>
+
+
+<p id="nectar-of-the-gods" class="stat-block-title">Nectar of the Gods</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Slot</b> none; <b>CL</b> 12th; <b>Weight</b> 1 lb.; <b>Aura</b> strong conjuration</p>
+<p class="stat-block">This fragrant mead is made from the purest honey gathered from sunny meadows, mixed with rare herbs in the moonlight, and fermented in earthen jars. Consuming <i>nectar of the gods</i> is a standard action that restores 1d4+1 uses of mythic power to a mythic creature (up to the creature's maximum). If a non-mythic creature consumes this drink, it works like the <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i> spell, lasting for 1 day. A jar contains only a single draft of this potent beverage.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 2,500 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i></p>
+
+<p id="pauldrons-of-unflinching-fortitude" class="stat-block-title">Pauldrons of Unflinching Fortitude</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>+1 bonus/+2 Fortitude</b> 1,500 gp; <b>+2 bonus/+3 Fortitude</b> 6,000 gp; +3 bonus/+4 Fortitude</b> 13,500 gp; <b>+4 bonus/+5 Fortitude</b> 24,000 gp; +5 bonus/+6 Fortitude</b> 37,500 gp</span>; <b>Slot</b> shoulders; <b>CL</b> 7th; <b>Weight</b> 1 lb.; <b>Aura</b> moderate abjuration</p>
+<p class="stat-block">The wearer of these elegant, polished steel pauldrons gains a bonus on all saving throws, as with a <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a></i>, but the resistance bonus on Fortitude saves is one greater. Furthermore, if the wearer fails a Fortitude saving throw, he can expend one use of mythic power as an immediate action to reroll that saving throw. If the wearer fails the saving throw on the reroll, he can't use this ability again for 24 hours.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost Varies</p>
+<p class="stat-block-1"><b>+1 bonus/+2 Fortitude</b> 750 gp; <b>+2 bonus/+3 Fortitude</b> 3,000 gp; <b>+3 bonus/+4 Fortitude</b> 6,750 gp; <b>+4 bonus/+5 Fortitude</b> 12,000 gp; <b>+5 bonus/+6 Fortitude</b> 18,750 gp
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a></i>, the creator must have the mythic saves ability</p>
+
+
+<p id="penitent's-robes" class="stat-block-title">Penitent's Robes</p>
+<p class="stat-block-1"><b>Price</b> 95,000 gp; <b>Slot</b> body; <b>CL</b> 16th; <b>Weight</b> 1 lb.; <b>Aura</b> strong varied</p>
+<p class="stat-block">This humble, threadbare robe grants a +1 resistance bonus on all saving throws. A mythic wearer can unlock additional powers by upholding vows. The wearer selects up to five vows, but no more than she has mythic tiers. For each vow taken, the wearer must expend one use of mythic power. This use can't be regained as long as the vow is kept and the wearer retains the robe. After 24 hours adhering to one or more vows, the wearer gains additional benefits from the robe.</p>
+<ul><li><i>1 vow</i>: +2 resistance bonus on all saving throws, +1 competence bonus on all skill checks</li>
+<li><i>2 vows</i>: +3 resistance bonus on all saving throws, +4 armor bonus to AC</li>
+<li><i>3 vows</i>: +4 resistance bonus on all saving throws, +2 competence bonus on all skill checks</li>
+<li><i>4 vows</i>: +5 resistance bonus on all saving throws, +6 armor bonus to AC</li>
+<li><i>5 vows</i>: +8 armor bonus to AC, and all save DCs for the wearer's spells increase by 1</li></ul>
+<p class="stat-block">The wearer receives the bonuses from lower levels as well. For example, with 3 vows, the wearer receives a +4 resistance bonus on saving throws, a +2 competence bonus on all skill checks, and a +4 armor bonus to AC. The armor bonus provided by the robe can be further improved by <i><a href="/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment" >magic vestment</a></i> and similar spells.</p>
+<p class="stat-block">The wearer can select from the following vows.</p>
+<ul><li>Abstain from consuming meat and touching dead creatures.</li>
+<li>Abstain from consuming liquor, drugs, and similar substances, including any magic item that takes effect through eating or drinking.</li>
+<li>Carry nothing made of metal.</li>
+<li>Refrain from dealing lethal damage.</li>
+<li>Refrain from speaking.</li>
+<li>Refrain from touching others, including touching them with or through clothing.</li>
+<li>Speak and write only the truth.</li></ul>
+<p class="stat-block">If a vow is broken, the robe's benefits immediately drop to those granted by the number of vows still kept. Broken vows can be regained only by way of an <i><a href="/pathfinderRPG/prd/spells/atonement.html#_atonement" >atonement</a></i> spell.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 47,500 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment" >magic vestment</a></i>, <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a></i></p>
+
+<p id="phoenix-cloak" class="stat-block-title">Phoenix Cloak</p>
+<p class="stat-block-1"><b>Price</b> 55,000 gp; <b>Slot</b> shoulders; <b>CL</b> 9th; <b>Weight</b> 7 lbs.; <b>Aura</b> moderate transmutation</p>
+<p class="stat-block">This cloak is made of tough leather, and is decorated with brilliant red and orange feathers. As a free action, the wearer can rub her hands together, setting them alight&mdash;thus granting her natural attacks and unarmed strikes the burn special ability (<i>Bestiary</i> 298; 1d6, Reflex DC 14). The wearer can use this ability for up to 10 rounds per day, which don't need to be consecutive.</p>
+<p class="stat-block">If the wearer takes damage that would reduce her below 0 hit points, she can expend one use of mythic power to transform into a phoenix-like being. This doesn't require an action. When this happens, she is immediately affected as though targeted with a <i><a href="/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life" >breath of life</a></i> spell (CL 9th) and polymorphs into a bird-like creature made of flames (as <i><a href="/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-ii" >elemental body II</a></i>, CL 9; fire elemental only). While in this form, the wearer also gains a fly speed of 50 feet with good maneuverability, as well as a +4 bonus on <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> skill checks due to this maneuverability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 27,500 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life" >breath of life</a></i>, <i><a href="/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-ii" >elemental body II</a></i></p>
+
+
+<p id="ring-of-energy-dampening" class="stat-block-title">Ring of Energy Dampening</p>
+<p class="stat-block-1"><b>Price</b> 31,500 gp; <b>Slot</b> ring; <b>CL</b> 10th; <b>Weight</b> &mdash;; <b>Aura</b> moderate abjuration</p>
+<p class="stat-block">When the wearer is about to take acid, cold, electricity, or fire damage, this band of braided copper and silver writhes like a snake. It provides resistance 5 to acid, cold, electricity, and fire. The wearer can expend one use of mythic power as an immediate action when taking damage of one of these types to upgrade the resistance to immunity for that attack or effect only. Also, once per day when the wearer takes damage of one of these types, the wearer can grant resistance 5 to the energy type damaging him to all allies within 20 feet. This resistance lasts for 1 minute.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 15,750 gp</p>
+<p class="stat-block-1">Forge Ring, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/shieldOther.html#_shield-other" >shield other</a></i></p>
+
+
+<p id="ring-of-transcendent-spells" class="stat-block-title">Ring of Transcendent Spells</p>
+<p class="stat-block-1"><b>Price</b> 30,000 gp; <b>Slot</b> ring; <b>CL</b> 13th; <b>Weight</b> &mdash;; <b>Aura</b> strong universal</p>
+<p class="stat-block">This jade ring is carved in the shape of an ouroboros. Three times per day, the wearer can use it to empower a spell she casts. This grants her a +2 bonus on caster level checks to overcome spell resistance, and increases the save DC of the spell (if any) by 2.</p>
+<p class="stat-block">While enhancing a spell this way, the caster can expend one use of mythic power plus an additional use per two spell levels (minimum two uses), to instead cast the mythic version of her spell (though not an augmented version of the mythic spell) as if she knew the mythic version of that spell. This has no effect if the spell doesn't have a mythic version. The save DC increase for being a <a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html#_potent">potent mythic spell</a> stacks with the save DC increase granted by using the ring's power.</p>
+<p class="stat-block">For example, if the wearer enhances <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i> with this ring, she can expend two uses of mythic power to cast <i>mythic <a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i> instead (one use plus one use for a 3rd-level spell).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 15,000 gp</p>
+<p class="stat-block-1">Forge Ring, Mythic Crafter <i><a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a></i>, <i><a href="/pathfinderRPG/prd/spells/mnemonicEnhancer.html#_mnemonic-enhancer" >mnemonic enhancer</a></i></p>
+
+
+<p id="root-of-the-world-tree" class="stat-block-title">Root of the World Tree</p>
+<p class="stat-block-1"><b>Price</b> Varies</p>; <b>CL 17th; <b>Weight</b> &mdash;; <b>Aura</b> strong conjuration</p>
+<p class="stat-block-1"><b>Lesser</b> 300 gp; <b>Normal</b> 1,000 gp ; Greater</b> 2,500 gp</span>; <b>Slot</b> none</p>
+<p class="stat-block">This fibrous powder is ground from bark harvested from the roots of trees growing across planar boundaries. When thrown in the air as part of casting a conjuration (summoning) spell, it grants the creatures summoned the advanced simple template. If the caster also expends one use of mythic power, the summoned creatures gain DR 5/epic, or DR 10/epic if they have at least 11 HD. Lesser root affects conjuration (summoning) spells up to 3rd level, normal root conjuration (summoning) spells up to 6th level, and greater root any conjuration (summoning) spell.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost Varies</p>
+<p class="stat-block-1"><b>Lesser</b> 150 gp; <b>Normal</b> 500 gp; <b>Greater</b> 1,250 gp
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <a href="/pathfinderRPG/prd/feats.html#_augment-summoning" >Augment Summoning</a>, <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i></p>
+
+
+<p id="seven-league-boots" class="stat-block-title">Seven-League Boots</p>
+<p class="stat-block-1"><b>Price</b> 80,000 gp; <b>Slot</b> feet; <b>CL</b> 10th; <b>Weight</b> 1 lb.; <b>Aura</b> moderate transmutation</p>
+<p class="stat-block">These well-worn boots act as <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed" >boots of speed</a></i> combined with <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-striding-and-springing" >boots of striding and springing</a></i>. The wearer can expend one use of mythic power as a move action to take a 7-league step. The steps functions as teleportation with a 21-mile range, except the wearer must have an uninterrupted path to her intended destination, though this path doesn't have to follow a straight line. Harmful environments between the wearer and the destination cause her no harm.</p>
+<p class="stat-block">If the wearer's path is blocked, her travel ends just short of the obstacle blocking her. If she tries to step too far, she appears in the closest available space to her destination without going beyond 21 miles of where she started.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 40,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat" >expeditious retreat</a></i>, <i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i></p>
+
+
+<p id="stonefist-gloves" class="stat-block-title">Stonefist Gloves</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Slot</b> hands; <b>CL</b> 7th; <b>Weight</b> 3 lbs.; <b>Aura</b> moderate transmutation</p>
+<p class="stat-block">These heavy, stone gloves feel surprisingly supple to anyone who puts them on. While a creature wears <i>stonefist gloves</i>, his unarmed strike damage is treated as if he were one size category larger, and bypasses hardness of 8 or lower. When a mythic creature uses these gloves to make a sunder combat maneuver, he adds half his tier as a bonus on the combat maneuver check.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 5,000 gp</p>
+<p class="stat-block-1">Craft Magic Arms and Armor, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i></p>
+
+
+<p id="torc-of-truespeech" class="stat-block-title">Torc of Truespeech</p>
+<p class="stat-block-1"><b>Price</b> 60,000 gp; <b>Slot</b> neck; <b>CL</b> 5th; <b>Weight</b> 2 lbs.; <b>Aura</b> faint divination</p>
+<p class="stat-block">This heavy gold torc allows its wearer's words to be understood by any creature that speaks a language, as though his words were spoken in that creature's native tongue. Each creature listening hears the words in a language appropriate to itself. The wearer can understand all spoken languages as though using the <i><a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a> </i>spell. A wearer who is at least 3rd tier can speak to and be understood by animals (as if using <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i>), and one who is at least 6th tier can also speak to and be understood by plants (as if using <i><a href="/pathfinderRPG/prd/spells/speakWithPlants.html#_speak-with-plants" >speak with plants</a></i>).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 30,000 gp</p>
+<p class="stat-block-1">Craft Wondrous Item, Mythic Crafter, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithPlants.html#_speak-with-plants" >speak with plants</a></i>, <i><a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a></i></p>
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

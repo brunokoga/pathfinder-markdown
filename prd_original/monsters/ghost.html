@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Ghost</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Ghost",globalNavPath=[{ href: '/pathfinderRPG/prd/monsters/monsterIndex.html', name: 'Monster Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body"><div>
+				<h1 id="ghost" class="monster-header">Ghost</h1>
+			
+				<p class="flavor-text"><i>This spectral, horrifying figure glides silently through the air, passing through solid objects as if they didn't exist.</i></p>
+			
+				<p class="stat-block-title"><b>Ghost <span class=stat-block-cr>CR 7</span></b></p>
+				<p class="stat-block-xp"><b>XP 3,200</b></p>
+				<p class="stat-block-1">Human ghost aristocrat 7</p>
+				<p class="stat-block-1">CE Medium <a href="creatureTypes.html#_undead" >undead</a> (<a href="creatureTypes.html#_augmented-subtype" >augmented</a> <a href="creatureTypes.html#_humanoid" >humanoid</a>, <a href="creatureTypes.html#_incorporeal-subtype" >incorporeal</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> darkvision 60 ft.; <a href="../skills/perception.html#_perception" >Perception</a> +18</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 17, touch 17, flat-footed 15 (+1 Dex, +1 dodge, +5 deflection)</p>
+				<p class="stat-block-1"><b>hp</b> 73 (7d8+42)</p>
+				<p class="stat-block-1"><b>Fort</b> +7, <b>Ref</b> +5, <b>Will</b> +7</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> <a href="universalMonsterRules.html#_channel-resistance" >channel resistance</a> +4, <a href="universalMonsterRules.html#_incorporeal" >incorporeal</a>, rejuvenation; <b>Immune</b> <a href="universalMonsterRules.html#_undead-traits" >undead traits</a></p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> fly 30 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee </b>corrupting touch +6 (7d6, Fort. DC 18 half)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> frightful moan (DC 18)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> &mdash;, <b>Dex</b> 12, <b>Con</b> &mdash;, <b>Int</b> 10, <b>Wis</b> 11, <b>Cha</b> 20</p>
+				<p class="stat-block-1"><b>Base</b> <b>Atk</b> +5; <b>CMB</b> +5; <b>CMD</b> 22</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="../feats.html#_toughness" >Toughness</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/fly.html#_fly" >Fly</a> +9, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (history) +10, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) +10, <a href="../skills/perception.html#_perception" >Perception</a> +18, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +10, <a href="../skills/stealth.html#_stealth" >Stealth</a> +9; <b>Racial Modifiers</b> +8 <a href="../skills/perception.html#_perception" >Perception</a>, +8 <a href="../skills/stealth.html#_stealth" >Stealth</a></p>
+				<p class="stat-block-1"><b>Languages</b> Common</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment </b>any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary</p>
+				<p class="stat-block-1"><b>Treasure</b> NPC gear</p>
+				<p>When a soul is not allowed to rest due to some great injustice, either real or perceived, it sometimes comes back as a ghost. Such beings are in eternal anguish, lacking in substance and unable to set things right. Although ghosts can be any alignment, the majority cling to the living world out of a powerful sense of rage and hatred, and as a result are chaotic evil&mdash;even the ghost of a good or lawful creature can become hateful and cruel in its afterlife.</p>
+				<p>More than most of the monsters in this book, a ghost benefits from a strong and detailed backstory. Why did this character become a ghost? What are the legends surrounding the ghost? An encounter with a ghost should never happen completely out of the blue&mdash;there are plenty of other incorporeal undead like wraiths and spectres to fill that role. A proper encounter with a ghost should be a climactic scene after a lengthy period of tension building with lesser minions or manifestations of the undead spirit. The sample ghost above is that of a human princess who was murdered by an unfaithful lover&mdash;after she confronted him, he murdered her by wrapping her in chains and throwing her into the castle well, where she drowned. The ghost's abilities were selected to fit this backstory, and it shows how potent a villain you can create with a simple NPC class. Applying the template to creatures with class levels or creatures with significant racial abilities can create even more powerful ghosts.</p>
+				<p>When a ghost is created, it retains incorporeal “copies” of any items that it particularly valued in life (provided the originals are not in another creature's possession). The equipment works normally for the ghost but passes harmlessly through material objects or creatures. A weapon of +1 or better magical enhancement, however, can harm material creatures, but any such attack deals only half as much damage (50%) unless it is a <i><a href="../magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a> weapon. </i>A ghost can use shields or armor only if they have the <i><a href="../magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a> </i>quality.</p>
+				<p>The original items remain behind, just as the ghost's physical remains do. If another creature seizes the original, the incorporeal copy fades away. This loss invariably angers the ghost, who stops at nothing to return the item to its original resting place (and thus regain the item's use).</p>
+				<h2>Creating a Ghost</h2>
+				<p>“Ghost” is an acquired template that can be added to any living creature that has a Charisma score of at least 6. A ghost retains all the base creature's statistics and special abilities except as noted here.</p>
+				<p><b>Challenge Rating</b>: Same as the base creature +2.</p>
+				<p><b>Type</b>: The creature's type changes to <a href="creatureTypes.html#_undead" >undead</a>. Do not recalculate the creature's base attack bonus, saves, or skill points. It gains the incorporeal subtype.</p>
+				<p><b>Armor Class</b>: A ghost gains a deflection bonus equal to its Charisma modifier. It loses the base creature's natural armor bonus, as well as all armor and shield bonuses not from force effects or <i><a href="../magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a> </i>items.</p>
+				<p><b>Hit Dice</b>: Change all of the creature's racial Hit Dice to d8s. All Hit Dice derived from class levels remain unchanged. Ghosts use their Charisma modifiers to determine bonus hit points (instead of Constitution).</p>
+				<p><b>Defensive Abilities</b>: A ghost retains all of the defensive abilities of the base creature save those that rely on a corporeal form to function. Ghosts gain channel resistance +4, darkvision 60 ft., the incorporeal ability, and all of the immunities granted by its undead traits. Ghosts also gain the rejuvenation ability.</p>
+				<p class="stat-block-2"><i>Rejuvenation (Su): </i>In most cases, it's difficult to destroy a ghost through simple combat: the “destroyed” spirit restores itself in 2d4 days. Even the most powerful spells are usually only temporary solutions. The only way to permanently destroy a ghost is to determine the reason for its existence and set right whatever prevents it from resting in peace. The exact means varies with each spirit and may require a good deal of research, and should be created specifically for each different ghost by the GM.</p>
+				<p><b>Speed</b>: Ghosts lose their previous speeds and gain a fly speed of 30 feet (perfect), unless the base creature has a higher fly speed.</p>
+				<p><b>Melee and Ranged Attacks</b>: A ghost loses all of the base creature's attacks. If it could wield weapons in life, it can wield <i><a href="../magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a> weapons</i> as a ghost. </p>
+				<p><b>Special Attacks</b>: A ghost retains all the special attacks of the base creature, but any relying on physical contact do not function. In addition, a ghost gains one ghost special attack from the list below for every 3 points of CR (minimum 1&mdash;the first ability chosen must always be corrupting touch). The save DC against a ghost's special attack is equal to 10 + 1/2 ghost's HD + ghost's Charisma modifier unless otherwise noted. Additional ghost abilities beyond these can be designed at the GM's discretion.</p>
+				<p class="stat-block-2"><i>Corrupting Gaze (Su)</i>: The ghost is disfigured through age or violence, and has a gaze attack with a range of 30 feet that causes 2d10 damage and 1d4 Charisma <a href="universalMonsterRules.html#_ability-damage-and-drain" >damage</a> (Fortitude save negates Charisma <a href="universalMonsterRules.html#_ability-damage-and-drain" >damage</a> but not physical damage).</p>
+				<br><p class="stat-block-2"><i>Corrupting Touch (Su)</i>: All ghosts gain this incorporeal touch attack. By passing part of its incorporeal body through a foe's body as a standard action, the ghost inflicts a number of d6s equal to its CR in damage. This damage is not negative energy&mdash;it manifests in the form of physical wounds and aches from supernatural aging. Creatures immune to magical aging are immune to this damage, but otherwise the damage bypasses all forms of damage reduction. A Fortitude save halves the damage inflicted.</p>
+				<br><p class="stat-block-2"><i>Draining Touch (Su)</i>: The ghost died while insane or diseased. It gains a touch attack that <a href="universalMonsterRules.html#_ability-damage-and-drain" >drains</a> 1d4 points from any one ability score it selects on a hit. On each such successful attack, the ghost heals 5 points of damage to itself. When a ghost makes a draining touch attack, it cannot use its standard ghostly touch attack.</p>
+				<br><p class="stat-block-2"><i>Frightful Moan (Su)</i>: The ghost died in the throes of crippling terror. It can emit a frightful moan as a standard action. All living creatures within a 30-foot spread must succeed on a Will save or become panicked for 2d4 rounds. This is a sonic mind-affecting fear effect. A creature that successfully saves against the moan cannot be affected by the same ghost's moan for 24 hours.</p>
+				<br><p class="stat-block-2"><i>Malevolence (Su)</i>: The ghost's jealousy of the living is particularly potent. Once per round, the ghost can merge its body with a creature on the Material Plane. This ability is similar to a <i><a href="../spells/magicJar.html#_magic-jar" >magic jar</a> </i>spell (caster level 10th or the ghost's Hit Dice, whichever is higher), except that it does not require a receptacle. To use this ability, the ghost must be adjacent to the target. The target can resist the attack with a successful Will save. A creature that successfully saves is immune to that same ghost's malevolence for 24 hours.</p>
+				<br><p class="stat-block-2"><i>Telekinesis (Su)</i>: The ghost's death involved great physical trauma. The ghost can use <i><a href="../spells/telekinesis.html#_telekinesis" >telekinesis</a> </i>as a standard action once every 1d4 rounds (caster level 12th or equal to the ghost's HD, whichever is higher).</p>
+				<p><b>Abilities</b>: Cha +4; as an incorporeal undead creature, a ghost has no Strength or Constitution score.</p>
+				<p><b>Skills</b>: Ghosts have a +8 racial bonus on <a href="../skills/perception.html#_perception" >Perception</a> and <a href="../skills/stealth.html#_stealth" >Stealth</a> skill checks. A ghost always treats <a href="../skills/climb.html#_climb" >Climb</a>, <a href="../skills/disguise.html#_disguise" >Disguise</a>, <a href="../skills/fly.html#_fly" >Fly</a>, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a>, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana), <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (religion), <a href="../skills/perception.html#_perception" >Perception</a>, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a>, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a>, and <a href="../skills/stealth.html#_stealth" >Stealth</a> as class skills. Otherwise, skills are the same as the base creature.</p>
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

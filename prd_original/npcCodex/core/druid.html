@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Druids</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Druids",globalNavPath=[{ href: '/pathfinderRPG/prd/npcCodex/core/index.html', name: 'Core Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="druids">Druids</h1>
+		
+<p id="initiate-of flame" class="stat-block-title">Initiate of Flame <span class="stat-block-cr">CR 1/2</span></p>
+<p class="stat-block-1"><b>XP</b> 200</p>
+<p class="stat-block-1"><b>Dwarf druid</b> 1</p>
+<p class="stat-block-1">LN Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> Perception +6</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 14, touch 10, flat-footed 14 (+4 armor)</p>
+<p class="stat-block-1"><b>hp</b> 15 (1d8+7)</p>
+<p class="stat-block-1"><b>Fort</b> +5, <b>Ref</b> +0, <b>Will</b> +4; +2 vs. poison, spells, and spell-like abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities </b>defensive training (+4 dodge bonus to AC vs. giants)</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> spear +2 (1d8+3/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> sling +0 (1d4+2)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 1st; concentration +3)<b></b></p>
+<p class="stat-block-2">5/day&mdash;<i>fire bolt</i></p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 1st; concentration +3)</p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/burningHands.html#_burning-hands" >burning hands</a></i><sup>D</sup> (DC 13), <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison" >detect poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/flare.html#_flare" >flare</a></i> (DC 12), <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Fire</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i> each day.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a>,</i> then drops a smokestick at his feet, letting foes come to him, and possibly sets his spear against a charge. He then fights with his spear or casts <i><a href="/pathfinderRPG/prd/spells/burningHands.html#_burning-hands" >burning hands</a></i>.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 15, <b>Dex</b> 10, <b>Con</b> 16, <b>Int</b> 12, <b>Wis</b> 15, <b>Cha</b> 6</p>
+<p class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> +2; <b>CMD</b> 12 (16 vs. bull rush or trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +4, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +2, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +3, Perception +6 (+8 to notice unusual stonework), <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +8</p>
+<p class="stat-block-1"><b>Languages</b> Common, Druidic, Dwarven, Giant</p>
+<p class="stat-block-1"><b>SQ</b> nature bond (Fire domain), nature sense, wild empathy –1</p>
+<p class="stat-block-1"><b>Combat Gear</b> alchemist's fire (2), smokesticks (2); <b>Other Gear</b> masterwork hide armor, sling with 20 bullets, spear, climber's kit, healer's kit, holly and mistletoe, spell component pouch, 8 gp</p>
+
+<p>These hostile guardians of volcanic mountain regions have tempers to match their fiery environs, and tolerate no intruders.</p>
+
+		
+<p id="sail-master" class="stat-block-title">Sail Master <span class="stat-block-cr">CR 1</span></p>
+<p class="stat-block-1"><b>XP</b> 400</p>
+<p class="stat-block-1"><b>Human druid</b> 2</p>
+<p class="stat-block-1">NE Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +5</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 17, touch 12, flat-footed 15 (+2 armor, +1 Dex, +1 dodge, +3 shield)</p>
+<p class="stat-block-1"><b>hp</b> 18 (2d8+6)</p>
+<p class="stat-block-1"><b>Fort</b> +5, <b>Ref</b> +1, <b>Will</b> +4</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk club +5 (1d6+3)</p>
+<p class="stat-block-1"><b>Ranged</b> shortspear +2 (1d6+3)</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 2nd; concentration +3)<b></b></p>
+<p class="stat-block-2">4/day&mdash;<i>storm burst</i></p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 2nd; concentration +3)</p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a>, <a href="/pathfinderRPG/prd/spells/jump.html#_jump" >jump</a></i>, <i>obscuring mis t</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh" >shillelagh</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/flare.html#_flare" >flare</a></i> (DC 11), <i><a href="/pathfinderRPG/prd/spells/knowDirection.html#_know-direction" >know direction</a></i>, <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Weather</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>During Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i> at the start of combat  and <i><a href="/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh" >shillelagh</a></i> before moving into melee range.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 17, <b>Dex</b> 13, <b>Con</b> 14, <b>Int</b> 8, <b>Wis</b> 12, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +1; <b>CMB</b> +4; <b>CMD</b> 16</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Shield Focus</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +5, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +3, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +1, Perception +5, <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (sailor) +5, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +7, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common, Druidic</p>
+<p class="stat-block-1"><b>SQ</b> nature bond (Weather domain), nature sense, wild empathy +2, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>scrolls of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i>scroll of <a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i> (2), alchemist's fire (4); <b>Other Gear</b> masterwork leather armor, heavy wooden shield, masterwork club, shortspear, grappling hook, healer's kit, hemp rope (50 ft.), holly and mistletoe, spell component pouch, amber necklace (worth 25 gp), 45 gp</p>
+
+<p>Mastery of the wind and weather is a boon on any ship, and many northern druids thus serve as captains, navigators, and battle support.</p>
+		
+<p id="sylvan-protector" class="stat-block-title">Sylvan Protector <span class="stat-block-cr">CR 2</span></p>
+<p class="stat-block-1"><b>XP</b> 600</p>
+<p class="stat-block-1"><b>Gnome druid</b> 3</p>
+<p class="stat-block-1">CN Small humanoid (gnome)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> low-light vision; Perception +8</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 18, touch 13, flat-footed 16 (+3 armor, +2 Dex, +2 shield, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 24 (3d8+7)</p>
+<p class="stat-block-1"><b>Fort</b> +5, <b>Ref</b> +3, <b>Will</b> +5; +2 vs. illusions</p>
+<p class="stat-block-1"><b>Defensive Abilities </b>defensive training (+4 dodge bonus to AC vs. giants)</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> sickle +1 (1d4–2)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and reptilian humanoids</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 3rd; concentration +5)<b></b></p>
+<p class="stat-block-2">5/day&mdash;<i><a href="/pathfinderRPG/prd/ultimateMagic/spells/lightningArc.html#_lightning-arc" >lightning arc</a></i></p>
+<p class="stat-block-1"><b>Gnome Spell-Like Abilities </b>(CL 3rd; concentration +5)<b></b></p>
+<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights" >dancing lights</a></i>, <i><a href="/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound" >ghost sound</a></i>, <i><a href="/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation" >prestidigitation</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 3rd; concentration +5)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/flamingSphere.html#_flaming-sphere" >flaming sphere</a></i> (DC 14), <i><a href="/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm" >summon swarm</a></i>, <i>wind wal l</i><sup>D</sup></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i>obscuring mis t</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/flare.html#_flare" >flare</a></i> (DC 12), <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i>, <i><a href="/pathfinderRPG/prd/spells/virtue.html#_virtue" >virtue</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Air</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>During Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i> and hides, then casts <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i>.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 6, <b>Dex</b> 14, <b>Con</b> 15, <b>Int</b> 10, <b>Wis</b> 15, <b>Cha</b> 14</p>
+<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> –1; <b>CMD</b> 11</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_augment-summoning" >Augment Summoning</a>, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (conjuration)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +7, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +6, Perception +8, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +6, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +8, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Common, Druidic, Gnome</p>
+<p class="stat-block-1"><b>SQ</b> nature bond (Air domain), nature sense, wild empathy +5, woodland stride, trackless step</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>scrolls of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (3), <i>scroll of <a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i>, tanglefoot bags (2); <b>Other Gear</b><i>+1 leather armor</i>, masterwork heavy wooden shield, sickle, holly and mistletoe, spell component pouch, 95 gp</p>
+
+		
+<p id="savage-plant sage" class="stat-block-title">Savage Plant sage <span class="stat-block-cr">CR 3</span></p>
+<p class="stat-block-1"><b>XP</b> 800</p>
+<p class="stat-block-1"><b>Half-orc druid</b> 4</p>
+<p class="stat-block-1">CN Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> darkvision 60 ft.; Perception +6</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 20, touch 11, flat-footed 19 (+7 armor, +1 Dex, +2 natural)</p>
+<p class="stat-block-1"><b>hp</b> 32 (4d8+11)</p>
+<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +2, <b>Will</b> +5; +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> orc ferocity</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk club +9 (1d6+4)</p>
+<p class="stat-block-1"><b>Ranged</b> spear +4 (1d8+4/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> wild shape 1/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 4th; concentration +5)<b></b></p>
+<p class="stat-block-2">4/day&mdash;wooden fist</p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 4th; conc. +5)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm" >summon swarm</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i><sup>D</sup> (2, DC 12), <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i>, <i><a href="/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh" >shillelagh</a> </i>(2)</p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/createWater.html#_create-water" >create water</a></i>, <i><a href="/pathfinderRPG/prd/spells/knowDirection.html#_know-direction" >know direction</a></i>, <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Plant</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat </b>The druid casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> on himself.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i> or <i><a href="/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm" >summon swarm</a>.</i></p>
+<p class="stat-block-1"><b>Base Statistic </b>Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a>,</i> the druid's statistics are <b>AC</b> 18, touch 11, flat-footed 17.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 12, <b>Con</b> 14, <b>Int</b> 8, <b>Wis</b> 13, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +7; <b>CMD</b> 18</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (club)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +7, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +2, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +8, Perception +6, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Common, Druidic, Orc</p>
+<p class="stat-block-1"><b>SQ</b> nature bond (Plant domain), nature sense, orc blood, trackless step, weapon familiarity, wild empathy +4, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of cure  moderate wounds</i>; <b>Other Gear</b><i>+1 dragonhide breastplate</i>, masterwork club, spears (4), holly and mistletoe, 93 gp</p>
+
+		
+<p id="cavern-defender" class="stat-block-title">Cavern Defender <span class="stat-block-cr">CR 4</span></p>
+<p class="stat-block-1"><b>XP</b> 1,200</p>
+<p class="stat-block-1"><b>Half-elf druid</b> 5</p>
+<p class="stat-block-1">N Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> low-light vision; Perception +11</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 20, touch 13, flat-footed 17 (+5 armor, +2 Dex, +1 dodge, +2 shield)</p>
+<p class="stat-block-1"><b>hp</b> 31 (5d8+5)</p>
+<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +6, <b>Will</b> +9; +2 vs. enchantments, +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> quarterstaff +2 (1d6–1) or sickle +2 (1d6–1)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk sling +6 (1d4–1)</p>
+<p class="stat-block-1"><b>Special Attacks</b> wild shape 1/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 5th; concentration +9)</p>
+<p class="stat-block-2">7/day&mdash;<i>acid dart</i></p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 5th; concentration +9)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth" >spike growth</a></i> (2, DC 17), <i><a href="/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape" >stone shape</a></i><sup>D</sup></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone" >soften earth and stone</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm" >summon swarm</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicStone.html#_magic-stone" >magic stone</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i>, <i><a href="/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh" >shillelagh</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/createWater.html#_create-water" >create water</a></i>, <i><a href="/pathfinderRPG/prd/spells/guidance.html#_guidance" >guidance</a></i>, <i><a href="/pathfinderRPG/prd/spells/knowDirection.html#_know-direction" >know direction</a></i>, <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Earth</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth" >spike growth</a></i> twice per day to protect her position, using <i><a href="/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape" >stone shape</a></i> if necessary to limit any viable approaches to her.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid wild shapes into a small flying animal at the first opportunity to escape melee. On subsequent rounds, she casts <i><a href="/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone" >soften earth and stone</a></i> and <i><a href="/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth" >spike growth</a></i> to distort the terrain beneath her enemies. She intersperses these spells with <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i> and summoning spells to call flying creatures to harass those enemies. Once her spells are exhausted, she uses <i>acid dart</i>.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 8, <b>Dex</b> 14, <b>Con</b> 13, <b>Int</b> 12, <b>Wis</b> 18, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +2; <b>CMD</b> 15</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a>)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +1, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +4, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +6, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +11, Perception +11, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +7, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +15</p>
+<p class="stat-block-1"><b>Languages</b> Common, Druidic, Elven, Undercommon</p>
+<p class="stat-block-1"><b>SQ</b> elf blood, nature bond (Earth domain), nature sense, trackless step, wild empathy +5, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>wand of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (50 charges), alchemist's fire (3); <b>Other Gear</b><i>+1 hide armor</i>, heavy wooden shield, masterwork sling with 20 bullets, quarterstaff, sickle, <i>cloak of  <a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a> +1</i>, backpack, healer's kit, holly and mistletoe, silk rope (50 ft.), spell component pouch, 91 gp</p>
+
+<p>Though most druids tend and protect the wild lands that lie under the open sky, others stalk the tunnels that lie beneath the earth, serving as wardens, protectors, and tenders of vermin and fungi.</p>
+<h3>Zirul</h3>
+<p>Zirul is the solemn protector of a large cave system that is rife with bats and vermin of all kind. Having been abandoned here at a young age, she sees the cave as her home, and will not allow anyone to access it. She dresses in dark, splotched clothing to better blend in with the cavern walls, and has lost some of her humanity as a result of living so far from civilization for so long.</p>
+<p><b>Combat Encounters:</b> Zirul's combat axiom is that a good defense lays the groundwork for a devastating offense. She always makes sure to enter combat from a position of defensive strength.</p>
+<p><b>Roleplaying Suggestions:</b> Zirul has nearly lost her ability to feel empathy for other humanoids. She constantly mutters to herself and to the rats that swarm around her, ignoring other people's perturbed reactions to her odd behavior. </p>
+
+		
+<p id="evasive-slip" class="stat-block-title">Evasive Slip <span class="stat-block-cr">CR 5</span></p>
+<p class="stat-block-1"><b>XP</b> 1,600</p>
+<p class="stat-block-1"><b>Halfling druid</b> 6</p>
+<p class="stat-block-1">NE Small humanoid (halfling)</p>
+<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> Perception +9</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 22, touch 15, flat-footed 18 (+5 armor, +4 Dex, +2 shield, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 40 (6d8+10)</p>
+<p class="stat-block-1"><b>Fort</b> +7, <b>Ref</b> +7, <b>Will</b> +8; +2 vs. fear, +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Resist</b> electricity 10</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 15 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk sickle +6 (1d4)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk sling +10 (1d3)</p>
+<p class="stat-block-1"><b>Special Attacks </b>wild shape 2/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 6th; concentration +8)<b></b></p>
+<p class="stat-block-2">5/day&mdash;<i><a href="/pathfinderRPG/prd/ultimateMagic/spells/lightningArc.html#_lightning-arc" >lightning arc</a></i></p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 6th; concentration +8)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i><sup>D</sup>, extended<i> <a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-ii" >summon nature's ally II</a></i> (2)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, extended<i> <a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-i" >summon nature's ally I</a></i>, <i><a href="/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm" >summon swarm</a></i>, <i>wind wal l</i><sup>D</sup></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang" >magic fang</a></i>, <i>obscuring mis t</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison" >detect poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/knowDirection.html#_know-direction" >know direction</a></i>, <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink" >purify food and drink</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Air</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i> at the start of each day. Before a fight he drinks his <i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> Once invisible, the druid moves away from his enemies. He spends the next few rounds casting <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i> and his extended<i> summon nature's ally</i> spells, followed by <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang" >magic fang</a></i> and <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, cast from his wands on the summoned creatures. If the summoned creatures take damage, he heals them with his <i>wand of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>. If his <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> is compromised, he wild shapes into an eagle to keep out of reach.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 18, <b>Con</b> 13, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +4; <b>CMB</b> +3; <b>CMD</b> 17</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_augment-summoning" >Augment Summoning</a>, <a href="/pathfinderRPG/prd/feats.html#_extend-spell" >Extend Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (conjuration)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +4 (+0 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +2, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +6, Perception +9, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +4, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +7, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +12, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +13, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +3</p>
+<p class="stat-block-1"><b>Languages</b> Common, Druidic, Halfling</p>
+<p class="stat-block-1"><b>SQ</b> nature bond (Air domain), nature sense, trackless step, wild empathy +6, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, <i>scroll of <a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i>wand of  <a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> (8 charges), <i>wand of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (15 charges), <i>wand of <a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang" >magic fang</a></i> (8 charges); <b>Other Gear</b><i>+1 hide armor</i>, darkwood masterwork heavy wooden shield, masterwork sickle, masterwork sling with 20 bullets, antitoxin, holly and mistletoe, spell component pouch, 52 gp</p>
+
+<p>Evasive as the wind, these skittish druids tend to stay away from others, using their formidable powers to escape even the most hazardous situations.</p>
+<h3>Velun The Slip</h3>
+<p>Once a slave, Velun escaped bondage with the help of a druid, who went on to train him. Once he felt he had learned all he could, he killed the druid, turning the mentor's wolf animal companion into a cloak. Velun now lives completely off the land, deathly afraid of cities and the slavers he believes lurk around every corner.</p>
+<p><b>Combat Encounters:</b> Given his extreme paranoia, Velun rarely teams up with any other sentient creatures, and the few times he does, he make sure they have few connections to other people so word of his location won't reach the ears of slavers or other corrupt city folk. Velun tries to stay out of combat, using his summoned creatures to ensure his escape.</p>
+<p><b>Roleplaying Suggestions:</b> Velun tends to think that all creatures that come looking for him are slavers in disguise. If he sees them coming, he sneaks away if he can. If they do manage to talk to him, he tells them almost nothing, as he believes that seeming useful or friendly makes him an even more appealing target for slavers. After he's encountered new people, Velun relocates to a new campsite so no one can track him down.</p>
+
+		
+<p id="island-defender" class="stat-block-title">Island Defender <span class="stat-block-cr">CR 6</span></p>
+<p class="stat-block-1"><b>XP</b> 2,400</p>
+<p class="stat-block-1"><b>Elf druid</b> 7</p>
+<p class="stat-block-1">LN Medium humanoid (elf)</p>
+<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> low-light vision; Perception +15</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 24, touch 14, flat-footed 22 (+7 armor, +2 deflection, +2 Dex, +3 shield)</p>
+<p class="stat-block-1"><b>hp</b> 47 (7d8+12)</p>
+<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +6, <b>Will</b> +8; +2 vs. enchantments, +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Immune</b> sleep; <b>Resist</b> cold 10</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk shortspear +6 (1d6) or</p>
+<p class="stat-block-2">club +5 (1d6)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk shortspear +8 (1d6)</p>
+<p class="stat-block-1"><b>Special Attacks</b> wild shape 2/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 7th; concentration +10)</p>
+<p class="stat-block-2">6/day&mdash;<i>icicle</i></p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 7th; concentration +10)</p>
+<p class="stat-block-2">4th&mdash;<i>control wate r</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm" >ice storm</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i>, <i><a href="/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm" >sleet storm</a>, <a href="/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing" >water breathing</a></i><sup>D</sup></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/animalMessenger.html#_animal-messenger" >animal messenger</a></i>, <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i>fog clou d</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang" >magic fang</a></i>, <i>obscuring mis t</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh" >shillelagh</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/mending.html#_mending" >mending</a></i>, <i><a href="/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink" >purify food and drink</a></i>, <i><a href="/pathfinderRPG/prd/spells/readMagic.html#_read-magic" >read magic</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Water</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid drinks her <i>potion of <a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid prefers to be in or near a body of water to take advantage of her abilities. She opens with her <i><a href="/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm" >ice storm</a></i> or <i><a href="/pathfinderRPG/prd/spells/fogCloud.html" >fog cloud</a></i> spells in order to slow down her opponents. Afterward, she wild shapes into either a dire bear or a giant octopus (depending on the terrain), and alternates rounds of attacks with spells such as <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a> </i>and <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>.</p>
+<p class="stat-block-1"><b>Base Statistics </b>Without<i> <a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i>, the druid's statistics are <b>AC</b> 22, touch 12, flat-footed 20; <b>CMD</b> 17.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 14, <b>Con</b> 12, <b>Int</b> 15, <b>Wis</b> 16, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +5; <b>CMB</b> +5; <b>CMD</b> 19</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +4, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +5, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +11, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +4, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +14, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +3, Perception +15, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +11 (+13 to identify magic item properties), <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +14, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common, Aquan, Draconic, Druidic, Elven, Sylvan</p>
+<p class="stat-block-1"><b>SQ</b> elven magic, nature bond (Water domain), nature sense, trackless step, weapon familiarity, wild empathy +6, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_dust-of-dryness" >dust of dryness</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a> of  faith</i>, <i>wand of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (8 charges), thunderstone (2);<b>Other Gear</b><i>+1 dragonhide  breastplate</i>, <i>+1 darkwood heavy wooden <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, club, masterwork shortspear, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_feather-token" >feather token</a> </i>(fan), antitoxin, fishing net, holly and mistletoe, silk rope (50 ft.), spell component pouch, gold torc (worth 100 gp), 43 gp</p>
+
+<p>Some druids seek the peace and tranquility that only a small island can offer and are willing to lay down their life to protect their sanctuary.</p>
+<h3>Tasseira Sprayspirit</h3>
+<p>Tasseira is one of the grim elven defenders of a far-off island that contains an ancient evil. She sees all non-elves as trespassing on her domain, and attacks them on sight. She has a very close connection to the sea, spending much of her day wild shaped into an aquatic creature. She wears an ornate wooden mask to hide her features, and loose-fitting clothes of green and blue.</p>
+		
+<p id="sea-captain" class="stat-block-title">Sea Captain <span class="stat-block-cr">CR 7</span></p>
+<p class="stat-block-1"><b>XP</b> 3,200</p>
+<p class="stat-block-1"><b>Halfling druid</b> 8</p>
+<p class="stat-block-1">NE Small humanoid (halfling)</p>
+<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> Perception +15</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 26, touch 14, flat-footed 23 (+7 armor, +3 Dex, +3 natural, +2 shield, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 61 (8d8+22)</p>
+<p class="stat-block-1"><b>Fort</b> +9, <b>Ref</b> +7, <b>Will</b> +12; +2 vs. fear, +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 15 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk scimitar +11/+6 (1d4+3/18–20)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk sling +11/+6 (1d3+3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> wild shape 3/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 8th; concentration +12)<b></b></p>
+<p class="stat-block-2">8/day&mdash;<i>lightning lord</i></p>
+<p class="stat-block-2">7/day&mdash;<i>storm burst</i></p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 8th; concentration +12)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/controlWater.html#_control-water" >control water</a>, <a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (DC 18), <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm" >sleet storm</a></i><sup>D</sup></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/callLightning.html#_call-lightning" >call lightning</a></i><sup>D</sup> (DC 17), <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/quench.html#_quench" >quench</a>, <a href="/pathfinderRPG/prd/spells/windWall.html#_wind-wall" >wind wall</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i>fog clou d</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind" >gust of wind</a></i> (DC 16), <i><a href="/pathfinderRPG/prd/spells/warpWood.html#_warp-wood" >warp wood</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (4), <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/createWater.html#_create-water" >create water</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/flare.html#_flare" >flare</a></i> (DC 14), <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Weather</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid is well aware of his physical shortcomings, and wild shapes into a Medium air elemental the first chance he gets to escape melee combat. Once at a safe altitude, he casts <i><a href="/pathfinderRPG/prd/spells/windWall.html#_wind-wall" >wind wall</a></i> and <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>. If still threatened, he casts offensive spells such as <i><a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> or <i><a href="/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm" >sleet storm</a></i>, or uses his Weather domain spell-like abilities. If targeted by spellcasters, he casts <i><a href="/pathfinderRPG/prd/spells/fogCloud.html" >fog cloud</a></i> to obscure vision. If forced into melee, he casts <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i> before wild shaping into a Huge animal (preferably a triceratops or an orca).</p>
+<p class="stat-block-1"><b>Base Statistics </b>Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, the druid's statistics are <b>AC</b> 23, touch 14, flat-footed 20; <b>Melee</b> mwk scimitar +11/+6 (1d4+1/18–20); <b>Ranged</b>mwk sling +11/+6 (1d3+1); <b>Str</b> 12; <b>CMB</b> +6; <b>CMD</b> 19; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +6, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +3.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 16, <b>Con</b> 12, <b>Int</b> 10, <b>Wis</b> 18, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +6; <b>CMB</b> +8; <b>CMD</b> 21</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +1 (–3 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +6, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +5, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +11, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +10, Perception +15, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +7, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +13, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common, Druidic, Goblin, Halfling</p>
+<p class="stat-block-1"><b>SQ</b> nature bond (Weather domain), nature sense, trackless step, wild empathy +8, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>scroll of <a href="/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom" >owl's wisdom</a></i>, alchemist's fire (3), thunderstone; <b>Other Gear</b><i>+1 dragonhide breastplate</i>, masterwork heavy wooden shield, masterwork scimitar, masterwork sling with 20 bullets, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +2</i>, grappling hook, healer's kit, holly and mistletoe, silk rope (50 ft.), spell component pouch, 22 gp</p>
+
+<p>With their ability to control and harness the powers of winds and storms, a number of druids become sea captains, using their abilities sometimes for trade and other times for piracy.</p>
+<h3>Edal</h3>
+<p>Edal is the captain of the Unlucky Halfling, a pirate vessel that harasses busy sea-lanes. The ship is named in honor of Edal himself, who had the misfortune of losing an eye and four fingers to a voracious reefclaw during his youth. He is a thrill-seeker, willing to sail seas that most other captains avoid. He feels at home in the middle of a huge storm.</p>
+<p><b>Combat Encounters:</b> Edal is most often found on his ship, along with his crew. When his crew is diminished, he sails in to a port, where he leads press gangs to round up new crew members.</p>
+<p><b>Roleplaying Suggestions:</b> A thrill-seeker by nature, Edal is quick to tell a bawdy joke, accept a dare, or even start a tavern brawl so that he can prove his mettle.</p>
+
+		
+<p id="mud-shaman" class="stat-block-title">Mud Shaman <span class="stat-block-cr">CR 8</span></p>
+<p class="stat-block-1"><b>XP</b> 4,800</p>
+<p class="stat-block-1"><b>Human druid</b> 9</p>
+<p class="stat-block-1">CN Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> Perception +13</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 22, touch 10, flat-footed 22 (+7 armor, +3 natural, +2 shield)</p>
+<p class="stat-block-1"><b>hp</b> 69 (9d8+25)</p>
+<p class="stat-block-1"><b>Fort</b> +8, <b>Ref</b> +5, <b>Will</b> +11; +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Immune</b> poison; <b>Resist</b> acid 10</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk club +10/+5 (1d6+3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk shortspear +7/+2 (1d6+3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> wild shape 3/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 9th; concentration +14)</p>
+<p class="stat-block-2">8/day&mdash;acid dart</p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 9th; concentration +14)</p>
+<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth" >animal growth</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i><sup>D</sup></p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/giantVermin.html#_giant-vermin" >giant vermin</a></i>, <i><a href="/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones" >spike stones</a></i><sup>D</sup> (DC 19)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i> (3), <i><a href="/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth" >spike growth</a></i> (DC 18), <i><a href="/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape" >stone shape</a></i><sup>D</sup></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/fogCloud.html" >fog cloud</a></i>, <i><a href="/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone" >soften earth and stone</a></i><sup>D</sup></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/magicStone.html#_magic-stone" >magic stone</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh" >shillelagh</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/createWater.html#_create-water" >create water</a></i>, <i><a href="/pathfinderRPG/prd/spells/guidance.html#_guidance" >guidance</a></i>, <i><a href="/pathfinderRPG/prd/spells/knowDirection.html#_know-direction" >know direction</a></i>, <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Earth</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat </b>The druid casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i> between his opponents to separate them. On the following rounds, he spontaneously casts summoning spells, bolstering summoned creatures with <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i>. He eventually wild shapes into a stegosaurus to enter melee.</p>
+<p class="stat-block-1"><b>Base Statistics </b>Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, the druid's statistics are <b>AC</b> 19, touch 10, flat-footed 19; <b>Melee</b> mwk club +8/+3 (1d6+1); <b>Ranged</b> mwk shortspear +7/+2 (1d6+1); <b>Str</b> 13; <b>CMB</b> +7; <b>CMD</b> 17; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +4.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 17, <b>Dex</b> 10, <b>Con</b> 14, <b>Int</b> 8, <b>Wis</b> 20, <b>Cha</b> 13</p>
+<p class="stat-block-1"><b>Base Atk</b> +6; <b>CMB</b> +9; <b>CMD</b> 19</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_augment-summoning" >Augment Summoning</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (conjuration), <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (woodworking) +6, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +4, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +9, Perception +13, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +4, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +18, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +6</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> nature bond (Earth domain), nature sense, trackless step, wild empathy +10, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i>scroll of <a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>, <i>scroll of <a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a>, scroll of <a href="/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i>; <b>Other Gear</b><i>+1 dragonhide breastplate</i>, masterwork heavy wooden shield, masterwork club, masterwork shortspears (3), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +2</i>, holly and mistletoe, spell component pouch, 60 gp</p>
+
+<p>Stalking through boiling and sometimes acidic mud pits, these druids have caustic personalities and abilities.</p>
+<h3>Kiro</h3>
+<p>Kiro, the mud shaman of a remote tribe, sees outsiders as a threat to his culture and people. He acquired a green dragonhide breastplate years ago from a trader, but keeps it hidden under cloaks and wraps, ashamed that he had to buy it rather than earn it through combat.</p>
+<p><b>Combat Encounters:</b> Kiro uses mud pits as traps to entangle his enemies.</p>
+<p><b>Roleplaying Suggestions:</b> A stubborn xenophobe, Kiro does not like speaking with those who are not of his tribe.</p>
+		
+<p id="water-merchant" class="stat-block-title">Water Merchant <span class="stat-block-cr">CR 9</span></p>
+<p class="stat-block-1"><b>XP</b> 6,400</p>
+<p class="stat-block-1"><b>Gnome druid</b> 10</p>
+<p class="stat-block-1">NE Small humanoid (gnome)</p>
+<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> low-light vision; Perception +13</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 28, touch 15, flat-footed 25 (+7 armor, +1 deflection, +3 Dex, +3 natural, +3 shield, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 88 (10d8+40)</p>
+<p class="stat-block-1"><b>Fort</b> +10, <b>Ref</b> +9, <b>Will</b> +12; +2 vs. illusions, +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants); <b>Immune</b> poison; <b>Resist</b> cold 10</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 15 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 scimitar </i>+7/+2 (1d4–1/18–20)</p>
+<p class="stat-block-1"><b>Ranged</b> dart +11/+6 (1d3–2)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and reptilian humanoids, wild shape 4/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 10th; concentration +14)<b></b></p>
+<p class="stat-block-2">7/day&mdash;icicle<i></i></p>
+<p class="stat-block-1"><b>Gnome Spell-Like Abilities </b>(CL 10th; concentration +11)<b></b></p>
+<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights" >dancing lights</a></i>, <i><a href="/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound" >ghost sound</a></i>, <i><a href="/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation" >prestidigitation</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 10th; concentration +14)</p>
+<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm" >call lightning storm</a></i> (DC 19), <i><a href="/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm" >ice storm</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/wallOfThorns.html#_wall-of-thorns" >wall of thorns</a></i></p>
+<p class="stat-block-2">4th&mdash;<i>control wate r</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (2, DC 18), <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/callLightning.html#_call-lightning" >call lightning</a></i> (DC 17), <i><a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing" >water breathing</a></i><sup>D</sup></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/fogCloud.html" >fog cloud</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i>, <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/createWater.html#_create-water" >create water</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison" >detect poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink" >purify food and drink</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Water</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>. She casts <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i> every morning.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid keeps her distance from opponents. She casts <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a>,</i> then wild shapes into an air elemental to fly away. Once she feels she has the tactical advantage, she relies on <i>summon </i>spells and ranged abilities to avoid melee.</p>
+<p class="stat-block-1"><b>Base Statistics </b>Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a> </i>and <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, the druid's statistics are <b>Init</b> +5;<b> AC</b> 23, touch 13, flat-footed 22; <b>Ref</b> +7; <b>Ranged</b> dart +9/+4 (1d3–2); <b>Dex</b> 12; <b>CMD</b> 16; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +5.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 6, <b>Dex</b> 16, <b>Con</b> 15, <b>Int</b> 15, <b>Wis</b> 18, <b>Cha</b> 12</p>
+<p class="stat-block-1"><b>Base Atk</b> +7; <b>CMB</b> +4; <b>CMD</b> 18</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>), <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +10, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +5, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +7, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +9, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +11, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +4, Perception +13, <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (merchant) +15, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +10, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +12, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +17</p>
+<p class="stat-block-1"><b>Languages</b> Abyssal, Common, Draconic, Druidic, Elf, Gnome, Sylvan</p>
+<p class="stat-block-1"><b>SQ</b> nature bond (Water domain), nature sense, trackless step, wild empathy +11, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_feather-token" >feather token</a> </i>(whip), <i>scroll of <a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>; <b>Other Gear</b><i>+1  dragonhide breastplate</i>, <i>+1 heavy wooden <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 scimitar</i>, darts (5), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, holly and mistletoe, ink vial, inkpens (2), paper (5 sheets), scroll case, spell component pouch, waterskin, 33 gp</p>
+
+<p>Typically found in arid regions, these druids use magic to supply others with water for a price.</p>
+<h3>Sasrukutenek</h3>
+<p>Sasrukutenek sells water at a trade stop on the overland route between two desert cities. She overcharges for this commodity, but since it's so scarce, her customers have very little choice.</p>
+
+
+<p id="mistress-of high places" class="stat-block-title">Mistress of High Places <span class="stat-block-cr">CR 10</span></p>
+<p class="stat-block-1"><b>XP</b> 9,600</p>
+<p class="stat-block-1"><b>Half-elf druid</b> 11</p>
+<p class="stat-block-1">CN Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> low-light vision; Perception +14</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 23, touch 13, flat-footed 21 (+7 armor, +1 deflection, +1 Dex, +1 dodge, +3 shield)</p>
+<p class="stat-block-1"><b>hp</b> 84 (11d8+31)</p>
+<p class="stat-block-1"><b>Fort</b> +10, <b>Ref</b> +5, <b>Will</b> +13; +2 vs. enchantments, +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Immune</b> poison; <b>Resist</b> electricity 10</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 sickle</i> +10/+5 (1d6+2)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk shortspear +10/+5 (1d6+1)</p>
+<p class="stat-block-1"><b>Special Attacks</b> wild shape 4/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 11th; concentration +16)</p>
+<p class="stat-block-2">8/day&mdash;lightning arc</p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 11th; concentration +16)</p>
+<p class="stat-block-2">6th&mdash;<i><a href="/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning" >chain lightning</a></i><sup>D</sup> (DC 22), <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i></p>
+<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm" >call lightning storm</a></i> (DC 21), <i><a href="/pathfinderRPG/prd/spells/controlWinds.html#_control-winds" >control winds</a></i><sup>D</sup> (DC 20), <i><a href="/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds" >cure critical wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i> (DC 21)</p>
+<p class="stat-block-2">4th&mdash;<i>air wal k</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm" >ice storm</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/scrying.html#_scrying" >scrying</a></i> (DC 19)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm" >sleet storm</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/animalMessenger.html#_animal-messenger" >animal messenger</a></i>, <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> (3), <i><a href="/pathfinderRPG/prd/spells/fogCloud.html" >fog cloud</a></i>, <i>wind wal l</i><sup>D</sup></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i> (2), <i>obscuring mis t</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/flare.html#_flare" >flare</a></i> (DC 16), <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/mending.html#_mending" >mending</a></i>, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Air</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/ironwood.html#_ironwood" >ironwood</a></i> on her breastplate every 11 days, <i><a href="/pathfinderRPG/prd/spells/liveoak.html#_liveoak" >liveoak</a></i> on an oak three times per month, and <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i> every morning.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid orders her treant guardian into combat, wild shapes into a Large earth elemental, and uses earth glide to flee underground where she casts beneficial spells on herself. Once prepared, she moves above ground and opens with <i><a href="/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning" >chain lightning</a></i>.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 12, <b>Dex</b> 13, <b>Con</b> 15, <b>Int</b> 8, <b>Wis</b> 20, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +8; <b>CMB</b> +9; <b>CMD</b> 22</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, Mobility, <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a>), <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (evocation), <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +6, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +6, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +9, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +9, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +3, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +2, Perception +14, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (dance) +2, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +5, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +18</p>
+<p class="stat-block-1"><b>Languages</b> Aquan, Auran, Common, Druidic, Elven, Ignan</p>
+<p class="stat-block-1"><b>SQ</b> elf blood, nature bond (Air domain), nature sense, trackless step, wild empathy +11, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>, <i>wand of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (6 charges); <b>Other Gear</b><i>+1 <a href="/pathfinderRPG/prd/spells/ironwood.html#_ironwood" >ironwood</a> breastplate</i>, <i>+1 darkwood  heavy wooden <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 sickle</i>, masterwork shortspears (3), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bag-of-holding" >bag of holding</a> </i>(type I), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, holly and mistletoe, spell component pouch, 289 gp</p>
+
+<p>These guardians of mountain peaks traffic with air and ice elementals, summoning forth the spirits of the mountain storms in order to protect their sacred places.</p>
+<h3>Yala of the High Places</h3>
+<p>Yala lives on a mountaintop far to the north. Abandoned by her parents at a young age because of the inconvenience her mixed heritage caused both their families, she was raised by a tribe of yetis, who quickly began venerating her when her druidic powers developed. Never feeling entirely comfortable with her role or the society of the great creatures, she now lives a solitary existence tending a remote shrine dedicated to winter and the mountains themselves. Her enchanted shield was a gift from a courting yeti chief, but she ultimately rejected his advances.</p>
+<p><b>Combat Encounters:</b> Whenever possible, Yala faces enemies near a precipice, using her air magic to throw her foes from the heights and dash them against the rocks below&mdash;a blood offering to the ancient mountains.</p>
+<p><b>Roleplaying Suggestions:</b> A cold and aloof woman, Yala prefers the company of animals and summoned elementals to that of humanoids. She is obsessed with protecting the purity of her mountain home, but what "angers the stones" is often hard for others to predict.</p>
+		
+<p id="castaway" class="stat-block-title">Castaway <span class="stat-block-cr">CR 11</span></p>
+<p class="stat-block-1"><b>XP</b> 12,800</p>
+<p class="stat-block-1"><b>Half-orc druid</b> 12</p>
+<p class="stat-block-1">LN Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft.; Perception +17</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 21, touch 15, flat-footed 17 (+3 armor, +1 deflection, +3 Dex, +1 dodge, +3 shield)</p>
+<p class="stat-block-1"><b>hp</b> 79 (12d8+22)</p>
+<p class="stat-block-1"><b>Fort</b> +11, <b>Ref</b> +9, <b>Will</b> +14; +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> orc ferocity; <b>Immune</b> poison</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 scimitar</i> +12/+7 (1d6+3/18–20) or mwk club +12/+7 (1d6+2)</p>
+<p class="stat-block-1"><b>Ranged</b> dart +12/+7 (1d4+2)</p>
+<p class="stat-block-1"><b>Special Attacks</b> wild shape 5/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 12th; concentration +16)</p>
+<p class="stat-block-2">12/day&mdash;lightning lord</p>
+<p class="stat-block-2">7/day&mdash;storm burst</p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 12th; concentration +16)</p>
+<p class="stat-block-2">6th&mdash;<i><a href="/pathfinderRPG/prd/spells/controlWinds.html#_control-winds" >control winds</a></i><sup>D</sup> (DC 20), <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/repelWood.html#_repel-wood" >repel wood</a></i></p>
+<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm" >call lightning storm</a></i> (DC 19), <i><a href="/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds" >cure critical wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm" >ice storm</a></i><sup>D</sup>,<i> <a href="/pathfinderRPG/prd/spells/treeStride.html#_tree-stride" >tree stride</a></i></p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (DC 18), <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm" >sleet storm</a></i><sup>D</sup></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/callLightning.html#_call-lightning" >call lightning</a></i><sup>D</sup> (DC 17), <i><a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i> (3), <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a> </i>(DC 17)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/fogCloud.html" >fog cloud</a></i><sup>D</sup></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i> (DC 15), <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i>, <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh" >shillelagh</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/guidance.html#_guidance" >guidance</a></i>, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i>, <i><a href="/pathfinderRPG/prd/spells/virtue.html#_virtue" >virtue</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Weather</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/liveoak.html#_liveoak" >liveoak</a></i> every 12 days and <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i> every morning.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid commands his treant to protect him while he wild shapes into a Huge air elemental and casts <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, and <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i>. He then spontaneously uses <i><a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-vi" >summon nature's ally VI</a></i> to summon a dire tiger, upon which he casts <i><a href="/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth" >animal growth</a></i>, <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i>, and <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 16, <b>Con</b> 13, <b>Int</b> 10, <b>Wis</b> 18, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +9; <b>CMB</b> +11; <b>CMD</b> 26</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_augment-summoning" >Augment Summoning</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (conjuration)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +9, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +5, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +11, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +1, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +13, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +3, Perception +17, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +9, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +15, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +7</p>
+<p class="stat-block-1"><b>SQ</b> nature bond (Weather domain), nature sense, orc blood, trackless step, weapon familiarity, wild empathy +11, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>, <i>scroll of <a href="/pathfinderRPG/prd/spells/plantGrowth.html#_plant-growth" >plant growth</a></i>; <b>Other Gear</b><i>+1 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a> leather armor</i>, <i>+1 darkwood heavy steel <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1  scimitar</i>, darts (5), masterwork club, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_brooch-of-shielding" >brooch of shielding</a></i>, <i>cloak of  <a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a> +2, <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, healer's kit, holly and mistletoe, spell component pouch, 273 gp</p>
+
+<p>By way of a shipwreck or magical transportation, some druids find themselves alone on far-flung islands.</p>
+<h3>Passago</h3>
+<p>Passago lives on a lonely tropical island and considers himself its master. He and his daughter were teleported there years ago by a jealous wizard, and quickly came to love it. When wild shaping, he prefers to take on the forms of the animals of his island.</p>
+<p><b>Combat Encounters:</b> Passago loves both his adopted island home and his daughter. If either is threatened, he quickly comes to their defense. He would lay down his life to defend either one of them.</p>
+<p><b>Roleplaying Suggestions:</b> Stubborn and proud, Passago believes he is the master of his island, and as such does not need to explain himself or his actions to anyone.</p>
+
+		
+<p id="fey-friend" class="stat-block-title">Fey friend <span class="stat-block-cr">CR 12</span></p>
+<p class="stat-block-1"><b>XP</b> 19,200</p>
+<p class="stat-block-1"><b>Gnome druid</b> 13</p>
+<p class="stat-block-1">CN Small humanoid (gnome)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> low-light vision; Perception +20</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 24, touch 15, flat-footed 21 (+6 armor, +1 deflection, +2 Dex, +1 dodge, +3 shield, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 96 (13d8+34)</p>
+<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +8, <b>Will</b> +15; +2 vs. illusions, +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> 25% chance to negate critical hits and sneak attacks, defensive training (+4 dodge bonus to AC vs. giants); <b>Immune</b> poison; <b>Resist</b> cold 20</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 15 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 sickle</i> +13/+8 (1d4)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk sling +13/+8 (1d3–1)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and reptilian humanoids, wild shape 5/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 13th; concentration +18)<b></b></p>
+<p class="stat-block-2">8/day&mdash;icicle</p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 13th; concentration +18)</p>
+<p class="stat-block-2">7th&mdash;<i><a href="/pathfinderRPG/prd/spells/creepingDoom.html#_creeping-doom" >creeping doom</a></i> (DC 23), <i><a href="/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i" >elemental body I</a> V</i><sup>D</sup> (water only)</p>
+<p class="stat-block-2">6th&mdash;<i><a href="/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell" >antilife shell</a></i>, <i>cone of col d</i><sup>D</sup> (2, DC 21)</p>
+<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm" >call lightning storm</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds" >cure critical wounds</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm" >ice storm</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i></p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i>control weathe r</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (DC 19), <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones" >spike stones</a></i> (DC 19)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/quench.html#_quench" >quench</a></i>, <i><a href="/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm" >sleet storm</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithPlants.html#_speak-with-plants" >speak with plants</a></i>, <i><a href="/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing" >water breathing</a></i><sup>D</sup></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i> (2), <i>fog clou d</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i>obscuring mis t</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/flare.html#_flare" >flare</a></i> (DC 15), <i><a href="/pathfinderRPG/prd/spells/guidance.html#_guidance" >guidance</a></i>, <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Water</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/liveoak.html#_liveoak" >liveoak</a></i> every 13 days, and <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i> each morning.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i> on her treant and orders it into combat. She wild shapes into a bat and casts <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i> and <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> on herself. She then casts <i>cure</i> spells or spontaneous <i>summon nature's ally</i> as necessary. If entering melee, she casts <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a> </i>and <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i>, then wild shapes into a treant herself.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 8, <b>Dex</b> 14, <b>Con</b> 14, <b>Int</b> 13, <b>Wis</b> 20, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +9; <b>CMB</b> +7; <b>CMD</b> 21</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_augment-summoning" >Augment Summoning</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (conjuration), <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (woodworking) +11, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +6, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +12, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +7, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +14, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +6, Perception +20, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +7, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +14, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +22, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +4</p>
+<p class="stat-block-1"><b>Languages</b> Aquan, Auran, Common, Druidic, Giant, Gnome, Ignan, Sylvan, Terran</p>
+<p class="stat-block-1"><b>SQ</b> a thousand faces, nature bond (Water domain), nature sense, trackless step, wild empathy +13, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, <i>scroll of <a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a></i>; <b>Other Gear</b><i>+2 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-glamered" >glamered</a> hide armor</i>, <i>+1 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a> darkwood heavy wooden <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 sickle</i>, masterwork sling with 20 bullets, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +</i>2, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, holly and mistletoe, spell component pouch, 42 gp</p>
+
+<p>These druids see themselves not as protectors of the forest, but as part of it, like the fey they associate with.</p>
+<h3>Pai Spiritwind</h3>
+<p>An inhabitant of a fey-infested forest, Pai fiercely advocates for the fey and their causes. After many run-ins with destructive humans, she considers all non-fey creatures (excluding gnomes) to be trespassers and attacks them on sight.</p>
+
+<p id="fury-of flame" class="stat-block-title">Fury of Flame <span class="stat-block-cr">CR 13</span></p>
+<p class="stat-block-1"><b>XP</b> 25,600</p>
+<p class="stat-block-1"><b>Human druid</b> 14</p>
+<p class="stat-block-1">NE Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +15</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 28, touch 13, flat-footed 27 (+7 armor, +2 deflection, +1 Dex, +5 natural, +3 shield)</p>
+<p class="stat-block-1"><b>hp</b> 120 (14d8+54)</p>
+<p class="stat-block-1"><b>Fort</b> +13, <b>Ref</b> +7, <b>Will</b> +15; +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Immune</b> poison; <b>Resist</b> fire 20</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 club</i> +16/+11 (1d6+6)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk shortspear +12/+7 (1d6+5)</p>
+<p class="stat-block-1"><b>Special Attacks</b> wild shape 6/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 14th; concentration +18)</p>
+<p class="stat-block-2">7/day&mdash;fire bolt</p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 14th; concentration +18)</p>
+<p class="stat-block-2">7th&mdash;<i><a href="/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i" >elemental body I</a> V</i><sup>D</sup> (fire only), <i><a href="/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm" >fire storm</a></i> (2, DC 23)</p>
+<p class="stat-block-2">6th&mdash;<i><a href="/pathfinderRPG/prd/spells/fireSeeds.html#_fire-seeds" >fire seeds</a></i><sup>D</sup>, empowered<i> <a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (2, DC 20), <i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i></p>
+<p class="stat-block-2">5th&mdash;<i>fire shiel d</i><sup>D</sup>, empowered <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i> (2, DC 19), <i><a href="/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i></p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/airWalk.html#_air-walk" >air walk</a></i>, <i><a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm" >ice storm</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i><sup>D</sup></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/dominateAnimal.html#_dominate-animal" >dominate animal</a></i> (DC 17), <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i><sup>D</sup>(2, DC 19), <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth" >spike growth</a></i> (DC 17)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> (3), <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/produceFlame.html#_produce-flame" >produce flame</a></i><sup>D</sup></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/burningHands.html#_burning-hands" >burning hands</a></i><sup>D</sup>(2, DC 17), <i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i>, <i><a href="/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh" >shillelagh</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/createWater.html#_create-water" >create water</a></i>, <i><a href="/pathfinderRPG/prd/spells/flare.html#_flare" >flare</a></i> (DC 16), <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Fire</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>. He also casts <i><a href="/pathfinderRPG/prd/spells/ironwood.html#_ironwood" >ironwood</a></i> on his breastplate twice per month, and <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i> every morning. </p>
+<p class="stat-block-1"><b>During Combat</b> The druid wild shapes into a Huge fire elemental when casting offensive spells, and wild shapes into a Huge earth elemental when entering melee. He opens with spells such as <i><a href="/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm" >fire storm</a></i> and empowered<i> <a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i>. Before entering melee, he casts <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, and <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i> on himself.</p>
+<p class="stat-block-1"><b>Base Statistics </b>Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a>,</i> the druid's statistics are <b>AC</b> 23, touch 13, flat-footed 22.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 12, <b>Con</b> 15, <b>Int</b> 10, <b>Wis</b> 18, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +10; <b>CMB</b> +15; <b>CMD</b> 28</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_empower-spell" >Empower Spell</a>, Greater <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (evocation), <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (evocation), <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +5, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +6, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +12, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +7, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +11, Perception +15, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (oratory) +5, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +7, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +11, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +23, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +9</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> a thousand faces, nature bond (Fire domain), nature sense, trackless step, wild empathy +13, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>; <b>Other Gear</b><i>+1 <a href="/pathfinderRPG/prd/spells/ironwood.html#_ironwood" >ironwood</a> breastplate</i>, <i>+1 darkwood heavy wooden <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 club</i>, masterwork shortspear, <i>belt of  physical might +2</i> (Str, Con), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_handy-haversack" >handy haversack</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +2</i>, bedroll, healer's kit, holly and mistletoe, silk rope (50 ft.), spell component pouch, 27 gp</p>
+
+<p>Controlling the power of fire and earth, these druids are natural wrath incarnate.</p>
+<h3>Karuth Firesoul</h3>
+<p>Karuth Firewalker is a truly inspired fire druid&mdash;and he is quite possibly insane. A few years ago, a fateful encounter with a prophetic elder fire elemental gave Karuth the impression that, unlike other humans, he has no soul. Rather, inside him rages a core of elemental fire&mdash;a fire that must be released, thus conveniently justifying his pyromaniac urges.</p>
+<p><b>Combat Encounters:</b> Karuth attacks with no warning, laughing maniacally as he burns alive any whom he encounters.</p>
+<p><b>Roleplaying Suggestions:</b> Although Karuth is evil, he occasionally suffers from periods of strange lucidity and regret. During these times he tearfully asking those who seem like they have a chance of standing against his fearful might to grant him release from his evil compulsions through death.</p>
+
+		
+<p id="creeping-death" class="stat-block-title">Creeping Death <span class="stat-block-cr">CR 14</span></p>
+<p class="stat-block-1"><b>XP</b> 38,400</p>
+<p class="stat-block-1"><b>Elf druid</b> 15</p>
+<p class="stat-block-1">NE Medium humanoid (elf)</p>
+<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> low-light vision; Perception +18</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 31, touch 16, flat-footed 27 (+7 armor, +2 deflection, +3 Dex, +1 dodge, +5 natural, +3 shield)</p>
+<p class="stat-block-1"><b>hp</b> 96 (15d8+25)</p>
+<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +10, <b>Will</b> +16; +2 vs. enchantments, +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> 25% chance to negate critical hits and sneak attacks; <b>Immune</b> poison, sleep; <b>DR</b> 10/adamantine (150 points)</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 cold iron scythe</i> +13/+8/+3 (2d4+2/×4)</p>
+<p class="stat-block-1"><b>Special Attacks</b> wild shape 6/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 15th; concentration +20)</p>
+<p class="stat-block-2">8/day&mdash;wooden fist</p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 15th; concentration +20)</p>
+<p class="stat-block-2">8th&mdash;<i><a href="/pathfinderRPG/prd/spells/controlPlants.html#_control-plants" >control plants</a></i><sup>D</sup> (DC 23), <i><a href="/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall" >word of recall</a></i></p>
+<p class="stat-block-2">7th&mdash;<i><a href="/pathfinderRPG/prd/spells/animatePlants.html#_animate-plants" >animate plants</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/creepingDoom.html#_creeping-doom" >creeping doom</a></i> (DC 22), <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+<p class="stat-block-2">6th&mdash;<i><a href="/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell" >antilife shell</a></i>, <i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds-mass" >mass cure light wounds</a></i>, <i>repel woo d</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i></p>
+<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph" >baleful polymorph</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague" >insect plague</a></i>, <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/transmuteRockToMud.html#_transmute-rock-to-mud" >transmute rock to mud</a></i>, <i><a href="/pathfinderRPG/prd/spells/treeStride.html#_tree-stride" >tree stride</a></i>, <i><a href="/pathfinderRPG/prd/spells/wallOfThorns.html#_wall-of-thorns" >wall of thorns</a></i><sup>D</sup></p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/airWalk.html#_air-walk" >air walk</a></i>, <i><a href="/pathfinderRPG/prd/spells/commandPlants.html#_command-plants" >command plants</a></i><sup>D</sup> (DC 19), <i><a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp" >rusting grasp</a></i>, <i><a href="/pathfinderRPG/prd/spells/scrying.html#_scrying" >scrying</a></i> (DC 19)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/plantGrowth.html#_plant-growth" >plant growth</a></i><sup>D</sup><i>, <a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (2, DC 18)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i><sup>D</sup> (3), <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a>, <a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i><sup>D</sup> (DC 16), <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/mending.html#_mending" >mending</a></i>, <i><a href="/pathfinderRPG/prd/spells/readMagic.html#_read-magic" >read magic</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Plant</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, and <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i> and drinks her <i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid locks down opponents with <i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i>, <i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i>, and <i><a href="/pathfinderRPG/prd/spells/transmuteRockToMud.html#_transmute-rock-to-mud" >transmute rock to mud</a></i>, while casting <i><a href="/pathfinderRPG/prd/spells/creepingDoom.html#_creeping-doom" >creeping doom</a></i> and <i><a href="/pathfinderRPG/prd/spells/animatePlants.html#_animate-plants" >animate plants</a></i> from a distance.</p>
+<p class="stat-block-1"><b>Base Statistics </b>Without <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, and <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, the druid's statistics are <b>AC</b> 27, touch 16, flat-footed 23; <b>DR </b>none; <b>Speed</b> 20 ft.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 13, <b>Dex</b> 16, <b>Con</b> 12, <b>Int</b> 12, <b>Wis</b> 20, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +11; <b>CMB</b> +12; <b>CMD</b> 28</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_spell-penetration" >Spell Penetration</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +5, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +7, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +9, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +13, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +14, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +9, Perception +18, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +6, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +14 (+16 to identify magic item properties), <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +19, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Abyssal, Common, Druidic, Elven</p>
+<p class="stat-block-1"><b>SQ</b> a thousand faces, bramble armor (1d6+7, 15 rounds/day), elven magic, nature bond (Plant domain), nature sense, timeless body, trackless step, weapon familiarity, wild empathy +14, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>, <i>scroll of <a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a></i>; <b>Other Gear</b><i>+1 dragonhide breastplate</i>, <i>+1 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a> heavy wooden <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 cold iron scythe</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_pearl-of-power" >pearl of power</a> </i>(1st), <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +2</i>, holly and mistletoe, spell component pouch, 652 gp</p>
+
+<p>Creeping death druids see terrain as the ultimate weapon against those who would despoil their homes.</p>
+<h3>Genyielt Graycloak</h3>
+<p>This stalker of bogs and moors works tirelessly to end the encroachment of civilization on her desolate home.</p>
+
+<p id="taiga-stalker" class="stat-block-title">Taiga Stalker <span class="stat-block-cr">CR 15</span></p>
+<p class="stat-block-1"><b>XP</b> 51,200</p>
+<p class="stat-block-1"><b>Human druid</b> 16</p>
+<p class="stat-block-1">LN Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> Perception +21</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 26, touch 13, flat-footed 25 (+10 armor, +2 deflection, +1 Dex, +3 shield)</p>
+<p class="stat-block-1"><b>hp</b> 119 (16d8+44)</p>
+<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +9, <b>Will</b> +18; +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Immune</b> poison; <b>Resist</b> cold 20</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 scimitar</i> +15/+10/+5 (1d6+3/18–20)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 sling</i> +15/+10/+5 (1d4+3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> wild shape 7/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 16th; concentration +22)<b></b></p>
+<p class="stat-block-2">9/day&mdash;icicle</p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 16th; concentration +22)</p>
+<p class="stat-block-2">8th&mdash;empowered<i> <a href="/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold" >cone of cold</a></i> (2, DC 22), <i><a href="/pathfinderRPG/prd/spells/horridWilting.html#_horrid-wilting" >horrid wilting</a></i><sup>D</sup> (DC 24)</p>
+<p class="stat-block-2">7th&mdash;<i><a href="/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-iv" >elemental body IV</a></i><span class="char-style-override-16"> D (water only), <i><a href="/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm" >fire storm</a></i> (DC 23), <i><a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a></i>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+<p class="stat-block-2">6th&mdash;<i><a href="/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell" >antilife shell</a></i>, <i>cone of col d</i><sup>D</sup> (DC 22), empowered<i> <a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i></p>
+<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth" >animal growth</a></i> (2, DC 21), <i><a href="/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds" >cure critical wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/deathWard.html#_death-ward" >death ward</a></i>, <i><a href="/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm" >ice storm</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i></p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/airWalk.html#_air-walk" >air walk</a></i>, <i>control weathe r</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones" >spike stones</a></i> (DC 20)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i> (3), <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing" >water breathing</a></i><sup>D</sup></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> (3), <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i>fog clou d</i><sup>D</sup></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (3), <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/createWater.html#_create-water" >create water</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/mending.html#_mending" >mending</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Water</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> Twice per month, the druid casts <i><a href="/pathfinderRPG/prd/spells/ironwood.html#_ironwood" >ironwood</a></i> on her armor and also casts <i><a href="/pathfinderRPG/prd/spells/liveoak.html#_liveoak" >liveoak</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid casts empowered<i> <a href="/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold" >cone of cold</a></i>, then begins spontaneously summoning creatures and casting <i><a href="/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth" >animal growth</a></i>, <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, and <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i> on them. While they are fighting, she casts spells to heal them and enhance her abilities. When entering melee, she casts <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i>, <i><a href="/pathfinderRPG/prd/spells/deathWard.html#_death-ward" >death ward</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, and <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> on herself, and drinks her <i>potions of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i> and <i><a href="/pathfinderRPG/prd/spells/displacement.html#_displacement" >displacement</a></i> before wild shaping into a Huge water elemental.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 14, <b>Con</b> 14, <b>Int</b> 10, <b>Wis</b> 22, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +12; <b>CMB</b> +14; <b>CMD</b> 28</p>
+<p class="stat-block-1"><b>Feats</b>, <a href="/pathfinderRPG/prd/feats.html#_augment-summoning" >Augment Summoning</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_empower-spell" >Empower Spell</a>, Heavy Armor Proficiency, Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (conjuration), <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (woodworking) +11, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +8, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +9, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +14, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +9, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +15, Perception +21, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +3, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +17, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +22</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> a thousand faces, nature bond (Water domain), nature sense, timeless body, trackless step, wild empathy +15, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/displacement.html#_displacement" >displacement</a></i>, <i>scroll of <a href="/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall" >word of recall</a></i>, <i>wand of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i> (10 charges); <b>Other Gear</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-wild" >wild</a> <a href="/pathfinderRPG/prd/spells/ironwood.html#_ironwood" >ironwood</a> full plate</i>, <i>+1 darkwood heavy wooden  <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 scimitar</i>, <i>+1 sling</i> with 10 bullets, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +2</i>, cold weather outfit, healer's kit, holly and mistletoe, masterwork woodcarving tools, spell component pouch, 110 gp</p>
+
+<p>These hardy druids patrol and protect the icy reaches of northern forests, and command spells and abilities equally as cold and unforgiving.</p>
+		
+		
+<p id="hateful-scourge" class="stat-block-title">Hateful Scourge <span class="stat-block-cr">CR 16</span></p>
+<p class="stat-block-1"><b>XP</b> 76,800</p>
+<p class="stat-block-1"><b>Half-elf druid</b> 17</p>
+<p class="stat-block-1">NE Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> low-light vision; Perception +25</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 28, touch 14, flat-footed 27 (+10 armor, +2 deflection, +1 Dex, +1 insight, +4 shield)</p>
+<p class="stat-block-1"><b>hp</b> 158 (17d8+78)</p>
+<p class="stat-block-1"><b>Fort</b> +16, <b>Ref</b> +9, <b>Will</b> +20; +2 vs. enchantments, +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Immune</b> poison</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 club</i> +15/+10/+5 (1d6+3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk shortspear +14/+9/+4 (1d6+2)</p>
+<p class="stat-block-1"><b>Special Attacks</b> wild shape 7/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 17th; concentration +24)</p>
+<p class="stat-block-2">17/day&mdash;lightning lord</p>
+<p class="stat-block-2">10/day&mdash;storm burst</p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 17th; concentration +24)</p>
+<p class="stat-block-2">9th&mdash;empowered<i> <a href="/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm" >fire storm</a></i> (DC 24), <i><a href="/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance" >storm of vengeance</a></i><sup>D</sup> (DC 26)</p>
+<p class="stat-block-2">8th&mdash;<i><a href="/pathfinderRPG/prd/spells/earthquake.html#_earthquake" >earthquake</a></i>, <i>whirlwin d</i><sup>D</sup> (DC 25), <i><a href="/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall" >word of recall</a></i></p>
+<p class="stat-block-2">7th&mdash;<i>control weathe r</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/creepingDoom.html#_creeping-doom" >creeping doom</a></i> (DC 24), <i><a href="/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm" >fire storm</a></i> (DC 24), <i><a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a></i>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+<p class="stat-block-2">6th&mdash;<i><a href="/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell" >antilife shell</a></i>, <i><a href="/pathfinderRPG/prd/spells/controlWinds.html#_control-winds" >control winds</a></i><sup>D</sup> (DC 23), empowered<i> <a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (2, DC 21), <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i></p>
+<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph" >baleful polymorph</a></i> (DC 22), <i><a href="/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm" >call lightning storm</a></i> (DC 22), <i><a href="/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds" >cure critical wounds</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm" >ice storm</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague" >insect plague</a></i></p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/controlWater.html#_control-water" >control water</a></i>, <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (2, DC 21), <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm" >sleet storm</a></i><sup>D</sup></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/callLightning.html#_call-lightning" >call lightning</a></i><sup>D</sup> (DC 20), <i><a href="/pathfinderRPG/prd/spells/dominateAnimal.html#_dominate-animal" >dominate animal</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i> (3), <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (2)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> (3), <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i>fog clou d</i><sup>D</sup></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i> (2, DC 18), <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i> (2), <i>obscuring mis t</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh" >shillelagh</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/flare.html#_flare" >flare</a></i> (DC 17), <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink" >purify food and drink</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Weather</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/shambler.html#_shambler" >shambler</a></i> once per week, and <i><a href="/pathfinderRPG/prd/spells/liveoak.html#_liveoak" >liveoak</a></i> and <i><a href="/pathfinderRPG/prd/spells/ironwood.html#_ironwood" >ironwood</a></i> every 17 days.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid sends her shambling mounds and treant to fight while she casts <i><a href="/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance" >storm of vengeance</a></i>. If physically threatened, the druid casts <i><a href="/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell" >antilife shell</a></i>, followed by empowered <i><a href="/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm" >fire storm</a></i>.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 12, <b>Con</b> 16, <b>Int</b> 8, <b>Wis</b> 24, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +12; <b>CMB</b> +14 (+16 sunder); <b>CMD</b> 28 (30 vs. sunder)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_empower-spell" >Empower Spell</a>, Heavy Armor Proficiency, Improved Sunder, Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a>), <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +3, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +12, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +3, Perception +25, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (sing) +4, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +2, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +8, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +21, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +3</p>
+<p class="stat-block-1"><b>Languages</b> Aquan, Auran, Common, Druidic, Elven, Ignan, Terran</p>
+<p class="stat-block-1"><b>SQ</b> a thousand faces, elf blood, nature bond (Weather domain), nature sense, timeless body, trackless step, wild empathy +17, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i> (2); <b>Other Gear</b><i>+1 <a href="/pathfinderRPG/prd/spells/ironwood.html#_ironwood" >ironwood</a> <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-wild" >wild</a> full plate</i>, <i>+2 darkwood heavy wooden <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 club</i>, masterwork shortspears (3), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-mighty-constitution" >belt of mighty constitution</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +3</i>, <i>druid's vestments</i>, <i>dusty rose prism <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_ioun-stones" >ioun stone</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_eyes-of-the-eagle" >eyes of the eagle</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +2</i>, holly and mistletoe, spell component pouch, waterskin, 134 gp</p>
+
+<p>These powerful druids see civilization as a pestilence.</p>
+<h3>Pateba Blackmind</h3>
+<p>As feral as a wild cat, Pateba defends her forest without pity or remorse. Those who intrude are things to hunt and destroy.</p>
+		
+		
+<p id="dark-nature priest" class="stat-block-title">Dark Nature Priest <span class="stat-block-cr">CR 17</span></p>
+<p class="stat-block-1"><b>XP</b> 102,400</p>
+<p class="stat-block-1"><b>Halfling druid</b> 18</p>
+<p class="stat-block-1">NE Small humanoid (halfling)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> Perception +24</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 28, touch 19, flat-footed 24 (+4 armor, +3 deflection, +3 Dex, +1 dodge, +1 insight, +5 shield, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 156 (18d8+72)</p>
+<p class="stat-block-1"><b>Fort</b> +18, <b>Ref</b> +13, <b>Will</b> +20; +2 vs. fear, +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Immune</b> poison</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 quarterstaff</i> +15/+10/+5 (1d4)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 sling </i>+18/+13/+8 (1d3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> wild shape 8/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 18th; concentration +23)<b></b></p>
+<p class="stat-block-2">8/day&mdash;wooden fist</p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 18th; concentration +23)</p>
+<p class="stat-block-2">9th&mdash;<i><a href="/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds-mass" >mass cure critical wounds</a></i>, <i>shamble r</i><sup>D</sup></p>
+<p class="stat-block-2">8th&mdash;<i><a href="/pathfinderRPG/prd/spells/controlPlants.html#_control-plants" >control plants</a></i> (DC 23)<sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/whirlwind.html#_whirlwind" >whirlwind</a></i> (2, DC 23), <i><a href="/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall" >word of recall</a></i></p>
+<p class="stat-block-2">7th&mdash;<i><a href="/pathfinderRPG/prd/spells/animatePlants.html#_animate-plants" >animate plants</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm" >fire storm</a></i> (DC 22), <i><a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a></i>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+<p class="stat-block-2">6th&mdash;empowered<i> <a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (2, DC 19), <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace-mass" >mass cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/repelWood.html#_repel-wood" >repel wood</a></i><sup>D</sup></p>
+<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth" >animal growth</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph" >baleful polymorph</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/controlWinds.html#_control-winds" >control winds</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/wallOfThorns.html#_wall-of-thorns" >wall of thorns</a></i><sup>D</sup></p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/commandPlants.html#_command-plants" >command plants</a></i><sup>D</sup> (DC 19), <i><a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a>, <a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (2, DC 19), <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones" >spike stones</a></i> (DC 19)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/dominateAnimal.html#_dominate-animal" >dominate animal</a></i> (DC 18), <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/plantGrowth.html#_plant-growth" >plant growth</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (2)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i><sup>D</sup> (3), <i><a href="/pathfinderRPG/prd/spells/fogCloud.html" >fog cloud</a></i>, <i><a href="/pathfinderRPG/prd/spells/holdAnimal.html#_hold-animal" >hold animal</a> </i>(DC 17), <i><a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i><sup>D</sup> (DC 16), <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i>, <i><a href="/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh" >shillelagh</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/knowDirection.html#_know-direction" >know direction</a></i>, <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/readMagic.html#_read-magic" >read magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Plant</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/liveoak.html#_liveoak" >liveoak</a></i> and <i><a href="/pathfinderRPG/prd/spells/shambler.html#_shambler" >shambler</a></i> on a regular basis, and always has a retinue of 1d4+2 advanced shambling mounds and a treant with her.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid detests trespassers. She begins combat by sending her shambling mounds and treant into melee and summoning a storm giant. She then summons a tyrannosaurus and casts <i><a href="/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth" >animal growth</a></i> on it, and spends the next few rounds buffing her summoned creatures with <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace-mass" >mass cat's grace</a></i>, and <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i>. She then casts offensive spells and drinks her <i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i> before wild shaping into a Huge elemental and moving into melee.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 8, <b>Dex</b> 16, <b>Con</b> 16, <b>Int</b> 12, <b>Wis</b> 20, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +13; <b>CMB</b> +11; <b>CMD</b> 29</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_augment-summoning" >Augment Summoning</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_empower-spell" >Empower Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (conjuration), <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (quarterstaff)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +4 (+0 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +12, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +6, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +13, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +14, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +16, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +5, Perception +24, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +9, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +19, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +19, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +7</p>
+<p class="stat-block-1"><b>Languages</b> Aquan, Auran, Common, Druidic, Halfling, Ignan, Sylvan, Terran</p>
+<p class="stat-block-1"><b>SQ</b> a thousand faces, bramble armor (1d6+9, 18 rounds/day), nature bond (Plant domain), nature sense, timeless body, trackless step, wild empathy +18, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>, <i>wand of <a href="/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm" >ice storm</a></i> (3 charges); <b>Other Gear</b><i>+2 leather armor,  +3 heavy <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-wild" >wild</a> darkwood wooden <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 quarterstaff</i>, <i>+1 sling</i> with 20 bullets, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +3</i>, <i>dusty rose prism <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_ioun-stones" >ioun stone</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +3</i>, backpack, everburning torch, holly and mistletoe, silk rope (50 ft.), spell component pouch, 96 gp</p>
+
+<p>These dark nature priests do not nurture their home, but rather spread disease, filth, and hate throughout humanoid communities on behalf of an enraged and exploited landscape. </p>
+		
+
+		
+<p id="rage-flame" class="stat-block-title">Rage Flame <span class="stat-block-cr">CR 18</span></p>
+<p class="stat-block-1"><b>XP</b> 153,600</p>
+<p class="stat-block-1"><b>Half-orc druid</b> 19</p>
+<p class="stat-block-1">CN Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft.; Perception +23</p>
+<p class="stat-block-breaker">DEFENSE</p>
+<p class="stat-block-1"><b>AC</b> 28, touch 16, flat-footed 26 (+8 armor, +3 deflection, +2 Dex, +1 insight, +4 shield)</p>
+<p class="stat-block-1"><b>hp</b> 161 (19d8+72)</p>
+<p class="stat-block-1"><b>Fort</b> +16, <b>Ref</b> +11, <b>Will</b> +22; +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> orc ferocity; <b>Immune</b> poison; <b>Resist</b> fire 20</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 club</i> +17/+12/+7 (1d6+3)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 sling</i> +17/+12/+7 (1d4+3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> wild shape 8/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 19th; concentration +27)</p>
+<p class="stat-block-2">11/day&mdash;fire bolt</p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 19th; concentration +27)</p>
+<p class="stat-block-2">9th&mdash;<i><a href="/pathfinderRPG/prd/spells/elementalSwarm.html#_elemental-swarm" >elemental swarm</a></i><sup>D</sup> (fire spell only), empowered<i> <a href="/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm" >fire storm</a></i> (3, DC 27)</p>
+<p class="stat-block-2">8th&mdash;quickened<i> <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i>incendiary clou d</i><sup>D</sup> (DC 26), <i><a href="/pathfinderRPG/prd/spells/reverseGravity.html#_reverse-gravity" >reverse gravity</a></i>, <i><a href="/pathfinderRPG/prd/spells/sunburst.html#_sunburst" >sunburst</a></i> (DC 28), <i><a href="/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall" >word of recall</a></i></p>
+<p class="stat-block-2">7th&mdash;quickened<i> <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm" >fire storm</a> </i>(2, DC 27),<i><a href="/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i" >elemental body I</a> V</i><sup>D</sup> (fire only), <i><a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a></i>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+<p class="stat-block-2">6th&mdash;<i>fire seed s</i><sup>D</sup>, empowered<i> <a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (3, DC 24), <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace-mass" >mass cat's grace</a></i></p>
+<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds" >cure critical wounds</a></i> (2), <i>fire shiel d</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i> (2)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (2, DC 24), <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm" >ice storm</a></i> (DC 24), <i><a href="/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i><sup>D</sup></p>
+<p class="stat-block-2">3rd&mdash;<i>firebal l</i><sup>D</sup><i> </i>(5, DC 23), <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (DC 21)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/holdAnimal.html#_hold-animal" >hold animal</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/produceFlame.html#_produce-flame" >produce flame</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/burningHands.html#_burning-hands" >burning hands</a></i><sup>D</sup> (2, DC 21), <i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh" >shillelagh</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/createWater.html#_create-water" >create water</a></i>, <i><a href="/pathfinderRPG/prd/spells/flare.html#_flare" >flare</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/guidance.html#_guidance" >guidance</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Fire</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/shambler.html#_shambler" >shambler</a></i> once per week and casts <i><a href="/pathfinderRPG/prd/spells/ironwood.html#_ironwood" >ironwood</a></i> on his armor every 19 days.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid sends shambling mounds into combat, casts <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace-mass" >mass cat's grace</a></i>, wild shapes into a Huge fire elemental, and moves in to flank.</p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 14, <b>Con</b> 14, <b>Int</b> 10, <b>Wis</b> 26, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +14; <b>CMB</b> +16; <b>CMD</b> 32</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_empower-spell" >Empower Spell</a>, Greater <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (evocation), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_quicken-spell" >Quicken Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (evocation), <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +6, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +6, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +5, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +1, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +7, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +13, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +4, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +5, Perception +23, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +6, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +16, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +15, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +21, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +6</p>
+<p class="stat-block-1"><b>Languages</b> Auran, Common, Draconic, Druidic, Giant, Ignan, Orc, Terran</p>
+<p class="stat-block-1"><b>SQ</b> a thousand faces, nature bond (Fire domain), nature sense, orc blood, timeless body, trackless step, weapon familiarity, wild empathy +18, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>, <i>scroll of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds-mass" >mass cure serious wounds</a></i>; <b>Other Gear</b>, <i>+2 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-wild" >wild</a> <a href="/pathfinderRPG/prd/spells/ironwood.html#_ironwood" >ironwood</a> breastplate</i>, <i>+2 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-animated" >animated</a> darkwood heavy wooden <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 club</i>, <i>+1 sling </i>with 10 bullets, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-mighty-constitution" >belt of mighty constitution</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +3</i>, <i>dusty rose prism <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_ioun-stones" >ioun stone</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +6, <a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +3</i>, holly and mistletoe, spell component pouch, silver crown (worth 200 gp), 63 gp</p>
+
+<p>These druids dwell in the most explosive spots in the world.</p>
+		
+
+<p id="earthfather" class="stat-block-title">Earthfather <span class="stat-block-cr">CR 19</span></p>
+<p class="stat-block-1"><b>XP</b> 204,800</p>
+<p class="stat-block-1"><b>Dwarf druid</b> 20</p>
+<p class="stat-block-1">NE Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +22</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 33, touch 16, flat-footed 31 (+12 armor, +3 deflection, +1 Dex, +1 dodge, +1 insight, +5 shield)</p>
+<p class="stat-block-1"><b>hp</b> 150 (20d8+57)</p>
+<p class="stat-block-1"><b>Fort</b> +17, <b>Ref</b> +10, <b>Will</b> +22; +2 vs. poison, spells, and spell-like abilities; +4 vs. fey and plant-targeted effects</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants), evasion; <b>Immune</b> acid, poison</p>
+<p class="stat-block-breaker">OFFENSE</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a> quarterstaff</i> +19/+14/+9 (1d6+5)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> hammer</i> +17/+12/+7 (1d4+4)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids, wild shape at will</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities </b>(CL 20th; concentration +27)<b></b></p>
+<p class="stat-block-2">10/day&mdash;acid dart</p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 20th; concentration +27)</p>
+<p class="stat-block-2">9th&mdash;quickened<i> <a href="/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds" >cure critical wounds</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/elementalSwarm.html#_elemental-swarm" >elemental swarm</a></i><sup>D</sup> (earth spell only), empowered<i> <a href="/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm" >fire storm</a></i> (DC 24), <i><a href="/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance" >storm of vengeance</a></i> (DC 27)</p>
+<p class="stat-block-2">8th&mdash;<i><a href="/pathfinderRPG/prd/spells/earthquake.html#_earthquake" >earthquake</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/fingerOfDeath.html#_finger-of-death" >finger of death</a></i> (DC 25), <i><a href="/pathfinderRPG/prd/spells/repelMetalOrStone.html#_repel-metal-or-stone" >repel metal or stone</a></i>, <i><a href="/pathfinderRPG/prd/spells/reverseGravity.html#_reverse-gravity" >reverse gravity</a></i>, <i><a href="/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall" >word of recall</a></i></p>
+<p class="stat-block-2">7th&mdash;<i><a href="/pathfinderRPG/prd/spells/changestaff.html#_changestaff" >changestaff</a></i>, <i><a href="/pathfinderRPG/prd/spells/creepingDoom.html#_creeping-doom" >creeping doom</a></i> (DC 25), <i><a href="/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i" >elemental body I</a> V</i><sup>D</sup> (earth only), <i><a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a></i>, <i><a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds-mass" >mass cure moderate wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+<p class="stat-block-2">6th&mdash;<i><a href="/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell" >antilife shell</a></i>, empowered<i> <a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (DC 21), <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i><sup>D</sup></p>
+<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth" >animal growth</a></i> (2, DC 22), <i><a href="/pathfinderRPG/prd/spells/deathWard.html#_death-ward" >death ward</a></i>, quickened<i> <a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i>, <i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/wallOfThorns.html#_wall-of-thorns" >wall of thorns</a></i></p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/airWalk.html#_air-walk" >air walk</a></i>, <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (DC 21), <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones" >spike stones</a></i><sup>D</sup> (DC 21)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/dominateAnimal.html#_dominate-animal" >dominate animal</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i> (3), <i><a href="/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape" >stone shape</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/windWall.html#_wind-wall" >wind wall</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> (3), <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone" >soften earth and stone</a></i><sup>D</sup></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/magicStone.html#_magic-stone" >magic stone</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/createWater.html#_create-water" >create water</a></i>, <i><a href="/pathfinderRPG/prd/spells/guidance.html#_guidance" >guidance</a>, <a href="/pathfinderRPG/prd/spells/mending.html#_mending" >mending</a></i>, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domain</b> Earth</p>
+<p class="stat-block-breaker">TACTICS</p>
+<p class="stat-block-1"><b>Before Combat</b> The druid casts <i><a href="/pathfinderRPG/prd/spells/shambler.html#_shambler" >shambler</a></i> to create 1d4+2 advanced shambling mounds.</p>
+<p class="stat-block-1"><b>During Combat</b> The druid deploys shambling mounds, wild shapes into a Huge earth elemental, and casts spells on himself. If interrupted, he earth glides and casts <i><a href="/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance" >storm of vengeance</a></i>. </p>
+<p class="stat-block-breaker">STATISTICS</p>
+<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 13, <b>Con</b> 14, <b>Int</b> 10, <b>Wis</b> 24, <b>Cha</b> 6</p>
+<p class="stat-block-1"><b>Base Atk</b> +15; <b>CMB</b> +18; <b>CMD</b> 34 (38 vs. bull rush or trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_augment-summoning" >Augment Summoning</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_empower-spell" >Empower Spell</a>, Heavy Armor Proficiency, <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_quicken-spell" >Quicken Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (conjuration), <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +3, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +3, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (engineering) +4, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +15, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +8, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +4, Perception +22 (+24 to notice unusual stonework), <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (percussion) +4, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +3, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +21, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +19, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Aquan, Auran, Common, Druidic, Dwarven, Ignan, Terran</p>
+<p class="stat-block-1"><b>SQ</b> a thousand faces, nature bond (Earth domain), nature sense, timeless body, trackless step, wild empathy +18, woodland stride</p>
+<p class="stat-block-1"><b>Gear</b><i>+3 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-wild" >wild</a> <a href="/pathfinderRPG/prd/spells/ironwood.html#_ironwood" >ironwood</a> full plate</i>, <i>+3 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-animated" >animated</a> darkwood heavy wooden <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a> quarterstaff</i>, <i>+1 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> hammer</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed" >boots of speed</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +3</i>, <i>dusty rose prism <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_ioun-stones" >ioun stone</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom" >headband of inspired wisdom</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-evasion" >ring of evasion</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +3</i>, holly and mistletoe, spell component pouch, 487 gp</p>
+
+<p>Providers of ancient wisdom, these rare and powerful dwarven druids are venerated by their people.</p>
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

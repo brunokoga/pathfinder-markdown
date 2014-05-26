@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Creating NPCs</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Creating NPCs",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body"><h1 id="creating-npcs">Creating NPCs</h1>
+				<p>The world that the player characters inhabit should be full of rich and vibrant characters with whom they can interact. While most need little more than names and general descriptions, some require complete statistics, such as town guards, local clerics, and wizened sages. The PCs might find themselves in combat with these characters, either against them or as allies. Alternatively the PCs might find themselves relying on the skills and abilities of the NPCs. In either case, the process for creating these NPCs can be performed in seven simple steps.</p>
+				<h2 id="step-1-the-basics">Step 1: The Basics</h2>
+				<p>The first step in making an NPC is to determine its basic role in your campaign. This includes its race, class, and basic concept.</p>
+				<h2 id="step-2-determine-ability-scores">Step 2: Determine Ability Scores</h2>
+				<p>Once the character's basic concept has been determined, its ability scores must be assigned. Apply the NPC's racial modifiers after the scores have been assigned. For every four levels the NPC has attained, increase one of its scores by 1. If the NPC possesses levels in a PC class, it is considered a heroic NPC and receives better ability scores. These scores can be assigned in any order.</p>
+				<p><b>Basic NPCs</b>: The ability scores for a basic NPC are: 13, 12, 11, 10, 9, and 8.</p>
+				<p><b>Heroic NPCs</b>: The ability scores for a heroic NPC are: 15, 14, 13, 12, 10, and 8.</p>
+				<p><b>Preset Ability Scores</b>: Instead of assigning the scores, you can use Table: NPC Ability Scores to determine the NPC's ability scores, adjusting them as necessary to fit. Use the Melee NPC ability scores for characters whose primary role involves melee combat, such as barbarians, fighters, monks, paladins, rangers, and warriors. The Ranged NPC ability scores are for characters that fight with ranged weapons or use their <a href="gettingStarted.html#_dexterity" >Dexterity</a> to hit, such as fighters, rangers, and rogues. Use the Divine NPC ability scores for characters with divine spellcasting capabilities, such as adepts, clerics, and druids. The Arcane NPC ability scores should be used by characters with arcane spellcasting capabilities, such as bards, sorcerers, and wizards. Finally, the Skill NPC ability scores should be used for characters that focus on skill use, such as aristocrats, bards, commoners, experts, and rogues. Some NPCs might not fit into one of these categories and should have custom ability scores.</p>
+				<table id="table-14-6-npc-ability-scores"><caption>Table: NPC Ability Scores</caption>
+<thead><tr><th rowspan="2">Ability Score</th><th colspan="2">Melee NPC</th><th colspan="2">Ranged NPC</th><th colspan="2">Divine NPC</th><th colspan="2">Arcane NPC</th><th colspan="2">Skill NPC</th></tr><tr><th>Basic</th><th>Heroic</th><th>Basic</th><th>Heroic</th><th>Basic</th><th>Heroic</th><th>Basic</th><th>Heroic</th><th>Basic</th><th>Heroic</th></tr></thead>
+<tbody>
+<tr class="odd"><td>Strength</td><td>13</td><td>15</td><td>11</td><td>13</td><td>10</td><td>12</td><td>8</td><td>8</td><td>10</td><td>12</td></tr>
+<tr class="even"><td>Dexterity</td><td>11</td><td>13</td><td>13</td><td>15</td><td>8</td><td>8</td><td>12</td><td>14</td><td>12</td><td>14</td></tr>
+<tr class="odd"><td>Constitution</td><td>12</td><td>14</td><td>12</td><td>14</td><td>12</td><td>14</td><td>10</td><td>12</td><td>11</td><td>13</td></tr>
+<tr class="even"><td>Intelligence</td><td>9</td><td>10</td><td>10</td><td>12</td><td>9</td><td>10</td><td>13*</td><td>15*</td><td>13</td><td>15</td></tr>
+<tr class="odd"><td>Wisdom</td><td>10</td><td>12</td><td>9</td><td>10</td><td>13</td><td>15</td><td>9</td><td>10</td><td>8</td><td>8</td></tr>
+<tr class="even"><td>Charisma</td><td>8</td><td>8</td><td>8</td><td>8</td><td>11</td><td>13</td><td>11*</td><td>13*</td><td>9</td><td>10</td></tr></tbody>
+<tfoot><tr><td colspan="11">* If the arcane caster's spellcasting relies on Charisma, exchange these scores with one another.</td></tr>
+</tfoot></table>
+<table id="table-14-7-racial-ability-adjustments"><caption>Table: Racial Ability Adjustments</caption>
+<thead><tr><th>Ability Score</th><th>Dwarf</th><th>Elf</th><th>Gnome</th><th>Half-Elf*</th><th>Half-Orc*</th><th>Halfling</th><th>Human*</th></tr></thead>
+<tbody>
+<tr class="odd"><td>Strength</td><td>&mdash;</td><td>&mdash;</td><td>&ndash;2</td><td>&mdash;</td><td>&mdash;</td><td>&ndash;2</td><td>&mdash;</td></tr>
+<tr class="even"><td>Dexterity</td><td>&mdash;</td><td>+2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>+2</td><td>&mdash;</td></tr>
+<tr class="odd"><td>Constitution</td><td>+2</td><td>&ndash;2</td><td>+2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>Intelligence</td><td>&mdash;</td><td>+2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>Wisdom</td><td>+2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>Charisma</td><td>&ndash;2</td><td>&mdash;</td><td>+2</td><td>&mdash;</td><td>&mdash;</td><td>+2</td><td>&mdash;</td></tr></tbody>
+<tfoot><tr><td colspan="8">* Half-elves, half-orcs, and humans receive a +2 bonus to one ability score of your choice.</td></tr>
+</tfoot></table>
+				<h2 id="step-3-skills">Step 3: Skills</h2>
+				<p>To assign skills precisely, total up the number of skill ranks possessed by the character and assign them normally. Remember that the number of ranks in an individual skill that a character can possess is limited by his total HD.</p>
+				<p>For simpler skill generation, refer to Table: NPC Skill Selections to determine the total number of skill selections the NPC possesses. After selecting that number of skills, mostly from the class skills lists of the NPC's class, the NPC receives a number of ranks in each skill equal to his level. </p>
+				<p>If the NPC has two classes, start by selecting skills for the class with the fewest number of skill selections. The NPC receives a number of ranks in those skills equal to his total character level. Next, find the difference in the number of selections between the first class and the other class possessed by the NPC. Select that number of new skills and give the NPC a number of ranks in those skills equal to his level in the second class. For example, a human fighter 3/monk 4 with a +1 <a href="gettingStarted.html#_intelligence" >Intelligence</a> modifier can select four skills for his fighter class (since it receives fewer selections). These four skills each have seven ranks (equal to his total level). Next, he selects a number of skills equal to the difference between the fighter and the monk classes, in this case two skills. These two skills each have four ranks (his monk level).</p>
+				<p>If the NPC has three or more classes, you must use the precise method for determining his skills. </p>
+				<p>Once all of the NPC's ranks have been determined, assign class skill bonuses and apply the bonus or penalty from the NPC's relevant ability score.</p>
+				<table id="table-14-8-npc-skill-selections"><caption>Table: NPC Skill Selections</caption>
+<thead><tr><th colspan="2">PC Skill Class Selections*</th><th colspan="2">NPC Skill Class Selections*</th></tr></thead>
+<tr class="odd"><td>Barbarian</td><td>4 + Int Mod</td><td>Adept</td><td>2 + Int Mod</td></tr>
+<tr class="even"><td>Bard</td><td>6 + Int Mod</td><td>Aristocrat</td><td> 4 + Int Mod</td></tr>
+<tr class="odd"><td>Cleric</td><td>2 + Int Mod</td><td>Commoner</td><td>2 + Int Mod</td></tr>
+<tr class="even"><td>Druid</td><td>4 + Int Mod</td><td>Expert</td><td>6 + Int Mod</td></tr>
+<tr class="odd"><td>Fighter</td><td>2 + Int Mod</td><td>Warrior</td><td>2 + Int Mod</td></tr>
+<tr class="even"><td>Monk</td><td>4 + Int Mod</td><td></td><td></td></tr>
+<tr class="odd"><td>Paladin</td><td>2 + Int Mod</td><td></td><td></td></tr>
+<tr class="even"><td>Ranger</td><td>6 + Int Mod</td><td></td><td></td></tr>
+<tr class="odd"><td>Rogue</td><td>8 + Int Mod</td><td></td><td></td></tr>
+<tr class="even"><td>Sorcerer</td><td>2 + Int Mod</td><td></td><td></td></tr>
+<tr class="odd"><td>Wizard</td><td>2 + Int Mod</td><td></td><td></td></tr>
+<tfoot><tr><td colspan="4">* Humans receive one additional skill selection.</td></tr></tfoot></table>
+
+				<h2 id="step-4-feats">Step 4: Feats</h2>
+				<p>After skills have been determined, the next step is to assign the NPC's feats. Start by assigning all of the feats granted through class abilities. Next, assign the feats garnered from the NPC's total character level (one feat for every two levels beyond 1st). Remember that humans receive an additional feat at 1st level. For simplified feat choices, select feats from the lists provided for the following character types.</p>
+				<p><b>Arcane Caster</b>: <a href="feats.html#_arcane-strike" >Arcane Strike</a>, <a href="feats.html#_combat-casting" >Combat Casting</a>, <a href="feats.html#_eschew-materials" >Eschew Materials</a>, <a href="feats.html#_greater-spell-focus" >Greater Spell Focus</a>, <a href="feats.html#_greater-spell-penetration" >Greater Spell Penetration</a>, <a href="feats.html#_improved-initiative" >Improved Initiative</a>, <a href="feats.html#_iron-will" >Iron Will</a>, <a href="feats.html#_item-creation-feats" >item creation feats</a> (all), <a href="feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="feats.html#_metamagic-feats" >metamagic feats</a> (all), <a href="feats.html#_spell-focus" >Spell Focus</a>, <a href="feats.html#_spell-mastery" >Spell Mastery</a>, <a href="feats.html#_spell-penetration" >Spell Penetration</a>, and <a href="feats.html#_toughness" >Toughness</a>.</p>
+				<p><b>Divine Caster (With Channeling)</b>: <a href="feats.html#_alignment-channel" >Alignment Channel</a>, <a href="feats.html#_channel-smite" >Channel Smite</a>, <a href="feats.html#_combat-casting" >Combat Casting</a>, <a href="feats.html#_command-undead" >Command Undead</a>, <a href="feats.html#_elemental-channel" >Elemental Channel</a>, <a href="feats.html#_extra-channel" >Extra Channel</a>, <a href="feats.html#_improved-initiative" >Improved Initiative</a>, <a href="feats.html#_improved-channel" >Improved Channel</a>, <a href="feats.html#_iron-will" >Iron Will</a>, <a href="feats.html#_item-creation-feats" >item creation feats</a> (all), <a href="feats.html#_metamagic-feats" >metamagic feats</a> (all), <a href="feats.html#_power-attack" >Power Attack</a>, <a href="feats.html#_selective-channeling" >Selective Channeling</a>, <a href="feats.html#_spell-focus" >Spell Focus</a>, <a href="feats.html#_spell-penetration" >Spell Penetration</a>, <a href="feats.html#_toughness" >Toughness</a>, and <a href="feats.html#_turn-undead" >Turn Undead</a>.</p>
+				<p><b>Divine Caster</b> <b>(Without Channeling)</b>: <a href="feats.html#_cleave" >Cleave</a>, <a href="feats.html#_combat-casting" >Combat Casting</a>, <a href="feats.html#_eschew-materials" >Eschew Materials</a>, <a href="feats.html#_improved-initiative" >Improved Initiative</a>, <a href="feats.html#_iron-will" >Iron Will</a>, <a href="feats.html#_item-creation-feats" >item creation feats</a> (all), <a href="feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="feats.html#_metamagic-feats" >metamagic feats</a> (all), <a href="feats.html#_natural-spell" >Natural Spell</a>, <a href="feats.html#_power-attack" >Power Attack</a>, <a href="feats.html#_spell-focus" >Spell Focus</a>, <a href="feats.html#_spell-penetration" >Spell Penetration</a>, <a href="feats.html#_toughness" >Toughness</a>, and <a href="feats.html#_weapon-focus" >Weapon Focus</a>.</p>
+				<p><b>Melee (Finesse Fighter)</b>: <a href="feats.html#_combat-expertise" >Combat Expertise</a>, <a href="feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="feats.html#_dazzling-display" >Dazzling Display</a>, <a href="feats.html#_deadly-stroke" >Deadly Stroke</a>, <a href="feats.html#_dodge" >Dodge</a>, <a href="feats.html#_greater-vital-strike" >Greater Vital Strike</a>, <a href="feats.html#_improved-disarm" >Improved Disarm</a>, <a href="feats.html#_improved-feint" >Improved Feint</a>, <a href="feats.html#_improved-trip" >Improved Trip</a>, <a href="feats.html#_improved-vital-strike" >Improved Vital Strike</a>, <a href="feats.html#_mobility" >Mobility</a>, <a href="feats.html#_spring-attack" >Spring Attack</a>, <a href="feats.html#_shatter-defenses" >Shatter Defenses</a>, <a href="feats.html#_vital-strike" >Vital Strike</a>, <a href="feats.html#_weapon-finesse" >Weapon Finesse</a>, and <a href="feats.html#_whirlwind-attack" >Whirlwind Attack</a>.</p>
+				<p><b>Melee (Unarmed Fighter)</b>: <a href="feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="feats.html#_deflect-arrows" >Deflect Arrows</a>, <a href="feats.html#_dodge" >Dodge</a>, <a href="feats.html#_gorgon-s-fist" >Gorgon's Fist</a>, <a href="feats.html#_improved-grapple" >Improved Grapple</a>, <a href="feats.html#_improved-initiative" >Improved Initiative</a>, <a href="feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="feats.html#_medusa-s-wrath" >Medusa's Wrath</a>, <a href="feats.html#_mobility" >Mobility</a>, <a href="feats.html#_scorpion-style" >Scorpion Style</a>, <a href="feats.html#_snatch-arrows" >Snatch Arrows</a>, <a href="feats.html#_spring-attack" >Spring Attack</a>, <a href="feats.html#_stunning-fist" >Stunning Fist</a>, and <a href="feats.html#_weapon-focus" >Weapon Focus</a>.</p>
+				<p><b>Melee (Mounted)</b>: <a href="feats.html#_improved-critical" >Improved Critical</a>, <a href="feats.html#_improved-initiative" >Improved Initiative</a>, <a href="feats.html#_mounted-combat" >Mounted Combat</a>, <a href="feats.html#_power-attack" >Power Attack</a>, <a href="feats.html#_ride-by-attack" >Ride-By Attack</a>, <a href="feats.html#_skill-focus" >Skill Focus</a> (Ride), <a href="feats.html#_spirited-charge" >Spirited Charge</a>, <a href="feats.html#_toughness" >Toughness</a>, <a href="feats.html#_trample" >Trample</a>, and <a href="feats.html#_weapon-focus" >Weapon Focus</a>.</p>
+				<p><b>Melee (Sword and Shield Fighter)</b>: <a href="feats.html#_cleave" >Cleave</a>, <a href="feats.html#_great-cleave" >Great Cleave</a>, <a href="feats.html#_great-fortitude" >Great Fortitude</a>, <a href="feats.html#_greater-vital-strike" >Greater Vital Strike</a>, <a href="feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="feats.html#_improved-critical" >Improved Critical</a>, <a href="feats.html#_improved-initiative" >Improved Initiative</a>, <a href="feats.html#_improved-vital-strike" >Improved Vital Strike</a>, <a href="feats.html#_power-attack" >Power Attack</a>, <a href="feats.html#_shield-focus" >Shield Focus</a>, <a href="feats.html#_shield-master" >Shield Master</a>, <a href="feats.html#_shield-slam" >Shield Slam</a>, <a href="feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="feats.html#_vital-strike" >Vital Strike</a>, and <a href="feats.html#_weapon-focus" >Weapon Focus</a>.</p>
+				<p><b>Melee (Two-Handed Fighter)</b>: <a href="feats.html#_cleave" >Cleave</a>, <a href="feats.html#_great-cleave" >Great Cleave</a>, <a href="feats.html#_great-fortitude" >Great Fortitude</a>, <a href="feats.html#_greater-vital-strike" >Greater Vital Strike</a>, <a href="feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="feats.html#_improved-critical" >Improved Critical</a>, <a href="feats.html#_improved-initiative" >Improved Initiative</a>, <a href="feats.html#_improved-sunder" >Improved Sunder</a>, <a href="feats.html#_improved-vital-strike" >Improved Vital Strike</a>, <a href="feats.html#_power-attack" >Power Attack</a>, <a href="feats.html#_vital-strike" >Vital Strike</a>, and <a href="feats.html#_weapon-focus" >Weapon Focus</a>.</p>
+				<p><b>Melee (Two-Weapon Fighter)</b>: <a href="feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="feats.html#_dodge" >Dodge</a>, <a href="feats.html#_double-slice" >Double Slice</a>, <a href="feats.html#_greater-two-weapon-fighting" >Greater Two-Weapon Fighting</a>, <a href="feats.html#_greater-vital-strike" >Greater Vital Strike</a>, <a href="feats.html#_improved-critical" >Improved Critical</a>, <a href="feats.html#_improved-initiative" >Improved Initiative</a>, <a href="feats.html#_improved-two-weapon-fighting" >Improved Two-Weapon Fighting</a>, <a href="feats.html#_improved-vital-strike" >Improved Vital Strike</a>, <a href="feats.html#_two-weapon-defense" >Two-Weapon Defense</a>, <a href="feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="feats.html#_two-weapon-rend" >Two-Weapon Rend</a>, <a href="feats.html#_vital-strike" >Vital Strike</a>, and <a href="feats.html#_weapon-focus" >Weapon Focus</a>.</p>
+				<p><b>Ranged</b>: <a href="feats.html#_deadly-aim" >Deadly Aim</a>, <a href="feats.html#_far-shot" >Far Shot</a>, <a href="feats.html#_greater-vital-strike" >Greater Vital Strike</a>, <a href="feats.html#_improved-initiative" >Improved Initiative</a>, <a href="feats.html#_improved-vital-strike" >Improved Vital Strike</a>, <a href="feats.html#_manyshot" >Manyshot</a>, <a href="feats.html#_pinpoint-targeting" >Pinpoint Targeting</a>, <a href="feats.html#_point-blank-shot" >Point Blank Shot</a>, <a href="feats.html#_precise-shot" >Precise Shot</a>, <a href="feats.html#_rapid-reload" >Rapid Reload</a>, <a href="feats.html#_rapid-shot" >Rapid Shot</a>, <a href="feats.html#_shot-on-the-run" >Shot on the Run</a>, <a href="feats.html#_vital-strike" >Vital Strike</a>, and <a href="feats.html#_weapon-focus" >Weapon Focus</a>.</p>
+				<p><b>Skill (most NPC classes)</b>: <a href="feats.html#_armor-proficiency-light" >Armor Proficiency</a> (all), <a href="feats.html#_great-fortitude" >Great Fortitude</a>, <a href="feats.html#_improved-initiative" >Improved Initiative</a>, <a href="feats.html#_iron-will" >Iron Will</a>, <a href="feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="feats.html#_martial-weapon-proficiency" >Martial Weapon Proficiency</a>, <a href="feats.html#_run" >Run</a>, <a href="feats.html#_shield-proficiency" >Shield Proficiency</a>, <a href="feats.html#_skill-focus" >Skill Focus</a>, and <a href="feats.html#_toughness" >Toughness</a>.</p>
+				<h2 id="step-5-class-features">Step 5: Class Features</h2>
+				<p>After determining feats, the next step is to fill in all the class features possessed by the NPC. This is the time to make decisions about the NPC's spell selection, rage powers, rogue talents, and other class-based abilities. </p>
+				<p>When it comes to spells, determine how many spell selections you need to make for each level. Choose a variety of spells for the highest two levels of spells possessed by the NPC. For all other levels, stick to a few basic spells, prepared multiple times (if possible). If this NPC is slated to appear in only one encounter (such as a combat), leaving off lower-level spells entirely is an acceptable way to speed up generation, especially if the NPC is unlikely to cast those spells. You can always choose a few during play if they are needed.</p>
+				<h2 id="step-6-gear">Step 6: Gear</h2>
+				<p>After recording all of the NPC's class features, the next step is to outfit the character with gear appropriate to his level. Note that NPCs receive less gear than PCs of an equal level. If an NPC is a recurring character, his gear should be selected carefully. Use the total gp value found on Table: NPC Gear to determine how much gear he should carry. NPCs that are only scheduled to appear once can have a simpler gear selection. Table: NPC Gear includes a number of categories to make it easier to select an NPC's gear. When outfitting the character, spend the listed amount on each category by purchasing as few items as possible. Leftover gold from any category can be spent on any other category. Funds left over at the end represent coins and jewelry carried by the character.</p>
+				<p>Note that these values are approximate and based on the values for a campaign using the medium experience progression and a normal treasure allotment. If your campaign is using the fast experience progression, treat your NPCs as one level higher when determining their gear. If your campaign is using the slow experience progression, treat the NPCs as one level lower when determining their gear. If your campaign is high fantasy, double these values. Reduce them by half if your campaign is low fantasy. If the final value of an NPC's gear is a little over or under these amounts, that's okay.</p>
+					<table id="table-14-9-npc-gear"><caption>Table: NPC Gear</caption>
+<thead><tr><th>Basic Level</th><th>Heroic Level</th><th>Total gp Value</th><th>Weapons</th><th>Protection</th><th>Magic</th><th>Limited Use</th><th>Gear</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1</td><td>&mdash;</td><td>260 gp</td><td>50 gp</td><td>130 gp</td><td>&mdash;</td><td>40 gp</td><td>40 gp</td></tr>
+<tr class="even"><td>2</td><td>1</td><td>390 gp</td><td>100 gp</td><td>150 gp</td><td>&mdash;</td><td>40 gp</td><td>100 gp</td></tr>
+<tr class="odd"><td>3</td><td>2</td><td>780 gp</td><td>350 gp</td><td>200 gp</td><td>&mdash;</td><td>80 gp</td><td>150 gp</td></tr>
+<tr class="even"><td>4</td><td>3</td><td>1,650 gp</td><td>650 gp</td><td>800 gp</td><td>&mdash;</td><td>100 gp</td><td>200 gp</td></tr>
+<tr class="odd"><td>5</td><td>4</td><td>2,400 gp</td><td>900 gp</td><td>1,000 gp</td><td>&mdash;</td><td>300 gp</td><td>200 gp</td></tr>
+<tr class="even"><td>6</td><td>5</td><td>3,450 gp</td><td>1,400 gp</td><td>1,400 gp</td><td>&mdash;</td><td>450 gp</td><td>200 gp</td></tr>
+<tr class="odd"><td>7</td><td>6</td><td>4,650 gp</td><td>2,350 gp</td><td>1,650 gp</td><td>&mdash;</td><td>450 gp</td><td>200 gp</td></tr>
+<tr class="even"><td>8</td><td>7</td><td>6,000 gp</td><td>2,700 gp</td><td>2,000 gp</td><td>500 gp</td><td>600 gp</td><td>200 gp</td></tr>
+<tr class="odd"><td>9</td><td>8</td><td>7,800 gp</td><td>3,000 gp</td><td>2,500 gp</td><td>1,000 gp</td><td>800 gp</td><td>500 gp</td></tr>
+<tr class="even"><td>10</td><td>9</td><td>10,050 gp</td><td>3,500 gp</td><td>3,000 gp</td><td>2,000 gp</td><td>1,050 gp</td><td>500 gp</td></tr>
+<tr class="odd"><td>11</td><td>10</td><td>12,750 gp</td><td>4,000 gp</td><td>4,000 gp</td><td>3,000 gp</td><td>1,250 gp</td><td>500 gp</td></tr>
+<tr class="even"><td>12</td><td>11</td><td>16,350 gp</td><td>6,000 gp</td><td>4,500 gp</td><td>4,000 gp</td><td>1,350 gp</td><td>500 gp</td></tr>
+<tr class="odd"><td>13</td><td>12</td><td>21,000 gp</td><td>8,500 gp</td><td>5,500 gp</td><td>5,000 gp</td><td>1,500 gp</td><td>500 gp</td></tr>
+<tr class="even"><td>14</td><td>13</td><td>27,000 gp</td><td>9,000 gp</td><td>8,000 gp</td><td>7,000 gp</td><td>2,500 gp</td><td>500 gp</td></tr>
+<tr class="odd"><td>15</td><td>14</td><td>34,800 gp</td><td>12,000 gp</td><td>10,500 gp</td><td>9,000 gp</td><td>2,800 gp</td><td>500 gp</td></tr>
+<tr class="even"><td>16</td><td>15</td><td>45,000 gp</td><td>17,000 gp</td><td>13,500 gp</td><td>11,000 gp</td><td>3,000 gp</td><td>500 gp</td></tr>
+<tr class="odd"><td>17</td><td>16</td><td>58,500 gp</td><td>19,000 gp</td><td>18,000 gp</td><td>16,000 gp</td><td>4,000 gp</td><td>1,500 gp</td></tr>
+<tr class="even"><td>18</td><td>17</td><td>75,000 gp</td><td>24,000 gp</td><td>23,000 gp</td><td>20,000 gp</td><td>6,500 gp</td><td>1,500 gp</td></tr>
+<tr class="odd"><td>19</td><td>18</td><td>96,000 gp</td><td>30,000 gp</td><td>28,000 gp</td><td>28,000 gp</td><td>8,000 gp</td><td>2,000 gp</td></tr>
+<tr class="even"><td>20</td><td>19</td><td>123,000 gp</td><td>40,000 gp</td><td>35,000 gp</td><td>35,000 gp</td><td>11,000 gp</td><td>2,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>20</td><td>159,000 gp</td><td>55,000 gp</td><td>40,000 gp</td><td>44,000 gp</td><td>18,000 gp</td><td>2,000 gp</td></tr></tbody></table>
+
+				<p><b>Weapons</b>: This includes normal, masterwork, and magic weapons, as well as magic staves and wands used by spellcasters to harm their enemies. For example, a <i>wand of scorching ray</i> would count as a weapon, but a <i>staff of life</i> would count as a piece of magic gear.</p>
+				<p><b>Protection</b>: This category includes armor and shields, as well as any magic item that augments a character's <a href="combat.html#_armor-class" >Armor Class</a> or saving throws.</p>
+				<p><b>Magic</b>: This category includes all other permanent magic items. Most rings, rods, and wondrous items fit into this category.</p>
+				<p><b>Limited Use</b>: Items that fall into this category include alchemical items, potions, scrolls, and wands with few charges. Charged wondrous items fall into this grouping as well.</p>
+				<p><b>Gear</b>: Use the amount in this category to purchase standard nonmagical gear for the character. In most cases, this equipment can be omitted during creation and filled in as needed during play. You can assume that the character has whatever gear is needed for him to properly use his skills and class abilities. This category can also include jewelry, gems, or loose coins that the NPC might have on his person.</p>
+				<h2 id="step-7-details">Step 7: Details</h2>
+				<p>Once you have assigned all of the NPC's gear, all that remains is to fill out the details. Determine the character's attack and damage bonuses, CMB, CMD, initiative modifier, and <a href="combat.html#_armor-class" >Armor Class</a>. If the character's magic items affect his skills or ability scores, make sure to take those changes into account. Determine the character's total hit points by assuming the average result. Finally, fill out any other important details, such as name, alignment, religion, and a few personality traits to round him out.</p>
+			
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

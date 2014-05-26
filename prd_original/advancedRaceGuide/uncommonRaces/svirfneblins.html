@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Svirfneblin</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Svirfneblin",globalNavPath=[{ href: '/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html', name: 'Uncommon Races'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body">
+
+<h1 id="svirfneblin">Svirfneblin</h1>
+<p>In the dark below earth, svirfneblin protect their enclaves, keeping their small communities safe from the terrors of the lightless depths. Serious creatures with slate-gray skin, these gnomes vary greatly from their surface cousins by choosing to live in the shadowy depths and protect the world above from the foul creatures sharing their chambers, vaults, and tunnels.</p>
+
+<h1 id="svirfneblin-racial-traits">Svirfneblin Racial Traits</h1>
+<p id="-2-strength,-+2-dexterity,-+2-wisdom,--4-charisma"><b>&ndash;2 Strength, +2 Dexterity, +2 Wisdom, &ndash;4 Charisma</b>: Svirfneblin are fast and observant but relatively weak and emotionally distant.</p>
+<p id="gnome"><b>Gnome</b>: Svirfneblin are humanoids with the gnome subtype.</p>
+<p id="small"><b>Small</b>: Svirfneblin are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a &ndash;1 penalty to their CMB and CMD, and a +4 size bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks.</p>
+<p id="defensive-training"><b>Defensive Training</b>: Svirfneblin gain a +2 dodge bonus to Armor Class.</p>
+<p id="senses"><b>Senses</b>: Svirfneblin have darkvision 120 ft. and low-light vision.</p>
+<p id="fortunate"><b>Fortunate</b>: Svirfneblin gain a +2 racial bonus on all saving throws.</p>
+<p id="skilled"><b>Skilled</b>: Svirfneblin gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks; this improves to a +4 bonus underground. They gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy) checks and <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks.</p>
+<p id="hatred"><b>Hatred</b>: Svirfneblin receive a +1 bonus on attack rolls against humanoid creatures of the reptilian and dwarven subtypes due to training against these hated foes.</p>
+<p id="stonecunning"><b>Stonecunning</b>: Svirfneblin gain stonecunning as dwarves.</p>
+<p id="spell-resistance"><b>Spell Resistance</b>: Svirfneblin have SR equal to 11 + their class levels.</p>
+<p id="svirfneblin-magic"><b>Svirfneblin Magic</b>: Svirfneblin add +1 to the DC of any illusion spells they cast. Svirfneblin also gain the following spell-like abilities: Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i>; 1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness" >blindness/deafness</a></i>, <i><a href="/pathfinderRPG/prd/spells/blur.html#_blur" >blur</a></i>, <i><a href="/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self" >disguise self</a></i>; caster level equals the svirfneblin's class levels.</p>
+<p id="languages"><b>Languages</b>: Svirfneblin begin play speaking Gnome and Undercommon. Those with high Intelligence scores can choose from the following: Aklo, Common, Draconic, Dwarven, Elven, Giant, Goblin, Orc, and Terran.</p>
+				
+<h1 id="alternate-racial-traits">Alternate Racial Traits</h1>
+<p>The following racial traits may be selected instead of existing svirfneblin racial traits. Consult your GM before selecting any of these new options.</p>
+<p id="healthy"><b>Healthy</b>: Svirfneblin gain a +4 bonus on Fortitude saves against disease and poison, including magical diseases. This racial trait replaces fortunate.</p>
+<p id="stoneseer"><b>Stoneseer</b>: Svirfneblin add +1 to the caster level of any spells with the earth descriptor they cast. Svirfneblin also gain the following spell-like abilities: Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i>; 1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/magicStone.html#_magic-stone" >magic stone</a></i>, <i><a href="/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape" >stone shape</a></i>, <i><a href="/pathfinderRPG/prd/spells/stoneTell.html#_stone-tell" >stone tell</a></i>; caster level equals the svirfneblin's class levels. This racial trait replaces svirfneblin magic.</p>
+				
+<h1 id="favored-class-options">Favored Class Options</h1>
+<p>The following options are available to all svirfneblin who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.</p>
+<p id="alchemist"><b>Alchemist</b>: Add one extract formula from the alchemist's list to the alchemist's formula book. This formula must be at least one level below the highest formula level the alchemist can create.</p>
+<p id="oracle"><b>Oracle</b>: Add one spell known from the oracle spell list. This spell must be at least one level below the highest spell level the oracle can cast.</p>
+<p id="ranger"><b>Ranger</b>: Add DR 1/magic to the ranger's animal companion. Each additional time the ranger selects this benefit, the DR/magic increases +1/2 (maximum DR 10/magic). If the ranger ever replaces his animal companion, the new companion gains this DR.</p>
+				
+<h1 id="racial-archetypes">Racial Archetypes</h1>
+<p>The following racial archetype is available to svirfneblin.</p>
+				
+<h2 id="deep-bomber-(alchemist)">Deep Bomber (Alchemist)</h2>
+<p>Consumed with keeping hidden from the horrors below the surface, svirfneblin use their racial proclivity for alchemy and their inherent talent for obfuscation to strike their enemies from the darkness and retreat unseen. A deep bomber has the following class features. </p>
+<p id="silent-bomb"><b>Silent Bomb</b>: At 2nd level, when the deep bomber creates a bomb, he can choose to have it explode without making any noise, although those damaged by it may cry out. This ability replaces poison use.</p>
+<p id="targeting-bomb*"><b>Targeting Bomb*</b>: At 3rd level, when the deep bomber creates a bomb, he can choose to have its detonation include a <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i> effect that applies to all creatures within the splash radius (including the target, if any). This ability replaces swift alchemy (the deep bomber gains swift alchemy at 18th level and never gains instant alchemy).</p>
+<p id="stonekin"><b>Stonekin</b>: At 6th level, the deep bomber automatically learns <i><a href="/pathfinderRPG/prd/spells/treeShape.html#_tree-shape" >tree shape</a></i> as a 2nd-level extract, except instead of a tree, he takes the form of a stalagmite that is the same size as his current size. At 7th level, he automatically learns <i><a href="/pathfinderRPG/prd/spells/meldIntoStone.html#_meld-into-stone" >meld into stone</a></i> as a 3rd-level extract. This ability replaces swift poisoning.</p>
+<p id="discoveries"><b>Discoveries</b>: The following discoveries complement the deep bomber archetype: delayed bomb, dispelling bomb, fast bombs, infusion, madness bomb, poison bomb.</p>
+
+<h1 id="svirfneblin-discoveries">Svirfneblin Discoveries</h1>
+<p>The following new discoveries can be taken by any alchemist who meets the prerequisites, but are more common among svirfneblin.</p>
+<p id="darkness-bomb*"><i><a href="/pathfinderRPG/prd/spells/darkness.html#_darkness" >Darkness</a> Bomb*</i>: When the alchemist creates a bomb, he can choose to have it suppress light sources on the target. This extinguishes nonmagical light sources carried by the target and dispels magical light sources for 1 round/level as <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i>.</p>
+<p id="glassfoot-bomb*"><i>Glassfoot Bomb*</i>: When the alchemist creates a bomb, he can choose to have it cover the ground in volatile jagged crystals in addition to its normal effects. These crystals act like caltrops, evaporating into a smelly but harmless gas in 2d6 rounds.</p>
+			
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The following options are available to svirfneblin. At the GM's discretion, other appropriate races may also make use of some of these.</p>
+				
+<h2 id="svirfneblin-equipment">Svirfneblin Equipment</h2>
+<p>Svirfneblin have access to the following equipment.</p>
+<p id="jolting-dart"><b>Jolting Dart</b>: This alchemically grown crystal dart builds up an electrical charge when thrown. A creature struck by the dart takes normal piercing damage and 1d6 points of electricity damage. Anyone proficient in darts can use a jolting dart. Once thrown, the dart is destroyed.</p>
+
+<table><caption>Svirfneblin Weapon</caption>
+<thead><tr><th>Martial Weapons</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range</th><th>Weight</th><th>Type</th><th>Special</th></tr></thead>
+<tr class="odd"><td>Jolting dart</td><td>100 gp</td><td>1d3</td><td>1d4</td><td>&times;2</td><td>20 ft.</td><td>1/2 lb.</td><td>P</td><td>See text</td></tr></table>
+				
+<h2 id="svirfneblin-feats">Svirfneblin Feats</h2>
+<p>Svirfneblin have access to the following feat.</p>
+<div class="feats-text">
+<h3 id="stoic-pose">Stoic Pose</h3>
+<p>You can hold yourself as still as a statue, evading detection.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Svirfneblin.</p>
+<p class="stat-block-1"><b>Benefit</b>: By spending 5 rounds finding a suitable location, you can hold yourself so still that you appear to be a Small object such as a pile of rocks. This allows you to make a <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> check without cover or concealment, as long as you do not move or take any other actions.</p>
+</div>
+				
+<h2 id="svirfneblin-spells">Svirfneblin Spells</h2>
+<p>Svirfneblin have access to the following spells.</p>
+<p id="earth-glide" class="stat-block-title">Earth Glide</p>
+<p class="stat-block-1"><b>School</b> transmutation [<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype" >earth</a>]; <b>Level</b> alchemist 4, druid 4, sorcerer/wizard 4</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> touch</p>
+<p class="stat-block-1"><b>Target</b> creature touched</p>
+<p class="stat-block-1"><b>Duration</b> 1 round/level</p>
+<p class="stat-block-1"><b>Saving Throw</b> Will negates (harmless); <b>Spell Resistance</b> yes (harmless)</p>
+<p>The target can pass through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water, traveling at a speed of 5 feet. If protected against fire damage, it can move through lava. This movement leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. It requires as much concentration as walking, so the subject can attack or cast spells normally, but cannot charge or run. Casting <i><a href="/pathfinderRPG/prd/spells/moveEarth.html#_move-earth" >move earth</a></i> on an area containing the target flings the target back 30 feet, stunning it for 1 round (DC 15 Fortitude negates). This spell does not give the target the ability to breathe underground, so when passing through solid material, the creature must hold its breath.</p>	
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Kingdom Turn Sequence</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Kingdom Turn Sequence",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html', name: 'Kingdoms and War' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="kingdom-turn-sequence">Kingdom Turn Sequence</h1>
+<p>A kingdom's growth occurs during four phases, which together make up 1 kingdom turn (1 month of game time). The four phases are as follows:</p>
+<p><b>Phase 1&mdash;<a href="#_upkeep-phase">Upkeep</a></b>: Check your kingdom's stability, pay costs, and deal with Unrest. If your kingdom controls 0 hexes, skip the Upkeep phase and proceed to the Edict phase.</p>
+<p><b>Phase 2&mdash;<a href="#_edict-phase">Edict</a></b>: Declare official proclamations about taxes, diplomacy, and other kingdom-wide decisions.</p>
+<p><b>Phase 3&mdash;<a href="#_income-phase">Income</a></b>: Add to your Treasury by collecting taxes and converting gp into BP, or withdraw BP from your kingdom for your personal use.</p>
+<p><b>Phase 4&mdash;<a href="#_event-phase">Event</a></b>: Check whether any unusual events occur that require attention. Some are beneficial, such as an economic boom, good weather, or the discovery of remarkable treasure. Others are detrimental, such as foul weather, a plague, or a rampaging monster.</p>
+<p>These phases are always undertaken in the above order. Many steps allow you to perform an action once per kingdom turn; this means once for the entire kingdom, not once per leader.</p>
+
+<h2 id="who-rolls-the-kingdom-check?">Who Rolls the Kingdom Check?</h2>
+<p>Running a kingdom is more fun if all the players are involved and each is responsible for making some of the kingdom checks. Who makes each roll depends on the players in your group and what roles they want to play. Some players may not want to make any of these rolls. You may want to start with the following die roll responsibilities and modify them to suit your kingdom and the other players. Anything marked as an optional rule is described in the <a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/optionalKingdomRules.html">optional kingdom-building rules</a>.</p>
+<p><b>Ruler</b>: Loyalty checks, any checks or edicts not covered by other rulers</p>
+<p><b>Consort</b>: As Ruler when Ruler is unavailable</p>
+<p><b>Councilor</b>: Holiday edicts</p>
+<p><b>General</b>: Kingdom checks for events requiring combat</p>
+<p><b>Grand Diplomat</b>: Diplomatic edicts (optional rule)</p>
+<p><b>Heir</b>: Kingdom event rolls</p>
+<p><b>High Priest</b>: Holiday edicts, rolls to generate magic items from Cathedrals, Shrines, and Temples</p>
+<p><b>Magister</b>: Rolls to generate magic items not rolled by the High Priest</p>
+<p><b>Marshal</b>: Exploration edicts (optional rule)</p>
+<p><b>Royal Enforcer</b>: Loyalty checks to reduce Unrest or prevent Unrest increases</p>
+<p><b>Spymaster</b>: Kingdom checks involving crime and foreigners</p>
+<p><b>Treasurer</b>: Economy checks, Taxation edicts, Trade edicts (optional rule)</p>
+<p><b>Viceroy</b>: Vassalage edicts (optional rule)</p>
+<p><b>Warden</b>: Stability checks</p>
+
+<h2 id="upkeep-phase">Upkeep Phase</h2>
+<p>During the Upkeep phase, you adjust your kingdom's scores based on what's happened in the past month, how happy the people are, how much they've consumed and are taxed, and so on.</p>
+<p><b>Step 1&mdash;Determine Kingdom Stability</b>: Attempt a Stability check. If you succeed, Unrest decreases by 1 (if this would reduce Unrest below 0, add 1 BP to your Treasury instead). If you fail by 4 or less, Unrest increases by 1; if you fail by 5 or more, Unrest increases by 1d4.</p>
+<p><b>Step 2&mdash;Pay Consumption</b>: Subtract your kingdom's Consumption from the kingdom's Treasury. If your Treasury is negative after paying Consumption, Unrest increases by 2.</p>
+<p><b>Step 3&mdash;Fill Vacant Magic Item Slots</b>: If any of your settlement districts have buildings that produce magic items (such as a Caster's Tower or Herbalist) with vacant magic item slots, there is a chance of those slots filling with new items (see the <a href="#_magic-items-in-settlements">Magic Items in Settlements section</a>).</p>
+<p><b>Step 4&mdash;Modify Unrest</b>: Unrest increases by 1 for each kingdom attribute (Economy, Loyalty, or Stability) that is a negative number. The Royal <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#enforcer" >Enforcer</a> may attempt to reduce Unrest during this step. If the kingdom's Unrest is 11 or higher, it loses 1 hex (the leaders choose which hex). If your kingdom's Unrest ever reaches 20, the kingdom falls into anarchy. While in anarchy, your kingdom can take no action and treats all Economy, Loyalty, and Stability check results as 0. Restoring order once a kingdom falls into anarchy typically requires a number of quests and lengthy adventures by you and the other would-be leaders to restore the people's faith in you.</p>
+<p><i>Example</i>: Jessica is the Ruler of a kingdom with a Size of 30 and a Control DC of 60. Based on leadership role bonuses, kingdom alignment bonuses, and buildings in her settlements, the kingdom's Economy is 52, its Loyalty is 45, and its Stability is 56. Its Unrest is currently 5, its Consumption is 5, and the Treasury has 12 BP. In Step 1 of the Upkeep phase, Adam, the Warden, attempts a Stability check to determine the kingdom's stability. Adam rolls a 19, adds the kingdom's Stability (56), and subtracts its Unrest (5), for a total of 70; that's a success, so Unrest decreases by 1. In Step 2, the kingdom pays 5 BP for Consumption. None of the kingdom's magic item slots are empty, so they skip Step 3. In Step 4, none of the attributes are negative, so Unrest doesn't increase. Mark, the Royal <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#enforcer" >Enforcer</a>, doesn't want to risk reducing the kingdom's Loyalty, so he doesn't use his leadership role to reduce Unrest. At the end of this phase, the kingdom has Economy 52, Loyalty 45, Stability 56, Unrest 4, Consumption 5, and Treasury 7 BP.</p>
+
+<h2 id="edict-phase">Edict Phase</h2>
+<p>The Edict phase is when you make proclamations on expansion, improvements, taxation, holidays, and so on.</p>
+<p><b>Step 1&mdash;Assign Leadership</b>: Assign PCs or NPCs to any vacant leadership roles or change the roles being filled by particular PCs or closely allied NPCs (see <a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/kingdomBuilding.html#_leadership-roles">Leadership Roles</a>).</p>
+<p><b>Step 2&mdash;Claim and Abandon Hexes</b>: For your kingdom to grow, you must claim additional hexes. You can only claim a hex that is adjacent to at least 1 other hex in your kingdom. Before you can claim it, the hex must first be explored, then cleared of monsters and dangerous hazards (see Steps 2 and 3 of <a href="#_founding-a-settlement">Founding a Settlement</a>). Then, to claim the hex, spend 1 BP; this establishes the hex as part of your kingdom and increases your kingdom's Size by 1. The <a href="#_table-improvement-edicts">Improvement Edicts table</a> tells you the maximum number of hexes you can claim per turn.</p>
+<p>You may abandon any number of hexes to reduce your kingdom's Size (which you may wish to do to manage Consumption). Doing so increases Unrest by 1 for each hex abandoned (or by 4 if the hex contained a settlement). This otherwise functions like losing a hex due to unrest (see Step 4 of the <a href="#_upkeep-phase">Upkeep phase</a>).</p>
+<p><b>Step 4&mdash;Build Terrain Improvements</b>: You may spend BP to build terrain improvements like Farms, Forts, Roads, Mines, and Quarries (see <a href="#_terrain-improvements">Terrain Improvements</a>).</p>
+<p>You may also prepare a hex for constructing a settlement. Depending on the site, this may involve clearing trees, moving boulders, digging sanitation trenches, and so on. See the Preparation Cost column on the <a href="#_table-terrain-and-terrain-improvements">Terrain and Terrain Improvements table</a> to determine how many BP this requires.</p>
+<p>The <a href="#_table-improvement-edicts">Improvement Edicts table</a> tells you the maximum number of terrain improvements you can make per turn.<b></b></p>
+<p><b>Step 5&mdash;Create and Improve Settlements</b>: You may create a settlement in a claimed hex (see <a href="#_founding-a-settlement">Founding a Settlement</a>). The <a href="#_table-improvement-edicts">Improvement Edicts table</a> tells you the maximum number of settlements you can establish per turn.</p>
+<p>You may construct a building in any settlement in your kingdom. When a building is completed, apply its modifiers to your kingdom sheet. The <a href="#_table-improvement-edicts">Improvement Edicts table</a> tells you the maximum number of buildings you can construct in your kingdom per turn. The first House, Mansion, Noble Villa, or Tenement your kingdom builds each turn does not count against that limit.</p>
+<p><b>Step 6&mdash;Create Army Units</b>: You may create, expand, equip, or repair army units (see <a href="/pathfinderRPG/prd/ultimateCampaign/massCombat.html">Mass Combat</a>).<b></b></p>
+<p><b>Step 7&mdash;Issue Edicts</b>: Select or adjust your edict levels (see <a href="#_edict-phase">Edicts</a>).</p>
+<p><i>Example</i>: Jessica's kingdom has no vacant leadership roles, so nothing happens in Step 1. The leaders don't want to spend BP and increase Size right now, so in Step 2 they don't claim any hexes. In Step 3, the leaders construct a Farm in one of the kingdom's prepared hexes (Consumption &mdash;2, Treasury &mdash;2 BP). In Steps 5 and 6, the leaders continue to be frugal and do not construct settlement improvements or create armies. In Step 7, the leaders issue a Holiday edict of one national holiday (Loyalty +1, Consumption +1) and set the Promotion edict level to "none" (Stability &mdash;1, Consumption +0). Looking ahead to the Income phase, Jessica realizes that an average roll for her Economy check would be a failure (10 on the 1d20 + 52 Economy &mdash; 4 Unrest = 58, less than the Control DC of 60), which means there's a good chance the kingdom won't generate any BP this turn. She decides to set the Taxation edict to "heavy" (Economy +3, Loyalty &mdash;4). At the end of this phase, the kingdom has Economy 55, Loyalty 42, Stability 55, Unrest 4, Consumption 4, and Treasury 5 BP.</p>
+
+<h2 id="income-phase">Income Phase</h2>
+<p>During the Income phase, you may add to or withdraw from the Treasury as well as collect taxes.</p>
+<p><b>Step 1&mdash;Make Withdrawals from the Treasury</b>: The kingdom-building rules allow you to expend BP on things related to running the kingdom. If you want to spend some of the kingdom's resources on something for your own personal benefit (such as a new magic item), you may withdraw BP from the Treasury and convert it into gp once per turn, but there is a penalty for doing so.</p>
+<p>Each time you withdraw BP for your personal use, Unrest increases by the number of BP withdrawn. Each BP you withdraw this way converts to 2,000 gp of personal funds.</p>
+<p><b>Step 2&mdash;Make Deposits to the Treasury</b>: You can add funds to a kingdom's Treasury by donating your personal wealth to the kingdom&mdash;coins, gems, jewelry, weapons, armor, magic items, and other valuables you find while adventuring, as long as they are individually worth 4,000 gp or less. For every full 4,000 gp in value of the deposit, increase your kingdom's BP by 1.</p>
+<p>If you want to donate an item that is worth more than 4,000 gp, refer to Step 3 instead.</p>
+<p><b>Step 3&mdash;Sell Expensive Items for BP</b>: You can attempt to sell expensive personal items (that is, items worth more than 4,000 gp each) through your kingdom's markets to add to your Treasury. You may sell one item per settlement district per turn. You must choose the settlement where you want to sell the item, and the item cannot be worth more than the base value of that settlement.</p>
+<p>To sell an item, divide its price by half (as if selling it to an NPC for gp), divide the result by 4,000 (rounded down), and add that many BP to your Treasury.</p>
+<p>You cannot use this step to sell magic items held or created by buildings in your settlements; those items are the property of the owners of those businesses. (See <a href=#_magic-items-in-settlements">Magic Items in Settlements</a> for more information on this topic.)</p>
+<p><b>Step 4&mdash;Collect Taxes</b>: Attempt an Economy check, divide the result by 3 (round down), and add a number of BP to your Treasury equal to the result.</p>
+<p><i>Example</i>: Jessica and the other leaders need to keep BP in the kingdom for future plans, so they skip Step 1 of the Income phase. They are worried that they won't collect enough taxes this turn, so just in case, in Step 2 they deposit 8,000 gp worth of coins, gems, and small magic items (Treasury +2 BP). The leaders aren't selling any expensive items, so nothing happens in Step 3. In Step 4, Rob, the Treasurer, rolls the Economy check to collect taxes. Rob rolls a 9 on the 1d20, adds the kingdom's Economy score (55), and subtracts Unrest (4) for a total of 60, which means the kingdom adds 20 BP (the Economy check result of 60, divided by 3) to the Treasury. At the end of this phase, the kingdom has Economy 55, Loyalty 42, Stability 55, Unrest 4, Consumption 4, and Treasury 27 BP.</p>
+
+<h2 id="event-phase">Event Phase</h2>
+<p>In the Event phase, a random event may affect your kingdom as a whole or a single settlement or hex.</p>
+<p>There is a 25% chance of an event occurring (see <a href="#_events">Events</a>). If no event occurred during the last turn, this chance increases to 75%. Some events can be negated, ended, or compensated for with some kind of kingdom check. Others, such as a rampaging monster, require you to complete an adventure or deal with a problem in a way not covered by the kingdom-building rules.</p>
+<p>In addition, the GM may have an adventure- or campaign-specific event take place. Other events may also happen during this phase, such as independence or unification.</p>
+<p><i>Example</i>: The GM rolls on one of the event tables and determines that a monster is attacking one of the kingdom's hexes. Instead of attempting a Stability check to deal with the monster (risking increasing Unrest if it fails), Jessica and the other leaders go on a quest to deal with the monster personally. They defeat the monster, so the event does not generate any Unrest. At the end of this phase, the kingdom's scores are unchanged: Economy 55, Loyalty 42, Stability 55, Unrest 4, Consumption 4, and Treasury 27 BP.</p>
+
+<h2 id="edicts">Edicts</h2>
+<p>Edicts are the official pronouncements by your government about how you are running the kingdom that turn. For example, you may decide to have low or high taxes, to have more or fewer holidays, and how much effort to put into improving the kingdom's infrastructure. Edicts fall into four types: Holiday, Improvement, Promotion, and Taxation.</p>
+<p>In the Edict phase of the kingdom turn, you may set the Holiday, Promotion, and Taxation edict categories to whatever level you want, as well as decide how much of your allowed improvement from the Improvement edict you'll use. For example, you may decide that this turn holidays are quarterly, promotions are aggressive, taxation is minimal, and you won't build any improvements.</p>
+
+<h3 id="holiday-edicts">Holiday Edicts</h3>
+<p>Holidays are general celebrations or observances that take place across the kingdom. The BP expenditure includes lost revenue from citizens not working during the holidays, preparations and logistical arrangements that occur year-round, and the cost of the actual celebrations (these annual costs are averaged over the year and included in the listed Consumption modifier that you pay each turn).</p>
+<p>The number of holidays per year is the number you promise to uphold and the number that the common folk expect to enjoy over the next months. The Loyalty and Consumption modifiers change as soon as you change the number of holidays per year. The listed number assumes that you are fulfilling your promise&mdash;if you announce 12 holidays in the coming year but don't actually hold and pay for them, the GM should increase your kingdom's Unrest to reflect public disappointment and outrage.</p>
+<p><i>Example</i>: Logan is the Ruler of a kingdom with some Loyalty issues. He issues a Holiday edict that there will be 24 kingdom-wide official holidays in the next year (Loyalty +4, Consumption +8). In the second turn, he worries about the increased Consumption's effect on the Treasury, so he issues a new Holiday edict decreeing that until further notice, there will be no kingdom-wide holidays. He loses the previous +4 Loyalty bonus and incurs a &mdash;1 Loyalty penalty for the new Holiday edict, but no longer has to pay the 8 Consumption each turn for his previous edict. If he frequently changes Holiday edicts from high to low levels, the GM may decide that his citizens no longer believe such promises and he won't gain any benefits from having a high level of Holiday edict until he becomes consistent.</p>
+
+<div class="table">
+<table id="table-holiday-edicts"><caption>Holiday Edicts</caption>
+<thead><tr><th>Per Year</th><th>Loyalty</th><th>Consumption</th></tr></thead>
+<tr class="odd"><td>>None</td><td>&mdash;1</td><td>+0</td></tr>
+<tr class="even"><td>1</td><td>+1</td><td>+1</td></tr>
+<tr class="odd"><td>6</td><td>+2</td><td>+2</td></tr>
+<tr class="even"><td>12</td><td>+3</td><td>+4</td></tr>
+<tr class="odd"><td>24</td><td>+4</td><td>+8</td></tr></table>
+</div>
+
+<h3 id="improvement-edicts">Improvement Edicts</h3>
+<p>Improvements are physical improvements you can make to your kingdom: founding new settlements, adding buildings to a settlement, building roads, creating facilities such as mines to tap natural resources, and claiming more hexes for your kingdom. Your kingdom's Size limits how many improvements you can make each turn; see the <a href="#_table-improvement-edicts">Improvement Edicts table</a> below. You can make all of the improvements listed on the appropriate row of the table. For example, if your kingdom's Size is 5, on each turn you can create 1 new settlement, 1 new building, 2 terrain improvements, and claim 1 more hex.</p>
+
+<div class="table">
+<table id="table-improvement-edicts"><caption>Improvement Edicts</caption>
+<thead><tr><th>Kingdom Size</th><th>New Settlements<sup>1</sup></th><th>New Buildings<sup>2</sup></th><th>Terrain Improvements</th><th>Hex Claims</th></tr></thead>
+<tr class="odd"><td>01&mdash;10</td><td>1</td><td>1</td><td>2</td><td>1</td></tr>
+<tr class="even"><td>11&mdash;25</td><td>1</td><td>2</td><td>3</td><td>2</td></tr>
+<tr class="odd"><td>26&mdash;50</td><td>1</td><td>5</td><td>5</td><td>3</td></tr>
+<tr class="even"><td>51&mdash;100</td><td>2</td><td>10</td><td>7</td><td>4</td></tr>
+<tr class="odd"><td>101&mdash;200</td><td>3</td><td>20</td><td>9</td><td>8</td></tr>
+<tr class="even"><td>201+</td><td>4</td><td>No limit</td><td>12</td><td>12</td></tr>
+<tfoot><tr><td colspan="5"><sup>1</sup> Instead of creating a new settlement, your kingdom may create a new army unit (see <a href="#/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/massCombat.html">Mass Combat</a>), expand or equip an existing army unit, or bring an existing army unit back to full strength.<br />
+<sup>2</sup> Upgrading a building (for example, from a Shrine to a Temple) or destroying a building counts toward this limit. The first House, Mansion, Noble Villa, or Tenement your kingdom builds each turn does not count against this number.</td></tr></tfoot></table>
+</div>
+
+<h3 id="promotion-edicts">Promotion Edicts</h3>
+<p>Promotion edicts are events and actions the kingdom uses to attract new citizens and increase the well-being of the kingdom, such as recruitment campaigns, advertisements about services and goods, and propaganda to improve the perception of your kingdom at home and abroad. Promotions increase Consumption, but also increase Stability.</p>
+
+<div class="table">
+<table id="table-promotion-edicts"><caption>Promotion Edicts</caption>
+<thead><tr><th>Promotion Level</th><th>Stability</th><th>Consumption</th></tr></thead>
+<tr class="odd"><td>None</td><td>&mdash;1</td><td>+0</td></tr>
+<tr class="even"><td>Token</td><td>+1</td><td>+1</td></tr>
+<tr class="odd"><td>Standard</td><td>+2</td><td>+2</td></tr>
+<tr class="even"><td>Aggressive</td><td>+3</td><td>+4</td></tr>
+<tr class="odd"><td>Expansionist</td><td>+4</td><td>+8</td></tr></table>
+</div>
+
+<h3 id="taxation-edicts">Taxation Edicts</h3>
+<p>Setting the tax level determines how much revenue you collect from taxes in the Income phase. Higher taxes increase your kingdom's Economy (making it easier for you to succeed at Economy checks to generate revenue) but make your citizens unhappy (reducing Loyalty).</p>
+
+<div class="table">
+<table id="table-taxation-edicts"><caption>Taxation Edicts</caption>
+<thead><tr><th>Tax Level</th><th>Economy</th><th>Loyalty</th></tr></thead>
+<tr class="odd"><td>None</td><td>+0</td><td>+1</td></tr>
+<tr class="even"><td>Light</td><td>+1</td><td>&mdash;1</td></tr>
+<tr class="odd"><td>Normal</td><td>+2</td><td>&mdash;2</td></tr>
+<tr class="even"><td>Heavy</td><td>+3</td><td>&mdash;4</td></tr>
+<tr class="odd"><td>Overwhelming</td><td>+4</td><td>&mdash;8</td></tr></table>
+</div>
+
+<h2 id="losing-hexes">Losing Hexes</h2>
+<p>If you lose control of a hex&mdash;whether because of Unrest, monster attacks, assaults from a hostile kingdom, and so on&mdash;you lose all the benefits of any terrain improvements in that hex (such as Farms and Roads). All settlements in that hex become free cities with no loyalty to you or any other kingdom. At the GM's discretion, monsters may move into the abandoned hex, requiring you to clear it again if you want to claim it later, and terrain improvements may decay over time.</p>
+<p>Losing a hex may break your connection to other kingdom hexes. For example, losing the only hex that bridges two sides of a mountain range creates two separate territories. If this happens, the primary territory is the part of the kingdom with your capital city, and the rest of the kingdom is the secondary territory. If none of the kingdom's leaders are in the secondary territory when this split happens, you lose control of all hexes (as described above) in the secondary territory.</p>
+<p>If at least one kingdom leader is in the secondary territory when the split occurs, you retain control of the secondary territory, but kingdom checks regarding its hexes treat Unrest as 1 higher, increasing by 1 each turn after the split. This modifier goes away if you claim a hex that reconnects the secondary territory to the primary territory.</p>
+<p>If you claim a hex that reestablishes a connection to a leaderless secondary territory, you regain the benefits of the territory's terrain improvements. You must succeed at a Stability check to reclaim each of your former settlements in the secondary territory. You initially have a +5 bonus on these checks because the cities want to return to your kingdom, but this bonus decreases by 1 (to a minimum bonus of +0) for each subsequent turn since you lost control of the secondary territory.</p>
+<p>If your kingdom is reduced to 0 hexes&mdash;whether through Unrest, a natural disaster, an attack by another kingdom, or other circumstances&mdash;you are at risk of losing the kingdom. On your next turn, you must claim a new hex and found or claim a new settlement, or your kingdom is destroyed and you must start over if you want to found a new kingdom. At the GM's discretion, you may be able to keep some BP from your destroyed kingdom's Treasury for a time; otherwise, those assets are lost.</p>
+
+<h2 id="terrain-improvements">Terrain Improvements</h2>
+<p>Terrain improvements are changes to a hex that improve the land for your kingdom's use, such as cultivating fields, digging mines, and clearing forests for lumber. The following list describes common improvements. An improvement marked with an asterisk (*) can share the same hex as other improvements.</p>
+<p>Some terrain improvements affect a settlement's Defense, which is used in the <a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/massCombat.html">mass combat rules</a>.</p>
+<p><b>Terrain</b>: This indicates what kind of hex you can build this terrain improvement in.</p>
+<p><b>Effect</b>: This line states the effect the terrain improvement has on that hex (or in some cases, your entire kingdom).</p>
+<p>If an improvement says you can upgrade it into another improvement, you can do so by paying the cost difference between the two improvements. When the upgrade is complete, you lose the benefit of the old improvement but gain the benefit of the new improvement.</p>
+<p><b>Cost</b>: This line gives the cost in BP to build the terrain improvement.</p>
+
+<h3>Aqueduct</h3>
+<p>An Aqueduct brings water from alpine lakes and rivers to lowland cities where water is scarce or insufficient for the local populace. A finished series of Aqueduct hexes must connect to a hill or mountain hex (with a river or lake) on one end and a settlement on the other end; otherwise, you do not gain its benefit.</p>
+<p><b>Terrain</b>: One end must be hill or mountain hex; can pass through any type of hex.</p>
+<p><b>Effect</b>: Loyalty+1, Stability +1, allows settlement to build water-dependent buildings.</p>
+<p><b>Cost</b>: As a Road, except the cost is not doubled for hexes with rivers (see the <a href="#_table-terrain-and-terrain-improvements">Terrain and Terrain Improvements table</a>).</p>
+
+<h3>Bridge*</h3>
+<p>A Bridge allows your Road hexes to cross rivers.</p>
+<p><b>Cost</b>: When you build a Road in a hex that contains a river, the doubled coast of the Road includes the cost of bridges needed to cross the river. You don't need to build a Bridge as a separate unit; it's listed here for reference only.</p>
+
+<h3>Canal*</h3>
+<p>A Canal is an artificial waterway that allows barge traffic to haul heavy commodities.</p>
+<p><b>Terrain</b>: Desert, hill, or plain.</p>
+<p><b>Effect</b>: Settlements in a hex with a Canal treat the hex as if it had a river.</p>
+<p><b>Cost</b>: Twice the cost of a Road (see the <a href="#_table-terrain-and-terrain-improvements">Terrain and Terrain Improvements table</a>).</p>
+
+<h3>Farm*</h3>
+<p>A Farm helps feed your kingdom.</p>
+<p><b>Terrain</b>: Desert (requires canal, coastline, or river), hill, or plain.</p>
+<p><b>Effect</b>: Consumption decreases by 2 BP.</p>
+<p><b>Cost</b>: See the <a href="#_table-terrain-and-terrain-improvements">Terrain and Terrain Improvements table</a>.</p>
+
+<h3>Fishery*</h3>
+<p>A Fishery is like a Farm, except it provides abundant fish rather than planted crops.</p>
+<p><b>Terrain</b>: Coastline, water, river, or marsh.</p>
+<p><b>Effect</b>: Consumption decreases by 1 BP.</p>
+<p><b>Cost</b>: 4 BP.</p>
+
+<h3>Fort*</h3>
+<p>A Fort is a walled encampment for military forces outside a settlement. You can upgrade a Watchtower to a Fort (Unrest decreases when you do so, just as if you had built the Fort from scratch).</p>
+<p><b>Terrain</b>: Any land.</p>
+<p><b>Effect</b>: Stability +2, Defense +4, increase Consumption by 1 BP; Unrest decreases by 1 when completed. If this hex becomes a settlement, this improvement counts as one Barracks and one Stables building.</p>
+<p><b>Cost</b>: 24 BP.</p>
+
+<h3>Highway*</h3>
+<p>A highway is a paved and well-maintained version of a Road. You may upgrade a Road into a Highway. You must have a kingdom of Size 26 or greater to build a Highway.</p>
+<p><b>Terrain</b>: Any hex with a Road.</p>
+<p><b>Effect</b>: Economy +1 for every 4 hexes of Highway, Stability +1 for every 8 hexes of Highway; improves overland travel speed.</p>
+<p><b>Cost</b>: Twice the cost of a Road (see the <a href="#_table-terrain-and-terrain-improvements">Terrain and Terrain Improvements table</a>).</p>
+
+<h3>Mine</h3>
+<p>A Mine extracts metal, coal, salt, or other useful materials from the earth.</p>
+<p><b>Terrain</b>: Cavern, desert, hill, or mountain.</p>
+<p><b>Effect</b>: Economy +1, earn +1 BP per turn when collecting taxes during the Income phase.</p>
+<p><b>Cost</b>: 6 BP.</p>
+
+<h3>Quarry</h3>
+<p>A Quarry extracts workable stone from the ground.</p>
+<p><b>Terrain</b>: Cavern, hill, or mountain.</p>
+<p><b>Effect</b>: Stability +1, earn +1 BP per turn when collecting taxes during the Income phase.</p>
+<p><b>Cost</b>: 6 BP.</p>
+
+<h3>Road*</h3>
+<p>A Road speeds travel through your kingdom and promotes trade. You can upgrade a Road to a Highway.</p>
+<p><b>Terrain</b>: Any land.</p>
+<p><b>Effect</b>: Economy +1 for every 4 hexes of Road, Stability +1 for every 8 hexes of Road; improves overland travel speed.</p>
+<p><b>Cost</b>: See the Road column of the <a href="#_table-terrain-and-terrain-improvements">Terrain and Terrain Improvements table</a>.</p>
+
+<h3>Sawmill</h3>
+<p>A sawmill centralizes the activities of loggers and turns trees into lumber for use in building and crafting.</p>
+<p><b>Terrain</b>: Forest or jungle.</p>
+<p><b>Effect</b>: Stability +1, earn +1 BP per turn when collecting taxes during the Income phase.</p>
+<p><b>Cost</b>: 3 BP.</p>
+
+<h3>Watchtower*</h3>
+<p>A Watchtower flies your flag, is a safe place for your patrols, and establishes your power on the frontier. A Watchtower cannot share a hex with a Fort or another Watchtower.</p>
+<p><b>Terrain</b>: Any land.</p>
+<p><b>Effect</b>: Stability +1, Defense +2; Unrest decreases by 1 when completed. If this hex becomes a settlement, this improvement counts as a Watchtower building.</p>
+<p><b>Cost</b>: 12 BP.</p>
+
+<h2 id="special-terrain">Special Terrain</h2>
+<p>Some hexes contain features or resources that impact a kingdom's Economy, Loyalty, Stability, and other game statistics. These terrain resources are placed by the GM&mdash;not by player characters&mdash;for you to discover while exploring or adventuring, and may modify terrain improvements or cities.</p>
+<p><b>Bridge</b>: The hex contains an existing Bridge over a waterway. If you build a Road in this hex, you do not have to double the cost of the Road.</p>
+<p><b>Building</b>: The hex contains an abandoned building in good repair (type determined by the GM). If you establish a settlement at the building's location in the hex, you can incorporate the building into the settlement at no cost (this does not count toward your building limit for that turn).</p>
+<p><b>Free City</b>: A Free City is a settlement that is not part of any established kingdom. Claiming a hex with a Free City is an excellent way to add a fully functional settlement to your kingdom. In order to claim a Free City hex peacefully, you must succeed at a Stability check. Failure indicates radicals and upstarts in the settlement and Unrest increases by 1d4.</p>
+<p><b>Lair</b>: A Lair is usually a cave or defensible shelter that can be used as a defensive fallback point, a storage location, or even a guardpost or prison. If you claim a hex with a Lair, Stability increases by 1. If you construct a Fort or Watchtower over a Lair, its Defense increases by 1. At the GM's option, a Lair may allow access to an underground cavern hex (see the <a href="_table-terrain-and-terrain-improvements">Terrain and Terrain Improvements table</a>).</p>
+<p><b>Landmark</b>: A Landmark is a site of great pride, mystery, and wonder, such as an outcropping in the shape of a human face, a smoking volcano, or a lake with an unusual color or unique properties. The Landmark bolsters your kingdom's morale. If you claim a hex with a Landmark, Loyalty increases by 1. If the hex also has a Road or Highway, Loyalty increases by an additional 1.</p>
+<p><b>Resource</b>: A Resource is a ready supply of some kind of valuable commodity that offers a great economic boon to your kingdom, such as exotic lumber, precious metal, gems, rare herbs, incense, silk, ivory, furs, salt, dyes, and the like. If you claim a hex with a Resource, Economy increases by 1. If you construct a Mine, Quarry, or Sawmill in a hex with a Resource, all of its benefits increase by 1. If you construct a Farm or Fishery in a hex with a Resource, those improvements decrease Consumption by an additional 1 BP.</p>
+<p><b>River</b>: A River allows water travel through your kingdom, facilitating trade and allowing irrigation. Economy increases by 1 for every 4 River hexes claimed, and Stability increases by 1 for every 8 such hexes claimed.</p>
+<p><b>Ruin</b>: A Ruin is a partially destroyed building. If you claim a hex containing a Ruin and build a settlement at the Ruin's location, you can use the Ruin as the basis of an appropriate type of building (as determined by the GM), reducing the cost of that building by half. Alternatively, you can salvage building materials from the Ruin, reducing the cost of 1 building in that hex by 1d4 BP.</p>
+
+<h2 id="settlements-and-districts">Settlements and Districts</h2>
+<p>The greatest assets of your kingdom are its settlements. Most settlements start as simple villages, and some grow over time into bustling cities.</p>
+<p>The District Grid is divided into 9 large blocks separated by streets. Each block consists of 4 smaller lots separated by alleys. Treat each lot as approximately 750 feet per side, so overall the district takes up about 1 square mile. On each lot you may construct a building, and each building affects your kingdom's Economy, Loyalty, and so on.</p>
+<p>Most settlements only have 1 district. If your District Grid is full and you want to add another district (for example, if you run out of available lots in that settlement and want to construct additional buildings), you can create an additional district for that settlement by paying the preparation cost for the settlement's terrain as listed on Table <a href="#_table-terrain-and-terrain-improvements">Terrain and Terrain Improvements</a>. Remember that your kingdom's Control DC is based on the number of districts in your settlement.</p>
+<p>The placement of buildings in your district is up to you&mdash;you can start in the center of the district and build outward, or start at the edge and build toward the center. Some buildings (such as the Guildhall) take up more than 1 lot on the grid. You can't divide up these larger structures, though you can place them so they cover a street. (Streets do not count as lots.)</p>
+<p><b>Construction</b>: Construction is completed in the same turn you spend BP for the building, no matter what its size is. A building's benefits apply to your kingdom immediately. At the GM's discretion, construction magic (such as <i>lyre of </i><i>building</i>, <i><a href="/pathfinderRPG/prd/spells/fabricate.html#__fabricate" >fabricate</a></i>, or <i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#__wall-of-stone" >wall of stone</a></i>) can reduce a single building's BP cost by 2 (minimum 0). This is a one-time reduction per turn, regardless of the amount of magic used.</p>
+<p><b>Population</b>: A settlement's population is approximately equal to the number of completed lots within its districts × 250. A grid that has all 36 lots filled with buildings has a population of approximately 9,000.</p>
+<p><b>Base Value</b>: The base value of a settlement is used to determine what magic items may easily be purchased there. There is a 75% chance that any item of that value or lower can be found for sale in the settlement with little effort. The base value of a new settlement is 0 gp. Certain buildings (such as a Market or Tavern) increase a settlement's base value. A settlement's base value can never increase above the values listed in Table 4&mdash;5: Settlement Size and Base Value (except under special circumstances decided by the GM).</p>
+<p><b>Defense</b>: A settlement's Defense is used with the <a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/massCombat.html">mass combat rules</a>. It otherwise has no effect unless the settlement is attacked. You can increase a settlement's Defense by building certain structures (such as City Walls).</p>
+
+<div class="table">
+<table id="table-settlement-size-and-base-value"><caption>Settlement Size and Base Value</caption>
+<thead><tr><th>Population</th><th>Settlement Size</th><th>Base Value</th></tr></thead>
+<tr class="odd"><td>Fewer than 21</td><td>Thorp</td><td>50 gp</td></tr>
+<tr class="even"><td>21&mdash;60</td><td>Hamlet</td><td>200 gp</td></tr>
+<tr class="odd"><td>61&mdash;200</td><td>Village</td><td>500 gp</td></tr>
+<tr class="even"><td>201&mdash;2,000</td><td>Small town</td><td>1,000 gp</td></tr>
+<tr class="odd"><td>2,001&mdash;5,000</td><td>Large town</td><td>2,000 gp</td></tr>
+<tr class="even"><td>5,001&mdash;10,000</td><td>Small city</td><td>4,000 gp</td></tr>
+<tr class="odd"><td>10,001&mdash;25,000</td><td>Large city</td><td>8,000 gp</td></tr>
+<tr class="even"><td>More than 25,000</td><td>Metropolis</td><td>16,000 gp</td></tr></table>
+</div>
+
+<h2 id="founding-a-settlement">Founding a Settlement</h2>
+<p>Before you can start your own kingdom, you first need a base of operations&mdash;a fort, village, or other settlement&mdash;where you can rest between adventures and where your citizens know they can find you if they need help or want to pay their taxes. Once you have a kingdom, you'll want to create more settlements in order for the kingdom to grow and prosper. To found a settlement, you must perform the following steps. (These steps assume you're building a new settlement from scratch; if you're attempting to incorporate an existing settlement into your kingdom, see Free City under <a href="#_special-terrain">Special Terrain</a>.)</p>
+<p><b>Step 1&mdash;Acquire funds</b>. You'll need money and resources in the form of build points.</p>
+<p><b>Step 2&mdash;Explore and clear a hex</b>. You'll need to explore the hex where you want to put the settlement. See the Exploration Time column on the <a href="_table-terrain-and-terrain-improvements">Terrain and Terrain Improvements table</a> to see how long this takes. Once you have explored the hex, clear it of monsters and dangerous hazards. The time needed to clear it depends on the nature of the threats; this step is usually handled by you completing adventures there to kill or drive out monsters.</p>
+<p><b>Step 3&mdash;Claim the hex as yours</b>. Once you have BP and have explored and cleared the hex, you can claim it. Spend 1 BP to do so; this represents setting up very basic infrastructure such as clearing paths, hiring patrols, setting up a tent city, and so on. This establishes the hex as part of your kingdom (or the beginning of your kingdom).</p>
+<p><b>Step 4&mdash;Prepare the site for construction</b>. To put a settlement on a claimed hex, you'll need to prepare it. Depending on the site, this process may involve clearing trees, moving boulders, digging sanitation trenches, and so on. See the Preparation Cost column on the <a href="_table-terrain-and-terrain-improvements">Terrain and Terrain Improvements table</a> for the BP cost. If your settlement is in a hex containing a canal, lake, ocean, river, or similar large body of water, you must decide which of your settlement's borders are water (riverbanks, lakeshores, or seashores) or land. Some types of buildings, such as Mills, Piers, and Waterfronts, must be adjacent to water.</p>
+<p><b>Step 5&mdash;Construct your first buildings</b>. Construct 1 building in your settlement and pay its BP cost. If this is your kingdom's first settlement, you should start with an Inn, Shrine, Monastery, or Watchtower. In addition, you may also purchase and construct 1 House, Mansion, Noble Villa, or Tenement. If your first building is an Inn, you must construct a House or Tenement next to it, as building an Inn requires an adjacent House or Tenement.</p>
+<p>When you complete these steps, you've founded your settlement! If this is your first settlement, it's considered your kingdom's capital city.<b></b></p>
+
+<h2 id="claiming-water-and-islands">Claiming Water and Islands</h2>
+<p>When you claim a hex that contains part of an ocean or lake, your claim includes the water portion of that hex. In effect, your kingdom automatically controls a small portion of the waters adjacent to its coastline. Because any new hex you claim must be adjacent to an existing hex in your kingdom, if you want to claim land beyond that water (such as an island), you must first explore and claim the intervening deep water hexes. Your exploration only applies to the water's surface&mdash;you are searching for uncharted islands, dangerous reefs, and so on. The GM may want to treat the underwater portion of a hex as a separate hex, much like a network of large caves under a hex may count as its own hex, allowing a village of merfolk or sahuagin to thrive in your kingdom without your knowledge.</p>
+
+<div class="table">
+<table id="table-terrain-and-terrain-improvements"><caption>Terrain and Terrain Improvements</caption>
+<thead><tr><th>Terrain</th><th>Exploration Time<sup>1</sup></th><th>Preparation Time<sup>2</sup></th><th>Preparation Cost<sup>3</sup></th><th>Farm Cost<sup>4</sup></th><th>Road Cost<sup>5,6</sup></th></tr></thead>
+<tr class="odd"><td>Cavern<sup>7</sup></td><td>3 days</td><td>3 months</td><td>8 BP</td><td>&mdash;</td><td>4 BP</td></tr>
+<tr class="even"><td>Coastline<sup>8</sup></td><td>Special</td><td>Special</td><td>Special</td><td>Special</td><td>Special</td></tr>
+<tr class="odd"><td>Desert</td><td>2 days</td><td>1 month</td><td>4 BP</td><td>8 BP</td><td>4 BP</td></tr>
+<tr class="even"><td>Forest</td><td>2 days</td><td>2 months</td><td>4 BP</td><td>&mdash;</td><td>2 BP</td></tr>
+<tr class="odd"><td>Hills</td><td>1 day</td><td>1 month</td><td>2 BP</td><td>4 BP</td><td>3 BP</td></tr>
+<tr class="even"><td>Jungle</td><td>2 days</td><td>4 months</td><td>12 BP</td><td>&mdash;</td><td>4 BP</td></tr>
+<tr class="odd"><td>Marsh</td><td>3 days</td><td>3 months</td><td>8 BP</td><td>&mdash;</td><td>4 BP</td></tr>
+<tr class="even"><td>Mountains</td><td>3 days</td><td>4 months</td><td>12 BP</td><td>&mdash;</td><td>4 BP</td></tr>
+<tr class="odd"><td>Plains</td><td>1 day</td><td>Immediate</td><td>1 BP</td><td>2 BP</td><td>1 BP</td></tr>
+<tr class="even"><td>Water</td><td>2 days</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tfoot><tr><td colspan="6"><sup>1</sup> Exploration time represents how many days a typical scouting party requires to explore a hex of this type. These times assume a party speed of 30 feet. For parties with different speeds, see <a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems/exploration.html#_table-exploration-time">Exploration Time (1 Hex)</a>. Treat Cavern as Mountain and Jungle as Marsh for exploration time. Do not adjust the speed for Water hexes; it's assumed that the party is already using a boat or other watercraft to explore.<br />
+<sup>2</sup> Preparation time represents the months of labor (beginning with the current turn) required to prepare the hex for settlement. Construction of buildings can begin in the current month for settlements built on plains.<br />
+<sup>3</sup> Preparation cost represents the BP cost to clear a hex of this type in preparation for founding a settlement.<br />
+<sup>4</sup> Farm cost represents the BP cost to cultivate a hex for farming. A Farm must be within or adjacent to a hex containing a river, lake, swamp, or Canal, or adjacent to at least 2 hexes that already contain Farms.<br />
+<sup>5</sup> Road cost represents the BP cost to establish a Road that crosses a hex and connects to all adjacent hexes. The cost to build a Road doubles if the hex contains rivers. A kingdom with a Size of 26 or greater can build a Highway (or upgrade a Road to a Highway).<br />
+<sup>6</sup> If the hex contains any rivers, double the listed cost to reflect the need to build bridges.<br />
+<sup>7</sup> This is a large system of caves and underground passages and can be found in any terrain type except Marsh. It functions as an additional hex that exists underground, below the surface hex.<br />
+<sup>8</sup> Treat this as the adjacent land terrain type for all purposes.</td></tr></table>
+</div>
+
+<h2 id="magic-items-in-settlements">Magic Items in Settlements</h2>
+<p>In addition to the commonly available items in a settlement as determined by its base value, some buildings increase the likelihood of having specific or unusual magic items available for purchase.</p>
+<p><b>Gaining Item Slots</b>: When you construct one of these buildings, mark the appropriate boxes in the Magic Items section of the settlement's District Grid; this indicates that the settlement has gained a slot for an item of that type.</p>
+<p><b>Filling Item Slots</b>: In Step 3 of the Upkeep phase, you roll to fill vacant magic item slots in each district. Roll d% once for each district that has an open magic item slot (if the district has more than one, select one randomly). There is a 50% chance (51&mdash;100) that an appropriate magic item becomes available in that slot. This item's price cannot exceed the base value for the settlement (reroll if the item's price exceeds the settlement's base value).</p>
+<p><i>Example</i>: Jessica's settlement has a base value of 200 gp. She built an Herbalist last turn, giving the settlement 1 minor potion slot. In the Upkeep phase this turn, she rolls d% and gets a result of 62, meaning she can roll a random minor potion to fill the settlement's empty slot. She rolls on Table 15&mdash;12: Potions (<i>Core Rulebook </i>478) and gets a result of 45, indicating a potion of a 1st-level spell. If she had rolled anything more valuable than the 200 gp base value for her settlement, she would have to reroll until she got an acceptable result. Once a magic item is rolled for a settlement in this way, it remains on the market until someone purchases it.</p>
+<p><i>Pathfinder RPG</i> <i>Ultimate Equipment</i> includes extensive random magic item tables for specific slots and price increments. These tables may be more convenient than using the magic item tables in the <i>Core Rulebook</i>.</p>
+<p><b>Emptying Item Slots</b>: If you are unsatisfied with a magic item generated by a settlement, there are three ways to purge an undesirable item and make its slot vacant. The first is to purchase it with your own gp, which makes it your personal property and means you may do with it what you please (use it, sell it at half price for gold, deposit it in the kingdom's Treasury during the next Income phase, use it as a reward for a local general, and so on).</p>
+<p>The second method is to manipulate your kingdom's economy to encourage an NPC to purchase the item (such as a random adventurer passing through the settlement). During Step 3 of the Income phase, you may attempt one Economy check for each filled slot you want to empty. For every such check after the first one in a turn, your Economy decreases by 1, since these manipulations are harmful to your kingdom's economy and typically only serve to get rid of an item you consider undesirable. If the check fails, nothing happens. If the check succeeds, erase the item from that slot; you may attempt to fill the empty slot as normal in the next Upkeep phase. You do not gain any gp or BP from this sale; the money goes to the building's owner, who uses it to acquire or craft the next item.</p>
+<p>The third way is to spend BP (1 BP = 2,000 gp) to purchase the item. If you take the item for your own use, this counts as withdrawing BP from the Treasury for your personal use (see Make Withdrawals from the Treasury). If you use the item in a way that doesn't directly benefit you or the other PCs (such as giving it to a hero of your army or donating it to a settlement as a religious or historical artifact), then purchasing it is essentially like other kingdom expenditures and does not increase Unrest or decrease Loyalty.</p>
+
+<h2 id="buildings">Buildings</h2>
+<p>You improve settlements by constructing buildings, which provide bonuses to the kingdom in general and the settlement in particular. Some buildings also intersect with the <a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/massCombat.htmL">mass combat rules</a>, notably with fortifications and reserve armies.</p>
+<p><b>Demolition</b>: If a lot has a building, you can clear it for new construction. Doing so costs 1 BP. You may construct a building on a lot the same turn you demolish the old building there. You do not regain BP for a demolished building (but see Rebuilding, below).</p>
+<p><b>Destroyed Lots</b>: If an event or a pillaging army destroys 1 or more lots, the devastation causes Unrest to increase by 1 per lot destroyed.</p>
+<p><b>Rebuilding</b>: If you rebuild the same type of building on a destroyed lot, the cost is halved, as you can reuse some of the materials for the same purpose. If you rebuild a different type of building on that lot, reduce the cost of the new building by 1/4 the cost of the old building (minimum 1 BP). If you build smaller buildings on top of a site that held a multi-lot building, split the discount evenly over the new buildings. For example, if you demolish an Academy and construct a Mansion and a Luxury Store on top of those lots, each building gets a 6 BP discount (1/4 of 52 BP is 13, divided evenly between the two).</p>
+
+<h2 id="building-descriptions">Building Descriptions</h2>
+<p>Buildings are described in the following format.</p>
+<p><b>Building Name</b>: The type of buildings contained in this lot. In most cases, each lot represents numerous buildings of that type, rather than a single edifice.</p>
+<p><b>Cost</b>: The cost in BP to construct the building.</p>
+<p><b>Lots</b>: How many lots the building fills.</p>
+<p><b>Kingdom</b>: Building modifiers to Economy, Loyalty, and Stability stack, affect your entire kingdom, and are ongoing from turn to turn. Modifiers to Unrest occur once when the building is completed. This category also lists any bonuses to Fame (see <a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/optionalKingdomRules.html#_fame-and-infamy">Fame and Infamy</a>) from having the building.</p>
+<p><b>Discount</b>: Some buildings halve the cost of constructing a related type of building in the same settlement. This cost reduction applies only to the first constructed building of the types listed in this line. For example, an Academy halves the cost of your next Library in that settlement; if you build a second Library in that settlement, you pay the normal cost for it. If 2 buildings give the same discount, only one discount applies per new building, but you may construct 2 buildings at the discounted cost. For example, Market and Theater both halve the cost of an Inn; if your settlement has a Market and a Theater, you may construct 2 Inns at half cost (the Market discounts one, and the Theater discounts the other).</p>
+<p><b>Limit</b>: This lists limitations on the number of buildings of this type, special requirements for adjacent buildings, or prohibitions against certain buildings being adjacent.</p>
+<p>For most buildings, you can construct as many of them as you want in a settlement, but some are limited in the number that can be built per settlement or district. For example, you can only construct 1 Arena per settlement.</p>
+<p>Some buildings require that you construct them adjacent to at least 1 or 2 of a specific kind of building or feature of the settlement. For example, a Shop or Tavern must be adjacent to a House or Mansion. The required adjacent building can only count toward 1 building that requires it. For example, if you have a House and a Shop, that House can't be used to meet the requirement for another Shop or a Tavern; you have to construct a new House and use it to meet the requirement of the new Shop or Tavern.</p>
+<p>Some buildings cannot be adjacent to certain buildings. For example, you can't construct a Tannery next to a House, Mansion, Noble Villa, or Tenement. If you want to use a lot for this type of building, you must demolish all prohibited adjacent structures first.</p>
+<p>If you get overzealous in constructing a particular type of building in a settlement, the GM should feel free to add events to discourage this practice. For example, a settlement with too many Dumps is prone to otyugh and wererat attacks, and a settlement with too many Graveyards tends to have frequent undead attacks. This should not occur, however, if you build too many Houses, Parks, Tenements, or Waterways.</p>
+<p><b>Upgrade To/From</b>: Some buildings can be converted into a more advanced form of the existing building, such as converting a Shrine into a Temple. To upgrade a building, pay the BP cost difference between the current building and the new building. Remove the modifiers from the old building and apply the modifiers from the new building. Upgrading counts as constructing a building for the purpose of the maximum number of buildings you can construct on your turn. You can't upgrade a building to a larger one if there isn't space in the District Grid for the building's new size.</p>
+<p> <b>Special</b>: This lists any other effect the building has, such as increasing Defense, the settlement's base value, or the output of a nearby Mine.</p>
+<p><b>Magic Items</b>: This lists any magic item slot the building creates, which may be filled in the Upkeep phase (see <a href="#_magic-items-in-settlements">Magic Items in Settlements</a>). If a building lists multiple options within a category (such as "1 minor potion or wondrous item"), it has an equal chance for each option.</p>
+<p><b>Settlement</b>: This lists settlement modifiers that affect specific skills within the settlement. These modifiers are ongoing from turn to turn, but apply only to skill checks within that settlement (not other settlements in the hex or anywhere else in your kingdom).</p>
+
+
+<p id="academy" class="stat-block-title">Academy<span class="stat-block-cr">52 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +2, Loyalty +2</p>
+<p class="stat-block-1"><b>Discount</b> Caster's Tower, Library, Magic Shop</p>
+<p class="stat-block-1"><b>Upgrade From</b> Library; <b>Upgrade To</b> University</p>
+<p class="stat-block-1"><b>Magic Items</b> 3 minor scrolls or wondrous items, 2 medium scrolls or wondrous items</p>
+<p class="stat-block-1"><b>Settlement</b> Lore +2, Productivity +1, Society +2; increase Lore bonus by 2 for questions relating to one <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> skill</p>
+<p>An institution of higher learning.</p>
+
+<p id="alchemist" class="stat-block-title">Alchemist<span class="stat-block-cr">18 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to 1 House</p>
+<p class="stat-block-1"><b>Special</b> Base value +1,000 gp</p>
+<p class="stat-block-1"><b>Magic Items</b> 1 minor potion or wondrous item</p>
+<p>The laboratory and home of a crafter of poisons, potions, or alchemical items.</p>
+
+<p id="arena" class="stat-block-title">Arena<span class="stat-block-cr">40 BP, 4 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Stability +4; Fame +1</p>
+<p class="stat-block-1"><b>Discount</b> Brothel, Garrison, Inn, Stable, Theater</p>
+<p class="stat-block-1"><b>Limit</b> 1 per settlement</p>
+<p class="stat-block-1"><b>Upgrade From</b> Theater</p>
+<p class="stat-block-1"><b>Settlement</b> Crime +1</p>
+<p>A large public structure for competitions and team sports.</p>
+
+<p id="bank" class="stat-block-title">Bank<span class="stat-block-cr">28 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +4</p>
+<p class="stat-block-1"><b>Special </b>Base value +2,000 gp</p>
+<p>A secure building for storing valuables and granting loans.</p>
+
+<p id="bardic-college" class="stat-block-title">Bardic College<span class="stat-block-cr">40 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Loyalty +3, Stability +1; Fame +1</p>
+<p class="stat-block-1"><b>Discount</b> Library, Museum, Theater</p>
+<p class="stat-block-1"><b>Magic Items</b> 2 minor scrolls or wondrous items</p>
+<p>A center for artistic learning. Education in a Bardic College also includes research into a wide-range of historical topics.</p>
+
+<p id="barracks" class="stat-block-title">Barracks<span class="stat-block-cr">6 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Unrest &mdash;1</p>
+<p class="stat-block-1"><b>Upgrade To</b> Garrison</p>
+<p class="stat-block-1"><b>Special</b> Defense +2</p>
+<p class="stat-block-1"><b>Settlement</b> Law +1</p>
+<p>A building to house conscripts, guards, militia, soldiers, or similar military forces.</p>
+
+<p id="black-market" class="stat-block-title">Black Market<span class="stat-block-cr">50 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +2, Stability +1, Unrest +1</p>
+<p class="stat-block-1"><b>Discount</b> Brothel</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to 2 Houses</p>
+<p class="stat-block-1"><b>Special </b>Base value +2,000 gp</p>
+<p class="stat-block-1"><b>Magic Items</b> 2 minor items, 1 medium item, 1 major item</p>
+<p class="stat-block-1"><b>Settlement</b> Corruption +2, Crime +2</p>
+<p>A number of shops with secret and usually illegal wares.</p>
+
+<p id="brewery" class="stat-block-title">Brewery<span class="stat-block-cr">6 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Loyalty +1, Stability +1</p>
+<p>A building for beer brewing, winemaking, or some similar use.</p>
+
+<p id="bridge" class="stat-block-title">Bridge<span class="stat-block-cr">6 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1</p>
+<p class="stat-block-1"><b>Special</b> Shares the space with a river or Waterway lot</p>
+<p>Allows travel across a river or Waterway, easing transportation.</p>
+
+<p id="bureau" class="stat-block-title">Bureau<span class="stat-block-cr">10 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Loyalty &mdash;1, Stability +1</p>
+<p class="stat-block-1"><b>Settlement</b> Corruption +1, Law +1</p>
+<p>A large warren of offices for clerks and record-keepers working for a guild or government.</p>
+
+<p id="caster's-tower" class="stat-block-title">Caster's Tower<span class="stat-block-cr">30 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Loyalty +1</p>
+<p class="stat-block-1"><b>Magic Items</b> 3 minor items, 2 medium items</p>
+<p>The home and laboratory for a spellcaster.</p>
+
+<p id="castle" class="stat-block-title">Castle<span class="stat-block-cr">54 BP, 4 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +2, Loyalty +2, Stability +2, Unrest &mdash;4; Fame +1</p>
+<p class="stat-block-1"><b>Discount</b> Noble Villa, Town Hall</p>
+<p class="stat-block-1"><b>Limit</b> 1 per settlement</p>
+<p class="stat-block-1"><b>Special</b> Defense +8</p>
+<p>The home of the settlement's leader or the heart of its defenses.</p>
+
+<p id="cathedral" class="stat-block-title">Cathedral<span class="stat-block-cr">58 BP, 4 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Loyalty +4, Stability +4, Unrest &mdash;4; Fame +1</p>
+<p class="stat-block-1"><b>Discount</b> Academy, Temple</p>
+<p class="stat-block-1"><b>Limit</b> 1 per settlement</p>
+<p class="stat-block-1"><b>Special</b> Halves Consumption increase for Promotion edicts</p>
+<p class="stat-block-1"><b>Magic Items</b> 3 minor potions or wondrous items, 2 medium potions or wondrous items</p>
+<p class="stat-block-1"><b>Settlement</b> Law +2</p>
+<p>The focal point of the settlement's spiritual leadership.</p>
+
+<p id="cistern" class="stat-block-title">Cistern<span class="stat-block-cr">6 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Stability +1</p>
+<p class="stat-block-1"><b>Limit</b> Cannot be adjacent to a Dump, Graveyard, Stable, Stockyard, or Tannery</p>
+<p class="stat-block-1"><b>Special</b> Can share lot with another building</p>
+<p>Contains a safe supply of fresh water for the settlement.</p>
+
+<p id="city-wall" class="stat-block-title">City Wall<span class="stat-block-cr">2 BP</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Unrest &mdash;2 (once per settlement)</p>
+<p class="stat-block-1"><b>Limit</b> Land district border</p>
+<p class="stat-block-1"><b>Special</b> Defense +1</p>
+<p>A fortification of one side of a district with a sturdy wall. The GM may allow for cliffs and other natural features to function as a City Wall for one or more sides of a district. You may construct gates through your own city wall at no cost.</p>
+
+<p id="dance-hall" class="stat-block-title">Dance Hall<span class="stat-block-cr">4 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Loyalty +2, Unrest +1</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to 1 House</p>
+<p class="stat-block-1"><b>Settlement</b> Corruption +1, Crime +1</p>
+<p>An establishment for dancing, drinking, carousing, and holding celebrations.</p>
+
+<p id="dump" class="stat-block-title">Dump<span class="stat-block-cr">4 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Stability +1</p>
+<p class="stat-block-1"><b>Limit</b> Cannot be adjacent to House, Mansion, or Noble Villa</p>
+<p>A centralized place to dispose of refuse.</p>
+
+<p id="everflowing-spring" class="stat-block-title">Everflowing Spring<span class="stat-block-cr">5 BP</span></p>
+<p class="stat-block-1"><b>Limit</b> Settlement must have a building that can create medium magic items</p>
+<p class="stat-block-1"><b>Special</b> Can share lot with Castle, Cathedral, Market, Monument, Park, or Town Hall</p>
+<p>A fountain built around several <i>decanters of endless water</i> that provides an inexhaustible supply of fresh water.</p>
+
+<p id="exotic-artisan" class="stat-block-title">Exotic Artisan<span class="stat-block-cr">10 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Stability +1</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to 1 House</p>
+<p class="stat-block-1"><b>Magic Items</b> 1 minor ring, wand, or wondrous item</p>
+<p>The shop and home of a jeweler, tinker, glassblower, or the like.</p>
+
+<p id="foreign-quarter" class="stat-block-title">Foreign Quarter<span class="stat-block-cr">30 BP, 4 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +3, Stability &mdash;1</p>
+<p class="stat-block-1"><b>Special</b> Increase the value of trade routes (see <a href="#_trade-edicts">Trade Edicts</a>) by 5% (maximum 100%)</p>
+<p class="stat-block-1"><b>Settlement</b> Crime +1, Lore +1, Society +2</p>
+<p>An area with many foreigners, as well as shops and services catering to them.</p>
+
+<p id="foundry" class="stat-block-title">Foundry<span class="stat-block-cr">16 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Stability +1, Unrest +1</p>
+<p class="stat-block-1"><b>Discount</b> Smithy</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to water district border</p>
+<p class="stat-block-1"><b>Special</b> Increase the Economy and BP earned per turn by 1 for 1 Mine connected to this settlement by a river or Road</p>
+<p class="stat-block-1"><b>Settlement</b> Productivity +1</p>
+<p>Processes ore and refines it into finished metal.</p>
+
+<p id="garrison" class="stat-block-title">Garrison<span class="stat-block-cr">28 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Loyalty +2, Stability +2, Unrest &mdash;2</p>
+<p class="stat-block-1"><b>Discount</b> City Wall, Granary, Jail</p>
+<p class="stat-block-1"><b>Upgrade From</b> Barracks</p>
+<p>A large building to house armies, train guards, and recruit militia.</p>
+
+<p id="granary" class="stat-block-title">Granary<span class="stat-block-cr">12 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Loyalty +1, Stability +1</p>
+<p class="stat-block-1"><b>Special</b> If Farms reduce Consumption below 0, store up to 5 BP of excess production for use on a later turn when Consumption exceeds the Treasury</p>
+<p>A place to store grain and food.</p>
+
+<p id="graveyard" class="stat-block-title">Graveyard<span class="stat-block-cr">4 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Loyalty +1</p>
+<p>A plot of land to honor and bury the dead.</p>
+
+<p id="guildhall" class="stat-block-title">Guildhall<span class="stat-block-cr">34 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +2, Loyalty +2</p>
+<p class="stat-block-1"><b>Discount</b> Pier, Stable, Trade Shop</p>
+<p class="stat-block-1"><b>Upgrade From</b> Trade Shop</p>
+<p class="stat-block-1"><b>Special</b> Base value +1,000 gp</p>
+<p class="stat-block-1"><b>Settlement</b> Law +1, Productivity +2</p>
+<p>The headquarters for a guild or similar organization.</p>
+
+<p id="herbalist" class="stat-block-title">Herbalist<span class="stat-block-cr">10 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Loyalty +1, Stability +1</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to 1 House</p>
+<p class="stat-block-1"><b>Magic Items</b> 1 minor potion or wondrous item</p>
+<p>The workshop and home of a gardener, healer, or poisoner.</p>
+
+<p id="hospital" class="stat-block-title">Hospital<span class="stat-block-cr">30 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Loyalty +1, Stability +2</p>
+<p class="stat-block-1"><b>Special</b> Increase Stability by 2 during plague events</p>
+<p class="stat-block-1"><b>Settlement</b> Lore +1, Productivity +2</p>
+<p>A building devoted to healing the sick.</p>
+
+<p id="house" class="stat-block-title">House<span class="stat-block-cr">3 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Unrest &mdash;1</p>
+<p class="stat-block-1"><b>Upgrade From</b> Tenement</p>
+<p class="stat-block-1"><b>Special</b> The first House you build during the Improvement phase does not count against the total number of buildings you can build during the phase</p>
+<p>A number of mid-sized houses for citizens.</p>
+
+<p id="inn" class="stat-block-title">Inn<span class="stat-block-cr">10 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Loyalty +1</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to 1 House</p>
+<p class="stat-block-1"><b>Special</b> Base value +500 gp</p>
+<p class="stat-block-1"><b>Settlement</b> Society +1</p>
+<p>A place for visitors to rest.</p>
+
+<p id="jail" class="stat-block-title">Jail<span class="stat-block-cr">14 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Loyalty +2, Stability +2, Unrest &mdash;2</p>
+<p class="stat-block-1"><b>Settlement</b> Crime &mdash;1, Law +1</p>
+<p>A fortified structure for confining criminals or dangerous monsters.</p>
+
+<p id="library" class="stat-block-title">Library<span class="stat-block-cr">6 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Loyalty +1</p>
+<p class="stat-block-1"><b>Upgrade To</b> Academy</p>
+<p class="stat-block-1"><b>Settlement</b> Lore +1</p>
+<p>A large building containing an archive of books.</p>
+
+<p id="luxury-store" class="stat-block-title">Luxury Store<span class="stat-block-cr">28 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to 1 House</p>
+<p class="stat-block-1"><b>Upgrade To</b> Magic Shop; <b>Upgrade From</b> Shop</p>
+<p class="stat-block-1"><b>Special </b>Base value +2,000 gp</p>
+<p class="stat-block-1"><b>Magic Items</b> 2 minor rings, wands, or wondrous items</p>
+<p>A shop that specializes in expensive comforts for the wealthy.</p>
+
+<p id="magic-shop" class="stat-block-title">Magic Shop<span class="stat-block-cr">68 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to 2 Houses</p>
+<p class="stat-block-1"><b>Upgrade From</b> Luxury Store</p>
+<p class="stat-block-1"><b>Special</b> Base value +2,000 gp</p>
+<p class="stat-block-1"><b>Magic Items</b> 4 minor wondrous items, 2 medium wondrous items, 1 major wondrous item</p>
+<p>A shop that specializes in magic items and spells.</p>
+
+<p id="magical-academy" class="stat-block-title">Magical Academy<span class="stat-block-cr">58 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +2; Fame +1</p>
+<p class="stat-block-1"><b>Discount</b> Caster's Tower, Library, Magic Shop</p>
+<p class="stat-block-1"><b>Magic Items</b> 3 minor potions, scrolls, or wondrous items; 1 medium potion, scroll, or wondrous item</p>
+<p class="stat-block-1"><b>Settlement</b> Lore +2, Society +1; increase Lore bonus by 2 for questions relating to <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana)</p>
+<p>An institution for training students in spellcasting, magic item crafting, and  various arcane arts.</p>
+
+<p id="magical-streetlamps" class="stat-block-title">Magical Streetlamps<span class="stat-block-cr">5 BP</span></p>
+<p class="stat-block-1"><b>Limit</b> Settlement must have a Cathedral, Magic Shop, Magical Academy, or Temple</p>
+<p class="stat-block-1"><b>Special</b> Can share a lot with any building or improvement</p>
+<p class="stat-block-1"><b>Settlement</b> Crime &mdash;1</p>
+<p><i><a href="/pathfinderRPG/prd/spells/continualFlame.html#__continual-flame" >Continual flame</a></i> lamps that illuminate the lot.</p>
+
+<p id="mansion" class="stat-block-title">Mansion<span class="stat-block-cr">10 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Stability +1</p>
+<p class="stat-block-1"><b>Upgrade To</b> Noble Villa</p>
+<p class="stat-block-1"><b>Settlement</b> Law +1, Society +1</p>
+<p>A single huge manor housing a rich family and its servants.</p>
+
+<p id="market" class="stat-block-title">Market<span class="stat-block-cr">48 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +2, Stability +2</p>
+<p class="stat-block-1"><b>Discount</b> Black Market, Inn, Shop</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to 2 Houses</p>
+<p class="stat-block-1"><b>Upgrade From</b> Shop</p>
+<p class="stat-block-1"><b>Special</b> Base value +2,000 gp</p>
+<p class="stat-block-1"><b>Magic Items</b> 2 minor wondrous items</p>
+<p>An open area for traveling merchants and bargain hunters.</p>
+
+<p id="menagerie" class="stat-block-title">Menagerie<span class="stat-block-cr">16 BP, 4 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Loyalty (special); Fame +1</p>
+<p class="stat-block-1"><b>Special</b> Increase Loyalty by 1/4 the CR of the highest-CR creature in the Menagerie</p>
+<p>A large park stocked with exotic creatures for public viewing.</p>
+
+<p id="military-academy" class="stat-block-title">Military Academy<span class="stat-block-cr">36 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Loyalty +2, Stability +1; Fame +1</p>
+<p class="stat-block-1"><b>Discount</b> Barracks</p>
+<p class="stat-block-1"><b>Limit</b> 1 per settlement</p>
+<p class="stat-block-1"><b>Special </b>Armies and commanders recruited at the settlement gain one bonus tactic (see <a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/massCombat.html#_army-tactics">Army Tactics</a>)</p>
+<p class="stat-block-1"><b>Magic Items</b> 1 minor armor, shield, or weapon; 1 medium armor, shield, or weapon</p>
+<p class="stat-block-1"><b>Settlement</b> Law +1, Lore +1</p>
+<p>An institution dedicated to the study of war and the training of elite soldiers and officers.</p>
+
+<p id="mill" class="stat-block-title">Mill<span class="stat-block-cr">6 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Stability +1</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to water district border</p>
+<p class="stat-block-1"><b>Special</b> With GM approval, you can construct a windmill at the same cost without the water district border requirement</p>
+<p class="stat-block-1"><b>Settlement</b> Productivity +1</p>
+<p>A building used to cut lumber or grind grain.</p>
+
+<p id="mint" class="stat-block-title">Mint<span class="stat-block-cr">30 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +3, Loyalty +3, Stability +1; Fame +1</p>
+<p>A secure building where the kingdom's coinage is minted and standard weights and measures are kept.</p>
+
+<p id="moat" class="stat-block-title">Moat<span class="stat-block-cr">2 BP</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Unrest &mdash;1 (once per settlement)</p>
+<p class="stat-block-1"><b>Limit</b> Land district border</p>
+<p class="stat-block-1"><b>Special</b> Defense +1; cannot be damaged by siege engines</p>
+<p>A fortification of one side of a district with an open or water-filled ditch, often backed by a low dike or embankment. The GM may allow a river or similar natural feature to function as a moat for one or more sides of a district.</p>
+
+<p id="monastery" class="stat-block-title">Monastery<span class="stat-block-cr">16 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Stability +1</p>
+<p class="stat-block-1"><b>Settlement</b> Law +1, Lore +1</p>
+<p>A cloister for meditation, study, and the pursuit of various other scholarly paths.</p>
+
+<p id="monument" class="stat-block-title">Monument<span class="stat-block-cr">6 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Loyalty +1, Unrest &mdash;1</p>
+<p>A local memorial such as a bell tower, a statue of a settlement founder, a large tomb, or a public display of art.</p>
+
+<p id="museum" class="stat-block-title">Museum<span class="stat-block-cr">30 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Loyalty +1; Fame +1</p>
+<p class="stat-block-1"><b>Settlement</b> Lore +2, Society +1; increase Lore bonus by 2 for questions relating to <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history); apply Lore bonus on <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> checks regarding art objects</p>
+<p>A place to display art and artifacts both modern and historical. The GM may allow the kingdom leaders to display a valuable item (such as a magic item or bejeweled statue) in the museum, increasing Fame during this display by 1 for every 10,000 gp of the item's price (maximum +5 Fame), and by an additional 1 if the item is significant to the kingdom's history.</p>
+
+<p id="noble-villa" class="stat-block-title">Noble Villa<span class="stat-block-cr">24 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Loyalty +1, Stability +1; Fame +1</p>
+<p class="stat-block-1"><b>Discount</b> Exotic Artisan, Luxury Store, Mansion</p>
+<p class="stat-block-1"><b>Upgrade From</b> Mansion</p>
+<p class="stat-block-1"><b>Settlement</b> Society +1</p>
+<p>A sprawling manor with luxurious grounds that houses a noble's family and staff.</p>
+
+<p id="observatory" class="stat-block-title">Observatory<span class="stat-block-cr">12 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Stability +1</p>
+<p class="stat-block-1"><b>Magic Items</b> 1 minor scroll or wondrous item</p>
+<p class="stat-block-1"><b>Settlement</b> Lore +2</p>
+<p>A dome or tower with optical devices for viewing the heavens.</p>
+
+<p id="orphanage" class="stat-block-title">Orphanage<span class="stat-block-cr">6 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Stability +1, Unrest &mdash;1</p>
+<p>A place for housing and taking care of large numbers of orphans.</p>
+
+<p id="palace" class="stat-block-title">Palace<span class="stat-block-cr">108 BP, 4 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +2, Loyalty +6, Stability +2; Fame +1</p>
+<p class="stat-block-1"><b>Discount</b> Mansion, Mint, Noble Villa</p>
+<p class="stat-block-1"><b>Special</b> Base value +1,000 gp; you may make two <a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/optionalKingdomRules.html#_special-edicts">special edicts</a> per turn, but take a &mdash;2 penalty on kingdom checks associated with each special edict</p>
+<p class="stat-block-1"><b>Settlement</b> Law +2</p>
+<p>A grand edifice and walled grounds demonstrating one's wealth, power, and authority to the world.</p>
+
+<p id="park" class="stat-block-title">Park<span class="stat-block-cr">4 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Loyalty +1, Unrest &mdash;1</p>
+<p>A plot of land set aside for its serene beauty.</p>
+
+<p id="paved-streets" class="stat-block-title">Paved Streets<span class="stat-block-cr">24 BP</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +2, Stability +1</p>
+<p class="stat-block-1"><b>Limit</b> 1 per district</p>
+<p class="stat-block-1"><b>Settlement</b> Productivity +2</p>
+<p>Brick or stone pavement that speeds transportation.</p>
+
+<p id="pier" class="stat-block-title">Pier<span class="stat-block-cr">16 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Stability +1</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to water district border</p>
+<p class="stat-block-1"><b>Upgrade To</b> Waterfront</p>
+<p class="stat-block-1"><b>Special</b> Base value +1,000 gp</p>
+<p class="stat-block-1"><b>Settlement</b> Crime +1</p>
+<p>Warehouses and workshops for docking ships and handling cargo and passengers.</p>
+
+<p id="sewer-system" class="stat-block-title">Sewer System<span class="stat-block-cr">24 BP</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Loyalty +1, Stability +2</p>
+<p class="stat-block-1"><b>Discount</b> Cistern, Dump</p>
+<p class="stat-block-1"><b>Limit</b> 1 per district</p>
+<p class="stat-block-1"><b>Settlement</b> Crime +1, Productivity +1</p>
+<p>An underground sanitation system that keeps the settlement clean, though it may become home to criminals and monsters.</p>
+
+<p id="shop" class="stat-block-title">Shop<span class="stat-block-cr">8 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to 1 House or Mansion</p>
+<p class="stat-block-1"><b>Upgrade To</b> Luxury Store, Market</p>
+<p class="stat-block-1"><b>Special</b> Base value +500 gp</p>
+<p class="stat-block-1"><b>Settlement</b> Productivity +1</p>
+<p>A general store.</p>
+
+<p id="shrine" class="stat-block-title">Shrine<span class="stat-block-cr">8 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Loyalty +1, Unrest &mdash;1</p>
+<p class="stat-block-1"><b>Upgrade To</b> Temple</p>
+<p class="stat-block-1"><b>Magic Items</b> 1 minor potion, scroll, or wondrous item</p>
+<p>A shrine, idol, sacred grove, or similar holy site designed for worship by pious individuals.</p>
+
+<p id="smithy" class="stat-block-title">Smithy<span class="stat-block-cr">6 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Stability +1</p>
+<p>The workshop of an armorsmith, blacksmith, weaponsmith, or other craftsman who works with metal.</p>
+
+<p id="stable" class="stat-block-title">Stable<span class="stat-block-cr">10 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Loyalty +1</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to 1 House, Mansion, or Noble Villa</p>
+<p class="stat-block-1"><b>Special</b> Base value +500 gp</p>
+<p>A structure for housing or selling horses and other mounts.</p>
+
+<p id="stockyard" class="stat-block-title">Stockyard<span class="stat-block-cr">20 BP, 4 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Stability &mdash;1</p>
+<p class="stat-block-1"><b>Discount</b> Stable, Tannery</p>
+<p class="stat-block-1"><b>Special</b> Farms in this hex or adjacent hexes reduce Consumption by 3 instead of 2</p>
+<p class="stat-block-1"><b>Settlement</b> Productivity +1</p>
+<p>Barns and pens that store herd animals and prepare them for nearby slaughterhouses.</p>
+
+<p id="tannery" class="stat-block-title">Tannery<span class="stat-block-cr">6 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Stability +1</p>
+<p class="stat-block-1"><b>Limit</b> Cannot be adjacent to House, Mansion, Noble Villa, or Tenement</p>
+<p class="stat-block-1"><b>Settlement</b> Society &mdash;1</p>
+<p>A structure that prepares hides and leather.</p>
+
+<p id="tavern" class="stat-block-title">Tavern<span class="stat-block-cr">12 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Loyalty +1</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to 1 House or Mansion</p>
+<p class="stat-block-1"><b>Special</b> Base value +500 gp</p>
+<p class="stat-block-1"><b>Settlement</b> Corruption +1</p>
+<p>An eating or drinking establishment.</p>
+
+<p id="temple" class="stat-block-title">Temple<span class="stat-block-cr">32 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Loyalty +2, Stability +2, Unrest &mdash;2</p>
+<p class="stat-block-1"><b>Discount</b> Graveyard, Monument, Shrine</p>
+<p class="stat-block-1"><b>Upgrade From</b> Shrine</p>
+<p class="stat-block-1"><b>Magic Items</b> 2 minor items</p>
+<p>A large place of worship dedicated to a deity.</p>
+
+<p id="tenement" class="stat-block-title">Tenement<span class="stat-block-cr">1 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Unrest +2</p>
+<p class="stat-block-1"><b>Upgrade To</b> House</p>
+<p class="stat-block-1"><b>Special</b> Counts as House for buildings that must be adjacent to a House</p>
+<p>A staggering number of low-rent housing units.</p>
+
+<p id="theater" class="stat-block-title">Theater<span class="stat-block-cr">24 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +2, Stability +2</p>
+<p class="stat-block-1"><b>Discount</b> Brothel, Exotic Artisan, Inn, Park, Tavern</p>
+<p class="stat-block-1"><b>Upgrade To</b> Arena</p>
+<p>A venue for entertainments such as plays, operas, and concerts.</p>
+
+<p id="town-hall" class="stat-block-title">Town Hall<span class="stat-block-cr">22 BP, 2 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Loyalty +1, Stability +1</p>
+<p class="stat-block-1"><b>Discount</b> Barracks, Cistern, Dump, Jail, Watchtower</p>
+<p class="stat-block-1"><b>Settlement</b> Law +1</p>
+<p>A public venue for town meetings, repository for town records, and offices for minor bureaucrats.</p>
+
+<p id="trade-shop" class="stat-block-title">Trade Shop<span class="stat-block-cr">10 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +1, Stability +1</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to 1 House</p>
+<p class="stat-block-1"><b>Upgrade To</b> Guildhall</p>
+<p class="stat-block-1"><b>Special</b> Base value +500 gp</p>
+<p class="stat-block-1"><b>Settlement</b> Productivity +1</p>
+<p>A shop front for a tradesperson, such as a baker, butcher, candle maker, cobbler, rope maker, or wainwright.</p>
+
+<p id="university" class="stat-block-title">University<span class="stat-block-cr">78 BP, 4 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +3, Loyalty +3; Fame +1</p>
+<p class="stat-block-1"><b>Discount</b> Academy, Bardic College, Library, Magical Academy, Military Academy, Museum</p>
+<p class="stat-block-1"><b>Upgrade From</b> Academy<b></b></p>
+<p class="stat-block-1"><b>Magic Items</b> 4 minor scrolls or wondrous items, 2 medium scrolls or wondrous items <b>Settlement</b> Lore +4, Society +3; increase Lore bonus by 4 for questions relating to one <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> skill</p>
+<p>An institution of higher learning, focusing mainly on mundane subjects but dabbling in magical theory.</p>
+
+<p id="watchtower" class="stat-block-title">Watchtower<span class="stat-block-cr">12 BP, 1 lot</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Stability +1, Unrest &mdash;1</p>
+<p class="stat-block-1"><b>Special</b> Defense +2</p>
+<p>A tall structure that serves as a guard post.</p>
+
+<p id="watergate" class="stat-block-title">Watergate<span class="stat-block-cr">2 BP</span></p>
+<p class="stat-block-1"><b>Special</b> Shares City Wall</p>
+<p>A gate in a City Wall that allows water (such as a river, Aqueduct, or Waterway) to enter the settlement. A Watergate has underwater defenses to block unwanted access. If you construct a Watergate when you construct a City Wall, the Watergate does not count toward the limit of the number of buildings you can construct per turn.</p>
+
+<p id="waterfront" class="stat-block-title">Waterfront<span class="stat-block-cr">90 BP, 4 lots</span></p>
+<p class="stat-block-1"><b>Kingdom</b> Economy +4</p>
+<p class="stat-block-1"><b>Discount</b> Black Market, Guildhall, Market, Pier</p>
+<p class="stat-block-1"><b>Limit</b> Adjacent to water district border, 1 per settlement</p>
+<p class="stat-block-1"><b>Upgrade From</b> Pier </p>
+<p class="stat-block-1"><b>Special</b> Base value +4,000 gp; halves Loyalty penalty for Taxation edicts</p>
+<p class="stat-block-1"><b>Magic Items</b> 2 minor wondrous items, 1 medium wondrous item, 1 major wondrous item</p>
+<p class="stat-block-1"><b>Settlement</b> Productivity +2</p>
+<p>A port for waterborne arrival and departure, with facilities for shipping and shipbuilding.</p>
+
+<p id="waterway3-bp,-1--2-lots" class="stat-block-title">Waterway<span class="stat-block-cr">3 BP, 1&mdash;2 lots</span></p>
+<p class="stat-block-1"><b>Special</b> Counts as water district border for adjacent buildings</p>
+<p>A river or canal occuping part of the District Grid. At the GM's option, a natural Waterway may already exist on the grid, requiring no action or BP to build. If you construct a City Wall that touches or crosses the Waterway, you must also build Watergates on the same turn.</p>
+
+<h2 id="events">Events</h2>
+<p>Listed below are unusual events that can happen during a kingdom's Event phase. Most events occur immediately and are instantaneous or terminate at the end of the Event phase.</p>
+<p>Some events impact the whole kingdom, while others are centered on a specific settlement or hex. Roll on Table 4&mdash;7: Event Type and Danger Level to determine the type of event and whether it is beneficial or harmful. Then roll on the appropriate beneficial or dangerous settlement or kingdom event table. If this results in an invalid event (such as a pilgrimage when there are no Cathedrals, Shrines, or Temples in the kingdom), roll again.</p>
+<p><b>Continuous Events</b>: A continuous event's effects continue each turn during the Event phase until you resolve the event (as explained in the event description, usually by succeeding at a kingdom check).</p>
+<p><b>Localized Events</b>: Some events are listed as "settlement" or "hex." The effect of these events are localized to a single settlement or hex. Randomly select a settlement or hex for the location of that event. Some events (such as a feud) could be confined to a settlement or start in one settlement and spread to affect the entire kingdom, depending on whether they're rolled on one of the Kingdom Events tables or one of the Settlement Events tables.</p>
+<p><b>Settlement Modifiers</b>: Some events adjust settlement modifiers (Crime, Lore, etc.). If an event is localized to 1 settlement, its settlement modifier adjustments apply only to that settlement; if it's localized to a hex, it affects only settlements in that hex. If the GM is using settlement modifiers for the entire kingdom (see <a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/optionalKingdomRules.html#_expanding-settlement-modifiers">Expanding Settlement Modifiers</a>) and the event is not localized, its adjustments apply to the final modifier for the entire kingdom. For example, the new subjects event increases Society and Stability for the entire kingdom by 1.</p>
+<p><b>Hiring Adventurers</b>: Once per Event phase, you can hire NPC adventurers to help deal with an event, gaining a bonus on one Economy, Loyalty, or Stability check made as part of that event. Adventurers of levels 1&mdash;2 grant a +2 bonus on the check and cost 4 BP; adventurers of levels 3&mdash;5 grant a +5 bonus on the check and cost 8 BP; adventurers of level 6+ (but never higher than your APL) grant a +10 bonus on the check and cost 16 BP.</p>
+
+<div class="table">
+<table id="table-event-type-and-danger-level"><caption>Event Type and Danger Level</caption>
+<thead><tr><th>d%</th><th>Event</th></tr></thead>
+<tr class="odd"><td>01&mdash;02</td><td>Natural blessing and roll again<sup>1</sup></td></tr>
+<tr class="even"><td>03&mdash;04</td><td>Good weather and roll again<sup>1</sup></td></tr>
+<tr class="odd"><td>05&mdash;25</td><td>Beneficial kingdom event (Table 4&mdash;8)</td></tr>
+<tr class="even"><td>26&mdash;50</td><td>Dangerous kingdom event (Table 4&mdash;9)</td></tr>
+<tr class="odd"><td>51&mdash;75</td><td>Beneficial settlement event (Table 4&mdash;10)</td></tr>
+<tr class="even"><td>76&mdash;96</td><td>Dangerous settlement event (Table 4&mdash;11)</td></tr>
+<tr class="odd"><td>97</td><td>Bandit activity and roll again<sup>2</sup></td></tr>
+<tr class="even"><td>98</td><td>Squatters and roll again<sup>2</sup></td></tr>
+<tr class="odd"><td>99</td><td>Monster attack and roll again<sup>2</sup></td></tr>
+<tr class="even"><td>100</td><td>Vandals and roll again<sup>2</sup></td></tr>
+<tfoot><tr><td colspan="2"><sup>1</sup> If the reroll indicates the same event, ignore the duplicate event and do not reroll again.<br />
+<sup>2</sup> If the reroll indicates the same event, the second event occurs elsewhere in the kingdom.</td></tr></tfoot></table>
+</div>
+
+<div class="table">
+<table id="table-beneficial-kingdom-events"><caption>Beneficial Kingdom Events</caption>
+<thead><tr><th>d%</th><th>Event</th></tr></thead>
+<tr class="odd"><td>01&mdash;07</td><td>Archaeological find</td></tr>
+<tr class="even"><td>08&mdash;12</td><td>Diplomatic overture</td></tr>
+<tr class="odd"><td>13&mdash;20</td><td>Discovery</td></tr>
+<tr class="even"><td>21&mdash;31</td><td>Economic boom</td></tr>
+<tr class="odd"><td>32&mdash;39</td><td>Festive invitation</td></tr>
+<tr class="even"><td>40&mdash;53</td><td>Food surplus</td></tr>
+<tr class="odd"><td>54&mdash;66</td><td>Good weather</td></tr>
+<tr class="even"><td>67&mdash;75</td><td>Land rush</td></tr>
+<tr class="odd"><td>76&mdash;85</td><td>Natural blessing</td></tr>
+<tr class="even"><td>86&mdash;90</td><td>New subjects</td></tr>
+<tr class="odd"><td>91&mdash;100</td><td>Political calm</td></tr></table>
+</div>
+
+<div class="table">
+<table id="table-dangerous-kingdom-events"><caption>Dangerous Kingdom Events</caption>
+<thead><tr><th>d%</th><th>Event</th></tr></thead>
+<tr class="odd"><td>01&mdash;05</td><td>Assassination attempt</td></tr>
+<tr class="even"><td>06&mdash;18</td><td>Bandit activity</td></tr>
+<tr class="odd"><td>19&mdash;28</td><td>Feud</td></tr>
+<tr class="even"><td>29&mdash;41</td><td>Food shortage</td></tr>
+<tr class="odd"><td>42&mdash;51</td><td>Improvement demand</td></tr>
+<tr class="even"><td>52&mdash;59</td><td>Inquisition</td></tr>
+<tr class="odd"><td>60&mdash;64</td><td>Large disaster</td></tr>
+<tr class="even"><td>65&mdash;76</td><td>Monster attack</td></tr>
+<tr class="odd"><td>77&mdash;84</td><td>Plague</td></tr>
+<tr class="even"><td>85&mdash;92</td><td>Public scandal</td></tr>
+<tr class="odd"><td>93&mdash;100</td><td>Smugglers</td></tr></table>
+</div>
+
+<div class="table">
+<table id="table-beneficial-settlement-events"><caption>Beneficial Settlement Events</caption>
+<thead><tr><th>d%</th><th>Event</th></tr></thead>
+<tr class="odd"><td>01&mdash;14</td><td>Boomtown</td></tr>
+<tr class="even"><td>15&mdash;26</td><td>Discovery</td></tr>
+<tr class="odd"><td>27&mdash;40</td><td>Justice prevails</td></tr>
+<tr class="even"><td>41&mdash;46</td><td>Noblesse oblige</td></tr>
+<tr class="odd"><td>47&mdash;58</td><td>Outstanding success</td></tr>
+<tr class="even"><td>59&mdash;66</td><td>Pilgrimage</td></tr>
+<tr class="odd"><td>67&mdash;72</td><td>Remarkable treasure</td></tr>
+<tr class="even"><td>73&mdash;81</td><td>Unexpected find</td></tr>
+<tr class="odd"><td>82&mdash;93</td><td>Visiting celebrity</td></tr>
+<tr class="even"><td>94&mdash;100</td><td>Wealthy immigrant</td></tr></table>
+</div>
+
+<div class="table">
+<table id="table-dangerous-settlement-events"><caption>Dangerous Settlement Events</caption>
+<thead><tr><th>d%</th><th>Event</th></tr></thead>
+<tr class="odd"><td>01&mdash;10</td><td>Building demand</td></tr>
+<tr class="even"><td>11&mdash;17</td><td>Crop failure</td></tr>
+<tr class="odd"><td>18&mdash;25</td><td>Cult activity</td></tr>
+<tr class="even"><td>26&mdash;33</td><td>Drug den</td></tr>
+<tr class="odd"><td>34&mdash;41</td><td>Feud</td></tr>
+<tr class="even"><td>42&mdash;49</td><td>Inquisition</td></tr>
+<tr class="odd"><td>50&mdash;54</td><td>Localized disaster</td></tr>
+<tr class="even"><td>55&mdash;61</td><td>Monster attack</td></tr>
+<tr class="odd"><td>62&mdash;66</td><td>Plague</td></tr>
+<tr class="even"><td>67&mdash;74</td><td>Sensational crime</td></tr>
+<tr class="odd"><td>75&mdash;80</td><td>Slavers</td></tr>
+<tr class="even"><td>81&mdash;90</td><td>Squatters</td></tr>
+<tr class="odd"><td>91&mdash;100</td><td>Vandals</td></tr></table>
+</div>
+
+<p><b>Archaeological Find</b>: A well-preserved ruin is found in your kingdom, with historical artifacts connected to the people who lived in your land long ago. <i>Effect</i>: Lore +1. If you have a Museum, the discoverers donate 10,000 gp worth of historical artifacts to its collection (if you have multiple Museums, choose one as the recipient).</p>
+<p><b>Assassination Attempt</b>: One of your leaders (determined randomly) is the target of an assassination attempt. If the target is a PC, the GM should run the attempt as an encounter, using an assassin of a CR equal to the targeted PC's level. If the target is an NPC, you must succeed at a Stability check to prevent the assassination. If the assassination occurs, Unrest increases by 1d6 and the kingdom immediately incurs the penalties for not having a leader in that role.</p>
+<p><b>Bandit Activity</b>: Bandits are preying upon those who travel through your kingdom. Attempt a Stability check. If you succeed, your kingdom's defenses stop the bandits before they cause any harm. If you fail, the bandits reduce your kingdom's Treasury by 1d6 BP (each time you roll a 6, add the result to the total and roll again).</p>
+<p><b>Boomtown (Settlement)</b>: Randomly select one settlement. Commerce booms among that settlement. Until the next Event phase, Economy increases by the number of buildings in the settlement that grant an Economy bonus, and Corruption increases by 1d4 in that settlement.</p>
+<p><b>Building Demand (Settlement, Continuous)</b>: The citizens demand a particular building be built (01&mdash;75) or demolished (76&mdash;100). Select the building type randomly from those available for the settlement. If the demand is not met by the next Event phase, Unrest increases by 1. Alternatively, you can suppress the citizens' demands and negate the event by succeeding at a Loyalty check, but this reduces Loyalty by 2 and increases Unrest by 1.</p>
+<p><b>Crop Failure (Settlement)</b>: Pests, blight, and weather ruin the harvest in the settlement's hex and all adjacent hexes. Attempt two Stability checks. If both succeed, the problem is fixed before your kingdom takes any penalties from the event. If only one succeeds, affected farms reduce Consumption by 1 (instead of the normal reduction) in the next Upkeep phase. If neither succeeds, affected farms do not reduce Consumption at all in the next Upkeep phase.</p>
+<p><b>Cult Activity (Settlement, Continuous)</b>: A religious cult of an alignment opposed to the kingdom's alignment begins kidnapping, converting, or even publicly sacrificing citizens. Attempt a Loyalty check and a Stability check. If both succeed, the cult is disbanded before your kingdom takes any penalties from the event. For each of these checks you fail, Unrest increases by 1 and Productivity, Society, and Stability decrease by 1. If both checks fail, the event continues in the next Event phase.</p>
+<p><b>Diplomatic Overture</b>: A nearby kingdom sends an ambassador to you to negotiate an embassy (01&mdash;60), treaty (61&mdash;90), or alliance (91&mdash;100), as if using a diplomatic edict (see <a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/optionalKingdomRules.html#_special-edicts">Special Edicts</a>). If the GM doesn't have an appropriate kingdom in mind when this event occurs, determine the kingdom's alignment randomly; it may be hostile or friendly. The ambassador bears 1d4 BP worth of gifts for your kingdom.</p>
+<p><b>Discovery (Settlement)</b>: Scholars unearth a bit of ancient lore or devise important new research of their own. Fame increases by 1 and Lore increases by 1d4.</p>
+<p><b>Drug Den (Settlement, Continuous)</b>: One of your Houses or Tenements becomes a hive of illicit drug trade. Attempt a Loyalty check and a Stability check, with a penalty equal to the number of Brothels, Tenements, Waterfronts, and lots with squatters in the settlement. If you succeed at both checks, you eliminate the drug den before your kingdom takes any penalties from the event. If you fail at one check, Crime and Unrest increase by 1. If you fail at both checks, Crime and Unrest increase by 1; Economy, Loyalty, and Stability decrease by 1; and on the next Event phase, a second drug den event occurs in the same settlement (01&mdash;50) or the nearest settlement (51&mdash;100).</p>
+<p><b>Economic Boom</b>: Trade is booming in your kingdom! Your Treasury increases by 1d6 BP (each time you roll a 6, add the result to the total and roll again).</p>
+<p><b>Festive Invitation</b>: Your kingdom's leaders are invited to a festival in a neighboring kingdom. If you attend and bring 1d4 BP worth of gifts, for 1 year Society increases by 1, Fame increases by 1 for any check relating to that kingdom, and you gain a +2 bonus on edict checks relating to that kingdom.</p>
+<p><b>Feud (Settlement, Continuous)</b>: Nobles (or other influential rival groups) are bickering. Attempt a Loyalty check. If you succeed, you end the event but Unrest increases by 1. If you fail, Corruption increases by 1, Unrest increases by 1d6, and the event is continuous.</p>
+<p><b>Food Shortage</b>: Spoilage, treachery, or bad luck has caused a food shortage this turn. Attempt a Stability check. If you succeed, Consumption in the next Upkeep phase increases by 50%. If you fail, Consumption in the next Upkeep phase increases by 100%.</p>
+<p><b>Food Surplus</b>: Farmers produce an unexpected windfall! In the next Upkeep phase, the kingdom's Consumption is halved (but returns to normal on the next turn).</p>
+<p><b>Good Weather</b>: Good weather raises spirits and productivity. Economy, Loyalty, and Productivity increase by 2 until the next Event phase.</p>
+<p><b>Improvement Demand (hex)</b>: This event is identical to the building demand event, but the citizens want the construction or destruction of a terrain improvement in the hex.</p>
+<p><b>Inquisition (settlement, continuous)</b>: Zealots mobilize public opinion against a particular race, religion, kingdom, behavior, or kingdom leader. Attempt a Loyalty check. If you fail, the zealots run rampant; Infamy and Law increase by 1 and Lore, Loyalty, Productivity, and Stability decrease by 2. If you succeed, the zealots are somewhat suppressed; Lore, Loyalty, Productivity, and Stability decrease by 1. Two successful checks in a row end the event (if a check ends the event, no penalties from it occur that turn).</p>
+<p><b>Justice Prevails (settlement)</b>: Authorities shut down a major criminal operation or thwart a plot against the settlement. Law and Loyalty increase by 1 and Crime and Unrest decreases by 1.</p>
+<p><b>Land Rush</b>: Overeager settlers claim an unclaimed hex and construct a Farm, Mine, Quarry, or Sawmill at their own expense, but are fighting over ownership. This hex is not part of your kingdom, so you gain no benefits from it. Productivity, Society, and Stability decrease by 1. Attempt a Loyalty check. If you succeed, Unrest increases by 1. If you fail, Unrest increases by 1d4. If you construct an identical improvement in an adjacent hex during your next Edict phase, remove this event's changes to Productivity, Society, and Stability.</p>
+<p><b>Large Disaster (Hex)</b>: A fire, storm, earthquake, flood, massive sabotage, or other disaster strikes! Roll 1d6; on a result of 1&mdash;5, the disaster threatens only 1 improved hex. On a result of 6, the disaster is widespread and threatens 1d6 additional improved hexes adjacent to the target hex. Attempt a Stability check for each threatened hex; failure means the disaster destroys one terrain improvement in the hex and Unrest increases by 1. (This Stability check represents your kingdom's ability to prepare for or react to the disaster as well as the structure's ability to withstand damage.)</p>
+<p><b>Localized Disaster (Settlement)</b>: A fire, a flood, a storm, an earthquake, massive sabotage, or another disaster strikes the settlement! Roll 1d6 to determine how many lots are threatened by the disaster. On a result of 6, the disaster is widespread and affects 1d6 additional adjacent lots. Attempt a Stability check for each threatened lot; failure means the disaster destroys the building in that lot and Unrest increases by 1. (This Stability check represents your kingdom's ability to prepare for or react to the disaster as well as the structure's ability to withstand damage.)</p>
+<p><b>Monster Attack (Settlement, Continuous)</b>: A monster (or group of monsters) attacks the kingdom. The GM picks a claimed hex in the kingdom in which the monster is active. The CR of the monster encounter is equal to the party's APL + 1d4 &mdash; 1. You can personally deal with the monster (earning XP and treasure normally for your efforts) or succeed at a Stability check to eliminate it (which doesn't affect you or the kingdom's statistics). If the monster is not defeated this turn, Unrest increases by 4. If the kingdom's Unrest is 5 or higher, the monster's hex becomes unclaimed&mdash;this is in addition to losing control of hexes in the Upkeep phase because of the kingdom's high Unrest score.</p>
+<p><b>Natural Blessing</b>: A natural event, such as a bloom of rare and beautiful wildflowers or a good omen in the stars, raises your kingdom's morale. You gain a +4 bonus on Stability checks until the next Event phase.</p>
+<p><b>New Subjects</b>: A small group of indigenous intelligent creatures joins your kingdom and submits to your rule. Society and Stability increase by 1, Unrest decreases by 1, and your Treasury increases by 1d6 BP (each time you roll a 6, add the result to the total and roll again).</p>
+<p><b>Noblesse Oblige (Settlement)</b>: A noble family offers to construct a Monument (01&mdash;50) or Park (51&mdash;100) in your settlement at the family's own expense. The nobles pay all costs and Consumption for this purpose.</p>
+<p><b>Outstanding Success (Settlement)</b>: One of your kingdom's citizens creates an artistic masterpiece, constructs a particularly impressive building, or otherwise brings glory to your kingdom. Fame increases by 1, your Treasury increases by 1d6 BP, and Unrest decreases by 2. You gain a +4 bonus on Economy checks until the next Event phase.</p>
+<p><b>Pilgrimage (settlement)</b>: Randomly select one settlement with a Cathedral, Shrine, or Temple. Pious religious folk journey to your settlement, holding a religious festival in that settlement at no BP cost to you.</p>
+<p><b>Plague (Hex or Settlement, Continuous)</b>: A deadly sickness strikes the target hex or settlement. You cannot construct terrain improvements or buildings there while plague persists. Attempt two Stability checks, each with a penalty equal to the number of Brothels, Foreign Quarters, Highways, Inns, Piers, Roads, Stables, Stockyards, Tenements, and Waterfronts in the hex, and a bonus equal to the number of Alchemists, Cathedrals, Herbalists, Hospitals, and Temples in the hex. If you succeed at both checks, the event ends, but Stability decreases by 2 and Treasury by 1d3 BP. If you fail at one check, Stability decreases by 4, Treasury decreases by 1d6 BP, and Unrest increases by 1d3. If you fail at both, Stability decreases by 4, Treasury decreases by 1d6 BP, Unrest increases by 1d6, and in the next Event phase the plague spreads to an adjacent hex.</p>
+<p><b>Political Calm</b>: A sudden absence of political machinations coincides with an increase in public approval. Unrest decreases by 1d6. Until the next Event phase, you gain a +2 bonus on checks to resolve continuous events. If your kingdom has no Unrest and no continuous events, both Loyalty and Stability increase by 1. If you are using Law settlement modifiers for the kingdom (see <a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/optionalKingdomRules.html#_expanding-settlement-modifiers">Expanding Settlement Modifiers</a>), this also increases Law by 1 for the entire kingdom.</p>
+<p><b>Public Scandal</b>: One of your leaders is implicated in a crime or an embarrassing situation, such as an affair with another leader's spouse. Infamy increases by 1. Attempt a Loyalty check. If you fail, Unrest increases by 2 and  you take a &mdash;4 penalty on all Loyalty checks until the next Event phase.</p>
+<p><b>Remarkable Treasure (Settlement)</b>: The settlement immediately fills one of its open magic item slots (selected randomly) with a better than normal item (medium if a minor slot, major if a medium slot). Treat the settlement's base value as 50% higher than normal for determining the item's maximum price. If the settlement doesn't have any open magic item slots, treat this event as Unexpected Find.</p>
+<p><b>Sensational Crime (Settlement, Continuous)</b>: A serial killer, arsonist, or daring bandit plagues your kingdom. Attempt two Stability checks, adding the settlement's Law and subtracting its Crime. If you succeed at both checks, the criminal is caught before your kingdom takes any penalties from the event. If you fail at one, the criminal escapes, Unrest increases by 1, and the event is continuous. If you fail at both, the criminal makes a fool of the authorities; Law and Loyalty decrease by 1, Treasury decreases by 1d4 BP, Unrest increases by 2, and the event is continuous.</p>
+<p><b>Slavers (Settlement, Continuous)</b>: Criminals begin kidnapping citizens and selling them into slavery. Attempt a Loyalty check and a Stability check, each with a penalty equal to the number of Brothels, Tenements, Waterfronts, and lots with squatters in the settlement. If you succeed at both checks, the slavers are caught before your kingdom takes any penalties from the event. If you fail at one of the checks, Loyalty, Stability, and Unrest decrease by 1, but the event is not continuous. If you fail at both checks, Loyalty, Stability, and Unrest decrease by 2, and the event is continuous.</p>
+<p><b>Smugglers (Continuous)</b>: Unscrupulous merchants are subverting legitimate businesses. Attempt a Loyalty check and a Stability check, each with a penalty equal to the number of Piers, Waterfronts, and trade routes in the kingdom. If you succeed at both checks, the smugglers are stopped before your kingdom takes any penalties from the event. If you fail at one of the checks, Corruption increases by 1d2 in each settlement, Crime increases by 1 for the kingdom, Productivity for the kingdom decreases by 1d3, Treasury decreases by 1d3 BP, and the event is not continuous. If you fail at both of the checks, Corruption increases by 1d4, Crime for the kingdom increases by 1, Productivity for the kingdom decreases by 1d6, Treasury decreases by 1d6 BP, and the event is continuous.</p>
+<p><b>Squatters (Settlement, Continuous)</b>: An empty settlement lot is taken over by beggars, troublemakers, and people unable to find adequate work or housing; they camp there with tents, wagons, and shanties. You cannot use the lot for anything until the squatters are dispersed. Fame and Stability decrease by 1, and Unrest increases by 2. You may try to disperse the squatters with a Stability check. Success means the squatters are dispersed and the event is not continuous, but if a House or Tenement is not built in that lot on the next turn, Infamy increases by 1 and Unrest by 2. Failing the Stability check means the event is continuous, and you may not build on that lot until the event is resolved.</p>
+<p><b>Unexpected Find (Settlement)</b>: Local citizens discover a forgotten magical item. The settlement gains one temporary minor (01&mdash;70) or medium (71&mdash;100) magic item slot that is automatically filled in the next Upkeep phase. This slot and the item go away if the item is purchased or in the next Event phase, whichever comes first.</p>
+<p><b>Vandals (Settlement)</b>: Thugs and dissidents riot and destroy property. Attempt a Loyalty check and a Stability check. If you succeed at both, the vandals are stopped before your kingdom takes any penalties. If you fail at one check, Society decreases by 1 and one random building in the settlement is damaged. If you fail at both, one random building is destroyed (Unrest increases by 1 for each lot of the destroyed building), and 1d3 other random buildings are damaged. A damaged building provides no benefits until half its cost is spent repairing it.</p>
+<p><b>Visiting Celebrity (Settlement)</b>: A celebrity from another kingdom visits one of your settlements, causing a sudden influx of other visitors and spending. Fame increases by 1 and Treasury increases by 1d6 BP (each time you roll a 6, add the result to the total and roll again).</p>
+<p><b>Wealthy Immigrant (Settlement)</b>: A rich merchant or a noble from another land is impressed with your kingdom and asks to construct a Mansion (01&mdash;75) or Noble Villa (76&mdash;100) in the settlement at no cost to you. If you allow it, the building provides its normal benefits to your kingdom.</p>
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

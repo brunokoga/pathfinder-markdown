@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Aristocrats</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Aristocrats",globalNavPath=[{ href: '/pathfinderRPG/prd/npcCodex/npc/index.html', name: 'NPC Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="aristocrats">Aristocrats</h1>
+
+<p id="page" class="stat-block-title">Page <span class="stat-block-cr">CR 1/3</span></p>
+<p class="stat-block-1"><b>XP</b> 135</p>
+<p class="stat-block-1"><b>Halfling aristocrat</b> 1</p>
+<p class="stat-block-1">N Small humanoid (halfling)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> Perception +6</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 13, touch 13, flat-footed 11 (+2 Dex, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 3 (1d8–1)</p>
+<p class="stat-block-1"><b>Fort</b> +0, <b>Ref</b> +3, <b>Will</b> +3; +2 vs. fear</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 25 ft.</p>
+<p class="stat-block-1"><b>Melee</b> dagger –1 (1d3–2/19–20)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The aristocrat fights as best he can with his dagger, but flees as soon as possible to find a guard.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 6, <b>Dex</b> 15, <b>Con</b> 9, <b>Int</b> 12, <b>Wis</b> 10, <b>Cha</b> 12</p>
+<p class="stat-block-1"><b>Base Atk</b> +0; <b>CMB</b> –3; <b>CMD</b> 9</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_fleet" >Fleet</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +4, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +0, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +5, <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +3, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local, nobility) +5, Perception +6, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +7</p>
+<p class="stat-block-1"><b>Languages</b> Common, Halfling</p>
+<p class="stat-block-1"><b>Gear</b> dagger, courtier's outfit, 228 gp</p>
+
+<p>This nervous young page alternates between avoiding unwanted attention and desperately trying to impress any nobles who send him on errands. His duties involve carrying messages (whether on parchment or memorized) within the palace grounds or a city, delivering packages, escorting the retainers of visiting officials, and so on.</p>
+<p>Sometimes a package carried by a page contains something quite valuable, though if that is the case, the page is usually accompanied by one or more guards (warriors 3). The additional wealth in the page's stat block may account for such items, though in most cases the page only carries a few silver coins for his own personal use plus a few gold pieces for his employer's expenses.</p>
+
+
+<p id="princess" class="stat-block-title">Princess <span class="stat-block-cr">CR 1/2</span></p>
+<p class="stat-block-1"><b>XP</b> 200</p>
+<p class="stat-block-1"><b>Human aristocrat</b> 2</p>
+<p class="stat-block-1">N Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +0</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 12, touch 12, flat-footed 10 (+1 Dex, +1 dodge)</p>
+<p class="stat-block-1"><b>hp</b> 7 (2d8–2)</p>
+<p class="stat-block-1"><b>Fort</b> –1, <b>Ref</b> +1, <b>Will</b> +3</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> unarmed strike +0 (1d3–1) or</p>
+<p class="stat-block-2">light mace +0 (1d6–1) or</p>
+<p class="stat-block-2">short sword +0 (1d6–1/19–20)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> If forced into a fight, the aristocrat borrows, improvises, or steals a weapon such as a light mace or short sword (as an aristocrat, she is proficient with all simple and martial weapons). If she has no allies and believes her life is in danger, she flees.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 8, <b>Dex</b> 13, <b>Con</b> 9, <b>Int</b> 11, <b>Wis</b> 10, <b>Cha</b> 14</p>
+<p class="stat-block-1"><b>Base Atk</b> +1; <b>CMB</b> +0; <b>CMD</b> 12</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +6, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +4, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (dance) +7, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (sing, string instruments) +6, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +5, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +4</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>Gear</b> noble's outfit, signet ring, 310 gp</p>
+
+<p>Well-rounded in her training, the princess is a demure lady of the court who handles herself quite well in a fight. She has a stubborn streak and a taste for adventure, and doesn't like commoners telling her what she can and can't do.</p>
+<p>Most of her remaining wealth is in the form of fine jewelry, such as rings, necklaces, a tiara, or a scepter. These items are quite recognizable as belonging to the royal family and sure to cause suspicion if they are found in the hands of anyone else.</p>
+		
+<p id="squire" class="stat-block-title">Squire <span class="stat-block-cr">CR 1</span></p>
+<p class="stat-block-1"><b>XP</b> 400</p>
+<p class="stat-block-1"><b>Human aristocrat</b> 3</p>
+<p class="stat-block-1">N Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +5</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 19 (3d8+6)</p>
+<p class="stat-block-1"><b>Fort</b> +1, <b>Ref</b> +2, <b>Will</b> +2</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk longsword +4 (1d8+1/19–20) or dagger +3 (1d4+1/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b> composite shortbow +3 (1d6+1/×3)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> If serving a knight, the aristocrat fights near his master, making frequent use of flanking and aid another. He stays mounted to take advantage of his horse's attacks.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 13, <b>Dex</b> 12, <b>Con</b> 10, <b>Int</b> 8, <b>Wis</b> 9, <b>Cha</b> 11</p>
+<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> +3; <b>CMD</b> 14</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a></p>
+<p class="stat-block-1"><b>Languages </b>Common</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +4, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +6, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +4, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) +3, Perception +5, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +2</p>
+<p class="stat-block-1"><b>Combat Gear</b> holy water; <b>Other  Gear</b> chainmail, composite shortbow (+1 Str) with 20 arrows, dagger, masterwork longsword, bit and bridle, light horse (combat trained), riding saddle, saddlebags, 11 gp</p>
+
+<p>This squire has begun his knightly training, but not yet earned his spurs. He aspires to match the valor and chivalry of the finest knights. Most of his duties involve caring for his knight's armor, weapons, and horse, holding prisoners taken by the knight, and giving the knight an honorable burial if he is killed.</p>
+<p>The knight may instruct the squire to follow him into battle. If the squire proves himself loyal, skilled, and reliable in combat, his knight may choose to elevate him to full knight status (though in some lands this ceremony may only be performed by the ruler). A knight may have many squires, but a squire serves only one knight.</p>
+
+
+<p id="heir-apparent" class="stat-block-title">Heir Apparent <span class="stat-block-cr">CR 2</span></p>
+<p class="stat-block-1"><b>XP</b> 600</p>
+<p class="stat-block-1"><b>Human aristocrat</b> 4</p>
+<p class="stat-block-1">LG Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +3</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 22 (4d8+4)</p>
+<p class="stat-block-1"><b>Fort</b> +1, <b>Ref</b> +2, <b>Will</b> +3</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk longsword +4 (1d8/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b> dagger +4 (1d4/19–20)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The aristocrat fights with skill and caution, as suits one whose duty is to the throne. If in the company of others, she suggests clever tactics even if she is not actually in command of the group.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 12, <b>Con</b> 10, <b>Int</b> 11, <b>Wis</b> 8, <b>Cha</b> 13</p>
+<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +3; <b>CMD</b> 14</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>), <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +11, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (engineering, religion) +4, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) +7, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +4, Perception +3, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (dance) +5, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +5, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +4, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>oil of <a href="/pathfinderRPG/prd/spells/blessWeapon.html#_bless-weapon" >bless weapon</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i>; <b>Other Gear</b> masterwork breastplate, dagger, masterwork longsword, noble's outfit, signet ring, 253 gp</p>
+
+<p>The heir apparent has been groomed to rule since birth, yet aspires to an even greater destiny. She welcomes the obligations of a ruling queen, and hopes to accomplish deeds of great heroism, justice, and mercy during her time on the throne. She is normally accompanied by guards (warriors 3) or officers (aristocrats 6).</p>
+<p>Some of her remaining wealth is in the form of royal regalia, such as a circlet, and is easily recognized as royal property.</p>
+
+
+		
+<p id="falconer" class="stat-block-title">Falconer <span class="stat-block-cr">CR 3</span></p>
+<p class="stat-block-1"><b>XP</b> 800</p>
+<p class="stat-block-1"><b>Human aristocrat</b> 5</p>
+<p class="stat-block-1">CG Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +10</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 15, touch 11, flat-footed 14 (+4 armor, +1 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 17 (5d8–5)</p>
+<p class="stat-block-1"><b>Fort</b> +0, <b>Ref</b> +4, <b>Will</b> +3</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk short sword +4 (1d6/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk light crossbow +5 (1d8/19–20)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The aristocrat mounts his horse and flees while shooting his crossbow. He orders his falcon to attack only if his foes seem weak or he is in mortal peril.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 12, <b>Con</b> 9, <b>Int</b> 11, <b>Wis</b> 8, <b>Cha</b> 14</p>
+<p class="stat-block-1"><b>Base Atk </b>+3; <b>CMB</b> +3; <b>CMD</b> 14</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a>, Perception)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +5, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +9, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +13, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) +7, Perception +10, <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (falconer) +7, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +3, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +3</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, tanglefoot bag; <b>Other Gear</b> mithral chain shirt, masterwork light crossbow with 20 bolts, masterwork short sword, signal whistle, silver holy symbol, trained hawk (<i>Pathfinder RPG Bestiary</i> 131, worth 40 gp), bit and bridle, light horse (combat trained), riding saddle, saddlebags, 360 gp</p>
+
+<p>The falconer has dedicated his life to training birds of prey&mdash;his raptors are his dearest friends. He cares little about courtly life and prefers the company of his noble birds.</p>
+
+
+<p id="officer" class="stat-block-title">Officer <span class="stat-block-cr">CR 4</span></p>
+<p class="stat-block-1"><b>XP</b> 1,200</p>
+<p class="stat-block-1"><b>Elf aristocrat</b> 6</p>
+<p class="stat-block-1">N Medium humanoid (elf)</p>
+<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> low-light vision; Perception +8</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 16, touch 10, flat-footed 16 (+6 armor)</p>
+<p class="stat-block-1"><b>hp</b> 36 (6d8+9)</p>
+<p class="stat-block-1"><b>Fort</b> +2, <b>Ref</b> +2, <b>Will</b> +7; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Immune</b> sleep</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk greatsword +8 (2d6+3/19–20) or mwk warhammer +7 (1d8+2/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +5 (1d8+2/×3)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The aristocrat directs her troops from horseback, saving her personal attention for the toughest foes. She uses <i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> to save her most wounded subordinates from death.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 10, <b>Con</b> 10, <b>Int</b> 11, <b>Wis</b> 10, <b>Cha</b> 11</p>
+<p class="stat-block-1"><b>Base Atk</b> +4; <b>CMB</b> +6; <b>CMD</b> 16</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (greatsword)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +9, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) +5, Perception +8, <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (soldier) +9, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +6, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven</p>
+<p class="stat-block-1"><b>SQ</b> elven magic, weapon familiarity</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (3), <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>; <b>Other Gear</b> masterwork breastplate, masterwork composite longbow (+2 Str) with 20 arrows, masterwork greatsword, masterwork warhammer, courtier's outfit, bit and bridle, light horse (combat trained), military saddle, saddlebags, studded leather barding, 1,121 gp</p>
+
+<p>The officer is a capable and seasoned commander, and has earned the loyalty of her troops.</p>
+		
+<p id="mayor" class="stat-block-title">Mayor <span class="stat-block-cr">CR 5</span></p>
+<p class="stat-block-1"><b>XP</b> 1,600</p>
+<p class="stat-block-1"><b>Human aristocrat</b> 7</p>
+<p class="stat-block-1">N Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> Perception +2</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 15, touch 10, flat-footed 15 (+5 armor)</p>
+<p class="stat-block-1"><b>hp</b> 31 (7d8)</p>
+<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +4, <b>Will</b> +9</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 35 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk rapier +7 (1d6–1/18–20)</p>
+<p class="stat-block-1"><b>Ranged</b> dagger +5 (1d4–1/19–20)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The aristocrat drinks his <i>potion of <a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i>. He then calls rat swarms with his <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_pipes-of-the-sewers" >pipes of the sewers</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The aristocrat sends his rats forward and hides behind allies. If alone, he uses <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a> to prolong the fight in the hope that help will arrive in time to save him.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i>, the aristocrat's statistics are <b>Perception</b> +0; <b>Fort</b> +2, <b>Ref</b> +2; <b>Will</b> +7; <b>Melee</b> mwk rapier +5 (1d6–1/18–20); <b>Skills</b> –2 on all skills.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 8, <b>Dex</b> 11, <b>Con</b> 10, <b>Int</b> 13, <b>Wis</b> 10, <b>Cha</b> 14</p>
+<p class="stat-block-1"><b>Base Atk</b> +5; <b>CMB</b> +4; <b>CMD</b> 14</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_fleet" >Fleet</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_persuasive" >Persuasive</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> [local])</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> +10, <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +14, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +16, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +14, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +9, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +16, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) +11, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +7, Perception +2, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (wind) +8, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +12</p>
+<p class="stat-block-1"><b>Languages</b> Common, Halfling</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i>; <b>Other Gear</b> <i>+1 chain shirt</i>, dagger, masterwork rapier, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_pipes-of-the-sewers" >pipes of the sewers</a></i>, antitoxin (2), courtier's outfit, staff of office (worth 200 gp), everburning torch, 430 gp</p>
+
+<p>The mayor has taken to wearing a chain shirt beneath his clothing in the event that illicit lenders come calling to collect the money he owes.</p>
+
+
+<p id="diplomat" class="stat-block-title">Diplomat <span class="stat-block-cr">CR 6</span></p>
+<p class="stat-block-1"><b>XP</b> 2,400</p>
+<p class="stat-block-1"><b>Half-elf aristocrat</b> 8</p>
+<p class="stat-block-1">N Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> low-light vision; Perception +12</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 11, touch 11, flat-footed 10 (+1 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 28 (8d8–8)</p>
+<p class="stat-block-1"><b>Fort</b> +2, <b>Ref</b> +4, <b>Will</b> +9</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk rapier +6/+1 (1d6–1/18–20)</p>
+<p class="stat-block-1"><b>Ranged</b> dagger +7 (1d4–1/19–20)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The diplomat prefers to fence with words rather than blades, but handles a rapier competently. She tries to talk her opponents out of fighting, emphasizing the legal and political trouble caused by harming an official diplomat.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 9, <b>Dex</b> 12, <b>Con</b> 8, <b>Int</b> 12, <b>Wis</b> 10, <b>Cha</b> 16</p>
+<p class="stat-block-1"><b>Base Atk</b> +6; <b>CMB</b> +5; <b>CMD</b> 16</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_persuasive" >Persuasive</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> [history])</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +14, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +19, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography, religion) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +14, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) +8, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +6, Perception +12, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (dance) +7, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +5, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +13</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven, Elven, Giant, Goblin</p>
+<p class="stat-block-1"><b>SQ</b> elf blood</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>; <b>Other Gear</b> dagger, masterwork rapier, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_figurines-of-wondrous-power" >figurine of wondrous power</a></i> (silver raven), antitoxin (4), noble's outfit, signet ring, 298 gp</p>
+
+<p>Exposed since birth to the contentious relationships between disparate races and nationalities, the diplomat found her calling in resolving the differences of others. Her half-elven lifespan means she has dealt with three or more generations of human nobility in various countries and is well versed in evolving etiquette. Slow-burning feuds and several attempts on her life have made her cautious and patient in her work.</p>
+<p>Some of her remaining wealth is in the form of jewelry appropriate to her station (worth approximately 50 gp).</p>
+
+
+		
+<p id="knight" class="stat-block-title">Knight <span class="stat-block-cr">CR 7</span></p>
+<p class="stat-block-1"><b>XP</b> 3,200</p>
+<p class="stat-block-1"><b>Human aristocrat</b> 9</p>
+<p class="stat-block-1">LE Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +5</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 22, touch 11, flat-footed 21 (+9 armor, +1 Dex, +2 shield)</p>
+<p class="stat-block-1"><b>hp</b> 76 (9d8+36)</p>
+<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +4, <b>Will</b> +5</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk lance +12/+7 (1d8+5/×3) or</p>
+<p class="stat-block-2"><i>+1 longsword</i> +12/+7 (1d8+6/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite shortbow +8/+3 (1d6+3/×3)</p>
+<p class="stat-block-1"><b>Space </b>5 ft.; <b>Reach</b> 5 ft. (10 ft. with lance)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> Before a fight or joust, the aristocrat drinks his <i>potions of <a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i> and <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The aristocrat opens with a charge. When confronting foes on foot, he stows his lance, then attacks with his longsword. Against mounted foes, he wheels about and charges so he can use Unseat, repeating this until all his opponents are dismounted. If he is unable to hit a well-armored rider, he is not above attacking the mount instead.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i> and <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, the aristocrat's statistics are <b>hp</b> 58; <b>Fort</b> +4; <b>Melee</b> mwk lance +10/+5 (1d8+3/×3) or <i>+1 longsword</i> +10/+5 (1d8+4/19–20); <b>Str</b> 16, <b>Con</b> 12; <b>CMB</b> +9; <b>CMD</b> 20.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 12, <b>Con</b> 16, <b>Int</b> 10, <b>Wis</b> 8, <b>Cha</b> 9</p>
+<p class="stat-block-1"><b>Base Atk</b> +6; <b>CMB</b> +11; <b>CMD</b> 22</p>
+<p class="stat-block-1"><b>Feats</b> Improved Bull Rush, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Ride-By Attack, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a>), Spirited Charge, Unseat</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +11, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +5, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +11, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) +12, Perception +5, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +10, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>+1 human-bane arrows</i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>; <b>Other Gear</b> masterwork full plate, masterwork heavy steel shield, <i>+1 longsword</i>, dagger, masterwork composite shortbow (+3 Str) with 40 arrows, masterwork lance, noble's outfit, signet ring, bit and bridle, heavy horse (combat trained), masterwork breastplate barding, military saddle, saddlebags, 163 gp</p>
+
+<p>Although this tarnished knight considers his honor beyond reproach, he covets personal glory and seeks the humiliation of his enemies. Whether commanding a host of knights to rout tribes of hobgoblins or orcs or touring the land in search of jousting competitions, the knight is a tall, towering figure, striking fear into the hearts of his opponents.</p>
+<p>The knight does not fear battle and refuses to cheat or use underhanded methods to achieve victory. He does not believe that using magic is cheating, though he prefers spells and items that enhance natural prowess rather than ones that directly harm or afflict enemies, and frowns on knights, warlords, and monsters that use such cowardly tactics. His word is his bond, and he will negotiate an enemy's surrender to spare the lives of common troops from pointless slaughter.</p>
+<p>The above stat block may be used for a military commander such as a general. It can also be used for a lesser scion of a noble or royal house&mdash;one who has little or no chance of inheriting the throne and is instead trained for war. Such a scion may be loyal to the crown or may attempt to gain support among the nobility to stage a coup and usurp the throne for himself or a foreign power.</p>
+
+		
+<p id="king" class="stat-block-title">King <span class="stat-block-cr">CR 8</span></p>
+<p class="stat-block-1"><b>XP</b> 4,800</p>
+<p class="stat-block-1"><b>Human aristocrat</b> 10</p>
+<p class="stat-block-1">N Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> Perception +10</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 18, touch 11, flat-footed 18 (+7 armor, +1 deflection)</p>
+<p class="stat-block-1"><b>hp</b> 50 (10d8+5)</p>
+<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +4, <b>Will</b> +10</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk longsword +8/+3 (1d8–1/19–20) or light mace +6/+1 (1d6–1)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk dagger +8/+3 (1d4–1/19–20)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> No stranger to battle, the aristocrat fights with his longsword and orders all available guards and retainers to slay his attackers for the crime of attacking his royal person. He takes full tactical command of the battle, directing each subject, and avoids actions that put him at risk. If it looks like he would be killed or captured, he directs his guards to block pursuers and tries to flee.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 8, <b>Dex</b> 11, <b>Con</b> 10, <b>Int</b> 14, <b>Wis</b> 10, <b>Cha</b> 14</p>
+<p class="stat-block-1"><b>Base Atk</b> +7; <b>CMB</b> +6; <b>CMD</b> 17</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a>, <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_persuasive" >Persuasive</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (longsword)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +10, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +19, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +12, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography, history) +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) +15, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +8, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +9, Perception +10, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (dance) +6, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (oratory) +10, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +6, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +17</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven, Elven, Giant, Gnome, Halfling, Sylvan</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>potion of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>; <b>Other Gear</b> <i>+1 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-glamered" >glamered</a> breastplate</i>, masterwork dagger, masterwork longsword, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, royal outfit, crown (worth 500 gp), royal scepter (worth 250 gp, as light mace in combat), royal seal (worth 150 gp), 233 gp</p>
+
+<p>Though once an even-tempered and capable ruler, the king tires of the responsibilities of the crown and reflects fondly on his days as a questing noble knight, free of court intrigue and stifling castle walls. Petitioners who bore or offend him risk arousing his anger, as do sycophants and hangers-on. He admires soldiers, knights, and adventurers, though he doesn't tolerate disrespect of himself, his family, or his country.</p>
+<p>If the king has a suitable heir (and therefore can afford to take minor risks with his own life), he may sate his desire for fresh air and action by going on hunting trips, accompanied by a select group of nobles and trusted guards. Player characters who earn his goodwill may be invited to these outings, but should be wary of outshining the king's skill at riding or hunting. The king giving unexpected attention to the PCs may anger other nobles and provide roleplaying and campaign plot opportunities.</p>
+<p>Note that much of the king's wealth is in the form of royal regalia, such as a crown and royal seal. These items are easily recognized as royal property and any non-noble caught with them is assumed to be a thief. The king also has access to other jewelry and clothing that belongs to the official regalia of his office (such as crown jewels), which may be worth thousands of gold pieces or more.</p>
+<p>The above stat block can also be used for a queen, adventuring prince or princess, or a (non-spellcaster) ruler of a powerful religious institution (especially in lands where it is customary for younger sons or daughters to become clergy).</p>
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

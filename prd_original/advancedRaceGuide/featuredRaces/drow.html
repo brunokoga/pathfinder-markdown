@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Drow</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Drow",globalNavPath=[{ href: '/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html', name: 'Featured Races'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body">
+
+<h1 id="drow">Drow</h1>
+<p>Cruel and cunning, drow are a dark reflection of the elven race. Also called dark elves, they dwell deep underground in elaborate cities shaped from the rock of cyclopean caverns. Drow seldom make themselves known to surface folk, preferring to remain legends while advancing their sinister agendas through proxies and agents. Drow have no love for anyone but themselves, and are adept at manipulating other creatures. While they are not born evil, malignancy is deep-rooted in their culture and society, and nonconformists rarely survive for long. Some stories tell that given the right circumstances, a particularly hateful elf might turn into a drow, though such a transformation would require a truly heinous individual.</p>
+<p><b>Physical Description</b>: Drow are similar in stature to humans, but share the slender build and features of elves, including the distinctive long, pointed ears. Their eyes lack pupils and are usually solid white or red. Drow skin ranges from coal black to a dusky purple. Their hair is typically white or silver, though some variation is not unknown.</p>
+<p><b>Society</b>: Drow society is traditionally class-oriented and matriarchal. Male drow usually fulfill martial roles, defending the species from external threats, while female drow assume positions of leadership and authority. Reinforcing these gender roles, one in 20 drow are born with exceptional abilities and thus considered to be nobility, and the majority of these special drow are female. Noble houses define drow politics, with each house governed by a noble matriarch and composed of lesser families, business enterprises, and military companies. Each house is also associated with a demon lord patron. Drow are strongly driven by individual self-interest and advancement, which shapes their culture with seething intrigue and politics, as common drow jockey for favor of the nobility, and the nobility rise in power through a combination of assassination, seduction, and treachery. </p>
+<p><b>Relations</b>: Drow have a strong sense of racial superiority and divide non-drow into two groups: slaves, and those that are not yet slaves. In practice, however, races that may share similar inclinations (such as hobgoblins and orcs) and those who serve willingly may be treated as servitor races and granted a measure of trust and modest rank in drow society. Others, such as dwarves, gnomes, and halflings, are deemed fit only for the lash. Manipulative drow delight in exploiting the weak character of humans. While they claim no kinship with fetchlings, the drow harbor a curiosity toward the shadow race, as both are adaptations of races exposed to extreme and dangerous conditions. Finally, the drow's hatred of elves sets these beings apart from all other races, and the dark elves desire nothing more than to ruin everything about their surface cousins.</p>
+<p><b>Alignment and Religion</b>: Drow place a premium on power and survival, and are unapologetic about any vile choices they might make to ensure their survival. After all, they do not just survive adversity&mdash;they conquer it. They have no use for compassion, and are unforgiving of their enemies, both ancient and contemporary. Drow retain the elven traits of strong emotion and passion, but channel it through negative outlets, such as hatred, vengeance, lust for power, and raw carnal sensation. Consequently, most drow are chaotic evil.</p>
+<p><b>Adventurers</b>: Conquerors and slavers, drow are driven to expand their territory, and many seek to settle ancient grudges upon elven and dwarven nations in ruinous and dreary sites of contested power on the surface. Male drow favor martial or stealth classes that put them close to their enemies and their homes, as either soldiers or spies. Female drow typically assume classes that lend themselves to leadership, such as bards and especially clerics. Both genders have an innate talent for the arcane arts, and may be wizards or summoners. Drow make natural antipaladins, but males are often discouraged from this path, as the feminine nobility feel discomforted by the idea of strong-willed males with autonomous instincts and a direct relationship with a demon lord.</p>
+<p><b>Male Names</b>: Arcavato, Drovic, Firyin, Kaelmourn, Mirrendier, Pharnox, Syrendross, Zov.</p>
+<p><b>Female Names</b>: Belmarniss, Cylellinth, Ilvaria, Johysis, Loscivia, Tyvorhan, Ulumbralya, Volundeil.</p>
+
+<h1 id="drow-racial-traits">Drow Racial Traits</h1>
+<p id="+2-dexterity,-+2-charisma,--2-constitution"><b>+2 Dexterity, +2 Charisma, &ndash;2 Constitution</b>: Drow are nimble and manipulative.</p>
+<p id="elf"><b>Elf</b>: Drow are humanoids with the elf subtype.</p>
+<p id="medium"><b>Medium</b>: Drow are Medium creatures and receive no bonuses or penalties due to their size.</p>
+<p id="normal-speed"><b>Normal Speed</b>: Drow have a base speed of 30 feet.</p>
+<p id="darkvision"><b>Darkvision</b>: Drow can see in the dark up to 120 feet.</p>
+<p id="drow-immunities"><b>Drow Immunities</b>: Drow are immune to magic sleep effects and gain a +2 racial bonus on saving throws against enchantment spells and effects.</p>
+<p id="keen-senses"><b>Keen Senses</b>: Drow gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks.</p>
+<p id="poison-use"><b>Poison Use</b>: Drow are skilled in the use of poison and never risk accidentally poisoning themselves.</p>
+<p id="spell-resistance"><b>Spell Resistance</b>: Drow possess spell resistance equal to 6 plus their class levels.</p>
+<p id="spell"><b>Spell</b>-<b>Like Abilities:</b> A drow can cast <i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights" >dancing lights</a></i>, <i><a href="/pathfinderRPG/prd/spells/darkness.html#_darkness" >darkness</a></i>, and <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i>, once each per day, using her total character level as her caster level.</p>
+<p id="light-blindness"><b>Light Blindness</b>: Abrupt exposure to bright light blinds drow for 1 round; on subsequent rounds, they are dazzled as long as they remain in the affected area.</p>
+<p id="weapon-familiarity"><b>Weapon Familiarity</b>: Drow are proficient with the hand crossbow, rapier, and short sword.  </p>
+<p id="languages"><b>Languages</b>: Drow begin play speaking Elven and Undercommon. Drow with high Intelligence scores can choose from the following languages: Abyssal, Aklo, Aquan, Common, Draconic, Drow Sign Language, Gnome, or Goblin.</p>
+
+<h1 id="alternate-racial-traits">Alternate Racial Traits</h1>
+<p>The following racial traits may be selected instead of existing drow racial traits. Consult your GM before selecting any of these new options.</p>
+<p id="ambitious-schemer"><b>Ambitious Schemer</b>: Seduction and treachery are tools for advancement in drow society, even for the martially inclined. Drow with this racial trait may choose either <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> or <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> as a class skill, and gain a +2 bonus on such skill checks. This racial trait replaces keen sight.</p>
+<p id="ancestral-grudge"><b>Ancestral Grudge</b>: The enmity between the drow and elves and dwarves is long-standing and deeply entrenched. Drow with this racial trait gain a +1 bonus on attack rolls against humanoids with the dwarf or elf subtypes (with the exception of drow) because of their special training against these reviled foes. This racial trait replaces poison use.</p>
+<p id="blasphemous-covenant"><b>Blasphemous Covenant</b>: Since their twisted beginnings, the drow have consorted with demons. Some drow have strong ties with these creatures and may call upon ancient and obscene associations to sway demonic cooperation. Drow with this racial trait gain a +2 bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks made against unbound creatures with the demon subtype. Furthermore, demons conjured with any <i>summon</i> spell gain +2 hit points per Hit Die. Lastly, the cost of bribes or offerings for any <i><a href="/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally" >planar ally</a></i> spell cast by these drow to summon a demon is reduced by 20%. This racial trait replaces keen senses and poison use.</p>
+<p id="darklands-stalker"><b>Darklands Stalker</b>: The lands outside of drow cities, from rough-hewn tunnels to rocky caverns, are treacherous to navigate. Drow with this racial trait may move through difficult terrain without penalty while underground. In addition,&nbsp;drow&nbsp;with a Dexterity of 13 or higher gain <a href="/pathfinderRPG/prd/feats.html#_nimble-moves" >Nimble Moves</a> as a bonus feat. This racial trait replaces the spell-like abilities racial trait.</p>
+<p id="seducer"><b>Seducer</b>: Certain drow possess an innate understanding of the darkest desires that lurk in every heart. Drow with this racial trait add +1 to the saving throw DCs for spells and spell-like abilities of the enchantment school. In addition, drow with a Wisdom score of 15 or higher may use <i><a href="/pathfinderRPG/prd/spells/charmPerson.html#_charm-person" >charm person</a></i> once per day as a spell-like ability (caster level equal to the drow's character level). This racial trait replaces drow immunities. </p>
+<p id="surface-infiltrator"><b>Surface Infiltrator</b>: Some drow dwell close to the surface lands, either because they serve drow causes or they were exiled. Drow with this racial trait gain low-light vision, allowing them to see twice as far as humans in conditions of dim light. This racial trait replaces the darkvision and light blindness racial traits. </p>
+
+<h1 id="favored-class-options">Favored Class Options</h1>
+<p>The following options are available to all drow who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.</p>
+<p id="alchemist"><b>Alchemist</b>: Add +10 minutes to the duration of the alchemist's mutagens.</p>
+<p id="antipaladin"><b>Antipaladin</b>: The antipaladin adds +1/4 to the number of cruelties he can inflict.</p>
+<p id="cleric"><b>Cleric</b>: Select one domain power granted at 1st level that is normally usable a number of times per day equal to 3 + the cleric's Wisdom modifier. The cleric adds +1/2 to the number of uses per day of that domain power.</p>
+<p id="fighter"><b>Fighter</b>: Choose the disarm or reposition combat maneuver. Add +1/3 to the fighter's CMB when attempting this maneuver (maximum bonus of +4).</p>
+<p id="rogue"><b>Rogue</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> checks to feint and pass secret messages.</p>
+<p id="sorcerer"><b>Sorcerer</b>: Add one spell known from the sorcerer spell list. This spell must have the curse, evil, or pain descriptor, and be at least one level below the highest spell level the sorcerer can cast.</p>
+<p id="wizard"><b>Wizard</b>: Select one arcane school power at 1st level that is normally usable a number of times per day equal to 3 + the wizard's Intelligence modifier. The wizard adds +1/2 to the number of uses per day of that arcane school power.</p>
+
+<h1 id="racial-archetypes">Racial Archetypes</h1>
+<p>The following racial archetypes are available to drow.</p>
+
+<h2 id="cavern-sniper-(fighter)">Cavern Sniper (Fighter)</h2>
+<p>Perfectly at home in the darkness, the cavern sniper capitalizes on stealth and ranged attacks imbued with his spell-like abilities to harass his opponents. The cavern sniper focuses on surprise, his innate magical abilities, and poison to take down unwary foes. The cavern sniper has the following class features.</p>
+<p id="class-skills"><b>Class Skills</b>: The cavern sniper adds <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> to his list of class skills and removes <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> from his list of class skills.</p>
+<p id="imbued-shot"><b>Imbued Shot (Su)</b>: At 1st level, the cavern sniper gains the ability to imbue his arrows or bolts with the effect of one of his drow <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i>, <i><a href="/pathfinderRPG/prd/spells/darkness.html#_darkness" >darkness</a></i>, or <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i> spell-like abilities (provided he has access to the ability) as a swift action. When such an arrow or bolt is fired, the spell's area is centered where the arrow or bolt lands. If the target of the attack has a space larger than 5 feet, the cavern sniper can choose which square of the creature's space is the center of the spell-like ability's effect, as long as that square is within line of sight of the cavern sniper. The cavern sniper can instead choose to target a single square within line of sight with an imbued arrow or bolt, and uses that square as the center of the spell-like ability's area of effect on a hit (AC 5). The arrow must be fired during the round it was imbued, or the spell-like ability is wasted. If the arrow or bolt misses, the use of the spell-like ability is wasted. This ability replaces the 1st-level fighter bonus feat.</p>
+<p id="silent-shooter"><b>Silent Shooter (Ex)</b>: At 2nd level, a cavern sniper gains a +2 bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks made when loading a bow or crossbow, poisoning ammunition, and making sniping attempts. This bonus increases by +2 for every four levels beyond 2nd. This ability replaces bravery. </p>
+<p id="quick-and-deadly"><b>Quick and Deadly (Ex)</b>: At 4th level, the cavern sniper can move at full speed while using <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> at no penalty and can apply poison to a single arrow or crossbow bolt as a swift action. This ability replaces the 4th-level fighter bonus feat.</p>
+<p id="sniper-training"><b>Sniper Training (Ex)</b>: At 5th level, the cavern sniper chooses the bow or crossbow weapon group and gains a +2 bonus on attack rolls and damage rolls. This bonus increases by +1 for every four levels beyond 5th. This ability replaces weapon training 1, 3, and 4.</p>
+<p id="greater-imbued-shot"><b>Greater Imbued Shot (Su)</b>: At 9th level, the cavern sniper gains two extra uses of both his <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i> and <i><a href="/pathfinderRPG/prd/spells/darkness.html#_darkness" >darkness</a> </i>spell-like abilities, but can only use these extra uses to imbue arrows and bolts with the imbued shot class feature. This ability replaces weapon training 2. </p>
+<p id="weapon-mastery"><b>Weapon Mastery (Ex)</b>: At 20th level, when the cavern sniper gains weapon mastery, he must choose a weapon in either the bow or crossbow weapon group. </p>
+
+<h2 id="demonic-apostle-(cleric)">Demonic Apostle (Cleric)</h2>
+<p>In order to survive, the drow threw in their lot with demon lords. Thus, demon worship is common among the drow, and so are ranks of demonic apostles, who gain magical insight from their dark lords and crush their chaotic masters' enemies by channeling demonic energy. A demonic apostle has the following class features.</p>
+<p id="demonic-magic"><b>Demonic Magic</b>: A demonic apostle must choose to channel negative energy, and must select either the Chaos or Evil domain or the Demon subdomain  as her sole domain.</p>
+<p id="demonic-familiar"><b>Demonic Familiar</b>: At 1st level, a demonic apostle gains a familiar as a wizard equal to her cleric level, or if she already has a familiar, her cleric levels stack to determine the familiar's abilities. At 3rd level, her familiar gains the fiendish template. At 7th level, the demonic apostle exchanges her familiar for a quasit without the need to take the <a href="/pathfinderRPG/prd/feats.html#_improved-familiar" >Improved Familiar</a> feat.</p>
+<p id="demonic-channel"><b>Demonic Channel (Su)</b>: At 1st level, a demonic apostle can channel demonic energy to damage creatures of lawful and good alignment, or, at higher levels, bolster the abilities of chaotic evil allies. </p>
+<p>Channeling this energy causes a 30-foot-radius burst centered on the cleric. Creatures within the burst that are lawful or good take 1d6 points of damage, plus 1d6 points of damage for every two levels the cleric possesses beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on). Creatures that take damage from the channeled demonic energy receive a Fortitude save to halve the damage. The DC of this save is equal to 10 + 1/2 the demonic apostle's level + the demonic apostle's Charisma modifier. Lawful good creatures take a &ndash;2 penalty on this saving throw. At 5th level, chaotic evil allies within the burst are affected as if targeted by a <i><a href="/pathfinderRPG/prd/spells/rage.html#_rage" >rage</a></i> spell with a duration of 1 round. At 9th level, lawful or good enemies are also sickened for 1d6 rounds if they fail their saving throw against the demonic channel. Channeling demonic energy is a standard action that does not provoke attacks of opportunity. This ability replaces channel energy. </p>
+
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The following options are available to drow. At the GM's discretion, other appropriate races may make use of some of these new rules.</p>
+
+<h2 id="drow-equipment">Drow Equipment</h2>
+<p>Drow have access to the following equipment.</p>
+<p id="riding-bat"><b>Riding Bat</b>: Considered to be the fastest nonmagical transport in the Darklands, dire bats (<i>Bestiary </i>30) are domesticated in captivity to serve as riding animals. Stables that accommodate these massive creatures are only commonly found in drow cities built in larger underground caverns, owing to the greater space required for training and exercise, though some drow outriders fly them almost to the surface. These creatures require exotic saddles to ride.</p>
+<p id="riding-gecko"><b>Riding Gecko</b>: Larger than even what is commonly referred to as a giant gecko, these mammoth lizards have been specifically bred to be used as mounts for the drow. Prized for their ability to run along cave ceilings and sheer walls, these creatures require exotic saddles to ride. Use the statistics for a giant gecko with the giant template.</p>
+<p id="spider-sac"><b>Spider Sac</b>: Despite their name, spider sacs have nothing to do with spiders but rather are alchemical devices with a unique delivery system. Used for climbing as well as combat, these grayish, gourdlike pouches are made of a specially grown fungus with a tough but rubbery exterior. The fungoid is carefully harvested, pierced at one end, hollowed out, and then injected with a strong alchemical adhesive that hardens to a fibrous material almost instantly when exposed to air. When squeezed, a spider sac's adhesive shoots out to a maximum range of 10 feet and sticks to whatever it strikes, whereupon the strand dries instantly into a durable fibrous rope. For the purposes of climbing, treat a spider sac as a grappling hook except that all surfaces are AC 5. A spider sac can also be used as a lasso  except with AC 10, 4 hit points, and a DC 24 Strength check to burst. A spider sac is a single-use item.</p>
+
+<table><caption>Drow Equipment</caption>
+<thead><tr><th>Item</th><th>Cost</th><th>Weight</th><th>Craft DC</th></tr></thead>
+<tr class="odd"><td>Spider sac</td><td>30 gp</td><td>1 lb.</td><td>20</td></tr></table>
+
+<table><caption>Drow Mounts</caption>
+<thead><tr><th>Mount</th><th>Cost</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Bat, dire, riding</td><td>300 gp</td><td>&mdash;</td></tr>
+<tr class="even"><td>Bat, dire, riding (combat trained)</td><td>450 gp</td><td>&mdash;</td></tr>
+<tr class="odd"><td>Gecko, riding</td><td>300 gp</td><td>&mdash;</td></tr>
+<tr class="even"><td>Gecko, riding (combat trained)</td><td>400 gp</td><td>&mdash;</td></tr></table>
+
+
+<h2 id="drow-feats">Drow Feats</h2>
+<p>Drow have access to the following feats.</p>
+<div class="feats-text">
+<h3 id="drow-nobility">Drow Nobility</h3>
+<p>Your blood courses with power, granting you greater spell-like abilities.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Able to use drow spell-like abilities, drow.</p>
+<p class="stat-block-1"><b>Benefit</b>: You may use <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i> as a spell-like ability at will, and add <i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall" >feather fall</a></i> and <i><a href="/pathfinderRPG/prd/spells/levitate.html#_levitate" >levitate</a></i> to the spell-like abilities that you may use once each per day. Your caster level is equal to your character level.</p>
+
+<h3 id="greater-drow-nobility">Greater Drow Nobility</h3>
+<p>You have mastered the lesser spell-like abilities of the drow, demonstrating true nobility.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Cha 13, Drow Nobility, Improved Drow Nobility, able to use drow spell-like abilities, drow.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i> spell-like ability is now constant. You may use your <i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights" >dancing lights</a></i>, <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i>, <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i>, <i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall" >feather fall</a></i>, and <i><a href="/pathfinderRPG/prd/spells/levitate.html#_levitate" >levitate</a></i> spell-like abilities at will.</p>
+
+<h3 id="improved-drow-nobility">Improved Drow Nobility</h3>
+<p>Your magical heritage is more potent than that of your peers, as demonstrated by your superior spell-like abilities.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Cha 13, Drow Nobility, able to use drow spell-like abilities, drow.</p>
+<p class="stat-block-1"><b>Benefit</b>: You may use your <i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights" >dancing lights</a></i>, <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i>, <i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall" >feather fall</a></i>, and <i><a href="/pathfinderRPG/prd/spells/levitate.html#_levitate" >levitate</a></i> spell-like abilities twice per day. Your <i><a href="/pathfinderRPG/prd/spells/darkness.html#_darkness" >darkness</a></i> spell-like ability instead becomes <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i>, which you may use twice per day.</p>
+
+<h3 id="improved-umbral-scion">Improved Umbral Scion</h3>
+<p>You are a master of drow noble magic.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Cha 13, Wis 13, Drow Nobility, Greater Drow Nobility, Improved Drow Nobility, Umbral Scion, able to use drow spell-like abilities, drow.</p>
+<p class="stat-block-1"><b>Benefit</b>: You may use <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i>, and<i> <a href="/pathfinderRPG/prd/spells/suggestion.html#_suggestion" >suggestion</a></i> once per day as spell-like abilities. Your caster level is equal to your character level.</p>
+
+<h3 id="noble-spell-resistance">Noble Spell Resistance</h3>
+<p>Your ascension is complete; you have the spell resistance approaching that of a demon.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Cha 13, Wis 13, Greater Drow Nobility, character level 13th, drow.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your spell resistance is equal to 11 + your character level.</p>
+<p class="stat-block-1"><b>Special</b>: You receive a +1 circumstance bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> and <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks made against any drow.</p>
+
+<h3 id="shadow-caster">Shadow Caster</h3>
+<p>Your command over shadow and darkness create longer-lasting spell effects.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Caster level 1st, drow.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you cast spells of the shadow subschool or spells with the darkness descriptor, you are considered two levels higher when determining the duration of those spells.</p>
+
+<h3 id="spider-step">Spider Step</h3>
+<p>You tread where only arachnids dare. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Character level 3rd, drow.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can cast <i><a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a> </i>once per day as a spell-like ability, using your character level as the caster level. Furthermore, you gain a +4 bonus on saving throws against the web special attacks of spiders and the effects of <i><a href="/pathfinderRPG/prd/spells/web.html#_web" >web</a></i> and other similar spells (such as the <i><a href="/pathfinderRPG/prd/spells/web.html#_web" >web</a> cloud</i> spell). </p>
+
+<h3 id="spider-summoner">Spider Summoner</h3>
+<p>You gain the ability to summon powerful spiders. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Ability to cast <i>summon monster</i> or <i>summon nature's ally</i> spells, drow.</p>
+<p class="stat-block-1"><b>Benefit</b>: When casting either a <i>summon monster</i> spell or a <i>summon nature's ally</i> spell, your options increase. Depending on the level of the spell, you can summon the spiders listed below.</p>
+<blockquote>
+<p><i>Summon Monster</i>: 1st level&mdash;giant crab spider*; 4th level&mdash;giant black widow*; 5th level&mdash;ogre spider*; 7th level&mdash;giant tarantula*</p>
+<p><i>Summon Nature's Ally</i>: 1st level&mdash;giant crab spider; 4th level&mdash;giant black widow; 5th level&mdash;ogre spider; 7th level&mdash;giant tarantula</p>
+</blockquote>
+<p>Creatures marked with an asterisk (*) are summoned with the celestial template if you are good, and the fiendish template if you are evil. If you are neutral, you may choose which template to apply to the creature. </p>
+<p>Furthermore, when you summon spiders using <i>summon monster </i>or <i>summon nature's ally</i>, the DC of the summoned monster's poison and web effects increases by 2. </p>
+
+<h3 id="umbral-scion">Umbral Scion</h3>
+<p>New spell-like abilities are unlocked for you as you rise to ascendency among the drow people.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Cha 13, Wis 13, Drow Nobility, Greater Drow Nobility, Improved Drow Nobility, able to use drow spell-like abilities, drow.</p>
+<p class="stat-block-1"><b>Benefit</b>: Select one of the following: <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i>, or <i><a href="/pathfinderRPG/prd/spells/suggestion.html#_suggestion" >suggestion</a></i>. You may use this spell once per day as a spell-like ability. Your caster level is equal to your character level.</p>
+</div>
+
+<h2 id="drow-magic-items">Drow Magic Items</h2>
+<p>Drow have access to the following magic items.</p>
+<p id="gloom-blade" class="stat-block-title">Gloom Blade</p>
+<p class="stat-block-1"><b>Aura</b> strong evocation; <b>CL</b> 13th</p>
+<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 8,810 gp; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block-breaker">Description</p>
+<p>As black as coal, this short sword grows more potent the farther it is kept from light. It acts as a <i>+1 short sword</i> when in dim light. In darkness, it acts as <i>+2 short sword</i>. When surrounded by supernatural darkness, such as in an area of <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i>, it acts a <i>+2 short sword </i>and bestows the benefit of the <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a> feat to its wielder. In daylight or bright illumination, the sword temporarily loses all its magical enhancement bonuses and acts as a masterwork weapon, though it resumes its magical functions once it is no longer in the bright light.</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i>; <b>Cost</b> 4,560 gp </p>
+<p id="living-garments" class="stat-block-title">Living Garments</p>
+<p class="stat-block-1"><b>Aura</b> faint transmutation; <b>CL</b> 3rd</p>
+<p class="stat-block-1"><b>Slot</b> body; <b>Price</b> 5,000 gp; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block-breaker">Description</p>
+<p>These sheer and silky robes, many of which are made of spider silk, are of the finest quality. On command, a <i>living garment</i> can make a number of subtle adjustments to itself, including coloring, fit, and basic design, accommodating and accentuating whatever mood the wearer wishes to convey. It always remains clean, and automatically repairs damage to itself at a rate of 1 hit point per round (hardness 0, 4 hit points). It also grants the wearer a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks. </p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i>,<i> <a href="/pathfinderRPG/prd/spells/mending.html#_mending" >mending</a></i>,<i> <a href="/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation" >prestidigitation</a></i>, creator must be a drow; <b>Cost</b> 2,500 gp</p>
+<p id="rod-of-shadows" class="stat-block-title">Rod of Shadows</p>
+<p class="stat-block-1"><b>Aura</b> moderate abjuration; <b>CL</b> 8th</p>
+<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 64,305 gp; <b>Weight</b> 5 lbs. </p>
+<p class="stat-block-breaker">Description </p>
+<p>This ebon rod is so dark it seems to absorb the light around it. The rod functions as a <i>+2 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> mace</i>, and allows its wielder to see in darkness as if it had the see in darkness ability. Three times per day, the wielder can use it to create a <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a> </i>effect (caster level 8th). To use this ability, the rod's wielder must touch the object affected, which is a standard action that provokes attacks of opportunity.</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-rod" >Craft Rod</a>, <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <b>Cost</b> 32,305 gp</p>
+
+<h2 id="drow-spells">Drow Spells</h2>
+<p>Drow have access to the following spells.</p>
+<p id="ancestral-regression" class="stat-block-title">Ancestral Regression</p>
+<p class="stat-block-1"><b>School</b> transmutation (polymorph); <b>Level</b> alchemist 2, antipaladin 3, cleric 2, sorcerer/wizard 3, witch 2</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> touch</p>
+<p class="stat-block-1"><b>Target</b> willing drow touched</p>
+<p class="stat-block-1"><b>Duration</b> 24 hours (D)</p>
+<p class="stat-block-1"><b>Saving Throw</b> Will negates (harmless); <b>Spell Resistance</b> yes (harmless)</p>
+<p>The target drow transforms into a surface elf. The drow loses her darkvision and light-blindness racial traits and gains the low-light vision racial trait in their place. The alignment and personality of the drow are not affected by the transformation, but the spell conceals her alignment as an <i><a href="/pathfinderRPG/prd/spells/undetectableAlignment.html#_undetectable-alignment" >undetectable alignment</a></i> spell. The spell grants the target a +10 bonus on <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> checks to pass as an elf, though she appears to be an elven analog of herself and can be recognized as such by other drow who know her.</p>
+<p id="web-bolt" class="stat-block-title">Web Bolt</p>
+<p class="stat-block-1"><b>School</b> conjuration (creation); <b>Level</b> magus 1, sorcerer/wizard 1, witch 1</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> close (25 ft. + 5 ft./2 levels)</p>
+<p class="stat-block-1"><b>Effect</b> fist-sized blob of webbing</p>
+<p class="stat-block-1"><b>Duration</b> 1 min./level</p>
+<p class="stat-block-1"><b>Saving Throw</b> Reflex negates; see text; <b>Spell Resistance</b> no</p>
+<p>You launch a ball of webbing at a target, which must make a save or be affected as if by a <i><a href="/pathfinderRPG/prd/spells/web.html#_web" >web</a></i> spell occupying only the creature's space. If the creature saves or breaks free of the webbing, the remaining webs dissolve and the square is not considered difficult terrain. The spell has no effect if the target is not on or adjacent to a solid surface that can support the webbing.</p>
+<p id="web-cloud" class="stat-block-title">Web Cloud</p>
+<p class="stat-block-1"><b>School</b> conjuration (creation); <b>Level</b> sorcerer/wizard 4, witch 4 </p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Component</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> medium (100 ft. + 10 ft./level)</p>
+<p class="stat-block-1"><b>Effect</b> cloud spreads in 20-ft. radius, 20 ft. high</p>
+<p class="stat-block-1"><b>Duration</b> 1 minute/level</p>
+<p class="stat-block-1"><b>Saving Throw</b> Reflex partial; see text; <b>Spell Resistance</b> no </p>
+<p>You create a cloud of flame-resistant strands of adhesive webbing that billows and flows much like a <i><a href="/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill" >cloudkill</a> </i>spell. The cloud moves away from you at a rate of 10 feet per round, rolling along the surface of the ground.</p>
+<p>Figure out the cloud's new spread each round based on its new point of origin, which is 10 feet farther away from the point of origin where the caster cast the spell. Creatures trapped in the webbing remain trapped even after the cloud passes, but the area the cloud leaves behind does not count as difficult terrain.</p>
+<p>Because the webbing is heavier than air, it sinks to the lowest level of the land, even pouring down den or sinkhole openings. The cloud of webbing cannot penetrate liquids, nor can it be cast underwater. </p>
+<p>The cloud otherwise acts like a <i><a href="/pathfinderRPG/prd/spells/web.html#_web" >web</a></i> spell. A creature in the cloud at the start of its turn must save against the cloud or be affected. The webbing of this spell is flammable (see the <i><a href="/pathfinderRPG/prd/spells/web.html#_web" >web</a> </i>spell), but has fire resistance 5.</p>
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

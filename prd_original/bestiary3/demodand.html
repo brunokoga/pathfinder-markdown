@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Demodand</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Demodand",globalNavPath=[{ href: '/pathfinderRPG/prd/bestiary3/monsterIndex.html', name: 'Bestiary 3 Index'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+			<div>
+				<h1 id="demodand" class="monster-header">Demodand</h1>
+				<p>In an ancient war forgotten by most mortals, the thanatotic titans rose up against the gods in a horrific war. When the titans who launched this war were defeated, the gods banished them to the Abyss for eternity, where the gods hoped the titans' immense power would be contained. For millennia, the exiled titans seethed and brooded, convinced that only they were truly worthy of the adulation and worship of mortals&mdash;the bitter seed that had grown into their rebellion. This festering hatred mixed with arrogance led the thanatotic titans to create their own race of worshipers. They kneaded together the dark earth and polluted waters of the Abyss into clay the color of a starless night. The greatest of their sculptors and lifeshapers sculpted the clay into humanoid likenesses of themselves, the size of men but more comely, with proud visages, great draconic wings, and chiseled frames. Then the creators cut themselves and let their own blood flow into the empty shells of their creations, and let their own breath act as bellows, pumping blood and air into the sculpted figures to awaken them. Deeming their own powers to be deific, the titans reasoned that they could craft life and existence as well as the old gods. They were wrong.</p>
+				<p>The titans' sculpted paragons of might charred and melted, oozing into twisted shapes. These shapes, however, clung tenaciously to the spark of life imparted to them. </p>
+				<p>Thus the demodands were born&mdash;a hideous race of creatures imbued with the fickle cruelty of their masters. Misshapen and foul to behold, demodands are known by some scholars as titanspawn. Despite their physical repulsiveness, however, all demodands possess a drop of their creators' titanic power. This trace of near-divine power makes them as formidable as they are vicious, and many demon lords have spent years, if not centuries, waging wars, foiling raids, and undoing the damage that demodands cause. As the thanatotic titans expand their influence and holdings in the Abyss with immortal patience, it is the demodands who act as their shock troops, generals, and slavers. Their preferred captives are mortals with some connection to the gods, such as clerics, paladins, or other believers. Demodands take great pleasure in torturing such captives before subjecting them to lives of abject servitude. During the countless years of ensuing labor, demodands slip foul, insidious whispers into the ears of their slaves, designed to challenge and ultimately erode their captives' faith. Those that succumb are taken before one of the thanatotic titans to be “redeemed,” and are then sent back into the world as new believers, spreading the “true” faith of the evil titans. Such mortals often form clandestine cults dedicated to thanatotic worship, and are closely monitored by the demodands who first captured them. For those mortal slaves whose faith will not break, the demodands ensure that their bodies eventually do. </p>
+				<p>Demodands have no such ulterior motives when they take demons as slaves, for they see their abyssal cohorts as little more than powerful servants to be used for their innate strength and spell-like powers. In particular, demodands prize powerful demons like glabrezus or nalfeshnees as status symbols if they can be held, and turn these slaves into bodyguards, or gladiators in the fabled thanatotic arenas. Shaggy demodands are also known to mount entire invasions into alternate planes of the Abyss to capture incubi and succubi to serve as pleasure slaves to themselves or their titan masters.</p>
+				<p>Unlike demons, who are created from the foulest of mortal souls, demodands procreate within the foul corners of the Abyss. Female demodands birth clutches upon clutches of eggs and then leave them to fend for themselves. Those that survive to the point of hatching then enter a gruesome race with their siblings, for demodands always hatch with a great hunger. With no parents to provide for them and no guaranteed source of food, they invariably turn on their brood mates for their first meal. Both the titans and the other demodands see this fight for survival as a necessity to make the race stronger. On occasion, more than one hatchling survives, usually by fleeing the dread hunger of its siblings.</p>
+				<p>When not gleefully carrying out the domineering orders of their masters, demodands rove the Abyss looking for foolish travelers and lost souls. Others use stealth to walk the Material Plane, where they can strike out in the name of their makers. Such demodands busy themselves defacing temples and holy sites, murdering religious leaders, or subverting entire communities. </p>
+				<p>Despite worshiping their masters like deities, all demodands are imbued with the same bitter hatred of the divine that cast their makers from the heavens. This heretical fervor makes them particularly resistant to divine magic in all its forms, and all demodands have a weaker form of their progenitors' godslayer ability. Demodands take particular pleasure in disrupting the link between gods and their servants, and on the rarest of occasions have let prospective victims live after such attacks, knowing that it was not just its enemy's power, but its very faith that was shaken.</p>
+				<p>The only hatred that eclipses the demodands' loathing of demons and the religiously faithful is their fury at the celestial races. Within these vessels of divine power&mdash;angels above all others&mdash;the demodands see the incarnate form of all they were crafted to despise and destroy. Indeed, powerful individuals and evil cults alike who seek to destroy a good-aligned outsider often find that the payments they need to offer to enlist the services of even the mightiest of demodands are greatly reduced.</p>
+
+				<h1 id="demodand,-shaggy" class="monster-header">Demodand, Shaggy</h1>
+				<p class="flavor-text">This toad-faced humanoid is bloated and swollen, with folds of obsidian skin hanging down beneath two immense bat wings.</p>
+				<p class="stat-block-title">Shaggy Demodand <span class="stat-block-cr">CR 18</span></p>
+				<p class="stat-block-xp">XP 153,600</p>
+				<p class="stat-block-1">CE Medium outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype" >demodand</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +11; <b>Senses</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense" >blindsense</a> 30 ft., darkvision 60 ft., <i><a href="/pathfinderRPG/prd/spells/detectGood.html#_detect-good" >detect good</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +36</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 32, touch 17, flat-footed 25 (+7 Dex, +15 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 262 (25d10+125)</p>
+				<p class="stat-block-1"><b>Fort</b> +19, <b>Ref</b> +17, <b>Will</b> +18; +4 vs. divine spells</p>
+				<p class="stat-block-1"><b>DR</b> 15/good and magic; <b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>; <b>Resist</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10; <b>SR</b> 29</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., fly 50 ft. (average)</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+2 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_unholy" >unholy</a> morningstar</i> +36/+31/+26/+21 (1d8+11), bite +32 (2d6+4), claw +32 (1d6+4) or</p>
+				<p class="stat-block-1">bite +34 (2d6+9), 2 claws +34 (1d6+9)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> faith-stealing strike</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 20th; concentration +25)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/detectGood.html#_detect-good" >detect good</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i> (DC 17), <i><a href="/pathfinderRPG/prd/spells/fear.html#_fear" >fear</a></i> (DC 19), <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i>, <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> (self only), <i><a href="/pathfinderRPG/prd/spells/magicCircleAgainstGood.html#_magic-circle-against-good" >magic circle against good</a></i></p>
+				<p class="stat-block-2">3/day&mdash;empowered <i><a href="/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill" >cloudkill</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/fogCloud.html" >fog cloud</a></i>, quickened <i><a href="/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement" >ray of enfeeblement</a></i> (DC 16), <i><a href="/pathfinderRPG/prd/spells/stinkingCloud.html#_stinking-cloud" >stinking cloud</a></i> (DC 18)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy" >blasphemy</a></i> (DC 22), <i><a href="/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer" >chaos hammer</a></i> (DC 19), <i><a href="/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster-mass" >mass charm monster</a></i> (DC 23), summon (level 6, 1d6 tarry demodands or 1d4 slimy demodands 60%)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 29, <b>Dex</b> 24, <b>Con</b> 21, <b>Int</b> 19, <b>Wis</b> 18, <b>Cha</b> 20</p>
+				<p class="stat-block-1"><b>Base Atk</b> +25; <b>CMB</b> +34; <b>CMD</b> 51</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a>, Cleave, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_empower-spell-like-ability" >Empower Spell-Like Ability</a> (<i><a href="/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill" >cloudkill</a></i>), <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack" >Flyby Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_great-cleave">Great Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_intimidating-prowess" >Intimidating Prowess</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack" >Multiattack</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_quicken-spell-like-ability" >Quicken Spell-Like Ability</a> (<i><a href="/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement" >ray of enfeeblement</a></i>)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +35 (+39 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +28, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +28, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +35, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +42, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +26, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +15, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +15, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +36, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +36, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +29, <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +30</p>
+				<p class="stat-block-1"><b>Languages</b> Abyssal, Celestial, Common</p>
+				<p class="stat-block-1"><b>SQ</b> heretical soul</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Abyss)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or warband (1 shaggy <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype" >demodand</a> plus 2&ndash;5 tarry demodands)</p>
+				<p class="stat-block-1"><b>Treasure</b> double (<i>+2 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_unholy" >unholy</a> morningstar</i>, other treasure)</p>
+				
+				<p>Shaggy demodands are obese outsiders that occupy the highest status within demodand society. The fleshy tyrants stand just under 7 feet tall and have huge bat wings capable of supporting their 600-pound weight. Their faces have the broad-set eyes of a toad and toothy underbites.</p>
+				<p>Although they still answer to their titanic masters, shaggy demodands are the masters of their kind, and serve the thanatotic titans as advisors, covert agents, or battlefield generals. In the Abyss, shaggy demodands command great armies, leading them against demonic hordes as the balance of Abyssal power ebbs and flows. Often underestimated due to their shape, these demodands are both intelligent and cunning, and approach battle with an effective mixture of strategy and ruthless detachment.</p>
+
+				<h1 id="demodand,-slimy" class="monster-header">Demodand, Slimy</h1>
+				<p class="flavor-text">This muscular, frog-headed humanoid has tattered flesh hanging from its batlike wings and is covered in a viscous slime.</p>
+				<p class="stat-block-title">Slimy Demodand <span class="stat-block-cr">CR 16</span> </p>
+				<p class="stat-block-xp">XP 76,800</p>
+				<p class="stat-block-1">CE Medium outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype" >demodand</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> darkvision 120 ft., <i><a href="/pathfinderRPG/prd/spells/detectGood.html#_detect-good" >detect good</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +2</p>
+				<p class="stat-block-1"><b>Aura</b> stench (DC 26, 1d6 rounds)</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 30, touch 13, flat-footed 27 (+6 armor, +3 Dex, +11 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 241 (21d10+126)</p>
+				<p class="stat-block-1"><b>Fort</b> +18, <b>Ref</b> +13, <b>Will</b> +14; +4 vs. divine spells</p>
+				<p class="stat-block-1"><b>DR</b> 10/good and magic; <b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>; <b>Resist</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10; <b>SR</b> 27</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., fly 40 ft. (average)</p>
+				<p class="stat-block-1"><b>Melee</b> bite +30 (1d10+9 plus 2d6 acid), 2 claws +30 (2d6+13/19&ndash;20 plus 2d6 acid and <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a>)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> acid, dread claws, faith-stealing strike</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 16th; concentration +19)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/detectGood.html#_detect-good" >detect good</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i> (DC 15), <i><a href="/pathfinderRPG/prd/spells/fear.html#_fear" >fear</a></i> (DC 17)</p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/spells/acidFog.html#_acid-fog" >acid fog</a></i>, <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i></p>
+				<p class="stat-block-2">1/day&mdash;summon (level 6, 1d4 tarry demodands 50%)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 28, <b>Dex</b> 18, <b>Con</b> 23, <b>Int</b> 14, <b>Wis</b> 15, <b>Cha</b> 17</p>
+				<p class="stat-block-1"><b>Base Atk</b> +21; <b>CMB</b> +30 (+34 grapple); <b>CMD</b> 44</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_bleeding-critcial">Bleeding Critical</a>, <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack" >Flyby Attack</a>, Greater <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (claw), <a href="/pathfinderRPG/prd/feats.html#_improved-vital-strike">Improved Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_intimidating-prowess" >Intimidating Prowess</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +11, <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +27, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +19, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +25, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +36, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +13, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +13, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +26, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +20, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +25, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +20</p>
+				<p class="stat-block-1"><b>Languages</b> Abyssal, Celestial, Common</p>
+				<p class="stat-block-1"><b>SQ</b> heretical soul</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Abyss)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or slaving party (2 slimy demodands and 2&ndash;5 tarry demodands)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (masterwork breastplate, other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Acid (Su)</b> A slimy <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype" >demodand</a> is coated in an ever-dripping layer of acid that deals an extra 2d6 points of acid damage on a successful natural attack. In addition, opponents that successfully strike a slimy <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype" >demodand</a> with an unarmed strike or natural attack take 2d6 points of acid damage.</p>
+				<p class="stat-block-1"><b>Dread Claws (Ex)</b> A slimy <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype" >demodand</a> adds 1-1/2 times its strength bonus on all attack rolls made when using its claws.</p>
+				
+				<p>Slimy demodands are more muscular than shaggy demodands, but aren't as lithe or quick as their tarry brethren. They have froglike heads, similar to those of the shaggy demodands, but their constantly darting eyes give them a more feral look. A slimy demodand stands <br/>6 feet tall and weighs 500 pounds. </p>
+				<p>Slimy demodands often serve as shock troops in demodand armies, but they are also frequently put in charge of gathering and keeping slaves. Slimy demodands have no magical mind control powers, but prefer to rely upon intimidation and physical threats anyway to manage their slaves and keep them in line.</p>
+
+				<h1 id="demodand,-tarry" class="monster-header">Demodand, Tarry</h1>
+				<p class="flavor-text">This lithe, toothy creature's jet-black skin looks like living tar, and ooze drips from the claws that cap its long arms. </p>
+				<p class="stat-block-title">Tarry Demodand <span class="stat-block-cr">CR 13</span></p>
+				<p class="stat-block-xp">XP 25,600</p>
+				<p class="stat-block-1">CE Medium outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype" >demodand</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +9; <b>Senses</b> darkvision 120 ft., <i><a href="/pathfinderRPG/prd/spells/detectGood.html#_detect-good" >detect good</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +22</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 26, touch 13, flat-footed 23 (+6 armor, +3 Dex, +7 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 171 (18d10+72)</p>
+				<p class="stat-block-1"><b>Fort</b> +15, <b>Ref</b> +11, <b>Will</b> +12; +4 vs. divine spells</p>
+				<p class="stat-block-1"><b>DR</b> 10/good and magic; <b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>; <b>Resist</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10; <b>SR</b> 24</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., fly 40 ft. (average)</p>
+				<p class="stat-block-1"><b>Melee</b> mwk short sword +26/+21/+16/+11 (1d6+9/19&ndash;20), mwk short sword +26/+21/+16 (1d6+4/19&ndash;20), bite +22 (1d8+4)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> adhesion, faith-stealing strike</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 13th; concentration +24)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/detectGood.html#_detect-good" >detect good</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer" >chaos hammer</a></i> (DC 17), summon (level 4, 1d2 tarry demodands 40%)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 28, <b>Dex</b> 21, <b>Con</b> 18, <b>Int</b> 12, <b>Wis</b> 13, <b>Cha</b> 17</p>
+				<p class="stat-block-1"><b>Base Atk</b> +18; <b>CMB</b> +27; <b>CMD</b> 42 (46 vs. disarm)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_greater-two-weapon-fighting" >Greater Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-two-weapon-fighting" >Improved Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (short sword)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +16, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +19, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +23, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +24, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +14, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +14, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +22, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +14, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +17, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +14</p>
+				<p class="stat-block-1"><b>Languages</b> Abyssal, Celestial, Common</p>
+				<p class="stat-block-1"><b>SQ</b> heretical soul</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Abyss)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or patrol (3&ndash;8)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (masterwork breastplate, 2 masterwork short swords, other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Adhesion (Ex)</b> A creature striking a tarry <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype" >demodand</a> with a manufactured weapon must make a DC 23 Reflex save; failure means the weapon sticks to the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype" >demodand</a> and cannot be used to make attacks until freed. Freeing a stuck weapon requires a successful grapple check. This adhesion grants a +4 racial bonus to CMD against disarm attempts.</p>
+				<p>Tarry demodands are lithe and lean compared to other demodands. Despite this difference, all tarry demodands are strong and agile. Although their batlike wings appear tattered and useless, they can still fly. A tarry demodand stands 7 feet tall and weighs 400 pounds.</p>
+				<p>The tarry demodand is the grunt of the demodand army&mdash;bred for battle, these swift and deadly demodands make up the bulk of any demodand legion. That they themselves are more powerful than most outsiders is as much a testament to their race as anything else&mdash;a single tarry demodand is a formidable opponent, to say nothing of a group of the creatures. Although tarry demodands are quite strong, they prefer using light weapons&mdash;one in each hand. Tarry demodands only rarely use larger weaponry, and then only when directly ordered by a superior. They lack the terrific claws of the greater demodands, and a tarry demodand with no weapons tends to flee combat as soon as possible, only to return when it is properly armed.</p>
+			</div>
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

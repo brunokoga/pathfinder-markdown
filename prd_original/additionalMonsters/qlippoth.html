@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Qlippoth</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Qlippoth",globalNavPath=[{ href: '/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html', name: 'Additional Monster Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+
+<h1 id="qlippoth">Qlippoth</h1>
+<p>Before the Abyss was taught how to process and transform larvae into demons&mdash;indeed, before larvae even existed or the idea of mortal life had been conceived&mdash;it was rife with foul life. These creatures exist still, yet in drastically reduced numbers and often only in the deepest pits of the plane. Known as the qlippoth (the singular and plural are identical), these fiends may well be the oldest form of life in the Great Beyond&mdash;certainly, they were already in existence before the proteans discovered them. Some believe that the qlippoth come from an unknowable realm on what might be described as the “outside shell” of the Outer Sphere, but if the qlippoth are to be taken as indicative of what order of existence rules in such a realm, it is a good thing indeed that this outer realm is so impossibly distant.</p>
+<p>The qlippoth do not possess in their forms anything approximating the human shape except by cosmic fluke or sinister mockery. In their twitching, squirming visages, the mad might make comparisons to life’s most primeval shapes&mdash;spiders and cephalopods, insects and worms, and even baser forms of life. What this might imply about these lower forms of life has disturbed philosophers for ages, and is not a train of thought that many enjoy lingering upon.</p>
+<p>Since the rise of mortal sin, the rule of the Abyss has passed from the qlippoth to the much more fecund demons. When the Abyss first “learned” how to transform mortal souls into demons, the resulting explosion of demonic life culminated in a violent and destructive war with the then-rulers of the Abyss&mdash;the qlippoth. For unguessed millennia this war raged across the countless layers of the Abyss. The qlippoth had the advantage of knowing their ancient realm and, as a general rule, were individually more powerful than most demons, but the demons had numbers on their side. And as the demons continued to win battle after battle, new powers among their kind rose&mdash;balors, balor lords, nascent demon lords, and eventually demon lords themselves. Over time, the qlippoth were hunted nearly to extinction on the upper layers of the Abyss, and were forced to retreat deep into that realm’s darkest and most remote realms, to places even the demons feared to tread.</p>
+<p>Here, the qlippoth have festered and lurked for ages. None can say how many qlippoth survived that ancient war, for none can know how deep the Abyss goes. The qlippoth dwell in these darkest pits, periodically emerging to do battle against their hated demonic foes, yet their wrath is not limited to the demonic host. The qlippoth know that daemons played a role in “teaching” the Abyss how to birth demonic life, and their war with the denizens of Abaddon is one fueled more by a driving need to punish than any need for survival. Yet as the eons have worn on, the qlippoth have come to realize that the true enemy is not a fiendish race&mdash;it is mortal life itself. For as long as mortal life continues to sin and die, the Abyss can continue to birth demons into its pits and rifts. The destruction of sin, by changing the way mortals live, would halt demonic growth, yet the qlippoth have no concept of how this goal might be achieved&mdash;to the qlippoth, only the murder of all mortality can suffice.</p>
+<p>As a result, all qlippoth possess within their minds a burning hatred of mortal life, particularly humanoids, whom they know to be the primary seeds of sin. When a qlippoth is conjured to the Material Plane, it seeks any way to escape control in order to maul and destroy humans&mdash;they have a particular hatred of children and pregnant women, and if given a choice between harming someone already dying or close to death and someone with a full life ahead of them, they always choose to attack the latter, save for the rare case where the death of an elder or a dying loved one might result in a chain reaction of death among the young.</p>
+<p>When called via spells like planar ally that require opposed Charisma checks or similar mechanics in order for the conjuring spellcaster to secure the outsider’s aid, evil humanoids take a &mdash;6 penalty when interacting with qlippoth due to the sin in their souls. The promise of a task that would afford the qlippoth the opportunity to kill many humanoids, or a sacrifice of a pregnant woman or a child, can sometimes offset this penalty. When a qlippoth shakes off the shackles of a conjuration, it attempts to remain on the Material Plane as long as possible, and during that time tries to murder as many mortals as it can, doing its part to deprive the Abyss of possible future sinful souls to build demons from.</p>
+
+<h2 id="qlippoth_lords">Qlippoth Lords</h2>
+
+<p>That the qlippoth have among their kind paragons akin to demon lords is indisputable, yet these powers rarely, if ever, emerge from the deepest realms of the Abyss to interact with the rest of the multiverse. They are only rarely worshiped on the Material Plane, but such cults, where they exist, are singularly destructive and ruinous.</p>
+<p>Yet the power granted by mortal worship can have a curious effect on a qlippoth&mdash;it can, in a way, infect it with the sins of its worshipers. Qlippoth who become so infected are either murdered by their kin or forced to flee to the upper realms of the Abyss, where they complete their transformation and, instead of remaining qlippoth lords, become demon lords. One can know the nature of a demon lord that began life as a qlippoth most easily by its shape&mdash;those demon lords, such as ichthyic Dagon or foul and festering Jubilex, bear little or no sign of a humanoid frame.</p>
+
+<h1 id="qlippoth,-augnagar">Qlippoth, Augnagar</h1>
+<p>This enormous, spider-like creature has three clawed tails and eight legs connected by leathery webs of flesh.</p>
+<p class="stat-block-title"><b>Augnagar<span class="stat-block-cr">CR14</span></b></p>
+<p class="stat-block-xp"><b>XP 38,400</b></p>
+<p class="stat-block-1">CE Huge <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_qlippoth-subtype" >qlippoth</a></p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> blindsight 30 ft., darkvision 60 ft., scent, <a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing"><i>true seeing</i></a>; Perception +22</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 29, touch 7, flat-footed 29 (&mdash;1 Dex, +22 natural, &mdash;2 size)</p>
+<p class="stat-block-1"><b>hp</b> 203 (14d10+126)</p>
+<p class="stat-block-1"><b>Fort</b> +18, <b>Ref</b> +10, <b>Will</b> +9</p>
+<p class="stat-block-1"><b>DR</b> 10/lawful; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, mind-affecting effects; <b>Resist</b> acid 10, electricity 10, fire 10</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 50 ft., climb 50 ft., fly 50 ft. (average)</p>
+<p class="stat-block-1"><b>Melee</b> bite +23 (2d6+11 plus 1d8 bleed and rotting curse), 3 claws +23 (1d8+11 plus 1d8 bleed)</p>
+<p class="stat-block-1"><b>Space</b> 15ft.; <b>Reach</b> 15 ft. (30 ft. with claws)</p>
+<p class="stat-block-1"><b>Special Attacks</b> horrific appearance (DC 21)</p>
+<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 14th; concentration +18)</p>
+<p class="stat-block-2">Constant&mdash;<a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing"><i>true seeing</i></a></p>
+<p class="stat-block-2">3/day&mdash;<a href="/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door"><i>dimension door</i></a>, <a href="/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law"><i>protection from law</i></a></p>
+<p class="stat-block-2">1/day&mdash;<a href="/pathfinderRPG/prd/additionalMonsters/"><i>waves of exhaustion</i></a></p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 32, <b>Dex</b> 9, <b>Con</b> 28, <b>Int</b> 5, <b>Wis</b> 20, <b>Cha</b> 19</p>
+<p class="stat-block-1"><b>Base Atk</b> +14; <b>CMB</b> +27; <b>CMD</b> 36 (44 vs. trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack">Flyby Attack</a>, <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_hover">Hover</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative">Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-vital-strike">Improved Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes">Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack">Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike">Vital Strike</a></p>
+<p class="stat-block-1"><b>Skills</b> Climb +19, Fly +12, Perception +22, Stealth +24; <b>Racial Modifiers</b> +16 Stealth</p>
+<p class="stat-block-1"><b>Languages</b> Abyssal; telepathy 100 ft.</p>
+<p class="stat-block-breaker">Ecology</p>
+<p class="stat-block-1"><b>Environment</b> any (Abyss)</p>
+<p class="stat-block-1"><b>Organization</b> solitary</p>
+<p class="stat-block-1"><b>Treasure</b> standard</p>
+<p class="stat-block-breaker">Special Abilities</p>
+<p class="stat-block-1"><b>Horrific Appearance (Su)</b> Creatures that succumb to an augnagar’s horrific appearance are driven momentarily insane. This results in 2 points of Charisma damage and leaves the victim confused for 1d3 rounds.</p>
+<p class="stat-block-1"><b>Rotting Curse (Su)</b> Bite&mdash;injury; <i>Save</i> Fort DC 26; <i>Frequency</i> 1/day; <i>Effect</i> 1d6 Con drain plus constant stench. A creature that suffers the rotting curse imparted by an augnagar’s bite displays hideous, festering wounds that exude a horrific stench. This functions as the stench universal monster rule (see page 302), save that it affects all creatures except those that are immune to poison. The victim of this curse receives no saving throw to avoid becoming sickened by the stench, but other creatures can attempt a DC 26 Fortitude save to negate this condition&mdash;those who fail remain sickened as long as they remain within 30 feet of the cursed victim. The horrific stench also imparts a &mdash;8 penalty on all Stealth checks made by the cursed victim. The save DC is Constitution-based.</p>
+<p>The immense augnagar is relatively slow-witted. As an outsider, it does not need to eat to survive, yet it remains ravenous and feeds on anything it can overpower. The augnagar prefers the taste of well-rotted flesh&mdash; particularly rotted demon flesh&mdash;and the horrific curse its bite imparts flavors its meals perfectly. Yet the augnagar’s favorite feast is of a much more cannibalistic type. These creatures find the flesh of their own kind to be the greatest delicacy. When an augnagar feeds upon enough of its own kind, it grows enormously bloated such that it can no longer fly, at which point it uses its clawed tails to tear its body apart in a frenzy of self-destruction. From this storm of torn fat and shredded viscera emerges a fully grown thulgant qlippoth&mdash;a creature similar in shape to an augnagar, yet much more intelligent and even more dangerous.</p>
+<p>An augnagar has a wingspan of 30 feet and weighs 6,000 pounds.</p>
+
+				<h1 id="qlippoth,-chernobue">Qlippoth, Chernobue</h1>
+				<p>This slippery, writhing mass of tentacles and stalked mouths has one huge hideous eye and a fanged maw for a belly.</p>
+				<p class="stat-block-title"><b>Chernobue	<span class="stat-block-cr">CR 12</span></b></p>
+				<p class="stat-block-xp"><b>XP 19,200</b></p>
+				<p class="stat-block-1">CE Large <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_qlippoth-subtype" >qlippoth</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> darkvision 60 ft., <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent" >scent</a>; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +18</p>
+				<p class="stat-block-1"><b>Aura</b> misfortune (30 ft.)</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 27, touch 13, flat-footed 23 (+4 Dex, +14 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 150 (12d10+84)</p>
+				<p class="stat-block-1"><b>Fort</b> +15, <b>Ref</b> +10, <b>Will</b> +11</p>
+				<p class="stat-block-1"><b>DR</b> 10/lawful; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, mind-affecting effects; <b>Resist</b> acid 10, electricity 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10; <b>SR</b> 23</p>
+				<p class="stat-block-1"><b>Weaknesses</b> light vulnerability </p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 slams +19 (1d6+8/19&ndash;20 plus 1 Con damage), bite +19 (2d6+8 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>), 2 tentacles +14 (1d6+4)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 5 ft. (10 ft. with slams and tentacles)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> horrific appearance (DC 20)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 12th; concentration +16)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/airWalk.html#_air-walk" >air walk</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../spells/arcaneSight.html#_arcane-sight" >arcane sight</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/chaosHammer.html#_chaos-hammer" >chaos hammer</a></i> (DC 18), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/darkness.html#_darkness" >darkness</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/confusion.html#_confusion" >confusion</a></i> (DC 18), quickened <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/darkness.html#_darkness" >darkness</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/protectionFromLaw.html#_protection-from-law" >protection from law</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift" >plane shift</a></i> (DC 21)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 26, <b>Dex</b> 18, <b>Con</b> 24, <b>Int</b> 13, <b>Wis</b> 17, <b>Cha</b> 19</p>
+				<p class="stat-block-1"><b>Base Atk</b> +12; <b>CMB</b> +21; <b>CMD</b> 35 (39 vs. trip)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical" >Improved Critical</a> (slam), <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_quicken-spell-like-ability" >Quicken Spell-Like Ability</a> (<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/darkness.html#_darkness" >darkness</a></i>), <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike" >Vital Strike</a></p>
+				
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +19 (+23 jump), <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +18, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +18, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +15</p>
+				<p class="stat-block-1"><b>Languages</b> Abyssal; telepathy 100 ft.</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (the Abyss)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or gang (3&ndash;6)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Aura of Misfortune (Su)</b> A chernobue radiates an aura of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a> malaise to a radius of 30 feet. All <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >lawful</a> or <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> creatures in this area take a &ndash;1 penalty on attack rolls and weapon damage rolls. <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >Lawful</a> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> creatures take a &ndash;3 penalty and upon first entering the aura must make a DC 20 Fortitude save or be sickened for as long as they remain in the area. This ability is Charisma-based.</p>
+				<p class="stat-block-1"><b>Horrific Appearance (Su)</b> Creatures that succumb to a chernobue's horrific appearance become paralyzed with disgust for 2d6 rounds; a paralyzed creature gets a new save each round to recover from the effect, provided he is no longer aware of the chernobue or within 30 feet of it.</p>
+				<p class="stat-block-1"><b>Light Vulnerability (Ex) </b>A chernobue within an area of bright light takes 1 point of Constitution damage per minute it remains in the area.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >Poison</a> (Su)</b> Bite&mdash;injury; <i>save</i> Fort DC 23; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1d2 Con drain; <i>cure</i> 1 save. The thick, orange <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a> injected by a chernobue is semi-alive. As soon as the poisoned victim is cured of the <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a> (by making a save, being targeted with an effect like <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i>, or enduring the full duration of the <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>), the orange fluid bursts from the victim's body, causing 1d6 Charisma damage and rendering the victim unconscious for 2d6 rounds unless he makes a final DC 23 Fortitude save. The save DC is Constitution-based.</p>
+				
+				<p>The chernobue is a living manifestation of the vile fecundity of the Abyss&mdash;a monstrous, alien pregnancy made flesh. By infecting creatures with the Abyssal taint they carry, they spread pain and misfortune wherever they flop and writhe&mdash;and with their <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift" >plane shift</a> </i>ability, they are ready to spread their filth throughout the multiverse. A chernobue is 13 feet long and weighs 500 pounds.</p>
+
+				<h1 id="qlippoth,-cythnigot">Qlippoth, Cythnigot</h1>
+				<p>This six-legged horror has a spider's face and a fibrous stalk growing out of its back&mdash;a stalk ending in a snapping mouth.</p>
+				<p class="stat-block-title"><b>Cythnigot	<span class="stat-block-cr">CR 2</span></b></p>
+				<p class="stat-block-xp"><b>XP 600</b></p>
+				<p class="stat-block-1">CE Tiny <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_qlippoth-subtype" >qlippoth</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> darkvision 60 ft., <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectLaw.html#_detect-law" >detect law</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic" >detect magic</a></i>; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +5</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 14, touch 13, flat-footed 13 (+1 Dex, +1 natural, +2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 16 (3d10)</p>
+				<p class="stat-block-1"><b>Fort</b> +1, <b>Ref</b> +6, <b>Will</b> +2</p>
+				<p class="stat-block-1"><b>DR</b> 5/cold iron or <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >lawful</a>; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, mind-affecting effects; <b>Resist</b> acid 10, electricity 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., fly 60 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> bite +6 (1d6+1 plus spores)</p>
+				<p class="stat-block-1"><b>Space</b> 2-1/2 ft.; <b>Reach</b> 0 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> horrific appearance (10 feet, DC 9)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 6th, concentration +4)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectLaw.html#_detect-law" >detect law</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/fly.html" >fly</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/softenEarthAndStone.html#_soften-earth-and-stone" >soften earth and stone</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/warpWood.html#_warp-wood" >warp wood</a></i></p>
+				<p class="stat-block-2">1/week&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/commune.html#_commune" >commune</a></i> (six questions)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 12, <b>Dex</b> 12, <b>Con</b> 11, <b>Int</b> 11, <b>Wis</b> 8, <b>Cha</b> 7</p>
+				<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +2; <b>CMD</b> 13 (21 vs. trip)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +7 (+11 jump), <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +15, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +6, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +6, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +5, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +15</p>
+				<p class="stat-block-1"><b>Languages</b> Abyssal; telepathy (touch)</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Abyss)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or bloom (2&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Horrific Appearance (Su)</b> Creatures that succumb to a cythnigot's horrific appearance become sickened for 1 round&mdash;a cythnigot's horrific appearance only functions to a range of 10 feet. Once a creature makes a saving throw against a particular cythnigot's horrific appearance, that creature is immune to the horrific appearance of all cythnigots for 24 hours. A spellcaster that has a cythnigot as a familiar is immune to the horrific appearance of all cythnigots, and also gains a +4 bonus on saving throws made against any <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_qlippoth-subtype" >qlippoth</a>'s horrific appearance.</p>
+				<p class="stat-block-1"><b>Spores (Su)</b> Any creature bitten by a cythnigot must make a DC 11 Fortitude save or become infested by the creature's otherworldly spores. These spores cause twitching spikes and hideous pallid growths of hair-like fibers to erupt from the bite wound and to writhe and wrap around the target's limbs. A creature suffering from these spores is entangled, and can attempt a new DC 11 Fortitude save in later rounds as a standard action to rip the tendrils free and escape the entangled condition. The effects of multiple cythnigot bites on a creature do not stack. <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_plant" >Plant</a> creatures take a &ndash;4 penalty on saves against this effect. This is a <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)" >disease</a> effect. The save DC is Constitution-based.</p>
+				
+				<p>The cythnigot is a foul fungal parasite that grows and thrives within the corpses of small animals. The fungus transforms the host corpse in hideous ways, adding legs or rearranging features&mdash;a rat might gain an extra pair of legs and an insectoid visage, while a cat could lose all its legs and fur and gain a snake-like body. The only thing that all cythnigots have in common is a long stalk of fungal material that extends up from the creature's body, ending in a surprisingly strong set of fanged jaws. A cythnigot without a host body appears as little more than a foul-smelling puffball the size of a human's fist.</p>
+				<p>Chaotic evil spellcasters of caster level 7th who have the <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-familiar" >Improved Familiar</a> feat can gain a cythnigot as a familiar&mdash;to do so, the spellcaster must already have a Tiny animal as a familiar. Infusing this familiar with the spores results in a cythnigot that is a loyal, if rather disgusting, minion of the spellcaster.</p>
+				<p>A cythnigot is about 20 inches long and weighs 10 pounds.</p>
+
+				<h1 id="qlippoth,-iathavos">Qlippoth, Iathavos</h1>
+				<p>This immense creature has four bat-like wings and a spherical body. Red eyes peer from all sides, and two huge claws dangle below.</p>
+				<p class="stat-block-title"><b>Iathavos	<span class="stat-block-cr">CR 20</span></b></p>
+				<p class="stat-block-xp"><b>XP 307,200</b></p>
+				<p class="stat-block-1">CE Colossal <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_qlippoth-subtype" >qlippoth</a>)</p>
+				<p class="stat-block-1"><b>Init</b> &ndash;1; <b>Senses</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_all-around-vision" >all-around vision</a>, darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +37</p>
+				<p class="stat-block-1"><b>Aura</b> stench (DC 32, 10 rounds), <i>cloak of chaos</i> (DC 26)</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 37, touch 7, flat-footed 37 (+4 deflection, &ndash;1 Dex, +2 insight, +30 natural, &ndash;8 size)</p>
+				<p class="stat-block-1"><b>hp</b> 372 (24d10+240); fast healing 15</p>
+				<p class="stat-block-1"><b>Fort</b> +28, <b>Ref</b> +15, <b>Will</b> +28</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> ichor, never surprised or flat-footed; <b>DR</b> 15/cold iron and <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >lawful</a>; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, mind-affecting effects; <b>Resist</b> acid 30, electricity 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10; <b>SR</b> 31</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., fly 50 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee</b> 2 claws +31 (4d6+15/19&ndash;20 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a>), 4 wings +26 (2d8+7)</p>
+				<p class="stat-block-1"><b>Space</b> 30 ft.; <b>Reach</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> abyssal transformation, entropic beams, horrific appearance (DC 30)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 20th; concentration +28)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/cloakOfChaos.html#_cloak-of-chaos" >cloak of chaos</a></i> (DC 26), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/foresight.html#_foresight" >foresight</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dimensionDoor.html#_dimension-door" >dimension door</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dispelLaw.html#_dispel-law" >dispel law</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/magicMissile.html#_magic-missile" >magic missile</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift" >plane shift</a></i> (DC 25), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/windWalk.html#_wind-walk" >wind walk</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/wordOfRecall.html#_word-of-recall" >word of recall</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/blackTentacles.html#_black-tentacles" >black tentacles</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dimensionalLock.html#_dimensional-lock" >dimensional lock</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/horridWilting.html#_horrid-wilting" >horrid wilting</a></i> (DC 26), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/insanity.html#_insanity" >insanity</a></i> (DC 25), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/wordOfChaos.html#_word-of-chaos" >word of chaos</a></i> (DC 25)</p>
+				<p class="stat-block-2">1/day&mdash;quickened <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/heal.html#_heal" >heal</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/imprisonment.html#_imprisonment" >imprisonment</a></i> (DC 27)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 40, <b>Dex</b> 8, <b>Con</b> 31, <b>Int</b> 29, <b>Wis</b> 30, <b>Cha</b> 27</p>
+				<p class="stat-block-1"><b>Base Atk</b> +24; <b>CMB</b> +47 (+51 grapple); <b>CMD</b> 62 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_awesome-blow" >Awesome Blow</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-vital-strike" >Greater Vital Strike</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical" >Improved Critical</a> (claw), <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-vital-strike" >Improved Vital Strike</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_quicken-spell-like-ability" >Quicken Spell-Like Ability</a> (<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/heal.html#_heal" >heal</a></i>), <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_spell-penetration" >Spell Penetration</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_staggering-critical" >Staggering Critical</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff" >Bluff</a> +35, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +23, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +26, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +35, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +36, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +33, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +33, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (history) +33, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +36, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +33, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +37, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +37, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +36, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +10, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +35</p>
+				<p class="stat-block-1"><b>Languages</b> Abyssal; telepathy 300 ft.</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Abyss)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary</p>
+				<p class="stat-block-1"><b>Treasure</b> double</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Abyssal Transformation (Su)</b> If an iathavos establishes a hold on a creature of Large or smaller size, it can place that creature deep within the bristly folds of its flesh. Treat this as an <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_engulf" >engulf</a> attack, except that at the start of the iathavos's turn, an engulfed creature must make a DC 30 Fortitude save or be transformed into a nyogoth <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_qlippoth-subtype" >qlippoth</a> that immediately squirms out of the iathavos's body to serve its new master. Creatures transformed into nyogoths are not controlled by the iathavos, but function and behave as if they were typical members of that species&mdash;they retain no memories or abilities they may have possessed in their previous lives. Items held or worn by the unfortunate victim remain lodged within the folds of the iathavos's body and can only be retrieved if the iathavos is helpless or dead. A creature transformed into a nyogoth in this manner can be restored to its true shape via <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/breakEnchantment.html#_break-enchantment" >break enchantment</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/miracle.html#_miracle" >miracle</a></i>, or <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/wish.html#_wish" >wish</a></i>. Otherwise, slaying the nyogoth allows the poor soul to be restored to life via <a href="/pathfinderRPG/prd/additionalMonsters/../spells/reincarnate.html#_reincarnate"><i>reincarnation</i></a>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/resurrection.html#_resurrection" >resurrection</a>,</i> or <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/trueResurrection.html#_true-resurrection" >true resurrection</a></i>. The save DC is Charisma-based.</p>
+				<p class="stat-block-1"><b>Entropic Beams (Su)</b> As a standard action once every minute, an iathavos can <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> beams of entropic energy from its 10 eyes. Each of these beams of energy can be directed at a single target within 300 feet of the iathavos, but no more than one beam may be directed at any one creature. Beams that are not directed at a creature are wasted. The <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_qlippoth-subtype" >qlippoth</a> must make a +15 ranged touch attack to hit with each beam. Each beam has the same effect as a CL 20th <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/disintegrate.html#_disintegrate" >disintegrate</a></i> (40d6 damage, DC 32 Fortitude partial for 5d6 damage), except a creature killed by this damage explodes in a 5-foot burst of energy, flesh, shadow, and smoke instead of turning into dust. Any creature in this burst must make a DC 32 Will save or be staggered for 1 round. The save DCs are Constitution-based.</p>
+				<p class="stat-block-1"><b>Horrific Appearance (Su)</b> Creatures that succumb to the iathavos's horrific appearance are affected by a <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/feeblemind.html#_feeblemind" >feeblemind</a></i> effect and permanently blinded.</p>
+				<p class="stat-block-1"><b>Ichor (Su)</b> As long as the iathavos has taken any hit point damage, thick and stringy ropes of black ichor weep from the fissures and folds in its bristly hide. This ichor extrudes from the creature's body in a writhing nimbus of filaments at a rate of 5 feet per round, to a maximum range equal to its reach (30 feet). At the start the iathavos's turn, all creatures in reach of these strands of ichor must make a DC 32 Reflex save or become entangled. At the start the iathavos's turn, all creatures entangled by the ichor take 4d6 points of acid damage. If the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_qlippoth-subtype" >qlippoth</a> ends its turn with no hit point damage, the ichor melts away into harmless mist, releasing all entangled creatures. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Stench (Su)</b> The iathavos's stench ability is supernaturally disgusting&mdash;creatures that succumb to this ability are nauseated, while those that save are still sickened.</p>
+				<p>The most terrible of the qlippoth, with the exception of the qlippoth lords, is doubtless the immense iathavos. Believed by many to be a singular entity, a unique qlippoth so abhorrent that even the Abyss cannot bear to allow more than one to exist at any one time, the iathavos is often encountered attended by numerous nyogoth qlippoth that squirm over its body or under its bulk, feeding upon the wastes and fragments left behind by its shuddersome passing. These nyogoths are invariably other creatures that the iathavos has absorbed and remade&mdash;they represent one of the most heinous fates that could await would-be explorers of the deepest Abyssal rifts.</p>
+				<p>The iathavos crusades against the demonic scourge, but the monster does not limit its attentions to seeking out and destroying demons in preparation for the return of the Abyss to qlippoth rule. Indeed, the iathavos has the ability to shift among the various planes of the multiverse, and often travels to Material Plane worlds to systematically scour realms clean of mortal life, thus ensuring that these worlds can no longer provide the raw materials&mdash;sinful mortal souls&mdash;the Abyss relies upon to create new demons. Worlds visited by the iathavos are notable for the widespread devastation and the unusually large populations of nyogoths that remain behind to consume every last speck of decay the iathavos leaves behind.</p>
+				<p>The iathavos can be called via the most powerful spells, such as <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/gate.html#_gate" >gate</a></i>, but its immunity to mind-affecting effects and its vast size ensure that only the most desperate or most insane ever attempt such a self-destructive act. In all known cases, the deliberate conjuration of the iathavos to another world has done little more than draw the attention of the powerful creature to that world, so that even if it is banished back to the Abyss before it can cause too much devastation, the iathavos remembers the visit. It often returns under its own power at a later date to pursue its own goals on the newly discovered world. Only if the iathavos is presented with defenders that prevent it from achieving its destructive ruin does it flee back to the Abyss via <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift" >plane shift</a></i>&mdash;in such cases, the qlippoth often waits for centuries or even millennia before returning to that world, for there are always easier realms to destroy.</p>
+				<p>The iathavos is a powerful and horrifying monster made all the more devastating by its incredible intellect. The creature takes care to plan its major assaults on demonic enclaves or mortal cities, even though it is powerful enough that few creatures in the multiverse can give it pause. </p>
+				<p>When the iathavos is slain, the multiverse typically has only a relatively short time before the Abyss births a replacement monstrosity for the defeated qlippoth. This newly born iathavos is an entirely new creature&mdash;it does not share the memories of the previous incarnation, nor does it possess any advanced hit dice or class levels the previous monster may have gained, yet its appetite and hatred for demonic life and the sins that create such life remain constant and unending.</p>
+				<p>To call such an iathavos a “newborn” is somewhat misleading. Although technically a freshly created creature, newborn iathavoses do not undergo a “childhood.” They form fully grown, as presented here. Yet with each new incarnation of the qlippoth monstrosity, changes can occur. A new iathavos might have slightly different spell-like abilities, for example, or the nature of its horrific appearance might change from that presented here. As an iathavos continues to hunt and destroy, it grows more powerful&mdash;an advanced iathavos typically gains more racial Hit Dice as a result. An iathavos that gains power by taking class levels is not unheard of, but it is quite rare&mdash;most who do take levels in sorcerer.</p>
+
+				<h1 id="qlippoth,-nyogoth">Qlippoth, Nyogoth</h1>
+				<p>This appears to be a mass of floating intestines tangled around a fanged mouth&mdash;the tips of its coils also end in toothy maws.</p>
+				<p class="stat-block-title"><b>Nyogoth	<span class="stat-block-cr">CR 10</span></b></p>
+				<p class="stat-block-xp"><b>XP 9,600</b></p>
+				<p class="stat-block-1">CE Medium <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_qlippoth-subtype" >qlippoth</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +17</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 24, touch 15, flat-footed 19 (+5 Dex, +9 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 125 (10d10+70)</p>
+				<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +12, <b>Will</b> +7</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> acid spray; <b>DR</b> 10/lawful; <b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, mind-affecting effects; <b>Resist</b> electricity 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 5 ft., fly 30 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> 4 bites +15 (1d6+3/19&ndash;20 plus 1d4 acid), bite +15 (2d6+3/19&ndash;20 plus 1d4 acid)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> horrific appearance (DC 18)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 10th; concentration +13)</p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/acidArrow.html#_acid-arrow" >acid arrow</a></i></p>
+				<p class="stat-block-2">7/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/fear.html#_fear" >fear</a></i> (DC 17), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/protectionFromLaw.html#_protection-from-law" >protection from law</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/acidFog.html#_acid-fog" >acid fog</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dimensionDoor.html#_dimension-door" >dimension door</a></i></p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 21, <b>Con</b> 24, <b>Int</b> 9, <b>Wis</b> 19, <b>Cha</b> 16</p>
+				<p class="stat-block-1"><b>Base Atk</b> +10; <b>CMB</b> +13; <b>CMD</b> 28 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical" >Improved Critical</a> (bite), <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +22, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +12, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +17, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +18</p>
+				<p class="stat-block-1"><b>Languages</b> Abyssal; telepathy 100 ft.</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_flight-(ex,-sp,-or-su)" >flight</a></p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (the Abyss)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or brood (2&ndash;8)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Acid Spray (Su)</b> A nyogoth's body is full of highly corrosive digestive fluid. Every time a nyogoth is damaged by a piercing or slashing weapon, all creatures adjacent to the nyogoth take 1d6 points of acid damage (2d6 acid damage if the attack is a critical hit).</p>
+				<p class="stat-block-1"><b>Horrific Appearance (Su)</b> Creatures that succumb to a nyogoth's horrific appearance become nauseated for 1d8 rounds.</p>
+				<p>The nyogoth's role on the Abyss is that of a scavenger. Essentially mobile clumps of buoyant intestines, these writhing creatures squirt through the air in convulsive movements like an octopus gliding through water, and are constantly on the search for anything smaller than one of their many mouths (either the relatively small ones that pinch and gasp at the tips of their intestinal limbs or the larger gaping one at their cores). They can subsist on the waste and filth left behind by other denizens of the Abyss, but particularly enjoy feeding on still-living creatures.</p>
+				<p>Despite their seemingly lowly role in Abyssal ecosystems, the nyogoths are far from stupid beasts. Most are nearly as intelligent as the average human, and are capable of solving relatively complex problems when it comes to securing the next meal. As outsiders, nyogoths do not need to eat to survive, yet this does not exempt them from hunger&mdash;a nyogoth that goes for longer than 12 hours without a meal becomes increasingly violent and erratic. Such a “starving” nyogoth typically fights to the death when the prospect of food is available, and may even resort to self-cannibalism, drinking its own spurting digestive juices from its wounds in a nauseating display.</p>
+				<p>A typical nyogoth is 5 feet in diameter and weighs 260 pounds, although they are known to grow much larger.</p>
+
+				<h1 id="qlippoth,-shoggti">Qlippoth, Shoggti</h1>
+				<p>This pale creature has four suckered arms that end in pincers. A gnashing maw gapes in its head between two staring eyes.</p>
+				<p class="stat-block-title"><b>Shoggti	<span class="stat-block-cr">CR 7</span></b></p>
+				<p class="stat-block-xp"><b>XP 3,200</b></p>
+				<p class="stat-block-1">CE Large <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_qlippoth-subtype" >qlippoth</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +18</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 21, touch 12, flat-footed 18 (+3 Dex, +9 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 80 (7d10+42)</p>
+				<p class="stat-block-1"><b>Fort</b> +11, <b>Ref</b> +5, <b>Will</b> +9</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> uncanny dodge; <b>DR</b> 10/cold iron or <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >lawful</a>; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, mind-affecting effects; <b>Resist</b> acid 10, electricity 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> bite +12 (1d8+6), 4 tentacles +8 (1d4+3 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> braincloud, horrific appearance (DC 15), <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict" >constrict</a> (1d4+6)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 7th; concentration +9)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/tongues.html#_tongues" >tongues</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/command.html#_command" >command</a></i> (DC 13)</p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/charmPerson.html#_charm-person" >charm person</a></i> (DC 13), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/protectionFromLaw.html#_protection-from-law" >protection from law</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/charmMonster.html#_charm-monster" >charm monster</a></i> (DC 16), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dimensionDoor.html#_dimension-door" >dimension door</a></i></p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 16, <b>Con</b> 23, <b>Int</b> 12, <b>Wis</b> 19, <b>Cha</b> 15</p>
+				<p class="stat-block-1"><b>Base Atk</b> +7; <b>CMB</b> +14 (+18 grapple); <b>CMD</b> 27 (31 vs. trip)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a>), <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus" >Weapon Focus</a> (tentacles)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +13, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +16, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +11, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +18, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +14, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +9, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +19; <b>Racial Modifiers</b> +4 <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a>, +4 <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a>, +4 <a href="/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a></p>
+				<p class="stat-block-1"><b>Languages</b> Abyssal; telepathy 100 ft.</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (the Abyss)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or slaver band (3&ndash;10 plus 6&ndash;12 slaves of various races)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Braincloud (Su)</b> Once per round, in place of a melee attack with a tentacle, a shoggti can make a melee touch attack with the pincer on the end of that tentacle. If it hits, the target takes 1d4 points of Wisdom damage. Shoggti use this ability to mentally debilitate their victims so they can more easily use their charm spell-like abilities against them.</p>
+				<p class="stat-block-1"><b>Horrific Appearance (Su)</b> Creatures that succumb to a shoggti's horrific appearance become fascinated by the creature's hypnotically wriggling tentacles and the strange, shimmering colors in its eyes. This effect persists for 1d6 rounds (but can be ended by the normal methods of defeating the fascinated condition).</p>
+				
+				<p>The shoggti are masters of mind manipulation, capable of seizing control of the thoughts of others and charming them into docile allies. They invade other realms in slaver bands, seeking out creatures to capture alive and return to the Abyss as charmed slaves&mdash;the fates of these poor souls is unknown, but likely has something to do with the qlippoth drive to reclaim the Abyss as their own.</p>
+				<p>Although a shoggti lacks proper hands, it is capable of performing incredibly dextrous manipulations with the pincers at the tips of its tentacles. It cannot wield weapons in these pincers, but it can utilize magic items like wands, rods, staves, and the like. Shoggti are fond of wands in particular, particularly those that create mind-affecting effects that are easy to inflict on victims of their braincloud ability.</p>
+				<p>A shoggti's body is an egg-shaped mass about 8 feet long&mdash;its tentacles are about 8 feet long as well. The whole creature weighs 900 pounds.</p>
+
+				<h1 id="qlippoth,-thulgant">Qlippoth, Thulgant</h1>
+				<p>This monster has ten spidery legs, a head writhing with dripping tentacles above a clutch of red eyes, and three whipping stingers.</p>
+				<p class="stat-block-title"><b>Thulgant	<span class="stat-block-cr">CR 18</span></b></p>
+				<p class="stat-block-xp"><b>XP 153,600</b></p>
+				<p class="stat-block-1">CE Large <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype" >chaotic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_qlippoth-subtype" >qlippoth</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +12; <b>Senses</b> darkvision 60 ft., <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +31</p>
+				<p class="stat-block-1"><b>Aura</b> <i>cloak of chaos</i> (DC 25)</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 33, touch 25, flat-footed 21 (+4 deflection, +12 Dex, +8 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 290 (20d10+180); fast healing 10</p>
+				<p class="stat-block-1"><b>Fort</b> +25, <b>Ref</b> +30, <b>Will</b> +18</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> displacement, evasion, freedom of movement; <b>DR</b> 15/cold iron and <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >lawful</a>; <b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, mind-affecting effects; <b>Resist</b> electricity 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10; <b>SR</b> 25 vs. <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype" >lawful</a> spells and creatures</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., climb 40 ft, fly 60-ft. (good).</p>
+				<p class="stat-block-1"><b>Melee</b> 3 stings +27 (1d6+8/19&ndash;20 plus ability drain), 5 tentacles +22 (1d6+4 plus 2d6 acid)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> horrific appearance (DC 27), savage stingers</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 18th; concentration +25)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/cloakOfChaos.html#_cloak-of-chaos" >cloak of chaos</a></i> (DC 25), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/displacement.html#_displacement" >displacement</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dimensionDoor.html#_dimension-door" >dimension door</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/telekinesis.html#_telekinesis" >telekinesis</a></i> (DC 22)</p>
+				<p class="stat-block-2">3/day&mdash;quickened <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dimensionDoor.html#_dimension-door" >dimension door</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/fleshToStone.html#_flesh-to-stone" >flesh to stone</a></i> (DC 23), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/wordOfChaos.html#_word-of-chaos" >word of chaos</a></i> (DC 24)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/binding.html#_binding" >binding</a></i> (DC 25), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift" >plane shift</a></i> (DC 24), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/telekineticSphere.html#_telekinetic-sphere" >telekinetic sphere</a></i> (DC 25), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/temporalStasis.html#_temporal-stasis" >temporal stasis</a></i> (DC 25)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 26, <b>Dex</b> 34, <b>Con</b> 29, <b>Int</b> 24, <b>Wis</b> 27, <b>Cha</b> 25</p>
+				<p class="stat-block-1"><b>Base Atk</b> +20; <b>CMB</b> +29; <b>CMD</b> 55 (71 vs. trip)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-vital-strike" >Greater Vital Strike</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical" >Improved Critical</a> (sting), <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-vital-strike" >Improved Vital Strike</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_quicken-spell-like-ability" >Quicken Spell-Like Ability</a> (<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dimensionDoor.html#_dimension-door" >dimension door</a></i>), <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_staggering-critical" >Staggering Critical</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +35 (+39 jump), <a href="/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff" >Bluff</a> +30, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb" >Climb</a> +36, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +33, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +27, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +27, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (history) +30, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +30, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +31, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +31, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +27, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +31, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +30</p>
+				<p class="stat-block-1"><b>Languages</b> Abyssal; telepathy 100 ft.</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_demon-subtype" >demon</a> hunter</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any (Abyss)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or patrol (3&ndash;4)</p>
+				<p class="stat-block-1"><b>Treasure</b> double</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Ability Drain (Su)</b> A thulgant's stingers each drain a different ability score on a hit. One stinger drains 1d4 points of Strength, another drains 1d4 points of Dexterity, and the third drains 1d4 points of Charisma. Any sting's drain is negated by a DC 29 Fortitude save. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_demon-subtype" >Demon</a> Hunter (Ex)</b> A thulgant gains a +10 racial bonus on caster level checks to penetrate the spell <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance" >resistance</a> of any <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_demon-subtype" >demon</a>. Its attacks are treated as <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> iron and <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> against demons.</p>
+				<p class="stat-block-1"><b>Horrific Appearance (Su)</b> Creatures that succumb to a thulgant's horrific appearance are stunned for 1d4 rounds and take 1d6 points of Wisdom damage.</p>
+				<p class="stat-block-1"><b>Savage Stingers (Ex)</b> If a thulgant hits a single target with all three stings in the same round, it tears through the victim's body, dealing an extra 3d6+12 points of damage and draining an additional 2 ability points from all six of the victim's ability scores. A single DC 29 Fortitude save negates all of this additional ability drain. The save DC is Constitution-based.</p>
+				
+				<p>The dreaded thulgant is among the most dangerous of the qlippoth, for it supports an array of deadly and painful physical attacks with a wide range of potent magical powers. Born from the cannibalistic orgies of augnagar qlippoth, each thulgant exists for one purpose only&mdash;the eradication of all demons from the Abyss.</p>
+				<p>Yet thulgants do not spend all of their lives hunting and destroying demons. They rule horrific hives deep in the Abyss populated by all manner of hideous minions, many of which are bound into servitude via <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/binding.html#_binding" >binding</a></i> spells. These qlippoth are fond of decorating their lairs with petrified or enstasised victims of great power&mdash;the more powerful the victims, the greater the prestige held by the thulgant.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Fast-play Ship Combat</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Fast-play Ship Combat",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="water" class="monster-header">Water</h1>
+				<p>Water is both a great enabler and great destroyer of civilization. Life can't exist without it. Trade and travel are made much easier by its presence. Yet water can also kill, from drowning on a personal level to floods and tsunamis on a mass scale. Terrestrial life is dependent on water but at the same time fears it, as evidenced by tales as old as the sea itself, of monsters and the hideous fates that await travelers who dare to sail out of sight of land. What better place to set an adventure than on a twisting river, upon the high seas, or deep in the briny world below?</p>
+				<h1 id="aquatic-adventures">Aquatic Adventures</h1>
+				<p>An aquatic adventure can take place anywhere that water is the primary terrain feature. This includes marshlands, rivers, lakes, pools, oceans, the Plane of Water, and the like. Aquatic adventures don't require the PCs to have the ability to breathe water, of course&mdash;the inclusion of water hazards for lower-level adventurers to navigate can add a nice bit of suspense and peril to an adventure.</p>
+				<h2 id="adapting-to-aquatic-environments">Adapting to Aquatic Environments</h2>
+				<p>The rules presented in the <i>Pathfinder RPG Core Rulebook</i> for underwater combat apply to creatures not native to this dangerous environment, such as most PCs. For extended aquatic adventures or for particularly deep explorations, PCs will doubtless need to use magic to continue their adventures. <i><a href="../spells/waterBreathing.html#_water-breathing" >Water breathing</a></i> is of obvious use, while <i><a href="../spells/endureElements.html#_endure-elements" >endure elements</a></i> can help with temperature. Pressure damage can be avoided entirely with effects such as <i><a href="../spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>. Polymorph spells are perhaps the most useful in water, though, if the form assumed is aquatic in nature.</p>
+				<p id="natural-adaptation"><b>Natural Adaptation</b>: Any creature that has the aquatic subtype can breathe water easily and is unaffected by water temperature extremes that are found in that creature's typical environment. Aquatic creatures and creatures with the hold breath ability are much more resistant to pressure damage; they do not suffer damage from pressure unless they are moved instantaneously from one depth to another in the blink of an eye (in which case they adapt to the pressure change after successfully making five successive Fortitude saves against the pressure effects).</p>
+				<h1 id="nautical-adventures">Nautical Adventures</h1>
+				<p>Water can also provide the setting for a different and unique game experience&mdash;the nautical adventure. In such a scenario, the effects and dangers of underwater adventuring are replaced by surface hazards as the PCs and their opponents use vehicles like ships and boats to navigate the terrain. For the most part, shipboard adventures can be resolved normally, with a combat taking place aboard a ship functioning almost identically to one that occurs on land. If the combat happens during a storm or in heavy seas, treat the ship's deck as difficult terrain. Remember to take into account the effects on spellcasters' concentration checks due to weather or the motion of the ship's deck (<i>Pathfinder RPG Core Rulebook</i> 206&ndash;207).</p>
+				<h1 id="fast-play-ship-combat">Fast-Play Ship Combat</h1>
+				<p>When ships themselves become a part of a combat, things get more unusual. The following rules are not meant to accurately simulate all of the complexities of ship-to-ship combat, only to provide you with a quick and easy set of rules to resolve such situations when they inevitably arise in a nautical adventure, whether it be a battle between two ships or between a ship and a sea monster.</p>
+				<p id="preparation"><b>Preparation</b>: Decide what type of ships are involved in the combat (see Table 7&ndash;49: Ship Statistics). Use a large, blank battle mat to represent the waters on which the battle occurs. A single square corresponds to 30 feet of distance. Represent each ship by placing markers that take up the appropriate number of squares (miniature toy ships make great markers and should be available at most hobby stores). </p>
+				<p id="starting-combat"><b>Starting Combat</b>: When combat begins, allow the PCs (and important NPC allies) to roll initiative as normal&mdash;the ship itself moves and attacks on the captain's initiative result. If any of the ships in the battle rely on sails to move, randomly determine what direction the wind is blowing by rolling 1d8 and following the guidelines for missed splash weapons (<i>Core Rulebook</i> 202).</p>
+				<p id="movement"><b>Movement</b>: On the captain's initiative count, the ship can move its current speed in a single round as a move-equivalent action for the captain (or double its speed as a full-round action), as long as it has its minimum crew complement. The ship can increase or decrease its speed by 30 feet each round, up to its maximum speed. Alternatively, the captain can change direction (up to one side of a square at a time) as a standard action. A ship can only change direction at the start of a turn. </p>
+				<p id="attacks"><b>Attacks</b>: Crewmembers in excess of the ship's minimum crew requirement can be allocated to man <a href="../environment.html#_siege-engines">siege engines</a>. Siege engines attack on the captain's initiative count.</p>
+				<p>A ship can also attempt to ram a target if it has its minimum crew. To ram a target, the ship must move at least 30 feet and end with its bow in a square adjacent to the target. The ship's captain then makes a <a href="../skills/profession.html#_profession" >Profession</a> (sailor) check&mdash;if this check equals or exceeds the target's AC, the ship hits its target, inflicting damage as indicated on the ship statistics table to the target, as well as minimum damage to the ramming ship. A ship outfitted with an actual ram siege engine inflicts an additional 3d6 points of damage to the target (the ramming vessel suffers no additional damage).</p>
+				<h2 id="sinking">Sinking</h2>
+				<p>A ship gains the sinking condition if its hit points are reduced to 0 or fewer. A sinking ship cannot move or attack, and it sinks completely 10 rounds after it gains the sinking condition. Each hit on a sinking ship that inflicts damage reduces the remaining time for it to sink by 1 round per 25 points of damage inflicted. Magic (such as <i><a href="../spells/makeWhole.html#_make-whole" >make whole</a></i>) can repair a sinking ship if the ship's hit points are raised above 0, at which point the ship loses the sinking condition. Generally, nonmagical repairs take too long to save a ship from sinking once it begins to go down.</p>
+				<h2 id="ship-statistics">Ship Statistics</h2>
+				<p>A vast variety of boats and ships exist in the real world, from small rafts and longboats to intimidating galleons and swift galleys. To represent the numerous distinctions of shape and size that exist between water-going vessels, Table 7&ndash;49 categorizes seven standard ship sizes and their respective statistics. Just as the cultures of the real world have created and adapted hundreds of different types of seafaring vessels, races in fantasy worlds might create their own strange ships. GMs might use or alter the statistic above to suit the needs of their creations, and describe such conveyances however they please. All ships have the following traits.</p>
+				<p id="ship-type"><b>Ship Type</b>: This is a general category that lists the ship's basic type.</p>
+				<p id="ac"><b>AC</b>: The ship's base Armor Class. To calculate a ship's actual AC, add the captain's <a href="../skills/profession.html#_profession" >Profession</a> (sailor) modifier to the ship's base AC. Touch attacks against a ship ignore the captain's modifier. A ship is never considered flat-footed.</p>
+				<p id="hp"><b>hp</b>: The ship's total hit points. In addition, all ships have a hardness rating based on their construction material (hardness 5 for most wooden ships). At 0 or fewer hit points, a ship gains the sinking condition as described above. </p>
+				<p id="base-save"><b>Base Save</b>: The ship's base save modifier. All of a ship's saving throws (Fortitude, Reflex, and Will) have the same value. To determine a ship's actual saving throw modifiers, add the captain's <a href="../skills/profession.html#_profession" >Profession</a> (sailor) modifier to this base value.</p>
+				<p id="maximum-speed"><b>Maximum Speed</b>: The ship's maximum tactical speed in combat. An asterisk indicates the ship has sails, and can move at double speed when it moves in the same direction as the wind. A ship with only sails can only move if there is some wind. </p>
+				<p id="arms"><b>Arms</b>: The number of siege engines (<i>Core Rulebook </i>434&ndash;436) that can be fitted on the ship. A ram uses one of these slots, and only one ram may be fitted to a ship.</p>
+				<p id="ram"><b>Ram</b>: The amount of damage the ship inflicts on a successful ramming attack (without a ram siege engine).</p>
+				<p id="squares"><b>Squares</b>: The number of squares the ship takes up on the battle mat. A ship's width is always considered to be one square.</p>
+				<p id="crew"><b>Crew</b>: The first number lists the minimum crew complement the ship needs to function normally, excluding those needed to make use of the vessel's weapons. The second value lists the ship's maximum crew plus additional soldiers or passengers. A ship without its minimum crew complement can only move, change speed, change direction, or ram if its captain makes a DC 20 <a href="../skills/profession.html#_profession" >Profession</a> (sailor) check. Crew in excess of the minimum have no effect on movement, but they can replace fallen crewmembers or man additional weapons.</p>
+				<table id="table-7-49:-ship-statistics"><caption>Table:  Ship Statistics</caption>
+<thead><tr><th>Ship Type</th><th>AC</th><th>hp</th><th>Base Save</th><th>Maximum Speed</th><th>Arms</th><th>Ram</th><th>Squares</th><th>Crew</th></tr></thead>
+<tbody>
+<tr class="odd"><td>Keelboat</td><td>8</td><td>60</td><td>+4</td><td>30 feet*</td><td>1</td><td>2d6+6</td><td>2</td><td>4/15+100</td></tr>
+<tr class="even"><td>Longship</td><td>6</td><td>75</td><td>+5</td><td>60 feet*</td><td>1</td><td>4d6+18</td><td>3</td><td>50/75+100</td></tr>
+<tr class="odd"><td>Sailing ship</td><td>6</td><td>125</td><td>+6</td><td>60 feet* (sails only)</td><td>2</td><td>3d6+12</td><td>3</td><td>20/50+120</td></tr>
+<tr class="even"><td>Warship</td><td>2</td><td>175</td><td>+7</td><td>60 feet*</td><td>3</td><td>3d6+12</td><td>4</td><td>60/80+160</td></tr>
+<tr class="odd"><td>Galley</td><td>2</td><td>200</td><td>+8</td><td>90 feet*</td><td>4</td><td>6d6+24</td><td>4</td><td>200/250+200</td></tr></tbody></table>
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

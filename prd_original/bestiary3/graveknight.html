@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Graveknight</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Graveknight",globalNavPath=[{ href: '/pathfinderRPG/prd/bestiary3/monsterIndex.html', name: 'Bestiary 3 Index'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+			
+				<h1 id="graveknight" class="monster-header">Graveknight</h1>
+				<p class="flavor-text">Shadows veil what lurks within the dark, imposing armor of this figure, though two piercing eyes gaze from its closed visor.</p>
+				<p class="stat-block-title">Graveknight <span class="stat-block-cr">CR 11</span></p>
+				<p class="stat-block-xp">XP 12,800</p>
+				<p class="stat-block-1"><a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_human-subtype" >Human</a> graveknight fighter 10</p>
+				<p class="stat-block-1">LE Medium undead (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_augmented-subtype" >augmented</a> humanoid)</p>
+				<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> darkvision 60 ft.; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +19</p>
+				<p class="stat-block-1"><b>Aura</b> sacrilegious aura (30 ft., DC 19)</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 25, touch 11, flat-footed 24 (+10 armor, +1 Dex, +4 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 139 (10d10+80)</p>
+				<p class="stat-block-1"><b>Fort</b> +13, <b>Ref</b> +6, <b>Will</b> +6; +3 vs. <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear-(su-or-sp)" >fear</a></p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> bravery +3, channel <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance" >resistance</a> +4, rejuvenation; <b>DR</b> 10/magic; <b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, electricity, undead traits; <b>SR</b> 22</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+1 greatsword</i> +25/+20 (2d6+19 plus 2d6 acid)</p>
+				<p class="stat-block-1"><b>Ranged</b> composite longbow +14/+9 (1d8+11/&times;3)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> channel destruction, devastating blast (6d6 acid, DC 19), undead mastery (DC 19), weapon training (heavy blades +2, bows +1)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 27, <b>Dex</b> 12, <b>Con</b> 10, <b>Int</b> 15, <b>Wis</b> 12, <b>Cha</b> 18</p>
+				<p class="stat-block-1"><b>Base Atk</b> +10; <b>CMB</b> +18; <b>CMD</b> 29</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_cleave">Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/feats.html#_dazzling-display">Dazzling Display</a>, <a href="/pathfinderRPG/prd/feats.html#_great-weapon-focus">Greater Weapon Focus</a> (greatsword), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a><sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a><sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_ride-by-attack">Ride-By Attack<sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_shatter-defenses">Shatter Defenses</a>, <a href="/pathfinderRPG/prd/feats.html#_spirited-charge">Spirited Charge</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a><sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_trample">Trample</a>, <a href="/pathfinderRPG/prd/feats.html#_unseat">Unseat</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (greatsword), <a href="/pathfinderRPG/prd/feats.html#_weapon-specialization">Weapon Specialization</a> (greatsword)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +13, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +25, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) +12, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +19, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +19, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +13; <b>Racial Modifiers</b> +8 <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a>, +8 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>, +8 <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a></p>
+				<p class="stat-block-1"><b>Languages</b> Common, Dwarven, Infernal</p>
+				<p class="stat-block-1"><b>SQ</b> armor training 2, phantom mount, ruinous revivification</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any land</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or troop (graveknight plus 12&ndash;24 skeletal champions)</p>
+				<p class="stat-block-1"><b>Treasure</b> NPC gear (<i>+1 full plate</i>, <i>+1 greatsword</i>, composite longbow [+8 Str] with 20 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype" >giant</a> strength</a> +2</i>, other treasure)</p>
+				
+				<p>Undying tyrants and eternal champions of the undead, graveknights arise from the corpses of the most nefarious warlords and disgraced heroes&mdash;villains too merciless to submit to the shackles of death. They bear the same weapons and regalia they did in life, though warped or empowered by their profane resurrection. The legions they once held also flock to them in death, ready to serve their wicked ambitions once more. A graveknight's essence is fundamentally tied to its armor, the bloodstained trappings of its battle lust. This armor becomes an icon of its perverse natures, transforming into a monstrous second skin over the husk of desiccated flesh and scarred bone locked within.</p>
+				
+				<h2 id="creating-a-graveknight">Creating a Graveknight</h2>
+				<p>“Graveknight” is an acquired template that can be added to any living creature with 5 or more Hit Dice (referred to hereafter as the base creature). Most graveknights were once humanoids. A graveknight uses the base creature's statistics and abilities except as noted here.</p>
+				<p><b>CR</b>: Same as base creature +2. </p>
+				<p><b>Alignment</b>: Any evil. </p>
+				<p><b>Type</b>: The graveknight's type changes to undead (augmented). Do not recalculate class Hit Dice, BAB, or saves.</p>
+				<p><b>Senses</b>: A graveknight gains darkvision 60 ft.</p>
+				<p><b>Aura</b>: A graveknight emanates the following aura.</p>
+				<p><i>Sacrilegious Aura (Su)</i>: A graveknight constantly exudes an aura of intense evil and negative energy in a 30-foot radius. This aura functions as the spell <i><a href="/pathfinderRPG/prd/spells/desecrate.html#_desecrate" >desecrate</a></i> and uses the graveknight's armor as an altar of sorts to double the effects granted. The graveknight constantly gains the benefits of this effect (including the bonus hit points, as this aura is part of the graveknight's creation). In addition, this miasma of fell energies hinders the channeling of positive energy. Any creature that attempts to summon positive energy in this area&mdash;such as through a cleric's channel energy ability, a paladin's lay on hands, or any spell with the healing subtype&mdash;must make a concentration check with a DC equal to 10 + 1/2 the graveknight's Hit Dice + the graveknight's Charisma modifier. If the character fails, the effect is expended but does not function.</p>
+				<p><b>Armor Class</b>: Natural armor improves by +4.</p>
+				<p><b>Hit Dice</b>: Change all racial Hit Dice to d8s. Class Hit Dice are unaffected. As an undead, a graveknight uses its Charisma modifier to determine bonus hit points.</p>
+				<p><b>Defensive Abilities</b>: A graveknight gains channel resistance +4; DR 10/magic; and immunity to cold, electricity, and any additional energy type noted by its ruinous revivification special quality. A graveknight also gains spell resistance equal to its augmented CR + 11.</p>
+				<p>The graveknight also gains the following ability.</p>
+				<p class="stat-block-2"><i>Rejuvenation (Su)</i>: One day after a graveknight is destroyed, its armor begins to rebuild the undead horror's body. This process takes 1d10 days&mdash;if the body is destroyed before that time passes, the armor merely starts the process anew. After this time has elapsed, the graveknight wakens fully healed.</p>
+				<p><b>Attacks</b>: A graveknight gains a slam attack if the base creature didn't have one. Damage for the slam depends on the graveknight's size (see <i>Bestiary</i> 302).</p>
+				<p><b>Special Attacks</b>: A graveknight gains the following special attacks. Save DCs are equal to 10 + 1/2 the graveknight's HD + the graveknight's Charisma modifier unless otherwise noted.</p>
+				<p class="stat-block-2"><i>Channel <a href="/pathfinderRPG/prd/spells/destruction.html#_destruction" >Destruction</a> (Su)</i>: Any weapon a graveknight wields seethes with energy, and deals an additional 1d6 points of damage for every 4 Hit Dice the graveknight has. This additional damage is of the energy type determined by the ruinous revivification special quality.</p>
+				<p class="stat-block-2"><i>Devastating Blast (Su)</i>: Three times per day, the graveknight may unleash a 30-foot cone of energy as a standard action. This blast deals 2d6 points of damage for every 3 Hit Dice a graveknight has (Reflex for half). This damage is of the energy type determined by the graveknight's ruinous revivification special quality.</p>
+				<p class="stat-block-2"><i>Undead Mastery (Su)</i>: As a standard action, a graveknight can attempt to bend any undead creature within 50 feet to its will. The targeted undead must succeed at a Will save or fall under the graveknight's control. This control is permanent for unintelligent undead; an undead with an Intelligence score is allowed an additional save every day to break free from the graveknight's control. A creature that successfully saves cannot be affected again by the same graveknight's undead mastery for 24 hours.</p>
+				<p>A graveknight can control 5 Hit Dice of undead creatures for every Hit Die it has. If the graveknight exceeds this number, the excess from earlier uses of the ability becomes uncontrolled, as per <i><a href="/pathfinderRPG/prd/spells/animateDead.html#_animate-dead" >animate dead</a></i>.</p>
+				<p><b>Special Qualities</b>: A graveknight gains the following.</p>
+				<p class="stat-block-2"><i>Phantom <a href="/pathfinderRPG/prd/spells/mount.html#_mount" >Mount</a> (Su)</i>: Once per hour, a graveknight can summon a skeletal horse similar to a <i><a href="/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed" >phantom steed</a></i>. This mount is more real than a typical <i><a href="/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed" >phantom steed</a></i>, and can carry one additional rider. The mount's powers are based on the graveknight's total Hit Dice rather than caster level. A graveknight's mount looks distinctive and always appears the same each time it is summoned. If the mount is destroyed, it can be summoned again with full hit points 1 hour later.</p>
+				<p class="stat-block-2"><i>Ruinous Revivification (Su)</i>: At the time of its creation, the graveknight chooses one of the following energy types: acid, cold, electricity, or fire. This energy type should be relevant to the graveknight's life or death, defaulting to fire if none are especially appropriate. This energy type influences the effects of several of a graveknight's special abilities.</p>
+				<p><b>Ability Scores</b>: Str +6, Int +2, Wis +4, Cha +4. As an undead creature, a graveknight has no Constitution score.</p>
+				<p><b>Skills</b>: Graveknights gain a +8 racial bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a>, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>, and <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> checks.</p>
+				<p><b>Feats</b>: Graveknights gain <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, Ride-By Attack, and <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a> as bonus feats.</p>
+				
+				<h2>Graveknight Armor</h2>
+				<p>In death, the graveknight's life force lingers on in its armor, not its corpse, in much the same way that a lich's essence is bound within a phylactery. Unless every part of a graveknight's armor is ruined along with its body, a graveknight can rejuvenate after it is destroyed. A typical suit of full plate graveknight armor has hardness 10 and 45 hit points, though armor with enhancements or made of special materials proves more difficult to destroy. Merely breaking a graveknight's armor does not destroy it; it must be ruined, such as by being disintegrated, taken to the Positive Energy Plane, or thrown into the heart of a volcano.</p>
+			</div>
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

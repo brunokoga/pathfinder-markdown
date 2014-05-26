@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Advanced Feats</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Advanced Feats",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+        <div><h1 id="feats" class="monster-header">Feats</h1>
+				<p>Feats represent a special trick or ability a character has acquired through training, luck, or as a quirk of his or her birth. They grant characters abilities others lack, giving them an edge in the right situation. While some specifically interact with a PC's race or class, most can be taken by anyone who meets the prerequisites. The feats in this book expand upon those in the <i>Pathfinder Roleplaying Game Core Rulebook, </i>including a host of new combat feats and metamagic feats. In addition, this chapter also introduces teamwork feats, which function only when two characters with the same feat work together.</p>
+				<h1 id="types-of-feats">Types of Feats</h1>
+				<p>While most of the feats presented here are general, and have no special rules governing them, some feats have a category associated with them that involves special rules. This category is listed after the feat name. The following types of feats can be found in this chapter.</p>
+				<h2 id="combat-feats">Combat Feats</h2>
+				<p>Any feat designated as a combat feat can be selected as a fighter's bonus feat. This designation does not restrict characters of other classes from selecting these feats, assuming they meet the prerequisites.</p>
+				<h2 id="metamagic-feats"><a href="#table-metamagic-feats">Metamagic Feats</a></h2>
+				<p>Metamagic feats allow spellcasters to modify and change their spells, granting them new powers and effects. Such spells generally take up a higher-level spell slot than the normal spell.</p>
+				<h2 id="teamwork-feats"><a href="#table-teamwork-feats">Teamwork Feats</a></h2>
+				<p>Teamwork feats grant large bonuses, but they only function under specific circumstances. In most cases, these feats require an ally who also possesses the feat to be positioned carefully on the battlefield. Teamwork feats provide no bonus if the listed conditions are not met. Note that allies who are paralyzed, stunned, unconscious, or otherwise unable to act do not count for the purposes of these feats.</p>
+				
+				<h1 id="feat-descriptions">Feat Descriptions</h1>
+				<p>Feats are summarized on the table below. Note that the prerequisites and benefits of the feats listed in this table are abbreviated for ease of reference. See the feats' description for full details.</p>
+				<p>The following format is used for all feat descriptions.</p>
+				<p id="feat-name"><b>Feat Name</b>: The feat's name also indicates what subcategory, if any, the feat belongs to, and is followed by a basic description of what the feat does.</p>
+				<p><b>Prerequisite</b>: A minimum ability score, another feat or feats, a minimum base attack bonus, a minimum number of ranks in one or more skills, or anything else required in order to take the feat. This entry is absent if a feat has no prerequisites. A feat may have more than one prerequisite.</p>
+				<p><b>Benefit</b>: What a feat enables the character (“you” in the feat description) to do. If a character has the same feat more than once, its benefits do not stack unless indicated otherwise in the description.</p>
+				<p id="normal"><b>Normal</b>: What a character who does not have this feat is limited to or restricted from doing. If not having the feat causes no particular drawback, this entry is absent.</p>
+				<p><b>Special</b>: Additional unusual facts about the feat.</p>
+					<table id="table-3-1:-feats"><caption>Table:  Feats</caption>
+<thead><tr id="feats-prerequisites-benefits-"><th>Feats</th><th>Prerequisites</th><th>Benefits</th></tr></thead>
+<tr class="odd"><td><a href="#additional-traits" >Additional Traits</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Gain two additional character traits</td></tr>
+<tr class="even"><td><a href="#arcane-blast" >Arcane Blast</a></td><td style="white-space: normal;">Arcane spellcaster, caster level 10th</td><td style="white-space: normal;">Sacrifice a spell to make a ray attack</td></tr>
+<tr class="odd"><td><a href="#arcane-shield" >Arcane Shield</a></td><td style="white-space: normal;">Arcane spellcaster, caster level 10th</td><td style="white-space: normal;">Sacrifice a spell to gain deflection bonus to AC</td></tr>
+<tr class="even"><td><a href="#arcane-talent" >Arcane Talent</a></td><td style="white-space: normal;">Cha 10; elf, half-elf, or gnome</td><td style="white-space: normal;">Cast a 0-level spell 3 times per day as a spell-like ability</td></tr>
+<tr class="odd"><td><a href="#aspect-of-the-beast" >Aspect of the Beast</a></td><td style="white-space: normal;">Wild shape class feature</td><td style="white-space: normal;">Gain one of four bestial advantages</td></tr>
+<tr class="even"><td><a href="#bashing-finish" >Bashing Finish*</a></td><td style="white-space: normal;"><a href="../feats.html#_shield-master" >Shield Master</a>, <a href="../feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>,  base attack bonus +11</td><td style="white-space: normal;">Make a free shield bash after a critical hit</td></tr>
+<tr class="odd"><td><a href="#bloody-assault" >Bloody Assault*</a></td><td style="white-space: normal;"><a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +6</td><td style="white-space: normal;">Trade melee attack bonus for bleed damage</td></tr>
+<tr class="even"><td><a href="#bodyguard" >Bodyguard*</a></td><td style="white-space: normal;"><a href="../feats.html#_combat-reflexes" >Combat Reflexes</a></td><td style="white-space: normal;">Use attack of opportunity to add a bonus to adjacent ally's AC</td></tr>
+<tr class="odd"><td class="indent"><a href="#in-harm's-way" >In Harm's Way*</a></td><td style="white-space: normal;"><a href="#bodyguard" >Bodyguard</a></td><td style="white-space: normal;">Take the damage of a successful attack upon an adjacent ally</td></tr>
+<tr class="even"><td><a href="#breadth-of-experience" >Breadth of Experience</a></td><td style="white-space: normal;">Dwarf, elf, or gnome; 100+ years old</td><td style="white-space: normal;">+2 bonus on all <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> and <a href="../skills/profession.html#_profession" >Profession</a> checks</td></tr>
+<tr class="odd"><td><a href="#bull-rush-strike" >Bull Rush Strike*</a></td><td style="white-space: normal;"><a href="../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, base attack bonus +9</td><td style="white-space: normal;">Attempt a bull rush on a successful critical hit</td></tr>
+<tr class="even"><td><a href="#charge-through" >Charge Through*</a></td><td style="white-space: normal;"><a href="../feats.html#_improved-overrun" >Improved Overrun</a>, base attack bonus +1</td><td style="white-space: normal;">Make overrun as free action while charging</td></tr>
+<tr class="odd"><td><a href="#childlike" >Childlike</a></td><td style="white-space: normal;">Cha 13, halfling</td><td style="white-space: normal;">+2 on <a href="../skills/disguise.html#_disguise" >Disguise</a> checks to look like human child, take 10 on <a href="../skills/bluff.html#_bluff" >Bluff</a> checks</td></tr>
+<tr class="even"><td><a href="#cockatrice-strike" >Cockatrice Strike*</a></td><td style="white-space: normal;"><a href="../feats.html#_medusa-s-wrath" >Medusa's Wrath</a>, base attack bonus +16</td><td style="white-space: normal;">Turn a target to stone with a critical hit</td></tr>
+<tr class="odd"><td><a href="#combat-patrol" >Combat Patrol*</a></td><td style="white-space: normal;"><a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../feats.html#_mobility" >Mobility</a>,  base attack bonus +5</td><td style="white-space: normal;">Increase threatened area for attack of opportunity</td></tr>
+<tr class="even"><td><a href="#cooperative-craftin" >Cooperative Crafting</a></td><td style="white-space: normal;">1 rank in any <a href="../skills/craft.html#_craft" >Craft</a> skill, any item creation feat </td><td style="white-space: normal;">+2 bonus on <a href="../skills/craft.html#_craft" >Craft</a> or <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> checks while workingtogether</td></tr>
+<tr class="odd"><td><a href="#cosmopolitan" >Cosmopolitan</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Read and speak two additional languages</td></tr>
+<tr class="even"><td><a href="#covering-defense" >Covering Defense*</a></td><td style="white-space: normal;"><a href="../feats.html#_shield-focus" >Shield Focus</a>, base attack bonus +6</td><td style="white-space: normal;">Provide cover to an ally with total defense</td></tr>
+<tr class="odd"><td><a href="#crippling-critical" >Crippling Critical</a>*</td><td style="white-space: normal;"><a href="../feats.html#_critical-focus" >Critical Focus</a>, base attack bonus +13</td><td style="white-space: normal;">Whenever you score a critical hit, the target's  speed is halved</td></tr>
+<tr class="even"><td><a href="#crossbow-mastery" >Crossbow Mastery*</a></td><td style="white-space: normal;">Dex 15, <a href="../feats.html#_rapid-reload" >Rapid Reload</a>, <a href="../feats.html#_rapid-shot" >Rapid Shot</a></td><td style="white-space: normal;">Reload crossbow as free action and make full attacks</td></tr>
+<tr class="odd"><td><a href="#dastardly-finish" >Dastardly Finish*</a></td><td style="white-space: normal;">Sneak attack +5d6</td><td style="white-space: normal;">Deliver coup de grace to cowering or stunned target</td></tr>
+<tr class="even"><td><a href="#dazing-assault" >Dazing Assault*</a></td><td style="white-space: normal;"><a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +11</td><td style="white-space: normal;">Trade melee attack bonus to daze opponents</td></tr>
+<tr class="odd"><td><a href="#deep-drinker" >Deep Drinker</a></td><td style="white-space: normal;">Con 13, monk level 11, drunken <i>ki</i> class feature</td><td style="white-space: normal;">Gain 2 temporary <i>ki</i> from drunken ki</td></tr>
+<tr class="even"><td><a href="#deepsight" >Deepsight</a></td><td style="white-space: normal;">Darkvision 60 feet</td><td style="white-space: normal;">Your darkvision has a range of 120 feet</td></tr>
+<tr class="odd"><td><a href="#disarming-strike" >Disarming Strike*</a></td><td style="white-space: normal;"><a href="../feats.html#_improved-disarm" >Improved Disarm</a>, base attack bonus +9</td><td style="white-space: normal;">Attempt a disarm on a successful critical hit</td></tr>
+<tr class="even"><td><a href="#disrupting-shot" >Disrupting Shot*</a></td><td style="white-space: normal;">Dex 13, <a href="../feats.html#_point-blank-shot" >Point-Blank Shot</a>, 6th-level fighter</td><td style="white-space: normal;">Ranged attacks increase enemy's DC to cast spells</td></tr>
+<tr class="odd"><td><a href="#diviner's-delvin" >Diviner's Delving</a></td><td style="white-space: normal;"><a href="../feats.html#_spell-focus" >Spell Focus</a> (divination)</td><td style="white-space: normal;">+2 bonus on caster level checks with divinations</td></tr>
+<tr class="even"><td><a href="#eagle-eyes" >Eagle Eyes</a></td><td style="white-space: normal;">Wis 13, keen senses racial trait</td><td style="white-space: normal;">Ignore up to &ndash;5 due to distance on visual <a href="../skills/perception.html#_perception" >Perception</a> checks</td></tr>
+<tr class="odd"><td><a href="#eclectic" >Eclectic</a></td><td style="white-space: normal;">Human</td><td style="white-space: normal;">Gain an additional favored class</td></tr>
+<tr class="even"><td><a href="#eldritch-claws" >Eldritch Claws</a></td><td style="white-space: normal;">Str 15, natural weapons, base attack bonus +6</td><td style="white-space: normal;">Natural weapons treated as magic and silver</td></tr>
+<tr class="odd"><td><a href="#elemental-fist" >Elemental Fist*</a></td><td style="white-space: normal;">Con 13, Wis 13, <a href="../feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>,  base attack bonus +8</td><td style="white-space: normal;">Deal 1d6 energy damage with an unarmed strike</td></tr>
+<tr class="even"><td><a href="#elemental-focus" >Elemental Focus</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">+1 bonus on save DCs for one energy type</td></tr>
+<tr class="odd"><td class="indent"><a href="#greater-elemental-focus" >Greater Elemental Focus</a></td><td style="white-space: normal;"><a href="#elemental-focus" >Elemental Focus</a></td><td style="white-space: normal;">+1 bonus on save DCs for one energy type</td></tr>
+<tr class="even"><td><a href="#elven-accuracy" >Elven Accuracy*</a></td><td style="white-space: normal;">Elf</td><td style="white-space: normal;">Reroll miss chance due to concealment when using a bow</td></tr>
+<tr class="odd"><td><a href="#enforcer" >Enforcer*</a></td><td style="white-space: normal;"><a href="../skills/intimidate.html#_intimidate" >Intimidate</a> 1 rank</td><td style="white-space: normal;">Demoralize opponent as free action when you inflict nonlethal damage</td></tr>
+<tr class="even"><td><a href="#expanded-arcana" >Expanded Arcana</a></td><td style="white-space: normal;">Caster level 1st, see feat</td><td style="white-space: normal;">Add one or two spells to list of spells known</td></tr>
+<tr class="odd"><td><a href="#extra-bombs" >Extra Bombs</a></td><td style="white-space: normal;">Bomb class feature</td><td style="white-space: normal;">Throw two additional bombs per day</td></tr>
+<tr class="even"><td><a href="#extra-discovery" >Extra Discovery</a></td><td style="white-space: normal;">Discovery class feature</td><td style="white-space: normal;">Gain one additional discovery</td></tr>
+<tr class="odd"><td><a href="#extra-hex" >Extra Hex</a></td><td style="white-space: normal;">Hex class feature</td><td style="white-space: normal;">Gain one additional hex</td></tr>
+<tr class="even"><td><a href="#extra-rage-power" >Extra Rage Power</a></td><td style="white-space: normal;">Rage power class feature</td><td style="white-space: normal;">Gain one additional rage power</td></tr>
+<tr class="odd"><td><a href="#extra-revelation" >Extra Revelation</a></td><td style="white-space: normal;">Revelation class feature</td><td style="white-space: normal;">Gain one additional revelation</td></tr>
+<tr class="even"><td><a href="#extra-rogue-talent" >Extra Rogue Talent</a></td><td style="white-space: normal;">Rogue talent class feature</td><td style="white-space: normal;">Gain one additional rogue talent</td></tr>
+<tr class="odd"><td><a href="#fast-drinker" >Fast Drinker</a></td><td style="white-space: normal;">Con 18, drunken <i>ki</i> class feature</td><td style="white-space: normal;">Drink as a swift action</td></tr>
+<tr class="even"><td><a href="#fast-healer" >Fast Healer</a></td><td style="white-space: normal;">Con 13, <a href="../feats.html#_diehard" >Diehard</a>, <a href="../feats.html#_endurance" >Endurance</a></td><td style="white-space: normal;">Regain additional hit points when healing</td></tr>
+<tr class="odd"><td><a href="#favored-defense" >Favored Defense</a></td><td style="white-space: normal;">Favored enemy class feature</td><td style="white-space: normal;">Bonus to CMD and AC when attacked by favored enemy</td></tr>
+<tr class="even"><td><a href="#fight-on" >Fight On</a></td><td style="white-space: normal;">Con 13; dwarf, half-orc, or orc</td><td style="white-space: normal;">Gain temporary hit points when reduced to 0</td></tr>
+<tr class="odd"><td><a href="#focused-shot" >Focused Shot*</a></td><td style="white-space: normal;">Int 13, <a href="../feats.html#_precise-shot" >Precise Shot</a></td><td style="white-space: normal;">Add Int modifier on damage rolls with bows or crossbows</td></tr>
+<tr class="even"><td><a href="#following-step" >Following Step*</a></td><td style="white-space: normal;">Dex 13, <a href="../feats.html#_step-up" >Step Up</a></td><td style="white-space: normal;">Move up to 10 feet as an immediate action</td></tr>
+<tr class="odd"><td class="indent"><a href="#step-up-and-strike" >Step Up and Strike*</a></td><td style="white-space: normal;"><a href="#following-step" >Following Step</a>, base attack bonus +6</td><td style="white-space: normal;">Follow adjacent creature and attack as an immediate action</td></tr>
+<tr class="even"><td><a href="#furious-focus" >Furious Focus*</a></td><td style="white-space: normal;">Str 13, <a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +1</td><td style="white-space: normal;">Do not take the <a href="../feats.html#_power-attack" >Power Attack</a> penalty on the first attack each round</td></tr>
+<tr class="odd"><td class="indent"><a href="#dreadful-carnage" >Dreadful Carnage*</a></td><td style="white-space: normal;">Str 15, <a href="#furious-focus" >Furious Focus</a>, base attack bonus +11</td><td style="white-space: normal;">Make a free <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> check when you knock down a foe</td></tr>
+<tr class="even"><td><a href="#gang-up" >Gang Up*</a></td><td style="white-space: normal;"><a href="../feats.html#_combat-expertise" >Combat Expertise</a></td><td style="white-space: normal;">Flank an opponent if at least two allies are adjacent to it</td></tr>
+<tr class="odd"><td class="indent"><a href="#team-up" >Team Up*</a></td><td style="white-space: normal;">Gang-Up, base attack bonus +6</td><td style="white-space: normal;">Aid another as a move action with two adjacent allies </td></tr>
+<tr class="even"><td><a href="#gnome-trickster" >Gnome Trickster</a></td><td style="white-space: normal;">Cha 13, gnome, gnome magic racial trait</td><td style="white-space: normal;">Use <i><a href="../spells/mageHand.html#_mage-hand" >mage hand</a></i> and <i><a href="../spells/prestidigitation.html#_prestidigitation" >prestidigitation</a></i> once per day</td></tr>
+<tr class="odd"><td><a href="#go-unnoticed" >Go Unnoticed</a></td><td style="white-space: normal;">Dex 13, Small size or smaller</td><td style="white-space: normal;">Make <a href="../skills/stealth.html#_stealth" >Stealth</a> check against flat-footed opponents during first round of combat</td></tr>
+<tr class="even"><td><a href="#groundlin" >Groundling</a></td><td style="white-space: normal;">Cha 13, gnome, gnome magic racial trait</td><td style="white-space: normal;">Speak with burrowing animals as spell-like ability</td></tr>
+<tr class="odd"><td><a href="#heroic-defiance" >Heroic Defiance</a></td><td style="white-space: normal;"><a href="../feats.html#_diehard" >Diehard</a>, base Fortitude save +8</td><td style="white-space: normal;">Once per day, delay onset of harmful condition for 1 round</td></tr>
+<tr class="even"><td><a href="#heroic-recovery" >Heroic Recovery</a></td><td style="white-space: normal;"><a href="../feats.html#_diehard" >Diehard</a>, base Fortitude save +4</td><td style="white-space: normal;">Once per day, gain new saving throw against harmful condition requiring Fort save</td></tr>
+<tr class="odd"><td><a href="#improved-blind-fight" >Improved Blind-Fight*</a></td><td style="white-space: normal;"><a href="../skills/perception.html#_perception" >Perception</a> 10 ranks, <a href="../feats.html#_blind-fight" >Blind-Fight</a></td><td style="white-space: normal;">Ignore miss chance for less than total concealment</td></tr>
+<tr class="even"><td class="indent"><a href="#greater-blind-fight" >Greater Blind-Fight*</a></td><td style="white-space: normal;"><a href="../skills/perception.html#_perception" >Perception</a> 15 ranks, <a href="#improved-blind-fight" >Improved <a href="../feats.html#_blind-fight" >Blind-Fight</a></a></td><td style="white-space: normal;">Total concealment is considered normal concealment</td></tr>
+<tr class="odd"><td><a href="#improved-dirty-trick" >Improved Dirty Trick*</a></td><td style="white-space: normal;"><a href="../feats.html#_combat-expertise" >Combat Expertise</a></td><td style="white-space: normal;">+2 bonus on dirty trick attempts, no attack of opportunity</td></tr>
+<tr class="even"><td class="indent"><a href="#greater-dirty-trick" >Greater Dirty Trick*</a></td><td style="white-space: normal;"><a href="#improved-dirty-trick" >Improved Dirty Trick</a>, base attack bonus +6</td><td style="white-space: normal;">Dirty trick penalty lasts 1d4 rounds</td></tr>
+<tr class="odd"><td><a href="#improved-drag" >Improved Drag*</a></td><td style="white-space: normal;"><a href="../feats.html#_power-attack" >Power Attack</a></td><td style="white-space: normal;">+2 bonus on drag attempts, no attack of opportunity</td></tr>
+<tr class="even"><td class="indent"><a href="#greater-drag" >Greater Drag*</a></td><td style="white-space: normal;"><a href="#improved-dra" >Improved Drag</a>, base attack bonus +6</td><td style="white-space: normal;">Enemies you drag provoke attacks of opportunity</td></tr>
+<tr class="odd"><td><a href="#improved-reposition" >Improved Reposition*</a></td><td style="white-space: normal;"><a href="../feats.html#_combat-expertise" >Combat Expertise</a></td><td style="white-space: normal;">+2 bonus on reposition attempts, no attack of opportunity</td></tr>
+<tr class="even"><td class="indent"><a href="#greater-reposition" >Greater Reposition*</a></td><td style="white-space: normal;"><a href="#improved-reposition" >Improved Reposition</a>, base attack bonus +6</td><td style="white-space: normal;">Enemies you reposition provoke attacks of opportunity</td></tr>
+<tr class="odd"><td><a href="#improved-share-spells" >Improved Share Spells</a></td><td style="white-space: normal;"><a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> 10 ranks, see feat</td><td style="white-space: normal;">Spells affect both you and your bonded creature</td></tr>
+<tr class="even"><td><a href="#improved-steal" >Improved Steal*</a></td><td style="white-space: normal;"><a href="../feats.html#_combat-expertise" >Combat Expertise</a></td><td style="white-space: normal;">+2 bonus on steal attempts, no attack of opportunity</td></tr>
+<tr class="odd"><td class="indent"><a href="#greater-steal" >Greater Steal*</a></td><td style="white-space: normal;"><a href="#improved-steal" >Improved Steal</a>, base attack bonus +6</td><td style="white-space: normal;">Enemies don't notice theft until after combat</td></tr>
+<tr class="even"><td><a href="#improved-stonecunnin" >Improved Stonecunning</a></td><td style="white-space: normal;">Wis 13, dwarf, stonecunning racial trait</td><td style="white-space: normal;">+4 bonus on <a href="../skills/perception.html#_perception" >Perception</a> checks to notice unusual stonework</td></tr>
+<tr class="odd"><td class="indent"><a href="#stone-sense" >Stone Sense</a></td><td style="white-space: normal;"><a href="../skills/perception.html#_perception" >Perception</a> 10 ranks, Improved Stonecunning</td><td style="white-space: normal;">Gain tremorsense 10 ft.</td></tr>
+<tr class="even"><td><a href="#ironguts" >Ironguts</a></td><td style="white-space: normal;">Con 13; dwarf, half-orc, or orc</td><td style="white-space: normal;">+2 on saves against nausea, sickening, and ingested poisons</td></tr>
+<tr class="odd"><td><a href="#ironhide" >Ironhide</a></td><td style="white-space: normal;">Con 13; dwarf, half-orc, or orc</td><td style="white-space: normal;">+1 natural armor bonus to AC</td></tr>
+<tr class="even"><td><a href="#keen-scent" >Keen Scent</a></td><td style="white-space: normal;">Wis 13, half-orc or orc</td><td style="white-space: normal;">Gain the scent special ability</td></tr>
+<tr class="odd"><td class="indent"><a href="#smell-fear" >Smell Fear</a></td><td style="white-space: normal;"><a href="#keen-scent" >Keen Scent</a>, half-orc or orc</td><td style="white-space: normal;">+4 on <a href="../skills/perception.html#_perception" >Perception</a> checks to detect frightened creatures</td></tr>
+<tr class="even"><td><a href="#ki-throw" ><i>Ki</i> Throw</a>*</td><td style="white-space: normal;"><a href="../feats.html#_improved-trip" >Improved Trip</a>, <a href="../feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a></td><td style="white-space: normal;">Throw opponent into adjacent square with a trip attack</td></tr>
+<tr class="odd"><td class="indent"><a href="#improved-ki-throw" >Improved <i>Ki</i> Throw</a>*</td><td style="white-space: normal;"><a href="../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="#ki-throw" >Ki Throw</a></td><td style="white-space: normal;">Throw opponent into occupied square as a bull rush</td></tr>
+<tr class="even"><td><a href="#leaf-singer" >Leaf Singer</a></td><td style="white-space: normal;">Cha 13, bardic performance, elf or half-elf</td><td style="white-space: normal;">Gain benefits to bardic performance in forests and against fey</td></tr>
+<tr class="odd"><td><a href="#light-step" >Light Step</a></td><td style="white-space: normal;"><a href="../feats.html#_acrobatic-steps" >Acrobatic Steps</a>, <a href="../feats.html#_nimble-moves" >Nimble Moves</a>, elf</td><td style="white-space: normal;">Move normal speed in difficult terrain</td></tr>
+<tr class="even"><td><a href="#lingering-performance" >Lingering Performance</a></td><td style="white-space: normal;">Bardic performance class ability</td><td style="white-space: normal;">Bardic performance continues for 2 rounds after you stop performing</td></tr>
+<tr class="even"><td><a href="#low-profile" >Low Profile*</a></td><td style="white-space: normal;">Dex 13, Small size or smaller</td><td style="white-space: normal;">+1 dodge bonus to AC against ranged attacks</td></tr>
+<tr class="odd"><td><a href="#lucky-halflin" >Lucky Halfling</a></td><td style="white-space: normal;">Halfling</td><td style="white-space: normal;">You may roll saving throw for an ally once per day</td></tr>
+<tr class="even"><td><a href="#master-alchemist" >Master Alchemist</a></td><td style="white-space: normal;"><a href="../skills/craft.html#_craft" >Craft</a> (alchemy) 5 ranks</td><td style="white-space: normal;">+2 on <a href="../skills/craft.html#_craft" >Craft</a> (alchemy) checks, and you can create alchemical items and poisons faster</td></tr>
+<tr class="odd"><td><a href="#minor-spell-expertise" >Minor Spell Expertise</a></td><td style="white-space: normal;">Cast 4th-level spells</td><td style="white-space: normal;">Cast 1st-level spell as spell-like ability 2/day</td></tr>
+<tr class="even"><td class="indent"><a href="#major-spell-expertise" >Major Spell Expertise</a></td><td style="white-space: normal;"><a href="#minor-spell-expertise" >Minor Spell Expertise</a>, cast 9th-level spells</td><td style="white-space: normal;">Cast 5th-level or lower spell as spell-like ability 2/day</td></tr>
+<tr class="odd"><td><a href="#missile-shield" >Missile Shield*</a></td><td style="white-space: normal;">Dex 13, <a href="../feats.html#_shield-focus" >Shield Focus</a></td><td style="white-space: normal;">Deflect one ranged attack per round with shield</td></tr>
+<tr class="even"><td class="indent"><a href="#ray-shield" >Ray Shield*</a></td><td style="white-space: normal;">Dex 15, <a href="#missile-shield" >Missile Shield</a>, <a href="../feats.html#_spellbreaker" >Spellbreaker</a></td><td style="white-space: normal;">Deflect one ranged touch attack per round with shield</td></tr>
+<tr class="odd"><td><a href="#mounted-shield" >Mounted Shield*</a></td><td style="white-space: normal;"><a href="../feats.html#_mounted-combat" >Mounted Combat</a>, <a href="../feats.html#_shield-focus" >Shield Focus</a></td><td style="white-space: normal;">Apply shield bonus to mount's AC</td></tr>
+<tr class="even"><td><a href="#parry-spell" >Parry Spell</a></td><td style="white-space: normal;"><a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> 15 ranks, <a href="../feats.html#_improved-counterspell" >Improved Counterspell</a></td><td style="white-space: normal;">Reflect a counterspelled spell back on its caster</td></tr>
+<tr class="odd"><td><a href="#parting-shot" >Parting Shot*</a></td><td style="white-space: normal;"><a href="../feats.html#_shot-on-the-run" >Shot on the Run</a>, base attack bonus +6</td><td style="white-space: normal;">Make a ranged attack when withdrawing</td></tr>
+<tr class="even"><td><a href="#pass-for-human" >Pass for Human</a></td><td style="white-space: normal;">Half-elf, half-orc, or halfling</td><td style="white-space: normal;">+10 on <a href="../skills/disguise.html#_disguise" >Disguise</a> checks to look like a human</td></tr>
+<tr class="odd"><td><a href="#perfect-strike" >Perfect Strike*</a></td><td style="white-space: normal;">Dex 13, Wis 13, <a href="../feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>,  base attack bonus +8</td><td style="white-space: normal;">Roll twice for attacks with monk weapons and take the better roll</td></tr>
+<tr class="even"><td><a href="#point-blank-master" >Point-Blank Master</a>*</td><td style="white-space: normal;"><a href="../feats.html#_weapon-specialization" >Weapon Specialization</a> with a ranged weapon</td><td style="white-space: normal;">Do not provoke attacks of opportunity while firing one  ranged weapon</td></tr>
+<tr class="odd"><td><a href="#practiced-tactician" >Practiced Tactician</a></td><td style="white-space: normal;">Tactician class feature</td><td style="white-space: normal;">Use tactician ability one additional time per day</td></tr>
+<tr class="even"><td><a href="#preferred-spell" >Preferred Spell</a></td><td style="white-space: normal;"><a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> 5 ranks, <a href="../feats.html#_heighten-spell" >Heighten Spell</a></td><td style="white-space: normal;">Spontaneously cast a specific spell</td></tr>
+<tr class="odd"><td><a href="#punishing-kick" >Punishing Kick*</a></td><td style="white-space: normal;">Con 13, Wis 13, <a href="../feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, base attack bonus +8</td><td style="white-space: normal;">Knock down or push back foes with unarmed strikes</td></tr>
+<tr class="even"><td><a href="#pushing-assault" >Pushing Assault*</a></td><td style="white-space: normal;">Str 15, <a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +1</td><td style="white-space: normal;">Push a foe back with a two-handed weapon</td></tr>
+<tr class="odd"><td><a href="#racial-heritage" >Racial Heritage</a></td><td style="white-space: normal;">Human</td><td style="white-space: normal;">Affected as though both human and another race</td></tr>
+<tr class="even"><td><a href="#raging-vitality" >Raging Vitality</a></td><td style="white-space: normal;">Con 15, rage class feature</td><td style="white-space: normal;">+2 bonus to Con when raging, and continue raging if unconscious</td></tr>
+<tr class="odd"><td><a href="#razortusk" >Razortusk</a></td><td style="white-space: normal;">Half-orc</td><td style="white-space: normal;">Gain bite attack</td></tr>
+<tr class="even"><td><a href="#rending-claws" >Rending Claws*</a></td><td style="white-space: normal;">Str 13, two claw attacks, base attack bonus +6</td><td style="white-space: normal;">Deal 1d6 extra damage if both claws hit</td></tr>
+<tr class="odd"><td><a href="#repositioning-strike" >Repositioning Strike*</a></td><td style="white-space: normal;"><a href="#improved-reposition">Improved Repostion</a>, base attack bonus +9</td><td style="white-space: normal;">Attempt a reposition attack on a successful critical hit</td></tr>
+<tr class="even"><td><a href="#saving-shield" >Saving Shield*</a></td><td style="white-space: normal;"><a href="../feats.html#_shield-proficiency" >Shield Proficiency</a></td><td style="white-space: normal;">Grant shield bonus to an adjacent ally</td></tr>
+<tr class="odd"><td><a href="#second-chance" >Second Chance*</a></td><td style="white-space: normal;"><a href="../feats.html#_combat-expertise" >Combat Expertise</a>, base attack bonus +6</td><td style="white-space: normal;">Exchange later attacks to reroll missed first attack</td></tr>
+<tr class="even"><td class="indent"><a href="#improved-second-chance" >Improved Second Chance*</a></td><td style="white-space: normal;"><a href="#second-chance" >Second Chance</a>, base attack bonus +11</td><td style="white-space: normal;">Take a &ndash;5 penalty on later attacks to reroll missed attack</td></tr>
+<tr class="odd"><td><a href="#shadow-strike" >Shadow Strike*</a></td><td style="white-space: normal;">Base attack bonus +1</td><td style="white-space: normal;">Deal precision damage against targets with concealment</td></tr>
+<tr class="even"><td><a href="#shared-insight" >Shared Insight</a></td><td style="white-space: normal;">Wis 13, half-elf</td><td style="white-space: normal;">Grant friendly creatures a +2 bonus on <a href="../skills/perception.html#_perception" >Perception</a> checks</td></tr>
+<tr class="odd"><td><a href="#sharp-senses" >Sharp Senses</a></td><td style="white-space: normal;">Keen senses racial trait</td><td style="white-space: normal;">+4 racial bonus on <a href="../skills/perception.html#_perception" >Perception</a> checks</td></tr>
+<tr class="even"><td><a href="#shield-of-swings" >Shield of Swings*</a></td><td style="white-space: normal;">Str 13, <a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +1</td><td style="white-space: normal;">Reduce damage with a two handed weapon to gain a +4  shield bonus</td></tr>
+<tr class="odd"><td><a href="#shield-specialization" >Shield Specialization*</a></td><td style="white-space: normal;"><a href="../feats.html#_shield-focus" >Shield Focus</a>, 4th-level fighter</td><td style="white-space: normal;">+2 bonus to AC against criticals with one type of shield</td></tr>
+<tr class="even"><td class="indent"><a href="#greater-shield-specialization" >Greater Shield Specialization</a>*</td><td style="white-space: normal;"><a href="../feats.html#_greater-shield-focus" >Greater Shield Focus</a>, <a href="#shield-specialization" >Shield Specialization</a>,  12th-level fighter</td><td style="white-space: normal;">+2 bonus to AC against criticals, and negate critical hit  once per day</td></tr>
+<tr class="odd"><td><a href="#sidestep" >Sidestep*</a></td><td style="white-space: normal;">Dex 13, <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_mobility" >Mobility</a></td><td style="white-space: normal;">Make 5-foot step immediately after an opponent misses</td></tr>
+<tr class="even"><td class="indent"><a href="#improved-sidestep" >Improved Sidestep*</a></td><td style="white-space: normal;">Dex 15, <a href="#sidestep" >Sidestep</a></td><td style="white-space: normal;"><a href="#sidestep" >Sidestep</a> without using your 5-foot step on your next turn</td></tr>
+<tr class="odd"><td><a href="#smash" >Smash*</a></td><td style="white-space: normal;"><a href="../feats.html#_power-attack" >Power Attack</a>, half-orc</td><td style="white-space: normal;">Ignore 5 points of hardness when breaking an object</td></tr>
+<tr class="even"><td><a href="#sociable" >Sociable</a></td><td style="white-space: normal;">Cha 13, half-elf</td><td style="white-space: normal;">Grant friendly creatures a +2 bonus on <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks</td></tr>
+<tr class="odd"><td><a href="#spell-perfection" >Spell Perfection</a></td><td style="white-space: normal;"><a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> 15 ranks, 3 metamagic feats</td><td style="white-space: normal;">Apply any metamagic feat to one spell without penalty, up to 9th level</td></tr>
+<tr class="odd"><td><a href="#spider-step" >Spider Step</a></td><td style="white-space: normal;"><a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> 6 ranks, <a href="../skills/climb.html#_climb" >Climb</a> 6 ranks,  6th-level monk</td><td style="white-space: normal;">Walk on walls or ceilings for half your slow fall distance</td></tr>
+<tr class="odd"><td class="indent"><a href="#cloud-step" >Cloud Step</a></td><td style="white-space: normal;"><a href="#spider-step" >Spider Step</a>, 12th-level monk</td><td style="white-space: normal;"><i><a href="../spells/airWalk.html#_air-walk" >Air walk</a></i> for half your slow fall distance</td></tr>
+<tr class="even"><td><a href="#stabbing-shot" >Stabbing Shot*</a></td><td style="white-space: normal;"><a href="../feats.html#_rapid-shot" >Rapid Shot</a>, elf</td><td style="white-space: normal;">Use arrow as a melee attack to push enemies back</td></tr>
+<tr class="odd"><td><a href="#steel-soul" >Steel Soul</a></td><td style="white-space: normal;">Dwarf, hardy racial trait</td><td style="white-space: normal;">+4 racial bonus on saves against spells and spell-like abilities</td></tr>
+<tr class="even"><td><a href="#stone-faced" >Stone-Faced</a></td><td style="white-space: normal;">Dwarf</td><td style="white-space: normal;">+4 bonus on <a href="../skills/bluff.html#_bluff" >Bluff</a> checks to lie or conceal motives</td></tr>
+<tr class="odd"><td><a href="#stone-singer" >Stone Singer</a></td><td style="white-space: normal;">Cha 13, bardic performance, dwarf</td><td style="white-space: normal;">Gain benefits to bardic performance underground and  against earth creatures</td></tr>
+<tr class="odd"><td><a href="#stunning-assault" >Stunning Assault*</a></td><td style="white-space: normal;"><a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +16</td><td style="white-space: normal;">Trade melee attack bonus to stun opponents</td></tr>
+<tr class="even"><td><a href="#summoner's-call" >Summoner's Call</a></td><td style="white-space: normal;">Eidolon class feature</td><td style="white-space: normal;">Your eidolon gets a bonus when summoned</td></tr>
+<tr class="odd"><td><a href="#sundering-strike" >Sundering Strike*</a></td><td style="white-space: normal;"><a href="../feats.html#_improved-sunder" >Improved Sunder</a>, base attack bonus</td><td style="white-space: normal;">+9 Attempt a sunder attack on a successful critical hit</td></tr>
+<tr class="even"><td><a href="#swift-aid" >Swift Aid*</a></td><td style="white-space: normal;"><a href="../feats.html#_combat-expertise" >Combat Expertise</a>, base attack bonus</td><td style="white-space: normal;">+6 Attempt to aid another as a swift action</td></tr>
+<tr class="odd"><td><a href="#taunt" >Taunt</a></td><td style="white-space: normal;">Cha 13, Small size or smaller</td><td style="white-space: normal;">Demoralize opponents with <a href="../skills/bluff.html#_bluff" >Bluff</a> instead of <a href="../skills/intimidate.html#_intimidate" >Intimidate</a></td></tr>
+<tr class="even"><td><a href="#teleport-tactician" >Teleport Tactician*</a></td><td style="white-space: normal;"><a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../feats.html#_disruptive" >Disruptive</a>, <a href="../feats.html#_spellbreaker" >Spellbreaker</a></td><td style="white-space: normal;">Teleporting creatures provoke attacks of opportunity</td></tr>
+<tr class="odd"><td><a href="#tenacious-transmutation" >Tenacious Transmutation</a></td><td style="white-space: normal;"><a href="../feats.html#_spell-focus" >Spell Focus</a> (transmutation)</td><td style="white-space: normal;">+2 to DC to dispel your transmutations</td></tr>
+<tr class="even"><td><a href="#touch-of-serenity" >Touch of Serenity*</a></td><td style="white-space: normal;">Wis 18, <a href="../feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, base attack bonus +8</td><td style="white-space: normal;">Foes hit by unarmed strikes cannot attack or cast spells</td></tr>
+<tr class="odd"><td><a href="#trick-riding" >Trick Riding*</a></td><td style="white-space: normal;"><a href="../skills/ride.html#_ride" >Ride</a> rank 9, <a href="../feats.html#_mounted-combat" >Mounted Combat</a></td><td style="white-space: normal;">Automatically pass simple <a href="../skills/ride.html#_ride" >Ride</a> skill checks</td></tr>
+<tr class="even"><td class="indent"><a href="#mounted-skirmisher" >Mounted Skirmisher*</a></td><td style="white-space: normal;"><a href="../skills/ride.html#_ride" >Ride</a> rank 14, <a href="#trick-ridin" >Trick Riding</a></td><td style="white-space: normal;">Make a full attack if mount moves its speed or less</td></tr>
+<tr class="odd"><td><a href="#tripping-strike" >Tripping Strike*</a></td><td style="white-space: normal;"><a href="../feats.html#_improved-trip" >Improved Trip</a>, base attack bonus +9</td><td style="white-space: normal;">Attempt a trip attack on a successful critical hit</td></tr>
+<tr class="even"><td><a href="#under-and-over" >Under and Over*</a></td><td style="white-space: normal;"><a href="../feats.html#_agile-maneuvers" >Agile Maneuvers</a>, Small size or smaller</td><td style="white-space: normal;">Failed grapples against you cause attacker to fall prone</td></tr>
+<tr class="odd"><td><a href="#underfoot" >Underfoot*</a></td><td style="white-space: normal;"><a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_mobility" >Mobility</a>, Small size or smaller</td><td style="white-space: normal;">+4 on <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks to move past larger opponents</td></tr>
+<tr class="even"><td><a href="#vermin-heart" >Vermin Heart</a></td><td style="white-space: normal;">Wild empathy class feature</td><td style="white-space: normal;">Target vermin with spells as if they were animals</td></tr>
+<tr class="odd"><td><a href="#war-singer" >War Singer</a></td><td style="white-space: normal;">Cha 13, bardic performance, half-orc or orc</td><td style="white-space: normal;">Gain benefits to bardic performance on battlefields and against orcs</td></tr>
+<tr class="even"><td><a href="#well-prepared" >Well-Prepared</a></td><td style="white-space: normal;">Halfling</td><td style="white-space: normal;">Retrieve a specific mundane item from your person</td></tr>
+<tr id="table-metamagic-feats"><th>Metamagic Feats</th><th>Prerequisites</th><th>Benefits</th></tr>
+<tr class="odd"><td><a href="#bouncing-spell" >Bouncing Spell</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Redirect a spell that had no effect on initial target</td></tr>
+<tr class="even"><td><a href="#dazing-spell" >Dazing Spell</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Daze creature with spell damage</td></tr>
+<tr class="odd"><td><a href="#disruptive-spell" >Disruptive Spell</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Target of spell must make concentration check to cast a spell in the next round</td></tr>
+<tr class="even"><td><a href="#ectoplasmic-spell" >Ectoplasmic Spell</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Spell fully affects incorporeal and ethereal creatures</td></tr>
+<tr class="odd"><td><a href="#elemental-spell" >Elemental Spell</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Inflict energy damage instead of regular spell damage</td></tr>
+<tr class="even"><td><a href="#focused-spell" >Focused Spell</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Increase save DC of spell for one target in a group</td></tr>
+<tr class="odd"><td><a href="#intensified-spell" >Intensified Spell</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Increase maximum damage dice by 5 levels</td></tr>
+<tr class="even"><td><a href="#lingering-spell" >Lingering Spell</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Instantaneous area effect spell lasts for 1 round</td></tr>
+<tr class="odd"><td><a href="#merciful-spell" >Merciful Spell</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Spell inflicts nonlethal damage instead of lethal</td></tr>
+<tr class="even"><td><a href="#persistent-spell" >Persistent Spell</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Creatures who saved against a spell must save again</td></tr>
+<tr class="odd"><td><a href="#reach-spell" >Reach Spell</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Increase spell range to higher range category</td></tr>
+<tr class="even"><td><a href="#selective-spell" >Selective Spell</a></td><td style="white-space: normal;"><a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> 10 ranks</td><td style="white-space: normal;">Exclude targets from an area effect spell</td></tr>
+<tr class="odd"><td><a href="#sickening-spell" >Sickening Spell</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Sicken creature with spell damage</td></tr>
+<tr class="even"><td><a href="#thundering-spell" >Thundering Spell</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Deafen creature with spell damage</td></tr>
+<tr id="table-teamwork-feats"><th>Teamwork Feats</th><th>Prerequisites</th><th>Benefits</th></tr>
+<tr class="odd"><td><a href="#allied-spellcaster" >Allied Spellcaster</a></td><td style="white-space: normal;">Caster level 1st</td><td style="white-space: normal;">+2 bonus on level checks to overcome spell resistance</td></tr>
+<tr class="even"><td><a href="#coordinated-defense" >Coordinated Defense*</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">+2 bonus to CMD</td></tr>
+<tr class="odd"><td><a href="#coordinated-maneuvers" >Coordinated Maneuvers*</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">+2 bonus on combat maneuver checks</td></tr>
+<tr class="even"><td><a href="#duck-and-cover" >Duck and Cover</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Take ally's result on Reflex saving throw</td></tr>
+<tr class="odd"><td><a href="#lookout" >Lookout*</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Act in surprise round if ally can act</td></tr>
+<tr class="even"><td><a href="#outflank" >Outflank*</a></td><td style="white-space: normal;">Base attack bonus +4</td><td style="white-space: normal;">Gain +4 bonus on attack rolls when flanking</td></tr>
+<tr class="odd"><td><a href="#paired-opportunists" >Paired Opportunists*</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">+4 bonus on attacks of opportunity</td></tr>
+<tr class="even"><td><a href="#precise-strike" >Precise Strike*</a></td><td style="white-space: normal;">Dex 13, base attack bonus +1</td><td style="white-space: normal;">Deal +1d6 points of precision damage with melee attacks</td></tr>
+<tr class="odd"><td><a href="#shield-wall">Shield Wall*</a></td><td style="white-space: normal;"><a href="../feats.html#_shield-proficiency" >Shield Proficiency</a></td><td style="white-space: normal;">Increase your shield bonus to AC</td></tr>
+<tr class="even"><td><a href="#shielded-caster" >Shielded Caster</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">+4 bonus on concentration checks</td></tr>
+<tr class="odd"><td><a href="#swap-places" >Swap Places*</a></td><td style="white-space: normal;">&mdash;</td><td style="white-space: normal;">Switch places with an adjacent ally</td></tr>
+<tfoot><tr><td colspan="3">* This is a combat feat and can be selected as a fighter bonus feat.</td></tr></tfoot></table><br>
+                <div id="feats-text", class="feats-text">
+				<h2 id="additional-traits">Additional Traits</h2>
+				<p>You have more traits than normal.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain two character traits of your choice (see Chapter 8). These traits must be chosen from different lists, and cannot be chosen from lists from which you have already selected a character trait. You must meet any additional qualifications for the character traits you choose.</p>
+				<h2 id="allied-spellcaster">Allied Spellcaster (Teamwork)</h2>
+				<p>With the aid of an ally, you are skilled at piercing the protections of other creatures with your spells.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Caster level 1st.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you are adjacent to an ally who also has this feat, you receive a +2 competence bonus on level checks made to overcome spell resistance. If your ally has the same spell prepared (or known with a slot available if they are spontaneous spellcasters), this bonus increases to +4 and you receive a +1 bonus to the caster level for all level-dependent variables, such as duration, range, and effect.</p>
+				<h2 id="arcane-blast">Arcane Blast</h2>
+				<p>You can convert any spell into an attack. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Arcane spellcaster, caster level 10th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As a standard action, you can sacrifice a prepared spell or unused spell slot of 1st level or higher and transform it into a ray, targeting any foe within 30 feet as a ranged touch attack. This attack deals 2d6 points of damage plus an additional 1d6 points of damage for every level of the spell or spell slot you sacrificed. 0-level spells may not be sacrificed in this manner.</p>
+				<h2 id="arcane-shield">Arcane Shield</h2>
+				<p>You can convert any spell into a defense. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Arcane spellcaster, caster level 10th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As a immediate action, you can sacrifice a prepared spell or unused spell slot of 1st level or higher and gain a deflection bonus to AC equal to the level of the spell or spell slot you sacrificed for 1 round. 0-level spells may not be sacrificed in this manner.</p>
+				<h2 id="arcane-talent">Arcane Talent</h2>
+				<p>Magic is in your blood, and at your fingertips.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 10; elf, half-elf, or gnome.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Choose a 0-level spell from the sorcerer/wizard spell list. You can cast this spell three times per day as a spell-like ability. The caster level is equal to your character level. The save DC is 10 + your Charisma modifier.</p>
+				<h2 id="aspect-of-the-beast">Aspect of the Beast</h2>
+				<p>Whether by magic or a curse of your blood, some part of you is more beast than man. </p>
+				<p class="stat-block-1"><b>Prerequisite:</b> wild shape class feature, see Special.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Your bestial nature manifests itself in one of the following ways. You choose the manifestation when you choose the feat, and then you cannot change it. </p>
+				<p id="night-senses" class="stat-block-2"><i>Night Senses (Ex)</i>: If your base race has normal vision, you gain low-light vision. If your base race has low-light vision, you gain darkvision out to a range of 30 feet. If your base race has darkvision, the range of your darkvision increases by 30 feet. </p>
+				<p id="claws-of-the-beast" class="stat-block-2"><i>Claws of the Beast (Ex)</i>: You grow a pair of claws. These claws are primary attacks that deal 1d4 points of damage (1d3 if you are Small). </p>
+				<p id="predator's-leap" class="stat-block-2"><i>Predator's Leap (Ex)</i>: You can make a running jump without needing to run 10 feet before you jump.</p>
+				<p id="wild-instinct" class="stat-block-2"><i>Wild Instinct (Ex)</i>: You gain a +2 bonus on initiative checks and a +2 bonus on <a href="../skills/survival.html#_survival" >Survival</a> skill checks.</p>
+				<p class="stat-block-1"><b>Special:</b> A character that has contracted lycanthropy can take this feat without having to meet the prerequisites. A ranger who selects the natural weapon combat style can take this feat without having to meet the prerequisites (even if he does not select <a href="#aspect-of-the-beast" >Aspect of the Beast</a> as a bonus feat).</p>
+				<h2 id="bashing-finish">Bashing Finish (Combat)</h2>
+				<p>You follow a powerful blow from your weapon with an opportunistic bash from your shield.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_improved-shield-bash" >Improved Shield Bash</a>, <a href="../feats.html#_shield-master" >Shield Master</a>, <a href="../feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, base attack bonus +11.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you score a critical hit with a melee weapon, you can make a shield bash attack against the same target using the same bonus as a free action.</p>
+				<h2 id="bloody-assault">Bloody Assault (Combat)</h2>
+				<p>Sacrificing accuracy, you can inflict bloody wounds that are slow to heal.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Str 13, <a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +6.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can choose to take a &ndash;5 penalty on all melee attack rolls and combat maneuver checks to inflict 1d4 points of bleed damage with your weapon melee attacks, in addition to the normal damage dealt by the weapon. A creature continues to take bleed damage every round at the start of its turn. Bleed damage can be stopped by a DC 15 <a href="../skills/heal.html#_heal" >Heal</a> check or through any magical healing. Bleed damage from this feat does not stack with itself. You must choose to use this feat before making the attack roll, and its effects last until your next turn (although the bleeding lasts until healed, as normal).</p>
+				<h2 id="bodyguard">Bodyguard (Combat)</h2>
+				<p>Your swift strikes ward off enemies attacking nearby allies.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When an adjacent ally is attacked, you may use an attack of opportunity to attempt the aid another action to improve your ally's AC. You may not use the aid another action to improve your ally's attack roll with this attack.</p>
+				<p class="stat-block-1"><b>Normal:</b> Aid another is a standard action.</p>
+				<h2 id="bouncing-spell">Bouncing Spell (Metamagic)</h2>
+				<p>You can direct a failed spell against a different target.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever a bouncing spell targeting a single creature has no effect on its intended target (whether due to spell resistance or a successful saving throw) you may, as a swift action, redirect it to target another eligible creature within range. The redirected spell behaves in all ways as if its new target were the original target for the spell. Spells that affect a target in any way (including a lesser effect from a successful saving throw) may not be redirected in this manner. A bouncing spell uses up a spell slot one level higher than the spell's actual level.</p>
+				<h2 id="breadth-of-experience">Breadth of Experience</h2>
+				<p>Although still young for your kind, you have a lifetime of knowledge and training.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dwarf, elf, or gnome; 100+ years old.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You get a +2 bonus on all <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> and <a href="../skills/profession.html#_profession" >Profession</a> skill checks, and can make checks with those skills untrained.</p>
+				<h2 id="bull-rush-strike">Bull Rush Strike (Combat)</h2>
+				<p>Your critical hits can push back your foes.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Str 13, <a href="../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +9.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you score a critical hit with a melee attack, you can push your opponent back, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may push your opponent back as if from the bull rush combat maneuver. You do not need to move with the target if successful. This does not provoke an attack of opportunity.</p>
+				<p class="stat-block-1"><b>Normal:</b> You must perform a bull rush combat maneuver to bull rush an opponent.</p>
+				<p class="stat-block-1"><b>Special:</b> You can only apply the effects of one of the following feats to a given critical hit: <a href="#bull-rush-strike" >Bull Rush Strike</a>, <a href="#disarming-strike" >Disarming Strike</a>, <a href="#repositioning-strike" >Repositioning Strike</a>, <a href="#sundering-strike" >Sundering Strike</a>, or <a href="#tripping-strike" >Tripping Strike</a>. You may choose to use this feat after you make your confirmation roll.</p>
+				<h2 id="charge-through">Charge Through (Combat)</h2>
+				<p>You can overrun enemies when charging.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Str 13, <a href="../feats.html#_improved-overrun" >Improved Overrun</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +1.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When making a charge, you can attempt to overrun one creature in the path of the charge as a free action. If you successfully overrun that creature, you can complete the charge. If the overrun is unsuccessful, the charge ends in the space directly in front of that creature. </p>
+				<p class="stat-block-1"><b>Normal:</b> You must have a clear path toward the target of your charge.</p>
+				<h2 id="childlike">Childlike</h2>
+				<p>Your resemblance to a human child tends to make others trust you, perhaps more than they should.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 13, halfling.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can take 10 on <a href="../skills/bluff.html#_bluff" >Bluff</a> checks to convince others you are telling the truth, so long as your story makes you appear innocent. You gain a +2 bonus on <a href="../skills/disguise.html#_disguise" >Disguise</a> skill checks to pose as a human child, and ignore the check penalties for disguising yourself as a different race and age category while doing so.</p>
+				<h2 id="cloud-step">Cloud Step</h2>
+				<p>Your tread is of unearthly lightness.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="#spider-step" >Spider Step</a>, monk level 12th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As a move action, you can <i><a href="../spells/airWalk.html#_air-walk" >air walk</a></i> (as the spell) up to half your slow fall distance, maximum 50 feet. You must reach a solid, level surface by the end of your turn or you will fall.</p>
+				<h2 id="cockatrice-strike">Cockatrice Strike (Combat)</h2>
+				<p>With a single strike, you transmute flesh to stone.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="../feats.html#_gorgon-s-fist" >Gorgon's Fist</a>, <a href="../feats.html#_medusa-s-wrath" >Medusa's Wrath</a>, base attack bonus +16.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As a full-round action, you can make a single unarmed strike against a dazed, flat-footed, paralyzed, staggered, stunned, or unconscious foe. If that attack is a critical hit, the target is petrified unless it succeeds on a Fortitude saving throw with a DC of 10 + 1/2 your character level + your Wisdom modifier. This is a supernatural polymorph effect.</p>
+				<h2 id="combat-patrol">Combat Patrol (Combat)</h2>
+				<p>You range across the battlefield, dealing with threats wherever they arise.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../feats.html#_mobility" >Mobility</a>, base attack bonus +5.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As a full-round action, you may set up a combat patrol, increasing your threatened area by 5 feet for every 5 points of your base attack bonus. Until the beginning of your next turn, you may make attacks of opportunity against any opponent in this threatened area that provokes attacks of opportunity. You may move as part of these attacks, provided your total movement before your next turn does not exceed your speed. Any movement you make provokes attacks of opportunity as normal.</p>
+				<h2 id="cooperative-craftin">Cooperative Crafting</h2>
+				<p>Your assistance makes item crafting far more efficient.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> 1 rank in any <a href="../skills/craft.html#_craft" >Craft</a> skill, any item creation feat.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can assist another character in crafting mundane and magical items. You must both possess the relevant <a href="../skills/craft.html#_craft" >Craft</a> skill or item creation feat, but either one of you can fulfill any other prerequisites for crafting the item. You provide a +2 circumstance bonus on any <a href="../skills/craft.html#_craft" >Craft</a> or <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> checks related to making an item, and your assistance doubles the gp value of items that can be crafted each day.</p>
+				<h2 id="coordinated-defense">Coordinated Defense (Combat, Teamwork)</h2>
+				<p>You are adept at working with allies to avoid being tripped, grappled, and subjected to other maneuvers.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you are adjacent to an ally who also has this feat, you receive a +2 competence bonus to your Combat Maneuver Defense. This bonus increases to +4 if the creature attempting the maneuver is larger than both you and your ally.</p>
+				<h2 id="coordinated-maneuvers">Coordinated Maneuvers (Combat, Teamwork)</h2>
+				<p>You are skilled at working with your allies to perform dangerous combat maneuvers.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you are adjacent to an ally who also has this feat, you receive a +2 competence bonus on all combat maneuver checks. This bonus increases to +4 when attempting to break free from a grapple.</p>
+				<h2 id="cosmopolitan">Cosmopolitan</h2>
+				<p>Living in large, exotic cities has put you in touch with many diverse civilizations, cultures, and races.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can speak and read two additional languages of your choice. In addition, choose two Intelligence-, Wisdom-, or Charisma-based skills. Those skills always count as class skills for you.</p>
+				<h2 id="covering-defense">Covering Defense (Combat)</h2>
+				<p>You are skilled at protecting yourself and your allies with your shield.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_shield-focus" >Shield Focus</a>, base attack bonus +6.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you use the total defense action while using a light, heavy, or tower shield, you can provide a cover bonus to AC against all attacks to an adjacent ally your size or smaller. This cover bonus is equal to your shield's shield bonus and lasts until the beginning of your next turn. Your shield does not provide a cover bonus to Reflex saves.</p>
+				<h2 id="crippling-critical">Crippling Critical (Combat)</h2>
+				<p>You are able to maim a target and hinder its movement. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_critical-focus" >Critical Focus</a>, base attack bonus +13.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you score a critical hit against an opponent, its speed is halved for 1 minute. A successful Fortitude save reduces this duration to 1d4 rounds. The DC of this save is equal to 10 + your base attack bonus. Against creatures with multiple types of movement, you must choose which movement type to affect. A flying creature hit by this attack must make a DC 10 <a href="../skills/fly.html#_fly" >Fly</a> check to remain airborne, and has its maneuverability reduced by one step.</p>
+				<p class="stat-block-1"><b>Special:</b> You can only apply the effects of one critical feat to a given critical hit unless you possess <a href="../feats.html#_critical-mastery" >Critical Mastery</a>.</p>
+				<h2 id="crossbow-mastery">Crossbow Mastery (Combat)</h2>
+				<p>You can load crossbows with blinding speed and even fire them in melee with little fear of reprisal.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 15, <a href="../feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="../feats.html#_rapid-reload" >Rapid Reload</a>, <a href="../feats.html#_rapid-shot" >Rapid Shot</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> The time required for you to reload any type of crossbow is reduced to a free action, regardless of the type of crossbow used. You can fire a crossbow as many times in a full attack action as you could attack if you were using a bow. Reloading a crossbow for the type of crossbow you chose when you took <a href="../feats.html#_rapid-reload" >Rapid Reload</a> no longer provokes attacks of opportunity. </p>
+				<p class="stat-block-1"><b>Special:</b> Starting at 6th level, a ranger with the archery combat style may select <a href="#crossbow-mastery" >Crossbow Mastery</a> as a combat style feat.</p>
+				<h2 id="dastardly-finish">Dastardly Finish (Combat)</h2>
+				<p>You can take advantage of an enemy's debilitated state to attempt a coup de grace.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Sneak attack +5d6.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can deliver a coup de grace to cowering or stunned targets. </p>
+				<p class="stat-block-1"><b>Normal:</b> You can only coup de grace helpless targets.</p>
+				<h2 id="dazing-assault">Dazing Assault (Combat)</h2>
+				<p>You can daze foes with wild attacks.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Str 13, <a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +11. </p>
+				<p class="stat-block-1"><b>Benefit:</b> You can choose to take a &ndash;5 penalty on all melee attack rolls and combat maneuver checks to daze opponents you hit with your melee attacks for 1 round, in addition to the normal damage dealt by the attack. A successful Fortitude save negates the effect. The DC of this save is 10 + your base attack bonus. You must choose to use this feat before making the attack roll, and its effects last until your next turn.</p>
+				<h2 id="dazing-spell">Dazing Spell (Metamagic)</h2>
+				<p>You can daze creatures with the power of your spells.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can modify a spell to daze a creature damaged by the spell. When a creature takes damage from this spell, they become dazed for a number of rounds equal to the original level of the spell. If the spell allows a saving throw, a successful save negates the daze effect. If the spell does not allow a save, the target can make a Will save to negate the daze effect. If the spell effect also causes the creature to become dazed, the duration of this metamagic effect is added to the duration of the spell. A dazing spell uses up a spell slot three levels higher than the spell's actual level. Spells that do not inflict damage do not benefit from this feat.</p>
+				<h2 id="deep-drinker">Deep Drinker</h2>
+				<p>You draw greater amounts of <i>ki</i> from your libations.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Con 13, monk level 11, drunken <i>ki</i> class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you gain temporary <i>ki</i> from drunken <i>ki</i>, you gain 2 temporary <i>ki</i> rather than just 1. </p>
+				<h2 id="deepsight">Deepsight</h2>
+				<p>Your senses are especially keen in the utter darkness.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Darkvision 60 feet.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Your darkvision has a range of 120 feet.</p>
+				<p class="stat-block-1"><b>Normal:</b> Darkvision normally extends 60 or 90 feet.</p>
+				<h2 id="disarming-strike">Disarming Strike (Combat)</h2>
+				<p>Your critical hits can disarm your foes.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>, <a href="../feats.html#_improved-disarm" >Improved Disarm</a>, base attack bonus +9.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you score a critical hit with a melee attack, you can disarm your opponent, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may disarm your opponent as if from the disarm combat maneuver. This does not provoke an attack of opportunity. </p>
+				<p class="stat-block-1"><b>Normal:</b> You must perform a disarm combat maneuver to disarm an opponent.</p>
+				<p class="stat-block-1"><b>Special:</b> You can only apply the effects of one of the following feats to a given critical hit: <a href="#bull-rush-strike" >Bull Rush Strike</a>, <a href="#disarming-strike" >Disarming Strike</a>, <a href="#repositioning-strike" >Repositioning Strike</a>, <a href="#sundering-strike" >Sundering Strike</a>, or <a href="#tripping-strike" >Tripping Strike</a>. You may choose to use this feat after you make your confirmation roll.</p>
+				<h2 id="disrupting-shot">Disrupting Shot (Combat)</h2>
+				<p>With a well-placed shot, you make it harder for a nearby opponent to cast spells. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 13, <a href="../feats.html#_point-blank-shot" >Point-Blank Shot</a>, fighter level 6th. </p>
+				<p class="stat-block-1"><b>Benefit:</b> If you ready an action to shoot an opponent casting a spell within 30 feet and successfully hit that opponent with a ranged attack, the concentration DC to successfully cast the spell is increased by +4.</p>
+				<h2 id="disruptive-spell">Disruptive Spell (Metamagic)</h2>
+				<p>Your magical energies cling to enemies, interfering with their spellcasting.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Targets affected by a disruptive spell must make concentration checks when using spells or spell-like abilities (DC equals the save DC of the disruptive spell plus the level of the spell being cast) for 1 round. Targets that avoid the spell's effects avoid this feat's effect as well. A disruptive spell uses up a spell slot one level higher than the spell's actual level.</p>
+				<h2 id="diviner's-delvin">Diviner's Delving</h2>
+				<p>Your keen magical intuition makes reading signs, portents, and mystical clues quick and easy.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <a href="../feats.html#_spell-focus" >Spell Focus</a> (divination).</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain a +2 bonus on caster level checks with divinations to overcome spell resistance or effects that impede divination (for example, <i><a href="../spells/nondetection.html#_nondetection" >nondetection</a></i>). When using a divination spell that requires concentration, you gain information from the spell 1 round sooner than normal (so you gain information from the first 2 rounds with 1 round of concentration, and information from the third round in the second round of concentration).</p>
+				<h2 id="dreadful-carnage">Dreadful Carnage (Combat)</h2>
+				<p>Slaying an enemy demoralizes your other nearby foes.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Str 15, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="#furious-focus" >Furious Focus</a>, base attack bonus +11. </p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you reduce an enemy to 0 or fewer hit points, you can make an <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> check to demoralize all enemies within 30 feet as a free action. Enemies that cannot see both you and the enemy you reduced to 0 or fewer hit points are unaffected. </p>
+				<h2 id="duck-and-cover">Duck and Cover (Teamwork)</h2>
+				<p>Your allies assist you in avoiding certain attacks.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you are adjacent to an ally who also has this feat, and both of you are required to make a Reflex saving throw against a spell or effect, you may take the result of your die roll or that of your ally (your modifiers still apply to the roll, regardless of which result you take). If you take your ally's result, you are knocked prone (or staggered on your next turn, if you are already prone or cannot be knocked prone). In addition, you receive a +2 cover bonus to your AC against ranged attacks as long as your ally is wielding a shield.</p>
+				<h2 id="eagle-eyes">Eagle Eyes</h2>
+				<p>Your vision is especially keen.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Wis 13, keen senses racial trait.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You ignore up to &ndash;5 in penalties due to distance on visual <a href="../skills/perception.html#_perception" >Perception</a> checks, allowing you to see accurately at much greater distances than most.</p>
+				<h2 id="eclectic">Eclectic</h2>
+				<p>You have a talent for picking up different vocations. </p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Human.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Choose an additional favored class and gain either +1 hit point or +1 skill point whenever you take a level in that class. If you choose a class in which you already have levels, the benefits of this feat are retroactive.</p>
+				<h2 id="ectoplasmic-spell">Ectoplasmic Spell (Metamagic)</h2>
+				<p>Your spells breach the gulf between dimensions, sending ghostly emanations into the ether.</p>
+				<p class="stat-block-1"><b>Benefit:</b> An ectoplasmic spell has full effect against incorporeal or ethereal creatures. An ectoplasmic spell uses up a spell slot one level higher than the spell's actual level.</p>
+				<h2 id="eldritch-claws">Eldritch Claws (Combat)</h2>
+				<p>Who needs magic weapons? Eldritch tricks are no match for your bestial ferocity.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Str 15, natural weapons, base attack bonus +6.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You natural weapons are considered both magic and silver for purpose of overcoming damage reduction.</p>
+				<h2 id="elemental-fist">Elemental Fist (Combat)</h2>
+				<p>You empower your strike with elemental energy</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Con 13, Wis 13, <a href="../feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, base attack bonus +8.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you use Elemental Strike pick one of the following energy types: acid, cold, electricity, or fire. On a successful hit, the attack deals damage normally plus 1d6 points of damage of the chosen type. You must declare that you are using this feat before you make your attack roll (thus a failed attack roll ruins the attempt). You may attempt an elemental fist attack once per day for every four levels you have attained (see Special), and no more than once per round.</p>
+				<p class="stat-block-1"><b>Special:</b> A monk of the four winds receives <a href="#elemental-fist" >Elemental Fist</a> as a bonus feat at 1st level, even if he does not meet the prerequisites. A monk may attempt an <a href="#elemental-fist" >Elemental Fist</a> attack a number of times per day equal to his monk level, plus one more time per day for every four levels he has in classes other than monk.</p>
+				<h2 id="elemental-focus">Elemental Focus</h2>
+				<p>Your spells of a certain element are more difficult to resist.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Choose one energy type (acid, cold, electricity, or fire). Add +1 to the Difficulty Class for all saving throws against spells that deal damage of the energy type you select.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new energy type. </p>
+				<h2 id="elemental-spell">Elemental Spell (Metamagic)</h2>
+				<p>You can manipulate the elemental nature of your spells.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Choose one energy type: acid, cold, electricity, or fire. You may replace a spell's normal damage with that energy type or split the spell's damage, so that half is of that energy type and half is of its normal type. An elemental spell uses up a spell slot one level higher than the spell's actual level. </p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Each time you must choose a different energy type.</p>
+				<h2 id="elven-accuracy">Elven Accuracy (Combat)</h2>
+				<p>Your sharp eyesight makes difficult shots easier.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Elf.</p>
+				<p class="stat-block-1"><b>Benefit:</b> If you miss due to concealment when making a ranged attack with a longbow or shortbow (including composite bows), you can reroll your miss chance roll one time to see if you actually hit.</p>
+				<h2 id="enforcer">Enforcer (Combat)</h2>
+				<p>You are skilled at causing fear in those you brutalize.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b>  <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> 1 rank.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you deal nonlethal damage with a melee weapon, you can make an <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> check to demoralize your target as a free action. If you are successful, the target is shaken for a number of rounds equal to the damage dealt. If your attack was a critical hit, your target is frightened for 1 round with a successful <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> check, as well as being shaken for a number of rounds equal to the damage dealt.</p>
+				<h2 id="expanded-arcana">Expanded Arcana</h2>
+				<p>Your research has revealed new spells.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Caster level 1st, see Special.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Add one spell from your class's spell list to your list of spells known. This is in addition to the number of spells normally gained at each new level in your class. You may instead add two spells from your class's spell list to your list of spells known, but both of these spells must be at least one level lower than the highest level spell you can cast in that class. Once made, these choices cannot be changed.</p>
+				<p class="stat-block-1"><b>Special:</b> You can only take this feat if you possess levels in a class whose spellcasting relies on a limited list of spells known, such as the bard, oracle, and sorcerer.</p>
+                <p class="stat-block-2">You can gain <a href="#expanded-arcana" >Expanded Arcana</a> multiple times.</p>
+				<h2 id="extra-bombs">Extra Bombs</h2>
+				<p>You can throw more bombs per day.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Bomb class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can throw two additional bombs per day.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain <a href="#extra-bombs" >Extra Bombs</a> multiple times. Its effects stack.</p>
+				<h2 id="extra-discovery">Extra Discovery</h2>
+				<p>You have made a new alchemical discovery.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Discovery class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain one additional discovery. You must meet all of the prerequisites for this discovery.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain <a href="#extra-discovery" >Extra Discovery</a> multiple times. </p>
+				<h2 id="extra-hex">Extra Hex</h2>
+				<p>You have learned the secrets of a new hex.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Hex class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain one additional hex. You must meet all of the prerequisites for this hex.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain <a href="#extra-hex" >Extra Hex</a> multiple times. </p>
+				<h2 id="extra-rage-power">Extra Rage Power</h2>
+				<p>You have unlocked a new ability to use while raging.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Rage power class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain one additional rage power. You must meet all of the prerequisites for this rage power.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain <a href="#extra-rage-power" >Extra Rage Power</a> multiple times.</p>
+				<h2 id="extra-revelation">Extra Revelation</h2>
+				<p>You have discovered a new aspect of your mystery.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Revelation class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain one additional revelation. You must meet all of the prerequisites for this revelation.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain <a href="#extra-revelation" >Extra Revelation</a> multiple times. </p>
+				<h2 id="extra-rogue-talent">Extra Rogue Talent</h2>
+				<p>Through constant practice, you have learned how to perform a special trick.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Rogue talent class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain one additional rogue talent. You must meet all of the prerequisites for this rogue talent.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain <a href="#extra-rogue-talent" >Extra Rogue Talent</a> multiple times.</p>
+				<h2 id="fast-drinker">Fast Drinker</h2>
+				<p>You swiftly guzzle spirits to draw forth <i>ki</i>.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Con 18, drunken <i>ki</i> class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Drinking strong alcohol to gain temporary <i>ki</i>, takes a swift action rather than a standard action.</p>
+				<h2 id="fast-healer">Fast Healer</h2>
+				<p>You benefit greatly from your healing, be it from spells or natural healing.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Con 13, <a href="../feats.html#_diehard" >Diehard</a>, <a href="../feats.html#_endurance" >Endurance</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you regain hit points by resting or through magical healing, you recover additional hit points equal to half your Constitution modifier (minimum +1).</p>
+				<h2 id="favored-defense">Favored Defense</h2>
+				<p>Your cunning is your shield against your quarry's attacks.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Favored enemy class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Choose one of your favored enemy types. You add half your favored enemy bonus to your CMD and as a dodge bonus to AC when attacked by a favored enemy.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new favored enemy type.</p>
+				<h2 id="fight-on">Fight On</h2>
+				<p>You can keep fighting even after you should be dead.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Con 13; dwarf, half-orc, or orc.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Once per day, you can gain a number of temporary hit points equal to your Constitution modifier. You can activate this feat as an immediate action when reduced to 0 or fewer hit points. You can use this feat to prevent yourself from dying. These temporary hit points last for 1 minute. If your hit points drop below 0 due to the loss of these temporary hit points, you fall unconscious and are dying as normal. If you also have the ferocity racial trait, you can use that once you have lost the temporary hit points from this feat.</p>
+				<h2 id="focused-shot">Focused Shot (Combat)</h2>
+				<p>Your anatomical insight adds deadliness to your shots.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, Point Blank Shot, <a href="../feats.html#_precise-shot" >Precise Shot</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As a standard action, you may make an attack with a bow or crossbow and add your Intelligence modifier on the damage roll. You must be within 30 feet of your target to deal this extra damage. Creatures immune to critical hits and sneak attacks are immune to this extra damage.</p>
+				<p class="stat-block-1"><b>Special:</b> Starting at 2nd level, a ranger with the archery combat style may select <a href="#focused-shot" >Focused Shot</a> as a combat style feat.</p>
+				<h2 id="focused-spell">Focused Spell (Metamagic)</h2>
+				<p>When you cast a spell that affects more than one creature, one opponent finds it more difficult to resist. </p>
+				<p class="stat-block-1"><b>Benefit:</b> When casting a spell that affects or targets more than one creature, you can choose one target or creature within the spell effect. That creature's saving throw DC to resist the spell is increased by +2. You must choose which target to focus the spell on before casting the spell. A focused spell uses up a spell slot one level higher than the spell's actual level.</p>
+                <p class="stat-block-2">Spells that do not require a saving throw to resist or lessen the spell's effect do not benefit from this feat.</p>
+				<h2 id="following-step">Following Step (Combat)</h2>
+				<p>You can repeatedly close the distance when foes try to move away, without impeding your normal movement.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 13, <a href="../feats.html#_step-up" >Step Up</a>. </p>
+				<p class="stat-block-1"><b>Benefit:</b> When using the <a href="../feats.html#_step-up" >Step Up</a> feat to follow an adjacent foe, you may move up to 10 feet. You may still take a 5-foot step during your next turn, and any movement you make using this feat does not subtract any distance from your movement during your next turn.</p>
+				<p class="stat-block-1"><b>Normal:</b> You can only take a 5-foot step to follow an opponent using <a href="../feats.html#_step-up" >Step Up</a>.</p>
+				<h2 id="furious-focus">Furious Focus (Combat)</h2>
+				<p>Even in the midst of fierce and furious blows, you can find focus in the carnage and your seemingly wild blows strike home.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Str 13, <a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +1.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you are wielding a two-handed weapon or a one-handed weapon with two hands, and using the <a href="../feats.html#_power-attack" >Power Attack</a> feat, you do not suffer <a href="../feats.html#_power-attack" >Power Attack</a>'s penalty on melee attack rolls on the first attack you make each turn. You still suffer the penalty on any additional attacks, including attacks of opportunity.</p>
+				<h2 id="gang-up">Gang Up (Combat)</h2>
+				<p>You are adept at using greater numbers against foes.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You are considered to be flanking an opponent if at least two of your allies are threatening that opponent, regardless of your actual positioning. </p>
+				<p class="stat-block-1"><b>Normal:</b> You must be positioned opposite an ally to flank an opponent.</p>
+				<h2 id="gnome-trickster">Gnome Trickster</h2>
+				<p>Your arcane talents go beyond the illusory.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 13, gnome, gnome magic racial trait.</p>
+				<p class="stat-block-1"><b>Benefit:</b> In addition to your normal gnome spell-like abilities, you also gain the following spell-like abilities: 1/day&mdash;<i><a href="../spells/mageHand.html#_mage-hand" >mage hand</a></i> and <i><a href="../spells/prestidigitation.html#_prestidigitation" >prestidigitation</a></i>.</p>
+				<h2 id="go-unnoticed">Go Unnoticed</h2>
+				<p>Your small size lets you quickly duck out of sight.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 13, Small size or smaller.</p>
+				<p class="stat-block-1"><b>Benefit:</b> During the first round of combat, flat-footed opponents are considered not to have noticed you yet for the purposes of <a href="../skills/stealth.html#_stealth" >Stealth</a> skill checks, allowing you to make a <a href="../skills/stealth.html#_stealth" >Stealth</a> check that round to hide from them.</p>
+				<h2 id="greater-blind-fight">Greater Blind-Fight (Combat)</h2>
+				<p>Your enemies cannot hide from you.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../skills/perception.html#_perception" >Perception</a> 15 ranks, Improved <a href="../feats.html#_blind-fight" >Blind-Fight</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Your melee attacks ignore the miss chance for less than total concealment, and you treat opponents with total concealment as if they had normal concealment (20% miss chance instead of 50%). You may still reroll a miss chance percentile roll as normal.</p>
+                <p class="stat-block-2">If you successfully pinpoint an invisible or hidden attacker, that attacker gets no advantages related to hitting you with ranged attacks, regardless of the range. That is, you don't lose your Dexterity bonus to Armor Class, and the attacker doesn't get the usual +2 bonus for being invisible.</p>
+				<p class="stat-block-1"><b>Special:</b> The Greater <a href="../feats.html#_blind-fight" >Blind-Fight</a> feat is of no use against a character who is the subject of a <i><a href="../spells/blink.html#_blink" >blink</a></i> spell.</p>
+				<h2 id="greater-dirty-trick">Greater Dirty Trick (Combat)</h2>
+				<p>When you pull a dirty trick, your foe is truly hindered.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>, <a href="#improved-dirty-trick" >Improved Dirty Trick</a>, base attack bonus +6.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You receive a +2 bonus on checks made to attempt a dirty trick. This bonus stacks with the bonus granted by <a href="#improved-dirty-trick" >Improved Dirty Trick</a>. Whenever you successfully perform a dirty trick, the penalty lasts for 1d4 rounds, plus 1 round for every 5 by which your attack exceeds the target's CMD. In addition, removing the condition requires the target to spend a standard action.</p>
+				<p class="stat-block-1"><b>Normal:</b> The condition imposed by a dirty trick lasts for 1 round plus 1 round for every 5 by which your attack exceeds the target's CMD. Removing the condition requires the target to spend a move action.</p>
+				<h2 id="greater-drag">Greater Drag (Combat)</h2>
+				<p>Foes that you drag are thrown out of balance.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Str 13, <a href="#improved-drag" >Improved Drag</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +6.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You receive a +2 bonus on checks made to drag a foe. This bonus stacks with the bonus granted by <a href="#improved-drag" >Improved Drag</a>. Whenever you drag a foe, his movement provokes attacks of opportunity from all of your allies (but not you).</p>
+				<p class="stat-block-1"><b>Normal:</b> Creatures moved by drag do not provoke attacks of opportunity.</p>
+				<h2 id="greater-elemental-focus">Greater Elemental Focus</h2>
+				<p>Choose an energy type to which you have already applied the <a href="#elemental-focus" >Elemental Focus</a> feat. Any spells you cast of this energy type are very hard to resist.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <a href="#elemental-focus" >Elemental Focus</a>. </p>
+				<p class="stat-block-1"><b>Benefit:</b> Add +1 to the Difficulty Class for all saving throws against spells that deal damage of the energy type you select. This bonus stacks with the bonus from <a href="#elemental-focus" >Elemental Focus</a>.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new energy type to which you have already applied the <a href="#elemental-focus" >Elemental Focus</a> feat.</p>
+				<h2 id="greater-reposition">Greater Reposition (Combat)</h2>
+				<p>When you reposition foes, they are left vulnerable to the attacks of your allies.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>, <a href="#improved-reposition" >Improved Reposition</a>, base attack bonus +6.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You receive a +2 bonus on checks made to reposition a foe. This bonus stacks with the bonus granted by <a href="#improved-reposition" >Improved Reposition</a>. Whenever you reposition a foe, his movement provokes attacks of opportunity from all of your allies (but not you).</p>
+				<p class="stat-block-1"><b>Normal:</b> Creatures moved by reposition do not provoke attacks of opportunity.</p>
+				<h2 id="greater-shield-specialization">Greater Shield Specialization (Combat)</h2>
+				<p>Your masterful shieldwork provides even greater protection to your vital areas.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Proficiency with selected shield, <a href="../feats.html#_greater-shield-focus" >Greater Shield Focus</a>, <a href="../feats.html#_shield-focus" >Shield Focus</a>, <a href="#shield-specialization" >Shield Specialization</a> with selected shield, fighter level 12th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Choose one type of shield (buckler, light, heavy, or tower shield) for which you possess the <a href="#shield-specialization" >Shield Specialization</a> feat. With the selected shield, you gain a +2 bonus to your Armor Class against critical hit confirmation rolls (this bonus stacks with that from <a href="#shield-specialization" >Shield Specialization</a>). In addition, once per day you may negate a critical hit, and damage is instead rolled normally.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of shield. </p>
+				<h2 id="greater-steal">Greater Steal (Combat)</h2>
+				<p>You have a knack for snatching items from your opponents in combat.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>, <a href="#improved-steal" >Improved Steal</a>, base attack bonus +6.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You receive a +2 bonus on checks made to steal an item from a foe. This bonus stacks with the bonus granted by <a href="#improved-steal" >Improved Steal</a>. If you successfully steal an item from a foe during combat, it does not notice the theft until after combat is over or if it attempts to use the missing item.</p>
+				<p class="stat-block-1"><b>Normal:</b> Creatures automatically notice items taken from them through the steal combat maneuver.</p>
+				<h2 id="groundlin">Groundling</h2>
+				<p>You can speak with burrowing animals.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 13, gnome, gnome magic racial trait. </p>
+				<p class="stat-block-1"><b>Benefit:</b> You can use <i><a href="../spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i> as a spell-like ability at will, but only to communicate with burrowing animals like gophers, moles, and the like. You can still use your gnome <i><a href="../spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i> ability once per day to speak with any animal, as usual.</p>
+				<h2 id="heroic-defiance">Heroic Defiance</h2>
+				<p>You struggle on when others would fall.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_diehard" >Diehard</a>, <a href="../feats.html#_endurance" >Endurance</a>, base Fortitude save +8.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Once per day as an immediate action you can delay the onset of one harmful condition or affliction (such as panicked, paralyzed, stunned, and so on), including permanent and instantaneous conditions. Activating this feat delays the onset of the condition until the end of your next turn, after which time the condition takes its normal effect. This feat has no effect on hit point damage or ability damage.</p>
+				<h2 id="heroic-recovery">Heroic Recovery</h2>
+				<p>You can throw off the effects of crippling conditions. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_diehard" >Diehard</a>, <a href="../feats.html#_endurance" >Endurance</a>, base Fortitude save +4.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Once per day as a standard action you may attempt a new saving throw against a harmful condition or affliction requiring a Fortitude save that is affecting you. If this save against the affliction fails, there is no additional effect, but a successful save counts toward curing an affliction such as poison or disease. You cannot use this feat to recover from instantaneous effects, effects that do not allow a saving throw, or effects that do not require a Fortitude save. </p>
+				<h2 id="improved-blind-fight">Improved Blind-Fight (Combat)</h2>
+				<p>Your keen senses guide your hand against hidden foes.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../skills/perception.html#_perception" >Perception</a> 10 ranks, <a href="../feats.html#_blind-fight" >Blind-Fight</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Your melee attacks ignore the miss chance for less than total concealment. You may still reroll your miss chance percentile roll for total concealment. </p>
+                <p class="stat-block-2">If you successfully pinpoint an invisible or hidden attacker within 30 feet, that attacker gets no advantages related to hitting you with ranged attacks. That is, you don't lose your Dexterity bonus to Armor Class, and the attacker doesn't get the usual +2 bonus for being invisible.</p>
+				<p class="stat-block-1"><b>Special:</b> The Improved Blind-Fight feat is of no use against a character who is the subject of a <i><a href="../spells/blink.html#_blink" >blink</a></i> spell.</p>
+				<h2 id="improved-dirty-trick">Improved Dirty Trick (Combat)</h2>
+				<p>You are skilled at pulling dirty tricks on your foes.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You do not provoke an attack of opportunity when performing a dirty trick combat maneuver. In addition, you receive a +2 bonus on checks made to attempt a dirty trick. You also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries a dirty trick on you.</p>
+				<p class="stat-block-1"><b>Normal:</b> You provoke an attack of opportunity when performing a dirty trick combat maneuver.</p>
+				<h2 id="improved-drag">Improved Drag (Combat)</h2>
+				<p>You are skilled at dragging foes around the battlefield.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Str 13, <a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +1.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You do not provoke an attack of opportunity when performing a drag combat maneuver. In addition, you receive a +2 bonus on checks made to drag a foe. You also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries to drag you.</p>
+				<p class="stat-block-1"><b>Normal:</b> You provoke an attack of opportunity when performing a drag combat maneuver.</p>
+				<h2 id="improved-ki-throw">Improved Ki Throw (Combat)</h2>
+				<p>Your enemies are living weapons in your hands.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <i>Ki</i> Throw.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When using the <i>Ki</i> Throw feat, you may throw your target into any square you threaten that is occupied by another creature. Make a bull rush combat maneuver check with a &ndash;4 penalty against the secondary target. If this check succeeds, the thrown creature lands prone in the secondary target's square, while the secondary target is pushed back and knocked prone in an adjacent square. If the check fails, the thrown creature lands prone in the nearest square you threaten adjacent to the secondary target. </p>
+                <p class="stat-block-2">If you throw a Large or larger creature into an area containing multiple secondary targets, you take an additional penalty of &ndash;4 on your combat maneuver check for each target after the first.</p>
+				<p class="stat-block-1"><b>Special:</b> A monk may take this as a bonus feat at 14th level.</p>
+				<h2 id="improved-reposition">Improved Reposition (Combat)</h2>
+				<p>You have learned how to force your enemies to move around the battlefield.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You do not provoke an attack of opportunity when performing a reposition combat maneuver. In addition, you receive a +2 bonus on checks made to reposition a foe. You also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries to reposition you.</p>
+				<p class="stat-block-1"><b>Normal:</b> You provoke an attack of opportunity when performing a reposition combat maneuver.</p>
+				<h2 id="improved-second-chance">Improved Second Chance (Combat)</h2>
+				<p>You can turn a missed strike into a second chance without sacrificing later attacks.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>, <a href="#second-chance" >Second Chance</a>, base attack bonus +11.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you reroll a missed attack using the <a href="#second-chance" >Second Chance</a> feat, you can still make the rest of your attacks that turn, albeit at a &ndash;5 penalty to each attack.</p>
+				<p class="stat-block-1"><b>Normal:</b> When using the <a href="#second-chance" >Second Chance</a> feat, you must normally forgo the rest of your attacks that turn.</p>
+				<h2 id="improved-share-spells">Improved Share Spells</h2>
+				<p>You can share spells with those you have a magical connection with. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> 10 ranks, ability to acquire an animal companion, eidolon, familiar, or special mount. </p>
+				<p class="stat-block-1"><b>Benefit:</b> Any non-instantaneous spell (but not any spell-like ability) you cast on yourself can also affect a creature bonded to you (such as an animal companion, eidolon, familiar, or special mount). The creature must be within 5 feet of you at the time of casting to receive the benefit. The spell's duration is halved between you and your bonded creature (for example, a spell with a duration of 1 hour has a duration of 30 minutes for both you and your bonded creature).</p>
+                <p class="stat-block-2">If the spell or effect has a duration other than instantaneous, it stops affecting the creature if it moves farther than 5 feet away from you. It does not affect the creature again if it returns before the duration expires. </p>
+                <p class="stat-block-2">You may share spells in this fashion even if the spells normally do not affect creatures of that type. </p>
+                <p class="stat-block-2">This feat only applies to animal companions, eidolons, familiars, or special mounts gained through a class feature.</p>
+				<h2 id="improved-sidestep">Improved Sidestep (Combat)</h2>
+				<p>You are adept at sidestepping your opponent's melee attacks without compromising your mobility.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 15, <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_mobility" >Mobility</a>, <a href="#sidestep" >Sidestep</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> After sidestepping an opponent's missed attack using the <a href="#sidestep" >Sidestep</a> feat, you may still take a 5-foot step during your next turn, or you may move up to your full speed if you take an action to move during your next turn.</p>
+				<p class="stat-block-1"><b>Normal:</b> If you use the <a href="#sidestep" >Sidestep</a> feat, you cannot take a 5-foot step during your next turn.</p>
+				<h2 id="improved-steal">Improved Steal (Combat)</h2>
+				<p>You have a knack for snatching items from your opponents.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You do not provoke an attack of opportunity when performing a steal combat maneuver. In addition, you receive a +2 bonus on checks made to steal an item from a foe. You also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries to steal an item from you.</p>
+				<p class="stat-block-1"><b>Normal:</b> You provoke an attack of opportunity when performing a steal combat maneuver.</p>
+				<h2 id="improved-stonecunnin">Improved Stonecunning</h2>
+				<p>Your sense for stonework is uncanny.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Wis 13, dwarf, stonecunning racial trait.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You receive a +4 bonus on <a href="../skills/perception.html#_perception" >Perception</a> checks to notice unusual stonework. This bonus replaces the stonecunning ability's normal bonus on <a href="../skills/perception.html#_perception" >Perception</a> checks.</p>
+				<h2 id="intensified-spell">Intensified Spell (Metamagic)</h2>
+				<p>Your spells can go beyond several normal limitations. </p>
+				<p class="stat-block-1"><b>Benefit:</b> An intensified spell increases the maximum number of damage dice by 5 levels. You must actually have sufficient caster levels to surpass the maximum in order to benefit from this feat. No other variables of the spell are affected, and spells that inflict damage that is not modified by caster level are not affected by this feat. An intensified spell uses up a spell slot one level higher than the spell's actual level.</p>
+				<h2 id="in-harm's-way">In Harm's Way (Combat)</h2>
+				<p>You put yourself in danger's path to save your allies.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <a href="#bodyguard" >Bodyguard</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> While using the aid another action to improve an adjacent ally's AC, you can intercept a successful attack against that ally as an immediate action, taking full damage from that attack and any associated effects (bleed, poison, etc.). A creature cannot benefit from this feat more than once per attack.</p>
+				<h2 id="ironguts">Ironguts</h2>
+				<p>You have an especially strong stomach.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Con 13; dwarf, half-orc, or orc.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain a +2 racial bonus on saving throws against any effect causing the nauseated or sickened conditions and against all ingested poisons (but not other poisons). In addition, you receive a +2 bonus on <a href="../skills/survival.html#_survival" >Survival</a> skill checks to find food for yourself (and only yourself).</p>
+				<h2 id="ironhide">Ironhide</h2>
+				<p>Your skin is thicker and more resilient than that of most of your people.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Con 13; dwarf, half-orc, or orc.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain a +1 natural armor bonus due to your unusually tough hide.</p>
+				<h2 id="keen-scent">Keen Scent</h2>
+				<p>Your nose is as sensitive as that of a wild predator.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Wis 13, half-orc or orc.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain the scent special ability.</p>
+				<h2 id="ki-throw">Ki Throw (Combat)</h2>
+				<p>Your physical control and mastery of momentum allows you to throw enemies.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_improved-trip" >Improved Trip</a>, <a href="../feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> On a successful unarmed trip attack against a target your size or smaller, you may throw the target prone in any square you threaten rather than its own square. This movement does not provoke attacks of opportunity, and you cannot throw the creature into a space occupied by other creatures.</p>
+				<p class="stat-block-1"><b>Special:</b> A monk may gain <i>Ki</i> Throw as a bonus feat at 10th level. A monk with this feat can affect creatures larger than his own size by spending 1 <i>ki</i> point per size category difference.</p>
+				<h2 id="leaf-singer">Leaf Singer</h2>
+				<p>Your songs recount the ways and mysteries of your people.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 13, bardic performance class feature, elf or half-elf.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you use bardic performance with audible components in a forest, the range or area of your chosen performance is doubled. In addition, the DC for saving throws against your bardic performance is increased by +2 for creatures of the fey type, regardless of where the performance occurs.</p>
+				<h2 id="light-step">Light Step</h2>
+				<p>You pick your way nimbly through even the most dangerous and uneven terrain.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_acrobatic-steps" >Acrobatic Steps</a>, <a href="../feats.html#_nimble-moves" >Nimble Moves</a>, elf.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can ignore the effects of difficult terrain in natural environments, as if it were normal terrain.</p>
+				<h2 id="lingering-performance">Lingering Performance</h2>
+				<p>The effects of your bardic performance carry on, even after you have stopped performing.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Bardic performance class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> The bonuses and penalties from your bardic performance continue for 2 rounds after you cease performing. Any other requirement, such as range or specific conditions, must still be met for the effect to continue. If you begin a new bardic performance during this time, the effects of the previous performance immediately cease.</p>
+				<h2 id="lingering-spell">Lingering Spell (Metamagic)</h2>
+				<p>You spell clings to existence, slowly fading from the world.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You may cause an instantaneous spell that affects an area to persist until the beginning of your next turn. Those already in the area suffer no additional harm, but other creatures or objects entering the area are subject to its effects. A lingering spell with a visual manifestation obscures vision, providing concealment (20% miss chance) beyond 5 feet and total concealment (50% miss chance) beyond 20 feet.</p>
+                <p class="stat-block-2">A lingering spell uses up a spell slot one level higher than the spell's actual level.</p>
+				<h2 id="lookout">Lookout (Combat, Teamwork)</h2>
+				<p>Your allies help you avoid being surprised.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you are adjacent to an ally who also has this feat, you may act in the surprise round as long as your ally would normally be able to act in the surprise round. If you would normally be denied the ability to act in the surprise round, your initiative is equal to your initiative roll or the roll of your ally &ndash;1, whichever is lower. If both you and your ally would be able to act in the surprise round without the aid of this feat, you may take both a standard and a move action (or a full-round action) during the surprise round.</p>
+				<h2 id="low-profile">Low Profile (Combat)</h2>
+				<p>Yours small stature helps you avoid ranged attacks.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 13, Small size or smaller.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain a +1 dodge bonus to AC against ranged attacks. In addition, you do not provide soft cover to creatures when ranged attacks pass through your square. </p>
+				<h2 id="lucky-halflin">Lucky Halfling</h2>
+				<p>You bring luck to those with whom you travel.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Halfling.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Once per day, when one of your allies within 30 feet makes a saving throw, you may roll the same saving throw as if you were the one subject to the effect requiring it. You may use this ability after your ally has rolled, but before the GM declares if the roll was a success or failure. Your ally may choose to use your saving throw in place of his own.</p>
+				<h2 id="major-spell-expertise">Major Spell Expertise</h2>
+				<p>You can cast a single low-level spell as a spell-like ability.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="#minor-spell-expertise" >Minor Spell Expertise</a>, ability to cast 9th-level spells.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Choose one spell that you know of 5th level or lower. You may cast that spell twice per day as a spell-like ability. The caster level for this spell-like ability is equal to your caster level in the class from whose spell list the spell is taken. The spell-like ability's save DC is Charisma-based. If the spell has an expensive focus or material component, it may not be chosen for this feat. You cannot apply metamagic feats to this spell.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new spell.</p>
+				<h2 id="master-alchemist">Master Alchemist</h2>
+				<p>Your mastery of alchemy is nearly supernatural.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <a href="../skills/craft.html#_craft" >Craft</a> (alchemy) 5 ranks.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You receive a +2 bonus on <a href="../skills/craft.html#_craft" >Craft</a> (alchemy) checks, and you may create mundane alchemical items much more quickly than normal. When making poisons, you can create a number of doses equal to your Intelligence modifier (minimum 1) at one time. These additional doses do not increase the time required, but they do increase the raw material cost.</p>
+                <p class="stat-block-2">In addition, whenever you make alchemical items or poisons using <a href="../skills/craft.html#_craft" >Craft</a> (alchemy), use the item's gp value as its sp value when determining your progress (do not multiply the item's gp cost by 10 to determine its sp cost).</p>
+				<h2 id="merciful-spell">Merciful Spell (Metamagic)</h2>
+				<p>Your damaging spells subdue rather than kill.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can alter spells that inflict damage to inflict nonlethal damage instead. Spells that inflict damage of a particular type (such as fire) inflict nonlethal damage of that same type. A merciful spell does not use up a higher-level spell slot than the spell's actual level.</p>
+				<h2 id="minor-spell-expertise">Minor Spell Expertise</h2>
+				<p>You are able to cast a 1st-level spell as a spell-like ability.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Ability to cast 4th-level spells.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Choose one 1st-level spell that you know. You may cast that spell twice per day as a spell-like ability. The caster level for this spell-like ability is equal to your caster level in the class from whose spell list the spell is taken. The spell-like ability's save DC is Charisma-based. If the spell has an expensive focus or material component, it may not be chosen for this feat. You cannot apply metamagic feats to this spell.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new spell.</p>
+				<h2 id="missile-shield">Missile Shield (Combat)</h2>
+				<p>You are skilled at deflecting ranged attacks with your shield.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 13, <a href="../feats.html#_shield-focus" >Shield Focus</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You must be using a light, heavy, or tower shield to use this feat. Once per round when you would normally be hit with an attack from a ranged weapon (not including spell effects, natural attacks, or massive ranged weapons), you may deflect it so that you take no damage, as if you had the <a href="../feats.html#_deflect-arrows" >Deflect Arrows</a> feat. You must be aware of the attack and not flat-footed.</p>
+				<h2 id="mounted-shield">Mounted Shield (Combat)</h2>
+				<p>Your defensive tactics defend both you and your mount.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_mounted-combat" >Mounted Combat</a>, <a href="../feats.html#_shield-focus" >Shield Focus</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You may add your base shield bonus (including the bonus from <a href="../feats.html#_shield-focus" >Shield Focus</a> but not including enhancement bonuses) to your mount's AC. In addition, you may add this bonus when making a <a href="../skills/ride.html#_ride" >Ride</a> check to negate a hit against your mount using the <a href="../feats.html#_mounted-combat" >Mounted Combat</a> feat.</p>
+				<h2 id="mounted-skirmisher">Mounted Skirmisher (Combat)</h2>
+				<p>You are adept at attacking from upon a swift moving steed.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../skills/ride.html#_ride" >Ride</a> rank 14, <a href="../feats.html#_mounted-combat" >Mounted Combat</a>, <a href="#trick-riding" >Trick Riding</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> If your mount moves its speed or less, you can still take a full-attack action.</p>
+				<p class="stat-block-1"><b>Normal:</b> If your mount moves more than 5 feet, you can only take an attack action.</p>
+				<h2 id="outflank">Outflank (Combat, Teamwork)</h2>
+				<p>You look for every edge when flanking an enemy.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Base attack bonus +4.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you and an ally who also has this feat are flanking the same creature, your flanking bonus on attack rolls increases to +4. In addition, whenever you score a critical hit against the flanked creature, it provokes an attack of opportunity from your ally.</p>
+				<h2 id="paired-opportunists">Paired Opportunists (Combat, Teamwork)</h2>
+				<p>You know how to make an enemy pay for lax defenses.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you are adjacent to an ally who also has this feat, you receive a +4 circumstance bonus on attacks of opportunity against creatures that you both threaten. Enemies that provoke attacks of opportunity from your ally also provoke attacks of opportunity from you so long as you threaten them (even if the situation or an ability would normally deny you the attack of opportunity). This does not allow you to take more than one attack of opportunity against a creature for a given action.</p>
+				<h2 id="parry-spell">Parry Spell</h2>
+				<p>You can throw an enemy spell back at its caster.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> 15 ranks, <a href="../feats.html#_improved-counterspell" >Improved Counterspell</a> .</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you successfully counter a spell, it returns back to its caster. This works exactly like the <i><a href="../spells/spellTurning.html#_spell-turning" >spell turning</a></i> spell.</p>
+				<h2 id="parting-shot">Parting Shot (Combat)</h2>
+				<p>You are an expert skirmisher, able to rain missiles upon your enemies whether advancing or retreating.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 13, <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_mobility" >Mobility</a>, Point Blank Shot, <a href="../feats.html#_shot-on-the-run" >Shot on the Run</a>, base attack bonus +6. </p>
+				<p class="stat-block-1"><b>Benefit:</b> Once per encounter, when using the withdraw action, you can make a single ranged attack at any point during your movement.</p>
+				<p class="stat-block-1"><b>Normal:</b> You cannot attack when using the withdraw action.</p>
+				<p class="stat-block-1"><b>Special:</b> Starting at 6th level, a ranger with the archery combat style may select <a href="#parting-shot" >Parting Shot</a> as a combat style feat.</p>
+				<h2 id="pass-for-human">Pass For Human</h2>
+				<p>You're easily mistaken for a human rather than a member of your own race.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Half-elf, half-orc, or halfling (see Special).</p>
+				<p class="stat-block-1"><b>Benefit:</b> You receive a +10 bonus on <a href="../skills/disguise.html#_disguise" >Disguise</a> checks to disguise yourself as a human, and do not receive the penalty for disguising yourself as a member of another race when you do so. In areas largely populated or settled by humans, you can take 10 on your <a href="../skills/disguise.html#_disguise" >Disguise</a> check, meaning most people tend to assume you are human unless given a reason to think otherwise.</p>
+				<p class="stat-block-1"><b>Special:</b> A halfling may take this feat, but must have the <a href="#childlike" >Childlike</a> feat as a prerequisite. The benefits of the two feats stack.</p>
+				<h2 id="perfect-strike">Perfect Strike (Combat)</h2>
+				<p>When wielding a monk weapon, your attacks can be extremely precise. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 13, Wis 13, <a href="../feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, base attack bonus +8.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You must declare that you are using this feat before you make your attack roll (thus a failed attack roll ruins the attempt). You must use one of the following weapons to make the attack: kama, nunchaku, quarterstaff, sai, and siangham. You can roll your attack roll twice and take the higher result. If one of these rolls is a critical threat, the other roll is used as your confirmation roll (your choice if they are both critical threats). You may attempt a perfect attack once per day for every four levels you have attained (but see Special), and no more than once per round.</p>
+				<p class="stat-block-1"><b>Special:</b> A weapon master monk or zen archer monk receives <a href="#perfect-strike" >Perfect Strike</a> as a bonus feat at 1st level, even if he does not meet the prerequisites. A monk may attempt an perfect strike attack a number of times per day equal to his monk level, plus one more time per day for every four levels he has in classes other than monk.</p>
+				<h2 id="persistent-spell">Persistent Spell (Metamagic)</h2>
+				<p>You can modify a spell to become more tenacious when its targets resist its effect. </p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever a creature targeted by a persistent spell or within its area succeeds on its saving throw against the spell, it must make another saving throw against the effect. If a creature fails this second saving throw, it suffers the full effects of the spell, as if it had failed its first saving throw. A persistent spell uses up a spell slot two levels higher than the spell's actual level.</p>
+                <p class="stat-block-2">Spells that do not require a saving throw to resist or lessen the spell's effect do not benefit from this feat.</p>
+				<h2 id="point-blank-master">Point Blank Master (Combat)</h2>
+				<p>You are adept at firing ranged weapons in close quarters. </p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <a href="../feats.html#_weapon-specialization" >Weapon Specialization</a> with selected ranged weapon.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Choose one type of ranged weapon. You do not provoke attacks of opportunity when firing the selected weapon while threatened.</p>
+				<p class="stat-block-1"><b>Normal:</b> Using a ranged weapon while you are threatened provokes attacks of opportunity.</p>
+				<p class="stat-block-1"><b>Special:</b> Starting at 6th level, a ranger with the archery combat style may select <a href="#point-blank-master" >Point Blank Master</a> as a combat style feat, but he must have <a href="../feats.html#_weapon-focus" >Weapon Focus</a> instead of <a href="../feats.html#_weapon-specialization" >Weapon Specialization</a> in the selected weapon.</p>
+				<h2 id="practiced-tactician">Practiced Tactician</h2>
+				<p>With only a few quick gestures and commands, you can direct others in combat.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Tactician class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can use your tactician ability to grant allies a teamwork feat one additional time per day. </p>
+				<p class="stat-block-1"><b>Special:</b> You can gain <a href="#practiced-tactician" >Practiced Tactician</a> multiple times. Its effects stack.</p>
+				<h2 id="precise-strike">Precise Strike (Combat, Teamwork)</h2>
+				<p>You are skilled at striking where it counts, as long as an ally distracts your foe.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 13, base attack bonus +1.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you and an ally who also has this feat are flanking the same the creature, you deal an additional 1d6 points of precision damage with each successful melee attack. This bonus damage stacks with other sources of precision damage, such as sneak attack. This bonus damage is not multiplied on a critical hit.</p>
+				<h2 id="preferred-spell">Preferred Spell</h2>
+				<p>You find it very easy to cast one particular spell.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> 5 ranks, <a href="../feats.html#_heighten-spell" >Heighten Spell</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Choose one spell which you have the ability to cast. You can cast that spell spontaneously by sacrificing a prepared spell or spell slot of equal or higher level. You can apply any metamagic feats you possess to this spell when you cast it. This increases the minimum level of the prepared spell or spell slot you must sacrifice in order to cast it but does not affect the casting time.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a different spell.</p>
+				<h2 id="punishing-kick">Punishing Kick (Combat)</h2>
+				<p>Your kicks are so powerful you use them to push or knock back your foes.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Con 13, Wis 13, <a href="../feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, base attack bonus +8.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You must declare that you are using this feat before you make your attack roll (thus a failed attack roll ruins the attempt). On a successful hit, the attack deals damage normally and you can choose to push your target 5 feet or attempt to knock them prone. If you decide to push the target, it is moved 5 feet directly away from you. This movement does not provoke attacks of opportunity, and the target must end this move in a safe space it can stand in. If you decide to attempt to knock the target prone, the target receives a Fortitude saving throw with a DC of 10 + 1/2 your character level + your Wisdom modifier to avoid the effect. You may attempt a punishing kick attack once per day for every four levels you have attained (but see Special), and no more than once per round.</p>
+				<p class="stat-block-1"><b>Special:</b> A hungry ghost monk receives <a href="#punishing-kick" >Punishing Kick</a> as a bonus feat at 1st level, even if he does not meet the prerequisites. A monk may attempt a punishing kick attack a number of times per day equal to his monk level, plus one more time per day for every four levels he has in classes other than monk.</p>
+				<h2 id="pushing-assault">Pushing Assault (Combat)</h2>
+				<p>A strike made with a two-handed weapon can push a similar sized opponent backward.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Str 15, <a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +1.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you hit a creature your size or smaller with a two-handed weapon attack modified by the <a href="../feats.html#_power-attack" >Power Attack</a> feat, you can choose to push the target 5 feet directly away from you instead of dealing the extra damage from <a href="../feats.html#_power-attack" >Power Attack</a>. If you score a critical hit, you can instead push the target 10 feet directly away from you. This movement does not provoke attacks of opportunities, and the target must end this move in a safe space it can stand in. You choose which effect to apply after the attack roll has been made, but before the damage is rolled.</p>
+				<h2 id="racial-heritage">Racial Heritage</h2>
+				<p>The blood of a non-human ancestor flows in your veins.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Human.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Choose another humanoid race. You count as both human and that race for any effects related to race. For example, if you choose dwarf, you are considered both a human and a dwarf for the purpose of taking traits, feats, how spells and magic items affect you, and so on.</p>
+				<h2 id="raging-vitality">Raging Vitality</h2>
+				<p>While raging, you are full of vigor and health.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Con 15, rage class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you are raging, the morale bonus to your Constitution increases by +2. Your rage does not end if you become unconscious. While unconscious you must still expend rounds of rage per day each round.</p>
+				<h2 id="ray-shield">Ray Shield (Combat)</h2>
+				<p>You can even deflect rays with your shield.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 15, <a href="#missile-shield" >Missile Shield</a>, <a href="../feats.html#_spellbreaker" >Spellbreaker</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You must be using a light, heavy, or tower shield to use this feat. Once per round when you would normally be hit with a ranged touch attack (including rays and similar magical effects), you may deflect it so that you take no damage from it. Your shield suffers the full effects of the spell or effect, if applicable. </p>
+				<h2 id="razortusk">Razortusk</h2>
+				<p>Your powerful jaws and steely teeth are deadly enough to give you a bite attack.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Half-orc.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can make a bite attack for 1d4 points of damage, plus your Strength modifier. You're considered proficient in this attack and can apply feats or effects appropriate to natural attacks to it. If used as part of a full attack action, the bite is considered a secondary attack and is made at your full base attack bonus &ndash;5, and adds half your Strength modifier to damage.</p>
+				<h2 id="reach-spell">Reach Spell (Metamagic)</h2>
+				<p>Your spells go farther than normal.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can alter a spell with a range of touch, close, or medium to increase its range to a higher range category, using the following order: touch, close, medium, and long. A reach spell uses up a spell slot one level higher than the spell's actual level for each increase in range category. For example, a spell with a range of touch increased to long range uses up a spell slot three levels higher. Spells modified by this feat that require melee touch attacks instead require ranged touch attacks.</p>
+                <p class="stat-block-2">Spells that do not have a range of touch, close, or medium do not benefit from this feat.</p>
+				<h2 id="rending-claws">Rending Claws (Combat)</h2>
+				<p>Your claw attacks do greater harm to your enemy.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Str 13, two claw natural weapon attacks, base attack bonus +6.</p>
+				<p class="stat-block-1"><b>Benefit:</b> If you hit a creature with two claw attacks in the same turn, the second claw attack deals an additional 1d6 points of damage. This damage is precision damage and is not multiplied on a critical hit. You can use this feat once per round.</p>
+				<h2 id="repositioning-strike">Repositioning Strike (Combat)</h2>
+				<p>Your critical hits can move your foes where you wish.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>, <a href="../feats.html#_improved-trip">Improved Trip</a>, base attack bonus +9.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you score a critical hit with a melee attack, you can move your opponent, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may move your opponent as if from the reposition combat maneuver. This does not provoke an attack of opportunity.</p>
+				<p class="stat-block-1"><b>Normal:</b> You must perform a reposition combat maneuver to reposition an opponent.</p>
+				<p class="stat-block-1"><b>Special:</b> You can only apply the effects of one of the following feats to a given critical hit: <a href="#bull-rush-strike" >Bull Rush Strike</a>, <a href="#disarming-strike" >Disarming Strike</a>, <a href="#repositioning-strike" >Repositioning Strike</a>, <a href="#sundering-strike" >Sundering Strike</a>, or <a href="#tripping-strike" >Tripping Strike</a>. You may choose to use this feat after you make your confirmation roll.</p>
+				<h2 id="saving-shield">Saving Shield (Combat)</h2>
+				<p>You deflect attacks that could mean your ally's death. </p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <a href="../feats.html#_shield-proficiency" >Shield Proficiency</a>.</p>
+				<p id="benefits"><b>Benefits</b>: Whenever an adjacent ally is the target of an attack, you can, as an immediate action, grant that adjacent ally a +2 shield bonus to AC. You must be wielding a light shield, heavy shield, or tower shield to use this feat.</p>
+				<h2 id="second-chance">Second Chance (Combat)</h2>
+				<p>Quick reflexes turn missed strikes into second chances.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>, base attack bonus +6.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When making a full attack, if you miss on your first attack, you can forgo making any other attacks for the rest of your turn to reroll that attack at your highest base attack bonus.</p>
+				<h2 id="selective-spell">Selective Spell (Metamagic)</h2>
+				<p>Your allies need not fear friendly fire.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> 10 ranks.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When casting a selective spell with an area effect and a duration of instantaneous, you can choose a number of targets in the area equal to the ability score modifier used to determine bonus spells of the same type (Charisma for bards, oracles, paladins, sorcerers, and summoners; Intelligence for witches and wizards; Wisdom for clerics, druids, inquisitors, and rangers). These targets are excluded from the effects of your spell. A selective spell uses up a spell slot one level higher than the spell's actual level.</p>
+                <p class="stat-block-2">Spells that do not have an area of effect do not benefit from this feat.</p>
+				<h2 id="shadow-strike">Shadow Strike (Combat)</h2>
+				<p>You accurately strike even those you cannot clearly see.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Base attack bonus +1.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can deal precision damage, such as sneak attack damage, against targets with concealment (but not total concealment).</p>
+				<h2 id="shared-insight">Shared Insight</h2>
+				<p>You deftly direct others' attentions where you wish.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Wis 13, half-elf.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As a move action, you can grant all friendly creatures within 30 feet who can see or hear you a +2 bonus on <a href="../skills/perception.html#_perception" >Perception</a> checks for a number of rounds equal to your Wisdom modifier (minimum 1 round).</p>
+				<h2 id="sharp-senses">Sharp Senses</h2>
+				<p>Your senses are especially sharp, even for your kind.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Keen senses racial trait.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You receive a +4 racial bonus on <a href="../skills/perception.html#_perception" >Perception</a> skill checks. This replaces the normal bonus from the keen senses racial trait.</p>
+				<p class="stat-block-1"><b>Normal:</b> The keen senses trait normally grants a +2 racial bonus on <a href="../skills/perception.html#_perception" >Perception</a> skill checks.</p>
+				<h2 id="shield-of-swings">Shield of Swings (Combat)</h2>
+				<p>A wild frenzy of attacks serves to bolster your defenses.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Str 13, <a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +1.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you take a full-attack action while wielding a two-handed weapon, you can choose to reduce the damage by 1/2 to gain a +4 shield bonus to AC and CMD until the beginning of your next turn. The reduction in damage applies until the beginning of your next turn.</p>
+				<h2 id="shield-specialization">Shield Specialization (Combat)</h2>
+				<p>You have mastered the use of one type of shield. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Proficiency with selected shield, <a href="../feats.html#_shield-focus" >Shield Focus</a>, fighter level 4th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Choose one type of shield (buckler, light, heavy, or tower shield). With the selected shield, you gain a +2 bonus to your Armor Class against critical hit confirmation rolls. In addition, you may add your base shield bonus (including the bonus from <a href="../feats.html#_shield-focus" >Shield Focus</a> but not including enhancement bonuses) to your CMD.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of shield.</p>
+				<h2 id="shield-wall">Shield Wall (Combat, Teamwork)</h2>
+				<p>You form a unified defense with those around you.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <a href="../feats.html#_shield-proficiency" >Shield Proficiency</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you are wielding a shield and are adjacent to an ally wielding a shield who also has this feat, the AC bonus from your shield increases, depending on the shield wielded by your ally. If your ally is wielding a buckler or a light shield, your shield bonus increases by +1. If your ally is wielding a heavy shield or a tower shield, your shield bonus increases by +2. You keep these bonuses even if your ally loses his shield bonus due to making a shield bash attack. If an adjacent ally with this feat uses a tower shield to grant total cover, you also benefit if an attack targeting you passes through the edge of the shield (<i>Core Rulebook </i>153).</p>
+				<h2 id="shielded-caster">Shielded Caster (Teamwork)</h2>
+				<p>Your allies cover you while you cast complicated spells.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you are adjacent to an ally who also has this feat, you receive a +4 competence bonus on concentration checks. If your ally is wielding a buckler or a light shield, this bonus increases by +1. If your ally is wielding a heavy shield or a tower shield, this bonus increases by +2. Finally, if an enemy threatening you and your ally has the <a href="../feats.html#_disruptive" >Disruptive</a> feat, or another ability that increases the DC of concentration checks, the amount of the increase is halved.</p>
+				<h2 id="sickening-spell">Sickening Spell (Metamagic)</h2>
+				<p>You can sicken creatures with your spells.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can modify a spell to sicken a creature damaged by the spell. When a creature takes damage from this spell, they become sickened for a number of rounds equal to the original level of the spell. If the spell allows a saving throw, a successful save negates the sickening effect. If the spell does not allow a save, the target can make a Fortitude save to negate the sickening effect. If the spell effect also causes the creature to become sickened, the duration of this metamagic effect is added on to the duration of the spell. A sickening spell uses up a spell slot two levels higher than the spell's actual level.</p>
+                <p class="stat-block-2">Spells that do not inflict damage do not benefit from this feat.</p>
+				<h2 id="sidestep">Sidestep (Combat)</h2>
+				<p>You can reposition yourself after a foe's missed swing.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 13, <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_mobility" >Mobility</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever an opponent misses you with a melee attack, you may move 5 feet as an immediate action so long as you remain within that opponent's threatened area. This movement does not provoke attacks of opportunity. If you take this step, you cannot take a 5-foot step during your next turn. If you take an action to move during your next turn, subtract 5 feet from your total movement.</p>
+				<h2 id="smash">Smash (Combat)</h2>
+				<p>You overcome obstacles by breaking them.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_power-attack" >Power Attack</a>, half-orc.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you attack an inanimate, unattended object, you ignore the first 5 points of its hardness. You also receive a +5 bonus on Strength checks made to knock down or break open doors.</p>
+				<p class="stat-block-1"><b>Special:</b> The benefits of this feat do not apply to sunder attempts or attacks against constructs, only attacks on inanimate, unattended objects.</p>
+				<h2 id="smell-fear">Smell Fear</h2>
+				<p>You can catch the sour scent of fear on the wind.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="#keen-scent" >Keen Scent</a>, half-orc or orc.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You receive a +4 bonus on <a href="../skills/perception.html#_perception" >Perception</a> checks to detect creatures with the shaken, frightened, or panicked conditions using scent. You can substitute your <a href="../skills/perception.html#_perception" >Perception</a> skill for <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> skill checks if the subject has one of the previous conditions or is attempting to cover up their fear in some way.</p>
+				<h2 id="sociable">Sociable</h2>
+				<p>You have a way of helping others to get along.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 13, half-elf.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As a move action, you grant all friendly creatures within 30 feet who can see or hear you (including yourself) a +2 bonus on <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks for a number of rounds equal to your Charisma modifier (minimum 1 round).</p>
+				<h2 id="spell-perfection">Spell Perfection</h2>
+				<p>You are unequaled at the casting of one particular spell.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> 15 ranks, at least three metamagic feats.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Pick one spell which you have the ability to cast. Whenever you cast that spell you may apply any one metamagic feat you have to that spell without affecting its level or casting time, as long as the total modified level of the spell does not use a spell slot above 9th level. In addition, if you have other feats which allow you to apply a set numerical bonus to any aspect of this spell (such as <a href="../feats.html#_spell-focus" >Spell Focus</a>, <a href="../feats.html#_spell-penetration" >Spell Penetration</a>, <a href="../feats.html#_weapon-focus" >Weapon Focus</a> [ray], and so on), double the bonus granted by that feat when applied to this spell.</p>
+				<h2 id="spider-step">Spider Step</h2>
+				<p>Your physical mastery grants you an impossible stride.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> 6 ranks, <a href="../skills/climb.html#_climb" >Climb</a> 6 ranks, monk level 6th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As a move action, you can move up to half your slow fall distance across a wall or ceiling or across ropes, branches, or even water or other surfaces that cannot support your weight. You must reach a solid, level surface by the end of your turn or you will fall.</p>
+				<h2 id="stabbing-shot">Stabbing Shot (Combat)</h2>
+				<p>You can clear the way to continue using your bow.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_rapid-shot" >Rapid Shot</a>, elf.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When adjacent to an opponent and making a full-attack action with a longbow or shortbow (including composite bows), you may choose to make a melee attack against that opponent with a drawn arrow rather than firing it. If the attack hits&mdash;whether or not it does damage&mdash;your target is pushed back 5 feet away from you. You can then fire arrows from your bow normally, at the original target, or at another target within range. This melee attack replaces the extra attack from <a href="../feats.html#_rapid-shot" >Rapid Shot</a>, and all of your attack rolls for the round (the melee attack and the ranged attacks) take a &ndash;2 penalty. If your initial attack leaves you with no enemies threatening you, you can make the subsequent ranged attack or attacks without provoking attacks of opportunity.</p>
+				<h2 id="steel-soul">Steel Soul</h2>
+				<p>You are especially resistant to magic.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dwarf, hardy racial trait.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You receive a +4 racial bonus on saving throws against spells and spell-like abilities. This replaces the normal bonus from the dwarf's hardy racial trait.</p>
+				<p class="stat-block-1"><b>Normal:</b> Dwarves normally receive a +2 racial bonus on saving throws against spells and spell-like abilities.</p>
+				<h2 id="step-up-and-strike">Step Up and Strike (Combat)</h2>
+				<p>When a foe tries to move away, you can follow and make an attack.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 13, <a href="#following-step" >Following Step</a>, <a href="../feats.html#_step-up" >Step Up</a>, base attack bonus +6.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When using the <a href="../feats.html#_step-up" >Step Up</a> or <a href="#following-step" >Following Step</a> feats to follow an adjacent foe, you may also make a single melee attack against that foe at your highest base attack bonus. This attack counts as one of your attacks of opportunity for the round. Using this feat does not count toward the number of actions you can usually take each round.</p>
+				<p class="stat-block-1"><b>Normal:</b> You can usually only take one standard action and one 5-foot step each round.</p>
+				<h2 id="stone-faced">Stone-Faced</h2>
+				<p>Rocks show more expression than you.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Dwarf.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You receive a +4 bonus on <a href="../skills/bluff.html#_bluff" >Bluff</a> checks to lie or conceal your feelings or true motives, but not to feint in combat or deliver secret messages. In addition, the DC for <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks to get a hunch about you is 25 rather than 20.</p>
+				<h2 id="stone-sense">Stone Sense</h2>
+				<p>You can feel movement in the very earth and stones around you.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="#improved-stonecunnin" >Improved Stonecunning</a>, <a href="../skills/perception.html#_perception" >Perception</a> 10 ranks.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain tremorsense to a range of 10 feet.</p>
+				<h2 id="stone-singer">Stone Singer</h2>
+				<p>Your songs are in accordance with the ways and lands of your people.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 13, bardic performance class feature, dwarf.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you use bardic performance with audible components underground, the range or area of your chosen performance is doubled, and you can affect deaf creatures if they possess tremorsense and are in your new range. In addition, the DC for saving throws against your bardic performance is increased by +2 for creatures of the earth subtype, regardless of where the performance occurs.</p>
+				<h2 id="stunning-assault">Stunning Assault (Combat)</h2>
+				<p>You powerful but imprecise attacks can stun your enemies.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Str 13, <a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +16.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can choose to take a &ndash;5 penalty on all melee attack rolls and combat maneuver checks to stun targets you hit with your melee attacks for 1 round. A successful Fortitude save negates the effect. The DC of this save is 10 + your base attack bonus. You must choose to use this feat before making the attack roll, and its effects last until your next turn.</p>
+				<h2 id="summoner's-call">Summoner's Call</h2>
+				<p>Whenever you summon your eidolon, it is more powerful for a brief period of time.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Eidolon class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you summon your eidolon, you may give it a +2 enhancement bonus to its Strength, Dexterity, or Constitution. This bonus lasts 10 minutes after the summoning ritual is complete.</p>
+				<h2 id="sundering-strike">Sundering Strike (Combat)</h2>
+				<p>Your critical hits can sunder your foes' weapons.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Str 13, <a href="../feats.html#_improved-sunder" >Improved Sunder</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, base attack bonus +9.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you score a critical hit with a melee attack, you can sunder your opponent's weapon, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may deal damage to your opponent's weapon as if from the sunder combat maneuver (roll normal damage to the weapon separately). This does not provoke an attack of opportunity.</p>
+				<p class="stat-block-1"><b>Normal:</b> You must perform a sunder combat maneuver to sunder an opponent's weapon.</p>
+				<p class="stat-block-1"><b>Special:</b> You can only apply the effects of one of the following feats to a given critical hit: <a href="#bull-rush-strike" >Bull Rush Strike</a>, <a href="#disarming-strike" >Disarming Strike</a>, <a href="#repositioning-strike" >Repositioning Strike</a>, <a href="#sundering-strike" >Sundering Strike</a>, or <a href="#tripping-strike" >Tripping Strike</a>. You may choose to use this feat after you make your confirmation roll.</p>
+				<h2 id="swap-places">Swap Places (Combat, Teamwork)</h2>
+				<p>You are skilled at changing places with your ally during a chaotic melee.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you are adjacent to an ally who also has this feat, you can move into your ally's square as part of normal movement. At the same time, your ally moves into your previous space as an immediate action. Both you and your ally must be willing and able to move to take advantage of this feat. Your ally must be the same size as you to utilize this feat. Your ally does not provoke an attack of opportunity from this movement, but you provoke as normal. This movement does not count against your ally's movement on his next turn.</p>
+				<h2 id="swift-aid">Swift Aid (Combat)</h2>
+				<p>With a quick but harmless swipe, you can aid an ally's assault.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>, base attack bonus +6.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As a swift action, you can attempt the aid another action, granting your ally either a +1 bonus on his next attack roll or a +1 bonus to his AC.</p>
+				<p class="stat-block-1"><b>Normal:</b> Aid another is a standard action.</p>
+				<h2 id="taunt">Taunt</h2>
+				<p>You may be small, but your remarks cut others down to size.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 13, Small size or smaller.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can demoralize opponents using <a href="../skills/bluff.html#_bluff" >Bluff</a> rather than <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> (see the <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> skill description for details) and take no skill check penalty for being smaller than your target.</p>
+				<h2 id="team-up">Team Up (Combat)</h2>
+				<p>When you are ganging up against an enemy, you can aid an ally with a quick feint.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>, <a href="#gang-up" >Gang Up</a>, base attack bonus +6.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you and at least two of your allies are adjacent to an opponent, you can attempt the aid another action as a move action.</p>
+				<p class="stat-block-1"><b>Normal:</b> Aid another is a standard action.</p>
+				<h2 id="teleport-tactician">Teleport Tactician (Combat)</h2>
+				<p>You are highly alert for enemies using teleportation to approach you or flee from you.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../feats.html#_disruptive" >Disruptive</a>, <a href="../feats.html#_spellbreaker" >Spellbreaker</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Any creature using a teleportation effect to enter or leave a square threatened by you provokes an attack of opportunity, even if casting defensively or using a supernatural ability. </p>
+				<h2 id="tenacious-transmutation">Tenacious Transmutation</h2>
+				<p>Your mastery of the magic of changing makes your transmutations more durable.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <a href="../feats.html#_spell-focus" >Spell Focus</a> (transmutation).</p>
+				<p class="stat-block-1"><b>Benefit:</b> The DC of caster level checks to dispel or remove your transmutations increases by 2; even if the spell is negated, its effects persist for 1 additional round before dissipating.</p>
+				<h2 id="thundering-spell">Thundering Spell (Metamagic)</h2>
+				<p>You can conjure your spells into existence with blaring thunder or fearful shrieks, deafening creatures damaged by their effects.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can modify a spell to deafen a creature damaged by the spell. When a creature takes damage from this spell, it becomes deafened for a number of rounds equal to the original level of the spell. If the spell allows a saving throw, a successful save negates the deafening effect. If the spell does not allow a save, the target can make a Fortitude save to negate the deafening effect. If the spell effect also causes the creature to become deafened, the duration of this metamagic effect is added to the duration of the spell. A thundering spell uses up a spell slot two levels higher than the spell's actual level.</p>
+                <p class="stat-block-2">Spells that do not inflict damage do not benefit from this feat.</p>
+				<h2 id="touch-of-serenity">Touch of Serenity (Combat)</h2>
+				<p>With a single touch you can reduce the threat of even the most savage of foes.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Wis 18, <a href="../feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, base attack bonus +8.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You must declare that you are using this feat before you make your attack roll (thus a failed attack roll ruins the attempt). On a successful hit, the attack deals no damage and bestows no other effect or condition, but the target cannot cast spells or attack (including attacks of opportunity and attacks as immediate actions) for 1 round unless it succeeds on a Will saving throw with a DC of 10 + 1/2 your character level + your Wisdom modifier. You may attempt a touch of serenity once per day for every four levels you have attained (but see Special), and no more than once per round.</p>
+				<p class="stat-block-1"><b>Special:</b> A monk of the lotus receives <a href="#touch-of-serenity" >Touch of Serenity</a> as a bonus feat at 1st level, even if he does not meet the prerequisites. A monk may attempt a touch of serenity a number of times per day equal to his monk level, plus one more time per day for every four levels he has in classes other than monk.</p>
+				<h2 id="trick-riding">Trick Riding (Combat)</h2>
+				<p>You are not only skilled at controlling a horse in combat; you can make it look like art. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../skills/ride.html#_ride" >Ride</a> 9 ranks, <a href="../feats.html#_mounted-combat" >Mounted Combat</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> While wearing light or no armor, you do not need to make <a href="../skills/ride.html#_ride" >Ride</a> skill checks for any task listed in the <a href="../skills/ride.html#_ride" >Ride</a> skill with a DC of 15 or lower. You do not take a &ndash;5 penalty for riding a mount bareback. You can make a check using <a href="../feats.html#_mounted-combat" >Mounted Combat</a> to negate a hit on your mount twice per round instead of just once. </p>
+				<h2 id="tripping-strike">Tripping Strike (Combat)</h2>
+				<p>The force intrinsic to your critical hits can knock your foes down.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>, <a href="../feats.html#_improved-trip" >Improved Trip</a>, base attack bonus +9.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you score a critical hit with a melee attack, you can trip your opponent, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may knock your opponent prone as if from the trip combat maneuver. This does not provoke an attack of opportunity. If you are tripped during your own trip attempt, you can drop your weapon to avoid being tripped.</p>
+				<p class="stat-block-1"><b>Normal:</b> You must perform a trip combat maneuver to trip an opponent.</p>
+				<p class="stat-block-1"><b>Special:</b> You can only apply the effects of one of the following feats to a given critical hit: <a href="#bull-rush-strike" >Bull Rush Strike</a>, <a href="#disarming-strike" >Disarming Strike</a>, <a href="#repositioning-strike" >Repositioning Strike</a>, <a href="#sundering-strike" >Sundering Strike</a>, or <a href="#tripping-strike" >Tripping Strike</a>. You may choose to use this feat after you make your confirmation roll.</p>
+				<h2 id="under-and-over">Under and Over (Combat)</h2>
+				<p>You can slip under a foe trying to grab you, knocking him off balance.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_agile-maneuvers" >Agile Maneuvers</a>, Small size or smaller.</p>
+				<p class="stat-block-1"><b>Benefit:</b> If an opponent larger than you attempts to grapple you and fails, you may make a trip attack as an immediate action against that opponent with a +2 bonus. This does not provoke an attack of opportunity. </p>
+				<h2 id="underfoot">Underfoot (Combat)</h2>
+				<p>You slip under and around your larger foes.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_mobility" >Mobility</a>, Small size or smaller.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You receive a +4 dodge bonus on <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks to move past opponents without provoking attacks of opportunity, so long as they are larger than you. In addition, you gain a +2 dodge bonus to Armor Class against attacks of opportunity caused when you move out of or within a larger opponent's threatened area (this stacks with the +4 bonus provided by <a href="../feats.html#_mobility" >Mobility</a>, for a total bonus of +6).</p>
+				<h2 id="vermin-heart">Vermin Heart</h2>
+				<p>You have a special bond with things that creep, crawl, skitter, and sting.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Wild empathy class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You may target vermin with spells and special abilities that only affect animals (although they are still affected by spells targeting vermin as well). You may use wild empathy to influence vermin as easily as you influence animals.</p>
+				<h2 id="war-singer">War Singer</h2>
+				<p>Your songs draw upon the savage chants and brutal ways of your people, inspiring those around you to new heights of violence and savagery.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 13, bardic performance class feature, half-orc or orc.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you use bardic performance with audible components on a battlefield (any area where a combat involving a dozen or more combatants is taking place), the range or area of your chosen performance is doubled. In addition, the DC for saving throws against your bardic performance is increased by +2 for creatures of the orc subtype, regardless of where the performance occurs.</p>
+				<h2 id="well-prepared">Well-Prepared</h2>
+				<p>Somehow, you always seem to have the right tools or supplies close at hand.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Halfling.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Once per day, when confronted with a situation that calls for a particular mundane item of equipment, you may make a <a href="../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> check with a DC of 10 plus the item's cost in gold pieces to “happen” to have such an item on your person. For example, having a crowbar would be DC 12, whereas a flask of acid would be DC 20. The item must be something you can easily carry&mdash;if you are on foot and have only a backpack, for example, you could not have a large iron cauldron. You cannot have magical items using this feat, nor can you have specific items, such as the key to a particular door. If you are stripped of your equipment or possessions, you lose the benefits of this feat until you have at least a day to resupply and “acquire” new items. You must pay for these items normally.</p>
+				<p class="stat-block-1"><b>Special:</b> At the GM's option, a character can substitute the <a href="../skills/survival.html#_survival" >Survival</a> skill for <a href="../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> with this feat. Such a choice is permanent.</p>
+                </div>
+		</div>
+
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

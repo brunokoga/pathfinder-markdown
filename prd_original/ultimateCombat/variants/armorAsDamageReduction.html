@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Armor as Damage Reduction</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Armor as Damage Reduction",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateCombat/variants/introduction.html', name: 'Mastering Combat' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="armor-as-damage-reduction">Armor as Damage Reduction</h1>
+				
+				
+				<p>While the armor and Armor Class system presented in the Pathfinder Roleplaying Game is tried and tested, some players may yet have a sense that it feels slightly off. That is to say, if a suit of armor is actually protecting the wearer from attacks that strike but simply fail to cause the wearer harm, why then do we say that armor reduces the chance of a hit? The abstraction has been clarified in the rules by defining what it means to be “hit” in combat as actually being “hit in such a way as to effectively cause harm,” but this explanation is still not enough for some players. </p>
+				<p>The following is an alternative system that allows armor to absorb the damage of attacks, rather than a system that provides an abstract way of determining when a hit does actual harm. Like all the rules presented in this chapter, it is a variant to the base system of the Pathfinder RPG. It is for GMs who want armor to reduce damage rather than increase Armor Class, and replaces the normal rules for armor.</p>
+				<p>In this system, a creatures no longer has an Armor Class. Instead it has a Defense score that a foe's attack roll must meet or exceed to hit the creature. Then any damage is reduced by damage reduction based on the creature's armor worn and any natural armor bonus the creature has. Furthermore, armor has a chance of reducing all critical hits to normal hits, by replacing the confirmation roll for critical hits with a critical defense check made by the creature threatened by the critical hit. </p>
+				
+				<h2 id="defense">Defense</h2>
+				<p>In this alternative system, a creature does not have an Armor Class (AC); it instead has a Defense score. Defense is similar to touch AC in the standard Pathfinder Roleplaying Game rules, but it also adds the shield bonus (including any enhancement bonus to the shield), and any enhancement bonus to armor.</p>
+				
+				<p><b>Defense = 10 + shield bonus + Dexterity modifier + other modifiers (including armor's enhancement bonus, but not armor bonus or natural armor bonus)</b></p>
+				
+				<p>Defense represents how easy or difficult it is to hit a creature. The shield bonus is added because a creature is considered to be actively blocking attacks with its shield whenever it can, which is whenever it would gain its Dexterity bonus to AC and not be flat-footed.</p>
+				<p id="losing-dexterity-bonus-to-defense"><b>Losing Dexterity Bonus to Defense</b>: Situations or effects that would cause you to lose your Dexterity bonus to AC instead cause you to lose your Dexterity bonus to Defense. Also, whenever you lose your Dexterity bonus to Defense, you also lose any shield bonus to Defense, since when you lose your Dexterity bonus to AC, you also lose the ability to properly respond to attacks with your shield. </p>
+				<p id="flat-footed-defense"><b>Flat-Footed Defense</b>: You do not gain your Dexterity or shield bonus to your Defense if you are flat-footed or lose your Dexterity bonus to Defense; thus, your Flat-Footed Defense is equal to your Defense minus your Dexterity bonus and shield bonus. </p>
+				<p id="defense-and-using-a-shield-without-proficiency"><b>Defense and Using a Shield without Proficiency</b>: When a creature uses a shield it is not proficient with, it takes that shield's armor check penalty as a penalty to the shield bonus, along with the other penalties for using a shield without proficiency. Furthermore, it also takes this penalty to its Flat-Footed Defense, as the shield actually gets in the way instead of defending against incoming attacks. </p>
+				
+				<h2 id="armor-as-damage-reduction">Armor as Damage Reduction</h2>
+				<p>Armor in this system keeps all of its normal statistics and qualities, but its armor bonus (including any enhancement bonus added to armor bonus and natural armor bonus) is converted to DR/armor. The DR an armor provides is equal to its total armor bonus with a +1 bonus at 5th level or at 5 Hit Dice, with an increase to that bonus of +1 for every five levels above 5th level, or every 5 Hit Dice over 5 Hit Dice (to a maximum of +4 to DR at 20th level or at 20 or more Hit Dice), provided that the creature wearing the armor is also proficient with the armor. </p>
+				<p id="using-armor-without-proficiency"><b>Using Armor without Proficiency</b>: Creatures using armor they are not proficient with do not gain the bonus per level or Hit Dice to the DR, on top of any of the other normal penalties for using armor without proficiency. </p>
+				<p id="dr-armor"><b>DR/Armor</b>: This type of DR blocks the damage of all attacks that would normally be affected by DR, based on the composition of the armor (see Table 5&ndash;1). Unlike most forms of damage reduction, DR/armor stacks with other types of DR. For instances, when fighting a skeleton with DR 5/bludgeoning and DR 4/armor (+2 for armor, +2 for natural armor), the skeleton's DR/armor reduces 9 points of damage from non-bludgeoning attacks, and 4 damage from bludgeoning weapon attacks. Magic weapons and attacks from Large or larger creatures bypass the DR 4/armor, but not the DR 5/bludgeoning. </p>
+				<p id="natural-armor-bonus-and-dr"><b>Natural Armor Bonus and DR</b>: Like a creature's armor bonus, a natural armor bonus is also converted into damage reduction. If a creature is wearing armor and has a natural armor bonus, the creature adds its armor bonus to its natural armor bonus to determine the amount of DR/armor that it has (see Table 5&ndash;2).</p>
+				<p>For instance, if a creature wearing a <i>+2 chain shirt</i> has DR 6/armor is then subject to a <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a> </i>spell cast by a 6th-level druid (gaining a +3 natural armor bonus), its DR becomes DR 9/armor for the duration of the spell. This DR is bypassed by adamantine, or the attacks of Huge or larger creatures. </p>
+				<p>A creature that has both DR from a source other than armor and a natural armor bonus gains the effects of an enhanced form of DR, similar to how the composition of the armor grants special DR/armor defenses (see Table 5&ndash;1). If a creature has magical armor, natural armor, and DR, it takes the best form of the special protection provided by both its armor and its mix of DR and natural armor to its DR/armor. </p>
+				<p>For instance, if a creature has natural armor and DR/magic and is wearing adamantine armor, that creature's DR/armor functions as DR/&mdash;, and can be bypassed by Gargantuan or larger creatures, since the adamantine armor provides the best of the two damage reductions.</p>
+				<p id="unusual-creatures-and-armor-dr"><b>Unusual Creatures and Armor DR</b>: Amorphous or incorporeal creatures have an easier time bypassing DR/armor. When they attack a creature with DR/armor, they typically treat that DR as a fraction of the DR/armor. Attacks by incorporeal creatures entirely ignore the DR unless that DR comes from a force effect or from armor with the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a></i> special armor quality. These traits are detailed in Table 5&ndash;3.</p>
+				<h1 id="critical-hits-and-defense">Critical Hits and Defense</h1>
+				<p>In this alternative system, when a creature threatens a critical hit, it does not make a critical hit confirmation roll. Instead, the target of that critical hit makes a critical defense check instead. A critical defense check is 1d20 + a bonus equal to the creature's DR + the creature's Dexterity modifier (up to the maximum Dexterity bonus allowed by any armor worn) + the sum of any deflection and shield bonus to Defense. </p>
+				
+				<p><b>Critical defense check bonus = creature's DR + Dexterity modifier + shield bonus to Defense + deflection bonus</b></p>
+				
+				<p>The DC of the check is based on the die roll for the critical threat. It is further modified by the base attack bonus of the attacking creature, how many critical feats the attacking creature has (if any; 10 maximum), and a bonus relationship between the size of the attacking creature and the target of the critical hit, if the attacking creature is larger than the creature it attacked.</p>
+				
+				<p><b>Critical defense DC = critical hit roll + 1/2 attacker's base attack bonus + 1 for each critical feat + 1 for each size category larger attacker is than target</b></p>
+				
+				<p>For instance, if a Medium creature is hit with a crossbow fired by a Medium 6th-level fighter with two critical feats, and the critical threat attack roll is a 19, the target of the potential critical hit makes a critical defense check with a DC of 24 to reduce the critical hit to a normal hit. If the target is wearing <i>+1 leather armor</i>, has a Dexterity of 18, and is using a <i>+1 buckler</i>, that target would have a +9 bonus on the critical defense check to reduce the critical hit to a normal hit. On a roll of 15 or higher, the critical hit is reduced to a normal hit, and the target takes normal damage for the hit (which is reduced by its DR). If the creature firing the crossbow had rolled a 20, the target of the critical hit would need to roll a 16 or higher on its critical defense check to reduce the impact of the critical hit, making it a normal hit.</p>
+				<p>On a failed critical defense check, the target of the critical hit takes the damage for the critical hit. That damage is still reduced by the target of the critical hit's DR. </p>
+				<p id="fortification-special-armor-quality"><b>Fortification Special Armor Quality</b>: The <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i> special armor quality acts in concert with the check, coming into play if the armor check fails. </p>
+				
+				<table id="table-armor-composition-and-dr"><caption>Table: Armor Composition and DR</caption>
+<thead><tr><th>Material</th><th>Dr Provided</th><th>Attacker Size to Bypass DR</th></tr></thead>
+<tr class="odd"><td>Nonmagical armor<sup>1</sup></td><td>DR/magic</td><td>Large </td></tr>
+<tr class="even"><td>Magical armor<sup>1</sup></td><td>DR/adamantine</td><td>Huge</td></tr>
+<tr class="odd"><td>Adamantine armor<sup>1</sup></td><td>DR/&mdash; </td><td>Gargantuan</td></tr>
+<tfoot><tr><td colspan="3"><sup>1</sup> Brilliant energy weapons bypass any DR provided by armor. In addition, DR from armor is halved if a creature is grappled or entangled, and does not apply when a creature is helpless or pinned.</td></tr></tfoot></table><br>
+
+<table><caption>Table: Natural Armor Conversion to DR</caption>
+<thead><tr><th>Natural Armor/DR</th><th>DR Provided</th><th>Attacker Size to Bypass DR</th></tr></thead>
+<tr class="odd"><td>Natural armor with</td><td>DR/adamantine</td><td>Huge DR/magic</td></tr>
+<tr class="even"><td>Natural armor with</td><td>DR/&mdash;</td><td>Gargantuan DR/adamantine</td></tr>
+<tr class="odd"><td>Natural armor with DR/&mdash;</td><td>DR/&mdash;<sup>1</sup></td><td>Colossal</td></tr>
+<tr class="even"><td>Natural armor with DR/epic</td><td>DR/epic<sup>1</sup></td><td>n/a</td></tr>
+<tfoot><tr><td colspan="3"><sup>1</sup> A creature that already has DR/&mdash; or DR/epic increases its DR by an amount equal to its natural armor bonus.</td></tr></tfoot></table><br>
+
+<table id="table-unusual-creatures-and-armor-dr"><caption>Table: Unusual Creatures and Armor DR</caption>
+<thead><tr><th>Attacking Creature Type</th><th>DR Modifier</th></tr></thead>
+<tr class="odd"><td>Amorphous<sup>1</sup></td><td>&times;1/2</td></tr>
+<tr class="even"><td>Incorporeal</td><td>&times;0 (&times;1 if DR is from a force effect or <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a></i> armor)</td></tr>
+<tr class="odd"><td>Swarm of Tiny creatures</td><td>&times;1/2 </td></tr>
+<tr class="even"><td>Swarm of Diminutive creatures</td><td>&times;1/4 </td></tr>
+<tr class="odd"><td>Swarm of Fine creatures</td><td>&times;0</td></tr>
+<tfoot><tr><td colspan="2"><sup>1</sup> Elementals, oozes, oozelike creatures, and any creature with the amorphous defensive ability.</td></tr></tfoot></table>
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

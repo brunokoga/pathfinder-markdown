@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Angel</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Angel",globalNavPath=[{ href: '/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html', name: 'Additional Monster Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+			<div>
+				<h1 id="angel,-cassisian" class="monster-header">Angel, Cassisian</h1>
+				<p>This finely crafted golden helm is decorated with intricate filigree, and flutters gracefully through the air on feathered wings.</p>
+				<p class="stat-block-title"><b>Cassisian	<span class="stat-block-cr">CR 2</span></b></p>
+				<p class="stat-block-xp">XP 600</p>
+				<p class="stat-block-1">NG Small <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_angel-subtype" >angel</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> darkvision 60 ft., <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, low-light vision; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +5</p>
+				<p class="stat-block-1"><b>Aura</b> lesser protective aura</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 14, touch 11, flat-footed 14 (+3 natural, +1 size) (+2 deflection vs. <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>)</p>
+				<p class="stat-block-1"><b>hp</b> 13 (2d10+2)</p>
+				<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +3, <b>Will</b> +2; +4 vs. <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>; +2 <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance" >resistance</a> vs. <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a></p>
+				<p class="stat-block-1"><b>DR</b> 5/cold iron or <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>; <b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, petrification; <b>Resist</b> electricity 10, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> 10</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> fly 60 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee</b> slam &ndash;1 (1d3&ndash;4)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon" >breath weapon</a> (15-ft. line, 1d6 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> or 1d6 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, Reflex DC 12 half, usable every 1d4 rounds)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 3rd; concentration +3)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/knowDirection.html#_know-direction" >know direction</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/aid.html#_aid" >aid</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/daylight.html#_daylight" >daylight</a></i></p>
+				<p class="stat-block-2">1/week&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/commune.html#_commune" >commune</a></i> (six questions, CL 12th)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 3, <b>Dex</b> 11, <b>Con</b> 12, <b>Int</b> 6, <b>Wis</b> 11, <b>Cha</b> 10</p>
+				<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> &ndash;3; <b>CMD</b> 7 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will" >Iron Will</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +2, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +10, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +2, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +2, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +5, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +4, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +8</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Draconic, Infernal; truespeech</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >change shape</a> (2 of the following forms: Small human-like <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_angel-subtype" >angel</a>, dove, dog, or Tiny fish, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/polymorph.html#_polymorph" >polymorph</a></i>), perfect memory</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any good-aligned plane</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or squad (3&ndash;6)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Perfect Memory (Ex)</b> Though they are not particularly intelligent, cassisians have perfect memories and remember everything they see or hear. They can faultlessly recite conversations they heard hundreds of years before. They also have the power to erase portions of their own memories, which they do (usually under orders from superior angels) to protect sensitive information.</p>
+				<p class="stat-block-1"><b>Lesser Protective Aura (Su)</b> A cassisian has a lesser form of the protective aura possessed by more powerful angels. This protective aura grants the cassisian a +2 deflection bonus to its AC against <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a> foes, and a +2 <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance" >resistance</a> bonus on all saving throws made against <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a> effects or spells cast by <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a> creatures. This aura extends to a radius of 5 feet, but can only benefit one additional creature other than the cassisian at any one time. A cassisian's protective aura is fragile, and as soon as an <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a> creature successfully strikes the cassisian, or as soon as the cassisian fails a saving throw against an <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a> source, its protective aura fades away and is no longer applicable. The cassisian can reactivate its protective aura by spending 1 minute concentrating upon the task.</p>
+				
+				<p>Cassisians are the weakest sort of angel, but are absolutely dedicated to the cause of good. They serve as messengers for more powerful angels, and on the Material Plane they are often bound to good mortals to serve as familiars, acting as spiritual guides, reciting platitudes and quoting scripture from various benign faiths and philosophies (some forgotten for centuries). A 7th-level lawful good with the <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-familiar" >Improved Familiar</a> feat can select a cassisian as a familiar.</p>
+				<p>A cassisian's true form is a helmet possessing a pair of bird's wings. The exact style of helmet varies by the deity the angel serves&mdash;most appear to be steel with angular cheek-plates, though some resemble bascinets, skullcaps, great helms, or even samurai helmets, and a few older cassisians appear to be bronze or even leather. Though cassisians can assume other forms (that of a child-sized angelic humanoid wearing a proportional helmet matching the cassisians' true form, a dove, a dog, or a fish), they find it strange and rarely stay in that form for more than a few minutes.</p>
+				<p>Typically formed from the souls of trustworthy and pious soldiers, some cassisians arise spontaneously from the spiritual fragments of great angels destroyed while defending the celestial planes against fiendish incursions. In many cases, the lowly cassisian retains fragments of its previous life's memories, and friends of that old soul may visit with the cassisian to reminisce with what remains. Unfortunately, the reincarnated angel's memories are more like something memorized from a book, and lack the character and camaraderie the friends expect.</p>
+			</div><div>
+				<h1 id="angel,-monadic-deva" class="monster-header">Angel, Monadic Deva</h1>
+				<p>This angelic being has smooth skin, a muscular body, and large golden wings, and wields a large mace.</p>
+				<p class="stat-block-title">Monadic Deva	CR 12</p>
+				<p class="stat-block-xp">XP 19,200</p>
+				<p class="stat-block-1">NG Medium <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_angel-subtype" >angel</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype" >aquatic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> darkvision 60 ft., <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, low-light vision; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +29</p>
+				<p class="stat-block-1"><b>Aura</b> protective aura</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 27, touch 14, flat-footed 23 (+4 Dex, +13 natural; +4 deflection vs. <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>)</p>
+				<p class="stat-block-1"><b>hp</b> 147 (14d10+70)</p>
+				<p class="stat-block-1"><b>Fort</b> +15, <b>Ref</b> +13, <b>Will</b> +10; +4 vs. <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>; +4 <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance" >resistance</a> vs. <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a></p>
+				<p class="stat-block-1"><b>DR</b> 10/evil; <b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, electricity, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, death effects, energy drain, petrification; <b>SR</b> 23</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., fly 90 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+3 morningstar</i> +22/+17/+12 (1d8+10 plus solid blow)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 10th; concentration +14)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/aid.html#_aid" >aid</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/charmMonster.html#_charm-monster" >charm monster</a></i> (DC 18, elementals only), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/discernLies.html#_discern-lies" >discern lies</a></i> (DC 18), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dispelEvil.html#_dispel-evil" >dispel evil</a></i> (DC 19), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/holySmite.html#_holy-smite" >holy smite</a></i> (DC 18), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/invisibility.html#_invisibility" >invisibility</a></i> (self only), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift" >plane shift</a></i> (DC 19), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/removeCurse.html#_remove-curse" >remove curse</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/removeDisease.html#_remove-disease" >remove disease</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/removeFear.html#_remove-fear" >remove fear</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../spells/holyWord.html#_holy-word" >holy word</a></i> (DC 21), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/mirrorImage.html#_mirror-image" >mirror image</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/heal.html#_heal" >heal</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/holdMonster.html#_hold-monster" >hold monster</a></i> (DC 19), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/holyAura.html#_holy-aura" >holy aura</a></i> (DC 22)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 21, <b>Dex</b> 19, <b>Con</b> 18, <b>Int</b> 19, <b>Wis</b> 18, <b>Cha</b> 19</p>
+				<p class="stat-block-1"><b>Base Atk</b> +14; <b>CMB</b> +19; <b>CMD</b> 33</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_alertness" >Alertness</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness" >Toughness</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +21, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +25, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +21, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +21, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +21, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +29, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +25, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +21, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival" >Survival</a> +27, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim" >Swim</a> +19; <b>Racial Modifiers</b> +4 <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a></p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Draconic, Infernal; truespeech</p>
+				<p class="stat-block-1"><b>SQ</b> amphibious</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any good-aligned plane</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or squad (3&ndash;6)</p>
+				<p class="stat-block-1"><b>Treasure</b> double (<i>+3 morningstar</i>, other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Solid Blow (Su)</b> If a monadic deva strikes an opponent twice in 1 round with its mace, that creature takes an extra 1d8+10 points of damage.</p>
+				
+				<p>Monadic devas are stoic watchers of the Ethereal Plane and the Elemental Planes. They search those planes for fiendish enclaves, battle evil planar monsters such as xills, and act as celestial liaisons to the genies and elementals. They have been known to broker temporary peace between warring elemental factions, often using their inherent magic to end hostilities long enough for negotiations to take place. In the armies of the good planes, they are leaders and officers, and after centuries of service to a deity, they may be transformed into astral devas.</p>
+				<p>Monadic devas like giving their maces names and proudly announcing them in battle with evil foes. Many of these weapons have seen battle for thousands of years and are quite battered. Younger devas may lend their weapons to good churches on the Material Plane so they can be used by great mortal heroes, though the angels eventually reclaim them after no more than a year and a day.</p>
+				<p>A monadic deva is 7 feet tall and weighs 220 pounds.</p>
+			</div>
+			
+			<div>
+				<h1 id="angel,-movanic-deva" class="monster-header">Angel, Movanic Deva</h1>
+				<p>This angel is all sharp lines and angles, muscular but lean, with large wings and a mighty flaming greatsword.</p>
+				<p class="stat-block-title">Movanic Deva	CR 10</p>
+				<p class="stat-block-xp">XP 9,600</p>
+				<p class="stat-block-1">NG Medium <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider" >outsider</a> (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_angel-subtype" >angel</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> darkvision 60 ft., <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, low-light vision; <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +20</p>
+				<p class="stat-block-1"><b>Aura</b> protective aura</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 24, touch 13, flat-footed 21 (+3 Dex, +11 natural; +4 deflection vs. <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>)</p>
+				<p class="stat-block-1"><b>hp</b> 126 (12d10+60)</p>
+				<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +11, <b>Will</b> +9; +4 vs. <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, +4 <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance" >resistance</a> vs. <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a></p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> nature's pacifism, protected life force; <b>DR</b> 10/evil; <b>Immune</b> acid, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, electricity, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, death effects, energy drain, petrification; <b>SR</b> 21</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., fly 60 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+1 <a href="/pathfinderRPG/prd/additionalMonsters/../magicItems/weapons.html#_weapons-flaming" >flaming</a> greatsword</i> +17/+12/+7 (2d6+7/19&ndash;20 plus 1d6 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities </b>(CL 8th; concentration +12)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/aid.html#_aid" >aid</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/discernLies.html#_discern-lies" >discern lies</a></i> (DC 18), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dispelEvil.html#_dispel-evil" >dispel evil</a></i> (DC 19), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/holySmite.html#_holy-smite" >holy smite</a></i> (DC 18), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/invisibility.html#_invisibility" >invisibility</a></i> (self only), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift" >plane shift</a></i> (DC 19), <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/removeCurse.html#_remove-curse" >remove curse</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/removeDisease.html#_remove-disease" >remove disease</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/removeFear.html#_remove-fear" >remove fear</a></i></p>
+				<p class="stat-block-2">7/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/antimagicField.html#_antimagic-field" >antimagic field</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../spells/awaken.html#_awaken" >awaken</a></i>, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/holyAura.html#_holy-aura" >holy aura</a></i> (DC 22)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 19, <b>Dex</b> 17, <b>Con</b> 18, <b>Int</b> 17, <b>Wis</b> 17, <b>Cha</b> 19</p>
+				<p class="stat-block-1"><b>Base Atk</b> +12; <b>CMB</b> +16; <b>CMD</b> 29</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave" >Cleave</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly" >Fly</a> +22, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate" >Intimidate</a> +19, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +18, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +18, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a> +26, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +22, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth" >Stealth</a> +18, <a href="/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival" >Survival</a> +18; <b>Racial Modifiers</b> +4 <a href="/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception" >Perception</a></p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Draconic, Infernal; truespeech</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any good-aligned plane</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or squad (3&ndash;6)</p>
+				<p class="stat-block-1"><b>Treasure</b> double (<i>+1 <a href="/pathfinderRPG/prd/additionalMonsters/../magicItems/weapons.html#_weapons-flaming" >flaming</a> greatsword</i>, other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Nature's Pacifism (Ex)</b> Animals and <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_plant" >plant</a> creatures do not willingly attack a movanic deva, though they can be forced to do so by magic. If the deva attacks a <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_plant" >plant</a> or <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_animal" >animal</a>, its protection against that creature ends.</p>
+				<p class="stat-block-1"><b>Protected Life Force (Ex)</b> Movanic devas are never harmed by positive-dominant or negative-dominant planar traits.</p>
+				
+				<p>Movanic devas serve as infantry in the celestial armies, though they spend most of their time patrolling the Positive, Negative, and Material Planes. On the Positive Plane, they watch over wandering good souls, which sometimes puts them into conflict with the jyoti. On the Negative Plane, they battle undead, the sceaduinar, and the other strange things that hunt in the hungry void. Their rare visits to the Material Plane are usually to help powerful mortals when a great menace threatens to plunge an entire realm into evil.</p>
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

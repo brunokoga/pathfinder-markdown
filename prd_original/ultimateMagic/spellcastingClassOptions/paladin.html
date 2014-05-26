@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Paladin</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Paladin",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html', name: 'Spellcasting Class Options' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="paladin" class="monster-header">Paladin</h1>
+				
+				
+				<p>All paladins are holy champions of law and good, yet some devote themselves to specific causes with exceptional zeal, swearing great oaths to solve specific problems or give their lives trying. This section introduces a new paladin archetype, the oathbound paladin, and several sample oaths for paladins with that archetype.</p>
+				<h1 id="oathbound-paladin-(archetype)">Oathbound Paladin (Archetype)</h1>
+				<p>While all paladins have their own codes of conduct, either taught by an order, handed down from the gods, or inspired by personal conviction, an oathbound paladin devotes herself to a singular cause, which grants her additional powers but also gives further edicts she must follow. An oathbound paladin swears an oath to eradicate a certain kind of evil. This powerful oath gives her access to new spells and adds to or alters typical paladin abilities.</p>
+				<p>An oathbound paladin can take multiple oaths, but none of the other oaths can replace or alter the same class feature from the paladin class as another alternate class feature. For example, a paladin cannot take the Oath against Corruption and the Oath against the Wyrm because they both replace the aura of courage class feature.</p>
+				<p>Paladins who take up an oath may make a sacred promise to their god or temple to perform some specific and grand action associated with the oath. For example, an oathbound paladin who takes the Oath of Vengeance may be tasked with killing the orc warlord who razed her home city, while a paladin with the Oath against the Wyrm may be asked to secure a nonaggression pact with a family of dragons. When a paladin completes the sacred promise, the oath is fulfilled, and she may abandon the oath if she so chooses; she may then select another oath or become a standard paladin or a different paladin archetype.</p>
+				<p>If a paladin violates the code of her oath, she loses the class abilities associated with that oath until she atones. If she violates her paladin's code, she loses her oath abilities as well as her other paladin abilities.</p>
+				<p>An oathbound paladin has the following class features.</p>
+				<p id="deity"><b>Deity</b>: Some oaths are especially compatible with the faiths of certain deities; these deities are listed here. Other deities may allow these oaths as well, though only rarely do deities allow oaths conflicting with their teachings.</p>
+				<p id="code-of-conduct"><b>Code of Conduct</b>: The oathbound paladin must abide by the listed tenets of her oath in addition to the specifics of her god's code of conduct. In some cases, a deity's or paladin order's code may conflict with the oath's tenets; in most cases, these conflicts mean the oath is unsuitable for a paladin of that deity or order (such as the Oath against the Wyrm with respect to a good dragon deity or a dragon-riding order of paladins) and cannot be selected by the paladin.</p>
+				<p id="oath-spells"><b>Oath Spells</b>: A paladin's oath influences what magic she can perform. An oathbound paladin adds one spell to the paladin spell list at each paladin spell level she can cast (including spell levels for which she would only gain spells per day if her Charisma were high enough to grant bonus spells of that level). Her oath determines what spell is added to the spell list. If the paladin has multiple oaths, the spells from each oath are added to her spell list.</p>
+				<p>If an oathbound paladin has more than one oath, she may prepare any one of her oath's spells in that slot (similar to a cleric choosing one of her two domain spells to prepare in a domain spell slot).</p>
+				<h1 id="oaths">Oaths</h1>
+				<p>The following are a selection of oaths for the oathbound paladin archetype. Other oaths may exist, particularly in regard to specific campaign enemies or events (such as elimination of an assassin's guild or the destruction of an evil temple).</p>
+				<h2 id="oath-against-corruption">Oath against Corruption</h2>
+				<p>More insidious than meddling devils and more destructive than rampaging hordes are the strange alien entities that bubble up from the deep earth and the strange places beyond the sky. When a paladin takes this oath, she becomes a hunter of aberrations, protecting the common people from these bizarre threats. Often the paladin works in secret, not wanting to spread panic about her mission. Within cities they sometimes have underground bases that give access through the sewers and passages to strange vaults where the aberrant creatures live.</p>
+				
+				<p id="aura-of-purity"><b>Aura of Purity (Su)</b>: At 3rd level, you gain a +4 sacred bonus on saves against spells and effects from creatures of the aberration type. Allies within 10 feet gain a +1 sacred bonus on these saves. This ability functions only while the paladin is conscious, not if she is unconscious or dead. This ability replaces aura of courage. </p>
+				<p id="cleansing-flame"><b>Cleansing Flame (Sp)</b>: At 11th level, you may expend two uses of your smite evil ability to ignite your weapon with a cleansing blue flame for 1 minute. This flame sheds light as a torch. Aberrations within 20 feet of the flame take a &ndash;4 penalty on attack rolls against you and your allies, and your allies within 20 feet of the flame gain a +2 sacred bonus on saving throws against spells and effects from aberrations. This ability replaces aura of justice.</p>
+				<p id="cast-into-the-void"><b>Cast into the Void (Su)</b>: At 20th level, a paladin becomes a conduit for the power of her god. Her DR increases to 10/evil. Whenever she uses smite evil and successfully strikes an aberration, the creature must make a Will save (DC 10 + 1/2 the paladin's level + the paladin's Charisma modifier) or be banished to oblivion. This ability does not kill the creature, but it is sent to a remote place, such as deep underground or far into space (if it is a creature native to space), and cannot return under its own power for at least 100 years.</p>
+				<p>Whenever the paladin channels positive energy or uses lay on hands to heal a creature, she heals the maximum possible amount. This ability replaces holy champion.</p>
+				<p id="code-of-conduct"><b>Code of Conduct</b>: Hunt aberrations and do not allow them to roam freely or harm others. Destroy them if you can, or banish them if you cannot.</p>
+				<p id="oath-spells"><b>Oath Spells</b>: 1st&mdash;<i><a href="/pathfinderRPG/prd/spells/trueStrike.html#_true-strike" >true strike</a></i>; 2nd&mdash;<i><a href="/pathfinderRPG/prd/ultimateMagic/spells/acuteSenses.html#_acute-senses" >acute senses</a></i>; 3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/touchOfIdiocy.html#_touch-of-idiocy" >touch of idiocy</a></i>; 4th&mdash;<i><a href="/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity" >spell immunity</a></i>.</p>
+				<h2 id="oath-against-fiends">Oath against Fiends</h2>
+				<p>A paladin who takes an oath against demons, devils, daemons, and other evil outsiders is constantly on the lookout for malicious fiendish insurgence into the world, and faces it with swift and unwavering defiance. Often she works closely with inquisitors, searching for signs of outsider manipulation and possession.</p>
+				
+				<p id="anchoring-aura"><b>Anchoring Aura (Su)</b>: At 8th level, a paladin's aura hampers extradimensional travel by evil outsiders. The aura extends 20 feet from the paladin. Evil outsiders attempting to use abilities such as <i><a href="/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door" >dimension door</a></i>, <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i>, or <i><a href="/pathfinderRPG/prd/spells/teleport.html#_teleport" >teleport</a></i> to leave or enter the aura must succeed at a Will save (DC 10 + 1/2 the paladin's level + the paladin's Charisma modifier); failure means the ability does not function, as if the outsider were affected by <i><a href="/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a></i>. The aura functions only while the paladin is conscious, not if she is unconscious or dead.</p>
+				<p>Alternatively, as an immediate action, the paladin can expend one use of her smite evil ability to target an evil outsider within 30 feet with <i><a href="/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a></i>. A targeted <i><a href="/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a></i> persists even if the paladin is unconscious or dead.</p>
+				<p>This ability replaces aura of resolve.</p>
+				<p id="holy-vessel"><b>Holy Vessel (Su)</b>: At 9th level, a paladin whose divine bond is with a weapon can also use her divine bond to augment her armor or shield with enhancement bonuses, or add any of the following armor or shield properties: <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-bashing" >bashing</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i>, and <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance" >spell resistance</a></i>. Adding these properties consumes an amount of bonus equal to the property's cost (see the <a href="/pathfinderRPG/prd/magicItems/armor.html#_table-15-4-armor-special-abilities">armor special abilities</a> and <a href="/pathfinderRPG/prd/magicItems/armor.html#_table-15-5-shield-special-abilities">shield special abilities</a> tables). She can divide her bonuses from the divine bond ability among her weapon, armor, and shield as she sees fit. This ability has no effect for a paladin whose divine bond is with a mount. This ability replaces the mercy gained at 9th level.</p>
+				<p id="code-of-conduct"><b>Code of Conduct</b>: Never suffer an evil outsider to live if it is in your power to destroy it. Banish fiends you cannot kill. Purge the evil from those possessed by fiends</p>
+				<p id="oath-spells"><b>Oath Spells</b>: 1st&mdash;<i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>; 2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i>; 3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge" >invisibility purge</a></i>; 4th&mdash;<i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i>.</p>
+				<h2 id="oath-against-savagery">Oath against Savagery</h2>
+				<p>Some paladins are champions of order, pledging to battle the hordes of goblinoids, orcs, hostile barbarians, and similar savages that nip at the heels of civilization, as well as those who gnaw on society from within, such as thieves' and assassins' guilds. More so than other paladins, those who take this oath expect to fight many creatures at once, and develop special abilities to deal with these numbers.</p>
+				
+				<p id="holy-reach"><b>Holy Reach (Su)</b>: At 2nd level, an oathbound paladin can expend one use of her smite evil ability to extend her natural reach by 5 feet for 1 minute. This does not stack with the <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a> feat. This ability replaces divine grace.</p>
+				<p id="hordebreaker"><b>Hordebreaker (Su)</b>: At 11th level, when the paladin hits an evil humanoid with an attack of opportunity, she deals an additional 1d6 points of damage. When using holy reach, the paladin may make a number of additional attacks of opportunity per round equal to her Charisma bonus. This increase stacks with similar increases from other sources such as <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>. This ability replaces aura of justice.</p>
+				<p id="code-of-conduct"><b>Code of Conduct</b>: Always heed the call of a community in danger from savages. Be the first in line to defend a settlement and the last to retreat.</p>
+				<p id="oath-spells"><b>Oath Spells</b>: 1st&mdash;<i><a href="/pathfinderRPG/prd/spells/deathwatch.html#_deathwatch" >deathwatch</a></i>; 2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows" >protection from arrows</a></i>; 3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>; 4th&mdash;<i><a href="/pathfinderRPG/prd/spells/divinePower.html#_divine-power" >divine power</a></i>.</p>
+				<h2 id="oath-against-undeath">Oath against Undeath</h2>
+				<p>A paladin with this oath vows to restore the natural state of death to any animate corpse she encounters, and destroy the undead energy in the process. While a few paladins who take this oath recognize that not all undead are evil, others are quite willing to purge neutral and good undead along with all the evil ones.</p>
+				
+				<p id="detect-undead"><b>Detect Undead (Su)</b>: This ability works like the standard paladin ability to detect evil, except as <i><a href="/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead" >detect undead</a> </i>instead of <i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i>. This ability replaces <i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i>.</p>
+				<p id="ghost-touch-aura"><b>Ghost Touch Aura (Su)</b>: At 3rd level, the paladin's armor is treated as if it had the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a> </i>armor property. This does not affect the cost or effect of any other abilities of the armor. At 9th level, this ability also applies to the paladin's shield. This ability replaces the paladin's 3rd-level and 9th-level mercies.</p>
+				<p id="aura-of-life"><b>Aura of Life (Su)</b>: At 8th level, the paladin gains a +4 morale bonus on saves against attacks that grant negative levels and saves to overcome negative levels. Each ally within 10 feet of her gains a +2 morale bonus on these saves.</p>
+				<p>This ability functions only while the paladin is conscious, not if she is unconscious or dead. This ability replaces aura of resolve.</p>
+				<p id="superior-channeler"><b>Superior Channeler (Su)</b>: At 11th level, a paladin can channel positive energy to harm undead by expending a single usage of her lay on hands ability instead of two. This ability replaces aura of justice.</p>
+				<p id="code-of-conduct"><b>Code of Conduct</b>: Destroy all undead. Put to rest the poor souls turned against their will. Prevent the taint of undeath from spreading to the newly dead, blessing or burning the corpses as necessary.</p>
+				<p id="oath-spells"><b>Oath Spells</b>: 1st&mdash;<i><a href="/pathfinderRPG/prd/ultimateMagic/spells/sanctifyCorpse.html#_sanctify-corpse" >sanctify corpse</a></i>; 2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a></i>; 3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/searingLight.html#_searing-light" >searing light</a></i>; 4th&mdash;<i><a href="/pathfinderRPG/prd/spells/haltUndead.html#_halt-undead-copy" >halt undead</a></i>.</p>
+				<h2 id="oath-against-the-wyrm">Oath against the Wyrm</h2>
+				<p>Few dragons see the smaller races of the world as their equals&mdash;to most, humanoids are either food or an annoyance. Some paladins swear to protect others against the predation of dragonkind. Some include dragon-blooded creatures (such as half-dragons or even sorcerers with the draconic bloodline) in their oath and team up with inquisitors to root out those whose ancestry carries the taint of dragon magic. Many paladins with this oath are thrill-seekers for the cause of good, channeling their divine power in ways that allow them to take on their powerful foes head on.</p>
+				
+				<p id="breath-evasion"><b>Breath Evasion (Su)</b>: At 4th level, a paladin with this oath gains evasion, but only against the breath weapons of creatures with the dragon type. This ability replaces channel positive energy.</p>
+				<p id="divine-bond"><b>Divine Bond (Sp)</b>: This works like the paladin's normal divine bond ability, except as follows. If the paladin's bond is with a weapon, she cannot use that ability to add the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-brilliant-energy" >brilliant energy</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-disruption" >disruption</a></i>, or <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-merciful" >merciful</a> weapon</i> properties, but she can add the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane" >bane</a></i> weapon property (but only against dragons). If the paladin's bond is with her steed, the steed gains the paladin's aura-based immunities and her aura does not affect allies. This replaces the standard divine bond ability.</p>
+				<p id="dragon-slaying-strike"><b>Dragon-Slaying Strike (Su)</b>: At 20th level, an oathbound paladin becomes a conduit of holy power. Her DR increases to 10/evil. Whenever she uses smite evil and successfully strikes a dragon, the dragon is also subject to a single-target <i><a href="/pathfinderRPG/prd/spells/holyWord.html#_holy-word" >holy word</a></i>, using her paladin level +10 as the caster level. After the banishment effect and the damage from the attack are resolved, the smite immediately ends. In addition, whenever she channels positive energy or uses lay on hands to heal a creature, she heals the maximum possible amount. This ability replaces holy champion.</p>
+				<p id="code-of-conduct"><b>Code of Conduct</b>: Slay evil dragons, as well as other dangerous dragons whether or not they are evil. Prevent the bloodlines of other creatures from being corrupted with draconic power. Protect the innocent against the predation of dragons.</p>
+				<p id="oath-spells"><b>Oath Spells</b>: 1st&mdash;<i><a href="/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person" >enlarge person</a></i>; 2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>; 3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i>; 4th&mdash;<i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>.</p>
+				<h2 id="oath-of-charity">Oath of Charity</h2>
+				<p>Charity is more than just giving money to a temple or a cause&mdash;it is about the necessity of sacrifice to help others. Those who take this oath dedicate their lives to protecting those who can't protect themselves and giving to those who are in need. They are generous to a fault, the most steadfast of friends, and give without anyone needing to ask. Paladins who take the oath of charity often turn over a fifth or more of their acquired wealth gained through adventuring to their temples or community.</p>
+				
+				<p id="charitable-hands"><b>Charitable Hands (Su)</b>: At 2nd level, a paladin with this oath heals 50% less when she uses lay on hands on herself, but 50% more than the normal amount when she uses it to heal others. Using lay on hands to harm undead deals the normal amount of damage. This ability otherwise works like and replaces lay on hands.</p>
+				<p id="charitable-mercy"><b>Charitable Mercy (Su)</b>: At 5th level, a paladin with this oath is more flexible with her mercies than other paladins. At the start of each day, a paladin with this oath can select her mercies anew from the list of available mercies. This ability replaces divine bond.</p>
+				<p id="code-of-conduct"><b>Code of Conduct</b>: Always offer help to good creatures who need it. Always offer help to the poor and destitute. (In settlements, this help is often handled by donating to charitable religious organizations, rather than the paladin being required to dole out coppers to every beggar in the street.)</p>
+				<p id="oath-spells"><b>Oath Spells</b>: 1st&mdash;<i><a href="/pathfinderRPG/prd/spells/magicStone.html#_magic-stone" >magic stone</a></i>; 2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/makeWhole.html#_make-whole" >make whole</a></i>; 3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment" >magic vestment</a></i>; 4th&mdash;<i><a href="/pathfinderRPG/prd/spells/imbueWithSpellAbility.html#_imbue-with-spell-ability" >imbue with spell ability</a></i>.</p>
+				<h2 id="oath-of-chastity">Oath of Chastity</h2>
+				<p>A chaste paladin proves her purity by way of her action and her abstinence from romantic activities. Many believe that this oath is only about sex, but it is really an oath about the romantic notion that a single person could be more important than all the evils facing the world&mdash;it is this perceived selfishness that the bearer of the Oath of Chastity strives to reject. In doing so, she gains purifying power.</p>
+				
+				<p id="pure-of-mind"><b>Pure of Mind (Su)</b>: At 2nd level, the paladin gains a +4 sacred bonus on saves against charm effects and figments, and gains a bonus equal to her Charisma modifier on Will saving throws. This ability replaces divine grace.</p>
+				<p id="pure-of-body"><b>Pure of Body (Su)</b>: Upon reaching 8th level, the paladin has a 50% chance to turn any critical hit or sneak attack against her into a normal hit, as if she were wearing <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i> armor. This ability replaces aura of resolve. </p>
+				<p id="code-of-conduct"><b>Code of Conduct</b>: Never engage in a romantic relationship or a sexual act.</p>
+				<p id="oath-spells"><b>Oath Spells</b>: 1st&mdash;<i><a href="/pathfinderRPG/prd/spells/removeFear.html#_remove-fear" >remove fear</a></i>; 2nd&mdash;<i><a href="/pathfinderRPG/prd/advanced/spells/confess.html#_confess" >confess</a></i>; 3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i>; 4th&mdash;<i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>.</p>
+				<h2 id="oath-of-loyalty">Oath of Loyalty</h2>
+				<p>To most paladins, their word is everything. When they say something, it will be done. Those who take this oath put that ideal to the test every day. The oathbound paladin's word is a promise, a sacred bond, and also greater power in the cause of law and good. She is careful with her words, lest she agree to something she cannot fully support.</p>
+				
+				<p id="loyal-oath"><b>Loyal Oath (Su)</b>: Starting at 1st level, once per day as a swift action, an oathbound paladin can choose a willing creature within line of sight as the target of her loyal oath. When the paladin is adjacent to the target of her loyal oath, she grants the target a sacred bonus on saving throws and to Armor Class equal to the paladin's Charisma bonus. The loyal oath lasts 1 minute, or until the paladin dismisses it (a free action) or discharges it (see below), whichever comes first.</p>
+				<p>If the target is struck by an enemy and the paladin is adjacent to that enemy, as an immediate action she may make a single melee attack against that enemy; making this attack ends the loyal oath. At 4th level and every three levels thereafter, the paladin may use her loyal oath one additional time per day. This ability replaces smite evil. </p>
+				<p id="loyal-guardian"><b>Loyal Guardian (Su)</b>: At 8th level, whenever the target of the paladin's loyal oath is hit with a melee or ranged attack, if the paladin is adjacent to the target, she can spend an immediate action to have the attack automatically hit her instead of the intended target. This ends the loyal oath.</p>
+				<p id="code-of-conduct"><b>Code of Conduct</b>: Keep all promises. Never make an oath or promise lightly. Never go back on an oath.</p>
+				<p id="oath-spells"><b>Oath Spells</b>: 1st&mdash;<i><a href="/pathfinderRPG/prd/advanced/spells/wrath.html#_wrath" >wrath</a></i>; 2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/aid.html#_aid" >aid</a></i>; 3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/helpingHand.html#_helping-hand" >helping hand</a></i>; 4th&mdash;<i><a href="/pathfinderRPG/prd/spells/sending.html#_sending" >sending</a></i>.</p>
+				<h2 id="oath-of-vengeance">Oath of Vengeance</h2>
+				<p>While all paladins uphold the principals of law and good, sometimes these ideas must have a ruthless and dangerous side. It often falls upon a paladin to bring justice in the form of vengeance upon heinous transgressors against law and good. These oathbound paladins are always on the hunt for those who have perpetrated evil, and are the instrument of Heaven's most definitive and implacable judgment. </p>
+				
+				<p id="channel-wrath"><b>Channel Wrath (Su)</b>: When an oathbound paladin reach 4th level, she can spend two uses of her lay on hands ability to gain an extra use of smite evil that day. This ability has no effect for a paladin who does not have the smite evil ability. This ability replaces channel positive energy.</p>
+				<p id="powerful-justice"><b>Powerful Justice (Su)</b>: At 11th level, an oathbound paladin may spends one use of her smite evil ability to grant her allies within 10 feet the ability to smite evil, except they only gain the paladin's bonus to damage, not her smite's attack bonus or ability to bypass DR. This ability replaces aura of justice.</p>
+				<p id="code-of-conduct"><b>Code of Conduct:</b> Never let lesser eveils distract you from your pursuit of just vengeance.</p>
+				<p id="oath-spells"><b>Oath Spells</b>: 1st&mdash;<i><a href="/pathfinderRPG/prd/advanced/spells/wrath.html#_wrath" >wrath</a></i>; 2nd&mdash;<i><a href="/pathfinderRPG/prd/advanced/spells/confess.html#_confess" >confess</a></i>; 3rd&mdash;<i><a href="/pathfinderRPG/prd/advanced/spells/blessingOfFervor.html#_blessing-of-fervor" >blessing of fervor</a></i>; 4th&mdash;<i><a href="/pathfinderRPG/prd/spells/orderSWrath.html#_order-s-wrath" >order's wrath</a></i>.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

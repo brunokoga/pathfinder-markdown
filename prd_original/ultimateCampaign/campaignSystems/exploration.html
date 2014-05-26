@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Exploration</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Exploration",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/campaignSystems.html', name: 'Campaign Systems' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="exploration">Exploration</h1>
+<p>Exploration is the epitome of adventuring. An explorer strikes out into the uncharted wild to pursue fortune and glory, facing off against a world of unknown perils that can strike at any time. Beyond the protection of civilization, death can come at the hands of bandit attacks, encounters with feral beasts, and the uncaring whims of the environment. For those brave enough, exploration offers its own kind of reward: the ability to look back on the long road traveled, to recount the many obstacles that were struggled through, and to mark the discoveries made along the way as yours. The summit of every mountain climbed and the length of every trail forged is a victory for the traveler&mdash;a chance to look at the world she is conquering.</p>
+<p>The following pages present rules for how you as a GM can include exploring large regions of wilderness in your campaign. You can use these rules to run an exploration-themed campaign or to add an exploration component to a campaign, such as searching for resources, scouting territory for the expansion of a kingdom, or establishing trade routes.</p>
+
+<h2 id="sandbox-exploration">Sandbox Exploration</h2>
+<p>These exploration rules can work well in a sandbox-style game. Essentially, a sandbox campaign provides many different locations on the map where the PCs are offered tasks to resolve, and locations where the tasks can be executed. (Each task might or might not take place in the same locations it was offered.) A task can be as simple as clearing evil monsters from a patch of forest or as complicated as helping a fledgling kingdom acquire resources in its back country.</p>
+<p>When designing tasks for sandbox gaming, have them be things the party can <i>choose to</i> do, not that they <i>must</i> do. By leaving the choice of which tasks to undertake up to them, you allow the PCs to be wandering heroes&mdash;masters of their own fate who travel the land setting things right.</p>
+<p>This kind of nonlinear play encourages PCs to move out into the world, search for new tasks, and claim their rewards. You can also use these tasks to introduce new sites in the world by offering the characters jobs delivering goods, escorting travelers, and the like.</p>
+
+<h2 id="movement">Movement</h2>
+<p>Each hex on the map is 12 miles across from corner to corner, representing an area just under 95 square miles. The hexes are used to track the party's movement while exploring, and as a means to help define the extent of different types of terrain. The exploration rates presented in these rules differ from the travel rates found in the <i>Core </i><i>Rulebook</i>, since characters are also assumed to be taking time to fully explore each area they enter, which takes a great deal longer than simply walking through it.</p>
+<p>To determine how long it takes the PCs to travel through a hex or fully explore it, determine the group's base speed (set by the slowest member of the group) and consult the Travel Time (1 Hex) table or Exploration Time (1 Hex) table. These times represent the movement and exploration of a normal hex of the specified terrain type; rules presented later in this section modify the amount of time it takes to travel through or fully explore a hex.</p>
+<p>A typical wilderness hex is trackless (<a href="/pathfinderRPG/prd/additionalRules.html#_local-movement">see the Terrain and Overland Movement table</a>). Though no humanoid-created roads or trails pass through it, trails by game animals might. If a hex contains more than one terrain type, treat it as the most prevalent terrain for the purpose of travel times.</p>
+
+<div class="table">
+<table id="table-travel-time"><caption>Travel Time (1 Hex)</caption>
+<thead><tr><th>Party Speed</th><th>Plain</th><th>All Other Terrain</th></tr></thead>
+<tr class="odd"><td>15 feet</td><td>11 hours</td><td>16 hours</td></tr>
+<tr class="even"><td>20 feet</td><td>8 hours</td><td>12 hours</td></tr>
+<tr class="odd"><td>30 feet</td><td>5 hours</td><td>8 hours</td></tr>
+<tr class="even"><td>40 feet</td><td>4 hours</td><td>6 hours</td></tr>
+<tr class="odd"><td>50 feet</td><td>3 hours</td><td>5 hours</td></tr></table>
+</div>
+
+<div class="table">
+<table id="table-exploration-time"><caption>Exploration Time (1 Hex)</caption>
+<thead><tr><th>Party Speed</th><th>Plain or Hill</th><th>Desert, Forest, or Marsh</th><th>Mountain</th></tr></thead>
+<tr class="odd"><td>15 feet</td><td>3 days</td><td>4 days</td><td>5 days</td></tr>
+<tr class="even"><td>20 feet</td><td>2 days</td><td>3 days</td><td>4 days</td></tr>
+<tr class="odd"><td>30 feet</td><td>1 day</td><td>2 days</td><td>3 days</td></tr>
+<tr class="even"><td>40 feet</td><td>1 day</td><td>1 day</td><td>2 days</td></tr>
+<tr class="odd"><td>50 feet</td><td>1 day</td><td>1 day</td><td>1 day</td></tr></table>
+</div>
+
+
+<h3 id="tracking-travel">Tracking Travel</h3>
+<p>The simplest method of tracking the PCs' progress as they travel and survey the wilderness is to do so on hex paper. As the PCs explore a hex, the players should note their progress by placing a small "X" in the hex. Tracking which hexes are fully explored is important for determining exploration rewards.</p>
+
+<h3 id="exploration-rewards">Exploration Rewards</h3>
+<p>Whenever a hex is explored fully, the party earns 100 XP for the effort. Some modifiers can add to this amount. The party gains an additional 25 XP after fully exploring a hex that contains either difficult terrain or a hazard. You might decide that some hexes are more dangerous, especially in a higher-level campaign, and award the party more XP per hex (perhaps up to 500 XP for especially hostile areas).</p>
+
+<h3 id="keep-things-interesting">Keep Things Interesting</h3>
+<p>When the players ask what they find while exploring a hex, the answer should never be "nothing." Even in the simplest field of wheat, offer a bit of detail&mdash;something compelling to help flesh out the world. The foundation of a long-forgotten village or a set of standing stones built to honor a lost god can be hints about that area's history. The Things Found on the Roadside (<i>GameMastery Guide</i> 224) and Table 7&mdash;58: Scenic Spots (<i>GameMastery Guide</i> 225) list many examples of interesting features you can use to fill in details.</p>
+<p>Other than in the rare village, exploring PCs have very few opportunities to resupply. Acquiring food and finding shelter against the elements is paramount, and losing supplies has a crippling effect on the party, as they have to hunt and forage just to acquire enough food and water to survive another day. An exploration encounter can be driven by complications like these, where every meal foraged is a victory in itself.</p>
+<p>Remember that adventuring is more about glory than grim survival, so it's best to keep a balance between realistic exploration issues (such as obtaining fresh food and water) and fun, exciting monster encounters. If you make exploration both dangerous and rewarding, the players will remain eager to keep striking out into the great unknown.</p>
+
+<h3 id="getting-lost">Getting Lost</h3>
+<p>While moving through the wilderness, there is the possibility of adventurers losing track of where they're going. The lack of a clear path, coupled with low visibility due to terrain or weather, can cause explorers to head in the wrong direction. Anytime the characters move through marshes or forests, or have reduced visibility from the effects of any modifiers, they have a chance of becoming lost.</p>
+<p>The effect of getting lost is the same as in the normal rules, except the GM randomly determines the next hex the lost party moves into, and does not reveal this misdirection to the party. Once the PCs have regained their bearings, the GM reveals their true location on the map.</p>
+
+<h2 id="random-encounters">Random Encounters</h2>
+<p>Natural disasters can occur anywhere. Untamed regions are often home to a wide variety of monsters. You can instill a bit of additional danger into your exploration sessions by including random encounters, whether they take the form of natural hazards or monsters that dwell in the terrain.</p>
+<p>Roll on the following table once per day (or once per hex, if the PCs enter multiple hexes in a single day). For hazards, see the Hazards section on page 158. For monster encounters, in most cases the PCs face off against a creature appropriate to the terrain, but a nearby famine, drought, war, or plague may force a monster out of its normal territory and into a strange environment.</p>
+
+<table><thead><tr><th>d%</th><th>Result</th></tr></thead>
+<tr class="odd"><td>01&mdash;50</td><td>No encounter</td></tr>
+<tr class="even"><td>51&mdash;60</td><td>Hazard</td></tr>
+<tr class="odd"><td>61&mdash;100</td><td>Monster</td></tr></table>
+
+<h2 id="planned-encounters">Planned Encounters</h2>
+<p>A specific, planned encounter for a hex does not have to be especially complicated. It can be as simple as a quick meeting with an explorer who can sell the PCs some necessary supplies or the discovery of a monster lair that hints at a greater threat. A good rule when determining the number of planned encounters to prepare is to have at least one for each character in the party. That way, you can tailor encounters to allow each character to take the spotlight without having to populate every single hex on the map one by one.</p>
+<p>After creating these encounters, choose a hex on the map and note that an encounter occurs there. When the party draws closer to a hex with a planned encounter, foreshadow it with appropriate details. For example, if you plan to have the party discover a battle between two armies, the nearby hexes should contain signs of an army's passage&mdash;old cooking fires, piles of refuse, and even the graves of soldiers who fell to illness along the way give your players clues about the impending encounter.</p>
+<p>A few encounter sites are landmarks immediately obvious or visible with just a little bit of looking or scouting. A PC who enters the hex automatically discovers the landmark. If a PC in an adjacent hex spends an hour studying the landmark's hex and succeeds at a DC 10 <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> check, he discovers the landmark. When the PCs discover a landmark, note it on the landmark's hex.</p>
+<p>Many encounter sites remain undiscovered unless the PCs decide to explore a hex rather than just travel through it. By exploring the hex, the PCs discover the site automatically. Some sites are hidden, requiring the PCs to make an appropriate skill check as they explore. The skill and its DC depend on the nature of the site.</p>
+
+<h2 id="hex-terrain-types">Hex Terrain Types</h2>
+<p>For simplicity's sake, a hex is categorized by its primary terrain: desert, forest, hill, marsh, mountain, plain, settlement, or water. The terrain doesn't have to be uniform within that hex&mdash;the border between a forest hex and plain hex might be a gradual thinning of the trees or the sudden edge of a heavy forest. A hex might have a river running through it, a large rock outcropping, a barren patch from a fire, and so on. The hexes are abstractions to make travel and encounters easier, not a way to reduce the campaign map to a simple board game.</p>
+<p>Each of the following terrain type entries includes a description of the terrain and any rules effects the terrain type might implicate. In addition, each terrain type entry includes example terrain elements that might be found in a particular hex of that terrain type. A terrain element could be some obstacle or hindrance that makes a hex more difficult to pass through, a unique feature within the hex, an encounter with the predators or people who use this hex as their hunting ground, resources that could aid adventurers exploring the hex, or a secret location hidden somewhere in the hex.</p>
+<p>Even a "standard" hex (that is, one without a terrain element), should have something to make it memorable. PCs who explore that hex are spending at least a day there, and an exploration campaign grows boring if days pass uneventfully (see Keep Things Interesting on page 154).</p>
+
+<h3 id="desert">Desert</h3>
+<p>A desert is any sort of terrain that receives very little rainfall. It can be warm, temperate, or cold.</p>
+<p>This section pertains mostly to warm and temperate deserts. In cold environments, a desert is usually tundra, which acts like another terrain category depending on the current season. During most of the year, a cold desert is covered in a layer of permafrost, creating hard, stable terrain (which is treated as plains). During the warm season, the permafrost thaws and turns the area into mud (which is treated as marsh).</p>
+<p><b>Difficult</b>: A difficult desert is a treacherous place, full of sand dunes, sinkholes, rubble, sandstorms, or numerous ravines. Rare seasonal rains might cause flash floods, sweeping away or drowning any creature in their path. <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks to avoid getting lost or to become un-lost in this hex gain a +1 bonus. <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks to get along in the wild increase by 5.</p>
+<p>Treat a flash flood as an avalanche, except instead of suffocating from being buried under rock, creatures who are buried must hold their breaths or start drowning.</p>
+<p><b>Feature</b>: A desert hex feature might be a city or tomb long buried under the sands, one or more geoglyphs, an unusual mesa, a majestic canyon, a tar pit, or an oasis. A tall structure&mdash;such as a mesa or ruined tower&mdash;can be used as a landmark for navigation or an observation point to get a better view of the surrounding area. Other features might point to hidden treasures, ley lines, or celestial conjunctions.</p>
+<p><b>Hunting Ground</b>: The hex might be home to one or more kinds of flying predators (typically dragons and sphinxes), poisonous monsters capable of tracking wounded prey over long distances, or subterranean creatures that use burrowing and similar tactics to make ambush attacks. The desert might also be home to nomadic raiders, genies, or elementals of a type fitting the desert's environment. The chance of random encounters within these deserts increases by 10%.</p>
+<p><b>Resource</b>: This hex might contain valuable ore, water (such as an oasis), or a rare but useful plant (such as a cactus used for medicine or exotic beverages).</p>
+<p><b>Secret</b>: A secret desert hex might have shifting sand dunes, acrid winds, poisonous terrain, elemental portals, or some other strange feature that hides its secrets.</p>
+<p>Ruins half-buried in the desert could still contain lost treasures or might already be looted. In either case, the ruins can be used as a place to take shelter from storms or as a lair for monsters. PCs who take shelter in these ruins suffer no effect from storms and similar hazards, but the chance of random encounters increases by 25%.</p>
+
+<h3 id="forest">Forest</h3>
+<p>A normal forest hex can be any sort of common forest: sparse patches of trees in the lowlands, thickly needled pines of the taiga, a lush tropical jungle, or even an ancient fruit tree grove turned overgrown and wild.</p>
+<p><b>Difficult</b>: A difficult forest is a treacherous place, full of rotting trees that can fall without warning, twisted scythe trees that lunge at their victims, or witch-lights that lead expeditions off the path. For each hour spent traveling through a difficult forest, there is a 5% chance of a falling tree hazard. <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> check DCs to avoid getting lost increase by 5.</p>
+<p><b>Feature</b>: A forest hex feature could be either a cluster of massive old-growth trees or some type of tree that is unique to that region. In an old-growth forest, the canopy limits how much light reaches the ground, so undergrowth tends to be low-lying, tough plants like mosses and ferns.</p>
+<p><b>Hunting Ground</b>: This kind of forest hex is often treated with awe by local people, as hunting grounds are full of a terrifying array of arboreal creatures. The chance of random encounters within these forests increases by 10%.</p>
+<p><b>Resource</b>: This hex contains valuable lumber, medicinal herbs, or plentiful sources of game meat. <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks to get along in the wild gain a +5 bonus.</p>
+<p><b>Secret</b>: A secret forest hex has thick mists or deep shadows that make fully exploring it a time-consuming prospect. Exploration time increases by 50%.</p>
+
+<h3 id="hill">Hill</h3>
+<p>A hill is lower and less steep than a mountain. Hills are often transitional terrain between mountains and plains.</p>
+<p><b>Difficult</b>: Full of short cliffs and jagged stones, a difficult hill hex requires extra caution to avoid dangerous falls. For the purposes of travel and exploration times, treat the party's speed as <a href="#terrain">one category slower</a>.</p>
+<p><b>Feature</b>: The hex might be the site of a famous historical battle or the burial mound of long-dead chieftains. It provides a commanding view of the surrounding region and is useful as a waypoint. <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks to avoid getting lost or to become un-lost in this hex gain a +1 bonus.</p>
+<p><b>Hunting Ground</b>: The hex is cut with valleys and trenches that obscure predators from view. The chance of random encounters increases by 25%.</p>
+<p><b>Resource</b>: The hex contains resources such as quality stone, coal, precious metals, or gems.</p>
+<p><b>Secret</b>: Hidden caverns provide shelter and lairs for monsters. Locating these caverns requires a successful DC 10 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> or <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> check. PCs who take shelter here suffer no effect from storms and similar hazards, but the chance of random encounters increases by 10%.</p>
+
+<h3 id="marsh">Marsh</h3>
+<p>Marshes, swamps, and bogs are challenging ground to traverse. <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> check DCs to avoid getting lost increase by 1 in a marsh hex.</p>
+<p><b>Difficult</b>: A difficult marsh hex is a deadly place, replete with quicksand, poisonous plants, and treacherous water. The DCs for <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks to get along in the wild increase by 5. For the purposes of travel and exploration times, treat the party's speed as <a href="#terrain">one category slower</a>.</p>
+<p><b>Feature</b>: The hex might be the location of a marsh creature's den (such as a hag), a sunken ruin, a large water causeway, or a shallow lake.</p>
+<p><b>Hunting Ground</b>: Attacks in this hex are equally likely to come from underwater as from the surface. The chance of random encounters increases by 25%.</p>
+<p><b>Resource</b>: Marsh resources primarily come in the form of medicinal plants and herbs.</p>
+<p><b>Secret</b>: Unfortunate explorers died in the marsh and left behind all their gear. With a successful DC 25 <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> check, the PCs can each salvage equipment worth 10 gp per character level.</p>
+
+<h3 id="mountain">Mountain</h3>
+<p>Mountains form long barriers across the landscape that greatly impede the movement of travelers.</p>
+<p><b>Difficult</b>: All <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> DCs in a difficult mountain hex increase by 2. For the purposes of travel and exploration times, treat the party's speed as <a href="#terrain">one category slower</a>.</p>
+<p><b>Feature</b>: The mountain is the highest in the vicinity or has an unusual shape, perhaps resembling a face or creature. Alternatively, use a feature from the Feature section of the hill hex terrain type.</p>
+<p><b>Hunting Ground</b>: Bandits and monsters frequent these hexes, falling upon weary travelers. The chance of random encounters increases by 10%.</p>
+<p><b>Resource</b>: The hex contains resources such as quality stone, coal, precious metals, or gems.</p>
+<p><b>Secret</b>: Hidden pathways carved through the mountains offer speedier paths. If the PCs succeed at a DC 20 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> check to find the pathways, they can ignore the default travel time increase for the mountain hex.</p>
+
+<h3 id="plain">Plain</h3>
+<p>Plains can be fields of high grasses, permanently frozen tundra, or flat badlands.</p>
+<p><b>Difficult</b>: Dangerous plains tend to be filled with small sinkholes and pits that can twist or break the legs of the unwary. For the purposes of travel and exploration times, treat the party's speed as <a href="#terrain">one category slower</a>.</p>
+<p><b>Feature</b>: The plain might be the site of an old battlefield, with the remnants of earthwork defenses and trenches.</p>
+<p><b>Hunting Ground</b>: Ambush predators abound in these plains hexes, using the cover of tall grass to outflank and strike surprised prey. In tundra and badlands terrain, predators lie in wait underground using abilities such as burrow, or by digging shallow pits to hide in. The chance of random encounters increases by 25%.</p>
+<p><b>Resource</b>: The hex has edible plants (such as wheat or cacti) or useful vegetable matter (such as flax or cotton).</p>
+<p><b>Secret</b>: Stolen goods are buried in the hex and marked with an innocuous sign, such as an out-of-place river rock. With a successful DC 25 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> check, the PCs recognize the marker and can each salvage treasure or nonmagical gear worth 10 gp per character level.</p>
+
+<h3 id="settlement">Settlement</h3>
+<p>Normal settlement hexes are small villages or military encampments. Settlements usually appear with another terrain type they're built upon. Frequently used trails or even simple roads reduce travel time through the hex by 25&mdash;50% depending on the terrain type for that hex.</p>
+<p><b>Difficult</b>: A difficult settlement hex holds the ruins of an abandoned town or one full of the victims of famine, plague, or another devastating event. Decrepit buildings might collapse at any moment (treat as a cave-in or collapse; ).</p>
+<p><b>Feature</b>: The settlement hex has a community with a well-known reputation or historical significance.</p>
+<p><b>Hunting Ground</b>: This settlement is lawless, frequently attacked by brigands or pirates, or plagued by civil unrest. The chance of random encounters increases by 25%.</p>
+<p><b>Resource</b>: The settlement is a trading post, merchant camp, or small fort on a crucial crossroad or river crossing, and goods of many types (particularly trade goods and natural resources from nearby hexes) pass through the area.</p>
+<p><b>Secret</b>: A secret settlement is a bandit fort, pirate town, village inhabited by monsters, or secret home of someone trying to avoid normal civilization. The hex primarily resembles an adjacent hex type, and access to the settlement is usually hidden.</p>
+
+<h3 id="water">Water</h3>
+<p>Whether a river, lake, or ocean, this type of hex is predominantly water. If the PCs lack swim speeds or boats, it is best to treat lakes and oceans as obstacles for the PCs to travel around rather than through. Treat the shores of the water hex as the adjacent terrain type.</p>
+<p><b>Difficult</b>: Whitewater rapids, strong tides, or underwater vortexes mean this water is more challenging to cross. The <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> DCs to cross these waters increase by 5.</p>
+<p><b>Feature</b>: The hex is part of a large or well-known river's course, or has a sturdy bridge that facilitates easy crossing.</p>
+<p><b>Hunting Ground</b>: The hex might be home to predatory aquatic creatures or opportunistic hunters waiting to strike prey that comes to drink. The chance of random encounters increases by 10%, or 25% if the PCs spend most of their time in the water.</p>
+<p><b>Resource</b>: Fish, shellfish, and pearls are plentiful in the hex. In some situations, the benefit of this resource is the availability of fresh water rather than the contaminated water or salt water available in nearby hexes.</p>
+<p><b>Secret</b>: The hex might contain an oasis, a connection to the Plane of Water, or a spring with magical powers.</p>
+
+<h2 id="random-map-generation">Random Map Generation</h2>
+<p>Not everyone has the time to create a detailed map to use in-game. You and your players can also use the following rules to create a whole new map randomly during play. This can empower your players to discover the unexplored world around them. The options presented below are intentionally designed to be generic types of temperate terrain; adjust them for your own game. In a frozen wasteland, plain hexes could represent great expanses of icy ground, while in an arid climate they could represent massive alkali flats. Use these examples as a springboard to create a unique campaign of exploration.</p>
+<p>To generate a new map, begin by selecting a hex on your blank map as the starting point. Then decide the type of terrain for that starting point (such as a settlement in a forest hex). From that point onward, the reins of exploration are in your players' hands. Let them decide which direction they travel, and let each player take a turn generating the next hex by rolling 1d20 twice to determine the terrain type and terrain element for that hex using the tables below.</p>
+
+<div class="table">
+<table id="terrain"><thead><tr><th>d20</th><th>Terrain Type</th></tr></thead>
+<tr class="odd"><td>1&mdash;3</td><td>Forest</td></tr>
+<tr class="even"><td>4&mdash;6</td><td>Hill</td></tr>
+<tr class="odd"><td>7&mdash;8</td><td>Marsh</td></tr>
+<tr class="even"><td>9&mdash;10</td><td>Mountain</td></tr>
+<tr class="odd"><td>11&mdash;13</td><td>Plain</td></tr>
+<tr class="even"><td>14</td><td>Settlement</td></tr>
+<tr class="odd"><td>15&mdash;16</td><td>Water</td></tr>
+<tr class="even"><td>17&mdash;20</td><td>As previous terrain type</td></tr></table>
+</div>
+
+<div class="table">
+<table><thead><tr><th>d20</th><th>Terrain Element</th></tr></thead>
+<tr class="odd"><td>1&mdash;3</td><td>Difficult</td></tr>
+<tr class="even"><td>4&mdash;6</td><td>Feature</td></tr>
+<tr class="odd"><td>7&mdash;10</td><td>Hunting Ground</td></tr>
+<tr class="even"><td>11&mdash;12</td><td>Resource</td></tr>
+<tr class="odd"><td>13&mdash;14</td><td>Secret</td></tr>
+<tr class="even"><td>15&mdash;20</td><td>Standard</td></tr></table>
+</div>
+
+<h2 id="hazards">Hazards</h2>
+<p>Hazards are dangerous obstacles or events relevant to a hex's terrain type. They represent the natural disasters, harsh weather, and bad luck that can befall an expedition, and are included to liven up the PCs' journey as they explore the world. In addition to these hazards, you might use an environmental danger that's suitable to the current terrain (&mdash;433). After the effects of a hazard have been resolved, treat the hex as a standard example of that terrain.</p>
+
+<h3 id="bad-weather-(any)">Bad Weather (Any)</h3>
+<p>Bad weather can range from minor precipitation to a <a href="/pathfinderRPG/prd/environment.html#_weather">serious storm</a>. The weather can include lightning strikes and cause floods, landslides, and other natural hazards.</p>
+
+<h3 id="blight-(any)">Blight (Any)</h3>
+<p>Whether from a lack of water, a plague, or hostile magic, the plants and wildlife in the hex are suffering. A blight affects the hex and all adjacent unexplored hexes, and lasts for 1d4+2 weeks. During a blight, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> DCs to get along in the wild increase by 5.</p>
+
+<h3 id="deadly-gas-(desert,-marsh)">Deadly Gas (Desert, Marsh)</h3>
+<p>In a marsh, pockets of flammable gas can build up under the surface before violently erupting, throwing rocks, mud, and debris in all directions with startling force. In a desert, toxic fumes from a natural vent, old mine, or magical disaster might leak into the air, poisoning or mutating nearby creatures.</p>
+<p>In a marsh, PCs can attempt a DC 15 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> check to notice the smell and swelling before it erupts. The eruption deals 2d6 points of bludgeoning damage in a 20-foot radius, or 4d6 points of fire damage if the area contains open flame.</p>
+<p>In a desert, PCs can attempt a DC 15 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> check to notice the fumes and get out of their path before coming to harm. Otherwise, they must succeed at a DC 15 Fortitude save or take 1d4 points of Constitution damage  and be nauseated for 10 minutes.</p>
+
+<h3 id="dust-devil-(desert,-hill,-plain)">Dust Devil (Desert, Hill, Plain)</h3>
+<p>A dust devil is a whirlwind not associated with a storm, particularly in a region with little or no topsoil. Treat a dust devil as a duststorm, sandstorm, or tornado.</p>
+
+<h3 id="grass-fire-(hill,-plain)">Grass Fire (Hill, Plain)</h3>
+<p>Grass fires are often caused by lightning or careless camp fires. A grass fire is similar to a forest fire, except it can be spotted at twice the normal distance, and a PC caught in its area saves against heat damage only every 10 rounds.</p>
+
+<h3 id="volcanic-tremor-(hill,-mountain)">Volcanic Tremor (Hill, Mountain)</h3>
+<p>Though active volcanoes are rare, even dormant volcanoes can produce tremors. Tremors last anywhere from 1d4 rounds to 2d6 minutes and increase <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> DCs by 2. The tremors might start an avalanche or collapse a cave or cliff (similar to an <i><a href="/pathfinderRPG/prd/spells/earthquake.html#__earthquake" >earthquake</a></i> spell).</p>
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

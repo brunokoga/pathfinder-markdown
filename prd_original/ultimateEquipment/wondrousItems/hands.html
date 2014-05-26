@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Hands Slot</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Hands Slot",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html', name: 'Wondrous Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="hands-slot-wondrous-items">Hands Slot Wondrous Items</h1>
+<p>The hand slot consists of gauntlets, gloves, and other items that can be worn on the hands.</p>
+<p>Anyone can use a hand slot wondrous item unless specified otherwise by the item's description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.</p>
+
+<table id="hand-slot-wondrous-items"><caption>Hand Slot Wondrous Items</caption>
+<thead><tr><th>d%</th><th>Lesser Minor Hand Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;13</td><td><i>Assisting gloves</i></td><td>180 gp</td></tr>
+<tr class="even"><td>14&ndash;22</td><td><i>Claws of the ice bear</i></td><td>1,300 gp</td></tr>
+<tr class="odd"><td>23&ndash;34</td><td><i>Gloves of reconnaissance</i></td><td>2,000 gp</td></tr>
+<tr class="even"><td>35&ndash;46</td><td><i>Glowing glove</i></td><td>2,000 gp</td></tr>
+<tr class="odd"><td>47&ndash;58</td><td><i>Apprentice's cheating gloves</i></td><td>2,200 gp</td></tr>
+<tr class="even"><td>59&ndash;70</td><td><i>Challenger's gloves</i></td><td>2,200 gp</td></tr>
+<tr class="odd"><td>71&ndash;80</td><td><i>Gloves of larceny</i></td><td>2,500 gp</td></tr>
+<tr class="even"><td>81&ndash;90</td><td><i>Healer's gloves</i></td><td>2,500 gp</td></tr>
+<tr class="odd"><td>91&ndash;100</td><td><i>Engineer's workgloves</i></td><td>3,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Minor Hand Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;12</td><td><i>Gauntlets of the skilled maneuver</i></td><td>4,000 gp</td></tr>
+<tr class="even"><td>13&ndash;21</td><td><i>Ghostvision gloves</i></td><td>4,000 gp</td></tr>
+<tr class="odd"><td>22&ndash;33</td><td><i>Gloves of arrow snaring</i></td><td>4,000 gp</td></tr>
+<tr class="even"><td>34&ndash;43</td><td><i>Trapspringer's gloves</i></td><td>4,000 gp</td></tr>
+<tr class="odd"><td>44&ndash;55</td><td><i>Gloves of arcane striking</i></td><td>5,000 gp</td></tr>
+<tr class="even"><td>56&ndash;65</td><td><i>Poisoner's gloves</i></td><td>5,000 gp</td></tr>
+<tr class="odd"><td>66&ndash;75</td><td><i>Magnetist's gloves</i></td><td>6,000 gp</td></tr>
+<tr class="even"><td>76&ndash;100</td><td><i></i> </td><td>6,250 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Medium Hand Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;02</td><td><i>Deliquescent gloves</i></td><td>8,000 gp</td></tr>
+<tr class="even"><td>03&ndash;05</td><td><i>Form-fixing gauntlets  </i></td><td>8,000 gp</td></tr>
+<tr class="odd"><td>06&ndash;08</td><td><i>Iron cobra gauntlet</i></td><td>8,000 gp</td></tr>
+<tr class="even"><td>09&ndash;16</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow" >Shadow</a> falconer's glove</i></td><td>8,000 gp</td></tr>
+<tr class="odd"><td>17&ndash;20</td><td><i>Spellstrike gloves</i></td><td>8,000 gp</td></tr>
+<tr class="even"><td>21&ndash;28</td><td><i>Glyphbane gloves</i></td><td>9,000 gp</td></tr>
+<tr class="odd"><td>29&ndash;40</td><td><i>Glove of storing</i></td><td>10,000 gp</td></tr>
+<tr class="even"><td>41&ndash;46</td><td><i>Gloves of shaping</i></td><td>10,000 gp</td></tr>
+<tr class="odd"><td>47&ndash;54</td><td><i>Pliant gloves</i></td><td>10,000 gp</td></tr>
+<tr class="even"><td>55&ndash;76</td><td><i>Gauntlet of rust</i></td><td>11,500 gp</td></tr>
+<tr class="odd"><td>77&ndash;100</td><td><i><a href="/pathfinderRPG/prd/advanced/magicItems/wondrousItems.html#_gloves-of-dueling" >Gloves of dueling</a></td><td></i>15,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Medium Hand Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;30</td><td><i>Vampiric gloves</i></td><td>18,000 gp</td></tr>
+<tr class="even"><td>31&ndash;65</td><td><i>Giant fist gauntlets</i></td><td>20,000 gp</td></tr>
+<tr class="odd"><td>66&ndash;100</td><td><i>Gloves of the shortened path</td><td></i>27,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Major Hand Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;40</td><td><i>Gloves of the commanding conjurer</i></td><td>30,000 gp</td></tr>
+<tr class="even"><td>41&ndash;100</td><td><i>Gauntlet of rust, greater</i></td><td>34,500 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Major Hand Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;60</td><td><i>Talons of Leng</i></td><td>67,000 gp</td></tr>
+<tr class="even"><td>61&ndash;100</td><td><i>Gauntlets of the weaponmaster</i></td><td>110,000 gp</td></tr></table>
+
+
+<p id="Apprentice's-Cheating-Gloves" class="stat-block-title">Apprentice's Cheating Gloves</p>
+<p class="stat-block-1"><b>Price</b> 2,200 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b> &mdash;</p>
+<p class="stat-block">These nondescript white gloves are a boon to minor spellcasters and fakes who are limited or lacking in magical ability or versatility. The wearer of these gloves can employ <i><a href="/pathfinderRPG/prd/spells/mageHand.html#_mage-hand" >mage hand</a></i> and <i><a href="/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation" >prestidigitation</a> </i>at will.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,100 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/mageHand.html#_mage-hand" >mage hand</a></i>, <i><a href="/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation" >prestidigitation</a></i></p>
+				
+<p id="assisting-gloves" class="stat-block-title">Assisting Gloves</p>
+<p class="stat-block-1"><b>Price</b> 180 gp; <b>Aura</b> faint transmutation; <b>CL</b> 1st; <b>Weight</b>1 lb.</p>
+<p class="stat-block">The wearer of these simple gloves can speak a command word create a glowing disembodied hand. As a swift action, the wearer can have the hand assist him with a task as if using the aid another action. The hand uses the wearer's base attack bonus or skill ranks when making the check to see if aid another is successful (it does not gain the benefit of the wearer's ability scores or other bonuses). The hand remains until it has attempted one action or until 1 minute passes, whichever comes first, at which time the gloves become nonmagical.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 90 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/mageHand.html#_mage-hand" >mage hand</a></i>, <i><a href="/pathfinderRPG/prd/spells/unseenServant.html#_unseen-servant" >unseen servant</a></i></p>
+				
+<p id="Challenger's-Gloves" class="stat-block-title">Challenger's Gloves</p>
+<p class="stat-block-1"><b>Price</b> 2,200 gp; <b>Aura</b> faint enchantment; <b>CL</b> 1st; <b>Weight</b> &mdash;</p>
+<p class="stat-block">These supple, velvet gloves are the sort that might be thrown down in challenge for a duel or other single combat. By removing a glove and using it to make a melee or ranged touch attack against an opponent, the wearer of the other glove gains a +1 morale bonus on attack rolls against the target, and the target gains a &ndash;1 penalty on attack rolls against the wearer. Both of these effects last for 1 minute, but immediately end if anyone but the glove's wearer attacks the challenged opponent. Both gloves must be worn by the same creature.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,100 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane" >bane</a></i>, <i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a></i></p>
+				
+<p id="claws-of-the-ice-bear" class="stat-block-title">Claws of the Ice Bear</p>
+<p class="stat-block-1"><b>Price</b> 1,300 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Strapped to the hands, these spiked climbing claws grant a +2 competence bonus on <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> checks and <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks made when using both hands to aid in movement, and allow the wearer to ignore the normal penalties on those skills for slippery or icy surfaces. In addition, up to 3 times per day, the wearer can activate the claws as a swift action to gain the benefits of <i><a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i> for 1 round. The wearer cannot hold anything else in her hands while using claws of the ice bear. If used as a weapon, <i>claws of the ice bear</i> function as spiked gauntlets.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i></p>
+				
+<p id="deliquescent-gloves" class="stat-block-title">Deliquescent Gloves</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 7th; <b>Weight</b>1 lb.</p>
+<p class="stat-block">These heavy leather gloves ripple and flows at the wearer's command, reshaping to fit any hand, claw, tentacle, or alien limb. The wearer's melee touch attacks with that hand deal 1d6 points of acid damage. If the wearer uses that hand to wield a weapon or make an attack with an unarmed strike or natural weapon, that attack gains the <i><a href="/pathfinderRPG/prd/advanced/magicItems/weapons.html#_corrosive" >corrosive</a></i> weapon special ability.</p>
+<p class="stat-block">The wearer's gloved hand is protected from the acid ability of oozes, allowing him to use that hand to attack oozes with unarmed strikes or natural attacks without risk of harm from contact with the ooze. These unarmed strikes and natural attacks never cause an ooze to split.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow" >acid arrow</a>, <a href="/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v" >summon monster V</a></i></p>
+				
+<p id="Engineer's-Workgloves" class="stat-block-title">Engineer's Workgloves</p>
+<p class="stat-block-1"><b>Price</b> 3,000 gp; <b>Aura</b> faint divination; <b>CL</b> 5th; <b>Weight</b>&mdash;</p>
+<p class="stat-block">These durable canvas and leather gloves imbue the wearer with an instinctive knowledge of mechanical devices. The wearer also gains a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> and <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> checks made to repair or understand mechanical devices.</p>
+<p class="stat-block">Once per day, the wearer may touch a device and instantly analyze it, learning its purpose and general method of operation, as well as diagnosing any acute malfunctions of the device, but not its magical powers or additional non-mechanical effects. For example, she could touch a pressure plate and understand that stepping on it would trigger a wall scythe trap attacking that square and that the trap resets automatically, but not that the trap includes a <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a> scythe</i> coated in poison.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, creator must have 5 ranks in <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (engineering)</p>
+				
+				
+<p id="form-fixing-gauntlets" class="stat-block-title">Form-Fixing Gauntlets</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> strong abjuration; <b>CL</b> 15th; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">These leather gauntlets grant the wearer a +2 morale bonus on unarmed strikes, natural attacks, and combat maneuver checks versus creatures with the change shape special ability or similar abilities that allow it to change shape at will. While the wearer has such a creature grappled or pinned, it cannot use any shape-changing spells or abilities unless it succeeds at a concentration check; the DC of this check is 4 + the DC of casting the spell while grappled. If the wearer has such a creature pinned, a successful grapple check allows him to force the target into a specific shape it can take naturally (without the use of a spell). this involuntary transformation only forces the creature into a shape it is normally capable of and does not cost the creature an action.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/polymorphAnyObject.html#_polymorph-any-object" >polymorph any object</a></i></p>
+				
+<p id="gauntlet-of-rust" class="stat-block-title">Gauntlet of Rust</p>
+<p class="stat-block-1"><b>Price</b> 11,500 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 7th; <b>Weight</b>2 lbs.</p>
+<p class="stat-block">This single metal gauntlet looks rusted and pitted but is actually quite powerful. Once per day, it can affect an object as with the <i><a href="/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp" >rusting grasp</a></i> spell. It also completely protects the wearer and her gear from rust (magical or otherwise), including the attack of a rust monster.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp" >rusting grasp</a></i></p>
+				
+<p id="Gauntlet-of-Rust-Greater" class="stat-block-title">Gauntlet of Rust, Greater</p>
+<p class="stat-block-1"><b>Price</b> 34,500 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 7th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This item is identical to a <i>gauntlet of rust</i>, except the wearer can use <i><a href="/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp" >rusting grasp</a></i> 3 times per day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 17,250 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp" >rusting grasp</a></i></p>
+				
+<p id="gauntlets-of-the-skilled-maneuver" class="stat-block-title">Gauntlets of the Skilled Maneuver</p>
+<p class="stat-block-1"><b>Price</b> 4,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">The wearer of these gauntlets gains a +2 bonus on one type of combat maneuver check (such as bull rush, disarm, or steal) chosen by the creator when the item is created.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, creator must have the appropriate Improved combat maneuver feat</p>
+				
+<p id="gauntlets-of-the-weaponmaster" class="stat-block-title">Gauntlets of the Weaponmaster</p>
+<p class="stat-block-1"><b>Price</b> 110,000 gp; <b>Aura</b> strong conjuration; <b>CL</b> 10th; <b>Weight</b> 5 lbs.</p>
+<p class="stat-block">These gauntlets come in a variety of forms. Some are mostly leather with small steel plates, and are suited for fine swordplay. Others are fully articulated plate favored by knights in full plate. On command, the wearer of the gauntlet can store a single weapon he is holding in the gauntlets. When he does so, a graven image of the weapon appears on the gauntlet's plates. The wearer can store up to 10 weapons in the gauntlets in this manner. Retrieving a weapon requires the wearer to touch the image of the weapon he wants. Doing so is a swift action. When a weapon is retrieved, it appears in the hands of the wearer and any weapons the wearer had in his hands is stored in the gauntlets. If there is no room in the gauntlet for the weapons the wearer is holding, those weapons are dropped. The gauntlets can only store weapons; other items cannot be placed in the gauntlet.</p>
+<p class="stat-block">Furthermore, three times per day on command, the gloves affect the wearer as the <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism-greater" >greater heroism</a> spell</i>.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 55,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i>, <i><a href="/pathfinderRPG/prd/spells/ropeTrick.html#_rope-trick" >rope trick</a></i></p>
+				
+<p id="ghostvision-gloves" class="stat-block-title">Ghostvision Gloves</p>
+<p class="stat-block-1"><b>Price</b> 4,000 gp; <b>Aura</b> faint divination and evocation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">These gloves are made of pale gray silk; each is adorned with an embroidered silver eye on the back. Once per day the wearer may activate them, as a standard action, by bowing her head and pressing her hands to her eyes. The embroidered silver eyes flare and open, and when the wearer lowers her hands, deep pools of swirling gray mist hide her own eyes and allow her to more clearly see the restless dead for the next 10 rounds. While active, <i>ghostvision gloves</i> grant the following effects.</p>
+<ul><li>The wearer can see all undead within 60 feet clearly, including ethereal undead and incorporeal undead hiding in objects or walls to a depth of 5 feet.</li>
+<li>If the wearer has the channel positive energy class ability, she may expend one use of channeled positive energy to make a ranged touch attack against one undead creature within channel range. If the ranged touch attack hits, she rolls channel energy damage against that target (affecting no other creatures), except she rolls d12s instead of d6s.</li>
+<li>While the gloves are active, constructs and living opponents treat the wearer as blind.</li></ul>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead" >detect undead</a></i>, <i><a href="/pathfinderRPG/prd/spells/searingLight.html#_searing-light" >searing light</a></i>, channel positive energy class ability</p>
+				
+<p id="giant-fist-gauntlets" class="stat-block-title">Giant Fist Gauntlets</p>
+<p class="stat-block-1"><b>Price</b> 20,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 5 lbs.</p>
+<p class="stat-block">As a swift action, the wearer of these rough leather gauntlets can expand her hands to twice normal size and harden to the consistency of hardwood. This transformation lasts for up to 20 rounds per day, though they need not be consecutive rounds. If the wearer hits with an unarmed strike or natural attack using her enlarged hands, she may attempt to bull rush her opponent as a free action.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 10,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person" >enlarge person</a></i></p>
+				
+<p id="glove-of-storing" class="stat-block-title">Glove of Storing</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 6th; <b>Weight</b>&mdash;</p>
+<p class="stat-block">This device is a single leather glove. On command, one item held in the hand wearing the glove disappears. The item can weigh no more than 20 pounds and must be able to be held in one hand. While stored, the item has negligible weight. With a snap of the fingers wearing the glove, the item reappears. A glove can only store one item at a time. Storing or retrieving the item is a free action. The item is shrunk down so small within the palm of the glove that it cannot be seen. Spell durations are not suppressed, but continue to expire. If the glove's effect is suppressed or dispelled, the stored item appears instantly. A <i>glove of storing</i> uses up the wearer's entire hands slot. The wearer may not use another item (even another glove of storing) that also uses the hands slot.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/shrinkItem.html#_shrink-item" >shrink item</a></i></p>
+				
+<p id="gloves-of-arcane-striking" class="stat-block-title">Gloves of Arcane Striking</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 1st; <b>Weight</b>1 lb.</p>
+<p class="stat-block">These soft leather gloves are decorated with even rows of mithral rivets. Only a spellcaster with the <a href="/pathfinderRPG/prd/feats.html#_arcane-strike" >Arcane Strike</a> feat can activate their abilities. These abilities are as follows.</p>
+<ul><li>When the wearer uses the aid another action to improve an ally's attack roll, the ally adds the wearer's <a href="/pathfinderRPG/prd/feats.html#_arcane-strike" >Arcane Strike</a> damage bonus to its damage roll for that attack.</li>
+<li>When the wearer makes an attack using <a href="/pathfinderRPG/prd/feats.html#_arcane-strike" >Arcane Strike</a> and hits, enemies adjacent to the target take damage equal to the wearer's <a href="/pathfinderRPG/prd/feats.html#_arcane-strike" >Arcane Strike</a> damage bonus. This damage is of the same type as the weapon's damage (bludgeoning, piercing, and so on).</li>
+<li>When the wearer uses the aid another action to improve an ally's Armor Class, the ally also adds the wearer's <a href="/pathfinderRPG/prd/feats.html#_arcane-strike" >Arcane Strike</a> damage bonus to his AC against the opponent.</li></ul>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_arcane-strike" >Arcane Strike</a>, <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i></p>
+				
+<p id="gloves-of-arrow-snaring" class="stat-block-title">Gloves of Arrow Snaring</p>
+<p class="stat-block-1"><b>Price</b> 4,000 gp; <b>Aura</b> faint abjuration; <b>CL</b> 3rd; <b>Weight</b>&mdash;</p>
+<p class="stat-block">Once worn, these snug gloves seem to meld with the hands, becoming almost invisible to casual observation. Twice per day, the wearer can act as if he had the <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_snatch" >Snatch</a> Arrows feat, even if he does not meet the prerequisites for the feat. Both gloves must be worn for the magic to be effective, and at least one hand must be free to take advantage of the magic.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i></p>
+				
+				
+<p id="gloves-of-dueling" class="stat-block-title">Gloves of Dueling</p>
+<p class="stat-block-1"><b>Price</b> 15,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b>&mdash;</p>
+<p class="stat-block">These supple gloves grant the wearer a +4 bonus to her CMD against disarm attacks, attempts to sunder her wielded weapons, and effects that cause her to lose her grip on her weapons (such as <i><a href="/pathfinderRPG/prd/spells/grease.html#_grease" >grease</a></i>). The wearer doesn't drop held weapons when panicked or stunned. If the wearer has the weapon training class feature and is using an appropriate weapon, her weapon training bonus increases by +2.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 7,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i></p>
+				
+<p id="gloves-of-larceny" class="stat-block-title">Gloves of Larceny</p>
+<p class="stat-block-1"><b>Price</b> 2,500 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These supple beige calfskin gloves greatly enhance a thief's talents. The wearer gains a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> checks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,250 gp</p>
+<p class="stat-block">Craft Wondrous Item, creator must have 5 ranks in <a href="/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a></p>
+				
+<p id="gloves-of-reconnaissance" class="stat-block-title">Gloves of Reconnaissance</p>
+<p class="stat-block-1"><b>Price</b> 2,000 gp; <b>Aura</b> faint divination; <b>CL</b> 3rd; <b>Weight</b>&mdash;</p>
+<p class="stat-block">Each of these fingerless worked leather gloves look as though they have seen heavy use, and often bear the stains or scent of grass or wet mud. On command, the wearer can use the gloves to see and hear though solid material no more than 15 feet thick by placing both hands on that material. The gloves can be used for 10 rounds each day. The rounds need not be consecutive.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance" >clairaudience/clairvoyance</a></i></p>
+				
+				
+<p id="gloves-of-shaping" class="stat-block-title">Gloves of Shaping</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">These soft leather gloves are constantly encrusted with clay between the fingers and allow the reshaping of otherwise durable materials. The wearer can shape objects with hardness 8 or lower (stone, wood, leather, and so on) as if it were soft clay. While it's possible to rapidly make crude shapes (shaping roughly 1 cubic foot of material per round), creating fine detail or moving parts requires additional time and an appropriate <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> check, at the GM's discretion.</p>
+<p class="stat-block">Materials with more than 8 points of hardness are still affected, though not so dramatically. The wearer may treat these materials as having half as much hardness when attempting to damage or reshape them. For instance, a steel bar normally has 10 points of hardness, but the wearer of the gloves may treat it as having hardness 5, and shape it with woodworking tools.</p>
+<p class="stat-block">The gloves only affect shaping materials with the wearer's hands or handheld tools, and only when the wearer desires to do so.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone" >soften earth and stone</a></i>, <i><a href="/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape" >stone shape</a>, <a href="/pathfinderRPG/prd/spells/transmuteRockToMud.html#_transmute-rock-to-mud" >transmute rock to mud</a></i></p>
+				
+<p id="gloves-of-swimming-and-climbing" class="stat-block-title">Gloves of Swimming and Climbing</p>
+<p class="stat-block-1"><b>Price</b> 6,250 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b>&mdash;</p>
+<p class="stat-block">These apparently normal lightweight gloves are obviously made for use outdoors. They grant a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> checks and <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> checks. Both gloves must be worn for the magic to be effective.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,125 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i></p>
+				
+<p id="gloves-of-the-commanding-conjurer" class="stat-block-title">Gloves of the Commanding Conjurer</p>
+<p class="stat-block-1"><b>Price</b> 30,000 gp; <b>Aura</b> moderate enchantment; <b>CL</b> 7th; <b>Weight</b>&mdash;</p>
+<p class="stat-block">These gloves grant the wearer greater control over his summoned creatures. As long as he wears the gloves, creatures conjured by the wearer can understand him as if they shared a common language. This communication is not two-way and does not grant the wearer the ability to understand the creature.</p>
+<p class="stat-block">Three times per day, the wearer can attempt to take control of a summoned creature within 50 feet as if using <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/controlSummonedCreature.html#_control-summoned-creature" >control summoned creature</a></i> (Will DC 16).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 15,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages" >comprehend languages</a>, <a href="/pathfinderRPG/prd/ultimateMagic/spells/controlSummonedCreature.html#_control-summoned-creature" >control summoned creature</a></i></p>
+				
+<p id="gloves-of-the-shortened-path" class="stat-block-title">Gloves of The Shortened Path</p>
+<p class="stat-block-1"><b>Price</b> 27,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 9th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Once per day on command, the wearer of these oxblood leather gloves can bend space to extend her reach to a non-adjacent square within line of sight. For the next 10 rounds, she can touch anything in that square as if it were her own square, as long as she has line of effect to the target square. She may change the targeted square as a swift action.</p>
+<p class="stat-block">When using the gloves to touch, attack, or manipulate anything in the square, the wearer's arms and hands also appear in that square, allowing creatures and effects to target her as if she were in that square. She cannot use this connection to transfer anything from her square to the target square, or vice versa. If she drops anything, it lands in her square. She can use her hands (including natural attacks from those hands, if any), hand-held objects (such as lockpicks), and melee weapons in that square as if she were there. The square is part of her threatened area, though she cannot use the gloves to provide flanking for herself. She cannot use the gloves to grapple, make ranged attacks, or make attacks that require her to move out of her actual square (such as a bull rush combat maneuver).</p>
+<p class="stat-block">Interacting with the target square is distracting, and anything that threatens her in her actual square automatically flanks her.</p>
+<p class="stat-block">If the wearer or her square is blocked from using teleportation or planar travel effects (such as <i><a href="/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a></i>), the gloves do not function. She cannot use the gloves to target a square protected by such an effect.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 8,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/teleport.html#_teleport" >teleport</a></i></p>
+				
+				
+<p id="glowing-glove" class="stat-block-title">Glowing Glove</p>
+<p class="stat-block-1"><b>Price</b> 2,000 gp; <b>Aura</b> faint universal; <b>CL</b> 1st; <b>Weight</b>&mdash;</p>
+<p class="stat-block">The wearer of this slender white leather glove may, as a standard action, press it against any surface or object and cause a luminous handprint to appear. This print glows any color the wearer wishes, sheds light as a candle, and is easily visible from a distance of up to 60 feet. Such handprints last for 1 day before fading away. The glowing handprint matches the wearer's hand in terms of size, position of fingers, and so on.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/arcaneMark.html#_arcane-mark" >arcane mark</a></i></p>
+				
+<p id="glyphbane-gloves" class="stat-block-title">Glyphbane Gloves</p>
+<p class="stat-block-1"><b>Price</b> 9,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 7th; <b>Weight</b>&mdash;</p>
+<p class="stat-block">These dark-brown, leather gloves are etched over their entire surface with arcane insignia. The wearer gains a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> checks made to disable magical traps. Once per day, if the wearer's check to disarm a glyph, rune, or similar writing-based magical trap exceeds the DC by 10 or more, she may change the trigger condition of the trap instead of disabling it. The new trigger condition must be one allowed by the magical trap; for example, a <i><a href="/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding" >glyph of warding</a></i> cannot be set according to class, HD, or level, even when manipulated by the gloves.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i>detect traps</i>, <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i></p>
+				
+<p id="Healer's-Gloves" class="stat-block-title">Healer's Gloves</p>
+<p class="stat-block-1"><b>Price</b> 2,500 gp; <b>Aura</b> faint conjuration; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">These pure-white leather gloves bear symbols of healing and faith on the back of the hands. The wearer gains a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> checks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,250 gp</p>
+<p class="stat-block">Craft Wondrous Item, creator must have 5 ranks in <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a></p>
+				
+<p id="iron-cobra-gauntlet" class="stat-block-title">Iron Cobra Gauntlet</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 7th; <b>Weight</b> 1 Lb.</p>
+<p class="stat-block">This elbow-length scaled metal gauntlet flares at the wrist like a cobra's hood. Up to three times per day, the wearer way transform the gauntlet into an iron cobra , which crawls from the wearer's wrist and obeys his commands, leaving behind a simple bracelet of linked scales. Whoever wears the bracelet is the iron cobra's master. The iron cobra can remain animated for a total of 1 hour per day.</p>
+<p class="stat-block">If the snake is within hearing range of the master and commanded to revert to gauntlet form (a standard action), it travels to its master as fast as possible, crawls onto its master's arm, and as a free action reverts to its inactive shape. If the snake's duration expires before it can reach its master, it reverts to gauntlet form, but automatically melds with the bracelet if the two touch.</p>
+<p class="stat-block">If slain in cobra form, the snake reverts to gauntlet form and cannot be used again for 24 hours. If destroyed in gauntlet form, the item is destroyed. The wearer can refill the iron cobra's poison reservoir in snake form or gauntlet form.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects" >animate objects</a></i>, <i><a href="/pathfinderRPG/prd/spells/discernLocation.html#_discern-location" >discern location</a></i>, <i><a href="/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest" >geas/quest</a></i></p>
+				
+<p id="Magnetist's-Gloves" class="stat-block-title">Magnetist's Gloves</p>
+<p class="stat-block-1"><b>Price</b> 6,000 gp; <b>Aura</b> faint conjuration; <b>CL</b> 3rd; <b>Weight</b> &mdash;</p>
+<p class="stat-block">These thin leather gloves have delicate steel wires running through them. Three times per day as a standard action, the wearer of these gloves may attempt a disarm combat maneuver on a target within 30 feet. The target's item must be mostly made of metal. If the combat maneuver check is successful, the target is disarmed and the item falls to the ground in the target's square. For every 5 by which the check exceeds the DC, the item lands 1 square closer to the wearer. If this would place the item in the wearer's square, the wearer may attempt to catch the item with a DC 10 Dexterity check; otherwise it lands in the wearer's square. The wearer can only use this ability if she has at least one hand free. If the wearer fails the combat maneuver check, she is not disarmed.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis" >telekinesis</a></i></p>
+				
+<p id="pliant-gloves" class="stat-block-title">Pliant Gloves</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Aura</b> strong transmutation; <b>CL</b> 9th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Wearing these form-fitting fingerless black gloves makes the wearer's arms and body more flexible. As a swift action, the wearer can lengthen his arms for up to 10 rounds per day, gaining an additional 5 feet of reach. These rounds need not be consecutive. Attacking with these extended arms is unwieldy, and the wearer takes a &ndash;2 penalty on attack rolls, increasing to &ndash;4 if he is using two-handed weapons. Even when his limbs aren't extended, the wearer gains a +5 enhancement bonus on <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> checks and <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks to avoid falling damage. The wearer is still able to use hand-based natural attacks such as claws while wearing the gloves.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i>liquid form</i></p>
+
+<p id="Poisoner's-Gloves" class="stat-block-title">Poisoner's Gloves</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b>&mdash;</p>
+<p class="stat-block">These black, rubbery gloves have sharpened digits. Fine channels lead to the tip of each finger, which are often stained with foul chemicals. The gloves are used primarily by assassins to deliver poisons while in combat. Each glove may be filled with a single dose of poison, a potion, alchemist infusion, holy water, or similar liquid as long as the liquid would not harm the gloves (for example, alchemist's fire and acid cannot be used). The wearer can deliver the dose to a target as a melee touch attack or as part of an unarmed strike or natural attack with the hands (such as a claw or slam attack). The wearer can use both gloves in the same round using two-weapon fighting or multiple natural attacks (such as 2 slams or 2 claws). Each glove can be used once per day. Filling a glove is a full-round action that provokes attacks of opportunity.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/ultimateCombat/spells/touchInjection.html#_touch-injection" >touch injection</a></i></p>
+				
+<p id="Shadow-Falconer's-Glove" class="stat-block-title">Shadow Falconer's Glove</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 7th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This elbow-length, heavy leather glove's fine embroidery is marred by dozens of claw marks. Once per day on command, its wearer can gesture toward a creature within 30 feet. When he does, a featureless silhouette of a bird of prey appears, swoops toward the target, and performs a disarm or steal combat maneuver (wearer's choice, CMB +16). The shadow falcon is a magical effect, not a creature, and this action does not provoke attacks of opportunity. If the hand wearing the glove is empty, the shadow falcon brings the item to the wearer's hand. If the gloved hand is occupied, the shadow falcon deposits the item on the ground in an unoccupied space adjacent to the wearer. The shadow falcon then disappears.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration" >shadow conjuration</a></i></p>
+				
+<p id="spellstrike-gloves" class="stat-block-title">Spellstrike Gloves</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> strong (no school); <b>CL</b> 17th; <b>Weight</b>&mdash;</p>
+<p class="stat-block">These black leather gloves are lined with soft black velveteen and have silver buckles that run from the wrist to the elbow. Three times per day, the gloves allow the wearer to treat a ranged magus spell as a spell with a range of “touch,” allowing him to deliver the spell with his spellstrike ability. The glove can only affect spells that normally affect one or more creatures at a range greater than “touch” (such as <i><a href="/pathfinderRPG/prd/spells/slow.html#_slow" >slow</a></i>), not rays or other created effects. The altered spell only affects the creature attacked (any other targets normally allowed by the spell are lost).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, creator must be a magus</p>
+				
+<p id="talons-of-leng" class="stat-block-title">Talons of Leng</p>
+<p class="stat-block-1"><b>Price</b> 67,000 gp; <b>Aura</b> strong transmutation; <b>CL</b> 15th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Finely laid gold filigree lines these ornately worked talons. Once donned, the <i>talons of Leng</i> grant the wearer a natural claw attack with each hand that deal 1d4 points of damage for a Medium wearer, or 1d3 points of damage for a Small wearer. These claw attacks have a +3 enhancement bonus on attack and damage rolls. On a critical hit, the target must succeed at a DC 20 Will save or become permanently confused as per the <i><a href="/pathfinderRPG/prd/spells/insanity.html#_insanity" >insanity</a></i> spell. This is a mind-affecting effect.</p>
+<p class="stat-block">The wearer of the <i>talons of Leng</i> is immune to effects that grant the confused condition. For as long as she wears the talons, however, her Wisdom is reduced by 2, as alien voices constantly whisper through her head. The <i>talons of Leng</i> do not interfere with spellcasting, the use of handheld items, or wielding weapons.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 33,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater" >greater magic fang</a></i>, <i><a href="/pathfinderRPG/prd/spells/insanity.html#_insanity" >insanity</a></i></p>
+				
+<p id="Trapspringer's-Gloves" class="stat-block-title">Trapspringer's Gloves</p>
+<p class="stat-block-1"><b>Price</b> 4,000 gp; <b>Aura</b> faint divination; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These studded leather gloves look similar to workman's gloves, though they are reinforced with numerous metal strips that the user can extend or retract as she wills, turning the tip of each finger into a customizable tool useful in examining and disarming traps. While worn, these gloves grant a +5 competence bonus on all <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> checks made to disarm traps. In addition, the gloves grant the user a +1 luck bonus on all saving throws made against traps.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/findTraps.html#_find-traps" >find traps</a></i></p>
+				
+<p id="vampiric-gloves" class="stat-block-title">Vampiric Gloves</p>
+<p class="stat-block-1"><b>Price</b> 18,000 gp; <b>Aura</b> moderate necromancy; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">These pale, elegant-looking leather gloves have blood-red stitching on the fingers&mdash;which bears a startling resemblance to blood-encrusted fingernails. Three times per day, the wearer can use <i><a href="/pathfinderRPG/prd/spells/vampiricTouch.html#_vampiric-touch" >vampiric touch</a></i> and <i><a href="/pathfinderRPG/prd/spells/bleed.html#_bleed" >bleed</a></i>. If the wearer uses <i><a href="/pathfinderRPG/prd/spells/vampiricTouch.html#_vampiric-touch" >vampiric touch</a></i> and holds the charge, the charge dissipates if the gloves are removed.</p>
+<p class="stat-block">Though <i><a href="/pathfinderRPG/prd/spells/vampiricTouch.html#_vampiric-touch" >vampiric touch</a></i> is normally a touch attack, the wearer may instead use that ability as a ranged touch attack with a range of 30 feet, but only against a dying target or a target suffering from a bleed effect. When using <i><a href="/pathfinderRPG/prd/spells/vampiricTouch.html#_vampiric-touch" >vampiric touch</a></i> in this way, the wearer may hold the charge on a missed ranged touch attack.</p>
+<p class="stat-block">If the wearer is suffering from a bleed effect, he may expend one use of <i><a href="/pathfinderRPG/prd/spells/vampiricTouch.html#_vampiric-touch" >vampiric touch</a></i> to end the bleed effect.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 9,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bleed.html#_bleed" >bleed</a></i>, <i><a href="/pathfinderRPG/prd/spells/vampiricTouch.html#_vampiric-touch" >vampiric touch</a></i></p>
+
+	
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

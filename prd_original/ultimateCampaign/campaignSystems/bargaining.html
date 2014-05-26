@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Bargaining</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Bargaining",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/campaignSystems.html', name: 'Campaign Systems' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="bargaining">Bargaining</h1>
+<p>An item is worth only what someone will pay for it. To an art collector, a canvas covered in daubs of random paint may be a masterpiece; a priestess might believe a weathered jawbone is a holy relic of a saint. The rules presented here offer you a way of playing through the process of selling off goods brought up from a crypt, liberated from a baron's bedchamber, or plundered from a dragon's vault. They also enable players to establish contacts with local fences, launderers, antiquarians, and obsessive collectors.</p>
+
+<h2 id="valuation">Valuation</h2>
+<p>The <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> skill allows a character to accurately value an object. However, the fine arts of the jeweler, antiquarian, and bibliophile are complex. Valuable paintings may be concealed by grime, and books of incredible rarity may be bound in tattered leather covers. Because failure means an inaccurate estimate, the GM should attempt this skill check in secret.</p>
+
+<h2 id="bargaining-rules">Bargaining Rules</h2>
+<p>In general, a character can sell an item for half its listed price. This keeps players from getting bogged down in bargaining with NPCs over 10 gp on a 10,000 gp item, and maintains game balance by not allowing players to use bargaining to exceed the Wealth by Level guidelines by buying low and selling high. The "sell for half" rule allows a fair price for standard items in normal circumstances.</p>
+<p>For rare or unique items, or in certain cases, the GM might allow or encourage bargaining. Keep in mind that bargaining usually involves one PC talking with an NPC while the other players wait, and watching someone else bargain is rarely interesting. Bargaining should be infrequent, and should happen only when it's important to the story.</p>
+<p>By using the rules for bargaining, you give up some control over your PC's decisions and accept the risk of the deal falling through to gain the chance of getting a better price.</p>
+
+<h3>Step 1: Seller Sets the Asking Price</h3>
+<p>The seller suggests a price to the buyer. If the Asking Price is more than 150% of the item's actual value, the buyer simply refuses to bargain. The lowest amount the seller will accept is 75% of this Asking Price.</p>
+
+<h3>Step 2: Evaluate Item</h3>
+<p>The buyer chooses to attempt either an <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> check to estimate the item's value or a <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> check opposed by the seller's <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> check (with failure meaning the buyer believes the seller is being fair). If the seller's price is the same as the buyer's estimation of the item's value, no <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> check is needed and the buyer believes the seller.</p>
+<p>A group of items can be sold as a unit. If the buyer is dealing with a mix of items she can appraise and others she can only guess about, she uses either <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> or <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a>, depending on which she has more skill ranks in.</p>
+<p>The GM can allow a PC to substitute an appropriate <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> skill for <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> or <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a>, such as <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) for selling a rare book about magic. He may also assign modifiers to skill checks to reflect expertise or ignorance about a specific type of item, good roleplaying, or insulting behavior toward an NPC buyer or seller.</p>
+
+<h3>Step 3: Determine Undercut</h3>
+<p>The Undercut Percentage is a portion of the item's price or value used to determine the buyer's Initial and Final Offers.</p>
+<p>To determine the Undercut Percentage, have the buyer attempt a <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> check opposed by the seller's <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> check. The Undercut Percentage is 2%, plus 1% for every point by which the <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> check exceeds the <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> check (minimum 0%).</p>
+
+<h3>Step 4: Set Offers</h3>
+<p>The Initial Offer is the buyer's first counteroffer to the seller's Asking Price. The Final Offer is the largest amount the buyer is willing to pay. Though the seller and buyer negotiate back and forth, the buyer won't exceed this offer. For example, if the seller's Asking Price is 1,000 gp, the buyer's Initial Offer may be 800 gp and the Final Offer 900 gp. These offers are determined by how much the buyer thinks the item is worth compared to the seller's Asking Price.</p>
+<p><b>Fair (<a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> or <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a>)</b>: If the seller's Asking Price is less than or equal to the amount that the buyer thinks the item is worth, subtract the Undercut Percentage from the seller's price to get the Final Offer, and subtract 2 × the Undercut Percentage to get the Initial Offer.</p>
+<p><b>Unfair (<a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a>)</b>: If the result of the buyer's <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> check leads her to believe the item is worth less than the seller's Asking Price, subtract the Undercut Percentage from the buyer's estimate of the item's value to get the Final Offer, and subtract 2 × the Undercut Percentage to get the Initial Offer.</p>
+<p><b>Unfair (<a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a>)</b>: If the result of the buyer's <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> check leads her to believe the seller's Asking Price is too high, subtract 2 × the Undercut Percentage from the seller's Asking Price to get the Final Offer, and subtract 4 × the Undercut Percentage to get the Initial Offer.</p>
+
+<h3>Step 5: Bargain</h3>
+<p>The buyer begins bargaining by countering the seller's price with her Initial Offer. This step repeats until the buyer and seller agree on a price or one side ends negotiations.</p>
+<p><b>Counteroffer Is Less Than Final Offer</b>: If the seller counters with a price that is less than the buyer's Final Offer, have the seller attempt a <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check (DC 15 + the buyer's Charisma modifier). Success means the buyer accepts the seller's counteroffer and buys the item. Failure means the buyer holds at her Initial Offer. The seller can try again, but the <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check DC increases by 5 unless the seller lowers his price.</p>
+<p><b>Counteroffer Equals Final Offer</b>: If the seller counters with a price that is the same as the buyer's Final Offer, have the seller attempt a <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check (20 + the buyer's Charisma modifier). Success means the buyer accepts the seller's counteroffer and buys the item. Failure means the buyer counteroffers at a price between the Initial Offer and the Final Offer. The seller can try again, but the <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> DC increases by 5 unless the seller lowers his price.</p>
+<p><b>Counteroffer Exceeds Final Offer</b>: If the seller counters with a price higher than the buyer's Final Offer, have the seller attempt a <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check (25 + the buyer's Charisma modifier). Success means the buyer counteroffers at a price between the Initial Offer and the Final Offer. Failure means the buyer holds at her Initial Offer. Failure by 5 or more means the buyer is insulted and lowers her offer or refuses to deal with the seller. The seller can try again, but the <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> DC increases by 5 unless the seller lowers his price.</p>
+
+<h3>Examples of Bargaining</h3>
+<p>Orshok has a jeweled idol worth 1,800 gp he mistakenly appraised at 2,000 gp. He tries to sell it to an art collector at an Asking Price of 2,200 gp, knowing the collector will counter with a lower price. The collector succeeds at her <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a> check and realizes the idol's actual value. The collector attempts a <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> check against Orshok's <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> check and succeeds by 1, so her Undercut Percentage is 3% (base 2% plus 1% for exceeding the check by 1). Because the collector thinks the idol is worth less than Orshok's price, her Initial Offer is 6% less than her estimate of the value (1,692 gp) and her Final Offer is 3% less than her estimate (1,746 gp). When she makes her Initial Offer, Orshok counters with a price of 2,000 gp. This is higher than the collector's Final Offer, so Orshok attempts a <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check whose DC equals 25 + the buyer's Charisma modifier to keep the buyer's interest. He succeeds at the check, so the buyer counteroffers 1,740 gp (between her Initial and Final Offers). Orshok doesn't think the collector will go much higher, and decides to find another buyer.</p>
+<p>Later, Orshok tries to sell the idol to a spice merchant who finds it interesting but knows nothing about art. Orshok again starts with a price of 2,200 gp. The merchant's <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> check beats Orshok's <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> check, so she realizes he isn't offering a fair price. The merchant attempts a <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> check opposed by Orshok's <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> check and succeeds by 4, which makes her Undercut Percentage 6% (base 2% plus 4% for exceeding the check by 4). The merchant's Initial Offer is 12% less than Orshok's price (1,936 gp), and her Final Offer is 6% less than Orshok's price (2,068 gp). Orshok counters with a price of 2,000 gp. This is less than the merchant's Final Offer, so Orshok attempts a <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check (DC 15 + the buyer's Charisma modifier). He succeeds, so the merchant accepts Orshok's counteroffer and buys the item for 2,000 gp.</p>
+
+<h2 id="collector-npcs">Collector NPCs</h2>
+<p>The GM can define a few NPCs as collectors, traders, or antiquarians interested in unusual items PCs collect after their adventures. If the PCs establish an amiable relationship with these collectors over time, the GM can reduce the base Undercut Percentage to 1% or even 0%, especially if the PCs' offerings cater to the NPCs' interests. Likewise, PCs may develop bad blood with one or more buyers; such buyers' Undercut Percentage may rise to 5% or higher, or the buyers may refuse to bargain with the PCs at all.</p>
+
+<h2 id="flooding-the-market">Flooding the Market</h2>
+<p>When PCs attempt to sell multiples of a durable good, the GM may lower the offered prices by 10% or more to reflect market saturation in that location. For example, a border town patrolled by guards with crossbows can always use more <i>+1 bolts</i>, but has limited use for a wagonload of masterwork spiked chains, so the Initial and Final Offers for the spiked chains would be 10% lower.</p>
+
+<h2 id="trade-goods">Trade Goods</h2>
+<p>Trade goods are exempt from bargaining, even in extraordinary circumstances.</p>
+
+
+<h2 id="using-magic-to-bargain">Using Magic to Bargain</h2>
+<p>An unscrupulous character may use magic to charm or dupe buyers into accepting inflated prices. Something as simple as <i><a href="/pathfinderRPG/prd/spells/charmPerson.html#__charm-person" >charm person</a></i> can alter the <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> and <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> DCs by 5 in the spellcaster's favor for an entire negotiation, and a specific <i><a href="/pathfinderRPG/prd/spells/suggestion.html#__suggestion" >suggestion</a></i> can alter the result on a single roll by 10 in the caster's favor. If the buyer later realizes that magic influenced the negotiation, she may refuse to deal with the spellcaster and attempt to get her money back, or at least report the spellcaster to the local authorities.</p>
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

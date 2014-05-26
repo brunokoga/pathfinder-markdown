@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Ranger</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Ranger",globalNavPath=[{ href: '/pathfinderRPG/prd/classes.html', name: 'Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="ranger">Ranger</h1>
+				<p>For those who relish the thrill of the hunt, there are only predators and prey. Be they scouts, trackers, or bounty hunters, rangers share much in common: unique mastery of specialized weapons, skill at stalking even the most elusive game, and the expertise to defeat a wide range of quarries. Knowledgeable, patient, and skilled hunters, these rangers hound man, beast, and monster alike, gaining insight into the way of the predator, skill in varied environments, and ever more lethal martial prowess. While some track man-eating creatures to protect the frontier, others pursue more cunning game&mdash;even fugitives among their own people.</p>
+				<p><b>Role</b>: Rangers are deft skirmishers, either in melee or at range, capable of skillfully dancing in and out of battle. Their abilities allow them to deal significant harm to specific types of foes, but their skills are valuable against all manner of enemies.</p>
+				<p><b>Alignment</b>: Any.</p>
+				<p><b>Hit Die</b>: d10.</p>
+				<h2>Class Skills</h2>
+				<p>The ranger's class skills are <a href="../skills/climb.html#_climb" >Climb</a> (<a href="../gettingStarted.html#_strength" >Str</a>), <a href="../skills/craft.html#_craft" >Craft</a> (<a href="../gettingStarted.html#_intelligence" >Int</a>), <a href="../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> (<a href="../gettingStarted.html#_charisma-new" >Cha</a>), Heal (<a href="../gettingStarted.html#_wisdom" >Wis</a>), <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> (<a href="../gettingStarted.html#_charisma-new" >Cha</a>), <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) (<a href="../gettingStarted.html#_intelligence" >Int</a>), <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (geography) (<a href="../gettingStarted.html#_intelligence" >Int</a>), <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (nature) (<a href="../gettingStarted.html#_intelligence" >Int</a>), <a href="../skills/perception.html#_perception" >Perception</a> (<a href="../gettingStarted.html#_wisdom" >Wis</a>), <a href="../skills/profession.html#_profession" >Profession</a> (<a href="../gettingStarted.html#_wisdom" >Wis</a>), <a href="../skills/ride.html#_ride" >Ride</a> (<a href="../gettingStarted.html#_dexterity" >Dex</a>), <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> (<a href="../gettingStarted.html#_intelligence" >Int</a>), <a href="../skills/stealth.html#_stealth" >Stealth</a> (<a href="../gettingStarted.html#_dexterity" >Dex</a>), <a href="../skills/survival.html#_survival" >Survival</a> (<a href="../gettingStarted.html#_wisdom" >Wis</a>), and <a href="../skills/swim.html#_swim" >Swim</a> (<a href="../gettingStarted.html#_strength" >Str</a>).</p>
+				<p><b>Skill Ranks per Level</b>: 6 + <a href="../gettingStarted.html#_intelligence" >Int</a> modifier.</p>
+				<table id="table-3-12-ranger"><caption>Table: Ranger</caption>
+<thead><tr><th rowspan="2">Level</th><th rowspan="2">Base Attack Bonus</th><th rowspan="2">Fort Save</th><th rowspan="2">Ref Save</th><th rowspan="2">Will Save</th><th rowspan="2">Special</th><th colspan="4">Spells per Day</th></tr>
+<tr><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th></tr></thead>
+<tr class="odd"><td>1st</td><td>+1</td><td>+2</td><td>+2</td><td>+0</td><td style="white-space: normal;">1st <a href="#favored-enemy" >favored enemy</a>, <a href="#track" >track</a>, <a href="#wild-empathy-ranger" >wild empathy</a></td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>2nd</td><td>+2</td><td>+3</td><td>+3</td><td>+0</td><td style="white-space: normal;"><a href="#combat-style-feat" >Combat style feat</a></td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>3rd</td><td>+3</td><td>+3</td><td>+3</td><td>+1</td><td style="white-space: normal;"><a href="#endurance" >Endurance</a>, 1st <a href="#favored-terrain" >favored terrain</a></td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>4th</td><td>+4</td><td>+4</td><td>+4</td><td>+1</td><td style="white-space: normal;"><a href="#hunter-s-bond" >Hunter's bond</a></td><td>0</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>5th</td><td>+5</td><td>+4</td><td>+4</td><td>+1</td><td style="white-space: normal;">2nd <a href="#favored-enemy" >favored enemy</a></td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>6th</td><td>+6/+1</td><td>+5</td><td>+5</td><td>+2</td><td style="white-space: normal;"><a href="#combat-style-feat" >Combat style feat</a></td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>7th</td><td>+7/+2</td><td>+5</td><td>+5</td><td>+2</td><td style="white-space: normal;"><a href="#woodland-stride-ranger" >Woodland stride</a></td><td>1</td><td>0</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>8th</td><td>+8/+3</td><td>+6</td><td>+6</td><td>+2</td><td style="white-space: normal;"><a href="#swift-tracker" >Swift tracker</a>, 2nd <a href="#favored-terrain" >favored terrain</a></td><td>1</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>9th</td><td>+9/+4</td><td>+6</td><td>+6</td><td>+3</td><td style="white-space: normal;"><a href="#evasion-ranger" >Evasion</a></td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>10th</td><td>+10/+5</td><td>+7</td><td>+7</td><td>+3</td><td style="white-space: normal;">3rd <a href="#favored-enemy" >favored enemy</a>, <a href="#combat-style-feat" >combat style feat</a></td><td>2</td><td>1</td><td>0</td><td>&mdash;</td></tr>
+<tr class="odd"><td>11th</td><td>+11/+6/+1</td><td>+7</td><td>+7</td><td>+3</td><td style="white-space: normal;"><a href="#quarry" >Quarry</a></td><td>2</td><td>1</td><td>1</td><td>&mdash;</td></tr>
+<tr class="even"><td>12th</td><td>+12/+7/+2</td><td>+8</td><td>+8</td><td>+4</td><td style="white-space: normal;"><a href="#camouflage" >Camouflage</a></td><td>2</td><td>2</td><td>1</td><td>&mdash;</td></tr>
+<tr class="odd"><td>13th</td><td>+13/+8/+3</td><td>+8</td><td>+8</td><td>+4</td><td style="white-space: normal;">3rd <a href="#favored-terrain" >favored terrain</a></td><td>3</td><td>2</td><td>1</td><td>0</td></tr>
+<tr class="even"><td>14th</td><td>+14/+9/+4</td><td>+9</td><td>+9</td><td>+4</td><td style="white-space: normal;"><a href="#combat-style-feat" >Combat style feat</a></td><td>3</td><td>2</td><td>1</td><td>1</td></tr>
+<tr class="odd"><td>15th</td><td>+15/+10/+5</td><td>+9</td><td>+9</td><td>+5</td><td style="white-space: normal;">4th <a href="#favored-enemy" >favored enemy</a></td><td>3</td><td>2</td><td>2</td><td>1</td></tr>
+<tr class="even"><td>16th</td><td>+16/+11/+6/+1</td><td>+10</td><td>+10</td><td>+5</td><td style="white-space: normal;"><a href="#improved-evasion-ranger" >Improved evasion</a></td><td>3</td><td>3</td><td>2</td><td>1</td></tr>
+<tr class="odd"><td>17th</td><td>+17/+12/+7/+2</td><td>+10</td><td>+10</td><td>+5</td><td style="white-space: normal;"><a href="#hide-in-plain-sight-ranger" >Hide in plain sight</a></td><td>4</td><td>3</td><td>2</td><td>1</td></tr>
+<tr class="even"><td>18th</td><td>+18/+13/+8/+3</td><td>+11</td><td>+11</td><td>+6</td><td style="white-space: normal;">4th <a href="#favored-terrain" >favored terrain</a>, <a href="#combat-style-feat" >combat style feat</a></td><td>4</td><td>3</td><td>2</td><td>2</td></tr>
+<tr class="odd"><td>19th</td><td>+19/+14/+9/+4</td><td>+11</td><td>+11</td><td>+6</td><td style="white-space: normal;"><a href="#improved-quarry" >Improved quarry</a></td><td>4</td><td>3</td><td>3</td><td>2</td></tr>
+<tr class="even"><td>20th</td><td>+20/+15/+10/+5</td><td>+12</td><td>+12</td><td>+6</td><td style="white-space: normal;">5th <a href="#favored-enemy" >favored enemy</a>, <a href="#master-hunter" >master hunter</a></td><td>4</td><td>4</td><td>3</td><td>3</td></tr></table>
+				<h2>Class Features</h2>
+				<p>All of the following are class features of the ranger.</p>
+				<p><b>Weapon and Armor Proficiency</b>: A ranger is proficient with all <a href="../equipment.html#_simple-martial-and-exotic-weapons" >simple</a> and <a href="../equipment.html#_simple-martial-and-exotic-weapons" >martial</a> weapons and with light armor, medium armor, and shields (except tower shields).</p>
+				<div class="right"><table id="ranger-favored-enemies-table"><caption>Ranger Favored Enemies</caption>
+<thead><tr><th>Type (Subtype)</th></tr></thead>
+<tbody>
+<tr class="odd"><td>Aberration</td></tr>
+<tr class="even"><td>Animal</td></tr>
+<tr class="odd"><td>Construct</td></tr>
+<tr class="even"><td>Dragon</td></tr>
+<tr class="odd"><td>Fey</td></tr>
+<tr class="even"><td>Humanoid (aquatic)</td></tr>
+<tr class="odd"><td>Humanoid (dwarf)</td></tr>
+<tr class="even"><td>Humanoid (elf)</td></tr>
+<tr class="odd"><td>Humanoid (giant)</td></tr>
+<tr class="even"><td>Humanoid (goblinoid)</td></tr>
+<tr class="odd"><td>Humanoid (gnoll)</td></tr>
+<tr class="even"><td>Humanoid (gnome)</td></tr>
+<tr class="odd"><td>Humanoid (halfling)</td></tr>
+<tr class="even"><td>Humanoid (human)</td></tr>
+<tr class="odd"><td>Humanoid (orc)</td></tr>
+<tr class="even"><td>Humanoid (reptilian)</td></tr>
+<tr class="odd"><td>Humanoid (other subtype)</td></tr>
+<tr class="even"><td>Magical beast</td></tr>
+<tr class="odd"><td>Monstrous humanoid</td></tr>
+<tr class="even"><td>Ooze</td></tr>
+<tr class="odd"><td>Outsider (air)</td></tr>
+<tr class="even"><td>Outsider (chaotic)</td></tr>
+<tr class="odd"><td>Outsider (earth)</td></tr>
+<tr class="even"><td>Outsider (evil)</td></tr>
+<tr class="odd"><td>Outsider (fire)</td></tr>
+<tr class="even"><td>Outsider (good)</td></tr>
+<tr class="odd"><td>Outsider (lawful)</td></tr>
+<tr class="even"><td>Outsider (native)</td></tr>
+<tr class="odd"><td>Outsider (water)</td></tr>
+<tr class="even"><td>Plant</td></tr>
+<tr class="odd"><td>Undead</td></tr>
+<tr class="even"><td>Vermin</td></tr></tbody></table></div><p id="favored-enemy"><b>Favored Enemy <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 1st level, a ranger selects a creature type from the ranger favored enemies table. He gains a +2 bonus on <a href="../skills/bluff.html#_bluff" >Bluff</a>, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a>, <a href="../skills/perception.html#_perception" >Perception</a>, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a>, and <a href="../skills/survival.html#_survival" >Survival</a> checks against creatures of his selected type. Likewise, he gets a +2 bonus on weapon attack and damage rolls against them. A ranger may make <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> <a href="../usingSkills.html#_skill-checks" >skill checks</a> untrained when attempting to identify these creatures.</p>
+				<p>At 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by +2. </p>
+				<p>If the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. (Note that there are other types of humanoid to choose from&mdash;those called out specifically on the table below are merely the most common.) If a specific creature falls into more than one category of favored enemy, the ranger's bonuses do not stack; he simply uses whichever bonus is higher.</p>
+
+				<p id="track"><b>Track <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: A ranger adds half his level (minimum 1) to <a href="../skills/survival.html#_survival" >Survival</a> <a href="../usingSkills.html#_skill-checks" >skill checks</a> made to follow tracks.</p>
+				<p id="wild-empathy-ranger"><b>Wild Empathy <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: A ranger can improve the initial attitude of an animal. This ability functions just like a <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> check to improve the attitude of a person (see <a href="../usingSkills.html">Using Skills</a>). The ranger rolls 1d20 and adds his ranger level and his <a href="../gettingStarted.html#_charisma-new" >Charisma</a> bonus to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.</p>
+				<p>To use wild empathy, the ranger and the animal must be within 30 feet of one another under normal visibility conditions. Generally, influencing an animal in this way takes 1 minute, but, as with influencing people, it might take more or less time.</p>
+				<p>The ranger can also use this ability to influence a magical beast with an <a href="../gettingStarted.html#_intelligence" >Intelligence</a> score of 1 or 2, but he takes a &ndash;4 penalty on the check.</p>
+				<p id="combat-style-feat"><b>Combat Style Feat <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 2nd level, a ranger must select one of two combat styles to pursue: archery or two-weapon combat. The ranger's expertise manifests in the form of bonus feats at 2nd, 6th, 10th, 14th, and 18th level. He can choose feats from his selected combat style, even if he does not have the normal prerequisites.</p>
+				<p>If the ranger selects archery, he can choose from the following list whenever he gains a combat style feat: <a href="../feats.html#_far-shot" >Far Shot</a>, <a href="../feats.html#_point-blank-shot" >Point Blank Shot</a>, <a href="../feats.html#_precise-shot" >Precise Shot</a>, and <a href="../feats.html#_rapid-shot" >Rapid Shot</a>. At 6th level, he adds <a href="../feats.html#_improved-precise-shot" >Improved Precise Shot</a> and <a href="../feats.html#_manyshot" >Manyshot</a> to the list. At 10th level, he adds <a href="../feats.html#_pinpoint-targeting" >Pinpoint Targeting</a> and <a href="../feats.html#_shot-on-the-run" >Shot on the Run</a> to the list.</p>
+				<p>If the ranger selects two-weapon combat, he can choose from the following list whenever he gains a combat style feat: <a href="../feats.html#_double-slice" >Double Slice</a>, <a href="../feats.html#_improved-shield-bash" >Improved Shield Bash</a>, <a href="../feats.html#_quick-draw" >Quick Draw</a>, and <a href="../feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>. At 6th level, he adds <a href="../feats.html#_improved-two-weapon-fighting" >Improved Two-Weapon Fighting</a> and <a href="../feats.html#_two-weapon-defense" >Two-Weapon Defense</a> to the list. At 10th level, he adds <a href="../feats.html#_greater-two-weapon-fighting" >Greater Two-Weapon Fighting</a> and <a href="../feats.html#_two-weapon-rend" >Two-Weapon Rend</a> to the list.</p>
+				<p>The benefits of the ranger's chosen style feats apply only when he wears light, medium, or no armor. He loses all benefits of his combat style feats when wearing heavy armor. Once a ranger selects a combat style, it cannot be changed.</p>
+				<p id="endurance"><b>Endurance</b>: A ranger gains <a href="../feats.html#_endurance" >Endurance</a> as a bonus feat at 3rd level.</p>
+				<div class="right"><table id="favored-terrains-tables"><caption>Favored Terrains</caption>
+<tr class="odd"><td>Cold (ice, glaciers, snow, and tundra)</td></tr>
+<tr class="even"><td>Desert (sand and wastelands)</td></tr>
+<tr class="odd"><td>Forest (coniferous and deciduous)</td></tr>
+<tr class="even"><td>Jungle</td></tr>
+<tr class="odd"><td>Mountain (including hills)</td></tr>
+<tr class="even"><td>Plains</td></tr>
+<tr class="odd"><td>Planes (pick one, other than Material Plane)</td></tr>
+<tr class="even"><td>Swamp</td></tr>
+<tr class="odd"><td>Underground (caves and dungeons)</td></tr>
+<tr class="even"><td>Urban (buildings, streets, and sewers)</td></tr>
+<tr class="odd"><td>Water (above and below the surface)</td></tr></table></div><p id="favored-terrain"><b>Favored Terrain <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 3rd level, a ranger may select a type of terrain from the Favored Terrains table. The ranger gains a +2 bonus on initiative checks and <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (geography), <a href="../skills/perception.html#_perception" >Perception</a>, <a href="../skills/stealth.html#_stealth" >Stealth</a>, and <a href="../skills/survival.html#_survival" >Survival</a> <a href="../usingSkills.html#_skill-checks" >skill checks</a> when he is in this terrain. A ranger traveling through his favored terrain normally leaves no trail and cannot be tracked (though he may leave a trail if he so chooses).</p>
+				<p>At 8th level and every five levels thereafter, the ranger may select an additional favored terrain. In addition, at each such interval, the skill bonus and initiative bonus in any one favored terrain (including the one just selected, if so desired), increases by +2. </p>
+				<p>If a specific terrain falls into more than one category of favored terrain, the ranger's bonuses do not stack; he simply uses whichever bonus is higher.</p>
+
+				<p id="hunter-s-bond"><b>Hunter's Bond <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 4th level, a ranger forms a bond with his hunting companions. This bond can take one of two forms. Once the form is chosen, it cannot be changed. The first is a bond to his companions. This bond allows him to spend a move action to grant half his favored enemy bonus against a single target of the appropriate type to all allies within 30 feet who can see or hear him. This bonus lasts for a number of rounds equal to the ranger's <a href="../gettingStarted.html#_wisdom" >Wisdom</a> modifier (minimum 1). This bonus does not stack with any favored enemy bonuses possessed by his allies; they use whichever bonus is higher.</p>
+				<p>The second option is to form a close bond with an <a href="druid.html#_animal-companions-184" >animal companion</a>. A ranger who selects an animal companion can choose from the following list: badger, bird, camel, cat (small), dire rat, dog, horse, pony, snake (viper or constrictor), or wolf. If the campaign takes place wholly or partly in an aquatic environment, the ranger may choose a shark instead. This animal is a loyal companion that accompanies the ranger on his adventures as appropriate for its kind. A ranger's animal companion shares his favored enemy and favored terrain bonuses.</p>
+				<p>This ability functions like the druid animal companion ability (which is part of the Nature Bond class feature), except that the ranger's effective druid level is equal to his ranger level &ndash; 3.</p>
+				<p id="spells-ranger"><b>Spells</b>: Beginning at 4th level, a ranger gains the ability to cast a small number of divine spells, which are drawn from the ranger spell list presented in <a href="../spellLists.html">Spell Lists</a>. A ranger must choose and prepare his spells in advance.</p>
+				<p>To prepare or cast a spell, a ranger must have a <a href="../gettingStarted.html#_wisdom" >Wisdom</a> score equal to at least 10 + the spell level. The Difficulty Class for a <a href="../magic.html#_saving-throw" >saving throw</a> against a ranger's spell is 10 + the spell level + the ranger's <a href="../gettingStarted.html#_wisdom" >Wisdom</a> modifier.</p>
+				<p>Like other spellcasters, a ranger can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on Table: Ranger. In addition, he receives bonus spells per day if he has a high <a href="../gettingStarted.html#_wisdom" >Wisdom</a> score (see <a href="../gettingStarted.html#_table-1-3-ability-modifiers-and-bonus-spells" >Table: Ability Modifiers and Bonus Spells</a>). When Table: Ranger indicates that the ranger gets 0 spells per day of a given spell level, he gains only the bonus spells he would be entitled to based on his <a href="../gettingStarted.html#_wisdom" >Wisdom</a> score for that spell level.</p>
+				<p>A ranger must spend 1 hour per day in quiet meditation to regain his daily allotment of spells. A ranger may prepare and cast any spell on the ranger spell list, provided that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation.</p>
+				<p>Through 3rd level, a ranger has no caster level. At 4th level and higher, his caster level is equal to his ranger level &ndash; 3.</p>
+				<p id="woodland-stride-ranger"><b>Woodland Stride <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: Starting at 7th level, a ranger may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at his normal speed and without taking damage or suffering any other impairment.</p>
+				<p>Thorns, briars, and overgrown areas that are enchanted or magically manipulated to impede motion, however, still affect him.</p>
+				<p id="swift-tracker"><b>Swift Tracker <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: Beginning at 8th level, a ranger can move at his normal speed while using <a href="../skills/survival.html#_survival" >Survival</a> to follow tracks without taking the normal &ndash;5 penalty. He takes only a &ndash;10 penalty (instead of the normal &ndash;20) when moving at up to twice normal speed while tracking.</p>
+				<p id="evasion-ranger"><b>Evasion <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: When he reaches 9th level, a ranger can avoid even magical and unusual attacks with great agility. If he makes a successful <a href="../combat.html#_reflex" >Reflex</a> <a href="../combat.html#_saving-throws" >saving throw</a> against an attack that normally deals half damage on a successful save, he instead takes no damage. Evasion can be used only if the ranger is wearing light armor, medium armor, or no armor. A <a href="../glossary.html#_helpless" >helpless</a> ranger does not gain the benefit of evasion.</p>
+				<p id="quarry"><b>Quarry <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 11th level, a ranger can, as a standard action, denote one target within his line of sight as his quarry. Whenever he is following the tracks of his quarry, a ranger can take 10 on his <a href="../skills/survival.html#_survival" >Survival</a> <a href="../usingSkills.html#_skill-checks" >skill checks</a> while moving at normal speed, without penalty. In addition, he receives a +2 insight bonus on attack rolls made against his quarry, and all critical threats are automatically confirmed. A ranger can have no more than one quarry at a time and the creature's type must correspond to one of his favored enemy types. He can dismiss this effect at any time as a free action, but he cannot select a new quarry for 24 hours. If the ranger sees proof that his quarry is dead, he can select a new quarry after waiting 1 hour.</p>
+				<p id="camouflage"><b>Camouflage <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: A ranger of 12th level or higher can use the <a href="../skills/stealth.html#_stealth" >Stealth</a> skill to hide in any of his favored terrains, even if the terrain doesn't grant cover or concealment.</p>
+				<p id="improved-evasion-ranger"><b>Improved Evasion <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 16th level, a ranger's evasion improves. This ability works like evasion, except that while the ranger still takes no damage on a successful <a href="../combat.html#_reflex" >Reflex</a> <a href="../combat.html#_saving-throws" >saving throw</a> against attacks, he henceforth takes only half damage on a failed save. A <a href="../glossary.html#_helpless" >helpless</a> ranger does not gain the benefit of improved evasion.</p>
+				<p id="hide-in-plain-sight-ranger"><b>Hide in Plain Sight <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: While in any of his favored terrains, a ranger of 17th level or higher can use the <a href="../skills/stealth.html#_stealth" >Stealth</a> skill even while being observed.</p>
+				<p id="improved-quarry"><b>Improved Quarry <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 19th level, the ranger's ability to hunt his quarry improves. He can now select a quarry as a free action, and can now take 20 while using <a href="../skills/survival.html#_survival" >Survival</a> to track his quarry, while moving at normal speed without penalty. His insight bonus to attack his quarry increases to +4. If his quarry is killed or dismissed, he can select a new one after 10 minutes have passed.</p>
+				<p id="master-hunter"><b>Master Hunter <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: A ranger of 20th level becomes a master hunter. He can always move at full speed while using <a href="../skills/survival.html#_survival" >Survival</a> to follow tracks without penalty. He can, as a standard action, make a single attack against a favored enemy at his full attack bonus. If the attack hits, the target takes damage normally and must make a <a href="../combat.html#_fortitude" >Fortitude</a> save or die. The DC of this save is equal to 10 + 1/2 the ranger's level + the ranger's <a href="../gettingStarted.html#_wisdom" >Wisdom</a> modifier. A ranger can choose instead to deal an amount of nonlethal damage equal to the creature's current hit points. A successful save negates this damage. A ranger can use this ability once per day against each favored enemy type he possesses, but not against the same creature more than once in a 24-hour period.</p>
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

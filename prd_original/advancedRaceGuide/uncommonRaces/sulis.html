@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Sulis</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Sulis",globalNavPath=[{ href: '/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html', name: 'Uncommon Races'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body">
+
+<h1 id="sulis">Sulis</h1>
+<p>Sulis, or suli-jann, are the descendents of mortals and jann. They manifest their otherworldly heritage in adolescence, or when awakened by an encounter with a genie. Strong and attractive, these dynamic individuals can call forth elemental energies to augment their prowess in combat. Neither genie nor quite human, sulis stand in two worlds and often feel as if they don't belong to either.</p>
+
+<h1 id="suli-racial-traits">Suli Racial Traits</h1>
+<p id="+2-strength,-+2-charisma,--2-intelligence"><b>+2 Strength, +2 Charisma, &ndash;2 Intelligence</b>: Sulis are brawny and charming, but slow-witted.</p>
+<p id="native-outsider"><b>Native Outsider</b>: Sulis are outsiders with the native subtype.</p>
+<p id="medium"><b>Medium</b>: Sulis are Medium creatures and have no bonuses or penalties due to their size.</p>
+<p id="normal-speed"><b>Normal Speed</b>: Sulis have a base speed of 30 feet.</p>
+<p id="low-light-vision"><b>Low-Light Vision</b>: Sulis can see twice as far as humans in dim light.</p>
+<p id="negotiator"><b>Negotiator</b>: Sulis are keen negotiators, and gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> and <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks.	</p>
+<p id="elemental-assault"><b>Elemental Assault (Su)</b>: Once per day as a swift action, a suli can shroud her arms in acid, cold, electricity, or fire. This lasts for one round per level, and can be dismissed as a free action. Unarmed strikes with her arms or hands (or attacks with weapons held in those hands) deal +1d6 points of damage of the appropriate energy type. </p>
+<p id="energy-resistance-5"><b>Energy Resistance 5</b>: Sulis have resistance to acid 5, cold 5, electricity 5, and fire 5.</p>
+<p id="languages"><b>Languages</b>: Sulis begin play speaking Common and one elemental language (Aquan, Auran, Ignan, or Terran). Sulis with high Intelligence scores can choose from the following: Aquan, Auran, Draconic, Ignan, and Terran.</p>
+
+<h1 id="alternate-racial-traits">Alternate Racial Traits</h1>
+<p>The following racial trait may be selected instead of existing suli racial traits. Consult your GM before selecting this new option.</p>
+<p id="energy-strike"><b>Energy Strike (Su)</b>: A suli with this racial trait has a stronger connection to one energy type than to the other three used by sulis. Choose one energy type: acid, cold, electricity, or fire. The suli's elemental assault ability can only deal energy damage of this type. The suli has resistance 5 to this energy type and no racial resistance to the other three types. While her elemental assault is active, the suli gains an additional ability based on the chosen energy type.</p>
+<blockquote>
+<p id="earthfoot-(acid)"><i>Earthfoot (acid)</i>: Whenever the suli moves through difficult terrain related to earth and stone (rubble, mud, sand, and so on), she may move through 5 feet of that difficult terrain each round as if it were normal terrain. This allows the suli to take a 5-foot step into that difficult terrain. Other kinds of difficult terrain (ice, caltrops, foliage, and so on) affect the suli normally.</p>
+<p id="firehand-(fire)"><i>Firehand (fire)</i>: Instead of adding damage to a melee attack, the suli may hurl a piece of her arm-flames as if it were a thrown weapon. The suli makes a ranged touch attack; if the attack hits, the target takes 1d6 points of fire damage. The flames have a range increment of 10 feet.</p>
+<p id="icewalk-(cold)"><i>Icewalk (cold)</i>: The suli can walk on water-based liquids as if using <i><a href="/pathfinderRPG/prd/spells/waterWalk.html#_water-walk" >water walk</a></i>, except instead of hovering above the surface, she creates a temporary layer of ice that supports her and immediately melts once she moves away from it. This ice is not slippery to the suli and does not affect her balance or speed, though other ice affects her normally. Other creatures cannot travel on this ice, but the suli may carry a creature while moving.</p>
+<p id="shockshield-(electricity)"><i>Shockshield (electricity)</i>: Once per round as an immediate action, the suli can shock a creature that touches or attacks her with a natural attack, unarmed strike, or metal melee weapon, dealing 1d6 points of electricity damage to the creature.</p>
+</blockquote>
+<p>This racial trait otherwise works like and replaces elemental assault.</p>
+				
+<h1 id="favored-class-options">Favored Class Options</h1>
+<p>The following options are available to all sulis who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.</p>
+<p id="magus"><b>Magus</b>: Add +1/4 point to the magus's arcane pool.</p>
+<p id="monk"><b>Monk</b>: Add +1/2 point of damage to elemental assault.</p>
+<p id="ranger"><b>Ranger</b>: Add +1 to acid resistance, cold resistance, electricity resistance, or fire resistance.</p>
+				
+<h1 id="racial-archetypes">Racial Archetypes</h1>
+<p>The following racial archetype is available to sulis.</p>
+				
+<h2 id="elemental-knight-(magus)">Elemental Knight (Magus)</h2>
+<p>Elemental knights are born with elemental energies surging through their blood and discover the secret of reconciling and focusing this primal power into the arcane. An elemental knight has the following class features.</p>
+<p id="elemental-arcana"><b>Elemental Arcana (Su)</b>: At 3rd level, elemental knights may select the following magus arcana available only to them.</p>
+<blockquote>
+<p id="assault-synergy"><i>Assault Synergy (Su)</i>: As a swift action, the elemental knight can expend 1 round of duration from elemental assault to add +1d6 points of energy damage to an offensive spell he casts that round. The spell must have the acid, cold, electricity or fire descriptor. This extra energy damage matches the energy damage of the spell. At 10th level, he may expend 2 rounds instead of 1 to add +2d6 points of energy damage to the spell.</p>
+<p id="energy-reflection"><i>Energy Reflection (Su)</i>: This functions like the reflection magus arcana, except it only works on spells that deal acid, cold, electricity, or fire damage. As long as the elemental knight spends at least 1 point from her arcane pool to activate this arcana, he may expend rounds of elemental assault as if they were arcane pool points. For example, the knight could spend 1 arcane pool point and 3 rounds of elemental assault to reflect a spell of 4th-level or lower. The elemental knight must be at least 12th level before selecting this arcana.</p>
+<p id="energy-resistance-boost"><i>Energy <a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >Resistance</a> Boost (Su)</i>: As a swift action, the elemental knight can expend 1 point from his arcane pool or 1 round of elemental assault to increase all of his racial energy resistances by +5 for 1 round.</p>
+</blockquote>
+<p id="elemental-matrix"><b>Elemental Matrix (Su)</b>: At 4th level, an elemental knight gains Incremental Elemental Assault (see below) as a bonus feat. In addition, at 4th level, as a swift action, an elemental knight may expend rounds of duration from her elemental assault ability. For every 4 rounds expended, he gains 1 arcane pool point. This ability replaces spell recall.</p>
+<p id="magus-arcana"><b>Magus Arcana</b>: The following magus arcana complement the elemental knight archetype: empowered magic, pool strike, spell shield.</p>
+				
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The following options are available to sulis. At the GM's discretion, other appropriate races may also make use of some of these.</p>
+				
+<h2 id="suli-equipment">Suli Equipment</h2>
+<p>Sulis have access to the following equipment.</p>
+<p id="elemental-flux"><b>Elemental Flux</b>: This flask of alchemical powder reacts to the elemental power in suli blood. Adding at least 1 hit point worth of suli blood to it creates an alchemical splash weapon. The splash weapon works like a flask of acid, except the damage is a random energy type (acid, cold, electricity, or fire). A DC 10 <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy) check identifies what energy type the activated flask has. The activated flux retains its power for 24 hours before becoming inert material. The <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy) DC to create this is 20.</p>
+
+<table><caption>Suli Equipment</caption>
+<thead><tr><th>Item</th><th>Cost</th><th>Weight</th><th>Craft DC</th></tr></thead>
+<tr class="odd"><td>Elemental flux (flask)</td><td>20 gp</td><td>1 lb.</td><td>20</td></tr></table>
+
+				
+<h2 id="suli-feats">Suli Feats</h2>
+<p>Sulis have access to the following feats.</p>
+<div class="feats-text">
+<h3 id="extra-elemental-assault">Extra Elemental Assault</h3>
+<p>You have unlocked greater elemental power.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Suli.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your elemental assault ability lasts an additional 2 rounds per day.</p>
+<p class="stat-block-1"><b>Special</b>: You can take this feat multiple times. Its effects stack.</p>
+<h3 id="incremental-elemental-assault">Incremental Elemental Assault</h3>
+<p>You may activate and quench your elemental assault ability multiple times per day.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Suli.</p>
+<p id="benefits"><b>Benefits</b>: You may use your elemental assault ability in 1-round increments, up to a maximum number of rounds per day equal to your character level. These rounds do not have to be consecutive. Activating the ability is a swift action; ending it is a free action.</p>
+<p id="normal"><b>Normal</b>: You can use elemental assault once per day. It lasts a number of rounds equal to your class level.</p>
+</div>
+				
+<h2 id="suli-spells">Suli Spells</h2>
+<p>Sulis have access to the following spell.</p>
+<p id="imbue-with-elemental-might" class="stat-block-title">Imbue with Elemental Might</p>
+<p class="stat-block-1"><b>School</b> evocation [see text]; <b>Level</b> cleric 2, magus 2, sorcerer/wizard 2</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Duration</b> 24 hours or until discharged (D)</p>
+<p class="stat-block-1"><b>Save</b> Will negates (harmless); <b>Spell Resistance</b> yes (harmless)</p>
+<p>This spell functions like <i><a href="/pathfinderRPG/prd/spells/imbueWithSpellAbility.html#_imbue-with-spell-ability" >imbue with spell ability</a></i>, except you transfer the use of your elemental assault ability to the target. The target must have an Intelligence score of at least 5 to use the ability. The imbued elemental assault functions exactly like yours, except the ability's duration is based on the target's level or Hit Dice. Once you cast this spell, you cannot use your elemental assault ability until the duration of the spell is over.</p>
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

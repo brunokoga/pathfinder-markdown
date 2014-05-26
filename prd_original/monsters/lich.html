@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Lich</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Lich",globalNavPath=[{ href: '/pathfinderRPG/prd/monsters/monsterIndex.html', name: 'Monster Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body"><div>
+				<h1 id="lich" class="monster-header">Lich</h1>
+			
+				<p class="flavor-text"><i>Once fine robes hang in tatters from this withered corpse's frame. A pale blue light shines from where its eyes should be.</i></p>
+			
+				<p class="stat-block-title"><b>Lich <span class=stat-block-cr>CR 12</span></b></p>
+				<p class="stat-block-xp"><b>XP 19,200</b></p>
+				<p class="stat-block-1">Human lich necromancer 11</p>
+				<p class="stat-block-1">NE Medium <a href="creatureTypes.html#_undead" >undead</a> (<a href="creatureTypes.html#_augmented-subtype" >augmented</a> <a href="creatureTypes.html#_humanoid" >humanoid</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> darkvision 60 ft., life sight*; <a href="../skills/perception.html#_perception" >Perception</a> +24</p>
+				<p class="stat-block-1"><b>Aura</b> fear (60-ft. radius, DC 18)</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 23, touch 14, flat-footed 21 (+4 armor, +2 deflection, +2 Dex, +5 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 111 (11d6+55 plus 15 <i><a href="../spells/falseLife.html#_false-life" >false life</a></i>)</p>
+				<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +7, <b>Will</b> +11</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> <a href="universalMonsterRules.html#_channel-resistance" >channel resistance</a> +4; <b>DR</b> 15/bludgeoning and magic; <b>Immune</b> cold, electricity, <a href="universalMonsterRules.html#_undead-traits" >undead traits</a></p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> touch +5 (1d8+5 plus paralyzing touch)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> grave touch* (9/day), paralyzing touch (DC 18), power over undead* (9/day, DC 18)</p>
+				<p class="stat-block-1"><b>Spells Prepared</b> (CL 11th)</p>
+				<p class="stat-block-2">6th&mdash;<i><a href="../spells/circleOfDeath.html#_circle-of-death" >circle of death</a> </i>(DC 22), <i><a href="../spells/globeOfInvulnerability.html#_globe-of-invulnerability" >globe of invulnerability</a>, </i>maximized <i><a href="../spells/fireball.html#_fireball" >fireball</a></i> (DC 19)</p>
+				<p class="stat-block-2">5th&mdash;<i><a href="../spells/cloudkill.html#_cloudkill" >cloudkill</a> </i>(DC 21), <i><a href="../spells/coneOfCold.html#_cone-of-cold" >cone of cold</a> </i>(DC 21), quickened <i><a href="../spells/magicMissile.html#_magic-missile" >magic missile</a>, <a href="../spells/wavesOfFatigue.html#_waves-of-fatigue" >waves of fatigue</a> </i></p>
+				<p class="stat-block-2">4th&mdash;<i><a href="../spells/dimensionDoor.html#_dimension-door" >dimension door</a>, <a href="../spells/enervation.html#_enervation" >enervation</a>, <a href="../spells/fireShield.html#_fire-shield" >fire shield</a>, <a href="../spells/wallOfIce.html#_wall-of-ice" >wall of ice</a> </i>(2)</p>
+				<p class="stat-block-2">3rd&mdash;<i><a href="../spells/dispelMagic.html#_dispel-magic" >dispel magic</a> </i>(2), <i><a href="../spells/fireball.html#_fireball" >fireball</a> </i>(DC 19), <i><a href="../spells/suggestion.html#_suggestion" >suggestion</a> </i>(DC 19), <i><a href="../spells/vampiricTouch.html#_vampiric-touch" >vampiric touch</a> </i>(2)</p>
+				<p class="stat-block-2">2nd&mdash;<i><a href="../spells/darkness.html#_darkness" >darkness</a>, </i>extended <i><a href="../spells/mageArmor.html#_mage-armor" >mage armor</a> </i>(already cast)<i>, <a href="../spells/falseLife.html#_false-life" >false life</a> </i>(already cast)<i>, <a href="../spells/scorchingRay.html#_scorching-ray" >scorching ray</a> </i>(2), <i><a href="../spells/seeInvisibility.html#_see-invisibility" >see invisibility</a>, <a href="../spells/spectralHand.html#_spectral-hand" >spectral hand</a></i></p>
+				<p class="stat-block-2">1st&mdash;<i><a href="../spells/magicMissile.html#_magic-missile" >magic missile</a> </i>(3), <i><a href="../spells/rayOfEnfeeblement.html#_ray-of-enfeeblement" >ray of enfeeblement</a> </i>(2), <i><a href="../spells/shield.html#_shield" >shield</a></i> (2)</p>
+				<p class="stat-block-2">0&mdash;<i><a href="../spells/bleed.html#_bleed" >bleed</a> </i>(DC 16), <i><a href="../spells/detectMagic.html#_detect-magic" >detect magic</a>, <a href="../spells/rayOfFrost.html#_ray-of-frost" >ray of frost</a>, <a href="../spells/readMagic.html#_read-magic" >read magic</a></i></p>
+				<p class="stat-block-1"><b>Opposition Schools</b> illusion, transmutation</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 14, <b>Con</b> &mdash;, <b>Int</b> 22, <b>Wis</b> 14, <b>Cha</b> 16</p>
+				<p class="stat-block-1"><b>Base</b> <b>Atk</b> +5; <b>CMB</b> +5; <b>CMD</b> 25</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <a href="../feats.html#_defensive-combat-training" >Defensive Combat Training</a>, <a href="../feats.html#_extend-spell" >Extend Spell</a>, <a href="../feats.html#_improved-lightning-reflexes" >Improved Lightning Reflexes</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="../feats.html#_maximize-spell" >Maximize Spell</a>, <a href="../feats.html#_quicken-spell" >Quicken Spell</a>, <a href="../feats.html#_scribe-scroll" >Scribe Scroll</a>, <a href="../feats.html#_toughness" >Toughness</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/craft.html#_craft" >Craft</a> (alchemy) +20, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> +17, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +20, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +20, <a href="../skills/linguistics.html#_linguistics" >Linguistics</a> +20, <a href="../skills/perception.html#_perception" >Perception</a> +24, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +24, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +20, <a href="../skills/stealth.html#_stealth" >Stealth</a> +24; <b>Racial Modifiers</b> +8 <a href="../skills/perception.html#_perception" >Perception</a>, +8 <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a>, +8 <a href="../skills/stealth.html#_stealth" >Stealth</a></p>
+				<p class="stat-block-1"><b>Languages</b> Abyssal, Aklo, Aquan, Celestial, Common, Draconic, Dwarven, Elven, Giant, Gnome, Goblin, Ignan, Infernal, Orc, Undercommon</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment </b>any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary</p>
+				<p class="stat-block-1"><b>Treasure</b> NPC gear (<i><a href="../magicItems/wondrousItems.html#_boots-of-levitation" >boots of levitation</a>, <a href="../magicItems/wondrousItems.html#_headband-of-vast-intelligence" >headband of vast intelligence</a> +2 </i>[<a href="../skills/perception.html#_perception" >Perception</a>]<i>, ring of protection +2, potion of <a href="../spells/invisibility.html#_invisibility" >invisibility</a>, scroll of <a href="../spells/dominatePerson.html#_dominate-person" >dominate person</a>, scroll of <a href="../spells/teleport.html#_teleport" >teleport</a></i>)</p>
+				<p>Few creatures are more feared than the lich. The pinnacle of necromantic art, the lich is a spellcaster who has chosen to shed his life as a method to cheat death by becoming undead. While many who reach such heights of power stop at nothing to achieve immortality, the idea of becoming a lich is abhorrent to most creatures. The process involves the extraction of the spellcaster's life-force and its imprisonment in a specially prepared phylactery&mdash;the spellcaster gives up life, but in trapping life he also traps his death, and as long as his phylactery remains intact he can continue on in his research and work without fear of the passage of time.</p>
+				<p>The quest to become a lich is a lengthy one. While construction of the magical phylactery to contain the spellcaster's soul is a critical component, a prospective lich must also learn the secrets of transferring his soul into the receptacle and of preparing his body for the transformation into undeath, neither of which are simple tasks. Further complicating the ritual is the fact that no two bodies or souls are exactly alike&mdash;a ritual that works for one spellcaster might simply kill another or drive him insane. The exact methods for each spellcaster's transformation are left to the GM's discretion, but should involve expenditures of hundreds of thousands of gold pieces, numerous deadly adventures, and a large number of difficult skill checks over the course of months, years, or decades.</p>
+				<h2>The Lich's Phylactery</h2>
+				<p>An integral part of becoming a lich is the creation of the phylactery in which the character stores his soul. The only way to get rid of a lich for sure is to destroy its phylactery. Unless its phylactery is located and destroyed, a lich can rejuvenate after it is killed (see Creating a Lich, below).</p>
+				<p>Each lich must create its own phylactery by using the <a href="../feats.html#_craft-wondrous-item" >Craft Wondrous Item</a> feat. The character must be able to cast spells and have a caster level of 11th or higher. The phylactery costs 120,000 gp to create and has a caster level equal to that of its creator at the time of creation.</p>
+				<p>The most common form of phylactery is a sealed metal box containing strips of parchment on which magical phrases have been transcribed. The box is Tiny and has 40 hit points, hardness 20, and a break DC of 40.</p>
+				<p>Other forms of phylacteries can exist, such as rings, amulets, or similar items.</p>
+				<h2>Creating a Lich</h2>
+				<p>“Lich” is an acquired template that can be added to any living creature (referred to hereafter as the base creature), provided it can create the required phylactery. A lich retains all the base creature's statistics and special abilities except as noted here.</p>
+				<p><b>CR</b>: Same as the base creature + 2.</p>
+				<p><b>Alignment:</b> Any evil.</p>
+				<p><b>Type</b>: The creature's type changes to <a href="creatureTypes.html#_undead" >undead</a>. Do not recalculate BAB, saves, or skill ranks.</p>
+				<p><b>Senses</b>: A lich gains darkvision 60 ft.</p>
+				<p><b>Armor Class</b>: A lich has a +5 natural armor bonus or the base creature's natural armor bonus, whichever is better.</p>
+				<p><b>Hit Dice: </b>Change all of the creature's racial Hit Dice to d8s. All Hit Dice derived from class levels remain unchanged. As undead, liches use their Charisma modifiers to determine bonus hit points (instead of Constitution).</p>
+				<p><b>Defensive Abilities</b>: A lich gains channel resistance +4, DR 15/bludgeoning and magic, and immunity to cold and electricity (in addition to those granted by its undead traits). The lich also gains the following defensive ability.</p>
+				<p class="stat-block-2"><i>Rejuvenation (Su)</i>: When a lich is destroyed, its phylactery (which is generally hidden by the lich in a safe place far from where it chooses to dwell) immediately begins to rebuild the undead spellcaster's body nearby. This process takes 1d10 days&mdash;if the body is destroyed before that time passes, the phylactery merely starts the process anew. After this time passes, the lich wakens fully healed (albeit without any gear it left behind on its old body), usually with a burning need for revenge against those who previously destroyed it.</p>
+				<p><b>Melee Attack: </b>A lich has a touch attack that it can use once per round as a natural weapon. A lich fighting without weapons uses its natural weapons (if it has any) in addition to its touch attack (which is treated as a primary natural weapon that replaces one claw or slam attack, if the creature has any). A lich armed with a weapon uses its weapons normally, and can use its touch attack as a secondary natural weapon.</p>
+				<p><b>Damage</b>: A lich's touch attack uses negative energy to deal 1d8 points of damage to living creatures + 1 point of damage per 2 Hit Dice possessed by the lich. As negative energy, this damage can be used to heal undead creatures. A lich can take a full-round action to infuse itself with this energy, healing damage as if it had used its touch attack against itself.</p>
+				<p><b>Special Attacks</b>: A lich gains the two special attacks described below. Save DCs are equal to 10 + 1/2 lich's HD + lich's Cha modifier unless otherwise noted.</p>
+				<p class="stat-block-2"><i>Fear Aura (Su): </i>Creatures of less than 5 HD in a 60-foot radius that look at the lich must succeed on a Will save or become frightened. Creatures with 5 HD or more must succeed at a Will save or be shaken for a number of rounds equal to the lich's Hit Dice. A creature that successfully saves cannot be affected again by the same lich's aura for 24 hours. This is a mind-affecting fear effect.</p>
+				<br><p class="stat-block-2"><i>Paralyzing Touch (Su): </i>Any living creature a lich hits with its touch attack must succeed on a Fortitude save or be permanently paralyzed. <i>Remove paralysis </i>or any spell that can remove a curse can free the victim (see the <i><a href="../spells/bestowCurse.html#_bestow-curse" >bestow curse</a> </i>spell description, with a DC equal to the lich's save DC). The effect cannot be dispelled. Anyone paralyzed by a lich seems dead, though a DC 20 <a href="../skills/perception.html#_perception" >Perception</a> check or a DC 15 <a href="../skills/heal.html#_heal" >Heal</a> check reveals that the victim is still alive.</p>
+				<p><b>Abilities</b>: Int +2, Wis +2, Cha +2. Being undead, a lich has no Constitution score.</p>
+				<p><b>Skills</b>: Liches have a +8 racial bonus on <a href="../skills/perception.html#_perception" >Perception</a>, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a>, and <a href="../skills/stealth.html#_stealth" >Stealth</a> checks. A lich always treats <a href="../skills/climb.html#_climb" >Climb</a>, <a href="../skills/disguise.html#_disguise" >Disguise</a>, <a href="../skills/fly.html#_fly" >Fly</a>, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a>, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana), <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (religion), <a href="../skills/perception.html#_perception" >Perception</a>, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a>, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a>, and <a href="../skills/stealth.html#_stealth" >Stealth</a> as class skills. Otherwise, skills are the same as the base creature.</p>
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Archon</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Archon",globalNavPath=[{ href: '/pathfinderRPG/prd/monsters/monsterIndex.html', name: 'Monster Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+			
+			
+			<div>
+				<h1 id="archon">Archon</h1>
+				<p>Archons are a race of outsiders from Heaven, creatures of fundamental law and good tasked with the protection of that plane as well as all who are innocent or free of evil. They are the natural enemies of devils, daemons, and demons, and most are veterans of many attacks against their home by fiends of the Lower Planes.</p>
+				<p>The natives of Heaven arise from amid the earth and clouds of that divine realm, inspired into creation by the sacred mountain's metaphysical processes, the faith of goodly mortals, and the transformation of virtuous spirits. Each archon begins life as a lantern archon or lesser servitor spirit, gaining in power and prestige through aiding the cause of good. Watched over by benevolent mentors and captains of the divine orders, each spirit is encouraged and aided in indulging its fundamental desire to see peace, honesty, and fairness spread across all lands, especially throughout the Material Plane. To this end, archons of all walks often take on the roles of questing knights, journeying throughout disparate worlds and realms aiding in good works and promoting courageous acts. These virtuous outsiders prefer to motivate mortals to act with honor and integrity rather than righting mortal wrongs themselves, believing the cause of righteousness is best served by enlightening creatures to make just choices and cast off their own shackles of evil. This makes future temptations easier to resist and plants the seeds of spiritual deliverance. Thus, most archons take a subtle hand in their interactions with mortals, taking special pleasure in bringing solace and reprieve to those who are wholly unaware of their presence.</p>
+				<p>The efforts of Heaven prove far less subtle when it comes to combating the hordes of the Lower Planes. Armies of archons stand in staunch opposition to the affronts of Hell, Abaddon, and the Abyss, confronting them upon both extraplanar battlefields and the Material Plane itself. These encounters might take the form of vast armies clashing over strange planar holdings, or solitary archons revealing themselves upon mortal worlds to push back the machinations of fiendish invaders. In such cases, archons generally prefer to meet foes head-on if it is prudent to do so, but if outmatched, they do what they can to even the odds (usually by employing hit-and-run tactics or standing off and engaging a foe with magic before moving into melee). Because they can teleport at will, it is easy for them to vanish only to reappear later, often with reinforcements, when their enemies are unprepared. These warriors of law act honorably, even to their foes, but are not foolish or without passion, and little in the multiverse dares stand against the rage of Heaven.</p>
+				<p>Although archons are champions of good, they have little patience for those who do not follow strict traditions and patterns of goodness. While a cruel dictatorship might be a legitimate enemy of the archon, rebellion and riot is not the proper way to address such an inequality. Justice and law must not be abandoned in the constant struggle for peace and good, for in such anarchic actions one often promotes further harm and mayhem, even if unintentionally. The laws of Heaven exist to minimize collateral damage and unwanted pain, and while adhering to these laws often results in longer campaigns, archons point out that their victories are lasting triumphs as a result. Because of this strong adherence to tradition and law, archons often find themselves the unwilling enemies of chaotic good creatures, particularly the azatas. To an archon, an azata's nature seems whimsical and impatient&mdash;in striking swiftly against an enemy without bothering to think through the implications of their sudden act, it's possible to do more harm than good. Still, while opposing the chaos of an azata is a necessary step, the archon takes no pleasure in such opposition, and does its best to minimize the length of such a conflict. Unfortunately, the capricious and emotional azatas are legendary among the archons for their ability to hold grudges, so for many archons the best policy when interacting with the azatas is to be brief, succinct, and firm.</p>
+				<p>Archons speak Celestial, Draconic, and Infernal, but can speak with almost any creature because of their truespeech  ability. A full list of archon traits is presented in the <a href="creatureTypes.html#_archon-subtype">archon subtype description</a>. Many archons have additional abilities beyond these traits, as befits their particular role in the army of Heaven.</p>
+			
+				<h1 id="archon-hound">Archon, Hound</h1>
+			
+				<p class="flavor-text"><i>This canine-headed humanoid's well-groomed appearance and polished greatsword show it to be more than a common beast.</i></p>
+			
+				<p class="stat-block-title"><b>Hound Archon <span class=stat-block-cr>CR 4</span></b></p>
+				<p class="stat-block-1"><b>XP 1,200</b></p>
+				<p class="stat-block-1">LG Medium <a href="creatureTypes.html#_outsider" >outsider</a> (<a href="creatureTypes.html#_archon-subtype" >archon</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_good-subtype" >good</a>, <a href="creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> darkvision 60 ft., <i><a href="../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, low-light vision, <a href="universalMonsterRules.html#_scent" >scent</a>; <a href="../skills/perception.html#_perception" >Perception</a> +10</p>
+				<p class="stat-block-1"><b>Aura</b> aura of menace (DC 16), <i><a href="../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil" >magic circle against evil</a></i></p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 19, touch 10, flat-footed 19 (+9 natural; +2 deflection vs. evil)</p>
+				<p class="stat-block-1"><b>hp</b> 39 (6d10+6)</p>
+				<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +5, <b>Will</b> +5; +4 vs. poison, +2 resistance vs. evil</p>
+				<p class="stat-block-1"><b>DR</b> 10/evil; <b>Immune</b> electricity, petrification; <b>SR</b> 15</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> bite +8 (1d8+3), slam +8 (1d4+1) or mwk greatsword +9/+4 (2d6+3), bite +3 (1d8+2) </p>
+				<p class="stat-block-1"><b><a href="universalMonsterRules.html#_spell-like-abilities" >Spell-Like Abilities</a></b> (CL 6th)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="../spells/detectEvil.html#_detect-evil" >detect evil</a>, <a href="../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil" >magic circle against evil</a></i></p>
+				<p class="stat-block-2">At Will&mdash;<i><a href="../spells/aid.html#_aid" >aid</a></i>, <i><a href="../spells/continualFlame.html#_continual-flame" >continual flame</a></i>, <i><a href="../spells/teleport.html#_teleport-greater" >greater teleport</a></i> (self plus 50 lbs. of objects only), <i><a href="../spells/message.html#_message" >message</a></i> </p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 15, <b>Dex</b> 10, <b>Con</b> 13, <b>Int</b> 10, <b>Wis</b> 13, <b>Cha</b> 12</p>
+				<p class="stat-block-1"><b>Base Atk</b> +6; <b>CMB</b> +8; <b>CMD</b> 18</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +9, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> +10, <a href="../skills/perception.html#_perception" >Perception</a> +10, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +10, <a href="../skills/stealth.html#_stealth" >Stealth</a> +13, <a href="../skills/survival.html#_survival" >Survival</a> +14; <b>Racial Modifiers</b> +4 <a href="../skills/stealth.html#_stealth" >Stealth</a>, +4 <a href="../skills/survival.html#_survival" >Survival</a></p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Draconic, Infernal; truespeech</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="universalMonsterRules.html#_change-shape" >change shape</a> (<i>beast shape II</i>)</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Heaven)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or squad (3&ndash;5)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (masterwork greatsword, other treasure)</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Change Shape (Su)</b> A hound archon can assume any canine form of Small to Large size, as if using <i><a href="../spells/beastShape.html#_beast-shape-ii" >beast shape II</a></i>. While in canine form, the hound archon loses its bite, slam, and greatsword attacks, but gains the bite attack of the form it chooses. For the purposes of this ability, canines include any dog-like or wolf-like creature of the <a href="creatureTypes.html#_animal">animal</a> type.</p>
+				<p>Hound archons look like well-muscled humans with canine heads typically resembling those of noble-looking wolves or dogs. Well trained, they prefer to make use of their greatswords in battle, though they are equally adept with their natural weapons. Hound archons loathe killing mortals and prefer to disarm or incapacitate even evil individuals when they can. Against fiends and the irredeemably corrupt, though, they show no mercy.</p>
+				<p>Hound archons are disciplined soldiers and sentinels. Occasionally good-aligned deities send them to watch over specific places and individuals they take a particular interest in. Under the guise of unassuming but friendly strays, such secret defenders might follow their ward or guard their post subtly for years. </p>
+				<p>In Heaven's armies, exceptional hound archon paladins lead their fellows into combat, taking on roles as captains and knights. They lead incursions against fiendish holdings, whether that entails strikes against daemonic fortresses or liberating the captives of night hag soul collectors. Such missions make hound archons perhaps the most likely celestials one might encounter upon the Lower Planes, and packs of swift-moving wolves occasionally reveal themselves to be welcome saviors to those lost within such realms. Regardless of their orders, hound archons universally exhibit a particular hatred of canine fiends, abandoning all mercy and going out of their way to put an end to the evils of barghests, glabrezus, yeth hounds, and similar depraved outsiders.</p>
+			
+				<h1 id="archon-lantern">Archon, Lantern</h1>
+			
+				<p class="flavor-text"><i>Shedding a warm and calming radiance, this orb of light moves with a preternatural silence and otherworldly grace.</i></p>
+			
+				<p class="stat-block-title"><b>Lantern Archon <span class=stat-block-cr>CR 2</span></b></p>
+				<p class="stat-block-1"><b>XP 600</b></p>
+				<p class="stat-block-1">LG Small <a href="creatureTypes.html#_outsider" >outsider</a> (<a href="creatureTypes.html#_archon-subtype" >archon</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_good-subtype" >good</a>, <a href="creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="../skills/perception.html#_perception" >Perception</a> +4</p>
+				<p class="stat-block-1"><b>Aura</b> aura of menace (DC 13)</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 15, touch 11, flat-footed 15 (+4 natural, +1 size; +2 deflect vs. evil)</p>
+				<p class="stat-block-1"><b>hp</b> 13 (2d10+2)</p>
+				<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +3, <b>Will</b> +0; +4 vs. poison, +2 resistance vs. evil</p>
+				<p class="stat-block-1"><b>DR</b> 10/evil; <b>Immune</b> electricity, petrification</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> fly 60 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Ranged</b> 2 light rays +3 ranged touch (1d6) </p>
+				<p class="stat-block-1"><b><a href="universalMonsterRules.html#_spell-like-abilities" >Spell-Like Abilities</a></b> (CL 3rd):</p>
+				<p class="stat-block-2">At Will&mdash;<i><a href="../spells/aid.html#_aid" >aid</a></i>, <i><a href="../spells/continualFlame.html#_continual-flame" >continual flame</a></i>, <i><a href="../spells/detectEvil.html#_detect-evil" >detect evil</a>, <a href="../spells/teleport.html#_teleport-greater" >greater teleport</a> </i>(self plus 50 lbs. of objects only)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 1, <b>Dex</b> 11, <b>Con</b> 12, <b>Int</b> 6, <b>Wis</b> 11, <b>Cha</b> 10</p>
+				<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> &ndash;4; <b>CMD</b> 6</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_improved-initiative" >Improved Initiative</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +5, <a href="../skills/fly.html#_fly" >Fly</a> +14, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +3, <a href="../skills/perception.html#_perception" >Perception</a> +4, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +5</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Draconic, Infernal; truespeech</p>
+				<p class="stat-block-1"><b>SQ</b> gestalt</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Heaven)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or squad (3&ndash;6)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Gestalt (Su)</b> Nine lantern archons can fuse together as a full-round action, becoming a single Large entity that is more powerful than the individual archons that make up its parts. Looking like a whirlwind of dancing firefly lights, the gestalt has all the powers and abilities of a Large air elemental plus the following: archon, good, and lawful subtypes; archon traits (aura of menace DC 16); 2 light rays (2d6); DR 5/evil and magic. The archons can remain in this form for 2d4 rounds. When the gestalt separates back into individual lantern archons, its remaining hit points are divided evenly among them; if it had less than 9 hit points, some of the component archons die when the gestalt ends.</p>
+				<p class="stat-block-1"><b>Light Ray (Ex)</b> A lantern archon can fire beams of light to damage foes. These light rays have a maximum range of 30 feet. This attack overcomes damage reduction of any type.</p>
+				<p>Friendly and curious beings, lantern archons eagerly converse with and assist other creatures. Their bodies, however, are merely globes of spiritual purity and pale light, and though they might interact with their surroundings through pure force of will, such interaction proves too weak to help with most physical tasks. Their evasive natures make them exceptional at scouting&mdash;at least in areas where strange lights aren't unusual&mdash;relaying messages, and overwhelming enemies with surprise and group tactics. Although they appear fragile, their forms guard them against all but the most profane attacks. </p>
+				<p>A lantern archon always glows, usually as bright as a torch. They have total control over the color of light they shed, and take great pleasure in modulating their colors and brightness in time to music or to entertain other creatures. Most lantern archons speak in airy, echoing voices, with tones that range from somber whispers to hurried chirping. Often, their light fluctuates along with their words or tones, punctuating their speech with sparks of light or gentle pulses. As a swift action, a lantern archon can dampen its light to that of a candle for 1 round. Only death can extinguish this light. As lantern archons never sleep or eat, they make excellent watchers and guardians. Lantern archons light many settlements in the celestial realms in lieu of mundane or magical illumination, serving as disguised sentinels always watchful for approaching evil.</p>
+				<p>Small but fast and zealous, lantern archons make excellent support troops in celestial armies, swarming over weak opponents or teleporting en masse to flanking positions to cut off reinforcements or escape routes. These miniature archons work well together and know that there is great strength in numbers, uniting in times of need and desperation to form gestalts with greater control over their surroundings. Especially brave lantern archons might eventually be promoted into a more powerful kind of archon, but most are content with their status.</p>
+			
+				<h1 id="archon-trumpet">Archon, Trumpet</h1>
+			
+				<p class="flavor-text"><i>Lithe and beautiful, with skin the color of marble, this being hovers upon powerful, white wings and radiates a sense of serenity.</i></p>
+			
+				<p class="stat-block-title"><b>Trumpet Archon <span class=stat-block-cr>CR 14</span></b></p>
+				<p class="stat-block-1"><b>XP 38,400</b></p>
+				<p class="stat-block-1">LG Medium <a href="creatureTypes.html#_outsider" >outsider</a> (<a href="creatureTypes.html#_archon-subtype" >archon</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_good-subtype" >good</a>, <a href="creatureTypes.html#_lawful-subtype" >lawful</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="../skills/perception.html#_perception" >Perception</a> +22</p>
+				<p class="stat-block-1"><b>Aura</b> aura of menace (DC 22), <i><a href="../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil" >magic circle against evil</a></i></p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 27, touch 13, flat-footed 24 (+3 Dex, +14 natural; +2 deflection vs. evil)</p>
+				<p class="stat-block-1"><b>hp</b> 175 (14d10+98)</p>
+				<p class="stat-block-1"><b>Fort</b> +16, <b>Ref</b> +9, <b>Will</b> +14; +4 vs. poison, +2 resistance vs. evil</p>
+				<p class="stat-block-1"><b>DR</b> 10/evil; <b>Immune</b> electricity, petrification; <b>SR</b> 25</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., fly 90 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+4 greatsword</i> +23/+18/+13 (2d6+11/19&ndash;20) </p>
+				<p class="stat-block-1"><b>Special Attacks</b> trumpet</p>
+				<p class="stat-block-1"><b><a href="universalMonsterRules.html#_spell-like-abilities" >Spell-Like Abilities</a></b> (CL 14th)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil" >magic circle against evil</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="../spells/aid.html#_aid" >aid</a></i>, <i><a href="../spells/continualFlame.html#_continual-flame" >continual flame</a></i>, <i><a href="../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="../spells/teleport.html#_teleport-greater" >greater teleport</a> </i>(self plus 50 lbs. of objects only), <i><a href="../spells/message.html#_message" >message</a></i></p>
+				<p class="stat-block-1"><b>Spells Prepared</b> (CL 14th)</p>
+				<p class="stat-block-2">7th&mdash;<i><a href="../spells/cureSeriousWounds.html#_cure-serious-wounds-mass" >mass cure serious wounds</a></i> (2)</p>
+				<p class="stat-block-2">6th&mdash;<i><a href="../spells/banishment.html#_banishment" >banishment</a></i> (DC 21), <i><a href="../spells/heal.html#_heal" >heal</a></i> (2)</p>
+				<p class="stat-block-2">5th&mdash;<i><a href="../spells/dispelEvil.html#_dispel-evil" >dispel evil</a></i> (DC 20), <i><a href="../spells/cureLightWounds.html#_cure-light-wounds-mass" >mass cure light wounds</a></i>, <i><a href="../spells/planeShift.html#_plane-shift" >plane shift</a></i> (DC 20), <i><a href="../spells/raiseDead.html#_raise-dead" >raise dead</a></i></p>
+				<p class="stat-block-2">4th&mdash;<i><a href="../spells/dismissal.html#_dismissal" >dismissal</a></i> (DC 19), <i><a href="../spells/divinePower.html#_divine-power" >divine power</a></i>, <i><a href="../spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i> (DC 19), <i><a href="../spells/spellImmunity.html#_spell-immunity" >spell immunity</a></i></p>
+				<p class="stat-block-2">3rd&mdash;<i><a href="../spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i><a href="../spells/daylight.html#_daylight" >daylight</a></i>, <i><a href="../spells/invisibilityPurge.html#_invisibility-purge" >invisibility purge</a></i>, <i><a href="../spells/magicVestment.html#_magic-vestment" >magic vestment</a></i>, <i><a href="../spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i></p>
+				<p class="stat-block-2">2nd&mdash;<i><a href="../spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="../spells/consecrate.html#_consecrate" >consecrate</a></i>, <i><a href="../spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (2), <i><a href="../spells/restoration.html#_restoration-lesser" >lesser restoration</a></i> (2), <i><a href="../spells/owlSWisdom.html#_owl-s-wisdom" >owl's wisdom</a></i></p>
+				<p class="stat-block-2">1st&mdash;<i><a href="../spells/bless.html#_bless" >bless</a></i>, <i><a href="../spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (3), <i><a href="../spells/divineFavor.html#_divine-favor" >divine favor</a></i>, <i><a href="../spells/sanctuary.html#_sanctuary" >sanctuary</a></i> (DC 16), <i><a href="../spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i></p>
+				<p class="stat-block-2">0 (at will)&mdash;<i><a href="../spells/detectMagic#detect-magic" >detect magic<a/></i>, <i><a href="../spells/purifyFoodAndDrink.html#_purify-food-and-drink" >purify food and drink</a></i>, <i><a href="../spells/stabilize.html#_stabilize" >stabilize</a></i>, <i><a href="../spells/virtue.html#_virtue" >virtue</a></i></p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 17, <b>Con</b> 25, <b>Int</b> 16, <b>Wis</b> 20, <b>Cha</b> 17</p>
+				<p class="stat-block-1"><b>Base Atk</b> +14; <b>CMB</b> +19; <b>CMD</b> 32</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_blind-fight" >Blind-Fight</a>, <a href="../feats.html#_cleave" >Cleave</a>, <a href="../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="../feats.html#_persuasive" >Persuasive</a>, <a href="../feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +24, <a href="../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +17, <a href="../skills/fly.html#_fly" >Fly</a> +24, <a href="../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +20, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +20, <a href="../skills/perception.html#_perception" >Perception</a> +22, <a href="../skills/perform.html#_perform" >Perform</a> (wind instruments) +20, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +24, <a href="../skills/stealth.html#_stealth" >Stealth</a> +20</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Draconic, Infernal; truespeech</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any (Heaven)</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or squad (3&ndash;5)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Spells</b> Trumpet archons can cast divine spells as 14th-level clerics. They do not gain access to domains or other cleric abilities.</p>
+				<p class="stat-block-1"><b>Trumpet (Su)</b> All creatures except archons within 100 feet of the trumpet's blast must succeed on a DC 19 Fortitude save or be paralyzed for 1d4 rounds. The save DC is Charisma-based. The archon can also command its trumpet to become a <i>+4 greatsword</i> as a free action. Out of the archon's hands, it is a chunk of useless metal. </p>
+				<p>Messengers of good deities and mighty celestials, trumpet archons serve as the vanguard of divine armies and rally the legions of heaven to war. When lawful good deities have the need to communicate directly with a group of mortals, they often send trumpet archons to act as their intermediaries. Trumpet archons speak with clear, musical voices. Their otherworldly eyes are white and pupilless.</p>
+				<p>All trumpet archons carry a gleaming magical trumpet or horn with which they create wondrous music, sound calls to other archons, paralyze enemies, or defend the virtuous. They typically adorn their trumpet with the standard of their liege. </p>
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

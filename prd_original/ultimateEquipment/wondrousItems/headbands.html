@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Headband Slot</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Headband Slot",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html', name: 'Wondrous Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="headband-slot-wondrous-items">Headband Slot Wondrous Items</h1>
+<p>The headband slot consists of bands, headbands, phylacteries, and other non-head-slot items that can be worn on the head.</p>
+<p>Anyone can use a head slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.</p>
+
+<table id="headband-slot-wondrous-items-table"><caption>Headband Slot Wondrous Items</caption>
+<thead><tr><th>d%</th><th>Lesser Minor Headband Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;60</td><td><i>Phylactery of faithfulness</td><td></i>1,000 gp</td></tr>
+<tr class="even"><td>61&ndash;100</td><td><i>Dead man's headband</td><td></i>3,600 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Minor Headband Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;09</td><td><i>Headband of alluring charisma +2</td><td></i>4,000 gp</td></tr>
+<tr class="even"><td>10&ndash;18</td><td><i>Headband of inspired wisdom +2</td><td></i>4,000 gp</td></tr>
+<tr class="odd"><td>19&ndash;27</td><td><i>Headband of vast intelligence +2</td><td></i>4,000 gp</td></tr>
+<tr class="even"><td>28&ndash;33</td><td><i>Headband of aerial agility +2</td><td></i>4,500 gp</td></tr>
+<tr class="odd"><td>34&ndash;39</td><td><i>Shifter's headband +2</td><td></i>4,500 gp</td></tr>
+<tr class="even"><td>40&ndash;45</td><td><i>Headband of ponderous recollection</td><td></i>5,100 gp</td></tr>
+<tr class="odd"><td>46&ndash;51</td><td><i>Headband of ki focus</td><td></i>5,400 gp</td></tr>
+<tr class="even"><td>52&ndash;58</td><td><i>Headband of unshakeable resolve</td><td></i>5,600 gp</td></tr>
+<tr class="odd"><td>59&ndash;66</td><td><i>Hollywreath band</td><td></i>5,700 gp</td></tr>
+<tr class="even"><td>67&ndash;74</td><td><i>Headband of deathless devotion</td><td></i>6,400 gp</td></tr>
+<tr class="odd"><td>75&ndash;82</td><td><i>Phylactery of the shepherd</td><td></i>7,000 gp</td></tr>
+<tr class="even"><td>83&ndash;91</td><td><i>Headband of intuition</td><td></i>7,000 gp</td></tr>
+<tr class="odd"><td>92&ndash;100</td><td><i>Headband of fortune's favor</td><td></i>7,700 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Medium Headband Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;06</td><td><i>Headband of havoc</td><td></i>8,000 gp</td></tr>
+<tr class="even"><td>07&ndash;12</td><td><i>Serpent's band</td><td></i>9,000 gp</td></tr>
+<tr class="odd"><td>13&ndash;20</td><td><i>Headband of mental prowess +2</td><td></i>10,000 gp</td></tr>
+<tr class="even"><td>21&ndash;26</td><td><i>Hunter's band</td><td></i>11,000 gp</td></tr>
+<tr class="odd"><td>27&ndash;34</td><td><i>Phylactery of negative channeling</td><td></i>11,000 gp</td></tr>
+<tr class="even"><td>35&ndash;42</td><td><i>Phylactery of positive channeling</td><td></i>11,000 gp</td></tr>
+<tr class="odd"><td>43&ndash;48</td><td><i>Veiled eye</td><td></i>12,000 gp</td></tr>
+<tr class="even"><td>49&ndash;54</td><td><i>Band of the stalwart warrior</td><td></i>14,000 gp</td></tr>
+<tr class="odd"><td>55&ndash;60</td><td><i>Headband of ninjitsu</td><td></i>15,000 gp</td></tr>
+<tr class="even"><td>61&ndash;68</td><td><i>Headband of alluring charisma +4</td><td></i>16,000 gp</td></tr>
+<tr class="odd"><td>69&ndash;76</td><td><i>Headband of inspired wisdom +4</td><td></i>16,000 gp</td></tr>
+<tr class="even"><td>77&ndash;85</td><td><i>Headband of mental superiority +2</i></td><td>16,000 gp</td></tr>
+<tr class="odd"><td>86&ndash;93</td><td><i>Headband of vast intelligence +4</td><td></i>16,000 gp</td></tr>
+<tr class="even"><td>94&ndash;100</td><td><i>Shifter's headband +4</td><td></i>17,500 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Medium Headband Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;30</td><td><i>Headband of arcane energy</td><td></i>20,000 gp</td></tr>
+<tr class="even"><td>31&ndash;70</td><td><i>Headband of counterspelling</td><td></i>20,000 gp</td></tr>
+<tr class="odd"><td>71&ndash;100</td><td><i>Headband of knucklebones</td><td></i>27,500 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Major Headband Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;09</td><td><i>Soulbound eye</td><td></i>30,000 gp</td></tr>
+<tr class="even"><td>10&ndash;19</td><td><i>Winter wolf headband</td><td></i>32,000 gp</td></tr>
+<tr class="odd"><td>20&ndash;32</td><td><i>Headband of alluring charisma +6</td><td></i>36,000 gp</td></tr>
+<tr class="even"><td>33&ndash;45</td><td><i>Headband of inspired wisdom +6</td><td></i>36,000 gp</td></tr>
+<tr class="odd"><td>46&ndash;58</td><td><i>Headband of vast intelligence +6</td><td></i>36,000 gp</td></tr>
+<tr class="even"><td>59&ndash;66</td><td><i>Shifter's headband +6</td><td></i>39,000 gp</td></tr>
+<tr class="odd"><td>67&ndash;81</td><td><i>Headband of mental prowess +4</td><td></i>40,000 gp</td></tr>
+<tr class="even"><td>82&ndash;90</td><td><i>Headband of seduction</td><td></i>40,000 gp</td></tr>
+<tr class="odd"><td>91&ndash;100</td><td><i>Headband of aerial agility +4</td><td></i>42,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Major Headband Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;20</td><td><i>Headband of mental resilience</td><td></i>64,000 gp</td></tr>
+<tr class="even"><td>21&ndash;50</td><td><i>Headband of mental superiority +4</i></td><td>64,000 gp</td></tr>
+<tr class="odd"><td>51&ndash;65</td><td><i>Headband of aerial agility +6</td><td></i>81,000 gp</td></tr>
+<tr class="even"><td>66&ndash;85</td><td><i>Headband of metal prowess +6</td><td></i>90,000 gp</td></tr>
+<tr class="odd"><td>86&ndash;100</td><td><i>Headband of mental superiority +6</i></td><td>144,000 gp</td></tr></table>
+
+<p id="band-of-the-stalwart-warrior" class="stat-block-title">Band of the Stalwart Warrior</p>
+<p class="stat-block-1"><b>Price</b> 14,000 gp; <b>Aura</b> strong abjuration; <b>CL</b> 16th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This plain iron band protects its wearer from fear effects. Whenever the wearer suffers a fear effect, she is merely shaken (even if the effect would normally make the target frightened or panicked). Furthermore, the subject gains a +2 competence bonus on all Will saves against fear. If the wearer has the bravery class feature, she is considered four levels higher when determining that class feature's effect.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 7,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/removeFear.html#_remove-fear" >remove fear</a></i></p>
+				
+<p id="Dead-Man's-Headband" class="stat-block-title">Dead Man's Headband</p>
+<p class="stat-block-1"><b>Price</b> 3,600 gp; <b>Aura</b> faint enchantment and abjuration; <b>CL</b> 1st; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This taut black band, clipped with a black metal skull, can be attached on the outside of a hat or other head slot item or can be worn as a normal headband. The wearer gains a +2 competence bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks and increases the DC of any fear effect he creates by +1. In addition, if this headband is attached to the outside of a hat, the wearer's hat or headgear cannot be blown off or removed by wind, water, or environmental effects, and the wearer gains a +5 circumstance bonus to his CMD against steal and sunder attempts targeting his headgear.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,800 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/doom.html#_doom" >doom</a>, <a href="/pathfinderRPG/prd/spells/shrinkItem.html#_shrink-item" >shrink item</a></i></p>
+
+<p id="headband-of-aerial-agility" class="stat-block-title">Headband of Aerial Agility</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> &mdash;</p>
+<p class="stat-block-1"><b>+2 Intelligence, Wisdom, or Charisma</b> 4,500 gp; <b>+4 Intelligence, Wisdom, or Charisma</b> 42,000 gp; <b>+6 Intelligence, Wisdom, or Charisma</b> 81,000 gp</p>
+<p class="stat-block">This headband is decorated with feathers from a number of colorful birds. It grants boons to flying magic, and more powerful versions grant the power of flight. The wearer of a <i>headband of aerial agility +2</i> treats his caster level as if it were one level higher when casting spells or creating extracts that grant flight. A <i>headband of aerial agility +4</i> gains the same benefits and, on command, grants the wearer the ability to fly (as the <i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i> spell) three times per day. A <i>headband of aerial agility +6</i> functions like a +4 version, but the headband grants the ability to use <i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i> at will.</p>
+<p class="stat-block">All versions also grant the wearer an enhancement bonus to one mental ability score (Intelligence, Wisdom, or Charisma) of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. This bonus is chosen when the headband is created and cannot be changed. If the headband grants a bonus to Intelligence, it also grants skill ranks as a <i>headband of vast intelligence</i>, usually granting ranks in <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a>, <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a>, or <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> varies</p>
+<p class="stat-block-1"><b>+2 Intelligence, Wisdom, or Charisma</b> 2,250 gp; <b>+4 Intelligence, Wisdom, or Charisma</b> 21,000 gp; <b>+6 Intelligence, Wisdom, or Charisma</b> 40,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_extend-spell" >Extend Spell</a>, <i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i></p>
+				
+				
+<p id="headband-of-alluring-charisma" class="stat-block-title">Headband of Alluring Charisma</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-1"><b>+2 Charisma</b> 4,000 gp; <b>+4 Charisma</b> 16,000 gp; <b>+6 Charisma</b> 36,000 gp</p>
+<p class="stat-block">This attractive silver headband is decorated with a number of small red and orange gemstones. The headband grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> varies</p>
+<p class="stat-block-1"><b>+2 Charisma</b> 2,000 gp; <b>+4 Charisma</b> 8,000 gp; <b>+6 Charisma</b> 18,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i></p>
+				
+<p id="headband-of-arcane-energy" class="stat-block-title">headband of Arcane energy</p>
+<p class="stat-block-1"><b>Price</b> 20,000 gp; <b>Aura</b> strong evocation; <b>CL</b> 13th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This headband has three swirling patterns of red, green, and blue crystals arching across its length. Three times per day, its wearer can sacrifice an arcane spell to create an offensive blast or defensive shield. The blast is a ranged touch attack with a range of 30 feet, which deals 1d6 points of energy damage (cold, electricity, or fire) per spell level sacrificed. The shield creates a swirling band of energy that lasts 1 round and gives the wearer a deflection bonus to AC equal to 2 + the level of the spell sacrificed.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 10,000 gp</p>
+<p class="stat-block">Arcane Blast, <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_arcane-shield" >Arcane Shield</a>, <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/prismaticSpray.html#_prismatic-spray" >prismatic spray</a></i></p>
+				
+				
+<p id="headband-of-counterspelling" class="stat-block-title">headband of counterspelling</p>
+<p class="stat-block-1"><b>Price</b> 20,000 gp; <b>Aura</b> strong abjuration; <b>CL</b>13th; <b>Weight</b>1 lb.</p>
+<p class="stat-block">This metal headband grants a +5 insight bonus on <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> checks made to identify a spell as it is being cast. Furthermore, once per day the wearer can attempt to counter a spell by casting the appropriate spell as an immediate action instead of doing so with a readied action. The wearer must first identify the spell being cast before countering a spell with this headband.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 10,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning" >spell turning</a></i></p>
+				
+<p id="headband-of-deathless-devotion" class="stat-block-title">Headband of deathless devotion</p>
+<p class="stat-block-1"><b>Price</b> 6,400 gp; <b>Aura</b> faint enchantment; <b>CL</b> 1st; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This white headband, often painted or embroidered with calligraphy or a stylized pictogram such as a sunburst, helps focus the wearer's resolve and absolute determination to survive and succeed. The wearer gains a +2 morale bonus on stabilization checks and on saving throws against ongoing effects with recurring saves, such as diseases, poisons, or compulsions such as <i><a href="/pathfinderRPG/prd/spells/dominatePerson.html#_dominate-person" >dominate person</a> </i>or <i><a href="/pathfinderRPG/prd/spells/holdPerson.html#_hold-person" >hold person</a></i>.</p>
+<p class="stat-block">If the wearer is a samurai, he treats his resolve ability as if he were two class levels higher.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,200 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a>, <a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i></p>
+				
+<p id="headband-of-fortune's-favor" class="stat-block-title">Headband of Fortune's Favor</p>
+<p class="stat-block-1"><b>Price</b> 7,700 gp; <b>Aura</b> faint enchantment and evocation; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This multicolored headband with beaded tassels tips luck in the wearer's favor. The wearer gains a +1 luck bonus on saving throws.</p>
+<p class="stat-block">Any effect that gives the wearer a luck bonus (such as a <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i> or <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i> spell) or explicitly increases the wearer's good luck (such as a witch's fortune hex, the Luck domain's bit of luck domain power, and so on) lasts for 1 round longer than normal on the wearer. Abilities without a time-based duration (such as carrying a <i>stone of good luck</i>) are unaffected by the headband.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,850 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/advanced/spells/illOmen.html#_ill-omen" >ill omen</a></i> or <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i></p>
+				
+<p id="headband-of-havoc" class="stat-block-title">Headband of Havoc</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> faint enchantment; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This band of raggedly stitched animal skins and teeth focuses a barbarian wearer's bloodlust. When the wearer enters a rage, she selects one of her rage powers. For the duration of the rage, that power functions as if the wearer's barbarian level were four levels higher.</p>
+<p class="stat-block">Once per day when the wearer is attacked or has to make a saving throw against a hostile effect, she may spend 2 rounds of rage to begin a rage as an immediate action. This rage becomes active prior to resolving the attack that triggered it and lasts until the start of her next turn (at which time she may continue to rage as if she had begun the rage in the normal manner).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/rage.html#_rage" >rage</a></i></p>
+
+<p id="headband-of-inspired-wisdom" class="stat-block-title">Headband of inspired wisdom</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-1"><b>+2 Wisdom</b> 4,000 gp; <b>+4 Wisdom</b> 16,000 gp; <b>+6 Wisdom</b> 36,000 gp</p>
+<p class="stat-block">This simple bronze headband is decorated with an intricate pattern of fine green etchings. The headband grants the wearer an enhancement bonus to Wisdom of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> varies</p>
+<p class="stat-block-1"><b>+2 Wisdom</b> 2,000 gp; <b>+4 Wisdom</b> 8,000 gp; <b>+6 Wisdom</b> 18,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom" >owl's wisdom</a></i></p>
+				
+				
+<p id="headband-of-intuition" class="stat-block-title">Headband of Intuition</p>
+<p class="stat-block-1"><b>Price</b> 7,000 gp; <b>Aura</b> faint divination; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This headband gives its wearer the gift of foresight, effectively allowing her to determine whether or not a particular course of action will grant weal and/or woe. Three times per day the wearer of this headband can, as a standard action, gain information about a specified course of action as if using the <i><a href="/pathfinderRPG/prd/spells/augury.html#_augury" >augury</a></i> spell, except that the wearer always gets a meaningful reply.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/augury.html#_augury" >augury</a></i></p>
+				
+<p id="headband-of-ki-focus" class="stat-block-title">Headband of KI Focus</p>
+<p class="stat-block-1"><b>Price</b> 5,400 gp; <b>Aura</b> faint abjuration; <b>CL</b> 1st; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This tied headband helps the wearer focus his <i>ki </i>more effectively. Whenever the wearer spends <i>ki</i> points to make an additional attack, that attack roll gains a +1 insight bonus (+2 if the wearer is using a <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ki-focus" >ki focus</a></i> weapon with that attack). Furthermore, the wearer of a <i>headband of <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ki-focus" >ki focus</a></i> is immune to the ninja's <i>ki</i> block trick or similar effects that block the wearer from using <i>ki</i> points.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,700 gp</p>
+<p class="stat-block">Craft Wondrous Item<i>, </i>creator must have a <i>ki </i>pool</p>
+				
+<p id="headband-of-knucklebones" class="stat-block-title">Headband of Knucklebones</p>
+<p class="stat-block-1"><b>Price</b> 27,500 gp; <b>Aura</b> moderate necromancy; <b>CL</b> 9th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This headband is made of interlocked finger bones woven together by leathery tendons and gristle. The wearer may use <i><a href="/pathfinderRPG/prd/spells/commandUndead.html#_command-undead" >command undead</a></i> up to three times per day, but only affecting zombies. Once per day, the wearer may use the headband to animate one Medium zombie as if using <i><a href="/pathfinderRPG/prd/spells/animateDead.html#_animate-dead" >animate dead</a></i>.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 13,750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/animateDead.html#_animate-dead" >animate dead</a></i>, <i><a href="/pathfinderRPG/prd/spells/commandUndead.html#_command-undead" >command undead</a></i></p>
+
+<p id="headband-of-mental-prowess" class="stat-block-title">Headband of mental prowess</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> strong transmutation; <b>CL</b> 12th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-1"><b>+2 to two mental ability scores</b> 10,000 gp; <b>+4 to two mental ability scores</b> 40,000 gp; <b>+6 to two mental ability scores</b> 90,000 gp</p>
+<p class="stat-block">This simple copper headband has a small yellow gem set so that when it rests upon the forehead of the wearer, the yellow gem sits perched on the wearer's brow as if it were a third eye in the middle of her forehead. Often, the headband contains additional designs to further accentuate the appearance of a third, crystal eye.</p>
+<p class="stat-block">The headband grants the wearer an enhancement bonus to two mental ability scores (Intelligence, Wisdom, or Charisma) of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn.</p>
+<p class="stat-block">These bonuses are chosen when the headband is created and cannot be changed. If the headband grants a bonus to Intelligence, it also grants skill ranks as a <i>headband of vast intelligence.</i></p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> varies</p>
+<p class="stat-block-1"><b>+2 to two mental ability scores</b> 5,000 gp; <b>+4 to two mental ability scores</b> 20,000 gp; <b>+6 to two mental ability scores</b> 45,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i>, <i><a href="/pathfinderRPG/prd/spells/foxSCunning.html#_fox-s-cunning" >fox's cunning</a></i>, <i><a href="/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom" >owl's wisdom</a> </i>(any two)</p>
+
+<p id="headband-of-mental-resilience" class="stat-block-title">Headband of Mental Resilience</p>
+<p class="stat-block-1"><b>Price</b> 64,000 gp; <b>Aura</b> strong abjuration and transmutation; <b>CL</b> 16th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Five faceted sapphires decorate this ornate headband. The headband protects the wearer from effects that would damage his mental capacity. After wearing the headband for 24 hours, the wearer gains five temporary ability points. These points do not add to the wearer's ability scores and do not grant a bonus to any roll. Any damage or drain to a mental ability score (Intelligence, Wisdom, or Charisma) taken by the wearer is subtracted from these points first. Damage or drain in excess of the wearer's temporary ability points is applied to his current ability scores as normal. The wearer immediately loses all temporary ability points upon removing the headband.</p>
+<p class="stat-block">In addition, the headband grants the wearer a +2 enhancement bonus to Intelligence, Wisdom, and Charisma. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. It also grants skill ranks as a <i>headband of vast intelligence +2</i>.</p>
+<p class="stat-block">Temporary ability points that are lost to ability damage return after 24 hours. Ability points lost to ability drain are lost permanently.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 32,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i>, <i><a href="/pathfinderRPG/prd/spells/foxSCunning.html#_fox-s-cunning" >fox's cunning</a></i>, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>, <i><a href="/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom" >owl's wisdom</a></i></p>
+
+<p id="headband-of-mental-superiority" class="stat-block-title">Headband of mental superiority</p>
+<p class="stat-block-1"><b>Price</b> Varies</p>
+<p class="stat-block-1"><b>+2 Intelligence, Wisdom, and Charisma</b> 16,000 gp; <b>+4 Intelligence, Wisdom, and Charisma</b> 64,000 gp; <b>+6 Intelligence, Wisdom, and Charisma</b> 144,000 gp; <b>Aura</b> strong transmutation; <b>CL</b> 16th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This ornate headband is decorated with numerous clusters of small gemstones. The headband grants the wearer an enhancement bonus to all mental ability scores (Intelligence, Wisdom, and Charisma) of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. The headband also grants skill ranks as a <i>headband of vast intelligence</i>.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> varies</p>
+<p class="stat-block-1"><b>+2 Intelligence, Wisdom, and Charisma</b> 8,000 gp; <b>+4 Intelligence, Wisdom, and Charisma</b> 32,000 gp; <b>+6 Intelligence, Wisdom, and Charisma</b> 77,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i>, <i><a href="/pathfinderRPG/prd/spells/foxSCunning.html#_fox-s-cunning" >fox's cunning</a></i>, <i><a href="/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom" >owl's wisdom</a></i></p>
+				
+<p id="headband-of-ninjitsu" class="stat-block-title">Headband of Ninjitsu</p>
+<p class="stat-block-1"><b>Price</b> 15,000 gp; <b>Aura</b> faint abjuration; <b>CL</b> 1st; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This simple black cloth band focuses the wearer's <i>ki</i>, helping her use subtle misdirection against opponents in combat. The wearer gains a +2 competence bonus on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> checks made to feint and combat maneuver checks made to reposition, and once per day she can attempt a feint or reposition maneuver as a swift action. The wearer also gains a +2 insight bonus on attack rolls on sneak attacks and can sneak attack creatures with concealment or total concealment, though miss chances apply normally.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 7,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a>, <a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i></p>
+				
+<p id="headband-of-ponderous-recollection" class="stat-block-title">Headband of ponderous recollection</p>
+<p class="stat-block-1"><b>Price</b> 5,100 gp; <b>Aura</b> moderate divination and transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This black leather headband has two small amber gemstones set so they rest on the wearer's forehead. The headband grants the wearer a +2 enhancement bonus to Intelligence. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. It also grants skill ranks as a <i>headband of vast intelligence</i>, but always grants ranks in a <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> skill.</p>
+<p class="stat-block">As a swift action three times per day, the wearer can call upon the headband to reveal the abilities and weaknesses of a creature within line of sight. The headband fills the wearer's mind with information as though the wearer had made a <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> check with a natural roll of a 5, adding her bonuses to the check as normal. At the start of her next turn, the wearer receives additional information as though she had made the check with a natural roll of 10. At the start of her turn after that, the wearer receives a final piece of information, treating her natural roll as 15.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,550 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/knowTheEnemy.html#_know-the-enemy" >know the enemy</a> </i>(<i>Ultimate Magic</i>)</p>
+				
+<p id="headband-of-seduction" class="stat-block-title">Headband of Seduction</p>
+<p class="stat-block-1"><b>Price</b> 40,000 gp; <b>Aura</b> faint enchantment and transmutation; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This plain white band makes the wearer seem more attractive. The wearer gains a +2 competence bonus on Charisma-based checks with other members of his creature type. If the wearer is of the humanoid type, he gains a +5 competence bonus on creatures of his subtype instead. Once per day, the wearer can attempt to affect a creature as the spell <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/unnaturalLust.html#_unnatural-lust" >unnatural lust</a></i> but with a duration of 10 minutes.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 20,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/unnaturalLust.html#_unnatural-lust" >unnatural lust</a></i></p>
+				
+<p id="headband-of-unshakeable-resolve" class="stat-block-title">Headband of unshakeable resolve</p>
+<p class="stat-block-1"><b>Price</b> 5,600 gp; <b>Aura</b> moderate abjuration and transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This simple white cotton headband is decorated with a stylized imperial dragon coiled above the wearer's forehead. The headband grants the wearer a +2 enhancement bonus to her Wisdom score. Treat this as a temporary ability bonus for the first 24 hours the headband is worn.</p>
+<p class="stat-block">Whenever the wearer suffers a fear effect, she may spend an immediate action to reduce the severity of the fear effect by one step. If the wearer would become panicked, she is instead frightened. If she would become frightened, she is instead shaken. If the wearer would become shaken, the effect is negated entirely. The wearer can use this ability up to three times per day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,800 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom" >owl's wisdom</a></i>, <i><a href="/pathfinderRPG/prd/spells/removeFear.html#_remove-fear" >remove fear</a></i></p>
+
+<p id="headband-of-vast-intelligence" class="stat-block-title">Headband of vast intelligence</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-1"><b>+2 Intelligence</b> 4,000 gp; <b>+4 Intelligence</b> 16,000 gp; <b>+6 Intelligence</b> 36,000 gp</p>
+<p class="stat-block">This intricate gold headband is decorated with several small blue and deep purple gemstones. The headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A <i>headband of vast intelligence</i> has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer's total Hit Dice. These ranks do not stack with the ranks a creature already possesses. These skills are chosen when the headband is created. If no skill is listed, the headband is assumed to grant skill ranks in randomly determined <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> skills.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> varies</p>
+<p class="stat-block-1"><b>+2 Intelligence</b> 2,000 gp; <b>+4 Intelligence</b> 8,000 gp; <b>+6 Intelligence</b> 18,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/foxSCunning.html#_fox-s-cunning" >fox's cunning</a></i></p>
+				
+<p id="hollywreath-band" class="stat-block-title">Hollywreath Band</p>
+<p class="stat-block-1"><b>Price</b> 5,700 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This headband is woven of magically preserved holly, its deep green leaves and bright red berries perpetually lustrous. The wearer may create <i>goodberries </i>once per day as the spell, and any effect she creates that affects plants, including the domain powers of the Plant domain, take effect at +1 caster level and gain a +1 bonus to the save DC.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,580 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/goodberry.html#_goodberry" >goodberry</a>, <a href="/pathfinderRPG/prd/spells/plantGrowth.html#_plant-growth" >plant growth</a></i></p>
+				
+<p id="Hunter's-Band" class="stat-block-title">Hunter's Band</p>
+<p class="stat-block-1"><b>Price</b> 11,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 4th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This simple headband of braided hide grants a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks and inures the wearer to the strain of long travel, as the <i><a href="/pathfinderRPG/prd/advanced/spells/tirelessPursuit.html#_tireless-pursuit" >tireless pursuit</a> </i>spell <i>. </i>If the wearer is a ranger, the <i>hunter's band </i>increases his favored enemy bonus on attack rolls by +1 for all his favored enemies. If the ranger has the hunter's bond (companions) class feature, this increase also applies to the attack roll bonus his allies gain from that ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/advanced/spells/instantEnemy.html#_instant-enemy" >instant enemy</a>  , <a href="/pathfinderRPG/prd/advanced/spells/tirelessPursuit.html#_tireless-pursuit" >tireless pursuit</a>, </i>creator must have 5 ranks in <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a></p>
+				
+<p id="phylactery-of-faithfulness" class="stat-block-title">Phylactery of Faithfulness</p>
+<p class="stat-block-1"><b>Price</b> 1,000 gp; <b>Aura</b> faint divination; <b>CL</b>1st; <b>Weight</b>&mdash;</p>
+<p class="stat-block">This item is a tiny box containing religious scripture. The box is affixed to a leather cord and tied around the forehead, worn so that the box sits upon the wearer's brow. There is no mundane way to determine what function this religious item performs until it is worn. The wearer of a <i>phylactery of faithfulness</i> is aware of any action or item that could adversely affect her alignment and her standing with her deity, including magical effects. She acquires this information prior to performing such an action or becoming associated with such an item if she takes a moment to contemplate the act.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/detectChaos.html#_detect-chaos" >detect chaos</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectGood.html#_detect-good" >detect good</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectLaw.html#_detect-law" >detect law</a></i></p>
+				
+<p id="phylactery-of-negative-channeling" class="stat-block-title">Phylactery of Negative Channeling</p>
+<p class="stat-block-1"><b>Price</b> 11,000 gp; <b>Aura</b> moderate necromancy; <b>CL</b>10th; <b>Weight</b>&mdash;</p>
+<p class="stat-block">This item is a boon to any character able to channel negative energy, increasing the amount of damage dealt to living creatures by +2d6. This also increases the amount of damage healed by undead creatures.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, creator must be a 10th-level cleric</p>
+				
+<p id="phylactery-of-positive-channeling" class="stat-block-title">Phylactery of Positive Channeling</p>
+<p class="stat-block-1"><b>Price</b> 11,000 gp; <b>Aura</b> moderate necromancy; <b>CL</b> 10th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This item allows channelers of positive energy to increase the amount of damage dealt to undead creatures by +2d6. This also increases the amount of damage healed by living creatures.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, creator must be a 10th-level cleric</p>
+			
+<p id="phylactery-of-the-shepherd" class="stat-block-title">Phylactery of the Shepherd</p>
+<p class="stat-block-1"><b>Price</b> 7,000 gp; <b>Aura</b> faint divination; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Three times per day on command, the phylactery's wearer can determine the current health and overall well-being of any one ally within 30 feet. This effect acts as the <i><a href="/pathfinderRPG/prd/spells/status.html#_status" >status</a></i> spell. If the wearer has the ability to channel energy or lay on hands, he can as a swift action choose to apply the effects of that class feature to an ally he is currently evaluating so long as that ally is within 30 feet of him, but doing so ends the effect of the phylactery's <i><a href="/pathfinderRPG/prd/spells/status.html#_status" >status</a></i>.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/status.html#_status" >status</a></i></p>
+				
+<p id="Serpent's-Band" class="stat-block-title">Serpent's Band</p>
+<p class="stat-block-1"><b>Price</b> 9,000 gp; <b>Aura</b> moderate conjuration and enchantment; <b>CL</b> 10th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">The wearer of this circlet gains a +2 insight bonus on saving throws against effects with the emotion descriptor, including fear effects. The wearer gains fluency in Draconic and may converse with non-sentient (Int 1 or 2) reptilian animals and magical beasts as if using the <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i> spell, and gains a +4 competence bonus on <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> and wild empathy checks made when interacting with such creatures.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/animalTrance.html#_animal-trance" >animal trance</a>, <a href="/pathfinderRPG/prd/spells/hypnotism.html#_hypnotism" >hypnotism</a>, <a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a>, <a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-v" >summon nature's ally V</a></i></p>
+
+<p id="Shifter's-Headband" class="stat-block-title">Shifter's Headband</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> &mdash;</p>
+<p class="stat-block-1"><b>+2 Intelligence, Wisdom, or Charisma</b> 4,500 gp; <b>+4 Intelligence, Wisdom, or Charisma</b> 17,500 gp; <b>+6 Intelligence, Wisdom, or Charisma</b> 39,000 gp</p>
+<p class="stat-block">This band of reddish fox fur is marked on the front with a distinctive symbol that constantly shifts into a different character. The headband grants the wearer an enhancement bonus to one mental ability score (Intelligence, Wisdom, or Charisma) of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. This bonus is chosen when the headband is created and cannot be changed. If the headband grants a bonus to Intelligence, it also grants skill ranks as a <i>headband of vast intelligence</i>.</p>
+<p class="stat-block">If the wearer is a creature who uses magic to change form, she gains the following additional benefits.</p>
+<p class="stat-block"><i>Shifter's headband +2</i>: The wearer treats her caster level as if it were one level higher when casting spells or creating extracts of the polymorph subschool.</p>
+<p class="stat-block"><i>Shifter's headband +4</i>: Once per day while under the effect of a polymorph spell or extract, the wearer can assume another form allowed by that effect. This is a standard action.</p>
+<p class="stat-block"><i>Shifter's headband +6</i>: Whenever the wearer changes her shape with a polymorph effect, she gains DR 5/silver for 1 minute (this ends if she returns to her natural form).</p>
+<p class="stat-block">These additional shapeshifter abilities are cumulative. For example, a creature wearing a <i>shifter's headband +4</i> gains the extra transformation ability and treats her caster level as 1 higher than normal for polymorph spells and extracts.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> varies</p>
+<p class="stat-block-1"><b>+2 Intelligence, Wisdom, or Charisma</b> 2,250 gp; <b>+4 Intelligence, Wisdom, or Charisma</b> 8,750 gp; <b>+6 Intelligence, Wisdom, or Charisma</b> 19,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/polymorph.html#_polymorph" >polymorph</a> self</i></p>
+				
+				
+<p id="soulbound-eye" class="stat-block-title">Soulbound Eye</p>
+<p class="stat-block-1"><b>Price</b> 30,000 gp; <b>Aura</b> strong necromancy; <b>CL</b> 16th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Appearing at first like an expensive, masochistic adornment, this almond-sized star ruby is set in a gold clasp, one side of which is festooned with several long spikes. A <i>soulbound eye</i> is not an item that most creatures would voluntarily wear&mdash;they are instead crafted by powerful creatures who wish to use another creature as a sort of remote-viewing slave. A <i>soulbound eye</i> must be attached to a willing or helpless creature by pressing the spike-covered surface to the creature's brow&mdash;the gem swiftly and painfully embeds itself in the victim's forehead, immediately activating to forge a shared link between the wearer and the creature who placed the item on its head (the “master”).</p>
+<p class="stat-block">Once implanted, the <i>soulbound eye</i> allows the master to observe the world around the wearer through the wearer's senses. It also allows for telepathic communication between the wearer and the master. Neither of these features function across planar boundaries.</p>
+<p class="stat-block">The <i>soulbound eye's</i> wearer is not compelled to obey its master's telepathic commands, but the master can use the <i>soulbound eye</i> as a conduit for <i><a href="/pathfinderRPG/prd/spells/holdMonster.html#_hold-monster" >hold monster</a></i>, <i><a href="/pathfinderRPG/prd/spells/modifyMemory.html#_modify-memory" >modify memory</a></i>, <i><a href="/pathfinderRPG/prd/advanced/spells/painStrike.html#_pain-strike" >pain strike</a></i> , and <i><a href="/pathfinderRPG/prd/spells/suggestion.html#_suggestion" >suggestion</a></i> spells, treating the wearer as the target of the spell no matter the distance between master and wearer. The victim is allowed any normal saving throws or spell resistance against spells cast through the <i>soulbound eye.</i></p>
+<p class="stat-block">An implanted <i>soulbound eye</i> functions like a cursed item once it is in place&mdash;it can only be removed if the curse is first lifted via an effect like <i><a href="/pathfinderRPG/prd/spells/removeCurse.html#_remove-curse" >remove curse</a></i> or <i><a href="/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment" >break enchantment</a></i>. Once removed, a <i>soulbound eye</i> crumbles to fragments.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 15,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/scrying.html#_scrying" >scrying</a></i></p>
+				
+<p id="veiled-eye" class="stat-block-title">Veiled Eye</p>
+<p class="stat-block-1"><b>Price</b> 12,000 gp; <b>Aura</b> faint conjuration; <b>CL</b>5th; <b>Weight</b>&mdash;</p>
+<p class="stat-block">This banded agate attaches itself to its wearer's forehead and then, blinking and focusing, begins to act as an additional eye. When worn, the <i>veiled eye</i> has the same vision as the wearer (such as low-light vision, darkvision 60 ft., or the oracle's clouded vision curse). It grants the wearer no particular advantages so long as his original eyes continue to function normally. However, should his original eyes stop working, whether because of the wearer becoming blinded or even his own decision to close them, he can see through the <i>veiled eye </i>instead. When the wearer is using the veiled eye as his only vision source, he takes a &ndash;2 penalty on ranged attack rolls but gains a +2 insight bonus on saves against gaze attacks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 6,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/removeBlindnessDeafness.html#_remove-blindness-deafness" >remove blindness/deafness</a></i></p>
+				
+<p id="winter-wolf-headband" class="stat-block-title">Winter Wolf Headband</p>
+<p class="stat-block-1"><b>Price</b> 32,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 7th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Crafted of pale bone or silver, this headband features a snarling wolf's head centered on the wearer's forehead. The wearer gains cold resistance 10. Once per day, the wearer may transform into a Large white-furred wolf for 11 minutes. In addition, once per day the wearer may breathe a 30-foot cone of cold that deals 7d6 points of cold damage (Reflex DC 16 for half). The wearer may use this breath weapon even when transformed.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 16,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii" >beast shape II</a></i>, <i><a href="/pathfinderRPG/prd/advanced/spells/dragonSBreath.html#_dragon's-breath" >dragon's breath</a></i> , <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+
+	
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

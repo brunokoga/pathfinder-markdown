@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Ultimate Magic Spell Lists</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Ultimate Magic Spell Lists",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+        		<h1 id="spells">Spells by Class</h1>
+        		<p><a href="#alchemist-spells">Alchemist</a></p>
+        		<p><a href="#antipaladin-spells">Antipaladin Spells</a></p>
+        		<p><a href="#bard-spells">Bard Spells</a></p>
+        		<p><a href="#cleric-spells">Cleric Spells</a></p>
+        		<p><a href="#druid-spells">Druid Spells</a></p>
+        		<p><a href="#inquisitor-spells">Inquisitor Spells</a></p>
+        		<p><a href="#magus-spells">Magus Spells</a></p>
+        		<p><a href="#paladin-spells">Paladin Spells</a></p>
+        		<p><a href="#ranger-spells">Ranger Spells</a></p>
+        		<p><a href="#sorcerer/wizard-spells">Sorcerer / Wizard Spells</a></p>
+        		<p><a href="#summoner-spells">Summoner Spells</a></p>
+        		<p><a href="#witch-spells">Witch Spells</a></p>
+        		
+				<h1 id="alchemist-spells">Alchemist Spells</h1>
+				
+				<h2 id="1st-level-alchemist-spells">1st-Level Alchemist Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/anticipatePeril.html#_anticipate-peril" >Anticipate Peril</a></b><sup></sup>: Target gains a bonus on one initiative check.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/polypurposePanacea.html#_polypurpose-panacea" >Polypurpose Panacea</a></b><sup></sup>: Gain a relaxing or entertaining effect.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/vocalAlteration.html#_vocal-alteration" >Vocal Alteration</a></b><sup></sup>: <a href="/pathfinderRPG/prd//skills/disguise.html#_disguise" >Disguise</a> target's voice.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/youthfulAppearance.html#_youthful-appearance" >Youthful Appearance</a></b><sup></sup>: Target appears younger.</p>
+				<h2 id="2nd-level-alchemist-spells">2nd-Level Alchemist Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/acuteSenses.html#_acute-senses" >Acute Senses</a></b><sup></sup>: Subject gains a bonus on <a href="/pathfinderRPG/prd//skills/perception.html#_perception" >Perception</a> checks.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/bloodTranscription.html#_blood-transcription" >Blood Transcription</a></b><sup></sup>: Learn a spell from the target's blood.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/defensiveShock.html#_defensive-shock" >Defensive Shock</a></b><sup></sup>: Electricity damages your attackers.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ghostlyDisguise.html#_ghostly-disguise" >Ghostly Disguise</a></b><sup></sup>: You look like a ghost of yourself.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/skinsend.html#_skinsend" >Skinsend</a></b><sup></sup>: Animate and possess your own skin as if it were a separate creature.</p>
+				<h2 id="3rd-level-alchemist-spells">3rd-Level Alchemist Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-lesser" >Age Resistance, Lesser</a></b><sup></sup>: Ignore penalties from middle age.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/burrow.html#_burrow" >Burrow</a></b><sup></sup>: Target gains a burrow speed of 15.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/countlessEyes.html#_countless-eyes" >Countless Eyes</a></b><sup></sup>: Extra eyes give all-around vision.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/eruptivePustules.html#_eruptive-pustules" >Eruptive Pustules</a></b><sup></sup>: Acid boils burst when you are attacked.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/marionettePossession.html#_marionette-possession" >Marionette Possession</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/magicJar.html#_magic-jar" >magic jar</a></i>, but limited to line of sight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-i" >Monstrous Physique I</a></b><sup></sup>: Take the form and some of the powers of a Small or Medium monstrous humanoid.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-i" >Undead Anatomy I</a></b><sup></sup>: Take the form and some of the powers of a Small or Medium undead.</p>
+				<h2 id="4th-level-alchemist-spells">4th-Level Alchemist Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance" >Age Resistance</a></b><sup></sup>: Ignore penalties from old age.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/darkvision.html#_darkvision,-greater" >Darkvision, Greater</a></b><sup></sup>: See 120 ft. in total darkness.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/echolocation.html#_echolocation" >Echolocation</a></b><sup></sup>: Sonic sense gives you blindsight 40 ft.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/falseLife.html#_false-life,-greater" >False Life, Greater</a></b><sup></sup>: Gain 2d10 temporary hp + 1/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-ii" >Monstrous Physique II</a></b><sup></sup>: Take the form and some of the powers of a Tiny or Large monstrous humanoid.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/touchOfSlime.html#_touch-of-slime" >Touch of Slime</a></b><sup></sup>: Touch infests a target with green slime.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-i-" >Vermin Shape I</a></b><sup></sup>: Take the form and some of the powers of a Small or Medium vermin.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/vitriolicMist.html#_vitriolic-mist" >Vitriolic Mist</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/fireShield.html#_fire-shield" >fire shield</a></i>, except acid damage.</p>
+				<h2 id="5th-level-alchemist-spells">5th-Level Alchemist Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-greater" >Age Resistance, Greater</a></b><sup></sup>: Ignore any penalties from venerable age.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iii" >Monstrous Physique III</a></b><sup></sup>: Take the form and some of the powers of a Diminutive or Huge monstrous humanoid.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-ii" >Undead Anatomy II</a></b><sup></sup>: Take the form and some of the powers of a Tiny or Large undead.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-ii" >Vermin Shape II</a></b><sup></sup>: As <i>vermin shape</i>, but Tiny or Large.</p>
+				<h2 id="6th-level-alchemist-spells">6th-Level Alchemist Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iv" >Monstrous Physique IV</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iii" >monstrous physique III</a></i>, with more abilities.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-iii" >Undead Anatomy III</a></b><sup></sup>: Take the form and some of the powers of a Diminutive or Huge undead.</p>
+				
+				<h1 id="antipaladin-spells">Antipaladin Spells</h1>
+				
+				<h2 id="1st-level-antipaladin-spells">1st-Level Antipaladin Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/murderousCommand.html#_murderous-command" >Murderous Command</a></b><sup></sup>: Target is compelled to kill its ally.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/summonMinorMonster.html#_summon-minor-monster" >Summon Minor Monster</a></b><sup></sup>: Summon 1d3 Tiny animals.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/wartrainMount.html#_wartrain-mount" >Wartrain Mount</a></b><sup></sup>: Animal gains the combat training general purpose.</p>
+				<h2 id="2nd-level-antipaladin-spells">2nd-Level Antipaladin Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/perniciousPoison.html#_pernicious-poison" >Pernicious Poison</a></b><sup></sup>: Target takes a &ndash;4 penalty against poison.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/toxicGift.html#_toxic-gift" >Toxic Gift</a></b><sup></sup>: Target suffers the effect of a poison in you.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unadulteratedLoathing.html#_unadulterated-loathing" >Unadulterated Loathing</a></b><sup></sup>: Target is compelled to avoid another creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/vestmentOfTheChampion.html#_vestment-of-the-champion" >Vestment of the Champion</a></b><sup></sup>: Armor or shield gains a <br/>+1 enhancement per four levels.</p>
+				<h2 id="3rd-level-antipaladin-spells">3rd-Level Antipaladin Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/bladeOfDarkTriumph.html#_blade-of-dark-triumph" >Blade of Dark Triumph</a></b><sup></sup>: Bonded weapon gains <i><a href="/pathfinderRPG/prd//magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a></i>.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/utterContempt.html#_utter-contempt" >Utter Contempt</a></b><sup></sup>: Target's attitude worsens by two categories.</p>
+				<h2 id="4th-level-antipaladin-spells">4th-Level Antipaladin Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/darkvision.html#_darkvision,-greater" >Darkvision, Greater</a></b><sup></sup>: See 120 ft. in total darkness.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unholySword.html#_unholy-sword" >Unholy Sword</a></b><sup></sup>: Weapon becomes +5, deals +2d6 damage vs. good.</p>
+				
+				<h1 id="bard-spells">Bard Spells</h1>
+				
+				<h2 id="1st-level-bard-spells">1st-Level Bard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/anticipatePeril.html#_anticipate-peril" >Anticipate Peril</a></b><sup></sup>: Target gains a bonus on one initiative check.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/chordOfShards.html#_chord-of-shards" >Chord of Shards</a></b><sup></sup>: Performance deals 2d6 piercing damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/delusionalPride.html#_delusional-pride" >Delusional Pride</a></b><sup></sup>: Target is penalized on attacks and checks but gains bonus against charms and compulsions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/earPiercingScream.html#_ear-piercing-scream" >Ear-Piercing Scream</a></b><sup></sup>: Deal sonic damage and daze target.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/forcedQuiet.html#_forced-quiet" >Forced Quiet</a></b><sup></sup>: Target cannot make loud noises.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/fumbletongue.html#_fumbletongue" >Fumbletongue</a></b><sup></sup>: Target cannot speak intelligently.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/hornOfPursuit.html#_horn-of-pursuit" >Horn of Pursuit</a></b><sup></sup>: Create three notes heard miles away.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/kiArrow.html#_ki-arrow" >Ki Arrow</a></b><sup></sup>: Arrow deals damage as your unarmed strike.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/playInstrument.html#_play-instrument" >Play Instrument</a></b><sup></sup>: Play instrument as if you were skilled.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/summonMinorMonster.html#_summon-minor-monster" >Summon Minor Monster</a></b><sup></sup>: Summon 1d3 Tiny animals.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unnaturalLust.html#_unnatural-lust" >Unnatural Lust</a></b><sup></sup>: Target is compelled to kiss or caress another.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unpreparedCombatant.html#_unprepared-combatant" >Unprepared Combatant</a></b><sup></sup>: Target takes &ndash;4 on initiative and Reflex saves.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/vocalAlteration.html#_vocal-alteration" >Vocal Alteration</a></b><sup></sup>: <a href="/pathfinderRPG/prd//skills/disguise.html#_disguise" >Disguise</a> target's voice.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/youthfulAppearance.html#_youthful-appearance" >Youthful Appearance</a></b><sup></sup>: Target appears younger.</p>
+				<h2 id="2nd-level-bard-spells">2nd-Level Bard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/acuteSenses.html#_acute-senses" >Acute Senses</a></b><sup></sup>: Subject gains  bonus on <a href="/pathfinderRPG/prd//skills/perception.html#_perception" >Perception</a> checks.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/allegro.html#_allegro" >Allegro</a></b><sup></sup>: Gain <i><a href="/pathfinderRPG/prd//spells/haste.html#_haste" >haste</a></i> while maintaining bardic performance.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/boilingBlood.html#_boiling-blood" >Boiling Blood</a></b><sup></sup>: Targets take fire damage; orcs get +2 Strength.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/compassionateAlly.html#_compassionate-ally" >Compassionate Ally</a></b><sup></sup>: Target compelled to help injured ally.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/delayPain.html#_delay-pain" >Delay Pain</a></b><sup></sup>: Ignore pain for 1 hour/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/disguiseOther.html#_disguise-other" >Disguise Other</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/disguiseSelf.html#_disguise-self" >disguise self</a></i>, but affects you or another.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/distractingCacophony.html#_distracting-cacophony" >Distracting Cacophony</a></b><sup></sup>: Noise makes it difficult to cast.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/distressingTone.html#_distressing-tone" >Distressing Tone</a></b><sup></sup>: Sound sickens 1d4 creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ghostlyDisguise.html#_ghostly-disguise" >Ghostly Disguise</a></b><sup></sup>: You look like a ghost of yourself.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/hauntingMists.html#_haunting-mists">Haunting Mists</b><sup></sup>: Creatures are shaken and take Wis damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/madHallucination.html#_mad-hallucination" >Mad Hallucination</a></b><sup></sup>: Target takes penalties to mental actions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/masterworkTransformation.html#_masterwork-transformation" >Masterwork Transformation</a></b><sup></sup>: Make a normal item into a masterwork one.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/miserablePity.html#_miserable-pity" >Miserable Pity</a></b><sup></sup>: Opponents cannot attack a pathetic creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/oppressiveBoredom.html#_oppressive-boredom" >Oppressive Boredom</a></b><sup></sup>: Target loses its next action.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/piercingShriek.html#_piercing-shriek" >Piercing Shriek</a></b><sup></sup>: Target is staggered by a painful sound.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/recklessInfatuation.html#_reckless-infatuation" >Reckless Infatuation</a></b><sup></sup>: Target is compelled to stay near another.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/shareMemory.html#_share-memory" >Share Memory</a></b><sup></sup>: Share one memory with the target.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/silkToSteel.html#_silk-to-steel" >Silk to Steel</a></b><sup></sup>: Use a scarf as a shield or whip.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/snapdragonFireworks.html#_snapdragon-fireworks" >Snapdragon Fireworks</a></b><sup></sup>: Create 1 dragon firework/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/stealVoice.html#_steal-voice" >Steal Voice</a></b><sup></sup>: Target gains the croaking spellblight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unadulteratedLoathing.html#_unadulterated-loathing" >Unadulterated Loathing</a></b><sup></sup>: Target is compelled to avoid another creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/wartrainMount.html#_wartrain-mount" >Wartrain Mount</a></b><sup></sup>: Animal gains the combat training general purpose.</p>
+				<h2 id="3rd-level-bard-spells">3rd-Level Bard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/controlSummonedCreature.html#_control-summoned-creature" >Control Summoned Creature</a></b><sup></sup>: Direct a summoned monster as if you had summoned it.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/curseOfDisgust.html#_curse-of-disgust" >Curse of Disgust</a></b><sup></sup>: Target is sickened when viewing a trigger.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/exquisiteAccompaniment.html#_exquisite-accompaniment" >Exquisite Accompaniment</a></b><sup></sup>: Instrument maintains bardic performance for you.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rainOfFrogs.html#_rain-of-frogs" >Rain of Frogs</a></b><sup></sup>: Summon a swarm of poisonous frogs.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/hauntingChoir.html#_haunting-choir" >Haunting Choir</a></b><sup></sup>: Spirits cause wracking pain to listeners.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/madMonkeys.html#_mad-monkeys" >Mad Monkeys</a></b><sup></sup>: Summon a swarm of mischievous monkeys.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/maliciousSpite.html#_malicious-spite" >Malicious Spite</a></b><sup></sup>: Target is compelled to plot against another.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/overwhelmingGrief.html#_overwhelming-grief" >Overwhelming Grief</a></b><sup></sup>: Grieving target can take no actions and is denied its Dex bonus.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/smugNarcissism.html#_smug-narcissism" >Smug Narcissism</a></b><sup></sup>: Target is distracted by its sense of self.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/terribleRemorse.html#_terrible-remorse" >Terrible Remorse</a></b><sup></sup>: Creature is compelled to harm itself.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/visionOfHell.html#_vision-of-hell" >Vision of Hell</a></b><sup></sup>: Illusory hellscape makes creatures shaken.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/witness.html#_witness" >Witness</a></b><sup></sup>: See through the target's eyes and ears.</p>
+				<h2 id="4th-level-bard-spells">4th-Level Bard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/danceOfAHundredCuts.html#_dance-of-a-hundred-cuts" >Dance of a Hundred Cuts</a></b><sup></sup>: Gain +1 combat bonus/3 levels.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/daze.html#_daze,-mass" >Daze, Mass</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/daze.html#_daze" >daze</a></i>, but affecting multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/echolocation.html#_echolocation" >Echolocation</a></b><sup></sup>: Sonic sense gives you blindsight 40 ft.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/enviousUrge.html#_envious-urge" >Envious Urge</a></b><sup></sup>: Targets steal from or disarm others.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/primalScream.html#_primal-scream" >Primal Scream</a></b><sup></sup>: Free yourself from enchantments and paralysis effects.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/serenity.html#_serenity" >Serenity</a></b><sup></sup>: Peaceful feelings harm those attempting violence.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/shadowStep.html#_shadow-step" >Shadow Step</a></b><sup></sup>: Teleport from one shadow to another.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/sonicThrust.html#_sonic-thrust" >Sonic Thrust</a></b><sup></sup>: Sound moves targets away from you.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/utterContempt.html#_utter-contempt" >Utter Contempt</a></b><sup></sup>: Target's attitude worsens by two categories.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/virtuosoPerformance.html#_virtuoso-performance" >Virtuoso Performance</a></b><sup></sup>: Start a second bardic performance while maintaining the first.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/wallOfSound.html#_wall-of-sound" >Wall of Sound</a></b><sup></sup>: Sonic wall deflects and damages creatures.</p>
+				<h2 id="5th-level-bard-spells">5th-Level Bard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/joyfulRapture.html#_joyful-rapture" >Joyful Rapture</a></b><sup></sup>: Negate harmful emotions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/kiShout.html#_ki-shout" >Ki Shout</a></b><sup></sup>: Target takes 1d6 sonic/level and is stunned.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/resonatingWord.html#_resonating-word" >Resonating Word</a></b><sup></sup>: Target is damaged, staggered, and stunned.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/shadowbard.html#_shadowbard" >Shadowbard</a></b><sup></sup>: Shadowy duplicate starts a bardic performance.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/vengefulOutrage.html#_vengeful-outrage" >Vengeful Outrage</a></b><sup></sup>: Target is compelled to destroy one enemy.</p>
+				<h2 id="6th-level-bard-spells">6th-Level Bard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/danceOfAThousandCuts.html#_dance-of-a-thousand-cuts" >Dance of a Thousand Cuts</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/danceOfAHundredCuts.html#_dance-of-a-hundred-cuts" >dance of a hundred cuts</a></i>, plus the benefits of <i><a href="/pathfinderRPG/prd//spells/haste.html#_haste" >haste</a></i>.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/overwhelmingPresence.html#_overwhelming-presence" >Overwhelming Presence</a></b><sup></sup>: Creatures bow before you as if you were divine.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/wavesOfEcstasy.html#_waves-of-ecstasy" >Waves of Ecstasy</a></b><sup></sup>: Pleasure stuns and staggers creatures.</p>
+				
+				<h1 id="cleric-spells">Cleric Spells</h1>
+				
+				<h2 id="1st-level-cleric-spells">1st-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/decomposeCorpse.html#_decompose-corpse" >Decompose Corpse</a></b><sup></sup>: Turn corpse into clean skeleton.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/diagnoseDisease.html#_diagnose-disease" >Diagnose Disease</a></b><sup></sup>: Detect and identify diseases.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/forbidAction.html#_forbid-action" >Forbid Action</a></b><sup></sup>: Target obeys your command to not do something.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/knowTheEnemy.html#_know-the-enemy" >Know the Enemy</a></b><sup></sup>: Gain +10 on a monster <a href="/pathfinderRPG/prd//skills/knowledge.html#_knowledge" >Knowledge</a> check.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/murderousCommand.html#_murderous-command" >Murderous Command</a></b><sup></sup>: Target is compelled to kill its ally.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rayOfSickening.html#_ray-of-sickening" >Ray of Sickening</a></b><sup></sup>: Ray makes the subject sickened.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/removeSickness.html#_remove-sickness" >Remove Sickness</a></b><sup></sup>: Suppress disease, nausea, and the sickened condition.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/restoreCorpse.html#_restore-corpse" >Restore Corpse</a></b><sup></sup>: Skeletal corpse grows flesh.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/sanctifyCorpse.html#_sanctify-corpse" >Sanctify Corpse</a></b><sup></sup>: Prevent a corpse from becoming an undead creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/summonMinorMonster.html#_summon-minor-monster" >Summon Minor Monster</a></b><sup></sup>: Summon 1d3 Tiny animals.</p>
+				<h2 id="2nd-level-cleric-spells">2nd-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/animateDead.html#_animate-dead,-lesser" >Animate Dead, Lesser</a></b><sup></sup>: Create one skeleton or zombie.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/arrowOfLaw.html#_arrow-of-law" >Arrow of Law</a></b><sup></sup>: Harm and possibly daze chaotic creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/boilingBlood.html#_boiling-blood" >Boiling Blood</a></b><sup></sup>: Targets take fire damage; orcs get +2 Strength.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/compassionateAlly.html#_compassionate-ally" >Compassionate Ally</a></b><sup></sup>: Target is compelled to help injured ally.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/delayPain.html#_delay-pain" >Delay Pain</a></b><sup></sup>: Ignore pain for 1 hour/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/disfiguringTouch.html#_disfiguring-touch-" >Disfiguring Touch</a></b><sup></sup>: Target becomes disfigured.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/dreadBolt.html#_dread-bolt" >Dread Bolt</a></b><sup></sup>: Harm and possibly sicken good creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/imbueWithAura.html#_imbue-with-aura" >Imbue with Aura</a></b><sup></sup>: Target emulates your cleric aura.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/masterworkTransformation.html#_masterwork-transformation" >Masterwork Transformation</a></b><sup></sup>: Make a normal item into a masterwork one.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/protectivePenumbra.html#_protective-penumbra" >Protective Penumbra</a></b><sup></sup>: Shadow protects the target from light.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/shardOfChaos.html#_shard-of-chaos" >Shard of Chaos</a></b><sup></sup>: Harm and possibly slow lawful creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/spearOfPurity.html#_spear-of-purity" >Spear of Purity</a></b><sup></sup>: Harm and possibly blind evil creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/surmountAffliction.html#_surmount-affliction" >Surmount Affliction</a></b><sup></sup>: Temporarily suppress one condition.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/webShelter.html#_web-shelter" >Web Shelter</a></b><sup></sup>: Create a comfortable shelter made of webbing.</p>
+				<h2 id="3rd-level-cleric-spells">3rd-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/agonize.html#_agonize-" >Agonize</a></b><sup></sup>: Pain encourages an outsider to obey you.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/archonSAura.html#_archon's-aura" >Archon's Aura</a></b><sup></sup>: Aura penalizes enemy attacks and AC.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/badgerSFerocity.html#_badger's-ferocity" >Badger's Ferocity</a></b><sup></sup>: Weapons are <i><a href="/pathfinderRPG/prd//magicItems/weapons.html#_weapons-keen" >keen</a></i> while you concentrate.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/blessingOfTheMole.html#_blessing-of-the-mole" >Blessing of the Mole</a></b><sup></sup>: 1 ally/level gains darkvision and a +2 <a href="/pathfinderRPG/prd//skills/stealth.html#_stealth" >Stealth</a> bonus.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/kiLeech.html#_ki-leech" >Ki Leech</a></b><sup></sup>: Add to your <i>ki</i> pool when you critically hit.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/sandsOfTime.html#_sands-of-time" >Sands of Time</a></b><sup></sup>: Target temporarily ages.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfHealing.html#_symbol-of-healing" >Symbol of Healing</a></b><sup></sup>: Triggered rune heals living creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/visionOfHell.html#_vision-of-hell" >Vision of Hell</a></b><sup></sup>: Illusory hellscape makes creatures shaken.</p>
+				<h2 id="4th-level-cleric-spells">4th-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/auraOfDoom.html#_aura-of-doom" >Aura of Doom</a></b><sup></sup>: Creatures in your aura become shaken.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/bloodCrowStrike.html#_blood-crow-strike" >Blood Crow Strike</a></b><sup></sup>: Unarmed strikes create crows that deal fire and negative energy damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/controlSummonedCreature.html#_control-summoned-creature" >Control Summoned Creature</a></b><sup></sup>: Direct a summoned monster as if you had summoned it.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/fleshwormInfestation.html#_fleshworm-infestation" >Fleshworm Infestation</a></b><sup></sup>: Worms deal hp and Dex damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/oracleSVessel.html#_oracle's-vessel" >Oracle's Vessel</a></b><sup></sup>:</b> <i>Oracle only.</i> Target gains the benefits of your oracle's curse.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/plagueCarrier.html#_plague-carrier" >Plague Carrier</a></b><sup></sup>: Target's attacks carry filth fever.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rideTheWaves.html#_ride-the-waves" >Ride the Waves</a></b><sup></sup>: Target can breathe water and swim.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/sootheConstruct.html#_soothe-construct" >Soothe Construct</a></b><sup></sup>: Reduce the berserk chance of a construct.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/spitVenom.html#_spit-venom" >Spit Venom</a></b><sup></sup>: Spit blinding black adder venom.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfRevelation.html#_symbol-of-revelation" >Symbol of Revelation</a></b><sup></sup>: Triggered symbol reveals illusions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfSlowing.html#_symbol-of-slowing" >Symbol of Slowing</a></b><sup></sup>: Triggered rune slows creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/terribleRemorse.html#_terrible-remorse" >Terrible Remorse</a></b><sup></sup>: Creature is compelled to harm itself.</p>
+				<h2 id="5th-level-cleric-spells">5th-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/astralProjection.html#_astral-projection,-lesser" >Astral Projection, Lesser</a></b><sup></sup>: Limited astral travel.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/contagion.html#_contagion,-greater" >Contagion, Greater</a></b><sup></sup>: Infect a subject with a magical disease.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/curseOfMagicNegation.html#_curse-of-magic-negation" >Curse of Magic Negation</a></b><sup></sup>: Target gains the negated spellblight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/curse.html#_curse,-major" >Curse, Major</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i>, but harder to remove.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/fickleWinds.html#_fickle-winds" >Fickle Winds</a></b><sup></sup>: Wind walls selectively block attacks.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/forbidAction.html#_forbid-action,-greater" >Forbid Action, Greater</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/forbidAction.html#_forbid-action" >forbid action</a></i>, but 1 creature/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/holyIce.html#_holy-ice" >Holy Ice</a></b><sup></sup>: Create wall or javelins of frozen holy water.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rapidRepair.html#_rapid-repair" >Rapid Repair</a></b><sup></sup>: Construct gains fast healing 5.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/reprobation.html#_reprobation" >Reprobation</a></b><sup></sup>: Marked target is shunned by your religion.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/serenity.html#_serenity" >Serenity</a></b><sup></sup>: Peaceful feelings harm those attempting violence.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfScrying.html#_symbol-of-scrying" >Symbol of Scrying</a></b><sup></sup>: Triggered rune activates scrying sensor.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unholyIce.html#_unholy-ice" >Unholy Ice</a></b><sup></sup>: Create wall or javelins of frozen unholy water.</p>
+				<h2 id="6th-level-cleric-spells">6th-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/coldIceStrike.html#_cold-ice-strike" >Cold Ice Strike</a></b><sup></sup>: Cone of ice slivers deals 1d6 cold/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/epidemic.html#_epidemic" >Epidemic</a></b><sup></sup>: Infect a subject with a highly contagious disease.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/joyfulRapture.html#_joyful-rapture" >Joyful Rapture</a></b><sup></sup>: Negate harmful emotions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/plagueStorm.html#_plague-storm" >Plague Storm</a></b><sup></sup>: Cloud infects creatures like <i><a href="/pathfinderRPG/prd//spells/contagion.html#_contagion" >contagion</a></i>.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfSealing.html#_symbol-of-sealing" >Symbol of Sealing</a></b><sup></sup>: Creates triggered <i><a href="/pathfinderRPG/prd//spells/wallOfForce.html#_wall-of-force" >wall of force</a></i>.</p>
+				<h2 id="7th-level-cleric-spells">7th-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/bestowGraceOfTheChampion.html#_bestow-grace-of-the-champion" >Bestow Grace of the Champion</a></b><sup></sup>: Target gains paladin abilities for 1 round/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/circleOfClarity.html#_circle-of-clarity" >Circle of Clarity</a></b><sup></sup>: Emanation hampers illusions and stealth.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser" >Create Demiplane, Lesser</a></b><sup></sup>: Create your own demiplane.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/lunarVeil.html#_lunar-veil" >Lunar Veil</a></b><sup></sup>: Dispel light and revert lycanthropes.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/wavesOfEcstasy.html#_waves-of-ecstasy" >Waves of Ecstasy</a></b><sup></sup>: Pleasure stuns and staggers creatures.</p>
+				<h2 id="8th-level-cleric-spells">8th-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/callConstruct.html#_call-construct" >Call Construct</a></b><sup></sup>: Summon your golem to you.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane" >Create Demiplane</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser" >lesser create demiplane</a></i>, but larger and with planar traits.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/orbOfTheVoid.html#_orb-of-the-void" >Orb of the Void</a></b><sup></sup>: Sphere inflicts negative levels.</p>
+				<h2 id="9th-level-cleric-spells">9th-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-greater" >Create Demiplane, Greater</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane" >create demiplane</a></i>, but larger and with more planar traits.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/cursedEarth.html#_cursed-earth" >Cursed Earth</a></b><sup></sup>: Plants die, living creatures catch diseases, or dead creatures rise as zombies.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/interplanetaryTeleport.html#_interplanetary-teleport" >Interplanetary Teleport</a></b><sup></sup>: Teleport to another planet.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/overwhelmingPresence.html#_overwhelming-presence" >Overwhelming Presence</a></b><sup></sup>: Creatures bow before you as if you were divine.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/polarMidnight.html#_polar-midnight" >Polar Midnight</a></b><sup></sup>: Cold darkness paralyzes and deals damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfStrife.html#_symbol-of-strife">Symbol of Strife</a></b><sup></sup>: Triggered rune makes creatures attack.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfVulnerability.html#_symbol-of-vulnerability" >Symbol of Vulnerability</a></b><sup></sup>: Triggered rune gives penalties.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/woodenPhalanx.html#_wooden-phalanx" >Wooden Phalanx</a></b><sup></sup>: Creates 1d4+2 temporary wood golems to fight for you.</p>
+				<h1 id="druid-spells">Druid Spells</h1>
+				
+				<h2 id="1st-level-druid-spells">1st-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/decomposeCorpse.html#_decompose-corpse" >Decompose Corpse</a></b><sup></sup>: Turn a corpse into a clean skeleton.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/diagnoseDisease.html#_diagnose-disease" >Diagnose Disease</a></b><sup></sup>: Detect and identify diseases.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/frostbite.html#_frostbite" >Frostbite</a></b><sup></sup>: Target takes cold damage and is fatigued.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rayOfSickening.html#_ray-of-sickening" >Ray of Sickening</a></b><sup></sup>: Ray makes the subject sickened.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/removeSickness.html#_remove-sickness" >Remove Sickness</a></b><sup></sup>: Suppress disease, nausea, and the sickened condition.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/restoreCorpse.html#_restore-corpse" >Restore Corpse</a></b><sup></sup>: Skeletal corpse grows flesh.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/summonMinorAlly.html#_summon-minor-ally" >Summon Minor Ally</a></b><sup></sup>: Summon 1d3 Tiny animals.</p>
+				<h2 id="2nd-level-druid-spells">2nd-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/frigidTouch.html#_frigid-touch" >Frigid Touch</a></b><sup></sup>: Target takes cold damage and is staggered.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/masterworkTransformation.html#_masterwork-transformation" >Masterwork Transformation</a></b><sup></sup>: Make a normal item into a masterwork one.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/perniciousPoison.html#_pernicious-poison" >Pernicious Poison</a></b><sup></sup>: Target takes a &ndash;4 penalty against poison.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/tarBall.html#_tar-ball" >Tar Ball</a></b><sup></sup>: Burning tar harms target and penalizes its Dex.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unshakableChill.html#_unshakable-chill" >Unshakable Chill</a></b><sup></sup>: Target is afflicted with severe cold.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/wartrainMount.html#_wartrain-mount" >Wartrain Mount</a></b><sup></sup>: Animal gains the combat training general purpose.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/webShelter.html#_web-shelter" >Web Shelter</a></b><sup></sup>: Create a comfortable shelter made of webbing.</p>
+				<h2 id="3rd-level-druid-spells">3rd-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/anthropomorphicAnimal.html#_anthropomorphic-animal" >Anthropomorphic Animal</a></b><sup></sup>: Animal becomes bipedal.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ashStorm.html#_ash-storm" >Ash Storm</a></b><sup></sup>: Hamper vision and movement.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/badgerSFerocity.html#_badger's-ferocity" >Badger's Ferocity</a></b><sup></sup>: Weapons are <i><a href="/pathfinderRPG/prd//magicItems/weapons.html#_weapons-keen" >keen</a></i> while you concentrate.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/burrow.html#_burrow" >Burrow</a></b><sup></sup>: Target gains a burrow speed of 15.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/burstOfNettles.html#_burst-of-nettles" >Burst of Nettles</a></b><sup></sup>: Burst deals 3d6 damage and 1d6 acid.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/fungalInfestation.html#_fungal-infestation" >Fungal Infestation</a></b><sup></sup>: Target takes bleed from attacks.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/madMonkeys.html#_mad-monkeys" >Mad Monkeys</a></b><sup></sup>: Summon a swarm of mischievous monkeys.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rainOfFrogs.html#_rain-of-frogs" >Rain of Frogs</a></b><sup></sup>: Summon a swarm of poisonous frogs.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/spitVenom.html#_spit-venom" >Spit Venom</a></b><sup></sup>: Spit blinding black adder venom.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-i-" >Vermin Shape I</a></b><sup></sup>: Take the form and some of the powers of a Small or Medium vermin.</p>
+				<h2 id="4th-level-druid-spells">4th-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-lesser" >Age Resistance, Lesser</a></b><sup></sup>: Ignore penalties from middle age.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/arborealHammer.html#_arboreal-hammer" >Arboreal Hammer</a></b><sup></sup>: Tree branches attack opponents.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/atavism.html#_atavism" >Atavism</a></b><sup></sup>: Animal gains advanced creature simple template.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/capeOfWasps.html#_cape-of-wasps" >Cape of Wasps</a></b><sup></sup>: Wasp swarm defends or carries you.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/echolocation.html#_echolocation" >Echolocation</a></b><sup></sup>: Sonic sense gives you blindsight 40 ft.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/plagueCarrier.html#_plague-carrier" >Plague Carrier</a></b><sup></sup>: Target's attacks carry filth fever.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rideTheWaves.html#_ride-the-waves" >Ride the Waves</a></b><sup></sup>: Target can breathe water and swim.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/touchOfSlime.html#_touch-of-slime" >Touch of Slime</a></b><sup></sup>: Touch infests a target with green slime.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-ii" >Vermin Shape II</a></b><sup></sup>: As <i>vermin shape</i>, but Tiny or Large.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/volcanicStorm.html#_volcanic-storm" >Volcanic Storm</a></b><sup></sup>: Hot rocks deal 5d6 damage.</p>
+				<h2 id="5th-level-druid-spells">5th-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/contagion.html#_contagion,-greater" >Contagion, Greater</a></b><sup></sup>: Infect a subject with a magical disease.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/fickleWinds.html#_fickle-winds" >Fickle Winds</a></b><sup></sup>: Wind walls selectively block attacks.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/raiseAnimalCompanion.html#_raise-animal-companion" >Raise Animal Companion</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/raiseDead.html#_raise-dead" >raise dead</a></i>, but on an animal.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/reprobation.html#_reprobation" >Reprobation</a></b><sup></sup>: Marked target is shunned by your religion.</p>
+				<h2 id="6th-level-druid-spells">6th-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance" >Age Resistance</a></b><sup></sup>: Ignore penalties from old age.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/eagleAerie.html#_eagle-aerie" >Eagle Aerie</a></b><sup></sup>: Summon 1 giant eagle/3 levels.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/epidemic.html#_epidemic" >Epidemic</a></b><sup></sup>: Infect a subject with a highly contagious disease.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/plagueStorm.html#_plague-storm" >Plague Storm</a></b><sup></sup>: Cloud infects creatures like <i><a href="/pathfinderRPG/prd//spells/contagion.html#_contagion" >contagion</a></i>.</p>
+				<h2 id="7th-level-druid-spells">7th-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-greater" >Age Resistance, Greater</a></b><sup></sup>: Ignore penalties from venerable age.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/scouringWinds.html#_scouring-winds" >Scouring Winds</a></b><sup></sup>: Winds block vision and deal 3d6 damage.</p>
+				<h2 id="8th-level-druid-spells">8th-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/atavism.html#_atavism,-mass" >Atavism, Mass</a></b><sup></sup>: One animal/level gains advanced template.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/bloodMist.html#_blood-mist" >Blood Mist</a></b><sup></sup>: Mist causes Wisdom damage and rage.</p>
+				<h2 id="9th-level-druid-spells">9th-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/polarMidnight.html#_polar-midnight" >Polar Midnight</a></b><sup></sup>: Cold darkness paralyzes and deals damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/summonElderWorm.html#_summon-elder-worm" >Summon Elder Worm</a></b><sup></sup>: Summon a giant purple worm.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/summonFroghemoth.html#_summon-froghemoth" >Summon Froghemoth</a></b><sup></sup>: Summon a froghemoth.</p>
+				
+				<h1 id="inquisitor-spells">Inquisitor Spells</h1>
+				
+				<h2 id="1st-level-inquisitor-spells">1st-Level Inquisitor Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/earPiercingScream.html#_ear-piercing-scream" >Ear-Piercing Scream</a></b><sup></sup>: Deal sonic damage and daze target.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/forbidAction.html#_forbid-action" >Forbid Action</a></b><sup></sup>: Target obeys command to not do something.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/forcedQuiet.html#_forced-quiet" >Forced Quiet</a></b><sup></sup>: Target cannot make loud noises.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/hexWard.html#_hex-ward" >Hex Ward</a></b><sup></sup>: Target gains +4 on saves against witch hexes.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/hornOfPursuit.html#_horn-of-pursuit" >Horn of Pursuit</a></b><sup></sup>: Create three notes heard miles away.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/interrogation.html#_interrogation" >Interrogation</a></b><sup></sup>: Target answers questions or suffers pain.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/knowTheEnemy.html#_know-the-enemy" >Know the Enemy</a></b><sup></sup>: Gain +10 on a monster <a href="/pathfinderRPG/prd//skills/knowledge.html#_knowledge" >Knowledge</a> check.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/lendJudgment.html#_lend-judgment" >Lend Judgment</a></b><sup></sup>: Ally gains the benefit of one judgment.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/persuasiveGoad.html#_persuasive-goad" >Persuasive Goad</a></b><sup></sup>: Target takes 1d6 nonlethal damage; you gain an <a href="/pathfinderRPG/prd//skills/intimidate.html#_intimidate" >Intimidate</a> bonus.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/sanctifyCorpse.html#_sanctify-corpse" >Sanctify Corpse</a></b><sup></sup>: Prevent a corpse from becoming an undead.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/vocalAlteration.html#_vocal-alteration" >Vocal Alteration</a></b><sup></sup>: <a href="/pathfinderRPG/prd//skills/disguise.html#_disguise" >Disguise</a> target's voice.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/wartrainMount.html#_wartrain-mount" >Wartrain Mount</a></b><sup></sup>: Animal gains combat training.</p>
+				<h2 id="2nd-level-inquisitor-spells">2nd-Level Inquisitor Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/acuteSenses.html#_acute-senses" >Acute Senses</a></b><sup></sup>: Subject gains a bonus on <a href="/pathfinderRPG/prd//skills/perception.html#_perception" >Perception</a> checks.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/delayPain.html#_delay-pain" >Delay Pain</a></b><sup></sup>: Ignore pain for 1 hour/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/disguiseOther.html#_disguise-other" >Disguise Other</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/disguiseSelf.html#_disguise-self" >disguise self</a></i>, but affects you or another.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/distressingTone.html#_distressing-tone" >Distressing Tone</a></b><sup></sup>: Sound sickens 1d4 creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ghostlyDisguise.html#_ghostly-disguise" >Ghostly Disguise</a></b><sup></sup>: You look like a ghost of yourself.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/howlingAgony.html#_howling-agony" >Howling Agony</a></b><sup></sup>: Screaming pain limits the target's actions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/surmountAffliction.html#_surmount-affliction" >Surmount Affliction</a></b><sup></sup>: Temporarily suppress one condition.</p>
+				<h2 id="3rd-level-inquisitor-spells">3rd-Level Inquisitor Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/blessingOfTheMole.html#_blessing-of-the-mole" >Blessing of the Mole</a></b><sup></sup>: 1 ally/level gains darkvision and a +2 <a href="/pathfinderRPG/prd//skills/stealth.html#_stealth" >Stealth</a> bonus.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/countlessEyes.html#_countless-eyes" >Countless Eyes</a></b><sup></sup>: Extra eyes give all-around vision.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/eldritchFever.html#_eldritch-fever" >Eldritch Fever</a></b><sup></sup>: Target gains the eldritch ague spellblight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/terribleRemorse.html#_terrible-remorse" >Terrible Remorse</a></b><sup></sup>: Creature is compelled to harm itself.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/witness.html#_witness" >Witness</a></b><sup></sup>: See through the target's eyes and ears.</p>
+				<h2 id="4th-level-inquisitor-spells">4th-Level Inquisitor Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/battlemindLink.html#_battlemind-link" >Battlemind Link</a></b><sup></sup>: You and an ally gain attack and AC bonuses.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/curseOfMagicNegation.html#_curse-of-magic-negation" >Curse of Magic Negation</a></b><sup></sup>: Target gains the negated spellblight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/daze.html#_daze,-mass" >Daze, Mass</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/daze.html#_daze" >daze</a></i>, but affecting multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/fleshwormInfestation.html#_fleshworm-infestation" >Fleshworm Infestation</a></b><sup></sup>: Worms deal hp and Dex damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/interrogation.html#_interrogation,-greater" >Interrogation, Greater</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/interrogation.html#_interrogation" >interrogation</a></i>, except with more pain and more questions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/leashedShackles.html#_leashed-shackles" >Leashed Shackles</a> </b><sup></sup>: Target is restricted to a specific location.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/reprobation.html#_reprobation" >Reprobation</a></b><sup></sup>: Marked target is shunned by your religion.</p>
+				<h2 id="5th-level-inquisitor-spells">5th-Level Inquisitor Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/divinePursuit.html#_divine-pursuit" >Divine Pursuit</a></b><sup></sup>: Gain a movement type of your prey.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/forbidAction.html#_forbid-action,-greater" >Forbid Action, Greater</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/forbidAction.html#_forbid-action" >forbid action</a></i>, but 1 creature/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/lendJudgment.html#_lend-judgment,-greater">Lend Greater Judgment</b><sup></sup>: Ally receives all your judgments.</p>
+				<h2 id="6th-level-inquisitor-spells">6th-Level Inquisitor Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/overwhelmingPresence.html#_overwhelming-presence" >Overwhelming Presence</a></b><sup></sup>: Creatures bow before you as if you were divine.</p>
+				
+				<h1 id="magus-spells">Magus Spells</h1>
+				
+				<h2 id="1st-level-magus-spells">1st-Level Magus Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/corrosiveTouch.html#_corrosive-touch" >Corrosive Touch</a></b><sup></sup>: Touch attack deals 1d4 acid/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/frostbite.html#_frostbite" >Frostbite</a></b><sup></sup>: Target takes cold damage and is fatigued.</p>
+				<h2 id="2nd-level-magus-spells">2nd-Level Magus Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/bloodTranscription.html#_blood-transcription" >Blood Transcription</a></b><sup></sup>: Learn a spell from the target's blood.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/defensiveShock.html#_defensive-shock" >Defensive Shock</a></b><sup></sup>: Electricity damages your attackers.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/frigidTouch.html#_frigid-touch" >Frigid Touch</a></b><sup></sup>: Target takes cold damage and is staggered.</p>
+				<h2 id="3rd-level-magus-spells">3rd-Level Magus Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/forceHookCharge.html#_force-hook-charge" >Force Hook Charge</a></b><sup></sup>: Hook of force drags you to the target.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/forcePunch.html#_force-punch" >Force Punch</a></b><sup></sup>: Target takes 1d4 force damage per level and is pushed away.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-i" >Monstrous Physique I</a></b><sup></sup>: Take the form and some of the powers of a Small or Medium monstrous humanoid.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-i" >Undead Anatomy I</a></b><sup></sup>: Take the form and some of the powers of a Small or Medium undead.</p>
+				<h2 id="4th-level-magus-spells">4th-Level Magus Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/arcanaTheft.html#_arcana-theft" >Arcana Theft</a></b><sup></sup>: Targeted dispel transfers an effect to you.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-ii" >Monstrous Physique II</a></b><sup></sup>: Take the form and some of the powers of a Tiny or Large monstrous humanoid.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-i-" >Vermin Shape I</a></b><sup></sup>: Take the form and some of the powers of a Small or Medium vermin.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/wallOfSound.html#_wall-of-sound" >Wall of Sound</a></b><sup></sup>: Sonic wall deflects and damages creatures.</p>
+				<h2 id="5th-level-magus-spells">5th-Level Magus Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/acidicSpray.html#_acidic-spray" >Acidic Spray</a></b><sup></sup>: 1d6/level acid damage plus 1 round of acid.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/corrosiveConsumption.html#_corrosive-consumption" >Corrosive Consumption</a></b><sup></sup>: Acidic patch damages an opponent.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iii" >Monstrous Physique III</a></b><sup></sup>: Take the form and some of the powers of a Diminutive or Huge monstrous humanoid.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-ii" >Undead Anatomy II</a></b><sup></sup>: Take the form and some of the powers of a Tiny or Large undead.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-ii" >Vermin Shape II</a></b><sup></sup>: As <i>vermin shape</i>, but Tiny or Large.</p>
+				<h2 id="6th-level-magus-spells">6th-Level Magus Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iv" >Monstrous Physique IV</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iii" >monstrous physique III</a></i>, with more abilities.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-iii" >Undead Anatomy III</a></b><sup></sup>: Take the form and some of the powers of a Diminutive or Huge undead.</p>
+				
+				<h1 id="paladin-spells">Paladin Spells</h1>
+				
+				<h2 id="1st-level-paladin-spells">1st-Level Paladin Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/diagnoseDisease.html#_diagnose-disease" >Diagnose Disease</a></b><sup></sup>: Detect and identify diseases.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/hornOfPursuit.html#_horn-of-pursuit" >Horn of Pursuit</a></b><sup></sup>: Create three notes heard miles away.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/knowTheEnemy.html#_know-the-enemy" >Know the Enemy</a></b><sup></sup>: Gain +10 on a monster <a href="/pathfinderRPG/prd//skills/knowledge.html#_knowledge" >Knowledge</a> check.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/sanctifyCorpse.html#_sanctify-corpse" >Sanctify Corpse</a></b><sup></sup>: Prevent a corpse from becoming an undead.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/wartrainMount.html#_wartrain-mount" >Wartrain Mount</a></b><sup></sup>: Animal gains the combat training general purpose.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/wordOfResolve.html#_word-of-resolve" >Word of Resolve</a></b><sup></sup>: Ally rerolls a save against charm or fear.</p>
+				<h2 id="2nd-level-paladin-spells">2nd-Level Paladin Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/arrowOfLaw.html#_arrow-of-law" >Arrow of Law</a></b><sup></sup>: Harm and possibly daze chaotic creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/holyShield.html#_holy-shield" >Holy Shield</a></b><sup></sup>: Lend your shield's protection to another.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/vestmentOfTheChampion.html#_vestment-of-the-champion" >Vestment of the Champion</a></b><sup></sup>: Armor or shield gains a <br/>+1 enhancement per four levels.</p>
+				<h2 id="3rd-level-paladin-spells">3rd-Level Paladin Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/archonSAura.html#_archon's-aura" >Archon's Aura</a></b><sup></sup>: Aura penalizes enemy attacks and AC.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/bladeOfBrightVictory.html#_blade-of-bright-victory" >Blade of Bright Victory</a></b><sup></sup>: Bonded weapon gains <i><a href="/pathfinderRPG/prd//magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a></i>.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/blessingOfTheMole.html#_blessing-of-the-mole" >Blessing of the Mole</a></b><sup></sup>: 1 ally/level gains darkvision and a +2 <a href="/pathfinderRPG/prd//skills/stealth.html#_stealth" >Stealth</a> bonus.</p>
+				<h2 id="4th-level-paladin-spells">4th-Level Paladin Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/bestowGraceOfTheChampion.html#_bestow-grace-of-the-champion" >Bestow Grace of the Champion</a></b><sup></sup>: Target gains paladin abilities for 1 round/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/raiseAnimalCompanion.html#_raise-animal-companion" >Raise Animal Companion</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/raiseDead.html#_raise-dead" >raise dead</a></i>, but on an animal.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/reprobation.html#_reprobation" >Reprobation</a></b><sup></sup>: Marked target is shunned by your religion.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfHealing.html#_symbol-of-healing" >Symbol of Healing</a></b><sup></sup>: Triggered rune heals living creatures.</p>
+				
+				<h1 id="ranger-spells">Ranger Spells</h1>
+				
+				<h2 id="1st-level-ranger-spells">1st-Level Ranger Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/anticipatePeril.html#_anticipate-peril" >Anticipate Peril</a></b><sup></sup>: Target gains a bonus on one initiative check.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/diagnoseDisease.html#_diagnose-disease" >Diagnose Disease</a></b><sup></sup>: Detect and identify diseases.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/hornOfPursuit.html#_horn-of-pursuit" >Horn of Pursuit</a></b><sup></sup>: Create three notes heard miles away.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/knowTheEnemy.html#_know-the-enemy" >Know the Enemy</a></b><sup></sup>: Gain +10 on a monster <a href="/pathfinderRPG/prd//skills/knowledge.html#_knowledge" >Knowledge</a> check.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/summonMinorAlly.html#_summon-minor-ally" >Summon Minor Ally</a></b><sup></sup>: Summon 1d3 Tiny animals.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/wartrainMount.html#_wartrain-mount" >Wartrain Mount</a></b><sup></sup>: Animal gains combat training.</p>
+				<h2 id="2nd-level-ranger-spells">2nd-Level Ranger Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/acuteSenses.html#_acute-senses" >Acute Senses</a></b><sup></sup>: Subject gains a bonus on <a href="/pathfinderRPG/prd//skills/perception.html#_perception" >Perception</a> checks.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/badgerSFerocity.html#_badger's-ferocity" >Badger's Ferocity</a></b><sup></sup>: Weapons are <i><a href="/pathfinderRPG/prd//magicItems/weapons.html#_weapons-keen" >keen</a></i> while you concentrate.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/webShelter.html#_web-shelter" >Web Shelter</a></b><sup></sup>: Create a comfortable shelter made of webbing.</p>
+				<h2 id="3rd-level-ranger-spells">3rd-Level Ranger Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/blessingOfTheMole.html#_blessing-of-the-mole" >Blessing of the Mole</a></b><sup></sup>: 1 ally/level gains darkvision and a +2 <a href="/pathfinderRPG/prd//skills/stealth.html#_stealth" >Stealth</a> bonus.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/burrow.html#_burrow" >Burrow</a></b><sup></sup>: Target gains a burrow speed of 15.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/fickleWinds.html#_fickle-winds" >Fickle Winds</a></b><sup></sup>: Wind walls selectively block attacks.</p>
+				<h2 id="4th-level-ranger-spells">4th-Level Ranger Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/darkvision.html#_darkvision,-greater" >Darkvision, Greater</a></b><sup></sup>: See 120 ft. in total darkness.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/raiseAnimalCompanion.html#_raise-animal-companion" >Raise Animal Companion</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/raiseDead.html#_raise-dead" >raise dead</a></i>, but on an animal.</p>
+				
+				<h1 id="sorcerer/wizard-spells">Sorcerer/Wizard Spells</h1>
+				
+				<h2 id="1st-level-sorcerer/wizard-spells">1st-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/anticipatePeril.html#_anticipate-peril" >Anticipate Peril</a></b><sup></sup>: Target gains a bonus on one initiative check.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/bungle.html#_bungle" >Bungle</a></b><sup></sup>: Target takes a &ndash;20 penalty on its next attack roll or check. </p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/corrosiveTouch.html#_corrosive-touch" >Corrosive Touch</a></b><sup></sup>: Touch attack deals 1d4 acid/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/decomposeCorpse.html#_decompose-corpse" >Decompose Corpse</a></b><sup></sup>: Turn a corpse into a clean skeleton.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/delusionalPride.html#_delusional-pride" >Delusional Pride</a></b><sup></sup>: Target is penalized on attacks and checks but gains bonus against charms and compulsions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/earPiercingScream.html#_ear-piercing-scream" >Ear-Piercing Scream</a></b><sup></sup>: Deal sonic damage and daze target.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/forcedQuiet.html#_forced-quiet" >Forced Quiet</a></b><sup></sup>: Target cannot make loud noises.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/icicleDagger.html#_icicle-dagger" >Icicle Dagger</a></b><sup></sup>: Masterwork ice dagger deals +1 cold damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/interrogation.html#_interrogation" >Interrogation</a></b><sup></sup>: Target answers questions or suffers pain.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/kiArrow.html#_ki-arrow" >Ki Arrow</a></b><sup></sup>: Arrow deals damage as your unarmed strike.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/polypurposePanacea.html#_polypurpose-panacea" >Polypurpose Panacea</a></b><sup></sup>: Gain a relaxing or entertaining effect.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rayOfSickening.html#_ray-of-sickening" >Ray of Sickening</a></b><sup></sup>: Ray makes the subject sickened.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/restoreCorpse.html#_restore-corpse" >Restore Corpse</a></b><sup></sup>: Skeletal corpse grows flesh.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/shadowWeapon.html#_shadow-weapon" >Shadow Weapon</a></b><sup></sup>: Create a quasi-real masterwork weapon.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/snapdragonFireworks.html#_snapdragon-fireworks" >Snapdragon Fireworks</a></b><sup></sup>: Create 1 dragon firework/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/summonMinorMonster.html#_summon-minor-monster" >Summon Minor Monster</a></b><sup></sup>: Summon 1d3 Tiny animals.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unpreparedCombatant.html#_unprepared-combatant" >Unprepared Combatant</a></b><sup></sup>: Target takes &ndash;4 on initiative and Reflex saves.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/vocalAlteration.html#_vocal-alteration" >Vocal Alteration</a></b><sup></sup>: <a href="/pathfinderRPG/prd//skills/disguise.html#_disguise" >Disguise</a> target's voice.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/youthfulAppearance.html#_youthful-appearance" >Youthful Appearance</a></b><sup></sup>: Target appears younger.</p>
+				<h2 id="2nd-level-sorcerer/wizard-spells">2nd-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/badgerSFerocity.html#_badger's-ferocity" >Badger's Ferocity</a></b><sup></sup>: Weapons are <i><a href="/pathfinderRPG/prd//magicItems/weapons.html#_weapons-keen" >keen</a></i> while you concentrate.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/bloodTranscription.html#_blood-transcription" >Blood Transcription</a></b><sup></sup>: <i>Wizard only. </i>Learn a spell from the target's blood.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/boilingBlood.html#_boiling-blood" >Boiling Blood</a></b><sup></sup>: Targets take fire damage; orcs get +2 Strength.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/compassionateAlly.html#_compassionate-ally" >Compassionate Ally</a></b><sup></sup>: Target is compelled to help injured ally.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/cushioningBands.html#_cushioning-bands" >Cushioning Bands</a></b><sup></sup>: Force bands protect against crushing.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/defensiveShock.html#_defensive-shock" >Defensive Shock</a></b><sup></sup>: Electricity damages your attackers.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/delayPain.html#_delay-pain" >Delay Pain</a></b><sup></sup>: Ignore pain for 1 hour/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/disfiguringTouch.html#_disfiguring-touch-" >Disfiguring Touch</a> </b><sup></sup>: Target becomes disfigured.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/disguiseOther.html#_disguise-other" >Disguise Other</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/disguiseSelf.html#_disguise-self" >disguise self</a></i>, but affects you or another.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/frigidTouch.html#_frigid-touch" >Frigid Touch</a></b><sup></sup>: Target takes cold damage and is staggered.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ghostlyDisguise.html#_ghostly-disguise" >Ghostly Disguise</a></b><sup></sup>: You look like a ghost of yourself.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/hauntingMists.html#_haunting-mists">Haunting Mists</a></b><sup></sup>: Creatures are shaken and take Wis damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/madHallucination.html#_mad-hallucination" >Mad Hallucination</a></b><sup></sup>: Target takes penalties to mental actions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/masterworkTransformation.html#_masterwork-transformation" >Masterwork Transformation</a></b><sup></sup>: Make a normal item into a masterwork one.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/miserablePity.html#_miserable-pity" >Miserable Pity</a></b><sup></sup>: Opponents cannot attack a pathetic creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/oppressiveBoredom.html#_oppressive-boredom" >Oppressive Boredom</a></b><sup></sup>: Target loses its next action.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/perniciousPoison.html#_pernicious-poison" >Pernicious Poison</a></b><sup></sup>: Target takes a &ndash;4 penalty against poison.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/protectivePenumbra.html#_protective-penumbra" >Protective Penumbra</a></b><sup></sup>: Shadow protects the target from light.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/sculptSimulacrum.html#_sculpt-simulacrum-" >Sculpt Simulacrum</a></b><sup></sup>: Alter a simulacrum's appearance.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/shareMemory.html#_share-memory" >Share Memory</a></b><sup></sup>: Share one memory with the target.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/silkToSteel.html#_silk-to-steel" >Silk To Steel</a></b><sup></sup>: Use a scarf as a shield or whip.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/skinsend.html#_skinsend" >Skinsend</a></b><sup></sup>: Animate and possess your own skin as if it were a separate creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/stealVoice.html#_steal-voice" >Steal Voice</a></b><sup></sup>: Target gains the croaking spellblight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfMirroring.html#_symbol-of-mirroring" >Symbol of Mirroring</a></b><sup></sup>: Triggered rune creates mirror images.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unnaturalLust.html#_unnatural-lust" >Unnatural Lust</a></b><sup></sup>: Target is compelled to kiss or caress another creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unshakableChill.html#_unshakable-chill" >Unshakable Chill</a></b><sup></sup>: Target is afflicted with severe cold.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/webShelter.html#_web-shelter" >Web Shelter</a></b><sup></sup>: Create a comfortable shelter made of webbing.</p>
+				<h2 id="3rd-level-sorcerer/wizard-spells">3rd-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/animateDead.html#_animate-dead,-lesser" >Animate Dead, Lesser</a></b><sup></sup>: Create one skeleton or zombie.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/anthropomorphicAnimal.html#_anthropomorphic-animal" >Anthropomorphic Animal</a></b><sup></sup>: Animal becomes bipedal.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ashStorm.html#_ash-storm" >Ash Storm</a></b><sup></sup>: Hamper vision and movement.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/burrow.html#_burrow" >Burrow</a></b><sup></sup>: Target gains a burrow speed of 15.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/countlessEyes.html#_countless-eyes" >Countless Eyes</a></b><sup></sup>: Extra eyes give all-around vision.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/distractingCacophony.html#_distracting-cacophony" >Distracting Cacophony</a></b><sup></sup>: Noise makes it difficult to cast.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/eldritchFever.html#_eldritch-fever" >Eldritch Fever</a></b><sup></sup>: Target gains the eldritch ague spellblight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/eruptivePustules.html#_eruptive-pustules" >Eruptive Pustules</a></b><sup></sup>: Acid boils burst when you are attacked.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/excruciatingDeformation.html#_excruciating-deformation" >Excruciating Deformation</a></b><sup></sup>: Target takes Dex and Con damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/forcePunch.html#_force-punch" >Force Punch</a></b><sup></sup>: Target takes force damage and is pushed away.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/howlingAgony.html#_howling-agony" >Howling Agony</a></b><sup></sup>: Screaming pain limits the target's actions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/kiLeech.html#_ki-leech" >Ki Leech</a></b><sup></sup>: Add to your <i>ki</i> pool when you critically hit.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/loathsomeVeil.html#_loathsome-veil" >Loathsome Veil</a></b><sup></sup>: Nauseate and/or sicken weak creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/madMonkeys.html#_mad-monkeys" >Mad Monkeys</a></b><sup></sup>: Summon a swarm of mischievous monkeys.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/marionettePossession.html#_marionette-possession" >Marionette Possession</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/magicJar.html#_magic-jar" >magic jar</a>, </i>but limited to line of sight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-i" >Monstrous Physique I</a></b><sup></sup>: Take the form and some of the powers of a Small or Medium monstrous humanoid.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rainOfFrogs.html#_rain-of-frogs" >Rain of Frogs</a></b><sup></sup>: Summon a swarm of poisonous frogs.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/recklessInfatuation.html#_reckless-infatuation" >Reckless Infatuation</a></b><sup></sup>: Target is compelled to stay near another.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/sandsOfTime.html#_sands-of-time" >Sands of Time</a></b><sup></sup>: Target temporarily ages.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/stranglingHair.html#_strangling-hair" >Strangling Hair</a></b><sup></sup>: Your hair animates and grapples.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/toxicGift.html#_toxic-gift" >Toxic Gift</a></b><sup></sup>: Target suffers the effect of the poison in you.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unadulteratedLoathing.html#_unadulterated-loathing" >Unadulterated Loathing</a></b><sup></sup>: Target is compelled to avoid another creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-i" >Undead Anatomy I</a></b><sup></sup>: Take the form and some of the powers of a Small or Medium undead.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/visionOfHell.html#_vision-of-hell" >Vision of Hell</a></b><sup></sup>: Illusory hellscape makes creatures shaken.</p>
+				<h2 id="4th-level-sorcerer/wizard-spells">4th-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-lesser" >Age Resistance, Lesser</a></b><sup></sup>: Ignore penalties from middle age.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/agonize.html#_agonize-" >Agonize</a></b><sup></sup>: Pain encourages an outsider to obey you.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/controlSummonedCreature.html#_control-summoned-creature" >Control Summoned Creature</a></b><sup></sup>: Direct a summoned monster as if you had summoned it.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/curseOfMagicNegation.html#_curse-of-magic-negation" >Curse of Magic Negation</a></b><sup></sup>: Target gains the negated spellblight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/darkvision.html#_darkvision,-greater" >Darkvision, Greater</a></b><sup></sup>: See 120 ft. in total darkness.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/daze.html#_daze,-mass" >Daze, Mass</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/daze.html#_daze" >daze</a></i>, but affecting multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/falseLife.html#_false-life,-greater" >False Life, Greater</a></b><sup></sup>: Gain 2d10 temporary hp + 1/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/familiarMelding.html#_familiar-melding" >Familiar Melding</a></b><sup></sup>: Possess your familiar.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/fleshwormInfestation.html#_fleshworm-infestation" >Fleshworm Infestation</a></b><sup></sup>: Worms deal hp and Dex damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/malfunction.html#_malfunction" >Malfunction</a></b><sup></sup>: Construct behaves oddly for 1 round/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/maliciousSpite.html#_malicious-spite" >Malicious Spite</a></b><sup></sup>: Target is compelled to plot against another.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-ii" >Monstrous Physique II</a></b><sup></sup>: Take the form and some of the powers of a Tiny or Large monstrous humanoid.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/overwhelmingGrief.html#_overwhelming-grief" >Overwhelming Grief</a></b><sup></sup>: Grieving target can take no actions and is denied its Dex bonus.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rideTheWaves.html#_ride-the-waves" >Ride the Waves</a></b><sup></sup>: Target can breathe water and swim.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/shadowStep.html#_shadow-step" >Shadow Step</a></b><sup></sup>: Teleport from one shadow to another.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/simulacrum.html#_simulacrum,-lesser" >Simulacrum, Lesser</a></b><sup></sup>: Creates a double of a weak creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfRevelation.html#_symbol-of-revelation" >Symbol of Revelation</a></b><sup></sup>: Triggered symbol reveals illusions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfSlowing.html#_symbol-of-slowing" >Symbol of Slowing</a></b><sup></sup>: Triggered rune slows creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/terribleRemorse.html#_terrible-remorse" >Terrible Remorse</a></b><sup></sup>: Creature is compelled to harm itself.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/touchOfSlime.html#_touch-of-slime" >Touch of Slime</a></b><sup></sup>: Touch infests a target with green slime.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-i-" >Vermin Shape I</a></b><sup></sup>: Take the form and some of the powers of a Small or Medium vermin.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/vitriolicMist.html#_vitriolic-mist" >Vitriolic Mist</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/fireShield.html#_fire-shield" >fire shield</a></i>, except acid damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/volcanicStorm.html#_volcanic-storm" >Volcanic Storm</a></b><sup></sup>: Hot rocks deal 5d6 damage.</p>
+				<h2 id="5th-level-sorcerer/wizard-spells">5th-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/acidicSpray.html#_acidic-spray" >Acidic Spray</a></b><sup></sup>: 1d6/level acid damage plus 1 round of acid.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/astralProjection.html#_astral-projection,-lesser" >Astral Projection, Lesser</a></b><sup></sup>: Limited astral travel.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/corrosiveConsumption.html#_corrosive-consumption" >Corrosive Consumption</a></b><sup></sup>: Acidic patch damages an opponent.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/curseOfDisgust.html#_curse-of-disgust" >Curse of Disgust</a></b><sup></sup>: Target is sickened when viewing a trigger.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/echolocation.html#_echolocation" >Echolocation</a></b><sup></sup>: Sonic sense gives you blindsight 40 ft.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/fickleWinds.html#_fickle-winds" >Fickle Winds</a></b><sup></sup>: Wind walls selectively block attacks.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/icyPrison.html#_icy-prison" >Icy Prison</a></b><sup></sup>: Thick ice holds and damages the target.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/lightningArc.html#_lightning-arc" >Lightning Arc</a></b><sup></sup>: Targets in a line take 1d6 electricity/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iii" >Monstrous Physique III</a></b><sup></sup>: Take the form and some of the powers of a Diminutive or Huge monstrous humanoid.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/plagueCarrier.html#_plague-carrier" >Plague Carrier</a></b><sup></sup>: Target's attacks carry filth fever.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/possessObject.html#_possess-object" >Possess Object</a></b><sup></sup>: Possess and animate one object.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rapidRepair.html#_rapid-repair" >Rapid Repair</a></b><sup></sup>: Construct gains fast healing 5.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/smugNarcissism.html#_smug-narcissism" >Smug Narcissism</a></b><sup></sup>: Target is distracted by its sense of self.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/sonicThrust.html#_sonic-thrust" >Sonic Thrust</a></b><sup></sup>: Sound moves targets away from you.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/sootheConstruct.html#_soothe-construct" >Soothe Construct</a></b><sup></sup>: Reduce the berserk chance of a construct.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfScrying.html#_symbol-of-scrying" >Symbol of Scrying</a></b><sup></sup>: Triggered rune activates scrying sensor.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unbreakableConstruct.html#_unbreakable-construct" >Unbreakable Construct</a></b><sup></sup>: Increase construct hardness or DR.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-ii" >Undead Anatomy II</a></b><sup></sup>: Take the form and some of the powers of a Tiny or Large undead.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-ii" >Vermin Shape II</a></b><sup></sup>: As <i>vermin shape</i>, but Tiny or Large.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/wallOfSound.html#_wall-of-sound" >Wall of Sound</a></b><sup></sup>: Sonic wall deflects and damages creatures.</p>
+				<h2 id="6th-level-sorcerer/wizard-spells">6th-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance" >Age Resistance</a></b><sup></sup>: Ignore penalties from old age.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/battlemindLink.html#_battlemind-link" >Battlemind Link</a></b><sup></sup>: You and an ally gain attack and AC bonuses.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/coldIceStrike.html#_cold-ice-strike" >Cold Ice Strike</a></b><sup></sup>: Cone of ice slivers deals 1d6 cold/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/conjureBlackPudding.html#_conjure-black-pudding" >Conjure Black Pudding</a></b><sup></sup>: Summon a black pudding.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/contagion.html#_contagion,-greater" >Contagion, Greater</a></b><sup></sup>: Infect a subject with a magical disease.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/curse.html#_curse,-major" >Curse, Major</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i>, but harder to remove.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/enviousUrge.html#_envious-urge" >Envious Urge</a></b><sup></sup>: Targets steal from or disarm others.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/iceCrystalTeleport.html#_ice-crystal-teleport" >Ice Crystal Teleport</a></b><sup></sup>: Target is frozen, then teleported.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/leashedShackles.html#_leashed-shackles" >Leashed Shackles</a> </b><sup></sup>: Target is restricted to a specific location.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iv" >Monstrous Physique IV</a></b><sup></sup>: As monstrous physique III, with more abilities.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/serenity.html#_serenity" >Serenity</a></b><sup></sup>: Peaceful feelings harm those attempting violence.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfSealing.html#_symbol-of-sealing" >Symbol of Sealing</a></b><sup></sup>: Create triggered <i><a href="/pathfinderRPG/prd//spells/wallOfForce.html#_wall-of-force" >wall of force</a></i>.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-iii" >Undead Anatomy III</a></b><sup></sup>: Take the form and some of the powers of a Diminutive or Huge undead.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/utterContempt.html#_utter-contempt" >Utter Contempt</a></b><sup></sup>: Target's attitude worsens by two categories.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/vengefulOutrage.html#_vengeful-outrage" >Vengeful Outrage</a></b><sup></sup>: Target is compelled to destroy one enemy.</p>
+				<h2 id="7th-level-sorcerer/wizard-spells">7th-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-greater" >Age Resistance, Greater</a></b><sup></sup>: Ignore penalties from venerable age.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/causticEruption.html#_caustic-eruption" >Caustic Eruption</a></b><sup></sup>: Burst deals 1d6 acid/level and lingers.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/circleOfClarity.html#_circle-of-clarity" >Circle of Clarity</a></b><sup></sup>: Emanation hampers illusions and stealth.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/controlConstruct.html#_control-construct" >Control Construct</a></b><sup></sup>: Take control of a construct.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser" >Create Demiplane, Lesser</a></b><sup></sup>: Create your own demiplane.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/epidemic.html#_epidemic" >Epidemic</a></b><sup></sup>: Infect a subject with a highly contagious disease.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/iceBody.html#_ice-body" >Ice Body</a></b><sup></sup>: Your body becomes living ice.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/joyfulRapture.html#_joyful-rapture" >Joyful Rapture</a></b><sup></sup>: Negate harmful emotions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/kiShout.html#_ki-shout" >Ki Shout</a></b><sup></sup>: Target takes 1d6 sonic/level and is stunned.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/lunarVeil.html#_lunar-veil" >Lunar Veil</a></b><sup></sup>: Dispel light and revert lycanthropes.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/plagueStorm.html#_plague-storm" >Plague Storm</a></b><sup></sup>: Cloud infects creatures like <i><a href="/pathfinderRPG/prd//spells/contagion.html#_contagion" >contagion</a></i>.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/resonatingWord.html#_resonating-word" >Resonating Word</a></b><sup></sup>: Target is damaged, staggered, and stunned.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/scouringWinds.html#_scouring-winds" >Scouring Winds</a></b><sup></sup>: Winds block vision and deal 3d6 damage per round.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/temporaryResurrection.html#_temporary-resurrection" >Temporary Resurrection</a></b><sup></sup>: Bring a creature to life for 24 hours, after which it dies again.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/wavesOfEcstasy.html#_waves-of-ecstasy" >Waves of Ecstasy</a></b><sup></sup>: Pleasure stuns and staggers creatures.</p>
+				<h2 id="8th-level-sorcerer/wizard-spells">8th-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/callConstruct.html#_call-construct" >Call Construct</a></b><sup></sup>: Summon your construct to you.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane" >Create Demiplane</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser" >lesser create demiplane</a></i>, but larger and with planar traits.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/orbOfTheVoid.html#_orb-of-the-void" >Orb of the Void</a></b><sup></sup>: Sphere inflicts negative levels.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/predictionOfFailure.html#_prediction-of-failure" >Prediction of Failure</a></b><sup></sup>: Target is permanently shaken and sickened, and may gain a spellblight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-iv" >Undead Anatomy IV</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-iii" >undead anatomy III</a></i>, but with more abilities.</p>
+				<h2 id="9th-level-sorcerer/wizard-spells">9th-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-greater" >Create Demiplane, Greater</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane" >create demiplane</a></i>, but larger and with more planar traits.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/cursedEarth.html#_cursed-earth" >Cursed Earth</a></b><sup></sup>: Plants die, living creatures catch diseases, or dead creatures rise as zombies.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/icyPrison.html#_icy-prison,-mass" >Icy Prison, Mass</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/icyPrison.html#_icy-prison" >icy prison</a></i>, but it affects 1 creature/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/interplanetaryTeleport.html#_interplanetary-teleport" >Interplanetary Teleport</a></b><sup></sup>: Teleport to another planet.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/overwhelmingPresence.html#_overwhelming-presence" >Overwhelming Presence</a></b><sup></sup>: Creatures bow before you as if you were divine.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rideTheLightning.html#_ride-the-lightning" >Ride the Lightning</a></b><sup></sup>: Transform into electricity.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfStrife.html#_symbol-of-strife">Symbol of Strife</a></b><sup></sup>: Triggered rune makes creatures attack.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfVulnerability.html#_symbol-of-vulnerability" >Symbol of Vulnerability</a></b><sup></sup>: Triggered rune gives penalties.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/transmuteBloodToAcid.html#_transmute-blood-to-acid" >Transmute Blood to Acid</a></b><sup></sup>: Target takes acid damage each round, and its attackers take acid damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/woodenPhalanx.html#_wooden-phalanx" >Wooden Phalanx</a></b><sup></sup>: Creates 1d4+2 temporary wood golems to fight for you.</p>
+				
+				<h1 id="summoner-spells">Summoner Spells</h1>
+				
+				<h2 id="1st-level-summoner-spells">1st-Level Summoner Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/corrosiveTouch.html#_corrosive-touch" >Corrosive Touch</a></b><sup></sup>: Touch attack deals 1d4 acid/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/icicleDagger.html#_icicle-dagger" >Icicle Dagger</a></b><sup></sup>: Masterwork ice dagger deals +1 cold damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rayOfSickening.html#_ray-of-sickening" >Ray of Sickening</a></b><sup></sup>: Ray makes the subject sickened.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/summonMinorMonster.html#_summon-minor-monster" >Summon Minor Monster</a></b><sup></sup>: Summon 1d3 Tiny animals.</p>
+				<h2 id="2nd-level-summoner-spells">2nd-Level Summoner Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/cushioningBands.html#_cushioning-bands" >Cushioning Bands</a></b><sup></sup>: Force bands protect against crushing.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/restoreEidolon.html#_restore-eidolon,-lesser" >Restore Eidolon, Lesser</a></b><sup></sup>: <i><a href="/pathfinderRPG/prd//spells/restoration.html#_restoration-lesser" >Lesser restoration</a></i> for an eidolon.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/webShelter.html#_web-shelter" >Web Shelter</a></b><sup></sup>: Create a comfortable shelter made of webbing.</p>
+				<h2 id="3rd-level-summoner-spells">3rd-Level Summoner Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/agonize.html#_agonize-" >Agonize</a></b><sup></sup>: Pain encourages an outsider to obey you.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/controlSummonedCreature.html#_control-summoned-creature" >Control Summoned Creature</a></b><sup></sup>: Direct a summoned monster as if you had summoned it.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/madMonkeys.html#_mad-monkeys" >Mad Monkeys</a></b><sup></sup>: Summon a swarm of mischievous monkeys.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/marionettePossession.html#_marionette-possession" >Marionette Possession</a></b><sup></sup>: As magic jar, but limited to line of sight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rainOfFrogs.html#_rain-of-frogs" >Rain of Frogs</a></b><sup></sup>: Summon a swarm of poisonous frogs.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/restoreEidolon.html#_restore-eidolon" >Restore Eidolon</a></b><sup></sup>: <i><a href="/pathfinderRPG/prd//spells/restoration.html#_restoration" >Restoration</a></i> for an eidolon.</p>
+				<h2 id="4th-level-summoner-spells">4th-Level Summoner Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/daze.html#_daze,-mass" >Daze, Mass</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/daze.html#_daze" >daze</a></i>, but affecting multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/vitriolicMist.html#_vitriolic-mist" >Vitriolic Mist</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/fireShield.html#_fire-shield" >fire shield</a></i>, except acid damage.</p>
+				<h2 id="5th-level-summoner-spells">5th-Level Summoner Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/conjureBlackPudding.html#_conjure-black-pudding" >Conjure Black Pudding</a></b><sup></sup>: Summon a black pudding.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser" >Create Demiplane, Lesser</a></b><sup></sup>: Create your own demiplane.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/iceCrystalTeleport.html#_ice-crystal-teleport" >Ice Crystal Teleport</a></b><sup></sup>: Target is frozen, then teleported.</p>
+				<h2 id="6th-level-summoner-spells">6th-Level Summoner Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane" >Create Demiplane</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser" >lesser create demiplane</a></i>, but larger and with planar traits.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/eagleAerie.html#_eagle-aerie" >Eagle Aerie</a></b><sup></sup>: Summon 1 giant eagle/3 levels.</p>
+				
+				<h1 id="witch-spells">Witch Spells</h1>
+				
+				<h2 id="1st-level-witch-spells">1st-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/bungle.html#_bungle" >Bungle</a></b><sup></sup>: Target takes a &ndash;20 penalty on its next attack roll or check. </p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/decomposeCorpse.html#_decompose-corpse" >Decompose Corpse</a></b><sup></sup>: Turn a corpse into a clean skeleton.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/delusionalPride.html#_delusional-pride" >Delusional Pride</a></b><sup></sup>: Target is penalized on attacks and checks but gains bonus against charms and compulsions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/diagnoseDisease.html#_diagnose-disease" >Diagnose Disease</a></b><sup></sup>: Detect and identify diseases.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/earPiercingScream.html#_ear-piercing-scream" >Ear-Piercing Scream</a></b><sup></sup>: Deal sonic damage and daze target.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/forcedQuiet.html#_forced-quiet" >Forced Quiet</a></b><sup></sup>: Target cannot make loud noises.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/frostbite.html#_frostbite" >Frostbite</a></b><sup></sup>: Target takes cold damage and is fatigued.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/fumbletongue.html#_fumbletongue" >Fumbletongue</a></b><sup></sup>: Target cannot speak intelligently.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/hexWard.html#_hex-ward" >Hex Ward</a></b><sup></sup>: Target gains +4 on saves against witch hexes.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/icicleDagger.html#_icicle-dagger" >Icicle Dagger</a></b><sup></sup>: Masterwork ice dagger deals +1 cold damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/interrogation.html#_interrogation" >Interrogation</a></b><sup></sup>: Target answers questions or suffers pain.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/kiArrow.html#_ki-arrow" >Ki Arrow</a></b><sup></sup>: Arrow deals damage as your unarmed strike.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rayOfSickening.html#_ray-of-sickening" >Ray of Sickening</a></b><sup></sup>: Ray makes subject sickened.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/removeSickness.html#_remove-sickness" >Remove Sickness</a></b><sup></sup>: Suppress disease, nausea, and the sickened condition.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/restoreCorpse.html#_restore-corpse" >Restore Corpse</a></b><sup></sup>: Skeletal corpse grows flesh.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/sanctifyCorpse.html#_sanctify-corpse" >Sanctify Corpse</a></b><sup></sup>: Prevent a corpse from becoming an undead.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/shadowWeapon.html#_shadow-weapon" >Shadow Weapon</a></b><sup></sup>: Create a quasi-real masterwork weapon.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/summonMinorMonster.html#_summon-minor-monster" >Summon Minor Monster</a></b><sup></sup>: Summon 1d3 Tiny animals.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unpreparedCombatant.html#_unprepared-combatant" >Unprepared Combatant</a></b><sup></sup>: Target takes &ndash;4 on initiative and Reflex saves.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/vocalAlteration.html#_vocal-alteration" >Vocal Alteration</a></b><sup></sup>: <a href="/pathfinderRPG/prd//skills/disguise.html#_disguise" >Disguise</a> target's voice.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/youthfulAppearance.html#_youthful-appearance" >Youthful Appearance</a></b><sup></sup>: Target appears younger.</p>
+				<h2 id="2nd-level-witch-spells">2nd-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/bloodTranscription.html#_blood-transcription" >Blood Transcription</a></b><sup></sup>: Learn a spell from the target's blood.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/boilingBlood.html#_boiling-blood" >Boiling Blood</a></b><sup></sup>: Targets take fire damage; orcs get +2 Strength.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/delayPain.html#_delay-pain" >Delay Pain</a></b><sup></sup>: Ignore pain for 1 hour/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/disfiguringTouch.html#_disfiguring-touch-" >Disfiguring Touch</a> </b><sup></sup>: Target becomes disfigured.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ghostlyDisguise.html#_ghostly-disguise" >Ghostly Disguise</a></b><sup></sup>: You look like a ghost of yourself.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/hauntingMists.html#_haunting-mists">Haunting Mists</b><sup></sup>: Creatures are shaken and take Wis damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/madHallucination.html#_mad-hallucination" >Mad Hallucination</a></b><sup></sup>: Target takes penalties to mental actions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/masterworkTransformation.html#_masterwork-transformation" >Masterwork Transformation</a></b><sup></sup>: Make a normal item into a masterwork one.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/miserablePity.html#_miserable-pity" >Miserable Pity</a></b><sup></sup>: Opponents cannot attack a pathetic creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/perniciousPoison.html#_pernicious-poison" >Pernicious Poison</a></b><sup></sup>: Target takes a &ndash;4 penalty against poison.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/protectivePenumbra.html#_protective-penumbra" >Protective Penumbra</a></b><sup></sup>: Shadow protects the target from light.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/shareMemory.html#_share-memory" >Share Memory</a></b><sup></sup>: Share one memory with the target.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/silkToSteel.html#_silk-to-steel" >Silk to Steel</a></b><sup></sup>: Use a scarf as a shield or whip.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/skinsend.html#_skinsend" >Skinsend</a></b><sup></sup>: Animate and possess your own skin as if it were a separate creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/stealVoice.html#_steal-voice" >Steal Voice</a></b><sup></sup>: Target gains the croaking spellblight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfMirroring.html#_symbol-of-mirroring" >Symbol of Mirroring</a></b><sup></sup>: Triggered rune creates mirror images.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unnaturalLust.html#_unnatural-lust" >Unnatural Lust</a></b><sup></sup>: Target is compelled to kiss or caress another.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unshakableChill.html#_unshakable-chill" >Unshakable Chill</a></b><sup></sup>: Target is afflicted with severe cold.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/webShelter.html#_web-shelter" >Web Shelter</a></b><sup></sup>: Create a comfortable shelter made of webbing.</p>
+				<h2 id="3rd-level-witch-spells">3rd-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/anthropomorphicAnimal.html#_anthropomorphic-animal" >Anthropomorphic Animal</a></b><sup></sup>: Animal becomes bipedal.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ashStorm.html#_ash-storm" >Ash Storm</a></b><sup></sup>: Hamper vision and movement.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/cacklingSkull.html#_cackling-skull" >Cackling Skull</a></b><sup></sup>: Skull acts as <i><a href="/pathfinderRPG/prd//spells/magicMouth.html#_magic-mouth" >magic mouth</a></i>, listeners are shaken.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/countlessEyes.html#_countless-eyes" >Countless Eyes</a></b><sup></sup>: Extra eyes give all-around vision.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/eldritchFever.html#_eldritch-fever" >Eldritch Fever</a></b><sup></sup>: Target gains the eldritch ague spellblight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/eruptivePustules.html#_eruptive-pustules" >Eruptive Pustules</a></b><sup></sup>: Acid boils burst when you are attacked.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/excruciatingDeformation.html#_excruciating-deformation" >Excruciating Deformation</a></b><sup></sup>: Target takes Dex and Con damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/howlingAgony.html#_howling-agony" >Howling Agony</a></b><sup></sup>: Screaming pain limits the target's actions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/kiLeech.html#_ki-leech" >Ki Leech</a></b><sup></sup>: Add to your <i>ki</i> pool when you critically hit.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/loathsomeVeil.html#_loathsome-veil" >Loathsome Veil</a></b><sup></sup>: Nauseates and/or sickens weak creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/marionettePossession.html#_marionette-possession" >Marionette Possession</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/magicJar.html#_magic-jar" >magic jar</a></i>, but limited to line of sight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rainOfFrogs.html#_rain-of-frogs" >Rain of Frogs</a></b><sup></sup>: Summon a swarm of poisonous frogs.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/recklessInfatuation.html#_reckless-infatuation" >Reckless Infatuation</a></b><sup></sup>: Target is compelled to stay near another.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/sandsOfTime.html#_sands-of-time" >Sands of Time</a></b><sup></sup>: Target temporarily ages.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/spitVenom.html#_spit-venom" >Spit Venom</a></b><sup></sup>: Spit blinding black adder venom.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/stranglingHair.html#_strangling-hair" >Strangling Hair</a></b><sup></sup>: Your hair animates and grapples.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/unadulteratedLoathing.html#_unadulterated-loathing" >Unadulterated Loathing</a></b><sup></sup>: Target is compelled to avoid another creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-i-" >Vermin Shape I</a></b><sup></sup>: Take the form and some of the powers of a Small or Medium vermin.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/visionOfHell.html#_vision-of-hell" >Vision of Hell</a></b><sup></sup>: Illusory hellscape makes creatures shaken.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/witness.html#_witness" >Witness</a></b><sup></sup>: See through the target's eyes and ears.</p>
+				<h2 id="4th-level-witch-spells">4th-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-lesser" >Age Resistance, Lesser</a></b><sup></sup>: Ignore penalties from middle age.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/capeOfWasps.html#_cape-of-wasps" >Cape of Wasps</a></b><sup></sup>: Wasp swarm defends or carries you.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/curseOfMagicNegation.html#_curse-of-magic-negation" >Curse of Magic Negation</a></b><sup></sup>: Target gains the negated spellblight.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/daze.html#_daze,-mass" >Daze, Mass</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/daze.html#_daze" >daze</a></i>, but affecting multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/falseLife.html#_false-life,-greater" >False Life, Greater</a></b><sup></sup>: Gain 2d10 temporary hp + 1/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/familiarMelding.html#_familiar-melding" >Familiar Melding</a></b><sup></sup>: Possess your familiar.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/fleshwormInfestation.html#_fleshworm-infestation" >Fleshworm Infestation</a></b><sup></sup>: Worms deal hp and Dex damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/rideTheWaves.html#_ride-the-waves" >Ride the Waves</a></b><sup></sup>: Target can breathe water and swim.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/shadowStep.html#_shadow-step" >Shadow Step</a></b><sup></sup>: Teleport from one shadow to another.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfHealing.html#_symbol-of-healing" >Symbol of Healing</a></b><sup></sup>: Triggered rune heals living creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfRevelation.html#_symbol-of-revelation" >Symbol of Revelation</a></b><sup></sup>: Triggered symbol reveals illusions.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfSlowing.html#_symbol-of-slowing" >Symbol of Slowing</a></b><sup></sup>: Triggered rune slows creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/touchOfSlime.html#_touch-of-slime" >Touch of Slime</a></b><sup></sup>: Touch infests a target with green slime.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-ii" >Vermin Shape II</a></b><sup></sup>: As <i>vermin shape</i>, but Tiny or Large.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/volcanicStorm.html#_volcanic-storm" >Volcanic Storm</a></b><sup></sup>: Hot rocks deal 5d6 damage.</p>
+				<h2 id="5th-level-witch-spells">5th-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/contagion.html#_contagion,-greater" >Contagion, Greater</a></b><sup></sup>: Infect a subject with a magical disease.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/curse.html#_curse,-major" >Curse, Major</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd//spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i>, but harder to remove.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/curseOfDisgust.html#_curse-of-disgust" >Curse of Disgust</a></b><sup></sup>: Target is sickened while viewing trigger.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/plagueCarrier.html#_plague-carrier" >Plague Carrier</a></b><sup></sup>: Target's attacks carry filth fever.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/possessObject.html#_possess-object" >Possess Object</a></b><sup></sup>: Possess and animate one object.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/smugNarcissism.html#_smug-narcissism" >Smug Narcissism</a></b><sup></sup>: Target is distracted by its sense of self.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfScrying.html#_symbol-of-scrying" >Symbol of Scrying</a></b><sup></sup>: Triggered rune activates scrying sensor.</p>
+				<h2 id="6th-level-witch-spells">6th-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance" >Age Resistance</a></b><sup></sup>: Ignore penalties from old age.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/epidemic.html#_epidemic" >Epidemic</a></b><sup></sup>: Infect a subject with a highly contagious disease.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/iceCrystalTeleport.html#_ice-crystal-teleport" >Ice Crystal Teleport</a></b><sup></sup>: Target is frozen, then teleported.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/plagueStorm.html#_plague-storm" >Plague Storm</a></b><sup></sup>: Cloud infects creatures like <i><a href="/pathfinderRPG/prd//spells/contagion.html#_contagion" >contagion</a></i>.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfSealing.html#_symbol-of-sealing" >Symbol of Sealing</a></b><sup></sup>: Create triggered <i><a href="/pathfinderRPG/prd//spells/wallOfForce.html#_wall-of-force" >wall of force</a></i>.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/vengefulOutrage.html#_vengeful-outrage" >Vengeful Outrage</a></b><sup></sup>: Target is compelled to destroy one enemy.</p>
+				<h2 id="7th-level-witch-spells">7th-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-greater" >Age Resistance, Greater</a></b><sup></sup>: Ignore penalties from venerable age.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser" >Create Demiplane, Lesser</a></b><sup></sup>: Create your own demiplane.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/iceBody.html#_ice-body" >Ice Body</a></b><sup></sup>: Your body becomes living ice.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/lunarVeil.html#_lunar-veil" >Lunar Veil</a></b><sup></sup>: Dispel light and revert lycanthropes.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/scouringWinds.html#_scouring-winds" >Scouring Winds</a></b><sup></sup>: Winds block vision and deal 3d6 damage per round.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/temporaryResurrection.html#_temporary-resurrection" >Temporary Resurrection</a></b><sup></sup>: Bring a creature to life for 24 hours.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/wavesOfEcstasy.html#_waves-of-ecstasy" >Waves of Ecstasy</a></b><sup></sup>: Pleasure stuns and staggers creatures.</p>
+				<h2 id="8th-level-witch-spells">8th-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane" >Create Demiplane</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser" >lesser create demiplane</a></i>, but larger and with planar traits.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/predictionOfFailure.html#_prediction-of-failure" >Prediction of Failure</a></b><sup></sup>: Target is permanently shaken and sickened, and may gain a spellblight.</p>
+				<h2 id="9th-level-witch-spells">9th-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-greater" >Create Demiplane, Greater</a></b><sup></sup>: As <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane" >create demiplane</a></i>, but larger and with more planar traits.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/cursedEarth.html#_cursed-earth" >Cursed Earth</a></b><sup></sup>: Plants die, living creatures catch diseases, or dead creatures rise as zombies.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfStrife.html#_symbol-of-strife">Symbol of Strife</a></b><sup></sup>: Triggered rune makes creatures attack.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/symbolOfVulnerability.html#_symbol-of-vulnerability" >Symbol of Vulnerability</a></b><sup></sup>: Triggered rune gives penalties.</p>
+				<p><b><a href="/pathfinderRPG/prd/ultimateMagic/spells/polarMidnight.html#_polar-midnight" >Polar Midnight</a></b><sup></sup>: Cold darkness paralyzes and deals damage.</p>
+
+			</div>
+	
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

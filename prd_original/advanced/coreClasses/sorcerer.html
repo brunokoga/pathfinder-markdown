@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Sorcerer</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Sorcerer",globalNavPath=[{ href: '/pathfinderRPG/prd/advanced/advancedCoreClasses.html', name: 'Advanced Core Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="sorcerer" class="monster-header">Sorcerer</h1>
+				<p>Filled with magical power that screams for release, sorcery is not so much a calling as a blessing&mdash;or a curse. For some sorcerers, this arcane birthright manifests in subtle and carefully controlled ways, assisting in their manipulation of others or the pursuit of lofty goals. For others, it is wild and unpredictable, the primal and explosive lashing out of a power greater than themselves. Presented below are a number of new bloodlines representing the mysterious origin of your sorcerer's abilities. </p>
+				<p>New spells presented in Chapter 5 are marked here with asterisks (*).</p>
+				<h1 id="aquatic">Aquatic</h1>
+				<p>Your family traces its heritage back to the ocean depths, whether scions of undersea empires left in the wake of nomadic sea-tribes, or the spawn of creeping ichthyic infiltrators into remote seaside villages. The song of the sea hums in your blood, calling the waves and all those within to your command.</p>
+				<p><b>Class Skill</b>: <a href="../../skills/swim.html#_swim" >Swim</a>.</p>
+				<p><b>Bonus Spells</b>: <i><a href="../spells/hydraulicPush.html#_hydraulic-push-" >hydraulic push*</a> </i>(3rd), <i><a href="../spells/slipstream.html#_slipstream" >slipstream*</a> </i>(5th), <i><a href="../spells/aqueousOrb.html#_aqueous-orb" >aqueous orb*</a> </i>(7th), <i><a href="../spells/geyser.html#_geyser-" >geyser*</a> </i>(9th), <i><a href="../../spells/controlWater.html#_control-water" >control water</a> </i>(11th), <i><a href="../../spells/beastShape.html#_beast-shape-iv" >beast shape IV</a> </i>(13th), <i><a href="../../spells/summonMonster.html#_summon-monster-vii" >summon monster VII</a> </i>(15th), <i><a href="../spells/seamantle.html#_seamantle" >seamantle*</a> </i>(17th), <i><a href="../spells/worldWave.html#_world-wave-" >world wave*</a> </i>(19th). </p>
+				<p><b>Bonus Feats</b>: <a href="../../feats.html#_athletic" >Athletic</a>, <a href="../../feats.html#_brew-potion" >Brew Potion</a>, <a href="../../feats.html#_defensive-combat-training" >Defensive Combat Training</a>, <a href="../../feats.html#_dodge" >Dodge</a>, <a href="../../feats.html#_mobility" >Mobility</a>, <a href="../../feats.html#_silent-spell" >Silent Spell</a>, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/swim.html#_swim" >Swim</a>), <a href="../../feats.html#_toughness" >Toughness</a>.</p>
+				<p><b>Bloodline Arcana</b>: Whenever you cast a spell of the water type, your effective caster level is increased by one, and summoned creatures with a swim speed or the aquatic or water type gain a +1 morale bonus on attack and damage rolls. </p>
+				<p><b>Bloodline Powers</b>: Your seaborn magical talents awaken changes in you, both mystical and physical, as you develop your powers.</p>
+				<p id="dehydrating-touch"><i>Dehydrating Touch (Sp)</i>: Starting at 1st level, you can make a melee touch attack as a standard action that inflicts 1d6 points of nonlethal damage + 1 for every two sorcerer levels you possess and sickens the target for 1 round. Oozes, plants, and creatures with the aquatic or water subtypes suffer lethal damage instead. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
+				<p id="aquatic-adaptation"><i>Aquatic Adaptation (Ex)</i>: At 3rd level, you gain a swim speed of 30 feet. At 9th level, you gain the amphibious special quality and develop a fat layer that grants a +1 natural armor bonus and resist cold 5. When immersed in water, you gain blindsense 30 feet. At 15th level, you gain a swim speed of 60 feet and blindsense of 60 feet in water.</p>
+				<p id="aquatic-telepathy"><i>Aquatic Telepathy (Su)</i>: At 9th level, you gain telepathy (100 feet) and can communicate with creatures with a swim speed or the aquatic or water types regardless of intelligence. You may cast <i><a href="../../spells/suggestion.html#_suggestion" >suggestion</a> </i>on such creatures a number of times per day equal to your Charisma modifier. This ability is telepathic and does not require audible or visual components. At 15th level, once per day you can telepathically call and request a service from an aquatic, water, or swimming creature as if using <i><a href="../../spells/demand.html#_demand" >demand</a> </i>or <i><a href="../../spells/planarAlly.html#_planar-ally-greater" >greater planar ally</a></i>. </p>
+				<p id="raise-the-deep"><i>Raise the Deep (Sp)</i>: At 15th level, you raise water as per <i><a href="../../spells/controlWater.html#_control-water" >control water</a></i>, but no water need be present. This created water is stationary and does not flow out of the area where you create it; it lasts 1 round per sorcerer level and then disappears. At 20th level, the dimensions of the effect are doubled. You may use this ability once per day.</p>
+				<p id="deep-one"><i>Deep One (Ex)</i>: At 20th level, you gain blindsense 60 feet and your body is covered with fine, slippery scales granting DR 10/piercing, resist cold 20, and continuous <i><a href="../../spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>. Underwater, you gain evasion and blindsight 120 feet, and you are immune to pressure damage from deep water.</p>
+				<h1 id="boreal">Boreal</h1>
+				<p>Descended from inhabitants of the lands of ice and snow, you count among your ancestors giant-kin, troll-born, and frost-rimed spirits. Their savage and raw energies flow down through generations to infuse you to the marrow with the chill of the polar wind, crackling auroras, and the long winter's night. </p>
+				<p><b>Class Skill</b>: <a href="../../skills/survival.html#_survival" >Survival</a>.</p>
+				<p><b>Bonus Spells</b>: <i><a href="../../spells/enlargePerson.html#_enlarge-person" >enlarge person</a> </i>(3rd), <i><a href="../../spells/rage.html#_rage" >rage</a> </i>(5th), <i><a href="../spells/elementalAura.html#_elemental-aura" >elemental aura*</a> </i>(cold only) (7th), <i><a href="../../spells/wallOfIce.html#_wall-of-ice" >wall of ice</a> </i>(9th), <i><a href="../../spells/coneOfCold.html#_cone-of-cold" >cone of cold</a> </i>(11th), <i><a href="../../spells/transformation.html#_transformation" >transformation</a> </i>(13th), <i><a href="../../spells/giantForm.html#_giant-form-i" >giant form I</a> </i>(15th), <i><a href="../../spells/polarRay.html#_polar-ray" >polar ray</a> </i>(17th), <i><a href="../../spells/meteorSwarm.html#_meteor-swarm" >meteor swarm</a> </i>(dealing cold damage) (19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../../feats.html#_arcane-strike" >Arcane Strike</a>, <a href="../../feats.html#_diehard" >Diehard</a>, <a href="../../feats.html#_empower-spell" >Empower Spell</a>, <a href="../../feats.html#_endurance" >Endurance</a>, <a href="../../feats.html#_exotic-weapon-proficiency" >Exotic Weapon Proficiency</a>, <a href="../../feats.html#_power-attack" >Power Attack</a>, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/intimidate.html#_intimidate" >Intimidate</a>), <a href="../../feats.html#_toughness" >Toughness</a>.</p>
+				<p><b>Bloodline Arcana</b>: Whenever you cast a spell with the cold descriptor, increase the spell's save DC by 1.</p>
+				<p><b>Bloodline Powers</b>: Your connection to primeval winters grants you a mastery of cold magic that few can match, and a savagery that fewer still can withstand.</p>
+				<p id="cold-steel"><i>Cold Steel (Sp)</i>: At 1st level, you can touch a weapon or up to 50 pieces of ammunition as a standard action, giving it the <i><a href="../../magicItems/weapons.html#_weapons-frost" >frost</a></i> property for a number of rounds equal to 1/2 your sorcerer level (minimum 1). At 9th level, you can confer the <i><a href="../../magicItems/weapons.html#_weapons-icy-burst" >icy burst</a></i> property instead, but the duration of the power is halved. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
+				<p id="icewalker"><i>Icewalker (Ex)</i>: At 3rd level, you gain resist cold 5 and can move across snow and icy surfaces without penalty and without leaving tracks. At 9th level, you gain resist cold 10 and can climb icy surfaces as if using <i><a href="../../spells/spiderClimb.html#_spider-climb" >spider climb</a>.</i></p>
+				<p id="snow-shroud"><i>Snow Shroud (Su)</i>: At 9th level, you ignore concealment and <a href="../../skills/perception.html#_perception" >Perception</a> penalties in natural or magical snow, ice, fog, and similar weather conditions. In addition, you can surround yourself with a cloak of swirling snow for a number of rounds per day equal to your sorcerer level. This power acts and deals damage as a <i><a href="../../spells/fireShield.html#_fire-shield" >fire shield</a> (chill <a href="../../spells/shield.html#_shield" >shield</a>)</i> that sheds no light. It provides a 20% miss chance on attacks made against you and grants a bonus on <a href="../../skills/stealth.html#_stealth" >Stealth</a> checks equal to 1/2 your sorcerer level in snowy or icy areas. You can use this ability once per day at 9th level, twice per day at 17th, and three times per day at 20th.</p>
+				<p id="blizzard"><i>Blizzard (Sp)</i>: At 15th level, you can create a savage winter storm centered on you. This power acts as <i><a href="../../spells/controlWinds.html#_control-winds" >control winds</a></i>, but in addition the entire area (not including the “eye” at the center of the storm) is affected as a <i><a href="../../spells/sleetStorm.html#_sleet-storm" >sleet storm</a></i> and all in the area are exposed to <a href="../../environment.html#_cold-dangers">extreme cold</a>. You may use this ability once per day.</p>
+				<p id="child-of-ancient-winters"><i>Child of Ancient Winters (Su)</i>: At 20th level, you gain the cold subtype and you become immune to fatigue and exhaustion. In addition, you gain immunity to sneak attacks and critical hits. This power causes you to gain vulnerability to fire. </p>
+				<h1 id="deep-earth">Deep Earth</h1>
+				<p>The echoing cave-songs and the rumble and creak of primal spirits deep below the ground thrum in your soul and in all your family line. You are likely slow, steady, and stable in your thinking, little prone to wandering and preferring to instead find depth in contemplation.</p>
+				<p><b>Class Skill</b>: <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering).</p>
+				<p><b>Bonus Spells</b>: <i><a href="../spells/expeditiousExcavation.html#_expeditious-excavation" >expeditious excavation*</a> </i>(3rd), <i><a href="../../spells/darkvision.html#_darkvision" >darkvision</a> </i>(5th), <i><a href="../spells/shiftingSand.html#_shifting-sand" >shifting sand*</a> </i>(7th), <i><a href="../../spells/stoneskin.html#_stoneskin" >stoneskin</a> </i>(9th), <i><a href="../../spells/spikeStones.html#_spike-stones" >spike stones</a> </i>(11th), <i><a href="../../spells/stoneTell.html#_stone-tell" >stone tell</a> </i>(13th), <i><a href="../../spells/repelMetalOrStone.html#_repel-metal-or-stone" >repel metal or stone</a> </i>(15th), <i><a href="../../spells/earthquake.html#_earthquake" >earthquake</a> </i>(17th), <i><a href="../spells/clashingRocks.html#_clashing-rocks" >clashing rocks*</a> </i>(19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../../feats.html#_acrobatic-steps" >Acrobatic Steps</a>, <a href="../../feats.html#_alertness" >Alertness</a>, <a href="../../feats.html#_blind-fight" >Blind-Fight</a>, <a href="../../feats.html#_forge-ring" >Forge Ring</a>, <a href="../../feats.html#_nimble-moves" >Nimble Moves</a>, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/perception.html#_perception" >Perception</a>), <a href="../../feats.html#_stealthy" >Stealthy</a>, <a href="../../feats.html#_still-spell" >Still Spell</a>.</p>
+				<p><b>Bloodline Arcana</b>: Whenever you and the target of your spell are both underground, increase the spell's save DC by +1.</p>
+				<p><b>Bloodline Powers</b>: The powers of the living rock are within you, and your communion with the strength of stone is refined and enhanced as your power grows.</p>
+				<p id="tremor"><i>Tremor (Sp)</i>: At 1st level, as a standard action, you can cause the ground to shake beneath a single creature within 30 feet, functioning as a trip maneuver using your sorcerer level plus your Charisma modifier in place of your CMB. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
+				<p id="rockseer"><i>Rockseer (Su)</i>: At 3rd level, you gain the stonecunning trait as a dwarf; if already a dwarf, your bonus improves to +4. At 9th level, you gain tremorsense 30 feet. At 15th level, you can see through solid objects as if using a <i><a href="../../magicItems/rings.html#_ring-of-x-ray-vision" >ring of x-ray vision</a></i> for a number of rounds per day equal to your sorcerer level. These rounds do not need to be consecutive.</p>
+				<p id="crystal-shard"><i>Crystal Shard (Sp)</i>: At 9th level, you can touch a metal or stone weapon (or up to 50 pieces of ammunition) as a standard action, giving it the <i><a href="../../magicItems/weapons.html#_weapons-bane" >bane</a></i> property against any creature with the earth subtype, oozes, or constructs made of stone or metal, for 1 minute. You can use this ability once per day at 9th level, twice per day at 17th, and three times per day at 20th.</p>
+				<p id="earth-glide"><i>Earth <a href="../spells/glide.html#_glide-" >Glide</a> (Ex)</i>: At 15th level, you can glide through any sort of natural earth or stone as easily as a fish swims through water, with a burrow speed equal to half your normal speed. You do not leave a tunnel or trace of your passage. You can use this ability for 1 minute per sorcerer level each day. The duration need not be continuous, but it must be used in 1-minute increments.</p>
+				<p id="strength-of-stone"><i>Strength of Stone (Su)</i>: At 20th level, your flesh becomes as hard as stone, giving you DR 10/adamantine, and you become immune to petrification. You suffer no penalties while squeezing through tight spaces and are immune to bull rush, drag, grapple, reposition, and trip maneuvers, and to push and pull effects as long as you are standing on the ground.</p>
+				<h1 id="dreamspun">Dreamspun</h1>
+				<p>Your family is a long line of dreamers, who dream not as ordinary mortals do but rather as those who reach through and touch the supernal realm of dreams and the farthest shores of night. Whether it is a gift or curse is not always clear, but your visions of the past and future call you ineluctably to a life of adventure. </p>
+				<p><b>Class Skill</b>: <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a>.</p>
+				<p><b>Bonus Spells</b>: <i><a href="../../spells/sleep.html#_sleep" >sleep</a> </i>(3rd), <i><a href="../../spells/augury.html#_augury" >augury</a> </i>(5th), <i><a href="../../spells/deepSlumber.html#_deep-slumber" >deep slumber</a> </i>(7th), <i><a href="../../spells/divination.html#_divination" >divination</a> </i>(9th), <i><a href="../../spells/dream.html#_dream" >dream</a> </i>(11th), <i><a href="../../spells/shadowWalk.html#_shadow-walk" >shadow walk</a> </i>(13th), <i><a href="../../spells/vision.html#_vision" >vision</a> </i>(15th), <i><a href="../../spells/momentOfPrescience.html#_moment-of-prescience" >moment of prescience</a> </i>(17th), <i><a href="../../spells/astralProjection.html#_astral-projection" >astral projection</a> </i>(19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../../feats.html#_alertness" >Alertness</a>, <a href="../../feats.html#_blind-fight" >Blind-Fight</a>, <a href="../../feats.html#_combat-expertise" >Combat Expertise</a>, <a href="../../feats.html#_deceitful" >Deceitful</a>, <a href="../../feats.html#_heighten-spell" >Heighten Spell</a>, <a href="../../feats.html#_improved-feint" >Improved Feint</a>, <a href="../../feats.html#_persuasive" >Persuasive</a>, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a>).</p>
+				<p><b>Bloodline Arcana</b>: Whenever you target a single creature with a spell, you gain an insight bonus equal to half the spell's level (minimum +1) for 1 round to your AC and saving throws against any spell or attack made by that creature.</p>
+				<p><b>Bloodline Powers</b>: You reach out into and through the world of dreams to touch the minds and destinies of those around you.</p>
+				<p id="lullaby"><i><a href="../../spells/lullaby.html#_lullaby" >Lullaby</a> (Sp)</i>: At 1st level, you can use <i><a href="../../spells/lullaby.html#_lullaby" >lullaby</a> </i>as a spell-like ability a number of times per day equal to 3 + your Charisma modifier. This effect lasts for 1 minute and does not require concentration. The penalty on saves versus sleep effects increases to &ndash;4.</p>
+				<p id="combat-precognition"><i>Combat Precognition (Su)</i>: Your insight into the future grants you an advantage in combat. At 3rd level and every 4 levels thereafter, you gain a +1 insight bonus on initiative checks.</p>
+				<p id="dreamshaper"><i>Dreamshaper (Sp)</i>: At 9th level, you can manipulate the dreamscape of others, drawing forth or tampering with their subconscious minds. This power allows you to tamper with the target's memories as if using <i><a href="../../spells/modifyMemory.html#_modify-memory" >modify memory</a>, </i>or you may ask questions as if using <i><a href="../../spells/speakWithDead.html#_speak-with-dead" >speak with dead</a> </i>upon a corpse. A successful Will save negates the effect. The DC of this save is equal to 10 + 1/2 your sorcerer level + your Charisma modifier, with further modifiers as the <i><a href="../../spells/nightmare.html#_nightmare" >nightmare</a> </i>spell. You can use this ability once per day at 9th level. At 17th level you can use this ability twice per day, and at 20th, three times per day. </p>
+				<p id="eye-of-somnus"><i>Eye of Somnus (Sp)</i>: At 15th level, you can project your consciousness as if using <i><a href="../../spells/arcaneEye.html#_arcane-eye" >arcane eye</a></i>. In addition, at any point you can cause the <i><a href="../../spells/arcaneEye.html#_arcane-eye" >arcane eye</a> </i>to become visible. The eye can no longer be moved, but it acts as a <i><a href="../../spells/symbolOfSleep.html#_symbol-of-sleep" >symbol of sleep</a> </i>to all who see it. You may use this power once per day.</p>
+				<p id="solipsism"><i>Solipsism (Ex)</i>: At 20th level, you can drift into the dream world, fading from the world around you. You can become incorporeal for 1 minute per sorcerer level. You gain the incorporeal subtype and take only half damage from corporeal magical attacks (you take no damage from nonmagical weapons and objects). Your spells deal only half damage to corporeal creatures, but spells and abilities that do not deal damage function normally. The duration need not be continuous, but it must be used in 1-minute increments.</p>
+				<h1 id="protean">Protean</h1>
+				<p>You have in your veins the ever-changing wildness of primal chaos, the raw essence of unbound creation. Your mind and spirit burst with the constant inspiration of consummate freedom, though you have difficulty following through on a task when another, new and exciting, catches your interest. </p>
+				<p><b>Class Skill</b>: <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (planes).</p>
+				<p><b>Bonus Spells</b>: <i><a href="../../spells/entropicShield.html#_entropic-shield" >entropic shield</a> </i>(3rd), <i><a href="../../spells/blur.html#_blur" >blur</a> </i>(5th), <i><a href="../../spells/gaseousForm.html#_gaseous-form" >gaseous form</a> </i>(7th), <i><a href="../../spells/confusion.html#_confusion" >confusion</a> </i>(9th), <i><a href="../../spells/majorCreation.html#_major-creation" >major creation</a> </i>(11th), <i><a href="../../spells/disintegrate.html#_disintegrate" >disintegrate</a> </i>(13th), <i><a href="../../spells/polymorph.html#_polymorph-greater" >greater polymorph</a> </i>(15th), <i><a href="../../spells/polymorphAnyObject.html#_polymorph-any-object" >polymorph any object</a> </i>(17th), <i><a href="../../spells/shapechange.html#_shapechange" >shapechange</a> </i>(19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../../feats.html#_agile-maneuvers" >Agile Maneuvers</a>, <a href="../../feats.html#_defensive-combat-training" >Defensive Combat Training</a>, <a href="../../feats.html#_enlarge-spell" >Enlarge Spell</a>, <a href="../../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../../feats.html#_improved-great-fortitude" >Improved Great Fortitude</a>, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/craft.html#_craft" >Craft</a> [any]), <a href="../../feats.html#_spell-focus" >Spell Focus</a>, <a href="../../feats.html#_toughness" >Toughness</a>.</p>
+				<p><b>Bloodline Arcana</b>: Your magic of creation and changing is hard to unravel. The DC to dispel transmutation or conjuration (creation) spells that you cast is increased by +4. </p>
+				<p><b>Bloodline Powers</b>: Your ancestral immersion in primordial chaos begets your curiously warped magical talents.</p>
+				<p id="protoplasm"><i>Protoplasm (Sp)</i>: At 1st level, you can create a ball of entropic protoplasm and hurl it at targets within 30 feet. This protoplasm acts as a tanglefoot bag that also inflicts 1 point of acid damage per round to a creature entangled by it. The protoplasm dissolves within 1d3 rounds. You may use this ability a number of times per day equal to 3 + your Charisma modifier. </p>
+				<p id="protean-resistances"><i>Protean Resistances (Ex)</i>: At 3rd level, you gain resist acid 5 and a +2 bonus on saving throws against polymorph, petrification, and transmutation spells or effects. At 9th level, you gain resist acid 10 and your save bonus increases to +4.</p>
+				<p id="reality-wrinkle"><i>Reality Wrinkle (Sp)</i>: At 9th level, you can surround yourself with a mobile, 10-foot-radius emanation of mutable reality. This rippling distortion is similar to <i><a href="../../spells/solidFog.html#_solid-fog" >solid fog</a></i> but does not provide concealment or block line of sight. Your movement is not slowed by this aura. Attacks from outside the aura suffer a 20% miss chance against targets inside the aura. You may use this ability a number of rounds per day equal to your sorcerer level, though this duration need not be continuous.</p>
+				<p id="spatial-tear"><i>Spatial Tear (Sp)</i>: At 15th level, once per day, you can unravel the fibers of reality and ride along them as they snap back into place. This power functions as <i><a href="../../spells/dimensionDoor.html#_dimension-door" >dimension door</a>, </i>while also creating a mass of <i><a href="../../spells/blackTentacles.html#_black-tentacles" >black tentacles</a> </i>centered on your former location. Both of these effects use your sorcerer level as the caster level. At 20th level, you can use this ability twice per day.</p>
+				<p id="avatar-of-chaos"><i>Avatar of Chaos (Ex)</i>: At 20th level, you are infused with the essence of raw chaos. You gain immunity to acid, petrification, and polymorph effects (except when cast on self), as well as a +2 bonus to save DCs and on checks to overcome spell penetration against creatures with the lawful subtype.</p>
+				<h1 id="serpentine">Serpentine</h1>
+				<p>Your bloodline carries the lingering stain of ancient serpent races that ruled when the world was young; your forebears were likely favored slaves anointed by their reptilian masters and gifted with their cold cunning and subtle manipulation. While deception and a mesmeric charm are your birthright, you may struggle for truth in spite of your heritage.</p>
+				<p><b>Class Skill</b>: <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a>.</p>
+				<p><b>Bonus Spells</b>: <i><a href="../../spells/hypnotism.html#_hypnotism" >hypnotism</a> </i>(3rd), <i><a href="../../spells/delayPoison.html#_delay-poison" >delay poison</a> </i>(5th), <i><a href="../../spells/summonMonster.html#_summon-monster-iii" >summon monster III</a> </i>(reptiles only) (7th), <i><a href="../../spells/poison.html#_poison" >poison</a> </i>(9th), <i><a href="../../spells/holdMonster.html#_hold-monster" >hold monster</a> </i>(11th), <i><a href="../../spells/suggestion.html#_suggestion-mass" >mass suggestion</a> </i>(13th), <i><a href="../../spells/summonMonster.html#_summon-monster-vii" >summon monster VII</a> </i>(reptiles only) (15th), <i><a href="../../spells/irresistibleDance.html#_irresistible-dance" >irresistible dance</a> </i>(17th), <i><a href="../../spells/dominateMonster.html#_dominate-monster" >dominate monster</a> </i>(19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../../feats.html#_combat-casting" >Combat Casting</a>, <a href="../../feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="../../feats.html#_deceitful" >Deceitful</a>, <a href="../../feats.html#_deft-hands" >Deft Hands</a>, <a href="../../feats.html#_persuasive" >Persuasive</a>, <a href="../../feats.html#_silent-spell" >Silent Spell</a>, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/bluff.html#_bluff" >Bluff</a>), <a href="../../feats.html#_stealthy" >Stealthy</a>.</p>
+				<p><b>Bloodline Arcana</b>: Your powers of compulsion can affect even bestial creatures. Whenever you cast a mind-affecting or language-dependent spell, it affects animals, magical beasts, and monstrous humanoids as if they were humanoids who understood your language.</p>
+				<p><b>Bloodline Powers</b>: The treacherous and yet hypnotic serpent's blood that flows through you taints your magic with a sinuous and seductive grace.</p>
+				<p id="serpent's-fang"><i>Serpent's Fang (Ex)</i>: At 1st level, you can grow fangs as a free action. These fangs are treated as a natural weapon inflicting 1d4 points of damage plus your Strength modifier (1d3 if you are Small) plus poison (Bite&mdash;injury; <i>save</i> Fort DC 10 + 1/2 your sorcerer level + your Constitution modifier; <i>frequency </i>1/round for 6 rounds; <i>effect </i>1 Con damage; <i>cure </i>1 save). At 5th level, these fangs are considered magical for the purpose of overcoming DR and the poison damage increases to 1d2 Con. At 7th level, your poison requires 2 successful saves to cure. At 11th level, your poison damage increases to 1d4 Con. You can use your fangs for a number of rounds per day equal to 3 + your Charisma modifier.</p>
+				<p id="serpentfriend"><i>Serpentfriend (Ex)</i>: At 3rd level, you can use <i><a href="../../spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a> </i>at will with reptilian animals (including various forms of dinosaurs, lizards, and other cold-blooded creatures), and you gain a viper familiar using your sorcerer level &ndash;2 as your effective wizard level.</p>
+				<p id="snakeskin"><i>Snakeskin (Ex)</i>: At 9th level, you gain a +1 bonus to natural armor, a +2 racial bonus on saves against poison, and a +2 bonus on <a href="../../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> checks. At 13th level and 17th level, these bonuses increase by +1.</p>
+				<p id="den-of-vipers"><i>Den of Vipers (Sp)</i>: At 15th level, you may summon a host of writhing serpents. This power acts as <i><a href="../../spells/creepingDoom.html#_creeping-doom" >creeping doom</a>, </i>but the swarms' poison inflicts Con damage and any creature other than you sharing a space with a swarm is entangled.</p>
+				<p id="scaled-soul"><i>Scaled Soul (Su)</i>: At 20th level, you gain the shapechanger subtype, and you can assume the form of a reptilian humanoid (as <i><a href="../../spells/alterSelf.html#_alter-self" >alter self</a></i>) or snake of Diminutive to Huge size (as <i><a href="../../spells/beastShape.html#_beast-shape-iii" >beast shape III</a></i>) at will. You retain the power of speech and the ability to use somatic spell components when transformed. You also become immune to poison and paralysis. You may use serpent's fang as often as desired, and you may choose to inflict damage to any ability score.</p>
+				<h1 id="shadow">Shadow</h1>
+				<p>Spirits from the shadow plane dally at times in the world of light, and such as these lay with your ancestors once upon a time, imparting the mystery of shadow-stuff into your lineage. You are often sullen and withdrawn, preferring to skulk at the fringes of social circles and keep to yourself, cultivating an air of mystery and majesty that is all your own.</p>
+				<p><b>Class Skill</b>: <a href="../../skills/stealth.html#_stealth" >Stealth</a>.</p>
+				<p><b>Bonus Spells</b>: <i><a href="../../spells/rayOfEnfeeblement.html#_ray-of-enfeeblement" >ray of enfeeblement</a> </i>(3rd), <i><a href="../../spells/darkvision.html#_darkvision" >darkvision</a> </i>(5th), <i><a href="../../spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a> </i>(7th), <i><a href="../../spells/shadowConjuration.html#_shadow-conjuration" >shadow conjuration</a> </i>(9th), <i><a href="../../spells/shadowEvocation.html#_shadow-evocation" >shadow evocation</a> </i>(11th), <i><a href="../../spells/shadowWalk.html#_shadow-walk" >shadow walk</a> </i>(13th), <i><a href="../../spells/powerWordBlind.html#_power-word-blind" >power word blind</a> </i>(15th), <i><a href="../../spells/shadowEvocation.html#_shadow-evocation-greater" >greater <a href="../../magicItems/armor.html#_armor-shadow" >shadow</a> evocation</a> </i>(17th), <i><a href="../../spells/shades.html#_shades" >shades</a> </i>(19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../../feats.html#_acrobatic" >Acrobatic</a>, <a href="../../feats.html#_blind-fight" >Blind-Fight</a>, <a href="../../feats.html#_dodge" >Dodge</a>, <a href="../../feats.html#_quick-draw" >Quick Draw</a>, <a href="../../feats.html#_silent-spell" >Silent Spell</a>, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/stealth.html#_stealth" >Stealth</a>), <a href="../../feats.html#_stealthy" >Stealthy</a>, <a href="../../feats.html#_weapon-finesse" >Weapon Finesse</a>.</p>
+				<p><b>Bloodline Arcana</b>: Whenever you cast a spell with the darkness descriptor or the shadow subschool, you gain a circumstance bonus on <a href="../../skills/stealth.html#_stealth" >Stealth</a> checks equal to the spell's level for 1d4 rounds.</p>
+				<p><b>Bloodline Powers</b>: Your benighted heritage infuses your mastery of magic with the essence of shadowstuff.</p>
+				<p id="shadowstrike"><i>Shadowstrike (Sp)</i>: At 1st level, you can make a melee touch attack as a standard action that inflicts 1d4 points of nonlethal damage + 1 for every two sorcerer levels you possess. In addition, the target is dazzled for 1 minute. Creatures with low-light vision or darkvision are not dazzled by this ability. You can use this ability a number of times per day equal to 3 + your Charisma modifier. </p>
+				<p id="nighteye"><i>Nighteye (Ex)</i>: At 3rd level, you gain darkvision 30 feet. At 9th level, you gain darkvision 60 feet. If you already possess darkvision, its range is increased by these amounts. </p>
+				<p id="shadow-well"><i><a href="../../magicItems/armor.html#_armor-shadow" >Shadow</a> Well (Sp)</i>: At 9th level, you can use the <a href="../../skills/stealth.html#_stealth" >Stealth</a> skill even while being observed and without cover or concealment, as long as you are within 10 feet of a shadow other than your own. In addition, when within an area of darkness or dim light, as a standard action you may choose to switch places with a willing ally within 60 feet, who must also be in darkness or dim light. At 13th level, you can instead switch the positions of two willing allies, each of whom must be within 60 feet of you. Unless otherwise noted, this travel is identical to <i><a href="../../spells/dimensionDoor.html#_dimension-door" >dimension door</a></i>. You may use the ability to switch places once per day at 9th level, plus one additional time per day at 17th level and 20th level.</p>
+				<p id="enveloping-darkness"><i>Enveloping Darkness (Sp)</i>: At 15th level, you may create an area of <i><a href="../../spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i> that you can see through without penalty. All creatures except you are entangled within this darkness unless using <i><a href="../../spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a> </i>or a similar effect. You may use this ability once per day.</p>
+				<p id="shadow-master"><i><a href="../../magicItems/armor.html#_armor-shadow" >Shadow</a> Master (Su)</i>: At 20th level, you can see perfectly in natural or magical darkness. When you use <i><a href="../../spells/shadowConjuration.html#_shadow-conjuration" >shadow conjuration</a></i> or <i><a href="../../spells/shadowEvocation.html#_shadow-evocation" >shadow evocation</a> </i>spells, your creations are 20% more real, and any creatures you create gain the benefits of the <a href="../../feats.html#_augment-summoning" >Augment Summoning</a> feat. </p>
+				<h1 id="starsoul">Starsoul</h1>
+				<p>You come from a line of stargazers and explorers who delved deeply into the darkness beyond the stars. In touching the void, the void touched them, and your mind, spirit, and body yearn to span the gulf between worlds.</p>
+				<p><b>Class Skill</b>: <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (nature).</p>
+				<p><b>Bonus Spells</b>: <i><a href="../../spells/unseenServant.html#_unseen-servant" >unseen servant</a> </i>(3rd), <i><a href="../../spells/glitterdust.html#_glitterdust" >glitterdust</a> </i>(5th), <i><a href="../../spells/blink.html#_blink" >blink</a> </i>(7th), <i><a href="../../spells/callLightningStorm.html#_call-lightning-storm" >call lightning storm</a> </i>(9th; dealing fire damage, damage increased outdoors at night), <i><a href="../../spells/overlandFlight.html#_overland-flight" >overland flight</a> </i>(11th), <i><a href="../../spells/repulsion.html#_repulsion" >repulsion</a> </i>(13th), <i><a href="../../spells/reverseGravity.html#_reverse-gravity" >reverse gravity</a> </i>(15th), <i><a href="../../spells/pryingEyes.html#_prying-eyes-greater" >greater prying eyes</a> </i>(17th), <i><a href="../../spells/meteorSwarm.html#_meteor-swarm" >meteor swarm</a> </i>(19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../../feats.html#_blind-fight" >Blind-Fight</a>, <a href="../../feats.html#_craft-rod" >Craft Rod</a>, <a href="../../feats.html#_dodge" >Dodge</a>, <a href="../../feats.html#_endurance" >Endurance</a>, <a href="../../feats.html#_improved-counterspell" >Improved Counterspell</a>, <a href="../../feats.html#_improved-iron-will" >Improved Iron Will</a>, <a href="../../feats.html#_iron-will" >Iron Will</a>, <a href="../../feats.html#_quicken-spell" >Quicken Spell</a>, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/perception.html#_perception" >Perception</a>), <a href="../../feats.html#_toughness" >Toughness</a>.</p>
+				<p><b>Bloodline Arcana</b>: Whenever you cast an evocation spell, targets that fail their saves are dazzled by tiny sparkling starlights for 1 round per level of the spell. </p>
+				<p><b>Bloodline Powers</b>: Your skyward gaze and communion with the heavens focus and enhance your magical talents.</p>
+				<p id="minute-meteors"><i>Minute Meteors (Sp)</i>: At 1st level, you can summon a rain of tiny meteorites as a standard action to fall in a 5-foot column, 30 feet high, with a range of 30 feet. The meteors inflict 1d4 points of fire damage + 1 per 2 sorcerer levels. A Reflex save negates this damage. The save DC is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. You may use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
+				<p id="voidwalker"><i>Voidwalker (Ex)</i>: At 3rd level, you gain low-light vision and resist cold and fire 5. At 9th level, you no longer need to breathe, as if wearing a <i><a href="../../magicItems/wondrousItems.html#_necklace-of-adaptation" >necklace of adaptation</a></i>. </p>
+				<p id="aurora-borealis"><i>Aurora Borealis (Sp)</i>: At 9th level, you can create a sheet of cascading colors. This power acts as a <i><a href="../../spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i>, but it inflicts cold damage and does not radiate heat. However, one side of the aurora designated by you fascinates creatures within 10 feet, up to a maximum of 2 HD of creatures per sorcerer level. A Will save negates this fascinate effect. The save DC is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. You may use this ability for a number of rounds per day equal to your sorcerer level. These rounds do not need to be consecutive. </p>
+				<p id="breaching-the-gulf"><i>Breaching the Gulf (Sp)</i>: At 15th level, your caster level is increased by 3 when casting spells of the teleportation subschool. In addition, once per day you can teleport a single creature within 30 feet into the void of space if it fails a Will save. The save DC is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. The target can attempt a new saving throw as a full-round action each round to return. While trapped in the airless void, the target takes 6d6 points of cold damage per round and must hold its breath or begin to suffocate.</p>
+				<p id="starborn"><i>Starborn (Ex)</i>: At 20th level, you gain immunity to cold and blindness, and you can see perfectly in natural or magical darkness. In addition, you gain fast healing 1 when you are outdoors at night.</p>
+				<h1 id="stormborn">Stormborn</h1>
+				<p>You trace your heritage to fierce and proud spirits of storm and sky, and living lightning sings in your veins. </p>
+				<p><b>Class Skill</b>: <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (nature).</p>
+				<p><b>Bonus Spells</b>: <i><a href="../../spells/shockingGrasp.html#_shocking-grasp" >shocking grasp</a> </i>(3rd), <i><a href="../../spells/gustOfWind.html#_gust-of-wind" >gust of wind</a> </i>(5th), <i><a href="../../spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a> </i>(7th), <i><a href="../../spells/shout.html#_shout" >shout</a> </i>(9th), <i><a href="../../spells/overlandFlight.html#_overland-flight" >overland flight</a> </i>(11th), <i><a href="../../spells/chainLightning.html#_chain-lightning" >chain lightning</a> </i>(13th), <i><a href="../../spells/controlWeather.html#_control-weather" >control weather</a> </i>(15th), <i><a href="../../spells/whirlwind.html#_whirlwind" >whirlwind</a> </i>(17th), <i><a href="../../spells/stormOfVengeance.html#_storm-of-vengeance" >storm of vengeance</a> </i>(19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../../feats.html#_deadly-aim" >Deadly Aim</a>, <a href="../../feats.html#_dodge" >Dodge</a>, <a href="../../feats.html#_enlarge-spell" >Enlarge Spell</a>, <a href="../../feats.html#_far-shot" >Far Shot</a>, <a href="../../feats.html#_great-fortitude" >Great Fortitude</a>, Point Blank Shot, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/fly.html#_fly" >Fly</a>), <a href="../../feats.html#_wind-stance" >Wind Stance</a>.</p>
+				<p><b>Bloodline Arcana</b>: Whenever you cast a spell with the electricity or sonic descriptor, increase the save DC by 1.</p>
+				<p><b>Bloodline Powers</b>: Your mastery of the storm is reflected in the unique panoply of powers you manifest.</p>
+				<p id="thunderstaff"><i>Thunderstaff (Sp)</i>: At 1st level, you can touch a weapon as a standard action, giving it the <i><a href="../../magicItems/weapons.html#_weapons-shock" >shock</a></i> property for a number of rounds equal to 1/2 your sorcerer level (minimum 1). At 9th level, you can confer the <i><a href="../../magicItems/weapons.html#_weapons-shocking-burst" >shocking burst</a></i> property instead, but the duration of the power is halved. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
+				<p id="stormchild"><i>Stormchild (Ex)</i>: At 3rd level, you gain resist electricity 5 and resist sonic 5, and treat wind effects as being one step less severe. At 9th level, you treat wind effects as being two steps less severe and gain blindsense 60 feet against concealment from natural or magical fog, mist, or weather effects.</p>
+				<p id="thunderbolt"><i>Thunderbolt (Sp)</i>: At 9th level, you can command a stroke of lightning to strike from above in a 5-foot-radius cylinder 60 feet high. The thunderbolt inflicts 1d6 points of damage per sorcerer level; half of this damage is electricity and half is sonic. A Reflex save (DC 10 + 1/2 your sorcerer level + your Charisma modifier) halves this damage. Creatures failing their saves are deafened for 1 round. At 9th level, you can use this ability once per day, at 17th twice per day, and at 20th three times per day. This power has a range of 120 feet.</p>
+				<p id="ride-the-lightning"><i><a href="../../skills/ride.html#_ride" >Ride</a> the Lightning (Sp)</i>: At 15th level, as a full-round action you can become a living lightning bolt and move in a straight line up to 10 times your speed. You do not provoke attacks of opportunity while moving in this way. Creatures or objects in your path are affected as by your thunderbolt power. Creatures do not block your movement but solid barriers do unless they are reduced to 0 hit points. You can use this power once per day for a number of rounds equal to your sorcerer level.</p>
+				<p id="storm-lord"><i>Storm Lord (Ex)</i>: At 20th level, you are one with the storm. You gain immunity to deafness, stunning, and wind effects and gain blindsight 120 feet against concealment from natural or magical fog, mist, or weather. Once per day, when attacked with an electricity or sonic effect, you may forgo your saving throw and absorb the energies of the attack, healing 1 point of damage for every 3 points of damage the attack would otherwise have dealt.</p>
+				<h1 id="verdant">Verdant</h1>
+				<p>Your progenitors infused themselves with raw plant life, binding it into their own tissue and passing it down to their literal seed, giving you innate communion with nature.</p>
+				<p><b>Class Skill</b>: <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (nature).</p>
+				<p><b>Bonus Spells</b>: <i><a href="../../spells/entangle.html#_entangle" >entangle</a> </i>(3rd), <i><a href="../../spells/barkskin.html#_barkskin" >barkskin</a> </i>(5th), <i><a href="../../spells/speakWithPlants.html#_speak-with-plants" >speak with plants</a> </i>(7th), <i><a href="../../spells/commandPlants.html#_command-plants" >command plants</a> </i>(9th), <i><a href="../../spells/wallOfThorns.html#_wall-of-thorns" >wall of thorns</a> </i>(11th), <i><a href="../../spells/transportViaPlants.html#_transport-via-plants" >transport via plants</a> </i>(13th), <i><a href="../../spells/plantShape.html#_plant-shape-iii" >plant shape III</a> </i>(15th), <i><a href="../../spells/animatePlants.html#_animate-plants" >animate plants</a> </i>(17th), <i><a href="../../spells/shambler.html#_shambler" >shambler</a> </i>(19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../../feats.html#_acrobatic-steps" >Acrobatic Steps</a>, <a href="../../feats.html#_craft-staff" >Craft Staff</a>, <a href="../../feats.html#_endurance" >Endurance</a>, <a href="../../feats.html#_extend-spell" >Extend Spell</a>, <a href="../../feats.html#_fleet" >Fleet</a>, <a href="../../feats.html#_nimble-moves" >Nimble Moves</a>, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> [nature]), <a href="../../feats.html#_toughness" >Toughness</a>.</p>
+				<p><b>Bloodline Arcana</b>: Whenever you cast a spell with a range of personal, your skin toughens, granting you a natural armor bonus equal to the spell's level for 1d4 rounds. This bonus does not stack with any other natural armor bonuses you might have.</p>
+				<p><b>Bloodline Powers</b>: The power of living things infuses every aspect of your magic, as you draw power from nature and its life energies flow through you. </p>
+				<p id="tanglevine"><i>Tanglevine (Sp)</i>: At 1st level, as a standard action, you can create a 15-foot-long, animated vine that springs from your hand. This vine lasts for 1 round and can be used to make a single disarm, steal, or trip combat maneuver, using your sorcerer level plus your Charisma modifier in place of your normal CMB. You can use this power a number of times per day equal to 3 + your Charisma modifier.</p>
+				<p id="photosynthesis"><i>Photosynthesis (Ex)</i>: At 3rd level, you feed upon nature's raw essence. Your need to eat and sleep is reduced as if wearing a <i><a href="../../magicItems/rings.html#_ring-of-sustenance" >ring of sustenance</a></i>, and you gain a +2 racial bonus on saving throws made against poison and sleep effects. At 9th level, these bonuses increase to +4.</p>
+				<p id="massmorph"><i>Massmorph (Sp)</i>: At 9th level, as a full-round action, you can alter the size and health of plant life, as if using <i><a href="../../spells/plantGrowth.html#_plant-growth" >plant growth</a> </i>or <i><a href="../../spells/diminishPlants.html#_diminish-plants" >diminish plants</a></i>. Alternatively, you can transform one willing non-plant creature per sorcerer level (no two of which can be more than 30 feet apart) as <i><a href="../../spells/treeShape.html#_tree-shape" >tree shape</a></i>. You may transform creatures as <i><a href="../../spells/plantShape.html#_plant-shape-i" >plant shape I</a> </i>at 15th level, or <i><a href="../../spells/plantShape.html#_plant-shape-ii" >plant shape II</a></i> at 20th level. You can transform non-plant creatures using this power once per day.</p>
+				<p id="rooting"><i>Rooting (Ex)</i>: At 15th level, as a move action, you can extend roots into the ground. Your speed is reduced to 5 feet, but you gain a +4 bonus to natural armor and a +10 bonus to CMD against bull rush, overrun, reposition, and trip maneuvers. You also gain tremorsense 30 feet and fast healing 1. You can use this power for a number of minutes per day equal to your sorcerer level. This duration need not be consecutive, but it must be used in 1-minute increments.</p>
+				<p id="shepherd-of-the-trees"><i>Shepherd of the Trees (Su)</i>: At 20th level, your verdant heritage fully manifests. You gain a +4 natural armor bonus. You gain immunity to paralysis, poison, polymorph, sleep, and stunning, and you gain tremorsense 30 feet even when not rooted.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

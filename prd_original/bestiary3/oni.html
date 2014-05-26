@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Oni</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Oni",globalNavPath=[{ href: '/pathfinderRPG/prd/bestiary3/monsterIndex.html', name: 'Bestiary 3 Index'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body"><div>
+				<h1 id="oni" class="monster-header">Oni</h1>
+				<p>Oni are a race of evil spirits, native to the Material Plane, that manifest physical bodies based upon the shapes and desires of humanoid mortals. In pure spirit form, an oni is nothing but a disembodied evil longing for the sins of the flesh. In this form, oni are harmless and invisible. The majority of these bodiless oni were once kami who failed their wards, or more often, who deliberately abandoned them. As punishment, they were stripped of their ability to form a physical body and then cast into the void. Rarely, a mortal creature's soul can become a disembodied oni upon death, or in even rarer cases, after a truly evil individual has undergone a particularly vile ritual that ends in suicide. These oni are more often destined for positions of great power and strength than most. </p>
+				<p>Eventually, an oni's spirit manifests a physical body on the Material Plane. The methods by which this may occur vary, but the process generally takes place in areas already despoiled by sin, tragedy, or cruelty. The type of oni a spirit transforms into is influenced by a wide variety of variables, ranging from the nature of what the oni spirit was before to the location where it is reborn into the realm of flesh and blood. Once an oni manifests its physical body, that body becomes its true form for the rest of its life&mdash;all oni are shapechangers, but this original form is the form in which they are born and the form they revert to upon death.</p>
+				<p>An oni's true form is always similar to that of a specific type of humanoid, save that it is always deformed and monstrous to look upon. Tusks, additional eyes, or strangely colored skin are common physical attributes. Yet while they have hideous forms, all oni are capable of changing their shape to assume forms more pleasant to the civilized eye. The type of shapes an oni can assume depend upon its species, but all can transform into some form of humanoid. Oni use this ability to infiltrate humanoid societies, either to prey upon the weak or to rule them in disguise.</p>
+				<p>In order to understand oni, it is important to consider that most of these beings were once spirits tasked with protecting a material realm they now believe is undeserving of such care and concern&mdash;indeed, the physical world is to be dominated and consumed. They arrive in physical form starved for sensory experience, and never fully sate their desire to gorge on such experiences. Most oni seek to attain positions of leadership and power, often in the guise of a normal humanoid, in order to secure a never-ending supply of sensory experiences. It is also important to understand that oni's immoderation is also motivated by their corrupted and evil natures&mdash;that is, no pleasure is more enjoyable than one that deprives or wounds another.</p>
+				<p>Oni retain their hatred of the kami upon reentering the Material Plane as physical creatures, and often their depredations and violations of the world can be directly tied to their efforts to destroy kami or the kami's works. Oni tend not to congregate with others of their kind, being most comfortable in positions of leadership over enslaved or oppressed societies populated by humanoids they can masquerade as. Yet, at times, particularly powerful oni abandon this mindset and instead gather to their side entire legions of oni drawn from all types. The oni known collectively as the yai&mdash;oni with an affinity for true giants&mdash;are most often responsible for such actions, and when a  yai builds such an army of oni, the humanoid lands shake with terror.</p>
+				<p>Theoretically, as many types of oni exist as there are types of humanoids, although in reality, certain types of oni are much more populous than others. The ogre mage, an oni associated with ogres, is the best-known and most commonly encountered type of oni, for reasons that still send scholars of oni lore into spiraling arguments with seemingly no end. Beyond the oni detailed on the following pages, the atamahuta (ettins), ja noi (hobgoblins), nogitsune (kitsune), and wind yai (cloud giants) are relatively well known. Oni with associations to bugbears, great cyclopes, stone giants, trolls, troglodytes, and other races exist as well. And above even the mighty void yai there exist the oni demigods&mdash;entities of nearly incomprehensible power known as the oni daimyo.</p>
+
+<h2>Known Oni Daimyo</h2>
+<p>Countless oni stalk the world, slaking their greed and bloodlust to the misery of humanoids. The great leaders among the oni, beings known as daimyo, are as numerous as the nations of the world, and all oni seek to climb the rungs of power to become such powerful entities. The following list includes oni daimyo that have power in ways that make them known and feared outside their own domains. Most of these nefarious oni command armies or control points through which other oni can enter the world.</p>
+<ul><li>Akuma, the Horned King (ogre mage)</li>
+<li>Chimon, Hunter of Blood (ogre mage)</li>
+<li>Guyuku, the Sea Devil (water oni)</li>
+<li>Inma, Empress of the World (void oni)</li>
+<li>Muronna, the Dark Mother (ogre mage)</li>
+<li>Nataka, the Red King (fire oni)</li>
+<li>Onmyuza, Dancer in Flesh (ogre mage)</li>
+<li>Ushitora, Keeper of the Oni Gate (void oni)</li>
+<li>Uzumae, Daimyo of the North (kuwa oni)</li>
+<li>Yabu, Lord of the Kazan Caldera (fire oni)</li></ul>
+
+				<h1 id="oni,-fire-yai" class="monster-header">Oni, Fire Yai</h1>
+				<p class="flavor-text">This fanged, three-eyed giant rages in its finely crafted armor, its skin as red as a smoldering ember.</p>
+				<p class="stat-block-title">Fire Yai <span class="stat-block-cr">CR 15</span></p>
+				<p class="stat-block-xp">XP 51,200</p>
+				<p class="stat-block-1">NE Large outsider (fire, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype" >giant</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_native-subtype" >native</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_oni-subtype" >oni</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype" >shapechanger</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +23</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 29, touch 10, flat-footed 28 (+8 armor, +1 Dex, +11 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 229 (17d10+136); regeneration 5 (acid or <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>)</p>
+				<p class="stat-block-1"><b>Fort</b> +18, <b>Ref</b> +10, <b>Will</b> +15</p>
+				<p class="stat-block-1"><b>Immune</b> fire; <b>SR</b> 26</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerability to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a></p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., fly 60 ft. (good); 30 ft., fly 40 ft. (good) in armor</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+1 katana</i>* +27/+22/+17/+12 (2d6+16/18&ndash;20) or <br/>2 slams +26 (1d10+15)</p>
+				<p class="stat-block-1"><b>Ranged</b> fiery missile +19 touch (4d6 fire plus burn)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> burn (2d6, DC 26), smoke form</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 15th; concentration +17)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/darkness.html#_darkness" >darkness</a></i>, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> (self only), <i><a href="/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray" >scorching ray</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster" >charm monster</a></i> (DC 16), <i><a href="/pathfinderRPG/prd/spells/deepSlumber.html#_deep-slumber" >deep slumber</a></i> (DC 15), <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i> (DC 15), <i><a href="/pathfinderRPG/prd/spells/fireShield.html#_fire-shield" >fire shield</a></i> (warm shield only), <i><a href="/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/incendiaryCloud.html#_incendiary-cloud" >incendiary cloud</a></i> (DC 20)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 31, <b>Dex</b> 16, <b>Con</b> 26, <b>Int</b> 14, <b>Wis</b> 17, <b>Cha</b> 15</p>
+				<p class="stat-block-1"><b>Base Atk</b> +17; <b>CMB</b> +28; <b>CMD</b> 41</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_cleave">Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_great-cleave">Great Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-overrun">Improved Overrun</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +22, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (weapons) +12, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (armor) +12, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +11, <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> +11, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +14, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +22, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +14, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +23, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +23, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +11, <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +14</p>
+				<p class="stat-block-1"><b>Languages</b> Common, Giant</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >change shape</a> (Medium or Large humanoid; <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i> or <i><a href="/pathfinderRPG/prd/spells/giantForm.html#_giant-form-i" >giant form I</a></i>)</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> temperate or warm hills or mountains</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, band (1 plus 4&ndash;8 fire giants), tribe (1 plus 20&ndash;30 fire giants), or dynasty (1 plus 2&ndash;20 other <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_oni-subtype" >oni</a>)</p>
+				<p  class="stat-block-1"><b>Treasure</b> standard (<i>+1 banded mail</i>, <i>+1 katana</i>, other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Fiery Missile (Su)</b> As a swift action, a fire yai can launch a bolt of fire from its third eye. This attack has a range of 180 feet with no range increment.</p>
+				<p class="stat-block-1"><b>Smoke Form (Sp)</b> As a standard action, a fire yai can turn into a cloud of smoke. This functions like <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i>, except the cloud has the properties of the smoke cloud from a <i><a href="/pathfinderRPG/prd/spells/pyrotechnics.html#_pyrotechnics" >pyrotechnics</a></i> spell (Fort DC 26 negates the effects of the smoke cloud). The fire yai can end this ability as a standard action.</p>
+
+				<p>Fire yai prefer to live in luxury&mdash;an orderly and well-built abode is essential. Even a lone fire yai prefers to build or inhabit a fortified stone dwelling in its territory, and surrounds itself with as many luxuries as it can acquire. Vain, greedy, and brutal, fire yai are the most impulsive of their kind&mdash;several tales tell of clever heroes taunting fire yai to act rashly. They rarely let challenges pass uncontested and react quickly to squelch any threat to their rule.</p>
+				<p>While many fire yai seek out tribes of fire giants to infiltrate and rule, not all follow this compulsion. Capable of assuming the form of many types of humanoid, some fire yai seek to subtly invade and eventually rule entire nations of humanoids from within.</p>
+				<p>A fire yai is 16 feet tall and weighs 7,000 pounds.</p>
+
+				<h1 id="oni,-ice-yai" class="monster-header">Oni, Ice Yai</h1>
+				<p class="flavor-text">This blue-skinned giant has three eyes, fangs, and claws. Its hair seems to be formed of delicate strands of ice.</p>
+				<p class="stat-block-title">Ice Yai <span class="stat-block-cr">CR 14</span></p>
+				<p class="stat-block-xp">XP 38,400</p>
+				<p class="stat-block-1">CE Large outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_oni-subtype" >oni</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype" >giant</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_native-subtype" >native</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype" >shapechanger</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +22</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 27, touch 12, flat-footed 24 (+4 armor, +2 Dex, +1 dodge, +11 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 200 (16d10+112); regeneration 5 (fire or acid)</p>
+				<p class="stat-block-1"><b>Fort</b> +17, <b>Ref</b> +7, <b>Will</b> +12</p>
+				<p class="stat-block-1"><b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>; <b>SR</b> 25</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerability to fire </p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 50 ft., fly 50 ft. (perfect)</p>
+				<p class="stat-block-1"><b>Melee</b> 4 slams +24 (2d8+9)</p>
+				<p class="stat-block-1"><b>Ranged</b> icy missile +17 (4d6 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> staggering strikes</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 18th; concentration +22)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a>, <a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/darkness.html#_darkness" >darkness</a></i>, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> (self only)</p>
+				<p class="stat-block-2">3/day&mdash; <i><a href="/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster" >charm monster</a></i> (DC 18), <i><a href="/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold" >cone of cold</a></i> (DC 19), <i><a href="/pathfinderRPG/prd/spells/deepSlumber.html#_deep-slumber" >deep slumber</a></i> (DC 17), <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i> (self only)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/polarRay.html#_polar-ray" >polar ray</a></i>, <i><a href="/pathfinderRPG/prd/spells/solidFog.html#_solid-fog" >solid fog</a></i></p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 29, <b>Dex</b> 14, <b>Con</b> 25, <b>Int</b> 12, <b>Wis</b> 15, <b>Cha</b> 18</p>
+				<p class="stat-block-1"><b>Base Atk</b> +16; <b>CMB</b> +26; <b>CMD</b> 39</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_cleave">Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_great-cleave">Great Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_mobility">Mobility</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_spring-attack">Spring Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +23, <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> +13, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +20, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +23, <br/><a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +11, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +22, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +13, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +8, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +17 (+21 in snow), <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +14; <b>Racial Modifiers</b> +4 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> in snow</p>
+				<p class="stat-block-1"><b>Languages</b> Common, Giant</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >change shape</a> (Medium or Large humanoid; <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i> or <i><a href="/pathfinderRPG/prd/spells/giantForm.html#_giant-form-i" >giant form I</a></i>)</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> mountains</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or gang (1 plus 4&ndash;16 frost giants)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Icy Missile (Su)</b> As a swift action, the ice yai can fire a dart of ice from its third eye. This dart is a ranged touch attack (+20 attack bonus), dealing 4d6 points of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> damage on a hit. This attack has a range of 180 feet with no range increment.</p>
+				<p class="stat-block-1"><b>Staggering Strikes (Ex)</b> An ice yai can strike twice per round with its two slam attacks. A creature struck by more than two of these slam attacks in a round must make a DC 28 Fortitude save or be staggered for 1 round. The save DC is Strength-based.</p>
+				
+				<p>The ice yai is a sinister creature that combines the brutality of a frost giant with the grace and style of a skilled martial artist. Although its magical powers are formidable, it prefers to fight in melee using its slam attacks, leading its minions in merciless combat. It uses its mobility to cast combat spells or launch shards of ice from its third eye.</p>
+				<p>An ice yai is a natural leader among frost giants, tempering their savagery with its own wisdom. A tribe led by an ice yai may still raid settlements of neighboring humanoids, but the tribe soon learns the value of establishing regular tributes and willing sacrifices&mdash;the ice yai teach that methods that rely upon the threat of violence are often even more effective than actual violence. Despite this strangely enlightened philosophy, an ice yai never passes up an opportunity to reinforce its capacity for slaughter, and will often demand that its subjects take part in show battles, both for the entertainment of the tribe and to nurture the ice yai's insatiable ego and sense of dominion over its subjects.</p>
+
+				<h1 id="oni,-kuwa" class="monster-header">Oni, Kuwa</h1>
+				<p class="flavor-text">This golden-skinned fiend has horns, fangs, and bulging eyes. It grips a spiked club in its four-fingered claws.</p>
+				<p class="stat-block-title">Kuwa <span class="stat-block-cr">CR 4</span></p>
+				<p class="stat-block-xp">XP 1,200</p>
+				<p class="stat-block-1">LE Medium outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_human-subtype" >human</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_native-subtype" >native</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_oni-subtype" >oni</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype" >shapechanger</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +10</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 19, touch 10, flat-footed 19 (+8 armor, +1 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 42 (5d10+15); regeneration 5 (acid or fire)</p>
+				<p class="stat-block-1"><b>Fort</b> +7, <b>Ref</b> +4, <b>Will</b> +6</p>
+				<p class="stat-block-1"><b>SR</b> 15</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft. (40 ft. without armor)</p>
+				<p class="stat-block-1"><b>Melee </b>mwk greatclub +10 (1d10+6) or <br/>2 claws +9 (1d6+6)</p>
+				<p class="stat-block-1"><b>Ranged </b>mwk composite longbow +9 (1d8+4/&times;3)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 5th; concentration +8)</p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/spells/darkness.html#_darkness" >darkness</a>, <a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/charmPerson.html#_charm-person" >charm person</a></i> (DC 14), <i><a href="/pathfinderRPG/prd/spells/deepSlumber.html#_deep-slumber" >deep slumber</a></i> (DC 16), <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> (self only)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 17, <b>Con</b> 16, <b>Int</b> 12, <b>Wis </b>15, <b>Cha</b> 17</p>
+				<p class="stat-block-1"><b>Base Atk</b> +5; <b>CMB</b> +9; <b>CMD</b> 22</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_cleave">Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +11, <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> +7, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +11, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +9, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +10, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +10, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +3, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +4, <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +11</p>
+				<p class="stat-block-1"><b>Languages</b> Common</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >change shape</a> (any <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_human-subtype" >human</a>; <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i>)</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or gang (1 plus 3&ndash;10 humans of 1st&ndash;3rd level)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (masterwork half-plate, masterwork greatclub, masterwork composite longbow <br/>[+4 Str] with 20 arrows, other treasure)</p>
+				
+				<p>While the majority of oni tend to be larger than life, and thus often end up having associations with giants and other enormous humanoids, not all of them are born into physical bodies that match their boundless appetites for cruelty. The kuwa are an example of this, for they are oni who clothe themselves in human flesh. While their true forms remain unmistakably fiendish, with golden skin, claws, and monstrous visages with short sharp horns, kuwa are most at home living in disguise among humans. As with most oni, they generally avoid their own kind, and instead seek positions of power in human cities, often as guard captains, guildmasters (particularly of thieves' guilds), and aristocrats. Most kuwa avoid taking on the role of a spellcaster unless they possess class levels in an appropriate class. Likewise, all but the most ambitious kuwa avoid positions of true authority, such as king or mayor. Kuwa are most comfortable in the upper echelon of command, but avoid positions so important that they have too many eyes on them. To a kuwa, a position of leadership that doesn't allow frequent abuse of that power is a waste, and by aiming for less publicly visible positions, the kuwa increases its opportunities for such abuse.</p>
+				<p>Once a kuwa secures a position in a human society, the accumulation of wealth becomes its primary motivation. A kuwa wants to live a life of decadence and sensual pleasure, and like any oni, it wants to propagate its own kind. Its strength and magical powers enable it to easily dominate normal folk, allowing it to gather groups of thuggish, like-minded humans to lead in banditry and worse.</p>
+				<p>A typical kuwa stands about 6 feet in height and weighs 190 pounds.</p>
+
+				<h1 id="oni,-spirit" class="monster-header">Oni, Spirit</h1>
+				<p class="flavor-text">This evil-looking animated mask shows the face of a horned fiend, its eyes popping and its leering smile full of fangs.</p>
+				<p class="stat-block-title">Spirit Oni <span class="stat-block-cr">CR 2</span></p>
+				<p class="stat-block-xp">XP 600</p>
+				<p class="stat-block-1">NE Tiny outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_native-subtype" >native</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_oni-subtype" >oni</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> darkvision 60 ft., <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +7</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 17, touch 16, flat-footed 13 (+4 Dex, +1 natural, +2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 19 (3d10+3); fast healing 2</p>
+				<p class="stat-block-1"><b>Fort</b> +2, <b>Ref</b> +7, <b>Will</b> +4</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 10 ft., fly 30 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> bite +9 (1d4&ndash;2), gore +9 (1d4&ndash;2 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a></p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 6th; concentration +8)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> (self only), <i><a href="/pathfinderRPG/prd/spells/mageHand.html#_mage-hand" >mage hand</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/command.html#_command" >command</a></i> (DC 13), <i><a href="/pathfinderRPG/prd/spells/sleep.html#_sleep" >sleep</a></i> (DC 13)</p>
+				<p class="stat-block-2">1/week&mdash;<i><a href="/pathfinderRPG/prd/spells/commune.html#_commune" >commune</a></i> (CL 12th, 6 questions)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 6, <b>Dex</b> 19, <b>Con</b> 12, <b>Int</b> 13, <b>Wis</b> 12, <b>Cha</b> 15</p>
+				<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +5; <b>CMD</b> 13 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +7, <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +8, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +16, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +7, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +7, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +7, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +4, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +17</p>
+				<p class="stat-block-1"><b>Languages</b> Common</p>
+				<p class="stat-block-1"><b>SQ</b> mask symbiosis</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or rack (3&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Mask Symbiosis (Ex)</b> A spirit <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_oni-subtype" >oni</a> can be worn as a mask by a willing Small or Medium creature. While worn in this way, the wearer can see through the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_oni-subtype" >oni</a>'s eyes and speak through its mouth, although the wearer retains its own senses and voice. The spirit <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_oni-subtype" >oni</a> remains a separate creature, and must detach from its host's face (as a move action) if it wishes to take any action of its own (including attacking or using a spell-like ability). While a spirit <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_oni-subtype" >oni</a> is worn as a mask, it grants a +2 insight bonus on its host's <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >Poison</a> (Ex)</b> Gore&mdash;injury; <i>save</i> Fort DC 12; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1d2 Cha; <i>cure</i> 2 consecutive saves.</p>
+				
+				<p>Most oni that emerge on the Material Plane do so into a new body of humanoid flesh, yet this is not the case for all oni. Periodically, when an evil spellcaster wishes to engage the servitude of an oni as a familiar, the result is something relatively unusual&mdash;an oni made flesh directly from its spiritual form rather than one who takes the features of a humanoid as its own.</p>
+				<p>Any lawful evil 7th-level spellcaster who takes the <a href="/pathfinderRPG/prd/feats.html#_improved-familiar" >Improved Familiar</a> feat can gain a spirit oni as a familiar. The ritual to gain such a familiar requires the spellcaster to craft a particularly fiendish and fierce-looking oni mask&mdash;this does not require a <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> check or any additional expenditure of gold, and is assumed to be part of the overall ritual for securing the familiar. When the ritual is complete a raw oni spirit is lured into the mask, which immediately transforms it into the animate, living creature presented here.</p>
+				<p>While the ritual binds the oni to its new master, it also robs the oni of its immediate chance to achieve a human form. As a result, spirit oni are foul-tempered and cantankerous creatures, even to their masters. They must be regularly reprimanded and disciplined, lest their jealousy and bitterness get the better of them. </p>
+				<p>When a spirit oni's master dies, the spirit oni gains free will and the ability to make its own choices&mdash;but the spirit oni's innate cowardice and dishonor usually prevents it from taking its own life in hopes of returning to true spirit form and then returning as a proper oni. Rather than extinguishing themselves, such masterless spirit oni seek out more powerful oni and offer their services to their superiors, in hopes that they might someday be granted a promotion from their lowly state to something more befitting their egos and desires.</p>
+
+				<h1 id="oni,-void-yai" class="monster-header">Oni, Void Yai</h1>
+				<p class="flavor-text">This towering, three-eyed horned giant carries himself with the self-assurance of an undefeated champion of countless wars.</p>
+				<p class="stat-block-title">Void Yai <span class="stat-block-cr">CR 20</span></p>
+				<p class="stat-block-xp">XP 307,200</p>
+				<p class="stat-block-1">LE Huge outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype" >giant</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_native-subtype" >native</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_oni-subtype" >oni</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype" >shapechanger</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft., low-light vision, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +29</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 36, touch 9, flat-footed 35 (+9 armor, +1 Dex, +18 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 379 (23d10+253); regeneration 15 (fire or <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> spells)</p>
+				<p class="stat-block-1"><b>Fort</b> +24, <b>Ref</b> +9, <b>Will</b> +21</p>
+				<p class="stat-block-1"><b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>; <b>SR</b> 31</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., fly 40 ft. (good); 60 ft., fly 60 ft. without armor</p>
+				<p class="stat-block-1"><b>Melee</b> mwk greatclub +39/+34/+29/+24 (3d8+25/19&ndash;20) or <br/>2 slams +23 (2d6+25)</p>
+				<p class="stat-block-1"><b>Ranged</b> void missile +23 touch (6d6 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_energy-drain" >energy drain</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> commanding voice, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_energy-drain" >energy drain</a> (2 levels, DC 28), void trap</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 20th; concentration +27)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/fireShield.html#_fire-shield" >fire shield</a></i> (chill shield), <i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i>, <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i> (self only), <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/teleport.html#_teleport-greater" >greater teleport</a></i> (self plus 50 lbs. of objects only), <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> (self only), <i><a href="/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation" >minor creation</a>, <a href="/pathfinderRPG/prd/spells/vision.html#_vision" >vision</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold" >cone of cold</a></i> (DC 22), <i><a href="/pathfinderRPG/prd/spells/demand.html#_demand" >demand</a></i> (DC 25), <i><a href="/pathfinderRPG/prd/spells/dominatePerson.html#_dominate-person" >dominate person</a></i> (DC 22), <i><a href="/pathfinderRPG/prd/spells/majorCreation.html#_major-creation" >major creation</a></i>, <i><a href="/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster-mass" >mass charm monster</a></i> (DC 25), <i><a href="/pathfinderRPG/prd/spells/polarRay.html#_polar-ray" >polar ray</a>, <a href="/pathfinderRPG/prd/spells/teleportObject.html#_teleport-object" >teleport object</a></i> (DC 24)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/implosion.html#_implosion" >implosion</a></i> (DC 26), <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> (DC 24)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 44, <b>Dex</b> 15, <b>Con</b> 32, <b>Int</b> 18, <b>Wis</b> 23, <b>Cha</b> 25</p>
+				<p class="stat-block-1"><b>Base Atk</b> +23; <b>CMB</b> +42; <b>CMD</b> 54</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow" >Awesome Blow</a>, <a href="/pathfinderRPG/prd/feats.html#_cleave">Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-bull-rush">Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (greatclub), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-vital-strike">Improved Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_staggering-critical">Staggering Critical</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +17 (+25 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +30, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +20, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +30, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +27, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +24, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) +14, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +27, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +29, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +29, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +24, <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +30</p>
+				<p class="stat-block-1"><b>Languages</b> Common, Giant</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >change shape</a> (Large, Huge, or Gargantuan humanoid; <i><a href="/pathfinderRPG/prd/spells/giantForm.html#_giant-form-ii" >giant form II</a></i>), void form</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> or temperate mountains</p>
+				<p class="stat-block-1"><b>Organization</b> solitary</p>
+				<p class="stat-block-1"><b>Treasure</b> double (masterwork full plate, masterwork greatclub, other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Commanding Voice (Su) </b>A void <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_oni-subtype" >oni</a> gains a +4 racial bonus on the save DC of any charm or compulsion effects it uses against humanoids.</p>
+				<p class="stat-block-1"><b>Void Form (Su) </b>A void yai may become <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_incorporeal-subtype" >incorporeal</a> as a swift action. In this form, it appears as a solid black shadow of its true form. It gains the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_incorporeal-subtype" >incorporeal</a> subtype and <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_incorporeal-subtype" >incorporeal</a> defensive ability while in void form. Any gear or armor the yai carries becomes <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_incorporeal-subtype" >incorporeal</a> as well&mdash;it loses its AC bonus from armor and natural armor, but gains a deflection bonus to its AC equal to its Charisma modifier (+7 for most void yai, for an AC of 16). It may still speak while <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_incorporeal-subtype" >incorporeal</a> and can still use its spell-like and special abilities. </p>
+				<p class="stat-block-1"><b>Void Missile (Su)</b> As a swift action, a void yai can launch a bolt of darkness from its third eye. Damage caused by this missile is negative energy damage. This attack has a range of 180 feet with no range increment.</p>
+				<p class="stat-block-1"><b>Void Trap (Su)</b> When a void <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_oni-subtype" >oni</a> uses any teleportation effect on itself (including its <i><a href="/pathfinderRPG/prd/spells/teleport.html#_teleport-greater" >greater teleport</a></i> and <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> spell-like abilities, but not its <i><a href="/pathfinderRPG/prd/spells/teleportObject.html#_teleport-object" >teleport object</a></i> spell-like ability), it can choose to arrive at its destination in void form as a free action. When it does so, it leaves behind a temporary lesser <i>sphere of annihilation</i> in a square of its choice that was part of its space before it teleported. This <i>sphere of annihilation</i> cannot be caused to move by other creatures, but the sphere itself moves at a fly speed of 30 feet (perfect) toward the closest Tiny or larger creature on the <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_oni-subtype" >oni</a>'s next turn. If no appropriate creature is within 30 feet, the sphere does not move that round. If the sphere enters a square occupied by a creature (or if a creature touches the sphere), that creature is affected as if by a <i><a href="/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate" >disintegrate</a></i> spell (CL 20th, DC 23). Once the sphere damages a creature with this effect, the sphere vanishes&mdash;it also vanishes on its own after 24 hours in the unlikely event that it never discharges on a creature. The save DC is Charisma-based.</p>
+				
+				<p>The concept of the void is a difficult one for many individuals to grasp, for it encompasses more than just an absence of anything. The concept of “void” as an element also represents the heavens above, the dark places between the stars, the nature of the spiritual world, and even the capacity to create and envision new ideas. The void yai represents all of these possibilities, interpreted in a way that exemplifies the evil of the oni race.</p>
+				<p>Unlike lesser oni, the void yai does not represent any single humanoid race&mdash;the closest it comes is perhaps the rune giant, and certainly the void yai superficially resembles monsters of legend, with its dark, heavily muscled body, horns, and fangs. A void yai manifests when the combination of an extremely powerful oni spirt and an overwhelmingly evil location intersect at precisely the right time. Rarely, an eldritch transformation spontaneously elevates an existing yai to the vaunted status of void yai&mdash;whispers of vile rituals that an oni can perform to quicken this transformation keep some sages awake at night, for if such rituals existed, then all oni could potentially become void yai&mdash;a sobering thought indeed, given the void yai's daunting capacity for cruelty. As with almost all oni, the void oni's use of weapons and armor seems like cruel overkill. A void oni is 20 feet tall and weighs 10,000 pounds.</p>
+				<p>Void yai turn toward the Material Plane to satisfy their desires, lording over lesser creatures with the aid of the void. A void yai usually claims a huge territory, bringing much larger creatures to heel as servants. As with fire yai, a void yai makes frequent use of lesser oni as its minions, but prefers to surround itself with whatever giant tribe or society it has conquered. Rarely, a void yai commands kingdoms of smaller humanoids, but since the immense void yai has no ability to assume the shape of such small and insignificant creatures, it often feels awkward and out of place. More so than other yai, void yai are ashamed of their true appearance&mdash;their vanity is such that most are masters of using their change shape ability to appear as breathtakingly handsome or beautiful giants, and it is in this form they prefer to live. Only when combat begins does their rage take control, causing them to revert to their true, horrific shapes.</p>
+				<h1 id="voidlords">Voidlords</h1>
+				<p>Between the considerable power of the typical void yai and the divine might of the oni daimyos exists a middling category of unique void yai. But to even use the term “middling” in this context is something of a folly, for these unique void yai, known collectively as the voidlords, are among the most powerful creatures to walk the Material Plane.</p>
+				<p>While void yai typically content themselves with ruling nations, voidlords arrive with a greater mission&mdash;to control entire worlds and bring all that dwell upon these worlds to their knees. Voidlords are always void yai with additional racial Hit Dice or class levels&mdash;levels of fighter, monk, and rogue are favorite choices for voidlords. These powerful outsiders generally eschew spellcasting classes under the opinion that might and the oni's inborn supernatural abilities are a greater path to conquest than mortal magic. In addition to having the typical void yai abilities, each voidlord possesses an additional number of powers keyed to that voidlord's particular area of focus. Two sample voidlord foci are listed below, but these represent only a tiny fraction of the total possible.</p>
+				<p><b>Martial Arts</b>: A voidlord of martial arts always attacks with unarmed strikes&mdash;it is treated as a 20th-level monk with the flurry of blows ability for the purposes of determining its damage and number of attacks per round with its unarmed strikes. This voidlord gains Stunning Fist as a bonus feat, and gains the use of the following spell-like abilities three times per day: <i><a href="/pathfinderRPG/prd/spells/forcefulHand.html#_forceful-hand" >forceful hand</a></i>, <i><a href="/pathfinderRPG/prd/spells/graspingHand.html#_grasping-hand" >grasping hand</a></i>, and <i><a href="/pathfinderRPG/prd/spells/shout.html#_shout-greater" >greater shout</a></i>.</p>
+				<p><b>Swordplay</b>: A voidlord of sword fighting always carries a sword of some sort&mdash;typically a katana. These voidlords gain the ability to use the following spell-like abilities three times per day: <i><a href="/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier" >blade barrier</a></i>, <i><a href="/pathfinderRPG/prd/spells/keenEdge.html#_keen-edge" >keen edge</a></i>, and <i><a href="/pathfinderRPG/prd/spells/mageSSword.html#_mage-s-sword" >mage's sword</a></i>. They are automatically proficient in the use of swords, and any sword they wield is treated as a <i>+5 weapon</i>, in addition to any other magical qualities the weapon might have. A voidlord of swordplay can also permanently transform any magic weapon (save for artifacts) into a sword of any size or type by touch.</p>
+
+				<h1 id="oni,-water-yai" class="monster-header">Oni, Water Yai</h1>
+				<p class="flavor-text">This towering woman has blue skin, small fangs, and a third eye glaring from her forehead. Her robes are soaking wet.</p>
+				<p class="stat-block-title">Water Yai <span class="stat-block-cr">CR 18</span></p>
+				<p class="stat-block-xp">XP 153,600</p>
+				<p class="stat-block-1">CE Huge outsider (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype" >aquatic</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype" >giant</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_native-subtype" >native</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_oni-subtype" >oni</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype" >shapechanger</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +26</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 32, touch 11, flat-footed 29 (+6 armor, +3 Dex, +15 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp </b>297 (22d10+176); regeneration 10 (fire or <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype" >good</a> spells)</p>
+				<p class="stat-block-1"><b>Fort</b> +21, <b>Ref</b> +10, <b>Will</b> +18</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>; <b>Immune</b> acid; <b>SR</b> 29</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 50 ft., fly 60 ft. (good), swim 60 ft.</p>
+				<p class="stat-block-1"><b>Melee </b>mwk spear +35/+30/+25/+20 (3d6+21/19&ndash;20/&times;3) or <br/>2 slams +34 (2d6+14)</p>
+				<p class="stat-block-1"><b>Ranged</b> acidic missile +23 (4d6 acid plus nausea)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft. (20 ft. with spear)</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 18th; concentration +24)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a>, <a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a>, <a href="/pathfinderRPG/prd/spells/waterWalk.html#_water-walk" >water walk</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> (self only), <i>liquid form, <a href="/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing" >water breathing</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster" >charm monster</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold" >cone of cold</a> </i>(DC 21), <i><a href="/pathfinderRPG/prd/spells/controlWater.html#_control-water" >control water</a>, <a href="/pathfinderRPG/prd/spells/polarRay.html#_polar-ray" >polar ray</a></i></p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str </b>39, <b>Dex</b> 17, <b>Con</b> 27, <b>Int </b>16, <b>Wis</b> 20, <b>Cha</b> 22</p>
+				<p class="stat-block-1"><b>Base Atk</b> +22; <b>CMB</b> +38 (+40 bull rush, disarm); <b>CMD</b> 51 (53 vs. bull rush, disarm)</p>
+				<p class="stat-block-1"><b>Feats </b><a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow" >Awesome Blow</a>, <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/feats.html#_cleave">Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-bull-rush">Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (spear), Improved Disarm, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +21 (+29 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +27, <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> +24, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +24, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +27, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +24, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +26, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (sing) +24, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +26, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +21, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +43</p>
+				<p class="stat-block-1"><b>Languages</b> Common, Giant</p>
+				<p class="stat-block-1"><b>SQ</b> amphibious, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape" >change shape</a> (Medium, Large, or Huge humanoid; <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i> or <i><a href="/pathfinderRPG/prd/spells/giantForm.html#_giant-form-ii" >giant form II</a></i>)</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a></p>
+				<p class="stat-block-1"><b>Organization</b> solitary</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (masterwork spear, other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Acidic Missile (Su)</b> As a swift action, a <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a> yai can launch a bolt of acid from its third eye. Any creature struck by this bolt must also make a DC 29 Fortitude save to avoid becoming nauseated for 1 round by the overwhelming stench of the acid. This attack has a range of 180 feet with no range increment. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Flowing Robes (Su) </b>A <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a> yai wears a special silk kimono infused with magical <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a>. This kimono grants a +6 armor bonus. These robes function as armor only for <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a> yai.</p>
+				<p class="stat-block-1"><b>Liquid Form (Sp)</b> As a standard action, a <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a> yai can turn into a mobile pool of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a>. This functions like <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i>, except that the yai cannot fly in this form. It retains its own base speed, and its swim speed doubles to 120 feet. The <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a> yai can end this ability as a standard action.</p>
+				
+				<p>The water yai clad themselves in the flesh of storm giants, yet these yai are more at home dwelling beneath the waves than they are above them. Unlike most oni, water yai have no real longing to rule or infiltrate societies&mdash;yet they still enjoy posing as humanoids. They often assume the forms of enormous merfolk in the water, but prefer to adopt the shapes of storm giants when on land. The water yai then pursues its favorite decadence&mdash;the acclimation of material wealth and luxuries. Water yai tend to be easily distracted by beautiful treasures, and despite their evil natures are prone to acts of unexpected frivolity.</p>
+
+</div>
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

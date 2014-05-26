@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Inquisitor</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Inquisitor",globalNavPath=[{ href: '/pathfinderRPG/prd/advanced/advancedBaseClasses.html', name: 'Advanced Base Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="inquisitor" class="monster-header">Inquisitor</h1>
+				<p>Grim and determined, the inquisitor roots out enemies of the faith, using trickery and guile when righteousness and purity is not enough. Although inquisitors are dedicated to a deity, they are above many of the normal rules and conventions of the church. They answer to their deity and their own sense of justice alone, and are willing to take extreme measures to meet their goals.</p>
+				<p id="role"><b>Role</b>: Inquisitors tend to move from place to place, chasing down enemies and researching emerging threats. As a result, they often travel with others, if for no other reason than to mask their presence. Inquisitors work with members of their faith whenever possible, but even such allies are not above suspicion.</p>
+				<p id="alignment"><b>Alignment</b>: An inquisitor's alignment must be within one step of her deity's, along either the law/chaos axis or the good/evil axis.</p>
+				<p id="hit-dice"><b>Hit Dice</b>: d8.</p>
+				<h1 id="class-skills">Class Skills</h1>
+				<p>The inquisitor's class skills are <a href="../../skills/bluff.html#_bluff" >Bluff</a> (Cha), <a href="../../skills/climb.html#_climb" >Climb</a> (Str), <a href="../../skills/craft.html#_craft" >Craft</a> (Int), <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> (Cha), <a href="../../skills/disguise.html#_disguise" >Disguise</a> (Cha), <a href="../../skills/heal.html#_heal" >Heal</a> (Wis), <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> (Cha), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) (Int), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) (Int), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (nature) (Int), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) (Int), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) (Int), <a href="../../skills/perception.html#_perception" >Perception</a> (Wis), <a href="../../skills/profession.html#_profession" >Profession</a> (Wis), <a href="../../skills/ride.html#_ride" >Ride</a> (Dex), <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> (Wis), <a href="../../skills/spellcraft.html#_spellcraft" >Spellcraft</a> (Int), <a href="../../skills/stealth.html#_stealth" >Stealth</a> (Dex), <a href="../../skills/survival.html#_survival" >Survival</a> (Wis), and <a href="../../skills/swim.html#_swim" >Swim</a> (Str). </p>
+				<p id="skill-ranks-per-level"><b>Skill Ranks per Level</b>: 6 + Int modifier.</p>
+			
+<div class="table"><table id="table-2-3:-inquisitor"><caption>Table:  Inquisitor</caption>
+<thead><tr id="level-bonus-save-save-save-special-1st-2nd-3rd-4th-5th-6th"><th rowspan="2">Level</th><th rowspan="2">Base Attack Bonus</th><th rowspan="2">Fort Save</th><th rowspan="2">Ref Save</th><th rowspan="2">Will Save</th><th rowspan="2">Special</th><th colspan="6">Spells per Day</th></tr>
+<tr><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th></tr></thead>
+<tr class="odd"><td>1st</td><td>+0</td><td>+2</td><td>+0</td><td>+2</td><td style="white-space: normal;"><a href="#domain" >Domain</a>, <a href="#judgment" >judgment</a> 1/day, <a href="#monster-lore" >monster lore</a>, <a href="#orisons" >orisons</a>, <a href="#stern-gaze" >stern gaze</a></td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>2nd</td><td>+1</td><td>+3</td><td>+0</td><td>+3</td><td style="white-space: normal;"><a href="#cunning-initiative" >Cunning initiative</a>, <i>detect <a href="#alignment" >alignment</a></i>, <a href="#track" >track</a></td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>3rd</td><td>+2</td><td>+3</td><td>+1</td><td>+3</td><td style="white-space: normal;"><a href="#solo-tactics" >Solo tactics</a>, <a href="#teamwork-feat" >teamwork feat</a></td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>4th</td><td>+3</td><td>+4</td><td>+1</td><td>+4</td><td style="white-space: normal;"><a href="#judgment" >Judgment</a> 2/day</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>5th</td><td>+3</td><td>+4</td><td>+1</td><td>+4</td><td style="white-space: normal;"><a href="#bane" >Bane</a>, <i><a href="../../spells/discernLies.html#_discern-lies" >discern lies</a></i></td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>6th</td><td>+4</td><td>+5</td><td>+2</td><td>+5</td><td style="white-space: normal;"><a href="#teamwork-feat" >Teamwork feat</a></td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>7th</td><td>+5</td><td>+5</td><td>+2</td><td>+5</td><td style="white-space: normal;"><a href="#judgment" >Judgment</a> 3/day</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>8th</td><td>+6/+1</td><td>+6</td><td>+2</td><td>+6</td><td style="white-space: normal;"><a href="#second-judgment" >Second judgment</a></td><td>4</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>9th</td><td>+6/+1</td><td>+6</td><td>+3</td><td>+6</td><td style="white-space: normal;"><a href="#teamwork-feat" >Teamwork feat</a></td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>10th</td><td>+7/+2</td><td>+7</td><td>+3</td><td>+7</td><td style="white-space: normal;"><a href="#judgment" >Judgment</a> 4/day</td><td>5</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>11th</td><td>+8/+3</td><td>+7</td><td>+3</td><td>+7</td><td style="white-space: normal;"><a href="#stalwart" >Stalwart</a></td><td>5</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>12th</td><td>+9/+4</td><td>+8</td><td>+4</td><td>+8</td><td style="white-space: normal;"><a href="#greater-bane" >Greater bane</a>, <a href="#teamwork-feat" >teamwork feat</a></td><td>5</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>13th</td><td>+9/+4</td><td>+8</td><td>+4</td><td>+8</td><td style="white-space: normal;"><a href="#judgment" >Judgment</a> 5/day</td><td>5</td><td>5</td><td>4</td><td>3</td><td>1</td><td>&mdash;</td></tr>
+<tr class="even"><td>14th</td><td>+10/+5</td><td>+9</td><td>+4</td><td>+9</td><td style="white-space: normal;"><a href="#exploit-weakness" >Exploit weakness</a></td><td>5</td><td>5</td><td>4</td><td>4</td><td>2</td><td>&mdash;</td></tr>
+<tr class="odd"><td>15th</td><td>+11/+6/+1</td><td>+9</td><td>+5</td><td>+9</td><td style="white-space: normal;"><a href="#teamwork-feat" >Teamwork feat</a></td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td></tr>
+<tr class="even"><td>16th</td><td>+12/+7/+2</td><td>+10</td><td>+5</td><td>+10</td><td style="white-space: normal;"><a href="#judgment" >Judgment</a> 6/day, <a href="#third-judgment" >third judgment</a></td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td><td>1</td></tr>
+<tr class="odd"><td>17th</td><td>+12/+7/+2</td><td>+10</td><td>+5</td><td>+10</td><td style="white-space: normal;"><a href="#slayer" >Slayer</a></td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td>2</td></tr>
+<tr class="even"><td>18th</td><td>+13/+8/+3</td><td>+11</td><td>+6</td><td>+11</td><td style="white-space: normal;"><a href="#teamwork-feat" >Teamwork feat</a></td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td><td>3</td></tr>
+<tr class="odd"><td>19th</td><td>+14/+9/+4</td><td>+11</td><td>+6</td><td>+11</td><td style="white-space: normal;"><a href="#judgment" >Judgment</a> 7/day</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td></tr>
+<tr class="even"><td>20th</td><td>+15/+10/+5</td><td>+12</td><td>+6</td><td>+12</td><td style="white-space: normal;"><a href="#true-judgment" >True judgment</a></td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td></tr></table>
+</div>
+	<div class="right"><table id="table-2-4:-inquisitor-spells-known"><caption>Table:  Inquisitor Spells Known</caption>
+<thead><tr id="level-0-1st-2nd-3rd-4th-5th-6th"><th rowspan="2">Level</th><th colspan="7">Spells Known</th></tr>
+<tr><th>0</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th></tr></thead>
+<tr class="odd"><td>1st</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>2nd</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>3rd</td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>4th</td><td>6</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>5th</td><td>6</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>6th</td><td>6</td><td>4</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>7th</td><td>6</td><td>5</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>8th</td><td>6</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>9th</td><td>6</td><td>5</td><td>4</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>10th</td><td>6</td><td>5</td><td>5</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>11th</td><td>6</td><td>6</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>12th</td><td>6</td><td>6</td><td>5</td><td>4</td><td>4</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>13th</td><td>6</td><td>6</td><td>5</td><td>5</td><td>4</td><td>2</td><td>&mdash;</td></tr>
+<tr class="even"><td>14th</td><td>6</td><td>6</td><td>6</td><td>5</td><td>4</td><td>3</td><td>&mdash;</td></tr>
+<tr class="odd"><td>15th</td><td>6</td><td>6</td><td>6</td><td>5</td><td>4</td><td>4</td><td>&mdash;</td></tr>
+<tr class="even"><td>16th</td><td>6</td><td>6</td><td>6</td><td>5</td><td>5</td><td>4</td><td>2</td></tr>
+<tr class="odd"><td>17th</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>4</td><td>3</td></tr>
+<tr class="even"><td>18th</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>4</td><td>4</td></tr>
+<tr class="odd"><td>19th</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>5</td><td>4</td></tr>
+<tr class="even"><td>20th</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>5</td></tr></table>
+</div>
+				<h1 id="class-features">Class Features</h1>
+				<p>The following are class features of the inquisitor.</p>
+				<p id="weapon-and-armor-proficiency"><b>Weapon and Armor Proficiency</b>: An inquisitor is proficient with all simple weapons, plus the hand crossbow, longbow, repeating crossbow, shortbow, and the favored weapon of her deity. She is also proficient with light armor, medium armor, and shields (except tower shields).</p>
+				<p id="spells"><b>Spells</b>: An inquisitor casts divine spells drawn from the inquisitor spell list. She can cast any spell she knows at any time without preparing it ahead of time, assuming she has not yet used up her allotment of spells per day for the spell's level. </p>
+				<p>To learn or cast a spell, an inquisitor must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against an inquisitor's spell is 10 + the spell level + the inquisitor's Wisdom modifier.</p>
+				<p>An inquisitor can cast only a certain number of spells of each spell level each day. Her base daily spell allotment is given on Table 2&ndash;3. In addition, she receives bonus spells per day if she has a high Wisdom score (see Table 1&ndash;3 of the <i>Pathfinder RPG Core Rulebook</i>).</p>
+				<p>An inquisitor's selection of spells is extremely limited. An inquisitor begins play knowing four 0-level spells and two 1st-level spells of the inquisitor's choice. At each new inquisitor level, she gains one or more new spells as indicated on Table 2&ndash;4. (Unlike spells per day, the number of spells an inquisitor knows is not affected by her Wisdom score. The numbers on Table 2&ndash;4 are fixed.) </p>
+				<p>Upon reaching 5th level, and at every third inquisitor level thereafter (8th, 11th, and so on), an inquisitor can choose to learn a new spell in place of one she already knows. In effect, the inquisitor “loses” the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level inquisitor spell she can cast. The inquisitor may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that she gains new spells known for the level.</p>
+				<p id="domain"><b>Domain</b>: Like a cleric's deity, an inquisitor's deity influences her alignment, what magic she can perform, and her values. Although not as tied to the tenets of the deity as a cleric, an inquisitor must still hold such guidelines in high regard, despite that fact she can go against them if it serves the greater good of the faith. An inquisitor can select one domain from among those belonging to her deity. She can select an alignment domain only if her alignment matches that domain. With the GM's approval, an inquisitor can be devoted to an ideal instead of a deity, selecting one domain to represent her personal inclination and abilities. The restriction on alignment domains still applies.</p>
+				<p>Each domain grants a number of domain powers, depending on the level of the inquisitor. An inquisitor does not gain the bonus spells listed for each domain, nor does she gain bonus spell slots. The inquisitor uses her level as her effective cleric level when determining the power and effect of her domain powers. If the inquisitor has cleric levels, one of her two domain selections must be the same domain selected as an inquisitor. Levels of cleric and inquisitor stack for the purpose of determining domain powers and abilities, but not for bonus spells.</p>
+				<p id="judgment"><b>Judgment (Su)</b>: Starting at 1st level, an inquisitor can pronounce judgment upon her foes as a swift action. Starting when the judgment is made, the inquisitor receives a bonus or special ability based on the type of judgment made. </p>
+				<p>At 1st level, an inquisitor can use this ability once per day. At 4th level and every three levels thereafter, the inquisitor can use this ability one additional time per day. Once activated, this ability lasts until the combat ends, at which point all of the bonuses immediately end. The inquisitor must participate in the combat to gain these bonuses. If she is frightened, panicked, paralyzed, stunned, unconscious, or otherwise prevented from participating in the combat, the ability does not end, but the bonuses do not resume until she can participate in the combat again.</p>
+				<p>When the inquisitor uses this ability, she must select one type of judgment to make. As a swift action, she can change this judgment to another type. If the inquisitor is evil, she receives profane bonuses instead of sacred, as appropriate. Neutral inquisitors must select profane or sacred bonuses. Once made, this choice cannot be changed.</p>
+				<p id="destruction"><i>Destruction</i>: The inquisitor is filled with divine wrath, gaining a +1 sacred bonus on all weapon damage rolls. This bonus increases by +1 for every three inquisitor levels she possesses.</p>
+				<p id="healing"><i>Healing</i>: The inquisitor is surrounded by a healing light, gaining fast healing 1. This causes the inquisitor to heal 1 point of damage each round as long as the inquisitor is alive and the judgment lasts. The amount of healing increases by 1 point for every three inquisitor levels she possesses.</p>
+				<p id="justice"><i>Justice</i>: This judgment spurs the inquisitor to seek justice, granting a +1 sacred bonus on all attack rolls. This bonus increases by +1 for every five inquisitor levels she possesses. At 10th level, this bonus is doubled on all attack rolls made to confirm critical hits.</p>
+				<p id="piercing"><i>Piercing</i>: This judgment gives the inquisitor great focus and makes her spells more potent. This benefit grants a +1 sacred bonus on concentration checks and caster level checks made to overcome a target's spell resistance. This bonus increases by +1 for every three inquisitor levels she possesses.</p>
+				<p id="protection"><i>Protection</i>: The inquisitor is surrounded by a protective aura, granting a +1 sacred bonus to Armor Class. This bonus increases by +1 for every five inquisitor levels she possesses. At 10th level, this bonus is doubled against attack rolls made to confirm critical hits against the inquisitor.</p>
+				<p id="purity"><i>Purity</i>: The inquisitor is protected from the vile taint of her foes, gaining a +1 sacred bonus on all saving throws. This bonus increases by +1 for every five inquisitor levels she possesses. At 10th level, the bonus is doubled against curses, diseases, and poisons.</p>
+				<p id="resiliency"><i>Resiliency</i>: This judgment makes the inquisitor resistant to harm, granting DR 1/magic. This DR increases by 1 for every five levels she possesses. At 10th level, this DR changes from magic to an alignment (chaotic, evil, good, or lawful) that is opposite the inquisitor's. If she is neutral, the inquisitor does not receive this increase.</p>
+				<p id="resistance"><i><a href="../../spells/resistance.html#_resistance" >Resistance</a></i>: The inquisitor is shielded by a flickering aura, gaining 2 points of energy resistance against one energy type (acid, cold, electricity, fire, or sonic) chosen when the judgment is declared. The protection increases by 2 for every three inquisitor levels she possesses.</p>
+				<p id="smiting"><i>Smiting</i>: This judgment bathes the inquisitor's weapons in a divine light. The inquisitor's weapons count as magic for the purposes of bypassing damage reduction. At 6th level, the inquisitor's weapons also count as one alignment type (chaotic, evil, good, or lawful) for the purpose of bypassing damage reduction. The type selected must match one of the inquisitor's alignments. If the inquisitor is neutral, she does not receive this bonus. At 10th level, the inquisitor's weapons also count as adamantine for the purpose of overcoming damage reduction (but not for reducing hardness).</p>
+				<p id="monster-lore"><b>Monster Lore (Ex)</b>: The inquisitor adds her Wisdom modifier on <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> skill checks in addition to her Intelligence modifier, when making skill checks to identify the abilities and weaknesses of creatures.</p>
+				<p id="orisons"><b>Orisons</b>: Inquisitors learn a number of orisons, or 0-level spells, as noted on Table 2&ndash;4 under “Spells Known.” These spells are cast like any other spell, but they are not expended when cast and may be used again. Orisons prepared using other spell slots, such as those due to metamagic feats, are expended normally.</p>
+				<p id="stern-gaze"><b>Stern Gaze (Ex)</b>: Inquisitors are skilled at sensing deception and intimidating their foes. An inquisitor receives a morale bonus on all <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> and <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks equal to 1/2 her inquisitor level (minimum +1).</p>
+				<p id="cunning-initiative"><b>Cunning Initiative (Ex)</b>: At 2nd level, an inquisitor adds her Wisdom modifier on initiative checks, in addition to her Dexterity modifier.</p>
+				<p id="detect-alignment"><b><i>Detect Alignment</i> (Sp)</b>: At will, an inquisitor can use <i><a href="../../spells/detectChaos.html#_detect-chaos" >detect chaos</a></i>, <i><a href="../../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="../../spells/detectGood.html#_detect-good" >detect good</a></i>, or <i><a href="../../spells/detectLaw.html#_detect-law" >detect law</a></i>. She can only use one of these at any given time.</p>
+				<p id="track"><b>Track (Ex)</b>: At 2nd level, an inquisitor adds half her level on <a href="../../skills/survival.html#_survival" >Survival</a> skill checks made to follow or identify tracks.</p>
+				<p id="solo-tactics"><b>Solo Tactics (Ex)</b>: At 3rd level, all of the inquisitor's allies are treated as if they possessed the same teamwork feats as the inquisitor for the purpose of determining whether the inquisitor receives a bonus from her teamwork feats. Her allies do not receive any bonuses from these feats unless they actually possess the feats themselves. The allies' positioning and actions must still meet the prerequisites listed in the teamwork feat for the inquisitor to receive the listed bonus.</p>
+				<p id="teamwork-feat"><b>Teamwork Feat</b>: At 3rd level, and every three levels thereafter, the inquisitor gains a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as teamwork feats. The inquisitor must meet the prerequisites of the selected bonus feat.</p>
+				<p>As a standard action, the inquisitor can choose to learn a new bonus teamwork feat in place of the most recent bonus teamwork feat she has already learned. In effect, the inquisitor loses the bonus feat in exchange for the new one. She can only change the most recent teamwork feat gained. Whenever she gains a new teamwork feat, the previous teamwork feat becomes set and cannot be changed again. An inquisitor can change her most recent teamwork feat a number of times per day equal to her Wisdom modifier.</p>
+				<p id="bane"><b>Bane (Su)</b>: At 5th level, an inquisitor can imbue one of her weapons with the <i><a href="../../magicItems/weapons.html#_weapons-bane" >bane</a></i> weapon special ability as a swift action. She must select one creature type when she uses this ability (and a subtype if the creature type selected is humanoid or outsider). Once selected, the type can be changed as a swift action. This ability only functions while the inquisitor wields the weapon. If dropped or taken, the weapon resumes granting this ability if it is returned to the inquisitor before the duration expires. This ability lasts for a number of rounds per day equal to the inquisitor's level. These rounds do not need to be consecutive. </p>
+				<p id="discern-lies"><b><i>Discern Lies</i> (Sp)</b>: At 5th level, an inquisitor can <i><a href="../../spells/discernLies.html#_discern-lies" >discern lies</a></i>, as per the spell, for a number of rounds per day equal to her inquisitor level. These rounds do not need to be consecutive. Activating this ability is an immediate action.</p>
+				<p id="second-judgment"><b>Second Judgment (Ex)</b>: At 8th level, whenever an inquisitor uses her judgment ability, she selects two different judgments, instead of one. This only consumes one use of her judgment ability. As a swift action, she can change one of these judgments to another type. </p>
+				<p id="stalwart"><b>Stalwart (Ex)</b>: At 11th level, an inquisitor can use mental and physical resiliency to avoid certain attacks. If she makes a Fortitude or Will saving throw against an attack that has a reduced effect on a successful save, she instead avoids the effect entirely. This ability can only be used if the inquisitor is wearing light armor, medium armor, or no armor. A helpless inquisitor does not gain the benefit of the stalwart ability.</p>
+				<p id="greater-bane"><b>Greater Bane (Su)</b>: At 12th level, whenever an inquisitor uses her bane ability, the amount of bonus damage dealt by the weapon against creatures of the selected type increases to 4d6. </p>
+				<p id="exploit-weakness"><b>Exploit Weakness (Ex)</b>: At 14th level, the inquisitor learns to take advantage of any opportunity that presents itself. Whenever the inquisitor scores a critical hit, she ignores any damage reduction the target might have. In addition, if the target has regeneration, the creature loses regeneration on the round following the critical hit and can die normally during that round. Creatures whose regeneration always functions are immune to this ability. Finally, if the inquisitor deals energy damage to a creature with vulnerability to that energy type, she deals +1 point of damage per die rolled.</p>
+				<p id="third-judgment"><b>Third Judgment (Ex)</b>: At 16th level, whenever an inquisitor uses her judgment ability, she selects three different judgments, instead of just two. This only consumes one use of her judgment ability. As a swift action, the inquisitor can change one of these judgments to another type. </p>
+				<p id="slayer"><b>Slayer (Ex)</b>: At 17th level, an inquisitor learns to focus her judgment. Whenever an inquisitor uses her judgment ability, she must select one type of judgment. She is treated as if she were 5 levels higher for the purposes of determining the bonus granted by the judgment. Unlike other types of judgment, the one enhanced by this ability cannot be changed for the remainder of the judgment</p>
+				<p id="true-judgment"><b>True Judgment (Su)</b>: At 20th level, an inquisitor can call true judgment down upon a foe during combat. Whenever an inquisitor uses her judgment ability, the inquisitor can invoke true judgment on a foe as a swift action. Once declared, the inquisitor can make a single melee (or ranged attack, if the foe is within 30 feet) against the target. If the attack hits, it deals damage normally and the target must make a Fortitude save or die. The DC of this save is equal to 10 + 1/2 the inquisitor's level + the inquisitor's Wisdom modifier. Regardless of whether or not the save is made, the target creature is immune to the inquisitor's true judgment ability for 24 hours. Once this ability has been used, it cannot be used again for 1d4 rounds.</p>
+				<p id="chaotic,-evil,-good,-and-lawful-spells"><b>Chaotic, Evil, Good, and Lawful Spells</b>: An inquisitor can't cast spells of an alignment opposed to her own or her deity's (if she has one). Spells associated with particular alignments are indicated by the chaotic, evil, good and lawful descriptors in their spell descriptions. </p>
+				<h1 id="ex-inquisitors">Ex-Inquisitors</h1>
+				<p>An inquisitor who slips into corruption or changes to a prohibited alignment loses all spells and the judgment ability. She cannot thereafter gain levels as an inquisitor until she atones (see the <i><a href="../../spells/atonement.html#_atonement" >atonement</a></i> spell description).</p>
+				<h1 id="inquisitor-spells">Inquisitor Spells</h1>
+				<p>Inquisitors gain access to the following spells. While most of these spells are found in the <i>Core Rulebook</i>, those marked with an asterisk (*) appear in Chapter 5 of this book.</p>
+				<p id="0-level-inquisitor-spells"><b>0-Level Inquisitor Spells</b>&mdash;<i><a href="../../spells/acidSplash.html#_acid-splash" >acid splash</a>, <a href="../../spells/bleed.html#_bleed" >bleed</a>, <a href="../spells/brand.html#_brand" >brand*</a>, <a href="../../spells/createWater.html#_create-water" >create water</a>, <a href="../../spells/daze.html#_daze" >daze</a>, <a href="../../spells/detectMagic.html#_detect-magic" >detect magic</a>, <a href="../../spells/detectPoison.html#_detect-poison" >detect poison</a>, <a href="../../spells/disruptUndead.html#_disrupt-undead" >disrupt undead</a>, <a href="../../spells/guidance.html#_guidance" >guidance</a>, <a href="../../spells/light.html#_light" >light</a>, <a href="../../spells/readMagic.html#_read-magic" >read magic</a>, <a href="../../spells/resistance.html#_resistance" >resistance</a>, <a href="../spells/sift.html#_sift" >sift*</a>, <a href="../../spells/stabilize.html#_stabilize" >stabilize</a>, <a href="../../spells/virtue.html#_virtue" >virtue</a>.</i></p>
+				<p id="1st-level-inquisitor-spells"><b>1st-Level Inquisitor Spells</b>&mdash;<i><a href="../../spells/alarm.html#_alarm" >alarm</a>, <a href="/pathfinderRPG/prd/spells/bane.html#_bane" >bane</a>, <a href="../../spells/bless.html#_bless" >bless</a>, <a href="../../spells/blessWater.html#_bless-water" >bless water</a>, <a href="../spells/burstBonds.html#_burst-bonds" >burst bonds*</a>, <a href="../../spells/causeFear.html#_cause-fear" >cause fear</a>, <a href="../../spells/command.html#_command" >command</a>, <a href="../../spells/comprehendLanguages.html#_comprehend-languages" >comprehend languages</a>, <a href="../../spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a>, <a href="../../spells/curseWater.html#_curse-water" >curse water</a>, <a href="../../spells/detectChaos.html#_detect-chaos" >detect chaos</a>/evil/good/law, <a href="../../spells/detectUndead.html#_detect-undead" >detect undead</a>, <a href="../../spells/disguiseSelf.html#_disguise-self" >disguise self</a>, <a href="../../spells/divineFavor.html#_divine-favor" >divine favor</a>, <a href="../../spells/doom.html#_doom" >doom</a>, <a href="../../spells/expeditiousRetreat.html#_expeditious-retreat" >expeditious retreat</a>, <a href="../../spells/hideFromUndead.html#_hide-from-undead" >hide from undead</a>, <a href="../../spells/inflictLightWounds.html#_inflict-light-wounds" >inflict light wounds</a>, <a href="../../spells/magicWeapon.html#_magic-weapon" >magic weapon</a>, <a href="../../spells/protectionFromChaos.html#_protection-from-chaos" >protection from chaos</a>/evil/good/law, <a href="../../spells/removeFear.html#_remove-fear" >remove fear</a>, <a href="../../spells/sanctuary.html#_sanctuary" >sanctuary</a>, <a href="../../spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a>, <a href="../spells/tirelessPursuit.html#_tireless-pursuit" >tireless pursuit*</a>, <a href="../../spells/trueStrike.html#_true-strike" >true strike</a>, <a href="../spells/wrath.html#_wrath" >wrath*</a>.</i></p>
+				<p id="2nd-level-inquisitor-spells"><b>2nd-Level Inquisitor Spells</b>&mdash;<i><a href="../../spells/aid.html#_aid" >aid</a>, <a href="../../spells/alignWeapon.html#_align-weapon" >align weapon</a>, <a href="../spells/bloodhound.html#_bloodhound" >bloodhound*</a>, <a href="../../spells/calmEmotions.html#_calm-emotions" >calm emotions</a>, <a href="../spells/castigate.html#_castigate" >castigate*</a>, <a href="../spells/confess.html#_confess" >confess*</a>, <a href="../../spells/consecrate.html#_consecrate" >consecrate</a>, <a href="../spells/corruptionResistance.html#_corruption-resistance" >corruption <a href="../../spells/resistance.html#_resistance" >resistance</a>*</a>, <a href="../../spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a>, <a href="../../spells/darkness.html#_darkness" >darkness</a>, <a href="../../spells/deathKnell.html#_death-knell" >death knell</a>, <a href="../../spells/delayPoison.html#_delay-poison" >delay poison</a>, <a href="../../spells/desecrate.html#_desecrate" >desecrate</a>, <a href="../../spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a>, <a href="../../spells/enthrall.html#_enthrall" >enthrall</a>, <a href="../../spells/findTraps.html#_find-traps" >find traps</a>, <a href="../spells/flamesOfTheFaithful.html#_flames-of-the-faithful" >flames of the faithful*</a>, <a href="../spells/followAura.html#_follow-aura" >follow aura*</a>, <a href="../spells/ghostbaneDirge.html#_ghostbane-dirge" >ghostbane dirge*</a>, <a href="../../spells/holdPerson.html#_hold-person" >hold person</a>, <a href="../spells/honeyedTongue.html#_honeyed-tongue" >honeyed tongue*</a>, <a href="../../spells/inflictModerateWounds.html#_inflict-moderate-wounds" >inflict moderate wounds</a>, <a href="../../spells/invisibility.html#_invisibility" >invisibility</a>, <a href="../../spells/knock.html#_knock" >knock</a>, <a href="../spells/perceiveCues.html#_perceive-cues" >perceive cues*</a>, <a href="../../spells/removeParalysis.html#_remove-paralysis" >remove paralysis</a>, <a href="../../spells/resistEnergy.html#_resist-energy" >resist energy</a>, <a href="../../spells/restoration.html#_lesser-restoration" >restoration (lesser)</a>, <a href="../../spells/seeInvisibility.html#_see-invisibility" >see invisibility</a>, <a href="../spells/sacredBond.html#_sacred-bond" >sacred bond*</a>, <a href="../../spells/shieldOther.html#_shield-other" >shield other</a>, <a href="../../spells/silence.html#_silence" >silence</a>, <a href="../../spells/spiritualWeapon.html#_spiritual-weapon" >spiritual weapon</a>, <a href="../../spells/tongues.html#_tongues" >tongues</a>, <a href="../../spells/undetectableAlignment.html#_undetectable-alignment" >undetectable alignment</a>, <a href="../spells/weaponOfAwe.html#_weapon-of-awe" >weapon of awe*</a>, <a href="../../spells/whisperingWind.html#_whispering-wind" >whispering wind</a>, <a href="../../spells/zoneOfTruth.html#_zone-of-truth" >zone of truth</a>.</i></p>
+				<p id="3rd-level-inquisitor-spells"><b>3rd-Level Inquisitor Spells</b>&mdash;<i><a href="../../spells/arcaneSight.html#_arcane-sight" >arcane sight</a>, <a href="../spells/banishSeeming.html#_banish-seeming" >banish <a href="../../spells/seeming.html#_seeming" >seeming</a>*</a>, <a href="../spells/bloodBiography.html#_blood-biography-" >blood biography*</a>, <a href="../spells/castOut.html#_cast-out" >cast out*</a>, <a href="../../spells/continualFlame.html#_continual-flame" >continual flame</a>, <a href="../spells/coordinatedEffort.html#_coordinated-effort" >coordinated effort*</a>, <a href="../../spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a>, <a href="../../spells/daylight.html#_daylight" >daylight</a>, <a href="../../spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a>, <a href="../../spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a>, <a href="../../spells/dispelMagic.html#_dispel-magic" >dispel magic</a>, <a href="../spells/fester.html#_fester" >fester*</a>, <a href="../../spells/glyphOfWarding.html#_glyph-of-warding" >glyph of warding</a>, <a href="../../spells/haltUndead.html#_halt-undead-copy" >halt undead</a>, <a href="../../spells/heroism.html#_heroism" >heroism</a>, <a href="../spells/hiddenSpeech.html#_hidden-speech" >hidden speech*</a>, <a href="../spells/hunterSEye.html#_hunter's-eye" >hunter's eye*</a>, <a href="../../spells/inflictSeriousWounds.html#_inflict-serious-wounds" >inflict serious wounds</a>, <a href="../../spells/invisibilityPurge.html#_invisibility-purge" >invisibility purge</a>, <a href="../../spells/keenEdge.html#_keen-edge" >keen edge</a>, <a href="../../spells/locateObject.html#_locate-object" >locate object</a>, magic circle vs. chaos/evil/good/law, <a href="../../spells/magicVestment.html#_magic-vestment" >magic vestment</a>, <a href="../../spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a>, <a href="../../spells/nondetection.html#_nondetection" >nondetection</a>, <a href="../../spells/obscureObject.html#_obscure-object" >obscure object</a>, <a href="../../spells/prayer.html#_prayer" >prayer</a>, <a href="../../spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a>, <a href="../../spells/removeCurse.html#_remove-curse" >remove curse</a>, <a href="../../spells/removeDisease.html#_remove-disease" >remove disease</a>, <a href="../spells/retribution.html#_retribution" >retribution*</a>, <a href="../spells/righteousVigor.html#_righteous-vigor" >righteous vigor*</a>, <a href="../spells/seekThoughts.html#_seek-thoughts" >seek thoughts*</a>, <a href="../../spells/searingLight.html#_searing-light" >searing light</a>, <a href="../../spells/speakWithDead.html#_speak-with-dead" >speak with dead</a>, <a href="../spells/wardTheFaithful.html#_ward-the-faithful" >ward the faithful*</a>.</i></p>
+				<p id="4th-level-inquisitor-spells"><b>4th-Level Inquisitor Spells</b>&mdash;<i><a href="../spells/brand.html#_brand,-greater" >brand (greater)*</a>, <a href="../../spells/chaosHammer.html#_chaos-hammer" >chaos hammer</a>, <a href="../spells/cowardSLament.html#_coward's-lament" >coward's lament*</a>, <a href="../../spells/cureCriticalWounds.html#_cure-critical-wounds" >cure critical wounds</a>, <a href="../../spells/deathWard.html#_death-ward" >death ward</a>, <a href="../spells/defileArmor.html#_defile-armor" >defile armor*</a>, <a href="../spells/denounce.html#_denounce" >denounce*</a>, <a href="../../spells/detectScrying.html#_detect-scrying" >detect scrying</a>, <a href="../../spells/discernLies.html#_discern-lies" >discern lies</a>, <a href="../../spells/dismissal.html#_dismissal" >dismissal</a>, <a href="../../spells/divination.html#_divination" >divination</a>, <a href="../../spells/divinePower.html#_divine-power" >divine power</a>, <a href="../../spells/fear.html#_fear" >fear</a>, <a href="../../spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a>, <a href="../spells/forcedRepentance.html#_forced-repentance" >forced repentance*</a>, <a href="../../spells/geasQuest.html#_geas-lesser" >geas (lesser)</a>, <a href="../../spells/holdMonster.html#_hold-monster" >hold monster</a>, <a href="../../spells/holySmite.html#_holy-smite" >holy smite</a>, <a href="../../spells/inflictCriticalWounds.html#_inflict-critical-wounds" >inflict critical wounds</a>, <a href="../../spells/invisibility.html#_invisibility-greater" >invisibility (greater)</a>, <a href="../../spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a>, <a href="../../spells/orderSWrath.html#_order-s-wrath" >order's wrath</a>, <a href="../spells/rebuke.html#_rebuke" >rebuke*</a>, <a href="../../spells/restoration.html#_restoration" >restoration</a>, <a href="../spells/sanctifyArmor.html#_sanctify-armor" >sanctify armor*</a>, <a href="../../spells/sending.html#_sending" >sending</a>, <a href="../spells/sharedWrath.html#_shared-wrath" >shared <a href="../spells/wrath.html#_wrath" >wrath</a>*</a>, <a href="../spells/sleepwalk.html#_sleepwalk" >sleepwalk*</a>, <a href="../../spells/spellImmunity.html#_spell-immunity" >spell immunity</a>, <a href="../../spells/stoneskin.html#_stoneskin" >stoneskin</a>, <a href="../spells/tirelessPursuers.html#_tireless-pursuers" >tireless pursuers*</a>, <a href="../../spells/unholyBlight.html#_unholy-blight" >unholy blight</a>.</i></p>
+				<p id="5th-level-inquisitor-spells"><b>5th-Level Inquisitor Spells</b>&mdash;<i><a href="../../spells/atonement.html#_atonement" >atonement</a>, <a href="../../spells/banishment.html#_banishment" >banishment</a>, <a href="../../spells/breakEnchantment.html#_break-enchantment" >break enchantment</a>, <a href="../spells/castigate.html#_castigate,-mass" >castigate (mass)*</a>, <a href="../../spells/command.html#_greater-command" >command (greater)</a>, <a href="../../spells/commune.html#_commune" >commune</a>, <a href="../../spells/cureLightWounds.html#_cure-light-wounds-mass" >cure light wounds (mass)</a>, <a href="../../spells/dispelChaos.html#_dispel-chaos" >dispel chaos</a>/evil/good/law, <a href="../../spells/disruptingWeapon.html#_disrupting-weapon" >disrupting weapon</a>, <a href="../../spells/flameStrike.html#_flame-strike" >flame strike</a>, <a href="../../spells/geasQuest.html#_geas-quest" >geas/quest</a>, <a href="../spells/ghostbaneDirge.html#_ghostbane-dirge,-mass" >ghostbane dirge (mass)*</a>, <a href="../../spells/hallow.html#_hallow" >hallow</a>, <a href="../../spells/inflictLightWounds.html#_inflict-light-wounds-mass" >inflict light wounds (mass)</a>, <a href="../../spells/markOfJustice.html#_mark-of-justice" >mark of justice</a>, <a href="../spells/resoundingBlow.html#_resounding-blow" >resounding blow*</a>, <a href="../../spells/righteousMight.html#_righteous-might" >righteous might</a>, <a href="../../magicItems/armor.html#_armor-spell-resistance" >spell resistance</a>, <a href="../../spells/telepathicBond.html#_telepathic-bond" >telepathic bond</a>, <a href="../../spells/trueSeeing.html#_true-seeing" >true seeing</a>, <a href="../../spells/unhallow.html#_unhallow" >unhallow</a>, <a href="../spells/unwillingShield.html#_unwilling-shield" >unwilling <a href="../../spells/shield.html#_shield" >shield</a>*</a>.</i></p>
+				<p id="6th-level-inquisitor-spells"><b>6th-Level Inquisitor Spells</b>&mdash;<i><a href="../../spells/bladeBarrier.html#_blade-barrier" >blade barrier</a>, <a href="../../spells/blasphemy.html#_blasphemy" >blasphemy</a>, <a href="../../spells/circleOfDeath.html#_circle-of-death" >circle of death</a>, <a href="../spells/cleanse.html#_cleanse" >cleanse*</a>, <a href="../../spells/cureModerateWounds.html#_cure-moderate-wounds-mass" >cure moderate wounds (mass)</a>, <a href="../../spells/dictum.html#_dictum" >dictum</a>, <a href="../../spells/dispelMagic.html#_dispel-magic-greater" >dispel magic (greater)</a>, <a href="../spells/fester.html#_fester,-mass" >fester (mass)*</a>, <a href="../../spells/findThePath.html#_find-the-path" >find the path</a>, <a href="../../spells/forbiddance.html#_forbiddance" >forbiddance</a>, <a href="../../spells/glyphOfWarding.html#_glyph-of-warding-greater" >glyph of warding (greater)</a>, <a href="../../spells/harm.html#_harm" >harm</a>, <a href="../../spells/heal.html#_heal" >heal</a>, <a href="../../spells/heroesFeast.html#_heroes-feast" >heroes' feast</a>, <a href="../../spells/holyWord.html#_holy-word" >holy word</a>, <a href="../../spells/inflictModerateWounds.html#_inflict-moderate-wounds-mass" >inflict moderate wounds (mass)</a>, <a href="../../spells/legendLore.html#_legend-lore" >legend lore</a>, <a href="../../spells/repulsion.html#_repulsion" >repulsion</a>, <a href="../../spells/undeathToDeath.html#_undeath-to-death" >undeath to death</a>, <a href="../../spells/wordOfChaos.html#_word-of-chaos" >word of chaos</a>.</i></p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Nagaji</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Nagaji",globalNavPath=[{ href: '/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html', name: 'Uncommon Races'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body">
+
+<h1 id="nagaji">Nagaji</h1>
+<p>The nagaji are a race of ophidian humanoids with scaled skin that mimics the dramatic appearance of true nagas. Like serpents, they have forked tongues and lidless eyes, giving them an unblinking gaze that most other races find unnerving. Their physical forms are otherwise humanlike, raising wary speculation about their origins. It is widely believed that true nagas created them as a servitor race, through crossbreeding, magic, or both, and indeed nagaji revere nagas as living gods. Nagaji often inspire awe and fear among other humanoids, as much for their mysterious ancestry as for their talent for both swords and sorcery. </p>
+
+<h1 id="nagaji-racial-traits-">Nagaji Racial Traits </h1>
+<p id="+2-strength,-+2-charisma,--2-intelligence"><b>+2 Strength, +2 Charisma, &ndash;2 Intelligence</b>: Nagaji are strong and have forceful personalities, but tend to ignore logic and mock scholastic pursuits.</p>
+<p id="medium"><b>Medium</b>: Nagaji are Medium creatures and have no bonuses or penalties due to their size.</p>
+<p id="reptilian"><b>Reptilian</b>: Nagaji are humanoids with the reptilian subtype.</p>
+<p id="normal-speed"><b>Normal Speed</b>: Nagaji have a base speed of 30 feet.</p>
+<p id="low-light-vision"><b>Low-Light Vision</b>: Nagaji can see twice as far as humans in conditions of dim light.</p>
+<p id="armored-scales"><b>Armored Scales</b>: Nagaji have a +1 natural armor bonus from their scaly flesh.</p>
+<p id="resistant"><b>Resistant (Ex)</b>: Nagaji receive a +2 racial saving throw bonus against mind-affecting effects and poison.</p>
+<p id="serpent's-sense"><b>Serpent's Sense (Ex)</b>: Nagaji receive a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> checks against reptiles, and a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks.</p>
+<p id="languages"><b>Languages</b>: Nagaji begin play speaking Common and Draconic. Nagaji with high Intelligence scores can choose from the following: any human tongue, Abyssal, Aklo, Celestial, Draconic, Giant, Infernal, and Sylvan.</p>
+
+<h1 id="alternate-racial-traits">Alternate Racial Traits</h1>
+<p>The following racial trait may be selected instead of  an existing nagaji racial trait. Consult your GM before selecting this option.</p>
+<p id="hypnotic-gaze"><b>Hypnotic Gaze (Sp)</b>: The nagaji's gaze is so intense it stops others in their tracks. Once per day, it can attempt to hypnotize a single target, as per the spell <i><a href="/pathfinderRPG/prd/spells/hypnotism.html#_hypnotism" >hypnotism</a> </i>(caster level equal to the nagaji's Hit Dice). The DC of this effect is equal to 11 + the nagaji's Charisma modifier. The effects of the hypnotic gaze only last a single round. This racial trait replaces serpent's sense.</p>
+				
+<h1 id="favored-class-options">Favored Class Options</h1>
+<p>The following options are available to all nagaji who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.</p>
+<p id="alchemist"><b>Alchemist</b>: Add +1 on <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy) checks to craft poison and +1/3 on the DCs of poisons the alchemist creates.</p>
+<p id="fighter"><b>Fighter</b>: Add +1 to the fighter's CMD when resisting a grapple or trip attempt.</p>
+<p id="monk"><b>Monk</b>: Add +1/4 point to the monk's <i>ki</i> pool.</p>
+<p id="summoner"><b>Summoner</b>: Add +1 hit point to the summoner's eidolon.</p>
+				
+<h1 id="racial-archetypes">Racial Archetypes</h1>
+<p>The following racial archetype is available to nagaji.</p>
+				
+<h2 id="naga-aspirant-(druid)">Naga Aspirant (Druid)</h2>
+<p>The naga aspirant follows the ancient beliefs and engages in the rituals of a druidic sect dedicated to the transcendence of her nagaji form through absolute devotion to nagas and naga gods. Through acting as a herald to the naga deities, the aspirant is rewarded with the ability to unlock her ultimate spirit form and become a true naga. A naga aspirant has the following class features.</p>
+<p id="aspirant's-bond"><b>Aspirant's Bond (Ex)</b>: A naga aspirant gains a spiritual connection to the serpentine deities worshiped by the nagas. At 1st level, and each time she gains a druid level, she may add one of the following spells to her druid spell list.</p>
+<p>0&mdash;<i><a href="/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash" >acid splash</a></i>, <i><a href="/pathfinderRPG/prd/spells/bleed.html#_bleed" >bleed</a></i>, <i><a href="/pathfinderRPG/prd/spells/daze.html#_daze" >daze</a></i>, <i><a href="/pathfinderRPG/prd/spells/mageHand.html#_mage-hand" >mage hand</a></i>, <i><a href="/pathfinderRPG/prd/spells/openClose.html#_open-close" >open/close</a></i>, <i><a href="/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost" >ray of frost</a></i>; 1st&mdash;<i><a href="/pathfinderRPG/prd/spells/charmPerson.html#_charm-person" >charm person</a></i>, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i>, <i><a href="/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat" >expeditious retreat</a></i>, <i><a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile" >magic missile</a>, <a href="/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement" >ray of enfeeblement</a>, <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a>, <a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a>, <a href="/pathfinderRPG/prd/spells/silentImage.html#_silent-image" >silent image</a>, <a href="/pathfinderRPG/prd/spells/trueStrike.html#_true-strike" >true strike</a></i>; 2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow" >acid arrow</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i>, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, <i><a href="/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image" >mirror image</a></i>, <i><a href="/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray" >scorching ray</a></i>, <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i>; 3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a>, <a href="/pathfinderRPG/prd/spells/displacement.html#_displacement" >displacement</a>, <a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a>, <a href="/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a>, <a href="/pathfinderRPG/prd/spells/suggestion.html#_suggestion" >suggestion</a></i>; 4th&mdash;<i><a href="/pathfinderRPG/prd/spells/divinePower.html#_divine-power" >divine power</a></i>, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater" >greater invisibility</a></i>.</p>
+<p>This ability replaces spontaneous casting.</p>
+<p id="aspirant's-enlightenment"><b>Aspirant's Enlightenment (Ex)</b>: At 4th level, a naga aspirant gains a +4 bonus on saving throws against the spell-like abilities, supernatural abilities, and poison of nagas. This ability replaces resist nature's lure.</p>
+<p id="naga-shape"><b>Naga Shape (Su)</b>: At 6th level, the naga aspirant can use her wild shape ability (gained at 4th level, as normal) to assume the form of a true naga. This effect functions in a similar manner to a <i><a href="/pathfinderRPG/prd/spells/shapechange.html#_shapechange" >shapechange</a></i> spell with the following exception. The druid's true naga form is unique, representing her personal evolution. When taking naga form, the nagaji's body transforms into that of a large serpent, though she keeps her own head. The naga aspirant loses her limbs and her size increases by one category, granting her a +4 size bonus to Strength and Constitution, a &ndash;2 penalty to Dexterity, and a +2 enhancement bonus to her natural armor bonus. She gains a +10 enhancement bonus to land speed and a bite attack that deals 1d6 points of damage. She can cast verbal spells in this form, but cannot cast spells with other components without metamagic or feats such as <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>. This otherwise works like and replaces wild shape.</p>
+<p id="augmented-form"><b>Augmented Form (Su)</b><i>:</i> At 9th level and every four levels thereafter, a naga aspirant can choose one of the following abilities to enhance her naga form. Once chosen, this augmentation cannot be changed and always applies to her naga form. The caster level for these abilities is equal to her druid level, and unless otherwise stated, the DC is equal to 10 + 1/2 the druid's class level + the druid's Charisma bonus. This ability replaces venom immunity, a thousand faces, and timeless body.</p>
+<blockquote>
+<p id="charming-gaze"><i>Charming Gaze (Sp)</i>: The druid gains a gaze attack that affects creatures within 30 feet as a <i><a href="/pathfinderRPG/prd/spells/charmPerson.html#_charm-person" >charm person</a></i> spell.</p>
+<p id="darkvision"><i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >Darkvision</a> (Su)</i>: The druid gains darkvision with a range of 60 feet.</p>
+<p id="detect-thoughts"><i>Detect Thoughts (Su)</i>: The druid can use <i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i> at will.</p>
+<p id="guarded-thoughts"><i>Guarded Thoughts (Ex)</i>: The druid gains a +2 racial bonus on saves against charm effects and immunity to any form of mind reading (such as <i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i>).</p>
+<p id="poison-immunity"><i>Poison Immunity (Ex)</i>: The druid gains immunity to all poisons. The druid's naga form must have at least one poison-based natural attack in order to select this ability.</p>
+<p id="poisonous-sting"><i>Poisonous Sting (Ex)</i>: The druid's stinger becomes venomous. The naga form must have a tail stinger to take this ability. Sting&mdash;injury; save Fort DC 10 + 1/2 the druid's class level + the druid's Constitution modifier; <i>frequency</i> 1 round; <i>effect</i> sleep for 2d4 minutes; <i>cure</i> 1 save.</p>
+<p id="spit-venom"><i>Spit Venom (Ex)</i>: The naga form can spit her venom up to 30 feet as a standard action. This is a ranged touch attack with no range increment. Any opponent hit by this attack must make a successful save (see above) to avoid the effect. The naga form must have a venomous bite to take this ability.</p>
+<p id="sting"><i>Sting (Ex)</i>: The naga form grows a stinger on the end of her tail, granting her a sting natural attack that deals 1d6 points of piercing damage.</p>
+<p id="swim"><i><a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> (Ex)</i>: The naga form gains a swim speed equal to her base speed.</p>
+<p id="tough-scales"><i>Tough Scales (Ex)</i>: The druid's enhancement bonus to her natural armor increases by +2. The druid may select this ability more than once. Its effects stack.</p>
+<p id="venomous-bite"><i>Venomous Bite (Ex)</i>: The naga form's bite attack becomes poisonous. Bite&mdash;injury; <i>save</i> Fortitude DC 10 + 1/2 the druid's class level + the druid's Constitution modifier; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1 Constitution damage, <i>cure</i> 1 save. </p>
+</blockquote>
+<p id="true-naga"><b>True Naga (Su)</b>: At 20th level, a naga aspirant metamorphoses into a unique naga. Her wild shape form becomes her natural form, though she can transform into her original nagaji shape at will. Her creature type permanently changes to aberration. This ability replaces wildshape (at will).</p>
+				
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The following options are available to nagaji. At the GM's discretion, other appropriate races may also make use of some of these.</p>
+				
+<h2 id="nagaji-feats">Nagaji Feats</h2>
+<p>Nagaji have access to the following feat.</p>
+<div class="feats-text">
+<h3 id="spit-venom-(combat)">Spit Venom (Combat)</h3>
+<p>You have mastered the nagaji warrior technique of spitting venom into your opponent's eyes.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Nagaji.</p>
+<p class="stat-block-1"><b>Benefit</b>: As a full-round action, you can spit poison up to 10 feet as a ranged touch attack. If you hit, the target must make a successful Fortitude save or be blinded for 1d6 rounds. The DC of this save is equal to 10 + 1/2 your total Hit Dice + your Constitution modifier. You can use this ability once per day plus one additional time per day for every three Hit Dice you have.</p>
+</div>
+				
+<h2 id="nagaji-magic-items">Nagaji Magic Items</h2>
+<p>Nagaji have access to the following magic item.</p>
+<p id="nagaji-scale-polish" class="stat-block-title">Nagaji Scale Polish</p>
+<p class="stat-block-1"><b>Aura</b> moderate evocation; <b>CL</b> 7th</p>
+<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 1,400 gp; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block-breaker">Description</p>
+<p>This small clay urn contains a scintillating paste which works like <i><a href="/pathfinderRPG/prd/spells/imbueWithSpellAbility.html#_imbue-with-spell-ability" >imbue with spell ability</a></i>, except the spell effect is not limited to cleric spells. Any caster may casts spells into the jar. The creature that applies the paste to its scales (a standard action) gains the ability to cast the imbued spells (assuming it has enough Hit Dice and the requisite ability scores). Only a reptilian creature (such as a dragon or a humanoid with the reptilian subtype) can use the polish to cast spells.</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/imbueWithSpellAbility.html#_imbue-with-spell-ability" >imbue with spell ability</a></i> or <i><a href="/pathfinderRPG/prd/spells/mnemonicEnhancer.html#_mnemonic-enhancer" >mnemonic enhancer</a></i>; <b>Cost</b> 700 gp</p>
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

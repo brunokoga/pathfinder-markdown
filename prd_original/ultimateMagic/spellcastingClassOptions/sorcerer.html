@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Sorcerer</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Sorcerer",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html', name: 'Spellcasting Class Options' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="sorcerer" class="monster-header">Sorcerer</h1>
+				
+				
+				<p>Sorcerous power is, by its very nature, a strange and unpredictable thing, the result of mysterious magical heritages and the intermingling of creatures both legendary and mundane. With the magical legacies flowing through their veins, sorcerers can undertake great works capable of placing them forever in the halls of heroes&mdash;or laying waste to all around them. </p>
+				<p>The following section introduces new sorcerer bloodlines, as well as two new sorcerer archetypes&mdash;crossblooded and wildblooded&mdash;the latter of which comes with its own unique selection of modified bloodlines to reflect its bizarre and mutated origins.</p>
+				<h1 id="bloodlines">Bloodlines</h1>
+				<h2 id="accursed">Accursed</h2>
+				<p>Misfortune, pestilence, and nightmares follow your family like vermin drawn to carrion. Somewhere in your family history, a hag's foul influence entered your bloodline. You may actually be related to the hag, or you may still be suffering the effects of a curse that a hag laid upon your kin in generations past. Now the hag's powers are part of your heritage.</p>
+				<p id="class-skill"><b>Class Skill</b>: <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>.</p>
+				<p id="bonus-spells"><b>Bonus Spells</b>: <i><a href="/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement" >ray of enfeeblement</a></i> (3rd), <i><a href="/pathfinderRPG/prd/spells/touchOfIdiocy.html#_touch-of-idiocy" >touch of idiocy</a></i> (5th), <i><a href="/pathfinderRPG/prd/spells/rayOfExhaustion.html#_ray-of-exhaustion" >ray of exhaustion</a></i> (7th), <i><a href="/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i> (9th), <i><a href="/pathfinderRPG/prd/spells/feeblemind.html#_feeblemind" >feeblemind</a></i> (11th), <i><a href="/pathfinderRPG/prd/spells/eyebite.html#_eyebite" >eyebite</a></i> (13th), <i><a href="/pathfinderRPG/prd/spells/insanity.html#_insanity" >insanity</a></i> (15th), <i><a href="/pathfinderRPG/prd/spells/dimensionalLock.html#_dimensional-lock" >dimensional lock</a></i> (17th), <i><a href="/pathfinderRPG/prd/spells/energyDrain.html#_energy-drain" >energy drain</a></i> (19th).</p>
+				<p id="bonus-feats"><b>Bonus Feats</b>: <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a>, <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_deceitful" >Deceitful</a>, <a href="/pathfinderRPG/prd/feats.html#_defensive-combat-training" >Defensive Combat Training</a>, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: You count as a hag for the purpose of joining a hag's coven. The coven must contain at least one hag. In addition, whenever you are within 30 feet of another sorcerer with this bloodline or a witch with the coven hex, you can use the aid another action to grant a +1 bonus to the other spellcaster's caster level for 1 round.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: The source of your power isn't pretty, but it does allow you to emulate the preternatural ugliness and toughness of a hag&mdash;though doing so won't help you make friends.</p>
+				<p id="horrific-visage"><i>Horrific Visage (Su)</i>: At 1st level, you can draw upon your hag ancestor to cause one target to perceive you as having a horrifying appearance. As a standard action, you can force one target within 30 feet to make a Will save (DC 10 + 1/2 your sorcerer level + your Charisma modifier) or be shaken for 1 round for every 2 sorcerer levels you possess (minimum 1 round). This is a mind-affecting, fear-based ability. This fear does not stack with other fear effects. You may use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
+				<p id="wretched-endurance"><i>Wretched <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a> (Ex)</i>: At 3rd level, you gain a +2 bonus on all saving throws against charm, cold, fear, fire, and sleep effects. And 9th level, these bonuses increase to +4.</p>
+				<p id="dread-gaze"><i>Dread Gaze (Su)</i>: At 9th level, you gain a form of the green hag's evil eye power. As a standard action, you may fix your gaze on any one creature within 60 feet. The target must make a Will save (DC 10 + 1/2 your sorcerer level + your Charisma modifier) or be staggered for 1 round for every 2 sorcerer levels you possess. You may use this ability once per day at 9th level. At 17th level, you can use this ability twice per day. At 20th level, you may use this ability three times per day.</p>
+				<p id="dream-walking"><i><a href="/pathfinderRPG/prd/spells/dream.html#_dream" >Dream</a> Walking (Sp)</i>: At 15th level, you can enter the ethereal plane. This functions like <i><a href="/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt" >ethereal jaunt</a></i>, but with a duration of 1 minute for every 2 sorcerer levels you possess. Once during this trip, you may cast <i><a href="/pathfinderRPG/prd/spells/nightmare.html#_nightmare" >nightmare</a></i> as a spell-like ability on a creature you see on the Material Plane. (This is an exception to the normal rule that ethereal creatures cannot affect targets on the Material Plane).</p>
+				<p id="fearsome-survival"><i>Fearsome <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> (Su)</i>: At 20th level, your hag-blood gives you considerable resilience. You gain DR 10/cold iron, and gain SR equal to 6 + your sorcerer level.</p>
+				<h2 id="djinni">Djinni</h2>
+				<p>You were born with the power of air genies, and the magic of the djinn is strong in you.</p>
+				<p id="class-skill"><b>Class Skill</b>: <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes).</p>
+				<p id="bonus-spells"><b>Bonus Spells</b>: <i><a href="/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp" >shocking grasp</a></i> (3rd), <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> (5th), <i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i> (7th), <i><a href="/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation" >minor creation</a></i> (9th), <i><a href="/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight" >overland flight</a></i> (11th), <i><a href="/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning" >chain lightning</a></i> (13th), <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> (15th), <i><a href="/pathfinderRPG/prd/spells/planarBinding.html#_planar-binding-greater" >greater planar binding</a></i> (17th), <i><a href="/pathfinderRPG/prd/spells/wish.html#_wish" >wish</a></i> (19th).</p>
+				<p id="bonus-feats"><b>Bonus Feats</b>: <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_empower-spell" >Empower Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> [planes]), <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a>.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell that deals energy damage, you can change the type of damage to electricity. This also changes the spell's descriptors to match this energy type.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Like a djinni, you have both natural power over air and several other genie-based abilities.</p>
+				<p id="electricity-ray"><i>Electricity Ray (Sp)</i>: Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of electricity damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
+				<p id="elemental-resistance"><i>Elemental <a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >Resistance</a> (Ex)</i>: At 3rd level, you gain electricity resistance 10. Your electricity resistance increases to 20 at 9th level.</p>
+				<p id="whirlwind"><i><a href="/pathfinderRPG/prd/spells/whirlwind.html#_whirlwind" >Whirlwind</a> (Su)</i>: At 9th level, you gain the ability to turn into a 10-foot-high whirlwind once per day for 1 round per sorcerer level.</p>
+				<p id="elemental-movement"><i>Elemental Movement (Su)</i>: At 15th level, you gain a fly speed of 60 feet with average maneuverability.</p>
+				<p id="power-of-the-djinn"><i>Power of the Djinn (Su)</i>: At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast <i><a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a></i> as a spell-like ability. Such wishes must begin with the words “I wish,” and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.</p>
+				<p>You also become immune to electricity damage, and can use <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> once per day to travel to or from the Plane of Air.</p>
+				<h2 id="efreeti">Efreeti</h2>
+				<p>You were born with the power of fire genies, and the magic of the efreet is strong in you.</p>
+				<p id="class-skill"><b>Class Skill</b>: <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes).</p>
+				<p id="bonus-spells"><b>Bonus Spells</b>: <i><a href="/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person" >enlarge person</a></i> (3rd), <i><a href="/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray" >scorching ray</a></i> (5th), <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i> (7th), <i><a href="/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i> (9th), <i><a href="/pathfinderRPG/prd/spells/persistentImage.html#_persistent-image" >persistent image</a></i> (11th), <i><a href="/pathfinderRPG/prd/spells/planarBinding.html#_planar-binding" >planar binding</a></i> (13th), <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> (15th), <i><a href="/pathfinderRPG/prd/spells/giantForm.html#_giant-form-ii" >giant form II</a></i> (17th), <i><a href="/pathfinderRPG/prd/spells/wish.html#_wish" >wish</a></i> (19th). </p>
+				<p id="bonus-feats"><b>Bonus Feats</b>: <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_empower-spell" >Empower Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> [planes]), <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a>.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell that deals energy damage, you can change the type of damage to fire. This also changes the spell's descriptors to match this energy type.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Like an efreeti, you have both natural power over air and several other genie-based abilities.</p>
+				<p id="fire-ray"><i>Fire Ray (Sp)</i>: Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of fire damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
+				<p id="elemental-resistance"><i>Elemental <a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >Resistance</a> (Ex)</i>: At 3rd level, you gain fire resistance 10. At 9th level, your fire resistance increases to 20.</p>
+				<p id="efreeti-form"><i>Efreeti Form (Su)</i>: At 9th level, you gain the ability to assume the form of an efreeti once per day. This acts like the spell <i><a href="/pathfinderRPG/prd/spells/giantForm.html#_giant-form-i" >giant form I</a></i>, except you only use it to become an efreeti and its duration is 1 round per level. While in this form, you also gain an efreeti's heat ability.</p>
+				<p id="elemental-movement"><i>Elemental Movement (Su)</i>: At 15th level, your base speed increases by +30 feet.</p>
+				<p id="power-of-the-efreet"><i>Power of the Efreet (Su)</i>: At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast <i><a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a></i> as a spell-like ability. Such wishes must begin with the words “I wish,” and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.</p>
+				<p>You also become immune to fire damage, and can use <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> once per day to travel to or from the Plane of Fire.</p>
+				<h2 id="maestro">Maestro</h2>
+				<p>The spiritual power of art and song runs strongly through your family line. This may be the result of ancient pacts made with azata patrons, or even an inheritance from a lillend or trumpet archon ancestor. It could also be the lingering taint of a less savory heritage, such as from a harpy or a forefather driven to madness by the disquieting gibbering of a shoggoth. However it came to be, your family's artistic bent shows itself strongly in your magic.</p>
+				<p id="class-skill"><b>Class Skill</b>: <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a>.</p>
+				<p id="bonus-spells"><b>Bonus Spells</b>: <i><a href="/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism" >ventriloquism</a></i> (3rd), <i><a href="/pathfinderRPG/prd/spells/hideousLaughter.html#_hideous-laughter" >hideous laughter</a></i> (5th), <i><a href="/pathfinderRPG/prd/spells/suggestion.html#_suggestion" >suggestion</a></i> (7th), <i><a href="/pathfinderRPG/prd/spells/shout.html#_shout" >shout</a></i> (9th), <i><a href="/pathfinderRPG/prd/spells/dominatePerson.html#_dominate-person" >dominate person</a></i> (11th), <i><a href="/pathfinderRPG/prd/spells/suggestion.html#_suggestion-mass" >mass suggestion</a></i> (13th), <i><a href="/pathfinderRPG/prd/spells/powerWordBlind.html#_power-word-blind" >power word blind</a></i> (15th), <i><a href="/pathfinderRPG/prd/spells/shout.html#_shout-greater" >greater shout</a></i> (17th), <i><a href="/pathfinderRPG/prd/spells/wailOfTheBanshee.html#_wail-of-the-banshee" >wail of the banshee</a></i> (19th).</p>
+				<p id="bonus-feats"><b>Bonus Feats</b>: <a href="/pathfinderRPG/prd/feats.html#_deceitful" >Deceitful</a>, <a href="/pathfinderRPG/prd/feats.html#_greater-spell-focus" >Greater Spell Focus</a> (enchantment), Lingering Performance, <a href="/pathfinderRPG/prd/feats.html#_persuasive" >Persuasive</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a>), <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (enchantment), <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_spellsong" >Spellsong</a>, <a href="/pathfinderRPG/prd/feats.html#_still-spell" >Still Spell</a>.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell with a verbal component and no somatic or material component, you treat your caster level as if it were one higher.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: You hear music whenever you cast spells, and can use the songs in your head to create magic effects.</p>
+				<p id="beguiling-voice"><i>Beguiling Voice (Ex)</i>: At 1st level, you can use the sound of your voice to lull a target creature into taking no action. This ability acts as the <i><a href="/pathfinderRPG/prd/spells/daze.html#_daze" >daze</a></i> spell, except it is language-dependent, has a duration of 1 round, and affects a living creature whose Hit Dice do not exceed your sorcerer level. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
+				<p id="fascinate"><i>Fascinate (Ex)</i>: At 3rd level, you gain the ability to use a <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> skill to cause one or more creatures to become fascinated with you. This acts as the fascinate bardic perform ability, except the save DC is 10 + 1/2 your sorcerer level + your Charisma bonus, and it lasts 1 round/level. You may use this ability once per day at 3rd level, twice per day at 8th level, three times per day at 13th level, and four times per day at 18th level.</p>
+				<p id="perfect-voice"><i>Perfect Voice (Su)</i>: At 9th level, you understand all efforts to communicate through sound, and can make yourself understood to any creature able to understand language. You can speak to, and understand the speech of, any creature that understands at least one spoken language. The save DCs of language-dependent spells you cast increase by +1.</p>
+				<p id="inspire"><i>Inspire (Sp)</i>: At 15th level, your artistic magic can inspire your allies to great accomplishments. You can use <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism-greater" >greater heroism</a></i> as a spell-like ability. You can use this ability once per day at 15th level, twice per day at 17th level, and three times per day at 19th level.</p>
+				<p id="grand-maestro"><i>Grand Maestro (Su)</i>: At 20th level, the power of pure magic music flows through you. You cast any spell with a verbal component as if it had the <a href="/pathfinderRPG/prd/feats.html#_still-spell" >Still Spell</a> metamagic feat applied to it, with no increase to the casting time or spell slot required to cast it. You gain immunity to sonic damage and language-dependent spells.</p>
+				<h2 id="marid">Marid</h2>
+				<p>You were born with the power of water genies, and the magic of the marids is strong in you.</p>
+				<p id="class-skill"><b>Class Skill</b>: <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes).</p>
+				<p id="bonus-spells"><b>Bonus Spells</b>: <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i> (3rd), <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i> (5th), <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i> (7th), <i><a href="/pathfinderRPG/prd/spells/wallOfIce.html#_wall-of-ice" >wall of ice</a></i> (9th), <i><a href="/pathfinderRPG/prd/spells/persistentImage.html#_persistent-image" >persistent image</a></i> (11th), <i><a href="/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-iii" >elemental body III</a></i> (13th), <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> (15th), <i><a href="/pathfinderRPG/prd/spells/polarRay.html#_polar-ray" >polar ray</a></i> (17th), <i><a href="/pathfinderRPG/prd/spells/wish.html#_wish" >wish</a></i> (19th). </p>
+				<p id="bonus-feats"><b>Bonus Feats</b>: <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_empower-spell" >Empower Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> [planes]), <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a>.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell that deals energy damage, you can change the type of damage to cold. This also changes the spell's descriptors to match this energy type.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Like a marid, you have both natural power over water and several other genie-based abilities.</p>
+				<p id="frost-ray"><i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-frost" >Frost</a> Ray (Sp)</i>: Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of cold damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
+				<p id="elemental-resistance"><i>Elemental <a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >Resistance</a> (Ex)</i>: At 3rd level, you gain cold resistance 10. At 9th level, your cold resistance increases to 20.</p>
+				<p id="water's-fury"><i>Water's Fury (Su)</i>: At 9th level, you gain the ability to summon a rushing jet of water from the elemental plane of water and direct it against your foes. As a standard action, you can create a jet of water in a 60-foot line that deals 1d6 points of damage per two sorcerer levels you possess, and blinds the target that was struck for 1d6 rounds. A Reflex save (DC 10 + 1/2 your sorcerer level + your Charisma bonus) reduces the damage by half and negates the blinding effect.</p>
+				<p id="elemental-movement"><i>Elemental Movement (Su)</i>: At 15th level, you gain a swim speed of 60 feet.</p>
+				<p id="power-of-the-marid"><i>Power of the Marid (Su)</i>: At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast <i><a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a></i> as a spell-like ability. Such wishes must begin with the words “I wish,” and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.</p>
+				<p>You become immune to cold damage, and can use <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> once per day to travel to or from the Plane of Water.</p>
+				<h2 id="rakshasa">Rakshasa</h2>
+				<p>At some point in your family's history, one of your ancestors was tainted by the influence of a rakshasa. Though most of your family seem entirely normal, you have always felt your own skin is a prison from which magic allows you to escape. Your birthright is a secret you may be forced to keep from societies that would never deal with you if your heritage were known.</p>
+				<p id="class-skill"><b>Class Skill</b>: <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a>.</p>
+				<p id="bonus-spells"><b>Bonus Spells</b>: <i><a href="/pathfinderRPG/prd/spells/charmPerson.html#_charm-person" >charm person</a></i> (3rd), <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> (5th), <i><a href="/pathfinderRPG/prd/spells/suggestion.html#_suggestion" >suggestion</a></i> (7th), <i><a href="/pathfinderRPG/prd/spells/detectScrying.html#_detect-scrying" >detect scrying</a></i> (9th), <i><a href="/pathfinderRPG/prd/spells/pryingEyes.html#_prying-eyes" >prying eyes</a></i> (11th), <i><a href="/pathfinderRPG/prd/spells/suggestion.html#_suggestion-mass" >mass suggestion</a></i> (13th), <i><a href="/pathfinderRPG/prd/spells/polymorph.html#_polymorph-greater" >greater polymorph</a></i> (15th), <i><a href="/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank" >mind blank</a></i> (17th), <i><a href="/pathfinderRPG/prd/spells/dominateMonster.html#_dominate-monster" >dominate monster</a></i> (19th).</p>
+				<p id="bonus-feats"><b>Bonus Feats</b>: <a href="/pathfinderRPG/prd/feats.html#_arcane-armor-mastery" >Arcane Armor Mastery</a>, <a href="/pathfinderRPG/prd/feats.html#_arcane-armor-training" >Arcane Armor Training</a>, Deceitful, <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_detect-expertise" >Detect Expertise</a>, Empower Spell, Light Armor Proficiency, <a href="/pathfinderRPG/prd/feats.html#_martial-weapon-proficiency" >Martial Weapon Proficiency</a>, <a href="/pathfinderRPG/prd/feats.html#_stealthy" >Stealthy</a>.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Add half your sorcerer level to the <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> DC for others to identify spells you cast. If their checks fail by 5 or more, they mistakenly believe you are casting an entirely different spell (selected by you when you begin casting).</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: You can call upon the nearly divine power of your rakshasa ancestors, giving you the power to convincingly deceive your enemies.</p>
+				<p id="silver-tongue"><i>Silver Tongue (Su)</i>: At 1st level, you can draw upon your outsider heritage to spin amazingly convincing lies. Activating this ability is a swift action. You gain a +5 bonus on one <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> check made to convince another of the truth of your words (similar to using <i><a href="/pathfinderRPG/prd/spells/glibness.html#_glibness" >glibness</a></i>). If a magical effect is used against you that would detect your lies or force you to speak the truth, the user of the effect must succeed on a caster level check (DC 10 + your sorcerer level) to succeed. Failure means the effect does not detect your lies or force you to speak only the truth. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
+				<p id="mind-reader"><i>Mind Reader (Sp)</i>: At 3rd level, you can read minds as a spell-like ability. This ability acts like <i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i>, except it lasts only 1 round, you use it on a single target as a standard action, and if the target fails its Will save, you gain information as if you had concentrated on it for 3 rounds. You may use this ability once per day at 3rd level and one additional time per day for every four sorcerer levels you possess beyond 3rd, up to five times per day at 20th level.</p>
+				<p id="hide-aura"><i>Hide Aura (Sp)</i>: At 9th level, you can conceal yourself from prying magic. This ability acts like a constant <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i> spell cast upon yourself. You can end or restore this protection as a move action.</p>
+				<p id="alter-self"><i>Alter Self (Sp)</i>: At 15th level, you can change your shape into that of any humanoid at will. This ability acts like <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i>, except you may remain in a chosen form as long as you want. </p>
+				<p id="outsider"><i>Outsider (Su)</i>: At 20th level, your natural form becomes an animal-headed humanoid, like a true rakshasa. This does not affect your ability to speak or cast spells. You can use your <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i> or other disguise and polymorph abilities to assume your original form or other forms when it suits you. You are forevermore treated as a native outsider rather than as a humanoid (or whatever your original type was) for the purpose of spells and other magical effects. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type. You gain DR 10/piercing.</p>
+				<h2 id="shaitan">Shaitan</h2>
+				<p>You were born with the power of earth genies, and the magic of the shaitans is strong in you.</p>
+				<p id="class-skill"><b>Class Skill</b>: <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes).</p>
+				<p id="bonus-spells"><b>Bonus Spells</b>: <i><a href="/pathfinderRPG/prd/spells/trueStrike.html#_true-strike" >true strike</a></i> (3rd), <i><a href="/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust" >glitterdust</a></i> (5th), <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i> (7th), <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i> (9th), <i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i> (11th), <i><a href="/pathfinderRPG/prd/spells/wallOfIron.html#_wall-of-iron" >wall of iron</a></i> (13th), <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> (15th), <i><a href="/pathfinderRPG/prd/spells/ironBody.html#_iron-body" >iron body</a></i> (17th), <i><a href="/pathfinderRPG/prd/spells/wish.html#_wish" >wish</a></i> (19th). </p>
+				<p id="bonus-feats"><b>Bonus Feats</b>: <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_empower-spell" >Empower Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> [planes]), <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a>.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell that deals energy damage, you can change the type of damage to acid. This effect also changes the spell's descriptors to match this energy type.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Like a shaitan, you have both natural power over earth, and several other genie-based abilities.</p>
+				<p id="acid-ray"><i>Acid Ray (Sp)</i>: Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of acid damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.</p>
+				<p id="elemental-resistance"><i>Elemental <a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >Resistance</a> (Ex)</i>: At 3rd level, you gain acid resistance 10. At 9th level, your acid resistance increases to 20.</p>
+				<p id="avalanche"><i>Avalanche (Su)</i>: At 9th level, whenever you hit a single target with a spell that deals damage, you may make a bull rush check as a swift action. Your CMB for this maneuver is equal to your sorcerer caster level + your Charisma bonus. You can make this maneuver even if the target is not in melee range, and you do not provoke an attack of opportunity for making this maneuver. If the target is in contact with earth, stone, or rock, you gain a +4 bonus on your CMB check.</p>
+				<p id="elemental-movement"><i>Elemental Movement (Su)</i>: At 15th level, you gain a burrow speed of 30 feet.</p>
+				<p id="power-of-the-shaitan"><i>Power of the Shaitan (Su)</i>: At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast <i><a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a></i> as a spell-like ability. Such wishes must begin with the words “I wish,” and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.</p>
+				<p>You become immune to acid damage, and can use <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> once per day to travel to or from the Plane of Earth.</p>
+				<h1 id="crossblooded-(archetype)">Crossblooded (Archetype)</h1>
+				<p>A crossblooded bloodline combines the powers of two distinct heritages. In most cases, sorcerers with this bloodline are the offspring of two sorcerers from different ancestries, but occasionally a crossblooded sorcerer arises from the conjunction of other powers. A draconic sorcerer who is also the culmination of a great destiny, an abyssal sorcerer from a family that dealt with devils, and an arcane sorcerer raised from birth by fey are all possible sources for crossblooded bloodlines.</p>
+				<p>A crossblooded sorcerer selects two different bloodlines. The sorcerer may gain access to the skills, feats, and some of the powers of both bloodlines she is descended from, but at the cost of reduced mental clarity and choice (see Drawbacks).</p>
+				<p id="class-skill"><b>Class Skill</b>: A crossblooded sorcerer receives the bonus class skill from both of her bloodlines. If these are the same skill, this does not grant any additional benefit.</p>
+				<p id="bonus-spells"><b>Bonus Spells</b>: A crossblooded sorcerer may select her bonus spells from either of her bloodlines. The sorcerer also has the choice to learn a lower-level bonus spell she did not choose in place of the higher-level bonus spell she would normally gain. Lower-level bonus spells learned this way always use the spell level that they would be if the sorcerer had learned them with the appropriate bonus spell.</p>
+				<p id="example"><i>Example</i>: A 3rd-level aberrant/abyssal crossblooded sorcerer has the choice of learning <i><a href="/pathfinderRPG/prd/spells/causeFear.html#_cause-fear" >cause fear</a></i> or <i><a href="/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person" >enlarge person</a></i> as her bloodline bonus spell. If she selected <i><a href="/pathfinderRPG/prd/spells/causeFear.html#_cause-fear" >cause fear</a></i> as her 3rd-level bonus spell, at 5th level she could use her new bonus spell to learn <i><a href="/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person" >enlarge person</a></i> instead of <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i> or <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i>, and she would add it to her list of 1st-level spells known (just as if she had learned it as her 3rd-level bonus spell).</p>
+				<p id="bonus-feat"><b>Bonus Feat</b>: A crossblooded sorcerer combines the bonus feat lists from both of her bloodlines and may select her bloodline bonus feats from this combined list.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: A crossblooded sorcerer gains the bloodline arcana of both her bloodlines.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: At 1st, 3rd, 9th, 15th, and 20th levels, a crossblooded sorcerer gains one of the two new bloodline powers available to her at that level. She may instead select a lower-level bloodline power she did not choose in place of one of these higher-level powers.</p>
+				<p id="drawbacks"><b>Drawbacks</b>: A crossblooded sorcerer has one fewer spell known at each level (including cantrips) than is presented on the <a href="/pathfinderRPG/prd/classes/sorcerer.html#_table-3-15-sorcerer-spells-known">sorcerer spells known table</a>. Furthermore, the conflicting urges created by the divergent nature of the crossblooded sorcerer's dual heritage forces her to constantly take some mental effort just to remain focused on her current situation and needs. This leaves her with less mental resolve to deal with external threats. A crossblooded sorcerer always takes a &ndash;2 penalty on Will saves.</p>
+				<h1 id="wildblooded-(archetype)">Wildblooded (Archetype)</h1>
+				<p>A wildblooded sorcerer has a mutated version of a more common bloodline, with one arcana and at least one bloodline power that are different from those of an unmutated bloodline. When creating a wildblooded sorcerer, select an existing bloodline, then select one of the following mutated bloodlines associated with that bloodline. Use the normal bloodline's class skill, bonus spells, and bonus feats, and the mutated bloodline's bloodline arcana. Use the normal bloodline's bloodline powers, except when the mutated bloodline replaces one of those powers.</p>
+				<h2 id="anarchic">Anarchic</h2>
+				<p>Your magical power taps into pure anarchy.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Protean.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you fail a concentration check to cast a spell, a cantrip effect is created. Randomly determine one of your cantrips known (for example, if you know 6 cantrips, roll 1d6). There is a 50% chance this cantrip affects a target of your choice within 60 feet; otherwise it affects you.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Raw magical energy lashes out when you destroy or negate hostile spells.</p>
+				<p id="wild-feedback"><i>Wild Feedback (Su)</i>: At 3rd level, when you successfully dispel or counterspell an opponent's spell, the caster (if it is within 100 feet) takes 1d6 points of damage +1 per level of the spell affected. This bloodline power replaces protean resistances.</p>
+				<h2 id="arial">Arial</h2>
+				<p>Your magic is more focused on  the power of air and rain than on lightning and thunder.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Stormborn.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever outdoors during any form of precipitation, your effective caster level is increased by 2.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: The greatest storms bring ruin through wind, not electricity.</p>
+				<p id="windcaller"><i>Windcaller (Sp)</i>: At 9th level, you can call the winds to obey your commands for 1 minute per level. This functions like <i><a href="/pathfinderRPG/prd/spells/controlWinds.html#_control-winds" >control winds</a></i>, except that you may choose to be immune to any increased wind effects you create. The ability's duration does not need to be consecutive, but it must be used in 1-minute increments. This bloodline power replaces thunderbolt.</p>
+				<h2 id="bedrock">Bedrock</h2>
+				<p>Your earth magic is more defensive than offensive.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Deep Earth.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell of the summoning subschool, the creatures summoned gain DR/adamantine equal to 1/2 your sorcerer level (minimum 1). This does not stack with any DR the creature might have.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Rock is timeless; it endures.</p>
+				<p id="iron-hide"><i>Iron Hide (Sp)</i>: At 9th level, as a swift action, you can grant yourself DR 10/adamantine for a number of rounds per day equal to your sorcerer level. The rounds do not need to be used consecutively. This bloodline power replaces crystal shard.</p>
+				<h2 id="brutal">Brutal</h2>
+				<p>The powers of the Abyss can vary radically, even for similar fiends.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Abyssal.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell that deals hit point damage, one target of your choice affected by the spell takes 2 additional hit points of damage. This ability has no effect on spells that do not deal hit point damage (such as ability score damage).</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Flight is often the key to survival.</p>
+				<p id="wings-of-the-abyss"><i>Wings of the Abyss (Su)</i>: At 9th level, you can sprout leathery wings and fly for a number of minutes per day equal to your sorcerer level, with a speed of 60 feet and good maneuverability. This duration does not need to be consecutive, but it must be used in 1-minute increments. This bloodline power replaces strength of the abyss.</p>
+				<h2 id="empyreal">Empyreal</h2>
+				<p>Your heavenly power derives from insight rather than force of personality.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Celestial.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Unlike most sorcerers whose innate magic is powered by force of personality, you use pure willpower to master and fuel your magic. You use your Wisdom, rather than your Charisma, to determine all class features and effects relating to your sorcerer class, such as bonus spells per day, maximum spell level you can cast, and the save DCs of your spells. You gain a +2 bonus on all <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> and <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) checks.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Your quasi-divine nature gives you strange powers.</p>
+				<p id="sacred-cistern"><i>Sacred Cistern (Su)</i>: At 9th level, your bloodline makes you a natural receptacle of divine energy. You can channel energy once per day as a cleric of your sorcerer level &ndash; 4. This bloodline power replaces wings of heaven.</p>
+				<h2 id="envenomed">Envenomed</h2>
+				<p>The ophidian source of your bloodline has more to do with stealth and assassination than it does with leadership and alliances.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Serpentine.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: You gain a +2 bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a>, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a>, and <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: The stink of poison taints your magic.</p>
+				<p id="envenom"><i>Envenom (Su)</i>: At 3rd level, as a swift action, you can lick or bite a melee weapon to imbue it with 1 dose of <a href="/pathfinderRPG/prd/glossary.html#_black-adder-venom">black adder venom</a>. The poison's DC is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. You may use this ability once per day at 3rd level, and one additional time per day for every three additional levels. The poison cannot be removed or stored, and the weapon loses the benefit of the poison after the first successful attack or 1 hour has passed. The bloodline power replaces serpentfriend.</p>
+				<h2 id="groveborn">Groveborn</h2>
+				<p>Some plant magic is more green, while some is more brown, like hardwood.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Verdant.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Your powers of compulsion can affect even plant creatures. Whenever you cast a mind-affecting or language-dependent spell, it affects creatures of the plant type as if they were humanoids that understood your language.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Your nature powers create tough, resilient minions.</p>
+				<p id="lush-summoning"><i>Lush Summoning (Su)</i>: At 3rd level, whenever you summon creatures with a conjuration (summoning) spell, you can decide that they appear green and leafy. The natural armor bonus of such creatures is increased by +2, and they gain a +4 bonus on saves against paralysis, poison, polymorph, sleep, and stunning. This bloodline power replaces photosynthesis.</p>
+				<h2 id="karmic">Karmic</h2>
+				<p>The universe punishes those who interfere with destiny.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Destined.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: If you are casting defensively because a creature is threatening you and you fail your concentration check, one of the creatures that is threatening you provokes an attack of opportunity from you or from one ally who is adjacent to the enemy. You decide which creature provokes this attack and which of its adjacent opponents may make the attack.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Your blood responds angrily when you are attacked.</p>
+				<p id="fate's-retribution"><i>Fate's Retribution (Su)</i>: Starting at 1st level, when you are hit by a melee attack, as an immediate action, you can curse the creature that struck you. The target takes a &ndash;2 penalty on all attack and damage rolls for 1d4 rounds. A Will save (DC 10 + 1/2 your sorcerer level + your Charisma modifier) negates this effect. You can use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces touch of destiny.</p>
+				<h2 id="linnorm">Linnorm</h2>
+				<p>Your draconic heritage stems from a mighty, primordial linnorm rather than from the more common, somewhat civilized dragons.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Draconic.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell with an energy descriptor that matches your linnorm bloodline's energy type, you gain a natural armor bonus equal to the spell's level for 1d4 rounds.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: True dragons blast their foes with rays of energy.</p>
+				<p id="elemental-spit"><i>Elemental Spit (Su)</i>: Starting at 1st level, you can fire an elemental ray that matches your linnorm bloodline's energy type as a standard action, targeting any foe within 30 feet as a ranged touch attack. The ray deals 1d6 points of damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces claws.</p>
+				<h2 id="pit-touched">Pit-Touched</h2>
+				<p>Your diabolic corruption is from a source in the deepest parts of Hell.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Infernal.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell, you gain a bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks equal to the spell's level for 1 round.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: The crushing weight of evil has given you the strength to endure.</p>
+				<p id="tough-as-hell"><i>Tough as Hell (Ex)</i>: At 9th level, you gain a +2 inherent bonus to your Constitution. This bonus increases to +4 at 13th level, and to +6 at 17th level. This bloodline power replaces hellfire.</p>
+				<h2 id="primal">Primal</h2>
+				<p>Your powers are attuned to the concentrated core of the elemental plane.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Elemental.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell with an energy descriptor that matches your elemental bloodline's energy type, that spell deals +1 point of damage per die rolled.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: You can infuse raw energy into your summoned minions.</p>
+				<p id="elementalist-summoning"><i>Elementalist Summoning (Su)</i>: At 9th level, whenever you summon a creature, it gains energy resistance 10 against the energy type that matches your elemental bloodline (if it already has such resistance, its resistance increases by +5), and its natural attacks deal an additional 1d6 points of damage of the same energy type. This bloodline power replaces elemental blast.</p>
+				<h2 id="rime-blooded">Rime-Blooded</h2>
+				<p>The wintry origin of your magic flows like ice water in your veins.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Boreal.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell with the cold descriptor, you may select one target of the spell to be slowed (as the spell) for 1 round. A Fortitude save (DC 10 + the level of cold spell + your Charisma modifier) negates the effect.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Sometimes you must bring the cold to your enemies.</p>
+				<p id="freezing-bolt"><i>Freezing Bolt (Sp)</i>: At 9th level, you can cause the air to erupt in freezing sleet. This 10-foot-radius burst does 1d6 points of cold damage per sorcerer level (Reflex half). The DC of this save is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. At 9th level, you can use this ability once per day. At 17th level, you can use this ability twice per day. At 20th level, you can use this ability three times per day. This power has a range of 60 feet. This bloodline power replaces snow shroud.</p>
+				<h2 id="sage">Sage</h2>
+				<p>Scholars of the arcane are always creating new means to use magic.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Arcane.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Unlike most sorcerers, whose innate magic is powered by force of personality, you use your intellect to understand and master your mystic powers. You use your Intelligence, rather than your Charisma, to determine all class features and effects relating to your sorcerer class, such as bonus spells per day, the maximum spell level you can cast, the save DCs of your spells, and the number of daily uses of your bloodline powers. You gain a +2 bonus on all <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) and <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> checks.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Your preferred focus is a bolt of mind-spun magic.</p>
+				<p id="arcane-bolt"><i>Arcane Bolt (Sp)</i>: Starting at 1st level, you can unleash a ray of magic force as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d4 points of damage + 1 for every two sorcerer levels you possess. This damage is treated as a spell of a level equal to half your sorcerer level, and is a force effect. You can use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces arcane bond.</p>
+				<h2 id="sanguine">Sanguine</h2>
+				<p>The power of undeath can derive from cold blood as well as hard bone.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Undead.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell of the necromancy school, your effective caster level is increased by 1.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Your magic emulates that of the hungry dead.</p>
+				<p id="the-blood-is-the-life"><i>The Blood Is the Life (Su)</i>: At 1st level, you can gain sustenance from the blood of the recently dead. As a standard action, you can drink the blood of a creature that died within the past minute. The creature must be corporeal, must be at least the same size as you, and must have blood. This ability heals you 1d6 hit points and nourishes you as if you'd had a full meal. You may use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces grave touch.</p>
+				<h2 id="seaborn">Seaborn</h2>
+				<p>Your powers rise like the tides.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Aquatic.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: When you are in a body of water large enough to float in, your effective caster level is increased by 1.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: You prefer to attack with water rather than to leech it away.</p>
+				<p id="water-blast"><i>Water Blast (Sp)</i>: As a standard action, you can fire a bolt of water at a foe within 30 feet as a ranged touch attack. The foe is knocked prone, and at your option may be pushed 5 feet directly away from you. A reflex save (DC 10 +1/2 your sorcerer level + your Charisma modifier) negates this effect. You can use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces dehydrating touch.</p>
+				<h2 id="sylvan">Sylvan</h2>
+				<p>Your ties to nature have more to do with creatures than with capriciousness.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Fey.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: See bloodline powers.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Your magic shows a kinship to that of the beast-talkers and shapechanger fey.</p>
+				<p id="animal-companion"><i>Animal Companion (Ex)</i>: You gain an animal companion. Your effective druid level for this ability is equal to your sorcerer level &ndash; 3 (minimum 1st). This bloodline power counts as your bloodline arcana and also replaces laughing touch.</p>
+				<p id="fey-wings"><i>Fey Wings (Su)</i>: At 15th level, you can grow insectlike wings from your back and become one size category smaller (as if you had used <i><a href="/pathfinderRPG/prd/spells/reducePerson.html#_reduce-person" >reduce person</a></i>), gaining a fly speed of 60 feet with average maneuverability. You can maintain this form for 1 minute per level. This duration does not need to be consecutive, but it must be used in 1-minute increments. This bloodline power replaces fey magic.</p>
+				<h2 id="umbral">Umbral</h2>
+				<p>Your nature is to gather the darkness into yourself.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Shadow.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell in an area of dim light or darkness, your effective caster level is increased by 1.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Your shadow magic is more defensive than offensive.</p>
+				<p id="cloak-of-shadows"><i>Cloak of Shadows (Sp)</i>: At 1st level, as a standard action, you can grant one target a cloak of shadows. This cloak gives the target a bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks made in areas of dim or no light equal to 1/2 your sorcerer level for 1 round per 2 sorcerer levels you possess (minimum +1 bonus for 1 round). You may use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces shadowstrike.</p>
+				<h2 id="visionary">Visionary</h2>
+				<p>Your dream-magic strongly influences the waking world.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Dreamspun.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Though you can still only regain spells once per day, you need only a single hour of sleep prior to doing so. (You still risk fatigue as normal if you don't receive enough rest.)</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Your dreams hint at the future.</p>
+				<p id="visions"><i>Visions (Sp)</i>: At 9th level, when you sleep, you can gain information through prophetic visions. Once per day when sleeping, you may gain information about actions taken in the next week as if you had cast a <i><a href="/pathfinderRPG/prd/spells/divination.html#_divination" >divination</a></i> spell. You can gain information about a single question at 9th level. At 17th level, you can have two questions answered while you sleep, and at 20th level, three questions. This bloodline power replaces dreamshaper.</p>
+				<h2 id="void-touched">Void-Touched</h2>
+				<p>The darkness between the stars calls to you.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Starsoul.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast an evocation spell, you may select one affected target that fails its save to suffer the choking airlessness of the void, silencing it (as <i><a href="/pathfinderRPG/prd/spells/silence.html#_silence" >silence</a></i>, but affecting only the target) for 1 round. This is a supernatural ability.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Your magic is blacker than any night.</p>
+				<p id="black-motes"><i>Black Motes (Sp)</i>: This ability works exactly like (and replaces) minute meteors, except it deals cold damage.</p>
+				<p id="voidfield"><i>Voidfield (Sp)</i>: At 9th level, you can create an area influenced by the black void. This ability acts as an <i><a href="/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm" >ice storm</a></i>, except the area is also subject to <i><a href="/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness" >deeper darkness</a></i> for 1 round per four sorcerer levels. You may use this ability once per day at 3rd level, and one additional time per day for every three additional levels. The bloodline power replaces aurora borealis.</p>
+				<h2 id="warped">Warped</h2>
+				<p>The alien taint in your blood causes malformations and mutations in others.</p>
+				<p id="associated-bloodline"><b>Associated Bloodline</b>: Aberrant.</p>
+				<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell of the polymorph subschool, one target of your choice may receive one random effect from the Warped Polymorph Benefits table (see below). This bonus lasts as long as the polymorph effect on the target.</p>
+				<p id="bloodline-powers"><b>Bloodline Powers</b>: Your strange blood brings out the worst in people.</p>
+				<p id="warp-touch"><i>Warp Touch (Sp)</i>: Starting at 1st level, you create brief, disorienting changes in a creature's physical form. This ability affects one creature within 30 feet, which is dazed for 1 round (Fortitude negates; DC 10 + 1/2 your sorcerer level + your Charisma modifier). You can use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces acidic ray.</p>
+				
+				<div class="table"><table><caption>Table: Warped Polymorph Benefits</caption>
+				<thead><tr><th>d12</th><th>Effect</th></tr></thead>
+				<tr class="odd"><td>1</td><td>Double-Jointed: +2 on <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> checks.</td></tr>
+				<tr class="even"><td>2</td><td>Webbed Digits: +2 on <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> checks.</td></tr>
+				<tr class="odd"><td>3</td><td>Iron Grip: +2 on <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> checks and to CMD 	against disarm maneuvers.</td></tr>
+				<tr class="even"><td>4</td><td>Bug Eyes: +2 on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks.</td></tr>
+				<tr class="odd"><td>5</td><td>Camouflage: +2 on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks.</td></tr>
+				<tr class="even"><td>6</td><td>Tough Hide: +1 natural armor bonus.</td></tr>
+				<tr class="odd"><td>7</td><td>Hardy: +1 on Fortitude saving throws.</td></tr>
+				<tr class="even"><td>8</td><td>Lively: +1 on Reflex saving throws.</td></tr>
+				<tr class="odd"><td>9</td><td>Astute: +1 on Will saves.</td></tr>
+				<tr class="even"><td>10</td><td>Quick: +5 ft. movement rate.</td></tr>
+				<tr class="odd"><td>11</td><td>Vicious: +1 on melee attack rolls.</td></tr>
+				<tr class="even"><td>12</td><td><a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_eagle-eyes" >Eagle Eyes</a>: +1 on ranged attack rolls.</td></tr></table></div><br>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

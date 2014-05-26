@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Prestige Classes</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Prestige Classes",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="prestige-classes">Prestige Classes</h1>
+
+<p>Prestige classes allow you to customize characters in very specialized ways. However, the prerequisites mean characters with a prestige class tend to be higher level and might require specific kinds of multiclassing to be effective. The <span class="char-style-override-8">NPC Codex saves busy GMs the time it would take to create NPCs with prestige classes.</p>
+<p>This section gives you useful and interesting NPCs at prestige class levels 2, 4, 7, and 10 for each of the 10 prestige classes detailed in the Core Rulebook. The NPCs are character levels 9, 13, 17, and 20, allowing you to use them over a wide range of levels in the campaign.</p>
+<p>All of the NPCs in this chapter use the "heroic" set of base ability scores (15, 14, 13, 12, 10, 8), and the value of their gear has been determined using the Heroic Level column of the <a href="/pathfinderRPG/prd/creatingNPCs.html#_table-14-9-npc-gear">NPC Gear table</a>.</p>
+<p>In general, the NPCs do not list mundane gear such as rope, torches, belt pouches, and so on unless it is vital to the character (clerics have a holy symbol, rogues with <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> have thieves' tools, and so on). You can assume that an NPC is geared appropriately for his or her profession or adventuring career, and if cost is ever a factor, you can mark off some of the character's extra gear for this purpose or swap it for expendable items such as potions, nearly expended wands, and so on.</p>
+<p>As with the core classes, the three most common uses for NPCs in this chapter are as enemies, allies, and player characters, and the same guidelines explained there apply to this chapter. If your campaign requires PCs to train with a member of a prestige class before they can take levels in that prestige class, you may wish to use these NPCs as mentors or trainers for PCs interested in pursuing these specific courses of study.</p>
+
+<h2>Notes on Classes</h2>
+<p>As with the core classes, you always have the option to alter or add to these characters to make them even more useful to your campaign. If you're considering swapping a character's core class abilities for those of another class or archetype, be sure the altered character still qualifies for the prestige class. For example, the arcane trickster class requires a character to have sneak attack +2d6, so don't use a class or rogue archetype that removes the character's sneak attack ability.</p>
+<p>The remainder of this section examines specific alternative class and archetype choices for each of the classes in this chapter.</p>
+
+<h2><a href="/pathfinderRPG/prd/npcCodex/prestige/arcaneArcher.html">Arcane Archer</a></h2>
+<p>This prestige class requires the ability to cast 1st-level arcane spells, so all four of the arcane archers in this chapter have at least one level in bard, sorcerer, or wizard. If you want to alter the flavor of these characters, you can swap levels in these core classes for levels in a similar arcane spellcasting class such as summoner or witch. You can even hand-wave the minor math differences between the classes (such as the Hit Die type of a summoner compared to that of a wizard) and create an NPC with a very different feel. For example, the tournament champion (arcane archer 4) is a bard/sorcerer, but could easily be a summoner/sorcerer or a bard/witch, which presents a very different concept for the character.</p>
+
+<h2><a href="/pathfinderRPG/prd/npcCodex/prestige/arcaneTrickster.html">Arcane Trickster</a></h2>
+<p>This prestige class requires sneak attack +2d6, so all of the arcane tricksters presented here have at least three levels in the rogue class. The requirement that the character must be able to cast <i>mage hand</i> means the character must have levels in bard, sorcerer, or wizard, so all of the arcane tricksters are multiclassed with rogue and one of those three classes. You could, however, replace the rogue levels in any of these characters with <a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">ninja</a>. levels, since the ninja is a modified rogue. The <a href="/pathfinderRPG/prd/advanced/coreClasses/bard.html#_sandman">sandman bard archetype</a> and <a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/alchemist.html#_vivisectionist-(archetype)">vivisectionist alchemist archetype</a> also give the sneak attack ability and would be interesting class swaps for arcane tricksters.</p>
+
+<h2><a href="/pathfinderRPG/prd/npcCodex/prestige/assassin.html">Assassin</a></h2>
+<p>This prestige class has the easiest requirements to meet (in terms of game mechanics) out of any of the core classes, so the four assassins presented here have a variety of base classes&mdash;a cleric/rogue, a druid/fighter, a monk, and a rogue. This gives you many options when it comes to quickly customizing these assassins to suit your campaign without altering much of the math. The cleric/rogue could be an oracle/rogue, a cleric/bard, or druid/rogue. The monk could be a fighter, ranger, or rogue. The druid/fighter could be a druid/barbarian, druid/ranger, or cleric/fighter. The rogue could be a bard, ninja, or even a summoner.</p>
+
+<h2><a href="/pathfinderRPG/prd/npcCodex/prestige/dragonDisciple.html">Dragon Disciple</a></h2>
+<p>This class requires levels in a spontaneous-casting arcane class (of which there are only two core examples, the bard and sorcerer), and if the character has sorcerer levels, it requires him to have the draconic bloodline, so this prestige class is perhaps the most specialized from the Core Rulebook. Fortunately, changing the character's dragon type is very easy, allowing you to use these four characters as any of the 10 dragon types listed in the sorcerer class.</p>
+
+<h2><a href="/pathfinderRPG/prd/npcCodex/prestige/duelist.html">Duelist</a></h2>
+<p>This class requires three combat feats, so it is naturally suited for fighters (and to a lesser extent rogues, who can use rogue talents to gain extra combat feats). Its reliance on using intelligent tactics, wearing light or no armor, wielding a light or one-handed piercing weapon, and having a free hand makes it a suboptimal choice for barbarians (whose rage-based abilities are a poor thematic match), monks (as they can fight without weapons, and there is only one monk weapon they can use with duelist class abilities), paladins (who usually wear heavier armor), and rangers (who for the most part either are archers or fight in melee with two weapons). Therefore, the four duelists presented here all have fighter or rogue levels. Because the duelist doesn't use specific fighter or rogue class features as requirements, you can easily swap out these features with those of another archetype, such as the free hand fighter, mobile fighter, acrobat rogue, or rake rogue, to create a new duelist with this stat block.</p>
+
+<h2><a href="/pathfinderRPG/prd/npcCodex/prestige/eldritchKnight.html">Eldritch Knight</a></h2>
+<p>This class requires proficiency in all martial weapons and 3rd-level arcane spellcasting, so the character must have levels in barbarian, fighter, paladin, or ranger (the only way to gain proficiency in all martial weapons from the Core Rulebook), and levels in bard, sorcerer, or wizard. Though the theme of this class is mostly taken over by the magus base class, using the prestige class lets you do things that you can't do as a single-classed magus, such as using higher-level spells or arcane spells that aren't on the magus spell list, mixing arcane and divine magic (as the champion of magic eldritch knight does), and using barbarian rage. In most cases, you can swap out the character's spellcasting class for another (such as replacing conjurer levels with summoner levels or sorcerer levels with bard levels) or swap her martial class levels for another martial class (ranger for barbarian, cavalier for fighter, and so on).</p>
+
+<h2><a href="/pathfinderRPG/prd/npcCodex/prestige/loremaster.html">Loremaster</a></h2>
+<p>Because this class's skill, feat, and spell requirements are very specific and its unique class abilities are not particularly useful in combat, characters of this class are often relegated to NPC status as sages or mentors. The four loremasters presented here focus on knowledge of the gods, nature, humanoid history, and the planes. However, because the prestige class abilities don't alter the base class's abilities or have specific ties to the character's field of study, you can swap out class levels or change the knowledge focus to whatever you need for your campaign. For example, if you need a 9th-level planar expert, use the divine loremaster and swap her <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) and <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) skill bonuses.</p>
+
+<h2><a href="/pathfinderRPG/prd/npcCodex/prestige/mysticTheurge.html">Mystic Theurge</a></h2>
+<p>This class requires three or more levels of investment in two different spellcasting classes, and a character interested in this path usually can't afford to dip into other classes on the way to taking prestige class levels. One of the two unique class abilities of the mystic theurge is the ability to use spell slots from one class to cast spells from the character's other class. However, because doing so makes the spell use a higher-level spell slot than normal, this is a suboptimal choice&mdash;the character would normally do this only if he needed extra castings of certain spells and didn't have enough spell slots of the right class. Rather than presenting an underpowered character with weaker-than-normal spells, the four mystic theurges in this chapter are not depicted as using that class ability. Feel free to alter their spell lists to take advantage of this ability if it suits your campaign.</p>
+
+<h2><a href="/pathfinderRPG/prd/npcCodex/prestige/pathfinderChronicler.html">Pathfinder Chronicler</a></h2>
+<p>This class requires a small skill investment and a roleplaying or background requirement that doesn't need a specific class ability and has no effect on the character's stat block; therefore, the example Pathfinder chroniclers represent a variety of classes. As with the example assassin characters, this means you can easy swap base classes to customize these Pathfinder chroniclers to suit your campaign, such as by changing the mad prophet from a cleric to a conjurer, the master storycrafter from a sorcerer to an illusionist, or the battle skald from a barbarian/bard to a ranger/bard.</p>
+
+<h2><a href="/pathfinderRPG/prd/npcCodex/prestige/shadowdancer.html">Shadowdancer</a></h2>
+<p>This class requires three combat feats and a small skill investment, so while it is mainly suited for martial characters, it is within reach for spellcasters as well. However, many of the shadowdancer's class abilities&mdash; darkvision, evasion, proficiencies, rogue talents, and uncanny dodge&mdash;are available from other classes or races (or can be emulated with other class abilities), so many characters who take levels in this class will have redundant abilities. Creating an effective shadowdancer requires careful selection of base classes and feats to avoid this; if you swap out earlier levels, make sure you minimize the number of these abilities the character gains from two different sources.</p>
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

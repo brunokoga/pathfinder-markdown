@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Rings</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Rings",globalNavPath=[{ href: '/pathfinderRPG/prd/magicItems.html', name: 'Magic Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="rings">Rings</h1>
+				<p>Rings bestow magical powers upon their wearers. Only a rare few have charges&mdash;most magic rings are permanent and potent magic items. Anyone can use a ring.</p>
+				<p>A character can only effectively wear two magic rings. A third magic ring doesn't work if the wearer is already wearing two magic rings.</p>
+				<p><b>Physical Description</b>: Rings have no appreciable weight. Although exceptions exist that are crafted from glass or bone, the vast majority of rings are forged from metal&mdash;usually precious metals such as gold, silver, and platinum. A ring has <a href="../combat.html#_armor-class" >AC</a> 13, 2 hit points, hardness 10, and a break DC of 25.</p>
+				<p><b>Activation</b>: A ring's ability is usually activated by a spoken command word (a standard action that does not provoke attacks of opportunity) or its effects work continually. Some rings have unusual activations, as mentioned in the ring's specific description.</p>
+				<p><b>Special Qualities</b>: Roll d%. A result of 01 indicates the ring is intelligent, 02&ndash;31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32&ndash;100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see <a href="intelligentItems.html">Intelligent Items</a>). Rings with charges can never be intelligent.</p>
+				<div><table id="table-15-13-rings"><caption>Table: Rings</caption>
+<thead><tr><th>Minor</th><th>Medium</th><th>Major</th><th>Ring</th><th>Market Price</th></tr></thead>
+<tbody>
+<tr class="odd"><td>01&ndash;18</td><td>&mdash;</td><td>&mdash;</td><td><i><a href="#_ring-of-protection" >Protection</a> +1</i></td><td>2,000 gp</td></tr>
+<tr class="even"><td>19&ndash;28</td><td>&mdash;</td><td>&mdash;</td><td><i><a href="#_ring-of-feather-falling" >Feather falling</a></i></td><td>2,200 gp</td></tr>
+<tr class="odd"><td>29&ndash;36</td><td>&mdash;</td><td>&mdash;</td><td><i><a href="#_ring-of-sustenance" >Sustenance</a></i></td><td>2,500 gp</td></tr>
+<tr class="even"><td>37&ndash;44</td><td>&mdash;</td><td>&mdash;</td><td><i><a href="#_ring-of-climbing" >Climbing</a></i></td><td>2,500 gp</td></tr>
+<tr class="odd"><td>45&ndash;52</td><td>&mdash;</td><td>&mdash;</td><td><i><a href="#_ring-of-jumping" >Jumping</a></i></td><td>2,500 gp</td></tr>
+<tr class="even"><td>53&ndash;60</td><td>&mdash;</td><td>&mdash;</td><td><i><a href="#_ring-of-swimming" >Swimming</a></i></td><td>2,500 gp</td></tr>
+<tr class="odd"><td>61&ndash;70</td><td>01&ndash;05</td><td>&mdash;</td><td><i><a href="#_ring-of-counterspells" >Counterspells</a></i></td><td>4,000 gp</td></tr>
+<tr class="even"><td>71&ndash;75</td><td>06&ndash;08</td><td>&mdash;</td><td><i><a href="#_ring-of-mind-shielding" >Mind shielding</a></i></td><td>8,000 gp</td></tr>
+<tr class="odd"><td>76&ndash;80</td><td>09&ndash;18</td><td>&mdash;</td><td><i><a href="#_ring-of-protection" >Protection</a> +2</i></td><td>8,000 gp</td></tr>
+<tr class="even"><td>81&ndash;85</td><td>19&ndash;23</td><td>&mdash;</td><td><i><a href="#_ring-of-force-shield" >Force shield</a></i></td><td>8,500 gp</td></tr>
+<tr class="odd"><td>86&ndash;90</td><td>24&ndash;28</td><td>&mdash;</td><td><i><a href="#_ring-of-the-ram" >Ram, the</a></i></td><td>8,600 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>29&ndash;34</td><td>&mdash;</td><td><i><a href="#_ring-of-climbing-improved" >Climbing, improved</a></i></td><td>10,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>35&ndash;40</td><td>&mdash;</td><td><i><a href="#_ring-of-jumping-improved" >Jumping, improved</a></i></td><td>10,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>41&ndash;46</td><td>&mdash;</td><td><i><a href="#_ring-of-swimming-improved" >Swimming, improved</a></i></td><td>10,000 gp</td></tr>
+<tr class="odd"><td>91&ndash;93</td><td>47&ndash;50</td><td>&mdash;</td><td><i><a href="#_ring-of-animal-friendship" >Animal friendship</a></i></td><td>10,800 gp</td></tr>
+<tr class="even"><td>94&ndash;96</td><td>51&ndash;56</td><td>01&ndash;02</td><td><i><a href="#_ring-of-energy-resistance" >Energy resistance</a>, minor</i></td><td>12,000 gp</td></tr>
+<tr class="odd"><td>97&ndash;98</td><td>57&ndash;61</td><td>&mdash;</td><td><i><a href="#_ring-of-chameleon-power" >Chameleon power</a></i></td><td>12,700 gp</td></tr>
+<tr class="even"><td>99&ndash;100</td><td>62&ndash;66</td><td>&mdash;</td><td><i><a href="#_ring-of-water-walking" >Water walking</a></i></td><td>15,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>67&ndash;71</td><td>03&ndash;07</td><td><i><a href="#_ring-of-protection" >Protection</a> +3</i></td><td>18,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>72&ndash;76</td><td>08&ndash;10</td><td><i><a href="#_ring-of-spell-storing-minor" >Spell storing, minor</a></i></td><td>18,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>77&ndash;81</td><td>11&ndash;15</td><td><i><a href="#_ring-of-invisibility" >Invisibility</a></i></td><td>20,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>82&ndash;85</td><td>16&ndash;19</td><td><i><a href="#_ring-of-wizardry" >Wizardry</a> (I)</i></td><td>20,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>86&ndash;90</td><td>20&ndash;25</td><td><i><a href="#_ring-of-evasion" >Evasion</a></i></td><td>25,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>91&ndash;93</td><td>26&ndash;28</td><td><i><a href="#_ring-of-x-ray-vision" >X-ray vision</a></i></td><td>25,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>94&ndash;97</td><td>29&ndash;32</td><td><i><a href="#_ring-of-blinking" >Blinking</a></i></td><td>27,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>98&ndash;100</td><td>33&ndash;39</td><td><i><a href="#_ring-of-energy-resistance" >Energy resistance</a>, major</i></td><td>28,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>&mdash;</td><td>40&ndash;49</td><td><i><a href="#_ring-of-protection" >Protection</a> +4</i></td><td>32,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>&mdash;</td><td>50&ndash;55</td><td><i><a href="#_ring-of-wizardry" >Wizardry</a> (II)</i></td><td>40,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>&mdash;</td><td>56&ndash;60</td><td><i><a href="#_ring-of-freedom-of-movement" >Freedom of movement</a></i></td><td>40,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>&mdash;</td><td>61&ndash;63</td><td><i><a href="#_ring-of-energy-resistance" >Energy resistance</a>, greater</i></td><td>44,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>&mdash;</td><td>64&ndash;65</td><td><i><a href="#_ring-of-friend-shield" >Friend shield</a> </i>(pair)</td><td>50,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>&mdash;</td><td>66&ndash;70</td><td><i><a href="#_ring-of-protection" >Protection</a> +5</i></td><td>50,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>&mdash;</td><td>71&ndash;74</td><td><i><a href="#_ring-of-shooting-stars" >Shooting stars</a></i></td><td>50,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>&mdash;</td><td>75&ndash;79</td><td><i><a href="#_ring-of-spell-storing-minor" >Spell storing</a></i></td><td>50,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>&mdash;</td><td>80&ndash;83</td><td><i><a href="#_ring-of-wizardry" >Wizardry</a> (III)</i></td><td>70,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>&mdash;</td><td>84&ndash;86</td><td><i><a href="#_ring-of-telekinesis" >Telekinesis</a></i></td><td>75,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>&mdash;</td><td>87&ndash;88</td><td><i><a href="#_ring-of-regeneration" >Regeneration</a></i></td><td>90,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>&mdash;</td><td>89&ndash;91</td><td><i><a href="#_ring-of-spell-tuning" >Spell turning</a></i></td><td>100,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>&mdash;</td><td>92&ndash;93</td><td><i><a href="#_ring-of-wizardry" >Wizardry</a> (IV)</i></td><td>100,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>&mdash;</td><td>94</td><td><i><a href="#_ring-of-three-wishes" >Three wishes</a></i></td><td>120,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>&mdash;</td><td>95</td><td><i><a href="#_ring-of-djinni-calling" >Djinni calling</a></i></td><td>125,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>&mdash;</td><td>96</td><td><i><a href="#_ring-of-elemental-command" >Elemental command (air)</a></i></td><td>200,000 gp </td></tr>
+<tr class="odd"><td>&mdash;</td><td>&mdash;</td><td>97</td><td><i><a href="#_ring-of-elemental-command" >Elemental command (earth)</a> </i></td><td>200,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>&mdash;</td><td>98</td><td><i><a href="#_ring-of-elemental-command" >Elemental command (fire)</a> </i></td><td>200,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>&mdash;</td><td>99</td><td><i><a href="#_ring-of-elemental-command" >Elemental command (water)</a> </i></td><td>200,000 gp</td></tr><tr class="even"><td>&mdash;</td><td>&mdash;</td><td>100</td><td><i><a href="#_ring-of-spell-storing-major" >Spell storing, major</a></i></td><td>200,000 gp</td></tr></tbody>
+
+</table></div>
+				<p id="ring-of-animal-friendship" class="stat-block-title"><b>Ring of Animal Friendship</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint enchantment;<b> CL </b>3rd</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 10,800 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>A <i>ring of animal friendship</i> always bears some sort of animal-like design in its craftsmanship. On command, this ring affects an animal as if the wearer had cast <i><a href="../spells/charmAnimal.html#_charm-animal" >charm animal</a></i>. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/charmAnimal.html#_charm-animal" >charm animal</a></i>; <b>Cost </b>5,400 gp</p>
+				<p id="ring-of-blinking" class="stat-block-title"><b>Ring of Blinking</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation;<b> CL </b>7th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 27,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>On command, this ring makes the wearer blink, as the <i><a href="../spells/blink.html#_blink" >blink</a> </i>spell. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/blink.html#_blink" >blink</a></i>; <b>Cost </b>13,500 gp</p>
+				<p id="ring-of-chameleon-power" class="stat-block-title"><b>Ring of Chameleon Power</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint illusion;<b> CL </b>3rd</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 12,700 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>As a free action, the wearer of this ring can gain the ability <span class="grame">to magically blend</span> in with the surroundings. This provides a +<span class="grame">10 competence</span> bonus on her <a href="../skills/stealth.html#_stealth" >Stealth</a> checks. As a standard action, she can also use the spell <i><a href="../spells/disguiseSelf.html#_disguise-self" >disguise self</a> </i>as often as she wants. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/disguiseSelf.html#_disguise-self" >disguise self</a>, <a href="../spells/invisibility.html#_invisibility" >invisibility</a></i>; <b>Cost </b>6,350 gp</p>
+				<p id="ring-of-climbing" class="stat-block-title"><b>Ring of Climbing</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint transmutation;<b> CL </b>5th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 2,500 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This ring is actually a magic leather cord that ties around a finger. It continually grants the wearer a +<span class="grame">5 competence</span> bonus on <a href="../skills/climb.html#_climb" >Climb</a> checks. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, creator must have 5 ranks in the <a href="../skills/climb.html#_climb" >Climb</a> skill; <b>Cost </b>1,250 gp</p>
+				<p id="ring-of-climbing-improved" class="stat-block-title"><b>Ring of Climbing, Improved</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint transmutation;<b> CL </b>5th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 10,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>As a <i>ring of climbing</i>, except it grants a +<span class="grame">10 competence</span> bonus on its wearer's <a href="../skills/climb.html#_climb" >Climb</a> checks. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, creator must have 10 ranks in the <a href="../skills/climb.html#_climb" >Climb</a> skill; <b>Cost </b>5,000 gp</p>
+				<p id="ring-of-counterspells" class="stat-block-title"><b>Ring of Counterspells</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate evocation;<b> CL </b>11th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 4,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This ring might seem to be a <i>ring of spell storing </i>upon first examination. However, while it allows a single spell of <span class="grame">1st</span> through 6th level to be cast into it, that spell cannot be cast out of the ring again. Instead, should that spell ever be cast upon the wearer, the spell is immediately countered, as a counterspell action, requiring no action (or even knowledge) on the wearer's part. Once so used, the spell cast within the ring is gone. A new spell (or the same one as before) <span class="grame">may be placed</span> into it again. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/imbueWithSpellAbility.html#_imbue-with-spell-ability" >imbue with spell ability</a></i>; <b>Cost </b>2,000 gp</p>
+				<p id="ring-of-djinni-calling" class="stat-block-title"><b>Ring of Djinni Calling</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong conjuration;<b> CL </b>17th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 125,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>One of the many rings of fable, this “genie” ring is useful indeed. It serves as a special <i><a href="../spells/gate.html#_gate" >gate</a> </i>by means of which a specific djinni <span class="grame">can be called</span> from the Plane of Air. <span class="grame">When the ring is rubbed (a standard action), the call goes out, and the djinni appears on the next round.</span> The djinni faithfully obeys and serves the wearer of the ring, but never for more than 1 hour per day. If the djinni of the ring <span class="grame">is ever killed</span>, the ring becomes nonmagical and worthless. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/gate.html#_gate" >gate</a></i>; <b>Cost </b>62,500 gp</p>
+				<p id="ring-of-elemental-command" class="stat-block-title"><b>Ring of Elemental Command</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong conjuration; <b>CL</b> 15th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 200,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>All four kinds of <i>elemental command </i>rings are very powerful. Each appears to be nothing more than a lesser magic ring until fully activated (by meeting a special condition, such as single-handedly slaying an elemental of the appropriate type or exposure to a sacred material of the appropriate element), but each has certain other powers as well as the following common properties.</p>
+				<p>Elementals of the plane to which the ring is attuned can't attack the wearer, or even approach within 5 feet of him. If the wearer desires, he may forego this protection and instead attempt to charm the elemental (as <i><a href="../spells/charmMonster.html#_charm-monster" >charm monster</a>, </i><a href="../combat.html#_will" >Will</a> DC 17 negates). If the charm attempt fails, however, absolute protection is lost and no further attempt at charming can be made.</p>
+				<p>Creatures from the plane to which the ring is attuned who attack the wearer take a &ndash;1 penalty on their attack rolls. The ring wearer makes applicable saving throws against the extraplanar creature's attacks with a +2 resistance bonus. He gains a +4 morale bonus on all attack rolls against such creatures. Any weapon he uses bypasses the <a href="../glossary.html#_damage-reduction" >damage reduction</a> of such creatures, regardless of any qualities the weapon may or may not have.</p>
+				<p>The wearer of the ring is able to converse with creatures from the plane to which his ring is attuned. These creatures recognize that he wears the ring, and show a healthy respect for the wearer if alignments are similar. If alignments are opposed, creatures fear the wearer if he is strong. If he is weak, they hate and desire to slay him.</p>
+				<p>The possessor of a <i>ring of elemental command </i>takes a saving throw penalty as follows:</p><table>
+<thead><tr><th>Element</th><th>Saving Throw Penalty</th></tr></thead>
+<tbody>
+<tr class="odd"><td>Air</td><td>&ndash;2 against earth-based effects</td></tr>
+<tr class="even"><td>Earth</td><td>&ndash;2 against air- or electricity-based effects</td></tr>
+<tr class="odd"><td>Fire</td><td>&ndash;2 against water- or cold-based effects</td></tr>
+<tr class="even"><td>Water</td><td>&ndash;2 against fire-based effects</td></tr></tbody></table>
+
+				<p>In addition to the powers described above, each specific ring gives its wearer the following abilities according to its kind.</p>
+				<p><i>Ring of Elemental Command (Air)</i></p>
+				<ul><li> <i><a href="../spells/featherFall.html#_feather-fall" >Feather fall</a> </i>(unlimited use, wearer only)</li>
+				<li> <i><a href="../spells/resistEnergy.html#_resist-energy" >Resist energy</a> (electricity) </i>(unlimited use, wearer only)</li>
+				<li> <i><a href="../spells/gustOfWind.html#_gust-of-wind" >Gust of wind</a> </i>(twice per day)</li>
+				<li> <i><a href="../spells/windWall.html#_wind-wall" >Wind wall</a> </i>(unlimited use)</li>
+				<li> <i><a href="../spells/airWalk.html#_air-walk" >Air walk</a> </i>(once per day, wearer only)</li>
+				<li> <i><a href="../spells/chainLightning.html#_chain-lightning" >Chain lightning</a> </i>(once per week)</li></ul>
+				<p>The ring appears to be a <i><a href="#_ring-of-feather-falling" >ring of feather falling</a> </i>until a certain condition is met to activate its full potential. It must be reactivated each time a new wearer acquires it.</p>
+				<p><i>Ring of Elemental Command (Earth)</i></p>
+				<ul><li> <i><a href="../spells/meldIntoStone.html#_meld-into-stone" >Meld into stone</a> </i>(unlimited use, wearer only) </li>
+				<li> <i><a href="../spells/softenEarthAndStone.html#_soften-earth-and-stone" >Soften earth and stone</a> </i>(unlimited use)</li>
+				<li> <i><a href="../spells/stoneShape.html#_stone-shape" >Stone shape</a> </i>(twice per day)</li>
+				<li> <i><a href="../spells/stoneskin.html#_stoneskin" >Stoneskin</a> </i>(once per week, wearer only)</li>
+				<li> <i><a href="../spells/passwall.html#_passwall" >Passwall</a> </i>(twice per week)</li>
+				<li> <i><a href="../spells/wallOfStone.html#_wall-of-stone" >Wall of stone</a> </i>(once per day)</li></ul>
+				<p>The ring appears to be a <i>ring of meld into stone </i>(allowing the wearer to cast <i><a href="../spells/meldIntoStone.html#_meld-into-stone" >meld into stone</a> </i>at will) until the established condition is met.</p>
+				<p><i>Ring of Elemental Command (Fire)</i></p>
+				<ul><li> <i><a href="../spells/resistEnergy.html#_resist-energy" >Resist energy</a> (fire) </i>(as a <i>major ring of energy resistance [fire]</i>)</li>
+				<li> <i><a href="../spells/burningHands.html#_burning-hands" >Burning hands</a> </i>(unlimited use)</li>
+				<li> <i><a href="../spells/flamingSphere.html#_flaming-sphere" >Flaming sphere</a> </i>(twice per day)</li>
+				<li> <i><a href="../spells/pyrotechnics.html#_pyrotechnics" >Pyrotechnics</a> </i>(twice per day)</li>
+				<li> <i><a href="../spells/wallOfFire.html#_wall-of-fire" >Wall of fire</a> </i>(once per day)</li>
+				<li> <i><a href="../spells/flameStrike.html#_flame-strike" >Flame strike</a> </i>(twice per week)</li></ul>
+				<p>The ring appears to be a <i><a href="#_ring-of-energy-resistance" >major ring of energy resistance</a> (fire) </i>until the established condition is met.</p>
+				<p><i>Ring of Elemental Command (Water)</i></p>
+				<ul><li> <i><a href="../spells/waterWalk.html#_water-walk" >Water walk</a> </i>(unlimited use)</li>
+				<li> <i><a href="../spells/createWater.html#_create-water" >Create water</a> </i>(unlimited use)</li>
+				<li> <i><a href="../spells/waterBreathing.html#_water-breathing" >Water breathing</a> </i>(unlimited use)</li>
+				<li> <i><a href="../spells/wallOfIce.html#_wall-of-ice" >Wall of ice</a> </i>(once per day)</li>
+				<li> <i><a href="../spells/iceStorm.html#_ice-storm" >Ice storm</a> </i>(twice per week)</li>
+				<li> <i><a href="../spells/controlWater.html#_control-water" >Control water</a></i> (twice per week)</li></ul>
+				<p>The ring appears to be a <i><a href="#_ring-of-water-walking" >ring of water walking</a> </i>until the established condition is met. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/summonMonster.html#_summon-monster-vi" >summon monster VI</a></i>, all appropriate spells; <b>Cost </b>100,000 gp</p>
+				<p id="ring-of-energy-resistance" class="stat-block-title"><b>Ring of Energy Resistance</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint (minor) or moderate (major or greater) abjuration;<b> CL </b>3rd (minor), 7th (major), or 11th (greater)</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 12,000 gp (minor), 28,000 gp (major), 44,000 gp (greater); <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This ring continually protects the wearer from damage from one type of energy&mdash;acid, cold, electricity, fire, or sonic (chosen by the creator of the item; determine randomly if found as part of a treasure hoard). Each time the wearer would normally take such damage, subtract the ring's resistance value from the damage dealt.</p>
+				<p>A <i>minor ring of energy resistance</i> grants 10 points of <a href="../glossary.html#_energy-resistance" >resistance</a>. A <i>major ring of energy resistance</i> grants 20 points of <a href="../glossary.html#_energy-resistance" >resistance</a>. A <i>greater ring of energy resistance</i> grants 30 points of <a href="../glossary.html#_energy-resistance" >resistance</a>. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/resistEnergy.html#_resist-energy" >resist energy</a></i>; <b>Cost </b>6,000 gp (minor), 14,000 gp (major), 22,000 gp (greater)</p>
+				<p id="ring-of-evasion" class="stat-block-title"><b>Ring of Evasion</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation;<b> CL </b>7th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 25,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This ring continually grants the wearer the ability to avoid damage as if she had evasion. Whenever she makes a <a href="../combat.html#_reflex" >Reflex</a> saving throw to determine whether she takes half damage, a successful save results in no damage. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/jump.html#_jump" >jump</a></i>; <b>Cost </b>12,500 gp</p>
+				<p id="ring-of-feather-falling" class="stat-block-title"><b>Ring of Feather Falling</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint transmutation;<b> CL </b>1st</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 2,200 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This ring <span class="grame">is crafted</span> with a feather pattern all around its edge. It acts exactly like a <i><a href="../spells/featherFall.html#_feather-fall" >feather fall</a> </i>spell, activated immediately if the wearer falls more than 5 feet. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/featherFall.html#_feather-fall" >feather fall</a></i>; <b>Cost </b>1,100 gp</p>
+				<p id="ring-of-force-shield" class="stat-block-title"><b>Ring of Force Shield</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate evocation;<b> CL </b>9th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 8,500 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>An iron band, this simple ring generates a shield-sized (and shield-shaped) <i><a href="../spells/wallOfForce.html#_wall-of-force" >wall of force</a> </i>that stays with the ring and can be wielded by the wearer as if it were a heavy shield (+<span class="grame">2</span> <a href="../combat.html#_armor-class" >AC</a>). This special creation has no armor check penalty or arcane spell failure chance since it is weightless and encumbrance-free. It <span class="grame">can be activated and deactivated at will as a free action</span>. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/wallOfForce.html#_wall-of-force" >wall of force</a></i>; <b>Cost </b>4,250 gp</p>
+				<p id="ring-of-freedom-of-movement" class="stat-block-title"><b>Ring of Freedom of Movement</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate abjuration;<b> CL </b>7th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 40,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This gold ring allows the wearer to act as if continually under the effect of a <i><a href="../spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a> </i>spell. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>; <b>Cost </b>20,000 gp</p>
+				<p id="ring-of-friend-shield" class="stat-block-title"><b>Ring of Friend Shield</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate abjuration;<b> CL </b>10th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 50,000 gp (for a pair); <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>These curious rings always come in pairs. A <i>friend shield </i>ring without its mate is useless. Either wearer of one of a pair of the rings <span class="grame">can, at any time, command</span> his ring to cast a <i><a href="../spells/shieldOther.html#_shield-other" >shield other</a> </i>spell with the wearer of the mated ring as the recipient. This effect has no range limitation. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/shieldOther.html#_shield-other" >shield other</a></i>; <b>Cost </b>25,000 gp</p>
+				<p id="ring-of-invisibility" class="stat-block-title"><b>Ring of Invisibility</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint illusion;<b> CL </b>3rd</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 20,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>By activating this simple silver ring, the wearer can benefit from <i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i>, as the spell. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i>; <b>Cost </b>10,000 gp</p>
+				<p id="ring-of-jumping" class="stat-block-title"><b>Ring of Jumping</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint transmutation;<b> CL </b>2nd</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 2,500 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This ring continually allows the wearer to leap about, providing a +<span class="grame">5 competence</span> bonus on all his <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks made to make high or long jumps. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, creator must have 5 ranks in the <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> skill; <b>Cost </b>1,250 gp</p>
+				<p id="ring-of-jumping-improved" class="stat-block-title"><b>Ring of Jumping, Improved</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation;<b> CL </b>7th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 10,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>As a <i>ring of jumping</i>, except it grants a +<span class="grame">10 competence</span> bonus on its wearer's <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks made to make high or long jumps. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, creator must have 10 ranks in the <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> skill; <b>Cost </b>5,000 gp</p>
+				<p id="ring-of-mind-shielding" class="stat-block-title"><b>Ring of Mind Shielding</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint abjuration;<b> CL </b>3rd</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 8,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This ring is usually of fine workmanship and wrought from heavy gold. The wearer is continually immune to <i><a href="../spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a>, <a href="../spells/discernLies.html#_discern-lies" >discern lies</a>, </i>and any attempt to magically discern her alignment<i>.</i> </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/nondetection.html#_nondetection" >nondetection</a></i>; <b>Cost </b>4,000 gp</p>
+				<p id="ring-of-protection" class="stat-block-title"><b>Ring of Protection</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint abjuration;<b> CL </b>5th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5); <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This ring offers continual magical protection in the form of a deflection bonus of <span class="grame">+1</span> to +5 to <a href="../combat.html#_armor-class" >AC</a>. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a>,</i> caster must be of a level at least three times the bonus of the ring; <b>Cost </b>1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5)</p>
+				<p id="ring-of-the-ram" class="stat-block-title"><b>Ring of the Ram</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 9th</p>
+				<p class="stat-block-1"><b>Slot </b>ring; <b>Price</b> 8,600 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>DESCRIPTION</b></p>
+				<p>The <i>ring of the ram </i>is an ornate ring forged of hard metal, usually iron or an iron alloy. It has the head of a ram as its device. The wearer can command the ring to give forth a ram-like force, manifested by a vaguely discernible shape that resembles the head of a ram or a goat. This force strikes a single target, dealing 1d6 points of damage if 1 charge is expended, 2d6 points if 2 charges are used, or 3d6 points if 3 charges (the maximum) are used. Treat this as a ranged attack with a 50-foot maximum range and no penalties for distance. </p>
+				<p>The force of the blow is considerable, and those struck by the ring are subject to a bull rush if within 30 feet of the ring-wearer. The ram is Large and uses the ring's caster level as its base attack bonus with a Strength of 25. This gives the ram a <a href="../combat.html#_combat-maneuver-bonus" >Combat Maneuver Bonus</a> of +17. The ram gains a +1 bonus on the bull rush attempt if 2 charges are expended, or +2 if 3 charges are expended.</p>
+				<p>In addition to its attack mode, the <i>ring of the ram </i>also has the power to open doors as if it were a character with Strength 25. This expends 1 charge. If 2 charges are expended, the effect is equivalent to a character with Strength 27. If 3 charges are expended, the effect is that of a character with Strength 29.</p>
+				<p>A newly created ring has 50 charges. When all the charges are expended, the ring becomes a nonmagical item.</p>
+				<p class="stat-block-breaker"><b>CONSTRUCTION</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/bullSStrength.html#_bull-s-strength" >bull's strength</a>, <a href="../spells/telekinesis.html#_telekinesis" >telekinesis</a></i>; <b>Cost</b> 4,300 gp</p>
+				<p id="ring-of-regeneration" class="stat-block-title"><b>Ring of Regeneration</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong conjuration;<b> CL </b>15th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 90,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This white gold ring is generally set with a large green sapphire. When worn, the ring continually allows a living wearer to heal 1 point of damage per round and an equal amount of nonlethal damage. In addition, he is immune to <a href="../glossary.html#_bleed" >bleed</a> damage while wearing a <i>ring of regeneration</i>. If the wearer loses a limb, an organ, or any other body part while wearing this ring, the ring <i>regenerates </i>it as the spell. In either case, only damage taken while wearing the ring <span class="grame">is regenerated</span>. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/regenerate.html#_regenerate" >regenerate</a></i>; <b>Cost </b>45,000 gp</p>
+				<p id="ring-of-shooting-stars" class="stat-block-title"><b>Ring of Shooting Stars</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong evocation; <b>CL</b> 12th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 50,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This ring has two modes of operation: one for being in dim light or outdoors at night, and a second one when the wearer is underground or indoors at night.</p>
+				<p>During the night, under the open sky or in areas of shadow or darkness, the <i>ring of shooting stars </i>can perform the following functions on command.</p>
+				<ul><li> <i><a href="../spells/dancingLights.html#_dancing-lights" >Dancing lights</a></i> (once per hour)</li>
+				<li> <i><a href="../spells/light.html#_light" >Light</a></i> (twice per night)</li>
+				<li> Ball lightning (special, once per night)</li>
+				<li> Shooting stars (special, three per week)</li></ul>
+				<p>The first special function, ball lightning<i>, </i>releases one to four balls of lightning (ring wearer's choice). These glowing globes resemble <i><a href="../spells/dancingLights.html#_dancing-lights" >dancing lights</a></i>, and the ring wearer controls them similarly (see the <i><a href="../spells/dancingLights.html#_dancing-lights" >dancing lights</a> </i>spell description). The spheres have a 120-foot range and a duration of 4 rounds. They can be moved at 120 feet per round. Each sphere is about 3 feet in diameter, and any creature who comes within 5 feet of one causes its charge to dissipate, taking electricity damage in the process according to the number of balls created.</p><table>
+<thead><tr><th>Number of Balls</th><th>Damage per Ball</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1 lightning ball</td><td>4d6 points of electricity damage</td></tr>
+<tr class="even"><td>2 lightning balls</td><td>3d6 points of electricity damage each</td></tr>
+<tr class="odd"><td>3 lightning balls</td><td>2d6 points of electricity damage each</td></tr>
+<tr class="even"><td>4 lightning balls</td><td>1d6 points of electricity damage each</td></tr></tbody></table>
+
+				<p>Once the ball lightning function is activated, the balls can be released at any time before the sun rises. Multiple balls can be released in the same round.</p>
+				<p>The second special function produces three shooting stars that can be released from the ring each week, simultaneously or one at a time. They impact for 12 points of damage and spread (as a <i><a href="../spells/fireball.html#_fireball" >fireball</a></i>) in a 5-foot-radius sphere for 24 points of fire damage.</p>
+				<p>Any creature struck by a shooting star takes full damage from impact plus full fire damage from the spread unless it makes a DC 13 <a href="../combat.html#_reflex" >Reflex</a> save. Creatures not struck but within the spread ignore the impact damage and take only half damage from the fire spread on a successful DC 13 <a href="../combat.html#_reflex" >Reflex</a> save. Range is 70 feet, at the end of which the shooting star explodes unless it strikes a creature or object before that. A shooting star always follows a straight line, and any creature in its path must make a save or be hit by the projectile.</p>
+				<p>Indoors at night, or underground, the <i>ring of shooting stars </i>has the following properties.</p>
+				<ul><li> <i><a href="../spells/faerieFire.html#_faerie-fire" >Faerie fire</a></i> (twice per day)</li>
+				<li> Spark shower (special, once per day)</li></ul>
+				<p>The spark shower is a flying cloud of sizzling purple sparks that fan out from the ring for a distance of 20 feet in an arc 10 feet wide. Creatures within this area take 2d8 points of damage each if not wearing metal armor or carrying a metal weapon. Those wearing metal armor and/or carrying a metal weapon take 4d8 points of damage. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a><i>, <a href="../spells/faerieFire.html#_faerie-fire" >faerie fire</a>, <a href="../spells/fireball.html#_fireball" >fireball</a></i>, <i><a href="../spells/light.html#_light" >light</a>, <a href="../spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a></i>; <b>Cost </b>25,000 gp</p>
+				<p id="ring-of-spell-storing-minor" class="stat-block-title"><b>Ring of Spell Storing, Minor</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint evocation;<b> CL </b>5th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 18,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>A <i>minor ring of spell storing </i>contains up to three levels of spells (either divine or arcane, or even a mix of both spell types) that the wearer can cast. Each spell has a caster level equal to the minimum level needed to cast that spell. The user need not provide any material components or focus to cast the spell, and there is no arcane spell failure chance for wearing armor (because the ring wearer need not gesture). The activation time for the ring is the same as the casting time for the relevant spell, with a minimum of 1 standard action.</p>
+				<p>For a randomly generated ring, treat it as a scroll to determine what spells are stored in it. If you roll a spell that would put the ring over the three-level limit, ignore that roll; the ring has no more spells in it.</p>
+				<p>A spellcaster can cast any spells into the ring, so long as the total spell levels do not add up to more than three. Metamagic versions of spells take up storage space equal to their spell level modified by the metamagic feat. A spellcaster can use a scroll to put a spell into the <i>minor ring of spell storing</i>.</p>
+				<p>The ring magically imparts to the wearer the names of all spells currently stored within it. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/imbueWithSpellAbility.html#_imbue-with-spell-ability" >imbue with spell ability</a></i>; <b>Cost </b>9,000 gp</p>
+				<p id="ring-of-spell-storing" class="stat-block-title"><b>Ring of Spell Storing</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate evocation;<b> CL </b>9th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 50,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>As the <i>minor ring of spell storing, </i>except it holds up to 5 levels of spells. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/imbueWithSpellAbility.html#_imbue-with-spell-ability" >imbue with spell ability</a></i>; <b>Cost </b>25,000 gp</p>
+				<p id="ring-of-spell-storing-major" class="stat-block-title"><b>Ring of Spell Storing, Major</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong evocation;<b> CL </b>17th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 200,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>As the <i>minor ring of spell storing, </i>except it holds up to 10 levels of spells. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/imbueWithSpellAbility.html#_imbue-with-spell-ability" >imbue with spell ability</a></i>; <b>Cost </b>100,000 gp</p>
+				<p id="ring-of-spell-turning" class="stat-block-title"><b>Ring of Spell Turning</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong abjuration;<b> CL </b>13th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 100,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Up to three times per day on command, this simple platinum band automatically reflects the next nine levels of spells cast at the wearer, exactly as if <i><a href="../spells/spellTurning.html#_spell-turning" >spell turning</a> </i><span class="grame">had been cast</span> upon him. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/spellTurning.html#_spell-turning" >spell turning</a></i>; <b>Cost </b>50,000 gp</p>
+				<p id="ring-of-sustenance" class="stat-block-title"><b>Ring of Sustenance</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint conjuration;<b> CL </b>5th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 2,500 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This ring continually provides its wearer with life-sustaining nourishment. The ring also refreshes the body and mind, so that its wearer needs only sleep 2 hours per day to gain the benefit of 8 hours of sleep. This allows a spellcaster that requires rest to prepare spells to do so after only 2 hours, but this does not allow a spellcaster to prepare spells more than once per day. The ring <span class="grame">must be worn</span> for a full week before it begins to work. If it is removed, the owner must wear it for another week to reattune it to <span class="grame">himself</span>. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/createFoodAndWater.html#_create-food-and-water" >create food and water</a></i>; <b>Cost </b>1,250 gp</p>
+				<p id="ring-of-swimming" class="stat-block-title"><b>Ring of Swimming</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint transmutation;<b> CL </b>2nd</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 2,500 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This silver ring usually has fish-like designs and motifs etched into the band. It continually grants the wearer a +<span class="grame">5 competence</span> bonus on <a href="../skills/swim.html#_swim" >Swim</a> checks. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, creator must have 5 ranks in the <a href="../skills/swim.html#_swim" >Swim</a> skill; <b>Cost </b>1,250 gp</p>
+				<p id="ring-of-swimming-improved" class="stat-block-title"><b>Ring of Swimming, Improved</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation;<b> CL </b>7th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 10,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>As a <i>ring of swimming</i>, except it grants a +<span class="grame">10 competence</span> bonus on its wearer's <a href="../skills/swim.html#_swim" >Swim</a> checks. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, creator must have 10 ranks in the <a href="../skills/swim.html#_swim" >Swim</a> skill; <b>Cost </b>5,000 gp</p>
+				<p id="ring-of-telekinesis" class="stat-block-title"><b>Ring of Telekinesis</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation;<b> CL </b>9th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 75,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This ring allows the caster to use the spell <i><a href="../spells/telekinesis.html#_telekinesis" >telekinesis</a> </i>on command. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/telekinesis.html#_telekinesis" >telekinesis</a></i>; <b>Cost </b>37,500 gp</p>
+				<p id="ring-of-three-wishes" class="stat-block-title"><b>Ring of Three Wishes</b></p>
+				<p class="stat-block-1"><b>Aura</b> strong universal or evocation (if <i><a href="../spells/miracle.html#_miracle" >miracle</a> </i>is used);<b> CL </b>20th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 120,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This ring is set with three rubies. Each ruby stores a <i><a href="../spells/wish.html#_wish" >wish</a> </i>spell, activated by the ring. When a <i><a href="../spells/wish.html#_wish" >wish</a> </i>is used, that ruby disappears. For a randomly generated ring, roll 1d3 to determine the remaining number of rubies. When all the <i><a href="../spells/wish.html#_wish" >wishes</a> </i>are used, the ring becomes a nonmagical item. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/wish.html#_wish" >wish</a></i> or <i><a href="../spells/miracle.html#_miracle" >miracle</a></i>; <b>Cost </b>97,500 gp</p>
+				<p id="ring-of-water-walking" class="stat-block-title"><b>Ring of Water Walking</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation;<b> CL </b>9th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 15,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This ring is often made of coral or bluish metal decorated with wave motifs. It allows the wearer <span class="grame">to continually utilize</span> the effects of the spell <i><a href="../spells/waterWalk.html#_water-walk" >water walk</a></i>. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/waterWalk.html#_water-walk" >water walk</a></i>; <b>Cost </b>7,500 gp</p>
+				<p id="ring-of-wizardry" class="stat-block-title"><b>Ring of Wizardry</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate (<i>wizardry I</i>) or strong (<i>wizardry II&ndash;IV</i>) (no school);<b> CL </b>11th (<i>I</i>), 14th (<i>II</i>), 17th (<i>III</i>), 20th (<i>IV</i>)</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 20,000 gp (I), 40,000 gp (II), 70,000 gp (III), 100,000 gp (IV); <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This special ring comes in four kinds (<i>ring of wizardry I, ring of wizardry II, ring of wizardry III, </i>and <i>ring of wizardry IV</i>), all of them useful only to arcane spellcasters. The wearer's arcane spells per day <span class="grame">are doubled</span> for one specific spell level. A <i>ring of wizardry I </i>doubles 1st-level spells, a <i>ring of wizardry II </i>doubles 2nd-level spells, a <i>ring of wizardry III </i>doubles 3rd-level spells, and a <i>ring of wizardry IV </i>doubles 4th-level spells. Bonus spells from high ability scores or school specialization <span class="grame">are not doubled</span>. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/limitedWish.html#_limited-wish" >limited wish</a></i>; <b>Cost </b>10,000 gp (I), 20,000 gp (II), 35,000 gp (III), 50,000 gp (IV)</p>
+				<p id="ring-of-x-ray-vision" class="stat-block-title"><b>Ring of X-Ray Vision</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate divination;<b> CL </b>6th</p>
+				<p class="stat-block-1"><b>Slot</b> ring; <b>Price</b> 25,000 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>On command, this ring gives its wearer the ability to see into and through solid matter. Vision range is 20 feet, with the viewer seeing as if he were looking at something in normal light even if there is no illumination. X-ray vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead blocks the vision.</p>
+				<p>Using the ring is exhausting, causing the wearer 1 point of <a href="../gettingStarted.html#_constitution" >Constitution</a> damage per minute after the first 10 minutes of use in a single day. The ring must be used in 1-minute increments.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../feats.html#_forge-ring" >Forge Ring</a>, <i><a href="../spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <b>Cost </b>12,500 gp</p>
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Monster Creation</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Monster Creation",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="appendix-1-monster-creation">Monster Creation</h1>
+				<p>Creating a monster is part science and part art. While most monsters follow a general pattern of their overall power and abilities as related to their Challenge Rating (CR), there are many exceptions. Some monsters, for example, have significantly more hit points or a higher AC than the average for their CR, but make up for this advantage by being weak in other areas. Other monsters have significantly higher average damage, but have a lower attack bonus.</p>
+				<h1 id="building-the-monster">Building the Monster</h1>
+				<p>The following guidelines are provided to assist in monster creation and to help balance a creation for its CR.</p>
+				<h2>Step 1: Concept</h2>
+				<p>The first step in creating a new monster is to define its concept and role in the game. Generally, this involves picking the monster's CR, type, physical appearance, and manner of fighting. Once you have these basic pieces of information, you should find a number of similar monsters of the same type and roughly the same CR for comparison purposes.</p>
+				<table id="table-1-1-monster-statistics-by-cr"><caption>Table: Monster Statistics by CR</caption>
+<thead><tr><th rowspan="2">CR</th><th rowspan="2">Hit Points</th><th rowspan="2">Armor Class</th><th rowspan="2">High Attack</th><th rowspan="2">Low Attack</th><th colspan="2">Average Damage</th><th rowspan="2">Primary Ability DC</th><th rowspan="2">Secondary Ability DC</th><th rowspan="2">Good Save</th><th rowspan="2">Poor Save</th></tr><tr><th>High</th><th>Low</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1/2</td><td>10</td><td>11</td><td>1</td><td>0</td><td>4</td><td>3</td><td>11</td><td>8</td><td>3</td><td>0</td></tr>
+<tr class="even"><td>1</td><td>15</td><td>12</td><td>2</td><td>1</td><td>7</td><td>5</td><td>12</td><td>9</td><td>4</td><td>1</td></tr>
+<tr class="odd"><td>2</td><td>20</td><td>14</td><td>4</td><td>3</td><td>10</td><td>7</td><td>13</td><td>9</td><td>5</td><td>1</td></tr>
+<tr class="even"><td>3</td><td>30</td><td>15</td><td>6</td><td>4</td><td>13</td><td>9</td><td>14</td><td>10</td><td>6</td><td>2</td></tr>
+<tr class="odd"><td>4</td><td>40</td><td>17</td><td>8</td><td>6</td><td>16</td><td>12</td><td>15</td><td>10</td><td>7</td><td>3</td></tr>
+<tr class="even"><td>5</td><td>55</td><td>18</td><td>10</td><td>7</td><td>20</td><td>15</td><td>15</td><td>11</td><td>8</td><td>4</td></tr>
+<tr class="odd"><td>6</td><td>70</td><td>19</td><td>12</td><td>8</td><td>25</td><td>18</td><td>16</td><td>11</td><td>9</td><td>5</td></tr>
+<tr class="even"><td>7</td><td>85</td><td>20</td><td>13</td><td>10</td><td>30</td><td>22</td><td>17</td><td>12</td><td>10</td><td>6</td></tr>
+<tr class="odd"><td>8</td><td>100</td><td>21</td><td>15</td><td>11</td><td>35</td><td>26</td><td>18</td><td>12</td><td>11</td><td>7</td></tr>
+<tr class="even"><td>9</td><td>115</td><td>23</td><td>17</td><td>12</td><td>40</td><td>30</td><td>18</td><td>13</td><td>12</td><td>8</td></tr>
+<tr class="odd"><td>10</td><td>130</td><td>24</td><td>18</td><td>13</td><td>45</td><td>33</td><td>19</td><td>13</td><td>13</td><td>9</td></tr>
+<tr class="even"><td>11</td><td>145</td><td>25</td><td>19</td><td>14</td><td>50</td><td>37</td><td>20</td><td>14</td><td>14</td><td>10</td></tr>
+<tr class="odd"><td>12</td><td>160</td><td>27</td><td>21</td><td>15</td><td>55</td><td>41</td><td>21</td><td>15</td><td>15</td><td>11</td></tr>
+<tr class="even"><td>13</td><td>180</td><td>28</td><td>22</td><td>16</td><td>60</td><td>45</td><td>21</td><td>15</td><td>16</td><td>12</td></tr>
+<tr class="odd"><td>14</td><td>200</td><td>29</td><td>23</td><td>17</td><td>65</td><td>48</td><td>22</td><td>16</td><td>17</td><td>12</td></tr>
+<tr class="even"><td>15</td><td>220</td><td>30</td><td>24</td><td>18</td><td>70</td><td>52</td><td>23</td><td>16</td><td>18</td><td>13</td></tr>
+<tr class="odd"><td>16</td><td>240</td><td>31</td><td>26</td><td>19</td><td>80</td><td>60</td><td>24</td><td>17</td><td>19</td><td>14</td></tr>
+<tr class="even"><td>17</td><td>270</td><td>32</td><td>27</td><td>20</td><td>90</td><td>67</td><td>24</td><td>18</td><td>20</td><td>15</td></tr>
+<tr class="odd"><td>18</td><td>300</td><td>33</td><td>28</td><td>21</td><td>100</td><td>75</td><td>25</td><td>18</td><td>20</td><td>16</td></tr>
+<tr class="even"><td>19</td><td>330</td><td>34</td><td>29</td><td>22</td><td>110</td><td>82</td><td>26</td><td>19</td><td>21</td><td>16</td></tr>
+<tr class="odd"><td>20</td><td>370</td><td>36</td><td>30</td><td>23</td><td>120</td><td>90</td><td>27</td><td>20</td><td>22</td><td>17</td></tr></tbody></table>
+				<h2>Step 2: Target Statistics</h2>
+				<p>Once you have a creature's type and CR determined, use Table: Monster Statistics by CR to determine its approximate statistics by CR. These values are a rough guideline only. You will notice that many of the existing monsters in this book do not follow these guidelines exactly. Most monsters excel in one of these areas, usually in the amount of damage dealt, but lag in one or two other areas to help balance them out. When referring to Table: Monster Statistics by CR, keep the following points in mind.</p>
+				<p><b>CR</b>: This is the approximate CR of the monster. This number might change as design progresses.</p>
+				<p><b>Hit Points</b>: This is the approximate hit point total for the monster. Note that creatures with particularly high Armor Classes or saving throws, or a number of resistances, might have a lower number. Outsiders and constructs typically have lower hit point totals.</p>
+				<p><b>Armor Class</b>: This is the average Armor Class for a creature of this CR. When it comes time to design the creature's protections, keep this number in mind. Creatures with hit points above the average often have lower Armor Class values to compensate.</p>
+				<p><b>High Attack</b>: This is the average total attack bonus for a creature of this CR. This value is for creatures that are primarily melee or ranged combatants. Creatures with a higher than normal average damage typically have a lower attack value to compensate.</p>
+				<p><b>Low Attack</b>: This is the average total attack bonus for a creature of this CR that does not rely upon melee or ranged attacks to deal damage. This includes most creatures that rely on spells and spell-like abilities in combat.</p>
+				<p><b>Average Damage</b>: This is the average amount of damage dealt by a creature of this CR if all of its attacks are successful. To determine a creature's average damage, add the average value for all of the damage dice rolled (as determined by Table: Average Die Results) to the damage modifier for each attack.</p>
+				<p>A creature that relies on melee or ranged weapons in combat should have average damage within the range of high and low damage.</p>
+				<p>A creature with higher than normal attack bonuses will often deal lower damage, while a creature with lower than normal attack bonuses will often deal higher damage.</p>
+				<p><b>Primary Ability DC</b>: This is the average difficulty class (DC) for any spells, spell-like abilities, and special abilities (such as breath weapons) possessed by a creature of this CR that relies on such attacks in combat. If an ability is particularly powerful, it might have a lower DC to compensate.</p>
+				<p><b>Secondary Ability DC</b>: This is the average DC for spells and special abilities for a creature that does not rely on such attacks in combat. Generally, a DC should not be lower than this number.</p>
+				<p><b>Good Save</b>: This is the average saving throw bonus for a creature of this CR if the saving throw is one of the creature's good saving throws.</p>
+				<p><b>Poor Save</b>: This is the average saving throw bonus for a creature of this CR if the saving throw is one of the creature's poor saving throws.</p>
+				<div class="right"><table id="table-1-5-average-die-results"><caption>Table: Average Die Results</caption>
+<thead><tr><th>Die Type</th><th>Average Result*</th></tr></thead>
+<tbody>
+<tr class="odd"><td>d4</td><td>2.5</td></tr>
+<tr class="even"><td>d6</td><td>3.5</td></tr>
+<tr class="odd"><td>d8</td><td>4.5</td></tr>
+<tr class="even"><td>d10</td><td>5.5</td></tr>
+<tr class="odd"><td>d12</td><td>6.5</td></tr>
+<tr class="even"><td>d20</td><td>10.5</td></tr></tbody>
+<tfoot><tr><td colspan="2">*Always round down after multiplying. For example, treat the average of 1d4 as 2, and the average of 2d4 as 5.</td></tr>
+</tfoot></table></div><h2>Step 3: Hit Dice</h2>
+				<p>The next step in creating a monster is to determine the approximate number of Hit Dice it has. Hit Dice determine a wide variety of other statistics, including the creature's feats, skills, hit points, attack bonuses, and special ability DCs. </p>
+				<p>A creature's total number of Hit Dice depends on a number of factors, but the two most important are its CR and its type. Table: Creature Hit Dice lists the average number of Hit Dice for each creature type, depending on its CR. While many of the monsters in this book are close to these values, some are not. This is because they have higher or lower average hit points to balance out their Armor Class or resistances. </p>
+				<table id="table-1-2-creature-hit-dice"><caption>Table: Creature Hit Dice</caption>
+<thead><tr><th rowspan="2">Creature Type</th><th colspan="21">Challenge Rating</th><tr><th>1/2</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th><th>13</th><th>14</th><th>15</th><th>16</th><th>17</th><th>18</th><th>19</th><th>20</th></tr></thead>
+<tbody>
+<tr class="odd"><td><a href="monstersByType.html#_appendix-8-monsters-by-type" >Aberration</a></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>7</td><td>9</td><td>10</td><td>12</td><td>14</td><td>15</td><td>16</td><td>17</td><td>19</td><td>20</td><td>22</td><td>24</td><td>26</td><td>28</td><td>30</td><td>34</td></tr>
+<tr class="even"><td><a href="creatureTypes.html#_animal" >Animal</a></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>7</td><td>9</td><td>10</td><td>12</td><td>14</td><td>15</td><td>16</td><td>17</td><td>19</td><td>20</td><td>22</td><td>24</td><td>26</td><td>28</td><td>30</td><td>34</td></tr>
+<tr class="odd"><td><a href="creatureTypes.html#_construct" >Construct</a></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>8</td><td>9</td><td>10</td><td>12</td><td>13</td><td>14</td><td>16</td><td>18</td><td>19</td><td>20</td><td>21</td><td>23</td><td>25</td><td>28</td><td>31</td></tr>
+<tr class="even"><td><a href="creatureTypes.html#_dragon" >Dragon</a></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>11</td><td>12</td><td>13</td><td>14</td><td>16</td><td>17</td><td>18</td><td>19</td><td>21</td><td>23</td><td>25</td><td>29</td></tr>
+<tr class="odd"><td><a href="creatureTypes.html#_fey" >Fey</a></td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>8</td><td>10</td><td>12</td><td>13</td><td>15</td><td>17</td><td>18</td><td>20</td><td>22</td><td>23</td><td>25</td><td>26</td><td>28</td><td>31</td><td>33</td><td>37</td></tr>
+<tr class="even"><td><a href="creatureTypes.html#_humanoid" >Humanoid</a></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>7</td><td>9</td><td>10</td><td>12</td><td>14</td><td>15</td><td>16</td><td>17</td><td>19</td><td>20</td><td>22</td><td>24</td><td>26</td><td>28</td><td>30</td><td>34</td></tr>
+<tr class="odd"><td><a href="creatureTypes.html#_magical-beast" >Magical beast</a></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>8</td><td>9</td><td>10</td><td>12</td><td>13</td><td>14</td><td>16</td><td>18</td><td>19</td><td>20</td><td>21</td><td>23</td><td>25</td><td>28</td><td>31</td></tr>
+<tr class="even"><td><a href="creatureTypes.html#_monstrous-humanoid" >Monstrous humanoid</a></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>8</td><td>9</td><td>10</td><td>12</td><td>13</td><td>14</td><td>16</td><td>18</td><td>19</td><td>20</td><td>21</td><td>23</td><td>25</td><td>28</td><td>31</td></tr>
+<tr class="odd"><td><a href="creatureTypes.html#_ooze">Ooze</a></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>7</td><td>9</td><td>10</td><td>12</td><td>14</td><td>15</td><td>16</td><td>17</td><td>19</td><td>20</td><td>22</td><td>24</td><td>26</td><td>28</td><td>30</td><td>34</td></tr>
+<tr class="even"><td><a href="creatureTypes.html#_outsider" >Outsider</a></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>8</td><td>9</td><td>10</td><td>12</td><td>13</td><td>14</td><td>16</td><td>18</td><td>19</td><td>20</td><td>21</td><td>23</td><td>25</td><td>28</td><td>31</td></tr>
+<tr class="odd"><td><a href="creatureTypes.html#_plant" >Plant</a></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>7</td><td>9</td><td>10</td><td>12</td><td>14</td><td>15</td><td>16</td><td>17</td><td>19</td><td>20</td><td>22</td><td>24</td><td>26</td><td>28</td><td>30</td><td>34</td></tr>
+<tr class="even"><td><a href="creatureTypes.html#_undead" >Undead</a></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>7</td><td>9</td><td>10</td><td>12</td><td>14</td><td>15</td><td>16</td><td>17</td><td>19</td><td>20</td><td>22</td><td>24</td><td>26</td><td>28</td><td>30</td><td>34</td></tr>
+<tr class="odd"><td><a href="creatureTypes.html#_vermin" >Vermin</a></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>7</td><td>9</td><td>10</td><td>12</td><td>14</td><td>15</td><td>16</td><td>17</td><td>19</td><td>20</td><td>22</td><td>24</td><td>26</td><td>28</td><td>30</td><td>32</td></tr></tbody></table>
+
+				<div class="right"><table id="table-1-3-size"><caption>Table: Size</caption>
+<thead><tr><th>Size</th><th>Minimum CR</th><th>Maximum CR</th><th>Base Str</th><th>Base Dex</th><th>Base Con</th></tr></thead>
+<tbody>
+<tr class="odd"><td>Fine</td><td>&mdash;</td><td>2</td><td>1</td><td>18</td><td>8</td></tr>
+<tr class="even"><td>Diminutive</td><td>&mdash;</td><td>4</td><td>1</td><td>16</td><td>8</td></tr>
+<tr class="odd"><td>Tiny</td><td>&mdash;</td><td>6</td><td>2</td><td>14</td><td>8</td></tr>
+<tr class="even"><td>Small</td><td>&mdash;</td><td>&mdash;</td><td>6</td><td>12</td><td>8</td></tr>
+<tr class="odd"><td>Medium</td><td>&mdash;</td><td>&mdash;</td><td>10</td><td>10</td><td>10</td></tr>
+<tr class="even"><td>Large</td><td>2</td><td>&mdash;</td><td>18</td><td>8</td><td>14</td></tr>
+<tr class="odd"><td>Huge</td><td>4</td><td>&mdash;</td><td>26</td><td>6</td><td>18</td></tr>
+<tr class="even"><td>Gargantuan</td><td>6</td><td>&mdash;</td><td>34</td><td>6</td><td>22</td></tr>
+<tr class="odd"><td>Colossal</td><td>8</td><td>&mdash;</td><td>42</td><td>6</td><td>26</td></tr></tbody></table></div>
+				<h2>Step 4: Size</h2>
+				<p>Now that you have the creature's average statistics, it's time to pick its size. Most creatures range in size from Small to Huge, but other sizes are not uncommon. A creature's size sets a baseline for its physical ability scores and its natural weapon damage (as noted in the Natural Attacks description in the Universal Monster Rules&mdash;see Appendix 3, pages 297&ndash;306). You should pick a size that fits well with the creature's intended role in the game and Challenge Rating. If you decide to give a creature an unusual size for its CR or HD, you should justify the unusual choice in the monster's description to account for the discrepancy&mdash;in most cases, such unusually sized monsters should be highly magical in nature. See Table: Size for more information on creature sizes and expected scores.</p>
+				<p><b>Minimum/Maximum CR</b>: These values list the minimum and the maximum challenge ratings a creature of the indicated size should fall between.</p>
+				<p><b>Base Str, Base Dex, Base Con</b>: These list the average scores for a creature of this size. Your specific monster's Strength, Dexterity, or Constitution might vary greatly from these numbers, but if they do, you should pay close attention to how these variances affect its other statistics. </p>
+				
+				<h2>Step 5: Abilities</h2>
+				<p>Once you have determined a creature's size, type, and Hit Dice, it's time to move on to its ability scores. The bonuses granted from these ability scores should increase a creature's hit points, attack bonuses, and saving throws to the approximate values presented on Table: Monster Statistics by CR.</p>
+				<p>A creature's physical ability scores (Strength, Dexterity, and Constitution) should be relatively close to the base values presented on Table: Size, depending on its size. Creatures with a few Hit Dice but a high average hit point total should have a higher than normal Constitution.</p>
+				<p>A creature's mental ability scores (Intelligence, Wisdom, and Charisma) are largely defined by the creature's concept. The base for all of these abilities is 10. Creatures that rely on spells and spell-like abilities in combat should have one mental ability score that stands out (usually Charisma). Creatures incapable of speech have an Intelligence score of 2 or lower. Unintelligent undead, constructs, oozes, plants, and vermin rarely have an Intelligence score.</p>
+				<h2>Step 6: Skills and Feats</h2>
+				<p>Using Table: Creature Statistics by Type, determine how many skill ranks your creature has based on its type and Hit Dice. Assign these ranks as determined by the creature's concept. A creature's class skill is determined by its type. Creatures with a low Intelligence typically only have ranks in Dexterity- and Strength-based skills.</p>
+				<p>After you have assigned skills, it's time to assign the creature's feats. Each creature with an Intelligence score receives a number of feats equal to 1 + 1 per every 2 Hit Dice after the first (so, 1 at 1 HD, 2 at 3 HD, etc.). A creature must qualify to take a feat as normal. See Table 1&ndash;6 for a quick feat calculation chart.</p>
+				<div class="right"><table id="table-1-6-statistics-summary"><caption>Table: Statistics Summary</caption>
+<thead><tr><th>HD</th><th>Fast BAB</th><th>Medium BAB</th><th>Slow BAB</th><th>Good Save</th><th>Bad Save</th><th>Feats</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1</td><td>+1</td><td>+0</td><td>+0</td><td>+2</td><td>+0</td><td>1</td></tr>
+<tr class="even"><td>2</td><td>+2</td><td>+1</td><td>+1</td><td>+3</td><td>+0</td><td>1</td></tr>
+<tr class="odd"><td>3</td><td>+3</td><td>+2</td><td>+1</td><td>+3</td><td>+1</td><td>2</td></tr>
+<tr class="even"><td>4</td><td>+4</td><td>+3</td><td>+2</td><td>+4</td><td>+1</td><td>2</td></tr>
+<tr class="odd"><td>5</td><td>+5</td><td>+3</td><td>+2</td><td>+4</td><td>+1</td><td>3</td></tr>
+<tr class="even"><td>6</td><td>+6</td><td>+4</td><td>+3</td><td>+5</td><td>+2</td><td>3</td></tr>
+<tr class="odd"><td>7</td><td>+7</td><td>+5</td><td>+3</td><td>+5</td><td>+2</td><td>4</td></tr>
+<tr class="even"><td>8</td><td>+8</td><td>+6</td><td>+4</td><td>+6</td><td>+2</td><td>4</td></tr>
+<tr class="odd"><td>9</td><td>+9</td><td>+6</td><td>+4</td><td>+6</td><td>+3</td><td>5</td></tr>
+<tr class="even"><td>10</td><td>+10</td><td>+7</td><td>+5</td><td>+7</td><td>+3</td><td>5</td></tr>
+<tr class="odd"><td>11</td><td>+11</td><td>+8</td><td>+5</td><td>+7</td><td>+3</td><td>6</td></tr>
+<tr class="even"><td>12</td><td>+12</td><td>+9</td><td>+6</td><td>+8</td><td>+4</td><td>6</td></tr>
+<tr class="odd"><td>13</td><td>+13</td><td>+9</td><td>+6</td><td>+8</td><td>+4</td><td>7</td></tr>
+<tr class="even"><td>14</td><td>+14</td><td>+10</td><td>+7</td><td>+9</td><td>+4</td><td>7</td></tr>
+<tr class="odd"><td>15</td><td>+15</td><td>+11</td><td>+7</td><td>+9</td><td>+5</td><td>8</td></tr>
+<tr class="even"><td>16</td><td>+16</td><td>+12</td><td>+8</td><td>+10</td><td>+5</td><td>8</td></tr>
+<tr class="odd"><td>17</td><td>+17</td><td>+12</td><td>+8</td><td>+10</td><td>+5</td><td>9</td></tr>
+<tr class="even"><td>18</td><td>+18</td><td>+13</td><td>+9</td><td>+11</td><td>+6</td><td>9</td></tr>
+<tr class="odd"><td>19</td><td>+19</td><td>+14</td><td>+9</td><td>+11</td><td>+6</td><td>10</td></tr>
+<tr class="even"><td>20</td><td>+20</td><td>+15</td><td>+10</td><td>+12</td><td>+6</td><td>10</td></tr>
+<tr class="odd"><td>21</td><td>+21</td><td>+15</td><td>+10</td><td>+12</td><td>+7</td><td>11</td></tr>
+<tr class="even"><td>22</td><td>+22</td><td>+16</td><td>+11</td><td>+13</td><td>+7</td><td>11</td></tr>
+<tr class="odd"><td>23</td><td>+23</td><td>+17</td><td>+11</td><td>+13</td><td>+7</td><td>12</td></tr>
+<tr class="even"><td>24</td><td>+24</td><td>+18</td><td>+12</td><td>+14</td><td>+8</td><td>12</td></tr>
+<tr class="odd"><td>25</td><td>+25</td><td>+18</td><td>+12</td><td>+14</td><td>+8</td><td>13</td></tr>
+<tr class="even"><td>26</td><td>+26</td><td>+19</td><td>+13</td><td>+15</td><td>+8</td><td>13</td></tr>
+<tr class="odd"><td>27</td><td>+27</td><td>+20</td><td>+13</td><td>+15</td><td>+9</td><td>14</td></tr>
+<tr class="even"><td>28</td><td>+28</td><td>+21</td><td>+14</td><td>+16</td><td>+9</td><td>14</td></tr>
+<tr class="odd"><td>29</td><td>+29</td><td>+21</td><td>+14</td><td>+16</td><td>+9</td><td>15</td></tr>
+<tr class="even"><td>30</td><td>+30</td><td>+22</td><td>+15</td><td>+17</td><td>+10</td><td>15</td></tr></tbody></table></div><h2>Step 7: Other Statistics</h2>
+				<p>Using Table: Monster Statitics by CR, Table: Creature Statistics by Type, and Table: Statistics Summary, you can now determine many of the creature's other statistics.</p>
+				<p>When building a creature's Armor Class, start by adding armor, shield, and natural armor bonuses to its Dexterity modifier. If a creature does not wear armor, give it a tougher hide to get it near its average AC. Remember that creatures with higher hit point totals might have a lower Armor Class, whereas creatures with fewer hit points might have a higher Armor Class. If a creature's Armor Class deviates from the average by more than 5 points, it might not be the right CR.</p>
+				<p>When determining a creature's attack bonuses, refer to the guidelines from Table: Monster Statistics by CR based on the creature's CR. If the bonus is too low, consider increasing the creature's Strength or Dexterity, or increasing the amount of damage it deals to above the average. If the bonus is too high, consider decreasing the creature's Strength or Dexterity, or decrease the amount of damage it deals. If this value is significantly different, and the creature is intended to rely on melee or ranged attacks, consider adjusting the creature's CR.</p>
+				<p>Use Table: Average Die Results to determine the number of damage dice, combined with damage bonuses, that the creature needs to reach the average damage for its CR. The creature might need additional or more damaging attacks to approach the average. Remember that creatures that primarily deal damage with other abilities, such as spells, do not need to meet the average damage for their attacks. You can also use Table: Average Die Results to determine a creature's average hit points. Remember that PC class levels provide the maximum number of hit points at 1st level.</p>
+				<p>Repeat this process for a creature's saving throws. If the saving throws are too high, consider altering the ability scores on which they are based. </p>
+				<p>When determining a creature's speed, first decide if it has any alternative modes of movement, such as burrow, climb, fly, or swim. Most Medium creatures have a base speed of 30 feet. Quadrupeds and Large creatures increase this by 10 feet each. Smaller creatures decrease this base speed by 10 feet. If a creature is particularly fast or slow, modify the base speed by 10 feet. Burrow and climb speeds are usually half a creature's base speed, while flying speeds are roughly double. Remember to give a creature the appropriate skills for any unusual movement methods.</p>
+				<table id="table-1-4-creature-statistics-by-type"><caption>Table: Creature Statistics by Type</caption>
+<thead><tr><th>Type</th><th>Hit Die</th><th>Base Attack Bonus (BAB)</th><th>Good Saving Throws</th><th>Skill Ranks*</th></tr></thead>
+<tbody>
+<tr class="odd"><td><a href="monstersByType.html#_appendix-8-monsters-by-type" >Aberration</a></td><td>d8</td><td>HD &times; 3/4 (Medium BAB)</td><td>Will</td><td>4 + Int mod per HD</td></tr>
+<tr class="even"><td><a href="creatureTypes.html#_animal" >Animal</a></td><td>d8</td><td>HD &times; 3/4 (Medium BAB)</td><td>Fort, Ref</td><td>2 + Int mod per HD</td></tr>
+<tr class="odd"><td><a href="creatureTypes.html#_construct" >Construct</a></td><td>d10</td><td>HD (Fast BAB)</td><td>&mdash;</td><td>2 + Int mod per HD</td></tr>
+<tr class="even"><td><a href="creatureTypes.html#_dragon" >Dragon</a></td><td>d12</td><td>HD (Fast BAB)</td><td>Fort, Ref, Will</td><td>6 + Int mod per HD</td></tr>
+<tr class="odd"><td><a href="creatureTypes.html#_fey" >Fey</a></td><td>d6</td><td>HD &times; 1/2 (Slow BAB)</td><td>Ref, Will</td><td>6 + Int mod per HD</td></tr>
+<tr class="even"><td><a href="creatureTypes.html#_humanoid" >Humanoid</a></td><td>d8</td><td>HD &times; 3/4 (Medium BAB)</td><td>Varies (any one)</td><td>2 + Int mod per HD</td></tr>
+<tr class="odd"><td><a href="creatureTypes.html#_magical-beast" >Magical beast</a></td><td>d10</td><td>HD (Fast BAB)</td><td>Fort, Ref</td><td>2 + Int mod per HD</td></tr>
+<tr class="even"><td><a href="creatureTypes.html#_monstrous-humanoid" >Monstrous humanoid</a></td><td>d10</td><td>HD (Fast BAB)</td><td>Ref, Will</td><td>4 + Int mod per HD</td></tr></tbody>
+<tr class="odd"><td><a href="creatureTypes.html#_ooze">Ooze</a></td><td>d8</td><td>HD &times; 3/4 (Medium BAB)</td><td>&mdash;</td><td>2 + Int mod per HD</td></tr>
+<tr class="even"><td><a href="creatureTypes.html#_outsider" >Outsider</a></td><td>d10</td><td>HD (Fast BAB)</td><td>Varies (any two)</td><td>6 + Int mod per HD</td></tr>
+<tr class="odd"><td><a href="creatureTypes.html#_plant" >Plant</a></td><td>d8</td><td>HD &times; 3/4 (Medium BAB)</td><td>Fort</td><td>2 + Int mod per HD</td></tr>
+<tr class="even"><td><a href="creatureTypes.html#_undead" >Undead</a></td><td>d8</td><td>HD &times; 3/4 (Medium BAB)</td><td>Will</td><td>4 + Int mod per HD</td></tr>
+<tr class="odd"><td><a href="creatureTypes.html#_vermin" >Vermin</a></td><td>d8</td><td>HD &times; 3/4 (Medium BAB)</td><td>Fort</td><td>2 + Int mod per HD</td></tr>
+<tfoot><tr><td colspan="5">* As long as a creature has an Intelligence of at least 1, it gains a minimum of 1 skill point per Hit Die. Creatures with an Intelligence score of “&mdash;” gain no skill points or feats.</td></tr>
+</tfoot></table>
+
+				<h2>Step 8: Special Abilities and Qualities</h2>
+				<p>Monsters are different from characters in that they can have all sorts of different special abilities and qualities. Each of these is tied closely to the creature's concept, allowing it to fill a specific role in the game. For examples, look at monsters in this book. Monsters should use abilities from the Universal Monster Rules whenever possible, instead of creating new yet similar abilities&mdash;when you do create new abilities, use the Universal Monster Rules as a template for how to present and create the new abilities.</p>
+				<p>Most special abilities that cause damage, such as breath weapons, give a save (Fortitude, Reflex, or Will depending on the ability). The DC for almost all special abilities is equal to 10 + 1/2 the creature's Hit Dice + a relevant ability modifier (usually Constitution or Charisma depending on the ability). Special abilities that add to melee and ranged attacks generally do not allow a save, as they rely on the attacks hitting to be useful. </p>
+				<p>Special senses and resistances to certain energy types are common in creatures of CR 5 and lower. Damage reduction, energy immunities, and regeneration are more common in creatures above CR 5. Spell resistance and immunities become more common above CR 10. As a general rule a creature's spell resitance should equal its CR + 11.</p>
+				<div class="right"><table id="table-1-7-xp-and-gp-values-by-cr"><caption>Table: XP and GP Values by CR</caption>
+<thead><tr><th>CR</th><th>XP</th><th>Slow GP</th><th>Medium GP</th><th>Fast GP</th></tr></thead>
+<tbody>
+<tr class="odd"><td>1/8</td><td>50 XP</td><td>20 gp</td><td>35 gp</td><td>50 gp</td></tr>
+<tr class="even"><td>1/6</td><td>65 XP</td><td>30 gp</td><td>45 gp</td><td>65 gp</td></tr>
+<tr class="odd"><td>1/4</td><td>100 XP</td><td>40 gp</td><td>65 gp</td><td>100 gp</td></tr>
+<tr class="even"><td>1/3</td><td>135 XP</td><td>55 gp</td><td>85 gp</td><td>135 gp</td></tr>
+<tr class="odd"><td>1/2</td><td>200 XP</td><td>85 gp</td><td>130 gp</td><td>200 gp</td></tr>
+<tr class="even"><td>1</td><td>400 XP</td><td>170 gp</td><td>260 gp</td><td>400 gp</td></tr>
+<tr class="odd"><td>2</td><td>600 XP</td><td>350 gp</td><td>550 gp</td><td>800 gp</td></tr>
+<tr class="even"><td>3</td><td>800 XP</td><td>550 gp</td><td>800 gp</td><td>1,200 gp</td></tr>
+<tr class="odd"><td>4</td><td>1,200 XP</td><td>750 gp</td><td>1,150 gp</td><td>1,700 gp</td></tr>
+<tr class="even"><td>5</td><td>1,600 XP</td><td>1,000 gp</td><td>1,550 gp</td><td>2,300 gp</td></tr>
+<tr class="odd"><td>6</td><td>2,400 XP</td><td>1,350 gp</td><td>2,000 gp</td><td>3,000 gp</td></tr>
+<tr class="even"><td>7</td><td>3,200 XP</td><td>1,750 gp</td><td>2,600 gp</td><td>3,900 gp</td></tr>
+<tr class="odd"><td>8</td><td>4,800 XP</td><td>2,200 gp</td><td>3,350 gp</td><td>5,000 gp</td></tr>
+<tr class="even"><td>9</td><td>6,400 XP</td><td>2,850 gp</td><td>4,250 gp</td><td>6,400 gp</td></tr>
+<tr class="odd"><td>10</td><td>9,600 XP</td><td>3,650 gp</td><td>5,450 gp</td><td>8,200 gp</td></tr>
+<tr class="even"><td>11</td><td>12,800 XP</td><td>4,650 gp</td><td>7,000 gp</td><td>10,500 gp</td></tr>
+<tr class="odd"><td>12</td><td>19,200 XP</td><td>6,000 gp</td><td>9,000 gp</td><td>13,500 gp</td></tr>
+<tr class="even"><td>13</td><td>25,600 XP</td><td>7,750 gp</td><td>11,600 gp</td><td>17,500 gp</td></tr>
+<tr class="odd"><td>14</td><td>38,400 XP</td><td>10,000 gp</td><td>15,000 gp</td><td>22,000 gp</td></tr>
+<tr class="even"><td>15</td><td>51,200 XP</td><td>13,000 gp</td><td>19,500 gp</td><td>29,000 gp</td></tr>
+<tr class="odd"><td>16</td><td>76,800 XP</td><td>16,500 gp</td><td>25,000 gp</td><td>38,000 gp</td></tr>
+<tr class="even"><td>17</td><td>102,400 XP</td><td>22,000 gp</td><td>32,000 gp</td><td>48,000 gp</td></tr>
+<tr class="odd"><td>18</td><td>153,600 XP</td><td>28,000 gp</td><td>41,000 gp</td><td>62,000 gp</td></tr>
+<tr class="even"><td>19</td><td>204,800 XP</td><td>35,000 gp</td><td>53,000 gp</td><td>79,000 gp</td></tr>
+<tr class="odd"><td>20</td><td>307,200 XP</td><td>44,000 gp</td><td>67,000 gp</td><td>100,000 gp</td></tr>
+<tr class="even"><td>21</td><td>409,600 XP</td><td>56,000 gp</td><td>84,000 gp</td><td>126,000 gp</td></tr>
+<tr class="odd"><td>22</td><td>615,000 XP</td><td>70,000 gp</td><td>105,000 gp</td><td>158,000 gp</td></tr>
+<tr class="even"><td>23</td><td>820,000 XP</td><td>88,000 gp</td><td>132,000 gp</td><td>198,000 gp</td></tr>
+<tr class="odd"><td>24</td><td>1,230,000 XP</td><td>110,000 gp</td><td>165,000 gp</td><td>248,000 gp</td></tr>
+<tr class="even"><td>25</td><td>1,640,000 XP</td><td>138,000 gp</td><td>208,000 gp</td><td>312,000 gp</td></tr></tbody></table></div><h2>Step 9: Treasure</h2>
+				<p>A creature should have an amount of treasure appropriate to its CR. See Table: XP and GP Values by CR for a list of treasure totals based on CR. For some creatures, their treasure consists of the loot from their recent meals strewn across their lairs, while for others it consists of a greed-fueled hoard or even gear it uses in combat. Make sure to account for any weapons or armor that the creature is using, as determined by step 7.</p>
+				
+				<h2>Step 10: Details</h2>
+				<p>Now that you have all of the creature's statistics sorted out, it's time to fill in all the details&mdash;such as name, alignment, space, reach, environment, and ecology&mdash;as you see fit.</p>
+
+
+
+
+
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

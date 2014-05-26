@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Ifrits</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Ifrits",globalNavPath=[{ href: '/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html', name: 'Featured Races'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body">
+
+<h1 id="ifrits">Ifrits</h1>
+<p>Humans whose ancestry includes beings of elemental fire such as efreet, ifrits are a passionate and fickle race. No ifrit is satisfied with a sedentary life; like a wildfire, ifrits must keep moving or burn away into nothingness. Ifrits not only adore flames, but personify multiple aspects of them as well, embodying both fire's dynamic, ever-changing energy and its destructive, pitiless nature. </p>
+<p><b>Physical Description</b>: Ifrits vary in appearance as widely as their elemental ancestors do. Most have pointy ears, red or mottled horns on the brow, and hair that flickers and waves as if it were aflame. Some possess skin the color of polished brass or have charcoal-hued scales covering their arms and legs. Ifrits favor revealing and ostentatious clothing in bright oranges and reds, preferably paired with gaudy jewelry.</p>
+<p><b>Society</b>: Ifrits are most often born into human communities, and rarely form societies of their own. Those who grow up in a city are almost always imprisoned or driven off before they reach adulthood; most are simply too hot-headed and independent to fit into civilized society, and their predilection toward pyromania doesn't endear them to the local authorities. Those born into nomadic or tribal societies fare much better, since ifrits' instinctive urge to explore and conquer their surroundings can easily earn them a place among their tribe's leadership.</p>
+<p><b>Relations</b>: Even the best-natured ifrits tend to view other individuals as tools to use as they see fit, and as such they get along best with races they can charm or browbeat into submission. Half-elves and gnomes often find themselves caught up in an ifrit's schemes, while halflings, half-orcs, and dwarves usually bridle at ifrits' controlling nature. Strangely, ifrits sometimes form incredibly close bonds with elves, whose calm, aloof nature seems to counterbalance an ifrit's impulsiveness. Most ifrits refuse to associate with sylphs, but are otherwise on peaceable terms with the other elemental-touched races.</p>
+<p><b>Alignment and Religion</b>: Ifrits are a dichotomous people&mdash;on one hand, fiercely independent, and on the other, imperious and demanding. They are often accused of being morally impoverished, but their troublemaking behavior is rarely motivated by true malice. Ifrits are usually lawful neutral or chaotic neutral, with a few falling into true neutrality. Most ifrits lack the mindset to follow a god's teachings, and resent the strictures placed on them by organized faith. When ifrits do take to worship (usually venerating a fire-related deity), they prove to be zealous and devoted followers. </p>
+<p><b>Adventurers</b>: Ifrits adventure for the sheer thrill of it and for the chance to test their skill against worthy foes, but most of all they adventure in search of power. Once ifrits dedicate themselves to a task, they pursue it unflinchingly, never stopping to consider the dangers ahead of them. When this brashness finally catches up with them, ifrits often rely on sorcery or bardic magic to combat their resulting troubles.</p>
+<p><b>Male Names</b>: Aja, Denat, Efit, Elum, Jalij, Maqej, Urah.</p>
+<p><b>Female Names</b>: Alayi, Etwa, Maqan, Qari, Sami, Zetaya.</p>
+
+<h1 id="ifrit-racial-traits">Ifrit Racial Traits</h1>
+<p id="+2-dexterity,-+2-charisma,--2-wisdom"><b>+2 Dexterity, +2 Charisma, &ndash;2 Wisdom</b>: Ifrits are passionate and quick, but impetuous and destructive.</p>
+<p id="native-outsider"><b>Native Outsider</b>: Ifrits are outsiders with the native subtype.</p>
+<p id="medium"><b>Medium</b>: Ifrits are Medium creatures and receive no bonuses or penalties due to their size.</p>
+<p id="normal-speed"><b>Normal Speed</b>: Ifrits have a base speed of 30 feet.</p>
+<p id="darkvision"><b>Darkvision</b>: Ifrits can see in the dark up to 60 feet.</p>
+<p id="spell-like-ability"><b>Spell-Like Ability</b>: <i><a href="/pathfinderRPG/prd/spells/burningHands.html#_burning-hands" >Burning hands</a></i> 1/day (caster level equals the ifrit's level).</p>
+<p id="energy-resistance"><b>Energy Resistance</b>: Ifrits have fire resistance 5.</p>
+<p id="fire-affinity"><b>Fire Affinity</b>: Ifrit sorcerers with the elemental (fire) bloodline treat their Charisma score as 2 points higher for all sorcerer spells and class abilities. Ifrit spellcasters with the Fire domain use their domain powers and spells at +1 caster level.</p>
+<p id="languages"><b>Languages</b>: Ifrits begin play speaking Common and Ignan. Ifrits with high Intelligence scores can choose from the following: Aquan, Auran, Dwarven, Elven, Gnome, Halfling, and Terran.</p>
+
+<h1 id="alternate-racial-traits">Alternate Racial Traits</h1>
+<p>The following racial traits may be selected instead of existing ifrit racial traits. Consult your GM before selecting any of these new options.</p>
+<p id="desert-mirage"><b>Desert Mirage</b>: Ifrits thrive in the deserts of the world, where their keen instincts and resistance to heat give them a huge edge over their competitors. Those with this trait gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks in desert environments and on saves to resist starvation and thirst. This racial trait replaces fire affinity.</p>
+<p id="efreeti-magic"><b>Efreeti Magic</b>: Some ifrits inherit an efreeti ancestor's ability to magically change a creature's size. They can cast either <i><a href="/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person" >enlarge person</a></i> or <i><a href="/pathfinderRPG/prd/spells/reducePerson.html#_reduce-person" >reduce person</a></i> (the ifrit chooses when using this ability) once per day as a spell-like ability (caster level equals the ifrit's level). The ifrit can use this ability to affect other ifrits as though they were humanoid creatures. This racial trait replaces the spell-like ability racial trait.</p>
+<p id="fire-in-the-blood"><b>Fire in the Blood</b>: Ifrits with this racial trait mimic the healing abilities of the mephits, gaining fast healing 2 for 1 round anytime they take fire damage (whether or not this fire damage gets through their fire resistance). The ifrits can heal up to 2 hit points per level per day with this ability, after which it ceases to function. This racial trait replaces fire affinity.</p>
+<p id="fire-insight"><b>Fire Insight</b>: Ifrit spellcasters sometimes find that their elemental heritage makes creatures of fire more willing to serve them. <i>Summon monster</i> and <i>summon nature's ally</i> spells that the ifrit casts last 2 rounds longer than normal when used to summon creatures with the fire subtype. This racial trait replaces fire affinity.</p>
+<p id="fire-starter"><b>Fire-Starter</b>: Ifrits with this racial trait derive sadistic satisfaction from watching others burn. Anytime the ifrit causes a creature to catch fire, he gains a +1 morale bonus on the next single attack roll, saving throw, skill check, or ability check that he makes in the next round. The ifrit only gains this bonus the first time he causes a particular creature to catch fire; subsequent times the creature catches fire provide no bonus. This racial trait replaces fire affinity.</p>
+<p id="forge-hardened"><b>Forge-Hardened</b>: Not all ifrits are descended from efreet&mdash;some instead descend from azers or even salamanders. Such ifrits gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (armor and weapons) checks and saves to resist fatigue and exhaustion. This racial trait replaces the spell-like ability racial trait.</p>
+<p id="hypnotic"><b>Hypnotic</b>: Ifrits with this racial trait evoke the entrancing nature of flame, adding +1 to the DC for all saving throws against spells or effects they cast that inflict the fascinated condition. Once per day, when a creature rolls a saving throw against such an effect from the ifrit, the ifrit can spend an immediate action to force that creature to reroll the saving throw and use the second result, even if it is worse. The ifrit must announce he is using this ability before the results of the first roll are revealed. This racial trait replaces fire affinity.</p>
+<p id="wildfire-heart"><b>Wildfire Heart</b>: Ifrits with this trait are as swift and dangerous as a blazing wildfire. They gain a +4 racial bonus on initiative checks. This racial trait replaces energy resistance.</p>
+
+<h1 id="favored-class-options">Favored Class Options</h1>
+<p>The following options are available to all ifrits who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the class reward.</p>
+<p id="alchemist"><b>Alchemist</b>: Add +1/2 to the alchemist's bomb damage.</p>
+<p id="bard"><b>Bard</b>: Add +1/6 to the number of people the bard can affect with the fascinate bardic performance.</p>
+<p id="cleric"><b>Cleric</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) checks relating to the Plane of Fire and creatures with the fire subtype.</p>
+<p id="gunslinger"><b>Gunslinger</b>: Add +1/2 to the bonus on initiative checks the gunslinger makes while using her gunslinger initiative deed.</p>
+<p id="inquisitor"><b>Inquisitor</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks made against creatures with the fire subtype and a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) checks relating to the Plane of Fire.</p>
+<p id="oracle"><b>Oracle</b>: Add +1/2 to the oracle's level for the purpose of determining the effects of one revelation.</p>
+<p id="rogue"><b>Rogue</b>: Add a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks to jump and a +1/2 bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks to demoralize enemies.</p>
+<p id="sorcerer"><b>Sorcerer</b>: Choose a bloodline power from the elemental (fire) bloodline or the efreeti bloodline  that the sorcerer can use. The sorcerer treats her class level as though it were +1/2 higher (to a maximum of +4) when determining the effects of that power.</p>
+
+<h1 id="racial-archetypes">Racial Archetypes</h1>
+<p>The following racial archetypes are available to ifrits.</p>
+
+<h2 id="immolator-(inquisitor)">Immolator (Inquisitor)</h2>
+<p>The immolator puts her pyromaniacal urges to work in the service of a deity. She brings burning retribution down upon the enemies of her faith, consigning their souls to the sacrificial flames. An immolator has the following class features.</p>
+<p id="servant-of-the-flame"><b>Servant of the Flame</b>: An immolator must worship a deity whose portfolio includes the Fire domain. An immolator who selects the Fire domain (or one of its associated subdomains, if available) uses her domain powers at +1 caster level (this stacks with the ifrit's fire affinity racial trait).</p>
+<p id="judgment"><b>Judgment (Su)</b>: An immolator gains the following judgment instead of the smiting judgment.</p>
+<blockquote>
+<p id="immolation"><i>Immolation</i>: The immolator channels purifying flame to consume her enemies. When dealing fire damage to an opponent, she treats the target's fire resistance as 5 lower than normal (minimum 0). At 6th level, she treats the target's resistance as 10 lower than normal, 15 lower than normal at 11th level, and 20 lower than normal at 16th level.</p>
+</blockquote>
+<p id="burnt-offering"><b>Burnt Offering (Su)</b>: At 5th level, as a swift action, an immolator can imbue one of her weapons with the&nbsp;<i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a></i>&nbsp;weapon special ability. Any creature slain by this weapon burns with magical flame; its body turns to ash, though its equipment is not harmed. This special ability only functions while the immolator wields the weapon. This ability lasts for a number of rounds per day equal to the immolator's level. These rounds do not need to be consecutive. At 12th level, this ability gives the immolator's weapon the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming-burst" >flaming burst</a> </i>weapon special ability. This ability replaces bane and greater bane.</p>
+<p id="judgment-by-fire"><b>Judgment by Fire (Su)</b>: At 20th level, an immolator can call fiery judgment down upon a foe during combat. Whenever an immolator uses her judgment ability, she can invoke a judgment by fire on a foe as a swift action. Once declared, the immolator can make a single melee (or ranged attack, if the foe is within 30 feet) against the target. If the attack hits, the attack deals fire damage instead of weapon damage, and the target must make a successful Fortitude save or die (creatures immune to fire do not have to save). The DC of this save is equal to 10 + 1/2 the immolator's level + the immolator's Wisdom modifier. Regardless of whether the save is successful, the target creature is immune to the immolator's judgment by fire ability for 24 hours. Creatures killed in this manner explode in a burst of fire, dealing 10d6 points of fire damage to every creature within 5 feet (Reflex save for half damage, DC 10 + 1/2 the immolator's level + the immolator's Wisdom modifier). Once this ability has been used, it cannot be used again for 1d4 rounds. This ability modifies and functions as true judgment.</p>
+
+<h2 id="wishcrafter-(sorcerer)">Wishcrafter (Sorcerer)</h2>
+<p>Wishcrafters are born with a talent for manipulating reality inherited from their efreeti ancestors. However, like the genies they are descended from, wishcrafters can only draw upon this power to fulfill the desires of others. A wishcrafter has the following class features.</p>
+<p id="wishbound-arcana"><b>Wishbound Arcana (Su)</b>: At 1st level, the wishcrafter can use the wishes of non-genie creatures other than herself in place of the normal verbal components of her spells. A creature can make a wish as a free action at any time, even during the wishcrafter's turn. The wishcrafter must be able to hear and understand a wish in order to use it as a spell component. A spell that doesn't normally have a verbal component gains one when cast using this ability. A wish doesn't need to mention the name of a specific spell, but must describe an outcome that can be accomplished by casting a spell the wishcrafter knows (for example, wishing to be bigger could supply the verbal component for <i><a href="/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person" >enlarge person</a></i>). A wishcrafter gains a +1 bonus to her caster level when using a creature's wish as a verbal component in this manner, but cannot include herself as a target of such spells. She can be affected by such a spell if it affects an area rather than a target or targets. A wishcrafter is under no compulsion to grant a creature's wish. Once the wishcrafter grants a creature's wish using this ability, she cannot use this ability to grant that creature any further wishes for 24 hours. This ability replaces bloodline arcana.</p>
+<p id="expanded-wishcraft"><b>Expanded Wishcraft</b>: At 3rd level and every 2 levels thereafter, the wishcrafter grows more adept at altering reality to fit the whims of others. She may add an additional spell selected from the sorcerer/wizard spell list to her list of spells known. This spell must be one level lower than the highest-level spell she can cast. A wishcrafter can only use these spells in conjunction with her wishbound arcana ability. For example, if she used this ability to learn <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, she can only cast it when another creature wishes for it, and can't cast it on herself because it is a targeted spell. She cannot use these spells to craft or recharge magic items. These bonus spells replace the bloodline spells gained by the sorcerer's bloodline.</p>
+<p id="heart's-desire"><b>Heart's Desire (Su)</b>: At 7th level, as a swift action, a wishcrafter can force a single creature within 30 feet to confess its deepest desire. The target receives a Will save to negate this effect (DC 10 + 1/2 the wishcrafter's level + the wishcrafter's Charisma modifier). On a failed save, the creature must immediately wish aloud in a clear voice for something it truly desires, allowing the wishcrafter to activate her wishbound arcana ability if she knows a spell that can fulfill that wish. This is a mind-affecting effect. Regardless of whether the save is successful, a creature cannot be the target of the same wishcrafter's heart's desire ability again for 24 hours. The wishcrafter can use this ability a number of times per day equal to her Charisma bonus. This ability replaces the bloodline bonus feat gained at 7th level.</p>
+<p id="twisted-wish"><b>Twisted Wish (Su)</b>: At 13th level, a wishcrafter becomes adept at corrupting wishes to negatively affect the creature that wished them. When a wishcrafter affects a creature with a spell using its wish as a spell component, she may twist the wish, applying a &ndash;4 penalty to the creature's saving throws against the spell. The effects of wishes twisted this way are difficult to remove; the DC of caster level checks to dispel them increases by 5. This ability replaces the bloodline bonus feat gained at 13th level.</p>
+<p id="perfect-wishcraft"><b>Perfect Wishcraft (Su)</b>: At 19th level, the wishcrafter perfects her ability to manipulate reality. Once per day, she may cast any spell on the sorcerer/wizard spell list as if it were on her list of spells known. Using this ability otherwise has all of the benefits and limitations of the wishbound arcana ability. This ability replaces the bloodline bonus feat gained at 19th level.</p>
+
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The following options are available to ifrits. At the GM's discretion, other appropriate races may make use of some of these new rules.</p>
+
+<h2 id="ifrit-equipment">Ifrit Equipment</h2>
+<p>Ifrits have access to the following equipment.</p>
+<p id="fire-ink"><b>Fire Ink</b>: This rich yellow ink reacts with a creature's body heat to create a flickering, flamelike glow. It takes 10 minutes to apply fire ink, and 1 dose covers an approximately hand-sized area. Once applied, the ink glows as a candle for 24 hours. Four or more doses applied to the same part of the body glow as a torch for 24 hours. The alchemical reaction of the ink to the target's skin and body heat is painful and irritating, giving the target the sickened condition while the glow lasts. A DC 15 <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> check can temporarily soothe these sensations, negating the sickened condition for 1 hour. Creatures immune or resistant to fire are immune to this sickening effect. Ifrits are especially known for their fondness for fire ink, and ifrit fire-dancers often decorate their skin with flaming designs before performing. A concentrated version of the ink costs 10 times as much and can be used to make permanently glowing tattoos.</p>
+<p id="ifrit's-blood"><b>Ifrit's Blood</b>: Ifrit alchemists claim to make this thick red oil from their own blood&mdash;hence the morbid name&mdash;but this claim is almost certainly false. Ifrit's blood ignites upon contact with air, but burns slowly and is unsuitable for use as a splash weapon. A creature can apply a flask of ifrit's blood to a weapon as a standard action, wreathing the weapon in vibrant red flames for 1 minute. The oil deals 1 point of fire damage on each successful attack with the weapon and deals 1 point of fire damage to the weapon itself, bypassing the weapon's hardness if any part of it is made of wood. If the oil is applied to a creature's natural weapons or unarmed strikes, the creature takes 1 point of fire damage each round (though its fire immunity or resistance still applies).</p>
+
+<table><caption>Ifrit Equipment</caption>
+<thead><tr><th>Item</th><th>Cost</th><th>Weight</th><th>Craft DC</th></tr></thead>
+<tr class="odd"><td>Fire ink</td><td>1 gp</td><td>&mdash;</td><td>15</td></tr>
+<tr class="even"><td>Ifrit's blood</td><td>50 gp</td><td>1 lb.</td><td>20</td></tr></table>
+
+
+<h2 id="ifrit-feats">Ifrit Feats</h2>
+<p>Ifrits have access to the following feats.</p>
+<div class="feats-text">
+<h3 id="blazing-aura-(combat)">Blazing Aura (Combat)</h3>
+<p>An inferno rages inside you, causing your body to radiate intense heat.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Inner Flame, Scorching Weapons, character level 13th, ifrit.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you use Scorching Weapons, on your turn as a free action, you may create an aura of heat that lasts for 1 round. This aura deals 1d6 points of fire damage to any creature that begins its turn adjacent to you.</p>
+
+<h3 id="blistering-feint-(combat)">Blistering Feint (Combat)</h3>
+<p>Your foes flinch from the heat of your weapon, giving you an opportunity to slip past their defenses.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, Improved Feint, ifrit.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a +2 bonus on feint checks made while wielding a weapon that deals fire damage. Anytime you successfully feint a creature while using such a weapon, you may deal its fire damage to the enemy.</p>
+
+<h3 id="elemental-jaunt">Elemental Jaunt</h3>
+<p>The spirits of your ancestral home call to you, beckoning you to return.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Character level 15th, ifrit, oread, sylph, or undine.</p>
+<p class="stat-block-1"><b>Benefit</b>: Once per day, you can cast <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i> as a spell-like ability with a caster level equal to your level to transport yourself and willing targets to an elemental plane that is appropriate to your race (ifrits to the Plane of Fire, oreads to the Plane of Earth, sylphs to the Plane of Air, and undines to the Plane of Water). While on that plane, you (but not anyone transported with you) are treated as though under the effect of the spell <i><a href="/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation" >planar adaptation</a></i>.</p>
+
+<h3 id="firesight">Firesight</h3>
+<p>Fire no longer blinds you, and smoke conceals nothing from your gaze.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Ifrit.</p>
+<p class="stat-block-1"><b>Benefit</b>: You can see through fire and smoke without penalty, ignoring any cover or concealment bonuses from fire and smoke. This does not allow you to see anything you could not otherwise see (for example, invisible creatures are still invisible). You are immune to the dazzled condition.</p>
+
+<h3 id="inner-flame-(combat)">Inner Flame (Combat)</h3>
+<p>Your body generates so much heat that your mere touch scorches your enemies.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Scorching Weapons, character level 7th, ifrit.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your bonus on saves against fire attacks and spells with the fire descriptor or light descriptor increases to +4. When you use Scorching Weapons, the affected weapons deal an additional 1d6 points of fire damage instead of 1, and when you are grappling, you deal this damage to your grappling opponent on your turn.</p>
+
+<h3 id="scorching-weapons-(combat)">Scorching Weapons (Combat)</h3>
+<p>Elemental fire stirs within your body, boiling your blood and rendering you resistant to flame.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Ifrit.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a +2 bonus on saving throws against fire attacks and spells with the fire descriptor or light descriptor. As a swift action, you can make up to two held manufactured metallic weapons become red-hot for 1 round, dealing 1 additional point of fire damage with a successful hit. This does not stack with other effects that add fire damage to weapons, such as the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a></i> weapon special ability.</p>
+</div>
+
+<h2 id="ifrit-magic-items">Ifrit Magic Items</h2>
+<p>Ifrits have access to the following weapon special ability and magic item.</p>
+<p id="igniting-(weapon-special-ability)"><b>Igniting (weapon special ability)</b>: An <i>igniting</i> weapon functions as a <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a> </i>weapon that also causes foes to catch fire  upon striking a successful critical hit. The target does not get a saving throw to avoid catching fire, but can make a save each round on its turn to put out the fire. The <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a></i> ability must be active for the weapon to set enemies on fire.</p>
+<p>Strong evocation; CL 12th; <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, flame blade, flame strike, or fireball; Price +2 bonus. </p>
+<p id="cloak-of-fiery-vanishing" class="stat-block-title">Cloak of Fiery Vanishing</p>
+<p class="stat-block-1"><b>Aura</b> faint abjuration and illusion; <b>CL</b> 5th</p>
+<p class="stat-block-1"><b>Slot</b> shoulders; <b>Price</b> 2,600 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-breaker">Description</p>
+<p>This thick leather cloak is charred and blackened around the edges and smells faintly of soot. Once per day, when subject to an effect that deals fire damage, the wearer can spend an immediate action while obscured by the flames to become invisible, leaving behind an illusory pile of ashes and bones, as if he had been slain by the fire effect. The invisibility and the illusory remains last for 5 rounds or until the wearer attacks any creature. Creatures that study or interact with the ashes can make a DC 11 Will save to disbelieve the illusion, though this does not end the invisibility effect.</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>,<i> <a href="/pathfinderRPG/prd/spells/silentImage.html#_silent-image" >silent image</a></i>; <b>Cost</b> 1,300 gp</p>
+
+<h2 id="ifrit-spells">Ifrit Spells</h2>
+<p>Ifrits have access to the following spells.</p>
+<p id="chains-of-fire" class="stat-block-title">Chains of Fire</p>
+<p class="stat-block-1"><b>School</b> evocation [fire]; <b>Level</b> magus 6, sorcerer/wizard 6</p>
+<p class="stat-block-1"><b>Components</b> V, S, F (a drop of oil and a small piece of flint)</p>
+<p class="stat-block-1"><b>Range</b> medium (100 ft. + 10 ft./level)</p>
+<p>This spell functions like <i><a href="/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning" >chain lightning</a></i>, except as noted above, and the spell deals fire damage instead of electricity damage.</p>
+<p id="death-candle" class="stat-block-title">Death Candle</p>
+<p class="stat-block-1"><b>School</b> necromancy [death, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype" >evil</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>]; <b>Level</b> antipaladin 1, cleric 2, inquisitor 2, witch 2</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 round</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Duration</b> instantaneous/1 round per HD of subject; see text</p>
+<p class="stat-block-1"><b>Saving Throw</b> Fortitude negates; <b>Spell Resistance</b> yes</p>
+<p>This spell functions like <i><a href="/pathfinderRPG/prd/spells/deathKnell.html#_death-knell" >death knell</a></i>, except instead of using the slain target's life energy to enhance yourself, you use it to summon a Small fire elemental resembling a burning, howling version of the slain creature. The elemental acts immediately on your turn and otherwise behaves as if you had summoned it with <i><a href="/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ii" >summon monster II</a></i>. The elemental remains for a number of rounds equal to the Hit Dice of the slain creature.</p>
+<p id="firestream" class="stat-block-title">Firestream</p>
+<p class="stat-block-1"><b>School</b> evocation [fire]; <b>Level</b> magus 3, sorcerer/wizard 3</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action </p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> 20 ft.</p>
+<p class="stat-block-1"><b>Area</b> 20-ft. line</p>
+<p class="stat-block-1"><b>Duration</b> concentration, up to 1 round/level; see text</p>
+<p class="stat-block-1"><b>Saving Throw</b> Reflex half; <b>Spell Resistance</b> yes</p>
+<p>A rushing stream of fire sprays from your outstretched hand, dealing 2d6 points of fire damage to every creature in the area. Each round you continue to concentrate on the spell, you can select a new area for it to affect.</p>
+<p id="firestream"><i>Firestream</i> sets fire to combustibles and damages objects in the area. It can melt metals with low melting points, such as lead, gold, copper, silver, and bronze. If the damage caused to an interposing barrier shatters or breaks through it, the firestream may continue beyond the barrier if the area permits; otherwise it stops at the barrier just as any other spell effect does.</p>
+<p id="fury-of-the-sun" class="stat-block-title">Fury of the Sun</p>
+<p class="stat-block-1"><b>School</b> transmutation [<a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse" >curse</a>, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>]; <b>Level</b> druid 2, witch 2</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> close (25 ft. + 5 ft./2 levels)</p>
+<p class="stat-block-1"><b>Targets</b> one creature</p>
+<p class="stat-block-1"><b>Duration</b> 10 minutes/level</p>
+<p class="stat-block-1"><b>Saving Throw</b> Fortitude negates; <b>Spell Resistance</b> yes</p>
+<p>You curse the target to suffer unbearable heat. On a failed saving throw, the target is immediately subjected to severe heat , takes 1d4 points of nonlethal damage, and is suffering from heatstroke (fatigued). The target must save every 10 minutes as normal for severe heat (starting at DC 15 rather than the DC of this spell). Because this heat is internal, the target cannot avoid it using the normal methods for escaping heat dangers such as <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks or finding shade. </p>
+<p id="healing-warmth" class="stat-block-title">Healing Warmth</p>
+<p class="stat-block-1"><b>School</b> abjuration; <b>Level</b> alchemist 4, cleric 4, druid 4, inquisitor 4</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> personal</p>
+<p class="stat-block-1"><b>Target</b> you</p>
+<p class="stat-block-1"><b>Duration</b> 1 minute/level </p>
+<p>This spell grants you temporary immunity to fire damage as <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>. As a standard action, you may sacrifice 12 points of remaining energy absorption from the spell to heal a touched creature of 1d8 points of damage. Healing a creature provokes an attack of opportunity. When the spell has absorbed 12 points of fire damage per caster level (to a maximum of 120 points at 10th level), it is discharged.</p>
+<p id="scorching-ash-form" class="stat-block-title">Scorching Ash Form</p>
+<p class="stat-block-1"><b>School</b> transmutation [fire]; <b>Level</b> alchemist 4, sorcerer/wizard 4 </p>
+<p class="stat-block-1"><b>Components</b> S, M (a bit of gauze and a handful of ashes)</p>
+<p class="stat-block-1"> <b>Duration</b> 1 minute/level</p>
+<p class="stat-block-1"><b>Saving Throw</b> none; <b>Spell Resistance</b> no</p>
+<p>This spell functions like <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i>, except the target becomes a visible swirl of hot ash and smoke instead of harmless translucent gas. The target gains the fire subtype. Any creature that begins its turn sharing a space with the target takes 2d6 points of fire damage and must make a Fortitude save (DC 15, + 1 per previous check) or suffer the effects of smoke inhalation .</p>
+<p id="touch-of-combustion" class="stat-block-title">Touch of Combustion</p>
+<p class="stat-block-1"><b>School</b> evocation [fire]; <b>Level</b> druid 1, inquisitor 1, magus 1, sorcerer/wizard 1, witch 1</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action </p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> touch</p>
+<p class="stat-block-1"><b>Target</b> creature or object touched</p>
+<p class="stat-block-1"><b>Duration</b> instantaneous</p>
+<p class="stat-block-1"><b>Saving Throw</b> Reflex negates; see text; <b>Spell Resistance</b> yes</p>
+<p>Your successful melee touch attack causes the target to ignite in a violent burst of flame, dealing 1d6 points of fire damage. If it fails its saving throw, the target also catches on fire . If the target catches fire, on the first round thereafter, creatures adjacent to it (including you) must each succeed at a Reflex save or take 1d4 points of fire damage.</p>
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

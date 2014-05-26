@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Featured Races</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Featured Races",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+
+<div id="body"><h1 id="featured-races">Featured Races</h1>
+
+<p>While the seven core races are the primary focus of the Pathfinder Roleplaying Game, they're not the only ones suitable to be played as characters. Other, even stranger races help populate the world, and&mdash;with the GM's permission&mdash;also work well as player character races, creating fun and exciting new roleplaying opportunities. This chapter details the most common of such races. From the nimble catfolk to the fiery ifrits and scavenging, birdlike tengus, these races have just as much motivation to be adventurers as do elves, gnomes, and humans. And while they may not be as common in the major population hubs of the Pathfinder campaign setting, each of the races detailed in this chapter presents its own unique background and abilities.</p>
+<p>While many of these races are considered civilized, some are typically viewed as monsters, and may prove interesting challenges for roleplaying and character interaction. When playing drow, kobolds, orcs, or other such races, it is often best for party dynamics to take on the roles of characters who rebel against the norms of their races and societies&mdash;creatures who do not agree with their often brutal cultures, and instead wish to carve out a better existence for themselves among other races. When playing these races, even more so than for many other races, it is important to work with your GM to determine character motivations and backgrounds that work in the campaign. </p>
+<p>This chapter provides details on the following races. </p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/aasimars.html"><b>Aasimars</b></a>: Creatures blessed with a celestial bloodline, aasimars seem human except for some exotic quality that betrays their otherworldly origin. While aasimars are nearly always beautiful, something simultaneously a part of and apart from humanity, not all of them are good, though very few are evil.</p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/catfolk.html"><b>Catfolk</b></a>: A race of graceful explorers, catfolk are both clannish and curious by nature. They tend to get along with races that treat them well and respect their boundaries. They love exploration, both physical and intellectual, and tend to be natural adventurers.</p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/dhampirs.html"><b>Dhampirs</b></a>: The accursed spawn of vampires, dhampirs are living creatures tainted with the curse of undeath, which causes them to take damage from positive energy and gain healing from negative energy. While many members of this race embrace their dark sides, others are powerfully driven to rebel against their taint and hunt down and destroy vampires and their ilk. </p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/drow.html"><b>Drow</b></a>: Dark reflections of surface elves, drow are shadowy hunters who strive to snuff out the world's light. Drow are powerful magical creatures who typically serve demons, and only their chaotic nature stops them from becoming an even greater menace. A select few forsake their race's depraved and nihilistic society to walk a heroic path. </p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/fetchlings.html"><b>Fetchlings</b></a>: Long ago, fetchlings were humans exiled to the Shadow Plane, but that plane's persistent umbra has transformed them into a race apart. These creatures have developed an ability to meld into the shadows and have a natural affinity for shadow magic. Fetchlings&mdash;who call themselves <i>kayal</i>&mdash;often serve as emissaries between the inhabitants of the Shadow Plane and the Material Plane. </p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/goblins.html"><b>Goblins</b></a>: Crazy pyromaniacs with a tendency to commit unspeakable violence, goblins are the smallest of the goblinoid races. While they are a fun-loving race, their humor is often cruel and hurtful. Adventuring goblins constantly wrestle with their darkly mischievous side in order to get along with others. Few are truly successful.  </p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/hobgoblins.html"><b>Hobgoblins</b></a>: These creatures are the most disciplined and militaristic of the goblinoid races. Tall, tough as nails, and strongly built, hobgoblins would be a boon to any adventuring group, were it not for the fact that they tend to be cruel and malicious, and often keep slaves. </p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ifrits.html"><b>Ifrits</b></a>: Ifrits are a race descended from mortals and the strange inhabitants of the Plane of Fire. Their physical traits and personalities often betray their fiery origins, and they tend to be restless, independent, and imperious. Frequently driven from cities for their ability to manipulate flame, ifrits make powerful fire sorcerers and warriors who can wield flame like no other race. </p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/kobolds.html"><b>Kobolds</b></a>: Considering themselves the scions of dragons, kobolds have diminutive statures but massive egos. A select few can take on more draconic traits than their kin, and many are powerful sorcerers, canny alchemists, and cunning rogues. </p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/orcs.html"><b>Orcs</b></a>: Savage, brutish, and hard to kill, orcs are often the scourge of far-flung wildernesses and cavern deeps. Many orcs become fearsome barbarians, as they are muscular and prone to bloody rages. Those few who can control their bloodlust make excellent adventurers.  </p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/oreads.html"><b>Oreads</b></a>: Creatures of human ancestry mixed with the blood of creatures from the Plane of Earth, oreads are as strong and solid as stone. Often stubborn and steadfast, their unyielding nature makes it hard for them to get along with most races other than dwarves. Oreads make excellent warriors and sorcerers who can manipulate the raw power of stone and earth. </p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ratfolk.html"><b>Ratfolk</b></a>: These small, ratlike humanoids are clannish and nomadic masters of trade. Often tinkers and traders, they are more concerned with accumulating interesting trinkets than amassing wealth. Ratfolk often adventure to find new and interesting curiosities rather than coin. </p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/sylphs.html"><b>Sylphs</b></a>: Ethereal folk of elemental air, sylphs are the result of human blood mixed with that of airy elemental folk. Like ifrits, oreads, and undines, they can become powerful elemental sorcerers with command over their particular elemental dominion. They tend to be beautiful and lithe, and have a knack for eavesdropping. </p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/tengus.html"><b>Tengus</b></a>: These crowlike humanoid scavengers excel in mimicry and swordplay. Flocking into densely populated cities, tengus occasionally join adventuring groups out of curiosity or necessity. Their impulsive nature and strange habits can often be unnerving to those who are not used to them.</p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/tieflings.html"><b>Tieflings</b></a>: Diverse and often despised by humanoid society, tieflings are mortals stained with the blood of fiends. Other races rarely trust them, and this lack of empathy usually causes tieflings to embrace the evil, depravity, and rage that seethe within their corrupt blood. A select few see the struggle to smother such dark desires as motivation for grand heroism.</p>
+<p><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/undines.html"><b>Undines</b></a>: Like their cousins, the ifrits, oreads, and sylphs, undines are humans touched by planar elements. They are the scions of elemental water, equally graceful both on land and in water. Undines are adaptable and resistant to cold, and have an affinity for water magic.</p>
+
+<h1 id="general-description">General Description</h1>
+<p>Each race's entry begins with a general description of the race followed by specific entries for the race's physical description, society, relations with other races, alignment and religion, and common motivations for adventuring members of the race.</p>
+
+<h1 id="racial-traits">Racial Traits</h1>
+<p>Each race's entry features a sidebar listing the race's standard racial traits. This information includes the race's type, size, vision, and base speed, as well as a number of other traits common to most members of the race. With your GM's permission, you will also have the option to exchange these standard racial traits for a number of alternate racial traits, the rules for which are provided in the section below.</p>
+
+<h1 id="alternate-racial-traits">Alternate Racial Traits</h1>
+<p>Members of each race can swap standard racial traits for the alternative racial traits listed in this section. Each alternate racial trait lists which standard trait it replaces. The full rules for swapping traits can be found in Chapter 1: Core Races. </p>
+
+<h1 id="favored-class-options">Favored Class Options</h1>
+<p>Each race can take the listed favored class options instead of the normal favored class rewards (either +1 hp or +1 skill rank). The full rules for favored class options can be found in Chapter 1: Core Races. </p>
+
+<h1 id="racial-archetypes">Racial Archetypes</h1>
+<p>This section presents two archetypes for each of the expanded races, with the exception of the kobold entry, where both an archetype and a sorcerer bloodline are presented. Typically, only members of the section's race can take the listed archetype or bloodline, though such options rarely interact with the racial traits or alternate racial traits of that race. An archetype usually features a thematic link to the race, granting it class features that complement the abilities and the background of the race. Because adventurers are often societal outliers, sometimes these archetypes feature a theme that is the exception to the norm for racial tendencies. The class for each archetype or bloodline is listed in parentheses.</p>
+<p><b>Aasimars</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/aasimars.html#_purifier-(oracle)">Purifier (oracle)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/aasimars.html#_tranquil-guardian-(paladin)">tranquil guardian (paladin)</a></p>
+<p><b>Catfolk</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/catfolk.html#_cat-burglar-(rogue)">Cat burglar (rogue)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/catfolk.html#_nimble-guardian-(monk)">nimble guardian (monk)</a></p>
+<p><b>Dhampirs</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/dhampirs.html#_cruoromancer-(wizard)">Cruoromancer (wizard)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/dhampirs.html#_kinslayer-(inquisitor)">kinslayer (inquisitor)</a></p>
+<p><b>Drow</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/drow.html#_cavern-sniper-(fighter)">Cavern sniper (fighter)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/drow.html#_demonic-apostle-(cleric)">demonic apostle (cleric)</a></p>
+<p><b>Fetchlings</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/fetchlings.html#_dusk-stalker-(ranger)">Dusk stalker (ranger)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/fetchlings.html#_shadow-caller-(summoner)">shadow caller (summoner)</a></p>
+<p><b>Goblins</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/goblins.html#_feral-gnasher-(barbarian)">Feral gnasher (barbarian)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/goblins.html#_fire-bomber-(alchemist)">fire bomber (alchemist)</a></p>
+<p><b>Hobgoblins</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/hobgoblins.html#_fell-rider-(cavalier)">Fell rider (cavalier)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/hobgoblins.html#_ironskin-monk-(monk)">ironskin monk (monk)</a></p>
+<p><b>Ifrits</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ifrits.html#_immolator-(inquisitor)">Immolator (inquisitor)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ifrits.html#_wishcrafter-(sorcerer)">wishcrafter (sorcerer)</a></p>
+<p><b>Kobolds</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/kobolds.html#_bushwhacker-(gunslinger)">Bushwhacker (gunslinger)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/kobolds.html#_kobold-sorcerer-bloodline">kobold sorcerer (sorcerer bloodline)</a></p>
+<p><b>Orcs</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/orcs.html#_dirty-fighter-(fighter)">Dirty fighter (fighter)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/orcs.html#_scarred-witch-doctor-(witch)">scarred witch doctor (witch)</a></p>
+<p><b>Oreads</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/oreads.html#_shaitan-binder-(summoner)">Shaitan binder (summoner)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/oreads.html#_student-of-stone-(monk)">student of stone (monk)</a></p>
+<p><b>Ratfolk</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ratfolk.html#_gulch-gunner-(gunslinger)">Gulch gunner (gunslinger)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ratfolk.html#_plague-bringer-(alchemist)">plague bringer (alchemist)</a></p>
+<p><b>Sylphs</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/sylphs.html#_sky-druid-(druid)">Sky druid (druid)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/sylphs.html#_wind-listener-(wizard)">wind listener (wizard)</a></p>
+<p><b>Tengus</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/tengus.html#_shigenjo-(oracle)">Shigenjo (oracle)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/tengus.html#_swordmaster-(rogue)">swordmaster (rogue)</a></p>
+<p><b>Tieflings</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/tieflings.html#_fiend-flayer-(magus)">Fiend flayer (magus)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/tieflings.html#_fiendish-vessel-(cleric)">fiendish vessel (cleric)</a></p>
+<p><b>Undines</b>: <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/undines.html#_undine-adept-(druid)">Undine adept (druid)</a>, <a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/undines.html#_watersinger-(bard)">watersinger (bard)</a></p>
+
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The final section of each race's entry provides new rules options for the race beyond archetypes, detailed in the following four categories.</p>
+<p><b>Equipment</b>: The equipment section for each race provides new rules for standard and alchemical equipment available to the race.</p>
+<p><b>Feats</b>: This section provides a host of new racial feats for members of this race. All of these feats have a race listed in their prerequisites, so members of other races cannot take them.</p>
+<p><b>Magic Items</b>: Magic items provided in this section are often created and used exclusively by members of the race. Some have effects that interact with racial traits, but others have broader uses, and can be used by members of other races.</p>
+<p><b>Spells</b>: The spells in this section are common to spellcasting members of this race. Sometimes they only target members of the race, but often they are just the race's&nbsp;well-guarded secrets; members of other races can learn to cast them with the GM's permission.</p>
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

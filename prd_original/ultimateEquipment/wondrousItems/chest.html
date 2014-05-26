@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Chest Slot</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Chest Slot",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html', name: 'Wondrous Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="chest-slot-wondrous-items">Chest Slot Wondrous Items</h1>
+<p>The chest slot consists of jackets, mantles, shirts, vests, and other items that can be worn around the torso or chest.</p>
+<p>Anyone can use a chest slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.</p>
+
+<table id="chest-slot-wondrous-items"><caption>Chest Slot Wondrous Items</caption>
+<thead><tr><th>d%</th><th>Lesser Minor Chest Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;15</td><td><i>Bandages of rapid recovery</td><td></i>200 gp</td></tr>
+<tr class="even"><td>16&ndash;30</td><td><i>Quick runner's shirt</td><td></i>1,000 gp</td></tr>
+<tr class="odd"><td>31&ndash;50</td><td><i>Endless bandolier</td><td></i>1,500 gp</td></tr>
+<tr class="even"><td>51&ndash;75</td><td><i>All tools vest</td><td></i>1,800 gp</td></tr>
+<tr class="odd"><td>76&ndash;100</td><td><i>Vest of surgery</td><td></i>3,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Minor Chest Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;10</td><td><i>Sash of the war champion</td><td></i>4,000 gp</td></tr>
+<tr class="even"><td>11&ndash;20</td><td><i>Sipping jacket</td><td></i>5,000 gp</td></tr>
+<tr class="odd"><td>21&ndash;31</td><td><i>Tunic of careful casting</td><td></i>5,000 gp</td></tr>
+<tr class="even"><td>32&ndash;42</td><td><i>Vest of escape</td><td></i>5,200 gp</td></tr>
+<tr class="odd"><td>43&ndash;52</td><td><i>Cackling hag's blouse</td><td></i>6,000 gp</td></tr>
+<tr class="even"><td>53&ndash;62</td><td><i>Deadshot vest</td><td></i>6,000 gp</td></tr>
+<tr class="odd"><td>63&ndash;70</td><td><i>Prophet's pectoral</td><td></i>6,000 gp</td></tr>
+<tr class="even"><td>71&ndash;79</td><td><i>Tunic of deadly might</td><td></i>6,000 gp</td></tr>
+<tr class="odd"><td>80&ndash;90</td><td><i>Vest of the vengeful tracker</td><td></i>6,000 gp</td></tr>
+<tr class="even"><td>91&ndash;100</td><td><i>Resplendent uniform coat</td><td></i>7,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Medium Chest Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;13</td><td><i>Shirt of immolation</td><td></i>8,000 gp</td></tr>
+<tr class="even"><td>14&ndash;28</td><td><i>Snakeskin tunic</td><td></i>8,000 gp</td></tr>
+<tr class="odd"><td>29&ndash;40</td><td><i>Bane baldric</td><td></i>10,000 gp</td></tr>
+<tr class="even"><td>41&ndash;60</td><td><i>Unfettered shirt</td><td></i>10,000 gp</td></tr>
+<tr class="odd"><td>61&ndash;80</td><td><i>Poisoner's jacket, lesser</td><td></i>12,000 gp</td></tr>
+<tr class="even"><td>81&ndash;100</td><td><i>Vest of the cockroach</td><td></i>16,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Medium Chest Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;50</td><td><i>Vest of stable mutation</td><td></i>20,000 gp</td></tr>
+<tr class="even"><td>51&ndash;100</td><td><i>Spectral shroud</td><td></i>26,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Major Chest Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;60</td><td><i>Mantle of immortality</td><td></i>50,000 gp</td></tr>
+<tr class="even"><td>61&ndash;100</td><td><i>Poisoner's jacket, greater</td><td></i>58,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Major Chest Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;35</td><td><i>Merciful baldric</td><td></i>60,000 gp</td></tr>
+<tr class="even"><td>36&ndash;70</td><td><i>Mantle of faith</td><td></i>76,000 gp</td></tr>
+<tr class="odd"><td>71&ndash;100</td><td><i>Mantle of spell resistance</td><td></i>90,000 gp</td></tr></table>			
+
+<p id="all-tools-vest" class="stat-block-title">All Tools Vest</p>
+<p class="stat-block-1"><b>Price</b> 1,800 gp; <b>Aura</b> faint conjuration; <b>CL</b> 1st; <b>Weight</b> 5 lbs.</p>
+<p class="stat-block">This well-made leather vest bears numerous shiny metal buttons, which stud a number of bulging  pockets. Once per day, as a standard action, the wearer can speak the vest's command word and order it to bring forth all the standard tools required to make checks for any one <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> skill. These tools appear in the countless pockets of the vest or, if too heavy, on the floor, on a nearby shelf, on a workbench, or in a toolbox or cupboard that appears nearby. Once summoned, they remain for 24 hours or until another creature touches them, whichever comes first.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 900 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/summonInstrument.html#_summon-instrument" >summon instrument</a></i></p>
+				
+<p id="bandages-of-rapid-recovery" class="stat-block-title">Bandages of Rapid Recovery</p>
+<p class="stat-block-1"><b>Price</b> 200 gp; <b>Aura</b> faint conjuration; <b>CL</b> 1st; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These linen bandages have the same color and softness as the feathers of a dove, but their antiseptic smell suggests a less natural origin. Any creature wrapped in these bandages recovers from wounds and ability damage each day as if receiving complete bed rest, regardless of activity . A creature actually receiving long-term care (from the <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> skill) or complete bed rest while wearing the bandages gains a +4 bonus to its effective level or Hit Dice when determining how many hit points it recovers each day. The bandages are destroyed once removed or when the wearer recovers all hit points and ability damage, whichever comes first.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 100 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i></p>
+				
+<p id="bane-baldric" class="stat-block-title">Bane Baldric</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 10th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">This ornate sash of embroidered velvet stretches across the chest from shoulder to waist. If the wearer is an inquisitor, she is treated as five levels higher when using her bane and greater bane abilities. If the wearer is not an inquisitor, she gains the bane ability of a 5th-level inquisitor, but must first attune a light or one-handed melee weapon to the baldric by hanging it from the cloth for 24 hours, and can only use the bane ability with the attuned weapon. Attuning a new weapon to the baldric ends the attunement for the previous weapon.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i" >summon monster I</a></i>, creator must be an inquisitor</p>
+				
+<p id="Cackling-Hag's-Blouse" class="stat-block-title">Cackling Hag's Blouse</p>
+<p class="stat-block-1"><b>Price</b> 6,000 gp; <b>Aura</b> faint enchantment; <b>CL</b> 3rd; <b>Weight</b>  2 lbs.</p>
+<p class="stat-block">This loose-fitting blouse is adorned with grotesque fetishes and trophies, granting the wearer a +2 competence bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks. If the wearer is a witch, she gains the cackle hex. If the wearer already has the cackle hex, twice per day she can use her cackle ability as a swift action instead of a move action.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/hideousLaughter.html#_hideous-laughter" >hideous laughter</a></i> or the cackle hex, creator must have 5 ranks in <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a></p>
+				
+<p id="deadshot-vest" class="stat-block-title">Deadshot Vest</p>
+<p class="stat-block-1"><b>Price</b> 6,000 gp; <b>Aura</b> faint necromancy; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This rough vest of black snakeskin is decorated with a fringe of rawhide tassels, each knotted around a bit of bone or a small animal skull. A gunslinger with the deadeye deed reduces the grit point cost to use that deed by 1 (minimum 1 grit).</p>
+<p class="stat-block">In addition, once per day when the wearer reduces a creature to 0 or fewer hit points with a firearm she can use <i><a href="/pathfinderRPG/prd/spells/deathKnell.html#_death-knell" >death knell</a></i> (Will DC 13 negates) against that target as a swift action. She does not have to touch the target to activate this ability, but her range increment penalty for shooting the target also applies to the saving throw DC of the <i><a href="/pathfinderRPG/prd/spells/deathKnell.html#_death-knell" >death knell</a></i> (for example, if the range increment penalty is &ndash;2, the DC is 11).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/deathKnell.html#_death-knell" >death knell</a></i>, <i><a href="/pathfinderRPG/prd/spells/trueStrike.html#_true-strike" >true strike</a></i></p>
+				
+<p id="endless-bandolier" class="stat-block-title">Endless Bandolier</p>
+<p class="stat-block-1"><b>Price</b> 1,500 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 9th; <b>Weight</b>  2 lbs.</p>
+<p class="stat-block">Small loops sewn into this bandolier look like they can hold  twenty alchemical cartridges (ammunition for a firearm, see <i>Ultimate Combat</i>), but due to a subtle bending of space can actually hold up to 60 cartridges. Additionally, the six thin pockets on the bandolier are extradimensional spaces meant to hold extra guns and gear. The four small pockets can each hold a one-handed firearm, 1 pound of ammunition, a powder horn, or a similarly sized object. The two large pockets are large enough to hold a two-handed firearm or a similarly sized object. The wearer can draw an item stored in the bandolier as easily as if from an ordinary ammunition pouch or holster. The bandolier weighs the same no matter what is placed inside it.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/secretChest.html#_secret-chest" >secret chest</a></i></p>
+				
+<p id="mantle-of-faith" class="stat-block-title">Mantle of Faith</p>
+<p class="stat-block-1"><b>Price</b> 76,000 gp; <b>Aura</b> strong abjuration; <b>CL</b> 20th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This holy garment bears the varied  religious icons and favored colors of a specific faith. When worn over normal clothing, grants damage reduction 5/evil to the character wearing it.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 38,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i></p>
+				
+<p id="mantle-of-immortality" class="stat-block-title">Mantle of Immortality</p>
+<p class="stat-block-1"><b>Price</b> 50,000 gp; <b>Aura</b> strong transmutation; <b>CL</b> 17th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">This elegant cape, trimmed in gold in a pattern resembling an ancient maze, forestalls the negative effects of aging. The wearer no longer suffers penalties to Strength, Dexterity, and Constitution from being of middle age or older . The penalties return if the robe is removed (or its powers suppressed), and the sudden weight of years is so traumatic that the wearer must make a DC 20 Fortitude save or be exhausted for 24 hours. Donning the robe again removes the age penalties, but does not remove this exhaustion, which must pass on its own or be remedied with magic.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 25,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-greater" >greater age resistance</a></i></p>
+				
+<p id="mantle-of-spell-resistance" class="stat-block-title">Mantle of Spell Resistance</p>
+<p class="stat-block-1"><b>Price</b> 90,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 9th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This light mantle bears a variety of mysterious symbols. When worn over normal clothing or armor, this magical garment grants the wearer spell resistance 21.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 45,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance" >spell resistance</a></i></p>
+				
+<p id="merciful-baldric" class="stat-block-title">Merciful Baldric</p>
+<p class="stat-block-1"><b>Price</b> 60,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 11th; <b>Weight</b>  2 lbs.</p>
+<p class="stat-block">This sash of white silk embroidered with golden suns never tears, fades, or soils. Once per day, a paladin wearing this baldric can select three extra mercies of her level or lower she does not already know and add them to the list of mercies she can use for the day. She has access to these mercies for 24 hours. When the wearer uses a mercy to remove a condition caused by a curse, disease, or poison, the mercy actually cures the source curse, disease, or poison rather than merely suppressing it for 1 hour.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 30,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_extra-mercy" >Extra Mercy</a>, <i><a href="/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease" >remove disease</a>, <a href="/pathfinderRPG/prd/spells/removeCurse.html#_remove-curse" >remove curse</a>, </i>creator must be lawful good</p>
+
+<p id="Poisoner's-Jacket-Greater" class="stat-block-title">Poisoner's Jacket, Greater</p>
+<p class="stat-block-1"><b>Price</b> 58,000 gp; <b>Aura</b> strong conjuration and necromancy; <b>CL</b> 15th; <b>Weight</b>  4 lbs.</p>
+<p class="stat-block">This jacket has the abilities of a <i>lesser poisoner's jacket</i>, and once per day the wearer can create a vial that reproduces the effect of any poison in the <i>Core Rulebook</i> that costs 4,000 gp or less. The jacket's poison always looks like a murky lime fluid. This poison becomes inert after 1 hour.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 29,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/majorCreation.html#_major-creation" >major creation</a></i>, <i><a href="/pathfinderRPG/prd/spells/poison.html#_poison" >poison</a></i></p>
+				
+<p id="Poisoner's-Jacket-Lesser" class="stat-block-title">Poisoner's Jacket, Lesser</p>
+<p class="stat-block-1"><b>Price</b> 12,000 gp; <b>Aura</b> faint conjuration and necromancy; <b>CL</b> 5th; <b>Weight</b>  3 lbs.</p>
+<p class="stat-block">Three times per day, the wearer of this dark jacket can create a vial containing one dose of any poison from the <i>Core Rulebook</i> that costs 300 gp or less. The jacket's poison always looks like a murky amber fluid. This poison becomes inert after 1 hour.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 6,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation" >minor creation</a></i>, <i><a href="/pathfinderRPG/prd/spells/poison.html#_poison" >poison</a></i></p>
+				
+<p id="Prophet's-Pectoral" class="stat-block-title">Prophet's Pectoral</p>
+<p class="stat-block-1"><b>Price</b> 6,000 gp; <b>Aura</b> faint divination; <b>CL</b> 3rd; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">The sacred stones, graven star-patterns, and wisdom-writings of the ancients on this chestplate increase the wearer's chance of success with <i><a href="/pathfinderRPG/prd/spells/augury.html#_augury" >augury</a></i>, <i><a href="/pathfinderRPG/prd/spells/divination.html#_divination" >divination</a></i>, and <i><a href="/pathfinderRPG/prd/spells/contactOtherPlane.html#_contact-other-plane" >contact other plane</a>.</i> The wearer adds 1d6 to the d% roll each time she uses such a spell. When casting <i><a href="/pathfinderRPG/prd/spells/commune.html#_commune" >commune</a></i> or <i><a href="/pathfinderRPG/prd/spells/communeWithNature.html#_commune-with-nature" >commune with nature</a></i>, the wearer may ask one additional question or gain one additional piece of information.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/divination.html#_divination" >divination</a></i>, <i><a href="/pathfinderRPG/prd/spells/guidance.html#_guidance" >guidance</a></i></p>
+				
+<p id="Quick-Runner's-Shirt" class="stat-block-title">Quick Runner's Shirt</p>
+<p class="stat-block-1"><b>Price</b> 1,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b>  &mdash;</p>
+<p class="stat-block">This shirt is made of light, gossamer-thin fabric embroidered with arrangements of winged feet. Once per day as a swift action, the wearer can take an additional move action to move on his turn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i></p>
+				
+<p id="resplendent-uniform-coat" class="stat-block-title">Resplendent Uniform Coat</p>
+<p class="stat-block-1"><b>Price</b> 7,000 gp; <b>Aura</b> faint enchantment; <b>CL</b> 5th; <b>Weight</b> 5 lbs.</p>
+<p class="stat-block">This woolen long coat is typically worn over light armor by military commanders. A cavalier with the tactician ability may use that ability one additional time per day, and his tactician ability affects allies within 60 feet instead of 30 feet.</p>
+				
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i></p>
+				
+<p id="sash-of-the-war-champion" class="stat-block-title">Sash of the War Champion</p>
+<p class="stat-block-1"><b>Price</b> 4,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 9th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">This bright red strip of cloth, stitched with images of a cheering crowd throwing garlands toward a chariot, fits across the wearer's shoulders and then diagonally down his chest to reach his opposite hip. The wearer treats his fighter level as 4 higher than normal for the purpose of the armor training and bravery class features.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/removeFear.html#_remove-fear" >remove fear</a></i></p>
+				
+<p id="shirt-of-immolation" class="stat-block-title">Shirt of Immolation</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> moderate evocation; <b>CL</b> 10th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">Whenever the wearer is grappling (whether on the offense or defense), this shirt automatically bursts into flame, dealing 1d6+10 points of fire damage every round to anyone grappling the wearer. The flames do not harm the wearer and last one round (though it continues to burn if the wearer is still grappling after one round). The shirt burns for a maximum of 10 rounds per day. These rounds do not need to be consecutive.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/fireShield.html#_fire-shield" >fire shield</a></i></p>
+				
+				
+				
+<p id="sipping-jacket" class="stat-block-title">Sipping Jacket</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 7th; <b>Weight</b> 5 lbs.</p>
+<p class="stat-block">Absorbent fibers line this heavy canvas coat. Once per day as a standard action, the wearer can pour a potion onto this lining, suffusing it into the coat. If the potion has an instantaneous duration, the wearer can activate the coat as a swift action to consume the potion. If the potion's duration is measured in rounds, the wearer can activate the coat as a swift action to gain the potion's benefits for 1 round, repeating as desired each round until the potion's entire duration has been used. These rounds do not need to be consecutive. The coat absorbs only potions with instantaneous or round-based durations, and only those which affect creatures (for example, it does not work on oils). Once the coat absorbs a potion, the potion cannot be retrieved from it, only used as described above. The absorbed potion loses its powers after 24 hours, even if unused.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/advanced/spells/amplifyElixir.html#_amplify-elixir" >amplify elixir</a></i></p>
+				
+<p id="snakeskin-tunic" class="stat-block-title">Snakeskin Tunic</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> moderate abjuration and transmutation; <b>CL</b> 8th; <b>Weight</b>  2 lbs.</p>
+<p class="stat-block">A <i>snakeskin tunic</i> is a tight, form-fitting shirt crafted from the scales of a giant snake. When worn, it grants a +1 armor bonus to AC, a +2 enhancement bonus to Dexterity, and a +2 resistance bonus on saving throws against poison.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i></p>
+				
+<p id="spectral-shroud" class="stat-block-title">Spectral Shroud</p>
+<p class="stat-block-1"><b>Price</b> 26,000 gp; <b>Aura</b> moderate necromancy; <b>CL</b> 5th; <b>Weight</b>  &mdash;</p>
+<p class="stat-block">This thin, bleached cloth covers the wearer's entire torso. Some also cover the wearer's face, but don't interfere with the wearer's vision. The morbid burial shroud grants the wearer some affinity with the spectral dead. The wearer can discern invisible or ethereal creatures as though using <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i>. Once per day, the wearer can become incorporeal for 10 rounds and gain a fly speed equal to half his base speed with perfect maneuverability. The wearer can't attack while incorporeal, but can dismiss the effect as a move action.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 13,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/hideFromUndead.html#_hide-from-undead" >hide from undead</a>, <a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i></p>
+				
+<p id="tunic-of-careful-casting" class="stat-block-title">Tunic of Careful Casting</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> faint abjuration; <b>CL</b> 3rd; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">This woolen garment is decorated with a pattern of linked chains embroidered in silver and black thread. It assists the wearer with maintaining focus during spellcasting, granting a +2 bonus on Concentration checks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a></p>
+				
+<p id="tunic-of-deadly-might" class="stat-block-title">Tunic of Deadly Might</p>
+<p class="stat-block-1"><b>Price</b> 6,000 gp; <b>Aura</b> faint evocation; <b>CL</b> 3rd; <b>Weight</b>  2 lbs.</p>
+<p class="stat-block">This tunic is crafted from golden thread, and has silver-hemmed sleeves. The wearer gains a +2 bonus to Combat Maneuver Defense against disarm and sunder combat maneuvers. If the wearer is a samurai, twice per day as a swift action he can apply the effects of the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_thundering" >thundering</a></i> weapon special ability  to a successful critical hit against the target of his challenge.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness" >blindness/deafness</a></i>, <i><a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i></p>
+				
+<p id="unfettered-shirt" class="stat-block-title">Unfettered Shirt</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Aura</b> moderate abjuration and transmutation; <b>CL</b> 7th; <b>Weight</b>  &mdash;</p>
+<p class="stat-block">This loose, often ruffled, shirt is cut in a style designed to avoid hindering its wearer's movement.</p>
+<p class="stat-block">Once per day on command, the wearer can gain the benefits of <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i> for 10 minutes.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i></p>
+				
+				
+				
+<p id="vest-of-escape" class="stat-block-title">Vest of Escape</p>
+<p class="stat-block-1"><b>Price</b> 5,200 gp; <b>Aura</b>faint conjuration and transmutation; <b>CL</b> 4th; <b>Weight</b> &mdash;</b></p>
+<p class="stat-block">This simple silk vest looks nondescript, but is actually studded with numerous secret pockets sewn into its lining. Hidden inside these are magic lockpicks that provide a +4 competence bonus on <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> checks. The vest also grants its wearer a +6 competence bonus on <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> checks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,600 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/knock.html#_knock" >knock</a></i>, <i><a href="/pathfinderRPG/prd/spells/grease.html#_grease" >grease</a></i></p>
+
+<p id="vest-of-stable-mutation" class="stat-block-title">Vest of Stable Mutation</p>
+<p class="stat-block-1"><b>Price</b> 20,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 8th; <b>Weight</b>  2 lbs.</p>
+<p class="stat-block">This leather vest is fitted with a number of pockets that are useful for storing the ingredients necessary for alchemical tinkering. The main ability of this vest, however, is to lessen the debilitating effects of an alchemist's mutagen. While under the effect of any type of mutagen, the wearer takes no penalty to mental ability scores from that mutagen.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 10,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i>, <i><a href="/pathfinderRPG/prd/spells/foxSCunning.html#_fox-s-cunning" >fox's cunning</a></i>, <i><a href="/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom" >owl's wisdom</a></i>, creator must be an alchemist</p>
+				
+<p id="vest-of-surgery" class="stat-block-title">Vest of Surgery</p>
+<p class="stat-block-1"><b>Price</b> 3,000 gp; <b>Aura</b> faint conjuration; <b>CL</b> 5th; <b>Weight</b> 4 lbs.</p>
+<p class="stat-block">This emerald vest has four prominent and bulging pockets along its front. The wearer is always treated as if using a healer's kit when making <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> checks . Once per day, the wearer can make a DC 20 <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> check as if attempting to treat deadly wounds. If the check is successful, it cures 1d4 points of ability damage instead of hit point damage.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>, creator must have 5 ranks in <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a></p>
+				
+<p id="vest-of-the-cockroach" class="stat-block-title">Vest of the Cockroach</p>
+<p class="stat-block-1"><b>Price</b> 16,000 gp; <b>Aura</b> faint necromancy; <b>CL</b> 3rd; <b>Weight</b>  2 lbs.</p>
+<p class="stat-block">This padded and slightly bulky vest, made from red-brown cloth, causes its wearer to feel vaguely uncomfortable whenever she is lying prone. If the wearer is a rogue, she gains the resiliency rogue talent. If she already has this talent, activating the talent grants her 2 hit points per rogue level instead of 1.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 8,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/falseLife.html#_false-life" >false life</a></i></p>
+				
+<p id="vest-of-the-vengeful-tracker" class="stat-block-title">Vest of the Vengeful Tracker</p>
+<p class="stat-block-1"><b>Price</b> 6,000 gp; <b>Aura</b> faint divination; <b>CL</b> 5th; <b>Weight</b>  3 lbs.</p>
+<p class="stat-block">This green-and-brown vest has pockets sewn along its length, each with a tiny lodestone button. The wearer feels a surge of heroism when she tracks down prey. She gains a +1 morale bonus on the first attack and damage rolls made with weapons against creatures she has successfully tracked within the previous 24 hours. If her target is flat-footed, this bonus increases to +2. If her target is also her favored enemy, she gains a +4 bonus on critical hit confirmation rolls against the target.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/communeWithNature.html#_commune-with-nature" >commune with nature</a></i></p>
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

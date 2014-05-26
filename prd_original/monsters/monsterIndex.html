@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Monster Index</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Monster Index",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body"><h1>Monster Index</h1>
+
+<p class="shortcutBar"><a href="#index-monsters-A">A</a> <a href="#index-monsters-B">B</a> <a href="#index-monsters-C">C</a> <a href="#index-monsters-D">D</a> <a href="#index-monsters-E">E</a> <a href="#index-monsters-F">F</a> <a href="#index-monsters-G">G</a> <a href="#index-monsters-H">H</a> <a href="#index-monsters-I">I</a> <a href="#index-monsters-J">J</a> <a href="#index-monsters-K">K</a> <a href="#index-monsters-L">L</a> <a href="#index-monsters-M">M</a> <a href="#index-monsters-N">N</a> <a href="#index-monsters-O">O</a> <a href="#index-monsters-P">P</a> <a href="#index-monsters-R">R</a> <a href="#index-monsters-S">S</a> <a href="#index-monsters-T">T</a> <a href="#index-monsters-U">U</a> <a href="#index-monsters-V">V</a> <a href="#index-monsters-W">W</a> <a href="#index-monsters-X">X</a> <a href="#index-monsters-Y">Y</a> <a href="#index-monsters-Z">Z</a></p>
+
+<div id="monster-index-wrapper" class="index">
+
+<ul id="index-monsters-A" title="A Monsters">
+<li><a href="aasimar.html#_aasimar">Aasimar</a></li>
+<li><a href="aboleth.html#_aboleth">Aboleth</a></li>
+<li><a href="angel.html#_angel">Angel</a></li>
+<li>&nbsp;&nbsp;<a href="angel.html#_angel-astral-deva">Angel, Astral Deva</a></li>
+<li>&nbsp;&nbsp;<a href="angel.html#_angel-planetar">Angel, Planetar</a></li>
+<li>&nbsp;&nbsp;<a href="angel.html#_angel-solar">Angel, Solar</a></li>
+<li><a href="animatedObject.html#_animated-object">Animated Object</a></li>
+<li><a href="ankheg.html#_ankheg">Ankheg</a></li>
+<li><a href="ant.html#_ant-giant">Ant, Giant</a></li>
+<li><a href="ant.html#_army-ant-swarm">Army Ant Swarm</a></li>
+<li><a href="ape.html">Ape</a></li>
+<li>&nbsp;&nbsp;<a href="ape.html#_ape-dire">Ape, Dire</a></li>
+<li>&nbsp;&nbsp;<a href="ape.html#_ape-gorilla">Ape, Gorilla</a></li>
+<li><a href="archon.html#_archon">Archon</a></li>
+<li>&nbsp;&nbsp;<a href="archon.html#_archon-hound">Archon, Hound</a></li>
+<li>&nbsp;&nbsp;<a href="archon.html#_archon-lantern">Archon, Lantern</a></li>
+<li>&nbsp;&nbsp;<a href="archon.html#_archon-trumpet">Archon, Trumpet</a></li>
+<li><a href="assassinVine.html#_assassin-vine">Assassin Vine</a></li>
+<li><a href="azata.html#_azata">Azata</a></li>
+<li>&nbsp;&nbsp;<a href="azata.html#_azata-bralani">Azata, Bralani</a></li>
+<li>&nbsp;&nbsp;<a href="azata.html#_azata-ghaele">Azata, Ghaele</a></li>
+<li>&nbsp;&nbsp;<a href="azata.html#_azata-lillend">Azata, Lillend</a></li>
+</ul>
+
+<ul id="index-monsters-B" title="B Monsters">
+<li><a href="barghest.html#_barghest">Barghest</a></li>
+<li><a href="basidirond.html#_basidirond">Basidirond</a></li>
+<li><a href="basilisk.html#_basilisk">Basilisk</a></li>
+<li><a href="bat.html">Bat</a></li>
+<li>&nbsp;&nbsp;<a href="bat.html#_bat-swarm">Bat Swarm</a></li>
+<li>&nbsp;&nbsp;<a href="bat.html#_bat-dire">Bat, Dire</a></li>
+<li><a href="bear.html">Bear</a></li>
+<li>&nbsp;&nbsp;<a href="bear.html#_bear-dire">Bear, Dire</a></li>
+<li>&nbsp;&nbsp;<a href="bear.html#_bear-grizzly">Bear, Grizzly</a></li>
+<li><a href="bebilith.html#_bebilith">Bebilith</a></li>
+<li><a href="beetle.html">Beetle</a></li>
+<li>&nbsp;&nbsp;<a href="beetle.html#_beetle-fire">Beetle, Fire</a></li>
+<li>&nbsp;&nbsp;<a href="beetle.html#_beetle-giant">Beetle, Giant Stag</a></li>
+<li><a href="behir.html#_behir">Behir</a></li>
+<li><a href="blackPudding.html#_black-pudding">Black Pudding</a></li>
+<li><a href="boar.html#_boar">Boar</a></li>
+<li>&nbsp;&nbsp;<a href="boar.html#_boar-dire">Boar, Dire</a></li>
+<li><a href="boggard.html#_boggard">Boggard</a></li>
+<li><a href="bugbear.html#_bugbear">Bugbear</a></li>
+<li><a href="bulette.html#_bulette">Bulette</a></li>
+</ul>
+
+<ul id="index-monsters-C" title="C Monsters">
+<li><a href="cat.html">Cat</a></li>
+<li>&nbsp;&nbsp;<a href="cat.html#_cat-cheetah">Cat, Cheetah</a></li>
+<li>&nbsp;&nbsp;<a href="cat.html#_cat-leopard">Cat, Leopard</a></li>
+<li><a href="caveFisher.html#_cave-fisher">Cave Fisher</a></li>
+<li><a href="centaur.html#_centaur">Centaur</a></li>
+<li><a href="centipede.html">Centipede</a></li>
+<li>&nbsp;&nbsp;<a href="centipede.html#_centipede-swarm">Centipede Swarm</a></li>
+<li>&nbsp;&nbsp;<a href="centipede.html#_centipede-giant">Centipede, Giant</a></li>
+<li><a href="chimera.html#_chimera">Chimera</a></li>
+<li><a href="choker.html#_choker">Choker</a></li>
+<li><a href="chuul.html#_chuul">Chuul</a></li>
+<li><a href="cloaker.html#_cloaker">Cloaker</a></li>
+<li><a href="cockatrice.html#_cockatrice">Cockatrice</a></li>
+<li><a href="couatl.html#_couatl">Couatl</a></li>
+<li><a href="crab.html">Crab</a></li>
+<li>&nbsp;&nbsp;<a href="crab.html#_crab-swarm">Crab Swarm</a></li>
+<li>&nbsp;&nbsp;<a href="crab.html#_crab-giant">Crab, Giant</a></li>
+<li><a href="crocodile.html#_crocodile">Crocodile</a></li>
+<li>&nbsp;&nbsp;<a href="crocodile.html#_crocodile-dire">Crocodile, Dire</a></li>
+<li><a href="cyclops.html#_cyclops">Cyclops</a></li>
+</ul>
+
+<ul id="index-monsters-D" title="D Monsters">
+<li><a href="darkCreeper.html#_dark-creeper">Dark Creeper</a></li>
+<li><a href="darkStalker.html#_dark-stalker">Dark Stalker</a></li>
+<li><a href="darkmantle.html#_darkmantle">Darkmantle</a></li>
+<li><a href="demon.html">Demon</a></li>
+<li>&nbsp;&nbsp;<a href="demon.html#_demon-babau">Demon, Babau</a></li>
+<li>&nbsp;&nbsp;<a href="demon.html#_demon-balor">Demon, Balor</a></li>
+<li>&nbsp;&nbsp;<a href="demon.html#_demon-dretch">Demon, Dretch</a></li>
+<li>&nbsp;&nbsp;<a href="demon.html#_demon-glabrezu">Demon, Glabrezu</a></li>
+<li>&nbsp;&nbsp;<a href="demon.html#_demon-hezrou">Demon, Hezrou</a></li>
+<li>&nbsp;&nbsp;<a href="demon.html#_demon-marilith">Demon, Marilith</a></li>
+<li>&nbsp;&nbsp;<a href="demon.html#_demon-nabasu">Demon, Nabasu</a></li>
+<li>&nbsp;&nbsp;<a href="demon.html#_demon-nalfeshnee">Demon, Nalfeshnee</a></li>
+<li>&nbsp;&nbsp;<a href="demon.html#_demon-quasit">Demon, Quasit</a></li>
+<li>&nbsp;&nbsp;<a href="demon.html#_demon-shadow">Demon, Shadow</a></li>
+<li>&nbsp;&nbsp;<a href="demon.html#_demon-succubus">Demon, Succubus</a></li>
+<li>&nbsp;&nbsp;<a href="demon.html#_demon-vrock">Demon, Vrock</a></li>
+<li><a href="derro.html#_derro">Derro</a></li>
+<li><a href="devil.html#_devil">Devil</a></li>
+<li>&nbsp;&nbsp;<a href="devil.html#_devil-barbed">Devil, Barbed</a></li>
+<li>&nbsp;&nbsp;<a href="devil.html#_devil-bearded">Devil, Bearded</a></li>
+<li>&nbsp;&nbsp;<a href="devil.html#_devil-bone">Devil, Bone</a></li>
+<li>&nbsp;&nbsp;<a href="devil.html#_devil-erinyes">Devil, Erinyes</a></li>
+<li>&nbsp;&nbsp;<a href="devil.html#_devil-horned">Devil, Horned</a></li>
+<li>&nbsp;&nbsp;<a href="devil.html#_devil-ice">Devil, Ice</a></li>
+<li>&nbsp;&nbsp;<a href="devil.html#_devil-imp">Devil, Imp</a></li>
+<li>&nbsp;&nbsp;<a href="devil.html#_devil-lemure">Devil, Lemure</a></li>
+<li>&nbsp;&nbsp;<a href="devil.html#_devil-pit-fiend">Devil, Pit Fiend</a></li>
+<li><a href="devourer.html#_devourer">Devourer</a></li>
+<li><a href="dinosaur.html">Dinosaur</a></li>
+<li>&nbsp;&nbsp;<a href="dinosaur.html#_dinosaur-ankylosaurus">Dinosaur, Ankylosaurus</a></li>
+<li>&nbsp;&nbsp;<a href="dinosaur.html#_dinosaur-brachiosaurus">Dinosaur, Brachiosaurus</a></li>
+<li>&nbsp;&nbsp;<a href="dinosaur.html#_dinosaur-deinonychus">Dinosaur, Deinonychus</a></li>
+<li>&nbsp;&nbsp;<a href="dinosaur.html#_dinosaur-elasmosaurus">Dinosaur, Elasmosaurus</a></li>
+<li>&nbsp;&nbsp;<a href="dinosaur.html#_dinosaur-pteranodon">Dinosaur, Pteranodon</a></li>
+<li>&nbsp;&nbsp;<a href="dinosaur.html#_dinosaur-stegosaurus">Dinosaur, Stegosaurus</a></li>
+<li>&nbsp;&nbsp;<a href="dinosaur.html#_dinosaur-triceratops">Dinosaur, Triceratops</a></li>
+<li>&nbsp;&nbsp;<a href="dinosaur.html#_dinosaur-tyrannosaurus">Dinosaur, Tyrannosaurus</a></li>
+<li><a href="dog.html#_dog">Dog</a></li>
+<li>&nbsp;&nbsp;<a href="dog.html#_dog-riding">Dog, Riding</a></li>
+<li><a href="dolphin.html#_dolphin">Dolphin</a></li>
+<li>&nbsp;&nbsp;<a href="dolphin.html#_dolphin-orca">Dolphin, Orca</a></li>
+<li><a href="doppelganger.html#_doppelganger">Doppelganger</a></li>
+<li><a href="dragon.html#_dragon">Dragon</a></li>
+<li>&nbsp;&nbsp;<a href="dragon.html#_chromatic-dragon-black">Chromatic Dragon, Black</a></li>
+<li>&nbsp;&nbsp;<a href="dragon.html#_chromatic-dragon-blue">Chromatic Dragon, Blue</a></li>
+<li>&nbsp;&nbsp;<a href="dragon.html#_chromatic-dragon-green">Chromatic Dragon, Green</a></li>
+<li>&nbsp;&nbsp;<a href="dragon.html#_chromatic-dragon-red">Chromatic Dragon, Red</a></li>
+<li>&nbsp;&nbsp;<a href="dragon.html#_chromatic-dragon-white">Chromatic Dragon, White</a></li>
+<li>&nbsp;&nbsp;<a href="dragon.html#_metallic-dragon-brass">Metallic Dragon, Brass</a></li>
+<li>&nbsp;&nbsp;<a href="dragon.html#_metallic-dragon-bronze">Metallic Dragon, Bronze</a></li>
+<li>&nbsp;&nbsp;<a href="dragon.html#_metallic-dragon-copper">Metallic Dragon, Copper</a></li>
+<li>&nbsp;&nbsp;<a href="dragon.html#_metallic-dragon-gold">Metallic Dragon, Gold</a></li>
+<li>&nbsp;&nbsp;<a href="dragon.html#_metallic-dragon-silver">Metallic Dragon, Silver</a></li>
+<li><a href="dragonTurtle.html#_dragon-turtle">Dragon Turtle</a></li>
+<li><a href="drider.html#_drider">Drider</a></li>
+<li><a href="drow.html#_drow">Drow</a></li>
+<li><a href="dryad.html#_dryad">Dryad</a></li>
+<li><a href="duergar.html#_duergar">Duergar</a></li>
+</ul>
+
+<ul id="index-monsters-E" title="E Monsters">
+<li><a href="eagle.html#_eagle">Eagle</a></li>
+<li>&nbsp;&nbsp;<a href="eagle.html#_eagle-giant">Eagle, Giant</a></li>
+<li><a href="eel.html">Eel</a></li>
+<li>&nbsp;&nbsp;<a href="eel.html#_eel-electric">Eel, Electric</a></li>
+<li>&nbsp;&nbsp;<a href="eel.html#_eel-giant-moray">Eel, Giant Moray</a></li>
+<li><a href="elemental.html">Elemental</a></li>
+<li>&nbsp;&nbsp;<a href="elemental.html#_elemental-air">Elemental, Air</a></li>
+<li>&nbsp;&nbsp;<a href="elemental.html#_elemental-earth">Elemental, Earth</a></li>
+<li>&nbsp;&nbsp;<a href="elemental.html#_elemental-fire">Elemental, Fire</a></li>
+<li>&nbsp;&nbsp;<a href="elemental.html#_elemental-water">Elemental, Water</a></li>
+<li>&nbsp;&nbsp;<a href="elephant.html#_elephant">Elephant</a></li>
+<li>&nbsp;&nbsp;<a href="elephant.html#_elephant-mastodon">Elephant, Mastodon</a></li>
+<li><a href="ettercap.html#_ettercap">Ettercap</a></li>
+<li><a href="ettin.html#_ettin">Ettin</a></li>
+</ul>
+
+<ul id="index-monsters-F" title="F Monsters">
+<li><a href="familiar.html#_familiar">Familiar</a></li>
+<li><a href="flytrap.html#_flytrap-giant">Flytrap, Giant</a></li>
+<li><a href="frog.html">Frog</a></li>
+<li>&nbsp;&nbsp;<a href="frog.html#_frog-giant">Frog, Giant</a></li>
+<li>&nbsp;&nbsp;<a href="frog.html#_frog-poison">Frog, Poison</a></li>
+<li><a href="froghemoth.html#_froghemoth">Froghemoth</a></li>
+</ul>
+
+<ul id="index-monsters-G" title="G Monsters">
+<li><a href="gargoyle.html#_gargoyle">Gargoyle</a></li>
+<li><a href="gelatinousCube.html#_gelatinous-cube">Gelatinous Cube</a></li>
+<li><a href="genie.html">Genie</a></li>
+<li>&nbsp;&nbsp;<a href="genie.html#_genie-djinni">Genie, Djinni</a></li>
+<li>&nbsp;&nbsp;<a href="genie.html#_genie-efreeti">Genie, Efreeti</a></li>
+<li>&nbsp;&nbsp;<a href="genie.html#_genie-janni">Genie, Janni</a></li>
+<li>&nbsp;&nbsp;<a href="genie.html#_genie-marid">Genie, Marid</a></li>
+<li>&nbsp;&nbsp;<a href="genie.html#_genie-shaitan">Genie, Shaitan</a></li>
+<li><a href="ghost.html#_ghost">Ghost</a></li>
+<li><a href="ghoul.html#_ghoul">Ghoul</a></li>
+<li><a href="giant.html">Giant</a></li>
+<li>&nbsp;&nbsp;<a href="giant.html#_giant-cloud">Giant, Cloud</a></li>
+<li>&nbsp;&nbsp;<a href="giant.html#_giant-fire">Giant, Fire</a></li>
+<li>&nbsp;&nbsp;<a href="giant.html#_giant-frost">Giant, Frost</a></li>
+<li>&nbsp;&nbsp;<a href="giant.html#_giant-hill">Giant, Hill</a></li>
+<li>&nbsp;&nbsp;<a href="giant.html#_giant-stone">Giant, Stone</a></li>
+<li>&nbsp;&nbsp;<a href="giant.html#_giant-storm">Giant, Storm</a></li>
+<li><a href="gibberingMouther.html#_gibbering-mouther">Gibbering Mouther</a></li>
+<li><a href="girallon.html#_girallon">Girallon</a></li>
+<li><a href="gnoll.html#_gnoll">Gnoll</a></li>
+<li><a href="goblin.html#_goblin">Goblin</a></li>
+<li><a href="goblinDog.html#_goblin-dog">Goblin Dog</a></li>
+<li><a href="golem.html#_golem">Golem</a></li>
+<li>&nbsp;&nbsp;<a href="golem.html#_golem-clay">Golem, Clay</a></li>
+<li>&nbsp;&nbsp;<a href="golem.html#_golem-flesh">Golem, Flesh</a></li>
+<li>&nbsp;&nbsp;<a href="golem.html#_golem-ice">Golem, Ice</a></li>
+<li>&nbsp;&nbsp;<a href="golem.html#_golem-iron">Golem, Iron</a></li>
+<li>&nbsp;&nbsp;<a href="golem.html#_golem-stone">Golem, Stone</a></li>
+<li>&nbsp;&nbsp;<a href="golem.html#_golem-wood">Golem, Wood</a></li>
+<li><a href="gorgon.html#_gorgon">Gorgon</a></li>
+<li><a href="grayOoze.html#_gray-ooze">Gray Ooze</a></li>
+<li><a href="greenHag.html#_green-hag">Green Hag</a></li>
+<li><a href="griffon.html#_griffon">Griffon</a></li>
+</ul>
+
+<ul id="index-monsters-H" title="H Monsters">
+<li><a href="halfCelestial.html#_half-celestial">Half-Celestial</a></li>
+<li><a href="halfDragon.html#_half-dragon">Half-Dragon</a></li>
+<li><a href="halfFiend.html#_half-fiend">Half-Fiend</a></li>
+<li><a href="harpy.html#_harpy">Harpy</a></li>
+<li><a href="hellHound.html#_hell-hound">Hell Hound</a></li>
+<li>&nbsp;&nbsp;<a href="hellHound.html#_hell-hound-nessian">Hell Hound, Nessian</a></li>
+<li><a href="herdAnimal.html">Herd Animal</a></li>
+<li>&nbsp;&nbsp;<a href="herdAnimal.html#_herd-animal-aurochs">Herd Animal, Aurochs</a></li>
+<li>&nbsp;&nbsp;<a href="herdAnimal.html#_herd-animal-bison">Herd Animal, Bison</a></li>
+<li><a href="hobgoblin.html#_hobgoblin">Hobgoblin</a></li>
+<li><a href="homunculus.html#_homunculus">Homunculus</a></li>
+<li><a href="horse.html#_horse">Horse</a></li>
+<li>&nbsp;&nbsp;<a href="horse.html#_horse-pony">Horse, Pony</a></li>
+<li><a href="hydra.html#_hydra">Hydra</a></li>
+<li><a href="hyena.html#_hyena">Hyena</a></li>
+<li>&nbsp;&nbsp;<a href="hyena.html#_hyena-dire">Hyena, Dire</a></li>
+</ul>
+
+<ul id="index-monsters-I" title="I Monsters">
+<li><a href="intellectDevourer.html#_intellect-devourer">Intellect Devourer</a></li>
+<li><a href="invisibleStalker.html#_invisible-stalker">Invisible Stalker</a></li>
+<li><a href="ironCobra.html#_iron-cobra">Iron Cobra</a></li>
+</ul>
+
+<ul id="index-monsters-K" title="K Monsters">
+<li><a href="kobold.html#_kobold">Kobold</a></li>
+<li><a href="kraken.html#_kraken">Kraken</a></li>
+<li><a href="kyton.html#_kyton">Kyton</a></li>
+</ul>
+
+<ul id="index-monsters-L" title="L Monsters">
+<li><a href="lamia.html#_lamia">Lamia</a></li>
+<li><a href="leech.html">Leech</a></li>
+<li>&nbsp;&nbsp;<a href="leech.html#_leech-swarm">Leech Swarm</a></li>
+<li>&nbsp;&nbsp;<a href="leech.html#_leech-giant">Leech, Giant</a></li>
+<li><a href="lich.html#_lich">Lich</a></li>
+<li><a href="linnorm.html">Linnorm</a></li>
+<li>&nbsp;&nbsp;<a href="linnorm.html#_linnorm-crag">Linnorm, Crag</a></li>
+<li>&nbsp;&nbsp;<a href="linnorm.html#_linnorm-ice">Linnorm, Ice</a></li>
+<li>&nbsp;&nbsp;<a href="linnorm.html#_linnorm-tarn">Linnorm, Tarn</a></li>
+<li><a href="lion.html#_lion">Lion</a></li>
+<li>&nbsp;&nbsp;<a href="lion.html#_lion-dire">Lion, Dire</a></li>
+<li><a href="lizard.html">Lizard</a></li>
+<li>&nbsp;&nbsp;<a href="lizard.html#_lizard-giant-frilled">Lizard, Giant Frilled</a></li>
+<li>&nbsp;&nbsp;<a href="lizard.html#_lizard-monitor">Lizard, Monitor</a></li>
+<li><a href="lizardfolk.html#_lizardfolk">Lizardfolk</a></li>
+<li><a href="lycanthrope.html#_lycanthrope">Lycanthrope</a></li>
+<li>&nbsp;&nbsp;<a href="lycanthrope.html#_lycanthrope-wererat">Lycanthrope, Wererat</a></li>
+<li>&nbsp;&nbsp;<a href="lycanthrope.html#_lycanthrope-werewolf">Lycanthrope, Werewolf</a></li>
+</ul>
+
+<ul id="index-monsters-M" title="M Monsters">
+<li><a href="manticore.html#_manticore">Manticore</a></li>
+<li><a href="mantis.html#_mantis-giant">Mantis, Giant</a></li>
+<li><a href="medusa.html#_medusa">Medusa</a></li>
+<li><a href="mephit.html#_mephit">Mephit</a></li>
+<li><a href="merfolk.html#_merfolk">Merfolk</a></li>
+<li><a href="mimic.html#_mimic">Mimic</a></li>
+<li><a href="minotaur.html#_minotaur">Minotaur</a></li>
+<li><a href="mite.html#_mite">Mite</a></li>
+<li><a href="mohrg.html#_mohrg">Mohrg</a></li>
+<li><a href="morlock.html#_morlock">Morlock</a></li>
+<li><a href="mummy.html#_mummy">Mummy</a></li>
+</ul>
+
+<ul id="index-monsters-N" title="N Monsters">
+<li><a href="naga.html">Naga</a></li>
+<li>&nbsp;&nbsp;<a href="naga.html#_naga-dark">Naga, Dark</a></li>
+<li>&nbsp;&nbsp;<a href="naga.html#_naga-guardian">Naga, Guardian</a></li>
+<li>&nbsp;&nbsp;<a href="naga.html#_naga-spirit">Naga, Spirit</a></li>
+<li><a href="neothelid.html#_neothelid">Neothelid</a></li>
+<li><a href="nightHag.html#_night-hag">Night Hag</a></li>
+<li><a href="nightmare.html#_nightmare">Nightmare</a></li>
+<li>&nbsp;&nbsp;<a href="nightmare.html#_nightmare-cauchemar">Nightmare, Cauchemar</a></li>
+<li><a href="nymph.html#_nymph">Nymph</a></li>
+</ul>
+
+<ul id="index-monsters-O" title="O Monsters">
+<li><a href="ochreJelly.html#_ochre-jelly">Ochre Jelly</a></li>
+<li><a href="octopus.html#_octopus">Octopus</a></li>
+<li>&nbsp;&nbsp;<a href="octopus.html#_octopus-giant">Octopus, Giant</a></li>
+<li><a href="ogre.html#_ogre">Ogre</a></li>
+<li><a href="oni.html#_oni-ogre-mage">Oni, Ogre Mage</a></li>
+<li><a href="orc.html#_orc">Orc</a></li>
+<li><a href="otyugh.html#_otyugh">Otyugh</a></li>
+<li><a href="owlbear.html#_owlbear">Owlbear</a></li>
+</ul>
+
+<ul id="index-monsters-P" title="P Monsters">
+<li><a href="pegasus.html#_pegasus">Pegasus</a></li>
+<li><a href="phaseSpider.html#_phase-spider">Phase Spider</a></li>
+<li><a href="phoenix.html#_phoenix">Phoenix</a></li>
+<li><a href="pixie.html#_pixie">Pixie</a></li>
+<li><a href="pseudodragon.html#_pseudodragon">Pseudodragon</a></li>
+<li><a href="purpleWorm.html#_purple-worm">Purple Worm</a></li>
+</ul>
+
+<ul id="index-monsters-R" title="R Monsters">
+<li><a href="rakshasa.html#_rakshasa">Rakshasa</a></li>
+<li><a href="rat.html">Rat</a></li>
+<li>&nbsp;&nbsp;<a href="rat.html#_rat-swarm">Rat Swarm</a></li>
+<li>&nbsp;&nbsp;<a href="rat.html#_rat-dire">Rat, Dire</a></li>
+<li><a href="remorhaz.html#_remorhaz">Remorhaz</a></li>
+<li><a href="retriever.html#_retriever">Retriever</a></li>
+<li><a href="rhinoceros.html#_rhinoceros">Rhinoceros</a></li>
+<li>&nbsp;&nbsp;<a href="rhinoceros.html#_rhinoceros-woolly">Rhinoceros, Woolly</a></li>
+<li><a href="roc.html#_roc">Roc</a></li>
+<li><a href="roper.html#_roper">Roper</a></li>
+<li><a href="rustMonster.html#_rust-monster">Rust Monster</a></li>
+</ul>
+
+<ul id="index-monsters-S" title="S Monsters">
+<li><a href="sahuagin.html#_sahuagin">Sahuagin</a></li>
+<li><a href="salamander.html#_salamander">Salamander</a></li>
+<li><a href="satyr.html#_satyr">Satyr</a></li>
+<li><a href="scorpion.html#_scorpion-giant">Scorpion, Giant</a></li>
+<li><a href="seaHag.html#_sea-hag">Sea Hag</a></li>
+<li><a href="seaSerpent.html#_sea-serpent">Sea Serpent</a></li>
+<li><a href="shadow.html#_shadow">Shadow</a></li>
+<li>&nbsp;&nbsp;<a href="shadow.html#_shadow-greater">Shadow, Greater</a></li>
+<li><a href="shamblingMound.html#_shambling-mound">Shambling Mound</a></li>
+<li><a href="shark.html#_shark">Shark</a></li>
+<li>&nbsp;&nbsp;<a href="shark.html#_shark-dire">Shark, Dire</a></li>
+<li><a href="shockerLizard.html#_shocker-lizard">Shocker Lizard</a></li>
+<li><a href="shoggoth.html#_shoggoth">Shoggoth</a></li>
+<li><a href="skeleton.html#_skeleton">Skeleton</a></li>
+<li><a href="skeletalChampion.html#_skeletal-champion">Skeletal Champion</a></li>
+<li><a href="skum.html#_skum">Skum</a></li>
+<li><a href="slug.html#_slug-giant">Slug, Giant</a></li>
+<li><a href="snake.html">Snake</a></li>
+<li>&nbsp;&nbsp;<a href="snake.html#_snake-constrictor">Snake, Constrictor</a></li>
+<li>&nbsp;&nbsp;<a href="snake.html#_snake-venomous">Snake, Venomous</a></li>
+<li><a href="spectre.html#_spectre">Spectre</a></li>
+<li><a href="sphinx.html#_sphinx">Sphinx</a></li>
+<li><a href="spider.html">Spider</a></li>
+<li>&nbsp;&nbsp;<a href="spider.html#_spider-swarm">Spider Swarm</a></li>
+<li>&nbsp;&nbsp;<a href="spider.html#_spider-giant">Spider, Giant</a></li>
+<li><a href="squid.html#_squid">Squid</a></li>
+<li>&nbsp;&nbsp;<a href="squid.html#_squid-giant">Squid, Giant</a></li>
+<li><a href="stirge.html#_stirge">Stirge</a></li>
+<li><a href="svirfneblin.html#_svirfneblin">Svirfneblin</a></li>
+</ul>
+
+<ul id="index-monsters-T" title="T Monsters">
+<li><a href="tarrasque.html#_tarrasque">Tarrasque</a></li>
+<li><a href="tengu.html#_tengu">Tengu</a></li>
+<li><a href="tiefling.html#_tiefling">Tiefling</a></li>
+<li><a href="tiger.html#_tiger">Tiger</a></li>
+<li>&nbsp;&nbsp;<a href="tiger.html#_tiger-dire">Tiger, Dire</a></li>
+<li><a href="treant.html#_treant">Treant</a></li>
+<li><a href="troglodyte.html#_troglodyte">Troglodyte</a></li>
+<li><a href="troll.html#_troll">Troll</a></li>
+</ul>
+
+<ul id="index-monsters-U" title="U Monsters">
+<li><a href="unicorn.html#_unicorn">Unicorn</a></li>
+</ul>
+
+<ul id="index-monsters-V" title="V Monsters">
+<li><a href="vampire.html#_vampire">Vampire</a></li>
+<li><a href="vargouille.html#_vargouille">Vargouille</a></li>
+<li><a href="vegepygmy.html#_vegepygmy">Vegepygmy</a></li>
+<li><a href="violetFungus.html#_violet-fungus">Violet Fungus</a></li>
+</ul>
+
+<ul id="index-monsters-W" title="W Monsters">
+<li><a href="wasp.html">Wasp</a></li>
+<li>&nbsp;&nbsp;<a href="wasp.html#_wasp-swarm">Wasp Swarm</a></li>
+<li>&nbsp;&nbsp;<a href="wasp.html#_wasp-giant">Wasp, Giant</a></li>
+<li><a href="wight.html#_wight">Wight</a></li>
+<li><a href="willOWisp.html#_will-o-wisp">Will-o'-Wisp</a></li>
+<li><a href="wolf.html#_wolf">Wolf</a></li>
+<li><a href="wolf.html#_wolf-dire">Wolf, Dire</a></li>
+<li><a href="wolverine.html#_wolverine">Wolverine</a></li>
+<li>&nbsp;&nbsp;<a href="wolverine.html#_wolverine-dire">Wolverine, Dire</a></li>
+<li><a href="worg.html#_worg">Worg</a></li>
+<li>&nbsp;&nbsp;<a href="worg.html#_worg-winter-wolf">Worg, Winter Wolf</a></li>
+<li><a href="wraith.html#_wraith">Wraith</a></li>
+<li><a href="wyvern.html#_wyvern">Wyvern</a></li>
+</ul>
+
+<ul id="index-monsters-X" title="X Monsters">
+<li><a href="xill.html#_xill">Xill</a></li>
+<li><a href="xorn.html#_xorn">Xorn</a></li>
+</ul>
+
+<ul id="index-monsters-Y" title="Y Monsters">
+<li><a href="yellowMuskCreeper.html#_yellow-musk-creeper">Yellow Musk Creeper</a></li>
+<li><a href="yethHound.html#_yeth-hound">Yeth Hound</a></li>
+<li><a href="yeti.html#_yeti">Yeti</a></li>
+</ul>
+
+<ul id="index-monsters-Z" title="Z Monsters">
+<li><a href="zombie.html#_zombie">Zombie</a></li>
+</ul></div>
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

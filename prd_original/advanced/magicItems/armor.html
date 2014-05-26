@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Armor</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Armor",globalNavPath=[{ href: '/pathfinderRPG/prd/advanced/advancedMagicItems.html', name: 'Advanced Magic Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="armor" class="monster-header">Armor</h1>
+				<p>The following armor and shield properties add to those presented in the <i>Pathfinder RPG Core Rulebook</i>.</p>
+				<h1 id="magic-armor-and-shield-ability-descriptions">Magic Armor and Shield Ability Descriptions</h1>
+                <table id="table-7-1:-armor-special-abilities"><caption>Table:  Armor Special Abilities</caption>
+<thead><tr><th>Minor</th><th>Medium</th><th>Major</th><th>Special Ability</th><th>Base Price Modifier</th></tr></thead>
+<tr class="odd"><td>01&ndash;40</td><td>01&ndash;35</td><td>01&ndash;19</td><td><i><a href="#champion" >Champion</a></i> </td><td>+1 bonus<sup>1</sup></td></tr>
+<tr class="even"><td>41&ndash;80</td><td>36&ndash;66</td><td>20&ndash;37</td><td><i><a href="#dastard" >Dastard</a></i> </td><td>+1 bonus<sup>1</sup></td></tr>
+<tr class="odd"><td>81&ndash;99</td><td>67&ndash;70</td><td>38&ndash;39</td><td><i><a href="#jousting" >Jousting</a></i> </td><td>+3,750 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>71&ndash;83</td><td>40&ndash;61</td><td><i><a href="#righteous" >Righteous</a></i> </td><td>+27,000 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>84&ndash;96</td><td>62&ndash;80</td><td><i><a href="#unrighteous" >Unrighteous</a></i> </td><td>+27,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>97&ndash;99</td><td>81&ndash;90</td><td><a href="#determination" >Determination</a> </td><td>+30,000 gp</td></tr>
+<tr class="odd"><td>100</td><td>100</td><td>91&ndash;100</td><td>Roll again twice2 </td><td>&mdash;</td></tr></table>
+				<p>A shield or suit of armor with a special ability must have at least a +1 enhancement bonus.</p>
+				<p id="champion"><b>Champion</b>: This armor property only works for good creatures with the challenge ability (such as cavaliers) or the smite evil ability (such as paladins, half-celestials, and creatures with the celestial creature template). When worn by such a creature that uses a challenge or smite ability, the wearer gains a +2 sacred bonus to AC against attacks from the chosen opponent. </p>
+				<p>Faint abjuration; CL 5th; <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil" >protection from evil</a></i> or <i><a href="/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good" >protection from good</a></i>; Price +1 bonus.</p>
+				<p id="dastard"><b>Dastard</b>: This armor property only works for evil creatures with the challenge ability (such as cavaliers) or the smite good ability (such as antipaladins, half-fiends, and creatures with the fiendish creature template). When worn by such a creature that uses a challenge or smite ability, the wearer gains a +2 profane bonus to AC against attacks from the chosen opponent. </p>
+				<p>Faint abjuration; CL 5th; <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil" >protection from evil</a></i> or <i><a href="/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good" >protection from good</a></i>; Price +1 bonus.</p>
+				<p id="determination"><b>Determination</b>: A shield or armor with this property provides the ability to fight on against seemingly impossible odds. Once per day, when the owner reaches 0 or fewer hit points, the item automatically provides a <i><a href="/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life" >breath of life</a></i> spell.</p>
+				<p>Moderate conjuration; CL 10th; <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life" >breath of life</a></i>; Price +30,000 gp.</p>
+				<p id="jousting"><b>Jousting</b>: This suit of armor helps its wearer remain mounted and in control of his mount. The wearer gains a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> skill checks.</p>
+				<p>Faint transmutation; CL 5th; <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, creator must have 5 ranks in the <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> skill; Price +3,750 gp.</p>
+				<p id="righteous"><b>Righteous</b>: Armor with this property is often engraved or enameled with religious symbols. On command once per day, the wearer can invoke an effect, as per the spell <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>, lasting for 10 rounds. Righteous armor is always aligned toward good (positive energy), for the effects of <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>. <i><a href="#righteous" >Righteous</a></i> armor bestows one permanent negative level on any evil creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration" >restoration</a></i> spells) while the armor is worn.</p>
+				<p>Moderate transmutation; CL 10th; <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>; Cost +27,000 gp.</p>
+				<p id="unrighteous"><b>Unrighteous</b>: This armor is often sculpted with unholy symbols. On command once per day, the wearer can invoke an effect, as per the spell <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>, lasting for 10 rounds. <i><a href="#unrighteous" >Unrighteous</a></i> armor is always aligned toward evil (negative energy), for the effects of <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>. Unrighteous armor bestows one permanent negative level on any good creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration" >restoration</a></i> spells) while the armor is worn.</p>
+				<p>Moderate transmutation; CL 10th; <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>; Cost +27,000 gp.</p>
+				<h1 id="specific-armors">Specific Armors</h1><table id="table-7-2:-specific-armors"><caption>Table:  Specific Armors</caption>
+<thead><tr><th>Medium</th><th>Major</th><th>Specific Armor</th><th>Market Price</th></tr></thead>
+<tr class="even"><td>01&ndash;20</td><td>01&ndash;02</td><td><i><a href="#mistmail-" >Mistmail</a></i></td><td>2,250 gp</td>
+<tr class="odd"><td>21&ndash;35</td><td>03&ndash;05</td><td><i><a href="#soothsayer's-raiment" >Soothsayer's raiment</a></i></td><td>10,300 gp</td>
+<tr class="even"><td>36&ndash;50</td><td>06</td><td><i><a href="#boneless-leather-" >Boneless leather</a></i></td><td>12,160 gp</td>
+<tr class="odd"><td>51&ndash;65</td><td>07</td><td><i><a href="#murderer's-blackcloth-" >Murderer's blackcloth</a></i></td><td>12,405 gp</td>
+<tr class="even"><td>66&ndash;90</td><td>08&ndash;12</td><td><i><a href="#folding-plate" >Folding plate</a></i></td><td>12,650 gp</td>
+<tr class="odd"><td>91&ndash;100</td><td>13&ndash;27</td><td><i><a href="#armor-of-insults-" >Armor of insults</a></i></td><td>16,175 gp</td>
+<tr class="even"><td>&mdash;</td><td>28&ndash;42</td><td><i><a href="#buccaneer's-breastplate-" >Buccaneer's breastplate</a></i></td><td>23,850 gp</td>
+<tr class="odd"><td>&mdash;</td><td>43&ndash;49</td><td><i><a href="#forsaken-banded-mail-" >Forsaken banded mail</a></i></td><td>25,400 gp</td>
+<tr class="even"><td>&mdash;</td><td>50&ndash;61</td><td><i><a href="#giant-hide-armor-" >Giant-hide armor</a> (ogre)</i></td><td>39,165 gp</td>
+<tr class="odd"><td>&mdash;</td><td>62&ndash;71</td><td><i><a href="#giant-hide-armor-" >Giant-hide armor</a> (hill giant)</i></td><td>46,665 gp</td>
+<tr class="even"><td>&mdash;</td><td>72&ndash;81</td><td><i><a href="#giant-hide-armor-" >Giant-hide armor</a> (stone giant)</i></td><td>54,165 gp</td>
+<tr class="odd"><td>&mdash;</td><td>82&ndash;86</td><td><i><a href="#giant-hide-armor-" >Giant-hide armor</a> (fire giant)</i></td><td>54,165 gp</td>
+<tr class="even"><td>&mdash;</td><td>87&ndash;91</td><td><i><a href="#giant-hide-armor-" >Giant-hide armor</a> (frost giant)</i></td><td>54,165 gp</td>
+<tr class="odd"><td>&mdash;</td><td>92&ndash;96</td><td><i><a href="#giant-hide-armor-" >Giant-hide armor</a> (troll)</i></td><td>59,165 gp</td>
+<tr class="even"><td>&mdash;</td><td>97</td><td><i><a href="#giant-hide-armor-" >Giant-hide armor</a> (cloud giant)</i></td><td>69,165 gp</td>
+<tr class="odd"><td>&mdash;</td><td>98</td><td><i><a href="#giant-hide-armor-" >Giant-hide armor</a> (storm giant)</i></td><td>76,665 gp</td>
+<tr class="even"><td>&mdash;</td><td>99&ndash;100</td><td><i><a href="#daystar-half-plate-" >Daystar half-plate</a></i></td><td>81,250 gp</td></table>
+
+				<p id="armor-of-insults-" class="stat-block-title"><b>Armor Of Insults </b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate enchantment; <b>CL</b> 7th</p>
+				<p class="stat-block-1"><b>Slot</b> armor; <b>Price</b> 16,175 gp; <b>Weight</b> 20 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Each metal bit of this suit of <i>+1 studded leather</i> looks more like a tiny sneering face than a simple stud. Once per day the wearer of the armor may command the mouths to unleash a torrent of verbal abuse directed against every hostile creature within 60 feet who can see and hear the wearer. Each such creature must make a DC 16 Will saving throw to avoid suffering an overwhelming compulsion to attack the wearer for the next 7 rounds. If the creature is unable to attack the wearer on its next turn, or attacking the wearer would put the creature at risk (moving through a threatened square, charging into a pit, and so on) it can act normally that turn. This is a mind-affecting sonic effect, and has no effect on creatures that do not use a spoken language. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/confusion.html#_confusion" >confusion</a></i>; <b>Cost</b> 7,675 gp </p>
+				<p id="boneless-leather-" class="stat-block-title"><b>Boneless Leather </b></p>
+				<p class="stat-block-1"><b>Aura</b> faint transmutation; <b>CL</b> 3rd</p>
+				<p class="stat-block-1"><b>Slot</b> armor; <b>Price</b> 12,160 gp; <b>Weight</b> 15 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This suit of <i>+1 leather</i> gives its wearer the ability to twist and contort his body in virtually any direction. He gains a +5 bonus on <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> checks, a +5 bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks to reduce damage from falls, a +5 bonus to CMD, and DR 5/piercing or slashing.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i>, creator must have 5 ranks in the <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> and <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> skills; <b>Cost</b> 6,160 gp</p>
+				<p id="buccaneer's-breastplate-" class="stat-block-title"><b>Buccaneer's Breastplate </b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 9th</p>
+				<p class="stat-block-1"><b>Slot</b> armor; <b>Price</b> 23,850 gp; <b>Weight</b> 30 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This <i>+1 breastplate</i> is made of bluish metal and decorated with wave motifs. It allows the wearer to continually utilize the effects of the spell <i><a href="/pathfinderRPG/prd/spells/waterWalk.html#_water-walk" >water walk</a></i>. If a creature puts on the armor while underwater, the wearer is borne toward the surface at a rate of 60 feet per round.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/waterWalk.html#_water-walk" >water walk</a></i>; <b>Cost</b> 12,100 gp </p>
+				<p id="daystar-half-plate-" class="stat-block-title"><b>Daystar Half-Plate </b></p>
+				<p class="stat-block-1"><b>Aura</b> strong evocation; <b>CL</b> 15th</p>
+				<p class="stat-block-1"><b>Slot</b> armor; <b>Price</b> 81,250 gp; <b>Weight</b> 50 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The silvery sheen of this <i>+1 half-plate</i> causes it to sparkle in even the faintest light. At will, the wearer can command it to shine with a <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i> spell for 10 minutes. Once per day, the wearer can command it to shine as per the <i><a href="/pathfinderRPG/prd/spells/sunburst.html#_sunburst" >sunburst</a></i> spell.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i>, <i><a href="/pathfinderRPG/prd/spells/sunburst.html#_sunburst" >sunburst</a></i>; <b>Cost</b> 41,000 gp</p>
+				<p id="folding-plate" class="stat-block-title"><b>Folding Plate</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate conjuration (summoning); <b>CL</b> 10th</p>
+				<p class="stat-block-1"><b>Slot</b> neck (brooch) or armor (unfolded); <b>Price</b> 12,650 gp; <b>Weight</b> &mdash; (brooch), 50 lbs. (armor)</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This item normally looks like a heavy steel brooch or cloak clasp, often depicting a heavy helm or sturdy shield. On command, the brooch transforms in a clatter of metallic plates and panels to instantly cover the wearer in a complete suit of <i>+1 full plate</i>, with the design of the brooch displayed on the armor's breastplate. The same command word causes the armor to transform into the brooch. The brooch only transforms if the wearer's armor slot is unoccupied, thus it won't work if the wearer is already armored.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/instantSummons.html#_instant-summons" >instant summons</a></i>; <b>Cost</b> 7,650 gp</p>
+				<p id="forsaken-banded-mail-" class="stat-block-title"><b>Forsaken Banded Mail </b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate evocation; <b>CL</b> 11th</p>
+				<p class="stat-block-1"><b>Slot</b> armor; <b>Price</b> 25,400 gp; <b>Weight</b> 35 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Every inch of this suit of <i>+1 banded mail</i> bears a defaced holy symbol or a design equally offensive to one or more gods and their servants. The wearer of the armor cannot cast divine spells or use any spell-like supernatural ability gained from a connection to a deity. The wearer gains SR 19 against any divine-origin spell, spell-like ability, or supernatural ability (such as a domain granted power or ability from an outsider serving a deity), and treats the armor's enhancement bonus as +2 higher against creatures with these abilities.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, creator cannot be a divine spellcaster; <b>Cost</b> 12,900 gp </p>
+				<p id="giant-hide-armor-" class="stat-block-title"><b>Giant-Hide Armor </b></p>
+				<p class="stat-block-1"><b>Aura</b> strong transmutation; <b>CL</b> 15th</p>
+				<p class="stat-block-1"><b>Slot</b> armor; <b>Price</b> 39,165 gp (ogre), 46,665 gp (hill giant), 59,165 gp (troll), 54,165 gp (stone, fire, or frost giant), 69,165 gp (cloud giant), 76,665 gp (storm giant); <b>Weight</b> 25 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This drooping, many-folded suit of <i>+3 hide armor</i> is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using <i><a href="/pathfinderRPG/prd/spells/giantForm.html#_giant-form-i" >giant form I</a></i> (ogre, troll, hill giant, stone giant, fire giant, or frost giant) or <i><a href="/pathfinderRPG/prd/spells/giantForm.html#_giant-form-ii" >giant form II</a></i> (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands. Most good folk consider wearing the skins of intelligent creatures to be abhorrent. Giants gain a +2 morale bonus on attack and damage rolls against the wearer, or +4 if the wearer's armor is made from the same kind of giant as the attacker.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/giantForm.html#_giant-form-i" >giant form I</a></i> (ogre, troll, hill giant, stone giant, fire giant, or frost giant) or <i><a href="/pathfinderRPG/prd/spells/giantForm.html#_giant-form-ii" >giant form II</a></i> (cloud giant or storm giant); <b>Cost</b> 19,660 gp (ogre), 23,415 gp (hill giant), 29,665 gp (troll), 27,165 gp (stone, fire, or frost giant), 34,665 gp (cloud giant), 38,415 gp (storm giant)</p>
+				<p id="mistmail-" class="stat-block-title"><b>Mistmail </b></p>
+				<p class="stat-block-1"><b>Aura</b> faint conjuration; <b>CL</b> 3rd</p>
+				<p class="stat-block-1"><b>Slot</b> armor; <b>Price</b> 2,250 gp; <b>Weight</b> 25 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The fine links of this <i>+1 chain shirt</i> form a pattern of roiling clouds. On command once per day, the wearer can transform it into thick fog that fills his space and provides concealment (20% miss chance). This mist moves with the character. Effects that disperse the mist or destroy it cause the armor to reform into its solid shape on the character's body, as does speaking the command word or entering a place where the fog-magic doesn't function (such as underwater). If the character tries to don another suit of armor while the <i>mistmail </i>is in fog form, it reforms at the character's feet.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i>; <b>Cost</b> 1,250 gp </p>
+				<p id="murderer's-blackcloth-" class="stat-block-title"><b>Murderer's Blackcloth </b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate necromancy; <b>CL</b> 9th</p>
+				<p class="stat-block-1"><b>Slot</b> armor; <b>Price</b> 12,405 gp; <b>Weight</b> 10 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This silk <i>+1 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow" >shadow</a> padded armor</i> is as dark as night and stitched with thread the color of dried blood. When worn by a rogue with the bleed talent, it increases the bleed damage of the rogue's sneak attacks by +1.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/bleed.html#_bleed" >bleed</a></i>, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, <i><a href="/pathfinderRPG/prd/spells/silence.html#_silence" >silence</a></i>; <b>Cost</b> 6,280 gp</p>
+				<p id="soothsayer's-raiment" class="stat-block-title"><b>Soothsayer's Raiment</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint divination; <b>CL</b> 5th</p>
+				<p class="stat-block-1"><b>Slot</b> armor; <b>Price</b> 10,300 gp; <b>Weight</b> 40 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This <i>+1 chainmail</i> is attuned to a particular oracular mystery and contains a revelation associated with that mystery (see the oracle class description). While wearing the armor, an oracle has access to that revelation and may use it as if she had it as a normal class feature. The oracle must have the appropriate mystery to use the armor; for example, a <i>soothsayer's raiment (battlecry)</i> is only usable by an oracle of battle. If the wearer already has that revelation and the revelation gives an ability with a limited number of uses per day, the oracle can use that ability one additional time per day. This ability has no effect if worn by a non-oracle.</p>
+				<p>For divination spells with a percentage-based chance of success (such as <i><a href="/pathfinderRPG/prd/spells/augury.html#_augury" >augury</a></i> and <i><a href="/pathfinderRPG/prd/spells/divination.html#_divination" >divination</a></i>), the wearer's chance increases by +5.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/augury.html#_augury" >augury</a></i>, creator must be an oracle with the desired revelation; <b>Cost</b> 5,300 gp</p>
+				<h1 id="specific-shields">Specific Shields</h1><table id="table-7-3:-specific-shields"><caption>Table:  Specific Shields</caption>
+<thead><tr><th>Major</th><th>Specific Shield</th><th>Market Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;50</td><td><i><a href="#battlement-shield-">Battlement shield</a></i></td><td>16,180 gp</td></tr>
+<tr class="even"><td>51&ndash;100</td><td><i><a href="#fortress-shield-">Fortress shield</a></i></td><td>19,180 gp</td></tr></table>
+
+				<p id="battlement-shield-" class="stat-block-title"><b>Battlement Shield </b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate conjuration; <b>CL</b> 9th</p>
+				<p class="stat-block-1"><b>Slot</b> shield; <b>Price</b> 16,180 gp; <b>Weight</b> 45 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Once per day on command, this <i>+2 tower <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i> can transform into a solid, 10-foot by 10-foot by 1-foot wall of masonry with a battlement on top and an arrow slit in each 5-foot length. The wall acts as cover just like any physical wall. The wielder can touch the wall with one hand and command it to revert to a tower shield either resting on the ground and balanced against his hand or strapped to his arm in the normal fashion. The wall has all the characteristics of any other foot-thick wall of masonry (hardness 8, 90 hit points, break DC of 35). Attacks sufficient to destroy the wall cause it to immediately transform back into a shield, which loses half its hit points and gains the broken condition. The shield remains in wall form until destroyed or commanded to return to shield form. The wall cannot appear in a space too small to accommodate it. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i>; <b>Cost</b> 8,180 gp </p>
+				<p id="fortress-shield-" class="stat-block-title"><b>Fortress Shield </b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate conjuration; <b>CL</b> 11th </p>
+				<p class="stat-block-1"><b>Slot</b> shield; <b>Price</b> 19,180 gp; <b>Weight</b> 45 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The wearer of this <i>+1 tower <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i> may, as a full-round action, transform the shield into a 1-inch thick cube of iron that springs into being around him, completely enclosing his space. The cube has hardness 10 and 30 hit points per side. This cube grants the wearer total cover against everything outside the cube, including (as it is perfectly sealed) swarms and gas attacks. The inside of the cube is dark, and air cannot get in or out so the wearer must hold his breath starting on the third round after activating the cube. Attacks sufficient to destroy one side of the cube cause it to immediately transform back into a shield, which loses half its hit points and gains the broken condition. Otherwise, the cube reverts to shield form upon command, if the wearer moves from his current space, or the wearer falls unconscious or dies.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/wallOfIron.html#_wall-of-iron" >wall of iron</a></i>; <b>Cost</b> 9,680 gp </p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

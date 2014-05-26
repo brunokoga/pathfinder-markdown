@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Belts Slot</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Belts Slot",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html', name: 'Wondrous Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="belt-slot-wondrous-items">Belt Slot Wondrous Items</h1>
+<p>The belt category includes belts, scabbards and other items worn on or around the waist.</p>
+<p>Anyone can use a belt slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.</p>
+
+<table id="belt-slot-wondrous-items-table"><caption>Belt Slot Wondrous Items</caption>
+<thead><tr><th>d%</th><th>Lesser Minor Belt Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;16</td><td><i>Belt of tumbling</td><td></i>800 gp</td></tr>
+<tr class="even"><td>17&ndash;28</td><td><i>Beneficial bandolier</td><td></i>1,000 gp</td></tr>
+<tr class="odd"><td>29&ndash;40</td><td><i>Meridian belt</td><td></i>1,000 gp</td></tr>
+<tr class="even"><td>41&ndash;54</td><td><i>Bladed belt</td><td></i>2,000 gp</td></tr>
+<tr class="odd"><td>55&ndash;70</td><td><i>Heavyload belt</td><td></i>2,000 gp</td></tr>
+<tr class="even"><td>71&ndash;84</td><td><i>Aquatic cummerbund</td><td></i>2,600 gp</td></tr>
+<tr class="odd"><td>85&ndash;100</td><td><i>Equestrian belt</td><td></i>3,200 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Minor Belt Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;18</td><td><i>Belt of giant strength +2</td><td></i>4,000 gp</td></tr>
+<tr class="even"><td>19&ndash;36</td><td><i>Belt of incredible dexterity +2 </td><td></i>4,000 gp</td></tr>
+<tr class="odd"><td>37&ndash;54</td><td><i>Belt of mighty constitution +2</td><td></i>4,000 gp</td></tr>
+<tr class="even"><td>55&ndash;62</td><td><i>Belt of teeth </td><td></i>4,000 gp</td></tr>
+<tr class="odd"><td>63&ndash;74</td><td><i>Blinkback belt</td><td></i>5,000 gp</td></tr>
+<tr class="even"><td>75&ndash;84</td><td><i>Plague rat belt</td><td></i>5,200 gp</td></tr>
+<tr class="odd"><td>85&ndash;100</td><td><i>Belt of foraging</td><td></i>6,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Medium Belt Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;04</td><td><i>Serpent belt</i></td><td>9,000 gp</td></tr>
+<tr class="even"><td>05&ndash;08</td><td><i>Monkey belt</td><td></i>9,400 gp</td></tr>
+<tr class="odd"><td>09&ndash;16</td><td><i>Belt of physical might +2</td><td></i>10,000 gp</td></tr>
+<tr class="even"><td>17&ndash;22</td><td><i>Belt of the weasel</td><td></i>10,000 gp</td></tr>
+<tr class="odd"><td>23&ndash;27</td><td><i>Belt of thunderous charging</td><td></i>10,000 gp</td></tr>
+<tr class="even"><td>28&ndash;32</td><td><i>Minotaur belt</td><td></i>11,000 gp</td></tr>
+<tr class="odd"><td>33&ndash;36</td><td><i>Plague rat belt, greater</td><td></i>11,200 gp</td></tr>
+<tr class="even"><td>37&ndash;41</td><td><i>Belt of equilibrium</td><td></i>12,000 gp</td></tr>
+<tr class="odd"><td>42&ndash;46</td><td><i>Security belt</td><td></i>12,500 gp</td></tr>
+<tr class="even"><td>47&ndash;51</td><td><i>Belt of mighty hurling, lesser</td><td></i>14,000 gp</td></tr>
+<tr class="odd"><td>52&ndash;57</td><td><i>Belt of dwarvenkind</td><td></i>14,900 gp</td></tr>
+<tr class="even"><td>58&ndash;61</td><td><i>Cord of stubborn resolve</td><td></i>15,000 gp</td></tr>
+<tr class="odd"><td>62&ndash;71</td><td><i>Belt of giant strength +4</td><td></i>16,000 gp</td></tr>
+<tr class="even"><td>72&ndash;80</td><td><i>Belt of physical perfection +2</td><td></i>16,000 gp</td></tr>
+<tr class="odd"><td>81&ndash;90</td><td><i>Belt of incredible dexterity +4</td><td></i>16,000 gp</td></tr>
+<tr class="even"><td>91&ndash;100</td><td><i>Belt of mighty constitution +4</td><td></i>16,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Medium Belt Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>>01&ndash;12</td><td><i>Monkey belt, greater</td><td></i>18,000 gp</td></tr>
+<tr class="even"><td>13&ndash;26</td><td><i>Anaconda's coils</td><td></i>18,500 gp</td></tr>
+<tr class="odd"><td>27&ndash;38</td><td><i>Serpent belt, greater</td><td></i>20,000 gp</td></tr>
+<tr class="even"><td>39&ndash;53</td><td><i>Belt of fallen heroes</td><td></i>21,000 gp</td></tr>
+<tr class="odd"><td>54&ndash;67</td><td><i>Gorgon belt</td><td></i>23,000 gp</td></tr>
+<tr class="even"><td>68&ndash;84</td><td><i>Elemental earth belt</td><td></i>24,000 gp</td></tr>
+<tr class="odd"><td>85&ndash;100</td><td><i>Sash of flowing water</td><td></i>25,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Major Belt Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;12</td><td><i>Merform belt</td><td></i>32,000 gp</td></tr>
+<tr class="even"><td>13&ndash;30</td><td><i>Belt of giant strength +6</td><td></i>36,000 gp</td></tr>
+<tr class="odd"><td>31&ndash;48</td><td><i>Belt of incredible dexterity +6</td><td></i>36,000 gp</td></tr>
+<tr class="even"><td>49&ndash;66</td><td><i>Belt of mighty constitution +6</td><td></i>36,000 gp</td></tr>
+<tr class="odd"><td>67&ndash;88</td><td><i>Belt of physical might +4</td><td></i>40,000 gp</td></tr>
+<tr class="even"><td>89&ndash;100</td><td><i>Belt of mighty hurling, greater</td><td></i>42,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Major Belt Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;25</td><td><i>Belt of stoneskin</td><td></i>60,000 gp</td></tr>
+<tr class="even"><td>26&ndash;55</td><td><i>Belt of physical perfection +4</td><td></i>64,000 gp</td></tr>
+<tr class="odd"><td>56&ndash;75</td><td><i>Belt of physical might +6</td><td></i>90,000 gp</td></tr>
+<tr class="even"><td>76&ndash;90</td><td><i>Shadowform belt</td><td></i>110,000 gp</td></tr>
+<tr class="odd"><td>91&ndash;100</td><td><i>Belt of physical perfection +6</td><td></i>144,000 gp</td></tr></table>
+
+<p id="anaconda's-coils" class="stat-block-title">Anaconda's Coils </p>
+<p class="stat-block-1"><b>Price</b> 18,500 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This snakeskin belt's buckle is shaped like a serpent's head. The wearer gains a +2 enhancement bonus to Strength and a +2 competence bonus on grapple combat maneuver checks. Treat the enhancement bonus to Strength as temporary ability bonus for the first 24 hours the belt is worn. In addition, the belt grants the wearer the constrict ability  for 1d6 points of damage plus the wearer's Strength modifier.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 9,250 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-i" >beast shape I</a>, <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i></p>
+				
+<p id="aquatic-cummerbund" class="stat-block-title">Aquatic Cummerbund</p>
+<p class="stat-block-1"><b>Price</b> 2,600 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Long believed to have been gnome in origin, this stately cummerbund features a number of dancing dolphins embroidered on its deep blue material. The cummerbund grants its wearer a +4 competence bonus on <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> checks, and allows her to take 10 on such checks even if distracted or endangered.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,300 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/advanced/spells/touchOfTheSea.html#_touch-of-the-sea" >touch of the sea</a></i></p>
+				
+<p id="belt-of-dwarvenkind" class="stat-block-title">Belt of Dwarvenkind</p>
+<p class="stat-block-1"><b>Price</b> 14,900 gp; <b>Aura</b> strong divination; <b>CL</b> 12th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This belt gives the wearer a +4 competence bonus on Charisma checks and Charisma-based skill checks as they relate to dealing with dwarves, a +2 competence bonus on similar checks when dealing with gnomes and halflings, and a &ndash;2 competence penalty on similar checks when dealing with anyone else. The wearer can understand, speak, and read Dwarven. If the wearer is not a dwarf, he gains 60-foot darkvision, dwarven stonecunning, a +2 enhancement bonus to Constitution, and a +2 resistance bonus on saves against poison, spells, and spell-like effects.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 7,450 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a></i>, creator must be a dwarf</p>
+				
+<p id="belt-of-equilibrium" class="stat-block-title">Belt of Equilibrium</p>
+<p class="stat-block-1"><b>Price</b> 12,000 gp; <b>Aura</b> faint conjuration; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">As long as this belt's wearer doesn't move more than 5 feet during her turn, she ignores the penalties for being fatigued, shaken, or sickened until the end of her next turn or until she moves more than 5 feet, whichever occurs first. While she does not take any of the penalties of those conditions, she is considered to be under the effect of those conditions until they end or are removed.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 6,000 gp</p>
+<p class="stat-block">Craft Wondrous Item,<i> <a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>, <i><a href="/pathfinderRPG/prd/spells/removeFear.html#_remove-fear" >remove fear</a></i></p>
+				
+<p id="belt-of-fallen-heroes" class="stat-block-title">Belt of Fallen Heroes</p>
+<p class="stat-block-1"><b>Price</b> 21,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 6th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This large brass belt has three panels depicting scenes of battle. Once per day on command, the wearer can summon the spirit of a hero of one of the depicted battles. This spirit acts as an <i><a href="/pathfinderRPG/prd/spells/unseenServant.html#_unseen-servant" >unseen servant</a></i>, though unlike the force created by that spell, the summoned hero is not entirely mindless<i>.</i> While the summoned hero is active, it attempts to guide its wearer to victory via telepathic warning and advice, granting its user a +1 insight bonus on all saving throws.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 10,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a>, <a href="/pathfinderRPG/prd/spells/unseenServant.html#_unseen-servant" >unseen servant</a></i></p>
+				
+<p id="belt-of-foraging" class="stat-block-title">Belt of Foraging</p>
+<p class="stat-block-1"><b>Price</b> 6,000 gp; <b>Aura</b> faint divination; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This belt allows its wearer to easily forage while in the wilderness. As long as the wearer of this belt has at least 1 rank in <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a>, she need not make a check to get along in the wild; she always succeeds at that <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> check as long as she moves at half her overland speed. She can still choose to make that check to provide food and water for one other creature for every 2 points by which her result exceeds DC 10. Furthermore, she can instead make a DC 20 <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> check to get along in the wild while moving at full speed instead of half speed. While doing so, she can provide food and water for one other creature for every 2 points by which his check result exceeds 20.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i>detect animals and plants</i>, creator must have 1 rank in <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a></p>
+				
+<p id="belt-of-giant-strength" class="stat-block-title">Belt of Giant Strength</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-1"><b>+2 Strength</b> 4,000 gp; <b>+4 Strength</b> 16,000 gp; <b>+6 Strength</b> 36,000 gp</p>
+<p class="stat-block">This belt is a thick leather affair, often decorated with huge metal buckles. The belt grants the wearer an enhancement bonus to Strength of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> varies</p>
+<p class="stat-block-1"><b>+2 Strength</b> 2,000 gp; <b>+4 Strength</b> 8,000 gp; <b>+6 Strength</b> 18,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i></p>
+
+<p id="belt-of-incredible-dexterity" class="stat-block-title">Belt of Incredible Dexterity</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-1"><b>+2 Dexterity</b> 4,000 gp; <b>+4 Dexterity</b> 16,000 gp; <b>+6 Dexterity</b> 36,000 gp</p>
+<p class="stat-block">This belt has a large silver buckle, usually depicting the image of a tiger. The belt grants the wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> varies</p>
+<p class="stat-block-1"><b>+2 Dexterity</b> 2,000 gp; <b>+4 Dexterity</b> 8,000 gp; <b>+6 Dexterity</b> 18,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i></p>
+				
+<p id="belt-of-mighty-constitution" class="stat-block-title">Belt of Mighty Constitution</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-1"><b>+2 Constitution</b> 4,000 gp; <b>+4 Constitution</b> 16,000 gp; <b>+6 Constitution</b> 36,000 gp</p>
+<p class="stat-block">This belt's golden buckle depicts a bear's head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> varies</p>
+<p class="stat-block-1"><b>+2 Constitution</b> 2,000 gp; <b>+4 Constitution</b> 8,000 gp; <b>+6 Constitution</b> 18,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i></p>
+				
+<p id="Belt-of-Mighty-Hurling-Greater" class="stat-block-title">Belt of Mighty Hurling, Greater</p>
+<p class="stat-block-1"><b>Price</b> 42,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 12th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This item functions as the <i>lesser belt of mighty hurling</i>, except it grants a +4 enhancement bonus to Strength and any thrown weapons its wearer hurls are treated as though they had the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning" >returning</a></i> quality. This does not apply to improvised ranged weapons, splash weapons, or weapons the wearer lacks proficiency with. Treat the bonus to Strength as a temporary ability bonus for the first 24 hours the belt is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 21,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/ultimateCombat/spells/longshot.html#_longshot" >longshot</a></i>, <i><a href="/pathfinderRPG/prd/ultimateCombat/spells/returningWeapon.html#_returning-weapon" >returning weapon</a></i></p>
+				
+<p id="Belt-of-Mighty-Hurling-lesser" class="stat-block-title">Belt of Mighty Hurling, lesser</p>
+<p class="stat-block-1"><b>Price</b> 14,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This thick leather belt is buckled with a bright bronze clasp in the shape of a fist. When worn, it grants its wearer a +2 enhancement bonus to Strength and allows him to apply his Strength modifier as a bonus on attack rolls instead of his Dexterity modifier when making ranged attacks with thrown weapons. Also, the range increment of any weapon thrown by the wearer gains a +10-foot bonus. Treat this Strength bonus as a temporary ability bonus for the first 24 hours the belt is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 7,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/ultimateCombat/spells/longshot.html#_longshot" >longshot</a></i></p>
+
+<p id="belt-of-physical-might" class="stat-block-title">Belt of Physical Might</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> strong transmutation; <b>CL</b> 12th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-1"><b>+2 to two physical ability scores</b> 10,000 gp; <b>+4 to two physical ability scores</b> 40,000 gp; <b>+6 to two physical ability scores</b> 90,000 gp</p>
+<p class="stat-block">This belt grants the wearer an enhancement bonus to two physical ability scores (Strength, Dexterity, or Constitution) of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. These bonuses are chosen when the belt is created and cannot be changed.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> varies</p>
+<p class="stat-block-1"><b>+2 to two physical ability scores</b> 5,000 gp; <b>+4 to two physical ability scores</b> 20,000 gp; <b>+6 to two physical ability scores</b> 45,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, and/or <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i></p>
+
+<p id="belt-of-physical-perfection" class="stat-block-title">Belt of Physical Perfection</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> strong transmutation; <b>CL</b> 16th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-1"><b>+2 Strength, Dexterity, and Constitution</b> 16,000 gp; <b>+4 Strength, Dexterity, and Constitution</b> 64,000 gp; <b>+6 Strength, Dexterity, and Constitution</b> 144,000 gp</p>
+<p class="stat-block">This belt has a large platinum buckle and grants the wearer an enhancement bonus to all physical ability scores (Strength, Dexterity, and Constitution) of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> varies</p>
+<p class="stat-block-1"><b>+2 Strength, Dexterity, and Constitution</b> 8,000 gp; <b>+4 Strength, Dexterity, and Constitution</b> 32,000 gp; <b>+6 Strength, Dexterity, and Constitution</b> 77,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i></p>
+				
+<p id="belt-of-stoneskin" class="stat-block-title">Belt of Stoneskin</p>
+<p class="stat-block-1"><b>Price</b> 60,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 10th; <b>Weight</b> 10 lbs.</p>
+<p class="stat-block">Every 24 hours, this belt's wearer gains DR 10/adamantine until the belt absorbs 100 points of damage, at which point the belt becomes useless for the remainder of the 24-hour period. When first worn, or after each time this belt is taken off, it must worn for 24 consecutive hours in order for its magic to take effect again.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 30,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, creator must be an oread or a creature with the earth subtype</p>
+				
+<p id="belt-of-teeth" class="stat-block-title">Belt of Teeth</p>
+<p class="stat-block-1"><b>Price</b> 4,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 1st; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">The brass buckle on this stout leather belt is fashioned to resemble three demonic faces. Once each round, this belt's buckle can animate, lashing out at a creature that provokes an attack of opportunity within 5 feet. This attack uses its wearer's base attack bonus and Strength modifier, with a +4 competence bonus. It deals damage as a bite attack made by a creature of its wearer's size (1d6 for a Medium wearer; see Table 3&mdash;1: Natural Attacks by Size, <i>Bestiary</i> 302) plus the wearer's Strength modifier. This belt does not add to the normal number of attacks the wearer can make in a round; it offers another way in which to make attacks of opportunity.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/magicFang.html#_magic-fang" >magic fang</a></i></p>
+				
+<p id="belt-of-the-weasel" class="stat-block-title">Belt of the Weasel</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 4th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This surprisingly soft belt has an absurdly large buckle, made even more absurd by the fact that it's crafted in the shape of a smiling weasel's face. It grants its wearer a +2 enhancement bonus to Dexterity, and the ability to move at half normal speed while prone. Treat the enhancement bonus to Dexterity as a temporary ability bonus for the first 24 hours the belt is worn. The wearer does not take a penalty on melee attack rolls or to AC against melee attacks while prone. Additionally, the wearer gains the compression ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-i" >beast shape I</a></i></p>
+
+<p id="belt-of-thunderous-charging" class="stat-block-title">Belt of Thunderous Charging</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">An engraving of a charging rhinoceros decorates this thick leather belt. The belt grants its wearer a +2 enhancement bonus to Strength. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.</p>
+<p class="stat-block">The belt magnifies the wearer's momentum whenever she charges, granting her a +2 bonus on bull rush and overrun maneuvers. Furthermore, when the wearer makes a charge attack, her melee weapons and natural weapons deal damage as if they were one size category larger than they actually are. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/advanced/spells/leadBlades.html#_lead-blades-" >lead blades</a></i></p>
+				
+<p id="belt-of-tumbling" class="stat-block-title">Belt of Tumbling</p>
+<p class="stat-block-1"><b>Price</b> 800 gp; <b>Aura</b> faint transmutation; <b>CL</b> 1st; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This thin and flexible cotton cord is meant to be wrapped several times around wearer's waist. The belt's wearer gains a +4 competence bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks made to move through a threatened square or through an enemy's space.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 400 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i></p>
+				
+<p id="beneficial-bandolier" class="stat-block-title">Beneficial Bandolier</p>
+<p class="stat-block-1"><b>Price</b> 1,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 9th; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">This bandolier is made of finely tanned leather. It has slots for up to 200 rounds of ammunition. Pellets and black powder are kept in tiny individual pouches, and bullets in small loops. The bandolier alters itself as needed to accommodate both. There are also places on the <i>beneficial bandolier</i> for a gunsmith's kit and a powder horn. Regardless of what quantities of these items are placed within the <i>beneficial bandolier</i>, its weight does not change.</p>
+<p class="stat-block">As a swift action, the wearer can command a single round of ammunition from the <i>beneficial bandolier</i> to teleport into a firearm of the appropriate type that he is wielding.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/secretChest.html#_secret-chest" >secret chest</a></i></p>
+				
+<p id="bladed-belt" class="stat-block-title">Bladed Belt</p>
+<p class="stat-block-1"><b>Price</b> 2,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 1st; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">Rather than being made of one continuous line of material, this belt consists of many bits of tanned leather joined together by thick metal studs. On command, the belt's wearer can transform the belt into a single masterwork slashing and/or piercing melee weapon of her choice. As long as she is holding the weapon, she can also revert it back to belt form with a command. Furthermore, the belt can be enchanted like a piercing and slashing melee weapon, using the cost of the belt as the cost of the masterwork item. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i></p>
+				
+<p id="blinkback-belt" class="stat-block-title">Blinkback Belt</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 7th; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">A set of clips is attached to this segmented belt constructed of metallic links. Up to two one-handed melee weapons or up to four light melee weapons can be hung from the belt in straps or sheaths. When the wearer draws a weapon attached to this belt and throws it before the end of her next turn, the weapon teleports back to its strap or sheath immediately after the attack is resolved.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/teleportObject.html#_teleport-object" >teleport object</a></i></p>
+				
+<p id="cord-of-stubborn-resolve" class="stat-block-title">Cord of Stubborn Resolve</p>
+<p class="stat-block-1"><b>Price</b> 15,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">When fastened about the waist, this stout length of rope grants a +2 enhancement bonus to Constitution along with prodigious stamina. Treat the enhancement bonus to Constitution as a temporary ability bonus for the first 24 hours the belt is worn.</p>
+<p class="stat-block">Any effect which would cause the wearer to become fatigued deals an additional 1d6 points of nonlethal damage instead. Any effect that would cause exhaustion likewise causes 1d6 points of nonlethal damage, and leaves the wearer fatigued instead of exhausted.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 7,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i></p>
+				
+<p id="elemental-earth-belt" class="stat-block-title">Elemental Earth Belt</p>
+<p class="stat-block-1"><b>Price</b> 24,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 11th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">This belt is constructed of flat pieces of slate connected with strong leather straps. This belt grants its wearer a +4 enhancement bonus to Constitution, and the wearer is immune to effects that would push, pull, or forcefully move the wearer. This offers no protection from teleportation effects. Furthermore, once per day on command, the wearer can take the form of a Large earth elemental, and though subject to the <i><a href="/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-iii" >elemental body III</a></i> spell. </p>
+<p class="stat-block">Treat the enhancement bonus to Constitution as a temporary ability bonus for the first 24 hours the belt is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 12,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-iii" >elemental body III</a></i></p>
+				
+<p id="equestrian-belt" class="stat-block-title">Equestrian Belt</p>
+<p class="stat-block-1"><b>Price</b> 3,200 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This belt is worked with images of horses stampeding across a barren, windswept plain. The belt's wearer automatically succeeds at any check to guide with the knees, stay in the saddle, fight with a combat-trained mount, control a mount in battle, or make a fast mount or dismount, as long as the belt's wearer is wearing medium, light, or no armor. Furthermore, the belt grants a +4 competence bonus on all other <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> checks, including ones made while the wearer is in heavy armor. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,600 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i></p>
+				
+<p id="gorgon-belt" class="stat-block-title">Gorgon Belt</p>
+<p class="stat-block-1"><b>Price</b> 23,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 9th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This belt grants its wearer a +4 enhancement bonus to Strength, and the ability to ignore difficult terrain while charging or making an overrun, bull rush, or trample attempt. Furthermore, once per day on command, its wearer can spew a 60-foot cone of poisonous green gas as a breath weapon. Any creature caught in the area of the gas can attempt a DC 18 saving throw to resist its effect, but if the creature fails the saving throw, it is paralyzed for 1d4 rounds. At the end of its turn, a creature petrified by this breath weapon can attempt a new save to end the paralysis effect. Treat the enhancement bonus to Strength as a temporary ability bonus for the first 24 hours the belt is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 11,500 gp</p>
+<p class="stat-block">Craft Wondrous Items, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/advanced/spells/featherStep.html#_feather-step" >feather step</a></i>, <i><a href="/pathfinderRPG/prd/spells/poison.html#_poison" >poison</a></i></p>
+				
+<p id="heavyload-belt" class="stat-block-title">Heavyload Belt</p>
+<p class="stat-block-1"><b>Price</b> 2,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 1st; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">This wide leather is held together with two strands of oxen skin threaded through holes on each end. The belt's wearer is affected as though subject to a permanent <i><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >ant haul</a></i> spell. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >ant haul</a></i></p>
+				
+<p id="merform-belt" class="stat-block-title">Merform Belt</p>
+<p class="stat-block-1"><b>Price</b> 32,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">Once per day, the wearer of this belt can command it to transform her into the form of a merfolk. While in this form, the wearer can breathe water and transform her lower body into a merfolk fishtail. Her new form provides a +2 natural armor bonus and a swim speed of 30 feet, though while the wearer is in this form her land speed is reduced to 5 feet. The wearer can take this form for up to 12 hours, and can end the effect at any time with a command. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 16,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a>, <a href="/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing" >water breathing</a></i></p>
+				
+<p id="meridian-belt" class="stat-block-title">Meridian Belt</p>
+<p class="stat-block-1"><b>Price</b> 1,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 9th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This narrow cloth belt has a silver buckle in the shape of four rings. The belt allows a creature to wear a magic ring on each foot in addition to the ring on each hand, though only two rings function at any given time. As a swift action, the wearer can change which of his rings are active (both hands, both feet, left hand and right foot, and so on). For example, a creature could wear a <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-energy-resistance" >ring of energy resistance</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-swimming" >ring of swimming</a></i>, and <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-counterspells" >ring of counterspells</a></i>, switching between any two of them as a swift action each round as it desires.</p>
+<p class="stat-block">The belt does not change the type of action required to activate a ring (for example, activating a <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-invisibility" >ring of invisibility</a></i> is still a standard action), but allows the wearer to easily switch between the constant powers of several worn rings. While the belt is worn, wearing a ring on a foot counts toward the attunement process of certain rings (such as a <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-sustenance" >ring of sustenance</a></i>) even if the belt isn't used to make that ring active during that attunement period. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/polymorph.html#_polymorph" >polymorph</a></i></p>
+				
+<p id="minotaur-belt" class="stat-block-title">Minotaur Belt</p>
+<p class="stat-block-1"><b>Price</b> 11,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 4th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This belt grants its wearer a +2 enhancement bonus to Strength, and the ability to ignore difficult terrain while charging or making an overrun, bull rush, or trample attempt. Treat the enhancement bonus to Strength as a temporary ability bonus for the first 24 hours the belt is worn. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,500 gp</p>
+<p class="stat-block">Craft Wondrous Items, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/advanced/spells/featherStep.html#_feather-step" >feather step</a></i></p>
+				
+<p id="monkey-belt" class="stat-block-title">Monkey Belt</p>
+<p class="stat-block-1"><b>Price</b> 9,400 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This furry brown belt resembles the tail of a monkey. The belt grants the wearer a +2 enhancement bonus to Dexterity. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. The wearer does not lose his Dexterity bonus to AC while climbing, and does not take a &ndash;5 penalty on <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> checks when climbing at half his speed. As a swift action the wearer can command the belt to animate, transforming it into a prehensile tail under the wearer's control. The tail does not grant the wearer any additional attacks or actions per round, nor can it wield weapons, but it can make unarmed attacks and hold or manipulate objects about as well as the wearer's normal limbs (though any activity requiring fingers is beyond the tail's capabilities). The belt can function as a tail for 5 minutes per day. These minutes do not need to be consecutive.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,700 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-i" >beast shape I</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i></p>
+				
+<p id="Monkey-Belt-Greater" class="stat-block-title">Monkey Belt, Greater</p>
+<p class="stat-block-1"><b>Price</b> 18,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This belt functions as a <i>monkey belt</i>, except it grants the wearer a +2 enhancement bonus to Strength and Dexterity. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.</p>
+<p class="stat-block">When the wearer speaks the command word to transform the belt into a prehensile tail, a <i>greater monkey belt</i> also gives the wearer a +5 circumstance bonus on <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> checks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 9,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-i" >beast shape I</a></i>, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i></p>
+				
+<p id="plague-rat-belt" class="stat-block-title">Plague Rat Belt</p>
+<p class="stat-block-1"><b>Price</b> 5,200 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This belt grants its wearer a +2 enhancement bonus to Constitution. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. Also, as an immediate action three times per day, the wearer can call upon the belt to reroll a saving throw made to resist a disease or poison. The wearer must use the second roll, even if it is worse. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,600 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease" >remove disease</a></i></p>
+				
+<p id="Plague-Rat-Belt-Greater" class="stat-block-title">Plague Rat Belt, Greater</p>
+<p class="stat-block-1"><b>Price</b> 11,200 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This belt functions as a <i>plague rat belt</i>, except it grants the wearer a +2 enhancement bonus to Dexterity and Constitution. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,600 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease" >remove disease</a></i></p>
+				
+<p id="sash-of-flowing-water" class="stat-block-title">Sash of Flowing Water</p>
+<p class="stat-block-1"><b>Price</b> 25,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 10th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">If this belt's wearer has at least one hand free (holding nothing), he can attempt to deflect a successful melee attack with an immediate action. To do so, he rolls an unarmed strike against the opponent, including any applicable modifiers such as a favored enemy bonus or the penalty for <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>. If his attack roll is greater than the opponent's attack roll, the attack is negated without effect. The unarmed strike itself causes no damage and does not count as a successful attack against the opponent. The opponent does not need to be within the wearer's reach to use this ability. Whether the attack succeeds or not, the wearer takes a &ndash;4 penalty on attack rolls until the end of his next turn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 12,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a></p>
+				
+<p id="security-belt" class="stat-block-title">Security Belt</p>
+<p class="stat-block-1"><b>Price</b> 12,500 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">A <i>security belt </i>increases the DC of <a href="/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> checks made against the wearer and checks to locate items or weapons hidden on the wearer's person by 5. The wearer also gets a +5 bonus to CMD against the steal maneuver. Once per day on command, the wearer can touch a single item of up to 10 cubic feet and shrink it into a tiny cloth duplicate as the <i><a href="/pathfinderRPG/prd/spells/shrinkItem.html#_shrink-item" >shrink item</a> </i>spell. With a move action, the wearer can draw one of these items from one of the belt's pockets and return it to normal size<i>. </i>It is difficult to detect a <i>security belt </i>and any items in the pockets as magic. They are affected as though a constant <i><a href="/pathfinderRPG/prd/spells/magicAura.html#_magic-aura" >magic aura</a></i> spell were making them appear nonmagical.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 6,250 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/magicAura.html#_magic-aura" >magic aura</a></i>,<i> <a href="/pathfinderRPG/prd/spells/shrinkItem.html#_shrink-item" >shrink item</a></i></p>
+				
+<p id="serpent-belt" class="stat-block-title">Serpent Belt</p>
+<p class="stat-block-1"><b>Price</b> 9,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This belt's wearer gains a +4 bonus to all poisons and a +2 bonus on <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> checks. In addition, once per day on command, the belt can be animated as a venomous snake or constrictor snake that obeys the animator's spoken commands for up to an hour. If the animated snake is slain or moves 100 feet away from the animator, the snake reverts into belt form. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i>beast form I</i>,<i> <a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i>,<i> <a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-ii" >summon nature's ally II</a></i></p>
+				
+<p id="Serpent-Belt-Greater" class="stat-block-title">Serpent Belt, Greater</p>
+<p class="stat-block-1"><b>Price</b> 20,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This belt functions as a <i>serpent belt</i>, except it grants the wearer a +2 enhancement bonus to Strength and Dexterity. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. When the wearer animates the belt as a venomous or constrictor snake, she may speak a second command word to give the snake the advanced, celestial, entropic, fiendish, or resolute simple template. Adding a planar template changes the snake's alignment to that of the corresponding planes.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 10,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i>beast form I</i>, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ii" >summon monster II</a></i> or <i><a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-ii" >summon nature's ally II</a></i></p>
+				
+<p id="shadowform-belt" class="stat-block-title">Shadowform Belt</p>
+<p class="stat-block-1"><b>Price</b> 110,000 gp; <b>Aura</b> strong transmutation; <b>CL</b> 17th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">When wrapped around a wearer's waist, this belt grants a +6 enhancement bonus to Dexterity. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. Furthermore, as a swift action, its wearer can become incorporeal. While incorporeal, he does not gain a deflection bonus to AC based on his Charisma, but his natural armor bonus is converted to deflection bonus. The wearer can remain incorporeal for up to 10 rounds per day. The rounds need not be consecutive.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 55,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i>cats <a href="/pathfinderRPG/prd/advanced/spells/grace.html#_grace" >grace</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-etherealness" >etherealness</a></i></p>
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

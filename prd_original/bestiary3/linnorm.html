@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Linnorm</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Linnorm",globalNavPath=[{ href: '/pathfinderRPG/prd/bestiary3/monsterIndex.html', name: 'Bestiary 3 Index'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body"><div>
+				<h1 id="linnorm" class="monster-header">Linnorm</h1>
+				<p>Treacherous primeval dragons of the northern regions of the world, linnorms thrive on their hatred for those they deem to be lesser creatures and seek to inflict as much suffering as possible unto their unfortunate victims. Sweeping bones and treasures alike into giant piles in its lair, the typical linnorm has a barbaric nature made all the worse by its insatiable greed and atrocious gluttony. Few creatures are as bold and as cruel as linnorms, and for that most people are thankful.</p>
+				<p>Linnorms are not true dragons, but they nonetheless possess incredible strength and deadly powers that often rival authentic dragon brutality. Their massive frames make crushing smaller enemies a simple task, and of those who have felt the sting of a linnorm's venomous bite, few have survived the devastating poison long enough to tell the tale. A linnorm's body is serpentine and lacks wings, yet these dragons fly through the air with supernatural ease, accomplishing the feat as easily as a fish through water.</p>
+				<p>Beyond the physical might, venom, and devastating breath weapons typical of all linnorms, the beasts all share a potent final defense&mdash;the death curse. This powerful plaguing of the mind manifests itself in myriad forms, but always serves as a horrid vengeance against any who might manage to slay a linnorm. Some theorize that the curse is a sending from malevolent gods who watch over linnorms and view them as destruction-loving pets. Others believe the linnorms' curse is the closest remaining connection they have to the primeval world of the fey, from whence the first of these monsters is said to have come. Whatever the case may be, its curse makes killing a linnorm as dangerous as letting it live.</p>
+				<p>True dragons of higher intellect often hold linnorms in great scorn, viewing the beings as prematurely evolved beasts and refusing to even acknowledge the creatures as related to them. Linnorms have few feelings regarding the matter, battling younger and older dragons alike just as readily as any other creatures who dare to step foot in their territories. Their simplemindedness stifles any ability to assemble mass sieges or even cooperate in small groups, so linnorms almost always function alone, individually hunting over large territories in order to waylay as many travelers as possible. Linnorms only seek a mate once during their long lifetimes, the female producing several clutches of up to six eggs as a result. Of these eggs, only one will survive&mdash;the first to hatch immediately feasts on its unhatched brethren.</p>
+				<p>Despite their lust for devastation, linnorms usually live in relatively remote areas, never straying far from the northernmost reaches of the world. As they are universally hated and feared by most other intelligent creatures, their tendency to dwell in more isolated regions helps ensure their survival; while linnorms are vicious and unforgiving, their lack of organization makes them highly susceptible to raiding parties seeking to eradicate their presence, though such parties would need to be made up of truly impressive individuals. More often than not, a linnorm resides totally undisturbed in the spot it chooses as its own for hundreds of years, stewing in its own malevolence until finally snapping and going on a rampage. Sometimes, villages aren't even aware of a slumbering linnorm's proximity, but usually such settlements have long traditions and local legends revolving around “their linnorm.” Since a linnorm can hibernate for centuries, villages composed of shorter-lived humanoids might consider these tales as little more than quaint stories, but when the linnorm wakes, the truth becomes impossible to doubt.</p>
+				<p>Linnorms come in many different varieties, but all share the qualities of being horribly strong and bestial. They feast solely on meat, usually eating goats and other mountain animals when more intelligent creatures such as humanoids don't readily present themselves. Linnorms are prone to gorging and then falling into a deep sleep near their treasure hordes, waking either when they become aware of intruders in their vicinity or to feed once more.</p>
+				<p>The linnorms presented on the following pages represent only four of their kind. The most legendary linnorms are the crag linnorm, ice linnorm, and tarn linnorm, but others exist as well. Rumors of even more powerful unique linnorms persist in lands where these dragons are well-known and feared. The largest of their kind, unique linnorms are never less powerful than tor linnorms (who are often mistakenly thought to be the most dangerous species).  </p>
+				<h1 id="linnorm-special-abilities">Linnorm Special Abilities</h1>
+				<p>While each linnorm has several unique powers, they all share certain abilities in common, as detailed below. In addition to these, every linnorm possesses a breath weapon and a poisonous attack, but the specific effects of these attacks vary from species to species.</p>
+				<p><b>Death Curse (Su)</b>: When a creature slays a linnorm, it becomes targeted by that linnorm's death curse. The exact effects of a death curse vary, depending upon the type of linnorm. The save DC of a linnorm's death curse is always Charisma-based.</p>
+				<p><b>Freedom of Movement (Ex)</b>: A linnorm has continuous <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, as per the spell of the same name. This ability cannot be dispelled.</p>
+				<p><b>True Seeing (Ex)</b>: A linnorm has continuous <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i>, as per the spell of the same name. This ability cannot be dispelled.</p>
+
+				<h1 id="linnorm,-cairn" class="monster-header">Linnorm, Cairn</h1>
+				<p class="flavor-text">Pallid and horribly gaunt, this enormous but emaciated dragonlike creature has two forearms and no wings.</p>
+				<p class="stat-block-title">Cairn Linnorm <span class="stat-block-cr">CR 18</span></p>
+				<p class="stat-block-xp">XP 153,600</p>
+				<p class="stat-block-1">CE Gargantuan dragon</p>
+				<p class="stat-block-1"><b>Init</b> +11; <b>Senses</b> darkvision 60 ft., low-light vision, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent" >scent</a>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +24</p>
+				<p class="stat-block-breaker">DEFENSE</p>
+				<p class="stat-block-1"><b>AC</b> 35, touch 13, flat-footed 28 (+7 Dex, +22 natural, &ndash;4 size)</p>
+				<p class="stat-block-1"><b>hp</b> 290 (20d12+160); regeneration 10 (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> iron)</p>
+				<p class="stat-block-1"><b>Fort</b> +20, <b>Ref</b> +21, <b>Will</b> +17</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> freedom of movement; <b>DR</b> 15/cold iron; <b>Immune</b> acid, curse effects, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_energy-drain" >energy drain</a>, mind-affecting effects, negative energy, paralysis, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, sleep; <b>SR</b> 29</p>
+				<p class="stat-block-breaker">OFFENSE</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., climb 40 ft., fly 100 ft. (average)</p>
+				<p class="stat-block-1"><b>Melee</b> bite +29 (3d8+13/19&ndash;20 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>), 2 claws +29 (2d6+13), tail +24 (3d6+6 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 20 ft.; <b>Reach</b> 20 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon" >breath weapon</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict" >constrict</a> (tail, 2d6+19), death curse</p>
+				<p class="stat-block-breaker">STATISTICS</p>
+				<p class="stat-block-1"><b>Str</b> 37, <b>Dex</b> 24, <b>Con</b> 26, <b>Int</b> 5, <b>Wis</b> 20, <b>Cha</b> 27</p>
+				<p class="stat-block-1"><b>Base Atk</b> +20; <b>CMB</b> +37 (+41 grapple); <b>CMD</b> 54 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats </b><a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/feats.html#_cleave">Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_great-cleave">Great Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (bite), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-vital-strike">Improved Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>), <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +33, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +13, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +24, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +26, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +36; <b>Racial Modifiers</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> (+4 when jumping), +8 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a></p>
+				<p class="stat-block-1"><b>Languages</b> Aklo, Draconic, Sylvan</p>
+				<p class="stat-block-breaker">ECOLOGY</p>
+				<p class="stat-block-1"><b>Environment</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> hills</p>
+				<p class="stat-block-1"><b>Organization</b> solitary</p>
+				<p class="stat-block-1"><b>Treasure</b> triple</p>
+				<p class="stat-block-breaker">SPECIAL ABILITIES</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon" >Breath Weapon</a> (Su) </b>Once every 1d4 rounds as a standard action, a cairn linnorm can expel a 60-foot cone of acidic bile, dealing 18d8 points of acid damage to all creatures struck. In addition, this bile is infused with negative energy, and inflicts 1d4 negative levels on all creatures struck by it. A successful DC 28 Reflex save halves the damage and completely negates the negative levels. The save DC is Constitution-based. </p>
+				<p class="stat-block-1"><b>Death Curse (Su) </b><i>Curse of Decay</i>: <i>save</i> Will DC 28; <i>effect</i> the creature takes 1 point of Constitution damage per day, and ages at an accelerated rate of 1 year per day, eventually incurring all of the penalties of old age but none of the benefits.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >Poison</a> (Ex) </b>Bite&mdash;injury; <i>save</i> Fort DC 28; <i>frequency</i> 1/round for 10 rounds; <i>effect</i> 4d6 acid damage and 1d6 Con drain; <i>cure</i> 2 consecutive saves.</p>
+				
+				<p>Cairn linnorms prefer to dwell in necropolises, amid reaches of burial mounds, or in caverns below the scorched earth of legendary battlefields. These linnorms particularly relish the flavor of undead flesh&mdash;while they cannot consume incorporeal undead, regions they haunt are typically barren of corporeal undead not canny enough to avoid the cairn linnorm's ravenous appetite. An incredibly powerful undead creature might use a cairn linnorm as a guardian, manipulating the dragon while it selects a cairn or tomb well within the linnorm's territory. While cairn linnorms will not hesitate to feed on undead creatures they encounter, some ancient superstition shared by all of their kind prevents them from actually entering a tomb or other enclosed burial site unless granted permission by the tomb's undead denizens or a priest devoted to the religion associated with the site. Likewise, a cairn linnorm somehow caught within a tomb large enough to contain it prefers not to leave without securing similar permission to do so. These limitations are purely psychological, and if pressed (such as by an enemy seeking to use a tomb entrance as a defense), a cairn linnorm can break such restrictions.</p>
+				<p>A cairn linnorm is 60 feet long and weighs 12,000 pounds.</p>
+
+				<h1 id="linnorm,-fjord" class="monster-header">Linnorm, Fjord</h1>
+				<p class="flavor-text">This massive, eel-like dragon has two webbed talons. Its tail ends in large and powerful-looking flukes.</p>
+				<p class="stat-block-title">Fjord Linnorm <span class="stat-block-cr">CR 16</span></p>
+				<p class="stat-block-xp">XP 76,800</p>
+				<p class="stat-block-1">CE Gargantuan dragon (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype" >aquatic</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +10; <b>Senses</b> darkvision 60 ft., low-light vision, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent" >scent</a>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +24</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 30, touch 12, flat-footed 24 (+6 Dex, +18 natural, &ndash;4 size)</p>
+				<p class="stat-block-1"><b>hp</b> 248 (16d12+144); regeneration 10 (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> iron)</p>
+				<p class="stat-block-1"><b>Fort</b> +19, <b>Ref</b> +18, <b>Will</b> +15</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> freedom of movement; <b>DR</b> 15/cold iron; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a>, curse effects, mind-affecting effects, paralysis, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, sleep; <b>SR</b> 27</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., fly 100 ft. (average), swim 60 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> bite +25 (2d8+13/19&ndash;20 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>), 2 claws +25 (2d6+13), tail +20 (2d6+6 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 20 ft.; <b>Reach</b> 20 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon" >breath weapon</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict" >constrict</a> (tail, 2d6+19), death curse</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 36, <b>Dex</b> 23, <b>Con</b> 28, <b>Int</b> 5, <b>Wis</b> 21, <b>Cha</b> 26</p>
+				<p class="stat-block-1"><b>Base Atk</b> +16; <b>CMB</b> +33 (+37 grapple); <b>CMD</b> 49 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats </b><a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-bull-rush">Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (bite), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +19, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +24, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +40</p>
+				<p class="stat-block-1"><b>Languages</b> Aklo, Draconic, Sylvan</p>
+				<p class="stat-block-1"><b>SQ</b> amphibious</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment </b><a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> mountainous coastlines</p>
+				<p class="stat-block-1"><b>Organization</b> solitary</p>
+				<p class="stat-block-1"><b>Treasure</b> triple</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon" >Breath Weapon</a> (Su)</b> Once every 1d4 rounds as a standard action, a fjord linnorm can expel a 120-foot line of icy fluid, dealing 16d8 points of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> damage to all creatures struck (Reflex DC 27 for half damage). The freezing liquid quickly hardens to sheets of ice, causing any creature that takes damage to move at only half its normal speed for 1d4 rounds. A DC 27 Strength check made as a full-round action allows a character to break free of the ice before this duration expires. The save DC and Strength check DC are Constitution-based.</p>
+				<p class="stat-block-1"><b>Death Curse (Su)</b>  <i>Curse of Drowning</i>: <i>save</i> Will DC 26; <i>effect</i> creature can never gain the benefit of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a> breathing, and if it possesses this ability, loses it as long as it suffers the curse. In addition, the creature can hold its breath only half as long as normal, and whenever the cursed creature holds its breath, it functions as if sickened.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >Poison</a> (Ex) </b>Bite&mdash;injury; <i>save</i> Fort DC 27; <i>frequency</i> 1/round for 10 rounds; <i>effect</i> 3d6 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> damage and 1d6 Con drain; <i>cure</i> 2 consecutive saves.</p>
+				
+				<p>Fjord linnorms dwell among the deep waters that grace northern coastlines where fingers of land create complex rivulets, venturing out to sea to feed on sharks and whales when they cannot find settlements or traveling caravans to savage. As their favored haunts often overlap with coastal trade routes, regions known to be within the territory of a fjord linnorm are often avoided by ships. Fjord linnorms are not particularly adept at capsizing ships, as are some other large aquatic monsters, but one might argue that such tactics are unnecessary for a creature the size and power of a fjord linnorm in the first place.</p>
+				<p>Both the curse and poison of a fjord linnorm are extremely dangerous for those who frequent the waterways of the north. The fjord linnorm's curse is particularly devastating to aquatic creatures, and such beings are careful to avoid any possible conflict with such linnorms.</p>
+				<p>A fjord linnorm is 60 feet long and weighs just over 10,000 pounds.</p>
+
+				<h1 id="linnorm,-taiga" class="monster-header">Linnorm, Taiga</h1>
+				<p class="flavor-text">With menacing black horns jutting from its head, this two-legged dragon is covered in dark green scales and vicious black barbs.</p>
+				<p class="stat-block-title">Taiga Linnorm <span class="stat-block-cr">CR 19</span></p>
+				<p class="stat-block-xp">XP 204,800</p>
+				<p class="stat-block-1">CE Colossal dragon</p>
+				<p class="stat-block-1"><b>Init</b> +11; <b>Senses</b> darkvision 60 ft., low-light vision, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent" >scent</a>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +30</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 34, touch 9, flat-footed 27 (+7 Dex, +25 natural, &ndash;8 size)</p>
+				<p class="stat-block-1"><b>hp</b> 346 (21d12+210); regeneration 15 (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> iron)</p>
+				<p class="stat-block-1"><b>Fort</b> +22, <b>Ref</b> +21, <b>Will</b> +18</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> freedom of movement, spines; <b>DR</b> 15/cold iron; <b>Immune</b> curse effects, electricity, mind-affecting effects, paralysis, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, sleep; <b>SR</b> 30</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., fly 100 ft. (average), swim 60 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> bite +29 (3d8+16/19&ndash;20 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>), 2 claws +29 (2d6+16), tail +24 (3d6+8 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 30 ft.; <b>Reach</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon" >breath weapon</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict" >constrict</a> (tail, 3d6+24), death curse</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 43, <b>Dex</b> 25, <b>Con</b> 30, <b>Int</b> 6, <b>Wis</b> 23, <b>Cha</b> 28</p>
+				<p class="stat-block-1"><b>Base Atk</b> +21; <b>CMB</b> +45 (+49 grapple); <b>CMD</b> 62 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow" >Awesome Blow</a>, <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/feats.html#_cleave">Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_great-cleave">Great Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-bull-rush">Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (bite), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +23, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +30, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +15 (+23 in forests), <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +48; <b>Racial Modifiers</b> +8 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> in forests</p>
+				<p class="stat-block-1"><b>Languages</b> Aklo, Draconic, Sylvan</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> forests</p>
+				<p class="stat-block-1"><b>Organization</b> solitary</p>
+				<p class="stat-block-1"><b>Treasure</b> triple</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon" >Breath Weapon</a> (Su)</b> Once every 1d4 rounds as a standard action, a taiga linnorm can expel a 60-foot cone of electrified vapor, dealing 21d8 points of electricity damage to all creatures struck (Reflex DC 30 for half). The vapor itself persists for 1d4 rounds, filling its cone-shaped area with electrified mist that deals 4d6 points of electricity damage (no save) to any creature that ends its turn in the mist. The mist does not hinder vision. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Death Curse (Su)</b> <i>Curse of Electrocution</i>: <i>save</i> Will DC 29; <i>effect</i> the creature gains vulnerability to electricity.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >Poison</a> (Ex)</b> Bite&mdash;injury; <i>save</i> Fort DC 30; <i>frequency</i> 1/round for 10 rounds; <i>effect</i> 4d6 electricity damage and 1d8 Dex drain; <i>cure</i> 3 consecutive saves.</p>
+				<p class="stat-block-1"><b>Spines (Ex)</b> Any creature that makes a melee attack against a taiga linnorm takes 1d6 points of piercing damage per attack from the linnorm's spines. A melee weapon with reach provides protection from these spines.</p>
+				
+				<p>A beast covered with hundreds of spines, the taiga linnorm is a terror to all those who venture through the arctic forests of the north. Taiga linnorms take down foes and prey first with their electrifying breath and finish their victims off with their devastating bite.</p>
+				<p>In winter, when light is sparse and the nights are long, it is easy for a taiga linnorm to blend in with the coniferous forests it dwells in, hiding among the trees and ambushing imprudent travelers or unwary adventurers setting up camp. A taiga linnorm often lies in wait for days&mdash;sometimes weeks&mdash;just for the opportunity to maim and devour unsuspecting victims. When this subtler tactic does not work, a taiga linnorm simply rampages through the woods in order to find nearby settlements to pillage, taking twisted delight in shocking the inhabitants before shredding them with its massive jaws or destructive forelimbs. In any event, taiga linnorms rarely venture far from their woodland territories save for short flights to attack outlying villages.</p>
+				<p>A taiga linnorm is 50 feet long and weighs just over 13,000 pounds.</p>
+
+				<h1 id="linnorm,-tor" class="monster-header">Linnorm, Tor</h1>
+				<p class="flavor-text">This gigantic, wingless, four-armed dragon has rivulets of bright red magma coursing through its serpentine body.</p>
+				<p class="stat-block-title">Tor Linnorm <span class="stat-block-cr">CR 21</span></p>
+				<p class="stat-block-xp">XP 409,600</p>
+				<p class="stat-block-1">CE Colossal dragon</p>
+				<p class="stat-block-1"><b>Init</b> +14; <b>Senses</b> darkvision 60 ft., low-light vision, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent" >scent</a>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +34</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 37, touch 12, flat-footed 27 (+10 Dex, +25 natural, &ndash;8 size)</p>
+				<p class="stat-block-1"><b>hp</b> 420 (24d12+264); regeneration 20 (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> iron)</p>
+				<p class="stat-block-1"><b>Fort</b> +25, <b>Ref</b> +26, <b>Will</b> +21</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> freedom of movement; <b>DR</b> 20/cold iron; <b>Immune</b> curse effects, <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, mind-affecting effects, paralysis, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, sleep; <b>SR</b> 32</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft., climb 40 ft., fly 100 ft. (average), swim 60 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> bite +34 (3d8+18/19&ndash;20 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>), 4 claws +34 (2d6+18), tail +29 (3d6+9 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 30 ft.; <b>Reach</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon" >breath weapon</a>, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict" >constrict</a> (tail, 3d6+27), death curse</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 46, <b>Dex</b> 30, <b>Con</b> 33, <b>Int</b> 7, <b>Wis</b> 25, <b>Cha</b> 28</p>
+				<p class="stat-block-1"><b>Base Atk</b> +24; <b>CMB</b> +50 (+54 grapple); <b>CMD</b> 70 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow" >Awesome Blow</a>, <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/feats.html#_cleave">Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_great-cleave">Great Cleave</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-bull-rush">Improved Bull Rush</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (bite), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-vital-strike">Improved Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +26, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +29, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +34, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +21, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +53</p>
+				<p class="stat-block-1"><b>Languages</b> Aklo, Draconic, Sylvan</p>
+				<p class="stat-block-1"><b>SQ </b>lava affinity</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype" >cold</a> volcanic mountains</p>
+				<p class="stat-block-1"><b>Organization</b> solitary</p>
+				<p class="stat-block-1"><b>Treasure</b> triple</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon" >Breath Weapon</a> (Su)</b> Once every 1d4 rounds as a standard action, a tor linnorm can expel a 60-foot cone of flame and ash, dealing 24d8 points of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> damage to all creatures struck (Reflex DC 33 for half damage). One round after this <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon" >breath weapon</a> is used, the area affected by the attack becomes covered in a cloud of thick, scorching smoke that burns both the lungs and eyes, dealing an additional 8d8 points of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> damage to all creatures in the area. Each creature that begins its turn in the smoke-covered area and breathes must make a DC 33 (+ 1 per previous check) Fortitude save each round or spend that round choking and coughing. Creatures that keep their eyes open for more than 1 round while in the area of the smoke must make a DC 33 Fortitude save or go blind for 1d3 hours. The smoke dissipates after 2d4 rounds. This duration is halved in strong winds and quartered in more powerful winds. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Death Curse (Su)</b> <i>Curse of Boiling Blood</i>: <i>save</i> Will DC 31; <i>effect</i> creature gains vulnerability to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> and is permanently staggered from the pain of its boiling blood. The save DC is Charisma-based.</p>
+				<p class="stat-block-1"><b>Lava Affinity (Ex) </b>A tor linnorm can breathe and swim while submerged in lava and magma.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >Poison</a> (Ex)</b> Bite&mdash;injury; <i>save</i> Fort DC 33; <i>frequency</i> 1/round for 10 rounds; <i>effect</i> 8d6 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> damage and 1d8 Con drain; <i>cure</i> 3 consecutive saves.</p>
+				
+				<p>Tor linnorms epitomize the raw and untempered power of their kin. They dwell in the tallest volcanic mountains, either in naturally formed caverns or in the craters themselves, and rain destruction down upon nearby mountain villages whenever the urge strikes them. Tor linnorms are brutes, but as far as linnorms go are relatively intelligent. With this intelligence comes an overwhelming vanity&mdash;unlike other linnorms, tor linnorms enjoy being adored and worshiped by lesser creatures, and have been known to delay eating prisoners who seem to be particularly cowed by their presence, simply basking in their victims' fear.</p>
+				<p>A tor linnorm is 50 feet long and weighs 15,000 pounds.</p>
+			</div>
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

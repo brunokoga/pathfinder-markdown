@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Ultimate Magic Feats</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Ultimate Magic Feats",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+
+				<h1 id="feats" class="monster-header">Feats</h1>
+				
+				
+				<p>Feats represent special tricks or abilities a character has acquired through training, luck, or as a quirk of his or her birth. They grant characters abilities that others lack, giving them an edge in the right situation. While some feats specifically interact with a PC's race or class, most can be taken by anyone who meets the prerequisites.</p>
+				<h1 id="types-of-feats">Types of Feats</h1>
+				<h2 id="combat-feats">Combat Feats</h2>
+				<p>Any feat designated as a combat feat can be selected as a fighter's bonus feat. This designation does not restrict characters of other classes from selecting these feats, assuming they meet the prerequisites.</p>
+				<h2 id="critical-feats">Critical Feats</h2>
+				<p>Critical feats modify the effects of a critical hit by inflicting an additional condition on the victim of the critical hit. Characters without the <a href="/pathfinderRPG/prd/feats.html#_critical-mastery" >Critical Mastery</a> feat can only apply the effects of one critical feat to an individual critical hit. Characters with multiple critical feats can decide which feat to apply after the critical hit has been confirmed.</p>
+				<h2 id="metamagic-feats"><a href="#table-metamagic-feats">Metamagic Feats</a></h2>
+				<p>Metamagic feats allow spellcasters to modify and change their spells, granting the spells new powers and effects. Such spells generally take up a higher-level spell slot than the normal spell. For complete rules on how to apply metamagic feats to spells, reference the <a href="/pathfinderRPG/prd/feats.html#_metamagic-feats">Metamagic Feats introduction</a>.</p>
+				<h2 id="teamwork-feats"><a href="#table-teamwork-feats">Teamwork Feats</a></h2>
+				<p>Teamwork feats grant large bonuses, but they only function under specific circumstances. In most cases, these feats require an ally who also possesses the feat to be positioned carefully on the battlefield. Teamwork feats provide no bonus if the listed conditions are not met. Note that allies who are paralyzed, stunned, unconscious, or otherwise unable to act do not count for the purposes of these feats. Inquisitors and cavaliers have special class abilities that allow them to use teamwork feats even when their allies don't have the feats.</p>
+				<h1 id="feat-descriptions">Feat Descriptions</h1>
+				<p>The new feats are summarized in the Feats table below. Note that the prerequisites and benefits of the feats listed in this table are abbreviated for ease of reference. See the feat descriptions for full details.<br>The following format is used for all feat descriptions.</p>
+				<p id="feat-name"><b>Feat Name</b>: The feat's name indicates what subcategory, if any, the feat belongs to, and is followed by a basic description of what the feat does.</p>
+				<p id="prerequisite"><b>Prerequisite:</b> This line lists the minimum ability score, any other feat or feats, the minimum base attack bonus, the minimum number of ranks in one or more skills, or anything else required in order to take the feat. This entry is absent if a feat has no prerequisites. A feat may have more than one prerequisite.</p>
+				<p id="benefit"><b>Benefit:</b> The benefit is what a feat enables the character (“you” in the feat description) to do. If a character has the same feat more than once, its benefits do not stack unless indicated in the description.</p>
+				<p id="normal"><b>Normal:</b> This line indicates what a character without this feat is limited to or restricted from doing. If not having the feat causes no particular drawback, this entry is absent.</p>
+				<p id="special"><b>Special:</b> Additional unusual facts about the feat.</p>
+<table><caption>Table: Feats</caption>
+<thead><tr><th>Feat</th><th>Prerequisites</th><th>Benefits</th></thead></tr>
+<tr class="odd"><td><a href="#abundant-revelations" >Abundant Revelations</a></td><td style="white-space: normal">Mystery class feature</td><td style="white-space: normal">Use a single revelation more times each day</td></tr>
+<tr class="even"><td><a href="#accursed-critical-" >Accursed Critical</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, ability to cast <i><a href="/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i> or <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/curse.html#_curse,-major" >major curse</a></i>, caster level 9th</td><td style="white-space: normal">Confirm a critical hit and cast a curse as part of the attack</td></tr>
+<tr class="odd"><td><a href="#accursed-hex" >Accursed Hex</a></td><td style="white-space: normal">Hex class feature</td><td style="white-space: normal">Target a creature with a hex a second time that day if it made its save the first time</td></tr>
+<tr class="even"><td><a href="#advanced-ranger-trap" >Advanced Ranger Trap</a></td><td style="white-space: normal">Trap class feature, ranger level 5th</td><td style="white-space: normal">Add +1 to the <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> and <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> check DCs for your ranger traps</td></tr>
+<tr class="odd"><td><a href="#antagonize" >Antagonize</a></td><td style="white-space: normal">&mdash;</td><td style="white-space: normal">Use <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> to goad creatures</td></tr>
+<tr class="even"><td><a href="#blighted-critical-" >Blighted Critical</a></td><td style="white-space: normal">Caster level 5th </td><td style="white-space: normal">Confirm a critical hit with a spell or spell-like ability to inflict a random minor spellblight</td></tr>
+<tr class="odd"><td class="indent"><a href="#greater-blighted-critical-" >Greater Blighted Critical</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_blighted-critical-" >Blighted Critical</a>, caster level 12th</td><td style="white-space: normal">Confirm a critical hit with a spell or spell-like ability to inflict a random major spellblight</td></tr>
+<tr class="even"><td class="indent"><a href="#blighted-critical-mastery" >Blighted Critical Mastery</a></td><td style="white-space: normal"><a href="#blighted-critical-" >Blighted Critical</a>, caster level 9th</td><td style="white-space: normal">Pick the spellblight inflicted by a critical</td></tr>
+<tr class="odd"><td><a href="#channeled-shield-wall" >Channeled Shield Wall</a></td><td style="white-space: normal">Channel energy 3d6, proficiency with shield</td><td style="white-space: normal">Enhance your shield and the shields of allies adjacent to you</td></tr>
+<tr class="even"><td><a href="#create-reliquary-arms-and-shields" >Create Reliquary Arms and Shields</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, ability to cast <i><a href="/pathfinderRPG/prd/spells/hallow.html#_hallow" >hallow</a></i> or <i><a href="/pathfinderRPG/prd/spells/unhallow.html#_unhallow" >unhallow</a></i></td><td style="white-space: normal">Make your shield or weapon a holy symbol</td></tr>
+<tr class="odd"><td><a href="#create-sanguine-elixir" >Create Sanguine Elixir</a></td><td style="white-space: normal">Cha 15, <a href="/pathfinderRPG/prd/feats.html#_brew-potion" >Brew Potion</a>, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy) 12 ranks, sorcerer level 3rd</td><td style="white-space: normal">Create an elixir that allows another to use a bloodline power</td></tr>
+<tr class="even"><td><a href="#defending-eidolon" >Defending Eidolon</a></td><td style="white-space: normal">Shield ally class feature</td><td style="white-space: normal">Your eidolon sacrifices its attacks to defend you</td></tr>
+<tr class="odd"><td><a href="#deny-death" >Deny Death</a></td><td style="white-space: normal"><i>Ki</i> pool, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a></td><td style="white-space: normal">Use <i>ki </i>to stave off death</td></tr>
+<tr class="even"><td><a href="#detect-expertise" >Detect Expertise</a></td><td style="white-space: normal">Int 13; ability to cast <i><a href="/pathfinderRPG/prd/spells/detectChaos.html#_detect-chaos" >detect chaos</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectGood.html#_detect-good" >detect good</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectLaw.html#_detect-law" >detect law</a></i>, or <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i></td><td style="white-space: normal">Detect a creature's magical abilities</td></tr>
+<tr class="odd"><td><a href="#die-for-your-master" >Die for Your Master</a></td><td style="white-space: normal">Tumor familiar alchemist discovery</td><td style="white-space: normal">Tumor familiar dies in place of its master</td></tr>
+<tr class="even"><td><a href="#divine-interference" >Divine Interference</a></td><td style="white-space: normal">Divine spellcaster, caster level 10th </td><td style="white-space: normal">Sacrifice a spell to force an enemy to reroll a successful attack against your ally</td></tr>
+<tr class="odd"><td><a href="#dragonbane-aura" >Dragonbane Aura</a></td><td style="white-space: normal">Aura of courage class feature, caster level 8th</td><td style="white-space: normal">Aura of courage expands and grants protection against dragon breath weapons</td></tr>
+<tr class="even"><td><a href="#eldritch-heritage" >Eldritch Heritage</a></td><td style="white-space: normal">Cha 13, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> in bloodline skill, character level 3rd</td><td style="white-space: normal">Gain a bloodline power</td></tr>
+<tr class="odd"><td class="indent"><a href="#improved-eldritch-heritage" >Improved Eldritch Heritage</a></td><td style="white-space: normal">Cha 15, <a href="#eldritch-heritage" >Eldritch Heritage</a>, character level 11th</td><td style="white-space: normal">Gain an additional bloodline power</td></tr>
+<tr class="even"><td class="indent"><a href="#greater-eldritch-heritage" >Greater Eldritch Heritage</a></td><td style="white-space: normal">Cha 17, <a href="#eldritch-heritage" >Eldritch Heritage</a>, <a href="#improved-eldritch-heritage" >Improved Eldritch Heritage</a>, character level 17th</td><td style="white-space: normal">Gain a higher-level sorcerer bloodline power</td></tr>
+<tr class="odd"><td><a href="#evolved-familiar" >Evolved Familiar</a></td><td style="white-space: normal">Int 13, Cha 13, familiar class feature</td><td style="white-space: normal">Familiar gains a summoner evolution</td></tr>
+<tr class="even"><td><a href="#exploit-lore" >Exploit Lore</a></td><td style="white-space: normal">Monster lore class feature, base attack bonus +11</td><td style="white-space: normal">Use your lore to gain attack and damage bonus against a single creature</td></tr>
+<tr class="odd"><td><a href="#extra-arcana" >Extra Arcana</a></td><td style="white-space: normal">Magus arcana class feature</td><td style="white-space: normal">Gain an additional magus arcana</td></tr>
+<tr class="even"><td><a href="#extra-arcane-pool" >Extra Arcane Pool</a></td><td style="white-space: normal">Arcane pool class feature</td><td style="white-space: normal">Arcane pool increases by 2</td></tr>
+<tr class="odd"><td><a href="#extended-bane" >Extended Bane</a></td><td style="white-space: normal">Bane class feature</td><td style="white-space: normal">Bane is extended a number of rounds equal to your Wisdom</td></tr>
+<tr class="even"><td><a href="#extra-cantrips-or-orisons" >Extra Cantrips or Orisons</a></td><td style="white-space: normal">Ability to cast cantrips or orisons</td><td style="white-space: normal">Gain 2 additional cantrips or orisons known</td></tr>
+<tr class="odd"><td><a href="#extra-evolution" >Extra Evolution</a></td><td style="white-space: normal">Eidolon class feature</td><td style="white-space: normal">Eidolon adds 1 point to its evolution pool</td></tr>
+<tr class="even"><td><a href="#extra-ranger-trap" >Extra Ranger Trap</a></td><td style="white-space: normal">Trap class feature</td><td style="white-space: normal">Set traps two additional times a day</td></tr>
+<tr class="odd"><td><a href="#extra-summons" >Extra Summons</a></td><td style="white-space: normal">Ability to cast <a href="/pathfinderRPG/prd/advanced/baseClasses/summoner.html#_summon-monster-i"><i>summon monster</i></a> as a spell-like ability, summoner level 1st</td><td style="white-space: normal">Gain 1 extra use of <i>summon monster</i> per day</td></tr>
+<tr class="even"><td><a href="#eyes-of-judgment" >Eyes of Judgment</a></td><td style="white-space: normal">Detect alignment ability class feature, caster level 6th</td><td style="white-space: normal">Determine target's exact alignment after 3 rounds of observation</td></tr>
+<tr class="odd"><td><a href="#fast-empathy" >Fast Empathy</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> 5 ranks, wild empathy class feature</td><td style="white-space: normal">Use wild empathy as a standard action</td></tr>
+<tr class="even"><td><a href="#favored-judgment" >Favored Judgment</a></td><td style="white-space: normal">Wis 13, judgment class feature</td><td style="white-space: normal">Judgments have greater effect on creatures of a specific type, chosen from the ranger's favored enemy list</td></tr>
+<tr class="odd"><td><a href="#fearless-aura" >Fearless Aura</a></td><td style="white-space: normal">Aura of courage class feature, caster level 8th</td><td style="white-space: normal">Aura of courage expands and makes allies immune to fear effects</td></tr>
+<tr class="even"><td><a href="#fire-music" >Fire Music</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> 5 ranks, ability to cast bard spells, ability to cast at least one arcane fire spell from another class</td><td style="white-space: normal">Replace bard spell damage with fire damage, summoned monsters gain fire attacks</td></tr>
+<tr class="odd"><td><a href="#focused-eidolon" >Focused Eidolon</a></td><td style="white-space: normal">Shield ally class feature</td><td style="white-space: normal">Gain +4 on concentration checks while adjacent to your eidolon</td></tr>
+<tr class="even"><td><a href="#gliding-steps" >Gliding Steps</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_mobility" >Mobility</a>, <a href="/pathfinderRPG/prd/feats.html#_nimble-moves" >Nimble Moves</a>, <i>ki</i> pool</td><td style="white-space: normal">Use <i>ki</i> to provoke fewer attacks of opportunities while moving</td></tr>
+<tr class="odd"><td><a href="#grant-initiative" >Grant Initiative</a></td><td style="white-space: normal">Cunning initiative class feature</td><td style="white-space: normal">Grant bonus to initiative to ally</td></tr>
+<tr class="even"><td><a href="#greater-mercy" >Greater Mercy</a></td><td style="white-space: normal">Cha 13, lay on hands class feature, mercy class feature</td><td style="white-space: normal">Lay on hands heals extra hit points if the target doesn't need a mercy</td></tr>
+<tr class="odd"><td class="indent"><a href="#ultimate-mercy" >Ultimate Mercy</a></td><td style="white-space: normal">Cha 19, <a href="#greater-mercy" >Greater Mercy</a>, lay on hands, mercy class feature</td><td style="white-space: normal">Expend 10 uses of lay on hands to bring a dead creature back to life</td></tr>
+<tr class="even"><td><a href="#greater-wild-empathy" >Greater Wild Empathy</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) 5 ranks, wild empathy class feature</td><td style="white-space: normal">Use wild empathy to intimidate and expand the creatures it can affect</td></tr>
+<tr class="odd"><td><a href="#implant-bomb" >Implant Bomb</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> 5 ranks, delayed bomb alchemist discovery</td><td style="white-space: normal">Implant a bomb in a willing or helpless creature</td></tr>
+<tr class="even"><td><a href="#improved-monster-lore" >Improved Monster Lore</a></td><td style="white-space: normal">Monster lore class feature</td><td style="white-space: normal">Gain a sacred bonus on monster lore checks</td></tr>
+<tr class="odd"><td><a href="#insightful-gaze" >Insightful Gaze</a></td><td style="white-space: normal">Stern gaze class feature, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> 5 ranks</td><td style="white-space: normal">When using <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a>, roll twice and take the higher roll</td></tr>
+<tr class="even"><td><a href="#intimidating-gaze" >Intimidating Gaze</a></td><td style="white-space: normal">Stern gaze class feature, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> 5 ranks</td><td style="white-space: normal">When using <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a>, roll twice and take the higher roll</td></tr>
+<tr class="odd"><td><a href="#judgment-surge" >Judgment Surge</a></td><td style="white-space: normal">Judgment class feature</td><td style="white-space: normal">Gain improved versions of your judgments</td></tr>
+<tr class="even"><td><i>Ki</i> Stand</td><td style="white-space: normal"><i>Ki</i> pool</td><td style="white-space: normal">Stand up as a swift action, and spend 1 <i>ki</i> point to not provoke attacks of opportunity when you do so</td></tr>
+<tr class="odd"><td><a href="#learn-ranger-trap" >Learn Ranger Trap</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> 5 ranks</td><td style="white-space: normal">Learn a single ranger trap</td></tr>
+<tr class="even"><td><a href="#life-lure" >Life Lure</a></td><td style="white-space: normal">Channel positive energy class feature</td><td style="white-space: normal">Channel positive energy to fascinate undead</td></tr>
+<tr class="odd"><td><a href="#moonlight-summons" >Moonlight Summons</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (conjuration), ability to cast <a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html"><i>summon nature's ally</i></a></td><td style="white-space: normal">Summoned creatures are immune to confusion and sleep effects, and their natural weapons are treated as silver</td></tr>
+<tr class="even"><td><a href="#mystic-stride" >Mystic Stride</a></td><td style="white-space: normal">Dex 15, <a href="/pathfinderRPG/prd/feats.html#_nimble-moves" >Nimble Moves</a>, woodland stride class feature</td><td style="white-space: normal">Move at full speed even through magically enhanced foliage</td></tr>
+<tr class="odd"><td><a href="#oracular-intuition" >Oracular Intuition</a></td><td style="white-space: normal">Mystery class feature</td><td style="white-space: normal">Gain bonuses to <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> and <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> to identify magic item properties</td></tr>
+<tr class="even"><td><a href="#painful" >Painful Anchor</a></td><td style="white-space: normal">Anchoring aura class feature</td><td style="white-space: normal">Deal damage to an anchored evil outsider</td></tr>
+<tr class="odd"><td><a href="#planar-preservationist" >Planar Preservationist</a></td><td style="white-space: normal">Preservationist alchemist archetype</td><td style="white-space: normal">With every <i>summon nature's ally</i> extract you learn, learn a corresponding <i>summon monster</i> extract</td></tr>
+<tr class="even"><td><a href="#powerful-shape" >Powerful Shape</a></td><td style="white-space: normal">Wild shape class feature, druid level 8th</td><td style="white-space: normal">While in wild shape, you are treated as one size category larger</td></tr>
+<tr class="odd"><td><a href="#prodigy" >Prodigy</a></td><td style="white-space: normal">&mdash;</td><td style="white-space: normal">Gain a +2 bonus on two <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a>, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a>, or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> skills</td></tr>
+<tr class="even"><td><a href="#prophetic-visionary" >Prophetic Visionary</a></td><td style="white-space: normal">Mystery class feature</td><td style="white-space: normal">Once per day, enter a deep trance and gain a prophetic vision</td></tr>
+<tr class="odd"><td><a href="#pure-faith" >Pure Faith</a></td><td style="white-space: normal">Divine health class feature</td><td style="white-space: normal">Gain a +4 sacred bonus against poison</td></tr>
+<tr class="even"><td><a href="#quarterstaff-master" >Quarterstaff Master*</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (quarterstaff), base attack bonus +5</td><td style="white-space: normal">Use a quarterstaff one-handed</td></tr>
+<tr class="odd"><td class="indent"><a href="#tripping-staff" >Tripping Staff*</a></td><td style="white-space: normal">Int 13, <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-trip" >Improved Trip</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (quarterstaff), base attack bonus +6</td><td style="white-space: normal">Treat a quarterstaff as if it had the trip weapon special feature</td></tr>
+<tr class="even"><td class="indent"><a href="#tripping-twirl" >Tripping Twirl*</a></td><td style="white-space: normal">Int 13, <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-trip" >Improved Trip</a>, <a href="#tripping-staff" >Tripping Staff</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (quarterstaff), Weapons Specialization (quarterstaff), base attack bonus +12</td><td style="white-space: normal">Use a quarterstaff to make a trip attempt against all adjacent enemies</td></tr>
+<tr class="odd"><td><a href="#quick-channel" >Quick Channel</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) 5 ranks, channel energy class feature</td><td style="white-space: normal">Channel energy faster by expending more uses</td></tr>
+<tr class="even"><td><a href="#quick-wild-shape" >Quick Wild Shape</a></td><td style="white-space: normal">Wild shape class feature, caster level 8th</td><td style="white-space: normal">Wild shape quickly into a less powerful form</td></tr>
+<tr class="odd"><td><a href="#radiant-charge" >Radiant Charge</a></td><td style="white-space: normal">Lay on hands class feature</td><td style="white-space: normal">Expend uses of lay on hands to deal extra damage, bypassing evil creatures' resistances and immunities</td></tr>
+<tr class="even"><td><a href="#remote-bomb" >Remote Bomb</a></td><td style="white-space: normal">Delayed bomb discovery</td><td style="white-space: normal">Increase the delay on your bombs and detonate bombs remotely</td></tr>
+<tr class="odd"><td><a href="#resilient-eidolon" >Resilient Eidolon</a></td><td style="white-space: normal">Eidolon class feature</td><td style="white-space: normal">When you are knocked unconscious, fall asleep, or are killed, your eidolon remains with you</td></tr>
+<tr class="even"><td><a href="#reward-of-grace" >Reward of Grace</a></td><td style="white-space: normal">Lay on hands class feature</td><td style="white-space: normal">With each use of lay on hands, gain a +1 sacred bonus on attack rolls</td></tr>
+<tr class="odd"><td><a href="#reward-of-life" >Reward of Life</a></td><td style="white-space: normal">Lay on hands class feature</td><td style="white-space: normal">With each use of lay on hands, gain hit points equal to your Charisma</td></tr>
+<tr class="even"><td><a href="#ricochet-splash-weapon" >Ricochet Splash Weapon</a></td><td style="white-space: normal">Dex 13, <a href="/pathfinderRPG/prd/feats.html#_throw-anything" >Throw Anything</a></td><td style="white-space: normal">Make an attack roll with a splash weapon if it misses and lands in another creature's square</td></tr>
+<tr class="odd"><td><a href="#sacred-summons" >Sacred Summons</a></td><td style="white-space: normal">Aura class feature, ability to cast <a href="/pathfinderRPG/prd/advanced/baseClasses/summoner.html#_summon-monster-i"><i>summon monster</i></a></td><td style="white-space: normal">Summon monsters whose alignment subtype matches yours as a standard action</td></tr>
+<tr class="even"><td><a href="#sense-link" >Sense Link</a></td><td style="white-space: normal">Bond senses class feature</td><td style="white-space: normal">Gain a +4 bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks when sharing your eidolon's senses</td></tr>
+<tr class="odd"><td><a href="#shaping-focus" >Shaping Focus</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) 5 ranks, wild shape class feature</td><td style="white-space: normal">Count other class levels as druid levels for the purpose of wild shape</td></tr>
+<tr class="even"><td><a href="#sin-seer" >Sin Seer</a></td><td style="white-space: normal">Detect undead class feature</td><td style="white-space: normal">Gain the ability to detect evil</td></tr>
+<tr class="odd"><td><a href="#skeleton-summoner" >Skeleton Summoner</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (necromancy), ability to cast <a href="/pathfinderRPG/prd/advanced/baseClasses/summoner.html#_summon-monster-i"><i>summon monster</i></a></td><td style="white-space: normal">Summon skeletons instead of living creatures with <i>summon monster</i></td></tr>
+<tr class="even"><td><a href="#sorcerous-bloodstrike" >Sorcerous Bloodstrike</a></td><td style="white-space: normal">Cha 13, sorcerer bloodline class feature</td><td style="white-space: normal">Regain a bloodline power when you reduce a creature to 0 or fewer hit points</td></tr>
+<tr class="odd"><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_spell-bluff" >Spell Bluff</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> 5 ranks, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> 5 ranks</td><td style="white-space: normal"><a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> other spellcasters, increasing the DC needed to identify your spell</td></tr>
+<tr class="even"><td><a href="#spell-hex" >Spell Hex</a></td><td style="white-space: normal">Major hex class feature</td><td style="white-space: normal">Cast a 1st-level spell as a hex</td></tr>
+<tr class="odd"><td><a href="#spell-specialization" >Spell Specialization</a></td><td style="white-space: normal">Int 13, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a></td><td style="white-space: normal">Pick one spell and cast it as if you were higher level</td></tr>
+<tr class="even"><td class="indent"><a href="#greater-spell-specialization" >Greater Spell Specialization</a></td><td style="white-space: normal">Int 13, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a>, <a href="#spell-specialization" >Spell Specialization</a>, ability to cast 5th-level spells</td><td style="white-space: normal">Sacrifice a spell to cast your specialized spell</td></tr>
+<tr class="odd"><td><a href="#spellsong" >Spellsong</a></td><td style="white-space: normal">Cha 13, bard performance class feature, ability to cast 1st-level spells</td><td style="white-space: normal">Combine spellcasting and bardic performance</td></tr>
+<tr class="even"><td><a href="#split-hex" >Split Hex</a></td><td style="white-space: normal">witch level 10th</td><td style="white-space: normal">A targeted hex can affect two creatures</td></tr>
+<tr class="odd"><td><a href="#split-major-hex" >Split Major Hex</a></td><td style="white-space: normal"><a href="#split-hex" >Split Hex</a>, caster level 18th</td><td style="white-space: normal">A targeted major hex can affect two creatures</td></tr>
+<tr class="even"><td><a href="#spontaneous-metafocus" >Spontaneous Metafocus</a></td><td style="white-space: normal">Cha 13, one metamagic feat, ability to spontaneously cast spells</td><td style="white-space: normal">Apply metamagic to one spell and keep the standard casting time</td></tr>
+<tr class="odd"><td><a href="#starlight-summons" >Starlight Summons</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (conjuration), ability to cast <a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html"><i>summon nature's ally</i></a></td><td style="white-space: normal">Summoned creatures gain a bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks</td></tr>
+<tr class="even"><td><a href="#sunlight-summons" >Sunlight Summons</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (conjuration), ability to cast <a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html"><i>summon nature's ally</i></a></td><td style="white-space: normal">Summoned creatures glow and are immune to blinding and dazzling effects</td></tr>
+<tr class="odd"><td><a href="#superior-summoning" >Superior Summoning</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/feats.html#_augment-summoning" >Augment Summoning</a>, caster level 3rd</td><td style="white-space: normal">When summoning more than one creature, summon an extra one</td></tr>
+<tr class="even"><td><a href="#theurgy" >Theurgy</a></td><td style="white-space: normal">Wis 13, Int or Cha 13, ability to cast 1st-level arcane spells, ability to cast 1st-level divine spells</td><td style="white-space: normal">Augment arcane spells with divine energy and divine spells with arcane energy</td></tr>
+<tr class="odd"><td><a href="#thoughtful-discernment" >Thoughtful Discernment</a></td><td style="white-space: normal"><i><a href="/pathfinderRPG/prd/spells/discernLies.html#_discern-lies" >Discern lies</a></i> class feature</td><td style="white-space: normal">Detect lies in a statement you heard, even hours after it has been uttered</td></tr>
+<tr class="even"><td><a href="#ultimate-resolve" >Ultimate Resolve</a></td><td style="white-space: normal">Aura of resolve class feature</td><td style="white-space: normal">Aura of resolve expands and does not fall when you do</td></tr>
+<tr class="odd"><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_uncanny-alertness" >Uncanny Alertness</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a></td><td style="white-space: normal">+1 on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks and a +2 bonus on saving throws against sleep and charm effects</td></tr>
+<tr class="even"><td><a href="#uncanny-concentration" >Uncanny Concentration</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a></td><td style="white-space: normal">Don't make concentration checks for violent movement, gain a +2 bonus on all other concentration checks</td></tr>
+<tr class="odd"><td><a href="#undead-master" >Undead Master</a></td><td style="white-space: normal">Spell focus (necromancy), ability to cast <i><a href="/pathfinderRPG/prd/spells/animateDead.html#_animate-dead" >animate dead</a></i> or <i><a href="/pathfinderRPG/prd/spells/commandUndead.html#_command-undead" >command undead</a></i></td><td style="white-space: normal">Animate and command more undead</td></tr>
+<tr class="even"><td><a href="#unsanctioned-detection" >Unsanctioned Detection</a></td><td style="white-space: normal"><i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >Detect evil</a></i> class feature</td><td style="white-space: normal">Use <i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i> to gain bonuses on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks</td></tr>
+<tr class="odd"><td><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_unsanctioned-knowledge" >Unsanctioned <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a></a></td><td style="white-space: normal">Int 13, must be able to cast 1st-level paladin spells</td><td style="white-space: normal">Add spells to your paladin spell list</td></tr>
+<tr class="even"><td><a href="#versatile-channeler" >Versatile Channeler</a></td><td style="white-space: normal">Channel energy class feature, worship a neutral deity or neutral alignment and no deity</td><td style="white-space: normal">Channel both positive and negative energy</td></tr>
+<tr class="odd"><td><a href="#vigilant-eidolon" >Vigilant Eidolon</a></td><td style="white-space: normal">Eidolon class feature</td><td style="white-space: normal">+4 bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks when your eidolon is within arm's reach, conscious, and not helpless</td></tr>
+<tr class="even"><td><a href="#voice-of-the-sibyl" >Voice of the Sibyl</a></td><td style="white-space: normal">Cha 15</td><td style="white-space: normal">Gain bonus to <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, and <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (oratory) checks</td></tr>
+<tr class="odd"><td><a href="#warrior-priest" >Warrior Priest</a></td><td style="white-space: normal">Ability to cast divine spells, domain or mystery class feature</td><td style="white-space: normal">+1 bonus to initiative and +2 on concentration checks when casting defensively</td></tr>
+<tr class="even"><td><a href="#wild-speech" >Wild Speech</a></td><td style="white-space: normal">wild shape class feature, druid level 6th</td><td style="white-space: normal">Speak while in wild shape</td></tr>
+<tr class="odd"><td><a href="#witch-knife" >Witch Knife</a></td><td style="white-space: normal">Witch class</td><td style="white-space: normal">Use dagger as focus for witch patron spells</td></tr>
+<tr class="even"><td><a href="#word-of-healing" >Word of Healing</a></td><td style="white-space: normal">Lay on hands class feature</td><td style="white-space: normal">Use lay on hands from a distance</td></tr>
+<tr id="table-metamagic-feats"><th>Metamagic Feats</th><th>Prerequisites</th><th>Benefits</th></tr>
+<tr class="even"><td><a href="#burning-spell" >Burning Spell</a></td><td style="white-space: normal">&mdash;</td><td style="white-space: normal">Spell with the acid or fire descriptor deals extra damage the next round</td></tr>
+<tr class="odd"><td><a href="#concussive-spell">Concussive Spell</a></td><td style="white-space: normal">&mdash;</td><td style="white-space: normal">Spell with the sonic descriptor gains a debilitating concussive effect</td></tr>
+<tr class="even"><td><a href="#echoing-spell" >Echoing Spell</a></td><td style="white-space: normal">&mdash;</td><td style="white-space: normal">Cast a spell a second time</td></tr>
+<tr class="odd"><td><a href="#flaring-spell" >Flaring Spell</a></td><td style="white-space: normal">&mdash;</td><td style="white-space: normal">Spell with the fire, light, or electricity descriptor dazzles creatures it affects</td></tr>
+<tr class="even"><td><a href="#piercing-spell" >Piercing Spell</a></td><td style="white-space: normal">&mdash;</td><td style="white-space: normal">Affected spell treats creatures with SR as having an SR of 5 lower</td></tr>
+<tr class="odd"><td><a href="#rime-spell" >Rime Spell</a></td><td style="white-space: normal">&mdash;</td><td style="white-space: normal">Spell with the cold descriptor also entangles creatures if the spell damages them</td></tr>
+<tr class="even"><td><a href="#thanatopic-spell" >Thanatopic Spell</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) 6 ranks, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (necromancy)</td><td style="white-space: normal">Affected spell's death effects, energy drain, and negative levels affect undead</td></tr>
+<tr class="odd"><td><a href="#threnodic-spell" >Threnodic Spell</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) 6 ranks, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (necromancy)</td><td style="white-space: normal">Change a mind-affecting spell so it can affect undead, but not living creatures</td></tr>
+<tr class="even"><td><a href="#toppling-spell" >Toppling Spell</a></td><td style="white-space: normal">&mdash;</td><td style="white-space: normal">Spell with the sonic descriptor knocks targets prone</td></tr>
+<tr id="table-teamwork-feats"><th>Teamwork Feats</th><th>Prerequisites</th><th>Benefits</th></tr>
+<tr class="even"><td><a href="#ensemble" >Ensemble</a></td><td style="white-space: normal"><a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> 5 ranks</td><td style="white-space: normal">Nearby performers can aid your perform checks</td></tr>
+<tfoot><tr><td colspan="3">* This is a combat feat and can be selected as a fighter bonus feat</td></tr></tfoot></table>
+                <div id="feats-text" class="feats-text">
+				<h2 id="abundant-revelations">Abundant Revelations</h2>
+				<p>You can plumb the depths of your mystery to use your revelations more often.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Mystery class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Choose one of your revelations that has a number of uses per day. You gain 1 additional use per day of that revelation.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new revelation.</p>
+				<h2 id="accursed-critical-">Accursed Critical (Critical)</h2>
+				<p>Your spells carry an embedded curse that manifests when they strike true.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, ability to cast <i><a href="/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i> or <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/curse.html#_curse,-major" >major curse</a></i>, caster level 9th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you confirm a critical hit with a spell or spell-like ability, you may cast <i><a href="/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse" >bestow curse</a> </i>or <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/curse.html#_curse,-major" >major curse</a></i> on that target as an immediate action. This works even with ranged spells. You must have <i><a href="/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse" >bestow curse</a> </i>or <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/curse.html#_curse,-major" >major curse</a> </i>prepared or otherwise available to cast, and using this ability casts the corresponding spell.</p>
+				<h2 id="accursed-hex">Accursed Hex</h2>
+				<p>You can make a second attempt at failed hexes.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Hex class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you target a creature with a hex that cannot target the same creature more than once per day, and that creature succeeds at its saving throw against the hex's effect, you can target the creature with the same hex a second time before the end of your next turn. If the second attempt fails, you can make no further attempts to target that creature with the same hex for 1 day. </p>
+				<p class="stat-block-1"><b>Normal:</b> You can only target a creature with these hexes once per day.</p>
+				<h2 id="advanced-ranger-trap">Advanced Ranger Trap</h2>
+				<p>Your ranger traps are especially difficult to notice and avoid.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Trap class feature, ranger level 5th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Add +1 to the Difficulty Class on all <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> skill checks to find or disable the traps you make with your trap class feature. Add a +1 to the Difficulty Class on all saving throws against the effects of the trap you make with your trap class feature. </p>
+				<h2 id="antagonize">Antagonize</h2>
+				<p>Whether with biting remarks or hurtful words, you are adept at making creatures angry with you.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can make <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> and <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks to make creatures respond to you with hostility. No matter which skill you use, antagonizing a creature takes a standard action that does not provoke attacks of opportunity, and has a DC equal to 10+ the target's Hit Dice + the target's Wisdom modifier. You cannot make this check against a creature that does not understand you or has an Intelligence score of 3 or lower. Before you make these checks, you may make a <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> check (DC 20) as a swift action to gain an insight bonus on these <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or Intimitade checks equal to your Charisma bonus until the end of your next turn. The benefits you gain for this check depend on the skill you use. This is a mind-affecting effect.</p>
+				<p id="diplomacy" class="stat-block-2"><i><a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a></i>: You fluster your enemy. For the next minute, the target takes a &ndash;2 penalty on all attacks rolls made against creatures other than you and has a 10% spell failure chance on all spells that do not target you or that have you within their area of effect.</p>
+				<p id="intimidate" class="stat-block-2"><i><a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a></i>: The creature flies into a rage. On its next turn, the target must attempt to make a melee attack against you, make a ranged attack against you, target you with a spell, or include you in the area of a spell. The effect ends if the creature is prevented from attacking you or attempting to do so would harm it (for example, if you are on the other side of a chasm or a <i><a href="/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire" >wall of fire</a></i>). If it cannot attack you on its turn, you may make the check again as an immediate action to extend the effect for 1 round (but cannot extend it thereafter). The effect ends as soon as the creature attacks you. Once you have targeted a creature with this ability, you cannot target it again for 1 day.</p>
+				<h2 id="blighted-critical-">Blighted Critical (Critical)</h2>
+				<p>With a critical hit from a spell or spell-like ability, you give the target a minor spellblight.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Caster level 5th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you confirm a critical hit with a touch spell, ranged touch spell, or spell-like ability against an opponent, the victim gains a random minor spellblight (see page 95).</p>
+				<p class="stat-block-1"><b>Special:</b> You can apply the effects of only one critical feat to a given critical hit unless you possess <a href="/pathfinderRPG/prd/feats.html#_critical-mastery" >Critical Mastery</a>.</p>
+				<h2 id="blighted-critical-mastery">Blighted <a href="/pathfinderRPG/prd/feats.html#_critical-mastery" >Critical Mastery</a></h2>
+				<p>You control the type of spellblight your critical hits give your opponent. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_blighted-critical-" >Blighted Critical</a>, caster level 9th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you apply a spellblight by way of the <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_blighted-critical-" >Blighted Critical</a> or Greater Blighted critical feat, you can choose the spellblight you apply rather than determining it randomly.</p>
+				<h2 id="burning-spell">Burning Spell (Metamagic)</h2>
+				<p>You cause creatures to take extra damage when you affect them with a spell that has the acid or fire descriptor. </p>
+				<p class="stat-block-1"><b>Benefit:</b> The acid or fire effects of the affected spell adhere to the creature, causing more damage the next round. When a creature takes acid or fire damage from the affected spell, that creature takes damage equal to 2&times; the spell's actual level at the start of its next turn. The damage is acid or fire, as determined by the spell's descriptor. If a burning spell has both the fire and acid descriptor, the caster chooses what kind of damage is dealt by the burning spell effect. A burning spell uses up a slot two levels higher than the spell's actual level.</p>
+				<h2 id="channeled-shield-wall">Channeled Shield Wall</h2>
+				<p>You draw upon your channel energy to enhance the protective ability of your shield and those of allies while they are adjacent to you.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Channel energy, 3d6 proficiency with a shield.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As a swift action, you can spend a use of your channel energy to grant yourself a +2 deflection bonus while using a shield. This bonus lasts 1 minute per cleric level or effective cleric level. While you benefit from this bonus, allies with shields also gain a +2 deflection bonus while they are adjacent to you.</p>
+				<h2 id="concussive-spell">Concussive Spell (Metamagic)</h2>
+				<p>You cause creatures to be disoriented when you affect them with a spell that has the sonic descriptor. </p>
+				<p class="stat-block-1"><b>Benefit:</b> With sonic damage comes a concussive wave of energy that rattles creatures affected by the spell. <br/>A concussive spell causes creatures that take damage from a spell that has the sonic descriptor to take a &ndash;2 penalty on attack rolls, saving throws, skill checks, and ability checks for a number of rounds equal to the actual spell level of the spell. A concussive spell only affects spells with the sonic descriptor. A concussive spell uses up a spell slot two levels higher than the spell's actual level.</p>
+				<h2 id="create-reliquary-arms-and-shields">Create Reliquary Arms and Shields</h2>
+				<p>Your magical creations are infused with divine power.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, ability to cast <i><a href="/pathfinderRPG/prd/spells/consecrate.html#_consecrate" >consecrate</a> </i>or <i><a href="/pathfinderRPG/prd/spells/desecrate.html#_desecrate" >desecrate</a></i>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you craft a magic weapon, magic armor, or magic shield, you may add one casting of <i><a href="/pathfinderRPG/prd/spells/consecrate.html#_consecrate" >consecrate</a> </i>or <i><a href="/pathfinderRPG/prd/spells/desecrate.html#_desecrate" >desecrate</a> </i>as part of the item crafting process. This increases the item's price by 250 gp. The item becomes a reliquary and can be used as a holy (or unholy) symbol divine focus of your deity. If you cast <i><a href="/pathfinderRPG/prd/spells/consecrate.html#_consecrate" >consecrate</a></i> or <i><a href="/pathfinderRPG/prd/spells/desecrate.html#_desecrate" >desecrate</a></i>, your reliquary counts as a permanent fixture for that spell while it remains in the spell's area.</p>
+				<h2 id="create-sanguine-elixir">Create Sanguine Elixir</h2>
+				<p>You can condense a fraction of your bloodline's power into a powerful elixir. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 15, <a href="/pathfinderRPG/prd/feats.html#_brew-potion" >Brew Potion</a>, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy) 12 ranks, sorcerer level 3rd. </p>
+				<p class="stat-block-1"><b>Benefit:</b> Once per day, when you clear your mind to regain spell slots, you can create a sanguine elixir. When you do, pick one of your bloodline powers. You transfer that power into a small potion that any creature can drink to temporarily gain the benefit of your bloodline power. Creating a sanguine elixir takes 1 hour, and requires special oils and distillates worth 100 gp, and when you make the sanguine elixir, you lose access to the bloodline power until the next time you clear your mind to regain spell slots. </p>
+                <p class="stat-block-2">When a creature drinks a sanguine elixir, it can activate the bloodline power anytime before the end of its next turn, as if it had access to that bloodline power. A creature that drinks the elixir cannot gain the benefit if its character level does not equal or exceed the minimum level of the bloodline power. Any level-dependent effects use the character level of the creature that drinks the sanguine elixir, or your sorcerer level, whichever is lower. Drinking a sanguine elixir is just like drinking a potion. A sanguine elixir is treated as a magic item with your caster level.</p>
+                <p class="stat-block-2">Sanguine elixirs are extremely unstable. They lose their potency 1 day after they are created.</p>
+				<h2 id="defending-eidolon">Defending Eidolon</h2>
+				<p>You have trained your eidolon to protect you. </p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Shield ally feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you are adjacent to your eidolon, you can choose for the eidolon to take a &ndash;1 penalty on melee attack rolls and combat maneuver checks to gain a +1 dodge bonus to your Armor Class. When your eidolon's base attack bonus reaches +5, and for every +5 thereafter, the penalty increases by &ndash;1 and the dodge bonus increases by +1. You must choose to use this feat when your eidolon is making an attack or full-attack action with melee or natural weapons, and its effect lasts until your eidolon's next turn, or until you are no longer adjacent to the eidolon, whichever occurs first.</p>
+				<h2 id="deny-death">Deny Death</h2>
+				<p>Your <i>ki</i> is so strong that it can deny death.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <i>Ki</i> pool, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a></p>
+				<p class="stat-block-1"><b>Benefit:</b> As long as you have 1 <i>ki</i> point in your ki pool, when you fail your Constitution check to stabilize, you do not lose 1 hit point. If you succeed at the check, you can spend 1 ki point to heal 1d6 hit points. If you roll a natural 20 on the check to stabilize, you can spend 1 ki point to heal 2d6 hit points of damage instead.</p>
+				<h2 id="detect-expertise">Detect Expertise</h2>
+				<p>You can detect the mystic specialty of a foe.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13; ability to cast <i><a href="/pathfinderRPG/prd/spells/detectChaos.html#_detect-chaos" >detect chaos</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectGood.html#_detect-good" >detect good</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectLaw.html#_detect-law" >detect law</a></i>, or <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a>.</i></p>
+				<p class="stat-block-1"><b>Benefit:</b> When you use any of the spells listed in this feat's prerequisites to detect a creature's alignment or its magic, you have a chance of detecting what spellcasting expertise it has. After you observe a creature with the detect spell for 3 rounds, it must make a Will save (DC 10 + 1/2 your caster level + your Intelligence modifier). If it fails the saving throw, you learn what bloodlines, domains, hexes, schools, or mysteries (if any) the creature possesses. If the creature makes its save, it is immune to the effects of this feat for 24 hours.</p>
+				<h2 id="die-for-your-master">Die for Your Master</h2>
+				<p>Your tumor familiar goes to any length to save your life.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Tumor familiar alchemist discovery. </p>
+				<p class="stat-block-1"><b>Benefit:</b> If your tumor familiar is attached, and you would be reduced to 0 or fewer hit points by damage in combat (from a weapon or other blow, not a spell or special ability), the familiar throws itself in the way of the attack as an immediate action. If it makes a Reflex saving throw (DC = damage dealt), it takes all the damage from the attack; if it fails, it takes half damage and you take half damage.</p>
+                <p class="stat-block-2">The familiar must be aware of the attack and able to react to it in order to use this ability, and it can only do this once per day&mdash;if it is denied its Dexterity bonus to AC, it can't use this ability. Since this effect would not normally allow the familiar to make a Reflex save for half damage, its improved evasion ability does not apply on this saving throw.</p>
+				<h2 id="divine-interference">Divine Interference</h2>
+				<p>You can convert a spell to interfere with an enemy's attack. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Divine spellcaster, caster level 10th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As an immediate action, when an enemy within 30 feet hits an ally with an attack, you can sacrifice a prepared divine spell or (if you are a spontaneous caster) an unused spell slot and make the enemy reroll the attack roll. The second attack roll takes a penalty equal to the level of the spell you sacrifice. You must sacrifice a spell of 1st-level or higher to use this ability. Whether or not the second attack is successful, you cannot use this effect on the same creature again for 1 day.</p>
+				<h2 id="dragonbane-aura">Dragonbane Aura</h2>
+				<p>Those within your dragonbane aura gain the same protection that you do. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Aura of courage class feature, caster level 8th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When fighting dragons, your aura of courage expands to a 20-foot-radius emanation, and allies in the aura gain a morale bonus on saving throws against dragon breath equal to your aura of courage's bonus against fear effects.</p>
+				<p class="stat-block-1"><b>Normal:</b> The aura of courage is a 10-foot-radius emanation, and grants a +4 morale bonus on fear effects.</p>
+				<h2 id="echoing-spell">Echoing Spell (Metamagic)</h2>
+				<p>You have learned how to release most, but not all, of a spell's potential when you cast it. </p>
+				<p class="stat-block-1"><b>Benefit:</b> When you cast an echoing spell, it does not disappear entirely from memory, and you can cast it one additional time during that day. No effect that allows you to reprepare or recast a spell can affect the echoed spell. If you prepare spells, this second casting does not require you to prepare it in another spell slot. If you spontaneously cast spells, this second casting does not expend another available spell slot. An echoing spell uses up a spell slot three levels higher than the spell's actual level. </p>
+				<h2 id="eldritch-heritage">Eldritch Heritage</h2>
+				<p>You are descended from a long line of sorcerers, and some portion of their power flows in your veins.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 13, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> with the class skill of bloodline selected for this feat (see below), character level 3rd.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Select one sorcerer bloodline. You must have Skill focus in the class skill that bloodline grants to a sorcerer at 1st level (for example, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> for the celestial bloodline). This bloodline cannot be a bloodline you already have. You gain the first-level bloodline power for the selected bloodline. For purposes of using that power, treat your sorcerer level as equal to your character level &ndash; 2, even if you have levels in sorcerer. You do not gain any of the other bloodline abilities.</p>
+				<h2 id="ensemble">Ensemble (Teamwork)</h2>
+				<p>You can create an ensemble of skilled and amateur performers to aid you in your performance.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> 5 ranks</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you are performing, allies within 20 feet who also have this feat can aid you with your <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> checks (including those made as part of bardic performance) as if they were aiding another as an immediate action. The allies make their aid another rolls before you make your check. No more than four allies can grant you a bonus with aid another. Allies aiding you do not need to use the same category of the <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> skill that you are using in order to aid you. </p>
+				<p class="stat-block-1"><b>Special:</b> If you possess one or more levels of the bard class, you can choose any one ally within 20 feet to be part of the ensemble. The ally is considered to have the ensemble teamwork feat for the purposes of aiding your performance.</p>
+				<h2 id="evolved-familiar">Evolved Familiar</h2>
+				<p>Your familiar is different from others of its kind.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, Cha 13, familiar class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Select an evolution from the list of 1-point evolutions available to a <a href="/pathfinderRPG/prd/advanced/baseClasses/summoner.html#_eidolon">summoner's eidolon</a>. Your familiar has this evolution. The familiar must conform to any limitations of the evolution. For instance, no familiars can benefit from the mount evolution and only familiars with wings can take the wing buffet evolution.</p>
+                <p class="stat-block-2">If you gain a new familiar, your old familiar loses all evolutions, and you can select a new 1-point evolution for the new familiar.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects stack, granting a new 1-point evolution to your familiar each time you gain this feat.</p>
+				<h2 id="exploit-lore">Exploit Lore</h2>
+				<p>You can use your knowledge of a creature's weaknesses to deliver a driving and relentless assault against it.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Monster lore class feature, base attack bonus +11.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Once per day, when you successfully identify all abilities and weaknesses of a creature using the appropriate <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> check, you gain a +2 bonus on attack and damage rolls against that creature for 1 minute. If you identify the abilities and weaknesses of numerous creatures, you must pick one creature to be the target of this effect.</p>
+				<h2 id="extra-arcana">Extra Arcana</h2>
+				<p>You have unlocked the secret of a new magus arcana.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Magus arcana class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain one additional magus arcana. You must meet all the prerequisites for this magus arcana.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects stack, granting a new arcana each time you gain this feat.</p>
+				<h2 id="extra-arcane-pool">Extra Arcane Pool</h2>
+				<p>You have learned how to draw more power from your arcane pool.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Arcane pool class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Your arcane pool increases by 2.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects stack, granting you an increase to your arcane pool each time you take this feat.</p>
+				<h2 id="extended-bane">Extended Bane</h2>
+				<p>Your dedication knows no limit. Your wrath dies hard.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Bane class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Add your Wisdom bonus to the number of rounds per day that you can use your bane ability.</p>
+				<h2 id="extra-cantrips-or-orisons">Extra Cantrips or Orisons</h2>
+				<p>You are a master of minor spells.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Ability to cast cantrips or orisons.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Add two cantrips to your cantrips known or two orisons to your orisons known.</p>
+				<p class="stat-block-1"><b>Special:</b> You can take this feat multiple times. Each time you do, add two cantrips or orisons to your spells known. </p>
+				<h2 id="extra-evolution">Extra Evolution</h2>
+				<p>Your eidolon has more evolutions. </p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Eidolon class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Your eidolon's evolution pool increases by 1.</p>
+				<p class="stat-block-1"><b>Special:</b> This evolution can be taken once at 1st level, and again at 5th, 10th, 15th and 20th.</p>
+				<h2 id="extra-ranger-trap">Extra Ranger Trap</h2>
+				<p>You can use ranger traps more often.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Trap class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can set ranger traps two additional times per day.</p>
+				<h2 id="extra-summons">Extra Summons</h2>
+				<p>You can summon monsters more often each day.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Ability to cast <i>summon monster</i> as a spell-like ability, summoner 1st.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain 1 additional use of your <i>summon monster</i> spell-like ability per day.</p>
+				<p class="stat-block-1"><b>Special:</b> You can take this feat multiple times, but it can only be taken once for every five summoner levels you possess.</p>
+				<h2 id="eyes-of-judgment">Eyes of Judgment</h2>
+				<p>The true motives of creatures cannot escape your discerning gaze.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Detect alignment class feature, caster level 6th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When using your detect alignment class feature, you may spend 3 rounds studying a creature within 60 feet. You cannot take any other actions while doing this. After that time has passed, you learn the alignment of the creature.</p>
+				<h2 id="fast-empathy">Fast Empathy</h2>
+				<p>Your empathic attunement to nature connects you swiftly with bestial minds.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> 5 ranks, wild empathy class feature. </p>
+				<p class="stat-block-1"><b>Benefit:</b> Using wild empathy is a standard action for you.</p>
+				<p class="stat-block-1"><b>Normal:</b> Using wild empathy requires 1 minute.</p>
+				<h2 id="favored-judgment">Favored Judgment</h2>
+				<p>Your judgment against a particular type of creature is particularly harsh.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Wis 13, judgment class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Select a favored race from the ranger's favored enemies chart. Any sacred or profane bonus you gain from a judgment is 1 higher for attacks you make against or take from creatures that match the selected favored enemy. </p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a different favored enemy.</p>
+				<h2 id="fearless-aura">Fearless Aura</h2>
+				<p>Your aura of courage becomes more potent, as your steadfast resolve is also manifested by your allies.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Aura of courage class feature, caster level 8th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Your aura of courage expands to a 20-foot-radius emanation. Allies within the aura are immune to fear effects. </p>
+				<p class="stat-block-1"><b>Normal:</b> The aura of courage affects each ally within 10 feet, and grants a +4 morale bonus on saving throws against fear effects.</p>
+				<h2 id="fire-music">Fire Music</h2>
+				<p>Your ability to command fire and bardic music has created a strange blend of both magics.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> 5 ranks, ability to cast bard spells, ability to cast an arcane fire spell from some other spellcasting class.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you cast a bard spell that deals damage, you may replace the spell's normal damage with fire damage or split the spell's damage so that half of it is the normal damage type and half is fire damage.</p>
+                <p class="stat-block-2">If you cast a <a href="/pathfinderRPG/prd/advanced/baseClasses/summoner.html#_summon-monster-i"><i>summon monster</i></a> spell as a bard spell,  you may choose to give the summoned creature a fiery appearance, which gives it fire resistance 5 and adds +1 fire damage to all of its natural attacks. The creature sheds dim light in a 5-foot radius. This aspect of the feat has no effect if the creature already has the fire subtype.</p>
+                <p class="stat-block-2">When you use this feat, the affected spell gains the fire descriptor.</p>
+				<h2 id="flaring-spell">Flaring Spell (Metamagic)</h2>
+				<p>You dazzle creatures when you affect them with a spell that has the fire, light, or electricity descriptor. </p>
+				<p class="stat-block-1"><b>Benefit:</b> The electricity, fire, or light effects of the affected spell create a flaring that dazzles creatures that take damage from the spell. A flare spell causes a creature that takes fire or electricity damage from the affected spell to become dazzled for a number of rounds equal to the actual level of the spell. A flaring spell only affects spells with a fire, light, or electricity descriptor. A flaring spell uses up a spell slot one level higher than the spell's actual level. </p>
+				<h2 id="focused-eidolon">Focused Eidolon</h2>
+				<p>Your bond with your eidolon helps to focus your concentration.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Shield ally class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> While you are adjacent to your eidolon, you receive a +4 bonus on concentration checks.</p>
+				<h2 id="gliding-steps">Gliding Steps</h2>
+				<p>You skate across the surface of the earth as if gliding on ice.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_mobility" >Mobility</a>, <a href="/pathfinderRPG/prd/feats.html#_nimble-moves" >Nimble Moves</a>, <i>ki</i> pool.</p>
+				<p class="stat-block-1"><b>Benefit:</b> If you have at least one <i>ki</i> in your ki pool, when you move you do not provoke attacks of opportunity when leaving the first square of that movement. You can spend 1 ki point to avoid provoking attacks of opportunity during that entire move.</p>
+				<h2 id="grant-initiative">Grant Initiative</h2>
+				<p>Not only are you a master at taking the initiative, but you can also grant it to someone else.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cunning initiative class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> At the start of each encounter, you can either choose to keep the bonus granted to you by your Wisdom modifier on initiative checks or choose to give that bonus to one of your allies that you can see. You must make this choice before you or the ally you are granting the bonus to makes the initiative check.</p>
+				<h2 id="greater-blighted-critical-">Greater Blighted Critical (Critical)</h2>
+				<p>Your critical hit from a spell or spell-like ability afflicts the target with a major spellblight.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="#blighted-critical-" >Blighted Critical</a>, caster level 12th. </p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you confirm a critical hit with a touch spell, ranged touch spell, or spell-like ability against an opponent, the victim gains a random <i>major spellblight</i>.</p>
+				<p class="stat-block-1"><b>Special:</b> You can only apply the effects of one critical feat to a given critical hit unless you possess <a href="/pathfinderRPG/prd/feats.html#_critical-mastery" >Critical Mastery</a>.</p>
+				<h2 id="greater-eldritch-heritage">Greater Eldritch Heritage</h2>
+				<p>Your discovered bloodline power reaches its zenith.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 17, <a href="#eldritch-heritage">Eldritch Heritage</a>, <a href="#improved-eldritch-heritage">Improved Eldritch Heritage</a>, character level 17th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain an additional power from the bloodline you selected with the Eldritch Heritage feat. You gain a 15th-level (or lower) sorcerer bloodline power that you do not already have. For purposes of using that power, treat your character level as your sorcerer level for all your sorcerer bloodline powers granted by this feat, Eldritch Heritage, and Improved Eldritch Heritage.</p>
+				<h2 id="greater-mercy">Greater Mercy</h2>
+				<p>Your mercy has incredible recuperative properties.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 13, lay on hands class feature, mercy class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you use your lay on hands ability and the target of that ability does not have any conditions your mercies can remove, it instead heals an additional +1d6 points of damage.</p>
+				<h2 id="greater-spell-specialization">Greater Spell Specialization</h2>
+				<p>You can sacrifice a prepared spell in order to spontaneously cast your specialized spell.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a>, <a href="#spell-specialization" >Spell Specialization</a>, able to prepare 5th-level spells.</p>
+				<p class="stat-block-1"><b>Benefit:</b> By sacrificing a prepared spell of the same or higher level than your specialized spell, you may spontaneously cast your specialized spell. The specialized spell is treated as its normal level, regardless of the spell slot used to cast it. You may add a metamagic feat to the spell by increasing the spell slot and casting time, just like a cleric spontaneously casting a <i>cure</i> or <i>inflict</i> spell with a metamagic feat.</p>
+				<h2 id="greater-wild-empathy">Greater Wild Empathy</h2>
+				<p>Your natural empathy stretches across the world of nature.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) 5 ranks, wild empathy class feature. </p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain a +2 insight bonus on wild empathy checks, and you may use wild empathy to duplicate an <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> check rather than a <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check. In addition, choose one of the following kinds of creatures: elementals, fey, lycanthropes, plants, or vermin. You may influence creatures of that type with wild empathy, if their Intelligence score is 1 or 2, or they do not possess an Intelligence score. Once you choose the type of creature, it cannot be changed.</p>
+				<p class="stat-block-1"><b>Special:</b> You may select this feat more than once. Each time, you may choose an additional creature type to influence.</p>
+				<h2 id="implant-bomb">Implant Bomb</h2>
+				<p>You can attach a bomb to a creature that explodes when the creature dies or after 24 hours.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> 5 ranks, delayed bomb alchemist discovery. </p>
+				<p class="stat-block-1"><b>Benefit:</b> You may implant a bomb in a willing or helpless creature (a mindless creature under your control, such as a zombie, counts as willing for this purpose). This takes 1 hour and expends 1 use of your bomb ability for the day. When the implanted creature dies or is destroyed, the bomb detonates in the creature's square as if it were a delayed bomb set by you (though you can set the bomb's damage to less than your normal bomb damage). You can use any bomb-affecting discoveries on this implanted bomb (acid bomb, frost bomb, smoke bomb, and so on) as normal. The bomb automatically detonates 24 hours after you implant it in the creature.</p>
+                <p class="stat-block-2">If you expend 150 gp worth of alchemical reagents per die of the bomb's damage (for example, 750 gp for a 5d6 bomb), the bomb does not automatically detonate after 24 hours, and only detonates if the creature dies or is destroyed (24 hours after implantation, this bomb no longer counts toward your daily total).</p>
+                <p class="stat-block-2">Implanting a bomb is as invasive as using the <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> skill to treat deadly wounds and leaves surgical scars unless the creature is healed by magic or abilities such as regeneration or fast healing. Some creatures (such as oozes, elementals, and creatures with the incorporeal quality) cannot have bombs implanted in them. Removing an implanted bomb requires a <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> check to treat deadly wounds, followed by a <i><a href="/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i> spell or <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> check to neutralize the bomb (DC = 11 + alchemist's caster level).</p>
+				<h2 id="improved-eldritch-heritage">Improved Eldritch Heritage</h2>
+				<p>The power of your discovered bloodline continues to grow.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 15, <a href="#eldritch-heritage" >Eldritch Heritage</a>, character level 11th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain either the 3rd-level or the 9th-level power (your choice) of the bloodline you selected with the Eldritch Heritage feat. For purposes of using that power, treat your sorcerer level as equal to your character level &ndash; 2, even if you have levels in sorcerer. You do not gain any of the other bloodline abilities.</p>
+				<p class="stat-block-1"><b>Special:</b> You may select this feat multiple times. Its effects do not stack. Each time you select the feat, it applies to a different bloodline power for that bloodline available at sorcerer level 3 or 9.</p>
+				<h2 id="improved-monster-lore">Improved Monster Lore</h2>
+				<p>You are obsessed with the abilities and weaknesses of monsters.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Monster lore class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain a sacred bonus on all skill checks to identify the abilities and weaknesses of creatures equal to 1/2 your level in classes that grant you the monster lore class feature.</p>
+				<h2 id="insightful-gaze">Insightful Gaze</h2>
+				<p>In your personal interactions, you notice what others don't. It's hard to get anything past you. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Stern gaze class feature, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> 5 ranks.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever you make a Sense Motive check to oppose someone's <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> check, you can roll two dice and take the higher result.</p>
+				<h2 id="intimidating-gaze">Intimidating Gaze</h2>
+				<p>There is something in your eyes that scares people.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 13+, stern gaze class feature, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> 5 ranks.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Once per day, as a free action, when making an Intimidate skill check, you can roll two dice and take the higher result.</p>
+				<h2 id="judgment-surge">Judgment Surge</h2>
+				<p>Once per day, the power of your faith surges, further empowering your judgments.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Judgment class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Once per day, you can treat your class level for your judgment class feature as if it were 3 higher than normal. If you have multiple judgments active at the same time, this benefit applies to all of them.</p>
+				<h2 id="ki-stand">Ki Stand</h2>
+				<p>If an opponent knocks you down, you swiftly rebound with an attack.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <i>Ki</i> pool.</p>
+				<p class="stat-block-1"><b>Benefit:</b> While you have at least 1 ki point in your ki pool, you can stand up as a swift action that provokes attacks of opportunity.</p>
+                <p class="stat-block-2">You may spend 1 point of your ki pool to stand up as a swift action without provoking attacks of opportunity.</p>
+				<h2 id="learn-ranger-trap">Learn Ranger Trap</h2>
+				<p>You learn how to create one kind of ranger trap.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> 5 ranks.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Select one ranger trap (see page 64). You may use this trap a number of times per day equal to your Wisdom bonus (minimum 1). The DC for your trap is equal to 10 + 1/2 your character's level + your Wisdom bonus, and it lasts 1 day per two character levels.</p>
+                <p class="stat-block-2">If you are not a ranger, you can only set extraordinary traps with this feat; like all extraordinary ranger traps, this decreases the trap DC by 2.</p>
+				<p class="stat-block-1"><b>Special:</b> A ranger may use ranger traps a number of times per day equal to 1/2 his ranger level plus his Wisdom bonus. See the description of ranger traps for durations.</p>
+				<h2 id="life-lure">Life Lure</h2>
+				<p>Your channeled positive energy is irresistibly sweet to nearby undead.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Channel positive energy class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As a standard action, you can channel positive energy to fascinate all undead within 30 feet for a number of rounds equal to your Charisma modifier (minimum of 1). Undead that succeed at a Will save (DC 10 + 1/2 your cleric level + your Charisma modifier) are unaffected. Channeling energy for this purpose does not heal or harm creatures.</p>
+				<h2 id="moonlight-summons">Moonlight Summons</h2>
+				<p>Your summoned minions are infused with the power of the moon.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (conjuration), able to cast <i>summon nature's ally</i>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Creatures you summon shed light as a <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i> spell. They are immune to confusion and sleep effects, and their natural weapons are treated as silver for the purposes of overcoming damage reduction.</p>
+				<h2 id="mystic-stride">Mystic Stride</h2>
+				<p>Enchanted vegetation does not bar your path.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 15, <a href="/pathfinderRPG/prd/feats.html#_nimble-moves" >Nimble Moves</a>, woodland stride class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can move at full speed even through thorns, briars, and overgrown areas that are enchanted or magically manipulated to impede motion, even if those areas confer the entangled condition.</p>
+				<p class="stat-block-1"><b>Normal:</b> Woodland stride does not apply to thorns, briars, and overgrowth areas that are enchanted or magically manipulated.</p>
+				<h2 id="oracular-intuition">Oracular Intuition</h2>
+				<p>You are highly sensitive to magic and changes in a person's demeanor.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Mystery class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You get a +2 bonus on <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks and <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.</p>
+				<h2 id="painful">Painful Anchor</h2>
+				<p>Evil outsiders take damage when they attempt to connect to other planes.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Anchoring aura class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When an evil outsider uses a calling, summoning, or teleportation effect, or any ability that physically transports a creature to or from another plane (such as <i><a href="/pathfinderRPG/prd/spells/blink.html#_blink" >blink</a></i> or <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-etherealness" >etherealness</a></i>) within your anchoring aura, it takes damage equal to 4d8 + your Charisma modifier. This damage comes from holy power and is not subject to damage reduction, energy immunities, or energy resistances. </p>
+				<h2 id="piercing-spell">Piercing Spell (Metamagic)</h2>
+				<p>Your studies have helped you develop methods to overcome spell resistance.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you cast a piercing spell against a target with spell resistance, it treats the spell resistance of the target as 5 lower than its actual SR. A piercing spell uses up a spell slot one level higher than the spell's actual level.</p>
+				<h2 id="planar-preservationist">Planar Preservationist</h2>
+				<p>You know how to preserve and reconstitute extraplanar monsters as well as normal animals.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Preservationist alchemist archetype.</p>
+				<p class="stat-block-1"><b>Benefit:</b> For every <a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_table-10-2-summon-nature-s-ally"><i>summon nature's ally</i></a> extract you know, you learn the equivalent <a href="/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i"><i>summon monster</i></a> spell as an extract. If you later learn other summon nature's ally extracts, you automatically learn the equivalent summon monster spell as an extract.</p>
+				<h2 id="powerful-shape">Powerful Shape</h2>
+				<p>Your wild shapes are mighty and muscular.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Wild shape class feature, druid level 8th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When in wild shape, treat your size as one category larger for the purpose of calculating CMB, CMD, carrying capacity, and any size-based special attacks you use or that are used against you (such as grab, swallow whole, and trample).</p>
+				<h2 id="prodigy">Prodigy</h2>
+				<p>You are naturally skilled at arts, professions, and the acquisition of knowledge.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Choose two <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a>, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a>, or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> skills in any combination (two Craft skills, a Craft skill and a Perform skill, and so on). You receive a +2 bonus on checks with these skills. If you have 10 or more ranks in any one of these skills, the bonus increases to +4 for that skill. </p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to two new skills.</p>
+				<h2 id="prophetic-visionary">Prophetic Visionary</h2>
+				<p>Your oracular abilities give you a glimpse into the future.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Mystery class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Once per day, you can enter a deep trance to receive a vision of the future. The trance lasts for 10 minutes, during which time you can take no other actions. If you are interrupted, you must begin again. When you come out of the trance, you know whether a particular action in the immediate future will bring good or bad results, as an <i><a href="/pathfinderRPG/prd/spells/augury.html#_augury" >augury</a></i> spell with a 70% chance of success.</p>
+				<h2 id="pure-faith">Pure Faith</h2>
+				<p>Not only are you immune to disease, like most paladins, but you also are highly resilient to poisons. </p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Divine health class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain a +4 sacred bonus to saving throws against poison.</p>
+				<h2 id="quarterstaff-master">Quarterstaff Master (Combat)</h2>
+				<p>You can wield a quarterstaff as either a two-handed or one-handed weapon.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (quarterstaff), base attack bonus +5.</p>
+				<p class="stat-block-1"><b>Benefit:</b> By employing a number of different stances and techniques, you can wield a quarterstaff as a one-handed weapon. At the start of your turn, you decide whether or not you are going to wield the quarterstaff as a one-handed or two-handed weapon. When you wield it as a one-handed weapon, your other hand is free, and you cannot use the staff as a double weapon. You can take the feat <a href="/pathfinderRPG/prd/feats.html#_weapon-specialization" >Weapon Specialization</a> in the quarterstaff even if you have no levels in fighter.</p>
+				<h2 id="quick-channel">Quick Channel</h2>
+				<p>Your divine energies flash with dazzling speed. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) 5 ranks, channel energy class feature. </p>
+				<p class="stat-block-1"><b>Benefit:</b> You may channel energy as a move action by spending 2 daily uses of that ability.</p>
+				<h2 id="quick-wild-shape">Quick Wild Shape</h2>
+				<p>You sacrifice power for speed in changing form.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Wild shape class feature, caster level 8th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can wild shape as a move action or a swift action. However, you are limited to forms available to a druid two levels lower when changing form as a move action, or four levels lower as a swift action.</p>
+				<h2 id="radiant-charge">Radiant Charge</h2>
+				<p>When you charge, you do so with the power of faith.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Lay on hands class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you hit with a charge attack, you can expend all of your remaining uses of lay on hands to deal extra damage equal to 1d6 per use of lay on hands expended + your Charisma bonus. This damage comes from holy power and is not subject to damage reduction, energy immunities, or energy resistances.</p>
+				<h2 id="remote-bomb">Remote Bomb</h2>
+				<p>You can set off your delayed bombs at great distances.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Delayed bomb discovery.</p>
+				<p class="stat-block-1"><b>Benefit:</b> The maximum delay for your delayed bombs increases to a number of minutes equal to your level.</p>
+                <p class="stat-block-2">If you have line of effect to your delayed bomb, you may detonate it earlier than its preset time by making a DC 20 Intelligence check; the DC increases by +1 for every 10 feet of distance between you and the bomb.</p>
+				<h2 id="resilient-eidolon">Resilient Eidolon</h2>
+				<p>Your link with your eidolon is strong enough that it can remain with you for a short time after you fall unconscious or are killed.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Eidolon class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> If you are knocked unconscious, fall asleep, or are killed, your eidolon remains for a number of rounds equal to your summoner level before it is banished. If you are brought back to consciousness before this duration expires, your eidolon is not banished. If the duration expires before you are brought back to consciousness, your eidolon is banished normally.</p>
+				<p class="stat-block-1"><b>Normal:</b> An eidolon is immediately banished when its summoner is unconscious, asleep, or killed.</p>
+				<h2 id="reward-of-grace">Reward of Grace</h2>
+				<p>When you lay on hands, divine energy ripples through you, granting you grace.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Lay on hands class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Each time you use your lay on hands ability, you gain a +1 sacred bonus on all attack rolls for 1 round.</p>
+				<h2 id="reward-of-life">Reward of Life</h2>
+				<p>When you lay on hands, you are also healed.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Lay on hands class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Each time you use your lay on hands ability to heal a creature other than yourself, you heal a number of hit points equal to your Charisma bonus. This ability has no effect if you use lay on hands to harm undead.</p>
+				<h2 id="ricochet-splash-weapon">Ricochet Splash Weapon</h2>
+				<p>Even when your thrown splash weapons miss, they are especially dangerous.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Dex 13, <a href="/pathfinderRPG/prd/feats.html#_throw-anything" >Throw Anything</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Whenever your splash weapon misses and the misdirection roll indicates it lands in a square occupied by a creature, you may make an attack roll (at a &ndash;5 penalty) as if you had thrown the splash weapon at that creature. If this attack roll succeeds, the splash weapon hits and the creature takes full damage instead of splash damage. Squares adjacent to this creature still take splash damage as normal.</p>
+				<p class="stat-block-1"><b>Normal:</b> A thrown splash weapon that misses deals splash damage in the square where it lands and in adjacent squares.</p>
+				<h2 id="rime-spell">Rime Spell (Metamagic)</h2>
+				<p>Creatures damaged by your spells with the cold descriptor become entangled.</p>
+				<p class="stat-block-1"><b>Benefit:</b> The frost of your cold spell clings to the target, impeding it for a short time. A rime spell causes creatures that takes cold damage from the spell to become entangled for a number of rounds equal to the original level of the spell.</p>
+                <p class="stat-block-2">This feat only affects spells with the cold descriptor. A rime spell uses up a spell slot one level higher than the spell's actual level.</p>
+				<h2 id="sacred-summons">Sacred Summons</h2>
+				<p>The minions of your divine patrons stand ready to answer your call.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Aura class feature, ability to cast <a href="/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i"><i>summon monster</i></a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When using <i>summon monster </i>to summon creatures whose alignment subtype or subtypes exactly match your aura, you may cast the spell as a standard action instead of with a casting time of 1 round.</p>
+				<h2 id="sense-link">Sense Link</h2>
+				<p>When you and your eidolon share senses, your combined minds grant you exceptional powers of observation.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Bond senses class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When sharing the senses of your eidolon, you gain a +4 competence bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks for the duration of your bond senses ability.</p>
+				<h2 id="shaping-focus">Shaping Focus</h2>
+				<p>Your powers of shapeshifting outstrip your dabbling in the druidic faith.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Wild shape class feature, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) 5 ranks.</p>
+				<p class="stat-block-1"><b>Benefit:</b> If you are a multiclassed druid, your wild shape ability is calculated as though your druid level were four higher, to a maximum level equal to your character level.</p>
+				<p class="stat-block-1"><b>Special:</b> This feat has no effect if you are not a multiclassed druid.</p>
+				<h2 id="sin-seer">Sin Seer</h2>
+				<p>Unlike others who have taken the oath against undeath (see page 60), your preoccupation with the undead does not cloud your view of good and evil.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Detect undead paladin class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain the <i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i> class feature. You may use it or the <i><a href="/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead" >detect undead</a></i> class feature, but not at the same time.</p>
+				<h2 id="skeleton-summoner">Skeleton Summoner</h2>
+				<p>The walking dead respond to your call.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (necromancy), ability to cast <i>summon monster</i>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Add “human skeleton” to the list of creatures you can summon with <i><a href="/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i" >summon monster I</a></i> and “human skeletal champion” to the list of creatures you can summon with <i><a href="/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iii" >summon monster III</a></i>. </p>
+                <p class="stat-block-2">Once per day, when you cast <i>summon monster</i>, you may summon a skeletal version of one of the creatures on that spell's summoning list (apply the skeleton template to that creature to create this monster).</p>
+				<h2 id="sorcerous-bloodstrike">Sorcerous Bloodstrike</h2>
+				<p>You can regain power when you kill a creature.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 13, sorcerer bloodline class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Once per day, as an immediate action upon reducing a creature to 0 or fewer hit points with one of your sorcerer spells, you can regain one usage of a sorcerer bloodline power that has a limited number of uses per day. The slain creature must have at least half as many Hit Dice as your sorcerer level. You cannot use this feat to gain another usage of a bloodline power that you have not yet used today. </p>
+				<h2 id="spell-bluff">Spell Bluff</h2>
+				<p>You know the principles of arcane dueling, and when fighting other spellcasters, you have learned to hide the true nature of your spells until the last possible moment. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> 5 ranks, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> 5 ranks. </p>
+				<p class="stat-block-1"><b>Benefit:</b> If another spellcaster tries to counterspell your casting, she adds +4 to her Spellcraft DC when trying to determine your spell.</p>
+                <p class="stat-block-2">Because you have studied how to mask the recognizable elements of your spellcasting, you gain a +2 bonus on your Spellcraft checks to identify and counter an opponent's spell if it is a spell you know or have in your spellbook.</p>
+				<h2 id="spell-hex">Spell Hex</h2>
+				<p>You can transform a 1st-level spell into a hex.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Major hex class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Select one 1st-level spell in the class that grants you the major hex class feature. You can learn that spell as a hex, and can use that hex three times per day. This is a spell-like ability. You use your class level in the major-hex-granting class as your caster level for the spell hex. The spell hex uses your hex DC instead of its original spell DC.</p>
+                <p class="stat-block-2">If the spell is a touch spell and you miss the creature, you cannot target the creature with that spell hex again for 24 hours. If the spell allows a saving throw to negate or take a partial effect from the spell, and the target succeeds at that saving throw, it cannot be affected by the spell hex for 24 hours, even if it is in the area of the spell hex.</p>
+				<h2 id="spell-specialization">Spell Specialization</h2>
+				<p>Select one spell. You cast that spell with greater than normal power.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Select one spell of a school for which you have taken the Spell Focus feat. Treat your caster level as being two higher for all level-variable effects of the spell.</p>
+                <p class="stat-block-2">Every time you gain an even level in the spellcasting class you chose your spell from, you can choose a new spell to replace the spell selected with this feat, and that spell becomes your specialized spell.</p>
+				<p class="stat-block-1"><b>Special:</b> You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a different spell.</p>
+				<h2 id="spellsong">Spellsong</h2>
+				<p>You can blend the power of your performance and spellcasting.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 13, bardic performance class ability, able to cast 1st-level spells.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can combine your bardic performance and your spellcasting in two ways. </p>
+                <p class="stat-block-2">First, you can conceal the activity of casting a bard spell by masking it in a performance. As a swift action, you may combine your casting time of a spell with a <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> check. Observers must make a <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> or <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> check opposed by your Perform check to realize you are also casting a spell. This uses 1 round of your bardic performance ability, regardless of the spell's casting time.</p>
+                <p class="stat-block-2">Second, as a move action, you can use 1 round of bardic performance to maintain a bard spell with a duration of concentration. You can cast another spell in the same round you are using bardic magic to maintain concentration; if you do this, your concentration on the maintained spell ends when you end the bardic performance the spell is part of.</p>
+				<h2 id="split-hex">Split Hex</h2>
+				<p>You can split the effect of one of your targeted hexes, affecting another creature you can see. </p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Witch level 10th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you use one of your hexes (not a major hex or a grand hex) that targets a single creature, you can choose another creature within 30 feet of the first target to also be targeted by the hex.</p>
+				<h2 id="split-major-hex">Split Major Hex</h2>
+				<p>You can split the effect of one of your targeted hexes, affecting another creature you can see. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Split hex, caster level 18th.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you use one of your major hexes (not a grand hex) that targets a creature, you can choose another creature within 30 feet of the first target to also be targeted by the major hex.</p>
+				<h2 id="spontaneous-metafocus">Spontaneous Metafocus</h2>
+				<p>You can focus to combine one of your known spells and metamagic feats.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 13, one metamagic feat, able to spontaneously cast spells.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Pick a single spell that you are able to cast spontaneously. When you apply metamagic feats to that spell, you can cast the spell using the normal casting time instead of at the slower casting time.</p>
+				<p class="stat-block-1"><b>Special:</b> You can take this feat multiple times. Each time you select this feat, choose a new spell that you can cast spontaneously; the feat applies to that spell.</p>
+				<h2 id="starlight-summons">Starlight Summons</h2>
+				<p>Your summoned minions slink along under the shadows of the stars. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (conjuration), able to cast <i>summon nature's ally</i>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Creatures you summon gain the <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a> feat, a +5 bonus to <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks in dim light or darkness, and their natural weapons are treated as cold iron for overcoming damage reduction.</p>
+				<h2 id="sunlight-summons">Sunlight Summons</h2>
+				<p>Your summoned minions shine with the power of the sun. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (conjuration), able to cast <i>summon nature's ally</i>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Creatures that you summon shed light as a <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i> spell. They are immune to blinding or dazzling effects, and their natural weapons are treated as magical for overcoming damage reduction.</p>
+				<h2 id="superior-summoning">Superior Summoning</h2>
+				<p>You can summon more creatures.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/feats.html#_augment-summoning" >Augment Summoning</a>, caster level 3rd.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Each time you cast a summoning spell that conjures more than one creature, add one to the total number of creatures summoned.</p>
+				<h2 id="thanatopic-spell">Thanatopic Spell (Metamagic)</h2>
+				<p>Your spells can pierce wards against negative energy and even affect undead targets. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) 6 ranks, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (necromancy).</p>
+				<p class="stat-block-1"><b>Benefit:</b> A thanatopic spell pierces defenses and immunities that protect against death effects, negative levels, and energy drain, affecting the target as if the protective barrier did not exist.</p>
+                <p class="stat-block-2">For example, you could cast a thanatopic <i><a href="/pathfinderRPG/prd/spells/vampiricTouch.html#_vampiric-touch" >vampiric touch</a></i> or <i><a href="/pathfinderRPG/prd/spells/enervation.html#_enervation" >enervation</a></i> spell on a target under the effects of <i><a href="/pathfinderRPG/prd/spells/deathWard.html#_death-ward" >death ward</a></i>, and the target would suffer the normal effect of the spell. Saving throws and SR (if any) still apply. </p>
+                <p class="stat-block-2">Undead are susceptible to spells augmented by this feat, as it retunes the negative energy to be harmful to them. A thanatopic spell that would kill a living creature (such as by giving it negative levels equal to its Hit Dice) destroys an undead (though undead such as ghosts, liches, and vampires may reform as normal). Undead affected by thanatopic spells that give negative levels automatically make their saving throws to remove negative levels after 24 hours. </p>
+                <p class="stat-block-2">A thanatopic spell uses up a spell slot two levels higher than the spell's actual level. </p>
+				<p class="stat-block-1"><b>Normal:</b> Defenses such as <i><a href="/pathfinderRPG/prd/spells/deathWard.html#_death-ward" >death ward</a></i> negate death effects, negative levels, and energy drain. Undead are immune to these attacks.</p>
+				<h2 id="theurgy">Theurgy</h2>
+				<p>You can blend the power of arcane and divine magic.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Wis 13, Int or Cha 13, able to cast 1st-level arcane spells, able to cast 1st-level divine spells.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can augment the power of your divine spells with arcane energy and augment your arcane spells with divine energy.</p>
+                <p class="stat-block-2">When casting a divine spell, you may sacrifice an arcane spell slot or arcane prepared spell of that spell's level or higher as a swift action. The caster level for that divine spell increases by +1.</p>
+                <p class="stat-block-2">When casting an arcane spell, you may sacrifice a divine spell slot or prepared divine spell of the same or higher level as a swift action. Half the damage dealt by the arcane spell becomes holy (if you channel positive energy) or unholy (if you channel negative energy).</p>
+				<h2 id="thoughtful-discernment">Thoughtful Discernment</h2>
+				<p>Thinking back, you discover a lie in what you once thought to be words of truth.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Discern lies class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Once per day as a free action, you can think back about a single statement you heard in the last day and determine if it was a lie. This acts like the <i><a href="/pathfinderRPG/prd/spells/discernLies.html#_discern-lies" >discern lies</a></i> spell, but instead of affecting a creature, it affects a single statement a creature has made. </p>
+                <p class="stat-block-2">For example, if the king told you, “My daughter is in the monster's dungeon” before you left to find her, as long as the king said that to you within the past day, you can use this feat to determine whether or not the king deliberately and knowingly lied to you when he made that statement.</p>
+				<h2 id="threnodic-spell">Threnodic Spell (Metamagic)</h2>
+				<p>You can convert mind-affecting magic to necromantic power capable of controlling undead. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) 6 ranks, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (necromancy). </p>
+				<p class="stat-block-1"><b>Benefit:</b> This feat only works on mind-affecting spells. A threnodic spell affects undead creatures (even mindless undead) as if they weren't immune to mind-affecting effects, but has no effect on living creatures. A threnodic spell uses up a spell slot two level higher than the spell's actual level. </p>
+				<p class="stat-block-1"><b>Normal:</b> Undead are immune to mind-affecting effects.</p>
+				<h2 id="toppling-spell">Toppling Spell (Metamagic)</h2>
+				<p>Your spells with the force descriptor knock the affected creatures prone.</p>
+				<p class="stat-block-1"><b>Benefit:</b> The impact of your force spell is strong enough to knock the target prone. If the target takes damage, fails its saving throw, or is moved by your force spell, make a trip check against the target, using your caster level plus your casting ability score bonus (Wisdom for clerics, Intelligence for wizards, and so on). This does not provoke an attack of opportunity. If the check fails, the target cannot attempt to trip you or the force effect in response.</p>
+                <p class="stat-block-2">A toppling spell only affects spells with the force descriptor. A toppling spell uses up a spell slot one level higher than the spell's actual level.</p>
+				<h2 id="tripping-staff">Tripping Staff (Combat)</h2>
+				<p>You can make a trip attack with your quarterstaff.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-trip" >Improved Trip</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (quarterstaff), base attack bonus +6.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You treat quarterstaves as if they had the trip special feature. </p>
+				<p class="stat-block-1"><b>Special:</b> If you are a magus with the staff magus archetype, you can use spellstrike on any trip combat maneuver you make with the staff. </p>
+				<h2 id="tripping-twirl">Tripping Twirl (Combat)</h2>
+				<p>You can make a trip attack with a quarterstaff on all adjacent enemies.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-trip" >Improved Trip</a>, <a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_tripping-staff" >Tripping Staff</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (quarterstaff), <a href="/pathfinderRPG/prd/feats.html#_weapon-specialization" >Weapon Specialization</a> (quarterstaff), base attack bonus +12.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As a full-round action, while wielding a quarterstaff two-handed, you can attempt a trip combat maneuver against each enemy adjacent to you.</p>
+				<p class="stat-block-1"><b>Special:</b> If you are a magus with the staff magus archetype, you can use spellstrike on any one trip combat maneuver you make with the staff. </p>
+				<h2 id="ultimate-mercy">Ultimate Mercy</h2>
+				<p>By using lay on hands, you can bring the dead back to life.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Cha 19, <a href="#greater-mercy" >Greater Mercy</a>, lay on hands, mercy class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You can expend 10 uses of lay on hands to bring a single dead creature you touch back to life as a <i><a href="/pathfinderRPG/prd/spells/raiseDead.html#_raise-dead" >raise dead</a></i> spell with a caster level equal to your paladin level. You must provide the material component for <i><a href="/pathfinderRPG/prd/spells/raiseDead.html#_raise-dead" >raise dead</a></i> or choose to accept 1 temporary negative level; this level automatically goes away after 24 hours, never becomes a permanent negative level, and cannot be overcome in any way except by waiting for the duration to expire. </p>
+				<h2 id="ultimate-resolve">Ultimate Resolve</h2>
+				<p>Your aura of resolve does not fall with you.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Aura of resolve class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Your aura of resolve is a 20-foot emanation, and does not end if you fall unconscious. </p>
+				<p class="stat-block-1"><b>Normal:</b> The aura of resolve affects each ally within 10 feet, and ends when you fall unconscious.</p>
+				<h2 id="uncanny-alertness">Uncanny Alertness</h2>
+				<p>Your research into arcana and the nature of reality has given you heightened senses. </p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> This feat gives you an additional +1 bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks, and you gain a +2 bonus on saving throws against sleep and charm effects.</p>
+				<h2 id="uncanny-concentration">Uncanny Concentration</h2>
+				<p>You have learned to enter a deeper state when casting spells, allowing you to shrug off distractions, damage, weather effects, and even the effects of other spells. </p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You do not need to make concentration checks when affected by vigorous or violent motion or by violent weather. You gain a +2 bonus on all other concentration checks.</p>
+				<h2 id="undead-master">Undead Master</h2>
+				<p>You can marshal vast armies of the undead to serve you. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Spell focus (necromancy), the ability to cast <i><a href="/pathfinderRPG/prd/spells/animateDead.html#_animate-dead" >animate dead</a></i> or <i><a href="/pathfinderRPG/prd/spells/commandUndead.html#_command-undead" >command undead</a></i>.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When you cast <i>animate dead</i> or use the <a href="/pathfinderRPG/prd/feats.html#_command-undead" >Command Undead</a> feat, you are considered to be four levels higher when determining the number of Hit Dice you animate. When you cast <i>command undead</i>, your duration is doubled. </p>
+				<h2 id="unsanctioned-detection">Unsanctioned Detection</h2>
+				<p>You can focus your ability to detect evil for more practical or mundane purposes</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> <i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >Detect evil</a></i> class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> As a swift action, you can focus the clarity granted by your <i>detect evil</i> ability to heighten your awareness of other things. This gives you a +10 sacred bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks for one round. This expends your use of the <i>detect evil</i> class ability for the next 24 hours.</p>
+				<h2 id="unsanctioned-knowledge">Unsanctioned Knowledge</h2>
+				<p>You have searched though forbidden texts and are privy to powerful but proscribed magic.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Int 13, ability to cast 1st-level paladin spells.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Pick one 1st-level spell, one 2nd-level spell, one 3rd-level spell, and one 4th-level spell from the bard, cleric, inquisitor, or oracle spell lists. Add these spells to your paladin spell list as paladin spells of the appropriate level. Once chosen, these spells cannot be changed.</p>
+				<h2 id="versatile-channeler">Versatile Channeler</h2>
+				<p>You can choose to channel positive and negative energy. </p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Channel energy class feature, necromancer or neutrally aligned cleric (see below).</p>
+				<p class="stat-block-1"><b>Benefit:</b> You may make a choice whenever you use your channel energy class feature.</p>
+                <p class="stat-block-2">If you normally channel positive energy, you may choose to channel negative energy as if your effective cleric level were 2 levels lower than normal.</p>
+                <p class="stat-block-2">If you normally channel negative energy, you may choose to channel positive energy as if your effective cleric level were 2 levels lower than normal.</p>
+                <p class="stat-block-2">Having this feat means you qualify for feats and abilities that have “channel positive energy” or “channel negative energy” as a prerequisite (for example, you qualify for the <a href="/pathfinderRPG/prd/feats.html#_command-undead" >Command Undead</a> feat and the <a href="/pathfinderRPG/prd/feats.html#_turn-undead" >Turn Undead</a> feat).</p>
+				<p class="stat-block-1"><b>Note:</b> This feat only applies to necromancers, neutral clerics who worship neutral deities, or neutral clerics who do not worship a deity&mdash;characters who have the channel energy class ability and have to make a choice to channel positive or negative energy at 1st level. Clerics whose alignment or deity makes this choice for them cannot select this feat.</p>
+				<h2 id="vigilant-eidolon">Vigilant Eidolon</h2>
+				<p>Your eidolon is highly observant, and its link with you increases your own watchfulness.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Eidolon class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> While your eidolon is within your reach, you gain a +4 bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks. If you have 10 or more ranks in Perception, this bonus increases to +8. This does not apply if your eidolon is helpless or unconscious.</p>
+				<h2 id="voice-of-the-sibyl">Voice of the Sibyl</h2>
+				<p>Your voice is strangely compelling.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Cha 15.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You get a +1 bonus on all <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, and <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (oratory) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +3 for that skill. You do not get these bonuses if you do not use your voice when using the skill (such as using Bluff to feint in combat).</p>
+				<h2 id="warrior-priest">Warrior Priest</h2>
+				<p>Your religion is both a shield and a weapon in battle.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Ability to cast divine spells, domain or mystery class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You gain a +1 bonus on initiative checks and a +2 bonus on concentration checks made to cast a spell or use a spell-like ability when casting defensively or while grappled.</p>
+				<h2 id="wild-speech">Wild Speech</h2>
+				<p>You speak with the tongue of men and beasts.</p>
+				<p class="stat-block-1"><b>Prerequisites:</b> Druid level 6th, wild shape class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> When using wild shape to take the form in which you cannot speak (such as an animal), you are able to speak normally in any language you know. This allows you to cast spells with verbal components, speak command words, and activate spell completion and spell trigger items. However, it does not give you the ability to cast spells requiring somatic components unless you also have the <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a> feat, or cast spells with material components merged into your form.</p>
+                <p class="stat-block-2">When using wild shape to take the form of an animal, you may use <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i> to communicate with animals of your assumed form. This is a spell-like ability with a caster level equal to your druid level, and you may use it for a number of minutes per day equal to your druid level. These minutes do not have to be consecutive, but must be used in one-minute increments.</p>
+				<h2 id="witch-knife">Witch Knife</h2>
+				<p>You empower your witch spells by incorporating the use of a special ceremonial knife during your castings.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Witch class.</p>
+				<p class="stat-block-1"><b>Benefit:</b> Each day, when you prepare your spells, you can select a masterwork or magical dagger, transforming it into a witch knife, which serves as an additional focus component for witch patron spells. Add +1 to the DC of all your patron spells.</p>
+				<h2 id="word-of-healing">Word of Healing</h2>
+				<p>Using the same divine energy as your lay on hands ability, you can heal others at a distance.</p>
+				<p class="stat-block-1"><b>Prerequisite:</b> Lay on hands class feature.</p>
+				<p class="stat-block-1"><b>Benefit:</b> You may use your lay on hands to heal another creature at a range of 30 feet as a standard action that does not provoke an attack of opportunity. You must be able to speak and have a free hand to use this ability. The target heals half the amount they would have healed if you had touched them, but gains the benefits of your mercies as normal.</p>
+                </div>
+	
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

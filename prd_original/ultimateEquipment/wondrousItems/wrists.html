@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Wrists Slot</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Wrists Slot",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html', name: 'Wondrous Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="wrists-slot-wondrous-items">Wrists Slot Wondrous Items</h1>
+<p>The wrists slot consists of armbands, bracers, bracelets, gauntlets, manacles, shackles, sleeves, vambraces, and other items that can be worn on the wrists, such as short lengths of vine. </p>
+<p>Anyone can use a wrists slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.</p>
+
+<table id="wrists-slot-wondrous-items-table"><caption>Wrists Slot Wondrous Items</caption>
+<thead><tr><th>d%</th><th>Lesser Minor Wrists Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;10</td><td><i>Sleeves of many garments</i></td><td>200 gp</td></tr>
+<tr class="even"><td>11&ndash;20</td><td><i>Armbands of the brawler</i></td><td>500 gp</td></tr>
+<tr class="odd"><td>21&ndash;48</td><td><i>Bracers of armor +1</td><td></i>1,000 gp</td></tr>
+<tr class="even"><td>49&ndash;63</td><td><i>Burglar's bracers</i></td><td>1,000 gp</td></tr>
+<tr class="odd"><td>64&ndash;91</td><td><i>Bracers of steadiness</i></td><td>2,000 gp</td></tr>
+<tr class="even"><td>92&ndash;96</td><td><i>Manacles of cooperation</i></td><td>2,000 gp</td></tr>
+<tr class="odd"><td>97&ndash;100</td><td><i>Shackles of compliance</i></td><td>3,280 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Minor Wrists Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;27</td><td><i>Bracers of armor +2</td><td></i>4,000 gp</td></tr>
+<tr class="even"><td>28</td><td><i>Bracers of falcon's aim</i></td><td>4,000 gp</td></tr>
+<tr class="odd"><td>29&ndash;38</td><td><i>Inquisitor's bastion vambraces</i></td><td>4,000 gp</td></tr>
+<tr class="even"><td>39&ndash;65</td><td><i>Bracers of archery, lesser</i></td><td>5,000 gp</td></tr>
+<tr class="odd"><td>66&ndash;68</td><td><i>Spellguard bracers</i></td><td>5,000 gp</td></tr>
+<tr class="even"><td>69&ndash;71</td><td><i>Bonebreaker gauntlets</i></td><td>6,000 gp</td></tr>
+<tr class="odd"><td>72&ndash;81</td><td><i>Vambraces of defense</i></td><td>6,000 gp</td></tr>
+<tr class="even"><td>82&ndash;98</td><td><i>Verdant vine</i></td><td>6,000 gp</td></tr>
+<tr class="odd"><td>99</td><td><i>Longarm bracers</i></td><td>7,200 gp</td></tr>
+<tr class="even"><td>100</td><td><i>Bracers of the glib entertainer</i></td><td>7,900 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Medium Wrists Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;04</td><td><i>Charm bracelet</i></td><td>8,000 gp</td></tr>
+<tr class="even"><td>05&ndash;08</td><td><i>Duelist's vambraces</i></td><td>8,000 gp</td></tr>
+<tr class="odd"><td>09&ndash;13</td><td><i>Merciful vambraces</i></td><td>8,000 gp</td></tr>
+<tr class="even"><td>14&ndash;18</td><td><i>Vambraces of the tactician</i></td><td>8,000 gp</td></tr>
+<tr class="odd"><td>19&ndash;43</td><td><i>Bracers of armor +3</td><td></i>9,000 gp</td></tr>
+<tr class="even"><td>44&ndash;53</td><td><i>Seducer's bane</i></td><td>9,900 gp</td></tr>
+<tr class="odd"><td>54&ndash;58</td><td><i>Bracers of the avenging knight</i></td><td>11,500 gp</td></tr>
+<tr class="even"><td>59&ndash;63</td><td><i>Arrowmaster's bracers</i></td><td>13,900 gp</td></tr>
+<tr class="odd"><td>64&ndash;73</td><td><i>Vambraces of the genie (efreeti)</td><td></i>14,400 gp</td></tr>
+<tr class="even"><td>74&ndash;78</td><td><i>Bracelet of bargaining</i></td><td>14,500 gp</td></tr>
+<tr class="odd"><td>79&ndash;82</td><td><i>Bracelet of mercy</i></td><td>15,000 gp</td></tr>
+<tr class="even"><td>83&ndash;86</td><td><i>Bracers of the merciful knight</i></td><td>15,600 gp</td></tr>
+<tr class="odd"><td>87&ndash;90</td><td><i>Bracelet of second chances</i></td><td>15,750 gp</td></tr>
+<tr class="even"><td>91&ndash;99</td><td><i>Bracers of armor +4</td><td></i>16,000 gp</td></tr>
+<tr class="odd"><td>100</td><td><i>Shackles of durance vile</i></td><td>16,200 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Medium Wrists Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;10</td><td><i>Vambraces of the genie (djinni)</i></td><td>18,900 gp</td></tr>
+<tr class="even"><td>11&ndash;20</td><td><i>Vambraces of the genie (marid)</td><td></i>18,900 gp</td></tr>
+<tr class="odd"><td>21&ndash;30</td><td><i>Vambraces of the genie (shaitan)</td><td></i>18,900 gp</td></tr>
+<tr class="even"><td>31&ndash;50</td><td><i>Bracelet of friends</i></td><td>19,000 gp</td></tr>
+<tr class="odd"><td>51&ndash;70</td><td><i>Bracers of archery, greater</i></td><td>25,000 gp</td></tr>
+<tr class="even"><td>71&ndash;90</td><td><i>Bracers of armor +5</i></td><td>25,000 gp</td></tr>
+<tr class="odd"><td>91&ndash;100</td><td><i>Bracers of sworn vengeance</i></td><td>25,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Major Wrists Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;30</td><td><i>Dimensional shackles</i></td><td>28,000 gp</td></tr>
+<tr class="even"><td>31&ndash;45</td><td><i>Gauntlets of skill at arms</i></td><td>30,000 gp</td></tr>
+<tr class="odd"><td>46&ndash;100</td><td><i>Bracers of armor +6</td><td></i>36,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Major Wrists Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;60</td><td><i>Bracers of armor +7</td><td></i>49,000 gp</td></tr>
+<tr class="even"><td>61&ndash;100</td><td><i>Bracers of armor +8</td><td></i>64,000 gp</td></tr></table>
+
+<p id="armbands-of-the-brawler" class="stat-block-title">Armbands of the Brawler</p>
+<p class="stat-block-1"><b>Price</b> 500 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These scarred and worn armbands have clearly seen rough use, and are constructed out of coarse leather and fastened with thick leather straps. They grant their wearer a +1 competence bonus on grapple checks and checks to break a grapple. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 250 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i></p>
+				
+<p id="Arrowmaster's-Bracers" class="stat-block-title">Arrowmaster's Bracers</p>
+<p class="stat-block-1"><b>Price</b> 13,900 gp; <b>Aura</b> faint abjuration; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This simple pair of leather shooting bracers are designed to protect the wearer's wrist from being snapped by bowstrings. They appear similar to a set of <i>bracers of archery</i>, but a wearer notices the difference as soon as she dons them.</p>
+<p class="stat-block">The wearer of these bracers gains damage reduction 5/magic against ranged weapons, as well as a +1 deflection bonus against ranged attacks. In addition, once per day, as a swift action, the wearer can grant herself a +20 insight bonus on her next ranged attack roll before the end of her next turn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 6,950 gp</p>
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows" >protection from arrows</a></i>, <i><a href="/pathfinderRPG/prd/spells/trueStrike.html#_true-strike" >true strike</a></i></p>
+				
+<p id="bonebreaker-gauntlets" class="stat-block-title">Bonebreaker Gauntlets</p>
+<p class="stat-block-1"><b>Price</b> 6,000 gp; <b>Aura</b> faint necromancy; <b>CL</b> 5th; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">These thick brass and leather gauntlets allow the wearer to tear through bone and muscle like paper. Once per day, as part of a melee attack, the wearer can activate the gauntlets to inflict a horrific injury on an opponent. If the attack hits, the target must make a DC 14 Will save. If the save fails, the Wand reduces the target's Strength, Dexterity, or Constitution (wearer's choice) by &ndash;6. This penalty cannot reduce the target's ability score below 1. The injury heals over time, reducing the penalty by 1 for each day that passes since the time of the injury, and is immediately removed by <i><a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a></i>, <i><a href="/pathfinderRPG/prd/spells/regenerate.html#_regenerate" >regenerate</a></i>, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration" >restoration</a></i>, or any magic that can break a curse.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 3,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i></p>
+				
+<p id="bracelet-of-bargaining" class="stat-block-title">Bracelet of Bargaining </p>
+<p class="stat-block-1"><b>Price</b> 14,500 gp; <b>Aura</b> moderate divination; <b>CL</b> 7th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This heavy gold band can be worn openly as a display of wealth or concealed beneath a sleeve. It grants its wearer a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, and <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks. Whenever the wearer shakes hands with another creature In order to seal a deal or a promise, she can immediately sense whether deceit is involved (Will save DC 16 negates), though the wearer cannot determine the exact nature of the deception. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 7,250 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i>detect lie</i>, <i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i></p>
+
+<p id="bracelet-of-friends" class="stat-block-title">Bracelet of Friends </p>
+<p class="stat-block-1"><b>Price</b> 19,000 gp; <b>Aura</b> strong conjuration; <b>CL</b> 15th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This silver charm bracelet has four charms upon it when created. The owner may designate one person known to him to be keyed to each charm. (This designation takes a standard action, but once done it lasts forever or until changed.) When a charm is grasped and the name of the keyed individual is spoken, that person is called to the spot (a standard action) appearing at the user's location along with his gear, as long as the bracelets's owner and the called person are on the same plane. The keyed individual knows who is attempting to teleport him, and the <i>bracelet of friends</i> only functions on willing travelers. Once a charm is activated, it disappears. Charms separated from the bracelet are worthless. A bracelet found with fewer than four charms is worth 25% less for each missing charm.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 9,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/refuge.html#_refuge" >refuge</a></i></p>
+				
+<p id="bracelet-of-mercy" class="stat-block-title">Bracelet of Mercy</p>
+<p class="stat-block-1"><b>Price</b> 15,000 gp; <b>Aura</b> faint conjuration; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This metal bracelet is set with multiple gems blessed by a priest. If the wearer has the lay on hands class feature, she can use it one additional time per day and is always treated as if she has the diseased mercy. If the wearer already has that mercy, her effective caster level for removing diseases increases by +4.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 7,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease" >remove disease</a></i></p>
+				
+<p id="bracelet-of-second-chances" class="stat-block-title">Bracelet of Second Chances</p>
+<p class="stat-block-1"><b>Price</b> 15,750 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 9th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This bracelet is adorned with seven coral beads carved in intricate designs. When a critical hit or sneak attack is confirmed on the wearer, as an immediate action before damage is rolled, he can choose to convert the critical hit into a normal hit. Each time the wearer negates a critical hit or sneak attack in this manner, one bead shatters. When all seven are used up, the bracelet itself crumbles into powder.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 7,875 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life" >breath of life</a></i></p>
+				
+<p id="Bracers-of-Archery-Greater" class="stat-block-title">Bracers of Archery, Greater</p>
+<p class="stat-block-1"><b>Price</b> 25,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These bracers look like normal protective wear. They empower the wearer to use any bow (not including crossbows) as if she were proficient in its use. If she already has proficiency with any type of bow, she gains a +2 competence bonus on attack rolls and a +1 competence bonus on damage rolls whenever using that type of bow. Both bracers must be worn for the magic to be effective.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 12,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, crafter must be proficient with a longbow or shortbow</p>
+				
+<p id="Bracers-of-Archery-Lesser" class="stat-block-title">Bracers of Archery, Lesser</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 4th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These wristbands appear similar to <i>greater bracers of archery</i>, though they are typically constructed of lighter material. They function as <i>greater bracers of archery</i>, except they grant a +1 competence bonus on attack rolls and no bonus on damage rolls.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 2,500 </p>
+<p class="stat-block">Craft Magic Arms and Armor, <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, crafter must be proficient with a longbow or shortbow</p>
+				
+<p id="bracers-of-armor" class="stat-block-title">Bracers of Armor</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> moderate conjuration; <b>CL</b> 7th; <b>Weight</b>1 lb.</p>
+<p class="stat-block-1"><b>+1 armor</b> 1,000 gp; <b>+2 armor</b> 4,000 gp; <b>+3 armor</b> 9,000 gp; <b>+4 armor</b> 16,000 gp; <b>+5 armor</b> 25,000 gp; <b>+6 armor</b> 36,000 gp; <b>+7 armor</b> 49,000 gp; <b>+8 armor</b> 64,000 gp</p>
+<p class="stat-block">These items appear to be wrist or arm guards, sometimes etched with symbols of protection or depictions of vigilant-looking animals. <i>Bracers of armor</i> surround the wearer with an invisible but tangible field of force, granting him an armor bonus of +1 to +8, just as though he were wearing armor. Both <i>bracers of armor</i> must be worn for the magic to be effective.</p>
+<p class="stat-block">Alternatively, <i>bracers of armor</i> can be enchanted with armor special abilities. Special abilities usually count as additional bonuses for determining the market value of an item, but do not improve AC. <i>Bracers of armor</i> cannot have a modified bonus (armor bonus plus armor special ability bonus equivalents) higher than +8. <i>Bracers of armor</i> must have at least a +1 armor bonus to grant an armor special ability. Bracers of armor cannot have any armor special abilities that add a flat gp amount to their cost. <i>Bracers of armor</i> and ordinary armor do not stack. If the wearer receives a larger armor bonus from another source, the <i>bracers of armor</i> cease functioning and do not grant their armor bonus or their armor special abilities. If the <i>bracers of armor</i> grant a larger armor bonus, the other source of armor ceases functioning.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost varies</p>
+<p class="stat-block-1"><b>+1 armor</b> 500 gp; <b>+2 armor</b> 2,000 gp; <b>+3 armor</b> 4,500 gp; <b>+4 armor</b> 8,000 gp; <b>+5 armor</b> 12,500 gp; <b>+6 armor</b> 18,000 gp; <b>+7 armor</b> 24,500 gp; <b>+8 armor</b> 32,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor" >mage armor</a></i>, creator's caster level must be at least two times that of the bonus placed on the bracers, plus any requirements of the armor special abilities</p>
+				
+				
+<p id="Bracers-of-Falcon's-Aim" class="stat-block-title">Bracers of Falcon's Aim</p>
+<p class="stat-block-1"><b>Price</b> 4,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Each of these crimson leather bracers is emblazoned with the image of a soaring golden falcon scanning the ground for easy prey. They continually grant the wearer the benefits of the <i><a href="/pathfinderRPG/prd/advanced/spells/aspectOfTheFalcon.html#_aspect-of-the-falcon" >aspect of the falcon</a></i> spell, though without the spell's physical transformation.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 2,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/advanced/spells/aspectOfTheFalcon.html#_aspect-of-the-falcon" >aspect of the falcon</a></i></p>
+
+<p id="bracers-of-steadiness" class="stat-block-title">Bracers of Steadiness</p>
+<p class="stat-block-1"><b>Price</b> 2,000 gp; <b>Aura</b> faint abjuration; <b>CL</b> 1st; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">These tortoiseshell bracers fit so snuggly against their wearer's skin that they almost seem part of him. The wearer of these bracers becomes exceptionally calm and composed if she takes her time to accomplish particular tasks. Whenever she takes 20 on a skill check for a skill that primarily depends on her arms and hands, she gains a +5 competence bonus on the check.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 1,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/aid.html#_aid" >aid</a></i></p>
+				
+<p id="bracers-of-sworn-vengeance" class="stat-block-title">Bracers of Sworn Vengeance</p>
+<p class="stat-block-1"><b>Price</b> 25,000 gp; <b>Aura</b> strong evocation; <b>CL</b> 15th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These white leather bracers have delicate elven runes etched upon them, one reading "swift defeat" and the other "vengeance." Once per day, as an immediate action when the wearer takes hit point damage from a target, he may cry out, "Death to those who wrong me!", swearing vengeance against the attacker. The wearer gains a +1 competence bonus on weapon attack rolls made against the target of his sworn vengeance, and deals an additional 2d6 points of damage on successful weapon attack rolls.</p>
+<p class="stat-block">For the duration of the effect, the wearer takes a &ndash;2 penalty on attack rolls against any target other than his sworn enemy. These bonuses and penalties last for 24 hours or until the sworn enemy is slain or destroyed by the wearer, whichever comes first. If the wearer fails to slay the target of his oath, these bracers cannot be used again until 7 days have passed. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 12,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/shout.html#_shout" >shout</a></i>, creator must be an elf</p>
+				
+<p id="bracers-of-the-avenging-knight" class="stat-block-title">Bracers of the Avenging Knight</p>
+<p class="stat-block-1"><b>Price</b> 11,500 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These silver bracers are polished to a mirrored sheen, but otherwise shift their appearance to match whatever suit of armor they are worn with. </p>
+<p class="stat-block">If the wearer has levels in a class that grants a smite ability (such as a paladin, or a cleric with the destruction domain), her smite damage is treated as though she were a member of that class four levels higher. If the wearer is not a member of such a class, once per day she may make one smite attack, gaining a bonus on the attack roll equal to her Charisma bonus, and a +5 bonus to the damage roll on a hit.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 5,750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/blessWeapon.html#_bless-weapon" >bless weapon</a></i></p>
+				
+<p id="bracers-of-the-glib-entertainer" class="stat-block-title">Bracers of the Glib Entertainer</p>
+<p class="stat-block-1"><b>Price</b> 7,900 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 7th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These decorative bracers are stippled with vibrant colors and have various tiny bells sewn onto their surface. While wearing them, the wearer gains a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> checks. Once per day on command, the user can gain the benefit of the <i><a href="/pathfinderRPG/prd/spells/glibness.html#_glibness" >glibness</a> </i>spell<i>.</i></p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 3,950 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/glibness.html#_glibness" >glibness</a></i></p>
+				
+<p id="bracers-of-the-merciful-knight" class="stat-block-title">Bracers of the Merciful Knight</p>
+<p class="stat-block-1"><b>Price</b> 15,600 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 9th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These golden bracers are engraved with images of celestial creatures. When worn by a paladin, he is considered four levels higher for the purposes of determining the uses per day and healing provided by his lay on hands class feature. Additionally, once per day, the wearer can infuse a use of lay on hands with additional power, providing relief as a <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i> spell.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 7,800 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i></p>
+				
+<p id="Burglar's Bracers" class="stat-block-title">Burglar's Bracers</p>
+<p class="stat-block-1"><b>Price</b> 1,050 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">On command, these plain leather bracers can transform into a set of masterwork thieves' tools. They can transform back to their bracer form with another such command. Once per day, while using these thieves' tools or wearing these bracers, the user can take 10 on a single <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> check, even when in immediate danger or distracted.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 550 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/shrinkItem.html#_shrink-item" >shrink item</a></i></p>
+				
+<p id="charm-bracelet" class="stat-block-title">Charm Bracelet</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> faint varied; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Tiny ornaments of gold hang from the links of a <i>charm bracelet</i>. In addition to 1d4+4 nonmagical charms, each bracelet carries one of each of the following magic charms. These magic charms can be activated with a command, producing the listed effect, but each charm can be only used once. After a charm is used, it dissolves into a thick vapor and dissipates. </p>
+<p class="stat-block"><i>Arming Sword</i>: When detached, this charm transforms into a masterwork heavy wooden shield and a masterwork longsword. They can either appear on the ground or within the hands of the creature that activated the charm, ready to use. These items last for 1 hour before turning into vapor.</p>
+<p class="stat-block"><i>Healthy Apple</i>: When detached, this charm becomes an apple that when eaten (a standard action that provokes attacks of opportunity) heals 2d8 hit points. In addition, if the creature eating the apple is afflicted with any poison or diseases, it can attempt a new saving throw against each such affliction. Each successful saving throw immediately ends the corresponding affliction. </p>
+<p class="stat-block"><i>Loving Heart</i>: Upon detaching this charm, the wearer can use <i><a href="/pathfinderRPG/prd/spells/charmPerson.html#_charm-person" >charm person</a></i> as a spell-like ability (as the spell, Will DC 11) any time before the end of her next turn.</p>
+<p class="stat-block"><i>Lucky Star</i>: When this charm is activated, it releases good luck in a 20-foot-radius burst centered on the wearer. The wearer and her allies within the burst gain a +2 luck bonus on ability checks, attack rolls, saving throws, and skill checks for 1 round.</p>
+<p class="stat-block"><i>Peaceful Dove</i>: Detaching this dove calms tempers within a 20-foot-radius burst centered on the wearer as though <i><a href="/pathfinderRPG/prd/spells/calmEmotions.html#_calm-emotions" >calm emotions</a></i> (Will DC 13) had been cast. A creature affected by rage takes a &ndash;2 penalty on this saving throw.</p>
+<p class="stat-block">Reduce the price of a charm bracelet that has one or more expended charms by 1,580 gp per absent charm. The <i>charm bracelet</i> itself becomes a nonmagical bracelet worth 100 gp when the last charm is used, no matter the number of nonmagical charms left on the bracelet. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/calmEmotions.html#_calm-emotions" >calm emotions</a></i>, <i><a href="/pathfinderRPG/prd/spells/charmPerson.html#_charm-person" >charm person</a></i>, <i><a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i>, <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/shadowWeapon.html#_shadow-weapon" >shadow weapon</a></i></p>
+				
+				
+<p id="dimensional-shackles" class="stat-block-title">Dimensional Shackles</p>
+<p class="stat-block-1"><b>Price</b> 28,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 11th; <b>Weight</b> 5 lbs.</p>
+<p class="stat-block">These shackles have magical runes traced across their cold iron links. Any creature bound within them is affected as if a <i><a href="/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a></i> spell were cast upon it (no save). They fit any Small to Large creature. The DC to break or slip out of the shackles is 30.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 14,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a></i></p>
+				
+<p id="Duelist's-Vambraces" class="stat-block-title">Duelist's Vambraces</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 8th; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">Made from a mix of sturdy steel and boiled leather, these vambraces grant a +1 deflection bonus to AC while the wearer is wielding a double weapon or two weapons (not including natural weapons or unarmed attacks). In addition, once per round, when attacking with an off-handed weapon, the wearer can reduce any penalties on attack rolls made with that weapon by 2. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, creator must have the Two-Weapon fighting feat</p>
+				
+<p id="gauntlets-of-skill-at-arms" class="stat-block-title">Gauntlets of Skill at Arms</p>
+<p class="stat-block-1"><b>Price</b> 30,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These finely crafted leather gauntlets have plates of silvered steel covering the back, and silver buckles at the wrist and forearm. The gloves enable the wearer to use any traditional elven weapon (longbows, composite longbows, longswords, rapiers, shortbows, composite shortbows, and any weapon with the word "elven" in its name) as if he were proficient in its use. If he uses such a weapon and is already proficient with it, he gains a +1 competence bonus on attack and damage rolls. Both gloves must be worn for the magic to be effective</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 15,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, creator must be an elf</p>
+				
+<p id="Inquisitor's-Bastion-Vambraces" class="stat-block-title">Inquisitor's Bastion Vambraces</p>
+<p class="stat-block-1"><b>Price</b> 4,000 gp; <b>Aura</b> faint abjuration; <b>CL</b> 5th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">Constructed of blackened steel, these vambraces augment the protection granted to the inquisitor by the protection judgment. While under that judgment's effects, the inquisitor gains a sacred bonus both to CMD and on checks made to cast spells defensively. This bonus is equal to the sacred bonus the judgement grants to AC.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 2,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i>, creator must be an inquisitor with access to the protection judgment</p>
+<p id="longarm-bracers" class="stat-block-title">Longarm Bracers</p>
+<p class="stat-block-1"><b>Price</b> 7,200 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These bracers are constructed from woven strands of bamboo. Three times per day, as a swift action, the wearer can stretch her arms beyond their limits, increasing her reach by 5 feet until the start of her next turn. Her weapon attack rolls take a &ndash;4 penalty, while unarmed strikes and natural weapons using the arms take no penalty. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 3,600 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/alterSelf.html#_alter-self" >alter self</a></i></p>
+				
+<p id="manacles-of-cooperation" class="stat-block-title">Manacles of Cooperation</p>
+<p class="stat-block-1"><b>Price</b> 2,000 gp; <b>Aura</b> faint enchantment; <b>CL</b> 1st; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">These tight iron cuffs can fit over the wrists of any Large or smaller humanoid. When placed on a helpless humanoid, they make the captive more docile and compliant. The prisoner never attempts to escape of its own volition and agrees to any reasonable request unless it succeeds at a DC 11 Will saving throw.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 1,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/charmPerson.html#_charm-person" >charm person</a></i></p>
+				
+<p id="merciful-vambraces" class="stat-block-title">Merciful Vambraces</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 7th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">These vambraces are constructed of polished steel. When a paladin wears these vambraces, engravings of the holy symbol of a paladin's deity and other religious iconography mystically appear upon the metal's surface. Once per day, when the paladin uses her lay on hands ability, she can choose to apply an additional mercy to that use of lay on hands that she did not already select. She must be of sufficient level to use that mercy. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/advanced/spells/cleanse.html#_cleanse" >cleanse</a></i></p>
+				
+				
+<p id="Seducer's-Bane" class="stat-block-title">Seducer's Bane</p>
+<p class="stat-block-1"><b>Price</b> 9,900 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 6th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This slender silver bracelet is worked in an intertwined design of three flowers. A DC 20 <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) check identifies the flowers as acacia, apocynum, and bilberry, symbolizing concealment, treachery, and falsehood.</p>
+<p class="stat-block">The bracelet grants the wearer a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks, and a +5 resistance bonus on Will saves against enchantment effects. If the wearer makes a successful Will save against an enchantment, the caster of that spell incorrectly senses the effect has succeeded. Additionally, the bracelet's wearer knows an enchantment targeted him and the enchantment's source. <i>Seducer's <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane" >bane</a></i> creates an aura on its wearer, visible to <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, matching the failed enchantment spell or effect, and lasting as long as the intended enchantment's duration. However, if the bracelet's wearer attacks the caster or its allies, or otherwise acts in a way that's contradictory to the failed spell's effect, the caster of that spell immediately realizes the enchantment was ineffective.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 4,950 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicAura.html#_magic-aura" >magic aura</a></i>,<i> <a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a></i>, creator must have 3 ranks in <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a></p>
+				
+				
+				
+<p id="shackles-of-compliance" class="stat-block-title">Shackles of Compliance</p>
+<p class="stat-block-1"><b>Price</b> 3,280 gp; <b>Aura</b> faint enchantment; <b>CL</b> 3rd; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">These battered iron manacles are typically found with a small spiked iron key in one of the locks. The shackles magically adjust themselves to fit around the wrists of any creature from Small to Large size and automatically lock. A creature wearing shackles of compliance becomes more susceptible to intimidation. Any creature attempting to intimidate or demoralize a target wearing shackles of compliance gains a +4 bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks. In addition, the holder of the manacles' key can cast command (DC 25 Will) on the wearer of the shackles three times per day. </p>
+<p class="stat-block"><i>Shackles of compliance</i> have hardness 10 and 10 hit points, and a DC 30 <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> check is required to pick the shackles' lock. A manacled creature can break free with a DC 28 Strength check or DC 35 <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> check. The manacles lock can be opened with a DC 30 <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> check.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 1,930 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/command.html#_command" >command</a></i></p>
+				
+<p id="shackles-of-durance-vile" class="stat-block-title">Shackles of Durance Vile</p>
+<p class="stat-block-1"><b>Price</b> 16,200 gp; <b>Aura</b> moderate enchantment; <b>CL</b> 9th; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">These masterwork iron manacles sap the will of their wearer. When they are attached to a humanoid creature as their command word is spoken, they affect their prisoner with a <i><a href="/pathfinderRPG/prd/spells/dominatePerson.html#_dominate-person" >dominate person</a></i> spell, except that if the prisoner fails its saving throw, the effect lasts for as long as the shackles are attached. Removing or destroying the shackles immediately breaks the enchantment. The shackles can be so used once per day. <i>Shackles of durance vile</i> can only be activated against a helpless, restrained, or willing creature; if attached to a creature still able to resist they function only as manacles, albeit superior ones. <i>Shackles of durance vile</i> have hardness 15, 20 hit points, and a superior lock. They have a break DC of 30 and an <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> DC of 35.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 8,200 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/dominatePerson.html#_dominate-person" >dominate person</a></i></p>
+<p class="stat-block">Sleeves of Many Garments</p>
+<p class="stat-block-1"><b>Price</b> 200 gp; <b>Aura</b> faint illusion; <b>CL</b> 1st; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These translucent cloth tubes easily fit over their wearer's arms. The wearer of these sleeves can, when she slips them on, choose to transform her current garments into any other nonmagical set of clothing. These new clothes fit her perfectly and are always clean and mended unless she specifically designates otherwise. When she removes the sleeves, her clothes revert to their original form.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 100 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self" >disguise self</a></i></p>
+				
+<p id="spellguard-bracers" class="stat-block-title">Spellguard Bracers</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> faint abjuration; <b>CL</b> 4th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">Typically made of leather dyed blue and decorated with star-shaped studs, these bracers are used by spellcasters who practice their art in the heat of combat. The bracers grant the wearer a +2 bonus on concentration checks made to cast defensively. Three times per day, the wearer can choose to roll a concentration check to cast defensively twice and take the better result.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 2,500 gp</p>
+<p class="stat-block">Combat Casting, <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/ultimateCombat/spells/wardingWeapon.html#_warding-weapon" >warding weapon</a></i></p>
+
+<p id="vambraces-of-defense" class="stat-block-title">Vambraces of Defense</p>
+<p class="stat-block-1"><b>Price</b> 6,000 gp; <b>Aura</b> faint abjuration; <b>CL</b> 5th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">These polished steel vambraces grant a +1 deflection bonus to AC. Once per day, as an immediate action, if the wearer has at least one hand free, when he would normally be hit with an attack from a ranged weapon, he may deflect it with the bracers, taking no damage from it, as if he had the Deflect Arrows feat.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 3,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i></p>
+
+<p id="vambraces-of-the-genie" class="stat-block-title">Vambraces of the Genie</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> faint evocation; <b>CL</b> 5th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block-1"><b>Djinni</b> 18,900 gp; <b>Efreeti</b> 14,400 gp; <b>Marid</b> 18,900 gp; <b>Shaitan</b> 18,900 gp</p>
+<p class="stat-block">These bracers are decorated with icons representing air, earth, fire, or water, and depictions of genies appropriate to that element. The item protects the wearer against hot and cold environments as if she were using <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i> The vambraces' materials and other powers depend on their associated genie type.</p>
+<p class="stat-block"><i>Djinni</i>: These mithral bracers allow the wearer to use <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i>, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, and <i><a href="/pathfinderRPG/prd/spells/windWall.html#_wind-wall" >wind wall</a></i> each once per day.</p>
+<p class="stat-block"><i>Efreeti</i>: These scorched bronze bracers allow the wearer to use <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> (self only), <i><a href="/pathfinderRPG/prd/spells/produceFlame.html#_produce-flame" >produce flame</a></i>, and <i><a href="/pathfinderRPG/prd/spells/pyrotechnics.html#_pyrotechnics" >pyrotechnics</a> </i>each once per day.</p>
+<p class="stat-block"><i>Marid</i>: These coral bracers allow the wearer to use <i><a href="/pathfinderRPG/prd/advanced/spells/hydraulicTorrent.html#_hydraulic-torrent-" >hydraulic torrent</a></i>, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, and <i><a href="/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing" >water breathing</a></i> each once per day.</p>
+<p class="stat-block"><i>Shaitan</i>: These adamantine bracers allow the wearer to use <i><a href="/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust" >glitterdust</a></i>, <i><a href="/pathfinderRPG/prd/spells/meldIntoStone.html#_meld-into-stone" >meld into stone</a></i>, and <i><a href="/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape" >stone shape</a></i> each once per day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost varies</p>
+<p class="stat-block-1"><b>Djinni</b> 9,450 gp; <b>Efreeti</b> 7,200 gp; <b>Marid</b> 9,450 gp; <b>Shaitan</b> 9,450 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i>protection from elements</i> and the three spells the wearer can use</p>
+				
+<p id="vambraces-of-the-tactician" class="stat-block-title">Vambraces of the Tactician</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> moderate enchantment; <b>CL</b> 7th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">These vambraces change their appearance depending on who wears them. If the wearer is a cavalier, these vambraces display the symbol of his order. When unworn or in the hands of a non-cavalier, they appear to be an ordinary pair of steel vambraces. A cavalier wearing these vambraces is considered two class levels higher for purposes of determining the effects of his challenge class feature. Furthermore, once per day as a swift action, a cavalier with the tactician class feature can increase the area in which he grants teamwork feats. Before the end of his next turn, when the cavalier grants his allies a teamwork feat, he can grant it to all allies within 60 feet, though they must still be able to see and hear him.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i></p>
+				
+<p id="verdant-vine" class="stat-block-title">Verdant Vine</p>
+<p class="stat-block-1"><b>Price</b> 6,000 gp; <b>Aura</b> faint conjuration; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Consisting of a vine with five green berries, a <i>verdant vine</i> is worn tied around the wrist. Once per day on command, the wearer can pinch a berry off the vine, and throw it up to 30 feet away, like a splash weapon. Viciously thorny vines erupt in a 20-foot radius from the point of impact, even if the berry misses its target. Creatures within the area must succeed at a DC 16 Reflex saving throw or become entangled, as the spell <i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i>, as the vines coil around the creature's legs. The vines persist, but at the start of the affected creature's turn, it gains a new saving throw against the effect. If the affected creature fails the saving throw, it also takes 1d4 points of damage. </p>
+<p class="stat-block">A DC 20 Strength check, made as a standard action, allows an affected creature to break free and end the effect. Failing the check causes the vines to constrict, dealing 1d4 points of damage.  </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 3,000 gp</p>
+	
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

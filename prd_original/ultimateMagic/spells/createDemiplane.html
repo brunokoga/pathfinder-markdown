@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Create Demiplane</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Create Demiplane",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html', name: 'Ultimate Magic Spell Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<p id="create-demiplane" class="stat-block-title">Create Demiplane</p>
+	<p class="stat-block-1"><b>School</b> conjuration (creation); <b>Level</b> cleric 8, sorcerer/wizard 8, summoner 6, witch 8</p>
+	<p class="stat-block-1"><b>Casting Time</b> 4 hours</p>
+	<p class="stat-block-1"><b>Duration</b> 1 day/level or instantaneous (see text)</p>
+	<p class="stat-block-1"><b>Effect</b> extradimensional demiplane, up to 10 10-ft. cubes/level (S)</p>
+				<p>This spell functions as <i>create lesser demiplane</i>, except the area is larger and you can add more features to the plane. You can use this spell to expand a demiplane you created with <i>create lesser demiplane</i> (you do not need to create an entirely new plane using this spell), in which case it has a duration of 1 day/level. Alternatively, when cast within your demiplane, you may add (or remove) one of the following features to your demiplane with each casting of the spell, in which case it has an instantaneous duration.</p>
+				<p id="alignment"><i>Alignment</i>: Your plane gains the (mildly) chaos-, good-, evil-, law-, or neutral-aligned alignment trait (see <a href="/pathfinderRPG/prd/mastery/planarAdventures.html#_alignment-traits">Alignment Traits</a>). You cannot give your demiplane an alignment trait for an alignment you do not have.</p>
+				<p id="bountiful"><i>Bountiful</i>: Your demiplane gains a thriving natural ecology, with streams, ponds, waterfalls, and plants. The demiplane provides enough plant-based food (nuts, grains, fruit, fungi, and so on) to support one Medium creature for every 10-foot cube of the demiplane. The demiplane does not have any animals unless you transport them there, but the ecology can sustain itself for as long as the demiplane exists without requiring watering, gardening, pollination, and so on, and dead organic material decays and returns to the soil in the normal manner. If your demiplane has ambient light, these plants are normal, familiar surface plants; if it is a realm of twilight or darkness, these plants are fungi and other plants adapted to near-darkness or underground locations.</p>
+				<p id="elemental"><i>Elemental</i>: Your plane gains the air-, earth-, fire-, or water-elemental dominant trait (<a href="/pathfinderRPG/prd/mastery/planarAdventures.html#_elemental-and-energy-traits">see Elemental and Energy Traits</a>).</p>
+				<p id="gravity"><i>Gravity</i>: By default a demiplane's gravity is normal and oriented in one direction, like what most creatures are used to on the Material Plane. By selecting this feature, the plane's gravity is heavy, light, none, objectively directional, or subjectively directional (see <a href="/pathfinderRPG/prd/mastery/planarAdventures.html#_gravity">Gravity</a>).</p>
+				<p id="seasonal"><i>Seasonal</i>: The demiplane has a seasonal cycle and a light cycle, usually similar to those of a land on the Material Plane, but customizable as you see fit (for example, your demiplane could always be winter, day and night could alternate every <br/>4 hours, and so on).</p>
+				<p id="shape"><i>Shape</i>: By default, the demiplane has a fixed shape and borders. By selecting this feature, you may make your plane self-contained so it loops upon itself when a creature reaches one edge (see <a href="/pathfinderRPG/prd/mastery/planarAdventures.html#_shape-and-size">Shape and Size</a>). You may designate areas or locations on the edges of your plane where this occurs (such as a pair of secret doors or a path in the woods) or apply it to the entire plane.</p>
+				<p id="structure"><i>Structure</i>: Your demiplane has a specific, linked physical structure, such as a giant tree, floating castle, labyrinth, mountain, and so on. (This option exists so you can pick a theme for your plane without having to worry about the small details of determining what spells you need for every hill, hole, wall, floor, and corner).</p>
+				<p>You can make this spell permanent with the <i><a href="/pathfinderRPG/prd/spells/permanency.html#_permanency" >permanency</a></i> spell, at a cost of 20,000 gp. If you have cast <i>create demiplane</i> multiple times to enlarge the demiplane, each casting's area requires its own <i><a href="/pathfinderRPG/prd/spells/permanency.html#_permanency" >permanency</a></i> spell.</p>
+				<p id="create-demiplane,-greater" class="stat-block-title">Create Demiplane, Greater</p>
+	<p class="stat-block-1"><b>School</b> conjuration (creation); <b>Level</b> cleric 9, sorcerer/wizard 9, witch 9</p>
+	<p class="stat-block-1"><b>Casting Time</b> 6 hours</p>
+	<p class="stat-block-1"><b>Components</b> V, S, F (a forked metal rod worth at least 500 gp)</p>
+	<p class="stat-block-1"><b>Effect</b> extradimensional demiplane, up to 20 10-ft. cubes/level (S)</p>
+				<p>This spell functions as <i>create demiplane</i>, except the area is larger and you can add more features to the plane. You can use this spell to expand a demiplane you created with <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser" >lesser create demiplane</a></i> or <i>create demiplane</i> (you do not need to create an entirely new plane using this spell), in which case it has a duration of 1 day/level. Alternatively, when cast within your demiplane, you may add to your demiplane (or remove from it) one of the following features (or any of the features described in <i>create demiplane</i>) with each casting of the spell, in which case it has an instantaneous duration.</p>
+				<p id="energy"><i>Energy</i>: Your plane gains the (minor) negative- or positive-dominant energy trait (<a href="/pathfinderRPG/prd/mastery/planarAdventures.html#_elemental-and-energy-traits">see Elemental and Energy Traits</a>). A plane cannot have both the negative-dominant and positive-dominant energy traits.</p>
+				<p id="magic"><i>Magic</i>: Your plane gains the dead magic, enhanced magic, impeded magic, or wild magic planar trait (see Magic Traits, <i>GameMastery Guide</i> 187). If you selected dead magic, you are trapped within your plane unless it has a permanent planar portal (such as the portal feature, below). If you selected enhanced or impeded magic, choose one type of magic to be enhanced or impeded, such as “effects with the fire descriptor or that manipulate fire” or “death spells and spells from the Death or Repose domains.” A plane cannot be enhanced and impeded for the same kinds of spells.</p>
+				<p id="morphic"><i>Morphic</i>: You may use <i><a href="/pathfinderRPG/prd/spells/moveEarth.html#_move-earth" >move earth</a></i> at will in your demiplane at one-tenth of the spell's normal casting time, and can reshape normal plants in the same manner (such as by twisting trees into a fence or humanlike shapes). You are even able to affect rock formations with this ability, though the casting time for this is only half normal.</p>
+				<p id="portal"><i>Portal</i>: Your demiplane gains a permanent <i><a href="/pathfinderRPG/prd/spells/gate.html#_gate" >gate</a></i> to one location on another plane, which can only be used for planar travel. This location must be very familiar to you. This <i><a href="/pathfinderRPG/prd/spells/gate.html#_gate" >gate</a></i> is always open and usable from both sides, but you can secure it using normal means (such as by building a door around it).</p>
+				<p id="time"><i>Time</i>: By default, time passes at the normal rate in your demiplane. By selecting this feature, you may make your plane have the erratic time, flowing time (half or double normal time), or timeless trait (see <a href="/pathfinderRPG/prd/mastery/planarAdventures.html#_time">Time</a>).</p>
+				<p>You can make this spell permanent with the <i><a href="/pathfinderRPG/prd/spells/permanency.html#_permanency" >permanency</a></i> spell, at a cost of 22,500 gp. If you have cast <i>create greater demiplane</i> multiple times to enlarge the demiplane, each casting's area requires its own <i><a href="/pathfinderRPG/prd/spells/permanency.html#_permanency" >permanency</a></i> spell.</p>
+				<p id="create-demiplane,-lesser" class="stat-block-title">Create Demiplane, Lesser</p>
+	<p class="stat-block-1"><b>School</b> conjuration (creation); <b>Level</b> cleric 7, sorcerer/wizard 7, summoner 5, witch 7</p>
+	<p class="stat-block-1"><b>Casting Time</b> 2 hours</p>
+	<p class="stat-block-1"><b>Components</b> V, S, F (a forked metal rod worth at least 500 gp)</p>
+	<p class="stat-block-1"><b>Range</b> 0 ft.</p>
+	<p class="stat-block-1"><b>Effect</b> extradimensional demiplane, up to three 10-ft. cubes/level (S)</p>
+	<p class="stat-block-1"><b>Duration</b> 1 day/level</p>
+	<p class="stat-block-1"><b>Saving Throw</b> none; <b>Spell Resistance</b> no</p>
+				<p>You create a small, finite demiplane. You must be on the Astral or Ethereal Plane or on a plane that has access to one of those planes (such as the Material Plane) to cast this spell.</p>
+				<p>When you cast the spell, you decide whether the demiplane is within the Astral or the Ethereal Plane. It is filled with air or water (decided by you). The plane is generally flat and featureless, such as an earth, stone, water, or wood floor. The “walls” and “ceiling” of the plane may appear like solid earth, stone, wood, or water, or they may end in mist, a featureless void, or a similar unreal-looking border. The plane's environmental conditions are those of a temperate spring day on the Material Plane. You determine the plane's light level (bright, normal, dim, or darkness), which affects the entire plane.</p>
+				<p>There are no native creatures or plants on this plane, though you may bring some there (if the plane's light is bright or normal, it counts as sunlight for growing plants). The environment of the plane counts as normal terrain for the purpose of effects that target earth, stone, wood, and so on. For example, you could use <i><a href="/pathfinderRPG/prd/spells/moveEarth.html#_move-earth" >move earth</a></i> to create a hill or <i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i> to create a barricade.</p>
+				<p>When you finish casting this spell, you may bring yourself and up to seven other creatures to the plane automatically by joining hands in a circle. The demiplane is another plane of existence, and therefore is outside the range of any spell or ability that cannot affect or reach other planes. Creatures can only enter the plane by the use of planar travel magic such as <i><a href="/pathfinderRPG/prd/spells/astralProjection.html#_astral-projection" >astral projection</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-etherealness" >etherealness</a></i>, or <i><a href="/pathfinderRPG/prd/spells/planeShift.html#_plane-shift" >plane shift</a></i>. You are considered “very familiar” with your entire demiplane.</p>
+				<p>As a standard action, you may eject a creature from your demiplane. The creature may resist with a Will saving throw. An ejected creature goes to the closest plane to your demiplane (usually the Astral Plane or the Ethereal Plane, but if you cast this spell on the Material Plane, the creature is sent to the Material Plane). When the spell ends, the plane dissolves, and all creatures in the plane are ejected in this manner with no saving throw. The plane cannot be dispelled, but a creature on the plane can destroy it by using <i><a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a></i>, <i><a href="/pathfinderRPG/prd/spells/mageSDisjunction.html#_mage-s-disjunction" >mage's disjunction</a></i>, <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i>, or <i><a href="/pathfinderRPG/prd/spells/wish.html#_wish" >wish</a></i> and making a successful dispel check.</p>
+				<p>If you are within the demiplane, you can add to its area by casting the spell again. Alternatively, you may cast this spell again to reset the duration of an existing area to that of your latest casting. If the duration on one area of the demiplane ends and other parts remain, creatures in the expiring area are shunted to remaining areas. If a collapsing portion of the demiplane would leave one section cut off from other sections of the demiplane (for example, if there were three areas connected in a straight line and the center part expired), the stranded sections count as separate demiplanes under your control. You may reconnect these stranded sections by casting the spell again to create a linked area between the two.</p>
+				<p>You can make this spell permanent with the <i><a href="/pathfinderRPG/prd/spells/permanency.html#_permanency" >permanency</a></i> spell, at a cost of 17,500 gp. If you have cast <i>create lesser demiplane</i> multiple times to enlarge the demiplane, each casting's area requires its own <i><a href="/pathfinderRPG/prd/spells/permanency.html#_permanency" >permanency</a></i> spell.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

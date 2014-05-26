@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Battle Herald</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Battle Herald",globalNavPath=[{ href: '/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html', name: 'Advanced Prestige Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="battle-herald" class="monster-header">Battle Herald</h1>
+				<p>In every army there are leaders who surpass the average cold-hearted mercenary, battle-scarred veteran, or wizened drill instructor, not so much in their skill at arms but in their ability to inspire and lead others. Battle heralds are just such captains&mdash;skilled warriors to be sure, but ones who have honed the art of leadership to a keen edge and keep it as ready as their sword as a means to victory. Battle heralds tap into reservoirs of courage, skill, bravery, and perseverance that those who serve with them never knew they had, and their allies often find themselves ascending the mount of triumph following the battle herald's glorious (if often tattered) banner.</p>
+				<p id="hit-die"><b>Hit Die</b>: d10.</p>
+				<h1 id="requirements">Requirements</h1>
+				<p>To qualify to become a battle herald, a character must fulfill all the following criteria.</p>
+				<p id="base-attack-bonus"><b>Base Attack Bonus</b>: +4.</p>
+				<p><b>Special</b>: Challenge and inspire courage class features.</p>
+				<p id="skills"><b>Skills</b>: <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> 5 ranks, <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> 5 ranks, <a href="../../skills/perform.html#_perform" >Perform</a> (oratory) 5 ranks, <a href="../../skills/profession.html#_profession" >Profession</a> (soldier) 2 ranks.</p>
+				<h1 id="class-skills">Class Skills</h1>
+				<p>The battle herald's class skills are <a href="../../skills/bluff.html#_bluff" >Bluff</a> (Cha), <a href="../../skills/craft.html#_craft" >Craft</a> (Int), <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> (Cha), <a href="../../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> (Cha), <a href="../../skills/heal.html#_heal" >Heal</a> (Wis), <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> (Cha), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (engineering) (Int), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (history) (Int), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (local) (Int), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) (Int), <a href="../../skills/perception.html#_perception" >Perception</a> (Wis), <a href="../../skills/profession.html#_profession" >Profession</a> (Wis), <a href="../../skills/ride.html#_ride" >Ride</a> (Dex), and <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> (Wis).</p>
+				<p id="skill-ranks-per-level"><b>Skill Ranks per Level</b>: 4 + Int modifier.</p>
+				<div class="table"><table id="table-6-1:-battle-herald"><caption>Table:  Battle Herald</caption>
+<thead><tr id="level-bonus-save-save-save-special-"><th>Level</th><th>Base Attack Bonus</th><th>Fort Save</th><th>Ref Save</th><th>Will Save</th><th>Special</th></tr></thead>
+<tr class="odd"><td>1st</td><td>+1</td><td>+1</td><td>+0</td><td>+1</td><td style="white-space: normal;">1st <a href="#inspiring-command" >inspiring command</a> (+1), <a href="#improved-leadership" >improved leadership</a>, <a href="#voice-of-authority" >voice of authority</a></td></tr>
+<tr class="even"><td>2nd</td><td>+2</td><td>+1</td><td>+1</td><td>+1</td><td style="white-space: normal;"><a href="#easy-march" >Easy march</a></td></tr>
+<tr class="odd"><td>3rd</td><td>+3</td><td>+2</td><td>+1</td><td>+2</td><td style="white-space: normal;">2nd <a href="#inspiring-command" >inspiring command</a></td></tr>
+<tr class="even"><td>4th</td><td>+4</td><td>+2</td><td>+1</td><td>+2</td><td style="white-space: normal;"><a href="#inspiring-command" >Inspiring command</a> (+2), <a href="#inspire-greatness" >inspire greatness</a></td></tr>
+<tr class="odd"><td>5th</td><td>+5</td><td>+3</td><td>+2</td><td>+3</td><td style="white-space: normal;">3rd <a href="#inspiring-command" >inspiring command</a>, <a href="#banner" >banner</a> </td></tr>
+<tr class="even"><td>6th</td><td>+6</td><td>+3</td><td>+2</td><td>+3</td><td style="white-space: normal;"><a href="#teamwork-feat" >Teamwork feat</a></td></tr>
+<tr class="odd"><td>7th</td><td>+7</td><td>+4</td><td>+2</td><td>+4</td><td style="white-space: normal;">4th <a href="#inspiring-command" >inspiring command</a> (+3), <a href="#demanding-challenge" >demanding challenge</a></td></tr>
+<tr class="even"><td>8th</td><td>+8</td><td>+4</td><td>+3</td><td>+4</td><td style="white-space: normal;"><a href="#persistent-commands" >Persistent commands</a></td></tr>
+<tr class="odd"><td>9th</td><td>+9</td><td>+5</td><td>+3</td><td>+5</td><td style="white-space: normal;">5th <a href="#inspiring-command" >inspiring command</a>, <a href="#inspire-last-stand" >inspire last stand</a></td></tr>
+<tr class="even"><td>10th</td><td>+10</td><td>+5</td><td>+3</td><td>+5</td><td style="white-space: normal;"><a href="#complex-commands" >Complex commands</a>, <a href="#inspiring-command" >inspiring command</a> (+4)</td></tr></table>
+</div>
+
+				<h1 id="class-features">Class Features</h1>
+				<p>The following are class features of the battle herald prestige class. </p>
+				<p id="weapon-and-armor-proficiency"><b>Weapon and Armor Proficiency</b>: A battle herald gains no proficiency with any weapon or armor.</p>
+				<p id="inspiring-command"><b>Inspiring Command (Ex)</b>: A battle herald uses her keen tactical acumen and decisive judgment to lead others to victory, as well as her mastery of command to assist herself and her allies in battle.</p>
+				<p>All battle heralds may use inspiring command to inspire courage (as the bardic performance ability); bard and battle herald levels stack to determine the bonuses provided by inspire courage.</p>
+				<p>At 1st level, and every two levels thereafter, the battle herald chooses one command to learn. Unless otherwise noted, these abilities provide a competence bonus equal to the battle herald's inspiring command bonus to her and to all allies within 60 feet able to see or hear her. Commands marked with an asterisk have the same range as above but only affect a certain number of allies (which can include the battle herald).</p>
+				<p>Issuing an inspiring command is a move action. At 5th level, this becomes a swift action, and at 10th level, it becomes an immediate action. Maintaining an inspiring command is a free action that cannot be disrupted, but its effects end immediately if the battle herald is killed or otherwise prevented from taking actions (such as being dazed, helpless, or stunned). The battle herald cannot have more than one command in effect at a time. She may use this ability for a number of rounds per day equal to 4 + her Charisma modifier, plus 2 additional rounds per level after 1st. She may use rounds of bardic performance to issue inspiring commands, but not vice versa. Inspiring commands are language-dependent, mind-affecting effects. The battle herald cannot maintain an inspiring command and a bardic performance at the same time (this does not preclude abilities such as persistent command or the <a href="../advancedFeats.html#_lingering-performance" >Lingering Performance</a> feat, which continue an inspiring command or bardic performance after the battle herald stops maintaining it).</p>
+				<p id="battle-magic*"><i>Battle Magic*</i>: One ally gains a bonus on caster level checks and concentration checks equal to the battle herald's command bonus.</p>
+				<p id="inspire-hardiness"><i>Inspire Hardiness</i>: Allies gain DR/&mdash; equal to the battle herald's inspiring command bonus.</p>
+				<p id="inspired-tactics"><i>Inspired Tactics</i>: Allies apply the battle herald's inspiring command bonus on critical hit confirmation rolls, on combat maneuver checks, and as a dodge bonus to AC against any attacks of opportunity provoked by combat maneuvers.</p>
+				<p id="keep-your-heads"><i>Keep Your Heads</i>: Allies apply the battle herald's inspiring command bonus on Will saves and concentration checks.</p>
+				<p id="none-shall-fall*"><i>None Shall Fall*</i>: A number of allies equal to the battle herald's inspiring command bonus heal 1d6 points of damage. Targeted allies who are poisoned may attempt a new poison saving throw with a bonus equal to the battle herald's inspiring command bonus; a failed save has no additional effect, but a successful save counts toward curing the poison. This healing is not positive energy and can heal undead creatures.</p>
+				<p id="pincer-maneuver"><i>Pincer Maneuver</i>: Allies apply the battle herald's inspiring command bonus to attack and damage rolls when flanking and as a dodge bonus to AC against attacks of opportunity provoked by movement (including standing from prone).</p>
+				<p id="rally"><i>Rally</i>: Allies affected by a fear effect may attempt a new saving throw against each fear effect on them; this new save has a bonus equal to the battle herald's inspiring command bonus.</p>
+				<p id="reveille"><i>Reveille</i>: Allies affected by exhaustion, fatigue, or sleep effects may attempt a new saving throw against each such effect; this new save has a bonus equal to the battle herald's inspiring command bonus. Allies who are sleeping normally automatically awaken when this ability is used. </p>
+				<p id="scatter*"><i>Scatter*</i>: A number of allies equal to the battle herald's inspiring command bonus gain the benefits of the <a href="../../feats.html#_wind-stance" >Wind Stance</a> feat.</p>
+				<p id="shake-it-off*"><i>Shake It Off*</i>: One ally subject to an ongoing condition may attempt a new saving throw to negate the effects with a bonus equal to the battle herald's inspiring command bonus. This ability does not help against instantaneous effects, effects that require recurring saving throws to avoid additional penalties (such as diseases and poisons), or effects that do not allow a saving throw. </p>
+				<p id="sound-the-charge"><i>Sound the Charge</i>: Allies apply the battle herald's inspiring command bonus to attack and damage rolls. Charging allies increase their speed by 5 feet times the battle herald's inspiring command bonus. </p>
+				<p id="sound-the-retreat"><i>Sound the Retreat</i>: Allies gain the benefit of the <a href="../../feats.html#_lightning-stance" >Lightning Stance</a> feat. The battle herald must have the scatter ability to select this ability.</p>
+				<p id="stand-firm"><i>Stand Firm</i>: Allies apply the battle herald's inspiring command bonus to CMD and on Fortitude saves.</p>
+				<p id="teamwork"><i>Teamwork</i>: Allies add the battle herald's inspiring command bonus on skill checks or attack rolls made when using the aid another action, and if successful, the assisted ally increases the aid another bonus by an amount equal to the battle herald's inspiring command bonus.</p>
+				<p id="tuck-and-roll"><i>Tuck and Roll</i>: Allies apply the battle herald's inspiring command bonus on Reflex saves and <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks.</p>
+				<p id="improved-leadership"><b>Improved <a href="../../feats.html#_leadership" >Leadership</a> (Ex)</b>: A battle herald with the <a href="../../feats.html#_leadership" >Leadership</a> feat adds her inspiring command bonus to her leadership score.</p>
+				<p id="voice-of-authority"><b>Voice of Authority (Ex)</b>: A battle herald is skilled at shouting commands over the din of the battlefield and signaling allies when speech is impossible. She gains a +2 bonus on <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> and <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> checks with creatures with which she shares a language. In addition, her allies gain a bonus equal to the battle herald's class level on <a href="../../skills/perception.html#_perception" >Perception</a> or <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks to hear her commands or interpret her secret messages conveyed with <a href="../../skills/bluff.html#_bluff" >Bluff</a>. The battle herald's levels stack with cavalier levels for the purpose of the cavalier's tactician ability.</p>
+				<p id="easy-march"><b>Easy March (Ex)</b>: At 2nd level, allies within 60 feet of the battle herald can hustle or force march during overland travel without ill effects for a number of hours per day equal to 1 hour times her inspiring command bonus.</p>
+				<p id="inspire-greatness"><b>Inspire Greatness (Ex)</b>: At 4th level, a battle herald may use her inspiring command ability to inspire greatness (as the 9th-level bardic performance ability). This ability affects one creature at 4th level, two at 7th, and three at 10th.</p>
+				<p id="banner"><b>Banner (Ex)</b>: At 5th level, a battle herald may fly a battle standard that inspires her allies. This ability is identical to the cavalier's banner ability, and cavalier levels stack with battle herald levels to determine the bonuses provided by the banner.</p>
+				<p id="teamwork-feat"><b>Teamwork Feat</b>: At 6th level, a battle herald receives a teamwork feat as a bonus feat. She must meet the prerequisites for this feat. She can use her cavalier tactician ability as a move action to grant this feat to allies (if she has the cavalier greater tactician ability, this is a swift action).</p>
+				<p id="demanding-challenge"><b>Demanding Challenge (Ex)</b>: This ability is identical to the 12th-level cavalier demanding challenge ability.</p>
+				<p id="persistent-commands"><b>Persistent Commands (Ex)</b>: At 8th level, a battle herald may allow her inspiring commands to persist even if she is incapacitated and unable to maintain them. If the player chooses, the effects of the battle herald's inspiring commands persist for a number of rounds equal to her Charisma bonus (these count toward her number of rounds per day limit). This ability does not apply if the battle herald intentionally stops maintaining an inspiring command&mdash;only if she is dazed, held, stunned, killed, and so on, and is unable to maintain them. If the battle herald recovers from incapacity while an inspiring command is ongoing, she may resume maintaining it as a free action.</p>
+				<p id="inspire-last-stand"><b>Inspire Last Stand (Ex)</b>: At 9th level, a battle herald may use inspiring command to grant herself and all allies within 30 feet the benefits of the <a href="../../feats.html#_diehard" >Diehard</a> feat. Conscious affected creatures also gain the benefits of inspire courage while at negative hit points.</p>
+				<p id="complex-commands"><b>Complex Commands (Ex)</b>: At 10th level, a battle herald can have more than one command ability in effect at one time. Each must be begun separately and requires a separate maintenance cost. This allows the battle herald to have more than one single-target command (such as battle magic) in effect at the same time. The effects of multiple instances of the same command ability do not stack, even if the bonuses provided by that ability would normally stack (for example, if the battle herald maintains two pincer maneuver commands, her allies do not get double the bonus, even though dodge bonuses normally stack).</p>
+				<p>The battle herald can also maintain one bardic performance in addition to her inspiring commands, though each must be begun separately and each requires its own maintenance cost.</p><div class="table">
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

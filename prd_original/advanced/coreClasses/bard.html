@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Bard</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Bard",globalNavPath=[{ href: '/pathfinderRPG/prd/advanced/advancedCoreClasses.html', name: 'Advanced Core Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="bard" class="monster-header">Bard</h1>
+				<p>A good bard can sing the birds from the trees or talk a king into abdicating his throne. A jack of all trades, the bard sees little need to restrict himself to a single talent, picking up a little of this and a little of that, but always with a keen eye for other people and how they might be manipulated, whether through artistic performances or more mundane avenues. Presented below are several classic bardic themes.</p>
+				<h1 id="arcane-duelist">Arcane Duelist</h1>
+				<p>A master of the martial applications of steel and spell, the arcane duelist blends both into a lethal combination. </p>
+				<p id="arcane-strike"><b><a href="../../feats.html#_arcane-strike" >Arcane Strike</a></b>: Arcane duelists gain <a href="../../feats.html#_arcane-strike" >Arcane Strike</a> as a bonus feat at 1st level. This ability replaces bardic knowledge.</p>
+				<p id="bardic-performance"><b>Bardic Performance</b>: An arcane duelist gains the following types of bardic performance.</p>
+				<p id="rallying-cry"><i>Rallying Cry (Su)</i>: At 1st level, an arcane duelist can use performance to rally dispirited allies. Each round he makes an <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> check. Any ally (including the bard) within 30 feet may use this check in place of his own saving throw against fear and despair effects. Those already under a fear or despair effect can attempt a new save each round using the bard's <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> check. Rallying cry does not work on effects that don't allow saves. This is a mind-affecting ability that uses audible components. This performance replaces countersong.</p>
+				<p id="bladethirst"><i>Bladethirst (Su)</i>: An arcane duelist of 6th level or higher may use performance to grant one weapon, one natural weapon, one end of a double weapon, or 50 items of ammunition of the same type within 30 feet a +1 enhancement bonus. This enhancement bonus increases by +1 for every three levels after 6th (maximum +5 at 18th level). These bonuses stack with existing bonuses and may be used to increase the item's enhancement bonus up to +5 or to add any of the following weapon properties: <i><a href="../../magicItems/weapons.html#_weapons-defending" >defending</a></i>, <i><a href="../../magicItems/weapons.html#_weapons-distance" >distance</a></i>, <i><a href="../../magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a></i>, <i><a href="../../magicItems/weapons.html#_weapons-keen" >keen</a></i>, <i><a href="../../magicItems/weapons.html#_weapons-mighty-cleaving" >mighty cleaving</a></i>, <i><a href="../../magicItems/weapons.html#_weapons-returning" >returning</a></i>, <i><a href="../../magicItems/weapons.html#_weapons-shock" >shock</a></i>, <i><a href="../../magicItems/weapons.html#_weapons-shocking-burst" >shocking burst</a></i>, <i><a href="../../magicItems/weapons.html#_weapons-seeking" >seeking</a></i>, <i><a href="../../magicItems/weapons.html#_weapons-speed" >speed</a></i>, or <i><a href="../../magicItems/weapons.html#_wounding" >wounding</a></i>. If the weapon is not magical, at least a +1 enhancement bonus must be added before adding special abilities. This performance replaces suggestion.</p>
+				<p id="mass-bladethirst"><i>Mass Bladethirst (Su)</i>: An arcane duelist of 18th level or higher can use his bladethirst performance to enhance the weapons of as many allies as desired within 30 feet. The bonus provided by this power is +4 if conferred on two allies, +3 for three allies, +2 for four allies, and +1 for five or more allies. The power granted to each weapon must be identical. This ability replaces mass suggestion.</p>
+				<p id="bonus-feats"><b>Bonus Feats</b>: An arcane duelist weaves might and magic in his combat style, gaining the following bonus feats at 2nd level and every four levels thereafter: 2nd level&mdash;<a href="../../feats.html#_combat-casting" >Combat Casting</a>, 6th level&mdash;<a href="../../feats.html#_disruptive" >Disruptive</a>, 10th level&mdash;<a href="../../feats.html#_spellbreaker" >Spellbreaker</a>, 14th level&mdash;<a href="../../feats.html#_penetrating-strike" >Penetrating Strike</a>, 18th level&mdash;<a href="../../feats.html#_greater-penetrating-strike" >Greater Penetrating Strike</a>. This ability replaces versatile performance and well-versed.</p>
+				<p id="arcane-bond"><b>Arcane Bond (Ex)</b>: At 5th level, an arcane duelist gains the arcane bond ability as a wizard, using a weapon as his bonded item, allowing him to cast any one addition spell that he knows once per day. He may not choose a familiar or other type of bonded item. He may use the hand holding his bonded weapon for somatic components. This ability replaces lore master.</p>
+				<p id="arcane-armor"><b>Arcane Armor (Ex)</b>: At 10th level, an arcane duelist gains Medium Armor Proficiency and can cast bard spells in medium armor with no chance of arcane spell failure. At 16th level, he gains Heavy Armor Proficiency and can cast bard spells in heavy armor with no arcane spell failure. This ability replaces jack of all trades.</p>
+				<h1 id="archivist">Archivist</h1>
+				<p>Some bards greatly prefer academic pursuits to the drama (and sometimes melodrama) of their artistic brethren. </p>
+				<p id="bardic-performance"><b>Bardic Performance</b>: An archivist gains the following types of bardic performance.</p>
+				<p id="naturalist"><i>Naturalist (Ex)</i>: An archivist who has identified a creature with a <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> check appropriate to its type can use performance to share strategies for defeating it with allies in combat. The archivist and any allies within 30 feet gain a +1 insight bonus to AC and on attack rolls and saving throws against exceptional, supernatural, and spell-like abilities used by creatures of that specific kind of monster (e.g., frost giants, not all giants or all humanoids). This bonus increases by +1 at 5th level and every six levels thereafter. This language-dependent ability requires visual and audible components. This ability replaces inspire courage. </p>
+				<p id="lamentable-belaborment"><i>Lamentable Belaborment (Ex)</i>: At 6th level, an archivist can bewilder a creature already fascinated by his performance. Using this ability does not disrupt the fascinate effect, but it does require a standard action to activate (in addition to the free action to continue the fascinate effect). The target must make a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier). Success renders the target immune to this power for 24 hours, but failure leaves the target either dazed or confused (archivist's choice) for as long as the performance continues. If the target takes damage, this effect ends immediately. This mind-affecting ability relies on audible components. This ability replaces suggestion. </p>
+				<p id="pedantic-lecture"><i>Pedantic Lecture (Su)</i>: At 18th level, an archivist can affect as many creatures with lamentable belaborment as he currently has fascinated. In addition, he may choose to cause targets to fall asleep rather than be dazed or confused. This ability replaces mass suggestion.</p>
+				<p id="lore-master"><b>Lore Master (Ex)</b>: At 2nd level, an archivist may take 20 on <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> checks once per day, plus once per six levels beyond 2nd. This ability replaces versatile performance. </p>
+				<p id="magic-lore"><b>Magic Lore (Ex)</b>: At 2nd level, an archivist gains a bonus on <a href="../../skills/spellcraft.html#_spellcraft" >Spellcraft</a> checks to identify magic items or decipher scrolls equal to half his bard level and may take 10 on such checks. An archivist can use <a href="../../skills/disableDevice.html#_disable-device" >Disable Device</a> to disarm magical traps as per a rogue's trapfinding ability and gains a +4 bonus on saves against magical traps, language-dependent effects, and symbols, glyphs, and magical writings of any kind. This ability replaces well-versed.</p>
+				<p id="jack-of-all-trades"><b>Jack of All Trades (Ex)</b>: At 5th level, an archivist can use any skill, even if the skill normally requires him to be trained. At 11th level, he considers all skills to be class skills, and at 17th level he can take 10 on any skill check, even if it is not normally allowed. This ability replaces lore master. </p>
+				<p id="probable-path"><b>Probable Path (Ex)</b>: At 10th level, an archivist can calculate the action likely to bring success with the least risk. Once per day, he can take 10 on any d20 roll. He may use this ability one additional time per day for every three levels after 10th. This ability replaces jack of all trades. </p>
+				<h1 id="court-bard">Court Bard</h1>
+				<p>Spending years studying all of the finer points of erudition and etiquette, the court bard takes up the role of resplendent proclaimer and artist-in-residence at the hand of nobility, royalty, and the well-moneyed elite who aspire to join their ranks. </p>
+				<p id="bardic-performance"><b>Bardic Performance</b>: A court bard gains the following types of bardic performance.</p>
+				<p id="satire"><i>Satire (Su)</i>: A court bard can use performance to undermine the confidence of enemies who hear it, causing them to take a &ndash;1 penalty on attack and damage rolls (minimum 1) and a &ndash;1 penalty on saves against fear and charm effects as long as the bard continues performing. This penalty increases by &ndash;1 at 5th level and every six levels thereafter. Satire is a language-dependent, mind-affecting ability that uses audible components. This performance replaces inspire courage.</p>
+				<p id="mockery"><i>Mockery (Su)</i>: A court bard of 3rd level or higher can subtly ridicule and defame a specific individual. The bard selects one target who can hear his performance. That individual takes a &ndash;2 penalty on Charisma checks and Charisma-related skill checks as long as the bard continues performing. This penalty increases by &ndash;1 every four levels after 3rd. Mockery is a language-dependent, mind-affecting ability that relies on audible components. This performance replaces inspire competence.</p>
+				<p id="glorious-epic"><i>Glorious Epic (Su)</i>: A court bard of 8th level or higher can weave captivating tales that engross those who hear them. Enemies within 30 feet become flat-footed unless they succeed at a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier). A save renders them immune to this ability for 24 hours. Glorious epic is a language-dependent, mind-affecting ability that uses audible components. This performance replaces dirge of doom. </p>
+				<p id="scandal"><i>Scandal (Su)</i>: A court bard of 14th level or higher can combine salacious gossip and biting calumny to incite a riot. Each enemy within 30 feet is affected as if by a <i><a href="../../spells/songOfDiscord.html#_song-of-discord" >song of discord</a></i> for as long as it can hear the performance. A successful Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) negates the effect, and that creature is immune to this ability for 24 hours. Scandal is a language-dependent, mind-affecting ability that uses audible components. This performance replaces frightening tune.</p>
+				<p id="heraldic-expertise"><b>Heraldic Expertise (Ex)</b>: A court bard gains a bonus equal to half his bard level on <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (history), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (local), and <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) checks (minimum +1). Once per day, the court bard can also reroll a check against one of these skills, though he must take the result of the second roll even if it is worse. He can reroll one additional time per day at 5th level and every five levels thereafter. This ability replaces bardic knowledge. </p>
+				<p id="wide-audience"><b>Wide Audience (Su)</b>: At 5th level, a court bard can choose to affect a 60-foot cone instead of a 30-foot radius with bardic performances that affect an area. In addition, for every five levels beyond 5th, the area of such powers is increased by 10 feet (radius) or 20 feet (cone). If the power instead affects multiple creatures, it affects one additional creature than normal for every five levels beyond 5th. This does not affect powers that affect only a single creature. This ability replaces lore master and jack of all trades.</p>
+				<h1 id="detective">Detective</h1>
+				<p>Piecing together clues and catching the guilty with sheer cleverness, the detective is skilled at divining the truth.</p>
+				<p id="bardic-performance"><b>Bardic Performance</b>: A detective gains the following types of bardic performance.</p>
+				<p id="careful-teamwork"><i>Careful Teamwork (Su)</i>: A detective uses performance to keep allies coordinated, alert, and ready for action. All allies within 30 feet gain a +1 bonus on Initiative checks, <a href="../../skills/perception.html#_perception" >Perception</a>, and <a href="../../skills/disableDevice.html#_disable-device" >Disable Device</a> checks for 1 hour. They also gain a +1 insight bonus on Reflex saves and to AC against traps and when they are flat-footed. These bonuses increase by +1 at 5th level and every six levels thereafter. Using this ability requires 3 rounds of continuous performance, and the targets must be able to see and hear the bard throughout the performance. This ability is language-dependent and requires visual and audible components. This performance replaces inspire courage.</p>
+				<p id="true-confession"><i>True Confession (Su)</i>: At 9th level, a detective can use performance to trick a creature into revealing its secrets. Using this ability requires a successful <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> check to see through a <a href="../../skills/bluff.html#_bluff" >Bluff</a> or notice mental compulsion. After 3 continuous rounds of performance, the target must make a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier). Success renders the target immune to this power for 24 hours. On a failed save, a liar inadvertently reveals the lie and the truth behind it. A creature under a charm or compulsion reveals the nature of its enchantment and who placed it (if the creature knows) and gains a new saving throw to break free from the enchantment. This ability is language-dependent and requires audible components. Using this power requires only 2 rounds of performance at 15th level, and 1 round of performance at 20th level. This performance replaces inspire greatness. </p>
+				<p id="show-yourselves"><i>Show Yourselves (Ex)</i>: At 15th level, a detective can use performance to compel creatures to reveal themselves when hiding. All enemies within 30 feet must make a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier). If they fail, they must cease using <a href="../../skills/stealth.html#_stealth" >Stealth</a>, unlock and open doors between themselves and the detective, and dismiss, suppress, or dispel if necessary magical effects that grant invisibility or any other form of concealment from the detective. As long as they can hear the performance, affected creatures may not attack or flee until they have eliminated every such effect, though they are freed from this compulsion immediately if attacked. Creatures in the area must make this save each round the bard continues his performance. This ability is language-dependent and requires audible components. This performance replaces inspire heroics. </p>
+				<p id="eye-for-detail"><b>Eye for Detail (Ex)</b>: A detective gains a bonus equal to half his level on <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (local), <a href="../../skills/perception.html#_perception" >Perception</a>, and <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks, as well as <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks to gather information (minimum +1). This ability replaces bardic knowledge. </p>
+				<p id="arcane-insight"><b>Arcane Insight (Ex)</b>: At 2nd level, a detective can find and disable magical traps, like a rogue's trapfinding ability. In addition, he gains a +4 bonus on saving throws made against illusions and a +4 bonus on caster level checks and saving throws to see through disguises and protections against divination (such as <i><a href="../../spells/magicAura.html#_magic-aura" >magic aura</a></i>, <i><a href="../../spells/misdirection.html#_misdirection" >misdirection</a></i>, and <i><a href="../../spells/nondetection.html#_nondetection" >nondetection</a></i>). This ability replaces well-versed. </p>
+				<p id="arcane-investigation"><b>Arcane Investigation</b>: In addition, a detective's class spell list includes the following: 1st&mdash;<i><a href="../../spells/detectChaos.html#_detect-chaos" >detect chaos</a>/evil/law/good</i>; 2nd&mdash;<i><a href="../../spells/zoneOfTruth.html#_zone-of-truth" >zone of truth</a></i>; 3rd&mdash;<i><a href="../../spells/arcaneEye.html#_arcane-eye" >arcane eye</a>, <a href="../../spells/speakWithDead.html#_speak-with-dead" >speak with dead</a>, <a href="../../spells/speakWithPlants.html#_speak-with-plants" >speak with plants</a></i>; 4th&mdash;<i><a href="../../spells/discernLies.html#_discern-lies" >discern lies</a></i>; 5th&mdash;<i><a href="../../spells/pryingEyes.html#_prying-eyes" >prying eyes</a>, <a href="../../spells/stoneTell.html#_stone-tell" >stone tell</a></i>; 6th&mdash;<i><a href="../../spells/discernLocation.html#_discern-location" >discern location</a>, <a href="../../spells/findThePath.html#_find-the-path" >find the path</a>, <a href="../../spells/pryingEyes.html#_prying-eyes-greater" >greater prying eyes</a>, <a href="../../spells/momentOfPrescience.html#_moment-of-prescience" >moment of prescience</a></i>. A detective may add one of these spells or any divination spell on the bard spell list to his list of spells known at 2nd level and every four levels thereafter. This ability replaces versatile performance.</p>
+				<h1 id="magician">Magician</h1>
+				<p>A magician dabbles in performance, but sees it as a means to tap into universal energies and channel them. </p>
+				<p id="bardic-performance"><b>Bardic Performance</b>: A magician gains the following types of bardic performance.</p>
+				<p id="dweomercraft"><i>Dweomercraft (Su)</i>: A magician can use performance to manipulate magical energies. Allies of the magician gain a +1 bonus on caster level checks, concentration checks, and attack rolls with spells and spell-like abilities. This bonus increases by +1 at 5th level and every six levels thereafter. This ability relies on visual and audible components. It replaces inspire courage. </p>
+				<p id="spell-suppression"><i>Spell Suppression (Su)</i>: A 8th level, a magician can use performance to counter the spells of his foes. Once the bard begins using this performance, he tracks the number of rounds it has been in use. While performing, as an immediate action, he can attempt to counter any spell that he can identify using <a href="../../skills/spellcraft.html#_spellcraft" >Spellcraft</a>, so long as that spell's level is equal or less than the total number of rounds he has been performing spell suppression. The attempt to counter the spell is made as if using <i><a href="../../spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, using the bard's level as the caster level. If successful, the bardic performance immediately ends. This ability requires audible components. This performance replaces dirge of doom.</p>
+				<p id="metamagic-mastery"><i>Metamagic Mastery (Ex)</i>: At 14th level, a magician can use performance to apply a metamagic feat to a spell he is about to cast without increasing the casting time. The bard must still expend a higher-level slot to cast this spell. This causes the performance to immediately end. This ability requires audible components. This performance replaces frightening tune.</p>
+				<p id="magical-talent"><b>Magical Talent (Ex)</b>: A magician gains a bonus equal to half his level on <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana), <a href="../../skills/spellcraft.html#_spellcraft" >Spellcraft</a>, and <a href="../../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> checks. This ability replaces bardic knowledge. </p>
+				<p id="improved-counterspell"><b><a href="../../feats.html#_improved-counterspell" >Improved Counterspell</a></b>: A magician gains <a href="../../feats.html#_improved-counterspell" >Improved Counterspell</a> as a bonus feat. This ability replaces countersong. </p>
+				<p id="extended-performance"><b>Extended Performance (Su)</b>: At 2nd level, a magician can extend the duration of bardic performance after he stops concentrating by sacrificing a spell slot as a swift action. The performance effect lingers for 1 extra round per level of the spell. Only one spell may be sacrificed per performance, and performance types that take affect after a specific number of rounds cannot be extended. This ability replaces well-versed.</p>
+				<p id="expanded-repertoire"><b>Expanded Repertoire (Ex)</b>: At 2nd level and every four levels thereafter, a magician can add one spell to his spells known from the spell list of any arcane spellcasting class. The spell must be of a level he can cast. This ability replaces versatile performance. </p>
+				<p id="arcane-bond"><b>Arcane Bond (Ex)</b>: At 5th level, a magician gains the arcane bond ability as a wizard. He may not choose a familiar or a weapon as a bonded item. This ability replaces lore master.</p>
+				<p id="wand-mastery"><b>Wand Mastery (Ex)</b>: At 10th level, when a magician uses a wand containing a spell on his spell list, he uses his Charisma bonus to set the wand's save DC. At 16th level, when using such a wand, he uses his caster level in place of the wand's caster level. This ability replaces jack of all trades.</p>
+				<h1 id="sandman">Sandman</h1>
+				<p>Combining performance with stealth, trickery, and guile, the sandman uses cleverness to keep others off-balance.</p>
+				<p id="bardic-performance"><b>Bardic Performance</b>: A sandman gains the following types of bardic performance.</p>
+				<p id="stealspell"><i>Stealspell (Su)</i>: A sandman can use performance to steal spells from his foes and add them to his list of spells known. Once the performance is started, the bard can steal a prepared spell or a spell known from another creature with a touch attack as a standard action. The target receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha bonus) to negate the effect. The sandman may choose a spell to steal, but if the target does not possess the spell, the bardic performance immediately ends. Otherwise the spell stolen is random, but it is always of the highest level that the bard can cast, if possible. The target loses the prepared spell or spell known and the sandman adds it to his list of spells known for as long as the performance continues, after which it reverts to the original recipient. While stolen, the bard can cast the spell using his available spell slots. This use does not consume the stolen spell. If the bard steals another spell while a spell is stolen, the previous spell immediately reverts to its original owner. This ability requires visual components. This performance replaces inspire courage.</p>
+				<p id="slumber-song"><i>Slumber Song (Sp)</i>: At 6th level, a sandman can use his performance to cause a creature he has already fascinated to fall asleep (as <i><a href="../../spells/deepSlumber.html#_deep-slumber" >deep slumber</a></i>, but with no HD limit). Otherwise, this ability functions like suggestion. This performance replaces suggestion.</p>
+				<p id="dramatic-subtext"><i>Dramatic Subtext (Su)</i>: At 9th level, a sandman can use bardic performance to cast spells without obvious visual or audible components while retaining the spell's normal effects. Observers must succeed at a <a href="../../skills/perception.html#_perception" >Perception</a> check opposed by a sandman's <a href="../../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> check to notice that the sandman is the source of the spellcasting (though spellcasting still provokes attacks of opportunity). The bard must use this performance for at least 2 rounds before casting a spell; otherwise he is automatically detected and the performance ends. This ability replaces inspire greatness.</p>
+				<p id="greater-stealspell"><i>Greater Stealspell (Su)</i>: A sandman's stealspell power improves at 15th level. When a target fails a save against his stealspell performance, the sandman discovers its spell resistance (if any) and all spells it has prepared or knows. He can then choose which spell to steal. The sandman may forgo stealing a spell and instead reduce the target's SR by an amount equal to half his bard level and gain that amount of spell resistance for as long as he continues performing. If he steals additional spell resistance, it stacks with previously stolen SR. If he steals a spell or ceases performing, the spell resistance immediately reverts back to its owner. This performance replaces inspire heroics.</p>
+				<p id="mass-slumber-song"><i>Mass Slumber Song (Sp)</i>: At 18th level, a sandman can use slumber song to affect any number of fascinated creatures within 30 feet. Otherwise, this ability functions like <i><a href="../../spells/suggestion.html#_suggestion-mass" >mass suggestion</a></i>. This performance replaces <i><a href="../../spells/suggestion.html#_suggestion-mass" >mass suggestion</a></i>.</p>
+				<p id="spell-catching"><i>Spell Catching (Su)</i>: At 20th level, a sandman who saves against a spell or spell-like ability that targets only him (not including area spells) may use bardic performance as an immediate action. He must attempt a caster level check (DC 10 + the spell's original caster level). If it succeeds, the sandman can absorb the spell effect without harm and immediately recast that spell (using the original caster's level and save DC) or any spell he knows of that level or lower. Using this ability consumes a number of rounds of bardic performance equal to the spell's level, even if the check fails. This performance replaces deadly performance. </p>
+				<p id="master-of-deception"><b>Master of Deception (Ex)</b>: A sandman gains a bonus equal to half his level on <a href="../../skills/bluff.html#_bluff" >Bluff</a>, <a href="../../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a>, and <a href="../../skills/stealth.html#_stealth" >Stealth</a> checks. He may also disarm magical traps with <a href="../../skills/disableDevice.html#_disable-device" >Disable Device</a> as a rogue's trapfinding ability. This ability replaces bardic knowledge.</p>
+				<p id="sneakspell"><b>Sneakspell (Ex)</b>: At 2nd level, a sandman adds +1 to the save DC of spells and bardic performance against opponents who are denied their Dex bonus. This increases to +2 at 10th level and +3 at 18th level. In addition, at 6th level he gains a +2 bonus on caster level checks to overcome spell resistance against such foes, and this bonus increases to +4 at 14th level. This ability replaces versatile performance. </p>
+				<p id="trap-sense"><b>Trap Sense (Ex)</b>: At 3rd level, a sandman gains a +1 bonus on Reflex saves against traps and a +1 dodge bonus to AC against traps. These bonuses increase by +1 every three levels after 3rd. This ability replaces inspire competence. </p>
+				<p id="sneak-attack"><b>Sneak Attack (Ex)</b>: At 5th level, a sandman inflicts +1d6 points of damage against targets within 30 feet that he flanks or that are denied their Dex bonus to AC against him. This damage increases by +1d6 every five levels after 5th. This ability replaces lore master.</p>
+				<h1 id="savage-skald">Savage Skald</h1>
+				<p>Far from civilization, furious tribes have their own war-singers, work-chanters, and lore-keepers, savaging enemies with song and sword alike.</p>
+				<p id="bardic-performance"><b>Bardic Performance</b>: A savage skald gains the following types of bardic performance.</p>
+				<p id="inspiring-blow"><i>Inspiring Blow (Su)</i>: A savage skald roars his war-cries with each telling blow. When he confirms a critical hit, he can start this performance as an immediate action (ending any other performances). He gains temporary hit points equal to his Charisma modifier (if positive), and all allies within 30 feet gain a +1 morale bonus on their next attack roll prior to the start of his next turn. These temporary hit points remain until the bard ends his performance. This performance replaces fascinate. </p>
+				<p id="incite-rage"><i>Incite <a href="../../spells/rage.html#_rage" >Rage</a> (Su)</i>: At 6th level, a savage skald can induce a furious rage in one creature within 30 feet. This effect functions as a <i><a href="../../spells/rage.html#_rage" >rage</a></i> spell that lasts as long as the target can hear the bard's performance; however, unwilling creatures can be affected if they fail a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier). Success renders the target immune to this power for 24 hours. The bard cannot target himself with this ability. If the target has the rage class feature, it can instead immediately rage and stay in this rage without consuming rounds of rage per day as long as the bard continues performing. This mind-affecting effect requires audible components. This performance replaces suggestion.</p>
+				<p id="song-of-the-fallen"><i>Song of the Fallen (Sp)</i>: At 10th level, a savage skald can duplicate the effect of a <i>horn of Valhalla</i>. This effect requires 10 continuous rounds of performance and summons barbarians as a silver horn at 10th level, as a brass horn at 13th level, as a bronze horn at 16th level, and as an iron horn at 19th level. The warriors remain only as long as the bard continues his performance. This ability requires audible components. This performance replaces jack of all trades.</p>
+				<p id="berserkergang"><i>Berserkergang (Ex)</i>: At 12th level, a savage skald can inspire a rapturous battle trance that suppresses pain, stunning, and fear effects for one creature, plus one additional creature per three levels after 12th. Affected creatures also gain DR 5/&mdash; (DR 10/&mdash; against nonlethal damage); this benefit stacks with the damage reduction class ability of barbarians. This mind-affecting ability requires audible components. This performance replaces soothing performance. </p>
+				<p id="battle-song"><i>Battle Song (Su)</i>: At 18th level, a savage skald can affect all allies within 30 feet when using performance to incite rage. This performance replaces mass suggestion.</p>
+				<h1 id="sea-singer">Sea Singer</h1>
+				<p>The sea singer calls the blue waters his home, and is much in demand among sea captains wishing good fortune for their crew and hull as they ply the tradewinds far and wide.</p>
+				<p id="bardic-performance"><b>Bardic Performance</b>: A sea singer gains the following types of bardic performance.</p>
+				<p id="sea-shanty"><i>Sea Shanty (Su)</i>: A sea singer learns to counter seasickness and exhaustion during long sea voyages. Each round of a sea shanty, he makes a <a href="../../skills/perform.html#_perform" >Perform</a> skill check. Allies within 30 feet (including the sea singer) may use his <a href="../../skills/perform.html#_perform" >Perform</a> check in place of a saving throw against becoming exhausted, fatigued, nauseated, or sickened; if already under such an effect, a new save is allowed each round of the sea shanty, using the bard's <a href="../../skills/perform.html#_perform" >Perform</a> check for the save. A sea shanty has no effect on instantaneous effects or effects that do not allow saves. This ability requires audible components. This performance replaces countersong.</p>
+				<p id="still-water"><i>Still Water (Su)</i>: At 3rd level, a sea singer can use performance to calm rough waters within 30 feet, reducing the DC for <a href="../../skills/profession.html#_profession" >Profession</a> (sailor) and <a href="../../skills/swim.html#_swim" >Swim</a> checks, as well as for <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> and <a href="../../skills/climb.html#_climb" >Climb</a> checks aboard ship, by an amount equal to the bard's level (to a minimum of DC 10) for as long he continues to perform. He can extend this duration to 1 hour by playing for 10 consecutive rounds. This ability requires audible components. This performance replaces inspire competence.</p>
+				<p id="whistle-the-wind"><i>Whistle the Wind (Su)</i>: A sea singer of 6th level or higher can use performance to create a <i><a href="../../spells/gustOfWind.html#_gust-of-wind" >gust of wind</a></i>. This wind lasts for as long as he continues his performance. He can extend this duration to 1 minute by playing for 5 consecutive rounds. This performance replaces suggestion. </p>
+				<p id="call-the-storm"><i>Call the Storm (Su)</i>: At 18th level, a sea singer can use performance to duplicate <i><a href="../../spells/controlWater.html#_control-water" >control water</a>, <a href="../../spells/controlWeather.html#_control-weather" >control weather</a>, <a href="../../spells/controlWinds.html#_control-winds" >control winds</a>,</i> or <i><a href="../../spells/stormOfVengeance.html#_storm-of-vengeance" >storm of vengeance</a></i>, using his bard level as the caster level. Using this ability requires 1 round of continuous performance per level of the spell (as if he were a druid). These effects continue for as long as the bard continues performing (the effects on <i>control weather</i> happen immediately), but not longer than the spell's normal duration. This performance replaces mass suggestion.</p>
+				<p id="world-traveler"><b>World Traveler (Ex)</b>: A sea singer gains a bonus equal to half his bard level on <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (geography), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (local), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (nature), and <a href="../../skills/linguistics.html#_linguistics" >Linguistics</a> checks. He can reroll a check against one of these skills, but must take the result of the second roll even if it is worse. He can reroll one additional time per day at 5th level and every five levels thereafter. This ability replaces bardic knowledge. </p>
+				<p id="familiar"><b>Familiar</b>: At 2nd level, a sea singer acquires an exotic pet&mdash;a monkey or parrot (treat as raven)&mdash;that gains abilities as a wizard's familiar, using the sea singer's bard level as his wizard level. This ability replaces versatile performance. </p>
+				<p id="sea-legs"><b>Sea Legs (Ex)</b>: At 2nd level, a sea singer gains a +4 bonus on saving throws against air and water effects and effects that would cause the sea singer to slip, trip, or otherwise be knocked prone. He gains a +2 bonus to CMD against grapple, overrun, and trip. This ability replaces well-versed. </p>
+				<h1 id="street-performer">Street Performer</h1>
+				<p>Whether acrobat, troubadour, or thespian, the street performer mixes with the masses, singing for his supper.</p>
+				<p id="bardic-performance"><b>Bardic Performance</b>: A street performer gains the following types of bardic performance.</p>
+				<p id="disappearing-act"><i>Disappearing Act (Su)</i>: A street performer can use performance to divert attention from an ally. All creatures within 30 feet that fail a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) treat one creature chosen by the bard as if it were <i>invisible</i>. This performance affects one additional creature at 5th level and every 6 levels thereafter. If the targets take any action that would cause them to become visible, they become visible to everyone. The bard cannot use this ability on himself. This ability is a mind-affecting effect that requires visual components. This performance replaces inspire courage.</p>
+				<p id="harmless-performer"><i>Harmless Performer (Su)</i>: At 3rd level, a street performer can use performance to appear meek and unworthy of being attacked. While using this performance, whenever an enemy targets the street performer, the enemy must succeed at a Will save (DC 10 + 1/2 the bard's level + the bard's Cha bonus) or be unable to attack the bard this round, as per <i><a href="../../spells/sanctuary.html#_sanctuary" >sanctuary</a></i>. The enemy loses the attack that targeted the bard, but may spend additional attacks targeting other creatures. If the opponent was targeting the street performer with a spell, it must succeed at a concentration check at the same DC or lose the spell. If this check succeeds, it may target another creature with the spell instead. This mind-affecting ability requires audible or visual components. This performance replaces inspire competence. </p>
+				<p id="madcap-prank"><i>Madcap Prank (Su)</i>: At 9th level, a street performer can use performance to discomfit a target within 30 feet, causing its clothing to become tangled, its headgear to fall down over its eyes, or even causing it to slip and fall or otherwise be made to appear a fool. The target must make a Reflex save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) each round that it hears or sees the performance, or it takes one of the following random effects each round: 1&mdash;blinded, 2&mdash;dazzled, 3&mdash;deafened, 4&mdash;entangled, 5&mdash;fall prone, 6&mdash;nauseated. Each effect lasts 1 round. This performance replaces inspire greatness. </p>
+				<p id="slip-through-the-crowd"><i>Slip through the Crowd (Su)</i>: At 15th level, a street performer's disappearing act enables affected creatures to move through crowd squares and enemy-occupied squares without impediment. Affected creatures are treated as if having <i><a href="../../spells/invisibility.html#_invisibility-greater" >greater invisibility</a></i>, but enemies gain a new saving throw to notice them each time they are attacked. This performance replaces inspire heroics.</p>
+				<p id="gladhanding"><b>Gladhanding</b>: A street performer earns double the normal amount of money from <a href="../../skills/perform.html#_perform" >Perform</a> checks. As a standard action, he may use a <a href="../../skills/bluff.html#_bluff" >Bluff</a> check in place of a <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> check to improve a creature's attitude for 1 minute, after which its attitude becomes one step worse than originally. This ability replaces countersong.</p>
+				<p id="streetwise"><b>Streetwise</b>: A street performer gains a bonus equal to half his level on <a href="../../skills/bluff.html#_bluff" >Bluff</a>, <a href="../../skills/disguise.html#_disguise" >Disguise</a>, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (local), and <a href="../../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> checks, <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> checks made to influence crowds, and <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks to gather information (minimum +1). This replaces bardic knowledge. </p>
+				<p id="quick-change"><b>Quick Change (Ex)</b>: At 5th level, a street performer can don a disguise as a standard action by taking a &ndash;5 penalty on his check. He can take 10 on <a href="../../skills/bluff.html#_bluff" >Bluff</a> and <a href="../../skills/disguise.html#_disguise" >Disguise</a> checks and use <a href="../../skills/bluff.html#_bluff" >Bluff</a> to create a diversion to hide as a swift action. He can take 20 on a <a href="../../skills/bluff.html#_bluff" >Bluff</a> or <a href="../../skills/disguise.html#_disguise" >Disguise</a> check once per day, plus one time per six levels beyond 5th. This ability replaces lore master. </p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

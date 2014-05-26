@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Rogue</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Rogue",globalNavPath=[{ href: '/pathfinderRPG/prd/advanced/advancedCoreClasses.html', name: 'Advanced Core Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="rogue" class="monster-header">Rogue</h1>
+				<p>By their nature, rogues are varied and versatile. There are rogues who haunt the city, those who stalk the forest, and those who serve as agents of law. Wherever there is space for someone to make her mark with agility and wit, the rogue is there, using her wide range of skills and abilities to make a place for herself, whether openly or through cunning and subterfuge. And where a rogue's natural cunning and quick thinking aren't enough to win the day, well&mdash;there's always the option of a knife in the back.</p>
+				<p>The following rogue themes represent some of the most popular and effective roguish archetypes. Each archetype comes with one or more class features that must be taken. In addition, each archetype includes a number of new rogue talent suggestions that, while not mandatory, help to flesh out the character. Rogue talents and advanced rogue talents marked with an asterisk (*) in the archetype sections can be found in the <i>Pathfinder RPG Core Rulebook</i>.</p>
+				<p id="rogue-talents"><b>Rogue Talents</b>: The following new rogue talents can be taken by any rogue who meets the prerequisites. Note that rogue talents marked with a double asterisk (**) in this list add effects to a rogue's sneak attack. Only one of these talents can be applied to an individual attack, and the decision must be made before the attack roll is made.</p>
+				<p id="assault-leader"><i>Assault Leader (Ex)</i>: Once per day, when the rogue misses with an attack on a flanked opponent, she can designate a single ally who is also flanking the target that her attack missed. That ally can make a single melee attack against the opponent as an immediate action.</p>
+				<p id="befuddling-strike**"><i>Befuddling Strike** (Ex)</i>: When the rogue deals sneak attack damage against an opponent, that opponent takes a &ndash;2 penalty on attack rolls against the rogue for 1d4 rounds. </p>
+				<p id="camouflage"><i>Camouflage (Ex)</i>: Once per day, a rogue with this talent can craft simple but effective camouflage from the surrounding foliage. The rogue needs 1 minute to prepare the camouflage, but once she does, it is good for the rest of the day or until the rogue fails a saving throw against an area effect spell that deals fire, cold, or acid damage, whichever comes first. The rogue gains a +4 bonus on <a href="../../skills/stealth.html#_stealth" >Stealth</a> checks while within terrain that matches the foliage used to make the camouflage. This ability cannot be used in areas without natural foliage.</p>
+				<p id="canny-observer"><i>Canny Observer (Ex)</i>: When a rogue with this talent makes a <a href="../../skills/perception.html#_perception" >Perception</a> check to hear the details of a conversation or to find concealed or secret objects (including doors and traps), she gains a +4 bonus.</p>
+				<p id="charmer"><i>Charmer (Ex)</i>: Once per day, the rogue can roll two dice while making a <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> check, and take the better result. She must choose to use this talent before making the <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses.</p>
+				<p id="coax-information"><i>Coax Information (Ex)</i>: A rogue with this talent can use <a href="../../skills/bluff.html#_bluff" >Bluff</a> or <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> in place of <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> to force an opponent to act friendly toward her. </p>
+				<p id="combat-swipe"><i>Combat Swipe</i>: A rogue who selects this talent gains <a href="../advancedFeats.html#_improved-steal-(combat)" >Improved Steal</a> as a bonus feat.</p>
+				<p id="cunning-trigger"><i>Cunning Trigger (Ex)</i>: A rogue with this talent can use a swift action to set off any trap within 30 feet that she constructed. </p>
+				<p id="distracting-attack**"><i>Distracting Attack** (Ex)</i>: A rogue with this talent can make sneak attacks with subtle flourishes that disorient and distract her enemy. When she hits a creature with a melee attack that deals sneak attack damage, she can forgo the additional damage to cause the creature to become flat-footed against one target of her choosing until the beginning of her next turn. The rogue cannot designate herself as the creature gaining the benefit of this talent. Creatures with uncanny dodge are immune to distracting attack.</p>
+				<p id="expert-leaper"><i>Expert Leaper (Ex)</i>: When making jump checks, the rogue is always considered to have a running start. Also, when the rogue deliberately falls, a DC 15 <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> check allows her to ignore the first 20 feet fallen, instead of the first 10 feet. </p>
+				<p id="fast-fingers"><i>Fast Fingers (Ex)</i>: Once per day, a rogue with this talent can roll two dice while making a <a href="../../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> check and take the better result. She must choose to use this talent before making the <a href="../../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses.</p>
+				<p id="fast-getaway"><i>Fast Getaway (Ex)</i>: After successfully making a sneak attack or <a href="../../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> check, a rogue with this talent can spend a move action to take the withdraw action. She can move no more than her speed during this movement. </p>
+				<p id="fast-picks"><i>Fast Picks (Ex)</i>: A rogue with this talent can use the <a href="../../skills/disableDevice.html#_disable-device" >Disable Device</a> skill to attempt to open a lock as a standard action instead of a full-round action. </p>
+				<p id="follow-clues"><i>Follow Clues (Ex)</i>: A rogue with this talent can use <a href="../../skills/perception.html#_perception" >Perception</a> to follow tracks as per the <a href="../../skills/survival.html#_survival" >Survival</a> skill.</p>
+				<p id="guileful-polyglot"><i>Guileful Polyglot (Ex)</i>: A rogue with this talent who has at least one rank in <a href="../../skills/linguistics.html#_linguistics" >Linguistics</a> gains four additional languages. A rogue with this talent who does not have any ranks in <a href="../../skills/linguistics.html#_linguistics" >Linguistics</a> gains two additional languages. If the rogue later gains ranks in <a href="../../skills/linguistics.html#_linguistics" >Linguistics</a>, she gains two additional languages, to a total of four additional languages above those granted by the <a href="../../skills/linguistics.html#_linguistics" >Linguistics</a> skill itself.</p>
+				<p id="hard-to-fool"><i>Hard to Fool (Ex)</i>: Once per day, a rogue with this talent can roll two dice while making a <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> check, and take the better result. She must choose to use this talent before making the <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses. </p>
+				<p id="honeyed-words"><i>Honeyed Words (Ex)</i>: Once per day, the rogue can roll two dice while making a <a href="../../skills/bluff.html#_bluff">Bluff</a> check, and take the better result. She must choose to use this talent before making the Bluff check. A rogue can use this ability one additional time per day for every five rogue levels she possesses.</p>
+				<p id="lasting-poison"><i>Lasting Poison (Ex)</i>: A rogue with this talent can apply poison to a weapon in such a way that it is effective for two successful attacks instead of one. The poison has a reduced effect, however, and saves made against the poison receive a +2 circumstance bonus. Applying poison in this way requires a full-round action, or a standard action if the rogue has the swift poison talent.</p>
+				<p id="nimble-climber"><i>Nimble Climber (Ex)</i>: When a rogue with this talent fails a <a href="../../skills/climb.html#_climb" >Climb</a> check by 5 or more, she can immediately make another <a href="../../skills/climb.html#_climb" >Climb</a> check at the surface's base DC +10. If successful, she stops her fall by clinging onto the surface. The rogue does not take falling damage when she stops her fall in this manner.</p>
+				<p id="offensive-defense**"><i>Offensive Defense** (Ex)</i>: When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage, the rogue gains a +1 dodge bonus to AC for each sneak attack die rolled for 1 round. </p>
+				<p id="peerless-maneuver"><i>Peerless Maneuver (Ex)</i>: Once per day, a rogue with this talent can roll two dice while making an <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> check, and take the better result. She must choose to use this talent before making the <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses.</p>
+				<p id="positioning-attack"><i>Positioning Attack (Ex)</i>: Once per day, when a rogue with this talent hits a creature with a melee attack, she can move up to 30 feet without provoking attacks of opportunity. The movement must end in a space adjacent to the creature hit with the melee attack. </p>
+				<p id="powerful-sneak**"><i>Powerful Sneak** (Ex)</i>: Whenever a rogue with this talent takes a full attack action, she can elect to take a &ndash;2 penalty on all attack rolls until the start of her next turn. If an attack during this time is a sneak attack, she treats all 1s on the sneak attack damage dice as 2s. </p>
+				<p id="quick-disguise"><i>Quick Disguise (Ex)</i>: A rogue with this talent can use the items at hand and seemingly innocuous material hidden on her person to create startlingly effective disguises, reducing the amount of time it takes to create a disguise using the <a href="../../skills/disguise.html#_disguise" >Disguise</a> skill. </p>
+				<p>The time needed for the rogue to alter her appearance in this manner is based on the complexity of the disguise, as noted on the following table. The times are cumulative, so if a female rogue wants to disguise herself as a male of a different race, that takes 2 minutes.</p><table>
+<thead><tr><th>Disguise</th><th>Time</th></tr></thead>
+<tbody>
+<tr class="odd"><td>Minor details only</td><td>1 full-round action</td></tr>
+<tr class="even"><td><a href="../../skills/disguise.html#_disguise" >Disguise</a> as a different gender</td><td>1 minute</td></tr>
+<tr class="odd"><td><a href="../../skills/disguise.html#_disguise" >Disguise</a> as a different race</td><td>1 minute</td></tr>
+<tr class="even"><td><a href="../../skills/disguise.html#_disguise" >Disguise</a> as a different age category</td><td>1 minute</td></tr>
+<tr class="odd"><td><a href="../../skills/disguise.html#_disguise" >Disguise</a> as a different size category</td><td>1 minute</td></tr></tbody></table>
+
+				<p id="quick-trapsmith"><i>Quick Trapsmith (Ex)</i>: As a full-round action, a rogue with this talent can set a simple trap with a CR no greater than 1/2 her rogue level. To do this, she must purchase the components, spend the required time constructing the trap in advance, and have its components at hand. The type of trap that can be constructed in this way is subject to GM discretion.</p>
+				<p id="snap-shot"><i>Snap Shot (Ex)</i>: A rogue with this talent may treat her intitiative roll as a 20 for a surprise round, regardless of her initiative, but she may only take an attack action with a ranged weapon. Her normal initiative roll is used in subsequent rounds. If two or more rogues possess this talent, their initiative determines the order in which they act, but they all go before any other creature. If a rogue is prevented from acting in the surprise round, this talent has no effect. </p>
+				<p id="sniper's-eye"><i>Sniper's Eye (Ex)</i>: A rogue with this talent can apply her sneak attack damage on ranged attacks targeting foes within 30 feet that benefit from concealment. Foes with total concealment are still immune. </p>
+				<p id="strong-impression"><i>Strong Impression</i>: A rogue who selects this talent gains <a href="../../feats.html#_intimidating-prowess" >Intimidating Prowess</a> as a bonus feat. </p>
+				<p id="survivalist"><i>Survivalist</i>: A rogue with this talent adds <a href="../../skills/heal.html#_heal" >Heal</a> and <a href="../../skills/survival.html#_survival" >Survival</a> to her list of class skills.</p>
+				<p id="swift-poison"><i>Swift Poison (Ex)</i>: A rogue with this talent can apply poison to a weapon as a move action, instead of a standard action.</p>
+				<p id="advanced-rogue-talents"><b>Advanced Rogue Talents</b>: The following new advanced rogue talents can be selected by any rogue of 10th level or higher who meets the prerequisites.</p>
+				<p id="another-day"><i>Another Day (Ex)</i>: Once per day, when the rogue would be reduced to 0 or fewer hit points by a melee attack, she can take a 5-foot step as an immediate action. If the movement takes her out of the reach of the attack, she takes no damage from the attack. The rogue is staggered for 1 round on her next turn.</p>
+				<p id="deadly-cocktail"><i>Deadly Cocktail (Ex)</i>: A rogue with this talent can apply two doses of poison to a weapon at once. These can be separate poisons, in which case they both affect the target individually, or two doses of the same toxin, in which case the poisons' frequency is extended by 50% and the save DC increases by +2. This talent is an exception to the rule that injury poisons can only be delivered one dose at a time.</p>
+				<p id="deadly-sneak**"><i>Deadly Sneak** (Ex)</i>: Whenever a rogue with this talent uses the powerful sneak rogue talent, she treats all 1s and 2s on the sneak attack damage dice as 3s. A rogue must have the powerful sneak rogue talent before choosing this talent.</p>
+				<p id="entanglement-of-blades**"><i>Entanglement of Blades** (Ex)</i>: When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage, the target cannot take a 5-foot step until the beginning of the rogue's next turn. </p>
+				<p id="fast-tumble"><i>Fast Tumble (Ex)</i>: When a rogue with this talent uses <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> to move at full speed through a threatened square without provoking an attack of opportunity, the DC of the <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> check does not increase by 10. </p>
+				<p id="frugal-trapsmith"><i>Frugal Trapsmith (Ex)</i>: When a rogue with this talent constructs a mechanical trap, she only pays 75% of the normal cost. </p>
+				<p id="hunter's-surprise"><i>Hunter's Surprise (Ex)</i>: Once per day, a rogue with this talent can designate a single enemy she is adjacent to as her prey. Until the end of her next turn, she can add her sneak attack damage to all attacks made against her prey, even if she is not flanking it or it is not flat-footed.</p>
+				<p id="knock-out-blow"><i>Knock-Out Blow (Ex)</i>: Once per day, the rogue can forgo her sneak attack damage to attempt to knock out an opponent. She must declare the use of knock-out blow before she makes the attack. If the attack hits, it does normal damage, but instead of dealing sneak attack damage (and instead of any effect that triggers when the rogue deals sneak attack damage), the target falls unconscious for 1d4 rounds. A successful Fortitude save reduces this effect to staggered for 1 round. The DC of this save is equal to 10 + 1/2 the rogue's level + the rogue's Intelligence modifier.</p>
+				<p id="master-of-disguise"><i>Master of Disguise (Ex)</i>: Once per day, a rogue with this talent gains a +10 bonus on a single <a href="../../skills/disguise.html#_disguise" >Disguise</a> check. </p>
+				<p id="redirect-attack"><i>Redirect Attack (Ex)</i>: Once per day, when a rogue with this talent is hit with a melee attack, she can redirect the attack to strike at an adjacent creature with a free action. The creature targeted must be within melee reach of the attack that hit the rogue, and the creature that made the attack against the rogue must make a new attack roll against the new target. </p>
+				<p id="stealthy-sniper"><i>Stealthy Sniper (Ex)</i>: When a rogue with this talent uses the <a href="../../skills/stealth.html#_stealth" >Stealth</a> skill to snipe, she only suffers a &ndash;10 penalty on the <a href="../../skills/stealth.html#_stealth" >Stealth</a> check, instead of &ndash;20. </p>
+				<p id="thoughtful-reexamining"><i>Thoughtful Reexamining (Ex)</i>: Once per day, a rogue with this talent can reroll a <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a>, <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a>, or <a href="../../skills/perception.html#_perception" >Perception</a> skill check to try to gain new or better information from the roll. This reroll can be made any time during the same day as the original check. </p>
+				<h1 id="acrobat">Acrobat</h1>
+				<p>Agility and daring are both excellent rogue traits, and their confluence can create spectacular feats of acrobatics. Whether they are daring thieves, infiltrating assassins, or intrepid spies, proper training in acrobatics is a valuable boon for rogues.</p>
+				<p id="expert-acrobat"><b>Expert Acrobat (Ex)</b>: At 1st level, an acrobat does not suffer any armor check penalties on <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a>, <a href="../../skills/climb.html#_climb" >Climb</a>, <a href="../../skills/fly.html#_fly" >Fly</a>, <a href="../../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a>, or <a href="../../skills/stealth.html#_stealth" >Stealth</a> skill checks while wearing light armor. When she is not wearing armor, she gains a +2 competency bonus on <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> and <a href="../../skills/fly.html#_fly" >Fly</a> skill checks. This ability replaces trapfinding.</p>
+				<p id="second-chance"><b>Second Chance (Ex)</b>: At 3rd level, an acrobat can reroll any <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a>, <a href="../../skills/climb.html#_climb" >Climb</a>, or <a href="../../skills/fly.html#_fly" >Fly</a> skill check she has just made. This reroll is made at a &ndash;5 penalty. She must take the second result, even if it is worse. An acrobat can use this ability only once on any given skill check. She can use this ability once per day at 3rd level, plus one additional time per day for every 3 levels beyond 3rd. This ability replaces trap sense.</p>
+				<p><b>Rogue Talents</b>: The following rogue talents complement the acrobat archetype: expert leaper, ledge walker*, nimble climber, peerless maneuver, rogue crawl*, and stand up*. </p>
+				<p><b>Advanced Talents</b>: The following advanced rogue talents complement the acrobat archetype: defensive roll*, fast getaway, fast tumble, and improved evasion*. </p>
+				<h1 id="burglar">Burglar</h1>
+				<p>Adept at infiltration, trap removal, and lock picking, burglars prey on the homes of the wealthy and forgotten tombs alike. Such riches are guarded with vicious traps and hazards, but the devious mind of the burglar allows her to find such dangers and avoid them.</p>
+				<p id="careful-disarm"><b>Careful Disarm (Ex)</b>: At 4th level, whenever a burglar attempts to disarm a trap using <a href="../../skills/disableDevice.html#_disable-device" >Disable Device</a>, she does not spring the trap unless she fails by 10 or more. If she does set off a trap she was attempting to disarm, she adds double her trap sense bonus to avoid the trap. This ability replaces uncanny dodge.</p>
+				<p id="distraction"><b>Distraction (Ex)</b>: At 8th level, whenever a burglar is detected while using <a href="../../skills/stealth.html#_stealth" >Stealth</a>, she can immediately attempt a <a href="../../skills/bluff.html#_bluff" >Bluff</a> skill check opposed by the <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> skill of the creature that spotted her. If this check succeeds, the target assumes that the noise was something innocent and disregards the detection. This only functions if the creature cannot see the rogue. This ability can only be used once during a given <a href="../../skills/stealth.html#_stealth" >Stealth</a> attempt. If the same creature detects the rogue's presence again, the ability has no effect. This ability replaces improved uncanny dodge.</p>
+				<p><b>Rogue Talents</b>: The following rogue talents complement the burglar archetype: fast picks, fast stealth*, nimble climber, quick disable*, and trap spotter*.</p>
+				<p><b>Advanced Talents</b>: The following advanced rogue talents complement the burglar archetype: knock-out blow, skill mastery*, and thoughtful reexamining.</p>
+				<h1 id="cutpurse">Cutpurse</h1>
+				<p>Everyone who lives in the city understands that a wealthy man stays wealthy by guarding his purse while wandering the streets and markets. Cutpurses are often trained by guilds to collect the guild's tax from local businesses on a daily basis, whether through intimidation or pickpocketing. Some find themselves taking up the mantle of adventurer, and their talents are generally appreciated in this role, but the cutpurse is still the first person her companions look to when an item goes missing. </p>
+				<p id="measure-the-mark"><b>Measure the Mark (Ex)</b>: When a cutpurse makes a <a href="../../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> check to take something from a creature, the target makes its <a href="../../skills/perception.html#_perception" >Perception</a> check before the rogue makes her <a href="../../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> check, and the rogue knows the <a href="../../skills/perception.html#_perception" >Perception</a> check result. She can decide whether or not to make the check based on the results of the target's <a href="../../skills/perception.html#_perception" >Perception</a> check. If the rogue elects not to make the check, she can make a <a href="../../skills/bluff.html#_bluff" >Bluff</a> check, opposed by the target's <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a>, to prevent the target from noticing the attempt. This ability replaces trapfinding.</p>
+				<p id="stab-and-grab"><b>Stab and Grab (Ex)</b>: At 3rd level, as a full-round action, a cutpurse can make an attack and also make a <a href="../../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> check to steal something from the target of the attack. If the attack deals sneak attack damage, the rogue can use <a href="../../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> to take an item from the creature during combat; otherwise this ability can only be used in a surprise round before the target has acted. If the attack is successful, the target takes a &ndash;5 penalty on the <a href="../../skills/perception.html#_perception" >Perception</a> check to notice the theft. This ability replaces trap sense.</p>
+				<p><b>Rogue Talents</b>: The following rogue talents complement the cutpurse archetype: combat swipe, fast fingers, fast getaway, hard to fool, minor magic*, slow reactions*, and surprise attack*.</p>
+				<p><b>Advanced Talents</b>: The following advanced rogue talents complement the cutpurse archetype: crippling strike*, fast tumble, and skill mastery*.</p>
+				<h1 id="investigator">Investigator</h1>
+				<p>Not all rogues work against the law. Investigators use their skills to serve the law, often in the employ of nobles or in the pursuit of noble causes. In some cities cabals of investigators work for rulers or bureaucracies, but often an investigator is a free agent who pursues whatever mysteries come across her path. Of course, not all investigators serve the law. Crime lords and guildmasters often have squads of investigators serving their own nefarious purposes.</p>
+				<p id="follow-up"><b>Follow Up (Ex)</b>: An investigator can roll twice on any <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> check made to gather information, and receives the information for both results. This takes the same amount of time as one check. If the lesser of the two checks reveals false information, the rogue is aware of it. False information is not revealed in this way if the people she questioned do not know it to be false. This ability replaces trapfinding.</p>
+				<p><b>Rogue Talents</b>: The following rogue talents complement the investigator archetype: coax information, fast picks, follow clues, hard to fool, and minor magic*.</p>
+				<p><b>Advanced Talents</b>: The following advanced rogue talents complement the investigator archetype: hunter's surprise, slippery mind*, and thought reexamining.</p>
+				<h1 id="poisoner">Poisoner</h1>
+				<p>Some consider poisoning an evil act. The poisoner knows poison is just a tool toward an end, and is no different than any other weapon. Some poisoners see themselves as great equalizers, as they are able to craft weapons that the weakest of creatures can wield to devastating effect, but most have no lofty delusions about their work. </p>
+				<p id="poison-use"><b>Poison Use (Ex)</b>: At 1st level, a poisoner is trained in the use of poison and cannot accidentally poison herself when applying poison to a blade. This ability replaces trapfinding.</p>
+				<p id="master-poisoner"><b>Master Poisoner (Ex)</b>: At 3rd level, a poisoner can use <a href="../../skills/craft.html#_craft" >Craft</a> (alchemy) to change the type of a poison. This requires 1 hour of work with an alchemist's lab and a <a href="../../skills/craft.html#_craft" >Craft</a> (alchemy) skill check with a DC equal to the poison's DC. If successful, the poison's type changes to contact, ingested, inhaled, or injury. If the check fails, the poison is ruined. The poisoner also receives a bonus on <a href="../../skills/craft.html#_craft" >Craft</a> (alchemy) skill checks when working with poison equal to 1/2 her rogue level. This ability replaces trap sense.</p>
+				<p><b>Rogue Talents</b>: The following rogue talents complement the poisoner archetype: distracting attack, lasting poison, surprise attack*, swift poison, and weapon training*.</p>
+				<p><b>Advanced Talents</b>: The following advanced rogue talents complement the poisoner archetype: deadly cocktail, hunter's surprise, and opportunist*.</p>
+				<h1 id="rake">Rake</h1>
+				<p>The rake is a rogue who is open about her skills and talents, often to the point of being boastful. Usually she has the protection of an important figure who finds her services useful, but sometimes her bravado is enough to keep enemies away. She is often used as a face for the group for diplomacy, gathering information, negotiations, or to gain the most lucrative contracts and quests from local authorities.</p>
+				<p id="bravado's-blade"><b>Bravado's Blade (Ex)</b>: When a rake hits an opponent and deals sneak attack damage, she can forgo 1d6 points of that damage and make a free <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> check to demoralize the foe. For every additional 1d6 points of sneak attack damage she forgoes, she receives a +5 circumstance bonus on this check. This ability replaces trapfinding.</p>
+				<p id="rake's-smile"><b>Rake's Smile (Ex)</b>: At 3rd level, a rake gains a +1 morale bonus on <a href="../../skills/bluff.html#_bluff" >Bluff</a> and <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks. This bonus increases by +1 for every 3 levels beyond 3rd. This ability replaces trap sense.</p>
+				<p><b>Rogue Talents</b>: The following rogue talents complement the rake archetype: befuddling strike, charmer, honeyed words, and surprise attack*.</p>
+				<p><b>Advanced Talents</b>: The following advanced rogue talents complement the rake archetype: another day, redirect attack, and skill mastery*.</p>
+				<h1 id="scout">Scout</h1>
+				<p>Not all rogues live in the city. Scouts frequently roam the wilderness, often banding together as bandits, but sometimes serving as guides, as trailblazers, or as companions to a ranger or barbarian warrior. More comfortable with sneaking and hiding outdoors, the scout is still effective in the city and the dungeon.</p>
+				<p id="scout's-charge"><b>Scout's Charge (Ex)</b>: At 4th level, whenever a scout makes a charge, her attack deals sneak attack damage as if the target were flat-footed. Foes with uncanny dodge are immune to this ability. This ability replaces uncanny dodge.</p>
+				<p id="skirmisher"><b>Skirmisher (Ex)</b>: At 8th level, whenever a scout moves more than 10 feet in a round and makes an attack action, the attack deals sneak attack damage as if the target was flat-footed. If the scout makes more than one attack this turn, this ability only applies to the first attack. Foes with uncanny dodge are immune to this ability. This ability replaces improved uncanny dodge.</p>
+				<p><b>Rogue Talents</b>: The following rogue talents complement the scout archetype: assault leader, camouflage, cunning trigger, survivalist, and trap spotter*.</p>
+				<p><b>Advanced Talents</b>: The following advanced rogue talents complement the scout archetype: hunter's surprise, skill mastery*, and stealthy sniper.</p>
+				<h1 id="sniper">Sniper</h1>
+				<p>Some say that the sniper is the worst kind of assassin: a killer who waits silently in the shadows and then strikes from a distance without remorse. Snipers, of course, understand that such protestations about “cowardice” and “honor” regarding their profession are in fact merely the bleatings of sheep fearing the slaughter and pay them no heed. Most snipers take pride in their formidable abilities, which allow them to take life quickly, quietly, and efficiently, then disappear into their surroundings without a trace.</p>
+				<p id="accuracy"><b>Accuracy (Ex)</b>: At 1st level, a sniper halves all range increment penalties when making ranged attacks with a bow or crossbow. This ability replaces trapfinding.</p>
+				<p id="deadly-range"><b>Deadly Range (Ex)</b>: At 3rd level, a sniper increases the range at which she can apply her sneak attack damage by 10 feet. This range increases by 10 feet for every 3 levels after 3rd. This ability replaces trap sense.</p>
+				<p><b>Rogue Talents</b>: The following rogue talents complement the sniper archetype: camouflage, snap shot, sniper's eye, and weapon training*.</p>
+				<p><b>Advanced Talents</b>: The following advanced rogue talents complement the sniper archetype: defensive roll*, master of disguise, and stealthy sniper.</p>
+				<h1 id="spy">Spy</h1>
+				<p>The best spies are like chameleons, but not only can they change their appearances to fit the situation, they can also change their personalities, allegiances, and even loves if that's what it takes to achieve their clandestine goals. Spies are the ultimate manipulators, and even those who commission their services sometimes find that they've merely served the spies' own interests. </p>
+				<p id="skilled-liar"><b>Skilled Liar (Ex)</b>: Whenever a spy uses <a href="../../skills/bluff.html#_bluff" >Bluff</a> to attempt to deceive someone, she gains a bonus on the opposed roll equal to 1/2 her rogue level (minimum +1). This bonus does not apply to feint attempts or attempts to pass secret messages. This ability replaces trapfinding.</p>
+				<p id="poison-use"><b>Poison Use (Ex)</b>: A 3rd level, a spy is trained in the use of poison and cannot accidentally poison herself when applying poison to a blade. This ability replaces trap sense.</p>
+				<p><b>Rogue Talents</b>: The following rogue talents complement the spy archetype: canny observer, guileful polyglot, honeyed words, major magic*, minor magic*, and quick disguise.</p>
+				<p><b>Advanced Talents</b>: The following advanced rogue talents complement the spy archetype: crippling strike*, master of disguise, and stealthy sniper.</p>
+				<h1 id="swashbuckler">Swashbuckler</h1>
+				<p>A paragon of mobile swordplay, the swashbuckler is a rogue who focuses almost exclusively on honing her skill at arms and perfecting daring acrobatic moves and elaborate flourishes that border on performance.</p>
+				<p id="martial-training"><b>Martial Training (Ex)</b>: At 1st level, the swashbuckler may select one martial weapon to add to her list of weapon proficiencies. In addition, she may take the combat trick rogue talent up to two times. This ability replaces trapfinding.</p>
+				<p id="daring"><b>Daring (Ex)</b>: At 3rd level, a swashbuckler gains a +1 morale bonus on <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks and saving throws against fear. This bonus increases by +1 for every 3 levels beyond 3rd. This ability replaces trap sense.</p>
+				<p><b>Rogue Talents</b>: The following rogue talents complement the swashbuckler archetype: offensive defense, positioning attack, powerful sneak, and weapon training*.</p>
+				<p><b>Advanced Talents</b>: The following advanced rogue talents complement the swashbuckler archetype: crippling strike*, entanglement of blades, and redirect attack.</p>
+				<h1 id="thug">Thug</h1>
+				<p>Some criminals steal with finesse, their victims only discovering the crime when the rogue is long gone and the coin already spent. A thug, on the other hand, cares nothing for finesse. Through both threat and violence, the thug gets what she wants by the promise of force, and has no problem making good on that promise as needed. </p>
+				<p id="frightening"><b>Frightening (Ex)</b>: Whenever a thug successfully uses <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> to demoralize a creature, the duration of the shaken condition is increased by 1 round. In addition, if the target is shaken for 4 or more rounds, the thug can instead decide to make the target frightened for 1 round. This ability replaces trapfinding.</p>
+				<p id="brutal-beating"><b>Brutal Beating (Ex)</b>: At 3rd level, whenever a thug deals sneak attack damage, she can choose to forgo 1d6 points of sneak attack damage to make the target sickened for a number of rounds equal to 1/2 her rogue level. This ability does not stack with itself&mdash;only the most recent duration applies. This ability replaces trap sense. </p>
+				<p><b>Rogue Talents</b>: The following rogue talents complement the thug archetype: offensive defense, powerful sneak, strong impression, and weapon training*.</p>
+				<p><b>Advanced Talents</b>: The following advanced rogue talents complement the thug archetype: crippling strike*, deadly sneak, and knock-out blow.</p>
+				<h1 id="trapsmith">Trapsmith</h1>
+				<p>Some rogues are not content with just disabling traps&mdash;they love to build them, finding a captivating beauty in the turning of gears and the slither of ropes over pulleys. The trapsmith may have started out putting together traps in order to better understand how to disable them, but for most, it's long since gone beyond that&mdash;they now relish the challenge of creating the perfect combat machine.</p>
+				<p id="careful-disarm"><b>Careful Disarm (Ex)</b>: At 4th level, whenever a trapsmith attempts to disarm a trap using <a href="../../skills/disableDevice.html#_disable-device" >Disable Device</a>, she does not spring the trap unless she fails by 10 or more. If she does set off a trap she was attempting to disarm, she adds double her trap sense bonus to avoid the trap. This ability replaces uncanny dodge.</p>
+				<p id="trap-master"><b>Trap Master (Ex)</b>: At 8th level, whenever a trapsmith disarms a trap using <a href="../../skills/disableDevice.html#_disable-device" >Disable Device</a>, she can bypass it even if her check did not exceed the DC by 10 or more. If it is a magic trap that allows specific creatures to pass it without danger, she can modify which creatures it allows to pass, adding her allies and restricting enemies if she desires. This ability replaces improved uncanny dodge.</p>
+				<p><b>Rogue Talents</b>: The following rogue talents complement the trapsmith archetype: befuddling strike, cunning trigger, quick disable*, and quick trapsmith.</p>
+				<p><b>Advanced Talents</b>: The following advanced rogue talents complement the trapsmith archetype: another day, frugal trapsmith, and skill mastery*.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

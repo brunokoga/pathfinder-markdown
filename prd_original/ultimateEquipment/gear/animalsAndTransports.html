@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Animals and Transports</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Animals and Transports",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/gear/index.html', name: 'Gear' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h2>Animals, Mounts, and Related Gear</h2>
+<p>The animals, mounts, and related gear in this section can be found in most large cities. Based on its location, a settlement might not have all of these animals or related gear available at a given time (as the GM deems fit).</p>
+<p>The tables for this section are split up into five categories: Pets and Familiars, Guard and Hunting Animals, Farm and Work Animals, Mounts, and Animal-Related Gear. Animals that fit into more than one category appear on multiple lists.</p>
+
+
+<table id="pets-and-familiars-table"><caption>Pets and Familiars</caption>
+<thead><tr><th>Animal</td><th>Price</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Badger</td><td>15 gp</td><td>20 lbs.</td></tr>
+<tr class="even"><td>Bat</td><td>5 gp</td><td>1 lb.</td></tr>
+<tr class="odd"><td>Cat</td><td>3 cp</td><td>8 lbs.</td></tr>
+<tr class="even"><td>Cat, hunting</td><td>100 gp</td><td>100 lbs.</td></tr>
+<tr class="odd"><td>Centipede, house</td><td>1 cp</td><td>3 oz. </td></tr>
+<tr class="even"><td>Crab</td><td>20 gp</td><td>5&ndash;7 lbs.</td></tr>
+<tr class="odd"><td>Dog, lap</td><td>15 gp</td><td>5 lbs. </td></tr>
+<tr class="even"><td>Donkey rat</td><td>1 gp</td><td>50 lbs</td></tr>
+<tr class="odd"><td>Fox</td><td>8 gp</td><td>12 lbs. </td></tr>
+<tr class="even"><td>Goat</td><td>6 gp</td><td>50 lbs. </td></tr>
+<tr class="odd"><td>Hedgehog</td><td>5 gp</td><td>3 lbs. </td></tr>
+<tr class="even"><td>Lizard</td><td>5 cp</td><td>2 oz.</td></tr>
+<tr class="odd"><td>Monkey</td><td>3 gp</td><td>5 lbs.</td></tr>
+<tr class="even"><td>Octopus</td><td>25 gp</td><td>2 lbs.</td></tr>
+<tr class="odd"><td>Otter</td><td>20 gp</td><td>10 lbs. </td></tr>
+<tr class="even"><td>Owl</td><td>10 gp</td><td>1&ndash;3 lbs.</td></tr>
+<tr class="odd"><td>Parrot</td><td>50 gp</td><td>4 lbs. </td></tr>
+<tr class="even"><td>Pig</td><td>10 gp</td><td>100&ndash;300 lbs.</td></tr>
+<tr class="odd"><td>Pseudodragon</td><td>200 gp</td><td>7 lbs.</td></tr>
+<tr class="even"><td>Rabbit</td><td>2 gp</td><td>3 lbs.</td></tr>
+<tr class="odd"><td>Raccoon</td><td>5 gp</td><td>7 lbs. </td></tr>
+<tr class="even"><td>Rat</td><td>1 cp</td><td>1 lb.</td></tr>
+<tr class="odd"><td>Rat, dire</td><td>5 gp</td><td>50 lbs. </td></tr>
+<tr class="even"><td>Raven</td><td>2 gp</td><td>3 lbs.</td></tr>
+<tr class="odd"><td>Scorpion, greensting</td><td>15 gp</td><td>9 oz. </td></tr>
+<tr class="even"><td>Skunk</td><td>10 gp</td><td>10 lbs. </td></tr>
+<tr class="odd"><td>Snake, constrictor</td><td>5 gp</td><td>60 lbs.</td></tr>
+<tr class="even"><td>Snake, viper</td><td>5 gp</td><td>10 oz. </td></tr>
+<tr class="odd"><td>Squirrel, common</td><td>1 gp</td><td>2 lbs.</td></tr>
+<tr class="even"><td>Squirrel, flying</td><td>20 gp</td><td>1 lb. </td></tr>
+<tr class="odd"><td>Spider</td><td>25 gp</td><td>8 oz. </td></tr>
+<tr class="even"><td>Stirge</td><td>20 gp</td><td>1 lb. </td></tr>
+<tr class="odd"><td>Thrush</td><td>1 sp</td><td>7 oz.</td></tr>
+<tr class="even"><td>Toad</td><td>2 cp</td><td>7 oz.</td></tr>
+<tr class="odd"><td>Turtle</td><td>3 gp</td><td>4 lbs. </td></tr>
+<tr class="even"><td>Weasel</td><td>2 gp</td><td>8 oz. </td></tr></table>
+
+<table id="gaurd-and-hunting-animals-table"><caption>Guard and Hunting Animals</caption>
+<thead><tr><th>Animal</td><th>Price</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Axe beak</td><td>1,500 gp</td><td>500 lbs.</td></tr>
+<tr class="even"><td>Axe beak egg</td><td>1,000 gp</td><td>10 lbs.</td></tr>
+<tr class="odd"><td>Cat, Small</td><td>100 gp</td><td>100 lbs. </td></tr>
+<tr class="even"><td>Dog, guard</td><td>25 gp</td><td>25 lbs.</td></tr>
+<tr class="odd"><td>Falcon</td><td>40 gp</td><td>2 lbs.</td></tr>
+<tr class="even"><td>Hawk</td><td>18 gp</td><td>2 lbs.</td></tr>
+<tr class="odd"><td>Owl</td><td>20 gp</td><td>4 lbs. </td></tr>
+<tr class="even"><td>Pseudodragon</td><td>200 gp</td><td>7 lbs.</td></tr>
+<tr class="odd"><td>Stirge</td><td>20 gp</td><td>1 lb.</td></tr></table>
+
+<table id="farm-and-work-animals-table"><caption>Farm and Work Animals</caption>
+<thead><tr><th>Animal</td><th>Price</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Camel</td><td>150 gp</td><td>1,000 lbs.</td></tr>
+<tr class="even"><td>Cattle</td><td>50 gp</td><td>1,500 lbs.</td></tr>
+<tr class="odd"><td>Chicken</td><td>1 gp</td><td>6 lbs. </td></tr>
+<tr class="even"><td>Donkey or mule</td><td>8 gp</td><td>600&ndash;800 lbs.</td></tr>
+<tr class="odd"><td>Duck</td><td>2 gp</td><td>3 lbs.</td></tr>
+<tr class="even"><td>Elephant</td><td>1,000 gp</td><td>5 tons</td></tr>
+<tr class="odd"><td>Goat</td><td>6 gp</td><td>50 lbs.</td></tr>
+<tr class="even"><td>Pig</td><td>20 gp</td><td>100&ndash;300 lbs.</td></tr>
+<tr class="odd"><td>Sheep</td><td>20 gp</td><td>150 lbs. </td></tr>
+<tr class="even"><td>Yak</td><td>24 gp</td><td>1,000 lbs.</td></tr></table>
+
+<table id="mounts-table"><caption>Mounts</caption>
+<thead><tr><th>Animal</td><th>Price</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Axe beak (combat trained)</td><td>1,500 gp</td><td>500 lbs.</td></tr>
+<tr class="even"><td>Axe beak egg</td><td>1,000 gp</td><td>10 lbs. </td></tr>
+<tr class="odd"><td>Camel</td><td>150 gp</td><td>1,500 lbs</td></tr>
+<tr class="even"><td>Dire bat, riding</td><td>300 gp</td><td>400 lbs. </td></tr>
+<tr class="odd"><td>Dire bat, riding (combat trained)</td><td>450 gp</td><td>450 lbs. </td></tr>
+<tr class="even"><td>Dog, riding</td><td>150 gp</td><td>50 lbs.</td></tr>
+<tr class="odd"><td>Elephant</td><td>1,000 gp</td><td>5 tons</td></tr>
+<tr class="even"><td>Gecko, riding</td><td>300 gp</td><td>1,200 lbs. </td></tr>
+<tr class="odd"><td>Gecko, riding (combat trained)</td><td>400 gp</td><td>1,500 lbs. </td></tr>
+<tr class="even"><td>Griffon (combat trained)</td><td>8,000 gp</td><td>500 lbs.</td></tr>
+<tr class="odd"><td>Griffon egg</td><td>3,500 gp</td><td>10 lbs.</td></tr>
+<tr class="even"><td>Hippogriff (combat trained)</td><td>5,000 gp</td><td>500 lbs.</td></tr>
+<tr class="odd"><td>Hippogriff egg</td><td>200 gp</td><td>10 lbs. </td></tr>
+<tr class="even"><td>Horse, heavy</td><td>200 gp</td><td>2,000 lbs.</td></tr>
+<tr class="odd"><td>Horse, heavy (combat trained)</td><td>300 gp</td><td>3,000 lbs.</td></tr>
+<tr class="even"><td>Horse, light</td><td>75 gp</td><td>900 lbs.</td></tr>
+<tr class="odd"><td>Horse, light (combat trained)</td><td>110 gp</td><td>1,200 lbs.</td></tr>
+<tr class="even"><td>Pony</td><td>30 gp</td><td>800 lbs.</td></tr>
+<tr class="odd"><td>Pony (combat trained)</td><td>45 gp</td><td>900 lbs.</td></tr>
+<tr class="even"><td>Mastodon</td><td>2,000 gp</td><td>8 tons</td></tr></table>
+
+<table id="animal-related-gear-table"><caption>Animal Related Gear</caption>
+<thead><tr><th>Animal</td><th>Price</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Animal harness</td><td>2 gp</td><td>2 lbs. </td></tr>
+<tr class="even"><td colspan="3"><span style="float: left;">Barding</span></td></tr>
+<tr class="odd"><td>Medium creature</td><td>&times;2*</td><td>&times;1*</td></tr>
+<tr class="even"><td>Large creature</td><td>&times;4*</td><td>&times;2*</td></tr>
+<tr class="odd"><td>Bit and bridle</td><td>2 gp</td><td>1 lb.</td></tr>
+<tr class="even"><td colspan="3">Cage</td></tr>
+<tr class="odd"><td>Diminutive or Fine</td><td>10 gp</td><td>2 lbs.</td></tr>
+<tr class="even"><td>Tiny</td><td>2 gp</td><td>5 lbs.</td></tr>
+<tr class="odd"><td>Small or Medium</td><td>15 gp</td><td>60 lbs.</td></tr>
+<tr class="even"><td>Large</td><td>30 gp</td><td>240 lbs.</td></tr>
+<tr class="odd"><td>Huge</td><td>60 gp</td><td>960 lbs.</td></tr>
+<tr class="even"><td>Falconry gauntlet</td><td>10 gp</td><td>1 lb.</td></tr>
+<tr class="odd"><td>Feed (per day)</td><td>5 cp</td><td>10 lbs.</td></tr>
+<tr class="even"><td colspan="3"><span style="float: left;">Saddle</span></td></tr>
+<tr class="odd"><td>Military</td><td>20 gp</td><td>30 lbs.</td></tr>
+<tr class="even"><td>Pack</td><td>5 gp</td><td>15 lbs.</td></tr>
+<tr class="odd"><td>Riding</td><td>10 gp</td><td>25 lbs.</td></tr>
+<tr class="even"><td colspan="3"><span style="float: left;">Saddle (exotic)</span></td></tr>
+<tr class="odd"><td>Military</td><td>60 gp</td><td>40 lbs.</td></tr>
+<tr class="even"><td>Pack</td><td>15 gp</td><td>20 lbs.</td></tr>
+<tr class="odd"><td>Riding</td><td>30 gp</td><td>30 lbs.</td></tr>
+<tr class="even"><td>Saddlebags</td><td>4 gp</td><td>8 lbs.</td></tr>
+<tr class="odd"><td>Stabling (per day)</td><td>5 sp</td><td>&mdash; </td></tr>
+<tfoot><tr><td colspan="3">* Relative to similar armor for a Medium humanoid.</td></tr></tfoot></table>
+
+<p id="animal-harness" class="stat-block-title">Animal Harness</p>
+<p class="stat-block-1"><b>Price</b> 2 gp; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">This leather or hemp harness allows a holder to restrain and control a domesticated animal. A harness is standard equipment for anyone trying to teach an animal tricks with the <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> skill. Ready-made harnesses are available in most markets for common domesticated animals such as cats, dogs, horses, and oxen, but harnesses can be made for nearly any creature.  </p>
+				
+<p id="Axe-Beak-Combat-TraineD" class="stat-block-title">Axe Beak (Combat TraineD)</p>
+<p class="stat-block-1"><b>Price</b> 1,500 gp; <b>Weight</b> 500 lbs.</p>
+<p class="stat-block">These Large avian predators are sometimes used as hunting animals but are prized as mounts.</p>
+				
+<p id="axe-beak-egg" class="stat-block-title">Axe Beak Egg</p>
+<p class="stat-block-1"><b>Price</b> 1,000 gp; <b>Weight</b> 10 lbs.</p>
+<p class="stat-block">Axe beaks raised from eggs are easily trained as mounts or used as livestock.</p>
+				
+<p id="badger" class="stat-block-title">Badger</p>
+<p class="stat-block-1"><b>Price</b> 15 gp; <b>Weight</b> 20 lbs.</p>
+<p class="stat-block">These fierce, burrowing creatures are only rarely kept as pets.</p>
+				
+<p id="barding" class="stat-block-title">Barding</p>
+<p class="stat-block-1"><b>Price</b> varies; <b>Weight</b> varies</p>
+<p class="stat-block">Barding is a type of armor that covers the head, neck, chest, body, and possibly legs of a horse or other mount. Barding made of medium or heavy armor provides better protection than light barding, but at the expense of speed. Barding can be made of any of the armor types found on the <a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/armor.html#_armor-and-shields-table">Armor and Shields table</a>.</p>
+<p class="stat-block">Armor for a horse (a Large non-humanoid creature) costs four times as much as armor for a human (a Medium humanoid creature) and also weighs twice as much (see the <a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/armor.html#_armor-for-unusual-creatures-table">Armor for Unusual Creatures table</a>). If the barding is for a pony or other Medium mount, the price is only double, and the weight is the same as for Medium armor worn by a humanoid. Medium or heavy barding slows a mount that wears it, as shown on the table below.</p>
+<p class="stat-block">Flying mounts can't fly in medium or heavy barding.</p>
+<p class="stat-block">Removing and fitting barding takes five times as long as the figures given on the <a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/armor.html#_donning-armor-table">Donning Armor table</a>. A barded animal cannot be used to carry any load other than a rider, and normal saddlebags.</p>
+<table><thead><tr><th>Barding</th><th>(40 ft.)</th><th>Base Speed (50 ft.)</th><th>(60 ft.)</th></tr></thead>
+<tr class="odd"><td>Medium armor</td><td>30 ft.</td><td>35 ft.</td><td>40 ft.</td></tr>
+<tr class="even"><td>Heavy armor</td><td>30 ft.*</td><td>35 ft.*</td><td>40 ft.*</td></tr>
+<tfoot><tr><td colspan="4" style="white-space: normal;">* A mount wearing heavy armor moves at only triple its normal speed when running instead of quadruple.</td></tr></tfoot></table>
+
+<p id="bat" class="stat-block-title">Bat</p>
+<p class="stat-block-1"><b>Price</b> 5 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These Diminutive rodents are nocturnal fliers that eat insects and fruit. They rely primarily on sound to navigate rather than sight. They are absent only in desert and arctic regions. Some cultures keep bat houses near towns and villages to control insect problems. More information on bats can be found in the <i>Bestiary</i>. </p>
+				
+<p id="bit-and-bridle" class="stat-block-title">Bit and Bridle</p>
+<p class="stat-block-1"><b>Price</b> 2 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This is headgear used by a rider to control a mount. Bit and bridles for horses, ponies, and riding dogs can be readily purchased in most settlements and bits and bridles can be crafted for any creature that serves as a mount. </p>
+				
+<p id="cage" class="stat-block-title">Cage</p>
+<p class="stat-block-1"><b>Price</b> varies; <b>Weight</b> varies</p>
+<p class="stat-block">This secure, portable enclosure is used to hold creatures&mdash;generally animals, but a large enough cage can hold anything. Cages are made from iron, wood, or bamboo, depending on local customs and available materials. One cage holds one animal of that size, or five animals of a smaller size. The weight of the creature adds to the weight of the cage. Cages come in the following sizes: Diminutive or Fine, Tiny, Small, Medium, Large, and Huge. Cages for aquatic creatures cost twice as much, and weigh four times the normal weight when filled with water.</p>
+				
+<p id="camel" class="stat-block-title">CAMEL</p>
+<p class="stat-block-1"><b>Price</b> 150 gp; <b>Weight</b> 1,500 lbs.</p>
+<p class="stat-block">Due to their incredible endurance, these Large animals are the preferred mounts of desert-dwelling people. They tend to be ill-tempered beasts.</p>
+				
+<p id="cat" class="stat-block-title">Cat</p>
+<p class="stat-block-1"><b>Price</b> 3 cp; <b>Weight</b> 8 lbs.</p>
+<p class="stat-block">These Tiny animals are often kept as pets or familiars. Though small, they are excellent hunters. Grain farmers usually keep cats for pest control in crop storage areas, but cats can be found in most regions and strays occupy many cities.</p>
+				
+<p id="Cat-Hunting" class="stat-block-title">Cat, Hunting</p>
+<p class="stat-block-1"><b>Price</b> 100 gp; <b>Weight</b> 100 lbs.</p>
+<p class="stat-block">Rarely, Medium cats such as cheetahs and leopards are trained to hunt for humanoid masters. </p>
+				
+<p id="cattle" class="stat-block-title">Cattle</p>
+<p class="stat-block-1"><b>Price</b> 50 gp; <b>Weight</b> 1,500 lbs.</p>
+<p class="stat-block">Cattle are kept for milk and meat, and used as beasts of burden. A bull is used primarily for mating. Other males are castrated and become oxen, which are used to carry loads and plow fields.  </p>
+				
+<p id="Centipede-House" class="stat-block-title">Centipede, House</p>
+<p class="stat-block-1"><b>Price</b> 1 cp; <b>Weight</b> 3 oz.</p>
+<p class="stat-block">These creatures come in many forms, from the lighter-colored 20-legged variety to the darker 300-legged variety. Typically, these arthropods are what pass for pets in the slums, but the young and eccentric often search for the best specimens to serve as familiars. Centipedes employed as familiars have an Intelligence score and lose the mindless trait.</p>
+				
+<p id="chicken" class="stat-block-title">Chicken</p>
+<p class="stat-block-1"><b>Price</b> 1 gp; <b>Weight</b> 6 lbs.</p>
+<p class="stat-block">These domesticated birds are not capable of long distance flights, and are raised for their eggs and meat. Male chickens are kept for mating and occasionally blood sport. </p>
+				
+<p id="crab" class="stat-block-title">Crab</p>
+<p class="stat-block-1"><b>Price</b> 20 gp; <b>Weight</b> 5&ndash;7 lbs.</p>
+<p class="stat-block">Aquatic spellcasters often find large ocean crabs to be agreeable familiars. Without the bond of a familiar, however, these crustacean's lack of intelligence makes them dull pets.</p>
+				
+<p id="Dire-Bat-Riding" class="stat-block-title">Dire Bat, Riding</p>
+<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Common</td><td>300 gp</td><td>400 lbs.</td></tr>
+<tr class="even"><td>Combat trained</td><td>450 gp</td><td>250 lbs.</td></tr></table>
+<p class="stat-block">Considered to be the fastest nonmagical transport in cavernous underground realms, dire bats are domesticated in captivity to serve as riding animals. Stables that accommodate these massive creatures are only commonly found in cities built in larger underground caverns, owing to the greater space required for training and exercise, though the outriders of some subterranean races fly them almost to the surface. These creatures require exotic saddles to ride.</p>
+<p class="stat-block"><i>Dire Bat, Riding (combat trained)</i>: These animals are used by scouts and military for war.</p>
+				
+<p id="dog" class="stat-block-title">Dog</p>
+<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Guard</td><td>25 gp</td><td>25 lbs.</td></tr>
+<tr class="even"><td>Lap</td><td>15 gp</td><td>5 lbs.</td></tr>
+<tr class="odd"><td>Riding</td><td>150 gp</td><td>50 lbs.</td></tr></table>
+<p class="stat-block">Most dogs fall into one of the following categories.</p>
+<p class="stat-block"><i>Guard Dog</i>: This Small, combat-trained dog is bred for battle; breeders favor strength, a thick body, and a low center of gravity. Guard dogs are sold in most large cities and some cultures use them for sport fighting or in some armies' special infantry.</p>
+<p class="stat-block"><i>Lap Dog</i>: These tiny dogs are commonly kept as pets. They cannot be combat trained, but can serve as noisy-but-skittish watch creatures. Lap dogs have the same statistics as foxes.</p>
+<p class="stat-block"><i>Riding Dog</i>: This Medium dog is bred for carrying Small riders, and is combat trained. Breeders select dogs with strong backs, endurance, and loyal dispositions and train them for riding and combat before sale. Reputable breeders can be found in major cities.</p>
+				
+<p id="donkey-or-mule" class="stat-block-title">Donkey or Mule</p>
+<p class="stat-block-1"><b>Price</b> 8 gp; <b>Weight</b> 600&ndash;800 lbs.</p>
+<p class="stat-block">Donkeys and mules are stolid in the face of danger, hardy, surefooted, and capable of carrying heavy loads over vast distances. Unlike a horse, a donkey or mule is willing (though not eager) to enter dungeons and other strange or threatening places. Donkeys and mules have the same statistics as ponies. </p>
+				
+<p id="donkey-rat" class="stat-block-title">Donkey Rat</p>
+<p class="stat-block-1"><b>Price</b> 1 gp; <b>Weight</b> 50 lbs.</p>
+<p class="stat-block">These Tiny capybara-like white rodents are native to temperate swamps and coasts. They are common pets and livestock in some lands.</p>
+				
+<p id="duck" class="stat-block-title">Duck</p>
+<p class="stat-block-1"><b>Price</b> 2 gp; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">Farm ducks are used for eggs, meat, and down, while wild ducks are hunted for meat. Ducks have the same statistics as ravens.</p>
+				
+<p id="elephant" class="stat-block-title">Elephant</p>
+<p class="stat-block-1"><b>Price</b> 1,000 gp; <b>Weight</b> 5 tons</p>
+<p class="stat-block">These Huge animals are exceptionally strong and are quick learners. Some cultures train them for battle or labor. Most known elephants come from savannas or vast rainforest regions. They eat so much that housing them outside of their native environment is expensive.</p>
+				
+<p id="falcon" class="stat-block-title">Falcon</p>
+<p class="stat-block-1"><b>Price</b> 40 gp; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">This Tiny, long-winged hawk is a popular hunting bird among many aristocracies. Falcons are technically a subset of hawks but are considered more “noble” in many cultures. Ownership of these birds is denied to commoners in many nations with hierarchical monarchies.</p>
+
+<p id="falconry-gauntlet" class="stat-block-title">Falconry Gauntlet</p>
+<p class="stat-block-1"><b>Price</b> 10 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">This gauntlet, made from layers of thick leather, is worn on a falconer's off hand to give a falcon a place to stand before and after the hunt. The gauntlet also has a tassel and a ring to attach to a falcon's tether.  </p>
+				
+<p id="Feed" class="stat-block-title">Feed (per day)</p>
+<p class="stat-block-1"><b>Price</b> 5 cp; <b>Weight</b> 10 lbs.</p>
+<p class="stat-block">Horses, donkeys, mules, and ponies can graze in some regions to sustain themselves, but feed provides more reliable nourishment. Riding dogs and other carnivores can be fed meat for the same cost. Except for horses, other Large creatures need to eat twice the feed of other animals each day. Huge creatures need four times the feed.</p>
+				
+<p id="fox" class="stat-block-title">Fox</p>
+<p class="stat-block-1"><b>Price</b> 8 gp; <b>Weight</b> 12 lbs.</p>
+<p class="stat-block">These quick and wily carnivores can be difficult to train, but often make excellent familiars. Many humanoid communities see these canines as a menace to their farming fowl, and some use dogs to track them during recreational hunts. </p>
+				
+<p id="Gecko-Riding" class="stat-block-title">Gecko, Riding</p>
+<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Common</td><td>300 gp</td><td>1,200 lbs.</td></tr>
+<tr class="even"><td>Combat trained</td><td>400 gp</td><td>1,500 lbs.</td></tr></table>
+<p class="stat-block">Larger than even giant geckos, these mammoth lizards have been specifically bred to be used as mounts. Prized for their ability to run along cave ceilings and sheer walls, they require exotic saddles to ride. A riding gecko has the same statistics as a giant gecko with the giant template.</p>
+				
+<p id="goat" class="stat-block-title">Goat</p>
+<p class="stat-block-1"><b>Price</b> 6 gp; <b>Weight</b> 50 lbs.</p>
+<p class="stat-block">As an agricultural animal, goats provide milk, meat, hair, and hide, and they are sometimes used to clear fields of weeds and shrubbery. Some spellcasters bond with them as familiars.</p>
+				
+<p id="Griffon-COMBAT-TRAINED" class="stat-block-title">Griffon (COMBAT TRAINED)</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Weight</b> 500 lbs.</p>
+<p class="stat-block">These deadly but majestic fliers are the favored aerial cavalry of many kingdoms. While griffons can be trained, some good deities consider doing so akin to enacting slavery, insisting that a griffon must come to its rider on its own free will. The price listed is for a trained griffon; free will is bought with different currency (determined by the GM). </p>
+				
+<p id="griffon-egg" class="stat-block-title">Griffon Egg</p>
+<p class="stat-block-1"><b>Price</b> 3,500 gp; <b>Weight</b> 10 lbs.</p>
+<p class="stat-block">Unscrupulous adventurers and the desperate sometimes steal eggs from griffon nests, as trainers find it easier to raise a griffon from a hatchling than trying to train a spirited adult.</p>
+				
+<p id="hawk" class="stat-block-title">Hawk</p>
+<p class="stat-block-1"><b>Price</b> 18 gp; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">This Tiny, short-winged raptor is a popular hunting bird, but is utilized more often by lower nobility than by commoners without titles. Hawks are known for their sharp eyesight and powerful aerial dives.</p>
+				
+<p id="hedgehog" class="stat-block-title">Hedgehog</p>
+<p class="stat-block-1"><b>Price</b> 5 gp; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">These spiny mammals roll into a ball when threatened. They are sometimes kept as pets and are favored by some wizards as familiars.</p>
+				
+<p id="HIPPOGRIFF-COMBAT-TRAINED" class="stat-block-title">HIPPOGRIFF (COMBAT TRAINED)</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Weight</b> 500 lbs.</p>
+<p class="stat-block">Less intelligent and easier to train than griffons, hippogriffs make reliable winged mounts.</p>
+				
+<p id="hippogriff-egg" class="stat-block-title">Hippogriff Egg</p>
+<p class="stat-block-1"><b>Price</b> 200 gp; <b>Weight</b> 10 lbs.</p>
+<p class="stat-block">While it is easier to train a full-grown hippogriff than a griffon, the eggs of these creatures are still prized by breeders. </p>
+				
+<p id="horse" class="stat-block-title">Horse</p>
+<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Heavy</td><td>200 gp</td><td>2,000 lbs.</td></tr>
+<tr class="even"><td>Heavy, combat trained</td><td>300 gp</td><td>3,000 lbs.</td></tr>
+<tr class="odd"><td>Light</td><td>75 gp</td><td>900 lbs</td></tr>
+<tr class="even"><td>Light, combat trained</td><td>110 gp</td><td>1,200 lbs.</td></tr>
+<tr class="odd"><td>Pony</td><td>30 gp</td><td>800 lbs.</td></tr>
+<tr class="even"><td>Pony, combat trained</td><td>45 gp</td><td>900 lbs.</td></tr></table>
+<p class="stat-block">This Large quadruped is used as a mount and pack animal. Horses can be trained for war but otherwise are skittish around battle. Many cultures support breeding programs and often consider their horse the best at whatever task they breed it to perform.</p>
+<p class="stat-block"><i>Heavy Horse</i>: These horses are often used as portage animals, pulling significant loads across great distances. </p>
+<p class="stat-block"><i>Heavy Horse (Combat Trained):</i> Heavy warhorses are bred and trained for war. They are often are outfitted with heavy barding, but fight just as fiercely even without the armor.  </p>
+<p class="stat-block"><i>Light Horse</i>: These horses can be ridden, but often serve as porters or carriage horses. </p>
+<p class="stat-block"><i>Light Horse (Combat Trained):</i> These light warhorses are bred for war and are favored by fast and light cavalry, scouts, and daredevil knights. </p>
+<p class="stat-block"><i>Pony</i>: These creatures are typically used for carting goods along narrow mountain trails or as steeds for young or Small riders.</p>
+<p class="stat-block"><i>Pony (Combat Trained</i>): Ponies can be trained for war just as effectively as their larger, more mature brethren. Such steeds often serve Small riders that expect to face battle. </p>
+				
+<p id="lizard" class="stat-block-title">Lizard</p>
+<p class="stat-block-1"><b>Price</b> 5 cp; <b>Weight</b> 2 oz.</p>
+<p class="stat-block">These Tiny cold-blooded animals can be found in all warm regions and are often quite colorful. They eat insects and have the ability to walk up walls and hang upside down. Varieties of more intelligent lizards are often selected by wizards as familiars.</p>
+				
+<p id="mastodon" class="stat-block-title">Mastodon</p>
+<p class="stat-block-1"><b>Price</b> 2,000 gp; <b>Weight</b> 8 tons</p>
+<p class="stat-block">These cousins to elephants are larger and more powerfully built. There is a nearly hairless version that dwells in southern climates and a woolly variety adapted to cold. More temperamental than elephants, they are used primarily as mounts.</p>
+				
+<p id="monkey" class="stat-block-title">MONKEY</p>
+<p class="stat-block-1"><b>Price</b> 3 gp; <b>Weight</b> 5 lbs.</p>
+<p class="stat-block">These Tiny herbivorous primates can be found in a variety of habitats, but typically favor warm forests and jungles. They can grasp and carry objects that weigh under a pound. They are sometimes used as familiars.</p>
+				
+<p id="octopus" class="stat-block-title">Octopus</p>
+<p class="stat-block-1"><b>Price</b> 25 gp; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">These cunning animals can be employed as familiars by aquatic spellcasters. If they are kept is pets, they must be kept in water, as they cannot survive out of it.</p>
+				
+<p id="otter" class="stat-block-title">Otter</p>
+<p class="stat-block-1"><b>Price</b> 20 gp; <b>Weight</b> 10 lbs.</p>
+<p class="stat-block">These playful water mammals are either used as familiars or trained to perform tricks as pets. They are surprisingly intelligent, and have been known to use rocks as simple tools, such as for opening the shells of mollusks.</p>
+				
+<p id="owl" class="stat-block-title">Owl</p>
+<p class="stat-block-1"><b>Price</b> 10 gp; <b>Weight</b> 1&ndash;3 lbs.</p>
+<p class="stat-block">These Tiny birds of prey are mainly nocturnal and are known for their keen eyes and near-silent flight. Owls eat small animals and insects, and can be found in nearly any environment. Some farmers create owl homes near fields and barns to control rodent populations. The smartest owls make excellent familiars.</p>
+				
+<p id="parrot" class="stat-block-title">Parrot</p>
+<p class="stat-block-1"><b>Price</b> 50 gp; <b>Weight</b> 4 lbs.</p>
+<p class="stat-block">These colorful and intelligent birds can be trained to mimic humanoid voices. They are often kept as pets by the wealthy and those who live in the tropical climates they favor. Parrots have the same statistics as ravens.</p>
+				
+<p id="pig" class="stat-block-title">Pig</p>
+<p class="stat-block-1"><b>Price</b> 10 gp; <b>Weight</b> 100&ndash;300 lbs.</p>
+<p class="stat-block">Domesticated pigs are the descendents of wild boars, and are raised for their meat and hide, being among the most versatile and common farm animals.</p>
+				
+<p id="pseudodragon" class="stat-block-title">Pseudodragon</p>
+<p class="stat-block-1"><b>Price</b> 200 gp; <b>Weight</b> 7 lbs.</p>
+<p class="stat-block">Found primarily in temperate forests, pseudodragons are intelligent enough that some consider their sale slavery. A handful of pseudodragons offer themselves for hire to adventurers, typically for half their listed price per week of work.</p>
+				
+<p id="rabbit" class="stat-block-title">Rabbit</p>
+<p class="stat-block-1"><b>Price</b> 2 gp; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">Rabbits are often raised or hunted for their meat and skins, though some people keep the skittish mammals as pets. Though they are often confused with hares, rabbits are distinctly different in that they make their homes in burrows beneath the ground, and they are usually smaller than hares. Rabbits have the same statistics as rats.</p>
+				
+<p id="raccoon" class="stat-block-title">Raccoon</p>
+<p class="stat-block-1"><b>Price</b> 5 gp; <b>Weight</b> 7 lbs.</p>
+<p class="stat-block">These nocturnal hunter-scavengers are found primarily in forested terrains, and are noted for their domino mask-like visages, highly dextrous forepaws (which they rely on for their hyper-sensitive sense of touch), and the strangely anthropomorphic tendency to “wash” their food in water before eating it. Raccoons are sometimes kept as pets and used by some spellcasters as familiars.</p>
+				
+<p id="rat" class="stat-block-title">Rat</p>
+<p class="stat-block-1"><b>Price</b> 1 cp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These Tiny rodents live everywhere and eat nearly anything. Despite having a reputation as disease-ridden scavengers, domesticated rats are clean, loyal creatures that make excellent familiars.</p>
+				
+<p id="Rat, dire" class="stat-block-title">Rat, dire</p>
+<p class="stat-block-1"><b>Price</b> 5 gp; <b>Weight</b> 50 lbs.</p>
+<p class="stat-block">These Small animals are vicious scavengers in the wild. However, dire rats raised in captivity can be trained as loyal pets and protectors. Pet dire rats do not have filth fever.</p>
+				
+<p id="raven" class="stat-block-title">Raven</p>
+<p class="stat-block-1"><b>Price</b> 2 gp; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">These Tiny birds are known for their intelligence, and even play games with each other in the wild. They eat insects and can be found in surprisingly varied habitats.</p>
+				
+<p id="saddle" class="stat-block-title">Saddle</p>
+<p class="stat-block-1"><b>Price</b> varies; <b>Weight</b> varies</p>
+<p class="stat-block">Saddles are used to support a rider or supplies on a mount. </p>
+<p class="stat-block"><i>Military Saddle</i>: This saddle braces the rider, providing a +2 circumstance bonus on <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> checks related to staying in the saddle. If the rider is knocked unconscious while in a military saddle, he has a 75% chance to stay in the saddle.</p>
+<p class="stat-block"><i>Pack Saddle</i>: A pack saddle holds gear and supplies, but not a rider. It holds as much gear as the mount can carry.</p>
+<p class="stat-block"><i>Riding Saddle</i>: These saddles are the most pervasive type of riding equipment. If the rider is knocked unconscious while in a riding saddle, he has a 50% chance to stay in the saddle.</p>
+<p class="stat-block"><i>Exotic Saddle</i>: These saddles are designed for a variety of unusual mounts, each customized for a specific type of beast. Exotic saddles come in military, pack, and riding styles, just as normal saddles do, and have the same traits.</p>
+				
+<p id="saddlebags" class="stat-block-title">Saddlebags</p>
+<p class="stat-block-1"><b>Price</b> 4 gp; <b>Weight</b> 8 lbs.</p>
+<p class="stat-block">These sturdy, weatherproof bags are draped over a saddle to add extra carrying capacity. Each side of a saddlebag can typically carry 20 pound of items that can fit in the bags. Saddlebags do not increase the amount of weight a mount can carry; they merely give riders a place to stow their equipment.</p>
+				
+<p id="Scorpion-Greensting" class="stat-block-title">Scorpion, Greensting</p>
+<p class="stat-block-1"><b>Price</b> 15 gp; <b>Weight</b> 9 oz.</p>
+<p class="stat-block">Typically found in forested areas, these Tiny scorpions sport pincers too small to be dangerous to anything larger than an insect, but they still possess a poisonous stinger. Sometimes they are kept as pets or serve as familiars. Greensting scorpions employed as familiars have an Intelligence score and lose the mindless trait.</p>
+				
+<p id="sheep" class="stat-block-title">Sheep</p>
+<p class="stat-block-1"><b>Price</b> 20 gp; <b>Weight</b> 150 lbs.</p>
+<p class="stat-block">These livestock animals are kept for their fur, meat, and hide, and can be found in virtually any civilized settlement. They are especially prized in colder environs, where their wool and hide can be used to make durable and highly insulated clothing. Sheep have the same statistics as goats.</p>
+				
+<p id="skunk" class="stat-block-title">Skunk</p>
+<p class="stat-block-1"><b>Price</b> 10 gp; <b>Weight</b> 10 lbs.</p>
+<p class="stat-block">These creatures are infamous for the overwhelmingly foul odor they produce to ward off predators. Skunks are sometimes kept as pets, though usually only after their scent glands have been removed. More information on skunks can be found in <i>Bestiary 3</i>.</p>
+				
+<p id="Snake-Constrictor" class="stat-block-title">Snake, Constrictor</p>
+<p class="stat-block-1"><b>Price</b> 5 gp; <b>Weight</b> 60 lbs.</p>
+<p class="stat-block">These Medium reptiles are found chiefly in warm climates. Somewhat aggressive, constrictors squeeze their prey to death before consuming it. Due to their size, these snakes are less popular for traveling spellcasters, but they can be quite helpful in a laboratory.</p>
+				
+<p id="Snake-Viper" class="stat-block-title">Snake, Viper</p>
+<p class="stat-block-1"><b>Price</b> 5 gp; <b>Weight</b> 10 oz.</p>
+<p class="stat-block">This tiny reptile eats small animals and can be found in most temperate and warm environments. The bite is painful but not especially dangerous to the average adventurer.</p>
+				
+<p id="squirrel" class="stat-block-title">Squirrel</p>
+<table><thead><tr><th>Type</th><th>Price</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Common</td><td>1 gp</td><td>2 lbs.</td></tr>
+<tr class="even"><td>Flying</td><td>20 gp</td><td>1 lbs.</td></tr></table>
+<p class="stat-block">These tiny rodents are as common in the wild as rats are in cities. They typically eat nuts, seeds, and vegetation. Squirrels have the same statistics as rats.</p>
+<p class="stat-block"><i>Flying squirrel</i>: These Tiny squirrels use a membrane of skin between their front and hind legs to glide. They sometimes serve spellcasters as familiars. </p>
+				
+<p id="spider" class="stat-block-title">Spider</p>
+<p class="stat-block-1"><b>Price</b> 25 gp; <b>Weight</b> 8 oz.</p>
+<p class="stat-block">These Tiny spiders have red bodies and black legs. They are hunting spiders, so they do not cast webs, though they are poisonous.</p>
+				
+<p id="Stabling-Per-Day" class="stat-block-title">Stabling (Per Day)</p>
+<p class="stat-block-1"><b>Price</b> 5 sp; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This is the amount it costs to stable a single creature that is Large or smaller for one day, at a typical stable or hostler. Particularly fancy stables may cost more, and larger or more exotic creatures cost double.</p>
+				
+<p id="stirge" class="stat-block-title">Stirge</p>
+<p class="stat-block-1"><b>Price</b> 20 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These Tiny beasts are allegedly sold for indoor defense to rich clients, but often wind up in exotic blood sports. Despite the popular misconception that stirges are untameable vermin, such creatures are trainable, but they must be fed fresh blood daily to dissuade them from turning on their handlers.</p>
+				
+<p id="thrush" class="stat-block-title">Thrush</p>
+<p class="stat-block-1"><b>Price</b> 1 sp; <b>Weight</b> 7 oz.</p>
+<p class="stat-block">These small plump birds are sometimes kept as pets, but are more often used as familiars for spellcasters. They are known for their beautiful song and their potential for actual speech.</p>
+				
+<p id="toad" class="stat-block-title">Toad</p>
+<p class="stat-block-1"><b>Price</b> 2 cp; <b>Weight</b> 7 oz.</p>
+<p class="stat-block">This Diminutive amphibian is primarily kept as a familiar by spellcasters. Toads live in most temperate and warm environments, and eat insects.</p>
+				
+<p id="turtle" class="stat-block-title">Turtle</p>
+<p class="stat-block-1"><b>Price</b> 3 gp; <b>Weight</b> 4 lbs.</p>
+<p class="stat-block">These reptiles have bony shells that they can retreat into. They are sometimes kept as pets and used as familiars, and in some places their flesh is eaten or used as an ingredient in medicines.</p>
+				
+<p id="weasel" class="stat-block-title">Weasel</p>
+<p class="stat-block-1"><b>Price</b> 2 gp; <b>Weight</b> 8 oz.</p>
+<p class="stat-block">These Tiny animals eat smaller animals and can be found in nearly any environment. They are clever and curious, traits that are magnified when they are kept as familiars. Many varieties of weasel exude a strong musky odor. This description also applies to similar animals, such as ferrets, minks, polecats, and stoats.</p>
+				
+<p id="yak" class="stat-block-title">Yak</p>
+<p class="stat-block-1"><b>Price</b> 24 gp; <b>Weight</b> 1,000 lbs.</p>
+<p class="stat-block">These shaggy-haired relatives to cows are more at home in mountainous terrain where they are frequently used as pack animals and to pull plows. Yaks have the same statistics as bison. </p>
+
+
+<h1 id="transports">Transports</h1>
+<p>Transport vehicles can be purchased or hired to provide passage. The transports in this section are a number of vehicles, both common and exotic, that can be purchased or hired. The table sorts the vehicles by Land Transport and Sea Transport and includes costs to buy these vehicles or rent passage on them.</p>
+
+<table id="transport-table"><caption>Transport</caption>
+<thead><tr><th>Land Transport</th><th>Price</th><th>Price of Passage (Per Mile)</th></tr></thead>
+<tr class="odd"><td>Carriage</td><td>100 gp</td><td>3 cp</td></tr>
+<tr class="even"><td>Cart</td><td>15 gp</td><td>1 cp</td></tr>
+<tr class="odd"><td colspan="3"><span style="float: left;">Chariot</span></td></tr>
+<tr class="even"><td>Chariot, light</td><td>50 gp</td><td>2 cp</td></tr>
+<tr class="odd"><td>Chariot, medium</td><td>100 gp</td><td>2 cp</td></tr>
+<tr class="even"><td>Chariot, heavy</td><td>200 gp</td><td>2 cp</td></tr>
+<tr class="odd"><td>Dog sled</td><td>20 gp</td><td>3 cp</td></tr>
+<tr class="even"><td>Sleigh</td><td>50 gp</td><td>2 cp</td></tr>
+<tr class="odd"><td colspan="3"><span style="float: left;">Wagon</span></td></tr>
+<tr class="even"><td>Wagon, light</td><td>50 gp</td><td>2 cp</td></tr>
+<tr class="odd"><td>Wagon, medium</td><td>75 gp</td><td>2 cp</td></tr>
+<tr class="even"><td>Wagon, heavy</td><td>100 gp</td><td>3 cp</td></tr>
+<thead><tr><th colspan="3"><span style="float: left;">Sea Transport</span></th></tr></thead>
+<tr class="odd"><td>Galley</td><td>30,000 gp</td><td>1 sp</td></tr>
+<tr class="even"><td>Junk</td><td>15,000 gp</td><td>1 sp</td></tr>
+<tr class="odd"><td>Keelboat</td><td>3,000 gp</td><td>1 sp</td></tr>
+<tr class="even"><td>Longship</td><td>10,000 gp</td><td>5 cp</td></tr>
+<tr class="odd"><td>Raft</td><td>&mdash;</td><td>1 cp</td></tr>
+<tr class="even"><td>Rowboat</td><td>50 gp</td><td>2 cp</td></tr>
+<tr class="odd"><td>Sailing ship</td><td>10,000 gp</td><td>2 sp</td></tr>
+<tr class="even"><td>Ship's boat</td><td>500 gp</td><td>2 cp</td></tr>
+<tr class="odd"><td>Warship</td><td>25,000 gp</td><td>2 sp</td></tr></table>
+
+<p id="carriage" class="stat-block-title">Carriage</p>
+<p class="stat-block-1"><b>Price</b> 100 Gp; <b>Passage</b> 3 CP</p>
+<p class="stat-block">This four-wheeled vehicle can transport as many as four people within an enclosed cab, plus two drivers. In general, two horses (or other beasts of burden) draw it. A carriage comes with the harness needed to pull it. </p>
+				
+<p id="cart" class="stat-block-title">Cart</p>
+<p class="stat-block-1"><b>Price</b> 15 gp; <b>Passage</b> 1 CP</p>
+<p class="stat-block">This two-wheeled vehicle can be drawn by a single horse or other beast of burden, and is often used to transport goods across short distances. It comes with a harness.</p>
+				
+<p id="chariot" class="stat-block-title">Chariot</p>
+<p class="stat-block-1"><b>Price</b> varies; <b>Passage</b> 2 CP</p>
+<p class="stat-block">This two-wheeled vehicle is drawn by a horse. There are three varieties of chariots.</p>
+<p class="stat-block"><i>Light Chariots</i>: These chariots are often used for racing or as the platform for a single archer charging across the battlefield at high speed.</p>
+<p class="stat-block"><i>Medium Chariots</i>: These chariots are used in battle to break apart infantry formations or as fast-moving fighting platforms.</p>
+<p class="stat-block"><i>Heavy Chariots</i>: This type of chariot is typically used as a fighting platform or for transporting material quickly onto the battlefield.</p>
+				
+<p id="dog-sled" class="stat-block-title">Dog Sled</p>
+<p class="stat-block-1"><b>Price</b> 20 gp; <b>Passage</b> 3 CP</p>
+<p class="stat-block">This sled is designed to be pulled over snow and ice by a team of trained riding dogs. Most sleds have runners at the back for a musher to stand on. A dog sled can carry up to the capacity of all the dogs that pull it.</p>
+				
+<p id="galley" class="stat-block-title">Galley</p>
+<p class="stat-block-1"><b>Price</b> 30,000 gp; <b>Passage</b> 1 SP</p>
+<p class="stat-block">This three-masted ship has 70 oars on either side and requires a total crew of 200. A galley is 130 feet long and 20 feet wide, and can carry 150 tons of cargo or 250 soldiers. For 8,000 gp more, it can be fitted with a ram and firing platforms fore, aft, and amidships. This ship cannot make sea voyages and sticks close to the coast. It moves about 4 miles per hour when being rowed or under sail.</p>
+				
+<p id="junk" class="stat-block-title">Junk</p>
+<p class="stat-block-1"><b>Price</b> 15,000 gp; <b>Passage</b> 1 SP</p>
+<p class="stat-block">This flat-bottomed sailing ship has two or three masts with junk-rigged sails, allowing it to be easily sailed by small crews. Junks typically have a high poop deck and no keel. </p>
+				
+<p id="keelboat" class="stat-block-title">Keelboat</p>
+<p class="stat-block-1"><b>Price</b> 3,000 gp; <b>Passage</b> 1 SP</p>
+<p class="stat-block">This 50- to 75-foot-long ship is 15 to 20 feet wide and has a dozen oars to supplement its single mast with a square sail. It requires a crew of 8 to 15 to sail and can carry 40 to 50 tons of cargo or 100 soldiers. It can make sea voyages, as well as sail down rivers (thanks to its flat bottom). It moves about 1 mile per hour.</p>
+				
+<p id="longship" class="stat-block-title">Longship</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Passage</b> 5 CP</p>
+<p class="stat-block">This 75-foot-long ship with 40 oars requires a total crew of 50. It has a single mast and a square sail, and it can carry 50 tons of cargo or 120 soldiers. A longship can make sea voyages. It moves about 3 miles per hour when being rowed or under sail.</p>
+				
+<p id="raft" class="stat-block-title">Raft</p>
+<p class="stat-block-1"><b>Price</b> &mdash;; <b>Passage</b> 1 CP</p>
+<p class="stat-block">The most basic and primitive type of watercraft, a raft is a simple, flat boat with no hull, often made of logs lashed together. It typically uses two to four oars for propulsion. </p>
+				
+<p id="rowboat" class="stat-block-title">Rowboat</p>
+<p class="stat-block-1"><b>Price</b> 50 gp; <b>Passage</b> 2 CP</p>
+<p class="stat-block">This 8- to 12-foot-long boat with two oars holds two or three Medium passengers, and is either carried on the deck of a larger ship or moored to a dock onshore. A rowboat moves about 1-1/2 miles per hour.</p>
+				
+<p id="sailing-ship" class="stat-block-title">Sailing Ship</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Passage</b> 2 SP</p>
+<p class="stat-block">This large, seaworthy ship is 75 to 90 feet long, 20 feet wide, and has a crew of 20. It can carry 150 tons of cargo. It has square sails on its two masts and can make sea voyages. It moves about 2 miles per hour.</p>
+				
+<p id="Ship's-Boat" class="stat-block-title">Ship's Boat</p>
+<p class="stat-block-1"><b>Price</b> 500 gp; <b>Passage</b> 2 CP</p>
+<p class="stat-block">Ship's boats are usually carried on the decks of larger ships to  ferry passengers and cargo.</p>
+				
+<p id="sleigh" class="stat-block-title">sleigh</p>
+<p class="stat-block-1"><b>Price</b> 50 gp; <b>Passage</b> 2 CP</p>
+<p class="stat-block">This wagon has runners, making it an ideal conveyance for snow and ice travel. In general, two horses (or other beasts of burden) are needed to draw it. A sled comes with the harness required to pull it.</p>
+				
+<p id="wagon" class="stat-block-title">Wagon</p>
+<p class="stat-block-1"><b>Price</b> varies; <b>Passage</b> varies</p>
+<p class="stat-block">This four-wheeled open vehicle is used for transporting heavy loads. It includes the harness needed to pull it. There are three common varieties of wagon.</p>
+<p class="stat-block"><i>Light Wagon:</i> Wagons of this type are most commonly employed by farmers and craftsmen transporting their goods short distances or by venders in and around <br/>cities. A light wagon carries up to 1,000 pounds of cargo and requires two Medium creatures or one Large creature to pull it.</p>
+<p class="stat-block"><i>Medium Wagon:</i> Wagons of this type are typically employed for heavy duty work, often in agricultural, mining, or construction settings. A medium wagon can carry up to 2,000 pounds of cargo and requires four Medium or two Large creatures to pull it. </p>
+<p class="stat-block"><i>Heavy Wagon:</i> Wagons of this type are large, four-wheeled vehicles primarily used in caravans to transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo, and is pulled by either eight Medium creatures or four Large creatures. </p>
+				
+<p id="warship" class="stat-block-title">Warship</p>
+<p class="stat-block-1"><b>Price</b> 25,000 gp; <b>Passage</b> 2 SP</p>
+<p class="stat-block">This 100-foot-long ship has a single mast, although oars can also propel it. It has a crew of 60 to 80 rowers. This ship can carry 160 soldiers, but not for long distances, since there isn't room for supplies to support that many people. A warship cannot make sea voyages and sticks to the coast. It is not used for cargo. It moves about 2-1/2 miles per hour when being rowed or under sail.</p>
+
+	
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

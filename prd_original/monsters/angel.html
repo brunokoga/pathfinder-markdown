@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Angel</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Angel",globalNavPath=[{ href: '/pathfinderRPG/prd/monsters/monsterIndex.html', name: 'Monster Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body"><div>
+				<h1 id="angel">Angel </h1>
+				<p>Angels are a race of celestials, beings who live on the good-aligned outer planes.</p>
+				<p>Angels can be of any good alignment. Lawful angels hail from Heaven, neutral angels from Nirvana, and chaotic angels from Elysium, though the majority serve one good deity or another and call their patron's realm their home. Most mortals assume that angels never lie, cheat, or steal, are impeccably honorable in all their dealings, and are the most trustworthy and diplomatic of all the celestials; while this is generally true, there are exceptions, especially as some angels serve good-aligned trickster gods and other chaotic entities.</p>
+				<p>The original and most powerful angels predate the mortal races. They were among the first creations of the gods of good, and those that survive to this day are among the more powerful non-divine beings in the multiverse. While new angels are still periodically created by the gods, most modern angels were once good mortals, their souls transforming into something greater upon reaching their destination in the planes. Often an angel's true form is reminiscent of its mortal self, only taller, brighter, and more powerful. The relationship between good mortal soul and angel is common knowledge, and many mortal religions assume that all members of the faith in good standing become angels of some type in the afterlife. Others confuse the issue by conflating famous mortals (such as saints and martyrs) with preexisting angels that have similar names, or suggesting that angels take human form to perform great deeds as mortals, returning to the heavens when their duties are over.</p>
+				<p>All angels are blessed with extraordinary beauty, though their actual appearances vary widely. Their natural shapechanging ability means they may appear to mortals as male or female, depending on their personal preference or the will of their deity. As they are spiritual creatures given a physical form rather than creatures of flesh born of other creatures, their gender is mutable; some angels always use a male form, some strictly a female one, and others use either or both, or prefer an androgynous or sexless shape.</p>
+				<p>Technically, the word “angel” refers to several types of humanoid angels&mdash;solars, planetars, and devas (of which the astral deva is the most common; other types exist as well)&mdash;though many mortals use the term loosely and apply it to any celestial, whether an angel, one of the guardian archons, fey-like azatas, beast-like agathions, or any other creature of the good planes. The angels do not take affront at this, as they have more important things to deal with than mortal nomenclature.</p>
+				<p>Angels speak Celestial, Draconic, and Infernal, though they can communicate with almost any creature because of their truespeech ability. All angels possess <a href="creatureTypes.html#_angel-subtype">a number of similar traits</a>. Most angels also have additional powers beyond these traits, depending on the role their deity assigns them. For example, an angelic guardian of volcanoes might have the fire subtype, or the protector of a sunken city might be aquatic, <a href="universalMonsterRules.html#_amphibious" >amphibious</a>, and able to use her wings to swim.</p>
+				<h2>Fallen Angels</h2>
+				<p>Many religions include stories of angels rebelling against a creator or becoming corrupt and evil. Sadly, this is indeed possible, though thankfully rare, and only the proudest or weakest-willed angels succumb to this fate. Fallen angels are exiles of the good realms, hunted by their former brethren and easy targets for fiends as well. The fallen lose some of the grace and light of their untainted kin, though many are said to still be tragically beautiful. Rarer still are those fallen angels strong and clever enough to join the legions of Hell, and who are often transformed into some type of devil, or those who become demons of the Abyss and carve out a niche in that horrible realm or come to serve a greater demon. </p>
+<h2>Angelic Choirs</h2>
+				<p>Whereas there are evil and cruel counterparts for all the other good races, the legions of fiends do not possess a clear analogue for the race of angels. Many scholars have debated the reasons for this strange lack of symmetry among the good and evil outsiders, and while most have come to believe that this is simply an example of good's inherent willingness to rise above specific alignments for everyone's benefit, the exact reason may never be known.</p>
+				<p>Since angels can be of any good alignment, they represent the needs and desires of all three major good outsider races. While some angels devote their energies to all three, most have a particular favorite among the races in keeping with that angel's particular alignment. While their true forms never vary between alignments, angels will often use their change shape ability to appear more like an archon, agathion, or azata as the situation and the angel's personality demands.</p>
+				<p>Angels are further subdivided into their own specific hierarchy known as the Triad of Choirs. The bulk of the angel race consists of the devas&mdash;these are the most common angels, and numerous different specialties exist, with the astral deva presented here merely the best known. Devas of the third choir have two wings. The second choir consists solely of the four-winged planetars, while the rulers of the angelic race are the six-winged solars. These are the mightiest of all angels, and the most powerful of them can directly oppose even the will of a demigod if the situation calls for it.</p>
+			
+				<h1 id="angel-astral-deva">Angel, Astral Deva</h1>
+				<p class="flavor-text"><i>This tall, human-like creature has long, feathery wings and a gentle inner radiance that makes it difficult to look directly at.</i></p>
+			
+				<p class="stat-block-title"><b>Astral Deva <span class="stat-block-cr">CR 14</span></b></p>
+				<p class="stat-block-1"><b>XP 38,400</b></p>
+				<p class="stat-block-1">NG Medium <a href="creatureTypes.html#_outsider" >outsider</a> (<a href="creatureTypes.html#_angel-subtype" >angel</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_good-subtype" >good</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="../skills/perception.html#_perception" >Perception</a> +26</p>
+				<p class="stat-block-1"><b>Aura</b> protective aura</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 29, touch 14, flat-footed 25 (+4 Dex, +15 natural; +4 deflection vs. evil)</p>
+				<p class="stat-block-1"><b>hp</b> 172 (15d10+90)</p>
+				<p class="stat-block-1"><b>Fort</b> +16, <b>Ref</b> +13, <b>Will</b> +11; +4 vs. poison, +4 resistance vs. evil</p>
+				<p class="stat-block-1"><b>Defensive Abilities </b>uncanny dodge;<b> DR</b> 10/evil; <b>Immune</b> acid, cold, petrification; <b>Resist</b> electricity 10, fire 10; <b>SR</b> 25</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 50 ft., fly 100 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+2 disrupting warhammer</i> +26/+21/+16 (1d8+14/&times;3 plus stun) or slam +23 (1d8+12) </p>
+				<p class="stat-block-1"><b><a href="universalMonsterRules.html#_spell-like-abilities" >Spell-Like Abilities</a> </b>(CL 13th)</p>
+				<p class="stat-block-2">At Will&mdash;<i><a href="../spells/aid.html#_aid" >aid</a></i>, <i><a href="../spells/continualFlame.html#_continual-flame" >continual flame</a></i>, <i><a href="../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="../spells/discernLies.html#_discern-lies" >discern lies</a></i> (DC 20), <i><a href="../spells/dispelEvil.html#_dispel-evil" >dispel evil</a></i> (DC 21), <i><a href="../spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="../spells/holyAura.html#_holy-aura" >holy aura</a></i> (DC 24), <i><a href="../spells/holySmite.html#_holy-smite" >holy smite</a></i> (DC 20), <i><a href="../spells/holyWord.html#_holy-word" >holy word</a></i> (DC 23), <i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i> (self only), <i><a href="../spells/planeShift.html#_plane-shift" >plane shift</a></i> (DC 23), <i><a href="../spells/removeCurse.html#_remove-curse" >remove curse</a></i>, <i><a href="../spells/removeDisease.html#_remove-disease" >remove disease</a></i>, <i><a href="../spells/removeFear.html#_remove-fear" >remove fear</a></i></p>
+				<p class="stat-block-2">7/day&mdash;<i><a href="../spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i><a href="../spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="../spells/bladeBarrier.html#_blade-barrier" >blade barrier</a></i> (DC 22), <i><a href="../spells/heal.html#_heal" >heal</a></i></p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 26, <b>Dex</b> 19, <b>Con</b> 21, <b>Int</b> 18, <b>Wis</b> 18, <b>Cha</b> 23</p>
+				<p class="stat-block-1"><b>Base Atk</b> +15; <b>CMB</b> +23; <b>CMD</b> 37</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_alertness" >Alertness</a>, <a href="../feats.html#_cleave" >Cleave</a>, <a href="../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="../feats.html#_toughness" >Toughness</a>, <a href="../feats.html#_weapon-focus" >Weapon Focus</a> (warhammer)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +22, <a href="../skills/craft.html#_craft" >Craft</a> (any one) +22, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +24, <a href="../skills/fly.html#_fly" >Fly</a> +26, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> +24, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +22, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +19, <a href="../skills/perception.html#_perception" >Perception</a> +26, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +26, <a href="../skills/stealth.html#_stealth" >Stealth</a> +22</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Draconic, Infernal; truespeech</p>
+				<p class="stat-block-1"><b>SQ </b><a href="universalMonsterRules.html#_change-shape" >change shape</a> (<i><a href="../spells/alterSelf.html#_alter-self" >alter self</a></i>)</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any good-aligned plane</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or squad (3&ndash;6)</p>
+				<p class="stat-block-1"><b>Treasure</b> double (<i>+2 disrupting warhammer</i>)</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Stun (Su)</b> If an astral deva strikes an opponent twice in one round with its warhammer, that creature must succeed on a DC 25 Fortitude save or be stunned for 1d6 rounds. The save DC is Strength-based.</p>
+				<p class="stat-block-1"><b>Uncanny <a href="../feats.html#_dodge" >Dodge</a> (Ex) </b>This ability functions identically to the rogue ability. If a deva gains uncanny dodge from a class level, he instead gains improved uncanny dodge.</p>
+				<p>Astral devas are messengers of the gods of good. They watch over planar travelers and sponsor powerful mortals, pushing them to take on good causes. A typical astral deva looks human except for its wings, though some look like other humanoid races and a rare few have even more unusual forms. An astral deva is 7-1/2 feet tall and weighs 250 pounds.</p>
+				<p>Astral devas are usually created by deities from the souls of good mortals, though some souls spontaneously transform into astral devas without the intervention of a deity. Their skills and abilities make them excellent scouts and elite agents for celestial armies. They often carry long, flowing scrolls upon which are writ messages and judgments from the gods. An astral deva's scrolls frequently contain hints of prophecies and major events yet to come, and as such the devas are fiercely protective of the contents of these scrolls and let none, not even other astral devas, peruse them.</p>
+			
+				<h1 id="angel-planetar">Angel, Planetar</h1>
+			
+				<p class="flavor-text"><i>Muscular, bald, and tall, this humanoid creature has emerald skin and two pairs of shining, white-feathered wings.</i></p>
+			
+				<p class="stat-block-title"><b>Planetar <span class=stat-block-cr>CR 16</span></b></p>
+				<p class="stat-block-1"><b>XP 76,800</b></p>
+				<p class="stat-block-1">NG Large <a href="creatureTypes.html#_outsider" >outsider</a> (<a href="creatureTypes.html#_angel-subtype" >angel</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_good-subtype" >good</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> darkvision 60 ft., <i><a href="../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="../spells/detectSnaresAndPits.html#_detect-snares-and-pits" >detect snares and pits</a></i>, low-light vision, <i><a href="../spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <a href="../skills/perception.html#_perception" >Perception</a> +27</p>
+				<p class="stat-block-1"><b>Aura</b> protective aura</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 32, touch 13, flat-footed 28 (+4 Dex, +19 natural, &ndash;1 size; +4 deflection vs. evil)</p>
+				<p class="stat-block-1"><b>hp</b> 229 (17d10+136); <a href="universalMonsterRules.html#_regeneration" >regeneration</a> 10 (evil weapons and effects)</p>
+				<p class="stat-block-1"><b>Fort</b> +19, <b>Ref</b> +11, <b>Will</b> +19; +4 vs. poison, +4 resistance vs. evil</p>
+				<p class="stat-block-1"><b>DR</b> 10/evil; <b>Immune</b> acid, cold, petrification; <b>Resist</b> electricity 10, fire 10; <b>SR</b> 27</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., fly 90 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+3 <a href="../magicItems/weapons.html#_weapons-holy" >holy</a> greatsword</i> +27/+22/+17 (3d6+15/19&ndash;20) or slam +24 (2d8+12) </p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b><a href="universalMonsterRules.html#_spell-like-abilities" >Spell-Like Abilities</a> </b>(CL 16th)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="../spells/detectSnaresAndPits.html#_detect-snares-and-pits" >detect snares and pits</a></i>, <i><a href="../spells/discernLies.html#_discern-lies" >discern lies</a></i> (DC 20), <i><a href="../spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="../spells/continualFlame.html#_continual-flame" >continual flame</a></i>, <i><a href="../spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="../spells/holySmite.html#_holy-smite" >holy smite</a></i> (DC 21), <i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i> (self only), <i><a href="../spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>, <i><a href="../spells/removeCurse.html#_remove-curse" >remove curse</a></i>, <i><a href="../spells/removeDisease.html#_remove-disease" >remove disease</a></i>, <i><a href="../spells/removeFear.html#_remove-fear" >remove fear</a></i> (DC 18), <i><a href="../spells/speakWithDead.html#_speak-with-dead" >speak with dead</a></i> (DC 20)</p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="../spells/bladeBarrier.html#_blade-barrier" >blade barrier</a></i> (DC 21), <i><a href="../spells/flameStrike.html#_flame-strike" >flame strike</a></i> (DC 22), <i><a href="../spells/powerWordStun.html#_power-word-stun" >power word stun</a></i>, <i><a href="../spells/raiseDead.html#_raise-dead" >raise dead</a></i>, <i><a href="../spells/wavesOfFatigue.html#_waves-of-fatigue" >waves of fatigue</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="../spells/earthquake.html#_earthquake" >earthquake</a></i> (DC 25), <i><a href="../spells/restoration.html#_restoration-greater" >greater restoration</a></i>, <i><a href="../spells/charmMonster.html#_charm-monster-mass" >mass charm monster</a></i> (DC 25), <i><a href="../spells/wavesOfExhaustion.html#_waves-of-exhaustion" >waves of exhaustion</a></i></p>
+				<p class="stat-block-1"><b>Spells Prepared </b>(CL 16th)</p>
+				<p class="stat-block-2">8th&mdash;<i><a href="../spells/earthquake.html#_earthquake" >earthquake</a></i> (DC 25), <i><a href="../spells/fireStorm.html#_fire-storm" >fire storm</a></i> (DC 25)</p>
+				<p class="stat-block-2">7th&mdash;<i><a href="../spells/holyWord.html#_holy-word" >holy word</a></i> (DC 24), <i><a href="../spells/regenerate.html#_regenerate" >regenerate</a></i> (2)</p>
+				<p class="stat-block-2">6th&mdash;<i><a href="../spells/banishment.html#_banishment" >banishment</a></i> (DC 23), <i><a href="../spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i>, <i><a href="../spells/heal.html#_heal" >heal</a></i>, <i><a href="../spells/cureModerateWounds.html#_cure-moderate-wounds-mass" >mass cure moderate wounds</a></i> (DC 23)</p>
+				<p class="stat-block-2">5th&mdash;<i><a href="../spells/breakEnchantment.html#_break-enchantment" >break enchantment</a></i>, <i><a href="../spells/dispelEvil.html#_dispel-evil" >dispel evil</a></i> (2, DC 22), <i><a href="../spells/planeShift.html#_plane-shift" >plane shift</a></i> (DC 22), <i><a href="../spells/righteousMight.html#_righteous-might" >righteous might</a></i></p>
+				<p class="stat-block-2">4th&mdash;<i><a href="../spells/deathWard.html#_death-ward" >death ward</a></i>, <i><a href="../spells/dismissal.html#_dismissal" >dismissal</a></i> (DC 21), <i><a href="../spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i> (DC 21), <i><a href="../spells/summonMonster.html#_summon-monster-iv" >summon monster IV</a></i></p>
+				<p class="stat-block-2">3rd&mdash;<i><a href="../spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i> (2), <i><a href="../spells/daylight.html#_daylight" >daylight</a></i>, <i><a href="../spells/invisibilityPurge.html#_invisibility-purge" >invisibility purge</a></i>, <i><a href="../spells/summonMonster.html#_summon-monster-iii" >summon monster III</a></i>, <i><a href="../spells/windWall.html#_wind-wall" >wind wall</a></i></p>
+				<p class="stat-block-2">2nd&mdash;<i><a href="../spells/alignWeapon.html#_align-weapon" >align weapon</a> (2)</i>, <i><a href="../spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a> (2)</i>, <i><a href="../spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (2), <i><a href="../spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i></p>
+				<p class="stat-block-2">1st&mdash;<i><a href="../spells/bless.html#_bless" >bless</a></i> (2), <i><a href="../spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (4), <i><a href="../spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i></p>
+				<p class="stat-block-2">0 (at will)&mdash;<i><a href="../spells/detectMagic#detect-magic" >detect magic<a/></i>, <i><a href="../spells/purifyFoodAndDrink.html#_purify-food-and-drink" >purify food and drink</a></i>, <i><a href="../spells/stabilize.html#_stabilize" >stabilize</a></i>, <i><a href="../spells/virtue.html#_virtue" >virtue</a></i></p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 27, <b>Dex</b> 19, <b>Con</b> 24, <b>Int</b> 22, <b>Wis</b> 25, <b>Cha</b> 24</p>
+				<p class="stat-block-1"><b>Base Atk</b> +17; <b>CMB</b> +26; <b>CMD</b> 40</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_blind-fight" >Blind-Fight</a>, <a href="../feats.html#_cleave" >Cleave</a>, <a href="../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_improved-sunder" >Improved Sunder</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="../feats.html#_toughness" >Toughness</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +24, <a href="../skills/craft.html#_craft" >Craft</a> (any one) +26, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +27, <a href="../skills/fly.html#_fly" >Fly</a> +26, <a href="../skills/heal.html#_heal" >Heal</a> +24, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> +27, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (history) +23, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +26, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +26, <a href="../skills/perception.html#_perception" >Perception</a> +27, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +27, <a href="../skills/stealth.html#_stealth" >Stealth</a> +20</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Draconic, Infernal; truespeech</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="universalMonsterRules.html#_change-shape" >change shape</a> (<i><a href="../spells/alterSelf.html#_alter-self" >alter self</a></i>)</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any good-aligned plane</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or pair</p>
+				<p class="stat-block-1"><b>Treasure</b> double (<i>+3 <a href="../magicItems/weapons.html#_weapons-holy" >holy</a> greatsword</i>)</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Spells</b> Planetars cast divine spells as 16th-level clerics. They do not gain access to domains or other cleric abilities.</p>
+				<p>Planetars are the generals of celestial armies. A typical planetar stands 9 feet tall and weighs 500 pounds. They focus on combat and the destruction of evil; though they understand diplomacy, a planetar would rather lead the charge against an army of fiends than negotiate peace.</p>
+			
+				<h1 id="angel-solar">Angel, Solar</h1>
+			
+				<p class="flavor-text"><i>This towering humanoid creature has shining topaz eyes, metallic skin, and three pairs of white wings.</i></p>
+			
+				<p class="stat-block-title"><b>Solar <span class=stat-block-cr>CR 23</span></b></p>
+				<p class="stat-block-1"><b>XP 819,200</b></p>
+				<p class="stat-block-1">NG Large <a href="creatureTypes.html#_outsider" >outsider</a> (<a href="creatureTypes.html#_angel-subtype" >angel</a>, <a href="creatureTypes.html#_extraplanar-subtype" >extraplanar</a>, <a href="creatureTypes.html#_good-subtype" >good</a>)</p>
+				<p class="stat-block-1"><b>Init</b> +9; <b>Senses</b> darkvision 60 ft., low-light vision, <i><a href="../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="../spells/detectSnaresAndPits.html#_detect-snares-and-pits" >detect snares and pits</a></i>, <i><a href="../spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <a href="../skills/perception.html#_perception" >Perception</a> +33</p>
+				<p class="stat-block-1"><b>Aura</b> protective aura</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 44, touch 11, flat-footed 42 (+14 armor, +1 Dex, +1 dodge, +19 natural, &ndash;1 size; +4 deflection vs. evil)</p>
+				<p class="stat-block-1"><b>hp</b> 363 (22d10+242); <a href="universalMonsterRules.html#_regeneration" >regeneration</a> 15 (evil artifacts, effects, and spells)</p>
+				<p class="stat-block-1"><b>Fort</b> +25, <b>Ref</b> +14, <b>Will</b> +23; +4 vs. poison, +4 resistance vs. evil</p>
+				<p class="stat-block-1"><b>DR</b> 15/epic and evil; <b>Immune</b> acid, cold, petrification; <b>Resist</b> electricity 10, fire 10; <b>SR</b> 34</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 50 ft., fly 150 ft. (good); 35 ft., fly 100 ft. (good) in armor</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+5 <a href="../magicItems/weapons.html#_weapons-dancing" >dancing</a> greatsword</i> +35/+30/+25/+20 (3d6+18) or slam +30 (2d8+13)</p>
+				<p class="stat-block-1"><b>Ranged</b> <i>+5 composite longbow</i> (+9 Str bonus) +31/+26/+21/+16 (2d6+14 plus <i>slaying</i> arrow) </p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-1"><b><a href="universalMonsterRules.html#_spell-like-abilities" >Spell-Like Abilities</a></b> (CL 20th)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="../spells/detectEvil.html#_detect-evil" >detect evil</a></i>, <i><a href="../spells/detectSnaresAndPits.html#_detect-snares-and-pits" >detect snares and pits</a></i>, <i><a href="../spells/discernLies.html#_discern-lies" >discern lies</a></i> (DC 21), <i><a href="../spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+				<p class="stat-block-2">At Will&mdash;<i><a href="../spells/aid.html#_aid" >aid</a></i>, <i><a href="../spells/animateObjects.html#_animate-objects" >animate objects</a></i>, <i><a href="../spells/commune.html#_commune" >commune</a></i>, <i><a href="../spells/continualFlame.html#_continual-flame" >continual flame</a></i>, <i><a href="../spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a></i>, <i><a href="../spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i>, <i><a href="../spells/holySmite.html#_holy-smite" >holy smite</a></i> (DC 21), <i><a href="../spells/imprisonment.html#_imprisonment" >imprisonment</a></i> (DC 26), <i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i> (self only), <i><a href="../spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>, <i><a href="../spells/removeCurse.html#_remove-curse" >remove curse</a></i>, <i><a href="../spells/removeDisease.html#_remove-disease" >remove disease</a></i>, <i><a href="../spells/removeFear.html#_remove-fear" >remove fear</a></i>, <i><a href="../spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, <i><a href="../spells/summonMonster.html#_summon-monster-vii" >summon monster VII</a></i>, <i><a href="../spells/speakWithDead.html#_speak-with-dead" >speak with dead</a></i> (DC 20), <i><a href="../spells/wavesOfFatigue.html#_waves-of-fatigue" >waves of fatigue</a></i></p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="../spells/bladeBarrier.html#_blade-barrier" >blade barrier</a></i> (DC 23), <i><a href="../spells/earthquake.html#_earthquake" >earthquake</a></i> (DC 25), <i><a href="../spells/heal.html#_heal" >heal</a></i>, <i><a href="../spells/charmMonster.html#_charm-monster-mass" >mass charm monster</a></i> (DC 25), <i><a href="../spells/permanency.html#_permanency" >permanency</a></i>, <i><a href="../spells/resurrection.html#_resurrection" >resurrection</a></i>, <i><a href="../spells/wavesOfExhaustion.html#_waves-of-exhaustion" >waves of exhaustion</a></i></p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="../spells/restoration.html#_restoration-greater" >greater restoration</a></i>, <i><a href="../spells/powerWordBlind.html#_power-word-blind" >power word blind</a></i>, <i><a href="../spells/powerWordKill.html#_power-word-kill" >power word kill</a></i>, <i><a href="../spells/powerWordStun.html#_power-word-stun" >power word stun</a></i>, <i><a href="../spells/prismaticSpray.html#_prismatic-spray" >prismatic spray</a></i> (DC 24), <i><a href="../spells/wish.html#_wish" >wish</a></i></p>
+				<p class="stat-block-1"><b>Spells Prepared </b>(CL 20th)</p>
+				<p class="stat-block-2">9th&mdash;<i><a href="../magicItems/armor.html#_armor-etherealness" >etherealness</a></i>, <i><a href="../spells/heal.html#_heal-mass" >mass heal</a></i>, <i><a href="../spells/miracle.html#_miracle" >miracle</a></i>, <i><a href="../spells/stormOfVengeance.html#_storm-of-vengeance" >storm of vengeance</a></i> (DC 27)</p>
+				<p class="stat-block-2">8th&mdash;<i><a href="../spells/fireStorm.html#_fire-storm" >fire storm</a></i> (DC 26), <i><a href="../spells/holyAura.html#_holy-aura" >holy aura</a></i> (2) (DC 26), <i><a href="../spells/cureCriticalWounds.html#_cure-critical-wounds-mass" >mass cure critical wounds</a></i> (2)</p>
+				<p class="stat-block-2">7th&mdash;<i><a href="../spells/destruction.html#_destruction" >destruction</a></i> (DC 25), <i><a href="../spells/dictum.html#_dictum" >dictum</a></i> (DC 25), <i><a href="../spells/etherealJaunt.html#_ethereal-jaunt" >ethereal jaunt</a></i>, <i><a href="../spells/holyWord.html#_holy-word" >holy word</a></i> (DC 25), <i><a href="../spells/regenerate.html#_regenerate" >regenerate</a></i></p>
+				<p class="stat-block-2">6th&mdash;<i><a href="../spells/banishment.html#_banishment" >banishment</a></i> (DC 24), <i><a href="../spells/heroesFeast.html#_heroes-feast" >heroes' feast</a></i>, <i><a href="../spells/cureModerateWounds.html#_cure-moderate-wounds-mass" >mass cure moderate wounds</a></i>, <i><a href="../spells/undeathToDeath.html#_undeath-to-death" >undeath to death</a></i> (DC 24), <i><a href="../spells/wordOfRecall.html#_word-of-recall" >word of recall</a></i></p>
+				<p class="stat-block-2">5th&mdash;<i><a href="../spells/breakEnchantment.html#_break-enchantment" >break enchantment</a></i>, <i><a href="../spells/breathOfLife.html#_breath-of-life" >breath of life</a></i>, <i><a href="../spells/dispelEvil.html#_dispel-evil" >dispel evil</a></i> (DC 23), <i><a href="../spells/planeShift.html#_plane-shift" >plane shift</a></i> (DC 23), <i><a href="../spells/righteousMight.html#_righteous-might" >righteous might</a></i>, <i><a href="../spells/symbolOfSleep.html#_symbol-of-sleep" >symbol of sleep</a></i> (DC 23)</p>
+				<p class="stat-block-2">4th&mdash;<i><a href="../spells/cureCriticalWounds.html#_cure-critical-wounds" >cure critical wounds</a></i> (3), <i><a href="../spells/deathWard.html#_death-ward" >death ward</a></i>, <i><a href="../spells/dismissal.html#_dismissal" >dismissal</a></i> (DC 22), <i><a href="../spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i> (2) (DC 22)</p>
+				<p class="stat-block-2">3rd&mdash;<i><a href="../spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i><a href="../spells/daylight.html#_daylight" >daylight</a></i>, <i><a href="../spells/invisibilityPurge.html#_invisibility-purge" >invisibility purge</a></i>, <i><a href="../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil" >magic circle against evil</a></i>, <i><a href="../spells/prayer.html#_prayer" >prayer</a></i>, <i><a href="../spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, <i><a href="../spells/windWall.html#_wind-wall" >wind wall</a></i></p>
+				<p class="stat-block-2">2nd&mdash;<i><a href="../spells/alignWeapon.html#_align-weapon" >align weapon</a></i>, <i><a href="../spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="../spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="../spells/consecrate.html#_consecrate" >consecrate</a></i>, <i><a href="../spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (2), <i><a href="../spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i></p>
+				<p class="stat-block-2">1st&mdash;<i><a href="../spells/bless.html#_bless" >bless</a></i>, <i><a href="../spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a> </i>(3), <i><a href="../spells/divineFavor.html#_divine-favor" >divine favor</a></i>, <i><a href="../spells/entropicShield.html#_entropic-shield" >entropic shield</a></i>, <i><a href="../spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i></p>
+				<p class="stat-block-2">0 (at will)&mdash;<i><a href="../spells/detectMagic#detect-magic" >detect magic<a/></i>, <i><a href="../spells/purifyFoodAndDrink.html#_purify-food-and-drink" >purify food and drink</a></i>, <i><a href="../spells/stabilize.html#_stabilize" >stabilize</a></i>, <i><a href="../spells/virtue.html#_virtue" >virtue</a></i></p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 28, <b>Dex</b> 20, <b>Con</b> 30, <b>Int</b> 23, <b>Wis</b> 27, <b>Cha</b> 25</p>
+				<p class="stat-block-1"><b>Base Atk</b> +22; <b>CMB</b> +32; <b>CMD</b> 47</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_cleave" >Cleave</a>, <a href="../feats.html#_deadly-aim" >Deadly Aim</a>, <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_improved-sunder" >Improved Sunder</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="../feats.html#_mobility" >Mobility</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="../feats.html#_toughness" >Toughness</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/craft.html#_craft" >Craft</a> (any one) +31, <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +32, <a href="../skills/fly.html#_fly" >Fly</a> +32, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (history) +31, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +31, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +31, <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +31, <a href="../skills/perception.html#_perception" >Perception</a> +33, <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +33, <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +31, <a href="../skills/stealth.html#_stealth" >Stealth</a> +21, <a href="../skills/survival.html#_survival" >Survival</a> +31</p>
+				<p class="stat-block-1"><b>Languages</b> Celestial, Draconic, Infernal; truespeech</p>
+				<p class="stat-block-1"><b>SQ</b> <a href="universalMonsterRules.html#_change-shape" >change shape</a> (<i><a href="../spells/alterSelf.html#_alter-self" >alter self</a></i>)</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> any good-aligned plane</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or pair</p>
+				<p class="stat-block-1"><b>Treasure</b> double (<i>+5 full plate</i>, <i>+5 <a href="../magicItems/weapons.html#_weapons-dancing" >dancing</a> greatsword</i>, <i>+5 composite longbow</i> [+9 Str bonus])</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Spells</b> Solars can cast divine spells as 20th-level clerics. They do not gain access to domains or other cleric abilities.</p>
+				<p class="stat-block-1"><b>Slaying Arrow (Su)</b> A solar's bow needs no ammunition, and automatically creates a <i>slaying</i> <i>arrow</i> of the solar's choice when drawn.</p>
+				<p>Solars are the greatest type of angel, usually serving at the right hand of a deity or championing a cause that benefits an entire world or plane. A typical solar looks roughly human, though some physically resemble other humanoid races and a rare few have even more unusual forms. A solar stands about 9 feet tall and weighs about 500 pounds, with a strong, commanding voice that is impossible to ignore. Most have silvery or golden skin.</p>
+				<p>Blessed with an array of magical powers and the spellcasting abilities of the most powerful clerics, solars are powerful opponents capable of single-handedly slaying mighty evils. They are the greatest trackers among the celestials, the most masterful of which are said to be able to track the days-old wake of a pit fiend flying through the Astral Plane. Some take on the mantle of monster-slayers and hunt powerful fiends and undead such as devourers, night hags, night shades, and pit fiends, even making forays into the evil planes and the Negative Energy Plane to destroy these creatures at their source before they can bring harm to mortals. A few very old solars have succeeded at this task and bear slayer-names of dread creatures that are now extinct by the solar's hand.</p>
+				<p>Solars accept roles as guardians, usually of fundamental supernatural concepts, or objects or creatures of great importance. On one world, a group of solars patrols the energy conduits of the sun, alert for any attempts by evil races such as drow to snuff out the light and bring eternal darkness. On another, seven solars stand watch over seven mystical chains keeping evil gods bound within a prison demiplane. On yet another, a solar with a flaming sword stands watch over the original mortal paradise so that no creature may enter.</p>
+				<p>In worlds where the gods cannot take physical form, they send solars to be their prophets and gurus (often pretending to be mortals), laying the foundation for cults that grow to become great religions. Likewise, in worlds oppressed by evil, solars are the secret priests who bring hope to the downtrodden, or in some cases allow themselves to be martyred so that their holy essence can explode outward to land and grow in the hearts of great heroes-to-be.</p>
+				<p>Though they are not gods, the solars' power approaches that of demigods, and they often have an advisory role for younger or weaker deities. In some polytheistic faiths, mortals worship one or more solars as aspects or near-equal servants of the true deities&mdash;never without the deity's approval&mdash;or consider notable solars to be offspring, consorts, lovers, or spouses of true deities (which they may be, depending on the deity).</p>
+				<p>Unlike other angels, most solars are created from an amalgam of good souls and raw divine energy to directly serve the gods, but an increasing number of these powerful angels have been “promoted” to their existence as solars from lesser creatures like planetars or devas. A few rare and powerful good souls ascend directly to the status of solar. The oldest solars predate mortality and are among the gods' first creations. These strange solars are paragons of their kind and have little direct interaction with mortals, focusing on the protection or destruction of abstract concepts such as gravity, dark matter, entropy, and primordial evil.</p>
+				<p>Solars who spend a long time in the Material Plane, especially those in the guise of mortals, are sometimes the source of half-celestial or aasimar bloodlines in mortal families, due either to romantic dalliances or simply the mortals' proximity to celestial energy. Actual offspring are rare, and when they occur, it is always a mortal mother that bears the child&mdash;while solars can appear as either sex, the gods have not granted them the capacity for pregnancy or motherhood. Indeed, this fundamental truth is often what drives a solar to seek out a mortal lover. Since begetting a child upon a mortal is generally frowned upon by other solars, a solar father rarely interacts directly with the fate of his lover or child, so as to avoid bringing shame upon himself or his responsibilities. Yet such solars still watch over their progeny from afar, and in times of peril, they might even be moved to intercede to aid one of their endangered children, albiet in subtle and mysterious ways.</p>
+				<p>All angels respect the power and wisdom of solars, and though these mightiest of angels usually work alone, they sometimes command multiple armies led by planetars, acting as great field marshals for massive incursions against the legions of Hell or the hordes of the Abyss.</p>
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Feet Slot</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Feet Slot",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html', name: 'Wondrous Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="feet-slot-wondrous-items">Feet Slot Wondrous Items</h1>
+<p>The feet slot consists of boots, horseshoes, sandals, shoes, slippers, and other items that can be worn on the feet.</p>
+<p>Anyone can use a feet slot wondrous item unless specified otherwise by its description. These wondrous items are usually activated by use or by a command word, but details vary from item to item.</p>
+
+<table id="feet-slot-wondrous-items-table"><caption>Feet Slot Wondrous Items</caption>
+<thead><tr><th>d%</th><th>Lesser Minor Feet Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;11</td><td><i>Boots of the cat</td><td></i>1,000 gp</td></tr>
+<tr class="even"><td>12&ndash;22</td><td><i>Daredevil boots</td><td></i>1,400 gp</td></tr>
+<tr class="odd"><td>23&ndash;31</td><td><i>Boots of the enduring march</td><td></i>1,500 gp</td></tr>
+<tr class="even"><td>32&ndash;41</td><td><i>Feather step slippers</td><td></i>2,000 gp</td></tr>
+<tr class="odd"><td>42&ndash;50</td><td><i>Boots of friendly terrain</td><td></i>2,400 gp</td></tr>
+<tr class="even"><td>51&ndash;60</td><td><i>Boots of the winterlands</td><td></i>2,500 gp</td></tr>
+<tr class="odd"><td>61&ndash;76</td><td><i>Boots of elvenkind</td><td></i>2,500 gp</td></tr>
+<tr class="even"><td>77&ndash;85</td><td><i>Acrobat slippers</td><td></i>3,000 gp</td></tr>
+<tr class="odd"><td>86&ndash;92</td><td><i>Horseshoes of speed</td><td></i>3,000 gp</td></tr>
+<tr class="even"><td>93&ndash;100</td><td><i>Boots of the mire</td><td></i>3,500 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Minor Feet Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;07</td><td><i>Burglar boots, minor</td><td></i>4,000 gp</td></tr>
+<tr class="even"><td>08&ndash;13</td><td><i>Horseshoes of crushing blows +1</td><td></i>4,000 gp</td></tr>
+<tr class="odd"><td>14&ndash;19</td><td><i>Sandals of quick reaction</td><td></i>4,000 gp</td></tr>
+<tr class="even"><td>20&ndash;26</td><td><i>Slippers of cloudwalking</td><td></i>4,400 gp</td></tr>
+<tr class="odd"><td>27&ndash;40</td><td><i>Slippers of spider climbing</td><td></i>4,800 gp</td></tr>
+<tr class="even"><td>41&ndash;46</td><td><i>Sandals of the lightest step</td><td></i>5,000 gp</td></tr>
+<tr class="odd"><td>47&ndash;60</td><td><i></td><td></i>5,500 gp</td></tr>
+<tr class="even"><td>61&ndash;68</td><td><i>Horseshoes of a zephyr</td><td></i>6,000 gp</td></tr>
+<tr class="odd"><td>69&ndash;75</td><td><i>Haunted shoes</td><td></i>6,480 gp</td></tr>
+<tr class="even"><td>76&ndash;82</td><td><i>Jaunt boots</td><td></i>7,200 gp</td></tr>
+<tr class="odd"><td>83&ndash;100</td><td><i>Boots of levitation</td><td></i>7,500 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Medium Feet Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;08</td><td><i>Boots of escape</td><td></i>8,000 gp</td></tr>
+<tr class="even"><td>09&ndash;14</td><td><i>Earth root boots</td><td></i>8,000 gp</td></tr>
+<tr class="odd"><td>15&ndash;21</td><td><i>Nightmare boots</td><td></i>8,500 gp</td></tr>
+<tr class="even"><td>22&ndash;26</td><td><i>Nightmare horseshoes</td><td></i>9,000 gp</td></tr>
+<tr class="odd"><td>27&ndash;32</td><td><i>Caltrop boots</td><td></i>10,000 gp</td></tr>
+<tr class="even"><td>33&ndash;39</td><td><i>Tremor boots</td><td></i>10,000 gp</td></tr>
+<tr class="odd"><td>40&ndash;47</td><td><i>Boots of the mastodon</td><td></i>10,500 gp</td></tr>
+<tr class="even"><td>48&ndash;54</td><td><i>Shoes of the lightning leaper</td><td></i>10,500 gp</td></tr>
+<tr class="odd"><td>55&ndash;70</td><td><i>Boots of speed</td><td></i>12,000 gp</td></tr>
+<tr class="even"><td>71&ndash;77</td><td><i>Verdant boots</td><td></i>12,000 gp</td></tr>
+<tr class="odd"><td>78&ndash;84</td><td><i>Horseshoes of crushing blows +2</td><td></i>16,000 gp</td></tr>
+<tr class="even"><td>85&ndash;100</td><td><i>Winged boots</td><td></i>16,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Medium Feet Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;38</td><td><i>Shoes of the firewalker</td><td></i>21,000 gp</td></tr>
+<tr class="even"><td>39&ndash;72</td><td><i>Dryad sandals</td><td></i>24,000 gp</td></tr>
+<tr class="odd"><td>73&ndash;100</td><td><i>Horseshoes of the mist</td><td></i>27,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Lesser Major Feet Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;20</td><td><i>Getaway boots</td><td></i>30,000 gp</td></tr>
+<tr class="even"><td>21&ndash;35</td><td><i>Horseshoes of crushing blows +3</td><td></i>36,000 gp</td></tr>
+<tr class="odd"><td>36&ndash;55</td><td><i>Horseshoes of glory</td><td></i>39,600 gp</td></tr>
+<tr class="even"><td>56&ndash;75</td><td><i>Burglar boots, major</td><td></i>46,000 gp</td></tr>
+<tr class="odd"><td>76&ndash;100</td><td><i>Boots of teleportation</td><td></i>49,000 gp</td></tr>
+<thead><tr><th>d%</th><th>Greater Major Feet Item</th><th>Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;40</td><td><i>Slippers of the triton</td><td></i>56,000 gp</td></tr>
+<tr class="even"><td>41&ndash;70</td><td><i>Horseshoes of crushing blows +4</td><td></i>64,000 gp</td></tr>
+<tr class="odd"><td>71&ndash;100</td><td><i>Horseshoes of crushing blows +5</td><td></i>100,000 gp</td></tr></table>
+
+<p id="acrobat-slippers" class="stat-block-title">Acrobat Slippers</p>
+<p class="stat-block-1"><b>Price</b> 3,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b>  2 lbs.</p>
+<p class="stat-block">These supple gray leather slippers enable the wearer to keep his balance in precarious positions. The wearer retains his Dexterity bonus to AC when climbing, running, or using the <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> skill to move on narrow surfaces or uneven ground without falling. In addition, the wearer gains a +2 competence bonus to CMD against trip maneuvers and on Reflex saves to avoid falling (including falling prone).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i></p>
+				
+<p id="boots-of-elvenkind" class="stat-block-title">Boots of Elvenkind</p>
+<p class="stat-block-1"><b>Price</b> 2,500 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These soft boots are partially made out of living leaves and other natural materials. They enable the wearer to move nimbly about in virtually any surroundings, granting a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,250 gp</p>
+<p class="stat-block">Craft Wondrous Item, creator must be an elf</p>
+				
+<p id="boots-of-escape" class="stat-block-title">Boots of escape</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 5th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">These sturdy leather-soled cloth boots have straps at the ankles and calves to ensure a snug fit. Once per day, when the wearer of the boots is grappled, pinned, or entangled, she may transfer herself to any spot within 30 feet as if using a <i><a href="/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door" >dimension door</a></i> spell. A gnome wearing these boots may instead transfer herself up to 400 feet away.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, creator must be a gnome or a wizard specialized in the school of conjuration</p>
+				
+<p id="boots-of-friendly-terrain" class="stat-block-title">Boots of Friendly Terrain</p>
+<p class="stat-block-1"><b>Price</b> 2,400 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block"><i>Boots of friendly terrain</i> turn inhospitable territory into a perfect hunting grounds for any ranger who wears them, so much so that his footprints vanish behind him with each step he takes. Each pair of these supple leather boots corresponds to a specific sort of environment as defined by the ranger's favored terrain class feature (jungles, plains, and so on). A ranger wearing the boots can treat the corresponding environment of the boots as one of his favored terrains, granting him a +2 bonus. If he already has that particular environment as one of his favored terrains, that terrain's bonus increases by 2.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,200 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>, creator must be a ranger</p>
+				
+<p id="boots-of-levitation" class="stat-block-title">Boots of Levitation</p>
+<p class="stat-block-1"><b>Price</b> 7,500 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These soft leather boots are incredibly light and comfortable, with thin soles reinforced by strips of tough hide that provide an unexpected amount of support and protection to the foot. On command, these boots allow the wearer to levitate as if she had cast <i><a href="/pathfinderRPG/prd/spells/levitate.html#_levitate" >levitate</a></i> on herself.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/levitate.html#_levitate" >levitate</a></i></p>
+				
+<p id="boots-of-speed" class="stat-block-title">Boots of Speed</p>
+<p class="stat-block-1"><b>Price</b> 12,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 10th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">As a free action, the wearer of <i>boots of speed </i>can click her heels together, letting her act as though affected by a <i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a> </i>spell for up to 10 rounds each day. The <i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i> effect's duration need not be consecutive rounds.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 6,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i></p>
+				
+<p id="boots-of-striding-and-springing" class="stat-block-title">Boots of Striding and Springing</p>
+<p class="stat-block-1"><b>Price</b> 5,500 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">These boots increase the wearer's base land speed by 10 feet. In addition to this striding ability (considered an enhancement bonus), these boots allow the wearer to make great leaps. She can jump with a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, creator must have 5 ranks in the <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> skill</p>
+				
+<p id="boots-of-teleportation" class="stat-block-title">Boots of Teleportation</p>
+<p class="stat-block-1"><b>Price</b> 49,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 9th; <b>Weight</b> 3 lbs.</p>
+<p class="stat-block">When scrutinized closely, parts of these light gray boots appear to fade in and out of existence. Any character wearing this footwear may teleport three times per day, exactly as if she had cast the <i><a href="/pathfinderRPG/prd/spells/teleport.html#_teleport" >teleport</a></i> spell.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 24,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/teleport.html#_teleport" >teleport</a></i></p>
+
+<p id="boots-of-the-cat" class="stat-block-title">Boots of the Cat</p>
+<p class="stat-block-1"><b>Price</b> 1,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 1st; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">These high-soled blue boots provide a great deal of comfort and arch support while also making the wearer appear a little bit taller than normal. The boot's wearer always takes the minimum possible damage from falls (as if the GM had rolled a 1 on each die of damage incurred by the fall) and at the end of a fall always lands on his feet.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall" >feather fall</a></i></p>
+				
+<p id="boots-of-the-enduring-march" class="stat-block-title">Boots of the Enduring March</p>
+<p class="stat-block-1"><b>Price</b> 1,500 gp; <b>Aura</b> faint conjuration; <b>CL</b> 2nd; <b>Weight</b>  2 lbs.</p>
+<p class="stat-block">These travel-stained boots of stout brown leather enable the wearer to traverse great distances without tiring. When making a forced march , for each hour of marching beyond 8 hours, the wearer needs only to make a Constitution check (DC 10, +1 per extra hour) instead of the normal check. Furthermore, if the wearer fails the check, she only takes 1d4 points of nonlethal damage and does not becomes fatigued the first time she takes nonlethal damage in this way.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a></p>
+				
+<p id="boots-of-the-mastodon" class="stat-block-title">Boots of the Mastodon</p>
+<p class="stat-block-1"><b>Price</b> 10,500 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">These massive boots are made from mastodon hide. The boots are so large and cumbersome that their wearer takes a &ndash;2 penalty on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks, but gains a +2 enhancement bonus on overrun attempts and a +2 dodge bonus to AC while attempting an overrun combat maneuver. In addition, once per day the wearer can make a trample attack . Regardless of his actual size, the creature wearing the boots can trample creatures of size Large or smaller in his path. The trample attack deals 2d8+18 points of damage (Reflex DC 29 halves).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,250 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-iii" >beast shape III</a></i></p>
+				
+				
+<p id="boots-of-the-mire" class="stat-block-title">Boots of the Mire</p>
+<p class="stat-block-1"><b>Price</b> 3,500 gp; <b>Aura</b> faint abjuration and transmutation; <b>CL</b> 5th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">These soft leather boots confer several powers upon the wearer. First, he is granted the power to walk on water in swampy environments, provided the water is no deeper than 5 feet&mdash;this effectively lets him move through swampy terrain and mud at no cost to his speed. He leaves no tracks or other signs of his passage as long as he's in swampy terrain, and never becomes uncomfortable or wet from rain, fog, or other forms of non-freezing precipitation. Finally, the boots grant him a +2 resistance bonus on all Fortitude saves made against poison and disease.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a></i>, <i><a href="/pathfinderRPG/prd/spells/waterWalk.html#_water-walk" >water walk</a></i></p>
+				
+<p id="boots-of-the-winterlands" class="stat-block-title">Boots of the Winterlands</p>
+<p class="stat-block-1"><b>Price</b> 2,500 gp; <b>Aura</b> faint abjuration and transmutation; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">The wearer of these boots is able to travel across snow at her normal speed, leaving no tracks. Additionally, the boots enable her to travel at normal speed across the slipperiest ice (horizontal surfaces only, not vertical or sharply slanted ones) without falling or slipping. Finally, <i>boots of the winterlands</i> warm the wearer, as if she were affected by an <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i> spell.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,250 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i></p>
+				
+<p id="Burglar-Boots-Major" class="stat-block-title">Burglar Boots, Major</p>
+<p class="stat-block-1"><b>Price</b> 46,000 gp; <b>Aura</b> moderate divination; <b>CL</b> 10th; <b>Weight</b>  1/2 lb.</p>
+<p class="stat-block">These boots look and act as the <i>minor burglar boots</i>, but grant a +10 competence bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks and to AC and on Reflex saves. Also, once per day on command, these boots grant the wearer the ability to use <i><a href="/pathfinderRPG/prd/spells/findTraps.html#_find-traps" >find traps</a></i> as the spell.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 23,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/findTraps.html#_find-traps" >find traps</a></i>, creator must have at least 12 ranks in <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a></p>
+				
+<p id="Burglar-Boots-Minor" class="stat-block-title">Burglar Boots, Minor</p>
+<p class="stat-block-1"><b>Price</b> 4,000 gp; <b>Aura</b> faint divination; <b>CL</b> 1st; <b>Weight</b>  1/2 lb.</p>
+<p class="stat-block">These form-fitting, calfskin boots are dyed black and lightly decorated with raven feathers. grant their wearer a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks to spot or locate traps and devices on the floor with 10 feet. This includes pits, pressure plates, and other mechanical and magical devices located on or attached to the floor. This bonus also applies to AC and on any Reflex saving throws against such traps.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, creator must have 4 ranks in <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a></p>
+				
+				
+<p id="caltrop-boots" class="stat-block-title">Caltrop Boots</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b>  2 lbs.</p>
+<p class="stat-block">These knee-high black leather boots have prominent and irregularly shaped heels which seem to bulge from the rest of the shoe. As a swift action, the boots' wearer can cause the boots to let loose a spray of caltrops through the back of the heels as he moves during the remainder of his round. These caltrops fill each square the wearer moves into during that round. Any creature, including the wearer, occupying or who steps into one of these squares suffers the normal effects of coming into contact with caltrops . Once produced, these caltrops remain in existence until removed from their square, at which point they immediately disappear. The shoes can be used for 10 rounds per day. These rounds need not be consecutive.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth" >spike growth</a></i></p>
+				
+<p id="daredevil-boots" class="stat-block-title">Daredevil Boots</p>
+<p class="stat-block-1"><b>Price</b> 1,400 gp; <b>Aura</b> faint enchantment; <b>CL</b> 3rd; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">This pair of magical boots shimmers in vibrant shades of blazing red and burning orange when they are held up to the light. These boots allow the wearer to gain extra maneuverability while moving through hazardous areas. As a free action, the wearer can click her heels together to grant herself a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks made to move through threatened squares or to move through an enemy's space without provoking attacks of opportunity for up to 10 rounds per day. The rounds do not need to be consecutive. Furthermore, anytime the wearer of the boots successfully moves though the space of an enemy without provoking an attack of opportunity, she gains a +1 bonus on attack rolls against that enemy until the end of her turn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 700 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i></p>
+				
+<p id="dryad-sandals" class="stat-block-title">Dryad Sandals</p>
+<p class="stat-block-1"><b>Price</b> 24,000 gp; <b>Aura</b> moderate conjuration and transmutation; <b>CL</b> 9th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">These sandals are woven from grass, lengths of pliant vine, living leaves, and supple bark. In forest terrain, the wearer leaves no tracks or scent and gains a +2 competence bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks. The wearer can move through natural undergrowth without impediment or harm as a druid using woodland stride , and once per day she may step inside a tree and remain there for up to 9 hours, or teleport to a similar tree within range, as <i><a href="/pathfinderRPG/prd/spells/treeStride.html#_tree-stride" >tree stride</a> </i>but allowing only a single teleport.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 12,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a>, <a href="/pathfinderRPG/prd/spells/treeStride.html#_tree-stride" >tree stride</a></i>, creator must be a druid</p>
+				
+				
+<p id="earth-root-boots" class="stat-block-title">Earth Root Boots</p>
+<p class="stat-block-1"><b>Price</b> 8,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block">The longer the wearer of these boots stays in one place&mdash;as long as that place is on solid ground&mdash;the harder it is to move her from that place. The wearer gains a cumulative +1 circumstance bonus to her CMD (maximum of +10) for each round she does not move from her space.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i" >elemental body I</a></i></p>
+
+<p id="feather-step-slippers" class="stat-block-title">Feather Step Slippers</p>
+<p class="stat-block-1"><b>Price</b> 2,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b>  1 lb.</p>
+<p class="stat-block"><span class="stat-block-1-char " xml:lang="en-US">These fine silken slippers allow their wearer to ignore the adverse movement effects of difficult terrain as if subject to the </span><span class="stat-block-1-char italics" xml:lang="en-US">feather step</span><span class="stat-block-1-char " xml:lang="en-US"> spell, including granting the ability to take 5-foot steps in difficult terrain. </span></p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/advanced/spells/featherStep.html#_feather-step" >feather step</a></i> </p>
+				
+<p id="getaway-boots" class="stat-block-title">Getaway Boots</p>
+<p class="stat-block-1"><b>Price</b> 30,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 11th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">These rather nondescript boots can, once per day, be attuned to a location their wearer is standing upon. Once the boots are attuned to a location, once per day as a full-round action, the wearer, along with anything she is wearing or carrying, teleports back to the attuned location as the <i><a href="/pathfinderRPG/prd/advanced/spells/getaway.html#_getaway-" >getaway</a></i> spell, except that no allies are teleported when the boots are activated even if they were in the area when the boots were attuned to their location. Once the boots are attuned to a location, they continue to be attuned to the same location until they are attuned to a new location.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 15,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/advanced/spells/getaway.html#_getaway-" >getaway</a></i> </p>
+				
+				
+				
+<p id="haunted-shoes" class="stat-block-title">Haunted Shoes</p>
+<p class="stat-block-1"><b>Price</b> 6,480 gp; <b>Aura</b> faint conjuration and illusion; <b>CL</b> 3rd; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">Two times per day, the wearer of these shoes can call forth 1d4 spirit servants to aid her. The spirit servants are invisible, mindless, shapeless beings that act as servants summoned by the <i><a href="/pathfinderRPG/prd/spells/unseenServant.html#_unseen-servant" >unseen servant</a></i> spell. The spirits return to the shoes after 3 hours have passed. The wearer can choose to dismiss one or more of the spirit servants early.</p>
+<p class="stat-block">Once per day, the wearer can command the ghostly spirits inside her <i>haunted shoes </i>to emerge and swirl around her, making her difficult to target in combat. The wearer gains concealment (20% miss chance) for 3 minutes. The spirits cannot be harmed, but a <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i> spell ignores the concealment effect. The concealment effect cannot be activated while any of the spirits are currently being used as <i>unseen servants.</i></p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,240 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/blur.html#_blur" >blur</a></i>, <i><a href="/pathfinderRPG/prd/spells/unseenServant.html#_unseen-servant" >unseen servant</a></i></p>
+				
+<p id="horseshoes-of-a-zephyr" class="stat-block-title">Horseshoes of a Zephyr</p>
+<p class="stat-block-1"><b>Price</b> 6,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b>  4 lbs.</p>
+<p class="stat-block">These shining, silvery horseshoes bear designs of swift-moving clouds and anthropomorphized images of the wind. When affixed to a horse, these horseshoes allow the horse to travel without actually touching the ground. The horse must still run above (always around 4 inches above) a roughly horizontal surface. This means that the horse can cross non-solid or unstable surfaces such as water, and that it can move without leaving tracks on any sort of ground. The horse moves at its normal base land speed. All four shoes must be worn by the same animal for the magic to be effective.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/levitate.html#_levitate" >levitate</a></i></p>
+				
+				
+<p id="horseshoes-of-crushing-blows" class="stat-block-title">Horseshoes of Crushing Blows</p>
+<p class="stat-block-1"><b>Price</b> Varies; <b>Aura</b> faint evocation; <b>CL</b> 5th; <b>Weight</b>  4 lbs.</p>
+<p class="stat-block-1"><b>+1 enhancement bonus</b> 4,000 gp; <b>+2 enhancement bonus</b> 16,000 ; <b>+3 enhancement bonus</b> 36,000 gp; <b>+4 enhancement bonus</b> 64,000 ; <b>+5 enhancement bonus</b> 100,000 gp</p>
+<p class="stat-block"><i>Horseshoes of crushing blows</i> grant an enhancement bonus on attack and damage rolls made with hoof attacks; this bonus varies based on the item's price. Alternatively, as described for the <i>amulet of mighty fists,</i> they can grant hooves melee weapon special abilities so long as they can be applied to unarmed attacks. <i>Horseshoes of crushing blows</i> cannot have a modified bonus (enhancement bonus plus special ability bonus equivalents) higher than +5. <i>Horseshoes of crushing blows</i> are crafted as sets of four, with each shoe in the set bearing the same enhancements. All four shoes must be worn by the same animal to be effective.</p>
+<p class="stat-block"><i>Horseshoes of crushing blows</i> may be crafted out of special materials, gaining the usual benefits. For purposes of pricing, they count as a single one-handed weapon weighing 4 pounds (for example, <i>adamantine horseshoes of crushing blows</i> would cost an additional 3,000 gp). The materials needed to make <i>cold iron horseshoes of crushing blows</i> add no extra costs in and of themselves, but enhancing <i>cold iron horseshoes of crushing blows</i> increases the price by the usual 2,000 gp.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>+1 enhancement bonus</b> 2,000 gp; <b>+2 enhancement bonus</b> 8,000 gp</p>; <b>+3 enhancement bonus</b> 18,000 gp; <b>+4 enhancement bonus</b> 32,000 gp; <b>+5 enhancement bonus</b> 50,000 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, creator's caster level must be at least three times the horseshoes' bonus, plus any requirements of the melee weapon special abilities</p>
+				
+<p id="horseshoes-of-glory" class="stat-block-title">Horseshoes of Glory</p>
+<p class="stat-block-1"><b>Price</b> 39,600 gp; <b>Aura</b> moderate abjuration and transmutation; <b>CL</b> 11th; <b>Weight</b>  12 lbs.</p>
+<p class="stat-block">These massive horseshoes sport deadly spikes that jut from their front. Once per day on command, the rider of a mount wearing these shoes may choose to either increase the mount's size by one size increment (maximum Huge), or change its type to magical beast, as <i><a href="/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-iv" >beast shape IV</a></i>. In addition, while the mount is augmented in either of these two ways, it gains DR/5 chaos, evil, good, or law (selected by the rider). These horseshoes are part of a set and require all four to be worn by the same animal to properly function.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 19,800 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i>beastshape IV</i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos" >protection from chaos</a>/evil/good/law</i></p>
+				
+<p id="horseshoes-of-mist" class="stat-block-title">Horseshoes of Mist</p>
+<p class="stat-block-1"><b>Price</b> 27,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b>  12 lbs.</p>
+<p class="stat-block">When a horse is shod with these horseshoes, they give off a puff of mist each time a hoof strikes the earth. On the rider's command, the mount and the rider are both affected as if subject to a <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i> spell. If for some reason the rider and the mount become separated from one another while in <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a>,</i> the effect automatically ends for both. The horseshoes can be used for 10 minutes per day. The duration need not be consecutive, but it must be spent in 1-minute increments.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 13,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i></p>
+				
+<p id="horseshoes-of-speed" class="stat-block-title">Horseshoes of Speed</p>
+<p class="stat-block-1"><b>Price</b> 3,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b> 12 lbs.</p>
+<p class="stat-block">When affixed to an animal's hooves, these iron horseshoes increase the animal's base land speed by 30 feet; this counts as an enhancement bonus. As with other effects that increase speed, jumping distances increase proportionally. All four shoes must be worn by the same animal for the magic to be effective.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 1,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i></p>
+				
+<p id="jaunt-boots" class="stat-block-title">Jaunt Boots</p>
+<p class="stat-block-1"><b>Price</b> 7,200 gp; <b>Aura</b> faint transmutation; <b>CL</b> 3rd; <b>Weight</b>  2 lbs.</p>
+<p class="stat-block"><span class="stat-block-1-char " xml:lang="en-US">These stylish black leather boots are stitched with images of winding roads and trails through peaceful orchards. They can be worn up to mid-thigh, or have their cuffs turned down to make knee-high boots. Three times per day, on command for 1 round when the wearer makes a 5-foot step, he can move up to 15 feet. This movement does not provoke attacks of opportunity.</span></p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,600 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/advanced/spells/jesterSJaunt.html#_jester's-jaunt" >jester's jaunt</a></i> </p>
+				
+<p id="nightmare-boots" class="stat-block-title">Nightmare Boots</p>
+<p class="stat-block-1"><b>Price</b> 8,500 gp; <b>Aura</b> moderate evocation and transmutation; <b>CL</b> 6th; <b>Weight</b>  3 lbs.</p>
+<p class="stat-block">Prized by evil warriors, these boots are made of inky black leather trimmed with a crimson mane of fiendish horsehair. Some bear the hair of actual nightmares along their rims, causing them to occasionally flare and crackle with flames reminiscent of the foul equines. When the wearer runs or charges, smoke issues up from the boots, acting as concealment (20% miss chance) when the wearer provokes attacks of opportunity while making those actions. Secondly, three times per day, as a swift action, the wearer can make the boots smoke, which grants her concealment until the end of her turn. Lastly, once per day, when the wearer hits a creature with a melee attack, she can command the boots to ignite. When the boots ignite, all creatures within a 5-foot radius take 2d6 points of fire damage. A DC 13 Reflex saving throw halves the damage.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 3,750 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/burningHands.html#_burning-hands" >burning hands</a></i>, <i><a href="/pathfinderRPG/prd/spells/pyrotechnics.html#_pyrotechnics" >pyrotechnics</a></i></p>
+				
+<p id="nightmare-horseshoes" class="stat-block-title">Nightmare Horseshoes</p>
+<p class="stat-block-1"><b>Price</b> 9,000 gp; <b>Aura</b> moderate conjuration and transmutation; <b>CL</b> 7th; <b>Weight</b>  12 lbs.</p>
+<p class="stat-block">These horseshoes are made of blackened steel and are typically stamped with infernal symbols or, less subtly, horrific images of terrified and tortured steeds of the darkest hues. They typically give off a slight smell of brimstone, as though they had been crafted in some hellish forge. Once per day on command, the mount's rider may grant it the smoke supernatural ability  for a period of 1 minute. The horseshoes can be used for 10 rounds per day, split up as the mount's rider chooses (minimum 1 round per use). While this power is activated, the mount's eyes, hooves, mane, and tail burst into flame, and its hooves deal an extra 1d4 points of fire damage.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 4,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/burningHands.html#_burning-hands" >burning hands</a></i>, <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i>, <i><a href="/pathfinderRPG/prd/spells/stinkingCloud.html#_stinking-cloud" >stinking cloud</a></i></p>
+				
+				
+<p id="sandals-of-quick-reaction" class="stat-block-title">Sandals of Quick Reaction</p>
+<p class="stat-block-1"><b>Price</b> 4,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 4th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">These supple leather sandals grant a burst of speed during times of duress. When the wearer acts during a surprise round, he can take a standard and a move action during the surprise round. If the wearer already has the ability to take a standard and a move action during the surprise round, he instead gains a +10 circumstance bonus to speed when acting during a surprise round.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/anticipatePeril.html#_anticipate-peril" >anticipate peril</a></i>, <i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i></p>
+				
+				
+				
+<p id="sandals-of-the-lightest-step" class="stat-block-title">Sandals of the Lightest Step</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 7th; <b>Weight</b>  1/2 lb.</p>
+<p class="stat-block">These soft leather sandals have soles that consist of a layer of purple velvet decorated with intricate gold stitching. When slipped onto the feet, they feel as weightless as air. In any round when the wearer has already moved at least 10 feet along the ground or another surface (not counting travel on a mount or vehicle), these boots can be activated as a swift action to give the wearer the ability to  walk on air (as the <i><a href="/pathfinderRPG/prd/spells/airWalk.html#_air-walk" >air walk</a></i> spell) until the end of the round. If the wearer hasn't reached a solid surface by the end of the round, she immediately falls back to the ground, taking any applicable falling damage. These sandals can be used up to 5 times per day, but no more often than once per minute.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/airWalk.html#_air-walk" >air walk</a></i></p>
+
+<p id="shoes-of-lightning-leaping" class="stat-block-title">Shoes of Lightning Leaping</p>
+<p class="stat-block-1"><b>Price</b> 10,500 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 6th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">These short black shoes fit tightly around the wearer's feet and bear designs of leaping arcs of lightning and wild winds. Once per day on command, a creature wearing these boots can transform into lightning and move up to 50 feet in a straight line, re-materializing at the far end of the lightning bolt. Creatures in the path of the lightning take 6d6 points of electricity damage and objects take damage as per the <i><a href="/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a></i> spell. If the lightning strikes an object or barrier and fails to burst through it, the creature wearing the boots appears next to the impacted object and is staggered for 1 round. Movement while in lightning form does not provoke attacks of opportunity.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,250 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat" >expeditious retreat</a></i>, <i><a href="/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a></i></p>
+				
+<p id="shoes-of-the-firewalker" class="stat-block-title">Shoes of the Firewalker</p>
+<p class="stat-block-1"><b>Price</b> 21,000 gp; <b>Aura</b> moderate evocation; <b>CL</b> 6th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These low-cut shoes of polished red leather feature golden eyelets and stitching in a fiery pattern. They grant the wearer fire resistance 10 and allow the wearer to walk atop lava and magma as if subject to the <i><a href="/pathfinderRPG/prd/spells/waterWalk.html#_water-walk" >water walk</a></i> spell.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 10,500 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a>, <a href="/pathfinderRPG/prd/spells/waterWalk.html#_water-walk" >water walk</a></i></p>
+				
+<p id="slippers-of-cloudwalking" class="stat-block-title">Slippers of Cloudwalking</p>
+<p class="stat-block-1"><b>Price</b> 4,400 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 11th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">The wearer of these slippers may walk on air (as the spell <i><a href="/pathfinderRPG/prd/spells/airWalk.html#_air-walk" >air walk</a>) </i>for up to 10 minutes per day, which may be used in 1-minute increments and requires no action to activate. However, she may only walk on air within or on top of natural or magical mist or fog, including fog-like gases such as those created by <i><a href="/pathfinderRPG/prd/spells/acidFog.html#_acid-fog" >acid fog</a>, <a href="/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill" >cloudkill</a>, <a href="/pathfinderRPG/prd/spells/incendiaryCloud.html#_incendiary-cloud" >incendiary cloud</a></i>, or <i><a href="/pathfinderRPG/prd/spells/stinkingCloud.html#_stinking-cloud" >stinking cloud</a></i>. Walking on top of such clouds carries no danger for the wearer, but walking through the cloud has its normal effect.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,200 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/windWalk.html#_wind-walk" >wind walk</a></i></p>
+				
+				
+<p id="slippers-of-spider-climbing" class="stat-block-title">Slippers of Spider Climbing</p>
+<p class="stat-block-1"><b>Price</b> 4,800 gp; <b>Aura</b> faint transmutation; <b>CL</b> 4th; <b>Weight</b> 1/2 lb.</p>
+<p class="stat-block">When worn, a pair of these slippers enables movement on vertical surfaces or even upside down along ceilings, leaving the wearer's hands free. Her climb speed is 20 feet. Severely slippery surfaces&mdash;icy, oiled, or greased surfaces&mdash;make these slippers useless. The slippers can be used for 10 minutes per day, split up as the wearer chooses (minimum 1 minute per use).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 2,400 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i></p>
+				
+<p id="slippers-of-the-triton" class="stat-block-title">Slippers of the Triton</p>
+<p class="stat-block-1"><b>Price</b> 56,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 7th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">These slippers allow the wearer to breathe water. Additionally, if the wearer has no swim speed, she gains a 30 foot swim speed. If the wearer has a swim speed, she gains a +10 foot enhancement bonus to her swim speed.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 28,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/rideTheWaves.html#_ride-the-waves" >ride the waves</a></i></p>
+				
+				
+<p id="tremor-boots" class="stat-block-title">Tremor Boots</p>
+<p class="stat-block-1"><b>Price</b> 10,000 gp; <b>Aura</b> faint divination; <b>CL</b> 5th; <b>Weight</b> 1 lb.</p>
+<p class="stat-block">These brown leather boots have a reinforced toe of steel with grooves along the soles, crafted to help the wearer pick up vibrations from the surrounding environment. These boots grant the wearer tremorsense 20 feet as long as he is standing on solid ground.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 5,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i></p>
+				
+<p id="verdant-boots" class="stat-block-title">Verdant Boots</p>
+<p class="stat-block-1"><b>Price</b> 12,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b>  2 lbs.</p>
+<p class="stat-block">The wearer of these boots can, on command three times per day, cause her current square to sprout a thick canopy of fruit-bearing or otherwise edible plants. These plants count as difficult terrain and grant cover to any Medium or smaller creature within the square. They also provide enough food to sustain two Medium creatures for 1 full day. While the plants can grow on surfaces that would not normally support vegetation such as a wooden floor or cave stone, they cannot sprout on surfaces explicitly hostile to vegetation. The plants are usually of a sort common to the terrain or climate of the area in which they were produced. They disappear after 24 hours or when completely harvested, whichever comes first.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 6,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/plantGrowth.html#_plant-growth" >plant growth</a></i></p>
+				
+<p id="winged-boots" class="stat-block-title">Winged boots</p>
+<p class="stat-block-1"><b>Price</b> 16,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b>  1 lb.</p>
+<p class="stat-block">These boots appear to be ordinary footgear. On command, they sprout wings at the heel and let the wearer fly, without having to maintain concentration, as if affected by a <i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i> spell (including a +4 bonus on <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> skill checks). The wearer can fly three times per day for up to 5 minutes per flight.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> 8,000 gp</p>
+<p class="stat-block">Craft Wondrous Item, <i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i></p>
+	
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Paladins</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Paladins",globalNavPath=[{ href: '/pathfinderRPG/prd/npcCodex/core/index.html', name: 'Core Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="paladins">Paladins</h1>
+
+		
+<p id="callous-rake" class="stat-block-title">Callous Rake <span class="stat-block-cr">CR 1/2</span></p>
+<p class="stat-block-1"><b>XP</b> 200</p>
+<p class="stat-block-1"><b>Human paladin</b> 1</p>
+<p class="stat-block-1">LG Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +0</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 20, touch 11, flat-footed 19 (+7 armor, +1 Dex, +2 shield)</p>
+<p class="stat-block-1"><b>hp</b> 12 (1d10+2)</p>
+<p class="stat-block-1"><b>Fort</b> +3, <b>Ref</b> +1, <b>Will</b> +2</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> longsword +5 (1d8+3/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b> dagger +2 (1d4+3/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> smite evil 1/day (+2 attack and AC, +1 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 1st; concentration +3)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin begins with Dazzling Display, then uses smite evil on the strongest evil opponent. If he is confident he will win the battle, he continues to demoralize opponents.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 17, <b>Dex</b> 12, <b>Con</b> 13, <b>Int</b> 8, <b>Wis</b> 10, <b>Cha</b> 14</p>
+<p class="stat-block-1"><b>Base Atk</b> +1; <b>CMB</b> +4; <b>CMD</b> 15</p>
+<p class="stat-block-1"><b>Feats</b> Dazzling Display, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (longsword)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +3, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +4</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>; <b>Other Gear</b> banded mail, heavy wooden shield, dagger, longsword, locked gauntlet, silver holy symbol, 33 gp</p>
+
+<p>The callous rake is a young paladin exhibiting unpaladinlike behavior. If unchecked, these habits become the first step toward disgrace.</p>
+<h3>Tristram Reis</h3>
+<p>Tall, lean, and exceedingly handsome, Tristram Reis is the vision of a true and noble paladin&mdash;until he opens his mouth. The son of a lesser noble, he has faith in the goddess of valor, but is a bit arrogant and enamored with his own status as a holy warrior.</p>
+
+		
+<p id="honorable-outcast" class="stat-block-title">Honorable Outcast <span class="stat-block-cr">CR 1</span></p>
+<p class="stat-block-1"><b>XP</b> 400</p>
+<p class="stat-block-1"><b>Half-orc paladin</b> 2</p>
+<p class="stat-block-1">LG Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> –1; <b>Senses</b> darkvision 60 ft.; Perception +2</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 16, touch 9, flat-footed 16 (+7 armor, –1 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 23 (2d10+8)</p>
+<p class="stat-block-1"><b>Fort</b> +7, <b>Ref</b> 0, <b>Will</b> +5</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> orc ferocity</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk greataxe +5 (1d12+3/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> shortbow +1 (1d6/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> smite evil 1/day (+1 attack and AC, +2 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 2nd; concentration +3)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin prefers to attack with her bow before entering melee with her greataxe. She uses <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a> unless she fights heavily armored enemies.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 15, <b>Dex</b> 8, <b>Con</b> 16, <b>Int</b> 10, <b>Wis</b> 12, <b>Cha</b> 13</p>
+<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> +4; <b>CMD</b> 13</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +5, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +3, Perception +2, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +6</p>
+<p class="stat-block-1"><b>Languages</b> Common, Orc</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, lay on hands (1d6, 2/day), orc blood, weapon familiarity</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, tanglefoot bags (2); <b>Other  Gear</b> banded mail, masterwork greataxe, shortbow with 20 arrows, wooden holy symbol, 28 gp</p>
+
+<p>Honorable outcasts are far from their homes and often found alone. Some have been questing in the wild for so long that they have lost any semblance of social graces and tact.</p>
+		
+<p id="haughty-avenger" class="stat-block-title">Haughty Avenger <span class="stat-block-cr">CR 2</span></p>
+<p class="stat-block-1"><b>XP</b> 600</p>
+<p class="stat-block-1"><b>Half-elf paladin</b> 3</p>
+<p class="stat-block-1">LG Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> low-light vision; Perception +4</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 18, touch 12, flat-footed 16 (+5 armor, +2 Dex, +1 shield)</p>
+<p class="stat-block-1"><b>hp</b> 21 (3d10)</p>
+<p class="stat-block-1"><b>Fort</b> +5, <b>Ref</b> +5, <b>Will</b> +6; +2 vs. enchantments; <b>Immune</b> disease, fear, sleep</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk rapier +4 (1d6+2/18–20), dagger +3 (1d4+1/19–20) or mwk rapier +6 (1d6+2/18–20)</p>
+<p class="stat-block-1"><b>Ranged</b> dagger +5 (1d4+2/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> smite evil 1/day (+2 attack and AC, +3 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 3rd; concentration +5)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin uses her quick speed and athletic skill to outmaneuver opponents, wearing them down with smite evil.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 15, <b>Dex</b> 15, <b>Con</b> 10, <b>Int</b> 8, <b>Wis</b> 12, <b>Cha</b> 14</p>
+<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +5; <b>CMD</b> 17</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a>), Two-Weapon Defense, <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +7, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +7, Perception +4</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, elf blood, lay on hands (1d6, 3/day), mercy (shaken)</p>
+<p class="stat-block-1"><b>Combat Gear</b> holy water; <b>Other Gear </b><i>+1 chain shirt</i>, dagger, masterwork rapier, 53 gp</p>
+
+<p>Haughty avengers often serve as diplomats and bodyguards.</p>
+<h3>Nyalil Stormstrike</h3>
+<p>Nyalil sees herself as a full elf, not a half-breed. She so thoroughly rejects her human side that she treats humans as lesser creatures&mdash;but can be so charming that humans often love her anyway.</p>
+<p><b>Combat Encounters:</b> Nyalil is often in the company of elven knights, wizards, and priests, who only halfway accept her.</p>
+<p><b>Roleplaying Suggestions:</b> Nyalil is both charming and arrogant, and her words are often a stream of veiled insultsand clever quips, especially when she's dealing with humans.</p>
+
+
+<p id="skirmishing-crusader" class="stat-block-title">Skirmishing Crusader <span class="stat-block-cr">CR 3</span></p>
+<p class="stat-block-1"><b>XP</b> 800</p>
+<p class="stat-block-1"><b>Gnome paladin</b> 4</p>
+<p class="stat-block-1">LG Small humanoid (gnome)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> low-light vision; Perception +5</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 17, touch 12, flat-footed 16 (+4 armor, +1 Dex, +1 shield, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 36 (4d10+10)</p>
+<p class="stat-block-1"><b>Fort</b> +11, <b>Ref</b> +7, <b>Will</b> +8; +2 vs. illusions</p>
+<p class="stat-block-1"><b>Defensive Abilities </b>defensive training (+4 dodge bonus to AC vs. giants); <b>Immune</b> disease, fear</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk longsword +7 (1d6+1/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk longbow +8 (1d6/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and reptilian humanoids, channel positive energy (DC 16, 2d6), smite evil 2/day (+4 attack and AC, +4 damage)</p>
+<p class="stat-block-1"><b>Gnome Spell-Like Abilities </b>(CL 4th; concentration +8)<b></b></p>
+<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights" >dancing lights</a></i>, <i><a href="/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound" >ghost sound</a></i>, <i><a href="/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation" >prestidigitation</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 4th; concentration +8)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 1st; concentration +5)</p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin attempts to stay out of melee, preferring to use cover and attack with her bow.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 12, <b>Dex</b> 12, <b>Con</b> 15, <b>Int</b> 10, <b>Wis</b> 8, <b>Cha</b> 18</p>
+<p class="stat-block-1"><b>Base Atk</b> +4; <b>CMB</b> +4; <b>CMD</b> 15</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (longbow)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +8, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +8, Perception +5, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +6</p>
+<p class="stat-block-1"><b>Languages</b> Common, Gnome, Sylvan</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, lay on hands (2d6, 6/day), mercy (fatigued)</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, holy water (2); <b>Other Gear</b> chain shirt, light wooden shield, masterwork longbow with 20 arrows, masterwork longsword, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, antitoxin, silver holy symbol, 131 gp</p>
+
+<p>A skirmishing crusader often serves as a scout in the army of a noble, or roams the boundaries of civilization, working with rangers to hold the line against evil. She spends her life in the wilds, and as a result can often be awkward and crass.</p>
+
+		
+<p id="hammer-of justice" class="stat-block-title">Hammer of Justice <span class="stat-block-cr">CR 4</span></p>
+<p class="stat-block-1"><b>XP</b> 1,200</p>
+<p class="stat-block-1"><b>Dwarf paladin</b> 5</p>
+<p class="stat-block-1">LG Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> –1; <b>Senses</b> Perception +7</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 19, touch 9, flat-footed 19 (+8 armor, –1 Dex, +2 shield)</p>
+<p class="stat-block-1"><b>hp</b> 62 (5d10+30)</p>
+<p class="stat-block-1"><b>Fort</b> +8, <b>Ref</b> +0, <b>Will</b> +6; +2 vs. poison, spells, and spell-like abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities </b>defensive training (+4 dodge bonus to AC vs. giants); <b>Immune</b> disease, fear</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 warhammer</i> +9 (1d8+3/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk light crossbow +5 (1d8/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids, channel positive energy (DC 12, 3d6), smite evil 2/day (+0 attack and AC, +5 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 5th; concentration +5)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 2nd; concentration +2)</p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin prefers melee. He uses <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a> if easily able to hit opponents, and his divine bond to give his weapon the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a></i> property.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 8, <b>Con</b> 18, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 11</p>
+<p class="stat-block-1"><b>Base Atk</b> +5; <b>CMB</b> +7; <b>CMD</b> 16 (20 vs. bull rush or trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (warhammer)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (weapons) +4, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +5, Perception +7 (+9 to notice unusual stonework), <a href="/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> +1</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (weapon +1, 1/day), lay on hands (2d6, 2/day), mercy (sickened)</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i>; <b>Other Gear</b> half-plate, heavy steel shield, <i>+1 warhammer</i>, masterwork light crossbow with 10 bolts, silver holy symbol, 107 gp</p>
+
+<p>A hammer of justice lives to crush evil with his divinely enhanced weapon, and is beholden to none but his god.</p>
+		
+<p id="holy-archer" class="stat-block-title">Holy Archer <span class="stat-block-cr">CR 5</span></p>
+<p class="stat-block-1"><b>XP</b> 1,600</p>
+<p class="stat-block-1"><b>Elf paladin</b> 6</p>
+<p class="stat-block-1">LG Medium humanoid (elf)</p>
+<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> low-light vision; Perception +9</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 18, touch 14, flat-footed 14 (+4 armor, +4 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 43 (6d10+6)</p>
+<p class="stat-block-1"><b>Fort</b> +7, <b>Ref</b> +8, <b>Will</b> +8; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Immune</b> disease, fear, sleep</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> longsword +6/+1 (1d8/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 longbow</i> +11/+6 (1d8+1/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> channel positive energy (DC 15, 3d6), smite evil 2/day (+2 attack and AC, +6 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 6th; concentration +8)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 3rd; concentration +5)</p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/blessWeapon.html#_bless-weapon" >bless weapon</a></i>, <i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin uses her bow to smite evil before it can reach her. She uses cover and her mobility to maintain an advantage over her opponents.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 18, <b>Con</b> 11, <b>Int</b> 10, <b>Wis</b> 12, <b>Cha</b> 14</p>
+<p class="stat-block-1"><b>Base Atk</b> +6; <b>CMB</b> +6; <b>CMD</b> 20</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, Precise Shot, Rapid Shot</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +2, Perception +9, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +5, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven, Orc</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (weapon +1, 1/day), elven magic, lay on hands (3d6, 5/day), mercies (fatigued, staggered), weapon familiarity</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>+1 demon-bane  arrows</i> (5), <i>+1 undead-bane arrows</i> (5), <i>potion of <a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i>, alchemist's fire (2); <b>Other Gear</b> masterwork chain shirt, <i>+1 longbow</i> with 20 arrows, longsword, silver holy symbol, 184 gp</p>
+
+<p>Few expect honorable archers to be paladins, since they do not fit the typical image. Other paladins sometimes look down on these archers for shunning close combat, but they care only about efficiency in protecting their flocks.</p>
+		
+<p id="dog-rider knight" class="stat-block-title">Dog rider Knight <span class="stat-block-cr">CR 6</span></p>
+<p class="stat-block-1"><b>XP</b> 2,400</p>
+<p class="stat-block-1"><b>Halfling paladin</b> 7</p>
+<p class="stat-block-1">LG Small humanoid (halfling)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> Perception +5</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 23, touch 13, flat-footed 21 (+7 armor, +2 Dex, +3 shield, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 60 (7d10+17)</p>
+<p class="stat-block-1"><b>Fort</b> +10, <b>Ref</b> +8, <b>Will</b> +8; +2 vs. fear</p>
+<p class="stat-block-1"><b>Immune</b> disease, fear</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 15 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 lance</i> +14/+9 (1d6+5/×3) or</p>
+<p class="stat-block-2">mwk longsword +13/+8 (1d6+4/19–20)</p>
+<p class="stat-block-1"><b>Space</b> 5 ft.; <b>Reach</b> 5 ft. (10 ft. with lance)</p>
+<p class="stat-block-1"><b>Special Attacks</b> channel positive energy (DC 16, 4d6), smite evil 3/day (+3 attack and AC, +7 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 7th; concentration +10)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 4th; concentration +7)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/blessWeapon.html#_bless-weapon" >bless weapon</a></i>, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The paladin casts <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin uses Ride-By Attack to charge his foes, and uses smite evil.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, the paladin's statistics are <b>Melee</b><i>+1 lance</i> +12/+7 (1d6+3/×3) or mwk longsword +11/+6 (1d6+2/19–20); <b>Str</b> 14; <b>CMB</b> +8; <b>CMD</b> 20; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +0.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 14, <b>Con</b> 13, <b>Int</b> 10, <b>Wis</b> 8, <b>Cha</b> 16</p>
+<p class="stat-block-1"><b>Base Atk</b> +7; <b>CMB</b> +10; <b>CMD</b> 22</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, Ride-By Attack, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (lance)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +0 (–4 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +2, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +7, Perception +5, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +8 (+10 to stay in the saddle), <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +1</p>
+<p class="stat-block-1"><b>Languages</b> Common, Halfling</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (mount), lay on hands (3d6, 6/day), mercies (dazed, shaken)</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/aid.html#_aid" >aid</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i>; <b>Other Gear</b><i>+1 breastplate</i>, <i>+1 heavy steel <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 lance</i>, masterwork longsword, silver holy symbol, exotic military saddle, 420 gp</p>
+
+		
+<p id="desert-protector" class="stat-block-title">Desert Protector <span class="stat-block-cr">CR 7</span></p>
+<p class="stat-block-1"><b>XP</b> 3,200</p>
+<p class="stat-block-1"><b>Human paladin</b> 8</p>
+<p class="stat-block-1">LG Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> Perception +8</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.), resolve (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 17, touch 10, flat-footed 17 (+7 armor, +1 deflection, –1 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 64 (8d10+16)</p>
+<p class="stat-block-1"><b>Fort</b> +10, <b>Ref</b> +4, <b>Will</b> +11</p>
+<p class="stat-block-1"><b>Immune</b> charm, disease, fear</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 falchion</i> +14/+9 (2d4+7/18–20)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk starknife +8/+3 (1d4+4/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> channel positive energy (DC 16, 4d6), smite evil 3/day (+2 attack and AC, +8 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 8th; concentration +10)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 5th; concentration +7)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a></i>, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin draws attention away from weaker allies, and heals allies who are competent fighters.<b></b></p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 8, <b>Con</b> 12, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 14</p>
+<p class="stat-block-1"><b>Base Atk</b> +8; <b>CMB</b> +12; <b>CMD</b> 22</p>
+<p class="stat-block-1"><b>Feats</b> Cleave, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (falchion)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +10, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +11, Perception +8, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +13, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +4</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (weapon +2, 1/day), lay on hands (4d6, 6/day), mercies (diseased, sickened)</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>; <b>Other Gear</b><i>+1 breastplate</i>, +<i>1 falchion</i>, masterwork starknife, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, silver holy symbol, 426 gp</p>
+
+<p>A desert protector watches over the bodies and souls of a nomadic desert community.</p>
+<h3>Oriana Sallic</h3>
+<p>Oriana is one of the most effective god-speakers in her tribe, leading her people on a constant crusade against horrible desert monsters and cruel raiders.</p>
+		
+		
+<p id="saintly-knight" class="stat-block-title">Saintly Knight <span class="stat-block-cr">CR 8</span></p>
+<p class="stat-block-1"><b>XP</b> 4,800</p>
+<p class="stat-block-1"><b>Half-orc paladin</b> 9</p>
+<p class="stat-block-1">LG Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> –1; <b>Senses</b> darkvision 60 ft.; Perception +9</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.), resolve (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 21, touch 9, flat-footed 21 (+10 armor, –1 Dex, +2 shield)</p>
+<p class="stat-block-1"><b>hp</b> 72 (9d10+18)</p>
+<p class="stat-block-1"><b>Fort</b> +10, <b>Ref</b> +5, <b>Will</b> +12</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> orc ferocity; <b>Immune</b> charm, disease, fear; <b>Resist</b> fire 10</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 lance</i> +14/+9 (1d8+5/×3) or <i>+1 heavy mace</i> +14/+9 (1d8+5)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk heavy crossbow +9 (1d10/19–20)</p>
+<p class="stat-block-1"><b>Space</b> 5 ft.; <b>Reach</b> 5 ft. (10 ft. with lance)</p>
+<p class="stat-block-1"><b>Special Attacks</b> channel positive energy (DC 16, 5d6), smite evil 3/day (+2 attack and AC, +9 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 9th; concentration +11)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 6th; concentration +8)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/zoneOfTruth.html#_zone-of-truth" >zone of truth</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i>, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil" >protection from evil</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The paladin casts <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (fire) unless he expects damage from a different energy type. He applies <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_silversheen" >silversheen</a></i> to his weapon if he expects to fight devils or lycanthropes.</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin uses Ride-By Attack and Spirited Charge, preferring to attack the opposing leader. When on foot, he uses his mace. If facing a powerful foe, he drinks his potions.</p>
+<p class="stat-block-1"><b>Base Statistics </b>Without <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the paladin's statistics are <b>Resist</b> none.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 8, <b>Con</b> 12, <b>Int</b> 10, <b>Wis</b> 13, <b>Cha</b> 15</p>
+<p class="stat-block-1"><b>Base Atk</b> +9; <b>CMB</b> +13; <b>CMD</b> 22</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, Ride-By Attack, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (Perception), Spirited Charge</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +6, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +4, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +1, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +5, Perception +9, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +5 (+7 to stay in the saddle)</p>
+<p class="stat-block-1"><b>Languages</b> Common, Orc</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (mount), lay on hands (4d6, 6/day), mercies (frightened, shaken, staggered), orc blood, weapon familiarity</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_silversheen" >silversheen</a></i>; <b>Other Gear</b><i>+1 full plate</i>, masterwork heavy steel shield, <i>+1 heavy mace</i>, <i>+1 lance</i>, masterwork heavy crossbow with 10 bolts, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, military saddle, 297 gp</p>
+<p>A saintly knight accomplishes great acts with his indomitable spirit and martial prowess.</p>
+<h3>Tregor the Just</h3>
+<p>Tregor believes himself to be a good soul trapped in a body of filth. The half-orc hates his orc heritage, and though he does not know the circumstances of his birth&mdash;he was left on the doorstep of a temple&mdash;he doubts it was honorable. Raised by the temple priests, Tregor is the shining example of the paladin ideal, as perfect in discipline and purity as he is ugly in appearance. He constantly seeks to better himself and the world by performing heroic deeds, but though he is stalwart and true, his worldview can be aggravatingly black and white .</p>
+<p><b>Combat Encounters:</b> Tregor is usually encountered riding his horse, seeking those who need a champion. He questions everyone he meets on the road, and assures them that they have nothing to fear from him&mdash;so long as their spirits are pure. </p>
+<p><b>Roleplaying Suggestions:</b> Tregor tries to be honest, just, and hospitable, but has no tolerance for evil or cruelty, nor much of a sense of humor.</p>
+
+		
+<p id="pious-guard" class="stat-block-title">Pious Guard <span class="stat-block-cr">CR 9</span></p>
+<p class="stat-block-1"><b>XP</b> 6,400</p>
+<p class="stat-block-1"><b>Human paladin</b> 10</p>
+<p class="stat-block-1">LG Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> –1; <b>Senses</b> Perception +10</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.), resolve (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 22, touch 10, flat-footed 22 (+11 armor, +1 deflection, –1 Dex, +1 natural)</p>
+<p class="stat-block-1"><b>hp</b> 84 (10d10+25)</p>
+<p class="stat-block-1"><b>Fort</b> +11, <b>Ref</b> +4, <b>Will</b> +9</p>
+<p class="stat-block-1"><b>Immune</b> charm, disease, fear, poison</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 ranseur</i> +17/+12 (2d4+8/×3) or mwk longsword +16/+11 (1d8+7/19–20)</p>
+<p class="stat-block-1"><b>Space</b> 5 ft.; <b>Reach</b> 5 ft. (10 ft. with ranseur)<b></b></p>
+<p class="stat-block-1"><b>Special Attacks</b> channel positive energy (DC 17, 5d6), smite evil 4/day (+2 attack and AC, +10 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 10th; concentration +12)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 7th; concentration +9)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a>, <a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a></i>, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil" >protection from evil</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The paladin casts <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i> and <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin disarms foes to capture and question them. The exceptions are mindless creatures, evil outsiders, and undead, all of which he destroys on the spot.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, the paladin's statistics are <b>Immune</b> charm, disease, fear;<b> Melee</b><i>+1 ranseur</i> +15/+10 (2d4+5/×3) or mwk longsword +14/+9 (1d8+4/19–20); <b>Str</b> 16; <b>CMB</b> +13 (+17 disarm); <b>CMD</b> 23 (25 vs. disarm).</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 8, <b>Con</b> 14, <b>Int</b> 14, <b>Wis</b> 10, <b>Cha</b> 14</p>
+<p class="stat-block-1"><b>Base Atk</b> +10; <b>CMB</b> +15 (+19 disarm); <b>CMD</b> 25 (27 vs. disarm)</p>
+<p class="stat-block-1"><b>Feats</b> Cleave, <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, Greater Disarm, Improved Disarm, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (ranseur)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +10, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +7, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history, local) +7, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility, religion) +10, Perception +10, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +13, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven, Elven</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (weapon +2, 2/day), lay on hands (5d6, 7/day), mercies (cursed, nauseated, shaken)</p>
+<p class="stat-block-1"><b>Other Gear</b><i>+2 full plate</i>, <i>+1 ranseur</i>, masterwork longsword, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, silver holy symbol, 450 gp</p>
+
+<p>These paladins often serve as guards, or administer justice for judges and merchants who perform good works for the god of cities. Often, entire units of these paladins are formed to protect holy places in large cities.</p>
+<h3>Delphos Hesara</h3>
+<p>Delphos comes from a long line of paladins in service to his home city. Despite his low tolerance for the city's corruption, Delphos would rather frighten, disarm, or subdue foes than kill them. He knows one dead body can create a war between powerful or desperate families, and peace is better served by the judicious use of force. The soldiers under his command either love him or hate him. Delphos tries to be harsh but fair, and believes that strict discipline and an organized system of punishments create better guardians. Such punishments take the form of extra duties or unpleasant posts. All punishments for his guards remain within his order&mdash;public shaming leads to disrespect and undermines their authority.</p>
+<p><b>Combat Encounters:</b> While on duty, Delphos typically commands a contingent of his soldiers, but he can sometimes be found alone on the streets of his city. He roams the neighborhoods around the temple of his god, seeking to keep the areas around the holy place safe. </p>
+<p><b>Roleplaying Suggestions:</b> When Delphos encounters strangers, he treats them with care, but also curiosity. He goes out of his way to avoid confrontation, but when that is not possible, he rarely backs down. He might deputize adventurers for special tasks that soldiers can't do in the open, such as tracking down corrupt merchants dealing in contraband.</p>
+
+		
+<p id="elven-honorblade" class="stat-block-title">Elven Honorblade <span class="stat-block-cr">CR 10</span></p>
+<p class="stat-block-1"><b>XP</b> 9,600</p>
+<p class="stat-block-1"><b>Elf paladin</b> 11</p>
+<p class="stat-block-1">LG Medium humanoid (elf)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> low-light vision; Perception +11</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.), justice (10 ft.), resolve (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 22, touch 15, flat-footed 18 (+6 armor, +1 deflection, +3 Dex, +1 dodge, +1 natural)</p>
+<p class="stat-block-1"><b>hp</b> 76 (11d10+11)</p>
+<p class="stat-block-1"><b>Fort</b> +10, <b>Ref</b> +9, <b>Will</b> +9; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Immune</b> charm, disease, fear, poison, sleep; <b>Resist</b> fire 20</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 elven curve blade</i> +15/+10/+5 (1d10+5/15–20)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk longbow +15/+10/+5 (1d8/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> channel positive energy (DC 17, 6d6), smite evil 4/day (+2 attack and AC, +11 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 11th; concentration +13)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 8th; concentration +10)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a></i>, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i>, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The paladin casts <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i> and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (fire).</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin uses Mobility, Spring Attack, and Whirlwind Attack to engage and destroy multiple opponents at once. He normally uses his divine bond to give his weapon the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a></i> and <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a></i> special abilities, but if his foes are spread out, he gives it <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-speed" >speed</a></i> instead.</p>
+<p class="stat-block-1"><b>Base Statistics </b>Without <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the paladin's statistics are <b>Immune</b> charm, disease, fear, sleep; <b>Resist</b> none.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 17, <b>Dex</b> 16, <b>Con</b> 10, <b>Int</b> 13, <b>Wis</b> 8, <b>Cha</b> 14</p>
+<p class="stat-block-1"><b>Base Atk</b> +11; <b>CMB</b> +14; <b>CMD</b> 29</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (elven curve blade), Mobility, Spring Attack, Whirlwind Attack</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +10, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +3, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +3, Perception +11, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +12, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +4</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven, Sylvan</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (weapon +3, 2/day), elven magic, lay on hands (5d6, 7/day), mercies (poisoned, sickened, staggered), weapon familiarity</p>
+<p class="stat-block-1"><b>Gear</b><i>+2 chain shirt</i>, <i>+1 elven curve blade</i>, masterwork longbow with 20 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, silver holy symbol, 319 gp</p>
+<p>An elven honorblade guards pristine forests and hunts evil beasts that would despoil nature.</p>
+<h3>Jatha Ventoth</h3>
+<p>Jatha champions the benign nature spirits. He spends his time patrolling his beloved forests, chasing unicorns, and conversing with treants. When danger threatens his home, he has the charisma necessary to unite the creatures of the woods into an army of focused chaos.</p>
+<p><b>Combat Encounters:</b> Jatha might attack the PCs if he believes they or foes that pursue them are a threat to his home or the creatures within it. He attempts to use detect evil before attacking.</p>
+<p><b>Roleplaying Suggestions:</b> Jatha engages in mock battles with mischievous sprites, possibly leading the PCs to think he is under attack.</p>
+
+		
+<p id="forge-rider" class="stat-block-title">Forge Rider <span class="stat-block-cr">CR 11</span></p>
+<p class="stat-block-1"><b>XP</b> 12,800</p>
+<p class="stat-block-1"><b>Dwarf paladin</b> 12</p>
+<p class="stat-block-1">LG Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> Perception +7</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.), justice (10 ft.), resolve (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 22, touch 11, flat-footed 22 (+11 armor, +1 deflection)</p>
+<p class="stat-block-1"><b>hp</b> 142 (12d10+72)</p>
+<p class="stat-block-1"><b>Fort</b> +13, <b>Ref</b> +5, <b>Will</b> +11; +2 vs. poison, spells, and spell-like abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities </b>defensive training (+4 dodge bonus to AC vs. giants); <b>Immune</b> charm, disease, fear</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1/+1 dwarven urgrosh</i> +18/+13/+8 (1d8+7/1d6+7/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk light crossbow +13 (1d8/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids, channel positive energy (DC 16, 6d6), smite evil 4/day (+0 attack and AC, +12 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 12th; concentration +12)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin charges into battle, using <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a> and Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>. He prefers fighting on horseback, but if dismounted, he finishes the battle on foot.</p>
+<p class="stat-block-1"><b>Base Statistics </b>Without <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the paladin's statistics are <b>Resist</b> none.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 10, <b>Con</b> 18, <b>Int</b> 8, <b>Wis</b> 15, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +12; <b>CMB</b> +16; <b>CMD</b> 27 (31 vs. bull rush or trip)</p>
+<p class="stat-block-1"><b>Feats</b> Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (dwarven urgrosh)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +2, Perception +7 (+9 to notice unusual stonework), <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +3</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (mount), lay on hands (6d6, 6/day), mercies (dazed, fatigued, poisoned, stunned)</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/displacement.html#_displacement" >displacement</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i> (2); <b>Other Gear</b><i>+2 full plate</i>, <i>+1/+1 dwarven urgrosh</i>, masterwork light crossbow with 10 bolts, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, silver holy symbol, chainmail barding, military saddle, 379 gp</p>
+
+<p>The forge rider defends dwarven communities and meets foes head on.</p>
+<h3>Kelgul Klagan</h3>
+<p>Those who think that a dwarf cannot become an exquisite equestrian should not speak that opinion within earshot of Kelgul Klagan. He is called "the Klager" by his companions and subordinates, a mix of his family name and the sound of his mount's clattering hooves. He commands his soldiers from horseback, and those who know of him joke that he leaves his horse only to drink, sleep, and relieve himself&mdash;and maybe not always then. When they talk about his combat prowess, or when the dwarf himself is near, the joking ends, for he is a juggernaut of metal and divine fury, stern-faced and unforgiving in the face of evil and injustice. Kelgul uses few words, even for a dwarf. When in combat, though, he barks orders and expects them to be followed, even by those not under his direct command.</p>
+<p><b>Combat Encounters:</b> Kelgul is typically encountered with a group of his soldiers. If he has reason to believe the PCs are up to no good, he orders his troops to attack and take the PCs prisoner. If his soldiers are outmatched, he charges forward to rally them and to smite the most powerful enemy.</p>
+<p><b>Roleplaying Suggestions:</b> Kelgul is quiet, and content to stay out of diplomatic endeavors. When he is inclined to speak, he is surprisingly soft-spoken and courteous, though it is hard to tell whether his politeness is sincere or merely what he considers formally appropriate. Those who mistake this for weakness, however, soon learn the folly of their assumptions.</p>
+		
+<p id="dragon-smiter" class="stat-block-title">Dragon Smiter <span class="stat-block-cr">CR 12</span></p>
+<p class="stat-block-1"><b>XP</b> 19,200</p>
+<p class="stat-block-1"><b>Human paladin</b> 13</p>
+<p class="stat-block-1">LG Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +9</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.), justice (10 ft.), resolve (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 23, touch 11, flat-footed 22 (+11 armor, +1 Dex, +1 natural)</p>
+<p class="stat-block-1"><b>hp</b> 115 (13d10+39)</p>
+<p class="stat-block-1"><b>Fort</b> +13, <b>Ref</b> +10, <b>Will</b> +10</p>
+<p class="stat-block-1"><b>Immune</b> charm, disease, fear</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 dragon-bane greatsword</i> +21/+16/+11 (2d6+10/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk heavy crossbow +15 (1d10/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> channel positive energy (DC 17, 7d6), smite evil 5/day (+1 attack and AC, +13 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 13th; concentration +14)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 10th; concentration +11)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i> (2)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The paladin casts <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> against the breath weapon energy type of dragons he expects to fight.</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin casts <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i> to improve his smite and divine grace. He uses Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a> and <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a> to land solid hits on creatures with reach.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 12, <b>Con</b> 14, <b>Int</b> 10, <b>Wis</b> 8, <b>Cha</b> 13</p>
+<p class="stat-block-1"><b>Base Atk</b> +13; <b>CMB</b> +19; <b>CMD</b> 30</p>
+<p class="stat-block-1"><b>Feats</b> Cleave, Great Cleave, Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (greatsword)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +9, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +7, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana, religion) +8, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +1, Perception +9, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +7</p>
+<p class="stat-block-1"><b>Languages</b> Common, Draconic</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (weapon +3, 3/day), lay on hands (6d6, 7/day), mercies (frightened, paralyzed, shaken, staggered)</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>+1 dragon-bane bolts</i> (5), <i>potion of <a href="/pathfinderRPG/prd/spells/displacement.html#_displacement" >displacement</a></i>; <b>Other Gear</b><i>+2 full plate</i>, <i>+1 dragon-bane greatsword</i>, masterwork heavy crossbow with 10 bolts, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, silver holy symbol, 1,044 gp</p>
+
+<p>A dragon smiter is sworn to slay dragons.</p>
+<h3>Telthor Grimblade</h3>
+<p>When she was only 8 years old, Telthor's entire village was consumed by dragon fire, but she was found unharmed in the rubble by priests of the goddess of valor. Seeing her survival as a miracle, the priests adopted her. For years, she suffered from terrible nightmares of fire and leathery wings. Since killing her first dragon, however, she has not had a single nightmare.</p>
+<p><b>Combat Encounters:</b> Telthor prefers to hunt alone, and might attempt to drive off anyone she thinks is unworthy of battling dragons with her. She refuses to let anyone turn her aside when she has a dragon in her path, though she is honorable and grants quarter if asked.</p>
+<p><b>Roleplaying Suggestions:</b> Telthor is quiet and suspicious, believing there are spies everywhere working for the dragons. She is currently seeking to acquire a flying magic item (a carpet of flying in particular) and is willing to team up with PCs who can direct her to where one can be found.</p>
+		
+<p id="rider-of the steppe" class="stat-block-title">Rider of the Steppe <span class="stat-block-cr">CR 13</span></p>
+<p class="stat-block-1"><b>XP</b> 25,600</p>
+<p class="stat-block-1"><b>Half-elf paladin</b> 14</p>
+<p class="stat-block-1">LG Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> low-light vision; Perception +9</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.), faith (10 ft.), justice (10 ft.), resolve (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 23, touch 14, flat-footed 20 (+8 armor, +1 deflection, +3 Dex, +1 natural)</p>
+<p class="stat-block-1"><b>hp</b> 95 (14d10+14)</p>
+<p class="stat-block-1"><b>Fort</b> +13, <b>Ref</b> +13, <b>Will</b> +11; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Immune</b> charm, disease, fear, sleep</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 longsword</i> +17/+12/+7 (1d8+3/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+2 composite longbow</i> +22/+17/+12 (1d8+4/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> channel positive energy (DC 18, 7d6), smite evil 5/day (+1 attack and AC, +14 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 14th; concentration +15)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 11th; concentration +12)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/healMount.html#_heal-mount" >heal mount</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/createWater.html#_create-water" >create water</a></i>, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin tries to remain out of melee range and attack enemies with her bow.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 22, <b>Con</b> 12, <b>Int</b> 10, <b>Wis</b> 8, <b>Cha</b> 13</p>
+<p class="stat-block-1"><b>Base Atk</b> +14; <b>CMB</b> +16; <b>CMD</b> 33</p>
+<p class="stat-block-1"><b>Feats</b> Improved Precise Shot, Manyshot, Mounted Archery, <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, Precise Shot, Rapid Shot, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (Perception)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +5, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography, local) +5, Perception +9, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +10, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +13, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +4</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven, Goblin</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (mount), elf blood, lay on hands (7d6, 8/day), mercies (blinded, cursed, diseased, fatigued),</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>+1 evil outsider-bane arrows</i> (5), <i>+1 magical beast-bane arrows</i> (5), <i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>; <b>Other Gear</b><i>+2 mithral breastplate</i>, <i>+2 composite longbow</i> (+2 Str) with 30 arrows, <i>+1 longsword</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +1</i>, <i>belt of incredible  dexterity +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, 823 gp</p>
+
+<p>A rider of the steppe works individually or in a group to bring safety and law to the wild and arid flatlands, often protecting caravans and traveling dignitaries.</p>
+<h3>Leisair Truemark</h3>
+<p>Leisair traveled to the steppes in search of peace and tranquility. Instead, she found a place where raiders hunted caravans with impunity, and she decided that this place needed her far more than her homeland. She travels the wastes, often latching on to caravans as a scout.</p>
+<p><b>Combat Encounters:</b> An encounter with Leisair typically begins with warning shots. She is not opposed to opening a dialogue with a group, but even then she shouts from far away rather than risk approaching strangers.</p>
+<p><b>Roleplaying Suggestions:</b> To her friends and the people she protects, Leisair is both friendly and kind, but if she has any reason to suspect the intentions of unknown folks, she can be cold and haughty.</p>
+		
+<p id="giant-hunter" class="stat-block-title">Giant Hunter <span class="stat-block-cr">CR 14</span></p>
+<p class="stat-block-1"><b>XP</b> 38,400</p>
+<p class="stat-block-1"><b>Gnome paladin</b> 15</p>
+<p class="stat-block-1">LG Small humanoid (gnome)</p>
+<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> low-light vision; Perception +13</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.), faith (10 ft.), justice (10 ft.), resolve (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 24, touch 13, flat-footed 24 (+10 armor, +2 deflection, +1 natural, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 137 (15d10+50)</p>
+<p class="stat-block-1"><b>Fort</b> +16, <b>Ref</b> +10, <b>Will</b> +15; +2 vs. illusions</p>
+<p class="stat-block-1"><b>Defensive Abilities </b>defensive training (+4 dodge bonus to AC vs. giants); <b>Immune</b> charm, disease, fear</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 15 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock" >shock</a> gnome hooked hammer</i> +22/+17/+12 (1d6+7/×3 plus 1d6 electricity) or mwk gnome hooked hammer +22/+17/+12 (1d4+6/×4)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> crossbow</i> +17 (1d6+1/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and reptilian humanoids, channel positive energy (DC 20, 8d6), smite evil 5/day (+3 attack and AC, +15 damage)</p>
+<p class="stat-block-1"><b>Gnome Spell-Like Abilities </b>(CL 15th; concentration +18)<b></b></p>
+<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights" >dancing lights</a></i>, <i><a href="/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound" >ghost sound</a></i>, <i><a href="/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation" >prestidigitation</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 15th; concentration +18)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 12th; concentration +15)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/holySword.html#_holy-sword" >holy sword</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i>, <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i> (2)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/shieldOther.html#_shield-other" >shield other</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a></i>, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin uses divine bond to give her weapon a mix of the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-defending" >defending</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a></i>, and <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a> </i>special abilities.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 10, <b>Con</b> 15, <b>Int</b> 8, <b>Wis</b> 12, <b>Cha</b> 16</p>
+<p class="stat-block-1"><b>Base Atk</b> +15; <b>CMB</b> +18; <b>CMD</b> 30</p>
+<p class="stat-block-1"><b>Feats</b> Bleeding Critical, <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, Extra Lay on Hands, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (gnome hooked hammer)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering, local) +4, Perception +13, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +8</p>
+<p class="stat-block-1"><b>Languages</b> Common, Gnome, Sylvan</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (weapon +4, 3/day), lay on hands (7d6, 12/day), mercies (cursed, diseased, nauseated, sickened, stunned)</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i> (2); <b>Other Gear</b><i>+2 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow" >shadow</a> half-plate</i>, <i>+1 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> crossbow</i> with 20 bolts, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock" >shock</a>/masterwork gnome hooked hammer</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-striding-and-springing" >boots of striding and springing</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +2,</i> 543 gp</p>
+
+<p>This paladin's lifelong mission is to eradicate evil giants.</p>
+<h3>Neln Belgurorn</h3>
+<p>All gnomes have obsessions, but few are as grim as Neln's obsession to see the world rid of evil giants. Her interest in this goal is neither cheerful nor curious; she has simply seen far too many villages destroyed and lives ruined by giant attacks. She sees it as her sworn duty to hunt and kill these evil beings so they cannot murder or enslave anyone else. So single-minded is her quest against giants that other gnomes have joked she must have dwarven blood in her ancestry. Since she respects dwarven tenacity and toughness, she takes this as a compliment.</p>
+<p><b>Combat Encounters:</b> Neln is commonly in the company of dwarves who share her desire to see the destruction of giant strongholds, and neither she nor her allies let anyone stand in their way. She sees those who protect giants as being as culpable as giants themselves&mdash;perhaps even worse, as they should know better.</p>
+<p><b>Roleplaying Suggestions:</b> Often frowning and stoic, Neln is not like other gnomes. Her lust for life and its experiences is dampened by her bloody quest.</p>
+
+		
+<p id="mounted-paragon" class="stat-block-title">Mounted Paragon <span class="stat-block-cr">CR 15</span></p>
+<p class="stat-block-1"><b>XP</b> 51,200</p>
+<p class="stat-block-1"><b>Human paladin</b> 16</p>
+<p class="stat-block-1">LG Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +15</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.), faith (10 ft.), justice (10 ft.), resolve (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 28, touch 12, flat-footed 27 (+11 armor, +1 deflection, +1 Dex, +1 natural, +4 shield)</p>
+<p class="stat-block-1"><b>hp</b> 148 (16d10+56)</p>
+<p class="stat-block-1"><b>Fort</b> +17, <b>Ref</b> +10, <b>Will</b> +13</p>
+<p class="stat-block-1"><b>Immune</b> charm, disease, fear, poison; <b>Resist</b> fire 30</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a> lance</i> +24/+19/+14/+9 (1d8+7/19–20/×3) or</p>
+<p class="stat-block-2"><i>+1 heavy mace</i> +23/+18/+13/+8 (1d8+7)</p>
+<p class="stat-block-1"><b>Space</b> 5 ft.; <b>Reach</b> 5 ft. (10 ft. with lance)</p>
+<p class="stat-block-1"><b>Special Attacks</b> channel positive energy (DC 20, 8d6), smite evil 6/day (+2 attack and AC, +16 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 16th; concentration +18)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 13th; concentration +15)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/holySword.html#_holy-sword" >holy sword</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/healMount.html#_heal-mount" >heal mount</a></i>, <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a>, <a href="/pathfinderRPG/prd/spells/removeParalysis.html#_remove-paralysis" >remove paralysis</a>, <a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i> (2)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The paladin casts <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i> and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (fire).</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin fights from horseback with his lance, positioning himself where he can attack the enemy leader using Spirited Charge. He uses Improved Overrun and Trample to pass and crush creatures in his way. If he is unhorsed and mounting again is dangerous or impractical, he casts <i><a href="/pathfinderRPG/prd/spells/holySword.html#_holy-sword" >holy sword</a></i> on his mace and fights on foot.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i> and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the paladin's statistics are <b>Immune</b> charm, disease, fear; <b>Resist</b> none.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 12, <b>Con</b> 16, <b>Int</b> 10, <b>Wis</b> 8, <b>Cha</b> 14</p>
+<p class="stat-block-1"><b>Base Atk</b> +16; <b>CMB</b> +22 (+24 overrun); <b>CMD</b> 34 (36 vs. overrun)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (lance), Improved Overrun, <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Ride-By Attack, Spirited Charge, Trample, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (lance)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +9, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +6, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +10, Perception +15, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +15 (+17 to stay in the saddle), <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (mount), lay on hands (8d6, 10/day), mercies (fatigued, frightened, paralyzed, shaken, staggered)</p>
+<p class="stat-block-1"><b>Other Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>; <b>Other Gear</b><i>+2 full plate</i>, <i>+2 heavy steel <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 heavy mace</i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a> lance</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-physical-might" >belt of physical might</a> +2</i> (Str, Con), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, full plate barding, military saddle, 3,288 gp</p>
+
+<p>This holy warrior is a skilled rider who dispenses harsh justice at the point of a lance.</p>
+<h3>Velj Thundari</h3>
+<p>Velj Thundari feels at home only when riding a horse, and always seeks to improve his horsemanship. He spends so much time training with his steed that he often has a hard time interacting with people. Unlike his mount, people don't automatically react to his commands (especially since many of these are nonverbal cues),and he often sees their confusion as opposition. Commoners easily frustrate him, which makes him react with sarcasm. He values those people who see his wisdom, however, and is willing to make the ultimate sacrifice to keep them safe.</p>
+<p><b>Combat Encounters:</b> Velj is comfortable fighting alone, leading a charge of mounted knights, or breaking through a wall of enemy defenders to reach their leader. If he grows frustrated with a PC, he might challenge that character to face him a nonlethal duel.</p>
+<p><b>Roleplaying Suggestions:</b>Velj is proud of his accomplishments and his paladin code. He becomes angry if he or his life's path is insulted.</p>
+
+		
+<p id="axe-lord" class="stat-block-title">Axe Lord <span class="stat-block-cr">CR 16</span></p>
+<p class="stat-block-1"><b>XP</b> 76,800</p>
+<p class="stat-block-1"><b>Dwarf paladin</b> 17</p>
+<p class="stat-block-1">LG Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> Perception +12</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.), faith (10 ft.), justice (10 ft.), resolve (10 ft.), righteousness (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 26, touch 11, flat-footed 26 (+10 armor, +2 deflection, –1 Dex, +1 natural, +4 shield)</p>
+<p class="stat-block-1"><b>hp</b> 183 (17d10+85)</p>
+<p class="stat-block-1"><b>Fort</b> +16, <b>Ref</b> +7, <b>Will</b> +15; +2 vs. poison, spells, and spell-like abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities </b>defensive training (+4 dodge bonus to AC vs. giants); <b>DR</b> 5/evil; <b>Immune</b> charm, compulsion, disease, fear, poison</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+3 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock" >shock</a> dwarven waraxe</i> +27/+22/+17/+12 (1d10+9/19–20/×3 plus 1d6 electricity)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_throwing" >throwing</a> axe</i> +17/+12/+7/+2 (1d6+7)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids, channel positive energy (DC 20, 9d6), smite evil 6/day (+2 attack and AC, +17 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 17th; concentration +19)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 14th; concentration +16)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/holySword.html#_holy-sword" >holy sword</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i>, <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/shieldOther.html#_shield-other" >shield other</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a></i>, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil" >protection from evil</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The paladin casts <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i> on himself and <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i> on his waraxe.</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin uses Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a> and Cleave if he has a few targets close together.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i> and <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i>, the paladin's statistics are <b>Immune</b> charm, compulsion, disease, fear; <b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock" >shock</a> dwarven waraxe</i> +25/+20/+15/+10 (1d10+7/19–20/×3 plus 1d6 electricity).</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 8, <b>Con</b> 16, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 14</p>
+<p class="stat-block-1"><b>Base Atk</b> +17; <b>CMB</b> +23; <b>CMD</b> 34 (38 vs. bull rush or trip)</p>
+<p class="stat-block-1"><b>Feats</b> Cleave, Extra Lay on Hands, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (dwarven waraxe), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (dwarven waraxe)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +4, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +7, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +7, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +2, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +5, Perception +12 (+14 to notice unusual stonework), <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +4</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (weapon +5, 4/day), lay on hands (8d6, 12/day), mercies (dazed, deafened, nauseated, paralyzed, shaken)</p>
+<p class="stat-block-1"><b>Other Gear</b><i>+3 banded mail</i>, <i>+2 heavy steel <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock" >shock</a> dwarven waraxe</i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_throwing" >throwing</a> axe</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed" >boots of speed</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma" >headband of alluring charisma</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +2</i>, silver holy symbol, platinum rings for <i><a href="/pathfinderRPG/prd/spells/shieldOther.html#_shield-other" >shield other</a></i> (2, worth 50 gp each), 1,667 gp</p>
+
+<p>Axe lords guard dwarven citadels, hunting foul monsters from the deeps and threats from outside.</p>
+<h3>Edager Graybeard</h3>
+<p>A grim and proud dwarven warrior, Edager has a hard time trusting people not of his race, but saves his true enmity for goblins, giants, orcs, and the foul creatures of the Darklands. </p>
+
+		
+<p id="furious-crusader" class="stat-block-title">Furious Crusader <span class="stat-block-cr">CR 17</span></p>
+<p class="stat-block-1"><b>XP</b> 102,400</p>
+<p class="stat-block-1"><b>Halfling paladin</b> 18</p>
+<p class="stat-block-1">LG Small humanoid (halfling)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +13</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.), faith (10 ft.), justice (10 ft.), resolve (10 ft.), righteousness (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 30, touch 15, flat-footed 29 (+13 armor, +3 deflection, +1 Dex, +2 natural, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 139 (18d10+36)</p>
+<p class="stat-block-1"><b>Fort</b> +18, <b>Ref</b> +12, <b>Will</b> +17; +2 vs. fear</p>
+<p class="stat-block-1"><b>DR</b> 5/evil; <b>Immune</b> charm, compulsion, disease, fear</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+3 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a> longspear</i> +27/+22/+17/+12 (1d6+9/×3 plus 1d6 fire)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 sling</i> +21 (1d3+5)</p>
+<p class="stat-block-1"><b>Space</b> 5 ft.; <b>Reach</b> 5 ft. (10 ft. with longspear)</p>
+<p class="stat-block-1"><b>Special Attacks</b> channel positive energy (DC 22, 9d6), smite evil 6/day (+3 attack and AC, +18 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 18th; concentration +21)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 15th; concentration +18)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/deathWard.html#_death-ward" >death ward</a></i>, <i><a href="/pathfinderRPG/prd/spells/dispelEvil.html#_dispel-evil" >dispel evil</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicCircleAgainstEvil.html#_magic-circle-against-evil" >magic circle against evil</a></i>, <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (2)</p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/blessWeapon.html#_bless-weapon" >bless weapon</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The paladin casts <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i> on his longspear.</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin reserves most of his spells and magic items for helping allies against a common foe. He uses Cleave as often as possible against grouped opponents, and <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a> and Stand Still to control the movement of multiple enemies. He uses his divine bond to give his longspear the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-defending" >defending</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-keen" >keen</a></i>, or <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-speed" >speed</a></i> special ability.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i>, the paladin's statistics are <b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a> longspear</i> +25/+20/+15/+10 (1d6+7/×3 plus 1d6 fire).</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 12, <b>Con</b> 14, <b>Int</b> 8, <b>Wis</b> 12, <b>Cha</b> 16</p>
+<p class="stat-block-1"><b>Base Atk</b> +18; <b>CMB</b> +21; <b>CMD</b> 35</p>
+<p class="stat-block-1"><b>Feats</b> Cleave, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, Greater <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Stand Still, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (longspear)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> –2 (–1 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +4, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +11, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +9, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +4, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +7, Perception +13, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +2</p>
+<p class="stat-block-1"><b>Languages</b> Common, Halfling</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (weapon +5, 4/day), lay on hands (9d6, 12/day), mercies (blinded, cursed, diseased, paralyzed, sickened, stunned)</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a> bullets</i> (10), <i>+1 undead-bane bullets</i> (10),  <i>potions of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i> (2), <i>wand of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (50 charges); <b>Other Gear</b><i>+4 full plate</i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a> longspear</i>, <i>+1 sling</i> with 20 bullets, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-striding-and-springing" >boots of striding and springing</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +3</i>, 8,735 gp</p>
+
+<p>The furious crusader is a compact bundle of holy power with a chip on his shoulder.</p>
+<h3>Hellin Tallhallow</h3>
+<p>Short, stout for a halfling, and powerful, Hellin sees himself as the quintessential paladin&mdash;and does not suffer fools who doubt his prowess or speak condescendingly about his size. Most of the time he is a cheerful defender of everything lawful and good, but he is quick to anger if small folk or innocents are threatened, abused, or mocked.</p>
+<p><b>Combat Encounters:</b> Hellin picks fights with slavers or slave owners, even in lands where slavery is legal or ignored. In his mind, those who turn a blind eye are just as guilty as those who forge the chains.</p>
+<p><b>Roleplaying Suggestions:</b> Hellin may need assistance with freeing or protecting a particularly large band of slaves.</p>
+		
+		
+<p id="mithral-master" class="stat-block-title">Mithral Master <span class="stat-block-cr">CR 18</span></p>
+<p class="stat-block-1"><b>XP</b> 153,600</p>
+<p class="stat-block-1"><b>Half-elf paladin</b> 19</p>
+<p class="stat-block-1">LG Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> low-light vision; Perception +17</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.), faith (10 ft.), justice (10 ft.), resolve (10 ft.), righteousness (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 31, touch 16, flat-footed 29 (+10 armor, +4 deflection, +2 Dex, +2 natural, +3 shield)</p>
+<p class="stat-block-1"><b>hp</b> 185 (19d10+76)</p>
+<p class="stat-block-1"><b>Fort</b> +20, <b>Ref</b> +13, <b>Will</b> +15; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>DR</b> 5/evil; <b>Immune</b> charm, compulsion, disease, fear, poison, sleep; <b>Resist</b> fire 30</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+4 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-axiomatic" >axiomatic</a> longsword</i> +29/+24/+19/+14 (1d8+9/17–20) or</p>
+<p class="stat-block-2"><i>+1 lance</i> +26/+21/+16/+11 (1d8+6/19–20/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> channel positive energy (DC 22, 10d6), smite evil 7/day (+3 attack and AC, +19 damage)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 19th; concentration +22)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 16th; concentration +19)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/deathWard.html#_death-ward" >death ward</a></i>, <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i>, <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i>, <i>remove blindness</i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a>, <a href="/pathfinderRPG/prd/spells/createWater.html#_create-water" >create water</a></i>, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The paladin casts <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i> and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (fire) on himself and <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i> on his longsword.</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin fights on horseback or on foot as the situation warrants. He casts <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i> to enhance his smite evil attacks, but otherwise relies on standard melee tactics and healing himself with lay on hands.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> the paladin's statistics are <b>Immune</b> charm, compulsion, disease, fear, sleep; <b>Resist</b> none; <b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-axiomatic" >axiomatic</a> longsword</i> +26/+21/+16/+11 (1d8+6/17–20).</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 14, <b>Con</b> 14, <b>Int</b> 10, <b>Wis</b> 8, <b>Cha</b> 16</p>
+<p class="stat-block-1"><b>Base Atk</b> +19; <b>CMB</b> +24; <b>CMD</b> 40</p>
+<p class="stat-block-1"><b>Feats</b> Extra Lay on Hands, <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (lance, longsword), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (Perception), <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (longsword, lance)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +11, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) +8, Perception +17, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +10 (+12 to stay in the saddle)</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (weapon +5, 4/day), elf blood, lay on hands (9d6, 14/day), mercies (blinded, dazed, diseased, fatigued, paralyzed, shaken)</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>; <b>Other Gear</b><i>+4 mithral chainmail</i>, <i>+1 heavy steel <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-axiomatic" >axiomatic</a> longsword</i>, <i>+1 lance</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-physical-might" >belt of physical might</a> +2</i> (Str, Con), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_horseshoes-of-speed" >horseshoes of speed</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_slippers-of-spider-climbing" >slippers of spider climbing</a></i>, combat-trained heavy horse, military saddle,  holy symbol, 2,010 gp</p>
+
+<p>The mithral master is a gleaming symbol of honor.</p>
+<h3>Kallisi Kul</h3>
+<p>Kallisi Kul is a symbol of justice and an object for adoration in a city ruled by a corrupt oligarchy.</p>
+
+		
+<p id="demon-hunter" class="stat-block-title">Demon Hunter <span class="stat-block-cr">CR 19</span></p>
+<p class="stat-block-1"><b>XP</b> 204,800</p>
+<p class="stat-block-1"><b>Human paladin</b> 20</p>
+<p class="stat-block-1">LG Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> darkvision 60 ft.; Perception +19</p>
+<p class="stat-block-1"><b>Aura</b> courage (10 ft.), faith (10 ft.), justice (10 ft.), resolve (10 ft.), righteousness (10 ft.)</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 30, touch 14, flat-footed 30 (+14 armor, +4 deflection, +2 natural)</p>
+<p class="stat-block-1"><b>hp</b> 214 (20d10+100)</p>
+<p class="stat-block-1"><b>Fort</b> +23, <b>Ref</b> +14, <b>Will</b> +19</p>
+<p class="stat-block-1"><b>DR</b> 10/evil; <b>Immune</b> charm, compulsion, disease, fear, poison; <b>Resist</b> electricity 30, fire 30</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+4 cold iron evil outsider-bane greatsword</i> +32/+27/+22/+17 (2d6+14/17–20)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 shortbow</i> +21/+16/+11/+6 (1d6+1/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> channel positive energy (DC 23, 60 points), smite evil 7/day (+3 attack and AC, +20 damage, banish evil outsiders)</p>
+<p class="stat-block-1"><b>Paladin Spell-Like Abilities</b> (CL 20th; concentration +23)</p>
+<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil" >detect evil</a></i></p>
+<p class="stat-block-1"><b>Paladin Spells Prepared</b> (CL 17th; concentration +20)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment" >break enchantment</a></i>, <i><a href="/pathfinderRPG/prd/spells/deathWard.html#_death-ward" >death ward</a></i>, <i><a href="/pathfinderRPG/prd/spells/dispelEvil.html#_dispel-evil" >dispel evil</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i>, <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor" >eagle's splendor</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (2)</p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i> (3), <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i> (2)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The paladin casts <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i> and <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (electricity and fire) on herself, and <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i> on her greatsword.</p>
+<p class="stat-block-1"><b>During Combat</b> The paladin targets the most powerful creature present or an obviously demonic target. She uses her divine bond to add the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-brilliant-energy" >brilliant energy</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-keen" >keen</a></i>, and <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-speed" >speed</a></i> special abilities to her greatsword as appropriate, and uses mercies to counteract any negative conditions or afflictions she gains.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater" >greater magic weapon</a></i>, and <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, the paladin's statistics are <b>Immune</b> charm, compulsion, disease, fear; <b>Resist</b> none; <b>Melee</b><i>+1 cold iron evil outsider-bane greatsword</i> +29/+24/+19/+14 (2d6+11/17–20).</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 24, <b>Dex</b> 10, <b>Con</b> 17, <b>Int</b> 12, <b>Wis</b> 8, <b>Cha</b> 16</p>
+<p class="stat-block-1"><b>Base Atk</b> +20; <b>CMB</b> +27; <b>CMD</b> 41</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, Extra Lay on Hands, <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (greatsword), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Stunning Critical, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (greatsword)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +7, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +11, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +7, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +13, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +21, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +3, Perception +19, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +2, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +7</p>
+<p class="stat-block-1"><b>Languages </b>Abyssal, Celestial, Common, Infernal</p>
+<p class="stat-block-1"><b>SQ</b> aura, code of conduct, divine bond (weapon +6, 4/day), holy champion, lay on hands (60 points, 15/day), mercies (dazed, nauseated, poisoned, sickened, staggered, stunned)</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>+1 evil outsider-bane arrows</i> (5), <i>+1 evil outsider-bane <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a> arrows</i> (5),<i> +1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a> arrows</i> (5),<i> potions of <a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i> (2); <b>Other  Gear</b><i>+5 full plate</i>, <i>+1 cold iron evil outsider-bane greatsword</i>, <i>+1  shortbow</i> with 20 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-physical-might" >belt of physical might</a> +4</i> (Str, Con), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-striding-and-springing" >boots of striding and springing</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +3</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_goggles-of-night" >goggles of night</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_phylactery-of-faithfulness" >phylactery of faithfulness</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +4</i>, 4,760 gp</p>
+
+<p>The demon hunter has sworn to battle the hordes of the Abyss. Though the demons constantly tempt her and try to lead her from her path, she remains resolute&mdash;though somewhat paranoid and difficult to befriend because of the number of allies she's seen slain.</p>
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

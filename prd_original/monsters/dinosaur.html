@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Dinosaur</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Dinosaur",globalNavPath=[{ href: '/pathfinderRPG/prd/monsters/monsterIndex.html', name: 'Monster Index' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body"><div>
+				<h1 id="dinosaur-ankylosaurus">Dinosaur, Ankylosaurus</h1>
+			
+				<p class="flavor-text"><i>Thick bony plates armor the domelike back of this quadrupedal dinosaur, its powerfully muscled tail ending in a bony club.</i></p>
+			
+				<p class="stat-block-title"><b>Ankylosaurus <span class=stat-block-cr>CR 6</span></b></p>
+				<p class="stat-block-1"><b>XP 2,400</b></p>
+				<p class="stat-block-1">N Huge <a href="creatureTypes.html#_animal" >animal</a></p>
+				<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> low-light vision, <a href="universalMonsterRules.html#_scent" >scent</a>; <a href="../skills/perception.html#_perception" >Perception</a> +14 </p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 22, touch 8, flat-footed 22 (+14 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 75 (10d8+30)</p>
+				<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +7, <b>Will</b> +4</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> tail +14 (3d6+12 plus stun)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 27, <b>Dex</b> 10, <b>Con</b> 17, <b>Int</b> 2, <b>Wis</b> 13, <b>Cha</b> 8</p>
+				<p class="stat-block-1"><b>Base Atk</b> +7; <b>CMB</b> +17; <b>CMD</b> 27 (31 vs. trip)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="../feats.html#_improved-overrun" >Improved Overrun</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="../feats.html#_weapon-focus" >Weapon Focus</a> (tail)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/perception.html#_perception" >Perception</a> +14</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> warm forests and plains</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or herd (3&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Stun (Ex)</b> The ankylosaurus's tail can deliver a powerful, stunning blow. A creature struck by this attack must make a DC 23 save or be dazed for 1 round. If the strike is a critical hit and the target fails its save, it is instead stunned for 1d4 rounds. The save DC is Strength-based.</p>
+				<p>The ankylosaurus is a powerful, squat dinosaur more than capable of defending itself against enemies. Its back is heavily armored with thick bony plates and spikes. A solid blow from an ankylosaurus's tail can leave most creatures stunned long enough for the armored dinosaur to make good an escape, although once confronted, most ankylosauruses are too ill-tempered and stubborn to flee. Instead, they stand their ground and use their tails to great effect in battle. An ankylosaurus is 30 feet long and weighs 6,000 pounds.</p>
+				<h2>Ankylosaurus Companions</h2>
+				<p><b>Starting Statistics</b>: <b>Size</b> Medium; <b>Speed</b> 30 ft.; <b>AC</b> +9 natural armor; <b>Attack</b> tail (1d6); <b>Ability Scores</b> Str 10, Dex 14, Con 9, Int 2, Wis 12, Cha 8; <b>Special Qualities</b> low-light vision, scent.</p>
+				<p><b>7th-Level Advancement</b>: <b>Size</b> Large; <b>AC</b> +2 natural armor; <b>Attack</b> tail (2d6); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Qualities</b> stun.</p>
+			
+				<h1 id="dinosaur-brachiosaurus">Dinosaur, Brachiosaurus</h1>
+			
+				<p class="flavor-text"><i>A long tail counterbalances this reptile's equally long neck, at the end of which a relatively small head pulls food from the treetop.</i></p>
+			
+				<p class="stat-block-title"><b>Brachiosaurus <span class=stat-block-cr>CR 10</span></b></p>
+				<p class="stat-block-1"><b>XP 9,600</b></p>
+				<p class="stat-block-1">N Gargantuan <a href="creatureTypes.html#_animal" >animal</a> </p>
+				<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> low-light vision, <a href="universalMonsterRules.html#_scent" >scent</a>; <a href="../skills/perception.html#_perception" >Perception</a> +27</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 18, touch 6, flat-footed 18 (+12 natural, &ndash;4 size)</p>
+				<p class="stat-block-1"><b>hp</b> 171 (18d8+90)</p>
+				<p class="stat-block-1"><b>Fort</b> +18, <b>Ref</b> +11, <b>Will</b> +9</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> tail +23 (4d6+19) </p>
+				<p class="stat-block-1"><b>Space</b> 20 ft.; <b>Reach</b> 20 ft.</p>
+				<p class="stat-block-1"><b>Special Attack</b> <a href="universalMonsterRules.html#_trample" >trample</a> (2d6+19, DC 32)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 37, <b>Dex</b> 10, <b>Con</b> 21, <b>Int</b> 2, <b>Wis</b> 13, <b>Cha</b> 10</p>
+				<p class="stat-block-1"><b>Base Atk</b> +13; <b>CMB</b> +30; <b>CMD</b> 40 (44 vs. trip)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_cleave" >Cleave</a>, <a href="../feats.html#_great-cleave" >Great Cleave</a>, <a href="../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../feats.html#_greater-overrun" >Greater Overrun</a>, <a href="../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/perception.html#_perception" >Perception</a>), <a href="../feats.html#_weapon-focus" >Weapon Focus</a> (tail)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/perception.html#_perception" >Perception</a> +28</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> warm forests or plains</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or herd (3&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p>A brachiosaurus is 80 feet long and weighs 32 tons.</p>
+				<h2>Brachiosaurus Companions</h2>
+				<p><b>Starting Statistics</b>: <b>Size</b> Medium; <b>Speed</b> 30 ft.; <b>AC</b> +3 natural armor; <b>Attack</b> tail (2d4); <b>Ability Scores</b> Str 13, Dex 14, Con 11, Int 2, Wis 13, Cha 10; <b>Special Qualities</b> low-light vision, scent.</p>
+				<p><b>7th-Level Adv.</b>: <b>Size</b> Large; <b>AC</b> +2 natural armor; <b>Attack</b> tail (2d6); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Qualities</b> trample (1d8).</p>
+			
+				<h1 id="dinosaur-deinonychus">Dinosaur, Deinonychus</h1>
+			
+				<p class="flavor-text"><i>This brightly colored dinosaur exudes a dangerous ferocity. Each foot is armed with a large, sickle-shaped claw.</i></p>
+			
+				<p class="stat-block-title"><b>Deinonychus <span class=stat-block-cr>CR 3</span></b></p>
+				<p class="stat-block-1"><b>XP 800</b></p>
+				<p class="stat-block-1">N Medium <a href="creatureTypes.html#_animal" >animal</a> </p>
+				<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> low-light vision, <a href="universalMonsterRules.html#_scent" >scent</a>; <a href="../skills/perception.html#_perception" >Perception</a> +14</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 15, touch 12, flat-footed 13 (+2 Dex, +3 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 34 (4d8+16)</p>
+				<p class="stat-block-1"><b>Fort</b> +8, <b>Ref</b> +6, <b>Will</b> +2</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 60 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 2 talons +5 (1d8+2),bite +5 (1d6+2), foreclaws +0 (1d4+1) </p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="universalMonsterRules.html#_pounce" >pounce</a></p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 15, <b>Dex</b> 15, <b>Con</b> 19, <b>Int</b> 2, <b>Wis</b> 12, <b>Cha</b> 14</p>
+				<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +5; <b>CMD</b> 17</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_run" >Run</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +10 (+22 jump), <a href="../skills/perception.html#_perception" >Perception</a> +14, <a href="../skills/stealth.html#_stealth" >Stealth</a> +15; <b>Racial Modifiers</b> +8 <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a>, +8 <a href="../skills/perception.html#_perception" >Perception</a>, +8 <a href="../skills/stealth.html#_stealth" >Stealth</a></p>
+				<p class="stat-block-breaker"><b>Ecology </b></p>
+				<p class="stat-block-1"><b>Environment</b> warm forests</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or pack (3&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p>As swift and agile as it is deadly, the deinonychus is a pack hunter, running with several of its kind to take down prey and rip it apart with their gutting talons.</p>
+				<p>You can apply the young simple template to create statistics for smaller, more agile velociraptors. Conversely, you can either increase the deinonychus to Large size and its Hit Dice to 8 or simply apply the giant and advanced simple templates to create a formidable megaraptor.</p>
+				
+			
+				<h1 id="dinosaur-elasmosaurus">Dinosaur, Elasmosaurus</h1>
+			
+				<p class="flavor-text"><i>Long-necked and long-tailed, this large, predatory reptile glides through the water on four powerful flippers.</i></p>
+			
+				<p class="stat-block-title"><b>Elasmosaurus <span class=stat-block-cr>CR 7</span></b></p>
+				<p class="stat-block-1"><b>XP 3,200</b></p>
+				<p class="stat-block-1">N Huge <a href="creatureTypes.html#_animal" >animal</a> </p>
+				<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> low-light vision, <a href="universalMonsterRules.html#_scent" >scent</a>; <a href="../skills/perception.html#_perception" >Perception</a> +14</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 20, touch 11, flat-footed 17 (+2 Dex, +1 dodge, +9 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 105 (10d8+60)</p>
+				<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +9, <b>Will</b> +6</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 20 ft., swim 50 ft. </p>
+				<p class="stat-block-1"><b>Melee</b> bite +13 (2d8+12) </p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 20 ft.</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 26, <b>Dex</b> 15, <b>Con</b> 20, <b>Int</b> 2, <b>Wis</b> 13, <b>Cha</b> 9</p>
+				<p class="stat-block-1"><b>Base Atk</b> +7; <b>CMB</b> +17; <b>CMD</b> 30 (34 vs. trip)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_mobility" >Mobility</a>, <a href="../feats.html#_toughness" >Toughness</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/perception.html#_perception" >Perception</a> +14, <a href="../skills/swim.html#_swim" >Swim</a> +16</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> warm aquatic</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or school (3&ndash;6)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p>The sleek elasmosaurus is a long-necked, aquatic reptile. Although not technically a dinosaur, they and their kind are often found hunting in oceans and lakes in areas where dinosaurs are more common. You can create statistics for smaller, similar aquatic reptiles (such as the pleisosaurus) by applying the young simple template to the statistics presented above. An elasmosaurus is 45 feet long and weighs 4,000 pounds.</p>
+				<h2>Elasmosaurus Companions</h2>
+				<p><b>Starting Statistics</b>: <b>Size</b> Medium; <b>Speed</b> 20 ft., swim 50 ft.; <b>AC</b> +2 natural armor; <b>Attack</b> bite (1d8); <b>Ability Scores</b> Str 10, Dex 18, Con 12, Int 2, Wis 13, Cha 9; <b>Special Qualities</b> low-light vision, scent.</p>
+				<p><b>4th-Level Advancement</b>: <b>Size</b> Large; <b>AC</b> +3 natural armor; <b>Attack</b> bite (2d6); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4.</p>
+			
+				<h1 id="dinosaur-pteranodon">Dinosaur, Pteranodon</h1>
+			
+				<p class="flavor-text"><i>This flying reptile has two huge wings and a distinctive backward-sweeping crest decorating its head.</i></p>
+			
+				<p class="stat-block-title"><b>Pteranodon <span class=stat-block-cr>CR 3</span></b></p>
+				<p class="stat-block-1"><b>XP 800</b></p>
+				<p class="stat-block-1">N Large <a href="creatureTypes.html#_animal" >animal</a> </p>
+				<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> low-light vision, <a href="universalMonsterRules.html#_scent" >scent</a>; <a href="../skills/perception.html#_perception" >Perception</a> +11 </p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 16, touch 14, flat-footed 11 (+4 Dex, +1 dodge, +2 natural, &ndash;1 size)</p>
+				<p class="stat-block-1"><b>hp</b> 32 (5d8+10)</p>
+				<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +8, <b>Will</b> +3</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 10 ft., fly 50 ft. (clumsy) </p>
+				<p class="stat-block-1"><b>Melee</b> bite +5 (2d6+4) </p>
+				<p class="stat-block-1"><b>Space</b> 10 ft.; <b>Reach</b> 10 ft.</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 19, <b>Con</b> 15, <b>Int</b> 2, <b>Wis</b> 15, <b>Cha</b> 12</p>
+				<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +7; <b>CMD</b> 21</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/perception.html#_perception" >Perception</a>)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/fly.html#_fly" >Fly</a> &ndash;1, <a href="../skills/perception.html#_perception" >Perception</a> +11</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> warm coastline</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or flock (3&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p>The pteranodon is not itself a dinosaur but rather a large flying reptile that is often found in areas dinosaurs are common. Its flight lacks grace, so it lands on the ground to fight foes it can't carry away.</p>
+				<p>A pteranodon has a wingspan of 30 feet but only weighs 40 pounds.</p>
+				<h2>Pteranodon Companions</h2>
+				<p><b>Starting Statistics</b>: <b>Size</b> Medium; <b>Speed</b> 10 ft., fly 50 ft. (clumsy); <b>AC</b> +0 natural armor; <b>Attack</b> bite (1d8); <b>Ability Scores</b> Str 8, Dex 21, Con 10, Int 2, Wis 14, Cha 12; <b>Special Qualities</b> low-light vision, scent.</p>
+				<p><b>7th-Level Advancement</b>: <b>Size</b> Large; <b>AC</b> +2 natural armor; <b>Attack</b> bite (2d6); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4.</p>
+			
+				<h1 id="dinosaur-stegosaurus">Dinosaur, Stegosaurus</h1>
+			
+				<p class="flavor-text"><i>This huge dinosaur has a small head, twin rows of sharp dorsal plates, and a muscular tail terminating in a set of bony spikes.</i></p>
+			
+				<p class="stat-block-title"><b>Stegosaurus <span class=stat-block-cr>CR 7</span></b></p>
+				<p class="stat-block-1"><b>XP 3,200</b></p>
+				<p class="stat-block-1">N Huge <a href="creatureTypes.html#_animal" >animal</a> </p>
+				<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> low-light vision, <a href="universalMonsterRules.html#_scent" >scent</a>; <a href="../skills/perception.html#_perception" >Perception</a> +16 </p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 22, touch 10, flat-footed 20 (+2 Dex, +12 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 90 (12d8+36)</p>
+				<p class="stat-block-1"><b>Fort</b> +13, <b>Ref</b> +10, <b>Will</b> +5</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> tail +16 (4d6+12 plus <a href="universalMonsterRules.html#_trip" >trip</a>) </p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 27, <b>Dex</b> 14, <b>Con</b> 17, <b>Int</b> 2, <b>Wis</b> 13, <b>Cha</b> 10</p>
+				<p class="stat-block-1"><b>Base Atk</b> +9; <b>CMB</b> +19; <b>CMD</b> 31 (35 vs. trip)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_cleave" >Cleave</a>, <a href="../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_improved-overrun" >Improved Overrun</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="../feats.html#_weapon-focus" >Weapon Focus</a> (tail)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/perception.html#_perception" >Perception</a> +16</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> warm plains</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or herd (3&ndash;12)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p> The stegosaurus is one of the most distinctive-looking dinosaurs&mdash;its twin rows of dorsal plates and spiked tail are enough to give most predators second thoughts before attacking. It is 30 feet long, 14 feet tall, and weighs 5,000 pounds.</p>
+				<h2>Stegosaurus Companions</h2>
+				<p><b>Starting Stats</b>: <b>Size</b> Med.; <b>Speed</b> 30 ft.; <b>AC</b> +6 natural armor; <b>Attack</b> tail (2d6); <b>Ability Scores</b> Str 10, Dex 18, Con 10, Int 2, Wis 12, Cha 10; <b>Special Qualities</b> low-light vision, scent.</p>
+				<p><b>7th-Level Adv</b>: <b>Size</b> Large; <b>AC</b> +3 natural armor; <b>Attack</b> tail (2d8 plus trip); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4.</p>
+				<h1 id="dinosaur-triceratops">Dinosaur, Triceratops</h1>
+			
+				<p class="flavor-text"><i>This beast's armored head has three sharp horns decorating its face and a large round crest angling back over its neck from its skull.</i></p>
+			
+				<p class="stat-block-title"><b>Triceratops <span class=stat-block-cr>CR 8</span></b></p>
+				<p class="stat-block-xp"><b>XP 4,800</b></p>
+				<p class="stat-block-1">N Huge <a href="creatureTypes.html#_animal" >animal</a> </p>
+				<p class="stat-block-1"><b>Init</b> &ndash;1; <b>Senses</b> low-light vision, <a href="universalMonsterRules.html#_scent" >scent</a>; <a href="../skills/perception.html#_perception" >Perception</a> +21 </p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 21, touch 7, flat-footed 21 (&ndash;1 Dex, +14 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 119 (14d8+56)</p>
+				<p class="stat-block-1"><b>Fort</b> +15, <b>Ref</b> +8, <b>Will</b> +5</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> gore +17 (2d10+12) </p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="universalMonsterRules.html#_powerful-charge" >powerful charge</a> (gore, 4d10+16), <a href="universalMonsterRules.html#_trample" >trample</a> (1d8+12, DC 25)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 26, <b>Dex</b> 9, <b>Con</b> 19, <b>Int</b> 2, <b>Wis</b> 12, <b>Cha</b> 7</p>
+				<p class="stat-block-1"><b>Base Atk</b> +10; <b>CMB</b> +20; <b>CMD</b> 29 (33 vs. trip)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="../feats.html#_improved-critical" >Improved Critical</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="../feats.html#_run" >Run</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/perception.html#_perception" >Perception</a>), <a href="../feats.html#_weapon-focus" >Weapon Focus</a> (gore)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/perception.html#_perception" >Perception</a> +24 </p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> warm plains</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or herd (5&ndash;8)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p>The triceratops is a stubborn and short-tempered herbivore.</p>
+				<p>A typical triceratops is 30 feet long and weighs 20,000 pounds.</p>
+				<h2>Triceratops Companions</h2>
+				<p><b>Starting Statistics</b>: <b>Size</b> Medium; <b>Speed </b>30 ft.; <b>AC</b> +6 natural armor; <b>Attack</b> gore (1d8); <b>Ability Scores</b> Str 10, Dex 13, Con 11, Int 2, Wis 12, Cha 7.</p>
+				<p><b>7th-Level Advancement</b>: <b>Size</b> Large, <b>AC</b> +3 natural armor; <b>Attack</b> gore (2d6); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Qualities</b> powerful charge.</p>
+			
+				<h1 id="dinosaur-tyrannosaurus">Dinosaur, Tyrannosaurus</h1>
+			
+				<p class="flavor-text"><i>This bipedal dinosaur's front arms seem small compared to the rest of its bulk, but its enormous head is all teeth.</i></p>
+			
+				<p class="stat-block-title"><b>Tyrannosaurus <span class=stat-block-cr>CR 9</span></b></p>
+				<p class="stat-block-xp"><b>XP 6,400</b></p>
+				<p class="stat-block-1">N Gargantuan <a href="creatureTypes.html#_animal" >animal</a> </p>
+				<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> low-light vision, <a href="universalMonsterRules.html#_scent" >scent</a>; <a href="../skills/perception.html#_perception" >Perception</a> +37</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 21, touch 7, flat-footed 20 (+1 Dex, +14 natural, &ndash;4 size)</p>
+				<p class="stat-block-1"><b>hp</b> 153 (18d8+72)</p>
+				<p class="stat-block-1"><b>Fort</b> +15, <b>Ref</b> +12, <b>Will</b> +10</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> bite +20 (4d6+22/19&ndash;20 plus <a href="universalMonsterRules.html#_grab" >grab</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 20 ft.; <b>Reach</b> 20 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="universalMonsterRules.html#_swallow-whole" >swallow whole</a> (2d8+11, AC 17, hp 15)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 32, <b>Dex</b> 13, <b>Con</b> 19, <b>Int</b> 2, <b>Wis</b> 15, <b>Cha</b> 10</p>
+				<p class="stat-block-1"><b>Base Atk</b> +13; <b>CMB</b> +28 (+32 grapple); <b>CMD</b> 39</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../feats.html#_bleeding-critical" >Bleeding Critical</a>, <a href="../feats.html#_critical-focus" >Critical Focus</a>, <a href="../feats.html#_diehard" >Diehard</a>, <a href="../feats.html#_endurance" >Endurance</a>, <a href="../feats.html#_improved-critical" >Improved Critical</a> (bite), <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_run" >Run</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/perception.html#_perception" >Perception</a>)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../skills/perception.html#_perception" >Perception</a> +37; <b>Racial Modifiers</b> +8 <a href="../skills/perception.html#_perception" >Perception</a></p>
+				<p class="stat-block-1"><b>SQ</b> powerful bite</p>
+				<p class="stat-block-breaker"><b>Ecology</b></p>
+				<p class="stat-block-1"><b>Environment</b> warm forest and plains</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or pack (3&ndash;6)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker"><b>Special Abilities</b></p>
+				<p class="stat-block-1"><b>Powerful Bite (Ex)</b> A tyrannosaurus applies twice its Strength modifier to bite damage.</p>
+				<p>The tyrannosaurus is an apex predator that measures 40 feet long and weighs 14,000 pounds.</p>
+				<h2>Tyrannosaurus Companions</h2>
+				<p><b>Starting Statistics</b>: <b>Size</b> Medium, <b>Speed </b>30 ft.; <b>AC</b> +4 natural armor; <b>Attack</b> bite (1d8); <b>Ability Scores</b> Str 14, Dex 16, Con 10, Int 2, Wis 15, Cha 10; <b>Special Qualities</b> low-light vision, scent.</p>
+				<p><b>7th-Level Adv.</b>: <b>Size</b> Large; <b>AC</b> +3 natural armor; <b>Attack</b> bite (2d6); <b>Ability Scores</b> Str +8, Dex &ndash;2, Con +4; <b>Special Qualities</b> grab, powerful bite.</p>
+			
+			</div>
+			
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

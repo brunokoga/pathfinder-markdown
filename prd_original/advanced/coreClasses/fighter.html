@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Fighter</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Fighter",globalNavPath=[{ href: '/pathfinderRPG/prd/advanced/advancedCoreClasses.html', name: 'Advanced Core Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="fighter" class="monster-header">Fighter</h1>
+				<p>From dockside brawlers to legendary champions, poor foot soldiers to the greatest duelists of the nobility, fighters are those who devote themselves wholeheartedly to the art of combat. While barbarians tap into raw fury in battle, fighters know that the mind is the keenest weapon, and they use theirs to great effect, mastering numerous armaments and fighting styles in a never-ending quest to be the last warrior standing. </p>
+				<p>Presented below are a number of common martial themes, complete with variant class abilities to help customize characters to their chosen fighting style.</p>
+				<h1 id="archer">Archer</h1>
+				<p>The archer is dedicated to the careful mastery of the bow, perfecting his skills with years of practice honed day after day on ranges and hunting for game, or else on the battlefield, raining destruction down on the enemy lines.</p>
+				<p id="hawkeye"><b>Hawkeye (Ex)</b>: At 2nd level, an archer gains a +1 bonus on <a href="../../skills/perception.html#_perception" >Perception</a> checks, and the range increment for any bow he uses increases by 5 feet. These bonuses increase by +1 and 5 additional feet for every 4 levels beyond 2nd. This ability replaces bravery.</p>
+				<p id="trick-shot"><b>Trick Shot (Ex)</b>: At 3rd level, an archer can choose one of the following combat maneuvers or actions: disarm, feint, or sunder. He can perform this action with a bow against any target within 30 feet, with a &ndash;4 penalty to his CMB. Every four levels beyond 3rd, he may choose an additional trick shot to learn. These maneuvers use up arrows as normal.</p>
+				<p>At 11th level, he may also choose from the following combat maneuvers: bull rush, grapple, trip. A target grappled by an arrow can break free by destroying the archer's arrow (hardness 5, hit points 1, break DC 13) or with an <a href="../../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> or CMB check (against the archer's CMD &ndash;4). This ability replaces armor training 1, 2, 3, and 4.</p>
+				<p id="expert-archer"><b>Expert Archer (Ex)</b>: At 5th level, an archer gains a +1 bonus on attack and damage rolls with bows. This bonus increases by +1 for every four levels beyond 5th. This ability replaces weapon training 1.</p>
+				<p id="safe-shot"><b>Safe Shot (Ex)</b>: At 9th level, an archer does not provoke attacks of opportunity when making ranged attacks with a bow. This ability replaces weapon training 2. </p>
+				<p id="evasive-archer"><b>Evasive Archer (Ex)</b>: At 13th level, an archer gains a +2 dodge bonus to AC against ranged attacks. This bonus increases to +4 at 17th level. This ability replaces weapon training 3. </p>
+				<p id="volley"><b>Volley (Ex)</b>: At 17th level, as a full-round action, an archer can make a single bow attack at his highest base attack bonus against any number of creatures in a 15-foot- radius burst, making separate attack and damage rolls for each creature. This ability replaces weapon training 4.</p>
+				<p id="ranged-defense"><b>Ranged Defense (Ex)</b>: At 19th level, an archer gains DR 5/&mdash; against ranged attacks. In addition, as an immediate action, he can catch an arrow fired at him and shoot it any target he chooses, as if he had the <a href="../../feats.html#_snatch-arrows" >Snatch Arrows</a> feat. This ability replaces armor mastery.</p>
+				<p id="weapon-mastery"><b>Weapon Mastery (Ex)</b>: An archer must choose a type of bow. </p>
+				<h1 id="crossbowman">Crossbowman</h1>
+				<p>The crossbowman has perfected the deadly use of the crossbow, a simple but cruelly efficient weapon, as a craftsman mastering a lethal tool. </p>
+				<p id="deadshot"><b>Deadshot (Ex)</b>: At 3rd level, when a crossbowman attacks with a crossbow as a readied action, he may add 1/2 his Dexterity bonus (minimum +1) on his damage roll. This ability replaces armor training 1.</p>
+				<p id="crossbow-expert"><b>Crossbow Expert (Ex)</b>: At 5th level, a crossbowman gains a +1 bonus on attack and damage rolls with crossbows. This bonus increases by +1 per four levels after 5th. This ability replaces weapon training 1.</p>
+				<p id="improved-deadshot"><b>Improved Deadshot (Ex)</b>: At 7th level, when a crossbowman attacks with a crossbow as a readied action, his target is denied its Dexterity bonus to its AC. This ability replaces armor training 2.</p>
+				<p id="quick-sniper"><b>Quick Sniper (Ex)</b>: At 9th level, a crossbowman gains a bonus equal to 1/2 his fighter level on <a href="../../skills/stealth.html#_stealth" >Stealth</a> checks when sniping. When he is hit with a ranged attack, he can shoot his crossbow at his attacker as an immediate action if it is loaded. This ability replaces weapon training 2.</p>
+				<p id="greater-deadshot"><b>Greater Deadshot (Ex)</b>: At 11th level, when a crossbowman attacks with a crossbow as a readied action, he may add his Dexterity bonus (minimum +1) on his damage roll. This ability replaces armor training 3.</p>
+				<p id="safe-shot"><b>Safe Shot (Ex)</b>: At 13th level, a crossbowman does not provoke attacks of opportunity when making ranged attacks with a crossbow. This ability replaces weapon training 3. </p>
+				<p id="pinpoint-targeting"><b>Pinpoint Targeting</b>: At 15th level, a crossbowman gains<a href="../../feats.html#_pinpoint-targeting" > Pinpoint Targeting</a> as a bonus feat. This ability replaces armor training 4.</p>
+				<p id="meteor-shot"><b>Meteor Shot (Ex)</b>: At 17th level, as a standard action, a crossbowman can make one attack with a crossbow at a &ndash;4 penalty. If the attack hits, it inflicts damage normally and the target is subject to a bull rush or a trip maneuver using the attack roll as the combat maneuver check. The crossbowman must decide which maneuver to attempt before making his attack roll. This ability replaces weapon training 4.</p>
+				<p id="penetrating-shot"><b>Penetrating Shot (Ex)</b>: At 19th level, when a crossbowman confirms a critical hit with a crossbow, the bolt pierces the target and can strike another creature in line behind it. The crossbowman must be able to trace a line starting at his space and passing through both targets to make this additional attack. The secondary attack is made at a &ndash;4 penalty, in addition to any modifiers for added range. If this attack is also a critical hit, the bolt can continue to hit another target, but the penalties stack. This ability replaces armor mastery.</p>
+				<p id="weapon-mastery"><b>Weapon Mastery (Ex)</b>: A crossbowman must choose a type of crossbow. </p>
+				<h1 id="free-hand-fighter">Free Hand Fighter</h1>
+				<p>The free hand fighter specializes in the delicate art of handling a single weapon in one hand while using his free hand to balance, block, tip, and distract his opponents. While not a brawler, his open hand is as much a weapon as a bow or blade. His fighting school benefits only apply when he is using a one-handed weapon and carrying nothing in his other hand.</p>
+				<p id="deceptive-strike"><b>Deceptive Strike (Ex)</b>: At 2nd level, a free hand fighter gains a +1 bonus to CMB and CMD on disarm checks and on <a href="../../skills/bluff.html#_bluff" >Bluff</a> checks to feint or create a diversion to hide. This bonus increases by +1 for every four levels after 2nd. This ability replaces bravery.</p>
+				<p id="elusive"><b>Elusive (Ex)</b>: At 3rd level, a free hand fighter gains a +1 dodge bonus to AC. This bonus increases by +1 for every four levels after 2nd. This bonus does not apply when wearing medium or heavy armor or carrying a medium or heavier load. This ability replaces armor training 1, 2, 3, and 4.</p>
+				<p id="singleton"><b>Singleton (Ex)</b>: At 5th level, a free hand fighter gains a +1 bonus on attack and damage rolls when wielding a melee weapon in one hand and leaving his other hand free. This bonus increases by +1 per six levels after 5th. This ability replaces weapon training 1 and 4.</p>
+				<p id="timely-tip"><b>Timely Tip (Ex)</b>: At 9th level, a free hand fighter can make a disarm combat maneuver against a target he threatens as a move action to push aside the target's shield. If successful, the target loses its shield bonus to AC against the free hand fighter's next attack. This ability replaces weapon training 2.</p>
+				<p id="interference"><b>Interference (Ex)</b>: At 13th level, a free hand fighter can make a disarm or trip combat maneuver against a target he threatens as a move action to push his opponent off balance. If successful, the target becomes flat-footed. This condition lasts until the target takes damage from a melee or ranged attack or until the beginning of the free hand fighter's next turn, whichever comes first. This ability replaces weapon training 3.</p>
+				<p id="reversal"><b>Reversal (Ex)</b>: At 19th level, a free hand fighter can make a disarm combat maneuver against a creature he threatens as an immediate action when he is the target of a melee attack from another creature. If successful, the attack changes to target the target of the free hand fighter's maneuver instead of the free hand fighter himself. This ability replaces armor mastery. </p>
+				<h1 id="mobile-fighter">Mobile Fighter</h1>
+				<p>Where some fighters focus on strength and raw power, the mobile fighter relies on swiftness and mobility, gliding across the battlefield like a steel whirlwind and leaving destruction in his wake. </p>
+				<p id="agility"><b>Agility (Ex)</b>: At 2nd level, a mobile fighter gains a +1 bonus on saving throws made against effects that cause him to become paralyzed, slowed, or entangled. This bonus increases by +1 for every four levels beyond 2nd. This ability replaces bravery.</p>
+				<p id="leaping-attack"><b>Leaping Attack (Ex)</b>: At 5th level, when a mobile fighter moves at least 5 feet prior to attacking, he gains a +1 bonus on attack and damage rolls. This bonus increases by +1 for every four levels beyond 5th. This ability replaces weapon training 1, 2, 3, and 4.</p>
+				<p id="rapid-attack"><b>Rapid Attack (Ex)</b>: At 11th level, a mobile fighter can combine a full attack action with a single move. He must forgo the attack at his highest bonus but may take the remaining attacks at any point during his movement. This movement provokes attacks of opportunity as normal. This ability replaces armor training 3.</p>
+				<p id="fleet-footed"><b><a href="../../feats.html#_fleet" >Fleet</a> Footed (Ex)</b>: At 15th level, the mobile fighter's speed increases by 10 feet. He can take 10 on <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks even while distracted or threatened, and can take 20 on an <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> check once per day for every five fighter levels he possesses. This ability replaces armor training 4.</p>
+				<p id="whirlwind-blitz"><b>Whirlwind Blitz (Ex)</b>: At 20th level, a mobile fighter can make a full-attack action as a standard action. He may also use the <a href="../../feats.html#_whirlwind-attack" >Whirlwind Attack</a> feat as a standard action. This ability replaces weapon mastery.</p>
+				<h1 id="phalanx-soldier">Phalanx Soldier</h1>
+				<p>The phalanx soldier specializes in defensive tactics, using his shield to guard himself and his allies and forming a shield wall like an unbreakable anvil against which his enemies break.</p>
+				<p id="stand-firm"><b>Stand Firm (Ex)</b>: At 2nd level, a phalanx soldier gains a +1 bonus to CMD against bull rush, overrun, and trip attempts. This bonus also applies on saves against trample attacks. The bonus increases by +1 for every four levels beyond 2nd. This ability replaces bravery.</p>
+				<p id="phalanx-fighting"><b>Phalanx Fighting (Ex)</b>: At 3rd level, when a phalanx soldier wields a shield, he can use any polearm or spear of his size as a one-handed weapon. This ability replaces armor training 1. </p>
+				<p id="ready-pike"><b>Ready Pike (Ex)</b>: At 5th level, a phalanx soldier can, once per day, ready a weapon with the brace property as an immediate action, gaining a +1 bonus on attack and damage rolls. For every four levels beyond 5th, this bonus increases by +1, and he can use the ability one additional time per day. He cannot use this ability when flat-footed. This ability replaces weapon training 1.</p>
+				<p id="deft-shield"><b>Deft Shield (Ex)</b>: At 7th level, the armor check penalty from a shield and the attack roll penalty are reduced by &ndash;1 for a phalanx soldier using a tower shield. At 11th level, these penalties are reduced by &ndash;2. This ability replaces armor training 2 and 3.</p>
+				<p id="shield-ally"><b>Shield Ally (Ex)</b>: At 9th level, when a phalanx fighter is using a heavy or tower shield, he can, as a move action, provide partial cover (+2 cover bonus to AC, +1 bonus on Reflex saves) to himself and all adjacent allies until the beginning of his next turn.</p>
+				<p>At 13th level, he can instead provide cover (+4 cover bonus to AC, +2 bonus on Reflex saves) and evasion (as a rogue) to one adjacent ally until the beginning of his next turn. This cover does not allow <a href="../../skills/stealth.html#_stealth" >Stealth</a> checks. </p>
+				<p>At 17th level, he can provide cover to himself and all adjacent allies, or he can provide improved cover (+8 cover bonus to AC, +4 bonus on Reflex saves, improved evasion) to a single adjacent ally. This ability replaces weapon training 2, 3, and 4.</p>
+				<p id="irresistible-advance"><b>Irresistible Advance (Ex)</b>: At 15th level, a phalanx fighter gains a bonus on bull rush and overrun CMB checks. This bonus depends on the type of shield used: +1 with a buckler, +2 with a light shield, +3 with a heavy shield, or +4 with a tower shield. This ability replaces armor training 4.</p>
+				<p id="shielded-fortress"><b>Shielded Fortress (Ex)</b>: At 20th level, a phalanx fighter's shield cannot be disarmed or sundered. He gains evasion (as a rogue) when using a shield (improved evasion when using a tower shield). As a move action, a phalanx fighter can provide evasion to all adjacent allies until the beginning of his next turn. As an immediate action, he can provide improved evasion to an adjacent ally against one attack. This ability replaces weapon mastery.</p>
+				<h1 id="polearm-master">Polearm Master</h1>
+				<p>The polearm master is schooled in the ancient wisdom that enemies are best faced at the end of long striking pole, lashing like a serpent before clumsy swords and axes can even be brought to bear.</p>
+				<p id="pole-fighting"><b>Pole Fighting (Ex)</b>: At 2nd level, as an immediate action, a polearm master can shorten the grip on his spear or polearm with reach and use it against adjacent targets. This action results in a &ndash;4 penalty on attack rolls with that weapon until he spends another immediate action to return to the normal grip. The penalty is reduced by &ndash;1 for every four levels beyond 2nd. This ability replaces bravery.</p>
+				<p id="steadfast-pike"><b>Steadfast Pike (Ex)</b>: At 3rd level, a polearm master gains a +1 bonus on attack rolls with readied attacks and attacks of opportunity made with a spear or polearm. The bonus increases by +1 for every four levels beyond 3rd. This ability replaces armor training 1, 2, 3, and 4.</p>
+				<p id="polearm-training"><b>Polearm Training (Ex)</b>: At 5th level, a polearm master gains a +1 bonus on attack and damage rolls with spears and polearms. The bonus increases by +1 for every four levels beyond 5th. This ability replaces weapon training 1.</p>
+				<p id="flexible-flanker"><b>Flexible Flanker (Ex)</b>: At 9th level, a polearm master may choose any square adjacent to him and treat that square as his location for determining who he is flanking, even if that square is occupied by a creature, object, or solid barrier. This ability replaces weapon training 2.</p>
+				<p id="sweeping-fend"><b>Sweeping Fend (Ex)</b>: At 13th level, a polearm master can use any spear or pole arm to make a bull rush or trip maneuver, though he takes a &ndash;4 penalty to his CMB when making such attempts. Weapons with the trip property do not incur this penalty on trip maneuvers. This ability replaces weapon training 3.</p>
+				<p id="step-aside"><b>Step Aside (Ex)</b>: At 17th level, when a creature threatened by a polearm master takes a 5-foot step into a square adjacent to him, he can take a 5-foot step as an immediate action. This 5-foot step must be subtracted from his movement on the next turn. He also gains a +2 dodge bonus to his AC against that opponent until the end of his next turn. This ability replaces weapon training 4.</p>
+				<p id="polearm-parry"><b>Polearm Parry (Ex)</b>: At 19th level, when an opponent threatened by a polearm master makes a melee attack against an ally, he may take an immediate action to grant his ally a +2 shield bonus to AC and DR 5/&mdash; against that attack. He may use this ability to protect himself, but only if the attacking creature is not adjacent to him. This ability replaces armor mastery.</p>
+				<p id="weapon-mastery"><b>Weapon Mastery (Ex)</b>: A polearm master must choose a spear or polearm.</p>
+				<h1 id="roughrider">Roughrider</h1>
+				<p>Roughriders study and practice the fine points of mounted combat, drilling endlessly with warbeasts&mdash;from noble thoroughbreds to trained monsters&mdash;to form a perfect synergy between rider and steed.</p>
+				<p id="steadfast-mount"><b>Steadfast Mount (Ex)</b>: At 2nd level, after a roughrider has spent 1 hour practicing with a mount, the mount gains a +1 dodge bonus to AC and a +1 morale bonus on saves, but only while the roughrider is mounted on it or adjacent to it. This bonus increases by +1 for every four levels after 2nd. This ability replaces bravery.</p>
+				<p id="armored-charger"><b>Armored Charger (Ex)</b>: At 3rd level, a roughrider no longer suffers armor check penalties on <a href="../../skills/ride.html#_ride" >Ride</a> skill checks. His mount's speed is not reduced when carrying a medium load or wearing medium barding. This ability replaces armor training 1.</p>
+				<p id="mounted-mettle"><b>Mounted Mettle (Ex)</b>: At 5th level, a roughrider and his mount gain a +1 bonus on attack and damage rolls when he is mounted or adjacent to his mount. This bonus increases by +1 for every four levels after 5th. This ability replaces weapon training 1, 2, 3, and 4.</p>
+				<p id="leap-from-the-saddle"><b>Leap from the Saddle (Ex)</b>: At 7th level, after a roughrider's mount takes a single move, he may attempt a fast dismount (DC 20 <a href="../../skills/ride.html#_ride" >Ride</a> check). If he succeeds, he can take a full attack action. This ability replaces armor training 2.</p>
+				<p id="relentless-steed"><b>Relentless Steed (Ex)</b>: At 11th level, a roughrider's mount does not reduce its speed when wearing heavy barding or carrying a heavy load. The roughrider may also reroll a <a href="../../skills/ride.html#_ride" >Ride</a> skill check or a saving throw made by the mount once per day, but must use the second roll even if it is worse. This ability may be used one additional time per day for every four levels beyond 11th. This ability replaces armor training 3.</p>
+				<p id="ride-them-down"><b><a href="../../skills/ride.html#_ride" >Ride</a> Them Down (Ex)</b>: At 15th level, can spur his mount on while readying an attack. If a roughrider's mount takes a single move, the roughrider can make a full attack, taking his attacks at any point during his mount's movement. If he has the <a href="../../feats.html#_trample" >Trample</a> feat, he may substitute an overrun combat maneuver for each of his attacks. This movement provokes attacks of opportunity against the roughrider but not his mount. This ability replaces armor training 4.</p>
+				<p id="unavoidable-onslaught"><b>Unavoidable Onslaught (Ex)</b>: At 15th level, a roughrider's mounted charge is not blocked by friendly creatures or difficult terrain. This ability replaces armor training 4.</p>
+				<p id="indomitable-steed"><b>Indomitable Steed (Ex)</b>: At 19th level, a roughrider and his steed gain DR 5/&mdash; when mounted. This ability replaces armor mastery.</p>
+				<h1 id="savage-warrior">Savage Warrior</h1>
+				<p>Warriors' might is not measured only by their skill with steel, but also by their ability to inflict death with fang and claw, horn and hoof, and every exotic appendage the natural and unnatural world has to offer.</p>
+				<p id="spark-of-life"><b>Spark of Life (Ex)</b>: At 2nd level, a savage warrior gains a +1 bonus on saving throws made against energy drain and death effects. This bonus increases by +1 for every four levels beyond 2nd. This ability replaces bravery.</p>
+				<p id="natural-savagery"><b>Natural Savagery (Ex)</b>: At 5th level, a savage warrior gains a +1 bonus on attack and damage rolls with natural weapons. This bonus also applies to CMB and CMD for grappling. This bonus increases by +1 for every four levels beyond 5th. This ability replaces weapon training 1.</p>
+				<p id="savage-charge"><b>Savage Charge (Ex)</b>: At 9th level, when a savage warrior attacks with a natural weapon at the end of a charge, he gains a bonus on his natural weapon attack rolls equal to half his fighter level, while suffering a penalty to his AC equal to half his fighter level. These replace the normal attack roll bonus and AC penalty for charging. This bonus also applies to his CMB for a bull rush or overrun combat maneuvers made when charging. This ability replaces weapon training 2.</p>
+				<p id="careful-claw"><b>Careful Claw (Ex)</b>: At 13th level, when using a natural weapon to attack a creature using <i><a href="../../spells/fireShield.html#_fire-shield" >fire shield</a></i> or a similar effect that damages creatures attacking it (such as a barbed devil's barbed defense), a savage warrior reduces the damage from such effects by an amount equal to 1/2 his fighter level. This ability replaces weapon training 3.</p>
+				<p id="greater-savage-charge"><b>Greater Savage Charge (Ex)</b>: At 17th level, when using savage charge, the AC penalty is reduced to 1/4 his fighter level instead of 1/2 his fighter level. In addition, a savage warrior can charge through friendly creatures and difficult terrain. This ability replaces weapon training 4.</p>
+				<p id="natural-weapon-mastery"><b>Natural Weapon Mastery (Ex)</b>: At 20th level, a savage warrior must choose one natural weapon. This ability replaces weapon mastery.</p>
+				<h1 id="shielded-fighter">Shielded Fighter</h1>
+				<p>A shielded fighter focuses on both offense and defense, blending weapon and shield in perfect balance to impede his enemies while delivering deadly blows, and even turning the shield itself into a formidable weapon. These fighting school benefits apply when wielding a weapon and a shield simultaneously.</p>
+				<p id="active-defense"><b>Active Defense (Ex)</b>: At 3rd level, a shielded fighter gains a +1 dodge bonus to AC when wielding a shield and fighting defensively, using <a href="../../feats.html#_combat-expertise" >Combat Expertise</a>, or using total defense. This bonus increases by +1 for every four levels beyond 3rd. As a swift action, he may share this bonus with one adjacent ally, or half of the bonus (minimum +0) with all adjacent allies, until the beginning of his next turn. This ability replaces armor training 1, 2, 3, and 4.</p>
+				<p id="shield-fighter"><b>Shield Fighter (Ex)</b>: At 5th level, a shielded fighter gains a +1 bonus on attack and damage rolls when making a shield bash. These bonuses increase by +1 every four levels beyond 5th. With a full attack action, a shielded fighter may alternate between using his weapon or his shield for each attack. This action does not grant additional attacks or incur penalties as two-weapon fighting does. This ability replaces weapon training 1.</p>
+				<p id="shield-buffet"><b>Shield Buffet (Ex)</b>: At 9th level, as a move action, a shielded fighter may make a combat maneuver check to use his shield to impede an adjacent enemy. If successful, the target suffers a &ndash;2 penalty on its attack rolls against the shielded fighter and a &ndash;2 penalty to AC on attacks made by the shielded fighter until the beginning of his next turn.</p>
+				<p>At 13th level, a shielded fighter may use this ability as a swift action. This ability replaces weapon training 2 and 3.</p>
+				<p id="shield-guard"><b>Shield Guard (Ex)</b>: At 17th level, as a swift action, a shielded fighter may designate one square adjacent to him. He may designate two squares if using a heavy shield or three squares if using a tower shield, but these squares must be contiguous. Enemies in these squares cannot flank the shielded fighter and do not count for flanking with other creatures. This effect lasts until he moves from his position or uses another swift action to change the affected squares. This ability replaces weapon training 4.</p>
+				<p id="shield-mastery"><b>Shield Mastery (Ex)</b>: At 19th level, a shielded fighter gains DR 5/&mdash; when wielding a shield. This ability replaces armor mastery.</p>
+				<p id="shield-ward"><b>Shield Ward (Ex)</b>: At 20th level, a shielded fighter gains evasion (as a rogue) while wielding a shield, and adds his shield bonus to his AC (not including enhancement bonuses) on Reflex saves and to his touch AC. In addition, his shield cannot be disarmed or sundered. This ability replaces weapon mastery.</p>
+				<h1 id="two-handed-fighter">Two-Handed Fighter</h1>
+				<p>Some fighters focus their efforts on finding the biggest, heaviest, most imposing weapon they can find and training to manage and harness the weight of their massive weapons for maximum impact. These fighting school benefits only apply when using two-handed weapons.</p>
+				<p id="shattering-strike"><b>Shattering Strike (Ex)</b>: At 2nd level, a two-handed fighter gains a +1 bonus to CMB and CMD on sunder attempts and on damage rolls made against objects. These bonuses increase by +1 for every four levels beyond 2nd. This ability replaces bravery.</p>
+				<p id="overhand-chop"><b>Overhand Chop (Ex)</b>: At 3rd level, when a two-handed fighter makes a single attack (with the attack action or a charge) with a two-handed weapon, he adds double his Strength bonus on damage rolls. This ability replaces armor training 1.</p>
+				<p id="weapon-training"><b>Weapon Training (Ex)</b>: As the fighter class feature, but the bonuses only apply when wielding two-handed melee weapons. </p>
+				<p id="backswing"><b>Backswing (Ex)</b>: At 7th level, when a two-handed fighter makes a full attack with a two-handed weapon, he adds double his Strength bonus on damage rolls for all attacks after the first. This ability replaces armor training 2.</p>
+				<p id="piledriver"><b>Piledriver (Ex)</b>: At 11th level, as a standard action, a two-handed fighter can make a single melee attack with a two-handed weapon. If the attack hits, he may make a bull rush or trip combat maneuver against the target of his attack as a free action that does not provoke an attack of opportunity. This ability replaces armor training 3.</p>
+				<p id="greater-power-attack"><b>Greater <a href="../../feats.html#_power-attack" >Power Attack</a> (Ex)</b>: At 15th level, when using <a href="../../feats.html#_power-attack" >Power Attack</a> with a two-handed melee weapon, the bonus damage from <a href="../../feats.html#_power-attack" >Power Attack</a> is doubled (+100%) instead of increased by half (+50%). This ability replaces armor training 4. </p>
+				<p id="devastating-blow"><b>Devastating Blow (Ex)</b>: At 19th level, as a standard action, a two-handed fighter may make a single melee attack with a two-handed weapon at a &ndash;5 penalty. If the attack hits, it is treated as a critical threat. Special weapon abilities that activate only on a critical hit do not activate if this critical hit is confirmed. This ability replaces armor mastery.</p>
+				<h1 id="two-weapon-warrior">Two-Weapon Warrior</h1>
+				<p>Trained under great masters who preached the simple truth that two are better than one when it comes to weapons, the two-weapon warrior is a terror when his hands are full. From paired daggers to exotic double weapons, all combinations come equally alive in his skilled hands.</p>
+				<p id="defensive-flurry"><b>Defensive Flurry (Ex)</b>: At 3rd level, when a two-weapon warrior makes a full attack with both weapons, he gains a +1 dodge bonus to AC against melee attacks until the beginning of his next turn. This bonus increases by +1 every four levels after 3rd. This ability replaces armor training 1 and 2.</p>
+				<p id="twin-blades"><b>Twin Blades (Ex)</b>: At 5th level, a two-weapon warrior gains a +1 bonus on attack and damage rolls when making a full attack with two weapons or a double weapon. This bonus increases by +1 for every four levels after 5th. This ability replaces weapon training 1.</p>
+				<p id="doublestrike"><b>Doublestrike (Ex)</b>: At 9th level, a two-weapon warrior may, as a standard action, make one attack with both his primary and secondary weapons. The penalties for attacking with two weapons apply normally. This ability replaces weapon training 2.</p>
+				<p id="improved-balance"><b>Improved Balance (Ex)</b>: At 11th level, the attack penalties for fighting with two weapons are reduced by &ndash;1 for a two-weapon warrior. Alternatively, he may use a one-handed weapon in his off-hand, treating it as if it were a light weapon with the normal light weapon penalties. This ability replaces armor training 3.</p>
+				<p id="equal-opportunity"><b>Equal Opportunity (Ex)</b>: At 13th level, when a two-weapon warrior makes an attack of opportunity, he may attack once with both his primary and secondary weapons. The penalties for attacking with two weapons apply normally. This ability replaces weapon training 3. </p>
+				<p id="perfect-balance"><b>Perfect Balance (Ex)</b>: At 15th level, the penalties for fighting with two weapons are reduced by an additional &ndash;1 for a two-weapon warrior. This benefit stacks with improved balance. If he is using a one-handed weapon in his off hand, treating it as a light weapon, he uses the normal light weapon penalties. This ability replaces armor training 4.</p>
+				<p id="deft-doublestrike"><b>Deft Doublestrike (Ex)</b>: At 17th level, when a two-weapon warrior hits an opponent with both weapons, he can make a disarm or sunder attempt (or trip, if one or both weapons can be used to trip) against that opponent as an immediate action that does not provoke attacks of opportunity. This ability replaces weapon training 4.</p>
+				<p id="deadly-defense"><b>Deadly Defense (Ex)</b>: At 19th level, when a two-weapon warrior makes a full attack with both weapons, every creature that hits him with a melee attack before the beginning of his next turn provokes an attack of opportunity from the warrior. This ability replaces armor mastery.</p>
+				<h1 id="weapon-master">Weapon Master</h1>
+				<p>Devoted to the perfection of a single weapon, the weapon master's meditations upon his favored weapon border on the obsessive, but none can deny his consummate skill. The weapon master must select a single type of weapon (such as longsword or shortbow). All of his abilities apply to that weapon type.</p>
+				<p id="weapon-guard"><b>Weapon Guard (Ex)</b>: At 2nd level, a weapon master gains a +1 bonus to CMD against disarm and sunder attempts while wielding his chosen weapon. This bonus also applies on saves against any effect that targets his chosen weapon (for example, <i><a href="../../spells/grease.html#_grease" >grease</a>, <a href="../../spells/heatMetal.html#_heat-metal" >heat metal</a>, <a href="../../spells/shatter.html#_shatter" >shatter</a>, <a href="../../spells/warpWood.html#_warp-wood" >warp wood</a></i>). The bonus increases by +1 for every four levels beyond 2nd. This ability replaces bravery.</p>
+				<p id="weapon-training"><b>Weapon Training (Ex)</b>: At 3rd level, a weapon master gains a +1 bonus on attack and damage rolls with his chosen weapon. The bonus improves by +1 for every four levels beyond 3rd. This ability replaces armor training 1, 2, 3, and 4.</p>
+				<p id="reliable-strike"><b>Reliable Strike (Ex)</b>: At 5th level, a weapon master may reroll an attack roll, critical hit confirmation roll, miss chance check, or damage roll as an immediate action. He must accept the second roll even if it is worse. He can use this ability once per day at 5th level, plus one additional time per day for every five levels beyond 5th. This ability replaces weapon training 1.</p>
+				<p id="mirror-move"><b>Mirror Move (Ex)</b>: At 9th level, a weapon master gains his weapon training bonus as an insight bonus to AC when attacked by his chosen weapon. This ability replaces weapon training 2.</p>
+				<p id="deadly-critical"><b>Deadly Critical (Ex)</b>: At 13th level, when a weapon master confirms a critical hit with his chosen weapon, he can increase the weapon's damage multiplier by +1 as an immediate action. He can use this ability once per day at 13th level, plus one additional time per day for every three levels above 13th. This ability replaces weapon training 3.</p>
+				<p id="critical-specialist"><b>Critical Specialist (Ex)</b>: At 17th level, the save DCs of any effects caused by a critical hit with a weapon master's chosen weapon increase by +4. This ability replaces weapon training 4.</p>
+				<p id="unstoppable-strike"><b>Unstoppable Strike (Ex)</b>: At 19th level, a weapon master can take a standard action to make one attack with his chosen weapon as a touch attack that ignores damage reduction (or hardness, if attacking an object). This ability replaces armor mastery.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

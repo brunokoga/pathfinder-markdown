@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Mythic Spell Index</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Mythic Spell Index",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="new-spells">New Mythic Spells</h1>
+<p>The following are new spells that affect the mythic rules or mythic creatures in some way. You don't need a mythic tier to cast most of these spells.</p>
+<p><b>Mythic</b>: Some of these spells have mythic versions just as preexisting spells like <i><a href="/pathfinderRPG/prd/spells/animateDead.html#_animate-dead" >animate dead</a></i> and <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i> do. The information for the mythic version is included in the new spell's description.</p>
+<p><b>Augmented</b>: If a spell has an augmented version, it's listed in the spell description.</p>
+
+<div id="spell-index-wrapper" class="index">
+<ul id="index-spells-new">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/ascension.html">Ascension</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/bleedGlory.html">Bleed Glory</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/deathless.html">Deathless</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/lendPath.html">Lend Path</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/mythicSeverance.html">Mythic Severance</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/restoreMythicPower.html">Restore Mythic Power</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/shareGlory.html">Share Glory</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/stealPower.html">Steal Power</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/terraform.html">Terraform</a></li></ul>
+</div>
+
+<h1 id="mythic-spell-descriptions">Enchanced Spells</h1>
+<p>The following are enhanced versions of existing spells.</p>
+
+<p class="shortcutBar"><a href="#_index-spells-A">A</a> <a href="#_index-spells-B">B</a> <a href="#_index-spells-C">C</a> <a href="#_index-spells-D">D</a> <a href="#_index-spells-E">E</a> <a href="#_index-spells-F">F</a> <a href="#_index-spells-G">G</a> <a href="#_index-spells-H">H</a> <a href="#_index-spells-I">I</a> <a href="#_index-spells-J">J</a> <a href="#_index-spells-K">K</a> <a href="#_index-spells-L">L</a> <a href="#_index-spells-M">M</a> <a href="#_index-spells-N">N</a> <a href="#_index-spells-O">O</a> <a href="#_index-spells-P">P</a>  <a href="#_index-spells-R">R</a> <a href="#_index-spells-S">S</a> <a href="#_index-spells-T">T</a> <a href="#_index-spells-U">U</a> <a href="#_index-spells-V">V</a> <a href="#_index-spells-W">W</a></p>
+
+<div id="spell-index-wrapper" class="index">
+
+<ul id="index-spells-A" title="A Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/ablativeBarrier.html">Ablative Barrier</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/animalAspect.html">Animal Aspect</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/animateDead.html">Animate Dead</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/animateObjects.html">Animate Objects</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/animatePlants.html">Animate Plants</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/anticipatePeril.html">Anticipate Peril</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/antimagicField.html">Antimagic Field</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/arborealHammer.html">Arboreal Hammer</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/arcaneCannon.html">Arcane Cannon</a></li>
+</ul>
+
+<ul id="index-spells-B" title="B Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/balefulPolymorph.html">Baleful Polymorph</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/bane.html">Bane</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/barkskin.html">Barkskin</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/battlemindLink.html">Battlemind Link</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/battleTrance.html">Battle Trance</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/beastShape.html">Beast Shape</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/blackMark.html">Black Mark</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/blackTentacles.html">Black Tentacles</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/bladeBarrier.html">Blade Barrier</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/blasphemy.html">Blasphemy</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/bless.html">Bless</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/blessingOfFervor.html">Blessing of Fervor</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/blindingRay.html">Blinding Ray</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/blindnessDeafness.html">Blindess/Deafness</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/blink.html">Blink</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/blisteringInvective.html">Blistering Invective</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/bloodCrowStrike.html">Blood Crow Strike</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/boilingBlood.html">Boiling Blood</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/break.html">Break</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/breakEnchantment.html">Break Enchantment</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/breathOfLife.html">Breath of Life</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/burningGaze.html">Burning Gaze</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/burningHands.html">Burning Hands</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/burrow.html">Burrow</a></li>
+</ul>
+
+<ul id="index-spells-C" title="C Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/callAnimal.html">Call Animal</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/callLightning.html">Call Lightning</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/capeOfWasps.html">Cape of Wasps</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/chainLightning.html">Chain Lightning</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/changestaff.html">Changestaff</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/chaosHammer.html">Chaos Hammer</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/chillMetal.html">Chill Metal</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/chordOfShards.html">Chord of Shards</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/circleOfDeath.html">Circle of Death</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/cloudkill.html">Cloudkill</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/colorSpray.html">Color Spray</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/command.html">Command</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/companionMindLink.html">Companion Mind Link</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/coneOfCold.html">Cone of Cold</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/confusion.html">Confusion</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/conjureBlackPudding.html">Conjure Black Pudding</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/consecrate.html">Consecrate</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/contagion.html">Contagion</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/contingency.html">Contingency</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/controlWeather.html">Control Weather</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/cupOfDust.html">Cup of Dust</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/cureCriticalWounds.html">Cure Critical Wounds</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/cureLightWounds.html">Cure Light Wounds</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/cureModerateWounds.html">Cure Moderate Wounds</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/cureSeriousWounds.html">Cure Serious Wounds</a></li>
+</ul>
+
+<ul id="index-spells-D" title="D Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/damnationStride.html">Damnation Stride</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/darkness.html">Darkness</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/daybreakArrow.html">Daybreak Arrow</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/daylight.html">Daylight</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/deathKnell.html">Death Knell</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/deepSlumber.html">Deep Slumber</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/defileArmor.html">Defile Armor</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/desecrate.html">Desecrate</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/detectScrying.html">Detect Scrying</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/devolution.html">Devolution</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/dictum.html">Dictum</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/dimensionalLock.html">Dimensional Lock</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/dimensionDoor.html">Dimension Door</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/discordantBlast.html">Discordant Blast</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/disfiguringTouch.html">Disfiguring Touch</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/disintegrate.html">Disintegrate</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/dispelMagic.html">Dispel Magic</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/divineFavor.html">Divine Favor</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/divinePursuit.html">Divine Pursuit</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/dominatePerson.html">Dominate Person</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/draconicReservoir.html">Draconic Reservoir</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/dragonsBreath.html">Dragon's Breath</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/dream.html">Dream</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/dustOfTwilight.html">Dust of Twilight</a></li>
+</ul>
+
+<ul id="index-spells-E" title="E Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/earPiercingScream.html">Ear-Piercing Scream</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/earthquake.html">Earthquake</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/elementalBody.html">Elemental Body</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/endureElements.html">Endure Elements</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/enemyHammer.html">Enemy Hammer</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/enervation.html">Enervation</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/enlargePerson.html">Enlarge Person</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/entangle.html">Entangle</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/entropicShield.html">Entropic Shield</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/expeditiousRetreat.html">Expeditious Retreat</a></li>
+</ul>
+
+<ul id="index-spells-F" title="F Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/faerieFire.html">Faerie Fire</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/falseLife.html">False Life</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/feastOfAshes.html">Feast of Ashes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/featherFall.html">Feather Fall</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/fingerOfDeath.html">Finger of Death</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/fireball.html">Fireball</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/fireSeeds.html">Fire Seeds</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/fireShield.html">Fire Shield</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/fireSnake.html">Fire Snake</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/fireStorm.html">Fire Storm</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/firestream.html">Firestream</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/flameBlade.html">Flame Blade</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/flamesOfTheFaithful.html">Flames of the Faithful</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/flameStrike.html">Flame Strike</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/fleshToStone.html">Flesh to Stone</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/floatingDisk.html">Floating Disk</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/fly.html">Fly</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/fogCloud.html">Fog Cloud</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/forcePunch.html">Force Punch</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/foresight.html">Foresight</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/formOfTheDragon.html">Form of the Dragon</a></li>
+</ul>
+
+<ul id="index-spells-G" title="G Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/gaseousForm.html">Gaseous Form</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/giantVermin.html">Giant Vermin</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/globeOfInvulnerability.html">Globe of Invulnerability</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/glyphOfWarding.html">Glyph of Warding</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/goodberry.html">Goodberry</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/grease.html">Grease</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/guardsAndWards.html">Guards and Wards</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/gustOfWind.html">Gust of Winds</a></li>
+</ul>
+
+<ul id="index-spells-H" title="H Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/harm.html">Harm</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/haste.html">Haste</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/heal.html">Heal</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/healingThief.html">Healing Thief</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/heatMetal.html">Heat Metal</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/heroism.html">Heroism</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/hexWard.html">Hex Ward</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/hideousLaughter.html">Hideous Laughter</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/holdPortal.html">Hold Portal</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/holySmite.html">Holy Smite</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/holyWord.html">Holy Word</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/hydraulicPush.html">Hydraulic Push</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/hydraulicTorrent.html">Hydraulic Torrent</a></li>
+</ul>
+
+<ul id="index-spells-I" title="I Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/iceStorm.html">Ice Storm</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/illOmen.html">Ill Omen</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/inflictCriticalWounds.html">Inflict Critical Wounds</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/inflictLightWounds.html">Inflict Light Wounds</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/inflictModerateWounds.html">Inflict Moderate Wounds</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/inflictSeriousWounds.html">Inflict Serious Wounds</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/invisibility.html">Invisibility</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/irresistibleDance.html">Irresistible Dance</a></li>
+</ul>
+
+<ul id="index-spells-J" title="J Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/jitterbugs.html">Jitterbugs</a></li>
+</ul>
+
+<ul id="index-spells-K" title="K Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/knock.html">Knock</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/knowTheEnemy.html">Know the Enemy</a></li>
+</ul>
+
+<ul id="index-spells-L" title="L Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/levitate.html">Levitate</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/lightningArc.html">Lightning Arc</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/limitedWish.html">Limited Wish</a></li>
+</ul>
+
+<ul id="index-spells-M" title="M Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/mageArmor.html">Mage Armor</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/magesDisjunction.html">Mage's Disjunction</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/magicFang.html">Magic Fang</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/magicMissle.html">Magic Missle</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/magicVestment.html">Magic Vestment</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/magicWeaponGreater.html">Magic Weapon, Greater</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/makeWhole.html">Make Whole</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/maze.html">Maze</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/memoryLapse.html">Memory Lapse</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/meteorSwarm.html">Meteor Swarm</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/mightyFistOfTheEarth.html">Mighty Fist of the Earth</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/mirrorImage.html">Mirror Image</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/mislead.html">Mislead</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/modifyMemory.html">Modify Memory</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/monstrousPhysique.html">Monstrous Physique</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/moveEarth.html">Move Earth</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/murderousCommand.html">Murderous Command</a></li>
+</ul>
+
+<ul id="index-spells-N" title="N Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/namedBullet.html">Named Bullet</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/nightmare.html">Nightmare</a></li>
+</ul>
+
+<ul id="index-spells-O" title="O Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/oathOfPeace.html">Oath of Peace</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/obscuringMist.html">Obscuring Mist</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/orbOfTheVoid.html">Orb of the Void</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/ordersWrath.html">Order's Wrath</a></li>
+</ul>
+
+<ul id="index-spells-p" title="P Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/perniciousPoison.html">Pernicious Poison</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/phantasmalKiller.html">Phantasmal Killer</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/phantomSteed.html">Phantom Steed</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/pillarOfLife.html">Pillar of Life</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/planeShift.html">Plane Shift</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/polarRay.html">Polar Ray</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/powerWordBlind.html">Power Word Blind</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/powerWordKill.html">Power Word Kill</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/powerWordStun.html">Power Word Stun</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/poxPustules.html">Pox Pustules</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/prayer.html">Prayer</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/prismaticSphere.html">Prismatic Sphere</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/prismaticSpray.html">Prismatic Spray</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/protectionFrom.html#_protection-from-chaos-mythic">Protection from Chaos</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/protectionFrom.html#_protection-from-evil-mythic">Protection from Evil</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/protectionFrom.html#_protection-from-good-mythic">Protection from Good</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/protectionFrom.html#_protection-from-law-mythic">Protection from Law</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/protectionFromArrows.html">Protection from Arrows</a></li>
+</ul>
+
+<ul id="index-spells-R" title="R Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/rayOfEnfeeblement.html">Ray of Enfeeblement</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/reducePerson.html">Reduce Person</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/regenerate.html">Regenerate</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/repelWood.html">Repel Wood</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/resistEnergy.html">Resist Energy</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/resonatingWord.html">Resonating Word</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/reverseGravity.html">Reverse Gravity</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/ricochetShot.html">Ricochet Shot</a></li>
+</ul>
+
+<ul id="index-spells-S" title="S Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/sacredBond.html">Sacred Bond</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/sanctifyArmor.html">Sanctify Armor</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/sanctuary.html">Sanctuary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/sandsOfTime.html">Sands of Time</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/savingFinale.html">Saving Finale</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/scorchingAshForm.html">Scorching Ash Form</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/scorchingRay.html">Scorching Ray</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/scouringWinds.html">Scouring Winds</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/searingLight.html">Searing Light</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/sending.html">Searing</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/shadowAnchor.html">Shadow Anchor</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/shadowWeapon.html">Shadow Weapon</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/shatter.html">Shatter</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/shieldOfFaith.html">Shield of Faith</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/shieldOther.html">Shield Other</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/shockingGrasp.html">Shocking Grasp</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/shout.html">Shout</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/silence.html">Silence</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/silentImage.html">Silent Image</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/sleep.html">Sleep</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/slow.html">Slow</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/solidFog.html">Solid Fog</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spiderClimb.html">Spider Climb</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spikeStones.html">Spike Stones</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spiritualWeapon.html">Spiritual Weapon</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/stinkingCloud.html">Stinking Cloud</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/stoneShape.html">Stone Shape</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/stoneskin.html">Stoneskin</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/stormOfVengeance.html">Storm of Vengeance</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/stranglingHair.html">Strangling Hair</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/suggestion.html">Suggestion</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/summonSwarm.html">Summon Swarm</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/sunbeam.html">Sunbeam</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/sunMetal.html">Sun Metal</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/surmountAffliction.html">Surmount Affliction</a></li>
+</ul>
+
+<ul id="index-spells-T" title="T Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/telekinesis.html">Telekinesis</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/theftWard.html">Theft Ward</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/timeStop.html">Time Stop</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/touchInjection.html">Touch Injection</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/transformation.html">Transformation</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/trueForm.html">True Form</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/trueStrike.html">True Strike</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/tsunami.html">Tsunami</a></li>
+</ul>
+
+<ul id="index-spells-U" title="U Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/unholyBlight.html">Unholy Blight</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/unshakableChill.html">Unshakable Chill</a></li>
+</ul>
+
+<ul id="index-spells-V" title="V Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/vampiricTouch.html">Vampiric Touch</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/vomitTwin.html">Vomit Twin</a></li>
+</ul>
+
+<ul id="index-spells-W" title="W Spells">
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/walkThroughSpace.html">Walk Through Space</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/wallOfFire.html">Wall of Fire</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/wallOfForce.html">Wall of Force</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/wallOfIce.html">Wall of Ice</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/wallOfIron.html">Wall of Iron</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/wallOfStone.html">Wall of Stone</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/wallOfThorns.html">Wall of Thorns</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/web.html">Web</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/whirlwind.html">Whirlwind</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/wish.html">Wish</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/wordOfChaos.html">Word of Chaos</a></li>
+</ul>
+
+</div>
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

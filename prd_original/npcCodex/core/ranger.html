@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Rangers</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Rangers",globalNavPath=[{ href: '/pathfinderRPG/prd/npcCodex/core/index.html', name: 'Core Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="rangers">Rangers</h1>
+<p id="novice-scout" class="stat-block-title">Novice Scout <span class="stat-block-cr">CR 1/2</span></p>
+<p class="stat-block-1"><b>XP</b> 200</p>
+<p class="stat-block-1"><b>Half-elf ranger</b> 1</p>
+<p class="stat-block-1">LN Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> low-light vision; Perception +10</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 16, touch 13, flat-footed 13 (+3 armor, +3 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 12 (1d10+2)</p>
+<p class="stat-block-1"><b>Fort</b> +3, <b>Ref</b> +5, <b>Will</b> +1; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Immune</b> sleep</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> longsword +3 (1d8+3/19–20) or shortspear +3 (1d6+2)</p>
+<p class="stat-block-1"><b>Ranged</b> longbow +4 (1d8/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (orcs +2)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger ambushes her target from stealth or takes cover in tree branches. If she has allies, she attacks enemies that her allies have injured. She uses a smokestick to signal trouble or cover her retreat.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 17, <b>Con</b> 12, <b>Int</b> 10, <b>Wis</b> 13, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +1; <b>CMB</b> +3; <b>CMD</b> 16</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (Perception)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +1, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +4, Perception +10, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +7, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven</p>
+<p class="stat-block-1"><b>SQ</b> elf blood, track +1, wild empathy +0</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a>,</i> alchemist's fire, masterwork arrows (3), smokestick; <b>Other Gear</b> masterwork studded leather, longbow with 20 arrows, longsword, shortspear, 15 gp</p>
+
+<p>The novice scout is alert and eager to prove her worth.</p>
+<h3>Atanya</h3>
+<p>Atanya is gruff but shrewd, more concerned about doing a good job than getting along with anyone. Secretly she hopes she has what it takes to be a hero and leader.</p>
+<p><b>Combat Encounters:</b>Atanya fires an arrow to wound a tough-looking PC, then demands surrender.</p>
+<p><b>Roleplaying Suggestions:</b> Atanya calls out a warning that the PCs are surrounded, hoping to bluff her way out of a lethal conflict.</p>
+
+<p id="town-watcher" class="stat-block-title">Town Watcher <span class="stat-block-cr">CR 1</span></p>
+<p class="stat-block-1"><b>XP</b> 400</p>
+<p class="stat-block-1"><b>Halfling ranger</b> 2</p>
+<p class="stat-block-1">LN Small humanoid (halfling)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> Perception +8</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 17, touch 14, flat-footed 14 (+3 armor, +3 Dex, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 15 (2d10)</p>
+<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +7, <b>Will</b> +2; +2 vs. fear</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> short sword +4 (1d4+1/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk shortbow +7 (1d4/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (fey +2)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger shoots at opponents who attempt to harm innocents or his allies. If trying to capture someone alive, he uses a tanglefoot bag. If trying to disperse a hostile crowd, he throws a thunderstone.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 12, <b>Dex</b> 17, <b>Con</b> 10, <b>Int</b> 13, <b>Wis</b> 12, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> +2; <b>CMD</b> 15</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, Precise Shot</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +7 (+3 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +1, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +4, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography, nature) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +2, Perception +8, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +12, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +6, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common, Halfling</p>
+<p class="stat-block-1"><b>SQ</b> track +1, wild empathy +2</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, tanglefoot bags (2), thunderstone; <b>Other Gear</b> masterwork studded leather, masterwork shortbow with 20 arrows, short sword, 84 gp</p>
+
+<p>The town watcher protects a settlement from hostile creatures.</p>
+<h3>Colin Fletcher</h3>
+<p>Colin vigilantly guards his town, and is quick to respond if any visitors start fights or cause trouble with locals.</p>
+<p><b>Combat Encounters:</b>Colin fires a warning shot from a rooftop to distract unruly adventurers in town, or uses a tanglefoot bag on a PC who's obviously drunk, raging, or out of control.</p>
+<p><b>Roleplaying Suggestions:</b> Colin is the eyes and ears for his town, and is a source of valuable information about the comings and goings of strangers.</p>
+
+		
+<p id="poacher" class="stat-block-title">Poacher <span class="stat-block-cr">CR 2</span></p>
+<p class="stat-block-1"><b>XP</b> 600</p>
+<p class="stat-block-1"><b>Human ranger</b> 3</p>
+<p class="stat-block-1">CE Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +7</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 14, touch 11, flat-footed 13 (+3 armor, +1 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 30 (3d10+9)</p>
+<p class="stat-block-1"><b>Fort</b> +5, <b>Ref</b> +4, <b>Will</b> +2</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> 2 mwk handaxes +6 (1d6+3/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk heavy crossbow +5 (1d10/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (animals +2)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> If hunting an animal, the ranger drinks his <i>potion of <a href="/pathfinderRPG/prd/spells/hideFromAnimals.html#_hide-from-animals" >hide from animals</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger sneaks close, then charges into melee. If his target is more powerful than expected, he retreats and drinks his <i>potion of <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 17, <b>Dex</b> 12, <b>Con</b> 14, <b>Int</b> 10, <b>Wis</b> 13, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +6; <b>CMD</b> 17</p>
+<p class="stat-block-1"><b>Feats</b> Double Slice, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/feats.html#_quick-draw" >Quick Draw</a>, <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (handaxe)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +9, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +4, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +2, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +6, Perception +7, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +7, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +7</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> favored terrain (forest +2), track +1, wild empathy +2</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a>, potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/hideFromAnimals.html#_hide-from-animals" >hide from animals</a></i>; <b>Other Gear</b> masterwork studded leather, masterwork handaxes (2), masterwork heavy crossbow with 20 bolts, 63 gp</p>
+
+<p>Poachers hunt animals for meat or trophies in areas where hunting is forbidden.</p>
+<h3>Brayvek the Butcher</h3>
+<p>Brayvek is a sadist who enjoys cutting up animals; selling the meat, horns, and tusks is merely a side benefit.</p>
+		
+<p id="border-guard" class="stat-block-title">Border Guard <span class="stat-block-cr">CR 3</span></p>
+<p class="stat-block-1"><b>XP</b> 800</p>
+<p class="stat-block-1"><b>Half-orc ranger</b> 4</p>
+<p class="stat-block-1">NE Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> darkvision 60 ft.; Perception +8</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 18, touch 14, flat-footed 14 (+4 armor, +4 Dex)</p>
+<p class="stat-block-1"><b>hp</b> 30 (4d10+4)</p>
+<p class="stat-block-1"><b>Fort</b> +5, <b>Ref</b> +8, <b>Will</b> +2</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> orc ferocity; <b>Resist</b> fire 10</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk falchion +7 (2d4+3/18–20)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +9 (1d8+2/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (elves +2)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 1st; concentration +2)</p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (fire).</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger keeps her foes as far away as possible.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the ranger's statistics are <b>Resist</b> none.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 18, <b>Con</b> 12, <b>Int</b> 10, <b>Wis</b> 13, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +4; <b>CMB</b> +6; <b>CMD</b> 20</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, Precise Shot, Rapid Shot</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +2, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +7, Perception +8, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +10, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +8</p>
+<p class="stat-block-1"><b>Languages</b> Common, Orc</p>
+<p class="stat-block-1"><b>SQ</b> favored terrain (plains +2), hunter's bond (companions), orc blood, track +2, weapon familiarity, wild empathy +3</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a> arrows</i> (3), <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a>, potion of <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a> of  faith</i>; <b>Other Gear</b> masterwork chain shirt, masterwork composite longbow (+2 Str) with 20 arrows, masterwork falchion, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_elixir-of-hiding" >elixir of hiding</a></i>, 26 gp</p>
+
+<p>A border guard protects the lands of her tribe.</p>
+<h3>Vardeeka</h3>
+<p>Vardeeka considers it an insult to her ancestors if an intruder gets past her.</p>
+
+		
+<p id="mounted-archer" class="stat-block-title">Mounted Archer <span class="stat-block-cr">CR 4</span></p>
+<p class="stat-block-1"><b>XP</b> 1,200</p>
+<p class="stat-block-1"><b>Human ranger</b> 5</p>
+<p class="stat-block-1">NE Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> Perception +9</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 19, touch 13, flat-footed 16 (+4 armor, +3 Dex, +2 shield)</p>
+<p class="stat-block-1"><b>hp</b> 42 (5d10+10)</p>
+<p class="stat-block-1"><b>Fort</b> +7, <b>Ref</b> +8, <b>Will</b> +3</p>
+<p class="stat-block-1"><b>Resist</b> fire 10</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk scimitar +8 (1d6+2/18–20) or</p>
+<p class="stat-block-2">lance +7 (1d8+2/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite shortbow +10 (1d6+2/×3)</p>
+<p class="stat-block-1"><b>Space </b>5 ft.;<b> Reach</b> 5 ft. (10 ft. with lance)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (animals +2, humans +4)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 2nd; concentration +3)</p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i> and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (fire).</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger shoots from horseback. When fighting dangerous opponents, she uses <i>oil of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i> on her bow and drinks her <i>potion of <a href="/pathfinderRPG/prd/spells/blur.html#_blur" >blur</a></i>.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the ranger's statistics are <b>Resist</b> none.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 15, <b>Dex</b> 16, <b>Con</b> 14, <b>Int</b> 10, <b>Wis</b> 12, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +5; <b>CMB</b> +7; <b>CMD</b> 20</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, Mounted Archery, <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (composite shortbow)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +7, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +9, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography, nature) +8, Perception +9, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +9, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +9, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +9</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> favored terrain (desert +2), hunter's bond (companions), track +2, wild empathy +4</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>oil of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i>,<i> potion of <a href="/pathfinderRPG/prd/spells/blur.html#_blur" >blur</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>; <b>Other Gear</b> masterwork chain shirt, masterwork heavy wooden shield, lance, masterwork composite shortbow (+2 Str) with 20 arrows, masterwork scimitar, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, combat-trained horse, riding saddle, 72 gp</p>
+
+<p>The mounted archer fires deadly arrows from horseback.</p>
+<h3>Zarishen</h3>
+<p>This bandit leader spares merchants and porters if they surrender so they may return again later with more cargo.</p>
+
+		
+<p id="tunnel-rat" class="stat-block-title">Tunnel Rat <span class="stat-block-cr">CR 5</span></p>
+<p class="stat-block-1"><b>XP</b> 1,600</p>
+<p class="stat-block-1"><b>Gnome ranger</b> 6</p>
+<p class="stat-block-1">N Small humanoid (gnome)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> low-light vision; Perception +12</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 19, touch 15, flat-footed 15 (+4 armor, +3 Dex, +1 dodge, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 49 (6d10+12)</p>
+<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +8, <b>Will</b> +3; +2 vs. illusions</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants); <b>Immune</b> poison</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk dagger +9/+4 (1d3+1/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> crossbow</i> +12 (1d6+1/19–20) or</p>
+<p class="stat-block-2">mwk dagger +11/+6 (1d3+1/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and reptilian humanoids, favored enemy (elves +2, goblinoids +4)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 3rd; concentration +4)</p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/alarm.html#_alarm" >alarm</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger uses Precise Shot to help allies in melee.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, the ranger's statistics are <b>Immune</b> none.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 12, <b>Dex</b> 16, <b>Con</b> 12, <b>Int</b> 12, <b>Wis</b> 13, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +6; <b>CMB</b> +6; <b>CMD</b> 20</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, Precise Shot, <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#rapid-reload" >Rapid Reload</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (light crossbow)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +8 (+4 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering, nature) +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (engineering) +4, Perception +12, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +15, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Common, Gnome, Sylvan</p>
+<p class="stat-block-1"><b>SQ</b> favored terrain (underground +2), hunter's bond (companion), track +3, wild empathy +6</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a> arrows</i> (6), <i>potion of <a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, smokesticks (2); <b>Other Gear</b> masterwork chain shirt, <i>+1 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> crossbow</i> with 20 bolts, masterwork dagger, 167 gp</p>
+
+<p>A tunnel rat patrols twisting passages underground.</p>
+		
+<p id="mountaineer" class="stat-block-title">Mountaineer <span class="stat-block-cr">CR 6</span></p>
+<p class="stat-block-1"><b>XP</b> 2,400</p>
+<p class="stat-block-1"><b>Dwarf ranger</b> 7</p>
+<p class="stat-block-1">LE Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> Perception +12</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 21, touch 12, flat-footed 19 (+7 armor, +2 Dex, +2 shield)</p>
+<p class="stat-block-1"><b>hp</b> 59 (7d10+16)</p>
+<p class="stat-block-1"><b>Fort</b> +8, <b>Ref</b> +8, <b>Will</b> +5; +2 vs. poison, spells, and spell-like abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants); <b>Resist</b> fire 10</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 warhammer</i> +9/+4 (1d8+6/×3), mwk heavy shield +9/+4 (1d4+5 plus bull rush)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk heavy crossbow +10 (1d10/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids, favored enemy (giants +2, humans +4)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 4th; concentration +6)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth" >spike growth</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i> and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (fire), then drinks his <i>potion of <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger uses Shield Slam to push opponents into difficult terrain, off cliffs, or into the area of <i><a href="/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth" >spike growth</a></i>.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a>, <a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, and <i>resist  energy</i>, the ranger's statistics are <b>Resist</b> none; <b>Speed</b>20 ft.; <b>Melee</b><i>+1 warhammer</i> +7/+2 (1d8+4/×3), mwk heavy shield +7/+2 (1d4+3 plus bull rush); <b>Str</b> 16; <b>CMB</b> +10; <b>CMD</b> 22 (26 vs. bull rush or trip); <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +9, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +7.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 14, <b>Con</b> 14, <b>Int</b> 10, <b>Wis</b> 15, <b>Cha</b> 6</p>
+<p class="stat-block-1"><b>Base Atk</b> +7; <b>CMB</b> +12; <b>CMD</b> 24 (28 vs. bull rush or trip)</p>
+<p class="stat-block-1"><b>Feats</b> Double Slice, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, Improved Shield Bash, Improved <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Shield Slam, <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +11, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering, geography, nature) +8, Perception +12 (+14 to notice unusual stonework), <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (miner) +8, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +6, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +10, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +9</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven</p>
+<p class="stat-block-1"><b>SQ</b> favored terrain (mountain +2), hunter's bond (companions), track +3, wild empathy +5, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>; <b>Other Gear</b><i>+1 breastplate</i>, masterwork heavy wooden shield, <i>+1 warhammer</i>, masterwork heavy crossbow with 20 bolts, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, 229 gp</p>
+
+		
+<p id="orc-slayer" class="stat-block-title">Orc slayer <span class="stat-block-cr">CR 7</span></p>
+<p class="stat-block-1"><b>XP</b> 3,200</p>
+<p class="stat-block-1"><b>Elf ranger</b> 8</p>
+<p class="stat-block-1">CN Medium humanoid (elf)</p>
+<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> low-light vision; Perception +14</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 22, touch 15, flat-footed 18 (+5 armor, +1 deflection, +4 Dex, +2 natural)</p>
+<p class="stat-block-1"><b>hp</b> 62 (8d10+14)</p>
+<p class="stat-block-1"><b>Fort</b> +8, <b>Ref</b> +13, <b>Will</b> +4; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Immune</b> sleep; <b>Resist</b> fire 10</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk elven curve blade +15/+10 (1d10+1/18–20)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 longbow</i> +15/+10 (1d8+1/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (animals +2, orcs +4)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 5th; concentration +6)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (fire).</p>
+<p class="stat-block-1"><b>During Combat</b> If ranger acts in the surprise round, she casts <i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i>. She prefers to attack at range and from cover.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the ranger's statistics are <b>Init</b> +4; <b>AC</b> 20, touch 15, flat-footed 16; <b>Ref</b> +11; <b>Melee</b> mwk elven curve blade +13/+8 (1d10+1/18–20); <b>Ranged</b> +1 longbow +13/+8 (1d8+1/×3); <b>Dex</b> 19; <b>CMD</b> +24; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +11, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +10, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +14.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 13, <b>Dex</b> 23, <b>Con</b> 12, <b>Int</b> 12, <b>Wis</b> 12, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +8; <b>CMB</b> +9; <b>CMD</b> 26</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Precise Shot, <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +13, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +9, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering, geography) +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +8, Perception +14, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +12, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +16, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +12, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +7</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven, Orc</p>
+<p class="stat-block-1"><b>SQ</b> elven magic, favored terrain (forest +4, plains +2), hunter's bond (companions), swift tracker, track +4, weapon familiarity, wild empathy +7, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>; <b>Other Gear</b><i>+1 chain shirt</i>, <i>+1 longbow </i>with 20 arrows, masterwork elven curve blade, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, 194 gp</p>
+
+<p>The orc slayer is driven by vengeance to kill all orcs.</p>
+
+<p id="swampwalker" class="stat-block-title">Swampwalker <span class="stat-block-cr">CR 8</span></p>
+<p class="stat-block-1"><b>XP</b> 4,800</p>
+<p class="stat-block-1"><b>Half-elf ranger</b> 9</p>
+<p class="stat-block-1">CE Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> low-light vision; Perception +16</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 19, touch 12, flat-footed 18 (+4 armor, +1 deflection, +1 Dex, +3 natural)</p>
+<p class="stat-block-1"><b>hp</b> 81 (9d10+27)</p>
+<p class="stat-block-1"><b>Fort</b> +8, <b>Ref</b> +7, <b>Will</b> +5; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> evasion; <b>Immune </b>sleep</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk spiked chain +14/+9 (2d4+6)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 composite longbow</i> +12/+7 (1d8+5/19–20/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (aquatic humanoids +4, humans +2)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 6th; concentration +8)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/snare.html#_snare" >snare</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i> (2)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i> and <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger attacks from stealth using his bow. He might drag a Small opponent underwater, relying on <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a> to outlast his drowning foe (though he has his <i>potion of <a href="/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing" >water breathing</a></i> just in case).</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, the ranger's statistics are <b>AC</b> 16, touch 12, flat-footed 15.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 12, <b>Con</b> 14, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +9; <b>CMB</b> +13; <b>CMD</b> 25</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/feats.html#_exotic-weapon-proficiency" >Exotic Weapon Proficiency</a> (spiked chain), <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (composite longbow), <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, Rapid Shot, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a>), <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (composite longbow)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +12, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +12, Perception +16, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +16, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +14, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +16</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven</p>
+<p class="stat-block-1"><b>SQ</b> elf blood, favored terrain (forest +2, swamp +4), hunter's bond (companions), swift tracker, track +4, wild empathy +8, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-frost" >frost</a> arrows</i> (5), <i>+1 human-bane arrows</i> (5); <i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a>, potion of <a href="/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing" >water breathing</a></i>; <b>Other Gear</b><i>+1 studded leather</i>, <i>+1 composite longbow</i> (+4 Str) with 20 arrows, masterwork spiked chain, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, 290 gp</p>
+
+<p>The swampwalker is a savage predator of the stinking marsh. He is familiar with its threats and uses them as tools to defeat his opponents.</p>
+<h3>Cullen Theoren</h3>
+<p>Cullen is a savage survivor in an environment that constantly threatens death from exposure, disease or predators. He hunts any creature that intrudes on his territory, and has little tolerance for weakness or mercy.</p>
+<p><b>Combat Encounters:</b>Cullen strikes at the PCs from the water or from an elevated branch, slipping away before they can approach before returning to harass them again and again. He may also try to lure the PCs into environmental threats such as deep water or quicksand to make them easier prey.</p>
+<p><b>Roleplaying Suggestions:</b> If Cullen observes the PCs navigating his swamp with ease or defeating a dangerous monster, he may offer his services as a guide, or trade information with them.</p>
+
+		
+<p id="pirate-queen" class="stat-block-title">Pirate Queen <span class="stat-block-cr">CR 9</span></p>
+<p class="stat-block-1"><b>XP</b> 6,400</p>
+<p class="stat-block-1"><b>Halfling ranger</b> 10</p>
+<p class="stat-block-1">NE Small humanoid (halfling)</p>
+<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> Perception +17</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 25, touch 17, flat-footed 20 (+4 armor, +1 deflection, +4 Dex, +1 dodge, +3 natural, +1 shield, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 69 (10d10+10)</p>
+<p class="stat-block-1"><b>Fort</b> +10, <b>Ref</b> +13, <b>Will</b> +7; +2 vs. fear</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> evasion; <b>Resist</b> fire 20</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 rapier</i> +14/+9 (1d4+3/17–20), mwk handaxe +14/+9 (1d4+1/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk light crossbow +16 (1d6/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (aquatic humanoids +4, humans +4, magical beasts +2)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 7th; concentration +9)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/windWall.html#_wind-wall" >wind wall</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (fire).</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger prefers melee, using Mobility and Spring Attack to engage the enemy leader while her pirate allies deal with underlings.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the ranger's statistics are <b>AC</b> 22, touch 17, flat-footed 17; <b>Resist</b> none; <b>Speed</b> 20 ft.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 18, <b>Con</b> 12, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +10; <b>CMB</b> +11; <b>CMD</b> 27</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, Improved <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, Mobility, Spring Attack, Two-Weapon Defense, <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +11, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +17, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography, nature) +8, Perception +17, <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (sailor) +10, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +21, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +15, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +15</p>
+<p class="stat-block-1"><b>Languages</b> Common, Halfling</p>
+<p class="stat-block-1"><b>SQ</b> favored terrain (urban +2, water +4), hunter's bond (companions), swift tracker, track +5, wild empathy +10, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>; <b>Other Gear</b><i>+1 studded leather</i>, <i>+1 rapier</i>, masterwork handaxe, masterwork light crossbow with 20 bolts, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-incredible-dexterity" >belt of incredible dexterity</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_feather-token" >feather token</a></i> (swan boat), <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, 863 gp</p>
+
+<p>The pirate queen is a deadly foe, whether she's encountered in a scummy port town or out on the high seas, flying the black flag. She keeps a full crew of unruly, vicious buccaneers in line, and rewards them with the treasure and carnage they crave.</p>
+<h3>Pialoosa</h3>
+<p>Cocky and self-assured from years of experience on the water, Pialoosa expects nothing but the best from her crew, and rewards them generously when they show great bravery or skill. She is especially greedy&mdash;even for a pirate&mdash;and pursues any rumors, maps, or historical fables that might lead to treasure hoards hidden by long-dead pirates.</p>
+<p><b>Combat Encounters:</b>Pialoosa pursues a ship the PCs are on, demanding they surrender their treasure or be tossed in the briny deep. If encountered on land, she might start a massive brawl in a tavern, possibly after playing a game of cards and losing a good share of the booty she acquired most recently.</p>
+<p><b>Roleplaying Suggestions:</b> Pialoosa could be hired as a trustworthy (if black-hearted) ship captain to guide the PCs through dangerous waters. She relies on her reputation to keep other pirates away, and flies a special red flag with a black image of a foot on it to indicate she's aboard a ship. Anyone who attacks her ship risks death beneath her blade, even if it's an old friend.</p>
+
+		
+<p id="giant-killer" class="stat-block-title">Giant-Killer <span class="stat-block-cr">CR 10</span></p>
+<p class="stat-block-1"><b>XP</b> 9,600</p>
+<p class="stat-block-1"><b>Gnome ranger</b> 11</p>
+<p class="stat-block-1">NE Small humanoid (gnome)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> low-light vision; Perception +18</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 24, touch 15, flat-footed 21 (+6 armor, +1 deflection, +2 Dex, +1 dodge, +3 natural, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 116 (11d10+51)</p>
+<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +10, <b>Will</b> +6; +2 vs. illusions</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants), evasion; <b>Immune</b> poison; <b>Resist</b> fire 20</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 gnome hooked hammer</i> +13/+8/+3 (1d6+3/19–20/×3), mwk gnome hooked hammer +13 (1d4+2/19–20/×4) or</p>
+<p class="stat-block-2">mwk longspear +15/+10/+5 (1d6+3/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +15/+10/+5 (1d6+2/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and reptilian humanoids, favored enemy (earth outsiders +2, giants +6, oozes +2)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 8th; concentration +10)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle" >entangle</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (fire).</p>
+<p class="stat-block-1"><b>During Combat</b> If facing multiple opponents with reach, the ranger uses <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the ranger's statistics are <b>hp</b> 94; <b>Fort</b> +10; <b>AC</b> 21, touch 15, flat-footed 18;<b>Immune</b> none; <b>Resist</b> none; <b>Con</b> 14.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 14, <b>Con</b> 18, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +11; <b>CMB</b> +12; <b>CMD</b> 26</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Double Slice, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (gnome hooked hammer), <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, Mobility, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, Two-Weapon Rend, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +17 (+13 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering, local) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography, nature) +8, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +1, Perception +18, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +19, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +16, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +8</p>
+<p class="stat-block-1"><b>Languages</b> Common, Giant, Gnome</p>
+<p class="stat-block-1"><b>SQ</b> favored terrain (mountain +2, underground +4), hunter's bond (companions), quarry, swift tracker, track +5, wild empathy +11, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, <i>scroll of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>; <b>Other Gear</b><i>+2 chain shirt</i>, <i>+1/masterwork gnome hooked hammer</i>, masterwork composite longbow (+3 Str) with 20 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-elvenkind" >boots of elvenkind</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, 630 gp</p>
+
+<p>The giant-killer is trained to kill monsters many times her size, using speed, specialized weapons, and time honored techniques to bring down even the most daunting foes.</p>
+<h3>Mirshi Knee-Splitter</h3>
+<p>Feisty and fearless, Mirshi is good at slaying giants&mdash;and she makes sure that everyone else knows it. If a town is menaced by her favored prey, she swaggers in and demands an outrageous price for her services. Once the townsfolk agree, she murders the giants, claims her wages, and leaves the town impoverished. She's been fighting giants since she came of age, and she wants to collect at least one head from each type of giant to display in her trophy room.</p>
+<p><b>Combat Encounters:</b> Mirshi might attack the PCs to prevent them from stealing her glory or depriving her of a bounty from a nearby village. If giants are involved in a fight, she fights them no matter how much she might despise the other combatants involved. When she misses in combat against a Medium or Small creature, she claims it's because she's so used to fighting much larger opponents (mostly just to protect her pride).</p>
+<p><b>Roleplaying Suggestions:</b> Mirshi loves it when others laud her achievements. She quickly becomes friendly toward a bard PC if she thinks the bard might write ballads, songs, epic poems, or plays about her giant-slaying adventures. The tales Mirshiri tells about herself are highly exaggerated, but she never lies when counting up the number of giants that she's killed.</p>
+		
+		
+<p id="bounty-hunter" class="stat-block-title">Bounty Hunter <span class="stat-block-cr">CR 11</span></p>
+<p class="stat-block-1"><b>XP</b> 12,800</p>
+<p class="stat-block-1"><b>Human ranger</b> 12</p>
+<p class="stat-block-1">LN Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> Perception +16</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 25, touch 16, flat-footed 20 (+5 armor, +1 deflection, +4 Dex, +1 dodge, +4 natural)</p>
+<p class="stat-block-1"><b>hp</b> 94 (12d10+24)</p>
+<p class="stat-block-1"><b>Fort</b> +11, <b>Ref</b> +13, <b>Will</b> +6</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> evasion; <b>Immune</b> poison; <b>Resist</b> fire 20</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 kukri</i> +16/+11/+6 (1d4+5/18–20), <i>+1 kukri</i> +16/+11 (1d4+5/18–20)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +17/+12/+7 (1d8+4/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (animals +2, humans +6, orcs +2)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 9th; concentration +10)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/windWall.html#_wind-wall" >wind wall</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (fire).</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger attacks with his bow using <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>. In melee, he uses his kukris or attempts to grapple.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the ranger's statistics are <b>Init</b> +6; <b>Senses</b> normal; <b>AC</b> 20, touch 14, flat-footed 17; <b>Ref</b> +11; <b>Immune</b> none; <b>Resist</b> none; <b>Speed</b> 30 ft.; <b>Ranged</b> mwk longbow +15/+10/+5 (1d8+4/×3); <b>Dex</b> 14; <b>CMD</b> 30 (32 vs. grapple); <b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +12, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +17.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 19, <b>Dex</b> 18, <b>Con</b> 14, <b>Int</b> 10, <b>Wis</b> 12, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +12; <b>CMB</b> +16 (+18 grapple); <b>CMD</b> 32 (34 vs. grapple)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Double Slice, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, Improved Grapple, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, Improved <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (kukri)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +14 (+18 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +10, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +12, <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> +7, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography, nature) +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) +5, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +2, Perception +16, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +11, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +19, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +16, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven, Orc</p>
+<p class="stat-block-1"><b>SQ</b> camouflage, favored terrain (plains +2, urban +4), hunter's bond (companions), quarry, swift tracker, track +6, wild empathy +12, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i> (2), smokesticks (2), tanglefoot bags (2); <b>Other Gear</b><i>+2 studded leather, +1 kukris</i> (2), masterwork composite longbow (+4 Str) with 20 arrows, <i>amulet  of natural armor +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, 793 gp</p>
+<p>A bounty hunter brings back his targets dead or alive.</p>
+<h3>Alec Renatus</h3>
+<p>Alec hunts people to bring them to justice, not because he enjoys killing. He uses deadly force only if he must to protect himself or others. He tries to learn as much as possible about his target before starting his pursuit, and selects potions and other items based on the best tactics for capturing that person.</p>
+<p><b>Combat Encounters:</b>Alec generally does work only for legitimate and lawful governments, but might attempt to capture a PC if he was deceived into believing that PC has broken the law.</p>
+<p><b>Roleplaying Suggestions:</b> Alec could approach the PCs to gain their help in capturing a particularly difficult target.</p>
+
+		
+<p id="fiendslayer" class="stat-block-title">Fiendslayer <span class="stat-block-cr">CR 12</span></p>
+<p class="stat-block-1"><b>XP</b> 19,200</p>
+<p class="stat-block-1"><b>Half-elf ranger</b> 13</p>
+<p class="stat-block-1">N Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> low-light vision; Perception +26</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 28, touch 16, flat-footed 22 (+8 armor, +5 Dex, +1 dodge, +4 natural)</p>
+<p class="stat-block-1"><b>hp</b> 125 (13d10+49)</p>
+<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +14, <b>Will</b> +7; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> evasion; <b>Immune</b> fire (120 points), poison, sleep; <b>Resist</b> electricity 20</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 cold iron rapier</i> +17/+12/+7 (1d6+3/15–20), <i>+1 silver dagger</i> +17/+12/+7 (1d4+2/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> crossbow</i> +19 (1d8+1/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (evil outsiders +6, magical beasts +2, undead +2)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 10th; concentration +12)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (2)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (fire), and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (electricity).</p>
+<p class="stat-block-1"><b>During Combat</b> If fighting demons or devils, the ranger applies <i>oil of <a href="/pathfinderRPG/prd/spells/blessWeapon.html#_bless-weapon" >bless weapon</a></i> to one weapon and drinks her <i>potion of <a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i>.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the ranger's statistics are <b>AC</b> 24, touch 16, flat-footed 18; <b>hp</b> 99; <b>Fort</b> +10; <b>Immune</b> sleep; <b>Resist</b> none; <b>Speed</b> 30; <b>Con</b> 12; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +15.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 21, <b>Con</b> 16, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +13; <b>CMB</b> +15; <b>CMD</b> 31</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Double Slice, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, Greater <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (rapier), Improved <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (Perception), <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, Two-Weapon Rend, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +15 (+19 when jumping), <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +13, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +10, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +3, Perception +26, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +12, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +21, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +18, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Abyssal, Celestial, Common, Elven, Infernal</p>
+<p class="stat-block-1"><b>SQ</b> camouflage, elf blood, favored terrain (Abyss +4, underground +4, urban +2), hunter's bond (companions), quarry, swift tracker, track +6, wild empathy +12, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>oil of <a href="/pathfinderRPG/prd/spells/blessWeapon.html#_bless-weapon" >bless weapon</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> (2), <i>+1 evil outsider-bane bolts</i> (5), holy water (4); <b>Other Gear</b><i>+2 mithral breastplate</i>, <i>+1 cold iron rapier</i>, <i>+1 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> crossbow</i> with 15 bolts, <i>+1 silver dagger</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-incredible-dexterity" >belt of incredible dexterity</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, 772 gp</p>
+<p>The fiendslayer's ultimate goal is to rid the mortal world of evil outsiders.</p>
+<h3>Elizaveta Oriones</h3>
+<p>Trained by a church, Elizaveta sees killing demons and devils as a sacred duty. In villages plagued by fiends, she questions locals to determine what kind of threat she faces. If foolish dabblers called the fiends, she turns them in. If the summoning was deliberate, she kills those who were responsible.</p>
+<p><b>Combat Encounters:</b>Eliza might confront the PCs if she hears rumors that one is a conjurer or summoner.</p>
+<p><b>Roleplaying Suggestions:</b> Eliza volunteers her help only if PCs are hunting demons, devils, or fiendish cults.</p>
+
+		
+<p id="desert-stalker" class="stat-block-title">Desert Stalker <span class="stat-block-cr">CR 13</span></p>
+<p class="stat-block-1"><b>XP</b> 25,600</p>
+<p class="stat-block-1"><b>Half-orc ranger</b> 14</p>
+<p class="stat-block-1">LE Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> darkvision 60 ft.; Perception +19</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 27, touch 14, flat-footed 25 (+6 armor, +2 deflection, +1 Dex, +1 dodge, +4 natural, +3 shield)</p>
+<p class="stat-block-1"><b>hp</b> 130 (14d10+49)</p>
+<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +12, <b>Will</b> +8</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> evasion, orc ferocity; <b>Immune</b> fire (120 points); <b>Resist</b> electricity 30</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 scimitar</i> +18/+13/+8 (1d6+6/15–20), <i>+2 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i> +21/+16 (1d3+7 plus bull rush)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +16/+11/+6 (1d8+5/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (animals +2, humans +4, magical beasts +4)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 11th; concentration +13)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/windWall.html#_wind-wall" >wind wall</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (fire), and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (electricity).</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/windWall.html#_wind-wall" >wind wall</a></i> to separate foes, then uses Improved Shield Bash to manipulate positioning.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the ranger's statistics are <b>AC</b> 23, touch 14, flat-footed 21; <b>Immune</b> none; <b>Resist</b> none; <b>Speed</b> 30 ft.; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +11.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 13, <b>Con</b> 16, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +14; <b>CMB</b> +19; <b>CMD</b> 33</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Double Slice, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (scimitar), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, Improved Shield Bash, Improved <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Shield Master, Shield Slam, <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +11 (+15 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +13, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +4, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +7, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +10, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +1, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +13, Perception +19, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +9, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +5, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +18, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +15</p>
+<p class="stat-block-1"><b>Languages</b> Common, Orc</p>
+<p class="stat-block-1"><b>SQ</b> camouflage, favored terrain (desert +6, mountain +2, urban +2), hunter's bond (companions), orc blood, quarry, swift tracker, track +7, weapon familiarity, wild empathy +13, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>, <i>scrolls of <a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i> (2), <i>wand of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (20 charges); <b>Other Gear</b><i>+2 chain shirt</i>, <i>+2 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> wooden <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 scimitar</i>, masterwork composite longbow (+5 Str) with 20 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +2</i>, 981 gp</p>
+
+<p>The desert stalker snares his prey and bleeds it dry.</p>
+<h3>Arkesh</h3>
+<p>Arkesh loves the desert, its people, and their traditions, and hates those who would change or exploit any of these. He might let a water caravan run by foreigners pass, but would kill a similar group bringing exotic goods to tempt desert people into strange new ways.</p>
+<p><b>Combat Encounters:</b>Arkesh attacks the PCs for a perceived affront to his territory or traditions.</p>
+<p><b>Roleplaying Suggestions:</b> If PCs respect the desert, Arkesh might rescue them during a sandstorm, guide them past a dangerous monster, or explain in detail the hazards of the wilds.</p>
+
+		
+<p id="angel-slayer" class="stat-block-title">Angel Slayer <span class="stat-block-cr">CR 14</span></p>
+<p class="stat-block-1"><b>XP</b> 38,400</p>
+<p class="stat-block-1"><b>Half-orc ranger</b> 15</p>
+<p class="stat-block-1">CE Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> darkvision 60 ft.; Perception +20</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 26, touch 14, flat-footed 23 (+6 armor, +1 deflection, +3 Dex, +5 natural, +1 shield)</p>
+<p class="stat-block-1"><b>hp</b> 112 (15d10+25)</p>
+<p class="stat-block-1"><b>Fort</b> +13, <b>Ref</b> +17, <b>Will</b> +12</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> evasion, orc ferocity; <b>Immune</b> cold (120 points); <b>Resist</b> electricity 30, fire 30</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 good outsider-bane orc double axe</i> +21/+16/+11 (1d8+7/19–20/×3), <i>+1 orc double axe</i> +21/+16/+11 (1d8+7/19–20/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +19/+14/+9 (1d8+6/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (elves +2, good outsiders +8, humans +2, magical beasts +2)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 12th; concentration +14)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (2)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (cold), and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (electricity, fire).</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger uses her bow against flying targets, but prefers melee and uses a <i>potion of <a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i> if her prey won't land.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the ranger's statistics are <b>Init</b> +5; <b>AC</b> 19, touch 12, flat-footed 18; <b>Ref</b> +15; <b>Immune</b> none; <b>Resist</b> none; <b>Speed</b> 30 ft.; <b>Ranged</b> mwk composite longbow +17/+12/+7 (1d8+6/×3); <b>Dex</b> 13; <b>CMD</b> 33; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +8, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +18.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 17, <b>Con</b> 12, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +15; <b>CMB</b> +21; <b>CMD</b> 35</p>
+<p class="stat-block-1"><b>Feats</b> Double Slice, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, Greater <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (orc double axe), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, Improved <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Two-Weapon Defense, <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (orc double axe)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +7, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +18, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +1, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +13, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +10, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +2, Perception +20, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +10, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +20, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +15, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +18</p>
+<p class="stat-block-1"><b>Languages</b> Abyssal, Celestial, Common, Orc</p>
+<p class="stat-block-1"><b>SQ</b> camouflage, favored terrain (Heaven +6, mountain +2, urban +2), hunter's bond (companions), orc blood, quarry, swift tracker, track +7, weapon familiarity, wild empathy +14, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>+1 good outsider-bane arrows</i> (10), <i>potions of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/restoration.html#_restoration" >restoration</a></i> (2), <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-feather-falling" >ring of feather falling</a>, wand of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a> </i>(50 charges); <b>Other Gear</b><i>+3 studded leather</i>, <i>+1 good outsider-bane/+1 orc double axe</i>, masterwork composite longbow (+6 Str) with 10 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +3</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, 895 gp</p>
+
+<p>An angel slayer decries false gods and their messengers.</p>
+<h3>Wrathack</h3>
+<p>Wrathack doesn't tolerate preaching about goodness or the benign nature of the gods. She decorates her clothing with bloody feathers from angel wings as a warning to any who dare speak lies about hope, kindness, and salvation.</p>
+		
+<p id="undead-slayer" class="stat-block-title">Undead Slayer <span class="stat-block-cr">CR 15</span></p>
+<p class="stat-block-1"><b>XP</b> 51,200</p>
+<p class="stat-block-1"><b>Human ranger</b> 16</p>
+<p class="stat-block-1">LG Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> Perception +21</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 25, touch 14, flat-footed 23 (+6 armor, +2 deflection, +2 Dex, +5 natural)</p>
+<p class="stat-block-1"><b>hp</b> 132 (16d10+40)</p>
+<p class="stat-block-1"><b>Fort</b> +17, <b>Ref</b> +15, <b>Will</b> +10</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved evasion; <b>Immune</b> cold (120 points), fire (120 points), poison; <b>Resist</b> electricity 30</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a> scimitar</i> +21/+16/+11/+6 (1d6+6/18–20), <i>+1 undead-bane   <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> hammer</i> +21/+16/+11 (1d4+6)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +19/+14/+9/+4 (1d8+5/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (aberrations +2, evil outsiders +2, humans +2, undead +8)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 13th; concentration +15)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease" >remove disease</a></i> (2)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom" >owl's wisdom</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (2)</p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/calmAnimals.html#_calm-animals" >calm animals</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (cold, fire), and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (electricity).</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger allows herself to be surrounded by weak undead so she can use Great Cleave and <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the ranger's statistics are <b>AC</b> 20, touch 14, flat-footed 18; <b>Immune</b> none; <b>Resist</b> none; <b>Speed</b> 30 ft.; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +17.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 14, <b>Con</b> 14, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +16; <b>CMB</b> +21; <b>CMD</b> 35</p>
+<p class="stat-block-1"><b>Feats</b> Cleave, Double Slice, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>, Greater <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, Improved <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, Two-Weapon Rend, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (light hammer, scimitar)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +17 (+21 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +13, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +15, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local, planes) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +15, Perception +21, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (string) +1, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +10, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +13, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +21, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +15, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +13</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> camouflage, favored terrain (forest +2, underground +4, urban +4), hunter's bond (companions), quarry, swift tracker, track +8, wild empathy +15, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_necklace-of-fireballs" >necklace of fireballs</a></i> (type I), <i>potion of <a href="/pathfinderRPG/prd/spells/blur.html#_blur" >blur</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/hideFromUndead.html#_hide-from-undead" >hide from undead</a></i> (5), <i>potions of <a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i> (2), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_silversheen" >silversheen</a>,</i> alchemical silver arrows (20), holy water (4); <b>Other Gear</b><i>+2 chain shirt</i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a> scimitar</i>, <i>+1 undead-bane <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> hammer</i>, masterwork composite longbow (+5 Str) with 20 arrows, <i>belt of mighty  constitution +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +3</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +2</i>, 743 gp</p>
+
+<p>An undead slayer's sole purpose is to destroy undead.</p>
+<h3>Seijal Nightbane</h3>
+<p>With a combination of relentless determination and cold efficiency, Seijal seeks out places where undead are known to lurk, attracts their attention, then destroys any that crawl forth.</p>
+
+		
+<p id="daredevil-hunter" class="stat-block-title">Daredevil Hunter <span class="stat-block-cr">CR 16</span></p>
+<p class="stat-block-1"><b>XP</b> 76,800</p>
+<p class="stat-block-1"><b>Elf ranger</b> 17</p>
+<p class="stat-block-1">CN Medium humanoid (elf)</p>
+<p class="stat-block-1"><b>Init</b> +7; <b>Senses</b> darkvision 60 ft., low-light vision; Perception +21</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 33, touch 19, flat-footed 26 (+9 armor, +2 deflection, +6 Dex, +1 dodge, +5 natural)</p>
+<p class="stat-block-1"><b>hp</b> 142 (17d10+44)</p>
+<p class="stat-block-1"><b>Fort</b> +15, <b>Ref</b> +20, <b>Will</b> +9; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved evasion; <b>Immune</b> poison, sleep</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 elven curve blade</i> +20/+15/+10/+5 (1d10+4/18–20)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+2 composite longbow</i> +26/+21/+16/+11 (1d8+4/19–20/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (animals +2, dragons +4, giants +4, magical beasts +4)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 14th; concentration +15)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a></i>, <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/snare.html#_snare" >snare</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/hideFromAnimals.html#_hide-from-animals" >hide from animals</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, and <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger prefers ranged combat. He uses <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a> with Rapid Shot, hoping to also use Tiring Critical.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, and <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, the ranger's statistics are <b>Senses</b> low-light vision; <b>AC</b> 28, touch 19, flat-footed 21; <b>hp</b> 108; <b>Fort</b> +13; <b>Immune</b> sleep; <b>Speed</b> 30 ft.; <b>Con</b> 11; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +23.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 24, <b>Con</b> 15, <b>Int</b> 10, <b>Wis</b> 13, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +17; <b>CMB</b> +19; <b>CMD</b> 39</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (composite longbow), Manyshot, Mobility, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Precise Shot, Rapid Shot, Shot on the <a href="/pathfinderRPG/prd/feats.html#_run" >Run</a>, Spring Attack, Tiring Critical</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +23 (+27 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +9, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana, local) +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +13, Perception +21, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +11, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +26, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +21, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven</p>
+<p class="stat-block-1"><b>SQ</b> camouflage, elven magic, favored terrain (forest +2, mountain +4, plains +4), hide in plain sight, hunter's bond (companions), quarry, swift tracker, track +8, weapon familiarity, wild empathy +17, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>+1 dragon-bane arrows</i> (5), <i>+1 giant-bane arrows</i> (5), <i>+1 magical beast-bane arrows</i> (5); <i>potions of <a href="/pathfinderRPG/prd/spells/displacement.html#_displacement" >displacement</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i> (2), <i>scroll of <a href="/pathfinderRPG/prd/spells/communeWithNature.html#_commune-with-nature" >commune with nature</a></i>, <i>wand of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (20 charges); <b>Other Gear</b><i>+3 mithral breastplate</i>, <i>+1 elven curve blade, +2 composite  longbow</i> (+2 Str) with 60 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-incredible-dexterity" >belt of incredible dexterity</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-elvenkind" >boots of elvenkind</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +3</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_efficient-quiver" >efficient quiver</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-feather-falling" >ring of feather falling</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +2</i>, 1,380 gp</p>
+
+<p>The daredevil hunter seeks the largest and most dangerouscreatures for trophy kills.</p>
+<h3>Thalion Skytale</h3>
+<p>Thalion thinks of himself as the world's greatest big game hunter. He spends days&mdash;even weeks&mdash;tracking creatures he intends to slay, and sometimes hires his services to areas plagued by marauding giants or dragons. If he mistakenly attacks an animal companion or eidolon, he apologizes and asks to duel the creature to test his skills.</p>
+		
+<p id="golem-breaker" class="stat-block-title">Golem-Breaker <span class="stat-block-cr">CR 17</span></p>
+<p class="stat-block-1"><b>XP</b> 102,400</p>
+<p class="stat-block-1"><b>Dwarf ranger</b> 18</p>
+<p class="stat-block-1">LN Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft.; Perception +20</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 31, touch 16, flat-footed 28 (+10 armor, +3 deflection, +2 Dex, +1 dodge, +5 natural)</p>
+<p class="stat-block-1"><b>hp</b> 203 (18d10+100)</p>
+<p class="stat-block-1"><b>Fort</b> +18, <b>Ref</b> +15, <b>Will</b> +10; +2 vs. poison, spells, and spell-like abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants), improved evasion; <b>Immune</b> fire (120 points), poison; <b>Resist</b> electricity 30</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+2 dwarven urgrosh</i> +25/+20/+15/+10 (1d8+8/19–20/×3), <i>+2 dwarven urgrosh</i> +25/+20/+15 (1d6+8/19–20/×3)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 heavy crossbow</i> +21 (1d10+1/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids, favored enemy (constructs +8, elves +2, goblinoids +2, oozes +2)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 15th; concentration +17)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/waterWalk.html#_water-walk" >water walk</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/windWall.html#_wind-wall" >wind wall</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectSnaresAndPits.html#_detect-snares-and-pits" >detect snares and pits</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (fire), and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a> </i>(electricity).</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger uses Mobility and Spring Attack to overcome enemy reach, and Greater <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a> to make devastating single blows.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the ranger's statistics are <b>AC</b> 26, touch 16, flat-footed 23; <b>hp</b> 167; <b>Fort</b> +16; <b>Immune</b> none; <b>Resist</b> none; <b>Speed</b> 20 ft.; <b>Con</b> 16.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 14, <b>Con</b> 20, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 6</p>
+<p class="stat-block-1"><b>Base Atk</b> +18; <b>CMB</b> +24; <b>CMD</b> 40 (44 vs. bull rush or trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Double Slice, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, Greater <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, Greater <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (dwarven urgrosh), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, Improved <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, Improved <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, Mobility, Spring Attack, <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, Two-Weapon Rend, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (dwarven urgrosh)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +19, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +14, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +15, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +18, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (engineering) +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography, nature) +8, Perception +20 (+22 to notice unusual stonework), <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +12, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +15, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +9</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven</p>
+<p class="stat-block-1"><b>SQ</b> camouflage, favored terrain (forest +2, mountain +4, underground +4, urban +4), hide in plain sight, hunter's bond (companions), quarry, swift tracker, track +9, wild empathy +16, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed" >boots of speed</a></i>; <b>Other Gear</b><i>+4 mithral breastplate</i>, <i>+2/+2 dwarven urgrosh</i>, <i>+1 heavy crossbow</i> with 10 bolts, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bag-of-holding" >bag of holding</a></i> (type I), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, <i>golembane scarab</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +3</i>, 1,600 gp</p>
+
+<p>A golem-breaker makes a ruin of constructs, clockworks, and complex devices.</p>
+<h3>Esheyna</h3>
+<p>Esheyna has always had a knack for spotting the weak points in structures, a talent she has long put to use to sabotage enemy siege engines. Now a legendary mercenary, she enjoys bashing apart teams of iron golems just to see how they're supposed to fit together.</p>
+<p><b>Combat Encounters:</b> Esheyna might battle the PCs for control of an ancient juggernaut just so she has bragging rights about destroying it.</p>
+<p><b>Roleplaying Suggestions:</b> Esheyna offers advice and assistance to the PCs about ancient war machines or clockwork invaders from another plane.</p>
+		
+<p id="mage-hunter" class="stat-block-title">Mage Hunter <span class="stat-block-cr">CR 18</span></p>
+<p class="stat-block-1"><b>XP</b> 153,600</p>
+<p class="stat-block-1"><b>Human ranger</b> 19</p>
+<p class="stat-block-1">CE Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +11; <b>Senses</b> darkvision 60 ft.; Perception +24</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 34, touch 19, flat-footed 28 (+10 armor, +3 deflection, +5 Dex, +1 dodge, +5 natural)</p>
+<p class="stat-block-1"><b>hp</b> 195 (19d10+86)</p>
+<p class="stat-block-1"><b>Fort</b> +19, <b>Ref</b> +24, <b>Will</b> +14</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved evasion,<i> <a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i>; <b>Immune</b> electricity (120 points), fire (120 points), poison; <b>Resist</b> cold 30, electricity 30, fire 30</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 greataxe</i> +21/+16/+11/+6 (1d12+2/×3)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-frost" >frost</a> longbow</i> +27/+22/+17/+12 (1d8+1/19–20/×3 plus 1d6 cold)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (elves +6, gnomes +2, humans +4, magical beasts +2)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 16th; concentration +18)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a></i>, <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/repelVermin.html#_repel-vermin" >repel vermin</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (2)</p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a>, <a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (3)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a>, <a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (electricity, fire), and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (cold, electricity, fire).</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger slays spellcasters with <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane" >bane</a></i> arrows. He rings his <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_chime-of-interruption" >chime of interruption</a></i> to hamper spellcasting.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, and <i>resist  energy</i>, the ranger's statistics are <b>Senses</b> normal; <b>hp</b> 157; <b>Fort</b> +17; <b>Defensive Abilities</b> improved evasion;<b> Immune</b> none; <b>Resist</b> none; <b>Speed</b> 30 ft.; <b>Con</b> 14; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +22.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 12, <b>Dex</b> 24, <b>Con</b> 18, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +19; <b>CMB</b> +20; <b>CMD</b> 41</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (longbow), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, Improved <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, Improved Precise Shot, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, Manyshot, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, Precise Shot, <a href="/pathfinderRPG/prd/feats.html#_quick-draw" >Quick Draw</a>, Rapid Shot, Staggering Critical, Stunning Critical</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +22 (+26 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +14, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +7, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana, local) +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering, geography) +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +7, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +1, Perception +24, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +14, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +13, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +29, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +15, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +9</p>
+<p class="stat-block-1"><b>Languages</b> Common, Draconic</p>
+<p class="stat-block-1"><b>SQ</b> camouflage, favored terrain (forest +4, plains +2, underground +2, urban +6), hide in plain sight, hunter's bond (companions), improved quarry, swift tracker, track +9, wild empathy +18, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>+1 elf-bane arrows</i> (5), <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a> arrows</i> (5), <i>+1 gnome-bane arrows</i> (5), <i>+1 human-bane arrows</i> (10), <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock" >shock</a> arrows</i> (5),<i> <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_chime-of-interruption" >chime of interruption</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i> (2), <i>wand of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i> (20 charges); <b>Other Gear</b><i>+4 mithral breastplate</i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-frost" >frost</a> longbow</i> with 20 arrows, <i>+1 greataxe</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bag-of-holding" >bag of holding</a></i> (type I), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-incredible-dexterity" >belt of incredible dexterity</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +3</i>, diamond dust for <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i> (worth 50 gp), 2,574 gp</p>
+
+<p>A mage hunter thrills at killing sorcerers and wizards. Knowing how to circumvent their hated spells, he casts nondetection every day to deter pursuit and scrying.</p>
+		
+<p id="supreme-hunter" class="stat-block-title">Supreme Hunter <span class="stat-block-cr">CR 19</span></p>
+<p class="stat-block-1"><b>XP</b> 204,800</p>
+<p class="stat-block-1"><b>Human ranger</b> 20</p>
+<p class="stat-block-1">CE Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +9; <b>Senses</b> darkvision 60 ft.; Perception +25</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 31, touch 18, flat-footed 26 (+8 armor, +3 deflection, +4 Dex, +1 dodge, +5 natural)</p>
+<p class="stat-block-1"><b>hp</b> 184 (20d10+70)</p>
+<p class="stat-block-1"><b>Fort</b> +20, <b>Ref</b> +22, <b>Will</b> +13</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved evasion; <b>Immune</b> fire (120 points), poison; <b>Resist</b> cold 30</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+2 longsword</i> +28/+23/+18/+13 (1d8+11/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b><i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_oathbow" >oathbow</a> </i>+28/+23/+18/+13 (1d8+8/19–20/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> favored enemy (dwarves +4, elves +4, gnomes +2, humans +6, orcs +2)</p>
+<p class="stat-block-1"><b>Ranger Spells Prepared</b> (CL 17th; concentration +19)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/communeWithNature.html#_commune-with-nature" >commune with nature</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/treeStride.html#_tree-stride" >tree stride</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a></i>, <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease" >remove disease</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, <i><a href="/pathfinderRPG/prd/spells/snare.html#_snare" >snare</a></i>, <i><a href="/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth" >spike growth</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/alarm.html#_alarm" >alarm</a></i>, <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The ranger casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (fire), <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (cold), and <i><a href="/pathfinderRPG/prd/spells/treeStride.html#_tree-stride" >tree stride</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The ranger swears to kill one target with his <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_oathbow" >oathbow</a></i>, using his <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed" >boots of speed</a></i> and feats to gain extra attacks. Against dangerous foes, he uses poison.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, d<i>a</i>rkvision, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, and <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, the ranger's statistics are <b>Senses</b> normal; <b>AC</b> 26, touch 18, flat-footed 21; <b>hp</b> 144; <b>Fort</b> +18; <b>Immune</b> none; <b>Resist</b> none; <b>Speed</b> 30 ft.; <b>Con</b> 12; <b>Skills</b><a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +15.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 20, <b>Con</b> 16, <b>Int</b> 11, <b>Wis</b> 14, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +20; <b>CMB</b> +26; <b>CMD</b> 45</p>
+<p class="stat-block-1"><b>Feats</b> Bleeding Critical, Blinding Critical, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_endurance" >Endurance</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (composite longbow), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, Improved Precise Shot, Manyshot, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Precise Shot, <a href="/pathfinderRPG/prd/feats.html#_quick-draw" >Quick Draw</a>, Rapid Shot, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (composite longbow)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +15 (+19 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +19, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +12,<a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +15, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +13, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +18, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) +5, Perception +25, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +18, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +28, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +25, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +14</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> camouflage, favored terrain (desert +2, forest +2, mountain +4, plains +6), hide in plain sight, hunter's bond (companions), improved quarry, swift tracker, track +10, wild empathy +19, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-anarchic" >anarchic</a> arrows</i> (5), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed" >boots of speed</a></i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a> arrows</i> (5), <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-frost" >frost</a> arrows</i> (5), <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock" >shock</a> arrows</i> (5), <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_unholy" >unholy</a> arrows</i> (5), <i>potions of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i> (2), <i>scroll of <a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i>, adamantine arrows (5), purple worm poison (2), smokesticks (5), tanglefoot bags (5); <b>Other Gear</b><i>+4 mithral chain shirt</i>, <i>+2 longsword</i>, <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_oathbow" >oathbow</a></i> (+6 Str) with 30 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-physical-might" >belt of physical might</a> +4</i> (Str, Dex), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +5</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_efficient-quiver" >efficient quiver</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +3</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-sustenance" >ring of sustenance</a></i>, 4,195 gp</p>
+
+<p>Supreme hunters stalk and kill anything they choose. Most of them are so skilled they need to keep looking for tougher targets just to feel challenged.</p>
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

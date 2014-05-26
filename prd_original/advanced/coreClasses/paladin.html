@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Paladin</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Paladin",globalNavPath=[{ href: '/pathfinderRPG/prd/advanced/advancedCoreClasses.html', name: 'Advanced Core Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="paladin" class="monster-header">Paladin</h1>
+				<p>Holy warriors and defenders of the faith, paladins know that the only thing more abhorrent than an evil creature is a fundamentally good creature too timid to strive against the forces of darkness. Paladins are divine champions, gladly giving their lives in the service of light and justice, asking only that they may protect the innocent and cleanse the world to the best of their ability. Theirs is a hard path, requiring great sacrifice and ultimate devotion to a moral code, yet with her last breath a paladin can take comfort in a life of absolute righteousness.</p>
+				<p>Presented below are several variant class features to help flesh out common paladin archetypes, the better to customize characters for fighting the good fight.</p>
+				<h1 id="divine-defender">Divine Defender</h1>
+				<p>Some paladins see themselves as the last line of defense between the teeming hordes of evil and the innocent folk trying to make a living in a harsh, unforgiving world. These defenders spend their lives protecting others and taking on foes that the common man should not even know exist. To aid them in their holy mission, they have special powers to protect themselves and those around them. The divine defender has the following class features.</p>
+				<p id="shared-defense"><b>Shared Defense (Su)</b>: At 3rd level, a divine defender can spend one use of her lay on hands ability as a standard action to grant all adjacent allies (including paladins) a bonus. At 3rd level, adjacent allies receive a +1 sacred bonus to their AC and CMD and on their saving throws. These bonuses last for a number of rounds equal to the divine defender's Charisma modifier. At 9th level and 15th level, this bonus increases by +1. At 6th level, these bonuses are granted to all allies within 10 feet, and allies that are at fewer than 0 hit points within this area are automatically stabilized. At 12th level, these bonuses are granted to all allies within 15 feet, and allies within this area are immune to bleed damage. At 18th level, these bonuses are granted to all allies within 20 feet, and allies within this area gain a 25% chance to negate any sneak attack or critical hit scored against them. This ability does not stack with the chance provided from the light, medium, or heavy <i><a href="../../magicItems/armor.html#_armor-fortification" >fortification</a></i> armor special abilities. These bonuses are cumulative with each other. Allies only benefit from these bonuses while in the listed area. This ability replaces mercy.</p>
+				<p id="divine-bond"><b>Divine Bond (Su)</b>: At 5th level, instead of forming a divine bond with her weapon or a mount, a divine defender can form a bond with her armor. As a standard action, a divine defender can enhance her armor by calling upon the aid of a celestial spirit. This bond lasts for 1 minute per paladin level. When called, the spirit causes the armor to shed light like a torch. At 5th level, the spirit grants the armor a +1 enhancement bonus. For every three levels beyond 5th, the armor gains another +1 enhancement bonus, to a maximum of +6 at 20th level. These bonuses can be added to the armor, stacking with existing armor bonuses to a maximum of +3, or they can be used to add any of the following armor properties (asterisks note new armor properties found in Chapter 7): <i><a href="../magicItems/armor.html#_champion" >champion</a></i>*, <i><a href="../../magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a>, heavy <a href="../../magicItems/armor.html#_armor-fortification" >fortification</a>, <a href="../../magicItems/armor.html#_armor-invulnerability" >invulnerability</a>, <a href="../../spells/light.html#_light" >light</a> <a href="../../magicItems/armor.html#_armor-fortification" >fortification</a>, moderate <a href="../../magicItems/armor.html#_armor-fortification" >fortification</a>, <a href="../../magicItems/armor.html#_armor-spell-resistance" >spell resistance</a> </i>(13, 15, 17, or 19). Adding these properties consumes an amount of bonus equal to the property's cost (see Table 15&ndash;4 of the <i>Core Rulebook</i>). In addition, the bonuses can be consumed at the listed amount to add any of the following armor properties: <i><a href="../../magicItems/armor.html#_armor-energy-resistance" >energy resistance</a> </i>for +3 bonus, <i>improved <a href="../../magicItems/armor.html#_armor-energy-resistance" >energy resistance</a></i> for +5 bonus, or <i><a href="../magicItems/armor.html#_righteous" >righteous</a></i>* for +4 bonus. These bonuses are added to any properties the armor already has, but duplicate abilities do not stack. If the armor is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. The celestial spirit imparts no bonuses if the armor is worn by anyone other than the divine defender, but it resumes giving bonuses if the divine defender dons the armor again. A divine defender can use this ability once per day at 5th level, and one additional time per day for every four levels beyond 5th, to a total of four times per day at 17th level.</p>
+				<p>If a suit of armor with a celestial spirit is destroyed, the divine defender loses the use of this ability for 30 days, or until she gains a level, whichever comes first. During this 30-day period, the divine defender takes a &ndash;1 penalty on attack and weapon damage rolls.</p>
+				<h1 id="hospitaler">Hospitaler</h1>
+				<p>Paladins are known for their charity and for tending to the sick. The hospitaler takes to this calling above all others, spending much of her time healing the poor, and giving aid and succor to those in need. The hospitaler has the following class features.</p>
+				<p id="smite-evil"><b>Smite Evil (Su)</b>: This functions as the paladin ability, but the hospitaler can smite evil one additional time per day at 7th level, and every six levels thereafter (instead of 4th level and every three levels thereafter).</p>
+				<p id="channel-positive-energy"><b>Channel Positive Energy (Su)</b>: When a hospitaler reaches 4th level, she gains the ability to channel positive energy as a cleric equal to her paladin level &ndash;3. She can use this ability a number of times per day equal to 3 + her Charisma modifier. Using this ability does not expend uses of lay on hands, as it does with other paladins. This replaces the standard paladin's channel positive energy ability.</p>
+				<p id="aura-of-healing"><b>Aura of Healing (Su)</b>: At 11th level, a hospitaler can expend one use of her channel positive energy ability to emit a 30-foot aura of healing for a number of rounds equal to her paladin level. Allies in this aura (including the hospitaler) automatically stabilize if below 0 hit points and are immune to bleed damage. In addition, allies (including the paladin) that spend at least 1 full round inside the aura are healed an amount of damage equal to their total number of Hit Dice and may make a saving throw against any afflictions they are suffering from, such as a curse, disease, or poison. This saving throw only counts toward curing the affliction and does not impose any penalty on a failed save. Allies can only be healed once by a use of this ability and they can only attempt additional saving throws once per day, even if they are exposed to this aura multiple times. This ability replaces aura of justice.</p>
+				<h1 id="sacred-servant">Sacred Servant</h1>
+				<p>Paladins as a general rule, venerate the gods of good and purity, but some take this a step further, dedicating themselves to a specific deity and furthering the cause of the faith. These sacred servants are rewarded for their devotion with additional spells and powerful allies. A sacred servant must select one deity to worship. This deity's alignment must be lawful good, lawful neutral, or neutral good. A sacred servant has the following class features.</p>
+				<p id="smite-evil"><b>Smite Evil (Su)</b>: This functions as the paladin ability, but the sacred servant can smite evil one additional time per day at 7th level, and every six levels thereafter (instead of 4th level and every three levels thereafter). This replaces smite evil.</p>
+				<p id="spells"><b>Spells</b>: At 4th level, when a sacred servant gains the ability to cast spells, she also chooses one domain associated with her deity. Her effective cleric level for this domain is equal to her paladin level &ndash;3. In addition, she also gains one domain spell slot for each level of paladin spells she can cast. Every day she must prepare the domain spell from her chosen domain in that spell slot.</p>
+				<p id="divine-bond"><b>Divine Bond (Su)</b>: At 5th level, instead of forming a divine bond with her weapon or a mount, a sacred servant forms a bond with her holy symbol. As a standard action, a sacred servant can bind a celestial spirit to her holy symbol for 1 minute per paladin level. When called, the spirit causes the sacred servant's holy symbol to shed light like a torch. At 5th level, the spirit grants one bonus. For every three levels beyond 5th, the spirit grants one additional bonus. These bonuses can be spent in a number of ways to grant the paladin enhanced abilities to channel positive energy and to cast spells. Each bonus can be used to grant one of the following enhancements: +1 caster level to any paladin spell cast, +1 to the DC to halve the damage of channel positive energy when used to harm undead, +1d6 to channel positive energy, +1 use/day of lay on hands. These enhancements stack and can be selected multiple times. The enhancements granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. If the sacred servant increases her number of uses of lay on hands per day in this way, that choice is set for the rest of the day, and once used, these additional uses are not restored (even if the spirit is called again that day). The celestial spirit imparts no enhancements if the holy symbol is held by anyone other than the sacred servant, but resumes giving enhancements if returned to the sacred servant. A sacred servant can use this ability once per day at 5th level, and one additional time per day for every four levels beyond 5th, to a total of four times per day at 17th level.</p>
+				<p>If a holy symbol with a celestial spirit is destroyed, the sacred servant loses the use of this ability for 30 days, or until she gains a level, whichever comes first. During this 30-day period, the sacred servant takes a &ndash;1 penalty on attack and weapon damage rolls.</p>
+				<p id="call-celestial-ally"><b>Call Celestial Ally (Sp)</b>: At 8th level, a sacred servant can call upon her deity for aid, in the form of a powerful servant. This allows the sacred servant to cast <i><a href="../../spells/planarAlly.html#_planar-ally-lesser" >lesser planar ally</a></i> once per week as a spell-like ability without having to pay the material component cost or the servant (for reasonable tasks). At 12th level, this improves to <i><a href="../../spells/planarAlly.html#_planar-ally" >planar ally</a></i> and at 16th level, this improves to <i><a href="../../spells/planarAlly.html#_planar-ally-greater" >greater planar ally</a></i>. The sacred servant's caster level for this effect is equal to her paladin level. This ability replaces aura of resolve.</p>
+				<h1 id="shining-knight">Shining Knight</h1>
+				<p>While paladins often are seen mounted atop a loyal steed, the shining knight is the true symbol of mounted bravery. They are never far from their steeds and are always clad in brightly polished armor. The shining knight has the following class features.</p>
+				<p id="skilled-rider-(ex-and-su)"><b>Skilled Rider (Ex and Su)</b>: At 3rd level, a shining knight does not take any penalty to her <a href="../../skills/ride.html#_ride" >Ride</a> skill due to her armor check penalty. In addition, any mount she is riding gains the benefit of her divine grace class feature, adding her Charisma bonus (if any) to its saving throws. This ability replaces divine health.</p>
+				<p id="divine-bond"><b>Divine Bond (Su)</b>: Upon reaching 5th level, a shining knight must form a bond with a mount. This ability otherwise functions as the paladin ability.</p>
+				<p id="knight's-charge"><b>Knight's Charge (Su)</b>: At 11th level, whenever a mounted shining knight charges a foe, her movement does not provoke attacks of opportunity, for either her or her mount. In addition, if her target is also the target of her smite evil ability and the charge attack hits, the target must make a Will save or be panicked for a number of rounds equal to 1/2 the shining knight's level. The DC of this save is equal to 10 + 1/2 the shining knight's level + the shining knight's Charisma modifier. This ability replaces aura of justice.</p>
+				<h1 id="undead-scourge">Undead Scourge</h1>
+				<p>Undead are an abomination in the eyes of the just and righteous. It is no surprise then that there are some paladins that dedicate themselves to wiping these unholy terrors from the world. The following are the class features of the undead scourge.</p>
+				<p id="smite-evil"><b>Smite Evil (Su)</b>: This functions as the paladin ability of the same name, but the undead scourge does not deal 2 points of damage per level on the first successful attack against evil dragons and evil outsiders. She does deal 2 points of damage per level on all smite attacks made against evil undead creatures.</p>
+				<p id="aura-of-life"><b>Aura of Life (Su)</b>: At 8th level, an undead scourge emits a 10-foot aura of life around her that weakens undead creatures. Undead in this aura take a &ndash;4 penalty on Will saves made to resist positive energy. In addition, undead in this aura do not regain hit points from channeled negative energy. This ability replaces aura of resolve.</p>
+				<p id="undead-annihilation"><b>Undead Annihilation (Su)</b>: At 11th level, an undead scourge can expend one use of her smite evil ability as a standard action and make a single melee attack against an undead creature. If this attack hits, the undead creature must make a Will save or be destroyed. The save DC is equal to 10 + 1/2 the undead scourge's level + the undead scourge's Charisma modifier. Undead with twice as many Hit Dice as the undead scourge are unaffected by this ability. If the attack misses, the smite evil is wasted without effect. This ability replaces aura of justice.</p>
+				<h1 id="warrior-of-the-holy-light">Warrior of the Holy Light</h1>
+				<p>Some paladins use their gifts to focus on the holy light that shines within their souls. With the gifts of purity and redemption, these paladins spend much of their lives helping others find the true path. Unleashing this power takes patience and comes at a steep price. Warriors of the holy light have the following class features.</p>
+				<p id="power-of-faith"><b>Power of Faith (Su)</b>: At 4th level, a warrior of the holy light learns to use the power of her faith to bolster her defenses and aid her allies. This class feature replaces the paladin's spells class feature. A warrior of the holy light does not gain any spells or spellcasting abilities, does not have a caster level, and cannot use spell trigger or spell completion magic items.</p>
+				<p>At 4th level, the warrior of the holy light gains one additional use of her lay on hands ability per day. She gains one additional use of lay on hands per day for every four levels she attains beyond 4th. She can spend a use of her lay on hands ability to call upon the power of her faith as a standard action. This causes a nimbus of <i><a href="../../spells/light.html#_light" >light</a></i> to emanate from the warrior of the holy light in a 30-foot radius. All allies in this area (including the warrior of the holy light) receive a +1 morale bonus to AC and on attack rolls, damage rolls, and saving throws against fear as long as they remain in the area of light. This power lasts for 1 minute.</p>
+				<p>At 8th level, the nimbus of light heals the paladin and her allies, curing of them of 1d4 points of ability damage, as per the spell <i><a href="../../spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>. A creature can only be healed in this way once per day.</p>
+				<p>At 12th level, the nimbus of light is treated as <i><a href="../../spells/daylight.html#_daylight" >daylight</a></i> for the purposes of affecting creatures with sensitivity to light. In addition, the nimbus grants the warrior of the holy light and her allies in the area resistance 10 to one type of energy, selected by the warrior of the holy light when this power is activated.</p>
+				<p>At 16th level, the nimbus of light grants the warrior of the holy light and her allies protection from critical hits. There is a 25% chance that critical hits made against the warrior of the holy light and her allies in the area are instead treated as normal hits. This does not stack with other abilities that grant similar protection (such as <i><a href="../../spells/light.html#_light" >light</a> <a href="../../magicItems/armor.html#_armor-fortification" >fortification</a></i>).</p>
+				<p>At 20th level, the nimbus of light increases in size out to a range of 60 feet. In addition, all of its bonuses increase. The morale bonus to AC and on attack rolls, damage rolls, and saving throws against fear increases to +2. The amount of ability damage healed increases to 2d4. The energy resistance increases to 20 against one energy type. Finally, protection against critical hits increases to 50%.</p>
+				<p id="shining-light"><b>Shining Light (Su)</b>: At 14th level, a warrior of the holy light can unleash a 30-foot burst of pure, white light as a standard action. Evil creatures within this burst take 1d6 points of damage for every two paladin levels and are blinded for 1 round. Evil dragons, evil outsiders, and evil undead are blinded for 1d4 rounds on a failed save. A Reflex save halves this damage and negates the blindness. The DC of this save is equal to 10 + 1/2 the warrior of the holy light's level + the warrior of the holy light's Charisma modifier. Good creatures within this burst are healed 1d6 points of damage per two paladin levels and receive a +2 sacred bonus on ability checks, attack rolls, saving throws, and skill checks for 1 round. A warrior of the holy light can use this ability once per day at 14th level plus one additional time per day at 17th and 20th levels. This ability replaces aura of faith.</p>
+				<h1 id="antipaladin-(alternate-class)">Antipaladin (Alternate Class)</h1>
+<div class="right">				<table id="fall-from-grace"><caption>Fall From Grace</caption>
+<tr><td style="white-space:normal;">Not all paladins that fall become antipaladins. In fact, the transformation is quite rare. Most paladins spend months or even years regaining their paladinhood, but they never stray so far from the path as to become irredeemable. Rarely, a paladin turns from the light and seeks instead to make a pact with the dark powers. Often this is through temptation or some sort of ruse, but once the deal is struck, the paladin finds himself on the path to damnation. </td></tr>
+<tr><td style="white-space:normal;">When such a fall occurs, the transformation can be swift. The paladin trades in all of his paladin levels for antipaladin levels on a 1-for-1 basis. This is usually a traumatic experience, involving a complex ritual that involves a living sacrifice and dark oaths made to foul powers (who sometimes send minions to bear witness). Once complete, the anitpaladin emerges, ready to bring ruin to the world.</td></tr>
+<tr><td style="white-space:normal;">It should be noted that not all antipaladins are fallen heroes. Some warriors are trained from a young age to assume the mantle of antipaladin, forged through pain and trauma into exemplars of evil. These cruel warriors know nothing of compassion or loyalty, but they can teach a great deal about pain and suffering.</td></tr></table></div>
+				<p>Although it is a rare occurrence, paladins do sometimes stray from the path of righteousness. Most of these wayward holy warriors seek out redemption and forgiveness for their misdeeds, regaining their powers through piety, charity, and powerful magic. Yet there are others, the dark and disturbed few, who turn actively to evil, courting the dark powers they once railed against in order to take vengeance on their former brothers. It's said that those who climb the farthest have the farthest to fall, and antipaladins are living proof of this fact, their pride and hatred blinding them to the glory of their forsaken patrons.</p>
+				<p>Antipaladins become the antithesis of their former selves. They make pacts with fiends, take the lives of the innocent, and put nothing ahead of their personal power and wealth. Champions of evil, they often lead armies of evil creatures and work with other villains to bring ruin to the holy and tyranny to the weak. Not surprisingly, paladins stop at nothing to put an end to such nefarious antiheroes.</p>
+				<p>The antipaladin is an alternate class. Making use of and altering numerous facets of the paladin core class, this villainous warrior can't truly be considered a new character class by its own right. By the changes made here, though, the details and tones of the paladin class are shifted in a completely opposite direction and captures an entirely different fantasy theme, without needlessly designing an entire new class. While a redesign of sorts, this alternate class can be used just as any of the other base classes found in the first part of this chapter. </p>
+				<p id="role"><b>Role</b>: Antipaladins are villains at their most dangerous. They care nothing for the lives of others and actively seek to bring death and destruction to ordered society. They rarely travel with those that they do not subjugate, unless as part of a ruse to bring ruin from within.</p>
+				<p>As an alternate paladin class, the antipaladin uses <a href="#table-2-13:-antipaladin">Table: Antipaladin</a> to determine its base attack bonus, saving throw bonuses, and spells per day. These details, along with the class's new special abilities, can be found on Table 2&ndash;13.</p>
+				<p id="alignment"><b>Alignment</b>: Chaotic evil.</p>
+				<p id="hit-die"><b>Hit Die</b>: d10.</p>
+				<h1 id="class-skills">Class Skills</h1>
+				<p>The antipaladin's class skills are <a href="../../skills/bluff.html#_bluff" >Bluff</a> (Cha), <a href="../../skills/craft.html#_craft" >Craft</a> (Int), <a href="../../skills/disguise.html#_disguise" >Disguise</a> (Cha), <a href="../../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> (Cha), <a href="../../skills/intimidate.html#_intimidate" >Intimidate</a> (Cha), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) (Int), <a href="../../skills/profession.html#_profession" >Profession</a> (Wis), <a href="../../skills/ride.html#_ride" >Ride</a> (Dex), <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> (Wis), <a href="../../skills/spellcraft.html#_spellcraft" >Spellcraft</a> (Int), and <a href="../../skills/stealth.html#_stealth" >Stealth</a> (Dex).</p>
+				<p id="skill-ranks-per-level"><b>Skill Ranks per Level</b>: 2 + Int modifier.</p>
+				<table id="table-2-13:-antipaladin"><caption>Table:  Antipaladin</caption>
+<thead><tr id="level-bonus-save-save-save-special-1st-2nd-3rd-4th"><th rowspan="2">Level</th><th rowspan="2">Base Attack Bonus</th><th rowspan="2">Fort Save</th><th rowspan="2">Ref Save</th><th rowspan="2">Will Save</th><th rowspan="2">Special</th><th colspan="4">Spells per Day</th></tr>
+<tr><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th></tr></thead>
+<tr class="odd"><td>1st</td><td>+1</td><td>+2</td><td>+0</td><td>+2</td><td style="white-space: normal;"><a href="#aura-of-evil" >Aura of evil</a><i>, </i><a href="#detect-good" >detect good</a>, <a href="#smite-good" >smite good</a> 1/day</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>2nd</td><td>+2</td><td>+3</td><td>+0</td><td>+3</td><td style="white-space: normal;"><a href="#touch-of-corruption" >Touch of corruption</a>, <a href="#unholy-resilience" >unholy resilience</a></td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>3rd</td><td>+3</td><td>+3</td><td>+1</td><td>+3</td><td style="white-space: normal;"><a href="#aura-of-cowardice" >Aura of cowardice</a>, <a href="#cruelty" >cruelty</a>, <a href="#plague-bringer" >plague bringer</a></td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>4th</td><td>+4</td><td>+4</td><td>+1</td><td>+4</td><td style="white-space: normal;"><a href="#channel-negative-energy" >Channel negative energy</a>, <a href="#smite-good" >smite good</a> 2/day</td><td>0</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>5th</td><td>+5</td><td>+4</td><td>+1</td><td>+4</td><td style="white-space: normal;"><a href="#fiendish-boon" >Fiendish boon</a></td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>6th</td><td>+6/+1</td><td>+5</td><td>+2</td><td>+5</td><td style="white-space: normal;"><a href="#cruelty" >Cruelty</a></td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>7th</td><td>+7/+2</td><td>+5</td><td>+2</td><td>+5</td><td style="white-space: normal;"><a href="#smite-good" >Smite good</a> 3/day</td><td>1</td><td>0</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>8th</td><td>+8/+3</td><td>+6</td><td>+2</td><td>+6</td><td style="white-space: normal;"><a href="#aura-of-despair" >Aura of despair</a></td><td>1</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>9th</td><td>+9/+4</td><td>+6</td><td>+3</td><td>+6</td><td style="white-space: normal;"><a href="#cruelty" >Cruelty</a></td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>10th</td><td>+10/+5</td><td>+7</td><td>+3</td><td>+7</td><td style="white-space: normal;"><a href="#smite-good" >Smite good</a> 4/day</td><td>2</td><td>1</td><td>0</td><td>&mdash;</td></tr>
+<tr class="odd"><td>11th</td><td>+11/+6/+1</td><td>+7</td><td>+3</td><td>+7</td><td style="white-space: normal;"><a href="#aura-of-vengeance" >Aura of vengeance</a></td><td>2</td><td>1</td><td>1</td><td>&mdash;</td></tr>
+<tr class="even"><td>12th</td><td>+12/+7/+2</td><td>+8</td><td>+4</td><td>+8</td><td style="white-space: normal;"><a href="#cruelty" >Cruelty</a></td><td>2</td><td>2</td><td>1</td><td>&mdash;</td></tr>
+<tr class="odd"><td>13th</td><td>+13/+8/+3</td><td>+8</td><td>+4</td><td>+8</td><td style="white-space: normal;"><a href="#smite-good" >Smite good</a> 5/day</td><td>3</td><td>2</td><td>1</td><td>0</td></tr>
+<tr class="even"><td>14th</td><td>+14/+9/+4</td><td>+9</td><td>+4</td><td>+9</td><td style="white-space: normal;"><a href="#aura-of-sin" >Aura of sin</a></td><td>3</td><td>2</td><td>1</td><td>1</td></tr>
+<tr class="odd"><td>15th</td><td>+15/+10/+5</td><td>+9</td><td>+5</td><td>+9</td><td style="white-space: normal;"><a href="#cruelty" >Cruelty</a></td><td>3</td><td>2</td><td>2</td><td>1</td></tr>
+<tr class="even"><td>16th</td><td>+16/+11/+6/+1</td><td>+10</td><td>+5</td><td>+10</td><td style="white-space: normal;"><a href="#smite-good" >Smite good</a> 6/day</td><td>3</td><td>3</td><td>2</td><td>1</td></tr>
+<tr class="odd"><td>17th</td><td>+17/+12/+7/+2</td><td>+10</td><td>+5</td><td>+10</td><td style="white-space: normal;"><a href="#aura-of-depravity" >Aura of depravity</a></td><td>4</td><td>3</td><td>2</td><td>1</td></tr>
+<tr class="even"><td>18th</td><td>+18/+13/+8/+3</td><td>+11</td><td>+6</td><td>+11</td><td style="white-space: normal;"><a href="#cruelty" >Cruelty</a></td><td>4</td><td>3</td><td>2</td><td>2</td></tr>
+<tr class="odd"><td>19th</td><td>+19/+14/+9/+4</td><td>+11</td><td>+6</td><td>+11</td><td style="white-space: normal;"><a href="#smite-good" >Smite good</a> 7/day</td><td>4</td><td>3</td><td>3</td><td>2</td></tr>
+<tr class="even"><td>20th</td><td>+20/+15/+10/+5</td><td>+12</td><td>+6</td><td>+12</td><td style="white-space: normal;"><a href="#unholy-champion" >Unholy champion</a></td><td>4</td><td>4</td><td>3</td><td>3</td></tr></table>
+
+				<h1 id="class-features">Class Features</h1>
+				<p>All of the following are class features of the antipaladin.</p>
+				<p id="weapon-and-armor-proficiency"><b>Weapon and Armor Proficiency</b>: Antipaladins are proficient with all simple and martial weapons, with all types of armor (heavy, medium, and light), and with shields (except tower shields).</p>
+				<p id="aura-of-evil"><b>Aura of Evil (Ex)</b>: The power of an antipaladin's aura of evil (see the <i><a href="../../spells/detectEvil.html#_detect-evil" >detect evil</a> </i>spell) is equal to his antipaladin level. A paladin who uses smite evil on an antipaladin deals 2 points of damage per paladin level on his first successful attack.</p>
+				<p id="detect-good"><b>Detect Good (Sp)</b>: At will, an antipaladin can use <i><a href="../../spells/detectGood.html#_detect-good" >detect good</a>, </i>as the spell. An antipaladin can, as a move action, concentrate on a single item or individual within 60 feet and determine if it is good, learning the strength of its aura as if having studied it for 3 rounds. While focusing on one individual or object, the antipaladin does not detect good in any other object or individual within range.</p>
+				<p id="smite-good"><b>Smite Good (Su)</b>: Once per day, an antipaladin can call out to the dark powers to crush the forces of good. As a swift action, the antipaladin chooses one target within sight to smite. If this target is good, the antipaladin adds his Charisma bonus (if any) on his attack rolls and adds his antipaladin level on all damage rolls made against the target of his smite. If the target of smite good is an outsider with the good subtype, a good-aligned dragon, or a good creature with levels of cleric or paladin, the bonus to damage on the first successful attack increases to 2 points of damage per level the antipaladin possesses. Regardless of the target, smite good attacks automatically bypass any DR the creature might possess.</p>
+				<p>In addition, while smite good is in effect, the antipaladin gains a deflection bonus equal to his Charisma modifier (if any) to his AC against attacks made by the target of the smite. If the antipaladin targets a creature that is not good, the smite is wasted with no effect.</p>
+				<p>The smite good effect remains until the target of the smite is dead or the next time the antipaladin rests and regains his uses of this ability. At 4th level, and at every three levels thereafter, the antipaladin may smite good one additional time per day, as indicated on Table 2&ndash;13, to a maximum of seven times per day at 19th level.</p>
+				<p id="unholy-resilience"><b>Unholy Resilience (Su)</b>: At 2nd level, an antipaladin gains a bonus equal to his Charisma bonus (if any) on all saving throws.</p>
+				<p id="touch-of-corruption"><b>Touch of Corruption (Su)</b>: Beginning at 2nd level, an antipaladin surrounds his hand with a fiendish flame, causing terrible wounds to open on those he touches. Each day he can use this ability a number of times equal to 1/2 his antipaladin level + his Charisma modifier. As a touch attack, an antipaladin can cause 1d6 points of damage for every two antipaladin levels he possesses. Using this ability is a standard action that does not provoke attacks of opportunity.</p>
+				<p>Alternatively, an antipaladin can use this power to heal undead creatures, restoring 1d6 hit points for every two levels the antipaladin possesses. This ability is modified by any feat, spell, or effect that specifically works with the lay on hands paladin class feature. For example, the <a href="../../feats.html#_extra-lay-on-hands" >Extra Lay On Hands</a> feat grants an antipaladin 2 additional uses of the touch of corruption class feature.</p>
+				<p id="aura-of-cowardice"><b>Aura of Cowardice (Su)</b>: At 3rd level, an antipaladin radiates a palpably daunting aura that causes all enemies within 10 feet to take a &ndash;4 penalty on saving throws against fear effects. Creatures that are normally immune to fear lose that immunity while within 10 feet of an antipaladin with this ability. This ability functions only while the antipaladin remains conscious, not if he is unconscious or dead.</p>
+				<p id="plague-bringer"><b>Plague Bringer (Ex)</b>: At 3rd level, the powers of darkness make an antipaladin a beacon of corruption and disease. An antipaladin does not take any damage or take any penalty from diseases. He can still contract diseases and spread them to others, but he is otherwise immune to their effects.</p>
+				<p id="cruelty"><b>Cruelty (Su)</b>: At 3rd level, and every three levels thereafter, an antipaladin can select one cruelty. Each cruelty adds an effect to the antipaladin's touch of corruption ability. Whenever the antipaladin uses touch of corruption to deal damage to one target, the target also receives the additional effect from one of the cruelties possessed by the antipaladin. This choice is made when the touch is used. The target receives a Fortitude save to avoid this cruelty. If the save is successful, the target takes the damage as normal, but not the effects of the cruelty. The DC of this save is equal to 10 + 1/2 the antipaladin's level + the antipaladin's Charisma modifier. At 3rd level, the antipaladin can select from the following initial cruelties.</p>
+				<p id="•-fatigued"><i>• Fatigued</i>: The target is fatigued.</p>
+				<p id="•-shaken"><i>• Shaken</i>: The target is shaken for 1 round per level of the antipaladin.</p>
+				<p id="•-sickened"><i>• Sickened</i>: The target is sickened for 1 round per level of the antipaladin.</p>
+				<p>At 6th level, an antipaladin adds the following cruelties to the list of those that can be selected.</p>
+				<p id="•-dazed"><i>• Dazed</i>: The target is dazed for 1 round.</p>
+				<p id="•-diseased"><i>• Diseased</i>: The target contracts a disease, as if the antipaladin had cast <i><a href="../../spells/contagion.html#_contagion" >contagion</a></i>, using his antipaladin level as his caster level.</p>
+				<p id="•-staggered"><i>• Staggered</i>: The target is staggered for 1 round per two levels of the antipaladin.</p>
+				<p>At 9th level, an antipaladin adds the following cruelties to the list of those that can be selected.</p>
+				<p id="•-cursed"><i>• Cursed</i>: The target is cursed, as if the antipaladin had cast <i><a href="../../spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i>, using his antipaladin level as his caster level.</p>
+				<p id="•-exhausted"><i>• Exhausted</i>: The target is exhausted. The antipaladin must have the fatigue cruelty before selecting this cruelty.</p>
+				<p id="•-frightened"><i>• Frightened</i>: The target is frightened for 1 round per two levels of the antipaladin. The antipaladin must have the shaken cruelty before selecting this cruelty.</p>
+				<p id="•-nauseated"><i>• Nauseated</i>: The target is nauseated for 1 round per three levels of the antipaladin. The antipaladin must have the sickened cruelty before selecting this cruelty.</p>
+				<p id="•-poisoned"><i>• Poisoned</i>: The target is poisoned, as if the antipaladin had cast <i><a href="../../spells/poison.html#_poison" >poison</a></i>, using the antipaladin's level as the caster level.</p>
+				<p>At 12th level, an antipaladin adds the following cruelties to the list of those that can be selected.</p>
+				<p id="•-blinded"><i>• Blinded</i>: The target is blinded for 1 round per level of the antipaladin.</p>
+				<p id="•-deafened"><i>• Deafened</i>: The target is deafened for 1 round per level of the antipaladin.</p>
+				<p id="•-paralyzed"><i>• Paralyzed</i>: The target is paralyzed for 1 round.</p>
+				<p id="•-stunned"><i>• Stunned</i>: The target is stunned for 1 round per four levels of the antipaladin.</p>
+				<p>These abilities are not cumulative. For example, a 12th-level antipaladin's touch of corruption ability deals 6d6 points of damage and might also cause the target to become fatigued, dazed, poisoned, or diseased. Once a cruelty is chosen, it can't be changed.</p>
+				<p id="channel-negative-energy"><b>Channel Negative Energy (Su)</b>: When an antipaladin reaches 4th level, he gains the supernatural ability to channel negative energy like a cleric. Using this ability consumes two uses of his touch of corruption ability. An antipaladin uses his level as his effective cleric level when channeling negative energy. This is a Charisma-based ability.</p>
+				<p id="spells"><b>Spells</b>: Beginning at 4th level, an antipaladin gains the ability to cast a small number of divine spells which are drawn from the antipaladin spell list presented in Chapter 5. An antipaladin must choose and prepare his spells in advance. To prepare or cast a spell, an antipaladin must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against an antipaladin's spell is 10 + the spell level + the antipaladin's Charisma modifier. Like other spellcasters, an antipaladin can cast only a certain number of spells of each spell level per day. His base daily spell allotment is the same as that of a paladin and is given on Table 2&ndash;13. In addition, he receives bonus spells per day if he has a high Charisma score (see Table 1&ndash;3 in the <i>Core Rulebook</i>). When Table 2&ndash;13 indicates that the antipaladin gets 0 spells per day of a given spell level, he gains only the bonus spells he would be entitled to based on his Charisma score for that spell level.</p>
+				<p>An antipaladin must spend 1 hour each day in quiet prayer and meditation to regain his daily allotment of spells. An antipaladin may prepare and cast any spell on the antipaladin spell list, provided that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation.</p>
+				<p>Through 3rd level, an antipaladin has no caster level. At 4th level and higher, his caster level is equal to his antipaladin level &ndash;3.</p>
+				<p id="fiendish-boon"><b>Fiendish Boon (Sp)</b>: Upon reaching 5th level, an antipaladin receives a boon from his dark patrons. This boon can take one of two forms. Once the form is chosen, it cannot be changed.</p>
+				<p>The first type of bond allows the antipaladin to enhance his weapon as a standard action by calling upon the aid of a fiendish spirit for 1 minute per antipaladin level. When called, the spirit causes the weapon to shed unholy light as a torch. At 5th level, this spirit grants the weapon a +1 enhancement bonus. For every three levels beyond 5th, the weapon gains another +1 enhancement bonus, to a maximum of +6 at 20th level. These bonuses can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or they can be used to add any of the following weapon properties: <i><a href="../../magicItems/weapons.html#_weapons-anarchic" >anarchic</a></i>, <i><a href="../../magicItems/weapons.html#_weapons-flaming" >flaming</a>, <a href="../../magicItems/weapons.html#_weapons-flaming-burst" >flaming burst</a>, <a href="../../magicItems/weapons.html#_weapons-keen" >keen</a>, <a href="../../magicItems/weapons.html#_weapons-speed" >speed</a>, <a href="../../magicItems/weapons.html#_unholy" >unholy</a>, <a href="../../magicItems/weapons.html#_vicious" >vicious</a>, <a href="../../magicItems/weapons.html#_vorpal" >vorpal</a></i>, and<i> <a href="../../magicItems/weapons.html#_wounding" >wounding</a></i>. Adding these properties consumes an amount of bonus equal to the property's cost (see Table 15&ndash;9 in the <i>Core Rulebook</i>). These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. The fiendish spirit imparts no bonuses if the weapon is held by anyone other than the antipaladin but resumes giving bonuses if returned to the antipaladin. These bonuses apply to only one end of a double weapon. An antipaladin can use this ability once per day at 5th level, and one additional time per day for every four levels beyond 5th, to a total of four times per day at 17th level.</p>
+				<p>If a weapon bonded with a fiendish spirit is destroyed, the antipaladin loses the use of this ability for 30 days, or until he gains a level, whichever comes first. During this 30-day period, the antipaladin takes a &ndash;1 penalty on attack and weapon damage rolls.</p>
+				<p>The second type of bond allows an antipaladin to gain the service of a fiendish servant. This functions as <i><a href="../../spells/summonMonster.html#_summon-monster-iii" >summon monster III</a></i>, except the duration is permanent and the antipaladin can only gain the service of a single creature and that creature must either have the chaotic and evil subtypes or it must be a fiendish animal. Once selected, the choice is set, but it may be changed whenever the antipaladin gains a level. Upon reaching 7th level, and every two levels thereafter, the level of the <i>summon monster</i> spell increases by one, to a maximum of <i><a href="../../spells/summonMonster.html#_summon-monster-ix" >summon monster IX</a></i> at 17th level. </p>
+				<p>Once per day, as a full-round action, an antipaladin may magically call his servant to his side. This ability is the equivalent of a spell of a level equal to one-third the antipaladin's level. The servant immediately appears adjacent to the antipaladin. An antipaladin can use this ability once per day at 5th level, and one additional time per day for every four levels thereafter, for a total of four times per day at 17th level.</p>
+				<p>At 11th level, the servant gains the advanced template (see the <i>Pathfinder RPG Bestiary</i>). At 15th level, an antipaladin's servant gains spell resistance equal to the antipaladin's level + 11.</p>
+				<p>Should the antipaladin's fiendish servant die or be banished, the antipaladin may not summon another servant for 30 days or until he gains an antipaladin level, whichever comes first. During this 30-day period, the antipaladin takes a &ndash;1 penalty on attack and weapon damage rolls.</p>
+				<p id="aura-of-despair"><b>Aura of Despair (Su)</b>: At 8th level, enemies within 10 feet of an antipaladin take a &ndash;2 penalty on all saving throws. This penalty does not stack with the penalty from aura of cowardice.</p>
+				<p>This ability functions only while the antipaladin is conscious, not if he is unconscious or dead.</p>
+				<p id="aura-of-vengeance"><b>Aura of Vengeance (Su)</b>: At 11th level, an antipaladin can expend two uses of his smite good ability to grant the ability to smite good to all allies within 10 feet, using his bonuses. Allies must use this smite good ability by the start of the antipaladin's next turn and the bonuses last for 1 minute. Using this ability is a free action. Good creatures gain no benefit from this ability.</p>
+				<p id="aura-of-sin"><b>Aura of Sin (Su)</b>: At 14th level, an antipaladin's weapons are treated as evil-aligned for the purposes of overcoming damage reduction. Any attack made against an enemy within 10 feet of him is treated as evil-aligned for the purposes of overcoming damage reduction. This ability functions only while the antipaladin is conscious, not if he is unconscious or dead.</p>
+				<p id="aura-of-depravity"><b>Aura of Depravity (Su)</b>: At 17th level, an antipaladin gains DR 5/good. Each enemy within 10 feet takes a &ndash;4 penalty on saving throws against compulsion effects. This ability functions only while the antipaladin is conscious, not if he is unconscious or dead.</p>
+				<p id="unholy-champion"><b>Unholy Champion (Su)</b>: At 20th level, an antipaladin becomes a conduit for the might of the dark powers. His DR increases to 10/good. Whenever he uses smite good and successfully strikes an good outsider, the outsider is also subject to a <i><a href="../../spells/banishment.html#_banishment" >banishment</a>, </i>using his antipaladin level as the caster level (his weapon and unholy symbol automatically count as objects that the subject hates). After the <i><a href="../../spells/banishment.html#_banishment" >banishment</a> </i>effect and the damage from the attack is resolved, the smite immediately ends. In addition, whenever he channels negative energy or uses touch of corruption to damage a creature, he deals the maximum possible amount.</p>
+				<p id="code-of-conduct"><b>Code of Conduct</b>: An antipaladin must be of chaotic evil alignment and loses all class features except proficiencies if he willingly and altruistically commits good acts. This does not mean that an antipaladin cannot take actions someone else might qualify as good, only that such actions must always be in service of his own dark ends. An antipaladin's code requires that he place his own interests and desires above all else, as well as impose tyranny, take advantage whenever possible, and punish the good and just, provided such actions don't interfere with his goals.</p>
+				<p id="associates"><b>Associates</b>: While he may adventure with evil or neutral allies, an antipaladin avoids working with good characters or with anyone who consistently attempts to do good deeds. Under exceptional circumstances, an antipaladin can ally with good associates, but only to defeat them from within and bring ruin to their ranks. An antipaladin does not need an <i><a href="../../spells/atonement.html#_atonement" >atonement</a> </i>spell during such an unusual alliance as long as his nefarious goals are met in the end&mdash;evil cares only about results. An antipaladin may accept only henchmen, followers, or cohorts who are chaotic evil.</p>
+				<h1 id="ex-antipaladins">Ex-Antipaladins</h1>
+				<p>A antipaladin who ceases to be chaotic evil, who willfully commits an good act, or who violates the code of conduct loses all antipaladin spells and class features (including the fiendish boon, but not weapon, armor, and shield proficiencies). He may not progress any further in levels as an antipaladin. He regains his abilities and advancement potential if he atones for his violations (see the <i><a href="../../spells/atonement.html#_atonement" >atonement</a> </i>spell), as appropriate.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

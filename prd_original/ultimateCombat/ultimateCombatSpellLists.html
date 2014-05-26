@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Ultimate Combat Spell Lists</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Ultimate Combat Spell Lists",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body"><h1 id="spell-lists">Spell Lists</h1>
+				
+				
+				<p>Blasts of explosive energies, eldritch enhancements, and allies summoned from other realities often prove just as vital to success in battle as skill with a blade and  precision with a bow. The lists presented here summarize all of the new spells presented in this book, except for spells that interact with the optional wounds and vitality subsystem. The spells for this subsystem are presented in that section. </p>
+				<p>An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the spell list denotes a material or focus component not normally included in a spell component pouch.</p>
+				<p id="order-of-presentation"><b>Order of Presentation</b>: The first spell lists presented are the lists of spells separated by class and level. These include the spell name and a brief and incomplete description of the spell. Immediately after those lists is a complete list of all spells with full descriptions of those spells listed. Spells in all lists are presented in alphabetical order, except when a spell's name begins with “communal,” “greater,” “lesser,” or “mass,” in which case it is alphabetized under the base spell name. </p>
+				<p id="hit-dice"><b>Hit Dice</b>: The term “Hit Dice” is used synonymously with “character levels” for effects that affect a specific number of Hit Dice of creatures.</p>
+				<p id="caster-level"><b>Caster Level</b>: A spell's power often depends on caster level, which is defined as the caster's class level for the purposes of casting a particular spell. The word “level” in the short spell descriptions that follow always refers to caster level. </p>
+				<p id="creatures-and-characters"><b>Creatures and Characters</b>: The words “Creature” and “character” are used synonymously in the short descriptions. </p>
+				<p id="communal-spells"><b>Communal Spells</b>: Communal spells function like other spells, except they allow you to divide the duration among multiple targets, treating each target as a subject of the spell. When you divide the duration, you must divide it as evenly as possible among the targets. Furthermore, unless the communal spell's description indicates otherwise, no target can receive a duration increment smaller than the smallest increment of duration listed in the spell description. For example, if you are 5th level, your communal spell's duration is 10 minutes per level, and you have four targets, each target must receive 10 minutes of duration. The extra 10 minute duration can go to one of the four targets or it is wasted.</p>
+				<p id="a-note-on-alchemists"><i>A Note on Alchemists</i>: Dispensing communal formulae to creatures requires that the alchemist have the infusion discovery. Without it, the alchemist cannot use communal spells as formulae.</p>
+				
+				<h1 id="spells-by-class">Spells by Class</h1>
+				
+				<p><a href="#alchemist-spells">Alchemist Spells</a></p>
+				<p><a href="#antipaladin-spells">Antipaladin Spells</a></p>
+				<p><a href="#bard-spells">Bard Spells</a></p>
+				<p><a href="#cleric-spells">Cleric Spells</a></p>
+				<p><a href="#druid-spells">Druid Spells</a></p>
+				<p><a href="#inquisitor-spells">Inquisitor Spells</a></p>
+				<p><a href="#magus-spells">Magus Spells</a></p>
+				<p><a href="#paladin-spells">Paladin Spells</a></p>
+				<p><a href="#ranger-spells">Ranger Spells</a></p>
+				<p><a href="#sorcerer-wizard-spells">Sorcerer/Wizard Spells</a></p>
+				<p><a href="#summoner-spells">Summoner Spells</a></p>
+				<p><a href="#witch-spells">Witch Spells</a></p>
+				
+				<h1 id="alchemist-spells">Alchemist Spells</h1>
+				<h2>1st-Level Alchemist Spells</h2>
+				<p id="adjuring-step"><b><a href="spells/adjuringStep.html#_adjuring-step-" >Adjuring Step</a></b>: You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell. </p>
+				<p id="illusion-of-calm"><b><a href="spells/illusionOfCalm.html#_illusion-of-calm" >Illusion of Calm</a></b>: You appear to be standing still, even when you take some actions. </p>
+				<p id="longshot"><b><a href="spells/longshot.html#_longshot" >Longshot</a></b>: Grants a +10-foot bonus to the range increment for any ranged weapon fired.</p>
+				<p id="see-alignment"><b><a href="spells/seeAlignment.html#_see-alignment" >See Alignment</a></b>: Pick an alignment; in your sight, creatures and items with that alignment emit a ghostly radiance.</p>
+				<p id="shock-shield"><b><a href="spells/shockShield.html#_shock-shield" >Shock Shield</a></b>: A shield of force protects you until you dismiss it in an explosion of electricity. </p>
+				<p id="targeted-bomb-admixture"><b><a href="spells/targetedBombAdmixture.html#_targeted-bomb-admixture" >Targeted Bomb Admixture</a></b>: Empowers bombs you throw to deal more damage to a single creature.</p>
+				<h2>2nd-Level Alchemist Spells</h2>
+				<p id="ablative-barrier"><b><a href="spells/ablativeBarrier.html#_ablative-barrier" >Ablative Barrier</a></b>: Surrounds the target with layers of force.</p>
+				<p id="animal-aspect"><b><a href="spells/animalAspect.html#_animal-aspect" >Animal Aspect</a></b>: You gain some of the beneficial qualities of an animal.</p>
+				<p id="ant-haul,-communal"><b><a href="spells/antHaul.html#_ant-haul,-communal" >Ant Haul, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >ant haul</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="bestow-weapon-proficiency"><b><a href="spells/bestowWeaponProficiency.html#_bestow-weapon-proficiency" >Bestow Weapon Proficiency</a></b>: Grants a creature proficiency in a single weapon for short period of time.</p>
+				<p id="blistering-invective"><b><a href="spells/blisteringInvective.html#_blistering-invective" >Blistering Invective</a></b>: Make an <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> check against all foes within 30 feet; those demoralized also take fire damage.</p>
+				<p id="bullet-shield"><b><a href="spells/bulletShield.html#_bullet-shield" >Bullet Shield</a></b>: You gain a +4 deflection bonus to AC against firearm attacks.</p>
+				<p id="certain-grip"><b><a href="spells/certainGrip.html#_certain-grip-" >Certain Grip</a></b>: You gain a +4 competence bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> and <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> checks and to CMD.</p>
+				<p id="kinetic-reverberation"><b><a href="spells/kineticReverberation.html#_kinetic-reverberation-" >Kinetic Reverberation</a></b>: Channels the force of an enemy's attack back into its weapon.</p>
+				<p id="shadow-bomb-admixture"><b><a href="spells/shadowBombAdmixture.html#_shadow-bomb-admixture" >Shadow Bomb Admixture</a></b>: Empowers bombs you throw to cover the target with a shadowy substance that grants it concealment and limits its vision.</p>
+				<p id="touch-injection"><b><a href="spells/touchInjection.html#_touch-injection" >Touch Injection</a></b>: You can deliver an infusion, elixir, poison, or potion as a touch attack.</p>
+				<h2>3rd-Level Alchemist Spells</h2>
+				<p id="absorb-toxicity"><b><a href="spells/absorbToxicity.html#_absorb-toxicity" >Absorb Toxicity</a></b>: You become immune to diseases and toxins, absorb one, and then spread it to others.</p>
+				<p id="animal-aspect,-greater"><b><a href="spells/animalAspect.html#_animal-aspect,-greater" >Animal Aspect, Greater</a></b>: As <i><a href="spells/animalAspect.html#_animal-aspect" >animal aspect</a></i>, but you gain two animal qualities.</p>
+				<p id="burst-of-speed"><b><a href="spells/burstOfSpeed.html#_burst-of-speed" >Burst of Speed</a></b>: You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.</p>
+				<p id="darkvision,-communal"><b><a href="spells/darkvision.html#_darkvision,-communal" >Darkvision, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="delay-poison,-communal"><b><a href="spells/delayPoison.html#_delay-poison,-communal" >Delay Poison, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="endure-elements,-communal"><b><a href="spells/endureElements.html#_endure-elements,-communal" >Endure Elements, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="lightning-lash-bomb-admixture"><b><a href="spells/lightningLashBombAdmixture.html#_lightning-lash-bomb-admixture" >Lightning Lash Bomb Admixture</a></b>: Empowers bombs you throw with a ward that deals lightning damage each time those damaged by the bomb move more than 5 feet. </p>
+				<p id="protection-from-arrows,-communal"><b><a href="spells/protectionFromArrows.html#_protection-from-arrows,-communal" >Protection from Arrows, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows" >protection from arrows</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="resinous-skin"><b><a href="spells/resinousSkin.html#_resinous-skin" >Resinous Skin</a></b>: You gain DR 5/piercing and +4 to CMD against disarm attempts.</p>
+				<p id="resist-energy,-communal"><b><a href="spells/resistEnergy.html#_resist-energy,-communal" >Resist Energy, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="spider-climb,-communal"><b><a href="spells/spiderClimb.html#_spider-climb,-communal">Spider Climb, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>4th-Level Alchemist Spells</h2>
+				<p id="mutagenic-touch"><b><a href="spells/mutagenicTouch.html#_mutagenic-touch" >Mutagenic Touch</a></b>: You can pass a weaker version of your mutagen to another creature.</p>
+				<p id="tongues,-communal"><b><a href="spells/tongues.html#_tongues,-communal" >Tongues, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="viper-bomb-admixture"><b><a href="spells/viperBombAdmixture.html#_viper-bomb-admixture" >Viper Bomb Admixture</a></b>: Empowers bombs you throw to summon poisonous biting vipers that bite those hit or splashed by the bomb.</p>
+				<h2>5th-Level Alchemist Spells</h2>
+				<p id="air-walk,-communal"><b><a href="spells/airWalk.html#_air-walk,-communal" >Air Walk, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/airWalk.html#_air-walk" >air walk</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="dust-form"><b><a href="spells/dustForm.html#_dust-form" >Dust Form</a></b>: You become an incorporeal creature of dust for a short period of time.</p>
+				<p id="languid-bomb-admixture"><b><a href="spells/languidBombAdmixture.html#_languid-bomb-admixture" >Languid Bomb Admixture</a></b>: Empowers bombs you throw to cause fatigue in those directly hit or splashed by the bomb.</p>
+				<p id="stoneskin,-communal"><b><a href="spells/stoneskin.html#_stoneskin,-communal" >Stoneskin, Communal</a></b><sup><b>M</b></sup></b>: As <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>6th-Level Alchemist Spells</h2>
+				<p id="caging-bomb-admixture"><b><a href="spells/cagingBombAdmixture.html#_caging-bomb-admixture" >Caging Bomb Admixture</a></b>: Your bombs create a cage of force that traps creatures inside the bomb's splash radius. </p>
+				<p id="walk-through-space"><b><a href="spells/walkThroughSpace.html#_walk-through-space" >Walk through Space</a></b>: You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.</p>
+				
+				<h1 id="antipaladin-spells">Antipaladin Spells</h1>
+				
+				<h2>1st-Level Antipaladin Spells</h2>
+				<p id="litany-of-sloth"><b><a href="spells/litanyOfSloth.html#_litany-of-sloth" >Litany of Sloth</a></b>: Single target cannot make attacks of opportunity for 1 round.</p>
+				<p id="litany-of-weakness"><b><a href="spells/litanyOfWeakness.html#_litany-of-weakness" >Litany of Weakness</a></b>: Single target is fatigued for 1 round.</p>
+				<p id="longshot"><b><a href="spells/longshot.html#_longshot" >Longshot</a></b>: Grants a +10 foot bonus to the range increment for any ranged weapon fired.</p>
+				<h2>2nd-Level Antipaladin Spells</h2>
+				<p id="bestow-weapon-proficiency"><b><a href="spells/bestowWeaponProficiency.html#_bestow-weapon-proficiency" >Bestow Weapon Proficiency</a></b>: Grant a creature proficiency in a single weapon for short period of time.</p>
+				<p id="litany-of-defense"><b><a href="spells/litanyOfDefense.html#_litany-of-defense" >Litany of Defense</a></b>: Doubles armor's enhancement bonus.</p>
+				<p id="litany-of-eloquence"><b><a href="spells/litanyOfEloquence.html#_litany-of-eloquence" >Litany of Eloquence</a></b>: Fascinates a single creature for 1 round.</p>
+				<p id="litany-of-entanglement"><b><a href="spells/litanyOfEntanglement.html#_litany-of-entanglement" >Litany of Entanglement</a></b>: Entangles a creature for 1 round.</p>
+				<p id="litany-of-warding"><b><a href="spells/litanyOfWarding.html#_litany-of-warding" >Litany of Warding</a></b>: You gain two additional attacks of opportunity for 1 round.</p>
+				<p id="magic-siege-engine"><b><a href="spells/magicSiegeEngine.html#_magic-siege-engine" >Magic Siege Engine</a></b>: Siege engine gains +1 on targeting and damage rolls.</p>
+				<p id="protection-from-good,-communal"><b><a href="spells/protectionFromGood.html#_protection-from-good,-communal" >Protection from Good, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good" >protection from good</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-law,-communal"><b><a href="spells/protectionFromLaw.html#_protection-from-law,-communal" >Protection from Law, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law" >protection from law</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>3rd-Level Antipaladin Spells</h2>
+				<p id="burst-of-speed"><b><a href="spells/burstOfSpeed.html#_burst-of-speed" >Burst of Speed</a></b>: You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.</p>
+				<p id="darkvision,-communal"><b><a href="spells/darkvision.html#_darkvision,-communal" >Darkvision, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="deadly-juggernaut"><b><a href="spells/deadlyJuggernaut.html#_deadly-juggernaut" >Deadly Juggernaut</a></b>: Your might increases with every kill you make.</p>
+				<p id="litany-of-escape"><b><a href="spells/litanyOfEscape.html#_litany-of-escape" >Litany of Escape</a></b>: Teleports a friend out of a grapple.</p>
+				<p id="litany-of-sight"><b><a href="spells/litanyOfSight.html#_litany-of-sight" >Litany of Sight</a></b>: You can see invisible creatures and objects within 30 feet of you.</p>
+				<h2>4th-Level Antipaladin Spells</h2>
+				<p id="litany-of-madness"><b><a href="spells/litanyOfMadness.html#_litany-of-madness" >Litany of Madness</a></b>: A single target is confused for at least 1 round.</p>
+				<p id="litany-of-thunder"><b><a href="spells/litanyOfThunder.html#_litany-of-thunder" >Litany of Thunder</a></b>: A single target is deafened until the condition is removed, and is confused for 1 round.</p>
+				<p id="litany-of-vengeance"><b><a href="spells/litanyOfVengeance.html#_litany-of-vengeance" >Litany of Vengeance</a></b>: Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.</p>
+				<p id="magic-siege-engine,-greater"><b><a href="spells/magicSiegeEngine.html#_magic-siege-engine,-greater" >Magic Siege Engine, Greater</a></b>: Siege engine gains +1 on targeting and damage rolls for every four caster levels.</p>
+				<p id="nondetection,-communal"><b><a href="spells/nondetection.html#_nondetection,-communal" >Nondetection, Communal</a></b><sup><b>M</b></sup></b>: As <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i>, but you may divide the duration among creatures touched.</p>
+				
+				<h1 id="bard-spells">Bard Spells </h1>
+				
+				<h2>0-Level Bard Spells</h2>
+				<p id="haunted-fey-aspect"><b><a href="spells/hauntedFeyAspect.html#_haunted-fey-aspect" >Haunted Fey Aspect</a></b>: You surround yourself with disturbing illusions. </p>
+				<h2>1st-Level Bard Spells</h2>
+				<p id="adjuring-step"><b><a href="spells/adjuringStep.html#_adjuring-step-" >Adjuring Step</a></b>: You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell. </p>
+				<p id="abundant-ammunition"><b><a href="spells/abundantAmmunition.html#_abundant-ammunition" >Abundant Ammunition</a></b>: Replaces nonmagical ammunition every round.</p>
+				<p id="adoration"><b><a href="spells/adoration.html#_adoration" >Adoration</a></b>: You gain a bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks and performance combat checks.</p>
+				<p id="compel-hostility"><b><a href="spells/compelHostility.html#_compel-hostility" >Compel Hostility</a></b>: Compels opponents to attack you instead of your allies.</p>
+				<p id="deadeye's-lore"><b><a href="spells/deadeyeSLore.html#_deadeye's-lore" >Deadeye's Lore</a></b>: Gain a +4 bonus on <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> and move full speed while tracking.</p>
+				<p id="jury-rig"><b><a href="spells/juryRig.html#_jury-rig" >Jury-Rig</a></b>: Removes the broken condition from the targeted object.</p>
+				<p id="liberating-command"><b><a href="spells/liberatingCommand.html#_liberating-command" >Liberating Command</a></b>: Target makes an <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> check as an immediate action and gains a bonus on it.</p>
+				<p id="lock-gaze"><b><a href="spells/lockGaze.html#_lock-gaze" >Lock Gaze</a></b>: Compels the target to look only at you for the duration of the spell.</p>
+				<p id="moment-of-greatness"><b><a href="spells/momentOfGreatness.html#_moment-of-greatness" >Moment of Greatness</a></b>: Doubles a morale bonus.</p>
+				<p id="negative-reaction"><b><a href="spells/negativeReaction.html#_negative-reaction" >Negative Reaction</a></b>: Targeted creature may not positively influence anyone.</p>
+				<p id="see-alignment"><b><a href="spells/seeAlignment.html#_see-alignment" >See Alignment</a></b>: Pick an alignment; in your sight, creatures and items with that alignment emit a ghostly radiance.</p>
+				<h2>2nd-Level Bard Spells</h2>
+				<p id="blistering-invective"><b><a href="spells/blisteringInvective.html#_blistering-invective" >Blistering Invective</a></b>: Make an <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> check against all foes within 30 feet; those demoralized also take fire damage.</p>
+				<p id="discovery-torch"><b><a href="spells/discoveryTorch.html#_discovery-torch-" >Discovery Torch</a></b>: Touched object emanates bright light, granting <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> bonuses.</p>
+				<p id="pilfering-hand"><b><a href="spells/pilferingHand.html#_pilfering-hand" >Pilfering Hand</a></b>: You may seize an object or manipulate it from afar.</p>
+				<p id="qualm"><b><a href="spells/qualm.html#_qualm" >Qualm</a></b>: Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing.</p>
+				<p id="returning-weapon"><b><a href="spells/returningWeapon.html#_returning-weapon" >Returning Weapon</a></b>: Grants a weapon the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning" >returning</a></i> special weapon quality.</p>
+				<p id="share-language,-communal"><b><a href="spells/shareLanguage.html#_share-language,-communal" >Share Language, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-" >share language</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="tactical-acumen"><b><a href="spells/tacticalAcumen.html#_tactical-acumen" >Tactical Acumen</a></b>: You gain an additional +1 on attack rolls or to AC due to battlefield positioning.</p>
+				<p id="thunder-fire"><b><a href="spells/thunderFire.html#_thunder-fire" >Thunder Fire</a></b>: Ammunition in the targeted firearm deafens opponents.</p>
+				<h2>3rd-Level Bard Spells</h2>
+				<p id="delay-poison,-communal"><b><a href="spells/delayPoison.html#_delay-poison,-communal" >Delay Poison, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="phantom-driver"><b><a href="spells/phantomDriver.html#_phantom-driver" >Phantom Driver</a></b>: Conjures a phantom to drive vehicles.</p>
+				<p id="returning-weapon,-communal"><b><a href="spells/returningWeapon.html#_returning-weapon,-communal" >Returning Weapon, Communal</a></b>: As <i><a href="spells/returningWeapon.html#_returning-weapon" >returning weapon</a></i>, but you may divide the duration among weapons touched.</p>
+				<p id="tongues,-communal"><b><a href="spells/tongues.html#_tongues,-communal" >Tongues, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>4th-Level Bard Spells</h2>
+				<p id="phantom-steed,-communal"><b><a href="spells/phantomSteed.html#_phantom-steed,-communal">Phantom Steed, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed" >phantom steed</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="shocking-image"><b><a href="spells/shockingImage.html#_shocking-image" >Shocking Image</a></b>: As <i><a href="/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image" >mirror image</a></i>, but the duplicates emit electrical damage when destroyed.</p>
+				
+				<h1 id="cleric-spells">Cleric Spells</h1>
+				
+				<h2>1st-Level Cleric Spells</h2>
+				<p id="abundant-ammunition"><b><a href="spells/abundantAmmunition.html#_abundant-ammunition" >Abundant Ammunition</a></b>: Replaces nonmagical ammunition every round.</p>
+				<p id="air-bubble"><b><a href="spells/airBubble.html#_air-bubble" >Air Bubble</a></b>: Creates a small pocket of air around your head or an object.</p>
+				<p id="compel-hostility"><b><a href="spells/compelHostility.html#_compel-hostility" >Compel Hostility</a></b>: Compels opponents to attack you instead of your allies.</p>
+				<p id="deadeye's-lore"><b><a href="spells/deadeyeSLore.html#_deadeye's-lore" >Deadeye's Lore</a></b>: Gain a +4 bonus on <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> and move full speed while tracking.</p>
+				<p id="liberating-command"><b><a href="spells/liberatingCommand.html#_liberating-command" >Liberating Command</a></b>: Target makes an <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> check as an immediate action and gains a bonus on it.</p>
+				<p id="moment-of-greatness"><b><a href="spells/momentOfGreatness.html#_moment-of-greatness" >Moment of Greatness</a></b>: Doubles a morale bonus.</p>
+				<p id="reinforce-armaments"><b><a href="spells/reinforceArmaments.html#_reinforce-armaments" >Reinforce Armaments</a></b>: Temporarily mitigates the fragile quality in targeted weapon or armor.</p>
+				<p id="sun-metal"><b><a href="spells/sunMetal.html#_sun-metal" >Sun Metal</a></b>: Weapon touched bursts into flames.</p>
+				<h2>2nd-Level Cleric Spells</h2>
+				<p id="ant-haul,-communal"><b><a href="spells/antHaul.html#_ant-haul,-communal" >Ant Haul, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >ant haul</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="bestow-weapon-proficiency"><b><a href="spells/bestowWeaponProficiency.html#_bestow-weapon-proficiency" >Bestow Weapon Proficiency</a></b>: Grant a creature proficiency in a single weapon for short period of time.</p>
+				<p id="effortless-armor"><b><a href="spells/effortlessArmor.html#_effortless-armor" >Effortless Armor</a></b>: Armor you wear no longer slows your speed.</p>
+				<p id="endure-elements,-communal"><b><a href="spells/endureElements.html#_endure-elements,-communal" >Endure Elements, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="instrument-of-agony"><b><a href="spells/instrumentOfAgony.html#_instrument-of-agony" >Instrument of Agony</a></b>: Weapon exudes divine fury, granting a bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks.</p>
+				<p id="magic-siege-engine"><b><a href="spells/magicSiegeEngine.html#_magic-siege-engine" >Magic Siege Engine</a></b>: Siege engine gains +1 on targeting and damage rolls.</p>
+				<p id="pilfering-hand"><b><a href="spells/pilferingHand.html#_pilfering-hand" >Pilfering Hand</a></b>: You may seize an object or manipulate it from afar.</p>
+				<p id="protection-from-chaos,-communal"><b><a href="spells/protectionFromChaos.html#_protection-from-chaos,-communal" >Protection from Chaos, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos" >protection from chaos</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-evil,-communal"><b><a href="spells/protectionFromEvil.html#_protection-from-evil,-communal" >Protection from Evil, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil" >protection from evil</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-good,-communal"><b><a href="spells/protectionFromGood.html#_protection-from-good,-communal" >Protection from Good, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good" >protection from good</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-law,-communal"><b><a href="spells/protectionFromLaw.html#_protection-from-law,-communal" >Protection from Law, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law" >protection from law</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="reinforce-armaments,-communal"><b><a href="spells/reinforceArmaments.html#_reinforce-armaments,-communal" >Reinforce Armaments, Communal</a></b>: As <i><a href="spells/reinforceArmaments.html#_reinforce-armaments" >reinforce armaments</a></i>, but you may divide the duration among objects touched.</p>
+				<p id="returning-weapon"><b><a href="spells/returningWeapon.html#_returning-weapon" >Returning Weapon</a></b>: Grants a weapon the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning" >returning</a></i> special weapon quality.</p>
+				<h2>3rd-Level Cleric Spells</h2>
+				<p id="chain-of-perdition"><b><a href="spells/chainOfPerdition.html#_chain-of-perdition" >Chain of Perdition</a></b>: Creates a floating chain of force.</p>
+				<p id="daybreak-arrow"><b><a href="spells/daybreakArrow.html#_daybreak-arrow" >Daybreak Arrow</a></b>: Targeted ammunition exudes radiant energy.</p>
+				<p id="deadly-juggernaut"><b><a href="spells/deadlyJuggernaut.html#_deadly-juggernaut" >Deadly Juggernaut</a></b>: Your might increases with every kill you make.</p>
+				<p id="delay-poison,-communal"><b><a href="spells/delayPoison.html#_delay-poison,-communal" >Delay Poison, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="discovery-torch"><b><a href="spells/discoveryTorch.html#_discovery-torch-" >Discovery Torch</a></b>: Touched object emanates bright light, granting <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> bonuses.</p>
+				<p id="resist-energy,-communal"><b><a href="spells/resistEnergy.html#_resist-energy,-communal" >Resist Energy, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="returning-weapon,-communal"><b><a href="spells/returningWeapon.html#_returning-weapon,-communal" >Returning Weapon, Communal</a></b>: As <i><a href="spells/returningWeapon.html#_returning-weapon" >returning weapon</a></i>, but you may divide the duration among weapons touched.</p>
+				<p id="share-language,-communal"><b><a href="spells/shareLanguage.html#_share-language,-communal" >Share Language, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-" >share language</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>4th-Level Cleric Spells</h2>
+				<p id="debilitating-portent"><b><a href="spells/debilitatingPortent.html#_debilitating-portent" >Debilitating Portent</a></b>: Inflicts an ill fate on a creature, halving its damage when it attacks or casts a spell.</p>
+				<p id="protection-from-energy,-communal"><b><a href="spells/protectionFromEnergy.html#_protection-from-energy,-communal" >Protection from Energy, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="summoner-conduit"><b><a href="spells/summonerConduit.html#_summoner-conduit" >Summoner Conduit</a></b>: The target takes damage whenever its summoned creature does.</p>
+				<p id="water-walk,-communal"><b><a href="spells/waterWalk.html#_water-walk,-communal" >Water Walk, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/waterWalk.html#_water-walk" >water walk</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>5th-Level Cleric Spells</h2>
+				<p id="air-walk,-communal"><b><a href="spells/airWalk.html#_air-walk,-communal" >Air Walk, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/airWalk.html#_air-walk" >air walk</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="magic-siege-engine,-greater"><b><a href="spells/magicSiegeEngine.html#_magic-siege-engine,-greater" >Magic Siege Engine, Greater</a></b>: Siege engine gains +1 on targeting and damage rolls for every four caster levels.</p>
+				<p id="spell-immunity,-communal"><b><a href="spells/spellImmunity.html#_spell-immunity,-communal" >Spell Immunity, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity" >spell immunity</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="symbol-of-striking"><b><a href="spells/symbolOfStriking.html#_symbol-of-striking" >Symbol of Striking</a></b><sup><b>M</b></sup></b>: As <i><a href="/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death" >symbol of death</a></i>, but fills a 5-foot square.</p>
+				<p id="tongues,-communal"><b><a href="spells/tongues.html#_tongues,-communal" >Tongues, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>6th-Level Cleric Spells</h2>
+				<p id="dust-form"><b><a href="spells/dustForm.html#_dust-form" >Dust Form</a></b>: You become an incorporeal creature of dust for a short period of time.</p>
+				<h2>7th-Level Cleric Spells</h2>
+				<p id="jolting-portent"><b><a href="spells/joltingPortent.html#_jolting-portent" >Jolting Portent</a></b>: You inflict a vengeful fate on a creature, dealing electricity damage each time it attacks or casts a spell.</p>
+				<h2>8th-Level Cleric Spells</h2>
+				<p id="frightful-aspect"><b><a href="spells/frightfulAspect.html#_frightful-aspect" >Frightful Aspect</a></b>: You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened.</p>
+				<h2>9th-Level Cleric Spells</h2>
+				<p id="spell-immunity,-greater-communal"><b><a href="spells/spellImmunity.html#_spell-immunity,-greater-communal" >Spell Immunity, Greater Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity-greater" >greater spell immunity</a></i>, but you may divide the duration among creatures touched.</p>
+				
+				<h1 id="druid-spells">Druid Spells</h1>
+				
+				<h2>1st-Level Druid Spells</h2>
+				<p id="air-bubble"><b><a href="spells/airBubble.html#_air-bubble" >Air Bubble</a></b>: Creates a small pocket of air around your head or an object.</p>
+				<p id="damp-powder"><b><a href="spells/dampPowder.html#_damp-powder" >Damp Powder</a></b>: Ruins ammunition loaded in the targeted firearm.</p>
+				<p id="deadeye's-lore"><b><a href="spells/deadeyeSLore.html#_deadeye's-lore" >Deadeye's Lore</a></b>: Gain a +4 bonus on <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> and move full speed while tracking.</p>
+				<p id="liberating-command"><b><a href="spells/liberatingCommand.html#_liberating-command" >Liberating Command</a></b>: Target makes an <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> check as an immediate action and gains a bonus on it.</p>
+				<p id="weaken-powder"><b><a href="spells/weakenPowder.html#_weaken-powder" >Weaken Powder</a></b>: Targeted firearm's ammunition halves the firearm's range and imposes a &ndash;2 penalty on damage rolls.</p>
+				<h2>2nd-Level Druid Spells</h2>
+				<p id="animal-aspect"><b><a href="spells/animalAspect.html#_animal-aspect" >Animal Aspect</a></b>: You gain some of the beneficial qualities of an animal.</p>
+				<p id="ant-haul,-communal"><b><a href="spells/antHaul.html#_ant-haul,-communal" >Ant Haul, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >ant haul</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="certain-grip"><b><a href="spells/certainGrip.html#_certain-grip-" >Certain Grip</a></b>: You gain a +4 competence bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> and <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> checks and to CMD.</p>
+				<p id="endure-elements,-communal"><b><a href="spells/endureElements.html#_endure-elements,-communal" >Endure Elements, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="forest-friend"><b><a href="spells/forestFriend.html#_forest-friend-" >Forest Friend</a></b>: Plants in a forested area become helpful instead of hindering you and your allies.</p>
+				<p id="frost-fall"><b><a href="spells/frostFall.html#_frost-fall" >Frost Fall</a></b>: The area is covered in a chilling frost.</p>
+				<p id="wilderness-soldiers"><b><a href="spells/wildernessSoldiers.html#_wilderness-soldiers" >Wilderness Soldiers</a></b>: Nearby plants aid you in combat.</p>
+				<h2>3rd-Level Druid Spells</h2>
+				<p id="animal-aspect,-greater"><b><a href="spells/animalAspect.html#_animal-aspect,-greater" >Animal Aspect, Greater</a></b>: As <i><a href="spells/animalAspect.html#_animal-aspect" >animal aspect</a></i>, but you gain two animal qualities.</p>
+				<p id="companion-mind-link"><b><a href="spells/companionMindLink.html#_companion-mind-link" >Companion Mind Link</a></b>: You can talk with your animal companion, and can handle it with supernatural ease.</p>
+				<p id="delay-poison,-communal"><b><a href="spells/delayPoison.html#_delay-poison,-communal" >Delay Poison, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="pup-shape"><b><a href="spells/pupShape.html#_pup-shape" >Pup Shape</a></b>: Transforms a single animal or magical beast into a younger and cuter version of itself for a short time.</p>
+				<p id="resinous-skin"><b><a href="spells/resinousSkin.html#_resinous-skin" >Resinous Skin</a></b>: You gain DR 5/piercing and +4 to CMD against disarm attempts.</p>
+				<p id="resist-energy,-communal"><b><a href="spells/resistEnergy.html#_resist-energy,-communal" >Resist Energy, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="share-language,-communal"><b><a href="spells/shareLanguage.html#_share-language,-communal" >Share Language, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-" >share language</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="spider-climb,-communal"><b><a href="spells/spiderClimb.html#_spider-climb,-communal">Spider Climb, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>4th-Level Druid Spells</h2>
+				<p id="absorb-toxicity"><b><a href="spells/absorbToxicity.html#_absorb-toxicity" >Absorb Toxicity</a></b>: You become immune to diseases and toxins, absorb one, and then spread it to others.</p>
+				<p id="obsidian-flow"><b><a href="spells/obsidianFlow.html#_obsidian-flow" >Obsidian Flow</a></b>: Converts the surface of the ground into molten glass.</p>
+				<p id="protection-from-energy,-communal"><b><a href="spells/protectionFromEnergy.html#_protection-from-energy,-communal" >Protection from Energy, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>5th-Level Druid Spells</h2>
+				<p id="air-walk,-communal"><b><a href="spells/airWalk.html#_air-walk,-communal" >Air Walk, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/airWalk.html#_air-walk" >air walk</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>6th-Level Druid Spells</h2>
+				<p id="dust-form"><b><a href="spells/dustForm.html#_dust-form" >Dust Form</a></b>: You become an incorporeal creature of dust for a short period of time.</p>
+				<p id="stoneskin,-communal"><b><a href="spells/stoneskin.html#_stoneskin,-communal" >Stoneskin, Communal</a></b><sup><b>M</b></sup></b>: As <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="tar-pool"><b><a href="spells/tarPool.html#_tar-pool" >Tar Pool</a></b>: Converts the top layer of the ground into hot tar.</p>
+				<h2>7th-Level Druid Spells</h2>
+				<p id="siege-of-trees"><b><a href="spells/siegeOfTrees.html#_siege-of-trees" >Siege of Trees</a></b>: Transforms Large trees into arboreal catapults of the same size.</p>
+				<h2>8th-Level Druid Spells</h2>
+				<p id="frightful-aspect"><b><a href="spells/frightfulAspect.html#_frightful-aspect" >Frightful Aspect</a></b>: You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened.</p>
+				<h2>9th-Level Druid Spells</h2>
+				<p id="siege-of-trees,-greater"><b><a href="spells/siegeOfTrees.html#_siege-of-trees,-greater" >Siege of Trees, Greater</a></b>: As <i><a href="spells/siegeOfTrees.html#_siege-of-trees" >siege of trees</a></i>, but can transform Huge and Gargantuan trees into arboreal catapults of the same size.</p>
+				
+				<h1 id="inquisitor-spells">Inquisitor Spells</h1>
+				
+				<h2>1st-Level Inquisitor Spells</h2>
+				<p id="bowstaff"><b><a href="spells/bowstaff.html#_bowstaff" >Bowstaff</a></b>: A shortbow may double as a club, or a longbow as a quarterstaff.</p>
+				<p id="compel-hostility"><b><a href="spells/compelHostility.html#_compel-hostility" >Compel Hostility</a></b>: Compels opponents to attack you instead of your allies.</p>
+				<p id="deadeye's-lore"><b><a href="spells/deadeyeSLore.html#_deadeye's-lore" >Deadeye's Lore</a></b>: Gain a +4 bonus on <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> and move full speed while tracking.</p>
+				<p id="litany-of-sloth"><b><a href="spells/litanyOfSloth.html#_litany-of-sloth" >Litany of Sloth</a></b>: Single target cannot make attacks of opportunity for 1 round.</p>
+				<p id="litany-of-weakness"><b><a href="spells/litanyOfWeakness.html#_litany-of-weakness" >Litany of Weakness</a></b>: Single target is fatigued for 1 round.</p>
+				<p id="lock-gaze"><b><a href="spells/lockGaze.html#_lock-gaze" >Lock Gaze</a></b>: Compels the target to look only at you for the duration of the spell.</p>
+				<p id="longshot"><b><a href="spells/longshot.html#_longshot" >Longshot</a></b>: Grants a +10-foot bonus to the range increment for any ranged weapon fired.</p>
+				<p id="peacebond"><b><a href="spells/peacebond.html#_peacebond" >Peacebond</a></b>: Locks a weapon in place on the target's body.</p>
+				<p id="returning-weapon"><b><a href="spells/returningWeapon.html#_returning-weapon" >Returning Weapon</a></b>: Grants a weapon the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning" >returning</a></i> special weapon quality.</p>
+				<p id="unerring-weapon"><b><a href="spells/unerringWeapon.html#_unerring-weapon" >Unerring Weapon</a></b>: Grants a +2 bonus, +1 per four caster levels, on attack rolls to confirm a critical hit.</p>
+				<h2>2nd-Level Inquisitor Spells</h2>
+				<p id="bestow-weapon-proficiency"><b><a href="spells/bestowWeaponProficiency.html#_bestow-weapon-proficiency" >Bestow Weapon Proficiency</a></b>: Grant a creature proficiency in a single weapon for short period of time.</p>
+				<p id="blistering-invective"><b><a href="spells/blisteringInvective.html#_blistering-invective" >Blistering Invective</a></b>: Make an <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> check against all foes within 30 feet; those demoralized also take fire damage.</p>
+				<p id="brow-gasher"><b><a href="spells/browGasher.html#_brow-gasher" >Brow Gasher</a></b>: Slashing weapon deals bleed damage to an opponent's head.</p>
+				<p id="discovery-torch"><b><a href="spells/discoveryTorch.html#_discovery-torch-" >Discovery Torch</a></b>: Object touched emanates bright light, granting <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> bonuses.</p>
+				<p id="effortless-armor"><b><a href="spells/effortlessArmor.html#_effortless-armor" >Effortless Armor</a></b>: Armor you wear no longer slows your speed.</p>
+				<p id="instrument-of-agony"><b><a href="spells/instrumentOfAgony.html#_instrument-of-agony" >Instrument of Agony</a></b>: Weapon exudes divine fury, granting a bonus on <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> checks.</p>
+				<p id="litany-of-defense"><b><a href="spells/litanyOfDefense.html#_litany-of-defense" >Litany of Defense</a></b>: Doubles armor's enhancement bonus.</p>
+				<p id="magic-siege-engine"><b><a href="spells/magicSiegeEngine.html#_magic-siege-engine" >Magic Siege Engine</a></b>: Siege engine gains +1 on targeting and damage rolls.</p>
+				<p id="protection-from-chaos,-communal"><b><a href="spells/protectionFromChaos.html#_protection-from-chaos,-communal" >Protection from Chaos, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos" >protection from chaos</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-evil,-communal"><b><a href="spells/protectionFromEvil.html#_protection-from-evil,-communal" >Protection from Evil, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil" >protection from evil</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-good,-communal"><b><a href="spells/protectionFromGood.html#_protection-from-good,-communal" >Protection from Good, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good" >protection from good</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-law,-communal"><b><a href="spells/protectionFromLaw.html#_protection-from-law,-communal" >Protection from Law, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law" >protection from law</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="qualm"><b><a href="spells/qualm.html#_qualm" >Qualm</a></b>: Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing.</p>
+				<p id="returning-weapon,-communal"><b><a href="spells/returningWeapon.html#_returning-weapon,-communal" >Returning Weapon, Communal</a></b>: As <i><a href="spells/returningWeapon.html#_returning-weapon" >returning weapon</a></i>, but you may divide the duration among weapons touched.</p>
+				<p id="tactical-acumen"><b><a href="spells/tacticalAcumen.html#_tactical-acumen" >Tactical Acumen</a></b>: You gain an additional +1 on attack rolls or to AC due to battlefield positioning.</p>
+				<h2>3rd-Level Inquisitor Spells</h2>
+				<p id="burst-of-speed"><b><a href="spells/burstOfSpeed.html#_burst-of-speed" >Burst of Speed</a></b>: You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.</p>
+				<p id="daybreak-arrow"><b><a href="spells/daybreakArrow.html#_daybreak-arrow" >Daybreak Arrow</a></b>: Targeted ammunition exudes radiant energy.</p>
+				<p id="deadly-juggernaut"><b><a href="spells/deadlyJuggernaut.html#_deadly-juggernaut" >Deadly Juggernaut</a></b>: Your might increases with every kill you make.</p>
+				<p id="delay-poison,-communal"><b><a href="spells/delayPoison.html#_delay-poison,-communal" >Delay Poison, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="litany-of-eloquence"><b><a href="spells/litanyOfEloquence.html#_litany-of-eloquence" >Litany of Eloquence</a></b>: Fascinates a single creature for 1 round.</p>
+				<p id="litany-of-entanglement"><b><a href="spells/litanyOfEntanglement.html#_litany-of-entanglement" >Litany of Entanglement</a></b>: Entangles a creature for 1 round. </p>
+				<p id="litany-of-righteousness"><b><a href="spells/litanyOfRighteousness.html#_litany-of-righteousness" >Litany of Righteousness</a></b>: A single evil creature takes more damage from creatures with a good aura.</p>
+				<p id="litany-of-warding"><b><a href="spells/litanyOfWarding.html#_litany-of-warding" >Litany of Warding</a></b>: You gain two additional attacks of opportunity for 1 round.</p>
+				<p id="locate-weakness"><b><a href="spells/locateWeakness.html#_locate-weakness" >Locate Weakness</a></b>: You roll damage twice when you roll damage for a critical hit and take the best damage.</p>
+				<p id="resist-energy,-communal"><b><a href="spells/resistEnergy.html#_resist-energy,-communal" >Resist Energy, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>4th-Level Inquisitor Spells</h2>
+				<p id="find-quarry"><b><a href="spells/findQuarry.html#_find-quarry" >Find Quarry</a></b>: You can sense whether a particular creature is within 20 miles of your location.</p>
+				<p id="judgment-light"><b><a href="spells/judgmentLight.html#_judgment-light" >Judgment Light</a></b>: You gain an additional effect while a judgment is active.</p>
+				<p id="litany-of-escape"><b><a href="spells/litanyOfEscape.html#_litany-of-escape" >Litany of Escape</a></b>: Teleports a friend out of a grapple.</p>
+				<p id="litany-of-sight"><b><a href="spells/litanyOfSight.html#_litany-of-sight" >Litany of Sight</a></b>: You can see invisible creatures and objects within 30 feet of you.</p>
+				<p id="magic-siege-engine,-greater"><b><a href="spells/magicSiegeEngine.html#_magic-siege-engine,-greater" >Magic Siege Engine, Greater</a></b>: Siege engine gains +1 on targeting and damage rolls for every four caster levels.</p>
+				<p id="named-bullet"><b><a href="spells/namedBullet.html#_named-bullet" >Named Bullet</a></b>: Imbues ammunition with accuracy against a specific creature type.</p>
+				<p id="protection-from-energy,-communal"><b><a href="spells/protectionFromEnergy.html#_protection-from-energy,-communal" >Protection from Energy, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>5th-Level Inquisitor Spells</h2>
+				<p id="litany-of-thunder"><b><a href="spells/litanyOfThunder.html#_litany-of-thunder" >Litany of Thunder</a></b>: A single target is deafened until the condition is removed, and is confused for 1 round.</p>
+				<p id="litany-of-vengeance"><b><a href="spells/litanyOfVengeance.html#_litany-of-vengeance" >Litany of Vengeance</a></b>: Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.</p>
+				<p id="spell-immunity,-communal"><b><a href="spells/spellImmunity.html#_spell-immunity,-communal" >Spell Immunity, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity" >spell immunity</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="stoneskin,-communal"><b><a href="spells/stoneskin.html#_stoneskin,-communal" >Stoneskin, Communal</a></b><sup><b>M</b></sup></b>: As <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>6th-Level Inquisitor Spells	</h2>
+				<p id="litany-of-madness"><b><a href="spells/litanyOfMadness.html#_litany-of-madness" >Litany of Madness</a></b>: A single target is confused for at least 1 round.</p>
+				<p id="named-bullet,-greater"><b><a href="spells/namedBullet.html#_named-bullet,-greater" >Named Bullet, Greater</a></b>: As <i><a href="spells/namedBullet.html#_named-bullet" >named bullet</a></i>, but deals 2 points of damage per caster level.</p>
+				
+				<h1 id="magus-spells">Magus Spells</h1>
+				
+				<h2>1st-Level Magus Spells</h2>
+				<p id="adjuring-step"><b><a href="spells/adjuringStep.html#_adjuring-step-" >Adjuring Step</a></b>: You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell. </p>
+				<p id="illusion-of-calm"><b><a href="spells/illusionOfCalm.html#_illusion-of-calm" >Illusion of Calm</a></b>: You appear to be standing still, even when you take some actions. </p>
+				<p id="jury-rig"><b><a href="spells/juryRig.html#_jury-rig" >Jury-Rig</a></b>: Removes the broken condition from the targeted object.</p>
+				<p id="lock-gaze"><b><a href="spells/lockGaze.html#_lock-gaze" >Lock Gaze</a></b>: Compels the target to look only at you for the duration of the spell.</p>
+				<p id="longshot"><b><a href="spells/longshot.html#_longshot" >Longshot</a></b>: Grants a +10-foot bonus to the range increment for any ranged weapon fired.</p>
+				<p id="mirror-strike"><b><a href="spells/mirrorStrike.html#_mirror-strike" >Mirror Strike</a></b>: You may strike multiple opponents with a single attack.</p>
+				<p id="negative-reaction"><b><a href="spells/negativeReaction.html#_negative-reaction" >Negative Reaction</a></b>: Targeted creature may not positively influence anyone.</p>
+				<p id="reinforce-armaments"><b><a href="spells/reinforceArmaments.html#_reinforce-armaments" >Reinforce Armaments</a></b>: Temporarily mitigates the fragile quality in targeted weapon or armor.</p>
+				<p id="returning-weapon"><b><a href="spells/returningWeapon.html#_returning-weapon" >Returning Weapon</a></b>: Grants a weapon the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning" >returning</a></i> special weapon quality.</p>
+				<p id="shock-shield"><b><a href="spells/shockShield.html#_shock-shield" >Shock Shield</a></b>: A shield of force protects you until you dismiss it in an explosion of electricity.</p>
+				<p id="unerring-weapon"><b><a href="spells/unerringWeapon.html#_unerring-weapon" >Unerring Weapon</a></b>: Grants a +2 bonus, +1 per four caster levels, on attack rolls to confirm a critical hit.</p>
+				<p id="warding-weapon"><b><a href="spells/wardingWeapon.html#_warding-weapon" >Warding Weapon</a></b><sup><b>F</b></sup></b>: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.</p>
+				<h2>2nd-Level Magus Spells</h2>
+				<p id="ablative-barrier"><b><a href="spells/ablativeBarrier.html#_ablative-barrier" >Ablative Barrier</a></b><sup><b>F</b></sup></b>: Surrounds the target with layers of force.</p>
+				<p id="animal-aspect"><b><a href="spells/animalAspect.html#_animal-aspect" >Animal Aspect</a></b>: You gain some of the beneficial qualities of an animal.</p>
+				<p id="bestow-weapon-proficiency"><b><a href="spells/bestowWeaponProficiency.html#_bestow-weapon-proficiency" >Bestow Weapon Proficiency</a></b>: Grants a creature proficiency in a single weapon for short period of time.</p>
+				<p id="brow-gasher"><b><a href="spells/browGasher.html#_brow-gasher" >Brow Gasher</a></b>: Slashing weapon deals bleed damage to an opponent's head.</p>
+				<p id="effortless-armor"><b><a href="spells/effortlessArmor.html#_effortless-armor" >Effortless Armor</a></b>: Armor you wear no longer slows your speed.</p>
+				<p id="mount,-communal"><b><a href="spells/mount.html#_mount,-communal" >Mount, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/mount.html#_mount" >mount</a></i>, but you may divide the duration among creatures touched. </p>
+				<p id="pilfering-hand"><b><a href="spells/pilferingHand.html#_pilfering-hand" >Pilfering Hand</a></b>: You may seize an object or manipulate it from afar.</p>
+				<p id="reloading-hands"><b><a href="spells/reloadingHands.html#_reloading-hands" >Reloading Hands</a></b>: Loads a single shot into your weapon every round.</p>
+				<p id="reinforce-armaments,-communal"><b><a href="spells/reinforceArmaments.html#_reinforce-armaments,-communal" >Reinforce Armaments, Communal</a></b>: As <i><a href="spells/reinforceArmaments.html#_reinforce-armaments" >reinforce armaments</a></i>, but you may divide the duration among objects touched.</p>
+				<p id="returning-weapon,-communal"><b><a href="spells/returningWeapon.html#_returning-weapon,-communal" >Returning Weapon, Communal</a></b>: As <i><a href="spells/returningWeapon.html#_returning-weapon" >returning weapon</a></i>, but you may divide the duration among weapons touched.</p>
+				<p id="tactical-acumen"><b><a href="spells/tacticalAcumen.html#_tactical-acumen" >Tactical Acumen</a></b>: You gain an additional +1 on attack rolls or to AC due to battlefield positioning.</p>
+				<p id="telekinetic-assembly"><b><a href="spells/telekineticAssembly.html#_telekinetic-assembly" >Telekinetic Assembly</a></b><sup><b>F</b></sup></b>: Assembles a siege engine using 1 fewer worker for every two caster levels.</p>
+				<p id="twisted-space"><b><a href="spells/twistedSpace.html#_twisted-space" >Twisted Space</a></b>: Targeted creature's attacks target a random square instead of the intended target.</p>
+				<h2>3rd-Level Magus Spells</h2>
+				<p id="animal-aspect,-greater"><b><a href="spells/animalAspect.html#_animal-aspect,-greater" >Animal Aspect, Greater</a></b>: As <i><a href="spells/animalAspect.html#_animal-aspect" >animal aspect</a></i>, but you gain two animal qualities.</p>
+				<p id="burst-of-speed"><b><a href="spells/burstOfSpeed.html#_burst-of-speed" >Burst of Speed</a></b>: You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.</p>
+				<p id="locate-weakness"><b><a href="spells/locateWeakness.html#_locate-weakness" >Locate Weakness</a></b>: You roll damage twice when you roll damage for a critical hit and take the best damage.</p>
+				<h2>4th-Level Magus Spells</h2>
+				<p id="pellet-blast"><b><a href="spells/pelletBlast.html#_pellet-blast" >Pellet Blast</a></b><sup><b>M</b></sup></b>: Creates an explosion of conjured metal pellets. </p>
+				<p id="wreath-of-blades"><b><a href="spells/wreathOfBlades.html#_wreath-of-blades" >Wreath of Blades</a></b><sup><b>F</b></sup></b>: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.</p>
+				<h2>5th-Level Magus Spells</h2>
+				<p id="symbol-of-striking"><b><a href="spells/symbolOfStriking.html#_symbol-of-striking" >Symbol of Striking</a></b><sup><b>M</b></sup></b>: As <i><a href="/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death" >symbol of death</a></i>, but fills a 5-foot square.</p>
+				<h2>6th-Level Magus Spells</h2>
+				<p id="walk-through-space"><b><a href="spells/walkThroughSpace.html#_walk-through-space" >Walk through Space</a></b>: You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.</p>
+				
+				<h1 id="paladin-spells">Paladin Spells</h1>
+				
+				<h2>1st-Level Paladin Spells</h2>
+				<p id="bowstaff"><b><a href="spells/bowstaff.html#_bowstaff" >Bowstaff</a></b>: A shortbow may double as a club, or a longbow as a quarterstaff.</p>
+				<p id="compel-hostility"><b><a href="spells/compelHostility.html#_compel-hostility" >Compel Hostility</a></b>: Compels opponents to attack you instead of your allies.</p>
+				<p id="liberating-command"><b><a href="spells/liberatingCommand.html#_liberating-command" >Liberating Command</a></b>: Target makes an <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> check as an immediate action and gains a bonus on it.</p>
+				<p id="litany-of-sloth"><b><a href="spells/litanyOfSloth.html#_litany-of-sloth" >Litany of Sloth</a></b>: Single target cannot make attacks of opportunity for 1 round.</p>
+				<p id="longshot"><b><a href="spells/longshot.html#_longshot" >Longshot</a></b>: Grants a +10-foot bonus to the range increment for any ranged weapon fired.</p>
+				<p id="sun-metal"><b><a href="spells/sunMetal.html#_sun-metal" >Sun Metal</a></b>: Weapon touched bursts into flames.</p>
+				<p id="tactical-acumen"><b><a href="spells/tacticalAcumen.html#_tactical-acumen" >Tactical Acumen</a></b>: You gain an additional +1 on attack rolls or to AC due to battlefield positioning.</p>
+				<h2>2nd-Level Paladin Spells</h2>
+				<p id="bestow-weapon-proficiency"><b><a href="spells/bestowWeaponProficiency.html#_bestow-weapon-proficiency" >Bestow Weapon Proficiency</a></b>: Grants a creature proficiency in a single weapon for short period of time.</p>
+				<p id="divine-arrow"><b><a href="spells/divineArrow.html#_divine-arrow" >Divine Arrow</a></b>: Imbues a projectile with holy energy.</p>
+				<p id="effortless-armor"><b><a href="spells/effortlessArmor.html#_effortless-armor" >Effortless Armor</a></b>: Armor you wear no longer slows your speed.</p>
+				<p id="endure-elements,-communal"><b><a href="spells/endureElements.html#_endure-elements,-communal" >Endure Elements, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="litany-of-defense"><b><a href="spells/litanyOfDefense.html#_litany-of-defense" >Litany of Defense</a></b>: Doubles armor's enhancement bonus.</p>
+				<p id="litany-of-eloquence"><b><a href="spells/litanyOfEloquence.html#_litany-of-eloquence" >Litany of Eloquence</a></b>: Fascinates a single creature for 1 round.</p>
+				<p id="litany-of-entanglement"><b><a href="spells/litanyOfEntanglement.html#_litany-of-entanglement" >Litany of Entanglement</a></b>: Entangles a creature for 1 round.</p>
+				<p id="litany-of-righteousness"><b><a href="spells/litanyOfRighteousness.html#_litany-of-righteousness" >Litany of Righteousness</a></b>: A single evil creature takes more damage from creatures with a good aura.</p>
+				<p id="litany-of-warding"><b><a href="spells/litanyOfWarding.html#_litany-of-warding" >Litany of Warding</a></b>: You gain two additional attacks of opportunity for 1 round.</p>
+				<p id="magic-siege-engine"><b><a href="spells/magicSiegeEngine.html#_magic-siege-engine" >Magic Siege Engine</a></b>: Siege engine gains +1 on targeting and damage rolls.</p>
+				<p id="protection-from-chaos,-communal"><b><a href="spells/protectionFromChaos.html#_protection-from-chaos,-communal" >Protection from Chaos, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos" >protection from chaos</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-evil,-communal"><b><a href="spells/protectionFromEvil.html#_protection-from-evil,-communal" >Protection from Evil, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil" >protection from evil</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>3rd-Level Paladin Spells</h2>
+				<p id="burst-of-speed"><b><a href="spells/burstOfSpeed.html#_burst-of-speed" >Burst of Speed</a></b>: You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.</p>
+				<p id="daybreak-arrow"><b><a href="spells/daybreakArrow.html#_daybreak-arrow" >Daybreak Arrow</a></b>: Targeted ammunition exudes radiant energy.</p>
+				<p id="deadly-juggernaut"><b><a href="spells/deadlyJuggernaut.html#_deadly-juggernaut" >Deadly Juggernaut</a></b>: Your might increases with every kill you make.</p>
+				<p id="delay-poison,-communal"><b><a href="spells/delayPoison.html#_delay-poison,-communal" >Delay Poison, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="litany-of-escape"><b><a href="spells/litanyOfEscape.html#_litany-of-escape" >Litany of Escape</a></b>: Teleports a friend out of a grapple.</p>
+				<p id="litany-of-sight"><b><a href="spells/litanyOfSight.html#_litany-of-sight" >Litany of Sight</a></b>: You can see invisible creatures and objects within 30 feet of you.</p>
+				<p id="resist-energy,-communal"><b><a href="spells/resistEnergy.html#_resist-energy,-communal" >Resist Energy, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>4th-Level Paladin Spells</h2>
+				<p id="litany-of-thunder"><b><a href="spells/litanyOfThunder.html#_litany-of-thunder" >Litany of Thunder</a></b>: A single target is deafened until the condition is removed, and is confused for 1 round.</p>
+				<p id="litany-of-vengeance"><b><a href="spells/litanyOfVengeance.html#_litany-of-vengeance" >Litany of Vengeance</a></b>: Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.</p>
+				<p id="magic-siege-engine,-greater"><b><a href="spells/magicSiegeEngine.html#_magic-siege-engine,-greater" >Magic Siege Engine, Greater</a></b>: Siege engine gains +1 on targeting and damage rolls for every four caster levels.</p>
+				
+				<h1 id="ranger-spells">Ranger Spells</h1>
+				
+				<h2>1st-Level Ranger Spells</h2>
+				<p id="abundant-ammunition"><b><a href="spells/abundantAmmunition.html#_abundant-ammunition" >Abundant Ammunition</a></b>: Replaces nonmagical ammunition every round.</p>
+				<p id="air-bubble"><b><a href="spells/airBubble.html#_air-bubble" >Air Bubble</a></b>: Creates a small pocket of air around your head or an object.</p>
+				<p id="bowstaff"><b><a href="spells/bowstaff.html#_bowstaff" >Bowstaff</a></b>: A shortbow may double as a club, or a longbow as a quarterstaff.</p>
+				<p id="compel-hostility"><b><a href="spells/compelHostility.html#_compel-hostility" >Compel Hostility</a></b>: Compels opponents to attack you instead of your allies.</p>
+				<p id="deadeye's-lore"><b><a href="spells/deadeyeSLore.html#_deadeye's-lore" >Deadeye's Lore</a></b>: Gain a +4 bonus on <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> and move full speed while tracking.</p>
+				<p id="liberating-command"><b><a href="spells/liberatingCommand.html#_liberating-command" >Liberating Command</a></b>: Target makes an <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> check as an immediate action and gains a bonus on it.</p>
+				<p id="longshot"><b><a href="spells/longshot.html#_longshot" >Longshot</a></b>: Grants a +10-foot bonus to the range increment for any ranged weapon fired.</p>
+				<p id="returning-weapon"><b><a href="spells/returningWeapon.html#_returning-weapon" >Returning Weapon</a></b>: Grants a weapon the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning" >returning</a></i> special weapon quality.</p>
+				<p id="sun-metal"><b><a href="spells/sunMetal.html#_sun-metal" >Sun Metal</a></b>: Weapon touched bursts into flames.</p>
+				<h2>2nd-Level Ranger Spells</h2>
+				<p id="animal-aspect"><b><a href="spells/animalAspect.html#_animal-aspect" >Animal Aspect</a></b>: You gain some of the beneficial qualities of an animal.</p>
+				<p id="ant-haul,-communal"><b><a href="spells/antHaul.html#_ant-haul,-communal" >Ant Haul, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >ant haul</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="brow-gasher"><b><a href="spells/browGasher.html#_brow-gasher" >Brow Gasher</a></b>: Slashing weapon deals bleed damage to an opponent's head.</p>
+				<p id="effortless-armor"><b><a href="spells/effortlessArmor.html#_effortless-armor" >Effortless Armor</a></b>: Armor you wear no longer slows your speed.</p>
+				<p id="endure-elements,-communal"><b><a href="spells/endureElements.html#_endure-elements,-communal" >Endure Elements, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="forest-friend"><b><a href="spells/forestFriend.html#_forest-friend-" >Forest Friend</a></b>: Plants in a forested area become helpful instead of hindering you and your allies.</p>
+				<p id="locate-weakness"><b><a href="spells/locateWeakness.html#_locate-weakness" >Locate Weakness</a></b>: You roll damage twice when you roll damage for a critical hit and take the best damage.</p>
+				<p id="reloading-hands"><b><a href="spells/reloadingHands.html#_reloading-hands" >Reloading Hands</a></b>: Loads a single shot into your weapon every round.</p>
+				<p id="returning-weapon,-communal"><b><a href="spells/returningWeapon.html#_returning-weapon,-communal" >Returning Weapon, Communal</a></b>: As <i><a href="spells/returningWeapon.html#_returning-weapon" >returning weapon</a></i>, but you may divide the duration among weapons touched.</p>
+				<p id="ricochet-shot"><b><a href="spells/ricochetShot.html#_ricochet-shot" >Ricochet Shot</a></b>: Imbues a projectile weapon to give its ammunition the ability to ricochet. </p>
+				<p id="wilderness-soldiers"><b><a href="spells/wildernessSoldiers.html#_wilderness-soldiers" >Wilderness Soldiers</a></b>: Nearby plants aid you in combat.</p>
+				<h2>3rd-Level Ranger Spells</h2>
+				<p id="animal-aspect,-greater"><b><a href="spells/animalAspect.html#_animal-aspect,-greater" >Animal Aspect, Greater</a></b>: As <i><a href="spells/animalAspect.html#_animal-aspect" >animal aspect</a></i>, but you gain two animal qualities.</p>
+				<p id="burst-of-speed"><b><a href="spells/burstOfSpeed.html#_burst-of-speed" >Burst of Speed</a></b>: You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.</p>
+				<p id="companion-mind-link"><b><a href="spells/companionMindLink.html#_companion-mind-link" >Companion Mind Link</a></b>: You can talk with your animal companion, and can handle it with supernatural ease.</p>
+				<p id="delay-poison,-communal"><b><a href="spells/delayPoison.html#_delay-poison,-communal" >Delay Poison, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="named-bullet"><b><a href="spells/namedBullet.html#_named-bullet" >Named Bullet</a></b>: Imbues ammunition with accuracy against a specific creature type.</p>
+				<p id="protection-from-energy,-communal"><b><a href="spells/protectionFromEnergy.html#_protection-from-energy,-communal" >Protection from Energy, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="resist-energy,-communal"><b><a href="spells/resistEnergy.html#_resist-energy,-communal" >Resist Energy, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>4th-Level Ranger Spells</h2>
+				<p id="darkvision,-communal"><b><a href="spells/darkvision.html#_darkvision,-communal" >Darkvision, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="find-quarry"><b><a href="spells/findQuarry.html#_find-quarry" >Find Quarry</a></b>: You can sense whether a particular creature is within 20 miles of your location.</p>
+				<p id="named-bullet,-greater"><b><a href="spells/namedBullet.html#_named-bullet,-greater" >Named Bullet, Greater</a></b>: As <i><a href="spells/namedBullet.html#_named-bullet" >named bullet</a></i>, but deals 2 points of damage per caster level.</p>
+				<p id="terrain-bond"><b><a href="spells/terrainBond.html#_terrain-bond" >Terrain Bond</a></b>: Treat the terrain you are in as a favored terrain for the spell's duration.</p>
+				<p id="water-walk,-communal"><b><a href="spells/waterWalk.html#_water-walk,-communal" >Water Walk, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/waterWalk.html#_water-walk" >water walk</a></i>, but you may divide the duration among creatures touched.</p>
+				
+				<h1 id="sorcerer-wizard-spells">Sorcerer/Wizard Spells</h1>
+				
+				<h2>0-Level Sorcerer/Wizard Spells</h2>
+				<p id="haunted-fey-aspect"><b><a href="spells/hauntedFeyAspect.html#_haunted-fey-aspect" >Haunted Fey Aspect</a></b>: You surround yourself with disturbing illusions. </p>
+				<h2>1st-Level Sorcerer/Wizard Spells</h2>
+				<p id="adjuring-step"><b><a href="spells/adjuringStep.html#_adjuring-step-" >Adjuring Step</a></b>: You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell. </p>
+				<p id="abundant-ammunition"><b><a href="spells/abundantAmmunition.html#_abundant-ammunition" >Abundant Ammunition</a></b>: Replaces nonmagical ammunition every round.</p>
+				<p id="air-bubble"><b><a href="spells/airBubble.html#_air-bubble" >Air Bubble</a></b>: Creates a small pocket of air around your head or an object.</p>
+				<p id="damp-powder"><b><a href="spells/dampPowder.html#_damp-powder" >Damp Powder</a></b>: Ruins ammunition loaded in the targeted firearm.</p>
+				<p id="fabricate-bullets"><b><a href="spells/fabricateBullets.html#_fabricate-bullets-" >Fabricate Bullets</a></b><sup><b>M</b></sup></b>: Converts 1 pound of metal into ammunition.</p>
+				<p id="illusion-of-calm"><b><a href="spells/illusionOfCalm.html#_illusion-of-calm" >Illusion of Calm</a></b>: You appear to be standing still, even when you take some actions. </p>
+				<p id="jury-rig"><b><a href="spells/juryRig.html#_jury-rig" >Jury-Rig</a></b>: Removes the broken condition from the targeted object.</p>
+				<p id="liberating-command"><b><a href="spells/liberatingCommand.html#_liberating-command" >Liberating Command</a></b>: Target makes an <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> check as an immediate action and gains a bonus on it.</p>
+				<p id="lock-gaze"><b><a href="spells/lockGaze.html#_lock-gaze" >Lock Gaze</a></b>: You compel the target to only look at you for the duration of the spell.</p>
+				<p id="longshot"><b><a href="spells/longshot.html#_longshot" >Longshot</a></b>: Grants a +10-foot bonus to the range increment for any ranged weapon fired.</p>
+				<p id="mirror-strike"><b><a href="spells/mirrorStrike.html#_mirror-strike" >Mirror Strike</a></b>: You may strike multiple opponents with a single attack.</p>
+				<p id="moment-of-greatness"><b><a href="spells/momentOfGreatness.html#_moment-of-greatness" >Moment of Greatness</a></b>: Doubles a morale bonus.</p>
+				<p id="negative-reaction"><b><a href="spells/negativeReaction.html#_negative-reaction" >Negative Reaction</a></b>: Targeted creature may not positively influence anyone.</p>
+				<p id="peacebond"><b><a href="spells/peacebond.html#_peacebond" >Peacebond</a></b>: Locks a weapon in place on the target's body.</p>
+				<p id="reinforce-armaments"><b><a href="spells/reinforceArmaments.html#_reinforce-armaments" >Reinforce Armaments</a></b>: Temporarily mitigates the fragile quality in targeted weapon or armor.</p>
+				<p id="see-alignment"><b><a href="spells/seeAlignment.html#_see-alignment" >See Alignment</a></b>: Pick an alignment; in your sight, creatures and items with that alignment emit a ghostly radiance.</p>
+				<p id="shock-shield"><b><a href="spells/shockShield.html#_shock-shield" >Shock Shield</a></b>: A shield of force protects you until you dismiss it in an explosion of electricity. </p>
+				<p id="unerring-weapon"><b><a href="spells/unerringWeapon.html#_unerring-weapon" >Unerring Weapon</a></b>: Grants a +2 bonus, +1 per four caster levels, on attack rolls to confirm a critical hit.</p>
+				<p id="weaken-powder"><b><a href="spells/weakenPowder.html#_weaken-powder" >Weaken Powder</a></b>: Targeted firearm's ammunition halves the firearm's range and imposes a &ndash;2 penalty on damage rolls.</p>
+				<h2>2nd-Level Sorcerer/Wizards Spells</h2>
+				<p id="adoration"><b><a href="spells/adoration.html#_adoration" >Adoration</a></b>: You gain a bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks and performance combat checks.</p>
+				<p id="animal-aspect"><b><a href="spells/animalAspect.html#_animal-aspect" >Animal Aspect</a></b>: You gain some of the beneficial qualities of an animal.</p>
+				<p id="ant-haul,-communal"><b><a href="spells/antHaul.html#_ant-haul,-communal" >Ant Haul, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >ant haul</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="bestow-weapon-proficiency"><b><a href="spells/bestowWeaponProficiency.html#_bestow-weapon-proficiency" >Bestow Weapon Proficiency</a></b>: Grants a creature proficiency in a single weapon for short period of time.</p>
+				<p id="brow-gasher"><b><a href="spells/browGasher.html#_brow-gasher" >Brow Gasher</a></b>: Slashing weapon deals bleed damage to an opponent's head.</p>
+				<p id="bullet-shield"><b><a href="spells/bulletShield.html#_bullet-shield" >Bullet Shield</a></b>: You gain a +4 deflection bonus to AC against firearm attacks.</p>
+				<p id="certain-grip"><b><a href="spells/certainGrip.html#_certain-grip-" >Certain Grip</a></b>: You gain a +4 competence bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> and <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> checks and to CMD.</p>
+				<p id="destabilize-powder"><b><a href="spells/destabilizePowder.html#_destabilize-powder" >Destabilize Powder</a></b>: Ammunition in the targeted firearm is prone to misfire.</p>
+				<p id="endure-elements,-communal"><b><a href="spells/endureElements.html#_endure-elements,-communal" >Endure Elements, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/endureElements.html#_endure-elements" >endure elements</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="fiery-shuriken"><b><a href="spells/fieryShuriken.html#_fiery-shuriken-" >Fiery Shuriken</a></b><sup><b>M</b></sup></b>: Calls forth several fiery projectiles ready to be flung at opponents. </p>
+				<p id="frost-fall"><b><a href="spells/frostFall.html#_frost-fall" >Frost Fall</a></b>: The area is covered in a chilling frost.</p>
+				<p id="kinetic-reverberation"><b><a href="spells/kineticReverberation.html#_kinetic-reverberation-" >Kinetic Reverberation</a></b>: Channels the force of an enemy's attack back into its weapon.</p>
+				<p id="magic-siege-engine"><b><a href="spells/magicSiegeEngine.html#_magic-siege-engine" >Magic Siege Engine</a></b>: Siege gains +1 on targeting and damage rolls.</p>
+				<p id="mount,-communal"><b><a href="spells/mount.html#_mount,-communal" >Mount, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/mount.html#_mount" >mount</a></i>, but you may divide the duration among creatures touched. </p>
+				<p id="pilfering-hand"><b><a href="spells/pilferingHand.html#_pilfering-hand" >Pilfering Hand</a></b>: You may seize an object or manipulate it from afar.</p>
+				<p id="reloading-hands"><b><a href="spells/reloadingHands.html#_reloading-hands" >Reloading Hands</a></b>: Loads a single shot into your weapon every round.</p>
+				<p id="protection-from-chaos,-communal"><b><a href="spells/protectionFromChaos.html#_protection-from-chaos,-communal" >Protection from Chaos, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos" >protection from chaos</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-evil,-communal"><b><a href="spells/protectionFromEvil.html#_protection-from-evil,-communal" >Protection from Evil, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil" >protection from evil</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-good,-communal"><b><a href="spells/protectionFromGood.html#_protection-from-good,-communal" >Protection from Good, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good" >protection from good</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-law,-communal"><b><a href="spells/protectionFromLaw.html#_protection-from-law,-communal" >Protection from Law, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law" >protection from law</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="qualm"><b><a href="spells/qualm.html#_qualm" >Qualm</a></b>: Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing.</p>
+				<p id="recoil-fire"><b><a href="spells/recoilFire.html#_recoil-fire" >Recoil Fire</a></b>: Ammunition in the targeted firearm generates excessive recoil.</p>
+				<p id="reinforce-armaments,-communal"><b><a href="spells/reinforceArmaments.html#_reinforce-armaments,-communal" >Reinforce Armaments, Communal</a></b>: As <i><a href="spells/reinforceArmaments.html#_reinforce-armaments" >reinforce armaments</a></i>, but you may divide the duration among objects touched.</p>
+				<p id="returning-weapon"><b><a href="spells/returningWeapon.html#_returning-weapon" >Returning Weapon</a></b>: Grants a weapon the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning" >returning</a></i> special weapon quality.</p>
+				<p id="ricochet-shot"><b><a href="spells/ricochetShot.html#_ricochet-shot" >Ricochet Shot</a></b>: Imbues a projectile weapon to give its ammunition the ability to ricochet.</p>
+				<p id="spontaneous-immolation"><b><a href="spells/spontaneousImmolation.html#_spontaneous-immolation" >Spontaneous Immolation</a></b>: Target takes 3d6 points of fire damage and catches on fire.</p>
+				<p id="stabilize-powder"><b><a href="spells/stabilizePowder.html#_stabilize-powder" >Stabilize Powder</a></b>: Ammunition in the targeted firearm is less likely to misfire.</p>
+				<p id="tactical-acumen"><b><a href="spells/tacticalAcumen.html#_tactical-acumen" >Tactical Acumen</a></b>: You gain an additional +1 on attack rolls or to AC due to battlefield positioning.</p>
+				<p id="telekinetic-assembly"><b><a href="spells/telekineticAssembly.html#_telekinetic-assembly" >Telekinetic Assembly</a></b><sup><b>F</b></sup></b>: Assembles a siege engine using 1 fewer worker for every two caster levels.</p>
+				<p id="thunder-fire"><b><a href="spells/thunderFire.html#_thunder-fire" >Thunder Fire</a></b>: Ammunition in the targeted firearm deafens opponents.</p>
+				<p id="twisted-space"><b><a href="spells/twistedSpace.html#_twisted-space" >Twisted Space</a></b>: Targeted creature's attacks target a random square instead of the intended target.</p>
+				<p id="warding-weapon"><b><a href="spells/wardingWeapon.html#_warding-weapon" >Warding Weapon</a></b><sup><b>F</b></sup></b>: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.</p>
+				<h2>3rd-Level Sorcerer/Wizard Spells</h2>
+				<p id="ablative-barrier"><b><a href="spells/ablativeBarrier.html#_ablative-barrier" >Ablative Barrier</a></b><sup><b>F</b></sup></b>: Surrounds the target with layers of force.</p>
+				<p id="chain-of-perdition"><b><a href="spells/chainOfPerdition.html#_chain-of-perdition" >Chain of Perdition</a></b>: Creates a floating chain of force.</p>
+				<p id="darkvision,-communal"><b><a href="spells/darkvision.html#_darkvision,-communal" >Darkvision, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >darkvision</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="flash-fire"><b><a href="spells/flashFire.html#_flash-fire" >Flash Fire</a></b>: Ammunition in the targeted firearm creates a tremendous flash capable of blinding the weapon's bearer and those around him.</p>
+				<p id="healing-thief"><b><a href="spells/healingThief.html#_healing-thief" >Healing Thief</a></b>: You siphon half of all magical healing that the targeted creature receives.</p>
+				<p id="hostile-levitation"><b><a href="spells/hostileLevitation.html#_hostile-levitation" >Hostile Levitation</a></b>: Levitates the targeted creature up off the ground.</p>
+				<p id="locate-weakness"><b><a href="spells/locateWeakness.html#_locate-weakness" >Locate Weakness</a></b>: You roll damage twice when you roll damage for a critical hit and take the best damage.</p>
+				<p id="pellet-blast"><b><a href="spells/pelletBlast.html#_pellet-blast" >Pellet Blast</a></b> <sup><b>M</b></sup></b>: Creates an explosion of conjured metal pellets. </p>
+				<p id="phantom-driver"><b><a href="spells/phantomDriver.html#_phantom-driver" >Phantom Driver</a></b>: Conjures a phantom to drive vehicles.</p>
+				<p id="protection-from-arrows,-communal"><b><a href="spells/protectionFromArrows.html#_protection-from-arrows,-communal" >Protection from Arrows, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows" >protection from arrows</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="pup-shape"><b><a href="spells/pupShape.html#_pup-shape" >Pup Shape</a></b>: Transforms a single animal or magical beast into a younger and cuter version of itself for a short period of time.</p>
+				<p id="resinous-skin"><b><a href="spells/resinousSkin.html#_resinous-skin" >Resinous Skin</a></b>: You gain DR 5/piercing and +4 to CMD against disarm attempts.</p>
+				<p id="resist-energy,-communal"><b><a href="spells/resistEnergy.html#_resist-energy,-communal" >Resist Energy, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="returning-weapon,-communal"><b><a href="spells/returningWeapon.html#_returning-weapon,-communal" >Returning Weapon, Communal</a></b>: As <i><a href="spells/returningWeapon.html#_returning-weapon" >returning weapon</a></i>, but you may divide the duration among weapons touched.</p>
+				<p id="share-language,-communal"><b><a href="spells/shareLanguage.html#_share-language,-communal" >Share Language, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-" >share language</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="spider-climb,-communal"><b><a href="spells/spiderClimb.html#_spider-climb,-communal">Spider Climb, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="touch-injection"><b><a href="spells/touchInjection.html#_touch-injection" >Touch Injection</a></b>: You can deliver an infusion, elixir, poison, or potion as a touch attack.</p>
+				<h2>4th-Level Sorcerer/Wizard Spells</h2>
+				<p id="animal-aspect,-greater"><b><a href="spells/animalAspect.html#_animal-aspect,-greater" >Animal Aspect, Greater</a></b>: As <i><a href="spells/animalAspect.html#_animal-aspect" >animal aspect</a></i>, but you gain two animal qualities.</p>
+				<p id="magic-siege-engine,-greater"><b><a href="spells/magicSiegeEngine.html#_magic-siege-engine,-greater" >Magic Siege Engine, Greater</a></b>: Siege engine gains +1 on targeting and damage rolls for every four caster levels.</p>
+				<p id="named-bullet"><b><a href="spells/namedBullet.html#_named-bullet" >Named Bullet</a></b>: Imbues ammunition with accuracy against a specific creature type.</p>
+				<p id="nondetection,-communal"><b><a href="spells/nondetection.html#_nondetection,-communal" >Nondetection, Communal</a></b><sup><b>M</b></sup></b>: As <i><a href="/pathfinderRPG/prd/spells/nondetection.html#_nondetection" >nondetection</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="obsidian-flow"><b><a href="spells/obsidianFlow.html#_obsidian-flow" >Obsidian Flow</a></b>: Converts the surface of the ground into molten glass.</p>
+				<p id="phantom-chariot"><b><a href="spells/phantomChariot.html#_phantom-chariot" >Phantom Chariot</a></b>: Conjures a quasi-real heavy chariot pulled by four horses.</p>
+				<p id="phantom-steed,-communal"><b><a href="spells/phantomSteed.html#_phantom-steed,-communal" >Phantom Steed, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed" >phantom steed</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-energy,-communal"><b><a href="spells/protectionFromEnergy.html#_protection-from-energy,-communal" >Protection from Energy, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="shocking-image"><b><a href="spells/shockingImage.html#_shocking-image" >Shocking Image</a></b>: As <i><a href="/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image" >mirror image</a></i>, but the duplicates emit electrical damage when destroyed.</p>
+				<p id="telekinetic-charge"><b><a href="spells/telekineticCharge.html#_telekinetic-charge-" >Telekinetic Charge</a></b>: Launches an ally through the air. </p>
+				<p id="tongues,-communal"><b><a href="spells/tongues.html#_tongues,-communal" >Tongues, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>5th-Level Sorcerer/Wizard Spells</h2>
+				<p id="absorb-toxicity"><b><a href="spells/absorbToxicity.html#_absorb-toxicity" >Absorb Toxicity</a></b>: You become immune to diseases and toxins, absorb one, and then spread it to others.</p>
+				<p id="energy-siege-shot"><b><a href="spells/energySiegeShot.html#_energy-siege-shot" >Energy Siege Shot</a></b>: A Large siege engine deals energy damage that you designate with other effects depending on the type of energy you choose.</p>
+				<p id="hostile-juxtaposition"><b><a href="spells/hostileJuxtaposition.html#_hostile-juxtaposition" >Hostile Juxtaposition</a></b>: You create a dimensional link with a targeted creature, and switch spots with it.</p>
+				<p id="stoneskin,-communal"><b><a href="spells/stoneskin.html#_stoneskin,-communal" >Stoneskin, Communal</a></b><sup><b>M</b></sup></b>: As <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="summoner-conduit"><b><a href="spells/summonerConduit.html#_summoner-conduit" >Summoner Conduit</a></b>: The target eidolon's summoner takes damage whenever the eidolon does.</p>
+				<p id="symbol-of-striking"><b><a href="spells/symbolOfStriking.html#_symbol-of-striking" >Symbol of Striking</a></b><sup><b>M</b></sup></b>: As <i><a href="/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death" >symbol of death</a></i>, but fills a 5-foot square.</p>
+				<p id="wreath-of-blades"><b><a href="spells/wreathOfBlades.html#_wreath-of-blades" >Wreath of Blades</a></b><sup><b>F</b></sup></b>: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.</p>
+				<h2>6th-Level Sorcerer/Wizard Spells</h2>
+				<p id="energy-siege-shot,-greater"><b><a href="spells/energySiegeShot.html#_energy-siege-shot,-greater" >Energy Siege Shot, Greater</a></b>: As <i><a href="spells/energySiegeShot.html#_energy-siege-shot" >energy siege shot</a></i>, but you can affect any size siege engine.</p>
+				<p id="named-bullet,-greater"><b><a href="spells/namedBullet.html#_named-bullet,-greater" >Named Bullet, Greater</a></b>: As <i><a href="spells/namedBullet.html#_named-bullet" >named bullet</a></i>, but deals 2 points of damage for every caster level.</p>
+				<p id="tar-pool"><b><a href="spells/tarPool.html#_tar-pool" >Tar Pool</a></b>: Converts the top layer of the ground into hot tar.</p>
+				<h2>7th-Level Sorcerer/Wizard Spells</h2>
+				<p id="arcane-cannon"><b><a href="spells/arcaneCannon.html#_arcane-cannon" >Arcane Cannon</a></b><sup><b>F</b></sup></b>: Your focus becomes a magical cannon that fires on its own.</p>
+				<p id="hostile-juxtaposition,-greater"><b><a href="spells/hostileJuxtaposition.html#_hostile-juxtaposition,-greater" >Hostile Juxtaposition, Greater</a></b>: You may target one creature for every four of your caster levels.</p>
+				<p id="walk-through-space"><b><a href="spells/walkThroughSpace.html#_walk-through-space" >Walk through Space</a></b>: You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.</p>
+				<h2>8th-Level Sorcerer/Wizard Spells</h2>
+				<p id="frightful-aspect"><b><a href="spells/frightfulAspect.html#_frightful-aspect" >Frightful Aspect</a></b>: You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened.</p>
+				<h2>9th-Level Sorcerer/Wizard Spells</h2>
+				<p id="heroic-invocation"><b><a href="spells/heroicInvocation.html#_heroic-invocation" >Heroic Invocation</a></b>: Grants a number of creatures bonuses on attacks and damage, temporary hit points, and immunity to fear and charm effects.</p>
+				<p id="mind-blank,-communal"><b><a href="spells/mindBlank.html#_mind-blank,-communal" >Mind Blank, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank" >mind blank</a></i>, but you may divide the duration among creatures touched.</p>
+				
+				<h1 id="summoner-spells">Summoner Spells</h1>
+				
+				<h2>1st-Level Summoner Spells</h2>
+				<p id="compel-hostility"><b><a href="spells/compelHostility.html#_compel-hostility" >Compel Hostility</a></b>: Compels opponents to attack you instead of your allies.</p>
+				<p id="jury-rig"><b><a href="spells/juryRig.html#_jury-rig" >Jury-Rig</a></b>: Removes the broken condition from the targeted object.</p>
+				<p id="life-conduit"><b><a href="spells/lifeConduit.html#_life-conduit" >Life Conduit</a></b>: You are bound even tighter to your eidolon than normal, and may share hit points with it through your life link ability.</p>
+				<h2>2nd-Level Summoner Spells </h2>
+				<p id="ablative-barrier"><b><a href="spells/ablativeBarrier.html#_ablative-barrier" >Ablative Barrier</a></b>: Surrounds the target with layers of force.</p>
+				<p id="ant-haul,-communal"><b><a href="spells/antHaul.html#_ant-haul,-communal" >Ant Haul, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >ant haul</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="mount,-communal"><b><a href="spells/mount.html#_mount,-communal" >Mount, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/mount.html#_mount" >mount</a></i>, but you may divide the duration among creatures touched. </p>
+				<p id="protection-from-chaos,-communal"><b><a href="spells/protectionFromChaos.html#_protection-from-chaos,-communal" >Protection from Chaos, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos" >protection from chaos</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-evil,-communal"><b><a href="spells/protectionFromEvil.html#_protection-from-evil,-communal" >Protection from Evil, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil" >protection from evil</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-good,-communal"><b><a href="spells/protectionFromGood.html#_protection-from-good,-communal" >Protection from Good, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good" >protection from good</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-law,-communal"><b><a href="spells/protectionFromLaw.html#_protection-from-law,-communal" >Protection from Law, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law" >protection from law</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="twisted-space"><b><a href="spells/twistedSpace.html#_twisted-space" >Twisted Space</a></b>: Targeted creature's attacks target a random square instead of the intended target.</p>
+				<p id="warding-weapon"><b><a href="spells/wardingWeapon.html#_warding-weapon" >Warding Weapon</a></b><sup><b>F</b></sup></b>: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.</p>
+				<h2>3rd-Level Summoner Spells</h2>
+				<p id="pellet-blast"><b><a href="spells/pelletBlast.html#_pellet-blast" >Pellet Blast</a></b><sup><b>M</b></sup></b>: Creates an explosion of conjured metal pellets. </p>
+				<p id="life-conduit,-improved"><b><a href="spells/lifeConduit.html#_life-conduit,-improved" >Life Conduit, Improved</a></b>: Transfers 2d6 hit points to your eidolon as a swift action.</p>
+				<p id="obsidian-flow"><b><a href="spells/obsidianFlow.html#_obsidian-flow" >Obsidian Flow</a></b>: Converts the surface of the ground into molten glass.</p>
+				<p id="phantom-chariot"><b><a href="spells/phantomChariot.html#_phantom-chariot" >Phantom Chariot</a></b>: Conjures a quasi-real heavy chariot pulled by four horses.</p>
+				<p id="phantom-steed,-communal"><b><a href="spells/phantomSteed.html#_phantom-steed,-communal" >Phantom Steed, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed" >phantom steed</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="protection-from-arrows,-communal"><b><a href="spells/protectionFromArrows.html#_protection-from-arrows,-communal" >Protection from Arrows, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows" >protection from arrows</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="resist-energy,-communal"><b><a href="spells/resistEnergy.html#_resist-energy,-communal" >Resist Energy, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="spider-climb,-communal"><b><a href="spells/spiderClimb.html#_spider-climb,-communal">Spider Climb, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>4th-Level Summoner Spells</h2>
+				<p id="hostile-juxtaposition"><b><a href="spells/hostileJuxtaposition.html#_hostile-juxtaposition" >Hostile Juxtaposition</a></b>: You create a dimensional link with a targeted creature, and switch spots with it.</p>
+				<p id="protection-from-energy,-communal"><b><a href="spells/protectionFromEnergy.html#_protection-from-energy,-communal" >Protection from Energy, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="stoneskin,-communal"><b><a href="spells/stoneskin.html#_stoneskin,-communal" >Stoneskin, Communal</a></b><sup><b>M</b></sup></b>: As <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="summoner-conduit"><b><a href="spells/summonerConduit.html#_summoner-conduit" >Summoner Conduit</a></b>: The target takes damage whenever its summoned creature does.</p>
+				<p id="tongues,-communal"><b><a href="spells/tongues.html#_tongues,-communal" >Tongues, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>5th-Level Summoner Spells</h2>
+				<p id="energy-siege-shot"><b><a href="spells/energySiegeShot.html#_energy-siege-shot" >Energy Siege Shot</a></b>: A Large siege engine deals energy damage that you designate with other effects depending on the type of energy you choose.</p>
+				<p id="life-conduit,-greater"><b><a href="spells/lifeConduit.html#_life-conduit,-greater" >Life Conduit, Greater</a></b>: You transfer 3d6 hit points to your eidolon as a swift action.</p>
+				<p id="tar-pool"><b><a href="spells/tarPool.html#_tar-pool" >Tar Pool</a></b>: Converts the top layer of the ground into hot tar.</p>
+				<p id="wreath-of-blades"><b><a href="spells/wreathOfBlades.html#_wreath-of-blades" >Wreath of Blades</a></b><sup><b>F</b></sup></b>: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.</p>
+				<h2>6th-Level Summoner Spells</h2>
+				<p id="energy-siege-shot,-greater"><b><a href="spells/energySiegeShot.html#_energy-siege-shot,-greater" >Energy Siege Shot, Greater</a></b>: As <i><a href="spells/energySiegeShot.html#_energy-siege-shot" >energy siege shot</a></i>, but you can affect any size siege engine.</p>
+				<p id="hostile-juxtaposition,-greater"><b><a href="spells/hostileJuxtaposition.html#_hostile-juxtaposition,-greater" >Hostile Juxtaposition, Greater</a></b>: You may target one creature for every four of your caster levels.</p>
+				<p id="walk-through-space"><b><a href="spells/walkThroughSpace.html#_walk-through-space" >Walk through Space</a></b>: You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.</p>
+				
+				<h1 id="witch-spells">Witch Spells</h1>
+				
+				<h2>1st-Level Witch Spells</h2>
+				<p id="air-bubble"><b><a href="spells/airBubble.html#_air-bubble" >Air Bubble</a></b>: Creates a small pocket of air around your head or an object.</p>
+				<p id="compel-hostility"><b><a href="spells/compelHostility.html#_compel-hostility" >Compel Hostility</a></b>: Compels opponents to attack you instead of your allies.</p>
+				<p id="damp-powder"><b><a href="spells/dampPowder.html#_damp-powder" >Damp Powder</a></b>: Ruins ammunition loaded in the targeted firearm.</p>
+				<p id="jury-rig"><b><a href="spells/juryRig.html#_jury-rig" >Jury-Rig</a></b>: Removes the broken condition from the targeted object.</p>
+				<p id="lock-gaze"><b><a href="spells/lockGaze.html#_lock-gaze" >Lock Gaze</a></b>: Compels the target to look only at you for the duration of the spell.</p>
+				<p id="negative-reaction"><b><a href="spells/negativeReaction.html#_negative-reaction" >Negative Reaction</a></b>: Targeted creature may not positively influence anyone.</p>
+				<p id="peacebond"><b><a href="spells/peacebond.html#_peacebond" >Peacebond</a></b>: Locks a weapon in place on the target's body.</p>
+				<p id="reinforce-armaments"><b><a href="spells/reinforceArmaments.html#_reinforce-armaments" >Reinforce Armaments</a></b>: Temporarily mitigates the fragile quality in targeted weapon or armor.</p>
+				<p id="unerring-weapon"><b><a href="spells/unerringWeapon.html#_unerring-weapon" >Unerring Weapon</a></b>: Grants a +2 bonus, +1 per four caster levels, on attack rolls to confirm a critical hit.</p>
+				<p id="weaken-powder"><b><a href="spells/weakenPowder.html#_weaken-powder" >Weaken Powder</a></b>: Targeted firearm's ammunition halves the firearm's range and imposes a &ndash;2 penalty on damage rolls.</p>
+				<h2>2nd-Level Witch Spells</h2>
+				<p id="adoration"><b><a href="spells/adoration.html#_adoration" >Adoration</a></b>: You gain a bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks and performance combat checks.</p>
+				<p id="bestow-weapon-proficiency"><b><a href="spells/bestowWeaponProficiency.html#_bestow-weapon-proficiency" >Bestow Weapon Proficiency</a></b>: Grants a creature proficiency in a single weapon for short period of time.</p>
+				<p id="destabilize-powder"><b><a href="spells/destabilizePowder.html#_destabilize-powder" >Destabilize Powder</a></b>: Ammunition in the targeted firearm is prone to misfire.</p>
+				<p id="frost-fall"><b><a href="spells/frostFall.html#_frost-fall" >Frost Fall</a></b>: The area is covered in a chilling frost.</p>
+				<p id="mask-dweomer,-communal"><b><a href="spells/maskDweomer.html#_mask-dweomer,-communal" >Mask Dweomer, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/advanced/spells/maskDweomer.html#_mask-dweomer" >mask dweomer</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="mount,-communal"><b><a href="spells/mount.html#_mount,-communal" >Mount, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/mount.html#_mount" >mount</a></i>, but you may divide the duration among creatures touched. </p>
+				<p id="qualm"><b><a href="spells/qualm.html#_qualm" >Qualm</a></b>: Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing.</p>
+				<p id="recoil-fire"><b><a href="spells/recoilFire.html#_recoil-fire" >Recoil Fire</a></b>: Ammunition in the targeted firearm generates excessive recoil.</p>
+				<p id="reinforce-armaments,-communal"><b><a href="spells/reinforceArmaments.html#_reinforce-armaments,-communal" >Reinforce Armaments, Communal</a></b>: As <i><a href="spells/reinforceArmaments.html#_reinforce-armaments" >reinforce armaments</a></i>, but you may divide the spell's duration among objects touched.</p>
+				<p id="returning-weapon"><b><a href="spells/returningWeapon.html#_returning-weapon" >Returning Weapon</a></b>: Grants a weapon the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning" >returning</a></i> special weapon quality.</p>
+				<p id="stabilize-powder"><b><a href="spells/stabilizePowder.html#_stabilize-powder" >Stabilize Powder</a></b>: Ammunition in the targeted firearm is less likely to misfire.</p>
+				<p id="thunder-fire"><b><a href="spells/thunderFire.html#_thunder-fire" >Thunder Fire</a></b>: Ammunition in the targeted firearm deafens opponents.</p>
+				<h2>3rd-Level Witch Spells</h2>
+				<p id="delay-poison,-communal"><b><a href="spells/delayPoison.html#_delay-poison,-communal" >Delay Poison, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, but you may divide the duration among creatures touched.</p>
+				<p id="flash-fire"><b><a href="spells/flashFire.html#_flash-fire" >Flash Fire</a></b>: Ammunition in the targeted firearm creates a tremendous flash capable of blinding the weapon's bearer and those around him.</p>
+				<p id="healing-thief"><b><a href="spells/healingThief.html#_healing-thief" >Healing Thief</a></b>: You siphon half of all magical healing that the targeted creature receives.</p>
+				<p id="hostile-levitation"><b><a href="spells/hostileLevitation.html#_hostile-levitation" >Hostile Levitation</a></b>: Levitates the targeted creature up off the ground.</p>
+				<p id="locate-weakness"><b><a href="spells/locateWeakness.html#_locate-weakness" >Locate Weakness</a></b>: You roll damage twice when you roll damage for a critical hit and take the best damage.</p>
+				<p id="pup-shape"><b><a href="spells/pupShape.html#_pup-shape" >Pup Shape</a></b>: Transforms a single animal or magical beast into a younger and cuter version of itself for a short period of time.</p>
+				<p id="returning-weapon,-communal"><b><a href="spells/returningWeapon.html#_returning-weapon,-communal" >Returning Weapon, Communal</a></b>: As <i><a href="spells/returningWeapon.html#_returning-weapon" >returning weapon</a></i>, but you may divide the duration among weapons touched.</p>
+				<h2>4th-Level Witch Spells</h2>
+				<p id="absorb-toxicity"><b><a href="spells/absorbToxicity.html#_absorb-toxicity" >Absorb Toxicity</a></b>: You become immune to diseases and toxins, absorb one, and then spread it to others.</p>
+				<p id="debilitating-portent"><b><a href="spells/debilitatingPortent.html#_debilitating-portent" >Debilitating Portent</a></b>: Inflicts an ill fate on a creature, halving its damage when it attacks or casts a spell</p>
+				<p id="named-bullet"><b><a href="spells/namedBullet.html#_named-bullet" >Named Bullet</a></b>: Imbues ammunition with accuracy against a specific creature type.</p>
+				<p id="tongues,-communal"><b><a href="spells/tongues.html#_tongues,-communal" >Tongues, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a></i>, but you may divide the duration among creatures touched.</p>
+				<h2>5th-Level Witch Spells</h2>
+				<p id="hostile-juxtaposition"><b><a href="spells/hostileJuxtaposition.html#_hostile-juxtaposition" >Hostile Juxtaposition</a></b>: You create a dimensional link with a targeted creature, and switch spots with it.</p>
+				<p id="summoner-conduit"><b><a href="spells/summonerConduit.html#_summoner-conduit" >Summoner Conduit</a></b>: The target takes damage whenever its summoned creature does.</p>
+				<p id="symbol-of-striking"><b><a href="spells/symbolOfStriking.html#_symbol-of-striking" >Symbol of Striking</a></b><sup><b>M</b></sup></b>: As <i><a href="/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death" >symbol of death</a></i>, but fills a 5-foot square.</p>
+				<p id="wreath-of-blades"><b><a href="spells/wreathOfBlades.html#_wreath-of-blades" >Wreath of Blades</a></b><sup><b>F</b></sup></b>: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.</p>
+				<h2>6th-Level Witch Spells</h2>
+				<p id="dust-form"><b><a href="spells/dustForm.html#_dust-form" >Dust Form</a></b>: You become an incorporeal creature of dust for a short period of time.</p>
+				<p id="named-bullet,-greater"><b><a href="spells/namedBullet.html#_named-bullet,-greater" >Named Bullet, Greater</a></b>: As <i><a href="spells/namedBullet.html#_named-bullet" >named bullet</a></i>, but deals 2 points of damage for every caster level.</p>
+				<h2>7th-Level Witch Spells</h2>
+				<p id="hostile-juxtaposition,-greater"><b><a href="spells/hostileJuxtaposition.html#_hostile-juxtaposition,-greater" >Hostile Juxtaposition, Greater</a></b>: You may target one creature for every four of your caster levels.</p>
+				<p id="walk-through-space"><b><a href="spells/walkThroughSpace.html#_walk-through-space" >Walk through Space</a></b>: You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.</p>
+				<h2>8th-Level Witch Spells</h2>
+				<p id="frightful-aspect"><b><a href="spells/frightfulAspect.html#_frightful-aspect" >Frightful Aspect</a></b>: You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened.</p>
+				<h2>9th-Level Witch Spells</h2>
+				<p id="heroic-invocation"><b><a href="spells/heroicInvocation.html#_heroic-invocation" >Heroic Invocation</a></b>: Grants a number of creatures bonuses on attacks and damage, temporary hit points, and immunity to fear and charm effects.</p>
+				<p id="mind-blank,-communal"><b><a href="spells/mindBlank.html#_mind-blank,-communal" >Mind Blank, Communal</a></b>: As <i><a href="/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank" >mind blank</a></i>, but you may divide the duration among creatures touched. </p>
+			
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

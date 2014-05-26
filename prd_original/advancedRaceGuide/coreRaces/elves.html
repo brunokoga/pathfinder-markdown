@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Elves</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Elves",globalNavPath=[{ href: '/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html', name: 'Core Races'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body">
+
+<h1 id="elves">Elves</h1>
+<p>The long-lived elves are children of the natural world, similar in many superficial ways to fey creatures, though with key differences. While fey are truly linked to the flora and fauna of their homes, existing as the nearly immortal voices and guardians of the wilderness, elves are instead mortals who are in tune with the natural world around them. Elves seek to live in balance with the wild and understand it better than most other mortals. Some of this understanding is mystical, but an equal part comes from the elves' long lifespans, which in turn gives them long-ranging outlooks. Elves can expect to remain active in the same locale for centuries. By necessity, they must learn to maintain sustainable lifestyles, and this is most easily done when they work with nature, rather than attempting to bend it to their will. </p>
+<p>However, their links to nature are not entirely driven by pragmatism. Elves' bodies slowly change over time, taking on a physical representation of their mental and spiritual states, and those who dwell in a region for a long period of time find themselves physically adapting to match their surroundings, most noticeably taking on coloration that reflects the local environment.</p>
+<p>Elves value their privacy and traditions, and while they are often slow to make friends at both the personal and national levels, once an outsider is accepted as a comrade, the resulting alliances can last for generations. Elves take great joy in forging alliances with races that share or exceed their long lifetimes, and often work to befriend dragons, outsiders, and fey. Those elves who spend their lives among the short-lived races, on the other hand, often develop a skewed perception of mortality and become morose, the result of watching wave after wave of companions age and die before their eyes. </p>
+<p><b>Physical Description</b>: Generally taller than humans, elves possess a graceful, slender physique that is accentuated by their long, pointed ears. It is a mistake, however, to consider them weak or feeble, as the thin limbs of an elf can contain surprising power. Their eyes are wide and almond-shaped, and filled with large, vibrantly colored pupils. The coloration of elves as a whole varies wildly, and is much more diverse than that of human populations. However, as their coloration often matches their surroundings, the elves of a single community may appear quite similar. Forest-dwelling elves often have variations of green, brown, and tan in their hair, eye, and even skin tones.</p>
+<p>While elven clothing often plays off the beauty of the natural world, those elves who live in cities tend to bedeck themselves in the latest fashions. Where city-dwelling elves encounter other urbanites, the elves are often fashion trendsetters.</p>
+<p><b>Society</b>: Many elves feel a bond with nature and strive to live in harmony with the natural world. Although, like most, elves prefer bountiful lands where resources are plentiful, when driven to live in harsher climates, they work hard to protect and shepherd the region's bounty, and learn how to maximize the benefit they receive from what little can be harvested. When they can carve out a sustainable, reliable life in deserts and wastelands, they take pride as a society in the accomplishment. While this can make them excellent guides to outsiders they befriend who must travel through such lands, their disdain of those who have not learned to live off the scant land as they have makes such friends rare.</p>
+<p>Elves have an innate gift for craftsmanship and artistry, especially when working in wood, bone, ivory, or leather. Most, however, find manipulating earth and stone to be distasteful, and prefer to avoid forging, stonework, and pottery. When such work must be done within a community, a few elves may find themselves drawn to it, but regardless of their craftsmanship, such "dirt-wrights" are generally seen by other elves as being a bit off. In the most insular of elven societies, they may even be treated as lower class.</p>
+<p>Elves also have an appreciation for the written word, magic, and painstaking research. Their naturally keen minds and senses, combined with their inborn patience, make them particularly suited to wizardry. Arcane research and accomplishment are seen as both practical goals, in line with being a soldier or architect, and artistic endeavors as great as poetry or sculpture. Within elven society, wizards are held in extremely high regard as masters of an art both powerful and aesthetically valued. Other spellcasters are not disdained, but do not gain the praise lavished upon elven wizards.</p>
+<p><b>Relations</b>: Elves are prone to dismissing other races, writing them off as rash and impulsive, yet on an individual level, they are excellent judges of character. In many cases an elf will come to value a specific member of another race, seeing that individual as deserving and respectable, while still dismissing the race as a whole. If called on this behavior, the elf often doesn't understand why his "special friend" is upset the elf has noticed the friend is "so much better than the rest of his kind." Even elves who see such prejudice for what it is must constantly watch themselves to prevent such views from coloring their thinking.</p>
+<p>Elves are not foolish enough, however, to dismiss all aspects of other races and cultures. An elf might not want a dwarf neighbor, but would be the first to acknowledge dwarves' skill at smithing and their tenacity in facing orc threats. Elves regard gnomes as strange (and sometimes dangerous) curiosities, but regard their magical talent as being worthy of praise and respect. Halflings are often viewed with a measure of pity, for these small folk seem to the elves to be adrift, without a traditional home. Elves are fascinated with humans, who seem to live in a few short years as full a life as an elf manages in centuries. In fact, many elves become infatuated with humans, as evidenced by the number of half-elves in the world. Elves have difficulty accepting crossbreeds of any sort, however, and usually disown such offspring. They similarly regard half-orcs with distrust and suspicion, assuming they possess the worst aspects of orc and human personalities.</p>
+<p><b>Alignment and Religion</b>: Elves are emotional and capricious, yet value kindness and beauty. Most elves are chaotic good, wishing all creatures to be safe and happy, but unwilling to sacrifice personal freedom or choice to accomplish such goals. serving as an example of personal artistry and freedom of expressions, rather than seeking some base physical gratification.</p>
+<p><b>Adventurers</b>: Many elves embark on adventures out of a desire to explore the world, leaving their secluded realms to reclaim forgotten elven magic or search out lost kingdoms established millennia ago by their ancestors. This need to see a wider world is accepted by their societies as a natural part of becoming mature and experienced individuals. Such elves are expected to return in some few decades and take up lives in their homelands once more, enriched both in treasure and in worldview. For those elves raised among humans, however, life within their homes&mdash;watching friends and family swiftly age and die&mdash;is often stifling, and the ephemeral and unfettered life of an adventurer holds a natural appeal. </p>
+<p>Elves generally eschew melee because of their relative frailty, preferring instead to engage enemies at range. Most see combat as unpleasant even when needful, and prefer it be done as quickly as possible, preferably without getting close enough to smell their foes. This preference for making war at a distance, coupled with their natural accuracy and grasp of the arcane, encourages elves to pursue classes such as wizards and rangers.</p>
+<p><b>Male Names</b>: Caladrel, Heldalel, Lanliss, Meirdrarel, Seldlon, Talathel, Variel, Zordlon.</p>
+<p><b>Female Names</b>: Amrunelara, Dardlara, Faunra, Jathal, Merisiel, Oparal, Soumral, Tessara, Yalandlara.</p>
+
+<h1 id="elf-racial-traits">Elf Racial Traits</h1>
+<p><b>+2 Dexterity, +2 Intelligence, &ndash;2 Constitution</b>: Elves are nimble, both in body and mind, but their form is frail.</p>
+<p><b>Medium</b>: Elves are Medium creatures and receive no bonuses or penalties due to their size.</p>
+<p><b>Normal Speed</b>: Elves have a base speed of 30 feet.</p>
+<p><b>Low-Light Vision</b>: Elves can see twice as far as humans in conditions of dim light. </p>
+<p><b>Elven Immunities</b>: Elves are immune to magic sleep effects and gain a +2 racial saving throw bonus against enchantment spells and effects.</p>
+<p><b>Elven Magic</b>: Elves receive a +2 racial bonus on caster level checks made to overcome spell resistance. In addition, elves receive a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> skill checks made to identify the properties of magic items.</p>
+<p><b>Keen Senses</b>: Elves receive a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks.</p>
+<p><b>Weapon Familiarity</b>: Elves are proficient with longbows (including composite longbows), longswords, rapiers, and shortbows (including composite shortbows), and treat any weapon with the word "elven" in its name as a martial weapon.</p>
+<p><b>Languages</b>: Elves begin play speaking Common and Elven. Elves with high Intelligence scores can choose from the following: Celestial, Draconic, Gnoll, Gnome, Goblin, Orc, and Sylvan.</p>
+
+<h1 id="alternate-racial-rules">Alternate Racial Rules</h1>
+<p>Elves, by their very nature, are a race with a wide variety of traits and features, many of which are drawn from the environment in which they live. The following rules represent some of those varied aspects, and while many are themed to one environment or another, they can be taken by any elf character.</p>
+
+<h2 id="alternate-racial-traits">Alternate Racial Traits</h2>
+<p>The following racial traits may be selected instead of the standard elf racial traits. Consult your GM before selecting any of these new options.</p>
+<p id="arcane-focus"><b>Arcane Focus</b>: Some elven families have such long traditions of producing wizards (and other arcane spellcasters) that they raise their children with the assumption each is destined to be a powerful magic-user, with little need for mundane concerns such as skill with weapons. Elves with this racial trait gain a +2 racial bonus on concentration checks made to cast arcane spells defensively. This racial trait replaces weapon familiarity.</p>
+<p id="darkvision"><b>Darkvision</b>: Though uncommon, some groups of elves are born with darkvision, rather than low-light vision. In many cases this is taken as a sign of a drow in the elf's ancestry, and can lead to persecution within the elf's home community. Elves with this racial trait gain darkvision with a range of 60 feet, but also gain sensitivity to light and are dazzled in areas of bright light or within the radius of a <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i> spell. This racial trait replaces low-light vision.</p>
+<p id="desert-runner"><b>Desert Runner</b>: Some elves thrive in the deepest deserts, forever roaming across burned and parched lands. Elves with this racial trait receive a +4 racial bonus on Constitution checks and Fortitude saves to avoid fatigue, exhaustion, or ill effects from running, forced marches, starvation, thirst, or hot or cold environments. This racial trait replaces elven magic.</p>
+<p id="dreamspeaker"><b>Dreamspeaker</b>: A few elves have the ability to tap into the power of sleep, dreams, and prescient reverie. Elves with this racial trait add +1 to the saving throw DCs of spells of the divination school and sleep effects they cast. In addition, elves with Charisma scores of 15 or higher may use <i><a href="/pathfinderRPG/prd/spells/dream.html#_dream" >dream</a></i> once per day as a spell-like ability (caster level is equal to the elf's character level). This racial trait replaces elven immunities.</p>
+<p id="elemental-resistance"><b>Elemental Resistance</b>: Elves who dwell in the most extreme environments, from arctic wastelands to volcanic plains, develop natural resistance to the dangers of their homelands over the course of a few generations. Elves with this racial trait gain elemental resistance 5 to acid, cold, electricity, or fire. This choice is made at character creation, and once made it cannot be changed. This racial trait replaces elven immunities.</p>
+<p id="envoy"><b>Envoy</b>: Elves often have trouble relating to neighbors of other races, especially those with much shorter lifespans. As a result, some are trained in minor magics that are particularly useful when dealing with non-elves. Elves with this racial trait and an Intelligence score of 11 or higher gain the following spell-like abilities once per day: <i><a href="/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages" >comprehend languages</a></i>,<i> <a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>,<i> <a href="/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison" >detect poison</a></i>, and<i> <a href="/pathfinderRPG/prd/spells/readMagic.html#_read-magic" >read magic</a></i>. The caster level for these effects is equal to the elf's level. This racial trait replaces elven magic.</p>
+<p id="eternal-grudge"><b>Eternal Grudge</b>: Some elves grow up in secluded, isolationist communities where generations-old slights and quarrels linger as eternal blood feuds. Elves with this racial trait receive a +1 bonus on attack rolls against humanoids of the dwarf and orc subtypes because of special training against these hated foes. This racial trait replaces elven magic.</p>
+<p id="fleet-footed"><b>Fleet-Footed</b>: While all elves are naturally lithe and agile, some also are naturally speedy and have a strong desire to rush into situations rather than worrying about looking ahead. Elves with this racial trait receive <a href="/pathfinderRPG/prd/feats.html#_run" >Run</a> as a bonus feat and a +2 racial bonus on initiative checks. This racial trait replaces keen senses and weapon familiarity.</p>
+<p id="lightbringer"><b>Lightbringer</b>: Many elves revere the sun, moon, and stars, but some are literally infused with the radiant power of the heavens. Elves with this racial trait are immune to light-based blindness and dazzle effects, and are treated as one level higher when determining the effects of any light-based spell or effect they cast (including spell-like and supernatural abilities). Elves with Intelligence scores of 10 or higher may use <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i> at will as a spell-like ability. This racial trait replaces the elven immunities and elven magic racial traits.</p>
+<p id="silent-hunter"><b>Silent Hunter</b>: Elves are renowned for their subtlety and skill. Elves with this racial trait reduce the penalty for using <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> while moving by 5 and can make <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks while running at a &ndash;20 penalty (this number includes the penalty reduction from this racial trait). This racial trait replaces elven magic.</p>
+<p id="spirit-of-the-waters"><b>Spirit of the Waters</b>: Some elves have adapted to life in tune with the sea or along the reedy depths of wild rivers and lakes. They gain a +4 racial bonus on <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> checks, can always take 10 while swimming, and may choose Aquan as a bonus language. They are proficient with longspear, trident, and net. This racial trait replaces elven magic and weapon familiarity.</p>
+<p id="urbanite"><b>Urbanite</b>: Elves who live in cities for more than a century can grow to know the ebb and flow of social situations just as their forest-dwelling cousins know the rules of the wild. Elves with this racial trait gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks made to gather information and <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> checks made to get a hunch about a social situation. This racial trait replaces keen senses.</p>
+<p id="woodcraft"><b>Woodcraft</b>: Elves know the deep secrets of the wild like no others, especially secrets of the forests. Elves with this racial trait gain a +1 racial bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) and <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks. In forest terrain, these bonuses improve to +2. This racial trait replaces elven magic.</p>
+
+<h2 id="racial-subtypes">Racial Subtypes</h2>
+<p>You can combine various alternate racial traits to create elven subraces or variant races, such as the following.</p>
+<p id="arctic-elf"><b>Arctic Elf</b>: These elves were born and raised in the frozen lands of the far north or south, and have dealt with freezing deserts, nights that last for weeks, and the horrors that roam the cold terrain. These elves have the darkvision, desert runner, and elemental resistance alternate racial traits.</p>
+<p id="dusk-elf"><b>Dusk Elf</b>: Rather than being tied to the terrain around them, some elves are linked to the night itself. Though not tied to demon worship and evil as drow are, these elves are similarly attuned to the magical concepts of darkness and shadow. These elves have the arcane focus, darkvision, dreamspeaker, and silent hunter alternate racial traits.</p>
+<p id="savage-elf"><b>Savage Elf</b>: In lands where every day is a constant struggle to survive and the niceties of civilization are rare, elves adapt to depend on swift strikes and lifelong vigilance to keep their families alive. These elves have the eternal grudge and fleet-footed alternate racial traits.</p>
+<p id="tower-elf"><b>Tower Elf</b>: Some elven institutions of magical learning date back centuries, and entire clans of elves have lived for generations as caretakers, students, and instructors of these self-sufficient schools of wizardry. These elves have the arcane focus and urbanite alternate racial traits.</p>
+
+<h2 id="favored-class-options">Favored Class Options</h2>
+<p>The following options are available to all elves who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the class reward.</p>
+<p id="alchemist"><b>Alchemist</b>: Add one extract formula from the alchemist's list to his formula book. This formula must be at least one level lower than the highest-level formula the alchemist can create.</p>
+<p id="barbarian"><b>Barbarian</b>: Add +1 to the barbarian's base speed. In combat this option has no effect unless the barbarian has selected it five times (or another increment of five). This bonus stacks with the barbarian's fast movement feature and applies under the same conditions as that feature.</p>
+<p id="bard"><b>Bard</b>: Add +1 to the bard's CMD when resisting a disarm or sunder attempt.</p>
+<p id="cavalier"><b>Cavalier</b>: Add +1 hit point to the cavalier's mount. If the cavalier ever replaces his mount, the new mount gains these bonus hit points.</p>
+<p id="cleric"><b>Cleric</b>: Select one domain power granted at 1st level that is normally usable a number of times per day equal to 3 + the cleric's Wisdom modifier. The cleric adds +1/2 to the number of uses per day of that domain power.</p>
+<p id="druid"><b>Druid</b>: Add +1/3 to the druid's natural armor bonus when using wild shape.</p>
+<p id="fighter"><b>Fighter</b>: Add +1 to the fighter's CMD when resisting a disarm or sunder attempt.</p>
+<p id="gunslinger"><b>Gunslinger</b>: Add +1/3 on critical hit confirmation rolls made with firearms (maximum bonus of +5). This bonus does not stack with <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>.</p>
+<p id="inquisitor"><b>Inquisitor</b>: Add one spell known from the inquisitor's spell list. This spell must be at least one level below the highest-level spell the inquisitor can cast.</p>
+<p id="magus"><b>Magus</b>: The magus gains 1/6 of a new magus arcana.</p>
+<p id="monk"><b>Monk</b>: Add +1 to the monk's base speed. In combat this option has no effect unless the monk has selected it five times (or another increment of five). This bonus stacks with the monk's fast movement class feature and applies under the same conditions as that feature.</p>
+<p id="oracle"><b>Oracle</b>: Add +1/2 to the oracle's level for the purpose of determining the effects of one revelation.</p>
+<p id="paladin"><b>Paladin</b>: Add +1/2 hit point to the paladin's lay on hands ability (whether using it to heal or harm).</p>
+<p id="ranger"><b>Ranger</b>: Choose a weapon from the following list: longbow, longsword, rapier, shortbow, short sword, or any weapon with "elven" in its name. Add +1/2 on critical hit confirmation rolls made while using that weapon (maximum bonus of +4). This bonus does not stack with <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>.</p>
+<p id="rogue"><b>Rogue</b>: Add +1 to the number of times per day the rogue can cast a cantrip or 1st-level spell gained from the minor magic or major magic talent. The number of times this bonus is selected for the major magic talent cannot exceed the number of times it is selected for the minor magic talent. The rogue must possess the associated rogue talent to select these options.</p>
+<p id="sorcerer"><b>Sorcerer</b>: Select one bloodline power at 1st level that is normally usable a number of times per day equal to 3 + the sorcerer's Charisma modifier. The sorcerer adds +1/2 to the number of uses per day of that bloodline power.</p>
+<p id="summoner"><b>Summoner</b>: The amount of time the summoner must spend to summon his eidolon is reduced by 1 round, to a minimum of 1 round.</p>
+<p id="witch"><b>Witch</b>: Add one spell from the witch spell list to the witch's familiar. This spell must be at least one level lower than the highest-level spell she can cast. If the witch ever replaces her familiar, the new familiar knows these bonus spells.</p>
+<p id="wizard"><b>Wizard</b>: Select one arcane school power at 1st level that is normally usable a number of times per day equal to 3 + the wizard's Intelligence modifier. The wizard adds +1/2 to the number of uses per day of that arcane school power.</p>
+
+<h1 id="racial-archetypes">Racial Archetypes</h1>
+<p>The following racial archetypes are available to elves.</p>
+
+<h2 id="ancient-lorekeeper-(oracle)">Ancient Lorekeeper (Oracle)</h2>
+<p>The ancient lorekeeper is a repository for all the beliefs and vast knowledge of an elven people. She shows a strong interest in and understanding of histories and creation legends at a young age, and as she matures her calling to serve as the memory of her long-lived people becomes clear to all who know her. An ancient lorekeeper has the following class features.</p>
+<p id="class-skills"><b>Class Skills</b>: An ancient lorekeeper adds <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcane) and <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) to her list of class skills. Whenever she makes a <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> check of any kind about a question regarding elves (creatures of the elf subtype), the ancient lorekeeper adds half her class level on her check. This replaces the bonus skills the ancient lorekeeper gains from her mystery.</p>
+<p id="elven-arcana"><b>Elven Arcana (Ex)</b>: At 2nd level, an ancient lorekeeper's mastery of elven legends and philosophy has allowed her to master one spell used by elven wizards. She selects one spell from the sorcerer/wizard spell list that is at least one level lower than the highest-level oracle spell she can cast. The ancient lorekeeper gains this as a bonus spell known. The spell is treated as one level higher than its true level for all purposes. The ancient lorekeeper may choose an additional spell at 4th, 6th, 8th, 10th, 12th, 14th, 16th, and 18th levels. This ability replaces the bonus spells she would normally gain at these levels from her chosen mystery.</p>
+<p id="mysteries"><b>Mysteries</b>: The following oracle mysteries complement the ancient lorekeeper archetype: Lore, Nature, Waves, Wind ; Ancestor, Time, Wood.</p>
+
+<h2 id="spell-dancer-(magus)">Spell Dancer (Magus)</h2>
+<p>The strong emphasis on wizards within elven culture influences how even non-wizard elves see themselves. Many elven magi do not consider themselves masters of a blend of martial and magical talents, but rather a sub-category of wizards who study the effect of physical movement and techniques upon spellcasting ability. They believe their ability to cast spells while fighting is an outgrowth of the concept of the "spell dance," which itself is just another kind of wizardry. A spell dancer has the following class features.</p>
+<p id="class-skills"><b>Class Skills</b>: A spell dancer adds <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> and <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (dance) to his list of class skills and removes <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> and <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> from his list of class skills. </p>
+<p id="spell-dance"><b>Spell Dance (Su)</b>: At 1st level, a spell dancer gains the ability to expend 1 point from his arcane pool as a swift action to gain a +10 enhancement bonus to his movement rate and a +2 dodge bonus to Armor Class against attacks of opportunity provoked by moving through threatened spaces for 1 minute. For every four levels beyond 1st, the spell dancer gains another +10 enhancement bonus to movement and +2 to AC against attacks of opportunity provoked from movement. </p>
+<p>At 5th level, once per spell dance as a swift action, the spell dancer may use one of the following on himself as a swift action: <i><a href="/pathfinderRPG/prd/spells/blur.html#_blur" >blur</a>, <a href="/pathfinderRPG/prd/spells/fly.html" >fly</a>, </i>or <i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>. These abilities last for 1 round. At 9th level, the spell dancer may instead take a swift action to use <i><a href="/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door" >dimension door</a></i> as a spell-like ability once during a spelldance. At 13th level, the spell dancer may instead choose to take a swift action to gain <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i> for 1d4 rounds.</p>
+<p>This ability replaces the magus's ability to expend points from his arcane pool as a swift action to grant any weapon he is holding magic bonuses for 1 minute.</p>
+<p id="arcane-movement"><b>Arcane Movement (Su)</b>: At 5th level, whenever a spell dancer casts a magus spell, he gains a competence bonus on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a>, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a>, <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a>, and <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks equal to the spell's level until the beginning of his next turn. This ability replaces the bonus feat a magus receives at 5th level.</p>
+<p id="dance-of-avoidance"><b>Dance of Avoidance (Su)</b>: At 7th level, while wearing light armor or no armor, a spell dancer gains a +2 insight bonus to Armor Class. This ability replaces the medium armor class feature. </p>
+<p id="greater-dance-of-avoidance"><b>Greater Dance of Avoidance (Su)</b>: At 13th level, while wearing light armor or no armor, a spell dancer's insight bonus to Armor Class increases to +4. This ability replaces the heavy armor class feature.</p>
+<p id="magus-arcana"><b>Magus Arcana</b>: The following magus arcana complement the spell dancer archetype: arcane cloak, prescient defense; close range, concentrate, hasted assault, spell shield.</p>
+
+<h2 id="spellbinder-(wizard)">Spellbinder (Wizard)</h2>
+<p>A spellbinder is an elven wizard who forges an arcane bond between himself and one or more wizard spells. These spells become so well understood by the spellbinder that he can prepare them in spell slots that already have other spells prepared in them. </p>
+<p id="spell-bond"><b>Spell Bond (Su)</b>: At 1st level, a spellbinder selects any one spell that he knows as a bonded spell. As a full-round action, the spellbinder may replace a spell of the same or higher level as his bonded spell with his bonded spell. For example, a spellbinder who selects <i><a href="/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile" >magic missile</a></i> as his bonded spell could spend a full-round action to exchange any 1st-level or higher spell that he has prepared with <i><a href="/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile" >magic missile</a></i>. At 3rd level, and every two levels thereafter, a spellbinder may select another spell he knows and add it to his list of bonded spells, to a maximum of nine bonded spells at 17th level.</p>
+<p>Upon reaching 4th level, and every two levels thereafter, a spellbinder can choose to select a new spell as a bonded spell in place of one with which he is already bonded. In effect, the spellbinder loses the bond with the old spell (though it is still one of his spells known) in exchange for forging a spell bond with a new spell. The new spell's level must be the same as that of the spell being exchanged. A spellbinder may swap only one spell bond at any given level, and must choose whether or not to swap the spell bond at the same time that he gains two new spells known for the level. This ability replaces arcane bond.</p>
+<p id="discoveries"><b>Discoveries</b>: The following discoveries complement the spellbinder archetype: Fast Study, Split Slot.</p>
+
+<h2 id="treesinger-(druid)">Treesinger (Druid)</h2>
+<p>Elves live far longer than other common races, and a single elf may see whole empires rise and fall. Given the impermanence of the cultures around them, it's small wonder that some elves turn to the timeless growth of nature for solace, finding allies among the great trees themselves, and even leading the forest's plants into combat. A treesinger has the following class features.</p>
+<p id="plant-bond"><b>Plant Bond (Ex)</b>: At 1st level, a treesinger forms a mystic bond with plant life. This bond can take one of two forms. The first grants the treesinger one of the following domains: Plant (<i>Core Rulebook</i>); Growth ; Jungle, Swamp. When determining the powers and bonus spells granted by this domain, the treesinger's effective cleric level is equal to her druid level. A treesinger who selects this option also receives additional domain spell slots, just like a cleric. She must prepare the spell from her domain in this slot, and this spell cannot be used to cast a spell spontaneously.</p>
+<p>The second option is to form a close bond with a plant companion. A treesinger may begin play with any of the plants listed in Plant Companions. This plant is a loyal companion that accompanies the treesinger on her adventures. Except for the companion being a creature of the plant type, drawn from the list of plant companions, this ability otherwise works like the standard druid's animal companion ability.</p>
+<p>Plant bond replaces the druid's nature bond ability.</p>
+<p id="green-empathy"><b>Green Empathy (Ex)</b>: At 1st level, a treesinger can improve the attitude of a plant creature. This ability functions just like a <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check made to improve the attitude of a person. The treesinger rolls 1d20 and adds her druid level and her Charisma modifier to determine the wild empathy check result. The typical wild plant creature has a starting attitude of indifferent.</p>
+<p>To use green empathy, the treesinger and the plant creature must be within 30 feet of one another under normal conditions. Generally, influencing a plant creature in this way takes 1 minute but, as with influencing people, it might take more or less time.</p>
+<p>A treesinger can also use this ability to influence an animal, but she takes a &ndash;4 penalty on the check. This ability replaces the wild empathy class feature.</p>
+<p id="wild-shape"><b>Wild Shape (Su)</b>: At 4th level, a treesinger gains the ability to wild shape. This ability functions at her actual druid level. A treesinger cannot use wild shape to adopt an animal or elemental form. Instead, when she gains this ability at 4th level, she can assume the form of a Small or Medium plant. This functions as <i><a href="/pathfinderRPG/prd/spells/plantShape.html#_plant-shape-i" >plant shape I</a></i>, except the treesinger does not yet gain access to the constrict or poison abilities of the plant form assumed. At 8th level, the treesinger's wild shape gains the full range of abilities available from <i><a href="/pathfinderRPG/prd/spells/plantShape.html#_plant-shape-i" >plant shape I</a></i>. At 10th level, a treesinger can assume the form of a Large or Tiny plant. Her wild shape ability now functions like <i><a href="/pathfinderRPG/prd/spells/plantShape.html#_plant-shape-ii" >plant shape II</a></i>. At 12th level, a treesinger can assume the form of a Huge plant. Her wild shape ability now functions like <i><a href="/pathfinderRPG/prd/spells/plantShape.html#_plant-shape-iii" >plant shape III</a></i>. This ability replaces, and otherwise functions like, the normal druid wild shape ability.</p>
+
+<h2 id="plant-companions">Plant Companions</h2>
+<p>Each plant companion has different starting sizes, speed, attacks, ability scores, and special qualities. All plant attacks are made using the creature's full base attack bonus unless otherwise noted. Plant attacks add the plant's Strength modifier on the damage roll, unless it has only one attack, in which case it adds 1-1/2 times its Strength modifier. Some plant companions have special abilities, such as scent. Plant companions cannot gain armor or weapon proficiency feats, even as they advance in hit dice, and cannot use manufactured weapons at all unless their description says otherwise.</p>
+<p>As you gain levels, your plant companion grows in power as well. It gains the same bonuses that are gained by animal companions. Each plant companion gains an additional bonus, usually at 4th or 7th level, as listed with each plant choice. Instead of taking the listed benefit at 4th level, you can instead choose to increase the companion's Strength and Constitution by 2.</p>
+<h3 id="carnivorous-flower">Carnivorous Flower</h3>
+<p class="stat-block-2"><b>Starting Statistics</b>:<b> Size</b> Small; <b>Speed</b> 30 ft., climb 10 ft.; <b>AC</b> +2 natural armor; <b>Attack</b> bite (1d6); <b>Ability Scores </b>Str 10, Dex 17, Con 15, Int 2, Wis 12, Cha 10; <b>Special Qualities</b> low-light vision, scent.</p>
+<p class="stat-block-2"><b>4th-Level Advancement</b>: <b>Size </b>Medium; <b>Attack </b>bite (2d6); <b>Ability Scores </b>Str +4, Dex &ndash;2, Con +2; <b>Special Attacks </b>rage (1/day, as the barbarian class feature for 6 rounds). </p>
+<h3 id="crawling-vine">Crawling Vine</h3>
+<p class="stat-block-2"><b>Starting Statistics</b>:<b> Size</b> Medium; <b>Speed</b> 20 ft., climb  20 ft.; <b>AC</b> +2 natural armor; <b>Attack</b> slam (1d4); <b>Ability Scores </b>Str 13, Dex 17, Con 13, Int 1, Wis 12, Cha 2; <b>Special Attacks </b>grab; <b>Special Qualities</b> low-light vision, scent.</p>
+<p class="stat-block-2"><b>4th-Level Advancement</b>: <b>Size </b>Large; <b>AC</b> +1 natural armor; <b>Attack</b> slam (1d6); <b>Ability Scores </b>Str +8, Dex &ndash;2, Con +4; <b>Special Attacks</b> constrict 1d6. </p>
+<h3 id="puffball-(floating-fungus)">Puffball (Floating Fungus)</h3>
+<p class="stat-block-2"><b>Starting Statistics</b>:<b> Size</b> Small; <b>Speed</b> 20 ft., fly 60 ft. (average); <b>AC</b> +1 natural armor; <b>Attack</b> thorn (1d4 plus poison); <b>Ability Scores </b>Str 10, Dex 15, Con 12, Int 2, Wis 14, Cha 6; <b>Special Attacks </b>poison (<i>Frequency</i> 1 round [6], <i>Effect</i> 1 Con damage, <i>Cure</i> 1 save, Con-based DC); <b>Special Qualities</b> low-light vision.</p>
+<p class="stat-block-2"><b>4th-Level Advancement</b>: <b>Ability Scores</b> Str +2, Con +2.</p>
+<h3>Sapling Treant</h3>
+<p class="stat-block-2"><b>Starting Statistics</b>:<b> Size</b> Medium; <b>Speed</b> 30 ft., climb 30 ft.; <b>AC</b> +1 natural armor; <b>Attack</b> 2 slams (1d6); <b>Ability Scores </b>Str 15, Dex 10, Con 12, Int 2, Wis 12, Cha 7; <b>Special Qualities</b> double damage against objects, low-light vision.</p>
+<p class="stat-block-2"><b>4th-Level Advancement</b>: <b>Size </b>Large; <b>AC </b>+2 natural armor; <b>Attack</b> 2 slams (1d8); <b>Ability Scores </b>Str +8, Dex &ndash;2, Con +4.</p>
+
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The following options are available to elves. At the GM's discretion, other appropriate races may also make use of some of these.</p>
+
+<h2 id="elven-equipment">Elven Equipment</h2>
+<p>Elves have access to the following equipment. </p>
+<p id="arcane-family-workbook"><b>Arcane Family Workbook</b>: The elven predilection for becoming wizards and the social benefits that elven wizards enjoy often encourages families to dedicate themselves to wizardly studies for multiple generations. Older elven wizards take note of their own insights into the secrets of arcane magic and compile these thoughts with the ideas of earlier generations to form family workbooks. When used as a reference (an action that typically takes 1d4 full rounds of searching the text), an arcane family workbook grants a +2 circumstance bonus on a <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> checks. This bonus increases to +4 if 1d4 hours are spent referencing the book.</p>
+<p id="artificer's-lab,-portable"><b>Artificer's Lab, Portable</b>: The portable artificer's lab contains everything needed to create magic items, though many of the tools and implements are of only the most basic type. This lab allows the artificer to spend 4 hours crafting each night while out adventuring, and net 3 hours' worth of work (instead of 2). However, because the tools are all designed to fulfill multiple functions and the portable lab lacks the space and quiet that provide ideal circumstances for creating magic items, the skill check to complete a magic item that had any of its work done using a portable lab takes a &ndash;5 penalty.</p>
+<p id="bag,-bear"><b>Bag, Bear</b>: These sacks each include a 20-foot-long rope, from which they may be easily suspended from a tree limb or similar anchor point. Placing foodstuffs or fragile materials in hanging sacks is often considered a basic precaution when camping in the wild, to prevent bears and other predators from rooting through the sack's contents.</p>
+<p id="spellbook,-compact"><b>Spellbook, Compact</b>: The need to be able to record and travel with dozens or even hundreds of spells often forces elven wizards to seek lighter spellbooks. Compact spellbooks hold only 70 pages of spells, but they weigh significantly less than an ordinary spellbook.</p>
+<p id="tent,-hanging"><b>Tent, Hanging</b>: A hanging tent is a small tent (able to comfortably house a single Medium creature) with a teardrop shape, which hangs from a sturdy anchor rope. The rope can be tied to a tree limb, grappling hook, or even a piton hammered into a cliff side. Hanging tents are used primarily in mountainous terrain (where no flat surface may be available for camping) and swamps (where no dry ground may be available). Climbing in or out of a hanging tent is a full-round action that requires a DC 10 <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> check. Failure indicates another attempt must be made, while failure by 5 or more indicates the camper has fallen from the tent.</p>
+
+<table id="elven-equipment"><caption>Elven Equipment</caption>
+<thead><tr><th>Item</th><th>Cost</th><th>Weight</th></tr></thead>
+<tr class="odd"><td>Arcane family workbook</td><td>300 gp</td><td>3 lbs.</td></tr>
+<tr class="even"><td>Artificer's lab, portable</td><td>300 gp</td><td>40 lbs.</td></tr>
+<tr class="odd"><td>Bag, bear</td><td>2 gp</td><td>3 lbs.*</td></tr>
+<tr class="even"><td>Spellbook, compact (blank)</td><td>50 gp</td><td>1 lb.</td></tr>
+<tr class="odd"><td>Tent, hanging</td><td>20 gp</td><td>15 lbs.*</td></tr>
+<tfoot><tr><td colspan="3">*These items weigh 1/4 this amount when made for Small characters. Containers for Small characters also carry 1/4 the normal amount.</td></tr></tfoot></table>
+
+<h2 id="elven-speal-materials">Elven Special Materials</h2>
+<p>Given their strong ties to nature and inclination for arcane arts, it's not surprising that elves have developed a few special materials well suited to their needs and homelands.</p>
+<p id="darkleaf-cloth"><b>Darkleaf Cloth</b>: Darkleaf cloth is a special form of flexible material made by weaving together leaves and thin strips of bark from darkwood trees, then treating the resulting fabric with special alchemical processes. The resulting material is tough as cured hide but much lighter, making it an excellent material from which to create armor. Spell failure chances for armors made from darkleaf cloth decrease by 10% (to a minimum of 5%), maximum Dexterity bonuses increase by 2, and armor check penalties decrease by 3 (to a minimum of 0).</p>
+<p>An item made from darkleaf cloth weighs half as much as the same item made from normal cured leather, furs, or hides. Items not primarily constructed of leather, fur, or hide are not meaningfully affected by being partially made of darkleaf cloth. As such padded, leather, studded leather, and hide armor can be made out of darkleaf cloth (although other types of armor made of leather or hide might be possible). Because darkleaf cloth remains flexible, it cannot be used to construct rigid items such as shields or metal armors. Armors fashioned from darkleaf cloth are always masterwork items as well; the masterwork cost is included in the prices given below.</p>
+<p>Darkleaf cloth has 20 hit points per inch of thickness and hardness 10.</p>
+
+<table><thead><tr><th>Type of Darkleaf Cloth Item</th><th>Cost Modifier</th></tr></thead>
+<tr class="odd"><td>Clothing</td><td>+500 gp</td></tr>
+<tr class="even"><td>Light armor</td><td>+750 gp</td></tr>
+<tr class="odd"><td>Medium armor</td><td>+1,500 gp</td></tr>
+<tr class="even"><td>Other items</td><td>+375 gp/lb.</td></tr></table>
+
+<p id="wyroot"><b>Wyroot</b>: The root of the wyrwood tree has a peculiar quality. When a weapon constructed of wyroot confirms a critical hit, it absorbs some of the life force of the creature hit. The creature hit is unharmed and the wyroot weapon gains 1 life point. As a swift action, a wielder with a <i>ki </i>pool or an arcane pool can absorb 1 life point from the wyrwood weapon and convert it into either 1 <i>ki</i> point or 1 arcane pool point. Most wyroot weapons can only hold 1 life point at a time, but higher-quality wyroot does exist. The most powerful wyroot weapons can hold up to 3 life points at a time. Any unspent life points dissipate at dusk.  </p>
+<p>Wyroot can be used to construct any melee weapon made entirely of wood or a melee weapon with a wooden haft. Constructing a wyroot weapon that can hold 1 life point increases the weapon's cost by 1,000 gp, constructing one that can hold up to 2 life points increases the weapon's cost by 2,000 gp, and constructing one that can hold up to 3 life points increases the weapon's cost by 4,000 gp.  </p>
+
+<h2 id="elven-feats">Elven Feats</h2>
+<p>Elves have access to the following feats.</p>
+<div class="feats-text">
+<h3 id="attuned-to-the-wind">Attuned to the Wild</h3>
+<p class="stat-block-1">You share a strong mystic connection with one type of wilderness terrain.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Elf.</p>
+<p class="stat-block-1"><b>Benefit</b>: Select one type of terrain from the ranger class's favored terrain class feature (except urban). While you are in your selected terrain type, your natural healing rate (the amount of hit points and ability damage you heal from a full night's rest) doubles.</p>
+<p class="stat-block-1"><b>Special</b>: You can take this feat multiple times. Its effects do not stack. Each time you take it, it applies to a different terrain type.</p>
+<h3 id="elven-battle-training-(combat)">Elven Battle Training (Combat)</h3>
+<p class="stat-block-1">You have been specially trained to wield a variety of traditional elven weapons.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Base attack bonus +1, elf.</p>
+<p class="stat-block-1"><b>Benefit</b>: You have received special training with traditional elven weapons (longbows, composite longbows, longswords, rapiers, shortbows, composite shortbows, and any weapon with the word "elven" in its name). You receive a +2 bonus to your CMD against disarm and sunder maneuvers directed at one of these weapons you are wielding.  In addition, if you are wielding one of these melee weapons, you may make an additional attack of opportunity each round (this bonus stacks with <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>). </p>
+<h3 id="guardian-of-the-wind">Guardian of the Wild</h3>
+<p class="stat-block-1">Your mystic connection with the wilderness enhances your ability to react to threats.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Attuned to the Wild, elf.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you are in a terrain type you have selected the Attuned to the Wild feat for, you gain a +2 dodge bonus to Armor Class. If you are in an area that qualifies as more than one kind of terrain, these bonuses do not stack; you receive the bonus for only one of the  terrain types.</p>
+<h3 id="mage-of-the-wild">Mage of the Wild</h3>
+<p class="stat-block-1">Your mystic connection with the wilderness enhances your spellcasting.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Attuned to the Wild, elf.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you are in a terrain type you have selected the Attuned to the Wild feat for, you gain a +2 bonus on caster level checks, concentration checks, and, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) and <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> checks. If you are in an area that qualifies as more than one kind of terrain, these bonuses do not stack; you receive the bonus for only one of the  terrain types.</p>
+<h3 id="spirit-of-the-wild">Spirit of the Wild</h3>
+<p class="stat-block-1">Your mystic connection with one type of wilderness has grown even stronger.</p>
+<p class="stat-block-1"><b>Prerequisites</b>: Attuned to the Wild, Guardian of the Wild, elf.</p>
+<p class="stat-block-1"><b>Benefit</b>: When you are in a terrain type you have selected the Attuned to the Wild feat for, you gain a +4 bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks made to act in the surprise round of combat. If you act in the surprise round, you gain blindsense out to a range of 30 feet during the surprise round. If you are in an area that qualifies as more than one kind of terrain, these bonuses do not stack; you receive the bonus for only one terrain type.</p>
+</div>
+
+<h2 id="elven-magic-items">Elven Magic Items</h2>
+<p>Elves are renowned for their skill at crafting beautiful and deadly magic items. The following examples are made by many elven crafters.</p>
+<p id="bracers-of-sworn-vengeance" class="stat-block-title">Bracers of Sworn Vengeance</p>
+<p class="stat-block-1"><b>Aura</b> strong evocation; <b>CL</b> 15th</p>
+<p class="stat-block-1"><b>Slot</b> wrists; <b>Price</b> 25,000 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-breaker">Description</p>
+<p>These white leather bracers have delicate elven runes etched upon them, one reading "swift defeat" and the other "vengeance." Once per day, as an immediate action when the wearer takes hit point damage from a target, she may cry out, "Death to those who wrong me!", swearing vengeance against the attacker. The wearer gains a +1 competence bonus on weapon attack rolls made against the target of his sworn vengeance, and deals an additional 2d6 points of damage on successful weapon attack rolls.</p>
+<p>For the duration of the effect, the wearer takes a &ndash;2 penalty on attack rolls against any target other than his sworn enemy. These bonuses and penalties last for 24 hours or until the sworn enemy is slain or destroyed by the wearer of the bracers, whichever comes first. If the wearer fails to slay the target of his oath, these bracers cannot be used again until 7 days have passed. </p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/shout.html#_shout" >shout</a></i>, creator must be an elf; <b>Cost</b> 12,500 gp</p>
+<p id="gauntlets-of-skill-at-arms" class="stat-block-title">Gauntlets of Skill at Arms</p>
+<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 8th</p>
+<p class="stat-block-1"><b>Slot</b> wrists; <b>Price</b> 30,000 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-breaker">Description</p>
+<p>These finely crafted leather gauntlets have plates of silvered steel covering the back, and silver buckles at the wrist and forearm. The gloves enable the wearer to use any traditional elven weapon (longbows, composite longbows, longswords, rapiers, shortbows, composite shortbows, and any weapon with the word "elven" in its name) as if he were proficient in its use. If he uses such a weapon and is already proficient with it, he gains a +1 competence bonus on attack and damage rolls. Both gloves must be worn for the magic to be effective.</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, creator must be an elf; <b>Cost</b> 15,000 gp</p>
+<p id="gloves-of-elvenkind" class="stat-block-title">Gloves of Elvenkind</p>
+<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 8th</p>
+<p class="stat-block-1"><b>Slot</b> hands; <b>Price</b> 7,500 gp; <b>Weight</b> &mdash;</p>
+<p class="stat-block-breaker">Description</p>
+<p>These plain gray leather gloves grant a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> checks and concentration checks made to cast a spell defensively. Both gloves must be worn for the magic to be effective.</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, creator must be an elf; <b>Cost</b> 3,500 gp</p>
+
+<h2 id="elven-spells">Elven Spells</h2>
+<p>Most know of elven magic for its power, but those who delve deeper discover its elegance and ties to the natural world. The following spells are just a few that the elves are known for.</p>
+<p id="blend" class="stat-block-title">Blend</p>
+<p class="stat-block-1"><b>School</b> illusion (glamer); <b>Level</b> alchemist 1, druid 1, magus 1, ranger 1, sorcerer/wizard 1, witch 1</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> S</p>
+<p class="stat-block-1"><b>Range</b> personal</p>
+<p class="stat-block-1"><b>Target</b> you</p>
+<p class="stat-block-1"><b>Duration</b> 10 minutes/level</p>
+<p>You draw upon your elven link to the wilderness to change the coloration of yourself and your equipment to match that of your surroundings. This grants you a +4 circumstance bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks and allows you to make <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks without cover or concealment, but only while you move no more than half your base speed or less. If you move more than half your base speed on your turn, you gain no benefit from this spell until the start of your next turn. If you make an attack, this spell ends (as <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>).</p>
+<p id="ward-of-the-season" class="stat-block-title">Ward of the Season</p>
+<p class="stat-block-1"><b>School</b> abjuration; <b>Level</b> cleric 4, druid 3, ranger 3, witch 3</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 standard action</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> touch</p>
+<p class="stat-block-1"><b>Target</b> one creature</p>
+<p class="stat-block-1"><b>Duration</b> 1 hour/level</p>
+<p class="stat-block-1"><b>Saving Throw</b> Will negates (harmless); <b>Spell Resistance</b> no</p>
+<p>This spell harnesses the power of the seasons to protect the target and grant a number of bonuses. This spell has one of four different effects. The caster of the spell can select any one of the following four effects, but can change the effect as a standard action that reduces the total remaining duration by 1 hour.</p>
+<blockquote>
+<p id="spring"><i>Spring</i>: The target is wrapped in light vines, culminating in a crown of bright, beautiful flowers. While the spell remains in effect, the target is immune to bleed effects and regains 1 hit point per round whenever below 0 hit points, as long as the target is still alive. This stabilizes the target. For each hit point restored in this way, the spell's total remaining duration is reduced by 1 hour.</p>
+<p id="summer"><i>Summer</i>: The target is surrounded by tiny motes of light. While the spell remains in effect, the target's base speed increases 10 feet. The target may instead increase its base speed by 30 feet for 1 round by reducing the spell's total remaining duration by 1 hour.</p>
+<p id="fall"><i>Fall</i>: A cloak of autumn leaves appears on the target. While the spell remains in effect, the target gains a +2 morale bonus on Fortitude saves. The target can decide to roll twice on any saving throw against disease or poison and take the higher result by reducing the spell's total remaining duration by 1 hour.</p>
+<p id="winter"><i>Winter</i>: A flutter of snow and crisp air surrounds the target. While this spell remains in effect, the target automatically succeeds at <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> skill checks made to avoid falling while moving across slick or narrow surfaces. The target can move freely through difficult terrain for 1 round by reducing the spell's remaining duration by 1 hour. Difficult terrain created by magic affects the target normally.</p>
+</blockquote>
+<p id="whispering-lore" class="stat-block-title">Whispering Lore</p>
+<p class="stat-block-1"><b>School</b> divination; <b>Level</b> cleric 2, druid 1, ranger 1, witch 1</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 full-round action</p>
+<p class="stat-block-1"><b>Components</b> V, S, M/DF (an owl's beak)</p>
+<p class="stat-block-1"><b>Range</b> personal</p>
+<p class="stat-block-1"><b>Target</b> you</p>
+<p class="stat-block-1"><b>Duration</b> 10 minutes/level (D)</p>
+<p>Upon casting this spell, you are able to gain knowledge from the land itself. As you walk through the terrain, it whisper information in a language you understand, though the whispering is so rambling it is hard to distinguish useful information. This whispering grants you a +4 insight bonus on a single <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> skill type appropriate to the type of terrain you are in. If you are within a cold, desert, forest, jungle, mountain, plains, swamp, or water environment, you gain the bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) checks. If you are within an underground environment, you gain the bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) checks. If you are within an urban environment, you gain the bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local) checks. If you are on a plane other than the Material Plane, you gain the bonus on <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (planes) checks. If you enter a new terrain, you lose the previous terrain's skill bonus and gain the new bonus. </p>
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

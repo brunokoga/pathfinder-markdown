@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Kobolds</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Kobolds",globalNavPath=[{ href: '/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html', name: 'Featured Races'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+<div id="body">
+
+<h1 id="kobolds">Kobolds </h1>
+<p>Kobolds are weak, craven, and seethe with a festering resentment for the rest of the world, especially members of races that seem stronger, smarter, or superior to them in any way. They proudly claim kinship to dragons, but beneath all the bluster, the comparison to their glorious cousins leaves kobolds with a profound sense of inadequacy. Though they are hardworking, clever, and blessed with a natural talent for mechanical devices and mining, they spend their days nursing grudges and hatreds instead of celebrating their own gifts. Kobold tactics specialize in traps and ambushes, but kobolds enjoy anything that allows them to harm others without putting themselves at risk. Often, they seek to capture rather than to kill, taking out their frustrations on the helpless victims they drag back to their claustrophobic lairs. </p>
+<p><b>Physical Description</b>: Kobolds are small, bipedal reptilian humanoids. Most stand around 3 feet tall and weigh about 35 pounds. They have powerful jaws for creatures of their size and noticeable claws on their hands and feet. Often kobolds' faces are curiously devoid of expression, as they favor showing their emotions by simply swishing their tails. Kobolds' thick hides vary in color, and most have scales that match the hue of one of the varieties of chromatic dragons, with red scales being predominant. A few kobolds, however, have more exotic colors such as orange or yellow, which in some tribes raises or lowers an individual's status in the eyes of his fellows. </p>
+<p><b>Society</b>: Kobolds thrive in cramped quarters far from the light of the sun. Most live in vast warrens deep beneath the earth, but a few instead prefer to make their homes beneath tangles of overgrown trees and brush. Saving their malice for other races, most kobolds get along well with their own kind. While squabbles and feuds do occur, the elders who rule kobold communities tend to settle such conflicts swiftly. Kobolds delight in taking slaves, relishing the chance to torment and humiliate them. They are also cowardly and practical, and often end up bowing to more powerful beings. If these creatures are of another humanoid race, kobolds often scheme to free themselves from subjugation as soon as possible. If the overlord is a powerful draconic or monstrous creature, however, kobolds see no shame in submission, and often shower adoration on their new leader. This is especially true if the kobolds serve a true dragon, who they tend to worship outright. </p>
+<p><b>Relations</b>: Kobolds often seethe with hatred and jealousy, but their innate caution ensures that they only act on these impulses when they have the upper hand. If unable to safely indulge their urge to physically harm and degrade members of other races, they resort to careful insults and "practical jokes" instead. </p>
+<p>They consider both dwarves and elves to be deadly rivals. Kobolds fear the brute power of half-orcs and resent humans for the dominant status that race enjoys. They believe half-elves blend the best qualities of both parent races, which strikes kobolds as fundamentally unfair. Kobolds believe halflings, small in stature, make wonderful slaves and targets for kobold rage and practical jokes. When the gnomes first arrived in the mortal realm, kobolds saw them as perfect victims. This sparked waves of retaliation and reprisal that have echoed on down through the centuries and earned the kobolds' permanent enmity.</p>
+<p><b>Alignment and Religion</b>: Kobolds readily knuckle under to superior force but rarely stop scheming to gain an edge over their oppressors. Most kobolds are lawful evil, though some, more concerned with procedure than their own personal advantage, become lawful neutral instead. In addition to these deities, kobolds, supremely opportunistic, also sometimes worship nearby monsters as a way of placating them or earning their favor. </p>
+<p><b>Adventurers</b>: Kobolds rarely leave their cozy warrens by their own choice. Most of those who set out on adventures are the last of their tribe, and such individuals often settle down again as soon as they find another kobold community willing to take them in. Kobolds who cannot rein in, or at least conceal, their spiteful and malicious natures have great difficulty surviving in the larger world. </p>
+<p><b>Male Names</b>: Draahzin, Eadoo, Ipmeerk, Jamada, Kib, Makroo, Olp, Yraalik, Zornesk. </p>
+<p><b>Female Names</b>: Adriaak, Harkail, Neeral, Ozula, Poro, Saassraa, Tarka. </p>
+
+<h1 id="kobold-racial-traits">Kobold Racial Traits</h1>
+<p><b>+2 Dexterity, &ndash;4 Strength, &ndash;2 Constitution</b>: Kobolds are fast but weak.</p>
+<p id="reptilian"><b>Reptilian</b>: Kobolds are humanoids with the reptilian subtype.</p>
+<p id="small"><b>Small</b>: Kobolds are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a &ndash;1 penalty on their combat maneuver checks and to Combat Maneuver Defense, and a +4 size bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks.</p>
+<p id="normal-speed"><b>Normal Speed</b>: Kobolds have a base speed of 30 feet.</p>
+<p id="darkvision"><b>Darkvision</b>: Kobolds can see in the dark up to 60 feet.</p>
+<p id="armor"><b>Armor</b>: Kobolds have a +1 natural armor bonus.</p>
+<p id="crafty"><b>Crafty</b>: Kobolds gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (trapmaking), <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>, and <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (miner) checks. <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (traps) and <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> are always class skills for a kobold.</p>
+<p id="weakness"><b>Weakness</b>: Light sensitivity.</p>
+<p id="languages"><b>Languages</b>: Kobolds begin play speaking only Draconic. Kobolds with high Intelligence scores can choose from the following: Common, Dwarven, Gnome, and Undercommon.</p>
+
+<h1 id="alternate-racial-traits">Alternate Racial Traits</h1>
+<p>The following racial traits may be selected instead of existing kobold racial traits. Consult your GM before selecting any of these new options.</p>
+<p id="beast-bond"><b>Beast Bond</b>: Some kobolds have a talent for training animals and beasts to help them both on and off the battlefield. Kobolds with this racial trait gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> and <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> checks. <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> and <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> are always class skills for them. This racial trait replaces crafty.</p>
+<p id="dragon-scaled"><b>Dragon-Scaled</b>: Some kobolds are hatched with scales of such vivid color that their connection to a particular sort of chromatic dragon seems undeniable. Whether this coloration is just a quirk of a stray egg or a trait shared by all the members of a tribe, these kobolds gain a resistance that makes them especially suited to work alongside dragons matching the color of the kobold's scales. Black-scaled and green-scaled kobolds with this racial trait gain acid resistance 5. Blue-scaled kobolds with this racial trait gain electricity resistance 5. Red-scaled kobolds with this racial trait gain fire resistance 5. White-scaled kobolds with this racial trait gain cold resistance 5. This racial trait replaces the armor racial trait.</p>
+<p id="gliding-wings"><b>Gliding Wings</b>: Some kobolds are born with wings that, while too weak for actual flying, do allow them to fall at a very slow and safe pace. A kobold with wings can use them to glide. It can make a DC 15 <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> check to fall safely from any height without taking falling damage, as if using <i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall" >feather fall</a></i>. When falling safely, it may make an additional DC 15 <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> check to glide, moving 5 feet laterally for every 20 feet it falls. This racial trait replaces crafty.</p>
+<p id="jester"><b>Jester</b>: Some kobolds swallow their pride and survive by groveling, placating, and amusing the powerful. Kobolds with this racial trait gain a +2 racial bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> and <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> checks. <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> and <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> are always class skills for them. This racial trait replaces crafty.</p>
+
+<h1 id="favored-class-options">Favored Class Options</h1>
+<p>The following options are available to all kobolds who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.</p>
+<p id="alchemist"><b>Alchemist</b>: Add +1/2 to the number of bombs per day the alchemist can create. </p>
+<p id="bard"><b>Bard</b>: Treat the bard's level as +1/2 level higher for the purpose of determining the effect of the fascinate bardic performance.</p>
+<p id="cavalier"><b>Cavalier</b>: Add 5 feet (up to 15 feet maximum) to the cavalier's mount's speed when it uses the charge or withdraw action. </p>
+<p id="cleric"><b>Cleric</b>: Add +1 to channel energy damage dealt to creatures denied their Dexterity bonus to AC (whether or not the creature has a Dexterity bonus to AC).</p>
+<p id="druid"><b>Druid</b>: Add +1/2 to the druid's wild empathy bonus.</p>
+<p id="fighter"><b>Fighter</b>: Add +1/2 to damage rolls the fighter makes with weapon attacks against an opponent he is flanking or an opponent that is denied its Dexterity bonus to AC.</p>
+<p id="gunslinger"><b>Gunslinger</b>: Add +1/4 to the dodge bonus to AC granted by the nimble class feature (maximum +4).</p>
+<p id="magus"><b>Magus</b>: Add a +1/2 bonus on concentration checks made to cast defensively.</p>
+<p id="monk"><b>Monk</b>: Add +1/3 to the monk's AC bonus class ability.</p>
+<p id="oracle"><b>Oracle</b>: Add +1/4 to the armor or natural armor bonus granted by oracle spells she casts on herself.</p>
+<p id="ranger"><b>Ranger</b>: Add +1/4 to the number of opponents the ranger may select when using hunter's bond to grant a bonus to allies. All selected creatures must be of the same type.</p>
+<p id="rogue"><b>Rogue</b>: Add +1/2 to the rogue's trap sense bonus to AC.</p>
+<p id="sorcerer"><b>Sorcerer</b>: Choose acid, cold, electricity, or fire damage. Add +1/2 point of the chosen energy damage to spells that deal the chosen energy damage cast by the sorcerer.</p>
+<p id="summoner"><b>Summoner</b>: Add +1/4 to the summoner's shield ally bonus (maximum +2).</p>
+<p id="witch"><b>Witch</b>: Add +5 feet to the distance at which her familiar grants the <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a> feat (maximum +20 feet).</p>
+
+<h1 id="racial-archetypes-&-bloodlines">Racial Archetypes &amp; Bloodlines</h1>
+<p>The following racial archetype and racial bloodline are available to kobolds. </p>
+
+<h2 id="bushwhacker-(gunslinger)">Bushwhacker (Gunslinger)</h2>
+<p>The bushwhacker specializes in the art of the ambush. For her, gunplay works best when it comes from a concealed position and is directed against a target that falls with the very first volley and is dead before the smoke clears. A bushwhacker has the following class features. </p>
+<p id="trembling-grit"><b>Trembling Grit (Ex)</b>: At 1st level, at the start of each day, a bushwhacker gains grit points equal to her Wisdom modifier &ndash; 1 (minimum of 1). In addition to all the ways any gunslinger can regain grit, a bushwhacker who reduces a helpless or unaware opponent to 0 hit points or fewer also regains 1 grit point. This expands the way in which the bushwhacker gains grit points, so a bushwhacker who gains grit points in this way only gains 1 grit point for reducing a helpless or unaware opponent, not 2 grit points. This otherwise works like the gunslinger's grit ability and alters that ability.</p>
+<p id="craven-deeds"><b>Craven Deeds (Ex)</b>: A bushwhacker replaces some of her deeds with the following deeds. This ability otherwise works like the gunslinger's deed ability and alters that ability.</p>
+<blockquote>
+<p id="shifty-shot"><i>Shifty Shot (Ex)</i>: At 3rd level, a bushwhacker with at least 1 grit point deals 1d6 points of extra damage when using her firearm to attack opponents denied their Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not). Except for the requirement that she must use a firearm and must have at least 1 grit point to use it, this deed otherwise works identically to a rogue's sneak attack class feature (including the requirement that she must be within 30 feet of her target to deal this extra damage), and stacks with the sneak shot ability (see below) and sneak attack. This deed replaces the utility shot deed.</p>
+<p id="long-range-shifty-shot"><i>Long Range Shifty Shot (Ex)</i>: At 7th level, a bushwhacker can double the range at which she deals extra damage from a sneak attack or shifty shot (from 30 feet to 60 feet) with a firearm by spending 1 grit point. When she spends this grit point, she must still have at least 1 grit point left to deal extra damage from shifty shot if she is using this deed. This deed replaces the targeting deed.</p>
+</blockquote>
+<p id="sneak-shot"><b>Sneak Shot (Ex)</b>: At 4th level and every four levels thereafter, a bushwhacker deals 1d6 points of extra damage when using a firearm to attack opponents who are unable to properly defend themselves. Unlike with the shifty shot ability, she deals this extra damage regardless of whether or not she has any grit points when making the attack. Except for the requirement that she makes a firearm attack, this works identically to a rogue's sneak attack class feature. This extra damage stacks with sneak attack and the damage from shifty shot. This ability replaces the bonus feats the gunslinger gains at 4th, 8th, 12th, 16th, and 20th level.</p>
+
+<h2 id="kobold-sorcerer-bloodline">Kobold Sorcerer Bloodline</h2>
+<p>While many kobold sorcerers tout their purely draconic bloodline, over generations of eldritch training, some such spellcasters have created a bloodline that, while tinged with some draconic magic, is the embodiment of the race's virtue distilled into arcane form. Many practitioners of this bloodline go on to lead powerful kobold tribes.</p>
+<p id="class-skill"><b>Class Skill</b>: <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a>.</p>
+<p id="bonus-spells"><b>Bonus Spells</b>: <i><a href="/pathfinderRPG/prd/spells/alarm.html#_alarm" >alarm</a></i> (3rd), <i><a href="/pathfinderRPG/prd/advanced/spells/createPit.html#_create-pit-" >create pit</a> </i>(5th), <i><a href="/pathfinderRPG/prd/spells/explosiveRunes.html#_explosive-runes" >explosive runes</a></i> (7th), <i><a href="/pathfinderRPG/prd/advanced/spells/dragonSBreath.html#_dragon's-breath" >dragon's breath</a></i> (9th), <i><a href="/pathfinderRPG/prd/spells/transmuteRockToMud.html#_transmute-rock-to-mud" >transmute rock to mud</a> </i>(11th), <i><a href="/pathfinderRPG/prd/spells/guardsAndWards.html#_guards-and-wards" >guards and wards</a></i> (13th), <i><a href="/pathfinderRPG/prd/spells/delayedBlastFireball.html#_delayed-blast-fireball" >delayed blast fireball</a></i> (15th), <i><a href="/pathfinderRPG/prd/spells/formOfTheDragon.html#_form-of-the-dragon-iii" >form of the dragon III</a></i> (17th), <i><a href="/pathfinderRPG/prd/spells/imprisonment.html#_imprisonment" >imprisonment</a></i> (19th).</p>
+<p id="bonus-feats"><b>Bonus Feats</b>: <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_defensive-combat-training" >Defensive Combat Training</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_silent-spell" >Silent Spell</a>.</p>
+<p id="bloodline-arcana"><b>Bloodline Arcana</b>: Whenever you cast a spell against a creature that is denied its Dexterity bonus to AC, increase that spell's DC by +2.</p>
+<p id="bloodline-powers"><b>Bloodline Powers</b>: Like all kobolds, you have a natural talent for ambushing, creating traps, and mining. As your power increases, you discover ever more useful ways to blend your magic with these instinctive talents.</p>
+<blockquote>
+<p id="trap-rune"><i>Trap Rune (Sp)</i>: At 1st level, as a standard action, you can sketch a single, nearly invisible magical rune on any 5-foot-square solid surface. When you create a rune, pick one of the following energy types: acid, cold, electricity, or fire. While the rune is active, the next creature other than you who steps on or touches the rune's area causes the rune to explode. The rune's explosion deals a number of points of energy damage equal to 1d8 + 1 per sorcerer level you possess to anything in its square. A Reflex saving throw halves the damage (DC 10 + 1/2 your sorcerer level + your Charisma modifier). The rune is considered a magical trap for the purpose of perceiving it or disabling it. The DC for both <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> checks is the same as the Reflex saving throw to halve the damage. You can use this ability a number of times per day equal to 3 + your Charisma modifier. Each rune lasts for 24 hours or until discharged.</p>
+<p id="trap-sense-(ex):"><i>Trap Sense (Ex):</i> At 3rd level, you develop a sixth sense that helps you avoid traps. You gain a +2 bonus on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks made to notice traps. You also gain a +1 bonus on Reflex saves to avoid traps and a +1 dodge bonus to AC against attacks made by traps. These bonuses increase by +1 at 7th level and for every four sorcerer levels you gain thereafter (to a maximum of +5 at 19th level). This bonus stacks with that provided by a rogue's trap sense and similar abilities.</p>
+<p id="arcane-ambush"><i>Arcane Ambush (Su)</i>: At 9th level, as a swift action, you can expend a spell slot in order to grant you and your allies a bonus on attack and damage rolls. This bonus lasts 1 round, is equal to the level of the spell expended, and only applies to opponents your allies are flanking or opponents denied their Dexterity bonus against your allies. You grant this bonus to yourself plus up to one ally for every four sorcerer levels you possess (to a maximum of five allies at 20th level). The allies must be within 30 feet of you and you must have line of effect to each affected ally.</p>
+<p id="earth-glide"><i>Earth <a href="/pathfinderRPG/prd/advanced/spells/glide.html#_glide-" >Glide</a> (Su)</i>: At 15th level, you gain the earth glide universal monster ability  with a speed equal to your base speed. This does not give you the ability to breathe while passing through earth, so you must hold your breath or use some alternate method to breathe while using this ability.</p>
+<p id="nimble-walker"><i>Nimble Walker (Su)</i>: At 20th level, you gain a +5 racial bonus on Reflex saving throws and on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> checks made to move through a creature's threatened area or through its space. You also gain the ability to breathe while passing through earth using your earth glide ability.</p>
+</blockquote>
+
+<h1 id="new-racial-rules">New Racial Rules</h1>
+<p>The following options are available to kobolds. At the GM's discretion, other appropriate races may make use of some of these new rules.</p>
+
+<h2 id="kobold-equipment">Kobold Equipment</h2>
+<p>Kobolds have access to the following equipment.</p>
+<p id="alchemical-coal"><b>Alchemical Coal</b>: A kobold who chews and swallows this alchemically treated piece of coal (a full-round action) can make one breath weapon attack during the next minute. If the kobold fails to make a breath attack before this minute expires, it is sickened for 1 hour. Other humanoid creatures that eat alchemical coal are sickened for 1 hour (though certain other creatures may be able to use them, at the GM's discretion). Creatures that are immune to poison are immune to the sickened effect. The type of breath weapon depends on the type of alchemical coal that is chewed by the kobold.</p>
+<blockquote>
+<p id="blinding-cinders"><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-blinding" >Blinding</a> Cinders</i>: This jagged bit of dusty red coal allows a kobold to breathe a 30-foot line of coarse cinders. The breath weapon deals 1d6 points of fire damage and blinds creatures in the area for 1 round. A creature that succeeds at a DC 15 Reflex saving throw takes half damage and is not blinded.</p>
+<p id="choking-smoke"><i>Choking Smoke</i>: This crumbling chunk of chalky white coal allows a kobold to breathe a 15-foot cone of foul vapor that deals 1d6 points of acid damage and sickens a creature for 1d4 rounds. A creature that succeeds at a DC 15 Reflex saving throw takes half damage and is not sickened. </p>
+</blockquote>
+<p id="cave-whistle"><b>Cave Whistle</b>: Fashioned from the spongy stem of a rare mushroom, this whistle produces a sound that only kobolds and dragons can hear. Kobolds often create complicated codes made up of notes that they use to coordinate ambushes and raids. </p>
+<p id="kobold-tail-attachments"><b>Kobold Tail Attachments</b>: A kobold with the Tail Terror feat (see below) can slip this device over the tip of his tail to augment his natural attack. Each tail attachment provides just enough weight, balance, and striking power to increase the damage of his tail slap. It takes a full-round action to slip on a kobold tail attachment, and the kobold gains a +4 bonus against disarm attempts made to remove his tail attachment. </p>
+<p>While a kobold is wearing a kobold tail attachment, the attack deals the tail attachment damage, and some attachments gain a special feature. Tail attachments are light weapons and can be improved by feats that can improve weapon attacks (such as <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> and Weapon Specialization). All kobold tail attachments make up a kobold tail attachment weapon group that can be improved by the fighter's weapon training class ability. Tail attachments can be constructed of special material and made into masterwork or magic items. There are five types of common tail attachments. </p>
+<blockquote>
+<p id="long-lash"><i>Long Lash</i>: This slender cord has tiny bits of glass and stone embedded in its length.</p>
+<p id="pounder"><i>Pounder</i>: This squat ball is made from some sort of dull metal. </p>
+<p id="razored"><i>Razored</i>: This metal wedge has a prickly edge on one of its sides. </p>
+<p id="spiked"><i>Spiked</i>: This narrow spike tapers to a sharp point. </p>
+<p id="sweeper"><i>Sweeper</i>: When properly used, this sharply curved piece of metal can knock opponents off their feet. Unlike most trip weapons, you cannot drop it if you are tripped during your own trip attempt.</p>
+</blockquote>
+
+<table><caption>Kobold Equipment</caption>
+<thead><tr><th>Item</th><th>Cost</th><th>Weight</th><th>Craft DC</th></tr></thead>
+<tr class="odd"><td>Alchemical coal (blinding cinders)</td><td>100 gp</td><td>&mdash;</td><td>25</td></tr>
+<tr class="even"><td>Alchemical coal (choking smoke)</td><td>50 gp</td><td>&mdash;</td><td>20</td></tr>
+<tr class="odd"><td>Cave whistle</td><td>20 gp</td><td>&mdash;</td><td>&mdash;</td></tr></table>
+
+<table id="kobold-tail-attachments"><caption>Kobold Tail Attachments</caption>
+<thead><tr><th>Weapon</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Crit</th><th>Range</th><th>Weight</th><th>Type</th><th>Special</th></tr></thead>
+<tr class="odd"><td colspan="9"><i>Light Melee Weapons</i></td></tr>
+<tr class="even"><td>Long lash</td><td>15 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>&mdash;</td><td>1 lb.</td><td>S</td><td>reach</td></tr>
+<tr class="odd"><td>Pounder</td><td>1 gp</td><td>1d6</td><td>1d8</td><td>&times;2</td><td>&mdash;</td><td>4 lbs.</td><td>B</td><td>&mdash;</td></tr>
+<tr class="even"><td>Razored</td><td>3 gp</td><td>1d6</td><td>1d8</td><td>19&ndash;20/&times;2</td><td>&mdash;</td><td>2 lbs.</td><td>S</td><td>&mdash;</td></tr>
+<tr class="odd"><td>Spiked</td><td>3 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>&mdash;</td><td>2 lbs.</td><td>P</td><td>&mdash;</td></tr>
+<tr class="even"><td>Sweeper</td><td>7 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>&mdash;</td><td>3 lbs.</td><td>B</td><td>trip</td></tr></table>
+
+<h2 id="kobold-feats">Kobold Feats</h2>
+<p>Kobolds have access to the following feats.</p>
+<div class="feats-text">
+<h3 id="draconic-aspect">Draconic Aspect</h3>
+<p>You possess some of the qualities of your dragon ancestors.</p>
+<p class="stat-block-1"><b>Prerequisite</b>: Kobold.</p>
+<p class="stat-block-1"><b>Benefit</b>: Your scales take on the color and some of the resistances of one of the chromatic dragons. Choose one of the following chromatic dragon types: black (acid), blue (electricity), green (acid), red (fire), or white (cold). Your scales take on the color of that dragon, and you gain resistance 5 to the dragon color's corresponding energy type.</p>
+<p class="stat-block-1"><b>Special</b>: If you have the dragon-scaled racial trait, your scale color does not change and you gain a +1 natural armor bonus instead.</p>
+
+<h3 id="draconic-breath">Draconic Breath</h3>
+<p>You possess draconic defenses and a draconic breath weapon. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Draconic Aspect, kobold.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a +2 bonus against sleep and paralysis effects. You gain a breath weapon that is determined by your scale coloration by either the Draconic Aspect feat or the dragon-scaled racial trait. Using a breath weapon is a standard action that does not provoke attacks of opportunity. You can use your breath weapon once per day. Creatures within the area of your breath weapon who succeed at a Reflex saving throw (DC 10 + your character level + your Constitution modifier) take only half damage. </p>
+<blockquote>
+<p id="black"><i>Black (Su)</i>: You breathe a 30-foot line of acid that deals 2d6 points of acid damage.</p>
+<p id="blue"><i>Blue (Su)</i>: You breathe a 30-foot line of electricity that deals 2d6 points of electricity damage. </p>
+<p id="green"><i>Green (Su)</i>: You breathe a 15-foot cone of acid that deals 2d6 points of acid damage. </p>
+<p id="red"><i>Red (Su)</i>: You breathe a 15-foot cone of fire that deals 2d6 points of fire damage. </p>
+<p id="white"><i>White (Su)</i>: You breathe a 15-foot cone of cold that deals 2d6 points of cold damage.</p>
+</blockquote>
+<p class="stat-block-1"><b>Special</b>: Kobold sorcerers with either the Draconic or Kobold bloodline can use their Charisma modifier instead of their Constitution to determine the number of times per day they can use this breath weapon and the DC of this breath weapon.</p>
+
+<h3 id="draconic-glide">Draconic Glide</h3>
+<p>You possess draconic defenses and wings that allow you to glide. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Draconic Aspect, kobold.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain a +2 bonus against sleep and paralysis effects. You grow a pair of wings that you can use to fall and glide at a safe pace. You can make a DC 15 <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> check to fall safely from any height without taking falling damage, as if using <i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall" >feather fall</a></i>. When falling safely, you may make an additional DC 15 <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> check to glide, moving 5 feet laterally for every 20 feet you fall.</p>
+<p class="stat-block-1"><b>Special</b>: If you have the gliding wings racial trait, instead of the above abilities, your base speed increases to 30 feet.</p>
+
+<h3 id="draconic-paragon">Draconic Paragon</h3>
+<p>You can shrug off sleep and paralysis effects as well as any dragon, and your draconic aspects improve. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Draconic Aspect, either Draconic Breath or Draconic Glide, character level 10th, kobold.</p>
+<p class="stat-block-1"><b>Benefit</b>: You gain an additional +2 bonus against sleep and paralysis effects. You can use your breath weapon twice per day and your breath weapon damage increases to 4d6 points of energy damage. Your wings from the Draconic Glide feat grow stronger, granting you a fly speed of 20 feet (average maneuverability).</p>
+
+<h3 id="kobold-ambusher-(combat)">Kobold Ambusher (Combat)</h3>
+<p>You are adept at moving fast and staying hidden. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> 4 ranks, kobold. </p>
+<p class="stat-block-1"><b>Benefit</b>: You take no penalty on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks when you move up to your full speed. You can use the run or charge action and remain hidden, taking a &ndash;10 penalty on the check to do so.</p>
+<p class="stat-block-1"><b>Normal</b>: When moving greater than half speed up to your full speed, you take a &ndash;5 penalty on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks. When you are able to run or charge while using <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a>, you take a &ndash;20 penalty on the <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> check.</p>
+
+<h3 id="kobold-sniper-(combat)">Kobold Sniper (Combat)</h3>
+<p>You snipe quickly, making it harder for others to find the location of your attack. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> 1 rank, kobold. </p>
+<p class="stat-block-1"><b>Benefit</b>: When you are sniping, you only take a &ndash;10 penalty on your <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks to stay hidden. </p>
+<p class="stat-block-1"><b>Normal</b>: You take a &ndash;20 penalty on your <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> check to maintain your obscured location while sniping.</p>
+
+<h3 id="tail-terror-(combat)">Tail Terror (Combat)</h3>
+<p>You have strengthened your tail enough to make slap attacks with it. </p>
+<p class="stat-block-1"><b>Prerequisites</b>: Base attack bonus +1, kobold. </p>
+<p class="stat-block-1"><b>Benefit</b>: You can make a tail slap attack with your tail. This is a secondary natural attack that deals 1d4 points of bludgeoning damage. Furthermore, you can augment your tail slap attack with a kobold tail attachment. For the purpose of weapon feats, you are considered proficient with all kobold tail attachments.</p>
+</div>
+
+<h2 id="kobold-magic-items">Kobold Magic Items</h2>
+<p>Kobolds have access to the following magic items.</p>
+<p id="rubble-gloves" class="stat-block-title">Rubble Gloves</p>
+<p class="stat-block-1"><b>Aura</b> faint transmutation; <b>CL</b> 5th</p>
+<p class="stat-block-1"><b>Slot</b> hands; <b>Price</b> 8,000 gp; <b>Weight</b> 1 lb.</p>
+<p class="stat-block-breaker">Description</p>
+<p>These gloves are made of a fine metal mesh. If a creature wearing rubble gloves touches a 5-foot square of stone or earth floor, rubble roils to the surface, making the square difficult terrain. Using the gloves is a standard action that does not provoke attacks of opportunity. The wearer can use the gloves to create up to 20 squares of difficult terrain per day. </p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/advanced/spells/expeditiousExcavation.html#_expeditious-excavation" >expeditious excavation</a></i>; <b>Cost</b> 4,000 gp</p>
+<p id="trapmaker's-sack" class="stat-block-title">Trapmaker's Sack</p>
+<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 9th</p>
+<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 20,000 gp; <b>Weight</b> 2 lbs.</p>
+<p class="stat-block-breaker">Description</p>
+<p>This heavy leather bag bulges only slightly but upon closer inspection appears to be chocked full of knives, gears, picks, shovels, and arrows. Once per day as a full-round action, the bearer can command the sack to create any mechanical trap of CR 4 or less (<i>Core Rulebook </i>420&ndash;422), which appears at a designated spot within 50 feet. The bearer must make a <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (traps) check with a DC equal to the normal DC for creating the trap . If successful, the trap instantly merges with the chosen area, exactly as if someone had actually built the trap in that spot. If the check fails, no trap appears. The sack can alter earth, stone, and wood to accommodate the trap without altering nearby terrain (including doors, pits, and so on).</p>
+<p class="stat-block-breaker">Construction</p>
+<p class="stat-block-1"><b>Requirements </b><a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <i><a href="/pathfinderRPG/prd/spells/fabricate.html#_fabricate" >fabricate</a></i>, creator must have 5 ranks in <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (traps); <b>Cost</b> 10,000 gp</p>
+
+<h2 id="kobold-spells">Kobold Spells</h2>
+<p>Kobolds have access to the following spell. </p>
+<p id="improve-trap" class="stat-block-title">Improve Trap</p>
+<p class="stat-block-1"><b>School</b> transmutation; <b>Level</b> antipaladin 2, druid 3, inquisitor 3, ranger 2, sorcerer/wizard 3, witch 3</p>
+<p class="stat-block-1"><b>Casting Time</b> 1 minute</p>
+<p class="stat-block-1"><b>Components</b> V, S</p>
+<p class="stat-block-1"><b>Range</b> close (25 ft. + 5 ft./2 levels)</p>
+<p class="stat-block-1"><b>Target</b> one trap</p>
+<p class="stat-block-1"><b>Duration</b> instantaneous</p>
+<p class="stat-block-1"><b>Saving Throw </b>Will negates (object); <b>Spell Resistance</b> yes  (object)</p>
+<p>When this spell is cast upon a trap, it improves one specific element of the trap chosen at the time of casting. The caster can improve the trap in any of the following ways (each one raises the trap's CR by +1). </p>
+<ul><li>Increase DC of the <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> check required to locate the trap by +5.</li>
+<li>Increase DC of the <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> check required to disarm trap by +5.</li>
+<li>Increase the trap's attack bonus or saving throw by +2.</li></ul>
+<p>To cast this on a trap, you must know that the trap exists and its precise location. A trap can only have one improvement from this spell at a time. A second casting changes the improvement on the trap, but does not add another improvement.</p>
+
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Barbarians</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Barbarians",globalNavPath=[{ href: '/pathfinderRPG/prd/npcCodex/core/index.html', name: 'Core Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="barbarians">Barbarians</h1>
+
+<p id="savage-mercenary" class="stat-block-title">Savage Mercenary <span class="stat-block-cr">CR 1/2</span></p>
+<p class="stat-block-1"><b>XP</b> 200</p>
+<p class="stat-block-1"><b>Human barbarian</b> 1</p>
+
+<p class="stat-block-1">CN Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +5</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 15, touch 9, flat-footed 14 (+6 armor, +1 Dex, –2 rage)</p>
+<p class="stat-block-1"><b>hp</b> 17 (1d12+5)</p>
+<p class="stat-block-1"><b>Fort</b> +6, <b>Ref</b> +1, <b>Will</b> +3</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> greatsword +6 (2d6+7/19–20) orheavy flail +6 (1d10+7/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> rage (6 rounds/day)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian favors her greatsword and <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a> when fighting monsters, but uses her flail against weapon-using foes to make disarm and trip combat maneuvers.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 17, touch 11, flat-footed 16; <b>hp</b> 15; <b>Fort</b> +4, <b>Will</b>+1; <b>Melee</b> greatsword +4 (2d6+4/19–20) or heavy flail +4 (1d10+4/19–20); <b>Ranged</b> sling +2 (1d4+3); <b>Str</b> 17, <b>Con</b> 14; <b>CMB</b> +4; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +3, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +3.</p>
+<p class="stat-block-breaker">statistics</p>
+<p class="stat-block-1"><b>Str</b> 21, <b>Dex</b> 13, <b>Con</b> 18, <b>Int</b> 10, <b>Wis</b> 12, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +1; <b>CMB</b> +6; <b>CMD</b> 15</p>
+<p class="stat-block-1"><b>Feats</b> Cleave, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +4, Perception +5, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +5, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> fast movement</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/removeFear.html#_remove-fear" >remove fear</a></i>, alchemist's fire; <b>Other Gear</b> breastplate, greatsword, heavy flail, sling with 10 bullets, 5 gp</p>
+<p>This cold, merciless barbarian fights for gold and glory.</p>
+<h3>Arjana</h3>
+<p>This mercenary once roamed the wilderness, but now fights to pay for the comforts of civilization.</p>
+
+<p id="dwarven-rager" class="stat-block-title">Dwarven Rager <span class="stat-block-cr">CR 1</span></p>
+<p class="stat-block-1"><b>XP</b> 400</p>
+<p class="stat-block-1"><b>Dwarf barbarian</b> 2</p>
+
+<p class="stat-block-1">CN Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> Perception +7</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 18, touch 10, flat-footed 16 (+6 armor, +2 Dex, –2 rage, +2 shield)</p>
+<p class="stat-block-1"><b>hp</b> 28 (2d12+10)</p>
+<p class="stat-block-1"><b>Fort</b> +7, <b>Ref</b> +2, <b>Will</b> +4; +2 vs. poison, spells, and spell-like abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants), uncanny dodge</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk dwarven waraxe +7 (1d10+4/×3) ormwk dwarven waraxe +5 (1d10+4/×3), armor spikes +4 (1d6+2) orspiked heavy steel shield +4 (1d8+4)</p>
+<p class="stat-block-1"><b>Ranged</b> throwing axe +4 (1d6+4)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids, rage (8 rounds/day), rage powers (knockback)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian uses his shield primarily for defense.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 20, touch 12, flat-footed 18; <b>hp</b> 24; <b>Fort</b> +5, <b>Will</b>+2; <b>Melee</b> mwk dwarven waraxe +5 (1d10+2/×3) or mwk dwarven waraxe +3 (1d10+2/×3), armor spikes +2 (1d6+1) or spiked heavy shield +2 (1d8+2); <b>Ranged</b> throwing axe +4 (1d6+2); <b>Str</b> 14, <b>Con</b> 15; <b>CMB</b> +4; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +1.</p>
+<p class="stat-block-breaker">statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 15, <b>Con</b> 19, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 6</p>
+<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> +6; <b>CMD</b> 16 (20 vs. bull rush or trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +3, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering, engineering) +2, Perception +7 (+9 to notice unusual stonework), <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +6</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven</p>
+<p class="stat-block-1"><b>SQ</b> fast movement</p>
+<p class="stat-block-1"><b>Combat Gear</b> acid; <b>Other Gear</b> masterwork breastplate with armor spikes, spiked heavy steel shield, masterwork dwarven waraxe, throwing axe, 2 gp</p>
+<p>The most adventurous, thrill-seeking, and foolhardy dwarves can go a little mad, roaming the land in their search for blood and battle.</p>
+
+<p id="axe-warrior" class="stat-block-title">Axe Warrior <span class="stat-block-cr">CR 2</span></p>
+<p class="stat-block-1"><b>XP</b> 600</p>
+<p class="stat-block-1"><b>Half-orc barbarian</b> 3</p>
+
+<p class="stat-block-1">CE Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> darkvision 60 ft.; Perception +6</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 15, touch 9, flat-footed 14 (+6 armor, +1 Dex, –2 rage)</p>
+<p class="stat-block-1"><b>hp</b> 40 (3d12+15)</p>
+<p class="stat-block-1"><b>Fort</b> +7, <b>Ref</b> +2, <b>Will</b> +3</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> orc ferocity, trap sense +1, uncanny dodge</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk greataxe +9 (1d12+7/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk sling +5 (1d4+5)</p>
+<p class="stat-block-1"><b>Special Attacks</b> rage (10 rounds/day), rage powers (intimidating glare)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian uses intimidating glare each round, attacking first, then focusing her glare upon the uninjured.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 17, touch 11, flat-footed 16; <b>hp</b> 34; <b>Fort</b> +5, <b>Will</b>+1; <b>Melee</b> mwk greataxe +7 (1d12+4/×3); <b>Ranged</b> mwk sling +5 (1d4+3); <b>Str</b> 17, <b>Con</b> 14; <b>CMB</b> +6; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +5, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +12, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +3.</p>
+<p class="stat-block-breaker">statistics</p>
+<p class="stat-block-1"><b>Str</b> 21, <b>Dex</b> 13, <b>Con</b> 18, <b>Int</b> 8, <b>Wis</b> 10, <b>Cha</b> 12</p>
+<p class="stat-block-1"><b>Base Atk</b> +3; <b>CMB</b> +8; <b>CMD</b> 17</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_intimidating-prowess" >Intimidating Prowess</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +7, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +14, Perception +6, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +4, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common, Orc</p>
+<p class="stat-block-1"><b>SQ</b> fast movement, orc blood, weapon familiarity</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good" >protection from good</a></i>; <b>Other Gear</b> mwk chainmail, mwk greataxe, mwk sling with 10 bullets, climber's kit, 250 gp</p>
+
+
+<p id="dog-rider" class="stat-block-title">Dog Rider <span class="stat-block-cr">CR 3</span></p>
+<p class="stat-block-1"><b>XP</b> 800</p>
+<p class="stat-block-1"><b>Halfling barbarian</b> 4</p>
+
+<p class="stat-block-1">N Small humanoid (halfling)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> Perception +10</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 18, touch 12, flat-footed 15 (+5 armor, +3 Dex, –2 rage, +1 shield, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 43 (4d12+12)</p>
+<p class="stat-block-1"><b>Fort</b> +8, <b>Ref</b> +5, <b>Will</b> +5; +3 vs. spells and spell-like or supernatural abilities, +2 vs. fear</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> trap sense +1, uncanny dodge</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> lance +9 (1d6+4/×3)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 halfling sling staff</i> +10 (1d6+5/×3)</p>
+<p class="stat-block-1"><b>Space </b>5 ft.; <b>Reach</b> 5 ft. (10 ft. with lance)</p>
+<p class="stat-block-1"><b>Special Attacks</b> rage (11 rounds/day), rage powers (superstition +3, surprise accuracy +2)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The barbarian applies <i>oil of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian keeps his distance, pelting enemies with bullets. If ranged attacks fail, he charges with his lance.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging and without <i><a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i>, the barbarian's statistics are <b>AC</b> 20, touch 14, flat-footed 17; <b>hp</b> 35; <b>Fort</b> +6, <b>Will</b>+3; <span class="char-style-override-10">Meleelance +7 (1d6+2/×3); <b>Ranged</b> mwk halflingsling staff +10 (1d6+2/×3); <b>Str</b> 14, <b>Con</b> 13; <b>CMB</b> +5; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +9, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5.</p>
+<p class="stat-block-breaker">statistics</p>
+<p class="stat-block-1"><b>Str</b> 18, <b>Dex</b> 16, <b>Con</b> 17, <b>Int</b> 10, <b>Wis</b> 12, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +4; <b>CMB</b> +7; <b>CMD</b> 18</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (halfling sling staff)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +11, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +6, Perception +10, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +9, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +10, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +5</p>
+<p class="stat-block-1"><b>SQ</b> fast movement</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>oils of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a> </i>(2); <b>Other Gear</b><i>+1 chain shirt</i>, masterwork buckler, lance, masterwork halfling sling staff with 20 bullets, riding dog with riding saddle and leather barding, 55 gp</p>
+<p>Small and adept at skirmish maneuvers, a dog rider is a deadly and cautious warrior.</p>
+
+<p id="wild-lancer" class="stat-block-title">Wild Lancer <span class="stat-block-cr">CR 4</span></p>
+<p class="stat-block-1"><b>XP</b> 1,200</p>
+<p class="stat-block-1"><b>Half-elf barbarian</b> 5</p>
+
+<p class="stat-block-1">NE Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> low-light vision; Perception +11</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 18, touch 9, flat-footed 17 (+7 armor, +1 Dex, –2 rage, +2 shield)</p>
+<p class="stat-block-1"><b>hp</b> 63 (5d12+25)</p>
+<p class="stat-block-1"><b>Fort</b> +9, <b>Ref</b> +3, <b>Will</b> +5; +3 vs. spells and spell-like and supernatural abilities, +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved uncanny dodge, trap sense +1; <b>Immune</b> sleep</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk lance +12 (1d8+6/×3) orarmor spikes +11 (1d6+6)</p>
+<p class="stat-block-1"><b>Ranged</b> javelin +6 (1d6+6)</p>
+<p class="stat-block-1"><b>Space </b>5 ft.; <b>Reach</b> 5 ft. (10 ft. with lance)</p>
+<p class="stat-block-1"><b>Special Attacks</b> rage (14 rounds/day), rage powers (quick reflexes, superstition +3)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian makes charge attacks whenever possible. If prevented from charging, she maneuvers to maximize attacks of opportunity caused by her extended reach. Her armor spikes are a weapon of last resort.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 20, touch 11, flat-footed 19; <b>hp</b> 53; <b>Fort</b> +7, <b>Will</b>+3; no bonus vs. spells and spell-like or supernatural abilities; <b>Melee</b> mwk lance +10 (1d8+4/×3) or armor spikes +9 (1d6+4); <b>Ranged</b> javelin +6 (1d6+4); <b>Str</b> 18, <b>Con</b> 14; <b>CMB</b> +9; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +10, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5.</p>
+<p class="stat-block-breaker">statistics</p>
+<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 13, <b>Con</b> 18, <b>Int</b> 10, <b>Wis</b> 12, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +5; <b>CMB</b> +11; <b>CMD</b> 20</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, Ride-By Attack, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a>), Spirited Charge</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +2, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +12, Perception +11, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +8, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +5, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +7</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven</p>
+<p class="stat-block-1"><b>SQ</b> elf blood, fast movement</p>
+<p class="stat-block-1"><b>Combat Gear</b> acid; <b>Other Gear</b><i>+1 breastplate </i>with armor spikes, masterwork heavy wooden shield, javelins (5), masterwork lance, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, heavy horse (combat trained) with military saddle and masterwork studded leather barding, 310 gp</p>
+
+<p>Some barbarians are most at home on horseback.</p>
+
+<p id="forest-guardian" class="stat-block-title">Forest Guardian <span class="stat-block-cr">CR 5</span></p>
+<p class="stat-block-1"><b>XP</b> 1,600</p>
+<p class="stat-block-1"><b>Elf barbarian</b> 6</p>
+
+<p class="stat-block-1">CN Medium humanoid (elf)</p>
+<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> low-light vision; Perception +12</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 17, touch 12, flat-footed 13 (+5 armor, +4 Dex, –2 rage)</p>
+<p class="stat-block-1"><b>hp</b> 68 (6d12+24)</p>
+<p class="stat-block-1"><b>Fort</b> +8, <b>Ref</b> +6, <b>Will</b> +5; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved uncanny dodge, trap sense +2; <b>Immune</b> sleep</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 50 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk elven curve blade +10/+5 (1d10+4/18–20)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 composite longbow</i> +11/+6 (1d8+4/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> rage (15 rounds/day), rage powers (rolling dodge +2, swift foot +10 feet)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian switches freely between bow and blade as the situation warrants.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 19, touch 14, flat-footed 15; <b>hp</b> 56; <b>Fort</b> +6, <b>Will</b>+3; <b>Melee</b>mwk elven curve blade +8/+3 (1d10+1/18–20); <b>Ranged</b><i>+1 composite longbow</i> +11/+6 (1d8+2/×3); <b>Str</b> 13, <b>Con</b> 12; <b>CMB</b> +7; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 17, <b>Dex</b> 18, <b>Con</b> 16, <b>Int</b> 10, <b>Wis</b> 12, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +6; <b>CMB</b> +9; <b>CMD</b> 21</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +12 (+20 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +10, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (bows) +5, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +5, Perception +12, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +5, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +5</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven</p>
+<p class="stat-block-1"><b>SQ</b> elven magic, fast movement, weapon familiarity</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i> (2), alchemist's fire (2); <b>Other Gear</b><i>+1 chain shirt</i>, <i>+1 composite longbow</i> (+3 Str) with 20 arrows, masterwork elven curve blade, climber's kit, 2 gp</p>
+<p>This barbarian guards the fringes of wooded territories, protecting creatures and people from those who would despoil the land and steal from its inhabitants. They distrust all outsiders, but must also guard against their own kin.<span class="char-style-override-14"></p>
+
+<p id="sundering-axe" class="stat-block-title">Sundering Axe <span class="stat-block-cr">CR 6</span></p>
+<p class="stat-block-1"><b>XP</b> 2,400</p>
+<p class="stat-block-1"><b>Dwarf barbarian</b> 7</p>
+
+<p class="stat-block-1">NE Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +12</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 18, touch 9, flat-footed 17 (+9 armor, +1 Dex, –2 rage)</p>
+<p class="stat-block-1"><b>hp</b> 93 (7d12+42)</p>
+<p class="stat-block-1"><b>Fort</b> +11, <b>Ref</b> +4, <b>Will</b> +7; +2 vs. poison, spells, and spell-like abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants), improved uncanny dodge, trap sense +2; <b>DR</b> 1/&mdash;</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk adamantine greataxe +13/+8 (1d12+7/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> light hammer +8 (1d4+5) orthrowing axe +8 (1d6+5)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids, rage (19 rounds/day), rage powers (guarded stance +2, knockback, strength surge +7)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian uses her guarded stance and alternates between dealing damage and sundering weapons.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 20, touch 11, flat-footed 19; <b>hp</b> 79; <b>Fort</b> +9, <b>Will</b>+5; <b>Melee</b> mwk adamantine greataxe +11/+6 (1d12+4/×3); <b>Ranged</b> light hammer +8 (1d4+3) or throwing axe +8 (1d6+3); <b>Str</b> 16, <b>Con</b> 16; <b>CMB</b> +10 (+14 sunder); <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8.</p>
+<p class="stat-block-breaker">statistics</p>
+<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 13, <b>Con</b> 20, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 6</p>
+<p class="stat-block-1"><b>Base Atk</b> +7; <b>CMB</b> +12 (+16 sunder); <b>CMD</b> 21 (25 vs. bull rush or trip, 23 vs. sunder)</p>
+<p class="stat-block-1"><b>Feats</b> Armor Proficiency (heavy), Greater Sunder, Improved Sunder, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +5 (+1 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +10, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (weapons) +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +5, Perception +12 (+14 to notice unusual stonework)</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven</p>
+<p class="stat-block-1"><b>SQ</b> fast movement</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>oil of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i>,<i> potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i>, acid (3);<b>Other Gear</b> masterwork full plate, light hammer (2), masterwork adamantine greataxe, throwing axe (2), c<i>loak of <a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a> +1</i>, climber's kit, masterwork artisan's tools, 2 gp</p>
+<p>A sundering axe whittles away at her enemies' abilities to attack and defend themselves.</p>
+
+<p id="glaive-rager" class="stat-block-title">Glaive Rager <span class="stat-block-cr">CR 7</span></p>
+<p class="stat-block-1"><b>XP</b> 3,200</p>
+<p class="stat-block-1"><b>Gnome barbarian</b> 8</p>
+
+<p class="stat-block-1">CN Small humanoid (gnome)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> low-light vision; Perception +12</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 17, touch 10, flat-footed 16 (+7 armor, +1 Dex, –2 rage, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 105 (8d12+48)</p>
+<p class="stat-block-1"><b>Fort</b> +12, <b>Ref</b> +4, <b>Will</b> +5; +4 vs. spells and spell-like or supernatural abilities, +2 vs. illusions</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants); improved uncanny dodge, trap sense +2; <b>DR</b> 2/&mdash;</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 25 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk cold iron glaive +15/+10 (1d8+7/×3) or kukri +14/+9 (1d3+5/18–20)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +11/+6 (1d6+5/×3)</p>
+<p class="stat-block-1"><b>Space </b>5 ft.; <b>Reach</b> 5 ft. (10 ft. with glaive)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and reptilian humanoids, rage (21 rounds/day), rage powers (clear mind, knockback, quick reflexes, superstition +4)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian leads with trip maneuvers, seeking to trigger attacks of opportunity. He uses knockback to force creatures to advance on him again through the threatened area of his glaive.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 19, touch 12, flat-footed 18; <b>hp</b> 89; <b>Fort</b> +10, <b>Will</b>+3; no bonus vs. spells and spell-like or supernatural abilities; <b>Melee</b> mwk cold iron glaive +13/+8 (1d8+4/×3) or kukri +12/+7 (1d3+3/18–20); <b>Ranged</b> mwk composite longbow +11/+6 (1d6+3/×3); <b>Str</b> 16, <b>Con</b> 16; <b>CMB</b> +10 (+14 trip); <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +6, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +8.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 13, <b>Con</b> 20, <b>Int</b> 13, <b>Wis</b> 10, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +8; <b>CMB</b> +12 (+16 trip); <b>CMD</b> 21 (23 vs. trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, Greater Trip, Improved Trip, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +5, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (ships) +5, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +10, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +3, Perception +12, <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (sailor) +5, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +10, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Aquan, Auran, Common, Gnome, Sylvan</p>
+<p class="stat-block-1"><b>SQ</b> fast movement</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>oil of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i>,<i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>; <b>Other Gear</b><i>+1 breastplate</i>, kukri, masterwork cold iron glaive, masterwork composite longbow (+5 Str) with 20 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, climber's kit, 50 gp</p>
+
+<p id="raging-swimmer" class="stat-block-title">Raging Swimmer <span class="stat-block-cr">CR 8</span></p>
+<p class="stat-block-1"><b>XP</b> 4,800</p>
+<p class="stat-block-1"><b>Half-elf barbarian</b> 9</p>
+
+<p class="stat-block-1">N Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> low-light vision, scent; Perception +19</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 14, touch 10, flat-footed 12 (+4 armor, +2 Dex, –2 rage)</p>
+<p class="stat-block-1"><b>hp</b> 109 (9d12+45)</p>
+<p class="stat-block-1"><b>Fort</b> +11, <b>Ref</b> +6, <b>Will</b> +6; +4 vs. spells and spell-like and supernatural abilities, +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved uncanny dodge, trap sense +3; <b>DR</b> 1/&mdash;; <b>Immune</b> sleep</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 longspear</i> +16/+11 (2d4+10/×3) orspiked gauntlet +15/+10 (1d4+6)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 composite longbow</i> +12/+7 (1d8+7/×3)</p>
+<p class="stat-block-1"><b>Space </b>5 ft.; <b>Reach</b> 5 ft. (10 ft. with longspear)</p>
+<p class="stat-block-1"><b>Special Attacks</b> rage (22 rounds/day), rage powers (quick reflexes, raging swimmer +9, scent, superstition +4)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian prefers to fight in the water, outswimming foes or using the water for cover as she attacks landward opponents her bow or longspear (using <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>). She eschews full attacks in favor of <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a> attacks against a lone target or Great Cleave attacks against groups. She forces enemies to approach through the guard of her longspear, provoking attacks of opportunity.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>Senses</b> no scent; <b>AC</b> 16, touch 12, flat-footed 14; <b>hp</b> 91; <b>Fort</b> +9, <b>Will</b>+4; no bonus vs. spells and spell-like or supernatural abilities; <b>Melee</b><i>+1 longspear</i> +14/+9 (2d4+7/×3) or spiked gauntlet +13/+8 (1d4+4); <b>Ranged</b><i>+1 composite longbow</i> +12/+7 (1d8+5/×3); <b>Str</b> 18, <b>Con</b> 14; <b>CMB</b> +13; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +9.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 14, <b>Con</b> 18, <b>Int</b> 12, <b>Wis</b> 10, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +9; <b>CMB</b> +15; <b>CMD</b> 25</p>
+<p class="stat-block-1"><b>Feats</b> Cleave, Great Cleave, <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a>), <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +16 (+20 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +10, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +5, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +3, Perception +19, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +5, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +10, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +4, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +20</p>
+<p class="stat-block-1"><b>Languages</b> Aquan, Common, Elven, Sylvan</p>
+<p class="stat-block-1"><b>SQ</b> elf blood, fast movement</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>oil of <a href="/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon" >align weapon</a></i> (lawful),<i> potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a>, </i>alchemical silver arrows (10), cold iron arrows (10); <b>Other Gear</b> masterwork chain shirt, <i>+1 composite longbow</i> (+6 Str) with 20 arrows, <i>+1 longspear</i>, masterwork longspear, spiked gauntlet, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_eyes-of-the-eagle" >eyes of the eagle</a>, </i>1 gp</p>
+<p>Adept at combat on land or in the water, the raging swimmer attacks foes when they are most vulnerable.</p>
+<h3>Dorremera Salin</h3>
+<p>Dorremera is a child of the waves, sired by an aquatic elf who abandoned her human mother. Raised along the sea, Dorremera took to the water as if born to it, and considers the beasts of the sea and shore her kin. She has little patience for the niceties of society&mdash;whether human or elven&mdash;and lashes out at almost everyone who crosses her path. </p>
+<p><b>Combat Encounters:</b> Dorremera has no compunctions about stealing from landlubbers, or killing those who chase or surprise her.</p>
+<p><b>Roleplaying Suggestions:</b> Though it is hard to get through to her, Dorremera sometimes parleys with adventuring groups that treat her respectfully, show great battle prowess, or are particularly kind to sea creatures.<span class="char-style-override-14"></p>
+
+
+<p id="cannibalistic-hunter" class="stat-block-title">Cannibalistic Hunter <span class="stat-block-cr">CR 9</span></p>
+<p class="stat-block-1"><b>XP</b> 6,400</p>
+<p class="stat-block-1"><b>Halfling barbarian</b> 10</p>
+
+<p class="stat-block-1">NE Small humanoid (halfling)</p>
+<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> Perception +14</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 21, touch 14, flat-footed 16 (+5 armor, +5 Dex, –2 rage, +2 shield, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 120 (10d12+50)</p>
+<p class="stat-block-1"><b>Fort</b> +13, <b>Ref</b> +10, <b>Will</b> +8; +4 vs. spells and spell-like or supernatural abilities, +2 vs. fear</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved uncanny dodge, trap sense +3; <b>DR</b> 2/&mdash;;<b>Immune</b> nauseated, sickened</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk scimitar +15/+10 (1d4+3/18–20)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 composite longbow</i> +15/+15/+10 (1d6+4/19–20/×3) or <i>+1 composite longbow</i> +17/+12 (1d6+4/19–20/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> rage (24 rounds/day), rage powers (clear mind, internal fortitude, raging climber +10, rolling dodge +2, superstition +4)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian uses <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> and <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> to rain death upon enemies from above. She snipes from cover or concealment to begin her attack, but after that is concerned solely with maximizing the intensity of her deadly barrage. She activates her rolling dodge to evade enemy counterfire.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 23, touch 16, flat-footed 18; <b>hp</b> 100; <b>Fort</b> +11, <b>Will</b>+6; no bonus vs. spells and spell-like or supernatural abilities; <b>Immune</b> &mdash;; <b>Melee</b> mwk scimitar +13/+8 (1d4+1/18–20); <b>Ranged</b><i>+1 composite longbow</i> +15/+15/+10 (1d6+2/19–20/×3) or <i>+1 composite longbow</i> +17/+12 (1d6+2/19–20/×3); <b>Str</b> 12, <b>Con</b> 14; <b>CMB</b> +10; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +18, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +5.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 16, <b>Dex</b> 20, <b>Con</b> 18, <b>Int</b> 10, <b>Wis</b> 12, <b>Cha</b> 10</p>
+<p class="stat-block-1"><b>Base Atk</b> +10; <b>CMB</b> +12; <b>CMD</b> 25</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (composite longbow), Manyshot, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, Rapid Shot</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +20, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +30, Perception +14, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +19, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +5, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +7</p>
+<p class="stat-block-1"><b>Languages</b> Common, Halfling</p>
+<p class="stat-block-1"><b>SQ</b> fast movement</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows" >protection from arrows</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i>, alchemical silver arrows (10), alchemist's fire (2), cold iron arrows (10), drow poison (3), tanglefoot bag; <b>Other Gear</b><i>+1 mithral chain shirt</i>, <i>+1 buckler</i>, <i>+1 composite longbow</i> (+3 Str) with 60 arrows, masterwork scimitar, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-incredible-dexterity" >belt of incredible dexterity</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, climber's kit, 300 gp</p>
+<p>Rare tribes of halfling cannibals stalk deep jungles in search of sentient prey.</p>
+<h3>Lanani Shabu</h3>
+<p>When newcomers objecting to his matriarchal tribe's cannibalistic ways wiped out his kin, Lanani had no choice but to ritualistically take on new leadership&mdash;and a new gender. Now "Mother Lanani" hunts the jungle, punishing humans and recruiting halflings to her new tribe.</p>
+<p><b>Combat Encounters:</b> Lanani can stalk quarry for days, slowly weakening those she is not able to knock out with her poison. Other times, she heads a hunting band.</p>
+<p><b>Roleplaying Suggestions:</b> Lanani rarely interacts with the outside world, but in desperate times she ventures into civilization to lure prey closer to her tribe.</p>
+
+<p id="double-axe fury" class="stat-block-title">Double Axe Fury <span class="stat-block-cr">CR 10</span></p>
+<p class="stat-block-1"><b>XP</b> 9,600</p>
+<p class="stat-block-1"><b>Half-Orc barbarian</b> 11</p>
+
+<p class="stat-block-1">CE Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> darkvision 60 ft.; Perception +15</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 17, touch 12, flat-footed 13 (+5 armor, +4 Dex, –2 rage)</p>
+<p class="stat-block-1"><b>hp</b> 142 (11d12+65)</p>
+<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +9, <b>Will</b> +9; +4 vs. spells and spell-like orsupernatural abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved uncanny dodge, orc ferocity, trap sense +3; <b>DR</b> 3/&mdash;</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 orc double axe</i> +19/+14/+9 (1d8+10/19–20/×3) or <i>+1 orc double axe</i> +17/+12/+7 (1d8+7/19–20/×3), <i>+1 orc double axe</i> +17/+12 (1d8+7/19–20/×3), bite +12 (1d4+3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +16/+11/+6 (1d8+6/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> greater rage (26 rounds/day), rage powers (animal fury, increased damage reduction +1, no escape, raging leaper +11, superstition +4)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian charges into the heart of battle, using one end of his double axe two-handed when charging or moving, and switching back to a double weapon grip when making full attacks. He uses his leaping and <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> to enter melee quickly, using his no escape ability to chase down cowards.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 19, touch 14, flat-footed 15; <b>hp</b> 109; <b>Fort</b> +11, <b>Will </b>+6; no bonus vs. spells and spell-like or supernatural abilities; <b>DR</b> 2/&mdash;; <b>Melee</b><i>+1 orc double axe</i> +16/+11/+6 (1d8+5/19–20/×3) or +1 orc double axe +14/+9/+4 (1d8+4/19–20/×3), +1 orc double axe +14/+9 (1d8+4/19–20/×3), bite +9 (1d4+1); <b>Ranged</b> mwk composite longbow +16/+11/+6 (1d8+3/×3); <b>Str</b> 16, <b>Con</b> 14; <b>CMB</b> +14; <b>CMD</b> 28; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +17 (+21 when jumping) <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +8, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +8.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 18, <b>Con</b> 20, <b>Int</b> 10, <b>Wis</b> 12, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +11; <b>CMB</b> +17; <b>CMD</b> 29</p>
+<p class="stat-block-1"><b>Feats</b> Double Slice, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (orc double axe), Improved <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, Two-Weapon Rend, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (orc double axe)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +17 (+32 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +11, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +10, Perception +15, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +7, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +14, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +5, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +11</p>
+<p class="stat-block-1"><b>SQ</b> fast movement, orc blood, weapon familiarity</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/blur.html#_blur" >blur</a></i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i>; <b>Other Gear</b><i>+1 chain  shirt</i>, <i>+1/+1 orc double axe</i>, masterwork composite longbow (+7 Str) with 20 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>,<i> <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, climber's kit, 50 gp</p>
+<p>This half-orc barbarian savagely rips though weaker opponents with unquenchable bloodlust.</p>
+<h3>Graun Quor</h3>
+<p>Graun the pit fighter was raised in lawless borderlands where control changed hands frequently and unpredictably. The one constant was the thirst for blood sports, and any youth with a hard edge and more greed and ambition than fear could make a name and a fortune so long as he survived. Graun mastered many weapons throughout his career, but loves best the orc double axe he took as a prize in an early championship bout. Having long since bought his freedom, Graun wanders the borderlands selling his skills to the highest bidder. A few orc tribes have offered Graun leadership roles, but he has little patience for such things and cares nothing for the welfare of his allies.</p>
+<p><b>Combat Encounters:</b> Graun can be found at the head of an orc band on rare occasions, either a tribe he has adopted for a short time or who serve as fodder for his hunts. Other times he stalks the wild lands looking for opponents worthy of his fighting skills.</p>
+<p><b>Roleplaying Suggestions:</b> Graun sometimes ventures into civilized lands to spend his coin and search for blood sports, hoping for a chance to kill in front of a crowd.<span class="char-style-override-14"></p>
+
+<p id="giant-slayer" class="stat-block-title">Giant Slayer <span class="stat-block-cr">CR 11</span></p>
+<p class="stat-block-1"><b>XP</b> 12,800</p>
+<p class="stat-block-1"><b>Dwarf barbarian</b> 12</p>
+
+<p class="stat-block-1">N Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +17</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 23, touch 11, flat-footed 21 (+10 armor, +1 deflection, +1 Dex, +1 dodge, –2 rage, +2 shield)</p>
+<p class="stat-block-1"><b>hp</b> 191 (12d12+108)</p>
+<p class="stat-block-1"><b>Fort</b> +17, <b>Ref</b> +6, <b>Will</b> +10; +2 vs. poison, spells, and spell-like abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants), improved uncanny dodge, trap sense +4; <b>DR</b> 2/&mdash;</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 giant-bane dwarven waraxe</i> +19/+14/+9 (1d10+7/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +14/+9/+4 (1d8+6/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids, greater rage (31 rounds/day), rage powers (guarded stance +3, mighty swing, no escape, roused anger, strength surge +12, unexpected strike)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian switches from a one-handed to a two-handed grip on his axe as the situation demands. He uses his shield against multiple foes but keeps his bow in hand if in melee against a lone enemy. He uses his rolling dodge before exposing himself to missiles, especially giant-hurled boulders, and assumes his guarded stance in melee. He charges with Spring Attack to get close to his enemies, following it up with full attacks.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 25, touch 13, flat-footed 23; <b>hp</b> 155; <b>Fort</b> +14, <b>Will</b>+7; <b>Melee</b><i>+1 giant-bane dwarven waraxe</i> +16/+11/+6 (1d10+4/×3); <b>Ranged</b> mwk composite longbow +14/+9/+4 (1d8+3/×3); <b>Str</b> 16, <b>Con</b> 20; <b>CMB</b> +15; <b>CMD</b> 28 (32 vs. bull rush or trip); <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +7, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +7.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 13, <b>Con</b> 26, <b>Int</b> 8, <b>Wis</b> 14, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +12; <b>CMB</b> +18; <b>CMD</b> 29 (33 vs. bull rush or trip)</p>
+<p class="stat-block-1"><b>Feats</b>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Heavy Armor Proficiency, Mobility, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Spring Attack, <a href="/pathfinderRPG/prd/feats.html#_vital-strike" >Vital Strike</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +10, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +5, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +0, Perception +17 (+19 to notice unusual stonework), <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +10, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven, Giant</p>
+<p class="stat-block-1"><b>SQ</b> fast movement</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potions of <a href="/pathfinderRPG/prd/spells/blur.html#_blur" >blur</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), tanglefoot bags (3); <b>Other Gear</b><i>+1 full plate</i>, <i>+1 buckler</i>, <i>+1 giant-bane dwarven waraxe</i>, mwk composite longbow (+6 Str) with 20 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-mighty-constitution" >belt of mighty constitution</a> +2,  <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +1</i>, 5 gp</p>
+
+<p>Giant slayers seek out giants and cut them down. Raging with enmity for their prey, they allow no other creatures to get between them and their hated foes.</p>
+<h3>Jemar Crowell</h3>
+<p>Jemar Crowell is a champion of his people, a savage emissary of vengeance in the never-ending wars between the dwarfholds and giant-kin of all kinds. Often clad head to toe in stout dwarven steel armor, Jemar sometimes doffs his helmet to better taunt enemies as he brings them low. He keeps his scalp shaved save for two narrow crests of hair. His cape is woven from shaggy skeins of loosely-spun giant hair clipped from his vanquished foes, and when the weather is cold he wears scarves and mittens knit from the same material.</p>
+<p><b>Combat Encounters:</b> Jemar is a focused combatant, going after his prey and protecting his people's interests to the exclusion of all other concerns. He has no qualms about stealing kills and looting bodies.</p>
+<p><b>Roleplaying Suggestions:</b> When not slaying giants, Jemar plans raids on giant strongholds, and considers those who trade with giants as bad as giants themselves. Though he primarily works for dwarven interests, he often hires sellswords and adventurers to aid him on particularly dangerous hunts.<span class="char-style-override-14"></p>
+
+<p id="savage-rider" class="stat-block-title">Savage Rider <span class="stat-block-cr">CR 12</span></p>
+<p class="stat-block-1"><b>XP</b> 19,200</p>
+<p class="stat-block-1"><b>Human barbarian</b> 13</p>
+
+<p class="stat-block-1">CN Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> Perception +17</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 17, touch 9, flat-footed 16 (+6 armor, +1 Dex, –2 rage, +2 shield) (+1 deflection vs. ranged weapons)</p>
+<p class="stat-block-1"><b>hp</b> 194 (13d12+104)</p>
+<p class="stat-block-1"><b>Fort</b> +16, <b>Ref</b> +6, <b>Will</b> +9; +5 vs. spells and spell-like or supernatural abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved uncanny dodge, trap sense +4; <b>DR</b> 3/&mdash;</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 lance</i> +21/+16/+11 (1d8+8/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +15/+10/+5 (1d8+7/×3)</p>
+<p class="stat-block-1"><b>Space </b>5 ft.; <b>Reach</b> 5 ft. (10 ft. with lance)</p>
+<p class="stat-block-1"><b>Special Attacks</b> greater rage (32 rounds/day), rage powers (guarded stance +3, mighty swing, renewed vigor 3d8+10, rolling dodge +3, strength surge +13, superstition +5)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The barbarian uses his warhorse for transportation, but if expecting combat, he retrieves an animal from his <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bag-of-tricks" >bag of tricks</a></i> and rides it instead.</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian charges whenever possible, whether mounted or on foot, using <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a> and his <i>+1 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-arrow-catching" >arrow catching</a> buckler</i> to divert attacks made against his mount. If his mount is slain, he draws a replacement from his <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bag-of-tricks" >bag of tricks</a></i> and makes a fast mount. He uses guarded stance and rolling dodge as needed, often using them or renewed vigor after a ride-by charge while circling around into position for another charge.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 19, touch 11, flat-footed 18; <b>hp</b> 155; <b>Fort</b> +13, <b>Will </b>+6; no bonus vs. spells and spell-like or supernatural abilities; <b>Melee</b><i>+1 lance</i> +18/+13/+8 (1d8+5/×3); <b>Ranged</b> mwk composite longbow +15/+10/+5 (1d8+4/×3); <b>Str</b> 18, <b>Con</b> 18; <b>CMB</b> +17; <b>CMD</b> 28; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +7, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +7.</p>
+<p class="stat-block-breaker">statistics</p>
+<p class="stat-block-1"><b>Str</b> 24, <b>Dex</b> 13, <b>Con</b> 24, <b>Int</b> 10, <b>Wis</b> 12, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +13; <b>CMB</b> +20; <b>CMD</b> 29</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_animal-affinity" >Animal Affinity</a>, Improved Bull Rush, <a href="/pathfinderRPG/prd/feats.html#_mounted-combat" >Mounted Combat</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Ride-By Attack, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a>), Spirited Charge, Unseat</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +11, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +10, <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> +19, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +10, Perception +17, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +26, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +13, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> fast movement</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>oil of <a href="/pathfinderRPG/prd/spells/keenEdge.html#_keen-edge" >keen edge</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>; <b>Other Gear</b><i> rhino hide armor</i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-arrow-catching" >arrow catching</a> buckler</i>, <i>+1 lance</i>, masterwork composite longbow (+7 Str) with 20 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_bag-of-tricks" >bag of tricks</a></i> (tan), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-mighty-constitution" >belt of mighty constitution</a> +2</i>,<i> <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, heavy warhorse with riding saddle and masterwork studded leather barding, 51 gp</p>
+<p>Savage riders use a mix of magical and mundane mounts to make lightning-fast raids against their enemies.</p>
+<h3>Finnogh Llew</h3>
+<p>Having mastered horses while still a child, Finnogh seeks out the wildest and most untameable beasts the world has to offer. Though he's keenly interested in learning which savage beasts can best be tamed, he cares less about mastery than the thrill of the ride. Eventually he turns loose even those animals he has broken to the bit, though more from boredom than altruism.</p>
+<p><b>Combat Encounters:</b> Always on the search for exotic beasts to serve as mounts, Finnogh often resides in or near the lairs of strange creatures.</p>
+<p><b>Roleplaying Suggestions:</b> Finnogh is quick to query adventurers about any strange creatures they might have encountered, and may join them on a hunt for such beasts.<span class="char-style-override-14"></p>
+
+<p id="arcane-experimenter" class="stat-block-title">Arcane Experimenter <span class="stat-block-cr">CR 13</span></p>
+<p class="stat-block-1"><b>XP</b> 25,600</p>
+<p class="stat-block-1"><b>Gnome barbarian</b> 14</p>
+
+<p class="stat-block-1">CE Small humanoid (gnome)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> low-light vision; Perception +20</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 19, touch 12, flat-footed 16 (+7 armor, +3 Dex, –2 rage, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 191 (14d12+95)</p>
+<p class="stat-block-1"><b>Fort</b> +16, <b>Ref</b> +8, <b>Will</b> +9; +2 vs. illusions, +4 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants), improved uncanny dodge, indomitable will, trap sense +4; <b>DR</b> 3/&mdash;; <b>Immune</b> frightened, nauseated, shaken, sickened</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 25 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_thundering" >thundering</a> gnome hooked hammer</i> +21/+16/+11 (1d4+8/19–20/×4) or <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_thundering" >thundering</a> gnome hooked hammer</i> +19/+14/+9 (1d4+6/19–20/×4), <i>+1 gnome hooked hammer</i> +19/+14 (1d6+6/19–20/×3), bite +15 (1d3+2)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +19/+14/+9 (1d6+5/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and reptilian humanoids, greater rage (33 rounds/day), rage powers (animal fury, clear mind, fearless rage, internal fortitude, mighty swing, moment of clarity, strength surge +14)</p>
+<p class="stat-block-1"><b>Gnome Spell-Like Abilities</b> (CL 14th; concentration +15)</p>
+<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights" >dancing lights</a></i>, <i><a href="/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound" >ghost sound</a></i> (DC 11), <i><a href="/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation" >prestidigitation</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The barbarian uses her <i>wand of <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i> before most battles, but also uses her <i>wand of <a href="/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image" >mirror image</a></i> if she expects a difficult fight or a battle against a strong lone enemy.</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian closes quickly to make full attacks with her hooked hammer, using the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_thundering" >thundering</a> pick</i> end as her primary weapon and the hammer as her off-hand attack. If she has to charge or otherwise move between attacks, she makes a single two-handed <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a> with the pick end. She uses moment of clarity to trigger a wand or scroll if the situation demands, such as in an encounter with a flying or invisible foe. She prefers to reserve her <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed" >boots of speed</a></i> for when she is already in melee, to facilitate full attacks or to close the distance on faster enemies.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 21, touch 14, flat-footed 18; <b>hp</b> 149; <b>Fort</b> +13, <b>Will</b>+6; no bonus vs. enchantments; <b>Immune</b> &mdash;; <b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_thundering" >thundering</a> gnome hooked hammer</i> +18/+13/+8 (1d4+4/19–20/×4) or <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_thundering" >thundering</a> gnome hooked hammer </i>+16/+11/+6 (1d4+3/19–20/×4), <i>+1 gnome hooked hammer</i> +16/+11 (1d6+3/19–20/×3); <b>Ranged</b> mwk composite longbow +19/+14/+9 (1d6+2/×3); <b>Str</b> 14, <b>Con</b> 16; <b>CMB</b> +15; <b>CMD</b> 28; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +3.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 17, <b>Con</b> 22, <b>Int</b> 8, <b>Wis</b> 12, <b>Cha</b> 12</p>
+<p class="stat-block-1"><b>Base Atk</b> +14; <b>CMB</b> +18; <b>CMD</b> 29</p>
+<p class="stat-block-1"><b>Feats</b> Double Slice, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (gnome hooked hammer), Improved <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (<a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a>), <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a>, Two-Weapon Rend</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +17, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +6, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +0, Perception +20, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +0, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +5, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +5, <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +18</p>
+<p class="stat-block-1"><b>Languages</b> Common, Gnome, Sylvan</p>
+<p class="stat-block-1"><b>SQ</b> fast movement</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>scroll of <a href="/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon" >align weapon</a></i>, <i>scroll of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i>scroll of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i>, <i>scroll of <a href="/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good" >protection from good</a></i>, <i>scroll of  <a href="/pathfinderRPG/prd/spells/trueStrike.html#_true-strike" >true strike</a></i>, <i>wand of <a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i> (10 charges), <i>wand of <a href="/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image" >mirror image</a></i>(10 charges), <i>wand of <a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i> (10 charges), <i>wand of <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i> (40 charges), alchemical sliver arrows (10), cold iron arrows (20); <b>Other Gear</b><i>+1 breastplate</i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_thundering" >thundering</a>/+1 gnome hooked hammer</i>, masterwork composite longbow (+5 Str), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed" >boots of speed</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, 8 gp</p>
+
+<p>An oddity among their kind, arcane experimenters use knowledge of magic to sow confusion on the battlefield.</p>
+<h3>Krida Grichenwald</h3>
+<p>Krida studies the link between emotional states and magic. Though she's so far been unable to focus her rage into magic, she believes it is only a matter of time. When friends and family tried to dissuade her, Krida quite literally sacrificed them, murdering some swiftly in paranoid vengeance but gruesomely torturing others in her search for non-existent magical secrets.</p>
+<p><b>Combat Encounters:</b> Krida's obsession drives her to attack those who obviously possess magic items.</p>
+<p><b>Roleplaying Suggestions:</b> Krida may search out spellcasters in order to pick their brains about rage magic, but she soon becomes frustrated and hostile to them.<span class="char-style-override-14"></p>
+
+<p id="life-stealer" class="stat-block-title">Life Stealer <span class="stat-block-cr">CR 14</span></p>
+<p class="stat-block-1"><b>XP</b> 38,400</p>
+<p class="stat-block-1"><b>Human barbarian</b> 15</p>
+
+<p class="stat-block-1">NE Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft., low-light vision, scent; Perception +18</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 20, touch 11, flat-footed 17 (+7 armor, +3 Dex, –2 rage, +2 shield)</p>
+<p class="stat-block-1"><b>hp</b> 200 (15d12++97)</p>
+<p class="stat-block-1"><b>Fort</b> +17, <b>Ref</b> +10, <b>Will</b> +10; +5 vs. spells and spell-like and supernatural abilities, +4 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved uncanny dodge, indomitable will, trap sense +5; <b>DR</b> 3/&mdash;</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_nine-lives-stealer" >nine lives stealer</a> </i>+22/+17/+12 (1d8+7/17–20) or armor spikes +20/+15/+10 (1d6+5)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +19/+14/+9 (1d8+5/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> greater rage (35 rounds/day), rage powers (low-light vision, mighty swing, night vision, quick reflexes, scent, strength surge +15, superstition +5)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The barbarian uses stealth and deception to get close to enemies without them noticing, and uses his <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_chime-of-opening" >chime of opening</a></i> to break into locked strongholds.</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian tries to disarm opponents at the beginning of combat, using poison against a target's weakest ability score if he knows his target in advance. He triggers his mighty swing on a sword critical that might slay his target, and uses his rage-enhanced senses to find creatures trying to hide or flee. He uses his buckler when faced with many foes, but against lone targets uses his <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_nine-lives-stealer" >nine lives stealer</a></i> for two-handed Power Attacks.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 22, touch 13, flat-footed 19; <b>hp</b> 155; <b>Fort</b> +14, <b>Will</b>+7; no bonus vs. spells and spell-like or supernatural abilities, no bonus vs. enchantments; <b>Melee</b><i> <a href="/pathfinderRPG/prd/magicItems/weapons.html#_nine-lives-stealer" >nine lives stealer</a></i> +19/+14/+9 (1d8+4/17–20) or armor spikes +17/+12/+7 (1d6+2); <b>Ranged</b> mwk composite longbow +19/+14/+9 (1d8+2/×3); <b>Str</b> 15, <b>Con</b> 16; <b>CMB</b> +17; <b>CMD</b> 30; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +7, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +3.</p>
+<p class="stat-block-breaker">statistics</p>
+<p class="stat-block-1"><b>Str</b> 21, <b>Dex</b> 16, <b>Con</b> 22, <b>Int</b> 14, <b>Wis</b> 10, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +15; <b>CMB</b> +20; <b>CMD</b> 31</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_blind-fight" >Blind-Fight</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_deadly-aim" >Deadly Aim</a>, <a href="/pathfinderRPG/prd/feats.html#_deceitful" >Deceitful</a>, Greater Disarm, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (longsword), Improved Disarm, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, <a href="/pathfinderRPG/prd/feats.html#_step-up" >Step Up</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +18 (+22 when jumping), <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +18, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +10, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy) +6, <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> +20 (+30 with <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_hat-of-disguise" >hat of disguise</a></i>), <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +15, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local, nobility) +5, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +7, Perception +18, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +20, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +10, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +6</p>
+<p class="stat-block-1"><b>Languages</b> Common, Aklo, Draconic, Dwarven, Elven, Gnoll, Goblin, Orc</p>
+<p class="stat-block-1"><b>SQ</b> fast movement</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/undetectableAlignment.html#_undetectable-alignment" >undetectable alignment</a></i> (2), blue whinnis poison (2), giant wasp poison (2), purple worm poison; <b>Other Gear</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow" >shadow</a> breastplate </i>with armor spikes, <i>+1 buckler</i>, <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_nine-lives-stealer" >nine lives stealer</a></i>, masterwork composite longbow (+5 Str) with 20 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_chime-of-opening" >chime of opening</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_hat-of-disguise" >hat of disguise</a></i>, disguise kit, 50 gp</p>
+
+<p>Careful and cunning, life stealers often serve as assassins.</p>
+<h3>Xavier Durant</h3>
+<p>Xavier fancies himself a master of infiltration, and takes special delight in eliminating rival assassins. </p>
+<p><b>Combat Encounters:</b> Xavier often hires goons to weaken his prey before moving in for the kill.</p>
+<p><b>Roleplaying Suggestions:</b> Xavier disguises himself so he can interact with marks in person and learn about them.<span class="char-style-override-14"></p>
+
+<p id="undead-hunter" class="stat-block-title">Undead Hunter <span class="stat-block-cr">CR 15</span></p>
+<p class="stat-block-1"><b>XP</b> 51,200</p>
+<p class="stat-block-1"><b>Half-orc barbarian</b> 16</p>
+
+<p class="stat-block-1">N Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> darkvision 60 ft.; Perception +20</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 16, touch 9, flat-footed 15 (+7 armor, +1 Dex, –2 rage)</p>
+<p class="stat-block-1"><b>hp</b> 237 (16d12+128)</p>
+<p class="stat-block-1"><b>Fort</b> +19, <b>Ref</b> +8, <b>Will</b> +11; +6 vs. spells and supernatural or spell-like abilities, +4 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved uncanny dodge, indomitable will, orc ferocity, trap sense +5; <b>DR</b> 4/&mdash;; <b>Immune</b> frightened, nauseated, shaken, sickened</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-disruption" >disruption</a> heavy flail </i>+26/+21/+16/+11 (1d10+13/17–20) or <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-merciful" >merciful</a> heavy flail</i> +26/+21/+16/+11 (1d10+1d6+13 nonlethal/17–20)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 undead-bane composite longbow</i> +18/+13/+8/+3 (1d8+9/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> greater rage (38 rounds/day), rage powers (clear mind, fearless rage, internal fortitude, intimidating glare, no escape, quick reflexes, superstition +6, terrifying howl [DC 26])</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian hunts undead, using both his <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-disruption" >disruption</a> heavy flail</i> and his bow. Against the living, he uses intimidating glare and terrifying howl, then switches to his<i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-merciful" >merciful</a> heavy flail</i> and utilizes Exhausting Criticals and trip maneuvers to take enemies out of the fight without killing them.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 18, touch 11, flat-footed 17; <b>hp</b> 189; <b>Fort</b> +16, <b>Will</b>+8; no bonus vs. spells and spell-like or supernatural abilities, no bonus vs. enchantments; <b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-disruption" >disruption</a> heavy flail</i> +23/+18/+13/+8 (1d10+8/17–20) or <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-merciful" >merciful</a> heavy flail</i> +23/+18/+13/+8 (1d10+1d6+8 nonlethal/17–20); <b>Ranged</b><i>+1 undead-bane composite longbow</i> +18/+13/+8/+3 (1d8+6/×3); <b>Str</b> 20, <b>Con</b> 18; <b>CMB</b> +21 (+25 trip); <b>CMD</b> 32 (34 vs. trip); <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +17, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +7.</p>
+<p class="stat-block-breaker">statistics</p>
+<p class="stat-block-1"><b>Str</b> 26, <b>Dex</b> 12, <b>Con</b> 24, <b>Int</b> 14, <b>Wis</b> 12, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +16; <b>CMB</b> +24 (+28 trip); <b>CMD</b> 33 (35 vs. trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, Exhausting Critical, Greater Trip, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (heavy flail), Improved Trip, Tiring Critical, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (heavy flail)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +16 (+20 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +20, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +20, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +15, Perception +20, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +1, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +11, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +10, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Abyssal, Common, Draconic, Orc</p>
+<p class="stat-block-1"><b>SQ</b> fast movement, orc blood, weapon familiarity</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_silversheen" >silversheen</a>, </i>alchemical silver arrows (20), cold iron arrows (20), holy water (2); <b>Other Gear</b><i>+1 chainmail</i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-disruption" >disruption</a> heavy flail</i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-merciful" >merciful</a> heavy flail</i>, <i>+1 undead-bane composite longbow</i> (+8 Str), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-physical-perfection" >belt of physical perfection</a> +</i>2, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2, </i>2 gp</p>
+<p>Whether encountered alone or in a group of like-minded individuals, undead hunters let no one stand in the way of their grim work.</p>
+<h3>Torain Mirno</h3>
+<p>The last survivor of a half-orc tribe exterminated by a necromancer, Torain has devoted his life to cleansing the world of the taint of the unliving. His studious nature is a rarity among half-orcs, particularly in light of the savagery he unleashes upon the deathless hordes. While some hail him as a hero, his endless war has all but extinguished his sense of compassion and mercy.</p>
+<p><b>Combat Encounters:</b> Torain strikes hard and fast against those he believes serve undead or necromantic masters, often killing them before asking questions.</p>
+<p><b>Roleplaying Suggestions:</b> Between undead hunts, Torain holds silent vigils in a cemeteries and mausoleums, acting as a fierce and watchful warden against the rising dead.<span class="char-style-override-14"></p>
+
+<p id="graceful-slayer" class="stat-block-title">Graceful Slayer <span class="stat-block-cr">CR 16</span></p>
+<p class="stat-block-1"><b>XP</b> 76,800</p>
+<p class="stat-block-1"><b>Elf barbarian</b> 17</p>
+
+<p class="stat-block-1">N Medium humanoid (elf)</p>
+<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> low-light vision; Perception +23</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 20, touch 13, flat-footed 15 (+7 armor, +5 Dex, –2 rage)</p>
+<p class="stat-block-1"><b>hp</b> 218 (17d12+102)</p>
+<p class="stat-block-1"><b>Fort</b> +17, <b>Ref</b> +12, <b>Will</b> +11; +6 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> improved uncanny dodge, indomitable will, trap sense +5; <b>DR</b> 4/&mdash;; <b>Immune</b> sleep</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-keen" >keen</a> <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shocking-burst" >shocking burst</a> elven curve blade</i> +25/+20/+15/+10 (1d10+11/15–20 plus 1d6 electricity)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-seeking" >seeking</a> composite longbow</i> +23/+18/+13/+8 (1d8+8/19–20/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> greater rage (38 rounds/day), rage powers (clear mind, mighty swing, no escape, powerful blow +5, raging leaper +17, strength surge +17, surprise accuracy +5, unexpected strike)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian initially pelts enemies with arrows to deliver disabling critical hit effects, and dispatches any who survive with her flashing blade. In either case, she uses her speed to stay out of danger and her <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed" >boots of speed</a></i> to maximize movement or make full attacks in melee or at range.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 22, touch 15, flat-footed 17; <b>hp</b> 167; <b>Fort</b> +14, <b>Will</b>+8; <b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-keen" >keen</a> <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shocking-burst" >shocking burst</a> elven curve blade</i> +22/+17/+12/+7 (1d10+7/15–20 plus 1d6 electricity); <b>Ranged</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-seeking" >seeking</a>  composite longbow</i> +23/+18/+13/+8 (1d8+5/19–20/×3); <b>Str</b> 18, <b>Con</b> 14; <b>CMB</b> +21; <b>CMD</b> 36; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +24 (+28 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +7, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +7.</p>
+<p class="stat-block-breaker">statistics</p>
+<p class="stat-block-1"><b>Str</b> 24, <b>Dex</b> 20, <b>Con</b> 20, <b>Int</b> 12, <b>Wis</b> 12, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +17; <b>CMB</b> +24; <b>CMD</b> 37</p>
+<p class="stat-block-1"><b>Feats</b> Bleeding Critical, <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (composite longbow), Manyshot, <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Rapid Shot, Staggering Critical, Stunning Critical</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +24 (+45 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +10, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +16, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +10, Perception +23, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +14, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +20, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +10, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Common, Elven</p>
+<p class="stat-block-1"><b>SQ</b> elven magic, fast movement, tireless rage, weapon familiarity</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>oil of <a href="/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon" >align weapon</a></i> (evil),<i> oil of <a href="/pathfinderRPG/prd/spells/flameArrow.html#_flame-arrow" >flame arrow</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/jump.html#_jump" >jump</a></i> (2), <i>potion of <a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i>, adamantine arrows (10), alchemical silver arrows (10) , tanglefoot bags (2); <b>Other Gear</b><i>+1 mithral breastplate</i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-keen" >keen</a> <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shocking-burst" >shocking burst</a> elven curve blade</i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-seeking" >seeking</a> composite longbow</i> (+7 Str) with 40 cold iron arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-physical-perfection" >belt of physical perfection</a> +</i>2, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed" >boots of speed</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +2</i>, 50 gp</p>
+<p>Graceful slayers stalk the wilderness and the far reaches of the world, protecting the denizens and environs from those who would seek to slay and destroy.</p>
+<h3>Sibusiswe Njai</h3>
+<p>Sibusiswe is a fierce and feral elf with the grace of a panther, and claims that she communes with animistic spirits of the forest and savannah. A loner, she prowls the wildlands, appearing and disappearing like a flash of lightning. </p>
+<p><b>Combat Encounters:</b> Sibusiswe follows the dictates of the animalistic spirits that she believes guide her. Because of this, her attacks can be unprovoked&mdash;as much as a surprise to her as to her victims.</p>
+<p><b>Roleplaying Suggestions:</b> Sibusiswe's spirits are capricious, but also inquisitive. An encounter with the elf is just as likely to end in a parley as it is to end in combat.</p>
+
+<p id="refined-reaver" class="stat-block-title">Refined Reaver <span class="stat-block-cr">CR 17</span></p>
+<p class="stat-block-1"><b>XP</b> 102,400</p>
+<p class="stat-block-1"><b>Human barbarian</b> 18</p>
+
+<p class="stat-block-1">N Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> Perception +21</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 19, touch 12, flat-footed 15 (+7 armor, +3 Dex, +1 dodge, –2 rage)</p>
+<p class="stat-block-1"><b>hp</b> 230 (18d12+108)</p>
+<p class="stat-block-1"><b>Fort</b> +19, <b>Ref</b> +12, <b>Will</b> +12; +6 vs. spells and spell-like and supernatural abilities, +4 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> 50% chance to negate critical hits and sneak attacks, improved uncanny dodge, indomitable will, trap sense +6; <b>DR</b> 4/&mdash;; <b>Immune</b> frightened, nauseated, shaken, sickened</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+<p class="stat-block-1"><b>Melee</b><i>+3 adamantine ranseur</i> +31/+26/+21/+16 (2d4+18/×3)</p>
+<p class="stat-block-1"><b>Ranged</b><i>+1 composite longbow</i> +22/+17/+12/+7 (1d8+11/×3)</p>
+<p class="stat-block-1"><b>Space </b>5 ft.; <b>Reach</b> 5 ft. (10 ft. with ranseur)</p>
+<p class="stat-block-1"><b>Special Attacks</b> greater rage (40 rounds/day), rage powers (fearless rage, guarded stance +4, internal fortitude, mighty swing, quick reflexes, strength surge +18, superstition +6, surprise accuracy +5, unexpected strike)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The barbarian drinks his <i>potion of <a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i> if he has time.</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian plunges into battle using Spring Attack. Once in position, he uses Whirlwind Attack with <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a> and <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, alternating regular ranseur attacks with trip, disarm, or sunder maneuvers (the latter against targets far enough away that they cannot make attacks of opportunity). He exits and re-enters rage whenever necessary to reactivate once-per-rage powers like mighty swing and unexpected strike.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 21, touch 14, flat-footed 17; <b>hp</b> 176; <b>Fort</b> +16, <b>Will</b>+9; no bonus vs. spells and spell-like or supernatural abilities, no bonus vs. enchantments; <b>Melee</b><i>+3 adamantine ranseur</i> +28/+23/+18/+13 (2d4+13/×3); <b>Ranged</b><i>+1 composite longbow</i> +22/+17/+12/+7 (1d8+8/×3); <b>Str</b> 24, <b>Con</b> 14; <b>CMB</b> +25; <b>CMD</b> 39; <b>Skills </b><a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +17, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +17.</p>
+<p class="stat-block-breaker">statistics</p>
+<p class="stat-block-1"><b>Str</b> 30, <b>Dex</b> 16, <b>Con</b> 20, <b>Int</b> 14, <b>Wis</b> 10, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +18; <b>CMB</b> +28 (+32 trip); <b>CMD</b> 40 (42 vs. trip)</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, Greater Trip, Improved Trip, <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, Mobility, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Spring Attack, Whirlwind Attack</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +21, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +20, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +20, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +20, Perception +21, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +7, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +20, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +20</p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> fast movement, tireless rage</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>oil of <a href="/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon" >align weapon</a> </i>(good), <i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a></i> (2); <b>Other Gear</b><i>+1 moderate <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a> breastplate</i>, <i>+3 adamantine ranseur</i>, <i>+1 composite longbow</i> (+10 Str) with 20 arrows, dagger, handaxe, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +</i>6, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +3</i>, <i>pink rhomboid <a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_ioun-stones" >ioun stone</a>, </i>43 gp</p>
+
+<p>Refined reavers mix their savage fury with more refined and civilized weapon attacks and maneuvers, dipping in and out of rage when it suits their purpose. They often work well with groups of allies.<span class="char-style-override-14"></p>
+
+<p id="death-dealer" class="stat-block-title">Death Dealer <span class="stat-block-cr">CR 18</span></p>
+<p class="stat-block-1"><b>XP</b> 153,600</p>
+<p class="stat-block-1"><b>Half-orc barbarian</b> 19</p>
+
+<p class="stat-block-1">CE Medium humanoid (human, orc)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> darkvision 60 ft.; Perception +27</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 13, touch 10, flat-footed 11 (+3 armor, +2 Dex, –2 rage)</p>
+<p class="stat-block-1"><b>hp</b> 243 (19d12+114)</p>
+<p class="stat-block-1"><b>Fort</b> +20, <b>Ref</b> +12, <b>Will</b> +13; +6 vs. spells and spell-like or supernatural abilities, +4 vs. enchantments</p>
+<p class="stat-block-1"><b>Defensive Abilities</b><i><a href="/pathfinderRPG/prd/spells/blink.html#_blink" >blink</a></i>, improved uncanny dodge, indomitable will, orc ferocity, trap sense +6; <b>DR</b> 5/&mdash;</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 40 ft., fly 60 ft. (good)</p>
+<p class="stat-block-1"><b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_unholy" >unholy</a> <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a> adamantine scythe</i> +31/+26/+21/+16 (2d4+16/19–20/×4)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk composite longbow +22/+17/+12/+7 (1d8+10/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> greater rage (42 rounds/day), rage powers (clear mind, intimidating glare, knockback, mighty swing, strength surge +19, superstition +6, surprise accuracy +5, terrifying howl [DC 29], unexpected strike)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The barbarian uses potions if expecting a major confrontation. His <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-blinking" >ring of blinking</a></i> operates continuously.</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian begins combat with Dazzling Display and terrifying howl. Against a small group, he makes Flyby Attacks, using <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a> and <i>potions of <a href="/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person" >enlarge person</a></i> to extend his reach and avoid attacks of opportunity, and Great Cleave against targets clustered together. In close combat, he uses intimidating glare along with Great Cleave attacks, using knockback to force enemies into close quarters. He relies on his <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-blinking" >ring of blinking</a></i> to avoid most attacks, and with his tireless rage he exits and re-enters rage whenever it's convenient to regain the use rage powers he can use only once per rage.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 15, touch 12, flat-footed 13; <b>hp</b> 186; <b>Fort</b> +17, <b>Will</b>+10; no bonus vs. spells and spell-like or supernatural abilities, no bonus vs. enchantments; <b>Melee</b><i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_unholy" >unholy</a> <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a> adamantine scythe</i> +28/+23/+18/+13 (2d4+11/19–20/×4); <b>Ranged</b> mwk composite longbow +22/+17/+12/+7 (1d8+7/×3); <b>Str</b> 24, <b>Con</b> 14; <b>CMB</b> +26; <b>CMD</b> 38; <b>Skills </b><a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +11, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +37, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +11.</p>
+<p class="stat-block-breaker">statistics</p>
+<p class="stat-block-1"><b>Str</b> 30, <b>Dex</b> 14, <b>Con</b> 20, <b>Int</b> 8, <b>Wis</b> 10, <b>Cha</b> 12</p>
+<p class="stat-block-1"><b>Base Atk</b> +19; <b>CMB</b> +29; <b>CMD</b> 39</p>
+<p class="stat-block-1"><b>Feats</b> Cleave, Dazzling Display, <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#flyby-attack" >Flyby Attack</a>, Great Cleave, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (scythe), <a href="/pathfinderRPG/prd/feats.html#_intimidating-prowess" >Intimidating Prowess</a>, <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Shatter Defenses, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (scythe)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +11 (+15 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +14, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +15, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +40, Perception +27, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +5, <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +14</p>
+<p class="stat-block-1"><b>Languages</b> Common, Orc</p>
+<p class="stat-block-1"><b>SQ</b> fast movement, orc blood, tireless rage, weapon familiarity</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>oil of <a href="/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon" >magic weapon</a>, potion of <a href="/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a></i>, <i>potion of <a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (2), <i>potions of <a href="/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person" >enlarge person</a></i> (4), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_silversheen" >silversheen</a></i>, tanglefoot bag; <b>Other Gear</b> masterwork studded leather, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_unholy" >unholy</a> <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a>  adamantine scythe</i>, masterwork composite longbow (+10 Str) with 20 arrows, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength" >belt of giant strength</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_eyes-of-the-eagle" >eyes of the eagle</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_handy-haversack" >handy haversack</a></i>, <i>mask of intimidation</i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-blinking" >ring of blinking</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-feather-falling" >ring of feather falling</a></i>, <i>winged boots</i>, 57 gp</p>
+
+<p>These fearsome killers seek to feed their dark gods with the souls of those they slice apart with their powerful scythes&mdash;weapons powerful enough to cut through both flesh and spirit.<span class="char-style-override-14"></p>
+
+<p id="scarred-wanderer" class="stat-block-title">Scarred Wanderer <span class="stat-block-cr">CR 19</span></p>
+<p class="stat-block-1"><b>XP</b> 204,800</p>
+<p class="stat-block-1"><b>Dwarf barbarian</b> 20</p>
+
+<p class="stat-block-1">CN Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> +2; <b>Senses</b> Perception +25</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 24, touch 10, flat-footed 22 (+7 armor, +2 Dex, –2 rage, +7 shield)</p>
+<p class="stat-block-1"><b>hp</b> 415 (20d12+280)</p>
+<p class="stat-block-1"><b>Fort</b> +28, <b>Ref</b> +12, <b>Will</b> +18; +9 vs. spells and spell-like abilities, +4 vs. enchantments, +2 vs. poison and supernatural abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> 70% chance to negate critical hits and sneak attacks, defensive training (+4 dodge bonus to AC vs. giants), improved uncanny dodge, indomitable will, trap sense +6; <b>DR</b> 8/&mdash;; <b>Immune</b> frightened, harmful vapors and gases, nauseated, shaken, sickened</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 30 ft., fly 60 ft. (good)</p>
+<p class="stat-block-1"><b>Melee</b><i>+5 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-bashing" >bashing</a> spiked heavy <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i> +31/+26/+21/+16 (2d6+11) or <i>+5 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-bashing" >bashing</a> spiked heavy <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i> +29/+24/+19/+14 (2d6+11), <i>+1 adamantine dwarven waraxe</i> +25 (1d10+4/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids, mighty rage (50 rounds/day), rage powers (clear mind, fearless rage, increased damage reduction +3, internal fortitude, knockback, mighty swing, strength surge +20, superstition +7)</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>During Combat</b> The barbarian breaks up enemy positions with bull rush. He always includes knockback and Shield Slam, and adds strength surge against strong enemies.</p>
+<p class="stat-block-1"><b>Base Statistics</b> When not raging, the barbarian's statistics are <b>AC</b> 26, touch 12, flat-footed 24; <b>hp</b> 335; <b>Fort</b> +24, <b>Will</b>+14; +2 vs. poison, spells, and spell-like abilities, no bonus vs. supernatural abilities or enchantments; <b>DR</b> 5/&mdash;; <b>Melee</b><i>+5 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-bashing" >bashing</a> spiked heavy <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i> +27/+22/+17/+12 (2d6+7) or <i>+5 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-bashing" >bashing</a> spiked heavy <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i> +25/+20/+15/+10 (2d6+7), <i>+1 adamantine dwarven waraxe</i> +21 (1d10+2/×3); <b>Str</b> 14, <b>Con</b> 26; <b>CMB</b> +22; <b>CMD</b> 34; <b>Skills</b> <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +16.</p>
+<p class="stat-block-breaker">statistics</p>
+<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 15, <b>Con</b> 34, <b>Int</b> 10, <b>Wis</b> 14, <b>Cha</b> 6</p>
+<p class="stat-block-1"><b>Base Atk</b> +20; <b>CMB</b> +26 (+30 bull rush); <b>CMD</b> 36 (42 vs. bull rush, 40 vs. trip)</p>
+<p class="stat-block-1"><b>Feats</b> Greater Bull Rush, Improved Bull Rush, Improved Shield Bash, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_lunge" >Lunge</a>, <a href="/pathfinderRPG/prd/feats.html#_power-attack" >Power Attack</a>, Shield Master, Shield Slam, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +22, <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +20, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +20, <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a> +3, Perception +25 (+27 to notice unusual stonework), <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (miner) +5, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +6</p>
+<p class="stat-block-1"><b>Languages</b> Common, Dwarven, Giant, Terran, Undercommon</p>
+<p class="stat-block-1"><b>SQ</b> fast movement, tireless rage</p>
+<p class="stat-block-1"><b>Combat Gear</b><i>potion of <a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i>potions of <a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i> (2); <b>Other Gear</b><i>+1 heavy <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a> breastplate</i>, <i>+5 <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-bashing" >bashing</a> spiked heavy steel <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i>+1 adamantine dwarven waraxe</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-mighty-constitution" >belt of mighty constitution</a> +</i>6, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_necklace-of-adaptation" >necklace of adaptation</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-feather-falling" >ring of feather falling</a>, winged boots, </i>150 gp</p>
+<p>These barbarians are always scarred in some way, and wander the land in order to accomplish great deeds.</p>
+<h3>Gorgu Stonesplitter</h3>
+<p>Once an ordinary dwarven warrior, Gorgu Stonesplitter was captured and enslaved by fire giants who shaved his beard, and burned and scarred his face. After years of toil in their mines, he gained his freedom when the giants' king was overthrown by a group of adventurers. Gorgu threw his lot in with them in the hope of taking his revenge on the giants' masters. While he learned much, killing could not restore his pride or his faith in his people, nor slake the rage in his heart. Since taking his leave from his companions, he has roamed the world in search of purpose. He fights now for the fun of it, and his temper has gradually cooled to dark embers. Still, he might join any nearby fray on any side. Should anyone land a blow he notices, he might begin to fight in earnest.</p>
+<p><b>Combat Encounters:</b> A glutton for battle, Gorgu fights for anyone or any cause that might offer a challenge.</p>
+<p><b>Roleplaying Suggestions:</b> Every so often, Gorgu seeks out powerful adventurers to lead him to an impossible foe&mdash;which he secretly plans to take down single-handedly.<span class="char-style-override-14"></p>
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

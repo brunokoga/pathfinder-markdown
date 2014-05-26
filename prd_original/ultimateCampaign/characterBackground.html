@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Character Background</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Character Background",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="character-background" id="character-background">Character Background</h1>
+<p>A character background details the significant events, people, and life experiences that make up the origin story of a character prior to his or her role in the saga of a campaign. Some characters are born under extraordinary circumstances, heralded by prophecy and omen; others live completely ordinary lives until some dramatic event casts them onto the dangerous roads traveled by heroes and monsters. A character's background forms the basis for complex motivations and emotional vulnerabilities, and these past experiences guide the way the character responds to circumstances in his or her present life. As the child of a goddess and a mortal, do you view ordinary creatures as inferior beings? Having grown up in abject poverty, how do you react when someone steals from you? If a militant theocracy burned your siblings as heretics, how do you respond to clerics of other religions? When playing a new character, the details in your background give you a quick handle on your past, making it easier to slip into the character's skin and embrace this mind-set in play. As the campaign proceeds, your early adventures gradually become part of that background&mdash;a seamless chain of events that make up your life and contribute to your constantly changing and evolving persona.</p>
+
+<h2 id="how-to-create-a-background">How to Create a Background</h2>
+<p>There are several ways you can approach character background. One approach is an organic method&mdash;brainstorming character details, guided by the questions in the following sections of this chapter. Alternatively, you might use the background generator, starting on page 16 to compile your history randomly. You can also use the charts and tables in the background generator as a springboard for your imagination, deliberately selecting background elements that inspire you or fit the direction you wish to explore.</p>
+<p>For published Pathfinder Adventure Paths, you often have the option of selecting campaign traits that tie your character thematically into a specific storyline relevant to that Adventure Path. Check with your GM to see if she can point you to official campaign traits or other traits that may help link your character to the campaign or adventure she's running. Such traits provide a good foundation upon which you can add details from this book, either by rolling randomly or by manually selecting background details that mesh well with your campaign's themes.</p>
+<p>No matter how you go about developing your character's background, the next step is to quantify that background in terms of game mechanics. Select two traits (or three traits and a drawback) that capture the background you imagined.  Traits and drawbacks begin on page 51. These traits provide small bonuses that reflect skills and knowledge gained from your life experiences. The drawback, if you choose to take one, represents an emotional vulnerability or character flaw that should not only provide a slight mechanical disadvantage, but also (more importantly) serve as a roleplaying tool for making interesting choices. After all, nobody's perfect!</p>
+
+<h3 id="brainstorming-your-background">Brainstorming Your Background</h3>
+<p>Before you start working on your background, roll your ability scores and select your race and class. With this basic information determined, you can focus on creating a backstory consistent with those key elements, brainstorming the details of your background in a way that makes sense with your race, class, and attributes.</p>
+<p>The following sections of this chapter examine your life leading up to the beginning of the campaign, starting from your birth, proceeding through the formative experiences of childhood and adolescence, and ending with the development of your worldview in early adulthood. Each section poses a number of questions to consider. You don't need to know the answers to <i>all </i>of these questions, and some things you might prefer to discover as the game proceeds. However, you may find it easier to step into your character's head if you spend some time contemplating these questions, simply because you'll have more information to draw from. These questions are prompts to focus your imagination toward certain points in your life in order to create strong roleplaying and story hooks for you, your group, and your GM.</p>
+
+<h3 id="creating-a-unique-character-concept">Creating a Unique Character Concept</h3>
+<p>Sometimes, creating a character that feels original and stands out from others of the same class and race can seem like a challenge. It's easy to fall into playing the stereotype of a race or class&mdash;the ale-swilling dwarven fighter with the battleaxe, the quick and wise elven ranger roaming the woodlands with a longbow, the sneaky and childlike halfling rogue, and so on. While there's nothing wrong with these, and they can be a lot of fun&mdash;after all, there's a reason they became cultural archetypes in the first place&mdash;sometimes you want to try something new. Presented here are some techniques you can use to help you break away from stereotypes.</p>
+<p><b>Originality</b>: If you strive too hard to be original, you'll likely be disappointed when you discover that someone else has already implemented your idea in a book, film, game, or other kind of media. Yet, while original <i>ideas </i>are hard to come by, every <i>person</i> you meet is unique, shaped by his or her individual experiences. Rather than strive for an original concept, try focusing on the experiences that define your character's life and give him his personality and point of view. Specific experiences will help move you away from the stereotypical and cliche.</p>
+<p><b>The Third Idea</b>: When you're brainstorming ideas, it sometimes helps to reject the first and second ideas that leap to mind, and instead consider the third, fourth, and fifth ideas you come up with. This way, you're challenging yourself to explore wider, more interesting possibilities full of unexplored story potential. The easy ideas that spring to mind first probably do so because you've seen them before.</p>
+<p><b>Opposites</b>: When you're stuck on an characteristic that strikes you as boring, plain, or stereotypical, decide that the opposite is instead true of yourself. For instance, if you're playing the aforementioned dwarven fighter, perhaps one of the following holds:</p>
+
+<ul><li>You have taken a vow against drinking, can't hold your liquor, or act in a peculiar, eccentric way when drunk.</li>
+<li>You can't grow a beard.</li>
+<li>You favor a weapon that is not a hammer, axe, crossbow, or other typical dwarven weapon.</li>
+<li>You live in a forest or on an island rather than in the hills and mountains favored by most dwarves.</li>
+<li>You are a pacifist who loathes violence.</li>
+<li>You deeply pity or love orcs and goblins.</li></ul>
+
+<p>Any one of these character quirks can prove ripe for character development and story hooks in the campaign.</p>
+<p><b>Steal Shamelessly</b>: Sometimes when starting a new character, you just need a good template or foundation from which to build. Characters from literature, comics, history, real life, or television and film can provide that foundation in an instant. The key is to alter various aspects of the model character until you have changed enough to have an altogether different concept.</p>
+<p>How would Count Dracula be different as an elven wizard? What about as a halfling cleric? Are you obsessed with feasting on blood, or are you simply ancient, creepy, solitary, and mysterious?</p>
+<p>What about reinterpreting Julius Caesar as a human rogue or a gnome illusionist? Is this human rogue one of three mobsters scheming to eliminate the competition and rule a city the way Caesar eliminated his competitors to rule Rome? Has your gnome illusionist received a prophetic message predicting his own death, as Caesar did from the soothsayer?</p>
+<p>Building on the foundations of established characters or people gives you a framework, at which point you just need to give yourself different circumstances in order to inspire a new idea, one that will grow on its own as you continue to play. The initial inspiration or model you choose helps you come to grips with your character quickly without feeling like you have to reinvent the wheel.</p>
+<p>Another way to accomplish this is to combine notable traits of two disparate characters from media or history. For instance, how would you play a character with Sherlock Holmes' skill at deduction and Hamlet's indecision? Achilles' battle prowess paired with Nikola Tesla's inventive mind? Merlin's magic with Marie Curie's search for scientific truth? Joan of Arc's faithful conviction and Napoleon's overwhelming ambition?</p>
+
+<h2 id="two-quirks-and-a-flaw">Two Quirks and a Flaw: Quick and Dirty Character Establishment</h2>
+<p>If you're pressed for time or you're looking to create the basics of a character as simply as possible, establish the essence of your personality by thinking of two quirks and a flaw. Quirks are specific attributes of your personality or psyche: character traits, compulsions, eccentricities, or uncommon physical features. These shouldn't be commonplace or mundane. "Tall" is a poor one, but "too big for my body" could be great. "Charismatic" is weak, but "flirts with nearly everybody I meet" is specific and actionable. "Homebody" is not as good a quirk as "feels tired, uncomfortable, and hungry away from home."</p>
+<p>Add a flaw the same way. Instead of merely being "arrogant," maybe you "believe I'm smarter than anyone I know." Perhaps you're not so much "proud" as "afraid of being wrong and looking stupid." Rather than "greedy," you may be "terrified of dying poor and hungry."</p>
+<p>When you choose an attribute or trait to use as a quirk or flaw, you can dig deeper into the concept by asking yourself how and why. If you're shy, <i>how</i> shy are you? So shy that you can never look anyone directly in the eye? If you're paranoid, <i>why</i> are you paranoid? Maybe everyone you've ever trusted betrayed you? Homing in on desires and fears will help answer those questions. For the sake of brevity, the background generator uses basic descriptors for quirks and flaws. Take a little time to further build on those bare-bones descriptors with these sort of details, which will help color in an otherwise simple, nondescript character.</p>
+
+<h2 id="using-this-section">Using This Section</h2>
+<p>The rest of this section dives deep into your background, starting from birth and early childhood through adolescence and into early adulthood. Each bit has a number of questions to think (or write) about. As you go through them, you might find a question doesn't apply you. That's an opportunity to instead think about why it doesn't apply, and what that means about your relationship to the rest of the world. Likewise, if you find you have a short answer to a question, especially "yes" or "no," that's an opportunity to dig deeper into why that's the case.</p>
+<p>Above all, don't let creating a background become a burden for you. The goal is to help you play a character, not to paralyze you with decisions you don't want to make right now.</p>
+
+<p class="shortcutBarSmlLink"><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground/earlyLife.html" style="padding-right: 1em;">Early Life</a> <a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground/adolescence.html" style="padding-right: 1em;">Adolescence</a> <a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground/adulthood.html" style="padding-right: 1em;">Adulthood</a> <a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground/backgroundGenerator.html" style="padding-right: 1em;">Background Generator</a> <a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground/traits.html" style="padding-right: 1em;">Traits</a> <a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground/storyFeats.html" style="padding-right: 1em;">Story Feats</a></p>
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

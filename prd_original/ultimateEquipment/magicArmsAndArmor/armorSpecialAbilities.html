@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Armor Special Abilities</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Armor Special Abilities",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html', name: 'Magic Arms and Armor' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="armor-special-abilities">Armor Special Abilities</h1>
+<p>Enchanted armor is one of the most important things an adventurer can acquire&mdash;for what good is wealth and power when a dragon claw rips through your breastplate?</p>
+<p>In general, magic armor protects the wearer to a greater extent than nonmagical armor. Magic armor bonuses are enhancement bonuses, never rise above +5, and stack with regular armor bonuses (and with shield and magic shield enhancement bonuses). All magic armor is also masterwork armor, reducing armor check penalties by 1.</p>
+<p>In addition to an enhancement bonus, armor may have special abilities. Special abilities usually count as additional bonuses for determining the market value of an item, but do not improve AC. A suit of armor cannot have an effective bonus (enhancement plus special ability bonus equivalents, including those from character abilities and spells) higher than +10. A suit of armor with a special ability must also have at least a +1 enhancement bonus.</p>
+<p>A suit of armor or a shield may be made of an unusual material. Roll d%: 01&ndash;95 indicates that the item is of a standard sort, and 96&ndash;100 indicates that it is made of a special material.</p>
+<p>Armor is always created so that if the type of armor comes with a pair of boots, a helm, or a set of gauntlets, these pieces can be exchanged for other magic boots, helms, or gauntlets.</p>
+<p><b>Caster Level for Armor and Shields</b>: The caster level of a magic shield or magic armor with a special ability is given in the item description. For an item with only an enhancement bonus, the caster level is three times the enhancement bonus. If an item has both an enhancement bonus and a special ability, the higher of the two caster level requirements must be met.</p>
+<p><b>Shields</b>: Shield enhancement bonuses stack with armor enhancement bonuses. Shield enhancement bonuses do not act as attack or damage bonuses when the shield is used in a shield bash. The bashing special ability, however, does grant a +1 bonus on attack and damage rolls (see the special ability description).</p>
+<p>A shield could be built that also acted as a magic weapon, but the cost of the enhancement bonus on attack rolls would need to be added into the cost of the shield and its enhancement bonus to AC.</p>
+<p>As with armor, special abilities built into the shield add to the market value in the form of additions to the bonus of the shield, although they do not improve AC. A shield cannot have an effective bonus (enhancement plus special ability bonus equivalents) higher than +10. A shield with a special ability must also have at least a +1 enhancement bonus.</p>
+<p><b>Activation</b>: Usually a character benefits from magic armor and shields in exactly the way a character benefits from nonmagical armor and shields: by wearing them. If armor or a shield has a special ability that the user needs to activate, then the user usually needs to utter the command word (a standard action).</p>
+<p><b>Armor for Unusual Creatures</b>: The cost of armor for non-humanoid creatures, as well as for creatures who are neither Small nor Medium, varies. The cost of the masterwork quality and any magical enhancement remains the same.</p>
+
+<table id="armor-and-shield-pricing-by-bonus-table"><caption>Armor and Shield Pricing by Bonus</caption>
+<thead><tr><th>Armor or Shield Bonus</th><th>Base Price</th></tr></thead>
+<tr class="odd"><td>+1</td><td>1,000 gp</td></tr>
+<tr class="even"><td>+2</td><td>4,000 gp</td></tr>
+<tr class="odd"><td>+3</td><td>9,000 gp</td></tr>
+<tr class="even"><td>+4</td><td>16,000 gp</td></tr>
+<tr class="odd"><td>+5</td><td>25,000 gp</td></tr>
+<tr class="even"><td>+6*</td><td>36,000 gp</td></tr>
+<tr class="odd"><td>+7*</td><td>49,000 gp</td></tr>
+<tr class="even"><td>+8*</td><td>64,000 gp</td></tr>
+<tr class="odd"><td>+9*</td><td>81,000 gp</td></tr>
+<tr class="even"><td>+10*</td><td>100,000 gp</td></tr>
+<tfoot><tr><td colspan="2" style="white-space: normal;">* An armor or shield can't have an enhancement bonus higher than +5.<br />Use these lines to determine price when special abilities that count as additional bonuses are added in.</td></tr></tfoot></table>
+
+<table id="magic-armor-and-shields-table"><caption>Magic Armor And Shields</caption>
+<thead><tr><th>d%</th><th>Lesser Minor Armor or Shield</th></tr></thead>
+<tr class="odd"><td>01&ndash;80</td><td>+1 armor or shield</td></tr>
+<tr class="even"><td>81&ndash;100</td><td>Lesser minor specific armor or shield</td></tr>
+<thead><tr><th>d%</th><th>Greater Minor Armor of Shield</th></tr></thead>
+<tr class="odd"><td>01&ndash;26</td><td>+1 armor or shield</td></tr>
+<tr class="odd"><td>27&ndash;53</td><td>+2 armor or shield</td></tr>
+<tr class="even"><td>54&ndash;80</td><td>+1 armor or shield with one +1 special ability*</td></tr>
+<tr class="odd"><td>81&ndash;100</td><td>Greater minor specific armor or shield</td></tr>
+<thead><tr><th>d%</th><th>Lesser Medium Armor or Shield</th></tr></thead>
+<tr class="odd"><td>01&ndash;10</td><td>+1 armor or shield</td></tr>
+<tr class="even"><td>11&ndash;20</td><td>+2 armor or shield</td></tr>
+<tr class="odd"><td>21&ndash;32</td><td>+3 armor or shield</td></tr>
+<tr class="even"><td>33&ndash;44</td><td>+1 armor or shield with one +1 special ability*</td></tr>
+<tr class="odd"><td>45&ndash;56</td><td>+1 armor or shield with two +1 special abilities*</td></tr>
+<tr class="even"><td>57&ndash;68</td><td>+1 armor or shield with one +2 special ability*</td></tr>
+<tr class="odd"><td>69&ndash;80</td><td>+2 armor or shield with one +1 special ability*</td></tr>
+<tr class="even"><td>81&ndash;100</td><td>Lesser medium specific armor or shield</td></tr>
+<thead><tr><th>d%</th><th>Greater Medium Armor or Shield</th></tr></thead>
+<tr class="odd"><td>01&ndash;10</td><td>+2 armor or shield</td></tr>
+<tr class="even"><td>11&ndash;22</td><td>+3 armor or shield</td></tr>
+<tr class="odd"><td>23&ndash;32</td><td>+1 armor or shield with one +1 special ability*</td></tr>
+<tr class="even"><td>33&ndash;44</td><td>+1 armor or shield with one +2 special ability*</td></tr>
+<tr class="odd"><td>45&ndash;56</td><td>+2 armor or shield with one +1 special ability*</td></tr>
+<tr class="even"><td>57&ndash;68</td><td>+2 armor or shield with one +2 special ability*</td></tr>
+<tr class="odd"><td>69&ndash;80</td><td>+3 armor or shield with one +1 special ability*</td></tr>
+<tr class="even"><td>81&ndash;100</td><td>Greater medium specific armor or shield</td></tr>
+<thead><tr><th>d%</th><th>Lesser Major Armor or Shield</th></tr></thead>
+<tr class="odd"><td>01&ndash;10</td><td>+3 armor or shield</td></tr>
+<tr class="even"><td>11&ndash;22</td><td>+4 armor or shield</td></tr>
+<tr class="odd"><td>23&ndash;32</td><td>+1 armor or shield with one +2 special ability*</td></tr>
+<tr class="even"><td>33&ndash;44</td><td>+1 armor or shield with one +3 special ability*</td></tr>
+<tr class="odd"><td>45&ndash;56</td><td>+2 armor or shield with one +2 special ability*</td></tr>
+<tr class="even"><td>57&ndash;68</td><td>+3 armor or shield with one +1 special ability*</td></tr>
+<tr class="odd"><td>69&ndash;80</td><td>+4 armor or shield with one +1 special ability*</td></tr>
+<tr class="even"><td>81&ndash;100</td><td>Lesser major specific armor or shield</td></tr>
+<thead><tr><th>d%</th><th>Greater Major Armor or Shield</th></tr></thead>
+<tr class="odd"><td>01&ndash;10</td><td>+4 armor or shield</td></tr>
+<tr class="even"><td>11&ndash;20</td><td>+5 armor or shield</td></tr>
+<tr class="odd"><td>21&ndash;30</td><td>+4 armor or shield with one +1 special ability*</td></tr>
+<tr class="even"><td>31&ndash;38</td><td>+4 armor or shield with one +2 special ability*</td></tr>
+<tr class="odd"><td>39&ndash;46</td><td>+4 armor or shield with one +3 special ability*</td></tr>
+<tr class="even"><td>47&ndash;51</td><td>+4 armor or shield with one +4 special ability*</td></tr>
+<tr class="odd"><td>52&ndash;59</td><td>+5 armor or shield with one +1 special ability*</td></tr>
+<tr class="even"><td>60&ndash;67</td><td>+5 armor or shield with one +2 special ability*</td></tr>
+<tr class="odd"><td>68&ndash;71</td><td>+5 armor or shield with one +3 special ability*</td></tr>
+<tr class="even"><td>72&ndash;74</td><td>+5 armor or shield with two +2 special abilities*</td></tr>
+<tr class="odd"><td>75&ndash;77</td><td>+5 armor or shield with one +4 special ability*</td></tr>
+<tr class="even"><td>78&ndash;80</td><td>+5 armor or shield with one +5 special ability*</td></tr>
+<tr class="odd"><td>81&ndash;100</td><td>Greater major specific armor or shield</td></tr>
+<tfoot><tr><td colspan="2" style="white-space: normal;">* See the <a href="#_armor-special-abilities-table">Armor Special Abilities table</a> or the <a href="#_shield-special-abilities-table">Shield Special Abilities table</a></td></tr></tfoot></table>
+
+<table id="armor-special-abilities-table"><caption>Armor Special Abilities</caption>
+<thead><tr><th>d%</th><th>+1 Armor Special Ability</th><th>Base Price*</th></tr></thead>
+<tr class="odd"><td>01&ndash;06</td><td><i>Benevolent</i></td><td>+2,000 gp</td></tr>
+<tr class="even"><td>07&ndash;12</td><td><i>Poison-resistant</i></td><td>+2,250 gp</td></tr>
+<tr class="odd"><td>13&ndash;18</td><td><i>Balanced</i></td><td>+1 bonus</td></tr>
+<tr class="even"><td>19&ndash;24</td><td><i>Bitter</i></td><td>+1 bonus</td></tr>
+<tr class="odd"><td>25&ndash;30</td><td><i>Bolstering</i></td><td>+1 bonus</td></tr>
+<tr class="even"><td>31&ndash;36</td><td><i>Brawling</i></td><td>+1 bonus</td></tr>
+<tr class="odd"><td>37&ndash;42</td><td><i><a href="/pathfinderRPG/prd/advanced/magicItems/armor.html#_champion" >Champion</a></i></td><td>+1 bonus</td></tr>
+<tr class="even"><td>43&ndash;48</td><td><i><a href="/pathfinderRPG/prd/advanced/magicItems/armor.html#_dastard" >Dastard</a></i></td><td>+1 bonus</td></tr>
+<tr class="odd"><td>49&ndash;54</td><td><i>Deathless</i></td><td>+1 bonus</td></tr>
+<tr class="even"><td>55&ndash;60</td><td><i>Defiant</i></td><td>+1 bonus</td></tr>
+<tr class="odd"><td>61&ndash;66</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >Fortification</a> (<a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a>)</i></td><td>+1 bonus</td></tr>
+<tr class="even"><td>67&ndash;71</td><td><i>Grinding</i></td><td>+1 bonus</td></tr>
+<tr class="odd"><td>72&ndash;76</td><td><i>Impervious</i></td><td>+1 bonus</td></tr>
+<tr class="even"><td>77&ndash;82</td><td><i>Mirrored</i></td><td>+1 bonus</td></tr>
+<tr class="odd"><td>83&ndash;88</td><td><i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_spell-storing" >Spell storing</a></i></td><td>+1 bonus</td></tr>
+<tr class="even"><td>89&ndash;94</td><td><i>Stanching</i></td><td>+1 bonus</td></tr>
+<tr class="odd"><td>95&ndash;100</td><td><i>Warding</i></td><td>+1 bonus</td></tr>
+<thead><tr><th>d%</th><th>+2 Armor Special Ability</th><th>Base Price*</th></tr></thead>
+<tr class="odd"><td>01&ndash;12</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-glamered" >Glamered</a></i></td><td>+2,700 gp</td></tr>
+<tr class="even"><td>13&ndash;24</td><td><i><a href="/pathfinderRPG/prd/advanced/magicItems/armor.html#_jousting" >Jousting</a></i></td><td>+3,750 gp</td></tr>
+<tr class="odd"><td>25&ndash;38</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow" >Shadow</a></i></td><td>+3,750 gp</td></tr>
+<tr class="even"><td>39&ndash;52</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-slick" >Slick</a></i></td><td>+3,750 gp</td></tr>
+<tr class="odd"><td>53&ndash;64</td><td><i>Expeditious</i></td><td>+4,000 gp</td></tr>
+<tr class="even"><td>65&ndash;76</td><td><i>Creeping</i></td><td>+5,000 gp</td></tr>
+<tr class="odd"><td>77&ndash;88</td><td><i>Rallying</i></td><td>+5,000 gp</td></tr>
+<tr class="even"><td>89&ndash;100</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance" >Spell resistance</a> (13)</i></td><td>+2 bonus</td></tr>
+<thead><tr><th>d%</th><th>+3 Armor Special Ability</th><th>Base Price*</th></tr></thead>
+<tr class="odd"><td>01&ndash;08</td><td><i>Adhesive</i></td><td>+7,000 gp</td></tr>
+<tr class="even"><td>09&ndash;17</td><td><i>Hosteling</i></td><td>+7,500 gp</td></tr>
+<tr class="odd"><td>18&ndash;26</td><td><i>Radiant</i></td><td>+7,500 gp</td></tr>
+<tr class="even"><td>27&ndash;36</td><td><i>Delving</i></td><td>+10,000 gp</td></tr>
+<tr class="odd"><td>37&ndash;45</td><td><i>Putrid</i></td><td>+10,000 gp</td></tr>
+<tr class="even"><td>46&ndash;55</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >Fortification</a> (moderate)</i></td><td>+3 bonus</td></tr>
+<tr class="odd"><td>56&ndash;65</td><td><i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch" >Ghost touch</a></i></td><td>+3 bonus</td></tr>
+<tr class="even"><td>66&ndash;74</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-invulnerability" >Invulnerability</a></i></td><td>+3 bonus</td></tr>
+<tr class="odd"><td>75&ndash;84</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance" >Spell resistance</a> (15)</i></td><td>+3 bonus</td></tr>
+<tr class="even"><td>85&ndash;92</td><td><i>Titanic</i></td><td>+3 bonus</td></tr>
+<tr class="odd"><td>93&ndash;100</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-wild" >Wild</a></i></td><td>+3 bonus</td></tr>
+<thead><tr><th>d%</th><th>+4 Armor Special Ability</th><th>Base Price*</th></tr></thead>
+<tr class="odd"><td>01&ndash;16</td><td><i>Harmonizing</i></td><td>+15,000 gp</td></tr>
+<tr class="even"><td>17&ndash;33</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow-improved" >Shadow, improved</a></i></td><td>+15,000 gp</td></tr>
+<tr class="odd"><td>34&ndash;50</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-slick-improved" >Slick, improved</a></i></td><td>+15,000 gp</td></tr>
+<tr class="even"><td>51&ndash;67</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-energy-resistance" >Energy resistance</a></i></td><td>+18,000 gp</td></tr>
+<tr class="odd"><td>68&ndash;83</td><td><i>Martyring</i></td><td>+18,000 gp</td></tr>
+<tr class="even"><td>84&ndash;100</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance" >Spell resistance</a> (17)</i></td><td>+4 bonus</td></tr>
+<thead><tr><th>d%</th><th>+5 Armor Special Ability</th><th>Base Price*</th></tr></thead>
+<tr class="odd"><td>01&ndash;08</td><td><i><a href="/pathfinderRPG/prd/advanced/magicItems/armor.html#_righteous" >Righteous</a></i></td><td>+27,000 gp</td></tr>
+<tr class="even"><td>09&ndash;15</td><td><i>Unbound</i></td><td>+27,000 gp</td></tr>
+<tr class="odd"><td>16&ndash;23</td><td><i><a href="/pathfinderRPG/prd/advanced/magicItems/armor.html#_unrighteous" >Unrighteous</a></i></td><td>+27,000 gp</td></tr>
+<tr class="even"><td>24&ndash;30</td><td><i>Vigilant</i></td><td>+27,000 gp</td></tr>
+<tr class="odd"><td>31&ndash;37</td><td><i>Determination</i></td><td>+30,000 gp</td></tr>
+<tr class="even"><td>38&ndash;45</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow-greater" >Shadow, greater</a></i></td><td>+33,750 gp</td></tr>
+<tr class="odd"><td>46&ndash;53</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-slick-greater" >Slick, greater</a></i></td><td>+33,750 gp</td></tr>
+<tr class="even"><td>54&ndash;61</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-energy-resistance-improved" >Energy <a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a>, improved</a></i></td><td>+42,000 gp</td></tr>
+<tr class="odd"><td>62&ndash;69</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-etherealness" >Etherealness</a></i></td><td>+49,000 gp</td></tr>
+<tr class="even"><td>70&ndash;76</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-undead-controlling" >Undead controlling</a></i></td><td>+49,000 gp</td></tr>
+<tr class="odd"><td>77&ndash;84</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-energy-resistance-greater" >Energy <a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a>, greater</a></i></td><td>+66,000 gp</td></tr>
+<tr class="even"><td>85&ndash;92</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >Fortification</a> (heavy)</i></td><td>+5 bonus</td></tr>
+<tr class="odd"><td>93&ndash;100</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance" >Spell resistance</a> (19)</i></td><td>+5 bonus</td></tr>
+<tfoot><tr><td colspan="3" style="white-space: normal;">* Add to enhancement bonus on from the <a href="#_armor-and-shield-pricing-by-bonus-table">Armor and Shield Pricing by Bonus table</a> to determine total price</td></tr></tfoot></table>
+
+<table id="shield-special-abilities-table"><caption>Shield Special Abilities</caption>
+<thead><tr><th>d%</th><th>+1 Shield Special Ability</th><th>Base Price*</th></tr></thead>
+<tr class="odd"><td>01&ndash;10</td><td><i>Poison-resistant</i></td><td>+2,250 gp</td></tr>
+<tr class="even"><td>11&ndash;19</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-arrow-catching" >Arrow catching</a></i></td><td>+1 bonus</td></tr>
+<tr class="odd"><td>20&ndash;28</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-bashing" >Bashing</a></i></td><td>+1 bonus</td></tr>
+<tr class="even"><td>29&ndash;37</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-blinding" >Blinding</a></i></td><td>+1 bonus</td></tr>
+<tr class="odd"><td>38&ndash;46</td><td><i>Clangorous</i></td><td>+1 bonus</td></tr>
+<tr class="even"><td>47&ndash;55</td><td><i>Defiant</i></td><td>+1 bonus</td></tr>
+<tr class="odd"><td>56&ndash;64</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >Fortification</a> (<a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a>)</i></td><td>+1 bonus</td></tr>
+<tr class="even"><td>65&ndash;73</td><td><i>Grinding</i></td><td>+1 bonus</td></tr>
+<tr class="odd"><td>74&ndash;82</td><td><i>Impervious</i></td><td>+1 bonus</td></tr>
+<tr class="even"><td>83&ndash;91</td><td><i>Mirrored</i></td><td>+1 bonus</td></tr>
+<tr class="odd"><td>92&ndash;100</td><td><i>Ramming</i></td><td>+1 bonus</td></tr>
+<thead><tr><th>d%</th><th>+2 Shield Special Ability</th><th>Base Price*</th></tr></thead>
+<tr class="odd"><td>01&ndash;15</td><td><i>Rallying</i></td><td>+5,000 gp</td></tr>
+<tr class="even"><td>16&ndash;30</td><td><i>Wyrmsbreath</i></td><td>+5,000 gp</td></tr>
+<tr class="odd"><td>31&ndash;50</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-animated" >Animated</a></i></td><td>+2 bonus</td></tr>
+<tr class="even"><td>51&ndash;67</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-arrow-deflection" >Arrow deflection</a></i></td><td>+2 bonus</td></tr>
+<tr class="odd"><td>68&ndash;82</td><td><i>Merging</i></td><td>+2 bonus</td></tr>
+<tr class="even"><td>83&ndash;100</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance" >Spell resistance</a> (13)</i></td><td>+2 bonus</td></tr>
+<thead><tr><th>d%</th><th>+3 Shield Special Ability</th><th>Base Price*</th></tr></thead>
+<tr class="odd"><td>01&ndash;15</td><td><i>Hosteling</i></td><td>+7,500 gp</td></tr>
+<tr class="even"><td>16&ndash;32</td><td><i>Radiant</i></td><td>+7,500 gp</td></tr>
+<tr class="odd"><td>33&ndash;49</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >Fortification</a> (moderate)</i></td><td>+3 bonus</td></tr>
+<tr class="even"><td>50&ndash;66</td><td><i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch" >Ghost touch</a></i></td><td>+3 bonus</td></tr>
+<tr class="odd"><td>67&ndash;83</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance" >Spell resistance</a> (15)</i></td><td>+3 bonus</td></tr>
+<tr class="even"><td>84&ndash;98</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-wild" >Wild</a></i></td><td>+3 bonus </td></tr>
+<thead><tr><th>d%</th><th>+4 Shield Special Ability</th><th>Base Price*</th></tr></thead>
+<tr class="odd"><td>01&ndash;50</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-energy-resistance" >Energy resistance</a></i></td><td>+18,000 gp</td></tr>
+<tr class="even"><td>51&ndash;100</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance" >Spell resistance</a> (17)</i></td><td>+4 bonus </td></tr>
+<thead><tr><th>d%</th><th>+5 Shield Special Ability</th><th>Base Price*</th></tr></thead>
+<tr class="odd"><td>1&ndash;11</td><td><i>Determination</i></td><td>+30,000 gp</td></tr>
+<tr class="even"><td>12&ndash;27</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-energy-resistance-improved" >Energy <a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a>, improved</a></i></td><td>+42,000 gp</td></tr>
+<tr class="odd"><td>28&ndash;38</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-undead-controlling" >Undead controlling</a></i></td><td>+49,000 gp</td></tr>
+<tr class="even"><td>39&ndash;55</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-energy-resistance-greater" >Energy <a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a>, greater</a></i></td><td>+66,000 gp</td></tr>
+<tr class="odd"><td>56&ndash;70</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >Fortification</a> (heavy)</i></td><td>+5 bonus</td></tr>
+<tr class="even"><td>71&ndash;85</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-reflecting" >Reflecting</a></i></td><td>+5 bonus</td></tr>
+<tr class="odd"><td>86&ndash;100</td><td><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance" >Spell resistance</a> (19)</i></td><td>+5 bonus</td></tr>
+<tfoot><tr><td colspan="3" style="white-space: normal;">* Add to enhancement bonus on <a href="#_armor-and-shield-pricing-by-bonus-table">Armor and Shield Pricing by Bonus table</a> to determine total price</td></tr></table>
+
+
+<h2 id="magic-armor-ands-shield-ability-descriptions">Magic Armor and Shield Special Ability Descriptions</h2>
+<p>Most magic armor and shields have only enhancement bonuses. Such items can also have one or more of the special abilities detailed below. Armor or a shield with a special ability must have at least a +1 enhancement bonus.</p>
+				
+<p id="adhesive" class="stat-block-title">Adhesive</p>
+<p class="stat-block-1"><b>Price</b> +7,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 10th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">On command, the hands and feet of this armor's wearer become incredibly sticky, granting her a climb speed of 20 feet. The stickiness grants the wearer a +2 enhancement bonus on combat maneuver checks made to disarm, grapple, reposition, steal, or trip when the wearer is using a natural weapon or unarmed strike to attempt the maneuver. The wearer can gain these benefits for 10 rounds per day. These rounds need not be consecutive, but they must be spent in 1-round intervals. Ending the effect is a free action. <i>Adhesive</i> cannot be placed on armor with any version of the <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-slick" >slick</a></i> special ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +3,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb" >spider climb</a></i></p>
+				
+<p id="animated" class="stat-block-title">Animated</p>
+<p class="stat-block-1"><b>Price</b> +2 Bonus; <b>Aura</b> strong transmutation; <b>CL</b> 12th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">As a move action, an <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-animated" >animated</a></i> shield can be loosed to defend its wielder on its own. For the following 4 rounds, the shield grants its bonus to the one who loosed it and then drops. While animated, the shield provides its shield bonus and the bonuses from all of the other shield special abilities it possesses, but it cannot take actions on its own, such as those provided by the <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-bashing" >bashing</a></i> and <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-blinding" >blinding</a></i> abilities. It can, however, use special abilities that do not require an action to function, such as <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-arrow-deflection" >arrow deflection</a> </i>and <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-reflecting" >reflecting</a></i>. While animated, a shield shares the same space as the activating character and accompanies the character who activated it, even if the character moves by magical means. A character with an <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-animated" >animated</a></i> shield still takes any penalties associated with shield use, such as armor check penalty, arcane spell failure chance, and nonproficiency. If the wielder who loosed it has an unoccupied hand, she can grasp it to end its animation as a free action. Once a shield has been retrieved, it cannot be animated again for at least 4 rounds. This special ability cannot be added to a tower shield.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +2 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects" >animate objects</a></i></p>
+				
+<p id="arrow-catching" class="stat-block-title">Arrow Catching</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> moderate abjuration; <b>CL</b> 8th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A shield with this ability attracts ranged weapon attacks to it. It has a deflection bonus of +1 against ranged weapons because projectiles and thrown weapons veer toward it. Additionally, any projectile or thrown weapon aimed at a target within 5 feet of the shield's wearer diverts from its original target and targets the shield's bearer instead. If the wielder has total cover relative to the attacker, the projectile or thrown weapon is not diverted. Additionally, those attacking the wearer with ranged weapons ignore any miss chances that would normally apply. Projectiles and thrown weapons that have an enhancement bonus higher than the shield's base AC bonus are not diverted to the wearer (but the shield's deflection bonus still applies against these weapons). The wielder can activate or deactivate this ability with a command word.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield" >entropic shield</a></i></p>
+				
+<p id="arrow-deflection" class="stat-block-title">Arrow Deflection</p>
+<p class="stat-block-1"><b>Price</b> +2 bonus; <b>Aura</b> faint abjuration; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This shield protects the wielder as if he had the Deflect Arrows feat. Once per round when he would normally be struck by a ranged weapon, he can make a DC 20 Reflex save. If the ranged weapon (or piece of ammunition) has an enhancement bonus, the DC increases by that amount. If he succeeds, the shield deflects the weapon. He must be aware of the attack and not flat-footed. Attempting to deflect a ranged weapon doesn't count as an action. Exceptional ranged weapons, such as boulders hurled by giants or <i>acid arrows</i>, can't be deflected.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +2 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i></p>
+				
+<p id="balanced" class="stat-block-title">Balanced</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This armor pushes back against anything that threatens to knock its wearer to the ground. The wearer gains a +4 bonus to his Combat Maneuver Defense against combat maneuvers made to overrun or trip and on <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> check made to maintain balance. Dropping prone while wearing <i>balanced</i> armor is a move action instead of a free action. The <i>balanced</i> ability can be applied to light or medium armors, but not heavy armors or shields.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i></p>
+
+<p id="bashing" class="stat-block-title">Bashing</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> moderate transmutation; <b>CL</b> 8th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A shield with this special ability is designed to perform a shield bash. A <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-bashing" >bashing</a></i> shield deals damage as if it were a weapon of two size categories larger (a Medium light shield thus deals 1d6 points of damage and a Medium heavy shield deals 1d8 points of damage). The shield acts as a +1 weapon when used to bash. Only light and heavy shields can have this ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i></p>
+				
+<p id="benevolent" class="stat-block-title">Benevolent</p>
+<p class="stat-block-1"><b>Price</b> +2,000 gp; <b>Aura</b> faint enchantment; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This suit of armor best serves a wearer who focuses on assisting and protecting his allies. <i>Benevolent</i> armor is usually decorated with motifs of prosperity, plenty, and generosity, such as helping hands, cornucopias, and flourishing plants. When the wearer of a suit of <i>benevolent</i> armor uses the aid another action to give an ally a bonus to AC against an opponent's next attack, he also adds the <i>benevolent</i> armor's enhancement bonus to the ally's AC.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1,000 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/aid.html#_aid" >aid</a></i></p>
+				
+<p id="bitter" class="stat-block-title">Bitter</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This armor exudes an exceptionally vile and bitter taste whenever something bites or swallows a creature that is wearing it. Any creature that grapples the wearer with a bite attack (or any other attack using the mouth) must succeed at a DC 14 Fortitude save to avoid immediately ending the grapple.</p>
+<p class="stat-block">If the wearer is swallowed whole, the swallowing creature must succeed at a DC 14 Fortitude save at the start of each turn that the armored victim remains alive inside of the creature or become nauseated for 1 round. The creature may vomit up the victim as a standard action. This is a poison effect.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/stinkingCloud.html#_stinking-cloud" >stinking cloud</a></i></p>
+				
+<p id="blinding" class="stat-block-title">Blinding</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> moderate evocation; <b>CL</b> 7th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A shield with this ability flashes with a brilliant light up to twice per day upon command of the wielder. Except for the wielder, anyone within 20 feet must make a successful DC 14 Reflex save or be blinded for 1d4 rounds.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/searingLight.html#_searing-light" >searing light</a></i></p>
+				
+<p id="bolstering" class="stat-block-title">Bolstering</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> faint enchantment; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Anytime the wearer of <i>bolstering</i> armor damages a creature with a melee or ranged attack, he gains a +2 competence bonus on saving throws against that creature's abilities until the start of his next turn. The <i>bolstering</i> ability can be applied to medium armor, heavy armor, light shields, heavy shields, and tower shields, but not light armor or bucklers.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i></p>
+				
+<p id="brawling" class="stat-block-title">Brawling</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">The wearer of <i>brawling</i> armor gains a +2 bonus on unarmed attack and damage rolls, including combat maneuver checks made to grapple. Her unarmed strikes count as magic weapons for the purpose of bypassing damage reduction. These bonuses do not apply to natural weapons. This special ability does not prevent the wearer's unarmed strikes from provoking attacks of opportunity or make the wearer's unarmed strikes count as armed attacks. The <i>brawling</i> ability can be applied only to light armor.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i></p>
+				
+<p id="champion" class="stat-block-title">Champion</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> faint abjuration; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This armor special ability works only for good creatures with the challenge ability (such as cavaliers) or the smite evil ability (such as paladins, half-celestials, and creatures with the celestial creature template). A wearer with one of these abilities gains a +2 sacred bonus to AC against attacks from the chosen opponent.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil" >protection from evil</a></i></p>
+				
+<p id="clangorous" class="stat-block-title">Clangorous</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> moderate evocation; <b>CL</b> 7th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A shield with this ability rings loudly when struck in combat. As an immediate action when the wearer is hit by an attack, the wearer can activate the shield to create a deafening bang equivalent to a thunderstone. If the attack is a critical hit, the wearer can instead create a <i><a href="/pathfinderRPG/prd/spells/soundBurst.html#_sound-burst" >sound burst</a></i> (Fortitude DC 13 partial). The wearer decides the area for either effect, but must include the attacker in the area. Neither ability affects the wearer.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i>deafness</i>, <i><a href="/pathfinderRPG/prd/spells/soundBurst.html#_sound-burst" >sound burst</a></i></p>
+				
+<p id="creeping" class="stat-block-title">Creeping</p>
+<p class="stat-block-1"><b>Price</b> +5,000 gp; <b>Aura</b> moderate illusion and transmutation; <b>CL</b> 7th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A suit of <i>creeping</i> armor is made to keep the wearer's movement covert. The armor's armor check penalty does not apply to the wearer's <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks. Once per day, the wearer can speak a command word to grant himself a bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks equal to the armor's enhancement bonus for 1 minute.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +2,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i></p>
+				
+<p id="dastard" class="stat-block-title">Dastard</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> faint abjuration; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This armor special ability works only for evil creatures with the challenge ability (such as cavaliers) or the smite good ability (such as antipaladins, half-fiends, and creatures with the fiendish creature template). A wearer with one of these abilities gains a +2 profane bonus to AC against attacks from the chosen opponent.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good" >protection from good</a></i></p>
+				
+<p id="deathless" class="stat-block-title">Deathless</p>
+<p class="stat-block-1"><b>Price</b> +1 Bonus; <b>Aura</b> moderate abjuration; <b>CL</b> 7th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This armor protects its wearer from harmful negative and positive energy, including channeled energy. The armor absorbs the first 10 points of positive or negative energy damage per attack that the wearer would normally take. The wearer has a 25% chance to ignore negative levels from any attack. Deathless armor does not block healing of any kind and does not protect against positive or negative energy effects that do not deal damage or bestow negative levels. The <i>deathless</i> ability can be applied to armor of any sort, but not shields.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/deathWard.html#_death-ward" >death ward</a></i></p>
+				
+<p id="defiant" class="stat-block-title">Defiant</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> moderate conjuration; <b>CL</b> 8th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Armor and shields with this special ability excel at blocking the attacks of certain types of creatures, similar to a <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane" >bane</a></i> weapon's excelling against certain foes. Against the designated foe, the item's enhancement bonus to AC is +2 better than its actual bonus and provides DR 2/&mdash; against attacks from that foe. This increase in enhancement bonus applies only to the armor or shield's enhancement bonus, not to temporary bonuses (such as the <i><a href="/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment" >magic vestment</a></i> spell). To randomly determine the armor or shield's designated foe, use the table for the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane" >bane</a></i> weapon special ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i" >summon monster I</a></i></p>
+				
+<p id="delving" class="stat-block-title">Delving</p>
+<p class="stat-block-1"><b>Price</b> +10,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Armor with this special ability grants the wearer a burrow speed of 10 feet. This speed allows the wearer to tunnel through any type of soil, including rocky soil, but not actual solid stone. This special ability does not give the wearer the ability to breathe underground, so he must hold his breath or use other magic that provides air or allows him to breathe. The wearer gains a +4 bonus on all saving throws against landslides, avalanches, tunnel collapses, and similar effects.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +5,000 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone" >soften earth and stone</a></i></p>
+				
+<p id="determination" class="stat-block-title">Determination</p>
+<p class="stat-block-1"><b>Price</b> +30,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 10th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A shield or armor with the <i>determination</i> special ability provides the ability to fight on even in the face of seemingly impossible odds. Once per day, when the owner reaches 0 or fewer hit points, the item automatically provides a <i><a href="/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life" >breath of life</a></i> spell.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +15,000 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life" >breath of life</a></i></p>
+				
+<p id="energy-resistance" class="stat-block-title">Energy Resistance</p>
+<p class="stat-block-1"><b>Price</b> +18,000 gp; <b>Aura</b> faint abjuration; <b>CL</b> 3rd; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A suit of armor or a shield with this special ability protects against one type of energy (acid, cold, electricity, fire, or sonic) and is designed with patterns depicting the element it protects against. The armor absorbs the first 10 points of energy damage per attack that the wearer would normally take (similar to the <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i> spell).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +9,000 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+				
+<p id="Energy-Resistance-Greater" class="stat-block-title">Energy Resistance, Greater</p>
+<p class="stat-block-1"><b>Price</b> +66,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 11th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">As <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-energy-resistance" >energy resistance</a></i>, except it absorbs the first 30 points of energy damage per attack. </p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +33,000 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+				
+<p id="Energy-Resistance-improved" class="stat-block-title">Energy Resistance, improved</p>
+<p class="stat-block-1"><b>Price</b> +42,000 gp; <b>Aura</b> moderate abjuration; <b>CL</b> 7th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">As <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-energy-resistance" >energy resistance</a></i>, except it absorbs the first 20 points of energy damage per attack.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +21,000 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy" >resist energy</a></i></p>
+				
+<p id="etherealness" class="stat-block-title">Etherealness</p>
+<p class="stat-block-1"><b>Price</b> +49,000 gp; <b>Aura</b> strong transmutation; <b>CL</b> 13th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">On command, this ability allows the wearer of the armor to become ethereal (as the <i><a href="/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt" >ethereal jaunt</a></i> spell) once per day. The character can remain ethereal for as long as desired, but once he returns to normal, he cannot become ethereal again that day.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +24,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt" >ethereal jaunt</a></i></p>
+				
+<p id="expeditious" class="stat-block-title">Expeditious</p>
+<p class="stat-block-1"><b>Price</b> +4,000 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Three times per day as a swift action, the wearer of <i>expeditious</i> armor can summon a burst of speed and gain a +10-foot enhancement bonus on all modes of movement for 1 round. This ability can be applied to any kind of armor, but not shields.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 2,000 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat" >expeditious retreat</a></i></p>
+				
+<p id="fortification" class="stat-block-title">Fortification</p>
+<p class="stat-block-1"><b>Price</b> varies; <b>Aura</b> strong abjuration; <b>CL</b> 13th; <b>Weight</b> &mdash;</p>
+<p class="stat-block-1"><b>Light</b> +1 bonus; <b>Moderate</b> +3 bonus; <b>Heavy</b> +5 bonus</p>
+<p class="stat-block">This suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When a critical hit or sneak attack is scored on the wearer, there is a chance that the critical hit or sneak attack is negated and damage is instead rolled normally. The chance is 25% for <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i>, 50% for <i>moderate <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i>, and 75% for <i>heavy <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i>.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Light</b> +1 bonus; <b>Moderate</b> +3 bonus; <b>Heavy</b> +5 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a></i> or <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i></p>
+				
+<p id="ghost-touch" class="stat-block-title">Ghost Touch</p>
+<p class="stat-block-1"><b>Price</b> +3 bonus; <b>Aura</b> strong transmutation; <b>CL</b> 15th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This armor or shield seems almost translucent. Both its enhancement bonus and its armor bonus count against the attacks of corporeal and incorporeal creatures. It can be picked up, moved, and worn by corporeal and incorporeal creatures alike. Incorporeal creatures gain the armor's or shield's enhancement bonus against both corporeal and incorporeal attacks, and they can still pass freely through solid objects.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +3 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-etherealness" >etherealness</a></i></p>
+				
+<p id="glamered" class="stat-block-title">Glamered</p>
+<p class="stat-block-1"><b>Price</b> +2,700 gp; <b>Aura</b> moderate illusion; <b>CL</b> 10th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Upon command, a suit of <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-glamered" >glamered</a></i> armor changes shape and appearance to assume the form of a normal set of clothing. The armor retains all its properties (including weight) when it is so disguised. Only a <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i> spell or similar magic reveals the true nature of the armor when it is disguised.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1,350 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self" >disguise self</a></i></p>
+				
+<p id="grinding" class="stat-block-title">Grinding</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A shield or suit of armor with this special ability is covered with jagged burrs and razor-sharp serrations that saw and grind whenever the wearer is grappled or entangled. Any creature succeeding at a grapple combat maneuver check against the wearer takes damage equal to the armor or shield's enhancement bonus (with each successful check) as the barbs and blades bite into it. This special ability counts as armor spikes for the purpose of making attacks on the wearer's turn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/keenEdge.html#_keen-edge" >keen edge</a></i></p>
+				
+<p id="harmonizing" class="stat-block-title">Harmonizing</p>
+<p class="stat-block-1"><b>Price</b> +15,000 gp; <b>Aura</b> moderate illusion; <b>CL</b> 7th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Every step taken in <i>harmonizing</i> armor produces a symphony of sounds. The armor harmonizes with music played, lyrics sung, and words spoken by its wearer, creating a pleasant counter-melody. Its wearer gains a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> checks, but takes a &ndash;5 penalty on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks. The wearer can be silent only if he takes no physical actions. The armor also amplifies harmful sounds, and the wearer gains vulnerability to sonic energy damage (sonic energy attacks deal an additional 50% damage to the wearer).</p>
+<p class="stat-block">If the wearer has the bardic performance class feature, the <i>harmonizing</i> armor causes bonuses and penalties from performances that have an audible component to continue for 1 round after the wearer ceases performing. Beginning a new bardic performance ends the effects of the previous performance immediately. This ability does not stack with the <a href="/pathfinderRPG/prd/advanced/advancedFeats.html#_lingering-performance" >Lingering Performance</a> feat.</p>
+<p class="stat-block">The <i>harmonizing</i> ability can be applied to any armor, but not shields.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +7,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/majorImage.html#_major-image" >major image</a></i> or bardic performance</p>
+				
+<p id="hosteling" class="stat-block-title">Hosteling</p>
+<p class="stat-block-1"><b>Price</b> +7,500 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 9th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A suit of armor or shield with this special ability hides living animals within its iconography to keep it safe. The wearer can speak a command word to magically store an animal to which he is bonded, such as an animal companion, a familiar, or mount. The stored animal appears as a symbol emblazoned upon the armor or shield, either one that mimics the appearance of the animal or that is more symbolic and abstract.</p>
+<p class="stat-block">While stored, the animal is sleeping and provides the wearer no benefit (such as a familiar's skill bonus). The size of animal that can be stored depends on the type of armor or shield. A suit of light armor, medium armor, or a light shield or heavy shield can store one animal up to the wearer's size. A suit of heavy armor or a tower shield can store one animal up to one size category larger than the wearer. A second command word releases the stored animal from the <i>hosteling</i> armor or shield. A released animal immediately awakens, appears in a space adjacent to the wearer, and can take actions on the round it appears.</p>
+<p class="stat-block">Because the stored animal is sleeping rather than in suspended animation (or even hibernating), it ages and gets hungry at the normal rate while stored. A <i>hosteling</i> armor or shield automatically releases a stored animal 24 hours after it was stored inside.</p>
+<p class="stat-block">This armor special ability still works on bonded magical beasts that were once animals, but not outsiders, oozes, or other exotic companion creatures.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost 3,750 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/secretChest.html#_secret-chest" >secret chest</a></i></p>
+				
+<p id="impervious" class="stat-block-title">Impervious</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> moderate transmutation; <b>CL</b> 7th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A shield or suit of armor with this special ability is especially hardy. It gains double its enhancement bonus to hardness and hit points (instead of just the enhancement bonus), its break DC increases by double its enhancement bonus, and it gains a bonus on saving throws against direct attacks (such as a rust monster's rust ability) equal to its enhancement bonus.</p>
+				
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/fabricate.html#_fabricate" >fabricate</a></i>, <i><a href="/pathfinderRPG/prd/spells/makeWhole.html#_make-whole" >make whole</a></i></p>
+				
+<p id="invulnerability" class="stat-block-title">Invulnerability</p>
+<p class="stat-block-1"><b>Price</b> +3 bonus; <b>Aura</b> strong varies; <b>CL</b> 18th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This suit of armor grants the wearer damage reduction 5/magic. <i>Invulnerable</i> armor emits a strong aura of abjuration (and evocation if <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i> is used).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +3 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/wish.html#_wish" >wish</a></i> or <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i></p>
+				
+<p id="jousting" class="stat-block-title">Jousting</p>
+<p class="stat-block-1"><b>Price</b> +3,750 gp; <b>Aura</b> faint transmutation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This suit of armor helps its wearer remain mounted and in control of his mount. The wearer gains a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> skill checks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1,875 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, creator must have 5 ranks in <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a></p>
+				
+<p id="martyring" class="stat-block-title">Martyring</p>
+<p class="stat-block-1"><b>Price</b> +18,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 9th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This armor allows the wearer to capitalize on her own injuries to heal her allies. Once per day as an immediate action, when an enemy confirms a critical hit against someone wearing <i>martyring</i> armor, the wearer can heal up to nine allies within 30 feet as if using the <i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds-mass" >mass cure light wounds</a></i> spell (1d8+9 hit points each). This special ability cannot be placed on armor that possesses an ability that reduces the chance of or negates a critical hit (such as the <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification" >fortification</a></i> special ability).</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +9,000 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds-mass" >mass cure light wounds</a></i></p>
+				
+<p id="merging" class="stat-block-title">Merging</p>
+<p class="stat-block-1"><b>Price</b> +2 bonus; <b>Aura</b> moderate transmutation; <b>CL</b> 10th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A <i>merging</i> shield can meld with a held one-handed or light weapon. The wearer chooses each round whether to attack with the weapon or defend with the shield. Melding or freeing the shield requires a command word. The shield must be worn to merge it with a weapon; reversing the melding means the shield is being worn again. While the shield is melded, the wearer can use that hand only to attack with the weapon or defend with the shield (and not to cast spells or manipulate objects, for example). Attack rolls with the weapon take a &ndash;2 penalty while merged with a light shield or a &ndash;4 penalty while merged with a heavy shield. If the wearer attacks with the merged weapon, she loses the shield's bonus to AC until the start of her next turn. A merged shield can't be used to shield bash. Only light and heavy shields can be <i>merging</i> shields.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +2 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/advanced/spells/versatileWeapon.html#_versatile-weapon" >versatile weapon</a></i> (<i>Advanced Player's Guide</i>)</p>
+				
+<p id="mirrored" class="stat-block-title">Mirrored</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> moderate abjuration; <b>CL</b> 8th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">The polished surface of a <i>mirrored </i>shield or armor gleams and shines, and can be used as an ordinary mirror. Furthermore, it aids in battling creatures with gaze attacks. If the wearer averts his eyes, he can roll the miss chance twice, selecting the better result. The wearer can deal sneak attack or other precision-based damage to the target even though it has concealment against him. This provides no benefit if the wearer closes his eyes, wears a blindfold, or otherwise can't see the target at all. The <i>mirrored</i> armor or shield also adds it enhancement bonus to the wearer's touch AC against rays. it. This special ability may only be added to metallic armor or shields.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning" >spell turning</a></i></p>
+				
+<p id="Poison-Resistant" class="stat-block-title">Poison-Resistant</p>
+<p class="stat-block-1"><b>Price</b> +2,250 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 7th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A suit of armor or shield with this special ability grants the wearer a +3 resistance bonus on saving throws against poison.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1,125 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i></p>
+				
+<p id="putrid" class="stat-block-title">Putrid</p>
+<p class="stat-block-1"><b>Price</b> +10,000 gp; <b>Aura</b> faint conjuration; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block"><i>Putrid</i> armor gives off a revolting, stomach-twisting stench. Each living creatures within 10 feet of the wearer must succeed at a DC 14 Fortitude save or be sickened for 5 rounds. This is a poison effect. Creatures that successfully save cannot be affected by the same armor's stench for 24 hours. Creatures with the stench universal monster ability or immunity to poison are unaffected. The wearer of <i>putrid</i> armor is immune to his own stench, but not to stench-based effects from other sources. The stench can be suppressed or resumed on command, but it takes 1 minute for an active stench to dissipate. Dissipation time increases to 10 minutes in a closed area or if no wind is blowing, and decreases to 3 rounds in moderate wind or 1 round in strong wind.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +5,000 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/stinkingCloud.html#_stinking-cloud" >stinking cloud</a></i></p>
+				
+<p id="radiant" class="stat-block-title">Radiant</p>
+<p class="stat-block-1"><b>Price</b> +7,500 gp; <b>Aura</b> moderate evocation; <b>CL</b> 6th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Armor and shields with the <i>radiant</i> special ability shine as brightly as a torch when worn. This radiance can be suppressed or resumed on command. Designs usually feature bright colors and a brilliant sheen even when not illuminated. Once per day, the wearer can command the armor or shield to brighten to the strength of a <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i> spell for 1 hour or until commanded to dim.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +3,750 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i></p>
+				
+<p id="rallying" class="stat-block-title">Rallying</p>
+<p class="stat-block-1"><b>Price</b> +5,000 gp; <b>Aura</b> faint abjuration; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This armor or shield is brightly polished, and its mirror-bright surface is magically endowed with the ability to bring comfort to the wearer's companions. Allies within 30 feet of the wearer gain a +4 morale bonus on saving throws against fear effects. If the wearer has an ability that grants a morale bonus on saving throws against fear (such as a paladin's aura of courage, a bard's countersong, or a cavalier's banner ability), the morale bonus increases to +6.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +2,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/removeFear.html#_remove-fear" >remove fear</a></i></p>
+				
+<p id="ramming" class="stat-block-title">Ramming</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> faint evocation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">These shields are sturdily built and often bear the device of a ram or bull. When the wielder of a <i>ramming</i> shield makes a shield bash attack as part of a charge, the shield's enhancement bonus to Armor Class applies to the attack and damage rolls. This doesn't stack with any existing enhancement the shield has. If the attack hits, as a swift action the wielder can attempt a bull rush combat maneuver against that target, adding the +2 bonus for charging and the shield's enhancement bonus to the combat maneuver check. Only shields that can make a shield bash attack can have the <i>ramming</i> ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/ultimateMagic/spells/forcePunch.html#_force-punch" >force punch</a></i></p>
+				
+<p id="reflecting" class="stat-block-title">Reflecting</p>
+<p class="stat-block-1"><b>Price</b> +5 bonus; <b>Aura</b> strong abjuration; <b>CL</b> 14th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This shield is as highly polished as a mirror, and its surface is completely reflective. Once per day, it can be called on to reflect a spell back at its caster exactly like the <i><a href="/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning" >spell turning</a></i> spell.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +5 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning" >spell turning</a></i></p>
+				
+<p id="righteous" class="stat-block-title">Righteous</p>
+<p class="stat-block-1"><b>Price</b> +27,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 10th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Armor with this special ability is often engraved or enameled with religious symbols. Once per day on command, the wearer can invoke an effect, as per the spell <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>, lasting for 10 rounds. <i><a href="/pathfinderRPG/prd/advanced/magicItems/armor.html#_righteous" >Righteous</a></i> armor is always aligned toward good (positive energy), for the effects of <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>. <i><a href="/pathfinderRPG/prd/advanced/magicItems/armor.html#_righteous" >Righteous</a></i> armor bestows one permanent negative level on any evil creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration" >restoration</a></i> spells) while the armor is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +13,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i></p>
+				
+<p id="shadow" class="stat-block-title">Shadow</p>
+<p class="stat-block-1"><b>Price</b> +3,750 gp; <b>Aura</b> faint illusion; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This armor blurs the wearer whenever she tries to hide, while also dampening the sound around her, granting a +5 competence bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks. The armor's armor check penalty still applies normally.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1,875 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, <i><a href="/pathfinderRPG/prd/spells/silence.html#_silence" >silence</a></i></p>
+				
+<p id="Shadow-Greater" class="stat-block-title">Shadow, Greater</p>
+<p class="stat-block-1"><b>Price</b> +33,750 gp; <b>Aura</b> strong illusion; <b>CL</b> 15th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">As <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow" >shadow</a></i>, except it grants a +15 competence bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +16,875 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, <i><a href="/pathfinderRPG/prd/spells/silence.html#_silence" >silence</a></i></p>
+				
+<p id="improved-shadow" class="stat-block-title">Improved Shadow</p>
+<p class="stat-block-1"><b>Price</b> +15,000 gp; <b>Aura</b> moderate illusion; <b>CL</b> 10th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">As <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow" >shadow</a></i>, except it grants a +10 competence bonus on <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> checks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +7,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, <i><a href="/pathfinderRPG/prd/spells/silence.html#_silence" >silence</a></i></p>
+				
+<p id="slick" class="stat-block-title">Slick</p>
+<p class="stat-block-1"><b>Price</b> +3,750 gp; <b>Aura</b> faint conjuration; <b>CL</b> 4th; <b>Weight</b> &mdash;</p>
+<p class="stat-block"><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-slick" >Slick</a></i> armor seems coated at all times with a slightly greasy oil. It provides a +5 competence bonus on its wearer's <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> checks. The armor's armor check penalty still applies normally.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1,875 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/grease.html#_grease" >grease</a></i></p>
+				
+<p id="Slick-greater" class="stat-block-title">Slick, greater</p>
+<p class="stat-block-1"><b>Price</b> +33,750 gp; <b>Aura</b> strong conjuration; <b>CL</b> 15th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">As <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-slick" >slick</a></i>, except it grants a +15 competence bonus on <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> checks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +16,875 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/grease.html#_grease" >grease</a></i></p>
+				
+<p id="improved-slick" class="stat-block-title">Improved Slick</p>
+<p class="stat-block-1"><b>Price</b> +15,000 gp; <b>Aura</b> moderate conjuration; <b>CL</b> 10th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">As <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-slick" >slick</a></i>, except it grants a +10 competence bonus on <a href="/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist" >Escape Artist</a> checks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +7,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/grease.html#_grease" >grease</a></i></p>
+				
+<p id="spell-resistance" class="stat-block-title">Spell Resistance</p>
+<p class="stat-block-1"><b>Price</b> varies; <b>Aura</b> strong abjuration; <b>CL</b> 15th; <b>Weight</b> &mdash;</p>
+<p class="stat-block-1"><b>Spell resistance 13</b> +2 bonus; <b>Spell resistance 15</b> +3 bonus; <b>Spell resistance 17</b> +4 bonus; <b>Spell resistance 19</b> +5 bonus</p>
+<p class="stat-block">This special ability grants the armor or shield's wearer spell resistance while the armor or shield is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1"><b>Cost</b> varies</p>
+<p class="stat-block-1"><b>Spell resistance 13</b> +2 bonus; <b>Spell resistance 15</b> +3 bonus; <b>Spell resistance 17</b> +4 bonus; <b>Spell resistance 19</b> +5 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance" >spell resistance</a></i></p>
+				
+<p id="spell-storing" class="stat-block-title">Spell Storing</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> strong evocation; <b>CL</b> 12th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This armor allows a spellcaster to store a single touch spell of up to 3rd level in it. Anytime a creature hits the wearer with a melee attack or melee touch attack, the armor can cast the spell on that creature as a swift action if the wearer desires. Once the spell has been cast from the armor, a spellcaster can cast any other targeted touch spell of up to 3rd level into it. The armor magically imparts to the wielder the name of the spell currently stored within it. A randomly rolled suit of spell storing armor has a 50% chance to have a spell stored in it already. <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_spell-storing" >Spell storing</a> </i>armor emits a strong aura of the evocation school, plus the aura of the stored spell.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, creator must be a caster of at least 12th level</p>
+				
+<p id="stanching" class="stat-block-title">Stanching</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> moderate transmutation; <b>CL</b> 7th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A stanching suit of armor helps stop the flow of blood from the wearer's wounds, automatically tightening like a tourniquet in the appropriate places while also magically reducing the severity of the wound. Stanching armor reduces hit point damage, ability damage, or ability drain by an amount equal to its enhancement bonus if the damage or drain was from a bleed effect. The wearer also adds the armor's enhancement bonus to Constitution checks to become stable.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i>, <i><a href="/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds" >cure critical wounds</a></i> or <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i></p>
+				
+<p id="titanic" class="stat-block-title">Titanic</p>
+<p class="stat-block-1"><b>Price</b> +3 bonus; <b>Aura</b> moderate transmutation; <b>CL</b> 7th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A suit of armor with the <i>titanic</i> ability is almost comically oversized, though the effect is superficial and the interior fits a creature normally, with no adjustments necessary. A creature wearing <i>titanic</i> armor is considered one size category larger for the purpose of using or being affected by special attacks that depend on size, such as swallow whole and trample. Once per day on command, the wearer can increase her size as if using <i><a href="/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person" >enlarge person</a></i> (even if the wearer is not humanoid) for 1 minute. In addition, once per minute as a free action the wearer can add the armor's enhancement bonus to a single Strength check or combat maneuver check, or to her CMD against a single combat maneuver. Because of its great bulk, the armor check penalty of titanic armor is increased by an amount equal to its enhancement bonus.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +3 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person" >enlarge person</a></i></p>
+				
+<p id="unbound" class="stat-block-title">Unbound</p>
+<p class="stat-block-1"><b>Price</b> +27,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 10th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Armor with this special ability is often engraved or enameled with chaotic religious symbols. Once per day on command, the wearer can invoke an effect as per the spell <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>, except the wearer gains DR 5/lawful instead of DR/evil or DR/good. This effect lasts for 10 rounds. <i>Unbound</i> armor bestows one permanent negative level on any lawful creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration" >restoration</a></i> spells) while the armor is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +13,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>, creator must be chaotic</p>
+				
+<p id="undead-controlling" class="stat-block-title">Undead Controlling</p>
+<p class="stat-block-1"><b>Price</b> +49,000 gp; <b>Aura</b> strong necromancy; <b>CL</b> 13th; <b>Weight</b> &mdash;</p>
+<p class="stat-block"><i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-undead-controlling" >Undead controlling</a></i> armor and shields often have skeletal or other grisly decorations or flourishes to their decor. They let the user control up to 26 Hit Dice of undead per day, as the <i><a href="/pathfinderRPG/prd/spells/controlUndead.html#_control-undead" >control undead</a></i> spell. At dawn each day, the wearer loses control of any undead still under his sway. Armor or a shield with this ability appears to be made of bone; this feature is entirely decorative and has no other effect on the armor.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +24,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/controlUndead.html#_control-undead" >control undead</a></i></p>
+				
+<p id="unrighteous" class="stat-block-title">Unrighteous</p>
+<p class="stat-block-1"><b>Price</b> +27,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 10th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">This armor is often sculpted with unholy symbols. Once per day on command, the wearer can invoke an effect, as per the spell <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>, lasting for 10 rounds. <i><a href="/pathfinderRPG/prd/advanced/magicItems/armor.html#_unrighteous" >Unrighteous</a></i> armor is always aligned toward evil (negative energy), for the effects of <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>. <i><a href="/pathfinderRPG/prd/advanced/magicItems/armor.html#_unrighteous" >Unrighteous</a></i> armor bestows one permanent negative level on any good creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration" >restoration</a></i> spells) while the armor is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +13,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i></p>
+				
+<p id="vigilant" class="stat-block-title">Vigilant</p>
+<p class="stat-block-1"><b>Price</b> +27,000 gp; <b>Aura</b> moderate transmutation; <b>CL</b> 10th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Armor with this special ability is often engraved or enameled with lawful religious symbols. Once per day on command, the wearer can invoke an effect, as per the spell <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>, except the wearer gains DR 5/chaotic instead of DR/evil or DR/good. This lasts for 10 rounds. <i>Vigilant</i> armor bestows one permanent negative level on any chaotic creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration" >restoration</a></i> spells) while the armor is worn.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +13,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>, creator must be lawful</p>
+				
+<p id="warding" class="stat-block-title">Warding</p>
+<p class="stat-block-1"><b>Price</b> +1 bonus; <b>Aura</b> strong abjuration; <b>CL</b> 12th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Once per day as an immediate action, the wearer of <i>warding</i> armor can activate it to end all active challenge, judgment, and smite abilities affecting her. This does not prevent opponents from selecting her as a target for these abilities in the future. As a swift action, the wearer can expend one of her own challenge, judgment, or smite abilities to refresh the armor's ability to end these attacks.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +1 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/atonement.html#_atonement" >atonement</a></i></p>
+				
+<p id="wild" class="stat-block-title">Wild</p>
+<p class="stat-block-1"><b>Price</b> +3 bonus; <b>Aura</b> moderate transmutation; <b>CL</b> 9th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">Armor with this special ability usually appears to be made from magically hardened animal pelt. The wearer of a suit of armor or a shield with this ability preserves his armor bonus (and any enhancement bonus) while in a wild shape. Armor and shields with this ability usually appear to be covered in leaf patterns. While the wearer is in a wild shape, the armor cannot be seen.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +3 bonus</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph" >baleful polymorph</a></i></p>
+				
+<p id="wyrmsbreath" class="stat-block-title">Wyrmsbreath</p>
+<p class="stat-block-1"><b>Price</b> 5,000 gp; <b>Aura</b> faint evocation; <b>CL</b> 5th; <b>Weight</b> &mdash;</p>
+<p class="stat-block">A shield with this special ability is usually crafted with an open dragon's mouth on the front. A shield with the wyrmsbreath special ability is keyed to one type of energy (acid, cold, electricity, or fire). The shield gains 1 charge for every 5 points of damage from the keyed energy type the wearer takes. On command, the bearer can expend 1 to 5 charges from the shield to have it create a breath weapon in a 15 foot cone dealing 1d4 points of energy damage per charge expended (Reflex DC 11 half). This damage is the same type as the shield's keyed energy type. A shield can store up to 5 charges at a time, and stored charges expire harmlessly after 24 hours. A shield cannot have more than one wyrmsbreath ability.</p>
+<p class="stat-block-breaker">Construction Requirements</p>
+<p class="stat-block-1">Cost +2,500 gp</p>
+<p class="stat-block">Craft Magic Arms and Armor, <i><a href="/pathfinderRPG/prd/spells/burningHands.html#_burning-hands" >burning hands</a></i></p>
+	
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

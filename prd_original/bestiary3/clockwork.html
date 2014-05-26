@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Clockwork</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Clockwork",globalNavPath=[{ href: '/pathfinderRPG/prd/bestiary3/monsterIndex.html', name: 'Bestiary 3 Index'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body"><div>
+				<h1 id="clockwork" class="monster-header">Clockwork</h1>
+				<p>Clockwork constructs are the technological cousins of golems, constructed with a combination of magic and precise technologies dependant upon the internal churning and turning of thousands of intricate springs, screws, and gears. </p>
+				<p>There are those who would scoff at the work of clockwork engineers, whose constructs seem at best merely imitations of the creations brought to life by practitioners of the purely arcane arts. However, those canny enough to realize the potential of clockwork engines know their true power to be both exotic and potent. In worlds where clockworks are common, these creatures can rival even the most powerful of golems for raw power. Massive giants comprising countless nuts and bolts have torn entire empires asunder. Time and time again, clockwork creatures have proven themselves a formidable presence in the face of more traditional rivals, and those who have borne witness to the feats of these creatures know to hold their tongues before questioning the constructs' power.</p>
+				<p>Clockwork creatures function by combining magical energies and clockwork mechanisms. The myriad metal parts that go into the construction of a clockwork creation require absolute precision in order to function properly, so they must be built by only the steadiest of hands. Amateurish attempts at clockwork construction typically result in nonfunctional units or misfires, and many an engineering lab has been burned to the ground by novices seeking to learn the basics of clockworks and the elements that power them.</p>
+				<p>Particularly guileful crafters may construct miniature clockwork spies that can record sound, and rumors tell of even more advanced technologies that allow visual recording. While magical wonders such as spells can allow the user to scry information or to see where one isn't normally physically able to, clockwork spies provide an edge in that their memories are concrete and incorruptible, enabling them to make flawless recordings of events not subject to the regular perversions of human memories.</p>
+				<p>Clockwork creations, as their names suggests, must be wound up before they animate. The creator of a clockwork crafts a unique key for each creation. This key is typically inserted into the clockwork's back and turned clockwise to wind it. Turning the key counterclockwise has the effect of winding the machine down, though only a willing (or completely helpless) machine will allow itself to be unwound in this way, meaning either its creator or someone its creator has specifically designated can normally do so. Since each key is totally unique, construction of a new key (or bypassing a key entirely) requires a successful <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> check (DC = 20 + the clockwork's CR). Larger clockworks tend to have larger keys, and particularly huge keys require more than one set of hands to turn. Rather than seek assistance from other engineers, eccentric or hermetic inventors often rely upon other clockwork creations to help them turn keys or aid in the creation of more monumental constructs. Other times, engineers give copies of keys to their most trusted clockworks, which can be programmed to wind allies and even themselves as the situation requires.</p>
+				<p>Much like golems and animated objects, clockwork creatures can be given any number of commands; a perpetually turning script in their core records those orders and programs the rest of the machine. Only one who possesses a key to the clockwork can program it, but any commands given to the construct last until the clockwork is reprogrammed or destroyed. An individual clockwork's potential is only limited by its creator's innovation and aptitude. Unlike many golems, which are trapped in bodies resembling lumbering and fallible cages, clockwork constructs can be repeatedly reworked and reengineered&mdash;gears can be oiled, springs can be replaced, and pistons can be fine-tuned. The ever-adjustable framework of these mechanical beasts allows for extreme variation from creation to creation.</p>
+				<p>Since clockwork creations are mostly mechanical and are at the mercy of their creator's adeptness with the technology, they are prone to the follies of human error. Loose bolts, improper programming, or lack of maintenance are all cause for malfunctions, errors that can range from minute energy leaks to deadly explosions. The most common cause of malfunction, however, is not imparted by the creator, but by the clockwork's destroyer. Creatures attacking the machine gradually unhinge screws and twist cogs with each landed blow, giving the clockwork a greater chance of backfire. Many combat clockworks are thus accompanied by clockwork servants&mdash;servitor clockworks that quickly and readily fix their mechanical allies in the heat of battle.</p>
+				<p>In the earlier days of clockwork technology, many practical hindrances prevented rapid maturation of the devices. Clockwork machines were powered by inefficient, costly resources; however, the advent of arcane enchantment not only has allowed for greater precision in the crafting of gears and other key components, but has also opened up a wide new range of possibilities for defensive systems and offensive weaponry. Early attempts to combine clockwork with steam power or other nonmagical forms of energy tended to overcomplicate the already delicate machinery, and have long since been abandoned as a result. Whispers abound of an even more unusual category of clockwork that has solved this problem and has merged the complexities of steam power with the adaptability of magical energies, yet such exotic and unusual clockworks remain nothing more than rumors in most worlds at this time.</p>
+
+
+				<h1 id="clockwork-goliath" class="monster-header">Clockwork Goliath</h1>
+				<p class="flavor-text">The gears of this enormous, four-armed mechanical giant shriek and grind in a deafening cacophony as it lumbers forth.</p>
+				<p class="stat-block-title">Clockwork Goliath <span class="stat-block-cr">CR 19</span></p>
+				<p class="stat-block-xp">XP 204,800</p>
+				<p class="stat-block-1">N Gargantuan construct (clockwork)</p>
+				<p class="stat-block-1"><b>Init</b> +9; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +0</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 35, touch 13, flat-footed 28 (+5 Dex, +2 dodge, +22 natural, &ndash;4 size)</p>
+				<p class="stat-block-1"><b>hp</b> 214 (28d10+60)</p>
+				<p class="stat-block-1"><b>Fort</b> +9, <b>Ref</b> +16, <b>Will</b> +9</p>
+				<p class="stat-block-1"><b>DR</b> 15/adamantine; <b>Immune</b> construct traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to electricity</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 40 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> 4 slams +41 (3d6+17)</p>
+				<p class="stat-block-1"><b>Ranged</b> cannon +29/+24/+19/+14 (6d6/&times;4)</p>
+				<p class="stat-block-1"><b>Space</b> 20 ft.; <b>Reach</b> 20 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> self-destruction, <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_trample" >trample</a> (3d6+25, DC 41)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 45, <b>Dex</b> 20, <b>Con</b> &mdash;, <b>Int</b> &mdash;, <b>Wis</b> 11, <b>Cha</b> 1</p>
+				<p class="stat-block-1"><b>Base Atk</b> +28; <b>CMB</b> +49; <b>CMD</b> 66</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a><sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a><sup>B</sup></p>
+				<p class="stat-block-1"><b>SQ</b> swift reactions, winding</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or siege (3&ndash;6)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Cannon (Ex) </b>One of a goliath's arms ends in a cannon. The goliath may use this as one of its four slam attacks, or it can use it to <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> cannonballs. A cannon has a range increment of 100 feet, and deals 6d6 points of bludgeoning and piercing damage on a hit with a &times;4 critical modifier. A clockwork goliath's cannon can hold up to 12 cannonballs&mdash;reloading a single cannonball is a standard action. </p>
+				<p class="stat-block-1"><b>Self-Destruction (Su) </b>When a goliath's hit points are reduced to 10% its total (21 hp for most clockwork goliaths) or less but still above 0, it self-destructs on its next turn, bursting in an explosion of metal scraps and steam that deals 12d6 points of slashing damage plus 12d6 points of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> damage to all creatures within a 20-foot-radius burst. A successful DC 24 Reflex save halves the damage. The save is Constitution-based.</p>
+				<p>The thunderous clockwork goliath is easily recognized as the epitome of technology created to destroy. The exact nature of a clockwork goliath's “hands” varies&mdash;they all resolve as slam attacks in melee combat, though.</p>
+				<p>The clockwork goliath towers over most creatures and buildings; standing at a height of 45 feet, it weighs over 100 tons.</p>
+				
+				<h2>Construction</h2>
+				<p>The clockwork goliath is one of the most difficult of its kind to create. The creator must start with crafted clockwork pieces worth 20,000 gp. </p>
+				<p class="stat-block-title">Clockwork Goliath</p>
+				<p class="stat-block-1"><b>CL</b> 18th; <b>Price</b> 300,000 gp</p>
+				<p class="stat-block-breaker">CONSTRUCTION</p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct" >Craft Construct</a>, <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_gunsmithing" >Gunsmithing</a> (<i>Ultimate Combat</i> 103),<i> <a href="/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects" >animate objects</a></i>, <i><a href="/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest" >geas/quest</a></i>, and <i><a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a>,</i> creator must be at least caster level 18th; <b>Skill</b> <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (clockwork) DC 25; <b>Cost</b> 160,000 gp</p>
+
+				<h1 id="clockwork-leviathan" class="monster-header">Clockwork Leviathan</h1>
+				<p class="flavor-text">Long and metallic, this serpentine construction resembles a mechanical eel with several paddle-like limbs.</p>
+				<p class="stat-block-title">Clockwork Leviathan <span class="stat-block-cr">CR 12</span></p>
+				<p class="stat-block-xp">XP 19,200</p>
+				<p class="stat-block-1">N Huge construct (clockwork)</p>
+				<p class="stat-block-1"><b>Init</b> +8; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +0</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 28, touch 14, flat-footed 22 (+4 Dex, +2 dodge, +14 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 128 (16d10+40)</p>
+				<p class="stat-block-1"><b>Fort</b> +5, <b>Ref</b> +11, <b>Will</b> +5</p>
+				<p class="stat-block-1"><b>DR</b> 10/adamantine; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a>, construct traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to electricity</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., swim 60 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> bite +25 (2d6+11), 2 slam +25 (1d8+11 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab" >grab</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon" >breath weapon</a> (60-ft. line, 12d8 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> damage, DC 18 for half, usable every 1d4 rounds, 3/day), grind, swallow whole (2d8+16 slashing damage plus 2d6 <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> damage, AC 17, 20 hp)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 33, <b>Dex</b> 18, <b>Con</b> &mdash;, <b>Int</b> &mdash;, <b>Wis</b> 11, <b>Cha</b> 1</p>
+				<p class="stat-block-1"><b>Base Atk</b> +16; <b>CMB</b> +29 (+33 grapple); <b>CMD</b> 45 (can't be tripped)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a><sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a><sup>B</sup></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +8 (+12 in <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a>), <a href="/pathfinderRPG/prd/skills/swim.html#_swim" >Swim</a> +19; <b>Racial Modifiers</b> +12 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> (+16 in <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a>)</p>
+				<p class="stat-block-1"><b>SQ</b> swift reactions, winding</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or pod (2&ndash;4)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon" >Breath Weapon</a> (Su) </b>A clockwork leviathan's <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon" >breath weapon</a> is a powerful <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_jet" >jet</a> of scorching steam&mdash;it functions equally well above and under <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a>.</p>
+				<p class="stat-block-1"><b>Grind (Ex) </b>A clockwork leviathan deals an additional 1d8+16 points of slashing damage when it makes a successful grapple check because of the myriad twisting gears and churning pistons that make up its jagged underbelly.</p>
+				<p class="stat-block-1"><b>Swallow Whole (Ex) </b>A clockwork leviathan's interior is filled with injurious grinding gears and superheated <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype" >water</a>&mdash;in addition to taking damage, a swallowed creature must hold its breath or risk drowning as long as it remains inside a clockwork leviathan's “stomach.”</p>
+				<p>Clockwork leviathans are equally capable of functioning on land and in water. Sailors who are haunted by the memories of these treacherous machines need not exaggerate their yarns, for the reality of an aquatic construct such as this holds enough terror in its story for even the hardiest of seafarers.</p>
+				<p>A clockwork leviathan's numerous metal plates and links are made of such resilient material that they never rust, even after long exposure to the briny sea waters that leviathans often patrol. </p>
+				<p>Clockwork leviathans are 25 feet long and weigh just over 3 tons.</p>
+				
+				<h2>Construction</h2>
+				<p>When creating these clockworks, great care must be taken to waterproof their components. The creator must start with crafted clockwork pieces worth 10,000 gp. </p>
+				<p class="stat-block-title">CLOCKWORK LEVIATHAN</p>
+				<p class="stat-block-1"><b>CL</b> 12th; <b>Price</b> 130,000 gp</p>
+				<p class="stat-block-breaker">CONSTRUCTION</p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct" >Craft Construct</a>,<i> <a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a>, <a href="/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest" >geas/quest</a></i>, <i><a href="/pathfinderRPG/prd/spells/heatMetal.html#_heat-metal" >heat metal</a></i>, and <i><a href="/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish" >limited wish</a></i>, creator must be at least caster level 12th; <b>Skill</b> <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (clockwork) DC 20; <b>Cost</b> 70,000 gp</p>
+
+				<h1 id="clockwork-servant" class="monster-header">Clockwork Servant</h1>
+				<p class="flavor-text">This four-armed, human-sized clockwork construct balances on three legs that rise into a central body.</p>
+				<p class="stat-block-title">Clockwork Servant <span class="stat-block-cr">CR 2</span></p>
+				<p class="stat-block-xp">XP 600</p>
+				<p class="stat-block-1">N Medium construct (clockwork)</p>
+				<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +0</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 16, touch 14, flat-footed 12 (+2 Dex, +2 dodge, +2 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 31 (2d10+20); fast healing 2</p>
+				<p class="stat-block-1"><b>Fort</b> +0, <b>Ref</b> +4, <b>Will</b> +0</p>
+				<p class="stat-block-1"><b>Immune</b> construct traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to electricity</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> slam +6 (1d4+6)</p>
+				<p class="stat-block-1"><b>Ranged</b> net +4 (entangle, see page 147 of the <i>Core Rulebook</i>)</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 19, <b>Dex</b> 14, <b>Con</b> &mdash;, <b>Int</b> &mdash;, <b>Wis</b> 11, <b>Cha</b> 1</p>
+				<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> +6; <b>CMD</b> 20</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a><sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a><sup>B</sup></p>
+				<p class="stat-block-1"><b>SQ</b> repair clockwork, swift reactions, winding</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, team (2&ndash;4), or squadron (5&ndash;10)</p>
+				<p class="stat-block-1"><b>Treasure</b> none</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Net (Ex) </b>As a standard action, a clockwork servant can launch a net from its shoulder. The launcher itself can contain up to five nets&mdash;loading a folded net into the launcher is a standard action. Some clockwork servants are outfitted with masterwork or even magic nets, although the clockwork servant presented here is armed with standard nets.</p>
+				<p class="stat-block-1"><b>Repair <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_clockwork-subtype" >Clockwork</a> (Ex) </b><a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_clockwork-subtype" >Clockwork</a> servants are adept at repairing other clockwork constructs. As a standard action that does not provoke an attack of opportunity, a clockwork servant can repair damage done to either itself or an adjacent clockwork creature, healing 1d10 points of damage to the target.</p>
+				
+				<p>Since clockwork engineers can't always be present to make sure their devices are working at full capacity, the clockwork servant was invented to serve that role. Clockwork servants excel at repairing themselves and other clockworks on the battlefield, proving useful for skirmishes and campaigns alike.</p>
+				<p>Rumors of clockwork servants with magically imparted intelligence persist among explorers of certain strange ruins&mdash;while no smarter than the average human, such “awakened” clockwork servants have skills and feats as appropriate for their Hit Dice (<a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> +7, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +2, and <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> [<a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a>] for most intelligent clockwork servants), and are said to serve in more complex roles than mere repair workers. An intelligent clockwork has an Intelligence score of 11 and can speak one language.</p>
+				<p>Clockwork servants are about 5 feet tall and weigh over 400 pounds.</p>
+				<h2>Construction</h2>
+				<p>The creator of a clockwork servant must start with crafted clockwork pieces worth 500 gp. </p>
+				
+				<p class="stat-block-title">CLOCKWORK SERVANT</p>
+				<p class="stat-block-1"><b>CL</b> 12th; <b>Price</b> 7,500 gp (13,500 for an intelligent servant)</p>
+				<p class="stat-block-breaker">CONSTRUCTION</p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct" >Craft Construct</a>,<i> <a href="/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest" >geas/quest</a></i> and <i><a href="/pathfinderRPG/prd/spells/makeWhole.html#_make-whole" >make whole</a></i>, creator must be at least caster level 12th; <b>Skill</b> <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (clockwork) DC 20; <b>Cost</b> 4,000 gp (7,000 for an intelligent clockwork servant)</p>
+
+				<h1 id="clockwork-soldier" class="monster-header">Clockwork Soldier</h1>
+				<p class="flavor-text">Cogs and gears are visible in the gaps of this metallic creature's armor. It wields a polearm as it stands ready at attention.</p>
+				<p class="stat-block-title">Clockwork Soldier <span class="stat-block-cr">CR 6</span></p>
+				<p class="stat-block-xp">XP 2,400</p>
+				<p class="stat-block-1">N Medium construct (clockwork)</p>
+				<p class="stat-block-1"><b>Init</b> +6; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +0</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 20, touch 14, flat-footed 16 (+2 Dex, +2 dodge, +6 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 64 (8d10+20)</p>
+				<p class="stat-block-1"><b>Fort</b> +2, <b>Ref</b> +6, <b>Will</b> +2</p>
+				<p class="stat-block-1"><b>DR</b> 5/adamantine; <b>Immune</b> construct traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to electricity</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+1 halberd</i> +18/+13 (1d10+13/&times;3)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> latch</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 28, <b>Dex</b> 15, <b>Con</b> &mdash;, <b>Int</b> &mdash;, <b>Wis</b> 11, <b>Cha</b> 1</p>
+				<p class="stat-block-1"><b>Base Atk</b> +8; <b>CMB</b> +17 (+19 disarm); <b>CMD</b> 31 (33 vs. disarm)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a><sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a><sup>B</sup></p>
+				<p class="stat-block-1"><b>SQ</b> efficient winding, proficient, standby, swift reactions</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, trio, troop (3&ndash;8), or company (9&ndash;12 plus 1&ndash;4 clockwork servants)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (<i>+1 halberd</i>, other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Efficient Winding (Ex) </b>A clockwork soldier can function for 2 days per Hit Die every time it is wound.</p>
+				<p class="stat-block-1"><b>Latch (Ex) </b><a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_clockwork-subtype" >Clockwork</a> soldiers have specially designed hands that easily grasp and lock onto weapons and objects. A soldier can attempt to disarm or grapple as a standard action without provoking an attack of opportunity, and it receives a +2 bonus on disarm checks. In addition, it receives a +2 bonus to CMD against attempts to disarm it.</p>
+				<p class="stat-block-1"><b>Proficient (Ex) </b>A clockwork soldier is proficient with all simple and martial weapons.</p>
+				<p class="stat-block-1"><b>Standby (Ex) </b>A clockwork soldier can place itself on standby as a standard action. While on standby, a clockwork soldier cannot move or take any actions. It remains aware of its surroundings but takes a &ndash;4 penalty on <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> checks. Time spent on standby does not count against the soldier's wind-down duration. A clockwork soldier can exit standby as a swift action&mdash;if it does so to initiate combat, it gains a +4 racial bonus on its Initiative check.</p>
+				
+				<p>The clockwork soldier is a mechanical mercenary that fights to the death for its creator. With the ability to wield most weapons with full proficiency, clockwork soldiers are versatile and wholly unpredictable foes. Most are armed with magic weapons&mdash;a <i>+1 halberd</i> being the most common armament.</p>
+				<p>Clockwork soldiers are among the most efficient constructs of their kind. They are ideal for sentry and guard duty. Clockwork soldiers have the same basic shape as a human. They are 6 feet tall and weigh 500 pounds.</p>
+				<h2>Construction</h2>
+				<p>The creator must start with crafted clockwork pieces worth 1,000 gp; the cost of the soldier's weapon is not included in this price.</p>
+				<p class="stat-block-title">CLOCKWORK SOLDIER</p>
+				<p class="stat-block-1"><b>CL</b> 12th; <b>Price</b> 37,000 gp</p>
+				<p class="stat-block-breaker">CONSTRUCTION</p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct" >Craft Construct</a>,<i> <a href="/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest" >geas/quest</a></i> and <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i>, creator must be at least caster level 12th; <b>Skill</b> <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (clockwork) DC 20; <b>Cost</b> 19,000 gp</p>
+				
+				<h1 id="clockwork-spy" class="monster-header">Clockwork Spy</h1>
+				<p class="flavor-text">This tiny steel creature has one oversized eye, a spherical body, and several spiderlike legs of grinding metal.</p>
+				<p class="stat-block-title">Clockwork Spy <span class="stat-block-cr">CR 1/2</span></p>
+				<p class="stat-block-xp">XP 200</p>
+				<p class="stat-block-1">N Tiny construct (clockwork)</p>
+				<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +0</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 15, touch 15, flat-footed 12 (+1 Dex, +2 dodge, +2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 5 (1d10)</p>
+				<p class="stat-block-1"><b>Fort</b> +0, <b>Ref</b> +3, <b>Will</b> +0</p>
+				<p class="stat-block-1"><b>Immune</b> construct traits</p>
+				<p class="stat-block-1"><b>Weaknesses</b> vulnerable to electricity</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., fly 30 ft. (clumsy)</p>
+				<p class="stat-block-1"><b>Melee</b> slam +3 (1d2)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> record audio, self-destruct</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 13, <b>Con</b> &mdash;, <b>Int</b> &mdash;, <b>Wis</b> 11, <b>Cha</b> 1</p>
+				<p class="stat-block-1"><b>Base Atk</b> +1; <b>CMB</b> +0; <b>CMD</b> 12</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a><sup>B</sup>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a><sup>B</sup></p>
+				<p class="stat-block-1"><b>Skills </b><a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +2, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> &ndash;3, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +11; <b>Racial Modifiers</b> +2 <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a>, +2 <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a></p>
+				<p class="stat-block-1"><b>SQ</b> swift reactions, winding</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary</p>
+				<p class="stat-block-1"><b>Treasure</b> incidental (gemstone worth 50 gp)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Record Audio (Su) </b>A clockwork spy can record nearby sounds as a swift action, archiving all sound within a 20-foot spread onto a small gemstone worth 50 gp embedded in its body. The clockwork spy can record up to 1 hour of sound per Hit Die it possesses. Starting and stopping playback of recorded sound is a swift action. Removing a gemstone or installing a gemstone into a clockwork spy requires a DC 25 <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> check as a full-round action&mdash;failure does not damage the gemstone but does erase any recorded sounds on the gemstone. Since clockwork spies are not intelligent, they must be given simple commands as to when they are to start recording sounds. A clockwork spy can differentiate between creature types and subtypes, but not between specific individuals&mdash;a spy can be ordered to start recording sound as soon as a humanoid (<a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_human-subtype" >human</a>) or an aberration comes in range, but it cannot be ordered to start recording when a specific person comes within range. Once a clockwork spy begins recording sound, it cannot cease recording early. Likewise, it cannot record sound onto a gemstone that already contains a recording.</p>
+				<p class="stat-block-1"><b>Self-Destruct (Su) </b>Unless specifically programmed otherwise by its creator, a clockwork spy explodes 1 round after it is destroyed. During this round, the thing shrieks and thrashes about as if undergoing convulsions. On what would normally have been the clockwork spy's next action, it explodes, dealing 1d6 points of <a href="/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype" >fire</a> damage in a 5-foot radius (Reflex DC 10 for half damage). A DC 20 <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> check made as a standard action can halt the spy's self-destruct sequence, but does not prevent it from dying. A clockwork spy that self-destructs automatically destroys its gemstone, along with any information contained inside it. The save DC is Constitution-based.</p>
+				
+				<p>These spindly and discreet mechanical arachnids are ideal for surveillance and reconnaissance missions, and can be vital tools in political intrigues or illicit consortium tactics. Their retractable, insectile wings make the swift creatures even craftier foes than most would anticipate. As they are less combat-oriented than many other clockworks, if a clockwork spy is caught in the act of recording its target, escape is usually the most practical course of action for it.</p>
+				<p>Clockwork spies are about 2 feet wide from leg to leg, and weigh less than 40 pounds.</p>
+				<h2>Construction</h2>
+				<p>These delicate constructs are full of small parts and difficult to construct. The creator must start with crafted clockwork pieces worth 250 gp. </p>
+				<p class="stat-block-title">CLOCKWORK SPY</p>
+				<p class="stat-block-1"><b>CL</b> 12th; <b>Price</b> 1,250 gp</p>
+				<p class="stat-block-breaker">CONSTRUCTION</p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct" >Craft Construct</a>,<i> <a href="/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest" >geas/quest</a></i> and <i><a href="/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound" >ghost sound</a></i>, creator must be at least caster level 12th; <b>Skill</b> <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (clockwork) DC 20; <b>Cost</b> 750 gp</p>
+
+			</div>
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Cursed Items</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Cursed Items",globalNavPath=[{ href: '/pathfinderRPG/prd/magicItems.html', name: 'Magic Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="cursed-items">Cursed Items</h1><div class="right"><table id="table-15-27-common-item-curses"><caption>Table: Common Item Curses</caption>
+<thead><tr><th>d%</th><th>Curse</th></tr></thead>
+<tbody>
+<tr class="odd"><td>01&ndash;15</td><td>Delusion</td></tr>
+<tr class="even"><td>16&ndash;35</td><td>Opposite effect or target</td></tr>
+<tr class="odd"><td>36&ndash;45</td><td>Intermittent functioning</td></tr>
+<tr class="even"><td>46&ndash;60</td><td>Requirement</td></tr>
+<tr class="odd"><td>61&ndash;75</td><td>Drawback</td></tr>
+<tr class="even"><td>76&ndash;90</td><td>Completely different effect</td></tr>
+<tr class="odd"><td>91&ndash;100</td><td>Substitute specific cursed item on Table: Specific Cursed Items</td></tr></tbody></table></div>
+
+				<p>Cursed items are magic items with some sort of potentially negative impact. Occasionally they mix bad with good, forcing characters to make difficult choices. Cursed items are almost never made intentionally. Instead they are the result of rushed work, inexperienced crafters, or a lack of proper components. While many of these items still have functions, they either do not work as intended or come with serious drawbacks. When a magic item creation skill check fails by 5 or more, roll on Table: Common Item Curses to determine the type of curse possessed by the item.</p>
+				<p><b>Identifying Cursed Items</b>: Cursed items are identified like any other magic item with one exception: unless the check made to identify the item exceeds the DC by 10 or more, the curse is not detected. If the check is not made by 10 or more, but still succeeds, all that is revealed is the magic item's original intent. If the item is known to be cursed, the nature of the curse can be determined using the standard DC to identify the item.</p>
+				<p><b>Removing Cursed Items</b>: While some cursed items can be simply discarded, others force a compulsion upon the user to keep the item, no matter the costs. Others reappear even if discarded or are impossible to throw away. These items can only be discarded after the character or item is targeted by a <i><a href="../spells/removeCurse.html#_remove-curse" >remove curse</a></i> or similar magic. The DC of the caster level check to undo the curse is equal to 10 + the item's caster level. If the spell is successful, the item can be discarded on the following round, but the curse reasserts itself if the item is used again.</p>
+				<h2 id="common-cursed-item-effects">Common Cursed Item Effects</h2>
+				<p>The following are some of the most common cursed item effects. GMs should feel free to invent new cursed item effects to fit specific items. </p>
+				<p><b>Delusion</b>: The user believes the item is what it appears to be, yet it actually has no magical power other than to deceive. The user is mentally fooled into thinking the item is functioning and cannot be convinced otherwise without the casting of <i><a href="../spells/removeCurse.html#_remove-curse" >remove curse</a></i>.</p>
+				<p><b>Opposite Effect or Target</b>: These cursed items malfunction, so that either they do the opposite of what the creator intended, or they target the user instead of someone else. The interesting point to keep in mind here is that these items aren't always bad to have. Opposite-effect items include weapons that impose penalties on attack and damage rolls rather than bonuses. Just as a character shouldn't necessarily immediately know what the enhancement bonus of a noncursed magic item is, she shouldn't immediately know that a weapon is cursed. Once she knows, however, the item can be discarded unless some sort of compulsion is placed upon it that compels the wielder to keep and use it. In such cases, a <i><a href="../spells/removeCurse.html#_remove-curse" >remove curse</a> </i>spell is generally needed to get rid of the item.</p>
+				<p><b>Intermittent Functioning</b>: The three varieties of intermittent functioning items all function perfectly as intended&mdash;at least some of the time. The three varieties are unreliable, dependent, and uncontrolled items.</p>
+				<p><i>Unreliable</i>: Each time the item is activated, there is a 5% chance (01&ndash;05 on d%) that it does not function.</p>
+				<p><i>Dependent</i>: The item only functions in certain situations. To determine the situation, select or roll on the following table.</p><table>
+<thead><tr><th>d%</th><th>Situation</th></tr></thead>
+<tbody>
+<tr class="odd"><td>01&ndash;03</td><td>Temperature below freezing</td></tr>
+<tr class="even"><td>04&ndash;05</td><td>Temperature above freezing</td></tr>
+<tr class="odd"><td>06&ndash;10</td><td>During the day</td></tr>
+<tr class="even"><td>11&ndash;15</td><td>During the night</td></tr>
+<tr class="odd"><td>16&ndash;20</td><td>In direct sunlight</td></tr>
+<tr class="even"><td>21&ndash;25</td><td>Out of direct sunlight</td></tr>
+<tr class="odd"><td>26&ndash;34</td><td>Underwater</td></tr>
+<tr class="even"><td>35&ndash;37</td><td>Out of water</td></tr>
+<tr class="odd"><td>38&ndash;45</td><td>Underground</td></tr>
+<tr class="even"><td>46&ndash;55</td><td>Aboveground</td></tr>
+<tr class="odd"><td>56&ndash;60</td><td>Within 10 feet of a random creature type</td></tr>
+<tr class="even"><td>61&ndash;64</td><td>Within 10 feet of a random race or kind of creature</td></tr>
+<tr class="odd"><td>65&ndash;72</td><td>Within 10 feet of an arcane spellcaster</td></tr>
+<tr class="even"><td>73&ndash;80</td><td>Within 10 feet of a divine spellcaster</td></tr>
+<tr class="odd"><td>81&ndash;85</td><td>In the hands of a nonspellcaster</td></tr>
+<tr class="even"><td>86&ndash;90</td><td>In the hands of a spellcaster</td></tr>
+<tr class="odd"><td>91&ndash;95</td><td>In the hands of a creature of a particular alignment</td></tr>
+<tr class="even"><td>96</td><td>In the hands of a creature of a particular gender</td></tr>
+<tr class="odd"><td>97&ndash;99</td><td>On holy days or during particular astrological events</td></tr>
+<tr class="even"><td>100</td><td>More than 100 miles from a particular site</td></tr></tbody></table>
+
+				<p><i>Uncontrolled</i>: An uncontrolled item occasionally activates at random times. Roll d% every day. On a result of 01&ndash;05 the item activates at some random point during that day. </p>
+				<p><b>Requirement</b>: Some items have stringent requirements that must be met for them to be usable. To keep an item with this kind of curse functioning, one or more of the following conditions must be met.</p>
+				<ul><li> Character must eat twice as much as normal.</li>
+				<li> Character must sleep twice as much as normal.</li>
+				<li> Character must undergo a specific quest (one time only, and the item functions normally thereafter).</li>
+				<li> Character must sacrifice (destroy) 100 gp in valuables per day.</li>
+				<li> Character must sacrifice (destroy) 2,000 gp worth of magic items each week.</li>
+				<li> Character must swear fealty to a particular noble or to his entire family.</li>
+				<li> Character must discard all other magic items.</li>
+				<li> Character must worship a particular deity.</li>
+				<li> Character must change her name to a specific name. The item only works for characters of that name.</li>
+				<li> Character must add a specific class at the next opportunity if not of that class already.</li>
+				<li> Character must have a minimum number of ranks in a particular skill.</li>
+				<li> Character must sacrifice some part of her life energy (2 points of <a href="../gettingStarted.html#_constitution" >Constitution</a>) one time. If the character gets the <a href="../gettingStarted.html#_constitution" >Constitution</a> points back (such as from a <i>restoration </i>spell), the item ceases functioning. (The item does not cease functioning if the character receives a <a href="../gettingStarted.html#_constitution" >Constitution</a> increase caused by level gain, a <i><a href="../spells/wish.html#_wish" >wish</a>, </i>or the use of a magic item.)</li>
+				<li> Item must be cleansed with holy water each day.</li>
+				<li> Item must be used to kill a living creature each day.</li>
+				<li> Item must be bathed in volcanic lava once per month.</li>
+				<li> Item must be used at least once a day, or it won't function again for its current possessor.</li>
+				<li> Item must draw blood when wielded (weapons only). It can't be put away or exchanged for another weapon until it has scored a hit.</li>
+				<li> Item must have a particular spell cast upon it each day (such as <i><a href="../spells/bless.html#_bless" >bless</a>, <a href="../spells/atonement.html#_atonement" >atonement</a>, </i>or <i><a href="../spells/animateObjects.html#_animate-objects" >animate objects</a></i>).</li></ul>
+				<p>Requirements are so dependent upon suitability to the item that they should never be determined randomly. An intelligent item with a requirement often imposes its requirement through its personality. If the requirement is not met, the item ceases to function. If it is met, usually the item functions for one day before the requirement must be met again (although some requirements are one time only, others monthly, and still others continuous).</p>
+				<p><b>Drawback</b>: Items with drawbacks are usually still beneficial to the possessor but carry some negative aspect. Although sometimes drawbacks occur only when the item is used (or held, in the case of some weapons), usually the drawback remains with the character for as long as she has the item.</p>
+				<p>Unless otherwise indicated, drawbacks remain in effect as long as the item is possessed. The DC to save against any of these effects is usually equal to 10 + the item's caster level.</p><table>
+<thead><tr><th>d%</th><th>Drawback</th></tr></thead>
+<tr class="odd"><td>01&ndash;04</td><td style="white-space:normal">Character's hair grows 1 inch longer every hour.</td></tr>
+<tr class="even"><td>05&ndash;09</td><td style="white-space:normal">Character either shrinks 6 inches (01&ndash;50 on d%) or grows that much taller (51&ndash;100). Only happens once.</td></tr>
+<tr class="odd"><td>10&ndash;13</td><td style="white-space:normal">Temperature around item is 10° F cooler than normal.</td></tr>
+<tr class="even"><td>14&ndash;17</td><td style="white-space:normal">Temperature around item is 10° F warmer than normal.</td></tr>
+<tr class="odd"><td>18&ndash;21</td><td style="white-space:normal">Character's hair color changes.</td></tr>
+<tr class="even"><td>22&ndash;25</td><td style="white-space:normal">Character's skin color changes.</td></tr>
+<tr class="odd"><td>26&ndash;29</td><td style="white-space:normal">Character now bears some identifying mark (tattoo, weird glow, or the like).</td></tr>
+<tr class="even"><td>30&ndash;32</td><td style="white-space:normal">Character's gender changes.</td></tr>
+<tr class="odd"><td>33&ndash;34</td><td style="white-space:normal">Character's race or kind changes.</td></tr>
+<tr class="even"><td>35</td><td style="white-space:normal">Character is afflicted with a random disease that cannot be cured.</td></tr>
+<tr class="odd"><td>36&ndash;39</td><td style="white-space:normal">Item continually emits a disturbing sound (moaning, weeping, screaming, cursing, insults).</td></tr>
+<tr class="even"><td>40</td><td style="white-space:normal">Item looks ridiculous (garishly colored, silly shape, glows bright pink).</td></tr>
+<tr class="odd"><td>41&ndash;45</td><td style="white-space:normal">Character becomes selfishly possessive.</td></tr>
+<tr class="even"><td>46&ndash;49</td><td style="white-space:normal">Character becomes paranoid about losing the item and afraid of damage occurring to it.</td></tr>
+<tr class="odd"><td>50&ndash;51</td><td style="white-space:normal">Character's alignment changes.</td></tr>
+<tr class="even"><td>52&ndash;54</td><td style="white-space:normal">Character must attack nearest creature (5% chance [01&ndash;05 on d%] each day).</td></tr>
+<tr class="odd"><td>55&ndash;57</td><td style="white-space:normal">Character is <a href="../glossary.html#_stunned" >stunned</a> for 1d4 rounds once item function is finished (or randomly, 1/day).</td></tr>
+<tr class="even"><td>58&ndash;60</td><td style="white-space:normal">Character's vision is blurry (&ndash;2 penalty on attack rolls, saves, and skill checks requiring vision).</td></tr>
+<tr class="odd"><td>61&ndash;64</td><td style="white-space:normal">Character gains one negative level.</td></tr>
+<tr class="even"><td>65</td><td style="white-space:normal">Character gains two <a href="../glossary.html#_energy-drain-and-negative-levels" >negative levels</a>.</td></tr>
+<tr class="odd"><td>66&ndash;70</td><td style="white-space:normal">Character must make a <a href="../combat.html#_will" >Will</a> save each day or take 1 point of <a href="../gettingStarted.html#_intelligence" >Intelligence</a> damage.</td></tr>
+<tr class="even"><td>71&ndash;75</td><td style="white-space:normal">Character must make a <a href="../combat.html#_will" >Will</a> save each day or take 1 point of <a href="../gettingStarted.html#_wisdom" >Wisdom</a> damage.</td></tr>
+<tr class="odd"><td>76&ndash;80</td><td style="white-space:normal">Character must make a <a href="../combat.html#_will" >Will</a> save each day or take 1 point of <a href="../gettingStarted.html#_charisma-new" >Charisma</a> damage.</td></tr>
+<tr class="even"><td>81&ndash;85</td><td style="white-space:normal">Character must make a <a href="../combat.html#_fortitude" >Fortitude</a> save each day or take 1 point of <a href="../gettingStarted.html#_constitution" >Constitution</a> damage.</td></tr>
+<tr class="odd"><td>86&ndash;90</td><td style="white-space:normal">Character must make a <a href="../combat.html#_fortitude" >Fortitude</a> save each day or take 1 point of Strength damage.</td></tr>
+<tr class="even"><td>91&ndash;95</td><td style="white-space:normal">Character must make a <a href="../combat.html#_fortitude" >Fortitude</a> save each day or take 1 point of <a href="../gettingStarted.html#_dexterity" >Dexterity</a> damage.</td></tr>
+<tr class="odd"><td>96</td><td style="white-space:normal">Character is polymorphed into a specific creature (5% chance [01&ndash;05 on d%] each day).</td></tr>
+<tr class="even"><td>97</td><td style="white-space:normal">Character cannot cast arcane spells.</td></tr>
+<tr class="odd"><td>98</td><td style="white-space:normal">Character cannot cast divine spells.</td></tr>
+<tr class="even"><td>99</td><td style="white-space:normal">Character cannot cast any spells.</td></tr>
+<tr class="odd"><td>100</td><td style="white-space:normal">Either pick one of the above that's appropriate or create a drawback specifically for that item.</td></tr></table>
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

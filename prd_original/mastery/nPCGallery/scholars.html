@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Scholars</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Scholars",globalNavPath=[{ href: '/pathfinderRPG/prd/mastery/nPCGallery.html', name: 'NPC Gallery' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<div><h1 id="scholars">Scholars</h1>
+				<p>More than merely elusive sages and hermetic wizards, academics and intellectuals might be found anywhere secrets wait to be uncovered. From universities of higher learning to the ruins of forgotten civilizations, researchers endlessly pursue new discoveries, either for the sake of scholarship or for their own personal fame. Tenacious mages test the boundaries of magic, risking their lives and sanity for the chance at greater power. No matter the mystery, one can rest assured that somewhere experts wait to test their minds against new challenges.</p>
+			
+				<p id="hedge-wizard" class="stat-block-title"><b>Hedge Wizard CR 4</b></p>
+				<p id="xp-1,200" class="stat-block-xp"><b>XP 1,200</b></p>
+				<p class="stat-block-1">Human commoner 2/wizard 3 </p>
+				<p class="stat-block-1">N Medium humanoid</p>
+				<p class="stat-block-1"><b>Init</b> +1; <b>Senses</b> <a href="../../skills/perception.html#_perception" >Perception</a> +6</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 11, touch 11, flat-footed 10 (+1 Dex)</p>
+				<p class="stat-block-1"><b>hp</b> 22 (5d6+5)</p>
+				<p class="stat-block-1"><b>Fort</b> +3, <b>Ref</b> +3, <b>Will</b> +6</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> dagger +2 (1d4/19&ndash;20)</p>
+				<p class="stat-block-1"><b>Ranged</b> dagger +3 (1d4/19&ndash;20)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> hand of the apprentice (7/day)</p>
+				<p class="stat-block-1"><b>Wizard Spells Prepared</b> (CL 3rd; concentration +7)</p>
+				<p class="stat-block-2">2nd&mdash;<i><a href="../../spells/blindnessDeafness.html#_blindness-deafness" >blindness/deafness</a> </i>(DC 16), <i><a href="../../spells/glitterdust.html#_glitterdust" >glitterdust</a></i> (DC 16)</p>
+				<p class="stat-block-2">1st&mdash;<i><a href="../../spells/charmPerson.html#_charm-person" >charm person</a></i> (DC 15), <i><a href="../../spells/colorSpray.html#_color-spray" >color spray</a></i> (DC 15), <i><a href="../../spells/unseenServant.html#_unseen-servant" >unseen servant</a></i></p>
+				<p class="stat-block-2">0 (at will)&mdash;<i><a href="../../spells/arcaneMark.html#_arcane-mark" >arcane mark</a></i>, <i><a href="../../spells/mageHand.html#_mage-hand" >mage hand</a></i>, <i><a href="../../spells/mending.html#_mending" >mending</a></i>, <i><a href="../../spells/prestidigitation.html#_prestidigitation" >prestidigitation</a></i></p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 13, <b>Con</b> 12, <b>Int</b> 18, <b>Wis</b> 14, <b>Cha</b> 8</p>
+				<p class="stat-block-1"><b>Base Atk</b> +2; <b>CMB</b> +2; <b>CMD</b> 16</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../../feats.html#_brew-potion" >Brew Potion</a>, <a href="../../feats.html#_combat-casting" >Combat Casting</a>, <a href="../../feats.html#_defensive-combat-training" >Defensive Combat Training</a>, <a href="../../feats.html#_scribe-scroll" >Scribe Scroll</a>, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/craft.html#_craft" >Craft</a> [alchemy])</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../../skills/appraise.html#_appraise" >Appraise</a> +12, <a href="../../skills/craft.html#_craft" >Craft</a> (alchemy) +15, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +12, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +10, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (geography) +10, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (history) +10, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (local) +10, <a href="../../skills/perception.html#_perception" >Perception</a> +6, <a href="../../skills/profession.html#_profession" >Profession</a> (herbalist) +10, <a href="../../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +12</p>
+				<p class="stat-block-1"><b>Languages</b> Aquan, Common, Elven, Gnome, Sylvan</p>
+				<p id="sq" class="stat-block-1"><b>SQ</b> arcane bond (raven familiar)</p>
+				<p class="stat-block-1"><b>Combat Gear </b><i>potions of <a href="../../spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i><a href="../../spells/darkvision.html#_darkvision" >darkvision</a></i>, <i><a href="../../spells/invisibility.html#_invisibility" >invisibility</a></i>, <i><a href="../../spells/levitate.html#_levitate" >levitate</a>, <a href="../../spells/protectionFromArrows.html#_protection-from-arrows" >protection from arrows</a></i>, <i><a href="../../spells/resistEnergy.html#_resist-energy" >resist energy</a></i>; <b>Other Gear</b> dagger, <i><a href="../../magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, alchemy kit</p>
+				<p id="boon-" class="stat-block-1"><b>Boon </b>A hedge wizard can make alchemical items, brew potions, or scribe scrolls for the PCs at half cost. A hedge wizard can also share knowledge about the local area, granting a +2 circumstance bonus on <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (geography), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (history), <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (local), or <a href="../../skills/profession.html#_profession" >Profession</a> (herbalist) checks made in the local region.</p>
+				<p>A hedge wizard is a local dabbler in magic, sometimes a hermit or recluse wanting only privacy, but often a local loremaster or apothecary whose studies include both the natural and the supernatural.</p>
+				<p>Hedge wizards can serve as alchemists, sages, and scholars, or operate a curiosity shop or trading post dealing in magical and mundane items. </p>
+				<p>A hedge wizard might apprentice with a conjurist or hermit (CR 7) or partner with a medium as mystical advisors to a mayor (CR 9). Two cultists might be found working with a hedge wizard (CR 6), or a hedge wizard may work with a pilgrim and two acolytes to administer to a remote village (CR 6).</p>
+			
+				<p id="archaeologist" class="stat-block-title"><b>Archaeologist CR 6</b></p>
+				<p id="xp-2,400" class="stat-block-xp"><b>XP 2,400</b></p>
+				<p class="stat-block-1">Human rogue 7 </p>
+				<p class="stat-block-1">N Medium humanoid </p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> <a href="../../skills/perception.html#_perception" >Perception</a> +10</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 17, touch 13, flat-footed 14 (+3 armor, +3 Dex, +1 shield)</p>
+				<p class="stat-block-1"><b>hp</b> 38 (7d8+7)</p>
+				<p class="stat-block-1"><b>Fort</b> +3, <b>Ref</b> +8, <b>Will</b> +3</p>
+				<p class="stat-block-1"><b>Defensive Abilities </b>evasion, trap sense +2, uncanny dodge</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> short sword +8 (1d6&ndash;1) or whip +8 (1d3&ndash;1 nonlethal)</p>
+				<p class="stat-block-1"><b>Ranged</b> hand crossbow +8 (1d4/19&ndash;20)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> sneak attack +4d6 plus slow reactions</p>
+				<p id="space-" class="stat-block-1"><b>Space </b>5 ft.;<b> Reach </b>5 ft. (15 ft. with whip)</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 8, <b>Dex</b> 16, <b>Con</b> 13, <b>Int</b> 16, <b>Wis</b> 12, <b>Cha</b> 10</p>
+				<p class="stat-block-1"><b>Base Atk</b> +5; <b>CMB</b> +8 (+10 to trip); <b>CMD</b> 17 (19 vs. trip)</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../../feats.html#_agile-maneuvers" >Agile Maneuvers</a>, <a href="../../feats.html#_blind-fight" >Blind-Fight</a>, <a href="../../feats.html#_combat-expertise" >Combat Expertise</a>, <a href="../../feats.html#_improved-trip" >Improved Trip</a>, <a href="../../feats.html#_weapon-finesse" >Weapon Finesse</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../../skills/acrobatics.html#_acrobatics" >Acrobatics</a> +12, <a href="../../skills/appraise.html#_appraise" >Appraise</a> +12, <a href="../../skills/climb.html#_climb" >Climb</a> +5, <a href="../../skills/disableDevice.html#_disable-device" >Disable Device</a> +15, <a href="../../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> +10, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +5, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering) +10, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (engineering) +10, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (history) +10, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (local) +10, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +5, <a href="../../skills/linguistics.html#_linguistics" >Linguistics</a> +10, <a href="../../skills/perception.html#_perception" >Perception</a> +10, <a href="../../skills/profession.html#_profession" >Profession</a> (architect) +10, <a href="../../skills/profession.html#_profession" >Profession</a> (librarian) +10, <a href="../../skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a> +7, <a href="../../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +7, <a href="../../skills/stealth.html#_stealth" >Stealth</a> +10, <a href="../../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +10</p>
+				<p class="stat-block-1"><b>Languages</b> Aklo, Common, Draconic, Dwarven, Elven, Giant, Terran, Undercommon</p>
+				<p id="sq" class="stat-block-1"><b>SQ</b> rogue talents (ledge walker, slow reactions, trap spotter), trapfinding +3</p>
+				<p class="stat-block-1"><b>Combat Gear </b><i>scrolls of <a href="../../spells/comprehendLanguages.html#_comprehend-languages" >comprehend languages</a></i>, <i><a href="../../spells/detectSecretDoors.html#_detect-secret-doors" >detect secret doors</a></i>, <i><a href="../../spells/erase.html#_erase" >erase</a></i>; <b>Other Gear</b> masterwork studded leather, masterwork buckler, hand crossbow with 10 bolts, short sword, whip, <i><a href="../../magicItems/wondrousItems.html#_hand-of-the-mage" >hand of the mage</a></i>, <i><a href="../../magicItems/wondrousItems.html#_handy-haversack" >handy haversack</a></i>, <i><a href="../../magicItems/wondrousItems.html#_rope-of-climbing" >rope of climbing</a></i>, <i><a href="../../magicItems/wondrousItems.html#_unguent-of-timelessness" >unguent of timelessness</a></i>, everburning torch</p>
+				<p class="stat-block-1"><b>Boon</b> An archaeologist can tell PCs secrets of ruins and relics of a specific ancient culture, granting a +2 circumstance bonus on <a href="../../skills/appraise.html#_appraise" >Appraise</a>, <a href="../../skills/spellcraft.html#_spellcraft" >Spellcraft</a>, and <a href="../../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> checks to identify items relating to that culture, as well as <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (engineering), <a href="../../skills/perception.html#_perception" >Perception</a>, and <a href="../../skills/disableDevice.html#_disable-device" >Disable Device</a> checks when dealing with traps or secret doors in a ruin from that culture. </p>
+				<p>An archaeologist is a cunning scholar and explorer of ancient texts and ruins. She is knowledgeable in a wide range of fields, as quick with a quip or quotation as with a blade, bolt, or lash. An archaeologist might partner with a medium to placate the spirits of the dead disturbed in her explorations (CR 7), or supply a traveling merchant with exotic relics (CR 8).</p>
+			
+				<p id="sage" class="stat-block-title"><b>Sage CR 11</b></p>
+				<p id="xp-12,800" class="stat-block-xp"><b>XP 12,800</b></p>
+				<p class="stat-block-1">Human abjurer 5/expert 7</p>
+				<p class="stat-block-1">N Medium humanoid </p>
+				<p class="stat-block-1"><b>Init</b> +0; <b>Senses </b><a href="../../skills/perception.html#_perception" >Perception</a> +10</p>
+				<p class="stat-block-breaker"><b>Defense</b></p>
+				<p class="stat-block-1"><b>AC</b> 14, touch 10, flat-footed 14 (+4 <i><a href="../../spells/mageArmor.html#_mage-armor" >mage armor</a></i>)</p>
+				<p class="stat-block-1"><b>hp</b> 61 (12 HD; 7d8+5d6+12)</p>
+				<p class="stat-block-1"><b>Fort</b> +5, <b>Ref</b> +4, <b>Will</b> +12</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> protective ward 10/day (+2 deflection, 7 rounds), resistance</p>
+				<p class="stat-block-breaker"><b>Offense</b></p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft.</p>
+				<p class="stat-block-1"><b>Melee</b> quarterstaff +6/+1 (1d6&ndash;1) </p>
+				<p class="stat-block-1"><b>Ranged</b> dart +7 (1d4-1)</p>
+				<p class="stat-block-1"><b>Wizard Spells Prepared</b> (CL 5th; concentration +12)</p>
+				<p class="stat-block-2">3rd&mdash;<i><a href="../../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil" >magic circle against evil</a></i>, <i><a href="../../spells/sepiaSnakeSigil.html#_sepia-snake-sigil" >sepia snake sigil</a> </i>(DC 20), <i><a href="../../spells/stinkingCloud.html#_stinking-cloud" >stinking cloud</a></i> (DC 20), <i><a href="../../spells/suggestion.html#_suggestion" >suggestion</a></i> (DC 20)</p>
+				<p class="stat-block-2">2nd&mdash;<i><a href="../../spells/glitterdust.html#_glitterdust" >glitterdust</a> </i>(DC 19), <i><a href="../../spells/locateObject.html#_locate-object" >locate object</a></i>, <i><a href="../../spells/protectionFromArrows.html#_protection-from-arrows" >protection from arrows</a></i>, <i><a href="../../spells/touchOfIdiocy.html#_touch-of-idiocy" >touch of idiocy</a></i>, <i><a href="../../spells/whisperingWind.html#_whispering-wind" >whispering wind</a></i></p>
+				<p class="stat-block-2">1st&mdash;<i><a href="../../spells/charmPerson.html#_charm-person" >charm person</a> </i>(DC 18), <i><a href="../../spells/colorSpray.html#_color-spray" >color spray</a></i> (DC 18), <i><a href="../../spells/featherFall.html#_feather-fall" >feather fall</a></i>, <i><a href="../../spells/mageArmor.html#_mage-armor" >mage armor</a></i>, <i><a href="../../spells/shield.html#_shield" >shield</a></i>, <i><a href="../../spells/unseenServant.html#_unseen-servant" >unseen servant</a></i></p>
+				<p class="stat-block-2">0 (at will)&mdash;<i><a href="../../spells/arcaneMark.html#_arcane-mark" >arcane mark</a></i>, <i><a href="../../spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="../../spells/message.html#_message" >message</a></i>, <i><a href="../../spells/readMagic.html#_read-magic" >read magic</a></i></p>
+				<p id="prohibited-schools" class="stat-block-1"><b>Prohibited Schools</b> evocation, necromancy</p>
+				<p class="stat-block-breaker"><b>Statistics</b></p>
+				<p class="stat-block-1"><b>Str</b> 8, <b>Dex</b> 10, <b>Con</b> 12, <b>Int</b> 24, <b>Wis</b> 14, <b>Cha</b> 13</p>
+				<p class="stat-block-1"><b>Base Atk</b> +7; <b>CMB</b> +6; <b>CMD</b> 21</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="../../feats.html#_arcane-strike" >Arcane Strike</a>, <a href="../../feats.html#_craft-wand" >Craft Wand</a>, <a href="../../feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <a href="../../feats.html#_defensive-combat-training" >Defensive Combat Training</a>, <a href="../../feats.html#_magical-aptitude" >Magical Aptitude</a>, <a href="../../feats.html#_scribe-scroll" >Scribe Scroll</a>, <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> [history]), <a href="../../feats.html#_skill-focus" >Skill Focus</a> (<a href="../../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a>), <a href="../../feats.html#_spell-mastery" >Spell Mastery</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="../../skills/appraise.html#_appraise" >Appraise</a> +14, <a href="../../skills/diplomacy.html#_diplomacy" >Diplomacy</a> +6, <a href="../../skills/heal.html#_heal" >Heal</a> +6, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (choose one) +28, <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> (all others) +20, <a href="../../skills/linguistics.html#_linguistics" >Linguistics</a> +22, <a href="../../skills/perception.html#_perception" >Perception</a> +10, <a href="../../skills/profession.html#_profession" >Profession</a> (scribe) +10, <a href="../../skills/senseMotive.html#_sense-motive" >Sense Motive</a> +7, <a href="../../skills/spellcraft.html#_spellcraft" >Spellcraft</a> +26, <a href="../../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +26</p>
+				<p class="stat-block-1"><b>Languages</b> Common, plus 19 other languages</p>
+				<p id="sq" class="stat-block-1"><b>SQ</b> arcane bond (<i><a href="../../magicItems/rings.html#_ring-of-sustenance" >ring of sustenance</a></i>)</p>
+				<p class="stat-block-1"><b>Combat Gear </b><i>wands of <a href="../../spells/acidArrow.html#_acid-arrow" >acid arrow</a></i> (50 charges), <i><a href="../../spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a> </i>(50 charges), <i><a href="../../spells/identify.html#_identify" >identify</a> </i>(50 charges), <i><a href="../../spells/light.html#_light" >light</a></i> (50 charges); <b>Other Gear</b> quarterstaff, darts (2), <i><a href="../../magicItems/wondrousItems.html#_brooch-of-shielding" >brooch of shielding</a></i>, <i><a href="../../magicItems/wondrousItems.html#_broom-of-flying" >broom of flying</a></i>, <i><a href="../../magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i>headband of vast intelligence +4</i> (<a href="../../skills/spellcraft.html#_spellcraft" >Spellcraft</a>, <a href="../../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a>), <i><a href="../../magicItems/rings.html#_ring-of-sustenance" >ring of sustenance</a></i>, magnifying glass, merchant's scale</p>
+				<p class="stat-block-1"><b>Boon</b> A sage can translate any foreign language for PCs or make up to five skill checks (including identifying magic items) for PCs. A sage can also craft magic items at a 10% discount.</p>
+				<p>A sage is an academic of the first order. Both a polyglot and polymath, a sage can be consulted to answer any number of questions by anyone wealthy enough to afford her considerable fees. A sage is often accompanied by a merchant prince who procures all the research materials she desires (CR 12), and together they may sit on the small council of a queen (CR 13) or king (CR 15).</p>
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

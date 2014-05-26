@@ -1,0 +1,64 @@
+# Grindylow
+
+With a large head and numerous teeth, this unsightly creature resembles a goblin from the waist up and a greasy octopus below.
+
+GrindylowCR 1/2
+
+**XP 200**
+
+CE Small [aberration](/pathfinderRPG/prd/monsters/creatureTypes.html#_aberration) ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4
+
+Defense
+
+**AC** 15, touch 13, flat-footed 13 (+2 Dex, +2 natural, +1 size)
+
+**hp** 5 (1d8+1)
+
+**Fort** +1, **Ref** +2, **Will** +2
+
+Offense
+
+**Speed** 15 ft., swim 30 ft., [jet](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_jet) 200 ft.
+
+**Melee** spear +2 (1d6+1/×3), bite –2 (1d3)
+
+**Ranged** spear +3 (1d6+1/×3)
+
+**Special Attack** tangling tentacles
+
+Statistics
+
+**Str** 12, **Dex** 14, **Con** 13, **Int** 9, **Wis** 10, **Cha** 9
+
+**Base Atk** +0; **CMB** +0; **CMD** 12 (18 vs. trip)
+
+**Feats** [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)
+
+**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +14, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +13; **Racial Modifiers** +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)
+
+**Languages** Aquan
+
+**SQ** amphibious
+
+Ecology
+
+**Environment** any water
+
+**Organization** solitary, pair, gang (3–9), warband (10–16 with 1–2 octopus minions), or tribe (17–40 plus 1 ranger sergeant of 1st–3rd level per 20 members, 1 cleric or barbarian leader of 4th-8th level, 2–8 octopus pets, and 1–2 devilfish guardians)
+
+**Treasure** NPC gear (spear, other treasure)
+
+Special Abilities
+
+**Tangling Tentacles (Ex)** Although a grindylow can't attack to cause damage with its six tentacles, these wriggling legs constantly writhe and reach out to tug at and trip adjacent foes. During the grindylow's turn, it can make a single trip attack against any adjacent foe as a swift action. It gains a +4 racial bonus on trip attacks made with its tangling tentacles, and if it fails to trip a foe, that creature can't attempt to trip the grindylow in retaliation.
+
+About 4 feet long from head to tentacle tip, grindylows appear to be half-goblin and half-octopus, the split occurring at the waist. Grindylows are violent, ravenous creatures that use their spears to hunt or just to poke at things that scream and cry.
+
+While grindylows resemble goblins, they are not humanoid creatures. Nonetheless, these aquatic monsters are just as wicked as the most sadistic of goblins, and take immense pleasure in others' misfortunes and the spread of mayhem. Thanks to this twisted desire, grindylows have a nasty reputation among both other intelligent water-dwelling creatures and most land-dwelling beings.
+
+Grindylows eat whatever they can kill, giving them a rather wide selection of meals. High or low, no one is safe from the brutish assaults; tribes of merfolk have been overwhelmed by bands of grindylows, as have galleons full of experienced sailors. While obvious predators such as giant eels or sharks evoke great fear from grindylows, no enemies are more hated than the squid, be it common or giant. None are sure where this disdain stems from, but it is speculated that a squid is to an octopus for a grindylow what a dog is to a goblin dog for goblins. Incredibly fond of their similarly designed kin, grindylows believe octopuses to be the epitome of beauty, with squids being regarded as hideous freaks in comparison. There is no greater insult to a grindylow than being called a squid.
+
+While grindylows can take class levels to gain power, certain grindylows are freakish throwbacks to a primal age—these grindylows never cease growing, and in time can become massive beasts of Huge size. Unlike the typical grindylow, these giants can attack with all six of their tentacles and constrict with great effect. Giant grindylows are fortunately quite rare.
+

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Hierophant</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Hierophant",globalNavPath=[{ href: '/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html', name: 'Mythic Heroes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="hierophant">Hierophant</h1>
+<p>Those who draw upon a god's power find themselves becoming closer to the divine. Some aspire to become immortal servants of their gods, and others reach for apotheosis itself. A hierophant could be either of these, channeling divine power directly or indirectly&mdash;whether from a deity, the spirit of nature, or the power of life itself&mdash;and eventually becoming more like a patron of divine power than a mere devotee.</p>
+<p><b>Role</b>: As a hierophant, your role in the group is to act as a conduit to the divine, healing and helping your allies through the miracles that you bestow. This focus is just as strong if you are instead a servant of nature, using the powers granted to you by this path to protect the wilderness and bring its fury to those who would dare to defile it.</p>
+<p><b>Classes</b>: Members of any class that draws upon divine magic will find the path of the hierophant useful&mdash;particularly clerics, druids, and oracles. Even classes with limited divine spellcasting, such as the inquisitor and paladin, have a number of useful options in this path.</p>
+<p><b>Bonus Hit Points</b>: Whenever you gain a hierophant tier, you gain 4 bonus hit points. These hit points stack with themselves, and don't affect your overall Hit Dice or other statistics.</p>
+
+<div class="table">
+<table><thead><tr><th>Tier</th><th>Path Features</th></tr></thead>
+<tr class="odd"><td>1st</td><td>Divine surge, path ability</td></tr>
+<tr class="even"><td>2nd</td><td>Path ability</td></tr>
+<tr class="odd"><td>3rd</td><td>Path ability</td></tr>
+<tr class="even"><td>4th</td><td>Path ability</td></tr>
+<tr class="odd"><td>5th</td><td>Path ability</td></tr>
+<tr class="even"><td>6th</td><td>Path ability</td></tr>
+<tr class="odd"><td>7th</td><td>Path ability</td></tr>
+<tr class="even"><td>8th</td><td>Path ability</td></tr>
+<tr class="odd"><td>9th</td><td>Path ability</td></tr>
+<tr class="even"><td>10th</td><td>Divine vessel, path ability</td></tr></table>
+</div>
+
+<h2 id="hierophant-features">Hierophant Features</h2>
+<p>As you gain tiers, you gain the following abilities.</p>
+<p id="divine-surge"><b>Divine Surge</b>: Select one of the following abilities. Once chosen, it can't be changed.</p>
+<p id="beast's-fury"><i>Beast's Fury (Su)</i>: As a swift action, you can expend one use of mythic power to imbue your animal companion, cohort, eidolon, familiar, or bonded mount with some of your mythic power. As an immediate action, that creature can move up to its speed and make an attack with one of its natural weapons. When making this attack, the creature rolls twice and takes the higher result. Any damage dealt by this attack bypasses all damage reduction. A creature affected by this ability can take these actions in addition to any other actions it takes during its turn.</p>
+<p id="inspired-spell"><i>Inspired Spell (Su)</i>: You can expend one use of mythic power to cast any one divine spell, treating your caster level as 2 levels higher. This spell must be on your divine spell list (or your domain or mystery spell list) and must be of a spell level that you can cast using that divine spellcasting class. If you are a spontaneous spellcaster, you don't need to have the spell prepared, nor does it need to be on your list of spells known. Using this ability does not expend a prepared spell or available spell slot. You can apply any metamagic feats you know to this spell, but its total spell slot level must be a slot level you can normally cast.</p>
+<p id="recalled-blessing"><i>Recalled Blessing (Su)</i>: You can expend one use of mythic power to cast any one divine spell without expending a prepared spell or spell slot. If you prepare spells, this spell must be one you prepared today; if you're a spontaneous caster, this spell must be one of your spells known. You can't apply metamagic feats to this spell. If the spell requires a saving throw, non-mythic creatures roll twice and take the lower result. If the spell heals damage or requires you to attempt a caster level check to cure an affliction or remove a condition, roll twice and take the higher result.</p>
+<p id="path-ability"><b>Path Ability</b>: At 1st tier and every tier thereafter, select one new path ability from the hierophant path abilities lists or from the <a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html#_universal-path-abilities">universal path abilities lists</a>. Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.</p>
+<p id="divine-vessel"><b>Divine Vessel (Ex)</b>: At 10th tier, whenever you cast a spell that targets one or more non-mythic creatures, those creatures must roll twice for any saving throws associated with the spell and take the lower result. Whenever you are healed of hit point damage by a spell or effect, you are healed for the maximum possible amount. You also gain DR 10/epic. Once per round when you take more than 20 points of damage (after damage reduction is applied), you regain one use of mythic power.</p>
+
+<h3 id="1st-tier-hierophant-path-abilities">1st-Tier Hierophant Path Abilities</h2>
+<p>You can select these path abilities at any tier.</p>
+<p id="alter-channel"><b>Alter Channel (Su)</b>: If you're in the area of an opponent's channel energy ability and the energy type is the opposite of yours, as an immediate action you can expend one use of mythic power to transform the opponent's channeled energy to the opposite type. You can cause the altered energy to either affect the opposite kind of targets (undead or living), or change whether it heals or harms, but not both. Channeled energy that has been changed in this way heals or deals half the normal amount of damage. For example, if an evil cleric attempts to channel negative energy to heal undead, you can expend one use of mythic power to convert that to channeled positive energy that either heals the living or harms undead. You must have the channel energy ability to select this ability.</p>
+<p id="bleed-holy-power"><b>Bleed Holy Power (Su)</b>: If you channel positive energy, when an undead creature damages you with a melee attack, you can expend one use of channeled energy as an immediate action to channel energy to deal damage to undead creatures around you (as detailed in the channel energy ability). Alternatively, you may focus this channeled energy so it affects only the undead creature that hit you. If you focus solely on that creature, you are considered 4 levels higher in the class that grants you the channel energy feature when determining its effects.</p>
+<p id="channel-shockwave"><b>Channel Shockwave (Su)</b>: You can expend one use of channel energy whenever you score a critical hit against a creature that has an element of alignment opposite to your own (chaotic and lawful are opposite, as are evil and good, so if you were lawful good, you could use this ability against a chaotic creature or evil creature). If you do, add your channel energy damage to the damage from the critical hit. This damage is the same type as your channeled energy (positive or negative) but damages the target regardless of whether it's living or undead. The target can attempt a Will save against your channel energy DC to halve this bonus damage. All other effects of your critical hit still apply.</p>
+<p id="contingent-channel-energy"><b>Contingent Channel Energy (Su)</b>: You can simultaneously expend one use of mythic power and one use of your channel energy ability to delay your channel energy so that it comes into effect under some condition you dictate. The conditions needed to bring the channel energy into effect must be clear, although they can be general. In all cases, the channel effect occurs instantaneously when the prescribed circumstances occur. For example, you could create a trigger that uses your channel positive energy if you are reduced to 0 or fewer hit points. If you prescribe complicated or convoluted conditions, your contingent channel energy ability could fail to trigger. The ability triggers based solely on the stated conditions, regardless of whether you want it to. You make all decisions about the ability when you expend the use of mythic power, according to what you can normally do with your channel energy ability; if you wish to exclude targets, you must name them at that time. You can have only one use of this ability waiting to be triggered at a time; if you use this ability again, the previous use expires. This use also expires after 1 day per tier if it hasn't been triggered. This use of channel energy can't be regained until after the contingent channel energy ability is triggered or expires.</p>
+<p id="divine-countenance"><b>Divine Countenance (Su)</b>: Whenever you encounter a creature whose alignment is within one step of yours, treat its attitude as one step better. If the creature's starting attitude is helpful, you can make requests of the creature with a +5 bonus on your <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> or <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> skill check.</p>
+<p id="divine-guardian"><b>Divine Guardian (Sp)</b>: As a full-round action, you can expend one use of mythic power to summon one extraplanar creature as if using a <i>summon monster</i> or <i>summon nature's ally</i> spell, with the level of the summoning spell equal to half your tier. Your caster level for this ability is equal to your character level. You can have only one creature that has been summoned using this ability at a time; summoning another causes the previous one to disappear. If you expend two uses of mythic power, the level of the summoning spell is equal to your tier instead. For example, if you are a 10th-level druid, 5th-tier hierophant, you can use this ability to summon one creature from the <i><a href="/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ii" >summon monster II</a></i> or <i><a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-ii" >summon nature's ally II</a></i> list (or a lower-level list) for 10 rounds; if you expend two uses, you can instead summon one creature from the <i><a href="/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v" >summon monster V</a></i> or <i><a href="/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-v" >summon nature's ally V</a></i> list (or a lower-level list).</p>
+<p id="eldritch-breach"><b>Eldritch Breach (Su)</b>: You are adept at breaching magical defenses and resistance to your magic. When attempting a caster level check to dispel an effect, overcome spell resistance, or otherwise determine whether or not your magic affects a target (such as with <i><a href="/pathfinderRPG/prd/spells/knock.html#_knock" >knock</a></i> or <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i>), roll twice and take the higher result.</p>
+<p id="empathic-healing"><b>Empathic Healing (Su)</b>: You can expend one use of mythic power to transfer up to 10 points of damage per tier from a touched ally to yourself, healing the target and damaging you. This transferred damage bypasses all effects that reduce or negate hit point damage (such as damage reduction). Alternatively, you can expend two uses of mythic power to transfer an ongoing disease or poison from a touched ally to yourself, which halts ongoing effects on the target from that affliction and requires you to attempt any remaining saves against it. If you're immune to the disease or poison, transferring it to yourself destroys the affliction.</p>
+<p id="enhance-magic-items"><b>Enhance Magic Items (Ex)</b>: Your mythic presence enhances the power of certain magic items. Add half your tier to the caster level of potions, scrolls, staves, and wands you use. When using a staff or wand, you may activate the item by expending one use of mythic power instead of one of the item's charges.</p>
+<p id="faith's-reach"><b>Faith's Reach (Su)</b>: Whenever you cast a divine spell with a range of touch, you can instead cast the spell with a range of 30 feet. If the spell normally requires a melee touch attack, it instead requires a ranged touch attack.</p>
+<p id="flexible-counterspell"><b>Flexible Counterspell (Su)</b>: Your mythic power enhances your ability to counter spells. As an immediate action, you can expend one use of mythic power to attempt to counter a spell. Upon using this ability, you must identify the spell with a <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> check (DC 15 + the spell's level). If you correctly identify the spell, you can expend a spell or spell slot of a level equal to or higher than the spell being cast to counter the spell.</p>
+<p id="heathen-slayer"><b>Heathen Slayer (Ex)</b>: Pick one deity (or similar entity able to grant divine spells to followers) as your religious rival. You gain a +2 bonus on weapon attack and damage rolls against this deity's followers, as well as a +2 bonus on <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a>, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a>, and <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> checks attempted against this deity's followers. At 6th tier, these bonuses increase to +4. You can select this ability multiple times. Each time you do, choose an additional deity to be a religious rival.</p>
+<p id="instrument-of-faith"><b>Instrument of Faith (Su)</b>: You gain DR 15/&mdash; against attacks made with your deity's favored weapon. You can expend one use of mythic power as a standard action to attempt a disarm or sunder combat maneuver check against each opponent within 60 feet that is wielding your deity's favored weapon. You decide individually whether to disarm or sunder each opponent's weapon. Attempt one combat maneuver check, using your caster level in place of your base attack bonus and adding your tier to the total, and use that result against all opponents.</p>
+<p id="inverted-spontaneous-casting"><b>Inverted Spontaneous Casting (Su)</b>: If you can spontaneously cast cure or inflict spells, you gain the ability to spontaneously cast the opposite type of spell (i.e., you can spontaneously cast inflict spells if you can normally cast cure spells, or cures spell if you can normally cast inflict spells). When spontaneously casting the opposite type of spell, you must use a spell slot that is at least 1 level higher than that of the spell you want to cast. For example, if you can spontaneously cast cure spells and want to spontaneously cast <i><a href="/pathfinderRPG/prd/spells/inflictLightWounds.html#_inflict-light-wounds" >inflict light wounds</a></i>, you must expend a 2nd-level spell slot.</p>
+<p id="mighty-summons"><b>Mighty Summons (Su)</b>: Each creature you conjure with any summon spell gains DR 5/epic for the duration of the summoning. If you cast a summon spell to summon more than one creature, you summon one additional creature of the same type. If you cast a summon spell to summon just one creature, you can expend one use of mythic power to give it the <a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_agile-mythic">agile</a> or <a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_savage-mythic">savage</a> mythic simple template for the duration of the summoning.</p>
+<p id="mythic-companion"><b>Mythic Companion (Su)</b>: Select one animal companion, cohort, eidolon, familiar, or bonded mount. That creature can use the surge ability a number of times per day equal to your tier. Its surge ability uses the same bonus die type as you do when you use your surge ability.</p>
+<p id="mythic-domain"><b>Mythic Domain (Su)</b>: When determining the effects of your domain's granted powers, you're considered 4 levels higher. This increases the effects of powers you have access to, but doesn't grant you powers at a lower level than normal. Once per day, you can expend one use of mythic power as a standard action to regain the use of all your domain granted powers as if you had rested for 8 hours. If you're an oracle, all aspects of this ability apply to your revelations instead of to domain granted powers. You must have the domain class feature or mystery class feature to select this ability.</p>
+<p id="mythic-wild-shape"><b>Mythic Wild Shape (Su)</b>: Choose one form you can take using wild shape. Using wild shape to take this form doesn't count against your daily uses of wild shape. You can select this ability multiple times. Each time you select it, choose another form to not count against your daily uses of wild shape. You must have the wild shape class feature to select this ability.</p>
+<p id="overflowing-grace"><b>Overflowing Grace (Su)</b>: When you heal a creature with positive energy (such as by channeling positive energy to heal the living, using cure spells, or using lay on hands), any affected creature at full hit points (whether already at full hit points or healed to full hit points by your channeled energy) gains a +1 sacred bonus on attack rolls, skill checks, ability checks, and saving throws for 1 minute. If you channel negative energy to heal undead, this is a profane bonus rather than a sacred bonus.</p>
+<p id="pack-wild-shape"><b>Pack Wild Shape (Su)</b>: Whenever you use the wild shape class feature, you can also transform allies when you change shape. When you use wild shape, you can expend one use of mythic power to select a number of willing allies equal to your tier. These allies take the same animal form as you do, with the same abilities as yours. Divide the duration of that use of wild shape evenly (rounded down) among yourself and the affected allies. The transformation ends for everyone when you return to your normal form or use wild shape again. An ally can end its own transformation early as a standard action without affecting the duration for you or other allies. You must have the wild shape class feature to select this ability.</p>
+<p id="plantbringer"><b>Plantbringer (Su)</b>: All plants within a 1-mile radius of you grow at double their normal rate and don't suffer from any diseases or maladies. Furthermore, allied plant creatures within 30 feet of you gain fast healing equal to your tier. If you use <i>plant shape</i> or wild shape to take the form of a plant, you gain this fast healing in plant form.</p>
+<p id="relentless-healing"><b>Relentless Healing (Su)</b>: You can restore life to the recently dead. If a creature has died within 1 round, as a free action you can expend one use of mythic power to apply healing magic to that creature. This healing can be from a spell or effect you cause or from a magic item you wield. If this healing brings the creature's hit points above the threshold for death, it comes back to life and stabilizes at its new hit point total (similar to the way <i><a href="/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life" >breath of life</a></i> functions); otherwise, it remains dead. Alternatively, you can expend two uses of mythic power on a dead creature that would have the ability to magically heal itself if it were alive (such as a dead cleric with a prepared <i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> spell) in order to trigger the most powerful healing magic it knows or has prepared. If this brings the creature's hit points above its death threshold, it returns to life.</p>
+<p id="sustained-by-faith"><b>Sustained by Faith (Su)</b>: You require no food, water, or sleep. If you have abilities or class features that require rest before they can be regained, you can choose to regain them once per day by spending 1 hour in uninterrupted meditation. If you are 3rd tier or higher, you can expend one use of mythic power in order to also not need to breathe for 24 hours.</p>
+<p id="symbol-of-the-holy"><b>Symbol of the Holy (Su)</b>: As a standard action, you can create a wooden holy symbol dedicated to your deity. If it ever leaves your possession, it fades away after 1 hour. Whenever you use this holy symbol as a divine focus when casting a spell, you don't need to have any other material component, unless that component costs more than 50 gp per tier you possess.</p>
+<p id="tongue-of-the-land"><b>Tongue of the Land (Su)</b>: Animals, elementals, fey, and plants are magically able to understand you when you speak Druidic, as if you were using <i><a href="/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals" >speak with animals</a></i> or <i><a href="/pathfinderRPG/prd/spells/tongues.html#_tongues" >tongues</a></i>. If speaking to creatures of different types at the same time, you can allow all of them to understand you or speak understandably to just one type at a time. For example, if speaking to a group of animals and fey, you can make yourself understandable to all of them, just to the animals, or just to the fey.</p>
+<p id="water-of-life"><b>Water of Life (Su)</b>: Any potions you consume have the maximum effect, as if they were created using the <a href="/pathfinderRPG/prd/feats.html#_maximize-spell" >Maximize Spell</a> feat. You can quickly create a temporary potion by casting a spell into a pint of water. The spell must be a valid choice for the <a href="/pathfinderRPG/prd/feats.html#_brew-potion" >Brew Potion</a> feat and have a spell level no higher than your tier. The targeted liquid becomes a potion of that spell. If not consumed, the temporary potion reverts to normal water after 1 hour per tier.</p>
+
+<h3 id="3rd-tier-hierophant-path-abilities">3rd-Tier Hierophant Path Abilities</h2>
+<p>You must be at least 3rd tier to select these path abilities.</p>
+<p id="abundant-healing"><b>Abundant Healing (Su)</b>: When you use a spell or class ability to heal a creature's hit point damage, you can apply excess healing (over the target's full hit points) to one ally adjacent to you. You can continue to apply excess healing to other adjacent allies until no injured allies are adjacent or you run out of excess healing. For example, if you could cure 40 points of damage with your <i><a href="/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds" >cure critical wounds</a></i> spell and the target has taken only 20 points of damage, you can apply the remaining 20 points of healing to an adjacent ally; if that second ally has taken only 15 points of damage, you can apply the remaining 5 points of healing to another adjacent ally.</p>
+<p id="alignment-insight"><b>Alignment Insight (Ex)</b>: You can automatically detect the alignment of any outsider you can see. This ability doesn't function if the creature is magically disguised or has been polymorphed into a different shape. You can automatically detect the alignment of any creature you see casting a divine spell; if that creature worships a deity, you also learn its deity. Spells and effects that mask a creature's alignment prevent the use of this ability. Whenever you cast a spell that affects creatures differently based on their alignment (such as <i><a href="/pathfinderRPG/prd/spells/holySmite.html#_holy-smite" >holy smite</a></i>), you may have the spell treat creatures of one particular alignment as an alignment one step away from that alignment. For example, when casting <i><a href="/pathfinderRPG/prd/spells/holySmite.html#_holy-smite" >holy smite</a></i>, you could treat all lawful neutral creatures as lawful good or lawful evil, all chaotic neutral creature as chaotic good or chaotic evil, or all neutral creatures as neutral good or neutral evil.</p>
+<p id="animal-friend"><b>Animal Friend (Ex)</b>: If you have the wild empathy ability, you can use it as a free action once per round. If you don't have that ability, you can instead attempt <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks (with a &ndash;8 penalty) to improve the attitude of animals as if they were intelligent creatures. Add your tier to wild empathy or <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks to influence animals.</p>
+<p id="blessed-companion"><b>Blessed Companion (Su)</b>: Select one animal companion, eidolon, familiar, or bonded mount. It gains DR 5/epic. This ability can be taken a second time at 6th tier or higher and a third time at 9th tier or higher. Each additional time it's taken, the DR increases by 5.</p>
+<p id="divine-metamastery"><b>Divine Metamastery (Su)</b>: As a swift action, you can expend one use of mythic power and pick any one metamagic feat you know that increases the slot level of the spell by 0 levels or 1 level. For the next 10 rounds, you can apply this metamagic feat to any divine spell you cast without increasing the spell slot used or casting time. You can also use this ability on a divine spell cast from a scroll, staff, or wand. You can't have more than one use of this ability active at a time. If you use this ability again, any previous use immediately ends (though any metamagic effects on spells already cast remain). You can select this ability more than once. Each time you select it, the maximum spell slot level increase of the metamagic feat goes up by 1 to a maximum of 4.</p>
+<p id="divine-potency"><b>Divine Potency (Su)</b>: Choose one of your divine spellcasting classes. You gain four bonus 1st-level divine spell slots for that class (like the bonus spells gained from a high ability score). This doesn't change your number of spells known. You can select this ability more than once. If you choose the same divine spellcasting class a second time, you gain four bonus 2nd-level spell slots; if you choose it again, you gain 3rd-level slots for choosing it a third time, and so on. This ability can't grant you bonus spells for a spell level that you don't have the ability to cast.</p>
+<p id="domain-immunity"><b>Domain Immunity (Su)</b>: You don't take damage or suffer harmful effects from spells on your domain spell list, even ones you aren't of a high enough level to cast. If you're targeted by any of these spells, as an immediate action you can expend one use of mythic power to turn the spell back upon the original caster as if using <i><a href="/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning" >spell turning</a></i>. Beneficial effects of spells on your domain spell list affect you normally. If you're an oracle, this ability applies to your mystery's bonus spells. You must have the domain class feature or mystery class feature.</p>
+<p id="enduring-blessing"><b>Enduring Blessing (Su)</b>: Whenever you cast a spell with a duration of 10 minutes per level or longer upon one willing target, you can change that spell's duration to 24 hours. If the spell has other duration conditions, those still apply (for example, the duration of <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i> changes to 24 hours or until discharged). A creature can't be subject to more than one spell affected by this ability at a time; if another is cast upon the creature, the first one ends. You can select this ability a second time at 6th tier or higher. The second time you select it, you can use it on spells with a duration of 1 minute per level or longer.</p>
+<p id="hand-of-mercy"><b>Hand of Mercy (Su)</b>: If you have the channel energy ability, you can touch a creature and expend one use of channel energy to remove a condition afflicting that creature. Each time you use this ability, you can choose one of the following conditions: dazed, fatigued, shaken, sickened, or staggered. At 6th tier, you can also choose from among the cursed, exhausted, frightened, and nauseated conditions. At 9th tier, you can also choose from among the blinded, deafened, paralyzed, and stunned conditions.</p>
+<p id="hurling-vengeance"><b>Hurling Vengeance (Su)</b>: Whenever you are wielding your deity's favored weapon or your paladin bonded weapon, you can throw it as if it had the <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning" >returning</a></i> and <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_throwing" >throwing</a></i> weapon special abilities. If using a paladin bonded weapon, it retains its bonded abilities when thrown this way. By expending one use of mythic power as part of a full attack, the weapon returns to you immediately after each time you throw it (instead of just before your next turn) allowing you to make your full number of attacks that round.</p>
+<p id="life-current"><b>Life Current (Su)</b>: You are more attuned to the source of life or unlife and better able to access its power. When casting a cure or inflict spell or use a class feature that uses positive or negative energy (such as channel energy or lay on hands), treat any natural 1s on the dice rolled to heal or deal damage as 2s. You can select this ability up to four times. The second time you select it, treat natural 1s and 2s as 3s. The third time you select it, treat natural 1s, 2s, and 3s as 4s. The fourth time, treat natural 1s, 2s, 3s, and 4s as 5s.</p>
+
+<h3 id="6th-tier-hierophant-path-abilities">6th-Tier Hierophant Path Abilities</h2>
+<p>You must be at least 6th tier to select these path abilities.</p>
+<p id="arcane-knowledge"><b>Arcane <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (Ex)</b>: You can use divine power to cast a small number of arcane spells. Choose three 1st-level spells from the sorcerer/wizard spell list or three 1st-level spells from the bard spell list. You can add those spells to your list of spells that you can prepare each day. You can select this ability up to three times. Each time you select it, you choose three more spells from the same class's spell list (sorcerer/wizard or bard), and the highest spell level you can select from increases by 1 (up to 2nd level the second time and up to 3rd level the third time). You must be a cleric or druid to select this ability.</p>
+<p id="conduit-of-divine-will"><b>Conduit of Divine Will (Su)</b>: Your mythic nature is directly connected to the divine. As a standard action, you can expend one use of mythic power to use channel energy, use lay on hands, or cast any one spell from your domain spell lists (as long as you can normally prepare a spell of that level). Whenever you use this ability, you also gain spell resistance equal to 10 + your tier and a +4 sacred bonus (or profane bonus if you're evil) to your AC for a number of rounds equal to your tier.</p>
+<p id="overcome-curse"><b>Overcome Curse (Su)</b>: You are immune to curse effects. For example, <i><a href="/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse" >bestow curse</a></i> has no effect on you, and you can handle, carry, or discard a cursed magic item without harm. If a cursed item has useful functions and a cursed effect (such as <i>armor of arrow attraction</i>) or drawback (such as a <i>mace of blood</i>), you are immune to the cursed effect and drawback, and can still use its other abilities. If a cursed item works normally for a period of time before its curse triggers (such as <i>gauntlets of fumbling</i>), the item stops working for you when the curse would normally trigger. If you're an oracle, you can ignore the negative effects of your oracle's curse.</p>
+<p id="servant-of-balance"><b>Servant of Balance (Su)</b>: Whenever a critical hit is confirmed against you, the attack deals normal damage instead of critical damage. Other effects that trigger on a successful critical hit (such as the Blinding Critical feat, the fire damage from a critical hit with a <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming-burst" >flaming burst</a></i> weapon, or the effects of a <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_vorpal" >vorpal</a></i> weapon) all affect you normally.</p>
+<p id="undying-healer"><b>Undying Healer (Su)</b>: Whenever you fall unconscious, a ghostly image of you manifests from out of your body. Even though you're unconscious, you control this image. On your turn each round, this image can fly up to 30 feet and use your ability to lay on hands to heal, channel energy to heal, or cast any conjuration (healing) spell that you could cast. This consumes these abilities as normal. Abilities used by the image can't benefit you. This image lasts a number of rounds equal to your tier. This ability can be dispelled, using double your tier as the caster level. If you die or regain consciousness, the image immediately ends.</p>
+
+
+<h2 id="hierophant-builds">Hierophant Builds</h3>
+<p>When selecting your hierophant's path abilities, consider the following themes. Each one suggests a variety of complementary path abilities, with different interpretations of what it means to be mythic champion of the divine.</p>
+<p><b>Healer</b>: You are the master of the healing arts, using your abilities to cure nearly any affliction and even raise the dead. <i>1st-Tier Path Abilities</i>&mdash;empathic healer, overflowing grace, relentless healing; <i>3rd-Tier Abilities</i>&mdash;abundant healing, hand of mercy, life current; <i>6th-Tier Abilities</i>&mdash;undying healer.</p>
+<p><b>Holy Warrior</b>: Your hierophant abilities allow you to deliver the wrath of your patron. <i>1st-Tier Path Abilities</i>&mdash;channel shockwave, heathen slayer, instrument of faith; <i>3rd-Tier Abilities</i>&mdash;alignment insight, hurling vengeance; <i>6th-Tier Abilities</i>&mdash;conduit of divine will.</p>
+<p><b>Nature Servant</b>: Your powers are drawn from nature, and you are nature's sacred implement. <i>1st-Tier Path Abilities</i>&mdash;divine guardian, mighty summons, mythic companion, mythic wild shape, pack wild shape, plantbringer, tongue of the land; <i>3rd-Tier Abilities</i>&mdash;animal friend, blessed companion; <i>6th-Tier Abilities</i>&mdash;servant of balance.</p>
+<p><b>Sacred Conduit</b>: You use your powers to call on divine power, enhancing your magic and ability to channel energy. <i>1st-Tier Path Abilities</i>&mdash;alter channel, bleed holy power, eldritch breach; <i>3rd-Tier Abilities</i>&mdash;abundant healing, divine metamastery, divine potency, enduring blessing; <i>6th-Tier Abilities</i>&mdash;conduit of divine will.</p>
+<p>Spellcasting hierophants may also wish to take the <a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html#_mythic-spellcasting">mythic spellcasting</a> universal path ability.</p>
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Advanced Spell Lists</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Advanced Spell Lists",globalNavPath=[];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body"><h1 id="spells" class="monster-header">Spells</h1>
+				<p>Beyond the spells presented in the <i>Core Rulebook</i> exist countless more mystical discoveries and the secret tricks of spellcasters arcane and divine. The following lists summarize all of the new spells presented in this book, broken down by class. Note that, with the exception of the antipaladin's full spell list, the lists here summarize only new spells from this book. An <b>M</b> or <b>F </b>appearing at the end of a spell's name in the spell lists denotes a <i>material</i> or <i>focus</i> component, respectively, not normally included in a spell component pouch.</p>
+				<p id="full-spell-lists"><b>Full Spell Lists</b><sup></sup>: The full lists of available spells for the spellcasting base classes introduced in this book appear in Chapter Two at the end of each spellcasting class's entry. Note that oracles use the same spell list as clerics.</p>
+				<p id="order-of-presentation"><b>Order of Presentation</b><sup></sup>: In the spell lists and the short descriptions that follow them, the spells are presented in alphabetical order by name except for those belonging to certain spell chains. When a spell's name begins with “lesser,” “greater,” or “mass,” the spell is alphabetized under the second word of the spell name instead.</p>
+				<p id="hit-dice"><b>Hit Dice</b><sup></sup>: The term “Hit Dice” is used synonymously with “character levels” for effects that affect a specific number of Hit Dice of creatures.</p>
+				<p id="caster-level"><b>Caster Level</b><sup></sup>: A spell's power often depends on caster level, which is defined as the caster's class level for the purpose of casting a particular spell. The word “level” in the short descriptions that follow always refers to caster level.</p>
+				<p id="creatures-and-characters"><b>Creatures and Characters</b><sup></sup>: “Creature” and “character” are used synonymously in the short description.</p>
+
+				<h1 id="spells-by-class">Spells by Class</h1>
+
+				
+				<p><a href="#_alchemist-spells">Alchemist Spells</a></p>
+				<p><a href="#_antipaladin-spells">Antipaladin Spells</a></p>
+				<p><a href="#_bard-spells">Bard Spells</a></p>
+				<p><a href="#_cleric-spells">Cleric Spells</a></p>
+				<p><a href="#_druid-spells">Druid Spells</a></p>
+				<p><a href="#_elementalist-wizard-spells">Elementalist Wizard Spells</a></p>
+				<p><a href="#_inquisitor-spells">Inquisitor Spells</a></p>
+
+				<p><a href="#_paladin-spells">Paladin Spells</a></p>
+				<p><a href="#_ranger-spells">Ranger Spells</a></p>
+				<p><a href="#_sorcerer-wizard-spells">Sorcerer/Wizard Spells</a></p>
+				<p><a href="#_summoner-spells">Summoner Spells</a></p>
+				<p><a href="#_witch-spells">Witch Spells</a></p>
+
+
+				<h1 id="alchemist-spells">Alchemist Spells</h1>
+				<h2 id="1st-level-alchemist-spells">1st-Level Alchemist Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >Ant Haul</a></b><sup></sup>: </b>Triples carrying capacity of a creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/bomberSEye.html#_bomber's-eye" >Bomber's Eye</a></b><sup></sup>:</b> Increases thrown weapon range; +1 attack.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/crafterSFortune.html#_crafter's-fortune" >Crafter's Fortune</a></b><sup></sup>: </b>Subject gains +5 on next <a href="../skills/craft.html#_craft" >Craft</a> check.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/keenSenses.html#_keen-senses" >Keen Senses</a></b><sup></sup>: </b>Gain +2 <a href="../skills/perception.html#_perception" >Perception</a> and low-light vision.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/negateAroma.html#_negate-aroma" >Negate Aroma</a></b><sup></sup>: </b>Subject cannot be tracked by scent.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stoneFist.html#_stone-fist" >Stone Fist</a></b><sup></sup>: Your unarmed strikes are lethal.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/touchOfTheSea.html#_touch-of-the-sea" >Touch of the Sea</a></b><sup></sup>:</b> <a href="../skills/swim.html#_swim" >Swim</a> speed becomes 30 ft.</p>
+				<h2 id="2nd-level-alchemist-spells">2nd-Level Alchemist Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/alchemicalAllocation.html#_alchemical-allocation" >Alchemical Allocation</a></b><sup></sup>: Gain potion's benefits without consuming it.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/elementalTouch.html#_elemental-touch" >Elemental Touch</a></b><sup></sup>: Gain energy damage touch attack.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fireBreath.html#_fire-breath" >Fire Breath</a></b><sup></sup>: Exhale a cone of flame at will.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/perceiveCues.html#_perceive-cues" >Perceive Cues</a></b><sup></sup>: +5 <a href="../skills/perception.html#_perception" >Perception</a> and <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> 10 min./level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/transmutePotionToPoison.html#_transmute-potion-to-poison" >Transmute Potion to Poison</a></b><sup></sup>: Spit poison onto weapon after drinking potion.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/vomitSwarm.html#_vomit-swarm" >Vomit Swarm</a></b><sup></sup>: Produces a spider swarm that fights for you.</p>
+				<h2 id="3rd-level-alchemist-spells">3rd-Level Alchemist Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/absorbingTouch.html#_absorbing-touch" >Absorbing Touch</a></b><sup></sup>: Caster absorbs an item for 1 day/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/amplifyElixir.html#_amplify-elixir" >Amplify Elixir</a></b><sup></sup>: Empowers or extends the effects of any potion or elixir.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/bloodhound.html#_bloodhound" >Bloodhound</a></b><sup></sup>: Enhances sense of smell and grants the caster the scent special ability.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/draconicReservoir.html#_draconic-reservoir-" >Draconic Reservoir</a></b><sup></sup>: Subject can absorb energy damage and enhance melee attacks with it.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/elementalAura.html#_elemental-aura" >Elemental Aura</a></b><sup></sup>: Creates an aura of energy around you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/seekThoughts.html#_seek-thoughts" >Seek Thoughts</a></b><sup></sup>: Detects thinking creatures' thoughts.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/thornBody.html#_thorn-body" >Thorn Body</a></b><sup></sup>: Those attacking you take 1d6 +1 damage/level.</p>
+				<h2 id="4th-level-alchemist-spells">4th-Level Alchemist Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/detonate.html#_detonate" >Detonate</a></b><sup>M</sup>: Inflicts 1d8/level energy damage to all creatures within 15 ft.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/dragonSBreath.html#_dragon's-breath" >Dragon's Breath</a></b><sup></sup>: Gives you a dragon's breath weapon.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fluidForm.html#_fluid-form" >Fluid Form</a></b><sup></sup>: Gain DR 10/slashing, increases reach 10 ft., and breathe water.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/universalFormula.html#_universal-formula" >Universal Formula</a></b><sup>M</sup>: Acts as any extract 3rd level or lower.</p>
+				<h2 id="5th-level-alchemist-spells">5th-Level Alchemist Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/delayedConsumption.html#_delayed-consumption" >Delayed Consumption</a></b><sup></sup>: Extract doesn't come into effect until you want it to.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/eludeTime.html#_elude-time" >Elude Time</a></b><sup>M</sup>: Puts you in temporary suspended animation.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation" >Planar Adaptation</a></b><sup></sup>: Resist harmful effects of one plane.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/resurgentTransformation.html#_resurgent-transformation" >Resurgent Transformation</a></b><sup>M</sup>: Gain second wind when close to death.</p>
+				<h2 id="6th-level-alchemist-spells">6th-Level Alchemist Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/twinForm.html#_twin-form" >Twin Form</a></b><sup></sup>: Creates controllable duplicate of you.</p>
+				<h1 id="antipaladin-spells">Antipaladin Spells</h1>
+				<h2 id="1st-level-antipaladin-spells">1st-Level Antipaladin Spells</h2>
+				<p id="bane"><b><a href="../magicItems/weapons.html#_weapons-bane" >Bane</a></b><sup></sup>: Enemies take &ndash;1 on attack rolls and saves vs. fear.</p>
+				<p id="cause-fear"><b><a href="../spells/causeFear.html#_cause-fear" >Cause Fear</a></b><sup></sup>: A creature of 5 HD or less flees for 1d4 rounds.</p>
+				<p id="command"><b><a href="../spells/command.html#_command" >Command</a></b><sup></sup>: One subject obeys a command for 1 round.</p>
+				<p id="curse-water"><b><a href="../spells/curseWater.html#_curse-water" >Curse Water</a></b><sup>M</sup></b><sup></sup>: Makes water unholy.</p>
+				<p id="death-knell"><b><a href="../spells/deathKnell.html#_death-knell" >Death Knell</a></b><sup></sup>: Kills dying creature; you gain 1d8 temporary hp, +2 to Str, and +1 caster level.</p>
+				<p id="detect-poison"><b><a href="../spells/detectPoison.html#_detect-poison" >Detect Poison</a></b><sup></sup>: Detects poison in a creature or object.</p>
+				<p id="disguise-self"><b><a href="../spells/disguiseSelf.html#_disguise-self" >Disguise Self</a></b><sup></sup>: Changes your appearance.</p>
+				<p id="doom"><b><a href="../spells/doom.html#_doom" >Doom</a></b><sup></sup>: One subject takes &ndash;2 on attack rolls, damage rolls, saves, and checks.</p>
+				<p id="inflict-light-wounds"><b><a href="../spells/inflictLightWounds.html#_inflict-light-wounds" >Inflict Light Wounds</a></b><sup></sup>: Touch deals 1d8 damage +1/level (max +5).</p>
+				<p id="magic-weapon"><b><a href="../spells/magicWeapon.html#_magic-weapon" >Magic Weapon</a></b><sup></sup>: Weapon gains +1 bonus.</p>
+				<p id="protection-from-good/law"><b><a href="../spells/protectionFromGood.html#_protection-from-good" >Protection from Good</a>/Law</b><sup></sup>: +2 to AC and saves, plus additional protection against selected alignments.</p>
+				<p id="read-magic"><b><a href="../spells/readMagic.html#_read-magic" >Read Magic</a></b><sup></sup>: Read scrolls and spellbooks.</p>
+				<p id="summon-monster-i"><b><a href="../spells/summonMonster.html#_summon-monster-i" >Summon Monster I</a></b><sup></sup>: <i>(Evil creatures only.) </i>Summons extraplanar creature to fight for you.</p>
+				<h2 id="2nd-level-antipaladin-spells">2nd-Level Antipaladin Spells</h2>
+				<p id="blindness/deafness"><b><a href="../spells/blindnessDeafness.html#_blindness-deafness" >Blindness/Deafness</a></b><sup></sup>: Makes subject blind or deaf.</p>
+				<p id="bull's-strength"><b><a href="../spells/bullSStrength.html#_bull-s-strength" >Bull's Strength</a></b><sup></sup>: Subject gains +4 to Str for 1 min./level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/corruptionResistance.html#_corruption-resistance" >Corruption Resistance</a></b><sup></sup>: Protects creature against damage from alignment-based attacks.</p>
+				<p id="darkness"><b><a href="../spells/darkness.html#_darkness" >Darkness</a></b><sup></sup>: 20-ft. radius of supernatural shadow.</p>
+				<p id="darkvision"><b><a href="../spells/darkvision.html#_darkvision" >Darkvision</a></b><sup></sup>: See 60 ft. in total darkness.</p>
+				<p id="desecrate"><b><a href="../spells/desecrate.html#_desecrate" >Desecrate</a></b><sup>M</sup></b><sup></sup>: Fills area with negative energy; aids undead.</p>
+				<p id="eagle's-splendor"><b><a href="../spells/eagleSSplendor.html#_eagle-s-splendor" >Eagle's Splendor</a></b><sup></sup>: Subject gains +4 to Cha for 1 min./level.</p>
+				<p id="hold-person"><b><a href="../spells/holdPerson.html#_hold-person" >Hold Person</a></b><sup></sup>: Paralyzes one humanoid for 1 round/level.</p>
+				<p id="invisibility"><b><a href="../spells/invisibility.html#_invisibility" >Invisibility</a></b><sup></sup>: Subject is invisible for 1 min./level or until it attacks.</p>
+				<p id="scare"><b><a href="../spells/scare.html#_scare" >Scare</a></b><sup></sup>: Frightens creature of less than 6 HD.</p>
+				<p id="silence"><b><a href="../spells/silence.html#_silence" >Silence</a></b><sup></sup>: Negates sound in 20-ft. radius.</p>
+				<p id="summon-monster-ii"><b><a href="../spells/summonMonster.html#_summon-monster-ii" >Summon Monster II</a></b><sup></sup>: <i>(Evil creatures only.)</i> Summons extraplanar creature to fight for you.</p>
+				<p id="undetectable-alignment"><b><a href="../spells/undetectableAlignment.html#_undetectable-alignment" >Undetectable Alignment</a></b><sup></sup>: Conceals alignment for 24 hours.</p>
+				<h2 id="3rd-level-antipaladin-spells">3rd-Level Antipaladin Spells</h2>
+				<p id="animate-dead"><b><a href="../spells/animateDead.html#_animate-dead" >Animate Dead</a></b><sup>M</sup></b><sup></sup>: Creates undead skeletons and zombies.</p>
+				<p id="bestow-curse"><b><a href="../spells/bestowCurse.html#_bestow-curse" >Bestow Curse</a></b><sup></sup>: &ndash;6 to an ability score; &ndash;4 on attack rolls, saves, and checks; or 50% chance of losing each action.</p>
+				<p id="contagion"><b><a href="../spells/contagion.html#_contagion" >Contagion</a></b><sup></sup>: Infects subject with chosen disease.</p>
+				<p id="deeper-darkness"><b><a href="../spells/deeperDarkness.html#_deeper-darkness" >Deeper Darkness</a></b><sup></sup>: Object sheds shadows in 60-ft. radius.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/defileArmor.html#_defile-armor" >Defile Armor</a></b><sup></sup>: As <i><a href="spells/sanctifyArmor.html#_sanctify-armor" >sanctify armor</a></i>, but gain DR 5/good when using judgment or smite.</p>
+				<p id="dispel-magic"><b><a href="../spells/dispelMagic.html#_dispel-magic" >Dispel Magic</a></b><sup></sup>: Cancels one magical spell or effect.</p>
+				<p id="inflict-moderate-wounds"><b><a href="../spells/inflictModerateWounds.html#_inflict-moderate-wounds" >Inflict Moderate Wounds</a></b><sup></sup>: Touch attack, 2d8 damage +1/level (max +10).</p>
+				<p id="magic-circle-against-good/law"><b><a href="../spells/magicCircleAgainstGood.html#_magic-circle-against-good" >Magic Circle against Good</a>/Law</b><sup></sup>: As <i>protection </i>spells, but 10-ft. radius and 10 min./level.</p>
+				<p id="magic-weapon,-greater"><b><a href="../spells/magicWeapon.html#_magic-weapon-greater" >Magic Weapon, Greater</a></b><sup></sup>: Weapon gains +1 bonus/four levels (max +5).</p>
+				<p id="nondetection"><b><a href="../spells/nondetection.html#_nondetection" >Nondetection</a></b><sup>M</sup></b><sup></sup>: Hides subject from divination, scrying.</p>
+				<p id="summon-monster-iii"><b><a href="../spells/summonMonster.html#_summon-monster-iii" >Summon Monster III</a></b><sup></sup>: <i>(Evil creatures only.)</i> Summons extraplanar creature to fight for you.</p>
+				<p id="vampiric-touch"><b><a href="../spells/vampiricTouch.html#_vampiric-touch" >Vampiric Touch</a></b><sup></sup>: Touch deals 1d6 damage/2 levels; caster gains damage as temporary hp.</p>
+				<h2 id="4th-level-antipaladin-spells">4th-Level Antipaladin Spells</h2>
+				<p id="dispel-good"><b><a href="../spells/dispelGood.html#_dispel-good" >Dispel Good</a></b><sup></sup>: +4 against attacks by good creatures.</p>
+				<p id="dispel-law"><b><a href="../spells/dispelLaw.html#_dispel-law" >Dispel Law</a></b><sup></sup>: +4 against attacks by lawful creatures.</p>
+				<p id="fear"><b><a href="../spells/fear.html#_fear" >Fear</a></b><sup></sup>: Subjects within cone flee for 1 round/level.</p>
+				<p id="inflict-serious-wounds"><b><a href="../spells/inflictSeriousWounds.html#_inflict-serious-wounds" >Inflict Serious Wounds</a></b><sup></sup>: Touch attack, 3d8 damage +1/level (max +15).</p>
+				<p id="invisibility,-greater"><b><a href="../spells/invisibility.html#_invisibility-greater" >Invisibility, Greater</a></b><sup></sup>: As <i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i>, but subject can attack and stay invisible.</p>
+				<p id="poison"><b><a href="../spells/poison.html#_poison" >Poison</a></b><sup></sup>: Touch deals 1d3 Con damage 1/round for 6 rounds.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/resoundingBlow.html#_resounding-blow" >Resounding Blow</a></b><sup></sup>: Melee attack deals 1d6 more damage.</p>
+				<p id="slay-living"><b><a href="../spells/slayLiving.html#_slay-living" >Slay Living</a></b><sup></sup>: Touch attack deals 12d6 +1 per level.</p>
+				<p id="summon-monster-iv"><b><a href="../spells/summonMonster.html#_summon-monster-iv" >Summon Monster IV</a></b><sup></sup>: <i>(Evil creatures only.)</i> Summons extraplanar creature to fight for you.</p>
+				<h1 id="bard-spells">Bard Spells</h1>
+				<h2 id="0-level-bard-spells">0-Level Bard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sift.html#_sift" >Sift</a></b><sup></sup>: See area as though examining it.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/spark.html#_spark-" >Spark</a></b><sup></sup>: Ignites flammable objects.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/unwittingAlly.html#_unwitting-ally" >Unwitting Ally</a></b><sup></sup>: Subject is considered ally for 1 round.</p>
+				<h2 id="1st-level-bard-spells">1st-Level Bard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/beguilingGift.html#_beguiling-gift" >Beguiling Gift</a></b><sup></sup>: Subject immediately accepts an offered item and uses it.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/borrowSkill.html#_borrow-skill" >Borrow Skill</a></b><sup></sup>: Make a skill check using another's ranks.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/dancingLantern.html#_dancing-lantern-" >Dancing Lantern</a></b><sup></sup>: Animates a lantern that follows you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/featherStep.html#_feather-step" >Feather Step</a></b><sup></sup>: Ignore movement penalty in difficult terrain.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/flareBurst.html#_flare-burst" >Flare Burst</a></b><sup></sup>: As flare, but on all creatures within 10 ft.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/innocence.html#_innocence" >Innocence</a></b><sup></sup>: Gain +10 on <a href="../skills/bluff.html#_bluff" >Bluff</a> checks to seem innocent.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/invigorate.html#_invigorate" >Invigorate</a></b><sup></sup>: Temporarily relieves fatigue or exhaustion.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/memoryLapse.html#_memory-lapse" >Memory Lapse</a></b><sup></sup>: Subject forgets events back to last turn.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/restfulSleep.html#_restful-sleep" >Restful Sleep</a></b><sup></sup>: Gain more hit points while sleeping.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/savingFinale.html#_saving-finale" >Saving Finale</a></b><sup></sup>: Subject rerolls failed saving throw.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-" >Share Language</a></b><sup></sup>: Subject understands chosen language.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/solidNote.html#_solid-note" >Solid Note</a></b><sup></sup>: Creates tangible music note.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/timelyInspiration.html#_timely-inspiration" >Timely Inspiration</a></b><sup></sup>: Gives bonus on failed check/attack.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/touchOfGracelessness.html#_touch-of-gracelessness" >Touch of Gracelessness</a></b><sup></sup>: Subject loses 1d6 + 1 Dex/two levels and is prone to falling down.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/vanish.html#_vanish" >Vanish</a></b><sup></sup>: As <i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i> for 1 round/level (5 max).</p>
+				<h2 id="2nd-level-bard-spells">2nd-Level Bard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/bloodBiography.html#_blood-biography-" >Blood Biography</a></b><sup></sup>: Learn about a creature with its blood.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cacophonousCall.html#_cacophonous-call" >Cacophonous Call</a></b><sup></sup>: Nauseates target.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/createTreasureMap.html#_create-treasure-map-" >Create Treasure Map</a></b><sup>M</sup>: Creates a treasure map out of a creature's corpse.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/dustOfTwilight.html#_dust-of-twilight" >Dust of Twilight</a></b><sup></sup>: Black particles extinguish light sources.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/enterImage.html#_enter-image-" >Enter Image</a></b><sup></sup>: Transfers your consciousness to an object bearing your likeness.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/gallantInspiration.html#_gallant-inspiration" >Gallant Inspiration</a></b><sup></sup>: +2d4 bonus on failed attack roll or skill check.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge" >Ghostbane Dirge</a></b><sup></sup>: Incorporeal creature takes half damage from nonmagical weapons.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hiddenSpeech.html#_hidden-speech" >Hidden Speech</a></b><sup></sup>: Gain +10 on <a href="../skills/bluff.html#_bluff" >Bluff</a> to send secret messages.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/honeyedTongue.html#_honeyed-tongue" >Honeyed Tongue</a></b><sup></sup>: Roll 2 dice when using <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a>, take higher roll.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/versatileWeapon.html#_versatile-weapon" >Versatile Weapon</a></b><sup></sup>: Weapon bypasses some DR.</p>
+				<h2 id="3rd-level-bard-spells">3rd-Level Bard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/arcaneConcordance.html#_arcane-concordance" >Arcane Concordance</a></b><sup></sup>: Grants metamagic to arcane spells.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/campfireWall.html#_campfire-wall-" >Campfire Wall</a></b><sup></sup>: Creates a shelter around a campfire.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/coordinatedEffort.html#_coordinated-effort" >Coordinated Effort</a></b><sup></sup>: Grants a teamwork feat you have.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/elementalSpeech.html#_elemental-speech" >Elemental Speech</a></b><sup></sup>: Enables you to speak to elementals and some creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/featherStep.html#_feather-step,-mass" >Feather Step, Mass</a></b><sup></sup>: As <i><a href="spells/featherStep.html#_feather-step" >feather step</a></i>, but multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/invigorate.html#_invigorate,-mass" >Invigorate, Mass</a></b><sup></sup>: As <i><a href="spells/invigorate.html#_invigorate" >invigorate</a></i>, but multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/jesterSJaunt.html#_jester's-jaunt" >Jester's Jaunt</a></b><sup></sup>: Teleport target within 30 ft. of itself.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/purgingFinale.html#_purging-finale" >Purging Finale</a></b><sup></sup>: Removes one negative effect.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/revivingFinale.html#_reviving-finale" >Reviving Finale</a></b><sup></sup>: Allies cured 2d6 damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/seekThoughts.html#_seek-thoughts" >Seek Thoughts</a></b><sup></sup>: Detects thinking creatures' thoughts.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/thunderingDrums.html#_thundering-drums">Thunderous Drums</a></b><sup></sup>: 1d8 damage/level and knocked prone.</p>
+				<h2 id="4th-level-bard-spells">4th-Level Bard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/denounce.html#_denounce" >Denounce</a></b><sup></sup>: Worsens attitudes toward target creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/discordantBlast.html#_discordant-blast" >Discordant Blast</a></b><sup></sup>: 3d6 sonic damage in 10-ft. burst or 30-ft. cone can also bull rush creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge,-mass" >Ghostbane Dirge, Mass</a></b><sup></sup>: As <i><a href="spells/ghostbaneDirge.html#_ghostbane-dirge" >ghostbane dirge</a></i>, but affecting multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/heroicFinale.html#_heroic-finale" >Heroic Finale</a></b><sup></sup>: Subject within range of your bardic performance can take an action.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/treasureStitching.html#_treasure-stitching-" >Treasure Stitching</a></b><sup>M</sup>: Objects on cloth become embroidered.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/wanderingStarMotes.html#_wandering-star-motes" >Wandering Star Motes</a></b><sup></sup>: Outlines subject, produces light.</p>
+				<h2 id="5th-level-bard-spells">5th-Level Bard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/bardSEscape.html#_bard's-escape" >Bard's Escape</a></b><sup></sup>: You and allies escape an emergency by teleporting to safety.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cacophonousCall.html#_cacophonous-call,-mass" >Cacophonous Call, Mass</a></b><sup></sup>: Nauseates multiple targets.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cloakOfDreams.html#_cloak-of-dreams" >Cloak of Dreams</a></b><sup></sup>: Living creatures within 5 ft. fall asleep.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/deafeningSongBolt.html#_deafening-song-bolt" >Deafening Song Bolt</a></b><sup></sup>: Blast of song deals 3d10 damage and deafens targets.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/foeToFriend.html#_foe-to-friend" >Foe to Friend</a></b><sup></sup>: Redirect an enemy creature's attack.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/frozenNote.html#_frozen-note-" >Frozen Note</a></b><sup></sup>: Paralyzes creatures listening to your song.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/phantasmalWeb.html#_phantasmal-web" >Phantasmal Web</a></b><sup></sup>: Catches subjects in illusory web.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stunningFinale.html#_stunning-finale" >Stunning Finale</a></b><sup></sup>: Stuns 3 creatures for 1 round.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/unwillingShield.html#_unwilling-shield" >Unwilling Shield</a></b><sup>M</sup>: Subject shares wounds you receive.</p>
+				<h2 id="6th-level-bard-spells">6th-Level Bard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/brilliantInspiration.html#_brilliant-inspiration" >Brilliant Inspiration</a></b><sup></sup>: Take best of two d20 rolls.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/deadlyFinale.html#_deadly-finale" >Deadly Finale</a></b><sup></sup>: Deals 2d8 damage to multiple targets.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/euphoricTranquility.html#_euphoric-tranquility" >Euphoric Tranquility</a></b><sup></sup>: Makes a single creature peaceful and friendly.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/foolSForbiddance.html#_fool's-forbiddance" >Fool's Forbiddance</a></b><sup></sup>: Confuses enemies who come within a magical emanation centered on you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/getaway.html#_getaway-" >Getaway</a></b><sup></sup>: Teleports a group of predetermined allies and creatures to a predetermined location.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/piedPiping.html#_pied-piping-" >Pied Piping</a></b><sup></sup>: Compel similar creatures to follow you.</p>
+				<h1 id="cleric-spells">Cleric Spells</h1>
+				<h2 id="0-level-cleric-spells">0-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/spark.html#_spark-" >Spark</a></b><sup></sup>: Ignites flammable objects.</p>
+				<h2 id="1st-level-cleric-spells">1st-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >Ant Haul</a></b><sup></sup>: Triples carrying capacity of a creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/dancingLantern.html#_dancing-lantern-" >Dancing Lantern</a></b><sup></sup>: Animates a lantern that follows you.</p>
+				<h2 id="2nd-level-cleric-spells">2nd-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/blessingOfCourageAndLife.html#_blessing-of-courage-and-life" >Blessing of Courage and Life</a></b><sup></sup>: +2 on saves vs. fear and death.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge" >Ghostbane Dirge</a></b><sup></sup>: Incorporeal creature takes half damage from nonmagical weapons.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/grace.html#_grace" >Grace</a></b><sup></sup>: Movement doesn't provoke attacks of opportunity.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/instantArmor.html#_instant-armor-" >Instant Armor</a></b><sup></sup>: Summon armor temporarily replacing your current attire.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/oracleSBurden.html#_oracle's-burden" >Oracle's Burden</a></b><sup></sup>: <i>(Oracle only.)</i> Creature is affected by negative oracle's curse effects.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-" >Share Language</a></b><sup></sup>: Subject understands chosen language.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/weaponOfAwe.html#_weapon-of-awe" >Weapon of Awe</a></b><sup></sup>: Weapon gets +2 on damage rolls.</p>
+				<h2 id="3rd-level-cleric-spells">3rd-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/bloodBiography.html#_blood-biography-" >Blood Biography</a></b><sup></sup>: Learn about a creature with its blood.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/borrowFortune.html#_borrow-fortune" >Borrow Fortune</a></b><sup></sup>: <i>(Oracle only.)</i> Retry attack or check, but do worse on next two.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/elementalSpeech.html#_elemental-speech" >Elemental Speech</a></b><sup></sup>: You can speak with elementals and some creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/enterImage.html#_enter-image-" >Enter Image</a></b><sup></sup>: Transfers your consciousness to an object bearing your likeness.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/guidingStar.html#_guiding-star-" >Guiding Star</a></b><sup></sup>: Know approximate distance from where you cast this spell.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/napStack.html#_nap-stack-" >Nap Stack</a></b><sup>M</sup>: Subjects only need 2 hours for a night's sleep, and can sleep even longer for more benefits.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sacredBond.html#_sacred-bond" >Sacred Bond</a></b><sup>F</sup>: Cast touch healing spells from a distance.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/wrathfulMantle.html#_wrathful-mantle" >Wrathful Mantle</a></b><sup></sup>: Subject gets +1/four levels on all saves.</p>
+				<h2 id="4th-level-cleric-spells">4th-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/blessingOfFervor.html#_blessing-of-fervor" >Blessing of Fervor</a></b><sup></sup>: Gives allies a choice of benefits.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation" >Planar Adaptation</a></b><sup></sup>: Resist harmful effects of other plane.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/restEternal.html#_rest-eternal" >Rest Eternal</a></b><sup>M</sup>: Dead creature cannot be revived.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/spiritualAlly.html#_spiritual-ally" >Spiritual Ally</a></b><sup></sup>: Creates a divine ally to aid you.</p>
+				<h2 id="5th-level-cleric-spells">5th-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cleanse.html#_cleanse" >Cleanse</a></b><sup></sup>: Cures 4d8 damage +1/level (max +25) and also removes several afflictions.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge,-mass" >Ghostbane Dirge, Mass</a></b><sup></sup>: As <i><a href="spells/ghostbaneDirge.html#_ghostbane-dirge" >ghostbane dirge</a></i>, but affects multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/lifeBubble.html#_life-bubble-" >Life Bubble</a></b><sup></sup>: Protects creatures from environment.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/pillarOfLife.html#_pillar-of-life" >Pillar of Life</a></b><sup></sup>: Created pillar heals 2d8 + 1/level (max +20).</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/snakeStaff.html#_snake-staff" >Snake Staff</a></b><sup></sup>: Transforms staff or other wood into snakes to fight for you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/treasureStitching.html#_treasure-stitching-" >Treasure Stitching</a></b><sup>M</sup>: Objects on cloth become embroidered.</p>
+				<h2 id="6th-level-cleric-spells">6th-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation,-mass" >Planar Adaptation, Mass</a></b><sup></sup>: As <i><a href="spells/planarAdaptation.html#_planar-adaptation" >planar adaptation</a></i>, but affects multiple creatures.</p>
+				<h2 id="8th-level-cleric-spells">8th-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/divineVessel.html#_divine-vessel" >Divine Vessel</a></b><sup></sup>: <i>(Oracle only.)</i> Change into a huge, otherworldly creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/euphoricTranquility.html#_euphoric-tranquility" >Euphoric Tranquility</a></b><sup></sup>: Makes a single creature peaceful and friendly.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stormbolts.html#_stormbolts" >Stormbolts</a></b><sup></sup>: 1d8 damage/level (max 20d8) to targets.</p>
+				<h2 id="9th-level-cleric-spells">9th-Level Cleric Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/windsOfVengeance.html#_winds-of-vengeance" >Winds of Vengeance</a></b><sup></sup>: Grants flight; attack with wind.</p>
+				<h1 id="druid-spells">Druid Spells</h1>
+				<h2 id="0-level-druid-spells">0-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/spark.html#_spark-" >Spark</a></b><sup></sup>: Ignites flammable objects.</p>
+				<h2 id="1st-level-druid-spells">1st-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/alterWinds.html#_alter-winds" >Alter Winds</a></b><sup></sup>: Increase/decrease strength of natural winds.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >Ant Haul</a></b><sup></sup>: Triples carrying capacity of a creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/aspectOfTheFalcon.html#_aspect-of-the-falcon" >Aspect of the Falcon</a></b><sup></sup>: Gives bonuses on <a href="../skills/perception.html#_perception" >Perception</a> checks and ranged attacks. </p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/bristle.html#_bristle-" >Bristle</a></b><sup></sup>: Trade natural armor bonus for a bonus on attacks with natural weapons.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/callAnimal.html#_call-animal" >Call Animal</a></b><sup></sup>: Makes an animal come to you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cloakOfShade.html#_cloak-of-shade" >Cloak of Shade</a></b><sup></sup>: Reduces effects of sun exposure and heat.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/detectAberration.html#_detect-aberration" >Detect Aberration</a></b><sup></sup>: Reveals presence of aberrations.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/expeditiousExcavation.html#_expeditious-excavation" >Expeditious Excavation</a></b><sup></sup>: Moves 5-ft. cubes of earth.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/featherStep.html#_feather-step" >Feather Step</a></b><sup></sup>: Ignore movement penalty in difficult terrain.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/flareBurst.html#_flare-burst" >Flare Burst</a></b><sup></sup>: As <i><a href="../spells/flare.html#_flare" >flare</a></i>, but all creatures within 10 ft.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hydraulicPush.html#_hydraulic-push-" >Hydraulic Push</a></b><sup></sup>: Wave of water bull rushes an enemy.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/keenSenses.html#_keen-senses" >Keen Senses</a></b><sup></sup>: Gain +2 <a href="../skills/perception.html#_perception" >Perception</a> and low-light vision.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/negateAroma.html#_negate-aroma" >Negate Aroma</a></b><sup></sup>: Subject cannot be tracked by scent.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stoneFist.html#_stone-fist" >Stone Fist</a></b><sup></sup>: Your unarmed strikes are lethal.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/touchOfTheSea.html#_touch-of-the-sea" >Touch of the Sea</a></b><sup></sup>: <a href="../skills/swim.html#_swim" >Swim</a> speed becomes 30 ft.</p>
+				<h2 id="2nd-level-druid-spells">2nd-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/acceleratePoison.html#_accelerate-poison" >Accelerate Poison</a></b><sup></sup>: Hastens targeted poison's onset.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/aspectOfTheBear.html#_aspect-of-the-bear" >Aspect of the Bear</a></b><sup></sup>: +2 AC and combat maneuver rolls.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/burningGaze.html#_burning-gaze" >Burning Gaze</a></b><sup></sup>: Inflict 1d6 fire damage to creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/campfireWall.html#_campfire-wall-" >Campfire Wall</a></b><sup></sup>: Creates a shelter around a campfire.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/eagleEye.html#_eagle-eye" >Eagle Eye</a></b><sup></sup>: Creates a magical sensor high above you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/elementalSpeech.html#_elemental-speech" >Elemental Speech</a></b><sup></sup>: Enables you to speak to elementals and some creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/feastOfAshes.html#_feast-of-ashes" >Feast of Ashes</a></b><sup></sup>: A target starves with an insatiable hunger.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/glide.html#_glide-" >Glide</a></b><sup></sup>: You take no falling damage, move 60 ft./round while falling.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/lockjaw.html#_lockjaw" >Lockjaw</a></b><sup></sup>: Creature gains grab ability with natural attack.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/naturalRhythm.html#_natural-rhythm-" >Natural Rhythm</a></b><sup></sup>: +1 on damage rolls with each hit (max +5).</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/poxPustules.html#_pox-pustules" >Pox Pustules</a></b><sup></sup>: Subject is sickened and has &ndash;4 Dex.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/scentTrail.html#_scent-trail-" >Scent Trail</a></b><sup></sup>: Leave trail for allies to follow.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-" >Share Language</a></b><sup></sup>: Subject understands chosen language.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/slipstream.html#_slipstream" >Slipstream</a></b><sup></sup>: Wave boosts creature's speed.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stoneCall.html#_stone-call" >Stone Call</a></b><sup></sup>: 2d6 damage to all creatures in area.</p>
+				<h2 id="3rd-level-druid-spells">3rd-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/aqueousOrb.html#_aqueous-orb" >Aqueous Orb</a></b><sup></sup>: Creates rolling sphere of water.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cloakOfWinds.html#_cloak-of-winds" >Cloak of Winds</a></b><sup></sup>: Creates screen of strong wind around you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/createTreasureMap.html#_create-treasure-map-" >Create Treasure Map</a></b><sup>M</sup>: Creates treasure map out of a creature's corpse.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cupOfDust.html#_cup-of-dust" >Cup of Dust</a></b><sup></sup>: Causes a creature to become dehydrated.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/featherStep.html#_feather-step,-mass" >Feather Step, Mass</a></b><sup></sup>: As <i><a href="spells/featherStep.html#_feather-step" >feather step</a></i>, but multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hideCampsite.html#_hide-campsite" >Hide Campsite</a></b><sup></sup>: Hides all traces of your campsite.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hydraulicTorrent.html#_hydraulic-torrent-" >Hydraulic Torrent</a></b><sup></sup>: Creates torrent of water that bull rushes any creature in its path.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/lilyPadStride.html#_lily-pad-stride" >Lily Pad Stride</a></b><sup></sup>: Walk across water on moving lily pads.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/natureSExile.html#_nature's-exile" >Nature's Exile</a></b><sup></sup>: Gives subject &ndash;10 on <a href="../skills/survival.html#_survival" >Survival</a> checks.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/shiftingSand.html#_shifting-sand" >Shifting Sand</a></b><sup></sup>: Creates difficult terrain and erases tracks; can carry creatures or objects along.</p>
+				<h2 id="4th-level-druid-spells">4th-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/aspectOfTheStag.html#_aspect-of-the-stag" >Aspect of the Stag</a></b><sup></sup>: +2 AC against attacks of opportunity and increases speed.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/ballLightning.html#_ball-lightning" >Ball Lightning</a></b><sup></sup>: Flying lightning spheres deal 3d6 electricity damage each.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/bloodyClaws.html#_bloody-claws" >Bloody Claws</a></b><sup></sup>: Causes bleed damage with natural attacks.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/geyser.html#_geyser-" >Geyser</a></b><sup></sup>: Creates a geyser of boiling water.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/groveOfRespite.html#_grove-of-respite" >Grove of Respite</a></b><sup></sup>: Creates trees and a small spring.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/lifeBubble.html#_life-bubble-" >Life Bubble</a></b><sup></sup>: Protects from environmental effects.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/moonstruck.html#_moonstruck" >Moonstruck</a></b><sup></sup>: Subject is enraged and confused.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/riverOfWind.html#_river-of-wind" >River of Wind</a></b><sup></sup>: Creates wind that causes nonlethal damage and can knock down or push creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/strongJaw.html#_strong-jaw" >Strong Jaw</a></b><sup></sup>: Natural attacks damage as two sizes bigger.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/thornBody.html#_thorn-body" >Thorn Body</a></b><sup></sup>: Your attackers take 1d6 +1 damage/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/trueForm.html#_true-form" >True Form</a></b><sup></sup>: Removes polymorph effects.</p>
+				<h2 id="5th-level-druid-spells">5th-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/aspectOfTheWolf.html#_aspect-of-the-wolf" >Aspect of the Wolf</a></b><sup></sup>: +4 Str and Dex, +2 bonus on trip attacks.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/blessingOfTheSalamander.html#_blessing-of-the-salamander" >Blessing of the Salamander</a></b><sup></sup>: Subject gets fast healing 2, fire resistance 10, and +2 to its CMD.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fireSnake.html#_fire-snake" >Fire Snake</a></b><sup></sup>: Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/restEternal.html#_rest-eternal" >Rest Eternal</a></b><sup>M</sup>: Dead creature cannot be revived.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/snakeStaff.html#_snake-staff" >Snake Staff</a></b><sup></sup>: Transforms wood into snakes to fight for you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/threefoldAspect.html#_threefold-aspect" >Threefold Aspect</a></b><sup>F</sup>: Appear older or younger.</p>
+				<h2 id="6th-level-druid-spells">6th-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sirocco.html#_sirocco" >Sirocco</a></b><sup></sup>: Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/swarmSkin.html#_swarm-skin-" >Swarm Skin</a></b><sup></sup>: Turns your body into a swarm that can attack.</p>
+				<h2 id="7th-level-druid-spells">7th-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/rampart.html#_rampart" >Rampart</a></b><sup></sup>: Creates 5-ft.-thick earthen barrier.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/vortex.html#_vortex" >Vortex</a></b><sup></sup>: Creates a whirlpool in water.</p>
+				<h2 id="8th-level-druid-spells">8th-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/euphoricTranquility.html#_euphoric-tranquility" >Euphoric Tranquility</a></b><sup></sup>: Makes a creature friendly.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/seamantle.html#_seamantle" >Seamantle</a></b><sup></sup>: Sheathes you in protective water.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stormbolts.html#_stormbolts" >Stormbolts</a></b><sup></sup>: 1d8 damage/level (max 20d8) to targets.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/wallOfLava.html#_wall-of-lava" >Wall of Lava</a></b><sup></sup>: Wall damages foes that try to enter, periodically launches lava at nearby targets.</p>
+				<h2 id="9th-level-druid-spells">9th-Level Druid Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/clashingRocks.html#_clashing-rocks" >Clashing Rocks</a></b><sup></sup>: 20d6 damage to target creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/tsunami.html#_tsunami" >Tsunami</a></b><sup></sup>: Huge wave damages and sweeps up all in its path.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/windsOfVengeance.html#_winds-of-vengeance" >Winds of Vengeance</a></b><sup></sup>: You can fly and attack with wind.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/worldWave.html#_world-wave-" >World Wave</a></b><sup></sup>: Earth or water moves you across distances and damages things not of the natural world.</p>
+				<h1 id="elementalist-wizard-spells">Elementalist Wizard Spells</h1>
+				<h2 id="0-level-elementalist-wizard-spells">0-Level Elementalist Wizard Spells</h2>
+				<p id="air"><b>Air</b></p>
+				<p id="message"><b><a href="../spells/message.html#_message" >Message</a></b><sup></sup>: Whisper conversation at distance.</p>
+				<p id="earth"><b>Earth</b></p>
+				<p id="acid-splash"><b><a href="../spells/acidSplash.html#_acid-splash" >Acid Splash</a></b><sup></sup>: Orb deals 1d3 acid damage.</p>
+				<p id="fire"><b>Fire</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/spark.html#_spark-" >Spark</a></b><sup></sup>: Ignites flammable objects.</p>
+				<p id="water"><b>Water</b></p>
+				<p id="ray-of-frost"><b><a href="../spells/rayOfFrost.html#_ray-of-frost" >Ray of Frost</a></b><sup></sup>: Ray deals 1d3 cold damage.</p>
+				<h2 id="1st-level-elementalist-wizard-spells">1st-Level Elementalist Wizard Spells</h2>
+				<p id="air"><b>Air</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/alterWinds.html#_alter-winds" >Alter Winds</a></b><sup></sup>: Increases/decreases natural wind strength.</p>
+				<p id="feather-fall"><b><a href="../spells/featherFall.html#_feather-fall" >Feather Fall</a></b><sup></sup>: Objects or creatures fall slowly.</p>
+				<p id="shocking-grasp"><b><a href="../spells/shockingGrasp.html#_shocking-grasp" >Shocking Grasp</a></b><sup></sup>: Touch delivers 1d6/level electricity damage (max 5d6).</p>
+				<p id="earth"><b>Earth</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/expeditiousExcavation.html#_expeditious-excavation" >Expeditious Excavation</a></b><sup></sup>: Moves 5-ft. cubes of earth.</p>
+				<p id="grease"><b><a href="../spells/grease.html#_grease" >Grease</a></b><sup></sup>: Makes 10-ft. square or one object slippery.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stoneFist.html#_stone-fist" >Stone Fist</a></b><sup></sup>: Your unarmed strikes are lethal.</p>
+				<p id="fire"><b>Fire</b></p>
+				<p id="burning-hands"><b><a href="../spells/burningHands.html#_burning-hands" >Burning Hands</a></b><sup></sup>: 1d4/level fire damage (max 5d4).</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/dancingLantern.html#_dancing-lantern-" >Dancing Lantern</a></b><sup></sup>: Animates a lantern that follows you.</p>
+				<p id="water"><b>Water</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hydraulicPush.html#_hydraulic-push-" >Hydraulic Push</a></b><sup></sup>: Sudden and powerful wave of water bull rushes an enemy.</p>
+				<p id="obscuring-mist"><b><a href="../spells/obscuringMist.html#_obscuring-mist" >Obscuring Mist</a></b><sup></sup>: Fog surrounds you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/touchOfTheSea.html#_touch-of-the-sea" >Touch of the Sea</a></b><sup></sup>: <a href="../skills/swim.html#_swim" >Swim</a> speed becomes 30 ft.</p>
+				<h2 id="2nd-level-elementalist-wizard-spells">2nd-Level Elementalist Wizard Spells</h2>
+				<p id="all"><b>All</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/elementalSpeech.html#_elemental-speech" >Elemental Speech</a></b><sup></sup>: Enables you to speak to elementals and some creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/elementalTouch.html#_elemental-touch" >Elemental Touch</a></b><sup></sup>: Gain energy damage touch attack.</p>
+				<p id="resist-energy"><b><a href="../spells/resistEnergy.html#_resist-energy" >Resist Energy</a></b><sup></sup>: Ignores first 10 (or more) points of damage per attack from specified energy type.</p>
+				<p id="summon-monster-ii"><b><a href="../spells/summonMonster.html#_summon-monster-ii" >Summon Monster II</a></b><sup></sup>: Summons elemental creature.</p>
+				<p id="air"><b>Air</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/glide.html#_glide-" >Glide</a></b><sup></sup>: No fall damage, move 60 ft./round while falling.</p>
+				<p id="gust-of-wind"><b><a href="../spells/gustOfWind.html#_gust-of-wind" >Gust of Wind</a></b><sup></sup>: Blast of wind blows away or knocks down creatures.</p>
+				<p id="levitate"><b><a href="../spells/levitate.html#_levitate" >Levitate</a></b><sup></sup>: Subject moves up and down at your direction.</p>
+				<p id="whispering-wind"><b><a href="../spells/whisperingWind.html#_whispering-wind" >Whispering Wind</a></b><sup></sup>: Sends a short message 1 mile/level.</p>
+				<p id="earth"><b>Earth</b></p>
+				<p id="acid-arrow"><b><a href="../spells/acidArrow.html#_acid-arrow" >Acid Arrow</a></b><sup></sup>: Ranged touch attack; 2d4 damage for 1 round + 1 round/3 levels.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/createPit.html#_create-pit-" >Create Pit</a></b><sup>F</sup>: Creates an extradimensional pit.</p>
+				<p id="glitterdust"><b><a href="../spells/glitterdust.html#_glitterdust" >Glitterdust</a></b><sup></sup>: Blinds targets, outlines invisible things.</p>
+				<p id="shatter"><b><a href="../spells/shatter.html#_shatter" >Shatter</a></b><sup></sup>: Sonic energy damages objects or creatures composed of crystal.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stoneCall.html#_stone-call" >Stone Call</a></b><sup></sup>: 2d6 damage to all creatures in area.</p>
+				<p id="fire"><b>Fire</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/burningGaze.html#_burning-gaze" >Burning Gaze</a></b><sup></sup>: 1d6 fire damage to target by looking at it.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fireBreath.html#_fire-breath" >Fire Breath</a></b><sup></sup>: Exhale a cone of flame at will.</p>
+				<p id="flaming-sphere"><b><a href="../spells/flamingSphere.html#_flaming-sphere" >Flaming Sphere</a></b><sup></sup>: Ball of fire deals 3d6 fire damage.</p>
+				<p id="pyrotechnics"><b><a href="../spells/pyrotechnics.html#_pyrotechnics" >Pyrotechnics</a></b><sup></sup>: Turns fire into light or thick smoke.</p>
+				<p id="scorching-ray"><b><a href="../spells/scorchingRay.html#_scorching-ray" >Scorching Ray</a></b><sup></sup>: Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).</p>
+				<p id="water"><b>Water</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/acceleratePoison.html#_accelerate-poison" >Accelerate Poison</a></b><sup></sup>: Hastens targeted poison's onset.</p>
+				<p id="fog-cloud"><b><a href="../spells/fogCloud.html" >Fog Cloud</a></b><sup></sup>: Fog obscures vision.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/slipstream.html#_slipstream" >Slipstream</a></b><sup></sup>: Wave boosts creature's speed.</p>
+				<h2 id="3rd-level-elementalist-wizard-spells">3rd-Level Elementalist Wizard Spells</h2>
+				<p id="all"><b>All</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/draconicReservoir.html#_draconic-reservoir-" >Draconic Reservoir</a></b><sup></sup>: Subject can absorb energy damage and enhance melee attacks with it.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/elementalAura.html#_elemental-aura" >Elemental Aura</a></b><sup></sup>: Creates an aura of energy around you.</p>
+				<p id="protection-from-energy"><b><a href="../spells/protectionFromEnergy.html#_protection-from-energy" >Protection From Energy</a></b><sup></sup>: Absorbs 12 points/level of damage from one kind of energy.</p>
+				<p id="air"><b>Air</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cloakOfWinds.html#_cloak-of-winds" >Cloak of Winds</a></b><sup></sup>: A screen of strong wind around you.</p>
+				<p id="fly"><b><a href="../spells/fly.html" >Fly</a></b><sup></sup>: Subject flies at a speed of 60 ft.</p>
+				<p id="gaseous-form"><b><a href="../spells/gaseousForm.html#_gaseous-form" >Gaseous Form</a></b><sup></sup>: Become insubstantial and fly slowly.</p>
+				<p id="lightning-bolt"><b><a href="../spells/lightningBolt.html#_lightning-bolt" >Lightning Bolt</a></b><sup></sup>: Electricity deals 1d6/level damage.</p>
+				<p id="wind-wall"><b><a href="../spells/windWall.html#_wind-wall" >Wind Wall</a></b><sup></sup>: Deflects arrows, smaller creatures, gasses.</p>
+				<p id="earth"><b>Earth</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/shiftingSand.html#_shifting-sand" >Shifting Sand</a></b><sup></sup>: Creates difficult terrain, erases tracks.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/spikedPit.html#_spiked-pit" >Spiked Pit</a></b><sup>F</sup>: As <i><a href="spells/createPit.html#_create-pit-" >create pit</a></i>, but filled with spikes.</p>
+				<p id="stinking-cloud"><b><a href="../spells/stinkingCloud.html#_stinking-cloud" >Stinking Cloud</a></b><sup></sup>: Nauseating vapors, 1 round/level.</p>
+				<p id="fire"><b>Fire</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/campfireWall.html#_campfire-wall-" >Campfire Wall</a></b><sup></sup>: Creates a shelter around a campfire.</p>
+				<p id="fireball"><b><a href="../spells/fireball.html#_fireball" >Fireball</a></b><sup></sup>: 1d6 fire damage per level, 20-ft. radius.</p>
+				<p id="flame-arrow"><b><a href="../spells/flameArrow.html#_flame-arrow" >Flame Arrow</a></b><sup></sup>: Arrows deal +1d6 fire damage.</p>
+				<p id="water"><b>Water</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/aqueousOrb.html#_aqueous-orb" >Aqueous Orb</a></b><sup></sup>: Creates rolling sphere of water.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hydraulicTorrent.html#_hydraulic-torrent-" >Hydraulic Torrent</a></b><sup></sup>: Creates torrent of water that bull rushes any creature in its path.</p>
+				<p id="sleet-storm"><b><a href="../spells/sleetStorm.html#_sleet-storm" >Sleet Storm</a></b><sup></sup>: Hampers vision and movement.</p>
+				<p id="water-breathing"><b><a href="../spells/waterBreathing.html#_water-breathing" >Water Breathing</a></b><sup></sup>: Subjects can breathe underwater.</p>
+				<h2 id="4th-level-elementalist-wizard-spells">4th-Level Elementalist Wizard Spells</h2>
+				<p id="all"><b>All</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/detonate.html#_detonate" >Detonate</a></b><sup></sup>: 1d8/level energy damage to nearby creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/dragonSBreath.html#_dragon's-breath" >Dragon's Breath</a></b><sup></sup>: Gives you a dragon's breath weapon.</p>
+				<p id="elemental-body-i"><b><a href="../spells/elementalBody.html#_elemental-body-i" >Elemental Body I</a></b><sup></sup>: Turns you into a Small elemental.</p>
+				<p id="summon-monster-iv"><b><a href="../spells/summonMonster.html#_summon-monster-iv" >Summon Monster IV</a></b><sup></sup>: Summons elemental creature to fight for you.</p>
+				<p id="air"><b>Air</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/ballLightning.html#_ball-lightning" >Ball Lightning</a></b><sup></sup>: Flying balls of lightning deal 3d6 electricity damage each.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/riverOfWind.html#_river-of-wind" >River of Wind</a></b><sup></sup>: A stream of wind causes nonlethal damage and can knock down or push creatures.</p>
+				<p id="shout"><b><a href="../spells/shout.html#_shout" >Shout</a></b><sup></sup>: Deafens all within cone, 5d6 sonic damage.</p>
+				<p id="earth"><b>Earth</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/acidPit.html#_acid-pit-" >Acid Pit</a></b><sup>M</sup>: Creates a pit with acid at the bottom.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/calcificTouch.html#_calcific-touch" >Calcific Touch</a></b><sup></sup>: Touch slows target, 1d4 Dex damage.</p>
+				<p id="stone-shape"><b><a href="../spells/stoneShape.html#_stone-shape" >Stone Shape</a></b><sup></sup>: Sculpts stone into any shape.</p>
+				<p id="stoneskin"><b><a href="../spells/stoneskin.html#_stoneskin" >Stoneskin</a></b><sup>M</sup>: Grants DR 10/adamantine.</p>
+				<p id="fire"><b>Fire</b></p>
+				<p id="fire-shield"><b><a href="../spells/fireShield.html#_fire-shield" >Fire Shield</a></b><sup></sup>: Creatures attacking you take fire damage; you're protected from heat or cold.</p>
+				<p id="fire-trap"><b><a href="../spells/fireTrap.html#_fire-trap" >Fire Trap</a></b><sup>M</sup>: Opened object deals 1d4 damage +1/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/firefall.html#_firefall" >Firefall</a></b><sup></sup>: Fire bursts upward, dealing 2d6 fire damage.</p>
+				<p id="wall-of-fire"><b><a href="../spells/wallOfFire.html#_wall-of-fire" >Wall of Fire</a></b><sup></sup>: 2d4 fire damage to 10 ft. and 1d4 to 20 ft. Passing through wall deals 2d6 damage +1/level.</p>
+				<p id="water"><b>Water</b></p>
+				<p id="ice-storm"><b><a href="../spells/iceStorm.html#_ice-storm" >Ice Storm</a></b><sup></sup>: Hail deals 5d6 damage in area 40 ft. across.</p>
+				<p id="solid-fog"><b><a href="../spells/solidFog.html#_solid-fog" >Solid Fog</a></b><sup></sup>: Blocks vision and slows movement.</p>
+				<p id="wall-of-ice"><b><a href="../spells/wallOfIce.html#_wall-of-ice" >Wall of Ice</a></b><sup></sup>: Ice plane creates wall or hemisphere creates dome.</p>
+				<h2 id="5th-level-elementalist-wizard-spells">5th-Level Elementalist Wizard Spells</h2>
+				<p id="all"><b>All</b></p>
+				<p id="elemental-body-ii"><b><a href="../spells/elementalBody.html#_elemental-body-ii" >Elemental Body II</a></b><sup></sup>: You become a Medium elemental.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation" >Planar Adaptation</a></b><sup></sup>: Resist harmful effects of a plane.</p>
+				<p id="planar-binding,-lesser"><b><a href="../spells/planarBinding.html#_planar-binding-lesser" >Planar <a href="../spells/binding.html#_binding" >Binding</a>, Lesser</a></b><sup></sup>: Traps elemental creature of 6 HD or less until it performs a task.</p>
+				<p id="summon-monster-v"><b><a href="../spells/summonMonster.html#_summon-monster-v" >Summon Monster V</a></b><sup></sup>: Summons elemental creature to fight for you.</p>
+				<p id="air"><b>Air</b></p>
+				<p id="overland-flight"><b><a href="../spells/overlandFlight.html#_overland-flight" >Overland Flight</a></b><sup></sup>: You fly at a speed of 40 ft. and can hustle over long distances.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/suffocation.html#_suffocation" >Suffocation</a></b><sup></sup>: Target quickly suffocates to death.</p>
+				<p id="earth"><b>Earth</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hungryPit.html#_hungry-pit-" >Hungry Pit<sup>F</sup></a></b><sup></sup>: As <i><a href="spells/createPit.html#_create-pit-" >create pit</a></i>, but dealing 4d6 damage to those in it as it closes.</p>
+				<p id="passwall"><b><a href="../spells/passwall.html#_passwall" >Passwall</a></b><sup></sup>: Creates passage through wood or stone wall.</p>
+				<p id="transmute-mud-to-rock"><b><a href="../spells/transmuteMudToRock.html#_transmute-mud-to-rock" >Transmute Mud to Rock</a></b><sup></sup>: Two 10-ft. cubes per level.</p>
+				<p id="transmute-rock-to-mud"><b><a href="../spells/transmuteRockToMud.html#_transmute-rock-to-mud" >Transmute Rock to Mud</a></b><sup></sup>: Two 10-ft. cubes per level.</p>
+				<p id="wall-of-stone"><b><a href="../spells/wallOfStone.html#_wall-of-stone" >Wall of Stone</a></b><sup></sup>: Creates a stone wall that can be shaped.</p>
+				<p id="fire"><b>Fire</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fireSnake.html#_fire-snake" >Fire Snake</a></b><sup></sup>: Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/geyser.html#_geyser-" >Geyser</a></b><sup></sup>: Creates a geyser of boiling water.</p>
+				<p id="water"><b>Water</b></p>
+				<p id="cloudkill"><b><a href="../spells/cloudkill.html#_cloudkill" >Cloudkill</a></b><sup></sup>: Kills 3 HD or less; 4&ndash;6 HD save or die; 6+ HD take Con damage.</p>
+				<p id="cone-of-cold"><b><a href="../spells/coneOfCold.html#_cone-of-cold" >Cone of Cold</a></b><sup></sup>: 1d6/level cold damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/geyser.html#_geyser-" >Geyser</a></b><sup></sup>: Creates a geyser of boiling water.</p>
+				<h2 id="6th-level-elementalist-wizard-spells">6th-Level Elementalist Wizard Spells</h2>
+				<p id="all"><b>All</b></p>
+				<p id="elemental-body-iii"><b><a href="../spells/elementalBody.html#_elemental-body-iii" >Elemental Body III</a></b><sup></sup>: Turns you into a Large elemental.</p>
+				<p id="planar-binding"><b><a href="../spells/planarBinding.html#_planar-binding" >Planar Binding</a></b><sup></sup>: As <i><a href="../spells/planarBinding.html#_planar-binding-lesser" >lesser planar binding</a></i>, but up to 12 HD.</p>
+				<p id="summon-monster-vi"><b><a href="../spells/summonMonster.html#_summon-monster-vi" >Summon Monster VI</a></b><sup></sup>: Summons elemental creature to fight for you.</p>
+				<p id="air"><b>Air</b></p>
+				<p id="chain-lightning"><b><a href="../spells/chainLightning.html#_chain-lightning" >Chain Lightning</a></b><sup></sup>: 1d6/level damage, 1 more bolt/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sirocco.html#_sirocco" >Sirocco</a></b><sup></sup>: Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.</p>
+				<p id="earth"><b>Earth</b></p>
+				<p id="acid-fog"><b><a href="../spells/acidFog.html#_acid-fog" >Acid Fog</a></b><sup></sup>: Fog deals acid damage.</p>
+				<p id="flesh-to-stone"><b><a href="../spells/fleshToStone.html#_flesh-to-stone" >Flesh to Stone</a></b><sup></sup>: Turns subject creature into statue.</p>
+				<p id="move-earth"><b><a href="../spells/moveEarth.html#_move-earth" >Move Earth</a></b><sup></sup>: Digs trenches and builds hills.</p>
+				<p id="stone-to-flesh"><b><a href="../spells/stoneToFlesh.html#_stone-to-flesh" >Stone to Flesh</a></b><sup></sup>: Restores petrified creature.</p>
+				<p id="wall-of-iron"><b><a href="../spells/wallOfIron.html#_wall-of-iron" >Wall of Iron</a></b><sup>M</sup>: 30 hp/four levels; can topple onto foes.</p>
+				<p id="fire"><b>Fire</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/contagiousFlame.html#_contagious-flame" >Contagious Flame</a></b><sup></sup>: Rays do 4d6 fire damage, then move on to new targets.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sirocco.html#_sirocco" >Sirocco</a></b><sup></sup>: Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.</p>
+				<p id="water"><b>Water</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fluidForm.html#_fluid-form" >Fluid Form</a></b><sup></sup>: Gain DR 10/slashing, increases reach 10 ft., and breathe water.</p>
+				<p id="freezing-sphere"><b><a href="../spells/freezingSphere.html#_freezing-sphere" >Freezing Sphere</a></b><sup></sup>: Freezes water or deals cold damage.</p>
+				<h2 id="7th-level-elementalist-wizard-spells">7th-Level Elementalist Wizard Spells</h2>
+				<p id="all"><b>All</b></p>
+				<p id="elemental-body-iv"><b><a href="../spells/elementalBody.html#_elemental-body-iv" >Elemental Body IV</a></b><sup></sup>: Turns you into a Huge elemental.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation,-mass" >Planar Adaptation, Mass</a></b><sup></sup>: As <i><a href="spells/planarAdaptation.html#_planar-adaptation" >planar adaptation</a></i>, but affects multiple creatures.</p>
+				<p id="summon-monster-vii"><b><a href="../spells/summonMonster.html#_summon-monster-vii" >Summon Monster VII</a></b><sup></sup>: Summons elemental creature to fight for you.</p>
+				<p id="air"><b>Air</b></p>
+				<p id="control-weather"><b><a href="../spells/controlWeather.html#_control-weather" >Control Weather</a></b><sup></sup>: Changes weather in local area.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fly.html#_fly,-mass" >Fly, Mass</a></b><sup></sup>: One creature/level gains ability to fly.</p>
+				<p id="earth"><b>Earth</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/rampart.html#_rampart" >Rampart</a></b><sup></sup>: Creates 5-ft. thick earthen barrier.</p>
+				<p id="reverse-gravity"><b><a href="../spells/reverseGravity.html#_reverse-gravity" >Reverse Gravity</a></b><sup></sup>: Objects and creatures fall upward.</p>
+				<p id="statue"><b><a href="../spells/statue.html#_statue" >Statue</a></b><sup></sup>: Subject can become a statue at will.</p>
+				<p id="fire"><b>Fire</b></p>
+				<p id="delayed-blast-fireball"><b><a href="../spells/delayedBlastFireball.html#_delayed-blast-fireball" >Delayed Blast Fireball</a></b><sup></sup>: 1d6/level fire damage; you can postpone blast for up to 5 rounds.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/firebrand.html#_firebrand" >Firebrand</a></b><sup></sup>: Allies gain <i><a href="../magicItems/weapons.html#_weapons-flaming" >flaming</a></i> weapons, immunity to your fire spells, and a one-use ray of fire attack.</p>
+				<p id="water"><b>Water</b></p>
+				<p id="control-weather"><b><a href="../spells/controlWeather.html#_control-weather" >Control Weather</a></b><sup></sup>: Changes weather in local area.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/vortex.html#_vortex" >Vortex</a></b><sup></sup>: Creates a whirlpool in water.</p>
+				<h2 id="8th-level-elementalist-wizard-spells">8th-Level Elementalist Wizard Spells</h2>
+				<p id="all"><b>All</b></p>
+				<p id="planar-binding,-greater"><b><a href="../spells/planarBinding.html#_planar-binding-greater" >Planar <a href="../spells/binding.html#_binding" >Binding</a>, Greater</a></b><sup></sup>: As <i><a href="../spells/planarBinding.html#_planar-binding-lesser" >lesser planar binding</a></i>, but up to 18 HD.</p>
+				<p id="summon-monster-viii"><b><a href="../spells/summonMonster.html#_summon-monster-viii" >Summon Monster VIII</a></b><sup></sup>: Summons elemental creature to fight for you.</p>
+				<p id="air"><b>Air</b></p>
+				<p id="shout,-greater"><b><a href="../spells/shout.html#_shout-greater" >Shout, Greater</a></b><sup></sup>: Devastating yell deals 10d6 sonic damage; stuns creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stormbolts.html#_stormbolts" >Stormbolts</a></b><sup></sup>: 1d8 damage/level (max 20d8) to targets.</p>
+				<p id="earth"><b>Earth</b></p>
+				<p id="iron-body"><b><a href="../spells/ironBody.html#_iron-body" >Iron Body</a></b><sup></sup>: Your body becomes living iron.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/wallOfLava.html#_wall-of-lava" >Wall of Lava</a></b><sup></sup>: Wall damages foes that try to enter, periodically launches lava at nearby targets.</p>
+				<p id="fire"><b>Fire</b></p>
+				<p id="incendiary-cloud"><b><a href="../spells/incendiaryCloud.html#_incendiary-cloud" >Incendiary Cloud</a></b><sup></sup>: Deals 6d6 fire damage/round.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/wallOfLava.html#_wall-of-lava" >Wall of Lava</a></b><sup></sup>: Wall damages foes that try to enter, periodically launches lava at nearby targets.</p>
+				<p id="water"><b>Water</b></p>
+				<p id="horrid-wilting"><b><a href="../spells/horridWilting.html#_horrid-wilting" >Horrid Wilting</a></b><sup></sup>: Deals 1d6/level damage within 30 ft.</p>
+				<p id="polar-ray"><b><a href="../spells/polarRay.html#_polar-ray" >Polar Ray</a></b><sup></sup>: Ranged touch attack deals 1d6/level cold damage and 1d4 points of Dexterity drain.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/seamantle.html#_seamantle" >Seamantle</a></b><sup></sup>: Sheathes you in protective water.</p>
+				<h2 id="9th-level-elementalist-wizard-spells">9th-Level Elementalist Wizard Spells</h2>
+				<p id="all"><b>All</b></p>
+				<p id="gate"><b><a href="../spells/gate.html#_gate" >Gate</a></b><sup>M</sup>: Connects two planes for travel or summoning.</p>
+				<p id="air"><b>Air</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/suffocation.html#_suffocation,-mass" >Suffocation, Mass</a></b><sup></sup>: One creature/level suffocates.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/windsOfVengeance.html#_winds-of-vengeance" >Winds of Vengeance</a></b><sup></sup>: Gives you the ability to fly and attack with wind.</p>
+				<p id="earth"><b>Earth</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/clashingRocks.html#_clashing-rocks" >Clashing Rocks</a></b><sup></sup>: 20d6 damage to target creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/worldWave.html#_world-wave-" >World Wave</a></b><sup></sup>: Earth moves you across distances.</p>
+				<p id="fire"><b>Fire</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fieryBody.html#_fiery-body" >Fiery Body</a></b><sup></sup>: You gain various fire-related powers.</p>
+				<p id="meteor-swarm"><b><a href="../spells/meteorSwarm.html#_meteor-swarm" >Meteor Swarm</a></b><sup></sup>: Four meteors each deal 6d6 fire damage.</p>
+				<p id="water"><b>Water</b></p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/tsunami.html#_tsunami" >Tsunami</a></b><sup></sup>: Wave damages and sweeps up all in its path.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/worldWave.html#_world-wave-" >World Wave</a></b><sup></sup>: Earth moves you across distances.</p>
+				<h1 id="inquisitor-spells">Inquisitor Spells</h1>
+				<h2 id="0-level-inquisitor-spells">0-Level Inquisitor Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/brand.html#_brand" >Brand</a></b><sup></sup>: Creates permanent brand on target creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sift.html#_sift" >Sift</a></b><sup></sup>: See area as though examining it.</p>
+				<h2 id="1st-level-inquisitor-spells">1st-Level Inquisitor Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/burstBonds.html#_burst-bonds" >Burst Bonds</a></b><sup></sup>: 1d6 damage/level (max 5d6) to restraints.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/tirelessPursuit.html#_tireless-pursuit" >Tireless Pursuit</a></b><sup></sup>: Ignore fatigue while hustling.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/wrath.html#_wrath" >Wrath</a></b><sup></sup>: +1 attack and damage against target creature.</p>
+				<h2 id="2nd-level-inquisitor-spells">2nd-Level Inquisitor Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/bloodhound.html#_bloodhound" >Bloodhound</a></b><sup></sup>: Gives caster the scent special ability.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/castigate.html#_castigate" >Castigate</a></b><sup></sup>: Causes target to be shaken and cower.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/confess.html#_confess" >Confess</a></b><sup></sup>: Creature answers question truthfully or takes 1d6 damage/two levels (max 5d6).</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/corruptionResistance.html#_corruption-resistance" >Corruption Resistance</a></b><sup></sup>: Protects creature against damage from alignment-based attacks.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/flamesOfTheFaithful.html#_flames-of-the-faithful" >Flames of the Faithful</a></b><sup></sup>: Gives weapon <i><a href="../magicItems/weapons.html#_weapons-flaming" >flaming</a></i> property.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/followAura.html#_follow-aura" >Follow Aura</a></b><sup></sup>: Gain ability to follow the trail of the aura of an alignment.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge" >Ghostbane Dirge</a></b><sup></sup>: Incorporeal creature takes half damage from nonmagical weapons.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/honeyedTongue.html#_honeyed-tongue" >Honeyed Tongue</a></b><sup></sup>: Roll 2 dice when using <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a>, take higher roll.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/perceiveCues.html#_perceive-cues" >Perceive Cues</a></b><sup></sup>: +5 <a href="../skills/perception.html#_perception" >Perception</a> and <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> 10 min./level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sacredBond.html#_sacred-bond" >Sacred Bond</a></b><sup>F</sup>: Cast touch healing spells from a distance.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/weaponOfAwe.html#_weapon-of-awe" >Weapon of Awe</a></b><sup></sup>: Weapon gets +2 on damage rolls.</p>
+				<h2 id="3rd-level-inquisitor-spells">3rd-Level Inquisitor Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/banishSeeming.html#_banish-seeming" >Banish Seeming</a></b><sup></sup>: Dispels touched illusion or a creature's change in form.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/bloodBiography.html#_blood-biography-" >Blood Biography</a></b><sup></sup>: Learn about a creature and how it became wounded by examining its blood.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/castOut.html#_cast-out" >Cast Out</a></b><sup></sup>: Does 2d8 damage +1/level (max +15) to creature and dispels an effect.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/coordinatedEffort.html#_coordinated-effort" >Coordinated Effort</a></b><sup></sup>: Grants allies a teamwork feat.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fester.html#_fester" >Fester</a></b><sup></sup>: Gives subject SR 12 + your level vs. healing effects.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hiddenSpeech.html#_hidden-speech" >Hidden Speech</a></b><sup></sup>: Gain +10 on <a href="../skills/bluff.html#_bluff" >Bluff</a> to send secret messages.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hunterSEye.html#_hunter's-eye" >Hunter's Eye</a></b><sup></sup>: +20 on <a href="../skills/perception.html#_perception" >Perception</a> checks to locate a target.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/retribution.html#_retribution" >Retribution</a></b><sup></sup>: Recent attacker is afflicted with penalties.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/righteousVigor.html#_righteous-vigor" >Righteous Vigor</a></b><sup></sup>: Boosts attack bonus with each hit.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/seekThoughts.html#_seek-thoughts" >Seek Thoughts</a></b><sup></sup>: Detects thinking creatures' thoughts.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/wardTheFaithful.html#_ward-the-faithful" >Ward the Faithful</a></b><sup></sup>: Creatures of same faith gain bonuses to AC and on saving throws.</p>
+				<h2 id="4th-level-inquisitor-spells">4th-Level Inquisitor Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/brand.html#_brand,-greater" >Brand, Greater</a></b><sup></sup>: As <i><a href="spells/brand.html#_brand" >brand</a></i>, but brand glows when near your holy symbol.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cowardSLament.html#_coward's-lament" >Coward's Lament</a></b><sup></sup>: If subject doesn't attack you it receives a penalty.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/defileArmor.html#_defile-armor" >Defile Armor</a></b><sup></sup>: As <i><a href="spells/sanctifyArmor.html#_sanctify-armor" >sanctify armor</a></i>, but gain DR 5/good when using judgment or smite.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/denounce.html#_denounce" >Denounce</a></b><sup></sup>: Worsens creatures' attitudes.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/forcedRepentance.html#_forced-repentance" >Forced Repentance</a></b><sup></sup>: Target falls prone and confesses all of its sins.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/rebuke.html#_rebuke" >Rebuke</a></b><sup></sup>: Foes take 1d8 damage/two caster levels (max 5d8).</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sanctifyArmor.html#_sanctify-armor" >Sanctify Armor</a></b><sup></sup>: +1 AC/four levels (max +5).</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sharedWrath.html#_shared-wrath" >Shared Wrath</a></b><sup></sup>: As <i><a href="spells/wrath.html#_wrath" >wrath</a></i>, but affects multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sleepwalk.html#_sleepwalk" >Sleepwalk</a></b><sup>M</sup>: Causes creature to move while asleep.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/tirelessPursuers.html#_tireless-pursuers" >Tireless Pursuers</a></b><sup></sup>: As <i><a href="spells/tirelessPursuit.html#_tireless-pursuit" >tireless pursuit</a></i>, but affects multiple creatures.</p>
+				<h2 id="5th-level-inquisitor-spells">5th-Level Inquisitor Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/castigate.html#_castigate,-mass" >Castigate, Mass</a></b><sup></sup>: As <i><a href="spells/castigate.html#_castigate" >castigate</a></i>, but affects multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge,-mass" >Ghostbane Dirge, Mass</a></b><sup></sup>: As <i><a href="spells/ghostbaneDirge.html#_ghostbane-dirge" >ghostbane dirge</a></i>, but affects multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/resoundingBlow.html#_resounding-blow" >Resounding Blow</a></b><sup></sup>: Melee attack deals 1d6 more damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/unwillingShield.html#_unwilling-shield" >Unwilling Shield</a></b><sup>M</sup>: Subject shares wounds you receive.</p>
+				<h2 id="6th-level-inquisitor-spells">6th-Level Inquisitor Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cleanse.html#_cleanse" >Cleanse</a></b><sup></sup>: As <i><a href="../spells/heal.html#_heal" >heal</a></i>, but only cures 4d8 damage +1/level (max +25).</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fester.html#_fester,-mass" >Fester, Mass</a></b><sup></sup>: As <i><a href="spells/fester.html#_fester" >fester</a></i>, but affecting multiple targets.</p>
+				<h1 id="paladin-spells">Paladin Spells</h1>
+				<h2 id="1st-level-paladin-spells">1st-Level Paladin Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/challengeEvil.html#_challenge-evil" >Challenge Evil</a></b><sup></sup>: Sickens creature if it refuses to fight you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge" >Ghostbane Dirge</a></b><sup></sup>: Incorporeal creature takes half damage from nonmagical weapons.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/grace.html#_grace" >Grace</a></b><sup></sup>: Movement doesn't provoke attacks of opportunity.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/heroSDefiance.html#_hero's-defiance" >Hero's Defiance</a></b><sup></sup>: Allows the use of lay on hands while falling unconscious.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/honeyedTongue.html#_honeyed-tongue" >Honeyed Tongue</a></b><sup></sup>: Roll 2 dice when using <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a>, take higher roll.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/knightSCalling.html#_knight's-calling" >Knight's Calling</a></b><sup></sup>: Forces target to move toward you and fight you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/rallyPoint.html#_rally-point-" >Rally Point</a></b><sup></sup>: Square gives good creatures bonuses.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/veilOfPositiveEnergy.html#_veil-of-positive-energy" >Veil of Positive Energy</a></b><sup></sup>: +2 AC, +2 on saves vs. undead.</p>
+				<h2 id="2nd-level-paladin-spells">2nd-Level Paladin Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/auraOfGreaterCourage.html#_aura-of-greater-courage" >Aura of Greater Courage</a></b><sup></sup>: Increases strength of a paladin's aura of courage.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/bestowGrace.html#_bestow-grace" >Bestow Grace</a></b><sup></sup>: Subject gains bonus on saving throws equal to Cha modifier.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/blessingOfCourageAndLife.html#_blessing-of-courage-and-life" >Blessing of Courage and Life</a></b><sup></sup>: Grants a +2 bonus on saves vs. fear and death.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/corruptionResistance.html#_corruption-resistance" >Corruption Resistance</a></b><sup></sup>: Protects creature against damage from alignment-based attacks.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fireOfEntanglement.html#_fire-of-entanglement" >Fire of Entanglement</a></b><sup></sup>: Your ability to smite evil also entangles your foe.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/instantArmor.html#_instant-armor-" >Instant Armor</a></b><sup></sup>: Summon armor temporarily replacing your current attire.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/lightLance.html#_light-lance-" >Light Lance</a></b><sup></sup>: Creates a soaring beacon of light.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/paladinSSacrifice.html#_paladin's-sacrifice" >Paladin's Sacrifice</a></b><sup></sup>: Take the damage and effects for another creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/righteousVigor.html#_righteous-vigor" >Righteous Vigor</a></b><sup></sup>: Boosts attack bonus with each hit.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sacredBond.html#_sacred-bond" >Sacred Bond</a></b><sup>F</sup>: Cast touch healing spells from a distance.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/saddleSurge.html#_saddle-surge-" >Saddle Surge</a></b><sup></sup>: Bonus damage for moving on mount.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/wakeOfLight.html#_wake-of-light-" >Wake of Light</a></b><sup></sup>: Magical trail aids good creatures, hinders evil ones.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/weaponOfAwe.html#_weapon-of-awe" >Weapon of Awe</a></b><sup></sup>: Weapon gets +2 on damage rolls.</p>
+				<h2 id="3rd-level-paladin-spells">3rd-Level Paladin Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/divineTransfer.html#_divine-transfer" >Divine Transfer</a></b><sup></sup>: Transfer hit points and give DR/evil to target creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fireOfJudgment.html#_fire-of-judgment" >Fire of Judgment</a></b><sup></sup>: Smited creature takes damage when it attacks.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge,-mass" >Ghostbane Dirge, Mass</a></b><sup></sup>: As <i><a href="spells/ghostbaneDirge.html#_ghostbane-dirge" >ghostbane dirge</a></i>, but affects multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/holyWhisper.html#_holy-whisper" >Holy Whisper</a></b><sup></sup>: Whisper sickens evil creatures, gives good creatures bonuses.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/marksOfForbiddance.html#_marks-of-forbiddance" >Marks of Forbiddance</a></b><sup></sup>: Makes 2 creatures pass Will saves in order to attack each other.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sanctifyArmor.html#_sanctify-armor" >Sanctify Armor</a></b><sup></sup>: +1 AC/four levels (max +5).</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/wrathfulMantle.html#_wrathful-mantle" >Wrathful Mantle</a></b><sup></sup>: Subject shines and gets +1/four levels on all saves.</p>
+				<h2 id="4th-level-paladin-spells">4th-Level Paladin Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/blazeOfGlory.html#_blaze-of-glory-" >Blaze of Glory</a></b><sup></sup>: Last stand cures good creatures, hurts evil.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fireOfVengeance.html#_fire-of-vengeance" >Fire of Vengeance</a></b><sup></sup>: Smited creature takes 3d8 damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/forcedRepentance.html#_forced-repentance" >Forced Repentance</a></b><sup></sup>: Target falls prone and confesses sins.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/kingSCastle.html#_king's-castle" >King's Castle</a></b><sup></sup>: Instantly switch places with a single ally.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/oathOfPeace.html#_oath-of-peace" >Oath of Peace</a></b><sup></sup>: Grants +5 AC and DR 10/evil, can't attack.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/resoundingBlow.html#_resounding-blow" >Resounding Blow</a></b><sup></sup>: Melee attack deals 1d6 more damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sacrificialOath.html#_sacrificial-oath" >Sacrificial Oath</a></b><sup></sup>: Take damage for an ally for many rounds.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stayTheHand.html#_stay-the-hand" >Stay the Hand</a></b><sup></sup>: Subject cannot attack with melee weapon.</p>
+				<h1 id="ranger-spells">Ranger Spells</h1>
+				<h2 id="1st-level-ranger-spells">1st-Level Ranger Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >Ant Haul</a></b><sup></sup>: Triples carrying capacity of a creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/aspectOfTheFalcon.html#_aspect-of-the-falcon" >Aspect of the Falcon</a></b><sup></sup>: Gives bonuses on <a href="../skills/perception.html#_perception" >Perception</a> and ranged attacks.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/callAnimal.html#_call-animal" >Call Animal</a></b><sup></sup>: Makes an animal come to you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cloakOfShade.html#_cloak-of-shade" >Cloak of Shade</a></b><sup></sup>: Reduces effects of intense sun exposure and environmental heat.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/dancingLantern.html#_dancing-lantern-" >Dancing Lantern</a></b><sup></sup>: Animates a lantern that follows you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/detectAberration.html#_detect-aberration" >Detect Aberration</a></b><sup></sup>: Detect presence of aberrations.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/featherStep.html#_feather-step" >Feather Step</a></b><sup></sup>: Subject ignores adverse movement effects in difficult terrain.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/glide.html#_glide-" >Glide</a></b><sup></sup>: No fall damage, move 60 ft./round while falling.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/gravityBow.html#_gravity-bow-" >Gravity Bow</a></b><sup></sup>: Arrows do damage as though one size category bigger.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hunterSHowl.html#_hunter's-howl" >Hunter's Howl</a></b><sup></sup>: Treat enemies as favored for 1 round/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/keenSenses.html#_keen-senses" >Keen Senses</a></b><sup></sup>: Subject gains +2 <a href="../skills/perception.html#_perception" >Perception</a>, low-light vision.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/leadBlades.html#_lead-blades-" >Lead Blades</a></b><sup></sup>: Melee weapons damage as if one size bigger.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/negateAroma.html#_negate-aroma" >Negate Aroma</a></b><sup></sup>: Subject cannot be tracked by scent.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/residualTracking.html#_residual-tracking" >Residual Tracking</a></b><sup></sup>: Tell creature's appearance by footprint.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/tirelessPursuit.html#_tireless-pursuit" >Tireless Pursuit</a></b><sup></sup>: Ignore fatigue while hustling.</p>
+				<h2 id="2nd-level-ranger-spells">2nd-Level Ranger Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/acceleratePoison.html#_accelerate-poison" >Accelerate Poison</a></b><sup></sup>: Hastens targeted poison's onset.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/allfood.html#_allfood-" >Allfood</a></b><sup></sup>: Turns item up to 5 lbs./level into food.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/arrowEruption.html#_arrow-eruption-" >Arrow Eruption</a></b><sup></sup>: Creates duplicates of an arrow used to kill a creature in the previous round.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/aspectOfTheBear.html#_aspect-of-the-bear" >Aspect of the Bear</a></b><sup></sup>: +2 AC and combat maneuver rolls.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/bloodhound.html#_bloodhound" >Bloodhound</a></b><sup></sup>: Gives caster the scent special ability.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/campfireWall.html#_campfire-wall-" >Campfire Wall</a></b><sup></sup>: Creates a shelter around a campfire.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/chameleonStride.html#_chameleon-stride" >Chameleon Stride</a></b><sup></sup>: Gives a +4 bonus on <a href="../skills/stealth.html#_stealth" >Stealth</a> checks and concealment.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/createTreasureMap.html#_create-treasure-map-" >Create Treasure Map</a></b><sup>M</sup>: Creates treasure map out of a creature's corpse.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/eagleEye.html#_eagle-eye" >Eagle Eye</a></b><sup></sup>: Creates a magical sensor high above you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/guidingStar.html#_guiding-star-" >Guiding Star</a></b><sup></sup>: Know approximate distance from where you cast this spell.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hideCampsite.html#_hide-campsite" >Hide Campsite</a></b><sup></sup>: Hides all traces of your campsite.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hunterSEye.html#_hunter's-eye" >Hunter's Eye</a></b><sup></sup>: +20 on <a href="../skills/perception.html#_perception" >Perception</a> checks to locate a target.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/lockjaw.html#_lockjaw" >Lockjaw</a></b><sup></sup>: Gives creature grab ability with a natural attack.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/perceiveCues.html#_perceive-cues" >Perceive Cues</a></b><sup></sup>: +5 <a href="../skills/perception.html#_perception" >Perception</a> and <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> 10 min./level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/protectiveSpirit.html#_protective-spirit" >Protective Spirit</a></b><sup></sup>: Protects from attacks of opportunity.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/slipstream.html#_slipstream" >Slipstream</a></b><sup></sup>: Wave boosts creature's speed.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stoneCall.html#_stone-call" >Stone Call</a></b><sup></sup>: 2d6 damage to all creatures in area.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/versatileWeapon.html#_versatile-weapon" >Versatile Weapon</a></b><sup></sup>: Weapon bypasses some DR.</p>
+				<h2 id="3rd-level-ranger-spells">3rd-Level Ranger Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/aspectOfTheStag.html#_aspect-of-the-stag" >Aspect of the Stag</a></b><sup></sup>: +2 AC against attacks of opportunity and increases speed.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/bloodyClaws.html#_bloody-claws" >Bloody Claws</a></b><sup></sup>: Gives creature the ability to deal bleed damage with natural attacks.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cloakOfWinds.html#_cloak-of-winds" >Cloak of Winds</a></b><sup></sup>: Creates a whirling screen of strong wind around you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/featherStep.html#_feather-step,-mass" >Feather Step, Mass</a></b><sup></sup>: As <i><a href="spells/featherStep.html#_feather-step" >feather step</a></i>, but affects many targets rather than one.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/instantEnemy.html#_instant-enemy" >Instant Enemy</a></b><sup></sup>: Target is treated as a favored enemy type of your choice.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/lifeBubble.html#_life-bubble-" >Life Bubble</a></b><sup></sup>: Protects creatures from sustained environmental effects.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/strongJaw.html#_strong-jaw" >Strong Jaw</a></b><sup></sup>: Natural attacks damage as two sizes bigger.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/tirelessPursuers.html#_tireless-pursuers" >Tireless Pursuers</a></b><sup></sup>: As <i><a href="spells/tirelessPursuit.html#_tireless-pursuit" >tireless pursuit</a></i>, but affects many targets rather than one.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/venomousBolt.html#_venomous-bolt" >Venomous Bolt</a></b><sup></sup>: Arrow or bolt poisons target.</p>
+				<h2 id="4th-level-ranger-spells">4th-Level Ranger Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/aspectOfTheWolf.html#_aspect-of-the-wolf" >Aspect of the Wolf</a></b><sup></sup>: Subject gains +4 Str and Dex, and +2 bonus on trip attacks.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/blessingOfTheSalamander.html#_blessing-of-the-salamander" >Blessing of the Salamander</a></b><sup></sup>: Subject gets fast healing 2, fire resistance 10, +2 CMD.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/bowSpirit.html#_bow-spirit" >Bow Spirit</a></b><sup></sup>: Summons an invisible spirit that fires your arrows for you as a swift action.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/groveOfRespite.html#_grove-of-respite" >Grove of Respite</a></b><sup></sup>: Creates trees and a small spring.</p>
+				<h1 id="sorcerer-wizard-spells">Sorcerer/Wizard Spells</h1>
+				<h2 id="0-level-sorcerer-wizard-spells">0-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/spark.html#_spark-" >Spark</a></b><sup></sup>: Ignites flammable objects.</p>
+				<h2 id="1st-level-sorcerer-wizard-spells">1st-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/alterWinds.html#_alter-winds" >Alter Winds</a></b><sup></sup>: Increase/decrease strength of natural winds.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >Ant Haul</a></b><sup></sup>: Triples carrying capacity of a creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/break.html#_break-" >Break</a></b><sup></sup>: Gives an object the broken condition.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/crafterSCurse.html#_crafter's-curse" >Crafter's Curse</a></b><sup></sup>: Subject takes &ndash;5 on <a href="../skills/craft.html#_craft" >Craft</a> skill checks.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/crafterSFortune.html#_crafter's-fortune" >Crafter's Fortune</a></b><sup></sup>: Subject gains +5 on next <a href="../skills/craft.html#_craft" >Craft</a> check.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/dancingLantern.html#_dancing-lantern-" >Dancing Lantern</a></b><sup></sup>: Animates a lantern that follows you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/expeditiousExcavation.html#_expeditious-excavation" >Expeditious Excavation</a></b><sup></sup>: Moves 5-ft. cubes of earth.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/flareBurst.html#_flare-burst" >Flare Burst</a></b><sup></sup>: As <i><a href="../spells/flare.html#_flare" >flare</a></i>, but affects all creatures in 10 ft.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/gravityBow.html#_gravity-bow-" >Gravity Bow</a></b><sup></sup>: Arrows do damage as though one size category bigger.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hydraulicPush.html#_hydraulic-push-" >Hydraulic Push</a></b><sup></sup>: Wave of water bull rushes an enemy.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/memoryLapse.html#_memory-lapse" >Memory Lapse</a></b><sup></sup>: Subject forgets events back to last turn.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sculptCorpse.html#_sculpt-corpse-" >Sculpt Corpse</a></b><sup></sup>: Makes corpse look like another creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stoneFist.html#_stone-fist" >Stone Fist</a></b><sup></sup>: Your unarmed strikes are lethal.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stumbleGap.html#_stumble-gap-" >Stumble Gap</a></b><sup>F</sup>: Small hole trips creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/touchOfGracelessness.html#_touch-of-gracelessness" >Touch of Gracelessness</a></b><sup></sup>: Subject loses 1d6 + 1 Dex/two levels and is prone to falling down.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/touchOfTheSea.html#_touch-of-the-sea" >Touch of the Sea</a></b><sup></sup>: <a href="../skills/swim.html#_swim" >Swim</a> speed becomes 30 ft.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/vanish.html#_vanish" >Vanish</a></b><sup></sup>: As <i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i> for 1 round/level (5 max).</p>
+				<h2 id="2nd-level-sorcerer-wizard-spells">2nd-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/acceleratePoison.html#_accelerate-poison" >Accelerate Poison</a></b><sup></sup>: Hastens targeted poison's onset.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/arrowEruption.html#_arrow-eruption-" >Arrow Eruption</a></b><sup></sup>: Creates duplicates of killing arrow.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/burningGaze.html#_burning-gaze" >Burning Gaze</a></b><sup></sup>: Inflict 1d6 fire damage to creature by looking at it.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/createPit.html#_create-pit-" >Create Pit</a></b><sup>F</sup>: Creates an extradimensional pit.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/createTreasureMap.html#_create-treasure-map-" >Create Treasure Map</a></b><sup>M</sup>: Creates treasure map out of a creature's corpse.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/dustOfTwilight.html#_dust-of-twilight" >Dust of Twilight</a></b><sup></sup>: Black particles extinguish light sources within area.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/elementalSpeech.html#_elemental-speech" >Elemental Speech</a></b><sup></sup>: Enables you to speak to elementals and some creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/elementalTouch.html#_elemental-touch" >Elemental Touch</a></b><sup></sup>: Gain energy damage touch attack.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fireBreath.html#_fire-breath" >Fire Breath</a></b><sup></sup>: Exhale a cone of flame at will.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/glide.html#_glide-" >Glide</a></b><sup></sup>: You take no falling damage, move 60 ft./round while falling.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-" >Share Language</a></b><sup></sup>: Subject understands chosen language.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/slipstream.html#_slipstream" >Slipstream</a></b><sup></sup>: Wave boosts creature's speed.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stoneCall.html#_stone-call" >Stone Call</a></b><sup></sup>: 2d6 damage to all creatures in area.</p>
+				<h2 id="3rd-level-sorcerer-wizard-spells">3rd-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/aqueousOrb.html#_aqueous-orb" >Aqueous Orb</a></b><sup></sup>: Creates rolling sphere of water.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/bloodBiography.html#_blood-biography-" >Blood Biography</a></b><sup></sup>: Learn about a creature with its blood.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/campfireWall.html#_campfire-wall-" >Campfire Wall</a></b><sup></sup>: Creates a shelter around a campfire.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cloakOfWinds.html#_cloak-of-winds" >Cloak of Winds</a></b><sup></sup>: Creates a screen of wind around you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/devolution.html#_devolution" >Devolution</a></b><sup></sup>: Target eidolon temporarily loses 1 evolution +1/five levels.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/draconicReservoir.html#_draconic-reservoir-" >Draconic Reservoir</a></b><sup></sup>: Subject can absorb energy damage and enhance melee attacks with it.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/elementalAura.html#_elemental-aura" >Elemental Aura</a></b><sup></sup>: Creates an aura of energy around you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/enterImage.html#_enter-image-" >Enter Image</a></b><sup></sup>: Transfers your consciousness to an object bearing your likeness.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hydraulicTorrent.html#_hydraulic-torrent-" >Hydraulic Torrent</a></b><sup></sup>: Creates torrent of water that bull rushes any creature in its path.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/painStrike.html#_pain-strike" >Pain Strike</a></b><sup></sup>: Inflicts 1d6 nonlethal damage 1 round/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/seekThoughts.html#_seek-thoughts" >Seek Thoughts</a></b><sup></sup>: Detects thinking creatures' thoughts.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/shiftingSand.html#_shifting-sand" >Shifting Sand</a></b><sup></sup>: Creates difficult terrain and erases tracks, can carry along some creatures and objects.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/spikedPit.html#_spiked-pit" >Spiked Pit</a></b><sup>F</sup>: As <i><a href="spells/createPit.html#_create-pit-" >create pit</a></i>, but filled with spikes.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/twilightKnife.html#_twilight-knife-" >Twilight Knife</a></b><sup></sup>: Floating knife attacks with you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/versatileWeapon.html#_versatile-weapon" >Versatile Weapon</a></b><sup></sup>: Weapon bypasses some DR.</p>
+				<h2 id="4th-level-sorcerer-wizard-spells">4th-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/acidPit.html#_acid-pit-" >Acid Pit</a></b><sup>F</sup>: Creates a pit with a layer of acid on the bottom.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/ballLightning.html#_ball-lightning" >Ball Lightning</a></b><sup></sup>: Flying balls of lightning deal 3d6 electricity damage each.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/calcificTouch.html#_calcific-touch" >Calcific Touch</a></b><sup></sup>: Touch attack slows target, 1d4 Dex damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/detonate.html#_detonate" >Detonate</a></b><sup>M</sup>: Inflicts 1d8/level energy damage to all creatures within 15 ft.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/dragonSBreath.html#_dragon's-breath" >Dragon's Breath</a></b><sup></sup>: Gives you a dragon's breath weapon.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/firefall.html#_firefall" >Firefall</a></b><sup></sup>: Causes fire to burst up, dealing 2d6 fire damage.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/moonstruck.html#_moonstruck" >Moonstruck</a></b><sup></sup>: Subject is enraged and confused.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/riverOfWind.html#_river-of-wind" >River of Wind</a></b><sup></sup>: A stream of wind causes nonlethal damage and can knock down or push creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/shadowProjection.html#_shadow-projection" >Shadow Projection</a></b><sup></sup>: Temporarily become a shadow.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/shareSenses.html#_share-senses" >Share Senses</a></b><sup></sup>: See/hear/smell what your familiar is.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/trueForm.html#_true-form" >True Form</a></b><sup></sup>: Removes polymorph effects.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/wanderingStarMotes.html#_wandering-star-motes" >Wandering Star Motes</a></b><sup></sup>: Outlines subject and produces light as a sunrod.</p>
+				<h2 id="5th-level-sorcerer-wizard-spells">5th-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fireSnake.html#_fire-snake" >Fire Snake</a></b><sup></sup>: Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/geyser.html#_geyser-" >Geyser</a></b><sup></sup>: Creates a geyser of boiling water.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hungryPit.html#_hungry-pit-" >Hungry Pit<sup>F</sup></a></b><sup></sup>: As <i><a href="spells/createPit.html#_create-pit-" >create pit</a></i>, but dealing 4d6 damage to those in it as it closes.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/lifeBubble.html#_life-bubble-" >Life Bubble</a></b><sup></sup>: Protects creatures from sustained environmental effects.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/painStrike.html#_pain-strike,-mass" >Pain Strike, Mass</a></b><sup></sup>: As <i>pain</i>, but affects multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/phantasmalWeb.html#_phantasmal-web" >Phantasmal Web</a></b><sup></sup>: Catches subjects in illusory web.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation" >Planar Adaptation</a></b><sup></sup>: Resist harmful effects of other plane.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/suffocation.html#_suffocation" >Suffocation</a></b><sup></sup>: Target quickly suffocates to death.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/treasureStitching.html#_treasure-stitching-" >Treasure Stitching</a></b><sup>M</sup>: Objects on cloth become embroidered.</p>
+				<h2 id="6th-level-sorcerer-wizard-spells">6th-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cloakOfDreams.html#_cloak-of-dreams" >Cloak of Dreams</a></b><sup></sup>: Creatures within 5 ft. fall asleep.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/contagiousFlame.html#_contagious-flame" >Contagious Flame</a></b><sup></sup>: Scorching rays cause 4d6 fire damage, then move on to new targets.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/enemyHammer.html#_enemy-hammer-" >Enemy Hammer</a></b><sup></sup>: Allows you to telekinetically use a creature as a weapon.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fluidForm.html#_fluid-form" >Fluid Form</a></b><sup></sup>: Gain DR 10/slashing, increases reach 10 ft., and breathe water.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/getaway.html#_getaway-" >Getaway</a></b><sup></sup>: Teleports you and select creatures to predetermined location.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sirocco.html#_sirocco" >Sirocco</a></b><sup></sup>: Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/unwillingShield.html#_unwilling-shield" >Unwilling Shield</a></b><sup>M</sup>: Subject shares wounds you receive.</p>
+				<h2 id="7th-level-sorcerer-wizard-spells">7th-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/deflection.html#_deflection-" >Deflection</a></b><sup></sup>: Attacks that miss are redirected back to the source of the attack.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/expend.html#_expend-" >Expend</a></b><sup></sup>: Wastes creatures' limited use magical ability.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/firebrand.html#_firebrand" >Firebrand</a></b><sup></sup>: Allies gain <i><a href="../magicItems/weapons.html#_weapons-flaming" >flaming</a></i> weapons, immunity to your fire spells, and a one-use ray of fire attack.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fly.html#_fly,-mass" >Fly, Mass</a></b><sup></sup>: One creature/level gains ability to fly.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/phantasmalRevenge.html#_phantasmal-revenge" >Phantasmal Revenge</a></b><sup></sup>: Ghost from corpse hunts killer.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation,-mass" >Planar Adaptation, Mass</a></b><sup></sup>: As <i><a href="spells/planarAdaptation.html#_planar-adaptation" >planar adaptation</a></i>, but affects multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/rampart.html#_rampart" >Rampart</a></b><sup></sup>: Creates 5-ft.-thick earthen barrier.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/vortex.html#_vortex" >Vortex</a></b><sup></sup>: Creates a whirlpool in water.</p>
+				<h2 id="8th-level-sorcerer-wizard-spells">8th-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/euphoricTranquility.html#_euphoric-tranquility" >Euphoric Tranquility</a></b><sup></sup>: Makes a creature friendly.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/seamantle.html#_seamantle" >Seamantle</a></b><sup></sup>: Sheathes you in protective water.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stormbolts.html#_stormbolts" >Stormbolts</a></b><sup></sup>: 1d8 damage/level (max 20d8) to targets.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/wallOfLava.html#_wall-of-lava" >Wall of Lava</a></b><sup></sup>: Wall damages foes that try to enter, periodically launches lava at nearby targets.</p>
+				<h2 id="9th-level-sorcerer-wizard-spells">9th-Level Sorcerer/Wizard Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/clashingRocks.html#_clashing-rocks" >Clashing Rocks</a></b><sup></sup>: 20d6 damage to target creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fieryBody.html#_fiery-body" >Fiery Body</a></b><sup></sup>: You gain various fire-related powers.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/suffocation.html#_suffocation,-mass" >Suffocation, Mass</a></b><sup></sup>: One creature/level suffocates to death.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/tsunami.html#_tsunami" >Tsunami</a></b><sup></sup>: Huge wave damages and sweeps up all in its path.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/wallOfSuppression.html#_wall-of-suppression-" >Wall of Suppression</a></b><sup>M</sup>: Creates wall that disables magic. </p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/windsOfVengeance.html#_winds-of-vengeance" >Winds of Vengeance</a></b><sup></sup>: Gives you the ability to fly and attack with wind.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/worldWave.html#_world-wave-" >World Wave</a></b><sup></sup>: Earth moves you across distances.</p>
+				<h1 id="summoner-spells">Summoner Spells</h1>
+				<h2 id="1st-level-summoner-spells">1st-Level Summoner Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-" >Ant Haul</a></b><sup></sup>: Triples carrying capacity of a creature.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/rejuvenateEidolon.html#_rejuvenate-eidolon,-lesser" >Rejuvenate Eidolon, Lesser</a></b><sup></sup>: Eidolon cured 1d10 damage +1/level (max +5).</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/unfetter.html#_unfetter" >Unfetter</a></b><sup></sup>: Remove distance restriction on eidolon.</p>
+				<h2 id="2nd-level-summoner-spells">2nd-Level Summoner Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/createPit.html#_create-pit-" >Create Pit</a></b><sup>F</sup>: Creates an extradimensional pit.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/evolutionSurge.html#_evolution-surge,-lesser" >Evolution Surge, Lesser</a></b><sup></sup>: Grants eidolon an evolution with 2 evolution points.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/glide.html#_glide-" >Glide</a></b><sup></sup>: You take no falling damage and move 60 ft./round while falling.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/summonEidolon.html#_summon-eidolon" >Summon Eidolon</a></b><sup></sup>: Instantly summons your eidolon for duration of spell.</p>
+				<h2 id="3rd-level-summoner-spells">3rd-Level Summoner Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/aqueousOrb.html#_aqueous-orb" >Aqueous Orb</a></b><sup></sup>: Creates rolling sphere of water.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/devolution.html#_devolution" >Devolution</a></b><sup></sup>: An eidolon temporarily loses 1 evolution +1/five levels.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/evolutionSurge.html#_evolution-surge" >Evolution Surge</a></b><sup></sup>: Grants eidolon an evolution with 4 evolution points.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/rejuvenateEidolon.html#_rejuvenate-eidolon" >Rejuvenate Eidolon</a></b><sup></sup>: As <i><a href="spells/rejuvenateEidolon.html#_rejuvenate-eidolon,-lesser" >lesser rejuvenate eidolon</a></i>, but cures 3d10 damage +1/level (max +10).</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/seekThoughts.html#_seek-thoughts" >Seek Thoughts</a></b><sup></sup>: Detects creatures in the area thinking about something.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/spikedPit.html#_spiked-pit" >Spiked Pit</a></b><sup>F</sup>: As <i><a href="spells/createPit.html#_create-pit-" >create pit</a></i>, but filled with spikes.</p>
+				<h2 id="4th-level-summoner-spells">4th-Level Summoner Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/acidPit.html#_acid-pit-" >Acid Pit</a></b><sup>M</sup>: Creates a pit with a layer of acid on the bottom.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/evolutionSurge.html#_evolution-surge,-greater" >Evolution Surge, Greater</a></b><sup></sup>: Grants eidolon two evolutions with a total of 6 evolution points.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/purifiedCalling.html#_purified-calling" >Purified Calling</a></b><sup></sup>: Eidolon summoned is fully healed.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/transmogrify.html#_transmogrify" >Transmogrify</a></b><sup>M</sup>: Change your eidolon's evolutions.</p>
+				<h2 id="5th-level-summoner-spells">5th-Level Summoner Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hungryPit.html#_hungry-pit-" >Hungry Pit<sup>F</sup></a></b><sup></sup>: As <i><a href="spells/createPit.html#_create-pit-" >create pit</a></i>, but dealing 4d6 damage to those in it as it closes.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation" >Planar Adaptation</a></b><sup></sup>: Resist harmful effects of other plane.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/rejuvenateEidolon.html#_rejuvenate-eidolon,-greater" >Rejuvenate Eidolon, Greater</a></b><sup></sup>: As <i><a href="spells/rejuvenateEidolon.html#_rejuvenate-eidolon,-lesser" >lesser rejuvenate eidolon</a></i>, but cures 5d10 damage +1/level (max +20).</p>
+				<h2 id="6th-level-summoner-spells">6th-Level Summoner Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation,-mass" >Planar Adaptation, Mass</a></b><sup></sup>: As <i><a href="spells/planarAdaptation.html#_planar-adaptation" >planar adaptation</a></i>, but affects multiple creatures.</p>
+				<h1 id="witch-spells">Witch Spells</h1>
+				<h2 id="0-level-witch-spells">0-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/putrefyFoodAndDrink.html#_putrefy-food-and-drink" >Putrefy Food and Drink</a></b><sup></sup>: Makes food and water inedible.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/spark.html#_spark-" >Spark</a></b><sup></sup>: Ignites flammable objects.</p>
+				<h2 id="1st-level-witch-spells">1st-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/beguilingGift.html#_beguiling-gift" >Beguiling Gift</a></b><sup></sup>: Subject immediately accepts an offered item and uses it.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/dancingLantern.html#_dancing-lantern-" >Dancing Lantern</a></b><sup></sup>: Animates a lantern that follows you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/illOmen.html#_ill-omen" >Ill Omen</a></b><sup></sup>: Target rolls twice for checks and attacks and uses worst roll.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/maskDweomer.html#_mask-dweomer" >Mask Dweomer</a></b><sup></sup>: Hides presence of a spell from d<i>etect magic</i>.</p>
+				<h2 id="2nd-level-witch-spells">2nd-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/burningGaze.html#_burning-gaze" >Burning Gaze</a></b><sup></sup>: Inflict 1d6 fire damage to creature by looking at it.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/feastOfAshes.html#_feast-of-ashes" >Feast of Ashes</a></b><sup></sup>: A target starves with an insatiable hunger.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fester.html#_fester" >Fester</a></b><sup></sup>: Gives subject SR 12 + your level vs. healing effects.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/glide.html#_glide-" >Glide</a></b><sup></sup>: You take no falling damage and move 60 ft./round while falling.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/hiddenSpeech.html#_hidden-speech" >Hidden Speech</a></b><sup></sup>: Gain +10 on <a href="../skills/bluff.html#_bluff" >Bluff</a> to send secret messages.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/perceiveCues.html#_perceive-cues" >Perceive Cues</a></b><sup></sup>: +5 <a href="../skills/perception.html#_perception" >Perception</a> and <a href="../skills/senseMotive.html#_sense-motive" >Sense Motive</a> 10 min./level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/poxPustules.html#_pox-pustules" >Pox Pustules</a></b><sup></sup>: Subject is sickened and has &ndash;4 Dex.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/vomitSwarm.html#_vomit-swarm" >Vomit Swarm</a></b><sup></sup>: Produces a spider swarm that fights for you.</p>
+				<h2 id="3rd-level-witch-spells">3rd-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cupOfDust.html#_cup-of-dust" >Cup of Dust</a></b><sup></sup>: Causes a creature to become dehydrated.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/guidingStar.html#_guiding-star-" >Guiding Star</a></b><sup></sup>: Know approximate distance from where you cast this spell.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/natureSExile.html#_nature's-exile" >Nature's Exile</a></b><sup></sup>: Gives subject &ndash;10 on <a href="../skills/survival.html#_survival" >Survival</a> checks.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/painStrike.html#_pain-strike" >Pain Strike</a></b><sup></sup>: Inflicts 1d6 nonlethal damage 1 round/level.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/screech.html#_screech" >Screech</a></b><sup></sup>: Foes provoke attacks of opportunity.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/seekThoughts.html#_seek-thoughts" >Seek Thoughts</a></b><sup></sup>: Detects thinking creatures' thoughts.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/shareSenses.html#_share-senses" >Share Senses</a></b><sup></sup>: Perceive the world around your familiar.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/twilightKnife.html#_twilight-knife-" >Twilight Knife</a></b><sup></sup>: Floating knife attacks with you.</p>
+				<h2 id="4th-level-witch-spells">4th-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/moonstruck.html#_moonstruck" >Moonstruck</a></b><sup></sup>: Subject is enraged and confused.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/sleepwalk.html#_sleepwalk" >Sleepwalk</a></b><sup>M</sup>: Causes creature to move while asleep.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/spite.html#_spite" >Spite</a></b><sup>M</sup>: Inflict touch spell upon creature that attacks you.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/threefoldAspect.html#_threefold-aspect" >Threefold Aspect</a></b><sup>F</sup>: Appear older or younger.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/wanderingStarMotes.html#_wandering-star-motes" >Wandering Star Motes</a></b><sup></sup>: Outlines subject and produces light as a sunrod.</p>
+				<h2 id="5th-level-witch-spells">5th-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/banishSeeming.html#_banish-seeming" >Banish Seeming</a></b><sup></sup>: Dispels touched illusion or a creature's change in form.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/painStrike.html#_pain-strike,-mass" >Pain Strike, Mass</a></b><sup></sup>: As <i><a href="spells/painStrike.html#_pain-strike" >pain strike</a></i>, but affects multiple creatures.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/restEternal.html#_rest-eternal" >Rest Eternal</a></b><sup>M</sup>: Dead creature cannot be revived.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/suffocation.html#_suffocation" >Suffocation</a></b><sup></sup>: Target quickly suffocates to death.</p>
+				<h2 id="6th-level-witch-spells">6th-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/cloakOfDreams.html#_cloak-of-dreams" >Cloak of Dreams</a></b><sup></sup>: Causes living creatures within 5 ft. to fall asleep.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/fester.html#_fester,-mass" >Fester, Mass</a></b><sup></sup>: As <i><a href="spells/fester.html#_fester" >fester</a></i>, but affecting multiple targets.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/swarmSkin.html#_swarm-skin-" >Swarm Skin</a></b><sup></sup>: Turns your body into a swarm of vermin.</p>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/unwillingShield.html#_unwilling-shield" >Unwilling Shield</a></b><sup>M</sup>: Subject shares wounds you receive.</p>
+				<h2 id="8th-level-witch-spells">8th-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/stormbolts.html#_stormbolts" >Stormbolts</a></b><sup></sup>: 1d8 damage/level (max 20d8) to targets.</p>
+				<h2 id="9th-level-witch-spells">9th-Level Witch Spells</h2>
+				<p><b><a href="/pathfinderRPG/prd/advanced/spells/suffocation.html#_suffocation,-mass" >Suffocation, Mass</a></b><sup></sup>: One creature/level suffocates to death.</p>
+			</div>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

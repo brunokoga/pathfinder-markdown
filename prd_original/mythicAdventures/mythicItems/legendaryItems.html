@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Legendary Items</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Legendary Items",globalNavPath=[{ href: '/pathfinderRPG/prd/mythicAdventures/mythicItems.html', name: 'Mythic Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="legendary-items">Legendary Items</h1>
+<p>Mythic heroes are known for their trials and the incredible deeds they accomplish during those trials. These trials are often acts of great courage or defiance in the face of insurmountable adversity. Many legendary magic items become so intrinsically tied to a hero's trials that it's hard to separate the legend of the hero from the legend of the item.</p>
+<p>Legendary items often start out as simple magic items, but can grow in power to become artifacts in their own right. Even long after their creators pass away, they influence events, becoming instrumental in the creation of future legends.</p>
+
+<p class="shortcutBarSmlLink"><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems/legendaryItems.html#_legendary-artifacts" style="padding-right: 1em;">Legendary Artifacts</a> <a href="/pathfinderRPG/prd/mythicAdventures/mythicItems/legendaryItems.html#_base-legendary-abilities" style="padding-right: 1em;">Base Legendary Abilities</a> <a href="/pathfinderRPG/prd/mythicAdventures/mythicItems/legendaryItems.html#_legendary-item-abilities">Legendary Item Abilities</a></p>
+
+<h2 id="becoming-legendary">Becoming Legendary</h2>
+<p>Legendary items are magic items that transcend mere magic and become tied to mythic destiny. Though all are powerful, some become even greater magical objects&mdash;minor and major artifacts.</p>
+<p>Paralleling the trajectory of a mythic character, a legendary item begins as a normal magic item that ascends to something greater. Typically this ascension occurs when a character first takes the <a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html#_legendary-item">legendary item universal path ability</a>, but this isn't always the case. Deities, the servants of deities, peculiar chance, magical experimentation, and destiny can serve as catalysts for legendary item ascension. Such items can be bestowed upon the worthy or found by the lucky.</p>
+<p>Legendary items are always non-consumable magic items, and are typically magic weapons, magic armor, or magic items that take up an item slot (though there are a few legendary items that don't take up slots). Even vehicles and siege weapons can become legendary items.</p>
+
+<h2 id="legendary-artifacts">Legendary Artifacts</h2>
+<p>When a magic item ascends to legendary status, it gains the suite of base legendary abilities and can have up to three additional legendary abilities. By selecting the legendary item universal path ability more than once, a mythic creature can transform a normal legendary item into either a minor artifact (if the character chooses it a second time) or a major artifact (if the character chooses it a third time). A minor artifact legendary item can have up to six additional legendary abilities, and gains the difficult to destroy ability (see below). A major artifact legendary item can have up to 10 additional legendary abilities and gains the difficult to destroy ability.</p>
+<p><b>Difficult to Destroy</b>: An artifact can't be destroyed by normal means. Though a minor artifact has hit points and can be broken, it can't be destroyed by taking additional hit point damage. A major artifact is immune to hit point damage and can't gain the broken condition. Instead of being destroyed by taking hit point damage, both minor and major artifacts are instead destroyed when a creature successfully performs a very specific and often difficult task. The GM gets to determine what action is necessary to destroy the artifact, and should look to other artifacts' destruction entries for inspiration.</p>
+
+<h2 id="base-legendary-abilities">Base Legendary Abilities</h2>
+<p>Base legendary abilities affect the item's bearer, whether the item is wielded, worn, carried, or otherwise used. All legendary items have the following abilities, which don't count against the maximum number of legendary abilities an item can have or the maximum number of abilities the item's bearer can use.</p>
+<p><b>Mythic Bond</b>: A legendary item is typically bonded to a single mythic creature. Others can pick up and use a legendary item for its basic functions (like hitting a foe with a legendary mace), but only the creature bonded to the item can utilize it fully.</p>
+<p>A mythic creature can be bonded to only one legendary item at a time. If a mythic creature is already bonded to a legendary item, she can't become bonded to another item until the previous bond is broken. Likewise, a legendary item that is already bonded to a mythic creature can't be bonded to another until the former bond is broken.</p>
+<p>Creatures that aren't bonded to the legendary item can typically use all of its special abilities that aren't legendary item abilities. Such creatures can also use the item's legendary surge base legendary ability, but only by using the item's reservoir of legendary power. They can't use any other legendary item abilities requiring an expenditure of legendary power, though some legendary item abilities (such as intelligence) are persistent abilities, which means they continue to function whether the user is bonded to the item or not.</p>
+<p>A mythic creature bonded to a legendary item can use a number of that item's legendary abilities equal to or less than her tier. If the legendary item has more legendary abilities than the bonded creature has tiers, the creature can select which abilities it gains access to when it first wields, wears, or possesses the item, but must select all of the persistent abilities first, after which it can select non-persistent abilities. For example, if a legendary item has the intelligence ability along with other non-persistent abilities, a 1st-tier character can't manifest any of its powers other than intelligence until she gains another tier.</p>
+<p>If the bonded creature has taken the legendary item universal path ability a sufficient number of times, she can add legendary abilities to the item.</p>
+<p>Lastly, a bonded creature can expend uses of her mythic power to activate an item's legendary abilities that otherwise require uses of legendary power. One use of the creature's mythic power counts as one use of the item's legendary power.</p>
+<p>A mythic creature becomes bonded with an item either when she makes the item ascend using the legendary item universal path ability, or when she completes a trial while wielding, wearing, or carrying the item. The nature of the trial needed to bond with a legendary item and any other prerequisites for bonding are determined by the GM.</p>
+<p>The bond between a mythic creature and a legendary item can be broken in the following ways. If the bonded creature dies, the bond is broken. If that creature comes back to life, the bond is typically not reinstated unless the item has the eternal bond ability. The bonded creature can also relinquish the bond. Doing so requires a special ritual that takes 24 hours to perform, though the GM might add other requirements. If the bonded creature becomes non-mythic, the bond is broken. Lastly, the bond is broken if a legendary item gains the broken condition.</p>
+<p><b>Legendary Power</b>: All legendary items contain a pool of power&mdash;at least two uses that recharge each day. This power is called legendary power, and it works differently than mythic power. Any creature bearing the item can expend the items uses of legendary power, whether or not that creature is mythic. These uses of legendary power can be expended only to activate the legendary item's abilities. If the item's bearer isn't bonded to the item, she can expend the item's legendary power only to use its legendary surge ability.</p>
+<p><b>Legendary Surge</b>: All legendary items have a <a href="#_legendary-surge">legendary surge ability</a>, similar to a mythic character's surge ability. It can be used only on specific rolls or checks based on the nature or purpose of the legendary item&mdash;see <a href="#_legendary-surge">Legendary Surge</a>.</p>
+<p>The legendary surge ability allows the bearer to add the result of a d6 to the appropriate type of roll or check. A mythic bearer can use her surge die type in place of the d6. If she's bonded to the item, she can increase that die type by one step.</p>
+
+<h2 id="legendary-item-abilities">Legendary Item Abilities</h2>
+<p>When a mythic creature creates a legendary item (using the <a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html#_legendary-item">legendary item universal path ability</a>), the item can have up to three additional abilities, but no more than the number of tiers possessed by the creature bonded to it. This maximum increases to six if the bonded creature selects the legendary item universal path ability twice, and then to 10 if the bonded creature selects the ability three times (again, the maximum cannot exceed the bonded creature's number of tiers). These abilities are added at the rate of one per day. Once selected, these abilities cannot be changed.</p>
+<p>If a mythic creature bonds to an existing legendary item, it can use a number of the item's existing abilities equal to its tier, but cannot add abilities unless it possesses the legendary item universal path ability (subject to the limitations of that ability).</p>
+<p>The following legendary abilities can be added to a legendary item.</p>
+<p><b>Adroit</b>: Choose a single skill that can be augmented by the item's legendary surge. As a swift action, the item's bonded creature can expend one use of legendary power to gain a +20 insight bonus on the next check she attempts with that skill before the end of her turn. The item must have a legendary surge that augments skill checks to have this ability.</p>
+<p><b>Dedicated Bond</b>: An item with this ability can't be used by anyone not bonded with it. Such creatures can't use the item's non-mythic special abilities, its legendary power, or its legendary surge. Furthermore, using a special ritual that takes 10 minutes to perform, the bonded creature can sequester the item in a solid object at least twice as large as the item (such as putting a sword in a stone or an oak tree). The item becomes impossible to remove by any creature not bonded to it unless by means of a <i><a href="/pathfinderRPG/prd/spells/wish.html#_wish" >wish</a></i> or <i><a href="/pathfinderRPG/prd/spells/miracle.html#_miracle" >miracle</a></i> cast by a mythic creature of higher tier than the bonded creature. If the bonded creature is at least 8th tier, she can instead perform this sequestering ritual and transfer the bond to another mythic creature she designates upon completing the ritual.</p>
+<p>An item must be a minor or major artifact to have this ability. This is a persistent ability. <span class="hyperlink char-style-override-15"></span></p>
+<p><b>Eternal Bond</b>: When this ability is taken, the item becomes intimately tied to the creature that gave it this ability. This item can't be bonded to another creature as long as the creature that gave it this ability is alive and mythic. If the creature that gave it this ability dies or becomes non-mythic, this item can be bonded to another creature, but that creature doesn't gain the benefit of this ability. If the creature who placed the eternal bond comes back to life or becomes mythic again, and this item is bonded to another, the bond reverts back to the eternally bonded creature at any time the eternally bonded creature wishes. Reinstating a bond in this way is a free action. If this item is broken, the bond is temporarily severed, but is reinstated when the item is repaired. Lastly, the bonded creature can't use the special ritual to relinquish the bond (see <a href="#_mythic-bond">Mythic Bond</a>).</p>
+<p>An item must be a minor or major artifact to have this ability. This is a persistent ability.</p>
+<p><b>Everlasting</b>: This ability grants its bearer limited immortality. While in contact with this item, the bonded creature doesn't age; doesn't need to eat, drink, or breathe; and doesn't suffer any ill effects from extreme heat or extreme cold.</p>
+<p>An item must be a major artifact to have this ability. This is a persistent ability.</p>
+<p><b>Flexible Bond</b>: The bonded creature can lend this item out with full utility to other creatures. As a standard action, the bonded creature can grant a temporary bond to a number of creatures equal to or less than her mythic tier. These creatures can be mythic or non-mythic. A creature with a temporary bond can fully utilize all of the item's legendary abilities, and if that creature has mythic power, he can expend it to use the item's legendary abilities that require legendary power use (including its legendary surge). This temporary bond ends either when the bonded creature wills it&mdash;a mental command requiring no action, which can be done at any time while she is conscious&mdash;or when the bond is broken between this item and its bonded creature.</p>
+<p><b>Foe-Biting</b>: When this item deals damage, its user can use mythic power to double the total amount of damage it deals. If the attack is a normal attack, the bearer can expend one use of legendary power to double the total amount of damage. If the attack is a confirmed critical hit, the bearer must instead expend two uses of legendary power to double the total damage. Damage from weapon special abilities (such as <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming" >flaming</a></i>) and precision-based damage are also doubled.</p>
+<p>This ability can be applied only to weapons. An item must be a minor or major artifact to have this ability.</p>
+<p><b>Intelligent</b>: A legendary item with this ability becomes an intelligent magic item (<i>Core Rulebook</i> 523). When this ability is first selected, the legendary item starts with base Intelligence, Wisdom, and Charisma scores of 10. The item gains speech as a supernatural ability. It can speak Common plus a number of additional languages based on its Intelligence score. The additional languages can be any that the bonded creature wants, except for secret languages (such as Druidic). The item gains senses with a range of 30 feet. Furthermore, this item always has the alignment of the bonded creature who first selected this ability.</p>
+<p>An intelligent legendary item has an Ego score, just like a non-mythic intelligent item, but it can never become dominant in its relationship with its bonded creature as long as the bonded creature's alignment corresponds to the item's (using the normal rules for intelligent items).</p>
+<p>This is a persistent ability. An intelligent legendary item gains a +4 bonus to its Ego when interacting with non-mythic wielders.</p>
+<p>You can select this ability more than once. Each time you do, you can increase its ability scores (to a maximum of 20 each) and select one of the following special abilities. You can increase all three of its ability scores by 2 points, or one of these ability scores by 4 points and one other ability score by 2 points.</p>
+<p>The special abilities are listed below. Some have another ability as a prerequisite.</p>
+<p><i>Animate</i>: This item can sprout limbs and move with a speed of 10 feet.</p>
+<p><i>Blindsense</i>: This item gains blindsense with the same range as its other senses. The item must have the darkvision ability to have this ability.</p>
+<p><i><a href="/pathfinderRPG/prd/spells/darkvision.html#_darkvision" >Darkvision</a></i>: This item gains darkvision with the same range as its other senses.</p>
+<p><i>Expanded Senses (60 ft.)</i>: The range of this item's senses increases to 60 feet.</p>
+<p><i>Expanded Senses (120 ft.)</i>: The range of this item's senses increases to 120 feet. The item must have expanded senses (60 ft.) to have this ability.</p>
+<p><i><a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a></i>: The item gains a fly speed of 30 feet with average maneuverability. The item must have the animate ability to have this ability.</p>
+<p><i>Read Languages</i>: This item can read script in any language regardless of its known languages.</p>
+<p><i>Read Magic</i>: This item can read magical writing and scrolls as if using <i><a href="/pathfinderRPG/prd/spells/readMagic.html#_read-magic" >read magic</a></i>. This ability doesn't allow the item to activate scrolls or other spell-completion items. The item can suppress and resume this ability as a free action.</p>
+<p><i>Shape Change</i>: The item can change its shape into one other form of the same size.</p>
+<p><i>Skill Ranks</i>: This item gains 10 ranks in one skill. This must be an Intelligence-, Wisdom-, or Charisma-based skill, unless the item has the animate ability (allowing it to choose <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a>) or the fly ability (allowing it to choose <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a>).</p>
+<p><i>Spellcasting</i>: This item allows its bearer to cast a limited number of spells as spell-like abilities. This ability can be taken more than once. Each time it's taken, the bonded creature gains 5 points to spend on selecting what spells the item can cast. A spell costs a number of points equal to its level (minimum 1). The bearer can then activate the item to use each spell-like ability once per day. By spending double the cost, the bearer can use each spell-like ability three times per day. All spells must come from the same class's spell list. No spell can have a level higher than the bonded creature's tier. The caster level for these spells is equal to double the bonded creature's tier. The save DC for these spells is equal to 10 + the spell level + the bonded creature's tier.</p>
+<p><i>Telepathy</i>: This item can hold private mental conversations with its bearer, regardless of whether they share a known language. The item must be in physical contact with a creature to communicate this way.</p>
+<p><i><a href="/pathfinderRPG/prd/spells/teleport.html#_teleport" >Teleport</a></i>: Once per day, the item can <i><a href="/pathfinderRPG/prd/spells/teleport.html#_teleport" >teleport</a></i> as the spell. It must have either the spellcasting ability or the fly ability to have this ability.</p>
+<p><b>Legendary Fortification</b>: When a critical hit or sneak attack is scored against a creature wearing an item with this ability, the wearer can expend one use of legendary power to negate the critical hit or sneak attack and instead take normal damage.</p>
+<p>Only armor, shields, and worn items can have this ability.</p>
+<p><b>Metamagician</b>: This ability allows a spellcaster to apply a metamagic feat she knows to a spell as she casts it. She must expend a number of uses of legendary power equal to the increase of spell level the metamagic feat usually applies (minimum 1). This metamagic feat is applied spontaneously and without changing the casting time. This ability can be placed only on a head, headband, staff, ring, or rod legendary item.</p>
+<p><b>Perfect Surge</b>: This item's legendary surge can apply to any d20 roll. The surge adds a further +2 bonus when applied to one of the types of rolls initially chosen for it. A legendary item must be a major artifact to have this ability.</p>
+<p><b>Powerful</b>: An item with this ability has two additional uses of legendary power per day. This ability can be taken up to three times. The item must be a minor or major artifact to take this a second time, and a major artifact to take this a third time. This is a persistent ability. </p>
+<p><b>Rejuvenating</b>: The bearer of this item can expend uses of legendary power to rejuvenate her body. As a standard action, she can expend one use of legendary power to heal herself of 10 points of damage per mythic tier she possesses. Alternatively, as a standard action she can expend two uses of legendary power to remove a single condition affecting her.</p>
+<p>A legendary item must be a minor or major artifact to have this ability.</p>
+<p><b>Returning</b>: The creature bonded to this item can expend one use of mythic power to teleport the item to her waiting hand, as if using <i><a href="/pathfinderRPG/prd/spells/teleportObject.html#_teleport-object" >teleport object</a></i>. The item must be on the same plane as the bonded creature for this ability to function. This ability can be taken a second time, allowing the item to cross planes to return to the bonded creature. The item must be a major artifact to take this ability again.</p>
+<p><b>Undetectable</b>: This grants its bonded user the ability to become utterly undetectable while invisible. While invisible and in physical contact with this item, the bonded creature can't be detected or scryed by any method.</p>
+<p><b>Unstoppable Strike</b>: This weapon bypasses all armor. The wielder can expend one use of legendary power when attacking to make the attack against touch AC. If she instead expends two uses of legendary power, the weapon also bypasses any deflection bonus to AC the target has.</p>
+<p>An item must be a weapon and be a minor or major artifact to have this ability.</p>
+<p><b>Unyielding</b>: A legendary item with this ability has double the hardness of a typical item of its type and triple the hit points. Furthermore, it's immune to all attempts to sunder it made by non-mythic creatures. This is a persistent ability.</p>
+<p><b>Upgradable</b>: This ability grants the bonded creature the ability to more easily increase the non-mythic magical power of the legendary item. If the base magic item has a version with a higher bonus or greater version (such as a <i>+1 longsword</i>, a <i>+2 <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> steel <a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, a <i>cloak of protection +3</i>, an <i>amulet of might fists +4</i>, or a <i>minor ring of inner fortitude</i>), the bonded creature can improve it by performing a special ritual. She must spend a number of gold pieces equal to half the difference between the cost of the legendary item's current, non-mythic base item and the greater version she wishes to upgrade the item into. For example, she would pay 3,000 gp to upgrade a <i>+1 longsword</i> into a <i>+2 longsword</i>.</p>
+<p>This ritual takes 8 hours. When it's completed, the bonded creature transmutes the item's base version into the desired version. When upgraded in this fashion, the legendary item retains all legendary item abilities it had before the transmutation.</p>
+
+<h2 id="legendary-surge">Legendary Surge</h2>
+<p>A legendary item's nature or purpose determines the rolls its legendary surge ability modifies. The following are rolls that legendary surge ability typically modifies based on item type, but these are merely guidelines. A GM who creates a legendary item can alter this ability based on the item's history or nature.</p>
+<p><b>Armor</b>: Saving throws</p>
+<p><b>Belt</b>: Strength- and Dexterity-based skill checks, and Constitution checks</p>
+<p><b>Body</b>: Strength- and Dexterity-based skill checks, and Constitution checks</p>
+<p><b>Chest</b>: Strength- and Dexterity-based skill checks and Constitution checks</p>
+<p><b>Eyes</b>: Intelligence-, Wisdom-, and Charisma-based skill checks</p>
+<p><b>Feet</b>: Dexterity-based skill checks, initiative checks, and Reflex saving throws</p>
+<p><b>Hands</b>: Attack rolls and combat maneuvers checks</p>
+<p><b>Head</b>: Intelligence-, Wisdom-, and Charisma-based skill checks</p>
+<p><b>Headband</b>: Intelligence-, Wisdom-, and Charisma-based skill checks</p>
+<p><b>Neck</b>: Saving throws</p>
+<p><b>Ring</b>: Either saving throws or both concentration checks and caster level checks</p>
+<p><b>Rod</b>: Concentration checks and caster level checks</p>
+<p><b>Shield</b>: Saving throws</p>
+<p><b>Shoulders</b>: Saving throws</p>
+<p><b>Staff</b>: Concentration checks and caster level checks</p>
+<p><b>Weapons</b>: Attack rolls and combat maneuver checks made while using the weapon</p>
+<p><b>Wrists</b>: Saving throws or ranged attack rolls</p>
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

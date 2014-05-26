@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Performance Combat</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Performance Combat",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateCombat/combat/introduction.html', name: 'Mastering Combat' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="performance-combat">Performance Combat</h1>
+				
+				<p>Not every fight is for survival. Combatants sometimes find themselves in contests where the crowd's reaction is at least as important as the outcome of the fight itself. Whether a bar brawl with the goal of rousing the local populace to rise up against a band of bullies or a sun-drenched and bloody gladiatorial contest where life and death actually hinge on the favor of the crowd, performance combats are fights in which showmanship and flair can be more important than ruthless fighting efficiency. </p>
+				<p>The following rules for performance combat allow you as the GM to run an encounter, or even a series of combat encounters, in which the combatants must not only win the battle, but also win over the crowd.  </p>
+				
+				<h1 id="types-of-performance-combat">Types of Performance Combat</h1>
+				<p>When creating a performance combat, it is important to determine the goals and rules of that combat. The following are the major examples of performance combat, but you should feel free to mix and match some of these general categories to create a performance combat that fits the story of your campaign. </p>
+				<p id="knockout-bout"><b>Knockout Bout</b>: Frequently as brutal but not as bloody as battles to the death, a knockout bout does not end in the death of one side, but still requires a clear and crushing victory. As long as both sides in the performance combat remain standing, the fight continues. Many knockout bout combats require that their participants deal nonlethal damage. </p>
+				<p id="staged-combats:"><b>Staged Combats:</b> Staged combats are less dangerous than knockout bouts. In these contests, combatants typically arrange to have blows that just barely land, so the hits are not registered as either nonlethal or lethal damage, but crowd reaction is determined in the same way as for normal battles. Staged combats often require advanced training (see the <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_stage-combatant-(combat)" >Stage Combatant</a> feat). Those without advanced training can attempt to participate, but take a &ndash;6 penalty on attack rolls in order to make it seem like their attacks hit without doing real damage.</p>
+				<p id="to-a-number-of-wounds"><b>To a Number of Wounds</b>: Not all blood sports end in death. It is often costly to train warriors for arenas big and small, and those who finance such enterprises are protective of their investments. In societies that value life but still love the spectacle of a good fracas, fighting to a number of wounds is an excellent compromise. A fight to first blood or to a certain number of wounds is often enough to appease a crowd.</p>
+				<p id="to-the-death"><b>To the Death</b>: Only the death of one side ends these bouts. Sometimes the crowd's reaction is secondary to the desperate battle on display, but other times the crowd's reaction can have an effect on the actual outcome of the fight. Some blood sports demand that combatants hold off on the killing blow until the crowd gets a chance to voice its pleasure or displeasure, usually with a roar of applause or with a thumbs-up or thumbs-down gesture. A thumbs-up gesture allows the vanquished combatant to live and fight another day; a thumbs-down gesture ends the melee with a grotesque spray of blood.</p>
+				<p id="toward-a-goal"><b>Toward a Goal</b>: Often these are elaborate affairs that may reproduce a historical battle, or just pit combatants against terrain and challenges that feature a variety of hazards and traps. These types of battles can be races (maybe mixing them with the rules for vehicular combat presented in Chapter 4), or may present capture-the-flag-like objectives, but all test the ability of the combatants to achieve a predetermined goal.</p>
+				
+				<h1 id="crowd-attitudes">Crowd Attitudes</h1>
+				<p>While combatants do the actual fighting in performance combat, the crowd remains an active participant in these bouts. The audience can bolster or demoralize the competitors with their enthusiasm or scorn for what they see on the battlefield, with serious results. </p>
+				<p>A crowd's attitude is similar to a nonplayer character's attitude when a character uses the <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> skill. The DC of performance combat checks to improve crowd reaction is tied to the crowd's starting or current attitude. Each time the combatants do something spectacular on the battlefield, they have the opportunity to parlay that success into a better crowd reaction, but missteps can also create contempt among the crowd. </p>
+				<p>During performance combat, it is important for the GM to keep track of the crowd's attitude toward each side of the combat. Given that a crowd is filled with many people shouting, clapping, booing, hissing, or otherwise showing their pleasure or displeasure, the exact crowd reaction changes from moment to moment based on events on the battlefield, but groups of combatants always have a reasonable idea of what the crowd thinks of their performance at any given time. </p>
+				<p>The following are the general categories of crowd reaction and attitude. They are listed from lowest regard to highest.</p>
+				<p id="hostile"><b>Hostile</b>: The crowd does not like what it is seeing. Hostile crowds demoralize combatants in a performance combat. In these battles, while the crowd is hostile toward a given side, those combatants take a &ndash;2 penalty on all attack rolls, combat maneuver checks, ability checks, skill checks, and saving throws. This is a mind-affecting effect.</p>
+				<p>If the crowd is hostile toward a side of the combat and a member of that side fails a performance combat check by 5 or more, that side automatically loses the performance part of the combat. This can be important for the story of the game, or if the PCs are participating in serialized performance combats.</p>
+				<p id="unfriendly"><b>Unfriendly</b>: While still biased against a side, the crowd reserves its most vocal disdain for failed performance combat checks. Unfriendly crowds demoralize combatants in a performance combat. In these battles, while the crowd is unfriendly toward a given side, those combatants take a &ndash;1 penalty on all attack rolls, combat maneuver checks, ability checks, skill checks, and saving throws. This is a mind-affecting effect.</p>
+				<p id="indifferent"><b>Indifferent</b>: The crowd is waiting for something exciting to happen. Audience members show little emotion other than anticipation and a desire for daring feats of combat to occur. </p>
+				<p id="friendly"><b>Friendly</b>: The crowd is beginning to be swayed toward one side in the fray. Audience members cheer when that side achieves some impressive feat in the combat, and their reaction grants a +1 morale bonus on all attack rolls, combat maneuver checks, ability checks, skill checks, and saving throws for their chosen side. This is a mind-affecting effect.</p>
+				<p id="helpful"><b>Helpful</b>: The crowd loves what it is seeing from a given side. Audience members stand up, chant, cheer, and scream for the combatants to push on toward ultimate success. A helpful crowd grants its chosen champions a +2 morale bonus on all attack rolls, combat maneuver checks, ability checks, skill checks, and saving throws. This is a mind-affecting effect.</p>
+				<p>If the crowd is helpful toward one side of the combat and a member of that side succeeds at a performance combat check, that side gains a victory point.</p>
+				<h1 id="crowd's-starting-attitude">Crowd's Starting Attitude</h1>
+				<p>The first thing a GM must do in a performance combat is determine the crowd's starting attitude. Typically a crowd starts out with an indifferent attitude toward each side, but it could start with an attitude that's a step higher or lower based on other circumstances. Favored champions of a fighting pit or a city may start at a higher attitude step, while outsiders, prisoners of war, or criminals may start at a lower attitude step. If you are running a series of combats, a crowd may start with a higher or lower starting attitude based on a combatant's or a group of combatants' performance in the last bout, which is determined by the number of victory points the individual or group has (see the Serialized Performance Combats section).</p>
+				<h1 id="performance-combat-check">Performance Combat Check</h1>
+				<p>Whenever a combatant has a chance to affect the crowd's attitude, she makes a performance combat check. The check is a Charisma ability check modified by the base attack bonus of the character plus any ranks the character has in <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (act), <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (comedy), or <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (dance), whichever is highest. Making a performance combat check is usually a swift action, triggered when a combatant performs a trigger action (see the Affecting the Crowd's Attitude section).</p>
+				
+				<table><thead><tr><th>Base Attack Bonus</th><th>Bonus on Performance Combat Check</th></tr></thead>
+<tr class="odd"><td>0</td><td>+0</td></tr>
+<tr class="even"><td>1&ndash;5</td><td>+1</td></tr>
+<tr class="odd"><td>6&ndash;10</td><td>+2</td></tr>
+<tr class="even"><td>11&ndash;15</td><td>+3</td></tr>
+<tr class="odd"><td>16+</td><td>+4</td></tr></table><br>
+
+				<table><thead><tr><th>Highest Perform Ranks</th><th>Bonus on Performance Combat Check</th></tr></thead>
+<tr class="odd"><td>0</td><td>+0</td></tr>
+<tr class="even"><td>1&ndash;5</td><td>+1</td></tr>
+<tr class="odd"><td>6&ndash;10</td><td>+2</td></tr>
+<tr class="even"><td>11&ndash;15</td><td>+3</td></tr>
+<tr class="odd"><td>16+</td><td>+4</td></tr></table>
+
+				
+				<p>Using a performance weapon grants a combatant a +2 bonus on performance combat checks. Some feats, spells, or other circumstances may grant a combatant a bonus on performance combat checks. </p>
+				<p>Succeeding at a performance combat check improves the attitude of the crowd by one step. Unlike skill checks, a roll of a natural 20 on a performance combat check always succeeds. Failing the check either leaves the attitude unchanged or, if the check fails by 5 or more, causes the attitude of the crowd to decrease by one step. The DC of the check is determined by the crowd's current attitude, with a number of adjustments to the DC granted by the circumstances of the performance combat. If the crowd's current attitude is helpful, a successful check grants the favored side 1 victory point. </p>
+				<h1 id="performance-combat-check-dc">Performance Combat Check DC</h1>
+				<p>The performance combat check's DC is based on a number of factors, including the starting or current attitude of the crowd, the size of the crowd, and the number of creatures participating in the performance combat. The base DC of the performance combat check is determined by the current attitude of the crowd toward the side of combat. </p>
+				
+				<table><thead><tr><th>Starting or Current Attitude</th><th>Base DC to Improve Attitude</th></tr></thead>
+				<tr class="even"><td>Hostile</td><td>20</td></tr>
+				<tr class="odd"><td>Unfriendly</td><td>15</td></tr>
+				<tr class="even"><td>Indifferent</td><td>10</td></tr>
+				<tr class="odd"><td>Friendly</td><td>15</td></tr>
+				<tr class="even"><td>Helpful</td><td>20<sup>1</sup></td></tr>
+				<tfoot><tr><td colspan="2"><sup>1</sup> This is the DC to gain a victory point.</td></tr></tfoot></table>
+				
+				<p>The base DC is modified by the size of the crowd, the number of participants on each side, and a number of other circumstances.</p>
+				<p id="size-of-the-crowd"><b>Size of the Crowd</b>: Larger crowds are harder to sway to one side or the other. It takes great shows of daring or a progression of numerous displays of crowd-pleasing actions to get them to change their attitude. Presented here are the general crowd sizes and their effects on the DC to improve crowd attitudes and gain victory points.</p>
+				<p id="small-crowd" class="stat-block-2"><i>Small Crowd</i>: A small crowd contains no fewer than two and no more than 25 creatures. It does not increase the base DC of all performance combat checks.</p><br>
+				<p id="medium-crowd" class="stat-block-2"><i>Medium Crowd</i>: A medium crowd contains no fewer than 26 and no more than 100 creatures. A medium crowd increases the DC of all performance combat checks by +2. </p><br>
+				<p id="large-crowd" class="stat-block-2"><i>Large Crowd</i>: A large crowd contains no fewer than 101 and no more than 300 creatures. A large crowd increases the DC of all performance combat checks by +3.</p><br>
+				<p id="massive-mob" class="stat-block-2"><i>Massive Mob</i>: A massive mob is made up of no fewer than 301 creatures, and its numbers can expand into the thousands. A massive mob increases the DC of all performance combat checks by +4.</p>
+				<p id="total-number-of-combatants"><b>Total Number of Combatants</b>: The participation of a large number of combatants increases the difficulty of swaying the crowd. Large groups of combatants make it difficult for a crowd to follow the entire battle and to catch actions from individuals that could possibly sway the audience's attitude. Adjust these modifications as combatants enter or leave the battle.</p>
+				<p id="small-battle" class="stat-block-2"><i>Small Battle</i>: If the battle is between a total of 2&ndash;8 combatants, there is no change to the base DC to improve the attitude of the crowd or gain victory points. </p><br>
+				<p id="medium-battle" class="stat-block-2"><i>Medium Battle</i>: If the battle is between 9&ndash;16 combatants, the DC to improve the attitude of the crowd or gain victory points increases by +4. </p><br>
+				<p id="large-battle" class="stat-block-2"><i>Large Battle</i>: A battle with 17 or more total combatants increases the DC to improve the attitude of the crowd by +8.</p>
+				<p id="other-circumstances-that-affect-dc"><b>Other Circumstances That Affect DC</b>: Other circumstances that always affect the DC to improve the attitude of the crowd or gain victory points include the following. </p>
+				<p id="cheating" class="stat-block-2"><i>Cheating</i>: If one side visibly cheats or breaks the rules, the DC for that side of the performance combat to improve the attitude of the crowd increases by 2 for the remainder of the performance combat. This increase can occur multiple times in a battle. For the purpose of spotting cheating, determine the base <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> and <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> for the average member of a crowd (usually +0 if you assume an average human) and apply the following modifiers based on crowd size. The DC is based on whatever action the combatant is using to hide any cheating (usually <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> or <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a>). </p><br>
+				
+				<table><thead><tr><th>Crowd Size</th><th>Bonus on Perception and Sense Motive<br>Checks to Spot Cheating</th></tr></thead>
+				<tr class="odd"><td>Small crowd</td><td>+8</td></tr>
+				<tr class="even"><td>Medium crowd</td><td>+12</td></tr>
+				<tr class="odd"><td>Large crowd</td><td>+16</td></tr>
+				<tr class="even"><td>Massive mob</td><td>+20</td></tr></table><br>
+				
+				<p id="outnumbered" class="stat-block-2"><i>Outnumbered</i>: If one side of the battle outnumbers the others by less than a 2:1 ratio, the DC for that side to improve the attitude of the crowd or to gain victory points increases by 2. If one side outnumbers all others by a ratio of 2:1 or more, the DC for that side to improve the attitude of the crowd increases by 6. These increases to the DC end or are reduced to the appropriate level if the numbers become even or if the 2:1 ratio of combatants is ever brought down to outnumbering the other sides by less than a 2:1 ratio. </p><br>
+				<p id="unfair-advantage" class="stat-block-2"><i>Unfair Advantage</i>: If one side of the battle has an obvious unfair advantage (for example, one side starts the battle in a fortified position or has better weapons and armor, or its opponents are not armed at all), the DC to improve the attitude of the crowd is increased by 2. A GM can increase the DC by as much as 6 if the unfair advantage is severe enough. </p><br>
+				<p id="bribery-or-coercion" class="stat-block-2"><i>Bribery or Coercion</i>: Crowds can be bribed or coerced. Typically a successful bribe or attempt at coercion involves paying some amount of gold based on the crowd size, and succeeding at a <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check with a DC based on the size of the crowd. If the gold is paid and the <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check fails, the side gains a penalty for cheating instead, though the gold is still spent. If the check succeeds, the DC to improve crowd reaction and gain victory points decreases by 2. For every 5 points over the DC by which the combatants make the check, the DC to improve the crowd's attitude or to gain a victory point decreases by 1. </p><br>
+				
+				<table><thead><tr><th>Crowd Size</th><th>Diplomacy DC</th><th>Gold Paid</th></tr></thead>
+<tr class="odd"><td>Small crowd</td><td>DC 15</td><td>25 gp</td></tr>
+<tr class="even"><td>Medium crowd</td><td>DC 20</td><td>250 gp</td></tr>
+<tr class="odd"><td>Large crowd</td><td>DC 25</td><td>750 gp</td></tr>
+<tr class="even"><td>Massive mob</td><td>DC 30</td><td>2,000 gp</td></tr></table><br>
+
+				<h1 id="affecting-the-crowd's-attitude">Affecting the Crowd's Attitude</h1>
+				<p>For a combatant to affect the crowd's reaction in some way, he must usually accomplish some visible combat display that has a chance of motivating the crowd toward a new attitude. If the crowd cannot see the combatant (because of total concealment, invisibility, improved cover, or total cover), he cannot affect the crowd's attitude in any way, but concealment and lesser forms of cover do not affect a combatant's ability to affect the crowd. </p>
+				<p>When a combatant performs or causes one of the triggers described in the sections that follow, he can typically make a performance combat check as a swift action (or a free action if the creature has the <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_master-combat-performer-(combat)" >Master Combat Performer</a> feat) to improve the attitude of the crowd. The swift action usually involves some form of flourish, display, or show in the attempt to grab the attention of the crowd. If the combatant has a performance feat, the action that triggers the check may involve some form of movement or effect. Sometimes a performance combat check can be made as a free or an immediate action. Making a performance check as a free action does not allow a character to take any special action granted to him by a performance feat (unless he has the <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_master-combat-performer-(combat)" >Master Combat Performer</a> feat), and making a performance combat check as an immediate action or as no action never allows a character to perform a special action granted by a performance feat (even if he does have the <a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_master-combat-performer-(combat)" >Master Combat Performer</a> feat). </p>
+				<p>Other times, a performance combat check must be performed. These mandatory performance combat checks are not actions, and usually have detrimental effects if the check is not successful. </p>
+				<p>The following are the standard triggers for making a performance combat check. The triggers are organized by the action type required to attempt or to make the performance combat check.</p>
+				
+				<h2 id="swift-action-checks">Swift Action Checks</h2>
+				<p>The following triggers allow a character participating in a performance combat to make a performance combat check as a swift action. A character can always opt not to make a performance combat check that requires a swift action. Some feats, called performance feats, allow a character to perform other actions as part of the performance combat check. These feats can be found in Chapter 2.</p>
+				<p id="charge"><b>Charge</b>: Whenever a combatant hits with a charge attack, she can make a performance combat check as a swift action.</p>
+				<p id="combat-maneuvers"><b>Combat Maneuvers</b>: Whenever a combatant successfully performs any combat maneuver, she can make a performance combat check as a swift action.</p>
+				<p id="dealing-maximum-damage"><b>Dealing Maximum Damage</b>: Whenever a combatant deals maximum damage with a damage roll (weapon or spell, but not including sneak attack or other variable precision damage), she can make a performance combat check as a swift action. She gains a penalty or bonus on this check based on the type of weapon or spell she uses. Light weapons take a &ndash;4 penalty on the check, one-handed weapons grant neither a bonus or a penalty, and two-handed or exotic weapons grant a +2 circumstance bonus on the check. Spells grant a bonus on the performance combat check equal to half their spell level. </p>
+				<p id="energy-spells-and-effects"><b>Energy Spells and Effects</b>: Crowds tend to respond to flashy spells and effects. If a combatant casts a spell or produces an effect that deals acid, cold, fire, electricity, force, or sonic damage in a visible way (including weapons with special abilities like <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming-burst" >flaming burst</a></i> or <i><a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shocking-burst" >shocking burst</a></i> that deal bursts of energy damage on critical hits), she can make a performance combat check as a swift action.</p>
+				<p id="feint"><b>Feint</b>: If a combatant successfully feints against an enemy, she can make a performance combat check as a swift action.</p>
+				<p id="knocking-opponent-prone"><b>Knocking Opponent Prone</b>: When a combatant knocks another combatant prone, she can make a performance combat check as a swift action.</p>
+				<p id="multiple-hits"><b>Multiple Hits</b>: If a combatant has more than one attack on her turn and hits an opponent with at least two of those attacks, she can make a performance combat check as a swift action. She gains a +2 bonus on this performance combat check for every attack she hits with beyond the second.</p>
+				<h2 id="free-action-or-immediate-action-checks">Free Action or Immediate Action Checks</h2>
+				<p class="body-copy-indent para-style-override-4">The following triggers allow a combatant to make a performance combat check as a free action or an immediate action. A combatant may also opt to make any of these performance combat checks as a swift action instead, and gains the benefit of performance feats when he does so. A combatant can always opt to not make a performance combat check that requires a free action or immediate action. A combatant can also spend a victory point to make any one of these performance combat checks as a free action taken when it is not the combatant's turn, which allows the combatant to make one of these performance combat checks without spending an immediate action. </p>
+				<p id="critical-hit"><b>Critical Hit</b>: When a combatant confirms a critical hit, he can make a performance combat check as a free or immediate action. When he does so, failing by 5 or more does not lower the crowd's attitude. If the combatant gains a special effect on this critical hit from a critical feat, he gains a +2 bonus on the performance combat check.</p>
+				<p id="first-blood:"><b>First Blood:</b> If the combatant is the first person to damage an enemy during a performance combat (or to hit an opponent in the case of staged combats), he can make a performance combat check as a free or immediate action.</p>
+				<p id="raging"><b>Raging</b>: The first time a combatant enters a rage in a performance combat, he can make a performance combat check as a free or immediate action.</p>
+				<p id="vanquish-opponent"><b>Vanquish Opponent</b>: Whenever a combatant reduces a creature to 0 or fewer hit points, he can make a performance combat check as a free or immediate action.</p>
+				
+				<h2 id="mandatory-checks">Mandatory Checks</h2>
+				<p>The following performance combat checks must be attempted whenever possible. These checks don't improve a crowd's attitude, and the combatant gains no benefit from performance feats with these checks. Failing them typically has a detrimental effect on a crowd's attitude. If the crowd cannot see the action that triggered these checks, the combatant who performed it does not need to make the check. Making a performance check for one of these triggers is not an action.</p>
+				<p id="magical-healing"><b>Magical Healing</b>: Crowds tend to dislike the use of magical healing; some crowds even see it as cheating. On a turn when a combatant casts a healing spell or other healing effect, or uses a healing spell trigger, spell completion, or use-activated item (including forcing a <i>potion of <a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> or similar potion down the throat of an opponent) she must make a performance combat check. Success yields no change to the attitude of the crowd, but any failure reduces the crowd's attitude by one step.</p>
+				<p id="rolling-a-natural-1"><b>Rolling a Natural 1</b>: When a combatant rolls a natural 1 on an attack roll or a saving throw, she must make a performance combat check. A success does not affect the crowd in any way, but any failure reduces the crowd's attitude by one step.</p>
+				<p id="withdraw"><b>Withdraw</b>: Whenever a combatant uses the withdraw action, she must make a performance combat check as a free action. She takes a &ndash;5 penalty on the check, and success does not shift the crowd's attitude, but failure shifts it one step lower.</p>
+				
+				<h2 id="victory-points">Victory Points</h2>
+				<p>When a side is benefiting from a helpful crowd reaction and succeeds at a performance combat check, that side gains a victory point. Victory points are kept in a pool, and can be spent by anyone on a given side of a performance combat at any time during the performance combat, as long as no one on the side objects to the use of the victory point. Victory points can be spent during a performance combat in the following ways. Spending a victory point is not an action.</p>
+				<p>&bull;&nbsp;A combatant can spend a victory point to gain an automatic success at a performance combat check, but cannot spend the victory point to succeed at a performance combat check while the crowd has a helpful attitude toward that combatant's side of the performance combat.</p>
+				<p>&bull;&nbsp;A combatant can spend a victory point to make a free or immediate action performance combat check as no action, allowing the combatant to make the check when it is not the combatant's turn without spending an immediate action.</p>
+				<p>&bull;&nbsp;A combatant can spend a victory point to force an opponent in a performance combat to reroll a performance combat check. The opponent must take the effect of the reroll.</p>
+				<p>While running a group of serialized performance combats, any unspent victory points are saved and can be used during the next performance combat, and can affect the starting attitude of the crowd. </p>
+				<p>In the case of serialized combats, decisively winning a performance by having a higher crowd attitude than the opposing team or teams at the end of the performance combat wins 1 victory point for each combatant on the winning side.</p>
+				<p id="splitting-up-victory-points"><b>Splitting Up Victory Points</b>: Sometimes, in the case of team performance combat, the lineup of a performance combat team may change. If this occurs, it may be important to split up any victory points the team has gained. Victory points should be split as evenly as possible among the combatants within a team, with the remainder going to combatants in any way the team chooses (but with no individual player receiving more than 1 point from the remainder). For instance, if a team is made up of four combatants, but at the end of a bout there are 6 victory points, all four combatants gain at least 1 victory point, and two members of the team each receive 1 additional point, as chosen by the members of the team in any way the members deem fair.</p>
+				<h2 id="determining-a-winner">Determining a Winner</h2>
+				<p class="body-copy-indent para-style-override-4">When the performance combat is concluded, the side with the highest attitude wins over the crowd. In the case of a tie, use victory points to determine the winner. If the bout is still a tie, that performance combat is a tie. </p>
+				<h2 id="serialized-performance-combats">Serialized Performance Combats</h2>
+				<p>If you are running a series of performance combats as part of your campaign, successes and failures for each performance combat can affect the starting attitude of the crowd in future performance combats in the series, both negatively and positively. </p>
+				<p>If one side of a performance combat loses the performance part of the combat by failing a performance combat check by 5 while the crowd has a hostile attitude, on the very next bout, the crowd starts with an unfriendly attitude instead of the indifferent attitude. </p>
+				<p>If a side of the performance combat starts with at least 1 victory point per member of the side, the crowd's attitude starts as friendly toward that side instead of indifferent. If the side has at least 3 victory points per member, the crowd starts as helpful instead of indifferent. </p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

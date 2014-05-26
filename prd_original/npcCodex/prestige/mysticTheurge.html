@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Mystic Theurges</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Mystic Theurges",globalNavPath=[{ href: '/pathfinderRPG/prd/npcCodex/prestige/index.html', name: 'Prestige Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="mystic-theurges">Mystic Theurges</h1>
+
+<p id="celestial-theurge" class="stat-block-title">Celestial Theurge <span class="stat-block-cr">CR 8</span></p>
+<p class="stat-block-1"><b>XP</b> 4,800</p>
+<p class="stat-block-1"><b>Human cleric</b> 3</p>
+<p class="stat-block-1"><b>Sorcerer</b> 4</p>
+<p class="stat-block-1"><b>Mystic theurge</b> 2</p>
+<p class="stat-block-1">NG Medium humanoid (human)</p>
+<p class="stat-block-1"><b>Init</b> +0; <b>Senses</b> Perception +8</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 18, touch 10, flat-footed 18 (+7 armor, +1 natural)</p>
+<p class="stat-block-1"><b>hp</b> 69 (3d8+4d6+2d6+31)</p>
+<p class="stat-block-1"><b>Fort</b> +8, <b>Ref</b> +4, <b>Will</b> +11</p>
+<p class="stat-block-1"><b>Resist</b> acid 5, cold 5</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> <i>+1 spear</i> +13 (1d8+7/×3)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk heavy crossbow +6 (1d10/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> channel positive energy 6/day (DC 12 [DC 14 against undead], 2d6)</p>
+<p class="stat-block-1"><b>Bloodline</b> <b>Spell-Like Abilities</b> (CL 4th; concentration +5)</p>
+<p class="stat-block-2">4/day&mdash;heavenly fire (1d4+2)</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities</b> (CL 3rd; concentration +5)</p>
+<p class="stat-block-2">5/day&mdash;rebuke death, touch of glory</p>
+<p class="stat-block-1"><b>Cleric Spells Prepared</b> (CL 5th; concentration +7)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i>, <i>searing ligh t</i><sup>D</sup></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/blessWeapon.html#_bless-weapon" >bless weapon</a></i><sup>D</sup><i>, <a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/removeParalysis.html#_remove-paralysis" >remove paralysis</a></i>, <i><a href="/pathfinderRPG/prd/spells/shieldOther.html#_shield-other" >shield other</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil" >protection from evil</a>, <a href="/pathfinderRPG/prd/spells/removeFear.html#_remove-fear" >remove fear</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/createWater.html#_create-water" >create water</a></i>, <i><a href="/pathfinderRPG/prd/spells/guidance.html#_guidance" >guidance</a></i>, <i><a href="/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink" >purify food and drink</a></i>, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domains</b> Glory, Healing</p>
+<p class="stat-block-1"><b>Sorcerer Spells Known</b> (CL 6th; concentration +7; 25% spell failure)</p>
+<p class="stat-block-2">3rd (3/day)&mdash;<i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i></p>
+<p class="stat-block-2">2nd (5/day)&mdash;<i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows" >protection from arrows</a></i></p>
+<p class="stat-block-2">1st (7/day)&mdash;<i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a>, <a href="/pathfinderRPG/prd/spells/burningHands.html#_burning-hands" >burning hands</a></i> (DC 12), <i><a href="/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person" >enlarge person</a></i>, <i><a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, <i><a href="/pathfinderRPG/prd/spells/trueStrike.html#_true-strike" >true strike</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights" >dancing lights</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison" >detect poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/mageHand.html#_mage-hand" >mage hand</a></i>, <i><a href="/pathfinderRPG/prd/spells/mending.html#_mending" >mending</a></i>, <i><a href="/pathfinderRPG/prd/spells/message.html#_message" >message</a></i>, <i><a href="/pathfinderRPG/prd/spells/readMagic.html#_read-magic" >read magic</a></i></p>
+<p class="stat-block-2"><b>Bloodline</b> celestial</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The mystic theurge casts <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>.</p>
+<p class="stat-block-1"><b>During Combat</b> The mystic theurge casts <i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a> </i>and <i><a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a></i>, then supports her companions with spells. She targets undead with channeled energy and <i><a href="/pathfinderRPG/prd/spells/searingLight.html#_searing-light" >searing light</a></i>.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>, the mystic theurge's statistics are <b>Melee</b> <i>+1 spear</i> +11 (1d8+5/×3); <b>Str</b> 18; <b>CMB</b> +9; <b>CMD</b> 19.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 22, <b>Dex</b> 10, <b>Con</b> 14, <b>Int</b> 8, <b>Wis</b> 14, <b>Cha</b> 12</p>
+<p class="stat-block-1"><b>Base Atk</b> +5; <b>CMB</b> +11; <b>CMD</b> 21</p>
+<p class="stat-block-1"><b>Feats</b> Arcane Armor Mastery, <a href="/pathfinderRPG/prd/feats.html#_arcane-armor-training" >Arcane Armor Training</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_eschew-materials" >Eschew Materials</a>, <a href="/pathfinderRPG/prd/feats.html#_extra-channel" >Extra Channel</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (spear)</p>
+<p class="stat-block-1"><b>Skills </b><a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +7, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana, religion) +5, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility) +4, Perception +8, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +3<b></b></p>
+<p class="stat-block-1"><b>Languages</b> Common</p>
+<p class="stat-block-1"><b>SQ</b> aura, bloodline arcana (summoned creatures gain DR 2/evil), combined spells (1st)</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>+1 bolts</i> (3), <i>+1 evil outsider-bane bolts</i> (3), <i>+1 undead-bane  bolts</i> (3), <i>scrolls of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i> (2), <i>scrolls of <a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i> (2), <i>scroll of <a href="/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease" >remove disease</a></i>, antitoxin (2), holy water (2); <b>Other Gear</b> <i>+1 breastplate</i>, <i>+1 spear</i>, masterwork heavy crossbow with 10 bolts, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +1</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, pair of platinum rings (worth 50 gp), 287 gp</p>
+
+<p>These theurges support righteous causes, especially ones that involve destroying undead.</p>
+<h3>Traica Kaladon</h3>
+<p>The survivor of a zombie plague that ravaged her small town, Traica now quests to destroy any undead threat.</p>
+<p><b>Combat Encounters:</b>Allying with paladins, inquisitors, and clerics, Traica works to make the world safe for good people everywhere.</p>
+<p><b>Roleplaying Suggestions:</b>Gracious and kind, Traica is always willing to help the downtrodden.<span class="char-style-override-14"></p>
+
+
+
+<p id="sound-warrior" class="stat-block-title">Sound Warrior <span class="stat-block-cr">CR 12</span></p>
+<p class="stat-block-1"><b>XP</b> 19,200</p>
+<p class="stat-block-1"><b>Halfling bard</b> 5</p>
+<p class="stat-block-1"><b>Druid</b> 4</p>
+<p class="stat-block-1"><b>Mystic theurge</b> 4</p>
+<p class="stat-block-1">N Small humanoid (halfling)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> Perception +17</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 24, touch 17, flat-footed 20 (+4 armor, +2 deflection, +3 Dex, +1 dodge, +3 natural, +1 size)</p>
+<p class="stat-block-1"><b>hp</b> 76 (5d8+4d8+4d6+18)</p>
+<p class="stat-block-1"><b>Fort</b> +10, <b>Ref</b> +11, <b>Will</b> +14; +2 vs. fear, +4 vs. fey and plant-targeted effects, +4 vs. bardic performance, language-dependent, and sonic</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> mwk dagger +10/+5 (1d3/19–20)</p>
+<p class="stat-block-1"><b>Ranged</b> mwk dagger +13/+8 (1d3/19–20)</p>
+<p class="stat-block-1"><b>Special Attacks</b> bardic performance 17 rounds/day (countersong, distraction, fascinate, inspire competence +2, inspire courage +2), wild shape 2/day</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities</b> (CL 4th; concentration +6)</p>
+<p class="stat-block-2">5/day&mdash;lightning arc (1d6+2 electricity)</p>
+<p class="stat-block-1"><b>Bard Spells Known</b> (CL 9th; concentration +14)</p>
+<p class="stat-block-2">3rd (4/day)&mdash;<i><a href="/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster" >charm monster</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/displacement.html#_displacement" >displacement</a></i>, <i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>, <i><a href="/pathfinderRPG/prd/spells/sculptSound.html#_sculpt-sound" >sculpt sound</a></i></p>
+<p class="stat-block-2">2nd (5/day)&mdash;<i><a href="/pathfinderRPG/prd/spells/holdPerson.html#_hold-person" >hold person</a></i> (DC 19), <i><a href="/pathfinderRPG/prd/spells/scare.html#_scare" >scare</a></i> (DC 17), <i><a href="/pathfinderRPG/prd/spells/shatter.html#_shatter" >shatter</a></i>, <i><a href="/pathfinderRPG/prd/spells/soundBurst.html#_sound-burst" >sound burst</a></i> (DC 17)</p>
+<p class="stat-block-2">1st (7/day)&mdash;<i><a href="/pathfinderRPG/prd/spells/alarm.html#_alarm" >alarm</a></i>, <i><a href="/pathfinderRPG/prd/spells/causeFear.html#_cause-fear" >cause fear</a></i> (DC 16), <i><a href="/pathfinderRPG/prd/spells/charmPerson.html#_charm-person" >charm person</a></i> (DC 18), <i><a href="/pathfinderRPG/prd/spells/removeFear.html#_remove-fear" >remove fear</a></i>, <i><a href="/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism" >ventriloquism</a></i> (DC 16)</p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound" >ghost sound</a></i> (DC 15), <i><a href="/pathfinderRPG/prd/spells/knowDirection.html#_know-direction" >know direction</a></i>, <i><a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a></i>, <i><a href="/pathfinderRPG/prd/spells/mageHand.html#_mage-hand" >mage hand</a></i>, <i><a href="/pathfinderRPG/prd/spells/message.html#_message" >message</a></i>, <i><a href="/pathfinderRPG/prd/spells/resistance.html#_resistance" >resistance</a></i></p>
+<p class="stat-block-1"><b>Druid Spells Prepared</b> (CL 8th; concentration +10)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/airWalk.html#_air-walk" >air walk</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/callLightning.html#_call-lightning" >call lightning</a></i> (DC 15), <i><a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form" >gaseous form</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>, <i><a href="/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison" >delay poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser" >lesser restoration</a></i>, <i>wind wal l</i><sup>D</sup></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire" >faerie fire</a></i>, <i><a href="/pathfinderRPG/prd/spells/goodberry.html#_goodberry" >goodberry</a></i>, <i><a href="/pathfinderRPG/prd/spells/longstrider.html#_longstrider" >longstrider</a></i>, <i>obscuring mis t</i><sup>D</sup><i>, <a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/createWater.html#_create-water" >create water</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison" >detect poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/mending.html#_mending" >mending</a></i>, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domains</b> Air</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The mystic theurge casts <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, and <i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace" >pass without trace</a></i>.</p>
+<p class="stat-block-1"><b>During Combat </b>While aiding her companions with bardic performance, the mystic theurge harasses her opponents with <i><a href="/pathfinderRPG/prd/spells/callLightning.html#_call-lightning" >call lightning</a></i>, <i><a href="/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster" >charm monster</a></i>, and <i><a href="/pathfinderRPG/prd/spells/windWall.html#_wind-wall" >wind wall</a></i>.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/barkskin.html#_barkskin" >barkskin</a>, </i>the mystic theurge's statistics are <b>AC</b> 21, touch 17, flat-footed 17.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 16, <b>Con</b> 10, <b>Int</b> 10, <b>Wis</b> 15, <b>Cha</b> 20</p>
+<p class="stat-block-1"><b>Base Atk</b> +8; <b>CMB</b> +7; <b>CMD</b> 23</p>
+<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_dodge" >Dodge</a>, <a href="/pathfinderRPG/prd/feats.html#_great-fortitude" >Great Fortitude</a>, Greater <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (enchantment), <a href="/pathfinderRPG/prd/feats.html#_natural-spell" >Natural Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (enchantment), <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a> +5 (+1 when jumping), <a href="/pathfinderRPG/prd/skills/climb.html#_climb" >Climb</a> +6, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +9, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +9, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +6, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana, religion) +8, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography, local) +9, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history) +10, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) +12, Perception +17, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (oratory, sing) +9, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +9, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +20, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +12</p>
+<p class="stat-block-1"><b>Languages</b> Common, Druidic, Halfling</p>
+<p class="stat-block-1"><b>SQ</b> bardic knowledge +2, combined spells (2nd), lore master 1/day, nature bond (Air domain), nature sense, trackless step, versatile performance (oratory), wild empathy +9, woodland stride</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>potion of <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i>, smokesticks (5), thunderstones (5); <b>Other Gear</b> <i>+2 leather armor</i>, masterwork daggers (2), <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-mighty-constitution" >belt of mighty constitution</a> +2</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +1</i>, <i>druid's vestment,</i> <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma" >headband of alluring charisma</a> +2</i>,<i> <a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +2</i>, 486 gp</p>
+
+<p>Using a mix of rousing oratory, song, and thunderous spells, a sound warrior is often heard before she's seen.</p>
+<h3>Rindra Thunderpath</h3>
+<p>Rindra always loved loud noises and the jolt of surprise they caused to those around her. She sought out ways to make more and bigger noises, and eventually turned to magic so she could call down cacophonous thunder anytime she wanted to. She prefers the sounds of storms and beasts over those of the cities, so she lives out in the wild.</p>
+<p><b>Combat Encounters:</b>Rindra protects many canyons and mountain passes, and loves how the noises from her thunderous spells bounce off the stone walls.</p>
+<p><b>Roleplaying Suggestions:</b>Rindra speaks loudly and forcefully, often stomping her feet for emphasis or letting out a surprisingly powerful belly laugh.<span class="char-style-override-14"></p>
+		
+
+		
+<p id="death-master" class="stat-block-title">Death Master <span class="stat-block-cr">CR 16</span></p>
+<p class="stat-block-1"><b>XP</b> 76,800</p>
+<p class="stat-block-1"><b>Half-elf cleric</b> 5</p>
+<p class="stat-block-1"><b>Evoker</b> 5</p>
+<p class="stat-block-1"><b>Mystic theurge</b> 7</p>
+<p class="stat-block-1">NE Medium humanoid (elf, human)</p>
+<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> low-light vision; Perception +28</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 28, touch 13, flat-footed 28 (+12 armor, +3 deflection, +3 natural)</p>
+<p class="stat-block-1"><b>hp</b> 182 (5d8+5d6+7d6+100)</p>
+<p class="stat-block-1"><b>Fort</b> +14, <b>Ref</b> +7, <b>Will</b> +20; +2 vs. enchantments</p>
+<p class="stat-block-1"><b>Immune</b> <i><a href="/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster" >charm monster</a>, <a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a>, <a href="/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a>, </i>sleep</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> <i>+1 heavy mace </i>+10/+5 (1d8+2)</p>
+<p class="stat-block-1"><b>Special Attacks</b> channel negative energy 4/day (DC 11, 3d6), hand of the acolyte (8/day), intense spells (+2 damage)</p>
+<p class="stat-block-1"><b>Domain Spell-Like Abilities</b> (CL 5th; concentration +10)</p>
+<p class="stat-block-2">8/day&mdash;bleeding touch (2 rounds)</p>
+<p class="stat-block-1"><b>Evoker</b> <b>Spell-Like Abilities</b> (CL 5th; concentration +8)</p>
+<p class="stat-block-2">6/day&mdash;force missile (1d4+2)</p>
+<p class="stat-block-1"><b>Cleric Spells Prepared</b> (CL 12th; concentration +17)</p>
+<p class="stat-block-2">6th&mdash;<i>antimagic fiel d</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a></i>, <i><a href="/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall" >word of recall</a></i></p>
+<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (3, DC 20), <i><a href="/pathfinderRPG/prd/spells/slayLiving.html#_slay-living" >slay living</a></i><span class="char-style-override-16">D (DC 20), <i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i></p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/deathWard.html#_death-ward" >death ward</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional" >dimensional anchor</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity" >spell immunity</a></i>, <i><a href="/pathfinderRPG/prd/spells/unholyBlight.html#_unholy-blight" >unholy blight</a></i> (DC 19)</p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/contagion.html#_contagion" >contagion</a></i> (2, DC 18), <i>dispel magi c</i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge" >invisibility purge</a></i>, <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i>, <i><a href="/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iii" >summon monster III</a></i></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds" >cure moderate wounds</a></i> (2), <i>death knel l</i><sup>D</sup> (DC 17), <i><a href="/pathfinderRPG/prd/spells/holdPerson.html#_hold-person" >hold person</a></i> (DC 17), <i><a href="/pathfinderRPG/prd/spells/silence.html#_silence" >silence</a></i> (DC 17), <i><a href="/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon" >spiritual weapon</a></i></p>
+<p class="stat-block-2">1st&mdash;<i>cause fea r</i><sup>D</sup> (DC 16), <i><a href="/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds" >cure light wounds</a></i> (3), <i><a href="/pathfinderRPG/prd/spells/deathwatch.html#_deathwatch" >deathwatch</a></i>, <i><a href="/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield" >entropic shield</a></i>, <i><a href="/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist" >obscuring mist</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/bleed.html#_bleed" >bleed</a></i> (DC 15), <i><a href="/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison" >detect poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/mending.html#_mending" >mending</a></i>, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domains</b> Death, Magic</p>
+<p class="stat-block-1"><b>Evoker Spells Prepared</b> (CL 12th; concentration +15; 15% spell failure)</p>
+<p class="stat-block-2">6th&mdash;<i><a href="/pathfinderRPG/prd/spells/forcefulHand.html#_forceful-hand" >forceful hand</a></i>, <i><a href="/pathfinderRPG/prd/spells/freezingSphere.html#_freezing-sphere" >freezing sphere</a></i> (DC 19), <i><a href="/pathfinderRPG/prd/spells/mislead.html#_mislead" >mislead</a></i></p>
+<p class="stat-block-2">5th&mdash;stilled<i> <a href="/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door" >dimension door</a></i>, <i><a href="/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis" >telekinesis</a></i>, <i><a href="/pathfinderRPG/prd/spells/wallOfForce.html#_wall-of-force" >wall of force</a></i> (2)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/blackTentacles.html#_black-tentacles" >black tentacles</a></i>, <i><a href="/pathfinderRPG/prd/spells/fireShield.html#_fire-shield" >fire shield</a></i>, stilled<i> <a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a>, <a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater" >greater invisibility</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/displacement.html#_displacement" >displacement</a></i>, <i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i> (DC 16), <i><a href="/pathfinderRPG/prd/spells/fly.html" >fly</a></i>, <i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i>, <i><a href="/pathfinderRPG/prd/spells/invisibilitySphere.html#_invisibility-sphere" >invisibility sphere</a></i>, <i><a href="/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a></i> (DC 16)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/falseLife.html#_false-life" >false life</a></i>, <i><a href="/pathfinderRPG/prd/spells/flamingSphere.html#_flaming-sphere" >flaming sphere</a></i> (DC 15), <i><a href="/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind" >gust of wind</a></i> (DC 15), <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, <i><a href="/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image" >mirror image</a></i>, <i><a href="/pathfinderRPG/prd/spells/misdirection.html#_misdirection" >misdirection</a></i></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages" >comprehend languages</a></i>, <i><a href="/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat" >expeditious retreat</a></i>, <i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall" >feather fall</a></i>, <i><a href="/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile" >magic missile</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/unseenServant.html#_unseen-servant" >unseen servant</a></i></p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights" >dancing lights</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/mageHand.html#_mage-hand" >mage hand</a></i>, <i><a href="/pathfinderRPG/prd/spells/readMagic.html#_read-magic" >read magic</a></i></p>
+<p class="stat-block-2"><b>Opposition Schools</b> abjuration, enchantment</p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The mystic theurge casts <i><a href="/pathfinderRPG/prd/spells/deathwatch.html#_deathwatch" >deathwatch</a></i>, <i><a href="/pathfinderRPG/prd/spells/falseLife.html#_false-life" >false life</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, and <i>spell</i> <i>immunity</i>.</p>
+<p class="stat-block-1"><b>During Combat </b>The mystic theurge casts attack and slaying spells.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/falseLife.html#_false-life" >false life</a></i> and <i><a href="/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity" >spell immunity</a></i>, the theurge's statistics are <b>hp</b> 168; <b>Immune</b> sleep.</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 12, <b>Dex</b> 10, <b>Con</b> 18, <b>Int</b> 16, <b>Wis</b> 20, <b>Cha</b> 8</p>
+<p class="stat-block-1"><b>Base Atk</b> +8; <b>CMB</b> +9; <b>CMD</b> 22</p>
+<p class="stat-block-1"><b>Feats</b> Arcane Armor Mastery, <a href="/pathfinderRPG/prd/feats.html#_arcane-armor-training" >Arcane Armor Training</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_command-undead" >Command Undead</a>, <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <a href="/pathfinderRPG/prd/feats.html#_extra-channel" >Extra Channel</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_scribe-scroll" >Scribe Scroll</a>, <a href="/pathfinderRPG/prd/feats.html#_skill-focus" >Skill Focus</a> (Perception), <a href="/pathfinderRPG/prd/feats.html#_still-spell" >Still Spell</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a></p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +13, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +9, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana, planes) +16, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering, history, local, religion) +11, Perception +28, <a href="/pathfinderRPG/prd/skills/ride.html#_ride" >Ride</a> +0, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +16</p>
+<p class="stat-block-1"><b>Languages</b> Abyssal, Common, Elven, Infernal, Undercommon</p>
+<p class="stat-block-1"><b>SQ</b> aura, arcane bond (<i><a href="/pathfinderRPG/prd/magicItems/staves.html#_staff-of-swarming-insects" >staff of swarming insects</a></i>), combined spells (4th), elf blood</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i><a href="/pathfinderRPG/prd/magicItems/staves.html#_staff-of-swarming-insects" >staff of swarming insects</a></i>; <b>Other Gear</b> <i>+3  mithral full plate</i>, <i>+1 heavy mace</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +3</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-mighty-constitution" >belt of mighty constitution</a> +4</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance" >cloak of resistance</a> +3</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_hat-of-disguise" >hat of disguise</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-mental-prowess" >headband of mental prowess</a> +4 </i>(Int, Wis), <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +3</i>, 5,838 gp</p>
+
+<p>A death master slings a spell with each stride.</p>
+
+
+
+<p id="holy-battle mage" class="stat-block-title">Holy Battle Mage <span class="stat-block-cr">CR 19</span></p>
+<p class="stat-block-1"><b>XP</b> 204,800</p>
+<p class="stat-block-1"><b>Dwarf cleric</b> 5</p>
+<p class="stat-block-1"><b>Wizard</b> 5</p>
+<p class="stat-block-1"><b>Mystic theurge</b> 10</p>
+<p class="stat-block-1">NG Medium humanoid (dwarf)</p>
+<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft.; Perception +27</p>
+<p class="stat-block-breaker">Defense</p>
+<p class="stat-block-1"><b>AC</b> 30, touch 14, flat-footed 30 (+11 armor, +5 deflection, –1 Dex, +5 natural)</p>
+<p class="stat-block-1"><b>hp</b> 237 (5d8+5d6+10d6+159)</p>
+<p class="stat-block-1"><b>Fort</b> +16, <b>Ref</b> +6, <b>Will</b> +23; +6 vs. poison, +4 vs. fear, +2 vs. spells and spell-like abilities</p>
+<p class="stat-block-1"><b>Defensive Abilities</b> defensive training (+4 dodge bonus to AC vs. giants), 20% miss chance; <b>DR</b> 10/adamantine (150 points); <b>Immune</b> electricity (120 points), fire (120 points)</p>
+<p class="stat-block-breaker">Offense</p>
+<p class="stat-block-1"><b>Speed</b> 20 ft.</p>
+<p class="stat-block-1"><b>Melee</b> <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a> warhammer</i> +13/+8 (1d8+1/×3)</p>
+<p class="stat-block-1"><b>Special Attacks</b> +1 on attack rolls against goblinoid and orc humanoids, channel positive energy 5/day (DC 12, 3d6), hand of the apprentice (9/day), spell synthesis</p>
+<p class="stat-block-1"><b>Domain</b> <b>Spell-Like Abilities</b> (CL 5th; concentration +12)</p>
+<p class="stat-block-2">10/day&mdash;artificer's touch (1d6+2), resistant touch</p>
+<p class="stat-block-1"><b>Cleric Spells Prepared</b> (CL 15th; concentration +22)</p>
+<p class="stat-block-2">8th&mdash;<i><a href="/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity-greater" >greater spell immunity</a></i>, <i><a href="/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank" >mind blank</a></i><sup>D</sup></p>
+<p class="stat-block-2">7th&mdash;<i><a href="/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt" >ethereal jaunt</a></i>, <i><a href="/pathfinderRPG/prd/spells/holyWord.html#_holy-word" >holy word</a></i> (2, DC 25), <i><a href="/pathfinderRPG/prd/spells/repulsion.html#_repulsion" >repulsion</a></i><sup>D</sup> (DC 24)</p>
+<p class="stat-block-2">6th&mdash;<i><a href="/pathfinderRPG/prd/spells/harm.html#_harm" >harm</a></i> (DC 23), <i><a href="/pathfinderRPG/prd/spells/heal.html#_heal" >heal</a> </i>(2), <i><a href="/pathfinderRPG/prd/spells/heroesFeast.html#_heroes-feast" >heroes' feast</a></i>, <i><a href="/pathfinderRPG/prd/spells/majorCreation.html#_major-creation" >major creation</a></i><sup>D</sup></p>
+<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life" >breath of life</a></i>, <i><a href="/pathfinderRPG/prd/spells/disruptingWeapon.html#_disrupting-weapon" >disrupting weapon</a></i>, <i><a href="/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike" >flame strike</a></i> (DC 23), <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance" >spell resistance</a></i><sup>D</sup><i>, <a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/airWalk.html#_air-walk" >air walk</a></i>, <i><a href="/pathfinderRPG/prd/spells/divinePower.html#_divine-power" >divine power</a></i>, <i><a href="/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i>, <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i> (2), spell immunity<sup>D</sup></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge" >invisibility purge</a></i>, <i><a href="/pathfinderRPG/prd/spells/meldIntoStone.html#_meld-into-stone" >meld into stone</a></i>, <i><a href="/pathfinderRPG/prd/spells/prayer.html#_prayer" >prayer</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/removeCurse.html#_remove-curse" >remove curse</a></i>, <i><a href="/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape" >stone shape</a></i><sup>D</sup></p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/aid.html#_aid" >aid</a></i>, <i><a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a> </i>(2), <i><a href="/pathfinderRPG/prd/spells/holdPerson.html#_hold-person" >hold person</a></i> (2, DC 19), <i><a href="/pathfinderRPG/prd/spells/woodShape.html#_wood-shape" >wood shape</a></i><sup>D</sup></p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/animateRope.html#_animate-rope" >animate rope</a></i><sup>D</sup>, <i><a href="/pathfinderRPG/prd/spells/bless.html#_bless" >bless</a> </i>(2), <i><a href="/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor" >divine favor</a> </i>(2), <i><a href="/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith" >shield of faith</a> </i>(2)</p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic" >detect magic</a></i>, <i><a href="/pathfinderRPG/prd/spells/mending.html#_mending" >mending</a></i>, <i><a href="/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink" >purify food and drink</a></i>, <i><a href="/pathfinderRPG/prd/spells/stabilize.html#_stabilize" >stabilize</a></i></p>
+<p class="stat-block-2"><b>D</b> Domain spell; <b>Domains</b> Artifice, Protection</p>
+<p class="stat-block-1"><b>Wizard Spells Prepared</b> (CL 15th; concentration +21; arcane spell failure 20%)</p>
+<p class="stat-block-2">8th&mdash;<i><a href="/pathfinderRPG/prd/spells/prismaticWall.html#_prismatic-wall" >prismatic wall</a></i></p>
+<p class="stat-block-2">7th&mdash;<i><a href="/pathfinderRPG/prd/spells/giantForm.html#_giant-form-i" >giant form I</a></i>, <i><a href="/pathfinderRPG/prd/spells/prismaticSpray.html#_prismatic-spray" >prismatic spray</a></i></p>
+<p class="stat-block-2">6th&mdash;<i><a href="/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning" >chain lightning</a></i> (2, DC 23), <i><a href="/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate" >disintegrate</a></i> (DC 22), <i><a href="/pathfinderRPG/prd/spells/transformation.html#_transformation" >transformation</a></i></p>
+<p class="stat-block-2">5th&mdash;<i><a href="/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill" >cloudkill</a> </i>(DC 21), <i><a href="/pathfinderRPG/prd/spells/holdMonster.html#_hold-monster" >hold monster</a></i> (2, DC 21), <i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone" >wall of stone</a> </i>(2)</p>
+<p class="stat-block-2">4th&mdash;<i><a href="/pathfinderRPG/prd/spells/arcaneEye.html#_arcane-eye" >arcane eye</a></i>, <i><a href="/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door" >dimension door</a></i>, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater" >greater invisibility</a> </i>(2), <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i></p>
+<p class="stat-block-2">3rd&mdash;<i><a href="/pathfinderRPG/prd/spells/fireball.html#_fireball" >fireball</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/haste.html#_haste" >haste</a></i> (2), <i><a href="/pathfinderRPG/prd/spells/heroism.html#_heroism" >heroism</a></i>, <i><a href="/pathfinderRPG/prd/spells/suggestion.html#_suggestion" >suggestion</a></i> (DC 19)</p>
+<p class="stat-block-2">2nd&mdash;<i><a href="/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow" >acid arrow</a></i>, <i><a href="/pathfinderRPG/prd/spells/invisibility.html#_invisibility" >invisibility</a></i>, <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a> </i>(2), <i><a href="/pathfinderRPG/prd/spells/web.html#_web" >web</a></i> (2, DC 18)</p>
+<p class="stat-block-2">1st&mdash;<i><a href="/pathfinderRPG/prd/spells/charmPerson.html#_charm-person" >charm person</a></i> (DC 17), <i><a href="/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile" >magic missile</a> </i>(3), <i><a href="/pathfinderRPG/prd/spells/shield.html#_shield" >shield</a> </i>(2)</p>
+<p class="stat-block-2">0 (at will)&mdash;<i><a href="/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison" >detect poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/disruptUndead.html#_disrupt-undead" >disrupt undead</a></i>, <i><a href="/pathfinderRPG/prd/spells/mageHand.html#_mage-hand" >mage hand</a></i>, <i><a href="/pathfinderRPG/prd/spells/message.html#_message" >message</a></i></p>
+<p class="stat-block-breaker">Tactics</p>
+<p class="stat-block-1"><b>Before Combat</b> The mystic theurge casts <i><a href="/pathfinderRPG/prd/spells/heroesFeast.html#_heroes-feast" >heroes' feast</a>,</i> <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (electricity, fire), <i><a href="/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i>, and <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>.</p>
+<p class="stat-block-1"><b>During Combat </b>The mystic theurge uses spells to foil opponents and bolster allies. If entering melee combat, he casts <i><a href="/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might" >righteous might</a></i> and <i><a href="/pathfinderRPG/prd/spells/transformation.html#_transformation" >transformation</a></i>.</p>
+<p class="stat-block-1"><b>Base Statistics</b> Without <i><a href="/pathfinderRPG/prd/spells/heroesFeast.html#_heroes-feast" >heroes' feast</a></i>, <i><a href="/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i>, and <i><a href="/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin" >stoneskin</a></i>, the mystic theurge's statistics are <b>hp</b> 223; <b>Will</b> +22; +2 vs. poison, spells, and spell-like abilities; <b>DR</b> none; <b>Immune</b> none; <b>Melee</b> <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a> warhammer </i>+12/+7 (1d8+1/×3).</p>
+<p class="stat-block-breaker">Statistics</p>
+<p class="stat-block-1"><b>Str</b> 10, <b>Dex</b> 8, <b>Con</b> 22, <b>Int</b> 22, <b>Wis</b> 24, <b>Cha</b> 11</p>
+<p class="stat-block-1"><b>Base Atk</b> +10; <b>CMB</b> +10; <b>CMD</b> 24 (28 vs. bull rush or trip)</p>
+<p class="stat-block-1"><b>Feats</b> Arcane Armor Mastery, <a href="/pathfinderRPG/prd/feats.html#_arcane-armor-training" >Arcane Armor Training</a>, <a href="/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <a href="/pathfinderRPG/prd/feats.html#_craft-wondrous-item" >Craft Wondrous Item</a>, <a href="/pathfinderRPG/prd/feats.html#_extra-channel" >Extra Channel</a>, <a href="/pathfinderRPG/prd/feats.html#_forge-ring" >Forge Ring</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, <a href="/pathfinderRPG/prd/feats.html#_scribe-scroll" >Scribe Scroll</a>, <a href="/pathfinderRPG/prd/feats.html#_spell-focus" >Spell Focus</a> (evocation), <a href="/pathfinderRPG/prd/feats.html#_spell-penetration" >Spell Penetration</a>, <a href="/pathfinderRPG/prd/feats.html#_toughness" >Toughness</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (warhammer)</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (armor, weapons) +14, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +13, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> +20, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana, religion) +29, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering, engineering, planes) +19, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history, local) +14, Perception +27 (+29 to notice unusual stonework), <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +20, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +19, <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +10</p>
+<p class="stat-block-1"><b>Languages</b> Aklo, Celestial, Common, Draconic, Dwarven, Elven, Giant, Undercommon</p>
+<p class="stat-block-1"><b>SQ</b> aura, arcane bond (<i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a> warhammer</i>), combined spells (5th)</p>
+<p class="stat-block-1"><b>Combat Gear</b> <i>potions of <a href="/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i> (2), <i>wand of  <a href="/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds" >cure serious wounds</a></i> (20 charges), holy water (5); <b>Other Gear</b> <i>+5 mithral chainmail</i>, <i>+1 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy" >holy</a> warhammer</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor" >amulet of natural armor</a> +5</i>, <i><a href="/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-mighty-constitution" >belt of mighty constitution</a> +6</i>, <i>minor cloak of <a href="/pathfinderRPG/prd/spells/displacement.html#_displacement" >displacement</a></i>, <i><a href="/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection" >ring of protection</a> +5, </i>diamond dust (worth 500 gp), eye ointment (worth 250 gp), pair of canine statuettes (worth 50 gp), 1,863 gp</p>
+
+<p>These master theurges mix support for allies with offensive might.</p>
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

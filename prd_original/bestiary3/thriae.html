@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Thriae</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Thriae",globalNavPath=[{ href: '/pathfinderRPG/prd/bestiary3/monsterIndex.html', name: 'Bestiary 3 Index'}];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body"><div>
+				<h1 id="thriae" class="monster-header">Thriae</h1>
+				<p>Highly spiritual creatures and keepers of the world's greatest secrets, the thriae are a race of female, beelike seers coveted for their powers of divination and prophecy. Roughly humanoid in size and appearance, thriae keep to the outskirts of civilization, tending to their mysterious rituals and maintaining a watchful&mdash;if passive&mdash;eye over the machinations of nearby societies. While possessing an eerie air of mysticism, thriae are nonetheless startlingly beautiful, their slender bodies giving an unexpected grace to the otherwise unsightly mannerisms of giant bees.</p>
+				<p>Settlements that find themselves near the hilly homes of thriae hives often send a chosen citizen to visit the creatures, hoping to glean helpful insight from the wise prophetesses regarding the growth of the settlement's crops, the prosperity of its people, or the strength of its warriors. Thriae have little interest in the affairs of most humanoids, but do aid those who come bearing offerings of gold or physically fit male consorts. All thriae are female, and so the queen must breed with humanoid males in order to propagate the colony. If a colony hasn't received an offering of a suitable consort recently, thriae sometimes visit nearby settlements in the hope of garnering young male volunteers to come and live with them for the rest of their lives&mdash;living with the thriae exposes chosen males to many of the mysterious race's secrets, so the prophetesses cannot afford to let them leave the thriae's domains once they have entered. The life of male consorts is one of comfort and luxury, however, as they spend their days in a blissful trance brought on by the mind-altering effects of the thriae queen's nourishing honey, a substance called merope. Once they are too old to continue their duties, the males are put in a deep, numbing sleep, whereupon the thriae painlessly devour the consorts' elderly bodies. Thriae generally do not have emotional ties to their humanoid mates, using them for procreation only&mdash;exceptions exist, particularly among non-queen thriae, who cannot lay eggs but sometimes choose a willing mate anyway. Only the queen can lay eggs; a typical queen produce 400 to 500 eggs in her lifetime. The life span of a typical thriae who does not die in battle is about 200 years. </p>
+				<p>Thriae choose particularly spiritual individuals to become seers, members of the colony who perform the rituals that allow them to divine their cryptic prophecies. These seers drink from merope and derive meaning from their spiritual hallucinations, traveling into the forests or mountains to decode various patterns among nature. Thriae hold a particular reverence for the structures and communication patterns of common bees, patterns which they often study intently while undergoing their merope-induced spiritual journeys. The bond thriae have with common bees and giant bees extends beyond this, however, as many powerful thriae possess the ability to call forth such insects when they are in need of aid, such as while protecting their homes. Thriae are extremely territorial, and disrupt their normally stoic behavior to passionately fight off intruders or creatures otherwise imposing upon their domain. Many thriae colonies can trace back their lineages thousands of years, keeping extensive archives hidden within the catacombs of their labyrinthine hives. The hives thriae reside in resemble the beehives of their miniature relatives, but constructed on a much grander fashion and scale. Since thriae fly wherever they go, they tend to build their most important chambers higher up in order to deter bipedal would-be burglars.</p>
+				<p>Thriae come in various shapes and sizes, their abilities ranging equally in terms of specialization. An individual thriae's occupation within the particular thriae society she is born into is selected by her elders when she reaches adolescence, several months after her development as a larva and then as a pupa. Once her occupation is determined, a young thriae is assigned a “mother,” and is trained by this elder to perform her tasks perfectly so as to keep the hive in fully autonomous order. Many thriae never see battle in their lifetimes, instead performing tasks such as recording scriptures derived from seers' verbal prophecies, cultivating the crops and herd animals that thriae use for food, or crafting elaborate crowns, necklaces, and other ornaments unique to thriae and renowned by jewelers the world over. Thriae have a fascination with all kinds of rare metals, and the intricate ways in which they utilize these alloys in building their wares exemplifies the race's passion and ingenuity. They do not regularly trade with outside societies except in times of dire need, such as during a feud or war that cuts off access to needed resources.</p>
+				<h1 id="thriae-merope">Thriae Merope</h1>
+				<p>Merope, the magical honey produced by thriae queens, possesses numerous supernatural properties. Even among thriae, the effects of drinking merope are remarkably diverse. A specific amount of merope for one thriae may put her into a tranquil haze, while the same amount for another could set off a bout of insatiable rage. The effect of merope on a specific type of thriae is marked in a thriae's stat block.</p>
+				<p>To non-thriae, merope generally has similar effects to strong alcohol. The substance can be addicting to the weak-willed, and those who begin to rely on merope quickly become addicted thralls and servants bound to servitude within a hive. Some thriae claim to have developed merope with the ability to affect non-thriae with more potent effects, but such claims are regarded as something between blasphemy and treason by most thriae hives.</p>
+			
+			<h1 id="thriae-queen" class="monster-header">Thriae <span class="char-style-override-34">Q</span>ueen</h1>
+				<p class="flavor-text">This towering, shapely, purple-skinned woman has an insectile lower body, antennae on her brow, and the wings of a bee.</p>
+				<p class="stat-block-title">Thriae Queen <span class="stat-block-cr">CR 18</span></p>
+				<p class="stat-block-xp">XP 153,600</p>
+				<p class="stat-block-1">LN Huge monstrous humanoid </p>
+				<p class="stat-block-1"><b>Init</b> +4; <b>Senses</b> darkvision 60 ft., <i><a href="/pathfinderRPG/prd/spells/detectSecretDoors.html#_detect-secret-doors" >detect secret doors</a></i>, low-light vision, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i>; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +37</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 33, touch 8, flat-footed 33 (+25 natural, &ndash;2 size)</p>
+				<p class="stat-block-1"><b>hp</b> 312 (25d10+175); fast healing 10</p>
+				<p class="stat-block-1"><b>Fort</b> +15, <b>Ref</b> +14, <b>Will</b> +21</p>
+				<p class="stat-block-1"><b>Defensive Abilities</b> merope coat; <b>Immune</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, sonic; <b>Resist</b> acid 20; <b>SR</b> 29</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., fly 50 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+2 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-axiomatic" >axiomatic</a> <a href="/pathfinderRPG/prd/spells/light.html#_light" >light</a> mace</i> +35/+30/+25/+20 (2d6+11/19&ndash;20), sting +27 (2d8+4/19&ndash;20 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>)</p>
+				<p class="stat-block-1"><b>Space</b> 15 ft.; <b>Reach</b> 15 ft.</p>
+				<p class="stat-block-1"><b>Special Attacks</b> launch merope, spawn soldiers</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 20th; concentration +29)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/detectSecretDoors.html#_detect-secret-doors" >detect secret doors</a></i>, <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/daylight.html#_daylight" >daylight</a></i>, <i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i> (DC 21), <i><a href="/pathfinderRPG/prd/spells/scrying.html#_scrying-greater" >greater scrying</a></i> (DC 26), <i><a href="/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison" >neutralize poison</a></i>, <i><a href="/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease" >remove disease</a></i>, <i><a href="/pathfinderRPG/prd/spells/speakWithDead.html#_speak-with-dead" >speak with dead</a></i> (DC 22)</p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster" >charm monster</a></i> (DC 23), <i><a href="/pathfinderRPG/prd/spells/findThePath.html#_find-the-path" >find the path</a></i>, <i><a href="/pathfinderRPG/prd/spells/giantVermin.html#_giant-vermin" >giant vermin</a></i> (8 bees or 6 wasps), <i><a href="/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds-mass" >mass cure critical wounds</a></i>, <i><a href="/pathfinderRPG/prd/spells/poison.html#_poison" >poison</a></i> <br/>(DC 23), <i><a href="/pathfinderRPG/prd/spells/restoration.html#_restoration" >restoration</a>, <a href="/pathfinderRPG/prd/spells/slow.html#_slow" >slow</a></i> (DC 22)</p>
+				<p class="stat-block-2">1/day&mdash;<i><a href="/pathfinderRPG/prd/spells/foresight.html#_foresight" >foresight</a></i>, <i><a href="/pathfinderRPG/prd/spells/heal.html#_heal-mass" >mass heal</a></i>, quickened <i><a href="/pathfinderRPG/prd/spells/regenerate.html#_regenerate" >regenerate</a></i></p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 28, <b>Dex</b> 11, <b>Con</b> 25, <b>Int</b> 20, <b>Wis</b> 21, <b>Cha</b> 28</p>
+				<p class="stat-block-1"><b>Base Atk</b> +25; <b>CMB</b> +36; <b>CMD</b> 46</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-expertise" >Combat Expertise</a>, <a href="/pathfinderRPG/prd/feats.html#_critical-focus" >Critical Focus</a>, Greater <a href="/pathfinderRPG/prd/feats.html#_spell-penetration" >Spell Penetration</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (sting), <a href="/pathfinderRPG/prd/feats.html#_improved-critical" >Improved Critical</a> (light mace), <a href="/pathfinderRPG/prd/feats.html#_improved-initiative" >Improved Initiative</a>, Improved <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/feats.html#_iron-will" >Iron Will</a>, <a href="/pathfinderRPG/prd/monsters/monsterFeats.html#_quicken-spell-like-ability" >Quicken Spell-Like Ability</a> (<i><a href="/pathfinderRPG/prd/spells/regenerate.html#_regenerate" >regenerate</a></i>), <a href="/pathfinderRPG/prd/feats.html#_spell-penetration" >Spell Penetration</a>, <a href="/pathfinderRPG/prd/feats.html#_weapon-focus" >Weapon Focus</a> (light mace)</p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +34, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +34, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +24, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +30, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion) +30, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +37, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +34, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +30, <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +34</p>
+				<p class="stat-block-1"><b>Languages</b> Common, Sylvan, Thriae; telepathy 300 ft.</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary or colony (1 queen, 3 seers, 11&ndash;20 soldiers, and 3&ndash;30 giant bees)</p>
+				<p class="stat-block-1"><b>Treasure</b> double (<i>+2 <a href="/pathfinderRPG/prd/magicItems/weapons.html#_weapons-axiomatic" >axiomatic</a> light mace</i>, other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Launch Merope (Su) </b>A thriae queen can launch a stream of merope from a gland in her lower body in a 60-foot line as a standard action. A thriae queen using this ability can control the purity of the merope she launches, which makes it either harm those it touches or heal them. If a thriae queen chooses to make her merope harmful, all creatures in the area of effect take 20d8 points of acid damage (Reflex DC 29 for half). In addition, any creature in the area of effect is also staggered for 1d4 rounds (or 1 round if it succeeds at its Reflex save). If she uses it to heal, the merope heals all living creatures in the area of effect for 10d8 points of damage. A thriae queen can use this ability once every 1d4 rounds. The save DC is Constitution-based.</p>
+				<p class="stat-block-1"><b>Merope Coat (Su) </b>A thriae queen is covered in a thin layer of merope. This coating acts as a magical barrier between spells cast at the thriae queen, as though she were constantly under the effects of <i><a href="/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning" >spell turning</a></i>. The coat affects a maximum of eight spell levels&mdash;when a spell effect is turned, this coating is depleted by a number of spell levels equal to the level of the spell reflected. The queen regenerates this coating at a rate of one spell level per round. A spell in excess of what the merope coat can currently reflect is not reflected, and reduces the merope coat to a score of 0. Spells that fail to penetrate the queen's spell <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance" >resistance</a> do not reduce the merope coat's efficiency in this manner.</p>
+				<p class="stat-block-1"><b>Spawn Soldiers (Su) </b>Three times per day as a standard action, a thriae queen can spawn a large swarm of wasps. This functions as four separate wasp swarms (<i>Bestiary</i> 275) that occupy all of the squares adjacent to the thriae queen. These swarms do not harm any thriae, and while they move with the queen as she moves, the swarms cannot leave her side. The swarms last until they are destroyed or 1 hour passes, at which point the swarms die on their own.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >Poison</a> (Ex)</b> Sting&mdash;injury; <i>save</i> Fort DC 29; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1d6 Con plus staggered for 1 round; <i>cure</i> 2 consecutive saves.</p>
+				
+				<p>The most powerful individual within any given thriae colony, the queen is a divine soothsayer, a provider of life, and a destroyer of those would seek to disrupt the order of the colony. Viewed by her children as a benevolent matriarch rather than a mother, the thriae queen is the only fertile member of the colony, and thus the sole reproducer should the colony's population meet a devastating blow, whether through plague, famine, or war. A queen is revered by soldiers and seers alike, both for her physical might and her divine power, and she exemplifies the very best of thriae society in terms of strength, insight, and magnetism. While a queen is often too busy to entertain guests of a thriae hive, those intruders who do catch a glimpse of her are captured by her beauty and grace, and many would follow her if only to be by her side. But those who are allowed to enjoy the queen's company are few, and those few are carefully selected from among the hive's greatest warriors and priestesses, soldiers and seers whose powers have shown them to be skillful as well as loyal.</p>
+				<p>Most thriae colonies only have one queen, though particularly large or far-reaching hives have been known to have as many as three at any given time. Thriae queens are the ultimate authority within a hive, and make most of the major decisions regarding the colony's growth. Only the wealthiest and most respected outsiders are granted an audience with the ever-busy queen, whose numerous duties around the hive are analogous to those of any other ruler of a small kingdom. They grant only audiences regarding matters of the utmost concern, matters that stimulate the curiosity of a thriae queen and require not merely the cryptic readings of seers but a true divination as only a queen can provide.</p>
+				<p>When not divining or performing governmental tasks, a thriae queen can often be found in her private chamber, where she lies with male consorts, lays eggs, cares for her larvae, and creates the vast stores of merope used every day within the hive. Consorts are chosen carefully, as they are constantly within extremely close proximity to the queen, who is far from vulnerable in her own right but nonetheless often prefers to avoid conflicts with would-be assassins or burglars.</p>
+				<p>A thriae queen lays fertilized eggs in one of the waxy, golden cells of her chamber walls. Thriae eggs go through several stages of growth before becoming fully formed thriae&mdash;the longest stage of development is the larval stage, which is a crucial point in determining the formation of a thriae. Most larvae are fed merope while they grow, but in the height of her power, a thriae queen selects a single larva to be her successor, and she feeds that individual a special substance secreted from her merope gland called royal merope. This thick, jellylike substance strengthens the larva and causes it to grow greatly in size, and when it pupates and hatches, it does so as a fully grown thriae queen.</p>
+				<p>The mother queen teaches its successor in the ways of divining as well as ruling a colony. The successor then faces a choice&mdash;either remaining in the colony she was born into and furthering the growth of the hive, or setting out on her own to establish an allied colony. If she does the latter, the remaining queen must birth another successor, which is not considered so much a bother as it is an unavoidable circumstance. Queens do not look upon successors who leave as deserting daughters, instead viewing them as future allies for the colony down the road.</p>
+				<h1 id="thriae-larvae">Thriae Larvae</h1>
+				<p>Larvae who are fed regular merope become soldiers, seers, or other contributing members of thriae society. While more susceptible to harm in the larval stage, thriae larvae still pose a threat to unwary intruders who find themselves among the cells of numerous unhatched thriae. Creatures that succeed at a DC 15 <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> check or <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) check notice larvae embedded in the hive's waxy walls. Unhatched thriae larvae can detect disturbances outside their cell walls, and burst from the cells in order to prey upon the nutritious intruders. Any creature within 5 feet of a larval cell must make a DC 15 Reflex save to avoid becoming infested with the larvae. A creature that becomes infested must make a successful DC 15 Fortitude save each round to avoid taking 1d2 points of Constitution damage and falling asleep&mdash;additional Constitution damage from feeding larvae does not wake sleeping victims. Feeding larvae can be detached from the creature they cling to by cutting them off with a slashing weapon (which requires a DC 20 <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> check that deals 1d4 points of damage per larva attached) or by dealing cold damage to the larvae at any time, which also deals half damage to the creature the larvae are covering. <i><a href="/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease" >Remove disease</a></i> or a similar effect kills any thriae larvae on the host.</p>
+			
+			<h1 id="thriae-seer" class="monster-header">Thriae Seer</h1>
+				<p class="flavor-text">Lithe and beautiful, this half-bee, half-woman creature wears elaborate makeup and wields an ornate staff.</p>
+				<p class="stat-block-title">Thriae Seer <span class="stat-block-cr">CR 11</span></p>
+				<p class="stat-block-xp">XP 12,800</p>
+				<p class="stat-block-1">LN Medium monstrous humanoid </p>
+				<p class="stat-block-1"><b>Init</b> +5; <b>Senses</b> darkvision 60 ft., <i><a href="/pathfinderRPG/prd/spells/detectSecretDoors.html#_detect-secret-doors" >detect secret doors</a></i>, low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +27</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 25, touch 15, flat-footed 20 (+5 Dex, +10 natural)</p>
+				<p class="stat-block-1"><b>hp</b> 133 (14d10+56)</p>
+				<p class="stat-block-1"><b>Fort</b> +8, <b>Ref</b> +16, <b>Will</b> +15</p>
+				<p class="stat-block-1"><b>Immune</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, sonic; <b>Resist</b> acid 10; <b>SR</b> 22</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., fly 60 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> <i>+2 quarterstaff</i> +16/+11/+6 (1d6+4),<i> +2 quarterstaff</i> +16/+11 (1d6+3), sting +11 (1d8+3 plus mind sting)</p>
+				<p class="stat-block-1"><b>Special Attacks</b> merope consumption</p>
+				<p class="stat-block-1"><b>Spell-Like Abilities</b> (CL 14th; concentration +22)</p>
+				<p class="stat-block-2">Constant&mdash;<i><a href="/pathfinderRPG/prd/spells/detectSecretDoors.html#_detect-secret-doors" >detect secret doors</a></i></p>
+				<p class="stat-block-2">At will&mdash;<i><a href="/pathfinderRPG/prd/spells/calmEmotions.html#_calm-emotions" >calm emotions</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts" >detect thoughts</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/soundBurst.html#_sound-burst" >sound burst</a></i> (DC 20)</p>
+				<p class="stat-block-2">3/day&mdash;<i><a href="/pathfinderRPG/prd/spells/divination.html#_divination" >divination</a></i>, <i><a href="/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge" >invisibility purge</a></i>, <i><a href="/pathfinderRPG/prd/spells/locateObject.html#_locate-object" >locate object</a></i>, <i><a href="/pathfinderRPG/prd/spells/misdirection.html#_misdirection" >misdirection</a></i> (DC 20), <i><a href="/pathfinderRPG/prd/spells/symbolOfSleep.html#_symbol-of-sleep" >symbol of sleep</a></i> (DC 23)</p>
+				<p class="stat-block-2">1/day&mdash;summon bees (level 5, 1d3 giant queen bees or 1d4 wasp swarms), <i><a href="/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing" >true seeing</a></i></p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 14, <b>Dex</b> 20, <b>Con</b> 19, <b>Int</b> 19, <b>Wis</b> 22, <b>Cha</b> 27</p>
+				<p class="stat-block-1"><b>Base Atk</b> +14; <b>CMB</b> +19; <b>CMD</b> 31</p>
+				<p class="stat-block-1"><b>Feats </b><a href="/pathfinderRPG/prd/feats.html#_agile-maneuvers" >Agile Maneuvers</a>, <a href="/pathfinderRPG/prd/feats.html#_alertness" >Alertness</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-casting" >Combat Casting</a>, <a href="/pathfinderRPG/prd/feats.html#_combat-reflexes" >Combat Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_improved-two-weapon-fighting">Improved Two-Weapon Fighting</a>, <a href="/pathfinderRPG/prd/feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="/pathfinderRPG/prd/feats.html#_two-weapon-fighting" >Two-Weapon Fighting</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a> +22, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> +22, <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +26, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) +18, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +27, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a> +24, <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> +18, <a href="/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> +22</p>
+				<p class="stat-block-1"><b>Languages</b> Common, Sylvan, Thriae</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any</p>
+				<p class="stat-block-1"><b>Organization</b> solitary, pair, or triad</p>
+				<p class="stat-block-1"><b>Treasure</b> double (<i>+2 quarterstaff</i>, 3 doses of merope, other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Merope Consumption (Su)</b> Three times per day as a standard action, a thriae seer can consume a dose of merope in order to further tap into her spiritual powers for 1d6+3 rounds. Starting on the round after she consumes the merope, the thriae seer gains an insight bonus to her AC and on damage done with melee attacks equal to her Wisdom modifier (+6 for most thriae seers).</p>
+				<p class="stat-block-1"><b>Mind Sting (Su) </b>A target stung by a thriae seer becomes confused for 1d4 rounds unless it makes a successful DC 21 Will save. This is a mind-affecting effect. The save DC is Constitution-based.</p>
+				
+				<p>Sought after for their wisdom and guidance as well as their enchanting beauty, thriae seers are among the most spiritually gifted members of their colony. Their prowess for foretelling the future and deciding upon the soundest courses of action in dire situations earns them respect from other thriae as well as outsiders from other societies, and seers wield their gift with a stoic humbleness. Nonetheless, most seers expect an offering before they will grant an audience a divination. These offerings usually consist of ornate jewelry and sums of gold, though some seers desire the company of humanoid male or female consorts, many of whom gladly oblige the captivating seer with their presence.</p>
+				<p>While their combative abilities mainly comprise their magical powers and they appear at first glance to be thin and frail, seers still possess the trademark strength and resilience of all thriae.</p>
+				<p> Thriae seers spend most of their time meditating in one of the many chambers in the colony's hive dedicated to such activities. Consuming large amounts of their queen's merope to enhance their powers of divination, seers ponder the best solutions to their colony's problems, and often act as a sort of spiritual political council for the queen. If a particularly wealthy group of outsiders has sought the counsel of several thriae seers, this council of prophetesses will combine their powers in order to read a difficult divination.</p>
+				<p>Thriae seers are 6 feet from head to toe and weigh 150 pounds. The thriae seer presented here represents the least of her kind. Many thriae seers take levels of monk or rogue so as to be even more adept at protecting their queen. Thriae oracles and sorcerers are also relatively common&mdash;such thriae are particularly valued by their hive for their magical abilities.</p>
+			
+			<h1 id="thriae-soldier" class="monster-header">Thriae Soldier</h1>
+				<p class="flavor-text">This creature has the upper body of a woman and the lower body of a bee. She wields a longbow with uncanny skill.</p>
+				<p class="stat-block-title">Thriae Soldier <span class="stat-block-cr">CR 4</span></p>
+				<p class="stat-block-xp">XP 1,200</p>
+				<p class="stat-block-1">LN Medium monstrous humanoid </p>
+				<p class="stat-block-1"><b>Init</b> +3; <b>Senses</b> darkvision 60 ft., low-light vision; <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +9</p>
+				<p class="stat-block-breaker">Defense</p>
+				<p class="stat-block-1"><b>AC</b> 17, touch 13, flat-footed 14 (+4 armor, +3 Dex)</p>
+				<p class="stat-block-1"><b>hp</b> 42 (5d10+15)</p>
+				<p class="stat-block-1"><b>Fort</b> +4, <b>Ref</b> +7, <b>Will</b> +5</p>
+				<p class="stat-block-1"><b>Immune</b> <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>, sonic</p>
+				<p class="stat-block-breaker">Offense</p>
+				<p class="stat-block-1"><b>Speed</b> 30 ft., fly 60 ft. (good)</p>
+				<p class="stat-block-1"><b>Melee</b> sting +10 (1d8+7 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>)</p>
+				<p class="stat-block-1"><b>Ranged</b> composite longbow +8 (1d8+5/&times;3 plus <a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >poison</a>) or <a href="/pathfinderRPG/prd/feats.html#_rapid-shot">Rapid Shot</a> +6/+6 (1d8+5/&times;3 plus poison)</p>
+				<p class="stat-block-1"><b>Special Attacks </b>merope consumption</p>
+				<p class="stat-block-breaker">Statistics</p>
+				<p class="stat-block-1"><b>Str</b> 20, <b>Dex</b> 17, <b>Con</b> 16, <b>Int</b> 12, <b>Wis</b> 13, <b>Cha</b> 15</p>
+				<p class="stat-block-1"><b>Base Atk</b> +5; <b>CMB</b> +10; <b>CMD</b> 23</p>
+				<p class="stat-block-1"><b>Feats</b> <a href="/pathfinderRPG/prd/feats.html#_point-blank-shot" >Point-Blank Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_precise-shot">Precise Shot</a>, <a href="/pathfinderRPG/prd/feats.html#_rapid-shot">Rapid Shot</a></p>
+				<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/fly.html#_fly" >Fly</a> +13, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a> +10, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a> +9, <a href="/pathfinderRPG/prd/skills/stealth.html#_stealth" >Stealth</a> +9, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a> +9</p>
+				<p class="stat-block-1"><b>Languages</b> Common, Sylvan</p>
+				<p class="stat-block-breaker">Ecology</p>
+				<p class="stat-block-1"><b>Environment</b> any</p>
+				<p class="stat-block-1"><b>Organization</b> pair, troop (3&ndash;8), or company (9&ndash;20 soldiers, 2&ndash;4 rangers of 3&ndash;5th level, 1&ndash;2 rogues of 4&ndash;6th level, and 1 fighter commander of 5&ndash;8th level)</p>
+				<p class="stat-block-1"><b>Treasure</b> standard (chain shirt, composite longbow [+5 Str] with 20 arrows, 1 dose of merope, other treasure)</p>
+				<p class="stat-block-breaker">Special Abilities</p>
+				<p class="stat-block-1"><b>Merope Consumption (Su) </b>Once per day as a standard action, a thriae soldier can consume a dose of merope in order to enhance her combat abilities for 1d6+3 rounds. Starting on the round after the merope is consumed, the thriae soldier gains a +2 insight bonus on attack rolls and saving throws, and gains fast healing 3.</p>
+				<p class="stat-block-1"><b><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)" >Poison</a> (Ex) </b>Sting or arrow&mdash;injury; <i>save</i> Fort DC 15; <i>frequency</i> 1/round for 6 rounds; <i>effect</i> 1d2 Str; <i>cure</i> 1 save. As a free action, a thriae soldier can apply her venom to an arrow as she fires the shot. The save DC is Constitution-based.</p>
+				
+				<p>The guardians of the thriae colony and its treasures, thriae soldiers make up the backbone of a hive's defenses. Whether patrolling the perimeter of the hive or protecting its queen and seers from attackers, soldiers are a crucial asset ensuring a colony's survival, and so it makes sense that they compose the majority of thriae populations. While not as spiritually powerful as their seer and queen kin, soldiers possess remarkable agility and skill with the bow. Guards remain stationed in pairs outside doors to important areas, such as the meditation chambers of seers and the enormous private quarters of the queen, and when their duties take them outside the walls of the hive, they travel in large convoys. </p>
+				<p>A thriae soldier's stinger carries within it especially potent venom similar to that of giant bees, and the soldier can easily apply this poison to her weapons. While most soldiers carry bows, they are also trained at an early age with a multitude of both melee and ranged weapons, and some prefer the feel of a sword or hammer. Regardless of the type, all thriae weapons and armors are expertly crafted, made of steel and gilded with intricate decorations of gold and amber-hued gems. Thriae soldiers are often talented artisans as well as warriors, and most create their own weapons to bear in combat.</p>
+				<p>Since there are exponentially more soldiers than seers in any given colony, thriae queens ration merope sparingly to soldiers, whose use of it doesn't provoke the divine insight cherished by thriae culture, but rather inspires courage and brute strength on the battlefield. When a thriae soldier consumes merope, her reflexes quicken, her wits sharpen, and she gains a second wind, so most individuals save their rationed doses for times of dire need. When circumstances are especially grim, commanders of thriae militias will order all of their troops to consume their merope at once, giving the company the final burst of strength it needs to turn the tide of battle.</p>
+				<p>Thriae soldiers are heavier-set than most of their slender thriae sisters, and average individuals weigh about 200 pounds and measure 6 feet from head to toe.</p>
+			
+			
+			</div>
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Downtime Activities</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Downtime Activities",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/downtime.html', name: 'Downtime' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+
+<h1 id="downtime-activities" id="downtime-activities">Downtime Activities</h1>
+<p>This section provides many examples of activities you can undertake during downtime. Some of these are new, and others expand on options from the <i>Core Rulebook</i> or other sourcebooks to explain how those activities relate to the downtime rules. In most cases, using the downtime rules doesn't change the costs for performing the action, but it might allow you to spend capital instead of gp as per the <a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html#_table-capital-values">Capital Values table</a>. You can substitute 1 point of Goods or Labor for 20 gp, 1 point of Influence for 30 gp, and 1 point of Magic for 100 gp where appropriate. You can combine multiple types of capital when substituting for a gp value.</p>
+<p>Some downtime activities allow you to spend Goods, Influence, Labor, or Magic to modify the outcome of a check. You must decide to spend this capital before you attempt the check.</p>
+
+<h2 id="add-spells-to-your-spellbook">Add Spells to Your Spellbook</h2>
+<p>If you're a magus or wizard, you can spend 1 day of downtime to copy up to eight spells from other sources into your spellbook. If you're an alchemist, you can use this option to add new formulae to your formula book. If you're a witch, you can use this option to add spells to your familiar. You may spend Magic toward the cost of copying spells.</p>
+
+<h2 id="construct-buildings">Construct Buildings</h2>
+<p>You can use your downtime capital to create a building that suit your needs, such as a temple, guildhall, or mage tower. You construct a building out of component rooms that allow you to configure the building exactly how you want it (see <a href="/pathfinderRPG/prd/ultimateCampaign/downtime/roomsAndTeams.html">Rooms and Teams</a>).</p>
+<p>How much capital you can spend per day is limited by the size of the settlement you're in. Once you've spent the total capital and time needed to finish your building, it's complete and you can use it immediately.</p>
+
+<h2 id="craft-magic-items">Craft Magic Items</h2>
+<p>The <i>Core Rulebook</i> details how to craft magic items. As magic item crafting and the downtime rules both use days as time increments for all but the cheapest potions and scrolls, you can spend days in the downtime system to craft magic items, with each downtime day counting as 8 hours of crafting time. You may spend Magic toward the crafting cost.</p>
+
+<h2 id="craft-mundane-items">Craft Mundane Items</h2>
+<p>The <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> skill allows you to spend time creating mundane items such as armor, weapons, and alchemist's fire. The standard rules presented in the <i>Core Rulebook </i>assume you spend a week on crafting, but give you the option to make progress by the day. If you use the downtime system, make your <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> checks by the day instead of by the week. The steps for crafting by day are as follows.</p>
+
+<ol><li>Find the item's price in silver pieces (1 gp = 10 sp).</li>
+<li>Find the item's DC from the <a href="http://paizo.com/pathfinderRPG/prd/skills/craft.html" >Craft Skills table</a>.</li>
+<li>Pay 1/3 of the item's price in gp for the raw material cost. You may also spend Goods toward this cost.</li>
+<li>Attempt an appropriate <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> check representing 1 day's worth of work. You may spend Labor to modify your check result, with 1 point of Labor adding 2 to your total.</li></ol>
+
+<p>If your check succeeds, multiply your check result by the DC and divide by 7. If this value equals or exceeds the price of the item in sp, then you complete the item. If the result × the DC equals double or triple the price of the item in silver pieces, then you've completed the task in 1/2 or 1/3 of the time. Other multiples of the DC reduce the time in the same manner.</p>
+<p>If the value is less than the price, the check represents the progress you've made this day. Record the result of your check. Each downtime day you spend crafting, you make more progress until your total reaches the price of the item in silver pieces.</p>
+<p>If you fail a check by 4 or less, you make no progress that day. If you fail by 5 or more, you ruin some of the raw materials and have to pay 1/10 of the original raw material cost again.</p>
+
+<h2 id="earn-capital">Earn Capital</h2>
+<p>You can spend 1 day of downtime earning capital. Depending on the nature of the work, this might require making some kind of check and paying an amount of gp. This work might be unskilled labor or skilled labor with a <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> or <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> skill. See <a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html#_gaining-capital">Gaining Capital</a> for more information.</p>
+
+<h2 id="earn-xp">Earn XP</h2>
+<p>If you've missed a campaign session or otherwise fallen behind in XP compared to the other characters, you can spend downtime adventuring to help catch up to the other PCs. Usually downtime adventures feature encounters that are much easier than you'd normally expect as part of a group. For example, a 5th-level character might clear zombies out of a crypt or assist some lower-level adventures with a problem that's a little too difficult for them.</p>
+<p>Spending 1 day of downtime adventuring earns you XP as if you had defeated an opponent whose CR was equal to your character level. For example, if you are a 3rd-level character, you would earn 800 XP. You do not earn any treasure or other capital for downtime adventuring.</p>
+<p>If using this downtime activity would increase your XP above the highest XP value among all the PCs in your party, it increases your XP to that value instead; any XP earned beyond this amount is lost. This activity allows you only to catch up, not to get ahead.</p>
+
+<h2 id="gather-information">Gather Information</h2>
+<p>Using the <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> skill to gather information normally requires 1d4 hours to search for rumors and informants. When using the downtime system, you have three options for gathering information.</p>
+<p><i>Standard Check</i>: Once per day, you may spend 1d4 hours speaking with locals and attempt one check, as described in the <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> skill. Doing so does not cost you any downtime, but the GM might rule that other time-consuming downtime activities take a penalty (such as a &mdash;4 on a skill check) or can't be undertaken.</p>
+<p><i>Thorough Questioning</i>: By spending 1 day of downtime, you can thoroughly converse with several knowledgeable or reliable contacts over the course of the day. You may attempt up to three <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks to gather information. These checks can be for the same or different topics, and you can expend one of the rolls you haven't used yet to reroll a <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check you failed during this activity.</p>
+<p><i>Influential Questioning</i>: By spending 1 day of downtime and 1 point of Influence, you can attempt up to three <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> checks, each with a +5 bonus. These checks can be for the same or different topics, and you can expend one of the rolls you haven't used yet to reroll a <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check you failed during this activity.</p>
+
+<h2 id="heal-others">Heal Others</h2>
+<p>You can use downtime to help others rest and recover using the <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a> skill. For long-term care, treating wounds, and treating disease, you can spend Labor to modify your check result. Each 1 point of Labor spent adds 2 to your check.</p>
+<p><i>Long-Term Care</i>: Spending a day of downtime on long-term care allows you to care for up to six patients that day.</p>
+<p><i>Treat Wounds from Caltrops, Spike Growth, or Spike Stones</i>: Spending a day of downtime allows you to treat up to 50 patients of this type. You may combine this option with the treat disease option, caring for up to 50 total patients per day.</p>
+<p><i>Treat Deadly Wounds</i>: Spending a day of downtime allows you to treat up to 8 patients of this type.</p>
+<p><i>Treat Disease</i>: Spending a day of downtime allows you to treat up to 50 patients of this type. You may combine this option with the treat wounds from caltrops, caring for up to 50 patients total per day.</p>
+
+<h2 id="lead-your-kingdom">Lead Your Kingdom</h2>
+<p>If you are using the kingdom-building rules and have a leadership role in the kingdom, you must spend 7 days per month performing <a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/kingdomBuilding.html#_leadership-roles">various leadership duties</a>. In the downtime system, performing leadership duties for a day costs 1 day of downtime. You can't perform any other downtime activities on a day you perform kingdom leadership duties.</p>
+
+<h2 id="promote-a-business">Promote a Business</h2>
+<p>You can spend 1 day of downtime to increase interest in a business, temple, organization, or other local fixture. You can also spend one type of capital, depending on how you want to promote the business. For example, if you want to promote a bakery, you can spend Goods giving out free pastries to people in town, Influence to get the mayor to visit the bakery and praise its food, Labor to hire workers to stand with signboards advertising the bakery, or Magic for a memorable illusion that draws people to the bakery.</p>
+<p>The promotion increases activity at the site for 1d6 days. Choose one capital the building generates, then attempt a skill check for using skilled work to earn capital, using <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local), or <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a>. Add 5 to your check result for every 1 point of Goods, Influence, Labor, or Magic you spent to promote the business, then use the skilled work option to determine how many additional resources the business generates over the course of this increased activity. If you're promoting an organization without a physical building, each Good, Influence, Labor, or Magic adds only 2 to the check instead of 5&mdash;it's harder to encourage people to be patrons of something they can't physically visit.</p>
+<p>The business you promote with this downtime activity doesn't have to be one you own.</p>
+<p>If the building or organization does not generate capital (such as charity that takes care of war orphans), the promotion generates either gp or Influence (your choice) .</p>
+
+<h2 id="replace-your-animal-companion">Replace Your Animal Companion</h2>
+<p>If you lose or dismiss your animal companion, you can spend 1 day performing a ceremony to gain a new one. This ceremony requires 24 uninterrupted hours of prayer in the environment where the new companion typically lives (at the GM's discretion, traveling might add to the downtime requirement if there's no suitable environment near the settlement).</p>
+
+<h2 id="replace-your-familiar">Replace Your Familiar</h2>
+<p>The <i>Core Rulebook</i> allows you to replace a familiar if at least 1 week has passed since it was dismissed or lost. Doing so requires you to spend 1 day performing a specialized ritual to summon a new familiar. The ritual costs 200 gp × your wizard or witch level. You can spend Goods or Magic toward the ritual cost.</p>
+
+<h2 id="recruit-for-an-organization">Recruit for an Organization</h2>
+<p>You can create and recruit for an organization that doesn't rely on a specific building. For example, you could may want to recruit employees (or minions) if you're a rogue and want to start your own gang of cutpurses or a cleric who wants to start a cult of followers. You create an organization out of component teams, so you can configure the organization exactly how you want it (<a href="/pathfinderRPG/prd/ultimateCampaign/downtime/roomsAndTeams.html">see Rooms and Teams</a>). How much downtime capital you can spend in a day is limited by the size of the settlement you're in (see <a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html#_spending-limits">Spending Limits</a>). When you've spent the appropriate capital and time for your organization, it's complete and you can put it to work immediately.</p>
+
+<h2 id="research-a-spell">Research a Spell</h2>
+<p>The <i>Core Rulebook</i> allows you to perform spell research, either to create a new spell or learn an existing spell from another source. In the downtime system, the steps for spell research each day are as follows.</p>
+
+<ol><li>Pay 100 gp × the spell's level for research costs and rare ingredients. You may spend Goods or Magic toward this cost.</li>
+<li>Determine the total days of progress required to complete the research, which is 7 × the spell level.</li>
+<li>Determine the spell research DC, which is 10 + twice the spell's level.</li>
+<li>Attempt a <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> check and a <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> check (arcana for an arcane spell, religion for a divine spell) against the spell research DC. You can't take 10 on these checks. You may spend Magic to modify a check result, with 1 point of Magic adding 2 to your total (maximum +10). If both checks succeed, you make 1 day's progress toward completing the spell. When your days of progress equal the total number of days needed, the spell is completed and added to your spellbook or list of spells known.</li></ol>
+
+<p>If either or both spell research checks fail by 4 or less, you make no progress. For each check that fails by 5 or more, your research has led to poor results and you lose a day of progress toward completing the spell.</p>
+<p>If you're an alchemist, you can use this downtime option to research a new extract formula. Instead of a <a href="/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft" >Spellcraft</a> check, attempt a <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (alchemy) check. For <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) checks, you may attempt a <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nature) check instead.</p>
+
+<h2 id="research-facts-and-lore">Research Facts and Lore</h2>
+<p>You can use downtime and capital to learn more about the campaign or the game world. This is similar to the gather information activity, except instead of looking for rumors and gossip in town, you are consulting with sages, perusing historical documents, or using magic to unearth information. Instead of a <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a> check, attempt one or more <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> checks appropriate to the intended subject. These checks can be for the same or different topics (and can use different <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> skills), and you can expend one of the rolls you haven't used yet to reroll a <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> check you failed during this activity. You have three options for researching information.</p>
+<p><i>Thorough Research</i>: By spending 1 day of downtime, you can thoroughly converse with several knowledgeable individuals or study several reliable sources over the course of the day. You can attempt up to three <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> checks to discover information.</p>
+<p><i>Influential Research</i>: By spending 1 day of downtime and 1 point of Influence, you may attempt up to three <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> checks, each with a +5 bonus.</p>
+<p><i>Magical Research</i>: By spending 1 day of downtime and 1 point of Magic, you may attempt up to three <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> checks, each with a +5 bonus.</p>
+
+<h2 id="rest">Rest</h2>
+<p>You can use downtime to rest and recover. It is assumed that you spend 8 hours resting at night, which allows you to recover 1 hp per level per day and 1 point of ability damage for each affected ability score. If you spend a full day of downtime resting in bed, you recover another 1 hp per level per day and another 1 point of ability damage for each affected ability score.</p>
+
+<h2 id="retrain">Retrain</h2>
+<p>You can use your downtime to retrain (see <a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems/retraining.html">Retraining</a>). You may spend Goods, Influence, Labor, or Magic toward this cost.</p>
+
+<h2 id="run-a-business">Run a Business</h2>
+<p>If you have a building and that building generates any kind of capital, you can spend 1 day of downtime working at your building&mdash;increasing its productivity by inspiring your employees to work harder, using your expertise to get more done, or using your fame to attract more customers. This counts as using downtime to earn capital (see <a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html#_gaining-capital">Gaining Capital</a>), but you gain a +10 bonus on your check.</p>
+<p>The capital you generate must be a kind that your building can generate. For example, an inn that generates gp and Influence can generate only those two currencies using this downtime activity; you can't use it to generate Goods, Labor, or Magic just because you're personally running it for the day. You must earn capital acquired in this way as normal.</p>
+
+<h2 id="scheme-for-an-upcoming-adventure">Scheme for an Upcoming Adventure</h2>
+<p>You can use downtime to prepare for an upcoming adventure or event. For example, if you know you have to crash the baron's fancy party in 2 days, you can spend downtime watching the baron's manor, investigating what clothing the servants will wear, and finding out which important guests are attending. This works like spending capital to boost checks, except you must spend 1 day of downtime, and each Good, Influence, Labor, or Magic you spend toward this purpose gives you a +2 bonus on one skill check (maximum +6). As with the spend capital option, the GM decides if your approach is reasonable for the check you're attempting. The bonus from this activity stacks with that from the spend capital to boost checks option (maximum +10 total). This bonus lasts for one check.</p>
+<p>For example, by spending 1 day of downtime and 1 point of Goods, you gain an excellent understanding of the liveried servants' uniforms and add 2 to your <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a> check to disguise yourself as one of them. By spending 1 day of downtime and 1 point of Influence, you learn what famous trapsmith constructed the baron's vault and add 2 to your <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a> check to open it.</p>
+
+<h2 id="train-an-animal">Train an Animal</h2>
+<p>You can use the <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> skill to train an animal, as described in the <i>Core Rulebook</i>. The rules for training assume the training period is continuous. However, you can break this training into smaller increments (allowing you to make progress on this training between adventures), but you must attempt a <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> check for each training period, and the DC increases by 2. Failing the check means that training period doesn't count toward completing the training.</p>
+<p>This use of downtime doesn't allow you to exceed the animal's normal training limitations from the <i>Core Rulebook</i>. For example, spending downtime doesn't allow you to teach an animal more tricks than it could learn if you weren't using the downtime system.</p>
+<p><i>Teach an Animal a Trick</i>: This requires 7 days and a successful <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> check at the end of the training period. You may spend Goods, Influence, Labor, or Magic to modify your check result, with each 1 point of capital adding 2 to your total (maximum +10).</p>
+<p><i>Train an Animal for a General Purpose</i>: This sort of training can take several weeks, depending on the nature of the training. You may spend Goods, Influence, Labor, or Magic to modify your check result, with each 1 point of capital adding 2 to your total (maximum +10).</p>
+<p><i>Rear a <a href="/pathfinderRPG/prd/magicItems/armor.html#_armor-wild" >Wild</a> Animal</i>: Depending on the maturation rate of the animal, this can take anywhere from weeks to months or even years. For simplicity's sake, interacting with the animal for an hour per day in a safe environment counts toward this training and doesn't require you to spend any downtime. As long as you maintain this daily contact, you need to succeed at only one <a href="/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal" >Handle Animal</a> check at the end of the rearing period. An interruption requires you to succeed at a check to continue the rearing (you may attempt this check once per day). The assumption is that you have a non-expert taking care of the animal's basic needs while you are away so it isn't neglected. If you know you will miss a day of this contact, you may spend 1 point of Influence or 1 point of Labor for each missed day to have a skilled animal handler rear the animal for the day, meaning your absence doesn't count as an interruption in the animal's training.</p>
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Buildings and Organizations</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Buildings and Organizations",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/downtime.html', name: 'Downtime' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="buildings-and-organizations">Buildings and Organizations</h1>
+<p>This section presents many standard buildings and organizations. Each example lists exactly what rooms or teams are used to construct it, a total of each type of capital required if you want to construct one of your own, and a gp total if you want to purchase a completed building of this type. The listed gp value assumes you are purchasing the building instead of constructing it by spending earned capital (see Purchased Cost values from the <a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html#_table-capital-values">Capital Values table</a>).</p>
+<p>The examples that follow are not the only ways to construct these kinds of buildings and organizations. A particular Inn might have two Lodgings instead of one, include a Trophy Room instead of a Bar, or display a Statue of the goddess of travelers. A Thieves' Guild might be larger and more thuggish because it includes more Cutpurses and Soldiers than are listed in this section. Use these as typical examples of these kinds of buildings and organizations, a baseline for designing your own versions, or a springboard for ideas on how to use this system to design whatever you want. The system is designed to be flexible so you can construct the kind of building you want to own.</p>
+<p>Interspersed with these stat blocks are example maps of various types of buildings. These maps are not intended to exactly correspond to the buildings described in this section. Rather, you can use these maps as inspiration for buildings of their type or adapt them to other purposes. For example, even if players aren't using the downtime system to construct or purchase buildings of their own, a busy GM can use the maps for encounters in town.</p>
+
+<h2 id="buildings">Buildings</h2>
+<p>Below are example buildings and their component rooms. Note that many of these buildings can also be found in the kingdom-building rules.</p>
+
+<p id="academy" class="stat-block-title">Academy</p>
+<p class="stat-block-1"><b>Create</b> 120 Goods, 16 Influence, 109 Labor, 3 Magic (5,360 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Alchemy Lab, 2 Baths, 1 Bedroom, 1 Bell Tower, 1 Book Repository, 1 Bunks, 2 Classrooms, 1 Common Room, 1 Courtyard, 1 Greenhouse, 1 Kitchen, 1 Lavatory, 1 Observation Dome, 2 Offices, 1 Scriptorium, 1 Sitting Room, 1 Statue</p>
+<p>An institution of higher learning.</p>
+
+<p id="alchemist" class="stat-block-title">Alchemist</p>
+<p class="stat-block-1"><b>Create</b> 48 Goods, 2 Influence, 41 Labor, 1 Magic (1,940 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Alchemy Lab, 1 Bedroom, 1 Garden, 1 Kitchen, 1 Lavatory, 1 Sitting Room, 1 Storage, 1 Storefront</p>
+<p>The laboratory and home for a creator of potions, poisons, and alchemical items.</p>
+
+<p id="arena" class="stat-block-title">Arena</p>
+<p class="stat-block-1"><b>Create</b> 109 Goods, 20 Influence, 96 Labor, 1 Magic (4,800 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Bar, 1 Bath, 4 Battle Rings, 1 Game Room, 1 Infirmary, 1 Lavatory, 1 Office, 1 Storage, 1 Storefront</p>
+<p>A large public structure for competitions, demonstrations, team sports, or bloodsports.</p>
+
+<p id="bank" class="stat-block-title">Bank</p>
+<p class="stat-block-1"><b>Create</b> 39 Goods, 3 Influence, 35 Labor (1,570 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Guard Post, 2 Offices, 1 Secret Room, 1 Storefront, 2 Vaults</p>
+<p>A secure building for storing coins and valuables, and for making loans to those in need.</p>
+
+<p id="bardic-college" class="stat-block-title">Bardic College</p>
+<p class="stat-block-1"><b>Create</b> 107 Goods, 13 Influence, 109 Labor, 1 Magic (4,810 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Auditorium, 2 Baths, 1 Bedroom, 1 Book Repository, 1 Bunks, 2 Classrooms, 1 Common Room, 1 Courtyard, 1 Kitchen, 1 Lavatory, 2 Offices, 1 Scriptorium, 1 Sitting Room, 1 Statue, 1 Storage</p>
+<p>A center for artistic learning in the visual and performing arts, literature, music, and lore.</p>
+
+<p id="barracks" class="stat-block-title">Barracks</p>
+<p class="stat-block-1"><b>Create</b> 80 Goods, 18 Influence, 73 Labor, 1 Magic (3,700 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 2 Armories, 1 Bedroom, 2 Bunks, 1 Common Room, 1 Dojo, 1 Guard Post, 1 Infirmary, 1 Kitchen, 1 Lavatory, 1 Office, 1 Storage</p>
+<p>A building to house guards, militias, or other military forces.</p>
+
+<p id="black-market" class="stat-block-title">Black Market</p>
+<p class="stat-block-1"><b>Create</b> 53 Goods, 6 Influence, 48 Labor (2,200 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Armory, 1 Cell, 1 Escape Route, 1 False Front, 1 Guard Post, 1 Office, 1 Secret Room, 1 Storage, 1 Vault</p>
+<p>A secret shop that buys and sells a variety of shady, dangerous, and illicit wares.</p>
+
+<p id="brewery" class="stat-block-title">Brewery</p>
+<p class="stat-block-1"><b>Create</b> 36 Goods, 3 Influence, 32 Labor (1,450 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Bar, 1 Brewery, 1 Kitchen, 1 Office, 2 Storages, 1 Workstation</p>
+<p>A building for beer and ale brewing, winemaking, distilling, or some similar use.</p>
+
+<p id="bureau" class="stat-block-title">Bureau</p>
+<p class="stat-block-1"><b>Create</b> 55 Goods, 6 Influence, 52 Labor, 1 Magic (2,420 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Book Repository, 1 Lavatory, 4 Offices, 2 Scriptoriums, 1 Sitting Room, 2 Storages</p>
+<p>A large warren of offices for clerks and record-keepers working for a guild or government.</p>
+
+<p id="caster's-tower" class="stat-block-title">Caster's Tower</p>
+<p class="stat-block-1"><b>Create</b> 88 Goods, 9 Influence, 81 Labor, 11 Magic (4,750 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Artisan's Workshop, 1 Bath, 1 Bedroom, 1 Cell, 1 Ceremonial Room, 1 Kitchen, 1 Lavatory, 1 Magical Repository, 1 Office, 1 Scriptorium, 1 Scrying Room, 1 Sitting Room, 1 Storage</p>
+<p>The home and laboratory for a spellcaster.</p>
+
+<p id="castle" class="stat-block-title">Castle</p>
+<p class="stat-block-1"><b>Create</b> 165 Goods, 31 Influence, 148 Labor, 2 Magic (7,390 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 2 Armories, 3 Bedrooms, 2 Bunks, 1 Cell, 1 Courtyard, 1 Crypt, 4 Defensive Walls, 1 Drawbridge, 1 Escape Route, 1 Garden, 1 Gatehouse, 1 Gauntlet, 1 Kitchen, 1 Lavatory, 1 Office, 1 Sitting Room, 1 Stall, 2 Storages</p>
+<p>An elaborate fortified home, a noble's retreat, or the heart of a settlement's defenses.</p>
+
+<p id="cathedral" class="stat-block-title">Cathedral</p>
+<p class="stat-block-1"><b>Create</b> 91 Goods, 12 Influence, 84 Labor, 11 Magic (4,960 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Altar, 1 Bedroom, 1 Bell Tower, 1 Book Repository, 1 Cell, 1 Ceremonial Room, 1 Confessional, 1 Courtyard, 1 Crypt, 1 Garden, 1 Office, 1 Reliquary, 1 Sanctum, 1 Sitting Room, 1 Statue, 1 Storage</p>
+<p>A center of religious and spiritual leadership.</p>
+
+<p id="courthouse" class="stat-block-title">Courthouse</p>
+<p class="stat-block-1"><b>Create</b> 43 Goods, 2 Influence, 41 Labor, 1 Magic (1,840 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Book Repository, 2 Cells, 1 Common Room, 2 Offices, 1 Sitting Room</p>
+<p>A building where cases are heard and disputes resolved according to the rule of law by generally impartial justices.</p>
+
+<p id="dance-hall" class="stat-block-title">Dance Hall</p>
+<p class="stat-block-1"><b>Create</b> 53 Goods, 1 Influence, 53 Labor (2,150 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Ballroom, 1 Bar, 1 Common Room, 1 Lavatory, 1 Office, 1 Sitting Room, 1 Storage</p>
+<p>An establishment for dancing, drinking, and consorting with attractive people. It is often a place where members of different social classes can intermingle discreetly, sometimes using masks or other disguises.</p>
+
+<p id="exotic-artisan" class="stat-block-title">Exotic Artisan</p>
+<p class="stat-block-1"><b>Create</b> 44 Goods, 1 Influence, 41 Labor (1,730 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Artisan's Workshop, 1 Bedroom, 1 Kitchen, 1 Lavatory, 1 Sitting Room, 1 Storage, 1 Storefront</p>
+<p>The workshop and home for a creator of magic items, a fireworks maker, a glassblower, or the like.</p>
+
+<p id="farm" class="stat-block-title">Farm</p>
+<p class="stat-block-1"><b>Create</b> 53 Goods, 1 Influence, 50 Labor (2,090 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Animal Pen, 1 Bedroom, 1 Farmland, 1 Garden, 1 Kitchen, 1 Lavatory, 1 Sitting Room</p>
+<p>A small family farm or ranch.</p>
+
+<p id="fort" class="stat-block-title">Fort</p>
+<p class="stat-block-1"><b>Create</b> 136 Goods, 25 Influence, 124 Labor, 1 Magic (6,050 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 2 Armories, 1 Bedroom, 2 Bunks, 1 Cell, 1 Common Room, 1 Courtyard, 3 Defensive Walls, 1 Dojo, 2 Fortifications (in the Common Room and Gatehouse), 1 Gatehouse, 1 Infirmary, 1 Kitchen, 1 Lavatory, 1 Office, 1 Storage, 1 War Room</p>
+<p>A fortified outpost for bandits, mercenaries, soldiers, or dangerous humanoids.</p>
+
+<p id="garrison" class="stat-block-title">Garrison</p>
+<p class="stat-block-1"><b>Create</b> 126 Goods, 32 Influence, 112 Labor, 1 Magic (5,820 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 4 Armories, 2 Bedrooms, 4 Bunks, 1 Common Room, 1 Dojo, 1 Guard Post, 1 Infirmary, 1 Kitchen, 1 Lavatory, 2 Offices, 2 Storages</p>
+<p>A large building to house armies, train guards, and recruit militias; it is larger and more versatile than a Barracks.</p>
+
+<p id="granary" class="stat-block-title">Granary</p>
+<p class="stat-block-1"><b>Create</b> 30 Goods, 30 Labor (1,200 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 10 Storages</p>
+<p>A place to store grain and food.</p>
+
+<p id="graveyard" class="stat-block-title">Graveyard</p>
+<p class="stat-block-1"><b>Create</b> 18 Goods, 12 Influence, 19 Labor, 5 Magic (1,600 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 3 Burial Grounds, 1 Crypt, 1 Statue</p>
+<p>A plot of land where the dead are buried and honored.</p>
+
+
+<p id="guildhall" class="stat-block-title">Guildhall</p>
+<p class="stat-block-1"><b>Create</b> 67 Goods, 66 Labor (2,660 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Common Room, 1 Kitchen, 1 Lavatory, 2 Offices, 1 Secret Room, 1 Sitting Room, 2 Storages, 3 Workstations</p>
+<p>The headquarters for a guild or similar organization.</p>
+
+<p id="herbalist" class="stat-block-title">Herbalist</p>
+<p class="stat-block-1"><b>Create</b> 52 Goods, 1 Influence, 48 Labor (2,030 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Artisan's Workshop, 1 Bedroom, 1 Greenhouse, 1 Kitchen, 1 Lavatory, 1 Sitting Room, 1 Storage, 1 Storefront</p>
+<p>The workshop and home of a gardener, healer, poisoner, or potion crafter.</p>
+
+<p id="hospital" class="stat-block-title">Hospital</p>
+<p class="stat-block-1"><b>Create</b> 45 Goods, 4 Influence, 43 Labor, 2 Magic (2,080 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Bath, 1 Common Room, 2 Infirmaries, 1 Lavatory, 1 Office, 1 Statue, 1 Storage, 1 Storefront, 1 Workstation</p>
+<p>A building designated as a place for healing the sick.</p>
+
+<p id="house" class="stat-block-title">House</p>
+<p class="stat-block-1"><b>Create</b> 32 Goods, 1 Influence, 31 Labor (1,290 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Bedroom, 1 Kitchen, 1 Lavatory, 1 Sewer Access, 1 Sitting Room, 1 Storage</p>
+<p>A small cottage that can house up to two adults or a new family.</p>
+
+<p id="inn" class="stat-block-title">Inn</p>
+<p class="stat-block-1"><b>Create</b> 52 Goods, 5 Influence, 47 Labor (2,130 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Bar, 1 Bath, 1 Bedroom, 1 Common Room, 1 Kitchen, 1 Lavatory, 1 Lodging, 1 Stall, 1 Storefront</p>
+<p>A place for visitors to stay and rest.</p>
+
+<p id="jail" class="stat-block-title">Jail</p>
+<p class="stat-block-1"><b>Create</b> 40 Goods, 5 Influence, 33 Labor (1,610 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 4 Cells, 1 Guard Post, 1 Office, 1 Storage, 1 Torture Chamber</p>
+<p>A fortified structure for confining criminals.</p>
+
+<p id="library" class="stat-block-title">Library</p>
+<p class="stat-block-1"><b>Create</b> 29 Goods, 4 Influence, 28 Labor, 2 Magic (1,460 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 2 Book Repositories, 1 Common Room, 1 Office, 1 Storage</p>
+<p>A large building containing an archive of books.</p>
+
+<p id="luxury-store" class="stat-block-title">Luxury Store</p>
+<p class="stat-block-1"><b>Create</b> 28 Goods, 1 Influence, 22 Labor (1,030 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Furnishings (Storefront), 1 Office, 1 Storage, 1 Storefront, 1 Vault</p>
+<p>A shop that specializes in expensive wares and luxuries.</p>
+
+<p id="magic-shop" class="stat-block-title">Magic Shop</p>
+<p class="stat-block-1"><b>Create</b> 40 Goods, 1 Influence, 33 Labor, 1 Magic (1,590 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Furnishings (Storefront), 1 Office, 1 Reliquary, 1 Storage, 1 Storefront, 2 Vaults</p>
+<p>A shop that specializes in buying and selling magic items, spells, and magical remedies.</p>
+
+<p id="magical-academy" class="stat-block-title">Magical Academy</p>
+<p class="stat-block-1"><b>Create</b> 121 Goods, 17 Influence, 110 Labor, 5 Magic (5,630 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Alchemy Lab, 2 Baths, 1 Bedroom, 1 Bell Tower, 1 Bunks, 2 Classrooms, 1 Common Room, 1 Courtyard, 1 Greenhouse, 1 Kitchen, 1 Lavatory, 1 Magical Repository, 1 Observation Dome, 2 Offices, 1 Scriptorium, 1 Sitting Room, 1 Statue</p>
+<p>An institution for training students in the magical arts.</p>
+
+<p id="mansion" class="stat-block-title">Mansion</p>
+<p class="stat-block-1"><b>Create</b> 132 Goods, 4 Influence, 120 Labor (5,160 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Bar, 1 Bath, 4 Bedrooms, 1 Escape Route, 2 Furnishings (Bedroom and Sitting Room), 1 Kitchen, 1 Laundry, 1 Lavatory, 1 Lodging, 1 Office, 1 Secret Room, 2 Sitting Rooms, 1 Stall, 2 Storages</p>
+<p>A huge manor housing a rich family and its servants.</p>
+
+<p id="menagerie" class="stat-block-title">Menagerie</p>
+<p class="stat-block-1"><b>Create</b> 200 Goods, 33 Influence, 188 Labor (8,750 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 2 Animal Pens, 1 Courtyard, 4 Defensive Walls, 1 Farmland, 1 Guard Post, 6 Habitats, 1 Hatchery, 1 Kitchen, 1 Lavatory, 2 Offices, 1 Stall, 2 Storages, 1 Storefront</p>
+<p>A large park stocked with exotic animals and magical beasts.</p>
+
+<p id="military-academy" class="stat-block-title">Military Academy</p>
+<p class="stat-block-1"><b>Create</b> 142 Goods, 16 Influence, 129 Labor, 2 Magic (6,100 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Armory, 1 Bath, 1 Bedroom, 1 Bell Tower, 1 Book Repository, 1 Cell, 2 Classrooms, 1 Common Room, 1 Courtyard, 1 Dojo, 1 Greenhouse, 1 Infirmary, 1 Kitchen, 1 Lavatory, 1 Lodging, 2 Offices, 1 Scriptorium, 1 Sitting Room, 1 Statue, 1 Storage, 1 War Room</p>
+<p>An institution dedicated to the study of war and the training of elite soldiers and officers.</p>
+
+<p id="mill" class="stat-block-title">Mill</p>
+<p class="stat-block-1"><b>Create</b> 17 Goods, 16 Labor (660 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Mill Room, 1 Office, 2 Storages</p>
+<p>A building used to cut lumber or grind grain.</p>
+
+<p id="mint" class="stat-block-title">Mint</p>
+<p class="stat-block-1"><b>Create</b> 49 Goods, 2 Influence, 45 Labor (1,940 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Artisan's Workshop, 1 Fortification (Vault), 1 Guard Post, 1 Lavatory, 1 Office, 1 Storage, 2 Vaults</p>
+<p>A secure building where coinage is minted and standard weights and measures are kept.</p>
+
+<p id="monastery" class="stat-block-title">Monastery</p>
+<p class="stat-block-1"><b>Create</b> 58 Goods, 15 Influence, 53 Labor, 6 Magic (3,270 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Altar, 1 Bath, 1 Book Repository, 1 Bunks, 1 Courtyard, 1 Crypt, 1 Garden, 1 Kitchen, 1 Laundry, 1 Lavatory, 1 Office, 2 Sanctums, 1 Scriptorium</p>
+<p>A cloister for meditation and study.</p>
+
+<p id="monument" class="stat-block-title">Monument</p>
+<p class="stat-block-1"><b>Create</b> 10 Goods, 8 Labor (360 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Furnishings (Statue), 1 Statue</p>
+<p>A statue of a famous person, a memorial for fallen warriors, or a public display of art.</p>
+
+<p id="museum" class="stat-block-title">Museum</p>
+<p class="stat-block-1"><b>Create</b> 47 Goods, 5 Influence, 43 Labor, 1 Magic (2,050 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Guard Post, 1 Office, 1 Reliquary, 2 Statues, 2 Storages, 1 Storefront, 2 Trophy Rooms, 1 Vault</p>
+<p>A place to display art and artifacts both modern and historical.</p>
+
+<p id="noble-villa" class="stat-block-title">Noble Villa</p>
+<p class="stat-block-1"><b>Create</b> 218 Goods, 16 Influence, 204 Labor (8,920 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Bar, 1 Bath, 4 Bedrooms, 2 Courtyards, 4 Defensive Walls, 1 Escape Route, 2 Furnishings (Bedroom and Sitting Room), 1 Garden, 1 Gatehouse, 1 Kitchen, 1 Labyrinth, 1 Laundry, 1 Lavatory, 1 Lodging, 2 Offices, 2 Secret Rooms, 2 Sitting Rooms, 1 Stall, 1 Statue, 2 Storages, 1 Trophy Room, 1 Vault</p>
+<p>A sprawling manor with luxurious grounds.</p>
+
+<p id="observatory" class="stat-block-title">Observatory</p>
+<p class="stat-block-1"><b>Create</b> 32 Goods, 4 Influence, 31 Labor, 2 Magic (1,580 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Book Repository, 1 Lavatory, 1 Observation Dome, 1 Office, 1 Scriptorium, 1 Storage</p>
+<p>A high dome or tower with optical devices for viewing the heavens.</p>
+
+<p id="orphanage" class="stat-block-title">Orphanage</p>
+<p class="stat-block-1"><b>Create</b> 63 Goods, 7 Influence, 62 Labor, 1 Magic (2,810 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Bedroom, 1 Bunks, 1 Classroom, 1 Common Room, 1 Courtyard, 1 Infirmary, 1 Kitchen, 1 Laundry, 1 Lavatory, 1 Nursery, 1 Office, 2 Storages</p>
+<p>A place for taking care of a large number of orphans.</p>
+
+<p id="palace" class="stat-block-title">Palace</p>
+<p class="stat-block-1"><b>Create</b> 453 Goods, 42 Influence, 421 Labor, 9 Magic (19,640 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Altar, 1 Ballroom, 1 Bar, 2 Baths, 6 Bedrooms, 1 Bunks, 1 Cell, 1 Common Room, 2 Courtyards, 1 Crypt, 6 Defensive Walls, 1 Escape Route, 6 Furnishings (in the Ballroom, 2 Bedrooms, Office, Sitting Room, and the Throne Room), 1 Garden, 1 Gatehouse, 2 Kitchens, 1 Labyrinth, 1 Laundry, 2 Lavatories, 2 Lodgings, 2 Offices, 1 Sanctum, 3 Secret Rooms, 3 Sitting Rooms, 1 Sports Field, 4 Stalls, 2 Statues, 6 Storages, 1 Throne Room, 1 Trophy Room, 2 Vaults, 1 War Room</p>
+<p>A grand edifice and grounds demonstrating wealth, power, and authority to the world.</p>
+
+<p id="pier" class="stat-block-title">Pier</p>
+<p class="stat-block-1"><b>Create</b> 22 Goods, 3 Influence, 20 Labor (930 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Animal Pen, 1 Dock, 1 Office, 2 Storages</p>
+<p>Warehouses and workshops for docking ships and handling cargo and passengers.</p>
+
+<p id="school" class="stat-block-title">School</p>
+<p class="stat-block-1"><b>Create</b> 58 Goods, 5 Influence, 53 Labor (2,370 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Bell Tower, 2 Classrooms, 1 Common Room, 1 Courtyard, 1 Kitchen, 1 Lavatory, 1 Office, 2 Storages, 1 Workstation</p>
+<p>A place for educating children and young adults.</p>
+
+<p id="shop" class="stat-block-title">Shop</p>
+<p class="stat-block-1"><b>Create</b> 14 Goods, 1 Influence, 12 Labor (550 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Lavatory, 1 Office, 1 Storage, 1 Storefront</p>
+<p>A general store.</p>
+
+<p id="shrine" class="stat-block-title">Shrine</p>
+<p class="stat-block-1"><b>Create</b> 3 Goods, 1 Influence, 4 Labor, 1 Magic (270 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Altar, 1 Statue</p>
+<p>A shrine, idol, sacred grove, or similar holy site.</p>
+
+<p id="smithy" class="stat-block-title">Smithy</p>
+<p class="stat-block-1"><b>Create</b> 18 Goods, 1 Influence, 17 Labor (730 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Forge, 1 Office, 2 Storages</p>
+<p>An armorsmith, blacksmith, or weaponsmith.</p>
+
+<p id="stable" class="stat-block-title">Stable</p>
+<p class="stat-block-1"><b>Create</b> 42 Goods, 3 Influence, 39 Labor (1,710 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Animal Pen, 1 Farmland, 1 Lavatory, 1 Office, 2 Stalls, 1 Storage</p>
+<p>A structure for housing or selling horses and other mounts.</p>
+
+<p id="stockyard" class="stat-block-title">Stockyard</p>
+<p class="stat-block-1"><b>Create</b> 42 Goods, 4 Influence, 37 Labor (1,700 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 4 Animal Pens, 1 Lavatory, 1 Office, 1 Pit, 1 Storage, 1 Workstation</p>
+<p>Barns and pens where herd animals are stored and prepared for nearby slaughterhouses.</p>
+
+<p id="tannery" class="stat-block-title">Tannery</p>
+<p class="stat-block-1"><b>Create</b> 20 Goods, 1 Influence, 20 Labor (830 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Laundry, 1 Lavatory, 1 Leather Workshop, 1 Office, 1 Pit, 1 Storage</p>
+<p>A structure where workers prepare hides and leather.</p>
+
+<p id="tavern" class="stat-block-title">Tavern</p>
+<p class="stat-block-1"><b>Create</b> 22 Goods, 1 Influence, 22 Labor (910 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Bar, 1 Common Room, 1 Lavatory, 1 Office, 1 Storage</p>
+<p>An eating or drinking establishment.</p>
+
+<p id="temple" class="stat-block-title">Temple</p>
+<p class="stat-block-1"><b>Create</b> 28 Goods, 2 Influence, 29 Labor, 2 Magic (1,400 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Altar, 1 Bedroom, 1 Common Room, 1 Confessional, 1 Office, 1 Sanctum, 1 Statue, 1 Storage</p>
+<p>A large place of worship dedicated to a deity.</p>
+
+<p id="tenement" class="stat-block-title">Tenement</p>
+<p class="stat-block-1"><b>Create</b> 41 Goods, 16 Influence, 41 Labor (2,120 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 4 Bunks, 1 Kitchen, 1 Lavatory, 1 Office, 1 Storage</p>
+<p>A flophouse for housing a large number of people who pay low rent.</p>
+
+<p id="theater" class="stat-block-title">Theater</p>
+<p class="stat-block-1"><b>Create</b> 41 Goods, 2 Influence, 46 Labor (1,800 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Auditorium, 1 Lavatory, 1 Office, 1 Secret Room, 2 Storages, 1 Storefront</p>
+<p>A venue for entertainment such as plays, operas, and concerts.</p>
+
+<p id="town-hall" class="stat-block-title">Town Hall</p>
+<p class="stat-block-1"><b>Create</b> 23 Goods, 2 Influence, 23 Labor (980 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Common Room, 1 Lavatory, 1 Office, 1 Scriptorium, 1 Storage</p>
+<p>A public venue for holding town meetings, with storage for town records.</p>
+
+<p id="trade-shop" class="stat-block-title">Trade Shop</p>
+<p class="stat-block-1"><b>Create</b> 19 Goods, 1 Influence, 16 Labor (730 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Lavatory, 1 Storage, 1 Storefront, 1 Workstation</p>
+<p>A shop front for a tradesperson such as a baker or butcher.</p>
+
+<p id="university" class="stat-block-title">University</p>
+<p class="stat-block-1"><b>Create</b> 94 Goods, 10 Influence, 88 Labor, 2 Magic (4,140 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Bath, 1 Bell Tower, 1 Book Repository, 2 Classrooms, 1 Common Room, 1 Courtyard, 1 Greenhouse, 1 Kitchen, 1 Lavatory, 1 Observation Dome, 2 Offices, 1 Scriptorium, 1 Sitting Room, 1 Statue</p>
+<p>An institution of higher learning.</p>
+
+<p id="watchtower" class="stat-block-title">Watchtower</p>
+<p class="stat-block-1"><b>Create</b> 35 Goods, 9 Influence, 25 Labor (1,470 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 1 Armory, 1 Bell Tower, 1 Gatehouse</p>
+<p>A tall structure that serves as a guard post.</p>
+
+<p id="waterfront" class="stat-block-title">Waterfront</p>
+<p class="stat-block-1"><b>Create</b> 63 Goods, 10 Influence, 56 Labor (2,680 gp)</p>
+<p class="stat-block-1"><b>Rooms</b> 2 Animal Pens, 4 Docks, 1 Office, 4 Storages, 1 Workstation</p>
+<p>A port for waterborne arrival and departure, with facilities for shipping and shipbuilding.</p>
+
+<h2 id="organizations">Organizations</h2>
+<p>This section details several standard organizations, the cost of creating them, and which teams from the downtime system you can recruit to form them. Unless you own a building where these people can reside, they have their own homes.</p>
+
+<p id="artisans'-guild" class="stat-block-title">Artisans' Guild</p>
+<p class="stat-block-1"><b>Create</b> 8 Goods, 10 Influence, 14 Labor (740 gp)</p>
+<p class="stat-block-1"><b>Teams</b> 1 Bureaucrats, 2 Craftspeople, 2 Laborers</p>
+<p class="stat-block-1">Artisans and assistants who create quality goods.</p>
+
+<p id="bounty-hunters" class="stat-block-title">Bounty Hunters</p>
+<p class="stat-block-1"><b>Create</b> 8 Goods, 8 Influence, 10 Labor (600 gp)</p>
+<p class="stat-block-1"><b>Teams</b> 1 Archers, 1 Bureaucrats, 1 Driver</p>
+<p class="stat-block-1">Fighters trained to find and capture criminals and escapees.</p>
+
+<p id="brute-squad" class="stat-block-title">Brute Squad</p>
+<p class="stat-block-1"><b>Create</b> 7 Goods, 8 Influence, 13 Labor (640 gp)</p>
+<p class="stat-block-1"><b>Teams</b> 1 Robbers, 2 Soldiers</p>
+<p class="stat-block-1">A gang of well-armed professionals who throw their weight around on your behalf.</p>
+
+<p id="cabal" class="stat-block-title">Cabal</p>
+<p class="stat-block-1"><b>Create</b> 16 Goods, 12 Influence, 8 Labor, 24 Magic (3,240 gp)</p>
+<p class="stat-block-1"><b>Teams</b> 4 Apprentices, 1 Mage, 1 Sage</p>
+<p>A study group of peers and apprentices devoted to arcane mysteries and research.</p>
+
+<p id="caravan-crew" class="stat-block-title">Caravan Crew</p>
+<p class="stat-block-1"><b>Create</b> 6 Goods, 3 Influence, 7 Labor (350 gp)</p>
+<p class="stat-block-1"><b>Teams</b> 2 Drivers, 1 Guards, 1 Laborers</p>
+<p>Travelers skilled in loading, transporting, and unloading trade goods from animals, wagons, and ships.</p>
+
+<p id="cult" class="stat-block-title">Cult</p>
+<p class="stat-block-1"><b>Create</b> 15 Goods, 11 Influence, 17 Labor, 18 Magic (2,770 gp)</p>
+<p class="stat-block-1"><b>Teams</b> 4 Acolytes, 2 Guards, 1 Priest</p>
+<p>A splinter religion or secret society that believes yours is the true faith.</p>
+
+<p id="entourage" class="stat-block-title">Entourage</p>
+<p class="stat-block-1"><b>Create</b> 6 Goods, 9 Influence, 7 Labor (530 gp)</p>
+<p class="stat-block-1"><b>Teams</b> 1 Bureaucrats, 1 Driver, 2 Lackeys</p>
+<p>Friends and toadies who take care of your eating, sleeping, travel, and entertainment arrangements.</p>
+
+<p id="fight-club" class="stat-block-title">Fight Club</p>
+<p class="stat-block-1"><b>Create</b> 5 Goods, 7 Influence, 10 Labor (510 gp)</p>
+<p class="stat-block-1"><b>Teams</b> 1 Driver, 1 Guards, 1 Laborers, 1 Lackeys, 1 Scofflaws</p>
+<p class="stat-block-1">A possibly illegal association of boxing aficionados.</p>
+
+<p id="hunting-party" class="stat-block-title">Hunting Party</p>
+<p class="stat-block-1"><b>Create</b> 5 Goods, 6 Influence, 11 Labor (500 gp)</p>
+<p class="stat-block-1"><b>Teams</b> 1 Archers, 1 Laborers, 1 Lackeys</p>
+<p class="stat-block-1">The necessary guides and assistants for sport hunting.</p>
+
+<p id="mercenary-company" class="stat-block-title">Mercenary Company</p>
+<p class="stat-block-1"><b>Create</b> 18 Goods, 13 Influence, 25 Labor, 6 Magic (1,850 gp)</p>
+<p class="stat-block-1"><b>Teams</b> 1 Elite Archers, 2 Elite Soldiers, 1 Priest</p>
+<p>A well-armed group of warriors who are loyal to you, and who are paid to guard or fight.</p>
+
+<p id="ship-crew" class="stat-block-title">Ship Crew</p>
+<p class="stat-block-1"><b>Create</b> 1 Goods, 2 Influence, 4 Labor (160 gp)</p>
+<p class="stat-block-1"><b>Teams</b> 1 Laborers, 1 Sailors</p>
+<p class="stat-block-1">The crew of a small sailing vessel.</p>
+
+<p id="theater-company" class="stat-block-title">Theater Company</p>
+<p class="stat-block-1"><b>Create</b> 15 Goods, 17 Influence, 13 Labor, 20 Magic (3,070 gp)</p>
+<p class="stat-block-1"><b>Teams</b> 5 Apprentices, 1 Bureaucrats, 1 Craftspeople, 1 Laborers</p>
+<p>Performers, set dressers, and costumers for an acting troupe or similar group.</p>
+
+<p id="thieves'-guild" class="stat-block-title">Thieves' Guild</p>
+<p class="stat-block-1"><b>Create</b> 4 Goods, 15 Influence, 12 Labor (770 gp)</p>
+<p class="stat-block-1"><b>Teams</b> 2 Cutpurses, 1 Robbers, 1 Scofflaws, 1 Soldiers</p>
+<p>A band of criminals and thugs who commit illegal acts.</p>
+
+<p id="vagabonds" class="stat-block-title">Vagabonds</p>
+<p class="stat-block-1"><b>Create</b> 10 Goods, 13 Influence, 13 Labor, 7 Magic (1,550 gp)</p>
+<p class="stat-block-1"><b>Teams</b> 1 Acolyte, 1 Apprentice, 1 Cutpurses, 2 Drivers, 1 Guards, 1 Laborers, 1 Scofflaws</p>
+<p>Unsavory wanderers skilled at stage magic, fortunetelling, rigged games, and snake oil.</p>
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

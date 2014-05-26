@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Barbarian</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Barbarian",globalNavPath=[{ href: '/pathfinderRPG/prd/classes.html', name: 'Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="barbarian">Barbarian</h1>
+				<p>For some, there is only rage. In the ways of their people, in the fury of their passion, in the howl of battle, conflict is all these brutal souls know. Savages, hired muscle, masters of vicious martial techniques, they are not soldiers or professional warriors&mdash;they are the battle possessed, creatures of slaughter and spirits of war. Known as barbarians, these warmongers know little of training, preparation, or the rules of warfare; for them, only the moment exists, with the foes that stand before them and the knowledge that the next moment might hold their death. They possess a sixth sense in regard to danger and the endurance to weather all that might entail. These brutal warriors might rise from all walks of life, both civilized and savage, though whole societies embracing such philosophies roam the wild places of the world. Within barbarians storms the primal spirit of battle, and woe to those who face their rage.</p>
+				<p><b>Role</b>: Barbarians excel in combat, possessing the martial prowess and fortitude to take on foes seemingly far superior to themselves. With rage granting them boldness and daring beyond that of most other warriors, barbarians charge furiously into battle and ruin all who would stand in their way.</p>
+				<p><b>Alignment</b>: Any nonlawful.</p>
+				<p><b>Hit Die</b>: d12.</p>
+				<h2>Class Skills</h2>
+				<p>The barbarian's class skills are <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> (<a href="../gettingStarted.html#_dexterity" >Dex</a>), <a href="../skills/climb.html#_climb" >Climb</a> (<a href="../gettingStarted.html#_strength" >Str</a>), <a href="../skills/craft.html#_craft" >Craft</a> (<a href="../gettingStarted.html#_intelligence" >Int</a>), <a href="../skills/handleAnimal.html#_handle-animal" >Handle Animal</a> (<a href="../gettingStarted.html#_charisma-new" >Cha</a>), <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> (<a href="../gettingStarted.html#_charisma-new" >Cha</a>), <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (nature) (<a href="../gettingStarted.html#_intelligence" >Int</a>), <a href="../skills/perception.html#_perception" >Perception</a> (<a href="../gettingStarted.html#_wisdom" >Wis</a>), <a href="../skills/ride.html#_ride" >Ride</a> (<a href="../gettingStarted.html#_dexterity" >Dex</a>), <a href="../skills/survival.html#_survival" >Survival</a> (<a href="../gettingStarted.html#_wisdom" >Wis</a>), and <a href="../skills/swim.html#_swim" >Swim</a> (<a href="../gettingStarted.html#_strength" >Str</a>).</p>
+				<p><b>Skill Ranks per Level</b>: 4 + <a href="../gettingStarted.html#_intelligence" >Int</a> modifier.</p>
+				<table id="table-3-2-barbarian"><caption>Table: Barbarian</caption>
+<thead><tr><th>Level</th><th>Base Attack Bonus</th><th>Fort Save</th><th>Ref Save</th><th>Will Save</th><th>Special</th></tr></thead>
+<tr class="odd"><td>1st</td><td>+1</td><td>+2</td><td>+0</td><td>+0</td><td style="white-space: normal;"><a href="#fast-movement" >Fast movement</a>, <a href="#rage" >rage</a></td></tr>
+<tr class="even"><td>2nd</td><td>+2</td><td>+3</td><td>+0</td><td>+0</td><td style="white-space: normal;"><a href="#rage-powers" >Rage power</a>, <a href="#uncanny-dodge-barbarian" >uncanny dodge</a></td></tr>
+<tr class="odd"><td>3rd</td><td>+3</td><td>+3</td><td>+1</td><td>+1</td><td style="white-space: normal;"><a href="#trap-sense-barbarian" >Trap sense</a> +1</td></tr>
+<tr class="even"><td>4th</td><td>+4</td><td>+4</td><td>+1</td><td>+1</td><td style="white-space: normal;"><a href="#rage-powers" >Rage power</a></td></tr>
+<tr class="odd"><td>5th</td><td>+5</td><td>+4</td><td>+1</td><td>+1</td><td style="white-space: normal;"><a href="#improved-uncanny-dodge-barbarian" >Improved uncanny dodge</a></td></tr>
+<tr class="even"><td>6th</td><td>+6/+1</td><td>+5</td><td>+2</td><td>+2</td><td style="white-space: normal;"><a href="#rage-powers" >Rage power</a>, <a href="#trap-sense-barbarian" >Trap sense</a> +2</td></tr>
+<tr class="odd"><td>7th</td><td>+7/+2</td><td>+5</td><td>+2</td><td>+2</td><td style="white-space: normal;"><a href="#damage-reduction-barbarian" >Damage reduction</a> 1/&mdash;</td></tr>
+<tr class="even"><td>8th</td><td>+8/+3</td><td>+6</td><td>+2</td><td>+2</td><td style="white-space: normal;"><a href="#rage-powers" >Rage power</a></td></tr>
+<tr class="odd"><td>9th</td><td>+9/+4</td><td>+6</td><td>+3</td><td>+3</td><td style="white-space: normal;"><a href="#trap-sense-barbarian" >Trap sense</a> +3</td></tr>
+<tr class="even"><td>10th</td><td>+10/+5</td><td>+7</td><td>+3</td><td>+3</td><td style="white-space: normal;"><a href="#damage-reduction-barbarian" >Damage reduction</a> 2/&mdash;, <a href="#rage-powers" >Rage power</a></td></tr>
+<tr class="odd"><td>11th</td><td>+11/+6/+1</td><td>+7</td><td>+3</td><td>+3</td><td style="white-space: normal;"><a href="#greater-rage" >Greater rage</a></td></tr>
+<tr class="even"><td>12th</td><td>+12/+7/+2</td><td>+8</td><td>+4</td><td>+4</td><td style="white-space: normal;"><a href="#rage-powers" >Rage power</a>, <a href="#trap-sense-barbarian" >Trap sense</a> +4</td></tr>
+<tr class="odd"><td>13th</td><td>+13/+8/+3</td><td>+8</td><td>+4</td><td>+4</td><td style="white-space: normal;"><a href="#damage-reduction-barbarian" >Damage reduction</a> 3/&mdash;</td></tr>
+<tr class="even"><td>14th</td><td>+14/+9/+4</td><td>+9</td><td>+4</td><td>+4</td><td style="white-space: normal;"><a href="#indomitable-will" >Indomitable will</a>, <a href="#rage-powers" >Rage power</a></td></tr>
+<tr class="odd"><td>15th</td><td>+15/+10/+5</td><td>+9</td><td>+5</td><td>+5</td><td style="white-space: normal;"><a href="#trap-sense-barbarian" >Trap sense</a> +5</td></tr>
+<tr class="even"><td>16th</td><td>+16/+11/+6/+1</td><td>+10</td><td>+5</td><td>+5</td><td style="white-space: normal;"><a href="#damage-reduction-barbarian" >Damage reduction</a> 4/&mdash;, <a href="#rage-powers" >Rage power</a></td></tr>
+<tr class="odd"><td>17th</td><td>+17/+12/+7/+2</td><td>+10</td><td>+5</td><td>+5</td><td style="white-space: normal;"><a href="#tireless-rage" >Tireless rage</a></td></tr>
+<tr class="even"><td>18th</td><td>+18/+13/+8/+3</td><td>+11</td><td>+6</td><td>+6</td><td style="white-space: normal;"><a href="#rage-powers" >Rage power</a>, <a href="#trap-sense-barbarian" >Trap sense</a> +6</td></tr>
+<tr class="odd"><td>19th</td><td>+19/+14/+9/+4</td><td>+11</td><td>+6</td><td>+6</td><td style="white-space: normal;"><a href="#damage-reduction-barbarian" >Damage reduction</a> 5/&mdash;</td></tr>
+<tr class="even"><td>20th</td><td>+20/+15/+10/+5</td><td>+12</td><td>+6</td><td>+6</td><td style="white-space: normal;"><a href="#mighty-rage" >Mighty rage</a>, <a href="#rage-powers" >Rage power</a></td></tr></table>
+				<h2>Class Features</h2>
+				<p>All of the following are class features of the barbarian.</p>
+				<p><b>Weapon and Armor Proficiency</b>: A barbarian is proficient with all <a href="../equipment.html#_simple-martial-and-exotic-weapons" >simple</a> and <a href="../equipment.html#_simple-martial-and-exotic-weapons" >martial</a> weapons, light armor, medium armor, and shields (except tower shields).</p>
+				<p id="fast-movement"><b>Fast Movement <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: A barbarian's land speed is faster than the norm for her race by +10 feet. This benefit applies only when she is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying the barbarian's speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the barbarian's land speed.</p>
+				<p id="rage"><b>Rage <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: A barbarian can call upon inner reserves of strength and ferocity, granting her additional combat prowess. Starting at 1st level, a barbarian can rage for a number of rounds per day equal to 4 + her <a href="../gettingStarted.html#_constitution" >Constitution</a> modifier. At each level after 1st, she can rage for 2 additional rounds. Temporary increases to <a href="../gettingStarted.html#_constitution" >Constitution</a>, such as those gained from rage and spells like <i><a href="../spells/bearSEndurance.html#_bear-s-endurance" >bear's endurance</a>,</i> do not increase the total number of rounds that a barbarian can rage per day. A barbarian can enter rage as a free action. The total number of rounds of rage per day is renewed after resting for 8 hours, although these hours do not need to be consecutive.</p>
+				<p>While in rage, a barbarian gains a +4 morale bonus to her <a href="../gettingStarted.html#_strength" >Strength</a> and <a href="../gettingStarted.html#_constitution" >Constitution</a>, as well as a +2 morale bonus on <a href="../combat.html#_will" >Will saves</a>. In addition, she takes a &ndash;2 penalty to <a href="../combat.html#_armor-class" >Armor Class</a>. The increase to <a href="../gettingStarted.html#_constitution" >Constitution</a> grants the barbarian 2 hit points per Hit Dice, but these disappear when the rage ends and are not lost first like <a href="../combat.html#_temporary-hit-points" >temporary hit points</a>. While in rage, a barbarian cannot use any <a href="../gettingStarted.html#_charisma-new" >Charisma</a>-, <a href="../gettingStarted.html#_dexterity" >Dexterity</a>-, or <a href="../gettingStarted.html#_intelligence" >Intelligence</a>-based skills (except <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a>, <a href="../skills/fly.html#_fly" >Fly</a>, <a href="../skills/intimidate.html#_intimidate" >Intimidate</a>, and <a href="../skills/ride.html#_ride" >Ride</a>) or any ability that requires patience or concentration.</p>
+				<p>A barbarian can end her rage as a free action and is <a href="../glossary.html#_fatigued" >fatigued</a> after rage for a number of rounds equal to 2 times the number of rounds spent in the rage. A barbarian cannot enter a new rage while <a href="../glossary.html#_fatigued" >fatigued</a> or <a href="../glossary.html#_exhausted" >exhausted</a> but can otherwise enter rage multiple times during a single encounter or combat. If a barbarian falls <a href="../glossary.html#_unconscious" >unconscious</a>, her rage immediately ends, placing her in peril of death.</p>
+				<p id="rage-powers"><b>Rage Powers <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: As a barbarian gains levels, she learns to use her rage in new ways. Starting at 2nd level, a barbarian gains a rage power. She gains another rage power for every two levels of barbarian attained after 2nd level. A barbarian gains the benefits of rage powers only while raging, and some of these powers require the barbarian to take an action first. Unless otherwise noted, a barbarian cannot select an individual power more than once.</p>
+				<p id="rage-powers-animal-fury"><i>Animal Fury <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: While raging, the barbarian gains a bite attack. If used as part of a full attack action, the bite attack is made at the barbarian's full base attack bonus &ndash;5. If the bite hits, it deals 1d4 points of damage (assuming the barbarian is Medium; 1d3 points of damage if Small) plus half the barbarian's <a href="../gettingStarted.html#_strength" >Strength</a> modifier. A barbarian can make a bite attack as part of the action to maintain or break free from a grapple. This attack is resolved before the grapple check is made. If the bite attack hits, any grapple checks made by the barbarian against the target this round are at a +2 bonus.</p>
+				<p id="rage-powers-clear-mind"><i>Clear Mind</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: A barbarian may reroll a failed <a href="../combat.html#_will" >Will save</a>. This power is used as an immediate action after the first save is attempted, but before the results are revealed by the GM. The barbarian must take the second result, even if it is worse. A barbarian must be at least 8th level before selecting this power. This power can only be used once per rage.</p>
+				<p id="rage-powers-fearless-rage"><i>Fearless Rage <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: While raging, the barbarian is immune to the <a href="../glossary.html#_shaken" >shaken</a> and <a href="../glossary.html#_frightened" >frightened</a> conditions. A barbarian must be at least 12th level before selecting this rage power.</p>
+				<p id="rage-powers-guarded-stance-copy-346"><i>Guarded Stance</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian gains a +1 <a href="../combat.html#_dodge-bonuses" >dodge bonus</a> to her <a href="../combat.html#_armor-class" >Armor Class</a> against melee attacks for a number of rounds equal to the barbarian's current <a href="../gettingStarted.html#_constitution" >Constitution</a> modifier (minimum 1). This bonus increases by +1 for every 6 levels the barbarian has attained. Activating this ability is a move action that does not provoke an <a href="../combat.html#_attacks-of-opportunity" >attack of opportunity</a>.</p>
+				<p id="rage-powers-increased-damage-reduction"><i>Increased Damage Reduction</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian's <a href="../glossary.html#_damage-reduction" >damage reduction</a> increases by 1/&mdash;. This increase is always active while the barbarian is raging. A barbarian can select this rage power up to three times. Its effects stack. A barbarian must be at least 8th level before selecting this rage power.</p>
+				<p id="rage-powers-internal-fortitude"><i>Internal Fortitude <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: While raging, the barbarian is immune to the <a href="../glossary.html#_sickened" >sickened</a> and <a href="../glossary.html#_nauseated" >nauseated</a> conditions. A barbarian must be at least 8th level before selecting this rage power.</p>
+				<p id="rage-powers-intimidating-glare"><i>Intimidating Glare</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian can make an <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> check against one adjacent foe as a move action. If the barbarian successfully demoralizes her opponent, the foe is <a href="../glossary.html#_shaken" >shaken</a> for 1d4 rounds + 1 round for every 5 points by which the barbarian's check exceeds the DC.</p>
+				<p id="rage-powers-knockback"><i>Knockback</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: Once per round, the barbarian can make a <a href="../combat.html#_bull-rush" >bull rush</a> attempt against one target in place of a melee attack. If successful, the target takes damage equal to the barbarian's <a href="../gettingStarted.html#_strength" >Strength</a> modifier and is moved back as normal. The barbarian does not need to move with the target if successful. This does not provoke an <a href="../combat.html#_attacks-of-opportunity" >attack of opportunity</a>.</p>
+				<p id="rage-powers-low-light-vision"><i>Low-Light Vision</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian's senses sharpen and she gains <a href="../glossary.html#_low-light-vision" >low-light vision</a> while raging.</p>
+				<p id="rage-powers-mighty-swing"><i>Mighty Swing</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian automatically confirms a <a href="../combat.html#_critical-hits" >critical hit</a>. This power is used as an immediate action once a critical threat has been determined. A barbarian must be at least 12th level before selecting this power. This power can only be used once per rage.</p>
+				<p id="rage-powers-moment-of-clarity"><i>Moment of Clarity</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian does not gain any benefits or take any of the penalties from rage for 1 round. Activating this power is a swift action. This includes the penalty to <a href="../combat.html#_armor-class" >Armor Class</a> and the restriction on what actions can be performed. This round still counts against her total number of rounds of rage per day. This power can only be used once per rage.</p>
+				<p id="rage-powers-night-vision"><i>Night Vision</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian's senses grow incredibly sharp while raging and she gains <a href="../glossary.html#_darkvision" >darkvision</a> 60 feet. A barbarian must have <a href="../glossary.html#_low-light-vision" >low-light vision</a> as a rage power or a racial trait to select this rage power.</p>
+				<p id="rage-powers-no-escape"><i>No Escape <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian can move up to double her normal speed as an immediate action but she can only use this ability when an adjacent foe uses a <a href="../combat.html#_withdraw" >withdraw action</a> to move away from her. She must end her movement adjacent to the enemy that used the <a href="../combat.html#_withdraw" >withdraw action</a>. The barbarian provokes attacks of opportunity as normal during this movement. This power can only be used once per rage.</p>
+				<p id="rage-powers-powerful-blow"><i>Powerful Blow <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian gains a +1 bonus on a single damage roll. This bonus increases by +1 for every 4 levels the barbarian has attained. This power is used as a swift action before the roll to hit is made. This power can only be used once per rage.</p>
+				<p id="rage-powers-quick-reflexes"><i>Quick Reflexes <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: While raging, the barbarian can make one additional <a href="../combat.html#_attacks-of-opportunity" >attack of opportunity</a> per round.</p>
+				<p id="rage-powers-raging-climber"><i>Raging Climber <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: When raging, the barbarian adds her level as an enhancement bonus on all <a href="../skills/climb.html#_climb" >Climb</a> <a href="../usingSkills.html#_skill-checks" >skill checks</a>.</p>
+				<p id="rage-powers-raging-leaper"><i>Raging Leaper <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: When raging, the barbarian adds her level as an enhancement bonus on all <a href="../skills/acrobatics.html#_acrobatics" >Acrobatics</a> <a href="../usingSkills.html#_skill-checks" >skill checks</a> made to jump. When making a jump in this way, the barbarian is always considered to have a running start.</p>
+				<p id="rage-powers-raging-swimmer"><i>Raging Swimmer <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: When raging, the barbarian adds her level as an enhancement bonus on all <a href="../skills/swim.html#_swim" >Swim</a> <a href="../usingSkills.html#_skill-checks" >skill checks</a>.</p>
+				<p id="rage-powers-renewed-vigor"><i>Renewed Vigor</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: As a standard action, the barbarian heals 1d8 points of damage + her <a href="../gettingStarted.html#_constitution" >Constitution</a> modifier. For every four levels the barbarian has attained above 4th, this amount of damage healed increases by 1d8, to a maximum of 5d8 at 20th level. A barbarian must be at least 4th level before selecting this power. This power can be used only once per day and only while raging.</p>
+				<p id="rage-powers-rolling-dodge"><i>Rolling Dodge <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian gains a +1 <a href="../combat.html#_dodge-bonuses" >dodge bonus</a> to her <a href="../combat.html#_armor-class" >Armor Class</a> against ranged attacks for a number of rounds equal to the barbarian's current <a href="../gettingStarted.html#_constitution" >Constitution</a> modifier (minimum 1). This bonus increases by +1 for every 6 levels the barbarian has attained. Activating this ability is a move action that does not provoke an <a href="../combat.html#_attacks-of-opportunity" >attack of opportunity</a>.</p>
+				<p id="rage-powers-roused-anger"><i>Roused Anger</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian may enter a rage even if <a href="../glossary.html#_fatigued" >fatigued</a>. While raging after using this ability, the barbarian is immune to the <a href="../glossary.html#_fatigued" >fatigued</a> condition. Once this rage ends, the barbarian is <a href="../glossary.html#_exhausted" >exhausted</a> for 10 minutes per round spent raging.</p>
+				<p id="rage-powers-scent"><i>Scent</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian gains the <a href="../glossary.html#_scent" >scent</a> ability while raging and can use this ability to locate unseen foes (see <a href="../glossary.html#_appendix-1-special-abilities">Special Abilities</a> for rules on the <a href="../glossary.html#_scent" >scent</a> ability).</p>
+				<p id="rage-powers-strength-surge"><i>Strength Surge</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian adds her barbarian level on one <a href="../gettingStarted.html#_strength" >Strength</a> check or <a href="../combat.html#_combat-maneuvers" >combat maneuver check</a>, or to her <a href="../combat.html#_combat-maneuver-defense" >Combat Maneuver Defense</a> when an opponent attempts a maneuver against her. This power is used as an immediate action. This power can only be used once per rage.</p>
+				<p id="rage-powers-superstition"><i>Superstition <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian gains a +2 morale bonus on <a href="../combat.html#_saving-throws" >saving throws</a> made to resist spells, supernatural abilities, and spell-like abilities. This bonus increases by +1 for every 4 levels the barbarian has attained. While raging, the barbarian cannot be a willing target of any spell and must make <a href="../combat.html#_saving-throws" >saving throws</a> to resist all spells, even those cast by allies.</p>
+				<p id="rage-powers-surprise-accuracy"><i>Surprise Accuracy</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian gains a +1 morale bonus on one attack roll. This bonus increases by +1 for every 4 levels the barbarian has attained. This power is used as a swift action before the roll to hit is made. This power can only be used once per rage.</p>
+				<p id="rage-powers-swift-foot"><i>Swift Foot</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian gains a 5-foot enhancement bonus to her speed. This increase is always active while the barbarian is raging. A barbarian can select this rage power up to three times. Its effects stack. </p>
+				<p id="rage-powers-terrifying-howl"><i>Terrifying Howl</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian unleashes a terrifying howl as a standard action. All <a href="../glossary.html#_shaken" >shaken</a> enemies within 30 feet must make a <a href="../combat.html#_will" >Will save</a> (DC equal to 10 + 1/2 the barbarian's level + the barbarian's <a href="../gettingStarted.html#_strength" >Strength</a> modifier) or be <a href="../glossary.html#_panicked" >panicked</a> for 1d4+1 rounds. Once an enemy has made a save versus terrifying howl (successful or not), it is immune to this power for 24 hours. A barbarian must have the intimidating glare rage power to select this rage power. A barbarian must be at least 8th level before selecting this power.</p>
+				<p id="rage-powers-unexpected-strike"><i>Unexpected Strike <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: The barbarian can make an <a href="../combat.html#_attacks-of-opportunity" >attack of opportunity</a> against a foe that moves into any square threatened by the barbarian, regardless of whether or not that movement would normally provoke an <a href="../combat.html#_attacks-of-opportunity" >attack of opportunity</a>. This power can only be used once per rage. A barbarian must be at least 8th level before selecting this power.</p>
+				<p id="uncanny-dodge-barbarian"><b>Uncanny Dodge <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 2nd level, a barbarian gains the ability to react to danger before her senses would normally allow her to do so. She cannot be caught <a href="../glossary.html#_flat-footed" >flat-footed</a>, even if the attacker is <a href="../glossary.html#_invisible" >invisible</a>. She still loses her <a href="../gettingStarted.html#_dexterity" >Dexterity</a> bonus to <a href="../combat.html#_armor-class" >AC</a> if immobilized. A barbarian with this ability can still lose her <a href="../gettingStarted.html#_dexterity" >Dexterity</a> bonus to <a href="../combat.html#_armor-class" >AC</a> if an opponent successfully uses the feint action against her.</p>
+				<p>If a barbarian already has uncanny dodge from a different class, she automatically gains improved uncanny dodge (see below) instead.</p>
+				<p id="trap-sense-barbarian"><b>Trap Sense <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 3rd level, a barbarian gains a +1 bonus on <a href="../combat.html#_reflex" >Reflex saves</a> made to avoid traps and a +1 <a href="../combat.html#_dodge-bonuses" >dodge bonus</a> to <a href="../combat.html#_armor-class" >AC</a> against attacks made by traps. These bonuses increase by +1 every three barbarian levels thereafter (6th, 9th, 12th, 15th, and 18th level). Trap sense bonuses gained from multiple classes stack.</p>
+				<p id="improved-uncanny-dodge-barbarian"><b>Improved Uncanny Dodge <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 5th level and higher, a barbarian can no longer be flanked. This defense denies a rogue the ability to sneak attack the barbarian by flanking her, unless the attacker has at least four more rogue levels than the target has barbarian levels.</p>
+				<p>If a character already has uncanny dodge (see above) from another class, the levels from the classes that grant uncanny dodge stack to determine the minimum rogue level required to flank the character.</p>
+				<p id="damage-reduction-barbarian"><b>Damage Reduction <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 7th level, a barbarian gains <a href="../glossary.html#_damage-reduction" >damage reduction</a>. Subtract 1 from the damage the barbarian takes each time she is dealt damage from a weapon or a natural attack. At 10th level, and every three barbarian levels thereafter (13th, 16th, and 19th level), this <a href="../glossary.html#_damage-reduction" >damage reduction</a> rises by 1 point. <a href="../glossary.html#_damage-reduction" >Damage reduction</a> can reduce damage to 0 but not below 0.</p>
+				<p id="greater-rage"><b>Greater Rage <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 11th level, when a barbarian enters rage, the morale bonus to her <a href="../gettingStarted.html#_strength" >Strength</a> and <a href="../gettingStarted.html#_constitution" >Constitution</a> increases to +6 and the morale bonus on her <a href="../combat.html#_will" >Will saves</a> increases to +3.</p>
+				<p id="indomitable-will"><b>Indomitable Will <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: While in rage, a barbarian of 14th level or higher gains a +4 bonus on <a href="../combat.html#_will" >Will saves</a> to resist enchantment spells. This bonus stacks with all other modifiers, including the morale bonus on <a href="../combat.html#_will" >Will saves</a> she also receives during her rage.</p>
+				<p id="tireless-rage"><b>Tireless Rage <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: Starting at 17th level, a barbarian no longer becomes <a href="../glossary.html#_fatigued" >fatigued</a> at the end of her rage.</p>
+				<p id="mighty-rage"><b>Mighty Rage <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></b>: At 20th level, when a barbarian enters rage, the morale bonus to her <a href="../gettingStarted.html#_strength" >Strength</a> and <a href="../gettingStarted.html#_constitution" >Constitution</a> increases to +8 and the morale bonus on her <a href="../combat.html#_will" >Will saves</a> increases to +4.</p>
+				<h2>Ex-Barbarians</h2>
+				<p>A barbarian who becomes lawful loses the ability to rage and cannot gain more levels as a barbarian. She retains all other benefits of the class.</p>
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

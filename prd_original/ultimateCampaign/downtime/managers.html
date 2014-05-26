@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Managers</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Managers",globalNavPath=[{ href: '/pathfinderRPG/prd/ultimateEquipment/downtime.html', name: 'Downtime' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+<div id="body">
+
+<h1 id="managers">Managers</h1>
+<p>A manager is a competent employee qualified to run a business while you're gone, even for weeks or months at a time. A manager is authorized to make certain decisions about your property while you're away, such as paying tax collectors, banning cultists from your store, and handling emergency situations.</p>
+<p>Having a manager delays capital attrition (<a href="/pathfinderRPG/prd/ultimateCampaign/kingdomBuilding.html#_upkeep-phase">Upkeep phase step 3</a>) from 1 every 7 days to 1 every 14 days. As long as the manager's pay is up to date, having a manager look after your business prevents business attrition.</p>
+<p>Unlike a team, a manager requires daily wages paid in gp. It's customary to pay a manager in advance when you're going to be absent, or arrange to pay wages through a bank or accountant. If you trust the manager, you can even allow her to take wages out of your business's earnings or from money you've set aside for your building or organization.</p>
+<p>It's a good idea to give a manager some means of contacting you while you're away, even just an address in a city near where you're adventuring. You might want to provide a magical means of contacting you (and leave funds set aside to pay for it) in case something requires your urgent attention.</p>
+
+<h2 id="reading-a-manager-stat-block">Reading a Manager Stat Block</h2>
+<p>A manager stat block is organized as follows.</p>
+<p><b>Wage</b>: This gp value is the manager's daily wage. This wage is for handling normal day-to-day operation of your business, and doesn't include costs for exceptional services. For example, just because you pay your abbot a daily wage doesn't mean you can bring him on adventures to cast spells (in fact, most of his spells are probably used in the course of doing his job managing your Temple).</p>
+<p><b>Skills</b>: This indicates the main skills the manager has ranks in, allowing you or the GM to make skill checks for the manager if an event or encounter requires it. The manager might also have ranks in other skills that aren't relevant to employment duties. The managers here are examples; a specific manager you hire could have different class skills more closely suited to your business. A manager is typically a 3rd-level character with 3 ranks in the appropriate skills and the basic NPC ability score array, giving the manager a +7 or +8 for class skills and a +4 or +5 for non-class skills.</p>
+<p>Many manager roles are similar to specific teams. For example, an Abbot is a Priest who is qualified to run a Temple or religious organization. The primary difference between an Abbot and Priest is that you pay the Abbot a wage to look after your building or organization while you're away, whereas the Priest might be just one of several people with similar duties in your organization. With the GM's approval, you may convert a team to an appropriate manager by paying the NPC (or NPCs) a wage, or vice versa.</p>
+<p>You can select a cohort or notable follower to be a manager, but you still must pay a wage. Having a cohort or follower as a manager means you know the manager is loyal to you&mdash;it doesn't mean that she'll work for free while you're off adventuring.</p>
+
+<h2 id="example-managers">Example Managers</h2>
+<p>The following managers are examples of individuals you can hire to manage a business or look after your building or organization.</p>
+
+<p id="abbot" class="stat-block-title">Abbot</p>
+<p class="stat-block-1"><b>Wage</b> 4 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local), <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (religion)</p>
+<p>An Abbot is divine spellcaster trained to take care of a Temple or religious organization and its members. She's typically a 3rd-level adept, cleric, druid, or oracle, with light armor (or no armor, if an adept) and a weapon appropriate to her faith.</p>
+
+<p id="accountant" class="stat-block-title">Accountant</p>
+<p class="stat-block-1"><b>Wage</b> 3 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local), <a href="/pathfinderRPG/prd/skills/linguistics.html#_linguistics" >Linguistics</a>, <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (accountant)</p>
+<p>An Accountant maintains financial records and balances an organization's or building's budget. He's typically a 3rd-level expert and not a combatant, though he could be from any skilled class that makes good use of high mental ability scores.</p>
+
+<p id="captain" class="stat-block-title">Captain</p>
+<p class="stat-block-1"><b>Wage</b> 5 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a>, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (geography), <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (sailor)</p>
+<p>A Captain is a master sailor who runs a shipping operation. She's typically a 3rd-level expert, rogue, or fighter. A Captain can be in charge of a mercantile organization, a pirate fleet, or a business that ferries people from port to port.</p>
+
+<p id="doctor" class="stat-block-title">Doctor</p>
+<p class="stat-block-1"><b>Wage</b> 5 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/heal.html#_heal" >Heal</a>, <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>, <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a>, <a href="/pathfinderRPG/prd/skills/survival.html#_survival" >Survival</a></p>
+<p>A Doctor is trained to treat all manner of maladies and injuries. He's typically a 3rd-level adept, cleric, druid, or oracle. An expert can make a suitable Doctor, but can heal and treat wounds and diseases with only mundane methods or the use of magic items. A Doctor is typically in charge of a Hospital or organization that provides medical care.</p>
+
+<p id="guildmaster-(artisans'-guild)" class="stat-block-title">Guildmaster (Artisans' Guild)</p>
+<p class="stat-block-1"><b>Wage</b> 3 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a>, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (any one), <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (any one)</p>
+<p>A artisans' Guildmaster is skilled at her art and capable of running a group of like-minded artisans. She's typically a 3rd-level bard, expert, rogue, or member of another skilled class. A Guildmaster handles the day-to-day duties of running an Artisan's Guild: basic administration, educating guild members, and working at her trade.</p>
+
+<p id="guildmaster-(thieves'-guild)" class="stat-block-title">Guildmaster (Thieves' Guild)</p>
+<p class="stat-block-1"><b>Wage</b> 5 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a>, <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>, <a href="/pathfinderRPG/prd/skills/disableDevice.html#_disable-device" >Disable Device</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local)</p>
+<p>A thieves' Guildmaster manages a criminal organization. He's typically a 3rd-level bard, cleric, expert, rogue, or sorcerer. A Guildmaster runs the day-to-day operation of a Thieves' Guild: basic administration, training recruits, managing current operations, and devising new schemes.</p>
+
+<p id="headmaster" class="stat-block-title">Headmaster</p>
+<p class="stat-block-1"><b>Wage</b> 3 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (any two), <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (any one)</p>
+<p>A Headmaster manages a place of learning, such as a Bardic College, Magical Academy, or University. She's typically a 3rd-level alchemist, bard, expert, rogue, sorcerer, wizard, or witch. Running an establishment of higher learning includes basic administration, educating students, and ongoing research.</p>
+
+<p id="innkeeper" class="stat-block-title">Innkeeper</p>
+<p class="stat-block-1"><b>Wage</b> 2 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a>, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local), <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (any one)</p>
+<p>An Innkeeper runs an establishment focused on hospitality. He's typically a 3rd-level commoner or expert, but could also be a retired fighter, rogue, or warrior. An Innkeeper sees to the day-to-day operation of an Inn, Tavern, hotel, restaurant, or exclusive private social club.</p>
+
+<p id="lieutenant" class="stat-block-title">Lieutenant</p>
+<p class="stat-block-1"><b>Wage</b> 4 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (engineering), <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a></p>
+<p>A Lieutenant leads a unit containing Guards, mercenaries, or troops. She's typically a 3rd-level cavalier, fighter, or ranger, but could be a barbarian, bard, inquisitor, warrior, or member of any class devoted to martial combat. A Lieutenant manages troops assignments and needs, sees to their training, and participates in military operations.</p>
+
+<p id="master-smith" class="stat-block-title">Master Smith</p>
+<p class="stat-block-1"><b>Wage</b> 4 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a>, <a href="/pathfinderRPG/prd/skills/craft.html#_craft" >Craft</a> (any one), <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a>, <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (any one)</p>
+<p>A Master Smith oversees a productive business. He's typically a 3rd-level bard, expert, rogue, or member of another skilled class. A Master Smith runs the day-to-day operations of a production facility devoted to a particular trade, trains apprentices, and works on the more challenging and masterful creations being produced.</p>
+
+<p id="partner" class="stat-block-title">Partner</p>
+<p class="stat-block-1"><b>Wage</b> 4 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>, <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (any one), <a href="/pathfinderRPG/prd/skills/profession.html#_profession" >Profession</a> (barrister)</p>
+<p>A Partner is a prominent leader in a barrister's office. She's typically a 3rd-level bard, expert, rogue, sorcerer, wizard, or member of another skilled class that depends on mental ability scores. A Partner sees to the organization's legal needs.</p>
+
+<p id="sensei" class="stat-block-title">Sensei</p>
+<p class="stat-block-1"><b>Wage </b>2 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics" >Acrobatics</a>, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (history), <a href="/pathfinderRPG/prd/skills/perception.html#_perception" >Perception</a></p>
+<p>A Sensei heads a Dojo or martial Monastery. He's typically a 3rd-level monk, but could have levels in any martial or Wisdom-based class. A Sensei sees to the training of students and manages day-to-day operations.</p>
+
+<p id="smuggler" class="stat-block-title">Smuggler</p>
+<p class="stat-block-1"><b>Wage</b> 3 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a>, <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local), <a href="/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand" >Sleight of Hand</a></p>
+<p>A Smuggler is a merchant accustomed to performing her duties beneath the notice of authorities. She's typically a 3rd-level bard, expert, rogue, or member of any class devoted to subterfuge. A Smuggler might run a Black Market, illegal caravan, or ring of smuggling ships.</p>
+
+<p id="stage-manager" class="stat-block-title">Stage manager</p>
+<p class="stat-block-1"><b>Wage</b> 2 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/disguise.html#_disguise" >Disguise</a>, <a href="/pathfinderRPG/prd/skills/perform.html#_perform" >Perform</a> (any two)</p>
+<p>A Stage Manager oversees an artistic organization or building devoted to the arts. He's typically a 3rd-level expert, but could instead be a bard, rogue, or member of any class with skills suiting the fine arts. A Stage Manager spends his day seeing to the operations of the theater, instructing performers, and promoting featured acts.</p>
+
+<p id="steward" class="stat-block-title">Steward</p>
+<p class="stat-block-1"><b>Wage</b> 2 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local), <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (nobility), <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a></p>
+<p>A Steward manages a large residential building like a Castle, Mansion, or Noble Villa. She's typically a 3rd-level adept, commoner, or expert. A Steward manages the day-to-day operations of an estate, coordinates the work of the servants and disciplines any whose performance is unsatisfactory, and ensures that the lords and ladies of the house want for nothing.</p>
+
+<p id="underboss" class="stat-block-title">Underboss</p>
+<p class="stat-block-1"><b>Wage</b> 2 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/appraise.html#_appraise" >Appraise</a>, <a href="/pathfinderRPG/prd/skills/bluff.html#_bluff" >Bluff</a>, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local)</p>
+<p>An Underboss follows the direct orders of a crime boss or anyone running a violent criminal organization. He's typically a 3rd-level bard, cleric, expert, fighter, or rogue. An Underboss follows his superior's orders, maintains the organization's goals, and manages subordinates.</p>
+
+<p id="warden" class="stat-block-title">Warden</p>
+<p class="stat-block-1"><b>Wage</b> 2 gp/day</p>
+<p class="stat-block-1"><b>Skills</b> <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy" >Diplomacy</a>, <a href="/pathfinderRPG/prd/skills/intimidate.html#_intimidate" >Intimidate</a>, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge" >Knowledge</a> (local), <a href="/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive" >Sense Motive</a></p>
+<p>A warden oversees a Jail, dungeon, or other place where people are detained. She's typically a 3rd-level cleric, expert, fighter, inquisitor, warrior, or member of any class suited to combat and guile. A warden sees to the needs of the guards employed within the Jail as well as those of the prisoners', and monitors conditions within the facility.</p>
+
+
+</div>
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>

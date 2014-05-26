@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Weapons</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Weapons",globalNavPath=[{ href: '/pathfinderRPG/prd/advanced/advancedMagicItems.html', name: 'Advanced Magic Items' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="weapons" class="monster-header">Weapons</h1>
+				<p>The following armor and shield properties add to those presented in the <i>Pathfinder RPG Core Rulebook</i>.</p>
+				<h1 id="magic-weapon-special-ability-descriptions">Magic Weapon Special Ability Descriptions</h1>
+				<table id="table-7-4:-melee-weapon-special-abilities"><caption>Table:  Melee Weapon Special Abilities</caption>
+<thead><tr><th>Minor</th><th>Medium</th><th>Major</th><th>Special Ability</th><th>Base Price Modifier<sup>1</sup></th></tr></thead>
+<tr class="odd"><td>01&ndash;12</td><td>01&ndash;04</td><td>01&ndash;03</td><td><i><a href="#allying" >Allying</a></i> </td><td>+1 bonus</td></tr>
+<tr class="even"><td>13&ndash;24</td><td>05&ndash;12</td><td>04&ndash;08</td><td><i><a href="#conductive" >Conductive</a></i> </td><td>+1 bonus</td></tr>
+<tr class="odd"><td>25&ndash;36</td><td>13&ndash;22</td><td>09&ndash;20</td><td><i><a href="#corrosive" >Corrosive</a></i> </td><td>+1 bonus</td></tr>
+<tr class="even"><td>37&ndash;48</td><td>23&ndash;32</td><td>21&ndash;29</td><td><i><a href="#cunning" >Cunning</a></i> </td><td>+1 bonus</td></tr>
+<tr class="odd"><td>49&ndash;58</td><td>33&ndash;40</td><td>30&ndash;38</td><td><i><a href="#furious" >Furious</a></i> </td><td>+1 bonus</td></tr>
+<tr class="even"><td>59&ndash;70</td><td>41&ndash;49</td><td>39&ndash;47</td><td><i><a href="#grayflame" >Grayflame</a></i> </td><td>+1 bonus</td></tr>
+<tr class="odd"><td>71&ndash;77</td><td>50&ndash;58</td><td>48&ndash;56</td><td><i><a href="#huntsman" >Huntsman</a></i> </td><td>+1 bonus</td></tr>
+<tr class="even"><td>78&ndash;84</td><td>59&ndash;67</td><td>57&ndash;65</td><td><i><a href="#jurist" >Jurist</a></i> </td><td>+1 bonus</td></tr>
+<tr class="odd"><td>85&ndash;99</td><td>68&ndash;74</td><td>66&ndash;74</td><td><i><a href="#menacing" >Menacing</a></i> </td><td>+1 bonus</td></tr>
+<tr class="even"><td>&mdash;</td><td>75&ndash;82</td><td>75&ndash;81</td><td><i><a href="#corrosive-burst" >Corrosive burst</a> </i></td><td>+2 bonus</td></tr>
+<tr class="odd"><td>&mdash;</td><td>83&ndash;89</td><td>82&ndash;85</td><td><i><a href="#dueling" >Dueling</a></i> </td><td>+14,000 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>90&ndash;95</td><td>86&ndash;90</td><td><i><a href="#transformative" >Transformative</a></i> </td><td>+10,000 gp</td></tr>
+<tr class="odd"><td>100</td><td>96&ndash;100</td><td>91&ndash;100</td><td>Roll again twice<sup>2</sup></td><td>&mdash;</td></tr>
+<tfoot><tr><td colspan="5"><sup>1</sup>Add to the enhancement bonus on <a href="../../magicItems/weapons.html#_table-15-8-weapons">Table: Weapons</a> to determine total market price.</td></tr>
+<tr><td colspan="5"><sup>2</sup>Reroll if you get a duplicate special ability, an ability incompatible with an ability that you've already rolled, or if the extra ability puts you over the +10 limit. A weapon's enhancement bonus and special ability bonus equivilents can't total more than +10.</td></tr></tfoot></table>
+<table id="table-7-5:-ranged-weapon-special-abilities"><caption>Table:  Ranged Weapon Special Abilities</caption>
+<thead><tr><th>Minor</th><th>Medium</th><th>Major</th><th>Special Ability</th><th>Base Price Modifier<sup>1</sup></th></tr></thead>
+<tr class="odd"><td>01&ndash;15</td><td>01&ndash;14</td><td>01&ndash;13</td><td><i><a href="#allying" >Allying</a></i> </td><td>+1 bonus</td></tr>
+<tr class="even"><td>16&ndash;30</td><td>15&ndash;28</td><td>14&ndash;26</td><td><i><a href="#conductive" >Conductive</a></i> </td><td>+1 bonus</td></tr>
+<tr class="odd"><td>31&ndash;48</td><td>29&ndash;48</td><td>27&ndash;42</td><td><i><a href="#corrosive" >Corrosive</a></i>2 </td><td>+1 bonus</td></tr>
+<tr class="even"><td>49&ndash;60</td><td>49&ndash;58</td><td>43&ndash;56</td><td><i><a href="#cunning" >Cunning</a> </i></td><td>+1 bonus</td></tr>
+<tr class="odd"><td>61&ndash;72</td><td>59&ndash;69</td><td>57&ndash;65</td><td><i><a href="#huntsman" >Huntsman</a></i> </td><td>+1 bonus</td></tr>
+<tr class="even"><td>73&ndash;94</td><td>70&ndash;91</td><td>66&ndash;87</td><td><i><a href="#jurist" >Jurist</a></i> </td><td>+1 bonus</td></tr>
+<tr class="odd"><td>95&ndash;99</td><td>92&ndash;95</td><td>88&ndash;90</td><td><i><a href="#corrosive-burst" >Corrosive burst</a></i> </td><td>+1 bonus</td></tr>
+<tr class="even"><td>100</td><td>96&ndash;100</td><td>91&ndash;100</td><td>Roll again twice<sup>3</sup> </td><td>&mdash;</td></tr><tfoot><tr><td colspan="5"><sup>1</sup>Add to the enhancement bonus on <a href="../../magicItems/weapons.html#_table-15-8-weapons">Table: Weapons</a> to determine total market price.</td></tr>
+<tr><td colspan="5"><sup>2</sup>Bows, crossbows, and slings crafted with this ability bestow this power upon their ammunition.</td></tr>
+<tr><td colspan="5"><sup>3</sup>Reroll if you get a duplicate special ability, an ability incompatible with an ability that you've already rolled, or if the extra ability puts you over the +10 limit. A weapon's enhancement bonus and special ability bonus equivilents can't total more than +10.</td></tr></tfoot>
+</table>
+				<p>A weapon with a special ability must have at least a +1 enhancement bonus.</p>
+				<p id="allying"><b>Allying</b>: An <i><a href="#allying" >allying</a> weapon</i> allows the wielder to transfer some or all of the weapon's enhancement bonus to one weapon being used by an ally of the wielder. The wielder must have line of sight to the intended ally. As a free action, at the start of her turn before using her weapon, the wielder chooses how to allocate her weapon's enhancement bonus. The bonus to the ally's weapon lasts until the <i><a href="#allying" >allying</a> weapon</i>'s wielder's next turn. The enhancement bonus from the <i><a href="#allying" >allying</a> weapon</i> does not stack with the enhancement bonus on the ally's weapon (if any).</p>
+				<p>Faint transmutation; CL 5th; <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/magicWeapon.html#_magic-weapon" >magic weapon</a></i>; Price +1 bonus.</p>
+				<p id="conductive"><b>Conductive</b>: A conductive weapon is able to channel the energy of a spell-like or supernatural ability that relies on a melee or ranged touch attack to hit its target (such as from a cleric's domain granted power, sorcerer's bloodline power, oracle's mystery revelation, or wizard's arcane school power). When the wielder makes a successful attack of the appropriate type, he may choose to expend two uses of his magical ability to channel it through the weapon to the struck opponent, who takes the effects of the weapon attack and the special ability. (If the wielder has unlimited uses of a special ability, he may channel through the weapon every round.) For example, a paladin who strikes an undead opponent with her <i><a href="#conductive" >conductive</a> greatsword </i>can expend two uses of lay on hands ability (a supernatural melee touch attack) to deal greatsword damage and damage from one use of her lay on hands. This weapon property can only be used once per round, and only works with magical abilities of the same type as the weapon (melee or ranged). </p>
+				<p>Moderate necromancy; CL 8th; <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/spectralHand.html#_spectral-hand" >spectral hand</a></i>; Price +1 bonus.</p>
+				<p id="corrosive"><b>Corrosive</b>: Upon command, a <i><a href="#corrosive" >corrosive</a> weapon</i> becomes slick with acid that deals an extra 1d6 points of acid damage on a successful hit. The acid does not harm the wielder. The effect remains until another command is given.</p>
+				<p>Moderate evocation; CL 10th; <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/acidArrow.html#_acid-arrow" >acid arrow</a></i>; Price +1 bonus.</p>
+				<p id="corrosive-burst"><b>Corrosive Burst</b>: A corrosive burst weapon functions as a corrosive weapon that explodes with acid upon striking a successful critical hit. The acid does not harm the wielder. In addition to the extra acid damage from the corrosive ability, a <i><a href="#corrosive-burst" >corrosive burst</a> weapon</i> deals an extra 1d10 points of acid damage on a successful critical hit. If the weapon's critical modifier is &times;3, add an extra 2d10 points of acid damage instead, and if the modifier is &times;4, add an extra 3d10 points.</p>
+				<p>Even if the <i><a href="#corrosive" >corrosive</a> </i>ability is not active, the weapon still deals its extra acid damage on a successful critical hit.</p>
+				<p>Moderate evocation; CL 12th; <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/acidArrow.html#_acid-arrow" >acid arrow</a></i>; Price +2 bonus.</p>
+				<p id="cunning"><b>Cunning</b>: This special ability allows a weapon to find chinks in a foe's defenses using the wielder's knowledge of the target. Whenever the weapon's attack is a critical threat, the wielder gains a +2 bonus on the confirmation roll if she has 5 or more ranks in the <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> skill related to the target's creature type (such as <a href="../../skills/knowledge.html#_knowledge" >Knowledge</a> [planes] for an outsider opponent).</p>
+				<p>Moderate divination; CL 6th; <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/trueStrike.html#_true-strike" >true strike</a></i>; Price +1 bonus.</p>
+				<p id="dueling"><b>Dueling</b>: This ability can only be placed on a melee weapon. A dueling weapon (which must be a weapon that can be used with the <a href="../../feats.html#_weapon-finesse" >Weapon Finesse</a> feat) gives the wielder a +4 enhancement bonus on initiative checks, provided the weapon is drawn and in hand when the Initiative check is made. It provides a +2 bonus on disarm checks and feint checks, a +2 bonus to CMD to resist disarm attempts, and a +2 to the DC to perform a feint against the wielder.</p>
+				<p>Faint transmutation; CL 5th; <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/catSGrace.html#_cat-s-grace" >cat's grace</a></i>; Price +14,000 gp.</p>
+				<p id="furious"><b>Furious</b>: This ability can only be placed on a melee weapon. A <i><a href="#furious" >furious</a> weapon</i> serves as a focus for its wielder's anger. When the wielder is raging or under the effect of a <i><a href="../../spells/rage.html#_rage" >rage</a></i> spell, the weapon's enhancement bonus is +2 better than normal. If the wielder has a rage power that gives a skill bonus while raging (such as raging climber, raging leaper, or raging swimmer), the wielder gains an enhancement bonus to that skill whenever the weapon is wielded or held in hand, even when not raging; this bonus is equal to the enhancement bonus of the weapon (including the +2 when the wielder is raging).</p>
+				<p>Moderate enchantment (compulsion); CL 8th; <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, rage; Price +1 bonus.</p>
+				<p id="grayflame"><b>Grayflame</b>: This weapon responds to channeled positive or negative energy. When the wielder spends a swift action to channel energy through the weapon, it ignites with a strange gray flame that sheds light as a torch, increases the weapon's enhancement bonus by +1, and deals +1d6 damage (as the divine power from <i><a href="../../spells/flameStrike.html#_flame-strike" >flame strike</a></i>) to creatures struck by the weapon. This flame lasts for 1 round for every d6 damage or healing the channeling normally provides. When charged with positive energy, the flame is a silvery gray, good creatures are immune to the weapon's extra damage, and the weapon counts as a good and silver weapon for the purpose of bypassing damage reduction. When charged with negative energy, the flame is an ashen gray, evil creatures are immune to the weapon's extra damage, and the weapon counts as an evil and cold iron weapon for the purpose of bypassing damage reduction.</p>
+				<p>Moderate transmutation; CL 6th; <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <a href="../../feats.html#_channel-smite" >Channel Smite</a>, <i><a href="../../spells/alignWeapon.html#_align-weapon" >align weapon</a></i>; Price +1 bonus.</p>
+				<p id="huntsman"><b>Huntsman</b>: A huntsman weapon helps its wielder locate and capture quarry. When the weapon is held in hand, the wielder gains an enhancement bonus on <a href="../../skills/survival.html#_survival" >Survival</a> checks made to track any creature the weapon has damaged in the past day. It deals +1d6 damage to creatures the wielder has tracked with <a href="../../skills/survival.html#_survival" >Survival</a> in the past day.</p>
+				<p>Moderate divination; CL 7th; <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/detectAnimalsOrPlants.html#_detect-animals-or-plants" >detect animals or plants</a></i>; Price +1 bonus.</p>
+				<p id="jurist"><b>Jurist</b>: When an inquisitor wielder uses her judgment class ability, this weapon grants her an enhancement bonus on her <a href="../../skills/perception.html#_perception" >Perception</a> checks and CMD. The bonus is +1 on the first round of her judgment, and increases by +1 each round, to a maximum of +3 on the third and following rounds.</p>
+				<p>Moderate transmutation; CL 4th; <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/owlSWisdom.html#_owl-s-wisdom" >owl's wisdom</a></i>; Price +1 bonus.</p>
+				<p id="menacing"><b>Menacing</b>: This ability can only be placed on a melee weapon. This weapon property helps allies deal with flanked foes. When the wielder is adjacent to a creature that is being flanked by an ally, the flanking bonus on attack rolls for all flanking allies increases by +2. This ability works even if the wielder is not one of the characters flanking the creature.</p>
+				<p>Moderate illusion; CL 10th; <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/phantasmalKiller.html#_phantasmal-killer" >phantasmal killer</a></i>; Price +1 bonus.</p>
+				<p id="transformative"><b>Transformative</b>: This ability can only be placed on a melee weapon. A <i><a href="#transformative" >transformative</a> weapon</i> alters its shape at its wielder's command, becoming any other melee weapon of the same general shape and handedness; the weapon's categorization as simple, martial, or exotic is irrelevant. For example, a Medium <i><a href="#transformative" >transformative</a> longsword</i> can take the shape of any other Medium one-handed melee weapon, such as a scimitar, flail, or trident, but not a Medium light or two-handed melee weapon (such as a Medium short sword or a Medium greatsword). It can even take the shape of comparable weapons of different size categories. For example, a Small greatsword is a two-handed slashing weapon for a Small character, but is a one-handed slashing weapon for a Medium character, which is very similar to a Medium longsword; a Small <i><a href="#transformative" >transformative</a> greatsword</i> can become an actual Medium longsword, usable by a Medium creature without the &ndash;2 penalty for using a weapon of the wrong size. The weapon retains all of its abilities, including enhancement bonuses and weapon properties, except those prohibited by its current shape. For example, a <i><a href="../../magicItems/weapons.html#_weapons-keen" >keen</a> <a href="#transformative" >transformative</a> weapon</i> functions normally in the form of a piercing or slashing weapon, but cannot use the <i><a href="../../magicItems/weapons.html#_weapons-keen" >keen</a></i> property when in the shape of a bludgeoning weapon. When unattended, the weapon reverts to its true shape.</p>
+				<p>Moderate transmutation; CL 10th; <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/majorCreation.html#_major-creation" >major creation</a></i>; Price +10,000 gp.</p>
+				<h1 id="specific-weapons">Specific Weapons</h1>
+				<table id="table-7-6:-specific-weapons"><caption>Table:  Specific Weapons</caption>
+<thead><tr><th>Minor</th><th>Medium</th><th>Major</th><th>Specific Weapon</th><th>Market Price</th></tr></thead>
+<tr class="odd"><td>01&ndash;35</td><td>&mdash;</td><td>&mdash;</td><td><i><a href="#dustburst-bullet-" >Dustburst bullet</a></i> </td><td>196 gp</td></tr>
+<tr class="even"><td>36&ndash;70</td><td>&mdash;</td><td>&mdash;</td><td><i><a href="#tangle-bolt-" >Tangle bolt</a></i> </td><td>226 gp</td></tr>
+<tr class="odd"><td>71&ndash;80</td><td>01&ndash;7</td><td>&mdash;</td><td><i><a href="#searing-arrow-" >Searing arrow</a></i> </td><td>1,516 gp</td></tr>
+<tr class="even"><td>81&ndash;90</td><td>08&ndash;14</td><td>&mdash;</td><td><i><a href="#sizzling-arrow-" >Sizzling arrow</a></i> </td><td>1,516 gp</td></tr>
+<tr class="odd"><td>91&ndash;100</td><td>15&ndash;26</td><td>&mdash;</td><td><i><a href="#lance-of-jousting" >Lance of jousting</a></i> </td><td>4,310 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>27&ndash;41</td><td>&mdash;</td><td><i><a href="#boulderhead-mace" >Boulderhead mace</a></i> </td><td>6,812 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>42&ndash;53</td><td>&mdash;</td><td><i><a href="#beaststrike-club" >Beaststrike club</a></i> </td><td>7,300 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>54&ndash;60</td><td>01&ndash;04</td><td><i><a href="#trident-of-stability-" >Trident of stability</a></i> </td><td>9,815 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>61&ndash;70</td><td>05&ndash;20</td><td><i><a href="#blade-of-binding" >Blade of binding</a></i> </td><td>12,350 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>71&ndash;79</td><td>21&ndash;37</td><td><i><a href="#shieldsplitter-lance-" >Shieldsplitter lance</a></i> </td><td>18,310 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>80&ndash;87</td><td>38&ndash;62</td><td><i><a href="#ricochet-hammer" >Ricochet hammer</a></i> </td><td>20,301 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>88&ndash;95</td><td>63&ndash;82</td><td><i><a href="#sparkwake-starknife-" >Sparkwake starknife</a></i> </td><td>21,324 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>96&ndash;100</td><td>83&ndash;88</td><td><i><a href="#undercutting-axe" >Undercutting axe</a></i> </td><td>23,310 gp</td></tr>
+<tr class="even"><td>&mdash;</td><td>&mdash;</td><td>89&ndash;94</td><td><i><a href="#spirit-blade" >Spirit blade</a></i> </td><td>48,502 gp</td></tr>
+<tr class="odd"><td>&mdash;</td><td>&mdash;</td><td>95&ndash;100</td><td><i><a href="#guarding-blade-" >Guarding blade</a></i> </td><td>65,310 gp</td></tr></table>
+
+				<p id="beaststrike-club" class="stat-block-title"><b>Beaststrike Club</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 6th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 7,300 gp; <b>Weight</b> 3 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This <i>+1 club</i> is often decorated with large teeth and carved with stylized images of different animals. As a standard action, the wielder may transform the club into the head or limb of an animal; the weapon's damage does not change but the type of damage changes to suit the shape of the club: bite (piercing), claw (slashing), gore (piercing), slam (bludgeoning), sting (piercing), or talon (slashing). When transformed, the club counts as a natural weapon and a manufactured weapon for the purpose of spells and effects that enhance or improve either manufactured or natural weapons. The club also counts as the natural weapon of its current shape for the purpose of feats and spells that rely on specific natural weapons, such as <a href="../../feats.html#_weapon-focus" >Weapon Focus</a> (bite) or the <i><a href="../spells/bloodyClaws.html#_bloody-claws" >bloody claws</a></i> spell. If the wielder has the wild shape ability, she can expend one use of wild shape to increase the weapon's damage by one step for the duration of that wild shape as long as the druid remains in contact with the weapon; if the wielder can wild shape at will, the club's damage is always increased in this fashion. If unattended, the club reverts to its normal shape.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/shillelagh.html#_shillelagh" >shillelagh</a></i>; <b>Cost</b> 3,800 gp</p>
+				<p id="blade-of-binding" class="stat-block-title"><b>Blade of Binding</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint conjuration; <b>CL</b> 3rd</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 12,350 gp; <b>Weight</b> 8 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This <i>+1 greatsword</i> is decorated with a chain motif. On a successful hit with the sword against a creature of the wielder's size or smaller creature, the wielder can attempt to start a grapple as a free action that doesn't provoke an attack of opportunity. If the wielder succeeds at the grapple, the sword blade transforms into a metal chain and wraps around the target, giving the wielder a +5 bonus on further grapple checks against the target. If the target escapes the grapple or the wielder decides to release the target from the grapple, the chain reverts to sword form (with the wielder holding the handle).</p>
+				<p>The wielder can also let go of the chain's handle while grappling or pinning the target; if so, the chain remains in place and the target gains the entangled condition (<a href="../../skills/escapeArtist.html#_escape-artist" >Escape Artist</a> DC 20 to slip free, break DC 28, hardness 10, 10 hit points, concentration DC 17 to cast spells while entangled). Another creature can grab the chain's handle as a standard action and will it to revert to sword form as a swift action, which releases the bound creature. If the chain is destroyed, it reverts to sword form and the weapon gains the broken condition.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/animateRope.html#_animate-rope" >animate rope</a></i>; <b>Cost</b> 6,350 gp</p>
+				<p id="boulderhead-mace" class="stat-block-title"><b>Boulderhead Mace</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 9th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 6,812 gp; <b>Weight</b> 8 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The head of this <i>+1 heavy mace</i> is made from a single piece of roughly spherical granite. Once per day the wielder can command the mace to release this head, which grows to the size of a Large boulder and rolls quickly in a direction the wielder specifies. The boulder rolls in a straight line up to 60 feet, trampling everything in its path for 3d8+5 damage (Reflex half DC 19). The boulder collapses into rubble and dust at the end of its path or if it encounters an obstacle it cannot break through or roll over, creating a 10-foot-square area of difficult terrain. A new stone mace-head grows on the weapon's haft over the next 24 hours, and it is unusable as a weapon until the head regrows.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/wallOfStone.html#_wall-of-stone" >wall of stone</a></i>; <b>Cost</b> 3,652 gp</p>
+				<p id="dustburst-bullet-" class="stat-block-title"><b>Dustburst Bullet </b></p>
+				<p class="stat-block-1"><b>Aura</b> faint conjuration; <b>CL</b> 5th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 196 gp; <b>Weight</b> 1/2 lb. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This gritty and irregular <i>+1 sling bullet </i>explodes into a cloud of choking dust when it successfully strikes its target. This fills a 5-foot cube and follows the target for 1d6 rounds before dispersing. Any creature ending its turn in the cloud must make a DC 13 Fortitude save or be sickened and blinded for 1 round.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/stinkingCloud.html#_stinking-cloud" >stinking cloud</a></i>; <b>Cost</b> 98 gp</p>
+				<p id="guarding-blade-" class="stat-block-title"><b>Guarding Blade </b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 15th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 65,310 gp; <b>Weight</b> 2 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This <i>+1 <a href="../../magicItems/weapons.html#_weapons-dancing" >dancing</a> short sword</i> automatically rises up to defend a fallen or sleeping wielder. To trigger the sword's activation, the wielder must fall unconscious or die while wielding the weapon or holding it in hand. Thereafter, should any creature other than an ally of the wielder attempt to touch or strike him with melee attacks, the sword attacks that creature for up to 4 rounds. After 4 rounds, the weapon drops in the wielder's square. Unless the <i><a href="#guarding-blade-" >guarding blade</a></i> is an intelligent item, it lacks the wits to make decisions about which is the best opponent to attack, and when confronted by multiple opponents attacking the wielder it tends to select a random target each round.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/animateObjects.html#_animate-objects" >animate objects</a></i>, <i><a href="../../spells/mageSFaithfulHound.html#_mage-s-faithful-hound" >mage's faithful hound</a></i>; <b>Cost</b> 32,810 gp</p>
+				<p id="lance-of-jousting" class="stat-block-title"><b>Lance of Jousting</b></p>
+				<p class="stat-block-1"><b>Aura</b> faint evocation; <b>CL</b> 5th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 4,310 gp; <b>Weight</b> 10 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This ornately designed <i>+1 lance</i> streams with ribbons and small favors, allowing a wielder to more effectively knock an opponent from his mount. A successful hit with a <i><a href="#lance-of-jousting" >lance of jousting</a></i> on a mounted opponent forces the target to make a <a href="../../skills/ride.html#_ride" >Ride</a> check (DC 10 + damage dealt) to avoid being knocked from the saddle. Although used in combat to remove a mounted foe's advantage, use of a <i><a href="#lance-of-jousting" >lance of jousting</a></i> in a tournament or similar contest is generally considered a dishonorable form of cheating.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i>; <b>Cost</b> 2,105 gp</p>
+				<p id="ricochet-hammer" class="stat-block-title"><b>Ricochet Hammer</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate transmutation; <b>CL</b> 7th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 20,301 gp; <b>Weight</b> 2 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This <i>+1 <a href="../../magicItems/weapons.html#_weapons-returning" >returning</a> <a href="../../spells/light.html#_light" >light</a> hammer</i> can strike multiple foes with a single throw. If the wielder has multiple attacks from a high base attack bonus, he may throw the hammer so it rebounds off the first target to strike at a second target, and so on for each of the wielder's additional attacks. The distance to each target adds to the total range of the weapon, and range penalties apply. For example, a 6th-level dwarf fighter can throw the hammer using his +6 BAB at a target 20 feet away (within one range increment, no range penalty); if it hits, he ricochets it to a attack using his +1 BAB at a second target 40 feet away from the first target (within three range increments for a &ndash;4 range penalty). The hammer can only ricochet if it successfully hits a target; if it misses, it stops ricocheting and has no further attacks that round, and returns as normal for a weapon with the <i><a href="../../magicItems/weapons.html#_weapons-returning" >returning</a></i> property. Because ricocheting attacks are treated as separate attacks, modifiers that only apply to one attack roll (such as <i><a href="../../spells/trueStrike.html#_true-strike" >true strike</a></i>) only apply to the first attack and not the others. The ricochet attacks count as the wielder's additional attacks for that round. </p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/telekinesis.html#_telekinesis" >telekinesis</a></i>; <b>Cost</b> 10,301 gp</p>
+				<p id="shieldsplitter-lance-" class="stat-block-title"><b>Shieldsplitter Lance </b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate evocation; <b>CL</b> 10th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 18,310; <b>Weight</b> 10 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This <i>+1 <a href="../../magicItems/weapons.html#_weapons-keen" >keen</a> lance</i> has the ability to penetrate and destroy shields. Whenever its wielder uses it to successfully strike an opponent who carries a shield, the opponent's shield takes the same damage as the opponent. If the wielder uses the lance to make a sunder attack against a shield, it bypasses the shield's hardness.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/keenEdge.html#_keen-edge" >keen edge</a></i>, <i><a href="../../spells/shatter.html#_shatter" >shatter</a></i>; <b>Cost</b> 9,310 gp </p>
+				<p id="searing-arrow-" class="stat-block-title"><b>Searing Arrow </b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate evocation; <b>CL</b> 9th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 1,516 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This <i>+1 <a href="../../magicItems/weapons.html#_weapons-flaming" >flaming</a> arrow</i> continues to burn its target each round, dealing 1d6 fire damage on the attacker's turn for the next 3 rounds. Removing the arrow requires a DC 10 <a href="../../skills/heal.html#_heal" >Heal</a> check and prevents any further damage from the arrow (the DC increases to 15 if the target tries to remove the arrow from himself). Removing the arrow destroys it, and it burns up once the 3 rounds pass.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/flameBlade.html#_flame-blade" >flame blade</a></i>, <i><a href="../../spells/flameStrike.html#_flame-strike" >flame strike</a></i>, or <i><a href="../../spells/fireball.html#_fireball" >fireball</a></i>; <b>Cost</b> 758 gp</p>
+				<p id="sizzling-arrow-" class="stat-block-title"><b>Sizzling Arrow </b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate evocation; <b>CL</b> 9th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 1,516 gp; <b>Weight</b> &mdash;</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This <i>+1 <a href="#corrosive" >corrosive</a> arrow</i> continues to leak acid onto its target each round, dealing 1d6 acid damage on the attacker's turn for the next 3 rounds. Removing the arrow is a DC 10 <a href="../../skills/heal.html#_heal" >Heal</a> check and prevents any further damage from the arrow (the DC increases to 15 if the target tries to remove the arrow from himself). Removing the arrow destroys it, and it dissolves up once the 3 rounds pass.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/acidArrow.html#_acid-arrow" >acid arrow</a></i>; <b>Cost</b> 758 gp</p>
+				<p id="sparkwake-starknife-" class="stat-block-title"><b>Sparkwake Starknife </b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate evocation; <b>CL</b> 8th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 21,324 gp; <b>Weight</b> 3 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>A faint trail of sparks marks the passage of this <i>+1 <a href="../../magicItems/weapons.html#_weapons-shock" >shock</a> starknife</i> whenever it is thrown. Once per day its wielder may throw it so it transforms into an 8d6 <i><a href="../../spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a></i> (Reflex DC 14 half), returning to its physical form at the end of the bolt's path.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/lightningBolt.html#_lightning-bolt" >lightning bolt</a></i>; <b>Cost</b> 10,824 gp</p>
+				<p id="spirit-blade" class="stat-block-title"><b>Spirit Blade</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate abjuration; <b>CL</b> 10th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 48,502 gp; <b>Weight</b> 1 lbs.</p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This almost transparently thin weapon is often decorated with strange faces and swirling mist. In addition to being a <i>+3 <a href="../../magicItems/weapons.html#_weapons-ghost-touch" >ghost touch</a> dagger</i>, it can cast <i><a href="../../spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i> once per day.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i>, <i><a href="../../spells/planeShift.html#_plane-shift" >plane shift</a></i>, creator must be 9th level; <b>Cost</b> 24,402 gp</p>
+				<p id="tangle-bolt-" class="stat-block-title"><b>Tangle Bolt </b></p>
+				<p class="stat-block-1"><b>Aura</b> strong conjuration; <b>CL</b> 12th</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 226 gp; <b>Weight</b> &mdash; </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>Often etched with images of spider webs or swampy vines, this sickly green <i>+1 <a href="../../magicItems/weapons.html#_weapons-seeking" >seeking</a> bolt</i> transforms into sticky goo when it hits, entangling its target and becoming tough and resilient upon exposure to air. In addition to the bolt damage, the target is entangled as if it had been hit by a tanglefoot bag.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/trueSeeing.html#_true-seeing" >true seeing</a></i> and <i><a href="../../spells/web.html#_web" >web</a></i> or creator must have 5 ranks in <a href="../../skills/craft.html#_craft" >Craft</a> (alchemy); <b>Cost</b> 113 gp</p>
+				<p id="trident-of-stability-" class="stat-block-title"><b>Trident of Stability </b></p>
+				<p class="stat-block-1"><b>Aura</b> faint transmutation; <b>CL</b> 3rd</p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 9,815 gp; <b>Weight</b> 4 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>The base of this sturdy but tarnished <i>+1 trident</i> has a wide metal bar at the bottom, perfectly situated to serve as a solid footrest or other sort of handle. The bar acts as an <i><a href="../../magicItems/rods.html#_immovable-rod" >immovable rod</a></i>, except instead of an activation button, the immobility power triggers whenever the wielder places one or both feet on the bar, and ends whenever the wielder is no longer touching the bar with at least one foot. If the wielder remains in place and steps on the bar, he gains a +10 bonus to his CMD when trying to resist efforts to move him. The wielder is always considered braced against oncoming charge attacks. If the wielder is falling, he may step on the bar as an immediate action to halt his fall, though the sudden jolt means he takes falling damage for the current distance fallen.</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <i><a href="../../spells/levitate.html#_levitate" >levitate</a></i>; <b>Cost</b> 5,065 gp </p>
+				<p id="undercutting-axe" class="stat-block-title"><b>Undercutting Axe</b></p>
+				<p class="stat-block-1"><b>Aura</b> moderate necromancy; <b>CL</b> 9th </p>
+				<p class="stat-block-1"><b>Slot</b> none; <b>Price</b> 23,310 gp; <b>Weight</b> 6 lbs. </p>
+				<p class="stat-block-breaker"><b>Description</b></p>
+				<p>This <i>+1 giant-bane battleaxe</i> feels unusually heavy, as if it were made from something far heavier than mere wood and steel. Once per day its wearer can, as a swift action after a successful attack roll, invoke a maximized <i><a href="../../spells/rayOfEnfeeblement.html#_ray-of-enfeeblement" >ray of enfeeblement</a></i> on the creature struck (11 point Strength penalty, 7 rounds, Fortitude DC 16 for half).</p>
+				<p class="stat-block-breaker"><b>Construction</b></p>
+				<p class="stat-block-1"><b>Requirements</b> <a href="../../feats.html#_craft-magic-arms-and-armor" >Craft Magic Arms and Armor</a>, <a href="../../feats.html#_maximize-spell" >Maximize Spell</a>, <i><a href="../../spells/rayOfEnfeeblement.html#_ray-of-enfeeblement" >ray of enfeeblement</a></i>, <i><a href="../../spells/summonMonster.html#_summon-monster-i" >summon monster I</a></i>; <b>Cost</b> 11,810 gp</p>
+
+        </div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+

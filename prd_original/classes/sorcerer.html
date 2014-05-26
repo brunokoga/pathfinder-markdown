@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Sorcerer</title>
+        <link href="/pathfinderRPG/prd/include/prd-template.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/iscroll.js"></script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/wondaculous-min.js"></script>
+        <script type="text/javascript">var globalTitle="Sorcerer",globalNavPath=[{ href: '/pathfinderRPG/prd/classes.html', name: 'Classes' }];</script>
+        <script type="text/javascript" src="/pathfinderRPG/prd/include/prd-scripts-min.js"></script>
+    </head>
+    <body onload="setupPage()">
+        <div id="header">
+           <div id="paizoLogo"><a href="/"><img src="/pathfinderRPG/prd/image/paizogolemlogo.png" alt="Paizo Home"/></a></div>
+           <div id="rpgLogo"><a href="/pathfinderRPG/"><img src="/pathfinderRPG/prd/image/PathfinderRPGLogo.png" alt="Pathfinder RPG"/></a></div>
+           <div id="prdLogo"><a href="/pathfinderRPG/prd/"><img src="/pathfinderRPG/prd/image/PRDText.png" alt="Pathfinder RPG Reference Document"/></a></div>
+            <div id="navPath"></div>
+            <img id="flourishTop" src="/pathfinderRPG/prd/image/flourishTop.png" alt="Top Floris" />
+            <img id="flourishRight" src="/pathfinderRPG/prd/image/flourishRight.png" alt="Bottom Flourish" />
+            <div id="phonenav"><a href="/pathfinderRPG/prd/navigation.html"><img src="/pathfinderRPG/prd/image/mobilenav.png" border="0" alt="Navigation" /></a></div>
+            <div id="search">  
+                <form class="tiny" action="/search" method="get">
+                    <input id="searchBox" maxlength="256" type="text" size="20" name="q" />
+                    <input type="image" name="x" src="/pathfinderRPG/prd/image/searchButton.png" border="0" />
+                    <input type="hidden" name="what" value="prd" />
+                </form>
+                <div id="acResults" class="autocomplete" style="display: none;"></div>
+            </div>
+
+        </div>
+
+
+        <div id="sideNav">
+            <center>
+                <a href="/pathfinderSociety"><img src="/pathfinderRPG/prd/image/PathfinderSocietyLogo_180.png" border="0" alt="Pathfinder Society" /></a><br />
+            </center>
+
+            <img alt="menutop" src="/pathfinderRPG/prd/image/top.png" class="menutop" /><!--
+            --><div class="sideContainer">
+                <ul id="navTable">
+                    <ul>
+                        <li id="core"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Core Rulebook</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/gettingStarted.html">Getting Started</a></li>
+                            <li><a href="/pathfinderRPG/prd/races.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/classes.html">Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/usingSkills.html">Using Skills</a></li>
+                            <li><a href="/pathfinderRPG/prd/skillDescriptions.html">Skill Descriptions</a></li>
+                            <li><a href="/pathfinderRPG/prd/feats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/equipment.html">Equipment</a></li>
+                            <li><a href="/pathfinderRPG/prd/additionalRules.html">Additional Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/combat.html">Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/magic.html">Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/spellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/prestigeClasses.html">Prestige Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/gamemastering.html">Gamemastering</a></li>
+                            <li><a href="/pathfinderRPG/prd/environment.html">Environment</a></li>
+                            <li><a href="/pathfinderRPG/prd/nPCClasses.html">NPC Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/creatingNPCs.html">Creating NPCs</a></li>
+                            <li><a href="/pathfinderRPG/prd/magicItems.html">Magic Items</a></li>
+                            <li><a href="/pathfinderRPG/prd/glossary.html">Glossary</a></li>
+                        </ul></li>
+            
+                        <li id="apg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Player's Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedRaces.html">Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedBaseClasses.html">Base Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedCoreClasses.html">Core Classes</a></li>
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedPrestigeClasses.html">Prestige Classes</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedFeats.html">Feats</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedGear.html">Gear</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellLists.html">Spell Lists</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedSpellIndex.html">Spell Index</a></li>   
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedMagicItems.html">Magic Items</a></li>            
+                            <li><a href="/pathfinderRPG/prd/advanced/advancedNewRules.html">New Rules</a></li>
+                        </ul></li>
+                        
+                        <li id="arg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Advanced Race Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height & Weight</a></li>
+                            <li><a href="/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                                
+                        <li id="um"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Magic</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+                        </ul></li>
+                        
+                        <li id="uc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Combat</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+                        </ul></li>
+                        
+                        <li id="ue"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Equipment</a></i></li>
+                        <li class="tree"><ul>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+                        	<li><a href="/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+                        </ul></li>
+                        
+                        <li id="gmg"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Game Mastery Guide</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/mastery/planarAdventures.html">Planar Adventures</a></li> 
+                            <li><a href="/pathfinderRPG/prd/mastery/settlements.html">Settlements</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/chases.html">Chases</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/disasters.html">Disasters</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/drugsAndAddiction.html">Drugs and Addiction</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/haunts.html">Haunts</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/hazards.html">Hazards</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/sanityAndMadness.html">Sanity and Madness</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCBoons.html">NPC Boons</a></li>
+                            <li><a href="/pathfinderRPG/prd/mastery/nPCGallery.html">NPC Gallery</a></li>
+                        </ul></li>
+
+                        <li id="uca"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Ultimate Campaign</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+                            <li><a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+                        </ul></li>
+                        
+<li id="ma"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Mythic Adventures</a></i></li>
+<li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+<li><a href="/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+</ul></li>
+                        
+                        <li id="npc"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;NPC Codex</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+<li><a href="/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li></ul></li>
+
+                        <li id="bestiary"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Bestiaries</a></i></li>
+                        <li class="tree"><ul>
+<li><a href="/pathfinderRPG/prd/monsters/introduction.html">Monster Introduction</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/additionalMonsters/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/variantMonsterIndex.html">Variant Monster Index</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCohorts.html">Monster Cohorts</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/animalCompanions.html">Animal Companions</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersAsPCs.html">Monsters as PCs</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterRoles.html">Monster Roles</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterCreation.html">Monster Creation</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterAdvancement.html">Monster Advancement</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/universalMonsterRules.html">Universal Monster Rules</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/creatureTypes.html">Creature Types</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monsterFeats.html">Monster Feats</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+<li><a href="/pathfinderRPG/prd/monsters/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>
+                        </ul></li>
+
+                        <li id="index"><i><a href="#navTable"><img class="affordance" src="/pathfinderRPG/prd/image/blueplus.png" alt="+" />&nbsp;Index</a></i></li>
+                        <li class="tree"><ul>
+                            <li><a href="/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/magicitems.html">Magic Item Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>
+                            <li><a href="/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+        
+                        </ul></li>
+                
+                        <li id="opengl"><i><a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a></i></li>
+                        </ul>
+                </ul><br />
+                <center><div id="sidenavtext">Discuss the Pathfinder Roleplaying Game on our <span id="message-link"><a href="/paizo/messageboards/paizoPublishing/pathfinder/pathfinderRPG">messageboards</a>.</span><br /><br />
+                <span id="purchase-link">Purchase the Pathfinder <a href="/store/v5748btpy88yj">Core Rulebook</a> or <a href="/store/v5748btpy8auu">Bestiary.</a></span><br /><br />
+                Need to report a problem? Please let us know by posting <a href="/paizo/messageboards/paizo/websiteFeedback/theNewPRD">in this thread</a>.</div></center>
+            </div>
+            <img src="/pathfinderRPG/prd/image/bottom.png" class="menubottom">
+        </div>
+
+
+
+
+        <div id="body">
+				<h1 id="sorcerer">Sorcerer</h1>
+				<p>Scions of innately magical bloodlines, the chosen of deities, the spawn of monsters, pawns of fate and destiny, or simply flukes of fickle magic, sorcerers look within themselves for arcane prowess and draw forth might few mortals can imagine. Emboldened by lives ever threatening to be consumed by their innate powers, these magic-touched souls endlessly indulge in and refine their mysterious abilities, gradually learning how to harness their birthright and coax forth ever greater arcane feats. Just as varied as these innately powerful spellcasters' abilities and inspirations are the ways in which they choose to utilize their gifts. While some seek to control their abilities through meditation and discipline, becoming masters of their fantastic birthright, others give in to their magic, letting it rule their lives with often explosive results. Regardless, sorcerers live and breathe that which other spellcasters devote their lives to mastering, and for them magic is more than a boon or a field of study; it is life itself.</p>
+				<p><b>Role</b>: Sorcerers excel at casting a selection of favored spells frequently, making them powerful battle mages. As they become familiar with a specific and ever-widening set of spells, sorcerers often discover new and versatile ways of making use of magics other spellcasters might overlook. Their bloodlines also grant them additional abilities, assuring that no two sorcerers are ever quite alike.</p>
+				<p><b>Alignment</b>: Any.</p>
+				<p><b>Hit Die</b>: d6.</p>
+				<h2>Class Skills</h2>
+				<p>The sorcerer's class skills are <a href="../skills/appraise.html#_appraise" >Appraise</a> (<a href="../gettingStarted.html#_intelligence" >Int</a>), <a href="../skills/bluff.html#_bluff" >Bluff</a> (<a href="../gettingStarted.html#_charisma-new" >Cha</a>), <a href="../skills/craft.html#_craft" >Craft</a> (<a href="../gettingStarted.html#_intelligence" >Int</a>), <a href="../skills/fly.html#_fly" >Fly</a> (<a href="../gettingStarted.html#_dexterity" >Dex</a>), <a href="../skills/intimidate.html#_intimidate" >Intimidate</a> (<a href="../gettingStarted.html#_charisma-new" >Cha</a>), <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (arcana) (<a href="../gettingStarted.html#_intelligence" >Int</a>), <a href="../skills/profession.html#_profession" >Profession</a> (<a href="../gettingStarted.html#_wisdom" >Wis</a>), <a href="../skills/spellcraft.html#_spellcraft" >Spellcraft</a> (<a href="../gettingStarted.html#_intelligence" >Int</a>), and <a href="../skills/useMagicDevice.html#_use-magic-device" >Use Magic Device</a> (<a href="../gettingStarted.html#_charisma-new" >Cha</a>).</p>
+				<p><b>Skill Ranks per Level</b>: 2 + <a href="../gettingStarted.html#_intelligence" >Int</a> modifier.</p>
+				<table id="table-3-14-sorcerer"><caption>Table: Sorcerer</caption>
+<thead><tr><th rowspan="2">Level</th><th rowspan="2">Base Attack Bonus</th><th rowspan="2">Fort Save</th><th rowspan="2">Ref Save</th><th rowspan="2">Will Save</th><th rowspan="2">Special</th><th colspan="9">Spells per Day</th></tr>
+<tr><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th></tr></thead>
+<tr class="odd"><td>1st</td><td>+0</td><td>+0</td><td>+0</td><td>+2</td><td style="white-space: normal;"><a href="#bloodline" >Bloodline power</a>, <a href="#cantrips-sorcerer" >cantrips</a>, <a href="#eschew-materials" >eschew materials</a></td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>2nd</td><td>+1</td><td>+0</td><td>+0</td><td>+3</td><td style="white-space: normal;"></td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>3rd</td><td>+1</td><td>+1</td><td>+1</td><td>+3</td><td style="white-space: normal;"><a href="#bloodline" >Bloodline power</a>, <a href="#bloodline" >bloodline spell</a></td><td>5</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>4th</td><td>+2</td><td>+1</td><td>+1</td><td>+4</td><td style="white-space: normal;"></td><td>6</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>5th</td><td>+2</td><td>+1</td><td>+1</td><td>+4</td><td style="white-space: normal;"><a href="#bloodline" >Bloodline spell</a></td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>6th</td><td>+3</td><td>+2</td><td>+2</td><td>+5</td><td style="white-space: normal;"></td><td>6</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>7th</td><td>+3</td><td>+2</td><td>+2</td><td>+5</td><td style="white-space: normal;"><a href="#bloodline" >Bloodline feat</a>, <a href="#bloodline" >bloodline spell</a></td><td>6</td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>8th</td><td>+4</td><td>+2</td><td>+2</td><td>+6</td><td style="white-space: normal;"></td><td>6</td><td>6</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>9th</td><td>+4</td><td>+3</td><td>+3</td><td>+6</td><td style="white-space: normal;"><a href="#bloodline" >Bloodline power</a>, <a href="#bloodline" >bloodline spell</a></td><td>6</td><td>6</td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>10th</td><td>+5</td><td>+3</td><td>+3</td><td>+7</td><td style="white-space: normal;"></td><td>6</td><td>6</td><td>6</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>11th</td><td>+5</td><td>+3</td><td>+3</td><td>+7</td><td style="white-space: normal;"><a href="#bloodline" >Bloodline spell</a></td><td>6</td><td>6</td><td>6</td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>12th</td><td>+6/+1</td><td>+4</td><td>+4</td><td>+8</td><td style="white-space: normal;"></td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>13th</td><td>+6/+1</td><td>+4</td><td>+4</td><td>+8</td><td style="white-space: normal;"><a href="#bloodline" >Bloodline feat</a>, <a href="#bloodline" >bloodline spell</a></td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>14th</td><td>+7/+2</td><td>+4</td><td>+4</td><td>+9</td><td style="white-space: normal;"></td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="odd"><td>15th</td><td>+7/+2</td><td>+5</td><td>+5</td><td>+9</td><td style="white-space: normal;"><a href="#bloodline" >Bloodline power</a>, <a href="#bloodline" >bloodline spell</a></td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>4</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr class="even"><td>16th</td><td>+8/+3</td><td>+5</td><td>+5</td><td>+10</td><td style="white-space: normal;"></td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>3</td><td>&mdash;</td></tr>
+<tr class="odd"><td>17th</td><td>+8/+3</td><td>+5</td><td>+5</td><td>+10</td><td style="white-space: normal;"><a href="#bloodline" >Bloodline spell</a></td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>4</td><td>&mdash;</td></tr>
+<tr class="even"><td>18th</td><td>+9/+4</td><td>+6</td><td>+6</td><td>+11</td><td style="white-space: normal;"></td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>5</td><td>3</td></tr>
+<tr class="odd"><td>19th</td><td>+9/+4</td><td>+6</td><td>+6</td><td>+11</td><td style="white-space: normal;"><a href="#bloodline" >Bloodline feat</a>, <a href="#bloodline" >bloodline spell</a></td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>4</td></tr>
+<tr class="even"><td>20th</td><td>+10/+5</td><td>+6</td><td>+6</td><td>+12</td><td style="white-space: normal;"><a href="#bloodline" >Bloodline power</a></td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td><td>6</td></tr></table><div class="right">
+<table id="table-3-15-sorcerer-spells-known"><caption>Table: Sorcerer Spells Known</caption>
+				<thead><tr><th rowspan="2">Level</th><th colspan="10">Spells Known</th></tr>
+				<tr><th>0</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th></tr></thead>
+				<tr class="odd"><td>1st</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="even"><td>2nd</td><td>5</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="odd"><td>3rd</td><td>5</td><td>3</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="even"><td>4th</td><td>6</td><td>3</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="odd"><td>5th</td><td>6</td><td>4</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="even"><td>6th</td><td>7</td><td>4</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="odd"><td>7th</td><td>7</td><td>5</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="even"><td>8th</td><td>8</td><td>5</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="odd"><td>9th</td><td>8</td><td>5</td><td>4</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="even"><td>10th</td><td>9</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="odd"><td>11th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="even"><td>12th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="odd"><td>13th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="even"><td>14th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="odd"><td>15th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>&mdash;</td><td>&mdash;</td></tr>
+				<tr class="even"><td>16th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>&mdash;</td></tr>
+				<tr class="odd"><td>17th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>&mdash;</td></tr>
+				<tr class="even"><td>18th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>1</td></tr>
+				<tr class="odd"><td>19th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr class="even"><td>20th</td><td>9</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td></tr></table></div>
+				<h2>Class Features</h2>
+				<p>All of the following are class features of the sorcerer.</p>
+				<p><b>Weapon and Armor Proficiency</b>: Sorcerers are proficient with all <a href="../equipment.html#_simple-martial-and-exotic-weapons" >simple</a> weapons. They are not proficient with any type of armor or shield. Armor interferes with a sorcerer's gestures, which can cause her spells with somatic components to fail (see <a href="wizard.html#_arcane-spells-and-armor">Arcane Spells and Armor</a>).</p>
+				<p id="spells-sorcerer"><b>Spells</b>: A sorcerer casts arcane spells drawn primarily from the sorcerer/wizard spell list presented in <a href="../spellLists.html">Spell Lists</a>. She can cast any spell she knows without preparing it ahead of time. To learn or cast a spell, a sorcerer must have a <a href="../gettingStarted.html#_charisma-new" >Charisma</a> score equal to at least 10 + the spell level. The Difficulty Class for a <a href="../magic.html#_saving-throw" >saving throw</a> against a sorcerer's spell is 10 + the spell level + the sorcerer's <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier.</p>
+				<p>Like other spellcasters, a sorcerer can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: Sorcerer. In addition, she receives bonus spells per day if she has a high <a href="../gettingStarted.html#_charisma-new" >Charisma</a> score (see <a href="../gettingStarted.html#_table-1-3-ability-modifiers-and-bonus-spells" >Table: Ability Modifiers and Bonus Spells</a>).</p>
+				<p>A sorcerer's selection of spells is extremely limited. A sorcerer begins play knowing four 0-level spells and two 1st-level spells of her choice. At each new sorcerer level, she gains one or more new spells, as indicated on Table: Sorcerer Spells Known. (Unlike spells per day, the number of spells a sorcerer knows is not affected by her <a href="../gettingStarted.html#_charisma-new" >Charisma</a> score; the numbers on Table: Sorcerer Spells Known are fixed.) These new spells can be common spells chosen from the sorcerer/wizard spell list, or they can be unusual spells that the sorcerer has gained some understanding of through study. </p>
+				<p>Upon reaching 4th level, and at every even-numbered sorcerer level after that (6th, 8th, and so on), a sorcerer can choose to learn a new spell in place of one she already knows. In effect, the sorcerer loses the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged. A sorcerer may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that she gains new spells known for the level.</p>
+				<p>Unlike a wizard or a cleric, a sorcerer need not prepare her spells in advance. She can cast any spell she knows at any time, assuming she has not yet used up her spells per day for that spell level.</p>
+				<p id="bloodline"><b>Bloodline</b>: Each sorcerer has a source of magic somewhere in her heritage that grants her spells, bonus feats, an additional class skill, and other special abilities. This source can represent a blood relation or an extreme event involving a creature somewhere in the family's past. For example, a sorcerer might have a dragon as a distant relative or her grandfather might have signed a terrible contract with a devil. Regardless of the source, this influence manifests in a number of ways as the sorcerer gains levels. A sorcerer must pick one bloodline upon taking her first level of sorcerer. Once made, this choice cannot be changed.</p>
+				<p>At 3rd level, and every two levels thereafter, a sorcerer learns an additional spell, derived from her bloodline. These spells are in addition to the number of spells given on Table: Sorcerer Spells Known. These spells cannot be exchanged for different spells at higher levels.</p>
+				<p>At 7th level, and every six levels thereafter, a sorcerer receives one bonus feat, chosen from a list specific to each bloodline. The sorcerer must meet the prerequisites for these bonus feats. </p>
+				<p id="cantrips-sorcerer"><b>Cantrips</b>: Sorcerers learn a number of cantrips, or 0-level spells, as noted on Table: Sorcerer Spells Known under “Spells Known.” These spells are cast like any other spell, but they do not consume any slots and may be used again.</p>
+				<p id="eschew-materials"><b>Eschew Materials</b>: A sorcerer gains <a href="../feats.html#_eschew-materials" >Eschew Materials</a> as a bonus feat at 1st level.</p>
+				<h2 id="sorcerer-bloodlines-list">Sorcerer Bloodlines</h2>
+				<p>The following bloodlines represent only some of the possible sources of power that a sorcerer can draw upon. Unless otherwise noted, most sorcerers are assumed to have the arcane bloodline.</p>
+				<h2 id="aberrant">Aberrant</h2>
+				<p>There is a taint in your blood, one that is alien and bizarre. You tend to think in odd ways, approaching problems from an angle that most would not expect. Over time, this taint manifests itself in your physical form.</p>
+				<p><b>Class Skill</b>: <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (dungeoneering).</p>
+				<p><b>Bonus Spells</b>: <i><a href="../spells/enlargePerson.html#_enlarge-person" >enlarge person</a></i> (3rd), <i><a href="../spells/seeInvisibility.html#_see-invisibility" >see invisibility</a></i> (5th), <i><a href="../spells/tongues.html#_tongues" >tongues</a></i> (7th), <i><a href="../spells/blackTentacles.html#_black-tentacles" >black tentacles</a></i> (9th), <i><a href="../spells/feeblemind.html#_feeblemind" >feeblemind</a></i> (11th), <i><a href="../spells/veil.html#_veil" >veil</a> </i>(13th), <i><a href="../spells/planeShift.html#_plane-shift" >plane shift</a></i> (15th), <i><a href="../spells/mindBlank.html#_mind-blank" >mind blank</a></i> (17th), <i><a href="../spells/shapechange.html#_shapechange" >shapechange</a> </i>(19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../feats.html#_combat-casting" >Combat Casting</a>, <a href="../feats.html#_improved-disarm" >Improved Disarm</a>, <a href="../feats.html#_improved-grapple" >Improved Grapple</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_improved-unarmed-strike" >Improved Unarmed Strike</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_silent-spell" >Silent Spell</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/knowledge.html#_knowledge" >Knowledge</a> [dungeoneering]).</p>
+				<p><b>Bloodline Arcana</b>: Whenever you cast a spell of the <a href="../magic.html#_polymorph" >polymorph</a> subschool, increase the duration of the spell by 50% (minimum 1 round). This bonus does not stack with the increase granted by the <a href="../feats.html#_extend-spell" >Extend Spell</a> feat.</p>
+				<p><b>Bloodline Powers</b>: Aberrant sorcerers show increasing signs of their tainted heritage as they increase in level, although they are only visible when used.</p>
+				<p><i>Acidic Ray <a href="../glossary.html#_spell-like-abilities-sp" >(Sp)</a></i>: Starting at 1st level, you can fire an acidic ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. The acidic ray deals 1d6 points of acid damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier.</p>
+				<p><i>Long Limbs <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 3rd level, your reach increases by 5 feet whenever you are making a melee touch attack. This ability does not otherwise increase your threatened area. At 11th level, this bonus to your reach increases to 10 feet. At 17th level, this bonus to your reach increases to 15 feet.</p>
+				<p><i>Unusual Anatomy <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 9th level, your anatomy changes, giving you a 25% chance to ignore any <a href="../combat.html#_critical-hits" >critical hit</a> or sneak attack scored against you. This chance increases to 50% at 13th level.</p>
+				<p><i>Alien Resistance <a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 15th level, you gain spell resistance equal to your sorcerer level + 10.</p>
+				<p><i>Aberrant Form <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 20th level, your body becomes truly unnatural. You are immune to critical hits and sneak attacks. In addition, you gain blindsight with a range of 60 feet and <a href="../glossary.html#_damage-reduction" >damage reduction</a> 5/&mdash;.</p>
+				<h2 id="abyssal">Abyssal</h2>
+				<p>Generations ago, a demon spread its filth into your heritage. While it does not manifest in all of your kin, for you it is particularly strong. You might sometimes have urges to chaos or evil, but your destiny (and <a href="../additionalRules.html#_alignment" >alignment</a>) is up to you.</p>
+				<p><b>Class Skill</b>: <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes).</p>
+				<p><b>Bonus Spells</b>: <i><a href="../spells/causeFear.html#_cause-fear" >cause fear</a></i> (3rd), <i><a href="../spells/bullSStrength.html#_bull-s-strength" >bull's strength</a></i> (5th), <i><a href="../spells/rage.html#_rage" >rage</a></i> (7th), <i><a href="../spells/stoneskin.html#_stoneskin" >stoneskin</a></i> (9th), <i><a href="../spells/dismissal.html#_dismissal" >dismissal</a></i> (11th), <i><a href="../spells/transformation.html#_transformation" >transformation</a></i> (13th), <i><a href="../spells/teleport.html#_teleport-greater" >greater teleport</a></i> (15th), <i><a href="../spells/unholyAura.html#_unholy-aura" >unholy aura</a></i> (17th), <i><a href="../spells/summonMonster.html#_summon-monster-ix" >summon monster IX</a></i> (19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../feats.html#_augment-summoning" >Augment Summoning</a>, <a href="../feats.html#_cleave" >Cleave</a>, <a href="../feats.html#_empower-spell" >Empower Spell</a>, <a href="../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../feats.html#_improved-bull-rush" >Improved Bull Rush</a>, <a href="../feats.html#_improved-sunder" >Improved Sunder</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/knowledge.html#_knowledge" >Knowledge</a> [planes]).</p>
+				<p><b>Bloodline Arcana</b>: Whenever you cast a spell of the <a href="../magic.html#_summoning" >summoning</a> subschool, the creatures summoned gain <a href="../glossary.html#_damage-reduction" >DR</a>/good equal to 1/2 your sorcerer level (minimum 1). This does not stack with any <a href="../glossary.html#_damage-reduction" >DR</a> the creature might have.</p>
+				<p><b>Bloodline Powers</b>: While some would say that you are possessed, you know better. The demonic influence in your blood grows as you gain power.</p>
+				<p><i>Claws <a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 1st level, you can grow claws as a free action. These claws are treated as natural weapons, allowing you to make two claw attacks as a full attack action using your full base attack bonus. These attacks deal 1d4 points of damage each (1d3 if you are Small) plus your <a href="../gettingStarted.html#_strength" >Strength</a> modifier. At 5th level, these claws are considered magic weapons for the purpose of overcoming <a href="../glossary.html#_damage-reduction" >DR</a>. At 7th level, the damage increases by one step to 1d6 points of damage (1d4 if you are Small). At 11th level, these claws become <i>flaming</i> <i>weapons</i>, each dealing an additional 1d6 points of fire damage on a successful hit. You can use your claws for a number of rounds per day equal to 3 + your <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier. These rounds do not need to be consecutive.</p>
+				<p><i>Demon Resistances <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 3rd level, you gain resist electricity 5 and a +2 bonus on <a href="../combat.html#_saving-throws" >saving throws</a> made against poison. At 9th level, your resistance to electricity increases to 10 and your bonus on poison <a href="../combat.html#_saving-throws" >saving throws</a> increases to +4.</p>
+				<p><i>Strength of the Abyss <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 9th level, you gain a +2 inherent bonus to your <a href="../gettingStarted.html#_strength" >Strength</a>. This bonus increases to +4 at 13th level, and to +6 at 17th level.</p>
+				<p><i>Added Summonings <a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 15th level, whenever you summon a creature with the demon subtype or the fiendish template using a <i><a href="../spells/summonMonster.html#_summon-monster-i" >summon monster</a></i> spell, you summon one additional creature of the same kind.</p>
+				<p><i>Demonic Might</i> <i><a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 20th level, the power of the Abyss flows through you. You gain immunity to electricity and poison. You also gain resistance to acid 10, cold 10, and fire 10, and gain telepathy with a range of 60 feet (allowing you to communicate with any creature that can speak a language).</p>
+				<h2 id="arcane">Arcane</h2>
+				<p>Your family has always been skilled in the eldritch art of magic. While many of your relatives were accomplished wizards, your powers developed without the need for study and practice.</p>
+				<p><b>Class Skill</b>: <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (any one).</p>
+				<p><b>Bonus Spells</b>: <i><a href="../spells/identify.html#_identify" >identify</a></i> (3rd), <i><a href="../spells/invisibility.html#_invisibility" >invisibility</a></i> (5th), <i><a href="../spells/dispelMagic.html#_dispel-magic" >dispel magic</a></i> (7th), <i><a href="../spells/dimensionDoor.html#_dimension-door" >dimension door</a> </i>(9th), <i><a href="../spells/overlandFlight.html#_overland-flight" >overland flight</a> </i>(11th), <i><a href="../spells/trueSeeing.html#_true-seeing" >true seeing</a></i> (13th), <i><a href="../spells/teleport.html#_teleport-greater" >greater teleport</a></i> (15th), <i><a href="../spells/powerWordStun.html#_power-word-stun" >power word stun</a></i> (17th), <i><a href="../spells/wish.html#_wish" >wish</a></i> (19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../feats.html#_combat-casting" >Combat Casting</a>, <a href="../feats.html#_improved-counterspell" >Improved Counterspell</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_scribe-scroll" >Scribe Scroll</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/knowledge.html#_knowledge" >Knowledge</a> [arcana]), <a href="../feats.html#_spell-focus" >Spell Focus</a>, <a href="../feats.html#_still-spell" >Still Spell</a>.</p>
+				<p><b>Bloodline Arcana</b>: Whenever you apply a <a href="../feats.html#_metamagic-feats" >metamagic feat</a> to a spell that increases the slot used by at least one level, increase the spell's DC by +1. This bonus does not stack with itself and does not apply to spells modified by the <a href="../feats.html#_heighten-spell" >Heighten Spell</a> feat.</p>
+				<p><b>Bloodline Powers</b>: Magic comes naturally to you, but as you gain levels you must take care to prevent the power from overwhelming you. </p>
+				<p><i>Arcane Bond</i> <i><a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 1st level, you gain an <a href="wizard.html#_arcane-bond">arcane bond</a>, as a wizard equal to your sorcerer level. Your sorcerer levels stack with any wizard levels you possess when determining the powers of your familiar or bonded object. This ability does not allow you to have both a familiar and a bonded item. Once per day, your bond item allows you to cast any one of our spells known (unlike a wizard's bonded item, which allows him to cast any one spell in his spellbook).</p>
+				<p><i>Metamagic Adept <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 3rd level, you can apply any one metamagic feat you know to a spell you are about to cast without increasing the casting time. You must still expend a higher-level spell slot to cast this spell. You can use this ability once per day at 3rd level and one additional time per day for every four sorcerer levels you possess beyond 3rd, up to five times per day at 19th level. At 20th level, this ability is replaced by arcane apotheosis.</p>
+				<p><i>New Arcana <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 9th level, you can add any one spell from the sorcerer/wizard spell list to your list of spells known. This spell must be of a level that you are capable of casting. You can also add one additional spell at 13th level and 17th level.</p>
+				<p><i>School Power <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 15th level, pick one school of magic. The DC for any spells you cast from that school increases by +2. This bonus stacks with the bonus granted by <a href="../feats.html#_spell-focus" >Spell Focus</a>.</p>
+				<p><i>Arcane Apotheosis <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 20th level, your body surges with arcane power. You can add any <a href="../feats.html#_metamagic-feats" >metamagic feats</a> that you know to your spells without increasing their casting time, although you must still expend higher-level spell slots. Whenever you use magic items that require charges, you can instead expend spell slots to power the item. For every three levels of spell slots that you expend, you consume one less charge when using a magic item that expends charges.</p>
+				<h2 id="celestial">Celestial</h2>
+				<p>Your bloodline is blessed by a celestial power, either from a celestial ancestor or through divine intervention. Although this power drives you along the path of good, your fate (and <a href="../additionalRules.html#_alignment" >alignment</a>) is your own to determine.</p>
+				<p><b>Class Skill</b>: Heal.</p>
+				<p><b>Bonus Spells</b>: <i><a href="../spells/bless.html#_bless" >bless</a></i> (3rd), <i><a href="../spells/resistEnergy.html#_resist-energy" >resist energy</a> </i>(5th), <i><a href="../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil" >magic circle against evil</a></i> (7th), <i><a href="../spells/removeCurse.html#_remove-curse" >remove curse</a></i> (9th),<i> <a href="../spells/flameStrike.html#_flame-strike" >flame strike</a></i> (11th), <i><a href="../spells/dispelMagic.html#_dispel-magic-greater" >greater dispel magic</a></i> (13th), <i><a href="../spells/banishment.html#_banishment" >banishment</a></i> (15th), <i><a href="../spells/sunburst.html#_sunburst" >sunburst</a></i> (17th),<i> <a href="../spells/gate.html#_gate" >gate</a> </i>(19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_extend-spell" >Extend Spell</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_mobility" >Mobility</a>, <a href="../feats.html#_mounted-combat" >Mounted Combat</a>, <a href="../feats.html#_ride-by-attack" >Ride-By Attack</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/knowledge.html#_knowledge" >Knowledge</a> [religion]), <a href="../feats.html#_weapon-finesse" >Weapon Finesse</a>.</p>
+				<p><b>Bloodline Arcana</b>: Whenever you cast a spell of the <a href="../magic.html#_summoning" >summoning</a> subschool, the creatures summoned gain <a href="../glossary.html#_damage-reduction" >DR</a>/evil equal to 1/2 your sorcerer level (minimum 1). This does not stack with any <a href="../glossary.html#_damage-reduction" >DR</a> the creature might have.</p>
+				<p><b>Bloodline Powers</b>: Your celestial heritage grants you a great many powers, but they come at a price. The lords of the higher planes are watching you and your actions closely.</p>
+				<p><i>Heavenly Fire <a href="../glossary.html#_spell-like-abilities-sp" >(Sp)</a></i>: Starting at 1st level, you can unleash a ray of heavenly fire as a standard action, targeting any foe within 30 feet as a ranged touch attack. Against evil creatures, this ray deals 1d4 points of damage + 1 for every two sorcerer levels you possess. This damage is divine and not subject to energy resistance or immunity. This ray heals good creatures of 1d4 points of damage + 1 for every two sorcerer levels you possess. A good creature cannot benefit from your heavenly fire more than once per day. Neutral creatures are neither harmed nor healed by this effect. You can use this ability a number of times per day equal to 3 + your <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier.</p>
+				<p><i>Celestial Resistances <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 3rd level, you gain resist acid 5 and resist cold 5. At 9th level, your resistances increase to 10.</p>
+				<p><i>Wings of Heaven <a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 9th level, you can sprout feathery wings and fly for a number of minutes per day equal to your sorcerer level, with a speed of 60 feet and good maneuverability. This duration does not need to be consecutive, but it must be used in 1 minute increments. </p>
+				<p><i>Conviction <a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 15th level, you can reroll any one ability check, attack roll, skill check, or <a href="../combat.html#_saving-throws" >saving throw</a> you just made. You must decide to use this ability after the die is rolled, but before the results are revealed by the GM. You must take the second result, even if it is worse. You can use this ability once per day.</p>
+				<p><i>Ascension <a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 20th level, you become infused with the power of the heavens. You gain immunity to acid, cold, and petrification. You also gain resist electricity 10, resist fire 10, and a +4 racial bonus on saves against poison. Finally, you gain unlimited use of the wings of heaven ability. Finally, you gain the ability to speak with any creature that has a language (as per the <i><a href="../spells/tongues.html#_tongues" >tongues</a> </i>spell).</p>
+				<h2 id="destined">Destined</h2>
+				<p>Your family is destined for greatness in some way. Your birth could have been foretold in prophecy, or perhaps it occurred during an especially auspicious event, such as a solar eclipse. Regardless of your bloodline's origin, you have a great future ahead.</p>
+				<p><b>Class Skill</b>: <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (history).</p>
+				<p><b>Bonus Spells</b>:<i> <a href="../spells/alarm.html#_alarm" >alarm</a></i> (3rd), <i><a href="../spells/blur.html#_blur" >blur</a></i> (5th), <i><a href="../spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (7th), <i><a href="../spells/freedomOfMovement.html#_freedom-of-movement" >freedom of movement</a></i> (9th), <i><a href="../spells/breakEnchantment.html#_break-enchantment" >break enchantment</a> </i>(11th), <i><a href="../spells/mislead.html#_mislead" >mislead</a></i> (13th), <i><a href="../spells/spellTurning.html#_spell-turning" >spell turning</a></i> (15th), <i><a href="../spells/momentOfPrescience.html#_moment-of-prescience" >moment of prescience</a> </i>(17th), <i><a href="../spells/foresight.html#_foresight" >foresight</a></i> (19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../feats.html#_arcane-strike" >Arcane Strike</a>, <a href="../feats.html#_diehard" >Diehard</a>, <a href="../feats.html#_endurance" >Endurance</a>, <a href="../feats.html#_leadership" >Leadership</a>, <a href="../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="../feats.html#_maximize-spell" >Maximize Spell</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/knowledge.html#_knowledge" >Knowledge</a> [history]), <a href="../feats.html#_weapon-focus" >Weapon Focus</a>.</p>
+				<p><b>Bloodline Arcana</b>: Whenever you cast a spell with a range of “personal,” you gain a luck bonus equal to the spell's level on all your <a href="../combat.html#_saving-throws" >saving throws</a> for 1 round.</p>
+				<p><b>Bloodline Powers</b>: You are destined for great things, and the powers that you gain serve to protect you.</p>
+				<p><i>Touch of Destiny</i> <i><a href="../glossary.html#_spell-like-abilities-sp" >(Sp)</a></i>: At 1st level, you can touch a creature as a standard action, giving it an insight bonus on attack rolls, <a href="../usingSkills.html#_skill-checks" >skill checks</a>, ability checks, and <a href="../combat.html#_saving-throws" >saving throws</a> equal to 1/2 your sorcerer level (minimum 1) for 1 round. You can use this ability a number of times per day equal to 3 + your <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier.</p>
+				<p><i>Fated</i> <i><a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: Starting at 3rd level, you gain a +1 luck bonus on all of your <a href="../combat.html#_saving-throws" >saving throws</a> and to your <a href="../combat.html#_armor-class" >AC</a> during surprise rounds (see <a href="../combat.html">Combat</a>) and when you are otherwise unaware of an attack. At 7th level and every four levels thereafter, this bonus increases by +1, to a maximum of +5 at 19th level.</p>
+				<p><i>It Was Meant To Be</i> <i><a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 9th level, you may reroll any one attack roll, <a href="../combat.html#_critical-hits" >critical hit</a> confirmation roll, or level check made to overcome spell resistance. You must decide to use this ability after the first roll is made but before the results are revealed by the GM. You must take the second result, even if it is worse. At 9th level, you can use this ability once per day. At 17th level, you can use this ability twice per day.</p>
+				<p><i>Within Reach</i> <i><a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 15th level, your ultimate destiny is drawing near. Once per day, when an attack or spell that causes damage would result in your death, you may attempt a DC 20 <a href="../combat.html#_will" >Will save</a>. If successful, you are instead reduced to &ndash;1 hit points and are automatically stabilized. The bonus from your fated ability applies to this save.</p>
+				<p><i>Destiny Realized</i> <i><a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 20th level, your moment of destiny is at hand. Any critical threats made against you only confirm if the second roll results in a natural 20 on the die. Any critical threats you score with a spell are automatically confirmed. Once per day, you can automatically succeed at one caster level check made to overcome spell resistance. You must use this ability before making the roll.</p>
+				<h2 id="draconic">Draconic</h2>
+				<p>At some point in your family's history, a dragon interbred with your bloodline, and now its ancient power flows through your veins. </p>
+				<p><b>Class Skill</b>: <a href="../skills/perception.html#_perception" >Perception</a>.</p>
+				<p><b>Bonus Spells</b>: <i><a href="../spells/mageArmor.html#_mage-armor" >mage armor</a></i> (3rd), <i><a href="../spells/resistEnergy.html#_resist-energy" >resist energy</a></i> (5th), <i><a href="../spells/fly.html#_fly">fly</a></i> (7th), <i><a href="../spells/fear.html#_fear">fear</a></i> (9th), <i><a href="../spells/spellResistance.html#_spell-resistance" >spell resistance</a></i> (11th), <i><a href="../spells/formOfTheDragon.html#_form-of-the-dragon-i" >form of the dragon I</a> </i>(13th), <i><a href="../spells/formOfTheDragon.html#_form-of-the-dragon-ii" >form of the dragon II</a></i> (15th), <i><a href="../spells/formOfTheDragon.html#_form-of-the-dragon-iii" >form of the dragon III</a> </i>(17th), <i><a href="../spells/wish.html#_wish" >wish</a></i> (19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../feats.html#_blind-fight" >Blind-Fight</a>, <a href="../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="../feats.html#_quicken-spell" >Quicken Spell</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/fly.html#_fly" >Fly</a>), <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/knowledge.html#_knowledge" >Knowledge</a> [arcana]), <a href="../feats.html#_toughness" >Toughness</a>.</p>
+				<p><b>Bloodline Arcana</b>: Whenever you cast a spell with an energy descriptor that matches your draconic bloodline's energy type, that spell deals +1 point of damage per die rolled.</p>
+				<p><b>Bloodline Powers</b>: The power of dragons flows through you and manifests in a number of ways. At 1st level, you must select one of the chromatic or metallic dragon types. This choice cannot be changed. A number of your abilities grant resistances and deal damage based on your dragon type, as noted on the following table.</p><table>
+<thead><tr><th>Dragon Type</th><th>Energy Type</th><th>Breath Shape</th></tr></thead>
+<tbody>
+<tr class="odd"><td>Black</td><td>Acid</td><td>60-foot line</td></tr>
+<tr class="even"><td>Blue</td><td>Electricity</td><td>60-foot line</td></tr>
+<tr class="odd"><td>Green</td><td>Acid</td><td>30-foot cone</td></tr>
+<tr class="even"><td>Red</td><td>Fire</td><td>30-foot cone</td></tr>
+<tr class="odd"><td>White</td><td>Cold</td><td>30-foot cone</td></tr>
+<tr class="even"><td>Brass</td><td>Fire</td><td>60-foot line</td></tr>
+<tr class="odd"><td>Bronze</td><td>Electricity</td><td>60-foot line</td></tr>
+<tr class="even"><td>Copper</td><td>Acid</td><td>60-foot line</td></tr>
+<tr class="odd"><td>Gold</td><td>Fire</td><td>30-foot cone</td></tr>
+<tr class="even"><td>Silver</td><td>Cold</td><td>30-foot cone</td></tr></tbody></table>
+
+				<p><i>Claws <a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: Starting at 1st level, you can grow claws as a free action. These claws are treated as natural weapons, allowing you to make two claw attacks as a full attack action using your full base attack bonus. Each of these attacks deals 1d4 points of damage plus your <a href="../gettingStarted.html#_strength" >Strength</a> modifier (1d3 if you are Small). At 5th level, these claws are considered magic weapons for the purpose of overcoming <a href="../glossary.html#_damage-reduction" >DR</a>. At 7th level, the damage increases by one step to 1d6 points of damage (1d4 if you are Small). At 11th level, these claws deal an additional 1d6 points of damage of your energy type on a successful hit. You can use your claws for a number of rounds per day equal to 3 + your <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier. These rounds do not need to be consecutive.</p>
+				<p><i>Dragon Resistances <a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 3rd level, you gain resist 5 against your energy type and a +1 natural armor bonus. At 9th level, your energy resistance increases to 10 and natural armor bonus increases to +2. At 15th level, your natural armor bonus increases to +4.</p>
+				<p><i>Breath Weapon <a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 9th level, you gain a breath weapon. This breath weapon deals 1d6 points of damage of your energy type per sorcerer level. Those caught in the area of the breath receive a <a href="../combat.html#_reflex" >Reflex</a> save for half damage. The DC of this save is equal to 10 + 1/2 your sorcerer level + your <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier. The shape of the breath weapon depends on your dragon type (as indicated on the above chart). At 9th level, you can use this ability once per day. At 17th level, you can use this ability twice per day. At 20th level, you can use this ability three times per day.</p>
+				<p><i>Wings</i> <i><a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 15th level, leathery dragon wings grow from your back as a standard action, giving you a fly speed of 60 feet with average maneuverability. You can dismiss the wings as a free action.</p>
+				<p><i>Power of Wyrms</i> <i><a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 20th level, your draconic heritage becomes manifest. You gain immunity to paralysis, sleep, and damage of your energy type. You also gain blindsense 60 feet.</p>
+				<h2 id="elemental">Elemental</h2>
+				<p>The power of the elements resides in you, and at times you can hardly control its fury. This influence comes from an elemental outsider in your family history or a time when you or your relatives were exposed to a powerful elemental force.</p>
+				<p><b>Class Skill</b>: <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (planes).</p>
+				<p><b>Bonus Spells</b>: <i><a href="../spells/burningHands.html#_burning-hands" >burning hands</a></i>* (3rd), <i><a href="../spells/scorchingRay.html#_scorching-ray" >scorching ray</a></i>* (5th), <i><a href="../spells/protectionFromEnergy.html#_protection-from-energy" >protection from energy</a></i> (7th), <i><a href="../spells/elementalBody.html#_elemental-body-i" >elemental body I</a></i> (9th), <i><a href="../spells/elementalBody.html#_elemental-body-ii" >elemental body II</a></i> (11th), <i><a href="../spells/elementalBody.html#_elemental-body-iii" >elemental body III</a></i> (13th), <i><a href="../spells/elementalBody.html#_elemental-body-iv" >elemental body IV</a></i> (15th), <i><a href="../spells/summonMonster.html#_summon-monster-viii" >summon monster VIII</a></i> (elementals only) (17th), <i><a href="../spells/elementalSwarm.html#_elemental-swarm" >elemental swarm</a></i> (19th).</p>
+				<p>*These spells always deal a type of damage determined by your element. In addition, the subtype of these spells changes to match the energy type of your element.</p>
+				<p><b>Bonus Feats</b>: <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_empower-spell" >Empower Spell</a>, <a href="../feats.html#_great-fortitude" >Great Fortitude</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="../feats.html#_power-attack" >Power Attack</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/knowledge.html#_knowledge" >Knowledge</a> [planes]), <a href="../feats.html#_weapon-finesse" >Weapon Finesse</a>.</p>
+				<p><b>Bloodline Arcana</b>: Whenever you cast a spell that deals energy damage, you can change the type of damage to match the type of your bloodline. This also changes the spell's type to match the type of your bloodline.</p>
+				<p><b>Bloodline Powers</b>: One of the four elements infuses your being, and you can draw upon its power in times of need. At first level, you must select one of the four elements: air, earth, fire, or water. This choice cannot be changed. A number of your abilities grant resistances and deal damage based on your element, as noted below.</p><table>
+<thead><tr><th>Element</th><th>Energy Type</th><th>Elemental Movement</th></tr></thead>
+<tbody>
+<tr class="odd"><td>Air</td><td>Electricity</td><td>Fly 60 feet (average)</td></tr>
+<tr class="even"><td>Earth</td><td>Acid</td><td>Burrow 30 feet</td></tr>
+<tr class="odd"><td>Fire</td><td>Fire</td><td>+30 feet base speed</td></tr>
+<tr class="even"><td>Water</td><td>Cold</td><td>Swim 60 feet</td></tr></tbody></table>
+
+				<p><i>Elemental Ray</i> <i><a href="../glossary.html#_spell-like-abilities-sp" >(Sp)</a></i>: Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of damage of your energy type + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier.</p>
+				<p><i>Elemental Resistance</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 3rd level, you gain energy resistance 10 against your energy type. At 9th level, your energy resistance increases to 20.</p>
+				<p><i>Elemental Blast</i> <i><a href="../glossary.html#_spell-like-abilities-sp" >(Sp)</a></i>: At 9th level, you can unleash a blast of elemental power once per day. This 20-foot-radius burst does 1d6 points of damage of your energy type per sorcerer level. Those caught in the area of your blast receive a <a href="../combat.html#_reflex" >Reflex</a> save for half damage. Creatures that fail their saves gain vulnerability to your energy type until the end of your next turn. The DC of this save is equal to 10 + 1/2 your sorcerer level + your <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier. At 9th level, you can use this ability once per day. At 17th level, you can use this ability twice per day. At 20th level, you can use this ability three times per day. This power has a range of 60 feet.</p>
+				<p><i>Elemental Movement</i> <i><a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 15th level, you gain a special movement type or bonus. This ability is based on your chosen element, as indicated on the above chart.</p>
+				<p><i>Elemental Body <a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 20th level, elemental power surges through your body. You gain immunity to sneak attacks, critical hits, and damage from your energy type.</p>
+				<h2 id="fey">Fey</h2>
+				<p>The capricious nature of the fey runs in your family due to some intermingling of fey blood or magic. You are more emotional than most, prone to bouts of joy and rage.</p>
+				<p><b>Class Skill</b>: <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (nature).</p>
+				<p><b>Bonus Spells</b>: <i><a href="../spells/entangle.html#_entangle" >entangle</a> </i>(3rd), <i><a href="../spells/hideousLaughter.html#_hideous-laughter" >hideous laughter</a></i> (5th), <i><a href="../spells/deepSlumber.html#_deep-slumber" >deep slumber</a></i> (7th), <i><a href="../spells/poison.html#_poison" >poison</a></i> (9th), <i><a href="../spells/treeStride.html#_tree-stride" >tree stride</a></i> (11th), <i><a href="../spells/mislead.html#_mislead" >mislead</a></i> (13th), <i><a href="../spells/phaseDoor.html#_phase-door" >phase door</a></i> (15th), <i><a href="../spells/irresistibleDance.html#_irresistible-dance" >irresistible dance</a></i> (17th), <i><a href="../spells/shapechange.html#_shapechange" >shapechange</a> </i>(19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../feats.html#_dodge" >Dodge</a>, <a href="../feats.html#_improved-initiative" >Improved Initiative</a>, <a href="../feats.html#_lightning-reflexes" >Lightning Reflexes</a>, <a href="../feats.html#_mobility" >Mobility</a>, <a href="../feats.html#_point-blank-shot" >Point Blank Shot</a>, <a href="../feats.html#_precise-shot" >Precise Shot</a>, <a href="../feats.html#_quicken-spell" >Quicken Spell</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/knowledge.html#_knowledge" >Knowledge</a> [nature]).</p>
+				<p><b>Bloodline Arcana</b>: Whenever you cast a spell of the <a href="../magic.html#_compulsion" >compulsion</a> subschool, increase the spell's DC by +2.</p>
+				<p><b>Bloodline Powers</b>: You have always had a tie to the natural world, and as your power increases, so does the influence of the fey over your magic.</p>
+				<p><i>Laughing Touch</i> <i><a href="../glossary.html#_spell-like-abilities-sp" >(Sp)</a></i>: At 1st level, you can cause a creature to burst out laughing for 1 round as a melee touch attack. A laughing creature can only take a move action but can defend itself normally. Once a creature has been affected by laughing touch, it is immune to its effects for 24 hours. You can use this ability a number of times per day equal to 3 + your <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier. This is a mind-affecting effect.</p>
+				<p><i>Woodland Stride</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 3rd level, you can move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect you.</p>
+				<p><i>Fleeting Glance</i> <i><a href="../glossary.html#_spell-like-abilities-sp" >(Sp)</a></i>: At 9th level, you can turn <a href="../glossary.html#_invisible" >invisible</a> for a number of rounds per day equal to your sorcerer level. This ability functions as <i><a href="../spells/invisibility.html#_invisibility-greater" >greater invisibility</a>. </i>These rounds need not be consecutive.</p>
+				<p><i>Fey Magic <a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 15th level, you may reroll any caster level check made to overcome spell resistance. You must decide to use this ability before the results are revealed by the GM. You must take the second result, even if it is worse. You can use this ability at will.</p>
+				<p><i>Soul of the Fey</i> <i><a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 20th level, your soul becomes one with the world of the fey. You gain immunity to poison and <a href="../glossary.html#_damage-reduction" >DR</a> 10/cold iron. Creatures of the animal type do not attack you unless compelled to do so through magic. Once per day, you can cast <i><a href="../spells/shadowWalk.html#_shadow-walk" >shadow walk</a></i> as a spell-like ability using your sorcerer level as your caster level.</p>
+				<h2 id="infernal">Infernal</h2>
+				<p>Somewhere in your family's history, a relative made a deal with a devil, and that pact has influenced your family line ever since. In you, it manifests in direct and obvious ways, granting you powers and abilities. While your fate is still your own, you can't help but wonder if your ultimate reward is bound to the Pit.</p>
+				<p><b>Class Skill</b>: <a href="../skills/diplomacy.html#_diplomacy" >Diplomacy</a>.</p>
+				<p><b>Bonus Spells</b>: <i><a href="../spells/protectionFromGood.html#_protection-from-good" >protection from good</a></i> (3rd), <i><a href="../spells/scorchingRay.html#_scorching-ray" >scorching ray</a></i> (5th), <i><a href="../spells/suggestion.html#_suggestion" >suggestion</a></i> (7th), <i><a href="../spells/charmMonster.html#_charm-monster" >charm monster</a></i> (9th), <i><a href="../spells/dominatePerson.html#_dominate-person" >dominate person</a> </i>(11th), <i><a href="../spells/planarBinding.html#_planar-binding" >planar binding</a></i> (devils and creatures with the fiendish template only) (13th), <i><a href="../spells/teleport.html#_teleport-greater" >greater teleport</a></i> (15th), <i><a href="../spells/powerWordStun.html#_power-word-stun" >power word stun</a></i> (17th), <i><a href="../spells/meteorSwarm.html#_meteor-swarm" >meteor swarm</a></i> (19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../feats.html#_blind-fight" >Blind-Fight</a>, <a href="../feats.html#_combat-expertise" >Combat Expertise</a>, <a href="../feats.html#_deceitful" >Deceitful</a>, <a href="../feats.html#_extend-spell" >Extend Spell</a>, <a href="../feats.html#_improved-disarm" >Improved Disarm</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/knowledge.html#_knowledge" >Knowledge</a> [planes]), <a href="../feats.html#_spell-penetration" >Spell Penetration</a>.</p>
+				<p><b>Bloodline Arcana</b>: Whenever you cast a spell of the <a href="../magic.html#_charm" >charm</a> subschool, increase the spell's DC by +2.</p>
+				<p><b>Bloodline Powers</b>: You can draw upon the power of Hell, although you must be wary of its corrupting influence. Such power does not come without a price.</p>
+				<p><i>Corrupting Touch</i> <i><a href="../glossary.html#_spell-like-abilities-sp" >(Sp)</a></i>: At 1st level, you can cause a creature to become <a href="../glossary.html#_shaken" >shaken</a> as a melee touch attack. This effect persists for a number of rounds equal to 1/2 your sorcerer level (minimum 1). Creatures <a href="../glossary.html#_shaken" >shaken</a> by this ability radiate an aura of evil, as if they were an evil outsider (see <i><a href="../spells/detectEvil.html#_detect-evil" >detect evil</a></i>). Multiple touches do not stack, but they do add to the duration. You can use this ability a number of times per day equal to 3 + your <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier.</p>
+				<p><i>Infernal Resistances</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 3rd level, you gain resist fire 5 and a +2 bonus on <a href="../combat.html#_saving-throws" >saving throws</a> made against poison. At 9th level, your resistance to fire increases to 10 and your bonus on poison <a href="../combat.html#_saving-throws" >saving throws</a> increases to +4.</p>
+				<p><i>Hellfire <a href="../glossary.html#_spell-like-abilities-sp" >(Sp)</a></i>: At 9th level, you can call down a column of hellfire. This 10-foot-radius burst does 1d6 points of fire damage per sorcerer level. Those caught in the area of your blast receive a <a href="../combat.html#_reflex" >Reflex</a> save for half damage. Good creatures that fail their saves are <a href="../glossary.html#_shaken" >shaken</a> for a number of rounds equal to your sorcerer level. The DC of this save is equal to 10 + 1/2 your sorcerer level + your <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier. At 9th level, you can use this ability once per day. At 17th level, you can use this ability twice per day. At 20th level, you can use this ability three times per day. This power has a range of 60 feet.</p>
+				<p><i>On Dark Wings</i> <i><a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 15th level, you can grow fearsome bat wings as a standard action, giving you a fly speed of 60 feet with average maneuverability. The wings can be dismissed as a free action.</p>
+				<p><i>Power of the Pit</i> <i><a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 20th level, your form becomes infused with vile power. You gain immunity to fire and poison. You also gain resistance to acid 10 and cold 10, and the ability to see perfectly in darkness of any kind to a range of 60 feet.</p>
+				<h2 id="undead">Undead</h2>
+				<p>The taint of the grave runs through your family. Perhaps one of your ancestors became a powerful lich or vampire, or maybe you were born dead before suddenly returning to life. Either way, the forces of death move through you and touch your every action.</p>
+				<p><b>Class Skill</b>: <a href="../skills/knowledge.html#_knowledge" >Knowledge</a> (religion).</p>
+				<p><b>Bonus Spells</b>: <i><a href="../spells/chillTouch.html#_chill-touch" >chill touch</a></i> (3rd), <i><a href="../spells/falseLife.html#_false-life" >false life</a></i> (5th), <i><a href="../spells/vampiricTouch.html#_vampiric-touch" >vampiric touch</a></i> (7th), <i><a href="../spells/animateDead.html#_animate-dead" >animate dead</a></i> (9th), <i><a href="../spells/wavesOfFatigue.html#_waves-of-fatigue" >waves of fatigue</a></i> (11th), <i><a href="../spells/undeathToDeath.html#_undeath-to-death" >undeath to death</a></i> (13th), <i><a href="../spells/fingerOfDeath.html#_finger-of-death" >finger of death</a></i> (15th), <i><a href="../spells/horridWilting.html#_horrid-wilting" >horrid wilting</a></i> (17th), <i><a href="../spells/energyDrain.html#_energy-drain" >energy drain</a></i> (19th).</p>
+				<p><b>Bonus Feats</b>: <a href="../feats.html#_combat-casting" >Combat Casting</a>, <a href="../feats.html#_diehard" >Diehard</a>, <a href="../feats.html#_endurance" >Endurance</a>, <a href="../feats.html#_iron-will" >Iron Will</a>, <a href="../feats.html#_skill-focus" >Skill Focus</a> (<a href="../skills/knowledge.html#_knowledge" >Knowledge</a> [religion]), <a href="../feats.html#_spell-focus" >Spell Focus</a>, <a href="../feats.html#_still-spell" >Still Spell</a>, <a href="../feats.html#_toughness" >Toughness</a>.</p>
+				<p><b>Bloodline Arcana</b>: Some undead are susceptible to your mind-affecting spells. Corporeal undead that were once humanoids are treated as humanoids for the purposes of determining which spells affect them.</p>
+				<p><b>Bloodline Powers</b>: You can call upon the foul powers of the afterlife. Unfortunately, the more you draw upon them, the closer you come to joining them.</p>
+				<p><i>Grave Touch <a href="../glossary.html#_spell-like-abilities-sp" >(Sp)</a></i>: Starting at 1st level, you can make a melee touch attack as a standard action that causes a living creature to become <a href="../glossary.html#_shaken" >shaken</a> for a number of rounds equal to 1/2 your sorcerer level (minimum 1). If you touch a <a href="../glossary.html#_shaken" >shaken</a> creature with this ability, it becomes <a href="../glossary.html#_frightened" >frightened</a> for 1 round if it has fewer Hit Dice than your sorcerer level. You can use this ability a number of times per day equal to 3 + your <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier.</p>
+				<p><i>Death's Gift</i> <i><a href="../glossary.html#_supernatural-abilities-su" >(Su)</a></i>: At 3rd level, you gain resist cold 5 and <a href="../glossary.html#_damage-reduction" >DR</a> 5/&mdash; against nonlethal damage. At 9th level, your resistance to cold increases to 10 and your <a href="../glossary.html#_damage-reduction" >DR</a> increases to 10/&mdash; against nonlethal damage.</p>
+				<p><i>Grasp of the Dead</i> <i><a href="../glossary.html#_spell-like-abilities-sp" >(Sp)</a></i>: At 9th level, you can cause a swarm of skeletal arms to burst from the ground to rip and tear at your foes. The skeletal arms erupt from the ground in a 20-foot-radius burst. Anyone in this area takes 1d6 points of slashing damage per sorcerer level. Those caught in the area receive a <a href="../combat.html#_reflex" >Reflex</a> save for half damage. Those who fail the save are unable to move for 1 round. The DC of this save is equal to 10 + 1/2 your sorcerer level + your <a href="../gettingStarted.html#_charisma-new" >Charisma</a> modifier. The skeletal arms disappear after 1 round. The arms must burst up from a solid surface. At 9th level, you can use this ability once per day. At 17th level, you can use this ability twice per day. At 20th level, you can use this ability three times per day. This power has a range of 60 feet.</p>
+				<p><i>Incorporeal Form</i> <i><a href="../glossary.html#_spell-like-abilities-sp" >(Sp)</a></i>: At 15th level, you can become <a href="../glossary.html#_incorporeal" >incorporeal</a> for 1 round per sorcerer level. While in this form, you gain the incorporeal subtype. You only take half damage from corporeal sources as long as they are magic (you take no damage from non-magic weapons and objects). Likewise, your spells deal only half damage to corporeal creatures. Spells and other effects that do not deal damage function normally. You can use this ability once per day.</p>
+				<p><i>One of Us</i> <i><a href="../glossary.html#_extraordinary-abilities-ex" >(Ex)</a></i>: At 20th level, your form begins to rot (the appearance of this decay is up to you) and undead see you as one of them. You gain immunity to cold, nonlethal damage, paralysis, and sleep. You also gain <a href="../glossary.html#_damage-reduction" >DR</a> 5/&mdash;. Unintelligent undead do not notice you unless you attack them. You receive a +4 morale bonus on <a href="../combat.html#_saving-throws" >saving throws</a> made against spells and spell-like abilities cast by undead.</p>
+</div>
+
+                <div id="footer">
+                    <div class="legal">
+                        <p>&copy;2002&ndash;2014 Paizo, Inc.&reg;. Need help? Email <a href="mailto:customer.service@paizo.com">customer.service@paizo.com</a> or call 425-250-0800 Monday&ndash;Friday, 10 AM&ndash;5 PM Pacific Time. View our <a href="/paizo/about/privacypolicy">privacy policy</a>. Paizo, Inc., Paizo, the Paizo golem logo, GameMastery, Pathfinder, Pathfinder Society, Planet Stories, and <i>Undefeated</i> are registered trademarks of Paizo, Inc., and Pathfinder Chronicles, Pathfinder Companion, Pathfinder Modules, Pathfinder Roleplaying Game, Pathfinder Society, PaizoCon, RPG Superstar, The Golem's Got It, Titanic Games, the Titanic logo, and the Planet Stories planet logo are trademarks of Paizo, Inc.. Dungeons &amp; Dragons, <i>Dragon</i>, <i>Dungeon</i>, and <i>Polyhedron</i> are registered trademarks of Wizards of the Coast, Inc., a subsidiary of Hasbro, Inc., and are used by Paizo Publishing under license. Most product names are trademarks owned or used under license by the companies that publish those products; use of such names without mention of trademark status should not be construed as a challenge to such status. <a href="/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.</p>
+                    </div>
+                </div>
+
+
+
+    </body>
+</html>
+
