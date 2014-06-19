@@ -34,7 +34,7 @@ Offense
 
 **Cleric Spells Prepared** (CL 1st; concentration +3)
 
-1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _longstride r_<sup>D</sup>, _ [protection from good](/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good)_
+1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _longstride r_D, _ [protection from good](/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good)_
 
 0 (at will)—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
 
@@ -104,7 +104,7 @@ Offense
 
 **Cleric Spells Prepared** (CL 2nd; concentration +5)
 
-1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ (DC 14), _ [magic stone](/pathfinderRPG/prd/spells/magicStone.html#_magic-stone)_, _ [magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon)_, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_<sup>D</sup>
+1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ (DC 14), _ [magic stone](/pathfinderRPG/prd/spells/magicStone.html#_magic-stone)_, _ [magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon)_, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_D
 
 0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 13), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
 
@@ -170,9 +170,9 @@ Offense
 
 **Cleric Spells Prepared** (CL 3rd; concentration +6)
 
-2nd—_ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 16), _ [magic mouth](/pathfinderRPG/prd/spells/magicMouth.html#_magic-mouth)_<sup>D</sup>, _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_
+2nd—_ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 16), _ [magic mouth](/pathfinderRPG/prd/spells/magicMouth.html#_magic-mouth)_D, _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_
 
-1st—_ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (2, DC 15), _ [erase](/pathfinderRPG/prd/spells/erase.html#_erase)_<sup>D</sup>, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_
+1st—_ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (2, DC 15), _ [erase](/pathfinderRPG/prd/spells/erase.html#_erase)_D, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_
 
 0 (at will)—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic), [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison), [purify food and drink](/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink), [stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_
 
@@ -302,11 +302,11 @@ Offense
 
 **Cleric Spells Prepared** (CL 5th; concentration +7)
 
-3rd—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _magic vestmen t_<sup>D</sup>, _ [searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_
+3rd—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _magic vestmen t_D, _ [searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_
 
-2nd—_ [align weapon](/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon)_ (law only)<sup>D</sup>, _ [enthrall](/pathfinderRPG/prd/spells/enthrall.html#_enthrall)_ (DC 14), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (DC 14), _ [sound burst](/pathfinderRPG/prd/spells/soundBurst.html#_sound-burst)_ (DC 14)
+2nd—_ [align weapon](/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon)_ (law only)D, _ [enthrall](/pathfinderRPG/prd/spells/enthrall.html#_enthrall)_ (DC 14), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (DC 14), _ [sound burst](/pathfinderRPG/prd/spells/soundBurst.html#_sound-burst)_ (DC 14)
 
-1st—_ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (DC 13), _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon)_<sup>D</sup>, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_, _ [summon monster I](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i)_
+1st—_ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (DC 13), _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon)_D, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_, _ [summon monster I](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i)_
 
 0 (at will)—_ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [purify food and drink](/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_
 
@@ -380,11 +380,11 @@ Offense
 
 **Cleric Spells Prepared** (CL 6th; concentration +9)
 
-3rd—_ [locate object](/pathfinderRPG/prd/spells/locateObject.html#_locate-object)_, _ [searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_, _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_<sup>D</sup>, _ [summon monster III](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iii)_
+3rd—_ [locate object](/pathfinderRPG/prd/spells/locateObject.html#_locate-object)_, _ [searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_, _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_D, _ [summon monster III](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iii)_
 
-2nd—_ [aid](/pathfinderRPG/prd/spells/aid.html#_aid)_, _calm emotion s_<sup>D</sup> (DC 15), _ [eagle's splendor](/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor)_, _ [sound burst](/pathfinderRPG/prd/spells/soundBurst.html#_sound-burst)_ (DC 15), _ [zone of truth](/pathfinderRPG/prd/spells/zoneOfTruth.html#_zone-of-truth)_ (DC 15)
+2nd—_ [aid](/pathfinderRPG/prd/spells/aid.html#_aid)_, _calm emotion s_D (DC 15), _ [eagle's splendor](/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor)_, _ [sound burst](/pathfinderRPG/prd/spells/soundBurst.html#_sound-burst)_ (DC 15), _ [zone of truth](/pathfinderRPG/prd/spells/zoneOfTruth.html#_zone-of-truth)_ (DC 15)
 
-1st—_ [bless water](/pathfinderRPG/prd/spells/blessWater.html#_bless-water)_, _ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_<sup>D</sup> (DC 14), _ [comprehend languages](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages)_, _ [detect undead](/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead)_, _ [hide from undead](/pathfinderRPG/prd/spells/hideFromUndead.html#_hide-from-undead)_
+1st—_ [bless water](/pathfinderRPG/prd/spells/blessWater.html#_bless-water)_, _ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_D (DC 14), _ [comprehend languages](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages)_, _ [detect undead](/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead)_, _ [hide from undead](/pathfinderRPG/prd/spells/hideFromUndead.html#_hide-from-undead)_
 
 0 (at will)—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [virtue](/pathfinderRPG/prd/spells/virtue.html#_virtue)_
 
@@ -454,13 +454,13 @@ Offense
 
 **Cleric Spells Prepared** (CL 7th; concentration +10)
 
-4th—_ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 18), _ [shadow conjuration](/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration)_<sup>D</sup> (DC 17)
+4th—_ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 18), _ [shadow conjuration](/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration)_D (DC 17)
 
-3rd—_ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ (DC 17), _ [contagion](/pathfinderRPG/prd/spells/contagion.html#_contagion)_ (DC 17), _ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_<sup>D</sup>, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_
+3rd—_ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ (DC 17), _ [contagion](/pathfinderRPG/prd/spells/contagion.html#_contagion)_ (DC 17), _ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_D, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_
 
-2nd—_ [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_<sup>D</sup> (blindness only, DC 16), _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [desecrate](/pathfinderRPG/prd/spells/desecrate.html#_desecrate)_, _ [eagle's splendor](/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor)_, _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ (DC 15)
+2nd—_ [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_D (blindness only, DC 16), _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [desecrate](/pathfinderRPG/prd/spells/desecrate.html#_desecrate)_, _ [eagle's splendor](/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor)_, _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ (DC 15)
 
-1st—_cause fea r_<sup>D</sup> (2, DC 15), _ [deathwatch](/pathfinderRPG/prd/spells/deathwatch.html#_deathwatch)_, _ [doom](/pathfinderRPG/prd/spells/doom.html#_doom)_ (DC 15), _ [magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon)_, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_
+1st—_cause fea r_D (2, DC 15), _ [deathwatch](/pathfinderRPG/prd/spells/deathwatch.html#_deathwatch)_, _ [doom](/pathfinderRPG/prd/spells/doom.html#_doom)_ (DC 15), _ [magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon)_, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_
 
 0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 14), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_
 
@@ -534,13 +534,13 @@ Offense
 
 **Cleric Spells Prepared** (CL 8th; concentration +10)
 
-4th—_ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 16), _ [divine power](/pathfinderRPG/prd/spells/divinePower.html#_divine-power)_, _ [unholy](/pathfinderRPG/prd/magicItems/weapons.html#_unholy) bligh t_<sup>D</sup> (DC 16)
+4th—_ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 16), _ [divine power](/pathfinderRPG/prd/spells/divinePower.html#_divine-power)_, _ [unholy](/pathfinderRPG/prd/magicItems/weapons.html#_unholy) bligh t_D (DC 16)
 
-3rd—_ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (DC 15), _rag e_<sup>D</sup>
+3rd—_ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (DC 15), _rag e_D
 
-2nd—_ [align weapon](/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon)_<sup>D</sup> (evil weapons only), _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_ (2)
+2nd—_ [align weapon](/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon)_D (evil weapons only), _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_ (2)
 
-1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ (DC 13), _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [protection from good](/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good)_, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_<sup>D</sup>
+1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ (DC 13), _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [protection from good](/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good)_, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_D
 
 0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 12), _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_
 
@@ -616,9 +616,9 @@ Offense
 
 5th—_ [slay living](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)_ D (2, DC 21)
 
-4th—_death war d_<sup>D</sup>, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 20), _ [spell immunity](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity)_
+4th—_death war d_D, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 20), _ [spell immunity](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity)_
 
-3rd—_ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ (DC 19), _ [contagion](/pathfinderRPG/prd/spells/contagion.html#_contagion)_ (2, DC 19), _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_<sup>D</sup>, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_
+3rd—_ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ (DC 19), _ [contagion](/pathfinderRPG/prd/spells/contagion.html#_contagion)_ (2, DC 19), _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_D, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_
 
 2nd—_ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [death knell](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell)_ D (DC 18), _ [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_ (DC 16), _ [desecrate](/pathfinderRPG/prd/spells/desecrate.html#_desecrate)_, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (DC 16)
 
@@ -694,15 +694,15 @@ Offense
 
 **Cleric Spells Prepared** (CL 10th; concentration +14)
 
-5th—_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 19), _ [righteous](/pathfinderRPG/prd/advanced/magicItems/armor.html#righteous) migh t_<sup>D</sup>, _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_
+5th—_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 19), _ [righteous](/pathfinderRPG/prd/advanced/magicItems/armor.html#righteous) migh t_D, _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_
 
-4th—_ [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_<sup>D</sup> (DC 18), _ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_, _ [summon monster IV](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv)_ (2), _ [unholy blight](/pathfinderRPG/prd/spells/unholyBlight.html#_unholy-blight)_ (DC 18)
+4th—_ [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_D (DC 18), _ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_, _ [summon monster IV](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv)_ (2), _ [unholy blight](/pathfinderRPG/prd/spells/unholyBlight.html#_unholy-blight)_ (DC 18)
 
-3rd—_ [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_, _ [magic circle against good](/pathfinderRPG/prd/spells/magicCircleAgainstGood.html#_magic-circle-against-good)_, _magic vestmen t_<sup>D</sup>, _ [summon monster III](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iii)_, _ [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_
+3rd—_ [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_, _ [magic circle against good](/pathfinderRPG/prd/spells/magicCircleAgainstGood.html#_magic-circle-against-good)_, _magic vestmen t_D, _ [summon monster III](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iii)_, _ [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_
 
-2nd—_ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_<sup>D</sup>, _ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [shield other](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)_, _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ (DC 16), _ [summon monster II](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ii)_
+2nd—_ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_D, _ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [shield other](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)_, _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ (DC 16), _ [summon monster II](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ii)_
 
-1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ (DC 15), _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (DC 15), _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_<sup>D</sup> (DC 15)
+1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ (DC 15), _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (DC 15), _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_D (DC 15)
 
 0 (at will)—_ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_
 
@@ -778,17 +778,17 @@ Offense
 
 **Cleric Spells Prepared** (CL 11th; concentration +16)
 
-6th—_ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_ (DC 23), _ [fire seeds](/pathfinderRPG/prd/spells/fireSeeds.html#_fire-seeds)_<sup>D</sup>
+6th—_ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_ (DC 23), _ [fire seeds](/pathfinderRPG/prd/spells/fireSeeds.html#_fire-seeds)_D
 
-5th—_fire shiel d_<sup>D</sup>, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 22), _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_
+5th—_fire shiel d_D, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 22), _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_
 
-4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [dismissal](/pathfinderRPG/prd/spells/dismissal.html#_dismissal)_ (DC 19), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_<sup>D</sup>
+4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [dismissal](/pathfinderRPG/prd/spells/dismissal.html#_dismissal)_ (DC 19), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_D
 
-3rd—_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _firebal l_<sup>D</sup> (DC 20), _ [glyph of warding](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)_, _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_, _ [water walk](/pathfinderRPG/prd/spells/waterWalk.html#_water-walk)_
+3rd—_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _firebal l_D (DC 20), _ [glyph of warding](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)_, _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_, _ [water walk](/pathfinderRPG/prd/spells/waterWalk.html#_water-walk)_
 
-2nd—_ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 17), _ [produce flame](/pathfinderRPG/prd/spells/produceFlame.html#_produce-flame)_<sup>D</sup>, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (2, DC 17), _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ (DC 17)
+2nd—_ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 17), _ [produce flame](/pathfinderRPG/prd/spells/produceFlame.html#_produce-flame)_D, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (2, DC 17), _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ (DC 17)
 
-1st—_ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_<sup>D</sup> (DC 18), _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (2, DC 16), _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon)_
+1st—_ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_D (DC 18), _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (2, DC 16), _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon)_
 
 0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 15), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [virtue](/pathfinderRPG/prd/spells/virtue.html#_virtue)_
 
@@ -858,17 +858,17 @@ At will—charming smile (12 rounds/day, DC 21), master's illusion (12 rounds/da
 
 **Cleric Spells Prepared** (CL 12th; concentration +17)
 
-6th—_geas/ques t_<sup>D</sup>, _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
+6th—_geas/ques t_D, _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
 
-5th—_ [breath of life](/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life)_, _charm monste r_<sup>D</sup> (DC 22), _ [greater command](/pathfinderRPG/prd/spells/command.html#_command-greater)_ (DC 22), _ [slay living](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)_ (DC 20), _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance) _
+5th—_ [breath of life](/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life)_, _charm monste r_D (DC 22), _ [greater command](/pathfinderRPG/prd/spells/command.html#_command-greater)_ (DC 22), _ [slay living](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)_ (DC 20), _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance) _
 
-4th—_ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 19), _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [discern lies](/pathfinderRPG/prd/spells/discernLies.html#_discern-lies)_ (DC 19), _ [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_<sup>D</sup>, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 19)
+4th—_ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 19), _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [discern lies](/pathfinderRPG/prd/spells/discernLies.html#_discern-lies)_ (DC 19), _ [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_D, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 19)
 
-3rd—_ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [magic vestment](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment)_, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (DC 18), _ [searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_, _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_<sup>D</sup> (DC 20)
+3rd—_ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [magic vestment](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment)_, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (DC 18), _ [searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_, _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_D (DC 20)
 
-2nd—_ [calm emotions](/pathfinderRPG/prd/spells/calmEmotions.html#_calm-emotions)_ (DC 19), _ [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_ (DC 17), _ [enthrall](/pathfinderRPG/prd/spells/enthrall.html#_enthrall)_ (DC 19), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (2, DC 19), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_<sup>D</sup>
+2nd—_ [calm emotions](/pathfinderRPG/prd/spells/calmEmotions.html#_calm-emotions)_ (DC 19), _ [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_ (DC 17), _ [enthrall](/pathfinderRPG/prd/spells/enthrall.html#_enthrall)_ (DC 19), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (2, DC 19), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_D
 
-1st—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_<sup>D</sup> (DC 18), _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [hide from undead](/pathfinderRPG/prd/spells/hideFromUndead.html#_hide-from-undead)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [remove fear](/pathfinderRPG/prd/spells/removeFear.html#_remove-fear)_
+1st—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_D (DC 18), _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [hide from undead](/pathfinderRPG/prd/spells/hideFromUndead.html#_hide-from-undead)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [remove fear](/pathfinderRPG/prd/spells/removeFear.html#_remove-fear)_
 
 0 (at will)—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_, _ [purify food and drink](/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink)_
 
@@ -944,17 +944,17 @@ Offense
 
 **Cleric Spells Prepared** (CL 13th; concentration +16)
 
-7th—_power word blin d_<sup>D</sup>, _ [word of chaos](/pathfinderRPG/prd/spells/wordOfChaos.html#_word-of-chaos)_
+7th—_power word blin d_D, _ [word of chaos](/pathfinderRPG/prd/spells/wordOfChaos.html#_word-of-chaos)_
 
-6th—_ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [mass bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength-mass)_, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_<sup>D</sup>
+6th—_ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [mass bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength-mass)_, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_D
 
-5th—_ [breath of life](/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 18), _ [righteous](/pathfinderRPG/prd/advanced/magicItems/armor.html#righteous) migh t_<sup>D</sup>, _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_
+5th—_ [breath of life](/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 18), _ [righteous](/pathfinderRPG/prd/advanced/magicItems/armor.html#righteous) migh t_D, _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_
 
-4th—_ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 17), _ [dismissal](/pathfinderRPG/prd/spells/dismissal.html#_dismissal)_ (DC 17), _divine powe r_<sup>D</sup>, _ [restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration)_, _ [spell immunity](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity)_
+4th—_ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 17), _ [dismissal](/pathfinderRPG/prd/spells/dismissal.html#_dismissal)_ (DC 17), _divine powe r_D, _ [restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration)_, _ [spell immunity](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity)_
 
-3rd—_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_ (2), _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _magic vestmen t_<sup>D</sup>, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_, _ [wind wall](/pathfinderRPG/prd/spells/windWall.html#_wind-wall)_
+3rd—_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_ (2), _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _magic vestmen t_D, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_, _ [wind wall](/pathfinderRPG/prd/spells/windWall.html#_wind-wall)_
 
-2nd—_ [aid](/pathfinderRPG/prd/spells/aid.html#_aid)_, _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_ (DC 15), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 15), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (DC 15), _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_<sup>D</sup>
+2nd—_ [aid](/pathfinderRPG/prd/spells/aid.html#_aid)_, _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_ (DC 15), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 15), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (DC 15), _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_D
 
 1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ (DC 14), _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _ [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_ D (DC 14), _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_
 
@@ -1034,17 +1034,17 @@ Offense
 
 7th—_ [destruction](/pathfinderRPG/prd/spells/destruction.html#_destruction)_ (DC 23), _ [repulsion](/pathfinderRPG/prd/spells/repulsion.html#_repulsion)_ D (DC 23), _ [summon monster VII](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vii)_
 
-6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, _antimagic fiel d_<sup>D</sup>, _ [banishment](/pathfinderRPG/prd/spells/banishment.html#_banishment)_ (DC 22), _ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_ (DC 22), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_
+6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, _antimagic fiel d_D, _ [banishment](/pathfinderRPG/prd/spells/banishment.html#_banishment)_ (DC 22), _ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_ (DC 22), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_
 
-5th—_ [breath of life](/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life)_, _ [greater command](/pathfinderRPG/prd/spells/command.html#_command-greater)_ (DC 21), _ [mark of justice](/pathfinderRPG/prd/spells/markOfJustice.html#_mark-of-justice)_, _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_<sup>D</sup>, _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_
+5th—_ [breath of life](/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life)_, _ [greater command](/pathfinderRPG/prd/spells/command.html#_command-greater)_ (DC 21), _ [mark of justice](/pathfinderRPG/prd/spells/markOfJustice.html#_mark-of-justice)_, _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_D, _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_
 
-4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _ [death ward](/pathfinderRPG/prd/spells/deathWard.html#_death-ward)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_<sup>D</sup>, _ [neutralize poison](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison)_, _ [order's wrath](/pathfinderRPG/prd/spells/orderSWrath.html#_order-s-wrath)_ (DC 20), _ [repel vermin](/pathfinderRPG/prd/spells/repelVermin.html#_repel-vermin)_
+4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _ [death ward](/pathfinderRPG/prd/spells/deathWard.html#_death-ward)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_D, _ [neutralize poison](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison)_, _ [order's wrath](/pathfinderRPG/prd/spells/orderSWrath.html#_order-s-wrath)_ (DC 20), _ [repel vermin](/pathfinderRPG/prd/spells/repelVermin.html#_repel-vermin)_
 
 3rd—_ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ (DC 19), _ [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_ (DC 19), _ [glyph of warding](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)_ (2), _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ D (DC 19)
 
-2nd—_ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_ (DC 18), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (2, DC 18), _ [remove paralysis](/pathfinderRPG/prd/spells/removeParalysis.html#_remove-paralysis)_, _ [shield other](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)_<sup>D</sup>
+2nd—_ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_ (DC 18), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (2, DC 18), _ [remove paralysis](/pathfinderRPG/prd/spells/removeParalysis.html#_remove-paralysis)_, _ [shield other](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)_D
 
-1st—_ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ (2, DC 17), _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (DC 17), _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [sanctuary](/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary)_ (DC 17), _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_<sup>D</sup>
+1st—_ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ (2, DC 17), _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (DC 17), _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [sanctuary](/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary)_ (DC 17), _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_D
 
 0 (at will)—_ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_, _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
 
@@ -1116,21 +1116,21 @@ Offense
 
 **Cleric Spells Prepared** (CL 15th; concentration +22)
 
-8th—_ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 26), _ [unholy aura](/pathfinderRPG/prd/spells/unholyAura.html#_unholy-aura)_<sup>D</sup>
+8th—_ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 26), _ [unholy aura](/pathfinderRPG/prd/spells/unholyAura.html#_unholy-aura)_D
 
-7th—_blasphem y_<sup>D</sup> (DC 25), _ [destruction](/pathfinderRPG/prd/spells/destruction.html#_destruction)_ (DC 24), _ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_
+7th—_blasphem y_D (DC 25), _ [destruction](/pathfinderRPG/prd/spells/destruction.html#_destruction)_ (DC 24), _ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_
 
-6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, _ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_ (DC 24), _create undea d_<sup>D</sup>, _ [harm](/pathfinderRPG/prd/spells/harm.html#_harm)_<sup>D</sup> (DC 23)
+6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, _ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_ (DC 24), _create undea d_D, _ [harm](/pathfinderRPG/prd/spells/harm.html#_harm)_D (DC 23)
 
-5th—_ [dispel good](/pathfinderRPG/prd/spells/dispelGood.html#_dispel-good)_, _ [greater command](/pathfinderRPG/prd/spells/command.html#_command-greater)_ (DC 22), _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 23), _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_, _ [righteous might](/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might)_, _ [slay living](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)_<sup>D</sup> (DC 22)
+5th—_ [dispel good](/pathfinderRPG/prd/spells/dispelGood.html#_dispel-good)_, _ [greater command](/pathfinderRPG/prd/spells/command.html#_command-greater)_ (DC 22), _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 23), _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_, _ [righteous might](/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might)_, _ [slay living](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)_D (DC 22)
 
-4th—_ [divine power](/pathfinderRPG/prd/spells/divinePower.html#_divine-power)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [giant vermin](/pathfinderRPG/prd/spells/giantVermin.html#_giant-vermin)_, _ [greater magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater)_, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 21), _ [unholy](/pathfinderRPG/prd/magicItems/weapons.html#_unholy) bligh t_<sup>D</sup> (DC 22)
+4th—_ [divine power](/pathfinderRPG/prd/spells/divinePower.html#_divine-power)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [giant vermin](/pathfinderRPG/prd/spells/giantVermin.html#_giant-vermin)_, _ [greater magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater)_, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 21), _ [unholy](/pathfinderRPG/prd/magicItems/weapons.html#_unholy) bligh t_D (DC 22)
 
-3rd—_animate dea d_<sup>D</sup>, _ [contagion](/pathfinderRPG/prd/spells/contagion.html#_contagion)_ (2, DC 20), _ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [wind wall](/pathfinderRPG/prd/spells/windWall.html#_wind-wall)_
+3rd—_animate dea d_D, _ [contagion](/pathfinderRPG/prd/spells/contagion.html#_contagion)_ (2, DC 20), _ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [wind wall](/pathfinderRPG/prd/spells/windWall.html#_wind-wall)_
 
-2nd—_ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [death knell](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell)_<sup>D</sup> (DC 19), _ [desecrate](/pathfinderRPG/prd/spells/desecrate.html#_desecrate)_, _ [gentle repose](/pathfinderRPG/prd/spells/gentleRepose.html#_gentle-repose)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 19), _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_
+2nd—_ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [death knell](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell)_D (DC 19), _ [desecrate](/pathfinderRPG/prd/spells/desecrate.html#_desecrate)_, _ [gentle repose](/pathfinderRPG/prd/spells/gentleRepose.html#_gentle-repose)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 19), _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_
 
-1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ (DC 18), _cause fea r_<sup>D</sup> (DC 18), _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [doom](/pathfinderRPG/prd/spells/doom.html#_doom)_ (2, DC 18), _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_
+1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ (DC 18), _cause fea r_D (DC 18), _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [doom](/pathfinderRPG/prd/spells/doom.html#_doom)_ (2, DC 18), _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_
 
 0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 17), _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_, _ [virtue](/pathfinderRPG/prd/spells/virtue.html#_virtue)_
 
@@ -1204,19 +1204,19 @@ Offense
 
 8th—_ [horrid wilting](/pathfinderRPG/prd/spells/horridWilting.html#_horrid-wilting)_ D (DC 25), _ [summon monster VIII](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-viii)_ (2)
 
-7th—_ [elemental body I](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i) V_<sup>D</sup> (air only), _ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_, _ [repulsion](/pathfinderRPG/prd/spells/repulsion.html#_repulsion)_ (DC 24), _ [summon monster VII](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vii)_ (2)
+7th—_ [elemental body I](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i) V_D (air only), _ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_, _ [repulsion](/pathfinderRPG/prd/spells/repulsion.html#_repulsion)_ (DC 24), _ [summon monster VII](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vii)_ (2)
 
 6th—_ [banishment](/pathfinderRPG/prd/spells/banishment.html#_banishment)_ (DC 23), _ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_ D (DC 23), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [summon monster VI](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi)_, _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
 
-5th—_ [breath of life](/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life)_, _ [greater command](/pathfinderRPG/prd/spells/command.html#_command-greater)_ (DC 22), _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_<sup>D</sup>, _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ (DC 23), _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_, _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_
+5th—_ [breath of life](/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life)_, _ [greater command](/pathfinderRPG/prd/spells/command.html#_command-greater)_ (DC 22), _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_D, _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ (DC 23), _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_, _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_
 
-4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_<sup>D</sup>, _ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 21), _ [dismissal](/pathfinderRPG/prd/spells/dismissal.html#_dismissal)_ (DC 21), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [summon monster IV](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv)_ (2)
+4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_D, _ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 21), _ [dismissal](/pathfinderRPG/prd/spells/dismissal.html#_dismissal)_ (DC 21), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [summon monster IV](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv)_ (2)
 
-3rd—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (DC 20), _ [remove blindness/deafness](/pathfinderRPG/prd/spells/removeBlindnessDeafness.html#_remove-blindness-deafness)_, _ [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_<sup>D</sup>, _ [wind wall](/pathfinderRPG/prd/spells/windWall.html#_wind-wall)_
+3rd—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (DC 20), _ [remove blindness/deafness](/pathfinderRPG/prd/spells/removeBlindnessDeafness.html#_remove-blindness-deafness)_, _ [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_D, _ [wind wall](/pathfinderRPG/prd/spells/windWall.html#_wind-wall)_
 
-2nd—_ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 19), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (DC 19), _ [shatter](/pathfinderRPG/prd/spells/shatter.html#_shatter)_, _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_, _wind wal l_<sup>D</sup>
+2nd—_ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 19), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (DC 19), _ [shatter](/pathfinderRPG/prd/spells/shatter.html#_shatter)_, _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_, _wind wal l_D
 
-1st—_ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (2, DC 18), _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _obscuring mis t_<sup>D</sup>, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_
+1st—_ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (2, DC 18), _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _obscuring mis t_D, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_
 
 0 (at will)—_ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_
 
@@ -1280,23 +1280,23 @@ Offense
 
 **Cleric Spells Prepared** (CL 17th; concentration +22)
 
-9th—_power word kil l_<sup>D</sup>, _ [storm of vengeance](/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance)_
+9th—_power word kil l_D, _ [storm of vengeance](/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance)_
 
-8th—_ [earthquake](/pathfinderRPG/prd/spells/earthquake.html#_earthquake)_, _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 23), _ [power word stun](/pathfinderRPG/prd/spells/powerWordStun.html#_power-word-stun)_<sup>D</sup>
+8th—_ [earthquake](/pathfinderRPG/prd/spells/earthquake.html#_earthquake)_, _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 23), _ [power word stun](/pathfinderRPG/prd/spells/powerWordStun.html#_power-word-stun)_D
 
-7th—_ [blasphemy](/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy)_<sup>D</sup> (DC 22), _ [destruction](/pathfinderRPG/prd/spells/destruction.html#_destruction)_ (2, DC 22), _ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_
+7th—_ [blasphemy](/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy)_D (DC 22), _ [destruction](/pathfinderRPG/prd/spells/destruction.html#_destruction)_ (2, DC 22), _ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_
 
-6th—_ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_<sup>D</sup> (DC 21), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [harm](/pathfinderRPG/prd/spells/harm.html#_harm)_ (DC 21), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [mass bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength-mass)_
+6th—_ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_D (DC 21), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [harm](/pathfinderRPG/prd/spells/harm.html#_harm)_ (DC 21), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [mass bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength-mass)_
 
 5th—_ [dispel good](/pathfinderRPG/prd/spells/dispelGood.html#_dispel-good)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ D (DC 20), _ [righteous might](/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might)_, _ [slay living](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)_ (2, DC 20), _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_
 
-4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 19), _ [death ward](/pathfinderRPG/prd/spells/deathWard.html#_death-ward)_, _divine powe r_<sup>D</sup>, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 19), _ [unholy blight](/pathfinderRPG/prd/spells/unholyBlight.html#_unholy-blight)_ (DC 19)
+4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 19), _ [death ward](/pathfinderRPG/prd/spells/deathWard.html#_death-ward)_, _divine powe r_D, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 19), _ [unholy blight](/pathfinderRPG/prd/spells/unholyBlight.html#_unholy-blight)_ (DC 19)
 
-3rd—_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _magic circle against goo d_<sup>D</sup>, _ [meld into stone](/pathfinderRPG/prd/spells/meldIntoStone.html#_meld-into-stone)_, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_
+3rd—_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _magic circle against goo d_D, _ [meld into stone](/pathfinderRPG/prd/spells/meldIntoStone.html#_meld-into-stone)_, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_
 
-2nd—_ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [death knell](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell)_ (DC 17), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (2, DC 17), _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_<sup>D</sup>
+2nd—_ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [death knell](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell)_ (DC 17), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (2, DC 17), _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_D
 
-1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ (DC 16), _ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ (2, DC 16), _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [doom](/pathfinderRPG/prd/spells/doom.html#_doom)_ (DC 16), _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_<sup>D</sup>
+1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ (DC 16), _ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ (2, DC 16), _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [doom](/pathfinderRPG/prd/spells/doom.html#_doom)_ (DC 16), _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_D
 
 0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 15), _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_
 
@@ -1368,23 +1368,23 @@ At will—master's illusion (18 rounds/day, DC 27)
 
 **Cleric Spells Prepared** (CL 18th; concentration +24)
 
-9th—_ [energy drain](/pathfinderRPG/prd/spells/energyDrain.html#_energy-drain)_ (DC 25), _ [implosion](/pathfinderRPG/prd/spells/implosion.html#_implosion)_ (DC 25), _ [time stop](/pathfinderRPG/prd/spells/timeStop.html#_time-stop)_<sup>D</sup>
+9th—_ [energy drain](/pathfinderRPG/prd/spells/energyDrain.html#_energy-drain)_ (DC 25), _ [implosion](/pathfinderRPG/prd/spells/implosion.html#_implosion)_ (DC 25), _ [time stop](/pathfinderRPG/prd/spells/timeStop.html#_time-stop)_D
 
-8th—_ [antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_, _ [discern location](/pathfinderRPG/prd/spells/discernLocation.html#_discern-location)_, _ [greater spell immunity](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity-greater)_, _mass invisibilit y_<sup>D</sup>
+8th—_ [antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_, _ [discern location](/pathfinderRPG/prd/spells/discernLocation.html#_discern-location)_, _ [greater spell immunity](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity-greater)_, _mass invisibilit y_D
 
-7th—_ [blasphemy](/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy)_ (2, DC 23), _ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_, _ [screen](/pathfinderRPG/prd/spells/screen.html#_screen)_<sup>D</sup>
+7th—_ [blasphemy](/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy)_ (2, DC 23), _ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_, _ [screen](/pathfinderRPG/prd/spells/screen.html#_screen)_D
 
-6th—_ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_ (DC 22), _ [harm](/pathfinderRPG/prd/spells/harm.html#_harm)_ (DC 22), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _mislea d_<sup>D</sup>, _ [wind walk](/pathfinderRPG/prd/spells/windWalk.html#_wind-walk)_, _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
+6th—_ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_ (DC 22), _ [harm](/pathfinderRPG/prd/spells/harm.html#_harm)_ (DC 22), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _mislea d_D, _ [wind walk](/pathfinderRPG/prd/spells/windWalk.html#_wind-walk)_, _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
 
-5th—_ [dispel good](/pathfinderRPG/prd/spells/dispelGood.html#_dispel-good), [false vision](/pathfinderRPG/prd/spells/falseVision.html#_false-vision)_<sup>D</sup>, _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_, _ [slay living](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)_ (2, DC 21), _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_
+5th—_ [dispel good](/pathfinderRPG/prd/spells/dispelGood.html#_dispel-good), [false vision](/pathfinderRPG/prd/spells/falseVision.html#_false-vision)_D, _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_, _ [slay living](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)_ (2, DC 21), _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_
 
-4th—_ [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_<sup>D</sup> (DC 20), _ [divine power](/pathfinderRPG/prd/spells/divinePower.html#_divine-power)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [greater magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater)_ (2),_ [neutralize poison](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison)_
+4th—_ [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_D (DC 20), _ [divine power](/pathfinderRPG/prd/spells/divinePower.html#_divine-power)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [greater magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater)_ (2),_ [neutralize poison](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison)_
 
-3rd—_ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_, _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [magic vestment](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment)_, _meld with stone_, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 19), _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_<sup>D</sup>
+3rd—_ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_, _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [magic vestment](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment)_, _meld with stone_, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 19), _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_D
 
-2nd—_ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_ (DC 18), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 18), _invisibilit y_<sup>D</sup>, _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ (2, DC 18), _ [undetectable alignment](/pathfinderRPG/prd/spells/undetectableAlignment.html#_undetectable-alignment)_
+2nd—_ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_ (DC 18), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 18), _invisibilit y_D, _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ (2, DC 18), _ [undetectable alignment](/pathfinderRPG/prd/spells/undetectableAlignment.html#_undetectable-alignment)_
 
-1st—_ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ (DC 17), _ [comprehend languages](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages)_, _disguise sel f_<sup>D</sup>, _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_
+1st—_ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ (DC 17), _ [comprehend languages](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages)_, _disguise sel f_D, _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_
 
 0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 16), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_
 
@@ -1456,23 +1456,23 @@ Offense
 
 **Cleric Spells Prepared** (CL 19th; concentration +25)
 
-9th—_ [energy drain](/pathfinderRPG/prd/spells/energyDrain.html#_energy-drain)_ (DC 25), _ [etherealness](/pathfinderRPG/prd/magicItems/armor.html#_armor-etherealness)_, _ [implosion](/pathfinderRPG/prd/spells/implosion.html#_implosion)_ (DC 25), _ [wail of the banshee](/pathfinderRPG/prd/spells/wailOfTheBanshee.html#_wail-of-the-banshee)_<sup>D</sup> (DC 25)
+9th—_ [energy drain](/pathfinderRPG/prd/spells/energyDrain.html#_energy-drain)_ (DC 25), _ [etherealness](/pathfinderRPG/prd/magicItems/armor.html#_armor-etherealness)_, _ [implosion](/pathfinderRPG/prd/spells/implosion.html#_implosion)_ (DC 25), _ [wail of the banshee](/pathfinderRPG/prd/spells/wailOfTheBanshee.html#_wail-of-the-banshee)_D (DC 25)
 
-8th—_ [antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_, _create greater undea d_<sup>D</sup>, _ [earthquake](/pathfinderRPG/prd/spells/earthquake.html#_earthquake)_, _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 24)
+8th—_ [antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_, _create greater undea d_D, _ [earthquake](/pathfinderRPG/prd/spells/earthquake.html#_earthquake)_, _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 24)
 
-7th—_ [blasphemy](/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy)_ (2, DC 23), _ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_, _power word blin d_<sup>D</sup>_, [repulsion](/pathfinderRPG/prd/spells/repulsion.html#_repulsion)_ (DC 23)
+7th—_ [blasphemy](/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy)_ (2, DC 23), _ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_, _power word blin d_D_, [repulsion](/pathfinderRPG/prd/spells/repulsion.html#_repulsion)_ (DC 23)
 
-6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, _ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_ (DC 22), _ [harm](/pathfinderRPG/prd/spells/harm.html#_harm)_ (2, DC 22), _ [shadow walk](/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk)_<sup>D</sup> (DC 22), _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
+6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, _ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_ (DC 22), _ [harm](/pathfinderRPG/prd/spells/harm.html#_harm)_ (2, DC 22), _ [shadow walk](/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk)_D (DC 22), _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
 
-5th—_ [greater command](/pathfinderRPG/prd/spells/command.html#_command-greater)_ (DC 21), _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_, _ [slay living](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)_<sup>D</sup> (2), _ [unhallow](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)_, _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_
+5th—_ [greater command](/pathfinderRPG/prd/spells/command.html#_command-greater)_ (DC 21), _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_, _ [slay living](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)_D (2), _ [unhallow](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)_, _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_
 
-4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _death war d_<sup>D</sup>, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [greater magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater)_, _ [neutralize poison](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison)_, _ [unholy blight](/pathfinderRPG/prd/spells/unholyBlight.html#_unholy-blight)_ (DC 20)
+4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _death war d_D, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [greater magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater)_, _ [neutralize poison](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison)_, _ [unholy blight](/pathfinderRPG/prd/spells/unholyBlight.html#_unholy-blight)_ (DC 20)
 
-3rd—_ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_<sup>D</sup> (2), _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_ (2), _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [magic vestment](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment)_
+3rd—_ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_D (2), _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_ (2), _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [magic vestment](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment)_
 
-2nd—_ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _death knel l_<sup>D</sup> (DC 18), _ [desecrate](/pathfinderRPG/prd/spells/desecrate.html#_desecrate)_, _ [gentle repose](/pathfinderRPG/prd/spells/gentleRepose.html#_gentle-repose)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 18), _ [shield other](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)_, _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_
+2nd—_ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _death knel l_D (DC 18), _ [desecrate](/pathfinderRPG/prd/spells/desecrate.html#_desecrate)_, _ [gentle repose](/pathfinderRPG/prd/spells/gentleRepose.html#_gentle-repose)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 18), _ [shield other](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)_, _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_
 
-1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ (DC 17), _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _cause fea r_<sup>D</sup> (DC 17), _ [deathwatch](/pathfinderRPG/prd/spells/deathwatch.html#_deathwatch)_, _ [doom](/pathfinderRPG/prd/spells/doom.html#_doom)_ (DC 17), _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_
+1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ (DC 17), _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _cause fea r_D (DC 17), _ [deathwatch](/pathfinderRPG/prd/spells/deathwatch.html#_deathwatch)_, _ [doom](/pathfinderRPG/prd/spells/doom.html#_doom)_ (DC 17), _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_
 
 0 (at will)—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [virtue](/pathfinderRPG/prd/spells/virtue.html#_virtue)_
 
@@ -1542,23 +1542,23 @@ Offense
 
 **Cleric Spells Prepared** (CL 20th; concentration +25)
 
-9th—_ [elemental swarm](/pathfinderRPG/prd/spells/elementalSwarm.html#_elemental-swarm)_<sup>D</sup> (fire spell only), _ [energy drain](/pathfinderRPG/prd/spells/energyDrain.html#_energy-drain)_ (DC 24), _ [gate](/pathfinderRPG/prd/spells/gate.html#_gate)_, _ [implosion](/pathfinderRPG/prd/spells/implosion.html#_implosion)_ (DC 26), _ [summon monster IX](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ix)_
+9th—_ [elemental swarm](/pathfinderRPG/prd/spells/elementalSwarm.html#_elemental-swarm)_D (fire spell only), _ [energy drain](/pathfinderRPG/prd/spells/energyDrain.html#_energy-drain)_ (DC 24), _ [gate](/pathfinderRPG/prd/spells/gate.html#_gate)_, _ [implosion](/pathfinderRPG/prd/spells/implosion.html#_implosion)_ (DC 26), _ [summon monster IX](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ix)_
 
-8th—_ [antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_, _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 25), _incendiary clou d_<sup>D</sup> (DC 24),_ [summon monster VIII](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-viii)_, _ [unholy aura](/pathfinderRPG/prd/spells/unholyAura.html#_unholy-aura)_
+8th—_ [antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_, _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 25), _incendiary clou d_D (DC 24),_ [summon monster VIII](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-viii)_, _ [unholy aura](/pathfinderRPG/prd/spells/unholyAura.html#_unholy-aura)_
 
-7th—_ [blasphemy](/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy)_ (DC 24), _ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_, _ [greater restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-greater)_, _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_<sup>D</sup>, _ [summon monster VII](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vii)_
+7th—_ [blasphemy](/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy)_ (DC 24), _ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_, _ [greater restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-greater)_, _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_D, _ [summon monster VII](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vii)_
 
-6th—_antimagic fiel d_<sup>D</sup>, _ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_ (2, DC 23), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_ (2)
+6th—_antimagic fiel d_D, _ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_ (2, DC 23), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_ (2)
 
-5th—_ [break enchantment](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment)_, _ [dispel good](/pathfinderRPG/prd/spells/dispelGood.html#_dispel-good)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 22), _ [greater command](/pathfinderRPG/prd/spells/command.html#_command-greater)_ (DC 20), _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_, _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_<sup>D</sup>
+5th—_ [break enchantment](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment)_, _ [dispel good](/pathfinderRPG/prd/spells/dispelGood.html#_dispel-good)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 22), _ [greater command](/pathfinderRPG/prd/spells/command.html#_command-greater)_ (DC 20), _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_, _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_D
 
-4th—_ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_, _ [dimensional anchor](/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional)_, _ [dismissal](/pathfinderRPG/prd/spells/dismissal.html#_dismissal)_ (DC 19), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [unholy blight](/pathfinderRPG/prd/spells/unholyBlight.html#_unholy-blight)_ (DC 21), _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_<sup>D</sup>
+4th—_ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_, _ [dimensional anchor](/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional)_, _ [dismissal](/pathfinderRPG/prd/spells/dismissal.html#_dismissal)_ (DC 19), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [unholy blight](/pathfinderRPG/prd/spells/unholyBlight.html#_unholy-blight)_ (DC 21), _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_D
 
-3rd—_ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ (DC 18), _firebal l_<sup>D</sup> (DC 20), _ [magic vestment](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment)_ (2), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (2, DC 18)
+3rd—_ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ (DC 18), _firebal l_D (DC 20), _ [magic vestment](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment)_ (2), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (2, DC 18)
 
-2nd—_ [align weapon](/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon)_, _ [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 17), _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_, _ [produce flame](/pathfinderRPG/prd/spells/produceFlame.html#_produce-flame)_<sup>D</sup>, _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_
+2nd—_ [align weapon](/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon)_, _ [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 17), _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_, _ [produce flame](/pathfinderRPG/prd/spells/produceFlame.html#_produce-flame)_D, _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_
 
-1st—_ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_<sup>D</sup> (DC 18), _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (3, DC 16), _ [doom](/pathfinderRPG/prd/spells/doom.html#_doom)_ (DC 16), _ [sanctuary](/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary)_ (DC 16)
+1st—_ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_D (DC 18), _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (3, DC 16), _ [doom](/pathfinderRPG/prd/spells/doom.html#_doom)_ (DC 16), _ [sanctuary](/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary)_ (DC 16)
 
 0 (at will)—_ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_
 

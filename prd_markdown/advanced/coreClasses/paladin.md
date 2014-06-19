@@ -78,7 +78,7 @@ At 20th level, the nimbus of light increases in size out to a range of 60 feet. 
 
 # Antipaladin (Alternate Class)
 
-<caption>Fall From Grace</caption>| Not all paladins that fall become antipaladins. In fact, the transformation is quite rare. Most paladins spend months or even years regaining their paladinhood, but they never stray so far from the path as to become irredeemable. Rarely, a paladin turns from the light and seeks instead to make a pact with the dark powers. Often this is through temptation or some sort of ruse, but once the deal is struck, the paladin finds himself on the path to damnation. |
+[Fall From Grace]| Not all paladins that fall become antipaladins. In fact, the transformation is quite rare. Most paladins spend months or even years regaining their paladinhood, but they never stray so far from the path as to become irredeemable. Rarely, a paladin turns from the light and seeks instead to make a pact with the dark powers. Often this is through temptation or some sort of ruse, but once the deal is struck, the paladin finds himself on the path to damnation. |
 | When such a fall occurs, the transformation can be swift. The paladin trades in all of his paladin levels for antipaladin levels on a 1-for-1 basis. This is usually a traumatic experience, involving a complex ritual that involves a living sacrifice and dark oaths made to foul powers (who sometimes send minions to bear witness). Once complete, the anitpaladin emerges, ready to bring ruin to the world. |
 | It should be noted that not all antipaladins are fallen heroes. Some warriors are trained from a young age to assume the mantle of antipaladin, forged through pain and trauma into exemplars of evil. These cruel warriors know nothing of compassion or loyalty, but they can teach a great deal about pain and suffering. |
 
@@ -102,23 +102,12 @@ The antipaladin's class skills are [Bluff](../../skills/bluff.html#_bluff) (Cha)
 
 **Skill Ranks per Level** : 2 + Int modifier.
 
-<caption>Table: Antipaladin</caption><thead>
-<tr id="level-bonus-save-save-save-special-1st-2nd-3rd-4th">
-<th rowspan="2">Level</th>
-<th rowspan="2">Base Attack Bonus</th>
-<th rowspan="2">Fort Save</th>
-<th rowspan="2">Ref Save</th>
-<th rowspan="2">Will Save</th>
-<th rowspan="2">Special</th>
-<th colspan="4">Spells per Day</th>
-</tr>
-<tr>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-</tr>
-</thead>| 1st | +1 | +2 | +0 | +2 | Aura of evil_, _detect good, smite good 1/day | — | — | — | — |
+[Table: Antipaladin]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | 2nd | 3rd | 4th |
+| --- | --- | --- | --- |
+| 1st | +1 | +2 | +0 | +2 | Aura of evil_, _detect good, smite good 1/day | — | — | — | — |
 | 2nd | +2 | +3 | +0 | +3 | Touch of corruption, unholy resilience | — | — | — | — |
 | 3rd | +3 | +3 | +1 | +3 | Aura of cowardice, cruelty, plague bringer | — | — | — | — |
 | 4th | +4 | +4 | +1 | +4 | Channel negative energy, smite good 2/day | 0 | — | — | — |

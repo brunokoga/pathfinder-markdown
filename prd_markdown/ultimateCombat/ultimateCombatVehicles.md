@@ -92,10 +92,10 @@ Vehicles have sizes and spaces different from creature sizes and spaces. Many ve
 
 **Driving Space** : At least one 5-foot-by-5-foot square on each vehicle must be designated as its driving space—often such an area encompasses multiple squares. In order to drive a vehicle, an intelligent creature must be within at least one square of the driving space and able to manipulate its driving device. The typical sizes and locations of driving spaces are detailed in the individual vehicle descriptions.
 
-<caption>Table: Vehicle Size by Squares</caption><thead><tr>
-<th>Vehicle Squares</th>
-<th>Vehicle Size</th>
-</tr></thead>| 2–6 squares | Large vehicle |
+[Table: Vehicle Size by Squares]
+| Vehicle Squares | Vehicle Size |
+| --- | --- |
+| 2–6 squares | Large vehicle |
 | 7–12 squares | Huge vehicle |
 | 13–20 squares | Gargantuan vehicle |
 | 21+ | Colossal vehicle |
@@ -242,10 +242,10 @@ If the vehicle making the ramming maneuver is a muscle-propelled (pulled) vehicl
   
   
 
-<caption>Table: Ramming Damage by Size</caption><thead><tr>
-<th>Vehicle Size</th>
-<th>Damage</th>
-</tr></thead>| Large vehicle | 1d8 |
+[Table: Ramming Damage by Size]
+| Vehicle Size | Damage |
+| --- | --- |
+| Large vehicle | 1d8 |
 | Huge vehicle | 2d8 |
 | Gargantuan vehicle | 4d8 |
 | Colossal vehicle | 8d8 |
@@ -254,11 +254,10 @@ If the vehicle making the ramming maneuver is a muscle-propelled (pulled) vehicl
 
 A vehicle has a total number of hit points equal to its base material hit point value times its vehicle's number of squares. When it is reduced to below half hit points, it becomes broken. When it reaches 0 hit points, it becomes wrecked. When it reaches negative hit points equal to its number of squares, it is destroyed—it is so damaged it cannot even be used for scrap material.
 
-<caption>Table: Vehicle Hit Points by Material</caption><thead><tr>
-<th>Material</th>
-<th>Hit Points per Square</th>
-<th>Hardness</th>
-</tr></thead>| Leather | 10 | 0 |
+[Table: Vehicle Hit Points by Material]
+| Material | Hit Points per Square | Hardness |
+| --- | --- | --- |
+| Leather | 10 | 0 |
 | Wood | 15 | 5 |
 | Stone | 20 | 8 |
 | Metal | 20 | 10 |
@@ -315,11 +314,10 @@ Below are explanations of some of the traits noted in vehicle statistics. If inf
 
 **CMB and CMD** : The CMB an CMD before the driver modifies it with his driving check modifier.
 
-<caption>Table: Vehicle AC and CMB Modifier by Size</caption><thead><tr>
-<th>Number of Vehicle Squares</th>
-<th>AC</th>
-<th>CMB Modifier</th>
-</tr></thead>| Large vehicle | 9 | +1 |
+[Table: Vehicle AC and CMB Modifier by Size]
+| Number of Vehicle Squares | AC | CMB Modifier |
+| --- | --- | --- |
+| Large vehicle | 9 | +1 |
 | Huge vehicle | 8 | +2 |
 | Gargantuan vehicle | 6 | +4 |
 | Colossal vehicle | 2 | +8 |
@@ -1136,11 +1134,9 @@ Squares of propulsion devices have their own statistics, separate from the vehic
 
 **Sails** : Used on magically or alchemically powered airships and on any fast-moving water vehicle, sails are often weaker than the vessels they propel, though they are relatively easy to repair. Taking out the sails is a good way to capture a vessel. Sails have 5 hit points per square and no hardness. They take double the normal damage from acid and fire attacks (multiply the damage roll by 2). While the sails have rigging, such rigging manipulated by the crew, and as such are not considered not driving devices.
 
-<thead><tr>
-<th>Material</th>
-<th>Hit Points per Square</th>
-<th>Hardness</th>
-</tr></thead>| Sails | 5 | 0 |
+| Material | Hit Points per Square | Hardness |
+| --- | --- | --- |
+| Sails | 5 | 0 |
 | Dirigible | 5 | 0 |
 | Alchemical Engine | 20 | 8 |
 | Magically Treated | ×2 | ×2 |
@@ -1149,12 +1145,9 @@ Squares of propulsion devices have their own statistics, separate from the vehic
 
 The following are some of the typical driving devices for vehicles, plus their usual Armor Class, hit points, and hardness. A broken driving device increases the driving check of the vehicle by 10. When a driving device is destroyed, a vehicle cannot be driven until the driving device is repaired.
 
-<thead><tr>
-<th>Driving Device</th>
-<th>AC</th>
-<th>Hit Points</th>
-<th>Hardness</th>
-</tr></thead>| Reins | 14 | 10 | 0 |
+| Driving Device | AC | Hit Points | Hardness |
+| --- | --- | --- | --- |
+| Reins | 14 | 10 | 0 |
 | Rigging | 9 | 5 per square of sail | 0 |
 | Steering Wheel | 10 | 25 | 5 |
 | Throttle | 12 | 15 | 5 |

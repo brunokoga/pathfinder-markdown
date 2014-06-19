@@ -8,10 +8,9 @@ You can use this skill to persuade others to agree with your arguments, to resol
 
 You cannot use Diplomacy against a creature that does not understand you or has an [Intelligence](../gettingStarted.html#_intelligence) of 3 or less. Diplomacy is generally ineffective in combat and against creatures that intend to harm you or your allies in the immediate future. Any attitude shift caused through Diplomacy generally lasts for 1d4 hours but can last much longer or shorter depending upon the situation (GM discretion).
 
-<thead><tr>
-<th>Starting Attitude</th>
-<th>Diplomacy DC</th>
-</tr></thead><tbody>
+| Starting Attitude | Diplomacy DC |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Hostile</td>
 <td>25 + creature's <a href="../gettingStarted.html#_charisma-new">Cha</a> modifier</td>
@@ -36,10 +35,9 @@ You cannot use Diplomacy against a creature that does not understand you or has 
 
 If a creature's attitude toward you is at least indifferent, you can make requests of the creature. This is an additional Diplomacy check, using the creature's current attitude to determine the base DC, with one of the following modifiers. Once a creature's attitude has shifted to helpful, the creature gives in to most requests without a check, unless the request is against its nature or puts it in serious peril. Some requests automatically fail if the request goes against the creature's values or its nature, subject to GM discretion.
 
-<thead><tr>
-<th>Request</th>
-<th>Diplomacy DC Modifier</th>
-</tr></thead><tbody>
+| Request | Diplomacy DC Modifier |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Give simple advice or directions</td>
 <td>–5</td>

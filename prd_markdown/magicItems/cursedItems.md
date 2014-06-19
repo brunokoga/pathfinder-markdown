@@ -1,9 +1,9 @@
 # Cursed Items
 
-<caption>Table: Common Item Curses</caption><thead><tr>
-<th>d%</th>
-<th>Curse</th>
-</tr></thead><tbody>
+[Table: Common Item Curses]
+| d% | Curse |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–15</td>
 <td>Delusion</td>
@@ -54,10 +54,9 @@ _Unreliable_: Each time the item is activated, there is a 5% chance (01–05 on 
 
 _Dependent_: The item only functions in certain situations. To determine the situation, select or roll on the following table.
 
-<thead><tr>
-<th>d%</th>
-<th>Situation</th>
-</tr></thead><tbody>
+| d% | Situation |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–03</td>
 <td>Temperature below freezing</td>
@@ -169,10 +168,9 @@ Requirements are so dependent upon suitability to the item that they should neve
 
 Unless otherwise indicated, drawbacks remain in effect as long as the item is possessed. The DC to save against any of these effects is usually equal to 10 + the item's caster level.
 
-<thead><tr>
-<th>d%</th>
-<th>Drawback</th>
-</tr></thead>| 01–04 | Character's hair grows 1 inch longer every hour. |
+| d% | Drawback |
+| --- | --- |
+| 01–04 | Character's hair grows 1 inch longer every hour. |
 | 05–09 | Character either shrinks 6 inches (01–50 on d%) or grows that much taller (51–100). Only happens once. |
 | 10–13 | Temperature around item is 10Â° F cooler than normal. |
 | 14–17 | Temperature around item is 10Â° F warmer than normal. |

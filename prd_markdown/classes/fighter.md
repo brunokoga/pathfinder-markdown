@@ -14,14 +14,10 @@ The fighter's class skills are [Climb](../skills/climb.html#_climb) ( [Str](../g
 
 **Skill Ranks per Level** : 2 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Fighter</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-</tr></thead>| 1st | +1 | +2 | +0 | +0 | Bonus feat |
+[Table: Fighter]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +1 | +2 | +0 | +0 | Bonus feat |
 | 2nd | +2 | +3 | +0 | +0 | Bonus feat, bravery +1 |
 | 3rd | +3 | +3 | +1 | +1 | Armor training 1 |
 | 4th | +4 | +4 | +1 | +1 | Bonus feat |

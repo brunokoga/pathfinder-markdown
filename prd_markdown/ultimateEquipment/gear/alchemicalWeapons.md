@@ -2,18 +2,18 @@
 
 Alchemical weapons are designed to harm others, though they may have additional uses. Each of these substances can be made with the [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) skill.
 
-<caption>Alchemical Weapons</caption><thead><tr>
-<th>Light Melee Weapons</th>
-<th>Price</th>
-<th>Dmg</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight</th>
-<th>Type</th>
-<th>Special</th>
-</tr></thead>| Liquid blade | 40 gp | 1d6 | 19–20/×2 | — | 2 lbs. | P | Fragile, see text |
-<thead><tr><th colspan="8"><span style="float: left;">One-handed Melee Weapons</span></th></tr></thead>| Flame fountain firework | 100 gp | 1d8 | ×2 | — | — | Fire | See text |
-<thead><tr><th colspan="8"><span style="float: left;">Ranged Weapons</span></th></tr></thead>| Acid | 10 gp | 1d6 | ×2 | 10 ft. | 1 lb. | Acid | Splash |
+[Alchemical Weapons]
+| Light Melee Weapons | Price | Dmg | Critical | Range | Weight | Type | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Liquid blade | 40 gp | 1d6 | 19–20/×2 | — | 2 lbs. | P | Fragile, see text |
+
+| One-handed Melee Weapons |
+| --- |
+| Flame fountain firework | 100 gp | 1d8 | ×2 | — | — | Fire | See text |
+
+| Ranged Weapons |
+| --- |
+| Acid | 10 gp | 1d6 | ×2 | 10 ft. | 1 lb. | Acid | Splash |
 | Alchemist's fire | 20 gp | 1d6 | ×2 | 10 ft. | 1 lb. | Fire | Splash |
 | Alkali flask | 15 gp | 1d6 | ×2 | 10 ft. | 1 lb. | Acid | Splash, see text |
 | Banshee ballerina firework | 75 gp | — | — | 10 ft. | — | Sonic | Area, see text |
@@ -148,11 +148,9 @@ This finger-sized explosive detonates noisily 1 round after lighting. Anyone in 
 
 pellet Grenade
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Iron | 50 gp | 1 lb. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Iron | 50 gp | 1 lb. |
 | Silver | 70 gp | 1 lb. |
 | Cold iron | 100 gp | 1 lb. |
 | Adamantine | 150 gp | 1 lb. |

@@ -22,10 +22,9 @@ _ [Lesser restoration](../spells/restoration.html#_restoration-lesser)_ has no e
 
 When a creature goes insane, roll on the following table to determine what form of insanity strikes. Alternatively, you can assign the insanity to match the cause.
 
-<thead><tr>
-<th>d%</th>
-<th>Insanity</th>
-</tr></thead><tbody>
+| d% | Insanity |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–11</td>
 <td>Amnesia</td>

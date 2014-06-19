@@ -9,15 +9,10 @@ Many of a true dragon's abilities, attacks, and other statistics improve as a dr
   
   
 
-<caption>Dragon Age Categories</caption><thead><tr>
-<th>Age Category</th>
-<th>Age in Years</th>
-<th>CR</th>
-<th>Size</th>
-<th>Hit Dice</th>
-<th>Natural Armor</th>
-<th>Breath Weapon</th>
-</tr></thead><tbody>
+[Dragon Age Categories]
+| Age Category | Age in Years | CR | Size | Hit Dice | Natural Armor | Breath Weapon |
+| --- | --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1 Wyrmling</td>
 <td>0–5</td>
@@ -120,15 +115,10 @@ Many of a true dragon's abilities, attacks, and other statistics improve as a dr
 
 **Breath Weapon** : Each dragon has a breath weapon (see Combat) that deals a base amount of damage. This multiplier increases the number of dice of damage dealt by the dragon's breath weapon. For example, a mature adult dragon with a base breath weapon that deals 2d6 acid damage would deal 14d6 acid damage (due to the ×7 multiplier).
 
-<caption>Dragon Ability Scores</caption><thead><tr>
-<th>Age Category</th>
-<th>Str</th>
-<th>Dex</th>
-<th>Con</th>
-<th>Int</th>
-<th>Wis</th>
-<th>Chr</th>
-</tr></thead><tbody>
+[Dragon Ability Scores]
+| Age Category | Str | Dex | Con | Int | Wis | Chr |
+| --- | --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1 Wyrmling</td>
 <td>Base</td>
@@ -154,23 +144,12 @@ Many of a true dragon's abilities, attacks, and other statistics improve as a dr
 
 The Dragon Attacks and Speeds table lists the attacks a dragon can employ and the damage it deals (a dash indicates that a dragon of that size does not possess that natural attack). Other abilities described here are gained by dragons when they reach a specific age category.
 
-<caption>Dragon Attacks and Speeds</caption><thead>
-<tr>
-<th rowspan="2">Size</th>
-<th rowspan="2">Fly Speed (maneuverability)</th>
-<th rowspan="2">1 Bite</th>
-<th rowspan="2">2 Claws</th>
-<th rowspan="2">2 Wings</th>
-<th rowspan="2">1 Tail Slap</th>
-<th rowspan="2">1 Crush</th>
-<th rowspan="2">1 Tail Sweep</th>
-<th colspan="2">Breath Weapon</th>
-</tr>
-<tr>
-<th>Line</th>
-<th>Cone</th>
-</tr>
-</thead><tbody>
+[Dragon Attacks and Speeds]
+| Size | Fly Speed (maneuverability) | 1 Bite | 2 Claws | 2 Wings | 1 Tail Slap | 1 Crush | 1 Tail Sweep | Breath Weapon |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Line | Cone |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Tiny</td>
 <td>100 ft. (average)</td>
@@ -338,11 +317,9 @@ CE [dragon](creatureTypes.html#_dragon) ( [water](creatureTypes.html#_water-subt
   
   
 
-<thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead><tbody>
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Immunity to acid, water breathing</td>
@@ -610,11 +587,9 @@ LE [dragon](creatureTypes.html#_dragon) ( [earth](creatureTypes.html#_earth-subt
   
   
 
-<thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead><tbody>
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Desert thirst, immune to electricity</td>
@@ -895,11 +870,9 @@ LE [dragon](creatureTypes.html#_dragon) ( [air](creatureTypes.html#_air-subtype)
   
   
 
-<thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead><tbody>
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Immunity to acid, water breathing</td>
@@ -1178,11 +1151,9 @@ CE [dragon](creatureTypes.html#_dragon) ( [fire](creatureTypes.html#_fire-subtyp
   
   
 
-<thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead><tbody>
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Fire subtype</td>
@@ -1475,11 +1446,9 @@ CE [dragon](creatureTypes.html#_dragon) ( [cold](creatureTypes.html#_cold-subtyp
   
   
 
-<thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead><tbody>
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Icewalking, cold subtype</td>
@@ -1754,11 +1723,9 @@ CG [dragon](creatureTypes.html#_dragon) ( [fire](creatureTypes.html#_fire-subtyp
   
   
 
-<thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead><tbody>
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Fire subtype, sleep breath</td>
@@ -2054,11 +2021,9 @@ LG [dragon](creatureTypes.html#_dragon) ( [water](creatureTypes.html#_water-subt
   
   
 
-<thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead><tbody>
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Immunity to electricity, repulsion breath, water breathing</td>
@@ -2349,11 +2314,9 @@ CG [dragon](creatureTypes.html#_dragon) ( [earth](creatureTypes.html#_earth-subt
   
   
 
-<thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead><tbody>
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Immunity to acid, climb stone, slow breath</td>
@@ -2644,11 +2607,9 @@ LG [dragon](creatureTypes.html#_dragon) ( [fire](creatureTypes.html#_fire-subtyp
   
   
 
-<thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level*</th>
-</tr></thead><tbody>
+| Age Category | Special Abilities | Caster Level\* |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Fire subtype, weakening breath</td>
@@ -2713,9 +2674,7 @@ LG [dragon](creatureTypes.html#_dragon) ( [fire](creatureTypes.html#_fire-subtyp
 </td>
 <td>19th</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="3">* A gold dragon can cast cleric spells as arcane spells.</td></tr>
-</tfoot>
+</tbody>
 
 **Young Gold Dragon CR 11**
 
@@ -2948,11 +2907,9 @@ LG [dragon](creatureTypes.html#_dragon) ( [cold](creatureTypes.html#_cold-subtyp
   
   
 
-<thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level*</th>
-</tr></thead><tbody>
+| Age Category | Special Abilities | Caster Level\* |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Change shape, cold subtype, immune to acid, paralyzing breath</td>
@@ -3019,9 +2976,7 @@ LG [dragon](creatureTypes.html#_dragon) ( [cold](creatureTypes.html#_cold-subtyp
 </td>
 <td>19th</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="3">* A silver dragon can cast cleric spells as arcane spells.</td></tr>
-</tfoot>
+</tbody>
 
 **Young Silver Dragon CR 10**
 

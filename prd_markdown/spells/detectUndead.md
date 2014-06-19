@@ -26,11 +26,9 @@ _Aura Strength_: The strength of an undead aura is determined by the HD of the u
 
 _Lingering Aura_: An undead aura lingers after its original source is destroyed. If _detect undead _is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power, as given on the table below.
 
-<thead><tr>
-<th>HD</th>
-<th>Strength</th>
-<th>Lingering Aura Duration</th>
-</tr></thead><tbody>
+| HD | Strength | Lingering Aura Duration |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1 or lower</td>
 <td>Faint</td>

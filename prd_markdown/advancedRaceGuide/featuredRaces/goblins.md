@@ -160,12 +160,10 @@ The following items are just some of the pieces of equipment used by goblins.
 
 **Stillgut** : Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to avoid nausea or sickness for 1 hour. If you are already nauseated, you can drink stillgut as a move action. Drinking it in this fashion grants you a second saving throw (without the +5 bonus). Goblins often use stillgut so they can choke down meat or other foods in advanced stages of rot or decay.
 
-<caption>Goblin Equipment</caption><thead><tr>
-<th>Items</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Bomb launcher | 10 gp | 1/2 lb. | 25 |
+[Goblin Equipment]
+| Items | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Bomb launcher | 10 gp | 1/2 lb. | 25 |
 | Mellowroot (vial) | 25 gp | — | 20 |
 | Stillgut (vial) | 50 gp | — | 25 |
 
@@ -301,18 +299,11 @@ Upon casting this spell, you vomit forth a disgusting ooze copy of yourself into
 
 The twin has a speed of 30 feet and provokes attacks of opportunity from movement as normal. It has an AC equal to 10 + 1/2 your caster level and a number of hit points equal to your caster level. If the twin is reduced to 0 hit points, it is destroyed, although you can create a new one on your turn as a standard action as long as the duration persists. You cannot have more than one vomit twin at a time.
 
-<caption>Goblin Weapons</caption><thead><tr>
-<th>Martial Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight</th>
-<th>Type</th>
-<th>Special</th>
-</tr></thead>| _Light Melee Weapons_ |
+[Goblin Weapons]
+| Martial Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weight | Type | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _Light Melee Weapons_ |
 | Dogslicer | 8 gp | 1d4 | 1d6 | 19–20/×2 | — | 1 lb. | S | fragile\* |
 | _Two-Handed Melee Weapons_ |
 | Horsechopper | 10 gp | 1d8 | 1d10 | ×3 | — | 12 lbs. | P or S | reach, trip |
-<tfoot><tr><td colspan="9">*<b>Fragile Weapons</b>: A fragile weapon gains the broken condition if the wielder rolls a natural 1 on an attack roll with the weapon. If a fragile weapon is already broken, rolling a natural 1 destroys it instead.</td></tr></tfoot>
+

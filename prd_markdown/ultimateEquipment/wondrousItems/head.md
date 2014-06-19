@@ -4,22 +4,20 @@ The head slot consists of caps, circlets, crowns, halos, hats, helms, hoods, lau
 
 Anyone can use a head slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.
 
-<caption>Head Slot Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Head Item</th>
-<th>Price</th>
-</tr></thead>| 01–10 | _Mask of stony demeanor_ | 500 gp |
+[Head Slot Wondrous Items]
+| d% | Lesser Minor Head Item | Price |
+| --- | --- | --- |
+| 01–10 | _Mask of stony demeanor_ | 500 gp |
 | 11–22 | _Cap of human guise_ | 800 gp |
 | 23–36 | _Cap of light_ | 900 gp |
 | 37–56 | _Hat of disguise_ | 1,800 gp |
 | 57–71 | _Buffering cap_ | 2,000 gp |
 | 72–85 | _Miser's mask_ | 3,000 gp |
 | 86–100 | _Stalker's mask_ | 3,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Head Item</th>
-<th>Price</th>
-</tr></thead>| 01–12 | _Circlet of persuasion_ | 4,500 gp |
+
+| d% | Greater Minor Head Item | Price |
+| --- | --- | --- |
+| 01–12 | _Circlet of persuasion_ | 4,500 gp |
 | 13–21 | _Grappler's mask_ | 5,000 gp |
 | 22–31 | _Helm of fearsome mien_ | 5,000 gp |
 | 32–40 | _Jingasa of the fortunate soldier_ | 5,000 gp |
@@ -27,21 +25,19 @@ Anyone can use a head slot wondrous item unless specified otherwise by its descr
 | 55–67 | _Crown of swords_ | 6,000 gp |
 | 68–87 | _Crown of blasting, minor_ | 6,480 gp |
 | 88–100 | _Mask of the krenshar_ | 7,200 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Head Item</th>
-<th>Price</th>
-</tr></thead>| 01–16 | _Helm of the mammoth lord_ | 8,500 gp |
+
+| d% | Lesser Medium Head Item | Price |
+| --- | --- | --- |
+| 01–16 | _Helm of the mammoth lord_ | 8,500 gp |
 | 17–30 | _Veil of fleeting glances_ | 9,000 gp |
 | 31–46 | _Mask of a thousand tomes_ | 10,000 gp |
 | 47–63 | _Medusa mask_ | 10,000 gp |
 | 64–80 | _Cap of the free thinker_ | 12,000 gp |
 | 81–100 | _Halo of inner calm_ | 16,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Head Item</th>
-<th>Price</th>
-</tr></thead>| 01–06 | _Cat's eye crown_ | 18,000 gp |
+
+| d% | Greater Medium Head Item | Price |
+| --- | --- | --- |
+| 01–06 | _Cat's eye crown_ | 18,000 gp |
 | 07–12 | _Maw of the wyrm_ | 18,000 gp |
 | 13–19 | _Mitre of the hierophant_ | 18,000 gp |
 | 20–27 | _Magician's hat_ | 20,000 gp |
@@ -54,21 +50,19 @@ Anyone can use a head slot wondrous item unless specified otherwise by its descr
 | 80–85 | _Batrachian helm_ | 26,000 gp |
 | 86–94 | _Helm of telepathy_ | 27,000 gp |
 | 95–100 | _Plague mask_ | 27,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Head Item</th>
-<th>Price</th>
-</tr></thead>| 01–14 | _Iron circlet of guarded souls_ | 30,000 gp |
+
+| d% | Lesser Major Head Item | Price |
+| --- | --- | --- |
+| 01–14 | _Iron circlet of guarded souls_ | 30,000 gp |
 | 15–29 | _Laurel of command_ | 30,000 gp |
 | 30–45 | _Mask of giants, lesser_ | 30,000 gp |
 | 46–61 | _Steel-mind cap_ | 33,600 gp |
 | 62–78 | _Stormlord's helm_ | 35,000 gp |
 | 79–100 | _Helm of brilliance, lesser_ | 36,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Head Item</th>
-<th>Price</th>
-</tr></thead>| 01–14 | _Judge's wig_ | 59,200 gp |
+
+| d% | Greater Major Head Item | Price |
+| --- | --- | --- |
+| 01–14 | _Judge's wig_ | 59,200 gp |
 | 15–39 | _Helm of teleportation_ | 73,500 gp |
 | 40–55 | _Halo of menace_ | 84,000 gp |
 | 56–68 | _Mask of giants, greater_ | 90,000 gp |

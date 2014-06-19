@@ -4,11 +4,9 @@ At times during a game when you're looking to liven things up (perhaps during a 
 
 ## Desert CR 6
 
-<thead><tr>
-<th>d%</th>
-<th>Encounter</th>
-<th>Avg. CR</th>
-</tr></thead><tbody>
+| d% | Encounter | Avg. CR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–8</td>
 <td>1 <a href="spider.html#_spider-giant">giant spider</a>
@@ -123,11 +121,9 @@ At times during a game when you're looking to liven things up (perhaps during a 
 
 ## Dungeon (Low-Level) CR 2
 
-<thead><tr>
-<th>d%</th>
-<th>Encounter</th>
-<th>Avg. CR</th>
-</tr></thead><tbody>
+| d% | Encounter | Avg. CR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–6</td>
 <td>1d6 <a href="rat.html#_rat-dire">dire rat</a>s</td>
@@ -263,11 +259,9 @@ At times during a game when you're looking to liven things up (perhaps during a 
 
 ## Dungeon (Mid-Level) CR 5
 
-<thead><tr>
-<th>d%</th>
-<th>Encounter</th>
-<th>Avg. CR</th>
-</tr></thead><tbody>
+| d% | Encounter | Avg. CR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–4</td>
 <td>1 <a href="gelatinousCube.html#_gelatinous-cube">gelatinous cube</a>
@@ -409,11 +403,9 @@ At times during a game when you're looking to liven things up (perhaps during a 
 
 ## Dungeon (High-Level) CR 10
 
-<thead><tr>
-<th>d%</th>
-<th>Encounter</th>
-<th>Avg. CR</th>
-</tr></thead><tbody>
+| d% | Encounter | Avg. CR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–4</td>
 <td>1 <a href="blackPudding.html#_black-pudding">black pudding</a>
@@ -555,11 +547,9 @@ At times during a game when you're looking to liven things up (perhaps during a 
 
 ## Forest (Temperate Forest) CR 5
 
-<thead><tr>
-<th>d%</th>
-<th>Encounter</th>
-<th>Avg. CR</th>
-</tr></thead><tbody>
+| d% | Encounter | Avg. CR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–6</td>
 <td>1 <a href="bat.html#_bat-swarm">bat swarm</a>
@@ -699,11 +689,9 @@ At times during a game when you're looking to liven things up (perhaps during a 
 
 ## Hill/Mountain CR 8
 
-<thead><tr>
-<th>d%</th>
-<th>Encounter</th>
-<th>Avg. CR</th>
-</tr></thead><tbody>
+| d% | Encounter | Avg. CR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–6</td>
 <td>1d6 <a href="eagle.html#_eagle">eagle</a>s</td>
@@ -835,11 +823,9 @@ At times during a game when you're looking to liven things up (perhaps during a 
 
 ## Jungle (Warm Forest) CR 5
 
-<thead><tr>
-<th>d%</th>
-<th>Encounter</th>
-<th>Avg. CR</th>
-</tr></thead><tbody>
+| d% | Encounter | Avg. CR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–4</td>
 <td>1 <a href="bat.html#_bat-swarm">bat swarm</a>
@@ -979,11 +965,9 @@ At times during a game when you're looking to liven things up (perhaps during a 
 
 ## Ocean CR 8
 
-<thead><tr>
-<th>d%</th>
-<th>Encounter</th>
-<th>Avg. CR</th>
-</tr></thead><tbody>
+| d% | Encounter | Avg. CR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–4</td>
 <td>1 <a href="octopus.html#_octopus">octopus</a>
@@ -1124,11 +1108,9 @@ At times during a game when you're looking to liven things up (perhaps during a 
 
 ## Ruined City CR 6
 
-<thead><tr>
-<th>d%</th>
-<th>Encounter</th>
-<th>Avg. CR</th>
-</tr></thead><tbody>
+| d% | Encounter | Avg. CR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–4</td>
 <td>1 <a href="spider.html#_spider-swarm">spider swarm</a>
@@ -1266,11 +1248,9 @@ At times during a game when you're looking to liven things up (perhaps during a 
 
 ## Savannah (Warm Plains) CR 7
 
-<thead><tr>
-<th>d%</th>
-<th>Encounter</th>
-<th>Avg. CR</th>
-</tr></thead><tbody>
+| d% | Encounter | Avg. CR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–6</td>
 <td>1 <a href="cat.html#_cat-cheetah">cheetah</a>
@@ -1403,11 +1383,9 @@ At times during a game when you're looking to liven things up (perhaps during a 
 
 ## Swamp CR 7
 
-<thead><tr>
-<th>d%</th>
-<th>Encounter</th>
-<th>Avg. CR</th>
-</tr></thead><tbody>
+| d% | Encounter | Avg. CR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–6</td>
 <td>1 <a href="snake.html#_snake-constrictor">constrictor snake</a>
@@ -1547,11 +1525,9 @@ At times during a game when you're looking to liven things up (perhaps during a 
 
 ## Underground CR 9
 
-<thead><tr>
-<th>d%</th>
-<th>Encounter</th>
-<th>Avg. CR</th>
-</tr></thead><tbody>
+| d% | Encounter | Avg. CR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–10</td>
 <td>2d6 <a href="duergar.html#_duergar">duergar</a>
@@ -1655,11 +1631,9 @@ At times during a game when you're looking to liven things up (perhaps during a 
 
 ## Urban (Dangerous City) CR 6
 
-<thead><tr>
-<th>d%</th>
-<th>Encounter</th>
-<th>Avg. CR</th>
-</tr></thead><tbody>
+| d% | Encounter | Avg. CR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–12</td>
 <td>1d6 <a href="dog.html#_dog">dog</a>s</td>

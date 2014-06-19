@@ -66,12 +66,10 @@ As mindless creatures, giant sea anemones have no use for treasure, but the rema
 
 Other species of sea anemones exist as well, some smaller but most quite a bit larger and favoring different oceanic regions and depths. You can adjust the stats for the giant sea anemone by changing the Hit Dice and size (adjusting Strength, Dexterity, and Constitution as appropriate) to represent a wide range of species. Often, different species have additional abilities, such as the darkforest anemone's constriction attack, or the deep tiger's ability to squirt acid. The following table lists the most common variants.
 
-<caption>Table: Sea Anemone Species</caption><thead><tr>
-<th>Species</th>
-<th>CR</th>
-<th>Size</th>
-<th>HD</th>
-</tr></thead>| Common anemone | 1/4 | Tiny | 1d8 |
+[Table: Sea Anemone Species]
+| Species | CR | Size | HD |
+| --- | --- | --- | --- |
+| Common anemone | 1/4 | Tiny | 1d8 |
 | Bluehair anemone | 1/2 | Small | 2d8 |
 | Coffin anemone | 1 | Medium | 3d8 |
 | Darkforest anemone | 6 | Huge | 9d8 |

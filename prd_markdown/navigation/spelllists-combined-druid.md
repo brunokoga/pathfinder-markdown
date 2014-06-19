@@ -299,7 +299,7 @@
 - [**Sirocco**](/pathfinderRPG/prd/advanced/spells/sirocco.html#_sirocco)
 - [**Spellstaff**](/pathfinderRPG/prd/spells/spellstaff.html#_spellstaff)
 - [**Stone Tell**](/pathfinderRPG/prd/spells/stoneTell.html#_stone-tell)
-- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)<sup>M</sup>
+- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)M
 - [**Summon Nature's Ally VI**](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-vi)
 - [**Swarm Skin**](/pathfinderRPG/prd/advanced/spells/swarmSkin.html#_swarm-skin-)
 - [**Tar Pool**](/pathfinderRPG/prd/ultimateCombat/spells/tarPool.html#_tar-pool)

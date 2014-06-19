@@ -18,10 +18,9 @@ Each of the nine categories of the Perform skill includes a variety of methods, 
 
 **Check** : You can impress audiences with your talent and skill in your chosen performance type.
 
-<thead><tr>
-<th>Perform DC</th>
-<th>Performance</th>
-</tr></thead>| 10 | Routine performance. Trying to earn money by playing in public is akin to begging. You can earn 1d10 cp/day. |
+| Perform DC | Performance |
+| --- | --- |
+| 10 | Routine performance. Trying to earn money by playing in public is akin to begging. You can earn 1d10 cp/day. |
 | 15 | Enjoyable performance. In a prosperous city, you can earn 1d10 sp/day. |
 | 20 | Great performance. In a prosperous city, you can earn 3d10 sp/day. In time, you may be invited to join a professional troupe and may develop a regional reputation. |
 | 25 | Memorable performance. In a prosperous city, you can earn 1d6 gp/day. In time, you may come to the attention of noble patrons and develop a national reputation. |

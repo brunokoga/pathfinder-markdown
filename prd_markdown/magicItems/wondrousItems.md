@@ -1,8 +1,7 @@
-<caption>Table: Minor Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Item</th>
-<th>Market Price</th>
-</tr></thead>| 01 | _Feather token, anchor_ | 50 gp |
+[Table: Minor Wondrous Items]
+| d% | Item | Market Price |
+| --- | --- | --- |
+| 01 | _Feather token, anchor_ | 50 gp |
 | 02 | _Universal solvent _ | 50 gp |
 | 03 | _Elixir of love _ | 150 gp |
 | 04 | _Unguent of timelessness _ | 150 gp |
@@ -103,11 +102,10 @@
 | 99 | _Boots of levitation _ | 7,500 gp |
 | 100 | _Harp of charming _ | 7,500 gp |
 
-<caption>Table: Medium Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Item</th>
-<th>Market Price</th>
-</tr></thead>| 01 | _Amulet of natural armor +2 _ | 8,000 gp |
+[Table: Medium Wondrous Items]
+| d% | Item | Market Price |
+| --- | --- | --- |
+| 01 | _Amulet of natural armor +2 _ | 8,000 gp |
 | 02 | _Golem manual, flesh _ | 8,000 gp |
 | 03 | _Hand of glory _ | 8,000 gp |
 | 04 | _Ioun stone, deep red sphere _ | 8,000 gp |
@@ -208,11 +206,10 @@
 | 99 | _Tome of leadership and influence +1 _ | 27,500 gp |
 | 100 | _Tome of understanding +1 _ | 27,500 gp |
 
-<caption>Table: Major Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Item</th>
-<th>Market Price</th>
-</tr></thead>| 01 | _Dimensional shackles _ | 28,000 gp |
+[Table: Major Wondrous Items]
+| d% | Item | Market Price |
+| --- | --- | --- |
+| 01 | _Dimensional shackles _ | 28,000 gp |
 | 02 | _Figurine of wondrous power, obsidian steed _ | 28,500 gp |
 | 03 | _Drums of panic _ | 30,000 gp |
 | 04 | _Ioun stone, orange prism _ | 30,000 gp |
@@ -325,7 +322,7 @@ This is a catch all category for anything that doesn't fall into the other group
 
 Wondrous items with charges can never be intelligent.
 
-<caption>Extradimensional Spaces</caption>| A number of spells and magic items utilize extradimensional spaces, such as _rope trick_, a _bag of holding_, a _handy haversack_, and a _portable hole_. These spells and magic items create a tiny pocket space that does not exist in any dimension. Such items do not function, however, inside another extradimensional space. If placed inside such a space, they cease to function until removed from the extradimensional space. For example, if a _bag of holding_ is brought into a_ rope trick_, the contents of the _bag of holding_ become inaccessible until the _bag of holding_ is taken outside the _rope trick_. The only exception to this is when a_ bag of holding_ and a _portable hole_ interact, forming a rift to the Astral Plane, as noted in their descriptions. |
+[Extradimensional Spaces]| A number of spells and magic items utilize extradimensional spaces, such as _rope trick_, a _bag of holding_, a _handy haversack_, and a _portable hole_. These spells and magic items create a tiny pocket space that does not exist in any dimension. Such items do not function, however, inside another extradimensional space. If placed inside such a space, they cease to function until removed from the extradimensional space. For example, if a _bag of holding_ is brought into a_ rope trick_, the contents of the _bag of holding_ become inaccessible until the _bag of holding_ is taken outside the _rope trick_. The only exception to this is when a_ bag of holding_ and a _portable hole_ interact, forming a rift to the Astral Plane, as noted in their descriptions. |
 
 **Amulet of Mighty Fists**
 
@@ -395,10 +392,9 @@ This silver amulet protects the wearer from scrying and magical location just as
 
 At first glance, an inactive _apparatus of the crab_ appears to be a large, sealed iron barrel big enough to hold two Medium creatures. Close examination, and a DC 20 Perception check, reveals a secret catch that opens a hatch at one end. Anyone who crawls inside finds 10 (unlabeled) levers and seating for two Medium or Small occupants. These levers allow those inside to activate and control the apparatus's movements and actions.
 
-<thead><tr>
-<th>Lever (1d10)</th>
-<th>Lever Function</th>
-</tr></thead><tbody>
+| Lever (1d10) | Lever Function |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>1</td>
 <td>Extend/retract legs and tail</td>
@@ -459,13 +455,9 @@ When active, an _apparatus of the crab_ has the following characteristics: **hp*
 
 This appears to be a common cloth sack about 2 feet by 4 feet in size. The _bag of holding _opens into a nondimensional space: its inside is larger than its outside dimensions. Regardless of what is put into the bag, it weighs a fixed amount. This weight, and the limits in weight and volume of the bag's contents, depend on the bag's type, as shown on the table below.
 
-<thead><tr>
-<th>Bag</th>
-<th>Bag Weight</th>
-<th>Contents Limit</th>
-<th>Contents Volume Limit</th>
-<th>Market Price</th>
-</tr></thead><tbody>
+| Bag | Bag Weight | Contents Limit | Contents Volume Limit | Market Price |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Type I</td>
 <td>15 lbs.</td>
@@ -514,21 +506,11 @@ If a _bag of holding _is placed within a _portable hole,_ a rift to the Astral P
 
 This small sack appears empty. Anyone reaching into the bag feels a small, fuzzy ball. If the ball is removed and tossed up to 20 feet away, it turns into an animal. The animal serves the character who drew it from the bag for 10 minutes (or until slain or ordered back into the bag), at which point it disappears. It can follow any of the commands described in the Handle Animal skill. Each of the three kinds of _bags of tricks _produces a different set of animals. Use the following tables to determine what animals can be drawn out of each.
 
-<thead>
-<tr>
-<th colspan="2">Gray Bag</th>
-<th colspan="2">Rust Bag</th>
-<th colspan="2">Tan Bag</th>
-</tr>
-<tr>
-<th>d%</th>
-<th>Animal</th>
-<th>d%</th>
-<th>Animal</th>
-<th>d%</th>
-<th>Animal</th>
-</tr>
-</thead>| 01–30 | Bat | 01–30 | Wolverine | 01–30 | Grizzly bear |
+| Gray Bag | Rust Bag | Tan Bag |
+| --- | --- | --- |
+| d% | Animal | d% | Animal | d% | Animal |
+| --- | --- | --- | --- | --- | --- |
+| 01–30 | Bat | 01–30 | Wolverine | 01–30 | Grizzly bear |
 | 31–60 | Rat | 31–60 | Wolf | 31–60 | Lion |
 | 61–75 | Cat | 61–85 | Boar | 61–80 | Heavy horse |
 | 76–90 | Weasel | 86–100 | Leopard | 81–90 | Tiger |
@@ -930,13 +912,9 @@ On command, this bright red and gold cape allows the wearer to use the magic of 
 
 This rug is able to fly through the air as if affected by an _ [overland flight](../spells/overlandFlight.html#_overland-flight) _spell of unlimited duration. The size, carrying capacity, and speed of the different _carpets of flying _are shown on the table below. Beautifully and intricately made, each carpet has its own command word to activate it—if the device is within voice range, the command word activates it, whether the speaker is on the rug or not. The carpet is then controlled by spoken directions.
 
-<thead><tr>
-<th>Size</th>
-<th>Capacity</th>
-<th>Speed</th>
-<th>Weight</th>
-<th>Market Price</th>
-</tr></thead><tbody>
+| Size | Capacity | Speed | Weight | Market Price |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>5 ft. by 5 ft.</td>
 <td>200 lbs.</td>
@@ -1168,10 +1146,9 @@ This is the most common form of scrying device, a crystal sphere about 6 inches 
 
 Certain _crystal balls _have additional powers that can be used through the _crystal ball _on the target viewed.
 
-<thead><tr>
-<th>Crystal Ball Type</th>
-<th>Market Price</th>
-</tr></thead><tbody>
+| Crystal Ball Type | Market Price |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td><i>Crystal ball</i></td>
 <td>42,000 gp</td>
@@ -1194,9 +1171,6 @@ Certain _crystal balls _have additional powers that can be used through the _cry
 <td>80,000 gp</td>
 </tr>
 </tbody>| _Crystal ball _with _ [detect thoughts (](../spells/detectThoughts.html#_detect-thoughts) [Will](../combat.html#_will) DC 13 negates) _ | 51,000 gp |
-<tfoot>
-<tr><td colspan="2">* The viewer is able to send and receive silent mental messages with the person appearing in the crystal ball. Once per day, the character may attempt to implant a <i><a href="../spells/suggestion.html#_suggestion">suggestion</a> </i>(as the spell, <a href="../combat.html#_will">Will</a> DC 14 negates) as well. </td></tr>
-</tfoot>
 
 **Construction**
 
@@ -1214,12 +1188,9 @@ This device is just under an inch across and can be made of ivory, bone, or any 
 
 When the _cube of force _is active, attacks dealing more than 30 points of damage drain 1 charge for every 10 points of damage beyond 30 that they deal. The charge cost to maintain each of the cube's six walls is summarized below.
 
-<thead><tr>
-<th>Cube Face</th>
-<th>Charge Cost per Minute</th>
-<th>Max. Speed</th>
-<th>Effect</th>
-</tr></thead><tbody>
+| Cube Face | Charge Cost per Minute | Max. Speed | Effect |
+| --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1</td>
 <td>1</td>
@@ -1260,10 +1231,9 @@ When the _cube of force _is active, attacks dealing more than 30 points of damag
 
 Spells that affect the integrity of the screen also drain extra charges. These spells cannot be cast into or out of the cube.
 
-<thead><tr>
-<th>Attack Form</th>
-<th>Extra Charges</th>
-</tr></thead>| [Disintegrate](../spells/disintegrate.html#_disintegrate) | 6 |
+| Attack Form | Extra Charges |
+| --- | --- |
+| [Disintegrate](../spells/disintegrate.html#_disintegrate) | 6 |
 |
 | |
 | Horn of blasting | 6 |
@@ -1352,11 +1322,9 @@ The geyser effect exerts considerable pressure, requiring the holder to make a D
 
 This set of parchment cards is usually found in an ivory, leather, or wooden box. A full deck consists of 34 cards. When a card is drawn at random and thrown to the ground, a _ [major image](../spells/majorImage.html#_major-image) _of a creature is formed. The figment lasts until dispelled. The illusory creature cannot move more than 30 feet away from where the card landed, but otherwise moves and acts as if it were real. At all times it obeys the desires of the character who drew the card. When the illusion is dispelled, the card becomes blank and cannot be used again. If the card is picked up, the illusion is automatically and instantly dispelled. The cards in a deck and the illusions they bring forth are summarized on the following table. (Use one of the first two columns to simulate the contents of a full deck using either ordinary playing cards or tarot cards.)
 
-<thead><tr>
-<th>Playing Card</th>
-<th>Tarot Card</th>
-<th>Creature</th>
-</tr></thead>| Ace of hearts | IV. The Emperor | Red dragon |
+| Playing Card | Tarot Card | Creature |
+| --- | --- | --- |
+| Ace of hearts | IV. The Emperor | Red dragon |
 | King of hearts | Knight of swords | Male human fighter and four guards |
 | Queen of hearts | Queen of staves | Female human wizard |
 | Jack of hearts | King of staves | Male human druid |
@@ -2216,12 +2184,10 @@ This trumpet adapts itself to its owner, so it produces either a good or an evil
 
 This magic instrument comes in four varieties. Each appears to be normal until someone speaks its command word and blows the horn. Then the horn summons a number of human barbarians to fight for the character who summoned them. Each horn can be blown just once every 7 days. Roll d% and refer to the table above to see what type of horn is found. The horn's type determines what barbarians are summoned and what prerequisite is needed to use the horn. Any character who uses a _horn of Valhalla_ but doesn't have the prerequisite is attacked by the barbarians she herself summoned.
 
-<caption>Horn of Valhalla</caption><thead><tr>
-<th>d%</th>
-<th>Type of Horn</th>
-<th> Barbarians Summoned</th>
-<th>Prerequisite</th>
-</tr></thead>| 01–40 | Silver | 2d4+2, 2nd-level | None |
+[Horn of Valhalla]
+| d% | Type of Horn | Barbarians Summoned | Prerequisite |
+| --- | --- | --- | --- |
+| 01–40 | Silver | 2d4+2, 2nd-level | None |
 | 41–75 | Brass | 2d4+1, 3rd-level | Spellcaster level 1st |
 | 76–90 | Bronze | 2d4, 4th-level | Proficiency with all martial weapons or bardic performance ability |
 | 91–100 | Iron | 1d4+1, 5th-level | Proficiency with all martial weapons or bardic performance ability |
@@ -2308,12 +2274,10 @@ The fortress is deactivated by speaking a command word (different from the one u
 
 These crystalline stones always float in the air and must be within 3 feet of their owner to be of any use. When a character first acquires a stone, she must hold it and then release it, whereupon it takes up a circling orbit 1d3 feet from her head. Thereafter, a stone must be grasped or netted to separate it from its owner. The owner may voluntarily seize and stow a stone (to keep it safe while she is sleeping, for example), but she loses the benefits of the stone during that time. Ioun stones have [AC](../combat.html#_armor-class) 24, 10 hit points, and hardness 5. The powers of each stone vary depending on its color and shape (see the table).
 
-<caption>Ioun Stones</caption><thead><tr>
-<th><b>Color</b></th>
-<th>Shape</th>
-<th>Effect</th>
-<th>Market Price</th>
-</tr></thead>| Clear | Spindle | Sustains creature without food or water | 4,000 gp |
+[Ioun Stones]
+| **Color** | Shape | Effect | Market Price |
+| --- | --- | --- | --- |
+| Clear | Spindle | Sustains creature without food or water | 4,000 gp |
 | Dusty rose | Prism | +1 insight bonus to [AC](../combat.html#_armor-class) | 5,000 gp |
 | Deep red | Sphere | +2 enhancement bonus to [Dexterity](../gettingStarted.html#_dexterity) | 8,000 gp |
 | Incandescent blue | Sphere | +2 enhancement bonus to [Wisdom](../gettingStarted.html#_wisdom) | 8,000 gp |
@@ -2329,10 +2293,6 @@ These crystalline stones always float in the air and must be within 3 feet of th
 | Orange | Prism | +1 caster level | 30,000 gp |
 | Vibrant purple | Prism | Stores three levels of spells, as a_ [ring of spell storing](rings.html#_ring-of-spell-storing-major)_ | 36,000 gp |
 | Lavender and green | Ellipsoid | Absorbs spells of 8th level or lower\*\* | 40,000 gp |
-<tfoot>
-<tr><td colspan="4">*After absorbing 20 spell levels, the stone burns out and turns to dull gray, forever useless.</td></tr>
-<tr><td colspan="4">**After absorbing 50 spell levels, the stone burns out and turns dull gray, forever useless.</td></tr>
-</tfoot>
 
 Regeneration from the pearly white _ioun stone_ works like a _ring of regeneration._ It only cures damage taken while the character is using the stone. The pale lavender and lavender-and-green stones work like a _rod of absorption,_ but absorbing a spell requires a readied action, and these stones cannot be used to empower spells. Stored spells in the vibrant purple stone must be placed by a spellcaster but can be used by anyone (see _ring of minor spell storing_).
 
@@ -2370,10 +2330,9 @@ The command word can be used only once per day.
 
 If the individual freeing the captured creature speaks the command word, the creature can be forced to serve for 1 hour. If freed without the command word, the creature acts according to its natural inclinations. (It usually attacks the user, unless it perceives a good reason not to.) Any attempt to force the same creature into the flask a second time provides it a +2 bonus on its saving throw and makes it hostile. A newly discovered bottle might contain any of the following:
 
-<thead><tr>
-<th>d%</th>
-<th>Contents</th>
-</tr></thead>| 01–50 | Empty |
+| d% | Contents |
+| --- | --- |
+| 01–50 | Empty |
 | 51–54 | Large air elemental |
 | 55–58 | Invisible stalker |
 | 59–62 | Large earth elemental |
@@ -2649,19 +2608,10 @@ This item appears to be a string of beads, sometimes with the ends tied together
 
 Spheres come in different strengths, ranging from those that deal 2d6 points of fire damage to those that deal 10d6. The market price of a sphere is 150 gp for each die of damage it deals.
 
-<caption>Necklace of Fireballs</caption><thead><tr>
-<th>Necklace</th>
-<th>10d6</th>
-<th>9d6</th>
-<th>8d6</th>
-<th>7d6</th>
-<th>6d6</th>
-<th>5d6</th>
-<th>4d6</th>
-<th>3d6</th>
-<th>2d6</th>
-<th>Market Price</th>
-</tr></thead>| Type I | — | — | — | — | — | 1 | — | 2 | — | 1,650 gp |
+[Necklace of Fireballs]
+| Necklace | 10d6 | 9d6 | 8d6 | 7d6 | 6d6 | 5d6 | 4d6 | 3d6 | 2d6 | Market Price |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Type I | — | — | — | — | — | 1 | — | 2 | — | 1,650 gp |
 | Type II | — | — | — | — | 1 | — | 2 | — | 2 | 2,700 gp |
 | Type III | — | — | — | 1 | — | 2 | — | 4 | — | 4,350 gp |
 | Type IV | — | — | 1 | — | 2 | — | 2 | — | 4 | 5,400 gp |
@@ -3040,10 +2990,9 @@ This appears to be an unremarkable robe, but a character who dons it notes that 
 
 In addition, the robe has several other patches. Roll 4d4 for the number of other patches and then roll for each patch on the table below to determine its nature.
 
-<thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01–08 | Bag of 100 gold pieces |
+| d% | Result |
+| --- | --- |
+| 01–08 | Bag of 100 gold pieces |
 | 09–15 | Coffer, silver (6 in. by 6 in. by 1 ft.), 500 gp value |
 | 16–22 | Door, iron (up to 10 ft. wide and 10 ft. high and barred on one side—must be placed upright, attaches and hinges itself) |
 | 23–30 | Gems, 10 (100 gp value each) |
@@ -3249,10 +3198,9 @@ This ointment has two uses. If an ounce of it is applied to the flesh of a [petr
 
 This item appears to be nothing more than a string of prayer beads until the owner casts a divine spell while the beads are carried. Once that occurs, the owner instantly knows the powers of the prayer beads and understands how to activate the strand's special magical beads. Each strand includes two or more special beads, each with a different magic power selected from the following list.
 
-<thead><tr>
-<th>Special Bead Type</th>
-<th>Special Bead Ability</th>
-</tr></thead>| _Bead of blessing_ | Wearer can cast _ [bless](../spells/bless.html#_bless)._ |
+| Special Bead Type | Special Bead Ability |
+| --- | --- |
+| _Bead of blessing_ | Wearer can cast _ [bless](../spells/bless.html#_bless)._ |
 | _Bead of healing_ | Wearer can cast his choice of _ [cure serious wounds](../spells/cureSeriousWounds.html#_cure-serious-wounds), [remove blindness/deafness](../spells/removeBlindnessDeafness.html#_remove-blindness-deafness), _or _ [remove disease](../spells/removeDisease.html#_remove-disease)._ |
 | _Bead of karma_ | Wearer casts his spells at +4 caster level. Effect lasts 10 minutes. |
 | _Bead of smiting_ | Wearer can cast _ [chaos hammer](../spells/chaosHammer.html#_chaos-hammer), [holy smite](../spells/holySmite.html#_holy-smite), [order's wrath](../spells/orderSWrath.html#_order-s-wrath), _or _ [unholy blight](../spells/unholyBlight.html#_unholy-blight) _( [Will](../combat.html#_will) DC 17 partial). |

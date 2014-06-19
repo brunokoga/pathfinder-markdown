@@ -8,10 +8,9 @@ Those who draw upon a god's power find themselves becoming closer to the divine.
 
 **Bonus Hit Points** : Whenever you gain a hierophant tier, you gain 4 bonus hit points. These hit points stack with themselves, and don't affect your overall Hit Dice or other statistics.
 
-<thead><tr>
-<th>Tier</th>
-<th>Path Features</th>
-</tr></thead>| 1st | Divine surge, path ability |
+| Tier | Path Features |
+| --- | --- |
+| 1st | Divine surge, path ability |
 | 2nd | Path ability |
 | 3rd | Path ability |
 | 4th | Path ability |

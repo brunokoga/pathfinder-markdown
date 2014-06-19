@@ -38,7 +38,6 @@ In addition to personal use, _permanency _can be used to make the following spel
 | _ [Reduce person](reducePerson.html#_reduce-person) _ | 9th | 2,500 gp |
 | _ [Resistance](resistance.html#_resistance) _ | 9th | 2,500 gp |
 | _ [Telepathic bond](telepathicBond.html#_telepathic-bond)\*_ | 13th | 12,500 gp |
-<tfoot><tr><td colspan="3">*Only bonds two creatures per casting of <i>permanency</i>.</td></tr></tfoot>
 
 Additionally, the following spells can be cast upon objects or areas only and rendered permanent.
 

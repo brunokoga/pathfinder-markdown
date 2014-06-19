@@ -6,10 +6,9 @@ You can keep your balance while traversing narrow or treacherous surfaces. You c
 
 **Check** : You can use Acrobatics to move on narrow surfaces and uneven ground without falling. A successful check allows you to move at half speed across such surfaces—only one check is needed per round. Use the following table to determine the base DC, which is then modified by the Acrobatics skill modifiers noted below. While you are using Acrobatics in this way, you are considered flat-footed and lose your [Dexterity](../gettingStarted.html#_dexterity) bonus to your [AC](../combat.html#_armor-class) (if any). If you take damage while using Acrobatics, you must immediately make another Acrobatics check at the same DC to avoid falling or being knocked prone.
 
-<thead><tr>
-<th>Surface Width</th>
-<th>Base Acrobatics DC</th>
-</tr></thead><tbody>
+| Surface Width | Base Acrobatics DC |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Greater than 3 feet wide</td>
 <td>0*</td>
@@ -30,16 +29,13 @@ You can keep your balance while traversing narrow or treacherous surfaces. You c
 <td>Less than 2 inches wide</td>
 <td>20</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="2">* No Acrobatics check is needed to move across these surfaces unless the modifiers to the surface (below) increase the DC to 10 or higher.</td></tr>
-</tfoot>
+</tbody>
 
 In addition, you can move through a threatened square without provoking an attack of opportunity from an enemy by using Acrobatics. When moving in this way, you move at half speed. You can move at full speed by increasing the DC of the check by 10. You cannot use Acrobatics to move past foes if your speed is reduced due to carrying a medium or heavy load or wearing medium or heavy armor. If an ability allows you to move at full speed under such conditions, you can use Acrobatics to move past foes. You can use Acrobatics in this way while prone, but doing so requires a full-round action to move 5 feet, and the DC is increased by 5. If you attempt to move though an enemy's space and fail the check, you lose the move action and provoke an attack of opportunity.
 
-<thead><tr>
-<th>Situation</th>
-<th>Base Acrobatics DC*</th>
-</tr></thead><tbody>
+| Situation | Base Acrobatics DC\* |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Move through a threatened area</td>
 <td>Opponent's Combat Maneuver Defense</td>
@@ -48,16 +44,14 @@ In addition, you can move through a threatened square without provoking an attac
 <td>Move through an enemy's space</td>
 <td>5 + opponent's Combat Maneuver Defense</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="2">* This DC is used to avoid an attack of opportunity due to movement. This DC increases by 2 for each additional opponent avoided in 1 round.</td></tr>
-</tfoot>
+</tbody>
+
   
   
 
-<thead><tr>
-<th>Long Jump</th>
-<th>Acrobatics DC</th>
-</tr></thead><tbody>
+| Long Jump | Acrobatics DC |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>5 feet</td>
 <td>5</td>
@@ -80,10 +74,9 @@ In addition, you can move through a threatened square without provoking an attac
 </tr>
 </tbody>
 
-<thead><tr>
-<th>High Jump</th>
-<th>Acrobatics DC</th>
-</tr></thead>| 1 foot | 4 |
+| High Jump | Acrobatics DC |
+| --- | --- |
+| 1 foot | 4 |
 | 2 feet | 8 |
 | 3 feet | 12 |
 | 4 feet | 16 |
@@ -95,10 +88,9 @@ When you deliberately fall any distance, even as a result of a missed jump, a DC
 
 Many conditions can affect your chances of success with Acrobatics checks. The following modifiers to target DCs apply to all Acrobatics skill checks. The modifiers stack with one another, but only the most severe modifier for any one condition applies.
 
-<thead><tr>
-<th>Acrobatics Modifiers</th>
-<th>DC Modifier</th>
-</tr></thead><tbody>
+| Acrobatics Modifiers | DC Modifier |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Slightly obstructed (gravel, sand)</td>
 <td>+2</td>
@@ -139,9 +131,7 @@ Many conditions can affect your chances of success with Acrobatics checks. The f
 <td>Move at full speed on narrow or uneven surfaces</td>
 <td>+5*</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="2">* This does not apply to checks made to jump.</td></tr>
-</tfoot>
+</tbody>
 
 **Action** : None. An Acrobatics check is made as part of another action or as a reaction to a situation.
 

@@ -10,25 +10,12 @@ The adept's class skills (and the key ability for each skill) are [Craft](skills
 
 **Skill Ranks per Level** : 2 + [Int](gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Adept</caption><thead>
-<tr>
-<th rowspan="2">Level</th>
-<th rowspan="2">Base Attack Bonus</th>
-<th rowspan="2">Fort Save</th>
-<th rowspan="2">Ref Save</th>
-<th rowspan="2">Will Save</th>
-<th rowspan="2">Special</th>
-<th colspan="6">Spells per Day</th>
-</tr>
-<tr>
-<th>0</th>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-</tr>
-</thead>| 1st | +0 | +0 | +0 | +2 | | 3 | 1 | — | — | — | — |
+[Table: Adept]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0 | 1st | 2nd | 3rd | 4th | 5th |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +0 | +2 | | 3 | 1 | — | — | — | — |
 | 2nd | +1 | +0 | +0 | +3 | Summon familiar | 3 | 1 | — | — | — | — |
 | 3rd | +1 | +1 | +1 | +3 | | 3 | 2 | — | — | — | — |
 | 4th | +2 | +1 | +1 | +4 | | 3 | 2 | 0 | — | — | — |
@@ -97,13 +84,10 @@ The aristocrat's class skills (and the key ability for each skill) are [Appraise
 
 **Skill Ranks per Level** : 4 + [Int](gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Aristocrat</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-</tr></thead>| 1st | +0 | +0 | +0 | +2 |
+[Table: Aristocrat]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save |
+| --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +0 | +2 |
 | 2nd | +1 | +0 | +0 | +3 |
 | 3rd | +2 | +1 | +1 | +3 |
 | 4th | +3 | +1 | +1 | +4 |
@@ -142,13 +126,10 @@ The commoner's class skills (and the key ability for each skill) are [Climb](ski
 
 **Skill Ranks per Level** : 2 + [Int](gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Commoner</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-</tr></thead>| 1st | +0 | +0 | +0 | +0 |
+[Table: Commoner]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save |
+| --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +0 | +0 |
 | 2nd | +1 | +0 | +0 | +0 |
 | 3rd | +1 | +1 | +1 | +1 |
 | 4th | +2 | +1 | +1 | +1 |
@@ -187,13 +168,10 @@ The expert can choose any 10 skills to be class skills.
 
 **Skill Ranks per Level** : 6 + [Int](gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Expert</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-</tr></thead>| 1st | +0 | +0 | +0 | +2 |
+[Table: Expert]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save |
+| --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +0 | +2 |
 | 2nd | +1 | +0 | +0 | +3 |
 | 3rd | +2 | +1 | +1 | +3 |
 | 4th | +3 | +1 | +1 | +4 |
@@ -232,13 +210,10 @@ The warrior's class skills (and the key ability for each skill) are [Climb](skil
 
 **Skill Ranks per Level** : 2 + [Int](gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Warrior</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-</tr></thead>| 1st | +1 | +2 | +0 | +0 |
+[Table: Warrior]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save |
+| --- | --- | --- | --- | --- |
+| 1st | +1 | +2 | +0 | +0 |
 | 2nd | +2 | +3 | +0 | +0 |
 | 3rd | +3 | +3 | +1 | +1 |
 | 4th | +4 | +4 | +1 | +1 |

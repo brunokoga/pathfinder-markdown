@@ -10,13 +10,10 @@ A character can only effectively wear two magic rings. A third magic ring doesn'
 
 **Special Qualities** : Roll d%. A result of 01 indicates the ring is intelligent, 02–31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32–100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see [Intelligent Items](intelligentItems.html)). Rings with charges can never be intelligent.
 
-<caption>Table: Rings</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Ring</th>
-<th>Market Price</th>
-</tr></thead><tbody>
+[Table: Rings]
+| Minor | Medium | Major | Ring | Market Price |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–18</td>
 <td>—</td>
@@ -458,10 +455,9 @@ The wearer of the ring is able to converse with creatures from the plane to whic
 
 The possessor of a _ring of elemental command _takes a saving throw penalty as follows:
 
-<thead><tr>
-<th>Element</th>
-<th>Saving Throw Penalty</th>
-</tr></thead><tbody>
+| Element | Saving Throw Penalty |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Air</td>
 <td>–2 against earth-based effects</td>
@@ -739,10 +735,9 @@ During the night, under the open sky or in areas of shadow or darkness, the _rin
 
 The first special function, ball lightning_, _releases one to four balls of lightning (ring wearer's choice). These glowing globes resemble _ [dancing lights](../spells/dancingLights.html#_dancing-lights)_, and the ring wearer controls them similarly (see the _ [dancing lights](../spells/dancingLights.html#_dancing-lights) _spell description). The spheres have a 120-foot range and a duration of 4 rounds. They can be moved at 120 feet per round. Each sphere is about 3 feet in diameter, and any creature who comes within 5 feet of one causes its charge to dissipate, taking electricity damage in the process according to the number of balls created.
 
-<thead><tr>
-<th>Number of Balls</th>
-<th>Damage per Ball</th>
-</tr></thead><tbody>
+| Number of Balls | Damage per Ball |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>1 lightning ball</td>
 <td>4d6 points of electricity damage</td>

@@ -4,17 +4,15 @@ The headband slot consists of bands, headbands, phylacteries, and other non-head
 
 Anyone can use a head slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.
 
-<caption>Headband Slot Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Headband Item</th>
-<th>Price</th>
-</tr></thead>| 01–60 | _Phylactery of faithfulness_ | 1,000 gp |
+[Headband Slot Wondrous Items]
+| d% | Lesser Minor Headband Item | Price |
+| --- | --- | --- |
+| 01–60 | _Phylactery of faithfulness_ | 1,000 gp |
 | 61–100 | _Dead man's headband_ | 3,600 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Headband Item</th>
-<th>Price</th>
-</tr></thead>| 01–09 | _Headband of alluring charisma +2_ | 4,000 gp |
+
+| d% | Greater Minor Headband Item | Price |
+| --- | --- | --- |
+| 01–09 | _Headband of alluring charisma +2_ | 4,000 gp |
 | 10–18 | _Headband of inspired wisdom +2_ | 4,000 gp |
 | 19–27 | _Headband of vast intelligence +2_ | 4,000 gp |
 | 28–33 | _Headband of aerial agility +2_ | 4,500 gp |
@@ -27,11 +25,10 @@ Anyone can use a head slot wondrous item unless specified otherwise by its descr
 | 75–82 | _Phylactery of the shepherd_ | 7,000 gp |
 | 83–91 | _Headband of intuition_ | 7,000 gp |
 | 92–100 | _Headband of fortune's favor_ | 7,700 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Headband Item</th>
-<th>Price</th>
-</tr></thead>| 01–06 | _Headband of havoc_ | 8,000 gp |
+
+| d% | Lesser Medium Headband Item | Price |
+| --- | --- | --- |
+| 01–06 | _Headband of havoc_ | 8,000 gp |
 | 07–12 | _Serpent's band_ | 9,000 gp |
 | 13–20 | _Headband of mental prowess +2_ | 10,000 gp |
 | 21–26 | _Hunter's band_ | 11,000 gp |
@@ -45,18 +42,16 @@ Anyone can use a head slot wondrous item unless specified otherwise by its descr
 | 77–85 | _Headband of mental superiority +2_ | 16,000 gp |
 | 86–93 | _Headband of vast intelligence +4_ | 16,000 gp |
 | 94–100 | _Shifter's headband +4_ | 17,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Headband Item</th>
-<th>Price</th>
-</tr></thead>| 01–30 | _Headband of arcane energy_ | 20,000 gp |
+
+| d% | Greater Medium Headband Item | Price |
+| --- | --- | --- |
+| 01–30 | _Headband of arcane energy_ | 20,000 gp |
 | 31–70 | _Headband of counterspelling_ | 20,000 gp |
 | 71–100 | _Headband of knucklebones_ | 27,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Headband Item</th>
-<th>Price</th>
-</tr></thead>| 01–09 | _Soulbound eye_ | 30,000 gp |
+
+| d% | Lesser Major Headband Item | Price |
+| --- | --- | --- |
+| 01–09 | _Soulbound eye_ | 30,000 gp |
 | 10–19 | _Winter wolf headband_ | 32,000 gp |
 | 20–32 | _Headband of alluring charisma +6_ | 36,000 gp |
 | 33–45 | _Headband of inspired wisdom +6_ | 36,000 gp |
@@ -65,11 +60,10 @@ Anyone can use a head slot wondrous item unless specified otherwise by its descr
 | 67–81 | _Headband of mental prowess +4_ | 40,000 gp |
 | 82–90 | _Headband of seduction_ | 40,000 gp |
 | 91–100 | _Headband of aerial agility +4_ | 42,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Headband Item</th>
-<th>Price</th>
-</tr></thead>| 01–20 | _Headband of mental resilience_ | 64,000 gp |
+
+| d% | Greater Major Headband Item | Price |
+| --- | --- | --- |
+| 01–20 | _Headband of mental resilience_ | 64,000 gp |
 | 21–50 | _Headband of mental superiority +4_ | 64,000 gp |
 | 51–65 | _Headband of aerial agility +6_ | 81,000 gp |
 | 66–85 | _Headband of metal prowess +6_ | 90,000 gp |

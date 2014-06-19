@@ -28,10 +28,9 @@ _Aura Strength_: An aura's power depends on a spell's functioning spell level or
 
 _Lingering Aura_: A magical aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a magic item). If _detect magic _is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:
 
-<thead><tr>
-<th>Original Strength</th>
-<th>Duration of Lingering Aura</th>
-</tr></thead><tbody>
+| Original Strength | Duration of Lingering Aura |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Faint</td>
 <td>1d6 rounds</td>
@@ -54,18 +53,12 @@ Outsiders and elementals are not magical in themselves, but if they are summoned
 
 _Detect magic _can be made permanent with a _ [permanency](permanency.html#_permanency) _spell.
 
-<caption>Detect Magic</caption><thead>
-<tr>
-<th rowspan="2">Spell or Object</th>
-<th colspan="4">Aura Power</th>
-</tr>
-<tr>
-<th>Faint</th>
-<th>Moderate</th>
-<th>Strong</th>
-<th>Overwhelming</th>
-</tr>
-</thead><tbody>
+[Detect Magic]
+| Spell or Object | Aura Power |
+| --- | --- |
+| Faint | Moderate | Strong | Overwhelming |
+| --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Functioning spell (spell level)</td>
 <td>3rd or lower</td>

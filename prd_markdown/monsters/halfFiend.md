@@ -88,10 +88,9 @@ _Spell-Like Abilities_: A half-fiend with an Int or Wis score of 8 or higher has
   
   
 
-<thead><tr>
-<th>HD</th>
-<th>Abilities</th>
-</tr></thead><tbody>
+| HD | Abilities |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–2</td>
 <td>

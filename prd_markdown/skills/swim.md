@@ -8,10 +8,9 @@ You know how to swim and can do so even in stormy water.
 
 If you are underwater, either because you failed a Swim check or because you are swimming underwater intentionally, you must hold your breath. You can hold your breath for a number of rounds equal to twice your [Constitution](../gettingStarted.html#_constitution) score, but only if you do nothing other than take move actions or free actions. If you take a standard action or a full-round action (such as making an attack), the remainder of the duration for which you can hold your breath is reduced by 1 round. (Effectively, a character in combat can hold his breath only half as long as normal.) After that period of time, you must make a DC 10 [Constitution](../gettingStarted.html#_constitution) check every round to continue holding your breath. Each round, the DC for that check increases by 1. If you fail the [Constitution](../gettingStarted.html#_constitution) check, you begin to drown. The DC for the Swim check depends on the water, as given on the table below.
 
-<thead><tr>
-<th>Water</th>
-<th>Swim DC</th>
-</tr></thead><tbody>
+| Water | Swim DC |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Calm water</td>
 <td>10</td>
@@ -24,9 +23,7 @@ If you are underwater, either because you failed a Swim check or because you are
 <td>Stormy water</td>
 <td>20*</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="2">* You can't take 10 on a Swim check in stormy water, even if you aren't otherwise being threatened or distracted.</td></tr>
-</tfoot>
+</tbody>
 
 Each hour that you swim, you must make a DC 20 Swim check or take 1d6 points of nonlethal damage from fatigue.
 

@@ -32,7 +32,7 @@ Statistics
 
 **Base Atk** +0; **CMB** –1; **CMD** 10
 
-**Feats** [Diehard](/pathfinderRPG/prd/additionalMonsters/../feats.html#_diehard)<sup>B</sup>, [Endurance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_endurance)<sup>B</sup>
+**Feats** [Diehard](/pathfinderRPG/prd/additionalMonsters/../feats.html#_diehard)B, [Endurance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_endurance)B
 
 **Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +8, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) –1, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +9; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)
 
@@ -46,12 +46,10 @@ Ecology
 
 **Treasure** none
 
-<caption>Table: Cockroach Types</caption><thead><tr>
-<th>Species</th>
-<th>CR</th>
-<th>Size</th>
-<th>HD</th>
-</tr></thead>| Giant hissing cockroach | 1 | Medium | 2 |
+[Table: Cockroach Types]
+| Species | CR | Size | HD |
+| --- | --- | --- | --- |
+| Giant hissing cockroach | 1 | Medium | 2 |
 | Venomroach | 3 | Large | 3 |
 | Spitting cockroach | 6 | Huge | 6 |
 | Sawback cockroach | 9 | Gargantuan | 8 |

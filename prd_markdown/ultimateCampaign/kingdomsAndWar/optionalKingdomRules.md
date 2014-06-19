@@ -32,20 +32,19 @@ Your representative must attempt a [Diplomacy](/pathfinderRPG/prd/skills/diploma
 
 **Alignment Difference Modifier** : This is based on how close your kingdom's alignment is to the target kingdom's alignment, according to the following table.
 
-<caption>Diplomatic Alignment Difference Modifier</caption><thead><tr>
-<th>Alignment Difference*</th>
-<th>DC Modifier</th>
-</tr></thead>| Same | +0 |
+[Diplomatic Alignment Difference Modifier]
+| Alignment Difference\* | DC Modifier |
+| --- | --- |
+| Same | +0 |
 | 1 step | +5 |
 | 2 steps | +15 |
-<tfoot><tr><td colspan="2">* Per alignment axis.</td></tr></tfoot>
 
 **Relationship Modifier** : This takes into account your treaties, alliances, and conflicts with the target kingdom's allies and enemies. If you are friendly with the same kingdoms, the target is more interested in diplomacy with you. If you are friendly with the target kingdom's enemies, the target is less interested in negotiating with you. Modify the DC as follows for each third party you have in common.
 
-<caption>Diplomatic Relationship Modifier</caption><thead><tr>
-<th>Relationship</th>
-<th>DC Modifier</th>
-</tr></thead>| You and the target kingdom both have an | —8alliance with a third party |
+[Diplomatic Relationship Modifier]
+| Relationship | DC Modifier |
+| --- | --- |
+| You and the target kingdom both have an | —8alliance with a third party |
 | You have a treaty with the target kingdom's ally | —4 |
 | You and the target kingdom both have a treaty | —2with a third party |
 | You have an embassy with the target kingdom's enemy | +2 |
@@ -224,18 +223,15 @@ The relevant skills for each leadership role are as follows.
 
 The GM may want to adjust settlement modifiers based on the kingdom's Size and how that corresponds to the standard settlement size categories in the _Core Rulebook_.
 
-<caption>Settlement Sizes and Modifiers</caption><thead><tr>
-<th>Lots</th>
-<th>Category</th>
-<th>Modifiers</th>
-<th>Danger</th>
-</tr></thead>| 1 | Village | —4 | —10 |
+[Settlement Sizes and Modifiers]
+| Lots | Category | Modifiers | Danger |
+| --- | --- | --- | --- |
+| 1 | Village | —4 | —10 |
 | 2—8 | Small Town | —2 | —5 |
 | 9—20 | Large Town | 0 | 0 |
 | 21—40 | Small City | +1 | +5 |
 | 41—100 | Large City | +1\* | +5\* |
 | 101+ | Metropolis | +1\* | +5\* |
-<tfoot><tr><td colspan="4">* Per district.</td></tr></tfoot>
 
 **Modifiers** : Add the listed number to the settlement's Corruption, Crime, Law, Lore, Productivity, and Society.
 

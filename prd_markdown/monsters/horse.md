@@ -32,7 +32,7 @@ N Large [animal](creatureTypes.html#_animal)
 
 **Base**  **Atk** +1; **CMB** +5; **CMD** 17 (21 vs. trip)
 
-**Feats** [Endurance](../feats.html#_endurance), [Run](../feats.html#_run)<sup>B</sup>
+**Feats** [Endurance](../feats.html#_endurance), [Run](../feats.html#_run)B
 
 **Skills** [Perception](../skills/perception.html#_perception) +6
 
@@ -88,7 +88,7 @@ N Medium [animal](creatureTypes.html#_animal)
 
 **Base**  **Atk** +1; **CMB** +2; **CMD** 13 (17 vs. trip)
 
-**Feats** [Endurance](../feats.html#_endurance), [Run](../feats.html#_run)<sup>B</sup>
+**Feats** [Endurance](../feats.html#_endurance), [Run](../feats.html#_run)B
 
 **Skills** [Perception](../skills/perception.html#_perception) +5
 

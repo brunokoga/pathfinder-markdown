@@ -72,11 +72,10 @@ Samsarans have access to the following equipment.
 
 **Samsaran Life Wheel** : This handheld wooden spool spins freely within a boxlike housing. Inscribed upon the exterior of the spool are dozens of samsaran prayers along with names or symbols associated with a samsaran's past lives. Samsarans believe that spinning the wheel during meditation strengthens the spiritual connections between their former lives. If a samsaran meditates with her wheel for at least 10 minutes about a [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) question relating to her own history or the histories of her past lives, she gains a +1 insight bonus on the check.
 
-<caption>Samsaran Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr></thead>| Samsaran life wheel | 25 gp | 1/2 lb. |
+[Samsaran Equipment]
+| Item | Cost | Weight |
+| --- | --- | --- |
+| Samsaran life wheel | 25 gp | 1/2 lb. |
 
 ## Samsaran Feats
 

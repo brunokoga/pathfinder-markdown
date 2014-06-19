@@ -6,10 +6,10 @@ Skills represent some of the most basic and yet most fundamental abilities your 
 
 Each level, your character gains a number of skill ranks dependent upon your class plus your [Intelligence](gettingStarted.html#_intelligence) modifier. Investing a rank in a skill represents a measure of training in that skill. You can never have more ranks in a skill than your total number of Hit Dice. In addition, each class has a number of favored skills, called class skills. It is easier for your character to become more proficient in these skills, as they represent part of his professional training and constant practice. You gain a +3 bonus on all class skills that you put ranks into. If you have more than one class and both grant you a class skill bonus, these bonuses do not stack.
 
-<caption>Table: Skill Ranks</caption><thead><tr>
-<th>Class</th>
-<th>Skill Ranks per Level</th>
-</tr></thead><tbody>
+[Table: Skill Ranks]
+| Class | Skill Ranks per Level |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Barbarian</td>
 <td>4 + <a href="gettingStarted.html#_intelligence">Int</a> modifier</td>
@@ -64,10 +64,10 @@ When your character uses a skill, he isn't guaranteed success. In order to deter
 
 Each skill rank grants a +1 bonus on checks made using that skill. When you make a skill check, you roll 1d20 and then add your ranks and the appropriate ability score modifier to the result of this check. If the skill you're using is a class skill (and you have invested ranks into that skill), you gain a +3 bonus on the check. If you are not trained in the skill (and if the skill may be used untrained), you may still attempt the skill, but you use only the bonus (or penalty) provided by the associated ability score modifier to modify the check. Skills can be further modified by a wide variety of sources—by your race, by a class ability, by equipment, by spell effects or magic items, and so on. See Table: Skill Check Bonuses for a summary of skill check bonuses.
 
-<caption>Table: Skill Check Bonuses</caption><thead><tr>
-<th>Skill</th>
-<th>Skill Check is Equal To*</th>
-</tr></thead><tbody>
+[Table: Skill Check Bonuses]
+| Skill | Skill Check is Equal To\* |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Untrained</td>
 <td>1d20 + ability modifier + racial modifier</td>
@@ -80,9 +80,7 @@ Each skill rank grants a +1 bonus on checks made using that skill. When you make
 <td>Trained Class Skill</td>
 <td>1d20 + skill ranks + ability modifier + racial modifier + 3</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="2">* Armor check penalty applies to all <a href="gettingStarted.html#_strength">Strength</a>- and <a href="gettingStarted.html#_dexterity">Dexterity</a>-based skill checks.</td></tr>
-</tfoot>
+</tbody>
 
 If the result of your skill check is equal to or greater than the difficulty class (or DC) of the task you are attempting to accomplish, you succeed. If it is less than the DC, you fail. Some tasks have varying levels of success and failure depending on how much your check is above or below the required DC. Some skill checks are opposed by the target's skill check. When making an opposed skill check, the attempt is successful if your check result exceeds the result of the target.
 

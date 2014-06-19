@@ -81,7 +81,7 @@
 - [**Litany of Thunder**](/pathfinderRPG/prd/ultimateCombat/spells/litanyOfThunder.html#_litany-of-thunder)
 - [**Litany of Vengeance**](/pathfinderRPG/prd/ultimateCombat/spells/litanyOfVengeance.html#_litany-of-vengeance)
 - [**Magic Siege Engine, Greater**](/pathfinderRPG/prd/ultimateCombat/spells/magicSiegeEngine.html#_magic-siege-engine,-greater)
-- [**Nondetection, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/nondetection.html#_nondetection,-communal)<sup>M</sup>
+- [**Nondetection, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/nondetection.html#_nondetection,-communal)M
 - [**Poison**](/pathfinderRPG/prd/spells/poison.html#_poison)
 - [**Resounding Blow**](/pathfinderRPG/prd/advanced/spells/resoundingBlow.html#_resounding-blow)
 - [**Slay Living**](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)

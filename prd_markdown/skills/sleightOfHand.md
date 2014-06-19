@@ -16,10 +16,9 @@ If you try to take something from a creature, you must make a DC 20 Sleight of H
 
 You can also use Sleight of Hand to entertain an audience as though you were using the Perform skill. In such a case, your âactâ encompasses elements of legerdemain, juggling, and the like.
 
-<thead><tr>
-<th>Sleight of Hand DC</th>
-<th>Task</th>
-</tr></thead><tbody>
+| Sleight of Hand DC | Task |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>10</td>
 <td>Palm a coin-sized object, make a coin disappear</td>

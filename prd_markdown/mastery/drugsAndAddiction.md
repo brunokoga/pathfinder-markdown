@@ -6,8 +6,7 @@ For better or worse, all things that one might find in the real world multiply a
 
 # Drugs
 
-<caption>Drunkenness</caption>
-| Just like drugs, alcohol can be abused and have significant negative effects. In general, a character can consume a number of alcoholic beverages equal to 1 plus double his Constitution modifier. Drinks consumed in excess of this total cause the character to become sickened for 1 hour per drink above this maximum. Particularly exotic or strong forms of alcohol might be treated as normal drugs. Those who regularly abuse alcohol might eventually develop a moderate addiction. |
+[Drunkenness]| Just like drugs, alcohol can be abused and have significant negative effects. In general, a character can consume a number of alcoholic beverages equal to 1 plus double his Constitution modifier. Drinks consumed in excess of this total cause the character to become sickened for 1 hour per drink above this maximum. Particularly exotic or strong forms of alcohol might be treated as normal drugs. Those who regularly abuse alcohol might eventually develop a moderate addiction. |
 
 Drugs are alchemical items that grant effects to those who make use of them. What sets them apart from similar items is that a drug's effects manifest as both a short term (usually beneficial) effect and an amount of ability damage. In addition, those who take drugs also risk addiction, a type of disease of varying severity depending on the type of drug used.
 

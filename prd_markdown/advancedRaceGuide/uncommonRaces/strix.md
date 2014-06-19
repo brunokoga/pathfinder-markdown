@@ -80,17 +80,10 @@ Strix have access to the following equipment.
 
 **Snag Net** : This short, wide net is covered in barbed loops and slipknots. It works like a typical net exotic weapon, except it has the trip weapon special feature. If you entangle an opponent and hold the trailing rope, on your turn in place of a melee attack you may make a trip combat maneuver check against that opponent; if you succeed, you may trip the opponent or deal 1 point of piercing damage to the opponent. The concentration DC to cast while entangled in a snag net is 17 + the spell's level. The [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) DC to escape a snag net is 22.
 
-<caption>Strix Weapon</caption><thead><tr>
-<th>Exotic Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight</th>
-<th>Type</th>
-<th>Special</th>
-</tr></thead>| Net, snag | 30 gp | see text | see text | — | 10 ft. | 10 lbs. | P | Trip, see text |
+[Strix Weapon]
+| Exotic Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weight | Type | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Net, snag | 30 gp | see text | see text | — | 10 ft. | 10 lbs. | P | Trip, see text |
 
 ## Strix Feats
 

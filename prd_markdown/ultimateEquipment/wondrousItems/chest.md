@@ -4,20 +4,18 @@ The chest slot consists of jackets, mantles, shirts, vests, and other items that
 
 Anyone can use a chest slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.
 
-<caption>Chest Slot Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Chest Item</th>
-<th>Price</th>
-</tr></thead>| 01–15 | _Bandages of rapid recovery_ | 200 gp |
+[Chest Slot Wondrous Items]
+| d% | Lesser Minor Chest Item | Price |
+| --- | --- | --- |
+| 01–15 | _Bandages of rapid recovery_ | 200 gp |
 | 16–30 | _Quick runner's shirt_ | 1,000 gp |
 | 31–50 | _Endless bandolier_ | 1,500 gp |
 | 51–75 | _All tools vest_ | 1,800 gp |
 | 76–100 | _Vest of surgery_ | 3,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Chest Item</th>
-<th>Price</th>
-</tr></thead>| 01–10 | _Sash of the war champion_ | 4,000 gp |
+
+| d% | Greater Minor Chest Item | Price |
+| --- | --- | --- |
+| 01–10 | _Sash of the war champion_ | 4,000 gp |
 | 11–20 | _Sipping jacket_ | 5,000 gp |
 | 21–31 | _Tunic of careful casting_ | 5,000 gp |
 | 32–42 | _Vest of escape_ | 5,200 gp |
@@ -27,33 +25,29 @@ Anyone can use a chest slot wondrous item unless specified otherwise by its desc
 | 71–79 | _Tunic of deadly might_ | 6,000 gp |
 | 80–90 | _Vest of the vengeful tracker_ | 6,000 gp |
 | 91–100 | _Resplendent uniform coat_ | 7,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Chest Item</th>
-<th>Price</th>
-</tr></thead>| 01–13 | _Shirt of immolation_ | 8,000 gp |
+
+| d% | Lesser Medium Chest Item | Price |
+| --- | --- | --- |
+| 01–13 | _Shirt of immolation_ | 8,000 gp |
 | 14–28 | _Snakeskin tunic_ | 8,000 gp |
 | 29–40 | _Bane baldric_ | 10,000 gp |
 | 41–60 | _Unfettered shirt_ | 10,000 gp |
 | 61–80 | _Poisoner's jacket, lesser_ | 12,000 gp |
 | 81–100 | _Vest of the cockroach_ | 16,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Chest Item</th>
-<th>Price</th>
-</tr></thead>| 01–50 | _Vest of stable mutation_ | 20,000 gp |
+
+| d% | Greater Medium Chest Item | Price |
+| --- | --- | --- |
+| 01–50 | _Vest of stable mutation_ | 20,000 gp |
 | 51–100 | _Spectral shroud_ | 26,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Chest Item</th>
-<th>Price</th>
-</tr></thead>| 01–60 | _Mantle of immortality_ | 50,000 gp |
+
+| d% | Lesser Major Chest Item | Price |
+| --- | --- | --- |
+| 01–60 | _Mantle of immortality_ | 50,000 gp |
 | 61–100 | _Poisoner's jacket, greater_ | 58,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Chest Item</th>
-<th>Price</th>
-</tr></thead>| 01–35 | _Merciful baldric_ | 60,000 gp |
+
+| d% | Greater Major Chest Item | Price |
+| --- | --- | --- |
+| 01–35 | _Merciful baldric_ | 60,000 gp |
 | 36–70 | _Mantle of faith_ | 76,000 gp |
 | 71–100 | _Mantle of spell resistance_ | 90,000 gp |
 

@@ -282,7 +282,7 @@ At will—_ [fear](../spells/fear.html#_fear)_ (single target, DC 19), _ [greate
 
 **Base**  **Atk** +9; **CMB** +14; **CMD** 31
 
-**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge)<sup>B</sup>, [Mobility](../feats.html#_mobility)<sup>B</sup>, [Point-Blank Shot](../feats.html#_point-blank-shot), [Precise Shot](../feats.html#_precise-shot), [Rapid Shot](../feats.html#_rapid-shot), [Shot on the Run](../feats.html#_shot-on-the-run)
+**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge)B, [Mobility](../feats.html#_mobility)B, [Point-Blank Shot](../feats.html#_point-blank-shot), [Precise Shot](../feats.html#_precise-shot), [Rapid Shot](../feats.html#_rapid-shot), [Shot on the Run](../feats.html#_shot-on-the-run)
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +18, [Bluff](../skills/bluff.html#_bluff) +17, [Diplomacy](../skills/diplomacy.html#_diplomacy) +14, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +12, [Fly](../skills/fly.html#_fly) +19, [Intimidate](../skills/intimidate.html#_intimidate) +17, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +8, [Knowledge](../skills/knowledge.html#_knowledge) (religion) +8, [Perception](../skills/perception.html#_perception) +16, [Sense Motive](../skills/senseMotive.html#_sense-motive) +10, [Stealth](../skills/stealth.html#_stealth) +15
 

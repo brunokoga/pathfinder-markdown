@@ -1,9 +1,9 @@
 # Intelligent Items
 
-<caption>Table: Intelligent Item Alignment</caption><thead><tr>
-<th>d%</th>
-<th>Alignment of Item</th>
-</tr></thead><tbody>
+[Table: Intelligent Item Alignment]
+| d% | Alignment of Item |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–10</td>
 <td>Chaotic good</td>
@@ -40,15 +40,12 @@
 <td>91–100</td>
 <td>Neutral</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="2">* The item can also be used by any character whose alignment corresponds to the non-neutral portion of the item's alignment.</td></tr>
-</tfoot>
+</tbody>
 
-<caption>Table: Intelligent Item Ability Scores</caption><thead><tr>
-<th>Score</th>
-<th>Base Price Modifier</th>
-<th>Ego Modifier</th>
-</tr></thead><tbody>
+[Table: Intelligent Item Ability Scores]
+| Score | Base Price Modifier | Ego Modifier |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>10</td>
 <td>—</td>
@@ -106,11 +103,10 @@
 </tr>
 </tbody>
 
-<caption>Table: Intelligent Item Senses and Communication</caption><thead><tr>
-<th>Ability</th>
-<th>Base Price Modifier</th>
-<th>Ego Modifier</th>
-</tr></thead><tbody>
+[Table: Intelligent Item Senses and Communication]
+| Ability | Base Price Modifier | Ego Modifier |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Empathy</td>
 <td>—</td>
@@ -158,12 +154,10 @@
 </tr>
 </tbody>| _Read magic _ | +2,000 gp | +1 |
 
-<caption>Table: Intelligent Item Powers</caption><thead><tr>
-<th>d%</th>
-<th>Item Power</th>
-<th>Base Price Modifier</th>
-<th>Ego Modifier</th>
-</tr></thead><tbody>
+[Table: Intelligent Item Powers]
+| d% | Item Power | Base Price Modifier | Ego Modifier |
+| --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–10</td>
 <td>Item can cast a 0-level spell at will</td>
@@ -254,15 +248,12 @@
 <td>+33,600 gp</td>
 <td>+2</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="4">* Intelligent items can only possess <a href="../gettingStarted.html#_intelligence">Intelligence</a>-, <a href="../gettingStarted.html#_wisdom">Wisdom</a>-, or <a href="../gettingStarted.html#_charisma-new">Charisma</a>-based skills, unless they also possess some form of ability to move.</td></tr>
-</tfoot>
+</tbody>
 
-<caption>Table: Intelligent Item Purpose</caption><thead><tr>
-<th>d%</th>
-<th>Purpose</th>
-<th>Ego Modifier</th>
-</tr></thead><tbody>
+[Table: Intelligent Item Purpose]
+| d% | Purpose | Ego Modifier |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–20</td>
 <td>Defeat/slay diametrically opposed alignment*</td>
@@ -318,16 +309,12 @@
 <td>Choose one</td>
 <td>+2</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="3">* The purpose of the neutral (N) version of this item is to preserve the balance by defeating/slaying powerful beings of the extreme alignments (LG, LE, CG, CE).</td></tr>
-</tfoot>
+</tbody>
 
-<caption>Table: Special Purpose Item Dedicated Powers</caption><thead><tr>
-<th>d%</th>
-<th>Dedicated Power</th>
-<th>Base Price Modifier</th>
-<th>Ego Modifier</th>
-</tr></thead><tbody>
+[Table: Special Purpose Item Dedicated Powers]
+| d% | Dedicated Power | Base Price Modifier | Ego Modifier |
+| --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–20</td>
 <td>Item can detect any special purpose foes within 60 feet</td>
@@ -432,10 +419,9 @@ A dedicated power operates only when an intelligent item is in pursuit of its sp
 
 Ego is a measure of the total power and force of personality that an item possesses. An item's Ego score is the sum of all of its Ego modifiers plus an additional bonus for the cost of the base magic item (excluding the cost of all of the intelligent item enhancements). An item's Ego score helps determine whether the item or the character is dominant in their relationship, as detailed below.
 
-<thead><tr>
-<th>Base Magic Item Value</th>
-<th>Ego Modifier</th>
-</tr></thead><tbody>
+| Base Magic Item Value | Ego Modifier |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Up to 1,000 gp</td>
 <td>—</td>

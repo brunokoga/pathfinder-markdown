@@ -52,12 +52,10 @@ Special Abilities
 
 Unlike its smaller cousins, the giant jellyfish is an active predator that seeks out prey. Capable of slithering through narrow cracks, a giant jellyfish is a horrifying beast to encounter lurking in the hold of a flooded or sunken ship. Other species of these vermin exist, as summarized on the following table—these variants often have different types of poison or other abilities like translucency or constriction.
 
-<caption>Table: Jellyfish Types</caption><thead><tr>
-<th>Species</th>
-<th>CR</th>
-<th>Size</th>
-<th>HD</th>
-</tr></thead>| Death's head jellyfish | 1 | Small | 2 |
+[Table: Jellyfish Types]
+| Species | CR | Size | HD |
+| --- | --- | --- | --- |
+| Death's head jellyfish | 1 | Small | 2 |
 | Crimson jellyfish | 4 | Medium | 5 |
 | Sapphire jellyfish | 11 | Huge | 12 |
 | Vampire jellyfish | 14 | Gargantuan | 16 |

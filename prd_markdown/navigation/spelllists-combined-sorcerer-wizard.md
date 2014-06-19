@@ -55,7 +55,7 @@
 - [**Erase**](/pathfinderRPG/prd/spells/erase.html#_erase)
 - [**Expeditious Excavation**](/pathfinderRPG/prd/advanced/spells/expeditiousExcavation.html#_expeditious-excavation)
 - [**Expeditious Retreat**](/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat)
-- [**Fabricate Bullets**](/pathfinderRPG/prd/ultimateCombat/spells/fabricateBullets.html#_fabricate-bullets-)<sup>M</sup>
+- [**Fabricate Bullets**](/pathfinderRPG/prd/ultimateCombat/spells/fabricateBullets.html#_fabricate-bullets-)M
 - [**Feather Fall**](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall)
 - [**Flare Burst**](/pathfinderRPG/prd/advanced/spells/flareBurst.html#_flare-burst)
 - [**Floating Disk**](/pathfinderRPG/prd/spells/floatingDisk.html#_floating-disk)
@@ -182,7 +182,7 @@
 - [**Escaping Ward**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halflings.html#_escaping-ward)
 - [**False Life**](/pathfinderRPG/prd/spells/falseLife.html#_false-life)
 - [**Fire Breath**](/pathfinderRPG/prd/advanced/spells/fireBreath.html#_fire-breath)
-- [**Fiery Shuriken**](/pathfinderRPG/prd/ultimateCombat/spells/fieryShuriken.html#_fiery-shuriken-)<sup>M</sup>
+- [**Fiery Shuriken**](/pathfinderRPG/prd/ultimateCombat/spells/fieryShuriken.html#_fiery-shuriken-)M
 - [**Flaming Sphere**](/pathfinderRPG/prd/spells/flamingSphere.html#_flaming-sphere)
 - [**Fog Cloud**](/pathfinderRPG/prd/spells/fogCloud.html)
 - [**Fox's Cunning**](/pathfinderRPG/prd/spells/foxSCunning.html#_fox-s-cunning)
@@ -259,13 +259,13 @@
 - [**Summon Swarm**](/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm)
 - [**Symbol of Mirroring**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfMirroring.html#_symbol-of-mirroring)
 - [**Tactical Acumen**](/pathfinderRPG/prd/ultimateCombat/spells/tacticalAcumen.html#_tactical-acumen)
-- [**Telekinetic Assembly**](/pathfinderRPG/prd/ultimateCombat/spells/telekineticAssembly.html#_telekinetic-assembly)<sup>F</sup>
+- [**Telekinetic Assembly**](/pathfinderRPG/prd/ultimateCombat/spells/telekineticAssembly.html#_telekinetic-assembly)F
 - [**Thunder Fire**](/pathfinderRPG/prd/ultimateCombat/spells/thunderFire.html#_thunder-fire)
 - [**Touch of Idiocy**](/pathfinderRPG/prd/spells/touchOfIdiocy.html#_touch-of-idiocy)
 - [**Twisted Space**](/pathfinderRPG/prd/ultimateCombat/spells/twistedSpace.html#_twisted-space)
 - [**Unnatural Lust**](/pathfinderRPG/prd/ultimateMagic/spells/unnaturalLust.html#_unnatural-lust)
 - [**Unshakable Chill**](/pathfinderRPG/prd/ultimateMagic/spells/unshakableChill.html#_unshakable-chill)
-- [**Warding Weapon**](/pathfinderRPG/prd/ultimateCombat/spells/wardingWeapon.html#_warding-weapon)<sup>F</sup>
+- [**Warding Weapon**](/pathfinderRPG/prd/ultimateCombat/spells/wardingWeapon.html#_warding-weapon)F
 - [**Web**](/pathfinderRPG/prd/spells/web.html#_web)
 - [**Web Shelter**](/pathfinderRPG/prd/ultimateMagic/spells/webShelter.html#_web-shelter)
 - [**Whispering Wind**](/pathfinderRPG/prd/spells/whisperingWind.html#_whispering-wind)
@@ -339,7 +339,7 @@
 - [**Nondetection**](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)
 - [**Pain Strike**](/pathfinderRPG/prd/advanced/spells/painStrike.html#_pain-strike)
 - [**Paragon Surge**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halfElves.html#_paragon-surge)
-- [**Pellet Blast**](/pathfinderRPG/prd/ultimateCombat/spells/pelletBlast.html#_pellet-blast)<sup>M</sup>
+- [**Pellet Blast**](/pathfinderRPG/prd/ultimateCombat/spells/pelletBlast.html#_pellet-blast)M
 - [**Phantom Driver**](/pathfinderRPG/prd/ultimateCombat/spells/phantomDriver.html#_phantom-driver)
 - [**Phantom Steed**](/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed)
 - [**Prehensile Pilfer**](/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces/vanaras.html#_prehensile-pilfer)
@@ -439,7 +439,7 @@
 - [**Monstrous Physique II**](/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-ii)
 - [**Moonstruck**](/pathfinderRPG/prd/advanced/spells/moonstruck.html#_moonstruck)
 - [**Named Bullet**](/pathfinderRPG/prd/ultimateCombat/spells/namedBullet.html#_named-bullet)
-- [**Nondetection, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/nondetection.html#_nondetection,-communal)<sup>M</sup>
+- [**Nondetection, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/nondetection.html#_nondetection,-communal)M
 - [**Obsidian Flow**](/pathfinderRPG/prd/ultimateCombat/spells/obsidianFlow.html#_obsidian-flow)
 - [**Overwhelming Grief**](/pathfinderRPG/prd/ultimateMagic/spells/overwhelmingGrief.html#_overwhelming-grief)
 - [**Phantasmal Killer**](/pathfinderRPG/prd/spells/phantasmalKiller.html#_phantasmal-killer)
@@ -548,14 +548,14 @@
 - [**Smug Narcissism**](/pathfinderRPG/prd/ultimateMagic/spells/smugNarcissism.html#_smug-narcissism)
 - [**Sonic Thrust**](/pathfinderRPG/prd/ultimateMagic/spells/sonicThrust.html#_sonic-thrust)
 - [**Soothe Construct**](/pathfinderRPG/prd/ultimateMagic/spells/sootheConstruct.html#_soothe-construct)
-- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)<sup>M</sup>
+- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)M
 - [**Suffocation**](/pathfinderRPG/prd/advanced/spells/suffocation.html#_suffocation)
 - [**Summon Monster V**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)
 - [**Summoner Conduit**](/pathfinderRPG/prd/ultimateCombat/spells/summonerConduit.html#_summoner-conduit)
 - [**Symbol of Pain**](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)
 - [**Symbol of Scrying**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfScrying.html#_symbol-of-scrying)
 - [**Symbol of Sleep**](/pathfinderRPG/prd/spells/symbolOfSleep.html#_symbol-of-sleep)
-- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)<sup>M</sup>
+- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)M
 - [**Telekinesis**](/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis)
 - [**Telepathic Bond**](/pathfinderRPG/prd/spells/telepathicBond.html#_telepathic-bond)
 - [**Teleport**](/pathfinderRPG/prd/spells/teleport.html#_teleport)
@@ -572,7 +572,7 @@
 - [**Wall of Stone**](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)
 - [**Waves of Fatigue**](/pathfinderRPG/prd/spells/wavesOfFatigue.html#_waves-of-fatigue)
 - [**Wind Blades**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/sylphs.html#_wind-blades)
-- [**Wreath of Blades**](/pathfinderRPG/prd/ultimateCombat/spells/wreathOfBlades.html#_wreath-of-blades)<sup>F</sup>
+- [**Wreath of Blades**](/pathfinderRPG/prd/ultimateCombat/spells/wreathOfBlades.html#_wreath-of-blades)F
 
 - [**Acid Fog**](/pathfinderRPG/prd/spells/acidFog.html#_acid-fog)
 - [**Age Resistance**](/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance)
@@ -648,7 +648,7 @@
 - [**Vengeful Outrage**](/pathfinderRPG/prd/ultimateMagic/spells/vengefulOutrage.html#_vengeful-outrage)
 - [**Wall of Iron**](/pathfinderRPG/prd/spells/wallOfIron.html#_wall-of-iron)
 
-- [**Arcane Cannon**](/pathfinderRPG/prd/ultimateCombat/spells/arcaneCannon.html#_arcane-cannon)<sup>F</sup>
+- [**Arcane Cannon**](/pathfinderRPG/prd/ultimateCombat/spells/arcaneCannon.html#_arcane-cannon)F
 - [**Age Resistance, Greater**](/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-greater)
 - [**Arcane Sight, Greater**](/pathfinderRPG/prd/spells/arcaneSight.html#_arcane-sight-greater)
 - [**Banishment**](/pathfinderRPG/prd/spells/banishment.html#_banishment)

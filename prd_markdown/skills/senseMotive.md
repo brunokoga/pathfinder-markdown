@@ -6,10 +6,9 @@ You are skilled at detecting falsehoods and true intentions.
 
 **Check** : A successful check lets you avoid being bluffed (see the Bluff skill). You can also use this skill to determine when âsomething is upâ (that is, something odd is going on) or to assess someone's trustworthiness.
 
-<thead><tr>
-<th>Task</th>
-<th>Sense Motive DC</th>
-</tr></thead><tbody>
+| Task | Sense Motive DC |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Hunch</td>
 <td>20</td>

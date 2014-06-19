@@ -32,13 +32,9 @@ _Similar Area_: You wind up in an area that's visually or thematically similar t
 
 _Mishap_: You and anyone else teleporting with you have gotten âscrambled.â You each take 1d10 points of damage, and you reroll on the chart to see where you wind up. For these rerolls, roll 1d20+80. Each time âMishapâ comes up, the characters take more damage and must reroll.
 
-<thead><tr>
-<th>Familiarity</th>
-<th>On Target</th>
-<th>Off Target</th>
-<th>Similar Area</th>
-<th>Mishap</th>
-</tr></thead><tbody>
+| Familiarity | On Target | Off Target | Similar Area | Mishap |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Very familiar</td>
 <td>01–97</td>

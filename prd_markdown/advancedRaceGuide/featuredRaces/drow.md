@@ -126,18 +126,15 @@ Drow have access to the following equipment.
 
 **Spider Sac** : Despite their name, spider sacs have nothing to do with spiders but rather are alchemical devices with a unique delivery system. Used for climbing as well as combat, these grayish, gourdlike pouches are made of a specially grown fungus with a tough but rubbery exterior. The fungoid is carefully harvested, pierced at one end, hollowed out, and then injected with a strong alchemical adhesive that hardens to a fibrous material almost instantly when exposed to air. When squeezed, a spider sac's adhesive shoots out to a maximum range of 10 feet and sticks to whatever it strikes, whereupon the strand dries instantly into a durable fibrous rope. For the purposes of climbing, treat a spider sac as a grappling hook except that all surfaces are AC 5. A spider sac can also be used as a lasso except with AC 10, 4 hit points, and a DC 24 Strength check to burst. A spider sac is a single-use item.
 
-<caption>Drow Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Spider sac | 30 gp | 1 lb. | 20 |
+[Drow Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Spider sac | 30 gp | 1 lb. | 20 |
 
-<caption>Drow Mounts</caption><thead><tr>
-<th>Mount</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr></thead>| Bat, dire, riding | 300 gp | — |
+[Drow Mounts]
+| Mount | Cost | Weight |
+| --- | --- | --- |
+| Bat, dire, riding | 300 gp | — |
 | Bat, dire, riding (combat trained) | 450 gp | — |
 | Gecko, riding | 300 gp | — |
 | Gecko, riding (combat trained) | 400 gp | — |

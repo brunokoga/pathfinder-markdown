@@ -22,10 +22,10 @@ While the keketars are the highest caste of the protean race, there exist a few 
 
 Many proteans, particularly the imenteshes, have the ability to create and manipulate ripples in reality known as warpwaves. Yet even a protean can't predict what effects a warpwave might have. When a creature is affected by a warpwave, roll 1d20 and consult the table below to see what effect the entropic energies have.
 
-<caption>Table: Warpwave Effects</caption><thead><tr>
-<th>d20</th>
-<th>Warpwave effect</th>
-</tr></thead>| 1 | Target takes 2 Strength damage. |
+[Table: Warpwave Effects]
+| d20 | Warpwave effect |
+| --- | --- |
+| 1 | Target takes 2 Strength damage. |
 | 2 | Target takes 2 Dexterity damage. |
 | 3 | Target takes 2 Constitution damage. |
 | 4 | Target takes 2 Intelligence damage. |

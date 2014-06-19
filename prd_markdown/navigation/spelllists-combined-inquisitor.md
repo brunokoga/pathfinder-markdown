@@ -268,7 +268,7 @@
 - [**Spawn Ward**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/dhampirs.html#_spawn-ward)
 - [**Spell Immunity, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/spellImmunity.html#_spell-immunity,-communal)
 - [**Spell Resistance**](/pathfinderRPG/prd/spells/spellResistance.html#_spell-resistance)
-- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)<sup>M</sup>
+- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)M
 - [**Telepathic Bond**](/pathfinderRPG/prd/spells/telepathicBond.html#_telepathic-bond)
 - [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)
 - [**Unhallow**](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)

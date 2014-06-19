@@ -10,10 +10,9 @@ The archmage is the master of arcane magic, and many of the abilities of this pa
 
 **Bonus Hit Points** : Whenever you gain an archmage tier, you gain 3 bonus hit points. These hit points stack with themselves, and don't affect your overall Hit Dice or other statistics.
 
-<thead><tr>
-<th>Tier</th>
-<th>Path Features</th>
-</tr></thead>| 1st | Archmage arcana, path ability |
+| Tier | Path Features |
+| --- | --- |
+| 1st | Archmage arcana, path ability |
 | 2nd | Path ability |
 | 3rd | Path ability |
 | 4th | Path ability |

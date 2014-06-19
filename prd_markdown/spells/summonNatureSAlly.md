@@ -1,6 +1,6 @@
  **Summon Nature's Ally I**
 
-<caption>Table: Summon Nature's Ally</caption>| 1st Level | Subtype |
+[Table: Summon Nature's Ally]| 1st Level | Subtype |
 | --- | --- |
 | [Dire rat](../monsters/rat.html#_rat-dire) | — |
 | [Dog](../monsters/dog.html#_dog) | — |

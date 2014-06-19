@@ -6,10 +6,9 @@ You are skilled at tending to wounds and ailments.
 
 **Check** : The DC and effect of a Heal check depend on the task you attempt.
 
-<thead><tr>
-<th>Task</th>
-<th>DC</th>
-</tr></thead>| First aid | 15 |
+| Task | DC |
+| --- | --- |
+| First aid | 15 |
 | Long-term care | 15 |
 | Treat wounds from caltrops, _spike growth,_ or _spike stones_ | 15 |
 | Treat deadly wounds | 20 |

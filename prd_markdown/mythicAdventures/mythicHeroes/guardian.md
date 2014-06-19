@@ -8,10 +8,9 @@ Not all mythic characters seek glory and fame for themselves. Some take a more h
 
 **Bonus Hit Points** : Whenever you gain a guardian tier, you gain 5 bonus hit points. These hit points stack with themselves, and don't affect your overall Hit Dice or other statistics.
 
-<thead><tr>
-<th>Tier</th>
-<th>Path Features</th>
-</tr></thead>| 1st | Guardian's call, path ability |
+| Tier | Path Features |
+| --- | --- |
+| 1st | Guardian's call, path ability |
 | 2nd | Path ability |
 | 3rd | Path ability |
 | 4th | Path ability |

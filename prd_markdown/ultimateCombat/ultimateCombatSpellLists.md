@@ -2,7 +2,7 @@
 
 Blasts of explosive energies, eldritch enhancements, and allies summoned from other realities often prove just as vital to success in battle as skill with a blade and precision with a bow. The lists presented here summarize all of the new spells presented in this book, except for spells that interact with the optional wounds and vitality subsystem. The spells for this subsystem are presented in that section.
 
-An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the spell list denotes a material or focus component not normally included in a spell component pouch.
+An M or F appearing at the end of a spell's name in the spell list denotes a material or focus component not normally included in a spell component pouch.
 
 **Order of Presentation** : The first spell lists presented are the lists of spells separated by class and level. These include the spell name and a brief and incomplete description of the spell. Immediately after those lists is a complete list of all spells with full descriptions of those spells listed. Spells in all lists are presented in alphabetical order, except when a spell's name begins with âcommunal,â âgreater,â âlesser,â or âmass,â in which case it is alphabetized under the base spell name.
 
@@ -120,7 +120,7 @@ Witch Spells
 
 **[Languid Bomb Admixture](spells/languidBombAdmixture.html#_languid-bomb-admixture)** : Empowers bombs you throw to cause fatigue in those directly hit or splashed by the bomb.
 
-**[Stoneskin, Communal](spells/stoneskin.html#_stoneskin,-communal)** <sup><b>M</b></sup>: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
+**[Stoneskin, Communal](spells/stoneskin.html#_stoneskin,-communal)**** M**: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
 
 ## 6th-Level Alchemist Spells
 
@@ -178,7 +178,7 @@ Witch Spells
 
 **[Magic Siege Engine, Greater](spells/magicSiegeEngine.html#_magic-siege-engine,-greater)** : Siege engine gains +1 on targeting and damage rolls for every four caster levels.
 
-**[Nondetection, Communal](spells/nondetection.html#_nondetection,-communal)** <sup><b>M</b></sup>: As _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_, but you may divide the duration among creatures touched.
+**[Nondetection, Communal](spells/nondetection.html#_nondetection,-communal)**** M**: As _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_, but you may divide the duration among creatures touched.
 
 # Bard Spells 
 
@@ -328,7 +328,7 @@ Witch Spells
 
 **[Spell Immunity, Communal](spells/spellImmunity.html#_spell-immunity,-communal)** : As _ [spell immunity](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity)_, but you may divide the duration among creatures touched.
 
-**[Symbol of Striking](spells/symbolOfStriking.html#_symbol-of-striking)** <sup><b>M</b></sup>: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
+**[Symbol of Striking](spells/symbolOfStriking.html#_symbol-of-striking)**** M**: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
 
 **[Tongues, Communal](spells/tongues.html#_tongues,-communal)** : As _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_, but you may divide the duration among creatures touched.
 
@@ -412,7 +412,7 @@ Witch Spells
 
 **[Dust Form](spells/dustForm.html#_dust-form)** : You become an incorporeal creature of dust for a short period of time.
 
-**[Stoneskin, Communal](spells/stoneskin.html#_stoneskin,-communal)** <sup><b>M</b></sup>: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
+**[Stoneskin, Communal](spells/stoneskin.html#_stoneskin,-communal)**** M**: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
 
 **[Tar Pool](spells/tarPool.html#_tar-pool)** : Converts the top layer of the ground into hot tar.
 
@@ -530,7 +530,7 @@ Witch Spells
 
 **[Spell Immunity, Communal](spells/spellImmunity.html#_spell-immunity,-communal)** : As _ [spell immunity](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity)_, but you may divide the duration among creatures touched.
 
-**[Stoneskin, Communal](spells/stoneskin.html#_stoneskin,-communal)** <sup><b>M</b></sup>: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
+**[Stoneskin, Communal](spells/stoneskin.html#_stoneskin,-communal)**** M**: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
 
 ## 6th-Level Inquisitor Spells
 
@@ -564,11 +564,11 @@ Witch Spells
 
 **[Unerring Weapon](spells/unerringWeapon.html#_unerring-weapon)** : Grants a +2 bonus, +1 per four caster levels, on attack rolls to confirm a critical hit.
 
-**[Warding Weapon](spells/wardingWeapon.html#_warding-weapon)** <sup><b>F</b></sup>: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
+**[Warding Weapon](spells/wardingWeapon.html#_warding-weapon)**** F**: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
 
 ## 2nd-Level Magus Spells
 
-**[Ablative Barrier](spells/ablativeBarrier.html#_ablative-barrier)** <sup><b>F</b></sup>: Surrounds the target with layers of force.
+**[Ablative Barrier](spells/ablativeBarrier.html#_ablative-barrier)**** F**: Surrounds the target with layers of force.
 
 **[Animal Aspect](spells/animalAspect.html#_animal-aspect)** : You gain some of the beneficial qualities of an animal.
 
@@ -590,7 +590,7 @@ Witch Spells
 
 **[Tactical Acumen](spells/tacticalAcumen.html#_tactical-acumen)** : You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
 
-**[Telekinetic Assembly](spells/telekineticAssembly.html#_telekinetic-assembly)** <sup><b>F</b></sup>: Assembles a siege engine using 1 fewer worker for every two caster levels.
+**[Telekinetic Assembly](spells/telekineticAssembly.html#_telekinetic-assembly)**** F**: Assembles a siege engine using 1 fewer worker for every two caster levels.
 
 **[Twisted Space](spells/twistedSpace.html#_twisted-space)** : Targeted creature's attacks target a random square instead of the intended target.
 
@@ -604,13 +604,13 @@ Witch Spells
 
 ## 4th-Level Magus Spells
 
-**[Pellet Blast](spells/pelletBlast.html#_pellet-blast)** <sup><b>M</b></sup>: Creates an explosion of conjured metal pellets.
+**[Pellet Blast](spells/pelletBlast.html#_pellet-blast)**** M**: Creates an explosion of conjured metal pellets.
 
-**[Wreath of Blades](spells/wreathOfBlades.html#_wreath-of-blades)** <sup><b>F</b></sup>: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
+**[Wreath of Blades](spells/wreathOfBlades.html#_wreath-of-blades)**** F**: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
 
 ## 5th-Level Magus Spells
 
-**[Symbol of Striking](spells/symbolOfStriking.html#_symbol-of-striking)** <sup><b>M</b></sup>: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
+**[Symbol of Striking](spells/symbolOfStriking.html#_symbol-of-striking)**** M**: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
 
 ## 6th-Level Magus Spells
 
@@ -774,7 +774,7 @@ Witch Spells
 
 **[Damp Powder](spells/dampPowder.html#_damp-powder)** : Ruins ammunition loaded in the targeted firearm.
 
-**[Fabricate Bullets](spells/fabricateBullets.html#_fabricate-bullets-)** <sup><b>M</b></sup>: Converts 1 pound of metal into ammunition.
+**[Fabricate Bullets](spells/fabricateBullets.html#_fabricate-bullets-)**** M**: Converts 1 pound of metal into ammunition.
 
 **[Illusion of Calm](spells/illusionOfCalm.html#_illusion-of-calm)** : You appear to be standing still, even when you take some actions.
 
@@ -824,7 +824,7 @@ Witch Spells
 
 **[Endure Elements, Communal](spells/endureElements.html#_endure-elements,-communal)** : As _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, but you may divide the duration among creatures touched.
 
-**[Fiery Shuriken](spells/fieryShuriken.html#_fiery-shuriken-)** <sup><b>M</b></sup>: Calls forth several fiery projectiles ready to be flung at opponents.
+**[Fiery Shuriken](spells/fieryShuriken.html#_fiery-shuriken-)**** M**: Calls forth several fiery projectiles ready to be flung at opponents.
 
 **[Frost Fall](spells/frostFall.html#_frost-fall)** : The area is covered in a chilling frost.
 
@@ -862,17 +862,17 @@ Witch Spells
 
 **[Tactical Acumen](spells/tacticalAcumen.html#_tactical-acumen)** : You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
 
-**[Telekinetic Assembly](spells/telekineticAssembly.html#_telekinetic-assembly)** <sup><b>F</b></sup>: Assembles a siege engine using 1 fewer worker for every two caster levels.
+**[Telekinetic Assembly](spells/telekineticAssembly.html#_telekinetic-assembly)**** F**: Assembles a siege engine using 1 fewer worker for every two caster levels.
 
 **[Thunder Fire](spells/thunderFire.html#_thunder-fire)** : Ammunition in the targeted firearm deafens opponents.
 
 **[Twisted Space](spells/twistedSpace.html#_twisted-space)** : Targeted creature's attacks target a random square instead of the intended target.
 
-**[Warding Weapon](spells/wardingWeapon.html#_warding-weapon)** <sup><b>F</b></sup>: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
+**[Warding Weapon](spells/wardingWeapon.html#_warding-weapon)**** F**: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
 
 ## 3rd-Level Sorcerer/Wizard Spells
 
-**[Ablative Barrier](spells/ablativeBarrier.html#_ablative-barrier)** <sup><b>F</b></sup>: Surrounds the target with layers of force.
+**[Ablative Barrier](spells/ablativeBarrier.html#_ablative-barrier)**** F**: Surrounds the target with layers of force.
 
 **[Chain of Perdition](spells/chainOfPerdition.html#_chain-of-perdition)** : Creates a floating chain of force.
 
@@ -886,7 +886,7 @@ Witch Spells
 
 **[Locate Weakness](spells/locateWeakness.html#_locate-weakness)** : You roll damage twice when you roll damage for a critical hit and take the best damage.
 
-**[Pellet Blast](spells/pelletBlast.html#_pellet-blast)** <sup><b>M</b></sup>: Creates an explosion of conjured metal pellets.
+**[Pellet Blast](spells/pelletBlast.html#_pellet-blast)**  **M** : Creates an explosion of conjured metal pellets.
 
 **[Phantom Driver](spells/phantomDriver.html#_phantom-driver)** : Conjures a phantom to drive vehicles.
 
@@ -914,7 +914,7 @@ Witch Spells
 
 **[Named Bullet](spells/namedBullet.html#_named-bullet)** : Imbues ammunition with accuracy against a specific creature type.
 
-**[Nondetection, Communal](spells/nondetection.html#_nondetection,-communal)** <sup><b>M</b></sup>: As _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_, but you may divide the duration among creatures touched.
+**[Nondetection, Communal](spells/nondetection.html#_nondetection,-communal)**** M**: As _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_, but you may divide the duration among creatures touched.
 
 **[Obsidian Flow](spells/obsidianFlow.html#_obsidian-flow)** : Converts the surface of the ground into molten glass.
 
@@ -938,13 +938,13 @@ Witch Spells
 
 **[Hostile Juxtaposition](spells/hostileJuxtaposition.html#_hostile-juxtaposition)** : You create a dimensional link with a targeted creature, and switch spots with it.
 
-**[Stoneskin, Communal](spells/stoneskin.html#_stoneskin,-communal)** <sup><b>M</b></sup>: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
+**[Stoneskin, Communal](spells/stoneskin.html#_stoneskin,-communal)**** M**: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
 
 **[Summoner Conduit](spells/summonerConduit.html#_summoner-conduit)** : The target eidolon's summoner takes damage whenever the eidolon does.
 
-**[Symbol of Striking](spells/symbolOfStriking.html#_symbol-of-striking)** <sup><b>M</b></sup>: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
+**[Symbol of Striking](spells/symbolOfStriking.html#_symbol-of-striking)**** M**: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
 
-**[Wreath of Blades](spells/wreathOfBlades.html#_wreath-of-blades)** <sup><b>F</b></sup>: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
+**[Wreath of Blades](spells/wreathOfBlades.html#_wreath-of-blades)**** F**: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
 
 ## 6th-Level Sorcerer/Wizard Spells
 
@@ -956,7 +956,7 @@ Witch Spells
 
 ## 7th-Level Sorcerer/Wizard Spells
 
-**[Arcane Cannon](spells/arcaneCannon.html#_arcane-cannon)** <sup><b>F</b></sup>: Your focus becomes a magical cannon that fires on its own.
+**[Arcane Cannon](spells/arcaneCannon.html#_arcane-cannon)**** F**: Your focus becomes a magical cannon that fires on its own.
 
 **[Hostile Juxtaposition, Greater](spells/hostileJuxtaposition.html#_hostile-juxtaposition,-greater)** : You may target one creature for every four of your caster levels.
 
@@ -1000,11 +1000,11 @@ Witch Spells
 
 **[Twisted Space](spells/twistedSpace.html#_twisted-space)** : Targeted creature's attacks target a random square instead of the intended target.
 
-**[Warding Weapon](spells/wardingWeapon.html#_warding-weapon)** <sup><b>F</b></sup>: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
+**[Warding Weapon](spells/wardingWeapon.html#_warding-weapon)**** F**: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
 
 ## 3rd-Level Summoner Spells
 
-**[Pellet Blast](spells/pelletBlast.html#_pellet-blast)** <sup><b>M</b></sup>: Creates an explosion of conjured metal pellets.
+**[Pellet Blast](spells/pelletBlast.html#_pellet-blast)**** M**: Creates an explosion of conjured metal pellets.
 
 **[Life Conduit, Improved](spells/lifeConduit.html#_life-conduit,-improved)** : Transfers 2d6 hit points to your eidolon as a swift action.
 
@@ -1026,7 +1026,7 @@ Witch Spells
 
 **[Protection from Energy, Communal](spells/protectionFromEnergy.html#_protection-from-energy,-communal)** : As _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, but you may divide the duration among creatures touched.
 
-**[Stoneskin, Communal](spells/stoneskin.html#_stoneskin,-communal)** <sup><b>M</b></sup>: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
+**[Stoneskin, Communal](spells/stoneskin.html#_stoneskin,-communal)**** M**: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
 
 **[Summoner Conduit](spells/summonerConduit.html#_summoner-conduit)** : The target takes damage whenever its summoned creature does.
 
@@ -1040,7 +1040,7 @@ Witch Spells
 
 **[Tar Pool](spells/tarPool.html#_tar-pool)** : Converts the top layer of the ground into hot tar.
 
-**[Wreath of Blades](spells/wreathOfBlades.html#_wreath-of-blades)** <sup><b>F</b></sup>: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
+**[Wreath of Blades](spells/wreathOfBlades.html#_wreath-of-blades)**** F**: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
 
 ## 6th-Level Summoner Spells
 
@@ -1132,9 +1132,9 @@ Witch Spells
 
 **[Summoner Conduit](spells/summonerConduit.html#_summoner-conduit)** : The target takes damage whenever its summoned creature does.
 
-**[Symbol of Striking](spells/symbolOfStriking.html#_symbol-of-striking)** <sup><b>M</b></sup>: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
+**[Symbol of Striking](spells/symbolOfStriking.html#_symbol-of-striking)**** M**: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
 
-**[Wreath of Blades](spells/wreathOfBlades.html#_wreath-of-blades)** <sup><b>F</b></sup>: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
+**[Wreath of Blades](spells/wreathOfBlades.html#_wreath-of-blades)**** F**: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
 
 ## 6th-Level Witch Spells
 

@@ -24,10 +24,10 @@ Outside your Sphere of Influence, your Fame is 0. You can attempt to expand your
 
 The following actions and conditions alter your Charisma, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy), or [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) check modifier for the purpose of expanding your Sphere of Influence.
 
-<caption>Sphere of Influence Modifiers</caption><thead><tr>
-<th>Action</th>
-<th>Check Modifier</th>
-</tr></thead>| Allies or minions spread tales of your deeds before you arrive | +5 |
+[Sphere of Influence Modifiers]
+| Action | Check Modifier |
+| --- | --- |
+| Allies or minions spread tales of your deeds before you arrive | +5 |
 | A bard spreads tales or songs of your deeds before you arrive | + 1/2 bard level |
 | You have NPC contacts in the settlement | +1 |
 | You have enemies in the settlement | +1 |
@@ -146,33 +146,33 @@ With an alter ego, you create an artificial persona to show the public. You wear
 
 If it's revealed that your two identities are actually the same person, your Fame and Prestige Points may change when dealing with those who have found out. For example, a notorious bandit changes her name and becomes a humble village healer. If her former life is made public, the villagers react to her according to her (larger, negative) Fame as a bandit, but she also loses face with bandits, who don't respect her choice to live peacefully and react according to her (lower, positive) Fame as a village healer.
 
-<caption>Fame Events</caption><thead><tr>
-<th>Event</th>
-<th>Fame Modifier</th>
-</tr></thead>| _Positive Events_ |
-| Acquire a noteworthy treasure from a worthy foe<sup>1</sup> | +1 |
+[Fame Events]
+| Event | Fame Modifier |
+| --- | --- |
+| _Positive Events_ |
+| Acquire a noteworthy treasure from a worthy foeⁱ | +1 |
 | Confirm two successive critical hits in a CR-appropriate encounter | +1 |
 | Consecrate a temple to your deity | +1 |
-| [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) a powerful magic item | +1<sup>2</sup> |
+| [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) a powerful magic item | +1⁲ |
 | Gain a level in a PC class | +1 |
 | Locate and disarm three or more CR-appropriate traps in a row | +1 |
-| Make a noteworthy historical, scientific, or magical discovery<sup>3</sup> | +1 |
-| Own a legendary item or artifact | +1<sup>4</sup> |
+| Make a noteworthy historical, scientific, or magical discovery⁳ | +1 |
+| Own a legendary item or artifact | +1⁴ |
 | Receive a medal or similar honor from a public figure | +1 |
 | Return a significant magic item or relic to its owner | +1 |
 | Sack the stronghold of a powerful noble | +1 |
-| Single-handedly defeat an opponent with a CR higher than your level | +1<sup>5</sup> |
+| Single-handedly defeat an opponent with a CR higher than your level | +1⁵ |
 | Win a combat encounter with a CR of your APL + 3 or more | +1 |
 | Defeat in combat a person who publicly defamed you | +2 |
-| Succeed at a DC 30 or higher [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) check to create a work of art or masterwork item<sup>6</sup> | +2 |
-| Succeed at a DC 30 or higher public [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) or [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) check<sup>6</sup> | +2 |
-| Succeed at a DC 30 or higher public [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) check<sup>6</sup> | +2 |
-| Complete an adventure with a CR appropriate for your APL<sup>7</sup> | +3 |
+| Succeed at a DC 30 or higher [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) check to create a work of art or masterwork item⁶ | +2 |
+| Succeed at a DC 30 or higher public [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) or [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) check⁶ | +2 |
+| Succeed at a DC 30 or higher public [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) check⁶ | +2 |
+| Complete an adventure with a CR appropriate for your APL⁷ | +3 |
 | Earn a formal title (lady, lord, knight, and so on) | +3 |
 | Defeat a key rival in combat | +5 |
 | _Negative Events_ |
 | Be convicted of a petty crime | —1 |
-| Keep company with someone of disreputable character | —1<sup>8</sup> |
+| Keep company with someone of disreputable character | —1⁸ |
 | Be convicted of a serious nonviolent crime | —2 |
 | Publicly flee an encounter of a CR lower than your APL | —3 |
 | Attack innocent people | —5 |
@@ -180,20 +180,11 @@ If it's revealed that your two identities are actually the same person, your Fam
 | Publicly lose an encounter of a CR equal to or lower than your APL | —5 |
 | Be convicted of murder | —8 |
 | Be convicted of treason | —10 |
-<tfoot><tr><td colspan="2">
-<sup>1</sup> This includes claiming a treasure from a defeated monster or rival. A villainous character may include stealing such an item instead of obtaining it fairly.<br>
-<sup>2</sup> Per 40,000 gp of the item's price.<br>
-<sup>3</sup> Such as finding the ruins of a lost city, recovering forgotten lore, or creating a useful new spell.<br>
-<sup>4</sup> Per 40,000 gp of the item's price. Artifacts with no price count as 200,000 gp (5 PP) for this purpose.<br>
-<sup>5</sup> Per CR the opponent is above your level.<br>
-<sup>6</sup> You may increase your Fame in this way no more than once per month.<br>
-<sup>7</sup> Approximately the length of a Pathfinder Module or Pathfinder Adventure Path adventure.<br>
-<sup>8</sup> Per week of close association.</td></tr></tfoot>
 
-<caption>Negative Fame Reactions</caption><thead><tr>
-<th>Fame</th>
-<th>Reaction</th>
-</tr></thead>| —5 | Merchants, hirelings, and innkeepers overcharge you by 10% to discourage you from doing business in their community. |
+[Negative Fame Reactions]
+| Fame | Reaction |
+| --- | --- |
+| —5 | Merchants, hirelings, and innkeepers overcharge you by 10% to discourage you from doing business in their community. |
 | —8 | Merchants, hirelings, and innkeepers refuse to accept your business. If you enter a business, you are immediately asked to leave. If you refuse, the owner calls for the authorities or locals to throw you out. |
 | —10 | When you approach, businesses shutter their windows and bar their doors. Most citizens refuse to speak with you. Others request that you leave immediately. If you remain for longer than 24 hours or act out against the citizens, your Fame decreases by 5 and the citizens form a mob to run you out of town. |
 | —15 | Incensed that you display the gall to enter their community, an angry mob gathers. If you do not leave within a few minutes, the mob starts pelting you with fruit, sticks, and rocks. |

@@ -10,11 +10,10 @@ Rods are scepterlike devices that have unique magical powers and usually do not 
 
 **Metamagic Rods** : Rods in this special category hold the power to grant metamagic feats to a wielder's spells.
 
-<caption>Rods</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Medium Rod</th>
-<th>Price</th>
-</tr></thead>| 01 | _Metamagic, merciful, minor_ | 1,500 gp |
+[Rods]
+| d% | Lesser Medium Rod | Price |
+| --- | --- | --- |
+| 01 | _Metamagic, merciful, minor_ | 1,500 gp |
 | 02–34 | _Metamagic (+1 spell level), minor_ | 3,000 gp |
 | 35–49 | _Immovable rod_ | 5,000 gp |
 | 50–59 | _Rod of thunderous force_ | 5,400 gp |
@@ -24,11 +23,10 @@ Rods are scepterlike devices that have unique magical powers and usually do not 
 | 72–81 | _Rod of metal and mineral detection_ | 10,500 gp |
 | 82–86 | _Metamagic (+1 spell level), normal_ | 11,000 gp |
 | 87–100 | _Rod of cancellation_ | 11,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Rod</th>
-<th>Price</th>
-</tr></thead>| 01–03 | _Conduit rod_ | 12,000 gp |
+
+| d% | Greater Medium Rod | Price |
+| --- | --- | --- |
+| 01–03 | _Conduit rod_ | 12,000 gp |
 | 04–06 | _Grounding rod_ | 12,000 gp |
 | 07–10 | _Rod of the wayang_ | 12,000 gp |
 | 11–18 | _Rod of wonder_ | 12,000 gp |
@@ -44,11 +42,10 @@ Rods are scepterlike devices that have unique magical powers and usually do not 
 | 81–86 | _Rod of beguiling_ | 18,000 gp |
 | 87–90 | _Rod of nettles_ | 18,000 gp |
 | 91–100 | _Rod of the viper_ | 19,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Rod</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _Suzerain scepter_ | 20,000 gp |
+
+| d% | Lesser Major Rod | Price |
+| --- | --- | --- |
+| 01–04 | _Suzerain scepter_ | 20,000 gp |
 | 05–06 | _Fiery nimbus rod_ | 22,305 gp |
 | 07–13 | _Rod of enemy detection_ | 23,500 gp |
 | 14–27 | _Metamagic (+1 spell level), greater_ | 24,500 gp |
@@ -62,11 +59,10 @@ Rods are scepterlike devices that have unique magical powers and usually do not 
 | 80–83 | _Metamagic, quicken, minor_ | 35,000 gp |
 | 84–94 | _Rod of negation_ | 37,000 gp |
 | 95–100 | _Rod of steadfast resolve_ | 38,305 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Rod</th>
-<th>Price</th>
-</tr></thead>| 01–08 | _Rod of absorption_ | 50,000 gp |
+
+| d% | Greater Major Rod | Price |
+| --- | --- | --- |
+| 01–08 | _Rod of absorption_ | 50,000 gp |
 | 09–11 | _Rod of flailing_ | 50,000 gp |
 | 12–26 | _Metamagic (+3 spell level), normal_ | 54,000 gp |
 | 27–28 | _Rod of rulership_ | 60,000 gp |
@@ -591,10 +587,9 @@ Rod Of Wonder
 
 A rod of wonder is a strange and unpredictable device that randomly generates any number of weird effects each time it is used. Activating the rod is a standard action. Typical powers of the rod include the following.
 
-<thead><tr>
-<th>d%</th>
-<th>Wondrous Effect</th>
-</tr></thead>| 01–05 | Target affected by _ [slow](/pathfinderRPG/prd/spells/slow.html#_slow)_ for 10 rounds (Will DC 15 negates). |
+| d% | Wondrous Effect |
+| --- | --- |
+| 01–05 | Target affected by _ [slow](/pathfinderRPG/prd/spells/slow.html#_slow)_ for 10 rounds (Will DC 15 negates). |
 | 06–10 | _ [Faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ surrounds the target. |
 | 11–15 | Deludes the wielder for 1 round into believing the rod functions as indicated by a second die roll (no save). |
 | 16–20 | _ [Gust of wind](/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind)_, but at windstorm force (Fortitude DC 14 negates). |
@@ -693,10 +688,10 @@ Possession of a metamagic rod does not confer the associated feat on the owner, 
 
 **Lesser and Greater Metamagic Rods** : Normal metamagic rods can be used with spells of 6th level or lower. Lesser rods can be used with spells of 3rd level or lower, while greater rods can be used with spells of 9th level or lower.
 
-<caption>Metamagic Rods (+1 Spell Level)</caption><thead><tr>
-<th>d%</th>
-<th>Metamagic Rod Type</th>
-</tr></thead>| 01–04 | [Bouncing Spell](/pathfinderRPG/prd/advanced/advancedFeats.html#_bouncing-spell) |
+[Metamagic Rods (+1 Spell Level)]
+| d% | Metamagic Rod Type |
+| --- | --- |
+| 01–04 | [Bouncing Spell](/pathfinderRPG/prd/advanced/advancedFeats.html#_bouncing-spell) |
 | 05–09 | [Disruptive Spell](/pathfinderRPG/prd/advanced/advancedFeats.html#_disruptive-spell) |
 | 10–14 | [Ectoplasmic Spell](/pathfinderRPG/prd/advanced/advancedFeats.html#_ectoplasmic-spell) |
 | 15–19 | [Elemental Spell](/pathfinderRPG/prd/advanced/advancedFeats.html#_elemental-spell) |
@@ -713,10 +708,9 @@ Possession of a metamagic rod does not confer the associated feat on the owner, 
 | 84–95 | [Silent Spell](/pathfinderRPG/prd/feats.html#_silent-spell) |
 | 96–100 | [Toppling Spell](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_toppling-spell) |
 
-<caption>Metamagic Rods (+2 Spell Level)</caption><thead><tr>
-<th>d%</th>
-<th>Metamagic Rod Type</th>
-</tr></thead>
+[Metamagic Rods (+2 Spell Level)]
+| d% | Metamagic Rod Type |
+| --- | --- |
 | 01–11 | [Burning Spell](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_burning-spell) |
 | 12–22 | [Concussive Spell](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_concussive-spell) |
 | 23–40 | [Empower Spell](/pathfinderRPG/prd/feats.html#_empower-spell) |
@@ -726,10 +720,10 @@ Possession of a metamagic rod does not confer the associated feat on the owner, 
 | 76–88 | [Threnodic Spell](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_threnodic-spell) |
 | 89–100 | [Thundering Spell](/pathfinderRPG/prd/advanced/advancedFeats.html#_thundering-spell) |
 
-<caption>Metamagic Rods (+3 Spell Level)</caption><thead><tr>
-<th>d%</th>
-<th>Metamagic Rod Type</th>
-</tr></thead>| 01–20 | [Dazing Spell](/pathfinderRPG/prd/advanced/advancedFeats.html#_dazing-spell) |
+[Metamagic Rods (+3 Spell Level)]
+| d% | Metamagic Rod Type |
+| --- | --- |
+| 01–20 | [Dazing Spell](/pathfinderRPG/prd/advanced/advancedFeats.html#_dazing-spell) |
 | 21–40 | [Echoing Spell](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_echoing-spell) |
 | 41–70 | [Maximize Spell](/pathfinderRPG/prd/feats.html#_maximize-spell) |
 | 71–100 | [Widen Spell](/pathfinderRPG/prd/feats.html#_widen-spell) |

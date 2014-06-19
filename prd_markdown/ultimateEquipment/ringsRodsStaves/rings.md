@@ -10,11 +10,10 @@ A character can only effectively wear two magic rings. A third magic ring doesn'
 
 **Special Qualities:** Roll d%. A result of 01 indicates the ring is intelligent, 02–31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32–100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (core rulebook 532). rings with charges can never be intelligent.
 
-<caption>Rings</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Ring</th>
-<th>Price</th>
-</tr></thead>| 01–07 | _Dungeon ring, prisoner's_ | 250 gp |
+[Rings]
+| d% | Lesser Minor Ring | Price |
+| --- | --- | --- |
+| 01–07 | _Dungeon ring, prisoner's_ | 250 gp |
 | 08–16 | _Ring of arcane signets_ | 1,000 gp |
 | 17–25 | _Ring of spell knowledge I_ | 1,500 gp |
 | 26–40 | _Ring of protection +1_ | 2,000 gp |
@@ -25,22 +24,20 @@ A character can only effectively wear two magic rings. A third magic ring doesn'
 | 76–84 | _Ring of sustenance_ | 2,500 gp |
 | 85–93 | _Ring of swimming_ | 2,500 gp |
 | 94–100 | _Ring of ferocious action_ | 3,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Ring</th>
-<th>Price</th>
-</tr></thead>| 01–15 | _Ring of counterspells_ | 4,000 gp |
+
+| d% | Greater Minor Ring | Price |
+| --- | --- | --- |
+| 01–15 | _Ring of counterspells_ | 4,000 gp |
 | 16–25 | _Ring of maniacal devices_ | 5,000 gp |
 | 26–35 | _Ring of rat fangs_ | 5,000 gp |
 | 36–52 | _Ring of sacred mistletoe_ | 6,000 gp |
 | 53–69 | _Ring of spell knowledge II_ | 6,000 gp |
 | 70–86 | _Ring of swarming stabs_ | 6,000 gp |
 | 87–100 | _Ring of grit mastery_ | 6,840 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Ring</th>
-<th>Price</th>
-</tr></thead>| 01–02 | _Ring of forcefangs_ | 8,000 gp |
+
+| d% | Lesser Medium Ring | Price |
+| --- | --- | --- |
+| 01–02 | _Ring of forcefangs_ | 8,000 gp |
 | 03–06 | _Ring of mind shielding_ | 8,000 gp |
 | 07–11 | _Ring of protection +2_ | 8,000 gp |
 | 12–13 | _Ring of strength sapping_ | 8,000 gp |
@@ -71,11 +68,10 @@ A character can only effectively wear two magic rings. A third magic ring doesn'
 | 86–89 | _Ring of water walking_ | 15,000 gp |
 | 90–95 | _Dungeon ring, jailer's_ | 16,000 gp |
 | 96–100 | _Ring of revelation, greater_ | 16,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Ring</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _Ring of inner fortitude, minor_ | 18,000 gp |
+
+| d% | Greater Medium Ring | Price |
+| --- | --- | --- |
+| 01–04 | _Ring of inner fortitude, minor_ | 18,000 gp |
 | 05–16 | _Ring of protection +3_ | 18,000 gp |
 | 17–26 | _Ring of spell storing, minor_ | 18,000 gp |
 | 27–30 | _Ring of energy shroud_ | 19,500 gp |
@@ -87,11 +83,10 @@ A character can only effectively wear two magic rings. A third magic ring doesn'
 | 69–80 | _Ring of evasion_ | 25,000 gp |
 | 81–88 | _Ring of x-ray vision_ | 25,000 gp |
 | 89–100 | _Ring of blinking_ | 27,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Ring</th>
-<th>Price</th>
-</tr></thead>| 01–09 | _Ring of energy resistance, major_ | 28,000 gp |
+
+| d% | Lesser Major Ring | Price |
+| --- | --- | --- |
+| 01–09 | _Ring of energy resistance, major_ | 28,000 gp |
 | 10–16 | _Ring of the ecclesiarch_ | 28,500 gp |
 | 17–33 | _Ring of protection +4_ | 32,000 gp |
 | 34–39 | _Ring of return_ | 33,600 gp |
@@ -100,11 +95,10 @@ A character can only effectively wear two magic rings. A third magic ring doesn'
 | 71–75 | _Ring of inner fortitude, major_ | 42,000 gp |
 | 76–92 | _Ring of energy resistance, greater_ | 44,000 gp |
 | 93–100 | _Ring of delayed doom_ | 45,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Ring</th>
-<th>Price</th>
-</tr></thead>| 01–06 | _Ring of friend shield_ | 50,000 gp |
+
+| d% | Greater Major Ring | Price |
+| --- | --- | --- |
+| 01–06 | _Ring of friend shield_ | 50,000 gp |
 | 07–18 | _Ring of protection +5_ | 50,000 gp |
 | 19–27 | _Ring of shooting stars_ | 50,000 gp |
 | 28–37 | _Ring of spell storing_ | 50,000 gp |
@@ -337,10 +331,9 @@ The wearer of the ring is able to converse with creatures from the plane to whic
 
 The possessor of a ring of elemental command takes a saving throw penalty as follows.
 
-<thead><tr>
-<th>Element</th>
-<th>Saving Throw Penalty</th>
-</tr></thead>| Air | –2 against earth-based effects |
+| Element | Saving Throw Penalty |
+| --- | --- |
+| Air | –2 against earth-based effects |
 | Earth | –2 against air- or electricity-based effects |
 | Fire | –2 against water- or cold-based effects |
 | Water | –2 against fire-based effects |
@@ -748,10 +741,9 @@ This ring has two modes of operation: one for when the wearer is in dim light or
 
 The first special function, ball lightning, releases one to four balls of lightning (ring wearer's choice). These glowing globes resemble _ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, and the wearer controls them similarly (see the _ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_ spell description). The spheres have a 120-foot range and a duration of 4 rounds. They can be moved at 120 feet per round. Each sphere is about 3 feet in diameter, and any creature who comes within 5 feet of one causes its charge to dissipate, taking electricity damage in the process according to the number of balls created.
 
-<thead><tr>
-<th>Number of Balls</th>
-<th>Damage per Ball</th>
-</tr></thead>| 1 lightning ball | 2d6 points of electricity damage |
+| Number of Balls | Damage per Ball |
+| --- | --- |
+| 1 lightning ball | 2d6 points of electricity damage |
 | 2 lightning balls | 3d6 points of electricity damage |
 | 3 lightning balls | 2d6 points of electricity damage |
 | 4 lightning balls | 1d6 points of electricity damage |

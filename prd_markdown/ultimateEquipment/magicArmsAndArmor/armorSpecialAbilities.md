@@ -22,10 +22,10 @@ As with armor, special abilities built into the shield add to the market value i
 
 **Armor for Unusual Creatures** : The cost of armor for non-humanoid creatures, as well as for creatures who are neither Small nor Medium, varies. The cost of the masterwork quality and any magical enhancement remains the same.
 
-<caption>Armor and Shield Pricing by Bonus</caption><thead><tr>
-<th>Armor or Shield Bonus</th>
-<th>Base Price</th>
-</tr></thead>| +1 | 1,000 gp |
+[Armor and Shield Pricing by Bonus]
+| Armor or Shield Bonus | Base Price |
+| --- | --- |
+| +1 | 1,000 gp |
 | +2 | 4,000 gp |
 | +3 | 9,000 gp |
 | +4 | 16,000 gp |
@@ -35,24 +35,23 @@ As with armor, special abilities built into the shield add to the market value i
 | +8\* | 64,000 gp |
 | +9\* | 81,000 gp |
 | +10\* | 100,000 gp |
-<tfoot><tr><td colspan="2" style="white-space: normal;">* An armor or shield can't have an enhancement bonus higher than +5.<br>Use these lines to determine price when special abilities that count as additional bonuses are added in.</td></tr></tfoot>
 
-<caption>Magic Armor And Shields</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Armor or Shield</th>
-</tr></thead>| 01–80 | +1 armor or shield |
+[Magic Armor And Shields]
+| d% | Lesser Minor Armor or Shield |
+| --- | --- |
+| 01–80 | +1 armor or shield |
 | 81–100 | Lesser minor specific armor or shield |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Armor of Shield</th>
-</tr></thead>| 01–26 | +1 armor or shield |
+
+| d% | Greater Minor Armor of Shield |
+| --- | --- |
+| 01–26 | +1 armor or shield |
 | 27–53 | +2 armor or shield |
 | 54–80 | +1 armor or shield with one +1 special ability\* |
 | 81–100 | Greater minor specific armor or shield |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Armor or Shield</th>
-</tr></thead>| 01–10 | +1 armor or shield |
+
+| d% | Lesser Medium Armor or Shield |
+| --- | --- |
+| 01–10 | +1 armor or shield |
 | 11–20 | +2 armor or shield |
 | 21–32 | +3 armor or shield |
 | 33–44 | +1 armor or shield with one +1 special ability\* |
@@ -60,10 +59,10 @@ As with armor, special abilities built into the shield add to the market value i
 | 57–68 | +1 armor or shield with one +2 special ability\* |
 | 69–80 | +2 armor or shield with one +1 special ability\* |
 | 81–100 | Lesser medium specific armor or shield |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Armor or Shield</th>
-</tr></thead>| 01–10 | +2 armor or shield |
+
+| d% | Greater Medium Armor or Shield |
+| --- | --- |
+| 01–10 | +2 armor or shield |
 | 11–22 | +3 armor or shield |
 | 23–32 | +1 armor or shield with one +1 special ability\* |
 | 33–44 | +1 armor or shield with one +2 special ability\* |
@@ -71,10 +70,10 @@ As with armor, special abilities built into the shield add to the market value i
 | 57–68 | +2 armor or shield with one +2 special ability\* |
 | 69–80 | +3 armor or shield with one +1 special ability\* |
 | 81–100 | Greater medium specific armor or shield |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Armor or Shield</th>
-</tr></thead>| 01–10 | +3 armor or shield |
+
+| d% | Lesser Major Armor or Shield |
+| --- | --- |
+| 01–10 | +3 armor or shield |
 | 11–22 | +4 armor or shield |
 | 23–32 | +1 armor or shield with one +2 special ability\* |
 | 33–44 | +1 armor or shield with one +3 special ability\* |
@@ -82,10 +81,10 @@ As with armor, special abilities built into the shield add to the market value i
 | 57–68 | +3 armor or shield with one +1 special ability\* |
 | 69–80 | +4 armor or shield with one +1 special ability\* |
 | 81–100 | Lesser major specific armor or shield |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Armor or Shield</th>
-</tr></thead>| 01–10 | +4 armor or shield |
+
+| d% | Greater Major Armor or Shield |
+| --- | --- |
+| 01–10 | +4 armor or shield |
 | 11–20 | +5 armor or shield |
 | 21–30 | +4 armor or shield with one +1 special ability\* |
 | 31–38 | +4 armor or shield with one +2 special ability\* |
@@ -98,14 +97,11 @@ As with armor, special abilities built into the shield add to the market value i
 | 75–77 | +5 armor or shield with one +4 special ability\* |
 | 78–80 | +5 armor or shield with one +5 special ability\* |
 | 81–100 | Greater major specific armor or shield |
-<tfoot><tr><td colspan="2" style="white-space: normal;">* See the <a href="#_armor-special-abilities-table">Armor Special Abilities table</a> or the <a href="#_shield-special-abilities-table">Shield Special Abilities table</a>
-</td></tr></tfoot>
 
-<caption>Armor Special Abilities</caption><thead><tr>
-<th>d%</th>
-<th>+1 Armor Special Ability</th>
-<th>Base Price*</th>
-</tr></thead>| 01–06 | _Benevolent_ | +2,000 gp |
+[Armor Special Abilities]
+| d% | +1 Armor Special Ability | Base Price\* |
+| --- | --- | --- |
+| 01–06 | _Benevolent_ | +2,000 gp |
 | 07–12 | _Poison-resistant_ | +2,250 gp |
 | 13–18 | _Balanced_ | +1 bonus |
 | 19–24 | _Bitter_ | +1 bonus |
@@ -122,11 +118,10 @@ As with armor, special abilities built into the shield add to the market value i
 | 83–88 | _ [Spell storing](/pathfinderRPG/prd/magicItems/weapons.html#_spell-storing)_ | +1 bonus |
 | 89–94 | _Stanching_ | +1 bonus |
 | 95–100 | _Warding_ | +1 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+2 Armor Special Ability</th>
-<th>Base Price*</th>
-</tr></thead>| 01–12 | _ [Glamered](/pathfinderRPG/prd/magicItems/armor.html#_armor-glamered)_ | +2,700 gp |
+
+| d% | +2 Armor Special Ability | Base Price\* |
+| --- | --- | --- |
+| 01–12 | _ [Glamered](/pathfinderRPG/prd/magicItems/armor.html#_armor-glamered)_ | +2,700 gp |
 | 13–24 | _ [Jousting](/pathfinderRPG/prd/advanced/magicItems/armor.html#_jousting)_ | +3,750 gp |
 | 25–38 | _ [Shadow](/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow)_ | +3,750 gp |
 | 39–52 | _ [Slick](/pathfinderRPG/prd/magicItems/armor.html#_armor-slick)_ | +3,750 gp |
@@ -134,11 +129,10 @@ As with armor, special abilities built into the shield add to the market value i
 | 65–76 | _Creeping_ | +5,000 gp |
 | 77–88 | _Rallying_ | +5,000 gp |
 | 89–100 | _ [Spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance) (13)_ | +2 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+3 Armor Special Ability</th>
-<th>Base Price*</th>
-</tr></thead>| 01–08 | _Adhesive_ | +7,000 gp |
+
+| d% | +3 Armor Special Ability | Base Price\* |
+| --- | --- | --- |
+| 01–08 | _Adhesive_ | +7,000 gp |
 | 09–17 | _Hosteling_ | +7,500 gp |
 | 18–26 | _Radiant_ | +7,500 gp |
 | 27–36 | _Delving_ | +10,000 gp |
@@ -149,21 +143,19 @@ As with armor, special abilities built into the shield add to the market value i
 | 75–84 | _ [Spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance) (15)_ | +3 bonus |
 | 85–92 | _Titanic_ | +3 bonus |
 | 93–100 | _ [Wild](/pathfinderRPG/prd/magicItems/armor.html#_armor-wild)_ | +3 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+4 Armor Special Ability</th>
-<th>Base Price*</th>
-</tr></thead>| 01–16 | _Harmonizing_ | +15,000 gp |
+
+| d% | +4 Armor Special Ability | Base Price\* |
+| --- | --- | --- |
+| 01–16 | _Harmonizing_ | +15,000 gp |
 | 17–33 | _ [Shadow, improved](/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow-improved)_ | +15,000 gp |
 | 34–50 | _ [Slick, improved](/pathfinderRPG/prd/magicItems/armor.html#_armor-slick-improved)_ | +15,000 gp |
 | 51–67 | _ [Energy resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-energy-resistance)_ | +18,000 gp |
 | 68–83 | _Martyring_ | +18,000 gp |
 | 84–100 | _ [Spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance) (17)_ | +4 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+5 Armor Special Ability</th>
-<th>Base Price*</th>
-</tr></thead>| 01–08 | _ [Righteous](/pathfinderRPG/prd/advanced/magicItems/armor.html#_righteous)_ | +27,000 gp |
+
+| d% | +5 Armor Special Ability | Base Price\* |
+| --- | --- | --- |
+| 01–08 | _ [Righteous](/pathfinderRPG/prd/advanced/magicItems/armor.html#_righteous)_ | +27,000 gp |
 | 09–15 | _Unbound_ | +27,000 gp |
 | 16–23 | _ [Unrighteous](/pathfinderRPG/prd/advanced/magicItems/armor.html#_unrighteous)_ | +27,000 gp |
 | 24–30 | _Vigilant_ | +27,000 gp |
@@ -176,13 +168,11 @@ As with armor, special abilities built into the shield add to the market value i
 | 77–84 | _ [Energy](/pathfinderRPG/prd/magicItems/armor.html#_armor-energy-resistance-greater) [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance), greater_ | +66,000 gp |
 | 85–92 | _ [Fortification](/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification) (heavy)_ | +5 bonus |
 | 93–100 | _ [Spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance) (19)_ | +5 bonus |
-<tfoot><tr><td colspan="3" style="white-space: normal;">* Add to enhancement bonus on from the <a href="#_armor-and-shield-pricing-by-bonus-table">Armor and Shield Pricing by Bonus table</a> to determine total price</td></tr></tfoot>
 
-<caption>Shield Special Abilities</caption><thead><tr>
-<th>d%</th>
-<th>+1 Shield Special Ability</th>
-<th>Base Price*</th>
-</tr></thead>| 01–10 | _Poison-resistant_ | +2,250 gp |
+[Shield Special Abilities]
+| d% | +1 Shield Special Ability | Base Price\* |
+| --- | --- | --- |
+| 01–10 | _Poison-resistant_ | +2,250 gp |
 | 11–19 | _ [Arrow catching](/pathfinderRPG/prd/magicItems/armor.html#_armor-arrow-catching)_ | +1 bonus |
 | 20–28 | _ [Bashing](/pathfinderRPG/prd/magicItems/armor.html#_armor-bashing)_ | +1 bonus |
 | 29–37 | _ [Blinding](/pathfinderRPG/prd/magicItems/armor.html#_armor-blinding)_ | +1 bonus |
@@ -193,44 +183,39 @@ As with armor, special abilities built into the shield add to the market value i
 | 74–82 | _Impervious_ | +1 bonus |
 | 83–91 | _Mirrored_ | +1 bonus |
 | 92–100 | _Ramming_ | +1 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+2 Shield Special Ability</th>
-<th>Base Price*</th>
-</tr></thead>| 01–15 | _Rallying_ | +5,000 gp |
+
+| d% | +2 Shield Special Ability | Base Price\* |
+| --- | --- | --- |
+| 01–15 | _Rallying_ | +5,000 gp |
 | 16–30 | _Wyrmsbreath_ | +5,000 gp |
 | 31–50 | _ [Animated](/pathfinderRPG/prd/magicItems/armor.html#_armor-animated)_ | +2 bonus |
 | 51–67 | _ [Arrow deflection](/pathfinderRPG/prd/magicItems/armor.html#_armor-arrow-deflection)_ | +2 bonus |
 | 68–82 | _Merging_ | +2 bonus |
 | 83–100 | _ [Spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance) (13)_ | +2 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+3 Shield Special Ability</th>
-<th>Base Price*</th>
-</tr></thead>| 01–15 | _Hosteling_ | +7,500 gp |
+
+| d% | +3 Shield Special Ability | Base Price\* |
+| --- | --- | --- |
+| 01–15 | _Hosteling_ | +7,500 gp |
 | 16–32 | _Radiant_ | +7,500 gp |
 | 33–49 | _ [Fortification](/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification) (moderate)_ | +3 bonus |
 | 50–66 | _ [Ghost touch](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch)_ | +3 bonus |
 | 67–83 | _ [Spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance) (15)_ | +3 bonus |
 | 84–98 | _ [Wild](/pathfinderRPG/prd/magicItems/armor.html#_armor-wild)_ | +3 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+4 Shield Special Ability</th>
-<th>Base Price*</th>
-</tr></thead>| 01–50 | _ [Energy resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-energy-resistance)_ | +18,000 gp |
+
+| d% | +4 Shield Special Ability | Base Price\* |
+| --- | --- | --- |
+| 01–50 | _ [Energy resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-energy-resistance)_ | +18,000 gp |
 | 51–100 | _ [Spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance) (17)_ | +4 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+5 Shield Special Ability</th>
-<th>Base Price*</th>
-</tr></thead>| 1–11 | _Determination_ | +30,000 gp |
+
+| d% | +5 Shield Special Ability | Base Price\* |
+| --- | --- | --- |
+| 1–11 | _Determination_ | +30,000 gp |
 | 12–27 | _ [Energy](/pathfinderRPG/prd/magicItems/armor.html#_armor-energy-resistance-improved) [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance), improved_ | +42,000 gp |
 | 28–38 | _ [Undead controlling](/pathfinderRPG/prd/magicItems/armor.html#_armor-undead-controlling)_ | +49,000 gp |
 | 39–55 | _ [Energy](/pathfinderRPG/prd/magicItems/armor.html#_armor-energy-resistance-greater) [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance), greater_ | +66,000 gp |
 | 56–70 | _ [Fortification](/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification) (heavy)_ | +5 bonus |
 | 71–85 | _ [Reflecting](/pathfinderRPG/prd/magicItems/armor.html#_armor-reflecting)_ | +5 bonus |
 | 86–100 | _ [Spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance) (19)_ | +5 bonus |
-<tfoot><tr><td colspan="3" style="white-space: normal;">* Add to enhancement bonus on <a href="#_armor-and-shield-pricing-by-bonus-table">Armor and Shield Pricing by Bonus table</a> to determine total price</td></tr></tfoot>
 
 ## Magic Armor and Shield Special Ability Descriptions
 

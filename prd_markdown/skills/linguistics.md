@@ -8,10 +8,9 @@ You are skilled at working with language, in both its spoken and written forms. 
 
 Both the Linguistics check and (if necessary) the [Wisdom](../gettingStarted.html#_wisdom) check are made secretly by the GM, so that you can't tell whether the conclusion you draw is true or false.
 
-<thead><tr>
-<th>Condition</th>
-<th>Linguistics Check Modifier</th>
-</tr></thead><tbody>
+| Condition | Linguistics Check Modifier |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Type of document unknown to reader</td>
 <td>–2</td>

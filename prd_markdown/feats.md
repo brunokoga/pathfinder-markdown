@@ -85,11 +85,10 @@ The following format is used for all feat descriptions.
 
 **Special:** Additional unusual facts about the feat.
 
-<caption>Table: Feats</caption><thead><tr>
-<th>Feats</th>
-<th>Prerequisites</th>
-<th>Benefits</th>
-</tr></thead>| Acrobatic | — | +2 bonus on [Acrobatics](skills/acrobatics.html#_acrobatics) and [Fly](skills/fly.html#_fly) checks |
+[Table: Feats]
+| Feats | Prerequisites | Benefits |
+| --- | --- | --- |
+| Acrobatic | — | +2 bonus on [Acrobatics](skills/acrobatics.html#_acrobatics) and [Fly](skills/fly.html#_fly) checks |
 | Agile Maneuvers\* | — | Use your [Dex](gettingStarted.html#_dexterity) bonus when calculating your [CMB](combat.html#_combat-maneuver-bonus) |
 | Alertness | — | +2 bonus on [Perception](skills/perception.html#_perception) and [Sense Motive](skills/senseMotive.html#_sense-motive) checks |
 | Alignment Channel | Channel energy class feature | Channel energy can heal or harm outsiders |
@@ -269,7 +268,6 @@ The following format is used for all feat descriptions.
 | Silent Spell | — | Cast spell without verbal components |
 | Still Spell | — | Cast spell without somatic components |
 | Widen Spell | — | Double spell area |
-<tfoot><tr><td colspan="3">* This is a combat feat and can be selected as a fighter bonus feat</td></tr></tfoot>
 
 ## Acrobatic
 
@@ -1029,25 +1027,18 @@ This feat allows you to acquire a powerful familiar, but only when you could nor
 
 **Benefit:** When choosing a familiar, the creatures listed below are also available to you. You may choose a familiar with an alignment up to one step away on each alignment axis (lawful through chaotic, good through evil).
 
-<thead><tr>
-<th>Familiar</th>
-<th>Alignment</th>
-<th>Arcane Spellcaster Level</th>
-</tr></thead>| Celestial hawk<sup>1</sup> | Neutral good | 3rd |
+| Familiar | Alignment | Arcane Spellcaster Level |
+| --- | --- | --- |
+| Celestial hawkⁱ | Neutral good | 3rd |
 | Dire rat | Neutral | 3rd |
-| Fiendish viper<sup>2</sup> | Neutral evil | 3rd |
+| Fiendish viper⁲ | Neutral evil | 3rd |
 | Elemental, Small (any type) | Neutral | 5th |
 | Stirge | Neutral | 5th |
-| Homunculus<sup>3</sup> | Any | 7th |
+| Homunculus⁳ | Any | 7th |
 | Imp | Lawful evil | 7th |
 | Mephit (any type) | Neutral | 7th |
 | Pseudodragon | Neutral good | 7th |
 | Quasit | Chaotic evil | 7th |
-<tfoot>
-<tr><td colspan="3">1 Or other celestial animal from the standard familiar list.</td></tr>
-<tr><td colspan="3">2 Or other fiendish animal from the standard familiar list.</td></tr>
-<tr><td colspan="3">3 The master must first create the homunculus.</td></tr>
-</tfoot>
 
 Improved familiars otherwise use the rules for regular familiars_, _with two exceptions: if the creature's type is something other than animal, its type does not change; and improved familiars do not gain the ability to speak with other creatures of their kind (although many of them already have the ability to communicate).
 
@@ -1199,21 +1190,12 @@ You are more resistant to mental effects.
 
 ## Leadership
 
-<caption>Table: Leadership</caption><thead>
-<tr>
-<th rowspan="2">Leadership Score</th>
-<th rowspan="2">Cohort Level</th>
-<th colspan="6">Number of Followers by Level</th>
-</tr>
-<tr>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-</tr>
-</thead><tbody>
+[Table: Leadership]
+| Leadership Score | Cohort Level | Number of Followers by Level |
+| --- | --- | --- |
+| 1st | 2nd | 3rd | 4th | 5th | 6th |
+| --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1 or lower</td>
 <td>—</td>
@@ -1479,10 +1461,9 @@ You attract followers to your cause and a companion to join you on your adventur
   
   
 
-<thead><tr>
-<th>Leader's Reputation</th>
-<th>Modifier</th>
-</tr></thead><tbody>
+| Leader's Reputation | Modifier |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Great renown</td>
 <td>+2</td>
@@ -1516,13 +1497,12 @@ Other modifiers may apply when you try to attract a cohort, as listed below.
   
   
 
-<thead><tr>
-<th>The Leader... </th>
-<th>Modifier</th>
-</tr></thead>| Has a familiar, special mount, or animal companion | –2 |
+| The Leader... | Modifier |
+| --- | --- |
+| Has a familiar, special mount, or animal companion | –2 |
 | Recruits a cohort of a different alignment | –1 |
 | Caused the death of a cohort | –2\* |
-<tfoot><tr><td colspan="2">* Cumulative per cohort killed.</td></tr></tfoot>
+
   
   
 
@@ -1531,10 +1511,9 @@ Followers have different priorities from cohorts. When you try to attract a foll
   
   
 
-<thead><tr>
-<th>The Leader... </th>
-<th>Modifier</th>
-</tr></thead>| Has a stronghold, base of operations, guildhouse, etc. | +2 |
+| The Leader... | Modifier |
+| --- | --- |
+| Has a stronghold, base of operations, guildhouse, etc. | +2 |
 | Moves around a lot | –1 |
 | Caused the death of other followers | –1 |
 

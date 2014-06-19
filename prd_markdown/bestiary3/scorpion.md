@@ -36,7 +36,7 @@ Statistics
 
 **Base Atk** +7; **CMB** +17 (+21 grapple); **CMD** 29 (41 vs. trip)
 
-**Feats** [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))<sup>B</sup>
+**Feats** [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))B
 
 **Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +6, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +5 (+13 in forests); **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +8 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) (+16 in forests)
 

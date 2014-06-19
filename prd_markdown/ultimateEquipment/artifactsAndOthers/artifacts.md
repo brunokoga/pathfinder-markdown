@@ -44,10 +44,10 @@ The owner of the book need not have the book in her possession in order to use i
 
 Each time a spell is cast, there is a chance that the energy connected with its use causes the page to magically turn despite all precautions. The chance of a page turning depends on the spell the page contains and what sort of spellcaster the owner is.
 
-<thead><tr>
-<th>Condition</th>
-<th>Chance of<br>Page Turning</th>
-</tr></thead>| Caster employing a spell usableby own class and level | 10% |
+| Condition | Chance of  
+Page Turning |
+| --- | --- |
+| Caster employing a spell usableby own class and level | 10% |
 | Caster employing a spell not usable by own class and level | 20% |
 | Nonspellcaster employing divine spell | 25% |
 | Nonspellcaster employing arcane spell | 30% |
@@ -140,12 +140,10 @@ _The Void_: This black card spells instant disaster. The character's body contin
 
 This item can be destroyed by losing it in a wager with a deity of law. The deity must be unaware of the nature of the deck.
 
-<caption>Deck of Many Things</caption><thead><tr>
-<th>Plaque</th>
-<th>Tarot Card</th>
-<th>Playing Card</th>
-<th>Summary of Effect</th>
-</tr></thead>| Balance | XI. Justice | Two of spades | Change alignment instantly. |
+[Deck of Many Things]
+| Plaque | Tarot Card | Playing Card | Summary of Effect |
+| --- | --- | --- | --- |
+| Balance | XI. Justice | Two of spades | Change alignment instantly. |
 | Comet | Two of swords | Two of diamonds | Defeat the next monster you meet to gain one level. |
 | Donjon | Four of swords | Ace of spades | You are _imprisoned_. |
 | Euryale | Ten of swords | Queen of spades | –1 penalty on all saving throws henceforth. |
@@ -188,11 +186,10 @@ At first sight, the artifact appears to be nothing more than a piece of bone wor
 
 The _knucklebone of fickle fortune_ disappears if its Eha-Zah face (a 20 on the die) comes up on 20 consecutive rolls. Some sages believe that this does not destroy the artifact, and it instead reappears at some random spot in the world. Such knowledge is purely conjecture, for it is not known whether anyone has accomplished this improbable task.
 
-<caption>Knucklebone of Fickle Fortune</caption><thead><tr>
-<th>d20</th>
-<th>Rune Name</th>
-<th>Effect</th>
-</tr></thead>| 1 | Eya-Doh | The character gains 1 permanent negative level. |
+[Knucklebone of Fickle Fortune]
+| d20 | Rune Name | Effect |
+| --- | --- | --- |
+| 1 | Eya-Doh | The character gains 1 permanent negative level. |
 | 2 | Bvu | The character is subject to a powerful compulsion never to roll the _knucklebone of fickle fortune_ again. He can shake this compulsion only by succeeding a DC 25 Will saving throw. He can attempt this saving throw only once per day. |
 | 3 | Eij | The character is affected by a _ [harm](/pathfinderRPG/prd/spells/harm.html#_harm)_ spell (caster level 15th). |
 | 4 | Hor | The character is subject to a powerful compulsion to roll the _knucklebone_ three more times immediately (Will DC 25 negates). All three of these rolls are made with a –5 penalty on the _knucklebone's_ die roll (minimum 1). |
@@ -478,10 +475,9 @@ Codex of the Infinite Planes
 
 The _Codex_ is enormous—supposedly, it requires two strong men to lift it. No matter how many pages are turned, another always remains. Anyone opening the _Codex _for the first time is utterly annihilated, as with a _destruction_ spell (Fortitude DC 30). Those who survive can peruse its pages and learn its powers, though not without risk. Each day spent studying the _Codex _allows the reader to make a Spellcraft check (DC 50) to learn one of its powers (choose the power learned randomly; add a +1 circumstance bonus on the check per additional day spent reading until a power is learned). However, each day of study also forces the reader to make a Will save (DC 30 + 1 per day of study) to avoid being driven insane (as the _insanity_ spell). The powers of the _Codex of the Infinite Planes _are as follows: _astral projection , banishment , elemental swarm , gate , greater planar ally , greater planar binding , plane shift , _and _soul bind . _Each of these spell-like abilities are usable at will by the owner of the _Codex _(assuming that he or she has learned how to access the power). The _Codex of the Infinite Planes _has a caster level of 30th for the purposes of all powers and catastrophes, and all saving throw DCs are 20 + spell level. Activating any power requires a Spellcraft check (DC 40 + twice the spell level of the power; the character can't take 10 on this check). Any failure on either check indicates that a catastrophe befalls the user (roll on the table below for the effect). A character can incur only one catastrophe per power use.
 
-<thead><tr>
-<th>d%</th>
-<th>Catastrophe</th>
-</tr></thead>| 01–25 | _Natural Fury:_ An _ [earthquake](/pathfinderRPG/prd/spells/earthquake.html#_earthquake) _spell centered on the reader strikes every round for 1 minute, and an intensified _storm of vengeance_ spell is centered and targeted on the reader. |
+| d% | Catastrophe |
+| --- | --- |
+| 01–25 | _Natural Fury:_ An _ [earthquake](/pathfinderRPG/prd/spells/earthquake.html#_earthquake) _spell centered on the reader strikes every round for 1 minute, and an intensified _storm of vengeance_ spell is centered and targeted on the reader. |
 | 26–50 | _Fiendish Vengeance:_ A _gate_ opens and 1d3+1 balors, pit fiends, or similar evil outsiders step through and attempt to destroy the owner of the _Codex. _ |
 | 51–75 | _Ultimate [Imprisonment](/pathfinderRPG/prd/spells/imprisonment.html#_imprisonment):_ Reader's soul is captured (as _trap the soul ; _no save allowed) in a random gem somewhere on the plane while his or her body is entombed beneath the earth (as _imprisonment_). |
 | 76–100 | _Death:_ The reader utters a _wail of the banshee_ and then is subject to a _destruction_ spell. This repeats every round for 10 rounds until the reader is dead. |

@@ -20,14 +20,10 @@ The battle herald's class skills are [Bluff](../../skills/bluff.html#_bluff) (Ch
 
 **Skill Ranks per Level** : 4 + Int modifier.
 
-<caption>Table: Battle Herald</caption><thead><tr id="level-bonus-save-save-save-special-">
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-</tr></thead>| 1st | +1 | +1 | +0 | +1 | 1st inspiring command (+1), improved leadership, voice of authority |
+[Table: Battle Herald]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +1 | +1 | +0 | +1 | 1st inspiring command (+1), improved leadership, voice of authority |
 | 2nd | +2 | +1 | +1 | +1 | Easy march |
 | 3rd | +3 | +2 | +1 | +2 | 2nd inspiring command |
 | 4th | +4 | +2 | +1 | +2 | Inspiring command (+2), inspire greatness |

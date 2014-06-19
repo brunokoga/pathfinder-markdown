@@ -1,9 +1,9 @@
 # Specific Cursed Items
 
-<caption>Table: Specific Cursed Items</caption><thead><tr>
-<th>d%</th>
-<th>Item</th>
-</tr></thead><tbody>
+[Table: Specific Cursed Items]
+| d% | Item |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–05</td>
 <td><i><a href="#incense-of-obsession">Incense of obsession</a></i></td>

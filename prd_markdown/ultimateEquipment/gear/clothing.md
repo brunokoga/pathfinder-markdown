@@ -4,11 +4,10 @@ These clothes and outfits can be useful to PCs and NPCs who want to dress for sp
 
 All characters begin play with one outfit valued at 10 gp or less. Additional outfits can be purchased normally.
 
-<caption>Clothing</caption><thead><tr>
-<th>Item</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Artisan's outfit | 1 gp | 4 lbs.\* |
+[Clothing]
+| Item | Price | Weight |
+| --- | --- | --- |
+| Artisan's outfit | 1 gp | 4 lbs.\* |
 | Brooch | Varies | — |
 | Caul | 10–100 gp | — |
 | Cleats | 5 gp | 2 lbs.\* |
@@ -48,7 +47,6 @@ All characters begin play with one outfit valued at 10 gp or less. Additional ou
 | Tear-away clothing | +5 gp | — |
 | Traveler's outfit | 1 gp | 5 lbs.\* |
 | Wig | 5 gp–500 gp | 1/2 lb.–4 lbs.\* |
-<tfoot><tr><td colspan="3">* These items weigh one-quarter this amount when made for Small characters.</td></tr></tfoot>
 
 Artisan's Outfit
 

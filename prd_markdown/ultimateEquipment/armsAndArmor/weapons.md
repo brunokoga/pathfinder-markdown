@@ -119,18 +119,14 @@ Even though some types of armor and shields can be used as weapons, you can't cr
 
 Weapons in this section are listed alphabetically by their full names. A few weapons had their names altered to be consistent with how other weapons are named; for example: "flail" and "heavy flail," are now called "light flail" and "heavy flail."
 
-<caption>Simple Weapons</caption><thead><tr>
-<th><span style="float: left;">Unarmed Attacks</span></th>
-<th>Price</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight</th>
-<th>Type</th>
-<th>Special</th>
-</tr></thead>| Unarmed strike | — | 1d2 | 1d3 | ×2 | — | — | B | Nonlethal |
-<thead><tr><th colspan="9"><span style="float: left;">Light Melee Weapons</span></th></tr></thead>| Battle aspergillum | 5 gp | 1d4 | 1d6 | ×2 | — | 4 lbs. | B | See text |
+[Simple Weapons]
+| Unarmed Attacks | Price | Dmg (S) | Dmg (M) | Critical | Range | Weight | Type | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Unarmed strike | — | 1d2 | 1d3 | ×2 | — | — | B | Nonlethal |
+
+| Light Melee Weapons |
+| --- |
+| Battle aspergillum | 5 gp | 1d4 | 1d6 | ×2 | — | 4 lbs. | B | See text |
 | Brass knuckles | 1 gp | 1d2 | 1d3 | ×2 | — | 1 lb. | B | Monk, see text |
 | Cestus | 5 gp | 1d3 | 1d4 | 19–20/×2 | — | 1 lb. | B or P | Monk, see text |
 | Dagger | 2 gp | 1d3 | 1d4 | 19–20/×2 | 10 ft. | 1 lb. | P or S | — |
@@ -140,225 +136,39 @@ Weapons in this section are listed alphabetically by their full names. A few wea
 | Sickle | 6 gp | 1d4 | 1d6 | ×2 | — | 2 lbs. | S | Trip |
 | Spiked gauntlet | 5 gp | 1d3 | 1d4 | ×2 | — | 1 lb. | P | — |
 | Wooden stake | — | 1d3 | 1d4 | ×2 | 10 ft. | 1 lb. | P | — |
-<thead>
-<tr><th colspan="9"><span style="float: left;">One-Handed Melee Weapons</span></th></tr>
-<thead>
-<tr class="odd">
-<td>Club</td>
-<td>—</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>×2</td>
-<td>10 ft.</td>
-<td>3 lbs.</td>
-<td>B</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Heavy mace</td>
-<td>12 gp</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>×2</td>
-<td>—</td>
-<td>8 lbs.</td>
-<td>B</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Mere club</td>
-<td>2 gp</td>
-<td>1d3</td>
-<td>1d4</td>
-<td>×2</td>
-<td>—</td>
-<td>2 lbs.</td>
-<td>B or P</td>
-<td>Fragile</td>
-</tr>
-<tr class="even">
-<td>Morningstar</td>
-<td>8 gp</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>×2</td>
-<td>—</td>
-<td>6 lbs.</td>
-<td>B and P</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Shortspear</td>
-<td>1 gp</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>×2</td>
-<td>20 ft.</td>
-<td>3 lbs.</td>
-<td>P</td>
-<td>—</td>
-</tr>
 
-<thead><tr><th colspan="9"><span style="float: left;">Two-Handed Melee Weapons</span></th></tr></thead>
-<tr class="odd">
-<td>Bayonet</td>
-<td>5 gp</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>×2</td>
-<td>—</td>
-<td>1 lb.</td>
-<td>P</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Boar spear</td>
-<td>5 gp</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>×2</td>
-<td>—</td>
-<td>8 lbs.</td>
-<td>P</td>
-<td>Brace, see text</td>
-</tr>
-<tr class="odd">
-<td>Longspear</td>
-<td>5 gp</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>×3</td>
-<td>—</td>
-<td>9 lbs.</td>
-<td>P</td>
-<td>Brace, reach</td>
-</tr>
-<tr class="even">
-<td>Quarterstaff</td>
-<td>—</td>
-<td>1d4/1d4</td>
-<td>1d6/1d6</td>
-<td>×2</td>
-<td>—</td>
-<td>4 lbs.</td>
-<td>B</td>
-<td>Double, monk</td>
-</tr>
-<tr class="odd">
-<td>Spear</td>
-<td>2 gp</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>×3</td>
-<td>20 ft.</td>
-<td>6 lbs.</td>
-<td>P</td>
-<td>Brace</td>
-</tr>
+| One-Handed Melee Weapons |
+| --- |
 
-<thead><tr><th colspan="9"><span style="float: left;">Ranged Weapons</span></th></tr></thead>
-<tr class="odd">
-<td>Blowgun</td>
-<td>2 gp</td>
-<td>1</td>
-<td>1d2</td>
-<td>×2</td>
-<td>20 ft.</td>
-<td>1 lb.</td>
-<td>P</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Dart</td>
-<td>5 sp</td>
-<td>1d3</td>
-<td>1d4</td>
-<td>×2</td>
-<td>20 ft.</td>
-<td>1/2 lb.</td>
-<td>P</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Heavy crossbow</td>
-<td>50 gp</td>
-<td>1d8</td>
-<td>1d10</td>
-<td>19–20/×2</td>
-<td>120 ft.</td>
-<td>8 lbs.</td>
-<td>P</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Javelin</td>
-<td>1 gp</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>×2</td>
-<td>30 ft.</td>
-<td>2 lbs.</td>
-<td>P</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Light crossbow</td>
-<td>35 gp</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>19–20/×2</td>
-<td>80 ft.</td>
-<td>4 lbs.</td>
-<td>P</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Sling</td>
-<td>—</td>
-<td>1d3</td>
-<td>1d4</td>
-<td>×2</td>
-<td>50 ft.</td>
-<td>—</td>
-<td>B</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Underwater heavy crossbow</td>
-<td>100 gp</td>
-<td>1d8</td>
-<td>1d10</td>
-<td>19–20/×2</td>
-<td>120 ft.</td>
-<td>8 lbs.</td>
-<td>P</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Underwater light crossbow</td>
-<td>70 gp</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>19–20/×2</td>
-<td>80 ft.</td>
-<td>4 lbs.</td>
-<td>P</td>
-<td>—</td>
-</tr>
-</thead>
-</thead>
+| Club | — | 1d4 | 1d6 | ×2 | 10 ft. | 3 lbs. | B | — |
+| Heavy mace | 12 gp | 1d6 | 1d8 | ×2 | — | 8 lbs. | B | — |
+| Mere club | 2 gp | 1d3 | 1d4 | ×2 | — | 2 lbs. | B or P | Fragile |
+| Morningstar | 8 gp | 1d6 | 1d8 | ×2 | — | 6 lbs. | B and P | — |
+| Shortspear | 1 gp | 1d4 | 1d6 | ×2 | 20 ft. | 3 lbs. | P | — |
 
-<caption>Martial Weapons</caption><thead><tr>
-<th><span style="float: left;">Light Melee Weapons</span></th>
-<th>Price</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight</th>
-<th>Type</th>
-<th>Special</th>
-</tr></thead>| Butterfly sword (2) | 20 gp | 1d3 | 1d4 | 19–20/×2 | — | 1 lb. | S | Monk |
+| Two-Handed Melee Weapons |
+| --- |
+| Bayonet | 5 gp | 1d4 | 1d6 | ×2 | — | 1 lb. | P | — |
+| Boar spear | 5 gp | 1d6 | 1d8 | ×2 | — | 8 lbs. | P | Brace, see text |
+| Longspear | 5 gp | 1d6 | 1d8 | ×3 | — | 9 lbs. | P | Brace, reach |
+| Quarterstaff | — | 1d4/1d4 | 1d6/1d6 | ×2 | — | 4 lbs. | B | Double, monk |
+| Spear | 2 gp | 1d6 | 1d8 | ×3 | 20 ft. | 6 lbs. | P | Brace |
+
+| Ranged Weapons |
+| --- |
+| Blowgun | 2 gp | 1 | 1d2 | ×2 | 20 ft. | 1 lb. | P | — |
+| Dart | 5 sp | 1d3 | 1d4 | ×2 | 20 ft. | 1/2 lb. | P | — |
+| Heavy crossbow | 50 gp | 1d8 | 1d10 | 19–20/×2 | 120 ft. | 8 lbs. | P | — |
+| Javelin | 1 gp | 1d4 | 1d6 | ×2 | 30 ft. | 2 lbs. | P | — |
+| Light crossbow | 35 gp | 1d6 | 1d8 | 19–20/×2 | 80 ft. | 4 lbs. | P | — |
+| Sling | — | 1d3 | 1d4 | ×2 | 50 ft. | — | B | — |
+| Underwater heavy crossbow | 100 gp | 1d8 | 1d10 | 19–20/×2 | 120 ft. | 8 lbs. | P | — |
+| Underwater light crossbow | 70 gp | 1d6 | 1d8 | 19–20/×2 | 80 ft. | 4 lbs. | P | — |
+
+[Martial Weapons]
+| Light Melee Weapons | Price | Dmg (S) | Dmg (M) | Critical | Range | Weight | Type | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Butterfly sword (2) | 20 gp | 1d3 | 1d4 | 19–20/×2 | — | 1 lb. | S | Monk |
 | Dogslicer | 8 gp | 1d4 | 1d6 | 19–20/×2 | — | 1 lb. | S | Fragile |
 | Gladius | 15 gp | 1d4 | 1d6 | 19–20/×2 | — | 3 lbs. | P or S | Performance |
 | Handaxe | 6 gp | 1d4 | 1d6 | ×3 | — | 3 lbs. | S | — |
@@ -379,7 +189,10 @@ Weapons in this section are listed alphabetically by their full names. A few wea
 | Throwing axe | 8 gp | 1d4 | 1d6 | ×2 | 10 ft. | 2 lbs. | S | — |
 | Tonfa | 1 gp | 1d4 | 1d6 | ×2 | — | 1 lb. | B | Blocking, monk |
 | Wushu dart | 2 sp | 1d2 | 1d3 | ×2 | 10 ft. | — | P | Monk |
-<thead><tr><th colspan="9"><span style="float: left;">One-Handed Melee Weapons</span></th></tr></thead>| Battleaxe | 10 gp | 1d6 | 1d8 | ×3 | — | 6 lbs. | S | — |
+
+| One-Handed Melee Weapons |
+| --- |
+| Battleaxe | 10 gp | 1d6 | 1d8 | ×3 | — | 6 lbs. | S | — |
 | Double chicken saber | 12 gp | 1d4 | 1d6 | 19–20/×2 | — | 3 lbs. | S | Disarm, monk |
 | Heavy pick | 8 gp | 1d4 | 1d6 | ×4 | — | 6 lbs. | P | — |
 | Heavy shield | 7 gp/20 gp | 1d3 | 1d4 | ×2 | — | Special | B | — |
@@ -396,7 +209,10 @@ Weapons in this section are listed alphabetically by their full names. A few wea
 | Terbutje | 5 gp | 1d6 | 1d8 | 19–20/×2 | — | 2 lbs. | S | Fragile |
 | Trident | 15 gp | 1d6 | 1d8 | ×2 | 10 ft. | 4 lbs. | P | Brace |
 | Warhammer | 12 gp | 1d6 | 1d8 | ×3 | — | 5 lbs. | B | — |
-<thead><tr><th colspan="9"><span style="float: left;">Two-Handed Melee Weapons</span></th></tr></thead>| Bardiche | 13 gp | 1d8 | 1d10 | 19–20/×2 | — | 14 lbs. | S | Brace, reach, see text |
+
+| Two-Handed Melee Weapons |
+| --- |
+| Bardiche | 13 gp | 1d8 | 1d10 | 19–20/×2 | — | 14 lbs. | S | Brace, reach, see text |
 | Bec de corbin | 15 gp | 1d8 | 1d10 | ×3 | — | 12 lbs. | B or P | Brace, reach, see text |
 | Bill | 11 gp | 1d6 | 1d8 | ×3 | — | 11 lbs. | S | Brace, disarm, reach, see text |
 | Earth breaker | 40 gp | 1d10 | 2d6 | ×3 | — | 14 lbs. | B | — |
@@ -425,7 +241,10 @@ Weapons in this section are listed alphabetically by their full names. A few wea
 | Tepoztopilli | 8 gp | 1d8 | 1d10 | 19–20/×2 | — | 8 lbs. | P or S | Fragile, reach |
 | Tiger fork | 5 gp | 1d6 | 1d8 | ×2 | — | 8 lbs. | P | Brace, monk |
 | Tri-point double-edged sword | 12 gp | 1d8 | 1d10 | ×3 | — | 14 lbs. | P | Reach |
-<thead><tr><th colspan="9"><span style="float: left;">Ranged Weapons</span></th></tr></thead>| Amentum | — | 1d4 | 1d6 | ×2 | 50 ft. | 1 lb. | P | Performance |
+
+| Ranged Weapons |
+| --- |
+| Amentum | — | 1d4 | 1d6 | ×2 | 50 ft. | 1 lb. | P | Performance |
 | Atlatl | 2 gp | 1d4 | 1d6 | ×2 | 50 ft. | 2 lbs. | P | — |
 | Chakram | 1 gp | 1d6 | 1d8 | ×2 | 30 ft. | 1 lb. | S | — |
 | Composite longbow | 100 gp | 1d6 | 1d8 | ×3 | 110 ft. | 3 lbs. | P | — |
@@ -437,17 +256,10 @@ Weapons in this section are listed alphabetically by their full names. A few wea
 | Shortbow | 30 gp | 1d4 | 1d6 | ×3 | 60 ft. | 2 lbs. | P | — |
 | Tube arrow shooter | 3 gp | 1d3 | 1d4 | ×2 | 40 ft. | 1/2 lb. | P | — |
 
-<caption>Exotic Weapons</caption><thead><tr>
-<th><span style="float: left;">Light Melee Weapons</span></th>
-<th>Price</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight</th>
-<th>Type</th>
-<th>Special</th>
-</tr></thead>| Aklys | 5 gp | 1d6 | 1d8 | ×2 | 20 ft. | 2 lbs. | B | Performance, trip |
+[Exotic Weapons]
+| Light Melee Weapons | Price | Dmg (S) | Dmg (M) | Critical | Range | Weight | Type | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Aklys | 5 gp | 1d6 | 1d8 | ×2 | 20 ft. | 2 lbs. | B | Performance, trip |
 | Dan bong | 1 sp | 1d2 | 1d3 | 19–20/×2 | 10 ft. | — | B | Blocking, monk, see text |
 | Emei piercer | 3 gp | 1d2 | 1d3 | 19–20/×2 | — | — | P | See text |
 | Fighting fan | 5 gp | 1d3 | 1d4 | ×3 | — | — | P | Distracting, monk |
@@ -464,7 +276,10 @@ Weapons in this section are listed alphabetically by their full names. A few wea
 | Swordbreaker dagger | 10 gp | 1d3 | 1d4 | ×2 | — | 3 lbs. | S | Disarm, see text |
 | Tekko-kagi | 2 gp | 1d2 | 1d3 | ×2 | — | — | P | Disarm, see text |
 | Wakizashi | 35 gp | 1d4 | 1d6 | 18–20/×2 | — | 2 lbs. | P or S | Deadly |
-<thead><tr><th colspan="9"><span style="float: left;">One-Handed Melee Weapons</span></th></tr></thead>| Bastard sword | 35 gp | 1d8 | 1d10 | 19–20/×2 | — | 6 lbs. | S | — |
+
+| One-Handed Melee Weapons |
+| --- |
+| Bastard sword | 35 gp | 1d8 | 1d10 | 19–20/×2 | — | 6 lbs. | S | — |
 | Dwarven waraxe | 30 gp | 1d8 | 1d10 | ×3 | — | 8 lbs. | S | — |
 | Falcata | 18 gp | 1d6 | 1d8 | 19–20/×3 | — | 4 lbs. | S | — |
 | Great terbutje | 12 gp | 1d8 | 1d10 | 19–20/×2 | — | 4 lbs. | S | Fragile |
@@ -480,7 +295,10 @@ Weapons in this section are listed alphabetically by their full names. A few wea
 | Urumi | 30 gp | 1d6 | 1d8 | 18–20/×2 | — | 6 lbs. | S | Distracting |
 | Wahaika | 3 gp | 1d4 | 1d6 | ×2 | 10 ft. | 3 lbs. | B | Disarm |
 | Whip | 1 gp | 1d2 | 1d3 | ×2 | — | 2 lbs. | S | Disarm, nonlethal, reach, trip |
-<thead><tr><th colspan="9"><span style="float: left;">Two-Handed Melee Weapons</span></th></tr></thead>| Bo staff | 1 gp | 1d4 | 1d6 | ×2 | — | 3 lbs. | B | Blocking, double, monk |
+
+| Two-Handed Melee Weapons |
+| --- |
+| Bo staff | 1 gp | 1d4 | 1d6 | ×2 | — | 3 lbs. | B | Blocking, double, monk |
 | Chain spear | 15 gp | 1d4/1d4 | 1d6/1d6 | ×2 | — | 13 lbs. | P and S | Trip |
 | Dire flail | 90 gp | 1d6/1d6 | 1d8/1d8 | ×2 | — | 10 lbs. | B | Disarm, double, trip |
 | Double walking stick katana | 50 gp | 1d4/1d4 | 1d6/1d6 | ×3 | — | 6 lbs. | B | Double |
@@ -499,7 +317,10 @@ Weapons in this section are listed alphabetically by their full names. A few wea
 | Spiked chain | 25 gp | 1d6 | 2d4 | ×2 | — | 10 lbs. | P | Disarm, trip |
 | Tetsubo | 20 gp | 1d8 | 1d10 | ×4 | — | 10 lbs. | B | — |
 | Two-bladed sword | 100 gp | 1d6/1d6 | 1d8/1d8 | 19–20/×2 | — | 10 lbs. | S | Double |
-<thead><tr><th colspan="9"><span style="float: left;">Ranged Weapons</span></th></tr></thead>| Bolas | 5 gp | 1d3 | 1d4 | ×2 | 10 ft. | 2 lbs. | B | Nonlethal, trip |
+
+| Ranged Weapons |
+| --- |
+| Bolas | 5 gp | 1d3 | 1d4 | ×2 | 10 ft. | 2 lbs. | B | Nonlethal, trip |
 | Boomerang | 3 gp | 1d4 | 1d6 | ×2 | 30 ft. | 3 lbs. | B | See text |
 | Double crossbow | 300 gp | 1d6 | 1d8 | 19–20/×2 | 80 ft. | 18 lbs. | P | See text |
 | Halfling sling staff | 20 gp | 1d6 | 1d8 | ×3 | 80 ft. | 3 lbs. | B | — |
@@ -515,11 +336,10 @@ Weapons in this section are listed alphabetically by their full names. A few wea
 | Snag net | 30 gp | — | — | — | 10 ft. | 10 lbs. | P | Trip, see text |
 | Throwing shield | +50 gp | 1d4 | 1d6 | ×2 | 20 ft. | — | B | Performance, trip |
 
-<caption>Ammunition</caption><thead><tr>
-<th>Item</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Arrows (20) | 1 gp | 3 lbs. |
+[Ammunition]
+| Item | Price | Weight |
+| --- | --- | --- |
+| Arrows (20) | 1 gp | 3 lbs. |
 | Atlatl dart | 1 gp | 2 lbs. |
 | Bamboo shaft arrows (10) | 1 gp | 1/2 lb. |
 | Blowgun darts (10) | 5 sp | — |
@@ -532,13 +352,10 @@ Weapons in this section are listed alphabetically by their full names. A few wea
 | Smoke arrow | 10 gp | — |
 | Whistling arrows (20) | 2 gp | 3 lbs. |
 
-<caption> Tiny and Large Weapon Damage
-</caption>
-<thead><tr>
-<th>Medium Weapon Damage</th>
-<th>Tiny Weapon Damage</th>
-<th>Large Weapon Damage</th>
-</tr></thead>| 1d2 | — | 1d3 |
+[Tiny and Large Weapon Damage]
+| Medium Weapon Damage | Tiny Weapon Damage | Large Weapon Damage |
+| --- | --- | --- |
+| 1d2 | — | 1d3 |
 | 1d3 | 1 | 1d4 |
 | 1d4 | 1d2 | 1d6 |
 | 1d6 | 1d3 | 1d8 |
@@ -2122,11 +1939,10 @@ The [Rapid Reload](/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_r
 
 **Scatter (Weapon Quality)** : A weapon with the scatter weapon quality can shoot two different types of ammunition. It can fire normal bullets that target one creature, or it can make a scattering shot, attacking all creatures within a cone. Cannons with the scatter weapon quality only fire grapeshot, unless their descriptions state otherwise. When a scatter weapon attacks all creatures within a cone, it makes a separate attack roll against each creature within the cone. Each attack roll takes a –2 penalty, and its attack damage cannot be modified by precision damage or damage-increasing feats such as [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike). Effects that grant concealment, such as fog or smoke, or the blur, invisibility, or mirror image spells, do not foil a scatter attack. If any of the attack rolls threaten a critical, confirm the critical for that attack roll alone. A firearm that makes a scatter shot misfires only if all of the attack rolls are misfires. If a scatter weapon explodes on a misfire, it deals triple its damage to all creatures within the misfire radius.
 
-<caption>Firearm Ammunition</caption><thead><tr>
-<th>Item</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Alchemical cartridge (dragon's breath) | 40 gp | — |
+[Firearm Ammunition]
+| Item | Price | Weight |
+| --- | --- | --- |
+| Alchemical cartridge (dragon's breath) | 40 gp | — |
 | Alchemical cartridge (entangling shot) | 40 gp | — |
 | Alchemical cartridge (flare) | 10 gp | — |
 | Alchemical cartridge (paper, bullet or pellet) | 12 gp | — |
@@ -2140,38 +1956,13 @@ The [Rapid Reload](/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_r
 
 Alchemical Cartridge
 
-<thead>
-<tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr>
-<tr class="odd">
-<td>Dragon's breath</td>
-<td>40 gp</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Entangling shot</td>
-<td>40 gp</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Flare</td>
-<td>10 gp</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Paper</td>
-<td>12 gp</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Salt shot</td>
-<td>12 gp</td>
-<td>—</td>
-</tr>
-</thead>
+| Type | Price | Weight |
+| --- | --- | --- |
+| Dragon's breath | 40 gp | — |
+| Entangling shot | 40 gp | — |
+| Flare | 10 gp | — |
+| Paper | 12 gp | — |
+| Salt shot | 12 gp | — |
 
 An alchemical cartridge is a prepared bundle of black powder with a bullet or pellets, sometimes with more exotic material added, which is then wrapped in paper or cloth and sealed with beeswax, lard, or tallow. There are many types of alchemical cartridges, the simplest being the paper cartridge—a simple mix of black powder and either pellets or a bullet. Alchemical cartridges make loading a firearm easier, reducing the time to load a firearm by one step (a full-round action becomes a standard action, a standard action becomes a move action, and a move action becomes a free action), but they tend to be unstable. The misfire value of a weapon firing an alchemical cartridge increases as listed in each entry.
 
@@ -2195,11 +1986,9 @@ This short musket features an axe blade at the end of its barrel. It can be used
 
 Black Powder
 
-<thead><tr>
-<th>Amount</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| 1 dose | 10 gp | — |
+| Amount | Price | Weight |
+| --- | --- | --- |
+| 1 dose | 10 gp | — |
 | 1 keg | 1,000 gp | 5 lbs. |
 
 Black powder is the key explosive component within a firearm that enables it to function, but in larger amounts this alchemical material can be quite destructive on its own as well. A single dose of black powder is enough to power a single shot from most one-handed and two-handed firearms, while 10 doses are required to fire a cannon. Black powder is often stored and transported in kegs (which hold 100 doses), but in this quantity the powder itself becomes dangerous. Exposure to fire, electricity, or a misfire explosion causes black powder to explode—a single keg that explodes in this manner deals 5d6 points of fire damage to anyone within a 20-foot burst (DC 15 Reflex half). Storing black powder in a powder horn protects the powder from explosion.
@@ -2402,19 +2191,11 @@ Warhammer Musket
 
 This musket has a warhammer head at the end of its barrel, which allows it to be used as both a musket and a warhammer. It is considered a double weapon for the purposes of creating masterwork or magical versions of this weapon. If this firearm gains the broken condition, both the firearm component and the warhammer are considered broken. A warhammer musket uses either a bullet and 1 dose of black powder or a single alchemical cartridge as ammunition. This is an early firearm.
 
-<caption>Firearms</caption><thead><tr>
-<th><span style="float: left;">One-Handed Ranged<br>Weapons (Early Firearms)</span></th>
-<th>Price</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Misfire</th>
-<th>Capacity</th>
-<th>Weight</th>
-<th>Type</th>
-<th>Special</th>
-</tr></thead>| Buckler gun | 750 gp | 1d4 | 1d6 | ×4 | 10 ft. | 1 (5 ft.) | 2 | 6 lbs. | B and P | — |
+[Firearms]
+| One-Handed Ranged  
+Weapons (Early Firearms) | Price | Dmg (S) | Dmg (M) | Critical | Range | Misfire | Capacity | Weight | Type | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Buckler gun | 750 gp | 1d4 | 1d6 | ×4 | 10 ft. | 1 (5 ft.) | 2 | 6 lbs. | B and P | — |
 | Coat pistol | 750 gp | 1d3 | 1d4 | ×3 | 10 ft. | 1 (5 ft.) | 1 | 1 lb. | B and P | — |
 | Dagger pistol | 740 gp | 1d3 | 1d4 | ×3 | 10 ft. | 1 (5 ft.) | 1 | 1 lb. | B and P | — |
 | Double-barreled pistol | 1,750 gp | 1d6 | 1d8 | ×4 | 20 ft. | 1–2 (5 ft.) | 2 | 5 lbs. | B and P | — |
@@ -2422,7 +2203,10 @@ This musket has a warhammer head at the end of its barrel, which allows it to be
 | Pepperbox | 3,000 gp | 1d6 | 1d8 | ×4 | 20 ft. | 1–2 (5 ft.) | 6 | 5 lbs. | B and P | — |
 | Pistol | 1,000 gp | 1d6 | 1d8 | ×4 | 20 ft. | 1 (5 ft.) | 1 | 4 lbs. | B and P | — |
 | Sword cane pistol | 775 gp | 1d3 | 1d4 | ×3 | 10 ft. | 1 (5 ft.) | 1 | 1 lb. | B and P | — |
-<thead><tr><th colspan="11"><span style="float: left;">Two-Handed Ranged Weapons (Early Firearms)</span></th></tr></thead>| Axe musket | 1,600 gp | 1d6 | 1d8 | ×4 | 30 ft. | 1–2 (5 ft.) | 1 | 6 lbs. | B and P | — |
+
+| Two-Handed Ranged Weapons (Early Firearms) |
+| --- |
+| Axe musket | 1,600 gp | 1d6 | 1d8 | ×4 | 30 ft. | 1–2 (5 ft.) | 1 | 6 lbs. | B and P | — |
 | Blunderbuss | 2,000 gp | 1d6 | 1d8 | ×2 | Special | 1–2 (10 ft.) | 1 | 8 lbs. | B and P | Scatter |
 | Culverin | 4,000 gp | 2d6 | 2d8 | ×4 | 30 ft. | 1 (10 ft.) | 1 | 40 lbs. | B and P | Scatter |
 | Double hackbut | 4,000 gp | 2d10 | 2d12 | ×4 | 50 ft. | 1–2 (5 ft.) | 2 | 18 lbs. | B and P | — |
@@ -2430,8 +2214,14 @@ This musket has a warhammer head at the end of its barrel, which allows it to be
 | Fire lance | 25 gp | 1d4 | 1d6 | ×4 | 10 ft. | 1–4 (5 ft.) | 1 | 4 lbs. | P | — |
 | Musket | 1,500 gp | 1d10 | 1d12 | ×4 | 40 ft. | 1–2 (5 ft.) | 1 | 9 lbs. | B and P | — |
 | Warhammer musket | 1,600 gp | 1d6 | 1d8 | ×4 | 30 ft. | 1–2 (5 ft.) | 1 | 6 lbs. | B and P | — |
-<thead><tr><th colspan="11"><span style="float: left;">One-Handed Ranged Weapons (Advanced Firearms)</span></th></tr></thead>| Revolver | 4,000 gp | 1d6 | 1d8 | ×4 | 20 ft. | 1 | 6 | 4 lbs. | B and P | — |
-<thead><tr><th colspan="11"><span style="float: left;">Two-Handed Ranged Weapons (Advanced Firearms)</span></th></tr></thead>| Double-barreled shotgun | 7,000 gp | 1d6 | 1d8 | ×2 | 20 ft. | 1–2 | 2 | 15 lbs. | B and P | Scatter |
+
+| One-Handed Ranged Weapons (Advanced Firearms) |
+| --- |
+| Revolver | 4,000 gp | 1d6 | 1d8 | ×4 | 20 ft. | 1 | 6 | 4 lbs. | B and P | — |
+
+| Two-Handed Ranged Weapons (Advanced Firearms) |
+| --- |
+| Double-barreled shotgun | 7,000 gp | 1d6 | 1d8 | ×2 | 20 ft. | 1–2 | 2 | 15 lbs. | B and P | Scatter |
 | Pepperbox rifle | 7,000 gp | 1d8 | 1d10 | ×4 | 80 ft. | 1–2 | 4 | 15 lbs. | B and P | — |
 | Rifle | 5,000 gp | 1d8 | 1d10 | ×4 | 80 ft. | 1 | 1 | 12 lbs. | B and P | — |
 | Shotgun | 5,000 gp | 1d6 | 1d8 | ×2 | 20 ft. | 1–2 | 1 | 12 lbs. | B and P | Scatter |

@@ -132,12 +132,10 @@ Oreads have access to the following equipment.
 
 **Stonechipper Salve** : This gritty, gray ointment weakens rocky materials. When applied to an object made of stone, it reduces the object's hardness by 3 for 10 minutes. As a standard action, a creature can apply the paste to affect one 5-foot-square or a Medium or smaller creature. The paste only affects hardness, not damage reduction or similar defenses.
 
-<caption>Oread Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Camouflage lichen | 100 gp | — | — |
+[Oread Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Camouflage lichen | 100 gp | — | — |
 | Fleshgem (decorative) | 1 gp | — | — |
 | Fleshgem (spikes) | 50 gp | 5 lbs. | — |
 | Stonechipper salve | 150 gp | 1 lb. | 20 |

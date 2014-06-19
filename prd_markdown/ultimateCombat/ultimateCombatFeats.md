@@ -136,11 +136,10 @@ Teamwork grant significant bonuses but only function under specific circumstance
 
 # Feats Tables
 
-<caption>Table: Feats</caption><thead><tr>
-<th>Feat</th>
-<th>Prerequisites</th>
-<th>Benefit</th>
-</tr></thead>| Adder Strike\* | Poison use class feature, [Improved Unarmed Strike](/pathfinderRPG/prd/feats.html#_improved-unarmed-strike), [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) 1 rank | May apply contact poison to unarmed strikes |
+[Table: Feats]
+| Feat | Prerequisites | Benefit |
+| --- | --- | --- |
+| Adder Strike\* | Poison use class feature, [Improved Unarmed Strike](/pathfinderRPG/prd/feats.html#_improved-unarmed-strike), [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) 1 rank | May apply contact poison to unarmed strikes |
 |   Pinpoint Poisoner\* | Adder Strike, [Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_two-weapon-fighting) or flurry of blows class feature, [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) 6 ranks | When using Adder Strike, you may poison two blowgun darts that can be used in melee |
 | Adept Champion | Smite evil class feature, base attack bonus +5 | Trade smite evil damage for bonus on combat maneuver checks |
 | Amateur Gunslinger\* | No levels in a class with grit class feature | Gain limited amount of grit and access to gunslinger deeds |
@@ -1193,11 +1192,10 @@ You can repair your broken weapon or armor to serviceability even without the be
 
 **Normal** : Improvised tools impose a –2 penalty on [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) checks. Items require raw materials to repair.
 
-<caption>Table: New Item Craft DCs</caption><thead><tr>
-<th>Item</th>
-<th>Craft Skill</th>
-<th>Craft DC</th>
-</tr></thead>| A weapon with the fragile special quality | Weapon or Bow | Normal DC –5 |
+[Table: New Item Craft DCs]
+| Item | Craft Skill | Craft DC |
+| --- | --- | --- |
+| A weapon with the fragile special quality | Weapon or Bow | Normal DC –5 |
 | One-handed firearm | Firearm | 20 |
 | Two-handed firearm | Firearm | 20 |
 | Siege firearm, heavy | Firearm | 25 |

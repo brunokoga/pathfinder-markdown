@@ -4,14 +4,11 @@ The following armor and shield properties add to those presented in the _Pathfin
 
 # Magic Armor and Shield Ability Descriptions
 
-<caption>Table: Armor Special Abilities</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Special Ability</th>
-<th>Base Price Modifier</th>
-</tr></thead>| 01–40 | 01–35 | 01–19 | _Champion_ | +1 bonus<sup>1</sup> |
-| 41–80 | 36–66 | 20–37 | _Dastard_ | +1 bonus<sup>1</sup> |
+[Table: Armor Special Abilities]
+| Minor | Medium | Major | Special Ability | Base Price Modifier |
+| --- | --- | --- | --- | --- |
+| 01–40 | 01–35 | 01–19 | _Champion_ | +1 bonusⁱ |
+| 41–80 | 36–66 | 20–37 | _Dastard_ | +1 bonusⁱ |
 | 81–99 | 67–70 | 38–39 | _Jousting_ | +3,750 gp |
 | — | 71–83 | 40–61 | _Righteous_ | +27,000 gp |
 | — | 84–96 | 62–80 | _Unrighteous_ | +27,000 gp |
@@ -46,12 +43,10 @@ Moderate transmutation; CL 10th; [Craft Magic Arms and Armor](/pathfinderRPG/prd
 
 # Specific Armors
 
-<caption>Table: Specific Armors</caption><thead><tr>
-<th>Medium</th>
-<th>Major</th>
-<th>Specific Armor</th>
-<th>Market Price</th>
-</tr></thead>| 01–20 | 01–02 | _Mistmail_ | 2,250 gp |
+[Table: Specific Armors]
+| Medium | Major | Specific Armor | Market Price |
+| --- | --- | --- | --- |
+| 01–20 | 01–02 | _Mistmail_ | 2,250 gp |
 | 21–35 | 03–05 | _Soothsayer's raiment_ | 10,300 gp |
 | 36–50 | 06 | _Boneless leather_ | 12,160 gp |
 | 51–65 | 07 | _Murderer's blackcloth_ | 12,405 gp |
@@ -213,11 +208,10 @@ For divination spells with a percentage-based chance of success (such as _ [augu
 
 # Specific Shields
 
-<caption>Table: Specific Shields</caption><thead><tr>
-<th>Major</th>
-<th>Specific Shield</th>
-<th>Market Price</th>
-</tr></thead>| 01–50 | _Battlement shield_ | 16,180 gp |
+[Table: Specific Shields]
+| Major | Specific Shield | Market Price |
+| --- | --- | --- |
+| 01–50 | _Battlement shield_ | 16,180 gp |
 | 51–100 | _Fortress shield_ | 19,180 gp |
 
 **Battlement Shield**

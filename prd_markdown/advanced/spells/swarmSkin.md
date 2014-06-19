@@ -16,10 +16,9 @@ You convert all of your soft tissue into swarms of insects or other creatures an
 
 Each time you cast this spell you get a total allotment of levels equal to your caster level and any swarm you choose to create costs one or more of those levels. You can âspendâ your allotment of levels to create any combination of swarms so long as their total does not exceed your caster level.
 
-<thead><tr>
-<th>Number of Levels</th>
-<th>Swarm Type(s)</th>
-</tr></thead><tbody>
+| Number of Levels | Swarm Type(s) |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>2 caster levels</td>
 <td><a href="../../monsters/spider.html#_spider-swarm">Spider swarm</a></td>

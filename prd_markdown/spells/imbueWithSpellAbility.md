@@ -16,10 +16,9 @@
 
 You transfer some of your currently prepared spells, and the ability to cast them, to another creature. Only a creature with an [Intelligence](../gettingStarted.html#_intelligence) score of at least 5 and a [Wisdom](../gettingStarted.html#_wisdom) score of at least 9 can receive this boon. Only cleric spells from the schools of abjuration, divination, and conjuration (healing) can be transferred. The number and level of spells that the subject can be granted depends on its Hit Dice; even multiple castings of _imbue with spell ability _can't exceed this limit.
 
-<thead><tr>
-<th>HD of Recipient</th>
-<th>Spells Imbued</th>
-</tr></thead>| 2 or lower | One 1st-level spell |
+| HD of Recipient | Spells Imbued |
+| --- | --- |
+| 2 or lower | One 1st-level spell |
 | 3–4 | One or two 1st-level spells |
 | 5 or higher | One or two 1st-level spells and one 2nd-level spell |
 

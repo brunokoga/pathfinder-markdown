@@ -32,10 +32,9 @@ A construct race is a group of animated objects or artificially created creature
 - Constructs cannot be raised or resurrected.
 - Constructs are hard to destroy, and gain bonus hit points based on their size, as shown on the following table. 
 
-<thead><tr>
-<th>Construct Size</th>
-<th>Bonus Hit Points</th>
-</tr></thead>| Tiny | — |
+| Construct Size | Bonus Hit Points |
+| --- | --- |
+| Tiny | — |
 | Small | 10 |
 | Medium | 20 |
 | Large | 30 |

@@ -44,7 +44,7 @@ Statistics
 
 **Base Atk** +0; **CMB** –1; **CMD** 7
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)<sup>B</sup>, [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)B, [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)B
 
 **Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +6, [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) +5, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +4, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +13, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +10, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +3; **Racial Modifiers** +4 [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal)
 

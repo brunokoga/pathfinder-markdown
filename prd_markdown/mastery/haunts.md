@@ -22,10 +22,10 @@ All primary effects created by a haunt are mind-affecting fear effects, even tho
 
 # Elements of a Haunt
 
-<caption>Table: CR Modifiers of Haunts</caption><thead><tr>
-<th>Feature Type</th>
-<th>CR Modifier</th>
-</tr></thead>| Persistent | +2 |
+[Table: CR Modifiers of Haunts]
+| Feature Type | CR Modifier |
+| --- | --- |
+| Persistent | +2 |
 | _Notice DC_ |
 | 15 or lower | –1 |
 | 16–20 | — |
@@ -44,7 +44,6 @@ All primary effects created by a haunt are mind-affecting fear effects, even tho
 | Tricked by [_invisibility_](../spells/invisibility.html) | –1 |
 | Tricked by [Stealth\*](../skills/stealth.html) | –3 |
 | Triggered by touch | –2 |
-<tfoot><tr><td colspan="2">* The haunt makes a caster level check instead of a <a href="../skills/perception.html">Perception</a> check to notice someone using <a href="../skills/stealth.html">Stealth</a>.</td></tr></tfoot>
 
 Haunts are presented in the following format.
 

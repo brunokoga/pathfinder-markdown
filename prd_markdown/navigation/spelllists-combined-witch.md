@@ -329,7 +329,7 @@
 - [**Summoner Conduit**](/pathfinderRPG/prd/ultimateCombat/spells/summonerConduit.html#_summoner-conduit)
 - [**Symbol of Fear**](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)
 - [**Symbol of Scrying**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfScrying.html#_symbol-of-scrying)
-- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)<sup>M</sup>
+- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)M
 - [**Symbol of Sleep**](/pathfinderRPG/prd/spells/symbolOfSleep.html#_symbol-of-sleep)
 - [**Telepathic Bond**](/pathfinderRPG/prd/spells/telepathicBond.html#_telepathic-bond)
 - [**Teleport**](/pathfinderRPG/prd/spells/teleport.html#_teleport)
@@ -337,7 +337,7 @@
 - [**Village Veil**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halflings.html#_village-veil)
 - [**Waves of Fatigue**](/pathfinderRPG/prd/spells/wavesOfFatigue.html#_waves-of-fatigue)
 - [**Wind Blades**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/sylphs.html#_wind-blades)
-- [**Wreath of Blades**](/pathfinderRPG/prd/ultimateCombat/spells/wreathOfBlades.html#_wreath-of-blades)<sup>F</sup>
+- [**Wreath of Blades**](/pathfinderRPG/prd/ultimateCombat/spells/wreathOfBlades.html#_wreath-of-blades)F
 
 - [**Age Resistance**](/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance)
 - [**Analyze Dweomer**](/pathfinderRPG/prd/spells/analyzeDweomer.html#_analyze-dweomer)

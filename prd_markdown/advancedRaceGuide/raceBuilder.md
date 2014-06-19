@@ -18,11 +18,10 @@ Sometimes racial qualities and traits cost 0 RP or a negative number of RP, whic
 
 There are three power levels: standard, advanced, and monstrous. Standard races can only take standard racial traits, while advanced races can take both standard and advanced racial traits, and monstrous races can take standard, advanced, and monstrous racial traits. Table 4–1 summarizes the number of RP you can spend as well as the maximum number of traits per racial trait category you can take based on your power level.
 
-<caption>Racial Points and Trait Maximums by Power Level</caption><thead><tr>
-<th>Power Level</th>
-<th>RP Range</th>
-<th>Traits per Category</th>
-</tr></thead>| Standard | 1–10 | 3 |
+[Racial Points and Trait Maximums by Power Level]
+| Power Level | RP Range | Traits per Category |
+| --- | --- | --- |
+| Standard | 1–10 | 3 |
 | Advanced | 11–20 | 4 |
 | Monstrous | 20+ | 5 |
 
@@ -58,19 +57,11 @@ Generating ability scores for most of the races you create with these rules—ev
 
 Because they have powerful racial traits and abilities, advanced and monstrous races require greater challenges, especially at lower levels. The basic guideline for accomplishing this is to treat a group of characters with advanced and monstrous races as a level or more higher for a number of levels based on their total RP spent, using the following chart. Calculate the party's adjusted average party level, and use that number, rather than the actual APL, when creating encounters and adventures for the group. For groups with mixed power levels, average the RP and round the result to the nearest multiple of 10.
 
-<thead>
-<tr>
-<th></th>
-<th colspan="4"><center>Average Party Level</center></th>
-</tr>
-<tr>
-<th>Average RP</th>
-<th>1–5</th>
-<th>6–10</th>
-<th>11–15</th>
-<th>16–20</th>
-</tr>
-</thead>| 20 | +1 level | +0 level | +0 level | +0 level |
+| | <center>Average Party Level</center> |
+| --- | --- |
+| Average RP | 1–5 | 6–10 | 11–15 | 16–20 |
+| --- | --- | --- | --- | --- |
+| 20 | +1 level | +0 level | +0 level | +0 level |
 | 30 | +2 level | +1 level | +0 level | +0 level |
 | 40 | +3 level | +2 level | +1 level | +0 level |
 

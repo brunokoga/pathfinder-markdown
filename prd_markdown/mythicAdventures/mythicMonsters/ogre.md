@@ -38,7 +38,7 @@ Statistics
 
 **Base Atk** +3; **CMB** +9; **CMD** 18
 
-**Feats** [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)<sup>M</sup>, [Toughness](/pathfinderRPG/prd/feats.html#_toughness), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (greatclub)
+**Feats** [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M, [Toughness](/pathfinderRPG/prd/feats.html#_toughness), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (greatclub)
 
 **Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +7, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +6
 

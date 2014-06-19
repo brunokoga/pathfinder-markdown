@@ -56,7 +56,7 @@ Statistics
 
 **Base Atk** +9; **CMB** +14; **CMD** 28 (32 vs. trip)
 
-**Feats** [Dodge](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_dodge-mythic)<sup>M</sup>, [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Mobility](/pathfinderRPG/prd/feats.html#_mobility), [Spring Attack](/pathfinderRPG/prd/feats.html#_spring-attack)<sup>M</sup>
+**Feats** [Dodge](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_dodge-mythic)M, [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Mobility](/pathfinderRPG/prd/feats.html#_mobility), [Spring Attack](/pathfinderRPG/prd/feats.html#_spring-attack)M
 
 **Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +10, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +5, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +7, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +11, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) +4, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +15, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +15, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +12; **Racial Modifiers** +4 [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), +4 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
 

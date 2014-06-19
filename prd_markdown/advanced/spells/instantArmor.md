@@ -16,10 +16,9 @@ You instantly wrap your body in a suit of armor made from opaque force. At your 
 
 _Instant armor_ acts in all ways as armor typical of its type (armor bonus, maximum Dexterity bonus, arcane spell failure chance, and so on). Since _instant armor_ is made of force, incorporeal creatures can't bypass it the way they do normal armor. The sort of armor you can create with this spell depends on your caster level.
 
-<thead><tr>
-<th>Caster Level</th>
-<th>Armor Created</th>
-</tr></thead><tbody>
+| Caster Level | Armor Created |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>5th or lower</td>
 <td>chainmail</td>

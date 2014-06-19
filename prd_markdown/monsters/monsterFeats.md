@@ -128,11 +128,10 @@ A spell-like ability that duplicates a spell with a casting time greater than 1 
 
 **Special** : This feat can be taken multiple times. Each time it is taken, the creature can apply it to a different one of its spell-like abilities.
 
-<caption>Empowered and Quickened Spell-Like Abilities</caption><thead><tr>
-<th>Spell Level</th>
-<th>Caster Level to Empower</th>
-<th>Caster Level to Quicken</th>
-</tr></thead><tbody>
+[Empowered and Quickened Spell-Like Abilities]
+| Spell Level | Caster Level to Empower | Caster Level to Quicken |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>0</td>
 <td>4th</td>

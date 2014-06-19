@@ -26,15 +26,10 @@ The arcane archer's class skills (and the key ability for each skill) are [Perce
 
 **Skill Ranks at Each Level** : 4 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Arcane Archer</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-<th>Spells per Day</th>
-</tr></thead>| 1st | +1 | +1 | +1 | +0 | Enhance arrows (magic) | — |
+[Table: Arcane Archer]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | +1 | +1 | +1 | +0 | Enhance arrows (magic) | — |
 | 2nd | +2 | +1 | +1 | +1 | Imbue arrow | +1 level of existing class |
 | 3rd | +3 | +2 | +2 | +1 | Enhance arrows (elemental) | +1 level of existing class |
 | 4th | +4 | +2 | +2 | +1 | Seeker arrow | +1 level of existing class |

@@ -8,10 +8,10 @@ Presented in the section below are new rules for subdomains—more specific focu
 
 If a subdomain ability calls for a saving throw, the DC of the save is equal to 10 + 1/2 the character's cleric level + her Wisdom modifier.
 
-<caption>Table: Subdomains</caption><thead><tr>
-<th>Domain</th>
-<th>Subdomains</th>
-</tr></thead><tbody>
+[Table: Subdomains]
+| Domain | Subdomains |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Air</td>
 <td>Cloud, Wind</td>

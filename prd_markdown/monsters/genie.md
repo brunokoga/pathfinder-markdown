@@ -42,7 +42,7 @@ At will—_ [invisibility](../spells/invisibility.html#_invisibility)_ (self onl
 
 **Base Atk** +7; **CMB** +12; **CMD** 27
 
-**Feats** [Combat Casting](../feats.html#_combat-casting), [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Wind Stance](../feats.html#_wind-stance)
+**Feats** [Combat Casting](../feats.html#_combat-casting), [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)B, [Wind Stance](../feats.html#_wind-stance)
 
 **Skills** [Appraise](../skills/appraise.html#_appraise) +12, [Craft](../skills/craft.html#_craft) (any one) +12, [Fly](../skills/fly.html#_fly) +20, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +12, [Perception](../skills/perception.html#_perception) +12, [Sense Motive](../skills/senseMotive.html#_sense-motive) +12, [Spellcraft](../skills/spellcraft.html#_spellcraft) +12, [Stealth](../skills/stealth.html#_stealth) +10
 
@@ -116,7 +116,7 @@ At Will—_ [plane shift](../spells/planeShift.html#_plane-shift)_ (willing targ
 
 **Base Atk** +10; **CMB** +17; **CMD** 31
 
-**Feats** [Combat Casting](../feats.html#_combat-casting), [Combat Reflexes](../feats.html#_combat-reflexes), [Deceitful](../feats.html#_deceitful), [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Quicken Spell-Like Ability](monsterFeats.html#_quicken-spell-like-ability) (_ [scorching ray](../spells/scorchingRay.html#_scorching-ray)_)
+**Feats** [Combat Casting](../feats.html#_combat-casting), [Combat Reflexes](../feats.html#_combat-reflexes), [Deceitful](../feats.html#_deceitful), [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)B, [Quicken Spell-Like Ability](monsterFeats.html#_quicken-spell-like-ability) (_ [scorching ray](../spells/scorchingRay.html#_scorching-ray)_)
 
 **Skills** [Bluff](../skills/bluff.html#_bluff) +19, [Craft](../skills/craft.html#_craft) (any one) +14, [Disguise](../skills/disguise.html#_disguise) +10, [Fly](../skills/fly.html#_fly) +13, [Intimidate](../skills/intimidate.html#_intimidate) +15, [Perception](../skills/perception.html#_perception) +15, [Sense Motive](../skills/senseMotive.html#_sense-motive) +15, [Spellcraft](../skills/spellcraft.html#_spellcraft) +14, [Stealth](../skills/stealth.html#_stealth) +8
 
@@ -188,7 +188,7 @@ N Medium [outsider](creatureTypes.html#_outsider) ( [native](creatureTypes.html#
 
 **Base Atk** +6; **CMB** +9; **CMD** 22
 
-**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Mobility](../feats.html#_mobility)
+**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)B, [Mobility](../feats.html#_mobility)
 
 **Skills** [Appraise](../skills/appraise.html#_appraise) +11, [Craft](../skills/craft.html#_craft) (any one—usually weaponsmith) +11, [Fly](../skills/fly.html#_fly) +14, [Perception](../skills/perception.html#_perception) +11, [Ride](../skills/ride.html#_ride) +6, [Sense Motive](../skills/senseMotive.html#_sense-motive) +11, [Spellcraft](../skills/spellcraft.html#_spellcraft) +11, [Stealth](../skills/stealth.html#_stealth) +6
 
@@ -270,7 +270,7 @@ At will—_ [create water](../spells/createWater.html#_create-water), [invisibil
 
 **Base Atk** +12; **CMB** +19; **CMD** 34
 
-**Feats** [Combat Casting](../feats.html#_combat-casting), [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Great Fortitude](../feats.html#_great-fortitude), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Improved Natural Attack](monsterFeats.html#_improved-natural-attack), [Power Attack](../feats.html#_power-attack)
+**Feats** [Combat Casting](../feats.html#_combat-casting), [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Great Fortitude](../feats.html#_great-fortitude), [Improved Initiative](../feats.html#_improved-initiative)B, [Improved Natural Attack](monsterFeats.html#_improved-natural-attack), [Power Attack](../feats.html#_power-attack)
 
 **Skills** [Craft](../skills/craft.html#_craft) (any one) +17, [Diplomacy](../skills/diplomacy.html#_diplomacy) +18, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +17, [Perception](../skills/perception.html#_perception) +17, [Sense Motive](../skills/senseMotive.html#_sense-motive) +17, [Spellcraft](../skills/spellcraft.html#_spellcraft) +17, [Stealth](../skills/stealth.html#_stealth) +15, [Swim](../skills/swim.html#_swim) +29
 
@@ -346,7 +346,7 @@ At will—_ [meld into stone](../spells/meldIntoStone.html#_meld-into-stone), [p
 
 **Base Atk** +9; **CMB** +15; **CMD** 26
 
-**Feats** [Combat Casting](../feats.html#_combat-casting), [Greater Bull Rush](../feats.html#_greater-bull-rush), [Improved Bull Rush](../feats.html#_improved-bull-rush), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Power Attack](../feats.html#_power-attack), [Quicken Spell-Like Ability](monsterFeats.html#_quicken-spell-like-ability) (_ [glitterdust](../spells/glitterdust.html#_glitterdust)_)
+**Feats** [Combat Casting](../feats.html#_combat-casting), [Greater Bull Rush](../feats.html#_greater-bull-rush), [Improved Bull Rush](../feats.html#_improved-bull-rush), [Improved Initiative](../feats.html#_improved-initiative)B, [Power Attack](../feats.html#_power-attack), [Quicken Spell-Like Ability](monsterFeats.html#_quicken-spell-like-ability) (_ [glitterdust](../spells/glitterdust.html#_glitterdust)_)
 
 **Skills** [Appraise](../skills/appraise.html#_appraise) +14, [Bluff](../skills/bluff.html#_bluff) +14, [Climb](../skills/climb.html#_climb) +25, [Craft](../skills/craft.html#_craft) (gemcutting) +14, [Knowledge](../skills/knowledge.html#_knowledge) (engineering) +14, [Perception](../skills/perception.html#_perception) +14, [Sense Motive](../skills/senseMotive.html#_sense-motive) +14, [Spellcraft](../skills/spellcraft.html#_spellcraft) +14
 

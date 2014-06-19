@@ -6,10 +6,9 @@ You are skilled at surviving in the wild and at navigating in the wilderness. Yo
 
 **Check** : You can keep yourself and others safe and fed in the wild. The table below gives the DCs for various tasks that require Survival checks.
 
-<thead><tr>
-<th>Survival DC</th>
-<th>Task</th>
-</tr></thead>| 10 | Get along in the wild. Move up to half your overland speed while hunting and foraging (no food or water supplies needed). You can provide food and water for one other person for every 2 points by which your check result exceeds 10. |
+| Survival DC | Task |
+| --- | --- |
+| 10 | Get along in the wild. Move up to half your overland speed while hunting and foraging (no food or water supplies needed). You can provide food and water for one other person for every 2 points by which your check result exceeds 10. |
 | 15 | Gain a +2 bonus on all [Fortitude](../combat.html#_fortitude) saves against severe weather while moving up to half your overland speed, or gain a +4 bonus if you remain stationary. You may grant the same bonus to one other character for every 1 point by which your Survival check result exceeds 15. |
 | 15 | Keep from getting lost or avoid natural hazards, such as quicksand. |
 | 15 | Predict the weather up to 24 hours in advance. For every 5 points by which your Survival check result exceeds 15, you can predict the weather for one additional day in advance. |
@@ -18,10 +17,9 @@ _Follow Tracks_: To find tracks or to follow them for 1 mile requires a successf
 
 You move at half your normal speed while following tracks (or at your normal speed with a –5 penalty on the check, or at up to twice your normal speed with a –20 penalty on the check). The DC depends on the surface and the prevailing conditions, as given on the table.
 
-<thead><tr>
-<th>Surface</th>
-<th>Survival DC</th>
-</tr></thead><tbody>
+| Surface | Survival DC |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Very soft ground</td>
 <td>5</td>
@@ -48,11 +46,10 @@ _Firm Ground_: Most normal outdoor surfaces (such as lawns, fields, woods, and t
 
 _Hard Ground_: Any surface that doesn't hold footprints at all, such as bare rock or an indoor floor. Most streambeds fall into this category, since any footprints left behind are obscured or washed away. The creature leaves only traces (scuff marks or displaced pebbles).
 
-<thead><tr>
-<th>Condition</th>
-<th>Survival DC Modifier</th>
-</tr></thead>| Every three creatures in the group being tracked | –1 |
-| Size of creature or creatures being tracked:<sup>1</sup> |
+| Condition | Survival DC Modifier |
+| --- | --- |
+| Every three creatures in the group being tracked | –1 |
+| Size of creature or creatures being tracked:ⁱ |
 | Fine | +8 |
 | Diminutive | +4 |
 | Tiny | +2 |
@@ -65,15 +62,11 @@ _Hard Ground_: Any surface that doesn't hold footprints at all, such as bare roc
 | Every 24 hours since the trail was made | +1 |
 | Every hour of rain since the trail was made | +1 |
 | Fresh snow since the trail was made | +10 |
-| Poor visibility:<sup>2</sup> |
+| Poor visibility:⁲ |
 | Overcast or moonless night | +6 |
 | Moonlight | +3 |
 | Fog or precipitation | +3 |
 | Tracked party hides trail (and moves at half speed) | +5 |
-<tfoot>
-<tr><td colspan="2">1 For a group of mixed sizes, apply only the modifier for the largest size category.</td></tr>
-<tr><td colspan="2">2 Apply only the largest modifier from this category.</td></tr>
-</tfoot>
 
 Several modifiers may apply to the Survival check, as given on the table above.
 

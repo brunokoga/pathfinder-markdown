@@ -32,11 +32,10 @@ The description of each army is presented in a standard format.
 
 **Size** : The army's size determines not only how many individual units exist in the army, but also the army's ACR.
 
-<caption>Army Sizes</caption><thead><tr>
-<th>Army Size</th>
-<th>Number of Units</th>
-<th>ACR</th>
-</tr></thead>| Fine | 1 | CR of individual creature —8 |
+[Army Sizes]
+| Army Size | Number of Units | ACR |
+| --- | --- | --- |
+| Fine | 1 | CR of individual creature —8 |
 | Diminutive | 10 | CR of individual creature —6 |
 | Tiny | 25 | CR of individual creature —4 |
 | Small | 50 | CR of individual creature —2 |
@@ -168,12 +167,8 @@ On the first Melee phase, the commander selects a strategy from one of five opti
 
 Once each Melee phase after the first, the commander can alter the army's strategy. Adjusting the strategy 1 step up or down does is automatically successful and doesn't require a check. If the commander wants to adjust strategy more than 1 step, the army attempts a DC 20 Morale check. Success means the strategy changes to the desired level. Otherwise, the army's current strategy doesn't change.
 
-<thead><tr>
-<th>Strategy</th>
-<td>DV</td>
-<td>OM</td>
-<td>Damage Dealt</td>
-</tr></thead>| Defensive | +4 | —4 | —6 |
+| Strategy | DV | OM | Damage Dealt |
+| Defensive | +4 | —4 | —6 |
 | Cautious | +2 | —2 | —3 |
 | Standard | +0 | +0 | +0 |
 | Aggressive | —2 | +2 | +3 |
@@ -189,12 +184,8 @@ An army is victorious if all of its enemy armies flee the battlefield or are def
 
 **Defeated** : If an army's hit points are reduced to 0, it is defeated. A defeated army may have a few survivors, but they are so demoralized and wounded (and probably captured by the enemy) that the army no longer exists as a cohesive unit and can't be used again in mass combat. If your army is defeated, reduce your kingdom's Economy, Loyalty, and Stability according to the size of the army.
 
-<thead><tr>
-<th>Army Size</th>
-<td>Economy</td>
-<td>Loyalty</td>
-<td>Stability</td>
-</tr></thead>| Fine | 0 | 0 | 0 |
+| Army Size | Economy | Loyalty | Stability |
+| Fine | 0 | 0 | 0 |
 | Diminutive | 0 | —1 | 0 |
 | Tiny | —1 | —1 | 0 |
 | Small | —1 | —1 | —1 |
@@ -320,10 +311,9 @@ The costs listed are for a Medium army. Resources for a smaller or larger army c
 
 **Siege Engines (15 BP per engine)** : Your army includes catapults, rams, trebuchets, ballistae, and other siege engines designed to break down fortifications. Increase OM by 2 (regardless of the total number of siege engines in the army) and Consumption by 3 per siege engine. Each Melee phase, reduce the enemy's bonus to DV from fortifications by 1d4 per siege engine in your army. Unlike other resources, the cost of a siege engine doesn't scale with the army's size. To purchase this resource, a settlement in your kingdom must have an Academy, Foreign Quarter, Military Academy, or University.
 
-<caption>Resource Scaling</caption><thead><tr>
-<th>Army Size</th>
-<td>Multiplier</td>
-</tr></thead>| Fine | Ã1/8 |
+[Resource Scaling]
+| Army Size | Multiplier |
+| Fine | Ã1/8 |
 | Diminutive | Ã1/6 |
 | Tiny | Ã1/4 |
 | Small | Ã1/2 |
@@ -332,7 +322,6 @@ The costs listed are for a Medium army. Resources for a smaller or larger army c
 | Huge | Ã4 |
 | Gargantuan | Ã10 |
 | Colossal | Ã20 |
-<tfoot><tr><td colspan="2">The multiplier affects the resource's initial cost and the increase to Consumption. The multiplier can't reduce the cost of a resource below 1 BP.</td></tr></tfoot>
 
 ### Transferring Resources
 

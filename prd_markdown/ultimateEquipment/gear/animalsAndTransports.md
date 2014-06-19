@@ -4,11 +4,10 @@ The animals, mounts, and related gear in this section can be found in most large
 
 The tables for this section are split up into five categories: Pets and Familiars, Guard and Hunting Animals, Farm and Work Animals, Mounts, and Animal-Related Gear. Animals that fit into more than one category appear on multiple lists.
 
-<caption>Pets and Familiars</caption><thead><tr>
-<th>Animal</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Badger | 15 gp | 20 lbs. |
+[Pets and Familiars]
+| Animal | Price | Weight |
+| --- | --- | --- |
+| Badger | 15 gp | 20 lbs. |
 | Bat | 5 gp | 1 lb. |
 | Cat | 3 cp | 8 lbs. |
 | Cat, hunting | 100 gp | 100 lbs. |
@@ -45,11 +44,10 @@ The tables for this section are split up into five categories: Pets and Familiar
 | Turtle | 3 gp | 4 lbs. |
 | Weasel | 2 gp | 8 oz. |
 
-<caption>Guard and Hunting Animals</caption><thead><tr>
-<th>Animal</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Axe beak | 1,500 gp | 500 lbs. |
+[Guard and Hunting Animals]
+| Animal | Price | Weight |
+| --- | --- | --- |
+| Axe beak | 1,500 gp | 500 lbs. |
 | Axe beak egg | 1,000 gp | 10 lbs. |
 | Cat, Small | 100 gp | 100 lbs. |
 | Dog, guard | 25 gp | 25 lbs. |
@@ -59,11 +57,10 @@ The tables for this section are split up into five categories: Pets and Familiar
 | Pseudodragon | 200 gp | 7 lbs. |
 | Stirge | 20 gp | 1 lb. |
 
-<caption>Farm and Work Animals</caption><thead><tr>
-<th>Animal</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Camel | 150 gp | 1,000 lbs. |
+[Farm and Work Animals]
+| Animal | Price | Weight |
+| --- | --- | --- |
+| Camel | 150 gp | 1,000 lbs. |
 | Cattle | 50 gp | 1,500 lbs. |
 | Chicken | 1 gp | 6 lbs. |
 | Donkey or mule | 8 gp | 600–800 lbs. |
@@ -74,11 +71,10 @@ The tables for this section are split up into five categories: Pets and Familiar
 | Sheep | 20 gp | 150 lbs. |
 | Yak | 24 gp | 1,000 lbs. |
 
-<caption>Mounts</caption><thead><tr>
-<th>Animal</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Axe beak (combat trained) | 1,500 gp | 500 lbs. |
+[Mounts]
+| Animal | Price | Weight |
+| --- | --- | --- |
+| Axe beak (combat trained) | 1,500 gp | 500 lbs. |
 | Axe beak egg | 1,000 gp | 10 lbs. |
 | Camel | 150 gp | 1,500 lbs |
 | Dire bat, riding | 300 gp | 400 lbs. |
@@ -99,11 +95,10 @@ The tables for this section are split up into five categories: Pets and Familiar
 | Pony (combat trained) | 45 gp | 900 lbs. |
 | Mastodon | 2,000 gp | 8 tons |
 
-<caption>Animal Related Gear</caption><thead><tr>
-<th>Animal</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Animal harness | 2 gp | 2 lbs. |
+[Animal Related Gear]
+| Animal | Price | Weight |
+| --- | --- | --- |
+| Animal harness | 2 gp | 2 lbs. |
 | Barding |
 | Medium creature | ×2\* | ×1\* |
 | Large creature | ×4\* | ×2\* |
@@ -126,7 +121,6 @@ The tables for this section are split up into five categories: Pets and Familiar
 | Riding | 30 gp | 30 lbs. |
 | Saddlebags | 4 gp | 8 lbs. |
 | Stabling (per day) | 5 sp | — |
-<tfoot><tr><td colspan="3">* Relative to similar armor for a Medium humanoid.</td></tr></tfoot>
 
 Animal Harness
 
@@ -164,14 +158,10 @@ Flying mounts can't fly in medium or heavy barding.
 
 Removing and fitting barding takes five times as long as the figures given on the [Donning Armor table](/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/armor.html#_donning-armor-table). A barded animal cannot be used to carry any load other than a rider, and normal saddlebags.
 
-<thead><tr>
-<th>Barding</th>
-<th>(40 ft.)</th>
-<th>Base Speed (50 ft.)</th>
-<th>(60 ft.)</th>
-</tr></thead>| Medium armor | 30 ft. | 35 ft. | 40 ft. |
+| Barding | (40 ft.) | Base Speed (50 ft.) | (60 ft.) |
+| --- | --- | --- | --- |
+| Medium armor | 30 ft. | 35 ft. | 40 ft. |
 | Heavy armor | 30 ft.\* | 35 ft.\* | 40 ft.\* |
-<tfoot><tr><td colspan="4" style="white-space: normal;">* A mount wearing heavy armor moves at only triple its normal speed when running instead of quadruple.</td></tr></tfoot>
 
 Bat
 
@@ -235,11 +225,9 @@ Aquatic spellcasters often find large ocean crabs to be agreeable familiars. Wit
 
 Dire Bat, Riding
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 300 gp | 400 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 300 gp | 400 lbs. |
 | Combat trained | 450 gp | 250 lbs. |
 
 Considered to be the fastest nonmagical transport in cavernous underground realms, dire bats are domesticated in captivity to serve as riding animals. Stables that accommodate these massive creatures are only commonly found in cities built in larger underground caverns, owing to the greater space required for training and exercise, though the outriders of some subterranean races fly them almost to the surface. These creatures require exotic saddles to ride.
@@ -248,11 +236,9 @@ _Dire Bat, Riding (combat trained)_: These animals are used by scouts and milita
 
 Dog
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Guard | 25 gp | 25 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Guard | 25 gp | 25 lbs. |
 | Lap | 15 gp | 5 lbs. |
 | Riding | 150 gp | 50 lbs. |
 
@@ -314,11 +300,9 @@ These quick and wily carnivores can be difficult to train, but often make excell
 
 Gecko, Riding
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 300 gp | 1,200 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 300 gp | 1,200 lbs. |
 | Combat trained | 400 gp | 1,500 lbs. |
 
 Larger than even giant geckos, these mammoth lizards have been specifically bred to be used as mounts. Prized for their ability to run along cave ceilings and sheer walls, they require exotic saddles to ride. A riding gecko has the same statistics as a giant gecko with the giant template.
@@ -367,11 +351,9 @@ While it is easier to train a full-grown hippogriff than a griffon, the eggs of 
 
 Horse
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Heavy | 200 gp | 2,000 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Heavy | 200 gp | 2,000 lbs. |
 | Heavy, combat trained | 300 gp | 3,000 lbs. |
 | Light | 75 gp | 900 lbs |
 | Light, combat trained | 110 gp | 1,200 lbs. |
@@ -528,11 +510,9 @@ This tiny reptile eats small animals and can be found in most temperate and warm
 
 Squirrel
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 1 gp | 2 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 1 gp | 2 lbs. |
 | Flying | 20 gp | 1 lbs. |
 
 These tiny rodents are as common in the wild as rats are in cities. They typically eat nuts, seeds, and vegetation. Squirrels have the same statistics as rats.
@@ -591,11 +571,10 @@ These shaggy-haired relatives to cows are more at home in mountainous terrain wh
 
 Transport vehicles can be purchased or hired to provide passage. The transports in this section are a number of vehicles, both common and exotic, that can be purchased or hired. The table sorts the vehicles by Land Transport and Sea Transport and includes costs to buy these vehicles or rent passage on them.
 
-<caption>Transport</caption><thead><tr>
-<th>Land Transport</th>
-<th>Price</th>
-<th>Price of Passage (Per Mile)</th>
-</tr></thead>| Carriage | 100 gp | 3 cp |
+[Transport]
+| Land Transport | Price | Price of Passage (Per Mile) |
+| --- | --- | --- |
+| Carriage | 100 gp | 3 cp |
 | Cart | 15 gp | 1 cp |
 | Chariot |
 | Chariot, light | 50 gp | 2 cp |
@@ -607,7 +586,10 @@ Transport vehicles can be purchased or hired to provide passage. The transports 
 | Wagon, light | 50 gp | 2 cp |
 | Wagon, medium | 75 gp | 2 cp |
 | Wagon, heavy | 100 gp | 3 cp |
-<thead><tr><th colspan="3"><span style="float: left;">Sea Transport</span></th></tr></thead>| Galley | 30,000 gp | 1 sp |
+
+| Sea Transport |
+| --- |
+| Galley | 30,000 gp | 1 sp |
 | Junk | 15,000 gp | 1 sp |
 | Keelboat | 3,000 gp | 1 sp |
 | Longship | 10,000 gp | 5 cp |

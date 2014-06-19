@@ -48,11 +48,10 @@ A _hammer of thunderbolts_ is destroyed if heated in a fire giant's forge and qu
 
 At first sight, the artifact appears to be nothing more than a piece of bone worn down to a near sphere, but when a creature picks it up, the _knucklebone's_ true power and nature becomes apparent. When a creature holding the _knucklebone of fickle fortune_ looks upon it, he sees that the bone is actually a perfectly shaped die with 20 sides, each side bearing a glowing red symbol of power. When the creature rolls the die, instead of falling to the floor it rolls upward in mid-air, stopping at the eye level of the creature who rolled it. It then takes its effect, based on the side immediately facing its caster. Roll a 20-sided die to determine the effect (see Table 7–13). For effects that are lost if the die is rolled again (such as #17) or a specific result is rolled (such as #14), the character is aware of this restriction.
 
-<caption>Table: Knucklebone of Fickle Fortune</caption><thead><tr>
-<th>d20</th>
-<th>Rune Name</th>
-<th>Effect</th>
-</tr></thead><tbody>
+[Table: Knucklebone of Fickle Fortune]
+| d20 | Rune Name | Effect |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1</td>
 <td>Eya-Doh</td>

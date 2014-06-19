@@ -8,7 +8,7 @@ XP 4,800
 
 N Large dragon ( [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
 
-**Init** +8<sup>M</sup>; **Senses** darkvision 60 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +18
+**Init** +8M; **Senses** darkvision 60 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +18
 
 Defense
 
@@ -36,7 +36,7 @@ Statistics
 
 **Base Atk** +7; **CMB** +13 (+17 grapple); **CMD** 24
 
-**Feats** [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)<sup>M</sup>, [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)<sup>M</sup>, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)M, [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
 
 **Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +9, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +18, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +11, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +7; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
 

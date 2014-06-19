@@ -4,11 +4,10 @@ This magic item category includes various weapons of various types (bows, swords
 
 Magic weapons may have abilities activated by a command word or function automatically when the weapon is used to attack.
 
-<caption>Specific Weapons</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Specific Weapons</th>
-<th>Price</th>
-</tr></thead>| 01–02 | _Tracer bullet_ | 100 gp |
+[Specific Weapons]
+| d% | Lesser Minor Specific Weapons | Price |
+| --- | --- | --- |
+| 01–02 | _Tracer bullet_ | 100 gp |
 | 03–08 | _Sleep arrow_ | 132 gp |
 | 09–10 | _Dustburst bullet_ | 196 gp |
 | 11–16 | _Tangle bolt_ | 226 gp |
@@ -24,21 +23,19 @@ Magic weapons may have abilities activated by a command word or function automat
 | 83–84 | _Burrowing bullet, lesser_ | 1,722 gp |
 | 85–92 | _Dust bolt_ | 1,730 gp |
 | 93–100 | _Slaying arrow_ | 2,282 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Specific Weapons</th>
-<th>Price</th>
-</tr></thead>| 01–20 | Adamantine dagger | 3,002 gp |
+
+| d% | Greater Minor Specific Weapons | Price |
+| --- | --- | --- |
+| 01–20 | Adamantine dagger | 3,002 gp |
 | 21–40 | Adamantine battleaxe | 3,010 gp |
 | 41–50 | _Burrowing bullet, greater_ | 3,447 gp |
 | 51–70 | _Slaying arrow, greater_ | 4,057 gp |
 | 71–80 | _Lance of jousting_ | 4,310 gp |
 | 81–100 | _Shatterspike_ | 4,315 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Specific Weapons</th>
-<th>Price</th>
-</tr></thead>| 01–03 | _Bloodletting kukri_ | 6,308 gp |
+
+| d% | Lesser Medium Specific Weapons | Price |
+| --- | --- | --- |
+| 01–03 | _Bloodletting kukri_ | 6,308 gp |
 | 04–09 | _Boulderhead mace_ | 6,812 gp |
 | 10–14 | _Beaststrike club_ | 7,300 gp |
 | 15–20 | _Fighter's fork_ | 7,315 gp |
@@ -56,11 +53,10 @@ Magic weapons may have abilities activated by a command word or function automat
 | 80–85 | _Polarity hammer_ | 12,310 gp |
 | 86–93 | _Blade of binding_ | 12,350 gp |
 | 94–100 | _Shifter's sorrow_ | 12,780 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Specific Weapons</th>
-<th>Price</th>
-</tr></thead>| 01–07 | _Dragoncatch guisarme_ | 13,308 gp |
+
+| d% | Greater Medium Specific Weapons | Price |
+| --- | --- | --- |
+| 01–07 | _Dragoncatch guisarme_ | 13,308 gp |
 | 08–15 | _Ten-ring sword_ | 14,315 gp |
 | 16–21 | _Triton's trident_ | 15,065 gp |
 | 22–29 | _Mace of smiting, lesser_ | 16,012 gp |
@@ -76,22 +72,20 @@ Magic weapons may have abilities activated by a command word or function automat
 | 86–90 | _Luck blade_ (0 _wishes_) | 22,060 gp |
 | 91–95 | _Sword of subtlety_ | 22,310 gp |
 | 96–100 | _Sword of the planes_ | 22,315 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Specific Weapons</th>
-<th>Price</th>
-</tr></thead>| 01–12 | _Nine lives stealer_ | 23,057 gp |
+
+| d% | Lesser Major Specific Weapons | Price |
+| --- | --- | --- |
+| 01–12 | _Nine lives stealer_ | 23,057 gp |
 | 13–26 | _Undercutting axe_ | 23,310 gp |
 | 27–40 | _Spirit caller_ | 25,302 gp |
 | 41–55 | _Dwarfbond hammer_ | 25,312 gp |
 | 56–70 | _Oathbow_ | 25,600 gp |
 | 71–85 | _Sword of life stealing_ | 25,715 gp |
 | 86–100 | _Cutthroat's apprentice_ | 33,910 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Specific Weapons</th>
-<th>Price</th>
-</tr></thead>| 01–02 | _Ghoul's lament_ | 35,312 gp |
+
+| d% | Greater Major Specific Weapons | Price |
+| --- | --- | --- |
+| 01–02 | _Ghoul's lament_ | 35,312 gp |
 | 03–05 | _Mace of terror_ | 38,552 gp |
 | 06–07 | _Hellscourge_ | 39,305 gp |
 | 08–09 | _Dragon's doom_ | 40,310 gp |
@@ -902,10 +896,9 @@ Construction Requirements
 
 Craft Magic Arms and Armor, _ [finger of death](/pathfinderRPG/prd/spells/fingerOfDeath.html#_finger-of-death)_ (_slaying arrow_) or heightened_ [finger of death](/pathfinderRPG/prd/spells/fingerOfDeath.html#_finger-of-death)_ (_greater slaying arrow_)
 
-<thead><tr>
-<th>d%</th>
-<th>Designated Type or Subtype</th>
-</tr></thead>| 01–05 | Aberrations |
+| d% | Designated Type or Subtype |
+| --- | --- |
+| 01–05 | Aberrations |
 | 06–09 | Animals |
 | 10–16 | Constructs |
 | 17–27 | Dragons |

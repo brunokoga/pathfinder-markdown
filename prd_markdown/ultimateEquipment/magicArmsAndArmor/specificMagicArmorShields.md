@@ -2,32 +2,28 @@
 
 The magic armor that intrepid heroes don in the face of danger is often the only thing that stands between a brave adventurer and a blade to the chest. The following section includes armors with unusual powers and magical abilities. Magic armors may have abilities that need to be activated to function or powers that work passively and constantly.
 
-<caption>Specific Armor</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Armor</th>
-<th>Price</th>
-</tr></thead>| 01–50 | Mithral shirt | 1,100 gp |
+[Specific Armor]
+| d% | Lesser Minor Armor | Price |
+| --- | --- | --- |
+| 01–50 | Mithral shirt | 1,100 gp |
 | 51–100 | Masterwork armor or nonmagical  
 armor made with special material | varies |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Armor</th>
-<th>Price</th>
-</tr></thead>| 01–33 | _Mistmail_ | 2,250 gp |
+
+| d% | Greater Minor Armor | Price |
+| --- | --- | --- |
+| 01–33 | _Mistmail_ | 2,250 gp |
 | 34–66 | _Otyugh hide_ | 2,565 gp |
 | 67–100 | Dragonhide plate | 3,300 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Armor</th>
-<th>Price</th>
-</tr></thead>| 01–33 | Elven chain | 5,150 gp |
+
+| d% | Lesser Medium Armor | Price |
+| --- | --- | --- |
+| 01–33 | Elven chain | 5,150 gp |
 | 34–66 | _Rhino hide_ | 5,165 gp |
 | 67–100 | _Morlock hide_ | 8,910 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Armor</th>
-<th>Price</th>
-</tr></thead>| 01–15 | Adamantine breastplate | 10,200 gp |
+
+| d% | Greater Medium Armor | Price |
+| --- | --- | --- |
+| 01–15 | Adamantine breastplate | 10,200 gp |
 | 16–25 | _Soothsayer's raiment_ | 10,300 gp |
 | 26–38 | _Equestrian plate_ | 10,650 gp |
 | 39–50 | _Enchanted eelskin_ | 11,160 gp |
@@ -35,22 +31,20 @@ armor made with special material | varies |
 | 63–72 | _Murderer's blackcloth_ | 12,405 gp |
 | 73–86 | _Folding plate_ | 12,650 gp |
 | 87–100 | _Breastplate of vanishing_ | 15,200 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Armor</th>
-<th>Price</th>
-</tr></thead>| 01–13 | _Armor of insults_ | 16,175 gp |
+
+| d% | Lesser Major Armor | Price |
+| --- | --- | --- |
+| 01–13 | _Armor of insults_ | 16,175 gp |
 | 14–29 | Dwarven plate | 16,500 gp |
 | 30–45 | _Banded mail of luck_ | 18,900 gp |
 | 46–58 | _Catskin leather_ | 18,910 gp |
 | 59–71 | _Celestial armor_ | 22,400 gp |
 | 72–84 | _Buccaneer's breastplate_ | 23,850 gp |
 | 85–100 | _Plate armor of the deep_ | 24,650 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Armor</th>
-<th>Price</th>
-</tr></thead>| 01–10 | _Breastplate of command_ | 25,400 gp |
+
+| d% | Greater Major Armor | Price |
+| --- | --- | --- |
+| 01–10 | _Breastplate of command_ | 25,400 gp |
 | 11–14 | _Forsaken banded mail_ | 25,400 gp |
 | 15–24 | _Mithral full plate of speed_ | 26,500 gp |
 | 25–28 | _Warden of the woods_ | 29,350 gp |
@@ -416,10 +410,9 @@ Prismatic Plate
 
 This resplendent suit of _+3 full plate_ shimmers and shifts between all the colors of the rainbow. A single color dominates the others at any given time. As a swift action, the wearer can change the dominant color. This color remains dominant until the wearer changes it again. When the wearer of _prismatic plate_ is struck by a _ [prismatic spray](/pathfinderRPG/prd/spells/prismaticSpray.html#_prismatic-spray),_ or when he passes through a _ [prismatic sphere](/pathfinderRPG/prd/spells/prismaticSphere.html#_prismatic-sphere)_ or _ [prismatic wall](/pathfinderRPG/prd/spells/prismaticWall.html#_prismatic-wall)_, he ignores the effect that matches the dominant armor color. He receives no special protection against the other colors of those spells. In addition to this benefit, each color provides a unique type of protection.
 
-<thead><tr>
-<th>Color</th>
-<th>Effect</th>
-</tr></thead>| Red | Resist fire 30 |
+| Color | Effect |
+| --- | --- |
+| Red | Resist fire 30 |
 | Orange | Resist acid 30 |
 | Yellow | Resist electricity 30 |
 | Green | Immunity to poison |
@@ -493,52 +486,46 @@ Craft Magic Arms and Armor, _ [ironwood](/pathfinderRPG/prd/spells/ironwood.html
 
 # Specific Magic Shields
 
-<caption>Specific Shields</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Shield</th>
-<th>Price</th>
-</tr></thead>| 01–20 | Living steel heavy shield | 120 gp |
+[Specific Shields]
+| d% | Lesser Minor Shield | Price |
+| --- | --- | --- |
+| 01–20 | Living steel heavy shield | 120 gp |
 | 21–45 | Darkwood buckler | 203 gp |
 | 46–70 | Darkwood shield | 257 gp |
 | 71–100 | Mithral heavy shield | 1,020 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Shield</th>
-<th>Price</th>
-</tr></thead>| 01–30 | _Zombie skin shield_ | 2,159 gp |
+
+| d% | Greater Minor Shield | Price |
+| --- | --- | --- |
+| 01–30 | _Zombie skin shield_ | 2,159 gp |
 | 31–75 | _Caster's shield_ | 3,153 gp |
 | 76–100 | _Burglar's buckler_ | 4,655 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Shield</th>
-<th>Price</th>
-</tr></thead>| 01–35 | _Spined shield_ | 5,580 gp |
+
+| d% | Lesser Medium Shield | Price |
+| --- | --- | --- |
+| 01–35 | _Spined shield_ | 5,580 gp |
 | 36–50 | _Dragonslayer's shield_ | 7,170 gp |
 | 51–65 | _Collapsible tower_ | 8,170 gp |
 | 66–100 | _Lion's shield_ | 9,170 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Shield</th>
-<th>Price</th>
-</tr></thead>| 01–20 | _Caster shield, greater_ | 10,153 gp |
+
+| d% | Greater Medium Shield | Price |
+| --- | --- | --- |
+| 01–20 | _Caster shield, greater_ | 10,153 gp |
 | 21–40 | _Celestial shield_ | 13,170 gp |
 | 41–60 | _Maelstrom shield_ | 14,170 gp |
 | 61–80 | _Volcanic shield_ | 14,170 gp |
 | 81–100 | _Tempest shield_ | 15,170 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Shield</th>
-<th>Price</th>
-</tr></thead>| 01–20 | _Battlement shield_ | 16,180 gp |
+
+| d% | Lesser Major Shield | Price |
+| --- | --- | --- |
+| 01–20 | _Battlement shield_ | 16,180 gp |
 | 21–40 | _Winged shield_ | 17,257 gp |
 | 41–60 | _Avalanche shield_ | 19,170 gp |
 | 61–80 | _Fortress shield_ | 19,180 gp |
 | 81–100 | _Wyrmslayer's shield_ | 20,170 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Shield</th>
-<th>Price</th>
-</tr></thead>| 01–20 | _Spell ward tower shield_ | 25,180 gp |
+
+| d% | Greater Major Shield | Price |
+| --- | --- | --- |
+| 01–20 | _Spell ward tower shield_ | 25,180 gp |
 | 21–35 | _Quick block buckler_ | 36,155 gp |
 | 36–50 | _Belligerent shield_ | 36,170 gp |
 | 51–65 | _Force tower_ | 46,030 gp |

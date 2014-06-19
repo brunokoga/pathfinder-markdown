@@ -18,10 +18,9 @@ You grab a creature with telekinesis and use it to batter nearby opponents or ob
 
 **Creature Size Damage Dealt**
 
-<thead><tr>
-<th>Creature Size</th>
-<th>Damage Dealt</th>
-</tr></thead><tbody>
+| Creature Size | Damage Dealt |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Fine</td>
 <td>1d4</td>

@@ -38,7 +38,7 @@ NG Medium [outsider](creatureTypes.html#_outsider) ( [native](creatureTypes.html
 
 **Spells Prepared** (CL 1st)
 
-1st—_ [bless](../spells/bless.html#_bless)_, _ [command](../spells/command.html#_command)_ (DC 14), _ [protection from evil](../spells/protectionFromEvil.html#_protection-from-evil)_<sup>D</sup>
+1st—_ [bless](../spells/bless.html#_bless)_, _ [command](../spells/command.html#_command)_ (DC 14), _ [protection from evil](../spells/protectionFromEvil.html#_protection-from-evil)_D
 
 0 (at will)—_ [detect magic](../spells/detectMagic.html#_detect-magic), [guidance](../spells/guidance.html#_guidance), [stabilize](../spells/stabilize.html#_stabilize)_
 

@@ -30,15 +30,10 @@ The nature warden's class skills are [Climb](../../skills/climb.html#_climb) (St
 
 **Skill Ranks at Each Level** : 4 + Int modifier.
 
-<caption>Table: Nature Warden</caption><thead><tr id="level-bonus-save-save-save-special-spells-per-day">
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-<th>SpellsSpells per Day</th>
-</tr></thead>| 1st | +0 | +1 | +0 | +1 | Companion bond, natural empathy | — |
+[Table: Nature Warden]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | SpellsSpells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +1 | +0 | +1 | Companion bond, natural empathy | — |
 | 2nd | +1 | +1 | +1 | +1 | Mystic harmony, wild stride | +1 level of divine spellcasting class |
 | 3rd | +2 | +2 | +1 | +2 | Animal speech | +1 level of divine spellcasting class |
 | 4th | +3 | +2 | +1 | +2 | Silverclaw | +1 level of divine spellcasting class |

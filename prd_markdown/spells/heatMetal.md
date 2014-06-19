@@ -20,11 +20,9 @@ A creature takes fire damage if its equipment is heated. It takes full damage if
 
 On the first round of the spell, the metal becomes warm and uncomfortable to touch but deals no damage. The same effect also occurs on the last round of the spell's duration. During the second (and also the next-to-last) round, intense heat causes pain and damage. In the third, fourth, and fifth rounds, the metal is searing hot, and causes more damage, as shown on the table below.
 
-<thead><tr>
-<th>Round</th>
-<th>Metal Temperature</th>
-<th>Damage</th>
-</tr></thead><tbody>
+| Round | Metal Temperature | Damage |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1</td>
 <td>Warm</td>

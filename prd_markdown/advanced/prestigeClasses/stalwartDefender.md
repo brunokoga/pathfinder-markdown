@@ -26,15 +26,10 @@ The stalwart defender's class skills are [Acrobatics](../../skills/acrobatics.ht
 
 **Skill Ranks per Level** : 2 + Int modifier.
 
-<caption>Table: Stalwart Defender</caption><thead><tr id="level-bonus-save-save-save-bonus-special-">
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>AC Bonus</th>
-<th>Special</th>
-</tr></thead>| 1st | +1 | +1 | +0 | +1 | +1 | Defensive stance |
+[Table: Stalwart Defender]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | AC Bonus | Special |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | +1 | +1 | +0 | +1 | +1 | Defensive stance |
 | 2nd | +2 | +1 | +1 | +1 | +1 | Defensive power |
 | 3rd | +3 | +2 | +1 | +2 | +1 | Uncanny dodge |
 | 4th | +4 | +2 | +1 | +2 | +2 | Defensive power |

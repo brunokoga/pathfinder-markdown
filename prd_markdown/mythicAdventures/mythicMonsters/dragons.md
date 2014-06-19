@@ -8,7 +8,7 @@ XP 51,200
 
 CE Large dragon ( [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype), [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype))
 
-**Init** +11<sup>M</sup>; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 60 ft., darkvision 120 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), mistsight; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +26
+**Init** +11M; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 60 ft., darkvision 120 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), mistsight; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +26
 
 **Aura** frightful presence (210 ft., DC 21), stench (DC 24, 10 rounds)
 
@@ -50,7 +50,7 @@ Statistics
 
 **Base Atk** +16; **CMB** +26 (+30 grapple); **CMD** 37 (41 vs. trip)
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)<sup>M</sup>, [Improved Vital Strike](/pathfinderRPG/prd/feats.html#_improved-vital-strike), [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)<sup>M</sup>, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (bite)<sup>M</sup>
+**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)M, [Improved Vital Strike](/pathfinderRPG/prd/feats.html#_improved-vital-strike), [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)M, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (bite)M
 
 **Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +14, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +19, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +22, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +21, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +26, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +5, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +21, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +22, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +36
 
@@ -86,7 +86,7 @@ XP 102,400
 
 LE Huge dragon ( [earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype), [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
 
-**Init** +12<sup>M</sup>; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 60 ft., darkvision 120 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +24
+**Init** +12M; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 60 ft., darkvision 120 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +24
 
 **Aura** frightful presence (210 ft., DC 22)
 
@@ -126,7 +126,7 @@ Statistics
 
 **Base Atk** +18; **CMB** +28; **CMD** 39 (43 vs. trip)
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Dazzling Display](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_dazzling-display-mythic)<sup>M</sup>, [Deadly Stroke](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_deadly-stroke-mythic)<sup>M</sup>, [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)<sup>M</sup>, [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack), [Shatter Defenses](/pathfinderRPG/prd/feats.html#_shatter-defenses), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (bite)<sup>M</sup>
+**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Dazzling Display](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_dazzling-display-mythic)M, [Deadly Stroke](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_deadly-stroke-mythic)M, [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)M, [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack), [Shatter Defenses](/pathfinderRPG/prd/feats.html#_shatter-defenses), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (bite)M
 
 **Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +24, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +14, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +24, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +15, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography) +24, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +15, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +24, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +24, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +15, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +14, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +15
 
@@ -212,7 +212,7 @@ Statistics
 
 **Base Atk** +21; **CMB** +38 (+42 grapple); **CMD** 47 (51 vs. trip)
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Blinding Critical](/pathfinderRPG/prd/feats.html#_blinding-critical), [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Critical Focus](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_critical-focus-mythic)<sup>M</sup>, [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Great Cleave](/pathfinderRPG/prd/feats.html#_great-cleave), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite)<sup>M</sup>, [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (claws)<sup>M</sup>, [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)<sup>M</sup>, [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack)
+**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Blinding Critical](/pathfinderRPG/prd/feats.html#_blinding-critical), [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Critical Focus](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_critical-focus-mythic)M, [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Great Cleave](/pathfinderRPG/prd/feats.html#_great-cleave), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite)M, [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (claws)M, [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M, [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack)
 
 **Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +9, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, local, and naturel) +28, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +32, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +6, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +28, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +11, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +28, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +45, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +30
 
@@ -248,7 +248,7 @@ XP 19,200
 
 CE Large dragon ( [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
 
-**Init** +10<sup>M</sup>; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 60 ft., darkvision 120 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), smoke vision, x-ray vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +15
+**Init** +10M; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 60 ft., darkvision 120 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), smoke vision, x-ray vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +15
 
 Defense
 
@@ -288,7 +288,7 @@ Statistics
 
 **Base Atk** +11; **CMB** +20 (+24 grapple); **CMD** 31 (35 vs. trip)
 
-**Feats** [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)<sup>M</sup>, [Improved Vital Strike](/pathfinderRPG/prd/feats.html#_improved-vital-strike), [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)<sup>M</sup>, [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)<sup>M</sup>, [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike)
+**Feats** [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)M, [Improved Vital Strike](/pathfinderRPG/prd/feats.html#_improved-vital-strike), [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M, [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)M, [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike)
 
 **Skills** [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) +15, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +16, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +9, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +16, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +15, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +15, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +11
 
@@ -316,7 +316,7 @@ XP 1,638,400
 
 CE Gargantuan dragon ( [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
 
-**Init** +12<sup>M</sup>; **Senses** [blindsight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsight) 60 ft., darkvision 120 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), smoke vision, x-ray vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +35
+**Init** +12M; **Senses** [blindsight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsight) 60 ft., darkvision 120 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), smoke vision, x-ray vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +35
 
 **Aura** fire (10 ft., 2d6 fire), frightful presence (330 ft., DC 30)
 
@@ -350,19 +350,19 @@ At will—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-ma
 
 8th (4)—_ [discern location](/pathfinderRPG/prd/spells/discernLocation.html#_discern-location)_, _ [iron body](/pathfinderRPG/prd/spells/ironBody.html#_iron-body)_
 
-7th (7)—_ [insanity](/pathfinderRPG/prd/spells/insanity.html#_insanity)_ (DC 24), _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_<sup>M</sup>, _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_
+7th (7)—_ [insanity](/pathfinderRPG/prd/spells/insanity.html#_insanity)_ (DC 24), _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_M, _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_
 
-6th (7)—_ [antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_<sup>M</sup>, _ [contingency](/pathfinderRPG/prd/spells/contingency.html#_contingency)_<sup>M</sup>, _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_
+6th (7)—_ [antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_M, _ [contingency](/pathfinderRPG/prd/spells/contingency.html#_contingency)_M, _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_
 
-5th (7)—_ [polymorph](/pathfinderRPG/prd/spells/polymorph.html#_polymorph)_, _ [telekinesis](/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis)_, _ [teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport)_, _ [wall of force](/pathfinderRPG/prd/spells/wallOfForce.html#_wall-of-force)_<sup>M</sup>
+5th (7)—_ [polymorph](/pathfinderRPG/prd/spells/polymorph.html#_polymorph)_, _ [telekinesis](/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis)_, _ [teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport)_, _ [wall of force](/pathfinderRPG/prd/spells/wallOfForce.html#_wall-of-force)_M
 
-4th (7)—_ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_ (DC 21), _ [fire shield](/pathfinderRPG/prd/spells/fireShield.html#_fire-shield)_, _ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_<sup>M</sup>
+4th (7)—_ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_ (DC 21), _ [fire shield](/pathfinderRPG/prd/spells/fireShield.html#_fire-shield)_, _ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_M
 
-3rd (8)—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_<sup>M</sup>, _ [displacement](/pathfinderRPG/prd/spells/displacement.html#_displacement)_, _ [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_<sup>M</sup>, _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
+3rd (8)—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_M, _ [displacement](/pathfinderRPG/prd/spells/displacement.html#_displacement)_, _ [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_M, _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
 
-2nd (8)—_ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_, _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_ (DC 19), _ [misdirection](/pathfinderRPG/prd/spells/misdirection.html#_misdirection)_, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_<sup>M</sup>, _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_
+2nd (8)—_ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_, _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_ (DC 19), _ [misdirection](/pathfinderRPG/prd/spells/misdirection.html#_misdirection)_, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_M, _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_
 
-1st (8)—_ [alarm](/pathfinderRPG/prd/spells/alarm.html#_alarm)_, _ [grease](/pathfinderRPG/prd/spells/grease.html#_grease)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_<sup>M</sup>, _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_<sup>M</sup>
+1st (8)—_ [alarm](/pathfinderRPG/prd/spells/alarm.html#_alarm)_, _ [grease](/pathfinderRPG/prd/spells/grease.html#_grease)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_M, _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_M
 
 **M** Mythic spell
 
@@ -372,7 +372,7 @@ Statistics
 
 **Base Atk** +27; **CMB** +48 (+52 grapple); **CMD** 56 (60 vs. trip)
 
-**Feats** [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Critical Focus](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_critical-focus-mythic)<sup>M</sup>, Greater [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite)<sup>M</sup>, [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (claws), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)<sup>M</sup>, [Improved Iron Will](/pathfinderRPG/prd/feats.html#_improved-iron-will), [Improved Vital Strike](/pathfinderRPG/prd/feats.html#_improved-vital-strike), [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)<sup>M</sup>, [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)<sup>M</sup>, [Quicken Spell](/pathfinderRPG/prd/feats.html#_quicken-spell), [Staggering Critical](/pathfinderRPG/prd/feats.html#_staggering-critical), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike)
+**Feats** [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Critical Focus](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_critical-focus-mythic)M, Greater [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite)M, [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (claws), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)M, [Improved Iron Will](/pathfinderRPG/prd/feats.html#_improved-iron-will), [Improved Vital Strike](/pathfinderRPG/prd/feats.html#_improved-vital-strike), [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M, [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)M, [Quicken Spell](/pathfinderRPG/prd/feats.html#_quicken-spell), [Staggering Critical](/pathfinderRPG/prd/feats.html#_staggering-critical), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike)
 
 **Skills** [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) +35, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +37, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +37, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +14, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +37, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +35, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +35, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +35, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +35, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +35, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +16
 
@@ -446,7 +446,7 @@ Statistics
 
 **Base Atk** +9; **CMB** +15; **CMD** 27 (31 vs. trip)
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)<sup>M</sup>, [Vital Strike](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_vital-strike-mythic)<sup>M</sup>
+**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)M, [Vital Strike](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_vital-strike-mythic)M
 
 **Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +14, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +12, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +15, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +15, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +14, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +26
 

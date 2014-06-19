@@ -20,10 +20,9 @@ The following are some of the most common cursed item effects. GMs should feel f
 > 
 > _Dependent_: The item only functions in certain situations. To determine the situation, select or roll on the following table.
 
-<thead><tr>
-<th>d%</th>
-<th>Situation</th>
-</tr></thead>| 01–03 | Temperature below freezing |
+| d% | Situation |
+| --- | --- |
+| 01–03 | Temperature below freezing |
 | 04–05 | Temperature above freezing |
 | 06–10 | During the day |
 | 11–15 | During the night |
@@ -71,10 +70,10 @@ Requirements are so dependent upon suitability to the individual item that they 
 
 Unless otherwise indicated, drawbacks remain in effect as long as the item is possessed. The DC to save against any of these effects is usually equal to 10 + the item's caster level.
 
-<caption>Cursed Item Drawbacks</caption><thead><tr>
-<th>d%</th>
-<th>Drawback</th>
-</tr></thead>| 01–04 | Character's hair grows 1 inch longer every hour. |
+[Cursed Item Drawbacks]
+| d% | Drawback |
+| --- | --- |
+| 01–04 | Character's hair grows 1 inch longer every hour. |
 | 05–09 | Character either shrinks 6 inches (01–50 on d%) or grows that much taller (51–100). Only happens once. |
 | 10–13 | Temperature around item is 10Â° F cooler than normal. |
 | 14–17 | Temperature around item is 10Â° F warmer than normal. |
@@ -106,10 +105,10 @@ Unless otherwise indicated, drawbacks remain in effect as long as the item is po
 | 99 | Character cannot cast any spells. |
 | 100 | Either pick one of the above that's appropriate or create a drawback specifically for that item. |
 
-<caption>Common Item Curses</caption><thead><tr>
-<th>d%</th>
-<th>Curse</th>
-</tr></thead>| 01–15 | Delusion |
+[Common Item Curses]
+| d% | Curse |
+| --- | --- |
+| 01–15 | Delusion |
 | 16–35 | Opposite effect or target |
 | 36–45 | Intermittent functioning |
 | 46–60 | Requirement |
@@ -117,10 +116,10 @@ Unless otherwise indicated, drawbacks remain in effect as long as the item is po
 | 76–90 | Completely different effect |
 | 91–100 | Substitute specific cursed item on the Specific Cursed Items table |
 
-<caption>Specific Cursed Items</caption><thead><tr>
-<th>d%</th>
-<th>Item</th>
-</tr></thead>| 01–02 | _–2 cursed sword_ |
+[Specific Cursed Items]
+| d% | Item |
+| --- | --- |
+| 01–02 | _–2 cursed sword_ |
 | 03–04 | _Amulet of inescapable location_ |
 | 05–06 | _Armor of arrow attraction_ |
 | 07–08 | _Armor of rage_ |

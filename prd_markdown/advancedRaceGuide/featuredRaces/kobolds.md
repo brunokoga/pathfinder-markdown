@@ -155,26 +155,17 @@ While a kobold is wearing a kobold tail attachment, the attack deals the tail at
 > 
 > _Sweeper_: When properly used, this sharply curved piece of metal can knock opponents off their feet. Unlike most trip weapons, you cannot drop it if you are tripped during your own trip attempt.
 
-<caption>Kobold Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Alchemical coal (blinding cinders) | 100 gp | — | 25 |
+[Kobold Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Alchemical coal (blinding cinders) | 100 gp | — | 25 |
 | Alchemical coal (choking smoke) | 50 gp | — | 20 |
 | Cave whistle | 20 gp | — | — |
 
-<caption>Kobold Tail Attachments</caption><thead><tr>
-<th>Weapon</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Crit</th>
-<th>Range</th>
-<th>Weight</th>
-<th>Type</th>
-<th>Special</th>
-</tr></thead>| _Light Melee Weapons_ |
+[Kobold Tail Attachments]
+| Weapon | Cost | Dmg (S) | Dmg (M) | Crit | Range | Weight | Type | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _Light Melee Weapons_ |
 | Long lash | 15 gp | 1d4 | 1d6 | ×2 | — | 1 lb. | S | reach |
 | Pounder | 1 gp | 1d6 | 1d8 | ×2 | — | 4 lbs. | B | — |
 | Razored | 3 gp | 1d6 | 1d8 | 19–20/×2 | — | 2 lbs. | S | — |

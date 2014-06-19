@@ -60,11 +60,9 @@ The rate at which time passes can vary on different planes, though it remains co
 
 **Erratic Time** : Some planes have time that slows down and speeds up, so an individual may lose or gain time as he moves between such planes and any others. To the denizens of such a plane, time flows naturally and the shift is unnoticed. The following is provided as an example.
 
-<thead><tr>
-<th>d%</th>
-<th>Time on Material Plane</th>
-<th>Time on Erratic Time Plane</th>
-</tr></thead><tbody>
+| d% | Time on Material Plane | Time on Erratic Time Plane |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–10</td>
 <td>1 day</td>
@@ -178,10 +176,10 @@ A plane's magic trait describes how magic works on that plane compared to how it
 
 **Wild Magic** : On a plane with the wild magic trait, spells and spell-like abilities function in radically different and sometimes dangerous ways. Any spell or spell-like ability used on a wild magic plane has a chance to go awry. The caster must make a caster level check (DC 15 + the level of the spell or spell-like ability) for the magic to function normally. Failure means that something strange happens; roll d% and consult Table 7–16: Wild Magic Effects.
 
-<caption>Table: Wild Magic Effects</caption><thead><tr id="d00-effect">
-<th>d%</th>
-<th>Effect</th>
-</tr></thead>| 01–19 | The spell rebounds on its caster with normal effect. If the spell cannot affect the caster, it simply fails. |
+[Table: Wild Magic Effects]
+| d% | Effect |
+| --- | --- |
+| 01–19 | The spell rebounds on its caster with normal effect. If the spell cannot affect the caster, it simply fails. |
 | 20–23 | A circular pit 15 feet wide opens under the caster's feet; it is 10 feet deep per level of the caster. |
 | 24–27 | The spell fails, but the target or targets of the spell are pelted with a rain of small objects (anything from flowers to rotten fruit), which disappear upon striking. The barrage continues for 1 round. During this time the targets are blinded and must make concentration checks (DC 15 + spell level) to cast spells. |
 | 28–31 | The spell affects a random target or area. Randomly choose a different target from among those in range of the spell or center the spell at a random place within range of the spell. To generate direction randomly, roll 1d8 and count clockwise around the compass, starting with south. To generate range randomly, roll 3d6. Multiply the result by 5 feet for close-range spells, 20 feet for medium-range spells, or 80 feet for long-range spells. |

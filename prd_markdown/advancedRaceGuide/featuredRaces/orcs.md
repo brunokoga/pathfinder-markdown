@@ -124,12 +124,10 @@ Orcs have access to the following equipment.
 
 **War Spirit Pouch** : This tiny bundle of sacred herbs and bones supposedly attracts the attention of helpful battle-spirits. By crushing the pouch as a standard action, an orc (or a creature from a suitably warlike culture) gains 1d4+1 temporary hit points. These temporary hit points go away after 10 minutes. A creature can only benefit from 1 spirit pouch at a time. Once used, the spirit pouch is destroyed.
 
-<caption>Orc Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Battle mask | 50 gp | 2 lbs. | — |
+[Orc Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Battle mask | 50 gp | 2 lbs. | — |
 | Tribal standard | 50 gp | 20 lbs. | — |
 | War spirit pouch | 50 gp | — | 20 |
 

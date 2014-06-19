@@ -28,14 +28,10 @@ _Lie_: The entity intentionally lies to you.
 
 _Random Answer_: The entity tries to lie but doesn't know the answer, so it makes one up.
 
-<caption>Contact Other Plane</caption><thead><tr>
-<th>Plane Contacted</th>
-<th>Avoid <a href="../gettingStarted.html#_intelligence">Int</a>/<a href="../gettingStarted.html#_charisma-new">Cha</a> Decrease</th>
-<th>True Answer</th>
-<th>Don't Know</th>
-<th>Lie</th>
-<th>Random Answer</th>
-</tr></thead>| Elemental Plane | DC 7/1 week | 01–34 | 35–62 | 63–83 | 84–100 |
+[Contact Other Plane]
+| Plane Contacted | Avoid [Int](../gettingStarted.html#_intelligence)/ [Cha](../gettingStarted.html#_charisma-new) Decrease | True Answer | Don't Know | Lie | Random Answer |
+| --- | --- | --- | --- | --- | --- |
+| Elemental Plane | DC 7/1 week | 01–34 | 35–62 | 63–83 | 84–100 |
 | Positive/Negative Energy Plane | DC 8/1 week | 01–39 | 40–65 | 66–86 | 87–100 |
 | Astral Plane | DC 9/1 week | 01–44 | 45–67 | 68–88 | 89–100 |
 | Outer Plane, demigod | DC 10/2 weeks | 01–49 | 50–70 | 71–91 | 92–100 |

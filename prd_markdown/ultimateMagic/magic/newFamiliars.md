@@ -6,11 +6,10 @@ The following are statistics for several new animals that can serve as familiars
 
 Small-sized familiars threaten the areas around them like Small creatures, and can be used to flank enemies, though both familiars and their masters are often loath to use such tactics, as the result is often a dead familiar. Small-sized familiars are also harder to keep on a master's person than Tiny or smaller familiars. Often they require some form of magic item, like a _ [bag of holding](/pathfinderRPG/prd/magicItems/wondrousItems.html#_bag-of-holding)_, for such a feat to work. The process of making a vermin into a familiar grants it an Intelligence score and removes the mindless trait. Vermin familiars communicate with their masters and other vermin of their kind (greensting scorpions with other scorpions, house centipedes with other centipedes, and scarlet spiders with other spiders) by way of a strange combination of behaviors, slight changes in coloration, and even the excretion of scents, subtle and otherwise. As with other types of familiars, other creatures cannot understand this communication without magical aid.
 
-<caption>Table: Familiars</caption>
-<thead><tr>
-<th>Familiar</th>
-<th>Special Ability</th>
-</tr></thead>| Blue-ringed octopus | Master gains a +3 bonus on [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) checks |
+[Table: Familiars]
+| Familiar | Special Ability |
+| --- | --- |
+| Blue-ringed octopus | Master gains a +3 bonus on [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) checks |
 | Donkey rat | Master gains a +2 bonus on [Fortitude](/pathfinderRPG/prd/combat.html#_fortitude) saves |
 | Fox | Master gains a +2 bonus on [Reflex](/pathfinderRPG/prd/combat.html#_reflex) saves |
 | Goat | Master gains a +3 bonus on [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) checks |
@@ -22,7 +21,6 @@ Small-sized familiars threaten the areas around them like Small creatures, and c
 | Scarlet | spiderMaster gains a +3 bonus on [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks |
 | Thrush\* | Master gains a +3 bonus on [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) checks |
 | Turtle | Master gains a +1 natural armor bonus to [AC](/pathfinderRPG/prd/combat.html#_armor-class) |
-<tfoot><tr><td colspan="2">*	A thrush familiar can speak one language of its master's choice as a supernatural ability.</td></tr></tfoot>
 
 Blue-Ringed OctopusCR 1/2
 
@@ -56,7 +54,7 @@ Statistics
 
 **Base Atk** +0; **CMB** +3 (+7 grapple); **CMD** 12 (can_'_t be tripped)
 
-**Feats** [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack)<sup>B</sup>, [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack)B, [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
 
 **Skills** [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) +15, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +25, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +13; **Racial Modifiers** +10 [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist), +8 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
 
@@ -243,7 +241,7 @@ Statistics
 
 **Base Atk** +0; **CMB** +1; **CMD** 7 (19 vs. trip)
 
-**Feats** [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)B
 
 **Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +7, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +4, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +15; **Racial Modifiers** +4 [Climb](/pathfinderRPG/prd/skills/climb.html#_climb), +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
 
@@ -341,7 +339,7 @@ Statistics
 
 **Base Atk** +0; **CMB** +1; **CMD** 6 (can't be tripped)
 
-**Feats** [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)B
 
 **Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +11, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +4, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +19; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +8 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
 
@@ -487,7 +485,7 @@ Statistics
 
 **Base Atk** +0; **CMB** +3; **CMD** 9 (21 vs. trip)
 
-**Feats** [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)B
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +13, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +21, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +4, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +17; **Racial Modifiers** +8 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics), +8 [Climb](/pathfinderRPG/prd/skills/climb.html#_climb), +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
 

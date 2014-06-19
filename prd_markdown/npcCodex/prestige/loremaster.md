@@ -34,15 +34,15 @@ Offense
 
 **Cleric Spells Prepared** (CL 9th; concentration +12)
 
-5th—_ [breath of life](/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life)_, _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_<sup>D</sup>
+5th—_ [breath of life](/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life)_, _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_D
 
-4th—_ [discern lies](/pathfinderRPG/prd/spells/discernLies.html#_discern-lies)_ (DC 17), _ [divination](/pathfinderRPG/prd/spells/divination.html#_divination)_, _ [order's wrath](/pathfinderRPG/prd/spells/orderSWrath.html#_order-s-wrath)_<sup>D</sup>
+4th—_ [discern lies](/pathfinderRPG/prd/spells/discernLies.html#_discern-lies)_ (DC 17), _ [divination](/pathfinderRPG/prd/spells/divination.html#_divination)_, _ [order's wrath](/pathfinderRPG/prd/spells/orderSWrath.html#_order-s-wrath)_D
 
-3rd—_ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [locate object](/pathfinderRPG/prd/spells/locateObject.html#_locate-object)_, _magic circle against chao s_<sup>D</sup>_, [magic vestment](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment)_, _ [remove disease](/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease)_
+3rd—_ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [locate object](/pathfinderRPG/prd/spells/locateObject.html#_locate-object)_, _magic circle against chao s_D_, [magic vestment](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment)_, _ [remove disease](/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease)_
 
-2nd—_ [augury](/pathfinderRPG/prd/spells/augury.html#_augury)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 15), _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_, _ [status](/pathfinderRPG/prd/spells/status.html#_status)_, _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield) othe r_<sup>D</sup>_, [zone of truth](/pathfinderRPG/prd/spells/zoneOfTruth.html#_zone-of-truth)_ (DC 15)
+2nd—_ [augury](/pathfinderRPG/prd/spells/augury.html#_augury)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 15), _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_, _ [status](/pathfinderRPG/prd/spells/status.html#_status)_, _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield) othe r_D_, [zone of truth](/pathfinderRPG/prd/spells/zoneOfTruth.html#_zone-of-truth)_ (DC 15)
 
-1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_, _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (DC 14), _ [comprehend languages](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [sanctuary](/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary)_<sup>D</sup> (DC 14)
+1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_, _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (DC 14), _ [comprehend languages](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [sanctuary](/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary)_D (DC 14)
 
 0 (at will)—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_
 
@@ -118,19 +118,19 @@ At will—_ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html
 
 **Druid Spells Prepared** (CL 13th; concentration +17)
 
-7th—_ [animal shapes](/pathfinderRPG/prd/spells/animalShapes.html#_animal-shapes)_<sup>D</sup>, _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_
+7th—_ [animal shapes](/pathfinderRPG/prd/spells/animalShapes.html#_animal-shapes)_D, _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_
 
-6th—_antilife shel l_<sup>D</sup>, _ [stone tell](/pathfinderRPG/prd/spells/stoneTell.html#_stone-tell)_, _ [transport via plants](/pathfinderRPG/prd/spells/transportViaPlants.html#_transport-via-plants)_
+6th—_antilife shel l_D, _ [stone tell](/pathfinderRPG/prd/spells/stoneTell.html#_stone-tell)_, _ [transport via plants](/pathfinderRPG/prd/spells/transportViaPlants.html#_transport-via-plants)_
 
-5th—_ [animal growth](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth)_ (DC 19), _ [beast shape II](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii) I_<sup>D</sup> (animals only), _ [call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_ _storm_ (DC 19), _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_
+5th—_ [animal growth](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth)_ (DC 19), _ [beast shape II](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii) I_D (animals only), _ [call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_ _storm_ (DC 19), _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_
 
-4th—_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 18), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [rusting grasp](/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp)_, _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ (DC 18), _ [summon nature's ally I](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-i) V_<sup>D</sup> (animals only)
+4th—_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 18), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [rusting grasp](/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp)_, _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ (DC 18), _ [summon nature's ally I](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-i) V_D (animals only)
 
-3rd—_dominate anima l_<sup>D</sup> (DC 17), _ [meld into stone](/pathfinderRPG/prd/spells/meldIntoStone.html#_meld-into-stone)_, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 17), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, _ [quench](/pathfinderRPG/prd/spells/quench.html#_quench)_, _ [speak with plants](/pathfinderRPG/prd/spells/speakWithPlants.html#_speak-with-plants)_
+3rd—_dominate anima l_D (DC 17), _ [meld into stone](/pathfinderRPG/prd/spells/meldIntoStone.html#_meld-into-stone)_, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 17), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, _ [quench](/pathfinderRPG/prd/spells/quench.html#_quench)_, _ [speak with plants](/pathfinderRPG/prd/spells/speakWithPlants.html#_speak-with-plants)_
 
-2nd—_ [animal messenger](/pathfinderRPG/prd/spells/animalMessenger.html#_animal-messenger)_, _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_, _ [heat metal](/pathfinderRPG/prd/spells/heatMetal.html#_heat-metal)_ (DC 16), _hold anima l_<sup>D</sup> (2, DC 16), _ [owl's wisdom](/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom)_
+2nd—_ [animal messenger](/pathfinderRPG/prd/spells/animalMessenger.html#_animal-messenger)_, _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_, _ [heat metal](/pathfinderRPG/prd/spells/heatMetal.html#_heat-metal)_ (DC 16), _hold anima l_D (2, DC 16), _ [owl's wisdom](/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom)_
 
-1st—_ [calm animals](/pathfinderRPG/prd/spells/calmAnimals.html#_calm-animals)_<sup>D</sup> (DC 15), _ [detect animals or plants](/pathfinderRPG/prd/spells/detectAnimalsOrPlants.html#_detect-animals-or-plants)_, _ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_ (DC 15), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [hide from animals](/pathfinderRPG/prd/spells/hideFromAnimals.html#_hide-from-animals)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [calm animals](/pathfinderRPG/prd/spells/calmAnimals.html#_calm-animals)_D (DC 15), _ [detect animals or plants](/pathfinderRPG/prd/spells/detectAnimalsOrPlants.html#_detect-animals-or-plants)_, _ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_ (DC 15), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [hide from animals](/pathfinderRPG/prd/spells/hideFromAnimals.html#_hide-from-animals)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [know direction](/pathfinderRPG/prd/spells/knowDirection.html#_know-direction)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [purify food and drink](/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink)_
 

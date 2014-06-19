@@ -80,7 +80,7 @@ N Medium [animal](creatureTypes.html#_animal)
 
 **Base Atk** +1; **CMB** +0; **CMD** 11 (can't be tripped)
 
-**Feats** [Improved Initiative](../feats.html#_improved-initiative), [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Improved Initiative](../feats.html#_improved-initiative), [Weapon Finesse](../feats.html#_weapon-finesse)B
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +9, [Climb](../skills/climb.html#_climb) +9, [Perception](../skills/perception.html#_perception) +9, [Stealth](../skills/stealth.html#_stealth) +9, [Swim](../skills/swim.html#_swim) +9; **Racial Modifiers** +4 [Perception](../skills/perception.html#_perception), +4 [Stealth](../skills/stealth.html#_stealth), +8 [Acrobatics](../skills/acrobatics.html#_acrobatics); modifies [Climb](../skills/climb.html#_climb) and [Swim](../skills/swim.html#_swim) with Dexterity
 

@@ -24,11 +24,10 @@ Each new class presents interesting character themes and special abilities as fo
 
 The following table lists the starting gold piece values by class. In addition, each character begins play with an outfit worth 10 gp or less.
 
-<caption>Class Starting Wealth Average</caption><thead><tr>
-<th>Class</th>
-<th>Starting Wealth</th>
-<th>Average</th>
-</tr></thead><tbody>
+[Class Starting Wealth Average]
+| Class | Starting Wealth | Average |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Alchemist</td>
 <td>3d6 × 10 gp</td>

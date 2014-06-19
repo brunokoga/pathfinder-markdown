@@ -36,7 +36,7 @@ Statistics
 
 **Base Atk** +7; **CMB** +12; **CMD** 23 (can't be tripped)
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_combat-reflexes-mythic)<sup>M</sup>, [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Toughness](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_toughness-mythic)<sup>M</sup>
+**Feats** [Combat Reflexes](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_combat-reflexes-mythic)M, [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Toughness](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_toughness-mythic)M
 
 **Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +11; **Racial Modifiers** +2 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
 

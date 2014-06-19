@@ -120,12 +120,10 @@ Ifrits have access to the following equipment.
 
 **Ifrit's Blood** : Ifrit alchemists claim to make this thick red oil from their own blood—hence the morbid name—but this claim is almost certainly false. Ifrit's blood ignites upon contact with air, but burns slowly and is unsuitable for use as a splash weapon. A creature can apply a flask of ifrit's blood to a weapon as a standard action, wreathing the weapon in vibrant red flames for 1 minute. The oil deals 1 point of fire damage on each successful attack with the weapon and deals 1 point of fire damage to the weapon itself, bypassing the weapon's hardness if any part of it is made of wood. If the oil is applied to a creature's natural weapons or unarmed strikes, the creature takes 1 point of fire damage each round (though its fire immunity or resistance still applies).
 
-<caption>Ifrit Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Fire ink | 1 gp | — | 15 |
+[Ifrit Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Fire ink | 1 gp | — | 15 |
 | Ifrit's blood | 50 gp | 1 lb. | 20 |
 
 ## Ifrit Feats

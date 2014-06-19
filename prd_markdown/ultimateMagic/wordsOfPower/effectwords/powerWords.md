@@ -14,10 +14,10 @@ Blind (Power)
 
 This effect word causes a living creature to become blinded, whether or not the creature can hear the wordspell. This effect word's duration depends on the target's current hit point total. Any creature that currently has 201 hit points or more is unaffected.
 
-<caption>Table: Blind (Power)</caption><thead><tr>
-<th>Hit Points</th>
-<th>Duration</th>
-</tr></thead>| 50 or less | Permanent |
+[Table: Blind (Power)]
+| Hit Points | Duration |
+| --- | --- |
+| 50 or less | Permanent |
 | 51–100 | 1d4+1 minutes |
 | 101–200 | 1d4+1 rounds |
 
@@ -33,10 +33,10 @@ Stun (Power)
 
 This effect word causes a living creature to become stunned, whether or not the creature can hear the wordspell with this effect word. This effect word's duration depends on the target's current hit point total. Any creature that currently has 151 hit points or more is unaffected.
 
-<caption>Table: Stun (Power)</caption><thead><tr>
-<th>Hit Points</th>
-<th>Duration</th>
-</tr></thead>| 50 or less | 4d4 rounds |
+[Table: Stun (Power)]
+| Hit Points | Duration |
+| --- | --- |
+| 50 or less | 4d4 rounds |
 | 51–100 | 2d4 rounds |
 | 101–150 | 1d4 rounds |
 

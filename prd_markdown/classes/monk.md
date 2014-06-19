@@ -14,18 +14,10 @@ The monk's class skills are [Acrobatics](../skills/acrobatics.html#_acrobatics) 
 
 **Skill Ranks per Level** : 4 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Monk</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-<th>Flurry of Blows Attack Bonus</th>
-<th>Unarmed Damage</th>
-<th>AC Bonus</th>
-<th>Fast Movement</th>
-</tr></thead>| 1st | +0 | +2 | +2 | +2 | Bonus feat, flurry of blows, stunning fist, unarmed strike | –1/<wbr>–1</wbr> | 1d6 | +0 | +0 ft. |
+[Table: Monk]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Flurry of Blows Attack Bonus | Unarmed Damage | AC Bonus | Fast Movement |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +2 | +2 | +2 | Bonus feat, flurry of blows, stunning fist, unarmed strike | –1/<wbr>–1</wbr> | 1d6 | +0 | +0 ft. |
 | 2nd | +1 | +3 | +3 | +3 | Bonus feat, evasion | +0/<wbr>+0</wbr> | 1d6 | +0 | +0 ft. |
 | 3rd | +2 | +3 | +3 | +3 | Fast movement, maneuver training, still mind | +1/<wbr>+1</wbr> | 1d6 | +0 | +10 ft. |
 | 4th | +3 | +4 | +4 | +4 | _Ki_ pool (magic), slow fall 20 ft. | +2/<wbr>+2</wbr> | 1d8 | +1 | +10 ft. |
@@ -76,11 +68,10 @@ A monk's unarmed strike is treated as both a manufactured weapon and a natural w
 
 A monk also deals more damage with his unarmed strikes than a normal person would, as shown above on Table: Monk. The unarmed damage values listed on Table: Monk is for Medium monks. A Small monk deals less damage than the amount given there with his unarmed attacks, while a Large monk deals more damage; see Small or Large Monk Unarmed Damage on the table given below.
 
-<caption>Small or Large Monk Unarmed Damage</caption><thead><tr>
-<th>Level</th>
-<th>Damage (Small Monk)</th>
-<th>Damage (Large Monk)</th>
-</tr></thead><tbody>
+[Small or Large Monk Unarmed Damage]
+| Level | Damage (Small Monk) | Damage (Large Monk) |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1st–3rd</td>
 <td>1d4</td>

@@ -50,7 +50,7 @@ N Small [outsider](creatureTypes.html#_outsider) ( [air](creatureTypes.html#_air
 
 **Base Atk** +2; **CMB** +2; **CMD** 15
 
-**Feats** [Flyby Attack](monsterFeats.html#_flyby-attack), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Flyby Attack](monsterFeats.html#_flyby-attack), [Improved Initiative](../feats.html#_improved-initiative)B, [Weapon Finesse](../feats.html#_weapon-finesse)B
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +7, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +7, [Fly](../skills/fly.html#_fly) +17, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +1, [Perception](../skills/perception.html#_perception) +4, [Stealth](../skills/stealth.html#_stealth) +11
 
@@ -86,7 +86,7 @@ N Medium [outsider](creatureTypes.html#_outsider) ( [air](creatureTypes.html#_ai
 
 **Base Atk** +4; **CMB** +6; **CMD** 22
 
-**Feats** [Dodge](../feats.html#_dodge), [Flyby Attack](monsterFeats.html#_flyby-attack), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Dodge](../feats.html#_dodge), [Flyby Attack](monsterFeats.html#_flyby-attack), [Improved Initiative](../feats.html#_improved-initiative)B, [Weapon Finesse](../feats.html#_weapon-finesse)B
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +11, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +9, [Fly](../skills/fly.html#_fly) +17, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +1, [Perception](../skills/perception.html#_perception) +7, [Stealth](../skills/stealth.html#_stealth) +10
 
@@ -124,7 +124,7 @@ N Large [outsider](creatureTypes.html#_outsider) ( [air](creatureTypes.html#_air
 
 **Base Atk** +8, **CMB** +13; **CMD** 31
 
-**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Flyby Attack](monsterFeats.html#_flyby-attack), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Mobility](../feats.html#_mobility), [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Flyby Attack](monsterFeats.html#_flyby-attack), [Improved Initiative](../feats.html#_improved-initiative)B, [Mobility](../feats.html#_mobility), [Weapon Finesse](../feats.html#_weapon-finesse)B
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +15, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +15, [Fly](../skills/fly.html#_fly) +21, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +5, [Perception](../skills/perception.html#_perception) +11, [Stealth](../skills/stealth.html#_stealth) +11
 
@@ -162,7 +162,7 @@ N Huge [outsider](creatureTypes.html#_outsider) ( [air](creatureTypes.html#_air-
 
 **Base Atk** +10; **CMB** +18; **CMD** 38
 
-**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Flyby Attack](monsterFeats.html#_flyby-attack), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Iron Will](../feats.html#_iron-will), [Mobility](../feats.html#_mobility), [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Flyby Attack](monsterFeats.html#_flyby-attack), [Improved Initiative](../feats.html#_improved-initiative)B, [Iron Will](../feats.html#_iron-will), [Mobility](../feats.html#_mobility), [Weapon Finesse](../feats.html#_weapon-finesse)B
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +18, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +18, [Fly](../skills/fly.html#_fly) +23, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +7, [Perception](../skills/perception.html#_perception) +13, [Stealth](../skills/stealth.html#_stealth) +9
 
@@ -200,7 +200,7 @@ N Huge [outsider](creatureTypes.html#_outsider) ( [air](creatureTypes.html#_air-
 
 **Base Atk** +13; **CMB** +22; **CMD** 43
 
-**Feats** [Blind-Fight](../feats.html#_blind-fight), [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Flyby Attack](monsterFeats.html#_flyby-attack), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Iron Will](../feats.html#_iron-will), [Mobility](../feats.html#_mobility), [Power Attack](../feats.html#_power-attack), [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Blind-Fight](../feats.html#_blind-fight), [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Flyby Attack](monsterFeats.html#_flyby-attack), [Improved Initiative](../feats.html#_improved-initiative)B, [Iron Will](../feats.html#_iron-will), [Mobility](../feats.html#_mobility), [Power Attack](../feats.html#_power-attack), [Weapon Finesse](../feats.html#_weapon-finesse)B
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +25, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +23, [Fly](../skills/fly.html#_fly) +27, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +12, [Perception](../skills/perception.html#_perception) +16, [Stealth](../skills/stealth.html#_stealth) +15
 
@@ -238,7 +238,7 @@ N Huge [outsider](creatureTypes.html#_outsider) ( [air](creatureTypes.html#_air-
 
 **Base Atk** +16; **CMB** +27; **CMD** 49
 
-**Feats** [Blind-Fight](../feats.html#_blind-fight), [Cleave](../feats.html#_cleave), [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Flyby Attack](monsterFeats.html#_flyby-attack), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Iron Will](../feats.html#_iron-will), [Mobility](../feats.html#_mobility), [Power Attack](../feats.html#_power-attack), [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Blind-Fight](../feats.html#_blind-fight), [Cleave](../feats.html#_cleave), [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Flyby Attack](monsterFeats.html#_flyby-attack), [Improved Initiative](../feats.html#_improved-initiative)B, [Iron Will](../feats.html#_iron-will), [Mobility](../feats.html#_mobility), [Power Attack](../feats.html#_power-attack), [Weapon Finesse](../feats.html#_weapon-finesse)B
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +30, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +30, [Fly](../skills/fly.html#_fly) +34, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +19, [Perception](../skills/perception.html#_perception) +19, [Stealth](../skills/stealth.html#_stealth) +22
 
@@ -248,16 +248,11 @@ Although all air elementals of a similar size have identical statistics, the exa
 
 An air elemental prefers to attack flying or otherwise airbone targets, not only because its mastery over flight gives it a slight advantage, but also because it detests the thought of having to touch the ground. An air elemental can move underwater, and although it is an elemental and thus runs no risk of drowning, it has no ranks in [Swim](../skills/swim.html#_swim) and loses much of its speed and mobility when underwater.
 
-<thead>
-<tr>
-<th>Elemental</th>
-<th>Height</th>
-<th>Weight</th>
-<th>Whirlwind/Vortex Save DC</th>
-<th>Whirlwind/Vortex Height</th>
-</tr>
-<tr></tr>
-</thead><tbody>
+| Elemental | Height | Weight | Whirlwind/Vortex Save DC | Whirlwind/Vortex Height |
+| --- | --- | --- | --- | --- |
+|
+| |
+<tbody>
 <tr class="odd">
 <td>Small</td>
 <td>4 ft.</td>
@@ -356,7 +351,7 @@ N Small [outsider](creatureTypes.html#_outsider) ( [earth](creatureTypes.html#_e
 
 **Base Atk** +2; **CMB** +4; **CMD** 13
 
-**Feats** [Improved Bull Rush](../feats.html#_improved-bull-rush)<sup>B</sup>, [Power Attack](../feats.html#_power-attack)
+**Feats** [Improved Bull Rush](../feats.html#_improved-bull-rush)B, [Power Attack](../feats.html#_power-attack)
 
 **Skills** [Appraise](../skills/appraise.html#_appraise) +1, [Climb](../skills/climb.html#_climb) +7, [Knowledge](../skills/knowledge.html#_knowledge) (dungeoneering) +1, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +1, [Perception](../skills/perception.html#_perception) +4, [Stealth](../skills/stealth.html#_stealth) +7
 
@@ -392,7 +387,7 @@ N Medium [outsider](creatureTypes.html#_outsider) ( [earth](creatureTypes.html#_
 
 **Base Atk** +4; **CMB** +9; **CMD** 18
 
-**Feats** [Cleave](../feats.html#_cleave), [Improved Bull Rush](../feats.html#_improved-bull-rush)<sup>B</sup>, [Power Attack](../feats.html#_power-attack)
+**Feats** [Cleave](../feats.html#_cleave), [Improved Bull Rush](../feats.html#_improved-bull-rush)B, [Power Attack](../feats.html#_power-attack)
 
 **Skills** [Appraise](../skills/appraise.html#_appraise) +1, [Climb](../skills/climb.html#_climb) +10, [Knowledge](../skills/knowledge.html#_knowledge) (dungeoneering) +2, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +2, [Perception](../skills/perception.html#_perception) +7, [Stealth](../skills/stealth.html#_stealth) +3
 
@@ -430,7 +425,7 @@ N Large [outsider](creatureTypes.html#_outsider) ( [earth](creatureTypes.html#_e
 
 **Base Atk** +8; **CMB** +16; **CMD** 25
 
-**Feats** [Cleave](../feats.html#_cleave), [Greater Bull Rush](../feats.html#_greater-bull-rush), [Improved Bull Rush](../feats.html#_improved-bull-rush)<sup>B</sup>, [Improved Overrun](../feats.html#_improved-overrun), [Power Attack](../feats.html#_power-attack)
+**Feats** [Cleave](../feats.html#_cleave), [Greater Bull Rush](../feats.html#_greater-bull-rush), [Improved Bull Rush](../feats.html#_improved-bull-rush)B, [Improved Overrun](../feats.html#_improved-overrun), [Power Attack](../feats.html#_power-attack)
 
 **Skills** [Appraise](../skills/appraise.html#_appraise) +6, [Climb](../skills/climb.html#_climb) +15, [Knowledge](../skills/knowledge.html#_knowledge) (dungeoneering) +3, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +6, [Perception](../skills/perception.html#_perception) +11, [Stealth](../skills/stealth.html#_stealth) +5
 
@@ -468,7 +463,7 @@ N Huge [outsider](creatureTypes.html#_outsider) ( [earth](creatureTypes.html#_ea
 
 **Base Atk** +10; **CMB** +21; **CMD** 30
 
-**Feats** [Awesome Blow](monsterFeats.html#_awesome-blow), [Cleave](../feats.html#_cleave), [Greater Bull Rush](../feats.html#_greater-bull-rush), [Improved Bull Rush](../feats.html#_improved-bull-rush)<sup>B</sup>, [Improved Overrun](../feats.html#_improved-overrun), [Power Attack](../feats.html#_power-attack)
+**Feats** [Awesome Blow](monsterFeats.html#_awesome-blow), [Cleave](../feats.html#_cleave), [Greater Bull Rush](../feats.html#_greater-bull-rush), [Improved Bull Rush](../feats.html#_improved-bull-rush)B, [Improved Overrun](../feats.html#_improved-overrun), [Power Attack](../feats.html#_power-attack)
 
 **Skills** [Appraise](../skills/appraise.html#_appraise) +6, [Climb](../skills/climb.html#_climb) +18, [Knowledge](../skills/knowledge.html#_knowledge) (dungeoneering) +4, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +7, [Perception](../skills/perception.html#_perception) +13, [Stealth](../skills/stealth.html#_stealth) +4
 
@@ -506,7 +501,7 @@ AC 21, touch 7, flat-footed 21, (–1 Dex, +14 natural, –2 size)
 
 **Base Atk** +13; **CMB** +25; **CMD** 34
 
-**Feats** [Awesome Blow](monsterFeats.html#_awesome-blow), [Cleave](../feats.html#_cleave), [Greater Bull Rush](../feats.html#_greater-bull-rush), [Greater Overrun](../feats.html#_greater-overrun), [Improved Bull Rush](../feats.html#_improved-bull-rush)<sup>B</sup>, [Improved Overrun](../feats.html#_improved-overrun), [Improved Sunder](../feats.html#_improved-sunder), [Power Attack](../feats.html#_power-attack)
+**Feats** [Awesome Blow](monsterFeats.html#_awesome-blow), [Cleave](../feats.html#_cleave), [Greater Bull Rush](../feats.html#_greater-bull-rush), [Greater Overrun](../feats.html#_greater-overrun), [Improved Bull Rush](../feats.html#_improved-bull-rush)B, [Improved Overrun](../feats.html#_improved-overrun), [Improved Sunder](../feats.html#_improved-sunder), [Power Attack](../feats.html#_power-attack)
 
 **Skills** [Appraise](../skills/appraise.html#_appraise) +10, [Climb](../skills/climb.html#_climb) +25, [Knowledge](../skills/knowledge.html#_knowledge) (dungeoneering) +10, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +13, [Perception](../skills/perception.html#_perception) +16, [Stealth](../skills/stealth.html#_stealth) +7
 
@@ -544,18 +539,15 @@ N Huge [outsider](creatureTypes.html#_outsider) ( [earth](creatureTypes.html#_ea
 
 **Base Atk** +16; **CMB** +30; **CMD** 39
 
-**Feats** [Awesome Blow](monsterFeats.html#_awesome-blow), [Cleave](../feats.html#_cleave), [Greater Bull Rush](../feats.html#_greater-bull-rush), [Greater Overrun](../feats.html#_greater-overrun), [Improved Bull Rush](../feats.html#_improved-bull-rush)<sup>B</sup>, [Improved Critical](../feats.html#_improved-critical) (slam), [Improved Overrun](../feats.html#_improved-overrun), [Improved Sunder](../feats.html#_improved-sunder), [Power Attack](../feats.html#_power-attack)
+**Feats** [Awesome Blow](monsterFeats.html#_awesome-blow), [Cleave](../feats.html#_cleave), [Greater Bull Rush](../feats.html#_greater-bull-rush), [Greater Overrun](../feats.html#_greater-overrun), [Improved Bull Rush](../feats.html#_improved-bull-rush)B, [Improved Critical](../feats.html#_improved-critical) (slam), [Improved Overrun](../feats.html#_improved-overrun), [Improved Sunder](../feats.html#_improved-sunder), [Power Attack](../feats.html#_power-attack)
 
 **Skills** [Appraise](../skills/appraise.html#_appraise) +19, [Climb](../skills/climb.html#_climb) +31, [Knowledge](../skills/knowledge.html#_knowledge) (dungeoneering) +19, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +19, [Perception](../skills/perception.html#_perception) +19, [Stealth](../skills/stealth.html#_stealth) +10
 
-<thead>
-<tr>
-<th>Elemental</th>
-<th>Height</th>
-<th>Weight</th>
-</tr>
-<tr></tr>
-</thead><tbody>
+| Elemental | Height | Weight |
+| --- | --- | --- |
+|
+| |
+<tbody>
 <tr class="odd">
 <td>Small</td>
 <td>4 ft.</td>
@@ -642,7 +634,7 @@ N Small [outsider](creatureTypes.html#_outsider) ( [elemental](creatureTypes.htm
 
 **Base Atk** +2; **CMB** +1; **CMD** 13
 
-**Feats** [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)B, [Weapon Finesse](../feats.html#_weapon-finesse)B
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +5, [Climb](../skills/climb.html#_climb) +4, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +5, [Intimidate](../skills/intimidate.html#_intimidate) +4, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +1, [Perception](../skills/perception.html#_perception) +4
 
@@ -680,7 +672,7 @@ N Medium [outsider](creatureTypes.html#_outsider) ( [elemental](creatureTypes.ht
 
 **Base Atk** +4; **CMB** +5; **CMD** 19
 
-**Feats** [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Mobility](../feats.html#_mobility), [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)B, [Mobility](../feats.html#_mobility), [Weapon Finesse](../feats.html#_weapon-finesse)B
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +8, [Climb](../skills/climb.html#_climb) +5, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +8, [Intimidate](../skills/intimidate.html#_intimidate) +5, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +1, [Perception](../skills/perception.html#_perception) +7
 
@@ -720,7 +712,7 @@ N Large [outsider](creatureTypes.html#_outsider) ( [elemental](creatureTypes.htm
 
 **Base Atk** +8; **CMB** +11; **CMD** 27
 
-**Feats** [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Iron Will](../feats.html#_iron-will), [Mobility](../feats.html#_mobility), [Spring Attack](../feats.html#_spring-attack), [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)B, [Iron Will](../feats.html#_iron-will), [Mobility](../feats.html#_mobility), [Spring Attack](../feats.html#_spring-attack), [Weapon Finesse](../feats.html#_weapon-finesse)B
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +14, [Climb](../skills/climb.html#_climb) +9, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +12, [Intimidate](../skills/intimidate.html#_intimidate) +9, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +5, [Perception](../skills/perception.html#_perception) +11
 
@@ -760,7 +752,7 @@ N Huge [outsider](creatureTypes.html#_outsider) ( [elemental](creatureTypes.html
 
 **Base Atk** +10; **CMB** +16; **CMD** 34
 
-**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Iron Will](../feats.html#_iron-will), [Mobility](../feats.html#_mobility), [Spring Attack](../feats.html#_spring-attack), [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)B, [Iron Will](../feats.html#_iron-will), [Mobility](../feats.html#_mobility), [Spring Attack](../feats.html#_spring-attack), [Weapon Finesse](../feats.html#_weapon-finesse)B
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +16, [Climb](../skills/climb.html#_climb) +13, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +16, [Intimidate](../skills/intimidate.html#_intimidate) +9, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +7, [Perception](../skills/perception.html#_perception) +13
 
@@ -800,7 +792,7 @@ N Huge [outsider](creatureTypes.html#_outsider) ( [elemental](creatureTypes.html
 
 **Base Atk** +13; **CMB** +22; **CMD** 41
 
-**Feats** [Blind-Fight](../feats.html#_blind-fight), [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Iron Will](../feats.html#_iron-will), [Mobility](../feats.html#_mobility), [Spring Attack](../feats.html#_spring-attack), [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>, [Wind Stance](../feats.html#_wind-stance)
+**Feats** [Blind-Fight](../feats.html#_blind-fight), [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)B, [Iron Will](../feats.html#_iron-will), [Mobility](../feats.html#_mobility), [Spring Attack](../feats.html#_spring-attack), [Weapon Finesse](../feats.html#_weapon-finesse)B, [Wind Stance](../feats.html#_wind-stance)
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +23, [Climb](../skills/climb.html#_climb) +20, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +21, [Intimidate](../skills/intimidate.html#_intimidate) +15, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +10, [Perception](../skills/perception.html#_perception) +16
 
@@ -840,7 +832,7 @@ N Huge [outsider](creatureTypes.html#_outsider) ( [elemental](creatureTypes.html
 
 **Base Atk** +16; **CMB** +26; **CMD** 46
 
-**Feats** [Blind-Fight](../feats.html#_blind-fight), [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Iron Will](../feats.html#_iron-will), [Lightning Stance](../feats.html#_lightning-stance), [Mobility](../feats.html#_mobility), [Spring Attack](../feats.html#_spring-attack), [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>, [Wind Stance](../feats.html#_wind-stance)
+**Feats** [Blind-Fight](../feats.html#_blind-fight), [Combat Reflexes](../feats.html#_combat-reflexes), [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative)B, [Iron Will](../feats.html#_iron-will), [Lightning Stance](../feats.html#_lightning-stance), [Mobility](../feats.html#_mobility), [Spring Attack](../feats.html#_spring-attack), [Weapon Finesse](../feats.html#_weapon-finesse)B, [Wind Stance](../feats.html#_wind-stance)
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +28, [Climb](../skills/climb.html#_climb) +27, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +28, [Intimidate](../skills/intimidate.html#_intimidate) +19, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +19, [Perception](../skills/perception.html#_perception) +19
 
@@ -850,14 +842,11 @@ A fire elemental cannot enter water or any other nonflammable liquid. A body of 
 
 Fire elementals vary in appearance—they usually manifest as coiling serpentine forms made of smoke and flame, but some fire elementals take on shapes more akin to humans, demons, or other monsters in order to increase the terror of their sudden appearance. Features on a fire elemental's body are made by darker bits of flame or patches of semi-stable smoke, ash, and cinders.
 
-<thead>
-<tr>
-<th>Elemental</th>
-<th>Height</th>
-<th>Weight</th>
-</tr>
-<tr></tr>
-</thead><tbody>
+| Elemental | Height | Weight |
+| --- | --- | --- |
+|
+| |
+<tbody>
 <tr class="odd">
 <td>Small</td>
 <td>4 ft.</td>
@@ -1142,16 +1131,11 @@ Water elementals are patient, relentless creatures made of living fresh or salt 
 
 As with other elementals, all water elementals have their own unique shapes and appearances. Most appear as wave-like creatures with vaguely humanoid faces and smaller wave âarmsâ to either side. Another common form is that of any aquatic creature, such as a shark or octopus, but made entirely out of water.
 
-<thead>
-<tr>
-<th>Elemental</th>
-<th>Height</th>
-<th>Weight</th>
-<th>Vortex Save DC</th>
-<th>Vortex Height</th>
-</tr>
-<tr></tr>
-</thead><tbody>
+| Elemental | Height | Weight | Vortex Save DC | Vortex Height |
+| --- | --- | --- | --- | --- |
+|
+| |
+<tbody>
 <tr class="odd">
 <td>Small</td>
 <td>4 ft.</td>

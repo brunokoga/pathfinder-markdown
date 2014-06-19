@@ -154,9 +154,9 @@ At will—_ [dancing lights](../spells/dancingLights.html#_dancing-lights), [dee
 
 **Spells Prepared** (CL 3rd)
 
-2nd—_ [death knell](../spells/deathKnell.html#_death-knell)_<sup>D</sup> (DC 15),_ [hold person](../spells/holdPerson.html#_hold-person) _(DC 15), _ [silence](../spells/silence.html#_silence)_ (DC 15)
+2nd—_ [death knell](../spells/deathKnell.html#_death-knell)_D (DC 15),_ [hold person](../spells/holdPerson.html#_hold-person) _(DC 15), _ [silence](../spells/silence.html#_silence)_ (DC 15)
 
-1st—_ [bless](../spells/bless.html#_bless), [cause fear](../spells/causeFear.html#_cause-fear) _(DC 14)_, [cure light wounds](../spells/cureLightWounds.html#_cure-light-wounds), [protection from law](../spells/protectionFromLaw.html#_protection-from-law)_<sup>D</sup>
+1st—_ [bless](../spells/bless.html#_bless), [cause fear](../spells/causeFear.html#_cause-fear) _(DC 14)_, [cure light wounds](../spells/cureLightWounds.html#_cure-light-wounds), [protection from law](../spells/protectionFromLaw.html#_protection-from-law)_D
 
 0—_ [bleed](../spells/bleed.html#_bleed) _(DC 13), _ [detect poison](../spells/detectPoison.html#_detect-poison), [read magic](../spells/readMagic.html#_read-magic), [resistance](../spells/resistance.html#_resistance)_
 

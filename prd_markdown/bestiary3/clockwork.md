@@ -58,7 +58,7 @@ Statistics
 
 **Base Atk** +28; **CMB** +49; **CMD** 66
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)<sup>B</sup>, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)<sup>B</sup>
+**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)B, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)B
 
 **SQ** swift reactions, winding
 
@@ -132,7 +132,7 @@ Statistics
 
 **Base Atk** +16; **CMB** +29 (+33 grapple); **CMD** 45 (can't be tripped)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)<sup>B</sup>, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)<sup>B</sup>
+**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)B, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)B
 
 **Skills** [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +8 (+12 in [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype)), [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +19; **Racial Modifiers** +12 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) (+16 in [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype))
 
@@ -210,7 +210,7 @@ Statistics
 
 **Base Atk** +2; **CMB** +6; **CMD** 20
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)<sup>B</sup>, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)<sup>B</sup>
+**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)B, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)B
 
 **SQ** repair clockwork, swift reactions, winding
 
@@ -284,7 +284,7 @@ Statistics
 
 **Base Atk** +8; **CMB** +17 (+19 disarm); **CMD** 31 (33 vs. disarm)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)<sup>B</sup>, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)<sup>B</sup>
+**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)B, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)B
 
 **SQ** efficient winding, proficient, standby, swift reactions
 
@@ -360,7 +360,7 @@ Statistics
 
 **Base Atk** +1; **CMB** +0; **CMD** 12
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)<sup>B</sup>, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)<sup>B</sup>
+**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)B, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)B
 
 **Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +2, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) –3, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +11; **Racial Modifiers** +2 [Climb](/pathfinderRPG/prd/skills/climb.html#_climb), +2 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
 

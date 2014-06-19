@@ -79,12 +79,10 @@ Vishkanyas have access to the following equipment.
 
 **Poison Tattoo** : This henna-like paste creates a dark brown tattoo on the hands or feet that fades over the next 2d6 days. The tattoo temporarily boosts the strength of a vishkanya's natural poison, increasing the DC of the next weapon envenomed with the vishkanya's blood or saliva by +2 (once used, the tattoo is merely decorative and does not affect the creature's poison). A typical tattoo consists of intricate whorls and spiritual symbols on the hands or feet.
 
-<caption>Vishkanya Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Poison tattoo | 50 gp | — | 20 |
+[Vishkanya Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Poison tattoo | 50 gp | — | 20 |
 
 ## Vishkanya Feats
 

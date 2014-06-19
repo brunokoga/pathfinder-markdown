@@ -10,10 +10,9 @@ A Climb check that fails by 4 or less means that you make no progress, and one t
 
 The DC of the check depends on the conditions of the climb. Compare the task with those on the following table to determine an appropriate DC.
 
-<thead><tr>
-<th>Climb DC</th>
-<th>Example Surface or Activity</th>
-</tr></thead>| 0 | A slope too steep to walk up, or a knotted rope with a wall to brace against. |
+| Climb DC | Example Surface or Activity |
+| --- | --- |
+| 0 | A slope too steep to walk up, or a knotted rope with a wall to brace against. |
 | 5 | A rope with a wall to brace against, or a knotted rope, or a rope affected by the _rope trick _spell. |
 | 10 | A surface with ledges to hold on to and stand on, such as a very rough wall or a ship's rigging. |
 | 15 | Any surface with adequate handholds and footholds (natural or artificial), such as a very rough natural rock surface or a tree, or an unknotted rope, or pulling yourself up when dangling by your hands. |
@@ -26,7 +25,6 @@ The DC of the check depends on the conditions of the climb. Compare the task wit
 | –10 | Climbing a chimney (artificial or natural) or other location where you can brace against two opposite walls. |
 | –5 | Climbing a corner where you can brace against perpendicular walls. |
 | +5 | Surface is slippery. |
-<tfoot><tr><td colspan="2">* These modifiers are cumulative; use all that apply.</td></tr></tfoot>
 
 You need both hands free to climb, but you may cling to a wall with one hand while you cast a spell or take some other action that requires only one hand. While climbing, you can't move to avoid a blow, so you lose your [Dexterity](../gettingStarted.html#_dexterity) bonus to [AC](../combat.html#_armor-class) (if any). You also can't use a shield while climbing. Anytime you take damage while climbing, make a Climb check against the DC of the slope or wall. Failure means you fall from your current height and sustain the appropriate falling damage.
 

@@ -12,26 +12,17 @@ _Performance_: When wielding this weapon, if an attack or combat maneuver made w
 
 # Gladiator Weapon Descriptions
 
-<caption>Table: Gladiator Weapons</caption><thead><tr>
-<th>Martial</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight<sup>1</sup>
-</th>
-<th>Type<sup>2</sup>
-</th>
-<th>Special</th>
-</tr></thead>| _Light Melee Weapons_ |
+[Table: Gladiator Weapons]
+| Martial | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weightⁱ | Type⁲ | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _Light Melee Weapons_ |
 | Gladius | 15 gp | 1d4 | 1d6 | 19–20/×2 | — | 3 lbs. | P or S | performance |
 | _One-Handed Melee Weapons_ |
 | Scizore | 20 gp | 1d8 | 1d10 | ×2 | — | 3 lbs. | P | performance |
 | _Ranged Weapons_ |
 | Amentum | — | 1d4 | 1d6 | ×2 | 50 ft. | 1 lb. | P | performance |
 | Javelin | 1 gp | — | — | — | — | 2 lbs. | — | — |
-| Exotic Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weight<sup>1</sup> | Type<sup>2</sup> | Special |
+| Exotic Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weightⁱ | Type⁲ | Special |
 | _Light Melee Weapons_ |
 | Aklys | 5 gp | 1d6 | 1d8 | ×2 | 20 ft. | 2 lbs. | B | performance, trip |
 | Knuckle axe | 9 gp | 1d4 | 1d6 | ×3 | — | 2 lbs. | S | monk, performance |
@@ -48,7 +39,6 @@ _Performance_: When wielding this weapon, if an attack or combat maneuver made w
 | Flying blade | 40 gp | 1d10 | 1d12 | ×3 | — | 12 lbs. | S | performance, reach |
 | _Ranged Weapons_ |
 | Throwing shield | +50 gp | 1d4 | 1d6 | ×2 | 20 ft. | — | B | performance, trip |
-<tfoot><tr><td colspan="9">1 Weight figures are for Medium weapons. A Small weapon weights half as much, and a Large weapon weighs twice as much.<br>2 A weapon with two types is either type (wielder's choice) if the entry specifies âor.â</td></tr></tfoot>
 
 Presented below are descriptions for weapons popular among gladiators, pit fighters, and other such warriors.
 

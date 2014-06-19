@@ -14,11 +14,10 @@ Staves hold a maximum of 10 charges. Each spell cast from a staff consumes one o
 
 A staff can hold spells of any level, and the minimum caster level of a staff is 8th.
 
-<caption>Staves</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Medium Staff</th>
-<th>Price</th>
-</tr></thead>| 01–10 | _Staff of blessed relief_ | 7,200 gp |
+[Staves]
+| d% | Lesser Medium Staff | Price |
+| --- | --- | --- |
+| 01–10 | _Staff of blessed relief_ | 7,200 gp |
 | 11–20 | _Staff of minor arcana_ | 8,000 gp |
 | 21–30 | _Staff of tricks_ | 8,800 gp |
 | 31–44 | _Staff of the scout_ | 9,600 gp |
@@ -26,11 +25,10 @@ A staff can hold spells of any level, and the minimum caster level of a staff is
 | 55–67 | _Staff of accompaniment_ | 14,800 gp |
 | 68–84 | _Staff of understanding_ | 16,000 gp |
 | 85–100 | _Staff of charming_ | 17,600 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Staff</th>
-<th>Price</th>
-</tr></thead>| 01–11 | _Staff of fire_ | 18,950 gp |
+
+| d% | Greater Medium Staff | Price |
+| --- | --- | --- |
+| 01–11 | _Staff of fire_ | 18,950 gp |
 | 12–21 | _Staff of courage_ | 19,200 gp |
 | 22–29 | _Staff of belittling_ | 20,000 gp |
 | 30–38 | _Staff of feast and famine_ | 20,800 gp |
@@ -40,11 +38,10 @@ A staff can hold spells of any level, and the minimum caster level of a staff is
 | 69–81 | _Staff of radiance_ | 23,200 gp |
 | 82–92 | _Staff of size alteration_ | 26,150 gp |
 | 93–100 | _Staff of Journeys_ | 27,200 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Staff</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _Staff of acid_ | 28,600 gp |
+
+| d% | Lesser Major Staff | Price |
+| --- | --- | --- |
+| 01–04 | _Staff of acid_ | 28,600 gp |
 | 05–08 | _Staff of shrieking_ | 28,800 gp |
 | 09–11 | _Chaotic staff_ | 29,600 gp |
 | 12–14 | _Holy staff_ | 29,600 gp |
@@ -70,11 +67,10 @@ A staff can hold spells of any level, and the minimum caster level of a staff is
 | 90–93 | _Staff of performance_ | 48,800 gp |
 | 94–97 | _Animate staff_ | 49,800 gp |
 | 98–100 | _Staff of revelations_ | 51,008 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Staff</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _Staff of illumination_ | 51,500 gp |
+
+| d% | Greater Major Staff | Price |
+| --- | --- | --- |
+| 01–04 | _Staff of illumination_ | 51,500 gp |
 | 05–07 | _Staff of obstacles_ | 51,600 gp |
 | 08–10 | _Staff of heaven and earth_ | 54,000 gp |
 | 11–13 | _Staff of travel_ | 54,400 gp |

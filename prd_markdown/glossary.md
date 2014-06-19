@@ -8,25 +8,13 @@ The following special abilities include rules commonly used by a number of creat
 
 **Supernatural Abilities (Su)** : Supernatural abilities are magical but not spell-like. Supernatural abilities are not subject to spell resistance and do not function in areas where magic is suppressed or negated (such as an _antimagic field_). A supernatural ability's effect cannot be dispelled and is not subject to counterspells. See Table: Special Ability Types for a summary of the types of special abilities.
 
-<caption>Table: Special Ability Types</caption><thead><tr>
-<th></th>
-<th>Extraordinary</th>
-<th>Spell-Like</th>
-<th>Supernatural</th>
-</tr></thead>| Dispel | No | Yes | No |
+[Table: Special Ability Types]
+| | Extraordinary | Spell-Like | Supernatural |
+| --- | --- | --- | --- |
+| Dispel | No | Yes | No |
 | Spell resistance | No | Yes | No |
 | Antimagic field | No | Yes | Yes |
 | Attack of opportunity | No | Yes | No |
-<tfoot>
-<tr><td colspan="4">
-<i>Dispel</i>: Can <i>dispel magic </i>and similar spells dispel the effects of abilities of that type?</td></tr>
-<tr><td colspan="4">
-<i>Spell Resistance</i>: Does spell resistance protect a creature from these abilities?</td></tr>
-<tr><td colspan="4">
-<i>Antimagic Field</i>: Does an <i>antimagic field </i>or similar magic suppress the ability?</td></tr>
-<tr><td colspan="4">
-<i>Attack of Opportunity</i>: Does using the ability provoke attacks of opportunity the way that casting a spell does?</td></tr>
-</tfoot>
 
   
   
@@ -253,16 +241,10 @@ Poisons can be made using [Craft](skills/craft.html#_craft) (alchemy). The DC to
 
 The following samples represent just some of the possibilities when creating poisons.
 
-<caption>Table: Sample Poisons</caption><thead><tr>
-<th>Name</th>
-<th>Type</th>
-<th>Fort DC</th>
-<th>Onset</th>
-<th>Frequency</th>
-<th>Effect</th>
-<th>Cure</th>
-<th>Cost</th>
-</tr></thead>| Arsenic | ingested | 13 | 10 min. | 1/min. for 4 min. | 1d2 [Con](gettingStarted.html#_constitution) | 1 save | 120 gp |
+[Table: Sample Poisons]
+| Name | Type | Fort DC | Onset | Frequency | Effect | Cure | Cost |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Arsenic | ingested | 13 | 10 min. | 1/min. for 4 min. | 1d2 [Con](gettingStarted.html#_constitution) | 1 save | 120 gp |
 | Belladonna | ingested | 14 | 10 min. | 1/min. for 6 min. | 1d2 [Str](gettingStarted.html#_strength), see text | 1 save | 100 gp |
 | Black adder venom | injury | 11 | — | 1/rd. for 6 rds. | 1d2 [Con](gettingStarted.html#_constitution) | 1 save | 120 gp |
 | Black lotus extract | contact | 20 | 1 min. | 1/rd. for 6 rds. | 1d6 [Con](gettingStarted.html#_constitution) | 2 saves | 4,500 gp |
@@ -635,10 +617,9 @@ Ammunition fired from a projectile weapon with an enhancement bonus of +1 or hig
 
 Weapons with an enhancement bonus of +3 or greater can ignore some types of damage reduction, regardless of their actual material or alignment. The following table shows what type of enhancement bonus is needed to overcome some common types of damage reduction.
 
-<thead><tr>
-<th>DR Type</th>
-<th>Weapon Enhancement Bonus Equivalent</th>
-</tr></thead><tbody>
+| DR Type | Weapon Enhancement Bonus Equivalent |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>cold iron/silver</td>
 <td>+3</td>
@@ -651,9 +632,7 @@ Weapons with an enhancement bonus of +3 or greater can ignore some types of dama
 <td>alignment-based</td>
 <td>+5</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="2">* Note that this does not give the ability to ignore hardness, like an actual adamantine weapon does</td></tr>
-</tfoot>
+</tbody>
 
 ## Darkvision
 
@@ -712,10 +691,9 @@ Invisibility does not, by itself, make a creature immune to critical hits, but i
 
 A creature can generally notice the presence of an active invisible creature within 30 feet with a DC 20 [Perception](skills/perception.html#_perception) check. The observer gains a hunch that âsomething's thereâ but can't see it or target it accurately with an attack. It's practically impossible (+20 DC) to pinpoint an invisible creature's location with a [Perception](skills/perception.html#_perception) check. Even once a character has pinpointed the square that contains an invisible creature, the creature still benefits from total concealment (50% miss chance). There are a number of modifiers that can be applied to this DC if the invisible creature is moving or engaged in a noisy activity.
 
-<thead><tr>
-<th>Invisible creature is... </th>
-<th><a href="skills/perception.html#_perception">Perception</a></th>
-</tr></thead>| In combat or speaking | –20 |
+| Invisible creature is... | [Perception](skills/perception.html#_perception) |
+| --- | --- |
+| In combat or speaking | –20 |
 | Moving at half speed | –5 |
 | Moving at full speed | –10 |
 | Running or charging | –20 |
@@ -847,10 +825,9 @@ If more than one condition affects a character, apply them all. If effects can't
 
 Roll on the following table at the beginning of each confused subject's turn each round to see what the subject does in that round.
 
-<thead><tr>
-<th>d%</th>
-<th>Behavior</th>
-</tr></thead>| 01–25 | Act normally. |
+| d% | Behavior |
+| --- | --- |
+| 01–25 | Act normally. |
 | 26–50 | Do nothing but babble incoherently. |
 | 51–75 | Deal 1d8 points of damage + [Str](gettingStarted.html#_strength) modifier to self with item in hand. |
 | 76–100 | Attack nearest creature (for this purpose, a familiar counts as part of the subject's self). |

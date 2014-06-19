@@ -16,28 +16,12 @@ The oracle's class skills are [Craft](../../skills/craft.html#_craft) (Int), [Di
 
 # Class Features
 
-<caption>Table: Oracle</caption><thead>
-<tr id="level-bonus-save-save-save-special-1st-2nd-3rd-4th-5th-6th-7th-8th-9th">
-<th rowspan="2">Level</th>
-<th rowspan="2">Base Attack Bonus</th>
-<th rowspan="2">Fort Save</th>
-<th rowspan="2">Ref Save</th>
-<th rowspan="2">Will Save</th>
-<th rowspan="2">Special</th>
-<th colspan="9">Spells per Day</th>
-</tr>
-<tr>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-<th>7th</th>
-<th>8th</th>
-<th>9th</th>
-</tr>
-</thead>| 1st | +0 | +0 | +0 | +2 | Mystery, oracle's curse, orisons, revelation | 3 | — | — | — | — | — | — | — | — |
+[Table: Oracle]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +0 | +2 | Mystery, oracle's curse, orisons, revelation | 3 | — | — | — | — | — | — | — | — |
 | 2nd | +1 | +0 | +0 | +3 | Mystery spell | 4 | — | — | — | — | — | — | — | — |
 | 3rd | +2 | +1 | +1 | +3 | Revelation | 5 | — | — | — | — | — | — | — | — |
 | 4th | +3 | +1 | +1 | +4 | Mystery spell | 6 | 3 | — | — | — | — | — | — | — |
@@ -58,24 +42,12 @@ The oracle's class skills are [Craft](../../skills/craft.html#_craft) (Int), [Di
 | 19th | +14/+9/+4 | +6 | +6 | +11 | Revelation | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 4 |
 | 20th | +15/+10/+5 | +6 | +6 | +12 | Final revelation | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 |
 
-<caption>Table: Oracle Spells Known</caption><thead>
-<tr id="level-0-1st-2nd-3rd-4th-5th-6th-7th-8th-9th">
-<th rowspan="2">Level</th>
-<th colspan="10">Spells Known</th>
-</tr>
-<tr>
-<th>0</th>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-<th>7th</th>
-<th>8th</th>
-<th>9th</th>
-</tr>
-</thead>| 1st | 4 | 2 | — | — | — | — | — | — | — | — |
+[Table: Oracle Spells Known]
+| Level | Spells Known |
+| --- | --- |
+| 0 | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1st | 4 | 2 | — | — | — | — | — | — | — | — |
 | 2nd | 5 | 2 | — | — | — | — | — | — | — | — |
 | 3rd | 5 | 3 | — | — | — | — | — | — | — | — |
 | 4th | 6 | 3 | 1 | — | — | — | — | — | — | — |

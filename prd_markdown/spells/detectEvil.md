@@ -28,10 +28,9 @@ _Aura Power_: An evil aura's power depends on the type of evil creature or objec
 
 _Lingering Aura_: An evil aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a creature or magic item). If _detect evil _is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:
 
-<thead><tr>
-<th>Original Strength</th>
-<th>Duration of Lingering Aura</th>
-</tr></thead><tbody>
+| Original Strength | Duration of Lingering Aura |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Faint</td>
 <td>1d6 rounds</td>
@@ -54,24 +53,14 @@ Animals, traps, poisons, and other potential perils are not evil, and as such th
 
 Each round, you can turn to detect evil in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
 
-<caption>Detect Chaos/Evil/Good/Law</caption><thead>
-<tr>
-<th rowspan="2">Creature/Object</th>
-<th colspan="5">Aura Power</th>
-</tr>
-<tr>
-<th>None</th>
-<th>Faint</th>
-<th>Moderate</th>
-<th>Strong</th>
-<th>Overwhelming</th>
-</tr>
-</thead>| Aligned creature<sup>1</sup> (HD) | 4 or lower | 5–10 | 11–25 | 26–50 | 51 or higher |
+[Detect Chaos/Evil/Good/Law]
+| Creature/Object | Aura Power |
+| --- | --- |
+| None | Faint | Moderate | Strong | Overwhelming |
+| --- | --- | --- | --- | --- |
+| Aligned creatureⁱ (HD) | 4 or lower | 5–10 | 11–25 | 26–50 | 51 or higher |
 | Aligned Undead (HD) | — | 2 or lower | 3–8 | 9–20 | 21 or higher |
 | Aligned outsider (HD) | — | 1 or lower | 2–4 | 5–10 | 11 or higher |
-| Cleric or paladin of an aligned deity<sup>2</sup> (class levels) | — | 1 | 2–4 | 5–10 | 11 or higher |
+| Cleric or paladin of an aligned deity⁲ (class levels) | — | 1 | 2–4 | 5–10 | 11 or higher |
 | Aligned magic item or spell (caster level) | 5th or lower | 6th–10th | 11th–15th | 16th–20th | 21st or higher |
-<tfoot>
-<tr><td colspan="6">1 Except for undead and outsiders, which have their own entries on the table.</td></tr>
-<tr><td colspan="6">2 Some characters who are not clerics may radiate an aura of equivalent power. The class description will indicate whether this applies.</td></tr>
-</tfoot>
+

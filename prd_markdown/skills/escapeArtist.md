@@ -14,10 +14,9 @@ _Tight Space_: The DC noted is for getting through a space through which your he
 
 _Grappler_: You can make an Escape Artist check in place of a combat maneuver check to escape a grapple (see [Combat](../combat.html)) or a pin.
 
-<thead><tr>
-<th>Restraint</th>
-<th>Escape Artist DC</th>
-</tr></thead>| Rope/bindings | Binder's CMB +20 |
+| Restraint | Escape Artist DC |
+| --- | --- |
+| Rope/bindings | Binder's CMB +20 |
 | Net, _animate rope_, _command plants_, _control plants_, or _entangle_ | 20 |
 | _Snare_ spell | 23 |
 | Manacles | 30 |

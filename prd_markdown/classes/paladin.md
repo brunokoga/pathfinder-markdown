@@ -14,23 +14,12 @@ The paladin's class skills are [Craft](../skills/craft.html#_craft) ( [Int](../g
 
 **Skill Ranks per Level** : 2 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Paladin</caption><thead>
-<tr>
-<th rowspan="2">Level</th>
-<th rowspan="2">Base Attack Bonus</th>
-<th rowspan="2">Fort Save</th>
-<th rowspan="2">Ref Save</th>
-<th rowspan="2">Will Save</th>
-<th rowspan="2">Special</th>
-<th colspan="4">Spells per Day</th>
-</tr>
-<tr>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-</tr>
-</thead>| 1st | +1 | +2 | +0 | +2 | Aura of good_, _detect evil, smite evil 1/day | — | — | — | — |
+[Table: Paladin]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | 2nd | 3rd | 4th |
+| --- | --- | --- | --- |
+| 1st | +1 | +2 | +0 | +2 | Aura of good_, _detect evil, smite evil 1/day | — | — | — | — |
 | 2nd | +2 | +3 | +0 | +3 | Divine grace, lay on hands | — | — | — | — |
 | 3rd | +3 | +3 | +1 | +3 | Aura of courage, divine health, mercy | — | — | — | — |
 | 4th | +4 | +4 | +1 | +4 | Channel positive energy, smite evil 2/day | 0 | — | — | — |

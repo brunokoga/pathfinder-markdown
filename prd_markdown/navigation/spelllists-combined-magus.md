@@ -56,7 +56,7 @@
 - [**Unerring Weapon**](/pathfinderRPG/prd/ultimateCombat/spells/unerringWeapon.html#_unerring-weapon)
 - [**Unseen Servant**](/pathfinderRPG/prd/spells/unseenServant.html#_unseen-servant)
 - [**Vanish**](/pathfinderRPG/prd/advanced/spells/vanish.html#_vanish)
-- [**Warding Weapon**](/pathfinderRPG/prd/ultimateCombat/spells/wardingWeapon.html#_warding-weapon)<sup>F</sup>
+- [**Warding Weapon**](/pathfinderRPG/prd/ultimateCombat/spells/wardingWeapon.html#_warding-weapon)F
 - [**Web Bolt**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/drow.html#_web-bolt)
 - [**Windy Escape**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/sylphs.html#_windy-escape)
 
@@ -103,7 +103,7 @@
 - [**Stone Call**](/pathfinderRPG/prd/advanced/spells/stoneCall.html#_stone-call)
 - [**Stone Shield**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/oreads.html#_stone-shield)
 - [**Tactical Acumen**](/pathfinderRPG/prd/ultimateCombat/spells/tacticalAcumen.html#_tactical-acumen)
-- [**Telekinetic Assembly**](/pathfinderRPG/prd/ultimateCombat/spells/telekineticAssembly.html#_telekinetic-assembly)<sup>F</sup>
+- [**Telekinetic Assembly**](/pathfinderRPG/prd/ultimateCombat/spells/telekineticAssembly.html#_telekinetic-assembly)F
 - [**Twisted Space**](/pathfinderRPG/prd/ultimateCombat/spells/twistedSpace.html#_twisted-space)
 - [**Web**](/pathfinderRPG/prd/spells/web.html#_web)
 
@@ -165,7 +165,7 @@
 - [**Invisibility, Greater**](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)
 - [**Monstrous Physique II**](/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-ii)
 - [**Paragon Surge**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halfElves.html#_paragon-surge)
-- [**Pellet Blast**](/pathfinderRPG/prd/ultimateCombat/spells/pelletBlast.html#_pellet-blast)<sup>M</sup>
+- [**Pellet Blast**](/pathfinderRPG/prd/ultimateCombat/spells/pelletBlast.html#_pellet-blast)M
 - [**Phantasmal Killer**](/pathfinderRPG/prd/spells/phantasmalKiller.html#_phantasmal-killer)
 - [**Reduce Person, Mass**](/pathfinderRPG/prd/spells/reducePerson.html#_reduce-person-mass)
 - [**River of Wind**](/pathfinderRPG/prd/advanced/spells/riverOfWind.html#_river-of-wind)
@@ -176,7 +176,7 @@
 - [**Wall of Fire**](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)
 - [**Wall of Ice**](/pathfinderRPG/prd/spells/wallOfIce.html#_wall-of-ice)
 - [**Wall of Sound**](/pathfinderRPG/prd/ultimateMagic/spells/wallOfSound.html#_wall-of-sound)
-- [**Wreath of Blades**](/pathfinderRPG/prd/ultimateCombat/spells/wreathOfBlades.html#_wreath-of-blades)<sup>F</sup>
+- [**Wreath of Blades**](/pathfinderRPG/prd/ultimateCombat/spells/wreathOfBlades.html#_wreath-of-blades)F
 
 - [**Acidic Spray**](/pathfinderRPG/prd/ultimateMagic/spells/acidicSpray.html#_acidic-spray)
 - [**Baleful Polymorph**](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)
@@ -190,7 +190,7 @@
 - [**Interposing Hand**](/pathfinderRPG/prd/spells/interposingHand.html#_interposing-hand)
 - [**Monstrous Physique III**](/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iii)
 - [**Overland Flight**](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)
-- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)<sup>M</sup>
+- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)M
 - [**Telekinesis**](/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis)
 - [**Teleport**](/pathfinderRPG/prd/spells/teleport.html#_teleport)
 - [**Undead Anatomy II**](/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-ii)

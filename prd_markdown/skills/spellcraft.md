@@ -16,10 +16,10 @@ An elf gets a +2 racial bonus on Spellcraft checks to identify the properties of
 
 If you have the [Magical Aptitude](../feats.html#_magical-aptitude) feat, you gain a bonus on Spellcraft checks (see [Feats](../feats.html)).
 
-<caption>Table: Spellcraft DCs</caption><thead><tr>
-<th>Task</th>
-<th>Spellcraft DC</th>
-</tr></thead><tbody>
+[Table: Spellcraft DCs]
+| Task | Spellcraft DC |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Identify a spell as it is being cast</td>
 <td>15 + spell level</td>

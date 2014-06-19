@@ -6,16 +6,10 @@ With age, a character's physical ability scores decrease and his mental ability 
 
 When a character reaches venerable age, secretly roll his maximum age (on the appropriate Aging Effects table) and record the result, which the player does not know. A character who reaches his maximum age dies of old age sometime during the following year.
 
-<caption>Core Race Random Starting Ages</caption><thead><tr>
-<th>Race</th>
-<th>Adulthood</th>
-<th>Intuitive<sup>1</sup>
-</th>
-<th>Self-Taught<sup>2</sup>
-</th>
-<th>Trained<sup>3</sup>
-</th>
-</tr></thead>| Dwarf | 40 years | +3d6 | +5d6 | +7d6 |
+[Core Race Random Starting Ages]
+| Race | Adulthood | Intuitiveⁱ | Self-Taught⁲ | Trained⁳ |
+| --- | --- | --- | --- | --- |
+| Dwarf | 40 years | +3d6 | +5d6 | +7d6 |
 | Elf | 110 years | +4d6 | +6d6 | +10d6 |
 | Gnome | 40 years | +4d6 | +6d6 | +9d6 |
 | Half-elf | 20 years | +1d6 | +2d6 | +3d6 |
@@ -23,16 +17,10 @@ When a character reaches venerable age, secretly roll his maximum age (on the ap
 | Halfling | 20 years | +2d4 | +3d6 | +4d6 |
 | Human | 15 years | +1d4 | +1d6 | +2d6 |
 
-<caption>Featured Race Random Starting Ages</caption><thead><tr>
-<th>Race</th>
-<th>Adulthood</th>
-<th>Intuitive<sup>1</sup>
-</th>
-<th>Self-Taught<sup>2</sup>
-</th>
-<th>Trained<sup>3</sup>
-</th>
-</tr></thead>| Aasimar | 60 years | +4d6 | +6d6 | +8d6 |
+[Featured Race Random Starting Ages]
+| Race | Adulthood | Intuitiveⁱ | Self-Taught⁲ | Trained⁳ |
+| --- | --- | --- | --- | --- |
+| Aasimar | 60 years | +4d6 | +6d6 | +8d6 |
 | Catfolk | 15 years | +1d4 | +1d6 | +2d6 |
 | Dhampir | 110 years | +4d6 | +6d6 | +10d6 |
 | Drow | 110 years | +4d6 | +6d6 | +10d6 |
@@ -49,16 +37,10 @@ When a character reaches venerable age, secretly roll his maximum age (on the ap
 | Tiefling | 60 years | +4d6 | +6d6 | +8d6 |
 | Undine | 60 years | +4d6 | +6d6 | +8d6 |
 
-<caption>Uncommon Race Random Starting Ages</caption><thead><tr>
-<th>Race</th>
-<th>Adulthood</th>
-<th>Intuitive<sup>1</sup>
-</th>
-<th>Self-Taught<sup>2</sup>
-</th>
-<th>Trained<sup>3</sup>
-</th>
-</tr></thead>| Changeling | 15 years | +1d4 | +1d6 | +2d6 |
+[Uncommon Race Random Starting Ages]
+| Race | Adulthood | Intuitiveⁱ | Self-Taught⁲ | Trained⁳ |
+| --- | --- | --- | --- | --- |
+| Changeling | 15 years | +1d4 | +1d6 | +2d6 |
 | Duergar | 40 years | +3d6 | +5d6 | +7d6 |
 | Gillman | 20 years | +1d6 | +2d6 | +3d6 |
 | Grippli | 12 years | +1d4 | +1d6 | +2d6 |
@@ -73,25 +55,19 @@ When a character reaches venerable age, secretly roll his maximum age (on the ap
 | Vishkanya | 15 years | +1d4 | +1d6 | +2d6 |
 | Wayang | 40 years | +4d6 | +5d6 | +6d6 |
 
-<sup>1</sup> This category includes barbarians, oracles, rogues, and sorcerers.
+ⁱ This category includes barbarians, oracles, rogues, and sorcerers.
 
-<sup>2</sup> This category includes bards, cavaliers, fighters, gunslingers, paladins, rangers, summoners, and witches.
+⁲ This category includes bards, cavaliers, fighters, gunslingers, paladins, rangers, summoners, and witches.
 
-<sup>3</sup> This category includes alchemists, clerics, druids, inquisitors, magi, monks, and wizards.
+⁳ This category includes alchemists, clerics, druids, inquisitors, magi, monks, and wizards.
 
   
   
 
-<caption>Core Race Aging Effects</caption><thead><tr>
-<th>Race</th>
-<th>Middle Age<sup>1</sup>
-</th>
-<th>Old<sup>2</sup>
-</th>
-<th>Venerable<sup>3</sup>
-</th>
-<th>Maximum Age</th>
-</tr></thead>| Dwarf | 125 years | 188 years | 250 years | 250 + 2d% years |
+[Core Race Aging Effects]
+| Race | Middle Ageⁱ | Old⁲ | Venerable⁳ | Maximum Age |
+| --- | --- | --- | --- | --- |
+| Dwarf | 125 years | 188 years | 250 years | 250 + 2d% years |
 | Elf | 175 years | 263 years | 350 years | 350 + 4d% years |
 | Gnome | 100 years | 150 years | 200 years | 200 + 3d% years |
 | Half-elf | 62 years | 93 years | 125 years | 125 + 3d20 years |
@@ -99,16 +75,10 @@ When a character reaches venerable age, secretly roll his maximum age (on the ap
 | Halfling | 50 years | 75 years | 100 years | 100 + 5d20 years |
 | Human | 35 years | 53 years | 70 years | 70 + 2d20 years |
 
-<caption>Featured Race Aging Effects</caption><thead><tr>
-<th>Race</th>
-<th>Middle Age<sup>1</sup>
-</th>
-<th>Old<sup>2</sup>
-</th>
-<th>Venerable<sup>3</sup>
-</th>
-<th>Maximum Age</th>
-</tr></thead>| Aasimar | 150 years | 200 years | 250 years | 250 + 6d% years |
+[Featured Race Aging Effects]
+| Race | Middle Ageⁱ | Old⁲ | Venerable⁳ | Maximum Age |
+| --- | --- | --- | --- | --- |
+| Aasimar | 150 years | 200 years | 250 years | 250 + 6d% years |
 | Catfolk | 35 years | 53 years | 70 years | 70 + 2d20 years |
 | Dhampir | 175 years | 263 years | 350 years | 350 + 4d% years |
 | Drow | 175 years | 263 years | 350 years | 350 + 4d% years |
@@ -126,16 +96,10 @@ When a character reaches venerable age, secretly roll his maximum age (on the ap
 | Tiefling | 150 years | 200 years | 250 years | 250 + 6d% years |
 | Undine | 150 years | 200 years | 250 years | 250 + 6d% years |
 
-<caption>Uncommon Race Aging Effects</caption><thead><tr>
-<th>Race</th>
-<th>Middle Age<sup>1</sup>
-</th>
-<th>Old<sup>2</sup>
-</th>
-<th>Venerable<sup>3</sup>
-</th>
-<th>Maximum Age</th>
-</tr></thead>| Changeling | 35 years | 53 years | 70 years | 70 + 2d20 years |
+[Uncommon Race Aging Effects]
+| Race | Middle Ageⁱ | Old⁲ | Venerable⁳ | Maximum Age |
+| --- | --- | --- | --- | --- |
+| Changeling | 35 years | 53 years | 70 years | 70 + 2d20 years |
 | Duergar | 125 years | 188 years | 250 years | 250 + 2d% years |
 | Gillman | 62 years | 93 years | 125 years | 125 + 3d20 years |
 | Grippli | 20 years | 30 years | 40 years | 40 + 1d20 years |
@@ -150,23 +114,20 @@ When a character reaches venerable age, secretly roll his maximum age (on the ap
 | Vishkanya | 35 years | 53 years | 70 years | 70 + 2d20 years |
 | Wayang | 100 years | 150 years | 200 years | 200 + 1d% years |
 
-<sup>1</sup> At middle age, –1 to Str, Dex, and Con and +1 to Int, Wis, and Cha.
+ⁱ At middle age, –1 to Str, Dex, and Con and +1 to Int, Wis, and Cha.
 
-<sup>2</sup> At old age, –2 to Str, Dex, and Con and +1 to Int, Wis, and Cha.
+⁲ At old age, –2 to Str, Dex, and Con and +1 to Int, Wis, and Cha.
 
-<sup>3</sup> At venerable age, –3 to Str, Dex, and Con and +1 to Int, Wis, and Cha.
+⁳ At venerable age, –3 to Str, Dex, and Con and +1 to Int, Wis, and Cha.
 
 # Appendix 2: Height and Weight
 
 To determine a character's height, roll the modifier dice indicated on the appropriate Random Height & Weight table and add the result, in inches, to the base height for your character's race and gender. To determine a character's weight, multiply the result of the modifier dice by the weight multiplier and add the result to the base weight for your character's race and gender.
 
-<caption>Core Race Random Height &amp; Weight</caption><thead><tr>
-<th>Race</th>
-<th>Base Height</th>
-<th>Base Weight</th>
-<th>Modifier</th>
-<th>Weight Modifier</th>
-</tr></thead>| Dwarf, male | 3 ft. 9 in. | 150 lbs. | 2d4 | ×7 lbs. |
+[Core Race Random Height & Weight]
+| Race | Base Height | Base Weight | Modifier | Weight Modifier |
+| --- | --- | --- | --- | --- |
+| Dwarf, male | 3 ft. 9 in. | 150 lbs. | 2d4 | ×7 lbs. |
 | Dwarf, female | 3 ft. 7 in. | 120 lbs. | 2d4 | ×7 lbs. |
 | Elf, male | 5 ft. 4 in. | 100 lbs. | 2d8 | ×3 lbs. |
 | Elf, female | 5 ft. 4 in. | 90 lbs. | 2d6 | ×3 lbs. |
@@ -181,13 +142,10 @@ To determine a character's height, roll the modifier dice indicated on the appro
 | Human, male | 4 ft. 10 in. | 120 lbs. | 2d10 | ×5 lbs. |
 | Human, female | 4 ft. 5 in. | 85 lbs. | 2d10 | ×5 lbs. |
 
-<caption>Featured Race Random Height &amp; Weight</caption><thead><tr>
-<th>Race</th>
-<th>Base Height</th>
-<th>Base Weight</th>
-<th>Modifier</th>
-<th>Weight Modifier</th>
-</tr></thead>| Aasimar, male | 5 ft. 2 in. | 110 lbs. | 2d8 | ×5 lbs. |
+[Featured Race Random Height & Weight]
+| Race | Base Height | Base Weight | Modifier | Weight Modifier |
+| --- | --- | --- | --- | --- |
+| Aasimar, male | 5 ft. 2 in. | 110 lbs. | 2d8 | ×5 lbs. |
 | Aasimar, female | 5 ft. 0 in. | 90 lbs. | 2d8 | ×5 lbs. |
 | Catfolk, male | 4 ft. 10 in. | 120 lbs. | 2d8 | ×5 lbs. |
 | Catfolk, female | 4 ft. 5 in. | 85 lbs. | 2d8 | ×5 lbs. |
@@ -220,13 +178,10 @@ To determine a character's height, roll the modifier dice indicated on the appro
 | Undine, male | 4 ft. 10 in. | 120 lbs. | 2d10 | ×5 lbs. |
 | Undine, female | 4 ft. 5 in. | 85 lbs. | 2d10 | ×5 lbs. |
 
-<caption>Uncommon Race Random Height &amp; Weight</caption><thead><tr>
-<th>Race</th>
-<th>Base Height</th>
-<th>Base Weight</th>
-<th>Modifier</th>
-<th>Weight Modifier</th>
-</tr></thead>| Changeling, female | 4 ft. 2 in. | 85 lbs. | 2d4 | ×5 lbs. |
+[Uncommon Race Random Height & Weight]
+| Race | Base Height | Base Weight | Modifier | Weight Modifier |
+| --- | --- | --- | --- | --- |
+| Changeling, female | 4 ft. 2 in. | 85 lbs. | 2d4 | ×5 lbs. |
 | Duergar, male | 3 ft. 9 in. | 150 lbs. | 2d4 | ×7 lbs. |
 | Duergar, female | 3 ft. 7 in. | 120 lbs. | 2d4 | ×7 lbs. |
 | Gillman, male | 4 ft. 10 in. | 120 lbs. | 2d10 | ×5 lbs. |

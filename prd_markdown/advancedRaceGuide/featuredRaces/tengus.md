@@ -146,12 +146,10 @@ Tengus have access to the following equipment.
 
 **Wing Oil** : Tengus mix special salves to protect their feathers from the elements. This one-ounce vial of wing oil gives a feathered creature a +1 bonus on all saving throws to resist the effects of cold weather. Its effects last 24 hours.
 
-<caption>Tengu Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Signal kite kit | 5 gp | — | — |
+[Tengu Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Signal kite kit | 5 gp | — | — |
 | Terror kite | 20 gp | — | — |
 | Wing oil | 1 gp | — | 20 |
 

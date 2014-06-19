@@ -2,11 +2,10 @@
 
 Many adventurers like to sit down and play a game now and then to pass the time—or make some easy gold.
 
-<caption>Entertainment</caption><thead><tr>
-<th>Item</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Ball (2 in.) | 8 cp | — |
+[Entertainment]
+| Item | Price | Weight |
+| --- | --- | --- |
+| Ball (2 in.) | 8 cp | — |
 | Ball (5 in.) | 2 sp | — |
 | Ball (10 in.) | 6 gp | 1 lb. |
 | Billiards gear | 5 sp | 8 lbs. |
@@ -152,10 +151,10 @@ The value of metal ore depends on its grade—how much of it is valuable metal o
 
 **Spices** : Spices such as garlic, cumin, fennel, salt, and ginger are used to flavor other foods. They are usually sold in jars, bottles, or waxed-cloth packets.
 
-<caption>Trade Goods</caption><thead><tr>
-<th>Price</th>
-<th>Item</th>
-</tr></thead>| 1 cp | Guinea pig, rat, wheat (1 lb.) |
+[Trade Goods]
+| Price | Item |
+| --- | --- |
+| 1 cp | Guinea pig, rat, wheat (1 lb.) |
 | 2 cp | Beans (1 lb.), cheese (1 lb.), chicken, flour (1 lb.), potatoes (1 lb.), turnips (1 lb.) |
 | 3 cp | Charcoal (20 lbs.), citrus (1 lb.), nuts (1 lb.), peat (20 lbs.) |
 | 5 cp | Coffee beans (1 lb.), coal (20 lbs.), masonry stone (1 lb.), sugar (1 lb.) |

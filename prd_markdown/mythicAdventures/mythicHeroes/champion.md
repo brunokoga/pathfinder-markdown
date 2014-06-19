@@ -8,10 +8,9 @@ The champion is the pinnacle of skill at arms and armor. No ordinary fighter cou
 
 **Bonus Hit Points** : Whenever you gain a champion tier, you gain 5 bonus hit points. These hit points stack with themselves, and don't affect your overall Hit Dice or other statistics.
 
-<thead><tr>
-<th>Tier</th>
-<th>Path Features</th>
-</tr></thead>| 1st | Champion's strike, path ability |
+| Tier | Path Features |
+| --- | --- |
+| 1st | Champion's strike, path ability |
 | 2nd | Path ability |
 | 3rd | Path ability |
 | 4th | Path ability |

@@ -42,7 +42,7 @@ Statistics
 
 **Base Atk** +11; **CMB** +23 (+25 overrun or sunder); **CMD** 34 (36 vs. overrun or sunder)
 
-**Feats** [Cleave](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_cleave-mythic)<sup>M</sup>, [Great Cleave](/pathfinderRPG/prd/feats.html#_great-cleave), [Improved Overrun](/pathfinderRPG/prd/feats.html#_improved-overrun), [Improved Sunder](/pathfinderRPG/prd/feats.html#_improved_sunder), [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)<sup>M</sup>, [Martial Weapon Proficiency](/pathfinderRPG/prd/feats.html#_martial-weapon-proficiency) (greatsword), [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)<sup>M</sup>, [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (greatsword)
+**Feats** [Cleave](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_cleave-mythic)M, [Great Cleave](/pathfinderRPG/prd/feats.html#_great-cleave), [Improved Overrun](/pathfinderRPG/prd/feats.html#_improved-overrun), [Improved Sunder](/pathfinderRPG/prd/feats.html#_improved_sunder), [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M, [Martial Weapon Proficiency](/pathfinderRPG/prd/feats.html#_martial-weapon-proficiency) (greatsword), [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)M, [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (greatsword)
 
 **Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +15, [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (any one) +8, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +11, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +14
 
@@ -106,7 +106,7 @@ Statistics
 
 **Base Atk** +7; **CMB** +16; **CMD** 25
 
-**Feats** [Cleave](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_cleave-mythic)<sup>M</sup>, [Intimidating Prowess](/pathfinderRPG/prd/feats.html#_intimidating-prowess), [Martial Weapon Proficiency](/pathfinderRPG/prd/feats.html#_martial-weapon-proficiency) (greatclub), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (greatclub)<sup>M</sup>
+**Feats** [Cleave](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_cleave-mythic)M, [Intimidating Prowess](/pathfinderRPG/prd/feats.html#_intimidating-prowess), [Martial Weapon Proficiency](/pathfinderRPG/prd/feats.html#_martial-weapon-proficiency) (greatclub), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (greatclub)M
 
 **Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +11, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +13, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +6
 

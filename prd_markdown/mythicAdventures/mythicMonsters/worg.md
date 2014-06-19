@@ -34,7 +34,7 @@ Statistics
 
 **Base Atk** +4; **CMB** +7; **CMD** 19 (23 vs. trip)
 
-**Feats** [Run](/pathfinderRPG/prd/feats.html#_run), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))<sup>M</sup>
+**Feats** [Run](/pathfinderRPG/prd/feats.html#_run), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))M
 
 **Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +11, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +9, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +5; **Racial Modifiers** +2 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +2 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth), +2 [Survival](/pathfinderRPG/prd/skills/survival.html#_survival)
 
@@ -94,7 +94,7 @@ Statistics
 
 **Base Atk** +6; **CMB** +13; **CMD** 24 (28 vs. trip)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Run](/pathfinderRPG/prd/feats.html#_run), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))<sup>M</sup>
+**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Run](/pathfinderRPG/prd/feats.html#_run), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))M
 
 **Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +11, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +4 (+10 in snow), [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +5; **Racial Modifiers** +2 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +2 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) (+8 in snow), +2 [Survival](/pathfinderRPG/prd/skills/survival.html#_survival)
 

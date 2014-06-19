@@ -32,7 +32,7 @@ N Medium [animal](creatureTypes.html#_animal) ( [aquatic](creatureTypes.html#_aq
 
 **Base Atk** +2; **CMB** +4 (+8 grapple); **CMD** 16
 
-**Feats** [Improved Initiative](../feats.html#_improved-initiative), [Lightning Reflexes](../feats.html#_lightning-reflexes), [Multiattack](monsterFeats.html#_multiattack)<sup>B</sup>
+**Feats** [Improved Initiative](../feats.html#_improved-initiative), [Lightning Reflexes](../feats.html#_lightning-reflexes), [Multiattack](monsterFeats.html#_multiattack)B
 
 **Skills** [Perception](../skills/perception.html#_perception) +7, [Swim](../skills/swim.html#_swim) +10
 
@@ -96,7 +96,7 @@ N Huge [animal](creatureTypes.html#_animal) ( [aquatic](creatureTypes.html#_aqua
 
 **Base Atk** +9; **CMB** +18 (+22 grapple); **CMD** 31
 
-**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Great Fortitude](../feats.html#_great-fortitude), [Improved Critical](../feats.html#_improved-critical) (tentacle), [Improved Initiative](../feats.html#_improved-initiative), [Lightning Reflexes](../feats.html#_lightning-reflexes), [Multiattack](monsterFeats.html#_multiattack)<sup>B</sup>, [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception))
+**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Great Fortitude](../feats.html#_great-fortitude), [Improved Critical](../feats.html#_improved-critical) (tentacle), [Improved Initiative](../feats.html#_improved-initiative), [Lightning Reflexes](../feats.html#_lightning-reflexes), [Multiattack](monsterFeats.html#_multiattack)B, [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception))
 
 **Skills** [Perception](../skills/perception.html#_perception) +22, [Swim](../skills/swim.html#_swim) +15
 

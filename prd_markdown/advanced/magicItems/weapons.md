@@ -4,14 +4,10 @@ The following armor and shield properties add to those presented in the _Pathfin
 
 # Magic Weapon Special Ability Descriptions
 
-<caption>Table: Melee Weapon Special Abilities</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Special Ability</th>
-<th>Base Price Modifier<sup>1</sup>
-</th>
-</tr></thead>| 01–12 | 01–04 | 01–03 | _Allying_ | +1 bonus |
+[Table: Melee Weapon Special Abilities]
+| Minor | Medium | Major | Special Ability | Base Price Modifierⁱ |
+| --- | --- | --- | --- | --- |
+| 01–12 | 01–04 | 01–03 | _Allying_ | +1 bonus |
 | 13–24 | 05–12 | 04–08 | _Conductive_ | +1 bonus |
 | 25–36 | 13–22 | 09–20 | _Corrosive_ | +1 bonus |
 | 37–48 | 23–32 | 21–29 | _Cunning_ | +1 bonus |
@@ -23,37 +19,19 @@ The following armor and shield properties add to those presented in the _Pathfin
 | — | 75–82 | 75–81 | _Corrosive burst _ | +2 bonus |
 | — | 83–89 | 82–85 | _Dueling_ | +14,000 gp |
 | — | 90–95 | 86–90 | _Transformative_ | +10,000 gp |
-| 100 | 96–100 | 91–100 | Roll again twice<sup>2</sup> | — |
-<tfoot>
-<tr><td colspan="5">
-<sup>1</sup>Add to the enhancement bonus on <a href="../../magicItems/weapons.html#_table-15-8-weapons">Table: Weapons</a> to determine total market price.</td></tr>
-<tr><td colspan="5">
-<sup>2</sup>Reroll if you get a duplicate special ability, an ability incompatible with an ability that you've already rolled, or if the extra ability puts you over the +10 limit. A weapon's enhancement bonus and special ability bonus equivilents can't total more than +10.</td></tr>
-</tfoot>
+| 100 | 96–100 | 91–100 | Roll again twice⁲ | — |
 
-<caption>Table: Ranged Weapon Special Abilities</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Special Ability</th>
-<th>Base Price Modifier<sup>1</sup>
-</th>
-</tr></thead>| 01–15 | 01–14 | 01–13 | _Allying_ | +1 bonus |
+[Table: Ranged Weapon Special Abilities]
+| Minor | Medium | Major | Special Ability | Base Price Modifierⁱ |
+| --- | --- | --- | --- | --- |
+| 01–15 | 01–14 | 01–13 | _Allying_ | +1 bonus |
 | 16–30 | 15–28 | 14–26 | _Conductive_ | +1 bonus |
 | 31–48 | 29–48 | 27–42 | _Corrosive_2 | +1 bonus |
 | 49–60 | 49–58 | 43–56 | _Cunning _ | +1 bonus |
 | 61–72 | 59–69 | 57–65 | _Huntsman_ | +1 bonus |
 | 73–94 | 70–91 | 66–87 | _Jurist_ | +1 bonus |
 | 95–99 | 92–95 | 88–90 | _Corrosive burst_ | +1 bonus |
-| 100 | 96–100 | 91–100 | Roll again twice<sup>3</sup> | — |
-<tfoot>
-<tr><td colspan="5">
-<sup>1</sup>Add to the enhancement bonus on <a href="../../magicItems/weapons.html#_table-15-8-weapons">Table: Weapons</a> to determine total market price.</td></tr>
-<tr><td colspan="5">
-<sup>2</sup>Bows, crossbows, and slings crafted with this ability bestow this power upon their ammunition.</td></tr>
-<tr><td colspan="5">
-<sup>3</sup>Reroll if you get a duplicate special ability, an ability incompatible with an ability that you've already rolled, or if the extra ability puts you over the +10 limit. A weapon's enhancement bonus and special ability bonus equivilents can't total more than +10.</td></tr>
-</tfoot>
+| 100 | 96–100 | 91–100 | Roll again twice⁳ | — |
 
 A weapon with a special ability must have at least a +1 enhancement bonus.
 
@@ -109,13 +87,10 @@ Moderate transmutation; CL 10th; [Craft Magic Arms and Armor](../../feats.html#_
 
 # Specific Weapons
 
-<caption>Table: Specific Weapons</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Specific Weapon</th>
-<th>Market Price</th>
-</tr></thead>| 01–35 | — | — | _Dustburst bullet_ | 196 gp |
+[Table: Specific Weapons]
+| Minor | Medium | Major | Specific Weapon | Market Price |
+| --- | --- | --- | --- | --- |
+| 01–35 | — | — | _Dustburst bullet_ | 196 gp |
 | 36–70 | — | — | _Tangle bolt_ | 226 gp |
 | 71–80 | 01–7 | — | _Searing arrow_ | 1,516 gp |
 | 81–90 | 08–14 | — | _Sizzling arrow_ | 1,516 gp |

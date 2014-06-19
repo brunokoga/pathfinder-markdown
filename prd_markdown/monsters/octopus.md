@@ -32,7 +32,7 @@ N Small [animal](creatureTypes.html#_animal) ( [aquatic](creatureTypes.html#_aqu
 
 **Base Atk** +1; **CMB** +1 (+5 grapple); **CMD** 14 (can't be tripped)
 
-**Feats** [Multiattack](monsterFeats.html#_multiattack)<sup>B</sup>, [Weapon Finesse](../feats.html#_weapon-finesse)
+**Feats** [Multiattack](monsterFeats.html#_multiattack)B, [Weapon Finesse](../feats.html#_weapon-finesse)
 
 **Skills** [Escape Artist](../skills/escapeArtist.html#_escape-artist) +13, [Stealth](../skills/stealth.html#_stealth) +20, [Swim](../skills/swim.html#_swim) +9; **Racial Modifiers** +8 [Stealth](../skills/stealth.html#_stealth), +10 [Escape Artist](../skills/escapeArtist.html#_escape-artist)
 
@@ -98,7 +98,7 @@ N Large [animal](creatureTypes.html#_animal) ( [aquatic](creatureTypes.html#_aqu
 
 **Base Atk** +9; **CMB** +15 (+19 grapple); **CMD** 27 (can't be tripped)
 
-**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Improved Initiative](../feats.html#_improved-initiative), [Iron Will](../feats.html#_iron-will), [Lightning Reflexes](../feats.html#_lightning-reflexes), [Multiattack](monsterFeats.html#_multiattack)<sup>B</sup>, [Skill Focus](../feats.html#_skill-focus) ( [Stealth](../skills/stealth.html#_stealth)), [Stealthy](../feats.html#_stealthy)
+**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Improved Initiative](../feats.html#_improved-initiative), [Iron Will](../feats.html#_iron-will), [Lightning Reflexes](../feats.html#_lightning-reflexes), [Multiattack](monsterFeats.html#_multiattack)B, [Skill Focus](../feats.html#_skill-focus) ( [Stealth](../skills/stealth.html#_stealth)), [Stealthy](../feats.html#_stealthy)
 
 **Skills** [Escape Artist](../skills/escapeArtist.html#_escape-artist) +18, [Perception](../skills/perception.html#_perception) +8, [Stealth](../skills/stealth.html#_stealth) +18, [Swim](../skills/swim.html#_swim) +13; **Racial Modifiers** +10 [Escape Artist](../skills/escapeArtist.html#_escape-artist), +8 [Stealth](../skills/stealth.html#_stealth)
 

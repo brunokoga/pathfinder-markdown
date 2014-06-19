@@ -46,7 +46,7 @@ Statistics
 
 **Base Atk** +1; **CMB** +0; **CMD** 8
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)<sup>B</sup>, [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)B, [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +8 (+4 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +9, [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) +7,   
  [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +18, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +7, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +6, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +20

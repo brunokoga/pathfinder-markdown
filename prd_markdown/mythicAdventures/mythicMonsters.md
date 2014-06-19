@@ -39,7 +39,7 @@ Mythic monster stat blocks work just like non-mythic monster stat blocks, but ha
 
 **Init and Senses** : Several mythic monsters have the Mythic [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic) feat, which allows the creature to expend one use of mythic power to treat its initiative roll as a 20. Because you rarely check the Feats entry for a monster when rolling initiative, it would be easy to forget that ability when using the monster. As a reminder of this ability, a monster with that feat has a superscript "M" after its initiative modifier. The listed initiative modifier already includes the additional bonus from the Mythic Improved Initiative feat.
 
-**Feats** : The creature's feats are listed here. If a monster has a mythic feat, that feat is identified with a superscript "M," such as "Improved Initiative<sup>M</sup>" rather than "Mythic [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)." Most mythic feats improve non-mythic feats, and have the non-mythic feat as a prerequisite. In these cases, the non-mythic feat isn't listed along with the mythic feat—the superscript "M" indicates the creature has the mythic and non-mythic versions of that feat.
+**Feats** : The creature's feats are listed here. If a monster has a mythic feat, that feat is identified with a superscript "M," such as "Improved InitiativeM" rather than "Mythic [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)." Most mythic feats improve non-mythic feats, and have the non-mythic feat as a prerequisite. In these cases, the non-mythic feat isn't listed along with the mythic feat—the superscript "M" indicates the creature has the mythic and non-mythic versions of that feat.
 
 **Special Attacks** : All of the monsters presented in this section have the mythic subtype, which grants them the mythic power universal monster ability, allows them to expend uses of mythic power to add surge dice to d20 rolls, and may add other abilities as well. When running a monster with mythic power, always remember that it can use the surge ability—especially because some mythic creatures don't use mythic power for anything else, so that ability is necessary for the monster to keep up with and challenge mythic PCs. (Plus, part of the fun of using mythic rules is getting to use mythic surges, and the GM should get to do that, too.)
 
@@ -87,11 +87,10 @@ Creatures with the invincible template are incredibly difficult to harm. They ca
 
 **Rebuild Rules** : **AC** increase natural armor bonus by 2 (or 4 if the creature has 11 or more Hit Dice); **hp** mythic bonus hit points; **Defensive Abilities** gains DR and resistance to all types of energy as per the table below, as well as block attacks and second save.
 
-<caption>Invincible Template Defenses</caption><thead><tr>
-<th>Hit Dice</th>
-<th>Energy Resistance</th>
-<th>DR</th>
-</tr></thead>| 1–4 | 5 | — |
+[Invincible Template Defenses]
+| Hit Dice | Energy Resistance | DR |
+| --- | --- | --- |
+| 1–4 | 5 | — |
 | 5–10 | 10 | 5/epic |
 | 11+ | 15 | 10/epic |
 
@@ -101,11 +100,10 @@ Creatures with the savage template are untamed, primordial versions of their non
 
 **Rebuild Rules** : **AC** increase natural armor bonus by 2; **hp** mythic bonus hit points; **Defensive Abilities** gains DR and resistance to all types of energy as per the table below; **Special Attacks** all attacks gain bleed 1 (this stacks with itself), feral savagery (full attack).
 
-<caption>Savage Template Defenses</caption><thead><tr>
-<th>Hit Dice</th>
-<th>Energy Resistance</th>
-<th>DR</th>
-</tr></thead>| 1–4 | 5 | — |
+[Savage Template Defenses]
+| Hit Dice | Energy Resistance | DR |
+| --- | --- | --- |
+| 1–4 | 5 | — |
 | 5–10 | 10 | 5/epic |
 | 11+ | 15 | 10/epic |
 
@@ -183,12 +181,10 @@ In place of a mythic ability, the monster may gain a universal monster ability, 
 
 **XP** : Change the creature's XP award to match its new CR.
 
-<caption>Mythic Subtype Abilities</caption><thead><tr>
-<th>Mythic Rank</th>
-<th>Ability Bonus</th>
-<th>Mythic Feat</th>
-<th>Surge Die Type</th>
-</tr></thead>| 1st | — | 1st | 1d6 |
+[Mythic Subtype Abilities]
+| Mythic Rank | Ability Bonus | Mythic Feat | Surge Die Type |
+| --- | --- | --- | --- |
+| 1st | — | 1st | 1d6 |
 | 2nd | 1st | — | 1d6 |
 | 3rd | — | 2nd | 1d6 |
 | 4th | 2nd | — | 1d8 |
@@ -213,10 +209,10 @@ _Format_: block attacks; _Location_: Defensive Abilities.
 **Dragon Blood (Su)** : The mythic dragon's blood and other fluids are infused with acid, cold, electricity, or fire, matching the dragon's breath weapon energy type. Every time the dragon is damaged by a piercing or slashing weapon, the attacking creature takes energy damage according to the table below (or double damage if the attack is a critical hit). Using a reach weapon does not endanger the attacker in this way. If the dragon has the swallow whole ability, it adds this damage to its swallow whole damage.  
 _Format_: dragon blood (2d6 fire); _Location_: Defensive Abilities.
 
-<caption>Dragon Blood Damage</caption><thead><tr>
-<th>Dragon Size</th>
-<th>Points of Energy Damage</th>
-</tr></thead>| Medium or smaller | 1d4 |
+[Dragon Blood Damage]
+| Dragon Size | Points of Energy Damage |
+| --- | --- |
+| Medium or smaller | 1d4 |
 | Large | 1d6 |
 | Huge | 1d8 |
 | Gargantuan | 2d6 |
@@ -243,10 +239,10 @@ _Format_: greensight 60 ft.; _Location_: Senses.
 **Lingering Breath (Su)** : The creature can expend one use of mythic power as a free action when it uses its breath weapon to make the area radiate energy damage (of the same type as the breath weapon) for 1 round per mythic rank. Any creature in, entering, or passing through the breath weapon's area during this duration takes damage according to the creature's size. This ability has no effect on breath weapons that do not deal energy damage.  
 _Format_: lingering breath (2d6 fire, 5 rounds); _Location_: Special Attacks.
 
-<caption>Lingering Breath Damage</caption><thead><tr>
-<th>Creature Size</th>
-<th>Points of Energy Damage</th>
-</tr></thead>| Medium or smaller | 2d4 |
+[Lingering Breath Damage]
+| Creature Size | Points of Energy Damage |
+| --- | --- |
+| Medium or smaller | 2d4 |
 | Large | 2d6 |
 | Huge | 2d8 |
 | Gargantuan | 4d6 |
@@ -324,19 +320,10 @@ A creature with higher than normal attack bonuses often deals less damage, and a
 
 **Poor Save** : This is the average saving throw bonus for a creature of this CR, if the saving throw is one of the creature's poor saving throws.
 
-<caption>Monster Statistics by CR</caption><thead><tr>
-<th>CR</th>
-<th>Hit Points</th>
-<th>Armor Class</th>
-<th>High Attack</th>
-<th>Low Attack</th>
-<th>Avg Dmg High</th>
-<th>Avg Dmg Low</th>
-<th>Primary Ability DC</th>
-<th>Secondary Ability DC</th>
-<th>Good Save</th>
-<th>Poor Save</th>
-</tr></thead>| 1/2 | 10 | 11 | 1 | 0 | 4 | 3 | 11 | 8 | 3 | 0 |
+[Monster Statistics by CR]
+| CR | Hit Points | Armor Class | High Attack | Low Attack | Avg Dmg High | Avg Dmg Low | Primary Ability DC | Secondary Ability DC | Good Save | Poor Save |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1/2 | 10 | 11 | 1 | 0 | 4 | 3 | 11 | 8 | 3 | 0 |
 | 1 | 15 | 12 | 2 | 1 | 7 | 5 | 12 | 9 | 4 | 1 |
 | 2 | 20 | 14 | 4 | 3 | 10 | 7 | 13 | 9 | 5 | 1 |
 | 3 | 30 | 15 | 6 | 4 | 13 | 9 | 14 | 10 | 6 | 2 |

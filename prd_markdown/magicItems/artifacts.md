@@ -30,10 +30,9 @@ The owner of the book need not have the book on her person in order to use its p
 
 Each time a spell is cast, there is a chance that the energy connected with its use causes the page to magically turn despite all precautions. The chance of a page turning depends on the spell the page contains and what sort of spellcaster the owner is.
 
-<thead><tr>
-<th>Condition</th>
-<th>Chance of Page Turning</th>
-</tr></thead>| Caster employing a spell usable by own class and level | 10% |
+| Condition | Chance of Page Turning |
+| --- | --- |
+| Caster employing a spell usable by own class and level | 10% |
 | Caster employing a spell not usable by own class and level | 20% |
 | Nonspellcaster employing divine spell | 25% |
 | Nonspellcaster employing arcane spell | 30% |
@@ -58,12 +57,10 @@ The character with a _deck of many things _who wishes to draw a card must announ
 
 Each time a card is taken from the deck, it is replaced (making it possible to draw the same card twice) unless the draw is the Jester or the Fool, in which case the card is discarded from the pack. A _deck of many things _contains 22 cards. To simulate the magic cards, you may want to use tarot cards, as indicated in the second column of the accompanying table. If no tarot deck is available, substitute ordinary playing cards instead, as indicated in the third column. The effects of each card, summarized on the table, are fully described below.
 
-<caption>Deck of Many Things</caption><thead><tr>
-<th>Plaque</th>
-<th>Tarot Card</th>
-<th>Playing Card</th>
-<th>Summary of Effect</th>
-</tr></thead>| Balance | XI. Justice | Two of spades | Change alignment instantly. |
+[Deck of Many Things]
+| Plaque | Tarot Card | Playing Card | Summary of Effect |
+| --- | --- | --- | --- |
+| Balance | XI. Justice | Two of spades | Change alignment instantly. |
 | Comet | Two of swords | Two of diamonds | Defeat the next monster you meet to gain one level. |
 | Donjon | Four of swords | Ace of spades | You are _imprisoned_. |
 | Euryale | Ten of swords | Queen of spades | –1 penalty on all saving throws henceforth. |
@@ -292,10 +289,9 @@ The _Axe of the Dwarvish Lords _rusts away to nothing if it is ever used by a go
 
 The _Codex_ is enormous—supposedly, it requires two strong men to lift it. No matter how many pages are turned, another always remains. Anyone opening the _Codex _for the first time is utterly annihilated, as with a _ [destruction](../spells/destruction.html#_destruction) _spell ( [Fortitude](../combat.html#_fortitude) DC 30). Those who survive can peruse its pages and learn its powers, though not without risk. Each day spent studying the _Codex _allows the reader to make a [Spellcraft](../skills/spellcraft.html#_spellcraft) check (DC 50) to learn one of its powers (choose the power learned randomly; add a +1 circumstance bonus on the check per additional day spent reading until a power is learned). However, each day of study also forces the reader to make a [Will](../combat.html#_will) save (DC 30 + 1 per day of study) to avoid being driven insane (as the _ [insanity](../spells/insanity.html#_insanity) _spell). The powers of the _Codex of the Infinite Planes _are as follows: _ [astral projection](../spells/astralProjection.html#_astral-projection), [banishment](../spells/banishment.html#_banishment), [elemental swarm](../spells/elementalSwarm.html#_elemental-swarm), [gate](../spells/gate.html#_gate), [greater planar ally](../spells/planarAlly.html#_planar-ally-greater), [greater planar binding](../spells/planarBinding.html#_planar-binding-greater), [plane shift](../spells/planeShift.html#_plane-shift), _and _ [soul bind](../spells/soulBind.html#_soul-bind). _Each of these spell-like abilities are usable at will by the owner of the _Codex _(assuming that he or she has learned how to access the power). The _Codex of the Infinite Planes _has a caster level of 30th for the purposes of all powers and catastrophes, and all saving throw DCs are 20 + spell level. Activating any power requires a [Spellcraft](../skills/spellcraft.html#_spellcraft) check (DC 40 + twice the spell level of the power; the character can't take 10 on this check). Any failure on either check indicates that a catastrophe befalls the user (roll on the table below for the effect). A character can only incur one catastrophe per power use.
 
-<thead><tr>
-<th>d%</th>
-<th>Catastrophe</th>
-</tr></thead>| 01–25 | **Natural Fury** : An _earthquake _spell centered on the reader strikes every round for 1 minute, and an intensified _ [storm of vengeance](../spells/stormOfVengeance.html#_storm-of-vengeance) _spell is centered and targeted on the reader. |
+| d% | Catastrophe |
+| --- | --- |
+| 01–25 | **Natural Fury** : An _earthquake _spell centered on the reader strikes every round for 1 minute, and an intensified _ [storm of vengeance](../spells/stormOfVengeance.html#_storm-of-vengeance) _spell is centered and targeted on the reader. |
 | 26–50 | **Fiendish Vengeance** : A _ [gate](../spells/gate.html#_gate) _opens and 1d3+1 balors, pit fiends, or similar evil outsiders step through and attempt to destroy the owner of the _Codex. _ |
 | 51–75 | **Ultimate Imprisonment** : Reader's soul is captured (as _ [trap the soul](../spells/trapTheSoul.html#_trap-the-soul); _no save allowed) in a random gem somewhere on the plane while his or her body is entombed beneath the earth (as _ [imprisonmen](../spells/imprisonment.html#_imprisonment)_ [t](../spells/imprisonment.html#_imprisonment)). |
 | 76–100 | **Death** : The reader utters a _ [wail of the banshee](../spells/wailOfTheBanshee.html#_wail-of-the-banshee) _and then is subject to a _ [destruction](../spells/destruction.html#_destruction) _spell. This repeats every round for 10 rounds until the reader is dead. |

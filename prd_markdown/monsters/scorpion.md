@@ -64,12 +64,9 @@ Giant scorpions live in underground burrows, either as solitary hunters or in sm
 
 Other species of scorpions exist as well, some smaller but most quite a bit larger and favoring different terrains, such as forests, plains, or even underground. You can adjust the stats for the giant scorpion by changing Hit Dice and size (adjusting Strength, Dexterity, and Constitution as appropriate) to represent a wide range of species. The following table lists the most common variants.
 
-<thead><tr>
-<th>Species</th>
-<th>CR</th>
-<th>Size</th>
-<th>HD</th>
-</tr></thead><tbody>
+| Species | CR | Size | HD |
+| --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Greensting scorpion</td>
 <td>1/4</td>

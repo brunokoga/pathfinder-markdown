@@ -4,57 +4,51 @@ The body slot consists of robes, vestments, and items that can be worn on or aro
 
 Anyone can use a body slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.
 
-<caption>Body Slot Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Body Item</th>
-<th>Price</th>
-</tr></thead>| 01–20 | _Robe of infinite twine_ | 1,000 gp |
+[Body Slot Wondrous Items]
+| d% | Lesser Minor Body Item | Price |
+| --- | --- | --- |
+| 01–20 | _Robe of infinite twine_ | 1,000 gp |
 | 21–35 | _Robe of needles _ | 1,000 gp |
 | 36–60 | _Robe of bones_ | 2,400 gp |
 | 61–70 | _Bodywrap of mighty strikes +1_ | 3,000 gp |
 | 71–80 | _Corset of the vishkanya_ | 3,000 gp |
 | 81–100 | _Druid's vestment_ | 3,750 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Body Item</th>
-<th>Price</th>
-</tr></thead>| 01–15 | _Cassock of the clergy_ | 4,600 gp |
+
+| d% | Greater Minor Body Item | Price |
+| --- | --- | --- |
+| 01–15 | _Cassock of the clergy_ | 4,600 gp |
 | 16–30 | _Mnemonic vestments_ | 5,000 gp |
 | 31–45 | _Robe of components_ | 5,000 gp |
 | 46–60 | _Sorcerer's robe_ | 5,000 gp |
 | 61–75 | _Eidolon anchoring harness_ | 6,000 gp |
 | 76–100 | _Robe of useful items_ | 7,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Body Item</th>
-<th>Price</th>
-</tr></thead>| 01–15 | _Robe of blending_ | 8,400 gp |
+
+| d% | Lesser Medium Body Item | Price |
+| --- | --- | --- |
+| 01–15 | _Robe of blending_ | 8,400 gp |
 | 16–26 | _Blazing robes_ | 11,000 gp |
 | 27–37 | _Shocking robe_ | 11,000 gp |
 | 38–48 | _Voidfrost robes_ | 11,000 gp |
 | 49–59 | _Bodywrap of mighty strikes +2_ | 12,000 gp |
 | 60–75 | _Monk's robe_ | 13,000 gp |
 | 76–100 | _Robe of arcane heritage_ | 16,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Body Item</th>
-<th>Price</th>
-</tr></thead>| 01–25 | _Xorn robe_ | 20,000 gp |
+
+| d% | Greater Medium Body Item | Price |
+| --- | --- | --- |
+| 01–25 | _Xorn robe_ | 20,000 gp |
 | 26–52 | _Corset of dire witchcraft_ | 22,000 gp |
 | 53–76 | _Bodywrap of mighty strikes +3_ | 27,000 gp |
-| 77–100 | _Robe of scintillating colors_ | 27,000 gp<thead><tr>
-<th>d%</th>
-<th>Lesser Major Body Item</th>
-<th>Price</th>
-</tr></thead> |
+| 77–100 | _Robe of scintillating colors_ | 27,000 gp
+| d% | Lesser Major Body Item | Price |
+| --- | --- | --- |
+ |
 | 01–40 | _Gunman's duster_ | 36,000 gp |
 | 41–80 | _Bodywrap of mighty strikes +4_ | 48,000 gp |
 | 81–100 | _Smuggler's collapsible robe_ | 48,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Body Item</th>
-<th>Price</th>
-</tr></thead>| 01–10 | _Robe of stars_ | 58,000 gp |
+
+| d% | Greater Major Body Item | Price |
+| --- | --- | --- |
+| 01–10 | _Robe of stars_ | 58,000 gp |
 | 11–15 | _Robe of gates_ | 64,000 gp |
 | 16–20 | _Otherworldly kimono_ | 67,000 gp |
 | 21–40 | _Bodywrap of mighty strikes +5_ | 75,000 gp |
@@ -403,10 +397,9 @@ A character who dons this battered robe notes that its patches rearrange into th
 
 In addition, the robe has several other patches. Roll 4d4 for the number of other patches and then roll for each patch on the table below to determine its nature.
 
-<thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01–08 | Bag of 100 gold pieces |
+| d% | Result |
+| --- | --- |
+| 01–08 | Bag of 100 gold pieces |
 | 09–15 | Coffer, silver (6 in. by 6 in. by 1 ft.), 500 gp value |
 | 16–22 | Door, iron (up to 10 ft. wide and 10 ft. high and barred on one side—must be placed upright, attaches and hinges itself) |
 | 23–30 | Gems, 10 (100 gp value each) |

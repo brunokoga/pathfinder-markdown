@@ -69,11 +69,10 @@ When looking at the Maximum Damage tables, also keep in mind that arcane spells 
 
 **Tip** : If your spell does less damage than the amount defined on the table, you should increase the damage or add another effect to the spell. An example of this is _ [sound burst](/pathfinderRPG/prd/spells/soundBurst.html#_sound-burst)_, which only deals 1d8 points of damage (this amount never increases), but can stun creatures in the area.
 
-<caption>Table: Maximum Damage for Arcane Spells</caption><thead><tr>
-<th>Arcane Spell Level</th>
-<th>Max Damage (Single Target)</th>
-<th>Max Damage (Multiple Targets)</th>
-</tr></thead>| 1st | 5 dice | — |
+[Table: Maximum Damage for Arcane Spells]
+| Arcane Spell Level | Max Damage (Single Target) | Max Damage (Multiple Targets) |
+| --- | --- | --- |
+| 1st | 5 dice | — |
 | 2nd | 10 dice | 5 dice |
 | 3rd | 10 dice | 10 dice |
 | 4th | 15 dice | 10 dice |
@@ -88,11 +87,10 @@ When looking at the Maximum Damage tables, also keep in mind that arcane spells 
   
   
 
-<caption>Table: Maximum Damage for Divine Spells</caption><thead><tr>
-<th>Divine Spell Level</th>
-<th>Max Damage (Single Target)</th>
-<th>Max Damage (Multiple Targets)</th>
-</tr></thead>| 1st | 1 die | — |
+[Table: Maximum Damage for Divine Spells]
+| Divine Spell Level | Max Damage (Single Target) | Max Damage (Multiple Targets) |
+| --- | --- | --- |
+| 1st | 1 die | — |
 | 2nd | 5 dice | 1 die |
 | 3rd | 10 dice | 5 dice |
 | 4th | 10 dice | 10 dice |
@@ -178,12 +176,10 @@ There are many types of bonuses in the game. It's tempting to look at that list 
 
 A dash entry (—) in the table indicates there are no common examples of items or spells that grant that kind of bonus. If you're designing an item or spell and want to include a certain type of bonus to a particular ability or statistic, check Table 2–7 first; if the bonus type doesn't say it can affect that ability or statistic, use one that does instead. One reason for this table is that some bonuses are better than others (deflection bonuses work against incorporeal creatures and when you are flat-footed, natural armor bonuses do not). A second reason is that allowing any kind of bonus on any roll or statistic makes it really easy to stack many small bonuses more cheaply than a larger bonus, which makes powerful magic items like a _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +5_ much less interesting. A third reason is that some of these combinations just don't make sense, like a deflection bonus to Strength or a shield bonus on [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) checks.
 
-<caption>Table: Bonus Type and Effects</caption><thead><tr>
-<th>Bonus Type</th>
-<th>Can Affect</th>
-<th>Sample Item</th>
-<th>Sample Spell</th>
-</tr></thead>| Alchemical | Ability scores, saves | Antitoxin | — |
+[Table: Bonus Type and Effects]
+| Bonus Type | Can Affect | Sample Item | Sample Spell |
+| --- | --- | --- | --- |
+| Alchemical | Ability scores, saves | Antitoxin | — |
 | Armor | AC | _ [Bracers of armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor)_ | [Mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor) |
 | Circumstance | Attacks, checks | _ [Robe of blending](/pathfinderRPG/prd/magicItems/wondrousItems.html#_robe-of-bones)_ | — |
 | Competence | Attacks, checks, saves | _ [Boots of elvenkind](/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-elvenkind)_ | [Guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance) |
@@ -200,7 +196,6 @@ A dash entry (—) in the table indicates there are no common examples of items 
 | Sacred | AC, checks, damage, DCs, saves | — | _ [Consecrate](/pathfinderRPG/prd/spells/consecrate.html#_consecrate)_ |
 | Shield | AC | _ [Ring of force shield](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-force-shield)_ | [Shield](/pathfinderRPG/prd/spells/shield.html#_shield) |
 | Size | Ability scores, attacks, AC | — | _ [Enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_ |
-<tfoot><tr><td colspan="4">* Spells and magic items should never grant dodge bonuses because dodge bonuses always stack, and it would be a simple matter to stack various low-power items or spells with small dodge bonuses and get an incredibly high Armor Class more cheaply than by achieving that AC using the armor, deflection, enhancement, and natural armor bonuses in the game.</td></tr></tfoot>
 
   
   

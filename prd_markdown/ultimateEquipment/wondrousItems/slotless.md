@@ -4,11 +4,10 @@ These wondrous items do not adhere to a specific slot, and are often carried by 
 
 Anyone can use slotless wondrous items unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.
 
-<caption>Slotless Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Least Minor Slotless Item</th>
-<th>Price</th>
-</tr></thead>| 01 | _Feather token (anchor)_ | 50 gp |
+[Slotless Wondrous Items]
+| d% | Least Minor Slotless Item | Price |
+| --- | --- | --- |
+| 01 | _Feather token (anchor)_ | 50 gp |
 | 02 | _Universal solvent_ | 50 gp |
 | 03–04 | _Ioun torch_ | 75 gp |
 | 05 | _Stubborn nail_ | 100 gp |
@@ -54,11 +53,10 @@ Anyone can use slotless wondrous items unless specified otherwise by its descrip
 | 90–92 | _Dust of emulation_ | 800 gp |
 | 93–97 | _Steadfast gut-stone_ | 800 gp |
 | 98–100 | _Dust of dryness_ | 850 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Minor Slotless Item</th>
-<th>Price</th>
-</tr></thead>| 01–03 | Roll on the Least Minor table | — |
+
+| d% | Lesser Minor Slotless Item | Price |
+| --- | --- | --- |
+| 01–03 | Roll on the Least Minor table | — |
 | 04 | _Anatomy doll_ | 1,000 gp |
 | 05 | _Bead of newt prevention_ | 1,000 gp |
 | 06 | _Beast-bond brand_ | 1,000 gp |
@@ -118,11 +116,10 @@ Anyone can use slotless wondrous items unless specified otherwise by its descrip
 | 97 | _Noble's vigilant pillbox_ | 3,600 gp |
 | 98–99 | _Figurine of wondrous power (silver raven)_ | 3,800 gp |
 | 100 | _Volatile vaporizer (3rd)_ | 3,800 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Slotless Item</th>
-<th>Price</th>
-</tr></thead>| 01 | _Boro bead (2nd)_ | 4,000 gp |
+
+| d% | Greater Minor Slotless Item | Price |
+| --- | --- | --- |
+| 01 | _Boro bead (2nd)_ | 4,000 gp |
 | 02 | _Cautionary creance_ | 4,000 gp |
 | 03 | _Escape ladder_ | 4,000 gp |
 | 04 | _Far-reaching sight_ | 4,000 gp |
@@ -179,11 +176,10 @@ Anyone can use slotless wondrous items unless specified otherwise by its descrip
 | 96 | _Candle of clean air_ | 7,500 gp |
 | 97 | _Harp of charming_ | 7,500 gp |
 | 98–100 | _Manual of war_ | 7,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Slotless Item</th>
-<th>Price</th>
-</tr></thead>| 01 | _Chalice of poison weeping_ | 8,000 gp |
+
+| d% | Lesser Medium Slotless Item | Price |
+| --- | --- | --- |
+| 01 | _Chalice of poison weeping_ | 8,000 gp |
 | 02 | _Exorcist's aspergillum_ | 8,000 gp |
 | 03 | _Golem manual (flesh)_ | 8,000 gp |
 | 04 | _Harp of shattering_ | 8,000 gp |
@@ -259,11 +255,10 @@ Anyone can use slotless wondrous items unless specified otherwise by its descrip
 | 94–95 | _Chime of interruption_ | 16,800 gp |
 | 96–99 | _Broom of flying_ | 17,000 gp |
 | 100 | _Figurine of wondrous power (marble elephant)_ | 17,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Slotless Item</th>
-<th>Price</th>
-</tr></thead>| 01–03 | _Ioun stone (iridescent spindle)_ | 18,000 gp |
+
+| d% | Greater Medium Slotless Item | Price |
+| --- | --- | --- |
+| 01–03 | _Ioun stone (iridescent spindle)_ | 18,000 gp |
 | 04 | _Orb of foul Abaddon_ | 18,000 gp |
 | 05–08 | _Carpet of flying (5 ft. by 5 ft.)_ | 20,000 gp |
 | 09 | _Horn of antagonism_ | 20,000 gp |
@@ -294,11 +289,10 @@ Anyone can use slotless wondrous items unless specified otherwise by its descrip
 | 89–92 | _Tome of clear thought +1_ | 27,500 gp |
 | 93–96 | _Tome of leadership and influence +1_ | 27,500 gp |
 | 97–100 | _Tome of understanding +1_ | 27,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Slotless Item</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _Figurine of wondrous power (obsidian steed)_ | 28,500 gp |
+
+| d% | Lesser Major Slotless Item | Price |
+| --- | --- | --- |
+| 01–04 | _Figurine of wondrous power (obsidian steed)_ | 28,500 gp |
 | 05–07 | _Cauldron of the dead_ | 30,000 gp |
 | 08–11 | _Drums of panic_ | 30,000 gp |
 | 12–15 | _Ioun stone (orange prism)_ | 30,000 gp |
@@ -326,11 +320,10 @@ Anyone can use slotless wondrous items unless specified otherwise by its descrip
 | 92–94 | _Orb of storms_ | 48,000 gp |
 | 95–96 | _Page of spell knowledge (7th)_ | 49,000 gp |
 | 97–100 | _Pearl of Power (7th)_ | 49,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Slotless Item</th>
-<th>Price</th>
-</tr></thead>| 01–03 | _Crystal ball with see invisibility_ | 50,000 gp |
+
+| d% | Greater Major Slotless Item | Price |
+| --- | --- | --- |
+| 01–03 | _Crystal ball with see invisibility_ | 50,000 gp |
 | 04–05 | _Horn of Valhalla_ | 50,000 gp |
 | 06–08 | _Crystal ball with detect thoughts_ | 51,000 gp |
 | 09 | _Last leaves of the autumn dryad_ | 52,000 gp |
@@ -467,10 +460,9 @@ Apparatus of the Crab
 
 An _apparatus of the crab_ is a metallic magical vehicle. When unoccupied, it appears to be a large, sealed iron barrel big enough to hold two Medium creatures. Close examination, and a DC 20 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) check, reveals a secret catch that opens a hatch at one end. Anyone who crawls inside finds 10 (unlabeled) levers and seating for two Medium or Small occupants. These levers allow those inside to activate and control the apparatus's movements and actions.
 
-<thead><tr>
-<th>Lever (1d10)</th>
-<th>Lever Function</th>
-</tr></thead>| 1 | Extend/retract legs and tail |
+| Lever (1d10) | Lever Function |
+| --- | --- |
+| 1 | Extend/retract legs and tail |
 | 2 | Uncover/cover forward porthole |
 | 3 | Uncover/cover side portholes |
 | 4 | Extend/retract pincers and feelers |
@@ -533,13 +525,9 @@ Bag of Holding
 
 This appears to be a common cloth sack about 2 feet by 4 feet in size. The _bag of holding_ opens into a nondimensional space: its inside is larger than its outside dimensions. Regardless of what is put into the bag, it weighs a fixed amount. This weight, and the limits in weight and volume of the bag's contents, depend on the bag's type, as shown on the table below.
 
-<thead><tr>
-<th>Bag</th>
-<th>Bag Weight</th>
-<th>Contents Limit</th>
-<th>Contents Volume Limit</th>
-<th>Price</th>
-</tr></thead>| Type I | 15 lbs. | 250 lbs. | 30 cubic ft. | 2,500 gp |
+| Bag | Bag Weight | Contents Limit | Contents Volume Limit | Price |
+| --- | --- | --- | --- | --- |
+| Type I | 15 lbs. | 250 lbs. | 30 cubic ft. | 2,500 gp |
 | Type II | 25 lbs. | 500 lbs. | 70 cubic ft. | 5,000 gp |
 | Type III | 35 lbs. | 1,000 lbs. | 150 cubic ft. | 7,400 gp |
 | Type IV | 60 lbs. | 1,500 lbs. | 250 cubic ft. | 10,000 gp |
@@ -562,14 +550,12 @@ Bag of Tricks
 
 This small sack looks empty at first glance. Anyone reaching into the bag feels a small, fuzzy ball inside. If the ball is removed and tossed up to 20 feet away, it turns into an animal. The animal serves the character who drew it from the bag for 10 minutes (or until slain or ordered back into the bag), at which point it disappears. It can follow any of the commands described in the [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) skill. Each of the three kinds of bags of tricks produces a different set of animals. Use the following tables to determine what animals can be drawn out of each.
 
-<thead><tr>
-<th colspan="2">Gray Bag<br><span style="float: left;">d%</span> <span class="float: right;">Animal</span>
-</th>
-<th colspan="2">Rust Bag<br><span style="float: left;">d%</span> <span class="float: right;">Animal</span>
-</th>
-<th colspan="2">Tan Bag<br><span style="float: left;">d%</span> <span class="float: right;">Animal</span>
-</th>
-</tr></thead>| 01–30 | Bat | 01–30 | Wolverine | 01–30 | Grizzly bear |
+| Gray Bag  
+d% Animal | Rust Bag  
+d% Animal | Tan Bag  
+d% Animal |
+| --- | --- | --- |
+| 01–30 | Bat | 01–30 | Wolverine | 01–30 | Grizzly bear |
 | 31–60 | Rat | 31–60 | Wolf | 31–60 | Lion |
 | 61–75 | Cat | 61–85 | Boar | 61–80 | Heavy horse |
 | 76–90 | Weasel | 86–100 | Leopard | 81–90 | Tiger |
@@ -941,13 +927,9 @@ Carpet of Flying
 
 This rug is able to fly through the air as if affected by an _ [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)_ spell of unlimited duration. The size, carrying capacity, and speed of the different _carpets of flying_ are shown on the table below. Beautifully and intricately made, each carpet has its own command word to activate it—if the device is within voice range, the command word activates it, whether the speaker is on the rug or not. The carpet is then controlled by spoken directions.
 
-<thead><tr>
-<th>Size</th>
-<th>Capacity</th>
-<th>Speed</th>
-<th>Weight</th>
-<th>Price</th>
-</tr></thead>| 5-ft.-by-5-ft. | 200 lbs. | 40 ft. | 8 lbs. | 20,000 gp |
+| Size | Capacity | Speed | Weight | Price |
+| --- | --- | --- | --- | --- |
+| 5-ft.-by-5-ft. | 200 lbs. | 40 ft. | 8 lbs. | 20,000 gp |
 | 5-ft.-by-10-ft. | 400 lbs. | 40 ft. | 10 lbs. | 35,000 gp |
 | 10-ft.-by-10-ft. | 800 lbs. | 40 ft. | 15 lbs. | 60,000 gp |
 
@@ -1184,15 +1166,13 @@ This is the most common form of scrying device, a crystal sphere about 6 inches 
 
 Certain crystal balls have additional powers that can be used through the crystal ball on the target viewed.
 
-<thead><tr>
-<th>Crystal Ball Type</th>
-<th>Price</th>
-</tr></thead>| _Crystal ball_ | 42,000 gp |
+| Crystal Ball Type | Price |
+| --- | --- |
+| _Crystal ball_ | 42,000 gp |
 | _Crystal ball _with_ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_ | 50,000 gp |
 | _Crystal ball _with _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts) (Will DC 13 negates)_ | 51,000 gp |
 | _Crystal ball_ with _telepathy_\* | 70,000 gp |
 | _Crystal ball_ with _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_ | 80,000 gp |
-<tfoot><tr><td colspan="2">* The viewer is able to send and receive silent mental messages with the person appearing in the <i>crystal ball</i>. Once per day, the character may attempt to implant a <i><a href="/pathfinderRPG/prd/spells/suggestion.html#_suggestion">suggestion</a></i> (as the spell, Will DC 14 negates) as well.</td></tr></tfoot>
 
 Construction Requirements
 
@@ -1208,12 +1188,7 @@ This device is just under an inch across and can be made of ivory, bone, or any 
 
 When the _cube of force _is active, attacks dealing more than 30 points of damage to a wall drain 1 charge for every 10 points of damage beyond 30 that they deal. The charge cost to maintain each of the cube's six walls is summarized below.
 
-<thead>
-<th>Cube Face</th>
-<th>Charge Cost per Minute</th>
-<th>Max. Speed</th>
-<th>Effect</th>
-</thead>| 1 | 1 | 30 ft. | Keeps out gases, wind, etc. |
+ Cube Face | Charge Cost per Minute | Max. Speed | Effect || 1 | 1 | 30 ft. | Keeps out gases, wind, etc. |
 | 2 | 2 | 20 ft. | Keeps out nonliving matter |
 | 3 | 3 | 15 ft. | Keeps out living matter |
 | 4 | 4 | 10 ft. | Keeps out magic |
@@ -1222,10 +1197,9 @@ When the _cube of force _is active, attacks dealing more than 30 points of damag
 
 Spells that affect the integrity of the screen also drain extra charges. These spells cannot be cast into or out of the cube.
 
-<thead><tr>
-<th>Attack Form</th>
-<th>Extra Charges</th>
-</tr></thead>| _ [Disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate)_ | 6 |
+| Attack Form | Extra Charges |
+| --- | --- |
+| _ [Disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate)_ | 6 |
 | _Horn of blasting_ | 6 |
 | _ [Passwall](/pathfinderRPG/prd/spells/passwall.html#_passwall)_ | 3 |
 | _ [Phase door](/pathfinderRPG/prd/spells/phaseDoor.html#_phase-door)_ | 5 |
@@ -1302,11 +1276,7 @@ Deck of Illusions
 
 This set of parchment cards is usually found in an ivory, leather, or wooden box. A full deck consists of 34 cards. When a card is drawn at random and thrown to the ground, a _ [major image](/pathfinderRPG/prd/spells/majorImage.html#_major-image)_ of a creature is formed. The figment lasts until dispelled. The illusory creature cannot move more than 30 feet away from where the card landed, but otherwise moves and acts as if it were real. At all times it obeys the desires of the character who drew the card. When the illusion is dispelled, the card becomes blank and cannot be used again. If the card is picked up, the illusion is automatically and instantly dispelled. The cards in a deck and the illusions they bring forth are summarized on the following table. (Use one of the first two columns to simulate the contents of a full deck using either ordinary playing cards or tarot cards.)
 
-<thead>
-<th>Playing Card</th>
-<th>Tarot Card</th>
-<th>Creature</th>
-</thead>| Ace of hearts | IV. The Emperor | Red dragon |
+ Playing Card | Tarot Card | Creature || Ace of hearts | IV. The Emperor | Red dragon |
 | King of hearts | Knight of swords | Male human fighter and four guards |
 | Queen of hearts | Queen of staves | Female human wizard |
 | Jack of hearts | King of staves | Male human druid |
@@ -2240,12 +2210,9 @@ This magic instrument comes in four varieties. Each appears to be a normal, scar
 
 Summoned barbarians are constructs, not actual people (though they seem to be); they arrive with the starting equipment for barbarians. They attack anyone the possessor of the horn commands them to fight until they or their opponents are slain or until 1 hour has elapsed, whichever comes first.
 
-<thead><tr>
-<th>d%</th>
-<th>Type of Horn</th>
-<th>Barbarians Summoned</th>
-<th>Prerequisite</th>
-</tr></thead>| 01–40 | Silver | 2d4+2, 2nd-level | None |
+| d% | Type of Horn | Barbarians Summoned | Prerequisite |
+| --- | --- | --- | --- |
+| 01–40 | Silver | 2d4+2, 2nd-level | None |
 | 41–75 | Brass | 2d4+1, 3rd-level | Spellcaster level 1st |
 | 76–90 | Bronze | 2d4, 4th-level | Proficiency with all martial weapons or bardic performance ability |
 | 91–100 | Iron | 1d4+1, 5th-level | Proficiency with all martial weapons or bardic performance ability |
@@ -2388,12 +2355,9 @@ These crystalline stones always float in the air and must be within 3 feet of th
 
 Regeneration from the _pearly white ioun stone_ works like a _ [ring of regeneration](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-regeneration)_. It only cures damage taken while the character is using the stone. The pale lavender and lavender-and-green stones work like a _ [rod of absorption](/pathfinderRPG/prd/magicItems/rods.html#_rod-of-absorption)_, but absorbing a spell requires a readied action, and these stones cannot be used to empower spells. Stored spells in the vibrant purple stone must be placed by a spellcaster but can be used by anyone (see_ ring of minor [spell storing](/pathfinderRPG/prd/magicItems/weapons.html#_spell-storing)_). See table on next page.
 
-<thead><tr>
-<th>Color</th>
-<th>Shape</th>
-<th>Effect</th>
-<th>Price</th>
-</tr></thead>| Clear | Spindle | Sustains creature without food or water | 4,000 gp |
+| Color | Shape | Effect | Price |
+| --- | --- | --- | --- |
+| Clear | Spindle | Sustains creature without food or water | 4,000 gp |
 | Dusty rose | Prism | +1 insight bonus to AC | 5,000 gp |
 | Deep red | Sphere | +2 enhancement bonus to Dexterity | 8,000 gp |
 | Incandescent blue | Sphere | +2 enhancement bonus to Wisdom | 8,000 gp |
@@ -2403,15 +2367,12 @@ Regeneration from the _pearly white ioun stone_ works like a _ [ring of regenera
 | Scarlet and blue | Sphere | +2 enhancement bonus to Intelligence | 8,000 gp |
 | Dark blue | Rhomboid | [Alertness](/pathfinderRPG/prd/feats.html#_alertness) (as the feat) | 10,000 gp |
 | Iridescent | Spindle | Sustains creature without air | 18,000 gp |
-| Pale lavender | Ellipsoid | Absorbs spells of 4th level or lower<sup>1</sup> | 20,000 gp |
+| Pale lavender | Ellipsoid | Absorbs spells of 4th level or lowerⁱ | 20,000 gp |
 | Pearly white | Spindle | Regenerate 1 point of damage per 10 minutes | 20,000 gp |
 | Orange | Prism | +1 caster level | 30,000 gp |
 | Pale green | Prism | +1 competence bonus on attack rolls, saves, skill checks, and ability checks | 30,000 gp |
 | Vibrant purple | Prism | Stores three levels of spells, as a ring of spell storing | 36,000 gp |
-| Lavender and green | Ellipsoid | Absorbs spells of 8th level or lower<sup>2</sup> | 40,000 gp |
-<tfoot><tr><td colspan="4">
-<sup>1</sup> After absorbing 20 spell levels, the stone burns out and turns to dull gray, forever useless.<br>
-<sup>2</sup> After absorbing 50 spell levels, the stone burns out and turns dull gray, forever useless.</td></tr></tfoot>
+| Lavender and green | Ellipsoid | Absorbs spells of 8th level or lower⁲ | 40,000 gp |
 
 Construction Requirements
 
@@ -2455,12 +2416,9 @@ The command word can be used only once per day.
 
 If the individual freeing the captured creature speaks the command word, the creature can be forced to serve for 1 hour. If freed without the command word, the creature acts according to its natural inclinations. (It usually attacks the user, unless it perceives a good reason not to.) Any attempt to force the same creature into the flask a second time provides it a +2 bonus on its saving throw and makes it hostile. A purchased bottle is empty, but a newly discovered bottle might contain any of the following:
 
-<thead><tr>
-<th>d%</th>
-<th>Contents</th>
-<th>d%</th>
-<th>Contents</th>
-</tr></thead>| 01–50 | Empty | 89 | Demon (glabrezu) |
+| d% | Contents | d% | Contents |
+| --- | --- | --- | --- |
+| 01–50 | Empty | 89 | Demon (glabrezu) |
 | 51–54 | Large air elemental | 90 | Demon (succubus) |
 | 55–58 | Invisible stalker | 91 | Devil (osyluth) |
 | 59–62 | Large earth elemental | 92 | Devil (barbazu) |
@@ -3393,10 +3351,9 @@ Scabbard of Vigor
 
 Once per day, as part of the action of drawing forth the weapon held by a _scabbard of vigor_, the wearer can order it to endow the weapon with an enhancement bonus on attack and damage rolls. The duration of the effect depends on the desired enhancement bonus for the weapon.
 
-<thead><tr>
-<th>Bonus</th>
-<th>Duration</th>
-</tr></thead>| +4 | 1 round |
+| Bonus | Duration |
+| --- | --- |
+| +4 | 1 round |
 | +3 | 3 rounds |
 | +2 | 5 rounds |
 | +1 | 10 rounds |
@@ -3655,10 +3612,9 @@ Strand of Prayer Beads
 
 This item appears to be nothing more than a string of prayer beads until the owner casts a divine spell while the beads are carried. Once that occurs, the owner instantly knows the powers of the prayer beads and understands how to activate the strand's special magical beads. Each strand includes two or more special beads, each with a different magic power selected from the following list.
 
-<thead><tr>
-<th>Special Bead Type</th>
-<th>Special Bead Ability</th>
-</tr></thead>| Bead of blessing (CL 1st) | Wearer can cast _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_. |
+| Special Bead Type | Special Bead Ability |
+| --- | --- |
+| Bead of blessing (CL 1st) | Wearer can cast _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_. |
 | Bead of healing (CL 5th) | Wearer can cast his choice of _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _remove [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_, or _remove disease_. |
 | Bead of karma (CL 9th) | Wearer casts his spells at +4 caster level. Effect lasts 10 minutes. |
 | Bead of smiting (CL 7th) | Wearer can cast _ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_, _ [holy smite](/pathfinderRPG/prd/spells/holySmite.html#_holy-smite)_, _ [order's wrath](/pathfinderRPG/prd/spells/orderSWrath.html#_order-s-wrath)_, or _ [unholy blight](/pathfinderRPG/prd/spells/unholyBlight.html#_unholy-blight)_ (Will DC 17 partial). |

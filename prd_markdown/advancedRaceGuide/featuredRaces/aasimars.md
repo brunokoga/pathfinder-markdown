@@ -146,12 +146,10 @@ Aasimars have access to the following equipment.
 
 **Incense** : This aromatic resin, imbued with fragrant oils, is often formed into sticks, cones, or balls and burned in ceremonies or during meditation. A piece of incense burns for 1 hour.
 
-<caption>Aasimar Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Ambrosia (vial) | 100 gp | 1 lb. | 25 |
+[Aasimar Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Ambrosia (vial) | 100 gp | 1 lb. | 25 |
 | Anointing oil | 25 gp | 1 lb. | 20 |
 | Celestial censer | 50 gp | 3 lbs. | — |
 | Celestial lamp | 300 gp | 2 lbs. | 25 |
@@ -228,10 +226,9 @@ Your heavenly light can be used in a variety of ways.
   
   
 
-<thead><tr>
-<th>Spell-Like Ability</th>
-<th>Minimum Character Level</th>
-</tr></thead>| _ [Flare burst](/pathfinderRPG/prd/advanced/spells/flareBurst.html#_flare-burst)_ | 1st |
+| Spell-Like Ability | Minimum Character Level |
+| --- | --- |
+| _ [Flare burst](/pathfinderRPG/prd/advanced/spells/flareBurst.html#_flare-burst)_ | 1st |
 | _ [Wake of light](/pathfinderRPG/prd/advanced/spells/wakeOfLight.html#_wake-of-light-)_ | 3rd |
 | _ [Searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_ | 5th |
 | _ [Wandering star motes](/pathfinderRPG/prd/advanced/spells/wanderingStarMotes.html#_wandering-star-motes)_ | 7th |

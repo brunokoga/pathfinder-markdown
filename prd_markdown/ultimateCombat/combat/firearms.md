@@ -89,21 +89,10 @@ Firearms are further divided into one-handed, two-handed, and siege firearms. As
 
 Early firearms are typically matchlock, wheellock, or flintlock weapons, and require more finesse and care to use than advanced firearms. Early firearms are muzzle-loaded, requiring a bullet and powder (or other special alchemical substances) to be shoved down the barrel before the weapon is fired. Early firearm ammunition can be loaded from a cartridge, but that cartridge is made of soft material (like paper or cloth) that is torn open so that the contents may be shoved down the barrel.
 
-<caption>Table: Early Firearms</caption><thead><tr>
-<th>Firearm</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Misfire</th>
-<th>Capacity</th>
-<th>Weight<sup>1</sup>
-</th>
-<th>Type<sup>2</sup>
-</th>
-<th>Special</th>
-</tr></thead>| _One-Handed Firearms_ |
+[Table: Early Firearms]
+| Firearm | Cost | Dmg (S) | Dmg (M) | Critical | Range | Misfire | Capacity | Weightⁱ | Type⁲ | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _One-Handed Firearms_ |
 | Buckler gun | 750 gp | 1d4 | 1d6 | ×4 | 10 ft. | 1 (5 ft.) | 2 | 6 lbs. | B and P | — |
 | Pepperbox | 3,000 gp | 1d6 | 1d8 | ×4 | 20 ft. | 1–2 (5 ft.) | 6 | 5 lbs. | B and P | — |
 | Pistol | 1,000 gp | 1d6 | 1d8 | ×4 | 20 ft. | 1 (5 ft.) | 1 | 4 lbs. | B and P | — |
@@ -121,8 +110,6 @@ Early firearms are typically matchlock, wheellock, or flintlock weapons, and req
 | Musket, axe | 1,600 gp | 1d6 | 1d8 | ×4 | 30 ft. | 1–2 (5 ft.) | 1 | 6 lbs. | B and P | — |
 | Musket, double-barreled | 2,500 gp | 1d10 | 1d12 | ×4 | 40 ft. | 1–3 (5 ft.) | 2 | 11 lbs. | B and P | — |
 | Musket, warhammer | 1,600 gp | 1d6 | 1d8 | ×4 | 30 ft. | 1–2 (5 ft.) | 1 | 6 lbs. | B and P | — |
-<tfoot><tr><td colspan="11">
-<sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weights twice as much.<br><sup>2</sup> A weapon with two types is either type (wielder's choice) if the entry specifies âor.â </td></tr></tfoot>
 
 **Blunderbuss** : This weapon fires pellets or a bullet from its trumpet-shaped barrel, making it an effective fowling weapon or close-fighting personal defense weapon. The blunderbuss fires in a 15-foot cone when firing pellets, and has a 10-foot range increment when firing a bullet. A blunderbuss uses a bullet or pellets and a single dose of black powder or a single alchemical cartridge as ammunition.
 
@@ -160,30 +147,16 @@ Early firearms are typically matchlock, wheellock, or flintlock weapons, and req
 
 Advanced firearms are more reliable and accurate than early firearms. The ammunition of an advanced firearm takes the form of metal (usually brass) cartridges that are loaded into a chamber rather than shoved down the muzzle.
 
-<caption>Table: Advanced Firearms</caption><thead><tr>
-<th>Firearm</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Misfire</th>
-<th>Capacity</th>
-<th>Weight<sup>1</sup>
-</th>
-<th>Type<sup>2</sup>
-</th>
-<th>Special</th>
-</tr></thead>| _One-Handed Firearms_ |
+[Table: Advanced Firearms]
+| Firearm | Cost | Dmg (S) | Dmg (M) | Critical | Range | Misfire | Capacity | Weightⁱ | Type⁲ | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _One-Handed Firearms_ |
 | Revolver | 4,000 gp | 1d6 | 1d8 | ×4 | 20 ft. | 1 | 6 | 4 lbs. | B and P | — |
 | _Two-Handed Firearms_ |
 | Rifle | 5,000 gp | 1d8 | 1d10 | ×4 | 80 ft. | 1 | 1 | 12 lbs. | B and P | — |
 | Rifle, pepperbox | 7,000 gp | 1d8 | 1d10 | ×4 | 80 ft. | 1–2 | 4 | 15 lbs. | B and P | — |
 | Shotgun | 5,000 gp | 1d6 | 1d8 | ×2 | 20 ft. | 1–2 | 1 | 12 lbs. | B and P | scatter |
 | Shotgun, double-barreled | 7,000 gp | 1d6 | 1d8 | ×2 | 20 ft. | 1–2 | 2 | 15 lbs. | B and P | scatter |
-<tfoot><tr><td colspan="11">
-<sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br>
-<sup>2</sup> A weapon with two types is both types if the entry specifies âand.â</td></tr></tfoot>
 
 **Revolver** : A revolver is a pistol with a revolving cylinder containing six chambers. Each chamber can hold a metal cartridge, and when one cartridge is shot, the cylinder automatically rotates (no extra hand or action required), readying the next chamber for firing. A revolver uses metal cartridges as ammunition.
 
@@ -199,103 +172,27 @@ Advanced firearms are more reliable and accurate than early firearms. The ammuni
 
 Those who wield guns have a number of options when it comes to loading their weapons, and often need gunsmith's kits to provide proper care and upkeep for their firearms.
 
-<caption>Table: Firearm Gear</caption><thead>
-<tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr>
-<thead>
-<tr class="odd">
-<td>Alchemical cartridge, dragon's breath</td>
-<td>40 gp</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Alchemical cartridge, entangling shot</td>
-<td>40 gp</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Alchemical cartridge, flare</td>
-<td>10 gp</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Alchemical cartridge, paper (bullet or pellet)</td>
-<td>12 gp</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Alchemical cartridge, salt shot</td>
-<td>12 gp</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Black powder (dose)</td>
-<td>10 gp</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Black powder (keg)</td>
-<td>1,000 gp</td>
-<td>5 lbs.</td>
-</tr>
-<tr class="even">
-<td>Firearm bullet (1)</td>
-<td>1 gp</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Firearm bullet (30)</td>
-<td>30 gp</td>
-<td>1/2 lb. </td>
-</tr>
-<tr class="even">
-<td>Bullet, adamantine</td>
-<td>61 gp</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Firearm bullet, pitted</td>
-<td>5 gp<sup>1</sup>
-</td>
-<td>— </td>
-</tr>
-<tr class="even">
-<td>Firearm bullet, silver</td>
-<td>25 gp</td>
-<td>— </td>
-</tr>
-<tr class="odd">
-<td>Gunsmith's kit</td>
-<td>15 gp</td>
-<td>2 lb. </td>
-</tr>
-<tr class="even">
-<td>Metal cartridge</td>
-<td>15 gp</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Pellets (handful)</td>
-<td>1 gp</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Pellets (30 handfuls)</td>
-<td>30 gp</td>
-<td>1/2 lb.</td>
-</tr>
-<tr class="odd">
-<td>Powder horn</td>
-<td>3 gp</td>
-<td>1 lb.</td>
-</tr>
-</thead>
-</thead>
-<tfoot><tr><td colspan="3">
-<sup>1</sup> Does not include the cost of poison compound.</td></tr></tfoot>
+[Table: Firearm Gear]
+| Item | Cost | Weight |
+| --- | --- | --- |
+
+| Alchemical cartridge, dragon's breath | 40 gp | — |
+| Alchemical cartridge, entangling shot | 40 gp | — |
+| Alchemical cartridge, flare | 10 gp | — |
+| Alchemical cartridge, paper (bullet or pellet) | 12 gp | — |
+| Alchemical cartridge, salt shot | 12 gp | — |
+| Black powder (dose) | 10 gp | — |
+| Black powder (keg) | 1,000 gp | 5 lbs. |
+| Firearm bullet (1) | 1 gp | — |
+| Firearm bullet (30) | 30 gp | 1/2 lb. |
+| Bullet, adamantine | 61 gp | — |
+| Firearm bullet, pitted | 5 gpⁱ | — |
+| Firearm bullet, silver | 25 gp | — |
+| Gunsmith's kit | 15 gp | 2 lb. |
+| Metal cartridge | 15 gp | — |
+| Pellets (handful) | 1 gp | — |
+| Pellets (30 handfuls) | 30 gp | 1/2 lb. |
+| Powder horn | 3 gp | 1 lb. |
 
 **Alchemical Cartridges** : An alchemical cartridge is a prepared bundle of black powder with a bullet or pellets, sometimes with more exotic material added, which is then wrapped in paper or cloth and sealed with beeswax, lard, or tallow. There are many types of alchemical cartridges, the simplest being the paper cartridge—a simple mix of black powder and either pellets or a bullet. Alchemical cartridges make loading a firearm easier, reducing the time to load a firearm by one step (a full-round action becomes a standard action, a standard action becomes a move action, and a move action becomes a free action), but they tend to be unstable. The misfire value of a weapon firing an alchemical cartridge increases as listed in each entry.
 

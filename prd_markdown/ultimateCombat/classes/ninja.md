@@ -12,11 +12,10 @@ When the wealthy and the powerful need an enemy eliminated quietly and without f
 
 The following table lists the starting gold piece value for the new classes presented in this book. In addition, each character begins play with an outfit worth 10 gp or less.
 
-<caption>Table: Starting Wealth</caption><thead><tr>
-<th>Class</th>
-<th>Starting Wealth</th>
-<th>Average</th>
-</tr></thead>| Ninja | 4d6 × 10 gp | 140 gp |
+[Table: Starting Wealth]
+| Class | Starting Wealth | Average |
+| --- | --- | --- |
+| Ninja | 4d6 × 10 gp | 140 gp |
 
 ## Class Skills
 
@@ -26,14 +25,10 @@ The ninja's class skills are [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.h
 
 ## Class Features
 
-<caption>Table: Ninja</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-</tr></thead>| 1st | +0 | +0 | +2 | +0 | Poison use, sneak attack +1d6 |
+[Table: Ninja]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +2 | +0 | Poison use, sneak attack +1d6 |
 | 2nd | +1 | +0 | +3 | +0 | _Ki _pool, ninja trick |
 | 3rd | +2 | +1 | +3 | +1 | No trace +1, sneak attack +2d6 |
 | 4th | +3 | +1 | +4 | +1 | ninja trick, uncanny dodge |

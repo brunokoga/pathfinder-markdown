@@ -38,7 +38,7 @@ Statistics
 
 **Base Atk** +6; **CMB** +13; **CMD** 25 (29 vs. trip)
 
-**Feats** [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (spikes)<sup>M</sup>
+**Feats** [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (spikes)M
 
 **Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) –3, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +4 (+8 when tracking); **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +4 [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) when tracking
 

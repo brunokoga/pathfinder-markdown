@@ -24,11 +24,10 @@ Thus, from the dozens of NPCs presented, the true number of characters and encou
 
 [NPC Boons](nPCBoons.html) presents an optional system for boons—minor in-game bonuses and benefits specific NPCs can grant to PCs who befriend them. This system of favors and benefits encourages PCs to invest greater interest in working with NPCs and creates a way to reward characters with something other than experience and treasure. At the end of the statistics for each of the following NPCs is a suggestion for a minor benefit that is appropriate to the NPC and that works within this system. GMs who wish to employ these favors or create their own boons might use those presented here as guides for new benefits. At the same time, GMs should not feel that every one of the following NPCs has to offer exactly these boons, or any boon at all. Those interested in designing their own boons or customizing them to their game should feel free to modify these effects however they feel best suits their needs.
 
-<caption>Table: Pregenerated NPC Statistics</caption><thead><tr>
-<th>Archetype</th>
-<th>Class</th>
-<th>CR</th>
-</tr></thead><tbody>
+[Table: Pregenerated NPC Statistics]
+| Archetype | Class | CR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td><a href="nPCGallery/military.html#_foot-soldier">Foot Soldier</a></td>
 <td>Warrior 1</td>

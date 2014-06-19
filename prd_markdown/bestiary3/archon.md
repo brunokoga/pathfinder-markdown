@@ -128,7 +128,7 @@ Statistics
 
 **Base Atk** +8; **CMB** +11; **CMD** 22
 
-**Feats** [Improved Bull Rush](/pathfinderRPG/prd/feats.html#_improved-bull-rush), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (greatsword)<sup>B</sup>, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (greatsword), [Whirlwind](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_whirlwind) Attack<sup>B</sup>
+**Feats** [Improved Bull Rush](/pathfinderRPG/prd/feats.html#_improved-bull-rush), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (greatsword)B, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (greatsword), [Whirlwind](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_whirlwind) AttackB
 
 **Skills** [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +14, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +12, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +14, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) +11, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +13, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +9, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +9
 

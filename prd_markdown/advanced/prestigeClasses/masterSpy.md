@@ -24,14 +24,10 @@ The master spy's class skills are [Bluff](../../skills/bluff.html#_bluff) (Cha),
 
 **Skill Ranks per Level** : 6 + Int modifier.
 
-<caption>Table: Master Spy</caption><thead><tr id="level-bonus-save-save-save-special-">
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-</tr></thead>| 1st | +0 | +0 | +1 | +1 | Art of deception, master of disguise, sneak attack +1d6 |
+[Table: Master Spy]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +1 | +1 | Art of deception, master of disguise, sneak attack +1d6 |
 | 2nd | +1 | +1 | +1 | +1 | Glib lie, mask alignment |
 | 3rd | +2 | +1 | +2 | +2 | Nonmagical aura 2/day, superficial knowledge |
 | 4th | +3 | +1 | +2 | +2 | Concealed thoughts, quick change, sneak attack +2d6 |

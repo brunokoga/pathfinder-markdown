@@ -144,7 +144,7 @@ Statistics
 
 **Base Atk** +3; **CMB** +9; **CMD** 21 (25 vs. trip)
 
-**Feats** [Endurance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_endurance), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes), [Run](/pathfinderRPG/prd/additionalMonsters/../feats.html#_run)<sup>B</sup>
+**Feats** [Endurance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_endurance), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes), [Run](/pathfinderRPG/prd/additionalMonsters/../feats.html#_run)B
 
 **Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +9
 

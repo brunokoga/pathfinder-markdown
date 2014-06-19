@@ -1,11 +1,10 @@
 # Settlements in Play
 
-<caption>Settlement Population Ranges</caption>
-| A settlement's population is left to the GM to assign, but you can use a settlement's type to help you determine just how many folks live in the city. Since the actual number of people who dwell in a settlement has no impact on game play, the number you choose is largely cosmetic—feel free to adjust the suggested values below to fit your campaign. |
-<thead><tr id="settlement-type-population-range" class="odd">
-<th>Settlement Type</th>
-<th>Population Range</th>
-</tr></thead>| Thorp | Fewer than 20 |
+[Settlement Population Ranges]| A settlement's population is left to the GM to assign, but you can use a settlement's type to help you determine just how many folks live in the city. Since the actual number of people who dwell in a settlement has no impact on game play, the number you choose is largely cosmetic—feel free to adjust the suggested values below to fit your campaign. |
+
+| Settlement Type | Population Range |
+| --- | --- |
+| Thorp | Fewer than 20 |
 | Hamlet | 21–60 |
 | Village | 61–200 |
 | Small town | 201–2,000 |
@@ -48,15 +47,10 @@ A settlement stat block is organized as follows.
 
 **Minor Items/Medium Items/Major Items** : This line lists the number of magic items above a settlement's base value that are available for purchase. In some city stat blocks, the actual items are listed in parentheses after the die range of items available—in this case, you can use these pre-rolled resources when the PCs first visit the city as the magic items available for sale on that visit. If the PCs return to that city at a later date, you can roll up new items as you see fit.
 
-<caption>Table: Settlement Statistics</caption><thead><tr>
-<th>Type</th>
-<th>Modifiers</th>
-<th>Qualities</th>
-<th>Danger</th>
-<th>Base Limit</th>
-<th>Purchase Limit</th>
-<th>Spellcasting</th>
-</tr></thead><tbody>
+[Table: Settlement Statistics]
+| Type | Modifiers | Qualities | Danger | Base Limit | Purchase Limit | Spellcasting |
+| --- | --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Thorp</td>
 <td>–4</td>
@@ -131,13 +125,10 @@ A settlement stat block is organized as follows.
 </tr>
 </tbody>
 
-<caption>Table: Available Magic Items</caption><thead><tr>
-<th>Community Size</th>
-<th>Base Value</th>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-</tr></thead><tbody>
+[Table: Available Magic Items]
+| Community Size | Base Value | Minor | Medium | Major |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Thorp</td>
 <td>50 gp</td>
@@ -194,9 +185,7 @@ A settlement stat block is organized as follows.
 <td>4d4 items</td>
 <td>3d4 items</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="5">* In a metropolis, nearly all minor magic items are available.</td></tr>
-</tfoot>
+</tbody>
 
 ## Settlement Modifiers
 
@@ -208,8 +197,7 @@ Life in a settlement is represented by six modifiers, each of which adjusts the 
 
 **Economy** : A settlement's economy modifier indicates the health of its trade and the wealth of its successful citizens. A low economy modifier doesn't automatically mean the town is beset with poverty—it could merely indicate a town with little trade or one that is relatively self-sufficient. Towns with high economy modifiers always have large markets and many shops. A settlement's economy helps its citizens make money, and thus it applies as a modifier on all [Craft](../skills/craft.html#_craft), [Perform](../skills/perform.html#_perform), and [Profession](../skills/profession.html#_profession) checks made to generate income.
 
-<caption>Guards! Guards!</caption>
-| It's inevitable—sooner or later, the PCs will want to call upon the town guard or cause a situation where citizens do so instead. Calling for the guard requires a [Diplomacy](../skills/diplomacy.html#_diplomacy) check modified by the settlement's law modifier. It's only a DC 5 check to call for the guard—with a success, the guards generally arrive on the scene in 1d6 minutes. Every 5 points by which the [Diplomacy](../skills/diplomacy.html#_diplomacy) check exceeds DC 5 (rounding down) reduces the arrival time by 1 minute—if this reduces their arrival time below 1 minute, the increments of reduction instead change to 1 round. For example, the party wizard is being mugged and calls for the guard. The result of his [Diplomacy](../skills/diplomacy.html#_diplomacy) check is a 23, and the GM rolls a 2 on 1d6 to determine how long it'll be before the guards arrive. Since the wizard rolled three thimes the amount he needed, the 2-minute wait time is reduced to 8 rounds. |
+[Guards! Guards!]| It's inevitable—sooner or later, the PCs will want to call upon the town guard or cause a situation where citizens do so instead. Calling for the guard requires a [Diplomacy](../skills/diplomacy.html#_diplomacy) check modified by the settlement's law modifier. It's only a DC 5 check to call for the guard—with a success, the guards generally arrive on the scene in 1d6 minutes. Every 5 points by which the [Diplomacy](../skills/diplomacy.html#_diplomacy) check exceeds DC 5 (rounding down) reduces the arrival time by 1 minute—if this reduces their arrival time below 1 minute, the increments of reduction instead change to 1 round. For example, the party wizard is being mugged and calls for the guard. The result of his [Diplomacy](../skills/diplomacy.html#_diplomacy) check is a 23, and the GM rolls a 2 on 1d6 to determine how long it'll be before the guards arrive. Since the wizard rolled three thimes the amount he needed, the 2-minute wait time is reduced to 8 rounds. |
 
 **Law** : Law measures how strict a settlement's laws and edicts are. A settlement with a low law modifier isn't necessarily crime-ridden—in fact, a low law modifier usually indicates that the town simply has little need for protection since crime is so rare. A high law modifier means the settlement's guards are particularly alert, vigilant, and well-organized. The more lawful a town is, the more timidly its citizens tend to respond to shows of force. A settlement's law modifier applies on [Intimidate](../skills/intimidate.html#_intimidate) checks made to force an opponent to act friendly, [Diplomacy](../skills/diplomacy.html#_diplomacy) checks against government officials, or [Diplomacy](../skills/diplomacy.html#_diplomacy) checks made to call on the city guard (see sidebar).
 

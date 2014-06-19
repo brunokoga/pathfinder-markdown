@@ -14,29 +14,12 @@ The witch's class skills are [Craft](../../skills/craft.html#_craft) (Int), [Fly
 
 **Skill Ranks per Level** : 2 + Int modifier.
 
-<caption>Table: Witch</caption><thead>
-<tr id="level-bonus-save-save-save-special-0-1st-2nd-3rd-4th-5th-6th-7th-8th-9th">
-<th rowspan="2">Level</th>
-<th rowspan="2">Base Attack Bonus</th>
-<th rowspan="2">Fort Save</th>
-<th rowspan="2">Ref Save</th>
-<th rowspan="2">Will Save</th>
-<th rowspan="2">Special</th>
-<th colspan="10">Spells per Day</th>
-</tr>
-<tr>
-<th>0</th>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-<th>7th</th>
-<th>8th</th>
-<th>9th</th>
-</tr>
-</thead>| 1st | +0 | +0 | +0 | +2 | Cantrips, hex, witch's familiar | 3 | 1 | — | — | — | — | — | — | — | — |
+[Table: Witch]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0 | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +0 | +2 | Cantrips, hex, witch's familiar | 3 | 1 | — | — | — | — | — | — | — | — |
 | 2nd | +1 | +0 | +0 | +3 | Hex | 4 | 2 | — | — | — | — | — | — | — | — |
 | 3rd | +1 | +1 | +1 | +3 | | 4 | 2 | 1 | — | — | — | — | — | — | — |
 | 4th | +2 | +1 | +1 | +4 | Hex | 4 | 3 | 2 | — | — | — | — | — | — | — |
@@ -141,7 +124,10 @@ _Natural Disaster (Su)_: A witch using this hex calls down the forces of nature 
 
 # Witch's Familiar
 
-<caption>Adding Spells to a Witch's Familiar</caption><thead><tr><th>Witches can add new spells to their familiars through several methods. A witch can only add spells to her familiar if those spells belong to the witch's spell list.</th></tr></thead>| **Spells Gained at a New Level** : A witch's familiar learns a certain amount of lore and magic as the witch adventures. Whenever a witch gains a level, she may add two spells from the witch spell list to her familiar. The two free spells must be of spell levels she can cast. |
+[Adding Spells to a Witch's Familiar]
+| Witches can add new spells to their familiars through several methods. A witch can only add spells to her familiar if those spells belong to the witch's spell list. |
+| --- |
+| **Spells Gained at a New Level** : A witch's familiar learns a certain amount of lore and magic as the witch adventures. Whenever a witch gains a level, she may add two spells from the witch spell list to her familiar. The two free spells must be of spell levels she can cast. |
 | **Familiar Teaching Familiar** : A witch's familiar can learn spells from another witch's familiar. To accomplish this, the familiars must spend one hour per level of the spell being taught in communion with one another. At the end of this time, the witch whose familiar is learning a spell must make a [Spellcraft](../../skills/spellcraft.html#_spellcraft) check (DC 15 + spell level). If the check succeeds, the familiar has learned the spell and the witch may utilize it the next time she prepares spells. If the check fails, the familiar has failed to learn the spell and cannot try to learn that spell again until the witch has gained another rank in [Spellcraft](../../skills/spellcraft.html#_spellcraft). Most witches require a spell of equal or greater level in return for this service. If a familiar belongs to a witch that has died, it only retains its knowledge of spells for 24 hours, during which time it is possible to coerce or bribe the familiar into teaching its spells to another, subject to GM discretion. |
 | **Learn from a Scroll** : A witch can use a scroll to teach her familiar a new spell. This process takes 1 hour per level of the spell to be learned, during which time the scroll is burned and its ashes used to create a special brew or powder that is consumed by the familiar. This process destroys the scroll. At the end of this time, the witch must make a [Spellcraft](../../skills/spellcraft.html#_spellcraft) check (DC 15 + spell level). If the check fails, the process went awry in some way and the spell is not learned, although the scroll is still consumed. |
 
@@ -161,10 +147,9 @@ In addition to the familiars presented in the _Pathfinder RPG Core Rulebook_, wi
 
 These familiars make use these statistics: the [house centipede](../../monsters/centipede.html), [king crab](../../monsters/crab.html#_crab-giant), [greensting scorpion](/pathfinderRPG/prd/ultimateMagic/magic/newFamiliars.html#_greensting-scorpion-cr-1/4), fox ( [dog](../../monsters/dog.html#_dog) with the [young template](../../monsters/monsterAdvancement.html#_young-creature)), octopus ( [octopus](../../monsters/octopus.html#_octopus) with the [young template](../../monsters/monsterAdvancement.html#_young-creature)), and [scarlet spider](../../monsters/spider.html#_spider-giant).
 
-<thead><tr>
-<th>Familiar</th>
-<th>Special Ability</th>
-</tr></thead><tbody>
+| Familiar | Special Ability |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Centipede</td>
 <td>Master gains a +3 bonus on <a href="../../skills/stealth.html#_stealth">Stealth</a> checks</td>

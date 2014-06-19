@@ -54,12 +54,9 @@ Giant crabs behave much like their smaller cousins, feeding on both plant materi
 
 Other species of giant crab exist as well, some smaller but most quite a bit larger. You can adjust the stats given here by changing Hit Dice and size (changing Strength, Dexterity, and Constitution as appropriate) to represent a wide range of different species of giant crab. The following table lists the most common variants.
 
-<thead><tr>
-<th>Species</th>
-<th>CR</th>
-<th>Size</th>
-<th>HD</th>
-</tr></thead><tbody>
+| Species | CR | Size | HD |
+| --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>King crab</td>
 <td>1/4</td>

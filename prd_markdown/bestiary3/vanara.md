@@ -35,7 +35,7 @@ Statistics
 
 **Base Atk** +0; **CMB** +1; **CMD** 18
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes)<sup>B</sup>, [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Improved Unarmed Strike](/pathfinderRPG/prd/feats.html#_improved-unarmed-strike)<sup>B</sup>, [Stunning Fist](/pathfinderRPG/prd/classes/monk.html#_stunning-fist)<sup>B</sup>
+**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes)B, [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Improved Unarmed Strike](/pathfinderRPG/prd/feats.html#_improved-unarmed-strike)B, [Stunning Fist](/pathfinderRPG/prd/classes/monk.html#_stunning-fist)B
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +9, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +13, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +7, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +7, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +9; **Racial Modifiers** +2 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics), +2 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
 

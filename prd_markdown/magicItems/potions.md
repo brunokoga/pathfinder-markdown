@@ -1,23 +1,17 @@
 # Potions
 
-<caption>Table: Potions</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Spell Level</th>
-<th>Caster Level</th>
-</tr></thead>| 01–20 | — | — | 0 | 1st |
+[Table: Potions]
+| Minor | Medium | Major | Spell Level | Caster Level |
+| --- | --- | --- | --- | --- |
+| 01–20 | — | — | 0 | 1st |
 | 21–60 | 01–20 | — | 1st | 1st |
 | 61–100 | 21–60 | 01–20 | 2nd | 3rd |
 | — | 61–100 | 21–100 | 3rd | 5th |
 
-<caption>Potion Costs</caption><thead><tr>
-<th>Spell Level</th>
-<th>Cleric, Druid, Wizard</th>
-<th>Sorcerer</th>
-<th>Bard</th>
-<th>Paladin, Ranger</th>
-</tr></thead>| 0 | 25 gp | 25 gp | 25 gp | — |
+[Potion Costs]
+| Spell Level | Cleric, Druid, Wizard | Sorcerer | Bard | Paladin, Ranger |
+| --- | --- | --- | --- | --- |
+| 0 | 25 gp | 25 gp | 25 gp | — |
 | 1st | 50 gp | 50 gp | 50 gp | 50 gp |
 | 2nd | 300 gp | 400 gp | 400 gp | 400 gp |
 | 3rd | 750 gp | 900 gp | 1,050 gp | 1,050 gp |

@@ -1,45 +1,31 @@
 # Weapons
 
-<caption>Table: Weapons</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Weapon</th>
-<th>Bonus Base Price<sup>1</sup>
-</th>
-</tr></thead>| 01–70 | 01–10 | — | +1 | 2,000 gp |
+[Table: Weapons]
+| Minor | Medium | Major | Weapon | Bonus Base Priceⁱ |
+| --- | --- | --- | --- | --- |
+| 01–70 | 01–10 | — | +1 | 2,000 gp |
 | 71–85 | 11–29 | — | +2 | 8,000 gp |
 | — | 30–58 | 01–20 | +3 | 18,000 gp |
 | — | 59–62 | 21–38 | +4 | 32,000 gp |
 | — | — | 39–49 | +5 | 50,000 gp |
-| — | — | — | +6<sup>2</sup> | 72,000 gp |
-| — | — | — | +7<sup>2</sup> | 98,000 gp |
-| — | — | — | +8<sup>2</sup> | 128,000 gp |
-| — | — | — | +9<sup>2</sup> | 162,000 gp |
-| — | — | — | +10<sup>2</sup> | 200,000 gp |
-| 86–90 | 63–68 | 50–63 | Specific weapon<sup>3</sup> | — |
-| 91–100 | 69–100 | 64–100 | Special ability and roll again<sup>4</sup> | — |
-<tfoot>
-<tr><td colspan="5">1 For ammunition, this price is for 50 arrows, bolts, or bullets.</td></tr>
-				<tr><td colspan="5">2 A weapon can't have an enhancement bonus higher than +5. Use these lines to determine price when special abilities are added in.</td></tr>
-				<tr><td colspan="5">3 See Table: Specific Weapons.</td></tr>
-				<tr><td colspan="5">4 See Table: Melee Weapon Special Abilities for melee weapons and Table: Ranged Weapon Special Abilities for ranged weapons.</td></tr>
-</tfoot>
+| — | — | — | +6⁲ | 72,000 gp |
+| — | — | — | +7⁲ | 98,000 gp |
+| — | — | — | +8⁲ | 128,000 gp |
+| — | — | — | +9⁲ | 162,000 gp |
+| — | — | — | +10⁲ | 200,000 gp |
+| 86–90 | 63–68 | 50–63 | Specific weapon⁳ | — |
+| 91–100 | 69–100 | 64–100 | Special ability and roll again⁴ | — |
 
-<caption>Table: Melee Weapon Special Abilities</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Special Ability</th>
-<th>Base Price Modifier<sup>1</sup>
-</th>
-</tr></thead>| 01–10 | 01–06 | 01–03 | _Bane_ | +1 bonus |
+[Table: Melee Weapon Special Abilities]
+| Minor | Medium | Major | Special Ability | Base Price Modifierⁱ |
+| --- | --- | --- | --- | --- |
+| 01–10 | 01–06 | 01–03 | _Bane_ | +1 bonus |
 | 11–17 | 07–12 | — | _Defending_ | +1 bonus |
 | 18–27 | 13–19 | 04–06 | _Flaming_ | +1 bonus |
 | 28–37 | 20–26 | 07–09 | _Frost_ | +1 bonus |
 | 38–47 | 27–33 | 10–12 | _Shock_ | +1 bonus |
 | 48–56 | 34–38 | 13–15 | _Ghost touch_ | +1 bonus |
-| 57–67 | 39–44 | — | _Keen_<sup>2</sup> | +1 bonus |
+| 57–67 | 39–44 | — | _Keen_⁲ | +1 bonus |
 | 68–71 | 45–48 | 16–19 | _Ki Focus_ | +1 bonus |
 | 72–75 | 49–50 | — | _Merciful_ | +1 bonus |
 | 76–82 | 51–54 | 20–21 | _Mighty cleaving_ | +1 bonus |
@@ -49,7 +35,7 @@
 | 96–99 | 66–69 | 33–36 | _Vicious_ | +1 bonus |
 | — | 70–72 | 37–41 | _Anarchic_ | +2 bonus |
 | — | 73–75 | 42–46 | _Axiomatic_ | +2 bonus |
-| — | 76–78 | 47–49 | _Disruption_<sup>3</sup> | +2 bonus |
+| — | 76–78 | 47–49 | _Disruption_⁳ | +2 bonus |
 | — | 79–81 | 50–54 | _Flaming burst_ | +2 bonus |
 | — | 82–84 | 55–59 | _Icy burst_ | +2 bonus |
 | — | 85–87 | 60–64 | _Holy_ | +2 bonus |
@@ -59,54 +45,36 @@
 | — | — | 79–83 | _Speed_ | +3 bonus |
 | — | — | 84–86 | _Brilliant energy_ | +4 bonus |
 | — | — | 87–88 | _Dancing_ | +4 bonus |
-| — | — | 89–90 | _Vorpal_<sup>2</sup> | +5 bonus |
-| 100 | 96–100 | 91–100 | Roll again twice<sup>4</sup> | — |
-<tfoot>
-<tr><td colspan="5">1 Add to enhancement bonus on Table: Weapons to determine total market price.</td></tr>
-				<tr><td colspan="5">2 Piercing or slashing weapons only (slashing only for vorpal). Reroll if randomly generated for a bludgeoning weapon.</td></tr>
-				<tr><td colspan="5">3 Bludgeoning weapons only. Reroll if randomly generated for a piercing or slashing weapon.</td></tr>
-				<tr><td colspan="5">4 Reroll if you get a duplicate special ability, an ability incompatible with an ability that you've already rolled, or if the extra ability puts you over the +10 limit. A weapon's enhancement bonus and special ability bonus equivalents can't total more than +10.</td></tr>
-</tfoot>
+| — | — | 89–90 | _Vorpal_⁲ | +5 bonus |
+| 100 | 96–100 | 91–100 | Roll again twice⁴ | — |
 
-<caption>Table: Ranged Weapon Special Abilities</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Special Ability</th>
-<th>Base Price Modifier<sup>1</sup>
-</th>
-</tr></thead>| 01–12 | 01–08 | 01–04 | _Bane_<sup>2</sup> | +1 bonus |
+[Table: Ranged Weapon Special Abilities]
+| Minor | Medium | Major | Special Ability | Base Price Modifierⁱ |
+| --- | --- | --- | --- | --- |
+| 01–12 | 01–08 | 01–04 | _Bane_⁲ | +1 bonus |
 | 13–25 | 09–16 | 05–08 | _Distance_ | +1 bonus |
-| 26–40 | 17–28 | 09–12 | _Flaming_<sup>2</sup> | +1 bonus |
-| 41–55 | 29–40 | 13–16 | _Frost_<sup>2</sup> | +1 bonus |
-| 56–60 | 41–42 | — | _Merciful_<sup>2</sup> | +1 bonus |
+| 26–40 | 17–28 | 09–12 | _Flaming_⁲ | +1 bonus |
+| 41–55 | 29–40 | 13–16 | _Frost_⁲ | +1 bonus |
+| 56–60 | 41–42 | — | _Merciful_⁲ | +1 bonus |
 | 61–68 | 43–47 | 17–21 | _Returning_ | +1 bonus |
-| 69–83 | 48–59 | 22–25 | _Shock_<sup>2</sup> | +1 bonus |
+| 69–83 | 48–59 | 22–25 | _Shock_⁲ | +1 bonus |
 | 84–93 | 60–64 | 26–27 | _Seeking_ | +1 bonus |
-| 94–99 | 65–68 | 28–29 | _Thundering_<sup>2</sup> | +1 bonus |
-| — | 69–71 | 30–34 | _Anarchic_<sup>2</sup> | +2 bonus |
-| — | 72–74 | 35–39 | _Axiomatic_<sup>2</sup> | +2 bonus |
-| — | 75–79 | 40–49 | _Flaming burst_<sup>2</sup> | +2 bonus |
-| — | 80–82 | 50–54 | _Holy_<sup>2</sup> | +2 bonus |
-| — | 83–87 | 55–64 | _Icy burst_<sup>2</sup> | +2 bonus |
-| — | 88–92 | 65–74 | _Shocking burst_<sup>2</sup> | +2 bonus |
-| — | 93–95 | 75–79 | _Unholy_<sup>2</sup> | +2 bonus |
+| 94–99 | 65–68 | 28–29 | _Thundering_⁲ | +1 bonus |
+| — | 69–71 | 30–34 | _Anarchic_⁲ | +2 bonus |
+| — | 72–74 | 35–39 | _Axiomatic_⁲ | +2 bonus |
+| — | 75–79 | 40–49 | _Flaming burst_⁲ | +2 bonus |
+| — | 80–82 | 50–54 | _Holy_⁲ | +2 bonus |
+| — | 83–87 | 55–64 | _Icy burst_⁲ | +2 bonus |
+| — | 88–92 | 65–74 | _Shocking burst_⁲ | +2 bonus |
+| — | 93–95 | 75–79 | _Unholy_⁲ | +2 bonus |
 | — | — | 80–84 | _Speed_ | +3 bonus |
 | — | — | 85–90 | _Brilliant energy_ | +4 bonus |
-| 100 | 96–100 | 91–100 | Roll again twice<sup>2</sup> | — |
-<tfoot>
-<tr><td colspan="5">1 Add to enhancement bonus on Table: Weapons to determine total market price.</td></tr>
-				<tr><td colspan="5">2 Bows, crossbows, and slings crafted with this ability bestow this power upon their ammunition.</td></tr>
-				<tr><td colspan="5">3 Reroll if you get a duplicate special ability, an ability incompatible with an ability that you've already rolled, or if the extra ability puts you over the +10 limit. A weapon's enhancement bonus and special ability bonus equivalents can't total more than +10.</td></tr>
-</tfoot>
+| 100 | 96–100 | 91–100 | Roll again twice⁲ | — |
 
-<caption>Table: Specific Weapons</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Specific Weapon</th>
-<th>Market Price</th>
-</tr></thead>| 01–15 | — | — | _Sleep arrow _ | 132 gp |
+[Table: Specific Weapons]
+| Minor | Medium | Major | Specific Weapon | Market Price |
+| --- | --- | --- | --- | --- |
+| 01–15 | — | — | _Sleep arrow _ | 132 gp |
 | 16–25 | — | — | _Screaming bolt _ | 267 gp |
 | 26–45 | — | — | Silver dagger, masterwork | 322 gp |
 | 46–65 | — | — | Cold iron longsword, masterwork | 330 gp |
@@ -185,10 +153,9 @@ Moderate evocation [lawful]_; _CL 7th; [Craft Magic Arms and Armor](../feats.htm
 
 **Bane** : A _bane weapon_ excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better than its actual bonus. It also deals an extra 2d6 points of damage against the foe. To randomly determine a weapon's designated foe, roll on the following table.
 
-<thead><tr>
-<th>d%</th>
-<th>Designated Foe</th>
-</tr></thead><tbody>
+| d% | Designated Foe |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–05</td>
 <td>Aberrations </td>
@@ -663,10 +630,9 @@ A _greater slaying arrow_ functions just like a normal _slaying arrow_, but the 
 
 **Requirements** [Craft Magic Arms and Armor](../feats.html#_craft-magic-arms-and-armor), _ [finger of death](../spells/fingerOfDeath.html#_finger-of-death)_ (_slaying arrow_) or heightened_ [finger of death](../spells/fingerOfDeath.html#_finger-of-death)_ (_greater slaying arrow_); **Cost** 1,144 gp 5 sp (_slaying arrow_) or 2,032 gp (_greater slaying arrow_)
 
-<thead><tr>
-<th>d%</th>
-<th>Designated Type or Subtype</th>
-</tr></thead><tbody>
+| d% | Designated Type or Subtype |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–05</td>
 <td>Aberrations </td>

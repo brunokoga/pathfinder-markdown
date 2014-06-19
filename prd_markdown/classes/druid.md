@@ -14,29 +14,12 @@ The druid's class skills are [Climb](../skills/climb.html#_climb) ( [Str](../get
 
 **Skill Ranks per Level** : 4 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Druid</caption><thead>
-<tr>
-<th rowspan="2">Level</th>
-<th rowspan="2">Base Attack Bonus</th>
-<th rowspan="2">Fort Save</th>
-<th rowspan="2">Ref Save</th>
-<th rowspan="2">Will Save</th>
-<th rowspan="2">Special</th>
-<th colspan="10">Spells per Day</th>
-</tr>
-<tr>
-<th>0</th>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-<th>7th</th>
-<th>8th</th>
-<th>9th</th>
-</tr>
-</thead>| 1st | +0 | +2 | +0 | +2 | Nature bond, nature sense, orisons, wild empathy | 3 | 1 | — | — | — | — | — | — | — | — |
+[Table: Druid]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0 | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +2 | +0 | +2 | Nature bond, nature sense, orisons, wild empathy | 3 | 1 | — | — | — | — | — | — | — | — |
 | 2nd | +1 | +3 | +0 | +3 | Woodland stride | 4 | 2 | — | — | — | — | — | — | — | — |
 | 3rd | +2 | +3 | +1 | +3 | Trackless step | 4 | 2 | 1 | — | — | — | — | — | — | — |
 | 4th | +3 | +4 | +1 | +4 | Resist nature's lure,Wild shape (1/day) | 4 | 3 | 2 | — | — | — | — | — | — | — |
@@ -135,20 +118,10 @@ A druid who ceases to revere nature, changes to a prohibited [alignment](../addi
 
 An animal companion's abilities are determined by the druid's level and its animal racial traits. Table: Animal Companion Base Statistics determines many of the base statistics of the animal companion. They remain creatures of the animal type for purposes of determining which spells can affect them.
 
-<caption>Table: Animal Companion Base Statistics</caption><thead><tr>
-<th>Class Level</th>
-<th>HD</th>
-<th>BAB</th>
-<th>Fort</th>
-<th>Ref</th>
-<th>Will</th>
-<th>Skills</th>
-<th>Feats</th>
-<th>Natural Armor Bonus</th>
-<th>Str/Dex Bonus</th>
-<th>Bonus Tricks</th>
-<th>Special</th>
-</tr></thead><tbody>
+[Table: Animal Companion Base Statistics]
+| Class Level | HD | BAB | Fort | Ref | Will | Skills | Feats | Natural Armor Bonus | Str/Dex Bonus | Bonus Tricks | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1st</td>
 <td>2</td>

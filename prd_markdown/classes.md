@@ -34,19 +34,12 @@ The process of advancing a character works in much the same way as generating a 
 
 When adding new levels of an existing class or adding levels of a new class (see Multiclassing, below), make sure to take the following steps in order. First, select your new class level. You must be able to qualify for this level before any of the following adjustments are made. Second, apply any ability score increases due to gaining a level. Third, integrate all of the level's class abilities and then roll for additional hit points. Finally, add new skills and feats. For more information on when you gain new feats and ability score increases, see Table: Character Advancement and Level-Dependent Bonuses.
 
-<caption>Table: Character Advancement and Level-Dependent Bonuses</caption><thead>
-<tr>
-<th rowspan="2">Character Level</th>
-<th colspan="3">Experience Point Total</th>
-<th rowspan="2">Feats</th>
-<th rowspan="2">Ability Score</th>
-</tr>
-<tr>
-<th>Slow</th>
-<th>Medium</th>
-<th>Fast</th>
-</tr>
-</thead><tbody>
+[Table: Character Advancement and Level-Dependent Bonuses]
+| Character Level | Experience Point Total | Feats | Ability Score |
+| --- | --- | --- | --- |
+| Slow | Medium | Fast |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1st</td>
 <td>—</td>

@@ -40,7 +40,7 @@ Statistics
 
 **Base Atk** +8; **CMB** +11; **CMD** 24
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes)<sup>B</sup>, [Double Slice](/pathfinderRPG/prd/feats.html#_double-slice), [Improved Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_improved-two-weapon-fighting), [Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_two-weapon-fighting), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (scimitar)
+**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes)B, [Double Slice](/pathfinderRPG/prd/feats.html#_double-slice), [Improved Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_improved-two-weapon-fighting), [Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_two-weapon-fighting), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (scimitar)
 
 **Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +10, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +8, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +13, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +18; **Racial Modifiers** +4 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
 

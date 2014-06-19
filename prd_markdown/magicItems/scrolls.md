@@ -1,12 +1,9 @@
 # Scrolls
 
-<caption>Table: Scrolls</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Spell Level</th>
-<th>Caster Level</th>
-</tr></thead>| 01–05 | — | — | 0 | 1st |
+[Table: Scrolls]
+| Minor | Medium | Major | Spell Level | Caster Level |
+| --- | --- | --- | --- | --- |
+| 01–05 | — | — | 0 | 1st |
 | 06–50 | — | — | 1st | 1st |
 | 51–95 | 01–05 | — | 2nd | 3rd |
 | 96–100 | 06–65 | — | 3rd | 5th |
@@ -17,13 +14,10 @@
 | — | — | 86–95 | 8th | 15th |
 | — | — | 96–100 | 9th | 17th |
 
-<caption>Scroll Costs</caption><thead><tr>
-<th>Spell Level</th>
-<th>Cleric, Druid, Wizard</th>
-<th>Sorcerer</th>
-<th>Bard</th>
-<th>Paladin, Ranger</th>
-</tr></thead>| 0 | 12.5 gp | 12.5 gp | 12.5 gp | — |
+[Scroll Costs]
+| Spell Level | Cleric, Druid, Wizard | Sorcerer | Bard | Paladin, Ranger |
+| --- | --- | --- | --- | --- |
+| 0 | 12.5 gp | 12.5 gp | 12.5 gp | — |
 | 1st | 25 gp | 25 gp | 25 gp | 25 gp |
 | 2nd | 150 gp | 200 gp | 200 gp | 200 gp |
 | 3rd | 375 gp | 450 gp | 525 gp | 525 gp |

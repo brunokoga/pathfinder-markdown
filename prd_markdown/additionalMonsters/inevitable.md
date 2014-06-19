@@ -70,7 +70,7 @@ Statistics
 
 **Base Atk** +2; **CMB** +3; **CMD** 13
 
-**Feats** [Flyby Attack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_flyby-attack), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Flyby Attack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_flyby-attack), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)B
 
 **Skills** [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +7, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +12, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +5, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +5, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +5, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +16
 

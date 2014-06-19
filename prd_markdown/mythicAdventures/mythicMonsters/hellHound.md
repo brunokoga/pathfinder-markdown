@@ -36,7 +36,7 @@ Statistics
 
 **Base Atk** +5; **CMB** +7; **CMD** 18 (22 vs. trip)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Run](/pathfinderRPG/prd/feats.html#_run), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (bite)<sup>M</sup>
+**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Run](/pathfinderRPG/prd/feats.html#_run), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (bite)M
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +9 (+13 when jumping), [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +14, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +8; **Racial Modifiers** +5 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
 
@@ -94,7 +94,7 @@ Statistics
 
 **Base Atk** +12; **CMB** +22; **CMD** 34 (38 vs. trip)
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Improved Critical](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-critical-mythic) (bite)<sup>M</sup>, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Survival](/pathfinderRPG/prd/skills/survival.html#_survival)), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (bite)<sup>M</sup>
+**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Improved Critical](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-critical-mythic) (bite)M, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Survival](/pathfinderRPG/prd/skills/survival.html#_survival)), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (bite)M
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +15 (+19 when jumping), [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +14, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +4, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +17, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +17; **Racial Modifiers** +5 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
 

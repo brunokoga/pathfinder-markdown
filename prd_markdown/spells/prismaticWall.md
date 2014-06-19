@@ -24,12 +24,10 @@ The wall can be destroyed, color by color, in consecutive order, by casting the 
 
 _Prismatic wall _can be made permanent with a _ [permanency](permanency.html#_permanency) _spell.
 
-<caption>Prismatic Wall</caption><thead><tr>
-<th>Order</th>
-<th>Color</th>
-<th>Effect of Color</th>
-<th>Negated by</th>
-</tr></thead>| 1st | Red | Stops nonmagical ranged weapons.  
+[Prismatic Wall]
+| Order | Color | Effect of Color | Negated by |
+| --- | --- | --- | --- |
+| 1st | Red | Stops nonmagical ranged weapons.  
  Deals 20 points of fire damage ( [Reflex](../combat.html#_reflex) half). | _ [Cone of cold](coneOfCold.html#_cone-of-cold)_ |
 | 2nd | Orange | Stops magical ranged weapons.  
 Deals 40 points of acid damage ( [Reflex](../combat.html#_reflex) half). | _ [Gust of wind](gustOfWind.html#_gust-of-wind)_ |
@@ -43,5 +41,4 @@ Turned to stone ( [Fortitude](../combat.html#_fortitude) negates). | _ [Magic mi
  [Will](../combat.html#_will) save or become insane (as _insanity _spell). | _ [Daylight](daylight.html#_daylight)_ |
 | 7th | Violet | Energy field destroys all objects and effects.\*  
 Creatures sent to another plane ( [Will](../combat.html#_will) negates). | _ [Dispel magic](dispelMagic.html#_dispel-magic) _or _greater dispel magic_ |
-<tfoot><tr><td colspan="4">* The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and <a href="../glossary.html#_spell-resistance">spell resistance</a> might render some colors ineffective (see above).</td></tr></tfoot>
 

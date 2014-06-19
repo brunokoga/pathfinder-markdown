@@ -32,7 +32,7 @@ Statistics
 
 **Base Atk** +1; **CMB** +4; **CMD** 16 (20 vs. trip)
 
-**Feats** [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will)<sup>B</sup>, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will)B, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +6 (+10 when jumping), [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8; **Racial Modifiers** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) (+4 when jumping), +4 [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) when tracking by [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent)
 
@@ -82,7 +82,7 @@ Statistics
 
 **Base Atk** +3; **CMB** +10 (+14 grapple); **CMD** 23 (27 vs. trip)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will)<sup>B</sup>, [Run](/pathfinderRPG/prd/feats.html#_run), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will)B, [Run](/pathfinderRPG/prd/feats.html#_run), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +11 (+15 when jumping), [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +6 (+14 in undergrowth); **Racial Modifiers** +4 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) when jumping, +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) (+8 in undergrowth)
 

@@ -14,14 +14,10 @@ The rogue's class skills are [Acrobatics](../skills/acrobatics.html#_acrobatics)
 
 **Skill Ranks per Level** : 8 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Rogue</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-</tr></thead>| 1st | +0 | +0 | +2 | +0 | Sneak attack +1d6, trapfinding |
+[Table: Rogue]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +2 | +0 | Sneak attack +1d6, trapfinding |
 | 2nd | +1 | +0 | +3 | +0 | Evasion, rogue talent |
 | 3rd | +2 | +1 | +3 | +1 | Sneak attack +2d6, trap sense +1 |
 | 4th | +3 | +1 | +4 | +1 | Rogue talent, uncanny dodge |

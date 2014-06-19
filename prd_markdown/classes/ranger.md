@@ -14,23 +14,12 @@ The ranger's class skills are [Climb](../skills/climb.html#_climb) ( [Str](../ge
 
 **Skill Ranks per Level** : 6 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Ranger</caption><thead>
-<tr>
-<th rowspan="2">Level</th>
-<th rowspan="2">Base Attack Bonus</th>
-<th rowspan="2">Fort Save</th>
-<th rowspan="2">Ref Save</th>
-<th rowspan="2">Will Save</th>
-<th rowspan="2">Special</th>
-<th colspan="4">Spells per Day</th>
-</tr>
-<tr>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-</tr>
-</thead>| 1st | +1 | +2 | +2 | +0 | 1st favored enemy, track, wild empathy | — | — | — | — |
+[Table: Ranger]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | 2nd | 3rd | 4th |
+| --- | --- | --- | --- |
+| 1st | +1 | +2 | +2 | +0 | 1st favored enemy, track, wild empathy | — | — | — | — |
 | 2nd | +2 | +3 | +3 | +0 | Combat style feat | — | — | — | — |
 | 3rd | +3 | +3 | +3 | +1 | Endurance, 1st favored terrain | — | — | — | — |
 | 4th | +4 | +4 | +4 | +1 | Hunter's bond | 0 | — | — | — |
@@ -57,7 +46,10 @@ All of the following are class features of the ranger.
 
 **Weapon and Armor Proficiency** : A ranger is proficient with all [simple](../equipment.html#_simple-martial-and-exotic-weapons) and [martial](../equipment.html#_simple-martial-and-exotic-weapons) weapons and with light armor, medium armor, and shields (except tower shields).
 
-<caption>Ranger Favored Enemies</caption><thead><tr><th>Type (Subtype)</th></tr></thead><tbody>
+[Ranger Favored Enemies]
+| Type (Subtype) |
+| --- |
+<tbody>
 <tr class="odd"><td>Aberration</td></tr>
 <tr class="even"><td>Animal</td></tr>
 <tr class="odd"><td>Construct</td></tr>
@@ -116,7 +108,7 @@ The benefits of the ranger's chosen style feats apply only when he wears light, 
 
 **Endurance** : A ranger gains [Endurance](../feats.html#_endurance) as a bonus feat at 3rd level.
 
-<caption>Favored Terrains</caption>| Cold (ice, glaciers, snow, and tundra) |
+[Favored Terrains]| Cold (ice, glaciers, snow, and tundra) |
 | Desert (sand and wastelands) |
 | Forest (coniferous and deciduous) |
 | Jungle |

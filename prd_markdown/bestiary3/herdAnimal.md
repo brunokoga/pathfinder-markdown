@@ -32,7 +32,7 @@ Statistics
 
 **Base Atk** +0; **CMB** –1; **CMD** 12 (16 vs. trip)
 
-**Feats** [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Run](/pathfinderRPG/prd/feats.html#_run)<sup>B</sup>
+**Feats** [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Run](/pathfinderRPG/prd/feats.html#_run)B
 
 **Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5
 
@@ -84,7 +84,7 @@ Statistics
 
 **Base Atk** +1; **CMB** +3; **CMD** 16 (20 vs. trip)
 
-**Feats** [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Run](/pathfinderRPG/prd/feats.html#_run)<sup>B</sup>
+**Feats** [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Run](/pathfinderRPG/prd/feats.html#_run)B
 
 **Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +7
 

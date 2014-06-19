@@ -8,10 +8,9 @@ Some are destined not only to achieve personal greatness, but also to inspire ar
 
 **Bonus Hit Points** : Whenever you gain a marshal tier, you gain 4 bonus hit points. These hit points stack with themselves, and don't affect your overall Hit Dice or other statistics.
 
-<thead><tr>
-<th>Tier</th>
-<th>Path Features</th>
-</tr></thead>| 1st | Marshal's order, path ability |
+| Tier | Path Features |
+| --- | --- |
+| 1st | Marshal's order, path ability |
 | 2nd | Path ability |
 | 3rd | Path ability |
 | 4th | Path ability |

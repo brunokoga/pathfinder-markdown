@@ -34,7 +34,7 @@ NE Medium [undead](creatureTypes.html#_undead)
 
 **Base**  **Atk** +2; **CMB** +5; **CMD** 16
 
-**Feats** [Cleave](../feats.html#_cleave), [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>, [Power Attack](../feats.html#_power-attack), [Weapon Focus](../feats.html#_weapon-focus) (longsword)
+**Feats** [Cleave](../feats.html#_cleave), [Improved Initiative](../feats.html#_improved-initiative)B, [Power Attack](../feats.html#_power-attack), [Weapon Focus](../feats.html#_weapon-focus) (longsword)
 
 **Skills** [Intimidate](../skills/intimidate.html#_intimidate) +7, [Perception](../skills/perception.html#_perception) +6, [Stealth](../skills/stealth.html#_stealth) –1
 

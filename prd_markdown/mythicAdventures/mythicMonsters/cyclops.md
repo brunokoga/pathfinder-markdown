@@ -44,7 +44,7 @@ Statistics
 
 **Base Atk** +12; **CMB** +28 (+30 bull rush or overrun); **CMD** 39 (41 vs. bull rush or overrun)
 
-**Feats** [Awesome Blow](/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow), [Cleave](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_cleave-mythic)<sup>M</sup>, [Critical Focus](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_critical-focus-mythic)<sup>M</sup>, [Diehard](/pathfinderRPG/prd/feats.html#_diehard), [Endurance](/pathfinderRPG/prd/feats.html#_endurance), Improved Bull Rush, Improved Overrun, [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)<sup>M</sup>, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack)
+**Feats** [Awesome Blow](/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow), [Cleave](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_cleave-mythic)M, [Critical Focus](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_critical-focus-mythic)M, [Diehard](/pathfinderRPG/prd/feats.html#_diehard), [Endurance](/pathfinderRPG/prd/feats.html#_endurance), Improved Bull Rush, Improved Overrun, [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack)
 
 **Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +22
 

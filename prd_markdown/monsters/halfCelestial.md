@@ -88,10 +88,9 @@ _Smite Evil (Su)_: Once per day as a swift action the half-celestial can smite e
 
 _Spell-Like Abilities_: A half-celestial with an Int or Wis score of 8 or higher has a cumulative number of spell-like abilities depending on its Hit Dice. Unless otherwise noted, an ability is usable once per day. Caster level equals the creature's HD (or the caster evel of the base creature's spell-like abilities, whichever is higher).
 
-<thead><tr>
-<th>HD</th>
-<th>Abilities</th>
-</tr></thead><tbody>
+| HD | Abilities |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–2</td>
 <td>

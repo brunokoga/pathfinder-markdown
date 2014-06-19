@@ -242,25 +242,12 @@ Some creatures treat one or more of their attacks differently, such as dragons, 
 
 Creatures with natural attacks and attacks made with weapons can use both as part of a full attack action (although often a creature must forgo one natural attack for each weapon clutched in that limb, be it a claw, tentacle, or slam). Such creatures attack with their weapons normally but treat all of their natural attacks as secondary attacks during that attack, regardless of the attack's original type.
 
-<caption>Natural Attacks by Size</caption><thead>
-<tr>
-<th rowspan="2">Natural Attack</th>
-<th colspan="9"><center>Base Damage by Size*</center></th>
-<th rowspan="2">Damage Type</th>
-<th rowspan="2">Attack Type</th>
-</tr>
-<tr>
-<th>Fine</th>
-<th>Dim.</th>
-<th>Tiny</th>
-<th>Small</th>
-<th>Medium</th>
-<th>Large</th>
-<th>Huge</th>
-<th>Garg.</th>
-<th>Col.</th>
-</tr>
-</thead><tbody>
+[Natural Attacks by Size]
+| Natural Attack | <center>Base Damage by Size*</center> | Damage Type | Attack Type |
+| --- | --- | --- | --- |
+| Fine | Dim. | Tiny | Small | Medium | Large | Huge | Garg. | Col. |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Bite</td>
 <td>1</td>
@@ -387,9 +374,7 @@ Creatures with natural attacks and attacks made with weapons can use both as par
 <td>B/S/P</td>
 <td>Secondary</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="12">* Individual creatures vary from this value as appropriate.</td></tr>
-</tfoot>
+</tbody>
 
 The Damage Type column refers to the sort of damage that the natural attack typically deals: bludgeoning (B), slashing (S), or piercing (P). Some attacks deal damage of more than one type, depending on the creature. In such cases all the damage is considered to be of all listed types for the purpose of overcoming damage reduction.
 

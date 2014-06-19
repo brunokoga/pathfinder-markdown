@@ -30,11 +30,10 @@ Celestial creatures dwell in the higher planes, but can be summoned using spells
 
 **Rebuild Rules** : **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite evil 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against evil foes; smite persists until target is dead or the celestial creature rests).
 
-<caption>Celestial Creature Defenses</caption><thead><tr>
-<th>Hit Dice</th>
-<th>Resist Cold, Acid, and Electricity</th>
-<th>DR</th>
-</tr></thead><tbody>
+[Celestial Creature Defenses]
+| Hit Dice | Resist Cold, Acid, and Electricity | DR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–4</td>
 <td>5</td>
@@ -58,11 +57,10 @@ Creatures with the entropic template live in planes where chaos is paramount. Th
 
 **Rebuild Rules** : **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite law 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against lawful foes; smite persists until the target is dead or the entropic creature rests).
 
-<caption>Entropic Creature Defenses</caption><thead><tr>
-<th>Hit Dice</th>
-<th>Resist Acid and Fire</th>
-<th>DR</th>
-</tr></thead><tbody>
+[Entropic Creature Defenses]
+| Hit Dice | Resist Acid and Fire | DR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–4</td>
 <td>5</td>
@@ -86,11 +84,10 @@ Creatures with the fiendish template live in the Lower Planes, such as the Abyss
 
 **Rebuild Rules** : **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite good 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against good foes; smite persists until target is dead or the fiendish creature rests).
 
-<caption>Fiendish Creature Defenses</caption><thead><tr>
-<th>Hit Dice</th>
-<th>Resist Cold and Fire</th>
-<th>DR</th>
-</tr></thead><tbody>
+[Fiendish Creature Defenses]
+| Hit Dice | Resist Cold and Fire | DR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–4</td>
 <td>5</td>
@@ -122,11 +119,10 @@ Creatures with the resolute template live in planes where law is paramount. They
 
 **Rebuild Rules** : **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite chaos 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against chaotic foes; smite persists until target is dead or the resolute creature rests).
 
-<caption>Resolute Creature Defenses</caption><thead><tr>
-<th>Hit Dice</th>
-<th>Resist Acid, Cold and Fire</th>
-<th>DR</th>
-</tr></thead><tbody>
+[Resolute Creature Defenses]
+| Hit Dice | Resist Acid, Cold and Fire | DR |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–4</td>
 <td>5</td>
@@ -160,14 +156,10 @@ Adding racial Hit Dice to a monster is a similar process to building a monster f
 
 When advancing a monster by adding racial HD, you should start by deciding what you want the monster to become. In most cases, this means merely a tougher, stronger version of an existing monster. Note the desired CR of the new monster. This is also the point at which you should decide whether the creature is going to increase in size. As a general rule, creatures whose Hit Dice increase by 50% or more should also increase in size, but GMs should feel free to ignore this rule if warranted by the individual creature or situation.
 
-<caption>Table: Monster Advancement</caption><thead><tr>
-<th>Higher CR</th>
-<th>Lower CR</th>
-<th>Hit Point Change</th>
-<th>AC Change</th>
-<th>Attack Bonus Change</th>
-<th>Damage Change</th>
-</tr></thead><tbody>
+[Table: Monster Advancement]
+| Higher CR | Lower CR | Hit Point Change | AC Change | Attack Bonus Change | Damage Change |
+| --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1</td>
 <td>Less than 1</td>
@@ -344,14 +336,10 @@ Next, determine how many Hit Points the base monster receives per Hit Die (see T
 
 These values are not absolute. Some monsters have fewer hit points than normal for a creature of their CR and rely on a higher AC or other defenses. Some creatures are primarily spellcasters and typically have fewer Hit Dice. When advancing your monster in this way, be sure to take these factors into account and adjust your monster accordingly.
 
-<caption>Table: Size Changes</caption><thead><tr>
-<th>Old Size*</th>
-<th>New Size</th>
-<th>Str</th>
-<th>Dex</th>
-<th>Con</th>
-<th>Natural Armor</th>
-</tr></thead><tbody>
+[Table: Size Changes]
+| Old Size\* | New Size | Str | Dex | Con | Natural Armor |
+| --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Fine</td>
 <td>Diminutive</td>
@@ -416,17 +404,12 @@ These values are not absolute. Some monsters have fewer hit points than normal f
 <td>+4</td>
 <td>+5</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="6">* Repeat the adjustment if the creature moves up more than one size.</td></tr>
-</tfoot>
+</tbody>
 
-<caption>Table: Size Bonuses and Penalties</caption><thead><tr>
-<th>Size</th>
-<th>AC/Attack</th>
-<th>CMB/CMD</th>
-<th>Fly Skill</th>
-<th>Stealth Skill</th>
-</tr></thead><tbody>
+[Table: Size Bonuses and Penalties]
+| Size | AC/Attack | CMB/CMD | Fly Skill | Stealth Skill |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Fine</td>
 <td>+8</td>
@@ -534,13 +517,10 @@ Some aberrations, fey, magical beasts, monstrous humanoids, and outsiders fall i
 
 A list of monster roles for determining key classes appears in Appendix 13.
 
-<caption>Table: Monsters with Class Levels</caption><thead><tr>
-<th>Monster Role</th>
-<th>Barbarian, Fighter, Ranger</th>
-<th>Cleric, Druid, Sorcerer, Wizard</th>
-<th>Bard, Rogue</th>
-<th>Monk, Paladin</th>
-</tr></thead><tbody>
+[Table: Monsters with Class Levels]
+| Monster Role | Barbarian, Fighter, Ranger | Cleric, Druid, Sorcerer, Wizard | Bard, Rogue | Monk, Paladin |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Combat</td>
 <td>Key</td>
@@ -570,7 +550,6 @@ A list of monster roles for determining key classes appears in Appendix 13.
 <td>—</td>
 </tr>
 </tbody>
-<tfoot><tr><td colspan="5">* This class is only key if its spellcasting levels stack with those possessed by the creature.</td></tr></tfoot>
 
 ## Step 2: Add Class Levels
 

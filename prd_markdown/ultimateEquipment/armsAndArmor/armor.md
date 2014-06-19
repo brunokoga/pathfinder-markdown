@@ -74,20 +74,18 @@ All armor in the Pathfinder Roleplaying Game assumes you're dealing with a full 
 
 Armor and shields for unusually big creatures, unusually little creatures, and non-humanoid creatures (such as horses) have different prices and weights from those given in the [Armor and Shields table](/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/armor.html#_armor-and-shields-table). Refer to the appropriate line on the table below and apply the multipliers to price and weight for the armor type in question.
 
-<caption>Armor for Unusual Creatures</caption><thead><tr>
-<th>Size</th>
-<th colspan="2">Humanoid<br><span style="float: left;">Price</span> <span style="float: right;">Weight</span>
-</th>
-<th colspan="2">Non-Humanoid<br><span style="float: left;">Price</span> <span style="float: right;">Weight</span>
-</th>
-</tr></thead>| Tiny or smaller\* | ×1/2 | ×1/10 | ×1 | ×1/10 |
+[Armor for Unusual Creatures]
+| Size | Humanoid  
+Price Weight | Non-Humanoid  
+Price Weight |
+| --- | --- | --- |
+| Tiny or smaller\* | ×1/2 | ×1/10 | ×1 | ×1/10 |
 | Small | ×1 | ×1/2 | ×2 | ×1/2 |
 | Medium | ×1 | ×1 | ×2 | ×1 |
 | Large | ×2 | ×2 | ×4 | ×2 |
 | Huge | ×4 | ×5 | ×8 | ×5 |
 | Gargantuan | ×8 | ×8 | ×16 | ×8 |
 | Colossal | ×16 | ×12 | ×32 | ×12 |
-<tfoot><tr><td colspan="5">*Divide armor bonus by 2.</td></tr></tfoot>
 
 ## Getting Into and Out of Armor
 
@@ -99,31 +97,23 @@ Putting on or taking off armor is a sometimes complicated procedure. The time re
 
 **Remove** : This column tells how long it takes to get the armor off. Removing a shield from your arm and dropping it is only a move action.
 
-<caption>Donning Armor</caption><thead><tr>
-<th>Armor type</th>
-<th>Don</th>
-<th>Don Hastily</th>
-<th>Remove</th>
-</tr></thead>| Shield (any) | 1 move action | N/A | 1 move action |
-| Padded, leather, hide, studded leather, or chain shirt | 1 minute | 5 rounds | 1 minute<sup>1</sup> |
-| Breastplate, scale mail, chainmail, banded mail, or splint mail | 4 minutes<sup>1</sup> | 1 minute | 1 minute<sup>1</sup> |
-| Half-plate or full plate | 4 minutes<sup>2</sup> | 4 minutes<sup>1</sup> | 1d4+1 minutes<sup>1</sup> |
-<tfoot><tr><td colspan="4">
-<sup>1</sup> If the character has some help, cut this time in half. A single character doing nothing else can help one or two adjacent characters.<br>Two characters can't help each other don armor at the same time.<br>
-<sup>2</sup> The wearer must have help to don this armor. Without help, it can only be donned hastily.</td></tr></tfoot>
+[Donning Armor]
+| Armor type | Don | Don Hastily | Remove |
+| --- | --- | --- | --- |
+| Shield (any) | 1 move action | N/A | 1 move action |
+| Padded, leather, hide, studded leather, or chain shirt | 1 minute | 5 rounds | 1 minuteⁱ |
+| Breastplate, scale mail, chainmail, banded mail, or splint mail | 4 minutesⁱ | 1 minute | 1 minuteⁱ |
+| Half-plate or full plate | 4 minutes⁲ | 4 minutesⁱ | 1d4+1 minutesⁱ |
 
-<caption>Armor and Shields</caption><thead><tr>
-<th>Light Armor</th>
-<th>Price</th>
-<th>Armor/Shield<br>Bonus</th>
-<th>Max<br>Dex Bonus</th>
-<th>Armor<br>Check Penalty</th>
-<th>Arcane Spell<br>Failure Chance</th>
-<th colspan="2">Speed<br><span style="float: left;">30 ft.</span> <span style="float: right;">20 ft.</span>
-</th>
-<th>Weight<sup>1</sup>
-</th>
-</tr></thead>| Haramaki | 3 gp | +1 | — | 0 | 0% | 30 ft. | 20 ft. | 1 lb. |
+[Armor and Shields]
+| Light Armor | Price | Armor/Shield  
+Bonus | Max  
+Dex Bonus | Armor  
+Check Penalty | Arcane Spell  
+Failure Chance | Speed  
+30 ft. 20 ft. | Weightⁱ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Haramaki | 3 gp | +1 | — | 0 | 0% | 30 ft. | 20 ft. | 1 lb. |
 | Padded | 5 gp | +1 | +8 | 0 | 5% | 30 ft. | 20 ft. | 10 lbs. |
 | Quilted cloth | 100 gp | +1 | +8 | 0 | 10% | 30 ft. | 20 ft. | 15 lbs. |
 | Silken ceremonial | 30 gp | +1 | — | 0 | 0% | 30 ft. | 20 ft. | 4 lbs. |
@@ -134,18 +124,15 @@ Putting on or taking off armor is a sometimes complicated procedure. The time re
 | Wooden | 20 gp | +3 | +3 | –1 | 15% | 30 ft. | 20 ft. | 25 lbs. |
 | Chain shirt | 100 gp | +4 | +4 | –2 | 20% | 30 ft. | 20 ft. | 25 lbs. |
 | Lamellar (leather) | 60 gp | +4 | +3 | –2 | 20% | 30 ft. | 20 ft. | 25 lbs. |
-<thead><tr>
-<th>Medium Armor</th>
-<th>Price</th>
-<th>Armor/Shield<br>Bonus</th>
-<th>Max<br>Dex Bonus</th>
-<th>Armor<br>Check Penalty</th>
-<th>Arcane Spell<br>Failure Chance</th>
-<th colspan="2">Speed<br><span style="float: left;">30 ft.</span> <span style="float: right;">20 ft.</span>
-</th>
-<th>Weight<sup>1</sup>
-</th>
-</tr></thead>| Armored coat | 50 gp | +4 | +3 | –2 | 20% | 20 ft. | 15 ft. | 20 lbs. |
+
+| Medium Armor | Price | Armor/Shield  
+Bonus | Max  
+Dex Bonus | Armor  
+Check Penalty | Arcane Spell  
+Failure Chance | Speed  
+30 ft. 20 ft. | Weightⁱ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Armored coat | 50 gp | +4 | +3 | –2 | 20% | 20 ft. | 15 ft. | 20 lbs. |
 | Hide | 15 gp | +4 | +4 | –3 | 20% | 20 ft. | 15 ft. | 25 lbs. |
 | Do-maru | 200 gp | +5 | +4 | –4 | 25% | 20 ft. | 15 ft. | 30 lbs. |
 | Kikko | 30 gp | +5 | +4 | –3 | 20% | 20 ft. | 15 ft. | 25 lbs. |
@@ -157,39 +144,33 @@ Putting on or taking off armor is a sometimes complicated procedure. The time re
 | Four-mirror | 45 gp | +6 | +2 | –5 | 30% | 20 ft. | 15 ft. | 45 lbs. |
 | Lamellar (steel) | 150 gp | +6 | +3 | –5 | 25% | 20 ft. | 15 ft. | 35 lbs. |
 | Mountain pattern | 250 gp | +6 | +3 | –4 | 30% | 20 ft. | 15 ft. | 40 lbs. |
-<thead><tr>
-<th>Heavy Armor</th>
-<th>Price</th>
-<th>Armor/Shield<br>Bonus</th>
-<th>Max<br>Dex Bonus</th>
-<th>Armor<br>Check Penalty</th>
-<th>Arcane Spell<br>Failure Chance</th>
-<th colspan="2">Speed<br><span style="float: left;">30 ft.</span> <span style="float: right;">20 ft.</span>
-</th>
-<th>Weight<sup>1</sup>
-</th>
-</tr></thead>| Banded mail | 250 gp | +7 | +1 | –6 | 35% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 35 lbs. |
-| Kusari gusoku | 350 gp | +7 | +1 | –7 | 35% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 45 lbs. |
-| Lamellar (iron) | 200 gp | +7 | +0 | –7 | 40% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 50 lbs. |
-| Splint mail | 200 gp | +7 | +0 | –7 | 40% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 45 lbs. |
-| Tatami-do | 1,000 gp | +7 | +3 | –6 | 35% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 45 lbs. |
-| Agile half-plate | 850 gp | +8 | +0 | –7 | 40% | 20 ft.<sup>3</sup> | 15 ft.<sup>3</sup> | 55 lbs. |
-| Half-plate | 600 gp | +8 | +0 | –7 | 40% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 50 lbs. |
-| Lamellar (stone) | 500 gp | +8 | +0 | –7 | 40% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 45 lbs. |
-| O-yoroi | 1,700 gp | +8 | +2 | –6 | 35% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 45 lbs. |
-| Full plate | 1,500 gp | +9 | +1 | –6 | 35% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 50 lbs. |
-<thead><tr>
-<th>Shields</th>
-<th>Price</th>
-<th>Armor/Shield<br>Bonus</th>
-<th>Max<br>Dex Bonus</th>
-<th>Armor<br>Check Penalty</th>
-<th>Arcane Spell<br>Failure Chance</th>
-<th colspan="2">Speed<br><span style="float: left;">30 ft.</span> <span style="float: right;">20 ft.</span>
-</th>
-<th>Weight<sup>1</sup>
-</th>
-</tr></thead>| Buckler | 5 gp | +1 | — | –1 | 5% | — | — | 5 lbs. |
+
+| Heavy Armor | Price | Armor/Shield  
+Bonus | Max  
+Dex Bonus | Armor  
+Check Penalty | Arcane Spell  
+Failure Chance | Speed  
+30 ft. 20 ft. | Weightⁱ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Banded mail | 250 gp | +7 | +1 | –6 | 35% | 20 ft.⁲ | 15 ft.⁲ | 35 lbs. |
+| Kusari gusoku | 350 gp | +7 | +1 | –7 | 35% | 20 ft.⁲ | 15 ft.⁲ | 45 lbs. |
+| Lamellar (iron) | 200 gp | +7 | +0 | –7 | 40% | 20 ft.⁲ | 15 ft.⁲ | 50 lbs. |
+| Splint mail | 200 gp | +7 | +0 | –7 | 40% | 20 ft.⁲ | 15 ft.⁲ | 45 lbs. |
+| Tatami-do | 1,000 gp | +7 | +3 | –6 | 35% | 20 ft.⁲ | 15 ft.⁲ | 45 lbs. |
+| Agile half-plate | 850 gp | +8 | +0 | –7 | 40% | 20 ft.⁳ | 15 ft.⁳ | 55 lbs. |
+| Half-plate | 600 gp | +8 | +0 | –7 | 40% | 20 ft.⁲ | 15 ft.⁲ | 50 lbs. |
+| Lamellar (stone) | 500 gp | +8 | +0 | –7 | 40% | 20 ft.⁲ | 15 ft.⁲ | 45 lbs. |
+| O-yoroi | 1,700 gp | +8 | +2 | –6 | 35% | 20 ft.⁲ | 15 ft.⁲ | 45 lbs. |
+| Full plate | 1,500 gp | +9 | +1 | –6 | 35% | 20 ft.⁲ | 15 ft.⁲ | 50 lbs. |
+
+| Shields | Price | Armor/Shield  
+Bonus | Max  
+Dex Bonus | Armor  
+Check Penalty | Arcane Spell  
+Failure Chance | Speed  
+30 ft. 20 ft. | Weightⁱ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Buckler | 5 gp | +1 | — | –1 | 5% | — | — | 5 lbs. |
 | Klar | 12 gp | +1 | — | –1 | 5% | — | — | 6 lbs. |
 | Light steel quickdraw | 59 gp | +1 | — | –2 | 5% | — | — | 7 lbs. |
 | Light steel | 9 gp | +1 | — | –1 | 5% | — | — | 6 lbs. |
@@ -199,27 +180,18 @@ Putting on or taking off armor is a sometimes complicated procedure. The time re
 | Madu (steel) | 50 gp | +1 | — | –2 | 5% | — | — | 6 lbs. |
 | Heavy steel | 20 gp | +2 | — | –2 | 15% | — | — | 15 lbs. |
 | Heavy wooden | 7 gp | +2 | — | –2 | 15% | — | — | 10 lbs. |
-| Tower | 30 gp | +4<sup>4</sup> | +2 | –10 | 50% | — | — | 45 lbs. |
-<thead><tr>
-<th>Extras</th>
-<th>Price</th>
-<th>Armor/Shield<br>Bonus</th>
-<th>Max<br>Dex Bonus</th>
-<th>Armor<br>Check Penalty</th>
-<th>Arcane Spell<br>Failure Chance</th>
-<th colspan="2">Speed<br><span style="float: left;">30 ft.</span> <span style="float: right;">20 ft.</span>
-</th>
-<th>Weight<sup>1</sup>
-</th>
-</tr></thead>| Armor spikes | +50 gp | — | — | — | — | — | — | +10 lbs. |
-| Locked gauntlet | +8 gp | — | — | Special | N/A<sup>5</sup> | — | — | +5 lbs. |
+| Tower | 30 gp | +4⁴ | +2 | –10 | 50% | — | — | 45 lbs. |
+
+| Extras | Price | Armor/Shield  
+Bonus | Max  
+Dex Bonus | Armor  
+Check Penalty | Arcane Spell  
+Failure Chance | Speed  
+30 ft. 20 ft. | Weightⁱ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Armor spikes | +50 gp | — | — | — | — | — | — | +10 lbs. |
+| Locked gauntlet | +8 gp | — | — | Special | N/A⁵ | — | — | +5 lbs. |
 | Shield spikes | +10 gp | — | — | — | — | — | — | +5 lbs. |
-<tfoot><tr><td colspan="9">
-<sup>1</sup> Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much.<br>
-<sup>2</sup> When running in heavy armor, you move only triple your speed, not quadruple.<br>
-<sup>3</sup> When running in agile half-plate, you can still move quadruple your speed, instead of the normal triple speed for heavy armor. <br>
-<sup>4</sup> A tower shield can instead grant you cover. See the description.<br>
-<sup>5</sup> Hand not free to cast spells.</td></tr></tfoot>
 
 Agile Breastplate
 
@@ -385,11 +357,9 @@ Kusari gusoku is similar to tatami-do armor; however, a katabira—a type of cha
 
 Lamellar
 
-<thead><tr>
-<th>Material</th>
-<th>Price</th>
-<th>Armor Bonus</th>
-</tr></thead>| Leather | 60 gp | +4 |
+| Material | Price | Armor Bonus |
+| --- | --- | --- |
+| Leather | 60 gp | +4 |
 | Horn | 100 gp | +5 |
 | Steel | 150 gp | +6 |
 | Iron | 200 gp | +7 |
@@ -463,11 +433,9 @@ Like a normal gauntlet, a locked gauntlet lets you deal lethal damage rather tha
 
 Madu
 
-<thead><tr>
-<th>Material</th>
-<th>Price</th>
-<th>Shield Bonus</th>
-</tr></thead>| Leather | 40 gp | +1 |
+| Material | Price | Shield Bonus |
+| --- | --- | --- |
+| Leather | 40 gp | +1 |
 | Steel | 50 gp | +1 |
 
 The madu is a round, light leather shield with two animal horns—usually from an antelope—extending from opposite edges of the shield. If you are proficient with the madu, you may use it to fight defensively with a –2 penalty instead of the normal –4, and your attack penalty for using [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise) improves by +1 (minimum –1 penalty). You cannot hold anything else in the hand that bears a madu. If you are not proficient with the madu, treat it as a light spiked shield. A madu can't be disarmed. While traditional madus are crafted from leather and animal horn, they can be made entirely out of metal. Whether leather or steel, a madu offers the same basic protection and attack benefits, though the two varieties respond differently to some spells and effects (such as _ [rusting grasp](/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp)_). A druid can use a leather madu, but not a steel madu.

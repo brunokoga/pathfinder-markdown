@@ -40,7 +40,7 @@ Statistics
 
 **Base Atk** +5; **CMB** +5; **CMD** 18
 
-**Feats** [Eschew Materials](/pathfinderRPG/prd/additionalMonsters/../feats.html#_eschew-materials)<sup>B</sup>, [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)
+**Feats** [Eschew Materials](/pathfinderRPG/prd/additionalMonsters/../feats.html#_eschew-materials)B, [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +9 (+17 jump), [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +14, [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist) +8, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana) +7, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +9, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +9; **Racial Modifiers** +2 [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics), +2 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)
 

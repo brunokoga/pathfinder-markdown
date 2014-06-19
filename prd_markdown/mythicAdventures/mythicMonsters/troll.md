@@ -36,7 +36,7 @@ Statistics
 
 **Base Atk** +4; **CMB** +11; **CMD** 23
 
-**Feats** [Intimidating Prowess](/pathfinderRPG/prd/feats.html#_intimidating-prowess), [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)<sup>M</sup>, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Intimidating Prowess](/pathfinderRPG/prd/feats.html#_intimidating-prowess), [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
 
 **Skills** [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +10, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8
 

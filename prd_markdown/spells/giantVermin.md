@@ -18,12 +18,9 @@ You turn a number of normal-sized centipedes, scorpions, or spiders into their g
 
 Giant vermin created by this spell do not attempt to harm you, but your control of such creatures is limited to simple commands (âAttack,â âDefend,â âStop,â and so forth). Orders to attack a certain creature when it appears or guard against a particular occurrence are too complex for the vermin to understand. Unless commanded to do otherwise, the giant vermin attack whomever or whatever is near them.
 
-<thead><tr>
-<th>Caster Level</th>
-<th>Centipedes</th>
-<th>Scorpions</th>
-<th>Spiders</th>
-</tr></thead>| 9th or lower | 3 | 1 | 2 |
+| Caster Level | Centipedes | Scorpions | Spiders |
+| --- | --- | --- | --- |
+| 9th or lower | 3 | 1 | 2 |
 | 10th–13th | 4 | 2 | 3 |
 | 14th–17th | 6 | 3 | 4 |
 | 18th–19th | 8 | 4 | 5 |

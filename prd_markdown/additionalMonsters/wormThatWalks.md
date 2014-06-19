@@ -62,7 +62,7 @@ Statistics
 
 **Base Atk** +6; **CMB** +5 (+13 grapple); **CMD** 26
 
-**Feats** [Arcane Armor Training](/pathfinderRPG/prd/additionalMonsters/../feats.html#_arcane-armor-training), [Combat Casting](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-casting), [Combat Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes), [Craft Magic Arms and Armor](/pathfinderRPG/prd/additionalMonsters/../feats.html#_craft-magic-arms-and-armor), [Craft Wondrous Item](/pathfinderRPG/prd/additionalMonsters/../feats.html#_craft-wondrous-item), [Diehard](/pathfinderRPG/prd/additionalMonsters/../feats.html#_diehard)<sup>B</sup>, [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), Light Armor Proficiency, [Scribe Scroll](/pathfinderRPG/prd/additionalMonsters/../feats.html#_scribe-scroll), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)
+**Feats** [Arcane Armor Training](/pathfinderRPG/prd/additionalMonsters/../feats.html#_arcane-armor-training), [Combat Casting](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-casting), [Combat Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes), [Craft Magic Arms and Armor](/pathfinderRPG/prd/additionalMonsters/../feats.html#_craft-magic-arms-and-armor), [Craft Wondrous Item](/pathfinderRPG/prd/additionalMonsters/../feats.html#_craft-wondrous-item), [Diehard](/pathfinderRPG/prd/additionalMonsters/../feats.html#_diehard)B, [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), Light Armor Proficiency, [Scribe Scroll](/pathfinderRPG/prd/additionalMonsters/../feats.html#_scribe-scroll), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)
 
 **Skills** [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (alchemy) +21, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +20, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +13, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana, dungeoneering, planes) +21, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +22, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +9, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +21, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +12; **Racial Modifiers**   
 +8 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception), +8 [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive), +8 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)
@@ -116,10 +116,10 @@ _Immunities_: Worms that walk are immune to disease, paralysis, poison, and slee
 _Discorporate (Su)_ A worm that walks can collapse into a shapeless swarm of worms   
 as a free action. All held, worn, and carried items fall and its Strength score drops to 1. The worm that walks functions as a true swarm while discorporated, with a reach of 0 feet (its space remains unchanged). While discorporated, the worm that walks loses all of its defensive abilities and gains all of the standard swarm traits. It loses its slam attacks and all special abilities and special attacks, but can make a swarm attack that deals damage equal to its engulf attack. A worm that walks can reform into its true form (including equipping all gear in reach) as a full-round action as long as it has at least 1 hit point.
 
-<caption>Table: Engulf Damage</caption><thead><tr>
-<th>HD</th>
-<th>Engulf Damage</th>
-</tr></thead>| 1–5 | 1d6 + 1.5 Str bonus |
+[Table: Engulf Damage]
+| HD | Engulf Damage |
+| --- | --- |
+| 1–5 | 1d6 + 1.5 Str bonus |
 | 6–10 | 2d6 + 1.5 Str bonus |
 | 11–15 | 3d6 + 1.5 Str bonus |
 | 16–20 | 4d6 + 1.5 Str bonus |

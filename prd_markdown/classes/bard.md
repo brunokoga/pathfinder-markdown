@@ -14,25 +14,12 @@ The bard's class skills are [Acrobatics](../skills/acrobatics.html#_acrobatics) 
 
 **Skill Ranks per Level** : 6 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Bard</caption><thead>
-<tr>
-<th rowspan="2">Level</th>
-<th rowspan="2">Base Attack Bonus</th>
-<th rowspan="2">Fort Save</th>
-<th rowspan="2">Ref Save</th>
-<th rowspan="2">Will Save</th>
-<th rowspan="2">Special</th>
-<th colspan="6">Spells per Day</th>
-</tr>
-<tr>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-</tr>
-</thead>| 1st | +0 | +0 | +2 | +2 | Bardic knowledge, bardic performance, cantrips,countersong, distraction, fascinate, inspire courage +1 | 1 | — | — | — | — | — |
+[Table: Bard]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | 2nd | 3rd | 4th | 5th | 6th |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +2 | +2 | Bardic knowledge, bardic performance, cantrips,countersong, distraction, fascinate, inspire courage +1 | 1 | — | — | — | — | — |
 | 2nd | +1 | +0 | +3 | +3 | Versatile performance, well-versed | 2 | — | — | — | — | — |
 | 3rd | +2 | +1 | +3 | +3 | Inspire competence +2 | 3 | — | — | — | — | — |
 | 4th | +3 | +1 | +4 | +4 | | 3 | 1 | — | — | — | — |
@@ -53,21 +40,12 @@ The bard's class skills are [Acrobatics](../skills/acrobatics.html#_acrobatics) 
 | 19th | +14/+9/+4 | +6 | +11 | +11 | Inspire competence +6 | 5 | 5 | 5 | 5 | 5 | 4 |
 | 20th | +15/+10/+5 | +6 | +12 | +12 | Deadly performance | 5 | 5 | 5 | 5 | 5 | 5 |
 
-<caption>Table: Bard Spells Known</caption><thead>
-<tr>
-<th rowspan="2">Level</th>
-<th colspan="7">Spells Known</th>
-</tr>
-<tr>
-<th>0</th>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-</tr>
-</thead>| 1st | 4 | 2 | — | — | — | — | — |
+[Table: Bard Spells Known]
+| Level | Spells Known |
+| --- | --- |
+| 0 | 1st | 2nd | 3rd | 4th | 5th | 6th |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | 4 | 2 | — | — | — | — | — |
 | 2nd | 5 | 3 | — | — | — | — | — |
 | 3rd | 6 | 4 | — | — | — | — | — |
 | 4th | 6 | 4 | 2 | — | — | — | — |

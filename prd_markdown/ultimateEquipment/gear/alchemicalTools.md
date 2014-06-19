@@ -2,12 +2,10 @@
 
 Alchemical tools are adventuring items that can prove extremely useful in a variety of situations, including battles, dungeon-delving, or crafting other alchemical items. All of these tools can be made by a character with the [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) skill.
 
-<caption>Alchemical Tools</caption><thead><tr>
-<th>Item</th>
-<th>Price</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Alchemical cement | 5 gp | 2 lbs. | 15 |
+[Alchemical Tools]
+| Item | Price | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Alchemical cement | 5 gp | 2 lbs. | 15 |
 | Alchemical glue | 20 gp | 1/2 lb. | 20 |
 | Alchemical glue accelerant | 25 gp | — | 25 |
 | Alchemical solvent | 20 gp | 1/2 lb. | 20 |
@@ -142,11 +140,9 @@ This milky white liquid bubbles into a 1-foot-thick semisolid sheet of foam when
 
 Invisible Ink
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Simple | 2 gp | — |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Simple | 2 gp | — |
 | Average | 10 gp | — |
 | Good | 25 gp | — |
 | Superior | 75 gp | — |
@@ -231,11 +227,9 @@ This fist-sized blue sponge absorbs up to 1 pint of water; squeezing the water o
 
 Weapon Blanch
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Adamantine | 100 gp | 1/2 lb. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Adamantine | 100 gp | 1/2 lb. |
 | Cold iron | 20 gp | 1/2 lb. |
 | Silver | 5 gp | 1/2 lb. |
 

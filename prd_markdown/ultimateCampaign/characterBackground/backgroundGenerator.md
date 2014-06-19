@@ -28,27 +28,27 @@ The tables below determine the basics of your family and homeland. These establi
 
 Many dwarves come from industrious and tight-knit communities of like-minded individuals who work together to accomplish a common goal.
 
-<caption>Dwarf Homeland</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—40 | **Hills or Mountains** : You gain access to the Goldsniffer race trait and the Highlander regional trait. |
+[Dwarf Homeland]
+| d% | Result |
+| --- | --- |
+| 01—40 | **Hills or Mountains** : You gain access to the Goldsniffer race trait and the Highlander regional trait. |
 | 41—80 | **Underground** : You gain access to the Surface Stranger regional trait and the Tunnel Fighter race trait. |
 | 81—87 | **Non-Dwarven Town or Village** : You gain access to the Brewmaster race trait and the Militia Veteran regional trait. |
 | 88—95 | **Non-Dwarven City or Metropolis** : You gain access to the Brewmaster race trait and the Vagabond Child regional trait. |
 | 96—100 | **Unusual Homeland** : Roll on the Unusual Homeland table. |
 
-<caption>Dwarf Parents</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—60 | Both of your parents are alive. |
+[Dwarf Parents]
+| d% | Result |
+| --- | --- |
+| 01—60 | Both of your parents are alive. |
 | 61—73 | Only your father is alive. |
 | 74—86 | Only your mother is alive. |
 | 87—100 | Both of your parents are dead. You gain access to the Orphaned social trait. |
 
-<caption>Dwarf Siblings</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—80 | 1d4 biological siblings. With two or more siblings, you gain access to the Kin Guardian combat trait. |
+[Dwarf Siblings]
+| d% | Result |
+| --- | --- |
+| 01—80 | 1d4 biological siblings. With two or more siblings, you gain access to the Kin Guardian combat trait. |
 | 81—90 | 1d4+1 biological siblings. You gain access to the Kin Guardian combat trait. |
 | 91—95 | 1d3—1 biological siblings and 1d3—1 adopted siblings. With two or more siblings, you gain access to the Kin Guardian combat trait. Roll on the Race of Adopted Sibling table to determine the race of any adopted siblings. |
 | 96—100 | No siblings. |
@@ -57,26 +57,26 @@ Many dwarves come from industrious and tight-knit communities of like-minded ind
 
 Elves are often raised in insular elven communities, and the longevity of these people means that elven children often grow up with the help of a large social network.
 
-<caption>Elf Homeland</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—60 | **Forest** : You gain access to the Log Roller regional trait. |
+[Elf Homeland]
+| d% | Result |
+| --- | --- |
+| 01—60 | **Forest** : You gain access to the Log Roller regional trait. |
 | 61—80 | **Non-Elven City or Metropolis** : If you're an elf, you gain access to the Civilized social trait and the Forlorn race trait. If you're a half-elf, you gain access to the Civilized social trait and the Failed Apprentice race trait. |
 | 81—95 | **Non-Elven Town or Village** : If you're an elf, you gain access to the Forlorn race trait. If you're a half-elf, you gain access to the Failed Apprentice race trait. |
 | 96—100 | **Unusual Homeland** : Roll on the Unusual Homeland table. If you're an elf, you gain access to the Forlorn trait. If you're a half-elf, you gain access to the Elven Reflexes race trait. |
 
-<caption>Elf Parents </caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—79 | Both of your parents are alive. |
+[Elf Parents]
+| d% | Result |
+| --- | --- |
+| 01—79 | Both of your parents are alive. |
 | 80—87 | Only your father is alive. |
 | 88—95 | Only your mother is alive. |
 | 96—100 | Both of your parents are dead. You gain access to the Orphaned social trait. |
 
-<caption>Elf Siblings</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—80 | 1d2 biological siblings. If you roll 2 siblings, you gain access to the Kin Guardian combat trait. |
+[Elf Siblings]
+| d% | Result |
+| --- | --- |
+| 01—80 | 1d2 biological siblings. If you roll 2 siblings, you gain access to the Kin Guardian combat trait. |
 | 81—85 | 1d4+1 biological siblings. You gain access to the Kin Guardian combat trait. |
 | 86—90 | 1d4+1 biological siblings. 1d3—1 of these siblings are half-elves, adopted, or a mix of the two (your choice). You gain access to the Kin Guardian combat trait. Roll on the Race of Adopted Sibling table to determine the race of any adopted siblings. |
 | 91—100 | No siblings. |
@@ -85,26 +85,26 @@ Elves are often raised in insular elven communities, and the longevity of these 
 
 The capricious and carefree gnomes of the world are widespread and varied. They typically either form their own gnome communities or integrate themselves into other humanoid societies.
 
-<caption>Gnome Homeland</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—30 | **Forest** : You gain access to the Log Roller regional trait and the Animal Friend race trait. |
+[Gnome Homeland]
+| d% | Result |
+| --- | --- |
+| 01—30 | **Forest** : You gain access to the Log Roller regional trait and the Animal Friend race trait. |
 | 31—65 | **Non-Gnome Town or Village** : You gain access to the Animal Friend race trait. |
 | 66—95 | **Non-Gnome City or Metropolis** : You gain access to the Rapscallion race trait. |
 | 96—100 | **Unusual Homeland** : Roll on the Unusual Homeland table. |
 
-<caption>Gnome Parents </caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—90 | Both of your parents are alive. |
+[Gnome Parents]
+| d% | Result |
+| --- | --- |
+| 01—90 | Both of your parents are alive. |
 | 91—93 | Only your father is alive. |
 | 94—96 | Only your mother is alive. |
 | 97—100 | Both of your parents are dead. You gain access to the Orphaned social trait. |
 
-<caption>Gnome Siblings</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—50 | 1d4 biological siblings. With two or more siblings, you gain access to the Kin Guardian combat trait. |
+[Gnome Siblings]
+| d% | Result |
+| --- | --- |
+| 01—50 | 1d4 biological siblings. With two or more siblings, you gain access to the Kin Guardian combat trait. |
 | 51—60 | 1d4—1 biological siblings and one adopted sibling. With two or more siblings, you gain access to the Kin Guardian combat trait. Roll on the Race of Adopted Sibling table to determine the race of any adopted siblings. |
 | 61—100 | No siblings. |
 
@@ -112,26 +112,26 @@ The capricious and carefree gnomes of the world are widespread and varied. They 
 
 Born of two very different worlds, half-elves rarely have easy childhoods. Torn as half-elves are between disparate peoples, the presence of their families helps ensure they do not grow up totally alone, though orphaned half-elves have to create families of their own.
 
-<caption>Half-Elf Homeland</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—25 | **Raised in an Elven Homeland** : Roll on the Elf Homeland table. |
+[Half-Elf Homeland]
+| d% | Result |
+| --- | --- |
+| 01—25 | **Raised in an Elven Homeland** : Roll on the Elf Homeland table. |
 | 26—75 | **Raised in a Human Homeland** : Roll on the Human Homeland table. |
 | 76—95 | **Forest** : You gain access to the Log Roller regional trait. |
 | 96—100 | **Unusual Homeland** : Roll on the Unusual Homeland table. |
 
-<caption>Half-Elf Parents </caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—20 | Both of your parents are alive. |
+[Half-Elf Parents]
+| d% | Result |
+| --- | --- |
+| 01—20 | Both of your parents are alive. |
 | 21—55 | Only your father is alive. |
 | 56—90 | Only your mother is alive. |
 | 91—100 | Both of your parents are dead. You gain access to the Orphaned social trait. |
 
-<caption>Half-Elf Siblings</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—20 | 1d2 half-siblings (either elf or human, your choice). With two or more siblings, you gain access to the Kin Guardian combat trait. |
+[Half-Elf Siblings]
+| d% | Result |
+| --- | --- |
+| 01—20 | 1d2 half-siblings (either elf or human, your choice). With two or more siblings, you gain access to the Kin Guardian combat trait. |
 | 21—30 | One half-elf sibling. You gain access to the Kin Bond magic trait. |
 | 31—100 | No siblings. |
 
@@ -139,27 +139,27 @@ Born of two very different worlds, half-elves rarely have easy childhoods. Torn 
 
 Only rarely the result of a happy union between the humans and orcs that bring them into the world, half-orcs are often regarded as monsters. This bleak reality makes those rare half-orcs, cherished as much as the young of any other race, even more extraordinary.
 
-<caption>Half-Orc Homeland</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—25 | **Subterranean** : You gain access to either the Scrapper race trait or the Surface Stranger regional trait. |
+[Half-Orc Homeland]
+| d% | Result |
+| --- | --- |
+| 01—25 | **Subterranean** : You gain access to either the Scrapper race trait or the Surface Stranger regional trait. |
 | 26—60 | **Orc Settlement** : You gain access to the Scrapper race trait. |
 | 61—75 | **Raised in a Human Homeland** : Roll on the Human Homeland table. |
 | 76—90 | **No True Homeland** : You have lived a life on the run and gain access to the Outcast race trait. |
 | 91—100 | **Unusual Homeland** : Roll on the Unusual Homeland table. |
 
-<caption>Half-Orc Parents </caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | Both of your parents are alive. |
+[Half-Orc Parents]
+| d% | Result |
+| --- | --- |
+| 01—10 | Both of your parents are alive. |
 | 11—35 | Only your father is alive. |
 | 36—60 | Only your mother is alive. |
 | 61—100 | Both of your parents are dead. You gain access tothe Orphaned social trait. |
 
-<caption>Half-Orc Siblings</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—60 | 1d6+1 orc siblings. You gain access to the Kin Guardian combat trait. |
+[Half-Orc Siblings]
+| d% | Result |
+| --- | --- |
+| 01—60 | 1d6+1 orc siblings. You gain access to the Kin Guardian combat trait. |
 | 61—70 | 1d4 human siblings. With two or more siblings, you gain access to the Kin Guardian combat trait. |
 | 71—80 | One half-orc sibling. |
 | 81—100 | No siblings. |
@@ -168,26 +168,26 @@ Only rarely the result of a happy union between the humans and orcs that bring t
 
 Social and amicable by nature, halflings fit equally well in both communities of humans and those of their wily kinsfolk. Prone to wanderlust, halflings can be found anywhere civilized humanoids settle.
 
-<caption>Halfling Homeland</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—50 | **Halfling Settlement** : You gain access to the Civilized social trait and the Well-Informed race trait. |
+[Halfling Homeland]
+| d% | Result |
+| --- | --- |
+| 01—50 | **Halfling Settlement** : You gain access to the Civilized social trait and the Well-Informed race trait. |
 | 51—80 | **Human Settlement** : You gain access to the Child of the Streets social trait and the Well-Informed race trait. |
 | 81—95 | **Traveling Band or Caravan** : You gain access to the Friend in Every Town social trait. |
 | 96—100 | **Unusual Homeland** : Roll on the Unusual Homeland table. |
 
-<caption>Halfling Parents </caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—70 | Both parents living. |
+[Halfling Parents]
+| d% | Result |
+| --- | --- |
+| 01—70 | Both parents living. |
 | 71—80 | Only your father is alive. |
 | 81—90 | Only your mother is alive. |
 | 91—100 | Both of your parents are dead. You gain access to the Orphaned social trait. |
 
-<caption>Halfling Siblings</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—30 | 1d2 siblings. With two siblings, you gain access to the Kin Guardian combat trait. |
+[Halfling Siblings]
+| d% | Result |
+| --- | --- |
+| 01—30 | 1d2 siblings. With two siblings, you gain access to the Kin Guardian combat trait. |
 | 31—90 | 1d4+1 siblings. You gain access to the Kin Guardian combat trait. |
 | 91—100 | No siblings. |
 
@@ -195,26 +195,26 @@ Social and amicable by nature, halflings fit equally well in both communities of
 
 As diverse as they are widespread, humans tend to grow up in small or large societies of people with similar origins and histories, though individuals' paths may run the gamut from idealized to tragic.
 
-<caption>Human Homeland</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—50 | **Town or Village** : You gain access to the Militia Veteran regional trait. |
+[Human Homeland]
+| d% | Result |
+| --- | --- |
+| 01—50 | **Town or Village** : You gain access to the Militia Veteran regional trait. |
 | 51—85 | **City or Metropolis** : If you're a human, you gain access to the Civilized social trait and the Vagabond Child regional trait. If you're a half-elf, you gain access to the Civilized social trait and the Failed Apprentice race trait. If you're a half-orc, you gain access to the Brute race trait and the Vagabond Child regional trait. |
 | 86—95 | **Frontier** : You gain access to the Frontier-Forged regional trait. |
 | 96—100 | **Unusual Homeland** : Roll on the Unusual Homeland table. |
 
-<caption>Human Parents</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—50 | Both of your parents are alive. |
+[Human Parents]
+| d% | Result |
+| --- | --- |
+| 01—50 | Both of your parents are alive. |
 | 51—70 | Only your father is alive. |
 | 71—90 | Only your mother is alive. |
 | 91—100 | Both of your parents are dead. You gain access to the Orphaned social trait. |
 
-<caption>Human Siblings</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—40 | 1d2 siblings. With two siblings, you gain access to the Kin Guardian combat trait. |
+[Human Siblings]
+| d% | Result |
+| --- | --- |
+| 01—40 | 1d2 siblings. With two siblings, you gain access to the Kin Guardian combat trait. |
 | 41—70 | 1d2 siblings and 1d2 half-siblings (roll d% to determine each one's race; 01—50: half-elf, 51—100: half-orc). You gain access to the Kin Guardian combat trait. |
 | 71—90 | 2d4 siblings. You gain access to the Kin Guardian combat trait. |
 | 91—100 | No siblings. |
@@ -223,17 +223,17 @@ As diverse as they are widespread, humans tend to grow up in small or large soci
 
 If you have at least one sibling, roll on the table below to determine the relative age of each sibling. For each adopted sibling, roll on the Race of Adopted Sibling table to determine that sibling's race.
 
-<caption>Relative Age of Sibling</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—48 | Your sibling is older than you. |
+[Relative Age of Sibling]
+| d% | Result |
+| --- | --- |
+| 01—48 | Your sibling is older than you. |
 | 49—96 | Your sibling is younger than you. |
 | 97—100 | You and a sibling are twins (identical or fraternal, your choice). Roll on this table again. If you roll this result again, you are one of triplets; otherwise, your sibling's relative age determines which of you emerged first. |
 
-<caption>Race of Adopted Sibling</caption><thead><tr>
-<th>%</th>
-<th>Result</th>
-</tr></thead>| 01 | Aasimar |
+[Race of Adopted Sibling]
+| % | Result |
+| --- | --- |
+| 01 | Aasimar |
 | 02 | Catfolk |
 | 03—04 | Changeling |
 | 05 | Dhampir |
@@ -274,10 +274,10 @@ If you have at least one sibling, roll on the table below to determine the relat
 
 You grew up in a region not typically associated with the lands that your people call home. Roll on the Unusual Homeland table to determine the homeland of your family. If the result is one that is typical for your race, this region is one where there are few other members of your race, outside of your family.
 
-<caption>Unusual Homeland</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Subterranean** : You gain access to the Surface Stranger regional trait. |
+[Unusual Homeland]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Subterranean** : You gain access to the Surface Stranger regional trait. |
 | 11—25 | **Mountains** : You gain access to the Highlander regional trait. |
 | 26—40 | **Plains** : You gain access to the Savanna Child regional trait. |
 | 41—50 | **Town or Village** : You gain access to the Militia Veteran regional trait. |
@@ -293,10 +293,10 @@ You grew up in a region not typically associated with the lands that your people
 
 Roll once to determine the circumstances of your birth.
 
-<caption>Circumstance of Birth</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—40 | Lower-Class Birth: You were born among peasants or slum denizens. You grew up working the land around a village or manor, practicing a rudimentary trade, or begging in a settlement. You gain access to the Poverty-Stricken social trait. Roll 2d20 on the Parents' Profession table to determine your parents' occupation, instead of rolling d%. |
+[Circumstance of Birth]
+| d% | Result |
+| --- | --- |
+| 01—40 | Lower-Class Birth: You were born among peasants or slum denizens. You grew up working the land around a village or manor, practicing a rudimentary trade, or begging in a settlement. You gain access to the Poverty-Stricken social trait. Roll 2d20 on the Parents' Profession table to determine your parents' occupation, instead of rolling d%. |
 | 41—65 | Middle-Class Birth: You were born to the middle class, which includes merchants, artisans, and tradespeople. You likely grew up in a good-sized settlement, and one of your parents is likely associated with a guild or other trade organization. As a free person, you don't experience the bondage of serfdom or peasantry, but you also lack the privilege of the nobility. You gain access to the Artisan social trait and the Merchant social trait. |
 | 66—70 | Noble Birth: You were born to privilege among the nobility. Unless one of your parents is the regent, your family serves a higher-ranked noble but lesser nobles serve your family in turn. You gain access to the Influence social trait and the Rich Parents social trait. Roll on the Nobility table: Nobility to determine your family's noble rank. |
 | 71—72 | Adopted Outside Your Race: You were not raised by your birth family and grew up in a family of a different race than your own. Roll on the Adopted Outside Your Race table. |
@@ -321,10 +321,10 @@ Roll once to determine the circumstances of your birth.
 
 Most of the time, your parents both come from the same social stratum. It's uncommon, but not unheard of, for people to marry outside their caste. Roll on the table below to determine the principal profession of your parents.
 
-<caption>Parents' Profession</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—05 | **Slaves** : You gain access to the Life of Toil social trait. |
+[Parents' Profession]
+| d% | Result |
+| --- | --- |
+| 01—05 | **Slaves** : You gain access to the Life of Toil social trait. |
 | 06—25 | **Serfs/Peasants** : You gain access to the Poverty- Stricken social trait. |
 | 26—30 | **Entertainers** : You gain access to the Talented social trait. |
 | 31—34 | **Soldiers** : You gain access to the Tactician combat trait. |
@@ -340,10 +340,10 @@ Most of the time, your parents both come from the same social stratum. It's unco
 
 If you made a roll that determined your character was adopted outside your race, roll on the table below to determine the type of creature that raised you.
 
-<caption>Adopted Outside Your Race</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—05 | **Adopted by Dragons** : For its own purposes, a dragon raised you as its own. You have learned the language and history, wisdom, power, and might of dragonkind. You gain access to the Blood of Dragons bloodline race trait and the Magical Knack magic trait. |
+[Adopted Outside Your Race]
+| d% | Result |
+| --- | --- |
+| 01—05 | **Adopted by Dragons** : For its own purposes, a dragon raised you as its own. You have learned the language and history, wisdom, power, and might of dragonkind. You gain access to the Blood of Dragons bloodline race trait and the Magical Knack magic trait. |
 | 06—10 | **Adopted by the Fey** : Your adoptive parents were fey creatures such as korreds, pixies, or a dryad. You gain access to the Charming social trait and the Magical Knack magic trait. |
 | 11—13 | **Raised Among the Dead** : Your adoptive parent is a nonliving creature, such as a spectre, ghost, lich, or vampire. You were likely raised in empty ruined halls, among tombs and crypts, by a creature that feeds on life. What its purpose was for raising you, none can say. You gain access to the Deathtouched bloodline race trait, the Magical Knack magic trait, and the Glimpse Beyond story feat. |
 | 14—19 | **Raised by Angels** : Angels attended your birth and took you to live with them in the heavens. These cosmic beings expanded your view to encompass not just the world but the larger universe. You know that wherever you go, your angelic parents watch over you. You gain access to the Blessed faith trait. |
@@ -356,10 +356,10 @@ If you made a roll that determined your character was adopted outside your race,
 
 As a person of noble rank, you have access to a degree of wealth, privilege, or influence beyond that of the common people. If your character is of noble birth (and comes from a society where the nobility uses a traditional structure of rank), roll on the Nobility table to learn your parents' position among the ruling class.
 
-<caption>Nobility</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—60 | **Gentry** : You are the child of a minor lord, lady, or noble with an income, hereditary land such as a manor, and titles. You likely grew up in a manor and your parents were paid tribute by peasants. Your parents serve a higher baron, count, or duke. |
+[Nobility]
+| d% | Result |
+| --- | --- |
+| 01—60 | **Gentry** : You are the child of a minor lord, lady, or noble with an income, hereditary land such as a manor, and titles. You likely grew up in a manor and your parents were paid tribute by peasants. Your parents serve a higher baron, count, or duke. |
 | 61—78 | **Knight** : You are the child of a knight, a noble with estates, titles, and lands who serves a lord. Your family has sworn an oath of fealty to a liege—such as a baron, count, or duke—and commits to military service in his or her name. As the child of a knight, you may serve as a squire to another knight while pursuing your own path to knighthood. |
 | 79—85 | **Baron** : You are the child of a baron or baroness, a noble responsible for a land encompassing several smaller manors that pay tribute. Your parents receive orders directly from the monarch, and you're expected to attend the royal court. You are entitled to hereditary estates, titles, and land. |
 | 86—91 | **Count** : You are the noble child of a count or countess. Your family members receive hereditary titles, land, and estates, and are among the most wealthy nobles in your domain. Knights and minor lords pay tribute to your family, and your parents attend directly to the monarch. You're expected to attend the royal court. |
@@ -371,10 +371,10 @@ As a person of noble rank, you have access to a degree of wealth, privilege, or 
 
 During your childhood, you were influenced by a significant event that helped to shape the person you became. Roll on the table below to determine the type of event that shaped you in early childhood.
 
-<caption>Major Childhood Event</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—05 | **Academy Training** : You attended a private academy where you studied a number of skills and gained training in your current profession. Whether you were a brilliant student or a dropout, the university environment was your home for a good portion of your formative years. You gain access to the Focused Mind magic trait. |
+[Major Childhood Event]
+| d% | Result |
+| --- | --- |
+| 01—05 | **Academy Training** : You attended a private academy where you studied a number of skills and gained training in your current profession. Whether you were a brilliant student or a dropout, the university environment was your home for a good portion of your formative years. You gain access to the Focused Mind magic trait. |
 | 06—10 | **Betrayal** : A friend or family member whom you trusted more than anyone else betrayed you. You have never fully trusted anyone since and prefer to rely on your own abilities rather than place your trust in others. You gain access to the Suspicious social trait. |
 | 11—15 | **Bullied** : In your early life, you were a victim— easy prey for those stronger or cleverer than yourself. They beat you when they could, using you for their sport. This abuse nursed a powerful flame of vengeance. You gain access to the Bullied combat trait. |
 | 16—20 | **Competition Champion** : You distinguished yourself at an early age when you won a competition. This might have been a martial contest of arms, a showing of apprentice magicians, high stakes gambling, or something mundane like an eating championship. You gain access to the Influence social trait and the Champion story feat. |
@@ -409,10 +409,10 @@ The training you undertake during your youth decides the person you will become 
 
 Instead of wielding magic as divine and arcane casters know it, alchemists master fiery concoctions and mutagens by studying formulae that unlock the secrets of reagent reactions. Though some alchemists use their discoveries and knowledge of rare and exotic components to benefit the world, others are not so scrupulous with their powerful potables. Roll on the table below to determine what event inspired you to study alchemy.
 
-<caption>Alchemist Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Accidental Discovery** : Your keen intellect has always been an asset in your studies of the alchemical arts, but along with your logic and rationale, you have a "sense" for alchemy. This intuition sometimes leads to discoveries through methods most of your peers would never have thought possible, but that you somehow know will work. You gain access to the Alchemical Intuition magic trait. |
+[Alchemist Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Accidental Discovery** : Your keen intellect has always been an asset in your studies of the alchemical arts, but along with your logic and rationale, you have a "sense" for alchemy. This intuition sometimes leads to discoveries through methods most of your peers would never have thought possible, but that you somehow know will work. You gain access to the Alchemical Intuition magic trait. |
 | 11—20 | **Firebug** : Although you've studied all aspects of the alchemist's craft, your have a talent for fire. Fire has always been a seductive and powerful force that you have either embraced with glee or focused care. You are adept at exploiting a weakness to fire when you recognize it. You gain access to the Focused Burn magic trait. |
 | 21—30 | **Wasn't Strong Enough** : You suffered something at an early age that made you feel powerless. Maybe a relative died from plague, a friend was crushed beneath rubble you were too weak to move, or some other horrible tragedy occurred. You turned to alchemy to transcend the limitations of your physical form. Your relentless dedication has made your bolstering abilities more persistent. You gain access to the Enduring Mutagen magic trait. |
 | 31—40 | **Magic for the Uninclined** : You were always interested in the arcane, but lacked the innate magic of sorcerers or the single-minded dedication possessed by wizards. As a disciple of science, the magic of faith was also closed to you. You dedicated yourself to alchemy, focusing on extracts that mimic the magic you once hoped to wield. That original interest in magic still grants you occasional rare insight into the workings of your formulae. You gain access to the Cross-Knowledge magic trait. |
@@ -427,10 +427,10 @@ Instead of wielding magic as divine and arcane casters know it, alchemists maste
 
 Barbarians are fueled by an almost supernatural rage that helps them loose the volatile stores of adrenaline within their bodies. This rage stays with the barbarian throughout her life as an adventurer, and she learns to refine her fits of passionate anger only over time. Yet each barbarian's rage is different and personal. It comes from the primal depths of her soul, and cannot be manufactured. Only a select few can channel that purest, deepest rage into overpowering combat prowess. Roll on the table below to determine the event that caused you to first experience your rage.
 
-<caption>Barbarian Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Vengeance** : When you were young, a great wrong was done to you, a loved one, your family, or your people. This experience tore you apart and reduced you to a being of primal emotions. Dreams of vengeance became your only promise of comfort. You gain access to the Axe to Grind combat trait, the Foeslayer story feat, and the Vengeance story feat. |
+[Barbarian Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Vengeance** : When you were young, a great wrong was done to you, a loved one, your family, or your people. This experience tore you apart and reduced you to a being of primal emotions. Dreams of vengeance became your only promise of comfort. You gain access to the Axe to Grind combat trait, the Foeslayer story feat, and the Vengeance story feat. |
 | 11—20 | **Champion of a God** : At your coming-of-age ritual, your deity, totem, or patron spirit sparked your soul with a religious zeal. This entity might be a beast spirit, a warmongering god, a demon lord, or some other supernatural entity. In the name of this otherworldly force you become an unstoppable warrior—the bane of all your tribe's foes. You gain access to the Inspired faith trait and the Champion story feat. |
 | 21—30 | **Conquest** : Upon coming of age, you went on your first raid, where you learned the thrill of violence and chaos and the satisfaction that came with the spoils of your victory. When your enemies dare to stand against you, your rage rekindles until you have conquered and subdued them. You gain access to the Killer combat trait. |
 | 31—40 | **Hated Foe** : In your formative years, you learned to despise a certain individual, tribe, kingdom, empire, race, or monster due to some slight it inflicted upon you or your people. This foe lurks ever close to your thoughts. So intense is your hatred that the mere thought of this foe can incite your rage. You gain access to the Reckless combat trait and the Foeslayer story feat. |
@@ -445,10 +445,10 @@ Barbarians are fueled by an almost supernatural rage that helps them loose the v
 
 Bards have a talent for song and story, and they come to their careers by developing this talent as they pick up on a smattering of other skills. Roll on the table below to determine the incident that brought you to that path.
 
-<caption>Bard Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Celebrity** : In your formative years, you saw a player or troupe of players perform before an enthralled audience. That's when you decided that you wanted to be up on that stage performing for the adulation of the crowd. As a minor celebrity, you gain access to either the Charming social trait or the Influence social trait. |
+[Bard Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Celebrity** : In your formative years, you saw a player or troupe of players perform before an enthralled audience. That's when you decided that you wanted to be up on that stage performing for the adulation of the crowd. As a minor celebrity, you gain access to either the Charming social trait or the Influence social trait. |
 | 11—20 | **Cultural Mandate** : There has always been a revered storyteller in your culture. This could be an official skald, a royal minstrel, the washerman who spins parables and folk wisdom, or the old farmer who tells tall tales at the pub. Ever since you were young, your community has groomed you to fulfill this role. As a silver-tongued storyteller, you gain access to the Fast Talker social trait. |
 | 21—30 | **Dabbler** : Whether you grew up rich or poor, you refused to accept the limits imposed by your social class or means. In your youth, you determined to learn a little bit of all there was to know. You may not be the master of any one career, but the breadth of your experience is wide, textured, and diverse. You gain access to the Worldly social trait. |
 | 31—40 | **For Love** : When you were young, you tried to express yourself to your beloved using song or poetry. Driven by desire, you refined your skill and learned to articulate raw emotion in story and song. You gain access to the Ear for Music religion trait and the True Love story feat. You roll a d12 instead of a d20 on the Romantic Relationships table. |
@@ -463,10 +463,10 @@ Bards have a talent for song and story, and they come to their careers by develo
 
 A cavalier is a mounted warrior who abides by some edict or code—even a personal code that may apply only to that cavalier. How exactly this pattern of moral judgments and personal beliefs came to be serves as the foundation of a cavalier's call to duty. Roll on the table below to determine how you obtained the code that set you upon the cavalier's path.
 
-<caption>Cavalier Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Tragedy and Loss** : In your formative years, you experienced a significant tragedy that forged you into the person you've become. You gain access to the Grief-Filled social trait. |
+[Cavalier Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Tragedy and Loss** : In your formative years, you experienced a significant tragedy that forged you into the person you've become. You gain access to the Grief-Filled social trait. |
 | 11—20 | **Faith** : You embraced a religious faith at an early age and devoted your life to its ideals. You soon learned that it was not enough to follow and worship. Faiths need champions—people capable of defending the virtues, tenets, and precepts of the faith from those who would seek to corrupt, alter, or destroy it. You gain access to the Indomitable Faith faith trait. |
 | 21—30 | **Champion of the People** : You grew up among common people. You were close to these people and you witnessed their oppression, their suffering, and their helplessness. Someone needed to stand up and protect them, and that someone would be you. You gain access to the Militia Veteran regional trait, the Champion story feat, and the Town Tamer story feat. |
 | 31—40 | **Squired** : You were a young squire who served a very different kind of knight. This knight taught you more than the art of battle: she taught you to live by a strict code to guide your actions and your sword. You gain access to the Influence social trait and the Oathbound faith trait. |
@@ -481,10 +481,10 @@ A cavalier is a mounted warrior who abides by some edict or code—even a person
 
 Clerics are not merely people of religious faith—they are devoted servants who wield true divine power from their deities. The particular path that steers a cleric toward her faith can mean the difference between a demon-worshiping cultist and a lawful harbinger of her deity's blessed faith. The following background events outline some of the ways clerics find their faith. Roll on the table below to determine how you came to your faith.
 
-<caption>Cleric Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Angelic Encounter** : A supernatural being, such as an angel or demon, appeared to you and proclaimed that you were destined to perform a great task in service to your god. You might have tried to deny it—and you even might still have doubts—but eventually you took up the mantle of a holy warrior and chose to meet this destiny head on, either to prove to yourself that you're worthy of such a destiny or to show your supernatural messenger that you cannot be pigeon-holed so easily. You gain access to the Prophesied faith trait. |
+[Cleric Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Angelic Encounter** : A supernatural being, such as an angel or demon, appeared to you and proclaimed that you were destined to perform a great task in service to your god. You might have tried to deny it—and you even might still have doubts—but eventually you took up the mantle of a holy warrior and chose to meet this destiny head on, either to prove to yourself that you're worthy of such a destiny or to show your supernatural messenger that you cannot be pigeon-holed so easily. You gain access to the Prophesied faith trait. |
 | 11—20 | **Atonement** : In your youth, you committed actions you are not proud of. Your deeds left dark stains upon your soul, ones so deep they might take a lifetime to wash away. When you hit rock-bottom—whether through greed, addiction, hedonism, or simply lack of good sense—you turned to faith, vowing to atone for all of the horrible acts you've committed. You gain access to the Oathbound faith trait. |
 | 21—30 | **Converted** : In your early life, you followed a different faith, a different god or powerful entity, or perhaps no faith at all. A representative of your current faith showed you the error of your ways and converted you, and you couldn't be happier. You can only hope to do for others what this individual did for you. You gain access to the Inspired faith trait. |
 | 31—40 | **Devoted** : From your earliest memory, you've had a close relationship with your deity. This entity has been a constant presence in your life: your greatest comfort, best companion, truest love, or some combination of the three. You've never had to see or speak with your deity to know that he watches over you, and the beliefs and criticisms of others do not faze you—your faith is enough. You gain access to the Blessed faith trait and the Fearless Zeal story feat. |
@@ -499,10 +499,10 @@ Clerics are not merely people of religious faith—they are devoted servants who
 
 Druids come by their primal power in various ways. One druid might receive her power from an elemental creature, and another might learn it from a beast or the fey. Roll on the table below to determine the event that caused you to come into your power.
 
-<caption>Druid Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Lost in the Wild** : You got lost in the wilderness and were forced to survive on your own. You may have wandered desert dunes, thick forest, or high mountains—or perhaps you were shipwrecked on a desert island. Young and vulnerable, you feared the natural dangers of the world at first, but acclimated to the natural way of life as you learned to tap into the primal power of the world. You gain access to the Resilient combat trait. |
+[Druid Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Lost in the Wild** : You got lost in the wilderness and were forced to survive on your own. You may have wandered desert dunes, thick forest, or high mountains—or perhaps you were shipwrecked on a desert island. Young and vulnerable, you feared the natural dangers of the world at first, but acclimated to the natural way of life as you learned to tap into the primal power of the world. You gain access to the Resilient combat trait. |
 | 11—20 | **Fey Meeting** : Walking in the woods, you met a fey creature, such as a brownie, elf, nymph, gnome, sprite, or treant. This magical being taught you how to tend the natural world in the gentle manner of the fey. You gain access to the Magical Knack magic trait. |
 | 21—30 | **Spirit of Nature** : Through a ritual, vision, or dream, you communed with a primordial spirit of nature. In the form of a majestic beast, this spirit charged you with preserving the natural world from those who would destroy it. You are instilled with the spirit of this creature—a small fragment of its power grows in you as you mature. You gain access to the Sacred Touch faith trait. |
 | 31—40 | **Tree Tender** : You learned to care for plants in your youth by tending a small garden, orchard, grove, or field. These plants flourished like no others. You've always understood plants better than people. You gain access to the Devotee of the Green faith trait. |
@@ -517,10 +517,10 @@ Druids come by their primal power in various ways. One druid might receive her p
 
 Those who become fighters take up the sword for many reasons. Some fight for coin, others for duty, and others for survival. Roll on the table below to determine the event that led you to this profession.
 
-<caption>Fighter Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Adventure** : Since you can remember, you sought to become a great warrior. Inspired by legends of the past or personal heroes of your civilization, you longed to wield steel and carve your way in the world. You gain access to the Seeker social trait. |
+[Fighter Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Adventure** : Since you can remember, you sought to become a great warrior. Inspired by legends of the past or personal heroes of your civilization, you longed to wield steel and carve your way in the world. You gain access to the Seeker social trait. |
 | 11—20 | **Conscripted** : You didn't choose the military life so much as you were drafted into it. You have a non-military background and skill set. Who knows what course your life might have taken had you not been forced to take up arms? You gain access to the Worldly social trait. |
 | 21—30 | **Duty** : You took up the sword because no one else would. When a great danger threatened your home, you stepped forth to meet the challenge, though you were only a youth with just the strength of your arm and steadfastness of your courage to see you through. You gain access to the Courageous combat trait. |
 | 31—40 | **Gladiator** : As an adolescent, you learned to fight and kill because your master made you, and if you had not learned, you would be dead. Killing was a way of life—a means of survival. At first you did it because you had to, but that soon changed when you heard the chorus of the crowd. You gain access to the Killer combat trait, the Life of Toil social trait, and the Champion story feat. |
@@ -535,10 +535,10 @@ Those who become fighters take up the sword for many reasons. Some fight for coi
 
 Armed with dangerous, emergent technology and blessed with death-defying luck and skill, gunslingers are practically born to be legends. But for every gunslinger who rises to epic fame as a hero or villain, another has been left lifeless at the hands of the weapon she sought to master. Regardless of this destiny, however, no other class is so wedded and intrinsically linked to a single kind of weapon as the gunslinger. How she came to possess, learn, and master the unique power of firearms forms the backbone of every gunslinger's current motivations. Roll on the table below to determine what event caused you to choose the way of the gun.
 
-<caption>Gunslinger Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Any Fool Can Swing a Sword** : Sometime during your youth, you came to the conclusion that most melee and ranged weapons are crude and primitive compared to firearms. It puzzles you that anyone with martial aptitude deigns to devote their skill to anything other than firearms. You disregard such "lesser" weapons and prefer the feel of your trusty firearm over any other tool of war. You gain access to the Reckless Contempt combat trait. |
+[Gunslinger Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Any Fool Can Swing a Sword** : Sometime during your youth, you came to the conclusion that most melee and ranged weapons are crude and primitive compared to firearms. It puzzles you that anyone with martial aptitude deigns to devote their skill to anything other than firearms. You disregard such "lesser" weapons and prefer the feel of your trusty firearm over any other tool of war. You gain access to the Reckless Contempt combat trait. |
 | 11—20 | **Bucking Tradition** : You come from a proud tradition of ancient arms and august codes of conduct like those followed by paladins, cavaliers, and samurai. Instead of following in the vaunted steps of your predecessors, though, you chose to learn the art of firearms to the shock and perhaps even anger of your family and peers. Your break with tradition fostered in you a nearly insurmountable will that fuels your identity as a gunslinger. You gain access to the Resolve of the Rejected combat trait. |
 | 21—30 | **Custodian of the Future** : Firearms are not just an effective implement for killing or a curious mechanical trinket; they are the next step in the technological development of your people. Your passion for the workings of your weapons has you constantly assembling and dismantling firearms to truly understand their mechanics. This ongoing dedication improves your ability to repair firearms and make them deadlier while in your skilled hands. You gain access to the Unblemished Barrel combat trait. |
 | 31—40 | **Defining Moment** : Guns are inexorably linked to a moment where your life dramatically changed. Perhaps you were so sickly as a child that you couldn't turn a crossbow's winch or bend a bow, but firearms showed you that you could still hunt and fight. Perhaps you picked up a firearm in a desperate moment to help a wounded gunslinger and knew that you had just taken your first step along the same path. A firearm at your side instills in you a sense of purpose and destiny that no one can take away. You gain access to the Black Powder Fortune combat trait. |
@@ -553,10 +553,10 @@ Armed with dangerous, emergent technology and blessed with death-defying luck an
 
 Bolstering the ranks of both good and evil deities, inquisitors draw their power from unwavering convictions to the causes of their gods. Unlike clerics and oracles, however, inquisitors are less interested in the theological and metaphysical aspects of faith and belief than what they consider to be the harsh realities of defending that faith. Roll on the table below to determine what event made you temper your faith with stern judgment.
 
-<caption>Inquisitor Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Bureaucracy's Bane** : You chose the inquisitor's path because you have no taste for the petty rules and regulations that mire the leaders of your faith in inaction and inefficacy. You know that you are an instrument of your deity and that your directives do not require intercession by the less motivated. You gain access to the Focused Disciple faith trait. |
+[Inquisitor Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Bureaucracy's Bane** : You chose the inquisitor's path because you have no taste for the petty rules and regulations that mire the leaders of your faith in inaction and inefficacy. You know that you are an instrument of your deity and that your directives do not require intercession by the less motivated. You gain access to the Focused Disciple faith trait. |
 | 11—20 | **Chaplain** : You learned long ago that in the heat of battle and under the pall of war, even the most devout can waiver in faith. You subsequently dedicated yourself to stewarding the faith of soldiers and allies in times of great conflict. You gain access to the Battlefield Disciple combat trait and the Battlefield Healer story feat. |
 | 21—30 | **Exemplar** : You found early on that you lacked the logic or the vocabulary to communicate the virtues of faith—more precisely, _your_ faith—to others. You decided that the best way to foster respect and appreciation for your god was not with words, but with action. You gain access to the Beacon of Faith faith trait. |
 | 31—40 | **Failed Cleric** : Your original training in divine magic was as a cleric, but your faith eventually distilled into you the ability to hear lies and see weaknesses in the "unfaithful." You gain access to the Schooled Inquisitor faith trait. |
@@ -571,10 +571,10 @@ Bolstering the ranks of both good and evil deities, inquisitors draw their power
 
 The rare spellcasters known as magi dedicate themselves to the synthesis of two separate disciplines: sword and spell. This core of all magi can be embraced only with ambition and purpose. Roll on the table below to determine what event drove you to blend martial powers and magical ability.
 
-<caption>Magus Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **A Mage without Magic** : Early in your arcane training, you were exposed to antimagic. The powerlessness you felt from all of your magic being stripped away left you feeling desperate and helpless. You vowed to never be that helpless child again, to be strong in such moments, putting you on the path of the magus. You gain access to the Dispelled Battler combat trait. |
+[Magus Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **A Mage without Magic** : Early in your arcane training, you were exposed to antimagic. The powerlessness you felt from all of your magic being stripped away left you feeling desperate and helpless. You vowed to never be that helpless child again, to be strong in such moments, putting you on the path of the magus. You gain access to the Dispelled Battler combat trait. |
 | 11—20 | **Conflicting Legacy** : You were born to a family or clan with two great pedigrees: one of magic and one of battle. Unable to choose either path for fear of alienating a mentor or parent, you sought to master both. Your dedication to the blending of martial and magical has been so intense that your martial prowess feeds your arcane power. You gain access to the Arcane Revitalization magic trait. |
 | 21—30 | **Ready for Anything** : For you, the path of the magus is not about the fluid blend of disparate fields of study or conquering an insurmountable challenge, but the art of preparation for any obstacle that comes your way. A dedicated and logical person, you hone the magus affinity for operating all manner of magical devices from blind luck to a refined procedure. You gain access to the Pragmatic Activator magic trait. |
 | 31—40 | **Lost Teacher** : Your magus training was interrupted when you lost your teacher through the displacement of your family, lack of funds to continue schooling, or the teacher's unexpected death. Despite this hardship, the time you spent with your mentor had already sown the seeds of your training and you've been able to continue on your own in the time since—ceaselessly seeking, reading, and learning from any magical text you can find. You gain access to the Self-Taught Scholar magic trait. |
@@ -589,10 +589,10 @@ The rare spellcasters known as magi dedicate themselves to the synthesis of two 
 
 Masters of the martial arts, monks are the pinnacle of discipline and perfection. Wielding strange arms and stranger fighting arts, monks are defined by their training. Whether brought up as the protege of a grand master or self-taught through stolen glimpses into the windows of a secret school, a monk's story is emblazoned in every step, cut, and strike he makes. Roll on the table below to determine the origin of your exotic training.
 
-<caption>Monk Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Bellicose Historian** : What started as a scholar's curiosity in exotic fighting styles bloomed into a fanatical desire not just to learn about martial arts, but to master them. You gain access to the Style Sage social trait. |
+[Monk Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Bellicose Historian** : What started as a scholar's curiosity in exotic fighting styles bloomed into a fanatical desire not just to learn about martial arts, but to master them. You gain access to the Style Sage social trait. |
 | 11—20 | **Classically Schooled** : Training from dawn to dusk to hone every inch of your body into a fighting instrument, you studied with scores of other students in an academy or school dedicated to one specific martial art. You gain access to the Simple Disciple social trait. |
 | 21—30 | **Elite Fighting Force** : You learned your fighting skills as one of a highly trained group dedicated to a special purpose, such as guarding a temple or protecting a noble. Your training emphasized unobtrusive teamwork and unquestioned dedication to some higher purpose. You gain access to the Veiled Disciple social trait. |
 | 31—40 | **Tournament**  **Champion** : A shining example of your style or order, you've honed martial prowess through spirited and exciting competition. You gain access to the Martial Performer combat trait. |
@@ -607,10 +607,10 @@ Masters of the martial arts, monks are the pinnacle of discipline and perfection
 
 Oracles do not choose their path. Rather, the oracle's mystery chooses her in the midst of a climactic event that marks the oracle with an abiding curse. Roll on the table below to determine your mystery.
 
-<caption>Oracle Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Battle** : In your early years, a battle broke out near your home and you were embroiled in the fighting. At the end of the battle, you were the only one left standing, with scores of slain foes strewn at your feet. You gain access to the Veteran of Battle religion trait and the Battlefield Healer story feat. |
+[Oracle Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Battle** : In your early years, a battle broke out near your home and you were embroiled in the fighting. At the end of the battle, you were the only one left standing, with scores of slain foes strewn at your feet. You gain access to the Veteran of Battle religion trait and the Battlefield Healer story feat. |
 | 11—20 | **Bones** : In your formative years, you were entombed or buried alive in a graveyard. For days, you lay within the grave until your terror strangely turned to comfort. Since your return, you've been a different person: part mortal and part ghost, in possession of the powers of the dead. You gain access to the Fearless Defiance faith trait. |
 | 21—30 | **Flame** : A great fire consumed you and laid waste to the environment around you. It might have devoured your family, friends, or an entire settlement, but you survived unburned as if the fire did not dare to touch you. Since that day, you've tamed fire as though it were a savage animal bent to your will. You gain access to the Flame—Touched magic trait. |
 | 31—40 | **Heavens** : The night sky's mysteries have always enthralled you. But one night, while you gazed upon the stars, the perfect order of the universe revealed itself and you nearly went mad from the revelation. Since that night, you've possessed strange powers over the heavens. You gain access to the Starchild religion trait. |
@@ -625,10 +625,10 @@ Oracles do not choose their path. Rather, the oracle's mystery chooses her in th
 
 Champions of virtue and the rule of law, many paladins are called to their path at a young age. Some hear the whispers of celestial beings in their minds, while other are drawn down the path of the paladin by tragedy and a sincere desire to strike a blow to the evil that stalks the world. Paladins sometimes take on younger charges such as orphans or runaways during their journeys, and the seeds of goodness can be sowed into these impressionable youths to grow another knight on the quest for righteousness. Roll on the table below to determine the formative events that led you to become a paladin.
 
-<caption>Paladin Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Divine Calling** : An otherworldly agent of law and good—such as an angel, empyreal lord, or perhaps some other celestial envoy of the gods—tasked you to be a divine champion. You accepted the calling (maybe grudgingly) because ultimately you realize that the laws of destiny and one's divine calling cannot be denied. In return, that celestial agent watches over you and makes sure you can fully realize your destiny and meet the course that has been set for you by a higher power. You gain access to the Blessed faith trait. |
+[Paladin Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Divine Calling** : An otherworldly agent of law and good—such as an angel, empyreal lord, or perhaps some other celestial envoy of the gods—tasked you to be a divine champion. You accepted the calling (maybe grudgingly) because ultimately you realize that the laws of destiny and one's divine calling cannot be denied. In return, that celestial agent watches over you and makes sure you can fully realize your destiny and meet the course that has been set for you by a higher power. You gain access to the Blessed faith trait. |
 | 11—20 | **Dread Penance** : You, or perhaps your family, owe a debt for some past wrongdoing or vice. Maybe you made deals with some unscrupulous loan sharks during a gambling binge or your not-so-distant ancestors were responsible for the persecution of a marginalized group of people. Whatever the offense, your past action hangs over your head and fills you with guilt. You've taken a solemn oath to make good on this past misdeed. Only then will you feel like your life is truly worthwhile. You gain access to the Oathbound faith trait. |
 | 21—30 | **Holy Epiphany** : Your faith and purpose came in a brilliant flash of insight. Maybe you suddenly realized that evil can be stopped only with vigilance and deliberate action, or maybe an epiphany showed you that the innocent need protection from corrupt forces for good to flourish in the world. Whatever the nature of your epiphany, it guides your actions and gives you insights others lack. You gain access to the Inspired faith trait. |
 | 31—40 | **Zealous Devotion** : Maybe your faith was not popular among those around you during your youth. Maybe you have strange or controversial views regarding your religion, and the other members of your congregation find your practices bizarre or insulting. Whatever the case, your faith is constantly being questioned regardless of your obviously pious nature, and such persecution only serves to embolden your zeal. You gain access to the Indomitable Faith faith trait. |
@@ -643,10 +643,10 @@ Champions of virtue and the rule of law, many paladins are called to their path 
 
 Rangers are the hunters of legend. Although known for their ability to master varying environments and their dangers, rangers often achieve this expertise through the dedicated pursuit of their quarry. Though such a target could be a lost or kidnapped friend or a forgotten ruin, more often a ranger's target is a hated enemy, and no feature of the class lends itself better to the establishment of character than his favored enemy. While a professional headhunter might hone his skills to track down humans or other civilized folk, a ranger whose family was murdered by ravenous orcs likely has a different set of priorities while on the hunt. Roll on the table below to determine the formative events that led you to become a ranger.
 
-<caption>Ranger Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **An Eye for an Eye** : The choice of your favored enemy was nothing more than simple vengeance. Perhaps you lost a loved one, family, or even a whole community to the vicious rampaging of a ferocious beast, or saw your entire homeland swallowed up by monstrous hordes. No matter the reason, your drive to hunt down and destroy creatures of their kind won't be sated so long as even one lives. You gain access to the Tireless Avenger faith trait and the Foeslayer story feat. |
+[Ranger Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **An Eye for an Eye** : The choice of your favored enemy was nothing more than simple vengeance. Perhaps you lost a loved one, family, or even a whole community to the vicious rampaging of a ferocious beast, or saw your entire homeland swallowed up by monstrous hordes. No matter the reason, your drive to hunt down and destroy creatures of their kind won't be sated so long as even one lives. You gain access to the Tireless Avenger faith trait and the Foeslayer story feat. |
 | 11—20 | **Ancient Hatred** : The history of your people is a saga of struggle against another race. Though common among elves and orcs or dwarves and giants, many different races can have such longstanding animosity. Your choice of a favored enemy was a simple outgrowth of this racial antipathy. You gain access to the Knowing the Enemy social trait. |
 | 21—30 | **Big Game Hunter** : Whether you sought out the thrill of hunting large prey or merely grew up in the shadows of creatures large enough to crush an entire village with a careless step, you have learned how to be quick and to size up weaknesses in those behemoths who seem to have none. You gain access to the Evasive Sting combat trait. |
 | 31—40 | **Blood Cleansing** : Either you have forsaken your kinsfolk or they have forsaken you. Maybe you grew up among a wicked or corrupt people who you needed to escape, or maybe they exiled you for being different. Whatever the case, your own kind are now your favored enemy, much to your continued chagrin or morbid amusement. You gain access to the Scarred Descendant combat trait. |
@@ -661,10 +661,10 @@ Rangers are the hunters of legend. Although known for their ability to master va
 
 The rogue's path is one of cunning, quickness, skill, and stealth. One of the broadest character archetypes, the rogue is found among all walks of life—from highborn spies infiltrating the courts of kings to common criminals making their livings preying on passersby in the alleys and streets. Roll on the table below to determine how you came to the profession.
 
-<caption>Rogue Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Gang War** : Growing up in the backstreets of an urban jungle, you were forced to choose between surviving as a predator or suffering as prey. You affiliated with a guild, gang, or group of thieves and thugs, carrying out illicit missions to further their interests and sabotage those of rival gangs. You gain access to the Dirty Fighter combat trait. |
+[Rogue Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Gang War** : Growing up in the backstreets of an urban jungle, you were forced to choose between surviving as a predator or suffering as prey. You affiliated with a guild, gang, or group of thieves and thugs, carrying out illicit missions to further their interests and sabotage those of rival gangs. You gain access to the Dirty Fighter combat trait. |
 | 11—20 | **Greed** : No matter how much or little you had growing up, it was never enough. You discovered a talent for lifting items and coin purses from others' belts. The world always provided for you, and when you saw something you wanted, you learned to take it. You gain access to the Ambitious social trait and the Thief of Legend story feat. |
 | 21—30 | **Poverty** : In your youth, you rarely had enough food to keep from starving. Poverty and hunger forced you to steal to survive, or to help your loved ones survive. You gain access to the Poverty-Stricken social trait. |
 | 31—40 | **Spy** : You've always had an innocent expression and a silver tongue, so naturally you were recruited as a spy during your childhood. You could have come from any social class; you might have gathered information as an urchin on the streets or acted as servant to one lord while you reported to another. You gain access to the Fast Talker social trait. |
@@ -679,10 +679,10 @@ The rogue's path is one of cunning, quickness, skill, and stealth. One of the br
 
 Wielders of power on a seemingly impossible scale, sorcerers are conduits of the arcane energies inside them. These powers stem universally from the sorcerers' distinctive bloodlines. Either linked to powerful scions of mystical power like angels, devils, or dragons or touched by the forces of destiny themselves, sorcerers prove that sometimes when magic is involved, either you have it or you don't. Roll on the table below to determine the event that made you aware of the forces at work within your own blood.
 
-<caption>Sorcerer Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Awakened Moment** : At some point, the dormant power within you awakened with a fright. It might have been the first time you came close to a dragon, celestial, or genie. Or the moment could have come at the grave of a great ancestor or in a lush and verdant glen. What slumbered in your blood has never quieted, and you frequently draw upon the inspiration of your awakening. You gain access to the Ascendant Recollection magic trait. |
+[Sorcerer Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Awakened Moment** : At some point, the dormant power within you awakened with a fright. It might have been the first time you came close to a dragon, celestial, or genie. Or the moment could have come at the grave of a great ancestor or in a lush and verdant glen. What slumbered in your blood has never quieted, and you frequently draw upon the inspiration of your awakening. You gain access to the Ascendant Recollection magic trait. |
 | 11—20 | **Dreams of Something Different** : The first hints of your exceptional nature came to you as fragments of remembered dreams or split-second visions. As these episodes increased in both frequency and clarity, they unlocked a power in your blood you didn't know you had. You gain access to the Strength Foretold magic trait. |
 | 21—30 | **Failed Wizard** : Although your arcane aptitude was evident at an early age, you were pushed toward wizardry as the conduit for your magic. While you never mastered magic in this fashion, your time spent studying arcane tomes gave you obscure but often pertinent knowledge. You gain access to the Reluctant Apprentice magic trait. |
 | 31—40 | **One of a Kind** : You know that sorcerous power comes from the blood, but as far as you know, none of your ancestors possessed your gift. You keep searching for the reason for your magical powers, which has led you to greater proficiency with divinations and a keen interest in the workings of your bloodline. You gain access to the Knowledgeable Caster magic trait. |
@@ -697,10 +697,10 @@ Wielders of power on a seemingly impossible scale, sorcerers are conduits of the
 
 Most, if not all, spellcasters can call to otherworldly creatures for aid. And though many learn to call increasingly powerful minions to assist them, none boast the same connection to these outsiders as summoners do. A summoner is defined by the bond formed with the single creature that acts as his eidolon. Protectors, steeds, and links to other worlds, eidolons are lifelong companions for their mortal masters. The choice to tie oneself to an eidolon and the circumstances leading to that choice form the foundation of any summoner's character. Roll on the table below to determine what caused you to forge your otherworldly bond with your trusted companion.
 
-<caption>Summoner Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Abandoned** : At some point early on, you were abandoned. This sense of loss always made you feel as though something were missing. The discovery of your eidolon and your subsequent mutual bond fostered in you the sense of companionship you've always longed for. You gain access to the Greater Link magic trait. |
+[Summoner Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Abandoned** : At some point early on, you were abandoned. This sense of loss always made you feel as though something were missing. The discovery of your eidolon and your subsequent mutual bond fostered in you the sense of companionship you've always longed for. You gain access to the Greater Link magic trait. |
 | 11—20 | **Caretaker** : You met your eidolon or another outsider in a moment of danger. Wounded or lost, the creature crashed between worlds and ended up at your feet. In helping this panicked, otherworldly creature, you felt a link to it. You can still draw on the inspiration from that moment when dealing with others, outsider or not. You gain access to the Destined Diplomat social trait. |
 | 21—30 | **Forced to Confront Your Own Limits** : The bond with your eidolon first manifested when you saw someone in danger and were unable to help. Your feeling of desperation and frustration at the limits of your own form attracted your eidolon—whether or not it was able to help you in that moment. This need to exceed your own limitations continues to manifest in the evolution of your eidolon. You gain access to the Desperate Speed magic trait. |
 | 31—40 | **Imaginary Friends** : As a child, you created imaginary playmates that you felt truly spoke to and heard you. These whispers were actually the wandering thoughts of outsiders trying to make contact, knowing that someday you would have an affinity with their kind. By the time you learned to summon your eidolon and other outsiders, these whispered fragments had turned themselves into an understanding of the language of outsiders. You gain access to the Unintentional Linguist social trait. |
@@ -715,10 +715,10 @@ Most, if not all, spellcasters can call to otherworldly creatures for aid. And t
 
 Some witches make pacts for their power by choice. Many more discover it by accident or circumstance. Roll on the table below to determine which of the following events shaped your early life and sent you down the witch's path.
 
-<caption>Witch Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Apprenticed** : Your development was guided by a mortal or magical creature, such as a wisewoman, hag, dryad, elf, or pixie, who instructed you in the arts of spellcasting, potions, charms, and hexes. You gain access to the Hedge Magician magic trait. |
+[Witch Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Apprenticed** : Your development was guided by a mortal or magical creature, such as a wisewoman, hag, dryad, elf, or pixie, who instructed you in the arts of spellcasting, potions, charms, and hexes. You gain access to the Hedge Magician magic trait. |
 | 11—20 | **Desperate Accident** : You lived an ordinary life until one day catastrophe struck and you called out desperately to any power that would come to your aid. The entity that gave you this power might be benevolent or sinister in nature, but ever since you called it, the being remains close to you. You gain access to the Reckless combat trait. |
 | 21—30 | **Forbidden Lore** : In your youth, there was something you fervently desired—perhaps love, wealth, or revenge. But no matter how hard you tried, you couldn't obtain that which you coveted. Only when you turned your eye to ancient tomes and ruins and experimented with strange powers beyond your comprehension were you able to get what you wanted. You gain access to the Dangerously Curious magic trait. |
 | 31—40 | **Found Familiar** : When you were young, you happened upon a strange animal with whom you forged an instant bond. It instructed you in casting spells and became your closest, most trusted companion. You gain access to the Animal Friend gnome race trait (which you may take regardless of your race). |
@@ -733,10 +733,10 @@ Some witches make pacts for their power by choice. Many more discover it by acci
 
 Perhaps no other class exemplifies the acquisition of power through sheer focus and determination as well as the wizard. Neither touched by divine purpose nor blessed with magic in their blood, wizards must spend their entire lives studying the same texts, tomes, scrolls, and recitations to master the magical arts. Such a craft can be self-taught or instilled through instruction, learned in an academy or at the fringes of the world, but it can be mastered only through the most rigorous and regimented of study. Roll on the table below to determine how you came to study wizardry, and how that study forever shaped you.
 
-<caption>Wizard Backgrounds</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—10 | **Brains over Brawn** : You were bullied or excluded throughout your life because you lacked physical power and fighting prowess. To compensate, you turned to transmutation magic. Your practice and perseverance has granted you skill with spells of that school. You gain access to the Tenacious Shifting magic trait. |
+[Wizard Backgrounds]
+| d% | Result |
+| --- | --- |
+| 01—10 | **Brains over Brawn** : You were bullied or excluded throughout your life because you lacked physical power and fighting prowess. To compensate, you turned to transmutation magic. Your practice and perseverance has granted you skill with spells of that school. You gain access to the Tenacious Shifting magic trait. |
 | 11—20 | **Dangerous Intellect** : At a young age, those around you, whether family or friends, realized that your intellect was more than mere precociousness. As your sense of curiosity became dangerous, those responsible for you pushed you into studying magic in the hopes that you would find infinite puzzles to solve. You gain access to the Tireless Logic social trait. |
 | 21—30 | **Fitting In** : You hail from a long line of sorcerers or from a community known for its natural affinity for magic. Your manifestation of wizardly talent, as opposed to blood-based sorcery, caused you to hide those talents at a young age, and then to disguise them as sorcery to the best of your ability later. You still retain some tricks from this early misdirection. You gain access to the Shrouded Casting magic trait. |
 | 31—40 | **Gifted Pride** : Your affinity for magic has made you somewhat crass and arrogant, though some find your blunt disposition charming or worthy of respect. The air of superiority surrounding you is palpable and allows you to use you intellect to cow others at times when lesser individuals might barely get a word in. You gain access to the Bruising Intellect social trait. |
@@ -751,10 +751,10 @@ Perhaps no other class exemplifies the acquisition of power through sheer focus 
 
 Influential associates are people who had (or continue to have) a strong influence upon your development. They are archetypes and templates for NPCs that you can customize to fit your background. Roll on the table below to determine an associate or ally who had a major influence on your life. Then flesh out the details to show how this person fits within your story. You might also wish to use other tables in this chapter to randomly fill in this person's details.
 
-<caption>Influential Associates</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—05 | **The Hunter** : This person was a lone wolf who nonetheless cautiously allowed you to become a member of her solitary pack. She taught you how to thrive on your own in spite of the many perils and natural dangers of your native environment. You gain access to the Child of Nature religion trait. |
+[Influential Associates]
+| d% | Result |
+| --- | --- |
+| 01—05 | **The Hunter** : This person was a lone wolf who nonetheless cautiously allowed you to become a member of her solitary pack. She taught you how to thrive on your own in spite of the many perils and natural dangers of your native environment. You gain access to the Child of Nature religion trait. |
 | 06—10 | **The Pariah** : You met a disgraced exile, and found in his words and attitudes something that spoke to you. What once seemed true in your religion, society, or family began to appear false the more time you spent with this person, and you quickly learned not to trust everyone you meet—especially among those who would claim to be most deserving of it. You gain access to the Suspicious social trait. |
 | 11—15 | **The Confidante** : There was a person in your life to whom you could tell anything. She knows your deepest secrets and your emotional weaknesses and vulnerabilities just as you know hers. This person could be a valuable friend and a frightening enemy, so you make sure to never divulge her secrets or give her a reason to do so with yours. You gain access to the Trustworthy social trait. |
 | 16—20 | **The Mentor** : You had a mentor who taught you everything worth knowing about life. This could have been the person who taught you the heroic abilities you possess, or simply a kindred spirit who helped form your worldview. You gain access to the Mentored social trait. |
@@ -801,11 +801,10 @@ When determining your conflict, you accumulate a number of Conflict Points (CP).
 
 Begin by rolling on the Conflicts table. This table lists 20 conflicts, ranging from minor indiscretions to grievous sins. The type of die you roll on this table is based on the needs of the campaign as well as your character's starting class. First, consult with your GM; If you can play any alignment in the campaign, roll a d20. If your campaign allows only nonevil characters, roll a d12. If you are playing a paladin or some other character who must be good, roll a d6. Once you are done, proceed to Conflict Subject table and to the tables and sections subsequent to it.
 
-<caption>Conflicts</caption><thead><tr>
-<th>d20</th>
-<th>Result</th>
-<th>CP</th>
-</tr></thead>| 1 | **Minor Failure** : You failed a friend, family member, or loved one who depended on youto fulfill an important task. | 1 |
+[Conflicts]
+| d20 | Result | CP |
+| --- | --- | --- |
+| 1 | **Minor Failure** : You failed a friend, family member, or loved one who depended on youto fulfill an important task. | 1 |
 | 2 | **Petty Crime** : You committed a minor crime, like vandalism, trespassing, or mischief. | 1 |
 | 3 | **Told a Lie** : You deliberately made someone believe something that was not true to further your own goals. | 1 |
 | 4 | **Broke a Promise** : You swore an oath or vow that was important to someone else,but you did not keep your promise. | 1 |
@@ -830,10 +829,10 @@ Begin by rolling on the Conflicts table. This table lists 20 conflicts, ranging 
 
 To determine the key person (or people) involved in the conflict, roll on the table below. Only on the rare occasion that the subject was a child or a young person does the subject affect the accumulation of CP.
 
-<caption>Conflict Subject</caption><thead><tr>
-<th>d20</th>
-<th>Result</th>
-</tr></thead>| 1 | Commoner |
+[Conflict Subject]
+| d20 | Result |
+| --- | --- |
+| 1 | Commoner |
 | 2 | Merchant |
 | 3 | Tradesperson |
 | 4 | Artisan |
@@ -858,11 +857,10 @@ To determine the key person (or people) involved in the conflict, roll on the ta
 
 To determine the source of your motivation for the conflict, roll on the table below. If the campaign allows the full spectrum of alignments, roll a d10 on this table. If the campaign allows only nonevil alignments, roll a d8. If you're a paladin, roll a d4. The motivation affects the CP gained from the conflict.
 
-<caption>Motivation</caption><thead><tr>
-<th>d10</th>
-<th>Result</th>
-<th>CP</th>
-</tr></thead>| 1 | Justice | 1 |
+[Motivation]
+| d10 | Result | CP |
+| --- | --- | --- |
+| 1 | Justice | 1 |
 | 2 | Love | 1 |
 | 3 | Pressured or Manipulated | 2 |
 | 4 | Religion | 2 |
@@ -895,10 +893,10 @@ Once you determine the nature and CP for the event, the next step is to determin
 
 If you have the Criminal social trait, roll on Table 1—30 to determine the crime for which you were accused or convicted. After determining the crime, roll on Table 1—31 to learn the severity of the punishment you received—or have yet to receive—for having been judged guilty.
 
-<caption>Crime</caption><thead><tr>
-<th>d%</th>
-<th>Crime</th>
-</tr></thead>| 01—10 | Adultery |
+[Crime]
+| d% | Crime |
+| --- | --- |
+| 01—10 | Adultery |
 | 11—20 | Arson |
 | 21—30 | Burglary |
 | 31—40 | Heresy |
@@ -909,10 +907,10 @@ If you have the Criminal social trait, roll on Table 1—30 to determine the cri
 | 81—90 | Smuggling |
 | 91—100 | Unlawful use of magic |
 
-<caption>Punishment</caption><thead><tr>
-<th>d%</th>
-<th>Punishment</th>
-</tr></thead>| 01—10 | Beating |
+[Punishment]
+| d% | Punishment |
+| --- | --- |
+| 01—10 | Beating |
 | 11—20 | Branding |
 | 21—30 | Exile |
 | 31—40 | Fine |
@@ -923,28 +921,14 @@ If you have the Criminal social trait, roll on Table 1—30 to determine the cri
 | 81—90 | Trial by fire |
 | 91—100 | Trial by water |
 
-<caption>Determining Alignment</caption><thead><tr>
-<th>1</th>
-<th>2</th>
-<th>3</th>
-<th>4</th>
-<th>5</th>
-<th>6</th>
-<th>7</th>
-<th>8</th>
-<th>9</th>
-</tr></thead>| Lawful | Neutral | Chaotic |
-<thead><tr>
-<th>1</th>
-<th>2</th>
-<th>3</th>
-<th>4</th>
-<th>5</th>
-<th>6</th>
-<th>7</th>
-<th>8</th>
-<th>9</th>
-</tr></thead>| Good | Neutral | Evil |
+[Determining Alignment]
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Lawful | Neutral | Chaotic |
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Good | Neutral | Evil |
 
 ### Deity and Religious Philosophy
 
@@ -998,10 +982,10 @@ Once you have determined your alignment, choose a deity or religious philosophy.
 
 Roll on the table below to determine the kinds of romantic relationships you have had in the past. You might have a background that requires you to roll a d12 on this table instead of a d20.
 
-<caption>Romantic Relationships</caption><thead><tr>
-<th>d20</th>
-<th>Result</th>
-</tr></thead>| 1—2 | **One Significant Relationship** : You had a true love once, but that time has passed. |
+[Romantic Relationships]
+| d20 | Result |
+| --- | --- |
+| 1—2 | **One Significant Relationship** : You had a true love once, but that time has passed. |
 | 3—6 | **A Few Significant Relationships** : You've tried to make deep connections with individuals on several occasions, but it's never worked out. |
 | 7—9 | **Several Significant Relationships** : You've engaged in a number of partnerships, but for some reason or another your relationships always fail. |
 | 10—12 | **Current Lover** : You are currently involved in a romantic relationship. You gain access to the True Love story feat. |
@@ -1017,10 +1001,10 @@ You can also use this table free-form if you wish, rolling for your relationship
 
 If you end up with a result that makes no sense or isn't possible, reroll or just chose another option.
 
-<caption>Relationship with Fellow Adventurers</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—05 | Family or close as family—close friends, close/distant relatives, relatives by marriage/adoption |
+[Relationship with Fellow Adventurers]
+| d% | Result |
+| --- | --- |
+| 01—05 | Family or close as family—close friends, close/distant relatives, relatives by marriage/adoption |
 | 06—10 | Friend of a friend |
 | 11—15 | Tavern buddies |
 | 16—20 | Hunting companions |
@@ -1047,10 +1031,10 @@ Character drawbacks are emotional weak points—chinks your armor. A drawback gi
 
 Discuss with the GM the details of this drawback, such as what the attachment is or who the person involved might be.
 
-<caption>Character Drawback</caption><thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—05 | **Attachment (Object):** You are attached to a precious possession with immense sentimental value and significance. Without it, you are no longer yourself and are prone to suffer from depression, moodiness, or aggressive behavior. You gain access to the Attached drawback. |
+[Character Drawback]
+| d% | Result |
+| --- | --- |
+| 01—05 | **Attachment (Object):** You are attached to a precious possession with immense sentimental value and significance. Without it, you are no longer yourself and are prone to suffer from depression, moodiness, or aggressive behavior. You gain access to the Attached drawback. |
 | 06—10 | **Attachment (Person)** : You are attached to a particular person—a friend, family member, or loved one—who means more than anything or anyone in the world. Your thoughts always return to this person. You gain access to the Attached drawback. |
 | 11—15 | **Family** : Your family means everything to you, and there is nothing you wouldn't do for them. Maybe your ties extend to your entire clan or bloodline, or perhaps there is one specific member of your family you hold closer than any other. You gain access to the Family Ties drawback. |
 | 16—20 | **Justice** : Unfairness and injustice are intolerable. Whenever you witness them, you feel compelled to act or speak out. When you're personally wronged, you require appeasement—or revenge if you don't receive it. You gain access to the Headstrong drawback. |

@@ -1,8 +1,7 @@
-<caption>Table: Minor Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Item</th>
-<th>Market Price</th>
-</tr></thead>| 01–05 | _Ioun torch_ | 75 gp |
+[Table: Minor Wondrous Items]
+| d% | Item | Market Price |
+| --- | --- | --- |
+| 01–05 | _Ioun torch_ | 75 gp |
 | 06–09 | _War paint of the terrible visage_ | 100 gp |
 | 10–12 | _Assisting glove_ | 180 gp |
 | 13–15 | _Bandages of rapid recovery_ | 200 gp |
@@ -34,11 +33,10 @@
 | 97–98 | _Scabbard of staunching_ | 5,000 gp |
 | 99–100 | _Sheath of bladestealth_ | 5,000 gp |
 
-<caption>Table: Medium Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Item</th>
-<th>Market Price</th>
-</tr></thead>| 01–06 | _Grappler's mask_ | 5,000 gp |
+[Table: Medium Wondrous Items]
+| d% | Item | Market Price |
+| --- | --- | --- |
+| 01–06 | _Grappler's mask_ | 5,000 gp |
 | 07–16 | _Torc of lionheart fury_ | 8,000 gp |
 | 17–19 | _Amulet of spell cunning_ | 10,000 gp |
 | 20–23 | _Construct channel brick_ | 10,000 gp |
@@ -61,11 +59,10 @@
 | 97–98 | _Sniper goggles_ | 20,000 gp |
 | 99–100 | _Annihilation spectacles_ | 25,000 gp |
 
-<caption>Table: Major Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Item</th>
-<th>Market Price</th>
-</tr></thead>| 01–08 | _Cauldron of the dead_ | 30,000 gp |
+[Table: Major Wondrous Items]
+| d% | Item | Market Price |
+| --- | --- | --- |
+| 01–08 | _Cauldron of the dead_ | 30,000 gp |
 | 09–20 | _Mask of giants_ (lesser) | 30,000 gp |
 | 21–32 | _Cauldron of resurrection_ | 33,000 gp |
 | 33–48 | _Cauldron of flying_ | 40,000 gp |
@@ -783,7 +780,9 @@ This fine, red leather sheath is decorated with gold filigree. It fits any blade
 
 Once per day, as part of the action of drawing forth the weapon held by the scabbard, the wearer can order it to endow the weapon with an enhancement bonus on attack and damage rolls. The duration of the effect depends on the desired enhancement bonus for the weapon.
 
-<thead><tr id="bonus-duration"><th><b>Bonus Duration</b></th></tr></thead>| +4 1 round |
+| **Bonus Duration** |
+| --- |
+| +4 1 round |
 | +3 3 rounds |
 | +2 5 rounds |
 | +1 10 rounds |

@@ -24,14 +24,10 @@ The shadowdancer's class skills (and the key ability for each skill) are [Acroba
 
 **Skill Ranks at Each Level** : 6 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Shadowdancer</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-</tr></thead>| 1st | +0 | +0 | +1 | +0 | Hide in plain sight |
+[Table: Shadowdancer]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +1 | +0 | Hide in plain sight |
 | 2nd | +1 | +1 | +1 | +1 | Evasion, darkvision, uncanny dodge |
 | 3rd | +2 | +1 | +2 | +1 | Rogue talent, shadow illusion, summon shadow |
 | 4th | +3 | +1 | +2 | +1 | Shadow call, shadow jump 40 ft. |

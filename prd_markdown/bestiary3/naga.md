@@ -42,7 +42,7 @@ STATISTICS
 
 **Base Atk** +6; **CMB** +9; **CMD** 24 (can't be tripped)
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials)<sup>B</sup>, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))
+**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials)B, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))
 
 **Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +7, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +7, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) +9, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +14, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +8, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +14
 
@@ -122,7 +122,7 @@ Statistics
 
 **Base Atk** +10; **CMB** +18 (+22 grapple); **CMD** 31 (can't be tripped)
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Blind-Fight](/pathfinderRPG/prd/feats.html#_blind-fight), [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials)<sup>B</sup>, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Stand Still](/pathfinderRPG/prd/feats.html#_stand-still)
+**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Blind-Fight](/pathfinderRPG/prd/feats.html#_blind-fight), [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials)B, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Stand Still](/pathfinderRPG/prd/feats.html#_stand-still)
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +20 (+24 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +18, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +18, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +18, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +11, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nobility) +11, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +27, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +24, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +12
 
@@ -194,7 +194,7 @@ Statistics
 
 **Base Atk** +6; **CMB** +12; **CMD** 28 (can't be tripped)
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials)<sup>B</sup>, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))
+**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials)B, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))
 
 **Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +8, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +4, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +17, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +11, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +16, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +13
 

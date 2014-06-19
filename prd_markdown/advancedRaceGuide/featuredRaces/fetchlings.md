@@ -48,11 +48,10 @@ Creatures with the shadow creature template dwell on the Shadow Plane, only rare
 
 **Rebuild Rules** : **Senses** gains darkvision and low-light vision 60 ft.; **Defensive Abilities** gains energy resistance and DR as noted on the table below; **SR** gains SR equal to new CR + 5; **Special Abilities** _Shadow Blend (Su)_ In any condition of illumination other than bright light, a shadow creature blends into the shadows, giving it concealment (20% miss chance). A shadow creature can suspend or resume this ability as a free action.
 
-<caption>Shadow Creature Defenses</caption><thead><tr>
-<th>Hit Dice</th>
-<th>Resist Cold and Electricity</th>
-<th>DR</th>
-</tr></thead>| 1–4 | 5 | — |
+[Shadow Creature Defenses]
+| Hit Dice | Resist Cold and Electricity | DR |
+| --- | --- | --- |
+| 1–4 | 5 | — |
 | 5–10 | 10 | 5/magic |
 | 11+ | 15 | 10/magic |
 
@@ -158,12 +157,10 @@ The following alchemical items either boost the strange physiology of fetchlings
 
 **Shadowcloy** : This thin black liquid is stored in airtight flasks because it evaporates quickly when exposed to air. Its cloying vapors cling to a target, obscuring vision for a short period of time. You can throw a shadowcloy flask as a splash weapon with a range increment of 10 feet. A direct hit means the target treats the ambient light as one category darker than normal , with a creature already in natural darkness treating it as supernatural darkness. This effect lasts for 1 round. A thrown shadowcloy flask has no effect on adjacent creatures or if it misses.
 
-<caption>Fetchling Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Darklight lantern | 20 gp | 3 lbs. | — |
+[Fetchling Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Darklight lantern | 20 gp | 3 lbs. | — |
 | Gloom sight goggles | 200 gp | — | 25 |
 | Shadowcloy flask | 25 gp | 1 lb. | 20 |
 

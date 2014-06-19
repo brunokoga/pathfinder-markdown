@@ -16,22 +16,18 @@
 
 You can observe a creature at any distance. If the subject succeeds on a [Will](../combat.html#_will) save, the spell fails. The difficulty of the save depends on how well your knowledge of the subject and what sort of physical connection (if any) you have to that creature. Furthermore, if the subject is on another plane, it gets a +5 bonus on its [Will](../combat.html#_will) save.
 
-<thead><tr>
-<th>Knowledge</th>
-<th>
-<a href="../combat.html#_will">Will</a> Save Modifier</th>
-</tr></thead>| None\* | +10 |
+| Knowledge | [Will](../combat.html#_will) Save Modifier |
+| --- | --- |
+| None\* | +10 |
 | Secondhand (you have heard of the subject) | +5 |
 | Firsthand (you have met the subject) | +0 |
 | Familiar (you know the subject well) | –5 |
-<thead><tr>
-<th>Connection</th>
-<th>
-<a href="../combat.html#_will">Will</a> Save Modifier</th>
-</tr></thead>| Likeness or picture | –2 |
+
+| Connection | [Will](../combat.html#_will) Save Modifier |
+| --- | --- |
+| Likeness or picture | –2 |
 | Possession or garment | –4 |
 | Body part, lock of hair, bit of nail, etc. | –10 |
-<tfoot><tr><td colspan="2">*You must have some sort of connection (see below) to a creature of which you have no knowledge.</td></tr></tfoot>
 
 If the save fails, you can see and hear the subject and its surroundings (approximately 10 feet in all directions of the subject). If the subject moves, the sensor follows at a speed of up to 150 feet.
 

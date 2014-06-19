@@ -117,14 +117,8 @@ Construction
   
   
 
-<caption>Grippli Poison</caption><thead><tr>
-<th>Name</th>
-<th>Type</th>
-<th>Fort DC</th>
-<th>Onset</th>
-<th>Frequency</th>
-<th>Effect</th>
-<th>Cure</th>
-<th>Cost</th>
-</tr></thead>| Black spider marsh poison | injury | 14 | — | 1/rd. for 6 rds. | 1d4 Dex and confused for 1 rd. | 2 consecutive saves | 800 gp |
+[Grippli Poison]
+| Name | Type | Fort DC | Onset | Frequency | Effect | Cure | Cost |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Black spider marsh poison | injury | 14 | — | 1/rd. for 6 rds. | 1d4 Dex and confused for 1 rd. | 2 consecutive saves | 800 gp |
 

@@ -26,26 +26,12 @@ The following table lists the starting gold piece value for magus characters. In
 
 The following are the class features of the magus.
 
-<caption>Table: Magus</caption><thead>
-<tr>
-<th rowspan="2">Level</th>
-<th rowspan="2">Base Attack Bonus</th>
-<th rowspan="2">Fort Save</th>
-<th rowspan="2">Ref Save</th>
-<th rowspan="2">Will Save</th>
-<th rowspan="2">Special</th>
-<th colspan="7">Spells per Day</th>
-</tr>
-<tr>
-<th>0</th>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-</tr>
-</thead>| 1st | +0 | +2 | +0 | +2 | Arcane Pool, Cantrips, Spell Combat | 3 | 1 | — | — | — | — | — |
+[Table: Magus]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0 | 1st | 2nd | 3rd | 4th | 5th | 6th |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +2 | +0 | +2 | Arcane Pool, Cantrips, Spell Combat | 3 | 1 | — | — | — | — | — |
 | 2nd | +1 | +3 | +0 | +3 | Spellstrike | 4 | 2 | — | — | — | — | — |
 | 3rd | +2 | +3 | +1 | +3 | Magus Arcana | 4 | 3 | — | — | — | — | — |
 | 4th | +3 | +4 | +1 | +4 | Spell Recall | 4 | 3 | 1 | — | — | — | — |

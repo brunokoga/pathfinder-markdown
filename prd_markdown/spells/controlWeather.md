@@ -16,10 +16,9 @@
 
 You change the weather in the local area. It takes 10 minutes to cast the spell and an additional 10 minutes for the effects to manifest. You can call forth weather appropriate to the climate and season of the area you are in. You can also use this spell to cause the weather in the area to become calm and normal for the season.
 
-<thead><tr>
-<th>Season</th>
-<th>Possible Weather</th>
-</tr></thead>| Spring | Tornado, thunderstorm, sleet storm, or hot weather |
+| Season | Possible Weather |
+| --- | --- |
+| Spring | Tornado, thunderstorm, sleet storm, or hot weather |
 | Summer | Torrential rain, heat wave, or hailstorm |
 | Autumn | Hot or cold weather, fog, or sleet |
 | Winter | Frigid cold, blizzard, or thaw |

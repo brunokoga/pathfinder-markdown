@@ -122,26 +122,12 @@ When a forced alignment change is purely arbitrary (such as from a curse or magi
 
 Some classes lose class abilities when a character changes alignments. Alignment changes may be interesting for a short adventure, such as freeing a monk from the curse of a chaotic monkey god, but these situations should be unusual. For some characters, changing alignment is a character-altering concept akin to destroying a wizard's spellbook or amputating an archer's arm—the scars are long-lasting, hard to reverse, and end up punishing the player.
 
-<caption>Changing Alignment</caption><thead><tr>
-<th>1</th>
-<th>2</th>
-<th>3</th>
-<th>4</th>
-<th>5</th>
-<th>6</th>
-<th>7</th>
-<th>8</th>
-<th>9</th>
-</tr></thead>| Lawful | Neutral | Chaotic |
-<thead><tr>
-<th>1</th>
-<th>2</th>
-<th>3</th>
-<th>4</th>
-<th>5</th>
-<th>6</th>
-<th>7</th>
-<th>8</th>
-<th>9</th>
-</tr></thead>| Good | Neutral | Evil |
+[Changing Alignment]
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Lawful | Neutral | Chaotic |
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Good | Neutral | Evil |
 

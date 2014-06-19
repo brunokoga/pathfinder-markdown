@@ -88,7 +88,7 @@ N Medium [vermin](creatureTypes.html#_vermin)
 
 **Base**  **Atk** +1; **CMB** +3 (+7 grapple); **CMD** 13 (21 vs. trip)
 
-**Feats** [Toughness](../feats.html#_toughness)<sup>B</sup>
+**Feats** [Toughness](../feats.html#_toughness)B
 
 **Skills** [Climb](../skills/climb.html#_climb) +10, [Perception](../skills/perception.html#_perception) +5, [Survival](../skills/survival.html#_survival) +5; **Racial Modifiers** +4 [Perception](../skills/perception.html#_perception), +4 [Survival](../skills/survival.html#_survival)
 

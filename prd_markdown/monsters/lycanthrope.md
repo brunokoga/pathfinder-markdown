@@ -242,5 +242,7 @@ Of all the various types of lycanthropes, it is the werewolf that is the most wi
 
 Just as wolves are pack animals, werewolves have been known to gather in colonies and live among their own kind, humanoid by day and beast at night. Visitors to werewolf villages are generally rushed out of town before nightfall so as not to discover the citizenry's dark secret—unless, of course, the pack decides that the unlucky visitor won't be missed by friends back home.
 
-<caption>Lycanthropic Player Characters</caption><thead><tr><th>When a PC becomes a lycanthrope, you as the GM have a choice to make. In most cases, you should take control of the PC's actions whenever he is in hybrid or animal form—lycanthropy shouldn't be a method to increase a PC's power, after all, and what an afflicted lycanthrope does while in animal or hybrid form is often at odds with what the character would actually want. If a player wants to play a lycanthrope, he should play a natural lycanthrope and follow the <a href="monstersAsPCs.html">guidelines for playing a character of a powerful race.</a>
-</th></tr></thead>
+[Lycanthropic Player Characters]
+| When a PC becomes a lycanthrope, you as the GM have a choice to make. In most cases, you should take control of the PC's actions whenever he is in hybrid or animal form—lycanthropy shouldn't be a method to increase a PC's power, after all, and what an afflicted lycanthrope does while in animal or hybrid form is often at odds with what the character would actually want. If a player wants to play a lycanthrope, he should play a natural lycanthrope and follow the [guidelines for playing a character of a powerful race.](monstersAsPCs.html) |
+| --- |
+

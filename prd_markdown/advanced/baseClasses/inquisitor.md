@@ -14,25 +14,12 @@ The inquisitor's class skills are [Bluff](../../skills/bluff.html#_bluff) (Cha),
 
 **Skill Ranks per Level** : 6 + Int modifier.
 
-<caption>Table: Inquisitor</caption><thead>
-<tr id="level-bonus-save-save-save-special-1st-2nd-3rd-4th-5th-6th">
-<th rowspan="2">Level</th>
-<th rowspan="2">Base Attack Bonus</th>
-<th rowspan="2">Fort Save</th>
-<th rowspan="2">Ref Save</th>
-<th rowspan="2">Will Save</th>
-<th rowspan="2">Special</th>
-<th colspan="6">Spells per Day</th>
-</tr>
-<tr>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-</tr>
-</thead>| 1st | +0 | +2 | +0 | +2 | Domain, judgment 1/day, monster lore, orisons, stern gaze | 1 | — | — | — | — | — |
+[Table: Inquisitor]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | 2nd | 3rd | 4th | 5th | 6th |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +2 | +0 | +2 | Domain, judgment 1/day, monster lore, orisons, stern gaze | 1 | — | — | — | — | — |
 | 2nd | +1 | +3 | +0 | +3 | Cunning initiative, _detect alignment_, track | 2 | — | — | — | — | — |
 | 3rd | +2 | +3 | +1 | +3 | Solo tactics, teamwork feat | 3 | — | — | — | — | — |
 | 4th | +3 | +4 | +1 | +4 | Judgment 2/day | 3 | 1 | — | — | — | — |
@@ -53,21 +40,12 @@ The inquisitor's class skills are [Bluff](../../skills/bluff.html#_bluff) (Cha),
 | 19th | +14/+9/+4 | +11 | +6 | +11 | Judgment 7/day | 5 | 5 | 5 | 5 | 5 | 4 |
 | 20th | +15/+10/+5 | +12 | +6 | +12 | True judgment | 5 | 5 | 5 | 5 | 5 | 5 |
 
-<caption>Table: Inquisitor Spells Known</caption><thead>
-<tr id="level-0-1st-2nd-3rd-4th-5th-6th">
-<th rowspan="2">Level</th>
-<th colspan="7">Spells Known</th>
-</tr>
-<tr>
-<th>0</th>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-</tr>
-</thead>| 1st | 4 | 2 | — | — | — | — | — |
+[Table: Inquisitor Spells Known]
+| Level | Spells Known |
+| --- | --- |
+| 0 | 1st | 2nd | 3rd | 4th | 5th | 6th |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | 4 | 2 | — | — | — | — | — |
 | 2nd | 5 | 3 | — | — | — | — | — |
 | 3rd | 6 | 4 | — | — | — | — | — |
 | 4th | 6 | 4 | 2 | — | — | — | — |

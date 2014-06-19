@@ -4,11 +4,10 @@ The feet slot consists of boots, horseshoes, sandals, shoes, slippers, and other
 
 Anyone can use a feet slot wondrous item unless specified otherwise by its description. These wondrous items are usually activated by use or by a command word, but details vary from item to item.
 
-<caption>Feet Slot Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Feet Item</th>
-<th>Price</th>
-</tr></thead>| 01–11 | _Boots of the cat_ | 1,000 gp |
+[Feet Slot Wondrous Items]
+| d% | Lesser Minor Feet Item | Price |
+| --- | --- | --- |
+| 01–11 | _Boots of the cat_ | 1,000 gp |
 | 12–22 | _Daredevil boots_ | 1,400 gp |
 | 23–31 | _Boots of the enduring march_ | 1,500 gp |
 | 32–41 | _Feather step slippers_ | 2,000 gp |
@@ -18,11 +17,10 @@ Anyone can use a feet slot wondrous item unless specified otherwise by its descr
 | 77–85 | _Acrobat slippers_ | 3,000 gp |
 | 86–92 | _Horseshoes of speed_ | 3,000 gp |
 | 93–100 | _Boots of the mire_ | 3,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Feet Item</th>
-<th>Price</th>
-</tr></thead>| 01–07 | _Burglar boots, minor_ | 4,000 gp |
+
+| d% | Greater Minor Feet Item | Price |
+| --- | --- | --- |
+| 01–07 | _Burglar boots, minor_ | 4,000 gp |
 | 08–13 | _Horseshoes of crushing blows +1_ | 4,000 gp |
 | 14–19 | _Sandals of quick reaction_ | 4,000 gp |
 | 20–26 | _Slippers of cloudwalking_ | 4,400 gp |
@@ -33,11 +31,10 @@ Anyone can use a feet slot wondrous item unless specified otherwise by its descr
 | 69–75 | _Haunted shoes_ | 6,480 gp |
 | 76–82 | _Jaunt boots_ | 7,200 gp |
 | 83–100 | _Boots of levitation_ | 7,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Feet Item</th>
-<th>Price</th>
-</tr></thead>| 01–08 | _Boots of escape_ | 8,000 gp |
+
+| d% | Lesser Medium Feet Item | Price |
+| --- | --- | --- |
+| 01–08 | _Boots of escape_ | 8,000 gp |
 | 09–14 | _Earth root boots_ | 8,000 gp |
 | 15–21 | _Nightmare boots_ | 8,500 gp |
 | 22–26 | _Nightmare horseshoes_ | 9,000 gp |
@@ -49,27 +46,24 @@ Anyone can use a feet slot wondrous item unless specified otherwise by its descr
 | 71–77 | _Verdant boots_ | 12,000 gp |
 | 78–84 | _Horseshoes of crushing blows +2_ | 16,000 gp |
 | 85–100 | _Winged boots_ | 16,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Feet Item</th>
-<th>Price</th>
-</tr></thead>| 01–38 | _Shoes of the firewalker_ | 21,000 gp |
+
+| d% | Greater Medium Feet Item | Price |
+| --- | --- | --- |
+| 01–38 | _Shoes of the firewalker_ | 21,000 gp |
 | 39–72 | _Dryad sandals_ | 24,000 gp |
 | 73–100 | _Horseshoes of the mist_ | 27,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Feet Item</th>
-<th>Price</th>
-</tr></thead>| 01–20 | _Getaway boots_ | 30,000 gp |
+
+| d% | Lesser Major Feet Item | Price |
+| --- | --- | --- |
+| 01–20 | _Getaway boots_ | 30,000 gp |
 | 21–35 | _Horseshoes of crushing blows +3_ | 36,000 gp |
 | 36–55 | _Horseshoes of glory_ | 39,600 gp |
 | 56–75 | _Burglar boots, major_ | 46,000 gp |
 | 76–100 | _Boots of teleportation_ | 49,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Feet Item</th>
-<th>Price</th>
-</tr></thead>| 01–40 | _Slippers of the triton_ | 56,000 gp |
+
+| d% | Greater Major Feet Item | Price |
+| --- | --- | --- |
+| 01–40 | _Slippers of the triton_ | 56,000 gp |
 | 41–70 | _Horseshoes of crushing blows +4_ | 64,000 gp |
 | 71–100 | _Horseshoes of crushing blows +5_ | 100,000 gp |
 

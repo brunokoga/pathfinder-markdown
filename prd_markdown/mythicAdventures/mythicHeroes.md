@@ -56,12 +56,10 @@ Every mythic character belongs to a mythic path. Each path represents a journey 
 
 [**Trickster**](/pathfinderRPG/prd/mythicAdventures/mythicHeroes/trickster.html): Skill, training, and savvy make the trickster the master of the impossible—defying unbeatable obstacles and traps, tricking the wise, and hitting otherwise unattainable targets. The trickster's abilities allow him to change his appearance, manipulate others, and strike with deadly accuracy. Characters with high Dexterity and Charisma scores have a lot to gain from becoming tricksters. The path of the trickster is suitable for those who rely on subterfuge and cunning.
 
-<caption>Base Mythic Abilities</caption><thead><tr>
-<th>Mythic Tier</th>
-<th>Ability Score</th>
-<th>Mythic Feat</th>
-<th>Base Mythic Abilities</th>
-</tr></thead>| 1st | — | 1st | Hard to kill, mythic power, surge +1d6 |
+[Base Mythic Abilities]
+| Mythic Tier | Ability Score | Mythic Feat | Base Mythic Abilities |
+| --- | --- | --- | --- |
+| 1st | — | 1st | Hard to kill, mythic power, surge +1d6 |
 | 2nd | 1st | — | Amazing initiative |
 | 3rd | — | 2nd | Recuperation |
 | 4th | 2nd | — | Surge +1d8 |
@@ -110,10 +108,10 @@ The number of trials required to attain each new tier appears on the Mythic Tria
 
 Note that the number of trials needed to achieve the next tier might vary from the number listed on the table below. The GM can reduce or increase this number as needed to suit the campaign—refer to the [Mythic Trials](/pathfinderRPG/prd/mythicAdventures/mythicGame.html#_mythic-trials) section for more guidance.
 
-<caption>Mythic Trials per Tier</caption><thead><tr>
-<th>Tier</th>
-<th>Trials</th>
-</tr></thead>| 1st\* | — |
+[Mythic Trials per Tier]
+| Tier | Trials |
+| --- | --- |
+| 1st\* | — |
 | 2nd | 1 |
 | 3rd | 2 |
 | 4th | 2 |
@@ -123,7 +121,6 @@ Note that the number of trials needed to achieve the next tier might vary from t
 | 8th | 4 |
 | 9th | 5 |
 | 10th | 5 |
-<tfoot><tr><td colspan="2">*The first tier is gained at the moment of ascension.</td></tr></tfoot>
 
 # Universal Path Abilities
 

@@ -120,12 +120,10 @@ Treasure comes in many shapes and forms, from simple coins and lustrous gems to 
 
 **Type I, Treasure Hoard (Treasure Hoard table)** : Truly the greatest of the treasure types, this can contain virtually any type of item. It usually serves as the reward for many challenging encounters, saved up and placed in one location.
 
-<caption>Treasure Values per Encounter</caption><thead><tr>
-<th>Average Party Level</th>
-<th>Slow</th>
-<th>Medium</th>
-<th>Fast</th>
-</tr></thead>| 1 | 170 gp | 260 gp | 400 gp |
+[Treasure Values per Encounter]
+| Average Party Level | Slow | Medium | Fast |
+| --- | --- | --- | --- |
+| 1 | 170 gp | 260 gp | 400 gp |
 | 2 | 350 gp | 550 gp | 800 gp |
 | 3 | 550 gp | 800 gp | 1,200 gp |
 | 4 | 750 gp | 1,150 gp | 1,700 gp |
@@ -146,13 +144,10 @@ Treasure comes in many shapes and forms, from simple coins and lustrous gems to 
 | 19 | 35,000 gp | 53,000 gp | 79,000 gp |
 | 20+ | 44,000 gp | 67,000 gp | 100,000 gp |
 
-<caption>NPC Gear</caption><thead><tr>
-<th>Basic Level<sup>1</sup>
-</th>
-<th>Heroic Level<sup>1</sup>
-</th>
-<th>Treasure Value</th>
-</tr></thead>| 1 | — | 260 gp |
+[NPC Gear]
+| Basic Levelⁱ | Heroic Levelⁱ | Treasure Value |
+| --- | --- | --- |
+| 1 | — | 260 gp |
 | 2 | 1 | 390 gp |
 | 3 | 2 | 780 gp |
 | 4 | 3 | 1,650 gp |
@@ -173,16 +168,13 @@ Treasure comes in many shapes and forms, from simple coins and lustrous gems to 
 | 19 | 18 | 96,000 gp |
 | 20 | 19 | 123,000 gp |
 | — | 20 | 159,000 gp |
-<tfoot><tr><td colspan="3">
-<sup>1</sup> Basic level NPCs typically have class levels only in NPC classes.<br>
-<sup>2</sup> Heroic level NPCs have levels in standard character classes.</td></tr></tfoot>
 
 If your campaign uses the fast experience progression, treat the NPCs as one level higher when determining the treasure value. If your campaign is using the slow experience progression, treat the NPC as one level lower when determining treasure value.
 
-<caption>Type A Treasure, Coins</caption><thead><tr>
-<th>Value</th>
-<th>Reward</th>
-</tr></thead>| 1 gp | 5d10 cp, 3d4 sp |
+[Type A Treasure, Coins]
+| Value | Reward |
+| --- | --- |
+| 1 gp | 5d10 cp, 3d4 sp |
 | 5 gp | 2d6 × 10 cp, 4d8 sp, 1d4 gp |
 | 10 gp | 5d10 × 10 cp, 5d10 sp, 1d8 gp |
 | 25 gp | 2d4 × 100 cp, 3d6 × 10 sp, 4d4 gp |
@@ -197,10 +189,10 @@ If your campaign uses the fast experience progression, treat the NPCs as one lev
 
 Treasure of this type is made up entirely of coins. While it usually does not make a difference to their overall value, the GM may wish to consider the origin of the coins and what is minted on each side. Such details add depth to the world and might lead to further adventures.
 
-<caption>Type B Treasure, Coins and Gems</caption><thead><tr>
-<th>Value</th>
-<th>Reward</th>
-</tr></thead>| 10 gp | Grade 1 gemstone |
+[Type B Treasure, Coins and Gems]
+| Value | Reward |
+| --- | --- |
+| 10 gp | Grade 1 gemstone |
 | 15 gp | 2d6 × 10 cp, 4d8 sp, 1d4 gp, grade 1 gemstone |
 | 25 gp | 5d10 sp, 1d4 gp, two grade 1 gemstones |
 | 50 gp | Grade 2 gemstone |
@@ -225,10 +217,10 @@ Treasure of this type is made up entirely of coins. While it usually does not ma
 
 This treasure is made up solely of coins and gemstones, which can generally be traded for their full value. The gemstones make up the majority of the value for these rewards. Note that you can replace any gemstone with a piece of simple jewelry that is one grade lower, or a piece of complex jewelry that is two grades lower.
 
-<caption>Type C Treasure, Art Objects</caption><thead><tr>
-<th>Value</th>
-<th>Reward</th>
-</tr></thead>| 50 gp | Grade 1 art object |
+[Type C Treasure, Art Objects]
+| Value | Reward |
+| --- | --- |
+| 50 gp | Grade 1 art object |
 | 100 gp | Grade 2 art object |
 | 100 gp | Two grade 1 art objects |
 | 150 gp | Grade 1 art object, grade 2 art object |
@@ -253,10 +245,10 @@ This treasure is made up solely of coins and gemstones, which can generally be t
 
 This treasure is made up art objects, which can generally be traded for their full value.
 
-<caption>Type D Treasure, Coins and Small Objects</caption><thead><tr>
-<th>Value</th>
-<th>Reward</th>
-</tr></thead>| 50 gp | 3d6 × 10 sp, 4d4 gp, lesser minor scroll |
+[Type D Treasure, Coins and Small Objects]
+| Value | Reward |
+| --- | --- |
+| 50 gp | 3d6 × 10 sp, 4d4 gp, lesser minor scroll |
 | 50 gp | 2d4 × 10 sp, 2d4 gp, lesser minor potion |
 | 100 gp | 4d6 × 10 sp, 3d10 gp, lesser minor potion, lesser minor scroll |
 | 150 gp | 2d4 × 10 sp, 6d6 gp, greater minor scroll |
@@ -290,10 +282,10 @@ This treasure is made up art objects, which can generally be traded for their fu
 
 This treasure is made up coins and small magic items, such as potions, scrolls, and wands.
 
-<caption>Type E Treasure, Armor and Weapons</caption><thead><tr>
-<th>Value</th>
-<th>Reward</th>
-</tr></thead>| 200 gp | Masterwork light armor or shield |
+[Type E Treasure, Armor and Weapons]
+| Value | Reward |
+| --- | --- |
+| 200 gp | Masterwork light armor or shield |
 | 300 gp | Masterwork medium armor |
 | 350 gp | Masterwork weapon |
 | 1,000 gp | Masterwork heavy armor |
@@ -324,10 +316,10 @@ This treasure is made up coins and small magic items, such as potions, scrolls, 
 
 This treasure is made up entirely of armor and weapons. Note that the value of some types of armor and weapons can significantly increase the value of some low-level rewards.
 
-<caption>Type F Treasure, Combatant Gear</caption><thead><tr>
-<th>Value</th>
-<th>Reward</th>
-</tr></thead>| 50 gp | 2d4 × 10 sp, 2d4 gp, lesser minor potion |
+[Type F Treasure, Combatant Gear]
+| Value | Reward |
+| --- | --- |
+| 50 gp | 2d4 × 10 sp, 2d4 gp, lesser minor potion |
 | 250 gp | 2d4 × 10 sp, 2d4 gp, masterwork light armor or shield, lesser minor potion |
 | 350 gp | 2d4 × 10 sp, 2d4 gp, masterwork medium armor, lesser minor potion |
 | 400 gp | 2d4 × 10 sp, 2d4 gp, masterwork weapon, lesser minor potion |
@@ -356,10 +348,10 @@ This treasure is made up entirely of armor and weapons. Note that the value of s
 
 Treasure of this type represents the typical gear that might be carried by a creature that frequently finds itself in combat without the aid of spells or magic. These rewards include coins only if needed to round out the total value to an easily used number. Note that the value of some types of armor and weapons can significantly increase the value of some low-level rewards.
 
-<caption>Type G Treasure, Spellcaster Gear</caption><thead><tr>
-<th>Value</th>
-<th>Reward</th>
-</tr></thead>| 50 gp | 2d4 × 10 sp, 2d4 gp, lesser minor potion |
+[Type G Treasure, Spellcaster Gear]
+| Value | Reward |
+| --- | --- |
+| 50 gp | 2d4 × 10 sp, 2d4 gp, lesser minor potion |
 | 75 gp | 2d4 gp, lesser minor potion, lesser minor scroll |
 | 100 gp | Lesser minor potion, two lesser minor scrolls |
 | 150 gp | Lesser minor scroll, greater minor scroll |
@@ -390,10 +382,10 @@ Treasure of this type represents the typical gear that might be carried by a cre
 
 Treasure of this type represents the typical gear that might be carried by a spellcasting creature. These rewards include coins only if needed to round out the total value to an easily used number.
 
-<caption>Type H Treasure, Lair Treasure</caption><thead><tr>
-<th>Value</th>
-<th>Reward</th>
-</tr></thead>| 500 gp | 4d4 × 100 cp, 3d6 × 10 sp, 2d4 × 10 gp, masterwork weapon, lesser minor potion, lesser minor scroll, grade 2 gemstone |
+[Type H Treasure, Lair Treasure]
+| Value | Reward |
+| --- | --- |
+| 500 gp | 4d4 × 100 cp, 3d6 × 10 sp, 2d4 × 10 gp, masterwork weapon, lesser minor potion, lesser minor scroll, grade 2 gemstone |
 | 1,000 gp | 2d4 × 100 cp, 2d6 × 100 sp, 6d6 gp, greater minor potion, greater minor scroll, lesser minor wand, three grade 1 gemstones |
 | 2,500 gp | 3d6 × 10 sp, 2d4 gp, masterwork heavy armor, masterwork weapon, two lesser medium potions, two greater minor scrolls, grade 2 gemstone |
 | 5,000 gp | 2d4 × 10 gp, 4d6 pp, masterwork weapon, lesser minor ring, greater medium potion, lesser medium scroll, greater minor wand |
@@ -410,10 +402,10 @@ Treasure of this type represents the typical gear that might be carried by a spe
 
 Rewards from this type of treasure represent the kinds of items that might be found in the lair of one or more creatures. Though they can be of any type, this treasure tends to include a fair number of coins and smaller magic items.
 
-<caption>Type I Treasure, Treasure Hoard</caption><thead><tr>
-<th>Value</th>
-<th>Reward</th>
-</tr></thead>| 5,000 gp | 4d4 × 1,000 cp, 6d6 × 100 sp, 2d4 × 100 gp, 6d6 pp, lesser minor armor, greater minor wand, five grade 3 gemstones, grade 3 art object |
+[Type I Treasure, Treasure Hoard]
+| Value | Reward |
+| --- | --- |
+| 5,000 gp | 4d4 × 1,000 cp, 6d6 × 100 sp, 2d4 × 100 gp, 6d6 pp, lesser minor armor, greater minor wand, five grade 3 gemstones, grade 3 art object |
 | 10,000 gp | 4d4 × 1,000 cp, 6d6 × 100 sp, 2d4 × 100 gp, 6d6 pp, greater minor armor, lesser minor weapon, lesser minor wondrous item, greater medium scroll, grade 4 gemstone, grade 3 art object |
 | 15,000 gp | 2d4 × 1,000 cp, 6d4 × 100 sp, 3d6 × 10 gp, 6d6 pp, greater minor ring, two lesser minor wondrous items, two greater medium potions, greater minor wand, grade 4 gemstone, grade 3 art object |
 | 20,000 gp | 2d4 × 1,000 cp, 6d4 × 100 sp, 3d6 × 10 gp, 6d6 pp, greater minor armor, lesser medium rod, greater minor wondrous item, two lesser major potions, greater medium scroll, three grade 3 art objects |
@@ -431,12 +423,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 
 Rewards from this type of treasure represent the kinds of items that might be found in the vault of an entire community of creatures or in the hoard of a mighty beast such as a dragon. While this reward can include items of any type, it focuses on coins, gems, and larger, more valuable items.
 
-<caption>Random Armor or Shield
-</caption>
-<thead><tr>
-<th>d%</th>
-<th>Type of Armor or Shield</th>
-</tr></thead>| 01–04 | Banded mail |
+[Random Armor or Shield]
+| d% | Type of Armor or Shield |
+| --- | --- |
+| 01–04 | Banded mail |
 | 05–11 | Breastplate |
 | 12–14 | Buckler |
 | 15–21 | Chain shirt |
@@ -458,12 +448,11 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 94–95 | Other medium armor\* |
 | 96–98 | Other heavy armor\* |
 | 99–100 | Other shield\* |
-<tfoot><tr><td colspan="2">*GM's choice of armor or shield.</td></tr></tfoot>
 
-<caption>Random Weapon</caption><thead><tr>
-<th>d%</th>
-<th>Type of Weapon</th>
-</tr></thead>| 01 | Bastard sword |
+[Random Weapon]
+| d% | Type of Weapon |
+| --- | --- |
+| 01 | Bastard sword |
 | 02–05 | Battleaxe |
 | 06 | Bolas |
 | 07–08 | Club |
@@ -504,34 +493,25 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 95–96 | Other one-handed melee weapon\* |
 | 97–98 | Other two-handed melee weapon\* |
 | 99–100 | Other ranged weapon\* |
-<tfoot><tr><td colspan="2">*GM's choice of weapon.</td></tr></tfoot>
 
-<caption>Random Potions and Oils</caption><thead><tr>
-<th>Lesser Minor</th>
-<th>Greater Minor</th>
-<th>Lesser Medium</th>
-<th>Greater Medium</th>
-<th>Lesser Major</th>
-<th>Greater Major</th>
-<th>Spell Level</th>
-<th>Caster Level</th>
-</tr></thead>| 01–40 | 01–10 | — | — | — | — | 0 | 1st |
+[Random Potions and Oils]
+| Lesser Minor | Greater Minor | Lesser Medium | Greater Medium | Lesser Major | Greater Major | Spell Level | Caster Level |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 01–40 | 01–10 | — | — | — | — | 0 | 1st |
 | 41–100 | 11–60 | 01–25 | 01–10 | — | — | 1st | 1st |
 | — | 61–100 | 26–85 | 11–50 | 01–35 | 01–10 | 2nd | 3rd |
 | — | — | 86–100 | 51–100 | 36–100 | 11–100 | 3rd | 5th |
 
-<caption>Type of Potion or Oil</caption><thead><tr>
-<th>d%</th>
-<th>Potion or oil Type*</th>
-</tr></thead>| 01–75 | Common |
+[Type of Potion or Oil]
+| d% | Potion or oil Type\* |
+| --- | --- |
+| 01–75 | Common |
 | 76–100 | Uncommon |
-<tfoot><tr><td colspan="2">* Except 0-level potions and oils, all of which are common.</td></tr></tfoot>
 
-<caption>0-Level Potions and Oils</caption><thead><tr>
-<th>d%</th>
-<th>Common Potion or Oil</th>
-<th>Price</th>
-</tr></thead>| 01–14 | _ [Arcane mark](/pathfinderRPG/prd/spells/arcaneMark.html#_arcane-mark)_ | 25 gp |
+[0-Level Potions and Oils]
+| d% | Common Potion or Oil | Price |
+| --- | --- | --- |
+| 01–14 | _ [Arcane mark](/pathfinderRPG/prd/spells/arcaneMark.html#_arcane-mark)_ | 25 gp |
 | 15–28 | _ [Guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_ | 25 gp |
 | 29–44 | _ [Light](/pathfinderRPG/prd/spells/light.html#_light)_ | 25 gp |
 | 45–58 | _ [Purify food and drink](/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink)_ | 25 gp |
@@ -539,11 +519,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 73–86 | _ [Stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_ | 25 gp |
 | 87–100 | _ [Virtue](/pathfinderRPG/prd/spells/virtue.html#_virtue)_ | 25 gp |
 
-<caption>1st-Level Potions and Oils</caption><thead><tr>
-<th>d%</th>
-<th>Common Potion or Oil</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Bless weapon](/pathfinderRPG/prd/spells/blessWeapon.html#_bless-weapon)_ | 50 gp |
+[1st-Level Potions and Oils]
+| d% | Common Potion or Oil | Price |
+| --- | --- | --- |
+| 01–04 | _ [Bless weapon](/pathfinderRPG/prd/spells/blessWeapon.html#_bless-weapon)_ | 50 gp |
 | 05–14 | _ [Cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ | 50 gp |
 | 15–19 | _ [Endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_ | 50 gp |
 | 20–27 | _ [Enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_ | 50 gp |
@@ -560,11 +539,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 82–87 | _ [Remove fear](/pathfinderRPG/prd/spells/removeFear.html#_remove-fear)_ | 50 gp |
 | 88–92 | _ [Sanctuary](/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary)_ | 50 gp |
 | 93–100 | _ [Shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_ | 50 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Potion or Oil</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Animate rope](/pathfinderRPG/prd/spells/animateRope.html#_animate-rope)_ | 50 gp |
+
+| d% | Uncommon Potion or Oil | Price |
+| --- | --- | --- |
+| 01–04 | _ [Animate rope](/pathfinderRPG/prd/spells/animateRope.html#_animate-rope)_ | 50 gp |
 | 05–11 | _ [Ant haul](/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-)_ | 50 gp |
 | 12–16 | _Cloak of the shade_ | 50 gp |
 | 17–20 | _ [Erase](/pathfinderRPG/prd/spells/erase.html#_erase)_ | 50 gp |
@@ -583,11 +561,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 85–92 | _ [Touch of the sea](/pathfinderRPG/prd/advanced/spells/touchOfTheSea.html#_touch-of-the-sea)_ | 50 gp |
 | 93–100 | _ [Vanish](/pathfinderRPG/prd/advanced/spells/vanish.html#_vanish)_ | 50 gp |
 
-<caption>2nd-Level Potions and Oils</caption><thead><tr>
-<th>d%</th>
-<th>Common Potion or Oil</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Aid](/pathfinderRPG/prd/spells/aid.html#_aid)_ | 300 gp |
+[2nd-Level Potions and Oils]
+| d% | Common Potion or Oil | Price |
+| --- | --- | --- |
+| 01–04 | _ [Aid](/pathfinderRPG/prd/spells/aid.html#_aid)_ | 300 gp |
 | 05–07 | _ [Align weapon](/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon)_ | 300 gp |
 | 08–11 | _ [Barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ | 300 gp |
 | 12–16 | _ [Bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_ | 300 gp |
@@ -611,11 +588,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 93–94 | _ [Resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy), sonic_ | 300 gp |
 | 95–98 | _ [Spider climb](/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb)_ | 300 gp |
 | 99–100 | _ [Undetectable alignment](/pathfinderRPG/prd/spells/undetectableAlignment.html#_undetectable-alignment)_ | 300 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Potion or Oil</th>
-<th>Price</th>
-</tr></thead>| 01–06 | _ [Ablative barrier](/pathfinderRPG/prd/ultimateCombat/spells/ablativeBarrier.html#_ablative-barrier)_ | 300 gp |
+
+| d% | Uncommon Potion or Oil | Price |
+| --- | --- | --- |
+| 01–06 | _ [Ablative barrier](/pathfinderRPG/prd/ultimateCombat/spells/ablativeBarrier.html#_ablative-barrier)_ | 300 gp |
 | 07–14 | _ [Acute senses](/pathfinderRPG/prd/ultimateMagic/spells/acuteSenses.html#_acute-senses)_ | 300 gp |
 | 15–19 | _ [Arcane lock](/pathfinderRPG/prd/spells/arcaneLock.html#_arcane-lock)_ | 300 gp |
 | 20–24 | _ [Bullet shield](/pathfinderRPG/prd/ultimateCombat/spells/bulletShield.html#_bullet-shield)_ | 300 gp |
@@ -633,11 +609,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 91–95 | _ [Warp wood](/pathfinderRPG/prd/spells/warpWood.html#_warp-wood)_ | 300 gp |
 | 96–100 | _ [Wood shape](/pathfinderRPG/prd/spells/woodShape.html#_wood-shape)_ | 300 gp |
 
-<caption>3rd-Level Potions and Oils</caption><thead><tr>
-<th>d%</th>
-<th>Common Potion or Oil</th>
-<th>Price</th>
-</tr></thead>| 01–06 | _ [Cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_ | 750 gp |
+[3rd-Level Potions and Oils]
+| d% | Common Potion or Oil | Price |
+| --- | --- | --- |
+| 01–06 | _ [Cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_ | 750 gp |
 | 07–10 | _ [Dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_ | 750 gp |
 | 11–14 | _ [Displacement](/pathfinderRPG/prd/spells/displacement.html#_displacement)_ | 750 gp |
 | 15–20 | _ [Fly](/pathfinderRPG/prd/skills/fly.html#_fly)_ | 750 gp |
@@ -661,11 +636,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 87–91 | _ [Tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_ | 750 gp |
 | 92–96 | _ [Water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_ | 750 gp |
 | 97–100 | _ [Water walk](/pathfinderRPG/prd/spells/waterWalk.html#_water-walk)_ | 750 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Potion or Oil</th>
-<th>Price</th>
-</tr></thead>| 01–12 | _ [Burrow](/pathfinderRPG/prd/ultimateMagic/spells/burrow.html#_burrow)_ | 750 gp |
+
+| d% | Uncommon Potion or Oil | Price |
+| --- | --- | --- |
+| 01–12 | _ [Burrow](/pathfinderRPG/prd/ultimateMagic/spells/burrow.html#_burrow)_ | 750 gp |
 | 11–22 | _ [Countless eyes](/pathfinderRPG/prd/ultimateMagic/spells/countlessEyes.html#_countless-eyes)_ | 750 gp |
 | 23–34 | _ [Daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_ | 750 gp |
 | 35–49 | _ [Draconic reservoir](/pathfinderRPG/prd/advanced/spells/draconicReservoir.html#_draconic-reservoir-)_ | 750 gp |
@@ -675,16 +649,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 78–87 | _ [Fire trap](/pathfinderRPG/prd/spells/fireTrap.html#_fire-trap)_ | 775 gp |
 | 88–100 | _ [Nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_ | 800 gp |
 
-<caption>Random Scrolls</caption><thead><tr>
-<th>Lesser Minor</th>
-<th>Greater Minor</th>
-<th>Lesser Medium</th>
-<th>Greater Medium</th>
-<th>Lesser Major</th>
-<th>Greater Major</th>
-<th>Spell Level</th>
-<th>Caster Level</th>
-</tr></thead>| 01–15 | 01–05 | — | — | — | — | 0 | 1st |
+[Random Scrolls]
+| Lesser Minor | Greater Minor | Lesser Medium | Greater Medium | Lesser Major | Greater Major | Spell Level | Caster Level |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 01–15 | 01–05 | — | — | — | — | 0 | 1st |
 | 16–95 | 06–35 | — | — | — | — | 1st | 1st |
 | 96–100 | 36–90 | 01–10 | — | — | — | 2nd | 3rd |
 | — | 91–100 | 11–55 | 01–20 | — | — | 3rd | 5th |
@@ -695,19 +663,18 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | — | — | — | — | — | 36–70 | 8th | 15th |
 | — | — | — | — | — | 71–100 | 9th | 17th |
 
-<caption>Type of Scroll</caption><thead><tr>
-<th>d%</th>
-<th>Scroll Type</th>
-</tr></thead>| 01–45 | Common arcane scroll |
+[Type of Scroll]
+| d% | Scroll Type |
+| --- | --- |
+| 01–45 | Common arcane scroll |
 | 46–60 | Uncommon arcane scroll |
 | 61–90 | Common divine scroll |
 | 91–100 | Uncommon divine scroll |
 
-<caption>0-Level Arcane Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–09 | _ [Acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_ | 12 gp, 5 sp |
+[0-Level Arcane Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–09 | _ [Acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_ | 12 gp, 5 sp |
 | 10–17 | _ [Daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ | 12 gp, 5 sp |
 | 18–27 | _ [Detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_ | 12 gp, 5 sp |
 | 28–35 | _ [Flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ | 12 gp, 5 sp |
@@ -718,11 +685,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 73–81 | _ [Ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_ | 12 gp, 5 sp |
 | 82–91 | _ [Read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_ | 12 gp, 5 sp |
 | 92–100 | _ [Touch of fatigue](/pathfinderRPG/prd/spells/touchOfFatigue.html#_touch-of-fatigue)_ | 12 gp, 5 sp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–07 | _ [Arcane mark](/pathfinderRPG/prd/spells/arcaneMark.html#_arcane-mark)_ | 12 gp, 5 sp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–07 | _ [Arcane mark](/pathfinderRPG/prd/spells/arcaneMark.html#_arcane-mark)_ | 12 gp, 5 sp |
 | 08–17 | _ [Bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ | 12 gp, 5 sp |
 | 18–25 | _ [Dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_ | 12 gp, 5 sp |
 | 26–35 | _ [Detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_ | 12 gp, 5 sp |
@@ -735,11 +701,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 84–92 | _ [Spark](/pathfinderRPG/prd/advanced/spells/spark.html#_spark-)_ | 12 gp, 5 sp |
 | 93–100 | _ [Unwitting ally](/pathfinderRPG/prd/advanced/spells/unwittingAlly.html#_unwitting-ally)_ | 12 gp, 5 sp |
 
-<caption>1st-Level Arcane Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–05 | _ [Burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_ | 25 gp |
+[1st-Level Arcane Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–05 | _ [Burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_ | 25 gp |
 | 06–09 | _ [Cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ | 25 gp |
 | 10–14 | _ [Charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ | 25 gp |
 | 15–17 | _ [Chill touch](/pathfinderRPG/prd/spells/chillTouch.html#_chill-touch)_ | 25 gp |
@@ -765,11 +730,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 89–93 | _ [Sleep](/pathfinderRPG/prd/spells/sleep.html#_sleep)_ | 25 gp |
 | 94–96 | _ [Summon monster I](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i)_ | 25 gp |
 | 97–100 | _ [True strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_ | 25 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–02 | _ [Air bubble](/pathfinderRPG/prd/ultimateCombat/spells/airBubble.html#_air-bubble)_ | 25 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–02 | _ [Air bubble](/pathfinderRPG/prd/ultimateCombat/spells/airBubble.html#_air-bubble)_ | 25 gp |
 | 03–06 | _ [Alarm](/pathfinderRPG/prd/spells/alarm.html#_alarm)_ | 25 gp |
 | 07–08 | _ [Animate rope](/pathfinderRPG/prd/spells/animateRope.html#_animate-rope)_ | 25 gp |
 | 09–12 | _ [Ant haul](/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-)_ | 25 gp |
@@ -803,11 +767,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 97–98 | _ [Ventriloquism](/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism)_ | 25 gp |
 | 99–100 | _Voice alteration_ | 25 gp |
 
-<caption>2nd-Level Arcane Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_ | 150 gp |
+[2nd-Level Arcane Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–04 | _ [Acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_ | 150 gp |
 | 05–07 | _ [Alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_ | 150 gp |
 | 08–12 | _ [Bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_ | 150 gp |
 | 13–15 | _ [Blur](/pathfinderRPG/prd/spells/blur.html#_blur)_ | 150 gp |
@@ -836,11 +799,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 92–93 | _ [Summon swarm](/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm)_ | 150 gp |
 | 94–98 | _ [Web](/pathfinderRPG/prd/spells/web.html#_web)_ | 150 gp |
 | 99–100 | _ [Whispering wind](/pathfinderRPG/prd/spells/whisperingWind.html#_whispering-wind)_ | 150 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–03 | _ [Bestow weapon proficiency](/pathfinderRPG/prd/ultimateCombat/spells/bestowWeaponProficiency.html#_bestow-weapon-proficiency)_ | 150 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–03 | _ [Bestow weapon proficiency](/pathfinderRPG/prd/ultimateCombat/spells/bestowWeaponProficiency.html#_bestow-weapon-proficiency)_ | 150 gp |
 | 04–06 | _ [Blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_ | 150 gp |
 | 07–09 | _ [Burning gaze](/pathfinderRPG/prd/advanced/spells/burningGaze.html#_burning-gaze)_ | 150 gp |
 | 10–12 | _ [Certain grip](/pathfinderRPG/prd/ultimateCombat/spells/certainGrip.html#_certain-grip-)_ | 150 gp |
@@ -882,11 +844,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
  
  
 
-<caption>3rd-Level Arcane Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–03 | _ [Beast shape I](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-i)_ | 375 gp |
+[3rd-Level Arcane Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–03 | _ [Beast shape I](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-i)_ | 375 gp |
 | 04–07 | _ [Blink](/pathfinderRPG/prd/spells/blink.html#_blink)_ | 375 gp |
 | 08–12 | _ [Dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_ | 375 gp |
 | 13–16 | _ [Displacement](/pathfinderRPG/prd/spells/displacement.html#_displacement)_ | 375 gp |
@@ -914,11 +875,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 91–94 | _ [Tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_ | 375 gp |
 | 95–97 | _ [Vampiric touch](/pathfinderRPG/prd/spells/vampiricTouch.html#_vampiric-touch)_ | 375 gp |
 | 98–100 | _ [Water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_ | 375 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–03 | _ [Animate dead, lesser](/pathfinderRPG/prd/ultimateMagic/spells/animateDead.html#_animate-dead,-lesser)_ | 375 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–03 | _ [Animate dead, lesser](/pathfinderRPG/prd/ultimateMagic/spells/animateDead.html#_animate-dead,-lesser)_ | 375 gp |
 | 04–06 | _ [Aqueous orb](/pathfinderRPG/prd/advanced/spells/aqueousOrb.html#_aqueous-orb)_ | 375 gp |
 | 07–08 | _ [Arcane sight](/pathfinderRPG/prd/spells/arcaneSight.html#_arcane-sight)_ | 375 gp |
 | 09–12 | _Beast shape_ | 375 gp |
@@ -953,11 +913,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 97–99 | _ [Nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_ | 425 gp |
 | 100 | _ [Sepia snake sigil](/pathfinderRPG/prd/spells/sepiaSnakeSigil.html#_sepia-snake-sigil)_ | 875 gp |
 
-<caption>4th-Level Arcane Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–03 | _ [Beast shape II](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii)_ | 700 gp |
+[4th-Level Arcane Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–03 | _ [Beast shape II](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii)_ | 700 gp |
 | 04–05 | _ [Bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ | 700 gp |
 | 06–09 | _ [Black tentacles](/pathfinderRPG/prd/spells/blackTentacles.html#_black-tentacles)_ | 700 gp |
 | 10–14 | _ [Charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster)_ | 700 gp |
@@ -985,11 +944,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 89–92 | _ [Wall of ice](/pathfinderRPG/prd/spells/wallOfIce.html#_wall-of-ice)_ | 700 gp |
 | 93–97 | _ [Stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_ | 950 gp |
 | 98–100 | _ [Animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_ | 1,050 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–02 | _ [Acid pit](/pathfinderRPG/prd/advanced/spells/acidPit.html#_acid-pit-)_ | 700 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–02 | _ [Acid pit](/pathfinderRPG/prd/advanced/spells/acidPit.html#_acid-pit-)_ | 700 gp |
 | 03–06 | _ [Arcane eye](/pathfinderRPG/prd/spells/arcaneEye.html#_arcane-eye)_ | 700 gp |
 | 07–10 | _ [Ball lightning](/pathfinderRPG/prd/advanced/spells/ballLightning.html#_ball-lightning)_ | 700 gp |
 | 11–13 | _ [Contagion](/pathfinderRPG/prd/spells/contagion.html#_contagion)_ | 700 gp |
@@ -1021,11 +979,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 98–99 | _ [Fire trap](/pathfinderRPG/prd/spells/fireTrap.html#_fire-trap)_ | 725 gp |
 | 100 | _ [Mnemonic enhancer](/pathfinderRPG/prd/spells/mnemonicEnhancer.html#_mnemonic-enhancer)_ | 750 gp |
 
-<caption>5th-Level Arcane Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–03 | _ [Baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_ | 1,125 gp |
+[5th-Level Arcane Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–03 | _ [Baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_ | 1,125 gp |
 | 04–07 | _ [Beast shape III](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-iii)_ | 1,125 gp |
 | 08–10 | _ [Break enchantment](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment)_ | 1,125 gp |
 | 11–15 | _ [Cloudkill](/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill)_ | 1,125 gp |
@@ -1052,11 +1009,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 93–95 | _ [Waves of fatigue](/pathfinderRPG/prd/spells/wavesOfFatigue.html#_waves-of-fatigue)_ | 1,125 gp |
 | 96–97 | _ [Symbol of pain](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)_ | 2,125 gp |
 | 98–100 | _ [Symbol of sleep](/pathfinderRPG/prd/spells/symbolOfSleep.html#_symbol-of-sleep)_ | 2,125 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–02 | _ [Absorb toxicity](/pathfinderRPG/prd/ultimateCombat/spells/absorbToxicity.html#_absorb-toxicity)_ | 1,125 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–02 | _ [Absorb toxicity](/pathfinderRPG/prd/ultimateCombat/spells/absorbToxicity.html#_absorb-toxicity)_ | 1,125 gp |
 | 03–04 | _ [Animal growth](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth)_ | 1,125 gp |
 | 05–06 | _ [Blight](/pathfinderRPG/prd/spells/blight.html#_blight)_ | 1,125 gp |
 | 07–09 | _ [Dream](/pathfinderRPG/prd/spells/dream.html#_dream)_ | 1,125 gp |
@@ -1090,11 +1046,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 95–98 | _Wind blades_ | 1,125 gp |
 | 99–100 | _ [False vision](/pathfinderRPG/prd/spells/falseVision.html#_false-vision)_ | 1,375 gp |
 
-<caption>6th-Level Arcane Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–03 | _ [Acid fog](/pathfinderRPG/prd/spells/acidFog.html#_acid-fog)_ | 1,650 gp |
+[6th-Level Arcane Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–03 | _ [Acid fog](/pathfinderRPG/prd/spells/acidFog.html#_acid-fog)_ | 1,650 gp |
 | 04–07 | _ [Antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_ | 1,650 gp |
 | 08–10 | _ [Bear's endurance, mass](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance-mass)_ | 1,650 gp |
 | 11–13 | _ [Beast shape IV](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-iv)_ | 1,650 gp |
@@ -1125,11 +1080,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 93–96 | _ [True seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_ | 1,900 gp |
 | 97–98 | _ [Circle of death](/pathfinderRPG/prd/spells/circleOfDeath.html#_circle-of-death)_ | 2,150 gp |
 | 99–100 | _ [Symbol of fear](/pathfinderRPG/prd/spells/symbolOfFear.html#_symbol-of-fear)_ | 2,650 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Analyze dweomer](/pathfinderRPG/prd/spells/analyzeDweomer.html#_analyze-dweomer)_ | 1,650 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–04 | _ [Analyze dweomer](/pathfinderRPG/prd/spells/analyzeDweomer.html#_analyze-dweomer)_ | 1,650 gp |
 | 05–08 | _ [Battlemind link](/pathfinderRPG/prd/ultimateMagic/spells/battlemindLink.html#_battlemind-link)_ | 1,650 gp |
 | 09–12 | _ [Cloak of dreams](/pathfinderRPG/prd/advanced/spells/cloakOfDreams.html#_cloak-of-dreams)_ | 1,650 gp |
 | 13–15 | _ [Contagion, greater](/pathfinderRPG/prd/ultimateMagic/spells/contagion.html#_contagion,-greater)_ | 1,650 gp |
@@ -1156,11 +1110,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 96–98 | _ [Undeath to death](/pathfinderRPG/prd/spells/undeathToDeath.html#_undeath-to-death)_ | 2,150 gp |
 | 99–100 | _ [Symbol of persuasion](/pathfinderRPG/prd/spells/symbolOfPersuasion.html#_symbol-of-persuasion)_ | 6,650 gp |
 
-<caption>7th-Level Arcane Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Arcane sight, greater](/pathfinderRPG/prd/spells/arcaneSight.html#_arcane-sight-greater)_ | 2,275 gp |
+[7th-Level Arcane Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–04 | _ [Arcane sight, greater](/pathfinderRPG/prd/spells/arcaneSight.html#_arcane-sight-greater)_ | 2,275 gp |
 | 05–07 | _ [Banishment](/pathfinderRPG/prd/spells/banishment.html#_banishment)_ | 2,275 gp |
 | 08–13 | _ [Delayed blast fireball](/pathfinderRPG/prd/spells/delayedBlastFireball.html#_delayed-blast-fireball)_ | 2,275 gp |
 | 14–17 | _ [Ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_ | 2,275 gp |
@@ -1184,11 +1137,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 91–93 | _ [Project image](/pathfinderRPG/prd/spells/projectImage.html#_project-image)_ | 2,280 gp |
 | 94–97 | _ [Forcecage](/pathfinderRPG/prd/spells/forcecage.html#_forcecage)_ | 2,775 gp |
 | 98–100 | _ [Limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_ | 3,775 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–03 | _ [Control undead](/pathfinderRPG/prd/spells/controlUndead.html#_control-undead)_ | 2,275 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–03 | _ [Control undead](/pathfinderRPG/prd/spells/controlUndead.html#_control-undead)_ | 2,275 gp |
 | 04–07 | _ [Control weather](/pathfinderRPG/prd/spells/controlWeather.html#_control-weather)_ | 2,275 gp |
 | 08–10 | _ [Create demiplane, lesser](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser)_ | 2,275 gp |
 | 11–14 | _ [Deflection](/pathfinderRPG/prd/advanced/spells/deflection.html#_deflection-)_ | 2,275 gp |
@@ -1215,11 +1167,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 97–98 | _ [Symbol of weakness](/pathfinderRPG/prd/spells/symbolOfWeakness.html#_symbol-of-weakness)_ | 7,275 gp |
 | 99–100 | _ [Simulacrum](/pathfinderRPG/prd/spells/simulacrum.html#_simulacrum)_ | 8,775 gp |
 
-<caption>8th-Level Arcane Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–05 | _ [Charm monster, mass](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster-mass)_ | 3,000 gp |
+[8th-Level Arcane Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–05 | _ [Charm monster, mass](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster-mass)_ | 3,000 gp |
 | 06–09 | _ [Demand](/pathfinderRPG/prd/spells/demand.html#_demand)_ | 3,000 gp |
 | 10–13 | _ [Dimensional lock](/pathfinderRPG/prd/spells/dimensionalLock.html#_dimensional-lock)_ | 3,000 gp |
 | 14–18 | _ [Form of the dragon III](/pathfinderRPG/prd/spells/formOfTheDragon.html#_form-of-the-dragon-iii)_ | 3,000 gp |
@@ -1240,11 +1191,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 91–94 | _ [Symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_ | 8,000 gp |
 | 95–97 | _ [Temporal stasis](/pathfinderRPG/prd/spells/temporalStasis.html#_temporal-stasis)_ | 8,000 gp |
 | 98–100 | _ [Trap the soul](/pathfinderRPG/prd/spells/trapTheSoul.html#_trap-the-soul)_ | 23,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Antipathy](/pathfinderRPG/prd/spells/antipathy.html#_antipathy)_ | 3,000 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–04 | _ [Antipathy](/pathfinderRPG/prd/spells/antipathy.html#_antipathy)_ | 3,000 gp |
 | 05–10 | _ [Clenched fist](/pathfinderRPG/prd/spells/clenchedFist.html#_clenched-fist)_ | 3,000 gp |
 | 11–12 | _ [Clone](/pathfinderRPG/prd/spells/clone.html#_clone)_ | 3,000 gp |
 | 13–15 | _ [Create demiplane](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane)_ | 3,000 gp |
@@ -1270,11 +1220,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 
  | | | | 
 
-<caption>9th-Level Arcane Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–06 | _ [Dominate monster](/pathfinderRPG/prd/spells/dominateMonster.html#_dominate-monster)_ | 3,825 gp |
+[9th-Level Arcane Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–06 | _ [Dominate monster](/pathfinderRPG/prd/spells/dominateMonster.html#_dominate-monster)_ | 3,825 gp |
 | 07–11 | _ [Energy drain](/pathfinderRPG/prd/spells/energyDrain.html#_energy-drain)_ | 3,825 gp |
 | 12–16 | _ [Freedom](/pathfinderRPG/prd/spells/freedom.html#_freedom)_ | 3,825 gp |
 | 17–23 | _ [Gate](/pathfinderRPG/prd/spells/gate.html#_gate)_ | 3,825 gp |
@@ -1291,11 +1240,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 86–90 | _ [Astral projection](/pathfinderRPG/prd/spells/astralProjection.html#_astral-projection)_ | 4,825 gp |
 | 91–96 | _ [Teleportation circle](/pathfinderRPG/prd/spells/teleportationCircle.html#_teleportation-circle)_ | 4,825 gp |
 | 97–100 | _ [Wish](/pathfinderRPG/prd/spells/wish.html#_wish)_ | 28,825 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–06 | _ [Create demiplane, greater](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-greater)_ | 3,825 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–06 | _ [Create demiplane, greater](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-greater)_ | 3,825 gp |
 | 07–15 | _ [Crushing hand](/pathfinderRPG/prd/spells/crushingHand.html#_crushing-hand)_ | 3,825 gp |
 | 16–23 | _ [Etherealness](/pathfinderRPG/prd/magicItems/armor.html#_armor-etherealness)_ | 3,825 gp |
 | 24–31 | _ [Fiery body](/pathfinderRPG/prd/advanced/spells/fieryBody.html#_fiery-body)_ | 3,825 gp |
@@ -1310,13 +1258,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 89–95 | _ [Winds of vengeance](/pathfinderRPG/prd/advanced/spells/windsOfVengeance.html#_winds-of-vengeance)_ | 3,825 gp |
 | 96–100 | _ [Refuge](/pathfinderRPG/prd/spells/refuge.html#_refuge)_ | 4,325 gp |
 
-<caption>0-Level Divine Scrolls
-</caption>
-<thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–11 | _ [Bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ | 12 gp, 5 sp |
+[0-Level Divine Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–11 | _ [Bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ | 12 gp, 5 sp |
 | 12–21 | _ [Create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_ | 12 gp, 5 sp |
 | 22–34 | _ [Detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_ | 12 gp, 5 sp |
 | 35–44 | _ [Know direction](/pathfinderRPG/prd/spells/knowDirection.html#_know-direction)_ | 12 gp, 5 sp |
@@ -1325,22 +1270,20 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 66–75 | _ [Purify food and drink](/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink)_ | 12 gp, 5 sp |
 | 76–88 | _ [Read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_ | 12 gp, 5 sp |
 | 89–100 | _ [Stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_ | 12 gp, 5 sp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–15 | _ [Detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_ | 12 gp, 5 sp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–15 | _ [Detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_ | 12 gp, 5 sp |
 | 16–33 | _ [Flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ | 12 gp, 5 sp |
 | 34–50 | _ [Guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_ | 12 gp, 5 sp |
 | 51–68 | _ [Resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_ | 12 gp, 5 sp |
 | 69–85 | _ [Spark](/pathfinderRPG/prd/advanced/spells/spark.html#_spark-)_ | 12 gp, 5 sp |
 | 86–100 | _ [Virtue](/pathfinderRPG/prd/spells/virtue.html#_virtue)_ | 12 gp, 5 sp |
 
-<caption>1st-Level Divine Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ | 25 gp |
+[1st-Level Divine Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–04 | _ [Bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ | 25 gp |
 | 05–10 | _ [Bless](/pathfinderRPG/prd/spells/bless.html#_bless)_ | 25 gp |
 | 11–15 | _ [Cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ | 25 gp |
 | 16–19 | _ [Command](/pathfinderRPG/prd/spells/command.html#_command)_ | 25 gp |
@@ -1367,11 +1310,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 89–94 | _ [Shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_ | 25 gp |
 | 95–97 | _ [Summon monster I](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i)_ | 25 gp |
 | 98–100 | _ [Summon nature's ally I](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-i)_ | 25 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Ant haul](/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-)_ | 25 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–04 | _ [Ant haul](/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-)_ | 25 gp |
 | 05–07 | _ [Aspect of the falcon](/pathfinderRPG/prd/advanced/spells/aspectOfTheFalcon.html#_aspect-of-the-falcon)_ | 25 gp |
 | 08–09 | _ [Calm animals](/pathfinderRPG/prd/spells/calmAnimals.html#_calm-animals)_ | 25 gp |
 | 10–12 | _ [Charm animal](/pathfinderRPG/prd/spells/charmAnimal.html#_charm-animal)_ | 25 gp |
@@ -1407,11 +1349,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 96–98 | _ [Bless water](/pathfinderRPG/prd/spells/blessWater.html#_bless-water)_ | 50 gp |
 | 99–100 | _ [Curse water](/pathfinderRPG/prd/spells/curseWater.html#_curse-water)_ | 50 gp |
 
-<caption>2nd-Level Divine Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Aid](/pathfinderRPG/prd/spells/aid.html#_aid)_ | 150 gp |
+[2nd-Level Divine Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–04 | _ [Aid](/pathfinderRPG/prd/spells/aid.html#_aid)_ | 150 gp |
 | 05–06 | _ [Align weapon](/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon)_ | 150 gp |
 | 07–08 | _ [Animal messenger](/pathfinderRPG/prd/spells/animalMessenger.html#_animal-messenger)_ | 150 gp |
 | 09–13 | _ [Barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ | 150 gp |
@@ -1443,11 +1384,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 94–95 | _ [Summon swarm](/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm)_ | 150 gp |
 | 96–97 | _ [Zone of truth](/pathfinderRPG/prd/spells/zoneOfTruth.html#_zone-of-truth)_ | 150 gp |
 | 98–100 | _ [Augury](/pathfinderRPG/prd/spells/augury.html#_augury)_ | 175 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Animal aspect](/pathfinderRPG/prd/ultimateCombat/spells/animalAspect.html#_animal-aspect)_ | 150 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–04 | _ [Animal aspect](/pathfinderRPG/prd/ultimateCombat/spells/animalAspect.html#_animal-aspect)_ | 150 gp |
 | 05–06 | _ [Animal trance](/pathfinderRPG/prd/spells/animalTrance.html#_animal-trance)_ | 150 gp |
 | 07–10 | _ [Animate dead, lesser](/pathfinderRPG/prd/ultimateMagic/spells/animateDead.html#_animate-dead,-lesser)_ | 150 gp |
 | 11–13 | _ [Arrow of law](/pathfinderRPG/prd/ultimateMagic/spells/arrowOfLaw.html#_arrow-of-law)_ | 150 gp |
@@ -1485,11 +1425,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 98–99 | _ [Fire trap](/pathfinderRPG/prd/spells/fireTrap.html#_fire-trap)_ | 175 gp |
 | >100 | _ [Masterwork transformation](/pathfinderRPG/prd/ultimateMagic/spells/masterworkTransformation.html#_masterwork-transformation)_ | 450 gp |
 
-<caption>3rd-Level Divine Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–03 | _ [Bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ | 375 gp |
+[3rd-Level Divine Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–03 | _ [Bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ | 375 gp |
 | 04–08 | _ [Call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_ | 375 gp |
 | 09–15 | _ [Cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_ | 375 gp |
 | 16–19 | _ [Daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_ | 375 gp |
@@ -1519,11 +1458,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 92–95 | _ [Water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_ | 375 gp |
 | 96–97 | _ [Water walk](/pathfinderRPG/prd/spells/waterWalk.html#_water-walk)_ | 375 gp |
 | 98–100 | _ [Animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_ | 625 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Aqueous orb](/pathfinderRPG/prd/advanced/spells/aqueousOrb.html#_aqueous-orb)_ | 375 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–04 | _ [Aqueous orb](/pathfinderRPG/prd/advanced/spells/aqueousOrb.html#_aqueous-orb)_ | 375 gp |
 | 05–08 | _ [Archon's aura](/pathfinderRPG/prd/ultimateMagic/spells/archonSAura.html#_archon's-aura)_ | 375 gp |
 | 09–12 | _Bestow insight_ | 375 gp |
 | 13–16 | _ [Blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_ | 375 gp |
@@ -1553,11 +1491,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 97–98 | _ [Glyph of warding](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)_ | 575 gp |
 | 99–100 | _ [Symbol of healing](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfHealing.html#_symbol-of-healing)_ | 875 gp |
 
-<caption>4th-Level Divine Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_ | 700 gp |
+[4th-Level Divine Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–04 | _ [Air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_ | 700 gp |
 | 05–07 | _ [Chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ | 700 gp |
 | 08–15 | _ [Cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_ | 700 gp |
 | 16–19 | _ [Death ward](/pathfinderRPG/prd/spells/deathWard.html#_death-ward)_ | 700 gp |
@@ -1582,11 +1519,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 90–93 | _ [Divination](/pathfinderRPG/prd/spells/divination.html#_divination)_ | 725 gp |
 | 94–96 | _ [Planar ally, lesser](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally-lesser)_ | 1,200 gp |
 | 97–100 | _ [Restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration)_ | 1,700 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Absorb toxicity](/pathfinderRPG/prd/ultimateCombat/spells/absorbToxicity.html#_absorb-toxicity)_ | 700 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–04 | _ [Absorb toxicity](/pathfinderRPG/prd/ultimateCombat/spells/absorbToxicity.html#_absorb-toxicity)_ | 700 gp |
 | 05–06 | _ [Antiplant shell](/pathfinderRPG/prd/spells/antiplantShell.html#_antiplant-shell)_ | 700 gp |
 | 07–11 | _ [Aspect of the stag](/pathfinderRPG/prd/advanced/spells/aspectOfTheStag.html#_aspect-of-the-stag)_ | 700 gp |
 | 12–15 | _ [Aura of doom](/pathfinderRPG/prd/ultimateMagic/spells/auraOfDoom.html#_aura-of-doom)_ | 700 gp |
@@ -1612,11 +1548,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 94–98 | _ [Volcanic storm](/pathfinderRPG/prd/ultimateMagic/spells/volcanicStorm.html#_volcanic-storm)_ | 700 gp |
 | 99–100 | _ [Symbol of slowing](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfSlowing.html#_symbol-of-slowing)_ | 1,700 gp |
 
-<caption>5th-Level Divine Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–02 | _ [Animal growth](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth)_ | 1,125 gp |
+[5th-Level Divine Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–02 | _ [Animal growth](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth)_ | 1,125 gp |
 | 03–04 | _ [Atonement](/pathfinderRPG/prd/spells/atonement.html#_atonement)_ | 1,125 gp |
 | 05–07 | _ [Baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_ | 1,125 gp |
 | 08–11 | _ [Break enchantment](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment)_ | 1,125 gp |
@@ -1642,11 +1577,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 88–91 | _ [Commune](/pathfinderRPG/prd/spells/commune.html#_commune)_ | 1,625 gp |
 | 92–94 | _ [Awaken](/pathfinderRPG/prd/spells/awaken.html#_awaken)_ | 3,125 gp |
 | 95–100 | _ [Raise dead](/pathfinderRPG/prd/spells/raiseDead.html#_raise-dead)_ | 6,125 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–03 | _ [Air walk, communal](/pathfinderRPG/prd/ultimateCombat/spells/airWalk.html#_air-walk,-communal)_ | 1,125 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–03 | _ [Air walk, communal](/pathfinderRPG/prd/ultimateCombat/spells/airWalk.html#_air-walk,-communal)_ | 1,125 gp |
 | 04–08 | _ [Aspect of the wolf](/pathfinderRPG/prd/advanced/spells/aspectOfTheWolf.html#_aspect-of-the-wolf)_ | 1,125 gp |
 | 09–11 | _ [Blessing of the salamander](/pathfinderRPG/prd/advanced/spells/blessingOfTheSalamander.html#_blessing-of-the-salamander)_ | 1,125 gp |
 | 12–15 | _ [Cleanse](/pathfinderRPG/prd/advanced/spells/cleanse.html#_cleanse)_ | 1,125 gp |
@@ -1670,21 +1604,17 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 80–82 | _ [Transmute rock to mud](/pathfinderRPG/prd/spells/transmuteRockToMud.html#_transmute-rock-to-mud)_ | 1,125 gp |
 | 83–86 | _Wind blades_ | 1,125 gp |
 | 87–90 | _ [Stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_ | 1,375 gp |
-| 91–92 | _ [Hallow](/pathfinderRPG/prd/spells/hallow.html#_hallow)_<sup>1</sup> | 2,125 gp |
+| 91–92 | _ [Hallow](/pathfinderRPG/prd/spells/hallow.html#_hallow)_ⁱ | 2,125 gp |
 | 93–94 | _ [Symbol of pain](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)_ | 2,125 gp |
 | 95–96 | _ [Symbol of sleep](/pathfinderRPG/prd/spells/symbolOfSleep.html#_symbol-of-sleep)_ | 2,125 gp |
-| 97–98 | _ [Unhallow](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)_<sup>1</sup> | 2,125 gp |
-| 99 | _ [Hallow](/pathfinderRPG/prd/spells/hallow.html#_hallow)_<sup>2</sup> | 6,125 gp |
-| 100 | _ [Unhallow](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)_<sup>2</sup> | 6,125 gp |
-<tfoot><tr><td colspan="3">
-<sup>1</sup>No additional spell included.<br>
-<sup>2</sup>4th-level spell included.</td></tr></tfoot>
+| 97–98 | _ [Unhallow](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)_ⁱ | 2,125 gp |
+| 99 | _ [Hallow](/pathfinderRPG/prd/spells/hallow.html#_hallow)_⁲ | 6,125 gp |
+| 100 | _ [Unhallow](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)_⁲ | 6,125 gp |
 
-<caption>6th-Level Divine Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–05 | _ [Bear's endurance, mass](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance-mass)_ | 1,650 gp |
+[6th-Level Divine Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–05 | _ [Bear's endurance, mass](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance-mass)_ | 1,650 gp |
 | 06–11 | _ [Blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_ | 1,650 gp |
 | 12–16 | _ [Bull's strength, mass](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength-mass)_ | 1,650 gp |
 | 17–21 | _ [Cat's](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace-mass) [grace](/pathfinderRPG/prd/advanced/spells/grace.html#_grace), mass_ | 1,650 gp |
@@ -1703,11 +1633,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 88–91 | _ [Summon nature's ally VI](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-vi)_ | 1,650 gp |
 | 92–96 | _ [Word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_ | 1,650 gp |
 | 97–100 | _ [Planar ally](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally)_ | 2,900 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–05 | _ [Animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_ | 1,650 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–05 | _ [Animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_ | 1,650 gp |
 | 06–09 | _ [Antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_ | 1,650 gp |
 | 10–15 | _ [Banishment](/pathfinderRPG/prd/spells/banishment.html#_banishment)_ | 1,650 gp |
 | 16–19 | _ [Cold ice strike](/pathfinderRPG/prd/ultimateMagic/spells/coldIceStrike.html#_cold-ice-strike)_ | 1,650 gp |
@@ -1733,11 +1662,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 96–98 | _ [Forbiddance](/pathfinderRPG/prd/spells/forbiddance.html#_forbiddance)_ | 4,650 gp |
 | 99–100 | _ [Symbol of persuasion](/pathfinderRPG/prd/spells/symbolOfPersuasion.html#_symbol-of-persuasion)_ | 6,650 gp |
 
-<caption>7th-Level Divine Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Blasphemy](/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy)_ | 2,275 gp |
+[7th-Level Divine Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–04 | _ [Blasphemy](/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy)_ | 2,275 gp |
 | 05–10 | _ [Control weather](/pathfinderRPG/prd/spells/controlWeather.html#_control-weather)_ | 2,275 gp |
 | 11–17 | _ [Creeping doom](/pathfinderRPG/prd/spells/creepingDoom.html#_creeping-doom)_ | 2,275 gp |
 | 18–24 | _ [Cure serious wounds, mass](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds-mass)_ | 2,275 gp |
@@ -1756,11 +1684,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 83–89 | _ [Destruction](/pathfinderRPG/prd/spells/destruction.html#_destruction)_ | 2,775 gp |
 | 90–94 | _ [Restoration, greater](/pathfinderRPG/prd/spells/restoration.html#_restoration-greater)_ | 7,275 gp |
 | 95–100 | _ [Resurrection](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)_ | 12,275 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–08 | _ [Animate plants](/pathfinderRPG/prd/spells/animatePlants.html#_animate-plants)_ | 2,275 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–08 | _ [Animate plants](/pathfinderRPG/prd/spells/animatePlants.html#_animate-plants)_ | 2,275 gp |
 | 09–17 | _ [Changestaff](/pathfinderRPG/prd/spells/changestaff.html#_changestaff)_ | 2,275 gp |
 | 18–24 | _ [Circle of clarity](/pathfinderRPG/prd/ultimateMagic/spells/circleOfClarity.html#_circle-of-clarity)_ | 2,275 gp |
 | 25–30 | _ [Create demiplane, lesser](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser)_ | 2,275 gp |
@@ -1775,11 +1702,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 90–95 | _ [Symbol of stunning](/pathfinderRPG/prd/spells/symbolOfStunning.html#_symbol-of-stunning)_ | 7,275 gp |
 | 96–100 | _ [Symbol of weakness](/pathfinderRPG/prd/spells/symbolOfWeakness.html#_symbol-of-weakness)_ | 7,275 gp |
 
-<caption>8th-Level Divine Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–08 | _ [Antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_ | 3,000 gp |
+[8th-Level Divine Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–08 | _ [Antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_ | 3,000 gp |
 | 09–14 | _ [Cloak of chaos](/pathfinderRPG/prd/spells/cloakOfChaos.html#_cloak-of-chaos)_ | 3,000 gp |
 | 15–23 | _ [Cure critical wounds, mass](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds-mass)_ | 3,000 gp |
 | 24–31 | _ [Earthquake](/pathfinderRPG/prd/spells/earthquake.html#_earthquake)_ | 3,000 gp |
@@ -1794,11 +1720,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 84–89 | _ [Sunburst](/pathfinderRPG/prd/spells/sunburst.html#_sunburst)_ | 3,000 gp |
 | 90–95 | _ [Unholy aura](/pathfinderRPG/prd/spells/unholyAura.html#_unholy-aura)_ | 3,000 gp |
 | 96–100 | _ [Planar ally, greater](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally-greater)_ | 5,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–07 | _ [Animal shapes](/pathfinderRPG/prd/spells/animalShapes.html#_animal-shapes)_ | 3,000 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–07 | _ [Animal shapes](/pathfinderRPG/prd/spells/animalShapes.html#_animal-shapes)_ | 3,000 gp |
 | 08–13 | _ [Blood mist](/pathfinderRPG/prd/ultimateMagic/spells/bloodMist.html#_blood-mist)_ | 3,000 gp |
 | 14–18 | _ [Control plants](/pathfinderRPG/prd/spells/controlPlants.html#_control-plants)_ | 3,000 gp |
 | 19–24 | _ [Create demiplane](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane)_ | 3,000 gp |
@@ -1815,11 +1740,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 89–95 | _ [Symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_ | 8,000 gp |
 | 96–100 | _ [Symbol of insanity](/pathfinderRPG/prd/spells/symbolOfInsanity.html#_symbol-of-insanity)_ | 8,000 gp |
 
-<caption>9th-Level Divine Scrolls</caption><thead><tr>
-<th>d%</th>
-<th>Common Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–07 | _ [Elemental swarm](/pathfinderRPG/prd/spells/elementalSwarm.html#_elemental-swarm)_ | 3,825 gp |
+[9th-Level Divine Scrolls]
+| d% | Common Scroll | Price |
+| --- | --- | --- |
+| 01–07 | _ [Elemental swarm](/pathfinderRPG/prd/spells/elementalSwarm.html#_elemental-swarm)_ | 3,825 gp |
 | 08–15 | _ [Energy drain](/pathfinderRPG/prd/spells/energyDrain.html#_energy-drain)_ | 3,825 gp |
 | 16–22 | _ [Etherealness](/pathfinderRPG/prd/magicItems/armor.html#_armor-etherealness)_ | 3,825 gp |
 | 23–30 | _ [Gate](/pathfinderRPG/prd/spells/gate.html#_gate)_ | 3,825 gp |
@@ -1832,11 +1756,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 82–87 | _ [Summon monster IX](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ix)_ | 3,825 gp |
 | 88–93 | _ [Summon nature's ally IX](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-ix)_ | 3,825 gp |
 | 94–100 | _ [True resurrection](/pathfinderRPG/prd/spells/trueResurrection.html#_true-resurrection)_ | 28,825 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Scroll</th>
-<th>Price</th>
-</tr></thead>| 01–08 | _ [Antipathy](/pathfinderRPG/prd/spells/antipathy.html#_antipathy)_ | 3,825 gp |
+
+| d% | Uncommon Scroll | Price |
+| --- | --- | --- |
+| 01–08 | _ [Antipathy](/pathfinderRPG/prd/spells/antipathy.html#_antipathy)_ | 3,825 gp |
 | 09–15 | _ [Clashing rocks](/pathfinderRPG/prd/advanced/spells/clashingRocks.html#_clashing-rocks)_ | 3,825 gp |
 | 16–22 | _ [Create demiplane, greater](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-greater)_ | 3,825 gp |
 | 23–31 | _ [Foresight](/pathfinderRPG/prd/spells/foresight.html#_foresight)_ | 3,825 gp |
@@ -1850,32 +1773,25 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 88–94 | _ [Astral projection](/pathfinderRPG/prd/spells/astralProjection.html#_astral-projection)_ | 4,825 gp |
 | 95–100 | _ [Sympathy](/pathfinderRPG/prd/spells/sympathy.html#_sympathy)_ | 5,325 gp |
 
-<caption>Random Wands</caption><thead><tr>
-<th>Lesser Minor</th>
-<th>Greater Minor</th>
-<th>Lesser Medium</th>
-<th>Greater Medium</th>
-<th>Lesser Major</th>
-<th>Greater Major</th>
-<th>Spell Level</th>
-<th>Caster Level</th>
-</tr></thead>| 01–40 | — | — | — | — | — | 0 | 1st |
+[Random Wands]
+| Lesser Minor | Greater Minor | Lesser Medium | Greater Medium | Lesser Major | Greater Major | Spell Level | Caster Level |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 01–40 | — | — | — | — | — | 0 | 1st |
 | 41–100 | 01–80 | — | — | — | — | 1st | 1st |
 | — | 81–100 | 01–75 | 01–20 | — | — | 2nd | 3rd |
 | — | — | 76–100 | 21–80 | 01–60 | 01–30 | 3rd | 5th |
 | — | — | — | — | 61–100 | 31–100 | 4th | 7th |
 
-<caption>Type of Wand</caption><thead><tr>
-<th>d%</th>
-<th>Wand Type</th>
-</tr></thead>| 01–75 | Common |
+[Type of Wand]
+| d% | Wand Type |
+| --- | --- |
+| 01–75 | Common |
 | 76–100 | Uncommon |
 
-<caption>0-Level Wands</caption><thead><tr>
-<th>d%</th>
-<th>Common Wand</th>
-<th>Price</th>
-</tr></thead>| 01–07 | _ [Acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_ | 375 gp |
+[0-Level Wands]
+| d% | Common Wand | Price |
+| --- | --- | --- |
+| 01–07 | _ [Acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_ | 375 gp |
 | 08–14 | _ [Create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_ | 375 gp |
 | 15–20 | _ [Daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ | 375 gp |
 | 21–28 | _ [Detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_ | 375 gp |
@@ -1890,11 +1806,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 82–88 | _ [Read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_ | 375 gp |
 | 89–95 | _ [Stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_ | 375 gp |
 | 96–100 | _ [Touch of fatigue](/pathfinderRPG/prd/spells/touchOfFatigue.html#_touch-of-fatigue)_ | 375 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Wand</th>
-<th>Price</th>
-</tr></thead>| 01–06 | _ [Arcane mark](/pathfinderRPG/prd/spells/arcaneMark.html#_arcane-mark)_ | 375 gp |
+
+| d% | Uncommon Wand | Price |
+| --- | --- | --- |
+| 01–06 | _ [Arcane mark](/pathfinderRPG/prd/spells/arcaneMark.html#_arcane-mark)_ | 375 gp |
 | 07–15 | _ [Bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ | 375 gp |
 | 16–22 | _ [Dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_ | 375 gp |
 | 23–31 | _ [Detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_ | 375 gp |
@@ -1908,11 +1823,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 87–94 | _ [Spark](/pathfinderRPG/prd/advanced/spells/spark.html#_spark-)_ | 375 gp |
 | 95–100 | _ [Virtue](/pathfinderRPG/prd/spells/virtue.html#_virtue)_ | 375 gp |
 
-<caption>1st-Level Wands</caption><thead><tr>
-<th>d%</th>
-<th>Common Wand</th>
-<th>Price</th>
-</tr></thead>| 01–02 | _ [Alarm](/pathfinderRPG/prd/spells/alarm.html#_alarm)_ | 750 gp |
+[1st-Level Wands]
+| d% | Common Wand | Price |
+| --- | --- | --- |
+| 01–02 | _ [Alarm](/pathfinderRPG/prd/spells/alarm.html#_alarm)_ | 750 gp |
 | 03 | _ [Animate rope](/pathfinderRPG/prd/spells/animateRope.html#_animate-rope)_ | 750 gp |
 | 04–05 | _ [Bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ | 750 gp |
 | 06–11 | _ [Bless](/pathfinderRPG/prd/spells/bless.html#_bless)_ | 750 gp |
@@ -1956,11 +1870,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 96 | _ [Summon nature's ally I](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-i)_ | 750 gp |
 | 97–99 | _ [True strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_ | 750 gp |
 | 100 | _ [Unseen servant](/pathfinderRPG/prd/spells/unseenServant.html#_unseen-servant)_ | 750 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Wand</th>
-<th>Price</th>
-</tr></thead>| 01–02 | _ [Ant haul](/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-)_ | 750 gp |
+
+| d% | Uncommon Wand | Price |
+| --- | --- | --- |
+| 01–02 | _ [Ant haul](/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-)_ | 750 gp |
 | 03–05 | _ [Aspect of the falcon](/pathfinderRPG/prd/advanced/spells/aspectOfTheFalcon.html#_aspect-of-the-falcon)_ | 750 gp |
 | 06–07 | _ [Bless weapon](/pathfinderRPG/prd/spells/blessWeapon.html#_bless-weapon)_ | 750 gp |
 | 08 | _ [Calm animals](/pathfinderRPG/prd/spells/calmAnimals.html#_calm-animals)_ | 750 gp |
@@ -2014,11 +1927,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 99 | _ [Bless water](/pathfinderRPG/prd/spells/blessWater.html#_bless-water)_ | 2,000 gp |
 | 100 | _ [Curse water](/pathfinderRPG/prd/spells/curseWater.html#_curse-water)_ | 2,000 gp |
 
-<caption>2nd-Level Wands</caption><thead><tr>
-<th>d%</th>
-<th>Common Wand</th>
-<th>Price</th>
-</tr></thead>| 01–02 | _ [Acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_ | 4,500 gp |
+[2nd-Level Wands]
+| d% | Common Wand | Price |
+| --- | --- | --- |
+| 01–02 | _ [Acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_ | 4,500 gp |
 | 03 | _ [Aid](/pathfinderRPG/prd/spells/aid.html#_aid)_ | 4,500 gp |
 | 04–05 | _ [Alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_ | 4,500 gp |
 | 06–07 | _ [Barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ | 4,500 gp |
@@ -2066,11 +1978,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 97 | _ [Whispering wind](/pathfinderRPG/prd/spells/whisperingWind.html#_whispering-wind)_ | 4,500 gp |
 | 98–99 | _ [Augury](/pathfinderRPG/prd/spells/augury.html#_augury)_ | 5,750 gp |
 | 100 | _ [Fire trap](/pathfinderRPG/prd/spells/fireTrap.html#_fire-trap)_ | 5,750 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Wand</th>
-<th>Price</th>
-</tr></thead>| 01–02 | _ [Align weapon](/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon)_ | 4,500 gp |
+
+| d% | Uncommon Wand | Price |
+| --- | --- | --- |
+| 01–02 | _ [Align weapon](/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon)_ | 4,500 gp |
 | 03–05 | _ [Animal aspect](/pathfinderRPG/prd/ultimateCombat/spells/animalAspect.html#_animal-aspect)_ | 4,500 gp |
 | 06 | _ [Animal messenger](/pathfinderRPG/prd/spells/animalMessenger.html#_animal-messenger)_ | 4,500 gp |
 | 07 | _ [Animal trance](/pathfinderRPG/prd/spells/animalTrance.html#_animal-trance)_ | 4,500 gp |
@@ -2122,11 +2033,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 99 | _ [Continual flame](/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame)_ | 7,000 gp |
 | 100 | _ [Phantom trap](/pathfinderRPG/prd/spells/phantomTrap.html#_phantom-trap)_ | 7,000 gp |
 
-<caption>3rd-Level Wands</caption><thead><tr>
-<th>d%</th>
-<th>Common Wand</th>
-<th>Price</th>
-</tr></thead>| 01–02 | _ [Beast shape I](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-i)_ | 11,250 gp |
+[3rd-Level Wands]
+| d% | Common Wand | Price |
+| --- | --- | --- |
+| 01–02 | _ [Beast shape I](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-i)_ | 11,250 gp |
 | 03–04 | _ [Blink](/pathfinderRPG/prd/spells/blink.html#_blink)_ | 11,250 gp |
 | 05–07 | _ [Call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_ | 11,250 gp |
 | 08 | _ [Create food and water](/pathfinderRPG/prd/spells/createFoodAndWater.html#_create-food-and-water)_ | 11,250 gp |
@@ -2172,11 +2082,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 95–97 | _ [Vampiric touch](/pathfinderRPG/prd/spells/vampiricTouch.html#_vampiric-touch)_ | 11,250 gp |
 | 98–99 | _ [Water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_ | 11,250 gp |
 | 100 | _ [Animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_ | 23,750 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Wand</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _ [Animal aspect, greater](/pathfinderRPG/prd/ultimateCombat/spells/animalAspect.html#_animal-aspect,-greater)_ | 11,250 gp |
+
+| d% | Uncommon Wand | Price |
+| --- | --- | --- |
+| 01–04 | _ [Animal aspect, greater](/pathfinderRPG/prd/ultimateCombat/spells/animalAspect.html#_animal-aspect,-greater)_ | 11,250 gp |
 | 05–06 | _ [Aqueous orb](/pathfinderRPG/prd/advanced/spells/aqueousOrb.html#_aqueous-orb)_ | 11,250 gp |
 | 07–08 | _ [Arcane sight](/pathfinderRPG/prd/spells/arcaneSight.html#_arcane-sight)_ | 11,250 gp |
 | 09–11 | _ [Archon's aura](/pathfinderRPG/prd/ultimateMagic/spells/archonSAura.html#_archon's-aura)_ | 11,250 gp |
@@ -2223,11 +2132,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 99 | _ [Glyph of warding](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)_ | 21,250 gp |
 | 100 | _ [Sepia snake sigil](/pathfinderRPG/prd/spells/sepiaSnakeSigil.html#_sepia-snake-sigil)_ | 36,250 gp |
 
-<caption>4th-Level Wands</caption><thead><tr>
-<th>d%</th>
-<th>Common Wand</th>
-<th>Price</th>
-</tr></thead>| 01–02 | _ [Air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_ | 21,000 gp |
+[4th-Level Wands]
+| d% | Common Wand | Price |
+| --- | --- | --- |
+| 01–02 | _ [Air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_ | 21,000 gp |
 | 03–04 | _ [Beast shape II](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii)_ | 21,000 gp |
 | 05–07 | _ [Black tentacles](/pathfinderRPG/prd/spells/blackTentacles.html#_black-tentacles)_ | 21,000 gp |
 | 08 | _ [Chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ | 21,000 gp |
@@ -2272,11 +2180,10 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 97–98 | _ [Stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_ | 33,500 gp |
 | 99 | _ [Planar ally, lesser](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally-lesser)_ | 46,000 gp |
 | 100 | _ [Restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration)_\* | 71,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Uncommon Wand</th>
-<th>Price</th>
-</tr></thead>| 01 | _ [Antiplant shell](/pathfinderRPG/prd/spells/antiplantShell.html#_antiplant-shell)_ | 21,000 gp |
+
+| d% | Uncommon Wand | Price |
+| --- | --- | --- |
+| 01 | _ [Antiplant shell](/pathfinderRPG/prd/spells/antiplantShell.html#_antiplant-shell)_ | 21,000 gp |
 | 02–04 | _ [Arcane eye](/pathfinderRPG/prd/spells/arcaneEye.html#_arcane-eye)_ | 21,000 gp |
 | 05–07 | _ [Aspect of the stag](/pathfinderRPG/prd/advanced/spells/aspectOfTheStag.html#_aspect-of-the-stag)_ | 21,000 gp |
 | 08–11 | _ [Ball lightning](/pathfinderRPG/prd/advanced/spells/ballLightning.html#_ball-lightning)_ | 21,000 gp |
@@ -2322,7 +2229,6 @@ Rewards from this type of treasure represent the kinds of items that might be fo
 | 98 | _ [Tree stride](/pathfinderRPG/prd/spells/treeStride.html#_tree-stride)_ | 30,000 gp |
 | 99 | _ [Zone of silence](/pathfinderRPG/prd/spells/zoneOfSilence.html#_zone-of-silence)_ | 30,000 gp |
 | 100 | _ [Legend lore](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)_ | 33,500 gp |
-<tfoot><tr><td colspan="3">*Can dispel permanent negative levels.</td></tr></tfoot>
 
 # Gems and Jewelry
 
@@ -2338,12 +2244,10 @@ When randomly determining gems, roll on the appropriate grade chart. To determin
 
 In addition, if the roll to determine the type of gem is an odd roll, the gem is unworked, which means its value is equal to half the total value of a normal gem of that type, but it can made into a worked gem with a successful [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (jewelry) check of the appropriate DC based on the gem's grade (the gem counts as the raw material cost, so the crafter need not pay that amount). On an even roll, the gem is worked, can't be improved upon, and is worth the listed cost.
 
-<caption>Random Gems</caption><thead><tr>
-<th>d%</th>
-<th>Least Semi-Precious Gem (Craft DC 10)</th>
-<th>Base Value</th>
-<th>Added Value</th>
-</tr></thead>| 01–08 | Agate | 5 gp | +2d4 gp |
+[Random Gems]
+| d% | Least Semi-Precious Gem (Craft DC 10) | Base Value | Added Value |
+| --- | --- | --- | --- |
+| 01–08 | Agate | 5 gp | +2d4 gp |
 | 09–14 | Alabaster | 5 gp | +2d4 gp |
 | 14–20 | Azurite | 5 gp | +2d4 gp |
 | 21–26 | Hematite | 5 gp | +2d4 gp |
@@ -2357,12 +2261,10 @@ In addition, if the roll to determine the type of gem is an odd roll, the gem is
 | 79–84 | Shell | 5 gp | +2d4 gp |
 | 85–92 | Tigereye | 5 gp | +2d4 gp |
 | 93–100 | Turquoise | 5 gp | +2d4 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Semi-Precious Gem (Craft DC 12)</th>
-<th>Base Value</th>
-<th>Added Value</th>
-</tr></thead>| 01–06 | Bloodstone | 25 gp | +2d4 × 5 gp |
+
+| d% | Lesser Semi-Precious Gem (Craft DC 12) | Base Value | Added Value |
+| --- | --- | --- | --- |
+| 01–06 | Bloodstone | 25 gp | +2d4 × 5 gp |
 | 07–12 | Carnelian | 25 gp | +2d4 × 5 gp |
 | 13–18 | Chrysoprase | 25 gp | +2d4 × 5 gp |
 | 19–24 | Citrine | 25 gp | +2d4 × 5 gp |
@@ -2376,12 +2278,10 @@ In addition, if the roll to determine the type of gem is an odd roll, the gem is
 | 81–86 | Sardonyx | 25 gp | +2d4 × 5 gp |
 | 87–92 | Spinel, red or green | 25 gp | +2d4 × 5 gp |
 | 94–100 | Zircon | 25 gp | +2d4 × 5 gp |
-<thead><tr>
-<th>d%</th>
-<th>Semi-Precious Gem (Craft DC 15)</th>
-<th>Base Value</th>
-<th>Added Value</th>
-</tr></thead>| 01–10 | Amber | 50 gp | +2d4 × 10 gp |
+
+| d% | Semi-Precious Gem (Craft DC 15) | Base Value | Added Value |
+| --- | --- | --- | --- |
+| 01–10 | Amber | 50 gp | +2d4 × 10 gp |
 | 11–20 | Amethyst | 50 gp | +2d4 × 10 gp |
 | 21–30 | Chrysoberyl | 50 gp | +2d4 × 10 gp |
 | 31–40 | Coral | 50 gp | +2d4 × 10 gp |
@@ -2391,40 +2291,32 @@ In addition, if the roll to determine the type of gem is an odd roll, the gem is
 | 71–80 | Pearl, saltwater | 50 gp | +2d4 × 10 gp |
 | 81–90 | Spinel, deep blue | 50 gp | +2d4 × 10 gp |
 | 91–100 | Tourmaline | 50 gp | +2d4 × 10 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Semi-Precious Gem (Craft DC 20)</th>
-<th>Base Value</th>
-<th>Added Value</th>
-</tr></thead>| 01–25 | Aquamarine | 250 gp | +2d4 × 50 gp |
+
+| d% | Greater Semi-Precious Gem (Craft DC 20) | Base Value | Added Value |
+| --- | --- | --- | --- |
+| 01–25 | Aquamarine | 250 gp | +2d4 × 50 gp |
 | 26–50 | Opal | 250 gp | +2d4 × 50 gp |
 | 51–75 | Pearl, black | 250 gp | +2d4 × 50 gp |
 | 76–100 | Topaz | 250 gp | +2d4 × 50 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Precious Gem (Craft DC 25)</th>
-<th>Base Value</th>
-<th>Added Value</th>
-</tr></thead>| 01–25 | Diamond, small | 500 gp | +2d4 × 100 gp |
+
+| d% | Lesser Precious Gem (Craft DC 25) | Base Value | Added Value |
+| --- | --- | --- | --- |
+| 01–25 | Diamond, small | 500 gp | +2d4 × 100 gp |
 | 26–50 | Emerald | 500 gp | +2d4 × 100 gp |
 | 51–75 | Ruby, small | 500 gp | +2d4 × 100 gp |
 | 76–100 | Sapphire | 500 gp | +2d4 × 100 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Precious Gem (5,000 gp; Craft DC 25)</th>
-<th>Base Value</th>
-<th>Added Value</th>
-</tr></thead>| 01–25 | Diamond, large | 2,500 gp | +2d4 × 500 gp |
+
+| d% | Greater Precious Gem (5,000 gp; Craft DC 25) | Base Value | Added Value |
+| --- | --- | --- | --- |
+| 01–25 | Diamond, large | 2,500 gp | +2d4 × 500 gp |
 | 26–50 | Emerald, brilliant green | 2,500 gp | +2d4 × 500 gp |
 | 51–75 | Ruby, large | 2,500 gp | +2d4 × 500 gp |
 | 76–100 | Sapphire, star | 2,500 gp | +2d4 × 500 gp |
 
-<caption>Random Gems</caption><thead><tr>
-<th>d%</th>
-<th>Least Semi-Precious Gem (Craft DC 10)</th>
-<th>Base Value</th>
-<th>Added Value</th>
-</tr></thead>| 01–08 | Agate | 5 gp | +2d4 gp |
+[Random Gems]
+| d% | Least Semi-Precious Gem (Craft DC 10) | Base Value | Added Value |
+| --- | --- | --- | --- |
+| 01–08 | Agate | 5 gp | +2d4 gp |
 | 09–14 | Alabaster | 5 gp | +2d4 gp |
 | 14–20 | Azurite | 5 gp | +2d4 gp |
 | 21–26 | Hematite | 5 gp | +2d4 gp |
@@ -2438,12 +2330,10 @@ In addition, if the roll to determine the type of gem is an odd roll, the gem is
 | 79–84 | Shell | 5 gp | +2d4 gp |
 | 85–92 | Tigereye | 5 gp | +2d4 gp |
 | 93–100 | Turquoise | 5 gp | +2d4 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Semi-Precious Gem (Craft DC 12)</th>
-<th>Base Value</th>
-<th>Added Value</th>
-</tr></thead>| 01–06 | Bloodstone | 25 gp | +2d4 × 5 gp |
+
+| d% | Lesser Semi-Precious Gem (Craft DC 12) | Base Value | Added Value |
+| --- | --- | --- | --- |
+| 01–06 | Bloodstone | 25 gp | +2d4 × 5 gp |
 | 07–12 | Carnelian | 25 gp | +2d4 × 5 gp |
 | 13–18 | Chrysoprase | 25 gp | +2d4 × 5 gp |
 | 19–24 | Citrine | 25 gp | +2d4 × 5 gp |
@@ -2457,12 +2347,10 @@ In addition, if the roll to determine the type of gem is an odd roll, the gem is
 | 81–86 | Sardonyx | 25 gp | +2d4 × 5 gp |
 | 87–92 | Spinel, red or green | 25 gp | +2d4 × 5 gp |
 | 94–100 | Zircon | 25 gp | +2d4 × 5 gp |
-<thead><tr>
-<th>d%</th>
-<th>Semi-Precious Gem (Craft DC 15)</th>
-<th>Base Value</th>
-<th>Added Value</th>
-</tr></thead>| 01–10 | Amber | 50 gp | +2d4 × 10 gp |
+
+| d% | Semi-Precious Gem (Craft DC 15) | Base Value | Added Value |
+| --- | --- | --- | --- |
+| 01–10 | Amber | 50 gp | +2d4 × 10 gp |
 | 11–20 | Amethyst | 50 gp | +2d4 × 10 gp |
 | 21–30 | Chrysoberyl | 50 gp | +2d4 × 10 gp |
 | 31–40 | Coral | 50 gp | +2d4 × 10 gp |
@@ -2472,30 +2360,24 @@ In addition, if the roll to determine the type of gem is an odd roll, the gem is
 | 71–80 | Pearl, saltwater | 50 gp | +2d4 × 10 gp |
 | 81–90 | Spinel, deep blue | 50 gp | +2d4 × 10 gp |
 | 91–100 | Tourmaline | 50 gp | +2d4 × 10 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Semi-Precious Gem (Craft DC 20)</th>
-<th>Base Value</th>
-<th>Added Value</th>
-</tr></thead>| 01–25 | Aquamarine | 250 gp | +2d4 × 50 gp |
+
+| d% | Greater Semi-Precious Gem (Craft DC 20) | Base Value | Added Value |
+| --- | --- | --- | --- |
+| 01–25 | Aquamarine | 250 gp | +2d4 × 50 gp |
 | 26–50 | Opal | 250 gp | +2d4 × 50 gp |
 | 51–75 | Pearl, black | 250 gp | +2d4 × 50 gp |
 | 76–100 | Topaz | 250 gp | +2d4 × 50 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Precious Gem (Craft DC 25)</th>
-<th>Base Value</th>
-<th>Added Value</th>
-</tr></thead>| 01–25 | Diamond, small | 500 gp | +2d4 × 100 gp |
+
+| d% | Lesser Precious Gem (Craft DC 25) | Base Value | Added Value |
+| --- | --- | --- | --- |
+| 01–25 | Diamond, small | 500 gp | +2d4 × 100 gp |
 | 26–50 | Emerald | 500 gp | +2d4 × 100 gp |
 | 51–75 | Ruby, small | 500 gp | +2d4 × 100 gp |
 | 76–100 | Sapphire | 500 gp | +2d4 × 100 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Precious Gem (5,000 gp; Craft DC 25)</th>
-<th>Base Value</th>
-<th>Added Value</th>
-</tr></thead>| 01–25 | Diamond, large | 2,500 gp | +2d4 × 500 gp |
+
+| d% | Greater Precious Gem (5,000 gp; Craft DC 25) | Base Value | Added Value |
+| --- | --- | --- | --- |
+| 01–25 | Diamond, large | 2,500 gp | +2d4 × 500 gp |
 | 26–50 | Emerald, brilliant green | 2,500 gp | +2d4 × 500 gp |
 | 51–75 | Ruby, large | 2,500 gp | +2d4 × 500 gp |
 | 76–100 | Sapphire, star | 2,500 gp | +2d4 × 500 gp |
@@ -2606,11 +2488,10 @@ The following listings are just examples of art objects. Feel free to alter the 
 
 Art objects can usually be bought or sold for their base price, and are sometimes used as currency.
 
-<caption>Random Art Objects</caption><thead><tr>
-<th>d%</th>
-<th>Grade 1 Art Object (Avg Value 50 gp)</th>
-<th>Price</th>
-</tr></thead>| 01–05 | Bronze statuette of a warrior | 15 gp |
+[Random Art Objects]
+| d% | Grade 1 Art Object (Avg Value 50 gp) | Price |
+| --- | --- | --- |
+| 01–05 | Bronze statuette of a warrior | 15 gp |
 | 06 | Elaborate copper wind chimes | 20 gp |
 | 07 | Painted paper fan with silver slats | 20 gp |
 | 08–09 | Copper and glass decanter | 25 gp |
@@ -2640,11 +2521,10 @@ Art objects can usually be bought or sold for their base price, and are sometime
 | 94–96 | Crystal skull | 80 gp |
 | 97 | Ornate silver flute | 80 gp |
 | 98–100 | Engraved jade scarab | 85 gp |
-<thead><tr>
-<th>d%</th>
-<th>Grade 2 Art Object (Avg Value 100 gp)</th>
-<th>Price</th>
-</tr></thead>| 01–02 | Elaborate silver wind chimes | 60 gp |
+
+| d% | Grade 2 Art Object (Avg Value 100 gp) | Price |
+| --- | --- | --- |
+| 01–02 | Elaborate silver wind chimes | 60 gp |
 | 03–08 | Engraved gold scarab | 75 gp |
 | 09–10 | Painted silk fan with electrum slats | 75 gp |
 | 11–12 | Preserved beast head on a plaque | 75 gp |
@@ -2674,11 +2554,10 @@ Art objects can usually be bought or sold for their base price, and are sometime
 | 91–92 | Silver scepter with eagle symbols | 125 gp |
 | 93–97 | Silver chalice with dragon carvings | 150 gp |
 | 98–100 | Gold candelabra with holy symbol | 200 gp |
-<thead><tr>
-<th>d%</th>
-<th>Grade 3 Art Object (Avg Value 500 gp)</th>
-<th>Price</th>
-</tr></thead>| 01–03 | Gilded demon skull | 300 gp |
+
+| d% | Grade 3 Art Object (Avg Value 500 gp) | Price |
+| --- | --- | --- |
+| 01–03 | Gilded demon skull | 300 gp |
 | 04–13 | Marble idol | 300 gp |
 | 14–19 | Masterwork darkwood lute | 300 gp |
 | 20–24 | Engraved mithral scarab | 400 gp |
@@ -2698,11 +2577,10 @@ Art objects can usually be bought or sold for their base price, and are sometime
 | 89–93 | Gold and platinum statuette of a deity | 750 gp |
 | 94–96 | Gold cauldron with alchemical symbols | 750 gp |
 | 97–100 | Painting of a queen | 750 gp |
-<thead><tr>
-<th>d%</th>
-<th>Grade 4 Art Object (Avg Value 1,000 gp)</th>
-<th>Price</th>
-</tr></thead>| 01–05 | Engraved platinum scarab | 700 gp |
+
+| d% | Grade 4 Art Object (Avg Value 1,000 gp) | Price |
+| --- | --- | --- |
+| 01–05 | Engraved platinum scarab | 700 gp |
 | 06–11 | Gilded dragon skull | 800 gp |
 | 12–18 | Platinum bowl with arcane engravings | 800 gp |
 | 19–22 | Platinum censer with ornate markings | 800 gp |
@@ -2722,11 +2600,10 @@ Art objects can usually be bought or sold for their base price, and are sometime
 | 82–87 | Platinum chalice with angel carvings | 1,250 gp |
 | 88–93 | Platinum statuette of a deity | 1,300 gp |
 | 94–100 | Painting of a queen by a master | 1,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Grade 5 Art Object (Avg Value 5,000 gp)</th>
-<th>Price</th>
-</tr></thead>| 01–08 | Book of lost songs by a famous bard | 3,000 gp |
+
+| d% | Grade 5 Art Object (Avg Value 5,000 gp) | Price |
+| --- | --- | --- |
+| 01–08 | Book of lost songs by a famous bard | 3,000 gp |
 | 09–16 | Darkwood and platinum music box | 4,000 gp |
 | 17–26 | Mithral hourglass with diamond dust | 4,000 gp |
 | 27–34 | Jeweled egg with epic sorcerer's blood | 4,500 gp |
@@ -2741,11 +2618,10 @@ Art objects can usually be bought or sold for their base price, and are sometime
 | 89–91 | Glowing metallic meteor | 6,500 gp |
 | 92–97 | Gold bejeweled royal orb | 7,000 gp |
 | 98–100 | Crystallized dragon heart | 7,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Grade 6 Art Object (Avg Value 10,000 gp)</th>
-<th>Price</th>
-</tr></thead>| 01–06 | Frozen vampire soul | 7,000 gp |
+
+| d% | Grade 6 Art Object (Avg Value 10,000 gp) | Price |
+| --- | --- | --- |
+| 01–06 | Frozen vampire soul | 7,000 gp |
 | 07–13 | Mithral-inlaid unicorn horn | 7,000 gp |
 | 14–16 | Crystallized god breath | 10,000 gp |
 | 17–22 | Essence of truth | 10,000 gp |

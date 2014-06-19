@@ -1,12 +1,9 @@
 # [Armor](magicItemCreation.html#_creating-magic-armor)
 
-<caption>Table: Armor and Shields</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Item</th>
-<th>Base Price</th>
-</tr></thead>| 01–60 | 01–05 | — | _+1 shield_ | 1,000 gp |
+[Table: Armor and Shields]
+| Minor | Medium | Major | Item | Base Price |
+| --- | --- | --- | --- | --- |
+| 01–60 | 01–05 | — | _+1 shield_ | 1,000 gp |
 | 61–80 | 06–10 | — | _+1 armor _ | 1,000 gp |
 | 81–85 | 11–20 | — | _+2 shield _ | 4,000 gp |
 | 86–87 | 21–30 | — | _+2 armor _ | 4,000 gp |
@@ -16,92 +13,70 @@
 | — | 56–57 | 28–38 | _+4 armor _ | 16,000 gp |
 | — | — | 39–49 | _+5 shield _ | 25,000 gp |
 | — | — | 50–57 | _+5 armor _ | 25,000 gp |
-| — | — | — | _+6 armor/shield_<sup>1</sup> | 36,000 gp |
-| — | — | — | _+7 armor/shield_<sup>1</sup> | 49,000 gp |
-| — | — | — | _+8 armor/shield_<sup>1</sup> | 64,000 gp |
-| — | — | — | _+9 armor/shield_<sup>1</sup> | 81,000 gp |
-| — | — | — | _+10 armor/shield_<sup>1</sup> | 100,000 gp |
-| 88–89 | 58–60 | 58–60 | Specific armor<sup>2</sup> | — |
-| 90–91 | 61–63 | 61–63 | Specific shield<sup>3</sup> | — |
-| 92–100 | 64–100 | 64–100 | Special ability and roll again<sup>2,3</sup> | — |
-<tfoot>
-<tr><td colspan="5">1 Armor and shields can't have enhancement bonuses higher than +5. Use these lines to determine price when special abilities are added in.</td></tr>
-<tr><td colspan="5">2 Roll on Table: Specific Armors. </td></tr>
-<tr><td colspan="5">3 Roll on Table: Specific Shields.</td></tr>
-</tfoot>
+| — | — | — | _+6 armor/shield_ⁱ | 36,000 gp |
+| — | — | — | _+7 armor/shield_ⁱ | 49,000 gp |
+| — | — | — | _+8 armor/shield_ⁱ | 64,000 gp |
+| — | — | — | _+9 armor/shield_ⁱ | 81,000 gp |
+| — | — | — | _+10 armor/shield_ⁱ | 100,000 gp |
+| 88–89 | 58–60 | 58–60 | Specific armor⁲ | — |
+| 90–91 | 61–63 | 61–63 | Specific shield⁳ | — |
+| 92–100 | 64–100 | 64–100 | Special ability and roll again⁲,⁳ | — |
 
-<caption>Table: Armor Special Abilities</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Special Ability</th>
-<th>Base Price Modifier</th>
-</tr></thead>| 01–25 | 01–05 | 01–03 | _Glamered_ | +2,700 gp |
-| 26–32 | 06–08 | 04 | _Fortification, light_ | +1 bonus<sup>1</sup> |
+[Table: Armor Special Abilities]
+| Minor | Medium | Major | Special Ability | Base Price Modifier |
+| --- | --- | --- | --- | --- |
+| 01–25 | 01–05 | 01–03 | _Glamered_ | +2,700 gp |
+| 26–32 | 06–08 | 04 | _Fortification, light_ | +1 bonusⁱ |
 | 33–52 | 09–11 | — | _Slick_ | +3,750 gp |
 | 53–92 | 12–17 | — | _Shadow_ | +3,750 gp |
-| 93–96 | 18–19 | — | _Spell resistance (13)_ | +2 bonus<sup>1</sup> |
+| 93–96 | 18–19 | — | _Spell resistance (13)_ | +2 bonusⁱ |
 | 97 | 20–29 | 05–07 | _Slick, improved_ | +15,000 gp |
 | 98–99 | 30–49 | 08–13 | _Shadow, improved_ | +15,000 gp |
 | — | 50–74 | 14–28 | _Energy resistance_ | +18,000 gp |
-| — | 75–79 | 29–33 | _Ghost touch_ | +3 bonus<sup>1</sup> |
-| — | 80–84 | 34–35 | _Invulnerability_ | +3 bonus<sup>1</sup> |
-| — | 85–89 | 36–40 | _Fortification, moderate_ | +3 bonus<sup>1</sup> |
-| — | 90–94 | 41–42 | _Spell resistance (15)_ | +3 bonus<sup>1</sup> |
-| — | 95–99 | 43 | _Wild _ | +3 bonus<sup>1</sup> |
+| — | 75–79 | 29–33 | _Ghost touch_ | +3 bonusⁱ |
+| — | 80–84 | 34–35 | _Invulnerability_ | +3 bonusⁱ |
+| — | 85–89 | 36–40 | _Fortification, moderate_ | +3 bonusⁱ |
+| — | 90–94 | 41–42 | _Spell resistance (15)_ | +3 bonusⁱ |
+| — | 95–99 | 43 | _Wild _ | +3 bonusⁱ |
 | — | — | 44–48 | _Slick, greater_ | +33,750 gp |
 | — | — | 49–58 | _Shadow, greater_ | +33,750 gp |
 | — | — | 59–83 | _Energy resistance, improved_ | +42,000 gp |
-| — | — | 84–88 | _Spell resistance (17)_ | +4 bonus<sup>1</sup> |
+| — | — | 84–88 | _Spell resistance (17)_ | +4 bonusⁱ |
 | — | — | 89 | _Etherealness_ | +49,000 gp |
 | — | — | 90 | _Undead controlling_ | +49,000 gp |
-| — | — | 91–92 | _Fortification, heavy_ | +5 bonus<sup>1</sup> |
-| — | — | 93–94 | _Spell resistance (19) _ | +5 bonus<sup>1</sup> |
+| — | — | 91–92 | _Fortification, heavy_ | +5 bonusⁱ |
+| — | — | 93–94 | _Spell resistance (19) _ | +5 bonusⁱ |
 | — | — | 95–99 | _Energy resistance, greater_ | +66,000 gp |
-| 100 | 100 | 100 | Roll twice again<sup>2</sup> | — |
-<tfoot>
-<tr><td colspan="5">1 Add to enhancement bonus on Table: Armor and Shields to determine total market price</td></tr>
-<tr><td colspan="5">2 If you roll a special ability twice, only one counts. If you roll two versions of the same special ability, use the better.</td></tr>
-</tfoot>
+| 100 | 100 | 100 | Roll twice again⁲ | — |
 
-<caption>Table: Shield Special Abilities</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Special Ability</th>
-<th>Base Price Modifier</th>
-</tr></thead>| 01–20 | 01–10 | 01–05 | _Arrow catching_ | +1 bonus<sup>1</sup> |
-| 21–40 | 11–20 | 06–08 | _Bashing_ | +1 bonus<sup>1</sup> |
-| 41–50 | 21–25 | 09–10 | _Blinding_ | +1 bonus<sup>1</sup> |
-| 51–75 | 26–40 | 11–15 | _Fortification, light_ | +1 bonus<sup>1</sup> |
-| 76–92 | 41–50 | 16–20 | _Arrow deflection_ | +2 bonus<sup>1</sup> |
-| 93–97 | 51–57 | 21–25 | _Animated_ | +2 bonus<sup>1</sup> |
-| 98–99 | 58–59 | — | _Spell resistance (13)_ | +2 bonus<sup>1</sup> |
+[Table: Shield Special Abilities]
+| Minor | Medium | Major | Special Ability | Base Price Modifier |
+| --- | --- | --- | --- | --- |
+| 01–20 | 01–10 | 01–05 | _Arrow catching_ | +1 bonusⁱ |
+| 21–40 | 11–20 | 06–08 | _Bashing_ | +1 bonusⁱ |
+| 41–50 | 21–25 | 09–10 | _Blinding_ | +1 bonusⁱ |
+| 51–75 | 26–40 | 11–15 | _Fortification, light_ | +1 bonusⁱ |
+| 76–92 | 41–50 | 16–20 | _Arrow deflection_ | +2 bonusⁱ |
+| 93–97 | 51–57 | 21–25 | _Animated_ | +2 bonusⁱ |
+| 98–99 | 58–59 | — | _Spell resistance (13)_ | +2 bonusⁱ |
 | — | 60–79 | 26–41 | _Energy resistance_ | +18,000 gp |
-| — | 80–85 | 42–46 | _Ghost touch_ | +3 bonus<sup>1</sup> |
-| — | 86–95 | 47–56 | _Fortification, moderate_ | +3 bonus<sup>1</sup> |
-| — | 96–98 | 57–58 | _Spell resistance (15) _ | +3 bonus<sup>1</sup> |
-| — | 99 | 59 | _Wild_ | +3 bonus<sup>1</sup> |
+| — | 80–85 | 42–46 | _Ghost touch_ | +3 bonusⁱ |
+| — | 86–95 | 47–56 | _Fortification, moderate_ | +3 bonusⁱ |
+| — | 96–98 | 57–58 | _Spell resistance (15) _ | +3 bonusⁱ |
+| — | 99 | 59 | _Wild_ | +3 bonusⁱ |
 | — | — | 60–84 | _Energy resistance, improved_ | +42,000 gp |
-| — | — | 85–86 | _Spell resistance (17)_ | +4 bonus<sup>1</sup> |
+| — | — | 85–86 | _Spell resistance (17)_ | +4 bonusⁱ |
 | — | — | 87 | _Undead controlling_ | +49,000 gp |
-| — | — | 88–91 | _Fortification, heavy_ | +5 bonus<sup>1</sup> |
-| — | — | 92–93 | _Reflecting_ | +5 bonus<sup>1</sup> |
-| — | — | 94 | _Spell resistance (19) _ | +5 bonus<sup>1</sup> |
+| — | — | 88–91 | _Fortification, heavy_ | +5 bonusⁱ |
+| — | — | 92–93 | _Reflecting_ | +5 bonusⁱ |
+| — | — | 94 | _Spell resistance (19) _ | +5 bonusⁱ |
 | — | — | 95–99 | _Energy resistance, greater_ | +66,000 gp |
-| 100 | 100 | 100 | Roll twice again<sup>2</sup> | — |
-<tfoot>
-<tr><td colspan="5">1 Add to enhancement bonus on Table: Armor and Shields to determine total market price</td></tr>
-<tr><td colspan="5">2 If you roll a special ability twice, only one counts. If you roll two versions of the same special ability, use the better.</td></tr>
-</tfoot>
+| 100 | 100 | 100 | Roll twice again⁲ | — |
 
-<caption>Table: Specific Armors</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Specific Armor</th>
-<th>Market Price</th>
-</tr></thead>| 01–50 | 01–25 | — | Mithral shirt | 1,100 gp |
+[Table: Specific Armors]
+| Minor | Medium | Major | Specific Armor | Market Price |
+| --- | --- | --- | --- | --- |
+| 01–50 | 01–25 | — | Mithral shirt | 1,100 gp |
 | 51–80 | 26–45 | — | Dragonhide plate | 3,300 gp |
 | 81–100 | 46–57 | — | Elven chain | 5,150 gp |
 | — | 58–67 | — | _Rhino hide _ | 5,165 gp |
@@ -114,13 +89,10 @@
 | — | — | 76–90 | _Mithral full plate of speed_ | 26,500 gp |
 | — | — | 91–100 | _Demon armor _ | 52,260 gp |
 
-<caption>Table: Specific Shields</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Specific Shield</th>
-<th>Market Price</th>
-</tr></thead>| 01–30 | 01–20 | — | Darkwood buckler | 203 gp |
+[Table: Specific Shields]
+| Minor | Medium | Major | Specific Shield | Market Price |
+| --- | --- | --- | --- | --- |
+| 01–30 | 01–20 | — | Darkwood buckler | 203 gp |
 | 31–80 | 21–45 | — | Darkwood shield | 257 gp |
 | 81–95 | 46–70 | — | Mithral heavy shield | 1,020 gp |
 | 96–100 | 71–85 | 01–20 | _Caster's shield _ | 3,153 gp |
@@ -191,11 +163,9 @@ Strong transmutation_; _CL 13th; [Craft Magic Arms and Armor](../feats.html#_cra
 
 **Fortification** : This suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When a critical hit or sneak attack is scored on the wearer, there is a chance that the critical hit or sneak attack is negated and damage is instead rolled normally.
 
-<thead><tr>
-<th>Fortification Type</th>
-<th>Chance for Normal Damage</th>
-<th>Base Price Modifier</th>
-</tr></thead><tbody>
+| Fortification Type | Chance for Normal Damage | Base Price Modifier |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Light</td>
 <td>25%</td>

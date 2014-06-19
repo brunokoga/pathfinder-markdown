@@ -84,14 +84,12 @@ Positive interactions include things such as regular patronage of the NPC's busi
 
 A relationship with a contact develops as you spend time with him. Each time you have a positive or profound interaction with the contact (but no more than once at each of your character levels), attempt a [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) check to improve the contact's Trust score by 1. If the interaction is profound rather than merely positive, you gain a +5 bonus on this [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) check. The DC of the check depends on the contact's Trust score with you.
 
-<thead><tr>
-<th colspan="2">NPC Trust (Score)</th>
-<a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy">Diplomacy</a> DC*</tr></thead>| Wary (1) | 20 |
+| NPC Trust (Score) | [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) DC\*
+| Wary (1) | 20 |
 | Skeptical (2) | 15 |
 | Reliable (3) | 10 |
 | Trustworthy (4) | 15 |
 | Confidant (5) | 20 |
-<tfoot><tr><td colspan="2">*If the contact has a bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy">Diplomacy</a> checks made to negotiate with you from failing or abandoning a task, add that bonus to this DC.</td></tr></tfoot>
 
 At the GM's discretion, if you're away from the contact for a month or longer, that contact's Trust score with you might decrease as he forgets about you. If this happens, attempt a [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) check against the above DC. Success means the contact's Trust level remains the same, and failure means it decreases by 1 (minimum 1). At the GM's discretion, some contacts with special relationships to you, such as childhood friends or old mentors, might not lose Trust in this manner, or you could have to make these checks only once per year instead of once per month.
 

@@ -18,10 +18,10 @@ Any item with intelligence has an alignment. Note that intelligent weapons alrea
 
 Any character whose alignment does not correspond to that of the item (except as noted by the asterisks on the table below) gains one negative level if he so much as picks up the item. Although this negative level never results in actual level loss, it remains as long as the item is in hand and cannot be overcome in any way (including by restoration spells). this negative level is cumulative with any other penalties the item might place on inappropriate wielders. items with ego scores of 20 to 29 bestow two negative levels. items with ego scores of 30 or higher bestow three negative levels.
 
-<caption>Intelligent Item Alignment</caption><thead><tr>
-<th>d%</th>
-<th>Alignment of Item</th>
-</tr></thead>| 01–10 | Chaotic good |
+[Intelligent Item Alignment]
+| d% | Alignment of Item |
+| --- | --- |
+| 01–10 | Chaotic good |
 | 11–20 | Chaotic neutral\* |
 | 21–35 | Chaotic evil |
 | 36–45 | Neutral evil\* |
@@ -30,17 +30,15 @@ Any character whose alignment does not correspond to that of the item (except as
 | 71–80 | Lawful neutral\* |
 | 81–90 | Neutral good\* |
 | 91–100 | Neutral |
-<tfoot><tr><td colspan="2" style="white-space: normal;">* The item can also be used by any character whose alignment corresponds to the non-neutral portion of the item's alignment.</td></tr></tfoot>
 
 ## Intelligent Item Ability Scores
 
 Intelligent magic items possess all three mental ability scores: Intelligence, Wisdom, and Charisma. Each one of these ability scores begins at a value of 10, but can be increased to as high as 20. The table below shows the cost to increase one of the item's ability scores. This cost must be paid for each ability score raised above 10. For example, an intelligent magic item with a Intelligence 15, Wisdom 12, and Charisma 10 would cost at least 2,400 gp more than the base item (including the 500 gp for being an intelligent item).
 
-<caption>Intelligent Item Ability Scores</caption><thead><tr>
-<th>Score</th>
-<th>Base Price Modifier</th>
-<th>Ego Modifier</th>
-</tr></thead>| 10 | — | — |
+[Intelligent Item Ability Scores]
+| Score | Base Price Modifier | Ego Modifier |
+| --- | --- | --- |
+| 10 | — | — |
 | 11 | +200 gp | — |
 | 12 | +500 gp | +1 |
 | 13 | +700 gp | +1 |
@@ -72,11 +70,10 @@ Every intelligent magic item begins with the ability to see and hear within 30 f
 
 **Read Magic (Sp)** : An intelligent magic item with this ability can read magical writings and scrolls as if through _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic). _This ability does not allow the magic item to activate scrolls or other items. An intelligent magic item can suppress and resume this ability as a free action.
 
-<caption>Intelligent Item Senses and Communication</caption><thead><tr>
-<th>Ability</th>
-<th>Base Price Modifier</th>
-<th>Ego Modifier</th>
-</tr></thead>| Empathy | — | — |
+[Intelligent Item Senses and Communication]
+| Ability | Base Price Modifier | Ego Modifier |
+| --- | --- | --- |
+| Empathy | — | — |
 | Speech | +500 gp | — |
 | Telepathy | +1,000 gp | +1 |
 | Senses (30 ft.) | — | — |
@@ -91,12 +88,10 @@ Every intelligent magic item begins with the ability to see and hear within 30 f
 
 Each intelligent item should possess at least one power, although some might possess a host of powers. To find the item's specific powers, roll on or choose from the table below. All powers function at the direction of the item, though intelligent items generally follow the wishes of their owner. Activating a power or concentrating on an active one is a standard action for the item. The caster level for these effects is equal to the item's caster level. Save DCs are based on the item's highest mental ability score.
 
-<caption>Intelligent Item Powers</caption><thead><tr>
-<th>d%</th>
-<th>Item Power</th>
-<th>Base Price Modifer</th>
-<th>Ego Modifier</th>
-</tr></thead>| 01–10 | Item can cast a 0-level spell at will | +1,000 gp | +1 |
+[Intelligent Item Powers]
+| d% | Item Power | Base Price Modifer | Ego Modifier |
+| --- | --- | --- | --- |
+| 01–10 | Item can cast a 0-level spell at will | +1,000 gp | +1 |
 | 11–20 | Item can cast a 1st-level spell 3/day | +1,200 gp | +1 |
 | 21–25 | Item can use _ [magic aura](/pathfinderRPG/prd/spells/magicAura.html#_magic-aura) _on itself at will | +2,000 gp | +1 |
 | 26–35 | Item can cast a 2nd-level spell 1/day | +2,400 gp | +1 |
@@ -111,7 +106,6 @@ Each intelligent item should possess at least one power, although some might pos
 | 86–90 | Item can _ [teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport)_ itself 1/day | +15,000 gp | +2 |
 | 91–95 | Item can cast a 3rd-level spell 3/day | +18,000 gp | +2 |
 | 96–100 | Item can cast a 4th-level spell 3/day | +33,600 gp | +2 |
-<tfoot><tr><td colspan="4" style="white-space: normal;">* Intelligent items can only possess Intelligence-, Wisdom-, or Charisma-based skills, unless they also possess some form of ability to move.</td></tr></tfoot>
 
 ## Special Purpose Items
 
@@ -119,11 +113,10 @@ Some intelligent items have special purposes that guide their actions. Intellige
 
 The table below has a number of sample purposes that a magic item might possess. If the wielder specifically ignores or goes against an intelligent item's special purpose, the item gains a +4 bonus to its Ego until the wielder cooperates. This is in addition to the +2 Ego bonus gained by items with a special purpose.
 
-<caption>Intelligent Item Purpose</caption><thead><tr>
-<th>d%</th>
-<th>Purpose</th>
-<th>Ego Modifier</th>
-</tr></thead>| 01–20 | Defeat/slay diametrically opposed alignment\* | +2 |
+[Intelligent Item Purpose]
+| d% | Purpose | Ego Modifier |
+| --- | --- | --- |
+| 01–20 | Defeat/slay diametrically opposed alignment\* | +2 |
 | 21–30 | Defeat/slay arcane spellcasters (including spellcasting monsters and those that use spell-like abilities) | +2 |
 | 31–40 | Defeat/slay divine spellcasters (including divine entities and servitors) | +2 |
 | 41–50 | Defeat/slay nonspellcasters | +2 |
@@ -134,18 +127,15 @@ The table below has a number of sample purposes that a magic item might possess.
 | 81–90 | Defend the servants and interests of a specific deity | +2 |
 | 91–95 | Defeat/slay all (other than the item and the wielder) | +2 |
 | 96–100 | Choose one | +2 |
-<tfoot><tr><td colspan="3">* The purpose of the neutral (N) version of this item is to preserve the balance by defeating/slaying powerful beings of the extreme alignments (LG, LE, CG, CE).</td></tr></tfoot>
 
 ## Dedicated Powers
 
 A dedicated power operates only when an intelligent item is in pursuit of its special purpose. This determination is always made by the item. Unlike its other powers, an intelligent item can refuse to use its dedicated powers even if the owner is dominant (see Items Against Characters). The caster level for these effects is equal to the item's caster level. Save DCs are based on the item's highest mental ability score.
 
-<caption>Special Purpose Item Dedicated Powers</caption><thead><tr>
-<th>d%</th>
-<th>Dedicated Power</th>
-<th>Base Price Modifier</th>
-<th>Ego Modifier</th>
-</tr></thead>| 01–20 | Item can detect any special purpose foes within 60 feet | +10,000 gp | +1 |
+[Special Purpose Item Dedicated Powers]
+| d% | Dedicated Power | Base Price Modifier | Ego Modifier |
+| --- | --- | --- | --- |
+| 01–20 | Item can detect any special purpose foes within 60 feet | +10,000 gp | +1 |
 | 21–35 | Item can use a 4th-level spell at will | +56,000 gp | +2 |
 | 36–50 | Wielder gets +2 luck bonus on attacks, saves, and checks | +80,000 gp | +2 |
 | 51–65 | Item can use a 5th-level spell at will | +90,000 gp | +2 |
@@ -157,10 +147,10 @@ A dedicated power operates only when an intelligent item is in pursuit of its sp
 
 Ego is a measure of the total power and force of personality that an item possesses. An item's Ego score is the sum of all of its Ego modifiers plus an additional bonus for the cost of the base magic item (excluding the cost of all of the intelligent item enhancements). An item's Ego score helps determine whether the item or the character is dominant in their relationship, as detailed below.
 
-<caption>Ego Modifier by Base Value</caption><thead><tr>
-<th>Base Magic Item Value</th>
-<th>Ego Modifier</th>
-</tr></thead>| Up to 1,000 gp | — |
+[Ego Modifier by Base Value]
+| Base Magic Item Value | Ego Modifier |
+| --- | --- |
+| Up to 1,000 gp | — |
 | 1,001 gp to 5,000 gp | +1 |
 | 5,001 gp to 10,000 gp | +2 |
 | 10,001 gp to 20,000 gp | +3 |
@@ -197,12 +187,11 @@ All magic items with personalities desire to play an important role in whatever 
 
 Items with personalities are never totally controlled or silenced by the characters that possess them, even though they might never successfully control their possessors. They might be powerless to force their demands, but most remain undaunted and continue to air their wishes and preferences.
 
-<caption>Intelligent Item Personality Quirks</caption>
+[Intelligent Item Personality Quirks]
 
-Many intelligent items have personalities as quirky and robust as any other NPC. Roll on the following table to determine one or more personality quirks for intelligent items. <thead><tr>
-<th>d%</th>
-<th>Personality Trait</th>
-</tr></thead>
+Many intelligent items have personalities as quirky and robust as any other NPC. Roll on the following table to determine one or more personality quirks for intelligent items. 
+| d% | Personality Trait |
+| --- | --- |
 
 | 01 | Always agrees with people, but changes its mind quickly |
 | 02 | Is very noisy about treasure |

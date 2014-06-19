@@ -10,10 +10,9 @@ You make a Use Magic Device check each time you activate a device such as a wand
 
 You must consciously choose which requirement to emulate. That is, you must know what you are trying to emulate when you make a Use Magic Device check for that purpose. The DCs for various tasks involving Use Magic Device checks are summarized on the table below.
 
-<thead><tr>
-<th>Task</th>
-<th>Use Magic Device DC</th>
-</tr></thead><tbody>
+| Task | Use Magic Device DC |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Activate blindly</td>
 <td>25</td>

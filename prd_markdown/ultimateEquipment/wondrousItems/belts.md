@@ -4,33 +4,30 @@ The belt category includes belts, scabbards and other items worn on or around th
 
 Anyone can use a belt slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.
 
-<caption>Belt Slot Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Belt Item</th>
-<th>Price</th>
-</tr></thead>| 01–16 | _Belt of tumbling_ | 800 gp |
+[Belt Slot Wondrous Items]
+| d% | Lesser Minor Belt Item | Price |
+| --- | --- | --- |
+| 01–16 | _Belt of tumbling_ | 800 gp |
 | 17–28 | _Beneficial bandolier_ | 1,000 gp |
 | 29–40 | _Meridian belt_ | 1,000 gp |
 | 41–54 | _Bladed belt_ | 2,000 gp |
 | 55–70 | _Heavyload belt_ | 2,000 gp |
 | 71–84 | _Aquatic cummerbund_ | 2,600 gp |
 | 85–100 | _Equestrian belt_ | 3,200 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Belt Item</th>
-<th>Price</th>
-</tr></thead>| 01–18 | _Belt of giant strength +2_ | 4,000 gp |
+
+| d% | Greater Minor Belt Item | Price |
+| --- | --- | --- |
+| 01–18 | _Belt of giant strength +2_ | 4,000 gp |
 | 19–36 | _Belt of incredible dexterity +2 _ | 4,000 gp |
 | 37–54 | _Belt of mighty constitution +2_ | 4,000 gp |
 | 55–62 | _Belt of teeth _ | 4,000 gp |
 | 63–74 | _Blinkback belt_ | 5,000 gp |
 | 75–84 | _Plague rat belt_ | 5,200 gp |
 | 85–100 | _Belt of foraging_ | 6,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Belt Item</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _Serpent belt_ | 9,000 gp |
+
+| d% | Lesser Medium Belt Item | Price |
+| --- | --- | --- |
+| 01–04 | _Serpent belt_ | 9,000 gp |
 | 05–08 | _Monkey belt_ | 9,400 gp |
 | 09–16 | _Belt of physical might +2_ | 10,000 gp |
 | 17–22 | _Belt of the weasel_ | 10,000 gp |
@@ -46,32 +43,29 @@ Anyone can use a belt slot wondrous item unless specified otherwise by its descr
 | 72–80 | _Belt of physical perfection +2_ | 16,000 gp |
 | 81–90 | _Belt of incredible dexterity +4_ | 16,000 gp |
 | 91–100 | _Belt of mighty constitution +4_ | 16,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Belt Item</th>
-<th>Price</th>
-</tr></thead>| >01–12 | _Monkey belt, greater_ | 18,000 gp |
+
+| d% | Greater Medium Belt Item | Price |
+| --- | --- | --- |
+| >01–12 | _Monkey belt, greater_ | 18,000 gp |
 | 13–26 | _Anaconda's coils_ | 18,500 gp |
 | 27–38 | _Serpent belt, greater_ | 20,000 gp |
 | 39–53 | _Belt of fallen heroes_ | 21,000 gp |
 | 54–67 | _Gorgon belt_ | 23,000 gp |
 | 68–84 | _Elemental earth belt_ | 24,000 gp |
 | 85–100 | _Sash of flowing water_ | 25,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Belt Item</th>
-<th>Price</th>
-</tr></thead>| 01–12 | _Merform belt_ | 32,000 gp |
+
+| d% | Lesser Major Belt Item | Price |
+| --- | --- | --- |
+| 01–12 | _Merform belt_ | 32,000 gp |
 | 13–30 | _Belt of giant strength +6_ | 36,000 gp |
 | 31–48 | _Belt of incredible dexterity +6_ | 36,000 gp |
 | 49–66 | _Belt of mighty constitution +6_ | 36,000 gp |
 | 67–88 | _Belt of physical might +4_ | 40,000 gp |
 | 89–100 | _Belt of mighty hurling, greater_ | 42,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Belt Item</th>
-<th>Price</th>
-</tr></thead>| 01–25 | _Belt of stoneskin_ | 60,000 gp |
+
+| d% | Greater Major Belt Item | Price |
+| --- | --- | --- |
+| 01–25 | _Belt of stoneskin_ | 60,000 gp |
 | 26–55 | _Belt of physical perfection +4_ | 64,000 gp |
 | 56–75 | _Belt of physical might +6_ | 90,000 gp |
 | 76–90 | _Shadowform belt_ | 110,000 gp |

@@ -8,7 +8,7 @@ XP 400
 
 NE Medium undead ( [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
 
-**Init** +7<sup>M</sup>; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +0
+**Init** +7M; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +0
 
 Defense
 
@@ -34,7 +34,7 @@ Statistics
 
 **Base Atk** +1; **CMB** +3; **CMD** 15
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)<sup>B, M</sup>
+**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)B, M
 
 Ecology
 

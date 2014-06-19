@@ -35,11 +35,10 @@ The following format is used for all feat descriptions.
 
 **Special:** Additional unusual facts about the feat.
 
-<caption>Table: Feats</caption><thead><tr>
-<th>Feat</th>
-<th>Prerequisites</th>
-<th>Benefits</th>
-</tr></thead>| Abundant Revelations | Mystery class feature | Use a single revelation more times each day |
+[Table: Feats]
+| Feat | Prerequisites | Benefits |
+| --- | --- | --- |
+| Abundant Revelations | Mystery class feature | Use a single revelation more times each day |
 | Accursed Critical | [Critical Focus](/pathfinderRPG/prd/feats.html#_critical-focus), ability to cast _ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ or _ [major curse](/pathfinderRPG/prd/ultimateMagic/spells/curse.html#_curse,-major)_, caster level 9th | Confirm a critical hit and cast a curse as part of the attack |
 | Accursed Hex | Hex class feature | Target a creature with a hex a second time that day if it made its save the first time |
 | Advanced Ranger Trap | Trap class feature, ranger level 5th | Add +1 to the [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) and [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) check DCs for your ranger traps |
@@ -153,7 +152,6 @@ The following format is used for all feat descriptions.
 | Teamwork Feats | Prerequisites | Benefits |
 | --- | --- | --- |
 | Ensemble | [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) 5 ranks | Nearby performers can aid your perform checks |
-<tfoot><tr><td colspan="3">* This is a combat feat and can be selected as a fighter bonus feat</td></tr></tfoot>
 
 ## Abundant Revelations
 

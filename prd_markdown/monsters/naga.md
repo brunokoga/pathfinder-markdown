@@ -44,7 +44,7 @@ LE Large [aberration](creatureTypes.html#_aberration)
 
 **Base Atk** +7; **CMB** +10; **CMD** 26 (can't be tripped)
 
-**Feats** [Alertness](../feats.html#_alertness), [Combat Casting](../feats.html#_combat-casting), [Dodge](../feats.html#_dodge), [Eschew Materials](../feats.html#_eschew-materials)<sup>B</sup>, [Lightning Reflexes](../feats.html#_lightning-reflexes), [Stealthy](../feats.html#_stealthy)
+**Feats** [Alertness](../feats.html#_alertness), [Combat Casting](../feats.html#_combat-casting), [Dodge](../feats.html#_dodge), [Eschew Materials](../feats.html#_eschew-materials)B, [Lightning Reflexes](../feats.html#_lightning-reflexes), [Stealthy](../feats.html#_stealthy)
 
 **Skills** [Bluff](../skills/bluff.html#_bluff) +13, [Diplomacy](../skills/diplomacy.html#_diplomacy) +9, [Disguise](../skills/disguise.html#_disguise) +9, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +13, [Intimidate](../skills/intimidate.html#_intimidate) +12, [Knowledge](../skills/knowledge.html#_knowledge) (arcana) +13, [Perception](../skills/perception.html#_perception) +19, [Sense Motive](../skills/senseMotive.html#_sense-motive) +10, [Spellcraft](../skills/spellcraft.html#_spellcraft) +12, [Stealth](../skills/stealth.html#_stealth) +18
 
@@ -122,7 +122,7 @@ LG Large [aberration](creatureTypes.html#_aberration)
 
 **Base Atk** +9; **CMB** +15; **CMD** 31 (can't be tripped)
 
-**Feats** [Alertness](../feats.html#_alertness), [Blind-Fight](../feats.html#_blind-fight), [Combat Casting](../feats.html#_combat-casting), [Combat Expertise](../feats.html#_combat-expertise), [Eschew Materials](../feats.html#_eschew-materials)<sup>B</sup>, [Improved Trip](../feats.html#_improved-trip), [Lightning Reflexes](../feats.html#_lightning-reflexes)
+**Feats** [Alertness](../feats.html#_alertness), [Blind-Fight](../feats.html#_blind-fight), [Combat Casting](../feats.html#_combat-casting), [Combat Expertise](../feats.html#_combat-expertise), [Eschew Materials](../feats.html#_eschew-materials)B, [Improved Trip](../feats.html#_improved-trip), [Lightning Reflexes](../feats.html#_lightning-reflexes)
 
 **Skills** [Bluff](../skills/bluff.html#_bluff) +16, [Diplomacy](../skills/diplomacy.html#_diplomacy) +16, [Knowledge](../skills/knowledge.html#_knowledge) (arcana) +18, [Perception](../skills/perception.html#_perception) +23, [Sense Motive](../skills/senseMotive.html#_sense-motive) +20, [Spellcraft](../skills/spellcraft.html#_spellcraft) +18, [Stealth](../skills/stealth.html#_stealth) +17
 
@@ -194,7 +194,7 @@ CE Large [aberration](creatureTypes.html#_aberration)
 
 **Base Atk** +7; **CMB** +12; **CMD** 27 (can't be tripped)
 
-**Feats** [Ability Focus](monsterFeats.html#_ability-focus) (charming gaze), [Combat Casting](../feats.html#_combat-casting), [Eschew Materials](../feats.html#_eschew-materials)<sup>B</sup>, [Lightning Reflexes](../feats.html#_lightning-reflexes), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception)), [Stealthy](../feats.html#_stealthy)
+**Feats** [Ability Focus](monsterFeats.html#_ability-focus) (charming gaze), [Combat Casting](../feats.html#_combat-casting), [Eschew Materials](../feats.html#_eschew-materials)B, [Lightning Reflexes](../feats.html#_lightning-reflexes), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception)), [Stealthy](../feats.html#_stealthy)
 
 **Skills** [Bluff](../skills/bluff.html#_bluff) +13, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +13, [Intimidate](../skills/intimidate.html#_intimidate) +9, [Knowledge](../skills/knowledge.html#_knowledge) (arcana) +14, [Perception](../skills/perception.html#_perception) +22, [Spellcraft](../skills/spellcraft.html#_spellcraft) +11, [Stealth](../skills/stealth.html#_stealth) +15, [Swim](../skills/swim.html#_swim) +12
 

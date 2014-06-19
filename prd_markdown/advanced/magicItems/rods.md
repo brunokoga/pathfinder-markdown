@@ -1,11 +1,9 @@
 # Rods
 
-<caption>Table: Rods</caption><thead><tr>
-<th>Medium</th>
-<th>Major</th>
-<th>Rod</th>
-<th>Market Price</th>
-</tr></thead><tbody>
+[Table: Rods]
+| Medium | Major | Rod | Market Price |
+| --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–03</td>
 <td>—</td>

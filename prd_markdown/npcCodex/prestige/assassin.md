@@ -40,7 +40,7 @@ Offense
 
 **Cleric Spells Prepared** (CL 1st; concentration +2)
 
-1st—_ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _disguise sel f_<sup>D</sup>, _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_
+1st—_ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _disguise sel f_D, _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_
 
 0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 11), _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_
 
@@ -182,9 +182,9 @@ Offense
 
 **Druid Spells Prepared** (CL 4th; concentration +6)
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_<sup>D</sup>, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (DC 14), _ [spider climb](/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb)_, _ [tree shape](/pathfinderRPG/prd/spells/treeShape.html#_tree-shape)_
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_D, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (DC 14), _ [spider climb](/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb)_, _ [tree shape](/pathfinderRPG/prd/spells/treeShape.html#_tree-shape)_
 
-1st—_ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_<sup>D</sup> (DC 13), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _ [longstrider](/pathfinderRPG/prd/spells/longstrider.html#_longstrider)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_
+1st—_ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_D (DC 13), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _ [longstrider](/pathfinderRPG/prd/spells/longstrider.html#_longstrider)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_
 
 0 (at will)—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [know direction](/pathfinderRPG/prd/spells/knowDirection.html#_know-direction)_
 

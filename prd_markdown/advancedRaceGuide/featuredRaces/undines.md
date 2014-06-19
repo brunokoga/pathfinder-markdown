@@ -132,12 +132,10 @@ Undines have access to the following equipment.
 
 **Undine Weaponshaft** : Undines incorporate a unique design when crafting shafted weapons such as quarterstaves, spears, and tridents. Instead of a solid shaft, the weapon is built around a pipe of wood or metal, with the butt end sealed and the front end left open. As a full-round action, an undine can make a single melee attack with the weapon and use her _ [hydraulic push](/pathfinderRPG/prd/advanced/spells/hydraulicPush.html#_hydraulic-push-)_ spell-like ability against the target of that melee attack. The weapon otherwise functions like a standard weapon of its type, and can be made of special materials (such as mithral or adamantine) and masterwork quality.
 
-<caption>Undine Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Chain belt | 15 gp | 1/4 lb. | — |
+[Undine Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Chain belt | 15 gp | 1/4 lb. | — |
 | Potion sponge | 2 gp | — | 15 |
 | Undine weaponshaft | +300 gp | — | — |
 

@@ -272,37 +272,23 @@ Of course, individual encounters can vary from these numbers as normal (such as 
 
 For example, when designing challenges for a group of four 12th-level, 6th-tier mythic PCs, approximately one-third of the encounters they face should be CR 12, one-third should be CR 15, and the remaining encounters should be CR 13 or 14. That means some of their encounters are rather easy (allowing them to dominate foes using their mythic power), some are of average difficulty, and some truly push them to their limits. The challenging encounters should be against other mythic foes, forcing the PCs to confront enemies with similar power.
 
-<caption>High CR Experience Point Awards</caption><thead>
-<tr>
-<th></th>
-<th></th>
-<th colspan="3">Individual XP</th>
-</tr>
-<tr>
-<th>CR</th>
-<th>Total XP</th>
-<th>1-3</th>
-<th>4-5</th>
-<th>6+</th>
-</tr>
-</thead>| 26 | 2,457,600 | 820,000 | 614,400 | 409,600 |
+[High CR Experience Point Awards]
+| | | Individual XP |
+| --- | --- | --- |
+| CR | Total XP | 1-3 | 4-5 | 6+ |
+| --- | --- | --- | --- | --- |
+| 26 | 2,457,600 | 820,000 | 614,400 | 409,600 |
 | 27 | 3,276,800 | 1,092,000 | 819,200 | 546,000 |
 | 28 | 4,915,200 | 1,640,000 | 1,228,800 | 819,200 |
 | 29 | 6,553,600 | 2,184,000 | 1,638,400 | 1,092,000 |
 | 30 | 9,830,400 | 3,280,000 | 2,457,600 | 1,638,400 |
 
-<caption>High CR Treasure per Encounter</caption><thead>
-<tr>
-<th></th>
-<th colspan="3">Treasure per Encounter</th>
-</tr>
-<tr>
-<th>CR</th>
-<th>Slow</th>
-<th>Medium</th>
-<th>Fast</th>
-</tr>
-</thead>| 21 | 55,000 gp | 84,000 gp | 125,000 gp |
+[High CR Treasure per Encounter]
+| | Treasure per Encounter |
+| --- | --- |
+| CR | Slow | Medium | Fast |
+| --- | --- | --- | --- |
+| 21 | 55,000 gp | 84,000 gp | 125,000 gp |
 | 22 | 69,000 gp | 104,000 gp | 155,000 gp |
 | 23 | 85,000 gp | 127,000 gp | 190,000 gp |
 | 24 | 102,000 gp | 155,000 gp | 230,000 gp |

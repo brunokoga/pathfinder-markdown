@@ -16,10 +16,9 @@
 
 Each round, you can target a single living creature, striking it with waves of power. Depending on the target's HD, this attack has as many as three effects.
 
-<thead><tr>
-<th>HD</th>
-<th>Effect</th>
-</tr></thead><tbody>
+| HD | Effect |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>10 or more</td>
 <td><a href="../glossary.html#_sickened">Sickened</a></td>

@@ -34,7 +34,7 @@ Statistics
 
 **Base Atk** +5; **CMB** +8; **CMD** 20
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)<sup>M</sup>, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Fly](/pathfinderRPG/prd/skills/fly.html#_fly))
+**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Fly](/pathfinderRPG/prd/skills/fly.html#_fly))
 
 **Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +12, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +11 (+17 +6 in stony environs); **Racial Modifiers** +2 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) (+8 +6 in stony environs)
 

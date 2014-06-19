@@ -104,58 +104,28 @@ The following weapons are also available in Stone Age campaigns.
 
 **Wahaika** : This short and broad club is made of hardened wood or bone. It has a notch on one side that is used for catching weapons. If you are proficient, you use the notch in the wahaika to disarm your foes. Otherwise, treat this weapon as a club. Feats and abilities that affect clubs apply to the wahaika.
 
-<caption>Table: Stone Age Weapons</caption><thead><tr>
-<th>Simple Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight<sup>1</sup>
-</th>
-<th>Type<sup>2</sup>
-</th>
-<th>Special</th>
-</tr></thead>| _One-Handed Melee Weapons_ |
+[Table: Stone Age Weapons]
+| Simple Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weightⁱ | Type⁲ | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _One-Handed Melee Weapons_ |
 |   Mere club | 2 gp | 1d3 | 1d4 | ×2 | — | 2 lbs. | B or P | fragile |
-<thead><tr>
-<th>Martial Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight<sup>1</sup>
-</th>
-<th>Type<sup>2</sup>
-</th>
-<th>Special</th>
-</tr></thead>| _One-Handed Melee Weapons_ |
+
+| Martial Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weightⁱ | Type⁲ | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _One-Handed Melee Weapons_ |
 |   Terbutje | 5 gp | 1d6 | 1d8 | 19–20/×2 | — | 2 lbs. | S | fragile |
 | _Two-Handed Melee Weapons_ |
 |   Tepoztopilli | 8 gp | 1d8 | 1d10 | 19–20/×2 | — | 8 lbs. | P or S | fragile, reach |
 | _Ranged Weapons_ |
 |   Atlatl | 2 gp | 1d4 | 1d6 | ×2 | 50 ft. | 2 lbs. | P | — |
 |   Atlatl dart | 1 gp | — | — | — | — | 2 lbs. | — | — |
-<thead><tr>
-<th>Exotic Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight<sup>1</sup>
-</th>
-<th>Type<sup>2</sup>
-</th>
-<th>Special</th>
-</tr></thead>| _One-Handed Melee Weapons_ |
+
+| Exotic Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weightⁱ | Type⁲ | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _One-Handed Melee Weapons_ |
 |   Taiaha | 10 gp | 1d8/1d4 | 1d10/1d6 | ×2/×3 | — | 8 lbs. | B or P | double |
 |   Terbutje, great | 12 gp | 1d8 | 1d10 | 19–20/×2 | — | 4 lbs. | S | fragile |
 |   Wahaika | 3 gp | 1d4 | 1d6 | ×2 | 10 ft. | 3 lbs. | B | disarm |
-<tfoot><tr><td colspan="9">
-<sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br>
-<sup>2</sup> A weapon with two types is either type (wielder's choice) if the entry specifies âor.â</td></tr></tfoot>
 
 # The Bronze Age
 
@@ -179,41 +149,20 @@ A harpoon's weight includes the weight of 50 feet of hemp rope. It can be reduce
 
 **Rhomphaia** : This weapon is an early polearm consisting of a long, single-edged blade attached to a sturdy staff, sometimes slightly curved. It serves as both a cutting and a thrusting weapon.
 
-<caption>Table: Bronze Age Weapons</caption><thead><tr>
-<th>Martial Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight<sup>1</sup>
-</th>
-<th>Type<sup>2</sup>
-</th>
-<th>Special</th>
-</tr></thead>| _Two-Handed Melee Weapons_ |
+[Table: Bronze Age Weapons]
+| Martial Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weightⁱ | Type⁲ | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _Two-Handed Melee Weapons_ |
 |   Mattock | 12 gp | 1d6 | 2d4 | ×4 | — | 12 lbs. | P | fragile |
 |   Rhomphaia | 15 gp | 1d6 | 2d4 | ×3 | — | 10 lbs. | P or S | brace, fragile,reach |
-<thead><tr>
-<th>Exotic Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight<sup>1</sup>
-</th>
-<th>Type<sup>2</sup>
-</th>
-<th>Special</th>
-</tr></thead>| _Two-Handed Melee Weapons_ |
+
+| Exotic Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weightⁱ | Type⁲ | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _Two-Handed Melee Weapons_ |
 |   Harpoon | 5 gp | 1d6 | 1d8 | ×3 | 10 ft. | 16 lbs. | P | fragile, grappling (see description) |
 | _Ranged Weapons_ |
 |   Kestros | 1 gp | 1d6 | 1d8 | ×3 | 50 ft. | 1 lb. | P | — |
 |   Kestros dart (10) | 5 gp | — | — | — | — | 5 lbs. | — | — |
-<tfoot><tr><td colspan="9">
-<sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br>
-<sup>2</sup> A weapon with two types is either type (wielder's choice) if the entry specifies âor.â</td></tr></tfoot>
 
 ## Broken Condition and Sundering
 

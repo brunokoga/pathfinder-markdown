@@ -142,27 +142,18 @@ Ratfolk have access to the following equipment.
 
 **Tailblade** : A tailblade is a small, sharp knife designed to be strapped to the tip of a wielder's tail. It takes a full-round action to strap on or remove a tailblade. The wearer can loosely attach the tailblade (without strapping it securely in place) as a move action, but using a loosely attached tailblade gives the wielder a –4 penalty on all attack rolls made with the weapon, and other creatures get a +4 bonus on disarm combat maneuver checks to disarm the tailblade. A ratfolk wielding a tailblade can make a tail attack, adding its Strength modifier to the tailblade's damage. Ratfolk are considered proficient with such attacks and can apply feats or effects appropriate to natural attacks to tail attacks made with a tailblade. If used as part of a full attack action, attacks with a tailblade are considered secondary attacks.
 
-<caption>Ratfolk Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Blight tonic | 150 gp | 1 lb. | 20 |
+[Ratfolk Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Blight tonic | 150 gp | 1 lb. | 20 |
 | Pox burster | 50 gp | 1 lb. | 20 |
 | Stink ink | 5 gp | 1 lb. | 15 |
 | Stink ink, arcane | special | 1 lb. | — |
 
-<caption>Ratfolk Weapons</caption><thead><tr>
-<th>Martial Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight</th>
-<th>Type</th>
-<th>Special</th>
-</tr></thead>| _Light Melee Weapons_ |
+[Ratfolk Weapons]
+| Martial Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weight | Type | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _Light Melee Weapons_ |
 | Tailblade | 11 gp | 1d2 | 1d3 | 20/×2 | — | 1/2 lb. | S | — |
 
 ## Ratfolk Feats

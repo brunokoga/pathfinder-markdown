@@ -60,10 +60,10 @@ Many use-activated items are objects that a character wears. Continually functio
 
 A number of spells and magic items utilize extradimensional spaces, such as _rope trick_, _bags of holding_, _handy haversacks_, and _portable holes_. These spells and magic items create a tiny pocket space that does not exist in any dimension. Such items do not function, however, inside another extradimensional space. If placed inside such a space, they cease to function until removed from the extradimensional space. For example, if a _bag of holding_ is brought into a _rope trick_, the contents of the _bag of holding_ become inaccessible until the _bag of holding_ is taken outside the _rope trick_. the only exception to this is when a _bag of holding_ and a _portable hole_ interact, forming a rift to the astral plane, as noted in their descriptions.
 
-<caption>Wondrous Item Types</caption><thead><tr>
-<th>d%</th>
-<th>Wondrous Item Type</th>
-</tr></thead>| 01–06 | Belts |
+[Wondrous Item Types]
+| d% | Wondrous Item Type |
+| --- | --- |
+| 01–06 | Belts |
 | 07–12 | Body |
 | 13–17 | Chest |
 | 18–22 | Eyes |

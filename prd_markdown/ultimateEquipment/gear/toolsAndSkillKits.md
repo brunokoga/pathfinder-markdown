@@ -2,11 +2,10 @@
 
 These items are particularly useful to characters with certain skills and class abilities.
 
-<caption>Tools and Skill Kits</caption><thead><tr>
-<th>Item</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Abacus | 2 gp | 2 lbs. |
+[Tools and Skill Kits]
+| Item | Price | Weight |
+| --- | --- | --- |
+| Abacus | 2 gp | 2 lbs. |
 | Alchemist's lab | 200 gp | 40 lbs. |
 | Alchemy crafting kit | 25 gp | 50 lbs. |
 | Antidote kit | 100 gp | 3 lbs. |
@@ -48,7 +47,6 @@ These items are particularly useful to characters with certain skills and class 
 | Traveling formula book | 10 gp | 1 lb. |
 | Traveling spellbook | 10 gp | 1 lb. |
 | Veterinarian's kit | 10 gp | 20 lbs. |
-<tfoot><tr><td colspan="3">* These items weigh one-quarter this amount when made for Small characters.</td></tr></tfoot>
 
 Abacus
 
@@ -82,11 +80,7 @@ While anvil sizes vary depending on the type of smithing for which they are used
 
 Artisan's Tools
 
-<thead>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</thead>| Common | 5 gp | 5 lbs. |
+ Type | Price | Weight || Common | 5 gp | 5 lbs. |
 | Masterwork | 55 gp | 5 lbs. |
 
 These special tools include the items needed to pursue any single craft. Without them, you have to use improvised tools (–2 penalty on [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) checks), if you can do the job at all.
@@ -153,11 +147,7 @@ A formula book has 100 pages of parchment, and each alchemical extract formula t
 
 Fortune-Teller's Deck
 
-<thead>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</thead>| Common | 1 gp | 1/2 lb. |
+ Type | Price | Weight || Common | 1 gp | 1/2 lb. |
 | Quality | 25 gp | 1 lb. |
 | Masterwork | 50 gp | 1 lb. |
 
@@ -213,11 +203,7 @@ This kit is used by midwives to care for pregnant women and to deliver babies. E
 
 Musical Instrument
 
-<thead>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</thead>| Common | 5 gp | 3 lbs. |
+ Type | Price | Weight || Common | 5 gp | 3 lbs. |
 | Masterwork | 100 gp | 3 lbs. |
 
 If you want to perform using a [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; larger instruments such as a cello or piano are of course larger and more expensive.
@@ -226,11 +212,7 @@ _Masterwork Musical Instrument_: This high-quality instrument grants a +2 circum
 
 Parasol
 
-<thead>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</thead>| Parasol | 1 gp | 2 lbs. |
+ Type | Price | Weight || Parasol | 1 gp | 2 lbs. |
 | Umbrella | 2 gp | 3 lbs. |
 
 This folding umbrella is translucent and not waterproof. It cuts down on the heat from direct sunlight. In very hot conditions where the sun is a factor (such as a desert), it gives you a +1 circumstance bonus on your hourly Fortitude saves against heat, and reduces the damage from a failed save by 1 hit point (minimum 1). It provides insufficient protection in conditions of severe or extreme heat. You must hold a parasol in one hand and use it to shade yourself from the sun. Alternatively, you can hold the parasol and use it to shade another creature of your size or smaller. The listed price is for a simple, functional parasol made of fabric or lacquered paper. A parasol used as a fashion accessory can be far more expensive, depending on the materials used, and can cost from 1 gp to 10 gp.
@@ -287,11 +269,7 @@ This small wooden box has many tiny compartments filled with items useful if you
 
 Thieves' Tools
 
-<thead>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</thead>| Common | 30 gp | 1 lb. |
+ Type | Price | Weight || Common | 30 gp | 1 lb. |
 | Masterwork | 100 gp | 2 lbs. |
 
 This kit contains lockpicks and other tools you need to use the [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) skill. Without these tools, you must use improvised tools, and you take a –2 circumstance penalty on [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) checks.

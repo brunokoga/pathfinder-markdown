@@ -2,11 +2,10 @@
 
 These prices are for meals and beverages in an average city or town. Unless otherwise specified, the amount received for the listed price is presumed to be a standard meal serving for a single person.
 
-<caption>Food and Drink</caption><thead><tr>
-<th>Item</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Absinthe (glass) | 3 gp | — |
+[Food and Drink]
+| Item | Price | Weight |
+| --- | --- | --- |
+| Absinthe (glass) | 3 gp | — |
 | Absinthe (bottle) | 30 gp | 1-1/2 lbs. |
 | Ale (mug) | 4 cp | 1 lb. |
 | Ale (gallon) | 2 sp | 8 lbs. |
@@ -61,7 +60,6 @@ These prices are for meals and beverages in an average city or town. Unless othe
 | Wine, common (pitcher) | 2 sp | 6 lbs. |
 | Wine, fine (bottle) | 10 gp | 1-1/2 lbs. |
 | Yogurt | 1 sp | 1/2 lb. |
-<tfoot><tr><td colspan="3">* These items weigh one-quarter this amount when made for Small characters.</td></tr></tfoot>
 
 Absinthe
 

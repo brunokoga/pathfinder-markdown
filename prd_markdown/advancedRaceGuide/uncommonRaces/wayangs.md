@@ -66,11 +66,10 @@ Wayangs have access to the following equipment.
 
 **Shadow Stencils** : This set of 10 elaborate metal stencils are used in shadow puppetry to cast shadows of highly stylized figures and objects. If used to aid in the creation of any type of shadow spell or effect (including shadow puppet bardic performances), a wayang adds a +1 competence bonus to her saving throw DC. Using a shadow stencil requires one hand.
 
-<caption>Wayang Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr></thead>| Shadow stencil set | 30 gp | 2 lbs. |
+[Wayang Equipment]
+| Item | Cost | Weight |
+| --- | --- | --- |
+| Shadow stencil set | 30 gp | 2 lbs. |
 
 ## Wayang Feats
 

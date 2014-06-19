@@ -26,14 +26,10 @@ The duelist's class skills (and the key ability for each skill) are [Acrobatics]
 
 **Skill Ranks at Each Level** : 4 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Duelist</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-</tr></thead>| 1st | +1 | +0 | +1 | +0 | Canny defense, precise strike |td>
+[Table: Duelist]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +1 | +0 | +1 | +0 | Canny defense, precise strike |td>
 | 2nd | +2 | +1 | +1 | +1 | Improved reaction +2, parry |
 | 3rd | +3 | +1 | +2 | +1 | Enhanced mobility |
 | 4th | +4 | +1 | +2 | +1 | Combat Reflexes, grace |

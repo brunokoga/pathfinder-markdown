@@ -1,12 +1,9 @@
 # Rings
 
-<caption>Table: Rings</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Ring</th>
-<th>Market Price</th>
-</tr></thead><tbody>
+[Table: Rings]
+| Minor | Medium | Major | Ring | Market Price |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–10</td>
 <td>—</td>

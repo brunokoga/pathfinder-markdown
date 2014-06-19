@@ -238,12 +238,10 @@ Half-orcs have access to the following equipment.
 
 **Half-Orc Disguise Kit** : This specifically designed kit was put together by half-orcs to help them appear more human. It includes skin cream to disguise green-gray skin color and other items designed to conceal or draw attention away from typical half-orc physical characteristics. Using this kit on a half-orc grants a +3 bonus on [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) checks to appear human. Used on an orc, it only grants a +1 bonus on these checks.
 
-<caption>Half-Orc Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Black fester (vial) | 30 gp | — | 25 |
+[Half-Orc Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Black fester (vial) | 30 gp | — | 25 |
 | Half-orc disguise kit | 75 gp | 1 lb. | — |
 
 ## Half-Orc Feats

@@ -14,29 +14,12 @@ The wizard's class skills are [Appraise](../skills/appraise.html#_appraise) ( [I
 
 **Skill Ranks per Level** : 2 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Wizard</caption><thead>
-<tr>
-<th rowspan="2">Level</th>
-<th rowspan="2">Base Attack Bonus</th>
-<th rowspan="2">Fort Save</th>
-<th rowspan="2">Ref Save</th>
-<th rowspan="2">Will Save</th>
-<th rowspan="2">Special</th>
-<th colspan="10">Spells per Day</th>
-</tr>
-<tr>
-<th>0</th>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-<th>7th</th>
-<th>8th</th>
-<th>9th</th>
-</tr>
-</thead>| 1st | +0 | +0 | +0 | +2 | Arcane bond, arcane school,cantrips, Scribe Scroll | 3 | 1 | — | — | — | — | — | — | — | — |
+[Table: Wizard]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0 | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +0 | +2 | Arcane bond, arcane school,cantrips, Scribe Scroll | 3 | 1 | — | — | — | — | — | — | — | — |
 | 2nd | +1 | +0 | +0 | +3 | | 4 | 2 | — | — | — | — | — | — | — | — |
 | 3rd | +1 | +1 | +1 | +3 | | 4 | 2 | 1 | — | — | — | — | — | — | — |
 | 4th | +2 | +1 | +1 | +4 | | 4 | 3 | 2 | — | — | — | — | — | — | — |
@@ -201,10 +184,9 @@ Levels of different classes that are entitled to familiars stack for the purpose
 
 If a familiar is dismissed, lost or dies, it can be replaced 1 week later through a specialized ritual that costs 200 gp per wizard level. The ritual takes 8 hours to complete.
 
-<thead><tr>
-<th>Familiar</th>
-<th>Special Ability</th>
-</tr></thead><tbody>
+| Familiar | Special Ability |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Bat</td>
 <td>Master gains a +3 bonus on <a href="../skills/fly.html#_fly">Fly</a> checks</td>
@@ -251,9 +233,7 @@ If a familiar is dismissed, lost or dies, it can be replaced 1 week later throug
 <td>Master gains a +2 bonus on <a href="../combat.html#_reflex">Reflex saves</a>
 </td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="2">*A raven familiar can speak one language of its master's choice as a supernatural ability.</td></tr>
-</tfoot>
+</tbody>
 
 **Familiar Basics** : Use the basic statistics for a creature of the familiar's kind, but with the following changes.
 
@@ -271,12 +251,9 @@ _Skills_: For each skill in which either the master or the familiar has ranks, u
 
 **Familiar Ability Descriptions** : All familiars have special abilities (or impart abilities to their masters) depending on the master's combined level in classes that grant familiars, as shown on the table below. The abilities are cumulative.
 
-<thead><tr>
-<th>Master Class Level</th>
-<th>Natural Armor Adj.</th>
-<th>Int</th>
-<th>Special</th>
-</tr></thead>| 1st–2nd | +1 | 6 | Alertness, improved evasion, share spells, empathic link |
+| Master Class Level | Natural Armor Adj. | Int | Special |
+| --- | --- | --- | --- |
+| 1st–2nd | +1 | 6 | Alertness, improved evasion, share spells, empathic link |
 | 3rd–4th | +2 | 7 | Deliver touch spells |
 | 5th–6th | +3 | 8 | Speak with master |
 | 7th–8th | +4 | 9 | Speak with animals of its kind |

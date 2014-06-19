@@ -44,16 +44,10 @@ You can make poison with the [Craft](/pathfinderRPG/prd/skills/craft.html#_craft
 
 The sample poisons on the next page represent just some of the common poisons available in cities. Of course, most cities have laws against buying, selling, or crafting poison.
 
-<caption>Poisons</caption><thead><tr>
-<th>Poison</th>
-<th>Type</th>
-<th>Fort DC</th>
-<th>Onset</th>
-<th>Frequency</th>
-<th>Effect</th>
-<th>Cure</th>
-<th>Price</th>
-</tr></thead>| Black lotus extract | Contact | 20 | 1 min. | 1/rd. for 6 rds. | 1d6 Con | 2 saves | 4,500 gp |
+[Poisons]
+| Poison | Type | Fort DC | Onset | Frequency | Effect | Cure | Price |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Black lotus extract | Contact | 20 | 1 min. | 1/rd. for 6 rds. | 1d6 Con | 2 saves | 4,500 gp |
 | Dragon bile | Contact | 26 | — | 1/rd. for 6 rds. | 1d3 Str | — | 1,500 gp |
 | Malyass root paste | Contact | 16 | 1 min. | 1/min. for 6 min. | 1d2 Dex | 1 save | 250 gp |
 | Nitharit | Contact | 13 | 1 min. | 1/min. for 6 min. | 1d3 Con | 1 save | 650 gp |

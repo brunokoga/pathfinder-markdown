@@ -235,18 +235,15 @@ Gnomes have access tot he following equipment.
 
 **Sheriff's Whistle** : Used most often by gnome sheriffs and rangers, a sheriff's whistle gives off a piercing shriek that can easily be heard up to 1,000 feet away under ordinary circumstances. However, the frequency of the shriek is such that it can only be heard by badgers, dogs, and gnomes.
 
-<caption>Gnome Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Dilettante's outfit | 20 gp | 8 lbs.\* | — |
+[Gnome Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Dilettante's outfit | 20 gp | 8 lbs.\* | — |
 | Hound's blood (vial) | 110 gp | — | 20 |
 | Moonrod | 10 gp | 1 lb. | 25 |
 | Obsession log | 25 gp | 1 lb. | — |
 | Scentbane incense | 80 gp | — | 20 |
 | Sheriff's whistle | 1 gp | — | — |
-<tfoot><tr><td colspan="4">*This items weighs 1/4 of this amount when made for Small characters.</td></tr></tfoot>
 
 ## Gnome Feats
 

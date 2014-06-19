@@ -58,19 +58,10 @@ Adventurers are always on the look out for new or strange weapons to give them a
 
 **Wooden Stake** : This close combat weapon is just a sharpened piece of wood. Iron spikes used as weapons deal damage as wooden stakes.
 
-<caption>Table: Weapons</caption><thead><tr id="simple-weapons-cost-dmg-(s)-dmg-(m)-critical-range-weight1-type2-special">
-<th>Simple Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight<sup>1</sup>
-</th>
-<th>Type<sup>2</sup>
-</th>
-<th>Special</th>
-</tr></thead>| _Unarmed Attacks_ |
+[Table: Weapons]
+| Simple Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weightⁱ | Type⁲ | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _Unarmed Attacks_ |
 | Brass knuckles | 1 gp | 1d2 | 1d3 | ×2 | — | 1 lb. | B | monk, see text |
 | _Light Melee Weapons_ |
 | Battle aspergillum | 5 gp | 1d4 | 1d6 | ×2 | — | 4 lbs. | B | see text |
@@ -79,7 +70,7 @@ Adventurers are always on the look out for new or strange weapons to give them a
 | _Two-Handed Melee Weapons_ |
 | Bayonet | 5 gp | 1d4 | 1d6 | ×2 | — | 1 lb. | P | — |
 | Boar spear | 5 gp | 1d6 | 1d8 | ×2 | — | 8 lbs. | P | brace, see text |
-| Martial Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weight<sup>1</sup> | Type<sup>2</sup> | Special |
+| Martial Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weightⁱ | Type⁲ | Special |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | _One-Handed Melee Weapons_ |
 | Sword cane | 45 gp | 1d4 | 1d6 | ×2 | — | 4 lbs. | P | — |
@@ -95,7 +86,7 @@ Adventurers are always on the look out for new or strange weapons to give them a
 | Arrow, smoke | 10 gp | — | — | — | — | — | P | see text |
 | Chakram | 1 gp | 1d6 | 1d8 | ×2 | 30 ft. | 1 lb. | S | — |
 | Pilum | 5 gp | 1d6 | 1d8 | ×2 | 20 ft. | 4 lbs. | P | see text |
-| Exotic Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weight<sup>1</sup> | Type<sup>2</sup> | Special |
+| Exotic Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weightⁱ | Type⁲ | Special |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | _Light Melee Weapons_ |
 | Swordbreaker dagger | 10 gp | 1d3 | 1d4 | ×2 | — | 3 lbs. | S | disarm, see text |
@@ -110,12 +101,6 @@ Adventurers are always on the look out for new or strange weapons to give them a
 | Boomerang | 3 gp | 1d4 | 1d6 | ×2 | 30 ft. | 3 lbs. | B | see text |
 | Double crossbow | 300 gp | 1d6 | 1d8 | 19–20/×2 | 80 ft. | 18 lbs. | P | — |
 | Lasso | 1 sp | — | — | — | — | 5 lbs. | — | see text |
-<tfoot>
-<tr><td colspan="9">
-<sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much. </td></tr>
-<tr><td colspan="9">
-<sup>2</sup> A weapon with two types is both types if the entry specifies âand,â or either type (wielder's choice) if the entry specifies âor.â</td></tr>
-</tfoot>
 
 # Armor
 
@@ -133,52 +118,34 @@ These armors follow the same rules as the armors presented in the _Pathfinder RP
 
 **Wooden Armor** : This suit of leather armor has plates of fire-treated wood sewn over vital areas. Though not as effective as metal armor, it offers better protection than leather alone. Unlike metal armor, the wood is slightly buoyant, and the armor check penalty for swimming in this armor is 0.
 
-<caption>Table: Armor and Shields</caption><thead>
-<tr id="armor-cost-bonus-dex-bonus-check-penalty-failure-chance-30-ft.-20-ft.-weight1">
-<th rowspan="2">Armor</th>
-<th rowspan="2">Cost</th>
-<th rowspan="2">Armor/Shield Bonus</th>
-<th rowspan="2">Maximum Dex Bonus</th>
-<th rowspan="2">Armor Check Penalty</th>
-<th rowspan="2">Arcane Spell Failure Chance</th>
-<th colspan="2">Speed</th>
-<th rowspan="2">Weight<sup>1</sup>
-</th>
-</tr>
-<tr>
-<th>30 ft.</th>
-<th>20 ft.</th>
-</tr>
-</thead>| _Light Armor_ |
+[Table: Armor and Shields]
+| Armor | Cost | Armor/Shield Bonus | Maximum Dex Bonus | Armor Check Penalty | Arcane Spell Failure Chance | Speed | Weightⁱ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 30 ft. | 20 ft. |
+| --- | --- |
+| _Light Armor_ |
 | Quilted cloth | 100 gp | +1 | +8 | 0 | 10% | 30 ft. | 20 ft. | 15 lbs. |
 | Wooden | 20 gp | +3 | +3 | –1 | 15% | 30 ft. | 20 ft. | 25 lbs. |
 | _Medium Armor_ |
 | Armored coat | 50 gp | +4 | +3 | –2 | 20% | 20 ft. | 15 ft. | 20 lbs. |
 | Agile breastplate | 400 gp | +6 | +3 | –4 | 25% | 20 ft. | 15 ft. | 25 lbs. |
 | _Heavy Armor_ |
-| Agile half-plate | 850 gp | +8 | +0 | –7 | 40% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 55 lbs. |
+| Agile half-plate | 850 gp | +8 | +0 | –7 | 40% | 20 ft.⁲ | 15 ft.⁲ | 55 lbs. |
 | _Shields_ |
 | Quickdraw shield, light wooden | 53 gp | +1 | — | –2 | 5% | — | — | 6 lbs. |
 | Quickdraw shield, light steel | 59 gp | +1 | — | –2 | 5% | — | — | 7 lbs. |
-<tfoot>
-<tr><td colspan="9">
-<sup>1</sup> Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much. </td></tr>
-<tr><td colspan="9">
-<sup>2</sup> When running in agile half-plate, you may still move quadruple your speed, instead of the normal triple speed for heavy armor.</td></tr>
-</tfoot>
 
 # Goods and Services
 
-<caption>Table: Goods and Services</caption><thead><tr id="adventuring-gear-cost-weight">
-<th>Adventuring Gear</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr></thead>| Backpack, masterwork | 50 gp | 4 lbs.<sup>1</sup> |
+[Table: Goods and Services]
+| Adventuring Gear | Cost | Weight |
+| --- | --- | --- |
+| Backpack, masterwork | 50 gp | 4 lbs.ⁱ |
 | Barbed vest | 10 gp | 4 lbs. |
-| Blanket | 2 sp | 1 lb.<sup>1</sup> |
+| Blanket | 2 sp | 1 lb.ⁱ |
 | Buoy, common | 5 sp | 16 lbs. |
 | Buoy, superior | 10 gp | 30 lbs. |
-| Butterfly net | 5 gp | 2 lbs.<sup>1</sup> |
+| Butterfly net | 5 gp | 2 lbs.ⁱ |
 | Chalkboard | 1 gp | 2 lbs. |
 | Chest, small | 2 gp | 25 lbs. |
 | Chest, medium | 5 gp | 50 lbs. |
@@ -198,24 +165,21 @@ These armors follow the same rules as the armors presented in the _Pathfinder RP
 | Rice paper (sheet) | 5 cp | — |
 | Rope, spider's silk (50 ft.) | 100 gp | 4 lbs. |
 | Scroll case | 1 gp | 1/2 lb. |
-| Signal horn | 1 gp | 2 lbs.<sup>1</sup> |
+| Signal horn | 1 gp | 2 lbs.ⁱ |
 | Smoked goggles | 10 gp | — |
 | String or twine (50 ft.) | 1 cp | 1/2 lb. |
-| Swarmsuit | 20 gp | 10 lbs.<sup>1</sup> |
+| Swarmsuit | 20 gp | 10 lbs.ⁱ |
 | Tattoo | 1 cp–20 gp | — |
-| Tent, small | 10 gp | 20 lbs.<sup>1</sup> |
-| Tent, medium | 15 gp | 30 lbs.<sup>1</sup> |
-| Tent, large | 30 gp | 40 lbs.<sup>1</sup> |
-| Tent, pavilion | 100 gp | 50 lbs.<sup>1</sup> |
+| Tent, small | 10 gp | 20 lbs.ⁱ |
+| Tent, medium | 15 gp | 30 lbs.ⁱ |
+| Tent, large | 30 gp | 40 lbs.ⁱ |
+| Tent, pavilion | 100 gp | 50 lbs.ⁱ |
 | Weapon cord | 1 sp | — |
 | Whistle, signal (or silent) | 8 sp (9 sp) | — |
 
-<thead><tr id="special-substances-and-items-cost-weight-craft-dc">
-<th>Special Substances and Items</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Alchemical grease | 5 gp | 1 lb. | 15 |
+| Special Substances and Items | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Alchemical grease | 5 gp | 1 lb. | 15 |
 | Alchemical solvent (vial) | 20 gp | 1/2 lb. | 20 |
 | Alchemist's kindness | 1 gp | — | 20 |
 | Alkali flask | 15 gp | 1 lb. | 20 |
@@ -235,11 +199,9 @@ These armors follow the same rules as the armors presented in the _Pathfinder RP
 | Weapon blanch, cold iron | 20 gp | 1/2 lb. | 20 |
 | Weapon blanch, silver | 5 gp | 1/2 lb. | 20 |
 
-<thead><tr id="tools-and-skill-kits-cost-weight">
-<th>Tools and Skill Kits</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr></thead>| Abacus | 2 gp | 2 lbs. |
+| Tools and Skill Kits | Cost | Weight |
+| --- | --- | --- |
+| Abacus | 2 gp | 2 lbs. |
 | Alchemist's kit | 25 gp | 5 lbs. |
 | Alchemist's lab, portable | 75 gp | 20 lbs. |
 | Anvil | 5 gp | 10–100 lbs. |
@@ -263,20 +225,16 @@ These armors follow the same rules as the armors presented in the _Pathfinder RP
 | Symptom kit | 25 gp | 5 lbs. |
 | Traveling spellbook (blank) | 10 gp | 1 lb. |
 
-<thead><tr id="clothing-cost-weight">
-<th>Clothing</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr></thead>| Cleats | 5 gp | 2 lbs.<sup>1</sup> |
-| Furs | 12 gp | 5 lbs.<sup>1</sup> |
-| Hot weather outfit | 8 gp | 4 lbs.<sup>1</sup> |
-| Snowshoes | 5 gp | 4 lbs.<sup>1</sup> |
+| Clothing | Cost | Weight |
+| --- | --- | --- |
+| Cleats | 5 gp | 2 lbs.ⁱ |
+| Furs | 12 gp | 5 lbs.ⁱ |
+| Hot weather outfit | 8 gp | 4 lbs.ⁱ |
+| Snowshoes | 5 gp | 4 lbs.ⁱ |
 
-<thead><tr id="animal-related-gear-cost-weight">
-<th>Animal-Related Gear</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr></thead>| Animal harness | 2 gp | 2 lbs. |
+| Animal-Related Gear | Cost | Weight |
+| --- | --- | --- |
+| Animal harness | 2 gp | 2 lbs. |
 | Cage, Diminutive or Fine | 10 gp | 2 lbs. |
 | Cage, Huge | 60 gp | 960 lbs. |
 | Cage, Large | 30 gp | 240 lbs. |
@@ -284,15 +242,11 @@ These armors follow the same rules as the armors presented in the _Pathfinder RP
 | Cage, Tiny | 2 gp | 5 lbs. |
 | Dog sled | 20 gp | 300 lbs. |
 
-<thead><tr id="entertainment-items-cost-weight">
-<th><b>Entertainment Items</b></th>
-<th>Cost</th>
-<th>Weight</th>
-</tr></thead>| Loaded dice, average | 10 gp | — |
+| **Entertainment Items** | Cost | Weight |
+| --- | --- | --- |
+| Loaded dice, average | 10 gp | — |
 | Loaded dice, superior | 50 gp | — |
 | Marked cards | 1 gp | 1 lb. |
-<tfoot><tr><td colspan="3">
-<sup>1</sup> These items weigh one-quarter this amount when made for Small characters. Containers for Small characters also carry one-quarter the normal amount.</td></tr></tfoot>
 
 Adventurers are always looking for equipment that gives them an advantage—their very survival depends on it.
 

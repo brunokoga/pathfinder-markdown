@@ -1,11 +1,9 @@
 # Rods
 
-<caption>Table: Rods</caption><thead><tr>
-<th>Medium</th>
-<th>Major</th>
-<th>Rod</th>
-<th>Market Price</th>
-</tr></thead><tbody>
+[Table: Rods]
+| Medium | Major | Rod | Market Price |
+| --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–07</td>
 <td>—</td>
@@ -665,10 +663,9 @@ A _rod of withering _acts as a _+1 light mace _that deals no hit point damage. I
 
 A _rod of wonder _is a strange and unpredictable device that randomly generates any number of weird effects each time it is used. Activating the rod is a standard action. Typical powers of the rod include the following.
 
-<thead><tr>
-<th>d%</th>
-<th>Wondrous Effect</th>
-</tr></thead><tbody>
+| d% | Wondrous Effect |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–05</td>
 <td style="white-space:normal;">

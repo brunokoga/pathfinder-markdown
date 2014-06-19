@@ -14,24 +14,16 @@ When a young character reaches adulthood, she loses these ability score adjustme
 
 **Traits** : Because character traits represent your character's background before becoming an adventurer, the GM might limit you to selecting only one trait at 1st level instead of the normal two traits allowed. When your character reaches adulthood, you select your second trait. Note that normally you can select a new trait after 1st level only if your character takes the [Additional Traits](/pathfinderRPG/prd/advanced/advancedFeats.html#additional-traits) feat, so this option allows you more flexibility in choosing your second trait, as recent events in the campaign might make some of your trait options more valuable than they originally appeared when the campaign started.
 
-<caption>Random Young Starting Ages</caption><thead><tr>
-<th>Race</th>
-<th>Youth<sup>1</sup>
-</th>
-<th>Aristocrat, Commoner, Expert</th>
-<th>Adept, Warrior</th>
-<th>Adulthood<sup>2</sup>
-</th>
-</tr></thead>| Human | 8 years | +1d6 | +2d3 | 15 years |
+[Random Young Starting Ages]
+| Race | Youthⁱ | Aristocrat, Commoner, Expert | Adept, Warrior | Adulthood⁲ |
+| --- | --- | --- | --- | --- |
+| Human | 8 years | +1d6 | +2d3 | 15 years |
 | Dwarf | 20 years | +2d6 | +4d4 | 40 years |
 | Elf | 55 years | +4d6 | +6d6 | 110 years |
 | Gnome | 20 years | +4d4 | +3d6 | 40 years |
 | Half-elf | 10 years | +1d4 | +1d6 | 20 years |
 | Half-orc | 7 years | +1d6 | +2d3 | 14 years |
 | Halfling | 10 years | +1d6 | +2d4 | 20 years |
-<tfoot><tr><td colspan="5">
-<sup>1</sup> During youth, +2 Dex; —2 to Str, Con, and Wis.<br>
-<sup>2</sup> At adulthood, ability score adjustments for young age are lost.</td></tr></tfoot>
 
 ## Leaving Youth Behind
 

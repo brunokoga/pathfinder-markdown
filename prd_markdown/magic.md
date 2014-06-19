@@ -20,10 +20,10 @@ Once you've cast a prepared spell, you can't cast it again until you prepare it 
 
 ## Concentration
 
-<caption>Table: Concentration Check DCs</caption><thead><tr>
-<th>Situation</th>
-<th>Concentration Check DC</th>
-</tr></thead>| Cast defensively | 15 + double spell level |
+[Table: Concentration Check DCs]
+| Situation | Concentration Check DC |
+| --- | --- |
+| Cast defensively | 15 + double spell level |
 | Injured while casting | 10 + damage dealt + spell level |
 | Continuous damage while casting | 10 + 1/2 damage dealt + spell level |
 | Affected by a non-damaging spell while casting | DC of the spell + spell level |
@@ -248,13 +248,9 @@ You can only be affected by one polymorph spell at a time. If a new polymorph sp
 
 If a polymorph spell is cast on a creature that is smaller than Small or larger than Medium, first adjust its ability scores to one of these two sizes using the following table before applying the bonuses granted by the polymorph spell.
 
-<thead><tr>
-<th>Creature's Original Size</th>
-<th>Str</th>
-<th>Dex</th>
-<th>Con</th>
-<th>Adjusted Size</th>
-</tr></thead><tbody>
+| Creature's Original Size | Str | Dex | Con | Adjusted Size |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Fine</td>
 <td>+6</td>
@@ -394,8 +390,7 @@ If a ray spell deals damage, you can score a critical hit just as if it were a w
 
 _Spread_: Some effects, notably clouds and fogs, spread out from a point of origin, which must be a grid intersection. The effect can extend around corners and into areas that you can't see. Figure distance by actual distance traveled, taking into account turns the spell effect takes. When determining distance for spread effects, count around walls, not through them. As with movement, do not trace diagonals across corners. You must designate the point of origin for such an effect, but you need not have line of effect (see below) to all portions of the effect.
 
-<caption>SpellAreas</caption>
-| ![](/pathfinderRPG/prd/image/SpellAreas.jpg) |
+[SpellAreas]| ![](/pathfinderRPG/prd/image/SpellAreas.jpg) |
 
 **Area** : Some spells affect an area. Sometimes a spell description specifies a specially defined area, but usually an area falls into one of the categories defined below.
 
@@ -493,10 +488,10 @@ Usually a harmful spell allows a target to make a saving throw to avoid some or 
 
 **Voluntarily Giving up a Saving Throw** : A creature can voluntarily forego a saving throw and willingly accept a spell's result. Even a character with a special resistance to magic can suppress this quality.
 
-<caption>Table: Items Affected by Magical Attacks</caption><thead><tr>
-<th>Order*</th>
-<th>Item</th>
-</tr></thead><tbody>
+[Table: Items Affected by Magical Attacks]
+| Order\* | Item |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>1st</td>
 <td>Shield</td>
@@ -537,9 +532,7 @@ Usually a harmful spell allows a target to make a saving throw to avoid some or 
 <td>10th</td>
 <td>Anything else</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="2">* In order of most likely to least likely to be affected.</td></tr>
-</tfoot>
+</tbody>
 
 **Items Surviving after a Saving Throw** : Unless the descriptive text for the spell specifies otherwise, all items carried or worn by a creature are assumed to survive a magical attack. If a creature rolls a natural 1 on its saving throw against the effect, however, an exposed item is harmed (if the attack can harm objects). Refer to Table: Items Affected by Magical Attacks: Items Affected by Magical Attacks. Determine which four objects carried or worn by the creature are most likely to be affected and roll randomly among them. The randomly determined item must make a saving throw against the attack form and take whatever damage the attack dealt.
 
@@ -619,10 +612,9 @@ Once a wizard understands a new spell, he can record it into his spellbook.
 
 **Materials and Costs** : The cost for writing a new spell into a spellbook depends on the level of the spell, as noted on the following table. Note that a wizard does not have to pay these costs in time or gold for spells he gains for free at each new level.
 
-<thead><tr>
-<th>Spell Level</th>
-<th>Writing Cost</th>
-</tr></thead><tbody>
+| Spell Level | Writing Cost |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>0</td>
 <td>5 gp</td>

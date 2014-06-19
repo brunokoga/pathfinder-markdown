@@ -34,7 +34,7 @@ LE Medium [monstrous humanoid](creatureTypes.html#_monstrous-humanoid) ( [aquati
 
 **Base Atk** +2; **CMB** +4; **CMD** 15
 
-**Feats** [Multiattack](monsterFeats.html#_multiattack)<sup>B</sup>, [Toughness](../feats.html#_toughness)
+**Feats** [Multiattack](monsterFeats.html#_multiattack)B, [Toughness](../feats.html#_toughness)
 
 **Skills** [Intimidate](../skills/intimidate.html#_intimidate) +3, [Perception](../skills/perception.html#_perception) +5 (+9 underwater), [Stealth](../skills/stealth.html#_stealth) +6 (+10 underwater), [Swim](../skills/swim.html#_swim) +15; **Racial Modifiers** +4 [Perception](../skills/perception.html#_perception) and [Stealth](../skills/stealth.html#_stealth) underwater
 

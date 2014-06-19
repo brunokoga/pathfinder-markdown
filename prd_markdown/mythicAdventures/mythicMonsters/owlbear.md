@@ -8,7 +8,7 @@ XP 1,600
 
 N Large magical beast ( [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
 
-**Init** +7<sup>M</sup>; **Senses** darkvision 60 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12
+**Init** +7M; **Senses** darkvision 60 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12
 
 Defense
 
@@ -36,7 +36,7 @@ Statistics
 
 **Base Atk** +5; **CMB** +11 (+15 grapple); **CMD** 22 (26 vs. trip)
 
-**Feats** [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)<sup>M</sup>, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)M, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
 
 **Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12
 
@@ -66,7 +66,7 @@ Advanced mythic owlbear
 
 N Large magical beast ( [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
 
-**Init** +10<sup>M</sup>; **Senses** darkvision 60 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +16
+**Init** +10M; **Senses** darkvision 60 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +16
 
 Defense
 
@@ -94,7 +94,7 @@ Statistics
 
 **Base Atk** +10; **CMB** +19 (+23 grapple); **CMD** 31 (35 vs. trip)
 
-**Feats** [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)<sup>M</sup>, [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)<sup>M</sup>, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (claws)
+**Feats** [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)M, [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (claws)
 
 **Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +5, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +16
 

@@ -36,10 +36,9 @@ The evangelist is the voice of her religion in the world. Where others nurture t
 
 **Spontaneous Casting** : An evangelist does not gain the ability to spontaneously cast cure or inflict spells by sacrificing prepared spells. However, an evangelist can spontaneously cast the following spells by sacrificing a prepared spell of the noted level or above:
 
-<thead><tr>
-<th>Spell Level</th>
-<th>Spontaneous Spell</th>
-</tr></thead>| 1st level | _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ |
+| Spell Level | Spontaneous Spell |
+| --- | --- |
+| 1st level | _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ |
 | 2nd level | _ [enthrall](/pathfinderRPG/prd/spells/enthrall.html#_enthrall)_ |
 | 3rd level | _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_ |
 | 4th level | _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ |

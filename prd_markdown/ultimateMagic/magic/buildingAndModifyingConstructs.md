@@ -40,14 +40,10 @@ Constructs typically have no Intelligence score, an average Wisdom score, and a 
 
 New constructs should stick fairly close to the [Monster Statistics by CR table](/pathfinderRPG/prd/monsters/monsterCreation.html#_table-1-1-monster-statistics-by-cr). As they are usually mindless combat brutes, most use the âhigh attackâ column, with damage falling in between the High and Low average damage columns. Note that all the construct's saving throws are likely to be poor, and they have no favored saves. Lacking a Constitution score, a construct's hit points also tend to be low in comparison to creatures with similar CRs. Consider giving any construct that doesn't have either damage reduction or hardness a higher AC to compensate.
 
-<caption>Table: Constructs</caption><thead><tr>
-<th>Name</th>
-<th>CR</th>
-<th>Materials</th>
-<th>Price</th>
-<th>Cost</th>
-<th>Special Abilities</th>
-</tr></thead>| Tiny animated object | 1/2 | — | 250 gp | 125 gp | Variable |
+[Table: Constructs]
+| Name | CR | Materials | Price | Cost | Special Abilities |
+| --- | --- | --- | --- | --- | --- |
+| Tiny animated object | 1/2 | — | 250 gp | 125 gp | Variable |
 | [Homunculus](/pathfinderRPG/prd/monsters/homunculus.html#_homunculus) | 1 | 50 gp | 2,050 gp | 1,050 gp | Poison, telepathic link |
 | Small animated object | 2 | — | 2,000 gp | 1,000 gp | Variable |
 | [Iron cobra](/pathfinderRPG/prd/monsters/ironCobra.html#_iron-cobra) | 2 | — | 4,000 gp | 2,000 gp | Find target, poison |

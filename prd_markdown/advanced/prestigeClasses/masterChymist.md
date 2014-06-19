@@ -24,15 +24,10 @@ The master chymist's class skills are [Acrobatics](../../skills/acrobatics.html#
 
 **Skill Ranks at Each Level** : 2 + Int modifier.
 
-<caption>Table: Master Chymist</caption><thead><tr id="level-bonus-save-save-save-special-extracts-per-day">
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-<th>Extracts per Day</th>
-</tr></thead>| 1st | +1 | +1 | +1 | +0 | Bomb-thrower, mutagenic form, mutate 2/day | — |
+[Table: Master Chymist]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Extracts per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | +1 | +1 | +1 | +0 | Bomb-thrower, mutagenic form, mutate 2/day | — |
 | 2nd | +2 | +1 | +1 | +1 | Advanced mutagen | +1 level of alchemist |
 | 3rd | +3 | +2 | +2 | +1 | Brutality (+2) | +1 level of alchemist |
 | 4th | +4 | +2 | +2 | +1 | Advanced mutagen | — |

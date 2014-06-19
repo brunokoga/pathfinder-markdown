@@ -34,7 +34,7 @@ Statistics
 
 **Base Atk** +8; **CMB** +14 (+18 grapple); **CMD** 27 (31 vs. trip)
 
-**Feats** [Blinding Critical](/pathfinderRPG/prd/feats.html#_blinding-critical)<sup>B</sup>, [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (claw)<sup>B</sup>, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)), [Stand Still](/pathfinderRPG/prd/feats.html#_stand-still)
+**Feats** [Blinding Critical](/pathfinderRPG/prd/feats.html#_blinding-critical)B, [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (claw)B, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)), [Stand Still](/pathfinderRPG/prd/feats.html#_stand-still)
 
 **Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +9, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +9, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +20; **Racial Modifiers** +6 [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff)
 

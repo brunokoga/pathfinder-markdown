@@ -297,10 +297,10 @@ Destruction
 
 The _Apocalypse Box_ can be destroyed by being crushed under the claw of an ancient gold dragon after a creature cursed by the box defeats three groups of _Apocalypse Box_ monsters in a single day. The act of crushing the box immediately slays the gold dragon, who can't be returned to life short of divine intervention.
 
-<caption>Apocalypse Box Monsters</caption><thead><tr>
-<th>1d6</th>
-<th>Monsters Summoned</th>
-</tr></thead>| 1 | Daemonic apocalypse: 1d4+1 olethrodaemons |
+[Apocalypse Box Monsters]
+| 1d6 | Monsters Summoned |
+| --- | --- |
+| 1 | Daemonic apocalypse: 1d4+1 olethrodaemons |
 | 2 | Demonic invasion: 1 balor and 2d6 glabrezus |
 | 3 | Infernal assault: 1 pit fiend and 2d6 barbed devils |
 | 4 | Oni domination: 1 void yai and 2d6 fiendish cloud giants |

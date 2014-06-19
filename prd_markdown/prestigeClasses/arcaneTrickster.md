@@ -28,15 +28,10 @@ The arcane trickster's class skills (and the key ability for each skill) are [Ac
 
 **Skill Ranks at Each Level** : 4 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Arcane Trickster</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-<th>Spells per Day</th>
-</tr></thead>| 1st | +0 | +0 | +1 | +1 | Ranged legerdemain | +1 level of existing class |
+[Table: Arcane Trickster]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +1 | +1 | Ranged legerdemain | +1 level of existing class |
 | 2nd | +1 | +1 | +1 | +1 | [Sneak attack](../classes/rogue.html#_sneak-attack) +1d6 | +1 level of existing class |
 | 3rd | +1 | +1 | +2 | +2 | Impromptu sneak attack 1/day | +1 level of existing class |
 | 4th | +2 | +1 | +2 | +2 | [Sneak attack](../classes/rogue.html#_sneak-attack) +2d6 | +1 level of existing class |

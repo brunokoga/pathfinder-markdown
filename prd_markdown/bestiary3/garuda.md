@@ -46,7 +46,7 @@ Statistics
 
 **Base Atk** +11; **CMB** +14; **CMD** 29
 
-**Feats** [Deadly Aim](/pathfinderRPG/prd/feats.html#_deadly-aim), [Manyshot](/pathfinderRPG/prd/feats.html#_manyshot), [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Precise Shot](/pathfinderRPG/prd/feats.html#_precise-shot), [Rapid Shot](/pathfinderRPG/prd/feats.html#_rapid-shot), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Deadly Aim](/pathfinderRPG/prd/feats.html#_deadly-aim), [Manyshot](/pathfinderRPG/prd/feats.html#_manyshot), [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Precise Shot](/pathfinderRPG/prd/feats.html#_precise-shot), [Rapid Shot](/pathfinderRPG/prd/feats.html#_rapid-shot), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)B
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +19, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +23, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +21, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +20, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +20, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +13, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +19, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +13; **Racial Modifiers** +4 [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate), +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +4 [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive)
 

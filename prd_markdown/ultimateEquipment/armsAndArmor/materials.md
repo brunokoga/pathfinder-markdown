@@ -14,10 +14,9 @@ Mined from rocks that fell from the heavens, this ultrahard metal adds to the qu
 
 Weapons and armor normally made of steel that are made of adamantine have one-third more hit points than normal. Adamantine has 40 hit points per inch of thickness and hardness 20.
 
-<thead><tr>
-<th>Type of Adamantine Item</th>
-<th>Item Price Modifier</th>
-</tr></thead>| Ammunition | +60 gp per item |
+| Type of Adamantine Item | Item Price Modifier |
+| --- | --- |
+| Ammunition | +60 gp per item |
 | Light armor | +5,000 gp |
 | Medium armor | +10,000 gp |
 | Heavy armor | +15,000 gp |
@@ -35,10 +34,9 @@ On a successful attack with a silvered slashing or piercing weapon, the wielder 
 
 Alchemical silver has 10 hit points per inch of thickness and hardness 8.
 
-<thead><tr>
-<th>Type of Alchemical Silver Item</th>
-<th>Item Price Modifier</th>
-</tr></thead>| Ammunition | +2 gp per item |
+| Type of Alchemical Silver Item | Item Price Modifier |
+| --- | --- |
+| Ammunition | +2 gp per item |
 | Light weapon | +20 gp |
 | One-handed weapon, or one head of a double weapon | +90 gp |
 | Two-handed weapon, or both heads of a double weapon | +180 gp |
@@ -55,10 +53,9 @@ Spells and supernatural abilities that have special effects when cast on or used
 
 Angelskin has 5 hit points per inch of thickness and hardness 5.
 
-<thead><tr>
-<th>Type of Angelskin Item</th>
-<th>Item Price Modifier</th>
-</tr></thead>| Light armor | +1,000 gp |
+| Type of Angelskin Item | Item Price Modifier |
+| --- | --- |
+| Light armor | +1,000 gp |
 | Medium armor | +2,000 gp |
 
 Blood Crystal
@@ -73,10 +70,9 @@ Unfed blood crystal has a pale pink hue, darkening toward deep crimson as it bec
 
 Blood crystal has 10 hit points per inch of thickness and hardness 10.
 
-<thead><tr>
-<th>Type of Blood Crystal Item</th>
-<th>Item Price Modifier</th>
-</tr></thead>| Ammunition | +30 gp per item |
+| Type of Blood Crystal Item | Item Price Modifier |
+| --- | --- |
+| Ammunition | +30 gp per item |
 | Weapon | +1,500 gp |
 
 Cold iron
@@ -103,10 +99,9 @@ An item made from darkleaf cloth weighs half as much as the same item made from 
 
 Darkleaf cloth has 20 hit points per inch of thickness and hardness 10.
 
-<thead><tr>
-<th>Type of Darkleaf Cloth Item</th>
-<th>Item Price Modifier</th>
-</tr></thead>| Clothing | +500 gp |
+| Type of Darkleaf Cloth Item | Item Price Modifier |
+| --- | --- |
+| Clothing | +500 gp |
 | Light armor | +750 gp |
 | Medium armor | +1,500 gp |
 | Other items | +375 gp/lb. |
@@ -143,10 +138,9 @@ This supple material offers as much protection as leather, but is more flexible 
 
 Eel hide has the same hit points and hardness as leather.
 
-<thead><tr>
-<th>Type of Eel Hide Item</th>
-<th>Item Price Modifier</th>
-</tr></thead>| Light armor | +1,200 gp |
+| Type of Eel Hide Item | Item Price Modifier |
+| --- | --- |
+| Light armor | +1,200 gp |
 | Medium armor | +1,800 gp |
 
 Elysian Bronze
@@ -161,10 +155,9 @@ Armor made of Elysian bronze also protects its wearer against the natural weapon
 
 Elysian bronze has the same hit points and hardness as steel.
 
-<thead><tr>
-<th>Type of Elysian Bronze Item</th>
-<th>Item Price Modifier</th>
-</tr></thead>| Ammunition | +20 gp per item |
+| Type of Elysian Bronze Item | Item Price Modifier |
+| --- | --- |
+| Ammunition | +20 gp per item |
 | Light armor | +1,000 gp |
 | Medium armor | +2,000 gp |
 | Heavy armor | +3,000 gp |
@@ -184,10 +177,9 @@ Armor or weapons made from fire-forged steel are always considered masterwork, a
 
 Fire-forged steel has the same hit points and hardness as steel.
 
-<thead><tr>
-<th>Type of Fire-Forged Steel Item</th>
-<th>Item Price Modifier</th>
-</tr></thead>| Ammunition | +15 gp per item |
+| Type of Fire-Forged Steel Item | Item Price Modifier |
+| --- | --- |
+| Ammunition | +15 gp per item |
 | Light armor | +1,000 gp |
 | Medium armor | +2,500 gp |
 | Heavy armor | +3,000 gp |
@@ -231,10 +223,9 @@ This rough-spun cloth, ranging in color from golden-brown to brown-black, is wov
 
 Griffon mane has twice the number of hit points of normal cloth and hardness 1.
 
-<thead><tr>
-<th>Type of Griffon Mane Item</th>
-<th>Item Price Modifier</th>
-</tr></thead>| Light armor | +200 gp |
+| Type of Griffon Mane Item | Item Price Modifier |
+| --- | --- |
+| Light armor | +200 gp |
 | Other items | +50 gp/lb. |
 
 living steel
@@ -249,10 +240,9 @@ Armor and shields made from living steel can damage metal weapons that strike th
 
 Living steel has 35 hit points per inch of thickness and hardness 15.
 
-<thead><tr>
-<th>Type of Living Steel Item	Item</th>
-<th>Price Modifier</th>
-</tr></thead>| Ammunition | +10 gp per item |
+| Type of Living Steel ItemItem | Price Modifier |
+| --- | --- |
+| Ammunition | +10 gp per item |
 | Light armor | +500 gp |
 | Medium armor | +1,000 gp |
 | Heavy armor | +1,500 gp |
@@ -274,10 +264,9 @@ Weapons and armors fashioned from mithral are always masterwork items as well; t
 
 Mithral has 30 hit points per inch of thickness and hardness 15.
 
-<thead><tr>
-<th>Type of Mithral Item</th>
-<th>Item Price Modifier</th>
-</tr></thead>| Light armor | +1,000 gp |
+| Type of Mithral Item | Item Price Modifier |
+| --- | --- |
+| Light armor | +1,000 gp |
 | Medium armor | +4,000 gp |
 | Heavy armor | +9,000 gp |
 | Shield | +1,500 gp |
@@ -299,10 +288,9 @@ Oozes, plants, and outsiders are immune to the deadly emanations of viridium.
 
 Viridium weapons have half the hardness of their base weapon and have the fragile quality. Viridium can be magically strengthened at an additional cost of +1,000 gp for a weapon or +20 gp for ammunition. This removes the fragile quality from the item but does not otherwise affect its abilities.
 
-<thead><tr>
-<th>Type of Viridium Item	Item</th>
-<th>Price Modifier</th>
-</tr></thead>| Ammunition | +20 gp per item |
+| Type of Viridium ItemItem | Price Modifier |
+| --- | --- |
+| Ammunition | +20 gp per item |
 | Weapon | +200 gp |
 
 whipwood

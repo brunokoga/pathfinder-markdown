@@ -20,18 +20,17 @@ If you are proficient with an armor category, you are also proficient with the a
 
 When a character is wearing at least one armor piece of a type with which he is not proficient, he takes the armor check penalty of that piece on attack rolls and on all skill checks that involve moving. If he is wearing more than one armor piece of a type with which he is not proficient, he takes the worst armor check penalty from among the pieces he is not proficient with on attack rolls and on all skill checks that involve moving.
 
-<caption>Table: Half-Plate Suit Pieces</caption><thead>
-<th>Armor Type</th>
-<th>Cost</th>
-<th>Armor<br>Bonus</th>
-<th>Maximum<br>Dex Bonus</th>
-<th>Armor<br>Check Penalty</th>
-<th>Arcane Spell<br>Failure Chance</th>
-<th colspan="2">Speed<br><div style="float:left">30 ft.</div>
-<div style="float:right">20 ft.</div>
-</th>
-<th>Weight</th>
-</thead>| Half-plate | 600 gp | +8 | +0 | –7 | 40% | 20 ft. | 15 ft. | 50 lbs. |
+[Table: Half-Plate Suit Pieces]
+ Armor Type | Cost | Armor  
+Bonus | Maximum  
+Dex Bonus | Armor  
+Check Penalty | Arcane Spell  
+Failure Chance | Speed  
+
+30 ft.
+
+20 ft.
+ | Weight || Half-plate | 600 gp | +8 | +0 | –7 | 40% | 20 ft. | 15 ft. | 50 lbs. |
 | (plate arm armor piece) | 375 gp | +1 | +0 | –7 | 35% | 30 ft. | 20 ft. | 10 lbs. |
 | (chain leg armor piece) | 25 gp | +0 | +2 | –2 | 15% | 30 ft. | 20 ft. | 10 lbs. |
 | (plate torso armor piece) | 200 gp | +6 | +3 | –4 | 35% | 20 ft. | 15 ft. | 30 lbs. |
@@ -55,10 +54,10 @@ In the case of chain shirts, breastplates, agile breastplates, and any other arm
 
 Armor pieces made of adamantine grant their wearers damage reduction of 1/— if they are light armor, 2/— if they are medium armor, and 3/— if they are heavy armor. Adamantine armor pieces are always masterwork in quality. Armor pieces normally made of steel that are made of adamantine have one-third more hit points than normal.
 
-<caption>Table: Adamantine Item Costs</caption><thead><tr>
-<th>Type of Adamantine Item</th>
-<th>Cost Modifier</th>
-</tr></thead>| Medium arm armor piece | 2,500 gp |
+[Table: Adamantine Item Costs]
+| Type of Adamantine Item | Cost Modifier |
+| --- | --- |
+| Medium arm armor piece | 2,500 gp |
 | Medium leg armor piece | 2,500 gp |
 | Medium torso armor piece | 5,000 gp |
 | Heavy arm armor piece | 2,500 gp |
@@ -77,10 +76,10 @@ As long as all the armor pieces a character wears are made of mithral, the spell
 
 An item made of mithral weighs half as much as the same item made from other metals. Armor pieces made of mithral are also considered masterwork.
 
-<caption>Table: Mithral Item Costs</caption><thead><tr>
-<th>Type of Mithral Item</th>
-<th>Item Cost Modifier</th>
-</tr></thead>| Medium arm armor piece | 1,500 gp |
+[Table: Mithral Item Costs]
+| Type of Mithral Item | Item Cost Modifier |
+| --- | --- |
+| Medium arm armor piece | 1,500 gp |
 | Medium leg armor piece | 1,500 gp |
 | Medium torso armor piece | 1,000 gp |
 | Heavy arm armor piece | 2,500 gp |
@@ -97,22 +96,18 @@ The time required to don an armor piece is based on its type and the area it pro
 
 **Remove** : This column tells how long it takes a character to remove the armor piece.
 
-<caption>Table: Donning Armor Pieces</caption><thead><tr>
-<th>Armor Piece Type and Protective Area</th>
-<th>Don</th>
-<th>Don Hastily</th>
-<th>Remove</th>
-</tr></thead>| Light arm armor piece | 2 rounds | 1 round | 2 rounds<sup>1</sup> |
-| Light leg armor piece | 3 rounds | 2 rounds | 2 rounds<sup>1</sup> |
-| Light torso armor piece | 5 rounds | 2 rounds | 5 rounds<sup>1</sup> |
-| Medium arm armor piece | 1 minute<sup>1</sup> | 2 rounds | 2 rounds<sup>1</sup> |
-| Medium leg armor piece | 1 minute<sup>1</sup> | 3 rounds | 2 rounds<sup>1</sup> |
-| Medium torso armor piece | 1 minute<sup>1</sup> | 5 rounds | 3 rounds<sup>1</sup> |
-| Heavy arm armor piece | 1 minute<sup>2</sup> | 1 minute<sup>1</sup> | 1 minute<sup>1</sup> |
-| Heavy leg armor piece | 1 minute<sup>2</sup> | 1 minute<sup>1</sup> | 1 minute<sup>1</sup> |
-| Heavy torso armor piece | 2 minutes<sup>2</sup> | 1 minute<sup>1</sup> | 2 minute<sup>1</sup> |
-<tfoot><tr><td colspan="4">
-<sup>1</sup> If the character has some help, this time is halved. A single character doing nothing else can help one or two adjacent creatures. Two characters can't help each other don or remove armor pieces at the same time.<br><sup>2</sup> The wearer must have help to don this armor piece. Without help, it can only be donned hastily.</td></tr></tfoot>
+[Table: Donning Armor Pieces]
+| Armor Piece Type and Protective Area | Don | Don Hastily | Remove |
+| --- | --- | --- | --- |
+| Light arm armor piece | 2 rounds | 1 round | 2 roundsⁱ |
+| Light leg armor piece | 3 rounds | 2 rounds | 2 roundsⁱ |
+| Light torso armor piece | 5 rounds | 2 rounds | 5 roundsⁱ |
+| Medium arm armor piece | 1 minuteⁱ | 2 rounds | 2 roundsⁱ |
+| Medium leg armor piece | 1 minuteⁱ | 3 rounds | 2 roundsⁱ |
+| Medium torso armor piece | 1 minuteⁱ | 5 rounds | 3 roundsⁱ |
+| Heavy arm armor piece | 1 minute⁲ | 1 minuteⁱ | 1 minuteⁱ |
+| Heavy leg armor piece | 1 minute⁲ | 1 minuteⁱ | 1 minuteⁱ |
+| Heavy torso armor piece | 2 minutes⁲ | 1 minuteⁱ | 2 minuteⁱ |
 
 # Armor Pieces for Unusual Creatures
 
@@ -128,19 +123,17 @@ The following pieces of armor make up the piecemeal armor system, and are split 
 
 ## Arms
 
-<caption>Table: Arm Armor Pieces</caption><thead>
-<th>Armor Type</th>
-<th>Cost</th>
-<th>Armor<br>Bonus</th>
-<th>Maximum<br>Dex Bonus</th>
-<th>Armor<br>Check Penalty</th>
-<th>Arcane Spell<br>Failure Chance</th>
-<th colspan="2">Speed<br><div style="float:left">30 ft.</div>
-<div style="float:right">20 ft.</div>
-</th>
-<th>Weight<sup>1</sup>
-</th>
-</thead>| _Light Armor_ |
+[Table: Arm Armor Pieces]
+ Armor Type | Cost | Armor  
+Bonus | Maximum  
+Dex Bonus | Armor  
+Check Penalty | Arcane Spell  
+Failure Chance | Speed  
+
+30 ft.
+
+20 ft.
+ | Weightⁱ || _Light Armor_ |
 |   Lamellar, leather | 15 gp | +0 | +3 | –1 | 20% | 30 ft. | 20 ft. | 5 lbs. |
 |   Leather | 2 gp | +0 | +6 | 0 | 10% | 30 ft. | 20 ft. | 2 lbs. |
 |   Padded | 1 gp | +0 | +8 | 0 | 5% | 30 ft. | 20 ft. | 2 lbs. |
@@ -164,8 +157,6 @@ The following pieces of armor make up the piecemeal armor system, and are split 
 |   Plate | 375 gp | +1 | +1 | –7 | 35% | 30 ft. | 20 ft. | 10 lbs. |
 |   Splint | 50 gp | +1 | +0 | –4 | 40% | 30 ft. | 20 ft. | 5 lbs. |
 |   Tatami-do | 100 gp | +1 | +3 | –5 | 35% | 30 ft. | 20 ft. | 5 lbs. |
-<tfoot><tr><td colspan="9">
-<sup>1</sup> Weight figures are for armor pieces sized to fit Medium characters. Armor pieces fitted for Small characters weigh half as much, and armor pieces fitted for Large characters weigh twice as much.</td></tr></tfoot>
 
 With the smallest area to protect, arm armor pieces tend to have the lowest armor value of all the piecemeal armor types, with light armor pieces offering little to no protection unless they are part of a complete suit. Because arm armor pieces tend to interfere with hand movements needed for somatic components, they offer the highest spell failure chance.
 
@@ -213,19 +204,17 @@ With the smallest area to protect, arm armor pieces tend to have the lowest armo
 
 ## Legs
 
-<caption>Table: Leg Armor Pieces</caption><thead>
-<th>Armor Type</th>
-<th>Cost</th>
-<th>Armor<br>Bonus</th>
-<th>Maximum<br>Dex Bonus</th>
-<th>Armor<br>Check Penalty</th>
-<th>Arcane Spell<br>Failure Chance</th>
-<th colspan="2">Speed<br><div style="float:left">30 ft.</div>
-<div style="float:right">20 ft.</div>
-</th>
-<th>Weight<sup>1</sup>
-</th>
-</thead>| _Light Armor_ |
+[Table: Leg Armor Pieces]
+ Armor Type | Cost | Armor  
+Bonus | Maximum  
+Dex Bonus | Armor  
+Check Penalty | Arcane Spell  
+Failure Chance | Speed  
+
+30 ft.
+
+20 ft.
+ | Weightⁱ || _Light Armor_ |
 |   Leather | 3 gp | +0 | +6 | 0 | 0% | 30 ft. | 20 ft. | 3 lbs. |
 |   Padded | 1 gp | +0 | +8 | 0 | 0% | 30 ft. | 20 ft. | 3 lbs. |
 |   Quilted cloth | 25 gp | +0 | +8 | 0 | 5% | 30 ft. | 20 ft. | 3 lbs. |
@@ -241,16 +230,13 @@ With the smallest area to protect, arm armor pieces tend to have the lowest armo
 |   Mountain pattern | 50 gp | +1 | +3 | –2 | 15% | 20 ft. | 15 ft. | 10 lbs. |
 |   Scale | 10 gp | +1 | +3 | –2 | 15% | 30 ft. | 20 ft. | 10 lbs. |
 | _Heavy Armor_ |
-|   Banded | 50 gp | +1 | +1 | –3 | 15% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 10 lbs. |
-|   Kusari gusoku | 100 gp | +1 | +1 | –3 | 20% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 10 lbs. |
-|   Lamellar, iron | 50 gp | +1 | +1 | –4 | 20% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 10 lbs. |
-|   Plate | 925 gp | +1 | +1 | –3 | 20% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 10 lbs. |
-|   Splint | 50 gp | +1 | +0 | –4 | 20% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 15 lbs. |
-|   Tatami-do | 150 gp | +1 | +3 | –3 | 15% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 5 lbs. |
-|   O-yoroi | 300 gp | +2 | +2 | –3 | 20% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 5 lbs. |
-<tfoot><tr><td colspan="9">
-<sup>1</sup> Weight figures are for armor pieces sized to fit Medium characters. Armor pieces fitted for Small characters weigh half as much, and armor pieces fitted for Large characters weigh twice as much.<br>
-<sup>2</sup> When running while wearing this armor piece, you move at only triple your speed, not quadruple. </td></tr></tfoot>
+|   Banded | 50 gp | +1 | +1 | –3 | 15% | 20 ft.⁲ | 15 ft.⁲ | 10 lbs. |
+|   Kusari gusoku | 100 gp | +1 | +1 | –3 | 20% | 20 ft.⁲ | 15 ft.⁲ | 10 lbs. |
+|   Lamellar, iron | 50 gp | +1 | +1 | –4 | 20% | 20 ft.⁲ | 15 ft.⁲ | 10 lbs. |
+|   Plate | 925 gp | +1 | +1 | –3 | 20% | 20 ft.⁲ | 15 ft.⁲ | 10 lbs. |
+|   Splint | 50 gp | +1 | +0 | –4 | 20% | 20 ft.⁲ | 15 ft.⁲ | 15 lbs. |
+|   Tatami-do | 150 gp | +1 | +3 | –3 | 15% | 20 ft.⁲ | 15 ft.⁲ | 5 lbs. |
+|   O-yoroi | 300 gp | +2 | +2 | –3 | 20% | 20 ft.⁲ | 15 ft.⁲ | 5 lbs. |
 
 Heavier leg armor pieces slow down their wearers and provide higher armor check penalties, but are less restrictive to spellcasters than heavier arm armor pieces.
 
@@ -296,19 +282,19 @@ Heavier leg armor pieces slow down their wearers and provide higher armor check 
 
 ## Torso
 
-<caption>Table: Torso Armor Pieces</caption><thead><tr>
-<th>Armor Type</th>
-<th>Cost</th>
-<th>Armor<br>Bonus</th>
-<th>Maximum<br>Dex Bonus</th>
-<th>Armor<br>Check Penalty</th>
-<th>Arcane Spell<br>Failure Chance</th>
-<th colspan="2">Speed<br><div style="float:left">30 ft.</div>
-<div style="float:right">20 ft.</div>
-</th>
-<th>Weight<sup>1</sup>
-</th>
-</tr></thead>| _Light Armor_ |
+[Table: Torso Armor Pieces]
+| Armor Type | Cost | Armor  
+Bonus | Maximum  
+Dex Bonus | Armor  
+Check Penalty | Arcane Spell  
+Failure Chance | Speed  
+
+30 ft.
+
+20 ft.
+ | Weightⁱ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| _Light Armor_ |
 |   Padded | 3 gp | +0 | +8 | 0 | 5% | 30 ft. | 20 ft. | 5 lbs. |
 |   Quilted cloth | 50 gp | +0 | +8 | 0 | 10% | 30 ft. | 20 ft. | 10 lbs. |
 |   Haramaki | 3 gp | +1 | +10 | 0 | 0% | 30 ft. | 20 ft. | 1 lb. |
@@ -326,23 +312,19 @@ Heavier leg armor pieces slow down their wearers and provide higher armor check 
 |   Scale | 30 gp | +2 | +3 | –2 | 25% | 30 ft. | 20 ft. | 15 lbs. |
 |   Mountain pattern | 150 gp | +3 | +3 | –4 | 30% | 20 ft. | 15 ft. | 20 lbs. |
 |   Armored coat | 50 gp | +4 | +3 | –2 | 20% | 20 ft. | 15 ft. | 20 lbs. |
-|   Chain<sup>3</sup> | 100 gp | +4 | +4 | –2 | 30% | 30 ft. | 20 ft. | 25 lbs. |
+|   Chain⁳ | 100 gp | +4 | +4 | –2 | 30% | 30 ft. | 20 ft. | 25 lbs. |
 |   Do-maru | 200 gp | +5 | +4 | –4 | 25% | 20 ft. | 15 ft. | 30 lbs. |
 |   Four-mirror armor | 20 gp | +5 | +4 | –5 | 30% | 20 ft. | 15 ft. | 40 lbs. |
 | _Heavy Armor_ |
-|   Banded | 150 gp | +4 | +1 | –2 | 35% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 20 lbs. |
-|   Kusari gusoku | 200 gp | +4 | +1 | –7 | 35% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 20 lbs |
-|   Lamellar, iron | 100 gp | +4 | 0 | –7 | 40% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 15 lbs. |
-|   Splint | 100 gp | +4 | +0 | –3 | 40% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 25 lbs. |
-|   Tatami-do | 500 gp | +4 | +4 | –6 | 35% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 30 lbs. |
-|   O-yoroi | 750 gp | +5 | +2 | –6 | 35% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 30 lbs. |
-|   Agile plate<sup>3</sup> | 400 gp | +6 | +3 | –4 | 25% | 20 ft. | 15 ft. | 25 lbs. |
-|   Plate<sup>3</sup> | 200 gp | +6 | +3 | –4 | 35% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 30 lbs. |
-|   Stone coat | 500 gp | +8 | 0 | –7 | 40% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 45 lbs. |
-<tfoot><tr><td colspan="9">
-<sup>1</sup> Weight figures are for armor pieces sized to fit Medium characters. Armor pieces fitted for Small characters weigh half as much, and armor pieces fitted for Large characters weigh twice as much.<br>
-<sup>2</sup> When running while wearing this armor piece, you move only triple your speed, not quadruple.<br>
-<sup>3</sup> These armor pieces are considered to be one weight category lower when worn with no other armor pieces. A chain torso armor piece worn alone is a chain shirt (light armor), and a plate or agile plate torso armor piece is a breastplate (medium armor).</td></tr></tfoot>
+|   Banded | 150 gp | +4 | +1 | –2 | 35% | 20 ft.⁲ | 15 ft.⁲ | 20 lbs. |
+|   Kusari gusoku | 200 gp | +4 | +1 | –7 | 35% | 20 ft.⁲ | 15 ft.⁲ | 20 lbs |
+|   Lamellar, iron | 100 gp | +4 | 0 | –7 | 40% | 20 ft.⁲ | 15 ft.⁲ | 15 lbs. |
+|   Splint | 100 gp | +4 | +0 | –3 | 40% | 20 ft.⁲ | 15 ft.⁲ | 25 lbs. |
+|   Tatami-do | 500 gp | +4 | +4 | –6 | 35% | 20 ft.⁲ | 15 ft.⁲ | 30 lbs. |
+|   O-yoroi | 750 gp | +5 | +2 | –6 | 35% | 20 ft.⁲ | 15 ft.⁲ | 30 lbs. |
+|   Agile plate⁳ | 400 gp | +6 | +3 | –4 | 25% | 20 ft. | 15 ft. | 25 lbs. |
+|   Plate⁳ | 200 gp | +6 | +3 | –4 | 35% | 20 ft.⁲ | 15 ft.⁲ | 30 lbs. |
+|   Stone coat | 500 gp | +8 | 0 | –7 | 40% | 20 ft.⁲ | 15 ft.⁲ | 45 lbs. |
 
 The torso armor piece provides the most protection, but also usually provides the most hindrances to the wearer.
 

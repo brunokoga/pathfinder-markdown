@@ -56,7 +56,7 @@ Statistics
 
 **Base Atk** +0; **CMB** +2; **CMD** 9
 
-**Feats** [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)<sup>B</sup>, [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)B, [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)B
 
 **Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +6, [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (traps) +10, [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device) +9, [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist) +8, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6, [Sleight of Hand](/pathfinderRPG/prd/additionalMonsters/../skills/sleightOfHand.html#_sleight-of-hand) +8, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +16, [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device) +6; **Racial Modifiers** +4 [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (traps), +4 [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device)
 
@@ -126,7 +126,7 @@ Statistics
 
 **Base Atk** +1; **CMB** +1 (+5 grapple and trip); **CMD** 15
 
-**Feats** [Step Up](/pathfinderRPG/prd/additionalMonsters/../feats.html#_step-up), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)<sup>B</sup>, [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (claw)
+**Feats** [Step Up](/pathfinderRPG/prd/additionalMonsters/../feats.html#_step-up), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)B, [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (claw)
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +10, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +9, [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (traps) +9, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +8, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +9, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +14; **Racial Modifiers** +4 [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (traps), +4 [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate), +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)
 
@@ -202,7 +202,7 @@ Statistics
 
 **Base Atk** +0; **CMB** –1; **CMD** 5
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)<sup>B</sup>, [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)B, [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)B
 
 **Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +2, [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (traps) +4, [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device) +2, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6 (+2 Listening), [Ride](/pathfinderRPG/prd/additionalMonsters/../skills/ride.html#_ride) +2, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +17; **Racial Modifiers** +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth), –4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) when listening
 
@@ -270,7 +270,7 @@ Statistics
 
 **Base Atk** +0; **CMB** –1; **CMD** 7
 
-**Feats** [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device)), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)<sup>B</sup>, [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device)), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)B, [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)B
 
 **Skills** [Appraise](/pathfinderRPG/prd/additionalMonsters/../skills/appraise.html#_appraise) +2, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +13, [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (traps) +5, [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device) +9, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (engineering) +2, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +5, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +13 (+17 in metal or stony areas, +9 when moving); **Racial Modifiers** +4 [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device), +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) in metal or stony areas, –4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) when moving
 

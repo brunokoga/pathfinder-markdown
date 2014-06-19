@@ -6,10 +6,9 @@ You are skilled at flying, through either the use of wings or magic, and can per
 
 **Check** : You generally need only make a Fly check when you are attempting a complex maneuver. Without making a check, a flying creature can remain flying at the end of its turn so long as it moves a distance greater than half its speed. It can also turn up to 45 degrees by sacrificing 5 feet of movement, can rise at half speed at an angle of 45 degrees, and can descend at any angle at normal speed. Note that these restrictions only apply to movement taken during your current turn. At the beginning of the next turn, you can move in a different direction than you did the previous turn without making a check. Taking any action that violates these rules requires a Fly check. The difficulty of these maneuvers varies depending upon the maneuver you are attempting, as noted on the following chart.
 
-<thead><tr>
-<th>Flying Maneuver</th>
-<th>Fly DC</th>
-</tr></thead>| Move less than half speed and remain flying | 10 |
+| Flying Maneuver | Fly DC |
+| --- | --- |
+| Move less than half speed and remain flying | 10 |
 | Hover | 15 |
 | Turn greater than 45° by spending 5 feet of movement | 15 |
 | Turn 180Â° by spending 10 feet of movement | 20 |
@@ -23,13 +22,10 @@ _Avoid Falling Damage_: If you are falling and have the ability to fly, you can 
 
 _High Wind Speeds_: Flying in high winds adds penalties on your Fly checks as noted on Table: Wind Effects on Flight. âCheckedâ means that creatures of that size or smaller must succeed on a DC 20 Fly check to move at all so long as the wind persists. âBlown awayâ means that creatures of that size or smaller must make a DC 25 Fly check or be blown back 2d6 × 10 feet and take 2d6 points of nonlethal damage. This check must be made every round the creature remains airborne. A creature that is blown away must still make a DC 20 Fly check to move due to also being checked.
 
-<caption>Table: Wind Effects on Flight</caption><thead><tr>
-<th>Wind Force</th>
-<th>Wind Speed</th>
-<th>Checked Size</th>
-<th>Blown Away Size</th>
-<th>Fly Penalty</th>
-</tr></thead><tbody>
+[Table: Wind Effects on Flight]
+| Wind Force | Wind Speed | Checked Size | Blown Away Size | Fly Penalty |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Light</td>
 <td>0–10 mph</td>

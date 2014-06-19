@@ -128,10 +128,10 @@ Racial modifiers (adjustments made to your ability scores due to your character'
 
 **Dice Pool:** Each character has a pool of 24d6 to assign to his statistics. Before the dice are rolled, the player selects the number of dice to roll for each score, with a minimum of 3d6 for each ability. Once the dice have been assigned, the player rolls each group and totals the result of the three highest dice. For more high-powered games, the GM should increase the total number of dice to 28. This method generates characters of a similar power to the Standard method.
 
-<caption>Table: Ability Score Costs</caption><thead><tr>
-<th>Score</th>
-<th>Points</th>
-</tr></thead><tbody>
+[Table: Ability Score Costs]
+| Score | Points |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>7</td>
 <td>–4</td>
@@ -184,10 +184,10 @@ Racial modifiers (adjustments made to your ability scores due to your character'
   
   
 
-<caption>Table: Ability Score Points</caption><thead><tr>
-<th>Campaign Type</th>
-<th>Points</th>
-</tr></thead><tbody>
+[Table: Ability Score Points]
+| Campaign Type | Points |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Low Fantasy</td>
 <td>10</td>
@@ -220,25 +220,12 @@ Each ability, after changes made because of race, has a modifier ranging from �
 
 The ability that governs bonus spells depends on what type of spellcaster your character is: Intelligence for wizards; Wisdom for clerics, druids, and rangers; and Charisma for bards, paladins, and sorcerers. In addition to having a high ability score, a spellcaster must be of a high enough class level to be able to cast spells of a given spell level. See the class descriptions in [Classes](classes.html) for details.
 
-<caption>Table: Ability Modifiers and Bonus Spells</caption><thead>
-<tr>
-<th rowspan="2">Ability Score</th>
-<th rowspan="2">Modifier</th>
-<th colspan="10">Bonus Spells per Day (by Spell Level)</th>
-</tr>
-<tr>
-<th>0</th>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-<th>7th</th>
-<th>8th</th>
-<th>9th</th>
-</tr>
-</thead>| 1 | –5 | Can't cast spells tied to this ability |
+[Table: Ability Modifiers and Bonus Spells]
+| Ability Score | Modifier | Bonus Spells per Day (by Spell Level) |
+| --- | --- | --- |
+| 0 | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | –5 | Can't cast spells tied to this ability |
 | 2–3 | –4 | Can't cast spells tied to this ability |
 | 4–5 | –3 | Can't cast spells tied to this ability |
 | 6–7 | –2 | Can't cast spells tied to this ability |

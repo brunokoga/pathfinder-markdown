@@ -56,17 +56,10 @@ A vast variety of boats and ships exist in the real world, from small rafts and 
 
 **Crew** : The first number lists the minimum crew complement the ship needs to function normally, excluding those needed to make use of the vessel's weapons. The second value lists the ship's maximum crew plus additional soldiers or passengers. A ship without its minimum crew complement can only move, change speed, change direction, or ram if its captain makes a DC 20 [Profession](../skills/profession.html#_profession) (sailor) check. Crew in excess of the minimum have no effect on movement, but they can replace fallen crewmembers or man additional weapons.
 
-<caption>Table: Ship Statistics</caption><thead><tr>
-<th>Ship Type</th>
-<th>AC</th>
-<th>hp</th>
-<th>Base Save</th>
-<th>Maximum Speed</th>
-<th>Arms</th>
-<th>Ram</th>
-<th>Squares</th>
-<th>Crew</th>
-</tr></thead><tbody>
+[Table: Ship Statistics]
+| Ship Type | AC | hp | Base Save | Maximum Speed | Arms | Ram | Squares | Crew |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Keelboat</td>
 <td>8</td>

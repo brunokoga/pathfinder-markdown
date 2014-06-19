@@ -5,10 +5,9 @@ Small familiars threaten the areas around them like Small creatures, and can be 
   
   
 
-<thead><tr>
-<th>Familiar</th>
-<th>Special Ability</th>
-</tr></thead><tbody>
+| Familiar | Special Ability |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Flying squirrel</td>
 <td>Master gains a +3 bonus on <a href="/pathfinderRPG/prd/skills/fly.html#_fly">Fly</a> checks</td>

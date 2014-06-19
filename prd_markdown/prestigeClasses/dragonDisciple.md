@@ -28,15 +28,10 @@ The dragon disciple's class skills (and the key ability for each skill) are [Dip
 
 **Skill Ranks at Each Level** : 2 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Dragon Disciple</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-<th>Spells per Day</th>
-</tr></thead>| 1st | +0 | +1 | +0 | +1 | Blood of dragons, natural armor increase (+1) | — |
+[Table: Dragon Disciple]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +1 | +0 | +1 | Blood of dragons, natural armor increase (+1) | — |
 | 2nd | +1 | +1 | +1 | +1 | Ability boost (Str +2), bloodline feat, dragon bite | +1 level of existing arcane spellcasting class |
 | 3rd | +2 | +2 | +1 | +2 | Breath weapon | +1 level of existing arcane spellcasting class |
 | 4th | +3 | +2 | +1 | +2 | Ability boost (Str +2), natural armor increase (+1) | +1 level of existing arcane spellcasting class |

@@ -2,11 +2,10 @@
 
 Each character begins play with a number of gold pieces that he can spend on weapons, armor, and other equipment. As a character adventures, he accumulates more wealth that can be spent on better gear and magic items. Table: Starting Character Wealth lists the starting gold piece values by class. In addition, each character begins play with an outfit worth 10 gp or less. For characters above 1st level, see Table: Character Wealth by Level.
 
-<caption>Table: Starting Character Wealth</caption><thead><tr>
-<th>Class</th>
-<th>Starting Wealth</th>
-<th>Average</th>
-</tr></thead>| Barbarian | 3d6 × 10 gp | 105 gp |
+[Table: Starting Character Wealth]
+| Class | Starting Wealth | Average |
+| --- | --- | --- |
+| Barbarian | 3d6 × 10 gp | 105 gp |
 | Bard | 3d6 × 10 gp | 105 gp |
 | Cleric | 4d6 × 10 gp | 140 gp |
 | Druid | 2d6 × 10 gp | 70 gp |
@@ -24,13 +23,10 @@ The most common coin is the gold piece (gp). A gold piece is worth 10 silver pie
 
 The standard coin weighs about a third of an ounce (50 to the pound).
 
-<caption>Table: <a id="coins"></a>Coins</caption><thead><tr>
-<th>Exchange Value</th>
-<th>cp</th>
-<th>sp</th>
-<th>gp</th>
-<th>pp</th>
-</tr></thead>| Copper piece (cp) | 1 | 1/10 | 1/100 | 1/1,000 |
+[Table: Coins]
+| Exchange Value | cp | sp | gp | pp |
+| --- | --- | --- | --- | --- |
+| Copper piece (cp) | 1 | 1/10 | 1/100 | 1/1,000 |
 | Silver piece (sp) | 10 | 1 | 1/10 | 1/100 |
 | Gold piece (gp) | 100 | 10 | 1 | 1/10 |
 | Platinum piece (pp) | 1,000 | 100 | 10 | 1 |
@@ -39,10 +35,10 @@ The standard coin weighs about a third of an ounce (50 to the pound).
 
 Merchants commonly exchange trade goods without using currency. As a means of comparison, some trade goods are detailed on Table: Trade Goods.
 
-<caption>Table: Trade Goods</caption><thead><tr>
-<th>Cost</th>
-<th>Item</th>
-</tr></thead>| 1 cp | One pound of wheat |
+[Table: Trade Goods]
+| Cost | Item |
+| --- | --- |
+| 1 cp | One pound of wheat |
 | 2 cp | One pound of flour, or one chicken |
 | 1 sp | One pound of iron |
 | 5 sp | One pound of tobacco or copper |
@@ -119,11 +115,10 @@ This cost is the same for a Small or Medium version of the weapon. A Large versi
  
  
 
-<caption>Table: Tiny and Large Weapon Damage</caption><thead><tr>
-<th>Medium Weapon Damage</th>
-<th>Tiny Weapon Damage</th>
-<th>Large Weapon Damage</th>
-</tr></thead><tbody>
+[Table: Tiny and Large Weapon Damage]
+| Medium Weapon Damage | Tiny Weapon Damage | Large Weapon Damage |
+| --- | --- | --- |
+<tbody>
 <tr class="even">
 <td>1d2</td>
 <td>—</td>
@@ -227,19 +222,10 @@ _Trip_: You can use a trip weapon to make trip attacks. If you are tripped durin
 
 ## Weapon Descriptions
 
-<caption>Table: Weapons</caption><thead><tr>
-<th>Simple Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight<sup>1</sup>
-</th>
-<th> Type<sup>2</sup>
-</th>
-<th>Special</th>
-</tr></thead>| _Unarmed Attacks_ |
+[Table: Weapons]
+| Simple Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weightⁱ | Type⁲ | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _Unarmed Attacks_ |
 | Gauntlet | 2 gp | 1d2 | 1d3 | ×2 | — | 1 lb. | B | — |
 | Unarmed strike | — | 1d2 | 1d3 | ×2 | — | — | B | nonlethal |
 | _Light Melee Weapons_ |
@@ -268,7 +254,7 @@ _Trip_: You can use a trip weapon to make trip attacks. If you are tripped durin
 | Javelin | 1 gp | 1d4 | 1d6 | ×2 | 30 ft. | 2 lbs. | P | — |
 | Sling | — | 1d3 | 1d4 | ×2 | 50 ft. | — | B | — |
 | Bullets, sling (10) | 1 sp | — | — | — | — | 5 lbs. | — | — |
-| Martial Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weight<sup>1</sup> | Type<sup>2</sup> | Special |
+| Martial Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weightⁱ | Type⁲ | Special |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | _Light Melee Weapons_ |
 | Axe, throwing | 8 gp | 1d4 | 1d6 | ×2 | 10 ft. | 2 lbs. | S | — |
@@ -305,7 +291,9 @@ _Trip_: You can use a trip weapon to make trip attacks. If you are tripped durin
 | Lance | 10 gp | 1d6 | 1d8 | ×3 | — | 10 lbs. | P | reach |
 | Ranseur | 10 gp | 1d6 | 2d4 | ×3 | — | 12 lbs. | P | disarm, reach |
 | Scythe | 18 gp | 1d6 | 2d4 | ×4 | — | 10 lbs. | P or S | trip |
-<thead><tr class="even"><td colspan="9"><i>Ranged Weapons</i></td></tr></thead>| Longbow | 75 gp | 1d6 | 1d8 | ×3 | 100 ft. | 3 lbs. | P | — |
+
+| _Ranged Weapons_ |
+| Longbow | 75 gp | 1d6 | 1d8 | ×3 | 100 ft. | 3 lbs. | P | — |
 | Arrows (20) | 1 gp | — | — | — | — | 3 lbs. | — | — |
 | Longbow, composite | 100 gp | 1d6 | 1d8 | ×3 | 110 ft. | 3 lbs. | P | — |
 | Arrows (20) | 1 gp | — | — | — | — | 3 lbs. | — | — |
@@ -313,7 +301,7 @@ _Trip_: You can use a trip weapon to make trip attacks. If you are tripped durin
 | Arrows (20) | 1 gp | — | — | — | — | 3 lbs. | — | — |
 | Shortbow, composite | 75 gp | 1d4 | 1d6 | ×3 | 70 ft. | 2 lbs. | P | — |
 | Arrows (20) | 1 gp | — | — | — | — | 3 lbs. | — | — |
-| Exotic Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weight<sup>1</sup> | Type<sup>2</sup> | Special |
+| Exotic Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weightⁱ | Type⁲ | Special |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | _Light Melee Weapons_ |
 | Kama | 2 gp | 1d4 | 1d6 | ×2 | — | 2 lbs. | S | monk, trip |
@@ -344,10 +332,6 @@ _Trip_: You can use a trip weapon to make trip attacks. If you are tripped durin
 | Shuriken (5) | 1 gp | 1 | 1d2 | ×2 | 10 ft. | 1/2 lb. | P | monk |
 | Sling staff, halfling | 20 gp | 1d6 | 1d8 | ×3 | 80 ft. | 3 lbs. | B | — |
 | Bullets, sling (10) | 1 sp | — | — | — | — | 5 lbs. | — | — |
-<tfoot>
-<tr><td colspan="9">1 Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.</td></tr>
-<tr><td colspan="9">2 A weapon with two types is both types if the entry specifies âand,â or either type (wielder's choice) if the entry specifies âor.â </td></tr>
-</tfoot>
 
 Weapons found on Table: Weapons are described below. Splash weapons are described under Special Substances and Items.
 
@@ -555,23 +539,12 @@ _Shields_: Shields do not affect a character's speed.
 
 ## Armor Descriptions
 
-<caption>Table: Armor and Shields</caption><thead>
-<tr>
-<th rowspan="2">Armor</th>
-<th rowspan="2">Cost</th>
-<th rowspan="2">Armor/Shield Bonus</th>
-<th rowspan="2">Maximum <a href="gettingStarted.html#_dexterity">Dex</a> Bonus</th>
-<th rowspan="2">Armor Check Penalty</th>
-<th rowspan="2">Arcane Spell Failure Chance</th>
-<th colspan="2">Speed</th>
-<th rowspan="2">Weight<sup>1</sup>
-</th>
-</tr>
-<tr>
-<th>30 ft.</th>
-<th>20 ft.</th>
-</tr>
-</thead>| _Light armor_ |
+[Table: Armor and Shields]
+| Armor | Cost | Armor/Shield Bonus | Maximum [Dex](gettingStarted.html#_dexterity) Bonus | Armor Check Penalty | Arcane Spell Failure Chance | Speed | Weightⁱ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 30 ft. | 20 ft. |
+| --- | --- |
+| _Light armor_ |
 | Padded | 5 gp | +1 | +8 | 0 | 5% | 30 ft. | 20 ft. | 10 lbs. |
 | Leather | 10 gp | +2 | +6 | 0 | 10% | 30 ft. | 20 ft. | 15 lbs. |
 | Studded leather | 25 gp | +3 | +5 | –1 | 15% | 30 ft. | 20 ft. | 20 lbs. |
@@ -582,27 +555,21 @@ _Shields_: Shields do not affect a character's speed.
 | Chainmail | 150 gp | +6 | +2 | –5 | 30% | 20 ft. | 15 ft. | 40 lbs. |
 | Breastplate | 200 gp | +6 | +3 | –4 | 25% | 20 ft. | 15 ft. | 30 lbs. |
 | _Heavy armor _ |
-| Splint mail | 200 gp | +7 | +0 | –7 | 40% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 45 lbs. |
-| Banded mail | 250 gp | +7 | +1 | –6 | 35% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 35 lbs. |
-| Half-plate | 600 gp | +8 | +0 | –7 | 40% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 50 lbs. |
-| Full plate | 1,500 gp | +9 | +1 | –6 | 35% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 50 lbs. |
+| Splint mail | 200 gp | +7 | +0 | –7 | 40% | 20 ft.⁲ | 15 ft.⁲ | 45 lbs. |
+| Banded mail | 250 gp | +7 | +1 | –6 | 35% | 20 ft.⁲ | 15 ft.⁲ | 35 lbs. |
+| Half-plate | 600 gp | +8 | +0 | –7 | 40% | 20 ft.⁲ | 15 ft.⁲ | 50 lbs. |
+| Full plate | 1,500 gp | +9 | +1 | –6 | 35% | 20 ft.⁲ | 15 ft.⁲ | 50 lbs. |
 | _Shields _ |
 | Buckler | 5 gp | +1 | — | –1 | 5% | — | — | 5 lbs. |
 | Shield, light wooden | 3 gp | +1 | — | –1 | 5% | — | — | 5 lbs. |
 | Shield, light steel | 9 gp | +1 | — | –1 | 5% | — | — | 6 lbs. |
 | Shield, heavy wooden | 7 gp | +2 | — | –2 | 15% | — | — | 10 lbs. |
 | Shield, heavy steel | 20 gp | +2 | — | –2 | 15% | — | — | 15 lbs. |
-| Shield, tower | 30 gp | +4<sup>3</sup> | +2 | –10 | 50% | — | — | 45 lbs. |
+| Shield, tower | 30 gp | +4⁳ | +2 | –10 | 50% | — | — | 45 lbs. |
 | _Extras _ |
 | Armor spikes | +50 gp | — | — | — | — | — | — | +10 lbs. |
-| Gauntlet, locked | 8 gp | — | — | special | n/a<sup>4</sup> | — | — | +5 lbs. |
+| Gauntlet, locked | 8 gp | — | — | special | n/a⁴ | — | — | +5 lbs. |
 | Shield spikes | +10 gp | — | — | — | — | — | — | +5 lbs. |
-<tfoot>
-<tr><td colspan="9">1 Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much.</td></tr>
-<tr><td colspan="9">2 When running in heavy armor, you move only triple your speed, not quadruple.</td></tr>
-<tr><td colspan="9">3 A tower shield can instead grant you cover. See the description.</td></tr>
-<tr><td colspan="9">4 Hand not free to cast spells.</td></tr>
-</tfoot>
 
 Any special benefits or accessories to the types of armor found on Table: Armor and Shields are described below.
 
@@ -676,19 +643,12 @@ You can't add the masterwork quality to armor or a shield after it is created; i
 
 ## Armor for Unusual Creatures
 
-<caption>Table: Armor for Unusual Creatures</caption><thead>
-<tr>
-<th rowspan="2">Size</th>
-<th colspan="2">Humanoid</th>
-<th colspan="2">Nonhumanoid</th>
-</tr>
-<tr>
-<th>Cost</th>
-<th>Weight</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr>
-</thead><tbody>
+[Table: Armor for Unusual Creatures]
+| Size | Humanoid | Nonhumanoid |
+| --- | --- | --- |
+| Cost | Weight | Cost | Weight |
+| --- | --- | --- | --- |
+<tbody>
 <tr class="even">
 <td>Tiny or smaller*</td>
 <td>×1/2</td>
@@ -738,9 +698,7 @@ You can't add the masterwork quality to armor or a shield after it is created; i
 <td>×32</td>
 <td>×12</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="5">*Divide armor bonus by 2.</td></tr>
-</tfoot>
+</tbody>
 
 Armor and shields for unusually big creatures, unusually little creatures, and nonhumanoid creatures (such as horses) have different costs and weights from those given on Table: Armor and Shields. Refer to the appropriate line on Table: Armor for Unusual Creatures and apply the multipliers to cost and weight for the armor type in question.
 
@@ -754,19 +712,13 @@ The time required to don armor depends on its type; see Table: Donning Armor.
 
 **Remove** : This column tells how long it takes to get the armor off. Removing a shield from the arm and dropping it is only a move action.
 
-<caption>Table: Donning Armor</caption><thead><tr>
-<th>Armor Type</th>
-<th>Don</th>
-<th>Don Hastily</th>
-<th>Remove</th>
-</tr></thead>| Shield (any) | 1 move action | n/a | 1 move action |
-| Padded, leather, hide, studded leather, or chain shirt | 1 minute | 5 rounds | 1 minute<sup>1</sup> |
-| Breastplate, scale mail, chainmail, banded mail, or splint mail | 4 minutes<sup>1</sup> | 1 minute | 1 minute<sup>1</sup> |
-| Half-plate or full plate | 4 minutes<sup>2</sup> | 4 minutes<sup>1</sup> | 1d4+1 minutes<sup>1</sup> |
-<tfoot>
-<tr><td colspan="4">1 If the character has some help, cut this time in half. A single character doing nothing else can help one or two adjacent characters. Two characters can't help each other don armor at the same time.</td></tr>
-<tr><td colspan="4">2 The wearer must have help to don this armor. Without help, it can be donned only hastily.</td></tr>
-</tfoot>
+[Table: Donning Armor]
+| Armor Type | Don | Don Hastily | Remove |
+| --- | --- | --- | --- |
+| Shield (any) | 1 move action | n/a | 1 move action |
+| Padded, leather, hide, studded leather, or chain shirt | 1 minute | 5 rounds | 1 minuteⁱ |
+| Breastplate, scale mail, chainmail, banded mail, or splint mail | 4 minutesⁱ | 1 minute | 1 minuteⁱ |
+| Half-plate or full plate | 4 minutes⁲ | 4 minutesⁱ | 1d4+1 minutesⁱ |
 
 # Special Materials
 
@@ -778,10 +730,9 @@ Each of the special materials described below has a definite game effect. Some c
 
 Weapons and armor normally made of steel that are made of adamantine have one-third more hit points than normal. Adamantine has 40 hit points per inch of thickness and hardness 20.
 
-<thead><tr>
-<th>Type of Adamantine Item</th>
-<th>Item Cost Modifier</th>
-</tr></thead>| Ammunition | +60 gp per missile |
+| Type of Adamantine Item | Item Cost Modifier |
+| --- | --- |
+| Ammunition | +60 gp per missile |
 | Light armor | +5,000 gp |
 | Medium armor | +10,000 gp |
 | Heavy armor | +15,000 gp |
@@ -813,10 +764,9 @@ Weapons or armors fashioned from mithral are always masterwork items as well; th
 
 Mithral has 30 hit points per inch of thickness and hardness 15.
 
-<thead><tr>
-<th>Type of Mithral Item</th>
-<th>Item Cost Modifier</th>
-</tr></thead>| Light armor | +1,000 gp |
+| Type of Mithral Item | Item Cost Modifier |
+| --- | --- |
+| Light armor | +1,000 gp |
 | Medium armor | +4,000 gp |
 | Heavy armor | +9,000 gp |
 | Shield | +1,000 gp |
@@ -828,29 +778,26 @@ On a successful attack with a silvered slashing or piercing weapon, the wielder 
 
 Alchemical silver has 10 hit points per inch of thickness and hardness 8.
 
-<thead><tr>
-<th>Type of Alchemical Silver Item</th>
-<th>Item Cost Modifier</th>
-</tr></thead>| Ammunition | +2 gp |
+| Type of Alchemical Silver Item | Item Cost Modifier |
+| --- | --- |
+| Ammunition | +2 gp |
 | Light weapon | +20 gp |
 | One-handed weapon, or one head of a double weapon | +90 gp |
 | Two-handed weapon, or both heads of a double weapon | +180 gp |
 
 # Goods And Services
 
-<caption>Table: Goods and Services</caption><thead>
-<tr><th colspan="3"><i><b>Adventuring Gear</b></i></th></tr>
-<tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr>
-</thead>| Backpack (empty) | 2 gp | 2 lbs.<sup>1</sup> |
+[Table: Goods and Services]
+| _ **Adventuring Gear** _ |
+| --- |
+| Item | Cost | Weight |
+| --- | --- | --- |
+| Backpack (empty) | 2 gp | 2 lbs.ⁱ |
 | Barrel (empty) | 2 gp | 30 lbs. |
 | Basket (empty) | 4 sp | 1 lb. |
-| Bedroll | 1 sp | 5 lbs.<sup>1</sup> |
+| Bedroll | 1 sp | 5 lbs.ⁱ |
 | Bell | 1 gp | — |
-| Blanket, winter | 5 sp | 3 lbs.<sup>1</sup> |
+| Blanket, winter | 5 sp | 3 lbs.ⁱ |
 | Block and tackle | 5 gp | 5 lbs. |
 | Bottle, glass | 2 gp | 1 lb. |
 | Bucket (empty) | 5 sp | 2 lbs. |
@@ -894,12 +841,12 @@ Alchemical silver has 10 hit points per inch of thickness and hardness 8.
 | Piton | 1 sp | 1/2 lb. |
 | Pole, 10-foot | 5 cp | 8 lbs. |
 | Pot, iron | 8 sp | 4 lbs. |
-| Pouch, belt (empty) | 1 gp | 1/2 lb.<sup>1</sup> |
+| Pouch, belt (empty) | 1 gp | 1/2 lb.ⁱ |
 | Ram, portable | 10 gp | 20 lbs. |
-| Rations, trail (per day) | 5 sp | 1 lb.<sup>1</sup> |
+| Rations, trail (per day) | 5 sp | 1 lb.ⁱ |
 | Rope, hemp (50 ft.) | 1 gp | 10 lbs. |
 | Rope, silk (50 ft.) | 10 gp | 5 lbs. |
-| Sack (empty) | 1 sp | 1/2 lb.<sup>1</sup> |
+| Sack (empty) | 1 sp | 1/2 lb.ⁱ |
 | Sealing wax | 1 gp | 1 lb. |
 | Sewing needle | 5 sp | — |
 | Shovel or spade | 2 gp | 8 lbs. |
@@ -908,11 +855,11 @@ Alchemical silver has 10 hit points per inch of thickness and hardness 8.
 | Sledge | 1 gp | 10 lbs. |
 | Soap (per lb.) | 5 sp | 1 lb. |
 | Spyglass | 1,000 gp | 1 lb. |
-| Tent | 10 gp | 20 lbs.<sup>1</sup> |
+| Tent | 10 gp | 20 lbs.ⁱ |
 | Torch | 1 cp | 1 lb. |
 | Vial, ink or potion | 1 gp | — |
 | Water clock | 1,000 gp | 200 lbs. |
-| Waterskin | 1 gp | 4 lbs.<sup>1</sup> |
+| Waterskin | 1 gp | 4 lbs.ⁱ |
 | Whetstone | 2 cp | 1 lb. |
 | _ **Special Substances and Items** _ |
 | --- |
@@ -935,15 +882,15 @@ Alchemical silver has 10 hit points per inch of thickness and hardness 8.
 | Alchemist's lab | 200 gp | 40 lbs. |
 | Artisan's tools | 5 gp | 5 lbs. |
 | Artisan's tools, masterwork | 55 gp | 5 lbs. |
-| Climber's kit | 80 gp | 5 lbs.<sup>1</sup> |
-| Disguise kit | 50 gp | 8 lbs.<sup>1</sup> |
+| Climber's kit | 80 gp | 5 lbs.ⁱ |
+| Disguise kit | 50 gp | 8 lbs.ⁱ |
 | Healer's kit | 50 gp | 1 lb. |
 | Holly and mistletoe | — | — |
 | Holy symbol, wooden | 1 gp | — |
 | Holy symbol, silver | 25 gp | 1 lb. |
 | Magnifying glass | 100 gp | — |
-| Musical instrument, common | 5 gp | 3 lbs.<sup>1</sup> |
-| Musical instrument, masterwork | 100 gp | 3 lbs.<sup>1</sup> |
+| Musical instrument, common | 5 gp | 3 lbs.ⁱ |
+| Musical instrument, masterwork | 100 gp | 3 lbs.ⁱ |
 | Scale, merchant's | 2 gp | 1 lb. |
 | Spell component pouch | 5 gp | 2 lbs. |
 | Spellbook, wizard's (blank) | 15 gp | 3 lbs. |
@@ -954,18 +901,18 @@ Alchemical silver has 10 hit points per inch of thickness and hardness 8.
 | --- |
 | Item | Cost | Weight |
 | --- | --- | --- |
-| Artisan's outfit | 1 gp | 4 lbs.<sup>1</sup> |
-| Cleric's vestments | 5 gp | 6 lbs.<sup>1</sup> |
-| Cold-weather outfit | 8 gp | 7 lbs.<sup>1</sup> |
-| Courtier's outfit | 30 gp | 6 lbs.<sup>1</sup> |
-| Entertainer's outfit | 3 gp | 4 lbs.<sup>1</sup> |
-| Explorer's outfit | 10 gp | 8 lbs.<sup>1</sup> |
-| Monk's outfit | 5 gp | 2 lbs.<sup>1</sup> |
-| Noble's outfit | 75 gp | 10 lbs.<sup>1</sup> |
-| Peasant's outfit | 1 sp | 2 lbs.<sup>1</sup> |
-| Royal outfit | 200 gp | 15 lbs.<sup>1</sup> |
-| Scholar's outfit | 5 gp | 6 lbs.<sup>1</sup> |
-| Traveler's outfit | 1 gp | 5 lbs.<sup>1</sup> |
+| Artisan's outfit | 1 gp | 4 lbs.ⁱ |
+| Cleric's vestments | 5 gp | 6 lbs.ⁱ |
+| Cold-weather outfit | 8 gp | 7 lbs.ⁱ |
+| Courtier's outfit | 30 gp | 6 lbs.ⁱ |
+| Entertainer's outfit | 3 gp | 4 lbs.ⁱ |
+| Explorer's outfit | 10 gp | 8 lbs.ⁱ |
+| Monk's outfit | 5 gp | 2 lbs.ⁱ |
+| Noble's outfit | 75 gp | 10 lbs.ⁱ |
+| Peasant's outfit | 1 sp | 2 lbs.ⁱ |
+| Royal outfit | 200 gp | 15 lbs.ⁱ |
+| Scholar's outfit | 5 gp | 6 lbs.ⁱ |
+| Traveler's outfit | 1 gp | 5 lbs.ⁱ |
 | _ **Food, Drink, and Lodging** _ |
 | --- |
 | Item | Cost | Weight |
@@ -993,8 +940,8 @@ Alchemical silver has 10 hit points per inch of thickness and hardness 8.
 | Item | Cost | Weight |
 | --- | --- | --- |
 | Barding |
-| Medium creature | ×2<sup>2</sup> | ×1<sup>2</sup> |
-| Large creature | ×4<sup>2</sup> | ×2<sup>2</sup> |
+| Medium creature | ×2⁲ | ×1⁲ |
+| Large creature | ×4⁲ | ×2⁲ |
 | Bit and bridle | 2 gp | 1 lb. |
 | Dog, guard | 25 gp | — |
 | Dog, riding | 150 gp | — |
@@ -1042,13 +989,7 @@ Alchemical silver has 10 hit points per inch of thickness and hardness 8.
 | Messenger | 2 cp per mile |
 | Road or gate toll | 1 cp |
 | Ship's passage | 1 sp per mile |
-| Spellcasting | Caster level × spell level × 10 gp<sup>3</sup> |
-<tfoot>
-<tr><td colspan="3">— No weight, or no weight worth noting.</td></tr>
-<tr><td colspan="3">1 These items weigh one-quarter this amount when made for Small characters. Containers for Small characters also carry one-quarter the normal amount.</td></tr>
-<tr><td colspan="3">2 Relative to similar armor made for a Medium humanoid.</td></tr>
-<tr><td colspan="3">3 See spell description for additional costs. If the additional costs put the spell's total cost above 3,000 gp, that spell is not generally available. Use a spell level of 1/2 for 0-level spells to calculate the cost.</td></tr>
-</tfoot>
+| Spellcasting | Caster level × spell level × 10 gp⁳ |
 
 Beyond armor and weapons, a character can carry a whole variety of gear, from rations (to sustain him on long travels), to rope (which is useful in countless circumstances). Most of the common gear carried by adventurers is summarized on Table: Goods and Services.
 
@@ -1236,17 +1177,11 @@ Flying mounts can't fly in medium or heavy barding.
 
 Removing and fitting barding takes five times as long as the figures given on Table: Donning Armor. A barded animal cannot be used to carry any load other than a rider and normal saddlebags.
 
-<thead>
-<tr>
-<th rowspan="2">Barding</th>
-<th colspan="3">Modifier</th>
-</tr>
-<tr>
-<th>(40 ft)</th>
-<th>(50 ft.)</th>
-<th>(60 ft.)</th>
-</tr>
-</thead><tbody>
+| Barding | Modifier |
+| --- | --- |
+| (40 ft) | (50 ft.) | (60 ft.) |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Medium</td>
 <td>30 ft.</td>
@@ -1259,9 +1194,7 @@ Removing and fitting barding takes five times as long as the figures given on Ta
 <td>35 ft.*</td>
 <td>40 ft.*</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="4">* A mount wearing heavy armor moves at only triple its normal speed when running instead of quadruple.</td></tr>
-</tfoot>
+</tbody>
 
 **Dog, Riding** : This Medium dog is specially trained to carry a Small humanoid rider. It is brave in combat like a combat-trained horse. Due to its smaller stature, you take no damage when you fall from a riding dog.
 

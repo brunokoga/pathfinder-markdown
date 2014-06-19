@@ -189,7 +189,7 @@
 - [**Resurgent Transformation**](/pathfinderRPG/prd/advanced/spells/resurgentTransformation.html#_resurgent-transformation)
 - [**Sending**](/pathfinderRPG/prd/spells/sending.html#_sending)
 - [**Spell Resistance**](/pathfinderRPG/prd/spells/spellResistance.html#_spell-resistance)
-- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)<sup>M</sup>
+- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)M
 - [**Undead Anatomy II**](/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-ii)
 - [**Vermin Shape II**](/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-ii)
 

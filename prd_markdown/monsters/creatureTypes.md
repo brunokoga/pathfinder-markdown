@@ -60,10 +60,9 @@ A construct is an animated object or artificially created creature. A construct 
 - A construct cannot be raised or resurrected.
 - A construct is hard to destroy, and gains bonus hit points based on size, as shown on the following table.
 
-<thead><tr>
-<th>Construct Size</th>
-<th>Bonus Hit Points</th>
-</tr></thead><tbody>
+| Construct Size | Bonus Hit Points |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Fine</td>
 <td>—</td>
@@ -574,10 +573,9 @@ Swarms made up of Diminutive or Fine creatures are susceptible to high winds, su
 
 _Swarm Attack_: Creatures with the swarm subtype don't make standard melee attacks. Instead, they deal automatic damage to any creature whose space they occupy at the end of their move, with no attack roll needed. Swarm attacks are not subject to a miss chance for concealment or cover. A swarm's statistics block has âswarmâ in the Melee entry, with no attack bonus given. The amount of damage a swarm deals is based on its Hit Dice, as shown below.
 
-<thead><tr>
-<th>Swarm HD</th>
-<th>Swarm Base Damage</th>
-</tr></thead><tbody>
+| Swarm HD | Swarm Base Damage |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–5</td>
 <td>1d6</td>

@@ -18,10 +18,9 @@ You create the ghostly image of a hand, which you can send to find a creature wi
 
 When the spell is cast, you specify a person (or any creature) by physical description, which can include race, gender, and appearance but not ambiguous factors such as level, alignment, or class. When the description is done, the hand streaks off in search of a subject that fits the description. The amount of time it takes to find the subject depends on how far away he is, as detailed on the following table.
 
-<thead><tr>
-<th>Distance</th>
-<th>Time to Locate</th>
-</tr></thead>| 100 ft. or less | 1 round |
+| Distance | Time to Locate |
+| --- | --- |
+| 100 ft. or less | 1 round |
 | 1,000 ft. | 1 minute |
 | 1 mile | 10 minutes |
 | 2 miles | 1 hour |

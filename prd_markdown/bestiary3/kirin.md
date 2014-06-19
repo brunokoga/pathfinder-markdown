@@ -54,7 +54,7 @@ Statistics
 
 **Base Atk** +9; **CMB** +15; **CMD** 31 (35 vs. trip)
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials)<sup>B</sup>, [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (gore)
+**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials)B, [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (gore)
 
 **Skills** [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +15, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +20, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +13, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +17, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (sing) +15, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +14
 

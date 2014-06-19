@@ -16,28 +16,12 @@ Once the character's basic concept has been determined, its ability scores must 
 
 **Preset Ability Scores** : Instead of assigning the scores, you can use Table: NPC Ability Scores to determine the NPC's ability scores, adjusting them as necessary to fit. Use the Melee NPC ability scores for characters whose primary role involves melee combat, such as barbarians, fighters, monks, paladins, rangers, and warriors. The Ranged NPC ability scores are for characters that fight with ranged weapons or use their [Dexterity](gettingStarted.html#_dexterity) to hit, such as fighters, rangers, and rogues. Use the Divine NPC ability scores for characters with divine spellcasting capabilities, such as adepts, clerics, and druids. The Arcane NPC ability scores should be used by characters with arcane spellcasting capabilities, such as bards, sorcerers, and wizards. Finally, the Skill NPC ability scores should be used for characters that focus on skill use, such as aristocrats, bards, commoners, experts, and rogues. Some NPCs might not fit into one of these categories and should have custom ability scores.
 
-<caption>Table: NPC Ability Scores</caption><thead>
-<tr>
-<th rowspan="2">Ability Score</th>
-<th colspan="2">Melee NPC</th>
-<th colspan="2">Ranged NPC</th>
-<th colspan="2">Divine NPC</th>
-<th colspan="2">Arcane NPC</th>
-<th colspan="2">Skill NPC</th>
-</tr>
-<tr>
-<th>Basic</th>
-<th>Heroic</th>
-<th>Basic</th>
-<th>Heroic</th>
-<th>Basic</th>
-<th>Heroic</th>
-<th>Basic</th>
-<th>Heroic</th>
-<th>Basic</th>
-<th>Heroic</th>
-</tr>
-</thead><tbody>
+[Table: NPC Ability Scores]
+| Ability Score | Melee NPC | Ranged NPC | Divine NPC | Arcane NPC | Skill NPC |
+| --- | --- | --- | --- | --- | --- |
+| Basic | Heroic | Basic | Heroic | Basic | Heroic | Basic | Heroic | Basic | Heroic |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Strength</td>
 <td>13</td>
@@ -116,20 +100,12 @@ Once the character's basic concept has been determined, its ability scores must 
 <td>9</td>
 <td>10</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="11">* If the arcane caster's spellcasting relies on Charisma, exchange these scores with one another.</td></tr>
-</tfoot>
+</tbody>
 
-<caption>Table: Racial Ability Adjustments</caption><thead><tr>
-<th>Ability Score</th>
-<th>Dwarf</th>
-<th>Elf</th>
-<th>Gnome</th>
-<th>Half-Elf*</th>
-<th>Half-Orc*</th>
-<th>Halfling</th>
-<th>Human*</th>
-</tr></thead><tbody>
+[Table: Racial Ability Adjustments]
+| Ability Score | Dwarf | Elf | Gnome | Half-Elf\* | Half-Orc\* | Halfling | Human\* |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Strength</td>
 <td>—</td>
@@ -190,9 +166,7 @@ Once the character's basic concept has been determined, its ability scores must 
 <td>+2</td>
 <td>—</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="8">* Half-elves, half-orcs, and humans receive a +2 bonus to one ability score of your choice.</td></tr>
-</tfoot>
+</tbody>
 
 ## Step 3: Skills
 
@@ -206,10 +180,10 @@ If the NPC has three or more classes, you must use the precise method for determ
 
 Once all of the NPC's ranks have been determined, assign class skill bonuses and apply the bonus or penalty from the NPC's relevant ability score.
 
-<caption>Table: NPC Skill Selections</caption><thead><tr>
-<th colspan="2">PC Skill Class Selections*</th>
-<th colspan="2">NPC Skill Class Selections*</th>
-</tr></thead>| Barbarian | 4 + Int Mod | Adept | 2 + Int Mod |
+[Table: NPC Skill Selections]
+| PC Skill Class Selections\* | NPC Skill Class Selections\* |
+| --- | --- |
+| Barbarian | 4 + Int Mod | Adept | 2 + Int Mod |
 | Bard | 6 + Int Mod | Aristocrat | 4 + Int Mod |
 | Cleric | 2 + Int Mod | Commoner | 2 + Int Mod |
 | Druid | 4 + Int Mod | Expert | 6 + Int Mod |
@@ -220,7 +194,6 @@ Once all of the NPC's ranks have been determined, assign class skill bonuses and
 | Rogue | 8 + Int Mod | | |
 | Sorcerer | 2 + Int Mod | | |
 | Wizard | 2 + Int Mod | | |
-<tfoot><tr><td colspan="4">* Humans receive one additional skill selection.</td></tr></tfoot>
 
 ## Step 4: Feats
 
@@ -260,16 +233,10 @@ After recording all of the NPC's class features, the next step is to outfit the 
 
 Note that these values are approximate and based on the values for a campaign using the medium experience progression and a normal treasure allotment. If your campaign is using the fast experience progression, treat your NPCs as one level higher when determining their gear. If your campaign is using the slow experience progression, treat the NPCs as one level lower when determining their gear. If your campaign is high fantasy, double these values. Reduce them by half if your campaign is low fantasy. If the final value of an NPC's gear is a little over or under these amounts, that's okay.
 
-<caption>Table: NPC Gear</caption><thead><tr>
-<th>Basic Level</th>
-<th>Heroic Level</th>
-<th>Total gp Value</th>
-<th>Weapons</th>
-<th>Protection</th>
-<th>Magic</th>
-<th>Limited Use</th>
-<th>Gear</th>
-</tr></thead><tbody>
+[Table: NPC Gear]
+| Basic Level | Heroic Level | Total gp Value | Weapons | Protection | Magic | Limited Use | Gear |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1</td>
 <td>—</td>

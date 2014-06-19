@@ -26,14 +26,10 @@ The assassin's class skills (and the key ability for each skill) are [Acrobatics
 
 **Skill Ranks at Each Level** : 4 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Assassin</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-</tr></thead>| 1st | +0 | +0 | +1 | +0 | [Sneak attack](../classes/rogue.html#_sneak-attack) +1d6, death attack, poison use |
+[Table: Assassin]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +1 | +0 | [Sneak attack](../classes/rogue.html#_sneak-attack) +1d6, death attack, poison use |
 | 2nd | +1 | +1 | +1 | +1 | +1 save bonus against poison,uncanny dodge |
 | 3rd | +2 | +1 | +2 | +1 | [Sneak attack](../classes/rogue.html#_sneak-attack) +2d6 |
 | 4th | +3 | +1 | +2 | +1 | +2 save bonus against poison, hidden weapons, true death |

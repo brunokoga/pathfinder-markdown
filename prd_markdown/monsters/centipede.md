@@ -34,7 +34,7 @@ N Medium [vermin](creatureTypes.html#_vermin)
 
 **Base**  **Atk** +0; **CMB** –1; **CMD** 11 (can't be tripped)
 
-**Feats** [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Weapon Finesse](../feats.html#_weapon-finesse)B
 
 **Skills** [Climb](../skills/climb.html#_climb) +10, [Perception](../skills/perception.html#_perception) +4, [Stealth](../skills/stealth.html#_stealth) +10; **Racial Modifiers** +4 [Perception](../skills/perception.html#_perception), +8 [Stealth](../skills/stealth.html#_stealth)
 
@@ -54,12 +54,9 @@ Giant centipedes attack nearly any living creatures with their poisonous jaws. T
 
 Other species of giant centipedes exist as well, some smaller but most quite a bit larger. You can adjust the stats given here by changing Hit Dice and size (changing Strength, Dexterity, and Constitution as appropriate) to represent a wide range of giant centipede species. The following table lists the most common variants.
 
-<thead><tr>
-<th>Species</th>
-<th>CR</th>
-<th>Size</th>
-<th>HD</th>
-</tr></thead><tbody>
+| Species | CR | Size | HD |
+| --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>House centipede</td>
 <td>1/8</td>
@@ -136,7 +133,7 @@ N Diminutive [vermin](creatureTypes.html#_vermin) (swarm)
 
 **Base**  **Atk** +6; **CMB** —; **CMD** —
 
-**Feats** [Weapon Finesse](../feats.html#_weapon-finesse)<sup>B</sup>
+**Feats** [Weapon Finesse](../feats.html#_weapon-finesse)B
 
 **Skills** [Climb](../skills/climb.html#_climb) +12, [Perception](../skills/perception.html#_perception) +4; **Racial Modifiers** +4 [Perception](../skills/perception.html#_perception)
 

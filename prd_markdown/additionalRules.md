@@ -106,13 +106,10 @@ The following section determines a character's starting age, height, and weight.
 
 You can choose or randomly generate your character's age. If you choose it, it must be at least the minimum age for the character's race and class. Alternatively, roll the dice indicated for your class on Table: Random Starting Ages and add the result to the minimum age of adulthood for your race to determine how old your character is.
 
-<caption>Table: Random Starting Ages</caption><thead><tr>
-<th>Race</th>
-<th>Adulthood</th>
-<th>Barbarian, Rogue, Sorcerer</th>
-<th>Bard, Fighter, Paladin, Ranger</th>
-<th>Cleric, Druid, Monk, Wizard</th>
-</tr></thead><tbody>
+[Table: Random Starting Ages]
+| Race | Adulthood | Barbarian, Rogue, Sorcerer | Bard, Fighter, Paladin, Ranger | Cleric, Druid, Monk, Wizard |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Human</td>
 <td>15 years</td>
@@ -170,16 +167,10 @@ When a character reaches venerable age, secretly roll his maximum age and record
 
 The maximum ages are for player characters. Most people in the world at large die from pestilence, accidents, infections, or violence before getting to venerable age.
 
-<caption>Table: Aging Effects</caption><thead><tr>
-<th>Race</th>
-<th>Middle Age<sup>1</sup>
-</th>
-<th>Old<sup>2</sup>
-</th>
-<th>Venerable<sup>3</sup>
-</th>
-<th>Maximum Age</th>
-</tr></thead><tbody>
+[Table: Aging Effects]
+| Race | Middle Ageⁱ | Old⁲ | Venerable⁳ | Maximum Age |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Human</td>
 <td>35 years</td>
@@ -229,23 +220,16 @@ The maximum ages are for player characters. Most people in the world at large di
 <td>100 years</td>
 <td>100 + 5d20 years</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="5">1 At middle age, –1 to Str, Dex, and Con; +1 to Int, Wis, and Cha.</td></tr>
-<tr><td colspan="5">2 At old age, –2 to Str, Dex, and Con; +1 to Int, Wis, and Cha.</td></tr>
-<tr><td colspan="5">3 At venerable age, –3 to Str, Dex, and Con; +1 to Int, Wis, and Cha.</td></tr>
-</tfoot>
+</tbody>
 
 ## Height and Weight
 
 To determine a character's height, roll the modifier dice indicated on Table: Random Height and Weight and add the result, in inches, to the base height for your character's race and gender. To determine a character's weight, multiply the result of the modifier dice by the weight multiplier and add the result to the base weight for your character's race and gender.
 
-<caption>Table: Random Height and Weight</caption><thead><tr>
-<th>Race</th>
-<th>Base Height</th>
-<th>Base Weight</th>
-<th>Modifier</th>
-<th>Weight Multiplier</th>
-</tr></thead>| Human, male | 4 ft. 10 in. | 120 lbs. | 2d10 | Ã5 lbs. |
+[Table: Random Height and Weight]
+| Race | Base Height | Base Weight | Modifier | Weight Multiplier |
+| --- | --- | --- | --- | --- |
+| Human, male | 4 ft. 10 in. | 120 lbs. | 2d10 | Ã5 lbs. |
 | Human, female | 4 ft. 5 in. | 85 lbs. | 2d10 | Ã5 lbs. |
 | Dwarf, male | 3 ft. 9 in. | 150 lbs. | 2d4 | Ã7 lbs. |
 | Dwarf, female | 3 ft. 7 in. | 120 lbs. | 2d4 | Ã7 lbs. |
@@ -268,12 +252,10 @@ Encumbrance by Armor: A character's armor determines his maximum [Dexterity](get
 
 If your character is weak or carrying a lot of gear, however, then you'll need to calculate encumbrance by weight. Doing so is most important when your character is trying to carry some heavy object.
 
-<caption>Table: Carrying Capacity</caption><thead><tr>
-<th>Strength Score</th>
-<th>Light Load</th>
-<th>Medium Load</th>
-<th>Heavy Load</th>
-</tr></thead><tbody>
+[Table: Carrying Capacity]
+| Strength Score | Light Load | Medium Load | Heavy Load |
+| --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1</td>
 <td>3 lbs. or less</td>
@@ -460,19 +442,12 @@ Encumbrance by Weight: If you want to determine whether your character's gear is
 
 If your character is wearing armor, use the worse figure (from armor or from load) for each category. Do not stack the penalties.
 
-<caption>Table: Encumbrance Effects</caption><thead>
-<tr>
-<th rowspan="2">Load</th>
-<th rowspan="2">Max Dex</th>
-<th rowspan="2">Check Penalty</th>
-<th colspan="2">Speed</th>
-<th rowspan="2">Run</th>
-</tr>
-<tr>
-<th>(30 ft.)</th>
-<th>(20 ft.)</th>
-</tr>
-</thead>| Medium | +3 | â3 | 20 ft. | 15 ft. | Ã4 |
+[Table: Encumbrance Effects]
+| Load | Max Dex | Check Penalty | Speed | Run |
+| --- | --- | --- | --- | --- |
+| (30 ft.) | (20 ft.) |
+| --- | --- |
+| Medium | +3 | â3 | 20 ft. | 15 ft. | Ã4 |
 | Heavy | +1 | â6 | 20 ft. | 15 ft. | Ã3 |
 
 Lifting and Dragging: A character can lift as much as his maximum load over his head. A character's maximum load is the highest amount of weight listed for a character's Strength in the heavy load column of Table: Carrying Capacity.
@@ -491,10 +466,9 @@ Tremendous Strength: For Strength scores not shown on Table: Carrying Capacity, 
 
 The table below provides reduced speed figures for all base speeds from 5 feet to 120 feet (in 5-foot increments).
 
-<thead><tr>
-<th>Base Speed</th>
-<th>Reduced Speed</th>
-</tr></thead><tbody>
+| Base Speed | Reduced Speed |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>5 ft.</td>
 <td>5 ft.</td>
@@ -579,13 +553,10 @@ Run (×3): Moving three times speed is a running pace for a character in heavy a
 
 Run (×4): Moving four times speed is a running pace for a character in light, medium, or no armor ( about 12 miles per hour for an unencumbered human, or 9 miles per hour for a human in chainmail) See Table: Movement and Distance for details.
 
-<caption>Table: Movement and Distance</caption><thead><tr>
-<th> Speed</th>
-<th>15 feet</th>
-<th>20 feet</th>
-<th>30 feet</th>
-<th>40 feet</th>
-</tr></thead>| One Round (Tactical)\* |
+[Table: Movement and Distance]
+| Speed | 15 feet | 20 feet | 30 feet | 40 feet |
+| --- | --- | --- | --- | --- |
+| One Round (Tactical)\* |
 | --- |
 | Walk | 15 ft. | 20 ft. | 30 ft. | 40 ft. |
 | Hustle | 30 ft. | 40 ft. | 60 ft. | 80 ft. |
@@ -607,20 +578,18 @@ Run (×4): Moving four times speed is a running pace for a character in light, m
 | Walk | 12 miles | 16 miles | 24 miles | 32 miles |
 | Hustle | â | â | â | â |
 | Run | â | â | â | â |
-<tfoot><tr><td colspan="5">* Tactical movement is often measured in squares on the battle grid (1 square = 5 feet) rather than feet.</td></tr></tfoot>
 
 ## Tactical Movement
 
 Tactical movement is used for combat. Characters generally don't walk during combat, for obvious reasons—they hustle or run instead. A character who moves his speed and takes some action is hustling for about half the round and doing something else the other half.
 
-<caption>Table: Hampered Movement</caption><thead><tr>
-<th>Condition</th>
-<th>Additional Movement Cost</th>
-</tr></thead>| Difficult terrain | Ã2 |
+[Table: Hampered Movement]
+| Condition | Additional Movement Cost |
+| --- | --- |
+| Difficult terrain | Ã2 |
 | Obstacle\* | Ã2 |
 | Poor visibility | Ã2 |
 | Impassable | â |
-<tfoot><tr><td colspan="2">* May require a skill check</td></tr></tfoot>
 
 Hampered Movement: Difficult terrain, obstacles, and poor visibility can hamper movement (see Table: Hampered Movement for details). When movement is hampered, each square moved into usually counts as two squares, effectively reducing the distance that a character can cover in a move.
 
@@ -640,12 +609,10 @@ Hustle: A character can hustle without a problem on the local scale. See Overlan
 
 Run: A character can run for a number of rounds equal to his [Constitution](gettingStarted.html#_constitution) score on the local scale without needing to rest. See [Combat](combat.html) for rules covering extended periods of running.
 
-<caption>Table: Terrain and Overland Movement</caption><thead><tr>
-<th>Terrain</th>
-<th>Highway</th>
-<th>Road or Trail</th>
-<th>Trackless</th>
-</tr></thead>| Desert, sandy | Ã1 | Ã1/2 | Ã1/2 |
+[Table: Terrain and Overland Movement]
+| Terrain | Highway | Road or Trail | Trackless |
+| --- | --- | --- | --- |
+| Desert, sandy | Ã1 | Ã1/2 | Ã1/2 |
 | Forest | Ã1 | Ã1 | Ã1/2 |
 | Hills | Ã1 | Ã3/4 | Ã1/2 |
 | Jungle | Ã1 | Ã3/4 | Ã1/4 |
@@ -679,37 +646,29 @@ See Table: Mounts and Vehicles: Mounts and Vehicles for mounted speeds and speed
 
 Waterborne Movement: See Table: Mounts and Vehicles: Mounts and Vehicles for speeds for water vehicles.
 
-<caption>Table: Mounts and Vehicles</caption><thead><tr>
-<th>Mount/Vehicle</th>
-<th>Per Hour</th>
-<th>Per Day</th>
-</tr></thead>| Mount (carrying load) |
+[Table: Mounts and Vehicles]
+| Mount/Vehicle | Per Hour | Per Day |
+| --- | --- | --- |
+| Mount (carrying load) |
 | --- |
 | Light horse | 5 miles | 40 miles |
-| Light horse (175â525 lbs.)<sup>1</sup> | 3 1/2 miles | 28 miles |
+| Light horse (175â525 lbs.)ⁱ | 3 1/2 miles | 28 miles |
 | Heavy horse | 5 miles | 40 miles |
-| Heavy horse (229â690 lbs.)<sup>1</sup> | 3-1/2 miles | 28 miles |
+| Heavy horse (229â690 lbs.)ⁱ | 3-1/2 miles | 28 miles |
 | Pony | 4 miles | 32 miles |
-| Pony (151â450 lbs.)<sup>1</sup> | 3 miles | 24 miles |
+| Pony (151â450 lbs.)ⁱ | 3 miles | 24 miles |
 | Dog, riding | 4 miles | 32 miles |
-| Dog, riding (101â300 lbs.)<sup>1</sup> | 3 miles | 24 miles |
+| Dog, riding (101â300 lbs.)ⁱ | 3 miles | 24 miles |
 | Cart or wagon | 2 miles | 16 miles |
 | Ship |
 | --- |
-| Raft or barge (poled or towed)<sup>2</sup> | 1/2 mile | 5 miles |
-| Keelboat (rowed)<sup>2</sup> | 1 mile | 10 miles |
-| Rowboat (rowed)<sup>2</sup> | 1-1/2 miles | 15 miles |
+| Raft or barge (poled or towed)⁲ | 1/2 mile | 5 miles |
+| Keelboat (rowed)⁲ | 1 mile | 10 miles |
+| Rowboat (rowed)⁲ | 1-1/2 miles | 15 miles |
 | Sailing ship (sailed) | 2 miles | 48 miles |
 | Warship (sailed and rowed) | 2-1/2 miles | 60 miles |
 | Longship (sailed and rowed) | 3 miles | 72 miles |
 | Galley (rowed and sailed) | 4 miles | 96 miles |
-<tfoot>
-<tr><td colspan="3">
-<sup>1</sup> Quadrupeds, such as horses, can carry heavier loads than characters can. See <a href="#carrying-capacity">Carrying Capacity</a><a> for more information.</a>
-</td></tr>
-<tr><td colspan="3">
-<sup>2</sup> Rafts, barges, keelboats, and rowboats are most often used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. In addition to 10 hours of being rowed, the vehicle can also float an additional 14 hours, if someone can guide it, adding an additional 42 miles to the daily distance traveled. These vehicles canât be rowed against any significant current, but they can be pulled upstream by draft animals on the shores.</td></tr>
-</tfoot>
 
 ## Evasion and Pursuit
 
@@ -727,33 +686,23 @@ Few rules are as vital to the success of adventurers than those pertaining to vi
 
 Dwarves and half-orcs have darkvision, but the other races presented in [Races](races.html) need light to see by. See Table: Light Sources and Illumination for the radius that a light source illuminates and how long it lasts. The increased entry indicates an area outside the lit radius in which the light level is increased by one step (from darkness to dim light, for example).
 
-<caption>Table: Light Sources and Illumination</caption><thead><tr>
-<th>Object</th>
-<th>Normal</th>
-<th>Increased</th>
-<th>Duration</th>
-</tr></thead>| Candle | n/a<sup>1</sup> | 5 ft. | 1 hr. |
+[Table: Light Sources and Illumination]
+| Object | Normal | Increased | Duration |
+| --- | --- | --- | --- |
+| Candle | n/aⁱ | 5 ft. | 1 hr. |
 | _Everburning torch_ | 20 ft. | 40 ft. | Permanent |
 | Lamp, common | 15 ft. | 30 ft. | 6 hr./pint |
 | Lantern, bullseye | 60-ft. cone | 120-ft. cone | 6 hr./pint |
 | Lantern, hooded | 30 ft. | 60 ft. | 6 hr./pint |
 | Sunrod | 30 ft. | 60 ft. | 6 hr. |
 | Torch | 20 ft. | 40 ft. | 1 hr. |
-<thead><tr>
-<th>Spell</th>
-<th>Normal</th>
-<th>Increase</th>
-<th>Duration</th>
-</tr></thead>| _Continual flame_ | 20 ft. | 40 ft. | Permanent |
+
+| Spell | Normal | Increase | Duration |
+| --- | --- | --- | --- |
+| _Continual flame_ | 20 ft. | 40 ft. | Permanent |
 | _Dancing lights_ (torches) | 20 ft. (each) | 40 ft. (each) | 1 min. |
-| _Daylight_ | 60 ft.<sup>2</sup> | 120 ft. | 10 min./level |
+| _Daylight_ | 60 ft.⁲ | 120 ft. | 10 min./level |
 | _Light_ | 20 ft. | 40 ft. | 10 min./level |
-<tfoot>
-<tr><td colspan="4">
-<sup>1</sup> A candle does not provide normal illumination, only dim illumination.</td></tr>
-<tr><td colspan="4">
-<sup>2</sup> The light for a daylight spell is bright light.</td></tr>
-</tfoot>
 
 In an area of bright light, all characters can see clearly. Some creatures, such as those with light sensitivity and light blindness, take penalties while in areas of bright light. A creature can't use Stealth in an area of bright light unless it is invisible or has cover. Areas of bright light include outside in direct sunshine and inside the area of a daylight spell.
 
@@ -771,10 +720,10 @@ Characters with darkvision (dwarves and half-orcs) can see lit areas normally as
 
 When attempting to break an object, you have two choices: smash it with a weapon or break it with sheer strength.
 
-<caption>Table: Size and Armor Class of Objects</caption><thead><tr>
-<th>Size</th>
-<th>AC Modifier</th>
-</tr></thead><tbody>
+[Table: Size and Armor Class of Objects]
+| Size | AC Modifier |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Colossal</td>
 <td>–8</td>
@@ -813,11 +762,10 @@ When attempting to break an object, you have two choices: smash it with a weapon
 </tr>
 </tbody>
 
-<caption>Table: Substance Hardness and Hit Points</caption><thead><tr>
-<th>Substance</th>
-<th>Hardness</th>
-<th>Hit Points</th>
-</tr></thead>| Glass | 1 | 1/in. of thickness |
+[Table: Substance Hardness and Hit Points]
+| Substance | Hardness | Hit Points |
+| --- | --- | --- |
+| Glass | 1 | 1/in. of thickness |
 | Paper or cloth | 0 | 2/in. of thickness |
 | Rope | 0 | 2/in. of thickness |
 | Ice | 0 | 3/in. of thickness |
@@ -828,12 +776,10 @@ When attempting to break an object, you have two choices: smash it with a weapon
 | Mithral | 15 | 30/in. of thickness |
 | Adamantine | 20 | 40/in. of thickness |
 
-<caption>Table: Object Hardness and Hit Points</caption><thead><tr>
-<th>Object</th>
-<th>Hardness</th>
-<th>Hit Points</th>
-<th>break DC</th>
-</tr></thead>| Rope (1 in. diameter) | 0 | 2 | 23 |
+[Table: Object Hardness and Hit Points]
+| Object | Hardness | Hit Points | break DC |
+| --- | --- | --- | --- |
+| Rope (1 in. diameter) | 0 | 2 | 23 |
 | Simple wooden door | 5 | 10 | 13 |
 | Small chest | 5 | 1 | 17 |
 | Good wooden door | 5 | 15 | 18 |
@@ -846,10 +792,10 @@ When attempting to break an object, you have two choices: smash it with a weapon
 | Masterwork manacles | 10 | 10 | 28 |
 | Iron door (2 in. thick) | 10 | 60 | 28 |
 
-<caption>Table: DCs to Break or Burst Items</caption><thead><tr>
-<th>Strength Check to:</th>
-<th>DC</th>
-</tr></thead>| Break down simple door | 13 |
+[Table: DCs to Break or Burst Items]
+| Strength Check to: | DC |
+| --- | --- |
+| Break down simple door | 13 |
 | Break down good door | 18 |
 | Break down strong door | 23 |
 | Burst rope bonds | 23 |
@@ -861,7 +807,6 @@ When attempting to break an object, you have two choices: smash it with a weapon
 | --- | --- |
 | Hold portal | +5 |
 | Arcane lock | +10 |
-<tfoot><tr><td colspan="2">* If both apply, use the larger number.</td></tr></tfoot>
 
 ### Smashing an Object
 
@@ -907,13 +852,10 @@ Larger and smaller creatures get size bonuses and size penalties on Strength che
 
 A crowbar or portable ram improves a character's chance of breaking open a door (see [Equipment](equipment.html)).
 
-<caption>Table: Common Armor, Weapon, and Shield Hardness and Hit Points</caption><thead><tr>
-<th>Weapon or Shield</th>
-<th>Hardness<sup>1</sup>
-</th>
-<th>Hit Points<sup>2, 3</sup>
-</th>
-</tr></thead>| Light blade | 10 | 2 |
+[Table: Common Armor, Weapon, and Shield Hardness and Hit Points]
+| Weapon or Shield | Hardnessⁱ | Hit Points⁲, ⁳ |
+| --- | --- | --- |
+| Light blade | 10 | 2 |
 | One-handed blade | 10 | 5 |
 | Two-handed blade | 10 | 10 |
 | Light metal-hafted weapon | 10 | 10 |
@@ -922,20 +864,11 @@ A crowbar or portable ram improves a character's chance of breaking open a door 
 | One-handed hafted weapon | 5 | 5 |
 | Two-handed hafted weapon | 5 | 10 |
 | Projectile weapon | 5 | 5 |
-| Armor | special<sup>4</sup> | armor bonus Ã 5 |
+| Armor | special⁴ | armor bonus Ã 5 |
 | Buckler | 10 | 5 |
 | Light wooden shield | 5 | 7 |
 | Heavy wooden shield | 5 | 15 |
 | Light steel shield | 10 | 10 |
 | Heavy steel shield | 10 | 20 |
 | Tower shield | 5 | 20 |
-<tfoot>
-<tr><td colspan="3">
-<sup>1</sup> Add +2 for each +1 enhancement bonus of magic items.</td></tr>
-<tr><td colspan="3">
-<sup>2</sup> The hp value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium.</td></tr>
-<tr><td colspan="3">
-<sup>3</sup> Add 10 hp for each +1 enhancement bonus of magic items.</td></tr>
-<tr><td colspan="3">
-<sup>4</sup> Varies by material; see Table: Substance Hardness and Hit Points.</td></tr>
-</tfoot>
+

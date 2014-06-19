@@ -283,15 +283,12 @@ It's not easy to start a kingdom—probably the reason everyone doesn't have one
 
 This improved rate depends on the Size of your kingdom, as shown in the following table.
 
-<thead><tr>
-<th>Kingdom Size</th>
-<th>Price of 1 BP</th>
-<th>Withdrawal Rate*</th>
-</tr></thead>| 01—25 | 1,000 gp | 500 gp |
+| Kingdom Size | Price of 1 BP | Withdrawal Rate\* |
+| --- | --- | --- |
+| 01—25 | 1,000 gp | 500 gp |
 | 26—50 | 2,000 gp | 1,000 gp |
 | 51—100 | 3,000 gp | 1,500 gp |
 | 101+ | 4,000 gp | 2,000 gp |
-<tfoot><tr><td colspan="3">*If you make a withdrawal from the Treasury during the <a href="/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.html#_income-phase">Income phase</a>, use this withdrawal rate to determine how much gp you gain per BP withdrawn.</td></tr></tfoot>
 
 The GM may also allow you to discover a cache of goods worth BP (instead of gp) as a reward for adventuring, giving you the seed money to found or support your kingdom.
 

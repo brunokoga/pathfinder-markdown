@@ -10,25 +10,20 @@ You get only one Disguise check per use of the skill, even if several people mak
 
 The effectiveness of your disguise depends on how much you're changing your appearance. Disguise can be used to make yourself appear like a creature that is one size category larger or smaller than your actual size. This does not change your actual size or reach, should you enter combat while wearing such a disguise.
 
-<thead><tr>
-<th>Disguise</th>
-<th>Check Modifier</th>
-</tr></thead>| Minor details only | +5 |
-| Disguised as different gender<sup>1</sup> | –2 |
-| Disguised as different race<sup>1</sup> | –2 |
-| Disguised as different age category<sup>1</sup> | –2<sup>2</sup> |
-| Disguised as different size category<sup>1</sup> | –10 |
-<tfoot>
-<tr><td colspan="2">1 These modifiers are cumulative; use all that apply.</td></tr>
-<tr><td colspan="2">2 Per step of difference between your actual age category and your disguised age category. The steps are: young (younger than adulthood), adulthood, middle age, old, and venerable.</td></tr>
-</tfoot>
+| Disguise | Check Modifier |
+| --- | --- |
+| Minor details only | +5 |
+| Disguised as different genderⁱ | –2 |
+| Disguised as different raceⁱ | –2 |
+| Disguised as different age categoryⁱ | –2⁲ |
+| Disguised as different size categoryⁱ | –10 |
+
   
   
 
-<thead><tr>
-<th>Familiarity</th>
-<th>Viewer's Perception Check Bonus</th>
-</tr></thead><tbody>
+| Familiarity | Viewer's Perception Check Bonus |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Recognizes on sight</td>
 <td>+4</td>

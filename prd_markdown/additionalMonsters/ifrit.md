@@ -50,7 +50,7 @@ Statistics
 
 **Base Atk** +0; **CMB** +0; **CMD** 13
 
-**Feats** [Eschew Materials](/pathfinderRPG/prd/additionalMonsters/../feats.html#_eschew-materials)<sup>B</sup>, [Martial Weapon Proficiency](/pathfinderRPG/prd/additionalMonsters/../feats.html#_martial-weapon-proficiency) (scimitar)
+**Feats** [Eschew Materials](/pathfinderRPG/prd/additionalMonsters/../feats.html#_eschew-materials)B, [Martial Weapon Proficiency](/pathfinderRPG/prd/additionalMonsters/../feats.html#_martial-weapon-proficiency) (scimitar)
 
 **Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +7, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana) +5, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +5
 

@@ -16,10 +16,9 @@
 
 You utter a single word of power that instantly causes one creature of your choice to become [stunned](../glossary.html#_stunned), whether the creature can hear the word or not. The duration of the spell depends on the target's current hit point total. Any creature that currently has 151 or more hit points is unaffected by _power word stun_.
 
-<thead><tr>
-<th>Hit Points</th>
-<th>Duration</th>
-</tr></thead><tbody>
+| Hit Points | Duration |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>50 or less</td>
 <td>4d4 rounds</td>

@@ -36,7 +36,7 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 1st; concentration +3)
 
-1st—_ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_<sup>D</sup> (DC 13), _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_
+1st—_ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_D (DC 13), _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_
 
 0 (at will)—_ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 12), _ [stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_
 
@@ -98,7 +98,7 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 2nd; concentration +3)
 
-1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds), [jump](/pathfinderRPG/prd/spells/jump.html#_jump)_, _obscuring mis t_<sup>D</sup>, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_
+1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds), [jump](/pathfinderRPG/prd/spells/jump.html#_jump)_, _obscuring mis t_D, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_
 
 0 (at will)—_ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 11), _ [know direction](/pathfinderRPG/prd/spells/knowDirection.html#_know-direction)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_
 
@@ -164,9 +164,9 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 3rd; concentration +5)
 
-2nd—_ [flaming sphere](/pathfinderRPG/prd/spells/flamingSphere.html#_flaming-sphere)_ (DC 14), _ [summon swarm](/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm)_, _wind wal l_<sup>D</sup>
+2nd—_ [flaming sphere](/pathfinderRPG/prd/spells/flamingSphere.html#_flaming-sphere)_ (DC 14), _ [summon swarm](/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm)_, _wind wal l_D
 
-1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _obscuring mis t_<sup>D</sup>, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _obscuring mis t_D, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 12), _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_, _ [virtue](/pathfinderRPG/prd/spells/virtue.html#_virtue)_
 
@@ -228,9 +228,9 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 4th; conc. +5)
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_<sup>D</sup>, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [summon swarm](/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm)_
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_D, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [summon swarm](/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm)_
 
-1st—_ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_<sup>D</sup> (2, DC 12), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh) _(2)
+1st—_ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_D (2, DC 12), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh) _(2)
 
 0 (at will)—_ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_, _ [know direction](/pathfinderRPG/prd/spells/knowDirection.html#_know-direction)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_
 
@@ -294,11 +294,11 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 5th; concentration +9)
 
-3rd—_ [spike growth](/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth)_ (2, DC 17), _ [stone shape](/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape)_<sup>D</sup>
+3rd—_ [spike growth](/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth)_ (2, DC 17), _ [stone shape](/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape)_D
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_, _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [soften earth and stone](/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone)_<sup>D</sup>, _ [summon swarm](/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm)_
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_, _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [soften earth and stone](/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone)_D, _ [summon swarm](/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm)_
 
-1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [magic stone](/pathfinderRPG/prd/spells/magicStone.html#_magic-stone)_<sup>D</sup>, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [magic stone](/pathfinderRPG/prd/spells/magicStone.html#_magic-stone)_D, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [know direction](/pathfinderRPG/prd/spells/knowDirection.html#_know-direction)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_
 
@@ -372,11 +372,11 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 6th; concentration +8)
 
-3rd—_ [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_<sup>D</sup>, extended_ [summon nature's ally II](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-ii)_ (2)
+3rd—_ [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_D, extended_ [summon nature's ally II](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-ii)_ (2)
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_, extended_ [summon nature's ally I](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-i)_, _ [summon swarm](/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm)_, _wind wal l_<sup>D</sup>
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_, extended_ [summon nature's ally I](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-i)_, _ [summon swarm](/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm)_, _wind wal l_D
 
-1st—_ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang)_, _obscuring mis t_<sup>D</sup>, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang)_, _obscuring mis t_D, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [know direction](/pathfinderRPG/prd/spells/knowDirection.html#_know-direction)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [purify food and drink](/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink)_
 
@@ -452,13 +452,13 @@ club +5 (1d6)
 
 **Druid Spells Prepared** (CL 7th; concentration +10)
 
-4th—_control wate r_<sup>D</sup>, _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_
+4th—_control wate r_D, _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_
 
-3rd—_ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_, _ [sleet storm](/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm), [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_<sup>D</sup>
+3rd—_ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_, _ [sleet storm](/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm), [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_D
 
-2nd—_ [animal messenger](/pathfinderRPG/prd/spells/animalMessenger.html#_animal-messenger)_, _ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_, _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _fog clou d_<sup>D</sup>, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_
+2nd—_ [animal messenger](/pathfinderRPG/prd/spells/animalMessenger.html#_animal-messenger)_, _ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_, _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _fog clou d_D, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_
 
-1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang)_, _obscuring mis t_<sup>D</sup>, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang)_, _obscuring mis t_D, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_, _ [purify food and drink](/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
 
@@ -530,11 +530,11 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 8th; concentration +12)
 
-4th—_ [control water](/pathfinderRPG/prd/spells/controlWater.html#_control-water), [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 18), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [sleet storm](/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm)_<sup>D</sup>
+4th—_ [control water](/pathfinderRPG/prd/spells/controlWater.html#_control-water), [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 18), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [sleet storm](/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm)_D
 
-3rd—_ [call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_<sup>D</sup> (DC 17), _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, _ [quench](/pathfinderRPG/prd/spells/quench.html#_quench), [wind wall](/pathfinderRPG/prd/spells/windWall.html#_wind-wall)_
+3rd—_ [call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_D (DC 17), _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, _ [quench](/pathfinderRPG/prd/spells/quench.html#_quench), [wind wall](/pathfinderRPG/prd/spells/windWall.html#_wind-wall)_
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _fog clou d_<sup>D</sup>, _ [gust of wind](/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind)_ (DC 16), _ [warp wood](/pathfinderRPG/prd/spells/warpWood.html#_warp-wood)_
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _fog clou d_D, _ [gust of wind](/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind)_ (DC 16), _ [warp wood](/pathfinderRPG/prd/spells/warpWood.html#_warp-wood)_
 
 1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (4), _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_
 
@@ -612,15 +612,15 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 9th; concentration +14)
 
-5th—_ [animal growth](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth)_ (DC 20), _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_<sup>D</sup>
+5th—_ [animal growth](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth)_ (DC 20), _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_D
 
-4th—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [giant vermin](/pathfinderRPG/prd/spells/giantVermin.html#_giant-vermin)_, _ [spike stones](/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones)_<sup>D</sup> (DC 19)
+4th—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [giant vermin](/pathfinderRPG/prd/spells/giantVermin.html#_giant-vermin)_, _ [spike stones](/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones)_D (DC 19)
 
-3rd—_ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (3), _ [spike growth](/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth)_ (DC 18), _ [stone shape](/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape)_<sup>D</sup>
+3rd—_ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (3), _ [spike growth](/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth)_ (DC 18), _ [stone shape](/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape)_D
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (2), _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_ (2), _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_, _ [soften earth and stone](/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone)_<sup>D</sup>
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (2), _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_ (2), _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_, _ [soften earth and stone](/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone)_D
 
-1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _ [magic stone](/pathfinderRPG/prd/spells/magicStone.html#_magic-stone)_<sup>D</sup>, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _ [magic stone](/pathfinderRPG/prd/spells/magicStone.html#_magic-stone)_D, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [know direction](/pathfinderRPG/prd/spells/knowDirection.html#_know-direction)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_
 
@@ -700,15 +700,15 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 10th; concentration +14)
 
-5th—_ [call lightning storm](/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm)_ (DC 19), _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_<sup>D</sup>, _ [wall of thorns](/pathfinderRPG/prd/spells/wallOfThorns.html#_wall-of-thorns)_
+5th—_ [call lightning storm](/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm)_ (DC 19), _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_D, _ [wall of thorns](/pathfinderRPG/prd/spells/wallOfThorns.html#_wall-of-thorns)_
 
-4th—_control wate r_<sup>D</sup>, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 18), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_
+4th—_control wate r_D, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 18), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_
 
-3rd—_ [call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_ (DC 17), _ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (2), _ [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_<sup>D</sup>
+3rd—_ [call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_ (DC 17), _ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (2), _ [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_D
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (2), _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_<sup>D</sup>, _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (2), _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_D, _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_
 
-1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_<sup>D</sup>, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_D, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_, _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [purify food and drink](/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink)_
 
@@ -780,17 +780,17 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 11th; concentration +16)
 
-6th—_ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_<sup>D</sup> (DC 22), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_
+6th—_ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_D (DC 22), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_
 
-5th—_ [call lightning storm](/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm)_ (DC 21), _ [control winds](/pathfinderRPG/prd/spells/controlWinds.html#_control-winds)_<sup>D</sup> (DC 20), _ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_, _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_ (DC 21)
+5th—_ [call lightning storm](/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm)_ (DC 21), _ [control winds](/pathfinderRPG/prd/spells/controlWinds.html#_control-winds)_D (DC 20), _ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_, _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_ (DC 21)
 
-4th—_air wal k_<sup>D</sup>, _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_ (DC 20), _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ (DC 19)
+4th—_air wal k_D, _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_ (DC 20), _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ (DC 19)
 
-3rd—_ [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_<sup>D</sup>, _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (2), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (2), _ [sleet storm](/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm)_
+3rd—_ [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_D, _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (2), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (2), _ [sleet storm](/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm)_
 
-2nd—_ [animal messenger](/pathfinderRPG/prd/spells/animalMessenger.html#_animal-messenger)_, _ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (3), _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_, _wind wal l_<sup>D</sup>
+2nd—_ [animal messenger](/pathfinderRPG/prd/spells/animalMessenger.html#_animal-messenger)_, _ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (3), _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_, _wind wal l_D
 
-1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _obscuring mis t_<sup>D</sup>, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _obscuring mis t_D, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 16), _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_, _ [stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_
 
@@ -866,17 +866,17 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 12th; concentration +16)
 
-6th—_ [control winds](/pathfinderRPG/prd/spells/controlWinds.html#_control-winds)_<sup>D</sup> (DC 20), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [repel wood](/pathfinderRPG/prd/spells/repelWood.html#_repel-wood)_
+6th—_ [control winds](/pathfinderRPG/prd/spells/controlWinds.html#_control-winds)_D (DC 20), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [repel wood](/pathfinderRPG/prd/spells/repelWood.html#_repel-wood)_
 
-5th—_ [call lightning storm](/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm)_ (DC 19), _ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_, _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_<sup>D</sup>,_ [tree stride](/pathfinderRPG/prd/spells/treeStride.html#_tree-stride)_
+5th—_ [call lightning storm](/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm)_ (DC 19), _ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_, _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_D,_ [tree stride](/pathfinderRPG/prd/spells/treeStride.html#_tree-stride)_
 
-4th—_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 18), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [sleet storm](/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm)_<sup>D</sup>
+4th—_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 18), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [sleet storm](/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm)_D
 
-3rd—_ [call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_<sup>D</sup> (DC 17), _ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (3), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy) _(DC 17)
+3rd—_ [call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_D (DC 17), _ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (3), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy) _(DC 17)
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (2), _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_<sup>D</sup>
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (2), _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_D
 
-1st—_ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_ (DC 15), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_<sup>D</sup>, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_ (DC 15), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_D, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_, _ [virtue](/pathfinderRPG/prd/spells/virtue.html#_virtue)_
 
@@ -948,19 +948,19 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 13th; concentration +18)
 
-7th—_ [creeping doom](/pathfinderRPG/prd/spells/creepingDoom.html#_creeping-doom)_ (DC 23), _ [elemental body I](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i) V_<sup>D</sup> (water only)
+7th—_ [creeping doom](/pathfinderRPG/prd/spells/creepingDoom.html#_creeping-doom)_ (DC 23), _ [elemental body I](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i) V_D (water only)
 
-6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, _cone of col d_<sup>D</sup> (2, DC 21)
+6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, _cone of col d_D (2, DC 21)
 
-5th—_ [call lightning storm](/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm)_ (DC 20), _ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_ (2), _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_<sup>D</sup>, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_
+5th—_ [call lightning storm](/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm)_ (DC 20), _ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_ (2), _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_D, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_
 
-4th—_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _control weathe r_<sup>D</sup>, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 19), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [spike stones](/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones)_ (DC 19)
+4th—_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _control weathe r_D, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 19), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [spike stones](/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones)_ (DC 19)
 
-3rd—_ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, _ [quench](/pathfinderRPG/prd/spells/quench.html#_quench)_, _ [sleet storm](/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm)_, _ [speak with plants](/pathfinderRPG/prd/spells/speakWithPlants.html#_speak-with-plants)_, _ [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_<sup>D</sup>
+3rd—_ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, _ [quench](/pathfinderRPG/prd/spells/quench.html#_quench)_, _ [sleet storm](/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm)_, _ [speak with plants](/pathfinderRPG/prd/spells/speakWithPlants.html#_speak-with-plants)_, _ [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_D
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (2), _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_ (2), _fog clou d_<sup>D</sup>, _ [spider climb](/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb)_
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (2), _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_ (2), _fog clou d_D, _ [spider climb](/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb)_
 
-1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [longstrider](/pathfinderRPG/prd/spells/longstrider.html#_longstrider)_, _obscuring mis t_<sup>D</sup>, _ [pass without trace](/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [longstrider](/pathfinderRPG/prd/spells/longstrider.html#_longstrider)_, _obscuring mis t_D, _ [pass without trace](/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 15), _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_
 
@@ -1030,19 +1030,19 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 14th; concentration +18)
 
-7th—_ [elemental body I](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i) V_<sup>D</sup> (fire only), _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (2, DC 23)
+7th—_ [elemental body I](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i) V_D (fire only), _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (2, DC 23)
 
-6th—_ [fire seeds](/pathfinderRPG/prd/spells/fireSeeds.html#_fire-seeds)_<sup>D</sup>, empowered_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 20), _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_
+6th—_ [fire seeds](/pathfinderRPG/prd/spells/fireSeeds.html#_fire-seeds)_D, empowered_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 20), _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_
 
-5th—_fire shiel d_<sup>D</sup>, empowered _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_ (2, DC 19), _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_
+5th—_fire shiel d_D, empowered _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_ (2, DC 19), _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_
 
-4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_ (DC 20), _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_<sup>D</sup>
+4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_ (DC 20), _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_D
 
-3rd—_ [dominate animal](/pathfinderRPG/prd/spells/dominateAnimal.html#_dominate-animal)_ (DC 17), _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_<sup>D</sup>(2, DC 19), _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (2), _ [spike growth](/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth)_ (DC 17)
+3rd—_ [dominate animal](/pathfinderRPG/prd/spells/dominateAnimal.html#_dominate-animal)_ (DC 17), _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_D(2, DC 19), _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (2), _ [spike growth](/pathfinderRPG/prd/spells/spikeGrowth.html#_spike-growth)_ (DC 17)
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (3), _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _ [produce flame](/pathfinderRPG/prd/spells/produceFlame.html#_produce-flame)_<sup>D</sup>
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (3), _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _ [produce flame](/pathfinderRPG/prd/spells/produceFlame.html#_produce-flame)_D
 
-1st—_ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_<sup>D</sup>(2, DC 17), _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_D(2, DC 17), _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_, _ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 16), _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_
 
@@ -1116,21 +1116,21 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 15th; concentration +20)
 
-8th—_ [control plants](/pathfinderRPG/prd/spells/controlPlants.html#_control-plants)_<sup>D</sup> (DC 23), _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
+8th—_ [control plants](/pathfinderRPG/prd/spells/controlPlants.html#_control-plants)_D (DC 23), _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
 
-7th—_ [animate plants](/pathfinderRPG/prd/spells/animatePlants.html#_animate-plants)_<sup>D</sup>, _ [creeping doom](/pathfinderRPG/prd/spells/creepingDoom.html#_creeping-doom)_ (DC 22), _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+7th—_ [animate plants](/pathfinderRPG/prd/spells/animatePlants.html#_animate-plants)_D, _ [creeping doom](/pathfinderRPG/prd/spells/creepingDoom.html#_creeping-doom)_ (DC 22), _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
 
-6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, _ [mass cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds-mass)_, _repel woo d_<sup>D</sup>, _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_
+6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, _ [mass cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds-mass)_, _repel woo d_D, _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_
 
-5th—_ [baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_ (DC 20), _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, _ [transmute rock to mud](/pathfinderRPG/prd/spells/transmuteRockToMud.html#_transmute-rock-to-mud)_, _ [tree stride](/pathfinderRPG/prd/spells/treeStride.html#_tree-stride)_, _ [wall of thorns](/pathfinderRPG/prd/spells/wallOfThorns.html#_wall-of-thorns)_<sup>D</sup>
+5th—_ [baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_ (DC 20), _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, _ [transmute rock to mud](/pathfinderRPG/prd/spells/transmuteRockToMud.html#_transmute-rock-to-mud)_, _ [tree stride](/pathfinderRPG/prd/spells/treeStride.html#_tree-stride)_, _ [wall of thorns](/pathfinderRPG/prd/spells/wallOfThorns.html#_wall-of-thorns)_D
 
-4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _ [command plants](/pathfinderRPG/prd/spells/commandPlants.html#_command-plants)_<sup>D</sup> (DC 19), _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [rusting grasp](/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp)_, _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ (DC 19)
+4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _ [command plants](/pathfinderRPG/prd/spells/commandPlants.html#_command-plants)_D (DC 19), _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [rusting grasp](/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp)_, _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ (DC 19)
 
-3rd—_ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_, _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (2), _ [plant growth](/pathfinderRPG/prd/spells/plantGrowth.html#_plant-growth)_<sup>D</sup>_, [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (2, DC 18)
+3rd—_ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_, _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (2), _ [plant growth](/pathfinderRPG/prd/spells/plantGrowth.html#_plant-growth)_D_, [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (2, DC 18)
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_<sup>D</sup> (3), _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser), [longstrider](/pathfinderRPG/prd/spells/longstrider.html#_longstrider)_
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_D (3), _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser), [longstrider](/pathfinderRPG/prd/spells/longstrider.html#_longstrider)_
 
-1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_<sup>D</sup> (DC 16), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_D (DC 16), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
 
@@ -1202,21 +1202,21 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 16th; concentration +22)
 
-8th—empowered_ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_ (2, DC 22), _ [horrid wilting](/pathfinderRPG/prd/spells/horridWilting.html#_horrid-wilting)_<sup>D</sup> (DC 24)
+8th—empowered_ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_ (2, DC 22), _ [horrid wilting](/pathfinderRPG/prd/spells/horridWilting.html#_horrid-wilting)_D (DC 24)
 
 7th—_ [elemental body IV](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-iv)_ D (water only), _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 23), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
 
-6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, _cone of col d_<sup>D</sup> (DC 22), empowered_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 20), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_
+6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, _cone of col d_D (DC 22), empowered_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 20), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_
 
-5th—_ [animal growth](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth)_ (2, DC 21), _ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_, _ [death ward](/pathfinderRPG/prd/spells/deathWard.html#_death-ward)_, _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_<sup>D</sup>, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_
+5th—_ [animal growth](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth)_ (2, DC 21), _ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_, _ [death ward](/pathfinderRPG/prd/spells/deathWard.html#_death-ward)_, _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_D, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_
 
-4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _control weathe r_<sup>D</sup>, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 20), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [spike stones](/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones)_ (DC 20)
+4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _control weathe r_D, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 20), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [spike stones](/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones)_ (DC 20)
 
-3rd—_ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_, _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (3), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, _ [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_<sup>D</sup>
+3rd—_ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_, _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (3), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, _ [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_D
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (3), _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _fog clou d_<sup>D</sup>
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (3), _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _fog clou d_D
 
-1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (3), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [longstrider](/pathfinderRPG/prd/spells/longstrider.html#_longstrider)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_<sup>D</sup>, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (3), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [longstrider](/pathfinderRPG/prd/spells/longstrider.html#_longstrider)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_D, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_
 
@@ -1284,23 +1284,23 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 17th; concentration +24)
 
-9th—empowered_ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 24), _ [storm of vengeance](/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance)_<sup>D</sup> (DC 26)
+9th—empowered_ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 24), _ [storm of vengeance](/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance)_D (DC 26)
 
-8th—_ [earthquake](/pathfinderRPG/prd/spells/earthquake.html#_earthquake)_, _whirlwin d_<sup>D</sup> (DC 25), _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
+8th—_ [earthquake](/pathfinderRPG/prd/spells/earthquake.html#_earthquake)_, _whirlwin d_D (DC 25), _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
 
-7th—_control weathe r_<sup>D</sup>, _ [creeping doom](/pathfinderRPG/prd/spells/creepingDoom.html#_creeping-doom)_ (DC 24), _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 24), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+7th—_control weathe r_D, _ [creeping doom](/pathfinderRPG/prd/spells/creepingDoom.html#_creeping-doom)_ (DC 24), _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 24), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
 
-6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, _ [control winds](/pathfinderRPG/prd/spells/controlWinds.html#_control-winds)_<sup>D</sup> (DC 23), empowered_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 21), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_
+6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, _ [control winds](/pathfinderRPG/prd/spells/controlWinds.html#_control-winds)_D (DC 23), empowered_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 21), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_
 
-5th—_ [baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_ (DC 22), _ [call lightning storm](/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm)_ (DC 22), _ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_ (2), _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_<sup>D</sup>, _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_
+5th—_ [baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_ (DC 22), _ [call lightning storm](/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm)_ (DC 22), _ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_ (2), _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_D, _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_
 
-4th—_ [control water](/pathfinderRPG/prd/spells/controlWater.html#_control-water)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 21), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [sleet storm](/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm)_<sup>D</sup>
+4th—_ [control water](/pathfinderRPG/prd/spells/controlWater.html#_control-water)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 21), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [sleet storm](/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm)_D
 
-3rd—_ [call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_<sup>D</sup> (DC 20), _ [dominate animal](/pathfinderRPG/prd/spells/dominateAnimal.html#_dominate-animal)_ (DC 20), _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (3), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (2)
+3rd—_ [call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_D (DC 20), _ [dominate animal](/pathfinderRPG/prd/spells/dominateAnimal.html#_dominate-animal)_ (DC 20), _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (3), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (2)
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (3), _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_ (2), _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _fog clou d_<sup>D</sup>
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (3), _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_ (2), _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _fog clou d_D
 
-1st—_ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_ (2, DC 18), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _obscuring mis t_<sup>D</sup>, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_ (2, DC 18), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _obscuring mis t_D, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 17), _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [purify food and drink](/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_
 
@@ -1370,23 +1370,23 @@ Offense
 
 **Druid Spells Prepared** (CL 18th; concentration +23)
 
-9th—_ [mass cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds-mass)_, _shamble r_<sup>D</sup>
+9th—_ [mass cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds-mass)_, _shamble r_D
 
-8th—_ [control plants](/pathfinderRPG/prd/spells/controlPlants.html#_control-plants)_ (DC 23)<sup>D</sup>, _ [whirlwind](/pathfinderRPG/prd/spells/whirlwind.html#_whirlwind)_ (2, DC 23), _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
+8th—_ [control plants](/pathfinderRPG/prd/spells/controlPlants.html#_control-plants)_ (DC 23)D, _ [whirlwind](/pathfinderRPG/prd/spells/whirlwind.html#_whirlwind)_ (2, DC 23), _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
 
-7th—_ [animate plants](/pathfinderRPG/prd/spells/animatePlants.html#_animate-plants)_<sup>D</sup>, _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 22), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+7th—_ [animate plants](/pathfinderRPG/prd/spells/animatePlants.html#_animate-plants)_D, _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 22), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
 
-6th—empowered_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 19), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [mass cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace-mass)_, _ [repel wood](/pathfinderRPG/prd/spells/repelWood.html#_repel-wood)_<sup>D</sup>
+6th—empowered_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 19), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [mass cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace-mass)_, _ [repel wood](/pathfinderRPG/prd/spells/repelWood.html#_repel-wood)_D
 
-5th—_ [animal growth](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth)_ (DC 20), _ [baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_ (DC 20), _ [control winds](/pathfinderRPG/prd/spells/controlWinds.html#_control-winds)_ (DC 20), _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_ (2), _ [wall of thorns](/pathfinderRPG/prd/spells/wallOfThorns.html#_wall-of-thorns)_<sup>D</sup>
+5th—_ [animal growth](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth)_ (DC 20), _ [baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_ (DC 20), _ [control winds](/pathfinderRPG/prd/spells/controlWinds.html#_control-winds)_ (DC 20), _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_ (2), _ [wall of thorns](/pathfinderRPG/prd/spells/wallOfThorns.html#_wall-of-thorns)_D
 
-4th—_ [command plants](/pathfinderRPG/prd/spells/commandPlants.html#_command-plants)_<sup>D</sup> (DC 19), _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds), [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 19), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [spike stones](/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones)_ (DC 19)
+4th—_ [command plants](/pathfinderRPG/prd/spells/commandPlants.html#_command-plants)_D (DC 19), _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds), [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 19), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [spike stones](/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones)_ (DC 19)
 
-3rd—_ [dominate animal](/pathfinderRPG/prd/spells/dominateAnimal.html#_dominate-animal)_ (DC 18), _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (2), _ [plant growth](/pathfinderRPG/prd/spells/plantGrowth.html#_plant-growth)_<sup>D</sup>, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (2)
+3rd—_ [dominate animal](/pathfinderRPG/prd/spells/dominateAnimal.html#_dominate-animal)_ (DC 18), _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (2), _ [plant growth](/pathfinderRPG/prd/spells/plantGrowth.html#_plant-growth)_D, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (2)
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_<sup>D</sup> (3), _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_, _ [hold animal](/pathfinderRPG/prd/spells/holdAnimal.html#_hold-animal) _(DC 17), _ [spider climb](/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb)_
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_D (3), _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_, _ [hold animal](/pathfinderRPG/prd/spells/holdAnimal.html#_hold-animal) _(DC 17), _ [spider climb](/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb)_
 
-1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_<sup>D</sup> (DC 16), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_D (DC 16), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [know direction](/pathfinderRPG/prd/spells/knowDirection.html#_know-direction)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_
 
@@ -1452,23 +1452,23 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 19th; concentration +27)
 
-9th—_ [elemental swarm](/pathfinderRPG/prd/spells/elementalSwarm.html#_elemental-swarm)_<sup>D</sup> (fire spell only), empowered_ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (3, DC 27)
+9th—_ [elemental swarm](/pathfinderRPG/prd/spells/elementalSwarm.html#_elemental-swarm)_D (fire spell only), empowered_ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (3, DC 27)
 
-8th—quickened_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _incendiary clou d_<sup>D</sup> (DC 26), _ [reverse gravity](/pathfinderRPG/prd/spells/reverseGravity.html#_reverse-gravity)_, _ [sunburst](/pathfinderRPG/prd/spells/sunburst.html#_sunburst)_ (DC 28), _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
+8th—quickened_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _incendiary clou d_D (DC 26), _ [reverse gravity](/pathfinderRPG/prd/spells/reverseGravity.html#_reverse-gravity)_, _ [sunburst](/pathfinderRPG/prd/spells/sunburst.html#_sunburst)_ (DC 28), _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
 
-7th—quickened_ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm) _(2, DC 27),_ [elemental body I](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i) V_<sup>D</sup> (fire only), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+7th—quickened_ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm) _(2, DC 27),_ [elemental body I](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i) V_D (fire only), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
 
-6th—_fire seed s_<sup>D</sup>, empowered_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (3, DC 24), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [mass cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace-mass)_
+6th—_fire seed s_D, empowered_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (3, DC 24), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [mass cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace-mass)_
 
-5th—_ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_ (2), _fire shiel d_<sup>D</sup>, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_ (2)
+5th—_ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_ (2), _fire shiel d_D, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_ (2)
 
-4th—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_ (2), _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 24), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_ (DC 24), _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_<sup>D</sup>
+4th—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_ (2), _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (2, DC 24), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_ (DC 24), _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_D
 
-3rd—_firebal l_<sup>D</sup> (5, DC 23), _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (DC 21)
+3rd—_firebal l_D (5, DC 23), _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (DC 21)
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (2), _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_ (2), _ [hold animal](/pathfinderRPG/prd/spells/holdAnimal.html#_hold-animal)_ (DC 20), _ [produce flame](/pathfinderRPG/prd/spells/produceFlame.html#_produce-flame)_<sup>D</sup>, _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (2), _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_ (2), _ [hold animal](/pathfinderRPG/prd/spells/holdAnimal.html#_hold-animal)_ (DC 20), _ [produce flame](/pathfinderRPG/prd/spells/produceFlame.html#_produce-flame)_D, _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_
 
-1st—_ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_<sup>D</sup> (2, DC 21), _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_
+1st—_ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_D (2, DC 21), _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _ [shillelagh](/pathfinderRPG/prd/spells/shillelagh.html#_shillelagh)_
 
 0 (at will)—_ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_, _ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 20), _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_
 
@@ -1534,23 +1534,23 @@ OFFENSE
 
 **Druid Spells Prepared** (CL 20th; concentration +27)
 
-9th—quickened_ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_ (2), _ [elemental swarm](/pathfinderRPG/prd/spells/elementalSwarm.html#_elemental-swarm)_<sup>D</sup> (earth spell only), empowered_ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 24), _ [storm of vengeance](/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance)_ (DC 27)
+9th—quickened_ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_ (2), _ [elemental swarm](/pathfinderRPG/prd/spells/elementalSwarm.html#_elemental-swarm)_D (earth spell only), empowered_ [fire storm](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm)_ (DC 24), _ [storm of vengeance](/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance)_ (DC 27)
 
-8th—_ [earthquake](/pathfinderRPG/prd/spells/earthquake.html#_earthquake)_<sup>D</sup>, _ [finger of death](/pathfinderRPG/prd/spells/fingerOfDeath.html#_finger-of-death)_ (DC 25), _ [repel metal or stone](/pathfinderRPG/prd/spells/repelMetalOrStone.html#_repel-metal-or-stone)_, _ [reverse gravity](/pathfinderRPG/prd/spells/reverseGravity.html#_reverse-gravity)_, _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
+8th—_ [earthquake](/pathfinderRPG/prd/spells/earthquake.html#_earthquake)_D, _ [finger of death](/pathfinderRPG/prd/spells/fingerOfDeath.html#_finger-of-death)_ (DC 25), _ [repel metal or stone](/pathfinderRPG/prd/spells/repelMetalOrStone.html#_repel-metal-or-stone)_, _ [reverse gravity](/pathfinderRPG/prd/spells/reverseGravity.html#_reverse-gravity)_, _ [word of recall](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall)_
 
-7th—_ [changestaff](/pathfinderRPG/prd/spells/changestaff.html#_changestaff)_, _ [creeping doom](/pathfinderRPG/prd/spells/creepingDoom.html#_creeping-doom)_ (DC 25), _ [elemental body I](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i) V_<sup>D</sup> (earth only), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [mass cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds-mass)_, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+7th—_ [changestaff](/pathfinderRPG/prd/spells/changestaff.html#_changestaff)_, _ [creeping doom](/pathfinderRPG/prd/spells/creepingDoom.html#_creeping-doom)_ (DC 25), _ [elemental body I](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i) V_D (earth only), _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [mass cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds-mass)_, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
 
-6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, empowered_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 21), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_ (2), _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_<sup>D</sup>
+6th—_ [antilife shell](/pathfinderRPG/prd/spells/antilifeShell.html#_antilife-shell)_, empowered_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 21), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_ (2), _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_D
 
-5th—_ [animal growth](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth)_ (2, DC 22), _ [death ward](/pathfinderRPG/prd/spells/deathWard.html#_death-ward)_, quickened_ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_<sup>D</sup>, _ [wall of thorns](/pathfinderRPG/prd/spells/wallOfThorns.html#_wall-of-thorns)_
+5th—_ [animal growth](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth)_ (2, DC 22), _ [death ward](/pathfinderRPG/prd/spells/deathWard.html#_death-ward)_, quickened_ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_D, _ [wall of thorns](/pathfinderRPG/prd/spells/wallOfThorns.html#_wall-of-thorns)_
 
-4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 21), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_ (2), _ [spike stones](/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones)_<sup>D</sup> (DC 21)
+4th—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 21), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_ (2), _ [spike stones](/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones)_D (DC 21)
 
-3rd—_ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [dominate animal](/pathfinderRPG/prd/spells/dominateAnimal.html#_dominate-animal)_ (DC 20), _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (3), _ [stone shape](/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape)_<sup>D</sup>, _ [wind wall](/pathfinderRPG/prd/spells/windWall.html#_wind-wall)_
+3rd—_ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [dominate animal](/pathfinderRPG/prd/spells/dominateAnimal.html#_dominate-animal)_ (DC 20), _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_ (3), _ [stone shape](/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape)_D, _ [wind wall](/pathfinderRPG/prd/spells/windWall.html#_wind-wall)_
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (3), _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _ [soften earth and stone](/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone)_<sup>D</sup>
+2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ (3), _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _ [soften earth and stone](/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone)_D
 
-1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _ [magic stone](/pathfinderRPG/prd/spells/magicStone.html#_magic-stone)_<sup>D</sup>, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _ [magic stone](/pathfinderRPG/prd/spells/magicStone.html#_magic-stone)_D, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
 
 0 (at will)—_ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance), [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_, _ [stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_
 

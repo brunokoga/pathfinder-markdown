@@ -70,11 +70,10 @@ Merfolk have access to the following equipment.
 
 **Underwater Crossbow** : An underwater crossbow functions like its normal counterpart above water, and can be used underwater. When fired underwater, the crossbow has a range increment of 20 feet. Anyone proficient with a normal crossbow can use an underwater crossbow.
 
-<caption>Merfolk Equipment</caption><thead><tr>
-<th>Ranged Weapons</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr></thead>| Underwater crossbow, heavy | 100 gp | 8 lbs. |
+[Merfolk Equipment]
+| Ranged Weapons | Cost | Weight |
+| --- | --- | --- |
+| Underwater crossbow, heavy | 100 gp | 8 lbs. |
 | Underwater crossbow, light | 70 gp | 4 lbs. |
 
 ## Merfolk Feats

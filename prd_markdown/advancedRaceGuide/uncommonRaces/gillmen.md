@@ -78,17 +78,10 @@ Gillmen have access to the following equipment.
 
 **Sea-Knife** : A sea-knife is a long-handled weapon with a short blade. It is designed to be strapped to the ankle or foot of the wielder, pointing downward and jutting out beyond the wearer's leg. Donning or removing a sea-knife is a full-round action. The wearer cannot use a leg with a sea-knife strapped to it for walking or running. A sea-knife can be used as a light melee weapon when the wielder is swimming, flying, or prone. This allows the wielder to use a two-handed weapon, or wield a weapon with one hand and carry a shield, and still make off-hand attacks with the sea-knife. Attacks made with a sea-knife take a –2 circumstance penalty on attack rolls in addition to all other attack penalties.
 
-<caption>Gillman Weapon</caption><thead><tr>
-<th>Martial Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight</th>
-<th>Type</th>
-<th>Special</th>
-</tr></thead>| Sea-knife | 8 gp | 1d3 | 1d4 | 19–20/×2 | — | 1 lb. | S | — |
+[Gillman Weapon]
+| Martial Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weight | Type | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Sea-knife | 8 gp | 1d3 | 1d4 | 19–20/×2 | — | 1 lb. | S | — |
 
 ## Gillman Spells
 

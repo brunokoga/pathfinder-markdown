@@ -48,12 +48,10 @@ Solifugids are sometimes called âcamel spiders,â âwind scorpions,
 
 The following table lists the most common variants beyond the two presented above. Many of these species have additional unique abilities, such as the razormouth's ability to cause hideous, bleeding wounds in those it attacks.
 
-<caption>Table: Solifugid Variants</caption><thead><tr>
-<th>Species</th>
-<th>CR</th>
-<th>Size</th>
-<th>HD</th>
-</tr></thead>| Dog-eating solifugid | 1/2 | Tiny | 1 |
+[Table: Solifugid Variants]
+| Species | CR | Size | HD |
+| --- | --- | --- | --- |
+| Dog-eating solifugid | 1/2 | Tiny | 1 |
 | Yellow terror solifugid | 8 | Large | 10 |
 | Razormouth solifugid | 11 | Huge | 13 |
 | Banshee solifugid | 15 | Gargantuan | 16 |

@@ -32,7 +32,7 @@ NE Medium [undead](creatureTypes.html#_undead)
 
 **Base**  **Atk** +0; **CMB** +2; **CMD** 14
 
-**Feats** [Improved Initiative](../feats.html#_improved-initiative)<sup>B</sup>
+**Feats** [Improved Initiative](../feats.html#_improved-initiative)B
 
 **Gear** broken chain shirt, broken scimitar
 
@@ -52,11 +52,9 @@ Skeletons are the animated bones of the dead, brought to unlife through foul mag
 
 **Challenge Rating** : Depends on Hit Dice, as follows:
 
-<thead><tr>
-<th>HD</th>
-<th>CR</th>
-<th>XP</th>
-</tr></thead><tbody>
+| HD | CR | XP |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1/2</td>
 <td>1/6</td>
@@ -115,10 +113,9 @@ Skeletons are the animated bones of the dead, brought to unlife through foul mag
 
 **Armor Class** : Natural armor bonus changes as follows:
 
-<thead><tr>
-<th>Skeleton Size</th>
-<th>Natural Armor Bonus</th>
-</tr></thead><tbody>
+| Skeleton Size | Natural Armor Bonus |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Tiny or smaller</td>
 <td>+0</td>

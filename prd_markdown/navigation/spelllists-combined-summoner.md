@@ -80,7 +80,7 @@
 - [**Summon Monster II**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ii)
 - [**Summon Swarm**](/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm)
 - [**Twisted Space**](/pathfinderRPG/prd/ultimateCombat/spells/twistedSpace.html#_twisted-space)
-- [**Warding Weapon**](/pathfinderRPG/prd/ultimateCombat/spells/wardingWeapon.html#_warding-weapon)<sup>F</sup>
+- [**Warding Weapon**](/pathfinderRPG/prd/ultimateCombat/spells/wardingWeapon.html#_warding-weapon)F
 - [**Web Shelter**](/pathfinderRPG/prd/ultimateMagic/spells/webShelter.html#_web-shelter)
 - [**Wind Wall**](/pathfinderRPG/prd/spells/windWall.html#_wind-wall)
 
@@ -109,7 +109,7 @@
 - [**Minor Creation**](/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation)
 - [**Nondetection**](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)
 - [**Obsidian Flow**](/pathfinderRPG/prd/ultimateCombat/spells/obsidianFlow.html#_obsidian-flow)
-- [**Pellet Blast**](/pathfinderRPG/prd/ultimateCombat/spells/pelletBlast.html#_pellet-blast)<sup>M</sup>
+- [**Pellet Blast**](/pathfinderRPG/prd/ultimateCombat/spells/pelletBlast.html#_pellet-blast)M
 - [**Phantom Chariot**](/pathfinderRPG/prd/ultimateCombat/spells/phantomChariot.html#_phantom-chariot)
 - [**Phantom Steed, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/phantomSteed.html#_phantom-steed,-communal)
 - [**Protection From Energy**](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)
@@ -158,7 +158,7 @@
 - [**Protection from Energy, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/protectionFromEnergy.html#_protection-from-energy,-communal)
 - [**Purified Calling**](/pathfinderRPG/prd/advanced/spells/purifiedCalling.html#_purified-calling)
 - [**Sending**](/pathfinderRPG/prd/spells/sending.html#_sending)
-- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)<sup>M</sup>
+- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)M
 - [**Summon Monster V**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)
 - [**Summoner Conduit**](/pathfinderRPG/prd/ultimateCombat/spells/summonerConduit.html#_summoner-conduit)
 - [**Teleport**](/pathfinderRPG/prd/spells/teleport.html#_teleport)
@@ -192,7 +192,7 @@
 - [**Teleport, Greater**](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater)
 - [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)
 - [**Wall of Iron**](/pathfinderRPG/prd/spells/wallOfIron.html#_wall-of-iron)
-- [**Wreath of Blades**](/pathfinderRPG/prd/ultimateCombat/spells/wreathOfBlades.html#_wreath-of-blades)<sup>F</sup>
+- [**Wreath of Blades**](/pathfinderRPG/prd/ultimateCombat/spells/wreathOfBlades.html#_wreath-of-blades)F
 
 - [**Antipathy**](/pathfinderRPG/prd/spells/antipathy.html#_antipathy)
 - [**Charm Monster, Mass**](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster-mass)

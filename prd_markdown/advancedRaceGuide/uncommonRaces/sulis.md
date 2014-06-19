@@ -78,12 +78,10 @@ Sulis have access to the following equipment.
 
 **Elemental Flux** : This flask of alchemical powder reacts to the elemental power in suli blood. Adding at least 1 hit point worth of suli blood to it creates an alchemical splash weapon. The splash weapon works like a flask of acid, except the damage is a random energy type (acid, cold, electricity, or fire). A DC 10 [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) check identifies what energy type the activated flask has. The activated flux retains its power for 24 hours before becoming inert material. The [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) DC to create this is 20.
 
-<caption>Suli Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Elemental flux (flask) | 20 gp | 1 lb. | 20 |
+[Suli Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Elemental flux (flask) | 20 gp | 1 lb. | 20 |
 
 ## Suli Feats
 

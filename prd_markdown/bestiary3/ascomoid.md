@@ -36,7 +36,7 @@ Statistics
 
 **Base Atk** +5; **CMB** +10; **CMD** 21 (can't be tripped)
 
-**Feats** [Improved Overrun](/pathfinderRPG/prd/feats.html#_improved-overrun)<sup>B</sup>
+**Feats** [Improved Overrun](/pathfinderRPG/prd/feats.html#_improved-overrun)B
 
 Ecology
 

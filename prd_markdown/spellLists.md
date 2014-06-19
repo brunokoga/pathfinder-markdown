@@ -1,6 +1,6 @@
 # Spell Lists
 
-An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the spell lists denotes a spell with a material or focus component, respectively, that is not normally included in a spell component pouch.
+An M or F appearing at the end of a spell's name in the spell lists denotes a spell with a material or focus component, respectively, that is not normally included in a spell component pouch.
 
 **Order of Presentation** : In the spell lists and the short descriptions that follow them, the spells are presented in alphabetical order by name except for those belonging to certain spell chains. When a spell's name begins with âlesser,â âgreater,â or âmass,â the spell is alphabetized under the second word of the spell name instead.
 
@@ -96,7 +96,7 @@ Sorcerer/Wizard Spells
 
 **[Magic Aura](spells/magicAura.html#_magic-aura)** : Alters object's magic aura.
 
-**[Magic Mouth](spells/magicMouth.html#_magic-mouth)** <sup>M</sup>: Objects speaks once when triggered.
+**[Magic Mouth](spells/magicMouth.html#_magic-mouth)** M: Objects speaks once when triggered.
 
 **[Obscure Object](spells/obscureObject.html#_obscure-object)** : Masks object against _ [scrying](spells/scrying.html#_scrying)_.
 
@@ -220,7 +220,7 @@ Sorcerer/Wizard Spells
 
 **[Haste](spells/haste.html#_haste)** : One creature/level moves faster, receives +1 on attack rolls, [AC](combat.html#_armor-class), and [Reflex](combat.html#_reflex) saves.
 
-**[Illusory Script](spells/illusoryScript.html#_illusory-script)** <sup>M</sup>: Only select creatures can read text.
+**[Illusory Script](spells/illusoryScript.html#_illusory-script)** M: Only select creatures can read text.
 
 **[Invisibility Sphere](spells/invisibilitySphere.html#_invisibility-sphere)** : Makes everyone within 10 feet [invisible](glossary.html#_invisible).
 
@@ -230,7 +230,7 @@ Sorcerer/Wizard Spells
 
 **[Remove Curse](spells/removeCurse.html#_remove-curse)** : Frees object or person from curse.
 
-**[Scrying](spells/scrying.html#_scrying)** <sup>F</sup>: Spies on subject from a distance.
+**[Scrying](spells/scrying.html#_scrying)** F: Spies on subject from a distance.
 
 **[Sculpt Sound](spells/sculptSound.html#_sculpt-sound)** : Creates new sounds or changes existing ones into new sounds.
 
@@ -238,7 +238,7 @@ Sorcerer/Wizard Spells
 
 **[See Invisibility](spells/seeInvisibility.html#_see-invisibility)** : Reveals [invisible](glossary.html#_invisible) creatures or objects.
 
-**[Sepia Snake Sigil](spells/sepiaSnakeSigil.html#_sepia-snake-sigil)** <sup>M</sup>: Creates a snake-shaped text symbol that immobilizes reader.
+**[Sepia Snake Sigil](spells/sepiaSnakeSigil.html#_sepia-snake-sigil)** M: Creates a snake-shaped text symbol that immobilizes reader.
 
 **[Slow](spells/slow.html#_slow)** : One subject/level takes only one action/round, –1 to [AC](combat.html#_armor-class), [Reflex](combat.html#_reflex) saves, and attack rolls.
 
@@ -268,7 +268,7 @@ Sorcerer/Wizard Spells
 
 **[Invisibility, Greater](spells/invisibility.html#_invisibility-greater)** : As _ [invisibility](spells/invisibility.html#_invisibility), _but subject can attack and stay [invisible](glossary.html#_invisible).
 
-**[Legend Lore](spells/legendLore.html#_legend-lore)** <sup>MF</sup>: Lets you learn tales about a person, place, or thing.
+**[Legend Lore](spells/legendLore.html#_legend-lore)** MF: Lets you learn tales about a person, place, or thing.
 
 **[Locate Creature](spells/locateCreature.html#_locate-creature)** : Indicates direction to known creature.
 
@@ -300,7 +300,7 @@ Sorcerer/Wizard Spells
 
 **[Dream](spells/dream.html#_dream)** : Sends message to anyone sleeping.
 
-**[False Vision](spells/falseVision.html#_false-vision)** <sup>M</sup>: Fools scrying with an illusion.
+**[False Vision](spells/falseVision.html#_false-vision)** M: Fools scrying with an illusion.
 
 **[Heroism, Greater](spells/heroism.html#_heroism-greater)** : Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp.
 
@@ -328,7 +328,7 @@ Sorcerer/Wizard Spells
 
 ## 6th-Level Bard Spells
 
-**[Analyze Dweomer](spells/analyzeDweomer.html#_analyze-dweomer)** <sup>F</sup>: Reveals magical aspects of subject.
+**[Analyze Dweomer](spells/analyzeDweomer.html#_analyze-dweomer)** F: Reveals magical aspects of subject.
 
 **[Animate Objects](spells/animateObjects.html#_animate-objects)** : Objects attack your foes.
 
@@ -354,9 +354,9 @@ Sorcerer/Wizard Spells
 
 **[Permanent Image](spells/permanentImage.html#_permanent-image)** : Permanent illusion, includes sight, sound, smell, and thermal effects.
 
-**[Programmed Image](spells/programmedImage.html#_programmed-image)** <sup>M</sup>: As _ [major image](spells/majorImage.html#_major-image)_, plus triggered by event.
+**[Programmed Image](spells/programmedImage.html#_programmed-image)** M: As _ [major image](spells/majorImage.html#_major-image)_, plus triggered by event.
 
-**[Project Image](spells/projectImage.html#_project-image)** <sup>M</sup>: Illusory double can talk and cast spells.
+**[Project Image](spells/projectImage.html#_project-image)** M: Illusory double can talk and cast spells.
 
 **[Scrying, Greater](spells/scrying.html#_scrying-greater)** : As _ [scrying](spells/scrying.html#_scrying)_, but faster and longer.
 
@@ -402,7 +402,7 @@ Sorcerer/Wizard Spells
 
 **[Bless](spells/bless.html#_bless)** : Allies gain +1 on attack rolls and saves against fear.
 
-**[Bless Water](spells/blessWater.html#_bless-water)** <sup>M</sup>: Makes holy water.
+**[Bless Water](spells/blessWater.html#_bless-water)** M: Makes holy water.
 
 **[Cause Fear](spells/causeFear.html#_cause-fear)** : One creature of 5 HD or less flees for 1d4 rounds.
 
@@ -412,7 +412,7 @@ Sorcerer/Wizard Spells
 
 **[Cure Light Wounds](spells/cureLightWounds.html#_cure-light-wounds)** : Cures 1d8 damage + 1/level (max +5).
 
-**[Curse Water](spells/curseWater.html#_curse-water)** <sup>M</sup>: Makes unholy water.
+**[Curse Water](spells/curseWater.html#_curse-water)** M: Makes unholy water.
 
 **[Deathwatch](spells/deathwatch.html)** : Reveals how near death subjects within 30 ft. are.
 
@@ -454,7 +454,7 @@ Sorcerer/Wizard Spells
 
 **[Align Weapon](spells/alignWeapon.html#_align-weapon)** : Weapon becomes good, evil, lawful, or chaotic.
 
-**[Augury](spells/augury.html#_augury)** <sup>MF</sup>: Learns whether an action will be good or bad.
+**[Augury](spells/augury.html#_augury)** MF: Learns whether an action will be good or bad.
 
 **[Bear's Endurance](spells/bearSEndurance.html#_bear-s-endurance)** : Subject gains +4 to [Con](gettingStarted.html#_constitution) for 1 min./level.
 
@@ -462,7 +462,7 @@ Sorcerer/Wizard Spells
 
 **[Calm Emotions](spells/calmEmotions.html#_calm-emotions)** : Calms creatures, negating emotion effects.
 
-**[Consecrate](spells/consecrate.html#_consecrate)** <sup>M</sup>: Fills area with positive energy, weakening undead.
+**[Consecrate](spells/consecrate.html#_consecrate)** M: Fills area with positive energy, weakening undead.
 
 **[Cure Moderate Wounds](spells/cureModerateWounds.html#_cure-moderate-wounds)** : Cures 2d8 damage + 1/level (max +10).
 
@@ -472,7 +472,7 @@ Sorcerer/Wizard Spells
 
 **[Delay Poison](spells/delayPoison.html#_delay-poison)** : Stops poison from harming target for 1 hour/level.
 
-**[Desecrate](spells/desecrate.html#_desecrate)** <sup>M</sup>: Fills area with negative energy, making undead stronger.
+**[Desecrate](spells/desecrate.html#_desecrate)** M: Fills area with negative energy, making undead stronger.
 
 **[Eagle's Splendor](spells/eagleSSplendor.html#_eagle-s-splendor)** : Subject gains +4 to [Cha](gettingStarted.html#_charisma-new) for 1 min./level.
 
@@ -498,7 +498,7 @@ Sorcerer/Wizard Spells
 
 **[Shatter](spells/shatter.html#_shatter)** : Sonic vibration damages objects or crystalline creatures.
 
-**[Shield Other](spells/shieldOther.html#_shield-other)** <sup>F</sup>: You take half of subject's damage.
+**[Shield Other](spells/shieldOther.html#_shield-other)** F: You take half of subject's damage.
 
 **[Silence](spells/silence.html#_silence)** : Negates sound in 20-ft. radius.
 
@@ -516,7 +516,7 @@ Sorcerer/Wizard Spells
 
 ## 3rd-Level Cleric Spells
 
-**[Animate Dead](spells/animateDead.html#_animate-dead)** <sup>M</sup>: Creates undead skeletons and zombies.
+**[Animate Dead](spells/animateDead.html#_animate-dead)** M: Creates undead skeletons and zombies.
 
 **[Bestow Curse](spells/bestowCurse.html#_bestow-curse)** : –6 to an ability score; –4 on attack rolls, saves, and checks; or 50% chance of losing each action.
 
@@ -524,7 +524,7 @@ Sorcerer/Wizard Spells
 
 **[Contagion](spells/contagion.html#_contagion)** : Infects subject with chosen disease.
 
-**[Continual Flame](spells/continualFlame.html#_continual-flame)** <sup>M</sup>: Makes a permanent, heatless light.
+**[Continual Flame](spells/continualFlame.html#_continual-flame)** M: Makes a permanent, heatless light.
 
 **[Create Food and Water](spells/createFoodAndWater.html#_create-food-and-water)** : Feeds three humans (or one horse)/level.
 
@@ -536,7 +536,7 @@ Sorcerer/Wizard Spells
 
 **[Dispel Magic](spells/dispelMagic.html#_dispel-magic)** : Cancels one magical spell or effect.
 
-**[Glyph of Warding](spells/glyphOfWarding.html#_glyph-of-warding)** <sup>M</sup>: Inscription harms those who pass it.
+**[Glyph of Warding](spells/glyphOfWarding.html#_glyph-of-warding)** M: Inscription harms those who pass it.
 
 **[Helping Hand](spells/helpingHand.html#_helping-hand)** : Ghostly hand leads subject to you.
 
@@ -596,7 +596,7 @@ Sorcerer/Wizard Spells
 
 **[Dismissal](spells/dismissal.html#_dismissal)** : Forces a creature to return to native plane.
 
-**[Divination](spells/divination.html#_divination)** <sup>M</sup>: Provides useful advice for specific proposed actions.
+**[Divination](spells/divination.html#_divination)** M: Provides useful advice for specific proposed actions.
 
 **[Divine Power](spells/divinePower.html#_divine-power)** : You gain attack bonuses and 1 hp/level.
 
@@ -616,13 +616,13 @@ Sorcerer/Wizard Spells
 
 **[Order's Wrath](spells/orderSWrath.html#_order-s-wrath)** : Harms and dazes chaotic creatures (1d8 damage/2 levels).
 
-**[Planar Ally, Lesser](spells/planarAlly.html#_planar-ally-lesser)** <sup>M</sup>: Exchange services with a 6 HD extraplanar creature.
+**[Planar Ally, Lesser](spells/planarAlly.html#_planar-ally-lesser)** M: Exchange services with a 6 HD extraplanar creature.
 
 **[Poison](spells/poison.html#_poison)** : Touch deals 1d3 [Con](gettingStarted.html#_constitution) damage 1/round for 6 rounds.
 
 **[Repel Vermin](spells/repelVermin.html#_repel-vermin)** : Insects, spiders, and other vermin stay 10 ft. away.
 
-**[Restoration](spells/restoration.html#_restoration)** <sup>M</sup>: Restores level and ability score drains.
+**[Restoration](spells/restoration.html#_restoration)** M: Restores level and ability score drains.
 
 **[Sending](spells/sending.html#_sending)** : Delivers short message anywhere, instantly.
 
@@ -636,7 +636,7 @@ Sorcerer/Wizard Spells
 
 ## 5th-Level Cleric Spells
 
-**[Atonement](spells/atonement.html#_atonement)** <sup>FM</sup>: Removes burden of misdeeds from subject and reverses magical alignment change.
+**[Atonement](spells/atonement.html#_atonement)** FM: Removes burden of misdeeds from subject and reverses magical alignment change.
 
 **[Break Enchantment](spells/breakEnchantment.html#_break-enchantment)** : Frees subjects from enchantments, transmutations, and curses.
 
@@ -644,7 +644,7 @@ Sorcerer/Wizard Spells
 
 **[Command, Greater](spells/command.html#_command-greater)** : As _ [command](spells/command.html#_command), _but affects one subject/level.
 
-**[Commune](spells/commune.html#_commune)** <sup>M</sup>: Deity answers one yes-or-no question/level.
+**[Commune](spells/commune.html#_commune)** M: Deity answers one yes-or-no question/level.
 
 **[Cure Light Wounds, Mass](spells/cureLightWounds.html#_cure-light-wounds-mass)** : Cures 1d8 damage + 1/level, affects 1 subject/level.
 
@@ -654,7 +654,7 @@ Sorcerer/Wizard Spells
 
 **[Flame Strike](spells/flameStrike.html#_flame-strike)** : Smites foes with divine fire (1d6/level damage).
 
-**[Hallow](spells/hallow.html#_hallow)** <sup>M</sup>: Designates location as holy.
+**[Hallow](spells/hallow.html#_hallow)** M: Designates location as holy.
 
 **[Inflict Light Wounds, Mass](spells/inflictLightWounds.html#_inflict-light-wounds-mass)** : Deals 1d8 damage + 1/level, affects 1 subject/level.
 
@@ -662,13 +662,13 @@ Sorcerer/Wizard Spells
 
 **[Mark of Justice](spells/markOfJustice.html#_mark-of-justice)** : Designates action that triggers _curse _on subject.
 
-**[Plane Shift](spells/planeShift.html#_plane-shift)** <sup>F</sup>: As many as 8 subjects travel to another plane.
+**[Plane Shift](spells/planeShift.html#_plane-shift)** F: As many as 8 subjects travel to another plane.
 
-**[Raise Dead](spells/raiseDead.html#_raise-dead)** <sup>M</sup>: Restores life to subject who died as long as one day/level ago.
+**[Raise Dead](spells/raiseDead.html#_raise-dead)** M: Restores life to subject who died as long as one day/level ago.
 
 **[Righteous Might](spells/righteousMight.html#_righteous-might)** : Your size increases, and you gain bonuses in combat.
 
-**[Scrying](spells/scrying.html#_scrying)** <sup>F</sup>: Spies on subject from a distance.
+**[Scrying](spells/scrying.html#_scrying)** F: Spies on subject from a distance.
 
 **[Slay Living](spells/slayLiving.html#_slay-living)** : Touch attack deals 12d6 + 1 per level.
 
@@ -676,13 +676,13 @@ Sorcerer/Wizard Spells
 
 **[Summon Monster V](spells/summonMonster.html#_summon-monster-v)** : Summons extraplanar creature to fight for you.
 
-**[Symbol of Pain](spells/symbolOfPain.html#_symbol-of-pain)** <sup>M</sup>: Triggered rune wracks nearby creatures with pain.
+**[Symbol of Pain](spells/symbolOfPain.html#_symbol-of-pain)** M: Triggered rune wracks nearby creatures with pain.
 
-**[Symbol of Sleep](spells/symbolOfSleep.html#_symbol-of-sleep)** <sup>M</sup>: Triggered rune puts nearby creatures into catatonic slumber.
+**[Symbol of Sleep](spells/symbolOfSleep.html#_symbol-of-sleep)** M: Triggered rune puts nearby creatures into catatonic slumber.
 
-**[True Seeing](spells/trueSeeing.html#_true-seeing)** <sup>M</sup>: Lets you see all things as they really are.
+**[True Seeing](spells/trueSeeing.html#_true-seeing)** M: Lets you see all things as they really are.
 
-**[Unhallow](spells/unhallow.html#_unhallow)** <sup>M</sup>: Designates location as unholy.
+**[Unhallow](spells/unhallow.html#_unhallow)** M: Designates location as unholy.
 
 **[Wall of Stone](spells/wallOfStone.html#_wall-of-stone)** : Creates a stone wall that can be shaped.
 
@@ -700,7 +700,7 @@ Sorcerer/Wizard Spells
 
 **[Bull's Strength, Mass](spells/bullSStrength.html#_bull-s-strength-mass)** : As _ [bull's strength](spells/bullSStrength.html#_bull-s-strength)_, affects 1 subject/level.
 
-**[Create Undead](spells/createUndead.html#_create-undead)** <sup>M</sup>: Create ghasts, ghouls, mohrgs, or mummies.
+**[Create Undead](spells/createUndead.html#_create-undead)** M: Create ghasts, ghouls, mohrgs, or mummies.
 
 **[Cure Moderate Wounds, Mass](spells/cureModerateWounds.html#_cure-moderate-wounds-mass)** : Cures 2d8 damage + 1/level, affects 1 subject/level.
 
@@ -710,11 +710,11 @@ Sorcerer/Wizard Spells
 
 **[Find the Path](spells/findThePath.html#_find-the-path)** : Shows most direct way to a location.
 
-**[Forbiddance](spells/forbiddance.html#_forbiddance)** <sup>M</sup>: Blocks planar travel, damages creatures of different alignment.
+**[Forbiddance](spells/forbiddance.html#_forbiddance)** M: Blocks planar travel, damages creatures of different alignment.
 
 **[Geas/Quest](spells/geasQuest.html#_geas-quest)** : As _lesser geas, _but affects any creature.
 
-**[Glyph of Warding, Greater](spells/glyphOfWarding.html#_glyph-of-warding-greater)** <sup>M</sup>: As _ [glyph of warding](spells/glyphOfWarding.html#_glyph-of-warding)_, but up to 10d8 damage or 6th-level spell.
+**[Glyph of Warding, Greater](spells/glyphOfWarding.html#_glyph-of-warding-greater)** M: As _ [glyph of warding](spells/glyphOfWarding.html#_glyph-of-warding)_, but up to 10d8 damage or 6th-level spell.
 
 **[Harm](spells/harm.html#_harm)** : Deals 10 points/level damage to target.
 
@@ -726,15 +726,15 @@ Sorcerer/Wizard Spells
 
 **[Owl's Wisdom, Mass](spells/owlSWisdom.html#_owl-s-wisdom-mass)** : As _ [owl's wisdom](spells/owlSWisdom.html#_owl-s-wisdom)_, affects 1 subject/level.
 
-**[Planar Ally](spells/planarAlly.html#_planar-ally)** <sup>M</sup>: As _ [lesser planar ally](spells/planarAlly.html#_planar-ally-lesser), _but up to 12 HD.
+**[Planar Ally](spells/planarAlly.html#_planar-ally)** M: As _ [lesser planar ally](spells/planarAlly.html#_planar-ally-lesser), _but up to 12 HD.
 
 **[Summon Monster VI](spells/summonMonster.html#_summon-monster-vi)** : Summons extraplanar creature to fight for you.
 
-**[Symbol of Fear](spells/symbolOfFear.html#_symbol-of-fear)** <sup>M</sup>: Triggered rune panics nearby creatures.
+**[Symbol of Fear](spells/symbolOfFear.html#_symbol-of-fear)** M: Triggered rune panics nearby creatures.
 
-**[Symbol of Persuasion](spells/symbolOfPersuasion.html#_symbol-of-persuasion)** <sup>M</sup>: Triggered rune charms nearby creatures.
+**[Symbol of Persuasion](spells/symbolOfPersuasion.html#_symbol-of-persuasion)** M: Triggered rune charms nearby creatures.
 
-**[Undeath to Death](spells/undeathToDeath.html#_undeath-to-death)** <sup>M</sup>: Destroys 1d4 HD/level undead (max. 20d4).
+**[Undeath to Death](spells/undeathToDeath.html#_undeath-to-death)** M: Destroys 1d4 HD/level undead (max. 20d4).
 
 **[Wind Walk](spells/windWalk.html#_wind-walk)** : You and your allies turn vaporous and travel fast.
 
@@ -748,7 +748,7 @@ Sorcerer/Wizard Spells
 
 **[Cure Serious Wounds, Mass](spells/cureSeriousWounds.html#_cure-serious-wounds-mass)** : Cures 3d8 damage + 1/level, affects 1 subject/level.
 
-**[Destruction](spells/destruction.html#_destruction)** <sup>F</sup>: Kills subject and destroys remains.
+**[Destruction](spells/destruction.html#_destruction)** F: Kills subject and destroys remains.
 
 **[Dictum](spells/dictum.html#_dictum)** : Kills, paralyzes, staggers, or deafens nonlawful targets.
 
@@ -758,23 +758,23 @@ Sorcerer/Wizard Spells
 
 **[Inflict Serious Wounds, Mass](spells/inflictSeriousWounds.html#_inflict-serious-wounds-mass)** : Deals 3d8 damage + 1/level, affects 1 subject/level.
 
-**[Refuge](spells/refuge.html#_refuge)** <sup>M</sup>: Alters item to transport its possessor to you.
+**[Refuge](spells/refuge.html#_refuge)** M: Alters item to transport its possessor to you.
 
 **[Regenerate](spells/regenerate.html#_regenerate)** : Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).
 
 **[Repulsion](spells/repulsion.html#_repulsion)** : Creatures can't approach you.
 
-**[Restoration, Greater](spells/restoration.html#_restoration-greater)** <sup>M</sup>: As _ [restoration](spells/restoration.html#_restoration), _plus restores all levels and ability scores.
+**[Restoration, Greater](spells/restoration.html#_restoration-greater)** M: As _ [restoration](spells/restoration.html#_restoration), _plus restores all levels and ability scores.
 
-**[Resurrection](spells/resurrection.html#_resurrection)** <sup>M</sup>: Fully restore dead subject.
+**[Resurrection](spells/resurrection.html#_resurrection)** M: Fully restore dead subject.
 
 **[Scrying, Greater](spells/scrying.html#_scrying-greater)** : As _ [scrying](spells/scrying.html#_scrying)_, but faster and longer.
 
 **[Summon Monster VII](spells/summonMonster.html#_summon-monster-vii)** : Summons extraplanar creature to fight for you.
 
-**[Symbol of Stunning](spells/symbolOfStunning.html#_symbol-of-stunning)** <sup>M</sup>: Triggered rune stuns nearby creatures.
+**[Symbol of Stunning](spells/symbolOfStunning.html#_symbol-of-stunning)** M: Triggered rune stuns nearby creatures.
 
-**[Symbol of Weakness](spells/symbolOfWeakness.html#_symbol-of-weakness)** <sup>M</sup>: Triggered rune weakens nearby creatures.
+**[Symbol of Weakness](spells/symbolOfWeakness.html#_symbol-of-weakness)** M: Triggered rune weakens nearby creatures.
 
 **[Word of Chaos](spells/wordOfChaos.html#_word-of-chaos)** : Kills, confuses_, _stuns, or deafens nonchaotic subjects.
 
@@ -782,9 +782,9 @@ Sorcerer/Wizard Spells
 
 **[Antimagic Field](spells/antimagicField.html#_antimagic-field)** : Negates magic within 10 ft.
 
-**[Cloak of Chaos](spells/cloakOfChaos.html#_cloak-of-chaos)** <sup>F</sup>: +4 to [AC](combat.html#_armor-class), +4 resistance, and SR 25 against lawful spells.
+**[Cloak of Chaos](spells/cloakOfChaos.html#_cloak-of-chaos)** F: +4 to [AC](combat.html#_armor-class), +4 resistance, and SR 25 against lawful spells.
 
-**[Create Greater Undead](spells/createGreaterUndead.html#_create-greater-undead)** <sup>M</sup>: Create shadows, wraiths, spectres, or devourers.
+**[Create Greater Undead](spells/createGreaterUndead.html#_create-greater-undead)** M: Create shadows, wraiths, spectres, or devourers.
 
 **[Cure Critical Wounds, Mass](spells/cureCriticalWounds.html#_cure-critical-wounds-mass)** : Cures 4d8 damage + 1/level for many creatures.
 
@@ -796,47 +796,47 @@ Sorcerer/Wizard Spells
 
 **[Fire Storm](spells/fireStorm.html#_fire-storm)** : Deals 1d6/level fire damage.
 
-**[Holy Aura](spells/holyAura.html#_holy-aura)** <sup>F</sup>: +4 to [AC](combat.html#_armor-class), +4 resistance, and SR 25 against evil spells.
+**[Holy Aura](spells/holyAura.html#_holy-aura)** F: +4 to [AC](combat.html#_armor-class), +4 resistance, and SR 25 against evil spells.
 
 **[Inflict Critical Wounds, Mass](spells/inflictCriticalWounds.html#_inflict-critical-wounds-mass)** : Deals 4d8 damage + 1/level, affects 1 subject/level.
 
-**[Planar Ally, Greater](spells/planarAlly.html#_planar-ally-greater)** <sup>M</sup>: As _ [lesser planar ally](spells/planarAlly.html#_planar-ally-lesser), _but up to 18 HD.
+**[Planar Ally, Greater](spells/planarAlly.html#_planar-ally-greater)** M: As _ [lesser planar ally](spells/planarAlly.html#_planar-ally-lesser), _but up to 18 HD.
 
-**[Shield of Law](spells/shieldOfLaw.html#_shield-of-law)** <sup>F</sup>: +4 to [AC](combat.html#_armor-class), +4 resistance, and SR 25 against chaotic spells.
+**[Shield of Law](spells/shieldOfLaw.html#_shield-of-law)** F: +4 to [AC](combat.html#_armor-class), +4 resistance, and SR 25 against chaotic spells.
 
 **[Spell Immunity, Greater](spells/spellImmunity.html#_spell-immunity-greater)** : As _ [spell immunity](spells/spellImmunity.html#_spell-immunity), _but up to 8th-level spells.
 
 **[Summon Monster VIII](spells/summonMonster.html#_summon-monster-viii)** : Summons extraplanar creature to fight for you.
 
-**[Symbol of Death](spells/symbolOfDeath.html#_symbol-of-death)** <sup>M</sup>: Triggered rune kills nearby creatures.
+**[Symbol of Death](spells/symbolOfDeath.html#_symbol-of-death)** M: Triggered rune kills nearby creatures.
 
-**[Symbol of Insanity](spells/symbolOfInsanity.html#_symbol-of-insanity)** <sup>M</sup>: Triggered rune renders nearby creatures insane.
+**[Symbol of Insanity](spells/symbolOfInsanity.html#_symbol-of-insanity)** M: Triggered rune renders nearby creatures insane.
 
-**[Unholy Aura](spells/unholyAura.html#_unholy-aura)** <sup>F</sup>: +4 to [AC](combat.html#_armor-class), +4 resistance, and SR 25 against good spells.
+**[Unholy Aura](spells/unholyAura.html#_unholy-aura)** F: +4 to [AC](combat.html#_armor-class), +4 resistance, and SR 25 against good spells.
 
 ## 9th-Level Cleric Spells
 
-**[Astral Projection](spells/astralProjection.html#_astral-projection)** <sup>M</sup>: Projects you and others onto Astral Plane.
+**[Astral Projection](spells/astralProjection.html#_astral-projection)** M: Projects you and others onto Astral Plane.
 
 **[Energy Drain](spells/energyDrain.html#_energy-drain)** : Subject gains 2d4 [negative levels](glossary.html#_energy-drain-and-negative-levels).
 
 **[Etherealness](spells/etherealness.html#_etherealness)** : Travel to Ethereal Plane with companions.
 
-**[Gate](spells/gate.html#_gate)** <sup>M</sup>: Connects two planes for travel or summoning.
+**[Gate](spells/gate.html#_gate)** M: Connects two planes for travel or summoning.
 
 **[Heal, Mass](spells/heal.html#_heal-mass)** : As _ [heal](spells/heal.html#_heal)_, but affects 1 subject/level.
 
 **[Implosion](spells/implosion.html#_implosion)** : Inflict 10 damage/level to one creature/round.
 
-**[Miracle](spells/miracle.html#_miracle)** <sup>M</sup>: Requests a deity's intercession.
+**[Miracle](spells/miracle.html#_miracle)** M: Requests a deity's intercession.
 
-**[Soul Bind](spells/soulBind.html#_soul-bind)** <sup>F</sup>: Traps newly dead soul to prevent _ [resurrection](spells/resurrection.html#_resurrection)_.
+**[Soul Bind](spells/soulBind.html#_soul-bind)** F: Traps newly dead soul to prevent _ [resurrection](spells/resurrection.html#_resurrection)_.
 
 **[Storm of Vengeance](spells/stormOfVengeance.html#_storm-of-vengeance)** : Storm rains acid, lightning, and hail.
 
 **[Summon Monster IX](spells/summonMonster.html#_summon-monster-ix)** : Summons extraplanar creature to fight for you.
 
-**[True Resurrection](spells/trueResurrection.html#_true-resurrection)** <sup>M</sup>: As _ [resurrection](spells/resurrection.html#_resurrection)_, plus remains aren't needed.
+**[True Resurrection](spells/trueResurrection.html#_true-resurrection)** M: As _ [resurrection](spells/resurrection.html#_resurrection)_, plus remains aren't needed.
 
 # Druid Spells
 
@@ -928,7 +928,7 @@ Sorcerer/Wizard Spells
 
 **[Delay Poison](spells/delayPoison.html#_delay-poison)** : Stops poison from harming subject for 1 hour/level.
 
-**[Fire Trap](spells/fireTrap.html#_fire-trap)** <sup>M</sup>: Opened object deals 1d4 + 1/level damage.
+**[Fire Trap](spells/fireTrap.html#_fire-trap)** M: Opened object deals 1d4 + 1/level damage.
 
 **[Flame Blade](spells/flameBlade.html#_flame-blade)** : Touch attack deals 1d8 + 1/two levels damage.
 
@@ -1040,7 +1040,7 @@ Sorcerer/Wizard Spells
 
 **[Rusting Grasp](spells/rustingGrasp.html#_rusting-grasp)** : Your touch corrodes iron and alloys.
 
-**[Scrying](spells/scrying.html#_scrying)** <sup>F</sup>: Spies on subject from a distance.
+**[Scrying](spells/scrying.html#_scrying)** F: Spies on subject from a distance.
 
 **[Spike Stones](spells/spikeStones.html#_spike-stones)** : Creatures in area take 1d8 damage, may also be slowed_._
 
@@ -1050,9 +1050,9 @@ Sorcerer/Wizard Spells
 
 **[Animal Growth](spells/animalGrowth.html#_animal-growth)** : One animal doubles in size.
 
-**[Atonement](spells/atonement.html#_atonement)** <sup>FM</sup>: Removes burden of misdeeds from subject.
+**[Atonement](spells/atonement.html#_atonement)** FM: Removes burden of misdeeds from subject.
 
-**[Awaken](spells/awaken.html#_awaken)** <sup>M</sup>: Animal or tree gains human intellect.
+**[Awaken](spells/awaken.html#_awaken)** M: Animal or tree gains human intellect.
 
 **[Baleful Polymorph](spells/balefulPolymorph.html#_baleful-polymorph)** : Transforms subject into harmless animal.
 
@@ -1066,11 +1066,11 @@ Sorcerer/Wizard Spells
 
 **[Death Ward](spells/deathWard.html#_death-ward)** : Grants bonuses against death spells and negative energy.
 
-**[Hallow](spells/hallow.html#_hallow)** <sup>M</sup>: Designates location as holy.
+**[Hallow](spells/hallow.html#_hallow)** M: Designates location as holy.
 
 **[Insect Plague](spells/insectPlague.html#_insect-plague)** : Wasp swarms attack creatures.
 
-**[Stoneskin](spells/stoneskin.html#_stoneskin)** <sup>M</sup>: Grants [DR](glossary.html#_damage-reduction) 10/adamantine.
+**[Stoneskin](spells/stoneskin.html#_stoneskin)** M: Grants [DR](glossary.html#_damage-reduction) 10/adamantine.
 
 **[Summon Nature's Ally V](spells/summonNatureSAlly.html#_summon-nature-s-ally-v)** : Summons creature to fight.
 
@@ -1080,7 +1080,7 @@ Sorcerer/Wizard Spells
 
 **[Tree Stride](spells/treeStride.html#_tree-stride)** : Step from one tree to another far away.
 
-**[Unhallow](spells/unhallow.html#_unhallow)** <sup>M</sup>: Designates location as unholy.
+**[Unhallow](spells/unhallow.html#_unhallow)** M: Designates location as unholy.
 
 **[Wall of Fire](spells/wallOfFire.html#_wall-of-fire)** : Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
 
@@ -1148,7 +1148,7 @@ Sorcerer/Wizard Spells
 
 **[Transmute Metal to Wood](spells/transmuteMetalToWood.html#_transmute-metal-to-wood)** : Metal within 40 ft. becomes wood.
 
-**[True Seeing](spells/trueSeeing.html#_true-seeing)** <sup>M</sup>: Lets you see all things as they really are.
+**[True Seeing](spells/trueSeeing.html#_true-seeing)** M: Lets you see all things as they really are.
 
 **[Wind Walk](spells/windWalk.html#_wind-walk)** : You and your allies turn vaporous and travel fast.
 
@@ -1190,13 +1190,13 @@ Sorcerer/Wizard Spells
 
 **[Shambler](spells/shambler.html#_shambler)** : Creates 1d4+2 shambling mounds to fight for you.
 
-**[Shapechange](spells/shapechange.html#_shapechange)** <sup>F</sup>: Transforms you into certain creatures, and you can change forms once per round.
+**[Shapechange](spells/shapechange.html#_shapechange)** F: Transforms you into certain creatures, and you can change forms once per round.
 
 **[Storm of Vengeance](spells/stormOfVengeance.html#_storm-of-vengeance)** : Storm rains acid, lightning, and hail.
 
 **[Summon Nature's Ally IX](spells/summonNatureSAlly.html#_summon-nature-s-ally-ix)** : Summons creature to fight.
 
-**[Sympathy](spells/sympathy.html#_sympathy)** <sup>M</sup>: Object or location attracts certain creatures.
+**[Sympathy](spells/sympathy.html#_sympathy)** M: Object or location attracts certain creatures.
 
 # Paladin Spells
 
@@ -1204,7 +1204,7 @@ Sorcerer/Wizard Spells
 
 **[Bless](spells/bless.html#_bless)** : Allies gain +1 on attack rolls and saves against fear.
 
-**[Bless Water](spells/blessWater.html#_bless-water)** <sup>M</sup>: Makes holy water.
+**[Bless Water](spells/blessWater.html#_bless-water)** M: Makes holy water.
 
 **[Bless Weapon](spells/blessWeapon.html#_bless-weapon)** : Weapon strikes true against evil foes.
 
@@ -1246,7 +1246,7 @@ Sorcerer/Wizard Spells
 
 **[Resist Energy](spells/resistEnergy.html#_resist-energy)** : Ignores 10 or more points of damage per attack from specified energy type.
 
-**[Shield Other](spells/shieldOther.html#_shield-other)** <sup>F</sup>: You take half of subject's damage.
+**[Shield Other](spells/shieldOther.html#_shield-other)** F: You take half of subject's damage.
 
 **[Undetectable Alignment](spells/undetectableAlignment.html#_undetectable-alignment)** : Conceals alignment from magical detection for 24 hours.
 
@@ -1292,7 +1292,7 @@ Sorcerer/Wizard Spells
 
 **[Neutralize Poison](spells/neutralizePoison.html#_neutralize-poison)** : Immunizes subject against poison, detoxifies venom in or on subject.
 
-**[Restoration](spells/restoration.html#_restoration)** <sup>M</sup>: Restores level and ability score drains.
+**[Restoration](spells/restoration.html#_restoration)** M: Restores level and ability score drains.
 
 # Ranger Spells
 
@@ -1400,7 +1400,7 @@ Sorcerer/Wizard Spells
 
 **[Freedom of Movement](spells/freedomOfMovement.html#_freedom-of-movement)** : Subject moves normally despite impediments to movement.
 
-**[Nondetection](spells/nondetection.html#_nondetection)** <sup>M</sup>: Hides subject from divination, [scrying](spells/scrying.html#_scrying).
+**[Nondetection](spells/nondetection.html#_nondetection)** M: Hides subject from divination, [scrying](spells/scrying.html#_scrying).
 
 **[Summon Nature's Ally IV](spells/summonNatureSAlly.html#_summon-nature-s-ally-iv)** : Summons creature to fight for you.
 
@@ -1568,7 +1568,7 @@ Sorcerer/Wizard Spells
 
 ### Abjuration
 
-**[Arcane Lock](spells/arcaneLock.html#_arcane-lock)** <sup>M</sup>: Magically locks a portal or chest.
+**[Arcane Lock](spells/arcaneLock.html#_arcane-lock)** M: Magically locks a portal or chest.
 
 **[Obscure Object](spells/obscureObject.html#_obscure-object)** : Masks object against [scrying](spells/scrying.html#_scrying).
 
@@ -1608,7 +1608,7 @@ Sorcerer/Wizard Spells
 
 ### Evocation
 
-**[Continual Flame](spells/continualFlame.html#_continual-flame)** <sup>M</sup>: Makes a permanent, heatless light.
+**[Continual Flame](spells/continualFlame.html#_continual-flame)** M: Makes a permanent, heatless light.
 
 **[Darkness](spells/darkness.html#_darkness)** : 20-ft. radius of supernatural shadow.
 
@@ -1628,7 +1628,7 @@ Sorcerer/Wizard Spells
 
 **[Invisibility](spells/invisibility.html#_invisibility)** : Subject is [invisible](glossary.html#_invisible) for 1 min./level or until it attacks.
 
-**[Magic Mouth](spells/magicMouth.html#_magic-mouth)** <sup>M</sup>: Object speaks once when triggered.
+**[Magic Mouth](spells/magicMouth.html#_magic-mouth)** M: Object speaks once when triggered.
 
 **[Minor Image](spells/minorImage.html#_minor-image)** : As _ [silent image](spells/silentImage.html#_silent-image)_, plus some sound.
 
@@ -1636,7 +1636,7 @@ Sorcerer/Wizard Spells
 
 **[Misdirection](spells/misdirection.html#_misdirection)** : Misleads divinations for 1 creature or object.
 
-**[Phantom Trap](spells/phantomTrap.html#_phantom-trap)** <sup>M</sup>: Makes item seem trapped.
+**[Phantom Trap](spells/phantomTrap.html#_phantom-trap)** M: Makes item seem trapped.
 
 ### Necromancy
 
@@ -1694,7 +1694,7 @@ Sorcerer/Wizard Spells
 
 **[Magic Circle against Chaos/Evil/Good/Law](spells/magicCircleAgainstChaos.html#_magic-circle-against-chaos)** : As _protection _spells, but 10-ft. radius and 10 min./level.
 
-**[Nondetection](spells/nondetection.html#_nondetection)** <sup>M</sup>: Hides subject from divination, [scrying](spells/scrying.html#_scrying).
+**[Nondetection](spells/nondetection.html#_nondetection)** M: Hides subject from divination, [scrying](spells/scrying.html#_scrying).
 
 **[Protection from Energy](spells/protectionFromEnergy.html#_protection-from-energy)** : Absorbs 12 points/level of damage from one kind of energy.
 
@@ -1702,7 +1702,7 @@ Sorcerer/Wizard Spells
 
 **[Phantom Steed](spells/phantomSteed.html#_phantom-steed)** : Magic horse appears for 1 hour/level.
 
-**[Sepia Snake Sigil](spells/sepiaSnakeSigil.html#_sepia-snake-sigil)** <sup>M</sup>: Creates text symbol that immobilizes reader.
+**[Sepia Snake Sigil](spells/sepiaSnakeSigil.html#_sepia-snake-sigil)** M: Creates text symbol that immobilizes reader.
 
 **[Sleet Storm](spells/sleetStorm.html#_sleet-storm)** : Hampers vision and movement.
 
@@ -1746,7 +1746,7 @@ Sorcerer/Wizard Spells
 
 **[Displacement](spells/displacement.html#_displacement)** : Attacks miss subject 50% of the time.
 
-**[Illusory Script](spells/illusoryScript.html#_illusory-script)** <sup>M</sup>: Only select creatures can read text.
+**[Illusory Script](spells/illusoryScript.html#_illusory-script)** M: Only select creatures can read text.
 
 **[Invisibility Sphere](spells/invisibilitySphere.html#_invisibility-sphere)** : Makes everyone within 10 ft. [invisible](glossary.html#_invisible).
 
@@ -1794,13 +1794,13 @@ Sorcerer/Wizard Spells
 
 **[Dimensional Anchor](spells/dimensionalAnchor.html#_dimensional-anchor)** : Bars extradimensional movement.
 
-**[Fire Trap](spells/fireTrap.html#_fire-trap)** <sup>M</sup>: Opened object deals 1d4 damage + 1/level.
+**[Fire Trap](spells/fireTrap.html#_fire-trap)** M: Opened object deals 1d4 damage + 1/level.
 
 **[Globe of Invulnerability, Lesser](spells/globeOfInvulnerability.html#_globe-of-invulnerability-lesser)** : Stops 1st- through 3rd-level spell effects.
 
 **[Remove Curse](spells/removeCurse.html#_remove-curse)** : Frees object or person from curse.
 
-**[Stoneskin](spells/stoneskin.html#_stoneskin)** <sup>M</sup>: Grants [DR](glossary.html#_damage-reduction) 10/adamantine.
+**[Stoneskin](spells/stoneskin.html#_stoneskin)** M: Grants [DR](glossary.html#_damage-reduction) 10/adamantine.
 
 ### Conjuration
 
@@ -1824,7 +1824,7 @@ Sorcerer/Wizard Spells
 
 **[Locate Creature](spells/locateCreature.html#_locate-creature)** : Indicates direction to familiar creature.
 
-**[Scrying](spells/scrying.html#_scrying)** <sup>F</sup>: Spies on subject from a distance.
+**[Scrying](spells/scrying.html#_scrying)** F: Spies on subject from a distance.
 
 ### Enchantment
 
@@ -1866,7 +1866,7 @@ Sorcerer/Wizard Spells
 
 ### Necromancy
 
-**[Animate Dead](spells/animateDead.html#_animate-dead)** <sup>M</sup>: Creates undead skeletons and zombies out of corpses.
+**[Animate Dead](spells/animateDead.html#_animate-dead)** M: Creates undead skeletons and zombies out of corpses.
 
 **[Bestow Curse](spells/bestowCurse.html#_bestow-curse)** : –6 to an ability score; –4 on attack rolls, saves, and checks; or 50% chance of losing each action.
 
@@ -1884,7 +1884,7 @@ Sorcerer/Wizard Spells
 
 **[Enlarge Person, Mass](spells/enlargePerson.html#_enlarge-person-mass)** : 1 humanoid creature/level doubles in size.
 
-**[Mnemonic Enhancer](spells/mnemonicEnhancer.html#_mnemonic-enhancer)** <sup>F</sup>: _Wizard only. _Prepare extra spells or retain one just cast.
+**[Mnemonic Enhancer](spells/mnemonicEnhancer.html#_mnemonic-enhancer)** F: _Wizard only. _Prepare extra spells or retain one just cast.
 
 **[Reduce Person, Mass](spells/reducePerson.html#_reduce-person-mass)** : As _ [reduce person](spells/reducePerson.html#_reduce-person)_, but affects 1 humanoid creature/level.
 
@@ -1910,7 +1910,7 @@ Sorcerer/Wizard Spells
 
 **[Planar Binding, Lesser](spells/planarBinding.html#_planar-binding-lesser)** : Traps extraplanar creature of 6 HD or less until it performs a task.
 
-**[Secret Chest](spells/secretChest.html#_secret-chest)** <sup>F</sup>: Hides expensive chest on Ethereal Plane; you retrieve it at will.
+**[Secret Chest](spells/secretChest.html#_secret-chest)** F: Hides expensive chest on Ethereal Plane; you retrieve it at will.
 
 **[Summon Monster V](spells/summonMonster.html#_summon-monster-v)** : Summons extraplanar creature to fight for you.
 
@@ -1936,7 +1936,7 @@ Sorcerer/Wizard Spells
 
 **[Mind Fog](spells/mindFog.html#_mind-fog)** : Subjects in fog get –10 to [Wis](gettingStarted.html#_wisdom) and [Will](combat.html#_will) checks.
 
-**[Symbol of Sleep](spells/symbolOfSleep.html#_symbol-of-sleep)** <sup>M</sup>: Triggered rune puts nearby creatures into catatonic slumber.
+**[Symbol of Sleep](spells/symbolOfSleep.html#_symbol-of-sleep)** M: Triggered rune puts nearby creatures into catatonic slumber.
 
 ### Evocation
 
@@ -1952,7 +1952,7 @@ Sorcerer/Wizard Spells
 
 **[Dream](spells/dream.html#_dream)** : Sends message to anyone sleeping.
 
-**[False Vision](spells/falseVision.html#_false-vision)** <sup>M</sup>: Fools [scrying](spells/scrying.html#_scrying) with an illusion.
+**[False Vision](spells/falseVision.html#_false-vision)** M: Fools [scrying](spells/scrying.html#_scrying) with an illusion.
 
 **[Mirage Arcana](spells/mirageArcana.html#_mirage-arcana)** : As _ [hallucinatory terrain](spells/hallucinatoryTerrain.html#_hallucinatory-terrain), _plus structures.
 
@@ -1968,9 +1968,9 @@ Sorcerer/Wizard Spells
 
 **[Blight](spells/blight.html#_blight)** : Withers one plant or deals 1d6/level damage to plant creature.
 
-**[Magic Jar](spells/magicJar.html#_magic-jar)** <sup>F</sup>: Enables possession of another creature.
+**[Magic Jar](spells/magicJar.html#_magic-jar)** F: Enables possession of another creature.
 
-**[Symbol of Pain](spells/symbolOfPain.html#_symbol-of-pain)** <sup>M</sup>: Triggered rune wracks creatures with pain.
+**[Symbol of Pain](spells/symbolOfPain.html#_symbol-of-pain)** M: Triggered rune wracks creatures with pain.
 
 **[Waves of Fatigue](spells/wavesOfFatigue.html#_waves-of-fatigue)** : Several targets become [fatigued](glossary.html#_fatigued).
 
@@ -1984,7 +1984,7 @@ Sorcerer/Wizard Spells
 
 **[Elemental Body II](spells/elementalBody.html#_elemental-body-ii)** : Turns you into a Medium elemental.
 
-**[Fabricate](spells/fabricate.html#_fabricate)** <sup>M</sup>: Transforms raw materials into finished items.
+**[Fabricate](spells/fabricate.html#_fabricate)** M: Transforms raw materials into finished items.
 
 **[Overland Flight](spells/overlandFlight.html#_overland-flight)** : You fly at a speed of 40 ft. and can hustle over long distances.
 
@@ -2002,7 +2002,7 @@ Sorcerer/Wizard Spells
 
 ### Universal
 
-**[Permanency](spells/permanency.html#_permanency)** <sup>M</sup>: Makes certain spells permanent.
+**[Permanency](spells/permanency.html#_permanency)** M: Makes certain spells permanent.
 
 ## 6th-Level Sorcerer/Wizard Spells
 
@@ -2016,7 +2016,7 @@ Sorcerer/Wizard Spells
 
 **[Guards and Wards](spells/guardsAndWards.html#_guards-and-wards)** : Array of magic effects protect area.
 
-**[Repulsion](spells/repulsion.html#_repulsion)** <sup>F</sup>: Creatures can't approach you.
+**[Repulsion](spells/repulsion.html#_repulsion)** F: Creatures can't approach you.
 
 ### Conjuration
 
@@ -2026,15 +2026,15 @@ Sorcerer/Wizard Spells
 
 **[Summon Monster VI](spells/summonMonster.html#_summon-monster-vi)** : Summons extraplanar creature to fight for you.
 
-**[Wall of Iron](spells/wallOfIron.html#_wall-of-iron)** <sup>M</sup>: 30 hp/four levels; can topple onto foes.
+**[Wall of Iron](spells/wallOfIron.html#_wall-of-iron)** M: 30 hp/four levels; can topple onto foes.
 
 ### Divination
 
-**[Analyze Dweomer](spells/analyzeDweomer.html#_analyze-dweomer)** <sup>F</sup>: Reveals magical aspects of subject.
+**[Analyze Dweomer](spells/analyzeDweomer.html#_analyze-dweomer)** F: Reveals magical aspects of subject.
 
-**[Legend Lore](spells/legendLore.html#_legend-lore)** <sup>MF</sup>: Lets you learn tales about a person, place, or thing.
+**[Legend Lore](spells/legendLore.html#_legend-lore)** MF: Lets you learn tales about a person, place, or thing.
 
-**[True Seeing](spells/trueSeeing.html#_true-seeing)** <sup>M</sup>: Lets you see all things as they really are.
+**[True Seeing](spells/trueSeeing.html#_true-seeing)** M: Lets you see all things as they really are.
 
 ### Enchantment
 
@@ -2044,13 +2044,13 @@ Sorcerer/Wizard Spells
 
 **[Suggestion, Mass](spells/suggestion.html#_suggestion-mass)** : As _ [suggestion](spells/suggestion.html#_suggestion), _affects 1 subject/level.
 
-**[Symbol of Persuasion](spells/symbolOfPersuasion.html#_symbol-of-persuasion)** <sup>M</sup>: Triggered rune charms creatures.
+**[Symbol of Persuasion](spells/symbolOfPersuasion.html#_symbol-of-persuasion)** M: Triggered rune charms creatures.
 
 ### Evocation
 
 **[Chain Lightning](spells/chainLightning.html#_chain-lightning)** : 1d6/level damage and 1 secondary bolt/level.
 
-**[Contingency](spells/contingency.html#_contingency)** <sup>F</sup>: Sets trigger condition for another spell.
+**[Contingency](spells/contingency.html#_contingency)** F: Sets trigger condition for another spell.
 
 **[Forceful Hand](spells/forcefulHand.html#_forceful-hand)** : Hand pushes creatures away.
 
@@ -2062,7 +2062,7 @@ Sorcerer/Wizard Spells
 
 **[Permanent Image](spells/permanentImage.html#_permanent-image)** : Permanent illusion, includes sight, sound, smell, and thermal effects.
 
-**[Programmed Image](spells/programmedImage.html#_programmed-image)** <sup>M</sup>: As _ [major image](spells/majorImage.html#_major-image)_, but triggered by event.
+**[Programmed Image](spells/programmedImage.html#_programmed-image)** M: As _ [major image](spells/majorImage.html#_major-image)_, but triggered by event.
 
 **[Shadow Walk](spells/shadowWalk.html#_shadow-walk)** : Step into shadow to travel rapidly.
 
@@ -2070,15 +2070,15 @@ Sorcerer/Wizard Spells
 
 ### Necromancy
 
-**[Circle of Death](spells/circleOfDeath.html#_circle-of-death)** <sup>M</sup>: Kills 1d4/level HD of creatures.
+**[Circle of Death](spells/circleOfDeath.html#_circle-of-death)** M: Kills 1d4/level HD of creatures.
 
-**[Create Undead](spells/createUndead.html#_create-undead)** <sup>M</sup>: Raises ghouls, ghasts, mummies, or mohrgs from physical remains.
+**[Create Undead](spells/createUndead.html#_create-undead)** M: Raises ghouls, ghasts, mummies, or mohrgs from physical remains.
 
 **[Eyebite](spells/eyebite.html#_eyebite)** : Target becomes [panicked](glossary.html#_panicked), [sickened](glossary.html#_sickened), and comatose.
 
-**[Symbol of Fear](spells/symbolOfPain.html#_symbol-of-pain)** <sup>M</sup>: Triggered rune panics nearby creatures.
+**[Symbol of Fear](spells/symbolOfPain.html#_symbol-of-pain)** M: Triggered rune panics nearby creatures.
 
-**[Undeath to Death](spells/undeathToDeath.html#_undeath-to-death)** <sup>M</sup>: Destroys 1d4/level HD of undead (max. 20d4).
+**[Undeath to Death](spells/undeathToDeath.html#_undeath-to-death)** M: Destroys 1d4/level HD of undead (max. 20d4).
 
 ### Transmutation
 
@@ -2114,7 +2114,7 @@ Sorcerer/Wizard Spells
 
 **[Stone to Flesh](spells/stoneToFlesh.html#_stone-to-flesh)** : Restores [petrified](glossary.html#_petrified) creature.
 
-**[Transformation](spells/transformation.html#_transformation)** <sup>M</sup>: You gain combat bonuses.
+**[Transformation](spells/transformation.html#_transformation)** M: You gain combat bonuses.
 
 ## 7th-Level Sorcerer/Wizard Spells
 
@@ -2124,17 +2124,17 @@ Sorcerer/Wizard Spells
 
 **[Sequester](spells/sequester.html#_sequester)** : Subject is [invisible](glossary.html#_invisible) to sight and [scrying](spells/scrying.html#_scrying); renders creature comatose.
 
-**[Spell Turning](spells/spellTurning.html#_spell-turning)** <sup>M</sup>: Reflect 1d4+6 spell levels back at caster.
+**[Spell Turning](spells/spellTurning.html#_spell-turning)** M: Reflect 1d4+6 spell levels back at caster.
 
 ### Conjuration
 
-**[Instant Summons](spells/instantSummons.html#_instant-summons)** <sup>M</sup>: Prepared object appears in your hand.
+**[Instant Summons](spells/instantSummons.html#_instant-summons)** M: Prepared object appears in your hand.
 
-**[Mage's Magnificent Mansion](spells/mageSMagnificentMansion.html#_mage-s-magnificent-mansion)** <sup>F</sup>: Door leads to extradimensional mansion.
+**[Mage's Magnificent Mansion](spells/mageSMagnificentMansion.html#_mage-s-magnificent-mansion)** F: Door leads to extradimensional mansion.
 
 **[Phase Door](spells/phaseDoor.html#_phase-door)** : Creates an [invisible](glossary.html#_invisible) passage through a barrier.
 
-**[Plane Shift](spells/planeShift.html#_plane-shift)** <sup>F</sup>: As many as eight subjects travel to another plane.
+**[Plane Shift](spells/planeShift.html#_plane-shift)** F: As many as eight subjects travel to another plane.
 
 **[Summon Monster VII](spells/summonMonster.html#_summon-monster-vii)** : Summons extraplanar creature to fight for you.
 
@@ -2148,7 +2148,7 @@ Sorcerer/Wizard Spells
 
 **[Scrying, Greater](spells/scrying.html#_scrying-greater)** : As _ [scrying](spells/scrying.html#_scrying)_, but faster and longer.
 
-**[Vision](spells/vision.html#_vision)** <sup>M</sup>: As _ [legend lore](spells/legendLore.html#_legend-lore)_, but quicker.
+**[Vision](spells/vision.html#_vision)** M: As _ [legend lore](spells/legendLore.html#_legend-lore)_, but quicker.
 
 ### Enchantment
 
@@ -2158,17 +2158,17 @@ Sorcerer/Wizard Spells
 
 **[Power Word Blind](spells/powerWordBlind.html#_power-word-blind)** : Blinds creature with 200 hp or less.
 
-**[Symbol of Stunning](spells/symbolOfStunning.html#_symbol-of-stunning)** <sup>M</sup>: Triggered rune stuns creatures.
+**[Symbol of Stunning](spells/symbolOfStunning.html#_symbol-of-stunning)** M: Triggered rune stuns creatures.
 
 ### Evocation
 
 **[Delayed Blast Fireball](spells/delayedBlastFireball.html#_delayed-blast-fireball)** : 1d6/level fire damage; you can postpone blast for up to 5 rounds.
 
-**[Forcecage](spells/forcecage.html#_forcecage)** <sup>M</sup>: Cube or cage of force imprisons all inside.
+**[Forcecage](spells/forcecage.html#_forcecage)** M: Cube or cage of force imprisons all inside.
 
 **[Grasping Hand](spells/graspingHand.html#_grasping-hand)** : Hand provides cover, pushes, or grapples.
 
-**[Mage's Sword](spells/mageSSword.html#_mage-s-sword)** <sup>F</sup>: Floating magic blade strikes opponents.
+**[Mage's Sword](spells/mageSSword.html#_mage-s-sword)** F: Floating magic blade strikes opponents.
 
 **[Prismatic Spray](spells/prismaticSpray.html#_prismatic-spray)** : Rays hit subjects with variety of effects.
 
@@ -2180,7 +2180,7 @@ Sorcerer/Wizard Spells
 
 **[Shadow Conjuration, Greater](spells/shadowConjuration.html#_shadow-conjuration-greater)** : As _ [shadow conjuration](spells/shadowConjuration.html#_shadow-conjuration), _but up to 6th level and 60% real.
 
-**[Simulacrum](spells/simulacrum.html#_simulacrum)** <sup>M</sup>: Creates partially real double of a creature.
+**[Simulacrum](spells/simulacrum.html#_simulacrum)** M: Creates partially real double of a creature.
 
 ### Necromancy
 
@@ -2188,7 +2188,7 @@ Sorcerer/Wizard Spells
 
 **[Finger of Death](spells/fingerOfDeath.html#_finger-of-death)** : Deals 10 damage/level to one subject.
 
-**[Symbol of Weakness](spells/symbolOfWeakness.html#_symbol-of-weakness)** <sup>M</sup>: Triggered rune weakens creatures.
+**[Symbol of Weakness](spells/symbolOfWeakness.html#_symbol-of-weakness)** M: Triggered rune weakens creatures.
 
 **[Waves of Exhaustion](spells/wavesOfExhaustion.html#_waves-of-exhaustion)** : Several targets become [exhausted](glossary.html#_exhausted).
 
@@ -2214,7 +2214,7 @@ Sorcerer/Wizard Spells
 
 ### Universal
 
-**[Limited Wish](spells/limitedWish.html#_limited-wish)** <sup>M</sup>: Alters reality (within limits).
+**[Limited Wish](spells/limitedWish.html#_limited-wish)** M: Alters reality (within limits).
 
 ## 8th-Level Sorcerer/Wizard Spells
 
@@ -2226,7 +2226,7 @@ Sorcerer/Wizard Spells
 
 **[Prismatic Wall](spells/prismaticWall.html#_prismatic-wall)** : Wall's colors have array of effects.
 
-**[Protection from Spells](spells/protectionFromSpells.html#_protection-from-spells)** <sup>MF</sup>: Confers +8 resistance bonus.
+**[Protection from Spells](spells/protectionFromSpells.html#_protection-from-spells)** MF: Confers +8 resistance bonus.
 
 ### Conjuration
 
@@ -2238,7 +2238,7 @@ Sorcerer/Wizard Spells
 
 **[Summon Monster VIII](spells/summonMonster.html#_summon-monster-viii)** : Summons extraplanar creature to fight for you.
 
-**[Trap the Soul](spells/trapTheSoul.html#_trap-the-soul)** <sup>M</sup>: Imprisons subject within gem.
+**[Trap the Soul](spells/trapTheSoul.html#_trap-the-soul)** M: Imprisons subject within gem.
 
 ### Divination
 
@@ -2252,7 +2252,7 @@ Sorcerer/Wizard Spells
 
 **[Antipathy](spells/antipathy.html#_antipathy)** : Object or location affected by spell repels certain creatures.
 
-**[Binding](spells/binding.html#_binding)** <sup>M</sup>: Utilizes an array of techniques to imprison a creature.
+**[Binding](spells/binding.html#_binding)** M: Utilizes an array of techniques to imprison a creature.
 
 **[Charm Monster, Mass](spells/charmMonster.html#_charm-monster-mass)** : As _ [charm monster](spells/charmMonster.html#_charm-monster), _but all within 30 ft.
 
@@ -2262,9 +2262,9 @@ Sorcerer/Wizard Spells
 
 **[Power Word Stun](spells/powerWordStun.html#_power-word-stun)** : Stuns creature with 150 hp or less.
 
-**[Symbol of Insanity](spells/symbolOfInsanity.html#_symbol-of-insanity)** <sup>M</sup>: Triggered rune renders nearby creatures insane.
+**[Symbol of Insanity](spells/symbolOfInsanity.html#_symbol-of-insanity)** M: Triggered rune renders nearby creatures insane.
 
-**[Sympathy](spells/sympathy.html#_sympathy)** <sup>M</sup>: Object or location attracts certain creatures.
+**[Sympathy](spells/sympathy.html#_sympathy)** M: Object or location attracts certain creatures.
 
 ### Evocation
 
@@ -2288,13 +2288,13 @@ Sorcerer/Wizard Spells
 
 ### Necromancy
 
-**[Clone](spells/clone.html#_clone)** <sup>MF</sup>: Duplicate awakens when original dies.
+**[Clone](spells/clone.html#_clone)** MF: Duplicate awakens when original dies.
 
-**[Create Greater Undead](spells/createGreaterUndead.html#_create-greater-undead)** <sup>M</sup>: Creates shadows, wraiths, spectres, or devourers.
+**[Create Greater Undead](spells/createGreaterUndead.html#_create-greater-undead)** M: Creates shadows, wraiths, spectres, or devourers.
 
 **[Horrid Wilting](spells/horridWilting.html#_horrid-wilting)** : Deals 1d6/level damage within 30 ft.
 
-**[Symbol of Death](spells/symbolOfDeath.html#_symbol-of-death)** <sup>M</sup>: Triggered rune kills nearby creatures.
+**[Symbol of Death](spells/symbolOfDeath.html#_symbol-of-death)** M: Triggered rune kills nearby creatures.
 
 ### Transmutation
 
@@ -2306,7 +2306,7 @@ Sorcerer/Wizard Spells
 
 **[Polymorph Any Object](spells/polymorphAnyObject.html#_polymorph-any-object)** : Changes a subject into anything else.
 
-**[Temporal Stasis](spells/temporalStasis.html#_temporal-stasis)** <sup>M</sup>: Puts subject into suspended animation.
+**[Temporal Stasis](spells/temporalStasis.html#_temporal-stasis)** M: Puts subject into suspended animation.
 
 ## 9th-Level Sorcerer/Wizard Spells
 
@@ -2322,13 +2322,13 @@ Sorcerer/Wizard Spells
 
 ### Conjuration
 
-**[Gate](spells/gate.html#_gate)** <sup>M</sup>: Connects two planes for travel or summoning.
+**[Gate](spells/gate.html#_gate)** M: Connects two planes for travel or summoning.
 
-**[Refuge](spells/refuge.html#_refuge)** <sup>M</sup>: Alters item to transport its possessor to your abode.
+**[Refuge](spells/refuge.html#_refuge)** M: Alters item to transport its possessor to your abode.
 
 **[Summon Monster IX](spells/summonMonster.html#_summon-monster-ix)** : Summons extraplanar creature to fight for you.
 
-**[Teleportation Circle](spells/teleportationCircle.html#_teleportation-circle)** <sup>M</sup>: Teleports creatures inside circle.
+**[Teleportation Circle](spells/teleportationCircle.html#_teleportation-circle)** M: Teleports creatures inside circle.
 
 ### Divination
 
@@ -2356,11 +2356,11 @@ Sorcerer/Wizard Spells
 
 ### Necromancy
 
-**[Astral Projection](spells/astralProjection.html#_astral-projection)** <sup>M</sup>: Projects you and companions onto Astral Plane.
+**[Astral Projection](spells/astralProjection.html#_astral-projection)** M: Projects you and companions onto Astral Plane.
 
 **[Energy Drain](spells/energyDrain.html#_energy-drain)** : Subject gains 2d4 [negative levels](glossary.html#_energy-drain-and-negative-levels).
 
-**[Soul Bind](spells/soulBind.html#_soul-bind)** <sup>F</sup>: Traps newly dead soul to prevent _ [resurrection](spells/resurrection.html#_resurrection)_.
+**[Soul Bind](spells/soulBind.html#_soul-bind)** F: Traps newly dead soul to prevent _ [resurrection](spells/resurrection.html#_resurrection)_.
 
 **[Wail of the Banshee](spells/wailOfTheBanshee.html#_wail-of-the-banshee)** : Deals 10 damage/level to 1 creature/level.
 
@@ -2368,11 +2368,11 @@ Sorcerer/Wizard Spells
 
 **[Etherealness](spells/etherealness.html#_etherealness)** : Travel to Ethereal Plane with companions.
 
-**[Shapechange](spells/shapechange.html#_shapechange)** <sup>F</sup>: Transforms you into certain creatures, and lets you change forms once per round.
+**[Shapechange](spells/shapechange.html#_shapechange)** F: Transforms you into certain creatures, and lets you change forms once per round.
 
 **[Time Stop](spells/timeStop.html#_time-stop)** : You act freely for 1d4+1 rounds.
 
 ### Universal
 
-**[Wish](spells/wish.html#_wish)** <sup>M</sup>: As _ [limited wish](spells/limitedWish.html#_limited-wish), _but with fewer limits.
+**[Wish](spells/wish.html#_wish)** M: As _ [limited wish](spells/limitedWish.html#_limited-wish), _but with fewer limits.
 

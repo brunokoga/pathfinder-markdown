@@ -4,11 +4,10 @@ The neck slot consists of amulets, brooches, medallions, necklaces, periapts, sc
 
 Anyone can use a neck slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.
 
-<caption>Neck Slot Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Neck Item</th>
-<th>Price</th>
-</tr></thead>| 01–10 | _Hand of the mage_ | 900 gp |
+[Neck Slot Wondrous Items]
+| d% | Lesser Minor Neck Item | Price |
+| --- | --- | --- |
+| 01–10 | _Hand of the mage_ | 900 gp |
 | 11–18 | _Aegis of recovery_ | 1,500 gp |
 | 19–25 | _Amulet of bullet protection +1_ | 1,500 gp |
 | 26–37 | _Brooch of shielding_ | 1,500 gp |
@@ -19,11 +18,10 @@ Anyone can use a neck slot wondrous item unless specified otherwise by its descr
 | 83–89 | _Swarmbane clasp_ | 3,000 gp |
 | 90–95 | _Mind sentinel medallion_ | 3,500 gp |
 | 96–100 | _Mummer's ruff_ | 3,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Neck Item</th>
-<th>Price</th>
-</tr></thead>| 01–08 | _Amulet of elemental strife_ | 4,000 gp |
+
+| d% | Greater Minor Neck Item | Price |
+| --- | --- | --- |
+| 01–08 | _Amulet of elemental strife_ | 4,000 gp |
 | 09–15 | _Righteous fist amulet_ | 4,000 gp |
 | 16–26 | _Necklace of fireballs (type III)_ | 4,350 gp |
 | 27–36 | _Amulet of mighty fists +1_ | 5,000 gp |
@@ -34,11 +32,10 @@ Anyone can use a neck slot wondrous item unless specified otherwise by its descr
 | 74–81 | _Feychild necklace_ | 6,000 gp |
 | 82–89 | _Carcanet of detention_ | 7,200 gp |
 | 90–100 | _Periapt of health_ | 7,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Neck Item</th>
-<th>Price</th>
-</tr></thead>| 01–08 | _Amulet of natural armor +2_ | 8,000 gp |
+
+| d% | Lesser Medium Neck Item | Price |
+| --- | --- | --- |
+| 01–08 | _Amulet of natural armor +2_ | 8,000 gp |
 | 09–12 | _Amulet of proof against petrification_ | 8,000 gp |
 | 13–15 | _Everwake amulet_ | 8,000 gp |
 | 16–18 | _Gravewatch pendant_ | 8,000 gp |
@@ -61,11 +58,10 @@ Anyone can use a neck slot wondrous item unless specified otherwise by its descr
 | 93–95 | _Necklace of ki serenity_ | 16,000 gp |
 | 96–98 | _Brooch of amber sparks_ | 16,800 gp |
 | 99–100 | _Symbol of sanguine protection_ | 17,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Neck Item</th>
-<th>Price</th>
-</tr></thead>| 01–15 | _Amulet of natural armor +3_ | 18,000 gp |
+
+| d% | Greater Medium Neck Item | Price |
+| --- | --- | --- |
+| 01–15 | _Amulet of natural armor +3_ | 18,000 gp |
 | 16–24 | _Ampoule of false blood_ | 20,000 gp |
 | 25–35 | _Amulet of magecraft_ | 20,000 gp |
 | 36–50 | _Amulet of mighty fists +2_ | 20,000 gp |
@@ -74,21 +70,19 @@ Anyone can use a neck slot wondrous item unless specified otherwise by its descr
 | 68–72 | _Amulet of bullet protection +4_ | 24,000 gp |
 | 73–85 | _Hand of stone_ | 27,000 gp |
 | 86–100 | _Periapt of proof against poison_ | 27,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Neck Item</th>
-<th>Price</th>
-</tr></thead>| 01–18 | _Amulet of natural armor +4_ | 32,000 gp |
+
+| d% | Lesser Major Neck Item | Price |
+| --- | --- | --- |
+| 01–18 | _Amulet of natural armor +4_ | 32,000 gp |
 | 19–35 | _Amulet of proof against detection and location_ | 35,000 gp |
 | 36–49 | _Amulet of bullet protection +5_ | 37,500 gp |
 | 50–67 | _Scarab of protection_ | 38,000 gp |
 | 68–82 | _Necklace of netted stars_ | 42,000 gp |
 | 83–100 | _Amulet of mighty fists +3_ | 45,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Neck Item</th>
-<th>Price</th>
-</tr></thead>| 01–35 | _Amulet of natural armor +5_ | 50,000 gp |
+
+| d% | Greater Major Neck Item | Price |
+| --- | --- | --- |
+| 01–35 | _Amulet of natural armor +5_ | 50,000 gp |
 | 36–60 | _Amulet of mighty fists +4_ | 80,000 gp |
 | 61–85 | _Amulet of the planes_ | 120,000 gp |
 | 86–100 | _Amulet of mighty fists +5_ | 125,000 gp |
@@ -521,19 +515,9 @@ Each necklace of fireballs contains a combination of spheres of various strength
 
 If the necklace is being worn or carried by a character who fails her saving throw against a magical fire attack, the item must make a saving throw as well (with a save bonus of +7). If the necklace fails to save, all its remaining spheres detonate simultaneously, often with regrettable consequences for the wearer.
 
-<thead><tr>
-<th>Necklace</th>
-<th>10d6</th>
-<th>9d6</th>
-<th>8d6</th>
-<th>7d6</th>
-<th>6d6</th>
-<th>5d6</th>
-<th>4d6</th>
-<th>3d6</th>
-<th>2d6</th>
-<th>Price</th>
-</tr></thead>| Type I | — | — | — | — | — | 1 | — | 2 | — | 1,650 gp |
+| Necklace | 10d6 | 9d6 | 8d6 | 7d6 | 6d6 | 5d6 | 4d6 | 3d6 | 2d6 | Price |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Type I | — | — | — | — | — | 1 | — | 2 | — | 1,650 gp |
 | Type II | — | — | — | — | 1 | — | 2 | — | 2 | 2,700 gp |
 | Type III | — | — | — | 1 | — | 2 | — | 4 | — | 4,350 gp |
 | Type IV | — | — | 1 | — | 2 | — | 2 | — | 4 | 5,400 gp |

@@ -42,30 +42,15 @@ Alternatively, a spellcaster can use _ [dispel magic](/pathfinderRPG/prd/spells/
 
 Because readying a counterspell is its own action, a dueling spellcaster can prepare to counterspell and make a dueling counter in the same round. This is only useful if the participant is facing multiple opponents, or someone with access to the [Quicken Spell](/pathfinderRPG/prd/feats.html#_quicken-spell) feat or other abilities that allow casting two spells in the same round.
 
-<caption>Table: Dueling Counter Modifiers</caption><thead>
-<tr>
-<th>Circumstance</th>
-<th>Check Modifier</th>
-</tr>
-<thead>
-				<tr class="odd">
-<td>Spell is of a different school</td>
-<td>–2</td>
-</tr>
-				<tr class="even">
-<td>Spell is of the same school, but not the same spell</td>
-<td>+2</td>
-</tr>
-				<tr class="odd">
-<td>Spell is of a higher level than the spell being countered</td>
-<td>+1/level above</td>
-</tr>
-				<tr class="even">
-<td>Spell is the same as the spell being countered</td>
-<td>+10</td>
-</tr>
-</thead>
-</thead>
+[Table: Dueling Counter Modifiers]
+| Circumstance | Check Modifier |
+| --- | --- |
+
+| Spell is of a different school | –2 |
+| Spell is of the same school, but not the same spell | +2 |
+| Spell is of a higher level than the spell being countered | +1/level above |
+| Spell is the same as the spell being countered | +10 |
+
   
   
 

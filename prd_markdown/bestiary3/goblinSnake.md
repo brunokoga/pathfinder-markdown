@@ -32,7 +32,7 @@ Statistics
 
 **Base Atk** +1; **CMB** +2; **CMD** 14 (can't be tripped)
 
-**Feats** [Lunge](/pathfinderRPG/prd/feats.html#_lunge)<sup>B</sup>, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff))
+**Feats** [Lunge](/pathfinderRPG/prd/feats.html#_lunge)B, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff))
 
 **Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +6, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +3, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +10
 

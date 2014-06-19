@@ -26,15 +26,10 @@ The loremaster's class skills (and the key ability for each skill) are [Appraise
 
 **Skill Ranks at Each Level** : 4 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Loremaster</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-<th>Spells per Day</th>
-</tr></thead>| 1st | +0 | +0 | +0 | +1 | Secret | +1 level of existing class |
+[Table: Loremaster]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +0 | +1 | Secret | +1 level of existing class |
 | 2nd | +1 | +1 | +1 | +1 | Lore | +1 level of existing class |
 | 3rd | +1 | +1 | +1 | +2 | Secret | +1 level of existing class |
 | 4th | +2 | +1 | +1 | +2 | Bonus language | +1 level of existing class |
@@ -55,11 +50,10 @@ All of the following are Class Features of the loremaster prestige class.
 
 **Secret** : At 1st level and every two levels higher than 1st (3rd, 5th, 7th, and 9th), the loremaster chooses one secret from the Loremaster Secrets table. His level plus [Intelligence](../gettingStarted.html#_intelligence) modifier determines which secrets he can choose. He can't choose the same secret twice.
 
-<caption>Loremaster Secrets</caption><thead><tr>
-<th>Level + Int Modifier</th>
-<th>Secret</th>
-<th>Effect</th>
-</tr></thead>| 1 | Instant mastery | 4 ranks of a skill in which the character has no ranks |
+[Loremaster Secrets]
+| Level + Int Modifier | Secret | Effect |
+| --- | --- | --- |
+| 1 | Instant mastery | 4 ranks of a skill in which the character has no ranks |
 | 2 | Secret health | [Toughness](../feats.html#_toughness) bonus feat |
 | 3 | Secrets of inner strength | +2 bonus on Will saves |
 | 4 | The lore of true stamina | +2 bonus on Fortitude saves |
@@ -69,7 +63,6 @@ All of the following are Class Features of the loremaster prestige class.
 | 8 | Applicable knowledge | Any one [feat](../feats.html#_feat-descriptions) |
 | 9 | Newfound arcana | 1 bonus 1st-level spell\* |
 | 10 | More newfound arcana | 1 bonus 2nd-level spell\* |
-<tfoot><tr><td colspan="3">* As if gained through having a high ability score.</td></tr></tfoot>
 
 **Lore** : At 2nd level, a loremaster adds half his level to all [Knowledge](../skills/knowledge.html#_knowledge) skill checks and may make such checks untrained. The bonuses gained from this ability stack with those gained from [Bardic Knowledge](../classes/bard.html#_bardic-knowledge).
 

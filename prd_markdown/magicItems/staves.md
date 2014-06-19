@@ -1,11 +1,9 @@
 # Staves
 
-<caption>Table: Staves</caption><thead><tr>
-<th>Medium</th>
-<th>Major</th>
-<th>Staff</th>
-<th>Market Price</th>
-</tr></thead><tbody>
+[Table: Staves]
+| Medium | Major | Staff | Market Price |
+| --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–15</td>
 <td>01–03</td>

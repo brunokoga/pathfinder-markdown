@@ -450,10 +450,10 @@ The alien taint in your blood causes malformations and mutations in others.
 
 _Warp Touch (Sp)_: Starting at 1st level, you create brief, disorienting changes in a creature's physical form. This ability affects one creature within 30 feet, which is dazed for 1 round (Fortitude negates; DC 10 + 1/2 your sorcerer level + your Charisma modifier). You can use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces acidic ray.
 
-<caption>Table: Warped Polymorph Benefits</caption><thead><tr>
-<th>d12</th>
-<th>Effect</th>
-</tr></thead>| 1 | Double-Jointed: +2 on [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) checks. |
+[Table: Warped Polymorph Benefits]
+| d12 | Effect |
+| --- | --- |
+| 1 | Double-Jointed: +2 on [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) checks. |
 | 2 | Webbed Digits: +2 on [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) checks. |
 | 3 | Iron Grip: +2 on [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks and to CMD against disarm maneuvers. |
 | 4 | Bug Eyes: +2 on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks. |

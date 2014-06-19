@@ -248,16 +248,14 @@ Elves have access to the following equipment.
 
 **Tent, Hanging** : A hanging tent is a small tent (able to comfortably house a single Medium creature) with a teardrop shape, which hangs from a sturdy anchor rope. The rope can be tied to a tree limb, grappling hook, or even a piton hammered into a cliff side. Hanging tents are used primarily in mountainous terrain (where no flat surface may be available for camping) and swamps (where no dry ground may be available). Climbing in or out of a hanging tent is a full-round action that requires a DC 10 [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) check. Failure indicates another attempt must be made, while failure by 5 or more indicates the camper has fallen from the tent.
 
-<caption>Elven Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr></thead>| Arcane family workbook | 300 gp | 3 lbs. |
+[Elven Equipment]
+| Item | Cost | Weight |
+| --- | --- | --- |
+| Arcane family workbook | 300 gp | 3 lbs. |
 | Artificer's lab, portable | 300 gp | 40 lbs. |
 | Bag, bear | 2 gp | 3 lbs.\* |
 | Spellbook, compact (blank) | 50 gp | 1 lb. |
 | Tent, hanging | 20 gp | 15 lbs.\* |
-<tfoot><tr><td colspan="3">*These items weigh 1/4 this amount when made for Small characters. Containers for Small characters also carry 1/4 the normal amount.</td></tr></tfoot>
 
 ## Elven Special Materials
 
@@ -269,10 +267,9 @@ An item made from darkleaf cloth weighs half as much as the same item made from 
 
 Darkleaf cloth has 20 hit points per inch of thickness and hardness 10.
 
-<thead><tr>
-<th>Type of Darkleaf Cloth Item</th>
-<th>Cost Modifier</th>
-</tr></thead>| Clothing | +500 gp |
+| Type of Darkleaf Cloth Item | Cost Modifier |
+| --- | --- |
+| Clothing | +500 gp |
 | Light armor | +750 gp |
 | Medium armor | +1,500 gp |
 | Other items | +375 gp/lb. |

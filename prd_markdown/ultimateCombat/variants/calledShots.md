@@ -78,11 +78,10 @@ The consequences of a successful called shot vary depending on whether the hit i
 
 **Healing Called Shot Effects** : Some called shot effects render a given location useless until healed. Remedying this condition requires the victim be healed (naturally or magically, and by one or more sources of healing) for as many hit points of damage as the called shot caused. If the victim is suffering from multiple wounds of this sort, divide healing equally between them. The _ [regenerate](/pathfinderRPG/prd/spells/regenerate.html#_regenerate)_ spell repairs any and all effects of called shots except for ability damage and ability drain.
 
-<caption>Table: Called Shot Locations</caption><thead><tr>
-<th>Location</th>
-<th>Type</th>
-<th>Penalty</th>
-</tr></thead>| Head | Tricky | –5 |
+[Table: Called Shot Locations]
+| Location | Type | Penalty |
+| --- | --- | --- |
+| Head | Tricky | –5 |
 | Ear | Challenging | –10 |
 | Eye | Challenging | –10 |
 | Neck | Challenging | –10 |

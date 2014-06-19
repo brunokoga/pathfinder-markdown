@@ -218,12 +218,10 @@ Halflings have access to the following equipment.
 
 **Roar Cord** : This thin length of rope has many oddly shaped bits of hollow metal fixed along its length. As a standard action, a creature can swing a roar cord over its head to generate a variety of eerie noises. For the next round, any creature within 60 feet of the roar cord takes a –2 penalty on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks that rely on sound and a –1 penalty on saving throws against fear effects. The roar cord can be used as a bardic instrument (string instrument) that grants the bard a +2 bonus on [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) checks when using the countersong bardic performance.
 
-<caption>Halfling Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Alchemical preserves | 50 gp | — | 20 |
+[Halfling Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Alchemical preserves | 50 gp | — | 20 |
 | Billow cape | 100 gp | 4 lbs. | — |
 | Halfling jugglesticks | 25 gp | 1 lb. | — |
 | Roar cord | 15 gp | 1 lb. | — |

@@ -54,38 +54,33 @@ On a failed critical defense check, the target of the critical hit takes the dam
 
 **Fortification Special Armor Quality** : The _ [fortification](/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification)_ special armor quality acts in concert with the check, coming into play if the armor check fails.
 
-<caption>Table: Armor Composition and DR</caption><thead><tr>
-<th>Material</th>
-<th>Dr Provided</th>
-<th>Attacker Size to Bypass DR</th>
-</tr></thead>| Nonmagical armor<sup>1</sup> | DR/magic | Large |
-| Magical armor<sup>1</sup> | DR/adamantine | Huge |
-| Adamantine armor<sup>1</sup> | DR/— | Gargantuan |
-<tfoot><tr><td colspan="3">
-<sup>1</sup> Brilliant energy weapons bypass any DR provided by armor. In addition, DR from armor is halved if a creature is grappled or entangled, and does not apply when a creature is helpless or pinned.</td></tr></tfoot>
+[Table: Armor Composition and DR]
+| Material | Dr Provided | Attacker Size to Bypass DR |
+| --- | --- | --- |
+| Nonmagical armorⁱ | DR/magic | Large |
+| Magical armorⁱ | DR/adamantine | Huge |
+| Adamantine armorⁱ | DR/— | Gargantuan |
+
   
   
 
-<caption>Table: Natural Armor Conversion to DR</caption><thead><tr>
-<th>Natural Armor/DR</th>
-<th>DR Provided</th>
-<th>Attacker Size to Bypass DR</th>
-</tr></thead>| Natural armor with | DR/adamantine | Huge DR/magic |
+[Table: Natural Armor Conversion to DR]
+| Natural Armor/DR | DR Provided | Attacker Size to Bypass DR |
+| --- | --- | --- |
+| Natural armor with | DR/adamantine | Huge DR/magic |
 | Natural armor with | DR/— | Gargantuan DR/adamantine |
-| Natural armor with DR/— | DR/—<sup>1</sup> | Colossal |
-| Natural armor with DR/epic | DR/epic<sup>1</sup> | n/a |
-<tfoot><tr><td colspan="3">
-<sup>1</sup> A creature that already has DR/— or DR/epic increases its DR by an amount equal to its natural armor bonus.</td></tr></tfoot>
+| Natural armor with DR/— | DR/—ⁱ | Colossal |
+| Natural armor with DR/epic | DR/epicⁱ | n/a |
+
   
   
 
-<caption>Table: Unusual Creatures and Armor DR</caption><thead><tr>
-<th>Attacking Creature Type</th>
-<th>DR Modifier</th>
-</tr></thead>| Amorphous<sup>1</sup> | ×1/2 |
+[Table: Unusual Creatures and Armor DR]
+| Attacking Creature Type | DR Modifier |
+| --- | --- |
+| Amorphousⁱ | ×1/2 |
 | Incorporeal | ×0 (×1 if DR is from a force effect or _ [ghost touch](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch)_ armor) |
 | Swarm of Tiny creatures | ×1/2 |
 | Swarm of Diminutive creatures | ×1/4 |
 | Swarm of Fine creatures | ×0 |
-<tfoot><tr><td colspan="2">
-<sup>1</sup> Elementals, oozes, oozelike creatures, and any creature with the amorphous defensive ability.</td></tr></tfoot>
+

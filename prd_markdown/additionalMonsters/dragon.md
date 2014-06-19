@@ -60,15 +60,10 @@ The Dragon Attacks and Speeds table lists the attacks a dragon can employ and th
 
 **Spell Resistance (Ex)** As dragons grow older, they become more resistant to spells and spell-like abilities, as indicated in the specific dragon descriptions. A dragon's SR is equal to 11 + its CR.
 
-<caption>Table: Dragon Age Categories</caption><thead><tr>
-<th>Age Category</th>
-<th>Age in Years</th>
-<th>CR</th>
-<th>Size</th>
-<th>Hit Dice</th>
-<th>Natural Armor</th>
-<th>Breath Weapon</th>
-</tr></thead>| 1 Wyrmling | 0–5 | Base | Base | Base | Base | Base |
+[Table: Dragon Age Categories]
+| Age Category | Age in Years | CR | Size | Hit Dice | Natural Armor | Breath Weapon |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 Wyrmling | 0–5 | Base | Base | Base | Base | Base |
 | 2 Very young | 6–15 | Base + 2 | Base + 1 | Base + 2 | Base + 3 | Base × 2 |
 | 3 Young | 16–25 | Base + 4 | Base + 2 | Base + 4 | Base + 6 | Base × 3 |
 | 4 Juvenile | 26–50 | Base + 5 | Base + 2 | Base + 6 | Base + 9 | Base × 4 |
@@ -84,141 +79,29 @@ The Dragon Attacks and Speeds table lists the attacks a dragon can employ and th
   
   
 
-<caption>Table: Dragon Ability Scores</caption><thead>
-<tr>
-<th>Age Category</th>
-<th>Str</th>
-<th>Dex</th>
-<th>Con</th>
-<th>Int</th>
-<th>Wis</th>
-<th>Cha</th>
-</tr>
-				<tr class="odd">
-<td>1 Wyrmling</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-</tr>
-				<tr class="even">
-<td>2 Very young</td>
-<td>Base + 4</td>
-<td>Base – 2</td>
-<td>Base + 2</td>
-<td>Base + 2</td>
-<td>Base + 2</td>
-<td>Base + 2</td>
-</tr>
-				<tr class="odd">
-<td>3 Young</td>
-<td>Base + 8</td>
-<td>Base – 2</td>
-<td>Base + 4</td>
-<td>Base + 2</td>
-<td>Base + 2</td>
-<td>Base + 2</td>
-</tr>
-				<tr class="even">
-<td>4 Juvenile</td>
-<td>Base + 10</td>
-<td>Base – 2</td>
-<td>Base + 6</td>
-<td>Base + 4</td>
-<td>Base + 4</td>
-<td>Base + 4</td>
-</tr>
-				<tr class="odd">
-<td>5 Young adult</td>
-<td>Base + 12</td>
-<td>Base – 4</td>
-<td>Base + 6</td>
-<td>Base + 4</td>
-<td>Base + 4</td>
-<td>Base + 4</td>
-</tr>
-				<tr class="even">
-<td>6 Adult</td>
-<td>Base + 14</td>
-<td>Base – 4</td>
-<td>Base + 8</td>
-<td>Base + 6</td>
-<td>Base + 6</td>
-<td>Base + 6</td>
-</tr>
-				<tr class="odd">
-<td>7 Mature adult</td>
-<td>Base + 16</td>
-<td>Base – 4</td>
-<td>Base + 8</td>
-<td>Base + 6</td>
-<td>Base + 6</td>
-<td>Base + 6</td>
-</tr>
-				<tr class="even">
-<td>8 Old</td>
-<td>Base + 18</td>
-<td>Base – 6</td>
-<td>Base + 10</td>
-<td>Base + 8</td>
-<td>Base + 8</td>
-<td>Base + 8</td>
-</tr>
-				<tr class="odd">
-<td>9 Very old</td>
-<td>Base + 20</td>
-<td>Base – 6</td>
-<td>Base + 10</td>
-<td>Base + 8</td>
-<td>Base + 8</td>
-<td>Base + 8</td>
-</tr>
-				<tr class="even">
-<td>10 Ancient</td>
-<td>Base + 22</td>
-<td>Base – 6</td>
-<td>Base + 12</td>
-<td>Base + 10</td>
-<td>Base + 10</td>
-<td>Base + 10</td>
-</tr>
-				<tr class="odd">
-<td>11 Wyrm</td>
-<td>Base + 24</td>
-<td>Base – 8</td>
-<td>Base + 12</td>
-<td>Base + 10</td>
-<td>Base + 10</td>
-<td>Base + 10</td>
-</tr>
-				<tr class="even">
-<td>12 Great wyrm</td>
-<td>Base + 26</td>
-<td>Base – 8</td>
-<td>Base + 14</td>
-<td>Base + 12</td>
-<td>Base + 12</td>
-<td>Base + 12</td>
-</tr>
-</thead>
+[Table: Dragon Ability Scores]
+| Age Category | Str | Dex | Con | Int | Wis | Cha |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 Wyrmling | Base | Base | Base | Base | Base | Base |
+| 2 Very young | Base + 4 | Base – 2 | Base + 2 | Base + 2 | Base + 2 | Base + 2 |
+| 3 Young | Base + 8 | Base – 2 | Base + 4 | Base + 2 | Base + 2 | Base + 2 |
+| 4 Juvenile | Base + 10 | Base – 2 | Base + 6 | Base + 4 | Base + 4 | Base + 4 |
+| 5 Young adult | Base + 12 | Base – 4 | Base + 6 | Base + 4 | Base + 4 | Base + 4 |
+| 6 Adult | Base + 14 | Base – 4 | Base + 8 | Base + 6 | Base + 6 | Base + 6 |
+| 7 Mature adult | Base + 16 | Base – 4 | Base + 8 | Base + 6 | Base + 6 | Base + 6 |
+| 8 Old | Base + 18 | Base – 6 | Base + 10 | Base + 8 | Base + 8 | Base + 8 |
+| 9 Very old | Base + 20 | Base – 6 | Base + 10 | Base + 8 | Base + 8 | Base + 8 |
+| 10 Ancient | Base + 22 | Base – 6 | Base + 12 | Base + 10 | Base + 10 | Base + 10 |
+| 11 Wyrm | Base + 24 | Base – 8 | Base + 12 | Base + 10 | Base + 10 | Base + 10 |
+| 12 Great wyrm | Base + 26 | Base – 8 | Base + 14 | Base + 12 | Base + 12 | Base + 12 |
 
   
   
 
-<caption>Table: Dragon Attacks and Speeds</caption><thead><tr>
-<th>Size</th>
-<th>Fly Speed (maneuverability)</th>
-<th>1 Bite</th>
-<th>2 Claws</th>
-<th>2 Wings</th>
-<th>1 Tail Slap</th>
-<th>1 Crush</th>
-<th>1 Tail Sweep</th>
-<th>Breath Weapon (Line)</th>
-<th>Breath Weapon (Cone)</th>
-</tr></thead>| Tiny | 100 ft. (average) | 1d4 | 1d3 | — | — | — | — | 30 ft. | 15 ft. |
+[Table: Dragon Attacks and Speeds]
+| Size | Fly Speed (maneuverability) | 1 Bite | 2 Claws | 2 Wings | 1 Tail Slap | 1 Crush | 1 Tail Sweep | Breath Weapon (Line) | Breath Weapon (Cone) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Tiny | 100 ft. (average) | 1d4 | 1d3 | — | — | — | — | 30 ft. | 15 ft. |
 | Small | 150 ft. (average) | 1d6 | 1d4 | — | — | — | — | 40 ft. | 20 ft. |
 | Medium | 150 ft. (average) | 1d8 | 1d6 | 1d4 | — | — | — | 60 ft. | 30 ft. |
 | Large | 200 ft. (poor) | 2d6 | 1d8 | 1d6 | 1d8 | — | — | 80 ft. | 40 ft. |
@@ -265,77 +148,21 @@ Special Abilities
 
 **Spell-like Abilities (Sp)** A brine [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) gains the following spell-like abilities, usable at will (unless indicated otherwise) at the listed age. Very young—_ [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_ (fish only); Young—_ [obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist)_; Juvenile—_ [water breathing](/pathfinderRPG/prd/additionalMonsters/../spells/waterBreathing.html#_water-breathing)_; Adult—_ [control water](/pathfinderRPG/prd/additionalMonsters/../spells/controlWater.html#_control-water)_; Ancient—_ [horrid wilting](/pathfinderRPG/prd/additionalMonsters/../spells/horridWilting.html#_horrid-wilting)_ (3/day); Great wyrm—_ [tsunami](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/tsunami.html#_tsunami)_ (3/day).
 
-<caption>Table: Brine Special Abilities</caption><thead>
-<tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr>
-				<tr class="odd">
-<td>Wyrmling</td>
-<td>Immunity to acid, water breathing</td>
-<td>—</td>
-</tr>
-				<tr class="even">
-<td>Very young</td>
-<td>
-<i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals">Speak with animals</a></i> (fish only)</td>
-<td>—</td>
-</tr>
-				<tr class="odd">
-<td>Young</td>
-<td><i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist">Obscuring mist</a></i></td>
-<td>1st</td>
-</tr>
-				<tr class="even">
-<td>Juvenile</td>
-<td><i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/waterBreathing.html#_water-breathing">Water breathing</a></i></td>
-<td>3rd</td>
-</tr>
-				<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>5th</td>
-</tr>
-				<tr class="even">
-<td>Adult</td>
-<td>Frightful presence, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/controlWater.html#_control-water">control water</a></i>
-</td>
-<td>7th</td>
-</tr>
-				<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>9th</td>
-</tr>
-				<tr class="even">
-<td>Old</td>
-<td>Capsize</td>
-<td>11th</td>
-</tr>
-				<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>13th</td>
-</tr>
-				<tr class="even">
-<td>Ancient</td>
-<td>Desiccating bite, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/horridWilting.html#_horrid-wilting">horrid wilting</a></i>
-</td>
-<td>15th</td>
-</tr>
-				<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>17th</td>
-</tr>
-				<tr class="even">
-<td>Great wyrm</td>
-<td>Painful strikes, <i><a href="/pathfinderRPG/prd/additionalMonsters/../advanced/spells/tsunami.html#_tsunami">tsunami</a></i><span class="char-style-override-33"></span>
-</td>
-<td>19th</td>
-</tr>
-</thead>
+[Table: Brine Special Abilities]
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+| Wyrmling | Immunity to acid, water breathing | — |
+| Very young | _ [Speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_ (fish only) | — |
+| Young | _ [Obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist)_ | 1st |
+| Juvenile | _ [Water breathing](/pathfinderRPG/prd/additionalMonsters/../spells/waterBreathing.html#_water-breathing)_ | 3rd |
+| Young adult | DR 5/magic, spell resistance | 5th |
+| Adult | Frightful presence, _ [control water](/pathfinderRPG/prd/additionalMonsters/../spells/controlWater.html#_control-water)_ | 7th |
+| Mature adult | DR 10/magic | 9th |
+| Old | Capsize | 11th |
+| Very old | DR 15/magic | 13th |
+| Ancient | Desiccating bite, _ [horrid wilting](/pathfinderRPG/prd/additionalMonsters/../spells/horridWilting.html#_horrid-wilting)_ | 15th |
+| Wyrm | DR 20/magic | 17th |
+| Great wyrm | Painful strikes, _ [tsunami](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/tsunami.html#_tsunami)_ | 19th |
 
   
   
@@ -556,76 +383,21 @@ Special Abilities
 
 **Thundering Bite (Su)** An ancient or older cloud [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s bite makes a thundering crash whenever it attacks, dealing an additional 2d6 points of sonic damage. A great wyrm's thundering bite deals an additional 4d6 sonic damage.
 
-<caption>Table: Cloud Special Abilities</caption><thead>
-<tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr>
-				<tr class="odd">
-<td>Wyrmling</td>
-<td>Immune to electricity, mist vision</td>
-<td>—</td>
-</tr>
-				<tr class="even">
-<td>Very young</td>
-<td><i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist">Obscuring mist</a></i></td>
-<td>—</td>
-</tr>
-				<tr class="odd">
-<td>Young</td>
-<td><i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/fogCloud.html">Fog cloud</a></i></td>
-<td>—</td>
-</tr>
-				<tr class="even">
-<td>Juvenile</td>
-<td>Frightful presence</td>
-<td>1st</td>
-</tr>
-				<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>3rd</td>
-</tr>
-				<tr class="even">
-<td>Adult</td>
-<td>Cloud form, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/solidFog.html#_solid-fog">solid fog</a></i>
-</td>
-<td>5th</td>
-</tr>
-				<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magicv</td>
-<td>7th</td>
-</tr>
-				<tr class="even">
-<td>Old</td>
-<td><i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/cloudkill.html#_cloudkill">Cloudkill</a></i></td>
-<td>9th</td>
-</tr>
-				<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>11th</td>
-</tr>
-				<tr class="even">
-<td>Ancient</td>
-<td>Thundering bite, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/windWalk.html#_wind-walk">wind walk</a></i>
-</td>
-<td>13th</td>
-</tr>
-				<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>15th</td>
-</tr>
-				<tr class="even">
-<td>Great wyrm</td>
-<td>Cloud breath, <i><a href="/pathfinderRPG/prd/additionalMonsters/../spells/stormOfVengeance.html#_storm-of-vengeance">storm of vengeance</a></i>
-</td>
-<td>17th</td>
-</tr>
-</thead>
+[Table: Cloud Special Abilities]
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+| Wyrmling | Immune to electricity, mist vision | — |
+| Very young | _ [Obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist)_ | — |
+| Young | _ [Fog cloud](/pathfinderRPG/prd/additionalMonsters/../spells/fogCloud.html)_ | — |
+| Juvenile | Frightful presence | 1st |
+| Young adult | DR 5/magic, spell resistance | 3rd |
+| Adult | Cloud form, _ [solid fog](/pathfinderRPG/prd/additionalMonsters/../spells/solidFog.html#_solid-fog)_ | 5th |
+| Mature adult | DR 10/magicv | 7th |
+| Old | _ [Cloudkill](/pathfinderRPG/prd/additionalMonsters/../spells/cloudkill.html#_cloudkill)_ | 9th |
+| Very old | DR 15/magic | 11th |
+| Ancient | Thundering bite, _ [wind walk](/pathfinderRPG/prd/additionalMonsters/../spells/windWalk.html#_wind-walk)_ | 13th |
+| Wyrm | DR 20/magic | 15th |
+| Great wyrm | Cloud breath, _ [storm of vengeance](/pathfinderRPG/prd/additionalMonsters/../spells/stormOfVengeance.html#_storm-of-vengeance)_ | 17th |
 
   
   
@@ -836,11 +608,10 @@ Special Abilities
 
 **Tremorsense (Ex)** Crystal dragons do not gain tremorsense until juvenile age (30 ft.), improving at adult (60 ft.) and old (120 ft.).
 
-<caption>Table: Crystal Special Abilities</caption><thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead>| Wyrmling | Immunity to sonic, razor sharp | — |
+[Table: Crystal Special Abilities]
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+| Wyrmling | Immunity to sonic, razor sharp | — |
 | Very young | _ [Color spray](/pathfinderRPG/prd/additionalMonsters/../spells/colorSpray.html#_color-spray)_ | — |
 | Young | Tremorsense | — |
 | Juvenile | _ [Glitterdust](/pathfinderRPG/prd/additionalMonsters/../spells/glitterdust.html#_glitterdust)_ | — |
@@ -1058,11 +829,10 @@ Special Abilities
 
 **Superheated (Su)** At young age and older, a magma [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s bite attack deals additional [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) damage equal to its age category.
 
-<caption>Table: Magma Special Abilities</caption><thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead>| Wyrmling | Immune to fire, vulnerable to cold | — |
+[Table: Magma Special Abilities]
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+| Wyrmling | Immune to fire, vulnerable to cold | — |
 | Very young | _ [Burning hands](/pathfinderRPG/prd/additionalMonsters/../spells/burningHands.html#_burning-hands)_ | — |
 | Young | Superheated | 1st |
 | Juvenile | _ [Scorching ray](/pathfinderRPG/prd/additionalMonsters/../spells/scorchingRay.html#_scorching-ray)_ | 3rd |
@@ -1073,7 +843,7 @@ Special Abilities
 | Very old | DR 15/magic | 13th |
 | Ancient | Magma breath, _ [delayed blast fireball](/pathfinderRPG/prd/additionalMonsters/../spells/delayedBlastFireball.html#_delayed-blast-fireball)_ | 15th |
 | Wyrm | DR 20/magic | 17th |
-| Great wyrm | Magma tomb, _ [wall of lava](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/wallOfLava.html#_wall-of-lava)_<sup></sup> | 19th |
+| Great wyrm | Magma tomb, _ [wall of lava](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/wallOfLava.html#_wall-of-lava)_ | 19th |
 
   
   
@@ -1306,11 +1076,10 @@ Special Abilities
 
 **Spell-Like Abilities (Sp)** An umbral [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) gains the following spell-like abilities, usable at will (unless indicated otherwise) on reaching the listed age category. Young—_ [darkness](/pathfinderRPG/prd/additionalMonsters/../spells/darkness.html#_darkness)_; Juvenile—_ [vampiric touch](/pathfinderRPG/prd/additionalMonsters/../spells/vampiricTouch.html#_vampiric-touch)_; Adult—_ [shadow walk](/pathfinderRPG/prd/additionalMonsters/../spells/shadowWalk.html#_shadow-walk)_; Old—_ [project image](/pathfinderRPG/prd/additionalMonsters/../spells/projectImage.html#_project-image)_; Ancient—_ [finger of death](/pathfinderRPG/prd/additionalMonsters/../spells/fingerOfDeath.html#_finger-of-death)_ (3/day), Great wyrm—_ [shades](/pathfinderRPG/prd/additionalMonsters/../spells/shades.html#_shades)_. An umbral dragon can cast cleric spells as arcane spells.
 
-<caption>Table: Umbral Special Abilities</caption><thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead>| Wyrmling | Umbral scion, immune to cold | — |
+[Table: Umbral Special Abilities]
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+| Wyrmling | Umbral scion, immune to cold | — |
 | Very young | _ [Darkness](/pathfinderRPG/prd/additionalMonsters/../spells/darkness.html#_darkness)_ | — |
 | Young | Ghost bane | 1st |
 | Juvenile | Frightful presence, _ [vampiric touch](/pathfinderRPG/prd/additionalMonsters/../spells/vampiricTouch.html#_vampiric-touch)_ | 3rd |

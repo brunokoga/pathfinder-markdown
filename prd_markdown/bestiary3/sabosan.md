@@ -32,7 +32,7 @@ Statistics
 
 **Base Atk** +7; **CMB** +10; **CMD** 24
 
-**Feats** [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover)<sup>B</sup>, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover)B, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +14, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +8, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +14, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +14
 

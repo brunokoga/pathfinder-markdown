@@ -10,10 +10,10 @@ These tables are designed so low rolls tend to be beneficial and high rolls are 
 
 Many events allow a skill check to affect the outcome of the event. If you're present, either attempt this skill check yourself or ask another member of the party or a manager to attempt the check for you. If you're absent, either your representative (such as a cohort or manager) attempts the check or roll 1d20 with no bonuses to determine the result. The GM can also allow methods other than those listed to end harmful events. For example, you might be able to end an ongoing rivalry event by befriending the owner of the rival business or driving him out of town.
 
-<caption>Generic Building Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—02 | Good fortune |
+[Generic Building Events]
+| d% | Event |
+| --- | --- |
+| 01—02 | Good fortune |
 | 03—08 | Day of rest |
 | 09—12 | Good weather |
 | 13—15 | Famous visitor |
@@ -57,10 +57,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Taxes** : You must pay some unexpected taxes. You can either pay the tax amount (1% of the total gp value of your building) or attempt a DC 20 [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) check to talk your way out of the taxes. If you succeed, you don't have to pay these taxes. If you fail, the tax owed doubles and you can't talk your way out of it.
 
-<caption>Alchemist Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—10 | Discovery |
+[Alchemist Events]
+| d% | Event |
+| --- | --- |
+| 01—10 | Discovery |
 | 11—30 | Cold remedy |
 | 31—40 | Healing potion demand |
 | 41—45 | Embarrassing affliction |
@@ -91,10 +91,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Unstable Mutation** : A alchemical mishap causes one employee to temporarily mutate into a hideous, clumsy creature. Either you hide the employee in your business, losing 1d2 points of Goods per day for 1d3 days as the employee accidentally breaks merchandise, or you send the employee home and the building takes a —5 penalty on its next 1d3 checks to generate capital since people know about this incident.
 
-<caption>Bardic College Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—10 | Visiting master |
+[Bardic College Events]
+| d% | Event |
+| --- | --- |
+| 01—10 | Visiting master |
 | 11—25 | Prodigy |
 | 26—30 | Roll on the Magical Academy Events table |
 | 31—50 | Supply shortage |
@@ -123,10 +123,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Visiting Master** : A famous traveling bard has offered to teach your students for a week. For 7 days, you may trade Goods, Influence, and Labor on a 1-for-1 basis.
 
-<caption>Caster's Tower Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—05 | Arcane breakthrough |
+[Caster's Tower Events]
+| d% | Event |
+| --- | --- |
+| 01—05 | Arcane breakthrough |
 | 06—10 | Mysterious item |
 | 11—40 | Desperate visitor |
 | 41—65 | Roll on the Magic Shop Events table |
@@ -143,10 +143,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Mysterious Item** : A mysterious magic item is discovered on your doorstep, is unearthed by one of your employees, or is delivered to you by a desperate adventurer. If you succeed at a DC 30 [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) check, you identify it as a random magic item worth 500 gp or less, though its unusual history might give it a higher value. Failing this check means you are unable to identify it, or you detect traces of curse magic; either way, you must sell it quickly to someone else for 1d10 Ã 10 gp before it causes you any trouble.
 
-<caption>Castle Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—20 | Grand feast |
+[Castle Events]
+| d% | Event |
+| --- | --- |
+| 01—20 | Grand feast |
 | 21—35 | New servant |
 | 36—55 | Inadequate defenses |
 | 56—75 | Training drill |
@@ -165,10 +165,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Training Drill** : The guards and soldiers of your Castle need constant training in order to stay on top of their duties. Attempt a DC 25 [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy), [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate), or [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (soldier) check. Success means the building gains a +2 bonus on all checks for 7 days. Failure indicates that your troops have fallen behind on their drills. You lose 1d2 points of Labor as you retrain them to their former proficiency.
 
-<caption>Dance Hall Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—25 | Famous dancer |
+[Dance Hall Events]
+| d% | Event |
+| --- | --- |
+| 01—25 | Famous dancer |
 | 26—35 | Heart's desire |
 | 36—55 | Ballroom magic |
 | 56—70 | Sweaty pox |
@@ -190,10 +190,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Wild Night** : Overzealous patrons damage furnishings in a lounge or the main hall. The building takes a —10 penalty on checks to generate capital until repairs costing 1d3 points of Goods and 1d2 points of Labor are made.
 
-<caption>Guildhall Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—25 | Prosperity |
+[Guildhall Events]
+| d% | Event |
+| --- | --- |
+| 01—25 | Prosperity |
 | 26—35 | Renovations |
 | 36—55 | Increased taxes |
 | 56—70 | Infighting |
@@ -212,10 +212,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Unfair Practices** : One of the guild members hasn't been contributing her fair share—skimming off the top, not paying dues, doing work for a rival guild, or taking more than her fair share of the profits. You can spend 1d4 points of Influence to discipline this member or attempt a DC 25 [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) check to set her straight. If you succeed at this check, you frighten her into donating excess funds to the guild to make up for previous transgressions, earning you 1d6 points of Goods. Failing the check costs you an additional 1d4 points of Influence as other members realize they can get away with more.
 
-<caption>Herbalist Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—10 | Dangerous discovery |
+[Herbalist Events]
+| d% | Event |
+| --- | --- |
+| 01—10 | Dangerous discovery |
 | 11—30 | Roll on the Alchemist Events table |
 | 31—55 | Snake oil |
 | 56—70 | Exhausting concoction |
@@ -232,10 +232,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Snake Oil** : You've created an invigorating tonic that makes people feel better, though whether or not it has any actual curative effect is dubious. If you spend 1 point of Influence or Magic, you can attempt a DC 25 [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) check to convince the locals to try your cure-all. If you succeed, the building gains a +15 bonus on its next check to generate capital. You can attempt this check every day after you roll this event, but the DC increases by 2 with each attempt. If you fail the check, the event ends, and you can no longer attempt these daily checks (at least, not until you roll this event again).
 
-<caption>House Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—10 | Buried relic |
+[House Events]
+| d% | Event |
+| --- | --- |
+| 01—10 | Buried relic |
 | 11—35 | Roll on the Inn Events table |
 | 36—55 | Neighbor rivalry |
 | 56—65 | Haunting |
@@ -255,10 +255,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Unstable Foundation** : The foundation of your House is sinking. The building gains the broken condition, and you lose 1d2 points of Influence due to the embarrassment. It costs 1d2 points of Goods and 1d6 points of Labor to bolster the foundation and remove the broken condition.
 
-<caption>Inn Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—15 | Talk of the town |
+[Inn Events]
+| d% | Event |
+| --- | --- |
+| 01—15 | Talk of the town |
 | 16—30 | Food shortage |
 | 31—55 | Roll on the Tavern Events table |
 | 56—75 | Strange guest |
@@ -275,10 +275,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Violence** : There is a 60% chance that this is just a simple brawl in the common room, and a 40% chance that someone has attempted actual harm against your employees or guests. If it is a simple brawl, you can break it up with a successful DC 20 [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) or [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) check or by spending 1 point of Goods on the quarrelers. If it is a violent attack and you're present when it occurs, you can attempt to intercede (the GM should determine an appropriate combat encounter). Whether or not the violent attack is successful, the perpetrator must be dealt with. If you do nothing at all, you lose 1d4 points of Influence and 1d2 points of Labor as you lose frightened customers and employees. If you want the local authorities to take care of it, attempt a DC 20 [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) or [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) check. Success means an investigation and arrest occur without any negative repercussions. Failure means you lose 1d4 points of Influence and 1 point of Labor. If you find and punish the perpetrator yourself (or hire someone to do so), you gain 1d4 points of Influence.
 
-<caption>Library Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—30 | Pile of books |
+[Library Events]
+| d% | Event |
+| --- | --- |
+| 01—30 | Pile of books |
 | 31—45 | Famous writer |
 | 46—50 | Strange visitor |
 | 51—55 | Rare find |
@@ -300,10 +300,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Strange Visitor** : A strange visitor comes to your Library in search of books that you fear contain dangerous knowledge. You can turn him away with a successful DC 25 [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) or [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) check, but doing so could anger him—5% of the time, such strange visitors are powerful creatures in disguise who resort to violence to get what they want. Allowing the visitor to peruse your Library's resources might have unfortunate future repercussions, at the GM's discretion.
 
-<caption>Magic Shop Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—25 | Clueless adventurer |
+[Magic Shop Events]
+| d% | Event |
+| --- | --- |
+| 01—25 | Clueless adventurer |
 | 26—30 | Roll on the Shop Events table |
 | 31—35 | Roll on the Magical Academy Events table |
 | 36—50 | Unexpected magic |
@@ -318,10 +318,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Unexpected Magic** : Magic can be unpredictable, especially when many magic items are stored in close proximity. Through the unpredictable results of overlapping and interacting magic auras, or perhaps as a result of a damaged magic item or leaking potion, a strange magical event occurs. The event is minor 75% of the time, causing flashing lights, strange smells, or unusual sounds. Attempt a DC 25 [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) check in this case. On a success, you learn something useful about how to store magic and gain 1 point of Magic. The other 25% of the time, the interaction is dangerous—a sudden explosion of fire, the accidental animation of an object, the summoning of a hungry monster, and so on. These events should be tailored by the GM, but should be comparable in power to a trap or monster encounter of your level.
 
-<caption>Magical Academy Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—10 | Unexpected grant |
+[Magical Academy Events]
+| d% | Event |
+| --- | --- |
+| 01—10 | Unexpected grant |
 | 11—20 | Student discovery |
 | 21—40 | Roll on the Military Academy Events table |
 | 41—45 | Bitter student |
@@ -344,10 +344,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Unexpected Grant** : Your academy has attracted the right kind of attention. You gain 2d4 points of Goods, and the building gains a +10 bonus on its next check to generate capital.
 
-<caption>Menagerie Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—20 | Exotic donation |
+[Menagerie Events]
+| d% | Event |
+| --- | --- |
+| 01—20 | Exotic donation |
 | 21—55 | Festival |
 | 56—60 | Contagion |
 | 61—75 | Escaped animal |
@@ -366,10 +366,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Unruly Druid** : An unruly druid embarks on a crusade against your Menagerie. The druid continues to harass your building until you succeed at a DC 30 [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) or [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) check to mollify her, or until you detain or defeat her in combat. While the druid is acting against your Menagerie, all checks related to the building that you make take a —5 penalty.
 
-<caption>Military Academy Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—10 | Famous alumnus |
+[Military Academy Events]
+| d% | Event |
+| --- | --- |
+| 01—10 | Famous alumnus |
 | 11—20 | Unexpected grant |
 | 21—45 | Competition |
 | 46—60 | Scandal |
@@ -389,10 +389,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Unexpected Grant** : See the event of the same name in the Magical Academy Events section.
 
-<caption>Monastery Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—05 | Visiting relic |
+[Monastery Events]
+| d% | Event |
+| --- | --- |
+| 01—05 | Visiting relic |
 | 06—25 | Productive day |
 | 26—35 | Traveling priest |
 | 36—60 | Holy day |
@@ -415,10 +415,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Visiting Relic** : Your Monastery has been selected as the resting place for a traveling reliquary for 1d4 days. You gain 1d4 points of Influence each day the relic is housed in your Monastery.
 
-<caption>Shop Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—30 | Busy day |
+[Shop Events]
+| d% | Event |
+| --- | --- |
+| 01—30 | Busy day |
 | 31—45 | Slow day |
 | 46—60 | Shoplifter |
 | 61—75 | Embezzler |
@@ -440,10 +440,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Slow Day** : For some reason, no one's coming to the Shop today. If you don't spend the day at the Shop, it earns no capital for the day.
 
-<caption>Smithy Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—15 | Special request |
+[Smithy Events]
+| d% | Event |
+| --- | --- |
+| 01—15 | Special request |
 | 16—20 | Unforeseen masterwork |
 | 21—25 | Exotic metal |
 | 26—30 | Valuable ore |
@@ -469,10 +469,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Valuable Ore** : Your suppliers send a particularly fine shipment of iron ore or steel bars. You gain 1d4 points of Goods. There's a 5% chance that the supplier also included precious metals or gemstones worth 5d20 gp by mistake. If you give these back to the supplier instead of keeping them, you gain 1d6 points of Influence.
 
-<caption>Stable Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—15 | Famous visitor |
+[Stable Events]
+| d% | Event |
+| --- | --- |
+| 01—15 | Famous visitor |
 | 16—30 | Emergency request |
 | 31—45 | Crazed horse |
 | 46—65 | Predators |
@@ -494,10 +494,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Stable Fire** : Treat this as the fire event from the Generic Building Events section. If it is a minor fire, there is also a 50% chance that your Stable also has a crazed horse event.
 
-<caption>Tavern Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—15 | Drinking contest |
+[Tavern Events]
+| d% | Event |
+| --- | --- |
+| 01—15 | Drinking contest |
 | 16—30 | Shenanigans |
 | 31—50 | Bar brawl |
 | 51—65 | Rousing performance |
@@ -519,10 +519,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Taproom Trouble** : Something's gone bad in the kitchen. Foul beer, bad fish, spoiled stew—whatever the cause is, it's making the customers sick. You can avoid any negative repercussions by spending 1d2 points of Magic on potions or medicinal elixirs or succeeding at a DC 20 [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) check. Otherwise, bad word of mouth costs you 2d6 points of Influence, and for the next 2d6 days the building takes a —5 penalty on checks to generate capital.
 
-<caption>Temple Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01 | Major miracle |
+[Temple Events]
+| d% | Event |
+| --- | --- |
+| 01 | Major miracle |
 | 02—05 | Sacred ritual |
 | 06—25 | Ceremony request |
 | 26—35 | Important visitor |
@@ -545,10 +545,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 **Scandal** : This is the same as the scandal event for a Monastery, except a Temple scandal lasts for 1d8 days. There's a 10% chance the scandal involves the influence of a rival faith, in which case you gain a rivalry as well (see Generic Building Events).
 
-<caption>Theater Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—10 | Rave reviews |
+[Theater Events]
+| d% | Event |
+| --- | --- |
+| 01—10 | Rave reviews |
 | 11—25 | Full house |
 | 26—35 | Visiting troupe |
 | 36—55 | Shenanigans |
@@ -577,10 +577,10 @@ Many events allow a skill check to affect the outcome of the event. If you're pr
 
 Unlike with buildings, there is no generic organization event table.
 
-<caption>Cabal Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—05 | Discovery |
+[Cabal Events]
+| d% | Event |
+| --- | --- |
+| 01—05 | Discovery |
 | 06—20 | Arcane flux |
 | 21—30 | Work opportunity |
 | 31—50 | Portent |
@@ -601,10 +601,10 @@ Unlike with buildings, there is no generic organization event table.
 
 **Work Opportunity** : A noble, merchant, or other patron hires your Cabal to assist with magical preparations for a ritual or festival. For 1d6 days, the organization gains a +5 bonus on its first check to generate capital each day. If you rolled a 6 for the number of days, there's a 20% chance this causes a discovery event as described above.
 
-<caption>Cult Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—05 | Divine flux |
+[Cult Events]
+| d% | Event |
+| --- | --- |
+| 01—05 | Divine flux |
 | 06—20 | Portent |
 | 21—45 | Popular ritual |
 | 46—60 | Roll on the Temple Events table |
@@ -627,10 +627,10 @@ Unlike with buildings, there is no generic organization event table.
 
 **Schism** : A popular member of your Cult tries to steal some of your people and create her own Cult. Attempt a [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy), [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate), or [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) check against a DC equal to 20 + the number of teams in the organization. If you succeed, treat this as an apostate event as described above. If you fail by less than 5, you lose 1d2 points of Influence and 1d2 points of Labor. If you fail by 5 or more, you lose one team for every 5 full points by which you failed the DC. These lost teams go with the apostate.
 
-<caption>Mercenary Company Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—15 | Impressive results |
+[Mercenary Company Events]
+| d% | Event |
+| --- | --- |
+| 01—15 | Impressive results |
 | 16—25 | Windfall |
 | 26—50 | Brawl |
 | 51—70 | Rivalry |
@@ -655,10 +655,10 @@ Unlike with buildings, there is no generic organization event table.
 
 **Windfall** : Your organization is rewarded handsomely for its recent efforts, either with payment from a grateful employer or rich spoils from looting an enemy. You gain 1d10 Ã 10 gp, 1d6 points of Goods, and 1 point of Magic.
 
-<caption>Thieves' Guild Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—10 | Big Heist |
+[Thieves' Guild Events]
+| d% | Event |
+| --- | --- |
+| 01—10 | Big Heist |
 | 11—30 | Crime Spree |
 | 31—45 | Rivalry |
 | 46—60 | Crackdown |
@@ -680,10 +680,10 @@ Unlike with buildings, there is no generic organization event table.
 
 **Rivalry** : Another guild is moving in on your territory. Treat this as the rivalry event from Generic Building Events , except you can also end the rivalry and gain 1d4 points of Influence by beating the leader in a duel (as the duel event on the Mercenary Company Event table, but not necessarily to the death) or a thieving challenge.
 
-Rooms And Teams Reference<thead><tr>
-<th>Room/Team</th>
-<th>Create</th>
-</tr></thead>| Acolyte | 2 Goods, 2 Influence, 2 Labor, 3 Magic (440 gp) |
+Rooms And Teams Reference
+| Room/Team | Create |
+| --- | --- |
+| Acolyte | 2 Goods, 2 Influence, 2 Labor, 3 Magic (440 gp) |
 | Alchemy Lab | 8 Goods, 1 Influence, 5 Labor, 1 Magic (390 gp) |
 | Altar | 2 Goods, 1 Influence, 2 Labor, 1 Magic (210 gp) |
 | Animal Pen | 6 Goods, 1 Influence, 5 Labor (250 gp) |

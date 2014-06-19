@@ -46,17 +46,16 @@ You may renounce your code of honor at any time. You lose all honor points and b
 
 These events are appropriate for most honor codes, including the individual codes listed below.
 
-<thead><tr>
-<th>Event</th>
-<th>Honor Points</th>
-</tr></thead>| Complete a CR-appropriate Adventure Path | +10 |
+| Event | Honor Points |
+| --- | --- |
+| Complete a CR-appropriate Adventure Path | +10 |
 | Complete a noble task for an honorable | +2 NPC (50+ honor points) and tell no one |
-| Roll 30 or higher on a [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) check to | +2 create a work of art or masterwork item<sup>1</sup> |
-| Roll 30 or higher on a [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) or | +2 Intimidate check<sup>1</sup> |
-| Roll 30 or higher on a [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) check<sup>1</sup> | +2 |
-| Complete a CR-appropriate adventure<sup>2</sup> | +1 |
-| [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) a powerful magic item | +1<sup>3</sup> |
-| Destroy an evil or dangerous magic item | +1<sup>4</sup> |
+| Roll 30 or higher on a [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) check to | +2 create a work of art or masterwork itemⁱ |
+| Roll 30 or higher on a [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) or | +2 Intimidate checkⁱ |
+| Roll 30 or higher on a [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) checkⁱ | +2 |
+| Complete a CR-appropriate adventure⁲ | +1 |
+| [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) a powerful magic item | +1⁳ |
+| Destroy an evil or dangerous magic item | +1⁴ |
 | Party overcomes a challenging encounter | +1 (CR 3 or more higher than APL) |
 | Willingly break one of the tenets of your | —2 code of honor |
 | Party flees an easy combat challenge | —3 (CR lower than APL) |
@@ -64,20 +63,14 @@ These events are appropriate for most honor codes, including the individual code
 | Party loses an easy combat challenge | —5 (CR lower than APL) |
 | Commit an act of treason or betray an | —10 honorable lord |
 | Be directly responsible for the death | —20 of an honorable ally or loved one under your protection |
-<tfoot><tr><td colspan="2">
-<sup>1</sup> You can gain honor points this way once per month.<br>
-<sup>2</sup> About the length of a 32- or 48-page published adventure.<br>
-<sup>3</sup> Per 40,000 gp of the item's price.<br>
-<sup>4</sup> Per 40,000 gp of the item's price. Artifacts with no price grant 5 honor points for this purpose.</td></tr></tfoot>
 
 ### Chivalric Code
 
 These events apply to a chivalric or Arthurian knight's code.
 
-<thead><tr>
-<th>Event</th>
-<th>Honor Points</th>
-</tr></thead>| Become a lord or similar rank | +50 |
+| Event | Honor Points |
+| --- | --- |
+| Become a lord or similar rank | +50 |
 | Defeat a noble lord in combat | +20 |
 | Agree to protect and be responsible for | +10 the protection of an honorable ally |
 | Redeem a dishonorable foe | +6 |
@@ -102,45 +95,36 @@ These events apply to a chivalric or Arthurian knight's code.
 
 These events apply to a criminal code such as that used by a thieves' guild or ninja clan.
 
-<thead><tr>
-<th>Event</th>
-<th>Honor Points</th>
-</tr></thead>| Become a guildmaster (city population 25,000+)<sup>1</sup> | +50 |
-| Become a guildmaster (city population 10,000+)<sup>1</sup> | +25 |
-| Adopt a specific criminal code<sup>2</sup> | +4 |
-| End a long-running feud (1+ years) | +3 with a criminal more honorable than you<sup>3</sup> |
-| Party humiliates an honorable noble<sup>4</sup> | +3 |
-| Corrupt a high-ranking public official<sup>5</sup> | +2 |
+| Event | Honor Points |
+| --- | --- |
+| Become a guildmaster (city population 25,000+)ⁱ | +50 |
+| Become a guildmaster (city population 10,000+)ⁱ | +25 |
+| Adopt a specific criminal code⁲ | +4 |
+| End a long-running feud (1+ years) | +3 with a criminal more honorable than you⁳ |
+| Party humiliates an honorable noble⁴ | +3 |
+| Corrupt a high-ranking public official⁵ | +2 |
 | Willingly take the fall for a higher-ranking | +2 criminal |
-| Minstrels willingly sing about your exploits<sup>5</sup> | +1 |
+| Minstrels willingly sing about your exploits⁵ | +1 |
 | Defeat a legal challenge, be acquitted, | +1 or avoid sentencing |
 | Party agrees to and then commits a | +1 significant crime |
-| Steal a powerful magic item or | +1<sup>6</sup> valuable treasure |
+| Steal a powerful magic item or | +1⁶ valuable treasure |
 | Be convicted of a significant crime | +1 |
 | Pay minstrels to sing about your exploits | —2 |
 | Willingly work with the authorities to | —2 prevent or solve a crime |
 | Party agrees to commit a crime and | —3 then reneges |
-| Engage in a long-running feud (1+ years) | —4 with a criminal less honorable than you<sup>3</sup> |
+| Engage in a long-running feud (1+ years) | —4 with a criminal less honorable than you⁳ |
 | Refuse to punish an associate for | —4 becoming a turncoat |
 | Party cooperates with authorities in | —5 helping dismantle a criminal enterprise |
 | Violate your specific criminal code | —6 |
 | Be toppled as guildmaster | —30 |
-<tfoot><tr><td colspan="2">
-<sup>1</sup> These events don't stack for the same city. If the city's population increases after you become guildmaster, you gain the difference in honor points between the two events.<br>
-<sup>2</sup> Such as "I commit only property crimes" or "I never steal, I only commit murder."<br>
-<sup>3</sup> Your honor score and the other criminal's must differ by at least 20 points.<br>
-<sup>4</sup> Non-criminal honor point score of 50 or more.<br>
-<sup>5</sup> You can gain honor points this way once per month.<br>
-<sup>6</sup> Per 40,000 gp of the item's price.</td></tr></tfoot>
 
 ### Political Code
 
 These events apply to cultures favoring political intrigue, espionage, and diplomacy.
 
-<thead><tr>
-<th>Event</th>
-<th>Honor Points</th>
-</tr></thead>| Become leader of a country | +50 |
+| Event | Honor Points |
+| --- | --- |
+| Become leader of a country | +50 |
 | Become a duke (or equivalent rank) | +20 |
 | Ascend the ranks of nobility | +15 |
 | Receive an important appointment | +10 |
@@ -148,11 +132,11 @@ These events apply to cultures favoring political intrigue, espionage, and diplo
 | Prevent a war | +5 |
 | Successfully negotiate a peace for a | +3 familial dispute |
 | Act as an ambassador | +2 |
-| Gain the favor of an honorable NPC<sup>1</sup> | +2 |
+| Gain the favor of an honorable NPCⁱ | +2 |
 | Remove an enemy without bloodshed | +2 or death |
 | Start a popular war | +2 |
 | Write and deliver a treaty | +2 |
-| Aid a political ally of lower status<sup>2</sup> | +1 |
+| Aid a political ally of lower status⁲ | +1 |
 | Embarrass a rival | +1 |
 | Make allies in the bureaucracy | +1 |
 | Successfully negotiate a peace for a | +1 personal dispute |
@@ -164,18 +148,14 @@ These events apply to cultures favoring political intrigue, espionage, and diplo
 | Use violence to solve a problem when | —5 negotiation was an option |
 | Start an unpopular war | —8 |
 | Fail to keep a popular war popular | —10 |
-<tfoot><tr><td colspan="2">
-<sup>1</sup> You can gain this reward once per NPC. The NPC must have at least 10 more honor points than you.<br>
-<sup>2</sup> You can gain this reward once per month. The NPC must have at least 10 fewer honor points than you.</td></tr></tfoot>
 
 ### Samurai Code
 
 These events apply to a samurai code.
 
-<thead><tr>
-<th>Event</th>
-<th>Honor Points</th>
-</tr></thead>| Become a daimyo or temple master | +80 |
+| Event | Honor Points |
+| --- | --- |
+| Become a daimyo or temple master | +80 |
 | Defeat an honorable daimyo or temple | +20 master in combat |
 | Commit seppuku | +10 |
 | Adopt a strict code of honor | +8 |
@@ -184,114 +164,40 @@ These events apply to a samurai code.
 | Party defeats a challenging oni | +3 (CR higher than APL) |
 | Destroy a shrine that's dedicated to an | +2 opposing power |
 | Protect a shrine from marauders | +2 |
-| Roll 30 or higher on a [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) check to | +2 create a work of art or masterwork item<sup>1</sup> |
-| Roll 30 or higher on a [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) check<sup>1</sup> | +2 |
-| [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) an action against your alignment | +1because of a sworn oath<sup>2</sup> |
+| Roll 30 or higher on a [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) check to | +2 create a work of art or masterwork itemⁱ |
+| Roll 30 or higher on a [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) checkⁱ | +2 |
+| [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) an action against your alignment | +1because of a sworn oath⁲ |
 | Trick a kami in a battle of wits | +1 |
-| Excessively brag of your accomplishments<sup>3</sup> | —1 |
+| Excessively brag of your accomplishments⁳ | —1 |
 | Be convicted of a petty crime | —2 |
 | Be drunk in public | —2 |
 | Slay an honorable opponent who | —5has surrendered |
-<tfoot><tr><td colspan="2">
-<sup>1</sup> You can gain honor points this way once per month. If this event recounts accomplishments of another PC or NPC, you and the subject gain 2 honor points each.<br>
-If the event mocks the subject and the subject has fewer honor points than you, you gain 2 honor points and the subject loses 2.<br>
-If the event mocks a target with more honor points than you, you risk the —4 slander penalty if the event can be associated with you.<br>Each additional subject the event would praise or mock gives the skill check a —5 penalty.<br>
-<sup>2</sup> The oath must be to someone with more honor points than you.<br>
-<sup>3</sup> Unless this is part of a class ability that requires you to brag about your accomplishments.</td></tr></tfoot>
 
 ### Tribal Code
 
 These events apply to nomadic or tribal societies.
 
-<thead>
-<tr>
-<th>Event</th>
-<th>Honor Points
-</th>
-</tr>
-<tr class="odd">
-<td>Become the leader of the clan</td>
-<td>+50</td>
-</tr>
-<tr class="even">
-<td>Defeat the leader of your tribe in single</td>
-<td>+20 combat and become leader</td>
-</tr>
-<tr class="odd">
-<td>Gain justice for a large slight to your family,</td>
-<td>+3 tribe, or clan</td>
-</tr>
-<tr class="even">
-<td>Defend your village or camp from a raid</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>Develop a recognizable and feared persona</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>Go far beyond the basics of hospitality</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>Represent your tribe at a clan gathering</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>Stand against 10 opponents (whether the</td>
-<td>+2 conflict is physical, social, or artistic)</td>
-</tr>
-<tr class="odd">
-<td>Challenge the leader of your tribe to</td>
-<td>+1 single combat for leadership</td>
-</tr>
-<tr class="even">
-<td>Develop a new tribal tradition</td>
-<td>+1</td>
-</tr>
-<tr class="odd">
-<td>Enact tribal justice for a serious transgression</td>
-<td>+1</td>
-</tr>
-<tr class="even">
-<td>Gain justice for a small insult to your family,</td>
-<td>+1 tribe, or clan</td>
-</tr>
-<tr class="odd">
-<td>Party enforces the code of hospitality</td>
-<td>+1</td>
-</tr>
-<tr class="even">
-<td>Break tribal behavioral code</td>
-<td>—1</td>
-</tr>
-<tr class="odd">
-<td>Speak ill of your clan outside your clan</td>
-<td>—1</td>
-</tr>
-<tr class="even">
-<td>Speak ill of your tribe outside your tribe</td>
-<td>—2</td>
-</tr>
-<tr class="odd">
-<td>Back down from a one-on-one fight</td>
-<td>—3</td>
-</tr>
-<tr class="even">
-<td>Ignore tribal command structure</td>
-<td>—3</td>
-</tr>
-<tr class="odd">
-<td>Party refuses hospitality to other travelers</td>
-<td>—3</td>
-</tr>
-<tr class="even">
-<td>Speak out against a member of your family</td>
-<td>—3</td>
-</tr>
-<tr class="odd">
-<td>Party takes advantage of hospitality, then</td>
-<td>—5 betrays the hosts</td>
-</tr>
-</thead>
+| Event | Honor Points |
+| --- | --- |
+| Become the leader of the clan | +50 |
+| Defeat the leader of your tribe in single | +20 combat and become leader |
+| Gain justice for a large slight to your family, | +3 tribe, or clan |
+| Defend your village or camp from a raid | +2 |
+| Develop a recognizable and feared persona | +2 |
+| Go far beyond the basics of hospitality | +2 |
+| Represent your tribe at a clan gathering | +2 |
+| Stand against 10 opponents (whether the | +2 conflict is physical, social, or artistic) |
+| Challenge the leader of your tribe to | +1 single combat for leadership |
+| Develop a new tribal tradition | +1 |
+| Enact tribal justice for a serious transgression | +1 |
+| Gain justice for a small insult to your family, | +1 tribe, or clan |
+| Party enforces the code of hospitality | +1 |
+| Break tribal behavioral code | —1 |
+| Speak ill of your clan outside your clan | —1 |
+| Speak ill of your tribe outside your tribe | —2 |
+| Back down from a one-on-one fight | —3 |
+| Ignore tribal command structure | —3 |
+| Party refuses hospitality to other travelers | —3 |
+| Speak out against a member of your family | —3 |
+| Party takes advantage of hospitality, then | —5 betrays the hosts |
 

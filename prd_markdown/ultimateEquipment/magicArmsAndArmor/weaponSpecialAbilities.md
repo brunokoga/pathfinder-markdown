@@ -28,22 +28,22 @@ Ammunition fired from a projectile weapon with an enhancement bonus of +1 or hig
 
 **Special Qualities** : Roll d%. A 01–30 result indicates that the item sheds light, 31–45 indicates that something (a design, inscription, or the like) provides a clue to the weapon's function, and 46–100 indicates no special qualities.
 
-<caption>Magic Weapons</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Weapon</th>
-</tr></thead>| 01–80 | +1 weapon |
+[Magic Weapons]
+| d% | Lesser Minor Weapon |
+| --- | --- |
+| 01–80 | +1 weapon |
 | 81–100 | Lesser minor specific weapon |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Weapon</th>
-</tr></thead>| 01–26 | +1 weapon |
+
+| d% | Greater Minor Weapon |
+| --- | --- |
+| 01–26 | +1 weapon |
 | 27–53 | +2 weapon |
 | 54–80 | +1 weapon with one +1 special ability\* |
 | 81–100 | Greater minor specific weapon |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Weapon</th>
-</tr></thead>| 01–10 | +1 weapon |
+
+| d% | Lesser Medium Weapon |
+| --- | --- |
+| 01–10 | +1 weapon |
 | 11–20 | +2 weapon |
 | 21–32 | +3 weapon |
 | 33–44 | +1 weapon with one +1 special ability\* |
@@ -51,10 +51,10 @@ Ammunition fired from a projectile weapon with an enhancement bonus of +1 or hig
 | 57–68 | +1 weapon with one +2 special ability\* |
 | 69–80 | +2 weapon with one +1 special ability\* |
 | 81–100 | Lesser medium specific weapon |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Weapon</th>
-</tr></thead>| 01–10 | +2 weapon |
+
+| d% | Greater Medium Weapon |
+| --- | --- |
+| 01–10 | +2 weapon |
 | 11–22 | +3 weapon |
 | 23–32 | +1 weapon with one +1 special ability\* |
 | 33–44 | +1 weapon with one +2 special ability\* |
@@ -62,10 +62,10 @@ Ammunition fired from a projectile weapon with an enhancement bonus of +1 or hig
 | 57–68 | +2 weapon with one +2 special ability\* |
 | 69–80 | +3 weapon with one +1 special ability\* |
 | 81–100 | Greater medium specific weapon |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Weapon</th>
-</tr></thead>| 01–10 | +3 weapon |
+
+| d% | Lesser Major Weapon |
+| --- | --- |
+| 01–10 | +3 weapon |
 | 11–22 | +4 weapon |
 | 23–32 | +1 weapon with one +2 special ability\* |
 | 33–44 | +1 weapon with one +3 special ability\* |
@@ -73,10 +73,10 @@ Ammunition fired from a projectile weapon with an enhancement bonus of +1 or hig
 | 57–68 | +3 weapon with one +1 special ability\* |
 | 69–80 | +4 weapon with one +1 special ability\* |
 | 81–100 | Lesser major specific weapon |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Weapon</th>
-</tr></thead>| 01–10 | +4 weapon |
+
+| d% | Greater Major Weapon |
+| --- | --- |
+| 01–10 | +4 weapon |
 | 11–20 | +5 weapon |
 | 21–30 | +4 weapon with one +1 special ability\* |
 | 31–38 | +4 weapon with one +2 special ability\* |
@@ -89,14 +89,11 @@ Ammunition fired from a projectile weapon with an enhancement bonus of +1 or hig
 | 75–77 | +5 weapon with one +4 special ability and one +1 special ability\* |
 | 78–80 | +5 weapon with one +3 special ability and one +2 special ability\* |
 | 81–100 | Greater major specific weapon |
-<tfoot><tr><td colspan="2" style="white-space: normal;">* See the <a href="#_melee-weapon-special-abilities-table">Melee Weapon Special Abilities table</a> for Melee Weapon Special Abilities, the <a href="#_ranged-weapon-special-abilities-table">Ranged Weapons Special Abilities table</a> for<br>Ranged Weapon Special Abilities, and the <a href="#_ammunition-special-abilities-table">Ammunition Special Abilities table</a> for Ammunition Special Abilities.</td></tr></tfoot>
 
-<caption>Melee Weapon Special Abilities</caption><thead><tr>
-<th>d%</th>
-<th>+1 Weapon Special Ability</th>
-<th>Base Price Modifier<sup>1</sup>
-</th>
-</tr></thead>| 01 | _Impervious_ | +3,000 gp |
+[Melee Weapon Special Abilities]
+| d% | +1 Weapon Special Ability | Base Price Modifierⁱ |
+| --- | --- | --- |
+| 01 | _Impervious_ | +3,000 gp |
 | 02 | _Glamered_ | +4,000 gp |
 | 03 | _Allying_ | +1 bonus |
 | 04–08 | _Bane_ | +1 bonus |
@@ -121,7 +118,7 @@ Ammunition fired from a projectile weapon with an enhancement bonus of +1 or hig
 | 50 | _Heartseeker_ | +1 bonus |
 | 51–52 | _Huntsman_ | +1 bonus |
 | 53–54 | _Jurist_ | +1 bonus |
-| 55–59 | _Keen_<sup>3</sup> | +1 bonus |
+| 55–59 | _Keen_⁳ | +1 bonus |
 | 60–61 | _Ki focus_ | +1 bonus |
 | 62 | _Limning_ | +1 bonus |
 | 63–64 | _Menacing_ | +1 bonus |
@@ -140,26 +137,24 @@ Ammunition fired from a projectile weapon with an enhancement bonus of +1 or hig
 | 92–96 | _Thundering_ | +1 bonus |
 | 97 | _Valiant_ | +1 bonus |
 | 98–100 | _Vicious_ | +1 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+2 Weapon Special Ability</th>
-<th>Base Price Modifier<sup>1</sup>
-</th>
-</tr></thead>| 01 | _Advancing_ | +2 bonus |
+
+| d% | +2 Weapon Special Ability | Base Price Modifierⁱ |
+| --- | --- | --- |
+| 01 | _Advancing_ | +2 bonus |
 | 02–10 | _Anarchic_ | +2 bonus |
 | 11–19 | _Anchoring_ | +2 bonus |
 | 20 | _Axiomatic_ | +2 bonus |
 | 21–27 | _Corrosive burst_ | +2 bonus |
 | 28 | _Defiant_ | +2 bonus |
 | 29 | _Dispelling burst_ | +2 bonus |
-| 30–38 | _Disruption_<sup>2</sup> | +2 bonus |
+| 30–38 | _Disruption_⁲ | +2 bonus |
 | 39–47 | _Flaming burst_ | +2 bonus |
 | 48 | _Furyborn_ | +2 bonus |
 | 49 | _Glorious_ | +2 bonus |
 | 50–58 | _Holy_ | +2 bonus |
 | 59–67 | _Icy burst_ | +2 bonus |
 | 68 | _Igniting_ | +2 bonus |
-| 69 | _Impact_<sup>3</sup> | +2 bonus |
+| 69 | _Impact_⁳ | +2 bonus |
 | 70 | _Invigorating_ | +2 bonus |
 | 71 | _Ki intensifying_ | +2 bonus |
 | 72 | _Lifesurge_ | +2 bonus |
@@ -169,125 +164,96 @@ Ammunition fired from a projectile weapon with an enhancement bonus of +1 or hig
 | 84 | _Stalking_ | +2 bonus |
 | 85–91 | _Unholy_ | +2 bonus |
 | 92–100 | _Wounding_ | +2 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+3 Weapon Special Ability</th>
-<th>Base Price Modifier<sup>1</sup>
-</th>
-</tr></thead>| 01–20 | _Nullifying_ | +3 bonus |
+
+| d% | +3 Weapon Special Ability | Base Price Modifierⁱ |
+| --- | --- | --- |
+| 01–20 | _Nullifying_ | +3 bonus |
 | 21–40 | _Repositioning_ | +3 bonus |
 | 41–80 | _Speed_ | +3 bonus |
 | 81–100 | _Spellstealing_ | +3 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+4 or +5 Weapon Special Ability</th>
-<th>Base Price Modifier<sup>1</sup>
-</th>
-</tr></thead>| 01–40 | _Brilliant energy_ | +4 bonus |
+
+| d% | +4 or +5 Weapon Special Ability | Base Price Modifierⁱ |
+| --- | --- | --- |
+| 01–40 | _Brilliant energy_ | +4 bonus |
 | 41–80 | _Dancing_ | +4 bonus |
-| 81–90 | _Vorpal_<sup>3</sup> | +5 bonus |
+| 81–90 | _Vorpal_⁳ | +5 bonus |
 | 91–95 | _Transformative_ | +10,000 gp |
 | 96–100 | _Dueling_ | +14,000 gp |
-<tfoot><tr><td colspan="3" style="white-space: normal;">
-<sup>1</sup> Add to enhancement bonus on the <a href="#_weapon-pricing-by-bonus-table">Weapon Pricing by Bonus table</a> to determine total price.<br>
-<sup>2</sup> Bludgeoning weapons only.<br>
-<sup>3</sup> Piercing or slashing weapons only (slashing only for <i>vorpal</i>).<br>
-<sup>4</sup> This special ability cannot be applied to light melee weapons.</td></tr></tfoot>
 
-<caption>Weapon Pricing by Bonus</caption><thead><tr>
-<th>Weapon Bonus</th>
-<th>Base Price<sup>1</sup>
-</th>
-</tr></thead>| +1 | 2,000 gp |
+[Weapon Pricing by Bonus]
+| Weapon Bonus | Base Priceⁱ |
+| --- | --- |
+| +1 | 2,000 gp |
 | +2 | 8,000 gp |
 | +3 | 18,000 gp |
 | +4 | 32,000 gp |
 | +5 | 50,000 gp |
-| +6<sup>2</sup> | 72,000 gp |
-| +7<sup>2</sup> | 98,000 gp |
-| +8<sup>2</sup> | 128,000 gp |
-| +9<sup>2</sup> | 162,000 gp |
-| +10<sup>2</sup> | 200,000 gp |
-<tfoot><tr><td colspan="2" style="white-space: normal;">
-<sup>1</sup> For ammunition, this price is for 50 arrows, bolts, bullets, or firearm ammunition.<br>
-<sup>2</sup> A weapon can't have an enhancement bonus higher than +5.<br>Use these lines to determine price when special ability are added in.</td></tr></tfoot>
+| +6⁲ | 72,000 gp |
+| +7⁲ | 98,000 gp |
+| +8⁲ | 128,000 gp |
+| +9⁲ | 162,000 gp |
+| +10⁲ | 200,000 gp |
 
-<caption>Ranged Weapon Special Abilities</caption><thead><tr>
-<th>d%</th>
-<th>+1 Weapon Special Ability</th>
-<th>Base Price Modifier<sup>1</sup>
-</th>
-</tr></thead>| 01 | _Adaptive_<sup>2</sup> | +1,000 gp |
+[Ranged Weapon Special Abilities]
+| d% | +1 Weapon Special Ability | Base Price Modifierⁱ |
+| --- | --- | --- |
+| 01 | _Adaptive_⁲ | +1,000 gp |
 | 02 | _Impervious_ | +3,000 gp |
 | 03 | _Glamered_ | +4,000 gp |
 | 04–06 | _Allying_ | +1 bonus |
-| 07–15 | _Bane_<sup>3</sup> | +1 bonus |
+| 07–15 | _Bane_⁳ | +1 bonus |
 | 16 | _Called_ | +1 bonus |
 | 17–19 | _Conductive_ | +1 bonus |
-| 20 | _Conserving_<sup>4</sup> | +1 bonus |
-| 21–24 | _Corrosive_<sup>3</sup> | +1 bonus |
+| 20 | _Conserving_⁴ | +1 bonus |
+| 21–24 | _Corrosive_⁳ | +1 bonus |
 | 25 | _Cruel_ | +1 bonus |
 | 26–28 | _Cunning_ | +1 bonus |
 | 29–36 | _Distance_ | +1 bonus |
-| 37–45 | _Flaming_<sup>3</sup> | +1 bonus |
-| 46–54 | _Frost_<sup>3</sup> | +1 bonus |
+| 37–45 | _Flaming_⁳ | +1 bonus |
+| 46–54 | _Frost_⁳ | +1 bonus |
 | 55–58 | _Huntsman_ | +1 bonus |
 | 59–62 | _Jurist_ | +1 bonus |
 | 63 | _Limning_ | +1 bonus |
-| 64 | _Lucky_<sup>5</sup> | +1 bonus |
-| 65–66 | _Merciful_<sup>3</sup> | +1 bonus |
+| 64 | _Lucky_⁵ | +1 bonus |
+| 65–66 | _Merciful_⁳ | +1 bonus |
 | 67 | _Planar_ | +1 bonus |
-| 68 | _Reliable_<sup>5</sup> | +1 bonus |
-| 69–76 | _Returning_<sup>6</sup> | +1 bonus |
+| 68 | _Reliable_⁵ | +1 bonus |
+| 69–76 | _Returning_⁶ | +1 bonus |
 | 77–84 | _Seeking_ | +1 bonus |
-| 85–92 | _Shock_<sup>3</sup> | +1 bonus |
-| 93–100 | _Thundering_<sup>3</sup> | +1 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+2 Weapon Special Ability</th>
-<th>Base Price Modifier<sup>1</sup>
-</th>
-</tr></thead>| 01–10 | _Anarchic_<sup>3</sup> | +2 bonus |
-| 11–13 | _Anchoring_<sup>6</sup> | +2 bonus |
-| 14–23 | _Axiomatic_<sup>3</sup> | +2 bonus |
-| 24–31 | _Corrosive burst_<sup>3</sup> | +2 bonus |
-| 32–34 | _Designating, lesser_<sup>3</sup> | +2 bonus |
-| 35–37 | _Endless ammunition_<sup>7</sup> | +2 bonus |
-| 38–48 | _Flaming burst_<sup>3</sup> | +2 bonus |
-| 49–58 | _Holy_<sup>3</sup> | +2 bonus |
-| 59–69 | _Icy burst_<sup>3</sup> | +2 bonus |
-| 70–73 | _Igniting_<sup>3</sup> | +2 bonus |
-| 74–76 | _Phase locking_<sup>3</sup> | +2 bonus |
-| 77–86 | _Shocking burst_<sup>3</sup> | +2 bonus |
+| 85–92 | _Shock_⁳ | +1 bonus |
+| 93–100 | _Thundering_⁳ | +1 bonus |
+
+| d% | +2 Weapon Special Ability | Base Price Modifierⁱ |
+| --- | --- | --- |
+| 01–10 | _Anarchic_⁳ | +2 bonus |
+| 11–13 | _Anchoring_⁶ | +2 bonus |
+| 14–23 | _Axiomatic_⁳ | +2 bonus |
+| 24–31 | _Corrosive burst_⁳ | +2 bonus |
+| 32–34 | _Designating, lesser_⁳ | +2 bonus |
+| 35–37 | _Endless ammunition_⁷ | +2 bonus |
+| 38–48 | _Flaming burst_⁳ | +2 bonus |
+| 49–58 | _Holy_⁳ | +2 bonus |
+| 59–69 | _Icy burst_⁳ | +2 bonus |
+| 70–73 | _Igniting_⁳ | +2 bonus |
+| 74–76 | _Phase locking_⁳ | +2 bonus |
+| 77–86 | _Shocking burst_⁳ | +2 bonus |
 | 87–90 | _Stalking_ | +2 bonus |
-| 91–100 | _Unholy_<sup>3</sup> | +2 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+3 Weapon Special Ability</th>
-<th>Base Price Modifier<sup>1</sup>
-</th>
-</tr></thead>| 01–25 | _Lucky, greater_<sup>5</sup> | +3 bonus |
-| 26–45 | _Reliable, greater_<sup>5</sup> | +3 bonus |
+| 91–100 | _Unholy_⁳ | +2 bonus |
+
+| d% | +3 Weapon Special Ability | Base Price Modifierⁱ |
+| --- | --- | --- |
+| 01–25 | _Lucky, greater_⁵ | +3 bonus |
+| 26–45 | _Reliable, greater_⁵ | +3 bonus |
 | 46–85 | _Speed_ | +3 bonus |
-| 86–94 | _Brilliant energy_<sup>3</sup> | +4 bonus |
+| 86–94 | _Brilliant energy_⁳ | +4 bonus |
 | 95–96 | _Designating, greater_ | +4 bonus |
 | 97–98 | _Nimble shot_ | +4 bonus |
-| 99–100 | _Second chance_<sup>3</sup> | +4 bonus |
-<tfoot><tr><td colspan="3" style="white-space: normal;">
-<sup>1</sup>Add to enhancement bonus on the <a href="#_weapon-pricing-by-bonus-table">Weapon Pricing by Bonus table</a> to determine total price.<br>
-<sup>2 </sup>Only bows can have this ability (composite only for <i>adaptive</i>).<br>
-<sup>3 </sup>Projectile weapons with this ability bestow this power upon their ammunition.<br>
-<sup>4 </sup>Firearms cannot have this special ability.<br>
-<sup>5</sup>Only firearms can have this special ability.<br>
-<sup>6</sup>Only thrown ranged weapons can have this special ability.<br>
-<sup>7</sup>Only bows and crossbows can have this special ability.</td></tr></tfoot>
+| 99–100 | _Second chance_⁳ | +4 bonus |
 
-<caption>Ammunition Special Abilities</caption><thead><tr>
-<th>d%</th>
-<th>+1 Ammunition Special Ability</th>
-<th>Base Price Modifier<sup>1</sup>
-</th>
-</tr></thead>| 01–05 | _Dry load_<sup>2</sup> | +1,500 gp |
+[Ammunition Special Abilities]
+| d% | +1 Ammunition Special Ability | Base Price Modifierⁱ |
+| --- | --- | --- |
+| 01–05 | _Dry load_⁲ | +1,500 gp |
 | 06–16 | _Bane_ | +1 bonus |
 | 17 | _Conductive_ | +1 bonus |
 | 18–28 | _Corrosive_ | +1 bonus |
@@ -302,12 +268,10 @@ Ammunition fired from a projectile weapon with an enhancement bonus of +1 or hig
 | 69–73 | _Seeking_ | +1 bonus |
 | 74–86 | _Shock_ | +1 bonus |
 | 87–100 | _Thundering_ | +1 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+2 Ammunition Special Ability</th>
-<th>Base Price Modifier<sup>1</sup>
-</th>
-</tr></thead>| 01–10 | _Anarchic_ | +2 bonus |
+
+| d% | +2 Ammunition Special Ability | Base Price Modifierⁱ |
+| --- | --- | --- |
+| 01–10 | _Anarchic_ | +2 bonus |
 | 11–20 | _Axiomatic_ | +2 bonus |
 | 21–30 | _Corrosive burst_ | +2 bonus |
 | 31–33 | _Designating, lesser_ | +2 bonus |
@@ -318,16 +282,11 @@ Ammunition fired from a projectile weapon with an enhancement bonus of +1 or hig
 | 71–80 | _Phase locking_ | +2 bonus |
 | 81–90 | _Shocking burst_ | +2 bonus |
 | 91–100 | _Unholy_ | +2 bonus |
-<thead><tr>
-<th>d%</th>
-<th>+4 Ammunition Special Ability</th>
-<th>Base Price Modifier<sup>1</sup>
-</th>
-</tr></thead>| 01–66 | _Brilliant energy_ | +4 bonus |
+
+| d% | +4 Ammunition Special Ability | Base Price Modifierⁱ |
+| --- | --- | --- |
+| 01–66 | _Brilliant energy_ | +4 bonus |
 | 67–00 | _Designating, greater_ | +4 bonus |
-<tfoot><tr><td colspan="3" style="white-space: normal;">
-<sup>1</sup> Add to enhancement bonus on the <a href="#_weapon-pricing-by-bonus-table">Weapon Pricing by Bonus table</a> to determine total price.<br>
-<sup>2</sup> This special ability can only be applied to alchemical or metal firearm cartridges.</td></tr></tfoot>
 
 # Magic Weapon Special Ability Descriptions
 
@@ -411,10 +370,9 @@ Bane
 
 A _bane_ weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better than its actual bonus. It also deals an extra 2d6 points of damage against such foes. To randomly determine a weapon's designated foe, roll on the following table.
 
-<thead><tr>
-<th>d%</th>
-<th>Designated Foe</th>
-</tr></thead>| 01–05 | Aberrations |
+| d% | Designated Foe |
+| --- | --- |
+| 01–05 | Aberrations |
 | 06–09 | Animals |
 | 10–16 | Constructs |
 | 17–22 | Dragons |

@@ -12,22 +12,17 @@ Few warriors are more dedicated to honor and the code of the warrior than the sa
 
 The following table lists the starting gold piece value for the new classes presented in this book. In addition, each character begins play with an outfit worth 10 gp or less.
 
-<caption>Table: Starting Wealth</caption><thead><tr>
-<th>Class</th>
-<th>Staring Wealth</th>
-<th>Average</th>
-</tr></thead>| Samurai | 3d6 × 10 gp | 105 gp |
+[Table: Starting Wealth]
+| Class | Staring Wealth | Average |
+| --- | --- | --- |
+| Samurai | 3d6 × 10 gp | 105 gp |
 
 ## Class Skills
 
-<caption>Table: Samurai</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-</tr></thead>| 1st | +1 | +2 | +0 | +0 | Challenge 1/day, mount, order, resolve |
+[Table: Samurai]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +1 | +2 | +0 | +0 | Challenge 1/day, mount, order, resolve |
 | 2nd | +2 | +3 | +0 | +0 | Order ability |
 | 3rd | +3 | +3 | +1 | +1 | Weapon expertise |
 | 4th | +4 | +4 | +1 | +1 | Challenge 2/day, mounted archer |

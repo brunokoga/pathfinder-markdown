@@ -58,10 +58,9 @@ Manticores eat any meat, even carrion, though they prefer human flesh and rarely
 
 Although manticores were likely a magical creation, they have long since established themselves as a naturally occurring species. Curiously, manticores seem strangely fecund, and can interbreed with a number of other similarly shaped creatures, including lions, dire lions, lamias, sphinxes, and even chimeras. The progeny of a manticore and an unusual mate is summarized on the table below.
 
-<thead><tr>
-<th>Manticore's Mate</th>
-<th>Offspring</th>
-</tr></thead><tbody>
+| Manticore's Mate | Offspring |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Lion</td>
 <td>Standard manticore</td>
@@ -82,7 +81,5 @@ Although manticores were likely a magical creation, they have long since establi
 <td>Chimera</td>
 <td>Chimera with spiked tail and spikes</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="2"> special attack</td></tr>
-</tfoot>
+</tbody>
 

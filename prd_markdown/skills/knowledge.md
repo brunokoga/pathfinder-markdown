@@ -19,11 +19,10 @@ You are educated in a field of study and can answer both simple and complex ques
 
 You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as goblins, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the tarrasque, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information. Many of the Knowledge skills have specific uses as noted on Table: Knowledge Skill DCs.
 
-<caption>Table: Knowledge Skill DCs</caption><thead><tr>
-<th>Task</th>
-<th>Knowledge Skill</th>
-<th>DC</th>
-</tr></thead><tbody>
+[Table: Knowledge Skill DCs]
+| Task | Knowledge Skill | DC |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td style="white-space:normal;">Identify auras while using <i>detect magic</i>
 </td>

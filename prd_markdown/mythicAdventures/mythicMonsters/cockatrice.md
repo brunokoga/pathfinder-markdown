@@ -36,7 +36,7 @@ Statistics
 
 **Base Atk** +6; **CMB** +3; **CMD** 17
 
-**Feats** [Dodge](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_dodge-mythic)<sup>M</sup>, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Dodge](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_dodge-mythic)M, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
 
 **Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +6, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +11
 

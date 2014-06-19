@@ -54,11 +54,10 @@ CE Large [magical beast](creatureTypes.html#_magical-beast)
 
   
   
-<thead><tr>
-<th>d10</th>
-<th>Head Color</th>
-<th>Breath Weapon</th>
-</tr></thead><tbody>
+
+| d10 | Head Color | Breath Weapon |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1–2</td>
 <td>Black</td>

@@ -16,10 +16,9 @@
 
 You subtly enhance or diminish the effects of natural winds within the spell's area, which is an immobile emanation around a point touched by you as the spell is cast. Within the area, natural (but not magical) wind effects are either increased or decreased by one step in intensity (_Core Rulebook_ 439). The maximum wind force you can affect with this spell is based on your caster level, as shown on the table below. _Alter winds_ has no effect on magical wind effects.
 
-<thead><tr>
-<th>Caster Level</th>
-<th>Wind Force</th>
-</tr></thead><tbody>
+| Caster Level | Wind Force |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>1st–3rd</td>
 <td>Light</td>

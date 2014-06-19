@@ -112,15 +112,15 @@ At will—lore keeper, remote viewing (9 rounds/day)
 
 **Cleric Spells Prepared** (CL 9th; concentration +13)
 
-5th—_ [slay living](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)_ (DC 20), _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_<sup>D</sup>
+5th—_ [slay living](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)_ (DC 20), _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_D
 
-4th—_ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 18), _ [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_<sup>D</sup> (DC 18), _ [summon monster IV](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv)_, _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
+4th—_ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 18), _ [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_D (DC 18), _ [summon monster IV](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv)_, _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
 
-3rd—_ [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_ (DC 18), _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_, _ [rage](/pathfinderRPG/prd/spells/rage.html#_rage)_<sup>D</sup>, _ [searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_
+3rd—_ [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_ (DC 18), _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_, _ [rage](/pathfinderRPG/prd/spells/rage.html#_rage)_D, _ [searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_
 
-2nd—_ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (2, DC 16), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_, _ [touch of idiocy](/pathfinderRPG/prd/spells/touchOfIdiocy.html#_touch-of-idiocy)_<sup>D</sup>
+2nd—_ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (2, DC 16), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_, _ [touch of idiocy](/pathfinderRPG/prd/spells/touchOfIdiocy.html#_touch-of-idiocy)_D
 
-1st—_ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ (DC 16), _ [doom](/pathfinderRPG/prd/spells/doom.html#_doom)_ (DC 16), _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [lesser confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion-lesser)_<sup>D</sup> (DC 15), _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_
+1st—_ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ (DC 16), _ [doom](/pathfinderRPG/prd/spells/doom.html#_doom)_ (DC 16), _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [lesser confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion-lesser)_D (DC 15), _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_
 
 0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 15), _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
 

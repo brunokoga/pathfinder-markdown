@@ -32,15 +32,10 @@ The following rules cover the basics of terrain that can be found in a dungeon.
 
 Masonry walls—stones piled on top of each other, usually but not always held in place with mortar—often divide dungeons into corridors and chambers. Dungeon walls can also be hewn from solid rock, leaving them with a rough, chiseled look. Still other dungeon walls can be the smooth, unblemished stone of a naturally occurring cave. Dungeon walls are difficult to break down or through, but they're generally easy to climb.
 
-<caption>Table: Walls</caption><thead><tr>
-<th>Wall Type</th>
-<th>Typical Thickness</th>
-<th>break DC</th>
-<th>Hardness</th>
-<th>Hit Points<sup>1</sup>
-</th>
-<th>Climb DC</th>
-</tr></thead>| Masonry | 1 ft. | 35 | 8 | 90 hp | 20 |
+[Table: Walls]
+| Wall Type | Typical Thickness | break DC | Hardness | Hit Pointsⁱ | Climb DC |
+| --- | --- | --- | --- | --- | --- |
+| Masonry | 1 ft. | 35 | 8 | 90 hp | 20 |
 | Superior masonry | 1 ft. | 35 | 8 | 90 hp | 25 |
 | Reinforced masonry | 1 ft. | 45 | 8 | 180 hp | 20 |
 | Hewn stone | 3 ft. | 50 | 8 | 540 hp | 25 |
@@ -48,14 +43,7 @@ Masonry walls—stones piled on top of each other, usually but not always held i
 | Iron | 3 in. | 30 | 10 | 90 hp | 25 |
 | Paper | Paper-thin | 1 | — | 1 hp | 30 |
 | Wooden | 6 in. | 20 | 5 | 60 hp | 21 |
-| Magically treated<sup>2</sup> | — | +20 | ×2 | ×2<sup>3</sup> | — |
-<tfoot>
-<tr>
-<td colspan="6">1 Per 10-foot-by-10-foot section.</td>
-</tr>
-<tr><td colspan="6">2 This modifier can be applied to any of the other wall types.</td></tr>
-<tr><td colspan="6">3 Or an additional 50 hit points, whichever is greater.</td></tr>
-</tfoot>
+| Magically treated⁲ | — | +20 | ×2 | ×2⁳ | — |
 
 **Masonry Walls** : The most common kind of dungeon wall, masonry walls are usually at least 1 foot thick. Often, these ancient walls sport cracks and crevices, and sometimes dangerous slimes or small monsters live in these areas and wait for prey. Masonry walls stop all but the loudest noises. It takes a DC 20 Climb check to travel along a masonry wall.
 
@@ -113,19 +101,12 @@ Ledges can also have low walls 2 to 3 feet high along their edges. Such walls pr
 
 Doors in dungeons are much more than mere entrances and exits. Often they can be encounters all by themselves. Dungeon doors come in three basic types: wooden, stone, and iron.
 
-<caption>Table: Doors</caption><thead>
-<tr>
-<th rowspan="2">Door Type</th>
-<th rowspan="2">Typical Thickness</th>
-<th rowspan="2">Hardness</th>
-<th rowspan="2">Hit Points</th>
-<th colspan="2">break DC</th>
-</tr>
-<tr>
-<th>Stuck</th>
-<th>Locked</th>
-</tr>
-</thead><tbody>
+[Table: Doors]
+| Door Type | Typical Thickness | Hardness | Hit Points | break DC |
+| --- | --- | --- | --- | --- |
+| Stuck | Locked |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Simple wooden</td>
 <td>1 in.</td>
@@ -198,9 +179,7 @@ Doors in dungeons are much more than mere entrances and exits. Often they can be
 <td>—</td>
 <td>—</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="6">* DC to lift. Use appropriate door figure for breaking.</td></tr>
-</tfoot>
+</tbody>
 
 **Wooden Doors** : Constructed of thick planks nailed together, sometimes bound with iron for strength (and to reduce swelling from dungeon dampness), wooden doors are the most common type. Wooden doors come in varying strengths: simple, good, and strong. Simple doors (break DC 15) are not meant to keep out motivated attackers. Good doors (break DC 18), while sturdy and long-lasting, are still not meant to take much punishment. Strong doors (break DC 25) are bound in iron and are a sturdy barrier to those attempting to get past them. Iron hinges fasten the door to its frame, and typically a circular pull-ring in the center is there to help open it. Sometimes, instead of a pull-ring, a door has an iron pull-bar on one or both sides of the door to serve as a handle. In inhabited dungeons, these doors are usually well-maintained (not stuck) and unlocked, although important areas are locked up if possible.
 
@@ -340,11 +319,9 @@ Some magic device traps have special proximity triggers that activate only when 
 
 **Visual** : This trigger for magic traps works like an actual eye, springing the trap whenever it âseesâ something. A trap with a visual trigger requires the casting of _arcane eye, clairvoyance, _or _true seeing _during its construction. Sight range and the Perception bonus conferred on the trap depend on the spell chosen, as shown.
 
-<thead><tr>
-<th>Spell</th>
-<th>Sight Range</th>
-<th>Perception Bonus</th>
-</tr></thead><tbody>
+| Spell | Sight Range | Perception Bonus |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td><i>arcane eye</i></td>
 <td>Line of sight (unlimited range)</td>
@@ -790,10 +767,10 @@ The following sample traps represent just some of the possibilities when constru
 
 Designing new traps is a simple process. Start by deciding what type of trap you want to create.
 
-<caption>Table: CR Modifiers for Mechanical Traps</caption><thead><tr>
-<th>Feature</th>
-<th>CR Modifier</th>
-</tr></thead>| Perception DC |
+[Table: CR Modifiers for Mechanical Traps]
+| Feature | CR Modifier |
+| --- | --- |
+| Perception DC |
 | 15 or lower | –1 |
 | 16–20 | — |
 | 21–25 | +1 |
@@ -850,16 +827,16 @@ Designing new traps is a simple process. Start by deciding what type of trap you
 | Ungol dust | +3 |
 | Wyvern poison | +5 |
 
-<caption>Table: CR Modifiers for Magic Traps</caption><thead><tr>
-<th>Feature</th>
-<th>CR Modifier</th>
-</tr></thead>| Highest-level spell effect | + Spell level |
+[Table: CR Modifiers for Magic Traps]
+| Feature | CR Modifier |
+| --- | --- |
+| Highest-level spell effect | + Spell level |
 | Damaging spell effect | +1 per 10 points of average damage |
 
-<caption>Table: Cost Modifiers for Magic Device Traps</caption><thead><tr>
-<th>Feature</th>
-<th>Cost Modifier</th>
-</tr></thead>| _Alarm_ spell used in trigger | — |
+[Table: Cost Modifiers for Magic Device Traps]
+| Feature | Cost Modifier |
+| --- | --- |
+| _Alarm_ spell used in trigger | — |
 | One-Shot Trap |
 | Each spell used | +50 gp × caster level × spell level |
 | Material components | +Material component costs |
@@ -867,10 +844,10 @@ Designing new traps is a simple process. Start by deciding what type of trap you
 | Each spell used | +500 gp × caster level × spell level |
 | Material components | +Material component costs × 100 |
 
-<caption>Table: Craft (Traps) DCs</caption><thead><tr>
-<th>Trap CR</th>
-<th>Base Craft (Traps) DC</th>
-</tr></thead>| 1–5 | 20 |
+[Table: Craft (Traps) DCs]
+| Trap CR | Base Craft (Traps) DC |
+| --- | --- |
+| 1–5 | 20 |
 | 6–10 | 25 |
 | 11–15 | 30 |
 | 16+ | 35 |
@@ -941,10 +918,9 @@ There are many ways to get lost in the wilderness. Following an obvious road, tr
 
 **Chance to Get Lost** : If conditions exist that make getting lost a possibility, the character leading the way must succeed on a Survival check or become lost. The difficulty of this check varies based on the terrain, the visibility conditions, and whether or not the character has a map of the area being traveled through. Refer to the table below and use the highest DC that applies.
 
-<thead><tr>
-<th>Terrain</th>
-<th>Survival DC</th>
-</tr></thead>| Desert or plains | 14 |
+| Terrain | Survival DC |
+| --- | --- |
+| Desert or plains | 14 |
 | Forest | 16 |
 | Moor or hill | 10 |
 | Mountain | 12 |
@@ -977,17 +953,11 @@ Forest terrain can be divided into three categories: sparse, medium, and dense. 
 
 The table below describes in general terms how likely it is that a given square has a terrain element in it.
 
-<thead>
-<tr>
-<th rowspan="2"></th>
-<th colspan="3">Category of Forest </th>
-</tr>
-<tr>
-<th>Sparse</th>
-<th>Medium</th>
-<th>Dense</th>
-</tr>
-</thead>| Typical trees | 50% | 70% | 80% |
+| | Category of Forest |
+| --- | --- |
+| Sparse | Medium | Dense |
+| --- | --- | --- |
+| Typical trees | 50% | 70% | 80% |
 | Massive trees | — | 10% | 20% |
 | Light undergrowth | 50% | 70% | 50% |
 | Heavy undergrowth | — | 20% | 50% |
@@ -1028,16 +998,11 @@ Within the bounds of a forest fire, a character faces three dangers: heat damage
 
 Two categories of marsh exist: relatively dry moors and watery swamps. Both are often bordered by lakes (described in Aquatic Terrain), which are effectively a third category of terrain found in marshes.
 
-<thead>
-<tr>
-<th rowspan="2"></th>
-<th colspan="2">Marsh Category</th>
-</tr>
-<tr>
-<th>Moor</th>
-<th>Swamp</th>
-</tr>
-</thead>| Shallow bog | 20% | 40% |
+| | Marsh Category |
+| --- | --- |
+| Moor | Swamp |
+| --- | --- |
+| Shallow bog | 20% | 40% |
 | Deep bog | 5% | 20% |
 | Light undergrowth | 30% | 20% |
 | Heavy undergrowth | 10% | 20% |
@@ -1074,16 +1039,11 @@ Undergrowth and deep bogs provide plentiful concealment, so it's easy to use Ste
 
 A hill can exist in most other types of terrain, but hills can also dominate the landscape. Hills terrain is divided into two categories: gentle hills and rugged hills. Hills terrain often serves as a transition zone between rugged terrain such as mountains and flat terrain such as plains.
 
-<thead>
-<tr>
-<th rowspan="2"></th>
-<th colspan="2">Hills Category</th>
-</tr>
-<tr>
-<th>Gentle Hills</th>
-<th>Rugged Hills</th>
-</tr>
-</thead>| Gradual slope | 75% | 40% |
+| | Hills Category |
+| --- | --- |
+| Gentle Hills | Rugged Hills |
+| --- | --- |
+| Gradual slope | 75% | 40% |
 | Steep slope | 20% | 50% |
 | Cliff | 5% | 10% |
 | Light undergrowth | 15% | 15% |
@@ -1108,17 +1068,11 @@ The three mountain terrain categories are alpine meadows, rugged mountains, and 
 
 Mountains have an important terrain element, the rock wall, that is marked on the border between squares rather than taking up squares itself.
 
-<thead>
-<tr>
-<th rowspan="2"></th>
-<th colspan="3">Mountain Category</th>
-</tr>
-<tr>
-<th>Alpine Meadow</th>
-<th>Rugged</th>
-<th>Forbidding</th>
-</tr>
-</thead>| Gradual slope | 50% | 25% | 15% |
+| | Mountain Category |
+| --- | --- |
+| Alpine Meadow | Rugged | Forbidding |
+| --- | --- | --- |
+| Gradual slope | 50% | 25% | 15% |
 | Steep slope | 40% | 55% | 55% |
 | Cliff | 10% | 15% | 20% |
 | Chasm | — | 5% | 10% |
@@ -1184,17 +1138,11 @@ Tundra differs from the other desert categories in two important ways. Because s
 
 The table below describes terrain elements found in each of the three desert categories. The terrain elements on this table are mutually exclusive; for instance, a square of tundra might contain either light undergrowth or an ice sheet, but not both.
 
-<thead>
-<tr>
-<th rowspan="2"></th>
-<th colspan="3">Desert Category</th>
-</tr>
-<tr>
-<th>Tundra</th>
-<th>Rocky</th>
-<th>Sandy</th>
-</tr>
-</thead>| Light undergrowth | 15% | 5% | 5% |
+| | Desert Category |
+| --- | --- |
+| Tundra | Rocky | Sandy |
+| --- | --- | --- |
+| Light undergrowth | 15% | 5% | 5% |
 | Ice sheet | 25% | — | — |
 | Light rubble | 5% | 30% | 10% |
 | Dense rubble | — | 30% | 5% |
@@ -1226,17 +1174,11 @@ The table below shows the proportions of terrain elements in the different categ
 
 The terrain elements in the table below are mutually exclusive.
 
-<thead>
-<tr>
-<th rowspan="2"></th>
-<th colspan="3">Plains Category</th>
-</tr>
-<tr>
-<th>Farm</th>
-<th>Grassland</th>
-<th>Battlefield</th>
-</tr>
-</thead>| Light undergrowth | 40% | 20% | 10% |
+| | Plains Category |
+| --- | --- |
+| Farm | Grassland | Battlefield |
+| --- | --- | --- |
+| Light undergrowth | 40% | 20% | 10% |
 | Heavy undergrowth | — | 10% | — |
 | Light rubble | — | — | 10% |
 | Trench | 5% | — | 5% |
@@ -1276,29 +1218,16 @@ _Invisibility_: An [invisible](glossary.html#_invisible) creature displaces wate
 
 Land-based creatures can have considerable difficulty when fighting in water. Water affects a creature's attack rolls, damage, and movement. In some cases a creature's opponents might get a bonus on attacks. The effects are summarized on Table: Combat Adjustments Underwater. They apply whenever a character is swimming, walking in chest-deep water, or walking along the bottom of a body of water.
 
-<caption>Table: Combat Adjustments Underwater</caption><thead>
-<tr>
-<th rowspan="2">Condition</th>
-<th colspan="2">Attack/Damage</th>
-<th rowspan="2">Movement</th>
-<th rowspan="2">Off Balance?<sup>1</sup>
-</th>
-</tr>
-<tr>
-<th>Slashing or Bludgeoning</th>
-<th>Piercing</th>
-</tr>
-</thead>| _Freedom of movement_ | normal/normal | normal/normal | normal | No |
+[Table: Combat Adjustments Underwater]
+| Condition | Attack/Damage | Movement | Off Balance?ⁱ |
+| --- | --- | --- | --- |
+| Slashing or Bludgeoning | Piercing |
+| --- | --- |
+| _Freedom of movement_ | normal/normal | normal/normal | normal | No |
 | Has a swim speed | –2/half | normal | normal | No |
-| Successful Swim check | –2/half<sup>2 </sup> | normal | quarter or half<sup>3 </sup> | No |
-| Firm footing<sup>4 </sup> | –2/half<sup>2</sup> | normal | half | No |
-| None of the above | –2/half<sup>2</sup> | –2/half | normal | Yes |
-<tfoot>
-<tr><td colspan="5">1 Creatures flailing about in the water (usually because they failed their Swim checks) have a hard time fighting effectively. An off-balance creature loses its Dexterity bonus to Armor Class, and opponents gain a +2 bonus on attacks against it. </td></tr>
-<tr><td colspan="5">2 A creature without <i>freedom of movement </i>effects or a swim speed makes grapple checks underwater at a –2 penalty, but deals damage normally when grappling.</td></tr>
-<tr><td colspan="5">3 A successful Swim check lets a creature move one-quarter its speed as a move action or one-half its speed as a full-round action.</td></tr>
-<tr><td colspan="5">4 Creatures have firm footing when walking along the bottom, braced against a ship's hull, or the like. A creature can only walk along the bottom if it wears or carries enough gear to weigh itself down: at least 16 pounds for Medium creatures, twice that for each size category larger than Medium, and half that for each size category smaller than Medium. </td></tr>
-</tfoot>
+| Successful Swim check | –2/half⁲ | normal | quarter or half⁳ | No |
+| Firm footing⁴ | –2/half⁲ | normal | half | No |
+| None of the above | –2/half⁲ | –2/half | normal | Yes |
 
 **Ranged Attacks Underwater** : Thrown weapons are ineffective underwater, even when launched from land. Attacks with other ranged weapons take a –2 penalty on attack rolls for every 5 feet of water they pass through, in addition to the normal penalties for range.
 
@@ -1368,24 +1297,19 @@ The majority of a city guard force is made up of warriors, mostly 1st level. Off
 
 Siege engines are large weapons, temporary structures, or pieces of equipment traditionally used in besieging castles or fortresses.
 
-<caption>Table: Siege Engines</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Damage</th>
-<th>Critical Range</th>
-<th>Increment</th>
-<th>Typical Crew</th>
-</tr></thead>| Catapult, heavy | 800 gp | 6d6 | — | 200 ft. (100 ft. minimum) | 4 |
+[Table: Siege Engines]
+| Item | Cost | Damage | Critical Range | Increment | Typical Crew |
+| --- | --- | --- | --- | --- | --- |
+| Catapult, heavy | 800 gp | 6d6 | — | 200 ft. (100 ft. minimum) | 4 |
 | Catapult, light | 550 gp | 4d6 | — | 150 ft. (100 ft. minimum) | 2 |
 | Ballista | 500 gp | 3d8 | 19–20 | 120 ft. | 1 |
 | Ram | 1,000 gp | 3d6\* | — | — | 10 |
 | Siege tower | 2,000 gp | — | — | — | 20 |
-<tfoot><tr><td colspan="6">* See description for special rules.</td></tr></tfoot>
 
-<caption>Catapult Attack Modifiers</caption><thead><tr>
-<th>Condition</th>
-<th>Modifier</th>
-</tr></thead>| No line of sight to target square | –6 |
+[Catapult Attack Modifiers]
+| Condition | Modifier |
+| --- | --- |
+| No line of sight to target square | –6 |
 | Successive shots (crew can see where most recent misses landed) | Cumulative +2 per previous miss (maximum +10) |
 | Successive shots (crew can't see where most recent misses landed, but observer is providing feedback) | Cumulative +1 per previous miss (maximum +5) |
 
@@ -1455,24 +1379,16 @@ Alleys can be dark places even in daylight, thanks to the shadows of the tall bu
 
 Weather can play an important role in an adventure.
 
-<caption>Table: Random Weather</caption><thead><tr>
-<th>d%</th>
-<th>Weather</th>
-<th>Cold Climate</th>
-<th>Temperate Climate<sup>1</sup>
-</th>
-<th>Desert</th>
-</tr></thead>| 01–70 | Normal weather | Cold, calm | Normal for season<sup>2</sup> | Hot, calm |
+[Table: Random Weather]
+| d% | Weather | Cold Climate | Temperate Climateⁱ | Desert |
+| --- | --- | --- | --- | --- |
+| 01–70 | Normal weather | Cold, calm | Normal for season⁲ | Hot, calm |
 | 71–80 | Abnormal weather | Heat wave (01–30) or  
 cold snap (31–100) | Heat wave (01–50) or  
 cold snap (51–100) | Hot, windy |
 | 81–90 | Inclement weather | Precipitation (snow) | Precipitation (normal for season) | Hot, windy |
 | 91–99 | Storm | Snowstorm | Thunderstorm, snowstorm | Duststorm |
 | 100 | Powerful storm | Blizzard | Windstorm, blizzard, hurricane, tornado | Downpour |
-<tfoot>
-<tr><td colspan="5">1 Temperate includes forests, hills, marshes, mountains, plains, and warm aquatic environments.</td></tr>
-<tr><td colspan="5">2 Winter is cold, summer is warm, spring and autumn are temperate. Marsh regions are slightly warmer in winter.</td></tr>
-</tfoot>
 
 Table: Random Weather can be used as a simple local weather table. Terms on that table are defined as follows.
 
@@ -1544,17 +1460,10 @@ Whether in the form of a low-lying cloud or a mist rising from the ground, fog o
 
 The wind can create a stinging spray of sand or dust, fan a large fire, keel over a small boat, and blow gases or vapors away. If powerful enough, it can even knock characters down (see Table: Wind Effects), interfere with ranged attacks, or impose penalties on some skill checks.
 
-<caption>Table: Wind Effects</caption><thead><tr>
-<th>Wind Force</th>
-<th>Wind Speed</th>
-<th>Ranged Attacks Normal/Siege Weapons<sup>1</sup>
-</th>
-<th>Checked Size<sup>2</sup>
-</th>
-<th>Blown Away Size<sup3></sup3>
-</th>
-<th>Fly Penalty</th>
-</tr></thead><tbody>
+[Table: Wind Effects]
+| Wind Force | Wind Speed | Ranged Attacks Normal/Siege Weaponsⁱ | Checked Size⁲ | Blown Away Size<sup3></sup3> | Fly Penalty |
+| --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Light</td>
 <td>0–10 mph</td>
@@ -1611,13 +1520,7 @@ The wind can create a stinging spray of sand or dust, fan a large fire, keel ove
 <td>Large</td>
 <td>–16</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="6">1 The siege weapon category includes ballista and catapult attacks as well as boulders tossed by giants.</td></tr>
-<tr><td colspan="6">
-<i>2 Checked Size</i>: Creatures of this size or smaller are unable to move forward against the force of the wind unless they succeed on a DC 10 Strength check (if on the ground) or a DC 20 Fly skill check if airborne.</td></tr>
-<tr><td colspan="6">
-<i>3 Blown Away Size</i>: Creatures on the ground are knocked prone and rolled 1d4 × 10 feet, taking 1d4 points of nonlethal damage per 10 feet, unless they make a DC 15 Strength check. Flying creatures are blown back 2d6 × 10 feet and take 2d6 points of nonlethal damage due to battering and buffeting, unless they succeed on a DC 25 Fly skill check.</td></tr>
-</tfoot>
+</tbody>
 
 _Light Wind_: A gentle breeze, having little or no game effect.
 
@@ -1743,10 +1646,10 @@ Characters who deliberately dive into water take no damage on a successful DC 15
 
 ## Falling Objects
 
-<caption>Table: Damage from Falling Objects</caption><thead><tr>
-<th>Object Size</th>
-<th>Damage</th>
-</tr></thead><tbody>
+[Table: Damage from Falling Objects]
+| Object Size | Damage |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Small</td>
 <td>2d6</td>

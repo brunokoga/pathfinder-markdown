@@ -140,18 +140,15 @@ Fetters can also be fitted with barbs, but the wearer can avoid damage by not ta
 
 **Unstable Accelerant** : A volatile mix of incendiary reagents, unstable accelerant can be thrown just like alchemist's fire. In the hands of an alchemist, a flask of unstable accelerant can be used as part of creating a bomb, increasing its fire damage by +1d6 points. It has no effect on bombs that do not deal fire damage. If the bomb lasts for more than an instant, the extra damage only applies to the first round's damage.
 
-<caption>Hobgoblin Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Brewed reek | 40 gp | 1 lb. | DC 25 |
+[Hobgoblin Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Brewed reek | 40 gp | 1 lb. | DC 25 |
 | Fetters | 15 gp | 2 lbs. | — |
 | Fetters, masterwork | 50 gp | 2 lbs. | — |
 | Hobgoblin war draught | 10 gp | 1 lb. | DC 20\* |
 | Manacle barbs | +15 gp | 1 lb. | — |
 | Unstable accelerant | 50 gp | 1/2 lb. | DC 25 |
-<tfoot><tr><td colspan="5">* Craft DC 15 for hobgoblins</td></tr></tfoot>
 
 ## Hobgoblin Feats
 

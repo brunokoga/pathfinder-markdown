@@ -6,10 +6,10 @@ When designing a combat encounter, you first decide what level of challenge you 
 
 Step 1—Determine APL: Determine the average level of your player characters—this is their Average Party Level (APL for short). You should round this value to the nearest whole number (this is one of the few exceptions to the round down rule). Note that these encounter creation guidelines assume a group of four or five PCs. If your group contains six or more players, add one to their average level. If your group contains three or fewer players, subtract one from their average level. For example, if your group consists of six players, two of which are 4th level and four of which are 5th level, their APL is 6th (28 total levels, divided by six players, rounding up, and adding one to the final result).
 
-<caption>Table: Encounter Design</caption><thead><tr>
-<th>Difficulty</th>
-<th>Challenge Rating Equals…</th>
-</tr></thead><tbody>
+[Table: Encounter Design]
+| Difficulty | Challenge Rating Equals… |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Easy</td>
 <td>APL –1</td>
@@ -32,10 +32,10 @@ Step 1—Determine APL: Determine the average level of your player characters—
 </tr>
 </tbody>
 
-<caption>Table: CR Equivalencies</caption><thead><tr>
-<th>Number of Creatures</th>
-<th>Equal to…</th>
-</tr></thead><tbody>
+[Table: CR Equivalencies]
+| Number of Creatures | Equal to… |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>1 Creature</td>
 <td>CR</td>
@@ -70,18 +70,12 @@ Step 1—Determine APL: Determine the average level of your player characters—
 </tr>
 </tbody>
 
-<caption>Table: Experience Point Awards</caption><thead>
-<tr>
-<th rowspan="2">CR</th>
-<th rowspan="2">Total XP</th>
-<th colspan="3">Individual XP</th>
-</tr>
-<tr>
-<th>1-3</th>
-<th>4-5</th>
-<th>6+</th>
-</tr>
-</thead><tbody>
+[Table: Experience Point Awards]
+| CR | Total XP | Individual XP |
+| --- | --- | --- |
+| 1-3 | 4-5 | 6+ |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1/8</td>
 <td>50</td>
@@ -326,10 +320,10 @@ Story Awards: Feel free to award Story Awards when players conclude a major stor
 
 ## Placing Treasure
 
-<caption>Table: Character Wealth by Level</caption><thead><tr>
-<th>PC Level*</th>
-<th>Wealth</th>
-</tr></thead><tbody>
+[Table: Character Wealth by Level]
+| PC Level\* | Wealth |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>2</td>
 <td>1,000 gp</td>
@@ -406,9 +400,7 @@ Story Awards: Feel free to award Story Awards when players conclude a major stor
 <td>20</td>
 <td>880,000 gp</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="2">* For 1st-level PCs, see table 6–1 in <a href="equipment.html">Equipment</a>.</td></tr>
-</tfoot>
+</tbody>
 
 As PCs gain levels, the amount of treasure they carry and use increases as well. The Pathfinder Roleplaying Game assumes that all PCs of equivalent level have roughly equal amounts of treasure and magic items. Since the primary income for a PC derives from treasure and loot gained from adventuring, it's important to moderate the wealth and hoards you place in your adventures. To aid in placing treasure, the amount of treasure and magic items the PCs receive for their adventures is tied to the Challenge Rating of the encounters they face—the higher an encounter's CR, the more treasure it can award.
 
@@ -420,17 +412,12 @@ Table: Treasure Values per Encounter lists the amount of treasure each encounter
 
 Encounters against NPCs typically award three times the treasure a monster-based encounter awards, due to NPC gear. To compensate, make sure the PCs face off against a pair of additional encounters that award little in the way of treasure. Animals, plants, constructs, mindless undead, oozes, and traps are great âlow treasureâ encounters. Alternatively, if the PCs face a number of creatures with little or no treasure, they should have the opportunity to acquire a number of significantly more valuable objects sometime in the near future to make up for the imbalance. As a general rule, PCs should not own any magic item worth more than half their total character wealth, so make sure to check before awarding expensive magic items.
 
-<caption>Table: Treasure Values per Encounter</caption><thead>
-<tr>
-<th rowspan="2">Average Party Level</th>
-<th colspan="3">Treasure per Encounter</th>
-</tr>
-<tr>
-<th>Slow</th>
-<th>Medium</th>
-<th>Fast</th>
-</tr>
-</thead><tbody>
+[Table: Treasure Values per Encounter]
+| Average Party Level | Treasure per Encounter |
+| --- | --- |
+| Slow | Medium | Fast |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1</td>
 <td>170 gp</td>
@@ -591,10 +578,9 @@ Treasure Maps and Other Intelligence (variable): Items like treasure maps, deeds
 
 Magic Items: Of course, the discovery of a magic item is the true prize for any adventurer. You should take care with the placement of magic items in a hoard—it's generally more satisfying for many players to find a magic item rather than purchase it, so there's no crime in placing items that happen to be those your players can use! An extensive list of magic items (and their costs) is given in [Magic Items](magicItems.html).
 
-<thead><tr>
-<th>Magic Item Category</th>
-<th>Average Value</th>
-</tr></thead>| Minor Item | 1,000 gp |
+| Magic Item Category | Average Value |
+| --- | --- |
+| Minor Item | 1,000 gp |
 | Medium Item | 10,000 gp |
 | Major Item | 40,000 gp |
 

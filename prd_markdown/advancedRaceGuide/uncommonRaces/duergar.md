@@ -96,14 +96,8 @@ You remain briefly translucent after losing _ [invisibility](/pathfinderRPG/prd/
 
 **Benefit** : When your _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_ ends, you gain concealment for 1 round per minute of duration the invisibility effect had remaining (minimum 1 round). This only occurs if the invisibility is from your racial spell-like ability or a spell you cast. Effects that negate invisibility negate this concealment.
 
-<caption>Duergar Poison</caption><thead><tr>
-<th>Name</th>
-<th>Type</th>
-<th>Fort DC</th>
-<th>Onset</th>
-<th>Frequency</th>
-<th>Effect</th>
-<th>Cure</th>
-<th>Cost</th>
-</tr></thead>| Spellscorch | injury | 14 | — | 1/rd. for 4 rds. | see text | 1 save | 200 gp |
+[Duergar Poison]
+| Name | Type | Fort DC | Onset | Frequency | Effect | Cure | Cost |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Spellscorch | injury | 14 | — | 1/rd. for 4 rds. | see text | 1 save | 200 gp |
 

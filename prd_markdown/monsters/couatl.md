@@ -52,7 +52,7 @@ At will—_ [detect thoughts](../spells/detectThoughts.html#_detect-thoughts)_ (
 
 **Base Atk** +12; **CMB** +18 (+22 grapple); **CMD** 32 (can't be tripped)
 
-**Feats** [Alertness](../feats.html#_alertness), [Dodge](../feats.html#_dodge), [Empower Spell](../feats.html#_empower-spell), [Eschew Materials](../feats.html#_eschew-materials)<sup>B</sup>, [Improved Initiative](../feats.html#_improved-initiative), [Iron Will](../feats.html#_iron-will), [Lightning Reflexes](../feats.html#_lightning-reflexes)
+**Feats** [Alertness](../feats.html#_alertness), [Dodge](../feats.html#_dodge), [Empower Spell](../feats.html#_empower-spell), [Eschew Materials](../feats.html#_eschew-materials)B, [Improved Initiative](../feats.html#_improved-initiative), [Iron Will](../feats.html#_iron-will), [Lightning Reflexes](../feats.html#_lightning-reflexes)
 
 **Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +18, [Bluff](../skills/bluff.html#_bluff) +9, [Diplomacy](../skills/diplomacy.html#_diplomacy) +18, [Fly](../skills/fly.html#_fly) +20, [Knowledge](../skills/knowledge.html#_knowledge) (arcana) +9, [Knowledge](../skills/knowledge.html#_knowledge) (religion) +12, [Perception](../skills/perception.html#_perception) +23, [Sense Motive](../skills/senseMotive.html#_sense-motive) +15, [Spellcraft](../skills/spellcraft.html#_spellcraft) +15, [Survival](../skills/survival.html#_survival) +16, [Use Magic Device](../skills/useMagicDevice.html#_use-magic-device) +18
 

@@ -34,7 +34,7 @@ Statistics
 
 **Base Atk** +5; **CMB** +9 (+13 grappling, or +17 grappling on a charge); **CMD** 21 (29 vs. trip)
 
-**Feats** [Flyby Attack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_flyby-attack)<sup>B</sup>
+**Feats** [Flyby Attack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_flyby-attack)B
 
 **Skills** [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +10
 

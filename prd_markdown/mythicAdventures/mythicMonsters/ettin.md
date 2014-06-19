@@ -40,7 +40,7 @@ Statistics
 
 **Base Atk** +7; **CMB** +15 (+17 overrun); **CMD** 24
 
-**Feats** [Cleave](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_cleave-mythic)<sup>M</sup>, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Improved Overrun](/pathfinderRPG/prd/feats.html#_improved-overrun), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)<sup>M</sup>
+**Feats** [Cleave](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_cleave-mythic)M, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Improved Overrun](/pathfinderRPG/prd/feats.html#_improved-overrun), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)M
 
 **Skills** [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +8, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
 

@@ -20,18 +20,17 @@ A character can work on only one item at a time. If a character starts work on a
 
 Many factors must be considered when determining the price of new magic items. The easiest way to come up with a price is to compare the new item to an item that is already priced, using that price as a guide. Otherwise, use the guidelines summarized on Table: Estimating Magic Item Gold Piece Values.
 
-<caption>Table: Estimating Magic Item Gold Piece Values</caption><thead><tr>
-<th>Effect</th>
-<th>Base Price</th>
-<th>Example</th>
-</tr></thead>| Ability bonus (enhancement) | Bonus squared × 1,000 gp | _ [Belt of incredible dexterity](wondrousItems.html#_belt-of-incredible-dexterity) +2_ |
+[Table: Estimating Magic Item Gold Piece Values]
+| Effect | Base Price | Example |
+| --- | --- | --- |
+| Ability bonus (enhancement) | Bonus squared × 1,000 gp | _ [Belt of incredible dexterity](wondrousItems.html#_belt-of-incredible-dexterity) +2_ |
 | Armor bonus (enhancement) | Bonus squared × 1,000 gp | _+1 chainmail_ |
 | Bonus spell | Spell level squared × 1,000 gp | _ [Pearl of power](wondrousItems.html#_pearl-of-power)_ |
 | AC bonus (deflection) | Bonus squared × 2,000 gp | _ [Ring of protection](rings.html#_ring-of-protection) +3_ |
-| AC bonus (other)<sup>1</sup> | Bonus squared × 2,500 gp | _ [Ioun stone](wondrousItems.html#_ioun-stones) (dusty rose prism)_ |
+| AC bonus (other)ⁱ | Bonus squared × 2,500 gp | _ [Ioun stone](wondrousItems.html#_ioun-stones) (dusty rose prism)_ |
 | Natural armor bonus (enhancement) | Bonus squared × 2,000 gp | _ [Amulet of natural armor](wondrousItems.html#_amulet-of-natural-armor) +1_ |
 | Save bonus (resistance) | Bonus squared × 1,000 gp | _ [Cloak of resistance](wondrousItems.html#_cloak-of-resistance) +5_ |
-| Save bonus (other)<sup>1 </sup> | Bonus squared × 2,000 gp | _ [Stone of good luck](wondrousItems.html#_stone-of-good-luck)_ |
+| Save bonus (other)ⁱ | Bonus squared × 2,000 gp | _ [Stone of good luck](wondrousItems.html#_stone-of-good-luck)_ |
 | Skill bonus (competence) | Bonus squared × 100 gp | _ [Cloak of elvenkind](wondrousItems.html#_cloak-of-elvenkind)_ |
 | Spell resistance | 10,000 gp per point over SR 12; SR 13 minimum | _ [Mantle of spell resistance](wondrousItems.html#_mantle-of-spell-resistance)_ |
 | Weapon bonus (enhancement) | Bonus squared × 2,000 gp | _+1 longsword_ |
@@ -41,24 +40,17 @@ Many factors must be considered when determining the price of new magic items. T
 | Single use, use-activated | Spell level × caster level × 50 gp | _Potion of cure light wounds_ |
 | 50 charges, spell trigger | Spell level × caster level × 750 gp | _Wand of fireball_ |
 | Command word | Spell level × caster level × 1,800 gp | _ [Cape of the mountebank](wondrousItems.html#_cape-of-the-mountebank)_ |
-| Use-activated or continuous | Spell level × caster level × 2,000 gp<sup>2</sup> | _ [Lantern of revealing](wondrousItems.html#_lantern-of-revealing)_ |
+| Use-activated or continuous | Spell level × caster level × 2,000 gp⁲ | _ [Lantern of revealing](wondrousItems.html#_lantern-of-revealing)_ |
 | Special | Base Price | Adjustment Example |
 | --- | --- | --- |
 | Charges per day | Divide by (5 divided by charges per day) | _ [Boots of teleportation](wondrousItems.html#_boots-of-teleportation)_ |
-| No space limitation<sup>3</sup> | Multiply entire cost by 2 | _ [Ioun stone](wondrousItems.html#_ioun-stones)_ |
+| No space limitation⁳ | Multiply entire cost by 2 | _ [Ioun stone](wondrousItems.html#_ioun-stones)_ |
 | Multiple different abilities | Multiply lower item cost by 1.5 | _ [Helm of brilliance](wondrousItems.html#_helm-of-brilliance)_ |
 | Charged (50 charges) | 1/2 unlimited use base price | _ [Ring of the ram](rings.html#_ring-of-the-ram)_ |
 | Component | Extra Cost | Example |
 | --- | --- | --- |
 | Armor, shield, or weapon | Add cost of masterwork item | _+1 composite longbow_ |
-| Spell has material component cost | Add directly into price of item per charge<sup>4</sup> | _Wand of stoneskin_ |
-<tfoot>
-<tr><td colspan="3">Spell Level: A 0-level spell is half the value of a 1st-level spell for determining price.</td></tr>
-<tr><td colspan="3">1 Such as a luck, insight, sacred, or profane bonus.</td></tr>
-<tr><td colspan="3">2 If a continuous item has an effect based on a spell with a duration measured in rounds, multiply the cost by 4. If the duration of the spell is 1 minute/level, multiply the cost by 2, and if the duration is 10 minutes/level, multiply the cost by 1.5. If the spell has a 24-hour duration or greater, divide the cost in half.</td></tr>
-<tr><td colspan="3">3 An item that does not take up one of the spaces on a body costs double.</td></tr>
-<tr><td colspan="3">4 If item is continuous or unlimited, not charged, determine cost as if it had 100 charges. If it has some daily limit, determine as if it had 50 charges.</td></tr>
-</tfoot>
+| Spell has material component cost | Add directly into price of item per charge⁴ | _Wand of stoneskin_ |
 
 **Multiple Similar Abilities** : For items with multiple similar abilities that don't take up space on a character's body, use the following formula: Calculate the price of the single most costly ability, then add 75% of the value of the next most costly ability, plus 1/2 the value of any other abilities.
 
@@ -116,20 +108,13 @@ Crafting a magic weapon requires 1 day for each 1,000 gp value of the base price
 
 ## Creating Potions
 
-<caption>Potion Base Costs (By Brewer's Class)</caption><thead><tr>
-<th>Spell Level</th>
-<th>Cleric, Druid, Wizard</th>
-<th>Sorcerer</th>
-<th>Bard</th>
-<th>Paladin, Ranger*</th>
-</tr></thead>| 0 | 25 gp | 25 gp | 25 gp | — |
+[Potion Base Costs (By Brewer's Class)]
+| Spell Level | Cleric, Druid, Wizard | Sorcerer | Bard | Paladin, Ranger\* |
+| --- | --- | --- | --- | --- |
+| 0 | 25 gp | 25 gp | 25 gp | — |
 | 1st | 50 gp | 50 gp | 50 gp | 50 gp |
 | 2nd | 300 gp | 400 gp | 400 gp | 400 gp |
 | 3rd | 750 gp | 900 gp | 1,050 gp | 1,050 gp |
-<tfoot>
-<tr><td colspan="5">* Caster level is equal to class level –3.</td></tr>
-<tr><td colspan="5">Prices assume that the potion was made at the minimum caster level. The cost to create a potion is half the base price.</td></tr>
-</tfoot>
 
 The creator of a potion needs a level working surface and at least a few containers in which to mix liquids, as well as a source of heat to boil the brew. In addition, he needs ingredients. The costs for materials and ingredients are subsumed in the cost for brewing the potion: 25 gp × the level of the spell × the level of the caster.
 
@@ -175,13 +160,10 @@ Crafting a rod requires 1 day for each 1,000 gp of the base price.
 
 ## Creating Scrolls
 
-<caption>Scroll Base Costs (By Scriber's Class)</caption><thead><tr>
-<th>Spell Level</th>
-<th>Cleric, Druid, Wizard</th>
-<th>Sorcerer</th>
-<th>Bard</th>
-<th>Paladin, Ranger*</th>
-</tr></thead>| 0 | 12 gp 5 sp | 12 gp 5 sp | 12 gp 5 sp | — |
+[Scroll Base Costs (By Scriber's Class)]
+| Spell Level | Cleric, Druid, Wizard | Sorcerer | Bard | Paladin, Ranger\* |
+| --- | --- | --- | --- | --- |
+| 0 | 12 gp 5 sp | 12 gp 5 sp | 12 gp 5 sp | — |
 | 1st | 25 gp | 25 gp | 25 gp | 25 gp |
 | 2nd | 150 gp | 200 gp | 200 gp | 200 gp |
 | 3rd | 375 gp | 450 gp | 525 gp | 525 gp |
@@ -191,10 +173,6 @@ Crafting a rod requires 1 day for each 1,000 gp of the base price.
 | 7th | 2,275 gp | 2,450 gp | — | — |
 | 8th | 3,000 gp | 3,200 gp | — | — |
 | 9th | 3,825 gp | 4,050 gp | — | — |
-<tfoot>
-<tr><td colspan="5">* Caster level is equal to class level –3.</td></tr>
-<tr><td colspan="5">Prices assume that the scroll was made at the minimum caster level. The cost to create a scroll is half the base price.</td></tr>
-</tfoot>
 
 To create a scroll, a character needs a supply of choice writing materials, the cost of which is subsumed in the cost for scribing the scroll: 12.5 gp × the level of the spell × the level of the caster.
 
@@ -228,21 +206,14 @@ Crafting a staff requires 1 day for each 1,000 gp of the base price.
 
 ## Creating Wands
 
-<caption>Wand Base Costs (By Crafter's Class)</caption><thead><tr>
-<th>Spell Level</th>
-<th>Cleric, Druid, Wizard</th>
-<th>Sorcerer</th>
-<th>Bard</th>
-<th>Paladin, Ranger*</th>
-</tr></thead>| 0 | 375 gp | 375 gp | 375 gp | — |
+[Wand Base Costs (By Crafter's Class)]
+| Spell Level | Cleric, Druid, Wizard | Sorcerer | Bard | Paladin, Ranger\* |
+| --- | --- | --- | --- | --- |
+| 0 | 375 gp | 375 gp | 375 gp | — |
 | 1st | 750 gp | 750 gp | 750 gp | 750 gp |
 | 2nd | 4,500 gp | 6,000 gp | 6,000 gp | 6,000 gp |
 | 3rd | 11,250 gp | 13,500 gp | 15,750 gp | 15,750 gp |
 | 4th | 21,000 gp | 24,000 gp | 30,000 gp | 30,000 gp |
-<tfoot>
-<tr><td colspan="5">* Caster level is equal to class level –3.</td></tr>
-<tr><td colspan="5">Prices assume that the wand was made at the minimum caster level. The cost to create a wand is half the base price.</td></tr>
-</tfoot>
 
 To create a magic wand, a character needs a small supply of materials, the most obvious being a baton or the pieces of the wand to be assembled. The cost for the materials is subsumed in the cost for creating the wand: 375 gp × the level of the spell × the level of the caster. Wands are always fully charged (50 charges) when created.
 

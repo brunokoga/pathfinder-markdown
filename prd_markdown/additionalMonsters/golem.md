@@ -410,7 +410,7 @@ Statistics
 
 **Base Atk** +24; **CMB** +37; **CMD** 55
 
-**Feats** [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge)<sup>B</sup>, [Mobility](/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility)<sup>B</sup>, [Run](/pathfinderRPG/prd/additionalMonsters/../feats.html#_run)<sup>B</sup>, [Spring Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_spring-attack)<sup>B</sup>
+**Feats** [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge)B, [Mobility](/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility)B, [Run](/pathfinderRPG/prd/additionalMonsters/../feats.html#_run)B, [Spring Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_spring-attack)B
 
 Ecology
 

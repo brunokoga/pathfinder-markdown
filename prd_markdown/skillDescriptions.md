@@ -2,22 +2,10 @@
 
 This section describes each skill, including common uses and typical modifiers. Characters can sometimes use skills for purposes other than those noted here, at the GM's discretion. For a complete summary of all of the skills, see Table: Skill Summary.
 
-<caption>Table: Skill Summary</caption><thead><tr>
-<th><b>Skill</b></th>
-<th>Bbn</th>
-<th>Brd</th>
-<th>Clr</th>
-<th>Drd</th>
-<th>Ftr</th>
-<th>Mnk</th>
-<th>Pal</th>
-<th>Rgr</th>
-<th>Rog</th>
-<th>Sor</th>
-<th>Wiz</th>
-<th>Untrained</th>
-<th>Ability</th>
-</tr></thead>| [Acrobatics](skills/acrobatics.html#_acrobatics) | C | C | — | — | — | C | — | — | C | — | — | Yes | [Dex](gettingStarted.html#_dexterity)\* |
+[Table: Skill Summary]
+| **Skill** | Bbn | Brd | Clr | Drd | Ftr | Mnk | Pal | Rgr | Rog | Sor | Wiz | Untrained | Ability |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Acrobatics](skills/acrobatics.html#_acrobatics) | C | C | — | — | — | C | — | — | C | — | — | Yes | [Dex](gettingStarted.html#_dexterity)\* |
 | [Appraise](skills/appraise.html#_appraise) | — | C | C | — | — | — | — | — | C | C | C | Yes | [Int](gettingStarted.html#_intelligence) |
 | [Bluff](skills/bluff.html#_bluff) | — | C | — | — | — | — | — | — | C | C | — | Yes | [Cha](gettingStarted.html#_charisma-new) |
 | [Climb](skills/climb.html#_climb) | C | C | — | C | C | C | — | C | C | — | — | Yes | [Str](gettingStarted.html#_strength)\* |
@@ -52,7 +40,6 @@ This section describes each skill, including common uses and typical modifiers. 
 | [Survival](skills/survival.html#_survival) | C | — | — | C | C | — | — | C | — | — | — | Yes | [Wis](gettingStarted.html#_wisdom) |
 | [Swim](skills/swim.html#_swim) | C | — | — | C | C | C | — | C | C | — | — | Yes | [Str](gettingStarted.html#_strength)\* |
 | [Use Magic Device](skills/useMagicDevice.html#_use-magic-device) | — | C | — | — | — | — | — | — | C | C | — | No | [Cha](gettingStarted.html#_charisma-new) |
-<tfoot><tr><td colspan="14">C = Class Skill; * Armor check penalty applies</td></tr></tfoot>
 
 Skill descriptions adhere to the following guidelines.
 

@@ -130,11 +130,10 @@ The number of holidays per year is the number you promise to uphold and the numb
 
 _Example_: Logan is the Ruler of a kingdom with some Loyalty issues. He issues a Holiday edict that there will be 24 kingdom-wide official holidays in the next year (Loyalty +4, Consumption +8). In the second turn, he worries about the increased Consumption's effect on the Treasury, so he issues a new Holiday edict decreeing that until further notice, there will be no kingdom-wide holidays. He loses the previous +4 Loyalty bonus and incurs a —1 Loyalty penalty for the new Holiday edict, but no longer has to pay the 8 Consumption each turn for his previous edict. If he frequently changes Holiday edicts from high to low levels, the GM may decide that his citizens no longer believe such promises and he won't gain any benefits from having a high level of Holiday edict until he becomes consistent.
 
-<caption>Holiday Edicts</caption><thead><tr>
-<th>Per Year</th>
-<th>Loyalty</th>
-<th>Consumption</th>
-</tr></thead>| >None | —1 | +0 |
+[Holiday Edicts]
+| Per Year | Loyalty | Consumption |
+| --- | --- | --- |
+| >None | —1 | +0 |
 | 1 | +1 | +1 |
 | 6 | +2 | +2 |
 | 12 | +3 | +4 |
@@ -144,33 +143,24 @@ _Example_: Logan is the Ruler of a kingdom with some Loyalty issues. He issues a
 
 Improvements are physical improvements you can make to your kingdom: founding new settlements, adding buildings to a settlement, building roads, creating facilities such as mines to tap natural resources, and claiming more hexes for your kingdom. Your kingdom's Size limits how many improvements you can make each turn; see the Improvement Edicts table below. You can make all of the improvements listed on the appropriate row of the table. For example, if your kingdom's Size is 5, on each turn you can create 1 new settlement, 1 new building, 2 terrain improvements, and claim 1 more hex.
 
-<caption>Improvement Edicts</caption><thead><tr>
-<th>Kingdom Size</th>
-<th>New Settlements<sup>1</sup>
-</th>
-<th>New Buildings<sup>2</sup>
-</th>
-<th>Terrain Improvements</th>
-<th>Hex Claims</th>
-</tr></thead>| 01—10 | 1 | 1 | 2 | 1 |
+[Improvement Edicts]
+| Kingdom Size | New Settlementsⁱ | New Buildings⁲ | Terrain Improvements | Hex Claims |
+| --- | --- | --- | --- | --- |
+| 01—10 | 1 | 1 | 2 | 1 |
 | 11—25 | 1 | 2 | 3 | 2 |
 | 26—50 | 1 | 5 | 5 | 3 |
 | 51—100 | 2 | 10 | 7 | 4 |
 | 101—200 | 3 | 20 | 9 | 8 |
 | 201+ | 4 | No limit | 12 | 12 |
-<tfoot><tr><td colspan="5">
-<sup>1</sup> Instead of creating a new settlement, your kingdom may create a new army unit (see <a href="#/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/massCombat.html">Mass Combat</a>), expand or equip an existing army unit, or bring an existing army unit back to full strength.<br>
-<sup>2</sup> Upgrading a building (for example, from a Shrine to a Temple) or destroying a building counts toward this limit. The first House, Mansion, Noble Villa, or Tenement your kingdom builds each turn does not count against this number.</td></tr></tfoot>
 
 ### Promotion Edicts
 
 Promotion edicts are events and actions the kingdom uses to attract new citizens and increase the well-being of the kingdom, such as recruitment campaigns, advertisements about services and goods, and propaganda to improve the perception of your kingdom at home and abroad. Promotions increase Consumption, but also increase Stability.
 
-<caption>Promotion Edicts</caption><thead><tr>
-<th>Promotion Level</th>
-<th>Stability</th>
-<th>Consumption</th>
-</tr></thead>| None | —1 | +0 |
+[Promotion Edicts]
+| Promotion Level | Stability | Consumption |
+| --- | --- | --- |
+| None | —1 | +0 |
 | Token | +1 | +1 |
 | Standard | +2 | +2 |
 | Aggressive | +3 | +4 |
@@ -180,11 +170,10 @@ Promotion edicts are events and actions the kingdom uses to attract new citizens
 
 Setting the tax level determines how much revenue you collect from taxes in the Income phase. Higher taxes increase your kingdom's Economy (making it easier for you to succeed at Economy checks to generate revenue) but make your citizens unhappy (reducing Loyalty).
 
-<caption>Taxation Edicts</caption><thead><tr>
-<th>Tax Level</th>
-<th>Economy</th>
-<th>Loyalty</th>
-</tr></thead>| None | +0 | +1 |
+[Taxation Edicts]
+| Tax Level | Economy | Loyalty |
+| --- | --- | --- |
+| None | +0 | +1 |
 | Light | +1 | —1 |
 | Normal | +2 | —2 |
 | Heavy | +3 | —4 |
@@ -370,11 +359,10 @@ The placement of buildings in your district is up to you—you can start in the 
 
 **Defense** : A settlement's Defense is used with the [mass combat rules](/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/massCombat.html). It otherwise has no effect unless the settlement is attacked. You can increase a settlement's Defense by building certain structures (such as City Walls).
 
-<caption>Settlement Size and Base Value</caption><thead><tr>
-<th>Population</th>
-<th>Settlement Size</th>
-<th>Base Value</th>
-</tr></thead>| Fewer than 21 | Thorp | 50 gp |
+[Settlement Size and Base Value]
+| Population | Settlement Size | Base Value |
+| --- | --- | --- |
+| Fewer than 21 | Thorp | 50 gp |
 | 21—60 | Hamlet | 200 gp |
 | 61—200 | Village | 500 gp |
 | 201—2,000 | Small town | 1,000 gp |
@@ -403,20 +391,11 @@ When you complete these steps, you've founded your settlement! If this is your f
 
 When you claim a hex that contains part of an ocean or lake, your claim includes the water portion of that hex. In effect, your kingdom automatically controls a small portion of the waters adjacent to its coastline. Because any new hex you claim must be adjacent to an existing hex in your kingdom, if you want to claim land beyond that water (such as an island), you must first explore and claim the intervening deep water hexes. Your exploration only applies to the water's surface—you are searching for uncharted islands, dangerous reefs, and so on. The GM may want to treat the underwater portion of a hex as a separate hex, much like a network of large caves under a hex may count as its own hex, allowing a village of merfolk or sahuagin to thrive in your kingdom without your knowledge.
 
-<caption>Terrain and Terrain Improvements</caption><thead><tr>
-<th>Terrain</th>
-<th>Exploration Time<sup>1</sup>
-</th>
-<th>Preparation Time<sup>2</sup>
-</th>
-<th>Preparation Cost<sup>3</sup>
-</th>
-<th>Farm Cost<sup>4</sup>
-</th>
-<th>Road Cost<sup>5,6</sup>
-</th>
-</tr></thead>| Cavern<sup>7</sup> | 3 days | 3 months | 8 BP | — | 4 BP |
-| Coastline<sup>8</sup> | Special | Special | Special | Special | Special |
+[Terrain and Terrain Improvements]
+| Terrain | Exploration Timeⁱ | Preparation Time⁲ | Preparation Cost⁳ | Farm Cost⁴ | Road Cost⁵,⁶ |
+| --- | --- | --- | --- | --- | --- |
+| Cavern⁷ | 3 days | 3 months | 8 BP | — | 4 BP |
+| Coastline⁸ | Special | Special | Special | Special | Special |
 | Desert | 2 days | 1 month | 4 BP | 8 BP | 4 BP |
 | Forest | 2 days | 2 months | 4 BP | — | 2 BP |
 | Hills | 1 day | 1 month | 2 BP | 4 BP | 3 BP |
@@ -425,15 +404,6 @@ When you claim a hex that contains part of an ocean or lake, your claim includes
 | Mountains | 3 days | 4 months | 12 BP | — | 4 BP |
 | Plains | 1 day | Immediate | 1 BP | 2 BP | 1 BP |
 | Water | 2 days | — | — | — | — |
-<tfoot><tr><td colspan="6">
-<sup>1</sup> Exploration time represents how many days a typical scouting party requires to explore a hex of this type. These times assume a party speed of 30 feet. For parties with different speeds, see <a href="/pathfinderRPG/prd/ultimateCampaign/campaignSystems/exploration.html#_table-exploration-time">Exploration Time (1 Hex)</a>. Treat Cavern as Mountain and Jungle as Marsh for exploration time. Do not adjust the speed for Water hexes; it's assumed that the party is already using a boat or other watercraft to explore.<br>
-<sup>2</sup> Preparation time represents the months of labor (beginning with the current turn) required to prepare the hex for settlement. Construction of buildings can begin in the current month for settlements built on plains.<br>
-<sup>3</sup> Preparation cost represents the BP cost to clear a hex of this type in preparation for founding a settlement.<br>
-<sup>4</sup> Farm cost represents the BP cost to cultivate a hex for farming. A Farm must be within or adjacent to a hex containing a river, lake, swamp, or Canal, or adjacent to at least 2 hexes that already contain Farms.<br>
-<sup>5</sup> Road cost represents the BP cost to establish a Road that crosses a hex and connects to all adjacent hexes. The cost to build a Road doubles if the hex contains rivers. A kingdom with a Size of 26 or greater can build a Highway (or upgrade a Road to a Highway).<br>
-<sup>6</sup> If the hex contains any rivers, double the listed cost to reflect the need to build bridges.<br>
-<sup>7</sup> This is a large system of caves and underground passages and can be found in any terrain type except Marsh. It functions as an additional hex that exists underground, below the surface hex.<br>
-<sup>8</sup> Treat this as the adjacent land terrain type for all purposes.</td></tr></tfoot>
 
 ## Magic Items in Settlements
 
@@ -1243,27 +1213,24 @@ Some events impact the whole kingdom, while others are centered on a specific se
 
 **Hiring Adventurers** : Once per Event phase, you can hire NPC adventurers to help deal with an event, gaining a bonus on one Economy, Loyalty, or Stability check made as part of that event. Adventurers of levels 1—2 grant a +2 bonus on the check and cost 4 BP; adventurers of levels 3—5 grant a +5 bonus on the check and cost 8 BP; adventurers of level 6+ (but never higher than your APL) grant a +10 bonus on the check and cost 16 BP.
 
-<caption>Event Type and Danger Level</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—02 | Natural blessing and roll again<sup>1</sup> |
-| 03—04 | Good weather and roll again<sup>1</sup> |
+[Event Type and Danger Level]
+| d% | Event |
+| --- | --- |
+| 01—02 | Natural blessing and roll againⁱ |
+| 03—04 | Good weather and roll againⁱ |
 | 05—25 | Beneficial kingdom event (Table 4—8) |
 | 26—50 | Dangerous kingdom event (Table 4—9) |
 | 51—75 | Beneficial settlement event (Table 4—10) |
 | 76—96 | Dangerous settlement event (Table 4—11) |
-| 97 | Bandit activity and roll again<sup>2</sup> |
-| 98 | Squatters and roll again<sup>2</sup> |
-| 99 | Monster attack and roll again<sup>2</sup> |
-| 100 | Vandals and roll again<sup>2</sup> |
-<tfoot><tr><td colspan="2">
-<sup>1</sup> If the reroll indicates the same event, ignore the duplicate event and do not reroll again.<br>
-<sup>2</sup> If the reroll indicates the same event, the second event occurs elsewhere in the kingdom.</td></tr></tfoot>
+| 97 | Bandit activity and roll again⁲ |
+| 98 | Squatters and roll again⁲ |
+| 99 | Monster attack and roll again⁲ |
+| 100 | Vandals and roll again⁲ |
 
-<caption>Beneficial Kingdom Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—07 | Archaeological find |
+[Beneficial Kingdom Events]
+| d% | Event |
+| --- | --- |
+| 01—07 | Archaeological find |
 | 08—12 | Diplomatic overture |
 | 13—20 | Discovery |
 | 21—31 | Economic boom |
@@ -1275,10 +1242,10 @@ Some events impact the whole kingdom, while others are centered on a specific se
 | 86—90 | New subjects |
 | 91—100 | Political calm |
 
-<caption>Dangerous Kingdom Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—05 | Assassination attempt |
+[Dangerous Kingdom Events]
+| d% | Event |
+| --- | --- |
+| 01—05 | Assassination attempt |
 | 06—18 | Bandit activity |
 | 19—28 | Feud |
 | 29—41 | Food shortage |
@@ -1290,10 +1257,10 @@ Some events impact the whole kingdom, while others are centered on a specific se
 | 85—92 | Public scandal |
 | 93—100 | Smugglers |
 
-<caption>Beneficial Settlement Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—14 | Boomtown |
+[Beneficial Settlement Events]
+| d% | Event |
+| --- | --- |
+| 01—14 | Boomtown |
 | 15—26 | Discovery |
 | 27—40 | Justice prevails |
 | 41—46 | Noblesse oblige |
@@ -1304,10 +1271,10 @@ Some events impact the whole kingdom, while others are centered on a specific se
 | 82—93 | Visiting celebrity |
 | 94—100 | Wealthy immigrant |
 
-<caption>Dangerous Settlement Events</caption><thead><tr>
-<th>d%</th>
-<th>Event</th>
-</tr></thead>| 01—10 | Building demand |
+[Dangerous Settlement Events]
+| d% | Event |
+| --- | --- |
+| 01—10 | Building demand |
 | 11—17 | Crop failure |
 | 18—25 | Cult activity |
 | 26—33 | Drug den |

@@ -52,12 +52,9 @@ The statistics above are for a web-spinning spider. Hunting spiders lose the web
 
 Other species of giant spiders exist, as detailed below.
 
-<thead><tr>
-<th>Species</th>
-<th>CR</th>
-<th>Size</th>
-<th>HD</th>
-</tr></thead><tbody>
+| Species | CR | Size | HD |
+| --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Scarlet spider</td>
 <td>1/4</td>

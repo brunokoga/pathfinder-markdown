@@ -4,11 +4,10 @@ The [Leadership](../feats.html#_leadership) feat allows a character to gain a lo
 
 A monster cohort gains experience points as if it were a character of its cohort level, and when it gains enough XP to advance a level, it should generally gain a key class level (fighter is often the best choice for most cohorts). You can use the monsters on the following table as guidelines when determining effective cohort levels for monsters not on this list.
 
-<caption>
-<i>Bestiary</i> Monster Cohorts</caption><thead><tr>
-<th>Monster</th>
-<th>Level</th>
-</tr></thead><tbody>
+[_Bestiary_ Monster Cohorts]
+| Monster | Level |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td><a href="/pathfinderRPG/prd/monsters/demon.html#_demon-babau">Babau (demon)</a></td>
 <td>11</td>
@@ -89,15 +88,12 @@ A monster cohort gains experience points as if it were a character of its cohort
 <td><a href="/pathfinderRPG/prd/monsters/wyvern.html">Wyvern</a></td>
 <td>10</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="2">* A young dragon's effective cohort level equals its CR + 8. Dragon cohorts do not advance via aging as normal dragons do, but by gaining class levels (typically in fighter or sorcerer).</td></tr>
-</tfoot>
+</tbody>
 
-<caption>
-<i>Bestiary 2</i> Monster Cohorts</caption><thead><tr>
-<th>Monster</th>
-<th>Level</th>
-</tr></thead>| [Aranea](/pathfinderRPG/prd/additionalMonsters/aranea.html) | 8th |
+[_Bestiary 2_ Monster Cohorts]
+| Monster | Level |
+| --- | --- |
+| [Aranea](/pathfinderRPG/prd/additionalMonsters/aranea.html) | 8th |
 | [Avoral](/pathfinderRPG/prd/additionalMonsters/agathion.html#_agathion,-avoral) | 15th |
 | [Axiomite](/pathfinderRPG/prd/additionalMonsters/axiomite.html) | 14th |
 | [Azer](/pathfinderRPG/prd/additionalMonsters/azer.html) | 5th |
@@ -108,11 +104,10 @@ A monster cohort gains experience points as if it were a character of its cohort
 | [Leucrotta](/pathfinderRPG/prd/additionalMonsters/leucrotta.html) | 9th |
 | [Redcap](/pathfinderRPG/prd/additionalMonsters/redcap.html) | 10th |
 
-<caption>
-<i>Bestiary 3</i> Monster Cohorts</caption><thead><tr>
-<th>Monster</th>
-<th>Level</th>
-</tr></thead><tbody>
+[_Bestiary 3_ Monster Cohorts]
+| Monster | Level |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td><a href="/pathfinderRPG/prd/bestiary3/adlet.html">Adlet</a></td>
 <td>14</td>

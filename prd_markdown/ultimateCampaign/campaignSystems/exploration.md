@@ -20,22 +20,19 @@ To determine how long it takes the PCs to travel through a hex or fully explore 
 
 A typical wilderness hex is trackless ( [see the Terrain and Overland Movement table](/pathfinderRPG/prd/additionalRules.html#_local-movement)). Though no humanoid-created roads or trails pass through it, trails by game animals might. If a hex contains more than one terrain type, treat it as the most prevalent terrain for the purpose of travel times.
 
-<caption>Travel Time (1 Hex)</caption><thead><tr>
-<th>Party Speed</th>
-<th>Plain</th>
-<th>All Other Terrain</th>
-</tr></thead>| 15 feet | 11 hours | 16 hours |
+[Travel Time (1 Hex)]
+| Party Speed | Plain | All Other Terrain |
+| --- | --- | --- |
+| 15 feet | 11 hours | 16 hours |
 | 20 feet | 8 hours | 12 hours |
 | 30 feet | 5 hours | 8 hours |
 | 40 feet | 4 hours | 6 hours |
 | 50 feet | 3 hours | 5 hours |
 
-<caption>Exploration Time (1 Hex)</caption><thead><tr>
-<th>Party Speed</th>
-<th>Plain or Hill</th>
-<th>Desert, Forest, or Marsh</th>
-<th>Mountain</th>
-</tr></thead>| 15 feet | 3 days | 4 days | 5 days |
+[Exploration Time (1 Hex)]
+| Party Speed | Plain or Hill | Desert, Forest, or Marsh | Mountain |
+| --- | --- | --- | --- |
+| 15 feet | 3 days | 4 days | 5 days |
 | 20 feet | 2 days | 3 days | 4 days |
 | 30 feet | 1 day | 2 days | 3 days |
 | 40 feet | 1 day | 1 day | 2 days |
@@ -69,10 +66,9 @@ Natural disasters can occur anywhere. Untamed regions are often home to a wide v
 
 Roll on the following table once per day (or once per hex, if the PCs enter multiple hexes in a single day). For hazards, see the Hazards section on page 158. For monster encounters, in most cases the PCs face off against a creature appropriate to the terrain, but a nearby famine, drought, war, or plague may force a monster out of its normal territory and into a strange environment.
 
-<thead><tr>
-<th>d%</th>
-<th>Result</th>
-</tr></thead>| 01—50 | No encounter |
+| d% | Result |
+| --- | --- |
+| 01—50 | No encounter |
 | 51—60 | Hazard |
 | 61—100 | Monster |
 
@@ -218,10 +214,9 @@ Not everyone has the time to create a detailed map to use in-game. You and your 
 
 To generate a new map, begin by selecting a hex on your blank map as the starting point. Then decide the type of terrain for that starting point (such as a settlement in a forest hex). From that point onward, the reins of exploration are in your players' hands. Let them decide which direction they travel, and let each player take a turn generating the next hex by rolling 1d20 twice to determine the terrain type and terrain element for that hex using the tables below.
 
-<thead><tr>
-<th>d20</th>
-<th>Terrain Type</th>
-</tr></thead>| 1—3 | Forest |
+| d20 | Terrain Type |
+| --- | --- |
+| 1—3 | Forest |
 | 4—6 | Hill |
 | 7—8 | Marsh |
 | 9—10 | Mountain |
@@ -230,10 +225,9 @@ To generate a new map, begin by selecting a hex on your blank map as the startin
 | 15—16 | Water |
 | 17—20 | As previous terrain type |
 
-<thead><tr>
-<th>d20</th>
-<th>Terrain Element</th>
-</tr></thead>| 1—3 | Difficult |
+| d20 | Terrain Element |
+| --- | --- |
+| 1—3 | Difficult |
 | 4—6 | Feature |
 | 7—10 | Hunting Ground |
 | 11—12 | Resource |

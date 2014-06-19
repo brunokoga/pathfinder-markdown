@@ -56,10 +56,9 @@ _Quick Disguise (Ex)_: A rogue with this talent can use the items at hand and se
 
 The time needed for the rogue to alter her appearance in this manner is based on the complexity of the disguise, as noted on the following table. The times are cumulative, so if a female rogue wants to disguise herself as a male of a different race, that takes 2 minutes.
 
-<thead><tr>
-<th>Disguise</th>
-<th>Time</th>
-</tr></thead><tbody>
+| Disguise | Time |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Minor details only</td>
 <td>1 full-round action</td>

@@ -36,11 +36,10 @@ _Create Masterwork Items_: You can make a masterwork item: a weapon, suit of arm
 
 _Repair Items_: You can repair an item by making checks against the same DC that it took to make the item in the first place. The cost of repairing an item is one-fifth of the item's price.
 
-<caption>Table: Craft Skills</caption><thead><tr>
-<th>Item Craft</th>
-<th>Skill</th>
-<th>Craft DC</th>
-</tr></thead>| Acid | Alchemy | 15 |
+[Table: Craft Skills]
+| Item Craft | Skill | Craft DC |
+| --- | --- | --- |
+| Acid | Alchemy | 15 |
 | Alchemist's fire, smokestick, or tindertwig | Alchemy | 20 |
 | Antitoxin, sunrod, tanglefoot bag, or thunderstone | Alchemy | 25 |
 | Armor or shield | Armor | 10 + [AC](../combat.html#_armor-class) bonus |
@@ -56,7 +55,6 @@ _Repair Items_: You can repair an item by making checks against the same DC that
 | Typical item (iron pot) | Varies | 10 |
 | High-quality item (bell) | Varies | 15 |
 | Complex or superior item (lock) | Varies | 20 |
-<tfoot><tr><td colspan="3">* Traps have their own rules for construction (see <a href="../environment.html#_traps">Traps</a>).</td></tr></tfoot>
 
 **Action** : Does not apply. Craft checks are made by the day or week (see above).
 

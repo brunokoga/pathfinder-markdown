@@ -20,11 +20,9 @@ The _nightmare _prevents restful sleep and causes 1d10 points of damage. The _ni
 
 The difficulty of the save depends on your knowledge the subject and the physical connection (if any) you have to that creature.
 
-<thead><tr>
-<th>Knowledge</th>
-<th>
-<a href="../combat.html#_will">Will</a> Save Modifier</th>
-</tr></thead>| None\* | +10 |
+| Knowledge | [Will](../combat.html#_will) Save Modifier |
+| --- | --- |
+| None\* | +10 |
 | Secondhand (you have heard of the subject) | +5 |
 | Firsthand (you have met the subject) | +0 |
 | Familiar (you know the subject well) | –5 |
@@ -33,7 +31,6 @@ The difficulty of the save depends on your knowledge the subject and the physica
 | Likeness or picture | –2 |
 | Possession or garment | –4 |
 | Body part, lock of hair, bit of nail, etc. | –10 |
-<tfoot><tr><td colspan="2">*You must have some sort of connection to a creature of which you have no knowledge.</td></tr></tfoot>
 
 _ [Dispel evil](dispelEvil.html#_dispel-evil) _cast on the subject while you are casting the spell dispels the _nightmare _and causes you to be [stunned](../glossary.html#_stunned) for 10 minutes per caster level of the _ [dispel evil](dispelEvil.html#_dispel-evil)_.
 

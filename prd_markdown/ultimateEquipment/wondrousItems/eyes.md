@@ -4,55 +4,49 @@ The eyes slot consists of eyes, goggles, lenses, monocles, spectacles, and other
 
 Anyone can use an eyes slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.
 
-<caption>Eyes Slot Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Eye Item</th>
-<th>Price</th>
-</tr></thead>| 01–18 | _Deathwatch eyes_ | 2,000 gp |
+[Eyes Slot Wondrous Items]
+| d% | Lesser Minor Eye Item | Price |
+| --- | --- | --- |
+| 01–18 | _Deathwatch eyes_ | 2,000 gp |
 | 19–38 | _Eyes of the eagle_ | 2,500 gp |
 | 39–58 | _Goggles of minute seeing_ | 2,500 gp |
 | 59–72 | _Pirate's eye patch_ | 2,600 gp |
 | 73–87 | _Spectacles of understanding_ | 3,000 gp |
 | 88–100 | _Lenses of detection_ | 3,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Eye Item</th>
-<th>Price</th>
-</tr></thead>| 01–20 | _Eyes of the owl_ | 4,000 gp |
+
+| d% | Greater Minor Eye Item | Price |
+| --- | --- | --- |
+| 01–20 | _Eyes of the owl_ | 4,000 gp |
 | 21–44 | _Eyes of keen sight_ | 6,000 gp |
 | 45–66 | _Treasure hunter's goggles_ | 6,400 gp |
 | 67–84 | _Inquisitor's monocle_ | 6,800 gp |
 | 85–100 | _Kinsight goggles_ | 7,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Eye Item</th>
-<th>Price</th>
-</tr></thead>| 01–16 | _Goggles of elvenkind_ | 8,500 gp |
+
+| d% | Lesser Medium Eye Item | Price |
+| --- | --- | --- |
+| 01–16 | _Goggles of elvenkind_ | 8,500 gp |
 | 17–31 | _Goggles of brilliant light_ | 8,800 gp |
 | 32–48 | _Blind man's fold_ | 12,000 gp |
 | 49–67 | _Goggles of night_ | 12,000 gp |
 | 68–82 | _Lenses of figment piercing_ | 12,000 gp |
 | 83–100 | _Arachnid goggles_ | 15,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Eye Item</th>
-<th>Price</th>
-</tr></thead>| 01–21 | _Darklands goggles_ | 20,000 gp |
+
+| d% | Greater Medium Eye Item | Price |
+| --- | --- | --- |
+| 01–21 | _Darklands goggles_ | 20,000 gp |
 | 22–40 | _Sniper goggles_ | 20,000 gp |
 | 41–58 | _Rainbow lenses_ | 21,000 gp |
 | 59–77 | _Annihilation spectacles_ | 25,000 gp |
 | 78–100 | _Eyes of doom_ | 25,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Eye Item</th>
-<th>Price</th>
-</tr></thead>| 01–60 | _Eyes of eyebite_ | 30,000 gp |
+
+| d% | Lesser Major Eye Item | Price |
+| --- | --- | --- |
+| 01–60 | _Eyes of eyebite_ | 30,000 gp |
 | 61–100 | _Sniper goggles, greater_ | 50,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Eye Item</th>
-<th>Price</th>
-</tr></thead>| 01–18 | _Eyes of charming_ | 56,000 gp |
+
+| d% | Greater Major Eye Item | Price |
+| --- | --- | --- |
+| 01–18 | _Eyes of charming_ | 56,000 gp |
 | 19–34 | _Monocle of the investigator_ | 66,000 gp |
 | 35–48 | _Sea tyrant's patch_ | 70,000 gp |
 | 49–63 | _Swordmaster's blindfold_ | 80,000 gp |

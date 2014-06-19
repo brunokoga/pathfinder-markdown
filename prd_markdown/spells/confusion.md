@@ -16,10 +16,9 @@
 
 This spell causes confusion in the targets_, _making them unable to determine their actions. Roll on the following table at the start of each subject's turn each round to see what it does in that round.
 
-<thead><tr>
-<th>d%</th>
-<th>Behavior</th>
-</tr></thead>| 01–25 | Act normally |
+| d% | Behavior |
+| --- | --- |
+| 01–25 | Act normally |
 | 26–50 | Do nothing but babble incoherently |
 | 51–75 | Deal 1d8 points of damage + [Str](../gettingStarted.html#_strength) modifier to self with item in hand |
 | 76–100 | Attack nearest creature (for this purpose, a familiar counts as part of the subject's self) |

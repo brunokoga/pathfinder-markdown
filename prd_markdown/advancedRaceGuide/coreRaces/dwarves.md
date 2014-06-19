@@ -276,17 +276,10 @@ Dwarves have access to the following equipment.
 
 **Waraxe, Dwarven Double** : This hefty waraxe is similar to the common dwarven waraxe, but its recurved blade spans forward and back from its head like a deadly butterfly. A dwarven double waraxe grants a +1 bonus on all attack rolls after the first when using Cleave or Great Cleave.
 
-<caption>Dwarven Weapons</caption><thead><tr>
-<th>Exotic Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight</th>
-<th>Type</th>
-<th>Special</th>
-</tr></thead>| _Light Melee Weapons_ |
+[Dwarven Weapons]
+| Exotic Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weight | Type | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _Light Melee Weapons_ |
 | Helmet, dwarven boulder | 20 gp | 1d3 | 1d4 | ×2 | — | 10 lbs. | B | see text |
 | _One-Handed Melee Weapons_ |
 | Waraxe, dwarven double | 60 gp | 1d8 | 1d10 | ×3 | — | 12 lbs. | S | see text |

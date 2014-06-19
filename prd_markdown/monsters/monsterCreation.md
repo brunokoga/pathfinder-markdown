@@ -10,24 +10,12 @@ The following guidelines are provided to assist in monster creation and to help 
 
 The first step in creating a new monster is to define its concept and role in the game. Generally, this involves picking the monster's CR, type, physical appearance, and manner of fighting. Once you have these basic pieces of information, you should find a number of similar monsters of the same type and roughly the same CR for comparison purposes.
 
-<caption>Table: Monster Statistics by CR</caption><thead>
-<tr>
-<th rowspan="2">CR</th>
-<th rowspan="2">Hit Points</th>
-<th rowspan="2">Armor Class</th>
-<th rowspan="2">High Attack</th>
-<th rowspan="2">Low Attack</th>
-<th colspan="2">Average Damage</th>
-<th rowspan="2">Primary Ability DC</th>
-<th rowspan="2">Secondary Ability DC</th>
-<th rowspan="2">Good Save</th>
-<th rowspan="2">Poor Save</th>
-</tr>
-<tr>
-<th>High</th>
-<th>Low</th>
-</tr>
-</thead><tbody>
+[Table: Monster Statistics by CR]
+| CR | Hit Points | Armor Class | High Attack | Low Attack | Average Damage | Primary Ability DC | Secondary Ability DC | Good Save | Poor Save |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| High | Low |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>1/2</td>
 <td>10</td>
@@ -331,10 +319,10 @@ A creature with higher than normal attack bonuses will often deal lower damage, 
 
 **Poor Save** : This is the average saving throw bonus for a creature of this CR if the saving throw is one of the creature's poor saving throws.
 
-<caption>Table: Average Die Results</caption><thead><tr>
-<th>Die Type</th>
-<th>Average Result*</th>
-</tr></thead><tbody>
+[Table: Average Die Results]
+| Die Type | Average Result\* |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>d4</td>
 <td>2.5</td>
@@ -359,9 +347,7 @@ A creature with higher than normal attack bonuses will often deal lower damage, 
 <td>d20</td>
 <td>10.5</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="2">*Always round down after multiplying. For example, treat the average of 1d4 as 2, and the average of 2d4 as 5.</td></tr>
-</tfoot>
+</tbody>
 
 ## Step 3: Hit Dice
 
@@ -369,35 +355,12 @@ The next step in creating a monster is to determine the approximate number of Hi
 
 A creature's total number of Hit Dice depends on a number of factors, but the two most important are its CR and its type. Table: Creature Hit Dice lists the average number of Hit Dice for each creature type, depending on its CR. While many of the monsters in this book are close to these values, some are not. This is because they have higher or lower average hit points to balance out their Armor Class or resistances.
 
-<caption>Table: Creature Hit Dice</caption><thead>
-<tr>
-<th rowspan="2">Creature Type</th>
-<th colspan="21">Challenge Rating</th>
-</tr>
-<tr>
-<th>1/2</th>
-<th>1</th>
-<th>2</th>
-<th>3</th>
-<th>4</th>
-<th>5</th>
-<th>6</th>
-<th>7</th>
-<th>8</th>
-<th>9</th>
-<th>10</th>
-<th>11</th>
-<th>12</th>
-<th>13</th>
-<th>14</th>
-<th>15</th>
-<th>16</th>
-<th>17</th>
-<th>18</th>
-<th>19</th>
-<th>20</th>
-</tr>
-</thead><tbody>
+[Table: Creature Hit Dice]
+| Creature Type | Challenge Rating |
+| --- | --- |
+| 1/2 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td><a href="monstersByType.html#_appendix-8-monsters-by-type">Aberration</a></td>
 <td>1</td>
@@ -712,14 +675,10 @@ A creature's total number of Hit Dice depends on a number of factors, but the tw
 </tr>
 </tbody>
 
-<caption>Table: Size</caption><thead><tr>
-<th>Size</th>
-<th>Minimum CR</th>
-<th>Maximum CR</th>
-<th>Base Str</th>
-<th>Base Dex</th>
-<th>Base Con</th>
-</tr></thead><tbody>
+[Table: Size]
+| Size | Minimum CR | Maximum CR | Base Str | Base Dex | Base Con |
+| --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Fine</td>
 <td>—</td>
@@ -816,15 +775,10 @@ Using Table: Creature Statistics by Type, determine how many skill ranks your cr
 
 After you have assigned skills, it's time to assign the creature's feats. Each creature with an Intelligence score receives a number of feats equal to 1 + 1 per every 2 Hit Dice after the first (so, 1 at 1 HD, 2 at 3 HD, etc.). A creature must qualify to take a feat as normal. See Table 1–6 for a quick feat calculation chart.
 
-<caption>Table: Statistics Summary</caption><thead><tr>
-<th>HD</th>
-<th>Fast BAB</th>
-<th>Medium BAB</th>
-<th>Slow BAB</th>
-<th>Good Save</th>
-<th>Bad Save</th>
-<th>Feats</th>
-</tr></thead><tbody>
+[Table: Statistics Summary]
+| HD | Fast BAB | Medium BAB | Slow BAB | Good Save | Bad Save | Feats |
+| --- | --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1</td>
 <td>+1</td>
@@ -1111,13 +1065,10 @@ Repeat this process for a creature's saving throws. If the saving throws are too
 
 When determining a creature's speed, first decide if it has any alternative modes of movement, such as burrow, climb, fly, or swim. Most Medium creatures have a base speed of 30 feet. Quadrupeds and Large creatures increase this by 10 feet each. Smaller creatures decrease this base speed by 10 feet. If a creature is particularly fast or slow, modify the base speed by 10 feet. Burrow and climb speeds are usually half a creature's base speed, while flying speeds are roughly double. Remember to give a creature the appropriate skills for any unusual movement methods.
 
-<caption>Table: Creature Statistics by Type</caption><thead><tr>
-<th>Type</th>
-<th>Hit Die</th>
-<th>Base Attack Bonus (BAB)</th>
-<th>Good Saving Throws</th>
-<th>Skill Ranks*</th>
-</tr></thead><tbody>
+[Table: Creature Statistics by Type]
+| Type | Hit Die | Base Attack Bonus (BAB) | Good Saving Throws | Skill Ranks\* |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td><a href="monstersByType.html#_appendix-8-monsters-by-type">Aberration</a></td>
 <td>d8</td>
@@ -1179,9 +1130,6 @@ When determining a creature's speed, first decide if it has any alternative mode
 | [Plant](creatureTypes.html#_plant) | d8 | HD × 3/4 (Medium BAB) | Fort | 2 + Int mod per HD |
 | [Undead](creatureTypes.html#_undead) | d8 | HD × 3/4 (Medium BAB) | Will | 4 + Int mod per HD |
 | [Vermin](creatureTypes.html#_vermin) | d8 | HD × 3/4 (Medium BAB) | Fort | 2 + Int mod per HD |
-<tfoot>
-<tr><td colspan="5">* As long as a creature has an Intelligence of at least 1, it gains a minimum of 1 skill point per Hit Die. Creatures with an Intelligence score of â—â gain no skill points or feats.</td></tr>
-</tfoot>
 
 ## Step 8: Special Abilities and Qualities
 
@@ -1191,13 +1139,10 @@ Most special abilities that cause damage, such as breath weapons, give a save (F
 
 Special senses and resistances to certain energy types are common in creatures of CR 5 and lower. Damage reduction, energy immunities, and regeneration are more common in creatures above CR 5. Spell resistance and immunities become more common above CR 10. As a general rule a creature's spell resitance should equal its CR + 11.
 
-<caption>Table: XP and GP Values by CR</caption><thead><tr>
-<th>CR</th>
-<th>XP</th>
-<th>Slow GP</th>
-<th>Medium GP</th>
-<th>Fast GP</th>
-</tr></thead><tbody>
+[Table: XP and GP Values by CR]
+| CR | XP | Slow GP | Medium GP | Fast GP |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1/8</td>
 <td>50 XP</td>

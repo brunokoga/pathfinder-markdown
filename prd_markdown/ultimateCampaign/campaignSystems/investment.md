@@ -52,14 +52,10 @@ This list of investments is not meant to be exhaustive; NPC ingenuity could open
 
 **Tavern** : Overheard plans for an ambush spark rumors and property damage.
 
-<caption>Investment Rewards</caption><thead><tr>
-<th>Investment</th>
-<th>Normal Return</th>
-<th>Failed Year</th>
-<th>Normal Year</th>
-<th>Breakout Year</th>
-<th>Breakout Return</th>
-</tr></thead>| _Arts_ |
+[Investment Rewards]
+| Investment | Normal Return | Failed Year | Normal Year | Breakout Year | Breakout Return |
+| --- | --- | --- | --- | --- | --- |
+| _Arts_ |
 | Creative | 4% | 01—30 | 31—95 | 96—00 | 2d4+1 |
 | Performing | 2% | 01—35 | 36—95 | 96—00 | 2d6+1 |
 | Banking | 2% | 01—10 | 11—98 | 99—00 | 1d4+1 |

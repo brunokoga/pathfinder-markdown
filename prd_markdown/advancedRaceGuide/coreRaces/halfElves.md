@@ -224,11 +224,10 @@ Half-elves have access to the following equipment.
 
 **Star Charts** : Many half-elves live in large cities or communities where they find it difficult to commune with nature. While some go on long sojourns to the wilderness, others spend their evenings on high, lonely rooftops, gazing at the stars. These lonely souls use star charts to track the movement of the stars and other celestial bodies. Anyone referencing one of these charts on a clear night can attempt a DC 20 [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography) check to determine her approximate location and the month. In addition, these charts grant a +2 circumstance bonus on [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) checks made to avoid getting lost at night with a clear sky.
 
-<caption>Half-Elven Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr></thead>| Golden maple leaves | 50 gp | 1/2 lb. |
+[Half-Elven Equipment]
+| Item | Cost | Weight |
+| --- | --- | --- |
+| Golden maple leaves | 50 gp | 1/2 lb. |
 | Star charts | 200 gp | 1/2 lb. |
 
 ## Half-Elven Feats

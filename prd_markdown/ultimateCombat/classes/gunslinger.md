@@ -14,11 +14,10 @@ Gunslingers are a bold and mysterious lot. While many treat the secrets of black
 
 The following table lists the starting gold piece value for the new classes presented in this book. In addition, each character begins play with an outfit worth 10 gp or less, and the gunslinger begins with her starting firearm.
 
-<caption>Table: Starting Wealth</caption><thead><tr>
-<th>Class</th>
-<th>Starting Wealth</th>
-<th>Average</th>
-</tr></thead>| Gunslinger | 5d6 ×10 gp | 175 gp |
+[Table: Starting Wealth]
+| Class | Starting Wealth | Average |
+| --- | --- | --- |
+| Gunslinger | 5d6 ×10 gp | 175 gp |
 
   
   
@@ -31,14 +30,10 @@ The gunslinger's class skills are [Acrobatics](/pathfinderRPG/prd/skills/acrobat
 
 ## Class Features
 
-<caption>Table: Gunslinger</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-</tr></thead>| 1st | +1 | +2 | +2 | +0 | Deeds, grit, gunsmith |
+[Table: Gunslinger]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +1 | +2 | +2 | +0 | Deeds, grit, gunsmith |
 | 2nd | +2 | +3 | +3 | +0 | Nimble +1 |
 | 3rd | +3 | +3 | +3 | +1 | Deeds |
 | 4th | +4 | +4 | +4 | +1 | Bonus feat |

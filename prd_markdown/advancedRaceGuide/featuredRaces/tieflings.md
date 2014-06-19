@@ -139,62 +139,26 @@ This tiny fiend acts like a perverse, manifest moral compass. Furthermore, this 
 
 The following describes some of the more common patrons.
 
-<caption>Archdevils</caption><thead>
-<tr>
-<th>Archdevil</th>
-<th>AL</th>
-<th>Areas of Concern</th>
-<th>Domains</th>
-<th>Favored Weapon</th>
-</tr>
-<tr class="odd">
-<td>Baalzebul</td>
-<td>LE</td>
-<td>Arrogance, flies, lies</td>
-<td>Air, Death, Evil, Law</td>
-<td>Spear</td>
-</tr>
-<tr class="even">
-<td>Belial</td>
-<td>LE</td>
-<td>Adultery, deception, desire</td>
-<td>Charm, Destruction, Evil, Law</td>
-<td>Ranseur</td>
-</tr>
-<tr class="odd">
-<td>Dispater</td>
-<td>LE</td>
-<td>Cities, prisons, rulership</td>
-<td>Evil, Law, Nobility, Trickery</td>
-<td>Heavy mace</td>
-</tr>
-<tr class="even">
-<td>Mephistopheles</td>
-<td>LE</td>
-<td>Contracts, devils, secrets</td>
-<td>Evil, <a href="/pathfinderRPG/prd/skills/knowledge.html#_knowledge">Knowledge</a>, Law, Rune</td>
-<td>Trident</td>
-</tr>
-</thead>
+[Archdevils]
+| Archdevil | AL | Areas of Concern | Domains | Favored Weapon |
+| --- | --- | --- | --- | --- |
+| Baalzebul | LE | Arrogance, flies, lies | Air, Death, Evil, Law | Spear |
+| Belial | LE | Adultery, deception, desire | Charm, Destruction, Evil, Law | Ranseur |
+| Dispater | LE | Cities, prisons, rulership | Evil, Law, Nobility, Trickery | Heavy mace |
+| Mephistopheles | LE | Contracts, devils, secrets | Evil, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge), Law, Rune | Trident |
 
-<caption>Demon Lords</caption><thead><tr>
-<th>Demon Lord</th>
-<th>AL</th>
-<th>Areas of Concern</th>
-<th>Domains</th>
-<th>Favored Weapon</th>
-</tr></thead>| Abraxas | CE | Forbidden lore, magic, snakes | Chaos, Evil, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge), Magic | Whip |
+[Demon Lords]
+| Demon Lord | AL | Areas of Concern | Domains | Favored Weapon |
+| --- | --- | --- | --- | --- |
+| Abraxas | CE | Forbidden lore, magic, snakes | Chaos, Evil, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge), Magic | Whip |
 | Baphomet | CE | Beasts, labyrinths, minotaurs | Animal, Chaos, Evil, Strength | Glaive |
 | Dagon | CE | Deformity, the sea, sea monsters | Chaos, Destruction, Evil, Water | Trident |
 | Shax | CE | Envy, lies, murder | Chaos, Destruction, Evil, Nobility | Dagger |
 
-<caption>The Four Horsemen</caption><thead><tr>
-<th>Horseman</th>
-<th>AL</th>
-<th>Areas of Concern</th>
-<th>Domains</th>
-<th>Favored Weapon</th>
-</tr></thead>| Apollyon | NE | Pestilence | Air, Darkness, Destruction, Evil | Scythe |
+[The Four Horsemen]
+| Horseman | AL | Areas of Concern | Domains | Favored Weapon |
+| --- | --- | --- | --- | --- |
+| Apollyon | NE | Pestilence | Air, Darkness, Destruction, Evil | Scythe |
 | Charon | NE | Death | Death, Evil, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge), Water | Quarterstaff |
 | Szuriel | NE | War | Evil, Fire, Strength, War | Greatsword |
 | Trelmarixian | NE | Famine | Earth, Evil, Madness, Weather | Spiked gauntlet |
@@ -209,12 +173,10 @@ Tieflings have access to the following equipment.
 
 **Fiendgore Unguent** : When this unguent—prepared with vile alchemical reagents and the gore of fiends—is applied to a wounded tiefling or evil outsider (not currently at maximum hit points), it momentarily transforms the essence of the target into something even more fearsome and demonic. While under the effects of a fiendgore unguent, a tiefling or an evil outsider gains a +2 circumstance bonus on [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) checks and a +1 circumstance bonus to the DC of all spells with the fear descriptor that they cast. Applying the unguent is a delicate process, requiring a full-round action, and can only be properly applied to a willing or helpless creature. If applied to a creature other than a tiefling or an evil outsider, it sickens the creature instead. The unguent's effects (either beneficial or harmful) last for 1 minute.
 
-<caption>Tiefling Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Fiendgore unguent | 75 gp | 1 lb. | 20 |
+[Tiefling Equipment]
+| Item | Cost | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Fiendgore unguent | 75 gp | 1 lb. | 20 |
 
 ## Tiefling Feats
 

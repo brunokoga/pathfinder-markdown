@@ -8,7 +8,7 @@ XP 6,400
 
 LE Huge aberration ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype), [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
 
-**Init** +8<sup>M</sup>; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +15
+**Init** +8M; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +15
 
 **Aura** mucus cloud (5 feet)
 
@@ -44,7 +44,7 @@ Statistics
 
 **Base Atk** +6; **CMB** +13; **CMD** 24
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)<sup>M</sup>, [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)<sup>M</sup>, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (tentacle)
+**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)M, [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (tentacle)
 
 **Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +13, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +16, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (any one) +14, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +15, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +14, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +25
 

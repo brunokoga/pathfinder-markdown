@@ -48,7 +48,7 @@ Statistics
 
 **Base Atk** +12; **CMB** +20; **CMD** 31 (35 vs. trip)
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Improved Critical](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-critical-mythic) (claws)<sup>M</sup>, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)<sup>M</sup>
+**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Improved Critical](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-critical-mythic) (claws)M, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M
 
 **Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +15, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +15, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +7, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +15, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (any two) +6, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +21, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +19, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +12
 

@@ -34,10 +34,10 @@ While the most severe symptoms of a spellblight may manifest only episodically, 
 
 The following tables list minor and major spellblights. When called to randomly determine a spellblight, roll on the appropriate table.
 
-<caption>Table: Random Minor Spellblights</caption><thead><tr>
-<th>d10</th>
-<th>Result</th>
-</tr></thead>| 1 | Caster Blank |
+[Table: Random Minor Spellblights]
+| d10 | Result |
+| --- | --- |
+| 1 | Caster Blank |
 | 2 | Caster Croak |
 | 3 | Confounded Casting |
 | 4 | Disassociation |
@@ -53,10 +53,10 @@ The following tables list minor and major spellblights. When called to randomly 
   
   
 
-<caption>Table: Random Major Spellblights</caption><thead><tr>
-<th>d10</th>
-<th>Result</th>
-</tr></thead>| 1 | Eldritch Cataracts |
+[Table: Random Major Spellblights]
+| d10 | Result |
+| --- | --- |
+| 1 | Eldritch Cataracts |
 | 2 | Nameless Dread |
 | 3 | Negated |
 | 4 | Obsessive Fixation |

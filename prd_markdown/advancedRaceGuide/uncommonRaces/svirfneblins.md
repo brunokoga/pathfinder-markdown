@@ -80,17 +80,10 @@ Svirfneblin have access to the following equipment.
 
 **Jolting Dart** : This alchemically grown crystal dart builds up an electrical charge when thrown. A creature struck by the dart takes normal piercing damage and 1d6 points of electricity damage. Anyone proficient in darts can use a jolting dart. Once thrown, the dart is destroyed.
 
-<caption>Svirfneblin Weapon</caption><thead><tr>
-<th>Martial Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight</th>
-<th>Type</th>
-<th>Special</th>
-</tr></thead>| Jolting dart | 100 gp | 1d3 | 1d4 | ×2 | 20 ft. | 1/2 lb. | P | See text |
+[Svirfneblin Weapon]
+| Martial Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weight | Type | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Jolting dart | 100 gp | 1d3 | 1d4 | ×2 | 20 ft. | 1/2 lb. | P | See text |
 
 ## Svirfneblin Feats
 

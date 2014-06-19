@@ -16,10 +16,9 @@
 
 Any nonchaotic creature within the area of a _word of chaos _spell suffers the following ill effects, depending on their HD.
 
-<thead><tr>
-<th>HD</th>
-<th>Effect</th>
-</tr></thead>| Equal to caster level | [Deafened](../glossary.html#_deafened) |
+| HD | Effect |
+| --- | --- |
+| Equal to caster level | [Deafened](../glossary.html#_deafened) |
 | Up to caster level –1 | [Stunned](../glossary.html#_stunned), [deafened](../glossary.html#_deafened) |
 | Up to caster level –5 | [Confused](../glossary.html#_confused), [stunned](../glossary.html#_stunned), [deafened](../glossary.html#_deafened) |
 | Up to caster level –10 | Killed, [confused](../glossary.html#_confused), [stunned](../glossary.html#_stunned), [deafened](../glossary.html#_deafened) |

@@ -16,10 +16,9 @@
 
 A much more potent spell than _ [animate dead](animateDead.html#_animate-dead), _this evil spell allows you to infuse a dead body with negative energy to create more powerful sorts of undead: ghouls, ghasts, mummies, and mohrgs. The type or types of undead you can create are based on your caster level, as shown on the table below.
 
-<thead><tr>
-<th>Caster Level</th>
-<th>Undead Created</th>
-</tr></thead>| 11th or lower | Ghoul |
+| Caster Level | Undead Created |
+| --- | --- |
+| 11th or lower | Ghoul |
 | 12th–14th | Ghast |
 | 15th–17th | Mummy |
 | 18th or higher | Mohrg |

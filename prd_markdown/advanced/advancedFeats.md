@@ -34,11 +34,10 @@ The following format is used for all feat descriptions.
 
 **Special** : Additional unusual facts about the feat.
 
-<caption>Table: Feats</caption><thead><tr id="feats-prerequisites-benefits-">
-<th>Feats</th>
-<th>Prerequisites</th>
-<th>Benefits</th>
-</tr></thead>| Additional Traits | — | Gain two additional character traits |
+[Table: Feats]
+| Feats | Prerequisites | Benefits |
+| --- | --- | --- |
+| Additional Traits | — | Gain two additional character traits |
 | Arcane Blast | Arcane spellcaster, caster level 10th | Sacrifice a spell to make a ray attack |
 | Arcane Shield | Arcane spellcaster, caster level 10th | Sacrifice a spell to gain deflection bonus to AC |
 | Arcane Talent | Cha 10; elf, half-elf, or gnome | Cast a 0-level spell 3 times per day as a spell-like ability |
@@ -205,7 +204,7 @@ The following format is used for all feat descriptions.
 | Shield Wall\* | [Shield Proficiency](../feats.html#_shield-proficiency) | Increase your shield bonus to AC |
 | Shielded Caster | — | +4 bonus on concentration checks |
 | Swap Places\* | — | Switch places with an adjacent ally |
-<tfoot><tr><td colspan="3">* This is a combat feat and can be selected as a fighter bonus feat.</td></tr></tfoot>
+
   
   
 

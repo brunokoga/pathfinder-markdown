@@ -6,18 +6,19 @@ Although most of the weapons in the Pathfinder Roleplaying Game take their inspi
 
 Many of the following types of armor are constructed of multiple parts, which a number of these armors mix and match. For instance, it is not unheard of for warriors to combine chain mail with four-mirror armor. Only the various types of plate mail would be either rare or unfamiliar in an Asian-inspired setting.
 
-<caption>Table: Eastern Armor</caption><thead><tr>
-<th>Armor</th>
-<th>Cost</th>
-<th>Armor<br>Bonus</th>
-<th>Maximum<br>Dex Bonus</th>
-<th>Armor<br>Check Penalty</th>
-<th>Arcane Spell<br>Failure</th>
-<th colspan="2">Speed<br><div style="float:left;">30ft</div>
-<div style="float:right;">20ft</div>
-</th>
-<th>Weight</th>
-</tr></thead>| _Light Armor_ |
+[Table: Eastern Armor]
+| Armor | Cost | Armor  
+Bonus | Maximum  
+Dex Bonus | Armor  
+Check Penalty | Arcane Spell  
+Failure | Speed  
+
+30ft
+
+20ft
+ | Weight |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| _Light Armor_ |
 |   Haramaki | 3 gp | +1 | — | 0 | 0% | 30 ft. | 20 ft. | 1 lb. |
 |   Silken ceremonial armor | 30 gp | +1 | — | 0 | 0% | 30 ft. | 20 ft. | 4 lbs. |
 |   Lamellar cuirass | 15 gp | +2 | +4 | 0 | 5% | 30 ft. | 20 ft. | 8 lbs. |
@@ -89,19 +90,10 @@ _Grapple_: On a successful critical hit with a weapon of this type, you can grap
   
   
 
-<caption>Table: Eastern Weapons—Martial</caption><thead><tr>
-<th>Martial Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight<sup>1</sup>
-</th>
-<th>Type<sup>2</sup>
-</th>
-<th>Special</th>
-</tr></thead>| _Light Melee Weapons_ |
+[Table: Eastern Weapons—Martial]
+| Martial Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weightⁱ | Type⁲ | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _Light Melee Weapons_ |
 | Butterfly sword | 20 gp | 1d3 | 1d4 | 19–20/×2 | — | 1 lb. | S | monk |
 | Iron brush | 2 gp | 1d2 | 1d3 | ×2 | 10 ft. | — | P | — |
 | Jutte | 8 gp | 1d4 | 1d6 | ×2 | — | 1 lb. | B | disarm, monk |
@@ -128,25 +120,16 @@ _Grapple_: On a successful critical hit with a weapon of this type, you can grap
 | Arrow, iron-tipped distance (20) | 1 gp | — | — | — | — | 4 lbs. | — | — |
 | Arrow, whistling (20) | 2 gp | — | — | — | — | 3 lbs. | — | — |
 | Poisoned sand tube | 1 gp | special | special | — | — | 1 lb. | — | — |
-<tfoot><tr><td colspan="9">
-<sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br><sup>2</sup> A weapon with two types is either type (wielder's choice) if the entry specifies âor.â</td></tr></tfoot>
+
   
   
   
   
 
-<caption>Table: Eastern Weapons—Exotic</caption><thead><tr>
-<th>Exotic Weapons</th>
-<th>Cost</th>
-<th>Dmg (S)</th>
-<th>Dmg (M)</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Weight</th>
-<th>Type<sup>2</sup>
-</th>
-<th>Special</th>
-</tr></thead>| _Light Melee Weapons_ |
+[Table: Eastern Weapons—Exotic]
+| Exotic Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weight | Type⁲ | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _Light Melee Weapons_ |
 | Dan bong | 1 sp | 1d2 | 1d3 | 19–20/×2 | 10 ft. | — | B | blocking, monk |
 | Emei piercer | 3 gp | 1d2 | 1d3 | 19–20/×2 | — | — | P | monk, see text |
 | Fighting fan | 5 gp | 1d3 | 1d4 | ×3 | — | — | S or P | distracting, monk |
@@ -171,9 +154,6 @@ reach |
 | Tetsubo | 20 gp | 1d8 | 1d10 | ×4 | — | 10 lbs. | B | — |
 | _Ranged Weapons_ |
 | Rope dart | 1 gp | 1d3 | 1d4 | ×2 | 20 ft. | — | P | blocking, distracting, monk |
-<tfoot><tr><td colspan="9">
-<sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br>
-<sup>2</sup> A weapon with two types is either type (wielder's choice) if the entry specifies âor.â</td></tr></tfoot>
 
 **Arrow, Iron-Tipped Distance** : Used tactically for long-range attacks on troops, these arrows are fitted with heavy iron heads. While these heads help them travel great distances, they make the arrows less effective at dealing damage. Iron-tipped distance arrows increase their bow's range increment by 10 feet but take a –1 penalty on damage dealt per range increment (minimum 1 point of damage). They are sold in leather quivers in quantities of 20.
 

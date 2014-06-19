@@ -16,10 +16,9 @@
 
 Any nonlawful creature within the area of a _dictum _spell suffers the following ill effects.
 
-<thead><tr>
-<th>HD</th>
-<th>Effect</th>
-</tr></thead><tbody>
+| HD | Effect |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Equal to caster level</td>
 <td><a href="../glossary.html#_deafened">Deafened</a></td>

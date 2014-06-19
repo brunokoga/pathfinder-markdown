@@ -82,10 +82,10 @@ _Natural Armor_: If your race has a tough hide, scales, or thick skin you receiv
 
 _Dodge Bonuses_: Dodge bonuses represent actively avoiding blows. Any situation that denies you your [Dexterity](gettingStarted.html#_dexterity) bonus also denies you dodge bonuses. (Wearing armor, however, does not limit these bonuses the way it limits a [Dexterity](gettingStarted.html#_dexterity) bonus to AC.) Unlike most sorts of bonuses, dodge bonuses stack with each other.
 
-<caption>Table: Size Modifiers</caption><thead><tr>
-<th>Size</th>
-<th>Size Modifier</th>
-</tr></thead><tbody>
+[Table: Size Modifiers]
+| Size | Size Modifier |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Colossal</td>
 <td>–8</td>
@@ -178,11 +178,6 @@ _Combat Reflexes and Additional Attacks of Opportunity_: If you have the [Combat
 
  ![](/pathfinderRPG/prd/image/AttacksOfOpportunity.jpg)
 
-<tfoot><tr><td>In this combat, the fighter and the sorcerer fight an ogre and his goblin buddy.<br>
-#1: The fighter can safely approach this way without provoking an attack of opportunity, as he does not pass through a square threatened by the ogre (who has 10 feet of reach) or the goblin.<br>
-#2: If the fighter approaches this way, he provokes two attacks of opportunity since he passes through a square both creatures threaten.
-#3: The sorcerer moves away using a withdraw action. The first square she leaves is not threatened as a result, and she can thus move away from the goblin safely, but when she leaves the second square, she provokes an attack of opportunity from the ogre (who has 10 feet of reach). She could instead limit her movement to a 5-foot step, as a free action, and not provoke any attacks of opportunity.</td></tr></tfoot>
-
 ## Speed
 
 Your speed tells you how far you can move in a round and still do something, such as attack or cast a spell. Your speed depends mostly on your size and your armor.
@@ -213,15 +208,14 @@ _Will_: These saves reflect your resistance to mental influence as well as many 
 
 # Actions In Combat
 
-<caption>Table: Actions in Combat</caption><thead><tr id="actions-that-provoke">
-<th>Standard Action</th>
-<th>Attack of Opportunity<sup>1</sup>
-</th>
-</tr></thead>| Attack (melee) | No |
+[Table: Actions in Combat]
+| Standard Action | Attack of Opportunityⁱ |
+| --- | --- |
+| Attack (melee) | No |
 | Attack (ranged) | Yes |
 | Attack (unarmed) | Yes |
 | Activate a magic item other than a potion or oil | No |
-| Aid another | Maybe<sup>2</sup> |
+| Aid another | Maybe⁲ |
 | Cast a spell (1 standard action casting time) | Yes |
 | [Channel energy](/pathfinderRPG/prd/classes/cleric.html#_channel-energy-cleric) | No |
 | [Concentrate to maintain an active spell](/pathfinderRPG/prd/magic.html#_concentration) | No |
@@ -240,14 +234,13 @@ _Will_: These saves reflect your resistance to mental influence as well as many 
 | Use skill that takes 1 action | Usually |
 | Use [spell-like ability](/pathfinderRPG/prd/glossary.html#_spell-like-abilities-sp) | Yes |
 | Use [supernatural ability](/pathfinderRPG/prd/glossary.html#_supernatural-abilities-su) | No |
-<thead><tr>
-<th>Move Action</th>
-<th>Attack of Opportunity<sup>1</sup>
-</th>
-</tr></thead>| Move | Yes |
+
+| Move Action | Attack of Opportunityⁱ |
+| --- | --- |
+| Move | Yes |
 | Control a frightened mount | Yes |
 | Direct or redirect an active spell | No |
-| Draw a weapon<sup>3</sup> | No |
+| Draw a weapon⁳ | No |
 | Load a [hand crossbow](/pathfinderRPG/prd/equipment.html#_weapon-descriptions) or [light crossbow](/pathfinderRPG/prd/equipment.html#_weapon-descriptions) | Yes |
 | Open or close a door | No |
 | Mount/dismount a steed | No |
@@ -255,14 +248,13 @@ _Will_: These saves reflect your resistance to mental influence as well as many 
 | Pick up an item | Yes |
 | Sheathe a weapon | Yes |
 | Stand up from [prone](glossary.html#_prone) | Yes |
-| Ready or drop a shield<sup>3</sup> | No |
+| Ready or drop a shield⁳ | No |
 | Retrieve a stored item | Yes |
-<thead><tr>
-<th>Full-Round Action</th>
-<th>Attack of Opportunity<sup>1</sup>
-</th>
-</tr></thead>| Full attack | No |
-| Charge<sup>4</sup> | No |
+
+| Full-Round Action | Attack of Opportunityⁱ |
+| --- | --- |
+| Full attack | No |
+| Charge⁴ | No |
 | Deliver coup de grace | Yes |
 | Escape from a [net](/pathfinderRPG/prd/equipment.html#_table-6-4-weapons) | Yes |
 | [Extinguish flames](/pathfinderRPG/prd/environment.html#_catching-on-fire) | No |
@@ -273,53 +265,41 @@ _Will_: These saves reflect your resistance to mental influence as well as many 
 | Run | Yes |
 | Use skill that takes 1 round | Usually |
 | Use a touch spell on up to six friends | Yes |
-| Withdraw<sup>4</sup> | No |
-<thead><tr>
-<th>Free Action</th>
-<th>Attack of Opportunity<sup>1</sup>
-</th>
-</tr></thead>| Cease [concentration](/pathfinderRPG/prd/magic.html#_concentration) on a spell | No |
+| Withdraw⁴ | No |
+
+| Free Action | Attack of Opportunityⁱ |
+| --- | --- |
+| Cease [concentration](/pathfinderRPG/prd/magic.html#_concentration) on a spell | No |
 | Drop an item | No |
 | Drop to the floor | No |
-| Prepare [spell components](/pathfinderRPG/prd/magic.html#_preparing-wizard-spells) to cast a spell<sup>5</sup> | No |
+| Prepare [spell components](/pathfinderRPG/prd/magic.html#_preparing-wizard-spells) to cast a spell⁵ | No |
 | Speak | No |
-<thead><tr>
-<th>Swift Action</th>
-<th>Attack of Opportunity<sup>1</sup>
-</th>
-</tr></thead>| Cast a quickened spell | No |
-<thead><tr>
-<th>Immediate Action</th>
-<th>Attack of Opportunity<sup>1</sup>
-</th>
-</tr></thead>| Cast [_feather fall_](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall) | No |
-<thead><tr>
-<th>No Action</th>
-<th>Attack of Opportunity<sup>1</sup>
-</th>
-</tr></thead>| Delay | No |
+
+| Swift Action | Attack of Opportunityⁱ |
+| --- | --- |
+| Cast a quickened spell | No |
+
+| Immediate Action | Attack of Opportunityⁱ |
+| --- | --- |
+| Cast [_feather fall_](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall) | No |
+
+| No Action | Attack of Opportunityⁱ |
+| --- | --- |
+| Delay | No |
 | 5-foot step | No |
-<thead><tr>
-<th>Action Type Varies</th>
-<th>Attack of Opportunity<sup>1</sup>
-</th>
-</tr></thead>| Perform a combat maneuver<sup>6</sup> | Yes |
-| Use feat<sup>7</sup> | Varies |
-<tfoot>
-<tr><td colspan="2">1 Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br>
-</td></tr>
-<tr><td colspan="2">2 If you aid someone performing an action that would normally provoke an attack of opportunity, then the act of aiding another provokes an attack of opportunity as well.<br>
-</td></tr>
-<tr><td colspan="2">3 If you have a base attack bonus of +1 or higher, you can combine one of these actions with a regular move. If you have the <a href="feats.html#_two-weapon-fighting">Two-Weapon Fighting</a> feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one.<br>
-</td></tr>
-<tr><td colspan="2">4 May be taken as a standard action if you are limited to taking only a single action in a round.<br>
-</td></tr>
-<tr><td colspan="2">5 Unless the component is an extremely large or awkward item.<br>
-</td></tr>
-<tr><td colspan="2">6 Some combat maneuvers substitute for a melee attack, not an action. As melee attacks, they can be used once in an attack or charge action, one or more times in a full-attack action, or even as an attack of opportunity. Others are used as a separate action.<br>
-</td></tr>
-<tr><td colspan="2">7 The description of a feat defines its effect.</td></tr>
-</tfoot>
+
+| Action Type Varies | Attack of Opportunityⁱ |
+| --- | --- |
+| Perform a combat maneuver⁶ | Yes |
+| Use feat⁷ | Varies |
+
+ 1 Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.  
+ 2 If you aid someone performing an action that would normally provoke an attack of opportunity, then the act of aiding another provokes an attack of opportunity as well.  
+ 3 If you have a base attack bonus of +1 or higher, you can combine one of these actions with a regular move. If you have the [Two-Weapon Fighting](feats.html#_two-weapon-fighting) feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one.  
+ 4 May be taken as a standard action if you are limited to taking only a single action in a round.  
+ 5 Unless the component is an extremely large or awkward item.  
+ 6 Some combat maneuvers substitute for a melee attack, not an action. As melee attacks, they can be used once in an attack or charge action, one or more times in a full-attack action, or even as an attack of opportunity. Others are used as a separate action.  
+ 7 The description of a feat defines its effect. 
 
 During one turn, there are a wide variety of actions that your character can perform, from swinging a sword to casting a spell.
 
@@ -745,11 +725,10 @@ Miniatures are on the 30mm scale—a miniature of a 6-foot-tall man is approxima
 
 ## Tactical Movement
 
-<caption>Table: Tactical Speed</caption><thead><tr>
-<th>Race</th>
-<th>No Armor or Light Armor</th>
-<th>Medium or Heavy Armor</th>
-</tr></thead><tbody>
+[Table: Tactical Speed]
+| Race | No Armor or Light Armor | Medium or Heavy Armor |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Human, elf, half-elf, half-orc</td>
 <td>30 ft. (6 squares)</td>
@@ -853,16 +832,12 @@ If movement cost is doubled twice, then each square counts as 4 squares (or as 6
 
  ![](/pathfinderRPG/prd/image/TacticalMovement.jpg)
 
-<tfoot><tr><td>The fighter's first move costs him 5 feet (or 1 square). His next costs 5 feet also, but his third (his 2nd diagonal) costs him 10 feet. Next he moves into difficult terrain, also costing him 10 feet. At this point (#6), the fighter has moved 30 feet—one move action. The last square is a diagonal move in difficult terrain, which costs 15 feet; he must spend his turn's standard action to move this far.<br>
-The Large ogre's move costs a total of 20 feet worth of movement (or 4 squares). The ogre cannot cut across the corner to get to that location, and must fully move around it, as indicated.</td></tr></tfoot>
-
 # Big And Little Creatures In Combat
 
-<caption>Table: Creature Size and Scale</caption><thead><tr>
-<th>Creature Size</th>
-<th>Space</th>
-<th>Natural Reach*</th>
-</tr></thead><tbody>
+[Table: Creature Size and Scale]
+| Creature Size | Space | Natural Reach\* |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Fine</td>
 <td>1/2 ft.</td>
@@ -928,9 +903,7 @@ The Large ogre's move costs a total of 20 feet worth of movement (or 4 squares).
 <td>30 ft.</td>
 <td>20 ft.</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="3">* These values are typical for creatures of the indicated size. Some exceptions exist.</td></tr>
-</tfoot>
+</tbody>
 
 Creatures smaller than Small or larger than Medium have special rules relating to position.
 
@@ -946,46 +919,34 @@ Large or larger creatures using reach weapons can strike up to double their natu
 
 # Combat Modifiers
 
-<caption>Table: Attack Roll Modifiers</caption><thead><tr>
-<th>Attacker is…</th>
-<th>Melee</th>
-<th>Ranged</th>
-</tr></thead>| [Dazzled](glossary.html#_dazzled) | –1 | –1 |
-| [Entangled](glossary.html#_entangled) | –2<sup>1</sup> | –2<sup>1</sup> |
+[Table: Attack Roll Modifiers]
+| Attacker is… | Melee | Ranged |
+| --- | --- | --- |
+| [Dazzled](glossary.html#_dazzled) | –1 | –1 |
+| [Entangled](glossary.html#_entangled) | –2ⁱ | –2ⁱ |
 | Flanking defender | +2 | — |
-| [Invisible](glossary.html#_invisible) | +2<sup>2</sup> | +2<sup>2</sup> |
+| [Invisible](glossary.html#_invisible) | +2⁲ | +2⁲ |
 | On higher ground | +1 | +0 |
-| [Prone](glossary.html#_prone) | –4 | —<sup>3</sup> |
+| [Prone](glossary.html#_prone) | –4 | —⁳ |
 | [Shaken](glossary.html#_shaken) or [frightened](glossary.html#_frightened) | –2 | –2 |
 | Squeezing through a space | –4 | –4 |
-<tfoot>
-<tr><td colspan="3">1 An entangled character also takes a –4 penalty to <a href="gettingStarted.html#_dexterity">Dexterity</a>, which may affect his attack roll.</td></tr>
-<tr><td colspan="3">2 The defender loses any <a href="gettingStarted.html#_dexterity">Dexterity</a> bonus to <a href="#_armor-class">AC</a>.</td></tr>
-<tr><td colspan="3">3 Most ranged weapons can't be used while the attacker is <a href="glossary.html#_prone">prone</a>, but you can use a crossbow or shuriken while <a href="glossary.html#_prone">prone</a> at no penalty.</td></tr>
-</tfoot>
 
-<caption>Table: Armor Class Modifiers</caption><thead><tr>
-<th>Defender is…</th>
-<th>Melee</th>
-<th>Ranged</th>
-</tr></thead>| Behind cover | +4 | +4 |
-| Blinded | –2<sup>1</sup> | –2<sup>1</sup> |
+[Table: Armor Class Modifiers]
+| Defender is… | Melee | Ranged |
+| --- | --- | --- |
+| Behind cover | +4 | +4 |
+| Blinded | –2ⁱ | –2ⁱ |
 | Concealed or [invisible](glossary.html#_invisible) | See Concealment |
-| Cowering | –2<sup>1</sup> | –2<sup>1</sup> |
-| [Entangled](glossary.html#_entangled) | +0<sup>2</sup> | +0<sup>2</sup> |
-| [Flat-footed](glossary.html#_flat-footed) | +0<sup>1</sup> | +0<sup>1</sup> |
+| Cowering | –2ⁱ | –2ⁱ |
+| [Entangled](glossary.html#_entangled) | +0⁲ | +0⁲ |
+| [Flat-footed](glossary.html#_flat-footed) | +0ⁱ | +0ⁱ |
 | Grappling (but attacker is not) | +0 | +0 |
-| [Helpless](glossary.html#_helpless) | –4<sup>3</sup> | +0<sup>3</sup> |
+| [Helpless](glossary.html#_helpless) | –4⁳ | +0⁳ |
 | Kneeling or sitting | –2 | +2 |
-| [Pinned](glossary.html#_pinned) | –4<sup>3</sup> | +0<sup>3</sup> |
+| [Pinned](glossary.html#_pinned) | –4⁳ | +0⁳ |
 | [Prone](glossary.html#_prone) | –4 | +4 |
 | Squeezing through a space | –4 | –4 |
-| [Stunned](glossary.html#_stunned) | –2<sup>1</sup> | –2<sup>1</sup> |
-<tfoot>
-<tr><td colspan="3">1 The defender loses any <a href="gettingStarted.html#_dexterity">Dexterity</a> bonus to <a href="#_armor-class">AC</a>.</td></tr>
-<tr><td colspan="3">2 An <a href="glossary.html#_entangled">entangled</a> character takes a –4 penalty to <a href="gettingStarted.html#_dexterity">Dexterity</a>.</td></tr>
-<tr><td colspan="3">3 The defender is denied his <a href="gettingStarted.html#_dexterity">Dexterity</a> bonus to his <a href="#_armor-class">Armor Class</a>.</td></tr>
-</tfoot>
+| [Stunned](glossary.html#_stunned) | –2ⁱ | –2ⁱ |
 
 A number of factors and conditions can influence an attack roll. Many of these situations grant a bonus or penalty on attack rolls or to a defender's Armor Class.
 
@@ -1014,11 +975,6 @@ When making a melee attack against an adjacent target, your target has cover if 
 **Improved Cover** : In some cases, such as attacking a target hiding behind an arrowslit, cover may provide a greater bonus to AC and Reflex saves. In such situations, the normal cover bonuses to AC and Reflex saves can be doubled (to +8 and +4, respectively). A creature with this improved cover effectively gains improved evasion against any attack to which the Reflex save bonus applies. Furthermore, improved cover provides a +10 bonus on Stealth checks.
 
  ![](/pathfinderRPG/prd/image/Cover.jpg)
-
-<tfoot><tr><td>#1: The fighter is adjacent to the ogre, and nothing blocks him from reaching it. The ogre does not have cover against the fighter.<br>
-#2: The rogue is adjacent to the ogre, but lines from the corners of her square to the corners of the ogre's square cross through a wall. The ogre has melee cover from her, but if it attacks her, the rogue does not have cover from it, as the ogre has reach (so it figures attacks as if attacking with a ranged weapon).<br>
-#3: The cleric attacks at range, and must pick one of the corners of her square to determine cover. Some of these lines pass through a solid surface, meaning that the ogre has cover.<br>
-#4: The sorcerer attacks at range as well, but her lines reveal that she can clearly see more than half of the ogre. This gives the ogre partial cover.</td></tr></tfoot>
 
 ## Concealment
 
@@ -1053,10 +1009,6 @@ Only a creature or character that threatens the defender can help an attacker ge
 Creatures with a reach of 0 feet can't flank an opponent.
 
  ![](/pathfinderRPG/prd/image/Flanking.jpg)
-
-<tfoot><tr><td>#1: The fighter and the cleric are flanking the ogre because they can draw a line to each other that passes through opposite sides of the ogre. Both the fighter and the cleric receive a +2 bonus on attack rolls made against the ogre.<br>
-#2: The rogue is not flanking the ogre because she cannot draw a line to the fighter or the cleric that passes through opposite sides of the ogre. The rogue cannot draw a line to the sorcerer because the sorcerer is not adjacent to the ogre and does not threaten it.<br>
-#3: The goblin and the ogre flank the sorcerer, as they can draw a line between them that passes through opposite sides of the sorcerer's square. If the ogre didn't have reach to the sorcerer, though, he and the goblin would not be flanking her.</td></tr></tfoot>
 
 ## Helpless Defenders
 
@@ -1226,11 +1178,10 @@ Table: Two-weapon Fighting Penalties summarizes the interaction of all these fac
 
 **Thrown Weapons** : The same rules apply when you throw a weapon from each hand. Treat a dart or shuriken as a light weapon when used in this manner, and treat a bolas, javelin, net, or sling as a one-handed weapon.
 
-<caption>Table: Two-Weapon Fighting Penalties</caption><thead><tr>
-<th>Circumstances</th>
-<th>Primary Hand</th>
-<th>Off Hand</th>
-</tr></thead>| Normal penalties | –6 | –10 |
+[Table: Two-Weapon Fighting Penalties]
+| Circumstances | Primary Hand | Off Hand |
+| --- | --- | --- |
+| Normal penalties | –6 | –10 |
 | Off-hand weapon is light | –4 | –8 |
 | [Two-Weapon Fighting](feats.html#_two-weapon-fighting) feat | –4 | –4 |
 | Off-hand weapon is light and [Two-Weapon Fighting](feats.html#_two-weapon-fighting) feat | –2 | –2 |

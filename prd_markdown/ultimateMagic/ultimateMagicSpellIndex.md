@@ -1,6 +1,6 @@
 # Spells
 
-The following lists summarize all of the new spells presented in this book, broken down by class. An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the spell lists denotes a material or focus component not normally included in a spell component pouch.
+The following lists summarize all of the new spells presented in this book, broken down by class. An M or F appearing at the end of a spell's name in the spell lists denotes a material or focus component not normally included in a spell component pouch.
 
 **Order of Presentation** : These lists present the spells in alphabetical order by name, except when a spell's name begins with âlesser,â âgreater,â or âmass,â in which case it is alphabetized under the second word of the spell name.
 

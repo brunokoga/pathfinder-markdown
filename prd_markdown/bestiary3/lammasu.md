@@ -52,7 +52,7 @@ Statistics
 
 **Base Atk** +9; **CMB** +16; **CMD** 27 (31 vs. trip)
 
-**Feats** [Blind-Fight](/pathfinderRPG/prd/feats.html#_blind-fight), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials)<sup>B</sup>, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack)
+**Feats** [Blind-Fight](/pathfinderRPG/prd/feats.html#_blind-fight), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials)B, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack)
 
 **Skills** [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +11, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +11, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +12, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +15, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +12
 

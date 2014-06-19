@@ -76,12 +76,10 @@ Effect words are split into groups of similar words. A wordspell typically canno
 
 A wordspell can have multiple meta words arranged within it so long as each target word and each effect word are modified by only one meta word apiece. For example, a wordspell arranged with two effect words could have up to three meta words, so long as each meta word modifies a different target and effect word.
 
-<caption>Table: Effect Word Combinations</caption><thead><tr>
-<th>Word Level</th>
-<th>One Effect Word</th>
-<th>Two Effect Words</th>
-<th>Three Effect Words</th>
-</tr></thead>| 0 | 0 | — | — |
+[Table: Effect Word Combinations]
+| Word Level | One Effect Word | Two Effect Words | Three Effect Words |
+| --- | --- | --- | --- |
+| 0 | 0 | — | — |
 | 1st | 1 | — | — |
 | 2nd | 2 | 0/0 | — |
 | 3rd | 3 | 1/1 or 2/0 | 0/0/0 |

@@ -2,10 +2,10 @@
 
 These prices are for lodging and services in a typical city or town.
 
-<caption>Lodging and Services</caption><thead><tr>
-<th>Item</th>
-<th>Price</th>
-</tr></thead>| Bath (cold) | 2cp |
+[Lodging and Services]
+| Item | Price |
+| --- | --- |
+| Bath (cold) | 2cp |
 | Bath (hot) | 6cp |
 | Bath (public) | 2 sp–1 gp |
 | Companion | 5cp–10 gp |
@@ -31,7 +31,6 @@ These prices are for lodging and services in a typical city or town.
 | Scribe (map) | 10 gp |
 | Spellcasting | caster level × spell level × 10 gp\* |
 | Valet | 1 gp |
-<tfoot><tr><td colspan="2">* See description.</td></tr></tfoot>
 
 Bath
 

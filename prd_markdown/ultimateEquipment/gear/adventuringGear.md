@@ -4,29 +4,28 @@ The items found on the Adventuring Gear table are described in this section, alo
 
 _Kits_: this section includes several kits of preselected gear for each character class or for specific adventuring purposes (dungeoneering, spelunking, and so on). gms can use these kits to quickly round out an npc's gear. players can use them to equip new pcs in a hurry or as a shorthand for providing gear for cohorts, followers, minions, and hirelings. the listed price for the kit includes a small discount for purchasing these items as a group. items in a kit that are used up, destroyed, or lost cost the full price to replace.
 
-<caption>Adventuring Gear</caption><thead><tr>
-<th>Item</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Air bladder | 1 sp | 1/2 lb. |
-| Alchemist's kit | 40 gp | 24 lbs.<sup>2</sup> |
+[Adventuring Gear]
+| Item | Price | Weight |
+| --- | --- | --- |
+| Air bladder | 1 sp | 1/2 lb. |
+| Alchemist's kit | 40 gp | 24 lbs.⁲ |
 | Animal glue | 5 sp | 1/2 lb. |
 | Area map | 50 gp | 2 lbs. |
 | Astrolabe | 1,000 gp | 6 lbs. |
-| Backpack, common | 2 gp | 2 lbs.<sup>1</sup> |
-| Backpack, masterwork | 50 gp | 4 lbs.<sup>1</sup> |
+| Backpack, common | 2 gp | 2 lbs.ⁱ |
+| Backpack, masterwork | 50 gp | 4 lbs.ⁱ |
 | Bandolier | 5 sp | — |
 | Banner | 1–20 gp | 2 lbs. |
-| Barbarian's kit | 9 gp | 26 lbs.<sup>2</sup> |
+| Barbarian's kit | 9 gp | 26 lbs.⁲ |
 | Barbed vest | 10 gp | 4 lbs. |
-| Bard's kit | 41 gp | 33-1/2 lbs.<sup>2</sup> |
+| Bard's kit | 41 gp | 33-1/2 lbs.⁲ |
 | Barrel | 2 gp | 30 lbs. |
 | Basket | 4 sp | 1 lb. |
-| Bedroll | 1 sp | 5 lbs.<sup>1</sup> |
+| Bedroll | 1 sp | 5 lbs.ⁱ |
 | Bell | 1 gp | — |
 | Bell net | 2 gp | 2 lbs. |
-| Belt pouch | 1 gp | 1/2 lb.<sup>1</sup> |
-| Blanket | 5 sp | 3 lbs.<sup>1</sup> |
+| Belt pouch | 1 gp | 1/2 lb.ⁱ |
+| Blanket | 5 sp | 3 lbs.ⁱ |
 | Block and tackle | 5 gp | 5 lbs. |
 | Blue book | 5 gp | 1 lb. |
 | Book of letters | 50 gp | 3 lbs. |
@@ -36,7 +35,7 @@ _Kits_: this section includes several kits of preselected gear for each characte
 | Bullseye lantern | 12 gp | 3 lbs. |
 | Buoy, common | 5 sp | 16 lbs. |
 | Buoy, superior | 10 gp | 30 lbs. |
-| Butterfly net | 5 gp | 2 lbs.<sup>1</sup> |
+| Butterfly net | 5 gp | 2 lbs.ⁱ |
 | Caltrops | 1 gp | 2 lbs. |
 | Camouflage netting | 20 gp | 5 lbs. |
 | Campsite kit | 12 gp | 80 lbs. |
@@ -47,7 +46,7 @@ _Kits_: this section includes several kits of preselected gear for each characte
 | Canvas (sq. yd.) | 1 sp | 1 lb. |
 | Cauldron | 1 gp | 5 lbs. |
 | Cauldron, mithral | 1,251 gp | 2-1/2 lbs. |
-| Cavalier's kit | 23 gp | 112 lbs.<sup>2</sup> |
+| Cavalier's kit | 23 gp | 112 lbs.⁲ |
 | Chain (10 ft.) | 30 gp | 2 lbs. |
 | Chalk | 1 cp | — |
 | Chalkboard | 1 gp | 2 lbs. |
@@ -58,20 +57,20 @@ _Kits_: this section includes several kits of preselected gear for each characte
 | Chirurgeon's kit | 400 gp | 4 lbs. |
 | Chronicler's kit | 40 gp | 4-1/2 lbs. |
 | Clay | 1 sp | 1 lb. |
-| Cleric's kit | 16 gp | 32 lbs.<sup>2</sup> |
+| Cleric's kit | 16 gp | 32 lbs.⁲ |
 | Coffee pot | 3 gp | 4 lbs. |
-| Coffin, common | 10 gp | 30 lbs.<sup>1</sup> |
-| Coffin, ornate | 100 gp | 50 lbs.<sup>1</sup> |
-| Collapsible bathtub | 15 gp | 20 lbs.<sup>1</sup> |
+| Coffin, common | 10 gp | 30 lbs.ⁱ |
+| Coffin, ornate | 100 gp | 50 lbs.ⁱ |
+| Collapsible bathtub | 15 gp | 20 lbs.ⁱ |
 | Collapsible plank | 4 sp | 10 lbs. |
 | Compass | 10 gp | 1/2 lb. |
 | Cooking kit | 3 gp | 16 lbs. |
-| Cot | 1 gp | 30 lbs.<sup>1</sup> |
+| Cot | 1 gp | 30 lbs.ⁱ |
 | Crowbar | 2 gp | 5 lbs. |
 | Cypher books | 150 gp | 2 lbs. |
 | Dragonslayer's kit | 485 gp | 64 lbs. |
 | Drill | 5 sp | 1 lb. |
-| Druid's kit | 14 gp | 44 lbs.<sup>2</sup> |
+| Druid's kit | 14 gp | 44 lbs.⁲ |
 | Dungeoneering kit, common | 15 gp | 25 lbs. |
 | Dungeoneering kit, deluxe | 130 gp | 15 lbs. |
 | Ear trumpet | 5 gp | 2 lbs. |
@@ -84,15 +83,15 @@ _Kits_: this section includes several kits of preselected gear for each characte
 | False-bottomed cup | 1 gp | — |
 | False-bottomed scabbard | 45 gp | 1 lb. |
 | Familiar satchel | 25 gp | 6 lbs. |
-| Fighter's kit | 9 gp | 29 lbs.<sup>2</sup> |
-| Filter hood | 10 gp | 4 lbs.<sup>1</sup> |
+| Fighter's kit | 9 gp | 29 lbs.⁲ |
+| Filter hood | 10 gp | 4 lbs.ⁱ |
 | Firewood (per day) | 1 cp | 20 lbs. |
 | Fishhook | 1 sp | — |
 | Fishing kit | 5 sp | 3 lbs. |
 | Fishing net | 4 gp | 5 lbs. |
 | Flask | 3 cp | 1-1/2 lbs. |
 | Flint and steel | 1 gp | — |
-| Folding chair | 2 gp | 10 lbs.<sup>1</sup> |
+| Folding chair | 2 gp | 10 lbs.ⁱ |
 | Folding ladder | 2 gp | 16 lbs. |
 | Folding pole | 2 sp | 10 lbs. |
 | Folding table | 10 gp | 20 lbs. |
@@ -104,15 +103,15 @@ _Kits_: this section includes several kits of preselected gear for each characte
 | Grappling arrow | 1 gp | 1/2 lb. |
 | Grappling hook, common | 1 gp | 4 lbs. |
 | Grappling hook, mithral | 1,001 gp | 2 lbs. |
-| Grooming kit | 1 gp | 2 lbs.<sup>1</sup> |
+| Grooming kit | 1 gp | 2 lbs.ⁱ |
 | Gunslinger's kit | 26 gp | 31 lbs. |
 | Gunsmith's kit | 15 gp | 2 lbs. |
 | Hammer | 5 sp | 2 lbs. |
-| Hammock | 1 sp | 3 lbs.<sup>1</sup> |
+| Hammock | 1 sp | 3 lbs.ⁱ |
 | Harrow deck | 100 gp | — |
 | Helmet candle | 2 gp | 4 lbs |
 | Heritage book | 50 gp | 2 lbs. |
-| Hip flask | 1 gp | 1/2 lb.<sup>1</sup> |
+| Hip flask | 1 gp | 1/2 lb.ⁱ |
 | Hollowed pommel | 5 gp | — |
 | Holy symbol, wooden | 1 gp | — |
 | Holy symbol, iron | 5 gp | 1 lb. |
@@ -129,7 +128,7 @@ _Kits_: this section includes several kits of preselected gear for each characte
 | Hourglass (1 hour) | 25 gp | 1 lb. |
 | Ink | 8 gp | — |
 | Inkpen | 1 sp | — |
-| Inquisitor's kit | 30 gp | 34 lbs.<sup>2</sup> |
+| Inquisitor's kit | 30 gp | 34 lbs.⁲ |
 | Iron spike | 5 cp | 1 lb. |
 | Iron vial | 1 sp | 1 lb. |
 | Journal | 10 gp | 1 lb. |
@@ -142,7 +141,7 @@ _Kits_: this section includes several kits of preselected gear for each characte
 | Lock, superior | 150 gp | 1 lb. |
 | Magnet | 5 sp | 1/2 lb. |
 | Magnifying glass | 100 gp | — |
-| Magus's kit | 22 gp | 31 lbs.<sup>2</sup> |
+| Magus's kit | 22 gp | 31 lbs.⁲ |
 | Manacles, common | 15 gp | 2 lbs. |
 | Manacles, masterwork | 50 gp | 2 lbs. |
 | Manacles, mithral | 1,000 gp | 2 lbs. |
@@ -150,12 +149,12 @@ _Kits_: this section includes several kits of preselected gear for each characte
 | Mess kit | 2 sp | 1 lb. |
 | Miner's pick | 3 gp | 10 lbs. |
 | Mirror | 10 gp | 1/2 lb. |
-| Mock armor | 90 gp | 10 lbs.<sup>1</sup> |
-| Monk's kit | 8 gp | 22 lbs.<sup>2</sup> |
+| Mock armor | 90 gp | 10 lbs.ⁱ |
+| Monk's kit | 8 gp | 22 lbs.⁲ |
 | Mug/tankard | 2 cp | 1 lb. |
 | Oil | 1 sp | 1 lb. |
-| Oracle's kit | 9 gp | 29 lbs.<sup>2</sup> |
-| Paladin's kit | 11 gp | 30 lbs.<sup>2</sup> |
+| Oracle's kit | 9 gp | 29 lbs.⁲ |
+| Paladin's kit | 11 gp | 30 lbs.⁲ |
 | Paper (sheet) | 4 sp | — |
 | Parchment (sheet) | 2 sp | — |
 | Pathfinder's kit | 12 gp | 22 lbs. |
@@ -164,7 +163,7 @@ _Kits_: this section includes several kits of preselected gear for each characte
 | Pitcher | 2 cp | 5 lbs. |
 | Piton | 1 sp | 1/2 lb. |
 | Poison pill ring | +20 gp | — |
-| Poisoning sheath | 50 gp | 1 lb.<sup>1</sup> |
+| Poisoning sheath | 50 gp | 1 lb.ⁱ |
 | Pole | 5 cp | 8 lbs. |
 | Portable bridge | 200 gp | 60 lbs. |
 | Portable ram | 10 gp | 20 lbs. |
@@ -172,32 +171,32 @@ _Kits_: this section includes several kits of preselected gear for each characte
 | Pot, mithral | 1,001 gp | 2 lbs. |
 | Powder | 1 cp | 1/2 lb. |
 | Powder horn | 3 gp | 1 lb. |
-| Prosthetic (arm) | 10 gp | 3 lbs.<sup>1</sup> |
-| Prosthetic (foot) | 1 gp | 2 lbs.<sup>1</sup> |
-| Prosthetic (hand) | 1 gp | 1 lb.<sup>1</sup> |
-| Prosthetic (leg) | 20 gp | 6 lbs.<sup>1</sup> |
+| Prosthetic (arm) | 10 gp | 3 lbs.ⁱ |
+| Prosthetic (foot) | 1 gp | 2 lbs.ⁱ |
+| Prosthetic (hand) | 1 gp | 1 lb.ⁱ |
+| Prosthetic (leg) | 20 gp | 6 lbs.ⁱ |
 | Pyrography kit | 1 gp | 2 lbs. |
-| Ranger's kit | 9 gp | 28 lbs.<sup>2</sup> |
+| Ranger's kit | 9 gp | 28 lbs.⁲ |
 | Rice paper (sheet) | 5 cp | — |
 | Riding kit, common | 16 gp | 54 lbs. |
 | Riding kit, exotic mount | 36 gp | 59 lbs. |
-| Rogue's kit | 50 gp | 37 lbs.<sup>2</sup> |
+| Rogue's kit | 50 gp | 37 lbs.⁲ |
 | Rope (50 ft.) | 1 gp | 10 lbs. |
-| Sack | 1 sp | 1/2 lb.<sup>1</sup> |
+| Sack | 1 sp | 1/2 lb.ⁱ |
 | Saw | 4 cp | 2 lbs. |
 | Sawback sword | +5 gp | — |
 | Scrivener's kit | 2 gp | 1 lb. |
 | Scroll box | 5 gp | 1 lb. |
 | Scroll case | 1 gp | 1/2 lb. |
 | Sealing wax | 1 gp | 1 lb. |
-| Sentry mannequin | 30 gp | 35 lbs.<sup>1</sup> |
+| Sentry mannequin | 30 gp | 35 lbs.ⁱ |
 | Sewing needle | 5 sp | — |
 | Sextant | 500 gp | 2 lbs. |
 | Shaving kit | 15 sp | 1/2 lb. |
 | Shield sconce | 1 gp | 1/2 lb. |
 | Shovel, common | 2 gp | 8 lbs. |
 | Shovel, folding | 10 gp | 12 lbs. |
-| Signal horn | 1 gp | 2 lbs.<sup>1</sup> |
+| Signal horn | 1 gp | 2 lbs.ⁱ |
 | Signal whistle | 8 sp | — |
 | Signet ring | 5 gp | — |
 | Silent whistle | 9 sp | — |
@@ -210,25 +209,25 @@ _Kits_: this section includes several kits of preselected gear for each characte
 | Snorkel, common | 5 sp | — |
 | Snorkel, masterwork | 5 gp | — |
 | Soap | 1 cp | 1/2 lb. |
-| Sorcerer's kit | 8 gp | 19 lbs.<sup>2</sup> |
+| Sorcerer's kit | 8 gp | 19 lbs.⁲ |
 | Spelunking kit | 174 gp | 32 lbs. |
 | Spider's silk rope (50 ft.) | 100 gp | 4 lbs. |
 | Spyglass | 1,000 gp | 1 lb. |
 | Stationery | 1 gp | — |
-| Stilts, common | 2 sp | 10 lbs<sup>.1</sup> |
-| Stilts, masterwork | 5 gp | 10 lbs.<sup>1</sup> |
+| Stilts, common | 2 sp | 10 lbs.ⁱ |
+| Stilts, masterwork | 5 gp | 10 lbs.ⁱ |
 | Stove can | 10 gp | 1 lb. |
 | String or twine (50 ft.) | 1 cp | 1/2 lb. |
-| Summoner's kit | 8 gp | 19 lbs.<sup>2</sup> |
-| Survival kit, common | 5 gp | 4 lbs.<sup> 4</sup> |
+| Summoner's kit | 8 gp | 19 lbs.⁲ |
+| Survival kit, common | 5 gp | 4 lbs. ⁴ |
 | Survival kit, masterwork | 50 gp | 5 lbs. |
-| Swarmsuit | 20 gp | 10 lbs.<sup>1</sup> |
+| Swarmsuit | 20 gp | 10 lbs.ⁱ |
 | Tattoo | 1 cp–20 gp | — |
 | Teapot | 1 sp | 1 lb. |
-| Tent, small | 10 gp | 20 lbs.<sup>1</sup> |
-| Tent, medium | 15 gp | 30 lbs.<sup>1</sup> |
-| Tent, large | 30 gp | 40 lbs.<sup>1</sup> |
-| Tent, pavilion | 100 gp | 50 lbs.<sup>1</sup> |
+| Tent, small | 10 gp | 20 lbs.ⁱ |
+| Tent, medium | 15 gp | 30 lbs.ⁱ |
+| Tent, large | 30 gp | 40 lbs.ⁱ |
+| Tent, pavilion | 100 gp | 50 lbs.ⁱ |
 | Thurible | 50 gp | 3 lbs. |
 | Torch | 1 cp | 1 lb. |
 | Traveler's dictionary | 50 gp | 2 lbs. |
@@ -240,19 +239,16 @@ _Kits_: this section includes several kits of preselected gear for each characte
 | Water clock | 1,000 gp | 200 lbs. |
 | Waterproof bag | 5 sp | 1/2 lb. |
 | Waterproof lantern | +5 gp | — |
-| Waterskin | 1 gp | 4 lbs.<sup>1</sup> |
+| Waterskin | 1 gp | 4 lbs.ⁱ |
 | Wax key blank | 15 gp | 1/2 lb. |
 | Weapon cord | 1 sp | — |
 | Whetstone | 2 cp | 1 lb. |
 | Wire | 5 gp | 1/2 lb. |
 | Wire saw, common | 30 gp | — |
 | Wire saw, adamantine | 150 gp | — |
-| Witch's kit | 21 gp | 21 lbs.<sup>2</sup> |
-| Wizard's kit | 21 gp | 21 lbs.<sup>2</sup> |
-| Wrist sheath | 1 gp | 1 lb.<sup>1</sup> |
-<tfoot><tr><td colspan="3" style="white-space: normal;">
-<sup>1</sup> These items weigh one-quarter this amount when made for Small characters. Containers for Small characters also carry one-quarter the normal amount.<br>
-<sup>2</sup> These items weigh approximately three-quarters this amount when made for Small characters. Containers for Small characters also carry one-quarter the normal amount.</td></tr></tfoot>
+| Witch's kit | 21 gp | 21 lbs.⁲ |
+| Wizard's kit | 21 gp | 21 lbs.⁲ |
+| Wrist sheath | 1 gp | 1 lb.ⁱ |
 
 Air Bladder
 
@@ -286,11 +282,9 @@ This device consists of a flat disc upon which two other discs are mounted. The 
 
 Backpack
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 2 gp | 2 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 2 gp | 2 lbs. |
 | Masterwork | 50 gp | 4 lbs. |
 
 This leather knapsack has one large pocket that closes with a buckled strap and holds about 2 cubic feet of material. Some may have one or more smaller pockets on the sides.
@@ -413,11 +407,9 @@ A bullseye lantern provides normal light in a 60-foot cone and increases the lig
 
 Buoy
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 5 gp | 16 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 5 gp | 16 lbs. |
 | Superior | 10 gp | 30 lbs. |
 
 A buoy is used to mark a specific spot in a lake, river, or similar body of water, making it possible for you to return to that location at a later date. A common buoy includes a float (typically an air-filled bladder or sealed gourd), a 200-foot length of twine, and a 15-pound stone used as an anchor. The float is usually painted a vivid color, and may have a small flag to attract attention. Though anchor buoys prove quite resilient to normal weather and tides, they offer little challenge to intelligent creatures determined to sabotage them. A superior buoy has a spherical or ovoid hollow metal float (typically copper), a length of chain rather than twine, and a metal anchor rather than a weight.
@@ -486,11 +478,9 @@ This square yard of heavy cloth is suitable for painting, for covering items in 
 
 Cauldron
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 1 gp | 5 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 1 gp | 5 lbs. |
 | Mithral | 1,251 gp | 2-1/2 lbs. |
 
 This larger version of an iron pot holds approximately 1 gallon—enough to fill the bellies of four hungry humans for one meal. It can also be used for potion-making and similar activities. A mithral cauldron is lighter, and food rarely sticks to it.
@@ -521,11 +511,9 @@ A wooden frame approximately the same size as a large book surrounds this thinly
 
 Chest
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Small | 2 gp | 25 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Small | 2 gp | 25 lbs. |
 | Medium | 5 gp | 50 lbs. |
 | Large | 10 gp | 100 lbs. |
 | Huge | 25 gp | 250 lbs. |
@@ -564,11 +552,9 @@ This tall, teapotlike device contains a small chamber for coffee grounds and a l
 
 coffin
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 10 gp | 30 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 10 gp | 30 lbs. |
 | Ornate | 100 gp | 50 lbs. |
 
 A plain coffin is made of simple wood and has a loose, flat lid that can be nailed onto it. Ornate coffins are favored by aristocratic families for displaying their dead, and include upholstered cloth liners and a hinged lid.
@@ -641,11 +627,9 @@ This includes animal feed (5 days), a backpack, a belt pouch, a blanket, a flint
 
 Dungeoneering Kit
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 15 gp | 25 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 15 gp | 25 lbs. |
 | Deluxe | 130 gp | 15 lbs. |
 
 This bundle of essential supplies for exploring ruins and abandoned cities includes two candles, chalk, a hammer and four pitons, 50 feet of hemp rope, a hooded lantern with 5 flasks of oil, two sacks, two torches, and four tindertwigs. A deluxe dungeoneering kit contains two candles, chalk, a hammer and four pitons, 50 feet of silk rope, two sacks, three sunrods, four tindertwigs, and an everburning torch.
@@ -784,11 +768,9 @@ This wooden table has jointed legs and a hinge down the middle. When fully exten
 
 Gambler's Kit
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 75 gp | 5 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 75 gp | 5 lbs. |
 | Cheating | 300 gp | 5 lbs. |
 
 Particularly useful for travelers moving through areas too small or remote to support a full-time place for gambling, this small, tightly packed suitcase holds decks of cards, a betting wheel, numbered cloths, colored wooden chips, and a wide variety of other sorts of specialized equipment necessary for many different games of chance. A cheating gambler's kit is very similar, except its cards are marked and its games are rigged, giving a knowledgeable user a +4 circumstance bonus on [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (gambler) checks when using these materials. A DC 25 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) or DC 20 [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (gambler) check exposes the ruse.
@@ -819,11 +801,9 @@ This small grappling hook is designed to be tied to a silk rope and fired from a
 
 Grappling Hook
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 1 gp | 4 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 1 gp | 4 lbs. |
 | Mithral | 1,0001 gp | 2 lbs. |
 
 Throwing a grappling hook requires a ranged attack roll, treating the hook as a thrown weapon with a range increment of 10 feet. Objects with ample places to catch the hook have an AC of 5.
@@ -890,11 +870,9 @@ Depending on the weapon, a hollow pommel may hold something as large as a flask 
 
 Holy Symbol
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Wooden | 1 gp | — |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Wooden | 1 gp | — |
 | Iron | 5 gp | 1 lb. |
 | Silver | 25 gp | 1 lb. |
 | Gold | 100 gp | 1 lb. |
@@ -936,11 +914,9 @@ A hooded lantern sheds normal light in a 30-foot radius and increases the light 
 
 Hourglass
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| 6 seconds | 10 gp | — |
+| Type | Price | Weight |
+| --- | --- | --- |
+| 6 seconds | 10 gp | — |
 | 1 minute | 20 gp | 1/2 lb. |
 | 1 hour | 25 gp | 1 lb. |
 
@@ -1002,11 +978,9 @@ A common lamp illuminates a small area, providing normal light in a 15-foot radi
 
 Lock
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Simple | 20 gp | 1 lb. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Simple | 20 gp | 1 lb. |
 | Average | 40 gp | 1 lb. |
 | Good | 80 gp | 1 lb. |
 | Superior | 150 gp | 1 lb. |
@@ -1033,11 +1007,9 @@ This includes a backpack, a bedroll, a belt pouch, a flint and steel, ink, an in
 
 manacles
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 15 gp | 2 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 15 gp | 2 lbs. |
 | Masterwork | 50 gp | 2 lbs. |
 | Mithral | 1,000 gp | 2 lbs. |
 
@@ -1185,11 +1157,9 @@ This iron-shod wooden beam gives you a +2 circumstance bonus on Strength checks 
 
 Pot
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 8 sp | 4 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 8 sp | 4 lbs. |
 | Mithral | 1,0001 gp | 2 lbs. |
 
 This 8-inch-diameter iron pot is sturdy and has feet, a lid, and a rounded handle. It can hold enough stew to feed one hungry human for one meal. A mithral pot is lighter and food rarely sticks to it.
@@ -1208,11 +1178,9 @@ Typically crafted from hollowed-out animal horn, but increasingly crafted from m
 
 Prosthetic
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Arm | 10 gp | 3 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Arm | 10 gp | 3 lbs. |
 | Foot | 1 gp | 2 lbs. |
 | Hand | 1 gp | 1 lbs. |
 | Leg | 20 gp | 6 lbs. |
@@ -1239,11 +1207,9 @@ This sheet of paper is made of rice, straw, or tree bark. It has hardness 0, 1 h
 
 riding Kit
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 16 gp | 54 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 16 gp | 54 lbs. |
 | Exotic Mount | 36 gp | 59 lbs. |
 
 This kit includes a bit and bridle, a saddle, a saddle blanket, saddlebags, and 2 days' worth of feed for a mount. The weight can be lightened 10 pounds by discarding the feed.
@@ -1334,11 +1300,9 @@ This metal frame holds a torch and is designed to be strapped to the front of a 
 
 Shovel
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 2 gp | 8 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 2 gp | 8 lbs. |
 | Folding | 12 gp | 12 lbs. |
 
 This tool lets you dig a pit at a rate of 2 cubic feet per minute. If a shovel is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a club of its size.
@@ -1383,11 +1347,9 @@ Many door locks have a similar design and thus can be unlocked by a similar key.
 
 Skillet
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 8 sp | 4 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 8 sp | 4 lbs. |
 | Mithral | 1,001 gp | 2 lbs. |
 
 This 8-inch-diameter skillet has a long handle and feet so you can rest it on a fire or hot coals. Adventurers prefer models with a hinged handle that folds over the top of the skillet for easier storage and transport. A mithral skillet is lighter and food rarely sticks to it.
@@ -1406,11 +1368,9 @@ These spectacles have lenses made of smoked glass that help protect against crea
 
 snorkel
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 5 sp | — |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 5 sp | — |
 | Masterwork | 5 gp | — |
 
 This waterproof wooden tube has a curved end with a mouthpiece. When you hold the mouthpiece in your mouth, the tube extends past your face and toward the back of your head, allowing you to breathe indefinitely when swimming facedown or barely submerged. If you submerge the tip of the snorkel, it floods with water and can't be used to breathe until you clear the water from it (requiring a move action and full access to air). A typical snorkel's length is about 15 inches; any shorter than this and it tends to fill with water when you swim, but any longer and you're not moving enough fresh air through the snorkel to be effective.
@@ -1455,11 +1415,9 @@ Generally used only by the wealthy, fancy stationery is a finer-quality 9-inch-b
 
 Stilts
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 2 sp | 10 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 2 sp | 10 lbs. |
 | Masterwork | 5 gp | 10 lbs. |
 
 This item consists of a pair of wooden poles with a footrest halfway up. By standing on the footrests and holding the tops of the poles you can avoid certain ground-based threats to your feet. For example, you can use stilts to cross water without getting wet, but you would still activate a trap that triggers when you walk in a certain area. Using stilts reduces your base speed from 30 feet to 20 feet, or from 20 feet to 15 feet. You can hop off your stilts as a move action, or as a free action with a successful DC 10 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) check.
@@ -1490,11 +1448,9 @@ This kit includes a backpack, a bedroll, a belt pouch, a flint and steel, an iro
 
 survival Kit
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 5 gp | 4 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 5 gp | 4 lbs. |
 | Masterwork | 50 gp | 5 lbs. |
 
 A survival kit provides the necessary tools for day-to-day existence in a temperate wilderness. It typically contains a flint and steel, a mess kit, two waterskins (enough to hold water for 1 person for 1 day), very basic maps showing major landmarks, and a small utility knife.
@@ -1521,11 +1477,9 @@ This is a small spouted pot for cooking tea. It includes a lid and a strainer, a
 
 Tent
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Small | 10 gp | 20 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Small | 10 gp | 20 lbs. |
 | Medium | 15 gp | 30 lbs. |
 | Large | 30 gp | 40 lbs. |
 | Pavilion | 100 gp | 50 lbs. |
@@ -1570,11 +1524,9 @@ A vial is made out of glass or steel and holds 1 ounce of liquid.
 
 waffle Iron
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 1 gp | 5 lbs. |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 1 gp | 5 lbs. |
 | Mithral | 1,001 gp | 2-1/2 lbs. |
 
 This pair of hinged metal plates is decorated with studs to add texture to the pastry cakes you cook with it. You pour batter on it, close it, and place it on a fire or stove to cook. Some waffle irons have plates that imprint the waffle with a noble's coat of arms, a religious symbol, or a country's flag. A mithral waffle iron almost always bears a specific insignia rather than the generic waffle pattern. As with other mithral cookware, food rarely sticks to a mithral waffle iron.
@@ -1639,11 +1591,9 @@ Effects
 
 Wire Saw
 
-<thead><tr>
-<th>Type</th>
-<th>Price</th>
-<th>Weight</th>
-</tr></thead>| Common | 30 gp | — |
+| Type | Price | Weight |
+| --- | --- | --- |
+| Common | 30 gp | — |
 | Adamantine | 150 gp | — |
 
 This flexible saw consists of an abrasive wire hooked to two metal rings. By feeding the wire around a deadbolt or small door bar, you can use the rings to quietly saw through the obstruction. The saw takes 10 minutes to cut through a 2-inch piece of wood or a 1-inch iron bar. A wire saw can cut through items with hardness 10 or less. After five uses, the abrasive wire is worn smooth and must be replaced (costing 25 gp).

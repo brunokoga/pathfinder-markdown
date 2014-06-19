@@ -14,14 +14,10 @@ The barbarian's class skills are [Acrobatics](../skills/acrobatics.html#_acrobat
 
 **Skill Ranks per Level** : 4 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Barbarian</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-</tr></thead>| 1st | +1 | +2 | +0 | +0 | Fast movement, rage |
+[Table: Barbarian]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +1 | +2 | +0 | +0 | Fast movement, rage |
 | 2nd | +2 | +3 | +0 | +0 | Rage power, uncanny dodge |
 | 3rd | +3 | +3 | +1 | +1 | Trap sense +1 |
 | 4th | +4 | +4 | +1 | +1 | Rage power |

@@ -26,13 +26,9 @@ For a humanoid creature, the new incarnation is determined using the table below
 
 A creature that has been turned into an undead creature or killed by a death effect can't be returned to life by this spell. Constructs, elementals, outsiders, and undead creatures can't be reincarnated. The spell can bring back a creature that has died of old age.
 
-<thead><tr>
-<th>d%</th>
-<th>Incarnation</th>
-<th><a href="../gettingStarted.html#_strength">Str</a></th>
-<th><a href="../gettingStarted.html#_dexterity">Dex</a></th>
-<th><a href="../gettingStarted.html#_constitution">Con</a></th>
-</tr></thead><tbody>
+| d% | Incarnation | [Str](../gettingStarted.html#_strength) | [Dex](../gettingStarted.html#_dexterity) | [Con](../gettingStarted.html#_constitution) |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="even">
 <td>01</td>
 <td>Bugbear</td>

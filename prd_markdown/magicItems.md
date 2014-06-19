@@ -6,10 +6,9 @@ When _ [detect magic](spells/detectMagic.html#_detect-magic) _identifies a magic
 
 If more than one spell is given as a prerequisite, use the highest-level spell. If no spells are included in the prerequisites, use the following default guidelines.
 
-<thead><tr>
-<th>Item Nature</th>
-<th>School</th>
-</tr></thead><tbody>
+| Item Nature | School |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Armor and protection items</td>
 <td>Abjuration</td>
@@ -26,12 +25,10 @@ If more than one spell is given as a prerequisite, use the highest-level spell. 
 
 # Using Items
 
-<caption>Table: Random Magic Item Generation</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Item</th>
-</tr></thead><tbody>
+[Table: Random Magic Item Generation]
+| Minor | Medium | Major | Item |
+| --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>01–04</td>
 <td>01–10</td>
@@ -186,13 +183,10 @@ Prices listed are always for fully charged items. (When an item is created, it i
 
 # Purchasing Magic Items
 
-<caption>Table: Available Magic Items</caption><thead><tr>
-<th>Community Size</th>
-<th>Base Value</th>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-</tr></thead><tbody>
+[Table: Available Magic Items]
+| Community Size | Base Value | Minor | Medium | Major |
+| --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Thorp</td>
 <td>50 gp</td>
@@ -249,9 +243,7 @@ Prices listed are always for fully charged items. (When an item is created, it i
 <td>4d4 items</td>
 <td>3d4 items</td>
 </tr>
-</tbody><tfoot>
-<tr><td colspan="5">* in a metropolis, nearly all minor magic items are available.</td></tr>
-</tfoot>
+</tbody>
 
 Magic items are valuable, and most major cities have at least one or two purveyors of magic items, from a simple potion merchant to a weapon smith that specializes in magic swords. Of course, not every item in this book is available in every town.
 

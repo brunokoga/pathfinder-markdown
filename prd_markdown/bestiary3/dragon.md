@@ -56,15 +56,10 @@ The Dragon Attacks and Speeds table lists the attacks a dragon can employ and th
 
 **Spell Resistance (Ex)** : As dragons grow older, they become more resistant to spells and spell-like abilities, as indicated in the specific dragon descriptions. A dragon's SR is equal to 11 + its CR.
 
-<caption>Dragon Age Categories</caption><thead><tr>
-<th>Age Category</th>
-<th>Age in Years</th>
-<th>CR</th>
-<th>Size</th>
-<th>Hit Dice</th>
-<th>Natural Armor</th>
-<th>Breath Weapon</th>
-</tr></thead><tbody>
+[Dragon Age Categories]
+| Age Category | Age in Years | CR | Size | Hit Dice | Natural Armor | Breath Weapon |
+| --- | --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1 Wyrmling</td>
 <td>0–5</td>
@@ -175,15 +170,10 @@ The Dragon Attacks and Speeds table lists the attacks a dragon can employ and th
 </tr>
 </tbody>
 
-<caption>Dragon Ability Scores</caption><thead><tr>
-<th>Age Category</th>
-<th>Str</th>
-<th>Dex</th>
-<th>Con</th>
-<th>Int</th>
-<th>Wis</th>
-<th>Chr</th>
-</tr></thead><tbody>
+[Dragon Ability Scores]
+| Age Category | Str | Dex | Con | Int | Wis | Chr |
+| --- | --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1 Wyrmling</td>
 <td>Base</td>
@@ -294,23 +284,13 @@ The Dragon Attacks and Speeds table lists the attacks a dragon can employ and th
 </tr>
 </tbody>
 
-<caption>Dragon Attacks and Speeds</caption><thead>
-<tr>
-<th rowspan="2">Size</th>
-<th rowspan="2">Fly Speed<br>(maneuverability)</th>
-<th rowspan="2">1 Bite</th>
-<th rowspan="2">2 Claws</th>
-<th rowspan="2">Gore</th>
-<th rowspan="2">1 Tail Slap</th>
-<th rowspan="2">1 Crush</th>
-<th rowspan="2">1 Tail Sweep</th>
-<th colspan="2">Breath Weapon</th>
-</tr>
-<tr>
-<th>Line</th>
-<th>Cone</th>
-</tr>
-</thead><tbody>
+[Dragon Attacks and Speeds]
+| Size | Fly Speed  
+(maneuverability) | 1 Bite | 2 Claws | Gore | 1 Tail Slap | 1 Crush | 1 Tail Sweep | Breath Weapon |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Line | Cone |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Tiny</td>
 <td>100 ft. (average)</td>
@@ -440,11 +420,9 @@ Special Abilities
   
   
 
-<thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead><tbody>
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Woodland stride, immunity to poison</td>
@@ -731,11 +709,9 @@ Special Abilities
   
   
 
-<thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead><tbody>
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Immunity to electricity, water breathing</td>
@@ -1022,11 +998,9 @@ Special Abilities
   
   
 
-<thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead><tbody>
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Borne aloft, immunity to electricity</td>
@@ -1311,11 +1285,9 @@ Special Abilities
   
   
 
-<thead><tr>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</tr></thead><tbody>
+| Age Category | Special Abilities | Caster Level |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Dogmatic discordance</td>
@@ -1600,11 +1572,7 @@ Special Abilities
   
   
 
-<thead>
-<th>Age Category</th>
-<th>Special Abilities</th>
-<th>Caster Level</th>
-</thead><tbody>
+ Age Category | Special Abilities | Caster Level |<tbody>
 <tr class="odd">
 <td>Wyrmling</td>
 <td>Adamantine claws, immunity to fire</td>

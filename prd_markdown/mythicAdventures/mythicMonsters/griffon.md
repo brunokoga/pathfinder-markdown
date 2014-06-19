@@ -36,7 +36,7 @@ Statistics
 
 **Base Atk** +5; **CMB** +10 (+14 grapple); **CMD** 22 (26 vs. trip)
 
-**Feats** [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack)<sup>B</sup>, [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (talons)<sup>M</sup>
+**Feats** [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack)B, [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (talons)M
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +10, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +6, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12; **Racial Modifiers** +4 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics), +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
 

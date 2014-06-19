@@ -68,7 +68,7 @@ Contact with poison oak (CR 1) causes a painful rash, and the resulting itch lea
 
 ## Rot Grubs (CR 4)
 
-<caption>Infestations</caption>| Parasites such as ear seekers or rot grubs cause infestations, a type of affliction similar to diseases. Infestations can only be cured through specific means; no matter how many saving throws are made, the infestation continues to afflict the target. While a _ [remove disease](../spells/removeDisease.html#_remove-disease)_ spell (or similar effect) instantly halts an infestation, immunity to disease offers no protection, as the infestation itself is caused by parasites. |
+[Infestations]| Parasites such as ear seekers or rot grubs cause infestations, a type of affliction similar to diseases. Infestations can only be cured through specific means; no matter how many saving throws are made, the infestation continues to afflict the target. While a _ [remove disease](../spells/removeDisease.html#_remove-disease)_ spell (or similar effect) instantly halts an infestation, immunity to disease offers no protection, as the infestation itself is caused by parasites. |
 
 Rot grubs are nauseating parasites that feed on flesh and nest in corpses. Generally, a handful of the grubs infest a single corpse at a time, and a DC 15 [Perception](../skills/perception.html#_perception) check is enough to notice and avoid the grubs. Otherwise, 1d6 grubs swiftly burst from the carcass to burrow into the creature, which can attempt a DC 15 Reflex save to avoid the grubs (but only if the creature is aware of the grubs' presence). Any amount of damage reduction is enough to provide immunity to infestation.
 

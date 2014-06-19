@@ -14,14 +14,10 @@ The cavalier's class skills are [Bluff](../../skills/bluff.html#_bluff) (Cha), [
 
 **Skill Ranks per Level** : 4 + Int modifier.
 
-<caption>Table: Cavalier</caption><thead><tr id="level-bonus-save-save-save-special">
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-</tr></thead>| 1st | +1 | +2 | +0 | +0 | Challenge 1/day, mount, order, tactician |
+[Table: Cavalier]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +1 | +2 | +0 | +0 | Challenge 1/day, mount, order, tactician |
 | 2nd | +2 | +3 | +0 | +0 | Order ability |
 | 3rd | +3 | +3 | +1 | +1 | Cavalier's charge |
 | 4th | +4 | +4 | +1 | +1 | Challenge 2/day, expert trainer |

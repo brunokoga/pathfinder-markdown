@@ -37,10 +37,10 @@ Alternatively, a spellcaster can use _ [dispel magic](/pathfinderRPG/prd/spells/
 
 Because readying to counterspell is its own action, a participant can choose to ready to counterspell and make a dueling counter in the same round. This is only useful if the participant is facing multiple opponents or someone with access to Quickened Spell or other abilities that allow casting two spells in the same round.
 
-<caption>Table: Dueling Counter Modifiers</caption><thead><tr>
-<th>Circumstance</th>
-<th>Check Modifier</th>
-</tr></thead>| Spell is of a different school | –2 |
+[Table: Dueling Counter Modifiers]
+| Circumstance | Check Modifier |
+| --- | --- |
+| Spell is of a different school | –2 |
 | Spell is of the same school, but not the same spell | +2 |
 | Spell is of a higher level than the spell being counterer | +1 per level higher |
 | Spell is the same as the spell being countered | +10 |

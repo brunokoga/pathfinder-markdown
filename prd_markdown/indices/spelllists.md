@@ -1,6 +1,6 @@
 # Spell List Index
 
-An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the spell lists denotes a spell with a material or focus component, respectively, that is not normally included in a spell component pouch.
+An M or F appearing at the end of a spell's name in the spell lists denotes a spell with a material or focus component, respectively, that is not normally included in a spell component pouch.
 
 **Order of Presentation** : The first spell lists presented are the lists of spells separated by class and level. These include the spell name and a brief and incomplete description of the spell. Immediately after those lists is a complete list of all spells with full descriptions of those spells listed. Spells in all lists are presented in alphabetical order, except when a spell's name begins with âcommunal,â âgreater,â âlesser,â or âmass,â in which case it is alphabetized under the base spell name.
 
@@ -136,7 +136,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Lightning Lash Bomb Admixture**](/pathfinderRPG/prd/ultimateCombat/spells/lightningLashBombAdmixture.html#_lightning-lash-bomb-admixture): Empowers bombs you throw with a ward that deals lightning damage each time those damaged by the bomb move more than 5 feet. 
 - [**Marionette Possession**](/pathfinderRPG/prd/ultimateMagic/spells/marionettePossession.html#_marionette-possession): As _ [magic jar](/pathfinderRPG/prd//spells/magicJar.html#_magic-jar)_, but limited to line of sight.
 - [**Monstrous Physique I**](/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-i): Take the form and some of the powers of a Small or Medium monstrous humanoid.
-- [**Nondetection**](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)<sup>M</sup>: Hides subject from divination, [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying).
+- [**Nondetection**](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)M: Hides subject from divination, [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying).
 - [**Paragon Surge**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halfElves.html#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
 - [**Prehensile Pilfer**](/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces/vanaras.html#_prehensile-pilfer): The target's tail moves and acts more quickly, almost with a mind of its own.
 - [**Protection From Energy**](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
@@ -163,7 +163,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Cure Critical Wounds**](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds): Cures 4d8 damage + 1/level (max +20).
 - [**Darkvision, Greater**](/pathfinderRPG/prd/ultimateMagic/spells/darkvision.html#_darkvision,-greater): See 120 ft. in total darkness.
 - [**Death Ward**](/pathfinderRPG/prd/spells/deathWard.html#_death-ward): Grants bonuses against death spells and negative energy.
-- [**Detonate**](/pathfinderRPG/prd/advanced/spells/detonate.html#_detonate)<sup>M</sup>: Inflicts 1d8/level energy damage to all creatures within 15 ft.
+- [**Detonate**](/pathfinderRPG/prd/advanced/spells/detonate.html#_detonate)M: Inflicts 1d8/level energy damage to all creatures within 15 ft.
 - [**Discern Lies**](/pathfinderRPG/prd/spells/discernLies.html#_discern-lies): Reveals deliberate falsehoods.
 - [**Dragon's Breath**](/pathfinderRPG/prd/advanced/spells/dragonSBreath.html#_dragon's-breath): Gives you a dragon's breath weapon.
 - [**Earth Glide**](/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces/svirfneblins.html#_earth-glide): The target can pass through stone, dirt, or almost any other sort of earth except metal.
@@ -179,13 +179,13 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Monstrous Physique II**](/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-ii): Take the form and some of the powers of a Tiny or Large monstrous humanoid.
 - [**Mutagenic Touch**](/pathfinderRPG/prd/ultimateCombat/spells/mutagenicTouch.html#_mutagenic-touch): You can pass a weaker version of your mutagen to another creature.
 - [**Neutralize Poison**](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
-- [**Restoration**](/pathfinderRPG/prd/spells/restoration.html#_restoration)<sup>M</sup>: Restores level and ability score drains.
+- [**Restoration**](/pathfinderRPG/prd/spells/restoration.html#_restoration)M: Restores level and ability score drains.
 - [**Scorching Ash Form**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ifrits.html#_scorching-ash-form): Functions like _gaseous form_, except the target becomes a visible swirl of hot ash and smoke.
 - [**Spell Immunity**](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity): Subject is immune to one spell per 4 levels.
-- [**Stoneskin**](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)<sup>M</sup>: Grants DR 10/adamantine.
+- [**Stoneskin**](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)M: Grants DR 10/adamantine.
 - [**Tongues, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/tongues.html#_tongues,-communal): As _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_, but you may divide the duration among creatures touched.
 - [**Touch of Slime**](/pathfinderRPG/prd/ultimateMagic/spells/touchOfSlime.html#_touch-of-slime): Touch infests a target with green slime.
-- [**Universal Formula**](/pathfinderRPG/prd/advanced/spells/universalFormula.html#_universal-formula)<sup>M</sup>: Acts as any extract 3rd level or lower.
+- [**Universal Formula**](/pathfinderRPG/prd/advanced/spells/universalFormula.html#_universal-formula)M: Acts as any extract 3rd level or lower.
 - [**Vermin Shape I**](/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-i-): Take the form and some of the powers of a Small or Medium vermin.
 - [**Viper Bomb Admixture**](/pathfinderRPG/prd/ultimateCombat/spells/viperBombAdmixture.html#_viper-bomb-admixture): Empowers bombs you throw to summon poisonous biting vipers that bite those hit or splashed by the bomb.
 - [**Vitriolic Mist**](/pathfinderRPG/prd/ultimateMagic/spells/vitriolicMist.html#_vitriolic-mist): As _ [fire shield](/pathfinderRPG/prd//spells/fireShield.html#_fire-shield)_, except acid damage.
@@ -198,24 +198,24 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Dream**](/pathfinderRPG/prd/spells/dream.html#_dream): Sends message to anyone sleeping.
 - [**Dust Form**](/pathfinderRPG/prd/ultimateCombat/spells/dustForm.html#_dust-form): You become an incorporeal creature of dust for a short period of time.
 - [**Elemental Body II**](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-ii): You become a Medium elemental.
-- [**Elude Time**](/pathfinderRPG/prd/advanced/spells/eludeTime.html#_elude-time)<sup>M</sup>: Puts you in temporary suspended animation.
+- [**Elude Time**](/pathfinderRPG/prd/advanced/spells/eludeTime.html#_elude-time)M: Puts you in temporary suspended animation.
 - [**Half-blood Extraction**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halfOrcs.html#_half-blood-extraction): You transform the target half-orc into a full-blooded orc.
 - [**Languid Bomb Admixture**](/pathfinderRPG/prd/ultimateCombat/spells/languidBombAdmixture.html#_languid-bomb-admixture): Empowers bombs you throw to cause fatigue in those directly hit or splashed by the bomb.
-- [**Magic Jar**](/pathfinderRPG/prd/spells/magicJar.html#_magic-jar)<sup>F</sup>: Enables possession of another creature.
+- [**Magic Jar**](/pathfinderRPG/prd/spells/magicJar.html#_magic-jar)F: Enables possession of another creature.
 - [**Monstrous Physique III**](/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iii): Take the form and some of the powers of a Diminutive or Huge monstrous humanoid.
 - [**Nightmare**](/pathfinderRPG/prd/spells/nightmare.html#_nightmare): Sends vision dealing 1d10 damage, fatigue.
 - [**Overland Flight**](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
 - [**Planar Adaptation**](/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation): Resist harmful effects of one plane.
 - [**Plant Shape I**](/pathfinderRPG/prd/spells/plantShape.html#_plant-shape-i): Turns you into a Small or Medium plant.
 - [**Polymorph**](/pathfinderRPG/prd/spells/polymorph.html#_polymorph): Gives one willing subject a new form.
-- [**Resurgent Transformation**](/pathfinderRPG/prd/advanced/spells/resurgentTransformation.html#_resurgent-transformation)<sup>M</sup>: Gain second wind when close to death.
+- [**Resurgent Transformation**](/pathfinderRPG/prd/advanced/spells/resurgentTransformation.html#_resurgent-transformation)M: Gain second wind when close to death.
 - [**Sending**](/pathfinderRPG/prd/spells/sending.html#_sending): Delivers short message anywhere, instantly.
 - [**Spell Resistance**](/pathfinderRPG/prd/spells/spellResistance.html#_spell-resistance): Subject gains SR 12 + level.
-- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)<sup>M</sup>: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
+- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)M: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
 - [**Undead Anatomy II**](/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-ii): Take the form and some of the powers of a Tiny or Large undead.
 - [**Vermin Shape II**](/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-ii): As _vermin shape_, but Tiny or Large.
 
-- [**Analyze Dweomer**](/pathfinderRPG/prd/spells/analyzeDweomer.html#_analyze-dweomer)<sup>F</sup>: Reveals magical aspects of subject.
+- [**Analyze Dweomer**](/pathfinderRPG/prd/spells/analyzeDweomer.html#_analyze-dweomer)F: Reveals magical aspects of subject.
 - [**Beast Shape IV**](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-iv): You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast.
 - [**Caging Bomb Admixture**](/pathfinderRPG/prd/ultimateCombat/spells/cagingBombAdmixture.html#_caging-bomb-admixture): Your bombs create a cage of force that traps creatures inside the bomb's splash radius. 
 - [**Elemental Body III**](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-iii): Turns you into a Large elemental.
@@ -228,8 +228,8 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Plant Shape II**](/pathfinderRPG/prd/spells/plantShape.html#_plant-shape-ii): Turns you into a Large plant creature.
 - [**Shadow Walk**](/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk): Step into shadow to travel rapidly.
 - [**Statue**](/pathfinderRPG/prd/spells/statue.html#_statue): Subject can become a statue at will.
-- [**Transformation**](/pathfinderRPG/prd/spells/transformation.html#_transformation)<sup>M</sup>: You gain combat bonuses.
-- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)<sup>M</sup>: Lets you see all things as they really are.
+- [**Transformation**](/pathfinderRPG/prd/spells/transformation.html#_transformation)M: You gain combat bonuses.
+- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)M: Lets you see all things as they really are.
 - [**Twin Form**](/pathfinderRPG/prd/advanced/spells/twinForm.html#_twin-form): Creates controllable duplicate of you.
 - [**Undead Anatomy III**](/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-iii): Take the form and some of the powers of a Diminutive or Huge undead.
 - [**Walk through Space**](/pathfinderRPG/prd/ultimateCombat/spells/walkThroughSpace.html#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
@@ -318,7 +318,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Litany of Thunder**](/pathfinderRPG/prd/ultimateCombat/spells/litanyOfThunder.html#_litany-of-thunder): A single target is deafened until the condition is removed, and is confused for 1 round.
 - [**Litany of Vengeance**](/pathfinderRPG/prd/ultimateCombat/spells/litanyOfVengeance.html#_litany-of-vengeance): Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.
 - [**Magic Siege Engine, Greater**](/pathfinderRPG/prd/ultimateCombat/spells/magicSiegeEngine.html#_magic-siege-engine,-greater): Siege engine gains +1 on targeting and damage rolls for every four caster levels.
-- [**Nondetection, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/nondetection.html#_nondetection,-communal)<sup>M</sup>: As _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_, but you may divide the duration among creatures touched.
+- [**Nondetection, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/nondetection.html#_nondetection,-communal)M: As _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_, but you may divide the duration among creatures touched.
 - [**Poison**](/pathfinderRPG/prd/spells/poison.html#_poison): Touch deals 1d3 Con damage 1/round for 6 rounds.
 - [**Resounding Blow**](/pathfinderRPG/prd/advanced/spells/resoundingBlow.html#_resounding-blow): Melee attack deals 1d6 more damage.
 - [**Slay Living**](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living): Touch attack deals 12d6 +1 per level.
@@ -387,7 +387,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Liberating Command**](/pathfinderRPG/prd/ultimateCombat/spells/liberatingCommand.html#_liberating-command): Target makes an [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) check as an immediate action and gains a bonus on it.
 - [**Lock Gaze**](/pathfinderRPG/prd/ultimateCombat/spells/lockGaze.html#_lock-gaze): Compels the target to look only at you for the duration of the spell.
 - [**Magic Aura**](/pathfinderRPG/prd/spells/magicAura.html#_magic-aura): Alters object's magic aura.
-- [**Magic Mouth**](/pathfinderRPG/prd/spells/magicMouth.html#_magic-mouth)<sup>M</sup>: Objects speaks once when triggered.
+- [**Magic Mouth**](/pathfinderRPG/prd/spells/magicMouth.html#_magic-mouth)M: Objects speaks once when triggered.
 - [**Memory Lapse**](/pathfinderRPG/prd/advanced/spells/memoryLapse.html#_memory-lapse): Subject forgets events back to last turn.
 - [**Moment of Greatness**](/pathfinderRPG/prd/ultimateCombat/spells/momentOfGreatness.html#_moment-of-greatness): Doubles a morale bonus.
 - [**Negative Reaction**](/pathfinderRPG/prd/ultimateCombat/spells/negativeReaction.html#_negative-reaction): Targeted creature may not positively influence anyone.
@@ -435,7 +435,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Cat's Grace**](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace): Subject gains +4 to [Dex](/pathfinderRPG/prd/gettingStarted.html#_dexterity) for 1 min./level.
 - [**Commune with Birds**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/tengus.html#_commune-with-birds): You can understand the responses given by birds.
 - [**Compassionate Ally**](/pathfinderRPG/prd/ultimateMagic/spells/compassionateAlly.html#_compassionate-ally): Target compelled to help injured ally.
-- [**Create Treasure Map**](/pathfinderRPG/prd/advanced/spells/createTreasureMap.html#_create-treasure-map-)<sup>M</sup>: Creates a treasure map out of a creature's corpse.
+- [**Create Treasure Map**](/pathfinderRPG/prd/advanced/spells/createTreasureMap.html#_create-treasure-map-)M: Creates a treasure map out of a creature's corpse.
 - [**Cure Moderate Wounds**](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds): Cures 2d8 damage + 1/level (max +10).
 - [**Darkness**](/pathfinderRPG/prd/spells/darkness.html#_darkness): 20-ft. radius of supernatural shadow.
 - [**Daze Monster**](/pathfinderRPG/prd/spells/dazeMonster.html#_daze-monster): Living creature of 6 HD or less loses next action.
@@ -528,7 +528,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Good Hope**](/pathfinderRPG/prd/spells/goodHope.html#_good-hope): Subjects gain +2 on attack rolls, damage rolls, saves, and checks.
 - [**Haste**](/pathfinderRPG/prd/spells/haste.html#_haste): One creature/level moves faster, receives +1 on attack rolls, [AC](/pathfinderRPG/prd/combat.html#_armor-class), and [Reflex](/pathfinderRPG/prd/combat.html#_reflex) saves.
 - [**Haunting Choir**](/pathfinderRPG/prd/ultimateMagic/spells/hauntingChoir.html#_haunting-choir): Spirits cause wracking pain to listeners.
-- [**Illusory Script**](/pathfinderRPG/prd/spells/illusoryScript.html#_illusory-script)<sup>M</sup>: Only select creatures can read text.
+- [**Illusory Script**](/pathfinderRPG/prd/spells/illusoryScript.html#_illusory-script)M: Only select creatures can read text.
 - [**Invigorate, Mass**](/pathfinderRPG/prd/advanced/spells/invigorate.html#_invigorate,-mass): As _ [invigorate](/pathfinderRPG/prd/advanced/spells/invigorate.html#_invigorate)_, but multiple creatures.
 - [**Invisibility Sphere**](/pathfinderRPG/prd/spells/invisibilitySphere.html#_invisibility-sphere): Makes everyone within 10 feet [invisible](/pathfinderRPG/prd/glossary.html#_invisible).
 - [**Jester's Jaunt**](/pathfinderRPG/prd/advanced/spells/jesterSJaunt.html#_jester's-jaunt): Teleport target within 30 ft. of itself.
@@ -546,12 +546,12 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Remove Curse**](/pathfinderRPG/prd/spells/removeCurse.html#_remove-curse): Frees object or person from curse.
 - [**Returning Weapon, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/returningWeapon.html#_returning-weapon,-communal): As _ [returning weapon](/pathfinderRPG/prd/ultimateCombat/spells/returningWeapon.html#_returning-weapon)_, but you may divide the duration among weapons touched.
 - [**Reviving Finale**](/pathfinderRPG/prd/advanced/spells/revivingFinale.html#_reviving-finale): Allies cured 2d6 damage.
-- [**Scrying**](/pathfinderRPG/prd/spells/scrying.html#_scrying)<sup>F</sup>: Spies on subject from a distance.
+- [**Scrying**](/pathfinderRPG/prd/spells/scrying.html#_scrying)F: Spies on subject from a distance.
 - [**Sculpt Sound**](/pathfinderRPG/prd/spells/sculptSound.html#_sculpt-sound): Creates new sounds or changes existing ones into new sounds.
 - [**Secret Page**](/pathfinderRPG/prd/spells/secretPage.html#_secret-page): Changes one page to hide its real content.
 - [**See Invisibility**](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility): Reveals [invisible](/pathfinderRPG/prd/glossary.html#_invisible) creatures or objects.
 - [**Seek Thoughts**](/pathfinderRPG/prd/advanced/spells/seekThoughts.html#_seek-thoughts): Detects thinking creatures' thoughts.
-- [**Sepia Snake Sigil**](/pathfinderRPG/prd/spells/sepiaSnakeSigil.html#_sepia-snake-sigil)<sup>M</sup>: Creates a snake-shaped text symbol that immobilizes reader.
+- [**Sepia Snake Sigil**](/pathfinderRPG/prd/spells/sepiaSnakeSigil.html#_sepia-snake-sigil)M: Creates a snake-shaped text symbol that immobilizes reader.
 - [**Slow**](/pathfinderRPG/prd/spells/slow.html#_slow): One subject/level takes only one action/round, –1 to [AC](/pathfinderRPG/prd/combat.html#_armor-class), [Reflex](/pathfinderRPG/prd/combat.html#_reflex) saves, and attack rolls.
 - [**Smug Narcissism**](/pathfinderRPG/prd/ultimateMagic/spells/smugNarcissism.html#_smug-narcissism): Target is distracted by its sense of self.
 - [**Speak with Animals**](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals): You can communicate with animals.
@@ -580,7 +580,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Heroic Finale**](/pathfinderRPG/prd/advanced/spells/heroicFinale.html#_heroic-finale): Subject within range of your bardic performance can take an action.
 - [**Hold Monster**](/pathfinderRPG/prd/spells/holdMonster.html#_hold-monster): As _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_, but any creature.
 - [**Invisibility, Greater**](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater): As _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility), _but subject can attack and stay [invisible](/pathfinderRPG/prd/glossary.html#_invisible).
-- [**Legend Lore**](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)<sup>MF</sup>: Lets you learn tales about a person, place, or thing.
+- [**Legend Lore**](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)MF: Lets you learn tales about a person, place, or thing.
 - [**Locate Creature**](/pathfinderRPG/prd/spells/locateCreature.html#_locate-creature): Indicates direction to known creature.
 - [**Modify Memory**](/pathfinderRPG/prd/spells/modifyMemory.html#_modify-memory): Changes 5 minutes of subject's memories.
 - [**Neutralize Poison**](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
@@ -598,7 +598,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Sonic Thrust**](/pathfinderRPG/prd/ultimateMagic/spells/sonicThrust.html#_sonic-thrust): Sound moves targets away from you.
 - [**Speak with Plants**](/pathfinderRPG/prd/spells/speakWithPlants.html#_speak-with-plants): You can talk to plants and plant creatures.
 - [**Summon Monster IV**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv): Summons extraplanar creature to fight for you.
-- [**Treasure Stitching**](/pathfinderRPG/prd/advanced/spells/treasureStitching.html#_treasure-stitching-)<sup>M</sup>: Objects on cloth become embroidered.
+- [**Treasure Stitching**](/pathfinderRPG/prd/advanced/spells/treasureStitching.html#_treasure-stitching-)M: Objects on cloth become embroidered.
 - [**Truespeak**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/aasimars.html#_truespeak): You can communicate with any creature that is not mindless.
 - [**Utter Contempt**](/pathfinderRPG/prd/ultimateMagic/spells/utterContempt.html#_utter-contempt): Target's attitude worsens by two categories.
 - [**Virtuoso Performance**](/pathfinderRPG/prd/ultimateMagic/spells/virtuosoPerformance.html#_virtuoso-performance): Start a second bardic performance while maintaining the first.
@@ -613,7 +613,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Deafening Song Bolt**](/pathfinderRPG/prd/advanced/spells/deafeningSongBolt.html#_deafening-song-bolt): Blast of song deals 3d10 damage and deafens targets.
 - [**Dispel Magic, Greater**](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater): Works as _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic),_ but can affect multiple targets.
 - [**Dream**](/pathfinderRPG/prd/spells/dream.html#_dream): Sends message to anyone sleeping.
-- [**False Vision**](/pathfinderRPG/prd/spells/falseVision.html#_false-vision)<sup>M</sup>: Fools scrying with an illusion.
+- [**False Vision**](/pathfinderRPG/prd/spells/falseVision.html#_false-vision)M: Fools scrying with an illusion.
 - [**Foe to Friend**](/pathfinderRPG/prd/advanced/spells/foeToFriend.html#_foe-to-friend): Redirect an enemy creature's attack.
 - [**Frozen Note**](/pathfinderRPG/prd/advanced/spells/frozenNote.html#_frozen-note-): Paralyzes creatures listening to your song.
 - [**Heroism, Greater**](/pathfinderRPG/prd/spells/heroism.html#_heroism-greater): Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp.
@@ -634,10 +634,10 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Stunning Finale**](/pathfinderRPG/prd/advanced/spells/stunningFinale.html#_stunning-finale): Stuns 3 creatures for 1 round.
 - [**Suggestion, Mass**](/pathfinderRPG/prd/spells/suggestion.html#_suggestion-mass): As _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion), _affects subject/level.
 - [**Summon Monster V**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v): Summons extraplanar creature to fight for you.
-- [**Unwilling Shield**](/pathfinderRPG/prd/advanced/spells/unwillingShield.html#_unwilling-shield)<sup>M</sup>: Subject shares wounds you receive.
+- [**Unwilling Shield**](/pathfinderRPG/prd/advanced/spells/unwillingShield.html#_unwilling-shield)M: Subject shares wounds you receive.
 - [**Vengeful Outrage**](/pathfinderRPG/prd/ultimateMagic/spells/vengefulOutrage.html#_vengeful-outrage): Target is compelled to destroy one enemy.
 
-- [**Analyze Dweomer**](/pathfinderRPG/prd/spells/analyzeDweomer.html#_analyze-dweomer)<sup>F</sup>: Reveals magical aspects of subject.
+- [**Analyze Dweomer**](/pathfinderRPG/prd/spells/analyzeDweomer.html#_analyze-dweomer)F: Reveals magical aspects of subject.
 - [**Animate Objects**](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects): Objects attack your foes.
 - [**Brilliant Inspiration**](/pathfinderRPG/prd/advanced/spells/brilliantInspiration.html#_brilliant-inspiration): Take best of two d20 rolls.
 - [**Cat's Grace, Mass**](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace-mass): As _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, affects 1 subject/level.
@@ -658,8 +658,8 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Overwhelming Presence**](/pathfinderRPG/prd/ultimateMagic/spells/overwhelmingPresence.html#_overwhelming-presence): Creatures bow before you as if you were divine.
 - [**Permanent Image**](/pathfinderRPG/prd/spells/permanentImage.html#_permanent-image): Permanent illusion, includes sight, sound, smell, and thermal effects.
 - [**Pied Piping**](/pathfinderRPG/prd/advanced/spells/piedPiping.html#_pied-piping-): Compel similar creatures to follow you.
-- [**Programmed Image**](/pathfinderRPG/prd/spells/programmedImage.html#_programmed-image)<sup>M</sup>: As _ [major image](/pathfinderRPG/prd/spells/majorImage.html#_major-image)_, plus triggered by event.
-- [**Project Image**](/pathfinderRPG/prd/spells/projectImage.html#_project-image)<sup>M</sup>: Illusory double can talk and cast spells.
+- [**Programmed Image**](/pathfinderRPG/prd/spells/programmedImage.html#_programmed-image)M: As _ [major image](/pathfinderRPG/prd/spells/majorImage.html#_major-image)_, plus triggered by event.
+- [**Project Image**](/pathfinderRPG/prd/spells/projectImage.html#_project-image)M: Illusory double can talk and cast spells.
 - [**Scrying, Greater**](/pathfinderRPG/prd/spells/scrying.html#_scrying-greater): As _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_, but faster and longer.
 - [**Shout, Greater**](/pathfinderRPG/prd/spells/shout.html#_shout-greater): Devastating yell deals 10d6 sonic damage; stuns creatures.
 - [**Summon Monster VI**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi): Summons extraplanar creature to fight for you.
@@ -686,13 +686,13 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Ant Haul**](/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-): Triples carrying capacity of a creature.
 - [**Bane**](/pathfinderRPG/prd/spells/bane.html#_bane): Enemies take –1 on attack rolls and saves against fear.
 - [**Bless**](/pathfinderRPG/prd/spells/bless.html#_bless): Allies gain +1 on attack rolls and saves against fear.
-- [**Bless Water**](/pathfinderRPG/prd/spells/blessWater.html#_bless-water)<sup>M</sup>: Makes holy water.
+- [**Bless Water**](/pathfinderRPG/prd/spells/blessWater.html#_bless-water)M: Makes holy water.
 - [**Cause Fear**](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear): One creature of 5 HD or less flees for 1d4 rounds.
 - [**Command**](/pathfinderRPG/prd/spells/command.html#_command): One subject obeys selected command for 1 round.
 - [**Compel Hostility**](/pathfinderRPG/prd/ultimateCombat/spells/compelHostility.html#_compel-hostility): Compels opponents to attack you instead of your allies.
 - [**Comprehend Languages**](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages): You understand all spoken and written languages.
 - [**Cure Light Wounds**](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
-- [**Curse Water**](/pathfinderRPG/prd/spells/curseWater.html#_curse-water)<sup>M</sup>: Makes unholy water.
+- [**Curse Water**](/pathfinderRPG/prd/spells/curseWater.html#_curse-water)M: Makes unholy water.
 - [**Dancing Lantern**](/pathfinderRPG/prd/advanced/spells/dancingLantern.html#_dancing-lantern-): Animates a lantern that follows you.
 - [**Deadeye's Lore**](/pathfinderRPG/prd/ultimateCombat/spells/deadeyeSLore.html#_deadeye's-lore): Gain a +4 bonus on [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) and move full speed while tracking.
 - [**Deathwatch**](/pathfinderRPG/prd/spells/deathwatch.html): Reveals how near death subjects within 30 ft. are.
@@ -746,7 +746,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Animate Dead, Lesser**](/pathfinderRPG/prd/ultimateMagic/spells/animateDead.html#_animate-dead,-lesser): Create one skeleton or zombie.
 - [**Ant Haul, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/antHaul.html#_ant-haul,-communal): As _ [ant haul](/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-)_, but you may divide the duration among creatures touched.
 - [**Arrow of Law**](/pathfinderRPG/prd/ultimateMagic/spells/arrowOfLaw.html#_arrow-of-law): Harm and possibly daze chaotic creatures.
-- [**Augury**](/pathfinderRPG/prd/spells/augury.html#_augury)<sup>MF</sup>: Learns whether an action will be good or bad.
+- [**Augury**](/pathfinderRPG/prd/spells/augury.html#_augury)MF: Learns whether an action will be good or bad.
 - [**Bear's Endurance**](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance): Subject gains +4 to [Con](/pathfinderRPG/prd/gettingStarted.html#_constitution) for 1 min./level.
 - [**Bestow Weapon Proficiency**](/pathfinderRPG/prd/ultimateCombat/spells/bestowWeaponProficiency.html#_bestow-weapon-proficiency): Grant a creature proficiency in a single weapon for short period of time.
 - [**Blessing of Courage and Life**](/pathfinderRPG/prd/advanced/spells/blessingOfCourageAndLife.html#_blessing-of-courage-and-life): +2 on saves vs. fear and death.
@@ -757,7 +757,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Bull's Strength**](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength): Subject gains +4 to [Str](/pathfinderRPG/prd/gettingStarted.html#_strength) for 1 min./level.
 - [**Calm Emotions**](/pathfinderRPG/prd/spells/calmEmotions.html#_calm-emotions): Calms creatures, negating emotion effects.
 - [**Compassionate Ally**](/pathfinderRPG/prd/ultimateMagic/spells/compassionateAlly.html#_compassionate-ally): Target is compelled to help injured ally.
-- [**Consecrate**](/pathfinderRPG/prd/spells/consecrate.html#_consecrate)<sup>M</sup>: Fills area with positive energy, weakening undead.
+- [**Consecrate**](/pathfinderRPG/prd/spells/consecrate.html#_consecrate)M: Fills area with positive energy, weakening undead.
 - [**Cure Moderate Wounds**](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds): Cures 2d8 damage + 1/level (max +10).
 - [**Darkness**](/pathfinderRPG/prd/spells/darkness.html#_darkness): 20-ft. radius of supernatural shadow.
 - [**Death Candle**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ifrits.html#_death-candle): Functions like _death knell_, except you summon a Small fire elemental resembling the slain creature.
@@ -765,7 +765,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Delay Disease**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ratfolk.html#_delay-disease): The target becomes temporarily immune to disease.
 - [**Delay Pain**](/pathfinderRPG/prd/ultimateMagic/spells/delayPain.html#_delay-pain): Ignore pain for 1 hour/level.
 - [**Delay Poison**](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison): Stops poison from harming target for 1 hour/level.
-- [**Desecrate**](/pathfinderRPG/prd/spells/desecrate.html#_desecrate)<sup>M</sup>: Fills area with negative energy, making undead stronger.
+- [**Desecrate**](/pathfinderRPG/prd/spells/desecrate.html#_desecrate)M: Fills area with negative energy, making undead stronger.
 - [**Disfiguring Touch**](/pathfinderRPG/prd/ultimateMagic/spells/disfiguringTouch.html#_disfiguring-touch-): Target becomes disfigured.
 - [**Dread Bolt**](/pathfinderRPG/prd/ultimateMagic/spells/dreadBolt.html#_dread-bolt): Harm and possibly sicken good creatures.
 - [**Eagle's Splendor**](/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor): Subject gains +4 to [Cha](/pathfinderRPG/prd/gettingStarted.html#_charisma-new) for 1 min./level.
@@ -807,7 +807,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Shard of Chaos**](/pathfinderRPG/prd/ultimateMagic/spells/shardOfChaos.html#_shard-of-chaos): Harm and possibly slow lawful creatures.
 - [**Share Language**](/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-): Subject understands chosen language.
 - [**Shatter**](/pathfinderRPG/prd/spells/shatter.html#_shatter): Sonic vibration damages objects or crystalline creatures.
-- [**Shield Other**](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)<sup>F</sup>: You take half of subject's damage.
+- [**Shield Other**](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)F: You take half of subject's damage.
 - [**Silence**](/pathfinderRPG/prd/spells/silence.html#_silence): Negates sound in 20-ft. radius.
 - [**Sound Burst**](/pathfinderRPG/prd/spells/soundBurst.html#_sound-burst): Deals 1d8 sonic damage to subjects; may stun them.
 - [**Spear of Purity**](/pathfinderRPG/prd/ultimateMagic/spells/spearOfPurity.html#_spear-of-purity): Harm and possibly blind evil creatures.
@@ -823,7 +823,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 
 - [**Agonize**](/pathfinderRPG/prd/ultimateMagic/spells/agonize.html#_agonize-): Pain encourages an outsider to obey you.
 - [**Agonizing Rebuke**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/hobgoblins.html#_agonizing-rebuke): You instill such apprehension about attacking you in your target that doing so causes it mental distress and pain.
-- [**Animate Dead**](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)<sup>M</sup>: Creates undead skeletons and zombies.
+- [**Animate Dead**](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)M: Creates undead skeletons and zombies.
 - [**Archon's Aura**](/pathfinderRPG/prd/ultimateMagic/spells/archonSAura.html#_archon's-aura): Aura penalizes enemy attacks and AC.
 - [**Badger's Ferocity**](/pathfinderRPG/prd/ultimateMagic/spells/badgerSFerocity.html#_badger's-ferocity): Weapons are _ [keen](/pathfinderRPG/prd//magicItems/weapons.html#_weapons-keen)_ while you concentrate.
 - [**Bestow Curse**](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse): –6 to an ability score; –4 on attack rolls, saves, and checks; or 50% chance of losing each action.
@@ -835,7 +835,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Borrow Fortune**](/pathfinderRPG/prd/advanced/spells/borrowFortune.html#_borrow-fortune): _(Oracle only.)_ Retry attack or check, but do worse on next two.
 - [**Chain of Perdition**](/pathfinderRPG/prd/ultimateCombat/spells/chainOfPerdition.html#_chain-of-perdition): Creates a floating chain of force.
 - [**Contagion**](/pathfinderRPG/prd/spells/contagion.html#_contagion): Infects subject with chosen disease.
-- [**Continual Flame**](/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame)<sup>M</sup>: Makes a permanent, heatless light.
+- [**Continual Flame**](/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame)M: Makes a permanent, heatless light.
 - [**Create Food and Water**](/pathfinderRPG/prd/spells/createFoodAndWater.html#_create-food-and-water): Feeds three humans (or one horse)/level.
 - [**Cure Serious Wounds**](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
 - [**Daybreak Arrow**](/pathfinderRPG/prd/ultimateCombat/spells/daybreakArrow.html#_daybreak-arrow): Targeted ammunition exudes radiant energy.
@@ -847,7 +847,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Dispel Magic**](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic): Cancels one magical spell or effect.
 - [**Elemental Speech**](/pathfinderRPG/prd/advanced/spells/elementalSpeech.html#_elemental-speech): You can speak with elementals and some creatures.
 - [**Enter Image**](/pathfinderRPG/prd/advanced/spells/enterImage.html#_enter-image-): Transfers your consciousness to an object bearing your likeness.
-- [**Glyph of Warding**](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)<sup>M</sup>: Inscription harms those who pass it.
+- [**Glyph of Warding**](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)M: Inscription harms those who pass it.
 - [**Guiding Star**](/pathfinderRPG/prd/advanced/spells/guidingStar.html#_guiding-star-): Know approximate distance from where you cast this spell.
 - [**Helping Hand**](/pathfinderRPG/prd/spells/helpingHand.html#_helping-hand): Ghostly hand leads subject to you.
 - [**Inflict Serious Wounds**](/pathfinderRPG/prd/spells/inflictSeriousWounds.html#_inflict-serious-wounds): Touch attack, 3d8 damage + 1/level (max +15).
@@ -857,7 +857,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Magic Circle against Chaos/Evil/Good/Law**](/pathfinderRPG/prd/spells/magicCircleAgainstChaos.html#_magic-circle-against-chaos): As _protection _spells, but 10-ft. radius and 10 min./level.
 - [**Magic Vestment**](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment): Armor or shield gains +1 enhancement per four levels.
 - [**Meld into Stone**](/pathfinderRPG/prd/spells/meldIntoStone.html#_meld-into-stone): You and your gear merge with stone.
-- [**Nap Stack**](/pathfinderRPG/prd/advanced/spells/napStack.html#_nap-stack-)<sup>M</sup>: Subjects only need 2 hours for a night's sleep, and can sleep even longer for more benefits.
+- [**Nap Stack**](/pathfinderRPG/prd/advanced/spells/napStack.html#_nap-stack-)M: Subjects only need 2 hours for a night's sleep, and can sleep even longer for more benefits.
 - [**Obscure Object**](/pathfinderRPG/prd/spells/obscureObject.html#_obscure-object): Masks object against [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying).
 - [**Paragon Surge**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halfElves.html#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
 - [**Prayer**](/pathfinderRPG/prd/spells/prayer.html#_prayer): Allies get +1 bonus on most rolls, enemies –1 penalty.
@@ -868,7 +868,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Remove Disease**](/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease): Cures all diseases affecting subject.
 - [**Resist Energy, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/resistEnergy.html#_resist-energy,-communal): As _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, but you may divide the duration among creatures touched.
 - [**Returning Weapon, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/returningWeapon.html#_returning-weapon,-communal): As _ [returning weapon](/pathfinderRPG/prd/ultimateCombat/spells/returningWeapon.html#_returning-weapon)_, but you may divide the duration among weapons touched.
-- [**Sacred Bond**](/pathfinderRPG/prd/advanced/spells/sacredBond.html#_sacred-bond)<sup>F</sup>: Cast touch healing spells from a distance.
+- [**Sacred Bond**](/pathfinderRPG/prd/advanced/spells/sacredBond.html#_sacred-bond)F: Cast touch healing spells from a distance.
 - [**Sands of Time**](/pathfinderRPG/prd/ultimateMagic/spells/sandsOfTime.html#_sands-of-time): Target temporarily ages.
 - [**Searing Light**](/pathfinderRPG/prd/spells/searingLight.html#_searing-light): Ray deals 1d8/two levels damage (more against undead).
 - [**Share Language, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/shareLanguage.html#_share-language,-communal): As _ [share language](/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-)_, but you may divide the duration among creatures touched.
@@ -896,7 +896,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Dimensional Anchor**](/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional-anchor): Bars extradimensional movement.
 - [**Discern Lies**](/pathfinderRPG/prd/spells/discernLies.html#_discern-lies): Reveals deliberate falsehoods.
 - [**Dismissal**](/pathfinderRPG/prd/spells/dismissal.html#_dismissal): Forces a creature to return to native plane.
-- [**Divination**](/pathfinderRPG/prd/spells/divination.html#_divination)<sup>M</sup>: Provides useful advice for specific proposed actions.
+- [**Divination**](/pathfinderRPG/prd/spells/divination.html#_divination)M: Provides useful advice for specific proposed actions.
 - [**Divine Power**](/pathfinderRPG/prd/spells/divinePower.html#_divine-power): You gain attack bonuses and 1 hp/level.
 - [**Fleshworm Infestation**](/pathfinderRPG/prd/ultimateMagic/spells/fleshwormInfestation.html#_fleshworm-infestation): Worms deal hp and Dex damage.
 - [**Freedom of Movement**](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement): Subject moves normally despite impediments to movement.
@@ -910,12 +910,12 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Order's Wrath**](/pathfinderRPG/prd/spells/orderSWrath.html#_order-s-wrath): Harms and dazes chaotic creatures (1d8 damage/2 levels).
 - [**Plague Carrier**](/pathfinderRPG/prd/ultimateMagic/spells/plagueCarrier.html#_plague-carrier): Target's attacks carry filth fever.
 - [**Planar Adaptation**](/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation): Resist harmful effects of other plane.
-- [**Planar Ally, Lesser**](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally-lesser)<sup>M</sup>: Exchange services with a 6 HD extraplanar creature.
+- [**Planar Ally, Lesser**](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally-lesser)M: Exchange services with a 6 HD extraplanar creature.
 - [**Poison**](/pathfinderRPG/prd/spells/poison.html#_poison): Touch deals 1d3 [Con](/pathfinderRPG/prd/gettingStarted.html#_constitution) damage 1/round for 6 rounds.
 - [**Protection from Energy, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/protectionFromEnergy.html#_protection-from-energy,-communal): As _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, but you may divide the duration among creatures touched.
 - [**Repel Vermin**](/pathfinderRPG/prd/spells/repelVermin.html#_repel-vermin): Insects, spiders, and other vermin stay 10 ft. away.
-- [**Rest Eternal**](/pathfinderRPG/prd/advanced/spells/restEternal.html#_rest-eternal)<sup>M</sup>: Dead creature cannot be revived.
-- [**Restoration**](/pathfinderRPG/prd/spells/restoration.html#_restoration)<sup>M</sup>: Restores level and ability score drains.
+- [**Rest Eternal**](/pathfinderRPG/prd/advanced/spells/restEternal.html#_rest-eternal)M: Dead creature cannot be revived.
+- [**Restoration**](/pathfinderRPG/prd/spells/restoration.html#_restoration)M: Restores level and ability score drains.
 - [**Ride the Waves**](/pathfinderRPG/prd/ultimateMagic/spells/rideTheWaves.html#_ride-the-waves): Target can breathe water and swim.
 - [**Sending**](/pathfinderRPG/prd/spells/sending.html#_sending): Delivers short message anywhere, instantly.
 - [**Soothe Construct**](/pathfinderRPG/prd/ultimateMagic/spells/sootheConstruct.html#_soothe-construct): Reduce the berserk chance of a construct.
@@ -934,12 +934,12 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 
 - [**Air Walk, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/airWalk.html#_air-walk,-communal): As _ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, but you may divide the duration among creatures touched.
 - [**Astral Projection, Lesser**](/pathfinderRPG/prd/ultimateMagic/spells/astralProjection.html#_astral-projection,-lesser): Limited astral travel.
-- [**Atonement**](/pathfinderRPG/prd/spells/atonement.html#_atonement)<sup>FM</sup>: Removes burden of misdeeds from subject and reverses magical alignment change.
+- [**Atonement**](/pathfinderRPG/prd/spells/atonement.html#_atonement)FM: Removes burden of misdeeds from subject and reverses magical alignment change.
 - [**Break Enchantment**](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment): Frees subjects from enchantments, transmutations, and curses.
 - [**Breath of Life**](/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life): Cures 5d8 damage + 1/level and restores life to recently slain creatures.
 - [**Cleanse**](/pathfinderRPG/prd/advanced/spells/cleanse.html#_cleanse): Cures 4d8 damage +1/level (max +25) and also removes several afflictions.
 - [**Command, Greater**](/pathfinderRPG/prd/spells/command.html#_command-greater): As _ [command](/pathfinderRPG/prd/spells/command.html#_command), _but affects one subject/level.
-- [**Commune**](/pathfinderRPG/prd/spells/commune.html#_commune)<sup>M</sup>: Deity answers one yes-or-no question/level.
+- [**Commune**](/pathfinderRPG/prd/spells/commune.html#_commune)M: Deity answers one yes-or-no question/level.
 - [**Contagion, Greater**](/pathfinderRPG/prd/ultimateMagic/spells/contagion.html#_contagion,-greater): Infect a subject with a magical disease.
 - [**Cure Light Wounds, Mass**](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds-mass): Cures 1d8 damage + 1/level, affects 1 subject/level.
 - [**Curse of Magic Negation**](/pathfinderRPG/prd/ultimateMagic/spells/curseOfMagicNegation.html#_curse-of-magic-negation): Target gains the negated spellblight.
@@ -951,7 +951,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Forbid Action, Greater**](/pathfinderRPG/prd/ultimateMagic/spells/forbidAction.html#_forbid-action,-greater): As _ [forbid action](/pathfinderRPG/prd/ultimateMagic/spells/forbidAction.html#_forbid-action)_, but 1 creature/level.
 - [**Ghostbane Dirge, Mass**](/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge,-mass): As _ [ghostbane dirge](/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge)_, but affects multiple creatures.
 - [**Half-blood Extraction**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halfOrcs.html#_half-blood-extraction): You transform the target half-orc into a full-blooded orc.
-- [**Hallow**](/pathfinderRPG/prd/spells/hallow.html#_hallow)<sup>M</sup>: Designates location as holy.
+- [**Hallow**](/pathfinderRPG/prd/spells/hallow.html#_hallow)M: Designates location as holy.
 - [**Holy Ice**](/pathfinderRPG/prd/ultimateMagic/spells/holyIce.html#_holy-ice): Create wall or javelins of frozen holy water.
 - [**Inflict Light Wounds, Mass**](/pathfinderRPG/prd/spells/inflictLightWounds.html#_inflict-light-wounds-mass): Deals 1d8 damage + 1/level, affects 1 subject/level.
 - [**Insect Plague**](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague): Wasp swarms attack creatures.
@@ -959,12 +959,12 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Magic Siege Engine, Greater**](/pathfinderRPG/prd/ultimateCombat/spells/magicSiegeEngine.html#_magic-siege-engine,-greater): Siege engine gains +1 on targeting and damage rolls for every four caster levels.
 - [**Mark of Justice**](/pathfinderRPG/prd/spells/markOfJustice.html#_mark-of-justice): Designates action that triggers _curse _on subject.
 - [**Pillar of Life**](/pathfinderRPG/prd/advanced/spells/pillarOfLife.html#_pillar-of-life): Created pillar heals 2d8 + 1/level (max +20).
-- [**Plane Shift**](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)<sup>F</sup>: As many as 8 subjects travel to another plane.
-- [**Raise Dead**](/pathfinderRPG/prd/spells/raiseDead.html#_raise-dead)<sup>M</sup>: Restores life to subject who died as long as one day/level ago.
+- [**Plane Shift**](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)F: As many as 8 subjects travel to another plane.
+- [**Raise Dead**](/pathfinderRPG/prd/spells/raiseDead.html#_raise-dead)M: Restores life to subject who died as long as one day/level ago.
 - [**Rapid Repair**](/pathfinderRPG/prd/ultimateMagic/spells/rapidRepair.html#_rapid-repair): Construct gains fast healing 5.
 - [**Reprobation**](/pathfinderRPG/prd/ultimateMagic/spells/reprobation.html#_reprobation): Marked target is shunned by your religion.
 - [**Righteous Might**](/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might): Your size increases, and you gain bonuses in combat.
-- [**Scrying**](/pathfinderRPG/prd/spells/scrying.html#_scrying)<sup>F</sup>: Spies on subject from a distance.
+- [**Scrying**](/pathfinderRPG/prd/spells/scrying.html#_scrying)F: Spies on subject from a distance.
 - [**Serenity**](/pathfinderRPG/prd/ultimateMagic/spells/serenity.html#_serenity): Peaceful feelings harm those attempting violence.
 - [**Slay Living**](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living): Touch attack deals 12d6 + 1 per level.
 - [**Snake Staff**](/pathfinderRPG/prd/advanced/spells/snakeStaff.html#_snake-staff): Transforms staff or other wood into snakes to fight for you.
@@ -972,14 +972,14 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Spell Immunity, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/spellImmunity.html#_spell-immunity,-communal): As _ [spell immunity](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity)_, but you may divide the duration among creatures touched.
 - [**Spell Resistance**](/pathfinderRPG/prd/spells/spellResistance.html#_spell-resistance): Subject gains SR 12 + level.
 - [**Summon Monster V**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v): Summons extraplanar creature to fight for you.
-- [**Symbol of Pain**](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)<sup>M</sup>: Triggered rune wracks nearby creatures with pain.
+- [**Symbol of Pain**](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)M: Triggered rune wracks nearby creatures with pain.
 - [**Symbol of Scrying**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfScrying.html#_symbol-of-scrying): Triggered rune activates scrying sensor.
-- [**Symbol of Sleep**](/pathfinderRPG/prd/spells/symbolOfSleep.html#_symbol-of-sleep)<sup>M</sup>: Triggered rune puts nearby creatures into catatonic slumber.
-- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)<sup>M</sup>: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
+- [**Symbol of Sleep**](/pathfinderRPG/prd/spells/symbolOfSleep.html#_symbol-of-sleep)M: Triggered rune puts nearby creatures into catatonic slumber.
+- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)M: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
 - [**Tongues, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/tongues.html#_tongues,-communal): As _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_, but you may divide the duration among creatures touched.
-- [**Treasure Stitching**](/pathfinderRPG/prd/advanced/spells/treasureStitching.html#_treasure-stitching-)<sup>M</sup>: Objects on cloth become embroidered.
-- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)<sup>M</sup>: Lets you see all things as they really are.
-- [**Unhallow**](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)<sup>M</sup>: Designates location as unholy.
+- [**Treasure Stitching**](/pathfinderRPG/prd/advanced/spells/treasureStitching.html#_treasure-stitching-)M: Objects on cloth become embroidered.
+- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)M: Lets you see all things as they really are.
+- [**Unhallow**](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)M: Designates location as unholy.
 - [**Unholy Ice**](/pathfinderRPG/prd/ultimateMagic/spells/unholyIce.html#_unholy-ice): Create wall or javelins of frozen unholy water.
 - [**Village Veil**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halflings.html#_village-veil): Creates an illusion over an area to make creatures that view or interact with it believe it has suffered a catastrophe that renders it utterly worthless.
 - [**Wall of Stone**](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone): Creates a stone wall that can be shaped.
@@ -992,16 +992,16 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Blessing of Luck and Resolve, Mass**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halflings.html#_blessing-of-luck-and-resolve,-mass): Functions like _blessing of luck and resolve_, except that it affects multiple creatures.
 - [**Bull's Strength, Mass**](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength-mass): As _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, affects 1 subject/level.
 - [**Cold Ice Strike**](/pathfinderRPG/prd/ultimateMagic/spells/coldIceStrike.html#_cold-ice-strike): Cone of ice slivers deals 1d6 cold/level.
-- [**Create Undead**](/pathfinderRPG/prd/spells/createUndead.html#_create-undead)<sup>M</sup>: Create ghasts, ghouls, mohrgs, or mummies.
+- [**Create Undead**](/pathfinderRPG/prd/spells/createUndead.html#_create-undead)M: Create ghasts, ghouls, mohrgs, or mummies.
 - [**Cure Moderate Wounds, Mass**](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds-mass): Cures 2d8 damage + 1/level, affects 1 subject/level.
 - [**Dispel Magic, Greater**](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater): As _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, but with multiple targets.
 - [**Dust Form**](/pathfinderRPG/prd/ultimateCombat/spells/dustForm.html#_dust-form): You become an incorporeal creature of dust for a short period of time.
 - [**Eagle's Splendor, Mass**](/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor-mass): As _ [eagle's splendor](/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor)_, affects 1 subject/level.
 - [**Epidemic**](/pathfinderRPG/prd/ultimateMagic/spells/epidemic.html#_epidemic): Infect a subject with a highly contagious disease.
 - [**Find the Path**](/pathfinderRPG/prd/spells/findThePath.html#_find-the-path): Shows most direct way to a location.
-- [**Forbiddance**](/pathfinderRPG/prd/spells/forbiddance.html#_forbiddance)<sup>M</sup>: Blocks planar travel, damages creatures of different alignment.
+- [**Forbiddance**](/pathfinderRPG/prd/spells/forbiddance.html#_forbiddance)M: Blocks planar travel, damages creatures of different alignment.
 - [**Geas/Quest**](/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest): As _lesser geas, _but affects any creature.
-- [**Glyph of Warding, Greater**](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding-greater)<sup>M</sup>: As _ [glyph of warding](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)_, but up to 10d8 damage or 6th-level spell.
+- [**Glyph of Warding, Greater**](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding-greater)M: As _ [glyph of warding](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)_, but up to 10d8 damage or 6th-level spell.
 - [**Harm**](/pathfinderRPG/prd/spells/harm.html#_harm): Deals 10 points/level damage to target.
 - [**Heal**](/pathfinderRPG/prd/spells/heal.html#_heal): Cures 10 points/level damage, all diseases and mental conditions.
 - [**Heroes' Feast**](/pathfinderRPG/prd/spells/heroesFeast.html#_heroes-feast): Food for one creature/level cures and grants combat bonuses_._
@@ -1010,13 +1010,13 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Owl's Wisdom, Mass**](/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom-mass): As _ [owl's wisdom](/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom)_, affects 1 subject/level.
 - [**Plague Storm**](/pathfinderRPG/prd/ultimateMagic/spells/plagueStorm.html#_plague-storm): Cloud infects creatures like _ [contagion](/pathfinderRPG/prd//spells/contagion.html#_contagion)_.
 - [**Planar Adaptation, Mass**](/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation,-mass): As _ [planar adaptation](/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation)_, but affects multiple creatures.
-- [**Planar Ally**](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally)<sup>M</sup>: As _ [lesser planar ally](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally-lesser), _but up to 12 HD.
+- [**Planar Ally**](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally)M: As _ [lesser planar ally](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally-lesser), _but up to 12 HD.
 - [**Summon Monster VI**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi): Summons extraplanar creature to fight for you.
-- [**Symbol of Fear**](/pathfinderRPG/prd/spells/symbolOfFear.html#_symbol-of-fear)<sup>M</sup>: Triggered rune panics nearby creatures.
-- [**Symbol of Persuasion**](/pathfinderRPG/prd/spells/symbolOfPersuasion.html#_symbol-of-persuasion)<sup>M</sup>: Triggered rune charms nearby creatures.
+- [**Symbol of Fear**](/pathfinderRPG/prd/spells/symbolOfFear.html#_symbol-of-fear)M: Triggered rune panics nearby creatures.
+- [**Symbol of Persuasion**](/pathfinderRPG/prd/spells/symbolOfPersuasion.html#_symbol-of-persuasion)M: Triggered rune charms nearby creatures.
 - [**Symbol of Sealing**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfSealing.html#_symbol-of-sealing): Creates triggered _ [wall of force](/pathfinderRPG/prd//spells/wallOfForce.html#_wall-of-force)_.
 - [**Truespeak**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/aasimars.html#_truespeak): You can communicate with any creature that is not mindless.
-- [**Undeath to Death**](/pathfinderRPG/prd/spells/undeathToDeath.html#_undeath-to-death)<sup>M</sup>: Destroys 1d4 HD/level undead (max. 20d4).
+- [**Undeath to Death**](/pathfinderRPG/prd/spells/undeathToDeath.html#_undeath-to-death)M: Destroys 1d4 HD/level undead (max. 20d4).
 - [**Wind Walk**](/pathfinderRPG/prd/spells/windWalk.html#_wind-walk): You and your allies turn vaporous and travel fast.
 - [**Word of Recall**](/pathfinderRPG/prd/spells/wordOfRecall.html#_word-of-recall): Teleports you back to designated place.
 
@@ -1026,30 +1026,30 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Control Weather**](/pathfinderRPG/prd/spells/controlWeather.html#_control-weather): Changes weather in local area.
 - [**Create Demiplane, Lesser**](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser): Create your own demiplane.
 - [**Cure Serious Wounds, Mass**](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds-mass): Cures 3d8 damage + 1/level, affects 1 subject/level.
-- [**Destruction**](/pathfinderRPG/prd/spells/destruction.html#_destruction)<sup>F</sup>: Kills subject and destroys remains.
+- [**Destruction**](/pathfinderRPG/prd/spells/destruction.html#_destruction)F: Kills subject and destroys remains.
 - [**Dictum**](/pathfinderRPG/prd/spells/dictum.html#_dictum): Kills, paralyzes, staggers, or deafens nonlawful targets.
 - [**Ethereal Jaunt**](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt): You become ethereal for 1 round/level.
 - [**Holy Word**](/pathfinderRPG/prd/spells/holyWord.html#_holy-word): Kills, paralyzes, blinds, or deafens nongood subjects.
 - [**Inflict Serious Wounds, Mass**](/pathfinderRPG/prd/spells/inflictSeriousWounds.html#_inflict-serious-wounds-mass): Deals 3d8 damage + 1/level, affects 1 subject/level.
 - [**Jolting Portent**](/pathfinderRPG/prd/ultimateCombat/spells/joltingPortent.html#_jolting-portent): You inflict a vengeful fate on a creature, dealing electricity damage each time it attacks or casts a spell.
 - [**Lunar Veil**](/pathfinderRPG/prd/ultimateMagic/spells/lunarVeil.html#_lunar-veil): Dispel light and revert lycanthropes.
-- [**Refuge**](/pathfinderRPG/prd/spells/refuge.html#_refuge)<sup>M</sup>: Alters item to transport its possessor to you.
+- [**Refuge**](/pathfinderRPG/prd/spells/refuge.html#_refuge)M: Alters item to transport its possessor to you.
 - [**Regenerate**](/pathfinderRPG/prd/spells/regenerate.html#_regenerate): Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).
 - [**Repulsion**](/pathfinderRPG/prd/spells/repulsion.html#_repulsion): Creatures can't approach you.
-- [**Restoration, Greater**](/pathfinderRPG/prd/spells/restoration.html#_restoration-greater)<sup>M</sup>: As _ [restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration), _plus restores all levels and ability scores.
-- [**Resurrection**](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)<sup>M</sup>: Fully restore dead subject.
+- [**Restoration, Greater**](/pathfinderRPG/prd/spells/restoration.html#_restoration-greater)M: As _ [restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration), _plus restores all levels and ability scores.
+- [**Resurrection**](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)M: Fully restore dead subject.
 - [**Scrying, Greater**](/pathfinderRPG/prd/spells/scrying.html#_scrying-greater): As _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_, but faster and longer.
 - [**Summon Monster VII**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vii): Summons extraplanar creature to fight for you.
-- [**Symbol of Stunning**](/pathfinderRPG/prd/spells/symbolOfStunning.html#_symbol-of-stunning)<sup>M</sup>: Triggered rune stuns nearby creatures.
-- [**Symbol of Weakness**](/pathfinderRPG/prd/spells/symbolOfWeakness.html#_symbol-of-weakness)<sup>M</sup>: Triggered rune weakens nearby creatures.
+- [**Symbol of Stunning**](/pathfinderRPG/prd/spells/symbolOfStunning.html#_symbol-of-stunning)M: Triggered rune stuns nearby creatures.
+- [**Symbol of Weakness**](/pathfinderRPG/prd/spells/symbolOfWeakness.html#_symbol-of-weakness)M: Triggered rune weakens nearby creatures.
 - [**Waves of Ecstasy**](/pathfinderRPG/prd/ultimateMagic/spells/wavesOfEcstasy.html#_waves-of-ecstasy): Pleasure stuns and staggers creatures.
 - [**Word of Chaos**](/pathfinderRPG/prd/spells/wordOfChaos.html#_word-of-chaos): Kills, confuses_, _stuns, or deafens nonchaotic subjects.
 
 - [**Antimagic Field**](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field): Negates magic within 10 ft.
 - [**Call Construct**](/pathfinderRPG/prd/ultimateMagic/spells/callConstruct.html#_call-construct): Summon your golem to you.
-- [**Cloak of Chaos**](/pathfinderRPG/prd/spells/cloakOfChaos.html#_cloak-of-chaos)<sup>F</sup>: +4 to [AC](/pathfinderRPG/prd/combat.html#_armor-class), +4 resistance, and SR 25 against lawful spells.
+- [**Cloak of Chaos**](/pathfinderRPG/prd/spells/cloakOfChaos.html#_cloak-of-chaos)F: +4 to [AC](/pathfinderRPG/prd/combat.html#_armor-class), +4 resistance, and SR 25 against lawful spells.
 - [**Create Demiplane**](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane): As _ [lesser create demiplane](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser)_, but larger and with planar traits.
-- [**Create Greater Undead**](/pathfinderRPG/prd/spells/createGreaterUndead.html#_create-greater-undead)<sup>M</sup>: Create shadows, wraiths, spectres, or devourers.
+- [**Create Greater Undead**](/pathfinderRPG/prd/spells/createGreaterUndead.html#_create-greater-undead)M: Create shadows, wraiths, spectres, or devourers.
 - [**Cure Critical Wounds, Mass**](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds-mass): Cures 4d8 damage + 1/level for many creatures.
 - [**Dimensional Lock**](/pathfinderRPG/prd/spells/dimensionalLock.html#_dimensional-lock): Teleportation and interplanar travel blocked for 1 day/level.
 - [**Discern Location**](/pathfinderRPG/prd/spells/discernLocation.html#_discern-location): Reveals exact location of creature or object.
@@ -1058,38 +1058,38 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Euphoric Tranquility**](/pathfinderRPG/prd/advanced/spells/euphoricTranquility.html#_euphoric-tranquility): Makes a single creature peaceful and friendly.
 - [**Fire Storm**](/pathfinderRPG/prd/spells/fireStorm.html#_fire-storm): Deals 1d6/level fire damage.
 - [**Frightful Aspect**](/pathfinderRPG/prd/ultimateCombat/spells/frightfulAspect.html#_frightful-aspect): You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened.
-- [**Holy Aura**](/pathfinderRPG/prd/spells/holyAura.html#_holy-aura)<sup>F</sup>: +4 to [AC](/pathfinderRPG/prd/combat.html#_armor-class), +4 resistance, and SR 25 against evil spells.
+- [**Holy Aura**](/pathfinderRPG/prd/spells/holyAura.html#_holy-aura)F: +4 to [AC](/pathfinderRPG/prd/combat.html#_armor-class), +4 resistance, and SR 25 against evil spells.
 - [**Inflict Critical Wounds, Mass**](/pathfinderRPG/prd/spells/inflictCriticalWounds.html#_inflict-critical-wounds-mass): Deals 4d8 damage + 1/level, affects 1 subject/level.
 - [**Nine Lives**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/catfolk.html#_nine-lives): Gives the target the ability to get out of trouble and relieves harmful effects and conditions.
 - [**Orb of the Void**](/pathfinderRPG/prd/ultimateMagic/spells/orbOfTheVoid.html#_orb-of-the-void): Sphere inflicts negative levels.
-- [**Planar Ally, Greater**](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally-greater)<sup>M</sup>: As _ [lesser planar ally](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally-lesser), _but up to 18 HD.
-- [**Shield of Law**](/pathfinderRPG/prd/spells/shieldOfLaw.html#_shield-of-law)<sup>F</sup>: +4 to [AC](/pathfinderRPG/prd/combat.html#_armor-class), +4 resistance, and SR 25 against chaotic spells.
+- [**Planar Ally, Greater**](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally-greater)M: As _ [lesser planar ally](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally-lesser), _but up to 18 HD.
+- [**Shield of Law**](/pathfinderRPG/prd/spells/shieldOfLaw.html#_shield-of-law)F: +4 to [AC](/pathfinderRPG/prd/combat.html#_armor-class), +4 resistance, and SR 25 against chaotic spells.
 - [**Spell Immunity, Greater**](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity-greater): As _ [spell immunity](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity), _but up to 8th-level spells.
 - [**Stormbolts**](/pathfinderRPG/prd/advanced/spells/stormbolts.html#_stormbolts): 1d8 damage/level (max 20d8) to targets.
 - [**Summon Monster VIII**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-viii): Summons extraplanar creature to fight for you.
-- [**Symbol of Death**](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)<sup>M</sup>: Triggered rune kills nearby creatures.
-- [**Symbol of Insanity**](/pathfinderRPG/prd/spells/symbolOfInsanity.html#_symbol-of-insanity)<sup>M</sup>: Triggered rune renders nearby creatures insane.
-- [**Unholy Aura**](/pathfinderRPG/prd/spells/unholyAura.html#_unholy-aura)<sup>F</sup>: +4 to [AC](/pathfinderRPG/prd/combat.html#_armor-class), +4 resistance, and SR 25 against good spells.
+- [**Symbol of Death**](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)M: Triggered rune kills nearby creatures.
+- [**Symbol of Insanity**](/pathfinderRPG/prd/spells/symbolOfInsanity.html#_symbol-of-insanity)M: Triggered rune renders nearby creatures insane.
+- [**Unholy Aura**](/pathfinderRPG/prd/spells/unholyAura.html#_unholy-aura)F: +4 to [AC](/pathfinderRPG/prd/combat.html#_armor-class), +4 resistance, and SR 25 against good spells.
 
-- [**Astral Projection**](/pathfinderRPG/prd/spells/astralProjection.html#_astral-projection)<sup>M</sup>: Projects you and others onto Astral Plane.
+- [**Astral Projection**](/pathfinderRPG/prd/spells/astralProjection.html#_astral-projection)M: Projects you and others onto Astral Plane.
 - [**Create Demiplane, Greater**](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-greater): As _ [create demiplane](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane)_, but larger and with more planar traits.
 - [**Cursed Earth**](/pathfinderRPG/prd/ultimateMagic/spells/cursedEarth.html#_cursed-earth): Plants die, living creatures catch diseases, or dead creatures rise as zombies.
 - [**Energy Drain**](/pathfinderRPG/prd/spells/energyDrain.html#_energy-drain): Subject gains 2d4 [negative levels](/pathfinderRPG/prd/glossary.html#_energy-drain-and-negative-levels).
 - [**Etherealness**](/pathfinderRPG/prd/spells/etherealness.html#_etherealness): Travel to Ethereal Plane with companions.
-- [**Gate**](/pathfinderRPG/prd/spells/gate.html#_gate)<sup>M</sup>: Connects two planes for travel or summoning.
+- [**Gate**](/pathfinderRPG/prd/spells/gate.html#_gate)M: Connects two planes for travel or summoning.
 - [**Heal, Mass**](/pathfinderRPG/prd/spells/heal.html#_heal-mass): As _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, but affects 1 subject/level.
 - [**Implosion**](/pathfinderRPG/prd/spells/implosion.html#_implosion): Inflict 10 damage/level to one creature/round.
 - [**Interplanetary Teleport**](/pathfinderRPG/prd/ultimateMagic/spells/interplanetaryTeleport.html#_interplanetary-teleport): Teleport to another planet.
-- [**Miracle**](/pathfinderRPG/prd/spells/miracle.html#_miracle)<sup>M</sup>: Requests a deity's intercession.
+- [**Miracle**](/pathfinderRPG/prd/spells/miracle.html#_miracle)M: Requests a deity's intercession.
 - [**Overwhelming Presence**](/pathfinderRPG/prd/ultimateMagic/spells/overwhelmingPresence.html#_overwhelming-presence): Creatures bow before you as if you were divine.
 - [**Polar Midnight**](/pathfinderRPG/prd/ultimateMagic/spells/polarMidnight.html#_polar-midnight): Cold darkness paralyzes and deals damage.
-- [**Soul Bind**](/pathfinderRPG/prd/spells/soulBind.html#_soul-bind)<sup>F</sup>: Traps newly dead soul to prevent _ [resurrection](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)_.
+- [**Soul Bind**](/pathfinderRPG/prd/spells/soulBind.html#_soul-bind)F: Traps newly dead soul to prevent _ [resurrection](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)_.
 - [**Spell Immunity, Greater Communal**](/pathfinderRPG/prd/ultimateCombat/spells/spellImmunity.html#_spell-immunity,-greater-communal): As _ [greater spell immunity](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity-greater)_, but you may divide the duration among creatures touched.
 - [**Storm of Vengeance**](/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance): Storm rains acid, lightning, and hail.
 - [**Summon Monster IX**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ix): Summons extraplanar creature to fight for you.
 - [**Symbol of Strife**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfStrife.html#_symbol-of-strife): Triggered rune makes creatures attack.
 - [**Symbol of Vulnerability**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfVulnerability.html#_symbol-of-vulnerability): Triggered rune gives penalties.
-- [**True Resurrection**](/pathfinderRPG/prd/spells/trueResurrection.html#_true-resurrection)<sup>M</sup>: As _ [resurrection](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)_, plus remains aren't needed.
+- [**True Resurrection**](/pathfinderRPG/prd/spells/trueResurrection.html#_true-resurrection)M: As _ [resurrection](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)_, plus remains aren't needed.
 - [**Winds of Vengeance**](/pathfinderRPG/prd/advanced/spells/windsOfVengeance.html#_winds-of-vengeance): Grants flight; attack with wind.
 - [**Wooden Phalanx**](/pathfinderRPG/prd/ultimateMagic/spells/woodenPhalanx.html#_wooden-phalanx): Creates 1d4+2 temporary wood golems to fight for you.
 
@@ -1191,7 +1191,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Elemental Speech**](/pathfinderRPG/prd/advanced/spells/elementalSpeech.html#_elemental-speech): Enables you to speak to elementals and some creatures.
 - [**Endure Elements, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/endureElements.html#_endure-elements,-communal): As _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, but you may divide the duration among creatures touched.
 - [**Feast of Ashes**](/pathfinderRPG/prd/advanced/spells/feastOfAshes.html#_feast-of-ashes): A target starves with an insatiable hunger.
-- [**Fire Trap**](/pathfinderRPG/prd/spells/fireTrap.html#_fire-trap)<sup>M</sup>: Opened object deals 1d4 + 1/level damage.
+- [**Fire Trap**](/pathfinderRPG/prd/spells/fireTrap.html#_fire-trap)M: Opened object deals 1d4 + 1/level damage.
 - [**Flame Blade**](/pathfinderRPG/prd/spells/flameBlade.html#_flame-blade): Touch attack deals 1d8 + 1/two levels damage.
 - [**Flaming Sphere**](/pathfinderRPG/prd/spells/flamingSphere.html#_flaming-sphere): Rolling ball of fire deals 3d6 fire damage.
 - [**Fog Cloud**](/pathfinderRPG/prd/spells/fogCloud.html): Fog obscures vision.
@@ -1246,7 +1246,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Cloak of Winds**](/pathfinderRPG/prd/advanced/spells/cloakOfWinds.html#_cloak-of-winds): Creates screen of strong wind around you.
 - [**Companion Mind Link**](/pathfinderRPG/prd/ultimateCombat/spells/companionMindLink.html#_companion-mind-link): You can talk with your animal companion, and can handle it with supernatural ease.
 - [**Contagion**](/pathfinderRPG/prd/spells/contagion.html#_contagion): Infects subject with chosen disease.
-- [**Create Treasure Map**](/pathfinderRPG/prd/advanced/spells/createTreasureMap.html#_create-treasure-map-)<sup>M</sup>: Creates treasure map out of a creature's corpse.
+- [**Create Treasure Map**](/pathfinderRPG/prd/advanced/spells/createTreasureMap.html#_create-treasure-map-)M: Creates treasure map out of a creature's corpse.
 - [**Cup of Dust**](/pathfinderRPG/prd/advanced/spells/cupOfDust.html#_cup-of-dust): Causes a creature to become dehydrated.
 - [**Cure Moderate Wounds**](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds): Cures 2d8 damage + 1/level (max +10).
 - [**Daylight**](/pathfinderRPG/prd/spells/daylight.html#_daylight): 60-ft. radius of bright light.
@@ -1327,7 +1327,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Ride the Waves**](/pathfinderRPG/prd/ultimateMagic/spells/rideTheWaves.html#_ride-the-waves): Target can breathe water and swim.
 - [**River of Wind**](/pathfinderRPG/prd/advanced/spells/riverOfWind.html#_river-of-wind): Creates wind that causes nonlethal damage and can knock down or push creatures.
 - [**Rusting Grasp**](/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp): Your touch corrodes iron and alloys.
-- [**Scrying**](/pathfinderRPG/prd/spells/scrying.html#_scrying)<sup>F</sup>: Spies on subject from a distance.
+- [**Scrying**](/pathfinderRPG/prd/spells/scrying.html#_scrying)F: Spies on subject from a distance.
 - [**Spike Stones**](/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones): Creatures in area take 1d8 damage, may also be slowed_._
 - [**Strong Jaw**](/pathfinderRPG/prd/advanced/spells/strongJaw.html#_strong-jaw): Natural attacks damage as two sizes bigger.
 - [**Summon Nature's Ally IV**](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-iv): Summons creature to fight.
@@ -1340,8 +1340,8 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Air Walk, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/airWalk.html#_air-walk,-communal): As _ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, but you may divide the duration among creatures touched.
 - [**Animal Growth**](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth): One animal doubles in size.
 - [**Aspect of the Wolf**](/pathfinderRPG/prd/advanced/spells/aspectOfTheWolf.html#_aspect-of-the-wolf): +4 Str and Dex, +2 bonus on trip attacks.
-- [**Atonement**](/pathfinderRPG/prd/spells/atonement.html#_atonement)<sup>FM</sup>: Removes burden of misdeeds from subject.
-- [**Awaken**](/pathfinderRPG/prd/spells/awaken.html#_awaken)<sup>M</sup>: Animal or tree gains human intellect.
+- [**Atonement**](/pathfinderRPG/prd/spells/atonement.html#_atonement)FM: Removes burden of misdeeds from subject.
+- [**Awaken**](/pathfinderRPG/prd/spells/awaken.html#_awaken)M: Animal or tree gains human intellect.
 - [**Baleful Polymorph**](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph): Transforms subject into harmless animal.
 - [**Blessing of the Salamander**](/pathfinderRPG/prd/advanced/spells/blessingOfTheSalamander.html#_blessing-of-the-salamander): Subject gets fast healing 2, fire resistance 10, and +2 to its CMD.
 - [**Call Lightning Storm**](/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm): As _ [call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning), _but 5d6 damage per bolt.
@@ -1353,20 +1353,20 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Fickle Winds**](/pathfinderRPG/prd/ultimateMagic/spells/fickleWinds.html#_fickle-winds): Wind walls selectively block attacks.
 - [**Fire Snake**](/pathfinderRPG/prd/advanced/spells/fireSnake.html#_fire-snake): Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level.
 - [**Half-blood Extraction**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halfOrcs.html#_half-blood-extraction): You transform the target half-orc into a full-blooded orc.
-- [**Hallow**](/pathfinderRPG/prd/spells/hallow.html#_hallow)<sup>M</sup>: Designates location as holy.
+- [**Hallow**](/pathfinderRPG/prd/spells/hallow.html#_hallow)M: Designates location as holy.
 - [**Insect Plague**](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague): Wasp swarms attack creatures.
 - [**Old Salt's Curse**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/humans.html#_old-salt's-curse): Inflict a curse of the roiling sea upon the target, making it permanently sickened.
 - [**Raise Animal Companion**](/pathfinderRPG/prd/ultimateMagic/spells/raiseAnimalCompanion.html#_raise-animal-companion): As _ [raise dead](/pathfinderRPG/prd//spells/raiseDead.html#_raise-dead)_, but on an animal.
 - [**Reprobation**](/pathfinderRPG/prd/ultimateMagic/spells/reprobation.html#_reprobation): Marked target is shunned by your religion.
-- [**Rest Eternal**](/pathfinderRPG/prd/advanced/spells/restEternal.html#_rest-eternal)<sup>M</sup>: Dead creature cannot be revived.
+- [**Rest Eternal**](/pathfinderRPG/prd/advanced/spells/restEternal.html#_rest-eternal)M: Dead creature cannot be revived.
 - [**Snake Staff**](/pathfinderRPG/prd/advanced/spells/snakeStaff.html#_snake-staff): Transforms wood into snakes to fight for you.
-- [**Stoneskin**](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)<sup>M</sup>: Grants [DR](/pathfinderRPG/prd/glossary.html#_damage-reduction) 10/adamantine.
+- [**Stoneskin**](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)M: Grants [DR](/pathfinderRPG/prd/glossary.html#_damage-reduction) 10/adamantine.
 - [**Summon Nature's Ally V**](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-v): Summons creature to fight.
-- [**Threefold Aspect**](/pathfinderRPG/prd/advanced/spells/threefoldAspect.html#_threefold-aspect)<sup>F</sup>: Appear older or younger.
+- [**Threefold Aspect**](/pathfinderRPG/prd/advanced/spells/threefoldAspect.html#_threefold-aspect)F: Appear older or younger.
 - [**Transmute Mud to Rock**](/pathfinderRPG/prd/spells/transmuteMudToRock.html#_transmute-mud-to-rock): Transforms two 10-ft. cubes per level.
 - [**Transmute Rock to Mud**](/pathfinderRPG/prd/spells/transmuteRockToMud.html#_transmute-rock-to-mud): Transforms two 10-ft. cubes per level.
 - [**Tree Stride**](/pathfinderRPG/prd/spells/treeStride.html#_tree-stride): Step from one tree to another far away.
-- [**Unhallow**](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)<sup>M</sup>: Designates location as unholy.
+- [**Unhallow**](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)M: Designates location as unholy.
 - [**Wall of Fire**](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire): Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
 - [**Wall of Thorns**](/pathfinderRPG/prd/spells/wallOfThorns.html#_wall-of-thorns): Thorns damage anyone who tries to pass.
 - [**Wind Blades**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/sylphs.html#_wind-blades): Harden the air around the target into jagged invisible blades.
@@ -1394,7 +1394,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Sirocco**](/pathfinderRPG/prd/advanced/spells/sirocco.html#_sirocco): Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
 - [**Spellstaff**](/pathfinderRPG/prd/spells/spellstaff.html#_spellstaff): Stores one spell in wooden quarterstaff.
 - [**Stone Tell**](/pathfinderRPG/prd/spells/stoneTell.html#_stone-tell): Talk to natural or worked stone.
-- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)<sup>M</sup>: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
+- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)M: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
 - [**Summon Nature's Ally VI**](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-vi): Summons creature to fight.
 - [**Swarm Skin**](/pathfinderRPG/prd/advanced/spells/swarmSkin.html#_swarm-skin-): Turns your body into a swarm that can attack.
 - [**Tar Pool**](/pathfinderRPG/prd/ultimateCombat/spells/tarPool.html#_tar-pool): Converts the top layer of the ground into hot tar.
@@ -1417,7 +1417,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Summon Nature's Ally VII**](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-vii): Summons creature to fight.
 - [**Sunbeam**](/pathfinderRPG/prd/spells/sunbeam.html#_sunbeam): Beam blinds and deals 4d6 damage.
 - [**Transmute Metal to Wood**](/pathfinderRPG/prd/spells/transmuteMetalToWood.html#_transmute-metal-to-wood): Metal within 40 ft. becomes wood.
-- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)<sup>M</sup>: Lets you see all things as they really are.
+- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)M: Lets you see all things as they really are.
 - [**Vortex**](/pathfinderRPG/prd/advanced/spells/vortex.html#_vortex): Creates a whirlpool in water.
 - [**Wind Walk**](/pathfinderRPG/prd/spells/windWalk.html#_wind-walk): You and your allies turn vaporous and travel fast.
 
@@ -1448,13 +1448,13 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Polar Midnight**](/pathfinderRPG/prd/ultimateMagic/spells/polarMidnight.html#_polar-midnight): Cold darkness paralyzes and deals damage.
 - [**Regenerate**](/pathfinderRPG/prd/spells/regenerate.html#_regenerate): Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).
 - [**Shambler**](/pathfinderRPG/prd/spells/shambler.html#_shambler): Creates 1d4+2 shambling mounds to fight for you.
-- [**Shapechange**](/pathfinderRPG/prd/spells/shapechange.html#_shapechange)<sup>F</sup>: Transforms you into certain creatures, and you can change forms once per round.
+- [**Shapechange**](/pathfinderRPG/prd/spells/shapechange.html#_shapechange)F: Transforms you into certain creatures, and you can change forms once per round.
 - [**Siege of Trees, Greater**](/pathfinderRPG/prd/ultimateCombat/spells/siegeOfTrees.html#_siege-of-trees,-greater): As _ [siege of trees](/pathfinderRPG/prd/ultimateCombat/spells/siegeOfTrees.html#_siege-of-trees)_, but can transform Huge and Gargantuan trees into arboreal catapults of the same size.
 - [**Storm of Vengeance**](/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance): Storm rains acid, lightning, and hail.
 - [**Summon Elder Worm**](/pathfinderRPG/prd/ultimateMagic/spells/summonElderWorm.html#_summon-elder-worm): Summon a giant purple worm.
 - [**Summon Froghemoth**](/pathfinderRPG/prd/ultimateMagic/spells/summonFroghemoth.html#_summon-froghemoth): Summon a froghemoth.
 - [**Summon Nature's Ally IX**](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-ix): Summons creature to fight.
-- [**Sympathy**](/pathfinderRPG/prd/spells/sympathy.html#_sympathy)<sup>M</sup>: Object or location attracts certain creatures.
+- [**Sympathy**](/pathfinderRPG/prd/spells/sympathy.html#_sympathy)M: Object or location attracts certain creatures.
 - [**Tsunami**](/pathfinderRPG/prd/advanced/spells/tsunami.html#_tsunami): Huge wave damages and sweeps up all in its path.
 - [**Winds of Vengeance**](/pathfinderRPG/prd/advanced/spells/windsOfVengeance.html#_winds-of-vengeance): You can fly and attack with wind.
 - [**World Wave**](/pathfinderRPG/prd/advanced/spells/worldWave.html#_world-wave-): Earth or water moves you across distances and damages things not of the natural world.
@@ -1479,7 +1479,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Accelerate Poison**](/pathfinderRPG/prd/advanced/spells/acceleratePoison.html#_accelerate-poison): Hastens targeted poison's onset.
 - [**Acid Arrow**](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow): Ranged touch attack; 2d4 damage for 1 round + 1 round/3 levels.
 - [**Burning Gaze**](/pathfinderRPG/prd/advanced/spells/burningGaze.html#_burning-gaze): 1d6 fire damage to target by looking at it.
-- [**Create Pit**](/pathfinderRPG/prd/advanced/spells/createPit.html#_create-pit-)<sup>F</sup>: Creates an extradimensional pit.
+- [**Create Pit**](/pathfinderRPG/prd/advanced/spells/createPit.html#_create-pit-)F: Creates an extradimensional pit.
 - [**Elemental Speech**](/pathfinderRPG/prd/advanced/spells/elementalSpeech.html#_elemental-speech): Enables you to speak to elementals and some creatures.
 - [**Elemental Touch**](/pathfinderRPG/prd/advanced/spells/elementalTouch.html#_elemental-touch): Gain energy damage touch attack.
 - [**Fire Breath**](/pathfinderRPG/prd/advanced/spells/fireBreath.html#_fire-breath): Exhale a cone of flame at will.
@@ -1517,21 +1517,21 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Water Breathing**](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing): Subjects can breathe underwater.
 - [**Wind Wall**](/pathfinderRPG/prd/spells/windWall.html#_wind-wall): Deflects arrows, smaller creatures, gasses.
 
-- [**Acid Pit**](/pathfinderRPG/prd/advanced/spells/acidPit.html#_acid-pit-)<sup>M</sup>: Creates a pit with acid at the bottom.
+- [**Acid Pit**](/pathfinderRPG/prd/advanced/spells/acidPit.html#_acid-pit-)M: Creates a pit with acid at the bottom.
 - [**Ball Lightning**](/pathfinderRPG/prd/advanced/spells/ballLightning.html#_ball-lightning): Flying balls of lightning deal 3d6 electricity damage each.
 - [**Calcific Touch**](/pathfinderRPG/prd/advanced/spells/calcificTouch.html#_calcific-touch): Touch slows target, 1d4 Dex damage.
 - [**Detonate**](/pathfinderRPG/prd/advanced/spells/detonate.html#_detonate): 1d8/level energy damage to nearby creatures.
 - [**Dragon's Breath**](/pathfinderRPG/prd/advanced/spells/dragonSBreath.html#_dragon's-breath): Gives you a dragon's breath weapon.
 - [**Elemental Body I**](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i): Turns you into a Small elemental.
 - [**Fire Shield**](/pathfinderRPG/prd/spells/fireShield.html#_fire-shield): Creatures attacking you take fire damage; you're protected from heat or cold.
-- [**Fire Trap**](/pathfinderRPG/prd/spells/fireTrap.html#_fire-trap)<sup>M</sup>: Opened object deals 1d4 damage +1/level.
+- [**Fire Trap**](/pathfinderRPG/prd/spells/fireTrap.html#_fire-trap)M: Opened object deals 1d4 damage +1/level.
 - [**Firefall**](/pathfinderRPG/prd/advanced/spells/firefall.html#_firefall): Fire bursts upward, dealing 2d6 fire damage.
 - [**Ice Storm**](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm): Hail deals 5d6 damage in area 40 ft. across.
 - [**River of Wind**](/pathfinderRPG/prd/advanced/spells/riverOfWind.html#_river-of-wind): A stream of wind causes nonlethal damage and can knock down or push creatures.
 - [**Shout**](/pathfinderRPG/prd/spells/shout.html#_shout): Deafens all within cone, 5d6 sonic damage.
 - [**Solid Fog**](/pathfinderRPG/prd/spells/solidFog.html#_solid-fog): Blocks vision and slows movement.
 - [**Stone Shape**](/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape): Sculpts stone into any shape.
-- [**Stoneskin**](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)<sup>M</sup>: Grants DR 10/adamantine.
+- [**Stoneskin**](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)M: Grants DR 10/adamantine.
 - [**Summon Monster IV**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv): Summons elemental creature to fight for you.
 - [**Wall of Fire**](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire): 2d4 fire damage to 10 ft. and 1d4 to 20 ft. Passing through wall deals 2d6 damage +1/level.
 - [**Wall of Ice**](/pathfinderRPG/prd/spells/wallOfIce.html#_wall-of-ice): Ice plane creates wall or hemisphere creates dome.
@@ -1565,7 +1565,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Sirocco**](/pathfinderRPG/prd/advanced/spells/sirocco.html#_sirocco): Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
 - [**Stone to Flesh**](/pathfinderRPG/prd/spells/stoneToFlesh.html#_stone-to-flesh): Restores petrified creature.
 - [**Summon Monster VI**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi): Summons elemental creature to fight for you.
-- [**Wall of Iron**](/pathfinderRPG/prd/spells/wallOfIron.html#_wall-of-iron)<sup>M</sup>: 30 hp/four levels; can topple onto foes.
+- [**Wall of Iron**](/pathfinderRPG/prd/spells/wallOfIron.html#_wall-of-iron)M: 30 hp/four levels; can topple onto foes.
 
 - [**Control Weather**](/pathfinderRPG/prd/spells/controlWeather.html#_control-weather): Changes weather in local area.
 - [**Control Weather**](/pathfinderRPG/prd/spells/controlWeather.html#_control-weather): Changes weather in local area.
@@ -1593,7 +1593,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 
 - [**Clashing Rocks**](/pathfinderRPG/prd/advanced/spells/clashingRocks.html#_clashing-rocks): 20d6 damage to target creature.
 - [**Fiery Body**](/pathfinderRPG/prd/advanced/spells/fieryBody.html#_fiery-body): You gain various fire-related powers.
-- [**Gate**](/pathfinderRPG/prd/spells/gate.html#_gate)<sup>M</sup>: Connects two planes for travel or summoning.
+- [**Gate**](/pathfinderRPG/prd/spells/gate.html#_gate)M: Connects two planes for travel or summoning.
 - [**Meteor Swarm**](/pathfinderRPG/prd/spells/meteorSwarm.html#_meteor-swarm): Four meteors each deal 6d6 fire damage.
 - [**Suffocation, Mass**](/pathfinderRPG/prd/advanced/spells/suffocation.html#_suffocation,-mass): One creature/level suffocates.
 - [**Tsunami**](/pathfinderRPG/prd/advanced/spells/tsunami.html#_tsunami): Wave damages and sweeps up all in its path.
@@ -1622,7 +1622,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Alarm**](/pathfinderRPG/prd/spells/alarm.html#_alarm): Wards an area for 2 hours/level.
 - [**Bane**](/pathfinderRPG/prd/spells/bane.html#_bane): Enemies take –1 on attack rolls and saves against fear.
 - [**Bless**](/pathfinderRPG/prd/spells/bless.html#_bless): Allies gain +1 on attack rolls and saves against fear.
-- [**Bless Water**](/pathfinderRPG/prd/spells/blessWater.html#_bless-water)<sup>M</sup>: Makes holy water.
+- [**Bless Water**](/pathfinderRPG/prd/spells/blessWater.html#_bless-water)M: Makes holy water.
 - [**Bowstaff**](/pathfinderRPG/prd/ultimateCombat/spells/bowstaff.html#_bowstaff): A shortbow may double as a club, or a longbow as a quarterstaff.
 - [**Burst Bonds**](/pathfinderRPG/prd/advanced/spells/burstBonds.html#_burst-bonds): 1d6 damage/level (max 5d6) to restraints.
 - [**Cause Fear**](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear): A creature of 5 HD or less flees for 1d4 rounds.
@@ -1630,7 +1630,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Compel Hostility**](/pathfinderRPG/prd/ultimateCombat/spells/compelHostility.html#_compel-hostility): Compels opponents to attack you instead of your allies.
 - [**Comprehend Languages**](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages): You understand all spoken and written languages.
 - [**Cure Light Wounds**](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
-- [**Curse Water**](/pathfinderRPG/prd/spells/curseWater.html#_curse-water)<sup>M</sup>: Makes unholy water.
+- [**Curse Water**](/pathfinderRPG/prd/spells/curseWater.html#_curse-water)M: Makes unholy water.
 - [**Deadeye's Lore**](/pathfinderRPG/prd/ultimateCombat/spells/deadeyeSLore.html#_deadeye's-lore): Gain a +4 bonus on [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) and move full speed while tracking.
 - [**Detect Chaos/Evil/Good/Law**](/pathfinderRPG/prd/spells/detectChaos.html#_detect-chaos): Reveals creatures, spells, or objects of selected alignment.
 - [**Detect Undead**](/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead): Reveals undead within 60 ft.
@@ -1685,7 +1685,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Calm Emotions**](/pathfinderRPG/prd/spells/calmEmotions.html#_calm-emotions): Calms creatures, negating emotion effects.
 - [**Castigate**](/pathfinderRPG/prd/advanced/spells/castigate.html#_castigate): Causes target to be shaken and cower.
 - [**Confess**](/pathfinderRPG/prd/advanced/spells/confess.html#_confess): Creature answers question truthfully or takes 1d6 damage/two levels (max 5d6).
-- [**Consecrate**](/pathfinderRPG/prd/spells/consecrate.html#_consecrate)<sup>M</sup>: Fills area with positive energy, weakening undead.
+- [**Consecrate**](/pathfinderRPG/prd/spells/consecrate.html#_consecrate)M: Fills area with positive energy, weakening undead.
 - [**Corruption Resistance**](/pathfinderRPG/prd/advanced/spells/corruptionResistance.html#_corruption-resistance): Protects creature against damage from alignment-based attacks.
 - [**Cure Moderate Wounds**](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds): Cures 2d8 damage +1/level (max. +10).
 - [**Darkness**](/pathfinderRPG/prd/spells/darkness.html#_darkness): 20-ft. radius of supernatural shadow.
@@ -1694,7 +1694,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Delay Disease**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ratfolk.html#_delay-disease): The target becomes temporarily immune to disease.
 - [**Delay Pain**](/pathfinderRPG/prd/ultimateMagic/spells/delayPain.html#_delay-pain): Ignore pain for 1 hour/level.
 - [**Delay Poison**](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison): Stops poison from harming subject for 1 hour/level.
-- [**Desecrate**](/pathfinderRPG/prd/spells/desecrate.html#_desecrate)<sup>M</sup>: Fills area with negative energy, making undead stronger.
+- [**Desecrate**](/pathfinderRPG/prd/spells/desecrate.html#_desecrate)M: Fills area with negative energy, making undead stronger.
 - [**Detect Thoughts**](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts): Allows âlisteningâ to surface thoughts.
 - [**Discovery Torch**](/pathfinderRPG/prd/ultimateCombat/spells/discoveryTorch.html#_discovery-torch-): Object touched emanates bright light, granting [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) and [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) bonuses.
 - [**Disguise Other**](/pathfinderRPG/prd/ultimateMagic/spells/disguiseOther.html#_disguise-other): As _ [disguise self](/pathfinderRPG/prd//spells/disguiseSelf.html#_disguise-self)_, but affects you or another.
@@ -1727,10 +1727,10 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Resistance**](/pathfinderRPG/prd/spells/resistance.html#_resistance): Subject gains +1 on saving throws.
 - [**Restoration, Lesser**](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser): Dispels magical ability penalty or repairs 1d4 ability damage.
 - [**Returning Weapon, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/returningWeapon.html#_returning-weapon,-communal): As _ [returning weapon](/pathfinderRPG/prd/ultimateCombat/spells/returningWeapon.html#_returning-weapon)_, but you may divide the duration among weapons touched.
-- [**Sacred Bond**](/pathfinderRPG/prd/advanced/spells/sacredBond.html#_sacred-bond)<sup>F</sup>: Cast touch healing spells from a distance.
+- [**Sacred Bond**](/pathfinderRPG/prd/advanced/spells/sacredBond.html#_sacred-bond)F: Cast touch healing spells from a distance.
 - [**Savage Maw**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halfOrcs.html#_savage-maw): Your teeth extend and sharpen, transforming your mouth into a maw of razor-sharp fangs.
 - [**See Invisibility**](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility): Reveals [invisible](/pathfinderRPG/prd/glossary.html#_invisible) creatures or objects.
-- [**Shield Other**](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)<sup>F</sup>: You take half of subject's damage.
+- [**Shield Other**](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)F: You take half of subject's damage.
 - [**Silence**](/pathfinderRPG/prd/spells/silence.html#_silence): Negates sound in 20-ft. radius.
 - [**Spiritual Weapon**](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon): Magic weapon attacks on its own.
 - [**Surmount Affliction**](/pathfinderRPG/prd/ultimateMagic/spells/surmountAffliction.html#_surmount-affliction): Temporarily suppress one condition.
@@ -1751,7 +1751,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Blood Scent**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/orcs.html#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
 - [**Burst of Speed**](/pathfinderRPG/prd/ultimateCombat/spells/burstOfSpeed.html#_burst-of-speed): You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.
 - [**Cast Out**](/pathfinderRPG/prd/advanced/spells/castOut.html#_cast-out): Does 2d8 damage +1/level (max +15) to creature and dispels an effect.
-- [**Continual Flame**](/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame)<sup>M</sup>: Makes a permanent, heatless light.
+- [**Continual Flame**](/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame)M: Makes a permanent, heatless light.
 - [**Coordinated Effort**](/pathfinderRPG/prd/advanced/spells/coordinatedEffort.html#_coordinated-effort): Grants allies a teamwork feat.
 - [**Countless Eyes**](/pathfinderRPG/prd/ultimateMagic/spells/countlessEyes.html#_countless-eyes): Extra eyes give all-around vision.
 - [**Cure Serious Wounds**](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
@@ -1765,7 +1765,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Eldritch Fever**](/pathfinderRPG/prd/ultimateMagic/spells/eldritchFever.html#_eldritch-fever): Target gains the eldritch ague spellblight.
 - [**Fearsome Duplicate**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halflings.html#_fearsome-duplicate): You create a larger and far more menacing version of yourself.
 - [**Fester**](/pathfinderRPG/prd/advanced/spells/fester.html#_fester): Gives subject SR 12 + your level vs. healing effects.
-- [**Glyph of Warding**](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)<sup>M</sup>: Inscription harms those who pass it.
+- [**Glyph of Warding**](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)M: Inscription harms those who pass it.
 - [**Halt Undead**](/pathfinderRPG/prd/spells/haltUndead.html#_halt-undead-copy): Immobilizes undead for 1 round/level.
 - [**Heroism**](/pathfinderRPG/prd/spells/heroism.html#_heroism): Gives +2 bonus on attack rolls, saves, skill checks.
 - [**Hidden Speech**](/pathfinderRPG/prd/advanced/spells/hiddenSpeech.html#_hidden-speech): Gain +10 on [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) to send secret messages.
@@ -1782,7 +1782,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Locate Weakness**](/pathfinderRPG/prd/ultimateCombat/spells/locateWeakness.html#_locate-weakness): You roll damage twice when you roll damage for a critical hit and take the best damage.
 - [**Magic Vestment**](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment): Armor or shield gains +1 enhancement per four levels.
 - [**Magic Weapon, Greater**](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater): Weapon gains +1 bonus/four levels (max +5).
-- [**Nondetection**](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)<sup>M</sup>: Hides subject from divination, [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying).
+- [**Nondetection**](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)M: Hides subject from divination, [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying).
 - [**Obscure Object**](/pathfinderRPG/prd/spells/obscureObject.html#_obscure-object): Masks object against [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying).
 - [**Prayer**](/pathfinderRPG/prd/spells/prayer.html#_prayer): Allies get +1 bonus on most rolls, enemies –1 penalty.
 - [**Protection From Energy**](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
@@ -1812,7 +1812,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Detect Scrying**](/pathfinderRPG/prd/spells/detectScrying.html#_detect-scrying): Alerts you to magical eavesdropping
 - [**Discern Lies**](/pathfinderRPG/prd/spells/discernLies.html#_discern-lies): Reveals deliberate falsehoods.
 - [**Dismissal**](/pathfinderRPG/prd/spells/dismissal.html#_dismissal): Forces a creature to return to its native plane.
-- [**Divination**](/pathfinderRPG/prd/spells/divination.html#_divination)<sup>M</sup>: Provides useful advice for specific proposed actions.
+- [**Divination**](/pathfinderRPG/prd/spells/divination.html#_divination)M: Provides useful advice for specific proposed actions.
 - [**Divine Power**](/pathfinderRPG/prd/spells/divinePower.html#_divine-power): You gain attack bonuses and 1 hp/level.
 - [**Fear**](/pathfinderRPG/prd/spells/fear.html#_fear): Subjects within cone flee for 1 round/level.
 - [**Find Quarry**](/pathfinderRPG/prd/ultimateCombat/spells/findQuarry.html#_find-quarry): You can sense whether a particular creature is within 20 miles of your location.
@@ -1836,22 +1836,22 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Protection from Energy, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/protectionFromEnergy.html#_protection-from-energy,-communal): As _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, but you may divide the duration among creatures touched.
 - [**Rebuke**](/pathfinderRPG/prd/advanced/spells/rebuke.html#_rebuke): Foes take 1d8 damage/two caster levels (max 5d8).
 - [**Reprobation**](/pathfinderRPG/prd/ultimateMagic/spells/reprobation.html#_reprobation): Marked target is shunned by your religion.
-- [**Restoration**](/pathfinderRPG/prd/spells/restoration.html#_restoration)<sup>M</sup>: Restores level and ability score drains.
+- [**Restoration**](/pathfinderRPG/prd/spells/restoration.html#_restoration)M: Restores level and ability score drains.
 - [**Sanctify Armor**](/pathfinderRPG/prd/advanced/spells/sanctifyArmor.html#_sanctify-armor): +1 AC/four levels (max +5).
 - [**Sending**](/pathfinderRPG/prd/spells/sending.html#_sending): Delivers short message anywhere, instantly.
 - [**Shared Wrath**](/pathfinderRPG/prd/advanced/spells/sharedWrath.html#_shared-wrath): As _ [wrath](/pathfinderRPG/prd/advanced/spells/wrath.html#_wrath)_, but affects multiple creatures.
-- [**Sleepwalk**](/pathfinderRPG/prd/advanced/spells/sleepwalk.html#_sleepwalk)<sup>M</sup>: Causes creature to move while asleep.
+- [**Sleepwalk**](/pathfinderRPG/prd/advanced/spells/sleepwalk.html#_sleepwalk)M: Causes creature to move while asleep.
 - [**Spell Immunity**](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity): Subject is immune to one spell per 4 levels.
-- [**Stoneskin**](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)<sup>M</sup>: Grants DR 10/adamantine.
+- [**Stoneskin**](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)M: Grants DR 10/adamantine.
 - [**Tireless Pursuers**](/pathfinderRPG/prd/advanced/spells/tirelessPursuers.html#_tireless-pursuers): As _ [tireless pursuit](/pathfinderRPG/prd/advanced/spells/tirelessPursuit.html#_tireless-pursuit)_, but affects multiple creatures.
 - [**Unholy Blight**](/pathfinderRPG/prd/spells/unholyBlight.html#_unholy-blight): Harms and sickens good creatures (1d8 damage/2 levels).
 
-- [**Atonement**](/pathfinderRPG/prd/spells/atonement.html#_atonement)<sup>FM</sup>: Removes burden of misdeeds from subject.
+- [**Atonement**](/pathfinderRPG/prd/spells/atonement.html#_atonement)FM: Removes burden of misdeeds from subject.
 - [**Banishment**](/pathfinderRPG/prd/spells/banishment.html#_banishment): Banishes 2 HD/level of extraplanar creatures.
 - [**Break Enchantment**](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment): Frees subjects from enchantments, transmutations, and curses.
 - [**Castigate, Mass**](/pathfinderRPG/prd/advanced/spells/castigate.html#_castigate,-mass): As _ [castigate](/pathfinderRPG/prd/advanced/spells/castigate.html#_castigate)_, but affects multiple creatures.
 - [**Command, Greater**](/pathfinderRPG/prd/spells/command.html#_command-greater): As _ [command](/pathfinderRPG/prd/spells/command.html#_command), _but affects one subject/level.
-- [**Commune**](/pathfinderRPG/prd/spells/commune.html#_commune)<sup>M</sup>: Deity answers one yes-or-no question/level.
+- [**Commune**](/pathfinderRPG/prd/spells/commune.html#_commune)M: Deity answers one yes-or-no question/level.
 - [**Cure Light Wounds, Mass**](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds-mass): Cures 1d8 damage + 1/level, affects 1 subject/level.
 - [**Dispel Chaos**](/pathfinderRPG/prd/spells/dispelChaos.html#_dispel-chaos): +4 bonus against attacks by chaotic creatures.
 - [**Disrupting Weapon**](/pathfinderRPG/prd/spells/disruptingWeapon.html#_disrupting-weapon): Melee weapon destroys undead.
@@ -1860,7 +1860,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Forbid Action, Greater**](/pathfinderRPG/prd/ultimateMagic/spells/forbidAction.html#_forbid-action,-greater): As _ [forbid action](/pathfinderRPG/prd/ultimateMagic/spells/forbidAction.html#_forbid-action)_, but 1 creature/level.
 - [**Geas/Quest**](/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest): As _lesser geas, _but affects any creature.
 - [**Ghostbane Dirge, Mass**](/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge,-mass): As _ [ghostbane dirge](/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge)_, but affects multiple creatures.
-- [**Hallow**](/pathfinderRPG/prd/spells/hallow.html#_hallow)<sup>M</sup>: Designates location as holy.
+- [**Hallow**](/pathfinderRPG/prd/spells/hallow.html#_hallow)M: Designates location as holy.
 - [**Inflict Light Wounds, Mass**](/pathfinderRPG/prd/spells/inflictLightWounds.html#_inflict-light-wounds-mass): Deals 1d8 damage + 1/level, affects 1 subject/level.
 - [**Litany of Thunder**](/pathfinderRPG/prd/ultimateCombat/spells/litanyOfThunder.html#_litany-of-thunder): A single target is deafened until the condition is removed, and is confused for 1 round.
 - [**Litany of Vengeance**](/pathfinderRPG/prd/ultimateCombat/spells/litanyOfVengeance.html#_litany-of-vengeance): Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.
@@ -1871,35 +1871,35 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Spawn Ward**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/dhampirs.html#_spawn-ward): Target becomes resistant to the effects of energy drain and blood drain attacks made by undead creatures.
 - [**Spell Immunity, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/spellImmunity.html#_spell-immunity,-communal): As _ [spell immunity](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity)_, but you may divide the duration among creatures touched.
 - [**Spell Resistance**](/pathfinderRPG/prd/spells/spellResistance.html#_spell-resistance): Subject gains SR 12 + level.
-- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)<sup>M</sup>: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
+- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)M: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
 - [**Telepathic Bond**](/pathfinderRPG/prd/spells/telepathicBond.html#_telepathic-bond): Link lets allies communicate.
-- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)<sup>M</sup>: Lets you see all things as they really are.
-- [**Unhallow**](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)<sup>M</sup>: Designates location as unholy.
-- [**Unwilling Shield**](/pathfinderRPG/prd/advanced/spells/unwillingShield.html#_unwilling-shield)<sup>M</sup>: Subject shares wounds you receive.
+- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)M: Lets you see all things as they really are.
+- [**Unhallow**](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)M: Designates location as unholy.
+- [**Unwilling Shield**](/pathfinderRPG/prd/advanced/spells/unwillingShield.html#_unwilling-shield)M: Subject shares wounds you receive.
 
 - [**Blade Barrier**](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier): Wall of blades deals 1d6/level damage.
 - [**Blasphemy**](/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy): Kills, paralyzes, weakens, or dazes nonevil subjects.
 - [**Blessing of Luck and Resolve, Mass**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halflings.html#_blessing-of-luck-and-resolve,-mass): Functions like _blessing of luck and resolve_, except that it affects multiple creatures.
-- [**Circle of Death**](/pathfinderRPG/prd/spells/circleOfDeath.html#_circle-of-death)<sup>M</sup>: Kills 1d4/level HD of creatures.
+- [**Circle of Death**](/pathfinderRPG/prd/spells/circleOfDeath.html#_circle-of-death)M: Kills 1d4/level HD of creatures.
 - [**Cleanse**](/pathfinderRPG/prd/advanced/spells/cleanse.html#_cleanse): As _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, but only cures 4d8 damage +1/level (max +25).
 - [**Cure Moderate Wounds, Mass**](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds-mass): Cures 2d8 damage + 1/level, affects 1 subject/level.
 - [**Dictum**](/pathfinderRPG/prd/spells/dictum.html#_dictum): Kills, paralyzes, staggers, or deafens nonlawful targets.
 - [**Dispel Magic, Greater**](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater): As _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, but with multiple targets.
 - [**Fester, Mass**](/pathfinderRPG/prd/advanced/spells/fester.html#_fester,-mass): As _ [fester](/pathfinderRPG/prd/advanced/spells/fester.html#_fester)_, but affecting multiple targets.
 - [**Find the Path**](/pathfinderRPG/prd/spells/findThePath.html#_find-the-path): Shows most direct way to a location.
-- [**Forbiddance**](/pathfinderRPG/prd/spells/forbiddance.html#_forbiddance)<sup>M</sup>: Blocks planar travel, damages creatures of different alignment.
-- [**Glyph of Warding, Greater**](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding-greater)<sup>M</sup>: As _ [glyph of warding](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)_, but up to 10d8 damage or 6th-level spell.
+- [**Forbiddance**](/pathfinderRPG/prd/spells/forbiddance.html#_forbiddance)M: Blocks planar travel, damages creatures of different alignment.
+- [**Glyph of Warding, Greater**](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding-greater)M: As _ [glyph of warding](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)_, but up to 10d8 damage or 6th-level spell.
 - [**Harm**](/pathfinderRPG/prd/spells/harm.html#_harm): Deals 10 points/level damage to target.
 - [**Heal**](/pathfinderRPG/prd/spells/heal.html#_heal): Cures 10 points/level damage, all diseases and mental conditions.
 - [**Heroes' Feast**](/pathfinderRPG/prd/spells/heroesFeast.html#_heroes-feast): Food for one creature/level cures and grants combat bonuses_._
 - [**Holy Word**](/pathfinderRPG/prd/spells/holyWord.html#_holy-word): Kills, paralyzes, blinds, or deafens nongood subjects.
 - [**Inflict Moderate Wounds, Mass**](/pathfinderRPG/prd/spells/inflictModerateWounds.html#_inflict-moderate-wounds-mass): Deals 2d8 damage + 1/level, affects 1 subject/level.
-- [**Legend Lore**](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)<sup>MF</sup>: Lets you learn tales about a person, place, or thing.
+- [**Legend Lore**](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)MF: Lets you learn tales about a person, place, or thing.
 - [**Litany of Madness**](/pathfinderRPG/prd/ultimateCombat/spells/litanyOfMadness.html#_litany-of-madness): A single target is confused for at least 1 round.
 - [**Named Bullet, Greater**](/pathfinderRPG/prd/ultimateCombat/spells/namedBullet.html#_named-bullet,-greater): As _ [named bullet](/pathfinderRPG/prd/ultimateCombat/spells/namedBullet.html#_named-bullet)_, but deals 2 points of damage per caster level.
 - [**Overwhelming Presence**](/pathfinderRPG/prd/ultimateMagic/spells/overwhelmingPresence.html#_overwhelming-presence): Creatures bow before you as if you were divine.
-- [**Repulsion**](/pathfinderRPG/prd/spells/repulsion.html#_repulsion)<sup>F</sup>: Creatures can't approach you.
-- [**Undeath to Death**](/pathfinderRPG/prd/spells/undeathToDeath.html#_undeath-to-death)<sup>M</sup>: Destroys 1d4/level HD of undead (max. 20d4).
+- [**Repulsion**](/pathfinderRPG/prd/spells/repulsion.html#_repulsion)F: Creatures can't approach you.
+- [**Undeath to Death**](/pathfinderRPG/prd/spells/undeathToDeath.html#_undeath-to-death)M: Destroys 1d4/level HD of undead (max. 20d4).
 - [**Word of Chaos**](/pathfinderRPG/prd/spells/wordOfChaos.html#_word-of-chaos): Kills, confuses_, _stuns, or deafens nonchaotic subjects.
 
 - [**Acid Splash**](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash): Orb deals 1d3 acid damage.
@@ -1960,11 +1960,11 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Unerring Weapon**](/pathfinderRPG/prd/ultimateCombat/spells/unerringWeapon.html#_unerring-weapon): Grants a +2 bonus, +1 per four caster levels, on attack rolls to confirm a critical hit.
 - [**Unseen Servant**](/pathfinderRPG/prd/spells/unseenServant.html#_unseen-servant): Invisible force obeys your commands.
 - [**Vanish**](/pathfinderRPG/prd/advanced/spells/vanish.html#_vanish): As _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_ for 1 round/level (5 max).
-- [**Warding Weapon**](/pathfinderRPG/prd/ultimateCombat/spells/wardingWeapon.html#_warding-weapon)<sup>F</sup>: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
+- [**Warding Weapon**](/pathfinderRPG/prd/ultimateCombat/spells/wardingWeapon.html#_warding-weapon)F: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
 - [**Web Bolt**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/drow.html#_web-bolt): You launch a ball of webbing at a target, causes target to be affected as if by a _web_ spell.
 - [**Windy Escape**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/sylphs.html#_windy-escape): You respond to an attack by briefly becoming vaporous and insubstantial.
 
-**[Ablative Barrier](/pathfinderRPG/prd/ultimateCombat/spells/ablativeBarrier.html#_ablative-barrier)** <sup><b>F</b></sup>: Surrounds the target with layers of force.
+**[Ablative Barrier](/pathfinderRPG/prd/ultimateCombat/spells/ablativeBarrier.html#_ablative-barrier)**** F**: Surrounds the target with layers of force.
 
 - [**Acid Arrow**](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow): Ranged touch attack; 2d4 damage for 1 round + 1 round/3 levels.
 - [**Alter Self**](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self): Assume form of a Small or Medium humanoid.
@@ -2009,7 +2009,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Stone Call**](/pathfinderRPG/prd/advanced/spells/stoneCall.html#_stone-call): 2d6 damage to all creatures in area.
 - [**Stone Shield**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/oreads.html#_stone-shield): 1-inch-thick slab of stone springs up from the ground, shielding you.
 - [**Tactical Acumen**](/pathfinderRPG/prd/ultimateCombat/spells/tacticalAcumen.html#_tactical-acumen): You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
-- [**Telekinetic Assembly**](/pathfinderRPG/prd/ultimateCombat/spells/telekineticAssembly.html#_telekinetic-assembly)<sup>F</sup>: Assembles a siege engine using 1 fewer worker for every two caster levels.
+- [**Telekinetic Assembly**](/pathfinderRPG/prd/ultimateCombat/spells/telekineticAssembly.html#_telekinetic-assembly)F: Assembles a siege engine using 1 fewer worker for every two caster levels.
 - [**Twisted Space**](/pathfinderRPG/prd/ultimateCombat/spells/twistedSpace.html#_twisted-space): Targeted creature's attacks target a random square instead of the intended target.
 - [**Web**](/pathfinderRPG/prd/spells/web.html#_web): Fills 20-ft.-radius spread with sticky spiderwebs that can grapple foes and impair movement.
 
@@ -2060,7 +2060,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Ball Lightning**](/pathfinderRPG/prd/advanced/spells/ballLightning.html#_ball-lightning): Flying balls of lightning deal 3d6 electricity damage each.
 - [**Beast Shape II**](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii): You take the form and some of the powers of a Tiny or Large animal.
 - [**Black Tentacles**](/pathfinderRPG/prd/spells/blackTentacles.html#_black-tentacles): Tentacles grapple all creatures within a 20-ft. spread.
-- [**Detonate**](/pathfinderRPG/prd/advanced/spells/detonate.html#_detonate)<sup>M</sup>: Inflicts 1d8/level energy damage to all creatures within 15 ft.
+- [**Detonate**](/pathfinderRPG/prd/advanced/spells/detonate.html#_detonate)M: Inflicts 1d8/level energy damage to all creatures within 15 ft.
 - [**Dimension Door**](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door): Teleports you a short distance.
 - [**Dragon's Breath**](/pathfinderRPG/prd/advanced/spells/dragonSBreath.html#_dragon's-breath): Gives you a dragon's breath weapon.
 - [**Elemental Body I**](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i): Turns you into a Small elemental.
@@ -2071,13 +2071,13 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Invisibility, Greater**](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater): As _ [invisibility](../spells/invisibility.html#_invisibility)_, but subject can attack and stay invisible.
 - [**Monstrous Physique II**](/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-ii): Take the form and some of the powers of a Tiny or Large monstrous humanoid.
 - [**Paragon Surge**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halfElves.html#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
-- [**Pellet Blast**](/pathfinderRPG/prd/ultimateCombat/spells/pelletBlast.html#_pellet-blast)<sup>M</sup>: Creates an explosion of conjured metal pellets. 
+- [**Pellet Blast**](/pathfinderRPG/prd/ultimateCombat/spells/pelletBlast.html#_pellet-blast)M: Creates an explosion of conjured metal pellets. 
 - [**Phantasmal Killer**](/pathfinderRPG/prd/spells/phantasmalKiller.html#_phantasmal-killer): Fearsome illusion kills subject or deals 3d6 damage.
 - [**Reduce Person, Mass**](/pathfinderRPG/prd/spells/reducePerson.html#_reduce-person-mass): As _ [reduce person](/pathfinderRPG/prd/spells/reducePerson.html#_reduce-person)_, but affects 1 humanoid creature/level.
 - [**River of Wind**](/pathfinderRPG/prd/advanced/spells/riverOfWind.html#_river-of-wind): A stream of wind causes nonlethal damage and can knock down or push creatures.
 - [**Shout**](/pathfinderRPG/prd/spells/shout.html#_shout): Deafens all within cone, 5d6 sonic damage.
 - [**Solid Fog**](/pathfinderRPG/prd/spells/solidFog.html#_solid-fog): Blocks vision and slows movement.
-- [**Stoneskin**](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)<sup>M</sup>: Grants DR 10/adamantine.
+- [**Stoneskin**](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)M: Grants DR 10/adamantine.
 - [**Vermin Shape I**](/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-i-): Take the form and some of the powers of a Small or Medium vermin.
 - [**Wall of Fire**](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire): 2d4 fire damage to 10 ft. and 1d4 to 20 ft. Passing through wall deals 2d6 damage +1/level.
 - [**Wall of Ice**](/pathfinderRPG/prd/spells/wallOfIce.html#_wall-of-ice): Ice plane creates wall or hemisphere creates dome.
@@ -2095,7 +2095,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Interposing Hand**](/pathfinderRPG/prd/spells/interposingHand.html#_interposing-hand): Hand provides cover against 1 opponent.
 - [**Monstrous Physique III**](/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iii): Take the form and some of the powers of a Diminutive or Huge monstrous humanoid.
 - [**Overland Flight**](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
-- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)<sup>M</sup>: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
+- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)M: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
 - [**Telekinesis**](/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis): Moves object, attacks creature, or hurls object or creature.
 - [**Teleport**](/pathfinderRPG/prd/spells/teleport.html#_teleport): Instantly transports you as far as 100 miles per level.
 - [**Undead Anatomy II**](/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-ii): Take the form and some of the powers of a Tiny or Large undead.
@@ -2122,14 +2122,14 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Monstrous Physique IV**](/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iv): As _ [monstrous physique III](/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iii)_, with more abilities.
 - [**Sirocco**](/pathfinderRPG/prd/advanced/spells/sirocco.html#_sirocco): Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
 - [**Stone to Flesh**](/pathfinderRPG/prd/spells/stoneToFlesh.html#_stone-to-flesh): Restores petrified creature.
-- [**Transformation**](/pathfinderRPG/prd/spells/transformation.html#_transformation)<sup>M</sup>: You gain combat bonuses.
-- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)<sup>M</sup>: Lets you see all things as they really are.
+- [**Transformation**](/pathfinderRPG/prd/spells/transformation.html#_transformation)M: You gain combat bonuses.
+- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)M: Lets you see all things as they really are.
 - [**Undead Anatomy III**](/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-iii): Take the form and some of the powers of a Diminutive or Huge undead.
 - [**Walk through Space**](/pathfinderRPG/prd/ultimateCombat/spells/walkThroughSpace.html#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
-- [**Wall of Iron**](/pathfinderRPG/prd/spells/wallOfIron.html#_wall-of-iron)<sup>M</sup>: 30 hp/four levels; can topple onto foes.
+- [**Wall of Iron**](/pathfinderRPG/prd/spells/wallOfIron.html#_wall-of-iron)M: 30 hp/four levels; can topple onto foes.
 
 - [**Bless**](/pathfinderRPG/prd/spells/bless.html#_bless): Allies gain +1 on attack rolls and saves against fear.
-- [**Bless Water**](/pathfinderRPG/prd/spells/blessWater.html#_bless-water)<sup>M</sup>: Makes holy water.
+- [**Bless Water**](/pathfinderRPG/prd/spells/blessWater.html#_bless-water)M: Makes holy water.
 - [**Bless Weapon**](/pathfinderRPG/prd/spells/blessWeapon.html#_bless-weapon): Weapon strikes true against evil foes.
 - [**Bowstaff**](/pathfinderRPG/prd/ultimateCombat/spells/bowstaff.html#_bowstaff): A shortbow may double as a club, or a longbow as a quarterstaff.
 - [**Challenge Evil**](/pathfinderRPG/prd/advanced/spells/challengeEvil.html#_challenge-evil): Sickens creature if it refuses to fight you.
@@ -2201,10 +2201,10 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Remove Paralysis**](/pathfinderRPG/prd/spells/removeParalysis.html#_remove-paralysis): Frees one or more creatures from paralysis or [slow](/pathfinderRPG/prd/spells/slow.html#_slow) effect.
 - [**Resist Energy**](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy): Ignores 10 or more points of damage per attack from specified energy type.
 - [**Righteous Vigor**](/pathfinderRPG/prd/advanced/spells/righteousVigor.html#_righteous-vigor): Boosts attack bonus with each hit.
-- [**Sacred Bond**](/pathfinderRPG/prd/advanced/spells/sacredBond.html#_sacred-bond)<sup>F</sup>: Cast touch healing spells from a distance.
+- [**Sacred Bond**](/pathfinderRPG/prd/advanced/spells/sacredBond.html#_sacred-bond)F: Cast touch healing spells from a distance.
 - [**Sacred Space**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/aasimars.html#_sacred-space): Sanctifies an area with heavenly power.
 - [**Saddle Surge**](/pathfinderRPG/prd/advanced/spells/saddleSurge.html#_saddle-surge-): Bonus damage for moving on mount.
-- [**Shield Other**](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)<sup>F</sup>: You take half of subject's damage.
+- [**Shield Other**](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)F: You take half of subject's damage.
 - [**Undetectable Alignment**](/pathfinderRPG/prd/spells/undetectableAlignment.html#_undetectable-alignment): Conceals alignment from magical detection for 24 hours.
 - [**Vestment of the Champion**](/pathfinderRPG/prd/ultimateMagic/spells/vestmentOfTheChampion.html#_vestment-of-the-champion): Armor or shield gains a +1 enhancement per four levels.
 - [**Wake of Light**](/pathfinderRPG/prd/advanced/spells/wakeOfLight.html#_wake-of-light-): Magical trail aids good creatures, hinders evil ones.
@@ -2262,7 +2262,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Raise Animal Companion**](/pathfinderRPG/prd/ultimateMagic/spells/raiseAnimalCompanion.html#_raise-animal-companion): As _ [raise dead](/pathfinderRPG/prd//spells/raiseDead.html#_raise-dead)_, but on an animal.
 - [**Reprobation**](/pathfinderRPG/prd/ultimateMagic/spells/reprobation.html#_reprobation): Marked target is shunned by your religion.
 - [**Resounding Blow**](/pathfinderRPG/prd/advanced/spells/resoundingBlow.html#_resounding-blow): Melee attack deals 1d6 more damage.
-- [**Restoration**](/pathfinderRPG/prd/spells/restoration.html#_restoration)<sup>M</sup>: Restores level and ability score drains.
+- [**Restoration**](/pathfinderRPG/prd/spells/restoration.html#_restoration)M: Restores level and ability score drains.
 - [**Sacrificial Oath**](/pathfinderRPG/prd/advanced/spells/sacrificialOath.html#_sacrificial-oath): Take damage for an ally for many rounds.
 - [**Stay the Hand**](/pathfinderRPG/prd/advanced/spells/stayTheHand.html#_stay-the-hand): Subject cannot attack with melee weapon.
 - [**Symbol of Healing**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfHealing.html#_symbol-of-healing): Triggered rune heals living creatures.
@@ -2343,7 +2343,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Campfire Wall**](/pathfinderRPG/prd/advanced/spells/campfireWall.html#_campfire-wall-): Creates a shelter around a campfire.
 - [**Cat's Grace**](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace): Subject gains +4 to [Dex](/pathfinderRPG/prd/gettingStarted.html#_dexterity) for 1 min./level.
 - [**Chameleon Stride**](/pathfinderRPG/prd/advanced/spells/chameleonStride.html#_chameleon-stride): Gives a +4 bonus on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks and concealment.
-- [**Create Treasure Map**](/pathfinderRPG/prd/advanced/spells/createTreasureMap.html#_create-treasure-map-)<sup>M</sup>: Creates treasure map out of a creature's corpse.
+- [**Create Treasure Map**](/pathfinderRPG/prd/advanced/spells/createTreasureMap.html#_create-treasure-map-)M: Creates treasure map out of a creature's corpse.
 - [**Cure Light Wounds**](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
 - [**Delay Disease**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ratfolk.html#_delay-disease): The target becomes temporarily immune to disease.
 - [**Eagle Eye**](/pathfinderRPG/prd/advanced/spells/eagleEye.html#_eagle-eye): Creates a magical sensor high above you.
@@ -2425,7 +2425,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Freedom of Movement**](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement): Subject moves normally despite impediments to movement.
 - [**Grove of Respite**](/pathfinderRPG/prd/advanced/spells/groveOfRespite.html#_grove-of-respite): Creates trees and a small spring.
 - [**Named Bullet, Greater**](/pathfinderRPG/prd/ultimateCombat/spells/namedBullet.html#_named-bullet,-greater): As _ [named bullet](/pathfinderRPG/prd/ultimateCombat/spells/namedBullet.html#_named-bullet)_, but deals 2 points of damage per caster level.
-- [**Nondetection**](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)<sup>M</sup>: Hides subject from divination, [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying).
+- [**Nondetection**](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)M: Hides subject from divination, [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying).
 - [**Raise Animal Companion**](/pathfinderRPG/prd/ultimateMagic/spells/raiseAnimalCompanion.html#_raise-animal-companion): As _ [raise dead](/pathfinderRPG/prd//spells/raiseDead.html#_raise-dead)_, but on an animal.
 - [**Sickening Strikes**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ratfolk.html#_sickening-strikes): You are imbued with disease, and any creature you strike may be sickened.
 - [**Summon Nature's Ally IV**](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-iv): Summons creature to fight for you.
@@ -2490,7 +2490,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Erase**](/pathfinderRPG/prd/spells/erase.html#_erase): Mundane or magical writing vanishes.
 - [**Expeditious Excavation**](/pathfinderRPG/prd/advanced/spells/expeditiousExcavation.html#_expeditious-excavation): Moves 5-ft. cubes of earth.
 - [**Expeditious Retreat**](/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat): Your base speed increases by 30 ft.
-- [**Fabricate Bullets**](/pathfinderRPG/prd/ultimateCombat/spells/fabricateBullets.html#_fabricate-bullets-)<sup>M</sup>: Converts 1 pound of metal into ammunition.
+- [**Fabricate Bullets**](/pathfinderRPG/prd/ultimateCombat/spells/fabricateBullets.html#_fabricate-bullets-)M: Converts 1 pound of metal into ammunition.
 - [**Feather Fall**](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall): Objects or creatures fall slowly.
 - [**Flare Burst**](/pathfinderRPG/prd/advanced/spells/flareBurst.html#_flare-burst): As _ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_, but affects all creatures in 10 ft.
 - [**Floating Disk**](/pathfinderRPG/prd/spells/floatingDisk.html#_floating-disk): Creates 3-ft.-diameter horizontal disk that holds 100 lbs./level.
@@ -2547,7 +2547,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Stone Fist**](/pathfinderRPG/prd/advanced/spells/stoneFist.html#_stone-fist): Your unarmed strikes are lethal.
 - [**Stone Shield**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/oreads.html#_stone-shield): 1-inch-thick slab of stone springs up from the ground, shielding you.
 - [**Strong Wings**](/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces/strix.html#_strong-wings): The target's wings grow more powerful, increases fly speed by +10 feet and its maneuverability to improve by one category.
-- [**Stumble Gap**](/pathfinderRPG/prd/advanced/spells/stumbleGap.html#_stumble-gap-)<sup>F</sup>: Small hole trips creatures.
+- [**Stumble Gap**](/pathfinderRPG/prd/advanced/spells/stumbleGap.html#_stumble-gap-)F: Small hole trips creatures.
 - [**Summon Minor Monster**](/pathfinderRPG/prd/ultimateMagic/spells/summonMinorMonster.html#_summon-minor-monster): Summon 1d3 Tiny animals.
 - [**Summon Monster I**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i): Summons extraplanar creature to fight for you.
 - [**Theft Ward**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/tengus.html#_theft-ward): You ward a single object in your possession against theft.
@@ -2576,7 +2576,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Alter Self**](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self): Assume form of a Small or Medium humanoid.
 - [**Animal Aspect**](/pathfinderRPG/prd/ultimateCombat/spells/animalAspect.html#_animal-aspect): You gain some of the beneficial qualities of an animal.
 - [**Ant Haul, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/antHaul.html#_ant-haul,-communal): As _ [ant haul](/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-)_, but you may divide the duration among creatures touched.
-- [**Arcane Lock**](/pathfinderRPG/prd/spells/arcaneLock.html#_arcane-lock)<sup>M</sup>: Magically locks a portal or chest.
+- [**Arcane Lock**](/pathfinderRPG/prd/spells/arcaneLock.html#_arcane-lock)M: Magically locks a portal or chest.
 - [**Arrow Eruption**](/pathfinderRPG/prd/advanced/spells/arrowEruption.html#_arrow-eruption-): Creates duplicates of killing arrow.
 - [**Badger's Ferocity**](/pathfinderRPG/prd/ultimateMagic/spells/badgerSFerocity.html#_badger's-ferocity): Weapons are _ [keen](/pathfinderRPG/prd//magicItems/weapons.html#_weapons-keen)_ while you concentrate.
 - [**Bear's Endurance**](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance): Subject gains +4 to [Con](/pathfinderRPG/prd/gettingStarted.html#_constitution) for 1 min./level.
@@ -2596,9 +2596,9 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Command Undead**](/pathfinderRPG/prd/spells/commandUndead.html#_command-undead): Undead creature obeys your commands.
 - [**Commune with Birds**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/tengus.html#_commune-with-birds): You can understand the responses given by birds.
 - [**Compassionate Ally**](/pathfinderRPG/prd/ultimateMagic/spells/compassionateAlly.html#_compassionate-ally): Target is compelled to help injured ally.
-- [**Continual Flame**](/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame)<sup>M</sup>: Makes a permanent, heatless light.
-- [**Create Pit**](/pathfinderRPG/prd/advanced/spells/createPit.html#_create-pit-)<sup>F</sup>: Creates an extradimensional pit.
-- [**Create Treasure Map**](/pathfinderRPG/prd/advanced/spells/createTreasureMap.html#_create-treasure-map-)<sup>M</sup>: Creates treasure map out of a creature's corpse.
+- [**Continual Flame**](/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame)M: Makes a permanent, heatless light.
+- [**Create Pit**](/pathfinderRPG/prd/advanced/spells/createPit.html#_create-pit-)F: Creates an extradimensional pit.
+- [**Create Treasure Map**](/pathfinderRPG/prd/advanced/spells/createTreasureMap.html#_create-treasure-map-)M: Creates treasure map out of a creature's corpse.
 - [**Cushioning Bands**](/pathfinderRPG/prd/ultimateMagic/spells/cushioningBands.html#_cushioning-bands): Force bands protect against crushing.
 - [**Death from Below**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/gnomes.html#_death-from-below): Grant the target a dodge bonus to its AC against attacks from larger creatures.
 - [**Darkness**](/pathfinderRPG/prd/spells/darkness.html#_darkness): 20-ft. radius of supernatural shadow.
@@ -2617,7 +2617,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Escaping Ward**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halflings.html#_escaping-ward): Grants extra maneuverability when you avoid attacks against larger foes.
 - [**False Life**](/pathfinderRPG/prd/spells/falseLife.html#_false-life): Gain 1d10 temporary hp + 1/level (max +10).
 - [**Fire Breath**](/pathfinderRPG/prd/advanced/spells/fireBreath.html#_fire-breath): Exhale a cone of flame at will.
-- [**Fiery Shuriken**](/pathfinderRPG/prd/ultimateCombat/spells/fieryShuriken.html#_fiery-shuriken-)<sup>M</sup>: Calls forth several fiery projectiles ready to be flung at opponents. 
+- [**Fiery Shuriken**](/pathfinderRPG/prd/ultimateCombat/spells/fieryShuriken.html#_fiery-shuriken-)M: Calls forth several fiery projectiles ready to be flung at opponents. 
 - [**Flaming Sphere**](/pathfinderRPG/prd/spells/flamingSphere.html#_flaming-sphere): Rolling ball of fire deals 3d6 fire damage.
 - [**Fog Cloud**](/pathfinderRPG/prd/spells/fogCloud.html): Fog obscures vision.
 - [**Fox's Cunning**](/pathfinderRPG/prd/spells/foxSCunning.html#_fox-s-cunning): Subject gains +4 to [Int](/pathfinderRPG/prd/gettingStarted.html#_intelligence) for 1 min./level.
@@ -2640,7 +2640,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Levitate**](/pathfinderRPG/prd/spells/levitate.html#_levitate): Subject moves up and down at your direction.
 - [**Locate Object**](/pathfinderRPG/prd/spells/locateObject.html#_locate-object): Senses direction toward object (specific or type).
 - [**Mad Hallucination**](/pathfinderRPG/prd/ultimateMagic/spells/madHallucination.html#_mad-hallucination): Target takes penalties to mental actions.
-- [**Magic Mouth**](/pathfinderRPG/prd/spells/magicMouth.html#_magic-mouth)<sup>M</sup>: Object speaks once when triggered.
+- [**Magic Mouth**](/pathfinderRPG/prd/spells/magicMouth.html#_magic-mouth)M: Object speaks once when triggered.
 - [**Magic Siege Engine**](/pathfinderRPG/prd/ultimateCombat/spells/magicSiegeEngine.html#_magic-siege-engine): Siege gains +1 on targeting and damage rolls.
 - [**Make Whole**](/pathfinderRPG/prd/spells/makeWhole.html#_make-whole): Repairs an object.
 - [**Masterwork Transformation**](/pathfinderRPG/prd/ultimateMagic/spells/masterworkTransformation.html#_masterwork-transformation): Make a normal item into a masterwork one.
@@ -2653,7 +2653,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Oppressive Boredom**](/pathfinderRPG/prd/ultimateMagic/spells/oppressiveBoredom.html#_oppressive-boredom): Target loses its next action.
 - [**Owl's Wisdom**](/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom): Subject gains +4 to [Wis](/pathfinderRPG/prd/gettingStarted.html#_wisdom) for 1 min./level.
 - [**Pernicious Poison**](/pathfinderRPG/prd/ultimateMagic/spells/perniciousPoison.html#_pernicious-poison): Target takes a –4 penalty against poison.
-- [**Phantom Trap**](/pathfinderRPG/prd/spells/phantomTrap.html#_phantom-trap)<sup>M</sup>: Makes item seem trapped.
+- [**Phantom Trap**](/pathfinderRPG/prd/spells/phantomTrap.html#_phantom-trap)M: Makes item seem trapped.
 - [**Pilfering Hand**](/pathfinderRPG/prd/ultimateCombat/spells/pilferingHand.html#_pilfering-hand): You may seize an object or manipulate it from afar.
 - [**Protection from Arrows**](/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows): Subject gains [DR](/pathfinderRPG/prd/glossary.html#_damage-reduction) 10/magic against ranged attacks.
 - [**Protection from Chaos, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/protectionFromChaos.html#_protection-from-chaos,-communal): As _ [protection from chaos](/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos)_, but you may divide the duration among creatures touched.
@@ -2694,18 +2694,18 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Summon Swarm**](/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm): Summons swarm of bats, rats, or spiders.
 - [**Symbol of Mirroring**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfMirroring.html#_symbol-of-mirroring): Triggered rune creates mirror images.
 - [**Tactical Acumen**](/pathfinderRPG/prd/ultimateCombat/spells/tacticalAcumen.html#_tactical-acumen): You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
-- [**Telekinetic Assembly**](/pathfinderRPG/prd/ultimateCombat/spells/telekineticAssembly.html#_telekinetic-assembly)<sup>F</sup>: Assembles a siege engine using 1 fewer worker for every two caster levels.
+- [**Telekinetic Assembly**](/pathfinderRPG/prd/ultimateCombat/spells/telekineticAssembly.html#_telekinetic-assembly)F: Assembles a siege engine using 1 fewer worker for every two caster levels.
 - [**Thunder Fire**](/pathfinderRPG/prd/ultimateCombat/spells/thunderFire.html#_thunder-fire): Ammunition in the targeted firearm deafens opponents.
 - [**Touch of Idiocy**](/pathfinderRPG/prd/spells/touchOfIdiocy.html#_touch-of-idiocy): Subject takes 1d6 penalty to [Int](/pathfinderRPG/prd/gettingStarted.html#_intelligence), [Wis](/pathfinderRPG/prd/gettingStarted.html#_wisdom), and [Cha](/pathfinderRPG/prd/gettingStarted.html#_charisma-new).
 - [**Twisted Space**](/pathfinderRPG/prd/ultimateCombat/spells/twistedSpace.html#_twisted-space): Targeted creature's attacks target a random square instead of the intended target.
 - [**Unnatural Lust**](/pathfinderRPG/prd/ultimateMagic/spells/unnaturalLust.html#_unnatural-lust): Target is compelled to kiss or caress another creature.
 - [**Unshakable Chill**](/pathfinderRPG/prd/ultimateMagic/spells/unshakableChill.html#_unshakable-chill): Target is afflicted with severe cold.
-- [**Warding Weapon**](/pathfinderRPG/prd/ultimateCombat/spells/wardingWeapon.html#_warding-weapon)<sup>F</sup>: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
+- [**Warding Weapon**](/pathfinderRPG/prd/ultimateCombat/spells/wardingWeapon.html#_warding-weapon)F: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
 - [**Web**](/pathfinderRPG/prd/spells/web.html#_web): Fills 20-ft.-radius spread with sticky spiderwebs that can grapple foes and impair movement.
 - [**Web Shelter**](/pathfinderRPG/prd/ultimateMagic/spells/webShelter.html#_web-shelter): Create a comfortable shelter made of webbing.
 - [**Whispering Wind**](/pathfinderRPG/prd/spells/whisperingWind.html#_whispering-wind): Sends a short message 1 mile/level.
 
-**[Ablative Barrier](/pathfinderRPG/prd/ultimateCombat/spells/ablativeBarrier.html#_ablative-barrier)** <sup><b>F</b></sup>: Surrounds the target with layers of force.
+**[Ablative Barrier](/pathfinderRPG/prd/ultimateCombat/spells/ablativeBarrier.html#_ablative-barrier)**** F**: Surrounds the target with layers of force.
 
 - [**Ancestral Regression**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/drow.html#_ancestral-regression): The target drow transforms into a surface elf.
 - [**Animate Dead, Lesser**](/pathfinderRPG/prd/ultimateMagic/spells/animateDead.html#_animate-dead,-lesser): Create one skeleton or zombie.
@@ -2757,7 +2757,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Hostile Levitation**](/pathfinderRPG/prd/ultimateCombat/spells/hostileLevitation.html#_hostile-levitation): Levitates the targeted creature up off the ground.
 - [**Howling Agony**](/pathfinderRPG/prd/ultimateMagic/spells/howlingAgony.html#_howling-agony): Screaming pain limits the target's actions.
 - [**Hydraulic Torrent**](/pathfinderRPG/prd/advanced/spells/hydraulicTorrent.html#_hydraulic-torrent-): Creates torrent of water that bull rushes any creature in its path.
-- [**Illusory Script**](/pathfinderRPG/prd/spells/illusoryScript.html#_illusory-script)<sup>M</sup>: Only select creatures can read text.
+- [**Illusory Script**](/pathfinderRPG/prd/spells/illusoryScript.html#_illusory-script)M: Only select creatures can read text.
 - [**Improve Trap**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/kobolds.html#_improve-trap): Improves one specific element of a trap chosen at the time of casting.
 - [**Invisibility Sphere**](/pathfinderRPG/prd/spells/invisibilitySphere.html#_invisibility-sphere): Makes everyone within 10 ft. [invisible](/pathfinderRPG/prd/glossary.html#_invisible).
 - [**Keen Edge**](/pathfinderRPG/prd/spells/keenEdge.html#_keen-edge): Doubles normal weapon's threat range.
@@ -2773,10 +2773,10 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Minor Dream**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/gnomes.html#_minor-dream): This spell functions as the _dream spell_, except the messenger must be yourself or a gnome touched.
 - [**Monstrous Physique I**](/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-i): Take the form and some of the powers of a Small or Medium monstrous humanoid.
 - [**Nixie's Lure**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/undines.html#_nixie's-lure): Creates an unearthly and infectious song that seductively summons all who hear it.
-- [**Nondetection**](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)<sup>M</sup>: Hides subject from divination, [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying).
+- [**Nondetection**](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)M: Hides subject from divination, [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying).
 - [**Pain Strike**](/pathfinderRPG/prd/advanced/spells/painStrike.html#_pain-strike): Inflicts 1d6 nonlethal damage 1 round/level.
 - [**Paragon Surge**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halfElves.html#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
-- [**Pellet Blast**](/pathfinderRPG/prd/ultimateCombat/spells/pelletBlast.html#_pellet-blast)<sup>M</sup>: Creates an explosion of conjured metal pellets. 
+- [**Pellet Blast**](/pathfinderRPG/prd/ultimateCombat/spells/pelletBlast.html#_pellet-blast)M: Creates an explosion of conjured metal pellets. 
 - [**Phantom Driver**](/pathfinderRPG/prd/ultimateCombat/spells/phantomDriver.html#_phantom-driver): Conjures a phantom to drive vehicles.
 - [**Phantom Steed**](/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed): Magic horse appears for 1 hour/level.
 - [**Prehensile Pilfer**](/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces/vanaras.html#_prehensile-pilfer): The target's tail moves and acts more quickly, almost with a mind of its own.
@@ -2794,7 +2794,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Sands of Time**](/pathfinderRPG/prd/ultimateMagic/spells/sandsOfTime.html#_sands-of-time): Target temporarily ages.
 - [**Secret Page**](/pathfinderRPG/prd/spells/secretPage.html#_secret-page): Changes one page to hide its real content.
 - [**Seek Thoughts**](/pathfinderRPG/prd/advanced/spells/seekThoughts.html#_seek-thoughts): Detects thinking creatures' thoughts.
-- [**Sepia Snake Sigil**](/pathfinderRPG/prd/spells/sepiaSnakeSigil.html#_sepia-snake-sigil)<sup>M</sup>: Creates text symbol that immobilizes reader.
+- [**Sepia Snake Sigil**](/pathfinderRPG/prd/spells/sepiaSnakeSigil.html#_sepia-snake-sigil)M: Creates text symbol that immobilizes reader.
 - [**Share Language, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/shareLanguage.html#_share-language,-communal): As _ [share language](/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-)_, but you may divide the duration among creatures touched.
 - [**Shifting Sand**](/pathfinderRPG/prd/advanced/spells/shiftingSand.html#_shifting-sand): Creates difficult terrain and erases tracks, can carry along some creatures and objects.
 - [**Shrink Item**](/pathfinderRPG/prd/spells/shrinkItem.html#_shrink-item): Object shrinks to one-sixteenth size.
@@ -2820,11 +2820,11 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Wind Wall**](/pathfinderRPG/prd/spells/windWall.html#_wind-wall): Deflects arrows, smaller creatures, and gases.
 
 - [**Absorbing Inhalation**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/sylphs.html#_absorbing-inhalation): Harmlessly and completely inhale one gas, fog, smoke, mist, or similar cloud-like effect.
-- [**Acid Pit**](/pathfinderRPG/prd/advanced/spells/acidPit.html#_acid-pit-)<sup>F</sup>: Creates a pit with a layer of acid on the bottom.
+- [**Acid Pit**](/pathfinderRPG/prd/advanced/spells/acidPit.html#_acid-pit-)F: Creates a pit with a layer of acid on the bottom.
 - [**Age Resistance, Lesser**](/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-lesser): Ignore penalties from middle age.
 - [**Agonize**](/pathfinderRPG/prd/ultimateMagic/spells/agonize.html#_agonize-): Pain encourages an outsider to obey you.
 - [**Animal Aspect, Greater**](/pathfinderRPG/prd/ultimateCombat/spells/animalAspect.html#_animal-aspect,-greater): As _ [animal aspect](/pathfinderRPG/prd/ultimateCombat/spells/animalAspect.html#_animal-aspect)_, but you gain two animal qualities.
-- [**Animate Dead**](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)<sup>M</sup>: Creates undead skeletons and zombies out of corpses.
+- [**Animate Dead**](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)M: Creates undead skeletons and zombies out of corpses.
 - [**Arcane Eye**](/pathfinderRPG/prd/spells/arcaneEye.html#_arcane-eye): Invisible floating eye moves 30 ft./round.
 - [**Ball Lightning**](/pathfinderRPG/prd/advanced/spells/ballLightning.html#_ball-lightning): Flying balls of lightning deal 3d6 electricity damage each.
 - [**Beast Shape II**](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii): You take the form and some of the powers of a Tiny or Large animal.
@@ -2841,7 +2841,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Darkvision, Greater**](/pathfinderRPG/prd/ultimateMagic/spells/darkvision.html#_darkvision,-greater): See 120 ft. in total darkness.
 - [**Daze, Mass**](/pathfinderRPG/prd/ultimateMagic/spells/daze.html#_daze,-mass): As _ [daze](/pathfinderRPG/prd//spells/daze.html#_daze)_, but affecting multiple creatures.
 - [**Detect Scrying**](/pathfinderRPG/prd/spells/detectScrying.html#_detect-scrying): Alerts you to magical eavesdropping
-- [**Detonate**](/pathfinderRPG/prd/advanced/spells/detonate.html#_detonate)<sup>M</sup>: Inflicts 1d8/level energy damage to all creatures within 15 ft.
+- [**Detonate**](/pathfinderRPG/prd/advanced/spells/detonate.html#_detonate)M: Inflicts 1d8/level energy damage to all creatures within 15 ft.
 - [**Dimension Door**](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door): Teleports you a short distance.
 - [**Dimensional Anchor**](/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional-anchor): Bars extradimensional movement.
 - [**Dragon's Breath**](/pathfinderRPG/prd/advanced/spells/dragonSBreath.html#_dragon's-breath): Gives you a dragon's breath weapon.
@@ -2853,7 +2853,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Familiar Melding**](/pathfinderRPG/prd/ultimateMagic/spells/familiarMelding.html#_familiar-melding): Possess your familiar.
 - [**Fear**](/pathfinderRPG/prd/spells/fear.html#_fear): Subjects within cone flee for 1 round/level.
 - [**Fire Shield**](/pathfinderRPG/prd/spells/fireShield.html#_fire-shield): Creatures attacking you take fire damage; you're protected from heat or cold.
-- [**Fire Trap**](/pathfinderRPG/prd/spells/fireTrap.html#_fire-trap)<sup>M</sup>: Opened object deals 1d4 damage + 1/level.
+- [**Fire Trap**](/pathfinderRPG/prd/spells/fireTrap.html#_fire-trap)M: Opened object deals 1d4 damage + 1/level.
 - [**Firefall**](/pathfinderRPG/prd/advanced/spells/firefall.html#_firefall): Causes fire to burst up, dealing 2d6 fire damage.
 - [**Fleshworm Infestation**](/pathfinderRPG/prd/ultimateMagic/spells/fleshwormInfestation.html#_fleshworm-infestation): Worms deal hp and Dex damage.
 - [**Forgetful Slumber**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halfElves.html#_forgetful-slumber): Acts as the _deeper slumber spell_, but only affects one creature of 10 Hit Dice or fewer.
@@ -2872,11 +2872,11 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Miasmatic Form**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/sylphs.html#_miasmatic-form): Functions like _gaseous form_, except target's vaporous body is dangerous to creatures that touch it.
 - [**Minor Creation**](/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation): Creates one cloth or wood object.
 - [**Minor Phantom Object**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/gnomes.html#_minor-phantom-object): Functions as the _minor creation_ spell, except the object created is a semi-real phantasm.
-- [**Mnemonic Enhancer**](/pathfinderRPG/prd/spells/mnemonicEnhancer.html#_mnemonic-enhancer)<sup>F</sup>: _Wizard only. _Prepare extra spells or retain one just cast.
+- [**Mnemonic Enhancer**](/pathfinderRPG/prd/spells/mnemonicEnhancer.html#_mnemonic-enhancer)F: _Wizard only. _Prepare extra spells or retain one just cast.
 - [**Monstrous Physique II**](/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-ii): Take the form and some of the powers of a Tiny or Large monstrous humanoid.
 - [**Moonstruck**](/pathfinderRPG/prd/advanced/spells/moonstruck.html#_moonstruck): Subject is enraged and confused.
 - [**Named Bullet**](/pathfinderRPG/prd/ultimateCombat/spells/namedBullet.html#_named-bullet): Imbues ammunition with accuracy against a specific creature type.
-- [**Nondetection, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/nondetection.html#_nondetection,-communal)<sup>M</sup>: As _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_, but you may divide the duration among creatures touched.
+- [**Nondetection, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/nondetection.html#_nondetection,-communal)M: As _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_, but you may divide the duration among creatures touched.
 - [**Obsidian Flow**](/pathfinderRPG/prd/ultimateCombat/spells/obsidianFlow.html#_obsidian-flow): Converts the surface of the ground into molten glass.
 - [**Overwhelming Grief**](/pathfinderRPG/prd/ultimateMagic/spells/overwhelmingGrief.html#_overwhelming-grief): Grieving target can take no actions and is denied its Dex bonus.
 - [**Phantasmal Killer**](/pathfinderRPG/prd/spells/phantasmalKiller.html#_phantasmal-killer): Fearsome illusion kills subject or deals 3d6 damage.
@@ -2891,7 +2891,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Ride the Waves**](/pathfinderRPG/prd/ultimateMagic/spells/rideTheWaves.html#_ride-the-waves): Target can breathe water and swim.
 - [**River of Wind**](/pathfinderRPG/prd/advanced/spells/riverOfWind.html#_river-of-wind): A stream of wind causes nonlethal damage and can knock down or push creatures.
 - [**Scorching Ash Form**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ifrits.html#_scorching-ash-form): Functions like _gaseous form_, except the target becomes a visible swirl of hot ash and smoke.
-- [**Scrying**](/pathfinderRPG/prd/spells/scrying.html#_scrying)<sup>F</sup>: Spies on subject from a distance.
+- [**Scrying**](/pathfinderRPG/prd/spells/scrying.html#_scrying)F: Spies on subject from a distance.
 - [**Secure Shelter**](/pathfinderRPG/prd/spells/secureShelter.html#_secure-shelter): Creates sturdy cottage.
 - [**Shadow Conjuration**](/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration): Mimics conjuration below 4th level, but only 20% real.
 - [**Shadow Projection**](/pathfinderRPG/prd/advanced/spells/shadowProjection.html#_shadow-projection): Temporarily become a shadow.
@@ -2903,7 +2903,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Simulacrum, Lesser**](/pathfinderRPG/prd/ultimateMagic/spells/simulacrum.html#_simulacrum,-lesser): Creates a double of a weak creature.
 - [**Solid Fog**](/pathfinderRPG/prd/spells/solidFog.html#_solid-fog): Blocks vision and slows movement.
 - [**Stone Shape**](/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape): Sculpts stone into any shape.
-- [**Stoneskin**](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)<sup>M</sup>: Grants [DR](/pathfinderRPG/prd/glossary.html#_damage-reduction) 10/adamantine.
+- [**Stoneskin**](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)M: Grants [DR](/pathfinderRPG/prd/glossary.html#_damage-reduction) 10/adamantine.
 - [**Summon Monster IV**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv): Summons extraplanar creature to fight for you.
 - [**Symbol of Revelation**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfRevelation.html#_symbol-of-revelation): Triggered symbol reveals illusions.
 - [**Symbol of Slowing**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfSlowing.html#_symbol-of-slowing): Triggered rune slows creatures.
@@ -2941,8 +2941,8 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Echolocation**](/pathfinderRPG/prd/ultimateMagic/spells/echolocation.html#_echolocation): Sonic sense gives you blindsight 40 ft.
 - [**Elemental Body II**](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-ii): Turns you into a Medium elemental.
 - [**Energy Siege Shot**](/pathfinderRPG/prd/ultimateCombat/spells/energySiegeShot.html#_energy-siege-shot): A Large siege engine deals energy damage that you designate with other effects depending on the type of energy you choose.
-- [**Fabricate**](/pathfinderRPG/prd/spells/fabricate.html#_fabricate)<sup>M</sup>: Transforms raw materials into finished items.
-- [**False Vision**](/pathfinderRPG/prd/spells/falseVision.html#_false-vision)<sup>M</sup>: Fools [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying) with an illusion.
+- [**Fabricate**](/pathfinderRPG/prd/spells/fabricate.html#_fabricate)M: Transforms raw materials into finished items.
+- [**False Vision**](/pathfinderRPG/prd/spells/falseVision.html#_false-vision)M: Fools [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying) with an illusion.
 - [**Feeblemind**](/pathfinderRPG/prd/spells/feeblemind.html#_feeblemind): Subject's [Int](/pathfinderRPG/prd/gettingStarted.html#_intelligence) and [Cha](/pathfinderRPG/prd/gettingStarted.html#_charisma-new) drop to 1.
 - [**Fickle Winds**](/pathfinderRPG/prd/ultimateMagic/spells/fickleWinds.html#_fickle-winds): Wind walls selectively block attacks.
 - [**Fire Snake**](/pathfinderRPG/prd/advanced/spells/fireSnake.html#_fire-snake): Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level.
@@ -2957,7 +2957,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Lightning Arc**](/pathfinderRPG/prd/ultimateMagic/spells/lightningArc.html#_lightning-arc): Targets in a line take 1d6 electricity/level.
 - [**Mage's Faithful Hound**](/pathfinderRPG/prd/spells/mageSFaithfulHound.html#_mage-s-faithful-hound): Phantom dog can guard a location and attack intruders.
 - [**Mage's Private Sanctum**](/pathfinderRPG/prd/spells/mageSPrivateSanctum.html#_mage-s-private-sanctum): Prevents anyone from viewing or [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying) an area for 24 hours.
-- [**Magic Jar**](/pathfinderRPG/prd/spells/magicJar.html#_magic-jar)<sup>F</sup>: Enables possession of another creature.
+- [**Magic Jar**](/pathfinderRPG/prd/spells/magicJar.html#_magic-jar)F: Enables possession of another creature.
 - [**Major Creation**](/pathfinderRPG/prd/spells/majorCreation.html#_major-creation): As _ [minor creation](/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation), _plus stone and metal.
 - [**Major Phantom Object**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/gnomes.html#_major-phantom-object): Functions as the _major creation_ spell, except the object created is a semi-real phantasm.
 - [**Mind Fog**](/pathfinderRPG/prd/spells/mindFog.html#_mind-fog): Subjects in fog get –10 to [Wis](/pathfinderRPG/prd/gettingStarted.html#_wisdom) and [Will](/pathfinderRPG/prd/combat.html#_will) checks.
@@ -2967,7 +2967,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Overland Flight**](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
 - [**Pain Strike, Mass**](/pathfinderRPG/prd/advanced/spells/painStrike.html#_pain-strike,-mass): As _pain_, but affects multiple creatures.
 - [**Passwall**](/pathfinderRPG/prd/spells/passwall.html#_passwall): Creates passage through wood or stone wall.
-- [**Permanency**](/pathfinderRPG/prd/spells/permanency.html#_permanency)<sup>M</sup>: Makes certain spells permanent.
+- [**Permanency**](/pathfinderRPG/prd/spells/permanency.html#_permanency)M: Makes certain spells permanent.
 - [**Persistent Image**](/pathfinderRPG/prd/spells/persistentImage.html#_persistent-image): As _ [major image](/pathfinderRPG/prd/spells/majorImage.html#_major-image)_, but with no concentration required.
 - [**Phantasmal Web**](/pathfinderRPG/prd/advanced/spells/phantasmalWeb.html#_phantasmal-web): Catches subjects in illusory web.
 - [**Plague Carrier**](/pathfinderRPG/prd/ultimateMagic/spells/plagueCarrier.html#_plague-carrier): Target's attacks carry filth fever.
@@ -2978,27 +2978,27 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Possess Object**](/pathfinderRPG/prd/ultimateMagic/spells/possessObject.html#_possess-object): Possess and animate one object.
 - [**Prying Eyes**](/pathfinderRPG/prd/spells/pryingEyes.html#_prying-eyes): 1d4 + 1/level floating eyes scout for you.
 - [**Rapid Repair**](/pathfinderRPG/prd/ultimateMagic/spells/rapidRepair.html#_rapid-repair): Construct gains fast healing 5.
-- [**Secret Chest**](/pathfinderRPG/prd/spells/secretChest.html#_secret-chest)<sup>F</sup>: Hides expensive chest on Ethereal Plane; you retrieve it at will.
+- [**Secret Chest**](/pathfinderRPG/prd/spells/secretChest.html#_secret-chest)F: Hides expensive chest on Ethereal Plane; you retrieve it at will.
 - [**Seeming**](/pathfinderRPG/prd/spells/seeming.html#_seeming): Changes appearance of 1 person per 2 levels.
 - [**Sending**](/pathfinderRPG/prd/spells/sending.html#_sending): Delivers short message anywhere, instantly.
 - [**Shadow Evocation**](/pathfinderRPG/prd/spells/shadowEvocation.html#_shadow-evocation): Mimics evocation below 5th level, but only 20% real.
 - [**Smug Narcissism**](/pathfinderRPG/prd/ultimateMagic/spells/smugNarcissism.html#_smug-narcissism): Target is distracted by its sense of self.
 - [**Sonic Thrust**](/pathfinderRPG/prd/ultimateMagic/spells/sonicThrust.html#_sonic-thrust): Sound moves targets away from you.
 - [**Soothe Construct**](/pathfinderRPG/prd/ultimateMagic/spells/sootheConstruct.html#_soothe-construct): Reduce the berserk chance of a construct.
-- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)<sup>M</sup>: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
+- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)M: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
 - [**Suffocation**](/pathfinderRPG/prd/advanced/spells/suffocation.html#_suffocation): Target quickly suffocates to death.
 - [**Summon Monster V**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v): Summons extraplanar creature to fight for you.
 - [**Summoner Conduit**](/pathfinderRPG/prd/ultimateCombat/spells/summonerConduit.html#_summoner-conduit): The target eidolon's summoner takes damage whenever the eidolon does.
-- [**Symbol of Pain**](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)<sup>M</sup>: Triggered rune wracks creatures with pain.
+- [**Symbol of Pain**](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)M: Triggered rune wracks creatures with pain.
 - [**Symbol of Scrying**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfScrying.html#_symbol-of-scrying): Triggered rune activates scrying sensor.
-- [**Symbol of Sleep**](/pathfinderRPG/prd/spells/symbolOfSleep.html#_symbol-of-sleep)<sup>M</sup>: Triggered rune puts nearby creatures into catatonic slumber.
-- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)<sup>M</sup>: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
+- [**Symbol of Sleep**](/pathfinderRPG/prd/spells/symbolOfSleep.html#_symbol-of-sleep)M: Triggered rune puts nearby creatures into catatonic slumber.
+- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)M: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
 - [**Telekinesis**](/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis): Moves object, attacks creature, or hurls object or creature.
 - [**Telepathic Bond**](/pathfinderRPG/prd/spells/telepathicBond.html#_telepathic-bond): Link lets allies communicate.
 - [**Teleport**](/pathfinderRPG/prd/spells/teleport.html#_teleport): Instantly transports you as far as 100 miles per level.
 - [**Transmute Mud to Rock**](/pathfinderRPG/prd/spells/transmuteMudToRock.html#_transmute-mud-to-rock): Transforms two 10-ft. cubes per level.
 - [**Transmute Rock to Mud**](/pathfinderRPG/prd/spells/transmuteRockToMud.html#_transmute-rock-to-mud): Transforms two 10-ft. cubes per level.
-- [**Treasure Stitching**](/pathfinderRPG/prd/advanced/spells/treasureStitching.html#_treasure-stitching-)<sup>M</sup>: Objects on cloth become embroidered.
+- [**Treasure Stitching**](/pathfinderRPG/prd/advanced/spells/treasureStitching.html#_treasure-stitching-)M: Objects on cloth become embroidered.
 - [**Truespeak**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/aasimars.html#_truespeak): You can communicate with any creature that is not mindless.
 - [**Unbreakable Construct**](/pathfinderRPG/prd/ultimateMagic/spells/unbreakableConstruct.html#_unbreakable-construct): Increase construct hardness or DR.
 - [**Undead Anatomy II**](/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-ii): Take the form and some of the powers of a Tiny or Large undead.
@@ -3009,11 +3009,11 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Wall of Stone**](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone): Creates a stone wall that can be shaped.
 - [**Waves of Fatigue**](/pathfinderRPG/prd/spells/wavesOfFatigue.html#_waves-of-fatigue): Several targets become [fatigued](/pathfinderRPG/prd/glossary.html#_fatigued).
 - [**Wind Blades**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/sylphs.html#_wind-blades): Harden the air around the target into jagged invisible blades.
-- [**Wreath of Blades**](/pathfinderRPG/prd/ultimateCombat/spells/wreathOfBlades.html#_wreath-of-blades)<sup>F</sup>: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
+- [**Wreath of Blades**](/pathfinderRPG/prd/ultimateCombat/spells/wreathOfBlades.html#_wreath-of-blades)F: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
 
 - [**Acid Fog**](/pathfinderRPG/prd/spells/acidFog.html#_acid-fog): Fog deals acid damage.
 - [**Age Resistance**](/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance): Ignore penalties from old age.
-- [**Analyze Dweomer**](/pathfinderRPG/prd/spells/analyzeDweomer.html#_analyze-dweomer)<sup>F</sup>: Reveals magical aspects of subject.
+- [**Analyze Dweomer**](/pathfinderRPG/prd/spells/analyzeDweomer.html#_analyze-dweomer)F: Reveals magical aspects of subject.
 - [**Antimagic Field**](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field): Negates magic within 10 ft.
 - [**Battlemind Link**](/pathfinderRPG/prd/ultimateMagic/spells/battlemindLink.html#_battlemind-link): You and an ally gain attack and AC bonuses.
 - [**Bear's Endurance, Mass**](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance-mass): As _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, affects one subject/level.
@@ -3022,15 +3022,15 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Cat's Grace, Mass**](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace-mass): As _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, affects 1 subject/level.
 - [**Chain Lightning**](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning): 1d6/level damage and 1 secondary bolt/level.
 - [**Chains of Fire**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ifrits.html#_chains-of-fire): Functions like _chain lightning_, except deals fire damage.
-- [**Circle of Death**](/pathfinderRPG/prd/spells/circleOfDeath.html#_circle-of-death)<sup>M</sup>: Kills 1d4/level HD of creatures.
+- [**Circle of Death**](/pathfinderRPG/prd/spells/circleOfDeath.html#_circle-of-death)M: Kills 1d4/level HD of creatures.
 - [**Cloak of Dreams**](/pathfinderRPG/prd/advanced/spells/cloakOfDreams.html#_cloak-of-dreams): Creatures within 5 ft. fall asleep.
 - [**Cold Ice Strike**](/pathfinderRPG/prd/ultimateMagic/spells/coldIceStrike.html#_cold-ice-strike): Cone of ice slivers deals 1d6 cold/level.
 - [**Conjure Black Pudding**](/pathfinderRPG/prd/ultimateMagic/spells/conjureBlackPudding.html#_conjure-black-pudding): Summon a black pudding.
 - [**Contagion, Greater**](/pathfinderRPG/prd/ultimateMagic/spells/contagion.html#_contagion,-greater): Infect a subject with a magical disease.
 - [**Contagious Flame**](/pathfinderRPG/prd/advanced/spells/contagiousFlame.html#_contagious-flame): Scorching rays cause 4d6 fire damage, then move on to new targets.
-- [**Contingency**](/pathfinderRPG/prd/spells/contingency.html#_contingency)<sup>F</sup>: Sets trigger condition for another spell.
+- [**Contingency**](/pathfinderRPG/prd/spells/contingency.html#_contingency)F: Sets trigger condition for another spell.
 - [**Control Water**](/pathfinderRPG/prd/spells/controlWater.html#_control-water): Raises or lowers bodies of water.
-- [**Create Undead**](/pathfinderRPG/prd/spells/createUndead.html#_create-undead)<sup>M</sup>: Raises ghouls, ghasts, mummies, or mohrgs from physical remains.
+- [**Create Undead**](/pathfinderRPG/prd/spells/createUndead.html#_create-undead)M: Raises ghouls, ghasts, mummies, or mohrgs from physical remains.
 - [**Curse, Major**](/pathfinderRPG/prd/ultimateMagic/spells/curse.html#_curse,-major): As _ [bestow curse](/pathfinderRPG/prd//spells/bestowCurse.html#_bestow-curse)_, but harder to remove.
 - [**Disintegrate**](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate): Reduces one creature or object to dust.
 - [**Dispel Magic, Greater**](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater): As _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, but with multiple targets.
@@ -3052,7 +3052,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Guards and Wards**](/pathfinderRPG/prd/spells/guardsAndWards.html#_guards-and-wards): Array of magic effects protect area.
 - [**Heroism, Greater**](/pathfinderRPG/prd/spells/heroism.html#_heroism-greater): Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp.
 - [**Ice Crystal Teleport**](/pathfinderRPG/prd/ultimateMagic/spells/iceCrystalTeleport.html#_ice-crystal-teleport): Target is frozen, then teleported.
-- [**Legend Lore**](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)<sup>MF</sup>: Lets you learn tales about a person, place, or thing.
+- [**Legend Lore**](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)MF: Lets you learn tales about a person, place, or thing.
 - [**Mage's Lucubration**](/pathfinderRPG/prd/spells/mageSLucubration.html#_mage-s-lucubration): _Wizard only. _Recalls spell of 5th level or lower.
 - [**Mislead**](/pathfinderRPG/prd/spells/mislead.html#_mislead): Turns you [invisible](/pathfinderRPG/prd/glossary.html#_invisible) and creates illusory double.
 - [**Monstrous Physique IV**](/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iv): As monstrous physique III, with more abilities.
@@ -3063,29 +3063,29 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Permanent Image**](/pathfinderRPG/prd/spells/permanentImage.html#_permanent-image): Permanent illusion, includes sight, sound, smell, and thermal effects.
 - [**Planar Binding**](/pathfinderRPG/prd/spells/planarBinding.html#_planar-binding): As _ [lesser planar binding](/pathfinderRPG/prd/spells/planarBinding.html#_planar-binding-lesser), _but up to 12 HD.
 - [**Plant Shape II**](/pathfinderRPG/prd/spells/plantShape.html#_plant-shape-ii): Turns you into a Large plant creature.
-- [**Programmed Image**](/pathfinderRPG/prd/spells/programmedImage.html#_programmed-image)<sup>M</sup>: As _ [major image](/pathfinderRPG/prd/spells/majorImage.html#_major-image)_, but triggered by event.
-- [**Repulsion**](/pathfinderRPG/prd/spells/repulsion.html#_repulsion)<sup>F</sup>: Creatures can't approach you.
+- [**Programmed Image**](/pathfinderRPG/prd/spells/programmedImage.html#_programmed-image)M: As _ [major image](/pathfinderRPG/prd/spells/majorImage.html#_major-image)_, but triggered by event.
+- [**Repulsion**](/pathfinderRPG/prd/spells/repulsion.html#_repulsion)F: Creatures can't approach you.
 - [**Serenity**](/pathfinderRPG/prd/ultimateMagic/spells/serenity.html#_serenity): Peaceful feelings harm those attempting violence.
 - [**Shadow Walk**](/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk): Step into shadow to travel rapidly.
 - [**Sirocco**](/pathfinderRPG/prd/advanced/spells/sirocco.html#_sirocco): Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
 - [**Stone to Flesh**](/pathfinderRPG/prd/spells/stoneToFlesh.html#_stone-to-flesh): Restores [petrified](/pathfinderRPG/prd/glossary.html#_petrified) creature.
 - [**Suggestion, Mass**](/pathfinderRPG/prd/spells/suggestion.html#_suggestion-mass): As _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion), _affects 1 subject/level.
 - [**Summon Monster VI**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi): Summons extraplanar creature to fight for you.
-- [**Symbol of Fear**](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)<sup>M</sup>: Triggered rune panics nearby creatures.
-- [**Symbol of Persuasion**](/pathfinderRPG/prd/spells/symbolOfPersuasion.html#_symbol-of-persuasion)<sup>M</sup>: Triggered rune charms creatures.
+- [**Symbol of Fear**](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)M: Triggered rune panics nearby creatures.
+- [**Symbol of Persuasion**](/pathfinderRPG/prd/spells/symbolOfPersuasion.html#_symbol-of-persuasion)M: Triggered rune charms creatures.
 - [**Symbol of Sealing**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfSealing.html#_symbol-of-sealing): Create triggered _ [wall of force](/pathfinderRPG/prd//spells/wallOfForce.html#_wall-of-force)_.
 - [**Tar Pool**](/pathfinderRPG/prd/ultimateCombat/spells/tarPool.html#_tar-pool): Converts the top layer of the ground into hot tar.
-- [**Transformation**](/pathfinderRPG/prd/spells/transformation.html#_transformation)<sup>M</sup>: You gain combat bonuses.
-- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)<sup>M</sup>: Lets you see all things as they really are.
+- [**Transformation**](/pathfinderRPG/prd/spells/transformation.html#_transformation)M: You gain combat bonuses.
+- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)M: Lets you see all things as they really are.
 - [**Undead Anatomy III**](/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-iii): Take the form and some of the powers of a Diminutive or Huge undead.
-- [**Undeath to Death**](/pathfinderRPG/prd/spells/undeathToDeath.html#_undeath-to-death)<sup>M</sup>: Destroys 1d4/level HD of undead (max. 20d4).
-- [**Unwilling Shield**](/pathfinderRPG/prd/advanced/spells/unwillingShield.html#_unwilling-shield)<sup>M</sup>: Subject shares wounds you receive.
+- [**Undeath to Death**](/pathfinderRPG/prd/spells/undeathToDeath.html#_undeath-to-death)M: Destroys 1d4/level HD of undead (max. 20d4).
+- [**Unwilling Shield**](/pathfinderRPG/prd/advanced/spells/unwillingShield.html#_unwilling-shield)M: Subject shares wounds you receive.
 - [**Utter Contempt**](/pathfinderRPG/prd/ultimateMagic/spells/utterContempt.html#_utter-contempt): Target's attitude worsens by two categories.
 - [**Veil**](/pathfinderRPG/prd/spells/veil.html#_veil): Changes appearance of a group of creatures.
 - [**Vengeful Outrage**](/pathfinderRPG/prd/ultimateMagic/spells/vengefulOutrage.html#_vengeful-outrage): Target is compelled to destroy one enemy.
-- [**Wall of Iron**](/pathfinderRPG/prd/spells/wallOfIron.html#_wall-of-iron)<sup>M</sup>: 30 hp/four levels; can topple onto foes.
+- [**Wall of Iron**](/pathfinderRPG/prd/spells/wallOfIron.html#_wall-of-iron)M: 30 hp/four levels; can topple onto foes.
 
-- [**Arcane Cannon**](/pathfinderRPG/prd/ultimateCombat/spells/arcaneCannon.html#_arcane-cannon)<sup>F</sup>: Your focus becomes a magical cannon that fires on its own.
+- [**Arcane Cannon**](/pathfinderRPG/prd/ultimateCombat/spells/arcaneCannon.html#_arcane-cannon)F: Your focus becomes a magical cannon that fires on its own.
 - [**Age Resistance, Greater**](/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-greater): Ignore penalties from venerable age.
 - [**Arcane Sight, Greater**](/pathfinderRPG/prd/spells/arcaneSight.html#_arcane-sight-greater): As _ [arcane sight](/pathfinderRPG/prd/spells/arcaneSight.html#_arcane-sight)_, but also reveals magic effects on creatures and objects.
 - [**Banishment**](/pathfinderRPG/prd/spells/banishment.html#_banishment): Banishes 2 HD/level of extraplanar creatures.
@@ -3104,7 +3104,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Finger of Death**](/pathfinderRPG/prd/spells/fingerOfDeath.html#_finger-of-death): Deals 10 damage/level to one subject.
 - [**Firebrand**](/pathfinderRPG/prd/advanced/spells/firebrand.html#_firebrand): Allies gain _ [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming)_ weapons, immunity to your fire spells, and a one-use ray of fire attack.
 - [**Fly, Mass**](/pathfinderRPG/prd/advanced/spells/fly.html#_fly,-mass): One creature/level gains ability to fly.
-- [**Forcecage**](/pathfinderRPG/prd/spells/forcecage.html#_forcecage)<sup>M</sup>: Cube or cage of force imprisons all inside.
+- [**Forcecage**](/pathfinderRPG/prd/spells/forcecage.html#_forcecage)M: Cube or cage of force imprisons all inside.
 - [**Form of the Dragon II**](/pathfinderRPG/prd/spells/formOfTheDragon.html#_form-of-the-dragon-ii): Turns you into a Large dragon.
 - [**Giant Form I**](/pathfinderRPG/prd/spells/giantForm.html#_giant-form-i): Turns you into a Large giant.
 - [**Grasping Hand**](/pathfinderRPG/prd/spells/graspingHand.html#_grasping-hand): Hand provides cover, pushes, or grapples.
@@ -3112,19 +3112,19 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Hostile Juxtaposition, Greater**](/pathfinderRPG/prd/ultimateCombat/spells/hostileJuxtaposition.html#_hostile-juxtaposition,-greater): You may target one creature for every four of your caster levels.
 - [**Ice Body**](/pathfinderRPG/prd/ultimateMagic/spells/iceBody.html#_ice-body): Your body becomes living ice.
 - [**Insanity**](/pathfinderRPG/prd/spells/insanity.html#_insanity): Subject suffers continuous _ [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_.
-- [**Instant Summons**](/pathfinderRPG/prd/spells/instantSummons.html#_instant-summons)<sup>M</sup>: Prepared object appears in your hand.
+- [**Instant Summons**](/pathfinderRPG/prd/spells/instantSummons.html#_instant-summons)M: Prepared object appears in your hand.
 - [**Invisibility, Mass**](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-mass): As _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, but affects all in range.
 - [**Joyful Rapture**](/pathfinderRPG/prd/ultimateMagic/spells/joyfulRapture.html#_joyful-rapture): Negate harmful emotions.
 - [**Ki Shout**](/pathfinderRPG/prd/ultimateMagic/spells/kiShout.html#_ki-shout): Target takes 1d6 sonic/level and is stunned.
-- [**Limited Wish**](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)<sup>M</sup>: Alters reality (within limits).
+- [**Limited Wish**](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)M: Alters reality (within limits).
 - [**Lunar Veil**](/pathfinderRPG/prd/ultimateMagic/spells/lunarVeil.html#_lunar-veil): Dispel light and revert lycanthropes.
-- [**Mage's Magnificent Mansion**](/pathfinderRPG/prd/spells/mageSMagnificentMansion.html#_mage-s-magnificent-mansion)<sup>F</sup>: Door leads to extradimensional mansion.
-- [**Mage's Sword**](/pathfinderRPG/prd/spells/mageSSword.html#_mage-s-sword)<sup>F</sup>: Floating magic blade strikes opponents.
+- [**Mage's Magnificent Mansion**](/pathfinderRPG/prd/spells/mageSMagnificentMansion.html#_mage-s-magnificent-mansion)F: Door leads to extradimensional mansion.
+- [**Mage's Sword**](/pathfinderRPG/prd/spells/mageSSword.html#_mage-s-sword)F: Floating magic blade strikes opponents.
 - [**Phantasmal Revenge**](/pathfinderRPG/prd/advanced/spells/phantasmalRevenge.html#_phantasmal-revenge): Ghost from corpse hunts killer.
 - [**Phase Door**](/pathfinderRPG/prd/spells/phaseDoor.html#_phase-door): Creates an [invisible](/pathfinderRPG/prd/glossary.html#_invisible) passage through a barrier.
 - [**Plague Storm**](/pathfinderRPG/prd/ultimateMagic/spells/plagueStorm.html#_plague-storm): Cloud infects creatures like _ [contagion](/pathfinderRPG/prd//spells/contagion.html#_contagion)_.
 - [**Planar Adaptation, Mass**](/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation,-mass): As _ [planar adaptation](/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation)_, but affects multiple creatures.
-- [**Plane Shift**](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)<sup>F</sup>: As many as eight subjects travel to another plane.
+- [**Plane Shift**](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)F: As many as eight subjects travel to another plane.
 - [**Plant Shape III**](/pathfinderRPG/prd/spells/plantShape.html#_plant-shape-iii): Turns you into a Huge plant.
 - [**Polymorph, Greater**](/pathfinderRPG/prd/spells/polymorph.html#_polymorph-greater): Gives one willing subject a new, more powerful form.
 - [**Power Word Blind**](/pathfinderRPG/prd/spells/powerWordBlind.html#_power-word-blind): Blinds creature with 200 hp or less.
@@ -3137,29 +3137,29 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Scrying, Greater**](/pathfinderRPG/prd/spells/scrying.html#_scrying-greater): As _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_, but faster and longer.
 - [**Sequester**](/pathfinderRPG/prd/spells/sequester.html#_sequester): Subject is [invisible](/pathfinderRPG/prd/glossary.html#_invisible) to sight and [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying); renders creature comatose.
 - [**Shadow Conjuration, Greater**](/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration-greater): As _ [shadow conjuration](/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration), _but up to 6th level and 60% real.
-- [**Simulacrum**](/pathfinderRPG/prd/spells/simulacrum.html#_simulacrum)<sup>M</sup>: Creates partially real double of a creature.
-- [**Spell Turning**](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)<sup>M</sup>: Reflect 1d4+6 spell levels back at caster.
+- [**Simulacrum**](/pathfinderRPG/prd/spells/simulacrum.html#_simulacrum)M: Creates partially real double of a creature.
+- [**Spell Turning**](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)M: Reflect 1d4+6 spell levels back at caster.
 - [**Statue**](/pathfinderRPG/prd/spells/statue.html#_statue): Subject can become a statue at will.
 - [**Summon Monster VII**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vii): Summons extraplanar creature to fight for you.
-- [**Symbol of Stunning**](/pathfinderRPG/prd/spells/symbolOfStunning.html#_symbol-of-stunning)<sup>M</sup>: Triggered rune stuns creatures.
-- [**Symbol of Weakness**](/pathfinderRPG/prd/spells/symbolOfWeakness.html#_symbol-of-weakness)<sup>M</sup>: Triggered rune weakens creatures.
+- [**Symbol of Stunning**](/pathfinderRPG/prd/spells/symbolOfStunning.html#_symbol-of-stunning)M: Triggered rune stuns creatures.
+- [**Symbol of Weakness**](/pathfinderRPG/prd/spells/symbolOfWeakness.html#_symbol-of-weakness)M: Triggered rune weakens creatures.
 - [**Teleport Object**](/pathfinderRPG/prd/spells/teleportObject.html#_teleport-object): As _ [teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport), _but affects a touched object.
 - [**Teleport, Greater**](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater): As _ [teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport), _but no range limit and no off-target arrival.
 - [**Temporary Resurrection**](/pathfinderRPG/prd/ultimateMagic/spells/temporaryResurrection.html#_temporary-resurrection): Bring a creature to life for 24 hours, after which it dies again.
-- [**Vision**](/pathfinderRPG/prd/spells/vision.html#_vision)<sup>M</sup>: As _ [legend lore](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)_, but quicker.
+- [**Vision**](/pathfinderRPG/prd/spells/vision.html#_vision)M: As _ [legend lore](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)_, but quicker.
 - [**Vortex**](/pathfinderRPG/prd/advanced/spells/vortex.html#_vortex): Creates a whirlpool in water.
 - [**Walk through Space**](/pathfinderRPG/prd/ultimateCombat/spells/walkThroughSpace.html#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
 - [**Waves of Ecstasy**](/pathfinderRPG/prd/ultimateMagic/spells/wavesOfEcstasy.html#_waves-of-ecstasy): Pleasure stuns and staggers creatures.
 - [**Waves of Exhaustion**](/pathfinderRPG/prd/spells/wavesOfExhaustion.html#_waves-of-exhaustion): Several targets become [exhausted](/pathfinderRPG/prd/glossary.html#_exhausted).
 
 - [**Antipathy**](/pathfinderRPG/prd/spells/antipathy.html#_antipathy): Object or location affected by spell repels certain creatures.
-- [**Binding**](/pathfinderRPG/prd/spells/binding.html#_binding)<sup>M</sup>: Utilizes an array of techniques to imprison a creature.
+- [**Binding**](/pathfinderRPG/prd/spells/binding.html#_binding)M: Utilizes an array of techniques to imprison a creature.
 - [**Call Construct**](/pathfinderRPG/prd/ultimateMagic/spells/callConstruct.html#_call-construct): Summon your construct to you.
 - [**Charm Monster, Mass**](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster-mass): As _ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster), _but all within 30 ft.
 - [**Clenched Fist**](/pathfinderRPG/prd/spells/clenchedFist.html#_clenched-fist): Large hand provides cover, pushes, or attacks your foes.
-- [**Clone**](/pathfinderRPG/prd/spells/clone.html#_clone)<sup>MF</sup>: Duplicate awakens when original dies.
+- [**Clone**](/pathfinderRPG/prd/spells/clone.html#_clone)MF: Duplicate awakens when original dies.
 - [**Create Demiplane**](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane): As _ [lesser create demiplane](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser)_, but larger and with planar traits.
-- [**Create Greater Undead**](/pathfinderRPG/prd/spells/createGreaterUndead.html#_create-greater-undead)<sup>M</sup>: Creates shadows, wraiths, spectres, or devourers.
+- [**Create Greater Undead**](/pathfinderRPG/prd/spells/createGreaterUndead.html#_create-greater-undead)M: Creates shadows, wraiths, spectres, or devourers.
 - [**Demand**](/pathfinderRPG/prd/spells/demand.html#_demand): As _ [sending](/pathfinderRPG/prd/spells/sending.html#_sending), _plus you can send _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)._
 - [**Dimensional Lock**](/pathfinderRPG/prd/spells/dimensionalLock.html#_dimensional-lock): Teleportation and interplanar travel blocked for 1 day/level.
 - [**Discern Location**](/pathfinderRPG/prd/spells/discernLocation.html#_discern-location): Reveals exact location of creature or object.
@@ -3181,7 +3181,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Power Word Stun**](/pathfinderRPG/prd/spells/powerWordStun.html#_power-word-stun): Stuns creature with 150 hp or less.
 - [**Prediction of Failure**](/pathfinderRPG/prd/ultimateMagic/spells/predictionOfFailure.html#_prediction-of-failure): Target is permanently shaken and sickened, and may gain a spellblight.
 - [**Prismatic Wall**](/pathfinderRPG/prd/spells/prismaticWall.html#_prismatic-wall): Wall's colors have array of effects.
-- [**Protection from Spells**](/pathfinderRPG/prd/spells/protectionFromSpells.html#_protection-from-spells)<sup>MF</sup>: Confers +8 resistance bonus.
+- [**Protection from Spells**](/pathfinderRPG/prd/spells/protectionFromSpells.html#_protection-from-spells)MF: Confers +8 resistance bonus.
 - [**Prying Eyes, Greater**](/pathfinderRPG/prd/spells/pryingEyes.html#_prying-eyes-greater): As _ [prying eyes](/pathfinderRPG/prd/spells/pryingEyes.html#_prying-eyes)_, but eyes have _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_.
 - [**Scintillating Pattern**](/pathfinderRPG/prd/spells/scintillatingPattern.html#_scintillating-pattern): Twisting colors _confuse, _stun, or render [unconscious](/pathfinderRPG/prd/glossary.html#_unconscious).
 - [**Screen**](/pathfinderRPG/prd/spells/screen.html#_screen): Illusion hides area from vision and [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying).
@@ -3191,16 +3191,16 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Stormbolts**](/pathfinderRPG/prd/advanced/spells/stormbolts.html#_stormbolts): 1d8 damage/level (max 20d8) to targets.
 - [**Summon Monster VIII**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-viii): Summons extraplanar creature to fight for you.
 - [**Sunburst**](/pathfinderRPG/prd/spells/sunburst.html#_sunburst): Blinds all within 10 ft., deals 6d6 damage.
-- [**Symbol of Death**](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)<sup>M</sup>: Triggered rune kills nearby creatures.
-- [**Symbol of Insanity**](/pathfinderRPG/prd/spells/symbolOfInsanity.html#_symbol-of-insanity)<sup>M</sup>: Triggered rune renders nearby creatures insane.
-- [**Sympathy**](/pathfinderRPG/prd/spells/sympathy.html#_sympathy)<sup>M</sup>: Object or location attracts certain creatures.
+- [**Symbol of Death**](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)M: Triggered rune kills nearby creatures.
+- [**Symbol of Insanity**](/pathfinderRPG/prd/spells/symbolOfInsanity.html#_symbol-of-insanity)M: Triggered rune renders nearby creatures insane.
+- [**Sympathy**](/pathfinderRPG/prd/spells/sympathy.html#_sympathy)M: Object or location attracts certain creatures.
 - [**Telekinetic Sphere**](/pathfinderRPG/prd/spells/telekineticSphere.html#_telekinetic-sphere): As_ [resilient sphere](/pathfinderRPG/prd/spells/resilientSphere.html#_resilient-sphere), _but you move the sphere telekinetically.
-- [**Temporal Stasis**](/pathfinderRPG/prd/spells/temporalStasis.html#_temporal-stasis)<sup>M</sup>: Puts subject into suspended animation.
-- [**Trap the Soul**](/pathfinderRPG/prd/spells/trapTheSoul.html#_trap-the-soul)<sup>M</sup>: Imprisons subject within gem.
+- [**Temporal Stasis**](/pathfinderRPG/prd/spells/temporalStasis.html#_temporal-stasis)M: Puts subject into suspended animation.
+- [**Trap the Soul**](/pathfinderRPG/prd/spells/trapTheSoul.html#_trap-the-soul)M: Imprisons subject within gem.
 - [**Undead Anatomy IV**](/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-iv): As _ [undead anatomy III](/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-iii)_, but with more abilities.
 - [**Wall of Lava**](/pathfinderRPG/prd/advanced/spells/wallOfLava.html#_wall-of-lava): Wall damages foes that try to enter, periodically launches lava at nearby targets.
 
-- [**Astral Projection**](/pathfinderRPG/prd/spells/astralProjection.html#_astral-projection)<sup>M</sup>: Projects you and companions onto Astral Plane.
+- [**Astral Projection**](/pathfinderRPG/prd/spells/astralProjection.html#_astral-projection)M: Projects you and companions onto Astral Plane.
 - [**Clashing Rocks**](/pathfinderRPG/prd/advanced/spells/clashingRocks.html#_clashing-rocks): 20d6 damage to target creature.
 - [**Create Demiplane, Greater**](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-greater): As _ [create demiplane](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane)_, but larger and with more planar traits.
 - [**Crushing Hand**](/pathfinderRPG/prd/spells/crushingHand.html#_crushing-hand): Large hand provides cover, pushes, or crushes your foes.
@@ -3211,7 +3211,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Fiery Body**](/pathfinderRPG/prd/advanced/spells/fieryBody.html#_fiery-body): You gain various fire-related powers.
 - [**Foresight**](/pathfinderRPG/prd/spells/foresight.html#_foresight): âSixth senseâ warns of impending danger.
 - [**Freedom**](/pathfinderRPG/prd/spells/freedom.html#_freedom): Releases creature from _ [imprisonment](/pathfinderRPG/prd/spells/imprisonment.html#_imprisonment)._
-- [**Gate**](/pathfinderRPG/prd/spells/gate.html#_gate)<sup>M</sup>: Connects two planes for travel or summoning.
+- [**Gate**](/pathfinderRPG/prd/spells/gate.html#_gate)M: Connects two planes for travel or summoning.
 - [**Heroic Invocation**](/pathfinderRPG/prd/ultimateCombat/spells/heroicInvocation.html#_heroic-invocation): Grants a number of creatures bonuses on attacks and damage, temporary hit points, and immunity to fear and charm effects.
 - [**Hold Monster, Mass**](/pathfinderRPG/prd/spells/holdMonster.html#_hold-monster-mass): As _ [hold monster](/pathfinderRPG/prd/spells/holdMonster.html#_hold-monster), _but all within 30 ft.
 - [**Icy Prison, Mass**](/pathfinderRPG/prd/ultimateMagic/spells/icyPrison.html#_icy-prison,-mass): As _ [icy prison](/pathfinderRPG/prd/ultimateMagic/spells/icyPrison.html#_icy-prison)_, but it affects 1 creature/level.
@@ -3223,24 +3223,24 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Overwhelming Presence**](/pathfinderRPG/prd/ultimateMagic/spells/overwhelmingPresence.html#_overwhelming-presence): Creatures bow before you as if you were divine.
 - [**Power Word Kill**](/pathfinderRPG/prd/spells/powerWordKill.html#_power-word-kill): Kills one creature with 100 hp or less.
 - [**Prismatic Sphere**](/pathfinderRPG/prd/spells/prismaticSphere.html#_prismatic-sphere): As _ [prismatic wall](/pathfinderRPG/prd/spells/prismaticWall.html#_prismatic-wall)_, but surrounds on all sides.
-- [**Refuge**](/pathfinderRPG/prd/spells/refuge.html#_refuge)<sup>M</sup>: Alters item to transport its possessor to your abode.
+- [**Refuge**](/pathfinderRPG/prd/spells/refuge.html#_refuge)M: Alters item to transport its possessor to your abode.
 - [**Ride the Lightning**](/pathfinderRPG/prd/ultimateMagic/spells/rideTheLightning.html#_ride-the-lightning): Transform into electricity.
 - [**Shades**](/pathfinderRPG/prd/spells/shades.html#_shades): As _ [shadow conjuration](/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration)_, but up to 8th level and 80% real.
-- [**Shapechange**](/pathfinderRPG/prd/spells/shapechange.html#_shapechange)<sup>F</sup>: Transforms you into certain creatures, and lets you change forms once per round.
-- [**Soul Bind**](/pathfinderRPG/prd/spells/soulBind.html#_soul-bind)<sup>F</sup>: Traps newly dead soul to prevent _ [resurrection](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)_.
+- [**Shapechange**](/pathfinderRPG/prd/spells/shapechange.html#_shapechange)F: Transforms you into certain creatures, and lets you change forms once per round.
+- [**Soul Bind**](/pathfinderRPG/prd/spells/soulBind.html#_soul-bind)F: Traps newly dead soul to prevent _ [resurrection](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)_.
 - [**Suffocation, Mass**](/pathfinderRPG/prd/advanced/spells/suffocation.html#_suffocation,-mass): One creature/level suffocates to death.
 - [**Summon Monster IX**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ix): Summons extraplanar creature to fight for you.
 - [**Symbol of Strife**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfStrife.html#_symbol-of-strife): Triggered rune makes creatures attack.
 - [**Symbol of Vulnerability**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfVulnerability.html#_symbol-of-vulnerability): Triggered rune gives penalties.
-- [**Teleportation Circle**](/pathfinderRPG/prd/spells/teleportationCircle.html#_teleportation-circle)<sup>M</sup>: Teleports creatures inside circle.
+- [**Teleportation Circle**](/pathfinderRPG/prd/spells/teleportationCircle.html#_teleportation-circle)M: Teleports creatures inside circle.
 - [**Time Stop**](/pathfinderRPG/prd/spells/timeStop.html#_time-stop): You act freely for 1d4+1 rounds.
 - [**Transmute Blood to Acid**](/pathfinderRPG/prd/ultimateMagic/spells/transmuteBloodToAcid.html#_transmute-blood-to-acid): Target takes acid damage each round, and its attackers take acid damage.
 - [**Tsunami**](/pathfinderRPG/prd/advanced/spells/tsunami.html#_tsunami): Huge wave damages and sweeps up all in its path.
 - [**Wail of the Banshee**](/pathfinderRPG/prd/spells/wailOfTheBanshee.html#_wail-of-the-banshee): Deals 10 damage/level to 1 creature/level.
-- [**Wall of Suppression**](/pathfinderRPG/prd/advanced/spells/wallOfSuppression.html#_wall-of-suppression-)<sup>M</sup>: Creates wall that disables magic. 
+- [**Wall of Suppression**](/pathfinderRPG/prd/advanced/spells/wallOfSuppression.html#_wall-of-suppression-)M: Creates wall that disables magic. 
 - [**Weird**](/pathfinderRPG/prd/spells/weird.html#_weird): As _ [phantasmal killer](/pathfinderRPG/prd/spells/phantasmalKiller.html#_phantasmal-killer), _but affects all within 30 ft.
 - [**Winds of Vengeance**](/pathfinderRPG/prd/advanced/spells/windsOfVengeance.html#_winds-of-vengeance): Gives you the ability to fly and attack with wind.
-- [**Wish**](/pathfinderRPG/prd/spells/wish.html#_wish)<sup>M</sup>: As _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish), _but with fewer limits.
+- [**Wish**](/pathfinderRPG/prd/spells/wish.html#_wish)M: As _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish), _but with fewer limits.
 - [**Wooden Phalanx**](/pathfinderRPG/prd/ultimateMagic/spells/woodenPhalanx.html#_wooden-phalanx): Creates 1d4+2 temporary wood golems to fight for you.
 - [**World Wave**](/pathfinderRPG/prd/advanced/spells/worldWave.html#_world-wave-): Earth moves you across distances.
 
@@ -3274,7 +3274,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Life Conduit**](/pathfinderRPG/prd/ultimateCombat/spells/lifeConduit.html#_life-conduit): You are bound even tighter to your eidolon than normal, and may share hit points with it through your life link ability.
 - [**Mage Armor**](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor): Gives subject +4 armor bonus.
 - [**Magic Fang**](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang): One natural weapon of subject creature gets +1 on attack and damage rolls.
-- [**Magic Mouth**](/pathfinderRPG/prd/spells/magicMouth.html#_magic-mouth)<sup>M</sup>: Object speaks once when triggered.
+- [**Magic Mouth**](/pathfinderRPG/prd/spells/magicMouth.html#_magic-mouth)M: Object speaks once when triggered.
 - [**Mount**](/pathfinderRPG/prd/spells/mount.html#_mount): Summons riding horse for 2 hours/level.
 - [**Protection from Chaos**](/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos): +2 to [AC](/pathfinderRPG/prd/combat.html#_armor-class) and saves, plus additional protection against selected alignment.
 - [**Ray of Sickening**](/pathfinderRPG/prd/ultimateMagic/spells/rayOfSickening.html#_ray-of-sickening): Ray makes the subject sickened.
@@ -3296,7 +3296,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Blur**](/pathfinderRPG/prd/spells/blur.html#_blur): Attacks miss subject 20% of the time.
 - [**Bull's Strength**](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength): Subject gains +4 to Str for 1 min./level.
 - [**Cat's Grace**](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace): Subject gains +4 to [Dex](/pathfinderRPG/prd/gettingStarted.html#_dexterity) for 1 min./level.
-- [**Create Pit**](/pathfinderRPG/prd/advanced/spells/createPit.html#_create-pit-)<sup>F</sup>: Creates an extradimensional pit.
+- [**Create Pit**](/pathfinderRPG/prd/advanced/spells/createPit.html#_create-pit-)F: Creates an extradimensional pit.
 - [**Cushioning Bands**](/pathfinderRPG/prd/ultimateMagic/spells/cushioningBands.html#_cushioning-bands): Force bands protect against crushing.
 - [**Detect Thoughts**](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts): Allows âlisteningâ to surface thoughts.
 - [**Eagle's Splendor**](/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor): Subject gains +4 to Cha for 1 min./level.
@@ -3326,7 +3326,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Summon Monster II**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ii): Summons elemental creature.
 - [**Summon Swarm**](/pathfinderRPG/prd/spells/summonSwarm.html#_summon-swarm): Summons swarm of bats, rats, or spiders.
 - [**Twisted Space**](/pathfinderRPG/prd/ultimateCombat/spells/twistedSpace.html#_twisted-space): Targeted creature's attacks target a random square instead of the intended target.
-- [**Warding Weapon**](/pathfinderRPG/prd/ultimateCombat/spells/wardingWeapon.html#_warding-weapon)<sup>F</sup>: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
+- [**Warding Weapon**](/pathfinderRPG/prd/ultimateCombat/spells/wardingWeapon.html#_warding-weapon)F: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
 - [**Web Shelter**](/pathfinderRPG/prd/ultimateMagic/spells/webShelter.html#_web-shelter): Create a comfortable shelter made of webbing.
 - [**Wind Wall**](/pathfinderRPG/prd/spells/windWall.html#_wind-wall): Deflects arrows, smaller creatures, gasses.
 
@@ -3353,9 +3353,9 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Magic Fang, Greater**](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater): One natural weapon gets + 1/four levels (max. +5).
 - [**Marionette Possession**](/pathfinderRPG/prd/ultimateMagic/spells/marionettePossession.html#_marionette-possession): As magic jar, but limited to line of sight.
 - [**Minor Creation**](/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation): Creates one cloth or wood object.
-- [**Nondetection**](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)<sup>M</sup>: Hides subject from divination, [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying).
+- [**Nondetection**](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)M: Hides subject from divination, [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying).
 - [**Obsidian Flow**](/pathfinderRPG/prd/ultimateCombat/spells/obsidianFlow.html#_obsidian-flow): Converts the surface of the ground into molten glass.
-- [**Pellet Blast**](/pathfinderRPG/prd/ultimateCombat/spells/pelletBlast.html#_pellet-blast)<sup>M</sup>: Creates an explosion of conjured metal pellets. 
+- [**Pellet Blast**](/pathfinderRPG/prd/ultimateCombat/spells/pelletBlast.html#_pellet-blast)M: Creates an explosion of conjured metal pellets. 
 - [**Phantom Chariot**](/pathfinderRPG/prd/ultimateCombat/spells/phantomChariot.html#_phantom-chariot): Conjures a quasi-real heavy chariot pulled by four horses.
 - [**Phantom Steed, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/phantomSteed.html#_phantom-steed,-communal): As _ [phantom steed](/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed)_, but you may divide the duration among creatures touched.
 - [**Protection From Energy**](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
@@ -3369,7 +3369,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Seek Thoughts**](/pathfinderRPG/prd/advanced/spells/seekThoughts.html#_seek-thoughts): Detects creatures in the area thinking about something.
 - [**Spider Climb, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/spiderClimb.html#_spider-climb,-communal): As _ [spider climb](/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb)_, but you may divide the duration among creatures touched.
 - [**Spiked Pit**](/pathfinderRPG/prd/advanced/spells/spikedPit.html#_spiked-pit): As _ [create pit](/pathfinderRPG/prd/advanced/spells/createPit.html#_create-pit-)_, but filled with spikes.
-- [**Stoneskin**](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)<sup>M</sup>: Grants DR 10/adamantine.
+- [**Stoneskin**](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)M: Grants DR 10/adamantine.
 - [**Summon Monster IV**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv): Summons elemental creature to fight for you.
 - [**Tongues**](/pathfinderRPG/prd/spells/tongues.html#_tongues): Speak and understand any language.
 - [**Vomit Twin**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/goblins.html#_vomit-twin): You vomit forth a disgusting ooze copy of yourself into a single adjacent square.
@@ -3377,10 +3377,10 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Wall of Ice**](/pathfinderRPG/prd/spells/wallOfIce.html#_wall-of-ice): Ice plane creates wall or hemisphere creates dome.
 - [**Water Breathing**](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing): Subjects can breathe underwater.
 
-- [**Acid Pit**](/pathfinderRPG/prd/advanced/spells/acidPit.html#_acid-pit-)<sup>M</sup>: Creates a pit with a layer of acid on the bottom.
+- [**Acid Pit**](/pathfinderRPG/prd/advanced/spells/acidPit.html#_acid-pit-)M: Creates a pit with a layer of acid on the bottom.
 - [**Baleful Polymorph**](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph): Turns subject into harmless animal.
 - [**Bear's Endurance, Mass**](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance-mass): As _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, affects one subject/level.
-- [**Binding**](/pathfinderRPG/prd/spells/binding.html#_binding)<sup>M</sup>: Utilizes an array of techniques to imprison a creature.
+- [**Binding**](/pathfinderRPG/prd/spells/binding.html#_binding)M: Utilizes an array of techniques to imprison a creature.
 - [**Bull's Strength, Mass**](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength-mass): As _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, affects 1 subject per level.
 - [**Cat's Grace, Mass**](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace-mass): As _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, affects 1 subject/level.
 - [**Contact Other Plane**](/pathfinderRPG/prd/spells/contactOtherPlane.html#_contact-other-plane): Lets you ask question of extraplanar entity.
@@ -3395,7 +3395,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Hostile Juxtaposition**](/pathfinderRPG/prd/ultimateCombat/spells/hostileJuxtaposition.html#_hostile-juxtaposition): You create a dimensional link with a targeted creature, and switch spots with it.
 - [**Insect Plague**](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague): Wasp swarms attack creatures.
 - [**Mage's Faithful Hound**](/pathfinderRPG/prd/spells/mageSFaithfulHound.html#_mage-s-faithful-hound): Phantom dog can guard a location and attack intruders.
-- [**Magic Jar**](/pathfinderRPG/prd/spells/magicJar.html#_magic-jar)<sup>F</sup>: Enables possession of another creature.
+- [**Magic Jar**](/pathfinderRPG/prd/spells/magicJar.html#_magic-jar)F: Enables possession of another creature.
 - [**Major Creation**](/pathfinderRPG/prd/spells/majorCreation.html#_major-creation): As _ [minor creation](/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation), _plus stone and metal.
 - [**Nixie's Lure**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/undines.html#_nixie's-lure): Creates an unearthly and infectious song that seductively summons all who hear it.
 - [**Overland Flight**](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
@@ -3404,12 +3404,12 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Protection from Energy, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/protectionFromEnergy.html#_protection-from-energy,-communal): As _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, but you may divide the duration among creatures touched.
 - [**Purified Calling**](/pathfinderRPG/prd/advanced/spells/purifiedCalling.html#_purified-calling): Eidolon summoned is fully healed.
 - [**Sending**](/pathfinderRPG/prd/spells/sending.html#_sending): Delivers short message anywhere, instantly.
-- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)<sup>M</sup>: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
+- [**Stoneskin, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/stoneskin.html#_stoneskin,-communal)M: As _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, but you may divide the duration among creatures touched.
 - [**Summon Monster V**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v): Summons elemental creature to fight for you.
 - [**Summoner Conduit**](/pathfinderRPG/prd/ultimateCombat/spells/summonerConduit.html#_summoner-conduit): The target takes damage whenever its summoned creature does.
 - [**Teleport**](/pathfinderRPG/prd/spells/teleport.html#_teleport): Instantly transports you as far as 100 miles per level.
 - [**Tongues, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/tongues.html#_tongues,-communal): As _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_, but you may divide the duration among creatures touched.
-- [**Transmogrify**](/pathfinderRPG/prd/advanced/spells/transmogrify.html#_transmogrify)<sup>M</sup>: Change your eidolon's evolutions.
+- [**Transmogrify**](/pathfinderRPG/prd/advanced/spells/transmogrify.html#_transmogrify)M: Change your eidolon's evolutions.
 - [**Vitriolic Mist**](/pathfinderRPG/prd/ultimateMagic/spells/vitriolicMist.html#_vitriolic-mist): As _ [fire shield](/pathfinderRPG/prd//spells/fireShield.html#_fire-shield)_, except acid damage.
 - [**Wall of Stone**](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone): Creates a stone wall that can be shaped.
 
@@ -3427,18 +3427,18 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Life Conduit, Greater**](/pathfinderRPG/prd/ultimateCombat/spells/lifeConduit.html#_life-conduit,-greater): You transfer 3d6 hit points to your eidolon as a swift action.
 - [**Planar Adaptation**](/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation): Resist harmful effects of other plane.
 - [**Planar Binding**](/pathfinderRPG/prd/spells/planarBinding.html#_planar-binding): As _ [lesser planar binding](../spells/planarBinding.html#_planar-binding-lesser)_, but up to 12 HD.
-- [**Plane Shift**](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)<sup>F</sup>: As many as eight subjects travel to another plane.
+- [**Plane Shift**](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)F: As many as eight subjects travel to another plane.
 - [**Rejuvenate Eidolon, Greater**](/pathfinderRPG/prd/advanced/spells/rejuvenateEidolon.html#_rejuvenate-eidolon,-greater): As _ [lesser rejuvenate eidolon](/pathfinderRPG/prd/advanced/spells/rejuvenateEidolon.html#_rejuvenate-eidolon,-lesser)_, but cures 5d10 damage +1/level (max +20).
-- [**Repulsion**](/pathfinderRPG/prd/spells/repulsion.html#_repulsion)<sup>F</sup>: Creatures can't approach you.
+- [**Repulsion**](/pathfinderRPG/prd/spells/repulsion.html#_repulsion)F: Creatures can't approach you.
 - [**Sequester**](/pathfinderRPG/prd/spells/sequester.html#_sequester): Subject is [invisible](/pathfinderRPG/prd/glossary.html#_invisible) to sight and [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying); renders creature comatose.
-- [**Simulacrum**](/pathfinderRPG/prd/spells/simulacrum.html#_simulacrum)<sup>M</sup>: Creates partially real double of a creature.
-- [**Spell Turning**](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)<sup>M</sup>: Reflect 1d4+6 spell levels back at caster.
+- [**Simulacrum**](/pathfinderRPG/prd/spells/simulacrum.html#_simulacrum)M: Creates partially real double of a creature.
+- [**Spell Turning**](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)M: Reflect 1d4+6 spell levels back at caster.
 - [**Summon Monster VII**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vii): Summons elemental creature to fight for you.
 - [**Tar Pool**](/pathfinderRPG/prd/ultimateCombat/spells/tarPool.html#_tar-pool): Converts the top layer of the ground into hot tar.
 - [**Teleport, Greater**](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater): As _ [teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport), _but no range limit and no off-target arrival.
-- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)<sup>M</sup>: Lets you see all things as they really are.
-- [**Wall of Iron**](/pathfinderRPG/prd/spells/wallOfIron.html#_wall-of-iron)<sup>M</sup>: 30 hp/four levels; can topple onto foes.
-- [**Wreath of Blades**](/pathfinderRPG/prd/ultimateCombat/spells/wreathOfBlades.html#_wreath-of-blades)<sup>F</sup>: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
+- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)M: Lets you see all things as they really are.
+- [**Wall of Iron**](/pathfinderRPG/prd/spells/wallOfIron.html#_wall-of-iron)M: 30 hp/four levels; can topple onto foes.
+- [**Wreath of Blades**](/pathfinderRPG/prd/ultimateCombat/spells/wreathOfBlades.html#_wreath-of-blades)F: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
 
 - [**Antipathy**](/pathfinderRPG/prd/spells/antipathy.html#_antipathy): Object or location affected by spell repels certain creatures.
 - [**Charm Monster, Mass**](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster-mass): As _ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster), _but all within 30 ft.
@@ -3453,10 +3453,10 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Maze**](/pathfinderRPG/prd/spells/maze.html#_maze): Traps subject in extradimensional maze.
 - [**Planar Adaptation, Mass**](/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation,-mass): As _ [planar adaptation](/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation)_, but affects multiple creatures.
 - [**Planar Binding, Greater**](/pathfinderRPG/prd/spells/planarBinding.html#_planar-binding-greater): As _ [lesser planar binding](/pathfinderRPG/prd/spells/planarBinding.html#_planar-binding-lesser), _but up to 18 HD.
-- [**Protection from Spells**](/pathfinderRPG/prd/spells/protectionFromSpells.html#_protection-from-spells)<sup>MF</sup>: Confers +8 resistance bonus.
+- [**Protection from Spells**](/pathfinderRPG/prd/spells/protectionFromSpells.html#_protection-from-spells)MF: Confers +8 resistance bonus.
 - [**Summon Monster VIII**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-viii): Summons elemental creature to fight for you.
-- [**Sympathy**](/pathfinderRPG/prd/spells/sympathy.html#_sympathy)<sup>M</sup>: Object or location attracts certain creatures.
-- [**Teleportation Circle**](/pathfinderRPG/prd/spells/teleportationCircle.html#_teleportation-circle)<sup>M</sup>: Teleports creatures inside circle.
+- [**Sympathy**](/pathfinderRPG/prd/spells/sympathy.html#_sympathy)M: Object or location attracts certain creatures.
+- [**Teleportation Circle**](/pathfinderRPG/prd/spells/teleportationCircle.html#_teleportation-circle)M: Teleports creatures inside circle.
 - [**Walk through Space**](/pathfinderRPG/prd/ultimateCombat/spells/walkThroughSpace.html#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
 
 - [**Arcane Mark**](/pathfinderRPG/prd/spells/arcaneMark.html#_arcane-mark): Inscribes a personal rune on an object or creature (visible or invisible).
@@ -3553,7 +3553,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Adoration**](/pathfinderRPG/prd/ultimateCombat/spells/adoration.html#_adoration): You gain a bonus on [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) checks and performance combat checks.
 - [**Alter Self**](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self): Assume form of a Small or Medium humanoid.
 - [**Ancestral Regression**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/drow.html#_ancestral-regression): The target drow transforms into a surface elf.
-- [**Augury**](/pathfinderRPG/prd/spells/augury.html#_augury)<sup>MF</sup>: Learns whether an action will be good or bad.
+- [**Augury**](/pathfinderRPG/prd/spells/augury.html#_augury)MF: Learns whether an action will be good or bad.
 - [**Bestow Insight**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/humans.html#_bestow-insight): Target gains a +2 insight bonus and is considered trained in one single ranked skill.
 - [**Bestow Weapon Proficiency**](/pathfinderRPG/prd/ultimateCombat/spells/bestowWeaponProficiency.html#_bestow-weapon-proficiency): Grants a creature proficiency in a single weapon for short period of time.
 - [**Binding Earth**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/oreads.html#_binding-earth): Areas of earth and stone floor act as a snapping quagmire that pulls the target down and damages it if it attempts to move through such terrain.
@@ -3649,7 +3649,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Flash Fire**](/pathfinderRPG/prd/ultimateCombat/spells/flashFire.html#_flash-fire): Ammunition in the targeted firearm creates a tremendous flash capable of blinding the weapon's bearer and those around him.
 - [**Fly**](/pathfinderRPG/prd/spells/fly.html): Subject flies at a speed of 60 ft.
 - [**Gloomblind Bolts**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/fetchlings.html#_gloomblind-bolts): Create one or more bolts of negative energy infused with shadow pulled from the Shadow Plane.
-- [**Glyph of Warding**](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)<sup>M</sup>: Inscription harms those who pass it.
+- [**Glyph of Warding**](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)M: Inscription harms those who pass it.
 - [**Guiding Star**](/pathfinderRPG/prd/advanced/spells/guidingStar.html#_guiding-star-): Know approximate distance from where you cast this spell.
 - [**Healing Thief**](/pathfinderRPG/prd/ultimateCombat/spells/healingThief.html#_healing-thief): You siphon half of all magical healing that the targeted creature receives.
 - [**Heroism**](/pathfinderRPG/prd/spells/heroism.html#_heroism): Gives +2 bonus on attack rolls, saves, skill checks.
@@ -3679,7 +3679,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Sands of Time**](/pathfinderRPG/prd/ultimateMagic/spells/sandsOfTime.html#_sands-of-time): Target temporarily ages.
 - [**Screech**](/pathfinderRPG/prd/advanced/spells/screech.html#_screech): Foes provoke attacks of opportunity.
 - [**Seek Thoughts**](/pathfinderRPG/prd/advanced/spells/seekThoughts.html#_seek-thoughts): Detects thinking creatures' thoughts.
-- [**Sepia Snake Sigil**](/pathfinderRPG/prd/spells/sepiaSnakeSigil.html#_sepia-snake-sigil)<sup>M</sup>: Creates text symbol that immobilizes reader.
+- [**Sepia Snake Sigil**](/pathfinderRPG/prd/spells/sepiaSnakeSigil.html#_sepia-snake-sigil)M: Creates text symbol that immobilizes reader.
 - [**Share Senses**](/pathfinderRPG/prd/advanced/spells/shareSenses.html#_share-senses): Perceive the world around your familiar.
 - [**Sleet Storm**](/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm): Hampers vision and movement.
 - [**Speak with Dead**](/pathfinderRPG/prd/spells/speakWithDead.html#_speak-with-dead): Corpse answers one question/two levels.
@@ -3715,7 +3715,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Detect Scrying**](/pathfinderRPG/prd/spells/detectScrying.html#_detect-scrying): Alerts you to magical eavesdropping
 - [**Dimension Door**](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door): Teleports you a short distance.
 - [**Discern Lies**](/pathfinderRPG/prd/spells/discernLies.html#_discern-lies): Reveals deliberate falsehoods.
-- [**Divination**](/pathfinderRPG/prd/spells/divination.html#_divination)<sup>M</sup>: Provides useful advice for specific proposed actions.
+- [**Divination**](/pathfinderRPG/prd/spells/divination.html#_divination)M: Provides useful advice for specific proposed actions.
 - [**Enervation**](/pathfinderRPG/prd/spells/enervation.html#_enervation): Subject gains 1d4 [negative levels](/pathfinderRPG/prd/glossary.html#_energy-drain-and-negative-levels).
 - [**False Life, Greater**](/pathfinderRPG/prd/ultimateMagic/spells/falseLife.html#_false-life,-greater): Gain 2d10 temporary hp + 1/level.
 - [**Familiar Melding**](/pathfinderRPG/prd/ultimateMagic/spells/familiarMelding.html#_familiar-melding): Possess your familiar.
@@ -3735,24 +3735,24 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Poison**](/pathfinderRPG/prd/spells/poison.html#_poison): Touch deals 1d3 Con damage 1/round for 6 rounds.
 - [**Resilient Reservoir**](/pathfinderRPG/prd/advancedRaceGuide/coreRaces/halfElves.html#_resilient-reservoir): Creates a magical well of retribution that a caster can unleash with blinding speed.
 - [**Ride the Waves**](/pathfinderRPG/prd/ultimateMagic/spells/rideTheWaves.html#_ride-the-waves): Target can breathe water and swim.
-- [**Scrying**](/pathfinderRPG/prd/spells/scrying.html#_scrying)<sup>F</sup>: Spies on subject from a distance.
+- [**Scrying**](/pathfinderRPG/prd/spells/scrying.html#_scrying)F: Spies on subject from a distance.
 - [**Secure Shelter**](/pathfinderRPG/prd/spells/secureShelter.html#_secure-shelter): Creates sturdy cottage.
 - [**Shadow Step**](/pathfinderRPG/prd/ultimateMagic/spells/shadowStep.html#_shadow-step): Teleport from one shadow to another.
-- [**Sleepwalk**](/pathfinderRPG/prd/advanced/spells/sleepwalk.html#_sleepwalk)<sup>M</sup>: Causes creature to move while asleep.
+- [**Sleepwalk**](/pathfinderRPG/prd/advanced/spells/sleepwalk.html#_sleepwalk)M: Causes creature to move while asleep.
 - [**Solid Fog**](/pathfinderRPG/prd/spells/solidFog.html#_solid-fog): Blocks vision and slows movement.
-- [**Spite**](/pathfinderRPG/prd/advanced/spells/spite.html#_spite)<sup>M</sup>: Inflict touch spell upon creature that attacks you.
+- [**Spite**](/pathfinderRPG/prd/advanced/spells/spite.html#_spite)M: Inflict touch spell upon creature that attacks you.
 - [**Summon Monster IV**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv): Summons elemental creature to fight for you.
 - [**Symbol of Healing**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfHealing.html#_symbol-of-healing): Triggered rune heals living creatures.
 - [**Symbol of Revelation**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfRevelation.html#_symbol-of-revelation): Triggered symbol reveals illusions.
 - [**Symbol of Slowing**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfSlowing.html#_symbol-of-slowing): Triggered rune slows creatures.
-- [**Threefold Aspect**](/pathfinderRPG/prd/advanced/spells/threefoldAspect.html#_threefold-aspect)<sup>F</sup>: Appear older or younger.
+- [**Threefold Aspect**](/pathfinderRPG/prd/advanced/spells/threefoldAspect.html#_threefold-aspect)F: Appear older or younger.
 - [**Tongues, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/tongues.html#_tongues,-communal): As _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_, but you may divide the duration among creatures touched.
 - [**Touch of Slime**](/pathfinderRPG/prd/ultimateMagic/spells/touchOfSlime.html#_touch-of-slime): Touch infests a target with green slime.
 - [**Vermin Shape II**](/pathfinderRPG/prd/ultimateMagic/spells/verminShape.html#_vermin-shape-ii): As _vermin shape_, but Tiny or Large.
 - [**Volcanic Storm**](/pathfinderRPG/prd/ultimateMagic/spells/volcanicStorm.html#_volcanic-storm): Hot rocks deal 5d6 damage.
 - [**Wandering Star Motes**](/pathfinderRPG/prd/advanced/spells/wanderingStarMotes.html#_wandering-star-motes): Outlines subject and produces light as a sunrod.
 - [**Web Cloud**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/drow.html#_web-cloud): Creates a cloud of flame-resistant strands of adhesive webbing.
-- [**Wreath of Blades**](/pathfinderRPG/prd/ultimateCombat/spells/wreathOfBlades.html#_wreath-of-blades)<sup>F</sup>: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
+- [**Wreath of Blades**](/pathfinderRPG/prd/ultimateCombat/spells/wreathOfBlades.html#_wreath-of-blades)F: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
 
 - [**Baleful Polymorph**](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph): Turns subject into harmless animal.
 - [**Banish Seeming**](/pathfinderRPG/prd/advanced/spells/banishSeeming.html#_banish-seeming): Dispels touched illusion or a creature's change in form.
@@ -3771,7 +3771,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Hold Monster**](/pathfinderRPG/prd/spells/holdMonster.html#_hold-monster): As _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_, but any creature.
 - [**Hostile Juxtaposition**](/pathfinderRPG/prd/ultimateCombat/spells/hostileJuxtaposition.html#_hostile-juxtaposition): You create a dimensional link with a targeted creature, and switch spots with it.
 - [**Inflict Critical Wounds**](/pathfinderRPG/prd/spells/inflictCriticalWounds.html#_inflict-critical-wounds): Touch attack, 4d8 damage + 1/level (max +20).
-- [**Magic Jar**](/pathfinderRPG/prd/spells/magicJar.html#_magic-jar)<sup>F</sup>: Enables possession of another creature.
+- [**Magic Jar**](/pathfinderRPG/prd/spells/magicJar.html#_magic-jar)F: Enables possession of another creature.
 - [**Major Creation**](/pathfinderRPG/prd/spells/majorCreation.html#_major-creation): As _ [minor creation](/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation), _plus stone and metal.
 - [**Mark of Justice**](/pathfinderRPG/prd/spells/markOfJustice.html#_mark-of-justice): Designates action that triggers _curse _on subject.
 - [**Mind Fog**](/pathfinderRPG/prd/spells/mindFog.html#_mind-fog): Subjects in fog get –10 to [Wis](/pathfinderRPG/prd/gettingStarted.html#_wisdom) and [Will](/pathfinderRPG/prd/combat.html#_will) checks.
@@ -3782,17 +3782,17 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Possess Object**](/pathfinderRPG/prd/ultimateMagic/spells/possessObject.html#_possess-object): Possess and animate one object.
 - [**Prying Eyes**](/pathfinderRPG/prd/spells/pryingEyes.html#_prying-eyes): 1d4 + 1/level floating eyes scout for you.
 - [**Reincarnate**](/pathfinderRPG/prd/spells/reincarnate.html#_reincarnate): Brings dead subject back in a random body.
-- [**Rest Eternal**](/pathfinderRPG/prd/advanced/spells/restEternal.html#_rest-eternal)<sup>M</sup>: Dead creature cannot be revived.
-- [**Secret Chest**](/pathfinderRPG/prd/spells/secretChest.html#_secret-chest)<sup>F</sup>: Hides expensive chest on Ethereal Plane; you retrieve it at will.
+- [**Rest Eternal**](/pathfinderRPG/prd/advanced/spells/restEternal.html#_rest-eternal)M: Dead creature cannot be revived.
+- [**Secret Chest**](/pathfinderRPG/prd/spells/secretChest.html#_secret-chest)F: Hides expensive chest on Ethereal Plane; you retrieve it at will.
 - [**Seeming**](/pathfinderRPG/prd/spells/seeming.html#_seeming): Changes appearance of 1 person per 2 levels.
 - [**Smug Narcissism**](/pathfinderRPG/prd/ultimateMagic/spells/smugNarcissism.html#_smug-narcissism): Target is distracted by its sense of self.
 - [**Suffocation**](/pathfinderRPG/prd/advanced/spells/suffocation.html#_suffocation): Target quickly suffocates to death.
 - [**Summon Monster V**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v): Summons elemental creature to fight for you.
 - [**Summoner Conduit**](/pathfinderRPG/prd/ultimateCombat/spells/summonerConduit.html#_summoner-conduit): The target takes damage whenever its summoned creature does.
-- [**Symbol of Fear**](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)<sup>M</sup>: Triggered rune panics nearby creatures.
+- [**Symbol of Fear**](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)M: Triggered rune panics nearby creatures.
 - [**Symbol of Scrying**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfScrying.html#_symbol-of-scrying): Triggered rune activates scrying sensor.
-- [**Symbol of Sleep**](/pathfinderRPG/prd/spells/symbolOfSleep.html#_symbol-of-sleep)<sup>M</sup>: Triggered rune puts nearby creatures into catatonic slumber.
-- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)<sup>M</sup>: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
+- [**Symbol of Sleep**](/pathfinderRPG/prd/spells/symbolOfSleep.html#_symbol-of-sleep)M: Triggered rune puts nearby creatures into catatonic slumber.
+- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)M: As _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, but fills a 5-foot square.
 - [**Telepathic Bond**](/pathfinderRPG/prd/spells/telepathicBond.html#_telepathic-bond): Link lets allies communicate.
 - [**Teleport**](/pathfinderRPG/prd/spells/teleport.html#_teleport): Instantly transports you as far as 100 miles per level.
 - [**Truespeak**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/aasimars.html#_truespeak): You can communicate with any creature that is not mindless.
@@ -3801,7 +3801,7 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Wind Blades**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/sylphs.html#_wind-blades): Harden the air around the target into jagged invisible blades.
 
 - [**Age Resistance**](/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance): Ignore penalties from old age.
-- [**Analyze Dweomer**](/pathfinderRPG/prd/spells/analyzeDweomer.html#_analyze-dweomer)<sup>F</sup>: Reveals magical aspects of subject.
+- [**Analyze Dweomer**](/pathfinderRPG/prd/spells/analyzeDweomer.html#_analyze-dweomer)F: Reveals magical aspects of subject.
 - [**Animate Objects**](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects): Objects attack your foes.
 - [**Binding Earth, Mass**](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/oreads.html#_binding-earth,-mass): Functions as _binding earth_, mass.
 - [**Cloak of Dreams**](/pathfinderRPG/prd/advanced/spells/cloakOfDreams.html#_cloak-of-dreams): Causes living creatures within 5 ft. to fall asleep.
@@ -3819,21 +3819,21 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Heroism, Greater**](/pathfinderRPG/prd/spells/heroism.html#_heroism-greater): Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp.
 - [**Ice Crystal Teleport**](/pathfinderRPG/prd/ultimateMagic/spells/iceCrystalTeleport.html#_ice-crystal-teleport): Target is frozen, then teleported.
 - [**Inflict Light Wounds, Mass**](/pathfinderRPG/prd/spells/inflictLightWounds.html#_inflict-light-wounds-mass): Deals 1d8 damage + 1/level, affects 1 subject/level.
-- [**Legend Lore**](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)<sup>MF</sup>: Lets you learn tales about a person, place, or thing.
+- [**Legend Lore**](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)MF: Lets you learn tales about a person, place, or thing.
 - [**Named Bullet, Greater**](/pathfinderRPG/prd/ultimateCombat/spells/namedBullet.html#_named-bullet,-greater): As _ [named bullet](/pathfinderRPG/prd/ultimateCombat/spells/namedBullet.html#_named-bullet)_, but deals 2 points of damage for every caster level.
 - [**Plague Storm**](/pathfinderRPG/prd/ultimateMagic/spells/plagueStorm.html#_plague-storm): Cloud infects creatures like _ [contagion](/pathfinderRPG/prd//spells/contagion.html#_contagion)_.
-- [**Raise Dead**](/pathfinderRPG/prd/spells/raiseDead.html#_raise-dead)<sup>M</sup>: Restores life to subject who died as long as one day/level ago.
+- [**Raise Dead**](/pathfinderRPG/prd/spells/raiseDead.html#_raise-dead)M: Restores life to subject who died as long as one day/level ago.
 - [**Slay Living**](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living): Touch attack deals 12d6 +1 per level.
 - [**Stone to Flesh**](/pathfinderRPG/prd/spells/stoneToFlesh.html#_stone-to-flesh): Restores petrified creature.
 - [**Suggestion, Mass**](/pathfinderRPG/prd/spells/suggestion.html#_suggestion-mass): As _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion), _affects 1 subject/level.
 - [**Summon Monster VI**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi): Summons elemental creature to fight for you.
 - [**Swarm Skin**](/pathfinderRPG/prd/advanced/spells/swarmSkin.html#_swarm-skin-): Turns your body into a swarm of vermin.
-- [**Symbol of Fear**](/pathfinderRPG/prd/spells/symbolOfFear.html#_symbol-of-fear)<sup>M</sup>: Triggered rune panics nearby creatures.
-- [**Symbol of Persuasion**](/pathfinderRPG/prd/spells/symbolOfPersuasion.html#_symbol-of-persuasion)<sup>M</sup>: Triggered rune charms creatures.
+- [**Symbol of Fear**](/pathfinderRPG/prd/spells/symbolOfFear.html#_symbol-of-fear)M: Triggered rune panics nearby creatures.
+- [**Symbol of Persuasion**](/pathfinderRPG/prd/spells/symbolOfPersuasion.html#_symbol-of-persuasion)M: Triggered rune charms creatures.
 - [**Symbol of Sealing**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfSealing.html#_symbol-of-sealing): Create triggered _ [wall of force](/pathfinderRPG/prd//spells/wallOfForce.html#_wall-of-force)_.
-- [**Transformation**](/pathfinderRPG/prd/spells/transformation.html#_transformation)<sup>M</sup>: You gain combat bonuses.
-- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)<sup>M</sup>: Lets you see all things as they really are.
-- [**Unwilling Shield**](/pathfinderRPG/prd/advanced/spells/unwillingShield.html#_unwilling-shield)<sup>M</sup>: Subject shares wounds you receive.
+- [**Transformation**](/pathfinderRPG/prd/spells/transformation.html#_transformation)M: You gain combat bonuses.
+- [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)M: Lets you see all things as they really are.
+- [**Unwilling Shield**](/pathfinderRPG/prd/advanced/spells/unwillingShield.html#_unwilling-shield)M: Subject shares wounds you receive.
 - [**Vengeful Outrage**](/pathfinderRPG/prd/ultimateMagic/spells/vengefulOutrage.html#_vengeful-outrage): Target is compelled to destroy one enemy.
 
 - [**Age Resistance, Greater**](/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-greater): Ignore penalties from venerable age.
@@ -3850,32 +3850,32 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Ice Body**](/pathfinderRPG/prd/ultimateMagic/spells/iceBody.html#_ice-body): Your body becomes living ice.
 - [**Inflict Moderate Wounds, Mass**](/pathfinderRPG/prd/spells/inflictModerateWounds.html#_inflict-moderate-wounds-mass): Deals 2d8 damage + 1/level, affects 1 subject/level.
 - [**Insanity**](/pathfinderRPG/prd/spells/insanity.html#_insanity): Subject suffers continuous _ [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_.
-- [**Instant Summons**](/pathfinderRPG/prd/spells/instantSummons.html#_instant-summons)<sup>M</sup>: Prepared object appears in your hand.
+- [**Instant Summons**](/pathfinderRPG/prd/spells/instantSummons.html#_instant-summons)M: Prepared object appears in your hand.
 - [**Lunar Veil**](/pathfinderRPG/prd/ultimateMagic/spells/lunarVeil.html#_lunar-veil): Dispel light and revert lycanthropes.
 - [**Phase Door**](/pathfinderRPG/prd/spells/phaseDoor.html#_phase-door): Creates an [invisible](/pathfinderRPG/prd/glossary.html#_invisible) passage through a barrier.
-- [**Plane Shift**](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)<sup>F</sup>: As many as eight subjects travel to another plane.
+- [**Plane Shift**](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)F: As many as eight subjects travel to another plane.
 - [**Power Word Blind**](/pathfinderRPG/prd/spells/powerWordBlind.html#_power-word-blind): Blinds creature with 200 hp or less.
 - [**Regenerate**](/pathfinderRPG/prd/spells/regenerate.html#_regenerate): Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).
 - [**Scouring Winds**](/pathfinderRPG/prd/ultimateMagic/spells/scouringWinds.html#_scouring-winds): Winds block vision and deal 3d6 damage per round.
 - [**Scrying, Greater**](/pathfinderRPG/prd/spells/scrying.html#_scrying-greater): As _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_, but faster and longer.
 - [**Summon Monster VII**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vii): Summons elemental creature to fight for you.
-- [**Symbol of Stunning**](/pathfinderRPG/prd/spells/symbolOfStunning.html#_symbol-of-stunning)<sup>M</sup>: Triggered rune stuns creatures.
-- [**Symbol of Weakness**](/pathfinderRPG/prd/spells/symbolOfWeakness.html#_symbol-of-weakness)<sup>M</sup>: Triggered rune weakens creatures.
+- [**Symbol of Stunning**](/pathfinderRPG/prd/spells/symbolOfStunning.html#_symbol-of-stunning)M: Triggered rune stuns creatures.
+- [**Symbol of Weakness**](/pathfinderRPG/prd/spells/symbolOfWeakness.html#_symbol-of-weakness)M: Triggered rune weakens creatures.
 - [**Teleport Object**](/pathfinderRPG/prd/spells/teleportObject.html#_teleport-object): As _ [teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport), _but affects a touched object.
 - [**Teleport, Greater**](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater): As _ [teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport), _but no range limit and no off-target arrival.
 - [**Temporary Resurrection**](/pathfinderRPG/prd/ultimateMagic/spells/temporaryResurrection.html#_temporary-resurrection): Bring a creature to life for 24 hours.
-- [**Vision**](/pathfinderRPG/prd/spells/vision.html#_vision)<sup>M</sup>: As _ [legend lore](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)_, but quicker.
+- [**Vision**](/pathfinderRPG/prd/spells/vision.html#_vision)M: As _ [legend lore](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)_, but quicker.
 - [**Walk through Space**](/pathfinderRPG/prd/ultimateCombat/spells/walkThroughSpace.html#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
 - [**Waves of Ecstasy**](/pathfinderRPG/prd/ultimateMagic/spells/wavesOfEcstasy.html#_waves-of-ecstasy): Pleasure stuns and staggers creatures.
 - [**Waves of Exhaustion**](/pathfinderRPG/prd/spells/wavesOfExhaustion.html#_waves-of-exhaustion): Several targets become [exhausted](/pathfinderRPG/prd/glossary.html#_exhausted).
 
 - [**Antipathy**](/pathfinderRPG/prd/spells/antipathy.html#_antipathy): Object or location affected by spell repels certain creatures.
 - [**Charm Monster, Mass**](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster-mass): As _ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster), _but all within 30 ft.
-- [**Clone**](/pathfinderRPG/prd/spells/clone.html#_clone)<sup>MF</sup>: Duplicate awakens when original dies.
+- [**Clone**](/pathfinderRPG/prd/spells/clone.html#_clone)MF: Duplicate awakens when original dies.
 - [**Create Demiplane**](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane): As _ [lesser create demiplane](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser)_, but larger and with planar traits.
 - [**Cure Serious Wounds, Mass**](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds-mass): Cures 3d8 damage + 1/level, affects 1 subject/level.
 - [**Demand**](/pathfinderRPG/prd/spells/demand.html#_demand): As _ [sending](/pathfinderRPG/prd/spells/sending.html#_sending), _plus you can send _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)._
-- [**Destruction**](/pathfinderRPG/prd/spells/destruction.html#_destruction)<sup>F</sup>: Kills subject and destroys remains.
+- [**Destruction**](/pathfinderRPG/prd/spells/destruction.html#_destruction)F: Kills subject and destroys remains.
 - [**Discern Location**](/pathfinderRPG/prd/spells/discernLocation.html#_discern-location): Reveals exact location of creature or object.
 - [**Frightful Aspect**](/pathfinderRPG/prd/ultimateCombat/spells/frightfulAspect.html#_frightful-aspect): You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened.
 - [**Horrid Wilting**](/pathfinderRPG/prd/spells/horridWilting.html#_horrid-wilting): Deals 1d6/level damage within 30 ft.
@@ -3888,15 +3888,15 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Power Word Stun**](/pathfinderRPG/prd/spells/powerWordStun.html#_power-word-stun): Stuns creature with 150 hp or less.
 - [**Prediction of Failure**](/pathfinderRPG/prd/ultimateMagic/spells/predictionOfFailure.html#_prediction-of-failure): Target is permanently shaken and sickened, and may gain a spellblight.
 - [**Prying Eyes, Greater**](/pathfinderRPG/prd/spells/pryingEyes.html#_prying-eyes-greater): As _ [prying eyes](/pathfinderRPG/prd/spells/pryingEyes.html#_prying-eyes)_, but eyes have _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_.
-- [**Resurrection**](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)<sup>M</sup>: Fully restore dead subject.
+- [**Resurrection**](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)M: Fully restore dead subject.
 - [**Stormbolts**](/pathfinderRPG/prd/advanced/spells/stormbolts.html#_stormbolts): 1d8 damage/level (max 20d8) to targets.
 - [**Summon Monster VIII**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-viii): Summons elemental creature to fight for you.
-- [**Symbol of Death**](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)<sup>M</sup>: Triggered rune kills nearby creatures.
-- [**Symbol of Insanity**](/pathfinderRPG/prd/spells/symbolOfInsanity.html#_symbol-of-insanity)<sup>M</sup>: Triggered rune renders nearby creatures insane.
-- [**Sympathy**](/pathfinderRPG/prd/spells/sympathy.html#_sympathy)<sup>M</sup>: Object or location attracts certain creatures.
-- [**Trap the Soul**](/pathfinderRPG/prd/spells/trapTheSoul.html#_trap-the-soul)<sup>M</sup>: Imprisons subject within gem.
+- [**Symbol of Death**](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)M: Triggered rune kills nearby creatures.
+- [**Symbol of Insanity**](/pathfinderRPG/prd/spells/symbolOfInsanity.html#_symbol-of-insanity)M: Triggered rune renders nearby creatures insane.
+- [**Sympathy**](/pathfinderRPG/prd/spells/sympathy.html#_sympathy)M: Object or location attracts certain creatures.
+- [**Trap the Soul**](/pathfinderRPG/prd/spells/trapTheSoul.html#_trap-the-soul)M: Imprisons subject within gem.
 
-- [**Astral Projection**](/pathfinderRPG/prd/spells/astralProjection.html#_astral-projection)<sup>M</sup>: Projects you and companions onto Astral Plane.
+- [**Astral Projection**](/pathfinderRPG/prd/spells/astralProjection.html#_astral-projection)M: Projects you and companions onto Astral Plane.
 - [**Create Demiplane, Greater**](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-greater): As _ [create demiplane](/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane)_, but larger and with more planar traits.
 - [**Cure Critical Wounds, Mass**](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds-mass): Cures 4d8 damage + 1/level for many creatures.
 - [**Cursed Earth**](/pathfinderRPG/prd/ultimateMagic/spells/cursedEarth.html#_cursed-earth): Plants die, living creatures catch diseases, or dead creatures rise as zombies.
@@ -3909,13 +3909,13 @@ An <sup>M</sup> or <sup>F</sup> appearing at the end of a spell's name in the sp
 - [**Mind Blank, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/mindBlank.html#_mind-blank,-communal): As _ [mind blank](/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank)_, but you may divide the duration among creatures touched. 
 - [**Polar Midnight**](/pathfinderRPG/prd/ultimateMagic/spells/polarMidnight.html#_polar-midnight): Cold darkness paralyzes and deals damage.
 - [**Power Word Kill**](/pathfinderRPG/prd/spells/powerWordKill.html#_power-word-kill): Kills one creature with 100 hp or less.
-- [**Refuge**](/pathfinderRPG/prd/spells/refuge.html#_refuge)<sup>M</sup>: Alters item to transport its possessor to your abode.
-- [**Soul Bind**](/pathfinderRPG/prd/spells/soulBind.html#_soul-bind)<sup>F</sup>: Traps newly dead soul to prevent _ [resurrection](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)_.
+- [**Refuge**](/pathfinderRPG/prd/spells/refuge.html#_refuge)M: Alters item to transport its possessor to your abode.
+- [**Soul Bind**](/pathfinderRPG/prd/spells/soulBind.html#_soul-bind)F: Traps newly dead soul to prevent _ [resurrection](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)_.
 - [**Storm of Vengeance**](/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance): Storm rains acid, lightning, and hail.
 - [**Suffocation, Mass**](/pathfinderRPG/prd/advanced/spells/suffocation.html#_suffocation,-mass): One creature/level suffocates to death.
 - [**Summon Monster IX**](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ix): Summons extraplanar creature to fight for you.
 - [**Symbol of Strife**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfStrife.html#_symbol-of-strife): Triggered rune makes creatures attack.
 - [**Symbol of Vulnerability**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfVulnerability.html#_symbol-of-vulnerability): Triggered rune gives penalties.
-- [**Teleportation Circle**](/pathfinderRPG/prd/spells/teleportationCircle.html#_teleportation-circle)<sup>M</sup>: Teleports creatures inside circle.
+- [**Teleportation Circle**](/pathfinderRPG/prd/spells/teleportationCircle.html#_teleportation-circle)M: Teleports creatures inside circle.
 - [**Wail of the Banshee**](/pathfinderRPG/prd/spells/wailOfTheBanshee.html#_wail-of-the-banshee): Deals 10 damage/level to 1 creature/level.
 

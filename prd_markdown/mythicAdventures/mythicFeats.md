@@ -28,17 +28,12 @@ You'll notice there are no mythic metamagic feats. Because mythic versions of sp
 
 There is also a non-mythic metamagic feat for casting spells as their mythic versions: Ascendant Spell.
 
-<thead>
-<th>Feats</th>
-<th>Prerequisites</th>
-<th>Benefits</th>
-</thead>| Marked for Glory (Mythic) | [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), or [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes) | Gain extra surge use |
+ Feats | Prerequisites | Benefits || Marked for Glory (Mythic) | [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), or [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes) | Gain extra surge use |
 | Mythic Companion (Mythic) | You must not be mythic | You are considered a mythic creature |
-<thead><tr>
-<th>Mythic Feats</th>
-<th>Prerequisites</th>
-<th>Benefits</th>
-</tr></thead>| Ascendant Spell (Metamagic) | — | Imitate mythic version of a spell |
+
+| Mythic Feats | Prerequisites | Benefits |
+| --- | --- | --- |
+| Ascendant Spell (Metamagic) | — | Imitate mythic version of a spell |
 | Drink Is Life (Mythic) | Con 19, 3rd mythic tier | Gain benefits from alcohol consumption |
 | Dual Path (Mythic) | 1st mythic tier | Gain abilities from a second mythic path |
 | Extra Mythic Power (Mythic) | — | Gain two extra uses of mythic power |
@@ -53,11 +48,10 @@ There is also a non-mythic metamagic feat for casting spells as their mythic ver
 | Titan Strike (Mythic) | [Improved Unarmed Strike](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-unarmed-strike) | Your unarmed strike deals damage as if you were one size category larger |
 | Two-Fisted Drinker (Mythic) | [Quick Draw](/pathfinderRPG/prd/feats.html#_quick-draw) | Draw two potions or drinks as a move action and drink both as a standard action |
 | Valiant Vault (Mythic) | [Mounted Combat](/pathfinderRPG/prd/feats.html#_mounted-combat), [Ride-By Attack](/pathfinderRPG/prd/feats.html#_ride-by-attack), [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) 5 ranks | When mount leaps over foes attack as you pass |
-<thead><tr>
-<th>Mythic Enhancement Feats</th>
-<th>Prerequisites</th>
-<th>Benefits</th>
-</tr></thead>| Accursed Hex (Mythic) | [Accursed Hex](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_accursed-hex) | Target [Accursed Hex](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_accursed-hex) must roll second save twice and take lower result |
+
+| Mythic Enhancement Feats | Prerequisites | Benefits |
+| --- | --- | --- |
+| Accursed Hex (Mythic) | [Accursed Hex](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_accursed-hex) | Target [Accursed Hex](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_accursed-hex) must roll second save twice and take lower result |
 | Acrobatic (Mythic) | [Acrobatic](/pathfinderRPG/prd/feats.html#_acrobatic) | Gain an additional +2 bonus on [Acrobatic](/pathfinderRPG/prd/feats.html#_acrobatic) and [Fly](/pathfinderRPG/prd/skills/fly.html#_fly), and expend mythic power to treat one of these checks as if you rolled a 20 |
 | Alertness (Mythic) | [Alertness](/pathfinderRPG/prd/feats.html#_alertness) | Gain an additional +2 bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) and [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) checks, and expend mythic power to treat one of these checks as if you rolled a 20 |
 | Alignment Channel (Mythic) | [Alignment Channel](/pathfinderRPG/prd/feats.html#_alignment-channel) | Channeled energy effects creatures with the alignment you choose, not just the subtype |

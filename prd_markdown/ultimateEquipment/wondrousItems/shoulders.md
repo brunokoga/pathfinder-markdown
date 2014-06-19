@@ -4,11 +4,10 @@ The shoulders slot consists of capes, cloaks, cords, mantles, pauldrons, shawls,
 
 Anyone can use a shoulder slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.
 
-<caption>Shoulders Slot Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Shoulders Item</th>
-<th>Price</th>
-</tr></thead>| 01–06 | _Catching cape_ | 200 gp |
+[Shoulders Slot Wondrous Items]
+| d% | Lesser Minor Shoulders Item | Price |
+| --- | --- | --- |
+| 01–06 | _Catching cape_ | 200 gp |
 | 07–10 | _Cloak of human guise_ | 900 gp |
 | 11–30 | _Cloak of resistance +1_ | 1,000 gp |
 | 31–36 | _Muleback cords_ | 1,000 gp |
@@ -22,22 +21,20 @@ Anyone can use a shoulder slot wondrous item unless specified otherwise by its d
 | 86–94 | _Cloak of fangs_ | 2,800 gp |
 | 95–97 | _Pauldrons of the serpent_ | 3,000 gp |
 | 98–100 | _Stonemist cloak_ | 3,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Shoulders Item</th>
-<th>Price</th>
-</tr></thead>| 01–26 | _Cloak of resistance +2_ | 4,000 gp |
+
+| d% | Greater Minor Shoulders Item | Price |
+| --- | --- | --- |
+| 01–26 | _Cloak of resistance +2_ | 4,000 gp |
 | 27–38 | _Cloak of the scuttling rat_ | 6,000 gp |
 | 39 | _Seafoam shawl_ | 6,000 gp |
 | 40–52 | _Treeform cloak_ | 6,000 gp |
 | 53–74 | _Eagle cape_ | 7,000 gp |
 | 75–94 | _Cloak of the manta ray_ | 7,200 gp |
 | 95–100 | _Hunter's cloak_ | 7,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Shoulders Item</th>
-<th>Price</th>
-</tr></thead>| 01–20 | _Cloak of resistance +3_ | 9,000 gp |
+
+| d% | Lesser Medium Shoulders Item | Price |
+| --- | --- | --- |
+| 01–20 | _Cloak of resistance +3_ | 9,000 gp |
 | 21–22 | _Cloak of the duskwalker_ | 10,000 gp |
 | 23–25 | _Cocoon cloak_ | 10,000 gp |
 | 26–27 | _Pauldrons of the bull_ | 10,000 gp |
@@ -55,11 +52,10 @@ Anyone can use a shoulder slot wondrous item unless specified otherwise by its d
 | 79–88 | _Cloak of resistance +4_ | 16,000 gp |
 | 89–91 | _Shawl of the crone_ | 16,000 gp |
 | 92–100 | _Prestidigitator's cloak_ | 17,200 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Shoulders Item</th>
-<th>Price</th>
-</tr></thead>| 01–12 | _Stole of justice_ | 18,000 gp |
+
+| d% | Greater Medium Shoulders Item | Price |
+| --- | --- | --- |
+| 01–12 | _Stole of justice_ | 18,000 gp |
 | 13–24 | _Jellyfish cape_ | 19,200 gp |
 | 25–32 | _Cloak of the diplomat_ | 20,000 gp |
 | 33–44 | _Slashing cloak_ | 20,000 gp |
@@ -67,18 +63,16 @@ Anyone can use a shoulder slot wondrous item unless specified otherwise by its d
 | 57–68 | _Cloak of displacement, minor_ | 24,000 gp |
 | 69–88 | _Cloak of resistance +5_ | 25,000 gp |
 | 89–100 | _Cloak of the bat_ | 26,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Shoulders Item</th>
-<th>Price</th>
-</tr></thead>| 01–40 | _Highwayman's cape_ | 32,500 gp |
+
+| d% | Lesser Major Shoulders Item | Price |
+| --- | --- | --- |
+| 01–40 | _Highwayman's cape_ | 32,500 gp |
 | 41–60 | _Juggernaut's pauldrons_ | 40,000 gp |
 | 61–100 | _Charlatan's cape_ | 45,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Shoulders Item</th>
-<th>Price</th>
-</tr></thead>| 01–15 | _Cloak of displacement, major_ | 50,000 gp |
+
+| d% | Greater Major Shoulders Item | Price |
+| --- | --- | --- |
+| 01–15 | _Cloak of displacement, major_ | 50,000 gp |
 | 16–35 | _Wings of flying_ | 54,000 gp |
 | 36–55 | _Cloak of etherealness_ | 55,000 gp |
 | 56–80 | _Wings of the gargoyle_ | 72,000 gp |

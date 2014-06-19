@@ -4,11 +4,10 @@ The hand slot consists of gauntlets, gloves, and other items that can be worn on
 
 Anyone can use a hand slot wondrous item unless specified otherwise by the item's description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.
 
-<caption>Hand Slot Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Hand Item</th>
-<th>Price</th>
-</tr></thead>| 01–13 | _Assisting gloves_ | 180 gp |
+[Hand Slot Wondrous Items]
+| d% | Lesser Minor Hand Item | Price |
+| --- | --- | --- |
+| 01–13 | _Assisting gloves_ | 180 gp |
 | 14–22 | _Claws of the ice bear_ | 1,300 gp |
 | 23–34 | _Gloves of reconnaissance_ | 2,000 gp |
 | 35–46 | _Glowing glove_ | 2,000 gp |
@@ -17,11 +16,10 @@ Anyone can use a hand slot wondrous item unless specified otherwise by the item'
 | 71–80 | _Gloves of larceny_ | 2,500 gp |
 | 81–90 | _Healer's gloves_ | 2,500 gp |
 | 91–100 | _Engineer's workgloves_ | 3,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Hand Item</th>
-<th>Price</th>
-</tr></thead>| 01–12 | _Gauntlets of the skilled maneuver_ | 4,000 gp |
+
+| d% | Greater Minor Hand Item | Price |
+| --- | --- | --- |
+| 01–12 | _Gauntlets of the skilled maneuver_ | 4,000 gp |
 | 13–21 | _Ghostvision gloves_ | 4,000 gp |
 | 22–33 | _Gloves of arrow snaring_ | 4,000 gp |
 | 34–43 | _Trapspringer's gloves_ | 4,000 gp |
@@ -29,11 +27,10 @@ Anyone can use a hand slot wondrous item unless specified otherwise by the item'
 | 56–65 | _Poisoner's gloves_ | 5,000 gp |
 | 66–75 | _Magnetist's gloves_ | 6,000 gp |
 | 76–100 | | 6,250 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Hand Item</th>
-<th>Price</th>
-</tr></thead>| 01–02 | _Deliquescent gloves_ | 8,000 gp |
+
+| d% | Lesser Medium Hand Item | Price |
+| --- | --- | --- |
+| 01–02 | _Deliquescent gloves_ | 8,000 gp |
 | 03–05 | _Form-fixing gauntlets _ | 8,000 gp |
 | 06–08 | _Iron cobra gauntlet_ | 8,000 gp |
 | 09–16 | _ [Shadow](/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow) falconer's glove_ | 8,000 gp |
@@ -44,24 +41,21 @@ Anyone can use a hand slot wondrous item unless specified otherwise by the item'
 | 47–54 | _Pliant gloves_ | 10,000 gp |
 | 55–76 | _Gauntlet of rust_ | 11,500 gp |
 | 77–100 | _ [Gloves of dueling](/pathfinderRPG/prd/advanced/magicItems/wondrousItems.html#_gloves-of-dueling)_ | 15,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Hand Item</th>
-<th>Price</th>
-</tr></thead>| 01–30 | _Vampiric gloves_ | 18,000 gp |
+
+| d% | Greater Medium Hand Item | Price |
+| --- | --- | --- |
+| 01–30 | _Vampiric gloves_ | 18,000 gp |
 | 31–65 | _Giant fist gauntlets_ | 20,000 gp |
 | 66–100 | _Gloves of the shortened path_ | 27,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Hand Item</th>
-<th>Price</th>
-</tr></thead>| 01–40 | _Gloves of the commanding conjurer_ | 30,000 gp |
+
+| d% | Lesser Major Hand Item | Price |
+| --- | --- | --- |
+| 01–40 | _Gloves of the commanding conjurer_ | 30,000 gp |
 | 41–100 | _Gauntlet of rust, greater_ | 34,500 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Hand Item</th>
-<th>Price</th>
-</tr></thead>| 01–60 | _Talons of Leng_ | 67,000 gp |
+
+| d% | Greater Major Hand Item | Price |
+| --- | --- | --- |
+| 01–60 | _Talons of Leng_ | 67,000 gp |
 | 61–100 | _Gauntlets of the weaponmaster_ | 110,000 gp |
 
 Apprentice's Cheating Gloves

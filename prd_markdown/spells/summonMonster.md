@@ -1,6 +1,6 @@
  **Summon Monster I**
 
-<caption>Table: Summon Monster</caption>| 1st Level | Subtype |
+[Table: Summon Monster]| 1st Level | Subtype |
 | --- | --- |
 | [Dire rat\*](../monsters/rat.html#_rat-dire) | — |
 | Dog\* | — |
@@ -113,7 +113,6 @@
 | [Ice devil](../monsters/devil.html#_devil-ice) | Evil, Lawful |
 | [Nalfeshnee (demon)](../monsters/demon.html#_demon-nalfeshnee) | Chaotic, Evil |
 | [Trumpet archon](../monsters/archon.html#_archon-trumpet) | Good, Lawful |
-<tfoot><tr><td colspan="2">* This creature is summoned with the <a href="../monsters/monsterAdvancement.html#_celestial-creature">celestial template</a> if you are good, or the <a href="../monsters/monsterAdvancement.html#_fiendish-creature">fiendish template</a> if you are evil; you may choose either if you are neutral.</td></tr></tfoot>
 
 **School** conjuration (summoning) [see text]; **Level** bard 1, cleric 1, sorcerer/wizard 1
 

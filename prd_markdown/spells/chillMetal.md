@@ -20,11 +20,9 @@ A creature takes cold damage if its equipment is chilled. It takes full damage i
 
 On the first round of the spell, the metal becomes chilly and uncomfortable to touch but deals no damage. The same effect also occurs on the last round of the spell's duration. During the second (and also the next-to-last) round, icy coldness causes pain and damage. In the third, fourth, and fifth rounds, the metal is freezing cold, and causes more damage, as shown on the table below.
 
-<thead><tr>
-<th>Round</th>
-<th>Metal Temperature</th>
-<th>Damage</th>
-</tr></thead><tbody>
+| Round | Metal Temperature | Damage |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1</td>
 <td>Cold</td>

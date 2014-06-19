@@ -2,12 +2,10 @@
 
 Alchemical remedies are substances used to overcome a negative condition or ward against a specific kind of attack. You use most remedies by drinking them or applying them to your skin or clothing. All of these substances can be made by a character with the [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) skill.
 
-<caption>Alchemical Remedies</caption><thead><tr>
-<th>Item</th>
-<th>Price</th>
-<th>Weight</th>
-<th>Craft DC</th>
-</tr></thead>| Alchemical grease | 5 gp | 1 lb. | 15 |
+[Alchemical Remedies]
+| Item | Price | Weight | Craft DC |
+| --- | --- | --- | --- |
+| Alchemical grease | 5 gp | 1 lb. | 15 |
 | Alchemist's kindness | 1 gp | — | 20 |
 | Antiplague | 50 gp | — | 25 |
 | Antitoxin | 50 gp | — | 25 |

@@ -108,10 +108,10 @@ In general, it takes 7 days to retrain one level in a class into one level in an
 
 Most prestige classes have retraining synergy with base classes that share their common class features. For example, the arcane trickster prestige class requires and advances arcane spellcasting, so it has retraining synergy with all arcane spellcasting classes. It also requires and advances sneak attack, so it has retraining synergy with classes that grant sneak attack. The GM is the final arbiter of whether or not a prestige class has retraining synergy with a base class, but should err on the side of generosity—if you would rather spend time retraining levels over and over again instead of adventuring, that is your choice.
 
-<caption>Retraining Synergies</caption><thead><tr>
-<th>Old Class</th>
-<th>New Class</th>
-</tr></thead>| Alchemist | Magus, rogue, witch, wizard |
+[Retraining Synergies]
+| Old Class | New Class |
+| --- | --- |
+| Alchemist | Magus, rogue, witch, wizard |
 | Barbarian | Cavalier, fighter, ranger |
 | Bard | Oracle, rogue, sorcerer |
 | Cavalier | Barbarian, fighter |

@@ -14,25 +14,12 @@ The summoner's class skills are [Craft](../../skills/craft.html#_craft) (Int), [
 
 **Skill Ranks per Level** : 2 + Int modifier.
 
-<caption>Table: Summoner</caption><thead>
-<tr id="level-bonus-save-save-save-special-1st-2nd-3rd-4th-5th-6th">
-<th rowspan="2">Level</th>
-<th rowspan="2">Base Attack Bonus</th>
-<th rowspan="2">Fort Save</th>
-<th rowspan="2">Ref Save</th>
-<th rowspan="2">Will Save</th>
-<th rowspan="2">Special</th>
-<th colspan="6">Spells per Day</th>
-</tr>
-<tr>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-</tr>
-</thead>| 1st | +0 | +0 | +0 | +2 | Cantrips, eidolon, life link,_ [summon monster I](../../spells/summonMonster.html#_summon-monster-i)_ | 1 | — | — | — | — | — |
+[Table: Summoner]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | 2nd | 3rd | 4th | 5th | 6th |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +0 | +2 | Cantrips, eidolon, life link,_ [summon monster I](../../spells/summonMonster.html#_summon-monster-i)_ | 1 | — | — | — | — | — |
 | 2nd | +1 | +0 | +0 | +3 | Bond senses | 2 | — | — | — | — | — |
 | 3rd | +2 | +1 | +1 | +3 | _ [Summon monster II](../../spells/summonMonster.html#_summon-monster-ii)_ | 3 | — | — | — | — | — |
 | 4th | +3 | +1 | +1 | +4 | Shield ally | 3 | 1 | — | — | — | — |
@@ -53,21 +40,12 @@ The summoner's class skills are [Craft](../../skills/craft.html#_craft) (Int), [
 | 19th | +14/+9/+4 | +6 | +6 | +11 | _ [Gate](../../spells/gate.html#_gate)_ | 5 | 5 | 5 | 5 | 5 | 4 |
 | 20th | +15/+10/+5 | +6 | +6 | +12 | Twin eidolon | 5 | 5 | 5 | 5 | 5 | 5 |
 
-<caption>Table: Summoner Spells Known</caption><thead>
-<tr id="level-0-1st-2nd-3rd-4th-5th-6th">
-<th rowspan="2">Level</th>
-<th colspan="7">Spells Known</th>
-</tr>
-<tr>
-<th>0</th>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-</tr>
-</thead>| 1st | 4 | 2 | — | — | — | — | — |
+[Table: Summoner Spells Known]
+| Level | Spells Known |
+| --- | --- |
+| 0 | 1st | 2nd | 3rd | 4th | 5th | 6th |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | 4 | 2 | — | — | — | — | — |
 | 2nd | 5 | 3 | — | — | — | — | — |
 | 3rd | 6 | 4 | — | — | — | — | — |
 | 4th | 6 | 4 | 2 | — | — | — | — |
@@ -186,20 +164,10 @@ _ [Multiattack](../../monsters/monsterFeats.html#_multiattack)_: An eidolon gain
 
 _Improved Evasion (Ex)_: When subjected to an attack that allows a Reflex saving throw for half damage, an eidolon takes no damage if it makes a successful saving throw and only half damage if the saving throw fails.
 
-<caption>Table: Eidolon Base Statistics</caption><thead><tr>
-<th>Class Level</th>
-<th>HD</th>
-<th>BAB</th>
-<th>Good Saves</th>
-<th>Bad Save</th>
-<th>Skills</th>
-<th>Feats</th>
-<th>Armor Bonus</th>
-<th>Str/Dex Bonus</th>
-<th>Evolution Pool</th>
-<th>Max. Attacks</th>
-<th>Special</th>
-</tr></thead><tbody>
+[Table: Eidolon Base Statistics]
+| Class Level | HD | BAB | Good Saves | Bad Save | Skills | Feats | Armor Bonus | Str/Dex Bonus | Evolution Pool | Max. Attacks | Special |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1st</td>
 <td>1</td>

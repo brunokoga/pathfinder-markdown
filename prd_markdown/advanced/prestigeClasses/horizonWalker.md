@@ -24,14 +24,10 @@ The horizon walker's class skills are [Climb](../../skills/climb.html#_climb) (S
 
 **Skill Ranks at Each Level** : 6 + Int modifier.
 
-<caption>Table: Horizon Walker</caption><thead><tr id="level-bonus-save-save-save-special-">
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-</tr></thead>| 1st | +1 | +1 | +0 | +0 | Favored terrain |
+[Table: Horizon Walker]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +1 | +1 | +0 | +0 | Favored terrain |
 | 2nd | +2 | +1 | +1 | +1 | Favored terrain, terrain mastery |
 | 3rd | +3 | +2 | +1 | +1 | Terrain dominance |
 | 4th | +4 | +2 | +1 | +1 | Favored terrain, terrain mastery |

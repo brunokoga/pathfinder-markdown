@@ -10,7 +10,7 @@ Human vampire fighter 7
 
 NE Medium undead ( [augmented](/pathfinderRPG/prd/monsters/creatureTypes.html#_augmented-subtype) humanoid, [human](/pathfinderRPG/prd/monsters/creatureTypes.html#_human-subtype), [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
 
-**Init** +12<sup>M</sup>; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +17
+**Init** +12M; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +17
 
 Defense
 
@@ -40,7 +40,7 @@ Statistics
 
 **Base Atk** +7; **CMB** +15; **CMD** 31
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness)<sup>B</sup>, [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes)<sup>B</sup>, [Deceitful](/pathfinderRPG/prd/feats.html#_deceitful), [Disruptive](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_disruptive-mythic)<sup>M</sup>, [Dodge](/pathfinderRPG/prd/feats.html#_dodge)<sup>B</sup>, Greater [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (longsword), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)<sup>B, M</sup>, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)<sup>B</sup>, [Mobility](/pathfinderRPG/prd/feats.html#_mobility), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Quick Draw](/pathfinderRPG/prd/feats.html#_quick-draw), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)<sup>B</sup>, [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (longsword), Weapon Specialization (longsword)
+**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness)B, [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes)B, [Deceitful](/pathfinderRPG/prd/feats.html#_deceitful), [Disruptive](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_disruptive-mythic)M, [Dodge](/pathfinderRPG/prd/feats.html#_dodge)B, Greater [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (longsword), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)B, M, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)B, [Mobility](/pathfinderRPG/prd/feats.html#_mobility), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Quick Draw](/pathfinderRPG/prd/feats.html#_quick-draw), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)B, [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (longsword), Weapon Specialization (longsword)
 
 **Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +21, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +14, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +6, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +14, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +17, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +8, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +17, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +15; **Racial Modifiers** +8 [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), +8 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +8 [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive), +8 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
 
@@ -92,11 +92,10 @@ A mythic vampire has ties to the earliest of its kind, being either one of the f
 
 **Eclipse (Su)** : At 10th rank, a mythic vampire can expend one use of its mythic power to blot out the power of the sun in a 1-mile radius. This entire area is affected by the spell _ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_ for 1 hour. The mythic vampire's can see through this darkness.
 
-<caption>Mythic Vampire Abilities</caption><thead><tr>
-<th>Base Vampire's CR</th>
-<th>Mythic Rank</th>
-<th>Mythic Abilities</th>
-</tr></thead><tbody>
+[Mythic Vampire Abilities]
+| Base Vampire's CR | Mythic Rank | Mythic Abilities |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>4–5</td>
 <td>2nd</td>

@@ -14,28 +14,12 @@ The sorcerer's class skills are [Appraise](../skills/appraise.html#_appraise) ( 
 
 **Skill Ranks per Level** : 2 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Sorcerer</caption><thead>
-<tr>
-<th rowspan="2">Level</th>
-<th rowspan="2">Base Attack Bonus</th>
-<th rowspan="2">Fort Save</th>
-<th rowspan="2">Ref Save</th>
-<th rowspan="2">Will Save</th>
-<th rowspan="2">Special</th>
-<th colspan="9">Spells per Day</th>
-</tr>
-<tr>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-<th>7th</th>
-<th>8th</th>
-<th>9th</th>
-</tr>
-</thead>| 1st | +0 | +0 | +0 | +2 | Bloodline power, cantrips, eschew materials | 3 | — | — | — | — | — | — | — | — |
+[Table: Sorcerer]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +0 | +2 | Bloodline power, cantrips, eschew materials | 3 | — | — | — | — | — | — | — | — |
 | 2nd | +1 | +0 | +0 | +3 | | 4 | — | — | — | — | — | — | — | — |
 | 3rd | +1 | +1 | +1 | +3 | Bloodline power, bloodline spell | 5 | — | — | — | — | — | — | — | — |
 | 4th | +2 | +1 | +1 | +4 | | 6 | 3 | — | — | — | — | — | — | — |
@@ -56,24 +40,12 @@ The sorcerer's class skills are [Appraise](../skills/appraise.html#_appraise) ( 
 | 19th | +9/+4 | +6 | +6 | +11 | Bloodline feat, bloodline spell | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 4 |
 | 20th | +10/+5 | +6 | +6 | +12 | Bloodline power | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 |
 
-<caption>Table: Sorcerer Spells Known</caption><thead>
-<tr>
-<th rowspan="2">Level</th>
-<th colspan="10">Spells Known</th>
-</tr>
-				<tr>
-<th>0</th>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-<th>7th</th>
-<th>8th</th>
-<th>9th</th>
-</tr>
-</thead>| 1st | 4 | 2 | — | — | — | — | — | — | — | — |
+[Table: Sorcerer Spells Known]
+| Level | Spells Known |
+| --- | --- |
+| 0 | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1st | 4 | 2 | — | — | — | — | — | — | — | — |
 | 2nd | 5 | 2 | — | — | — | — | — | — | — | — |
 | 3rd | 5 | 3 | — | — | — | — | — | — | — | — |
 | 4th | 6 | 3 | 1 | — | — | — | — | — | — | — |
@@ -258,11 +230,9 @@ At some point in your family's history, a dragon interbred with your bloodline, 
 
 **Bloodline Powers** : The power of dragons flows through you and manifests in a number of ways. At 1st level, you must select one of the chromatic or metallic dragon types. This choice cannot be changed. A number of your abilities grant resistances and deal damage based on your dragon type, as noted on the following table.
 
-<thead><tr>
-<th>Dragon Type</th>
-<th>Energy Type</th>
-<th>Breath Shape</th>
-</tr></thead><tbody>
+| Dragon Type | Energy Type | Breath Shape |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Black</td>
 <td>Acid</td>
@@ -341,11 +311,9 @@ The power of the elements resides in you, and at times you can hardly control it
 
 **Bloodline Powers** : One of the four elements infuses your being, and you can draw upon its power in times of need. At first level, you must select one of the four elements: air, earth, fire, or water. This choice cannot be changed. A number of your abilities grant resistances and deal damage based on your element, as noted below.
 
-<thead><tr>
-<th>Element</th>
-<th>Energy Type</th>
-<th>Elemental Movement</th>
-</tr></thead><tbody>
+| Element | Energy Type | Elemental Movement |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>Air</td>
 <td>Electricity</td>

@@ -68,10 +68,9 @@ Half-dragons are only rarely the result of dragons mating with other creaturesâ€
 
 **Special Abilities** : A half-dragon retains all the special attacks of the base creature and gains a breath weapon usable once per day based on the dragon variety (see below). The breath weapon deals 1d6 hit points of damage per racial HD possessed by the half-dragon (Reflex half; DC 10 + 1/2 creature's racial HD + creature's Con modifier).
 
-<thead><tr>
-<th>Dragon Variety</th>
-<th>Breath Weapon</th>
-</tr></thead><tbody>
+| Dragon Variety | Breath Weapon |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Black or copper</td>
 <td>60â€“foot line of acid</td>

@@ -16,10 +16,9 @@
 
 You utter a single word of power that causes a creature to become [blinded](../glossary.html#_blinded), whether the creature can hear the word or not. The duration of the spell depends on the target's current hit point total. Any creature that currently has 201 or more hit points is unaffected.
 
-<thead><tr>
-<th>Hit Points</th>
-<th>Duration</th>
-</tr></thead><tbody>
+| Hit Points | Duration |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>50 or less</td>
 <td>Permanent</td>

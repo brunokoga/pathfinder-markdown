@@ -24,15 +24,10 @@ The mystic theurge's class skills (and the key ability for each skill) are [Know
 
 **Skill Ranks at Each Level** : 2 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Mystic Theurge</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-<th>Spells per Day</th>
-</tr></thead>| 1st | +0 | +0 | +0 | +1 | Combined spells (1st) | +1 level of existing arcane spellcasting class/  
+[Table: Mystic Theurge]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +0 | +1 | Combined spells (1st) | +1 level of existing arcane spellcasting class/  
 +1 level of existing divine spellcasting class |
 | 2nd | +1 | +1 | +1 | +1 | | +1 level of existing arcane spellcasting class/  
 +1 level of existing divine spellcasting class |

@@ -1,12 +1,9 @@
 # Wands
 
-<caption>Table: Wands</caption><thead><tr>
-<th>Minor</th>
-<th>Medium</th>
-<th>Major</th>
-<th>Spell Level</th>
-<th>Caster Level</th>
-</tr></thead>| 01–05 | — | — | 0 | 1st |
+[Table: Wands]
+| Minor | Medium | Major | Spell Level | Caster Level |
+| --- | --- | --- | --- | --- |
+| 01–05 | — | — | 0 | 1st |
 | 06–60 | — | — | 1st | 1st |
 | 61–100 | 01–60 | — | 2nd | 3rd |
 | — | 61–100 | 01–60 | 3rd | 5th |
@@ -14,13 +11,10 @@
 
 A wand is a thin baton that contains a single spell of 4th level or lower. A wand has 50 charges when created—each charge allows the use of the wand's spell one time. A wand that runs out of charges is just a stick. The price of a wand is equal to the level of the spell × the creator's caster level × 750 gp. If the wand has a material component cost, it is added to the base price and cost to create once for each charge (50 × material component cost). Table: Wands gives sample prices for wands created at the lowest possible caster level for each spellcasting class. Note that some spells appear at different levels for different casters. The level of such spells depends on the caster crafting the wand.
 
-<caption>Wand Costs</caption><thead><tr>
-<th>Spell Level</th>
-<th>Cleric, Druid, Wizard</th>
-<th>Sorcerer</th>
-<th>Bard</th>
-<th>Paladin, Ranger</th>
-</tr></thead>| 0 | 375 gp | 375 gp | 375 gp | — |
+[Wand Costs]
+| Spell Level | Cleric, Druid, Wizard | Sorcerer | Bard | Paladin, Ranger |
+| --- | --- | --- | --- | --- |
+| 0 | 375 gp | 375 gp | 375 gp | — |
 | 1st | 750 gp | 750 gp | 750 gp | 750 gp |
 | 2nd | 4,500 gp | 6,000 gp | 6,000 gp | 6,000 gp |
 | 3rd | 11,250 gp | 13,500 gp | 15,750 gp | 15,750 gp |

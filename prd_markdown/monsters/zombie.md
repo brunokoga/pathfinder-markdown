@@ -32,7 +32,7 @@ NE Medium [undead](creatureTypes.html#_undead)
 
 **Base**  **Atk** +1; **CMB** +4; **CMD** 14
 
-**Feats** [Toughness](../feats.html#_toughness)<sup>B</sup>
+**Feats** [Toughness](../feats.html#_toughness)B
 
 **Special Qualities** staggered
 
@@ -56,11 +56,9 @@ Although capable of following orders, zombies are more often unleashed into an a
 
 **Challenge Rating** : This depends on the creature's new total number of Hit Dice, as follows:
 
-<thead><tr>
-<th>HD</th>
-<th>CR</th>
-<th>XP</th>
-</tr></thead><tbody>
+| HD | CR | XP |
+| --- | --- | --- |
+<tbody>
 <tr class="odd">
 <td>1/2</td>
 <td>1/8</td>
@@ -129,10 +127,9 @@ Although capable of following orders, zombies are more often unleashed into an a
 
 **Armor Class** : Natural armor is based on the zombie's size:
 
-<thead><tr>
-<th>Zombie Size</th>
-<th>Natural Armor Bonus</th>
-</tr></thead><tbody>
+| Zombie Size | Natural Armor Bonus |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Tiny or smaller</td>
 <td>+0</td>
@@ -165,10 +162,9 @@ Although capable of following orders, zombies are more often unleashed into an a
 
 **Hit Dice** : Drop HD gained from class levels (minimum of 1) and change racial HD to d8s. Zombies gain a number of additional HD as noted on the following table.
 
-<thead><tr>
-<th>Zombie Size</th>
-<th>Bonus Hit Dice</th>
-</tr></thead><tbody>
+| Zombie Size | Bonus Hit Dice |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Tiny or smaller</td>
 <td>—</td>

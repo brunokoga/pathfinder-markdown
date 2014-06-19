@@ -8,7 +8,7 @@ XP 6,400
 
 LE Medium monstrous humanoid ( [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
 
-**Init** +10<sup>M</sup>; **Senses** [all-around vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_all-around-vision), darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +18
+**Init** +10M; **Senses** [all-around vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_all-around-vision), darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +18
 
 Defense
 
@@ -38,7 +38,7 @@ Statistics
 
 **Base Atk** +9; **CMB** +9; **CMD** 22
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)<sup>M</sup>, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), Precise Shot, [Weapon Finesse](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_weapon-finesse-mythic)<sup>M</sup>
+**Feats** [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)M, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), Precise Shot, [Weapon Finesse](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_weapon-finesse-mythic)M
 
 **Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +13, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +13, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +7, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +16, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +18, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +15; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
 

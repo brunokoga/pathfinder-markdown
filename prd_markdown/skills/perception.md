@@ -8,10 +8,9 @@ Your senses allow you to notice fine details and alert you to danger. Perception
 
 Perception is also used to notice fine details in the environment. The DC to notice such details varies depending upon distance, the environment, and how noticeable the detail is. The following table gives a number of guidelines.
 
-<thead><tr>
-<th>Detail</th>
-<th>Perception DC</th>
-</tr></thead>| Hear the sound of battle | –10 |
+| Detail | Perception DC |
+| --- | --- |
+| Hear the sound of battle | –10 |
 | Notice the stench of rotting garbage | –10 |
 | Detect the smell of smoke | 0 |
 | Hear the details of a conversation | 0 |
@@ -33,16 +32,12 @@ Perception is also used to notice fine details in the environment. The DC to not
 | Distance to the source, object, or creature | +1/10 feet |
 | Through a closed door | +5 |
 | Through a wall | +10/foot of thickness |
-| Favorable conditions<sup>1</sup> | –2 |
-| Unfavorable conditions<sup>1</sup> | +2 |
-| Terrible conditions<sup>2</sup> | +5 |
+| Favorable conditionsⁱ | –2 |
+| Unfavorable conditionsⁱ | +2 |
+| Terrible conditions⁲ | +5 |
 | Creature making the check is distracted | +5 |
 | Creature making the check is asleep | +10 |
 | Creature or object is invisible | +20 |
-<tfoot>
-<tr><td colspan="2">1 Favorable and unfavorable conditions depend upon the sense being used to make the check. For example, bright light might decrease the DC of checks involving sight, while torchlight or moonlight might increase the DC. Background noise might increase a DC involving hearing, while competing odors might increase the DC of a check involving scent.</td></tr>
-<tr><td colspan="2">2 As for unfavorable conditions, but more extreme. For example, candlelight for DCs involving sight, a roaring dragon for DCs involving hearing, and an overpowering stench covering the area for DCs involving scent.</td></tr>
-</tfoot>
 
 **Action** : Most Perception checks are reactive, made in response to observable stimulus. Intentionally searching for stimulus is a move action.
 

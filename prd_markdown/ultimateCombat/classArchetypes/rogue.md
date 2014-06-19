@@ -12,10 +12,8 @@ _Black Market Connections (Ex)_: A rogue with this talent gains better access to
   
   
 
-<thead><tr>
-<th>Community Size</th>
-<th>DC</th>
-</tr></thead>
+| Community Size | DC |
+| --- | --- |
 | Thorp | 10 |
 | Hamlet | 12 |
 | Village | 15 |
@@ -135,10 +133,9 @@ _Rumormonger (Ex)_: A rogue with this talent can attempt to spread a rumor thoug
   
   
 
-<thead><tr>
-<th>Community Size</th>
-<th>DC</th>
-</tr></thead>| Small town | 18 |
+| Community Size | DC |
+| --- | --- |
+| Small town | 18 |
 | Large town | 20 |
 | Small city | 25 |
 | Large city | 30 |

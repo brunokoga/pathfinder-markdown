@@ -14,25 +14,12 @@ The alchemist's class skills are [Appraise](../../skills/appraise.html#_appraise
 
 **Skill Ranks per Level** : 4 + Int modifier.
 
-<caption>Table: Alchemist</caption><thead>
-<tr id="level-bonus-save-save-save-special-1st-2nd-3rd-4th-5th-6th">
-<th rowspan="2">Level</th>
-<th rowspan="2">Base Attack Bonus</th>
-<th rowspan="2">Fort Save</th>
-<th rowspan="2">Ref Save</th>
-<th rowspan="2">Will Save</th>
-<th rowspan="2">Special</th>
-<th colspan="6">Extracts per Day</th>
-</tr>
-<tr>
-<th>1st</th>
-<th>2nd</th>
-<th>3rd</th>
-<th>4th</th>
-<th>5th</th>
-<th>6th</th>
-</tr>
-</thead>| 1st | +0 | +2 | +2 | +0 | Alchemy, bomb 1d6, [Brew Potion](../../feats.html#_brew-potion), mutagen, [Throw Anything](../../feats.html#_throw-anything) | 1 | — | — | — | — | — |
+[Table: Alchemist]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Extracts per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | 2nd | 3rd | 4th | 5th | 6th |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +2 | +2 | +0 | Alchemy, bomb 1d6, [Brew Potion](../../feats.html#_brew-potion), mutagen, [Throw Anything](../../feats.html#_throw-anything) | 1 | — | — | — | — | — |
 | 2nd | +1 | +3 | +3 | +0 | Discovery, poison resistance +2, poison use | 2 | — | — | — | — | — |
 | 3rd | +2 | +3 | +3 | +1 | Bomb 2d6, swift alchemy | 3 | — | — | — | — | — |
 | 4th | +3 | +4 | +4 | +1 | Discovery | 3 | 1 | — | — | — | — |

@@ -6,10 +6,9 @@ You know how to tell a lie.
 
 **Check** : Bluff is an opposed skill check against your opponent's Sense Motive skill. If you use Bluff to fool someone, with a successful check you convince your opponent that what you are saying is true. Bluff checks are modified depending upon the believability of the lie. The following modifiers are applied to the roll of the creature attempting to tell the lie. Note that some lies are so improbable that it is impossible to convince anyone that they are true (subject to GM discretion).
 
-<thead><tr>
-<th>Circumstances</th>
-<th>Bluff Modifier</th>
-</tr></thead><tbody>
+| Circumstances | Bluff Modifier |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>The target wants to believe you</td>
 <td>+5</td>

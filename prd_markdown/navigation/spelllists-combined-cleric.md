@@ -306,7 +306,7 @@
 - [**Symbol of Pain**](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)
 - [**Symbol of Scrying**](/pathfinderRPG/prd/ultimateMagic/spells/symbolOfScrying.html#_symbol-of-scrying)
 - [**Symbol of Sleep**](/pathfinderRPG/prd/spells/symbolOfSleep.html#_symbol-of-sleep)
-- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)<sup>M</sup>
+- [**Symbol of Striking**](/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html#_symbol-of-striking)M
 - [**Tongues, Communal**](/pathfinderRPG/prd/ultimateCombat/spells/tongues.html#_tongues,-communal)
 - [**Treasure Stitching**](/pathfinderRPG/prd/advanced/spells/treasureStitching.html#_treasure-stitching-)
 - [**True Seeing**](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)

@@ -26,8 +26,7 @@ Assign each obstacle a DC to successfully navigate or overcome. A trivial obstac
 
 As a general rule, obstacles should be overcome by physical skill checks, such as [Acrobatics](../skills/acrobatics.html#_acrobatics), [Climb](../skills/climb.html#_climb), [Escape Artist](../skills/escapeArtist.html#_escape-artist), [Ride](../skills/ride.html#_ride), or [Swim](../skills/swim.html#_swim). [Perception](../skills/perception.html#_perception) can be used for obstacles like short cuts, [Stealth](../skills/stealth.html#_stealth) can be rolled for obstacles requiring someone to move through a square quietly, or [Bluff](../skills/bluff.html#_bluff) might be required to navigate a square by convincing a city guard you should be allowed to pass. You can even use saving throws to resolve obstacles (a Fortitude save to avoid being sickened by passing through a pool of filth, for example, or a Will save to evade the strange wailing spirits haunting that area). Be creative! It's okay to reuse obstacles, but try to vary them between cards and remember not to get bogged down with repetitive DCs or certain types of checks!
 
-<caption>Example Progression</caption>
-| ![](/pathfinderRPG/prd/image/Chases.jpg) |
+[Example Progression]| ![](/pathfinderRPG/prd/image/Chases.jpg) |
 
 # Running a Chase
 

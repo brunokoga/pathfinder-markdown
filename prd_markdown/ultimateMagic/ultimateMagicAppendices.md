@@ -14,21 +14,20 @@
 
 # Updated Improved Familiar List
 
-<caption>Table: Updated Improved Familiar List</caption><thead><tr>
-<th>Familiar</th>
-<th>Alignment</th>
-<th>Arcane Spellcaster Level</th>
-</tr></thead>| [Arbiter inevitable](/pathfinderRPG/prd/additionalMonsters/inevitable.html#_inevitable,-arbiter) | Lawful neutral | 7th |
+[Table: Updated Improved Familiar List]
+| Familiar | Alignment | Arcane Spellcaster Level |
+| --- | --- | --- |
+| [Arbiter inevitable](/pathfinderRPG/prd/additionalMonsters/inevitable.html#_inevitable,-arbiter) | Lawful neutral | 7th |
 | [Brownie](/pathfinderRPG/prd/additionalMonsters/brownie.html#_brownie) | Neutral | 7th |
 | [Cacodaemon daemon](/pathfinderRPG/prd/additionalMonsters/daemon.html#_daemon,-cacodaemon) | Neutral evil | 7th |
 | [Cassisian angel](/pathfinderRPG/prd/additionalMonsters/angel.html#_angel,-cassisian) | Neutral good | 7th |
-| Celestial hawk<sup>1</sup> | Neutral good | 3rd |
+| Celestial hawkⁱ | Neutral good | 3rd |
 | [Cythnigot qlippoth](/pathfinderRPG/prd/additionalMonsters/qlippoth.html#_qlippoth,-cythnigot) | Chaotic evil | 7th |
 | [Dire rat](/pathfinderRPG/prd/monsters/rat.html#_rat-dire) | Neutral | 3rd |
 | Elemental, Small (any type) | Neutral | 5th |
-| Entropic monkey<sup>1</sup> | Chaotic neutral | 3rd |
-| Fiendish viper<sup>1</sup> | Neutral evil | 3rd |
-| [Homunculus](/pathfinderRPG/prd/monsters/homunculus.html#_homunculus)<sup>2</sup> | Any | 7th |
+| Entropic monkeyⁱ | Chaotic neutral | 3rd |
+| Fiendish viperⁱ | Neutral evil | 3rd |
+| [Homunculus](/pathfinderRPG/prd/monsters/homunculus.html#_homunculus)⁲ | Any | 7th |
 | [Imp](/pathfinderRPG/prd/monsters/devil.html#_devil-imp) | Lawful evil | 7th |
 | [Lyrakien azata](/pathfinderRPG/prd/additionalMonsters/azata.html#_azata,-lyrakien) | Chaotic good | 7th |
 | [Mephit (any type)](/pathfinderRPG/prd/monsters/mephit.html#_mephit) | Neutral | 7th |
@@ -36,14 +35,15 @@
 | [Paracletus aeon](/pathfinderRPG/prd/additionalMonsters/aeon.html#_aeon,-paracletus) | Neutral | 7th |
 | [Pseudodragon](/pathfinderRPG/prd/monsters/pseudodragon.html#_pseudodragon) | Neutral good | 7th |
 | [Quasit](/pathfinderRPG/prd/monsters/demon.html#_demon-quasit) | Chaotic evil | 7th |
-| Resolute owl<sup>1</sup> | Lawful neutral | 3rd |
+| Resolute owlⁱ | Lawful neutral | 3rd |
 | [Silvanshee agathion](/pathfinderRPG/prd/additionalMonsters/agathion.html#_agathion,-silvanshee) | Neutral good | 7th |
 | [Stirge](/pathfinderRPG/prd/monsters/stirge.html#_stirge) | Neutral | 5th |
 | [Voidworm protean](/pathfinderRPG/prd/additionalMonsters/protean.html#_protean,-voidworm) | Chaotic neutral | 7th |
-<tfoot><tr><td colspan="3">
-				<p><sup>1</sup>Or other celestial, entropic, fiendish, or resolute animal from the standard familiar list.<br>
-				<sup>2</sup>The master must first create the homunculus.<br></p>
-</td></tr></tfoot>
+
+ 
+ 
+1Or other celestial, entropic, fiendish, or resolute animal from the standard familiar list.  
+2The master must first create the homunculus.
 
   
   

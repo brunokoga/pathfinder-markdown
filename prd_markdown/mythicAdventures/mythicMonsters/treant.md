@@ -48,7 +48,7 @@ Statistics
 
 **Base Atk** +9; **CMB** +21 (+23 sunder); **CMD** 32 (34 vs. sunder)
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) <sup>M</sup> (slam), [Improved Sunder](/pathfinderRPG/prd/feats.html#_improved_sunder), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) <sup>M</sup> (slam)
+**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) M (slam), [Improved Sunder](/pathfinderRPG/prd/feats.html#_improved_sunder), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) M (slam)
 
 **Skills** [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +9, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +9, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) +9, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +17, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +10, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) –9 (+7 in forests); **Racial Modifiers** +16 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) in forests
 

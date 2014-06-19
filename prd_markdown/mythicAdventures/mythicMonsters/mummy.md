@@ -38,7 +38,7 @@ Statistics
 
 **Base Atk** +6; **CMB** +14; **CMD** 24
 
-**Feats** [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)<sup>M</sup>, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Toughness](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_toughness-mythic)<sup>M</sup>, [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (slam)
+**Feats** [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)M, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Toughness](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_toughness-mythic)M, [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (slam)
 
 **Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +16, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +11
 

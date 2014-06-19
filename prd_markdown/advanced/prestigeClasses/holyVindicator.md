@@ -30,15 +30,10 @@ The vindicator's class skills are [Climb](../../skills/climb.html#_climb) (Str),
 
 **Skill Ranks per Level** : 2 + Int modifier.
 
-<caption>Table: Holy Vindicator</caption><thead><tr id="level-bonus-save-save-save-special-spells-per-day">
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-<th>SpellsSpells per Day</th>
-</tr></thead>| 1st | +1 | +1 | +0 | +1 | Channel energy, vindicator's shield | — |
+[Table: Holy Vindicator]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | SpellsSpells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | +1 | +1 | +0 | +1 | Channel energy, vindicator's shield | — |
 | 2nd | +2 | +1 | +1 | +1 | Stigmata | +1 level of divine spellcasting class |
 | 3rd | +3 | +2 | +1 | +2 | Faith healing (empower) | +1 level of divine spellcasting class |
 | 4th | +4 | +2 | +1 | +2 | Divine wrath | +1 level of divine spellcasting class |

@@ -14,14 +14,10 @@ A select group of magi are called to carry a _black blade_—a sentient weapon o
 
 A _black blade_ is a particular form of intelligent weapon gained by a magus with the bladebound archetype. There are several ways a magus might gain this weapon. Sometimes it just appears among the magus's possessions, and its origin is a mystery. Other times the magus finds a _black blade_ during an adventure or event of some kind. Sometimes a _black blade_ is passed down generation to generation in an ongoing search for a magus who can unlock its true potential. A _black blade_ is always a one-handed slashing weapon, a rapier, or a sword cane. The magus chooses the blade's type upon gaining the blade, and once chosen, it can't be changed. As a bladebound magus increases in level, his _black blade_ gains power. _A black blade _is independently conscious but features some personality traits reflecting its wielder. A _black blade _always has the same alignment as its wielder and even changes its alignment if its wielder does. The blade typically works toward its wielder's goals, but not always without argument or backlash. Each _black blade_ has a mission, and while sometimes two or more _black blades_ will work in concert, each mission is singular in purpose (the _black blade_'s mission is usually up to the GM and the needs of the campaign or the adventure, or a GM can roll randomly for the weapon's purpose using the [Intelligent Item Purpose table](/pathfinderRPG/prd/magicItems/intelligentItems.html#_table-15-25-intelligent-item-purpose)). Some _black blades_ are very open about their missions, but most are secretive. Certain sages have speculated that an invisible hand or arcane purpose moves these weapons.
 
-<caption>Table: Black Blade Progression</caption><thead><tr>
-<th>Magus Class Level</th>
-<th>Enhancement Bonus</th>
-<th>Int</th>
-<th>Wis/Cha</th>
-<th>Ego</th>
-<th>Special</th>
-</tr></thead>| 3rd–4th | +1 | 11 | 7 | 5 | [Alertness](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_alertness), _black blade_ strike, telepathy, unbreakable |
+[Table: Black Blade Progression]
+| Magus Class Level | Enhancement Bonus | Int | Wis/Cha | Ego | Special |
+| --- | --- | --- | --- | --- | --- |
+| 3rd–4th | +1 | 11 | 7 | 5 | [Alertness](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_alertness), _black blade_ strike, telepathy, unbreakable |
 | 5th–6th | +2 | 12 | 8 | 8 | Energy attunement |
 | 7th–8th | +2 | 13 | 9 | 10 | — |
 | 9th–10th | +3 | 14 | 10 | 12 | Teleport blade |

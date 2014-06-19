@@ -36,7 +36,7 @@ Statistics
 
 **Base Atk** +7; **CMB** +13 (+17 bull rush); **CMD** 23 (25 vs. bull rush)
 
-**Feats** [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Greater Bull Rush](/pathfinderRPG/prd/feats.html#_greater-bull-rush), [Improved Bull Rush](/pathfinderRPG/prd/feats.html#_improved-bull-rush), [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)<sup>M</sup>
+**Feats** [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Greater Bull Rush](/pathfinderRPG/prd/feats.html#_greater-bull-rush), [Improved Bull Rush](/pathfinderRPG/prd/feats.html#_improved-bull-rush), [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)M
 
 **Skills** [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +5, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +2, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +10; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +4 [Survival](/pathfinderRPG/prd/skills/survival.html#_survival)
 

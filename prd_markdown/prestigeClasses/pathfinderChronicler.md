@@ -24,14 +24,10 @@ The Pathfinder chronicler's class skills (and the key ability for each skill) ar
 
 **Skill Ranks at Each Level** : 8 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Pathfinder Chronicler</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-</tr></thead>| 1st | +0 | +0 | +1 | +1 | Bardic knowledge, deep pockets, master scribe |
+[Table: Pathfinder Chronicler]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
+| --- | --- | --- | --- | --- | --- |
+| 1st | +0 | +0 | +1 | +1 | Bardic knowledge, deep pockets, master scribe |
 | 2nd | +1 | +1 | +1 | +1 | Live to tell the tale, pathfinding |
 | 3rd | +2 | +1 | +2 | +2 | Bardic music, improved aid |
 | 4th | +3 | +1 | +2 | +2 | Epic tales |

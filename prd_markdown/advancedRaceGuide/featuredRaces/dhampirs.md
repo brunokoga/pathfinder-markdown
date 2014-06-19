@@ -154,11 +154,10 @@ A heartstake bolt deals normal damage for the crossbow of its type.
 
 **Vampire Slayer's Kit** : This small, latched wooden case contains numerous tools and devices used in hunting and slaying vampires. It contains 10 cloves of garlic, four masterwork wooden stakes, a hammer, a silvered mirror, 4 vials of holy water, 1 application of _ [silversheen](/pathfinderRPG/prd/magicItems/wondrousItems.html#_silversheen)_, and a masterwork holy symbol. It also contains numerous regents and powders used for treating wounds and making wards, salves, and other concoctions. In addition to its general usefulness, when displayed, a vampire slayer's kit grants its owner a +2 bonus on all Charisma-based skill checks made to investigate or seek out vampires.
 
-<caption>Dhampir Equipment</caption><thead><tr>
-<th>Item</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr></thead>| Heartstake bolts (5) | 100 gp | 3 lbs. |
+[Dhampir Equipment]
+| Item | Cost | Weight |
+| --- | --- | --- |
+| Heartstake bolts (5) | 100 gp | 3 lbs. |
 | Neck guard | 10 gp | 1/4 lb. |
 | Vampire slayer's kit | 500 gp | 8 lbs. |
 

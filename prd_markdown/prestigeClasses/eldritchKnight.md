@@ -24,15 +24,10 @@ The eldritch knight's class skills (and the key ability for each skill) are [Cli
 
 **Skill Ranks at Each Level** : 2 + [Int](../gettingStarted.html#_intelligence) modifier.
 
-<caption>Table: Eldritch Knight</caption><thead><tr>
-<th>Level</th>
-<th>Base Attack Bonus</th>
-<th>Fort Save</th>
-<th>Ref Save</th>
-<th>Will Save</th>
-<th>Special</th>
-<th>Spells per Day</th>
-</tr></thead>| 1st | +1 | +1 | +0 | +0 | Bonus combat feat, diverse training | — |
+[Table: Eldritch Knight]
+| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1st | +1 | +1 | +0 | +0 | Bonus combat feat, diverse training | — |
 | 2nd | +2 | +1 | +1 | +1 | — | +1 level of existing arcane spellcasting class |
 | 3rd | +3 | +2 | +1 | +1 | — | +1 level of existing arcane spellcasting class |
 | 4th | +4 | +2 | +1 | +1 | — | +1 level of existing arcane spellcasting class |

@@ -12,10 +12,9 @@ A relationship with an NPC can be either friendly or competitive—you get to ch
 
 Your Relationship Level with an NPC is based on your Relationship Score, which can increase in play (see Growing Relationships). You gain new benefits when an NPC's relationship with you progresses to a new level.
 
-<thead><tr>
-<th>Relationship Score</th>
-<th>Relationship Level</th>
-</tr></thead>| 5 or lower | Association |
+| Relationship Score | Relationship Level |
+| --- | --- |
+| 5 or lower | Association |
 | 6—11 | Friendship/Competition |
 | 12—30 | Fellowship/Rivalry |
 | 31 or higher | Devotion/Enmity |

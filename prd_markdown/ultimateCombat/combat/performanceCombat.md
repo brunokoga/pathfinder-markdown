@@ -50,10 +50,9 @@ The first thing a GM must do in a performance combat is determine the crowd's st
 
 Whenever a combatant has a chance to affect the crowd's attitude, she makes a performance combat check. The check is a Charisma ability check modified by the base attack bonus of the character plus any ranks the character has in [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (act), [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (comedy), or [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (dance), whichever is highest. Making a performance combat check is usually a swift action, triggered when a combatant performs a trigger action (see the Affecting the Crowd's Attitude section).
 
-<thead><tr>
-<th>Base Attack Bonus</th>
-<th>Bonus on Performance Combat Check</th>
-</tr></thead>| 0 | +0 |
+| Base Attack Bonus | Bonus on Performance Combat Check |
+| --- | --- |
+| 0 | +0 |
 | 1–5 | +1 |
 | 6–10 | +2 |
 | 11–15 | +3 |
@@ -62,10 +61,9 @@ Whenever a combatant has a chance to affect the crowd's attitude, she makes a pe
   
   
 
-<thead><tr>
-<th>Highest Perform Ranks</th>
-<th>Bonus on Performance Combat Check</th>
-</tr></thead>| 0 | +0 |
+| Highest Perform Ranks | Bonus on Performance Combat Check |
+| --- | --- |
+| 0 | +0 |
 | 1–5 | +1 |
 | 6–10 | +2 |
 | 11–15 | +3 |
@@ -79,16 +77,13 @@ Succeeding at a performance combat check improves the attitude of the crowd by o
 
 The performance combat check's DC is based on a number of factors, including the starting or current attitude of the crowd, the size of the crowd, and the number of creatures participating in the performance combat. The base DC of the performance combat check is determined by the current attitude of the crowd toward the side of combat.
 
-<thead><tr>
-<th>Starting or Current Attitude</th>
-<th>Base DC to Improve Attitude</th>
-</tr></thead>| Hostile | 20 |
+| Starting or Current Attitude | Base DC to Improve Attitude |
+| --- | --- |
+| Hostile | 20 |
 | Unfriendly | 15 |
 | Indifferent | 10 |
 | Friendly | 15 |
-| Helpful | 20<sup>1</sup> |
-<tfoot><tr><td colspan="2">
-<sup>1</sup> This is the DC to gain a victory point.</td></tr></tfoot>
+| Helpful | 20ⁱ |
 
 The base DC is modified by the size of the crowd, the number of participants on each side, and a number of other circumstances.
 
@@ -132,10 +127,10 @@ _Cheating_: If one side visibly cheats or breaks the rules, the DC for that side
   
   
 
-<thead><tr>
-<th>Crowd Size</th>
-<th>Bonus on Perception and Sense Motive<br>Checks to Spot Cheating</th>
-</tr></thead>| Small crowd | +8 |
+| Crowd Size | Bonus on Perception and Sense Motive  
+Checks to Spot Cheating |
+| --- | --- |
+| Small crowd | +8 |
 | Medium crowd | +12 |
 | Large crowd | +16 |
 | Massive mob | +20 |
@@ -158,11 +153,9 @@ _Bribery or Coercion_: Crowds can be bribed or coerced. Typically a successful b
   
   
 
-<thead><tr>
-<th>Crowd Size</th>
-<th>Diplomacy DC</th>
-<th>Gold Paid</th>
-</tr></thead>| Small crowd | DC 15 | 25 gp |
+| Crowd Size | Diplomacy DC | Gold Paid |
+| --- | --- | --- |
+| Small crowd | DC 15 | 25 gp |
 | Medium crowd | DC 20 | 250 gp |
 | Large crowd | DC 25 | 750 gp |
 | Massive mob | DC 30 | 2,000 gp |

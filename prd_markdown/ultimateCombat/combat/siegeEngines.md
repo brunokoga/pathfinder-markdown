@@ -36,11 +36,10 @@ Firearm siege weapons do not gain a mishap on a natural 1, but instead have a mi
 
 **Assembling Siege Engines** : Siege engines are broken down for transport and can be reassembled on the battlefield, requiring the time and number of workers noted below. Each assembly worker must make a DC 10 [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (siege engine) check; if untrained, they may not take 10. Assembly can be performed with at least half the required number of workers by doubling the time required. If fewer than half are available, the weapon cannot be assembled.
 
-<caption>Table: Siege Engine Assembly</caption><thead><tr>
-<th>Engine Size</th>
-<th>Time Required</th>
-<th>Workers Required</th>
-</tr></thead>| Small | 1 minute | 1 |
+[Table: Siege Engine Assembly]
+| Engine Size | Time Required | Workers Required |
+| --- | --- | --- |
+| Small | 1 minute | 1 |
 | Medium | 10 minutes | 2 |
 | Large | 1 hour | 4 |
 | Huge | 2 hours | 6 |
@@ -97,10 +96,10 @@ If the attack misses the intended square, roll 1d8 to determine in what directio
   
   
 
-<caption>Table: Indirect Attack Check Modifiers</caption><thead><tr>
-<th>Condition</th>
-<th>Modifier</th>
-</tr></thead>| No line of sight to target square | –6 |
+[Table: Indirect Attack Check Modifiers]
+| Condition | Modifier |
+| --- | --- |
+| No line of sight to target square | –6 |
 | Successive shots (crew can see where most recent miss landed) | Cumulative +2 per previous miss (maximum +10) |
 | Successive shots (crew can't see where most recent missed  
  shot landed, but observer is providing feedback) | Cumulative +1 per previous miss (maximum +5) |
@@ -110,19 +109,10 @@ If the attack misses the intended square, roll 1d8 to determine in what directio
   
   
 
-<caption>Table: Ranged Siege Engines</caption><thead><tr>
-<th>Direct-Fire Engines</th>
-<th>Cost</th>
-<th>Dmg</th>
-<th>Critical</th>
-<th>Range</th>
-<th>Type<sup>1</sup>
-</th>
-<th>Crew</th>
-<th>Aim</th>
-<th>Load</th>
-<th>Speed</th>
-</tr></thead>| _Large Siege Engines_ |
+[Table: Ranged Siege Engines]
+| Direct-Fire Engines | Cost | Dmg | Critical | Range | Typeⁱ | Crew | Aim | Load | Speed |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| _Large Siege Engines_ |
 |   Ballista, light | 500 gp | 3d8 | 19–20/×2 | 120 ft. | P | 1 | 0 | 2 | 10 ft. |
 |   Cannon | 6,000 gp | 6d6 | ×4 | 100 ft. | B and P | 2 | 1 | 3 | 10 ft. |
 | _Huge Siege Engines_ |
@@ -148,8 +138,6 @@ If the attack misses the intended square, roll 1d8 to determine in what directio
 |   Bombard, heavy | 16,000 gp | 9d6 | ×4 | 200 ft. (100 ft. min.) | B and P | 4 | 3 | 5 | 0 ft. |
 |   Catapult, heavy | 1,000 gp | 8d6 | ×2 | 300 ft. (100 ft. min.) | B | 4 | 3 | 3 | 0 ft. |
 |   Trebuchet, heavy | 1,500 gp | 8d6 | ×2 | 400 ft. (200 ft. min.) | B | 4 | 3 | 3 | 0 ft. |
-<tfoot><tr><td colspan="10">
-<sup>1</sup> A weapon with two types is both types if the entry specifies âand.â</td></tr></tfoot>
 
 The following are siege weapon descriptions.
 
@@ -233,11 +221,10 @@ _Heavy_: These Gargantuan siege engines typically hurl large stones indirectly a
 
 The following kinds of ammunition can be used either in select types of indirect-fire siege engines, or with cannons. The ammunition description specifies which types of siege engines use the special ammunition. The costs and weights are for individual uses of special ammunition.
 
-<caption>Table: Special Siege Engine Ammunition</caption><thead><tr>
-<th>Ammunition</th>
-<th>Cost</th>
-<th>Weight</th>
-</tr></thead>| Alchemist's fire | 200 gp | 10 lbs. |
+[Table: Special Siege Engine Ammunition]
+| Ammunition | Cost | Weight |
+| --- | --- | --- |
+| Alchemist's fire | 200 gp | 10 lbs. |
 | Blast shot | 30 gp | 25 lbs. |
 | Bomb | 600 gp | 30 lbs. |
 | Chain shot | 50 gp | 30 lbs. |
@@ -263,15 +250,10 @@ The following kinds of ammunition can be used either in select types of indirect
 
 While most siege engines attack at range, some are used up close to directly undermine defenses, batter through them, or otherwise bypass them. Some close assault weapons are not even weapons at all, but instead provide means for assault forces to protect themselves or circumvent fortifications without destroying them.
 
-<caption>Table: Close Assault Siege Engines</caption><thead><tr>
-<th>Close Assault Engines</th>
-<th>Cost</th>
-<th>Dmg</th>
-<th>Critical</th>
-<th>Type</th>
-<th>Crew</th>
-<th>Speed</th>
-</tr></thead>| _Bridge, assault_ |
+[Table: Close Assault Siege Engines]
+| Close Assault Engines | Cost | Dmg | Critical | Type | Crew | Speed |
+| --- | --- | --- | --- | --- | --- | --- |
+| _Bridge, assault_ |
 |   Large | 1 gp | — | — | — | — | — |
 |   Huge | 10 gp | — | — | — | — | — |
 |   Gargantuan | 50 gp | — | — | — | — | — |
@@ -300,11 +282,10 @@ While most siege engines attack at range, some are used up close to directly und
 
 **Bridge, Assault** : An assault bridge is used to span a ditch, moat, or other gap. Raising an assault bridge requires one full-round action per 5 feet of length; up to four creatures may cooperate to raise a bridge. The time required is doubled for each size category that the bridge is larger than the creatures raising it. Large assault bridges have 40 hit points, Huge ones have 60 hit points, Gargantuan ones have 160 hit points, and Colossal ones have 240 hit points.
 
-<caption>Table: Bridges and Escalade Ladders</caption><thead><tr>
-<th>Size</th>
-<th>Width</th>
-<th>Length/Height</th>
-</tr></thead>| Large | 5 ft. | 20 ft. |
+[Table: Bridges and Escalade Ladders]
+| Size | Width | Length/Height |
+| --- | --- | --- |
+| Large | 5 ft. | 20 ft. |
 | Huge | 5 ft. | 30 ft. |
 | Gargantuan | 10 ft. | 40 ft. |
 | Colossal | 10 ft. | 60 ft. |
@@ -364,10 +345,10 @@ The upper section of a siege tower provides improved cover for a number of soldi
 
 Siege towers have a hardness of 5, and hit points based on their size. A Large siege tower has 60 hit points, a Huge one has 240 hit points, a Gargantuan one has 640 hit points, and a Colossal one has 1,250 hit points.
 
-<caption>Table: Siege Tower Complement</caption><thead><tr>
-<th>Size</th>
-<th>Soldiers</th>
-</tr></thead>| Large | 5 |
+[Table: Siege Tower Complement]
+| Size | Soldiers |
+| --- | --- |
+| Large | 5 |
 | Huge | 20 |
 | Gargantuan | 50 |
 | Colossal | 200 |
@@ -386,21 +367,12 @@ All these building statistics assume that the structure's inside is somewhat hol
 
 For larger buildings, put together multiple buildings of these sizes and add the hit points together.
 
-<caption>Table: Buildings</caption><thead>
-<tr>
-<th></th>
-<th></th>
-<th colspan="4">Hit Points</th>
-</tr>
-<tr>
-<th rowspan="2">Material</th>
-<th>Hardness</th>
-<th>Large</th>
-<th>Huge</th>
-<th>Colossal</th>
-<th>Gargantuan</th>
-</tr>
-</thead>| Wood | 5 | 120 | 270 | 960 | 3,240 |
+[Table: Buildings]
+| | | Hit Points |
+| --- | --- | --- |
+| Material | Hardness | Large | Huge | Colossal | Gargantuan |
+| --- | --- | --- | --- | --- | --- |
+| Wood | 5 | 120 | 270 | 960 | 3,240 |
 | Stone | 8 | 200 | 450 | 1,600 | 5400 |
 | Iron or steel | 10 | 400 | 900 | 3,200 | 10,800 |
 | Adamantine | 20 | 560 | 1,260 | 4,480 | 15,120 |
@@ -413,29 +385,15 @@ Gates can be magically treated. Doing so doubles the hardness and hit points. Ma
 
 Gates can be attacked and damaged, or they can become broken (as the condition) with a successful Strength check, usually as a result of ramming. When a gate gains the broken condition, it is effectively breached, and can be moved through as if it were an opening one size smaller.
 
-<caption>Table: Gates</caption><thead>
-<tr>
-<th></th>
-<th></th>
-<th></th>
-<th colspan="4">Hit Points</th>
-</tr>
-<tr>
-<th>Material</th>
-<th>Break DC<sup>1</sup>
-</th>
-<th>Hardness</th>
-<th>Large</th>
-<th>Huge</th>
-<th>Colossal</th>
-<th>Gargantuan</th>
-</tr>
-</thead>| Wood | 35 | 5 | 60 | 135 | 240 | 540 |
+[Table: Gates]
+| | | | Hit Points |
+| --- | --- | --- | --- |
+| Material | Break DCⁱ | Hardness | Large | Huge | Colossal | Gargantuan |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wood | 35 | 5 | 60 | 135 | 240 | 540 |
 | Stone | 38 | 8 | 100 | 225 | 400 | 900 |
 | Iron or steel | 24 | 10 | 200 | 500 | 800 | 1,800 |
 | Adamantine | 48 | 20 | 280 | 630 | 1,120 | 2,520 |
-<tfoot><tr><td colspan="7">
-<sup>1</sup> The DC assumes the gate is size Large and is barred and locked. Huge doors increase the break DC by 5, Colossal doors increase the DC by 10, and Gargantuan doors increase the DC by 15. <i><a href="/pathfinderRPG/prd/spells/arcaneLock.html#_arcane-lock">Arcane lock</a></i> increases the DC by 10. </td></tr></tfoot>
 
 ## Walls
 

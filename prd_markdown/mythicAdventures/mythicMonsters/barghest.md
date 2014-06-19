@@ -42,7 +42,7 @@ Statistics
 
 **Base Atk** +9; **CMB** +17; **CMD** 29 (33 vs. trip)
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Great Fortitude](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_great-fortitude-mythic)<sup>M</sup>, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)
+**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Great Fortitude](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_great-fortitude-mythic)M, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +14 (+18 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +16, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +16, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +16, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +16, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +16, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +16, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +10, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +16, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +16
 

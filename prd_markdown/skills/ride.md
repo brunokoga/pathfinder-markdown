@@ -6,10 +6,9 @@ You are skilled at riding mounts, usually a horse, but possibly something more e
 
 **Check** : Typical riding actions don't require checks. You can saddle, mount, ride, and dismount from a mount without a problem. The following tasks do require checks.
 
-<thead><tr>
-<th>Task</th>
-<th>Ride DC</th>
-</tr></thead><tbody>
+| Task | Ride DC |
+| --- | --- |
+<tbody>
 <tr class="odd">
 <td>Guide with knees</td>
 <td>5</td>

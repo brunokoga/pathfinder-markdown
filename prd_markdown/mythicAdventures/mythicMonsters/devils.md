@@ -8,7 +8,7 @@ XP 12,800
 
 LE Large outsider ( [devil](/pathfinderRPG/prd/monsters/creatureTypes.html#_devil-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [lawful](/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype), [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
 
-**Init** +13<sup>M</sup>; **Senses** darkvision 60 ft., [see in darkness](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_see-in-darkness); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +19
+**Init** +13M; **Senses** darkvision 60 ft., [see in darkness](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_see-in-darkness); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +19
 
 **Aura** [fear](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear) (5 ft., DC 19, 1d6 rounds)
 
@@ -48,7 +48,7 @@ Statistics
 
 **Base Atk** +10; **CMB** +18; **CMD** 33
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Combat Reflexes](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_combat-reflexes-mythic)<sup>M</sup>, [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)<sup>M</sup>, [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Quicken Spell-Like Ability](/pathfinderRPG/prd/monsters/monsterFeats.html#_quicken-spell-like-ability) (_ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_)
+**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Combat Reflexes](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_combat-reflexes-mythic)M, [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)M, [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Quicken Spell-Like Ability](/pathfinderRPG/prd/monsters/monsterFeats.html#_quicken-spell-like-ability) (_ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_)
 
 **Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +17, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +17, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +20, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +17, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +16, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +19, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +19, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +16, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +14
 
@@ -82,7 +82,7 @@ XP 76,800
 
 LE Large outsider ( [devil](/pathfinderRPG/prd/monsters/creatureTypes.html#_devil-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [lawful](/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype), [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
 
-**Init** +15<sup>M</sup>; **Senses** [all-around vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_all-around-vision), darkvision 60 ft., [see in darkness](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_see-in-darkness); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +27
+**Init** +15M; **Senses** [all-around vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_all-around-vision), darkvision 60 ft., [see in darkness](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_see-in-darkness); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +27
 
 **Aura** [fear](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear) (10 ft., DC 24)
 
@@ -120,7 +120,7 @@ Statistics
 
 **Base Atk** +14; **CMB** +22; **CMD** 37
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Combat Reflexes](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_combat-reflexes-mythic)<sup>M</sup>, [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)<sup>M</sup>, [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)<sup>M</sup>, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (spear)
+**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Combat Reflexes](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_combat-reflexes-mythic)M, [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)M, [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (spear)
 
 **Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +22, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +24, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +24, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +13, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +21, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +24, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (any three others) +21, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +27, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +27, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +21, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +18, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +23
 

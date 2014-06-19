@@ -4,22 +4,20 @@ The wrists slot consists of armbands, bracers, bracelets, gauntlets, manacles, s
 
 Anyone can use a wrists slot wondrous item unless specified otherwise by its description. These wondrous items are usually use-activated or triggered by a command word, but details vary from item to item.
 
-<caption>Wrists Slot Wondrous Items</caption><thead><tr>
-<th>d%</th>
-<th>Lesser Minor Wrists Item</th>
-<th>Price</th>
-</tr></thead>| 01–10 | _Sleeves of many garments_ | 200 gp |
+[Wrists Slot Wondrous Items]
+| d% | Lesser Minor Wrists Item | Price |
+| --- | --- | --- |
+| 01–10 | _Sleeves of many garments_ | 200 gp |
 | 11–20 | _Armbands of the brawler_ | 500 gp |
 | 21–48 | _Bracers of armor +1_ | 1,000 gp |
 | 49–63 | _Burglar's bracers_ | 1,000 gp |
 | 64–91 | _Bracers of steadiness_ | 2,000 gp |
 | 92–96 | _Manacles of cooperation_ | 2,000 gp |
 | 97–100 | _Shackles of compliance_ | 3,280 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Minor Wrists Item</th>
-<th>Price</th>
-</tr></thead>| 01–27 | _Bracers of armor +2_ | 4,000 gp |
+
+| d% | Greater Minor Wrists Item | Price |
+| --- | --- | --- |
+| 01–27 | _Bracers of armor +2_ | 4,000 gp |
 | 28 | _Bracers of falcon's aim_ | 4,000 gp |
 | 29–38 | _Inquisitor's bastion vambraces_ | 4,000 gp |
 | 39–65 | _Bracers of archery, lesser_ | 5,000 gp |
@@ -29,11 +27,10 @@ Anyone can use a wrists slot wondrous item unless specified otherwise by its des
 | 82–98 | _Verdant vine_ | 6,000 gp |
 | 99 | _Longarm bracers_ | 7,200 gp |
 | 100 | _Bracers of the glib entertainer_ | 7,900 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Medium Wrists Item</th>
-<th>Price</th>
-</tr></thead>| 01–04 | _Charm bracelet_ | 8,000 gp |
+
+| d% | Lesser Medium Wrists Item | Price |
+| --- | --- | --- |
+| 01–04 | _Charm bracelet_ | 8,000 gp |
 | 05–08 | _Duelist's vambraces_ | 8,000 gp |
 | 09–13 | _Merciful vambraces_ | 8,000 gp |
 | 14–18 | _Vambraces of the tactician_ | 8,000 gp |
@@ -48,29 +45,26 @@ Anyone can use a wrists slot wondrous item unless specified otherwise by its des
 | 87–90 | _Bracelet of second chances_ | 15,750 gp |
 | 91–99 | _Bracers of armor +4_ | 16,000 gp |
 | 100 | _Shackles of durance vile_ | 16,200 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Medium Wrists Item</th>
-<th>Price</th>
-</tr></thead>| 01–10 | _Vambraces of the genie (djinni)_ | 18,900 gp |
+
+| d% | Greater Medium Wrists Item | Price |
+| --- | --- | --- |
+| 01–10 | _Vambraces of the genie (djinni)_ | 18,900 gp |
 | 11–20 | _Vambraces of the genie (marid)_ | 18,900 gp |
 | 21–30 | _Vambraces of the genie (shaitan)_ | 18,900 gp |
 | 31–50 | _Bracelet of friends_ | 19,000 gp |
 | 51–70 | _Bracers of archery, greater_ | 25,000 gp |
 | 71–90 | _Bracers of armor +5_ | 25,000 gp |
 | 91–100 | _Bracers of sworn vengeance_ | 25,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Lesser Major Wrists Item</th>
-<th>Price</th>
-</tr></thead>| 01–30 | _Dimensional shackles_ | 28,000 gp |
+
+| d% | Lesser Major Wrists Item | Price |
+| --- | --- | --- |
+| 01–30 | _Dimensional shackles_ | 28,000 gp |
 | 31–45 | _Gauntlets of skill at arms_ | 30,000 gp |
 | 46–100 | _Bracers of armor +6_ | 36,000 gp |
-<thead><tr>
-<th>d%</th>
-<th>Greater Major Wrists Item</th>
-<th>Price</th>
-</tr></thead>| 01–60 | _Bracers of armor +7_ | 49,000 gp |
+
+| d% | Greater Major Wrists Item | Price |
+| --- | --- | --- |
+| 01–60 | _Bracers of armor +7_ | 49,000 gp |
 | 61–100 | _Bracers of armor +8_ | 64,000 gp |
 
 Armbands of the Brawler

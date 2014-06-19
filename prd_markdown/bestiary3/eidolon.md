@@ -34,7 +34,7 @@ Statistics
 
 **Base Atk** +10; **CMB** +13; **CMD** 27 (can_'_t be tripped)
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack)<sup>B</sup>, [Toughness](/pathfinderRPG/prd/feats.html#_toughness), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack)B, [Toughness](/pathfinderRPG/prd/feats.html#_toughness), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
 
 **Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +13, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +11, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +16, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +6, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +13, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +8, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +12
 
